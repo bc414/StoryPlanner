@@ -5,10 +5,13 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              xmlns:vm="clr-namespace:StoryPlanner.Models;assembly=StoryPlanner"
+             xmlns:views="clr-namespace:WindowedStoryPlanner.Views"
              d:DataContext="{d:DesignInstance Type=vm:Note, IsDesignTimeCreatable=True}"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <StackPanel Orientation="Horizontal">
         <TextBlock Text="{Binding Content}" TextWrapping="Wrap"></TextBlock>
+        <Button Command="{Binding DataContext.DeleteNoteCommand, RelativeSource={RelativeSource AncestorType=views:NoteViewer}}" 
+                CommandParameter="{Binding}" Content="Delete"/>
     </StackPanel>
 </UserControl>

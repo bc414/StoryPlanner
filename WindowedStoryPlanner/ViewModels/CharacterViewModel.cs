@@ -8,10 +8,14 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class CharacterViewModel : ObservableObject
 {
     private readonly Character _character;
+    
+    public NotesViewModel NotesViewModel { get; }
 
     public CharacterViewModel(Character character)
     {
         _character = character;
+
+        NotesViewModel = new NotesViewModel(character.Notes);
     }
 
     // --- Properties Wrapper ---
@@ -46,16 +50,5 @@ public partial class CharacterViewModel : ObservableObject
 
     // --- Commands ---
 
-    [RelayCommand]
-    public void AddNote()
-    {
-        var newNote = new Note 
-        { 
-            Content = "New Character Note", 
-            CharacterId = _character.Id // Link it to THIS character
-        };
-
-        // Adding to the ObservableCollection updates the UI and EF Core tracking automatically
-        _character.Notes.Add(newNote);
-    }
+    
 }

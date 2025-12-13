@@ -6,6 +6,8 @@
              xmlns:models="clr-namespace:StoryPlanner.Models"
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              xmlns:views="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:viewModels="clr-namespace:WindowedStoryPlanner.ViewModels"
+             d:DataContext="{d:DesignInstance Type=viewModels:NotesViewModel, IsDesignTimeCreatable=True}"
              mc:Ignorable="d" d:DesignHeight="450" d:DesignWidth="300">
 
     <DockPanel>
@@ -17,7 +19,7 @@
             </DockPanel>
         </Border>
 
-        <ListBox ItemsSource="{Binding NotesSource}" 
+        <ListBox ItemsSource="{Binding TargetCollection}" 
                  HorizontalContentAlignment="Stretch"
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  BorderThickness="0"

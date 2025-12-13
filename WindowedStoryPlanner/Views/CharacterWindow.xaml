@@ -53,9 +53,7 @@
         <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Background="Transparent"/>
 
         <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" Margin="5,0,0,0">
-            <views:NoteViewer 
-                NotesSource="{Binding Notes}"
-                AddNoteCommand="{Binding AddNoteCommand}" />
+            <views:NoteViewer DataContext="{Binding NotesViewModel}" />
         </Border>
 
     </Grid>
