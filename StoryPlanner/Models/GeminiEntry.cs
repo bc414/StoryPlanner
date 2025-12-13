@@ -1,8 +1,9 @@
+using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Components;
 
 namespace StoryPlanner.Models;
 
-public class GeminiEntry
+public partial class GeminiEntry : ObservableObject
 {
     public int Id { get; set; }
     
@@ -24,14 +25,23 @@ public class GeminiEntry
     /// <summary>
     /// Whether I have read through the contents and added the details to the StoryPlanner
     /// </summary>
-    public bool IsAnalyzed { get; set; }
+    [ObservableProperty] private bool _isAnalyzed;
 
-    public static GeminiEntry FromJson(GeminiJsonReader input)
+    public static List<GeminiEntry> FromJson(List<GeminiJsonReader> inputs)
     {
-        GeminiEntry answer = new GeminiEntry();
-        answer.Time = input.Time;
-        answer.Prompt = input.Title.Substring(9); //Strip out "Prompted " from the beginning
-        answer.ResponseHtml = input.SafeHtmlItems[0].Html;
-        return answer;
+        List<GeminiEntry> answers = new List<GeminiEntry>();
+        foreach (GeminiJsonReader input in inputs)
+        {
+            if (!input.Title.Contains("Gemini Canvas"))
+            {
+                GeminiEntry answer = new GeminiEntry();
+                answer.Time = input.Time;
+                answer.Prompt = input.Title.Substring(9); //Strip out "Prompted " from the beginning
+                answer.ResponseHtml = input.SafeHtmlItems != null && input.SafeHtmlItems.Count > 0 ? input.SafeHtmlItems[0].Html : "No Response";
+                answers.Add(answer);
+            }
+        }
+
+        return answers;
     }
 }

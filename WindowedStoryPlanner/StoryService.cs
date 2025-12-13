@@ -1,7 +1,9 @@
 using System.Collections.ObjectModel;
 using System.IO;
+using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner;
+using StoryPlanner.Components;
 using StoryPlanner.Models;
 
 namespace WindowedStoryPlanner;
@@ -35,9 +37,27 @@ public class StoryService : IDisposable
         
     }
 
-    public async Task StoreGeminiEntriesAsync(string filePath)
+    public async Task StoreGeminiEntriesAsync(string file)
     {
+        if (_context == null) return;
         
+        using Stream stream = File.OpenRead(file);
+        using StreamReader reader = new StreamReader(stream);
+            
+        // Read file to string
+        string jsonContent = await reader.ReadToEndAsync();
+
+        // Deserialize with case-insensitive options just to be safe
+        JsonSerializerOptions options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+
+        var entries = JsonSerializer.Deserialize<List<GeminiJsonReader>>(jsonContent, options);
+
+        var answers = GeminiEntry.FromJson(entries);
+        _context.GeminiEntries.AddRange(answers);
+        await SaveAsync();
     }
 
     // --- 1. NEW PROJECT ---

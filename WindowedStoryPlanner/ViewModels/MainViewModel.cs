@@ -19,6 +19,8 @@ public partial class MainViewModel : ObservableObject
     public ObservableCollection<Character> Characters => _storyService.Characters;
     public ObservableCollection<Chapter> Chapters => _storyService.Chapters;
     public ObservableCollection<StoryThread> Threads => _storyService.Threads;
+    
+    public ObservableCollection<GeminiEntry> GeminiEntries => _storyService.GeminiEntries;
 
     // Track open windows to prevent duplicates
     private Dictionary<object, Window> _openWindows = new();
@@ -67,8 +69,7 @@ public partial class MainViewModel : ObservableObject
     {
         var dialog = new OpenFileDialog
         {
-            Title = "Open Gemini Prompts",
-            Filter = "*.json"
+            Title = "Open Gemini Prompts"
         };
 
         if (dialog.ShowDialog() == true)
@@ -95,6 +96,7 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(Characters));
             OnPropertyChanged(nameof(Chapters));
             OnPropertyChanged(nameof(Threads));
+            OnPropertyChanged(nameof(GeminiEntries));
         }
         else
         {
@@ -121,14 +123,11 @@ public partial class MainViewModel : ObservableObject
     [RelayCommand]
     public void OpenCharacter(Character character)
     {
-        if (character == null) return;
-        if (ActivateIfOpen(character)) return;
-
-        var vm = new CharacterViewModel(character);
-        var win = new CharacterWindow { DataContext = vm };
-        
-        RegisterWindow(character, win);
-        win.Show();
+        // Usage: OpenWindow<WindowType>(Key, () => new ViewModel(...));
+        OpenEditorWindow<CharacterWindow>(
+            character, 
+            () => new CharacterViewModel(character)
+        );
     }
 
     [RelayCommand]
@@ -152,6 +151,39 @@ public partial class MainViewModel : ObservableObject
     {
         if (thread == null) return;
         MessageBox.Show($"Opening Thread: {thread.Name}");
+    }
+    
+    private void OpenEditorWindow<TWindow>(object modelKey, Func<object> viewModelFactory) 
+        where TWindow : Window, new()
+    {
+        if (modelKey == null) return;
+
+        // 1. CHECK: Is it already open?
+        if (_openWindows.TryGetValue(modelKey, out var existingWin))
+        {
+            // Safety: Check if it's actually alive (user might have closed it)
+            if (existingWin.IsLoaded)
+            {
+                existingWin.Activate(); // Bring to front
+                if (existingWin.WindowState == WindowState.Minimized)
+                    existingWin.WindowState = WindowState.Normal;
+                return;
+            }
+            // If it's not loaded, remove the dead reference
+            _openWindows.Remove(modelKey);
+        }
+
+        // 2. CREATE: Make the Window and ViewModel
+        var window = new TWindow();
+    
+        // We execute the "Factory" function here to get the specific VM we need
+        window.DataContext = viewModelFactory();
+
+        // 3. TRACK: Add to dictionary and listen for close
+        _openWindows[modelKey] = window;
+        window.Closed += (s, e) => _openWindows.Remove(modelKey);
+
+        window.Show();
     }
 
     // --- WINDOW MANAGEMENT HELPERS ---

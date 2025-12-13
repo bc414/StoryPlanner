@@ -4,13 +4,27 @@
         xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:views="clr-namespace:WindowedStoryPlanner.Views"
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance Type=vm:MainViewModel, IsDesignTimeCreatable=False}"
         Title="Mission Control" Height="600" Width="900"
         WindowStartupLocation="CenterScreen">
 
-    
+    <TabControl TabStripPlacement="Left">
+        <TabItem Header="File Management">
+            <views:FileManagerTab/>
+        </TabItem>
+        <TabItem Header="Characters">
+            <views:CharacterLibrary /> 
+        </TabItem>
+        <TabItem Header="Gemini Prompts">
+            <views:GeminiLibrary /> 
+        </TabItem>
 
+    </TabControl>
+    
+    
+    <!--
     <ScrollViewer VerticalScrollBarVisibility="Auto">
         <StackPanel Margin="20">
             
@@ -154,4 +168,5 @@
         
         
     </ScrollViewer>
+    -->
 </Window>
