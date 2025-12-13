@@ -1,11 +1,14 @@
+using System.Text.Json.Serialization;
 namespace StoryPlanner.Models;
 
 public class PlotPointNote
 {
     public int PlotPointId { get; set; }
+    [JsonIgnore]
     public PlotPoint PlotPoint { get; set; } = null!;
 
     public int NoteId { get; set; }
+    [JsonIgnore]
     public Note Note { get; set; } = null!;
 
     // Did we follow the note?

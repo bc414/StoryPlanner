@@ -1,3 +1,4 @@
+using System.Text.Json.Serialization;
 namespace StoryPlanner.Models;
 
 
@@ -23,11 +24,13 @@ public class PlotPoint
 
     // 1. Structure (Time)
     public int? ChapterId { get; set; }
+    [JsonIgnore]
     public Chapter? Chapter { get; set; }
     public int OrderInChapter { get; set; }
 
     // 2. Geography (Space)
     public int? LocationId { get; set; }
+    [JsonIgnore]
     public Location? Location { get; set; }
 
     // 3. Narrative (Threads)
@@ -41,5 +44,5 @@ public class PlotPoint
     public List<PlotPointTheme> ThemeAssignments { get; set; } = new();
     public List<PlotPointCharacter> CharacterAppearances { get; set; } = new();
 
-    public List<PlotPointNote> Notes { get; set; } = new();
+    public List<PlotPointNote> NoteReferences { get; set; } = new();
 }

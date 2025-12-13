@@ -1,0 +1,71 @@
+@inject StoryStateService StoryStateService
+@rendermode InteractiveServer
+
+<Dropzone Items="Chapter.PlotPoints" Context="plotPoint" OnItemDrop="@((PlotPoint p) => OnDrop(p))">
+    <PlotPointCard PlotPoint="plotPoint"></PlotPointCard>
+</Dropzone>
+<button class="btn btn-outline-primary w-10 mt-2" @onclick="AddNewPlotPoint">
+    <i class="bi bi-plus-lg"></i> +
+</button>
+
+@code {
+    
+
+    [Parameter]
+    [EditorRequired]
+    public int ChapterId { get; set; }
+
+    public Chapter Chapter { get; set; } = null!;
+
+    protected override void OnInitialized()
+    {
+        Chapter = StoryStateService.GetChapter(ChapterId);
+    }
+
+    // This runs when you drop an item
+    private async Task OnDrop(PlotPoint item)
+    {
+        Chapter.PlotPoints.UpdateAllOrderInChapter();
+        //Save everything
+        await StoryStateService.SaveAsync();
+    }
+
+    private async Task AddNewPlotPoint()
+    {
+        int nextOrder = 0;
+        if (Chapter.PlotPoints.Any())
+        {
+            nextOrder = Chapter.PlotPoints.Max(p => p.OrderInChapter) + 1;
+        }
+
+        PlotPoint newPoint = new PlotPoint
+        {
+            Title = "New Event",
+            ChapterId = ChapterId,
+            OrderInChapter = nextOrder,
+            Description = "Test"
+        };
+        
+        Chapter.PlotPoints.Add(newPoint);
+        StoryStateService.AddPlotPoint(newPoint);
+        await StoryStateService.SaveAsync();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        /*
+        // 1. Ensure the Service (and DB Context) is loaded in this Interactive Scope
+        if (!StoryStateService.IsInitialized)
+        {
+            await StoryStateService.LoadProjectAsync();
+        }
+
+        // 2. "Upgrade" the detached Parameter list to the Live list from the Service.
+        // This ensures EF Core tracks the changes we make to this list.
+        var liveChapter = StoryStateService.Chapters.FirstOrDefault(c => c.Id == ChapterId);
+        if (liveChapter != null) Chapter.PlotPoints = liveChapter.PlotPoints;
+
+        Chapter.PlotPoints.Sort((p1, p2) => p1.OrderInChapter.CompareTo(p2.OrderInChapter));*/
+    }
+
+}

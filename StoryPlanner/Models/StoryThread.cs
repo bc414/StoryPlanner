@@ -8,4 +8,6 @@ public class StoryThread
     public string ColorHex { get; set; } = "#FFFFFF"; // For UI pill badges
 
     public List<PlotPointThread> PlotPointAssignments { get; set; } = new();
+
+    public List<Note> Notes { get; set; } = new();
 }

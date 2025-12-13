@@ -17,6 +17,7 @@ public class StoryStateService : IDisposable
     public List<Theme> Themes { get; private set; } = new();
     public List<PlotPoint> FloatingPlotPoints { get; private set; } = new();
 
+    public bool IsInitialized { get; private set; } = false;
     public event Action? OnChange; // To trigger UI updates
 
     public StoryStateService(IDbContextFactory<AppDbContext> factory)
@@ -56,18 +57,36 @@ public class StoryStateService : IDisposable
             .Include(p => p.ThreadAssignments)
             .ToListAsync();
 
+        IsInitialized = true;
         NotifyStateChanged();
+    }
+
+    public Chapter GetChapter(int chapterID)
+    {
+        return Chapters.Where(c => c.OrderIndex == chapterID).FirstOrDefault();
+    }
+
+    // 1.5 Allow components to add items to the tracking context
+    public void AddPlotPoint(PlotPoint plotPoint)
+    {
+        if (_context == null)
+        {
+            throw new InvalidOperationException("Cannot add PlotPoint: StoryStateService is not initialized. Call LoadProjectAsync() first.");
+        }
+        _context.PlotPoints.Add(plotPoint);
     }
 
     // 2. The Magic Save Button
     public async Task SaveAsync()
     {
-        if (_context != null)
+        if (_context == null)
         {
-            // EF Core already knows what changed. 
-            // We just commit it to the SQLite file.
-            await _context.SaveChangesAsync();
+            throw new InvalidOperationException("Cannot save: StoryStateService is not initialized. Call LoadProjectAsync() first.");
         }
+        
+        // EF Core already knows what changed. 
+        // We just commit it to the SQLite file.
+        await _context.SaveChangesAsync();
     }
 
     // 3. Helper to notify Blazor to re-render

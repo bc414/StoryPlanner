@@ -12,6 +12,7 @@ public class AppDbContext : DbContext
     public DbSet<StoryThread> Threads { get; set; }
     public DbSet<Location> Locations { get; set; }
     public DbSet<PlotPoint> PlotPoints { get; set; }
+    public DbSet<PlotPointNote> PlotPointNotes { get; set; }
     
     // The "Concept Containers"
     public DbSet<Character> Characters { get; set; }
@@ -20,6 +21,8 @@ public class AppDbContext : DbContext
     
     // The Atomic Unit of Truth
     public DbSet<Note> Notes { get; set; }
+    
+    public DbSet<SourceMaterial> SourceMaterials { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -44,6 +47,16 @@ public class AppDbContext : DbContext
         // PlotPoint <-> Note (Consistency Check)
         modelBuilder.Entity<PlotPointNote>()
             .HasKey(pn => new { pn.PlotPointId, pn.NoteId });
+
+        modelBuilder.Entity<PlotPointNote>()
+            .HasOne(pn => pn.PlotPoint)
+            .WithMany(p => p.NoteReferences) // <--- Explicitly map your new name here
+            .HasForeignKey(pn => pn.PlotPointId);
+
+        modelBuilder.Entity<PlotPointNote>()
+            .HasOne(pn => pn.Note)
+            .WithMany(n => n.PlotPointReferences)
+            .HasForeignKey(pn => pn.NoteId);
 
         // =========================================================
         // 2. SELF-REFERENCING RELATIONSHIPS (The Logic Engine)
@@ -80,6 +93,12 @@ public class AppDbContext : DbContext
             .WithMany(n => n.Prerequisites)
             .HasForeignKey(nd => nd.DependentId)
             .OnDelete(DeleteBehavior.Restrict);
+        
+        modelBuilder.Entity<Note>()
+            .HasOne(n => n.SourceMaterial)
+            .WithMany(s => s.Notes)
+            .HasForeignKey(n => n.SourceMaterialId)
+            .OnDelete(DeleteBehavior.SetNull); // If you delete a Source, keep the note but clear the tag
 
         // =========================================================
         // 3. OPTIONAL CONSTRAINTS
@@ -103,6 +122,18 @@ public class AppDbContext : DbContext
             .HasOne(n => n.CodexEntry)
             .WithMany(c => c.Notes)
             .HasForeignKey(n => n.CodexEntryId)
+            .OnDelete(DeleteBehavior.Cascade);
+        
+        modelBuilder.Entity<Note>()
+            .HasOne(n => n.Chapter)
+            .WithMany(c => c.Notes)
+            .HasForeignKey(n => n.ChapterId)
+            .OnDelete(DeleteBehavior.Cascade);
+        
+        modelBuilder.Entity<Note>()
+            .HasOne(n => n.StoryThread)
+            .WithMany(c => c.Notes)
+            .HasForeignKey(n => n.StoryThreadId)
             .OnDelete(DeleteBehavior.Cascade);
     }
 }

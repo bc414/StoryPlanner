@@ -2,11 +2,13 @@ using Microsoft.EntityFrameworkCore;
 using StoryPlanner;
 using StoryPlanner.Components;
 using StoryPlanner.Services;
+using Plk.Blazor.DragDrop;
 
 var builder = WebApplication.CreateBuilder(args);
 
 //holds the current file name
 builder.Services.AddSingleton<StorySession>();
+builder.Services.AddScoped<StoryStateService>();
 
 // 2. Register the DbContext Factory to use the Session's path
 builder.Services.AddDbContextFactory<AppDbContext>((serviceProvider, options) =>
@@ -19,6 +21,8 @@ builder.Services.AddDbContextFactory<AppDbContext>((serviceProvider, options) =>
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+builder.Services.AddBlazorDragDrop();
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
@@ -26,7 +30,10 @@ using (var scope = app.Services.CreateScope())
     var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
     // This command creates the DB if it doesn't exist, 
     // AND applies any pending migrations (updates) if it does.
-    dbContext.Database.Migrate(); 
+    dbContext.Database.Migrate();
+    
+    // 2. Seed Data
+    await DataSeeder.SeedAsync(dbContext);
 }
 
 // Configure the HTTP request pipeline.
