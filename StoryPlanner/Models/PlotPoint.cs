@@ -1,3 +1,4 @@
+using System.Collections.ObjectModel;
 using System.Text.Json.Serialization;
 namespace StoryPlanner.Models;
 
@@ -34,15 +35,15 @@ public class PlotPoint
     public Location? Location { get; set; }
 
     // 3. Narrative (Threads)
-    public List<PlotPointThread> ThreadAssignments { get; set; } = new();
+    public ObservableCollection<PlotPointThread> ThreadAssignments { get; set; } = new();
 
     // 4. Causality (Self-Referencing)
-    public List<PlotPointDependency> Prerequisites { get; set; } = new(); // Causes
-    public List<PlotPointDependency> Dependents { get; set; } = new();    // Effects
+    public ObservableCollection<PlotPointDependency> Prerequisites { get; set; } = new(); // Causes
+    public ObservableCollection<PlotPointDependency> Dependents { get; set; } = new();    // Effects
 
     // 5. Meaning & Actors (Payloads)
-    public List<PlotPointTheme> ThemeAssignments { get; set; } = new();
-    public List<PlotPointCharacter> CharacterAppearances { get; set; } = new();
+    public ObservableCollection<PlotPointTheme> ThemeAssignments { get; set; } = new();
+    public ObservableCollection<PlotPointCharacter> CharacterAppearances { get; set; } = new();
 
-    public List<PlotPointNote> NoteReferences { get; set; } = new();
+    public ObservableCollection<PlotPointNote> NoteReferences { get; set; } = new();
 }

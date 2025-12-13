@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace StoryPlanner.Models;
 
 public class StoryThread
@@ -7,7 +9,7 @@ public class StoryThread
     public string Description { get; set; } = string.Empty;
     public string ColorHex { get; set; } = "#FFFFFF"; // For UI pill badges
 
-    public List<PlotPointThread> PlotPointAssignments { get; set; } = new();
+    public ObservableCollection<PlotPointThread> PlotPointAssignments { get; set; } = new();
 
-    public List<Note> Notes { get; set; } = new();
+    public ObservableCollection<Note> Notes { get; set; } = new();
 }

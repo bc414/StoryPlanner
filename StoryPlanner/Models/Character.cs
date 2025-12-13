@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace StoryPlanner.Models;
 
 public class Character
@@ -7,6 +9,6 @@ public class Character
     public string Inspiration { get; set; } = string.Empty;
     public string Archetype { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
-    public List<Note> Notes { get; set; } = new();
-    public List<PlotPointCharacter> Appearances { get; set; } = new();
+    public ObservableCollection<Note> Notes { get; set; } = new();
+    public ObservableCollection<PlotPointCharacter> Appearances { get; set; } = new();
 }

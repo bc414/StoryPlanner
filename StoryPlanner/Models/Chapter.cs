@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace StoryPlanner.Models;
 
 public class Chapter
@@ -10,7 +12,7 @@ public class Chapter
     // The explicit order in the book (1, 2, 3...)
     public int OrderIndex { get; set; } 
 
-    public List<PlotPoint> PlotPoints { get; set; } = new();
+    public ObservableCollection<PlotPoint> PlotPoints { get; set; } = new();
 
-    public List<Note> Notes { get; set; } = new();
+    public ObservableCollection<Note> Notes { get; set; } = new();
 }

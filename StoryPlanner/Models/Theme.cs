@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace StoryPlanner.Models;
 
 public class Theme
@@ -8,6 +10,6 @@ public class Theme
     public string Description { get; set; } = string.Empty;
     
     public string ColorHex { get; set; } = string.Empty;
-    public List<Note> Notes { get; set; } = new();
-    public List<PlotPointTheme> PlotPointAssignments { get; set; } = new();
+    public ObservableCollection<Note> Notes { get; set; } = new();
+    public ObservableCollection<PlotPointTheme> PlotPointAssignments { get; set; } = new();
 }

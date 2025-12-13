@@ -1,0 +1,62 @@
+<Window x:Class="WindowedStoryPlanner.Views.CharacterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:controls="clr-namespace:StoryPlanner"
+        xmlns:vm="clr-namespace:WindowedStoryPlanner"
+        xmlns:views="clr-namespace:WindowedStoryPlanner.Views"
+        xmlns:viewModels="clr-namespace:WindowedStoryPlanner.ViewModels"
+        mc:Ignorable="d"
+        Title="{Binding Name, StringFormat='Character: {0}'}" 
+        Height="600" Width="800"
+        d:DataContext="{d:DesignInstance Type=viewModels:CharacterViewModel}">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" /> <ColumnDefinition Width="5" />  <ColumnDefinition Width="1*" /> </Grid.ColumnDefinitions>
+
+        <DockPanel Grid.Column="0">
+            
+            <Grid DockPanel.Dock="Top" Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Name:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,10,5"/>
+                <TextBox Grid.Column="1" Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Margin="0,5"/>
+
+                <TextBlock Grid.Row="1" Text="Archetype:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,10,5"/>
+                <TextBox Grid.Row="1" Grid.Column="1" Text="{Binding Archetype, UpdateSourceTrigger=PropertyChanged}" Margin="0,5"/>
+
+                <TextBlock Grid.Row="2" Text="Inspiration:" FontWeight="Bold" VerticalAlignment="Center" Margin="0,5,10,5"/>
+                <TextBox Grid.Row="2" Grid.Column="1" Text="{Binding Inspiration, UpdateSourceTrigger=PropertyChanged}" Margin="0,5"/>
+            </Grid>
+
+            <GroupBox Header="Description &amp; Arc" DockPanel.Dock="Bottom">
+                <TextBox Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" 
+                         AcceptsReturn="True" 
+                         TextWrapping="Wrap" 
+                         VerticalScrollBarVisibility="Auto"
+                         BorderThickness="0"
+                         Background="Transparent"
+                         Padding="5"/>
+            </GroupBox>
+        </DockPanel>
+
+        <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Background="Transparent"/>
+
+        <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" Margin="5,0,0,0">
+            <views:NoteViewer 
+                NotesSource="{Binding Notes}"
+                AddNoteCommand="{Binding AddNoteCommand}" />
+        </Border>
+
+    </Grid>
+</Window>
