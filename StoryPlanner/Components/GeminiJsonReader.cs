@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 /// <summary>
 /// Represents one prompt and response to Gemini
 /// </summary>
-public class GeminiEntry
+public class GeminiJsonReader
 {
     [JsonPropertyName("header")]
     public string Header { get; set; }

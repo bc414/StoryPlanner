@@ -23,6 +23,8 @@ public class AppDbContext : DbContext
     public DbSet<Note> Notes { get; set; }
     
     public DbSet<SourceMaterial> SourceMaterials { get; set; }
+    
+    public DbSet<GeminiEntry> GeminiEntries { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

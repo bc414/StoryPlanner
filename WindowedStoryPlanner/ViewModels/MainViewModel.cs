@@ -63,6 +63,22 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
+    public async Task StoreGeminiPrompts()
+    {
+        var dialog = new OpenFileDialog
+        {
+            Title = "Open Gemini Prompts",
+            Filter = "*.json"
+        };
+
+        if (dialog.ShowDialog() == true)
+        {
+            await _storyService.StoreGeminiEntriesAsync(dialog.FileName);
+            UpdateState();
+        }
+    }
+
+    [RelayCommand]
     public async Task SaveChanges()
     {
         await _storyService.SaveAsync();

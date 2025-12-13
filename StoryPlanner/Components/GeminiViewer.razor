@@ -61,7 +61,7 @@
 </div>
 
 @code {
-    private List<GeminiEntry>? entries;
+    private List<GeminiJsonReader>? entries;
     private string? errorMessage;
 
     // Limit max file size to 10 MB just in case the history is long
@@ -89,12 +89,12 @@
                 PropertyNameCaseInsensitive = true
             };
 
-            entries = JsonSerializer.Deserialize<List<GeminiEntry>>(jsonContent, options);
+            entries = JsonSerializer.Deserialize<List<GeminiJsonReader>>(jsonContent, options);
 
             if (entries != null)
             {
                 Regex imgRegex = new Regex("<img[^>]*>", RegexOptions.IgnoreCase | RegexOptions.Compiled);
-                foreach (GeminiEntry entry in entries.Where(entry => entry.SafeHtmlItems != null))
+                foreach (GeminiJsonReader entry in entries.Where(entry => entry.SafeHtmlItems != null))
                 {
                     foreach (SafeHtmlItem htmlItem in entry.SafeHtmlItems!)
                     {

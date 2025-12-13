@@ -22,13 +22,20 @@ public class StoryService : IDisposable
     public ObservableCollection<CodexEntry> CodexEntries { get; private set; } = new();
     public ObservableCollection<SourceMaterial> SourceMaterials { get; private set; } = new();
 
-    // Floating points (filtered view)
+    // All plot points (to be filtered later)
     public ObservableCollection<PlotPoint> PlotPoints { get; private set; } = new();
+
+    public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
     
     public string CurrentFilePath { get; private set; } = string.Empty;
     public bool IsProjectLoaded { get; private set; } = false;
 
     public StoryService()
+    {
+        
+    }
+
+    public async Task StoreGeminiEntriesAsync(string filePath)
     {
         
     }
@@ -135,6 +142,7 @@ public class StoryService : IDisposable
         await _context.Locations.LoadAsync();
         await _context.CodexEntries.LoadAsync();
         await _context.SourceMaterials.LoadAsync();
+        await _context.GeminiEntries.LoadAsync();
 
         // ---------------------------------------------------------------------------
         // STEP 4: BIND TO UI
@@ -147,6 +155,7 @@ public class StoryService : IDisposable
         CodexEntries = _context.CodexEntries.Local.ToObservableCollection();
         SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
         PlotPoints = _context.PlotPoints.Local.ToObservableCollection();
+        GeminiEntries = _context.GeminiEntries.Local.ToObservableCollection();
 
         IsProjectLoaded = true;
     }
