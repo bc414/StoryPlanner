@@ -35,7 +35,7 @@ public partial class GeminiEntry : ObservableObject
             if (!input.Title.Contains("Gemini Canvas"))
             {
                 GeminiEntry answer = new GeminiEntry();
-                answer.Time = input.Time;
+                answer.Time = input.Time.ToLocalTime();
                 answer.Prompt = input.Title.Substring(9); //Strip out "Prompted " from the beginning
                 answer.ResponseHtml = input.SafeHtmlItems != null && input.SafeHtmlItems.Count > 0 ? input.SafeHtmlItems[0].Html : "No Response";
                 answers.Add(answer);

@@ -152,6 +152,15 @@ public partial class MainViewModel : ObservableObject
         if (thread == null) return;
         MessageBox.Show($"Opening Thread: {thread.Name}");
     }
+
+    [RelayCommand]
+    public void OpenGeminiEntry(GeminiEntry geminiEntry)
+    {
+        OpenEditorWindow<GeminiEntryWindow>(
+            geminiEntry, 
+            () => geminiEntry
+        );
+    }
     
     private void OpenEditorWindow<TWindow>(object modelKey, Func<object> viewModelFactory) 
         where TWindow : Window, new()

@@ -3,50 +3,68 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
-             mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300">
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300">
+
+    <UserControl.Resources>
+        <CollectionViewSource x:Key="GroupedEntries" Source="{Binding GeminiEntries}">
+            <CollectionViewSource.GroupDescriptions>
+                <PropertyGroupDescription PropertyName="Time.Date" />
+            </CollectionViewSource.GroupDescriptions>
+            <CollectionViewSource.SortDescriptions>
+                <scm:SortDescription PropertyName="Time" Direction="Descending" />
+            </CollectionViewSource.SortDescriptions>
+        </CollectionViewSource>
+    </UserControl.Resources>
+
     <Grid>
-        <ListBox ItemsSource="{Binding GeminiEntries}">
+        <ListBox ItemsSource="{Binding Source={StaticResource GroupedEntries}, Path=Groups}"
+                 ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                 HorizontalContentAlignment="Stretch"
+                 BorderThickness="0">
+            
             <ListBox.ItemTemplate>
                 <DataTemplate>
-                    <Border Padding="10" BorderBrush="Gray" BorderThickness="0,0,0,1">
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="50"/>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
+                    <StackPanel Margin="0,0,0,15">
+                        
+                        <Border Background="#EEE" Padding="5" Margin="0,0,0,5" CornerRadius="3">
+                            <TextBlock Text="{Binding Name, StringFormat='{}{0:D}'}" 
+                                       FontWeight="Bold" Foreground="#333"/>
+                        </Border>
 
-                            <TextBlock Text="🤖" FontSize="24" 
-                                       VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        <ItemsControl ItemsSource="{Binding Items}">
+                            
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel />
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
 
-                            <TextBlock Grid.Column="1" Text="{Binding Prompt}" 
-                                       FontWeight="Normal" TextTrimming="CharacterEllipsis" 
-                                       VerticalAlignment="Center" Margin="10,0"/>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Button ToolTip="{Binding Prompt}"
+                                            Command="{Binding DataContext.OpenGeminiEntryCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                            CommandParameter="{Binding}"
+                                            Padding="10,5" Margin="0,0,5,5" MinWidth="80">
 
-                            <Button Grid.Column="2" 
-                                    Content="{Binding Time, StringFormat='{}{0:MM/dd/yyyy}'}"
-                                    ToolTip="{Binding Prompt}"
-                                    Command="{Binding DataContext.OpenGeminiEntryCommand, RelativeSource={RelativeSource AncestorType=Window}}"
-                                    CommandParameter="{Binding}"
-                                    Padding="10,5" Margin="5">
-                                
-                                <Button.Style>
-                                    <Style TargetType="Button">
-                                        <Setter Property="Background" Value="#FF9999"/> 
-                                        
-                                        <Style.Triggers>
-                                            <DataTrigger Binding="{Binding IsAnalyzed}" Value="True">
-                                                <Setter Property="Background" Value="#90EE90"/>
-                                            </DataTrigger>
-                                        </Style.Triggers>
-                                    </Style>
-                                </Button.Style>
-                            </Button>
+                                        <TextBlock Text="{Binding Time, StringFormat='{}{0:t}'}" />
 
-                        </Grid>
-                    </Border>
+                                        <Button.Style>
+                                            <Style TargetType="Button">
+                                                <Setter Property="Background" Value="#FF9999"/> <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding IsAnalyzed}" Value="True">
+                                                        <Setter Property="Background" Value="#90EE90"/> </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Button.Style>
+                                    </Button>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                        
+                    </StackPanel>
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
