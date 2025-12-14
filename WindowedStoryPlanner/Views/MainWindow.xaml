@@ -4,21 +4,21 @@
         xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:views="clr-namespace:WindowedStoryPlanner.Views"
+        xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
         mc:Ignorable="d"
-        d:DataContext="{d:DesignInstance Type=vm:MainViewModel, IsDesignTimeCreatable=False}"
+        d:DataContext="{x:Static v:Sample.MainViewModel}"
         Title="Mission Control" Height="600" Width="900"
         WindowStartupLocation="CenterScreen">
 
     <TabControl TabStripPlacement="Left">
         <TabItem Header="File Management">
-            <views:FileManagerTab/>
+            <v:FileManagerTab/>
         </TabItem>
         <TabItem Header="Characters">
-            <views:CharacterLibrary /> 
+            <v:CharacterLibrary /> 
         </TabItem>
         <TabItem Header="Gemini Prompts">
-            <views:GeminiLibrary /> 
+            <v:GeminiLibrary /> 
         </TabItem>
 
     </TabControl>

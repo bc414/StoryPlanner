@@ -1,16 +1,17 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using StoryPlanner.Models;
 using System.Collections.ObjectModel;
 using System.Windows;
 using Microsoft.Win32;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.Views;
 
 namespace WindowedStoryPlanner.ViewModels;
 
 public partial class MainViewModel : ObservableObject
 {
-    private readonly StoryService _storyService;
+    private readonly IStoryService _storyService;
     
     [ObservableProperty] private bool _isProjectLoaded;
     [ObservableProperty] private string _windowTitle = "Story Planner";
@@ -25,7 +26,7 @@ public partial class MainViewModel : ObservableObject
     // Track open windows to prevent duplicates
     private Dictionary<object, Window> _openWindows = new();
 
-    public MainViewModel(StoryService storyService)
+    public MainViewModel(IStoryService storyService)
     {
         _storyService = storyService;
         UpdateState();

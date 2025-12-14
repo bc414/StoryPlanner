@@ -3,15 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:WindowedStoryPlanner"
-             xmlns:vm="clr-namespace:StoryPlanner.Models;assembly=StoryPlanner"
-             xmlns:views="clr-namespace:WindowedStoryPlanner.Views"
-             d:DataContext="{d:DesignInstance Type=vm:Note, IsDesignTimeCreatable=True}"
-             mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300">
+             xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
+             d:DataContext="{x:Static m:DesignDataFactory.SampleNote}"
+             mc:Ignorable="d">
+    
     <StackPanel Orientation="Horizontal">
         <TextBlock Text="{Binding Content}" TextWrapping="Wrap"></TextBlock>
-        <Button Command="{Binding DataContext.DeleteNoteCommand, RelativeSource={RelativeSource AncestorType=views:NoteViewer}}" 
+        <Button Command="{Binding DataContext.DeleteNoteCommand, RelativeSource={RelativeSource AncestorType=v:NoteViewer}}" 
                 CommandParameter="{Binding}" Content="Delete"/>
     </StackPanel>
 </UserControl>

@@ -4,8 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner"
-             xmlns:vm="clr-namespace:StoryPlanner.Models;assembly=StoryPlanner"
-             d:DataContext="{d:DesignInstance Type=vm:PlotPoint, IsDesignTimeCreatable=True}"
+             xmlns:models="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
+             d:DataContext="{d:DesignInstance Type=models:PlotPoint, IsDesignTimeCreatable=True}"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <StackPanel Orientation="Horizontal">

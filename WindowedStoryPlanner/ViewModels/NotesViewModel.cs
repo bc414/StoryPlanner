@@ -1,7 +1,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using StoryPlanner.Models;
 using System.Collections.ObjectModel;
+using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner.ViewModels;
 

@@ -4,8 +4,7 @@ using System.Windows;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using StoryPlanner;
-using StoryPlanner.Services;
+using StoryPlanner.Core;
 using WindowedStoryPlanner.Views;
 
 namespace WindowedStoryPlanner;
@@ -26,7 +25,7 @@ public partial class App : Application
                 // 2. REGISTER SINGLETON SERVICE
                 // This is your "Central Store". Both MainWindow and ChapterWindow
                 // will talk to this ONE instance.
-                services.AddSingleton<StoryService>();
+                services.AddSingleton<IStoryService, StoryService>();
 
                 // 3. REGISTER WINDOWS
                 // We register MainWindow so DI can inject the Service into it automatically.

@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryPlanner", "StoryPlanner\StoryPlanner.csproj", "{EAD3E79C-4AE7-4A37-8DF4-8EDFA1160C8F}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowedStoryPlanner", "WindowedStoryPlanner\WindowedStoryPlanner.csproj", "{DED09812-A537-48B2-8D59-887C98B02BD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryPlanner.Core", "StoryPlanner.Core\StoryPlanner.Core.csproj", "{6DEC2F92-D58B-4E98-9340-56B46585F904}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EAD3E79C-4AE7-4A37-8DF4-8EDFA1160C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAD3E79C-4AE7-4A37-8DF4-8EDFA1160C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAD3E79C-4AE7-4A37-8DF4-8EDFA1160C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAD3E79C-4AE7-4A37-8DF4-8EDFA1160C8F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DED09812-A537-48B2-8D59-887C98B02BD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DED09812-A537-48B2-8D59-887C98B02BD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DED09812-A537-48B2-8D59-887C98B02BD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DED09812-A537-48B2-8D59-887C98B02BD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DEC2F92-D58B-4E98-9340-56B46585F904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DEC2F92-D58B-4E98-9340-56B46585F904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DEC2F92-D58B-4E98-9340-56B46585F904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DEC2F92-D58B-4E98-9340-56B46585F904}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

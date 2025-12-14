@@ -1,5 +1,5 @@
 using System.Windows;
-using StoryPlanner.Models;
+using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner.Views;
 

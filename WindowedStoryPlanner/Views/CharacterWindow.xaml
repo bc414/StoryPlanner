@@ -4,13 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:controls="clr-namespace:StoryPlanner"
-        xmlns:vm="clr-namespace:WindowedStoryPlanner"
-        xmlns:views="clr-namespace:WindowedStoryPlanner.Views"
-        xmlns:viewModels="clr-namespace:WindowedStoryPlanner.ViewModels"
+        xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
+        xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         mc:Ignorable="d"
         Title="{Binding Name, StringFormat='Character: {0}'}" 
         Height="600" Width="800"
-        d:DataContext="{d:DesignInstance Type=viewModels:CharacterViewModel}">
+        d:DataContext="{x:Static v:Sample.CharacterViewModel}">
 
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
@@ -53,7 +52,7 @@
         <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Background="Transparent"/>
 
         <Border Grid.Column="2" BorderBrush="Gray" BorderThickness="1" Margin="5,0,0,0">
-            <views:NoteViewer DataContext="{Binding NotesViewModel}" />
+            <v:NoteViewer DataContext="{Binding NotesViewModel}" />
         </Border>
 
     </Grid>

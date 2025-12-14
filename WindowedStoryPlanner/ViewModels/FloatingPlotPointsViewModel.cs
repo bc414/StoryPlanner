@@ -1,14 +1,15 @@
 using CommunityToolkit.Mvvm.ComponentModel;
-using StoryPlanner.Models;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows.Data;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner.ViewModels;
 
 public class FloatingPlotPointsViewModel : ObservableObject
 {
-    private readonly StoryService _storyService;
+    private readonly IStoryService _storyService;
 
     public ICollectionView FloatingPlotPointsView { get; private set; }
     
@@ -16,7 +17,7 @@ public class FloatingPlotPointsViewModel : ObservableObject
     // We bind this to the Service's Local View
     public ObservableCollection<PlotPoint> AllPlotPoints { get; private set; }
 
-    public FloatingPlotPointsViewModel(StoryService storyService)
+    public FloatingPlotPointsViewModel(IStoryService storyService)
     {
         _storyService = storyService;
         

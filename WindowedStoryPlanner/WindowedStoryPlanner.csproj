@@ -9,7 +9,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\StoryPlanner\StoryPlanner.csproj" />
+      <ProjectReference Include="..\StoryPlanner.Core\StoryPlanner.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>

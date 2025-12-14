@@ -1,4 +1,5 @@
 ﻿using System.Windows;
+using StoryPlanner.Core;
 using WindowedStoryPlanner.ViewModels;
 
 namespace WindowedStoryPlanner.Views;
@@ -8,10 +9,10 @@ namespace WindowedStoryPlanner.Views;
 /// </summary>
 public partial class MainWindow : Window
 {
-    private readonly StoryService _storyStateService;
+    private readonly IStoryService _storyStateService;
 
     // The 'AppHost' will automatically pass this service in!
-    public MainWindow(StoryService storyStateService)
+    public MainWindow(IStoryService storyStateService)
     {
         InitializeComponent();
         _storyStateService = storyStateService;
