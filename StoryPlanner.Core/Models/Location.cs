@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace StoryPlanner.Core.Models;
 
 public class Location
@@ -7,6 +9,6 @@ public class Location
     public string Region { get; set; } = string.Empty; // "Central Equestria"
     public string Description { get; set; } = string.Empty;
     
-    public List<PlotPoint> PlotPoints { get; set; } = new();
-    public List<Note> Notes { get; set; } = new();
+    public ObservableCollection<PlotPoint> PlotPoints { get; set; } = new();
+    public ObservableCollection<Note> Notes { get; set; } = new();
 }

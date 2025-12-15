@@ -15,7 +15,7 @@
             <v:FileManagerTab/>
         </TabItem>
         <TabItem Header="Characters">
-            <v:CharacterLibrary /> 
+            <v:CardCollectionViewer ItemsSource="{Binding CharacterViewModels}" DeleteItemCommand="{Binding DeleteCharacterCommand}"/>
         </TabItem>
         <TabItem Header="Gemini Prompts">
             <v:GeminiLibrary /> 

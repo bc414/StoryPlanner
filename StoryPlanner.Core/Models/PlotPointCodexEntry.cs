@@ -24,4 +24,8 @@ public partial class PlotPointCodexEntry : ObservableObject
     // E.g. "Referencing Note #3 regarding shield opacity."
     [ObservableProperty]
     private string _commentary = string.Empty;
+
+    //TODO: not sure if this is mandatory. Should it be opt in?
+    [ObservableProperty]
+    private int _logicalOrder;
 }

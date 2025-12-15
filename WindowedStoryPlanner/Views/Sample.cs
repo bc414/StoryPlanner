@@ -24,12 +24,27 @@ public static class Sample
         }
     }
 
-    public static NoteViewModel NoteViewModel
+    public static ObservableCollection<CharacterViewModel> CharacterViewModelCollection
     {
         get
         {
             var data = DesignDataFactory.CreateWorld();
-            return new NoteViewModel(data.Notes.First());
+            var collection = new ObservableCollection<CharacterViewModel>();
+            
+            foreach (var character in data.Characters)
+            {
+                collection.Add(new CharacterViewModel(character));
+            }
+            return collection;
+        }
+    }
+
+    public static Note Note
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return data.Notes.First();
         }
     }
 

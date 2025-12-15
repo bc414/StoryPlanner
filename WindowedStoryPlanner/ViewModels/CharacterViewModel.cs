@@ -5,11 +5,10 @@ using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public partial class CharacterViewModel : ObservableObject
+public partial class CharacterViewModel : EntityViewModel
 {
     private readonly Character _character;
-    
-    public NoteCollectionViewModel NoteCollectionViewModel { get; }
+    public Character Character => _character;
 
     public CharacterViewModel(Character character)
     {
@@ -44,11 +43,4 @@ public partial class CharacterViewModel : ObservableObject
         get => _character.Description;
         set => SetProperty(_character.Description, value, _character, (u, n) => u.Description = n);
     }
-
-    // Direct access to the ObservableCollection for the NoteViewer
-    public ObservableCollection<Note> Notes => _character.Notes;
-
-    // --- Commands ---
-
-    
 }

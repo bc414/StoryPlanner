@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="WindowedStoryPlanner.Views.CharacterCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             d:DataContext="{x:Static local:Sample.CharacterViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Button Content="{Binding Name}"  Width="160" Height="90"
+            Command="{Binding OpenWindowCommand}"
+            HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10,10" FontSize="16"/>
+    </Grid>
+</UserControl>

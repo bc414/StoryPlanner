@@ -11,6 +11,8 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public partial class MainViewModel : ObservableObject
 {
+    public static MainViewModel Instance { get; private set; }
+    
     private readonly IStoryService _storyService;
     
     [ObservableProperty] private bool _isProjectLoaded;
@@ -25,9 +27,23 @@ public partial class MainViewModel : ObservableObject
 
     // Track open windows to prevent duplicates
     private Dictionary<object, Window> _openWindows = new();
+    
+    // Track all plot points
+    public ObservableCollection<PlotPoint> PlotPoints => _storyService.PlotPoints;
+
+    //View model collections are for library view item templates
+    public ObservableCollection<PlotPointViewModel> PlotPointViewModels { get; set; }
+    public ObservableCollection<CharacterViewModel> CharacterViewModels { get; set; }
+    
+    //Need a dictionary for reasonable performance converting navigation property model lists to view model list
+    //which is needed for item templates
+    public Dictionary<PlotPoint, PlotPointViewModel> PlotPointDictionary = new();
+    public Dictionary<Character, CharacterViewModel> CharacterDictionary = new();
+    
 
     public MainViewModel(IStoryService storyService)
     {
+        Instance = this;
         _storyService = storyService;
         UpdateState();
     }
@@ -98,10 +114,63 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(Chapters));
             OnPropertyChanged(nameof(Threads));
             OnPropertyChanged(nameof(GeminiEntries));
+            OnPropertyChanged(nameof(PlotPoints));
+            
+            
+            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
+            
+            CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(Characters, CharacterDictionary);
         }
         else
         {
             WindowTitle = "Story Planner - No Project Loaded";
+        }
+    }
+    
+    public ObservableCollection<TViewModel> CreateViewModelCollection<TModel, TViewModel>(
+        ObservableCollection<TModel> models, Dictionary<TModel, TViewModel> map)
+    {
+        ObservableCollection<TViewModel> collection = new ObservableCollection<TViewModel>();
+        foreach (TModel model in models)
+        {
+            var vm = (TViewModel)Activator.CreateInstance(typeof(TViewModel), model);
+            collection.Add(vm);
+            map[model] = vm;
+        }
+
+        return collection;
+    }
+
+    public PlotPointViewModel RegisterNewPlotPoint(PlotPoint plotPoint)
+    {
+        _storyService.PlotPoints.Add(plotPoint);
+        PlotPointViewModel viewModel = new PlotPointViewModel(plotPoint);
+        PlotPointViewModels.Add(viewModel);
+        PlotPointDictionary[plotPoint] = viewModel;
+        OpenEditorWindow(viewModel);
+        return viewModel;
+        //caller must add relevant connections. If chapter window, then add the plotPoint to the chapter's list
+    }
+
+    [RelayCommand]
+    public void AddCharacter()
+    {
+        Character newCharacter = new Character();
+        _storyService.Characters.Add(newCharacter);
+        CharacterViewModel viewModel = new CharacterViewModel(newCharacter);
+        CharacterViewModels.Add(viewModel);
+        OpenEditorWindow(viewModel);
+    }
+
+    [RelayCommand]
+    public void DeleteCharacter(CharacterViewModel viewModel)
+    {
+        Character character = viewModel.Character;
+        if (MessageBox.Show($"Are you sure you want to delete character '{character.Name}')?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+        {
+            CharacterViewModels.Remove(viewModel);
+            CharacterDictionary.Remove(character);
+            _storyService.Characters.Remove(character);
         }
     }
 
@@ -120,56 +189,13 @@ public partial class MainViewModel : ObservableObject
         RegisterWindow(key, win);
         win.Show();
     }
-
-    [RelayCommand]
-    public void OpenCharacter(Character character)
-    {
-        // Usage: OpenWindow<WindowType>(Key, () => new ViewModel(...));
-        OpenEditorWindow<CharacterWindow>(
-            character, 
-            () => new CharacterViewModel(character)
-        );
-    }
-
-    [RelayCommand]
-    public void OpenChapter(Chapter chapter)
-    {
-        if (chapter == null) return;
-        if (ActivateIfOpen(chapter)) return;
-
-        // Assumes you have/will create ChapterViewModel & ChapterWindow
-        // var vm = new ChapterViewModel(chapter, _storyService);
-        // var win = new ChapterWindow { DataContext = vm };
-        
-        // RegisterWindow(chapter, win);
-        // win.Show();
-        
-        MessageBox.Show($"Opening Chapter {chapter.OrderIndex}: {chapter.Title}");
-    }
-
-    [RelayCommand]
-    public void OpenThread(StoryThread thread)
-    {
-        if (thread == null) return;
-        MessageBox.Show($"Opening Thread: {thread.Name}");
-    }
-
-    [RelayCommand]
-    public void OpenGeminiEntry(GeminiEntry geminiEntry)
-    {
-        OpenEditorWindow<GeminiEntryWindow>(
-            geminiEntry, 
-            () => geminiEntry
-        );
-    }
     
-    private void OpenEditorWindow<TWindow>(object modelKey, Func<object> viewModelFactory) 
-        where TWindow : Window, new()
+    public void OpenEditorWindow(EntityViewModel viewModel)
     {
-        if (modelKey == null) return;
+        if (viewModel == null) return;
 
         // 1. CHECK: Is it already open?
-        if (_openWindows.TryGetValue(modelKey, out var existingWin))
+        if (_openWindows.TryGetValue(viewModel, out var existingWin))
         {
             // Safety: Check if it's actually alive (user might have closed it)
             if (existingWin.IsLoaded)
@@ -180,20 +206,37 @@ public partial class MainViewModel : ObservableObject
                 return;
             }
             // If it's not loaded, remove the dead reference
-            _openWindows.Remove(modelKey);
+            _openWindows.Remove(viewModel);
         }
 
-        // 2. CREATE: Make the Window and ViewModel
-        var window = new TWindow();
+        // 2. CREATE: Make the Window
+        var window = GetWindowBasedOnType(viewModel);
     
-        // We execute the "Factory" function here to get the specific VM we need
-        window.DataContext = viewModelFactory();
+        window.DataContext = viewModel;
 
         // 3. TRACK: Add to dictionary and listen for close
-        _openWindows[modelKey] = window;
-        window.Closed += (s, e) => _openWindows.Remove(modelKey);
+        _openWindows[viewModel] = window;
+        window.Closed += (s, e) => _openWindows.Remove(viewModel);
 
         window.Show();
+    }
+
+    private Window GetWindowBasedOnType(object viewModel)
+    {
+        if (viewModel is CharacterViewModel)
+        {
+            return new CharacterWindow();
+        }
+        else if (viewModel is ChapterViewModel)
+        {
+            
+        }
+        else if (viewModel is GeminiEntry)
+        {
+            return new GeminiEntryWindow();
+        }
+
+        return null;
     }
 
     // --- WINDOW MANAGEMENT HELPERS ---

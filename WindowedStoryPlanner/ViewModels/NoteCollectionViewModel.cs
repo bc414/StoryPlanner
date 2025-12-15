@@ -1,34 +1,19 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.Collections.ObjectModel;
+using GongSolutions.Wpf.DragDrop;
 using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public partial class NoteCollectionViewModel : ObservableObject
+public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
 {
-    // 1. The Source of Truth (EF Core tracks this)
-    private readonly ObservableCollection<Note> _sourceCollection;
-
-    // 2. The UI Collection (The View binds to this)
-    public ObservableCollection<NoteViewModel> ViewCollection { get; } = new();
+    // 1. The Source of Truth (EF Core tracks this) and the view model (Note is an ObservableObject)
+    public ObservableCollection<Note> NoteCollection;
 
     public NoteCollectionViewModel(ObservableCollection<Note> sourceCollection)
     {
-        _sourceCollection = sourceCollection;
-
-        // 3. Hydrate the View from the Source on load
-        foreach (var note in _sourceCollection)
-        {
-            ViewCollection.Add(CreateWrapper(note));
-        }
-    }
-    
-    // Helper to keep logic consistent
-    private NoteViewModel CreateWrapper(Note note)
-    {
-        // Pass a "Remove Action" so the item can delete itself
-        return new NoteViewModel(note);
+        NoteCollection = sourceCollection;
     }
 
     [RelayCommand]
@@ -38,19 +23,24 @@ public partial class NoteCollectionViewModel : ObservableObject
         var newNote = new Note { Content = "New Note" };
 
         // B. Update EF Core (This marks it as 'Added' in the DB context)
-        _sourceCollection.Add(newNote);
-
-        // C. Update UI
-        ViewCollection.Add(CreateWrapper(newNote));
+        NoteCollection.Add(newNote);
     }
 
-    private void RemoveNote(NoteViewModel vm)
+    [RelayCommand]
+    private void RemoveNote(Note note)
     {
+        //Comes via relative source
         // A. Remove from UI
-        ViewCollection.Remove(vm);
+        NoteCollection.Remove(note);
+    }
 
-        // B. Remove from EF Core (This marks it as 'Deleted' in the DB context)
-        // We access the underlying model inside the VM
-        _sourceCollection.Remove(vm.Model); 
+    public void DragOver(IDropInfo dropInfo)
+    {
+        
+    }
+
+    public void Drop(IDropInfo dropInfo)
+    {
+        //reorder
     }
 }

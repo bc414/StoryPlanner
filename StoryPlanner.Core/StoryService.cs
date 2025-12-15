@@ -184,6 +184,8 @@ public class StoryService : IStoryService
             .Include(p => p.ThemeAssignments).ThenInclude(t => t.Theme)
             // 4. Characters (Junction Table + The Character itself)
             .Include(p => p.CharacterAppearances).ThenInclude(c => c.Character)
+            .Include(p => p.CodexReferences).ThenInclude(c => c.CodexEntry)
+            .Include(p => p.Chapter)
             .AsSplitQuery() // Essential to prevent Cartesian Explosion
             .LoadAsync();
 

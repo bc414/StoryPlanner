@@ -6,7 +6,7 @@ using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public partial class PlotPointViewModel : ObservableObject
+public partial class PlotPointViewModel : EntityViewModel
 {
     private readonly PlotPoint _model;
 

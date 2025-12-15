@@ -1,3 +1,5 @@
+using System.Collections.ObjectModel;
+
 namespace StoryPlanner.Core.Models;
 
 public class CodexEntry
@@ -9,5 +11,6 @@ public class CodexEntry
     public CodexCategory Category { get; set; }
 
     // "Lore Facts"
-    public List<Note> Notes { get; set; } = new();
+    public ObservableCollection<Note> Notes { get; set; } = new();
+    public ObservableCollection<PlotPointCodexEntry> PlotPointReferences { get; set; } = new();
 }

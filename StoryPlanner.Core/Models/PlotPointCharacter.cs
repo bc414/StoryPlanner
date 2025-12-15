@@ -25,4 +25,7 @@ public partial class PlotPointCharacter : ObservableObject
 
     [ObservableProperty]
     private string? _developmentNote; // "Loses trust in Command"
+
+    //TODO: not sure if this must be filled. Should it be opt in?
+    [ObservableProperty] private int _logicalOrder;
 }
