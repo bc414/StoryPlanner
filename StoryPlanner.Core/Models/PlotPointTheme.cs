@@ -1,10 +1,12 @@
+using CommunityToolkit.Mvvm.ComponentModel;
 using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
 
 // Link: PlotPoint <-> Theme (Thematic Argument)
-public class PlotPointTheme
+public partial class PlotPointTheme : ObservableObject
 {
+    // --- KEYS (Standard) ---
     public int PlotPointId { get; set; }
     [JsonIgnore]
     public PlotPoint PlotPoint { get; set; } = null!;
@@ -13,6 +15,11 @@ public class PlotPointTheme
     [JsonIgnore]
     public Theme Theme { get; set; } = null!;
 
-    public ThemeProminence Prominence { get; set; }
-    public string? Commentary { get; set; } // "Shows the failure of diplomacy"
+    // --- PAYLOAD (Observable for Live Edit) ---
+
+    [ObservableProperty]
+    private ThemeProminence _prominence;
+
+    [ObservableProperty]
+    private string? _commentary; // "Shows the failure of diplomacy"
 }

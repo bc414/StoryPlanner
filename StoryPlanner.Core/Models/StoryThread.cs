@@ -7,7 +7,8 @@ public class StoryThread
     public int Id { get; set; }
     public string Name { get; set; } = string.Empty; // e.g., "The Changeling Front"
     public string Description { get; set; } = string.Empty;
-    public string ColorHex { get; set; } = "#FFFFFF"; // For UI pill badges
+    // NEW: Store the emoji directly in the database
+    public string Icon { get; set; } = "🧵"; // Default to a thread spool?
     public ThreadScope ThreadScope { get; set; }
 
     public ObservableCollection<PlotPointThread> PlotPointAssignments { get; set; } = new();

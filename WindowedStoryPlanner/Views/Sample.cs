@@ -36,12 +36,12 @@ public static class Sample
     public static NoteCollectionViewModel NoteCollectionViewModel => 
         new(new ObservableCollection<Note>(DesignDataFactory.CreateWorld().Notes));
 
-    public static PlotPoint PlotPoint
+    public static PlotPointViewModel PlotPointViewModel
     {
         get
         {
             var data = DesignDataFactory.CreateWorld();
-            return data.Chapters.First().PlotPoints.First();
+            return new PlotPointViewModel(data.PlotPoints.First());
         }
     }
 }

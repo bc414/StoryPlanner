@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Windows.Media;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core.Models;
@@ -90,6 +91,52 @@ public partial class PlotPointViewModel : ObservableObject
     // Example: Used for Drag & Drop visuals
     [ObservableProperty]
     private bool _isBeingDragged;
+    
+    public ObservableCollection<ThemeBadge> ThemeBadges 
+    {
+        get
+        {
+            var badges = new ObservableCollection<ThemeBadge>();
+            foreach (var assign in _model.ThemeAssignments)
+            {
+                // 1. Get Color
+                var color = (Color)ColorConverter.ConvertFromString(
+                    !string.IsNullOrEmpty(assign.Theme.ColorHex) ? assign.Theme.ColorHex : "#CCCCCC");
+            
+                var brush = new SolidColorBrush(color);
+
+                // 2. Get Text (Fallback to first 2 letters if Abbreviation is empty)
+                string text = !string.IsNullOrEmpty(assign.Theme.Abbreviation) 
+                    ? assign.Theme.Abbreviation 
+                    : assign.Theme.Name.Substring(0, Math.Min(2, assign.Theme.Name.Length)).ToUpper();
+
+                badges.Add(new ThemeBadge 
+                { 
+                    Text = text, 
+                    Background = brush, 
+                    // Simple logic: If background is dark, use white text. If light, use black.
+                    Foreground = IsDark(color) ? Brushes.White : Brushes.Black 
+                });
+            }
+            return badges;
+        }
+    }
+
+    // Helper to determine contrast
+    private bool IsDark(Color c) => (c.R * 0.299 + c.G * 0.587 + c.B * 0.114) < 186;
+    
+    public string ThreadIcons
+    {
+        get
+        {
+            // Returns a string of icons like "⚔️💍"
+            var icons = _model.ThreadAssignments
+                .Select(t => t.StoryThread.Icon)
+                .Where(icon => !string.IsNullOrEmpty(icon));
+            
+            return string.Join(" ", icons);
+        }
+    }
 
     // Example: Used to validate "Mandatory Fields" based on status
     public bool IsOutcomeMissing => Status >= DraftStatus.Planned && string.IsNullOrWhiteSpace(Outcome);
@@ -114,4 +161,11 @@ public partial class PlotPointViewModel : ObservableObject
         // 3. Update View
         Threads.Add(new PlotPointThreadViewModel(newLink));
     }
+}
+
+public struct ThemeBadge
+{
+    public string Text { get; set; }
+    public Brush Background { get; set; }
+    public Brush Foreground { get; set; } // For contrast
 }

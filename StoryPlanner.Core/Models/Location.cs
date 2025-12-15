@@ -8,4 +8,5 @@ public class Location
     public string Description { get; set; } = string.Empty;
     
     public List<PlotPoint> PlotPoints { get; set; } = new();
+    public List<Note> Notes { get; set; } = new();
 }

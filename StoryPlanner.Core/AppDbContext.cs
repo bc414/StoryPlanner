@@ -12,7 +12,6 @@ public class AppDbContext : DbContext
     public DbSet<StoryThread> Threads { get; set; }
     public DbSet<Location> Locations { get; set; }
     public DbSet<PlotPoint> PlotPoints { get; set; }
-    public DbSet<PlotPointNote> PlotPointNotes { get; set; }
     
     // The "Concept Containers"
     public DbSet<Character> Characters { get; set; }
@@ -25,6 +24,16 @@ public class AppDbContext : DbContext
     public DbSet<SourceMaterial> SourceMaterials { get; set; }
     
     public DbSet<GeminiEntry> GeminiEntries { get; set; }
+    
+    // --- PAYLOAD CONNECTIONS (The Edges of the Graph) ---
+    // Adding these allows you to do: _context.PlotPointCharacters.Remove(link);
+    
+    public DbSet<PlotPointCharacter> PlotPointCharacters { get; set; }
+    public DbSet<PlotPointTheme> PlotPointThemes { get; set; }
+    public DbSet<PlotPointThread> PlotPointThreads { get; set; }
+    
+    // NEW: The replacement for PlotPointNotes
+    public DbSet<PlotPointCodexEntry> PlotPointCodexEntries { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -46,56 +55,9 @@ public class AppDbContext : DbContext
         modelBuilder.Entity<PlotPointCharacter>()
             .HasKey(pc => new { pc.PlotPointId, pc.CharacterId });
 
-        // PlotPoint <-> Note (Consistency Check)
-        modelBuilder.Entity<PlotPointNote>()
-            .HasKey(pn => new { pn.PlotPointId, pn.NoteId });
+        modelBuilder.Entity<PlotPointCodexEntry>()
+            .HasKey(pc => new { pc.PlotPointId, pc.CodexEntryId });
 
-        modelBuilder.Entity<PlotPointNote>()
-            .HasOne(pn => pn.PlotPoint)
-            .WithMany(p => p.NoteReferences) // <--- Explicitly map your new name here
-            .HasForeignKey(pn => pn.PlotPointId);
-
-        modelBuilder.Entity<PlotPointNote>()
-            .HasOne(pn => pn.Note)
-            .WithMany(n => n.PlotPointReferences)
-            .HasForeignKey(pn => pn.NoteId);
-
-        // =========================================================
-        // 2. SELF-REFERENCING RELATIONSHIPS (The Logic Engine)
-        // =========================================================
-
-        // --- PlotPoint Causality (Event A causes Event B) ---
-        modelBuilder.Entity<PlotPointDependency>()
-            .HasKey(k => new { k.PrerequisiteId, k.DependentId });
-
-        modelBuilder.Entity<PlotPointDependency>()
-            .HasOne(pd => pd.Prerequisite)
-            .WithMany(p => p.Dependents)
-            .HasForeignKey(pd => pd.PrerequisiteId)
-            .OnDelete(DeleteBehavior.Restrict); // Prevent Cascade Cycles
-
-        modelBuilder.Entity<PlotPointDependency>()
-            .HasOne(pd => pd.Dependent)
-            .WithMany(p => p.Prerequisites)
-            .HasForeignKey(pd => pd.DependentId)
-            .OnDelete(DeleteBehavior.Restrict);
-
-        // --- Note Logic Tree (Fact A implies Fact B) ---
-        modelBuilder.Entity<NoteDependency>()
-            .HasKey(k => new { k.PrerequisiteId, k.DependentId });
-
-        modelBuilder.Entity<NoteDependency>()
-            .HasOne(nd => nd.Prerequisite)
-            .WithMany(n => n.Dependents)
-            .HasForeignKey(nd => nd.PrerequisiteId)
-            .OnDelete(DeleteBehavior.Restrict); // Prevent Cascade Cycles
-
-        modelBuilder.Entity<NoteDependency>()
-            .HasOne(nd => nd.Dependent)
-            .WithMany(n => n.Prerequisites)
-            .HasForeignKey(nd => nd.DependentId)
-            .OnDelete(DeleteBehavior.Restrict);
-        
         modelBuilder.Entity<Note>()
             .HasOne(n => n.SourceMaterial)
             .WithMany(s => s.Notes)
@@ -136,6 +98,12 @@ public class AppDbContext : DbContext
             .HasOne(n => n.StoryThread)
             .WithMany(c => c.Notes)
             .HasForeignKey(n => n.StoryThreadId)
+            .OnDelete(DeleteBehavior.Cascade);
+        
+        modelBuilder.Entity<Note>()
+            .HasOne(n => n.Location)
+            .WithMany(c => c.Notes)
+            .HasForeignKey(n => n.LocationId)
             .OnDelete(DeleteBehavior.Cascade);
     }
 }

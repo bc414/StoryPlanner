@@ -1,10 +1,12 @@
+using CommunityToolkit.Mvvm.ComponentModel;
 using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
 
 // Link: PlotPoint <-> Character (Development Arc)
-public class PlotPointCharacter
+public partial class PlotPointCharacter : ObservableObject
 {
+    // --- KEYS (Standard) ---
     public int PlotPointId { get; set; }
     [JsonIgnore]
     public PlotPoint PlotPoint { get; set; } = null!;
@@ -13,7 +15,14 @@ public class PlotPointCharacter
     [JsonIgnore]
     public Character Character { get; set; } = null!;
 
-    public CharacterRole Role { get; set; }
-    public CharacterDevImpact DevelopmentImpact { get; set; }
-    public string? DevelopmentNote { get; set; } // "Loses trust in Command"
+    // --- PAYLOAD (Observable for Live Edit) ---
+
+    [ObservableProperty]
+    private CharacterRole _role;
+
+    [ObservableProperty]
+    private CharacterDevImpact _developmentImpact;
+
+    [ObservableProperty]
+    private string? _developmentNote; // "Loses trust in Command"
 }

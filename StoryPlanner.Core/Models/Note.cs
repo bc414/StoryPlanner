@@ -1,23 +1,36 @@
+using CommunityToolkit.Mvvm.ComponentModel;
 using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
 
-public class Note
+public partial class Note : ObservableObject
 {
     public int Id { get; set; }
     
-    // The core info: "Mag-Rifles jam in sand" or "Celestia loves cake"
-    public string Content { get; set; } = string.Empty; 
-    
-    // Is this an immutable fact or a soft guideline?
-    public bool IsStrictRule { get; set; } = true; 
+    // --- 1. OBSERVABLE PROPERTIES (The UI binds directly to these) ---
 
-    // --- OWNERSHIP (Polymorphic-ish) ---
-    // A Note usually belongs to ONE context.
+    [ObservableProperty]
+    private string _content = string.Empty;
+
+    [ObservableProperty]
+    private bool _isStrictRule = true;
+
+    // --- 2. PERSISTENCE HELPERS ---
+    
+    // Stores the position in the list (updated by Drag & Drop)
+    public int SortOrder { get; set; }
+
+    // --- 3. OWNERSHIP (Foreign Keys) ---
+    // These generally don't need to be Observable because a Note rarely 
+    // "moves" to a different container while you are looking at it.
     
     public int? CodexEntryId { get; set; }
     [JsonIgnore]
     public CodexEntry? CodexEntry { get; set; }
+    
+    public int? LocationId { get; set; }
+    [JsonIgnore]
+    public Location? Location { get; set; }
 
     public int? CharacterId { get; set; }
     [JsonIgnore]
@@ -35,16 +48,15 @@ public class Note
     [JsonIgnore]
     public StoryThread StoryThread { get; set; }
     
-    public int? SourceMaterialId { get; set; }
-    [JsonIgnore]
-    public SourceMaterial? SourceMaterial { get; set; }
+    // --- 3. Source Material (The Color Driver) ---
+    
+    [ObservableProperty]
+    private int? _sourceMaterialId;
 
-    // --- THE WEB OF LOGIC (Self-Referencing) ---
-    // Note B is true because Note A is true.
-    public List<NoteDependency> Prerequisites { get; set; } = new();
-    public List<NoteDependency> Dependents { get; set; } = new();
-
-    // --- NARRATIVE USAGE ---
-    // Where is this note referenced in the actual story?
-    public List<PlotPointNote> PlotPointReferences { get; set; } = new();
+    // We make the navigation property Observable too.
+    // When you change the ID, you usually manually update this object 
+    // (or EF Core does it), so notifying here ensures the UI color updates.
+    [ObservableProperty]
+    [property: JsonIgnore] // Keep attributes on the property
+    private SourceMaterial? _sourceMaterial;
 }

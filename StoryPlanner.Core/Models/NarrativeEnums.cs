@@ -149,14 +149,6 @@ public enum Presentation
     InternalThought // Internal: Pure thought process
 }
 
-public enum DependencyType
-{
-    HardLogic,      // A implies B (Must find Key to Open Door)
-    ThematicEcho,   // B mirrors A (Visual or dialogue callback)
-    Resolution,     // B resolves the tension created in A
-    Chronological   // Simple time sequence
-}
-
 public enum ThreadScope
 {
     /// <summary>

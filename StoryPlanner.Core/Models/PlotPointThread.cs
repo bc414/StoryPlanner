@@ -1,10 +1,12 @@
+using CommunityToolkit.Mvvm.ComponentModel;
 using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
 
 // Link: PlotPoint <-> Thread
-public class PlotPointThread
+public partial class PlotPointThread : ObservableObject
 {
+    // --- KEYS (Standard) ---
     public int PlotPointId { get; set; }
     [JsonIgnore]
     public PlotPoint PlotPoint { get; set; } = null!;
@@ -13,11 +15,17 @@ public class PlotPointThread
     [JsonIgnore]
     public StoryThread StoryThread { get; set; } = null!;
 
-    public GoalTrajectory ThreadTrajectory { get; set; }
+    // --- PAYLOAD (Observable for Live Edit) ---
+
+    [ObservableProperty]
+    private GoalTrajectory _threadTrajectory;
 
     // Helps the UI decide which badge to show on the main timeline
-    public bool IsPrimary { get; set; }
+    // (This might trigger a visual update on the card, so it must be observable)
+    [ObservableProperty]
+    private bool _isPrimary;
 
-    //Describe the impact that this plot point has for the trajectory of the thread
-    public string ImpactDescription { get; set; } = null!;
+    // Describe the impact that this plot point has for the trajectory of the thread
+    [ObservableProperty]
+    private string _impactDescription = string.Empty;
 }

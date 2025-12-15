@@ -9,6 +9,9 @@ public class Theme
     
     public string Description { get; set; } = string.Empty;
     
+    // NEW: The 2-letter code (e.g., "Au", "Rv", "Bo")
+    public string Abbreviation { get; set; } = string.Empty; 
+    
     public string ColorHex { get; set; } = string.Empty;
     public ObservableCollection<Note> Notes { get; set; } = new();
     public ObservableCollection<PlotPointTheme> PlotPointAssignments { get; set; } = new();

@@ -79,10 +79,10 @@ public static class DesignDataFactory
         // ==============================================================================
         var themes = new List<Theme>
         {
-            new() { Id = 1, Name = "Red vs. Pink Love", Description = "Ambition/Passion (Red) vs. Connection/Gentleness (Pink). AJ represents the synthesis." },
-            new() { Id = 2, Name = "Authenticity vs. Posing", Description = "Being true to oneself (AJ/Trimmel) vs. performing a role (Chrysalis/Early Twilight)." },
-            new() { Id = 3, Name = "Burden of Command", Description = "The weight of sending others to die. Contrast between Celestia (Run away) and AJ (Shoulder it)." },
-            new() { Id = 4, Name = "Democratization of Magic", Description = "Technology (Rifles, Crystals) allowing commoners to stand against elites." }
+            new() { Id = 1, Name = "Red vs. Pink Love", Abbreviation = "PR", Description = "Ambition/Passion (Red) vs. Connection/Gentleness (Pink). AJ represents the synthesis." },
+            new() { Id = 2, Name = "Authenticity vs. Posing", Abbreviation = "PA",Description = "Being true to oneself (AJ/Trimmel) vs. performing a role (Chrysalis/Early Twilight)." },
+            new() { Id = 3, Name = "Burden of Command", Abbreviation = "CO", Description = "The weight of sending others to die. Contrast between Celestia (Run away) and AJ (Shoulder it)." },
+            new() { Id = 4, Name = "Democratization of Magic", Abbreviation = "DM", Description = "Technology (Rifles, Crystals) allowing commoners to stand against elites." }
         };
 
         // ==============================================================================
@@ -251,6 +251,83 @@ public static class DesignDataFactory
         pp6.ThemeAssignments.Add(new PlotPointTheme { PlotPoint = pp6, ThemeId = 3, Prominence = ThemeProminence.CentralConflict, Commentary = "Burden of Command vs. Stagnation." });
         points.Add(pp6);
 
-        return new StoryWorldData(sources, locations, characters, themes, threads, new List<Note>(), chapters, points);
+        // ==============================================================================
+        // 7. NOTES (The Atomic Truths)
+        // ==============================================================================
+        var notes = new List<Note>
+        {
+            // --- WORLD RULES (Strict) ---
+            new()
+            {
+                Id = 1,
+                Content = "Earth Pony magic is metabolic; it burns calories to create kinetic force or shielding. Soldiers need 6,000+ kcal/day.",
+                IsStrictRule = true,
+                ThemeId = 4 // Democratization of Magic
+            },
+            new()
+            {
+                Id = 2,
+                Content = "Crystal Matrix shields are opaque to teleportation. You cannot jump into a shielded city.",
+                IsStrictRule = true,
+                ThemeId = 4
+            },
+            new()
+            {
+                Id = 3,
+                Content = "The 'Green' (Changeling Magic) feeds on despair. Panic in the ranks literally strengthens the enemy's armor.",
+                IsStrictRule = true,
+                ThemeId = 1 // Red vs Pink (Emotion warfare)
+            },
+
+            // --- CHARACTER INSIGHTS (Soft) ---
+            new()
+            {
+                Id = 4,
+                Content = "Applejack refuses to wear the official General's uniform. She wears her modified foreman's jacket to maintain connection with the workers.",
+                IsStrictRule = false,
+                CharacterId = 1 // AJ
+            },
+            new()
+            {
+                Id = 5,
+                Content = "Twilight hates the smell of ozone because it reminds her of the vaporization of the Changeling spearhead.",
+                IsStrictRule = false,
+                CharacterId = 2 // Twilight
+            },
+            new()
+            {
+                Id = 6,
+                Content = "Trimmel respects competence above species. He will salute a pony who outsmarts him.",
+                IsStrictRule = false,
+                CharacterId = 3 // Trimmel
+            },
+            new()
+            {
+                Id = 7,
+                Content = "Celestia genuinely believes she is protecting ponies by keeping them weak. It is a maternal condescension.",
+                IsStrictRule = false,
+                CharacterId = 5 // Celestia
+            },
+
+            // --- LOCATION SPECIFIC ---
+            new()
+            {
+                Id = 8,
+                Content = "The smog over Tall Tale is so thick that pegasi cannot fly safely without respirators.",
+                IsStrictRule = true,
+                SourceMaterialId = 3 // OC/Original Fiction
+            },
+            new()
+            {
+                Id = 9,
+                Content = "The Appleloosa oil fields are rigged with explosives. If the line breaks, they blow the wells.",
+                IsStrictRule = true,
+                SourceMaterialId = 3
+            }
+        };
+
+        
+
+        return new StoryWorldData(sources, locations, characters, themes, threads, notes, chapters, points);
     }
 }

@@ -1,14 +1,19 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+
 namespace StoryPlanner.Core.Models;
 
-public class SourceMaterial
+public partial class SourceMaterial : ObservableObject
 {
     public int Id { get; set; }
-
-    public string Name { get; set; } = string.Empty;
-
-    public string Abbreviation { get; set; } = string.Empty;
-
-    public string ColorHex { get; set; } = "#cccccc";
-
+    
+    [ObservableProperty]
+    private string _name = string.Empty;
+    
+    [ObservableProperty]
+    private string _abbreviation = string.Empty;
+    
+    [ObservableProperty]
+    private string _colorHex = "#FFFFFF"; // UI binds to this
+    
     public List<Note> Notes { get; set; } = new();
 }

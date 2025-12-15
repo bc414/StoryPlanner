@@ -39,9 +39,5 @@ public class PlotPoint
     public ObservableCollection<PlotPointThread> ThreadAssignments { get; set; } = new();
     public ObservableCollection<PlotPointCharacter> CharacterAppearances { get; set; } = new();
     public ObservableCollection<PlotPointTheme> ThemeAssignments { get; set; } = new();
-
-    // Dependencies usually don't need complex VM wrapping, but can be added if needed
-    public ObservableCollection<PlotPointDependency> Prerequisites { get; set; } = new();
-    public ObservableCollection<PlotPointDependency> Dependents { get; set; } = new();
-    public ObservableCollection<PlotPointNote> NoteReferences { get; set; } = new();
+    public ObservableCollection<PlotPointCodexEntry> CodexReferences { get; set; } = new();
 }

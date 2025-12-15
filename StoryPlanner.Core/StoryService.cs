@@ -168,8 +168,6 @@ public class StoryService : IStoryService
         // loading them first ensures that when we load the "Containers" later, 
         // their .Notes collections will instantly populate via Fix-Up.
         await _context.Set<Note>()
-            .Include(n => n.Prerequisites)
-            .Include(n => n.Dependents)
             .LoadAsync();
 
         // ---------------------------------------------------------------------------
@@ -186,11 +184,6 @@ public class StoryService : IStoryService
             .Include(p => p.ThemeAssignments).ThenInclude(t => t.Theme)
             // 4. Characters (Junction Table + The Character itself)
             .Include(p => p.CharacterAppearances).ThenInclude(c => c.Character)
-            // 5. Notes (Junction Table + The Note itself)
-            .Include(p => p.NoteReferences).ThenInclude(n => n.Note)
-            // 6 & 7. Logic (Dependencies)
-            .Include(p => p.Prerequisites).ThenInclude(d => d.Prerequisite)
-            .Include(p => p.Dependents).ThenInclude(d => d.Dependent)
             .AsSplitQuery() // Essential to prevent Cartesian Explosion
             .LoadAsync();
 

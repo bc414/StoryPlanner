@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
-             d:DataContext="{x:Static v:Sample.PlotPoint}"
+             d:DataContext="{x:Static v:Sample.PlotPointViewModel}"
              mc:Ignorable="d"
              d:DesignHeight="300" d:DesignWidth="300">
     <StackPanel Orientation="Horizontal">
