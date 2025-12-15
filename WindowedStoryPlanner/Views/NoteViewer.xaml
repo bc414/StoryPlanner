@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
-             d:DataContext="{d:DesignInstance Type=vm:NotesViewModel, IsDesignTimeCreatable=True}"
+             d:DataContext="{x:Static v:Sample.NoteCollectionViewModel}"
              mc:Ignorable="d" d:DesignHeight="450" d:DesignWidth="300">
 
     <DockPanel>

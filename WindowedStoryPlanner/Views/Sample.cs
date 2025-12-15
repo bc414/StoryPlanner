@@ -24,15 +24,24 @@ public static class Sample
         }
     }
 
-    public static Note Note
+    public static NoteViewModel NoteViewModel
     {
         get
         {
             var data = DesignDataFactory.CreateWorld();
-            return data.Notes.First();
+            return new NoteViewModel(data.Notes.First());
         }
     }
 
-    public static NotesViewModel NotesViewModel => 
+    public static NoteCollectionViewModel NoteCollectionViewModel => 
         new(new ObservableCollection<Note>(DesignDataFactory.CreateWorld().Notes));
+
+    public static PlotPoint PlotPoint
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return data.Chapters.First().PlotPoints.First();
+        }
+    }
 }

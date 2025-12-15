@@ -7,7 +7,6 @@ namespace StoryPlanner.Core;
 
 public class StoryService : IStoryService
 {
-    private readonly IDbContextFactory<AppDbContext> _factory;
     private AppDbContext? _context;
 
     // --- The In-Memory Data Graph ---

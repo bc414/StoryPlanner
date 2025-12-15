@@ -22,6 +22,14 @@ public partial class App : Application
         AppHost = Host.CreateDefaultBuilder()
             .ConfigureServices((hostContext, services) =>
             {
+                // --- ADD THIS BLOCK ---
+                // This registers the AppDbContext so the "StoryService" can find it.
+                // We use "Data Source=StoryPlanner.db" to create a local file.
+                services.AddDbContext<AppDbContext>(options =>
+                {
+                    options.UseSqlite("Data Source=StoryPlanner.db");
+                });
+                
                 // 2. REGISTER SINGLETON SERVICE
                 // This is your "Central Store". Both MainWindow and ChapterWindow
                 // will talk to this ONE instance.

@@ -12,4 +12,6 @@ public class PlotPointDependency
     public int DependentId { get; set; }
     [JsonIgnore]
     public PlotPoint Dependent { get; set; } = null!;
+
+    public DependencyType DependencyType { get; set; }
 }

@@ -9,13 +9,13 @@ public partial class CharacterViewModel : ObservableObject
 {
     private readonly Character _character;
     
-    public NotesViewModel NotesViewModel { get; }
+    public NoteCollectionViewModel NoteCollectionViewModel { get; }
 
     public CharacterViewModel(Character character)
     {
         _character = character;
 
-        NotesViewModel = new NotesViewModel(character.Notes);
+        NoteCollectionViewModel = new NoteCollectionViewModel(character.Notes);
     }
 
     // --- Properties Wrapper ---
