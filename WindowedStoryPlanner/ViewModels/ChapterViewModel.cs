@@ -6,6 +6,7 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class ChapterViewModel : EntityViewModel
 {
     private readonly Chapter _chapter;
+    public Chapter Chapter => _chapter;
 
     public ChapterViewModel(Chapter chapter)
     {

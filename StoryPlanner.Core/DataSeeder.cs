@@ -21,9 +21,11 @@ public static class DataSeeder
         context.Locations.AddRange(data.Locations);
         context.Characters.AddRange(data.Characters);
         context.Themes.AddRange(data.Themes);
-        context.Threads.AddRange(data.Threads);
+        context.Threads.AddRange(data.StoryThreads);
         context.Notes.AddRange(data.Notes);
         context.Chapters.AddRange(data.Chapters);
+        context.PlotPoints.AddRange(data.PlotPoints);
+        context.CodexEntries.AddRange(data.CodexEntries);
 
         await context.SaveChangesAsync();
     }

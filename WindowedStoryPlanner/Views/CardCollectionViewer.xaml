@@ -8,29 +8,34 @@
              d:DataContext="{x:Static local:Sample.CharacterViewModelCollection}">
     <UserControl.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
+        <local:NullToVisibilityConverter x:Key="NullToVis"/>
 
         <ContextMenu x:Key="UniversalCardMenu">
             <MenuItem Header="View/Edit Connection Details"
-                      Command="{Binding PlacementTarget.Tag.ViewPayloadCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
-                      CommandParameter="{Binding}"
-                      Visibility="{Binding IsEnabled, RelativeSource={RelativeSource Self}, Converter={StaticResource BoolToVis}}"/>
+                  Command="{Binding PlacementTarget.Tag.ViewPayloadCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
+                  CommandParameter="{Binding}"
+                  Visibility="{Binding Command, RelativeSource={RelativeSource Self}, Converter={StaticResource NullToVis}}"/>
 
             <MenuItem Header="Unlink from Plot Point"
-                      Command="{Binding PlacementTarget.Tag.UnlinkItemCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
-                      CommandParameter="{Binding}"
-                      Visibility="{Binding IsEnabled, RelativeSource={RelativeSource Self}, Converter={StaticResource BoolToVis}}"/>
-
-            <Separator Visibility="{Binding IsEnabled, RelativeSource={RelativeSource PreviousData}, Converter={StaticResource BoolToVis}}"/>
+                  Command="{Binding PlacementTarget.Tag.UnlinkItemCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
+                  CommandParameter="{Binding}"
+                  Visibility="{Binding Command, RelativeSource={RelativeSource Self}, Converter={StaticResource NullToVis}}"/>
 
             <MenuItem Header="Delete from Database"
-                      Foreground="Red"
-                      Command="{Binding PlacementTarget.Tag.DeleteItemCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
-                      CommandParameter="{Binding}"
-                      Visibility="{Binding IsEnabled, RelativeSource={RelativeSource Self}, Converter={StaticResource BoolToVis}}"/>
+                  Foreground="Red"
+                  Command="{Binding PlacementTarget.Tag.DeleteItemCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
+                  CommandParameter="{Binding}"
+                  Visibility="{Binding Command, RelativeSource={RelativeSource Self}, Converter={StaticResource NullToVis}}"/>
         </ContextMenu>
     </UserControl.Resources>
 
-    <ListView ItemsSource="{Binding ItemsSource, RelativeSource={RelativeSource AncestorType=UserControl}}">
+    <ListView ItemsSource="{Binding ItemsSource, RelativeSource={RelativeSource AncestorType=UserControl}}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+
+        <ListView.ItemsPanel>
+            <ItemsPanelTemplate>
+                <WrapPanel Orientation="Horizontal" IsItemsHost="True" />
+            </ItemsPanelTemplate>
+        </ListView.ItemsPanel>
 
         <ListView.ItemContainerStyle>
             <Style TargetType="ListViewItem">
@@ -42,6 +47,21 @@
         <ListView.Resources>
             <DataTemplate DataType="{x:Type vm:CharacterViewModel}">
                 <local:CharacterCard />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:ChapterViewModel}">
+                <local:ChapterCard />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:StoryThreadViewModel}">
+                <local:StoryThreadCard />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:ThemeViewModel}">
+                <local:ThemeCard />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:LocationViewModel}">
+                <local:LocationCard />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:CodexEntryViewModel}">
+                <local:CodexEntryCard />
             </DataTemplate>
         </ListView.Resources>
     </ListView>

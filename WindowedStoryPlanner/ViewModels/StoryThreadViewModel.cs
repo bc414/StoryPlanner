@@ -6,6 +6,7 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class StoryThreadViewModel : EntityViewModel
 {
     private readonly StoryThread _storyThread;
+    public StoryThread StoryThread => _storyThread;
 
     public StoryThreadViewModel(StoryThread storyThread)
     {

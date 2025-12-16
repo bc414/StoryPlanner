@@ -1,11 +1,15 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Core.Models;
+using System.Collections.ObjectModel;
+using System.Windows.Media;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace WindowedStoryPlanner.ViewModels;
 
 public partial class ThemeViewModel : EntityViewModel
 {
     private readonly Theme _theme;
+    public Theme Theme => _theme;
 
     public ThemeViewModel(Theme theme)
     {
@@ -40,4 +44,26 @@ public partial class ThemeViewModel : EntityViewModel
         get => _theme.ColorHex;
         set => SetProperty(_theme.ColorHex, value, _theme, (u, n) => u.ColorHex = n);
     }
+
+    public ObservableCollection<ThemeBadge> ThemeBadges
+    {
+        get
+        {
+            var badges = new ObservableCollection<ThemeBadge>();
+            var color = (Color)ColorConverter.ConvertFromString(
+                    !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
+
+            var brush = new SolidColorBrush(color);
+            badges.Add(new ThemeBadge
+            {
+                Text = Abbreviation,
+                Background = brush,
+                // Simple logic: If background is dark, use white text. If light, use black.
+                Foreground = IsDark(color) ? Brushes.White : Brushes.Black
+            });
+            return badges;
+        }
+    }
+
+    private bool IsDark(Color c) => (c.R * 0.299 + c.G * 0.587 + c.B * 0.114) < 186;
 }

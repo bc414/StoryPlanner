@@ -21,8 +21,11 @@ public partial class MainViewModel : ObservableObject
     // --- Lists for the Launcher Widgets ---
     public ObservableCollection<Character> Characters => _storyService.Characters;
     public ObservableCollection<Chapter> Chapters => _storyService.Chapters;
-    public ObservableCollection<StoryThread> Threads => _storyService.Threads;
-    
+    public ObservableCollection<StoryThread> Threads => _storyService.StoryThreads;
+    public ObservableCollection<Theme> Themes => _storyService.Themes;
+    public ObservableCollection<Location> Locations => _storyService.Locations;
+    public ObservableCollection<CodexEntry> CodexEntries => _storyService.CodexEntries;
+
     public ObservableCollection<GeminiEntry> GeminiEntries => _storyService.GeminiEntries;
 
     // Track open windows to prevent duplicates
@@ -34,12 +37,22 @@ public partial class MainViewModel : ObservableObject
     //View model collections are for library view item templates
     public ObservableCollection<PlotPointViewModel> PlotPointViewModels { get; set; }
     public ObservableCollection<CharacterViewModel> CharacterViewModels { get; set; }
-    
+    public ObservableCollection<ChapterViewModel> ChapterViewModels { get; set; }
+    public ObservableCollection<StoryThreadViewModel> StoryThreadViewModels { get; set; }
+    public ObservableCollection<ThemeViewModel> ThemeViewModels { get; set; }
+    public ObservableCollection<LocationViewModel> LocationViewModels { get; set; }
+    public ObservableCollection<CodexEntryViewModel> CodexEntryViewModels { get; set; }
+
     //Need a dictionary for reasonable performance converting navigation property model lists to view model list
     //which is needed for item templates
     public Dictionary<PlotPoint, PlotPointViewModel> PlotPointDictionary = new();
     public Dictionary<Character, CharacterViewModel> CharacterDictionary = new();
-    
+    public Dictionary<Chapter, ChapterViewModel> ChapterDictionary = new();
+    public Dictionary<StoryThread, StoryThreadViewModel> StoryThreadDictionary = new();
+    public Dictionary<Theme, ThemeViewModel> ThemeDictionary = new();
+    public Dictionary<Location, LocationViewModel> LocationDictionary = new();
+    public Dictionary<CodexEntry, CodexEntryViewModel> CodexEntryDictionary = new();
+
 
     public MainViewModel(IStoryService storyService)
     {
@@ -109,17 +122,35 @@ public partial class MainViewModel : ObservableObject
         if (IsProjectLoaded)
         {
             WindowTitle = $"Story Planner - {_storyService.CurrentFilePath}";
+            
+            
+            
+            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
+            CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(Characters, CharacterDictionary);
+            ThemeViewModels = CreateViewModelCollection<Theme, ThemeViewModel>(Themes, ThemeDictionary);
+            ChapterViewModels = CreateViewModelCollection<Chapter, ChapterViewModel>(Chapters, ChapterDictionary);
+            StoryThreadViewModels = CreateViewModelCollection<StoryThread, StoryThreadViewModel>(Threads, StoryThreadDictionary);
+            LocationViewModels = CreateViewModelCollection<Location, LocationViewModel>(Locations, LocationDictionary);
+            CodexEntryViewModels = CreateViewModelCollection<CodexEntry, CodexEntryViewModel>(CodexEntries, CodexEntryDictionary);
+
+
             // Notify UI to refresh bindings since the collections were replaced
             OnPropertyChanged(nameof(Characters));
             OnPropertyChanged(nameof(Chapters));
             OnPropertyChanged(nameof(Threads));
             OnPropertyChanged(nameof(GeminiEntries));
             OnPropertyChanged(nameof(PlotPoints));
-            
-            
-            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
-            
-            CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(Characters, CharacterDictionary);
+            OnPropertyChanged(nameof(CodexEntries));
+            OnPropertyChanged(nameof(Themes));
+            OnPropertyChanged(nameof(Locations));
+
+            OnPropertyChanged(nameof(CharacterViewModels));
+            OnPropertyChanged(nameof(PlotPointViewModels));
+            OnPropertyChanged(nameof(StoryThreadViewModels));
+            OnPropertyChanged(nameof(ThemeViewModels));
+            OnPropertyChanged(nameof(ChapterViewModels));
+            OnPropertyChanged(nameof(LocationViewModels));
+            OnPropertyChanged(nameof(CodexEntryViewModels));
         }
         else
         {
@@ -171,6 +202,116 @@ public partial class MainViewModel : ObservableObject
             CharacterViewModels.Remove(viewModel);
             CharacterDictionary.Remove(character);
             _storyService.Characters.Remove(character);
+        }
+    }
+
+    [RelayCommand]
+    public void AddChapter()
+    {
+        Chapter newChapter = new Chapter();
+        _storyService.Chapters.Add(newChapter);
+        ChapterViewModel viewModel = new ChapterViewModel(newChapter);
+        ChapterViewModels.Add(viewModel);
+        OpenEditorWindow(viewModel);
+    }
+
+    [RelayCommand]
+    public void DeleteChapter(ChapterViewModel viewModel)
+    {
+        Chapter chapter = viewModel.Chapter;
+        if (MessageBox.Show($"Are you sure you want to delete chapter '{chapter.Title}')?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+        {
+            ChapterViewModels.Remove(viewModel);
+            ChapterDictionary.Remove(chapter);
+            _storyService.Chapters.Remove(chapter);
+        }
+    }
+
+    [RelayCommand]
+    public void AddStoryThread()
+    {
+        StoryThread newStoryThread = new StoryThread();
+        _storyService.StoryThreads.Add(newStoryThread);
+        StoryThreadViewModel viewModel = new StoryThreadViewModel(newStoryThread);
+        StoryThreadViewModels.Add(viewModel);
+        OpenEditorWindow(viewModel);
+    }
+
+    [RelayCommand]
+    public void DeleteStoryThread(StoryThreadViewModel viewModel)
+    {
+        StoryThread storyThread = viewModel.StoryThread;
+        if (MessageBox.Show($"Are you sure you want to delete story thread '{storyThread.Name}')?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+        {
+            StoryThreadViewModels.Remove(viewModel);
+            StoryThreadDictionary.Remove(storyThread);
+            _storyService.StoryThreads.Remove(storyThread);
+        }
+    }
+
+    [RelayCommand]
+    public void AddTheme()
+    {
+        Theme newTheme = new Theme();
+        _storyService.Themes.Add(newTheme);
+        ThemeViewModel viewModel = new ThemeViewModel(newTheme);
+        ThemeViewModels.Add(viewModel);
+        OpenEditorWindow(viewModel);
+    }
+
+    [RelayCommand]
+    public void DeleteTheme(ThemeViewModel viewModel)
+    {
+        Theme theme = viewModel.Theme;
+        if (MessageBox.Show($"Are you sure you want to delete theme '{theme.Name}')?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+        {
+            ThemeViewModels.Remove(viewModel);
+            ThemeDictionary.Remove(theme);
+            _storyService.Themes.Remove(theme);
+        }
+    }
+
+    [RelayCommand]
+    public void AddLocation()
+    {
+        Location newLocation = new Location();
+        _storyService.Locations.Add(newLocation);
+        LocationViewModel viewModel = new LocationViewModel(newLocation);
+        LocationViewModels.Add(viewModel);
+        OpenEditorWindow(viewModel);
+    }
+
+    [RelayCommand]
+    public void DeleteLocation(LocationViewModel viewModel)
+    {
+        Location location = viewModel.Location;
+        if (MessageBox.Show($"Are you sure you want to delete location '{location.Name}')?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+        {
+            LocationViewModels.Remove(viewModel);
+            LocationDictionary.Remove(location);
+            _storyService.Locations.Remove(location);
+        }
+    }
+
+    [RelayCommand]
+    public void AddCodexEntry()
+    {
+        CodexEntry newCodexEntry = new CodexEntry();
+        _storyService.CodexEntries.Add(newCodexEntry);
+        CodexEntryViewModel viewModel = new CodexEntryViewModel(newCodexEntry);
+        CodexEntryViewModels.Add(viewModel);
+        OpenEditorWindow(viewModel);
+    }
+
+    [RelayCommand]
+    public void DeleteCodexEntry(CodexEntryViewModel viewModel)
+    {
+        CodexEntry codexEntry = viewModel.CodexEntry;
+        if (MessageBox.Show($"Are you sure you want to delete codex entry '{codexEntry.Title}')?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+        {
+            CodexEntryViewModels.Remove(viewModel);
+            CodexEntryDictionary.Remove(codexEntry);
+            _storyService.CodexEntries.Remove(codexEntry);
         }
     }
 
@@ -227,10 +368,26 @@ public partial class MainViewModel : ObservableObject
         {
             return new CharacterWindow();
         }
-        else if (viewModel is ChapterViewModel)
+        /*else if (viewModel is ChapterViewModel)
         {
-            
+            return new ChapterWindow();
         }
+        else if (viewModel is StoryThreadViewModel)
+        {
+            return new StoryThreadWindow();
+        }
+        else if (viewModel is ThemeViewModel)
+        {
+            return new ThemeWindow();
+        }
+        else if (viewModel is LocationViewModel)
+        {
+            return new LocationWindow();
+        }
+        else if (viewModel is CodexEntryViewModel)
+        {
+            return new CodexEntryWindow();
+        }*/
         else if (viewModel is GeminiEntry)
         {
             return new GeminiEntryWindow();

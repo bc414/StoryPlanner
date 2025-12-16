@@ -24,6 +24,51 @@ public static class Sample
         }
     }
 
+    public static ChapterViewModel ChapterViewModel
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return new ChapterViewModel(data.Chapters.First());
+        }
+    }
+
+    public static StoryThreadViewModel StoryThreadViewModel
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return new StoryThreadViewModel(data.StoryThreads.First());
+        }
+    }
+
+    public static CodexEntryViewModel CodexEntryViewModel
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return new CodexEntryViewModel(data.CodexEntries.First());
+        }
+    }
+
+    public static LocationViewModel LocationViewModel
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return new LocationViewModel(data.Locations.First());
+        }
+    }
+
+    public static ThemeViewModel ThemeViewModel
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return new ThemeViewModel(data.Themes.First());
+        }
+    }
+
     public static ObservableCollection<CharacterViewModel> CharacterViewModelCollection
     {
         get

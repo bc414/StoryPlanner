@@ -7,7 +7,7 @@ public interface IStoryService : IDisposable
 {
     // --- Data Collections ---
     ObservableCollection<Chapter> Chapters { get; }
-    ObservableCollection<StoryThread> Threads { get; }
+    ObservableCollection<StoryThread> StoryThreads { get; }
     ObservableCollection<Character> Characters { get; }
     ObservableCollection<Theme> Themes { get; }
     ObservableCollection<Location> Locations { get; }

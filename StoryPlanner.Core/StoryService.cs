@@ -11,7 +11,7 @@ public class StoryService : IStoryService
 
     // --- The In-Memory Data Graph ---
     public ObservableCollection<Chapter> Chapters { get; private set; } = new();
-    public ObservableCollection<StoryThread> Threads { get; private set; } = new();
+    public ObservableCollection<StoryThread> StoryThreads { get; private set; } = new();
     public ObservableCollection<Character> Characters { get; private set; } = new();
     public ObservableCollection<Theme> Themes { get; private set; } = new();
     
@@ -68,6 +68,7 @@ public class StoryService : IStoryService
         // Configure for the new file
         var options = new DbContextOptionsBuilder<AppDbContext>()
             .UseSqlite($"Data Source={filePath}")
+            .EnableSensitiveDataLogging()
             .Options;
 
         _context = new AppDbContext(options);
@@ -99,6 +100,7 @@ public class StoryService : IStoryService
 
         var options = new DbContextOptionsBuilder<AppDbContext>()
             .UseSqlite($"Data Source={filePath}")
+            .EnableSensitiveDataLogging()
             .Options;
 
         _context = new AppDbContext(options);
@@ -209,7 +211,7 @@ public class StoryService : IStoryService
         // STEP 4: BIND TO UI
         // ---------------------------------------------------------------------------
         Chapters = _context.Chapters.Local.ToObservableCollection();
-        Threads = _context.Threads.Local.ToObservableCollection();
+        StoryThreads = _context.Threads.Local.ToObservableCollection();
         Characters = _context.Characters.Local.ToObservableCollection();
         Themes = _context.Themes.Local.ToObservableCollection();
         Locations = _context.Locations.Local.ToObservableCollection();

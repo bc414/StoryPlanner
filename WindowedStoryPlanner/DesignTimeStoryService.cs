@@ -8,7 +8,7 @@ public class DesignTimeStoryService : IStoryService
 {
     // --- Data Collections ---
     public ObservableCollection<Chapter> Chapters { get; }
-    public ObservableCollection<StoryThread> Threads { get; }
+    public ObservableCollection<StoryThread> StoryThreads { get; }
     public ObservableCollection<Character> Characters { get; }
     public ObservableCollection<Theme> Themes { get; }
     public ObservableCollection<Location> Locations { get; }
@@ -33,7 +33,7 @@ public class DesignTimeStoryService : IStoryService
         // This makes them compatible with the Interface requirements
         Chapters = new ObservableCollection<Chapter>(data.Chapters);
         Characters = new ObservableCollection<Character>(data.Characters);
-        Threads = new ObservableCollection<StoryThread>(data.Threads);
+        StoryThreads = new ObservableCollection<StoryThread>(data.StoryThreads);
         Themes = new ObservableCollection<Theme>(data.Themes);
         Locations = new ObservableCollection<Location>(data.Locations);
         CodexEntries = new ObservableCollection<CodexEntry>(data.Notes.Select(n => n.CodexEntry).Where(c => c != null).Distinct());

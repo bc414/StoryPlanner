@@ -6,6 +6,7 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class CodexEntryViewModel : EntityViewModel
 {
     private readonly CodexEntry _codexEntry;
+    public CodexEntry CodexEntry => _codexEntry;
 
     public CodexEntryViewModel(CodexEntry codexEntry)
     {

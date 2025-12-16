@@ -6,6 +6,7 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class LocationViewModel : EntityViewModel
 {
     private readonly Location _location;
+    public Location Location => _location;
 
     public LocationViewModel(Location location)
     {
