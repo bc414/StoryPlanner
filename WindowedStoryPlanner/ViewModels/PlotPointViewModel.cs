@@ -12,16 +12,41 @@ public partial class PlotPointViewModel : EntityViewModel
 
     // --- Sub-ViewModels (Wrappers for Complex Lists) ---
     // We wrap the threads so we can display the Thread Name + Trajectory easily
-    public ObservableCollection<PlotPointThreadViewModel> Threads { get; } = new();
+    public ObservableCollection<StoryThreadViewModel> StoryThreads { get; } = new();
+    public ObservableCollection<CharacterViewModel> Characters { get; } = new();
+    public ObservableCollection<CodexEntryViewModel> CodexEntries { get; } = new();
+    public ObservableCollection<ThemeViewModel> Themes { get; } = new();
+    public ObservableCollection<ChapterViewModel> Chapters { get; } = new();
+    public ObservableCollection<LocationViewModel> Locations { get; } = new();
 
     public PlotPointViewModel(PlotPoint model)
     {
         _model = model;
 
         // 1. Hydrate the Thread wrappers
-        foreach (var threadAssignment in model.ThreadAssignments)
+        foreach (PlotPointThread threadAssignment in model.ThreadAssignments)
         {
-            Threads.Add(new PlotPointThreadViewModel(threadAssignment));
+            StoryThreads.Add(MainViewModel.Instance.StoryThreadDictionary[threadAssignment.StoryThread]);
+        }
+        foreach(PlotPointCharacter characterJunction in model.CharacterAppearances)
+        {
+            Characters.Add(MainViewModel.Instance.CharacterDictionary[characterJunction.Character]);
+        }
+        foreach(PlotPointCodexEntry plotPointCodexEntry in model.CodexReferences)
+        {
+            CodexEntries.Add(MainViewModel.Instance.CodexEntryDictionary[plotPointCodexEntry.CodexEntry]);
+        }
+        foreach(PlotPointTheme themeAssignment in model.ThemeAssignments)
+        {
+            Themes.Add(MainViewModel.Instance.ThemeDictionary[themeAssignment.Theme]);
+        }
+        if(model.Chapter != null)
+        {
+            Chapters.Add(MainViewModel.Instance.ChapterDictionary[model.Chapter]);
+        }
+        if (model.Location != null)
+        {
+            Locations.Add(MainViewModel.Instance.LocationDictionary[model.Location]);
         }
 
         // 2. Listen for changes (Optional: If you add threads dynamically, sync the collections)
@@ -159,7 +184,7 @@ public partial class PlotPointViewModel : EntityViewModel
         _model.ThreadAssignments.Add(newLink);
 
         // 3. Update View
-        Threads.Add(new PlotPointThreadViewModel(newLink));
+        //Threads.Add(new PlotPointThreadViewModel(newLink));
     }
 }
 

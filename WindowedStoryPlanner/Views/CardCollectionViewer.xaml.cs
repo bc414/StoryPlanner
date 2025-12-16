@@ -69,5 +69,27 @@ namespace WindowedStoryPlanner.Views
             get => (ICommand)GetValue(ViewPayloadCommandProperty);
             set => SetValue(ViewPayloadCommandProperty, value);
         }
+
+        private void ListView_PreviewMouseWheel(object sender, MouseWheelEventArgs e)
+        {
+            var listView = sender as ListView;
+
+            // Check the actual property we bound in XAML. 
+            // If it is 'Disabled', the ListView shouldn't be handling the scroll.
+            if (ScrollViewer.GetVerticalScrollBarVisibility(listView) == ScrollBarVisibility.Disabled)
+            {
+                // Mark the event as handled so the ListView doesn't try to scroll itself
+                e.Handled = true;
+
+                // Create a new event to send up the tree
+                var eventArg = new MouseWheelEventArgs(e.MouseDevice, e.Timestamp, e.Delta);
+                eventArg.RoutedEvent = UIElement.MouseWheelEvent;
+                eventArg.Source = sender;
+
+                // Find the parent (The UserControl) and raise the event there
+                var parent = ((Control)sender).Parent as UIElement;
+                parent?.RaiseEvent(eventArg);
+            }
+        }
     }
 }

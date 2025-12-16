@@ -63,6 +63,13 @@
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
+        <TabItem Header="PlotPoints">
+            <ScrollViewer>
+                <StackPanel>
+                    <v:CardCollectionViewer ItemsSource="{Binding PlotPointViewModels}"/>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
         <TabItem Header="Gemini Prompts">
             <v:GeminiLibrary />
         </TabItem>

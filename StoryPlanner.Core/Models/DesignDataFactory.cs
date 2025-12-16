@@ -511,7 +511,7 @@ public static class DesignDataFactory
                 Content = "The Appleloosa oil fields are rigged with explosives. If the line breaks, they blow the wells.",
                 IsStrictRule = true,
                 SourceMaterial = sources.First(s => s.Id == 3)
-            }
+            },
         };
 
         // ==============================================================================

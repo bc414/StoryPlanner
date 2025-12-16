@@ -11,7 +11,9 @@ public static class Sample
         get
         {
             var mockService = new DesignTimeStoryService();
-            return new MainViewModel(mockService);
+            var m = new MainViewModel(mockService);
+            m.UpdateState();
+            return m;
         }
     }
 

@@ -4,14 +4,69 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
-             xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
-             d:DataContext="{x:Static v:Sample.Note}"
-             mc:Ignorable="d">
-    
-    <StackPanel Orientation="Horizontal">
-        <TextBlock Text="{Binding Content}" TextWrapping="Wrap"></TextBlock>
-        <Button Command="{Binding DataContext.DeleteNoteCommand, RelativeSource={RelativeSource AncestorType=v:NoteViewer}}" 
-                CommandParameter="{Binding}" Content="Delete"/>
-    </StackPanel>
+             d:DataContext="{x:Static local:Sample.Note}"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+             mc:Ignorable="d"
+             Name="RootCard">
+
+    <UserControl.Resources>
+        <DataTemplate x:Key="SourceItemTemplate" DataType="{x:Type m:SourceMaterial}">
+            <StackPanel Orientation="Horizontal">
+                <Border Width="12" Height="12" CornerRadius="6" Margin="0,0,10,0"
+                        Background="{Binding ColorHex}" 
+                        BorderBrush="#999" BorderThickness="1"/>
+                <TextBlock Text="{Binding Name}" VerticalAlignment="Center"/>
+            </StackPanel>
+        </DataTemplate>
+    </UserControl.Resources>
+
+    <Border BorderThickness="2" 
+            Background="White"
+            CornerRadius="3"
+            Padding="5"
+            Margin="2"
+            BorderBrush="{Binding BorderColor}"
+            Tag="{Binding Tag, ElementName=RootCard}">
+
+        <Border.Style>
+            <Style TargetType="Border">
+                <Setter Property="Background" Value="White"/>
+            </Style>
+        </Border.Style>
+
+        <Border.ContextMenu>
+            <ContextMenu ItemsSource="{Binding PlacementTarget.Tag.AvailableSources, RelativeSource={RelativeSource Self}}"
+                         ItemTemplate="{StaticResource SourceItemTemplate}">
+                <ContextMenu.ItemContainerStyle>
+                    <Style TargetType="MenuItem">
+                        <Setter Property="Command" Value="{Binding PlacementTarget.DataContext.SetSourceCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
+                        <Setter Property="CommandParameter" Value="{Binding}"/>
+                    </Style>
+                </ContextMenu.ItemContainerStyle>
+            </ContextMenu>
+        </Border.ContextMenu>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Ellipse Grid.Column="0" 
+                     Width="8" Height="8" 
+                     Fill="Black" 
+                     VerticalAlignment="Top" 
+                     Margin="2,5,8,0"/>
+
+            <TextBox Grid.Column="1"
+                     Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}" 
+                     TextWrapping="Wrap" 
+                     AcceptsReturn="True"
+                     BorderThickness="0"
+                     Background="Transparent"
+                     VerticalAlignment="Stretch"
+                     ContextMenu="{x:Null}"/>
+        </Grid>
+    </Border>
 </UserControl>

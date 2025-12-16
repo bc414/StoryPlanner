@@ -7,9 +7,12 @@
              xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
              d:DataContext="{x:Static v:Sample.PlotPointViewModel}"
-             mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300">
+             mc:Ignorable="d">
     <StackPanel Orientation="Horizontal">
-        <TextBlock Text="{Binding Title}"></TextBlock>
+        <Button Width="160" Height="90" Margin="5,5,5,5"
+    Command="{Binding OpenWindowCommand}"
+    HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10,10" FontSize="16">
+            <TextBlock Text="{Binding Title}" TextWrapping="Wrap" TextAlignment="Center" />
+        </Button>
     </StackPanel>
 </UserControl>

@@ -6,12 +6,21 @@ using Microsoft.Win32;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.Views;
+using System.ComponentModel;
 
 namespace WindowedStoryPlanner.ViewModels;
 
 public partial class MainViewModel : ObservableObject
 {
-    public static MainViewModel Instance { get; private set; }
+    public static MainViewModel Instance
+    {
+        get
+        {
+            return _instance;
+        }
+    }
+
+    private static MainViewModel _instance;
     
     private readonly IStoryService _storyService;
     
@@ -25,6 +34,7 @@ public partial class MainViewModel : ObservableObject
     public ObservableCollection<Theme> Themes => _storyService.Themes;
     public ObservableCollection<Location> Locations => _storyService.Locations;
     public ObservableCollection<CodexEntry> CodexEntries => _storyService.CodexEntries;
+    public ObservableCollection<SourceMaterial> SourceMaterials => _storyService.SourceMaterials;
 
     public ObservableCollection<GeminiEntry> GeminiEntries => _storyService.GeminiEntries;
 
@@ -56,7 +66,7 @@ public partial class MainViewModel : ObservableObject
 
     public MainViewModel(IStoryService storyService)
     {
-        Instance = this;
+        _instance = this;
         _storyService = storyService;
         UpdateState();
     }
@@ -116,7 +126,7 @@ public partial class MainViewModel : ObservableObject
         MessageBox.Show("Saved!", "Story Planner", MessageBoxButton.OK, MessageBoxImage.Information);
     }
 
-    private void UpdateState()
+    public void UpdateState()
     {
         IsProjectLoaded = _storyService.IsProjectLoaded;
         if (IsProjectLoaded)
@@ -125,14 +135,14 @@ public partial class MainViewModel : ObservableObject
             
             
             
-            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
             CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(Characters, CharacterDictionary);
             ThemeViewModels = CreateViewModelCollection<Theme, ThemeViewModel>(Themes, ThemeDictionary);
             ChapterViewModels = CreateViewModelCollection<Chapter, ChapterViewModel>(Chapters, ChapterDictionary);
             StoryThreadViewModels = CreateViewModelCollection<StoryThread, StoryThreadViewModel>(Threads, StoryThreadDictionary);
             LocationViewModels = CreateViewModelCollection<Location, LocationViewModel>(Locations, LocationDictionary);
             CodexEntryViewModels = CreateViewModelCollection<CodexEntry, CodexEntryViewModel>(CodexEntries, CodexEntryDictionary);
-
+            // Must come last because it needs the above dictionaries populated
+            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
 
             // Notify UI to refresh bindings since the collections were replaced
             OnPropertyChanged(nameof(Characters));
@@ -352,6 +362,12 @@ public partial class MainViewModel : ObservableObject
 
         // 2. CREATE: Make the Window
         var window = GetWindowBasedOnType(viewModel);
+
+        if (window == null)
+        {
+            MessageBox.Show("Could not determine the correct window type for this ViewModel.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            return;
+        }
     
         window.DataContext = viewModel;
 
@@ -367,6 +383,10 @@ public partial class MainViewModel : ObservableObject
         if (viewModel is CharacterViewModel)
         {
             return new CharacterWindow();
+        }
+        else if(viewModel is PlotPointViewModel)
+        {
+            return new PlotPointWindow();
         }
         /*else if (viewModel is ChapterViewModel)
         {

@@ -29,7 +29,10 @@
         </ContextMenu>
     </UserControl.Resources>
 
-    <ListView ItemsSource="{Binding ItemsSource, RelativeSource={RelativeSource AncestorType=UserControl}}" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+    <ListView ItemsSource="{Binding ItemsSource, RelativeSource={RelativeSource AncestorType=UserControl}}"
+              ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+              ScrollViewer.VerticalScrollBarVisibility="{Binding Path=(ScrollViewer.VerticalScrollBarVisibility), RelativeSource={RelativeSource AncestorType=UserControl}}"
+              PreviewMouseWheel="ListView_PreviewMouseWheel">
 
         <ListView.ItemsPanel>
             <ItemsPanelTemplate>
@@ -62,6 +65,9 @@
             </DataTemplate>
             <DataTemplate DataType="{x:Type vm:CodexEntryViewModel}">
                 <local:CodexEntryCard />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type vm:PlotPointViewModel}">
+                <local:PlotPointCard />
             </DataTemplate>
         </ListView.Resources>
     </ListView>
