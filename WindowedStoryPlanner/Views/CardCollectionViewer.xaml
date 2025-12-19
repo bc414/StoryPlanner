@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views" xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              mc:Ignorable="d" 
              d:DataContext="{x:Static local:Sample.CharacterViewModelCollection}">
     <UserControl.Resources>
@@ -32,7 +33,10 @@
     <ListView ItemsSource="{Binding ItemsSource, RelativeSource={RelativeSource AncestorType=UserControl}}"
               ScrollViewer.HorizontalScrollBarVisibility="Disabled"
               ScrollViewer.VerticalScrollBarVisibility="{Binding Path=(ScrollViewer.VerticalScrollBarVisibility), RelativeSource={RelativeSource AncestorType=UserControl}}"
-              PreviewMouseWheel="ListView_PreviewMouseWheel">
+                 BorderThickness="0"
+                 Background="Transparent"
+                 dd:DragDrop.IsDragSource="True"
+              dd:DragDrop.UseDefaultDragAdorner="True">
 
         <ListView.ItemsPanel>
             <ItemsPanelTemplate>
@@ -44,6 +48,9 @@
             <Style TargetType="ListViewItem">
                 <Setter Property="Tag" Value="{Binding RelativeSource={RelativeSource AncestorType=local:CardCollectionViewer}}" />
                 <Setter Property="ContextMenu" Value="{StaticResource UniversalCardMenu}" />
+
+                <Setter Property="dd:DragDrop.IsDropTarget" Value="True" />
+                <Setter Property="dd:DragDrop.DropHandler" Value="{Binding}" />
             </Style>
         </ListView.ItemContainerStyle>
 

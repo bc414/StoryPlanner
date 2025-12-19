@@ -106,4 +106,56 @@ public static class Sample
             return new PlotPointViewModel(data.PlotPoints.First());
         }
     }
+
+    public static PlotPointCollectionViewModel PlotPointCollectionViewModel
+    {
+        get
+        {
+            List<PlotPoint> plotPoints = DesignDataFactory.CreateWorld().PlotPoints;
+            ObservableCollection<PlotPointViewModel> vms = new ObservableCollection<PlotPointViewModel>();
+            foreach(var plotPoint in plotPoints)
+            {
+                vms.Add(new PlotPointViewModel(plotPoint));
+            }
+            var pp = new PlotPointCollectionViewModel();
+            pp.ViewModelCollection = vms;
+            return pp;
+        }
+    }
+
+    public static PlotPointCharacter PlotPointCharacter
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return data.PlotPoints.First().CharacterAppearances.First();
+        }
+    }
+
+    public static PlotPointCodexEntry PlotPointCodexEntry
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return data.PlotPoints.First(p => p.Id == 2).CodexReferences.First();
+        }
+    }
+
+    public static PlotPointTheme PlotPointTheme
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return data.PlotPoints.First(p => p.Id == 6).ThemeAssignments.First();
+        }
+    }
+
+    public static PlotPointThread PlotPointThread
+    {
+        get
+        {
+            var data = DesignDataFactory.CreateWorld();
+            return data.PlotPoints.First(p => p.Id == 6).ThreadAssignments.First();
+        }
+    }
 }

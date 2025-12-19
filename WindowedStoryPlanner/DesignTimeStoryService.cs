@@ -36,7 +36,7 @@ public class DesignTimeStoryService : IStoryService
         StoryThreads = new ObservableCollection<StoryThread>(data.StoryThreads);
         Themes = new ObservableCollection<Theme>(data.Themes);
         Locations = new ObservableCollection<Location>(data.Locations);
-        CodexEntries = new ObservableCollection<CodexEntry>(data.Notes.Select(n => n.CodexEntry).Where(c => c != null).Distinct());
+        CodexEntries = new ObservableCollection<CodexEntry>(data.CodexEntries);
         SourceMaterials = new ObservableCollection<SourceMaterial>(data.Sources);
         
         // Assuming your Factory generates PlotPoints inside chapters, 

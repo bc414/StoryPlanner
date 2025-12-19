@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
         xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
-        mc:Ignorable="d" d:DataContext="{x:Static local:Sample.PlotPointViewModel}" Width="800">
+        xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+        mc:Ignorable="d" d:DataContext="{x:Static local:Sample.PlotPointViewModel}" Width="800"
+        dd:DragDrop.IsDropTarget="True"
+        dd:DragDrop.DropHandler="{Binding}">
     <Window.Resources>
         <ObjectDataProvider x:Key="CoreDriverEnum" MethodName="GetValues" ObjectType="{x:Type m:CoreDriver}">
             <ObjectDataProvider.MethodParameters>
@@ -48,21 +51,6 @@
                     </DataTemplate>
                 </Setter.Value>
             </Setter>
-        </Style>
-
-        <Style TargetType="TextBlock" x:Key="LabelStyle">
-            <Setter Property="Foreground" Value="#666666"/>
-            <Setter Property="Margin" Value="0,0,0,2"/>
-            <Setter Property="FontSize" Value="11"/>
-        </Style>
-
-        <Style TargetType="TextBox" x:Key="AutoGrowingTextBox">
-            <Setter Property="TextWrapping" Value="Wrap"/>
-            <Setter Property="AcceptsReturn" Value="True"/>
-            <Setter Property="VerticalScrollBarVisibility" Value="Disabled"/>
-            <Setter Property="Padding" Value="5"/>
-            <Setter Property="Margin" Value="0,0,0,10"/>
-            <Setter Property="BorderBrush" Value="#CCCCCC"/>
         </Style>
 
     </Window.Resources>

@@ -1,0 +1,67 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Style x:Key="AddButtonStyle" TargetType="Button">
+        <Setter Property="Width" Value="100"/>
+        <Setter Property="Height" Value="30"/>
+        <Setter Property="HorizontalAlignment" Value="Right"/>
+        <Setter Property="Margin" Value="0,5,5,0"/>
+    </Style>
+    <Style TargetType="TextBlock" x:Key="LabelStyle">
+        <Setter Property="Foreground" Value="#666666"/>
+        <Setter Property="Margin" Value="0,0,0,2"/>
+        <Setter Property="FontSize" Value="11"/>
+    </Style>
+
+    <Style TargetType="TextBox" x:Key="AutoGrowingTextBox">
+        <Setter Property="TextWrapping" Value="Wrap"/>
+        <Setter Property="AcceptsReturn" Value="True"/>
+        <Setter Property="VerticalScrollBarVisibility" Value="Disabled"/>
+        <Setter Property="Padding" Value="5"/>
+        <Setter Property="Margin" Value="0,0,0,10"/>
+        <Setter Property="BorderBrush" Value="#CCCCCC"/>
+    </Style>
+
+    <Style x:Key="CardBaseStyle" TargetType="UserControl">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="UserControl">
+                    <Border x:Name="CardBorder"
+                            Background="White"
+                            BorderBrush="#CCCCCC"
+                            BorderThickness="1"
+                            CornerRadius="3"
+                            Padding="5">
+
+                        <Border.InputBindings>
+                            <MouseBinding MouseAction="LeftDoubleClick"  Command="{Binding OpenWindowCommand}"/>
+                        </Border.InputBindings>
+
+                        <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                          VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+
+                        <Border.Style>
+                            <Style TargetType="Border">
+                                <Style.Triggers>
+                                    <Trigger Property="IsMouseOver" Value="True">
+                                        <Setter Property="Background" Value="#F0F0F0"/>
+                                        <Setter Property="Cursor" Value="Hand"/>
+                                        <Setter Property="BorderBrush" Value="#999999"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </Border.Style>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <Style x:Key="EntityCardStyle" TargetType="UserControl" BasedOn="{StaticResource CardBaseStyle}">
+        <Setter Property="Margin" Value="5"/>
+        <Setter Property="Width" Value="160"/>
+        <Setter Property="Height" Value="90"/>
+        <!-- For standard entity cards, we center the content -->
+        <Setter Property="HorizontalContentAlignment" Value="Center"/>
+        <Setter Property="VerticalContentAlignment" Value="Center"/>
+    </Style>
+</ResourceDictionary>

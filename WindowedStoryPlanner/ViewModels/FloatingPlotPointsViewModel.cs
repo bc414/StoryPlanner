@@ -1,42 +1,46 @@
 using CommunityToolkit.Mvvm.ComponentModel;
-using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Windows.Data;
+using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
+using System.ComponentModel;
+using System.Windows.Data;
+using System.Windows;
+using System.Collections.ObjectModel;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public class FloatingPlotPointsViewModel : ObservableObject
+public partial class FloatingPlotPointsViewModel : ObservableObject
 {
-    private readonly IStoryService _storyService;
 
-    public ICollectionView FloatingPlotPointsView { get; private set; }
-    
-    // The Source Collection (All PlotPoints)
-    // We bind this to the Service's Local View
-    public ObservableCollection<PlotPoint> AllPlotPoints { get; private set; }
+    public ObservableCollection<PlotPointViewModel> FloatingPlotPoints { get; set; }
 
-    public FloatingPlotPointsViewModel(IStoryService storyService)
+    public FloatingPlotPointsViewModel()
     {
-        _storyService = storyService;
+        FloatingPlotPoints = new ObservableCollection<PlotPointViewModel>();
         
-        // 1. Get the raw list of ALL points (from context.PlotPoints.Local)
-        // You might need to expose this in your service as:
-        // public ObservableCollection<PlotPoint> AllPlotPoints => _context.PlotPoints.Local.ToObservableCollection();
-        AllPlotPoints = _storyService.PlotPoints; 
-
-        // 2. Create a CollectionView wrapper
-        FloatingPlotPointsView = CollectionViewSource.GetDefaultView(AllPlotPoints);
-
-        // 3. Define the Filter
-        FloatingPlotPointsView.Filter = (obj) =>
+        // Filter: only show PlotPoints that do not have an assigned Chapter
+        foreach (var pp in MainViewModel.Instance.PlotPointViewModels)
         {
-            if (obj is PlotPoint p)
+            if (pp.Model.Chapter == null)
             {
-                return p.ChapterId == null; // Show only if it has no chapter
+                FloatingPlotPoints.Add(pp);
             }
-            return false;
-        };
+        }
+
+        // Subscribe to changes in the main list to keep this in sync
+        MainViewModel.Instance.PlotPointViewModels.CollectionChanged += PlotPointViewModels_CollectionChanged;
+    }
+
+    private void PlotPointViewModels_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+    {
+         // Refresh logic (simplified)
+         FloatingPlotPoints.Clear();
+         foreach (var pp in MainViewModel.Instance.PlotPointViewModels)
+         {
+             if (pp.Model.Chapter == null)
+             {
+                 FloatingPlotPoints.Add(pp);
+             }
+         }
     }
 }

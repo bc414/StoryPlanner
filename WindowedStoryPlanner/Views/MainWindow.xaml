@@ -6,7 +6,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
         mc:Ignorable="d"
-        d:DataContext="{x:Static v:Sample.MainViewModel}"
+            
         Title="Mission Control" Height="600" Width="900"
         WindowStartupLocation="CenterScreen">
 
@@ -19,7 +19,7 @@
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding ChapterViewModels}" DeleteItemCommand="{Binding DeleteChapterCommand}"/>
-                    <Button Content="Add Chapter" Width="100" Height="30" Command="{Binding AddChapterCommand}" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+                    <Button Content="Add Chapter" Command="{Binding AddChapterCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
@@ -27,7 +27,7 @@
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding StoryThreadViewModels}" DeleteItemCommand="{Binding DeleteStoryThreadCommand}"/>
-                    <Button Content="Add StoryThread" Width="100" Height="30" Command="{Binding AddStoryThreadCommand}" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+                    <Button Content="Add StoryThread"  Command="{Binding AddStoryThreadCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
@@ -35,7 +35,7 @@
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding CharacterViewModels}" DeleteItemCommand="{Binding DeleteCharacterCommand}"/>
-                    <Button Content="Add Character" Width="100" Height="30" Command="{Binding AddCharacterCommand}" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+                    <Button Content="Add Character"  Command="{Binding AddCharacterCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
@@ -43,7 +43,7 @@
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding CodexEntryViewModels}" DeleteItemCommand="{Binding DeleteCodexEntryCommand}"/>
-                    <Button Content="Add CodexEntry" Width="100" Height="30" Command="{Binding AddCodexEntryCommand}" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+                    <Button Content="Add CodexEntry"  Command="{Binding AddCodexEntryCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
@@ -51,7 +51,7 @@
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding ThemeViewModels}" DeleteItemCommand="{Binding DeleteThemeCommand}"/>
-                    <Button Content="Add Theme" Width="100" Height="30" Command="{Binding AddThemeCommand}" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+                    <Button Content="Add Theme"  Command="{Binding AddThemeCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
@@ -59,16 +59,12 @@
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding LocationViewModels}" DeleteItemCommand="{Binding DeleteLocationCommand}"/>
-                    <Button Content="Add Location" Width="100" Height="30" Command="{Binding AddLocationCommand}" HorizontalAlignment="Right" Margin="0,5,5,0"/>
+                    <Button Content="Add Location"  Command="{Binding AddLocationCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
         <TabItem Header="PlotPoints">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding PlotPointViewModels}"/>
-                </StackPanel>
-            </ScrollViewer>
+            <Button Content="Open Floating Plot Points" Command="{Binding OpenFloatingPointsCommand}" Width="160" Height="90"/>
         </TabItem>
         <TabItem Header="Gemini Prompts">
             <v:GeminiLibrary />

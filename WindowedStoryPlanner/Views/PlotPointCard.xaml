@@ -6,13 +6,27 @@
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              d:DataContext="{x:Static v:Sample.PlotPointViewModel}"
-             mc:Ignorable="d">
-    <StackPanel Orientation="Horizontal">
-        <Button Width="160" Height="90" Margin="5,5,5,5"
-    Command="{Binding OpenWindowCommand}"
-    HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10,10" FontSize="16">
-            <TextBlock Text="{Binding Title}" TextWrapping="Wrap" TextAlignment="Center" />
-        </Button>
-    </StackPanel>
+             mc:Ignorable="d"
+             Style="{StaticResource CardBaseStyle}"
+             Margin="2,5">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Ellipse Grid.Column="0" 
+                 Width="8" Height="8" 
+                 Fill="Black" 
+                 VerticalAlignment="Top" 
+                 Margin="2,5,8,0"/>
+
+        <TextBlock Grid.Column="1"
+                   Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Stretch"
+                   ContextMenu="{x:Null}"/>
+    </Grid>
 </UserControl>

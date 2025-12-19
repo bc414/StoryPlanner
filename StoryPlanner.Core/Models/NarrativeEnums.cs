@@ -11,9 +11,10 @@ public enum DraftStatus
 
 public enum ThemeProminence
 {
+    Unset = 0,
     Motif = 1,         // Background flavor
     Discussion = 2,    // Talked about
-    Manifestation = 3, // actively shown in events
+    Demonstration = 3, // actively shown in events
     CentralConflict = 4 // The core point of the scene
 }
 

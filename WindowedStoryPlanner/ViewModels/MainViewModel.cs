@@ -12,6 +12,7 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public partial class MainViewModel : ObservableObject
 {
+    // ... (rest of class)
     public static MainViewModel Instance
     {
         get
@@ -63,12 +64,35 @@ public partial class MainViewModel : ObservableObject
     public Dictionary<Location, LocationViewModel> LocationDictionary = new();
     public Dictionary<CodexEntry, CodexEntryViewModel> CodexEntryDictionary = new();
 
+    //Collection views for sorting/filtering
+    private ICollectionView _chaptersView;
+
+    // The PUBLIC PROPERTY the UI binds to, which includes the logic 
+    // to raise the INotifyPropertyChanged event.
+    public ICollectionView ChaptersView
+    {
+        get => _chaptersView;
+        set
+        {
+            // 1. Check if the value is changing
+            if (_chaptersView != value)
+            {
+                // 2. Set the private backing field to the new value
+                _chaptersView = value;
+
+                // 3. Notify the UI (the View) that the property value has changed.
+                OnPropertyChanged(nameof(ChaptersView));
+            }
+        }
+    }
+
 
     public MainViewModel(IStoryService storyService)
     {
         _instance = this;
         _storyService = storyService;
         UpdateState();
+        
     }
 
     [RelayCommand]
@@ -134,6 +158,7 @@ public partial class MainViewModel : ObservableObject
             WindowTitle = $"Story Planner - {_storyService.CurrentFilePath}";
             
             
+            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
             
             CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(Characters, CharacterDictionary);
             ThemeViewModels = CreateViewModelCollection<Theme, ThemeViewModel>(Themes, ThemeDictionary);
@@ -141,8 +166,12 @@ public partial class MainViewModel : ObservableObject
             StoryThreadViewModels = CreateViewModelCollection<StoryThread, StoryThreadViewModel>(Threads, StoryThreadDictionary);
             LocationViewModels = CreateViewModelCollection<Location, LocationViewModel>(Locations, LocationDictionary);
             CodexEntryViewModels = CreateViewModelCollection<CodexEntry, CodexEntryViewModel>(CodexEntries, CodexEntryDictionary);
+
             // Must come last because it needs the above dictionaries populated
-            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
+            foreach(var ppvm in PlotPointViewModels)
+            {
+                ppvm.PopulateAssociatedViewModelCollections();
+            }
 
             // Notify UI to refresh bindings since the collections were replaced
             OnPropertyChanged(nameof(Characters));
@@ -328,13 +357,21 @@ public partial class MainViewModel : ObservableObject
     // --- LAUNCHER COMMANDS ---
 
     [RelayCommand]
+    public void OpenGeminiEntry(GeminiEntry geminiEntry)
+    {
+        Window window = new GeminiEntryWindow();
+        window.DataContext = geminiEntry;
+        window.Show();
+    }
+
+    [RelayCommand]
     public void OpenFloatingPoints()
     {
         // Use a specific key for the singleton window
         string key = "FloatingPoints"; 
         if (ActivateIfOpen(key)) return;
 
-        var vm = new FloatingPlotPointsViewModel(_storyService);
+        var vm = new FloatingPlotPointsViewModel();
         var win = new FloatingPlotPointsWindow { DataContext = vm };
         
         RegisterWindow(key, win);
@@ -388,10 +425,11 @@ public partial class MainViewModel : ObservableObject
         {
             return new PlotPointWindow();
         }
-        /*else if (viewModel is ChapterViewModel)
+        else if (viewModel is ChapterViewModel)
         {
             return new ChapterWindow();
         }
+        /*
         else if (viewModel is StoryThreadViewModel)
         {
             return new StoryThreadWindow();
@@ -435,4 +473,6 @@ public partial class MainViewModel : ObservableObject
         win.Closed += (s, e) => _openWindows.Remove(key);
         _openWindows.Add(key, win);
     }
+
+
 }

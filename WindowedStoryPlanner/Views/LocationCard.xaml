@@ -4,12 +4,19 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
-             mc:Ignorable="d" d:DataContext="{x:Static local:Sample.LocationViewModel}">
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+             d:DataContext="{x:Static local:Sample.LocationViewModel}"
+             mc:Ignorable="d"
+             
+             dd:DragDrop.IsDropTarget="True"
+             dd:DragDrop.DropHandler="{Binding}"
+             Style="{StaticResource EntityCardStyle}">
+
     <Grid>
-        <Button Width="160" Height="90" Margin="5,5,5,5"
-    Command="{Binding OpenWindowCommand}"
-    HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10,10" FontSize="16">
-            <TextBlock Text="{Binding Name}" TextWrapping="Wrap" TextAlignment="Center" />
-        </Button>
+        <TextBlock Text="{Binding Name}" 
+                   TextWrapping="Wrap" 
+                   TextAlignment="Center" 
+                   VerticalAlignment="Center"
+                   FontSize="16"/>
     </Grid>
 </UserControl>

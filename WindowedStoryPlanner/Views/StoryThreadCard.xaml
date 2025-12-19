@@ -4,30 +4,31 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+             d:DataContext="{x:Static local:Sample.StoryThreadViewModel}"
              mc:Ignorable="d"
-             d:DataContext="{x:Static local:Sample.StoryThreadViewModel}">
-    <Grid>
-        <Button Width="160" Height="90" Margin="5,5,5,5"
-        Command="{Binding OpenWindowCommand}"
-        HorizontalAlignment="Center" VerticalAlignment="Center" Padding="10,10" FontSize="16">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="Auto"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
+             
+             dd:DragDrop.IsDropTarget="True"
+             dd:DragDrop.DropHandler="{Binding}"
+             Style="{StaticResource EntityCardStyle}">
 
-                <TextBlock Text="{Binding Icon}" 
-                   FontSize="20" 
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Text="{Binding Icon}" 
+                   FontSize="24" 
                    Grid.Column="0" 
-                   Margin="0,0,5,0"
+                   Margin="0,0,8,0"
                    VerticalAlignment="Center"/>
 
-                <TextBlock Text="{Binding Name}" 
+        <TextBlock Text="{Binding Name}" 
                    TextWrapping="Wrap" 
-                   TextAlignment="Center" 
+                   TextAlignment="Left" 
                    Grid.Column="1"
-                   VerticalAlignment="Center" />
-            </Grid>
-        </Button>
+                   VerticalAlignment="Center"
+                   FontSize="16"/>
     </Grid>
 </UserControl>
