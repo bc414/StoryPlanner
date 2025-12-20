@@ -10,6 +10,10 @@
                 <ResourceDictionary Source="Styles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
             <v:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+            <v:CanMoveToChapterConverter x:Key="TypeCheckConverter"/>
+            <v:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
+            <v:IsFloatingWindowConverter x:Key="IsFloatingWindowConverter"/>
+            <v:IsEntityViewModelConverter x:Key="IsEntityViewModelConverter"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>

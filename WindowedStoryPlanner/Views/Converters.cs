@@ -2,6 +2,7 @@
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
+using WindowedStoryPlanner.ViewModels;
 
 namespace WindowedStoryPlanner.Views // Adjust namespace if needed
 {
@@ -40,5 +41,35 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
             }
             return false;
         }
+    }
+    
+    public class CanMoveToChapterConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return value is ChapterViewModel || value is FloatingPlotPointsViewModel;
+    }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
+    }
+    
+    public class IsFloatingWindowConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            // Returns TRUE if the bound object (the Window's DataContext) is the Floating VM
+            return value is FloatingPlotPointsViewModel;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
+    }
+    
+    public class IsEntityViewModelConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return value is EntityViewModel;
+        }
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
     }
 }

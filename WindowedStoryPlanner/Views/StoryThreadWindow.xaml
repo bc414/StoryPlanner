@@ -57,12 +57,12 @@
                      Style="{StaticResource AutoGrowingTextBox}"
                      MinHeight="20"/>
 
-            <local:NoteViewer DataContext="{Binding NoteCollectionViewModel}" MinHeight="150" Margin="0,0,0,15"/>
+            <local:NoteViewer DataContext="{Binding NoteCollectionViewModel}" MinHeight="20" Margin="0,0,0,15"/>
 
             <local:PlotPointCollectionViewer 
                 DataContext="{Binding PlotPointCollectionViewModel}" 
                 IsDragReorderEnabled="{Binding IsChecked, ElementName=ReOrderCheckbox}" 
-                MinHeight="200"/>
+                MinHeight="20"/>
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,5,0,0">
                 <Button Content="+ New Plot Point" Height="24" Command="{Binding AddPlotPointCommand}"/>

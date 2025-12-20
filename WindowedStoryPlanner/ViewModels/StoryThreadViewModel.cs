@@ -75,6 +75,11 @@ public partial class StoryThreadViewModel : EntityViewModel
         PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
     }
 
+    public void UnlinkPlotPoint(PlotPointViewModel plotPointVM)
+    {
+        plotPointVM.UnlinkThread(this);
+    }
+
     // --- Properties Wrapper ---
 
     public string Name

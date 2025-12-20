@@ -21,6 +21,8 @@ public partial class PlotPointViewModel : EntityViewModel
     public ObservableCollection<ThemeViewModel> Themes { get; } = new();
     public ObservableCollection<ChapterViewModel> Chapters { get; } = new();
     public ObservableCollection<LocationViewModel> Locations { get; } = new();
+    
+    public ObservableCollection<ChapterViewModel> AllChapters => MainViewModel.Instance.ChapterViewModels;
 
     public PlotPointViewModel(PlotPoint model)
     {
@@ -239,62 +241,159 @@ public partial class PlotPointViewModel : EntityViewModel
     
     
 
+    
     [RelayCommand]
-    private void UnlinkTheme(ThemeViewModel themeViewModel)
+    public void UnlinkTheme(ThemeViewModel themeViewModel)
     {
-        PlotPointTheme payload = themeViewModel.Theme.PlotPointAssignments.Where(pp => pp.PlotPoint == Model).FirstOrDefault();
-        if(payload != null)
+        // Find the junction object (PlotPointTheme)
+        PlotPointTheme payload = themeViewModel.Theme.PlotPointAssignments
+            .FirstOrDefault(pp => pp.PlotPoint == Model);
+
+        if (payload != null)
         {
-            //1. Remove from Model
+            // 1. Remove from Plot Point Model
             Model.ThemeAssignments.Remove(payload);
-            
-            //2. Remove from ViewModel Collection
+
+            // 2. Remove from Theme Model
+            themeViewModel.Theme.PlotPointAssignments.Remove(payload);
+
+            // 3. Remove from PlotPointViewModel's ThemeViewModel Collection
             Themes.Remove(themeViewModel);
+
+            // 4. Remove this PlotPoint from the Theme Window's list
+            themeViewModel.PlotPointCollectionViewModel?.ViewModelCollection.Remove(this);
         }
     }
     
     [RelayCommand]
-    private void UnlinkCharacter(CharacterViewModel CharacterViewModel)
+    public void UnlinkCharacter(CharacterViewModel characterViewModel)
     {
-        PlotPointCharacter payload = CharacterViewModel.Character.Appearances.Where(pp => pp.PlotPoint == Model).FirstOrDefault();
-        if(payload != null)
+        // Find the junction object (PlotPointCharacter)
+        PlotPointCharacter payload = characterViewModel.Character.Appearances
+            .FirstOrDefault(pp => pp.PlotPoint == Model);
+
+        if (payload != null)
         {
-            //1. Remove from Model
+            // 1. Remove from Plot Point Model
             Model.CharacterAppearances.Remove(payload);
-            
-            //2. Remove from ViewModel Collection
-            Characters.Remove(CharacterViewModel);
+
+            // 2. Remove from Character Model
+            characterViewModel.Character.Appearances.Remove(payload);
+
+            // 3. Remove from PlotPointViewModel's CharacterViewModel Collection
+            Characters.Remove(characterViewModel);
+
+            // 4. Remove this PlotPoint from the Character Window's list
+            characterViewModel.PlotPointCollectionViewModel?.ViewModelCollection.Remove(this);
         }
     }
     
     [RelayCommand]
-    private void UnlinkCodexEntry(CodexEntryViewModel codexEntryViewModel)
+    public void UnlinkCodexEntry(CodexEntryViewModel codexEntryViewModel)
     {
-        PlotPointCodexEntry payload = codexEntryViewModel.CodexEntry.PlotPointReferences.Where(pp => pp.PlotPoint == Model).FirstOrDefault();
-        if(payload != null)
+        // Find the junction object (PlotPointCodexEntry)
+        PlotPointCodexEntry payload = codexEntryViewModel.CodexEntry.PlotPointReferences
+            .FirstOrDefault(pp => pp.PlotPoint == Model);
+
+        if (payload != null)
         {
-            //1. Remove from Model
+            // 1. Remove from Plot Point Model
             Model.CodexReferences.Remove(payload);
-            
-            //2. Remove from ViewModel Collection
+
+            // 2. Remove from Codex Entry Model
+            codexEntryViewModel.CodexEntry.PlotPointReferences.Remove(payload);
+
+            // 3. Remove from PlotPointViewModel's CodexEntryViewModel Collection
             CodexEntries.Remove(codexEntryViewModel);
+
+            // 4. Remove this PlotPoint from the Codex Window's list
+            codexEntryViewModel.PlotPointCollectionViewModel?.ViewModelCollection.Remove(this);
         }
     }
     
     [RelayCommand]
-    private void UnlinkThread(StoryThreadViewModel StoryThreadViewModel)
+    public void UnlinkThread(StoryThreadViewModel StoryThreadViewModel)
     {
         PlotPointThread payload = StoryThreadViewModel.StoryThread.PlotPointAssignments.Where(pp => pp.PlotPoint == Model).FirstOrDefault();
         if(payload != null)
         {
-            //1. Remove from Model
+            //1. Remove from Plot Point Model
             Model.ThreadAssignments.Remove(payload);
-            
-            //2. Remove from ViewModel Collection
+
+            //2. Remove from Story Thread Model
+            StoryThreadViewModel.StoryThread.PlotPointAssignments.Remove(payload);
+
+            //3. Remove from PlotPointViewModel's StoryThreadViewModel Collection
             StoryThreads.Remove(StoryThreadViewModel);
+
+            //4. Remove from StoryThreadViewModel's PlotPointViewModel Collection
+            StoryThreadViewModel.PlotPointCollectionViewModel.ViewModelCollection.Remove(this);
         }
     }
     
+    public void UnlinkLocation(LocationViewModel locationViewModel)
+    {
+        if (Model.Location == locationViewModel.Location)
+        {
+            Model.Location = null;
+            Locations.Clear();
+            locationViewModel.Location.PlotPoints.Remove(Model);
+            locationViewModel.PlotPointCollectionViewModel.ViewModelCollection.Remove(this);
+        }
+    }
+
+    public void UnlinkChapter(ChapterViewModel chapterViewModel)
+    {
+        if (Model.Chapter == chapterViewModel.Chapter)
+        {
+            Model.Chapter = null;
+            Chapters.Clear();
+            chapterViewModel.Chapter.PlotPoints.Remove(Model);
+            chapterViewModel.PlotPointCollectionViewModel.ViewModelCollection.Remove(this);
+        }
+    }
+
+    [RelayCommand]
+    public void UnlinkEntity(object o)
+    {
+        if (o == null) return;
+        
+        var entity = o as EntityViewModel;
+        if (entity == null) return;
+
+        switch (entity)
+        {
+            case StoryThreadViewModel threadVM:
+                UnlinkThread(threadVM);
+                break;
+
+            case CharacterViewModel charVM:
+                UnlinkCharacter(charVM);
+                break;
+
+            case ThemeViewModel themeVM:
+                UnlinkTheme(themeVM);
+                break;
+
+            case CodexEntryViewModel codexVM:
+                UnlinkCodexEntry(codexVM);
+                break;
+
+            case ChapterViewModel chapterVM:
+                UnlinkChapter(chapterVM);
+                break;
+
+            case LocationViewModel locVM:
+                UnlinkLocation(locVM);
+                break;
+
+            default:
+                // Optional: Log warning or ignore
+                MessageBox.Show("UnlinkEntity: Unsupported entity type.");
+                break;
+        }
+    }
+
     public bool IsLinkedTo(EntityViewModel other)
     {
         return other switch
@@ -384,35 +483,56 @@ public partial class PlotPointViewModel : EntityViewModel
         if (IsLinkedTo(locationViewModel)) return; // 1:1 Logic is slightly different, but checking equality works
 
         Model.Location = locationViewModel.Location;
+        
+        locationViewModel.Location.PlotPoints.Add(Model);
+        
         Locations.Clear();
         Locations.Add(locationViewModel);
+        
+        locationViewModel.PlotPointCollectionViewModel.ViewModelCollection.Add(this);
     }
 
     public void LinkChapter(ChapterViewModel chapterViewModel)
     {
         if (IsLinkedTo(chapterViewModel)) return;
 
+        //Update plot point model
         Model.Chapter = chapterViewModel.Chapter;
+        
+        //Update chapter model
+        chapterViewModel.Chapter.PlotPoints.Add(Model);
+        Model.OrderInChapter = chapterViewModel.Chapter.PlotPoints.Count;
+        
+        //Update plot point view model
         Chapters.Clear();
         Chapters.Add(chapterViewModel);
+        
+        //Update chapter view model
+        chapterViewModel.PlotPointCollectionViewModel.ViewModelCollection.Add(this);
     }
 
-    public void UnlinkLocation(LocationViewModel locationViewModel)
+    [RelayCommand]
+    public void MoveToChapter(ChapterViewModel targetChapter)
     {
-        if (Model.Location == locationViewModel.Location)
-        {
-            Model.Location = null;
-            Locations.Clear();
-        }
-    }
+        if (targetChapter == null) return;
 
-    public void UnlinkChapter(ChapterViewModel chapterViewModel)
-    {
-         if (Model.Chapter == chapterViewModel.Chapter)
+        // 1. Check if we are already in this chapter to avoid work
+        var currentChapterVM = Chapters.FirstOrDefault();
+        if (currentChapterVM != null && currentChapterVM.Chapter.Id == targetChapter.Chapter.Id)
         {
-            Model.Chapter = null;
-            Chapters.Clear();
+            return; 
         }
+
+        // 2. UNLINK from the current chapter (if any)
+        // This removes it from the old Window's list and the Model
+        if (currentChapterVM != null)
+        {
+            UnlinkChapter(currentChapterVM);
+        }
+
+        // 3. LINK to the new chapter
+        // This adds it to the new Window's list and the Model
+        LinkChapter(targetChapter);
     }
 
     // --- UI State (Not in Model) ---

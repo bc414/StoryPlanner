@@ -63,7 +63,7 @@
                         </Grid.ColumnDefinitions>
 
                         <!-- The Card -->
-                        <local:PlotPointCard />
+                        <local:PlotPointCard Tag="{Binding DataContext, RelativeSource={RelativeSource AncestorType=Window}}" />
 
                         <!-- Reorder Buttons -->
                         <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="5,0,0,0"
