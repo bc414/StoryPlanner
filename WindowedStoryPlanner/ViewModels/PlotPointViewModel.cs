@@ -85,6 +85,27 @@ public partial class PlotPointViewModel : EntityViewModel
         get => Model.Title;
         set => SetProperty(Model.Title, value, Model, (u, n) => u.Title = n);
     }
+    
+    public int OrderInChapter
+    {
+        get => Model.OrderInChapter;
+        set
+        {
+            if (SetProperty(Model.OrderInChapter, value, Model, (u, n) => u.OrderInChapter = n))
+            {
+                RefreshFullOrder(); // <--- Update immediately
+            }
+        }
+    }
+    
+    public string FullOrder => Model.Chapter == null 
+        ? "? " 
+        : $"{Model.Chapter.OrderIndex}.{Model.OrderInChapter + 1} ";
+    
+    public void RefreshFullOrder()
+    {
+        OnPropertyChanged(nameof(FullOrder));
+    }
 
     public string Stakes
     {
@@ -136,11 +157,7 @@ public partial class PlotPointViewModel : EntityViewModel
         set => SetProperty(Model.Presentation, value, Model, (u, n) => u.Presentation = n);
     }
 
-    public int OrderInChapter
-    {
-        get => Model.OrderInChapter;
-        set => SetProperty(Model.OrderInChapter, value, Model, (u, n) => u.OrderInChapter = n);
-    }
+    
     
     [RelayCommand]
     private void ViewLocationPayload(LocationViewModel vm)
@@ -350,6 +367,7 @@ public partial class PlotPointViewModel : EntityViewModel
             Chapters.Clear();
             chapterViewModel.Chapter.PlotPoints.Remove(Model);
             chapterViewModel.PlotPointCollectionViewModel.ViewModelCollection.Remove(this);
+            RefreshFullOrder();
         }
     }
 
@@ -494,44 +512,49 @@ public partial class PlotPointViewModel : EntityViewModel
 
     public void LinkChapter(ChapterViewModel chapterViewModel)
     {
+        // 1. Safety Checks
+        if (chapterViewModel == null) return;
         if (IsLinkedTo(chapterViewModel)) return;
 
-        //Update plot point model
+        // 2. Unlink from previous (The "Move" Logic)
+        if (Model.Chapter != null)
+        {
+            // Use FirstOrDefault() to prevent crashes if the list is empty for some reason
+            var oldChapterVM = Chapters.FirstOrDefault();
+
+            // If we have the VM loaded, clean it up properly via the method
+            if (oldChapterVM != null)
+            {
+                UnlinkChapter(oldChapterVM);
+            }
+            else
+            {
+                // Fallback: If we don't have the VM loaded but the Model has a chapter, 
+                // we must manually clear the model reference to avoid database constraint errors
+                Model.Chapter = null;
+            }
+        }
+
+        // 3. Link New
         Model.Chapter = chapterViewModel.Chapter;
-        
-        //Update chapter model
+
+        // Update the Target Window (Chapter Window)
         chapterViewModel.Chapter.PlotPoints.Add(Model);
-        Model.OrderInChapter = chapterViewModel.Chapter.PlotPoints.Count;
-        
-        //Update plot point view model
+        chapterViewModel.PlotPointCollectionViewModel.ViewModelCollection.Add(this);
+
+        // Update This Card's internal list
         Chapters.Clear();
         Chapters.Add(chapterViewModel);
-        
-        //Update chapter view model
-        chapterViewModel.PlotPointCollectionViewModel.ViewModelCollection.Add(this);
+
+        // Ensure persistence of order
+        Model.OrderInChapter = chapterViewModel.Chapter.PlotPoints.Count - 1;
+        RefreshFullOrder();
     }
 
     [RelayCommand]
     public void MoveToChapter(ChapterViewModel targetChapter)
     {
-        if (targetChapter == null) return;
-
-        // 1. Check if we are already in this chapter to avoid work
-        var currentChapterVM = Chapters.FirstOrDefault();
-        if (currentChapterVM != null && currentChapterVM.Chapter.Id == targetChapter.Chapter.Id)
-        {
-            return; 
-        }
-
-        // 2. UNLINK from the current chapter (if any)
-        // This removes it from the old Window's list and the Model
-        if (currentChapterVM != null)
-        {
-            UnlinkChapter(currentChapterVM);
-        }
-
-        // 3. LINK to the new chapter
-        // This adds it to the new Window's list and the Model
+        // All the complexity is now handled centrally in LinkChapter
         LinkChapter(targetChapter);
     }
 

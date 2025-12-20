@@ -30,7 +30,7 @@ dd:DragDrop.DropHandler="{Binding}">
         <StackPanel>
             <StackPanel Orientation="Horizontal">
                 <TextBlock Text="Chapter " FontWeight="Bold" FontSize="16"/>
-                <TextBlock Text="{Binding OrderIndex}" FontWeight="Bold" FontSize="16"/>
+                <TextBox Text="{Binding OrderIndex, UpdateSourceTrigger=LostFocus}" FontWeight="Bold" FontSize="16"/>
                 <TextBlock Text=". " FontWeight="Bold" FontSize="16"/>
                 <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
     FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>

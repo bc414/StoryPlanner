@@ -34,7 +34,7 @@
                       ItemsSource="{Binding AllChapters}">
                 <MenuItem.ItemContainerStyle>
                     <Style TargetType="MenuItem">
-                        <Setter Property="Header" Value="{Binding Title}"/>
+                        <Setter Property="Header" Value="{Binding FullTitle}"/>
                         <Setter Property="Command" Value="{Binding DataContext.MoveToChapterCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
                         <Setter Property="CommandParameter" Value="{Binding}"/>
                     </Style>
@@ -76,11 +76,7 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-        <Ellipse Grid.Column="0" 
-                 Width="8" Height="8" 
-                 Fill="Black" 
-                 VerticalAlignment="Top" 
-                 Margin="2,5,8,0"/>
+        <TextBlock Grid.Column="0" Text="{Binding FullOrder}"/>
 
         <TextBlock Grid.Column="1"
                    Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 

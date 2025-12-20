@@ -7,6 +7,7 @@ using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.Views;
 using System.ComponentModel;
+using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels;
 
@@ -157,15 +158,47 @@ public partial class MainViewModel : ObservableObject
         {
             WindowTitle = $"Story Planner - {_storyService.CurrentFilePath}";
             
-            
-            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(PlotPoints, PlotPointDictionary);
-            
-            CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(Characters, CharacterDictionary);
-            ThemeViewModels = CreateViewModelCollection<Theme, ThemeViewModel>(Themes, ThemeDictionary);
-            ChapterViewModels = CreateViewModelCollection<Chapter, ChapterViewModel>(Chapters, ChapterDictionary);
-            StoryThreadViewModels = CreateViewModelCollection<StoryThread, StoryThreadViewModel>(Threads, StoryThreadDictionary);
-            LocationViewModels = CreateViewModelCollection<Location, LocationViewModel>(Locations, LocationDictionary);
-            CodexEntryViewModels = CreateViewModelCollection<CodexEntry, CodexEntryViewModel>(CodexEntries, CodexEntryDictionary);
+            // 1. PlotPoints
+            PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(
+                PlotPoints, // No need to OrderBy here anymore, the View handles it!
+                PlotPointDictionary);
+            EnableLiveSorting(PlotPointViewModels, nameof(PlotPointViewModel.Title));
+        
+            // 2. Characters
+            CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(
+                Characters, 
+                CharacterDictionary);
+            EnableLiveSorting(CharacterViewModels, nameof(CharacterViewModel.Name));
+
+            // 3. Themes
+            ThemeViewModels = CreateViewModelCollection<Theme, ThemeViewModel>(
+                Themes, 
+                ThemeDictionary);
+            EnableLiveSorting(ThemeViewModels, nameof(ThemeViewModel.Name));
+
+            // 4. Chapters (Sort by OrderIndex)
+            ChapterViewModels = CreateViewModelCollection<Chapter, ChapterViewModel>(
+                Chapters, 
+                ChapterDictionary);
+            EnableLiveSorting(ChapterViewModels, nameof(ChapterViewModel.OrderIndex));
+
+            // 5. StoryThreads
+            StoryThreadViewModels = CreateViewModelCollection<StoryThread, StoryThreadViewModel>(
+                Threads, 
+                StoryThreadDictionary);
+            EnableLiveSorting(StoryThreadViewModels, nameof(StoryThreadViewModel.Name));
+
+            // 6. Locations
+            LocationViewModels = CreateViewModelCollection<Location, LocationViewModel>(
+                Locations, 
+                LocationDictionary);
+            EnableLiveSorting(LocationViewModels, nameof(LocationViewModel.Name));
+
+            // 7. CodexEntries
+            CodexEntryViewModels = CreateViewModelCollection<CodexEntry, CodexEntryViewModel>(
+                CodexEntries, 
+                CodexEntryDictionary);
+            EnableLiveSorting(CodexEntryViewModels, nameof(CodexEntryViewModel.Title));
 
             // Must come last because it needs the above dictionaries populated
             foreach(var ppvm in PlotPointViewModels)
@@ -197,8 +230,31 @@ public partial class MainViewModel : ObservableObject
         }
     }
     
+    private void EnableLiveSorting<T>(ObservableCollection<T> collection, string sortProperty)
+    {
+        // Get the default view that the UI binds to
+        var view = CollectionViewSource.GetDefaultView(collection);
+    
+        // 1. clear existing sorts
+        view.SortDescriptions.Clear();
+    
+        // 2. Add the new sort description
+        view.SortDescriptions.Add(new SortDescription(sortProperty, ListSortDirection.Ascending));
+    
+        // 3. Enable Live Sorting (so it updates on edits)
+        // 3. CAST to ICollectionViewLiveShaping to access Live Sorting features
+        if (view is ICollectionViewLiveShaping liveView)
+        {
+            if (liveView.CanChangeLiveSorting)
+            {
+                liveView.IsLiveSorting = true;
+                liveView.LiveSortingProperties.Add(sortProperty);
+            }
+        }
+    }
+    
     public ObservableCollection<TViewModel> CreateViewModelCollection<TModel, TViewModel>(
-        ObservableCollection<TModel> models, Dictionary<TModel, TViewModel> map)
+        IEnumerable<TModel> models, Dictionary<TModel, TViewModel> map)
     {
         ObservableCollection<TViewModel> collection = new ObservableCollection<TViewModel>();
         foreach (TModel model in models)
