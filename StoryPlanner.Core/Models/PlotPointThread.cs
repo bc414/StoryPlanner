@@ -28,4 +28,7 @@ public partial class PlotPointThread : ObservableObject
     // Describe the impact that this plot point has for the trajectory of the thread
     [ObservableProperty]
     private string _impactDescription = string.Empty;
+
+    [ObservableProperty]
+    private int _sortOrder;
 }

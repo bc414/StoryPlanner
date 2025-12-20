@@ -299,10 +299,10 @@ public partial class PlotPointViewModel : EntityViewModel
     {
         return other switch
         {
-            CharacterViewModel c => Model.CharacterAppearances.Any(x => x.CharacterId == c.Character.Id),
-            ThemeViewModel t => Model.ThemeAssignments.Any(x => x.ThemeId == t.Theme.Id),
-            StoryThreadViewModel s => Model.ThreadAssignments.Any(x => x.ThreadId == s.StoryThread.Id),
-            CodexEntryViewModel e => Model.CodexReferences.Any(x => x.CodexEntryId == e.CodexEntry.Id),
+            CharacterViewModel c => Model.CharacterAppearances.Any(x => x.Character == c.Character),
+            ThemeViewModel t => Model.ThemeAssignments.Any(x => x.Theme == t.Theme),
+            StoryThreadViewModel s => Model.ThreadAssignments.Any(x => x.StoryThread == s.StoryThread),
+            CodexEntryViewModel e => Model.CodexReferences.Any(x => x.CodexEntry == e.CodexEntry),
             
             // 1:1 Relationships (Check if IDs match or objects match)
             ChapterViewModel ch => Model.ChapterId == ch.Chapter.Id, 

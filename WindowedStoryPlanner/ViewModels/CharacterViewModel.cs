@@ -22,6 +22,34 @@ public partial class CharacterViewModel : EntityViewModel
                 OnPropertyChanged(nameof(IsLinkingMode));
             }
         };
+        
+        // 1. Define the "Chapter -> Order" Comparator
+        Comparison<PlotPoint> standardSorter = (a, b) =>
+        {
+            // Handle null chapters (put them last)
+            int aChapter = a.Chapter?.OrderIndex ?? int.MaxValue;
+            int bChapter = b.Chapter?.OrderIndex ?? int.MaxValue;
+
+            if (aChapter != bChapter)
+                return aChapter.CompareTo(bChapter);
+
+            // If in same chapter, sort by order in chapter
+            return a.OrderInChapter.CompareTo(b.OrderInChapter);
+        };
+
+        // 2. Extract PlotPoints from the Appearances junction table
+        var relevantPlotPoints = character.Appearances.Select(x => x.PlotPoint);
+
+        // 3. Initialize Collection (View Only - No Reorder Strategy)
+        PlotPointCollectionViewModel = new PlotPointCollectionViewModel();
+        PlotPointCollectionViewModel.SetAndSortItems(relevantPlotPoints, standardSorter);
+
+        // 4. (Optional) Listen for new links to update the list live
+        character.Appearances.CollectionChanged += (s, e) => 
+        {
+            var updatedPoints = _character.Appearances.Select(x => x.PlotPoint);
+            PlotPointCollectionViewModel.SetAndSortItems(updatedPoints, standardSorter);
+        };
     }
 
     // --- Properties Wrapper ---

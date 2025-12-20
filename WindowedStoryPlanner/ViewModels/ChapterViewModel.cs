@@ -28,10 +28,18 @@ public partial class ChapterViewModel : EntityViewModel
                 OnPropertyChanged(nameof(IsLinkingMode));
             }
         };
-        // TODO: need to sort somehow
-        PlotPointCollectionViewModel = new PlotPointCollectionViewModel(chapter.PlotPoints);
-        PlotPointCollectionViewModel.ViewModelCollection.CollectionChanged += PlotPointCollection_CollectionChanged;
-        
+        // Initialize with Chapter-Specific Reorder Logic
+        PlotPointCollectionViewModel = new PlotPointCollectionViewModel(
+            chapter.PlotPoints,
+            (oldIndex, newIndex) => 
+            {
+                // 1. Move in Model
+                _chapter.PlotPoints.Move(oldIndex, newIndex);
+            
+                // 2. Update Sort Indexes
+                UpdateSortOrders();
+            }
+        );
     }
 
     private void PlotPointCollection_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)

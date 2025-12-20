@@ -429,11 +429,11 @@ public partial class MainViewModel : ObservableObject
         {
             return new ChapterWindow();
         }
-        /*
+        
         else if (viewModel is StoryThreadViewModel)
         {
             return new StoryThreadWindow();
-        }
+        }/*
         else if (viewModel is ThemeViewModel)
         {
             return new ThemeWindow();

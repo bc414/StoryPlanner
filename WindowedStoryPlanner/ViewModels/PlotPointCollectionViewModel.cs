@@ -1,5 +1,7 @@
+using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Windows;
+using System.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core.Models;
@@ -8,81 +10,64 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public partial class PlotPointCollectionViewModel : ObservableObject
 {
-    public ObservableCollection<PlotPointViewModel> ViewModelCollection { get; set; }
-    public ObservableCollection<PlotPoint> ModelCollection { get; }
+    public ObservableCollection<PlotPointViewModel> ViewModelCollection { get; set; } = new();
 
-    public PlotPointCollectionViewModel(ObservableCollection<PlotPoint> sourceCollection)
+    // Strategy: If null, reordering is disabled (Buttons Hidden)
+    private readonly Action<int, int>? _reorderStrategy;
+
+    // Default Constructor (Empty)
+    public PlotPointCollectionViewModel() { }
+
+    // Constructor with generic source and optional reorder logic
+    public PlotPointCollectionViewModel(
+        IEnumerable<PlotPoint> sourceItems, 
+        Action<int, int>? reorderStrategy = null)
     {
-        ModelCollection = sourceCollection;
-        ViewModelCollection = new ObservableCollection<PlotPointViewModel>();
-
-        foreach (PlotPoint p in sourceCollection)
+        _reorderStrategy = reorderStrategy;
+        
+        // Populate
+        foreach (var p in sourceItems)
         {
             ViewModelCollection.Add(MainViewModel.Instance.PlotPointDictionary[p]);
         }
     }
 
-    public PlotPointCollectionViewModel()
-    {
-        ModelCollection = new ObservableCollection<PlotPoint>();
-        ViewModelCollection = new ObservableCollection<PlotPointViewModel>();
-    }
+    // Property to control visibility of buttons in the View
+    public bool CanReorder => _reorderStrategy != null;
 
     [RelayCommand]
     public void MoveItemUp(PlotPointViewModel item)
     {
-        if (item == null) return;
         int index = ViewModelCollection.IndexOf(item);
-        if (index > 0)
-        {
-            MoveItem(index, index - 1);
-        }
+        if (index > 0) MoveItem(index, index - 1);
     }
 
     [RelayCommand]
     public void MoveItemDown(PlotPointViewModel item)
     {
-        if (item == null) return;
         int index = ViewModelCollection.IndexOf(item);
-        if (index < ViewModelCollection.Count - 1)
-        {
-            MoveItem(index, index + 1);
-        }
+        if (index < ViewModelCollection.Count - 1) MoveItem(index, index + 1);
     }
 
     private void MoveItem(int oldIndex, int newIndex)
     {
-        // 1. Move in ViewModel Collection (UI)
+        // 1. Move visually
         ViewModelCollection.Move(oldIndex, newIndex);
-        
-        // 2. Move in Model Collection (Data)
-        // We need to find the model object corresponding to the moved VM
-        var itemVM = ViewModelCollection[newIndex];
-        var itemModel = itemVM.Model;
-        
-        int modelIndex = ModelCollection.IndexOf(itemModel);
-        // Note: ModelCollection index might differ if ViewModelCollection is filtered, 
-        // but for PlotPoints in a Chapter, they should be 1:1. 
-        // If they are not 1:1, we might need a more robust swap, but assuming 1:1 for now.
-        if (modelIndex >= 0)
-        {
-             // We can't easily guess the new model index if the list is filtered. 
-             // Ideally we just update SortOrders and let the parent resort if needed, 
-             // but 'Move' implies immediate visual feedback.
-             
-             // Simplest approach for 1:1 lists (Chapter Plot Points):
-             ModelCollection.Move(oldIndex, newIndex);
-        }
 
-        // 3. Update Sort Orders persistence
-        UpdateSortOrders();
+        // 2. Delegate the data persistence to the parent
+        _reorderStrategy?.Invoke(oldIndex, newIndex);
     }
-
-    private void UpdateSortOrders()
+    
+    // Helper to refresh the list with specific sorting
+    public void SetAndSortItems(IEnumerable<PlotPoint> items, Comparison<PlotPoint> sortLogic)
     {
-        for (int i = 0; i < ViewModelCollection.Count; i++)
+        ViewModelCollection.Clear();
+        var sortedList = items.ToList();
+        sortedList.Sort(sortLogic);
+
+        foreach (var p in sortedList)
         {
-            ViewModelCollection[i].OrderInChapter = i;
+            ViewModelCollection.Add(MainViewModel.Instance.PlotPointDictionary[p]);
         }
     }
 }

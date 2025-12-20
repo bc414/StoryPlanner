@@ -153,15 +153,14 @@ public enum Presentation
 public enum ThreadScope
 {
     /// <summary>
-    /// Spans the entire story or large sections. Distributed and persistent.
-    /// (e.g., The War, The Redemption Arc, The Mystery).
-    /// </summary>
-    Overarching,
-
-    /// <summary>
     /// The specific focus of the current chapter/sequence.
     /// It must be dealt with 'Immediately' to move the serial story forward.
     /// (e.g., Survive the Blizzard, Win the Council Vote).
     /// </summary>
-    Immediate
+    Immediate = 0,
+    /// <summary>
+    /// Spans the entire story or large sections. Distributed and persistent.
+    /// (e.g., The War, The Redemption Arc, The Mystery).
+    /// </summary>
+    Overarching = 1
 }

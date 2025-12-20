@@ -349,6 +349,9 @@ namespace StoryPlanner.Migrations
                     b.Property<bool>("IsPrimary")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("SortOrder")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("StoryThreadId")
                         .HasColumnType("INTEGER");
 
