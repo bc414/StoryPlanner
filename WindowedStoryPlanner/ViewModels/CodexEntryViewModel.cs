@@ -14,6 +14,13 @@ public partial class CodexEntryViewModel : EntityViewModel
 
         // Initialize the collection VM using the list from the model
         NoteCollectionViewModel = new NoteCollectionViewModel(codexEntry.Notes);
+        NoteCollectionViewModel.PropertyChanged += (s, e) =>
+        {
+            if (e.PropertyName == nameof(NoteCollectionViewModel.IsNoteReorderMode))
+            {
+                OnPropertyChanged(nameof(IsLinkingMode));
+            }
+        };
     }
 
     // --- Properties Wrapper ---

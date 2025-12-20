@@ -18,4 +18,27 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
             throw new NotImplementedException();
         }
     }
+    
+    [ValueConversion(typeof(bool), typeof(bool))]
+    public class InverseBooleanConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value is bool boolValue)
+            {
+                return !boolValue;
+            }
+            return false; // Fallback if binding fails
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            // Two negatives make a positive, so logic is identical
+            if (value is bool boolValue)
+            {
+                return !boolValue;
+            }
+            return false;
+        }
+    }
 }

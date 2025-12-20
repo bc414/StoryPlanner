@@ -10,6 +10,13 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
 {
     public NoteCollectionViewModel NoteCollectionViewModel { get; set; }
     public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
+
+    public virtual bool IsLinkingMode => !NoteCollectionViewModel.IsNoteReorderMode;
+
+    public EntityViewModel()
+    {
+        
+    }
     
     [RelayCommand]
     public void OpenWindow()

@@ -9,7 +9,7 @@
         d:DataContext="{x:Static local:Sample.ChapterViewModel}"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
 
-dd:DragDrop.IsDropTarget="True"
+dd:DragDrop.IsDropTarget="{Binding IsLinkingMode}"
 dd:DragDrop.DropHandler="{Binding}">
     <Window.Resources>
         <Style TargetType="TextBlock" x:Key="LabelStyle">
@@ -45,9 +45,13 @@ Style="{StaticResource AutoGrowingTextBox}"
 MinHeight="20"/>
             <local:NoteViewer DataContext="{Binding NoteCollectionViewModel}" />
             <local:PlotPointCollectionViewer DataContext="{Binding PlotPointCollectionViewModel}" 
-                                             ShowReorderButtons="True" />
-            <Button Content="+ New Plot Point" Height="24" HorizontalAlignment="Right" 
-        Command="{Binding AddPlotPointCommand}"/>
+                                             IsDragReorderEnabled="{Binding IsChecked, ElementName=ReOrderCheckbox}" x:Name="PlotPointCollectionViewer"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="+ New Plot Point" Height="24" Command="{Binding AddPlotPointCommand}"/>
+                <CheckBox x:Name="ReOrderCheckbox" Content="Reorder Plot Points" IsChecked="{Binding IsPlotPointReorderMode}"
+                          VerticalAlignment="Center" Margin="5,0,0,0"/>
+            </StackPanel>
+            
         </StackPanel>
     </ScrollViewer>
 </Window>

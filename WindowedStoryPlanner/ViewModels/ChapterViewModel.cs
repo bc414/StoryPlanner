@@ -9,15 +9,29 @@ public partial class ChapterViewModel : EntityViewModel
     private readonly Chapter _chapter;
     public Chapter Chapter => _chapter;
 
+    [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(IsLinkingMode))]
+    private bool _isPlotPointReorderMode;
+
+    public override bool IsLinkingMode => !IsPlotPointReorderMode && !NoteCollectionViewModel.IsNoteReorderMode;
+
     public ChapterViewModel(Chapter chapter)
     {
         _chapter = chapter;
 
         // Initialize the notes collection generic to the entity
         NoteCollectionViewModel = new NoteCollectionViewModel(chapter.Notes);
+        NoteCollectionViewModel.PropertyChanged += (s, e) =>
+        {
+            if (e.PropertyName == nameof(NoteCollectionViewModel.IsNoteReorderMode))
+            {
+                OnPropertyChanged(nameof(IsLinkingMode));
+            }
+        };
         // TODO: need to sort somehow
         PlotPointCollectionViewModel = new PlotPointCollectionViewModel(chapter.PlotPoints);
         PlotPointCollectionViewModel.ViewModelCollection.CollectionChanged += PlotPointCollection_CollectionChanged;
+        
     }
 
     private void PlotPointCollection_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)

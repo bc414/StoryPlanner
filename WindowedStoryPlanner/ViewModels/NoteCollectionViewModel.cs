@@ -18,6 +18,9 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
             return MainViewModel.Instance.SourceMaterials;
         }
     }
+    
+    [ObservableProperty]
+    private bool _isNoteReorderMode;
 
     public NoteCollectionViewModel(ObservableCollection<Note> sourceCollection)
     {

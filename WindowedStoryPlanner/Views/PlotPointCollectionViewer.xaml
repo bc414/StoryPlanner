@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
-             mc:Ignorable="d"
+             mc:Ignorable="d" x:Name="RootControl"
              d:DataContext="{x:Static local:Sample.PlotPointCollectionViewModel}">
     <UserControl.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
@@ -35,18 +35,23 @@
                 
             </DockPanel>
         </Border>
-        <ListBox ItemsSource="{Binding ViewModelCollection}" 
+        <ListBox x:Name="PlotPointListBox" ItemsSource="{Binding ViewModelCollection}" 
                  HorizontalContentAlignment="Stretch"
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  BorderThickness="0"
                  Background="Transparent"
                  dd:DragDrop.IsDragSource="True"
-                 dd:DragDrop.DragAdornerTemplate="{StaticResource GhostPlotPointTemplate}">
+                 dd:DragDrop.IsDropTarget="{Binding IsDragReorderEnabled, ElementName=RootControl}"
+                 dd:DragDrop.DragAdornerTemplate="{StaticResource GhostPlotPointTemplate}"
+                 dd:DragDrop.DragDropContext="Entities">
 
             <ListBox.ItemContainerStyle>
                 <Style TargetType="ListBoxItem">
-                    <Setter Property="dd:DragDrop.IsDropTarget" Value="True" />
-                    <Setter Property="dd:DragDrop.DropHandler" Value="{Binding}" />
+                    <Setter Property="dd:DragDrop.IsDropTarget" 
+                            Value="{Binding IsDragReorderEnabled, ElementName=RootControl,
+                             Converter={StaticResource InverseBooleanConverter}}" />
+                    <Setter Property="dd:DragDrop.DropHandler" Value="{Binding}"/>
+                    <Setter Property="dd:DragDrop.DragDropContext" Value="Entities" />
                 </Style>
             </ListBox.ItemContainerStyle>
             <ListBox.ItemTemplate>
@@ -62,7 +67,7 @@
 
                         <!-- Reorder Buttons -->
                         <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="5,0,0,0"
-                                    Visibility="{Binding ShowReorderButtons, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BoolToVis}}">
+                                    Visibility="{Binding IsDragReorderEnabled, RelativeSource={RelativeSource AncestorType=UserControl}, Converter={StaticResource BoolToVis}}">
                             <Button Content="▲" 
                                     Width="20" Height="20" 
                                     Margin="0,0,0,2"

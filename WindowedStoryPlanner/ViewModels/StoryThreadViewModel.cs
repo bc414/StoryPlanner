@@ -14,6 +14,13 @@ public partial class StoryThreadViewModel : EntityViewModel
 
         // Initialize the notes collection generic to the entity
         NoteCollectionViewModel = new NoteCollectionViewModel(storyThread.Notes);
+        NoteCollectionViewModel.PropertyChanged += (s, e) =>
+        {
+            if (e.PropertyName == nameof(NoteCollectionViewModel.IsNoteReorderMode))
+            {
+                OnPropertyChanged(nameof(IsLinkingMode));
+            }
+        };
     }
 
     // --- Properties Wrapper ---

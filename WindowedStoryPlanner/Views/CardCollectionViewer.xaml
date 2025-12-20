@@ -36,7 +36,8 @@
                  BorderThickness="0"
                  Background="Transparent"
                  dd:DragDrop.IsDragSource="True"
-              dd:DragDrop.UseDefaultDragAdorner="True">
+              dd:DragDrop.UseDefaultDragAdorner="True"
+              dd:DragDrop.DragDropContext="Entities">
 
         <ListView.ItemsPanel>
             <ItemsPanelTemplate>
@@ -51,6 +52,7 @@
 
                 <Setter Property="dd:DragDrop.IsDropTarget" Value="True" />
                 <Setter Property="dd:DragDrop.DropHandler" Value="{Binding}" />
+                <Setter Property="dd:DragDrop.DragDropContext" Value="Entities" />
             </Style>
         </ListView.ItemContainerStyle>
 

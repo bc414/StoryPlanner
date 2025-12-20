@@ -15,6 +15,13 @@ public partial class CharacterViewModel : EntityViewModel
         _character = character;
 
         NoteCollectionViewModel = new NoteCollectionViewModel(character.Notes);
+        NoteCollectionViewModel.PropertyChanged += (s, e) =>
+        {
+            if (e.PropertyName == nameof(NoteCollectionViewModel.IsNoteReorderMode))
+            {
+                OnPropertyChanged(nameof(IsLinkingMode));
+            }
+        };
     }
 
     // --- Properties Wrapper ---
