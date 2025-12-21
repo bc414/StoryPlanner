@@ -5,6 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              d:DataContext="{x:Static v:Sample.PlotPointViewModel}"
              mc:Ignorable="d"
@@ -13,16 +14,13 @@
 
     <UserControl.ContextMenu>
         <ContextMenu>
-            
             <MenuItem Header="Unlink from this Window"
                       Command="{Binding UnlinkEntityCommand}"
                       CommandParameter="{Binding PlacementTarget.Tag, RelativeSource={RelativeSource AncestorType=ContextMenu}}">
                 <MenuItem.Style>
                     <Style TargetType="MenuItem">
                         <Style.Triggers>
-                            <DataTrigger Binding="{Binding PlacementTarget.Tag,
-                             RelativeSource={RelativeSource AncestorType=ContextMenu},
-                              Converter={StaticResource IsEntityViewModelConverter}}" Value="{x:Null}">
+                            <DataTrigger Binding="{Binding PlacementTarget.Tag, RelativeSource={RelativeSource AncestorType=ContextMenu}}" Value="{x:Null}">
                                 <Setter Property="Visibility" Value="Collapsed"/>
                             </DataTrigger>
                         </Style.Triggers>
@@ -30,16 +28,14 @@
                 </MenuItem.Style>
             </MenuItem>
 
-            <MenuItem Header="Move to..." 
-                      ItemsSource="{Binding AllChapters}">
+            <MenuItem Header="Move to..." ItemsSource="{Binding AllChapters}">
                 <MenuItem.ItemContainerStyle>
                     <Style TargetType="MenuItem">
-                        <Setter Property="Header" Value="{Binding FullTitle}"/>
+                        <Setter Property="Header" Value="{Binding Title}"/>
                         <Setter Property="Command" Value="{Binding DataContext.MoveToChapterCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
                         <Setter Property="CommandParameter" Value="{Binding}"/>
                     </Style>
                 </MenuItem.ItemContainerStyle>
-                
                 <MenuItem.Style>
                     <Style TargetType="MenuItem">
                         <Style.Triggers>
@@ -50,23 +46,6 @@
                     </Style>
                 </MenuItem.Style>
             </MenuItem>
-
-            <Separator/>
-
-            <MenuItem Header="Delete Entirely"
-                      Command="{Binding PlacementTarget.Tag.DeleteFloatingPlotPointCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"
-                      CommandParameter="{Binding}">
-                <MenuItem.Style>
-                    <Style TargetType="MenuItem">
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding PlacementTarget.Tag, RelativeSource={RelativeSource AncestorType=ContextMenu}, Converter={StaticResource IsFloatingWindowConverter}}" Value="False">
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </MenuItem.Style>
-            </MenuItem>
-
         </ContextMenu>
     </UserControl.ContextMenu>
 
@@ -75,12 +54,56 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="0" Text="{Binding FullOrder}"/>
-
-        <TextBlock Grid.Column="1"
-                   Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
+        <TextBlock Grid.Column="1" Grid.Row="0"
                    TextWrapping="Wrap"
-                   VerticalAlignment="Stretch"/>
+                   VerticalAlignment="Center"
+                   Margin="0,2,0,4">
+            <Run Text="{Binding FullOrder, Mode=OneWay}" 
+                 Foreground="#888" 
+                 FontSize="11" 
+                 FontWeight="Bold"/>
+            <Run Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
+                 FontSize="13"/>
+        </TextBlock>
+
+        <DockPanel Grid.Column="1" Grid.Row="1" Margin="0,0,0,2" LastChildFill="True">
+
+            <ItemsControl ItemsSource="{Binding Themes}" 
+                  ItemTemplate="{StaticResource ThemeBadgeTemplate}"
+                  DockPanel.Dock="Right"
+                  Margin="5,0,0,0">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+
+            <ItemsControl ItemsSource="{Binding StoryThreads}"
+                  ItemTemplate="{StaticResource ThreadBadgeTemplate}"
+                  DockPanel.Dock="Left"
+                  Margin="0,0,8,0">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+
+            <ItemsControl ItemsSource="{Binding CodexEntries}" 
+                  ItemTemplate="{StaticResource CodexBadgeTemplate}" HorizontalAlignment="Center">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
+
+        </DockPanel>
     </Grid>
 </UserControl>

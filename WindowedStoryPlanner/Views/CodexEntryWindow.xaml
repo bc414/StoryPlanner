@@ -1,0 +1,124 @@
+<Window x:Class="WindowedStoryPlanner.Views.CodexEntryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
+        xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+        xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
+        mc:Ignorable="d"
+        Title="{Binding Title, StringFormat='Codex: {0}'}" 
+        MaxHeight="1000" Width="700" SizeToContent="Height"
+        d:DataContext="{x:Static v:Sample.CodexEntryViewModel}">
+
+    <Window.Resources>
+        <ObjectDataProvider x:Key="CodexCategoryEnum" MethodName="GetValues" ObjectType="{x:Type m:CodexCategory}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="m:CodexCategory"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+
+        <Style TargetType="TextBlock" x:Key="LabelStyle">
+            <Setter Property="Foreground" Value="#666666"/>
+            <Setter Property="Margin" Value="0,0,0,2"/>
+            <Setter Property="FontSize" Value="11"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+        </Style>
+
+        <Style TargetType="TextBox" x:Key="AutoGrowingTextBox">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="AcceptsReturn" Value="True"/>
+            <Setter Property="VerticalScrollBarVisibility" Value="Disabled"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+            <Setter Property="BorderBrush" Value="#CCCCCC"/>
+        </Style>
+    </Window.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="15">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+
+                <StackPanel>
+                    <TextBlock Text="TITLE" Style="{StaticResource LabelStyle}"/>
+                    <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
+                             FontSize="16" FontWeight="Bold" Padding="5" Margin="0,0,0,10"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <StackPanel Grid.Column="0" Grid.Row="0" Margin="0,0,10,0">
+                            <TextBlock Text="CATEGORY" Style="{StaticResource LabelStyle}"/>
+                            <ComboBox ItemsSource="{Binding Source={StaticResource CodexCategoryEnum}}"
+                  SelectedItem="{Binding Category}"
+                  Padding="5" Margin="0,0,0,10"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Grid.Row="0">
+                            <TextBlock Text="TYPE / SUB-TYPE" Style="{StaticResource LabelStyle}"/>
+                            <TextBox Text="{Binding Type, UpdateSourceTrigger=PropertyChanged}" 
+                 Padding="5" Margin="0,0,0,10"
+                 ToolTip="Specific classification (e.g. 'Magical Artifact', 'Historical Event')"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="0" Grid.Row="1" Margin="0,0,10,0">
+                            <TextBlock Text="ABBREVIATION (Short Code)" Style="{StaticResource LabelStyle}"/>
+                            <TextBox Text="{Binding Abbreviation, UpdateSourceTrigger=PropertyChanged}" 
+                 Padding="5" Margin="0,0,0,10"
+                 MaxLength="6"
+                 ToolTip="Short text to appear on Plot Point cards (e.g. 'EXC', 'MGC')"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Column="1" Grid.Row="1">
+                            <TextBlock Text="COLOR (Hex Code)" Style="{StaticResource LabelStyle}"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+
+                                <TextBox Grid.Column="0" 
+                     Text="{Binding ColorHex, UpdateSourceTrigger=PropertyChanged}" 
+                     Padding="5" Margin="0,0,5,10"
+                     ToolTip="Format: #RRGGBB"/>
+
+                                <Border Grid.Column="1" 
+                    Width="30" Height="25" 
+                    CornerRadius="3" 
+                    Background="{Binding BadgeBrush}" 
+                    Margin="0,0,0,10" 
+                    BorderBrush="#999" BorderThickness="1"
+                    ToolTip="Color Preview"/>
+                            </Grid>
+                        </StackPanel>
+                    </Grid>
+                </StackPanel>
+
+                <StackPanel>
+                    <TextBlock Text="DESCRIPTION" Style="{StaticResource LabelStyle}"/>
+                    <TextBox Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" 
+                             Style="{StaticResource AutoGrowingTextBox}"
+                             MinHeight="60"/>
+                </StackPanel>
+
+                <v:NoteViewer DataContext="{Binding NoteCollectionViewModel}" MinHeight="200" />
+            </StackPanel>
+
+            <v:PlotPointCollectionViewer Grid.Column="1" 
+                                         DataContext="{Binding PlotPointCollectionViewModel}" 
+                                         Margin="15,0,0,0" Width="300"/>
+        </Grid>
+    </ScrollViewer>
+</Window>

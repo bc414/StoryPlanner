@@ -11,6 +11,14 @@
         WindowStartupLocation="CenterScreen">
 
     <TabControl TabStripPlacement="Left">
+
+        <TabControl.Resources>
+            <Style TargetType="TabItem">
+                <Setter Property="Height" Value="60" />
+                <Setter Property="FontSize" Value="16" />
+                <Setter Property="Padding" Value="10" />
+            </Style>
+        </TabControl.Resources>
         <TabItem Header="File Management">
             <v:FileManagerTab/>
         </TabItem>
@@ -23,7 +31,7 @@
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
-        <TabItem Header="StoryThreads">
+        <TabItem Header="Story Threads">
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding StoryThreadViewModels}" DeleteItemCommand="{Binding DeleteStoryThreadCommand}"/>
@@ -43,7 +51,7 @@
             <ScrollViewer>
                 <StackPanel>
                     <v:CardCollectionViewer ItemsSource="{Binding CodexEntryViewModels}" DeleteItemCommand="{Binding DeleteCodexEntryCommand}"/>
-                    <Button Content="Add CodexEntry"  Command="{Binding AddCodexEntryCommand}" Style="{StaticResource AddButtonStyle}"/>
+                    <Button Content="Add Codex Entry"  Command="{Binding AddCodexEntryCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>

@@ -21,6 +21,26 @@ public partial class LocationViewModel : EntityViewModel
                 OnPropertyChanged(nameof(IsLinkingMode));
             }
         };
+
+        // 2. Define Sorter (Chronological)
+        Comparison<PlotPoint> standardSorter = (a, b) =>
+        {
+            int aChapter = a.Chapter?.OrderIndex ?? int.MaxValue;
+            int bChapter = b.Chapter?.OrderIndex ?? int.MaxValue;
+
+            if (aChapter != bChapter) return aChapter.CompareTo(bChapter);
+            return a.OrderInChapter.CompareTo(b.OrderInChapter);
+        };
+
+        // 3. Initialize View-Only Collection
+        PlotPointCollectionViewModel = new PlotPointCollectionViewModel();
+        PlotPointCollectionViewModel.SetAndSortItems(_location.PlotPoints, standardSorter);
+
+        // 4. Live Updates
+        _location.PlotPoints.CollectionChanged += (s, e) => 
+        {
+            PlotPointCollectionViewModel.SetAndSortItems(_location.PlotPoints, standardSorter);
+        };
     }
 
     // --- Properties Wrapper ---

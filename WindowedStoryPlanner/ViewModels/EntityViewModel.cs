@@ -1,8 +1,9 @@
-using System.Collections;
-using System.Windows;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using GongSolutions.Wpf.DragDrop;
+using System.Collections;
+using System.Windows;
+using WindowedStoryPlanner.Views;
 
 namespace WindowedStoryPlanner.ViewModels;
 
@@ -23,7 +24,28 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
     {
         MainViewModel.Instance.OpenEditorWindow(this);
     }
-    
+
+    [RelayCommand]
+    public void Navigate(object parameter)
+    {
+        // 1. Open the target entity (this)
+        OpenWindow();
+
+        // 2. Handle the Source Window (Close it if it's a transient editor)
+        if (parameter is Window sourceWindow)
+        {
+            // SAFETY: Never close the Main Window
+            if (sourceWindow is MainWindow) return;
+
+            // UX CHOICE: Do not close the Floating Points tool window 
+            // (It acts as a palette, so users likely want to keep it open)
+            if (sourceWindow is FloatingPlotPointsWindow) return;
+
+            // Close the previous editor window to simulate "Navigation"
+            sourceWindow.Close();
+        }
+    }
+
     public virtual void DragOver(IDropInfo dropInfo)
     {
         

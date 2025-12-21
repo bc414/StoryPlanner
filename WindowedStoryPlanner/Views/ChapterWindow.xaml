@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
         mc:Ignorable="d"
-        Title="{Binding Title, StringFormat='Chapter: {0}'}" Height="450" Width="300"
+        Title="{Binding Title, StringFormat='Chapter: {0}'}" MaxHeight="1000" Width="350" SizeToContent="Height"
         d:DataContext="{x:Static local:Sample.ChapterViewModel}"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
 

@@ -489,7 +489,7 @@ public partial class MainViewModel : ObservableObject
         else if (viewModel is StoryThreadViewModel)
         {
             return new StoryThreadWindow();
-        }/*
+        }
         else if (viewModel is ThemeViewModel)
         {
             return new ThemeWindow();
@@ -501,7 +501,7 @@ public partial class MainViewModel : ObservableObject
         else if (viewModel is CodexEntryViewModel)
         {
             return new CodexEntryWindow();
-        }*/
+        }
         else if (viewModel is GeminiEntry)
         {
             return new GeminiEntryWindow();

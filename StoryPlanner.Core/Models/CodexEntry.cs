@@ -9,6 +9,8 @@ public class CodexEntry
     public string Type { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public CodexCategory Category { get; set; }
+    public string Abbreviation { get; set; } = string.Empty;
+    public string ColorHex { get; set; } = "#999999";
 
     // "Lore Facts"
     public ObservableCollection<Note> Notes { get; set; } = new();

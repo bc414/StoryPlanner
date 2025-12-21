@@ -7,7 +7,7 @@
         xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         mc:Ignorable="d"
         Title="{Binding Name, StringFormat='Character: {0}'}" 
-        Width="800"
+        Width="700" MaxHeight="1000" SizeToContent="Height"
         d:DataContext="{x:Static v:Sample.CharacterViewModel}">
 
     <Window.Resources>

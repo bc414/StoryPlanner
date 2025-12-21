@@ -26,7 +26,7 @@
         <UniformGrid Columns="2">
             <Button Content="Unlink" Command="{Binding UnlinkCommand, RelativeSource={RelativeSource AncestorType=Window}}" 
  HorizontalAlignment="Center" Width="100"/>
-            <Button Content="Close" HorizontalAlignment="Center" Width="100" Click="CloseButton_Click"/>
+            <Button Content="Confirm" HorizontalAlignment="Center" Width="100" Click="CloseButton_Click"/>
         </UniformGrid>
         
     </StackPanel>

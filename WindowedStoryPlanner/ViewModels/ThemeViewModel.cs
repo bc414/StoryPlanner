@@ -24,6 +24,28 @@ public partial class ThemeViewModel : EntityViewModel
                 OnPropertyChanged(nameof(IsLinkingMode));
             }
         };
+        
+        // 2. Define Sorter
+        Comparison<PlotPoint> standardSorter = (a, b) =>
+        {
+            int aChapter = a.Chapter?.OrderIndex ?? int.MaxValue;
+            int bChapter = b.Chapter?.OrderIndex ?? int.MaxValue;
+
+            if (aChapter != bChapter) return aChapter.CompareTo(bChapter);
+            return a.OrderInChapter.CompareTo(b.OrderInChapter);
+        };
+
+        // 3. Extract & Initialize
+        var relevantPoints = _theme.PlotPointAssignments.Select(x => x.PlotPoint);
+        PlotPointCollectionViewModel = new PlotPointCollectionViewModel();
+        PlotPointCollectionViewModel.SetAndSortItems(relevantPoints, standardSorter);
+
+        // 4. Live Updates
+        _theme.PlotPointAssignments.CollectionChanged += (s, e) =>
+        {
+            var updatedPoints = _theme.PlotPointAssignments.Select(x => x.PlotPoint);
+            PlotPointCollectionViewModel.SetAndSortItems(updatedPoints, standardSorter);
+        };
     }
 
     // --- Properties Wrapper ---
@@ -31,7 +53,14 @@ public partial class ThemeViewModel : EntityViewModel
     public string Name
     {
         get => _theme.Name;
-        set => SetProperty(_theme.Name, value, _theme, (u, n) => u.Name = n);
+        set
+        {
+            if (SetProperty(_theme.Name, value, _theme, (u, n) => u.Name = n))
+            {
+                // Fix: Name is the fallback for BadgeText, so we must notify it
+                OnPropertyChanged(nameof(BadgeText)); 
+            }
+        }
     }
 
     public string Description
@@ -43,34 +72,68 @@ public partial class ThemeViewModel : EntityViewModel
     public string Abbreviation
     {
         get => _theme.Abbreviation;
-        set => SetProperty(_theme.Abbreviation, value, _theme, (u, n) => u.Abbreviation = n);
+        set
+        {
+            if (SetProperty(_theme.Abbreviation, value, _theme, (u, n) => u.Abbreviation = n))
+            {
+                // Fix: Abbreviation is the primary source for BadgeText
+                OnPropertyChanged(nameof(BadgeText)); 
+            }
+        }
     }
 
     public string ColorHex
     {
         get => _theme.ColorHex;
-        set => SetProperty(_theme.ColorHex, value, _theme, (u, n) => u.ColorHex = n);
-    }
-
-    public ObservableCollection<ThemeBadge> ThemeBadges
-    {
-        get
+        set
         {
-            var badges = new ObservableCollection<ThemeBadge>();
-            var color = (Color)ColorConverter.ConvertFromString(
-                    !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
-
-            var brush = new SolidColorBrush(color);
-            badges.Add(new ThemeBadge
+            if (SetProperty(_theme.ColorHex, value, _theme, (u, n) => u.ColorHex = n))
             {
-                Text = Abbreviation,
-                Background = brush,
-                // Simple logic: If background is dark, use white text. If light, use black.
-                Foreground = IsDark(color) ? Brushes.White : Brushes.Black
-            });
-            return badges;
+                // Fix: ColorHex drives both Background and Foreground
+                OnPropertyChanged(nameof(BadgeBackground));
+                OnPropertyChanged(nameof(BadgeForeground));
+            }
         }
     }
 
-    private bool IsDark(Color c) => (c.R * 0.299 + c.G * 0.587 + c.B * 0.114) < 186;
+    // --- NEW COMPUTED BADGE PROPERTIES ---
+
+    public string BadgeText => !string.IsNullOrEmpty(Abbreviation)
+        ? Abbreviation
+        : (Name.Length >= 2 ? Name.Substring(0, 2) : Name).ToUpper();
+
+    public Brush BadgeBackground
+    {
+        get
+        {
+            try
+            {
+                var color = (Color)ColorConverter.ConvertFromString(
+                    !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
+                return new SolidColorBrush(color);
+            }
+            catch
+            {
+                return Brushes.LightGray;
+            }
+        }
+    }
+
+    public Brush BadgeForeground
+    {
+        get
+        {
+            try
+            {
+                var color = (Color)ColorConverter.ConvertFromString(
+                    !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
+                // Luminance formula to determine if dark or light
+                return (color.R * 0.299 + color.G * 0.587 + color.B * 0.114) < 186 ? Brushes.White : Brushes.Black;
+            }
+            catch
+            {
+                return Brushes.Black;
+            }
+        }
+    }
 }
