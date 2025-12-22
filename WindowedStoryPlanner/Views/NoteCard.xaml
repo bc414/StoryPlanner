@@ -22,8 +22,7 @@
         <BooleanToVisibilityConverter x:Key="BoolToVis" />
     </UserControl.Resources>
 
-    <Border BorderThickness="2" 
-            Background="White"
+    <Border BorderThickness="2"
             CornerRadius="3"
             Padding="5"
             Margin="2"
@@ -33,6 +32,21 @@
         <Border.Style>
             <Style TargetType="Border">
                 <Setter Property="Background" Value="White"/>
+
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding NeedsFurtherAnalysis}" Value="True">
+                        <Setter Property="Background">
+                            <Setter.Value>
+                                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                                    <GradientStop Color="#E8F0FE" Offset="0.0"/>
+                                    <GradientStop Color="#FCE8E6" Offset="0.35"/>
+                                    <GradientStop Color="#FEF7E0" Offset="0.65"/>
+                                    <GradientStop Color="#E6F4EA" Offset="1.0"/>
+                                </LinearGradientBrush>
+                            </Setter.Value>
+                        </Setter>
+                    </DataTrigger>
+                </Style.Triggers>
             </Style>
         </Border.Style>
 
@@ -89,10 +103,10 @@
                         ToolTip="Delete Note"
                         Background="Transparent"
                         BorderThickness="0"
-                        Padding="0">
+                        Padding="0" VerticalAlignment="Top">
                     <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE74D;" FontSize="14"/>
                 </Button>
-                <Button Grid.Column="1" Width="20" Command="{Binding ClearSourceCommand}" ToolTip="Clear Source Material"
+                <Button Grid.Column="1" VerticalAlignment="Top" Width="20" Command="{Binding ClearSourceCommand}" ToolTip="Clear Source Material"
 Background="Transparent"
 BorderThickness="0">
                     <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE75C;" FontSize="14"/>
