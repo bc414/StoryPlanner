@@ -51,4 +51,11 @@ public partial class Note : ObservableObject
         SourceMaterial = source;
         SourceMaterialId = source.Id;
     }
+
+    [RelayCommand]
+    public void ClearSource()
+    {
+        SourceMaterial = null;
+        SourceMaterialId = null;
+    }
 }

@@ -74,6 +74,7 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <CheckBox Grid.Column="0"
                           IsChecked="{Binding NeedsFurtherAnalysis, UpdateSourceTrigger=PropertyChanged}"
@@ -83,13 +84,18 @@
                         <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE8A1;" FontSize="14"/>
                     </CheckBox.Content>
                 </CheckBox>
-                <Button Grid.Column="1" Width="20"
+                <Button Grid.Column="2" Width="20"
                         Command="{Binding Tag.DeleteNoteCommand, ElementName=RootCard}" CommandParameter="{Binding}"
                         ToolTip="Delete Note"
                         Background="Transparent"
                         BorderThickness="0"
                         Padding="0">
                     <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE74D;" FontSize="14"/>
+                </Button>
+                <Button Grid.Column="1" Width="20" Command="{Binding ClearSourceCommand}" ToolTip="Clear Source Material"
+Background="Transparent"
+BorderThickness="0">
+                    <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE75C;" FontSize="14"/>
                 </Button>
             </Grid>
         </Grid>
