@@ -52,13 +52,6 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
         // We check the Name of the visual element that the mouse is hovering over
         var targetElement = dropInfo.VisualTarget as FrameworkElement;
 
-        if (targetElement != null && targetElement.Name == "TrashZone")
-        {
-            dropInfo.Effects = DragDropEffects.Move;
-            dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
-            return; // Allow drop
-        }
-
         // 3. CHECK TARGET: Is it the List (Reordering)?
         if (dropInfo.TargetItem is Note)
         {
@@ -73,23 +66,6 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
         if (sourceNote == null) return;
 
         var targetElement = dropInfo.VisualTarget as FrameworkElement;
-
-        // --- CASE A: DELETE (Dropped on Trash) ---
-        if (targetElement != null && targetElement.Name == "TrashZone")
-        {
-            var result = MessageBox.Show(
-                $"Are you sure you want to delete this note?\n\n\"{sourceNote.Content}\"",
-                "Confirm Delete",
-                MessageBoxButton.YesNo,
-                MessageBoxImage.Warning);
-
-            if (result == MessageBoxResult.Yes)
-            {
-                NoteCollection.Remove(sourceNote);
-                UpdateSortOrders();
-            }
-            return;
-        }
 
         // --- CASE B: REORDER (Dropped on List) ---
         GongSolutions.Wpf.DragDrop.DragDrop.DefaultDropHandler.Drop(dropInfo);

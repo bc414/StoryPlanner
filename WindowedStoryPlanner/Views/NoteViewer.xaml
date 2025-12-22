@@ -34,20 +34,7 @@
             <DockPanel>
                 <TextBlock Text="NOTES" FontWeight="Bold" VerticalAlignment="Center" Foreground="#333"/>
 
-                <Border x:Name="TrashZone"
-                        Width="30" Height="30" 
-                        Margin="0,0,10,0"
-                        HorizontalAlignment="Right"
-                        Background="Transparent"
-                        AllowDrop="True"
-                        dd:DragDrop.IsDropTarget="True"
-                        dd:DragDrop.DropHandler="{Binding}"
-                        dd:DragDrop.DragDropContext="Notes">
-                    <TextBlock Text="🗑️" FontSize="16" 
-                               HorizontalAlignment="Center" 
-                               VerticalAlignment="Center" 
-                               ToolTip="Drag note here to delete"/>
-                </Border>
+                
                 <CheckBox VerticalAlignment="Center" Margin="5,2,5,0" 
                           IsChecked="{Binding IsNoteReorderMode}">Reorder</CheckBox>
                 <CheckBox VerticalAlignment="Center" Margin="5,2,5,0" 
