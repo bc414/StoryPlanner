@@ -13,7 +13,7 @@ public partial class Note : ObservableObject
     private string _content = string.Empty;
 
     [ObservableProperty]
-    private bool _isStrictRule = true;
+    private bool _needsFurtherAnalysis = false;
 
     [ObservableProperty]
     private int _sortOrder;

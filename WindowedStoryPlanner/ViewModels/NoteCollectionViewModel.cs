@@ -22,6 +22,9 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
     [ObservableProperty]
     private bool _isNoteReorderMode;
 
+    [ObservableProperty]
+    private bool _showCommands;
+
     public NoteCollectionViewModel(ObservableCollection<Note> sourceCollection)
     {
         NoteCollection = sourceCollection;
@@ -99,5 +102,13 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
         {
             NoteCollection[i].SortOrder = i;
         }
+    }
+
+    [RelayCommand]
+    private void DeleteNote(Note noteToDelete)
+    {
+        if (noteToDelete == null) return;
+        NoteCollection.Remove(noteToDelete);
+        UpdateSortOrders();
     }
 }

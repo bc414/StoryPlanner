@@ -50,6 +50,8 @@
                 </Border>
                 <CheckBox VerticalAlignment="Center" Margin="5,2,5,0" 
                           IsChecked="{Binding IsNoteReorderMode}">Reorder</CheckBox>
+                <CheckBox VerticalAlignment="Center" Margin="5,2,5,0" 
+                          IsChecked="{Binding ShowCommands}">Edit/Delete</CheckBox>
                 <Button Content="+" Width="24" Height="24" HorizontalAlignment="Right" 
                         Command="{Binding AddNoteCommand}"/>
             </DockPanel>

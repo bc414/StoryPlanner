@@ -449,21 +449,21 @@ public static class DesignDataFactory
             {
                 Id = 1,
                 Content = "Earth Pony magic is metabolic; it burns calories to create kinetic force or shielding. Soldiers need 6,000+ kcal/day.",
-                IsStrictRule = true,
+                NeedsFurtherAnalysis = false,
                 Theme = themes.First(t => t.Id == 4)
             },
             new()
             {
                 Id = 2,
                 Content = "Crystal Matrix shields are opaque to teleportation. You cannot jump into a shielded city.",
-                IsStrictRule = true,
+                NeedsFurtherAnalysis = true,
                 Theme = themes.First(t => t.Id == 4)
             },
             new()
             {
                 Id = 3,
                 Content = "The 'Green' (Changeling Magic) feeds on despair. Panic in the ranks literally strengthens the enemy's armor.",
-                IsStrictRule = true,
+                NeedsFurtherAnalysis = true,
                 Theme = themes.First(t => t.Id == 1)
             },
 
@@ -472,28 +472,28 @@ public static class DesignDataFactory
             {
                 Id = 4,
                 Content = "Applejack refuses to wear the official General's uniform. She wears her modified foreman's jacket to maintain connection with the workers.",
-                IsStrictRule = false,
+                NeedsFurtherAnalysis = false,
                 Character = characters.First(c => c.Id == 1)
             },
             new()
             {
                 Id = 5,
                 Content = "Twilight hates the smell of ozone because it reminds her of the vaporization of the Changeling spearhead.",
-                IsStrictRule = false,
+                NeedsFurtherAnalysis = false,
                 Character = characters.First(c => c.Id == 2)
             },
             new()
             {
                 Id = 6,
                 Content = "Trimmel respects competence above species. He will salute a pony who outsmarts him.",
-                IsStrictRule = false,
+                NeedsFurtherAnalysis = false,
                 Character = characters.First(c => c.Id == 3)
             },
             new()
             {
                 Id = 7,
                 Content = "Celestia genuinely believes she is protecting ponies by keeping them weak. It is a maternal condescension.",
-                IsStrictRule = false,
+                NeedsFurtherAnalysis = false,
                 Character = characters.First(c => c.Id == 5)
             },
 
@@ -502,14 +502,14 @@ public static class DesignDataFactory
             {
                 Id = 8,
                 Content = "The smog over Tall Tale is so thick that pegasi cannot fly safely without respirators.",
-                IsStrictRule = true,
+                NeedsFurtherAnalysis = true,
                 SourceMaterial = sources.First(s => s.Id == 3) // Original Fiction
             },
             new()
             {
                 Id = 9,
                 Content = "The Appleloosa oil fields are rigged with explosives. If the line breaks, they blow the wells.",
-                IsStrictRule = true,
+                NeedsFurtherAnalysis = true,
                 SourceMaterial = sources.First(s => s.Id == 3)
             },
         };
