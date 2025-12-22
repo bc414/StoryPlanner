@@ -10,7 +10,7 @@ public class CodexEntry
     public string Description { get; set; } = string.Empty;
     public CodexCategory Category { get; set; }
     public string Abbreviation { get; set; } = string.Empty;
-    public string ColorHex { get; set; } = "#999999";
+    public string ColorHex { get; set; } = "#";
 
     // "Lore Facts"
     public ObservableCollection<Note> Notes { get; set; } = new();

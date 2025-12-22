@@ -5,9 +5,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
+        xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
         mc:Ignorable="d"
             
-        Title="Mission Control" Height="600" Width="900"
+        Title="Mission Control" Height="600" Width="950"
         WindowStartupLocation="CenterScreen">
 
     <TabControl TabStripPlacement="Left">
@@ -76,6 +77,65 @@
         </TabItem>
         <TabItem Header="Gemini Prompts">
             <v:GeminiLibrary />
+        </TabItem>
+        
+        <TabItem Header="Sources">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <ListBox ItemsSource="{Binding SourceMaterials}" 
+                         HorizontalContentAlignment="Stretch"
+                         ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate DataType="{x:Type m:SourceMaterial}">
+                            <Border BorderBrush="#DDD" BorderThickness="0,0,0,1" Padding="5">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/><ColumnDefinition Width="2*"/>   <ColumnDefinition Width="80"/>   <ColumnDefinition Width="100"/>  <ColumnDefinition Width="Auto"/> </Grid.ColumnDefinitions>
+
+                                    <Border Grid.Column="0" Width="24" Height="24" CornerRadius="12" 
+                                            Margin="0,0,10,0" BorderBrush="#999" BorderThickness="1">
+                                        <Border.Background>
+                                            <SolidColorBrush Color="{Binding ColorHex}"/>
+                                        </Border.Background>
+                                    </Border>
+
+                                    <StackPanel Grid.Column="1" VerticalAlignment="Center" Margin="0,0,10,0">
+                                        <TextBlock Text="Name" FontSize="10" Foreground="Gray"/>
+                                        <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" 
+                                                 FontSize="14" BorderThickness="0,0,0,1" Background="Transparent"/>
+                                    </StackPanel>
+
+                                    <StackPanel Grid.Column="2" VerticalAlignment="Center" Margin="0,0,10,0">
+                                        <TextBlock Text="Abbr." FontSize="10" Foreground="Gray"/>
+                                        <TextBox Text="{Binding Abbreviation, UpdateSourceTrigger=PropertyChanged}" 
+                                                 FontSize="14" BorderThickness="0,0,0,1" Background="Transparent"/>
+                                    </StackPanel>
+
+                                    <StackPanel Grid.Column="3" VerticalAlignment="Center" Margin="0,0,10,0">
+                                        <TextBlock Text="Color (Hex)" FontSize="10" Foreground="Gray"/>
+                                        <TextBox Text="{Binding ColorHex, UpdateSourceTrigger=PropertyChanged}" 
+                                                 FontSize="14" FontFamily="Consolas" 
+                                                 BorderThickness="0,0,0,1" Background="Transparent"/>
+                                    </StackPanel>
+
+                                    <Button Grid.Column="4" Content="🗑" Width="30" Height="30"
+                                            Background="Transparent" BorderThickness="0" Foreground="Red"
+                                            Command="{Binding DataContext.DeleteSourceMaterialCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                            CommandParameter="{Binding}"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+
+                <Button Grid.Row="1" Content="Add Source Material" Height="40" Margin="0,10,0,0"
+                        Command="{Binding AddSourceMaterialCommand}" 
+                        Background="#F0F8FF" BorderBrush="#ADD8E6"/>
+            </Grid>
         </TabItem>
 
     </TabControl>

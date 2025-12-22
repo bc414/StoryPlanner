@@ -54,6 +54,39 @@
                         </StackPanel>
                     </StackPanel>
                 </Button>
+                
+                <Button Command="{Binding BackupToJSONCommand}" 
+                        Padding="20,15" Margin="0,10" Background="#F0F8FF" BorderBrush="#ADD8E6">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="📤" FontSize="20" Margin="0,0,15,0"/>
+                        <StackPanel>
+                            <TextBlock Text="Backup to JSON" FontWeight="Bold" FontSize="14"/>
+                            <TextBlock Text="Export full readable backup" Foreground="Gray"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Button>
+
+                <Button Command="{Binding RestoreFromJSONCommand}" 
+                        Padding="20,15" Margin="0,10" Background="#FFF0F5" BorderBrush="#FFB6C1">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="📥" FontSize="20" Margin="0,0,15,0"/>
+                        <StackPanel>
+                            <TextBlock Text="Restore from JSON" FontWeight="Bold" FontSize="14"/>
+                            <TextBlock Text="Overwrite DB from backup file" Foreground="Gray"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Button>
+
+                <Button Command="{Binding CopyAiContextCommand}" 
+                        Padding="20,15" Margin="0,10" Background="#F5F5DC" BorderBrush="#CCC">
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="🤖" FontSize="20" Margin="0,0,15,0"/>
+                        <StackPanel>
+                            <TextBlock Text="Copy AI Context" FontWeight="Bold" FontSize="14"/>
+                            <TextBlock Text="Copy optimized JSON to clipboard" Foreground="Gray"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Button>
             </WrapPanel>
     </Grid>
 </UserControl>

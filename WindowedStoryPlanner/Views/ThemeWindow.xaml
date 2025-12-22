@@ -52,7 +52,7 @@
                             <TextBlock Text="ABBREVIATION (for Badges)" Style="{StaticResource LabelStyle}"/>
                             <TextBox Text="{Binding Abbreviation, UpdateSourceTrigger=PropertyChanged}" 
                                      Padding="5" Margin="0,0,0,10"
-                                     MaxLength="3"/>
+                                     />
                         </StackPanel>
 
                         <StackPanel Grid.Column="1">

@@ -39,6 +39,7 @@
                         Margin="0,0,10,0"
                         HorizontalAlignment="Right"
                         Background="Transparent"
+                        AllowDrop="True"
                         dd:DragDrop.IsDropTarget="True"
                         dd:DragDrop.DropHandler="{Binding}"
                         dd:DragDrop.DragDropContext="Notes">

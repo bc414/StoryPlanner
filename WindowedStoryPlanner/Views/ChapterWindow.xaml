@@ -33,7 +33,7 @@ dd:DragDrop.DropHandler="{Binding}">
                 <TextBox Text="{Binding OrderIndex, UpdateSourceTrigger=LostFocus}" FontWeight="Bold" FontSize="16"/>
                 <TextBlock Text=". " FontWeight="Bold" FontSize="16"/>
                 <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
-    FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+    FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Width="200"/>
             </StackPanel>
             <TextBlock Text="SUMMARY" Style="{StaticResource LabelStyle}"/>
             <TextBox Text="{Binding Summary, UpdateSourceTrigger=PropertyChanged}" 

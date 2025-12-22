@@ -26,4 +26,7 @@ public interface IStoryService : IDisposable
     Task LoadDataAsync();
     Task SaveAsync();
     Task StoreGeminiEntriesAsync(string file);
+    string GetFullProjectJson();
+    Task RestoreProjectFromJsonAsync(string json);
+    string GetAiContextJson(bool includeVerbatim);
 }

@@ -62,6 +62,20 @@ public class DesignTimeStoryService : IStoryService
     public Task SaveAsync() => Task.CompletedTask;
 
     public Task StoreGeminiEntriesAsync(string file) => Task.CompletedTask;
+    public string GetFullProjectJson()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task RestoreProjectFromJsonAsync(string json)
+    {
+        throw new NotImplementedException();
+    }
+
+    public string GetAiContextJson(bool includeVerbatim)
+    {
+        throw new NotImplementedException();
+    }
 
     public void Dispose()
     {

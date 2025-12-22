@@ -221,7 +221,7 @@ public partial class PlotPointViewModel : EntityViewModel
     }
 
     [RelayCommand]
-    private void ViewThreadPayload(StoryThreadViewModel vm)
+    public void ViewThreadPayload(StoryThreadViewModel vm)
     {
         OpenPayloadWindow<StoryThreadViewModel, PlotPointThreadWindow>(
             vm,
@@ -252,7 +252,7 @@ public partial class PlotPointViewModel : EntityViewModel
                 window.Close(); 
             });
 
-            window.ShowDialog();
+            window.Show();
         }
     }
     

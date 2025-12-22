@@ -56,6 +56,32 @@ public class StoryService : IStoryService
         await SaveAsync();
     }
 
+    public string GetFullProjectJson()
+    {
+        if (_context == null) throw new InvalidOperationException("Project not loaded");
+        var fileService = new StoryFileService(_context);
+        return fileService.ExportFullDatabase();
+    }
+
+    public async Task RestoreProjectFromJsonAsync(string json)
+    {
+        if (_context == null) throw new InvalidOperationException("Project not loaded");
+        var fileService = new StoryFileService(_context);
+        
+        await fileService.ImportFullDatabaseAsync(json);
+        
+        // CRITICAL: Reload the data into the ObservableCollections
+        // so the UI updates immediately
+        await LoadDataAsync();
+    }
+
+    public string GetAiContextJson(bool includeVerbatim)
+    {
+        if (_context == null) throw new InvalidOperationException("Project not loaded");
+        var fileService = new StoryFileService(_context);
+        return fileService.GetContextForAI(includeVerbatim);
+    }
+
     // --- 1. NEW PROJECT ---
     public async Task CreateProjectAsync(string filePath)
     {

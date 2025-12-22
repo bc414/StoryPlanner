@@ -30,20 +30,22 @@ public enum CharacterRole
 public enum CharacterDevImpact
 {
     Static = 0,        // No change
-    Reinforced = 1,    // Beliefs strengthened
-    Challenged = 2,    // Beliefs shaken
-    PivotalShift = 3,  // Major decision/change
-    Transformation = 4 // Fundamentally new person
+    CoreValueLearned = 1,    // New belief acquired
+    CoreValueDemonstration = 2,    //They teach others
+    CoreValueChange = 3,  // Major decision/change
 }
 
 public enum CodexCategory
 {
-    World = 0,
+    Unset = 0,
     Nation = 1,
     MagicSystem = 2,
     Technology = 3,
     History = 4,
-    Organization = 5
+    Organization = 5,
+    WorldRules = 6,
+    SocietalRules = 7,
+    Concept = 8,
 }
 
 public enum CodexUsageType

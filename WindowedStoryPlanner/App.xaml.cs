@@ -1,10 +1,12 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using System.Windows.Input;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StoryPlanner.Core;
+using WindowedStoryPlanner.ViewModels;
 using WindowedStoryPlanner.Views;
 
 namespace WindowedStoryPlanner;
@@ -54,6 +56,28 @@ public partial class App : Application
         startupForm.Show();
 
         base.OnStartup(e);
+        
+        // Register a global handler for the KeyDown event on ANY Window
+        EventManager.RegisterClassHandler(typeof(Window), 
+            Window.KeyDownEvent, 
+            new KeyEventHandler(OnGlobalKeyDown));
+    }
+    
+    private void OnGlobalKeyDown(object sender, KeyEventArgs e)
+    {
+        // Check for Ctrl + S
+        if (e.Key == Key.S && (Keyboard.Modifiers & ModifierKeys.Control) == ModifierKeys.Control)
+        {
+            // Access the Singleton Instance of MainViewModel
+            var vm = MainViewModel.Instance;
+
+            // Execute the command if it exists and can execute
+            if (vm != null && vm.SaveChangesCommand.CanExecute(null))
+            {
+                vm.SaveChangesCommand.Execute(null);
+                e.Handled = true; // Prevent other controls from reacting
+            }
+        }
     }
 
     protected override async void OnExit(ExitEventArgs e)

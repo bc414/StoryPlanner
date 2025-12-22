@@ -213,7 +213,7 @@ public static class DesignDataFactory
             Character = characters.First(c => c.Id == 1),
             CharacterId = 1, // <--- EXPLICIT ID
             Role = CharacterRole.Protagonist,
-            DevelopmentImpact = CharacterDevImpact.PivotalShift,
+            DevelopmentImpact = CharacterDevImpact.CoreValueChange,
             DevelopmentNote = "Becomes the General."
         });
         points.Add(pp1);
@@ -263,7 +263,7 @@ public static class DesignDataFactory
             Character = characters.First(c => c.Id == 2),
             CharacterId = 2,
             Role = CharacterRole.Protagonist,
-            DevelopmentImpact = CharacterDevImpact.Transformation,
+            DevelopmentImpact = CharacterDevImpact.CoreValueChange,
             DevelopmentNote = "Loss of Innocence."
         });
         points.Add(pp2);
@@ -344,7 +344,7 @@ public static class DesignDataFactory
             Character = characters.First(c => c.Id == 3),
             CharacterId = 3,
             Role = CharacterRole.Antagonist,
-            DevelopmentImpact = CharacterDevImpact.PivotalShift,
+            DevelopmentImpact = CharacterDevImpact.CoreValueChange,
             DevelopmentNote = "Respects the enemy. Breaks with Chrysalis."
         });
         points.Add(pp4);
@@ -385,7 +385,7 @@ public static class DesignDataFactory
             Character = characters.First(c => c.Id == 1),
             CharacterId = 1,
             Role = CharacterRole.Protagonist,
-            DevelopmentImpact = CharacterDevImpact.Transformation,
+            DevelopmentImpact = CharacterDevImpact.CoreValueChange,
             DevelopmentNote = "Becomes the Judge/Executioner."
         });
         points.Add(pp5);

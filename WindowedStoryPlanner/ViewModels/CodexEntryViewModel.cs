@@ -94,7 +94,7 @@ public partial class CodexEntryViewModel : EntityViewModel
 
     // --- COMPUTED BADGE PROPERTIES ---
     public string BadgeText => !string.IsNullOrWhiteSpace(Abbreviation)
-        ? Abbreviation.ToUpper()
+        ? Abbreviation
         : (Title.Length > 3 ? Title.Substring(0, 3) : Title).ToUpper();
 
     public Brush BadgeBrush

@@ -7,6 +7,7 @@ using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.Views;
 using System.ComponentModel;
+using System.IO;
 using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels;
@@ -215,6 +216,7 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(CodexEntries));
             OnPropertyChanged(nameof(Themes));
             OnPropertyChanged(nameof(Locations));
+            OnPropertyChanged(nameof(SourceMaterials));
 
             OnPropertyChanged(nameof(CharacterViewModels));
             OnPropertyChanged(nameof(PlotPointViewModels));
@@ -530,5 +532,111 @@ public partial class MainViewModel : ObservableObject
         _openWindows.Add(key, win);
     }
 
+    [RelayCommand]
+    public void BackupToJSON()
+    {
+        if (!IsProjectLoaded) return;
 
+        try
+        {
+            var dialog = new SaveFileDialog
+            {
+                Title = "Backup Project to JSON",
+                Filter = "JSON Files (*.json)|*.json",
+                FileName = $"Backup_{DateTime.Now:yyyyMMdd_HHmm}.json"
+            };
+
+            if (dialog.ShowDialog() == true)
+            {
+                string json = _storyService.GetFullProjectJson();
+                File.WriteAllText(dialog.FileName, json);
+                MessageBox.Show("Backup saved successfully!", "Success");
+            }
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error backing up: {ex.Message}", "Error");
+        }
+    }
+
+    [RelayCommand]
+    public async Task RestoreFromJSON()
+    {
+        if (!IsProjectLoaded) return;
+
+        var dialog = new OpenFileDialog
+        {
+            Title = "Restore Project from JSON",
+            Filter = "JSON Files (*.json)|*.json"
+        };
+
+        if (dialog.ShowDialog() == true)
+        {
+            if (MessageBox.Show("This will overwrite your current database. Continue?", "Warning", 
+                MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+            {
+                try
+                {
+                    string json = await File.ReadAllTextAsync(dialog.FileName);
+                    await _storyService.RestoreProjectFromJsonAsync(json);
+                    
+                    // Force the UI update logic just in case
+                    UpdateState(); 
+                    
+                    MessageBox.Show("Project restored successfully!", "Success");
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error restoring: {ex.Message}", "Error");
+                }
+            }
+        }
+    }
+
+    [RelayCommand]
+    public void CopyAiContext()
+    {
+        if (!IsProjectLoaded) return;
+        
+        try
+        {
+            // Set true/false based on if you want the heavy text
+            string json = _storyService.GetAiContextJson(includeVerbatim: false);
+            Clipboard.SetText(json);
+            MessageBox.Show("Story Context copied to Clipboard!", "AI Ready");
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error: {ex.Message}");
+        }
+    }
+    
+    // Add inside MainViewModel class
+
+    [RelayCommand]
+    public void AddSourceMaterial()
+    {
+        // Create new with default values
+        var newSource = new SourceMaterial 
+        { 
+            Name = "New Source", 
+            Abbreviation = "NS", 
+            ColorHex = "#808080" 
+        };
+    
+        // Add directly to the Service collection (which the UI is bound to)
+        _storyService.SourceMaterials.Add(newSource);
+    }
+
+    [RelayCommand]
+    public void DeleteSourceMaterial(SourceMaterial source)
+    {
+        if (source == null) return;
+
+        if (MessageBox.Show($"Are you sure you want to delete '{source.Name}'?", "Confirm Delete", 
+                MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
+        {
+            _storyService.SourceMaterials.Remove(source);
+        }
+    }
 }

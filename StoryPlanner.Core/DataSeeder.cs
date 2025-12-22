@@ -7,6 +7,7 @@ public static class DataSeeder
 {
     public static async Task SeedAsync(AppDbContext context)
     {
+        return;
         if (await context.Chapters.AnyAsync()) return;
 
         // 1. Get the Data
