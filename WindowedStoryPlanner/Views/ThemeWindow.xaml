@@ -5,10 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
         xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+        xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
         mc:Ignorable="d"
         Title="{Binding Name, StringFormat='Theme: {0}'}" 
         MaxHeight="1000" Width="700" SizeToContent="Height"
-        d:DataContext="{x:Static v:Sample.ThemeViewModel}">
+        d:DataContext="{x:Static v:Sample.ThemeViewModel}"
+        dd:DragDrop.IsDropTarget="{Binding IsLinkingMode}"
+dd:DragDrop.DropHandler="{Binding}">
 
     <Window.Resources>
         <Style TargetType="TextBlock" x:Key="LabelStyle">

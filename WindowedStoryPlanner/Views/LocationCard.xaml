@@ -8,7 +8,7 @@
              d:DataContext="{x:Static local:Sample.LocationViewModel}"
              mc:Ignorable="d"
              
-             dd:DragDrop.IsDropTarget="True"
+             dd:DragDrop.IsDropTarget="{Binding IsLinkingMode}"
              dd:DragDrop.DropHandler="{Binding}"
              Style="{StaticResource EntityCardStyle}">
 

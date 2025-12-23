@@ -8,7 +8,10 @@
         mc:Ignorable="d"
         Title="{Binding Name, StringFormat='Location: {0}'}" 
         MaxHeight="1000" Width="700" SizeToContent="Height"
-        d:DataContext="{x:Static v:Sample.LocationViewModel}">
+        d:DataContext="{x:Static v:Sample.LocationViewModel}"
+        xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+dd:DragDrop.IsDropTarget="True"
+dd:DragDrop.DropHandler="{Binding}">
 
     <Window.Resources>
         <Style TargetType="TextBlock" x:Key="LabelStyle">

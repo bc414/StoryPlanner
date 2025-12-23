@@ -138,6 +138,7 @@ public partial class ChapterViewModel : EntityViewModel
         };
         _chapter.PlotPoints.Add(plotPoint);
         var plotPointVM = MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+        plotPointVM.Chapters.Add(this);
         PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
     }
 }

@@ -9,7 +9,10 @@
         mc:Ignorable="d"
         Title="{Binding Title, StringFormat='Codex: {0}'}" 
         MaxHeight="1000" Width="700" SizeToContent="Height"
-        d:DataContext="{x:Static v:Sample.CodexEntryViewModel}">
+        d:DataContext="{x:Static v:Sample.CodexEntryViewModel}"
+        xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+dd:DragDrop.IsDropTarget="{Binding IsLinkingMode}"
+dd:DragDrop.DropHandler="{Binding}">
 
     <Window.Resources>
         <ObjectDataProvider x:Key="CodexCategoryEnum" MethodName="GetValues" ObjectType="{x:Type m:CodexCategory}">

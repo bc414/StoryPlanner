@@ -72,6 +72,7 @@ public partial class StoryThreadViewModel : EntityViewModel
         _storyThread.PlotPointAssignments.Add(junction);
         plotPoint.ThreadAssignments.Add(junction);
         var plotPointVM = MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+        plotPointVM.StoryThreads.Add(this);
         PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
         plotPointVM.ViewThreadPayload(this);
     }

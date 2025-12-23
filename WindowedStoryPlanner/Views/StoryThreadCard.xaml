@@ -4,10 +4,10 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
-             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              d:DataContext="{x:Static local:Sample.StoryThreadViewModel}"
              mc:Ignorable="d"
              
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              dd:DragDrop.IsDropTarget="True"
              dd:DragDrop.DropHandler="{Binding}"
              Style="{StaticResource EntityCardStyle}">
