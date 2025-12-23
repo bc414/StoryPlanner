@@ -436,7 +436,9 @@ public partial class PlotPointViewModel : EntityViewModel
         PlotPointCharacter newPayload = new PlotPointCharacter()
         {
             PlotPoint = Model,
-            Character = characterViewModel.Character
+            PlotPointId = Model.Id,
+            Character = characterViewModel.Character,
+            CharacterId = characterViewModel.Character.Id,
         };
         Model.CharacterAppearances.Add(newPayload);
         characterViewModel.Character.Appearances.Add(newPayload);
@@ -452,7 +454,9 @@ public partial class PlotPointViewModel : EntityViewModel
         PlotPointThread newPayload = new PlotPointThread()
         {
             PlotPoint = Model,
-            StoryThread = threadViewModel.StoryThread
+            PlotPointId = Model.Id,
+            StoryThread = threadViewModel.StoryThread,
+            ThreadId = threadViewModel.StoryThread.Id,
         };
 
         Model.ThreadAssignments.Add(newPayload);
@@ -469,7 +473,9 @@ public partial class PlotPointViewModel : EntityViewModel
         PlotPointTheme newPayload = new PlotPointTheme()
         {
             PlotPoint = Model,
-            Theme = themeViewModel.Theme
+            PlotPointId = Model.Id,
+            Theme = themeViewModel.Theme,
+            ThemeId = themeViewModel.Theme.Id,
         };
 
         Model.ThemeAssignments.Add(newPayload);
@@ -486,7 +492,9 @@ public partial class PlotPointViewModel : EntityViewModel
         PlotPointCodexEntry newPayload = new PlotPointCodexEntry()
         {
             PlotPoint = Model,
-            CodexEntry = codexViewModel.CodexEntry
+            PlotPointId = Model.Id,
+            CodexEntry = codexViewModel.CodexEntry,
+            CodexEntryId = codexViewModel.CodexEntry.Id,
         };
 
         Model.CodexReferences.Add(newPayload);
@@ -501,7 +509,8 @@ public partial class PlotPointViewModel : EntityViewModel
         if (IsLinkedTo(locationViewModel)) return; // 1:1 Logic is slightly different, but checking equality works
 
         Model.Location = locationViewModel.Location;
-        
+        Model.LocationId = locationViewModel.Location.Id;
+
         locationViewModel.Location.PlotPoints.Add(Model);
         
         Locations.Clear();
@@ -537,6 +546,7 @@ public partial class PlotPointViewModel : EntityViewModel
 
         // 3. Link New
         Model.Chapter = chapterViewModel.Chapter;
+        Model.ChapterId = chapterViewModel.Chapter.Id;
 
         // Update the Target Window (Chapter Window)
         chapterViewModel.Chapter.PlotPoints.Add(Model);
