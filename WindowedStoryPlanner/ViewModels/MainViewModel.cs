@@ -88,6 +88,7 @@ public partial class MainViewModel : ObservableObject
         }
     }
 
+    public ICollectionView CodexEntriesGroupedView { get; private set; }
 
     public MainViewModel(IStoryService storyService)
     {
@@ -200,6 +201,16 @@ public partial class MainViewModel : ObservableObject
                 CodexEntries, 
                 CodexEntryDictionary);
             EnableLiveSorting(CodexEntryViewModels, nameof(CodexEntryViewModel.Title));
+            
+            // --- NEW GROUPING LOGIC ---
+            // 1. Get the default view for the collection
+            CodexEntriesGroupedView = CollectionViewSource.GetDefaultView(CodexEntryViewModels);
+        
+            // 2. Clear old groups (important for reloading)
+            CodexEntriesGroupedView.GroupDescriptions.Clear();
+        
+            // 3. Add the GroupDescription based on the 'Category' property
+            CodexEntriesGroupedView.GroupDescriptions.Add(new PropertyGroupDescription(nameof(CodexEntryViewModel.Category)));
 
             // Must come last because it needs the above dictionaries populated
             foreach(var ppvm in PlotPointViewModels)
@@ -225,6 +236,7 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(ChapterViewModels));
             OnPropertyChanged(nameof(LocationViewModels));
             OnPropertyChanged(nameof(CodexEntryViewModels));
+            OnPropertyChanged(nameof(CodexEntriesGroupedView));
         }
         else
         {
@@ -269,9 +281,10 @@ public partial class MainViewModel : ObservableObject
         return collection;
     }
 
-    public PlotPointViewModel RegisterNewPlotPoint(PlotPoint plotPoint)
+    public async Task<PlotPointViewModel> RegisterNewPlotPoint(PlotPoint plotPoint)
     {
         _storyService.PlotPoints.Add(plotPoint);
+        await _storyService.SaveAsync();
         PlotPointViewModel viewModel = new PlotPointViewModel(plotPoint);
         PlotPointViewModels.Add(viewModel);
         PlotPointDictionary[plotPoint] = viewModel;
@@ -281,10 +294,11 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public void AddCharacter()
+    public async Task AddCharacter()
     {
         Character newCharacter = new Character();
         _storyService.Characters.Add(newCharacter);
+        await _storyService.SaveAsync();
         CharacterViewModel viewModel = new CharacterViewModel(newCharacter);
         CharacterViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);
@@ -303,10 +317,11 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public void AddChapter()
+    public async Task AddChapter()
     {
         Chapter newChapter = new Chapter();
         _storyService.Chapters.Add(newChapter);
+        await _storyService.SaveAsync();
         ChapterViewModel viewModel = new ChapterViewModel(newChapter);
         ChapterViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);
@@ -325,10 +340,11 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public void AddStoryThread()
+    public async Task AddStoryThread()
     {
         StoryThread newStoryThread = new StoryThread();
         _storyService.StoryThreads.Add(newStoryThread);
+        await _storyService.SaveAsync();
         StoryThreadViewModel viewModel = new StoryThreadViewModel(newStoryThread);
         StoryThreadViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);
@@ -347,10 +363,11 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public void AddTheme()
+    public async Task AddTheme()
     {
         Theme newTheme = new Theme();
         _storyService.Themes.Add(newTheme);
+        await _storyService.SaveAsync();
         ThemeViewModel viewModel = new ThemeViewModel(newTheme);
         ThemeViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);
@@ -369,10 +386,11 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public void AddLocation()
+    public async Task AddLocation()
     {
         Location newLocation = new Location();
         _storyService.Locations.Add(newLocation);
+        await _storyService.SaveAsync();
         LocationViewModel viewModel = new LocationViewModel(newLocation);
         LocationViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);
@@ -391,10 +409,11 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public void AddCodexEntry()
+    public async Task AddCodexEntry()
     {
         CodexEntry newCodexEntry = new CodexEntry();
         _storyService.CodexEntries.Add(newCodexEntry);
+        await _storyService.SaveAsync();
         CodexEntryViewModel viewModel = new CodexEntryViewModel(newCodexEntry);
         CodexEntryViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);

@@ -46,6 +46,7 @@ public enum CodexCategory
     WorldRules = 6,
     SocietalRules = 7,
     Concept = 8,
+    Backstory = 9,
 }
 
 public enum CodexUsageType

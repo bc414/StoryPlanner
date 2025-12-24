@@ -55,7 +55,7 @@ public partial class StoryThreadViewModel : EntityViewModel
     }
     
     [RelayCommand]
-    public void AddPlotPoint()
+    public async Task AddPlotPoint()
     {
         PlotPoint plotPoint = new PlotPoint
         {
@@ -71,10 +71,10 @@ public partial class StoryThreadViewModel : EntityViewModel
         };
         _storyThread.PlotPointAssignments.Add(junction);
         plotPoint.ThreadAssignments.Add(junction);
-        var plotPointVM = MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+        var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
         plotPointVM.StoryThreads.Add(this);
         PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
-        plotPointVM.ViewThreadPayload(this);
+        //plotPointVM.ViewThreadPayload(this);
     }
 
     public void UnlinkPlotPoint(PlotPointViewModel plotPointVM)

@@ -187,11 +187,11 @@ public partial class PlotPointViewModel : EntityViewModel
             UnlinkChapter(vm);
         }
     }
-    
+    /*
     [RelayCommand]
     private void ViewThemePayload(ThemeViewModel vm)
     {
-        OpenPayloadWindow<ThemeViewModel, PlotPointThemeWindow>(
+        OpenPayloadWindow<ThemeViewModel, PlotPointThemeView>(
             vm,
             // Payload Selector
             (v) => v.Theme.PlotPointAssignments.FirstOrDefault(x => x.PlotPoint == Model),
@@ -203,7 +203,7 @@ public partial class PlotPointViewModel : EntityViewModel
     [RelayCommand]
     private void ViewCharacterPayload(CharacterViewModel vm)
     {
-        OpenPayloadWindow<CharacterViewModel, PlotPointCharacterWindow>(
+        OpenPayloadWindow<CharacterViewModel, PlotPointCharacterView>(
             vm,
             (v) => v.Character.Appearances.FirstOrDefault(x => x.PlotPoint == Model), 
             () => UnlinkCharacter(vm)
@@ -213,7 +213,7 @@ public partial class PlotPointViewModel : EntityViewModel
     [RelayCommand]
     private void ViewCodexPayload(CodexEntryViewModel vm)
     {
-        OpenPayloadWindow<CodexEntryViewModel, PlotPointCodexEntryWindow>(
+        OpenPayloadWindow<CodexEntryViewModel, PlotPointCodexEntryView>(
             vm,
             (v) => v.CodexEntry.PlotPointReferences.FirstOrDefault(x => x.PlotPoint == Model),
             () => UnlinkCodexEntry(vm)
@@ -223,7 +223,7 @@ public partial class PlotPointViewModel : EntityViewModel
     [RelayCommand]
     public void ViewThreadPayload(StoryThreadViewModel vm)
     {
-        OpenPayloadWindow<StoryThreadViewModel, PlotPointThreadWindow>(
+        OpenPayloadWindow<StoryThreadViewModel, PlotPointThreadView>(
             vm,
             (v) => v.StoryThread.PlotPointAssignments.FirstOrDefault(x => x.PlotPoint == Model),
             () => UnlinkThread(vm)
@@ -255,7 +255,7 @@ public partial class PlotPointViewModel : EntityViewModel
             window.Show();
         }
     }
-    
+    */
     
 
     
@@ -444,7 +444,7 @@ public partial class PlotPointViewModel : EntityViewModel
         characterViewModel.Character.Appearances.Add(newPayload);
         Characters.Add(characterViewModel);
         
-        ViewCharacterPayload(characterViewModel);
+        //ViewCharacterPayload(characterViewModel);
     }
     
     public void LinkThread(StoryThreadViewModel threadViewModel)
@@ -463,7 +463,7 @@ public partial class PlotPointViewModel : EntityViewModel
         threadViewModel.StoryThread.PlotPointAssignments.Add(newPayload);
         StoryThreads.Add(threadViewModel);
 
-        ViewThreadPayload(threadViewModel);
+        //ViewThreadPayload(threadViewModel);
     }
 
     public void LinkTheme(ThemeViewModel themeViewModel)
@@ -482,7 +482,7 @@ public partial class PlotPointViewModel : EntityViewModel
         themeViewModel.Theme.PlotPointAssignments.Add(newPayload);
         Themes.Add(themeViewModel);
 
-        ViewThemePayload(themeViewModel);
+        //ViewThemePayload(themeViewModel);
     }
 
     public void LinkCodexEntry(CodexEntryViewModel codexViewModel)
@@ -501,7 +501,7 @@ public partial class PlotPointViewModel : EntityViewModel
         codexViewModel.CodexEntry.PlotPointReferences.Add(newPayload);
         CodexEntries.Add(codexViewModel);
 
-        ViewCodexPayload(codexViewModel);
+        //ViewCodexPayload(codexViewModel);
     }
 
     public void LinkLocation(LocationViewModel locationViewModel)

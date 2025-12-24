@@ -5,11 +5,42 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
         xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
+        xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
         mc:Ignorable="d" d:DataContext="{x:Static local:Sample.PlotPointViewModel}" Width="800"
         dd:DragDrop.IsDropTarget="True"
         dd:DragDrop.DropHandler="{Binding}">
     <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:CharacterViewModel}">
+            <local:CharacterCard />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ThemeViewModel}">
+            <local:ThemeCard />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:CodexEntryViewModel}">
+            <local:CodexEntryCard/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ChapterViewModel}">
+            <local:ChapterCard/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:LocationViewModel}">
+            <local:LocationCard/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:StoryThreadViewModel}">
+            <local:StoryThreadCard/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type m:PlotPointCharacter}">
+            <local:PlotPointCharacterView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type m:PlotPointTheme}">
+            <local:PlotPointThemeView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type m:PlotPointThread}">
+            <local:PlotPointThreadView />
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type m:PlotPointCodexEntry}">
+            <local:PlotPointCodexEntryView/>
+        </DataTemplate>
         <ObjectDataProvider x:Key="CoreDriverEnum" MethodName="GetValues" ObjectType="{x:Type m:CoreDriver}">
             <ObjectDataProvider.MethodParameters>
                 <x:Type TypeName="m:CoreDriver"/>
@@ -63,12 +94,6 @@
                     <TextBlock Text="SCENE TITLE" Style="{StaticResource LabelStyle}"/>
                     <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
                              FontSize="16" FontWeight="Bold" Padding="5" Margin="0,0,0,10"/>
-
-                    <TextBlock Text="CHAPTER CONTEXT" Style="{StaticResource LabelStyle}"/>
-                    <local:CardCollectionViewer 
-                        ItemsSource="{Binding Chapters}" 
-                        ScrollViewer.VerticalScrollBarVisibility="Disabled"
-                        ViewPayloadCommand="{Binding ViewChapterCommand}"/>
                 </StackPanel>
             </GroupBox>
 
@@ -105,41 +130,25 @@
 
 
             <GroupBox Header="Connections">
-                <StackPanel>
-
+                <StackPanel Grid.IsSharedSizeScope="True">
+                    <TextBlock Text="CHAPTER CONTEXT" Style="{StaticResource LabelStyle}"/>
+                    <local:VerticalLinkViewer ItemsSource="{Binding Chapters}"/>
+                    
                     <TextBlock Text="STORY THREADS" Style="{StaticResource LabelStyle}"/>
-                    <local:CardCollectionViewer ItemsSource="{Binding StoryThreads}"
-                                                ScrollViewer.VerticalScrollBarVisibility="Disabled"
-                                                UnlinkItemCommand="{Binding UnlinkThreadCommand}"
-                                                ViewPayloadCommand="{Binding ViewThreadPayloadCommand}"
-                                                Margin="0,0,0,10"/>
+                    <local:VerticalLinkViewer ItemsSource="{Binding StoryThreads}" />
 
                     <TextBlock Text="CHARACTERS" Style="{StaticResource LabelStyle}"/>
-                    <local:CardCollectionViewer ItemsSource="{Binding Characters}" 
-                                                ScrollViewer.VerticalScrollBarVisibility="Disabled"
-                                                UnlinkItemCommand="{Binding UnlinkCharacterCommand}"
-                                                ViewPayloadCommand="{Binding ViewCharacterPayloadCommand}"
-                                                Margin="0,0,0,10"/>
+                    <local:VerticalLinkViewer ItemsSource="{Binding Characters}" />
 
                     <TextBlock Text="THEMES" Style="{StaticResource LabelStyle}"/>
-                    <local:CardCollectionViewer ItemsSource="{Binding Themes}" 
-                                                ScrollViewer.VerticalScrollBarVisibility="Disabled"
-                                                UnlinkItemCommand="{Binding UnlinkThemeCommand}"
-                                                ViewPayloadCommand="{Binding ViewThemePayloadCommand}"
-                                                Margin="0,0,0,10"/>
+                    <local:VerticalLinkViewer ItemsSource="{Binding Themes}" />
 
                     <TextBlock Text="CODEX / LORE" Style="{StaticResource LabelStyle}"/>
-                    <local:CardCollectionViewer ItemsSource="{Binding CodexEntries}" 
-                                                ScrollViewer.VerticalScrollBarVisibility="Disabled"
-                                                UnlinkItemCommand="{Binding UnlinkCodexCommand}"
-                                                ViewPayloadCommand="{Binding ViewCodexPayloadCommand}"
-                                                Margin="0,0,0,10"/>
-
+                    <local:VerticalLinkViewer ItemsSource="{Binding CodexEntries}" />
+        
                     <TextBlock Text="LOCATION" Style="{StaticResource LabelStyle}"/>
-                    <local:CardCollectionViewer ItemsSource="{Binding Locations}" 
-                                                ScrollViewer.VerticalScrollBarVisibility="Disabled"
-                                                UnlinkItemCommand="{Binding UnlinkLocationCommand}"
-                                                ViewPayloadCommand="{Binding ViewLocationPayloadCommand}"/>
+                    <local:VerticalLinkViewer ItemsSource="{Binding Locations}" />
+
                 </StackPanel>
             </GroupBox>
 

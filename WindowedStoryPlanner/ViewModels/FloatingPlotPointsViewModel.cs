@@ -81,7 +81,7 @@ public partial class FloatingPlotPointsViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public void AddFloatingPlotPoint()
+    public async Task AddFloatingPlotPoint()
     {
         PlotPoint plotPoint = new PlotPoint
         {
@@ -91,7 +91,7 @@ public partial class FloatingPlotPointsViewModel : ObservableObject
         };
 
         // Registering adds it to MainViewModel -> OnGlobalListChanged fires -> Adds to our list
-        PlotPointViewModel plotPointVM = MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+        PlotPointViewModel plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
         
         MainViewModel.Instance.OpenEditorWindow(plotPointVM);
     }

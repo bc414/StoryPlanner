@@ -128,7 +128,7 @@ public partial class ChapterViewModel : EntityViewModel
     
 
     [RelayCommand]
-    public void AddPlotPoint()
+    public async Task AddPlotPoint()
     {
         PlotPoint plotPoint = new PlotPoint
         {
@@ -137,7 +137,7 @@ public partial class ChapterViewModel : EntityViewModel
             OrderInChapter = _chapter.PlotPoints.Count + 1
         };
         _chapter.PlotPoints.Add(plotPoint);
-        var plotPointVM = MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+        var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
         plotPointVM.Chapters.Add(this);
         PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
     }
