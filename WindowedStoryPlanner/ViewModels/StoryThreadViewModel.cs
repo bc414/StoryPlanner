@@ -1,3 +1,5 @@
+using System.Linq; // Ensure Linq is available
+using System.Threading.Tasks;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core.Models;
@@ -8,7 +10,11 @@ public partial class StoryThreadViewModel : EntityViewModel
 {
     private readonly StoryThread _storyThread;
     public StoryThread StoryThread => _storyThread;
-    
+
+    // --- FIX 1: The Safety Flag ---
+    // Prevents the "Revert Loop" by ignoring events caused by our own reordering
+    private bool _isInternalReorder = false;
+
     [ObservableProperty]
     [NotifyPropertyChangedFor(nameof(IsLinkingMode))]
     private bool _isPlotPointReorderMode;
@@ -28,99 +34,105 @@ public partial class StoryThreadViewModel : EntityViewModel
                 OnPropertyChanged(nameof(IsLinkingMode));
             }
         };
-        
-        // 1. Sort by the Thread-Specific Order
-        var sortedPoints = storyThread.PlotPointAssignments
-            .OrderBy(x => x.SortOrder)
-            .Select(x => x.PlotPoint);
 
-        // 2. Initialize with a REORDER STRATEGY
+        // --- FIX 2: Sort the Model Collection First ---
+        // Just like ChapterViewModel, we must align the Model's index 
+        // with the Logical SortOrder before binding the UI.
+        var sortedList = _storyThread.PlotPointAssignments.OrderBy(x => x.SortOrder).ToList();
+
+        if (!_storyThread.PlotPointAssignments.SequenceEqual(sortedList))
+        {
+            _isInternalReorder = true; // Lock events while we fix the startup order
+            _storyThread.PlotPointAssignments.Clear();
+            foreach (var item in sortedList)
+            {
+                _storyThread.PlotPointAssignments.Add(item);
+            }
+            _isInternalReorder = false;
+        }
+
+        // 1. Prepare the View Source (Now guaranteed to match Model indices)
+        var sortedPoints = _storyThread.PlotPointAssignments.Select(x => x.PlotPoint);
+
+        // 2. Initialize with Reorder Strategy
         PlotPointCollectionViewModel = new PlotPointCollectionViewModel(
-            sortedPoints, 
-            ReorderThreadAssignments // <--- Pass the function below
+            sortedPoints,
+            ReorderThreadAssignments
         );
-        
-        // --- NEW: LIVE UPDATE LISTENER ---
+
+        // --- FIX 3: Protected Listener ---
+        // This updates the UI when data changes externally, but ignores our internal reorders.
         _storyThread.PlotPointAssignments.CollectionChanged += (s, e) =>
         {
-            // 1. Re-fetch the points in the correct SortOrder
+            // STOP if we are currently moving items ourselves
+            if (_isInternalReorder) return;
+
+            // Otherwise, refresh the list (External updates)
             var updatedPoints = _storyThread.PlotPointAssignments
                 .OrderBy(x => x.SortOrder)
                 .Select(x => x.PlotPoint);
 
-            // 2. Clear and Rebuild the View List
             PlotPointCollectionViewModel.ViewModelCollection.Clear();
             foreach (var p in updatedPoints)
             {
-                // Look up the Singleton ViewModel for this Plot Point
                 var ppVM = MainViewModel.Instance.PlotPointDictionary[p];
                 PlotPointCollectionViewModel.ViewModelCollection.Add(ppVM);
             }
         };
     }
-    
-    // This runs whenever the user clicks Up/Down in the UI
+
+    // --- FIX 4: Protected Reorder Logic ---
     private void ReorderThreadAssignments(int oldIndex, int newIndex)
     {
-        // 1. Move the item in the Model Collection (ObservableCollection<PlotPointThread>)
-        _storyThread.PlotPointAssignments.Move(oldIndex, newIndex);
-
-        // 2. Recalculate the SortOrder integers to match the new list order
-        for (int i = 0; i < _storyThread.PlotPointAssignments.Count; i++)
+        _isInternalReorder = true; // LOCK: Don't let the listener fire
+        try
         {
-            _storyThread.PlotPointAssignments[i].SortOrder = i;
+            // 1. Move the item in the Model
+            // Since we sorted in the constructor, these indices now match perfectly.
+            _storyThread.PlotPointAssignments.Move(oldIndex, newIndex);
+
+            // 2. Update the integer SortOrder for persistence
+            for (int i = 0; i < _storyThread.PlotPointAssignments.Count; i++)
+            {
+                _storyThread.PlotPointAssignments[i].SortOrder = i;
+            }
+        }
+        finally
+        {
+            _isInternalReorder = false; // UNLOCK
         }
     }
-    
+
     [RelayCommand]
     public async Task AddPlotPoint()
     {
-        // 1. Create the new Plot Point
         PlotPoint plotPoint = new PlotPoint
         {
             Title = "New Plot Point",
         };
 
-        // 2. SAVE the Plot Point FIRST to generate its ID
-        // The junction needs a valid PlotPointId to exist in the database.
         var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
 
-        // 3. Create the Junction Object
         PlotPointThread junction = new PlotPointThread
         {
             PlotPoint = plotPoint,
-            PlotPointId = plotPoint.Id, // Ensure ID is linked
+            PlotPointId = plotPoint.Id,
             StoryThread = _storyThread,
-            ThreadId = _storyThread.Id, // Ensure ID is linked
+            ThreadId = _storyThread.Id,
             SortOrder = _storyThread.PlotPointAssignments.Count,
             IsPrimary = true,
             ThreadTrajectory = GoalTrajectory.Unset,
         };
 
-        // ---------------------------------------------------------
-        // CRITICAL SECTION: ORDER MATTERS
-        // ---------------------------------------------------------
-
-        // 4. Add to PLOT POINT first [Fixes Blank Payload]
-        // The data must be here BEFORE the UI listener fires.
+        // Add to PlotPoint first (Database requirement)
         plotPoint.ThreadAssignments.Add(junction);
 
-        // 5. Add to THREAD second [Fixes UI Update]
-        // This fires the .CollectionChanged listener in your constructor.
-        // The UI rebuilds, finds the data in Step 4, and renders correctly.
+        // Add to Thread (Triggers UI update via Listener)
+        // Since this is an "Add", we WANT the listener to fire, so we don't set _isInternalReorder.
         _storyThread.PlotPointAssignments.Add(junction);
 
-        // 6. Update the ViewModel Wrapper (Badge display)
         plotPointVM.StoryThreads.Add(this);
 
-        // ---------------------------------------------------------
-
-        // 7. REMOVE DUPLICATE [Fixes Double Entry]
-        // DELETE THIS LINE: 
-        // PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
-
-        // 8. SAVE EVERYTHING [Fixes Data Loss]
-        // We modified the relationships AFTER the first save, so we must save again.
         await MainViewModel.Instance.SaveChangesSilently();
     }
 
@@ -130,7 +142,6 @@ public partial class StoryThreadViewModel : EntityViewModel
     }
 
     // --- Properties Wrapper ---
-
     public string Name
     {
         get => _storyThread.Name;

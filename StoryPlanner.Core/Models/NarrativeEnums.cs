@@ -20,7 +20,7 @@ public enum ThemeProminence
 
 public enum CharacterRole
 {
-    Background = 0,
+    Unset = 0,
     Supporting = 1,
     Protagonist = 2,
     PointOfView = 3,    // We are in their head
@@ -44,7 +44,7 @@ public enum CodexCategory
     History = 4,
     Organization = 5,
     WorldRules = 6,
-    SocietalRules = 7,
+    SocietalDifferences = 7,
     Concept = 8,
     Backstory = 9,
 }

@@ -60,11 +60,6 @@ public partial class ChapterViewModel : EntityViewModel
         );
     }
 
-    private void PlotPointCollection_CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-    {
-        UpdateSortOrders();
-    }
-
     private void UpdateSortOrders()
     {
         for (int i = 0; i < PlotPointCollectionViewModel.ViewModelCollection.Count; i++)
