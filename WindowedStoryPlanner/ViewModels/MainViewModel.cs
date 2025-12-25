@@ -216,6 +216,14 @@ public partial class MainViewModel : ObservableObject
         
             // 3. Add the GroupDescription based on the 'Category' property
             CodexEntriesGroupedView.GroupDescriptions.Add(new PropertyGroupDescription(nameof(CodexEntryViewModel.Category)));
+            
+            // --- THE FIX: ENABLE LIVE GROUPING ---
+            // This tells WPF to move the item to the correct group instantly when "Category" changes.
+            if (CodexEntriesGroupedView is ICollectionViewLiveShaping liveView && liveView.CanChangeLiveGrouping)
+            {
+                liveView.IsLiveGrouping = true;
+                liveView.LiveGroupingProperties.Add(nameof(CodexEntryViewModel.Category));
+            }
 
             // Must come last because it needs the above dictionaries populated
             foreach(var ppvm in PlotPointViewModels)
