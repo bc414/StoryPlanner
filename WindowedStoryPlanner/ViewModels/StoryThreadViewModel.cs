@@ -121,7 +121,7 @@ public partial class StoryThreadViewModel : EntityViewModel
 
         // 8. SAVE EVERYTHING [Fixes Data Loss]
         // We modified the relationships AFTER the first save, so we must save again.
-        await MainViewModel.Instance.SaveChanges(false);
+        await MainViewModel.Instance.SaveChangesSilently();
     }
 
     public void UnlinkPlotPoint(PlotPointViewModel plotPointVM)

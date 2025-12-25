@@ -147,13 +147,15 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public async Task SaveChanges(bool showMessage = true)
+    public async Task SaveChanges()
     {
         await _storyService.SaveAsync();
-        if (showMessage)
-        {
-            MessageBox.Show("Saved!", "Story Planner", MessageBoxButton.OK, MessageBoxImage.Information);
-        }
+        MessageBox.Show("Saved!", "Story Planner", MessageBoxButton.OK, MessageBoxImage.Information);
+    }
+
+    public async Task SaveChangesSilently()
+    {
+        await _storyService.SaveAsync();
     }
 
     public void UpdateState()
