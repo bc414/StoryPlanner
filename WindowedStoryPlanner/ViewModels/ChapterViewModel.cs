@@ -134,7 +134,7 @@ public partial class ChapterViewModel : EntityViewModel
         {
             Title = "New Plot Point",
             ChapterId = _chapter.Id,
-            OrderInChapter = _chapter.PlotPoints.Count + 1
+            OrderInChapter = _chapter.PlotPoints.Count
         };
         _chapter.PlotPoints.Add(plotPoint);
         var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);

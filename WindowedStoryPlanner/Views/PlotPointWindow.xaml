@@ -88,17 +88,23 @@
 
     <ScrollViewer VerticalScrollBarVisibility="Auto" Padding="15">
         <StackPanel>
-
-            <GroupBox Header="General Information">
-                <StackPanel>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" HorizontalAlignment="Stretch">
                     <TextBlock Text="SCENE TITLE" Style="{StaticResource LabelStyle}"/>
-                    <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
-                             FontSize="16" FontWeight="Bold" Padding="5" Margin="0,0,0,10"/>
+                    <TextBox HorizontalAlignment="Stretch" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
+                        FontSize="16" FontWeight="Bold" Padding="5" Margin="0,0,0,10"/>
                 </StackPanel>
-            </GroupBox>
+                <Border Grid.Column="1"  Width="80" Height="40" BorderBrush="Black" BorderThickness="2" dd:DragDrop.IsDragSource="True" dd:DragDrop.UseDefaultDragAdorner="True">
+                    <TextBlock Text="Drag To Link" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                </Border>
+            </Grid>
+            
 
-
-            <GroupBox Header="Narrative Analysis">
+            <Expander Header="Narrative Analysis" IsExpanded="True">
                 <UniformGrid Columns="2" Rows="2">
 
                     <StackPanel Margin="0,0,10,10">
@@ -126,34 +132,41 @@
                     </StackPanel>
 
                 </UniformGrid>
-            </GroupBox>
+            </Expander>
 
 
-            <GroupBox Header="Connections">
+            <Expander Header="Connections" IsExpanded="True">
                 <StackPanel Grid.IsSharedSizeScope="True">
-                    <TextBlock Text="CHAPTER CONTEXT" Style="{StaticResource LabelStyle}"/>
-                    <local:VerticalLinkViewer ItemsSource="{Binding Chapters}"/>
-                    
-                    <TextBlock Text="STORY THREADS" Style="{StaticResource LabelStyle}"/>
-                    <local:VerticalLinkViewer ItemsSource="{Binding StoryThreads}" />
 
-                    <TextBlock Text="CHARACTERS" Style="{StaticResource LabelStyle}"/>
-                    <local:VerticalLinkViewer ItemsSource="{Binding Characters}" />
+                    <Expander Header="CHAPTER CONTEXT" IsExpanded="True">
+                        <local:VerticalLinkViewer ItemsSource="{Binding Chapters}"/>
+                    </Expander>
 
-                    <TextBlock Text="THEMES" Style="{StaticResource LabelStyle}"/>
-                    <local:VerticalLinkViewer ItemsSource="{Binding Themes}" />
+                    <Expander Header="STORY THREADS" IsExpanded="True">
+                        <local:VerticalLinkViewer ItemsSource="{Binding StoryThreads}" />
+                    </Expander>
 
-                    <TextBlock Text="CODEX / LORE" Style="{StaticResource LabelStyle}"/>
-                    <local:VerticalLinkViewer ItemsSource="{Binding CodexEntries}" />
-        
-                    <TextBlock Text="LOCATION" Style="{StaticResource LabelStyle}"/>
-                    <local:VerticalLinkViewer ItemsSource="{Binding Locations}" />
+                    <Expander Header="CHARACTERS" IsExpanded="True">
+                        <local:VerticalLinkViewer ItemsSource="{Binding Characters}" />
+                    </Expander>
+
+                    <Expander Header="THEMES" IsExpanded="True">
+                        <local:VerticalLinkViewer ItemsSource="{Binding Themes}" />
+                    </Expander>
+
+                    <Expander Header="CODEX / LORE" IsExpanded="True">
+                        <local:VerticalLinkViewer ItemsSource="{Binding CodexEntries}" />
+                    </Expander>
+
+                    <Expander Header="LOCATION" IsExpanded="True">
+                        <local:VerticalLinkViewer ItemsSource="{Binding Locations}" />
+                    </Expander>
 
                 </StackPanel>
-            </GroupBox>
+            </Expander>
 
 
-            <GroupBox Header="Drafting">
+            <Expander Header="Drafting" IsExpanded="True">
                 <StackPanel>
 
                     <DockPanel LastChildFill="False" Margin="0,0,0,10">
@@ -185,7 +198,7 @@
                              FontFamily="Consolas, Courier New, Monospace"/>
 
                 </StackPanel>
-            </GroupBox>
+            </Expander>
 
         </StackPanel>
     </ScrollViewer>

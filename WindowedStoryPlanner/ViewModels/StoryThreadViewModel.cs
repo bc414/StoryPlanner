@@ -39,6 +39,24 @@ public partial class StoryThreadViewModel : EntityViewModel
             sortedPoints, 
             ReorderThreadAssignments // <--- Pass the function below
         );
+        
+        // --- NEW: LIVE UPDATE LISTENER ---
+        _storyThread.PlotPointAssignments.CollectionChanged += (s, e) =>
+        {
+            // 1. Re-fetch the points in the correct SortOrder
+            var updatedPoints = _storyThread.PlotPointAssignments
+                .OrderBy(x => x.SortOrder)
+                .Select(x => x.PlotPoint);
+
+            // 2. Clear and Rebuild the View List
+            PlotPointCollectionViewModel.ViewModelCollection.Clear();
+            foreach (var p in updatedPoints)
+            {
+                // Look up the Singleton ViewModel for this Plot Point
+                var ppVM = MainViewModel.Instance.PlotPointDictionary[p];
+                PlotPointCollectionViewModel.ViewModelCollection.Add(ppVM);
+            }
+        };
     }
     
     // This runs whenever the user clicks Up/Down in the UI
@@ -57,24 +75,53 @@ public partial class StoryThreadViewModel : EntityViewModel
     [RelayCommand]
     public async Task AddPlotPoint()
     {
+        // 1. Create the new Plot Point
         PlotPoint plotPoint = new PlotPoint
         {
             Title = "New Plot Point",
         };
+
+        // 2. SAVE the Plot Point FIRST to generate its ID
+        // The junction needs a valid PlotPointId to exist in the database.
+        var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+
+        // 3. Create the Junction Object
         PlotPointThread junction = new PlotPointThread
         {
             PlotPoint = plotPoint,
+            PlotPointId = plotPoint.Id, // Ensure ID is linked
             StoryThread = _storyThread,
-            SortOrder = _storyThread.PlotPointAssignments.Count + 1,
+            ThreadId = _storyThread.Id, // Ensure ID is linked
+            SortOrder = _storyThread.PlotPointAssignments.Count,
             IsPrimary = true,
             ThreadTrajectory = GoalTrajectory.Unset,
         };
-        _storyThread.PlotPointAssignments.Add(junction);
+
+        // ---------------------------------------------------------
+        // CRITICAL SECTION: ORDER MATTERS
+        // ---------------------------------------------------------
+
+        // 4. Add to PLOT POINT first [Fixes Blank Payload]
+        // The data must be here BEFORE the UI listener fires.
         plotPoint.ThreadAssignments.Add(junction);
-        var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+
+        // 5. Add to THREAD second [Fixes UI Update]
+        // This fires the .CollectionChanged listener in your constructor.
+        // The UI rebuilds, finds the data in Step 4, and renders correctly.
+        _storyThread.PlotPointAssignments.Add(junction);
+
+        // 6. Update the ViewModel Wrapper (Badge display)
         plotPointVM.StoryThreads.Add(this);
-        PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
-        //plotPointVM.ViewThreadPayload(this);
+
+        // ---------------------------------------------------------
+
+        // 7. REMOVE DUPLICATE [Fixes Double Entry]
+        // DELETE THIS LINE: 
+        // PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
+
+        // 8. SAVE EVERYTHING [Fixes Data Loss]
+        // We modified the relationships AFTER the first save, so we must save again.
+        await MainViewModel.Instance.SaveChanges(false);
     }
 
     public void UnlinkPlotPoint(PlotPointViewModel plotPointVM)

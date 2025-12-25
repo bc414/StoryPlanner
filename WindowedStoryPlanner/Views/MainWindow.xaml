@@ -7,6 +7,7 @@
         xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
         xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
         mc:Ignorable="d"
+        xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
             
         Title="Mission Control" Height="600" Width="950"
         WindowStartupLocation="CenterScreen">
@@ -55,7 +56,7 @@
                     <ListView ItemsSource="{Binding CodexEntriesGroupedView}"
           BorderThickness="0"
           Background="Transparent"
-          ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+          ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.UseDefaultDragAdorner="True">
 
                         <ListView.ItemsPanel>
                             <ItemsPanelTemplate>

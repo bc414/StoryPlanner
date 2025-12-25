@@ -11,7 +11,25 @@
              mc:Ignorable="d"
              Style="{StaticResource CardBaseStyle}"
              Margin="2,5">
+    <UserControl.Resources>
+        <v:EntityToPayloadConverter x:Key="EntityToPayloadConverter"/>
 
+        <DataTemplate DataType="{x:Type m:PlotPointCharacter}">
+            <v:PlotPointCharacterView />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type m:PlotPointTheme}">
+            <v:PlotPointThemeView />
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type m:PlotPointThread}">
+            <v:PlotPointThreadView />
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type m:PlotPointCodexEntry}">
+            <v:PlotPointCodexEntryView />
+        </DataTemplate>
+    </UserControl.Resources>
     <UserControl.ContextMenu>
         <ContextMenu>
             <MenuItem Header="Unlink from this Window"
@@ -50,16 +68,13 @@
     </UserControl.ContextMenu>
 
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="1" Grid.Row="0"
+        <TextBlock Grid.Row="0"
                    TextWrapping="Wrap"
                    VerticalAlignment="Center"
                    Margin="0,2,0,4">
@@ -71,39 +86,68 @@
                  FontSize="13"/>
         </TextBlock>
 
-        <DockPanel Grid.Column="1" Grid.Row="1" Margin="0,0,0,2" LastChildFill="True">
+        
+        
+        <Expander Grid.Row="2">
+            <Expander.Style>
+                <Style TargetType="Expander">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Content, ElementName=PayloadPresenter}" Value="{x:Null}">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Expander.Style>
 
-            <ItemsControl ItemsSource="{Binding Themes}" 
-                  ItemTemplate="{StaticResource ThemeBadgeTemplate}"
-                  DockPanel.Dock="Right"
-                  Margin="5,0,0,0">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <WrapPanel/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-            </ItemsControl>
+            <Expander.Header>
+                <DockPanel Grid.Row="1" Margin="0,0,0,2" LastChildFill="True"
+                           Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Expander}}, Path=ActualWidth}">
 
-            <ItemsControl ItemsSource="{Binding StoryThreads}"
-                  ItemTemplate="{StaticResource ThreadBadgeTemplate}"
-                  DockPanel.Dock="Left"
-                  Margin="0,0,8,0">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <WrapPanel/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-            </ItemsControl>
+                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Right">
+                        <ItemsControl ItemsSource="{Binding Themes}" VerticalAlignment="Center"
+                            ItemTemplate="{StaticResource ThemeBadgeTemplate}"
+                            Margin="5,0,0,0">       
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                        </ItemsControl>
+                        <TextBlock Width="30"/>
+                    </StackPanel>
+                    
 
-            <ItemsControl ItemsSource="{Binding CodexEntries}" 
-                  ItemTemplate="{StaticResource CodexBadgeTemplate}" HorizontalAlignment="Center">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <WrapPanel/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-            </ItemsControl>
+                    <ItemsControl ItemsSource="{Binding StoryThreads}"
+          ItemTemplate="{StaticResource ThreadBadgeTemplate}"
+          DockPanel.Dock="Left"
+          Margin="0,0,8,0">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
 
-        </DockPanel>
+                    <ItemsControl ItemsSource="{Binding CodexEntries}" 
+          ItemTemplate="{StaticResource CodexBadgeTemplate}" HorizontalAlignment="Center">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+
+                </DockPanel>
+            </Expander.Header>
+
+            <ContentControl x:Name="PayloadPresenter">
+                <ContentControl.Content>
+                    <MultiBinding Converter="{StaticResource EntityToPayloadConverter}">
+                        <Binding /> 
+                        <Binding RelativeSource="{RelativeSource AncestorType=Window}" Path="DataContext"/>
+                    </MultiBinding>
+                </ContentControl.Content>
+            </ContentControl>
+        </Expander>
     </Grid>
 </UserControl>
