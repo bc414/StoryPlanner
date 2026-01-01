@@ -92,9 +92,9 @@
             <Expander.Style>
                 <Style TargetType="Expander">
                     <Style.Triggers>
-                        <DataTrigger Binding="{Binding Content, ElementName=PayloadPresenter}" Value="{x:Null}">
+                        <!--<DataTrigger Binding="{Binding Content, ElementName=PayloadPresenter}" Value="{x:Null}">
                             <Setter Property="Visibility" Value="Collapsed"/>
-                        </DataTrigger>
+                        </DataTrigger>-->
                     </Style.Triggers>
                 </Style>
             </Expander.Style>

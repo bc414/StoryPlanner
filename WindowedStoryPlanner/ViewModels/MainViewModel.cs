@@ -40,6 +40,7 @@ public partial class MainViewModel : ObservableObject
     public ObservableCollection<SourceMaterial> SourceMaterials => _storyService.SourceMaterials;
 
     public ObservableCollection<GeminiEntry> GeminiEntries => _storyService.GeminiEntries;
+    public ObservableCollection<Idea> Ideas => _storyService.Ideas;
 
     // Track open windows to prevent duplicates
     private Dictionary<object, Window> _openWindows = new();
@@ -236,6 +237,7 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(Chapters));
             OnPropertyChanged(nameof(Threads));
             OnPropertyChanged(nameof(GeminiEntries));
+            OnPropertyChanged(nameof(Ideas));
             OnPropertyChanged(nameof(PlotPoints));
             OnPropertyChanged(nameof(CodexEntries));
             OnPropertyChanged(nameof(Themes));
@@ -444,7 +446,23 @@ public partial class MainViewModel : ObservableObject
         }
     }
 
+    [RelayCommand]
+    public async Task AddIdea()
+    {
+        Idea newIdea = new Idea();
+        _storyService.Ideas.Add(newIdea);
+        await _storyService.SaveAsync();
+    }
+
     // --- LAUNCHER COMMANDS ---
+    
+    [RelayCommand]
+    public void OpenIdea(Idea idea)
+    {
+        Window window = new IdeaWindow();
+        window.DataContext = idea;
+        window.Show();
+    }
 
     [RelayCommand]
     public void OpenGeminiEntry(GeminiEntry geminiEntry)

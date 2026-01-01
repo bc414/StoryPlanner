@@ -158,4 +158,17 @@ public static class Sample
             return data.PlotPoints.First(p => p.Id == 6).ThreadAssignments.First();
         }
     }
+
+    public static Idea Idea
+    {
+        get
+        {
+            return new Idea()
+            {
+                Text = "Sample Text",
+                Id = 1,
+                State = IdeaState.Written,
+            };
+        }
+    }
 }

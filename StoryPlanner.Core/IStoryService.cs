@@ -15,6 +15,7 @@ public interface IStoryService : IDisposable
     ObservableCollection<SourceMaterial> SourceMaterials { get; }
     ObservableCollection<PlotPoint> PlotPoints { get; }
     ObservableCollection<GeminiEntry> GeminiEntries { get; }
+    ObservableCollection<Idea> Ideas { get; }
 
     // --- State Properties ---
     string CurrentFilePath { get; }

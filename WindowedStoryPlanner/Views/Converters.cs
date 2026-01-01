@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Drawing;
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
+using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.ViewModels;
 
 namespace WindowedStoryPlanner.Views // Adjust namespace if needed
@@ -70,6 +72,32 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
         {
             return value is EntityViewModel;
         }
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
+    }
+
+    public class IdeaStatusToColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value is IdeaState ideaState)
+            {
+                if (ideaState == IdeaState.Written)
+                {
+                    return Brushes.Red;
+                }
+                else if (ideaState == IdeaState.PartiallyAnalyzed)
+                {
+                    return Brushes.Yellow;
+                }
+                else
+                {
+                    return Brushes.LawnGreen;
+                }
+            }
+
+            return Brushes.CornflowerBlue;
+        }
+        
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
     }
 }

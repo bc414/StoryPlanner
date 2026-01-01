@@ -9,7 +9,7 @@
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
         mc:Ignorable="d" d:DataContext="{x:Static local:Sample.PlotPointViewModel}" Width="800"
         dd:DragDrop.IsDropTarget="True"
-        dd:DragDrop.DropHandler="{Binding}">
+        dd:DragDrop.DropHandler="{Binding}" Title="{Binding Title}">
     <Window.Resources>
         <DataTemplate DataType="{x:Type vm:CharacterViewModel}">
             <local:CharacterCard />

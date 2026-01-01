@@ -1,0 +1,18 @@
+<UserControl x:Class="WindowedStoryPlanner.Views.IdeaCard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             mc:Ignorable="d"
+             d:DesignHeight="300" d:DesignWidth="300" d:DataContext="{x:Static local:Sample.Idea}">
+    <UserControl.Resources>
+        <local:IdeaStatusToColorConverter x:Key="IdeaStatusToColorConverter"/>
+    </UserControl.Resources>
+    <Grid>
+        <Button Width="80" Height="40" Content="{Binding Id}"
+                Command="{Binding DataContext.OpenIdeaCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                CommandParameter="{Binding}"
+                Background="{Binding State, Converter={StaticResource IdeaStatusToColorConverter}}"/>
+    </Grid>
+</UserControl>

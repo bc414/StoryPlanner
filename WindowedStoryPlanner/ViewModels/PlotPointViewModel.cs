@@ -125,6 +125,12 @@ public partial class PlotPointViewModel : EntityViewModel
         set => SetProperty(Model.Outcome, value, Model, (u, n) => u.Outcome = n);
     }
 
+    public string? VerbatimText
+    {
+        get => Model.VerbatimText;
+        set => SetProperty(Model.VerbatimText, value, Model, (u, n) => u.VerbatimText = n);
+    }
+
     public DraftStatus Status
     {
         get => Model.Status;
@@ -457,6 +463,7 @@ public partial class PlotPointViewModel : EntityViewModel
             PlotPointId = Model.Id,
             StoryThread = threadViewModel.StoryThread,
             ThreadId = threadViewModel.StoryThread.Id,
+            SortOrder = threadViewModel.StoryThread.PlotPointAssignments.Count
         };
 
         Model.ThreadAssignments.Add(newPayload);

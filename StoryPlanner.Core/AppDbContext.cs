@@ -24,6 +24,7 @@ public class AppDbContext : DbContext
     public DbSet<SourceMaterial> SourceMaterials { get; set; }
     
     public DbSet<GeminiEntry> GeminiEntries { get; set; }
+    public DbSet<Idea> Ideas { get; set; }
     
     // --- PAYLOAD CONNECTIONS (The Edges of the Graph) ---
     // Adding these allows you to do: _context.PlotPointCharacters.Remove(link);

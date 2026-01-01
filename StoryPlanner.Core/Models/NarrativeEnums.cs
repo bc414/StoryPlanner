@@ -167,3 +167,10 @@ public enum ThreadScope
     /// </summary>
     Overarching = 1
 }
+
+public enum IdeaState
+{
+    Written = 0,
+    PartiallyAnalyzed = 1,
+    FullyAnalyzed = 2,
+}

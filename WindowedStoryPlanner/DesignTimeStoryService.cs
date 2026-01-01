@@ -16,6 +16,7 @@ public class DesignTimeStoryService : IStoryService
     public ObservableCollection<SourceMaterial> SourceMaterials { get; }
     public ObservableCollection<PlotPoint> PlotPoints { get; }
     public ObservableCollection<GeminiEntry> GeminiEntries { get; }
+    public ObservableCollection<Idea> Ideas { get; }
 
     // --- State Properties ---
     // We hardcode these so the UI acts as if a file is already open

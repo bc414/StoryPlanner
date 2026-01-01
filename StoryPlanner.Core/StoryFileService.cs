@@ -51,7 +51,8 @@ public class StoryFileService
             
             // 3. Meta
             SourceMaterials = _context.SourceMaterials.Include(s => s.Notes).AsNoTracking().ToList(),
-            GeminiEntries = _context.GeminiEntries.AsNoTracking().ToList()
+            GeminiEntries = _context.GeminiEntries.AsNoTracking().ToList(),
+            Ideas = _context.Ideas.AsNoTracking().ToList()
         };
 
         // B. Serialize with Preserved References (Handles Circular Links safely)
@@ -96,6 +97,7 @@ public class StoryFileService
         _context.CodexEntries.RemoveRange(_context.CodexEntries);
         _context.SourceMaterials.RemoveRange(_context.SourceMaterials);
         _context.GeminiEntries.RemoveRange(_context.GeminiEntries);
+        _context.Ideas.RemoveRange(_context.Ideas);
 
         await _context.SaveChangesAsync();
 
@@ -104,6 +106,7 @@ public class StoryFileService
         
         if (data.SourceMaterials.Any()) _context.SourceMaterials.AddRange(data.SourceMaterials);
         if (data.GeminiEntries.Any()) _context.GeminiEntries.AddRange(data.GeminiEntries);
+        if(data.Ideas.Any()) _context.Ideas.AddRange(data.Ideas);
         
         // Insert Reference Entities
         if (data.Characters.Any()) _context.Characters.AddRange(data.Characters);

@@ -24,6 +24,7 @@ public class StoryService : IStoryService
     public ObservableCollection<PlotPoint> PlotPoints { get; private set; } = new();
 
     public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
+    public ObservableCollection<Idea> Ideas { get; private set; } = new();
     
     public string CurrentFilePath { get; private set; } = string.Empty;
     public bool IsProjectLoaded { get; private set; } = false;
@@ -232,6 +233,7 @@ public class StoryService : IStoryService
         await _context.CodexEntries.LoadAsync();
         await _context.SourceMaterials.LoadAsync();
         await _context.GeminiEntries.LoadAsync();
+        await _context.Ideas.LoadAsync();
 
         // ---------------------------------------------------------------------------
         // STEP 4: BIND TO UI
@@ -245,6 +247,7 @@ public class StoryService : IStoryService
         SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
         PlotPoints = _context.PlotPoints.Local.ToObservableCollection();
         GeminiEntries = _context.GeminiEntries.Local.ToObservableCollection();
+        Ideas  = _context.Ideas.Local.ToObservableCollection();
 
         IsProjectLoaded = true;
     }

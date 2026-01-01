@@ -19,7 +19,7 @@ public partial class StoryThreadViewModel : EntityViewModel
     [NotifyPropertyChangedFor(nameof(IsLinkingMode))]
     private bool _isPlotPointReorderMode;
 
-    public override bool IsLinkingMode => !IsPlotPointReorderMode && !NoteCollectionViewModel.IsNoteReorderMode;
+    public override bool IsLinkingMode => !NoteCollectionViewModel.IsNoteReorderMode;
 
     public StoryThreadViewModel(StoryThread storyThread)
     {

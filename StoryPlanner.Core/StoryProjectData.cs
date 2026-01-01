@@ -24,7 +24,8 @@ public class StoryProjectData
     // --- Meta & Aux ---
     public List<SourceMaterial> SourceMaterials { get; set; } = new();
     public List<GeminiEntry> GeminiEntries { get; set; } = new();
-    
+    public List<Idea> Ideas { get; set; } = new();
+
     // Note: We don't need a separate "Notes" list here because Notes are children 
     // of the entities above (Character.Notes, Theme.Notes, etc.). 
     // However, if you have "Orphan Notes", you might want a list for them.

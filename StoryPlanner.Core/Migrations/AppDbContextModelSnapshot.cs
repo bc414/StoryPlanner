@@ -129,6 +129,23 @@ namespace StoryPlanner.Migrations
                     b.ToTable("GeminiEntries");
                 });
 
+            modelBuilder.Entity("StoryPlanner.Core.Models.Idea", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("State")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Text")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Ideas");
+                });
+
             modelBuilder.Entity("StoryPlanner.Core.Models.Location", b =>
                 {
                     b.Property<int>("Id")
