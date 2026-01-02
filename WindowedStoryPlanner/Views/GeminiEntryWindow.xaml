@@ -7,10 +7,14 @@
         xmlns:models="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance Type=models:GeminiEntry, IsDesignTimeCreatable=True}"
-        Title="GeminiEntryWindow" Height="450" Width="800">
+        Title="GeminiEntryWindow" Height="600" Width="800">
     <Grid Margin="20">
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/> <RowDefinition Height="Auto"/> <RowDefinition Height="*"/>    </Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Margin="0,0,0,10">
             <Grid.ColumnDefinitions>
@@ -26,18 +30,21 @@
         <Grid Grid.Row="1" Margin="0,0,0,10">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
-                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <TextBlock Text="Prompt:" FontWeight="Bold" Margin="0,0,0,5"/>
         
             <TextBox Grid.Row="1" Text="{Binding Prompt}" 
                      IsReadOnly="True" TextWrapping="Wrap" 
                      VerticalScrollBarVisibility="Auto"
-                     MaxHeight="250" 
-                     Padding="10" Background="#F0F0F0" BorderThickness="0" FontSize="20"/>
+                     Padding="10" Background="#F0F0F0" BorderThickness="0" FontSize="16"/>
         </Grid>
-
-        <WebBrowser x:Name="ResponseBrowser" Grid.Row="2" />
+        <GridSplitter Grid.Row="2" 
+        Height="5" 
+        HorizontalAlignment="Stretch" 
+        VerticalAlignment="Center" Background="#DDDDDD"
+        ShowsPreview="True" ResizeBehavior="PreviousAndNext"/>
+        <WebBrowser x:Name="ResponseBrowser" Grid.Row="3" />
 
     </Grid>
 </Window>

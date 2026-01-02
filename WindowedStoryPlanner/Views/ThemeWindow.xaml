@@ -36,6 +36,7 @@ dd:DragDrop.DropHandler="{Binding}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="300"/>
             </Grid.ColumnDefinitions>
 
             <StackPanel Grid.Column="0">
@@ -93,9 +94,15 @@ dd:DragDrop.DropHandler="{Binding}">
                 <v:NoteViewer DataContext="{Binding NoteCollectionViewModel}" MinHeight="200" />
             </StackPanel>
 
-            <v:PlotPointCollectionViewer Grid.Column="1" 
+            <GridSplitter Grid.Column="1" 
+      Width="5" 
+      HorizontalAlignment="Center" 
+      VerticalAlignment="Stretch" 
+      ShowsPreview="True"/>
+
+            <v:PlotPointCollectionViewer Grid.Column="2" 
                                          DataContext="{Binding PlotPointCollectionViewModel}" 
-                                         Margin="15,0,0,0" Width="300"/>
+                                         Margin="15,0,0,0"/>
         </Grid>
     </ScrollViewer>
 </Window>

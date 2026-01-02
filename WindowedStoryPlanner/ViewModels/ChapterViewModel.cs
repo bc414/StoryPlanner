@@ -60,7 +60,7 @@ public partial class ChapterViewModel : EntityViewModel
         );
     }
 
-    private void UpdateSortOrders()
+    public void UpdateSortOrders()
     {
         for (int i = 0; i < PlotPointCollectionViewModel.ViewModelCollection.Count; i++)
         {

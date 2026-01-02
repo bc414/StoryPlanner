@@ -14,13 +14,17 @@
             </ObjectDataProvider.MethodParameters>
         </ObjectDataProvider>
     </Window.Resources>
-    <DockPanel>
-        <StackPanel DockPanel.Dock="Top" Margin="0,0,10,0">
-            <TextBlock Text="Status" Style="{StaticResource LabelStyle}"/>
-            <ComboBox ItemsSource="{Binding Source={StaticResource IdeaStateEnum}}"
-                      SelectedItem="{Binding State}" Width="150"
-                      Padding="5" Margin="0,0,0,10"/>
-        </StackPanel>
-        <TextBox Style="{StaticResource AutoGrowingTextBox}" Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}"></TextBox>
-    </DockPanel>
+    <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="20">
+        <DockPanel>
+            <StackPanel DockPanel.Dock="Top" Margin="0,0,10,0">
+                <TextBlock Text="Status" Style="{StaticResource LabelStyle}"/>
+                <ComboBox ItemsSource="{Binding Source={StaticResource IdeaStateEnum}}"
+                  SelectedItem="{Binding State}" Width="150"
+                  Padding="5" Margin="0,0,0,10"/>
+            </StackPanel>
+
+            <TextBox Style="{StaticResource AutoGrowingTextBox}" Text="{Binding Text, UpdateSourceTrigger=PropertyChanged}"></TextBox>
+        </DockPanel>
+    </ScrollViewer>
+    
 </Window>

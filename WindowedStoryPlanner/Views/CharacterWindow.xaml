@@ -7,7 +7,7 @@
         xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         mc:Ignorable="d"
         Title="{Binding Name, StringFormat='Character: {0}'}" 
-        Width="700" MaxHeight="1000" SizeToContent="Height"
+        Width="700" SizeToContent="Height"
         d:DataContext="{x:Static v:Sample.CharacterViewModel}"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
 dd:DragDrop.IsDropTarget="{Binding IsLinkingMode}"
@@ -33,6 +33,7 @@ dd:DragDrop.DropHandler="{Binding}">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="300"/>
             </Grid.ColumnDefinitions>
             <StackPanel Grid.Column="0">
 
@@ -61,9 +62,15 @@ dd:DragDrop.DropHandler="{Binding}">
                 <v:NoteViewer DataContext="{Binding NoteCollectionViewModel}" MinHeight="200" />
 
             </StackPanel>
-            <v:PlotPointCollectionViewer Grid.Column="1" 
+
+            <GridSplitter Grid.Column="1" 
+                  Width="5" 
+                  HorizontalAlignment="Center" 
+                  VerticalAlignment="Stretch" 
+                  ShowsPreview="True"/>
+            <v:PlotPointCollectionViewer Grid.Column="2" 
                                         DataContext="{Binding PlotPointCollectionViewModel}" 
-                                        Margin="3,0,0,0" Width="300"/>
+                                        Margin="3,0,0,0"/>
         </Grid>
     </ScrollViewer>
 </Window>

@@ -11,8 +11,8 @@ using StoryPlanner.Core;
 namespace StoryPlanner.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20251222152451_NeedsFurtherAnalysis")]
-    partial class NeedsFurtherAnalysis
+    [Migration("20260101215207_IdeasAttempt2")]
+    partial class IdeasAttempt2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -130,6 +130,23 @@ namespace StoryPlanner.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("GeminiEntries");
+                });
+
+            modelBuilder.Entity("StoryPlanner.Core.Models.Idea", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("State")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Text")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Ideas");
                 });
 
             modelBuilder.Entity("StoryPlanner.Core.Models.Location", b =>
