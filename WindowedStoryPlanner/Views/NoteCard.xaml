@@ -32,7 +32,6 @@
         <Border.Style>
             <Style TargetType="Border">
                 <Setter Property="Background" Value="White"/>
-
                 <Style.Triggers>
                     <DataTrigger Binding="{Binding NeedsFurtherAnalysis}" Value="True">
                         <Setter Property="Background">
@@ -64,14 +63,11 @@
 
         <Grid>
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/> <!-- Bullet -->
-                <ColumnDefinition Width="*"/> <!-- TextBox -->
-                <ColumnDefinition Width="Auto"/> <!-- Hidden Commands -->
-            </Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/> <ColumnDefinition Width="*"/> <ColumnDefinition Width="Auto"/> </Grid.ColumnDefinitions>
 
             <Ellipse Grid.Column="0" 
                      Width="8" Height="8" 
-                     Fill="Black" 
+                     Fill="{Binding BulletColor}" 
                      VerticalAlignment="Top" 
                      Margin="2,5,8,0"/>
 
@@ -82,34 +78,52 @@
                      BorderThickness="0"
                      Background="Transparent"
                      VerticalAlignment="Stretch" MinWidth="0"
-                     ContextMenu="{x:Null}"/>
+                     ContextMenu="{x:Null}">
+                <TextBox.InputBindings>
+                    <KeyBinding Key="F2" Command="{Binding ToggleAnalysisCommand}"/>
+                    <KeyBinding Key="F3" Command="{Binding ToggleIncorporatedCommand}"/>
+                </TextBox.InputBindings>
+            </TextBox>
 
             <Grid Grid.Column="2" Visibility="{Binding Tag.ShowCommands, ElementName=RootCard, Converter={StaticResource BoolToVis}}">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
                     <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
+
                 <CheckBox Grid.Column="0"
                           IsChecked="{Binding NeedsFurtherAnalysis, UpdateSourceTrigger=PropertyChanged}"
-                          ToolTip="Needs Further Analysis"
+                          ToolTip="Needs Further Analysis (F2)"
                           Margin="0,0,5,0">
                     <CheckBox.Content>
                         <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE8A1;" FontSize="14"/>
                     </CheckBox.Content>
                 </CheckBox>
-                <Button Grid.Column="2" Width="20"
+
+                <CheckBox Grid.Column="1"
+                          IsChecked="{Binding IsIncorporated, UpdateSourceTrigger=PropertyChanged}"
+                          ToolTip="Incorporated in Story (F3)"
+                          Margin="0,0,5,0">
+                    <CheckBox.Content>
+                        <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE73E;" FontSize="14"/>
+                    </CheckBox.Content>
+                </CheckBox>
+
+                <Button Grid.Column="2" VerticalAlignment="Top" Width="20" Command="{Binding ClearSourceCommand}" ToolTip="Clear Source Material"
+                        Background="Transparent"
+                        BorderThickness="0">
+                    <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE75C;" FontSize="14"/>
+                </Button>
+
+                <Button Grid.Column="3" Width="20"
                         Command="{Binding Tag.DeleteNoteCommand, ElementName=RootCard}" CommandParameter="{Binding}"
                         ToolTip="Delete Note"
                         Background="Transparent"
                         BorderThickness="0"
                         Padding="0" VerticalAlignment="Top">
                     <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE74D;" FontSize="14"/>
-                </Button>
-                <Button Grid.Column="1" VerticalAlignment="Top" Width="20" Command="{Binding ClearSourceCommand}" ToolTip="Clear Source Material"
-Background="Transparent"
-BorderThickness="0">
-                    <TextBlock FontFamily="Segoe MDL2 Assets" Text="&#xE75C;" FontSize="14"/>
                 </Button>
             </Grid>
         </Grid>
