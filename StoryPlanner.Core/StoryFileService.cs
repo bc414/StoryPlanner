@@ -132,9 +132,11 @@ public class StoryFileService
     {
         // 1. Fetch raw data (No Tracking for speed)
         var chapters = _context.Chapters
+            .Include(c => c.Notes)
             .Include(c => c.PlotPoints).ThenInclude(p => p.ThreadAssignments).ThenInclude(pt => pt.StoryThread)
             .Include(c => c.PlotPoints).ThenInclude(p => p.CharacterAppearances).ThenInclude(pc => pc.Character)
             .Include(c => c.PlotPoints).ThenInclude(p => p.ThemeAssignments).ThenInclude(pt => pt.Theme)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.CodexReferences).ThenInclude(pt => pt.CodexEntry)
             .AsNoTracking().ToList();
 
         var characters = _context.Characters.AsNoTracking().ToList();
@@ -166,7 +168,7 @@ public class StoryFileService
             }),
 
             // C. The Threads (Plots)
-            PlotLines = threads.Select(t => new 
+            StoryThreads = threads.Select(t => new 
             {
                 t.Name, 
                 t.Description, 
@@ -175,7 +177,7 @@ public class StoryFileService
             }),
 
             // D. The Lore
-            Glossary = lore.Select(l => new
+            CodexEntries = lore.Select(l => new
             {
                 l.Title,
                 l.Type,
@@ -183,13 +185,12 @@ public class StoryFileService
             }),
 
             // E. The Timeline (The most important part)
-            Timeline = chapters.Select(c => new
+            Chapters = chapters.Select(c => new
             {
                 Chapter = $"Chapter {c.OrderIndex}: {c.Title}",
-                Scenes = c.PlotPoints.OrderBy(p => p.OrderInChapter).Select(p => new
+                PlotPoints = c.PlotPoints.OrderBy(p => p.OrderInChapter).Select(p => new
                 {
                     Title = p.Title,
-                    Context = $"Where: {p.Location?.Name ?? "Unknown"}. When: {p.WorldDate ?? "Unspecified"}",
                     
                     // The core 5Ws
                     Role = p.CoreDriver.ToString(),
@@ -203,7 +204,8 @@ public class StoryFileService
                     // Flat lists of names (Saves tokens compared to full objects)
                     Characters = p.CharacterAppearances.Select(x => x.Character?.Name).Where(n => n != null).ToList(),
                     Threads = p.ThreadAssignments.Select(x => x.StoryThread?.Name).Where(n => n != null).ToList(),
-                    Themes = p.ThemeAssignments.Select(x => x.Theme?.Name).Where(n => n != null).ToList()
+                    Themes = p.ThemeAssignments.Select(x => x.Theme?.Name).Where(n => n != null).ToList(),
+                    CodexEntries = p.CodexReferences.Select(x => x.CodexEntry?.Title).Where(n => n != null).ToList(),
                 })
             })
         };
@@ -213,6 +215,148 @@ public class StoryFileService
         { 
             WriteIndented = true,
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull // Skips 'DraftText' if null
+        });
+    }
+
+    public string GetOptimizedContextForAI()
+    {
+        // Helper function to project notes safely to save tokens
+        // Using "N" as the key for notes lists to be ultra-compact
+        Func<IEnumerable<Note>, IEnumerable<string>?> projectNotes = (notes) =>
+            notes != null && notes.Any()
+                ? notes.Select(n => n.Content)
+                : null;
+
+        // 1. Load data (No changes to EF logic)
+        var chapters = _context.Chapters
+            .Include(c => c.Notes)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.CharacterAppearances).ThenInclude(ca => ca.Character)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.ThemeAssignments).ThenInclude(ta => ta.Theme)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.ThreadAssignments).ThenInclude(st => st.StoryThread)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.CodexReferences).ThenInclude(cr => cr.CodexEntry)
+            .OrderBy(c => c.OrderIndex)
+            .ToList();
+
+        // 2. Project to a clean structure (DTO)
+        // ABBREVIATION KEY:
+        // Ch = Chapter, Sc = Scenes, Ti = Title, Syn = Synopsis, N = Notes
+        // C = Characters, n = Name, r = Role, d = DevelopmentNote
+        // Thm = Themes, c = Commentary
+        // Thr = Threads, tr = Trajectory, imp = Impact
+        // Ref = CodexReferences
+
+        var narrativePayload = chapters.Select(c => new
+        {
+            Ch = c.Title,
+            N = projectNotes(c.Notes),
+
+            Sc = c.PlotPoints.OrderBy(p => p.OrderInChapter).Select(p => new
+            {
+                Ti = p.Title,
+                Syn = string.IsNullOrWhiteSpace(p.Synopsis) ? null : p.Synopsis,
+
+                // Characters -> C
+                C = p.CharacterAppearances
+                    .Where(ca => ca.Character != null)
+                    .Select(ca => new
+                    {
+                        n = ca.Character.Name,
+                        r = ca.Role == 0 ? null : ca.Role.ToString(),
+                        d = string.IsNullOrWhiteSpace(ca.DevelopmentNote) ? null : ca.DevelopmentNote
+                    }),
+
+                // Themes -> Thm (Polymorphic: String or Object)
+                Thm = p.ThemeAssignments
+                    .Where(ta => ta.Theme != null)
+                    .Select(ta =>
+                        string.IsNullOrWhiteSpace(ta.Commentary)
+                        ? (object)ta.Theme.Name
+                        : new { n = ta.Theme.Name, c = ta.Commentary }
+                    ),
+
+                // Threads -> Thr
+                Thr = p.ThreadAssignments
+                    .Where(th => th.StoryThread != null)
+                    .Select(th => new
+                    {
+                        n = th.StoryThread.Name,
+                        traj = th.ThreadTrajectory, // Shortened from ThreadTrajectory
+                        imp = string.IsNullOrWhiteSpace(th.ImpactDescription) ? null : th.ImpactDescription
+                    }),
+
+                // Codex -> Ref
+                Ref = p.CodexReferences
+                    .Where(cr => cr.CodexEntry != null)
+                    .Select(cr => new
+                    {
+                        n = cr.CodexEntry.Title,
+                        c = cr.Commentary
+                    })
+            })
+        });
+
+        // =========================================================
+        // PART 2: THE WORLD CONTEXT
+        // =========================================================
+
+        // We keep Context keys slightly more descriptive (Desc, Arch) 
+        // because this is the "System Prompt" portion where clarity is king.
+        var worldPayload = new
+        {
+            Threads = _context.Threads.AsNoTracking().Select(t => new
+            {
+                t.Name,
+                Desc = t.Description, // Shortened from Description
+                N = projectNotes(t.Notes)
+            }),
+
+            Themes = _context.Themes.AsNoTracking().Select(t => new
+            {
+                t.Name,
+                Desc = t.Description,
+                N = projectNotes(t.Notes)
+            }),
+
+            Chars = _context.Characters.AsNoTracking().Select(c => new
+            {
+                c.Name,
+                Arch = c.Archetype, // Shortened from Archetype
+                Desc = c.Description,
+                N = projectNotes(c.Notes)
+            }),
+
+            Codex = _context.CodexEntries.AsNoTracking().Select(c => new
+            {
+                Title = c.Title,
+                Content = c.Description,
+                N = projectNotes(c.Notes)
+            })
+        };
+
+        // =========================================================
+        // PART 3: COMBINE AND SERIALIZE
+        // =========================================================
+
+        var finalPayload = new
+        {
+            // SELF-DOCUMENTING LEGEND:
+            // This ensures the LLM knows exactly what the short keys mean.
+            // It provides a schema definition within the data itself.
+            Legend = "KEYS: Ch=Chapter, Sc=Scenes, Ti=Title, Syn=Synopsis, N=Notes. " +
+                 "ENTITIES: C=Characters(n=Name,r=Role,d=DevNote), Thm=Themes(n=Name,c=Commentary), " +
+                 "Thr=Threads(traj=Trajectory,imp=Impact), Ref=Codex.",
+
+            Context = worldPayload,
+            Story = narrativePayload
+        };
+
+        return JsonSerializer.Serialize(finalPayload, new JsonSerializerOptions
+        {
+            WriteIndented = true,
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+            ReferenceHandler = ReferenceHandler.IgnoreCycles,
+            // Optional: Ensure non-ASCII characters (if any) don't get escaped to \uXXXX, saving tokens
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
         });
     }
 }

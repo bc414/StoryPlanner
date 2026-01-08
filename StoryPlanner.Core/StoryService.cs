@@ -80,7 +80,8 @@ public class StoryService : IStoryService
     {
         if (_context == null) throw new InvalidOperationException("Project not loaded");
         var fileService = new StoryFileService(_context);
-        return fileService.GetContextForAI(includeVerbatim);
+        //return fileService.GetContextForAI(false);
+        return fileService.GetOptimizedContextForAI();
     }
 
     // --- 1. NEW PROJECT ---

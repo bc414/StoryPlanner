@@ -44,6 +44,14 @@
                  dd:DragDrop.IsDropTarget="{Binding IsDragReorderEnabled, ElementName=RootControl}"
                  dd:DragDrop.DragAdornerTemplate="{StaticResource GhostPlotPointTemplate}"
                  dd:DragDrop.DragDropContext="Entities">
+            <ListBox.InputBindings>
+                <KeyBinding Key="Up"
+                    Command="{Binding MoveItemUpCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=PlotPointListBox}"/>
+                <KeyBinding Key="Down" 
+                    Command="{Binding MoveItemDownCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=PlotPointListBox}"/>
+            </ListBox.InputBindings>
 
             <ListBox.ItemContainerStyle>
                 <Style TargetType="ListBoxItem">
@@ -52,6 +60,8 @@
                              Converter={StaticResource InverseBooleanConverter}}" />
                     <Setter Property="dd:DragDrop.DropHandler" Value="{Binding}"/>
                     <Setter Property="dd:DragDrop.DragDropContext" Value="Entities" />
+
+                    <Setter Property="Focusable" Value="True"/>
                 </Style>
             </ListBox.ItemContainerStyle>
             <ListBox.ItemTemplate>

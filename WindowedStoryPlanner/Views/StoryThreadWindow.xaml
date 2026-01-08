@@ -9,7 +9,7 @@
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
         mc:Ignorable="d"
         Title="{Binding Name, StringFormat='Story Thread: {0}'}" 
-        MaxHeight="1000" Width="350" SizeToContent="Height"
+        Width="350" SizeToContent="Height"
         d:DataContext="{x:Static local:Sample.StoryThreadViewModel}"
         
         dd:DragDrop.IsDropTarget="{Binding IsLinkingMode}"
