@@ -1,7 +1,11 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core.Models; // Added for Note
 using System.Collections;
+using System.Collections.Specialized; // Added for INotifyCollectionChanged
+using System.ComponentModel; // Added for PropertyChanged
+using System.Linq; // Added for LINQ
 using System.Windows;
 using WindowedStoryPlanner.Views;
 
@@ -9,16 +13,106 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public partial class EntityViewModel : ObservableObject, IDropTarget
 {
-    public NoteCollectionViewModel NoteCollectionViewModel { get; set; }
+    // Changed to backing field to hook events when set
+    private NoteCollectionViewModel _noteCollectionViewModel;
+    public NoteCollectionViewModel NoteCollectionViewModel
+    {
+        get => _noteCollectionViewModel;
+        set
+        {
+            if (SetProperty(ref _noteCollectionViewModel, value))
+            {
+                SubscribeToNotes();
+                UpdateStats();
+            }
+        }
+    }
+
     public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
 
     public virtual bool IsLinkingMode => !NoteCollectionViewModel.IsNoteReorderMode;
 
+    // --- Computed Properties for UI ---
+
+    [ObservableProperty]
+    private bool _hasAnalysisPending;
+
+    [ObservableProperty]
+    private string _progressStats = ""; // The "X/Y" text
+
     public EntityViewModel()
     {
-        
+
     }
-    
+
+    // --- Event Subscription Logic ---
+
+    private void SubscribeToNotes()
+    {
+        if (_noteCollectionViewModel?.NoteCollection != null)
+        {
+            _noteCollectionViewModel.NoteCollection.CollectionChanged += OnNoteCollectionChanged;
+
+            // Subscribe to existing notes
+            foreach (var note in _noteCollectionViewModel.NoteCollection)
+            {
+                note.PropertyChanged += OnNotePropertyChanged;
+            }
+        }
+    }
+
+    private void OnNoteCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
+    {
+        if (e.NewItems != null)
+        {
+            foreach (Note note in e.NewItems)
+                note.PropertyChanged += OnNotePropertyChanged;
+        }
+
+        if (e.OldItems != null)
+        {
+            foreach (Note note in e.OldItems)
+                note.PropertyChanged -= OnNotePropertyChanged;
+        }
+
+        UpdateStats();
+    }
+
+    private void OnNotePropertyChanged(object? sender, PropertyChangedEventArgs e)
+    {
+        // Update stats if relevant properties change
+        if (e.PropertyName == nameof(Note.NeedsFurtherAnalysis) ||
+            e.PropertyName == "IsIncorporated") // Matching your "IsIncorporated" naming
+        {
+            UpdateStats();
+        }
+    }
+
+    private void UpdateStats()
+    {
+        if (_noteCollectionViewModel?.NoteCollection == null) return;
+
+        var notes = _noteCollectionViewModel.NoteCollection;
+
+        // 1. Rainbow Gradient Logic
+        HasAnalysisPending = notes.Any(n => n.NeedsFurtherAnalysis);
+
+        // 2. X/Y Counter Logic
+        int total = notes.Count;
+        if (total > 0)
+        {
+            // Assuming property is 'IsIncorporated' (or IsIncluded based on your model)
+            int incorporated = notes.Count(n => n.IsIncorporated);
+            ProgressStats = $"{incorporated}/{total}";
+        }
+        else
+        {
+            ProgressStats = "";
+        }
+    }
+
+    // --- Navigation & Drag/Drop (Unchanged) ---
+
     [RelayCommand]
     public void OpenWindow()
     {
@@ -28,37 +122,23 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
     [RelayCommand]
     public void Navigate(object parameter)
     {
-        // 1. Open the target entity (this)
         OpenWindow();
-
-        // 2. Handle the Source Window (Close it if it's a transient editor)
         if (parameter is Window sourceWindow)
         {
-            // SAFETY: Never close the Main Window
             if (sourceWindow is MainWindow) return;
-
-            // UX CHOICE: Do not close the Floating Points tool window 
-            // (It acts as a palette, so users likely want to keep it open)
             if (sourceWindow is FloatingPlotPointsWindow) return;
-
-            // Close the previous editor window to simulate "Navigation"
             sourceWindow.Close();
         }
     }
 
     public virtual void DragOver(IDropInfo dropInfo)
     {
-        
         object source = dropInfo.Data;
-
         var target = this;
-        
-        // 2. IDENTIFY ROLES
-        // We need to know which one is the PlotPoint (the container) and which is the "Other" (the item).
+
         PlotPointViewModel? plotPoint = source as PlotPointViewModel ?? target as PlotPointViewModel;
         EntityViewModel? otherEntity = (source == plotPoint) ? target as EntityViewModel : source as EntityViewModel;
 
-        // 3. VALIDATE TYPE COMPATIBILITY
         bool isTypeCompatible = (source, target) switch
         {
             (CharacterViewModel, PlotPointViewModel) => true,
@@ -76,22 +156,18 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
             _ => false
         };
 
-        // 4. CHECK LOGIC: "Compatible Type" AND "Not Already Linked"
         if (isTypeCompatible && plotPoint != null && otherEntity != null)
         {
-            // The Performace Check: This is fast (local in-memory check)
             if (!plotPoint.IsLinkedTo(otherEntity))
             {
                 dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
-                dropInfo.Effects = DragDropEffects.Move; // Allowed
+                dropInfo.Effects = DragDropEffects.Move;
             }
             else
             {
-                // Explicitly deny if already linked (optional, as default is None, but good for clarity)
-                dropInfo.Effects = DragDropEffects.None; 
+                dropInfo.Effects = DragDropEffects.None;
             }
         }
-        
     }
 
     public virtual void Drop(IDropInfo dropInfo)
@@ -101,53 +177,18 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
 
         switch (source, target)
         {
-            // --- 1. CHARACTER ---
-            case (CharacterViewModel c, PlotPointViewModel p):
-                p.LinkCharacter(c);
-                break;
-            case (PlotPointViewModel p, CharacterViewModel c):
-                p.LinkCharacter(c);
-                break;
-
-            // --- 2. THEME ---
-            case (ThemeViewModel t, PlotPointViewModel p):
-                p.LinkTheme(t);
-                break;
-            case (PlotPointViewModel p, ThemeViewModel t):
-                p.LinkTheme(t);
-                break;
-
-            // --- 3. STORY THREAD ---
-            case (StoryThreadViewModel s, PlotPointViewModel p):
-                p.LinkThread(s);
-                break;
-            case (PlotPointViewModel p, StoryThreadViewModel s):
-                p.LinkThread(s);
-                break;
-
-            // --- 4. CODEX ENTRY ---
-            case (CodexEntryViewModel e, PlotPointViewModel p):
-                p.LinkCodexEntry(e);
-                break;
-            case (PlotPointViewModel p, CodexEntryViewModel e):
-                p.LinkCodexEntry(e);
-                break;
-
-            // --- 5. CHAPTER ---
-            case (ChapterViewModel ch, PlotPointViewModel p):
-                 p.LinkChapter(ch);
-                break;
-            case (PlotPointViewModel p, ChapterViewModel ch):
-                 p.LinkChapter(ch);
-                break;
-            
-            // --- 6. LOCATION ---
-            case (LocationViewModel l, PlotPointViewModel p):
-                p.LinkLocation(l);
-                break;
-            case (PlotPointViewModel p, LocationViewModel l):
-                p.LinkLocation(l);
-                break;
+            case (CharacterViewModel c, PlotPointViewModel p): p.LinkCharacter(c); break;
+            case (PlotPointViewModel p, CharacterViewModel c): p.LinkCharacter(c); break;
+            case (ThemeViewModel t, PlotPointViewModel p): p.LinkTheme(t); break;
+            case (PlotPointViewModel p, ThemeViewModel t): p.LinkTheme(t); break;
+            case (StoryThreadViewModel s, PlotPointViewModel p): p.LinkThread(s); break;
+            case (PlotPointViewModel p, StoryThreadViewModel s): p.LinkThread(s); break;
+            case (CodexEntryViewModel e, PlotPointViewModel p): p.LinkCodexEntry(e); break;
+            case (PlotPointViewModel p, CodexEntryViewModel e): p.LinkCodexEntry(e); break;
+            case (ChapterViewModel ch, PlotPointViewModel p): p.LinkChapter(ch); break;
+            case (PlotPointViewModel p, ChapterViewModel ch): p.LinkChapter(ch); break;
+            case (LocationViewModel l, PlotPointViewModel p): p.LinkLocation(l); break;
+            case (PlotPointViewModel p, LocationViewModel l): p.LinkLocation(l); break;
         }
     }
 }

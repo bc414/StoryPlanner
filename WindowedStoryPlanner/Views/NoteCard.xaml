@@ -82,6 +82,7 @@
                 <TextBox.InputBindings>
                     <KeyBinding Key="F2" Command="{Binding ToggleAnalysisCommand}"/>
                     <KeyBinding Key="F3" Command="{Binding ToggleIncorporatedCommand}"/>
+                    <KeyBinding Key="F5" Command="{Binding Tag.DeleteNoteCommand, ElementName=RootCard}" CommandParameter="{Binding}"/>
                 </TextBox.InputBindings>
             </TextBox>
 

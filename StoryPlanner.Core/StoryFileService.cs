@@ -221,13 +221,12 @@ public class StoryFileService
     public string GetOptimizedContextForAI()
     {
         // Helper function to project notes safely to save tokens
-        // Using "N" as the key for notes lists to be ultra-compact
         Func<IEnumerable<Note>, IEnumerable<string>?> projectNotes = (notes) =>
             notes != null && notes.Any()
-                ? notes.Select(n => n.Content)
+                ? notes.Select(n => n.Content) 
                 : null;
 
-        // 1. Load data (No changes to EF logic)
+        // 1. Load data
         var chapters = _context.Chapters
             .Include(c => c.Notes)
             .Include(c => c.PlotPoints).ThenInclude(p => p.CharacterAppearances).ThenInclude(ca => ca.Character)
@@ -238,40 +237,48 @@ public class StoryFileService
             .ToList();
 
         // 2. Project to a clean structure (DTO)
-        // ABBREVIATION KEY:
-        // Ch = Chapter, Sc = Scenes, Ti = Title, Syn = Synopsis, N = Notes
-        // C = Characters, n = Name, r = Role, d = DevelopmentNote
-        // Thm = Themes, c = Commentary
-        // Thr = Threads, tr = Trajectory, imp = Impact
-        // Ref = CodexReferences
-
         var narrativePayload = chapters.Select(c => new
         {
             Ch = c.Title,
             N = projectNotes(c.Notes),
-
+            
             Sc = c.PlotPoints.OrderBy(p => p.OrderInChapter).Select(p => new
             {
                 Ti = p.Title,
+                
+                // --- CAUSAL CHAIN ---
+                St = string.IsNullOrWhiteSpace(p.Stakes) ? null : p.Stakes,
                 Syn = string.IsNullOrWhiteSpace(p.Synopsis) ? null : p.Synopsis,
+                Out = string.IsNullOrWhiteSpace(p.Outcome) ? null : p.Outcome,
+                
+                // --- THE 4 AXES ---
+                D = p.CoreDriver == Models.CoreDriver.Unset ? null : p.CoreDriver.ToString(),
+                Ph = p.TensionPhase == Models.TensionPhase.Unset ? null : p.TensionPhase.ToString(),
+                Cnf = p.ConflictType == Models.ConflictType.Unset ? null : p.ConflictType.ToString(),
+                Pr = p.Presentation == Models.Presentation.Unset ? null : p.Presentation.ToString(),
 
                 // Characters -> C
                 C = p.CharacterAppearances
                     .Where(ca => ca.Character != null)
-                    .Select(ca => new
+                    .Select(ca => new 
                     {
                         n = ca.Character.Name,
                         r = ca.Role == 0 ? null : ca.Role.ToString(),
-                        d = string.IsNullOrWhiteSpace(ca.DevelopmentNote) ? null : ca.DevelopmentNote
+                        d = string.IsNullOrWhiteSpace(ca.DevelopmentNote) ? null : ca.DevelopmentNote,
+                        arc = ca.DevelopmentImpact == 0 ? null : ca.DevelopmentImpact.ToString() 
                     }),
 
-                // Themes -> Thm (Polymorphic: String or Object)
+                // Themes -> Thm
                 Thm = p.ThemeAssignments
                     .Where(ta => ta.Theme != null)
-                    .Select(ta =>
-                        string.IsNullOrWhiteSpace(ta.Commentary)
-                        ? (object)ta.Theme.Name
-                        : new { n = ta.Theme.Name, c = ta.Commentary }
+                    .Select(ta => 
+                        (string.IsNullOrWhiteSpace(ta.Commentary) && ta.Prominence == 0)
+                        ? (object)ta.Theme.Name 
+                        : new { 
+                            n = ta.Theme.Name, 
+                            c = ta.Commentary,
+                            p = ta.Prominence == 0 ? null : ta.Prominence.ToString()
+                        }
                     ),
 
                 // Threads -> Thr
@@ -280,10 +287,11 @@ public class StoryFileService
                     .Select(th => new
                     {
                         n = th.StoryThread.Name,
-                        traj = th.ThreadTrajectory, // Shortened from ThreadTrajectory
+                        // FIX: Converted to String. Was previously passing raw Enum (Integer).
+                        traj = th.ThreadTrajectory == 0 ? null : th.ThreadTrajectory.ToString(), 
                         imp = string.IsNullOrWhiteSpace(th.ImpactDescription) ? null : th.ImpactDescription
                     }),
-
+                
                 // Codex -> Ref
                 Ref = p.CodexReferences
                     .Where(cr => cr.CodexEntry != null)
@@ -294,41 +302,39 @@ public class StoryFileService
                     })
             })
         });
-
+        
         // =========================================================
         // PART 2: THE WORLD CONTEXT
         // =========================================================
-
-        // We keep Context keys slightly more descriptive (Desc, Arch) 
-        // because this is the "System Prompt" portion where clarity is king.
+        
         var worldPayload = new
         {
-            Threads = _context.Threads.AsNoTracking().Select(t => new
-            {
-                t.Name,
-                Desc = t.Description, // Shortened from Description
-                N = projectNotes(t.Notes)
-            }),
-
-            Themes = _context.Themes.AsNoTracking().Select(t => new
+            Threads = _context.Threads.AsNoTracking().Select(t => new 
             {
                 t.Name,
                 Desc = t.Description,
                 N = projectNotes(t.Notes)
             }),
 
-            Chars = _context.Characters.AsNoTracking().Select(c => new
+            Themes = _context.Themes.AsNoTracking().Select(t => new 
+            {
+                t.Name,
+                Desc = t.Description,
+                N = projectNotes(t.Notes)
+            }),
+
+            Chars = _context.Characters.AsNoTracking().Select(c => new 
             {
                 c.Name,
-                Arch = c.Archetype, // Shortened from Archetype
+                Arch = c.Archetype,
                 Desc = c.Description,
                 N = projectNotes(c.Notes)
             }),
 
-            Codex = _context.CodexEntries.AsNoTracking().Select(c => new
+            Codex = _context.CodexEntries.AsNoTracking().Select(c => new 
             {
                 Title = c.Title,
-                Content = c.Description,
+                Content = c.Description, 
                 N = projectNotes(c.Notes)
             })
         };
@@ -339,24 +345,26 @@ public class StoryFileService
 
         var finalPayload = new
         {
-            // SELF-DOCUMENTING LEGEND:
-            // This ensures the LLM knows exactly what the short keys mean.
-            // It provides a schema definition within the data itself.
-            Legend = "KEYS: Ch=Chapter, Sc=Scenes, Ti=Title, Syn=Synopsis, N=Notes. " +
-                 "ENTITIES: C=Characters(n=Name,r=Role,d=DevNote), Thm=Themes(n=Name,c=Commentary), " +
-                 "Thr=Threads(traj=Trajectory,imp=Impact), Ref=Codex.",
-
+            Legend = "KEYS: Ch=Chapter, Sc=Scenes, Ti=Title, St=Stakes(Input), Syn=Synopsis, Out=Outcome(Result), N=Notes. " +
+                     "AXES: D=Driver(MICE), Ph=Phase(Freytag/SceneSequel), Cnf=Conflict(Classic Types), Pr=Presentation(Narrative Mode). " +
+                     "ENTITIES: C=Characters(n=Name,r=Role,d=DevNote,arc=DevImpact/Weiland Arc), Thm=Themes(n=Name,c=Commentary,p=Prominence), " +
+                     "Thr=Threads(traj=Trajectory/McKee Value Charge, imp=Impact), Ref=Codex.",
+                     
             Context = worldPayload,
             Story = narrativePayload
         };
 
-        return JsonSerializer.Serialize(finalPayload, new JsonSerializerOptions
-        {
-            WriteIndented = true,
+        string jsonAnswer = JsonSerializer.Serialize(finalPayload, new JsonSerializerOptions 
+        { 
+            WriteIndented = true, 
             DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
             ReferenceHandler = ReferenceHandler.IgnoreCycles,
-            // Optional: Ensure non-ASCII characters (if any) don't get escaped to \uXXXX, saving tokens
-            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping 
         });
+
+        string startingPrompt = "You are a professional story editor. I am providing a structured json of story plans." +
+                                " Please give me a narrative and literary analysis, but I do not want you to generate any example dialogue or example" +
+                                " story text; strictly stick to analysis only. My questions are after the json.\n";
+        return startingPrompt + jsonAnswer + "\n\n";
     }
 }
