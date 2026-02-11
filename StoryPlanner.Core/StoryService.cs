@@ -80,9 +80,13 @@ public class StoryService : IStoryService
     {
         if (_context == null) throw new InvalidOperationException("Project not loaded");
         var fileService = new StoryFileService(_context);
-        //return fileService.GetContextForAI(false);
-        //return fileService.GetOptimizedContextForAINew();
-        return fileService.GetSuperOptimizedContextForAI();
+        //string a = fileService.GetContextForAI(false);
+        //string b = fileService.GetOptimizedContextForAINew();
+        //string c = fileService.GetSuperOptimizedContextForAI();
+
+        string c = fileService.GetMarkdownContextForAI();
+
+        return c;
     }
 
     // --- 1. NEW PROJECT ---
@@ -261,6 +265,9 @@ public class StoryService : IStoryService
         // (This handles cases where the UI updated a property but EF didn't notice)
         _context.ChangeTracker.DetectChanges();
         await _context.SaveChangesAsync();
+
+        string markdownContext = GetAiContextJson(false);
+        File.WriteAllText(CurrentFilePath + ".md", markdownContext);
     }
 
     public void Dispose()
