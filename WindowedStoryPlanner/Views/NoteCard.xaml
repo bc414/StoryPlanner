@@ -65,11 +65,9 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/> <ColumnDefinition Width="*"/> <ColumnDefinition Width="Auto"/> </Grid.ColumnDefinitions>
 
-            <Ellipse Grid.Column="0" 
-                     Width="8" Height="8" 
-                     Fill="{Binding BulletColor}" 
-                     VerticalAlignment="Top" 
-                     Margin="2,5,8,0"/>
+            
+
+            <TextBlock Grid.Column="0" Text="{Binding SortOrder, StringFormat={}{0}.}" Foreground="{Binding BulletColor}"/>
 
             <TextBox Grid.Column="1"
                      Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}" 

@@ -27,6 +27,18 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
 
     public NoteCollectionViewModel(ObservableCollection<Note> sourceCollection)
     {
+        var sortedNotes = sourceCollection.OrderBy(n => n.SortOrder).ToList();
+
+        // Check if the current list is out of order to avoid unnecessary UI updates
+        if (!sourceCollection.SequenceEqual(sortedNotes))
+        {
+            sourceCollection.Clear();
+            foreach (var note in sortedNotes)
+            {
+                sourceCollection.Add(note);
+            }
+        }
+
         NoteCollection = sourceCollection;
     }
 
