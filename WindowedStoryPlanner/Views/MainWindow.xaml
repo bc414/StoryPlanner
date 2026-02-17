@@ -9,7 +9,7 @@
         mc:Ignorable="d"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
             
-        Title="Mission Control" Height="600" Width="950"
+        Title="Mission Control" Height="900" Width="1200"
         WindowStartupLocation="CenterScreen">
 
     <TabControl TabStripPlacement="Left">
@@ -144,14 +144,7 @@
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
-        <TabItem Header="Locations">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding LocationViewModels}" DeleteItemCommand="{Binding DeleteLocationCommand}"/>
-                    <Button Content="Add Location"  Command="{Binding AddLocationCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
-        </TabItem>
+        
         <TabItem Header="PlotPoints">
             <Button Content="Open Floating Plot Points" Command="{Binding OpenFloatingPointsCommand}" Width="160" Height="90"/>
         </TabItem>
@@ -177,7 +170,24 @@
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
-        
+
+        <TabItem Header="Note Length">
+            <ScrollViewer>
+                <StackPanel>
+                    <v:CardCollectionViewer ItemsSource="{Binding DashboardEntities}"/>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
+
+        <TabItem Header="Locations">
+            <ScrollViewer>
+                <StackPanel>
+                    <v:CardCollectionViewer ItemsSource="{Binding LocationViewModels}" DeleteItemCommand="{Binding DeleteLocationCommand}"/>
+                    <Button Content="Add Location"  Command="{Binding AddLocationCommand}" Style="{StaticResource AddButtonStyle}"/>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
+
         <TabItem Header="Sources">
             <Grid Margin="10">
                 <Grid.RowDefinitions>

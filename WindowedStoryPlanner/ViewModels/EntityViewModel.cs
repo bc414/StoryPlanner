@@ -15,6 +15,7 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
 {
     // Changed to backing field to hook events when set
     private NoteCollectionViewModel _noteCollectionViewModel;
+
     public NoteCollectionViewModel NoteCollectionViewModel
     {
         get => _noteCollectionViewModel;
@@ -28,7 +29,15 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
         }
     }
 
-    public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
+    public int CharacterCount {
+        get
+        {
+            return NoteCollectionViewModel.CharacterCount;
+        }
+    }
+
+
+public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
 
     public virtual bool IsLinkingMode => !NoteCollectionViewModel.IsNoteReorderMode;
 

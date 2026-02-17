@@ -90,13 +90,19 @@ public partial class MainViewModel : ObservableObject
     }
 
     public ICollectionView CodexEntriesGroupedView { get; private set; }
+    
+    // 1. The Source Collection
+    public ObservableCollection<EntityViewModel> DashboardEntities { get; } = new();
+
+    // 2. The Sorted View for the UI
+    [ObservableProperty]
+    private ICollectionView _dashboardEntitiesView;
 
     public MainViewModel(IStoryService storyService)
     {
         _instance = this;
         _storyService = storyService;
         UpdateState();
-        
     }
 
     [RelayCommand]
@@ -250,6 +256,8 @@ public partial class MainViewModel : ObservableObject
             {
                 ppvm.PopulateAssociatedViewModelCollections();
             }
+            
+            RefreshDashboardList();
 
             // Notify UI to refresh bindings since the collections were replaced
             OnPropertyChanged(nameof(Characters));
@@ -276,6 +284,25 @@ public partial class MainViewModel : ObservableObject
         {
             WindowTitle = "Story Planner - No Project Loaded";
         }
+    }
+    
+    private void RefreshDashboardList()
+    {
+        DashboardEntities.Clear();
+
+        // 1. Add only the specific types you requested
+        foreach (var vm in CharacterViewModels) DashboardEntities.Add(vm);
+        foreach (var vm in ThemeViewModels) DashboardEntities.Add(vm);
+        foreach (var vm in StoryThreadViewModels) DashboardEntities.Add(vm);
+        foreach (var vm in ChapterViewModels) DashboardEntities.Add(vm);
+        foreach (var vm in CodexEntryViewModels) DashboardEntities.Add(vm);
+
+        // 2. Create View
+        DashboardEntitiesView = CollectionViewSource.GetDefaultView(DashboardEntities);
+
+        // 3. Apply Sort (CharacterCount Descending)
+        DashboardEntitiesView.SortDescriptions.Clear();
+        DashboardEntitiesView.SortDescriptions.Add(new SortDescription(nameof(EntityViewModel.CharacterCount), ListSortDirection.Descending));
     }
     
     private void EnableLiveSorting<T>(ObservableCollection<T> collection, string sortProperty)

@@ -39,8 +39,13 @@
                           IsChecked="{Binding IsNoteReorderMode}">Reorder</CheckBox>
                 <CheckBox VerticalAlignment="Center" Margin="5,2,5,0" 
                           IsChecked="{Binding ShowCommands}">Edit/Delete</CheckBox>
+                <Button Content="C" Width="20" Height="24" Margin="5,0,5,0"
+        Command="{Binding CopyToJsonCommand}"/>
+                <Button Content="V" Width="20" Height="24"
+Command="{Binding PasteFromJsonCommand}"/>
                 <Button Content="+" Width="24" Height="24" HorizontalAlignment="Right" 
                         Command="{Binding AddNoteCommand}"/>
+                
             </DockPanel>
         </Border>
 
