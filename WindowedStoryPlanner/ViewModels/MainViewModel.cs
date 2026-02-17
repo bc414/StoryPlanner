@@ -133,6 +133,25 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
+    public void JsonToMarkdown()
+    {
+        var dialog = new OpenFileDialog
+        {
+            Title = "Open Story File",
+            Filter = "Google Takeout (*.json)|*.json"
+        };
+
+        if (dialog.ShowDialog() == true)
+        {
+            string fileName = dialog.FileName;
+            var exporter = new GeminiExporter();
+            exporter.ConvertJsonToMarkdownFiles(
+                fileName, fileName + ".md"
+            );
+        }
+    }
+
+    [RelayCommand]
     public async Task StoreGeminiPrompts()
     {
         var dialog = new OpenFileDialog

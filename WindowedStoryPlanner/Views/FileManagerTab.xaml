@@ -32,8 +32,19 @@
                         </StackPanel>
                     </StackPanel>
                 </Button>
-                
-                <Button Command="{Binding SaveChangesCommand}" 
+
+            <Button Command="{Binding JsonToMarkdownCommand}" 
+                Padding="20,15" Margin="0,10" Background="White" BorderBrush="#CCC">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="📂" FontSize="20" Margin="0,0,15,0"/>
+                    <StackPanel>
+                        <TextBlock Text="Convert Gemini JSON to Markdown" FontWeight="Bold" FontSize="14"/>
+                        <TextBlock Text="Load a .json file and save as .md" Foreground="Gray"/>
+                    </StackPanel>
+                </StackPanel>
+            </Button>
+
+            <Button Command="{Binding SaveChangesCommand}" 
                         Padding="20,15" Margin="0,10" Background="White" BorderBrush="#CCC">
                     <StackPanel Orientation="Horizontal">
                         <TextBlock Text="📂" FontSize="20" Margin="0,0,15,0"/>
