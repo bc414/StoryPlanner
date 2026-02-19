@@ -49,7 +49,8 @@ Command="{Binding PasteFromJsonCommand}"/>
             </DockPanel>
         </Border>
 
-        <ListBox ItemsSource="{Binding NoteCollection}" 
+        <ListBox x:Name="NoteListBox"
+                 ItemsSource="{Binding NoteCollection}" 
                  HorizontalContentAlignment="Stretch"
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                  BorderThickness="0"
@@ -58,10 +59,20 @@ Command="{Binding PasteFromJsonCommand}"/>
                  dd:DragDrop.IsDropTarget="{Binding IsNoteReorderMode}"
                  dd:DragDrop.DropHandler="{Binding}"
                  dd:DragDrop.DragAdornerTemplate="{StaticResource GhostNoteTemplate}">
+
+            <ListBox.InputBindings>
+                <KeyBinding Key="Up"
+                            Command="{Binding MoveItemUpCommand}"
+                            CommandParameter="{Binding SelectedItem, ElementName=NoteListBox}"/>
+                <KeyBinding Key="Down" 
+                            Command="{Binding MoveItemDownCommand}"
+                            CommandParameter="{Binding SelectedItem, ElementName=NoteListBox}"/>
+            </ListBox.InputBindings>
             <ListBox.ItemContainerStyle>
                 <Style TargetType="ListBoxItem">
                     <Setter Property="Padding" Value="0"/>
                     <Setter Property="Margin" Value="0"/>
+                    <Setter Property="Focusable" Value="True"/>
                     <Setter Property="Template">
                         <Setter.Value>
                             <ControlTemplate TargetType="ListBoxItem">

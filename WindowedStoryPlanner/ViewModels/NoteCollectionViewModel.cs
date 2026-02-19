@@ -95,6 +95,34 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
         UpdateSortOrders();
     }
 
+    // ... inside NoteCollectionViewModel class ...
+
+    [RelayCommand]
+    public void MoveItemUp(Note item)
+    {
+        if (item == null) return;
+
+        int index = NoteCollection.IndexOf(item);
+        if (index > 0)
+        {
+            NoteCollection.Move(index, index - 1);
+            UpdateSortOrders(); // Ensures the SortOrder property is persisted
+        }
+    }
+
+    [RelayCommand]
+    public void MoveItemDown(Note item)
+    {
+        if (item == null) return;
+
+        int index = NoteCollection.IndexOf(item);
+        if (index < NoteCollection.Count - 1)
+        {
+            NoteCollection.Move(index, index + 1);
+            UpdateSortOrders(); // Ensures the SortOrder property is persisted
+        }
+    }
+
     private void UpdateSortOrders()
     {
         for (int i = 0; i < NoteCollection.Count; i++)

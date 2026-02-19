@@ -104,6 +104,49 @@ public partial class StoryThreadViewModel : EntityViewModel
     }
 
     [RelayCommand]
+    public async Task SortByChapterOrder()
+    {
+        _isInternalReorder = true; // Lock listener
+        try
+        {
+            // 1. Sort the assignment wrappers based on the Chapter Order, then the Point's order within that chapter
+            var sortedAssignments = _storyThread.PlotPointAssignments
+                .OrderBy(ppt => ppt.PlotPoint?.Chapter?.OrderIndex ?? int.MaxValue) // Put unassigned chapters last
+                .ThenBy(ppt => ppt.PlotPoint?.OrderInChapter ?? int.MaxValue)
+                .ToList();
+
+            // 2. Re-populate the Model collection to reflect this order
+            _storyThread.PlotPointAssignments.Clear();
+            foreach (var assignment in sortedAssignments)
+            {
+                _storyThread.PlotPointAssignments.Add(assignment);
+            }
+
+            // 3. Update the persistent SortOrder index
+            for (int i = 0; i < _storyThread.PlotPointAssignments.Count; i++)
+            {
+                _storyThread.PlotPointAssignments[i].SortOrder = i;
+            }
+
+            // 4. Force UI Refresh (Since we blocked the automatic listener)
+            PlotPointCollectionViewModel.ViewModelCollection.Clear();
+            foreach (var assignment in sortedAssignments)
+            {
+                if (assignment.PlotPoint != null && MainViewModel.Instance.PlotPointDictionary.TryGetValue(assignment.PlotPoint, out var vm))
+                {
+                    PlotPointCollectionViewModel.ViewModelCollection.Add(vm);
+                }
+            }
+
+            await MainViewModel.Instance.SaveChangesSilently();
+        }
+        finally
+        {
+            _isInternalReorder = false; // Unlock listener
+        }
+    }
+
+    [RelayCommand]
     public async Task AddPlotPoint()
     {
         PlotPoint plotPoint = new PlotPoint
