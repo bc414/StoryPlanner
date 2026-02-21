@@ -150,7 +150,11 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
             Content = n.Content 
         }).ToList();
 
-        var json = JsonSerializer.Serialize(dtos, new JsonSerializerOptions { WriteIndented = true });
+        var json = JsonSerializer.Serialize(dtos, new JsonSerializerOptions
+        { 
+            WriteIndented = true,
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        });
         Clipboard.SetText(json);
         
         MessageBox.Show($"Copied {dtos.Count} notes to clipboard.");

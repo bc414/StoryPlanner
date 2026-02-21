@@ -89,6 +89,13 @@ public class StoryService : IStoryService
         return b;
     }
 
+    public string GetMarkdown()
+    {
+        if (_context == null) throw new InvalidOperationException("Project not loaded");
+        var fileService = new StoryFileService(_context);
+        return fileService.GetMarkdownContextForAI();
+    }
+
     // --- 1. NEW PROJECT ---
     public async Task CreateProjectAsync(string filePath)
     {
@@ -262,12 +269,43 @@ public class StoryService : IStoryService
     {
         if (_context == null) throw new InvalidOperationException("Not initialized");
         // FORCE EF Core to look at all objects in memory and detect changes
-        // (This handles cases where the UI updated a property but EF didn't notice)
         _context.ChangeTracker.DetectChanges();
         await _context.SaveChangesAsync();
 
-        string markdownContext = GetAiContextJson(false);
+        string markdownContext = GetMarkdown();
         File.WriteAllText(CurrentFilePath + ".md", markdownContext);
+
+        // --- Log specific metrics to CSV ---
+        try
+        {
+            string csvFilePath = CurrentFilePath + "_stats.csv";
+            bool isNewFile = !File.Exists(csvFilePath);
+
+            using (StreamWriter sw = new StreamWriter(csvFilePath, append: true))
+            {
+                if (isNewFile)
+                {
+                    await sw.WriteLineAsync("Timestamp,CharCount,WordCount,NotesToAnalyze,NotesIncorporated");
+                }
+
+                string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+                
+                // 1. Character & Word Counts
+                int charCount = markdownContext.Length;
+                int wordCount = markdownContext.Split(new char[] { ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
+
+                // 2. Note Metrics via EF Core's Local Tracker
+                int notesToAnalyze = _context.Set<Note>().Local.Count(n => n.NeedsFurtherAnalysis);
+                int notesIncorporated = _context.Set<Note>().Local.Count(n => n.IsIncorporated);
+
+                // Append the entry
+                await sw.WriteLineAsync($"{timestamp},{charCount},{wordCount},{notesToAnalyze},{notesIncorporated}");
+            }
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"Failed to write stats to CSV: {ex.Message}");
+        }
     }
 
     public void Dispose()

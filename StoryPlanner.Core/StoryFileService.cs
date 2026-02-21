@@ -1,9 +1,10 @@
-using System.Text;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
+using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Text.RegularExpressions;
 
 namespace StoryPlanner.Core;
 
@@ -370,203 +371,216 @@ public class StoryFileService
     }
     
     public string GetOptimizedContextForAINew()
-{
-    // =========================================================
-    // OPTIMIZATION HELPERS
-    // =========================================================
-
-    // 1. Normalize Line Breaks: Saves tokens by using \n instead of \r\n and trimming.
-    //    Returns null if empty so the property is removed entirely.
-    string? Clean(string? s)
     {
-        if (string.IsNullOrWhiteSpace(s)) return null;
-        return s.Replace("\r\n", "\n").Trim();
-    }
+        // =========================================================
+        // OPTIMIZATION HELPERS
+        // =========================================================
 
-    // 2. Prune Empty Lists: Returns null if a list is empty.
-    //    Combined with JsonIgnoreCondition.WhenWritingNull, this strips "Key": [] entirely.
-    IEnumerable<T>? Prune<T>(IEnumerable<T> source)
-    {
-        if (source == null) return null;
-        // Materialize to list to check count safely
-        var list = source.ToList(); 
-        return list.Any() ? list : null;
-    }
-
-    // 3. Project Notes: Specific helper for Note collections to apply Clean() to content.
-    IEnumerable<string>? ProjectNotes(IEnumerable<Note> notes)
-    {
-        if (notes == null) return null;
-        var cleaned = notes
-            .Select(n => Clean(n.Content))
-            .Where(s => s != null) // Remove notes that became empty after cleaning
-            .Cast<string>()        // Help compiler ensure type
-            .ToList();
-            
-        return cleaned.Any() ? cleaned : null;
-    }
-
-    // =========================================================
-    // DATA LOADING (In-Memory)
-    // =========================================================
-
-    var chapters = _context.Chapters
-        .Include(c => c.Notes)
-        .Include(c => c.PlotPoints).ThenInclude(p => p.CharacterAppearances).ThenInclude(ca => ca.Character)
-        .Include(c => c.PlotPoints).ThenInclude(p => p.ThemeAssignments).ThenInclude(ta => ta.Theme)
-        .Include(c => c.PlotPoints).ThenInclude(p => p.ThreadAssignments).ThenInclude(st => st.StoryThread)
-        .Include(c => c.PlotPoints).ThenInclude(p => p.CodexReferences).ThenInclude(cr => cr.CodexEntry)
-        .OrderBy(c => c.OrderIndex)
-        .ToList();
-
-    // =========================================================
-    // PART 1: NARRATIVE PAYLOAD (The Story)
-    // =========================================================
-    
-    var narrativePayload = chapters.Select(c => new
-    {
-        Ch = c.Title,
-        N = ProjectNotes(c.Notes),
-        
-        Sc = c.PlotPoints.OrderBy(p => p.OrderInChapter).Select(p => new
+        // 1. Normalize Line Breaks: Saves tokens by using \n instead of \r\n and trimming.
+        //    Returns null if empty so the property is removed entirely.
+        string? Clean(string? s)
         {
-            Ti = p.Title,
-            
-            // Apply Clean() to all text fields
-            St = Clean(p.Stakes),
-            Syn = Clean(p.Synopsis),
-            Out = Clean(p.Outcome),
-            
-            // Enums: Only toString() if value is set
-            D = p.CoreDriver == Models.CoreDriver.Unset ? null : p.CoreDriver.ToString(),
-            Ph = p.TensionPhase == Models.TensionPhase.Unset ? null : p.TensionPhase.ToString(),
-            Cnf = p.ConflictType == Models.ConflictType.Unset ? null : p.ConflictType.ToString(),
-            Pr = p.Presentation == Models.Presentation.Unset ? null : p.Presentation.ToString(),
+            if (string.IsNullOrWhiteSpace(s)) return null;
 
-            // Apply Prune() to lists so empty arrays [] are removed
-            C = Prune(p.CharacterAppearances
-                .Where(ca => ca.Character != null)
-                .Select(ca => new 
+            // 1. Convert literal string sequences (like "\u0027") pasted from JSON back into actual characters
+            string unescaped = Regex.Unescape(s);
+
+            // 2. Normalize line breaks and trim
+            string normalized = unescaped.Replace("\r\n", "\n").Trim();
+
+            // 3. (Optional) Convert word-processor "smart quotes" into standard token-friendly quotes
+            normalized = normalized.Replace("’", "'").Replace("“", "\"").Replace("”", "\"");
+
+            // 4. (Optional) Squash multiple spaces to save tokens
+            normalized = Regex.Replace(normalized, @"[ ]{2,}", " ");
+
+            return normalized;
+        }
+
+        // 2. Prune Empty Lists: Returns null if a list is empty.
+        //    Combined with JsonIgnoreCondition.WhenWritingNull, this strips "Key": [] entirely.
+        IEnumerable<T>? Prune<T>(IEnumerable<T> source)
+        {
+            if (source == null) return null;
+            // Materialize to list to check count safely
+            var list = source.ToList(); 
+            return list.Any() ? list : null;
+        }
+
+        // 3. Project Notes: Specific helper for Note collections to apply Clean() to content.
+        IEnumerable<string>? ProjectNotes(IEnumerable<Note> notes)
+        {
+            if (notes == null) return null;
+            var cleaned = notes
+                .Select(n => Clean(n.Content))
+                .Where(s => s != null) // Remove notes that became empty after cleaning
+                .Cast<string>()        // Help compiler ensure type
+                .ToList();
+            
+            return cleaned.Any() ? cleaned : null;
+        }
+
+        // =========================================================
+        // DATA LOADING (In-Memory)
+        // =========================================================
+
+        var chapters = _context.Chapters
+            .Include(c => c.Notes)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.CharacterAppearances).ThenInclude(ca => ca.Character)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.ThemeAssignments).ThenInclude(ta => ta.Theme)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.ThreadAssignments).ThenInclude(st => st.StoryThread)
+            .Include(c => c.PlotPoints).ThenInclude(p => p.CodexReferences).ThenInclude(cr => cr.CodexEntry)
+            .OrderBy(c => c.OrderIndex)
+            .ToList();
+
+        // =========================================================
+        // PART 1: NARRATIVE PAYLOAD (The Story)
+        // =========================================================
+    
+        var narrativePayload = chapters.Select(c => new
+        {
+            Ch = c.Title,
+            N = ProjectNotes(c.Notes),
+        
+            Sc = c.PlotPoints.OrderBy(p => p.OrderInChapter).Select(p => new
+            {
+                Ti = p.Title,
+            
+                // Apply Clean() to all text fields
+                St = Clean(p.Stakes),
+                Syn = Clean(p.Synopsis),
+                Out = Clean(p.Outcome),
+            
+                // Enums: Only toString() if value is set
+                D = p.CoreDriver == Models.CoreDriver.Unset ? null : p.CoreDriver.ToString(),
+                Ph = p.TensionPhase == Models.TensionPhase.Unset ? null : p.TensionPhase.ToString(),
+                Cnf = p.ConflictType == Models.ConflictType.Unset ? null : p.ConflictType.ToString(),
+                Pr = p.Presentation == Models.Presentation.Unset ? null : p.Presentation.ToString(),
+
+                // Apply Prune() to lists so empty arrays [] are removed
+                C = Prune(p.CharacterAppearances
+                    .Where(ca => ca.Character != null)
+                    .Select(ca => new 
+                    {
+                        n = ca.Character.Name,
+                        r = ca.Role == 0 ? null : ca.Role.ToString(),
+                        d = Clean(ca.DevelopmentNote),
+                        arc = ca.DevelopmentImpact == 0 ? null : ca.DevelopmentImpact.ToString() 
+                    })),
+
+                Thm = Prune(p.ThemeAssignments
+                    .Where(ta => ta.Theme != null)
+                    .Select(ta => 
+                        (string.IsNullOrWhiteSpace(ta.Commentary) && ta.Prominence == 0)
+                        ? (object)ta.Theme.Name 
+                        : new { 
+                            n = ta.Theme.Name, 
+                            c = Clean(ta.Commentary),
+                            p = ta.Prominence == 0 ? null : ta.Prominence.ToString()
+                        }
+                    )),
+
+                Thr = Prune(p.ThreadAssignments
+                    .Where(th => th.StoryThread != null)
+                    .Select(th => new
+                    {
+                        n = th.StoryThread.Name,
+                        traj = th.ThreadTrajectory == 0 ? null : th.ThreadTrajectory.ToString(), 
+                        imp = Clean(th.ImpactDescription)
+                    })),
+            
+                Ref = Prune(p.CodexReferences
+                    .Where(cr => cr.CodexEntry != null)
+                    .Select(cr => new
+                    {
+                        n = cr.CodexEntry.Title,
+                        c = Clean(cr.Commentary)
+                    }))
+            })
+        });
+    
+        // =========================================================
+        // PART 2: THE WORLD CONTEXT
+        // =========================================================
+    
+        var worldPayload = new
+        {
+            // ADDED .Include(t => t.Notes)
+            Threads = Prune(_context.Threads.AsNoTracking()
+                .Include(t => t.Notes) 
+                .ToList()
+                .Select(t => new 
                 {
-                    n = ca.Character.Name,
-                    r = ca.Role == 0 ? null : ca.Role.ToString(),
-                    d = Clean(ca.DevelopmentNote),
-                    arc = ca.DevelopmentImpact == 0 ? null : ca.DevelopmentImpact.ToString() 
+                    t.Name,
+                    Desc = Clean(t.Description),
+                    N = ProjectNotes(t.Notes)
                 })),
 
-            Thm = Prune(p.ThemeAssignments
-                .Where(ta => ta.Theme != null)
-                .Select(ta => 
-                    (string.IsNullOrWhiteSpace(ta.Commentary) && ta.Prominence == 0)
-                    ? (object)ta.Theme.Name 
-                    : new { 
-                        n = ta.Theme.Name, 
-                        c = Clean(ta.Commentary),
-                        p = ta.Prominence == 0 ? null : ta.Prominence.ToString()
-                    }
-                )),
-
-            Thr = Prune(p.ThreadAssignments
-                .Where(th => th.StoryThread != null)
-                .Select(th => new
+            // ADDED .Include(t => t.Notes)
+            Themes = Prune(_context.Themes.AsNoTracking()
+                .Include(t => t.Notes)
+                .ToList()
+                .Select(t => new 
                 {
-                    n = th.StoryThread.Name,
-                    traj = th.ThreadTrajectory == 0 ? null : th.ThreadTrajectory.ToString(), 
-                    imp = Clean(th.ImpactDescription)
+                    t.Name,
+                    Desc = Clean(t.Description),
+                    N = ProjectNotes(t.Notes)
                 })),
-            
-            Ref = Prune(p.CodexReferences
-                .Where(cr => cr.CodexEntry != null)
-                .Select(cr => new
+
+            // ADDED .Include(c => c.Notes)
+            Chars = Prune(_context.Characters.AsNoTracking()
+                .Include(c => c.Notes)
+                .ToList()
+                .Select(c => new 
                 {
-                    n = cr.CodexEntry.Title,
-                    c = Clean(cr.Commentary)
+                    c.Name,
+                    Arch = c.Archetype, 
+                    Desc = Clean(c.Description),
+                    N = ProjectNotes(c.Notes)
+                })),
+
+            // ADDED .Include(c => c.Notes)
+            Codex = Prune(_context.CodexEntries.AsNoTracking()
+                .Include(c => c.Notes)
+                .ToList()
+                .Select(c => new 
+                {
+                    Title = c.Title,
+                    Content = Clean(c.Description), 
+                    N = ProjectNotes(c.Notes)
                 }))
-        })
-    });
-    
-    // =========================================================
-    // PART 2: THE WORLD CONTEXT
-    // =========================================================
-    
-    var worldPayload = new
-    {
-        // ADDED .Include(t => t.Notes)
-        Threads = Prune(_context.Threads.AsNoTracking()
-            .Include(t => t.Notes) 
-            .ToList()
-            .Select(t => new 
-            {
-                t.Name,
-                Desc = Clean(t.Description),
-                N = ProjectNotes(t.Notes)
-            })),
+        };
 
-        // ADDED .Include(t => t.Notes)
-        Themes = Prune(_context.Themes.AsNoTracking()
-            .Include(t => t.Notes)
-            .ToList()
-            .Select(t => new 
-            {
-                t.Name,
-                Desc = Clean(t.Description),
-                N = ProjectNotes(t.Notes)
-            })),
+        // =========================================================
+        // PART 3: SERIALIZE (Minified)
+        // =========================================================
 
-        // ADDED .Include(c => c.Notes)
-        Chars = Prune(_context.Characters.AsNoTracking()
-            .Include(c => c.Notes)
-            .ToList()
-            .Select(c => new 
-            {
-                c.Name,
-                Arch = c.Archetype, 
-                Desc = Clean(c.Description),
-                N = ProjectNotes(c.Notes)
-            })),
-
-        // ADDED .Include(c => c.Notes)
-        Codex = Prune(_context.CodexEntries.AsNoTracking()
-            .Include(c => c.Notes)
-            .ToList()
-            .Select(c => new 
-            {
-                Title = c.Title,
-                Content = Clean(c.Description), 
-                N = ProjectNotes(c.Notes)
-            }))
-    };
-
-    // =========================================================
-    // PART 3: SERIALIZE (Minified)
-    // =========================================================
-
-    var finalPayload = new
-    {
-        Legend = "KEYS: Ch=Chapter, Sc=Scenes, Ti=Title, St=Stakes(Input), Syn=Synopsis, Out=Outcome(Result), N=Notes. " +
-                 "AXES: D=Driver(MICE), Ph=Phase(Freytag/SceneSequel), Cnf=Conflict(Classic Types), Pr=Presentation(Narrative Mode). " +
-                 "ENTITIES: C=Characters(n=Name,r=Role,d=DevNote,arc=DevImpact/Weiland Arc), Thm=Themes(n=Name,c=Commentary,p=Prominence), " +
-                 "Thr=Threads(traj=Trajectory/McKee Value Charge, imp=Impact), Ref=Codex.",
+        var finalPayload = new
+        {
+            Legend = "KEYS: Ch=Chapter, Sc=Scenes, Ti=Title, St=Stakes(Input), Syn=Synopsis, Out=Outcome(Result), N=Notes. " +
+                     "AXES: D=Driver(MICE), Ph=Phase(Freytag/SceneSequel), Cnf=Conflict(Classic Types), Pr=Presentation(Narrative Mode). " +
+                     "ENTITIES: C=Characters(n=Name,r=Role,d=DevNote,arc=DevImpact/Weiland Arc), Thm=Themes(n=Name,c=Commentary,p=Prominence), " +
+                     "Thr=Threads(traj=Trajectory/McKee Value Charge, imp=Impact), Ref=Codex.",
                  
-        Context = worldPayload,
-        Story = narrativePayload
-    };
+            Context = worldPayload,
+            Story = narrativePayload
+        };
 
-    // TECHNIQUE 1: Minify JSON (WriteIndented = false)
-    string jsonAnswer = JsonSerializer.Serialize(finalPayload, new JsonSerializerOptions 
-    { 
-        WriteIndented = false, // <--- CHANGED: Removes all formatting whitespace
-        DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
-        ReferenceHandler = ReferenceHandler.IgnoreCycles,
-        Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping 
-    });
+        // TECHNIQUE 1: Minify JSON (WriteIndented = false)
+        string jsonAnswer = JsonSerializer.Serialize(finalPayload, new JsonSerializerOptions 
+        { 
+            WriteIndented = false, // <--- CHANGED: Removes all formatting whitespace
+            DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
+            ReferenceHandler = ReferenceHandler.IgnoreCycles,
+            Encoder = System.Text.Encodings.Web.JavaScriptEncoder.Create(System.Text.Unicode.UnicodeRanges.All)
+        });
 
-    string startingPrompt = "You are a professional story editor. I am providing a structured json of story plans." +
-                            " Please give me a narrative and literary analysis, but I do not want you to generate any example dialogue or example" +
-                            " story text; strictly stick to analysis only. My questions are after the json.\n";
+        string startingPrompt = "You are a professional story editor. I am providing a structured json of story plans." +
+                                " Please give me a narrative and literary analysis, but I do not want you to generate any example dialogue or example" +
+                                " story text; strictly stick to analysis only. My questions are after the json.\n";
                             
-    return startingPrompt + jsonAnswer + "\n\n";
-}
+        return startingPrompt + jsonAnswer + "\n\n";
+    }
     
     public string GetSuperOptimizedContextForAI()
     {
