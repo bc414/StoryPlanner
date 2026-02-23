@@ -146,7 +146,15 @@
         </TabItem>
         
         <TabItem Header="PlotPoints">
-            <Button Content="Open Floating Plot Points" Command="{Binding OpenFloatingPointsCommand}" Width="160" Height="90"/>
+            <DockPanel>
+                <Button DockPanel.Dock="Top" Content="Open Floating Plot Points" 
+                Command="{Binding OpenFloatingPointsCommand}" 
+                Width="160" Height="40" Margin="10"/>
+
+                <ScrollViewer>
+                    <v:PlotPointCollectionViewer DataContext="{Binding PlotPointsByTextViewModel}" />
+                </ScrollViewer>
+            </DockPanel>
         </TabItem>
         <TabItem Header="Gemini Prompts">
             <v:GeminiLibrary />

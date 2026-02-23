@@ -40,4 +40,42 @@ public class PlotPoint
     public ObservableCollection<PlotPointCharacter> CharacterAppearances { get; set; } = new();
     public ObservableCollection<PlotPointTheme> ThemeAssignments { get; set; } = new();
     public ObservableCollection<PlotPointCodexEntry> CodexReferences { get; set; } = new();
+    
+    public int GetTotalTextLength()
+    {
+        int length = 0;
+        length += Synopsis.Length;
+        length += Stakes.Length;
+        length += Outcome.Length;
+        foreach (var c in CharacterAppearances)
+        {
+            if (c.DevelopmentNote != null)
+            {
+                length += c.DevelopmentNote.Length; 
+            }
+        }
+        foreach (var c in CodexReferences)
+        {
+            if (c.Commentary != null)
+            {
+                length += c.Commentary.Length; 
+            }
+        }
+        foreach (var c in ThemeAssignments)
+        {
+            if (c.Commentary != null)
+            {
+                length += c.Commentary.Length; 
+            }
+        }
+        foreach (var c in ThreadAssignments)
+        {
+            if (c.ImpactDescription != null)
+            {
+                length += c.ImpactDescription.Length; 
+            }
+        }
+        
+        return length;
+    }
 }

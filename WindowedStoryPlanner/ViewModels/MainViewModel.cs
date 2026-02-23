@@ -67,6 +67,8 @@ public partial class MainViewModel : ObservableObject
     public Dictionary<Location, LocationViewModel> LocationDictionary = new();
     public Dictionary<CodexEntry, CodexEntryViewModel> CodexEntryDictionary = new();
 
+    public PlotPointCollectionViewModel PlotPointsByTextViewModel { get; set; } = new();
+
     //Collection views for sorting/filtering
     private ICollectionView _chaptersView;
 
@@ -196,6 +198,14 @@ public partial class MainViewModel : ObservableObject
                 PlotPoints, // No need to OrderBy here anymore, the View handles it!
                 PlotPointDictionary);
             EnableLiveSorting(PlotPointViewModels, nameof(PlotPointViewModel.Title));
+            
+            PlotPointsByTextViewModel.SetAndSortItems(PlotPoints, (p1, p2) => 
+            {
+                int len1 = p1.GetTotalTextLength();
+                int len2 = p2.GetTotalTextLength();
+                // Sort descending (longest text first)
+                return len2.CompareTo(len1); 
+            });
         
             // 2. Characters
             CharacterViewModels = CreateViewModelCollection<Character, CharacterViewModel>(
