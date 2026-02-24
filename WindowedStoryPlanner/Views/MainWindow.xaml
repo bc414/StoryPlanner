@@ -151,9 +151,7 @@
                 Command="{Binding OpenFloatingPointsCommand}" 
                 Width="160" Height="40" Margin="10"/>
 
-                <ScrollViewer>
-                    <v:PlotPointCollectionViewer DataContext="{Binding PlotPointsByTextViewModel}" />
-                </ScrollViewer>
+                <v:PlotPointCollectionViewer DataContext="{Binding PlotPointsByTextViewModel}" />
             </DockPanel>
         </TabItem>
         <TabItem Header="Gemini Prompts">

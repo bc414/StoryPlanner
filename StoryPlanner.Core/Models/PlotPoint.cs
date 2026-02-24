@@ -1,4 +1,5 @@
 using System.Collections.ObjectModel;
+using System.Text;
 using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
@@ -43,39 +44,41 @@ public class PlotPoint
     
     public int GetTotalTextLength()
     {
-        int length = 0;
-        length += Synopsis.Length;
-        length += Stakes.Length;
-        length += Outcome.Length;
+        return GetCombinedText().Length;
+    }
+
+    public string GetCombinedText()
+    {
+        var sb = new StringBuilder();
+
+        // Helper to add lines only if the content isn't empty
+        void AppendIfValid(string? text)
+        {
+            if (!string.IsNullOrWhiteSpace(text))
+            {
+                sb.AppendLine(text);
+                sb.AppendLine();
+            }
+        }
+
+        // Add main properties
+        AppendIfValid(Synopsis);
+        AppendIfValid(Stakes);
+        AppendIfValid(Outcome);
+
+        // Add collection properties
         foreach (var c in CharacterAppearances)
-        {
-            if (c.DevelopmentNote != null)
-            {
-                length += c.DevelopmentNote.Length; 
-            }
-        }
+            AppendIfValid(c.DevelopmentNote);
+
         foreach (var c in CodexReferences)
-        {
-            if (c.Commentary != null)
-            {
-                length += c.Commentary.Length; 
-            }
-        }
+            AppendIfValid(c.Commentary);
+
         foreach (var c in ThemeAssignments)
-        {
-            if (c.Commentary != null)
-            {
-                length += c.Commentary.Length; 
-            }
-        }
+            AppendIfValid(c.Commentary);
+
         foreach (var c in ThreadAssignments)
-        {
-            if (c.ImpactDescription != null)
-            {
-                length += c.ImpactDescription.Length; 
-            }
-        }
-        
-        return length;
+            AppendIfValid(c.ImpactDescription);
+
+        return sb.ToString().TrimEnd(); // TrimEnd removes the very last trailing newline
     }
 }

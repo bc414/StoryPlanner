@@ -650,6 +650,13 @@ public partial class PlotPointViewModel : EntityViewModel
         // 3. Update View
         //Threads.Add(new PlotPointThreadViewModel(newLink));
     }
+
+    [RelayCommand]
+    private void CopyAllText()
+    {
+        Clipboard.SetText(Model.GetCombinedText());
+        MessageBox.Show($"Copied plot point text to clipboard.");
+    }
 }
 
 public struct ThemeBadge

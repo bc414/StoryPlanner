@@ -39,7 +39,9 @@
                           IsChecked="{Binding IsNoteReorderMode}">Reorder</CheckBox>
                 <CheckBox VerticalAlignment="Center" Margin="5,2,5,0" 
                           IsChecked="{Binding ShowCommands}">Edit/Delete</CheckBox>
-                <Button Content="C" Width="20" Height="24" Margin="5,0,5,0"
+                <Button Content="C p" Width="25" Height="24" Margin="5,0,5,0"
+Command="{Binding CopyPlainCommand}"/>
+                <Button Content="C j" Width="25" Height="24" Margin="5,0,5,0"
         Command="{Binding CopyToJsonCommand}"/>
                 <Button Content="V" Width="20" Height="24"
 Command="{Binding PasteFromJsonCommand}"/>

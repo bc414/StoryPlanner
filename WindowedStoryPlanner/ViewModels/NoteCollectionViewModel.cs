@@ -7,6 +7,7 @@ using GongSolutions.Wpf.DragDrop;
 using StoryPlanner.Core.Models;
 using System.Linq;
 using System.Text.Json;
+using System.Text;
 
 namespace WindowedStoryPlanner.ViewModels;
 
@@ -138,6 +139,20 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
         NoteCollection.Remove(noteToDelete);
         UpdateSortOrders();
     }
+
+    [RelayCommand]
+    private void CopyPlain()
+    {
+        if (!NoteCollection.Any()) return;
+        StringBuilder stringBuilder = new StringBuilder();
+        foreach(Note note in NoteCollection)
+        {
+            stringBuilder.AppendLine(note.Content);
+            stringBuilder.AppendLine(); // Add an extra line for spacing
+        }
+        Clipboard.SetText(stringBuilder.ToString());
+        MessageBox.Show($"Copied {NoteCollection.Count} notes to clipboard as plain text.");
+    }
     
     [RelayCommand]
     private void CopyToJson()
@@ -157,7 +172,7 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
         });
         Clipboard.SetText(json);
         
-        MessageBox.Show($"Copied {dtos.Count} notes to clipboard.");
+        MessageBox.Show($"Copied {dtos.Count} notes to clipboard as json.");
     }
 
     [RelayCommand]

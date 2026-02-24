@@ -92,13 +92,15 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <StackPanel Grid.Column="0" HorizontalAlignment="Stretch">
                     <TextBlock Text="SCENE TITLE" Style="{StaticResource LabelStyle}"/>
                     <TextBox HorizontalAlignment="Stretch" Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
                         FontSize="16" FontWeight="Bold" Padding="5" Margin="0,0,0,10"/>
                 </StackPanel>
-                <Border Grid.Column="1"  Width="80" Height="40" BorderBrush="Black" BorderThickness="2" dd:DragDrop.IsDragSource="True" dd:DragDrop.UseDefaultDragAdorner="True">
+                <Button Grid.Column="1" Content="Copy" Margin="5,10,5,10" Command="{Binding CopyAllTextCommand}"/>
+                <Border Grid.Column="2"  Width="80" Height="40" BorderBrush="Black" BorderThickness="2" dd:DragDrop.IsDragSource="True" dd:DragDrop.UseDefaultDragAdorner="True">
                     <TextBlock Text="Drag To Link" TextWrapping="Wrap" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </Border>
             </Grid>
