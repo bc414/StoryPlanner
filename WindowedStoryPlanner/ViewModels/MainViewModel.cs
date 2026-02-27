@@ -296,6 +296,24 @@ public partial class MainViewModel : ObservableObject
         }
     }
     
+    [RelayCommand]
+    public void OpenNoteCategorizer()
+    {
+        // Use a specific key for the singleton window
+        string key = "NoteCategorizer"; 
+    
+        // Checks if the window is already open and brings it to the front if it is
+        if (ActivateIfOpen(key)) return;
+
+        // Instantiate the new temporary whiteboard components
+        var vm = new CategorizerViewModel(); 
+        var win = new CategorizerView { DataContext = vm };
+    
+        // Registers the window so MainViewModel knows to track it
+        RegisterWindow(key, win);
+        win.Show();
+    }
+    
     private void RefreshDashboardList()
     {
         DashboardEntities.Clear();
@@ -616,6 +634,32 @@ public partial class MainViewModel : ObservableObject
         }
 
         return null;
+    }
+
+    [RelayCommand]
+    public void OpenRandomAnalysisEntity()
+    {
+        var pendingEntities = new List<EntityViewModel>();
+
+        // Gather all entities that have at least one note requiring analysis
+        if (CharacterViewModels != null) pendingEntities.AddRange(CharacterViewModels.Where(x => x.HasAnalysisPending));
+        if (PlotPointViewModels != null) pendingEntities.AddRange(PlotPointViewModels.Where(x => x.HasAnalysisPending));
+        if (ChapterViewModels != null) pendingEntities.AddRange(ChapterViewModels.Where(x => x.HasAnalysisPending));
+        if (StoryThreadViewModels != null) pendingEntities.AddRange(StoryThreadViewModels.Where(x => x.HasAnalysisPending));
+        if (ThemeViewModels != null) pendingEntities.AddRange(ThemeViewModels.Where(x => x.HasAnalysisPending));
+        if (LocationViewModels != null) pendingEntities.AddRange(LocationViewModels.Where(x => x.HasAnalysisPending));
+        if (CodexEntryViewModels != null) pendingEntities.AddRange(CodexEntryViewModels.Where(x => x.HasAnalysisPending));
+
+        if (pendingEntities.Count > 0)
+        {
+            var random = new Random();
+            var selected = pendingEntities[random.Next(pendingEntities.Count)];
+            OpenEditorWindow(selected);
+        }
+        else
+        {
+            MessageBox.Show("No notes currently require further analysis!", "All Caught Up", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 
     // --- WINDOW MANAGEMENT HELPERS ---
