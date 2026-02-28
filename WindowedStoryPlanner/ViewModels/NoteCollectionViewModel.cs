@@ -69,34 +69,57 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
 
     public void DragOver(IDropInfo dropInfo)
     {
-        // 1. Identify the dragged data
-        if (dropInfo.Data is not Note sourceNote) return;
+        // 1. Identify the dragged data: Allow internal Notes OR external BucketCards
+        if (dropInfo.Data is not Note && dropInfo.Data is not BucketCardViewModel) return;
 
-        // 2. CHECK TARGET: Is it the Trash Zone?
-        // We check the Name of the visual element that the mouse is hovering over
-        var targetElement = dropInfo.VisualTarget as FrameworkElement;
+        // 2. CHECK TARGET: Is it the List (Reordering or Inserting)?
+        dropInfo.DropTargetAdorner = DropTargetAdorners.Insert;
 
-        // 3. CHECK TARGET: Is it the List (Reordering)?
-        if (dropInfo.TargetItem is Note)
-        {
-            dropInfo.DropTargetAdorner = DropTargetAdorners.Insert;
-            dropInfo.Effects = DragDropEffects.Move;
-        }
+        // Tell the UI to show a "Move" cursor (no plus sign)
+        dropInfo.Effects = DragDropEffects.Move;
     }
 
     public void Drop(IDropInfo dropInfo)
     {
-        var sourceNote = dropInfo.Data as Note;
-        if (sourceNote == null) return;
+        if (dropInfo.Data is Note)
+        {
+            // --- CASE A: REORDER (Internal Drag) ---
+            GongSolutions.Wpf.DragDrop.DragDrop.DefaultDropHandler.Drop(dropInfo);
+            UpdateSortOrders();
+        }
+        else if (dropInfo.Data is BucketCardViewModel incomingCard)
+        {
+            // --- CASE B: IMPORT AND MOVE (Dragged from Categorizer) ---
+            var newNote = new Note
+            {
+                Content = incomingCard.NoteText.Trim()
+            };
 
-        var targetElement = dropInfo.VisualTarget as FrameworkElement;
+            // Insert at the specific index the user dropped it at
+            int insertIndex = dropInfo.InsertIndex;
+            if (insertIndex >= 0 && insertIndex <= NoteCollection.Count)
+            {
+                NoteCollection.Insert(insertIndex, newNote);
+            }
+            else
+            {
+                NoteCollection.Add(newNote);
+            }
 
-        // --- CASE B: REORDER (Dropped on List) ---
-        GongSolutions.Wpf.DragDrop.DragDrop.DefaultDropHandler.Drop(dropInfo);
-        UpdateSortOrders();
+            UpdateSortOrders();
+
+            // EXPLICIT REMOVAL: Grab the source collection from where the drag started 
+            // and manually remove the original item.
+            if (dropInfo.DragInfo?.SourceCollection is System.Collections.IList sourceList)
+            {
+                sourceList.Remove(incomingCard);
+            }
+
+            // Crucial: Explicitly report this as a Move so the source 
+            // DragHandler knows to delete the original BucketCardViewModel
+            dropInfo.Effects = DragDropEffects.Move;
+        }
     }
-
-    // ... inside NoteCollectionViewModel class ...
 
     [RelayCommand]
     public void MoveItemUp(Note item)

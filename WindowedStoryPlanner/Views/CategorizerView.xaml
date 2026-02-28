@@ -2,6 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Note Categorizer" Height="800" Width="1200"
+        xmlns:dd="urn:gong-wpf-dragdrop"
         >
     <Grid Margin="10">
         <Grid.RowDefinitions>
@@ -10,7 +11,7 @@
         </Grid.RowDefinitions>
 
         <ScrollViewer Grid.Row="0" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
-            <ItemsControl ItemsSource="{Binding Cards}">
+            <ItemsControl ItemsSource="{Binding Cards}" dd:DragDrop.IsDragSource="True">
 
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
@@ -62,17 +63,25 @@
 
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Content="Add Note" 
-Command="{Binding AddCardCommand}" 
-Height="40" Margin="0,15,0,0" 
-FontSize="16" FontWeight="Bold" />
-            <Button Content="Paste Buckets from Clipboard" 
-Command="{Binding PasteBucketsCommand}" 
-Height="40" Margin="10,15,0,0" 
-FontSize="16" FontWeight="Bold" />
-            <Button Content="Copy Populated Notes to Clipboard" 
-        Command="{Binding CopyNotesCommand}" 
-        Height="40" Margin="10,15,0,0" 
-        FontSize="16" FontWeight="Bold" />
+                    Command="{Binding AddCardCommand}" 
+                    Height="40" Margin="0,15,0,0" 
+                    FontSize="16" FontWeight="Bold" />
+                                <Button Content="Paste Buckets from Clipboard" 
+                    Command="{Binding PasteBucketsCommand}" 
+                    Height="40" Margin="10,15,0,0" 
+                    FontSize="16" FontWeight="Bold" />
+            <Button Content="Paste Notes from Clipboard" 
+                    Command="{Binding PasteNotesCommand}" 
+                    Height="40" Margin="10,15,0,0" 
+                    FontSize="16" FontWeight="Bold" />
+            <Button Content="Copy Edited Notes to Clipboard" 
+                    Command="{Binding CopyNotesCommand}" 
+                    Height="40" Margin="10,15,0,0" 
+                    FontSize="16" FontWeight="Bold" />
+            <Button Content="Copy All Notes to Clipboard" 
+                Command="{Binding CopyAllNotesCommand}" 
+                Height="40" Margin="10,15,0,0" 
+                FontSize="16" FontWeight="Bold" />
         </StackPanel>
         
     </Grid>
