@@ -331,6 +331,9 @@ public partial class MainViewModel : ObservableObject
         // 3. Apply Sort (CharacterCount Descending)
         DashboardEntitiesView.SortDescriptions.Clear();
         DashboardEntitiesView.SortDescriptions.Add(new SortDescription(nameof(EntityViewModel.CharacterCount), ListSortDirection.Descending));
+
+        SearchResultsView = new ListCollectionView(DashboardEntities);
+        SearchResultsView.Filter = FilterSearchResults;
     }
     
     private void EnableLiveSorting<T>(ObservableCollection<T> collection, string sortProperty)
@@ -788,5 +791,43 @@ public partial class MainViewModel : ObservableObject
         {
             _storyService.SourceMaterials.Remove(source);
         }
+    }
+
+    // --- Global Search Properties ---
+    [ObservableProperty]
+    private ICollectionView _searchResultsView;
+
+    [ObservableProperty]
+    private string _searchText = "";
+
+    // Automatically called by the CommunityToolkit when SearchText changes
+    partial void OnSearchTextChanged(string value)
+    {
+        SearchResultsView?.Refresh();
+    }
+
+    private bool FilterSearchResults(object obj)
+    {
+        if (string.IsNullOrWhiteSpace(SearchText))
+            return true; // Show all if search is empty
+
+        if (obj is EntityViewModel entity)
+        {
+            string textToSearch = string.Empty;
+
+            // Extract the searchable name/title
+            if (entity is CharacterViewModel c) textToSearch = c.Name;
+            else if (entity is ThemeViewModel t) textToSearch = t.Name;
+            else if (entity is StoryThreadViewModel s) textToSearch = s.Name;
+            else if (entity is ChapterViewModel ch) textToSearch = ch.Title;
+            else if (entity is CodexEntryViewModel ce) textToSearch = ce.Title;
+            else if (entity is LocationViewModel l) textToSearch = l.Name;
+
+            if (string.IsNullOrEmpty(textToSearch)) return false;
+
+            // Case-insensitive search
+            return textToSearch.Contains(SearchText, StringComparison.OrdinalIgnoreCase);
+        }
+        return false;
     }
 }

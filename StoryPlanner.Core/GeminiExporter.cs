@@ -20,19 +20,23 @@ public class GeminiExporter
         // Ensure output directory exists
         Directory.CreateDirectory(outputDirectory);
 
+        int count = 0;
+        int iteration = 0;
+        StringBuilder mdBuilder = new StringBuilder();
         foreach (var entry in cleanEntries)
         {
             // 4. Generate the Markdown Content
-            StringBuilder mdBuilder = new StringBuilder();
+            count++;
+            
 
             mdBuilder.AppendLine($"# {SanitizeTitle(entry.Prompt)}"); // Title
             mdBuilder.AppendLine();
             mdBuilder.AppendLine($"**Date:** {entry.Time:yyyy-MM-dd HH:mm}");
             mdBuilder.AppendLine();
-            mdBuilder.AppendLine("## Prompt");
+            mdBuilder.AppendLine($"## Prompt {count}");
             mdBuilder.AppendLine($"> {entry.Prompt}"); // Blockquote for prompt
             mdBuilder.AppendLine();
-            mdBuilder.AppendLine("## Gemini Response");
+            mdBuilder.AppendLine($"## Gemini Response to prompt {count}");
             
             // Convert the HTML response to Markdown
             string markdownResponse = HtmlToMarkdown.Convert(entry.ResponseHtml);
@@ -46,11 +50,20 @@ public class GeminiExporter
             // Truncate filename if too long
             if (safeTitle.Length > 50) safeTitle = safeTitle.Substring(0, 50);
             
-            string fileName = $"{entry.Time:yyyyMMdd}_{safeTitle}.md";
-            string fullPath = Path.Combine(outputDirectory, fileName);
+            mdBuilder.AppendLine();
 
-            // 6. Write to file
-            File.WriteAllText(fullPath, mdBuilder.ToString());
+            if (count >= 20)
+            {
+                // 6. Write to file
+                iteration++;
+                string fileName = $"{iteration}.md";
+                string fullPath = Path.Combine(outputDirectory, fileName);
+                File.WriteAllText(fullPath, mdBuilder.ToString());
+                mdBuilder = new StringBuilder();
+                count = 0;
+            }
+
+            
         }
     }
 
