@@ -51,8 +51,8 @@ public class GeminiExporter
             if (safeTitle.Length > 50) safeTitle = safeTitle.Substring(0, 50);
             
             mdBuilder.AppendLine();
-
-            if (count >= 20)
+            
+            if (count >= 20 || mdBuilder.Length >= 2500000)
             {
                 // 6. Write to file
                 iteration++;
