@@ -69,6 +69,9 @@ public partial class MainViewModel : ObservableObject
 
     public PlotPointCollectionViewModel PlotPointsByTextViewModel { get; set; } = new();
 
+    [ObservableProperty]
+    private NoteCollectionViewModel _unassignedNotesVM;
+
     //Collection views for sorting/filtering
     private ICollectionView _chaptersView;
 
@@ -192,7 +195,9 @@ public partial class MainViewModel : ObservableObject
         if (IsProjectLoaded)
         {
             WindowTitle = $"Story Planner - {_storyService.CurrentFilePath}";
-            
+
+            UnassignedNotesVM = new NoteCollectionViewModel(_storyService.UnassignedNotes);
+
             // 1. PlotPoints
             PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(
                 PlotPoints, // No need to OrderBy here anymore, the View handles it!
@@ -289,6 +294,10 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(LocationViewModels));
             OnPropertyChanged(nameof(CodexEntryViewModels));
             OnPropertyChanged(nameof(CodexEntriesGroupedView));
+
+            OnPropertyChanged(nameof(UnassignedNotesVM));
+
+            RefreshStatistics();
         }
         else
         {
@@ -829,5 +838,52 @@ public partial class MainViewModel : ObservableObject
             return textToSearch.Contains(SearchText, StringComparison.OrdinalIgnoreCase);
         }
         return false;
+    }
+    
+    // 1. The Collection the DataGrid binds to
+    public ObservableCollection<NotePropertyStats> DataGridStats { get; } = new();
+
+// 2. The Command triggered by the Refresh button
+    [RelayCommand]
+    public void RefreshStatistics()
+    {
+        DataGridStats.Clear();
+
+        // Row 3: Total Notes in DB
+        DataGridStats.Add(_storyService.GetNoteStatsByCondition(
+            "Total Notes", 
+            n => true));
+        
+        // Row 1: Needs Analysis
+        DataGridStats.Add(_storyService.GetNoteStatsByCondition(
+            "Needs Analysis", 
+            n => n.NeedsFurtherAnalysis));
+
+        // Row 2: Incorporated into Draft
+        DataGridStats.Add(_storyService.GetNoteStatsByCondition(
+            "Incorporated", 
+            n => n.IsIncorporated));
+    }
+
+    // Inside MainViewModel.cs
+    public void DeleteNoteFromDatabase(Note note)
+    {
+        _storyService.DeleteNote(note);
+    }
+
+    [RelayCommand]
+    public async Task PurgeUnassignedNotes()
+    {
+        var result = MessageBox.Show(
+            "Are you sure you want to permanently delete all unassigned/orphaned notes?",
+            "Confirm Purge",
+            MessageBoxButton.YesNo,
+            MessageBoxImage.Warning);
+
+        if (result == MessageBoxResult.Yes)
+        {
+            await _storyService.PurgeUnassignedNotesAsync();
+            MessageBox.Show("Unassigned notes purged successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
 }

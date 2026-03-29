@@ -23,6 +23,8 @@ public class DesignTimeStoryService : IStoryService
     public string CurrentFilePath => "Design-Time-Project.db";
     public bool IsProjectLoaded => true;
 
+    public ObservableCollection<Note> UnassignedNotes { get; }
+
     // --- Constructor ---
     public DesignTimeStoryService()
     {
@@ -39,7 +41,8 @@ public class DesignTimeStoryService : IStoryService
         Locations = new ObservableCollection<Location>(data.Locations);
         CodexEntries = new ObservableCollection<CodexEntry>(data.CodexEntries);
         SourceMaterials = new ObservableCollection<SourceMaterial>(data.Sources);
-        
+        UnassignedNotes = new ObservableCollection<Note>();
+
         // Assuming your Factory generates PlotPoints inside chapters, 
         // we might need to flatten them if the interface expects a master list.
         // If your Factory returns a flat list of points, use that. 
@@ -78,8 +81,23 @@ public class DesignTimeStoryService : IStoryService
         throw new NotImplementedException();
     }
 
+    public NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition)
+    {
+        throw new NotImplementedException();
+    }
+
     public void Dispose()
     {
         // Nothing to dispose in design mode
+    }
+
+    public void DeleteNote(Note note)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Task PurgeUnassignedNotesAsync()
+    {
+        throw new NotImplementedException();
     }
 }

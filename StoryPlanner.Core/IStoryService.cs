@@ -16,6 +16,8 @@ public interface IStoryService : IDisposable
     ObservableCollection<PlotPoint> PlotPoints { get; }
     ObservableCollection<GeminiEntry> GeminiEntries { get; }
     ObservableCollection<Idea> Ideas { get; }
+    // Inside IStoryService.cs
+    ObservableCollection<Note> UnassignedNotes { get; }
 
     // --- State Properties ---
     string CurrentFilePath { get; }
@@ -30,4 +32,8 @@ public interface IStoryService : IDisposable
     string GetFullProjectJson();
     Task RestoreProjectFromJsonAsync(string json);
     string GetAiContextJson(bool includeVerbatim);
+    // Inside IStoryService.cs
+    NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition);
+    void DeleteNote(Note note);
+    Task PurgeUnassignedNotesAsync();
 }

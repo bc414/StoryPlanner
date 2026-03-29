@@ -31,7 +31,9 @@ public class StoryService : IStoryService
 
     public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
     public ObservableCollection<Idea> Ideas { get; private set; } = new();
-    
+
+    public ObservableCollection<Note> UnassignedNotes { get; private set; } = new();
+
     public string CurrentFilePath { get; private set; } = string.Empty;
     public bool IsProjectLoaded { get; private set; } = false;
 
@@ -218,6 +220,26 @@ public class StoryService : IStoryService
         await _context.Set<Note>()
             .LoadAsync();
 
+        var unassignedList = _context.Set<Note>().Local.Where(n =>
+            !n.CharacterId.HasValue &&
+            !n.ThemeId.HasValue &&
+            !n.LocationId.HasValue &&
+            !n.CodexEntryId.HasValue &&
+            !n.ChapterId.HasValue &&
+            !n.StoryThreadId.HasValue).ToList();
+
+        UnassignedNotes = new ObservableCollection<Note>(unassignedList);
+
+        // 3. Wire up the auto-sync to the Database Context
+        UnassignedNotes.CollectionChanged += (s, e) =>
+        {
+            if (e.NewItems != null)
+                foreach (Note n in e.NewItems) _context.Notes.Add(n);
+
+            if (e.OldItems != null)
+                foreach (Note n in e.OldItems) _context.Notes.Remove(n);
+        };
+
         // ---------------------------------------------------------------------------
         // STEP 2: LOAD ALL PLOT POINTS (The Narrative Units)
         // ---------------------------------------------------------------------------
@@ -383,6 +405,72 @@ public class StoryService : IStoryService
             // Fail silently so a network error doesn't crash your local save
             System.Diagnostics.Debug.WriteLine($"Google Drive Sync Failed: {ex.Message}");
         }
+    }
+    
+    // Inside StoryService.cs
+
+    public NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition)
+    {
+        // Return an empty/zeroed stats object if context isn't loaded
+        if (_context == null) return new NotePropertyStats { StatName = statName };
+
+        // Apply the generic condition to the local cache
+        var filteredNotes = _context.Set<Note>().Local
+            .Where(condition)
+            .ToList();
+
+        return new NotePropertyStats
+        {
+            StatName = statName,
+            Total = filteredNotes.Count,
+        
+            // Tally based on the foreign keys
+            Characters = filteredNotes.Count(n => n.CharacterId.HasValue),
+            Themes = filteredNotes.Count(n => n.ThemeId.HasValue),
+            Codex = filteredNotes.Count(n => n.CodexEntryId.HasValue),
+            Chapters = filteredNotes.Count(n => n.ChapterId.HasValue),
+            Threads = filteredNotes.Count(n => n.StoryThreadId.HasValue),
+        
+            // Catch notes without a parent
+            Unassigned = filteredNotes.Count(n => 
+                !n.CharacterId.HasValue && 
+                !n.ThemeId.HasValue && 
+                !n.LocationId.HasValue && 
+                !n.CodexEntryId.HasValue && 
+                !n.ChapterId.HasValue && 
+                !n.StoryThreadId.HasValue)
+        };
+    }
+
+    public void DeleteNote(Note note)
+    {
+        if (_context != null)
+        {
+            _context.Notes.Remove(note);
+        }
+    }
+
+    public async Task PurgeUnassignedNotesAsync()
+    {
+        if (_context == null) return;
+
+        var unassignedList = _context.Set<Note>().Local.Where(n =>
+            !n.CharacterId.HasValue &&
+            !n.ThemeId.HasValue &&
+            !n.LocationId.HasValue &&
+            !n.CodexEntryId.HasValue &&
+            !n.ChapterId.HasValue &&
+            !n.StoryThreadId.HasValue).ToList();
+
+        _context.Notes.RemoveRange(unassignedList);
+
+        // If you implemented the UnassignedNotes observable collection from the previous step, clear it so the UI updates
+        if (UnassignedNotes != null)
+        {
+            UnassignedNotes.Clear();
+        }
+
+        await SaveAsync();
     }
 
     public void Dispose()
