@@ -174,6 +174,7 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
     [RelayCommand(CanExecute = nameof(CanUndoDelete))]
     private void UndoDelete()
     {
+        //THIS DOES NOT CURRENTLY WORK WITH EF CORE CHANGE TRACKING! Probably needs to be made more robust
         if (_deletedNotesHistory.Count == 0) return;
 
         // Pop the most recently deleted note
