@@ -154,14 +154,47 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
             NoteCollection[i].SortOrder = i;
         }
     }
-
+    private readonly Stack<(Note DeletedNote, int OriginalIndex)> _deletedNotesHistory = new();
     [RelayCommand]
     private void DeleteNote(Note noteToDelete)
     {
         if (noteToDelete == null) return;
+
+        // 2. Remember the note and its position before deleting it
+        int originalIndex = NoteCollection.IndexOf(noteToDelete);
+        _deletedNotesHistory.Push((noteToDelete, originalIndex));
+
         NoteCollection.Remove(noteToDelete);
         UpdateSortOrders();
+        
+        // 3. Notify the UI that the Undo command's execution state has changed
+        UndoDeleteCommand.NotifyCanExecuteChanged();
     }
+    
+    [RelayCommand(CanExecute = nameof(CanUndoDelete))]
+    private void UndoDelete()
+    {
+        if (_deletedNotesHistory.Count == 0) return;
+
+        // Pop the most recently deleted note
+        var (restoredNote, originalIndex) = _deletedNotesHistory.Pop();
+
+        // Safety check: ensure the index is still within bounds in case the list size changed drastically
+        if (originalIndex >= 0 && originalIndex <= NoteCollection.Count)
+        {
+            NoteCollection.Insert(originalIndex, restoredNote);
+        }
+        else
+        {
+            // Fallback: just add it to the end
+            NoteCollection.Add(restoredNote);
+        }
+
+        UpdateSortOrders();
+        UndoDeleteCommand.NotifyCanExecuteChanged();
+    }
+    
+    private bool CanUndoDelete() => _deletedNotesHistory.Count > 0;
 
     [RelayCommand]
     private void CopyPlain()

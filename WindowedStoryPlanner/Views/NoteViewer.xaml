@@ -7,7 +7,9 @@
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              mc:Ignorable="d" 
              d:DataContext="{x:Static local:Sample.NoteCollectionViewModel}">
-
+    <UserControl.InputBindings>
+        <KeyBinding Key="F6" Command="{Binding UndoDeleteCommand}" />
+    </UserControl.InputBindings>
     <UserControl.Resources>
         <DataTemplate x:Key="GhostNoteTemplate">
             <Border Background="#F0F0F0" 
