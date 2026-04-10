@@ -107,4 +107,33 @@ public class AppDbContext : DbContext
             .HasForeignKey(n => n.LocationId)
             .OnDelete(DeleteBehavior.Cascade);
     }
+    
+    public override int SaveChanges()
+    {
+        UpdateAuditFields();
+        return base.SaveChanges();
+    }
+
+    public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
+    {
+        UpdateAuditFields();
+        return base.SaveChangesAsync(cancellationToken);
+    }
+
+    private void UpdateAuditFields()
+    {
+        // Get all tracked entities that implement IAuditableText
+        var entries = ChangeTracker.Entries<IAuditableText>();
+
+        foreach (var entry in entries)
+        {
+            // If the entity was just added or modified, update the timestamp
+            if (entry.State == EntityState.Added || entry.State == EntityState.Modified)
+            {
+                entry.Entity.LastModified = DateTime.UtcNow; 
+                // Note: Use DateTime.Now if your app relies on local time, 
+                // but UtcNow is generally preferred for databases.
+            }
+        }
+    }
 }
