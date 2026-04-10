@@ -100,4 +100,9 @@ public class DesignTimeStoryService : IStoryService
     {
         throw new NotImplementedException();
     }
+
+    public System.Collections.Generic.IEnumerable<IAuditableText> GetAllAuditableTexts()
+    {
+        yield break;
+    }
 }

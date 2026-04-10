@@ -450,6 +450,7 @@ public class StoryService : IStoryService
         }
     }
 
+
     public async Task PurgeUnassignedNotesAsync()
     {
         if (_context == null) return;
@@ -464,7 +465,6 @@ public class StoryService : IStoryService
 
         _context.Notes.RemoveRange(unassignedList);
 
-        // If you implemented the UnassignedNotes observable collection from the previous step, clear it so the UI updates
         if (UnassignedNotes != null)
         {
             UnassignedNotes.Clear();
@@ -472,6 +472,23 @@ public class StoryService : IStoryService
 
         await SaveAsync();
     }
+
+    public IEnumerable<IAuditableText> GetAllAuditableTexts()
+    {
+        if (_context == null) yield break;
+
+        foreach (var note in _context.Set<Note>().Local) yield return note;
+
+        foreach (var plotPoint in _context.Set<PlotPoint>().Local)
+        {
+            yield return plotPoint;
+            foreach (var thread in plotPoint.ThreadAssignments) yield return thread;
+            foreach (var theme in plotPoint.ThemeAssignments) yield return theme;
+            foreach (var charApp in plotPoint.CharacterAppearances) yield return charApp;
+            foreach (var codex in plotPoint.CodexReferences) yield return codex;
+        }
+    }
+
 
     public void Dispose()
     {

@@ -4,10 +4,13 @@ using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
 
-public partial class Note : ObservableObject
+public partial class Note : ObservableObject, IAuditableText
 {
     // ... (Existing properties for Id, Content, Foreign Keys, etc. remain unchanged) ...
     public int Id { get; set; }
+
+    [ObservableProperty]
+    private DateTime _lastModified = DateTime.UtcNow;
 
     [ObservableProperty]
     private string _content = string.Empty;

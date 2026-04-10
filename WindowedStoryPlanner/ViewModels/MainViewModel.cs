@@ -802,12 +802,112 @@ public partial class MainViewModel : ObservableObject
         }
     }
 
+
     // --- Global Search Properties ---
     [ObservableProperty]
     private ICollectionView _searchResultsView;
 
     [ObservableProperty]
     private string _searchText = "";
+
+    // --- Audit Properties ---
+    [ObservableProperty]
+    private ObservableCollection<AuditableItemViewModel> _auditableItems = new();
+
+    [RelayCommand]
+    public void RefreshAuditableItems()
+    {
+        AuditableItems.Clear();
+        foreach (var item in _storyService.GetAllAuditableTexts())
+        {
+            AuditableItemViewModel vm = null;
+            if (item is Note note)
+            {
+                vm = new AuditableItemViewModel(
+                    note,
+                    "Note",
+                    note.Content,
+                    "Note",
+                    note.LastModified,
+                    () => { note.LastModified = DateTime.UtcNow; },
+                    () => { /* Navigate logic can be enhanced later */ }
+                );
+            }
+            else if (item is PlotPoint pp)
+            {
+                vm = new AuditableItemViewModel(
+                    pp,
+                    pp.Title,
+                    pp.Synopsis,
+                    "PlotPoint Synopsis",
+                    pp.LastModified,
+                    () => { pp.LastModified = DateTime.UtcNow; },
+                    () => { OpenEditorWindow(PlotPointViewModels.FirstOrDefault(p => p.Model.Id == pp.Id)); }
+                );
+            }
+            else if (item is PlotPointThread ppt)
+            {
+                vm = new AuditableItemViewModel(
+                    ppt,
+                    ppt.PlotPoint?.Title ?? "Unknown Plot Point",
+                    ppt.ImpactDescription,
+                    "Thread Impact",
+                    ppt.LastModified,
+                    () => { ppt.LastModified = DateTime.UtcNow; },
+                    () => { OpenEditorWindow(PlotPointViewModels.FirstOrDefault(p => p.Model.Id == ppt.PlotPointId)); }
+                );
+            }
+            else if (item is PlotPointTheme pptheme)
+            {
+                vm = new AuditableItemViewModel(
+                    pptheme,
+                    pptheme.PlotPoint?.Title ?? "Unknown Plot Point",
+                    pptheme.Commentary,
+                    "Theme Commentary",
+                    pptheme.LastModified,
+                    () => { pptheme.LastModified = DateTime.UtcNow; },
+                    () => { OpenEditorWindow(PlotPointViewModels.FirstOrDefault(p => p.Model.Id == pptheme.PlotPointId)); }
+                );
+            }
+            else if (item is PlotPointCodexEntry ppce)
+            {
+                vm = new AuditableItemViewModel(
+                    ppce,
+                    ppce.PlotPoint?.Title ?? "Unknown Plot Point",
+                    ppce.Commentary,
+                    "Codex Commentary",
+                    ppce.LastModified,
+                    () => { ppce.LastModified = DateTime.UtcNow; },
+                    () => { OpenEditorWindow(PlotPointViewModels.FirstOrDefault(p => p.Model.Id == ppce.PlotPointId)); }
+                );
+            }
+            else if (item is PlotPointCharacter ppc)
+            {
+                vm = new AuditableItemViewModel(
+                    ppc,
+                    ppc.PlotPoint?.Title ?? "Unknown Plot Point",
+                    ppc.DevelopmentNote,
+                    "Character Dev Note",
+                    ppc.LastModified,
+                    () => { ppc.LastModified = DateTime.UtcNow; },
+                    () => { OpenEditorWindow(PlotPointViewModels.FirstOrDefault(p => p.Model.Id == ppc.PlotPointId)); }
+                );
+            }
+
+            if (vm != null && !string.IsNullOrWhiteSpace(vm.Text))
+            {
+                AuditableItems.Add(vm);
+            }
+        }
+
+        var sorted = AuditableItems.OrderBy(x => x.LastModified).ToList();
+        AuditableItems.Clear();
+        foreach (var sortedVm in sorted)
+        {
+            AuditableItems.Add(sortedVm);
+        }
+    }
+
 
     // Automatically called by the CommunityToolkit when SearchText changes
     partial void OnSearchTextChanged(string value)

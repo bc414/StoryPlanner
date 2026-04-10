@@ -36,4 +36,5 @@ public interface IStoryService : IDisposable
     NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition);
     void DeleteNote(Note note);
     Task PurgeUnassignedNotesAsync();
+    IEnumerable<IAuditableText> GetAllAuditableTexts();
 }

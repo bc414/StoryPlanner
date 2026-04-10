@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 namespace StoryPlanner.Core.Models;
 
 // Link: PlotPoint <-> Thread
-public partial class PlotPointThread : ObservableObject
+public partial class PlotPointThread : ObservableObject, IAuditableText
 {
     // --- KEYS (Standard) ---
     public int PlotPointId { get; set; }
@@ -16,6 +16,9 @@ public partial class PlotPointThread : ObservableObject
     public StoryThread StoryThread { get; set; } = null!;
 
     // --- PAYLOAD (Observable for Live Edit) ---
+
+    [ObservableProperty]
+    private DateTime _lastModified = DateTime.UtcNow;
 
     [ObservableProperty]
     private GoalTrajectory _threadTrajectory;
