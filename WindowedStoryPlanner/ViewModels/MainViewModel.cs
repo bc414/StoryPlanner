@@ -196,8 +196,6 @@ public partial class MainViewModel : ObservableObject
         {
             WindowTitle = $"Story Planner - {_storyService.CurrentFilePath}";
 
-            UnassignedNotesVM = new NoteCollectionViewModel(_storyService.UnassignedNotes);
-
             // 1. PlotPoints
             PlotPointViewModels = CreateViewModelCollection<PlotPoint, PlotPointViewModel>(
                 PlotPoints, // No need to OrderBy here anymore, the View handles it!
@@ -875,14 +873,18 @@ public partial class MainViewModel : ObservableObject
     public async Task PurgeUnassignedNotes()
     {
         var result = MessageBox.Show(
-            "Are you sure you want to permanently delete all unassigned/orphaned notes?",
-            "Confirm Purge",
-            MessageBoxButton.YesNo,
-            MessageBoxImage.Warning);
+        "Are you sure you want to permanently delete all unassigned/orphaned notes?",
+        "Confirm Purge",
+        MessageBoxButton.YesNo,
+        MessageBoxImage.Warning);
 
         if (result == MessageBoxResult.Yes)
         {
             await _storyService.PurgeUnassignedNotesAsync();
+
+            // Refresh the DataGrid so the "Unassigned" count drops to 0
+            RefreshStatistics();
+
             MessageBox.Show("Unassigned notes purged successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
         }
     }

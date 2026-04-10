@@ -47,6 +47,7 @@ public enum CodexCategory
     SocietalDifferences = 7,
     Concept = 8,
     Backstory = 9,
+    AuthorialDirectives = 10,
 }
 
 public enum CodexUsageType

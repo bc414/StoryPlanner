@@ -220,26 +220,6 @@ public class StoryService : IStoryService
         await _context.Set<Note>()
             .LoadAsync();
 
-        var unassignedList = _context.Set<Note>().Local.Where(n =>
-            !n.CharacterId.HasValue &&
-            !n.ThemeId.HasValue &&
-            !n.LocationId.HasValue &&
-            !n.CodexEntryId.HasValue &&
-            !n.ChapterId.HasValue &&
-            !n.StoryThreadId.HasValue).ToList();
-
-        UnassignedNotes = new ObservableCollection<Note>(unassignedList);
-
-        // 3. Wire up the auto-sync to the Database Context
-        UnassignedNotes.CollectionChanged += (s, e) =>
-        {
-            if (e.NewItems != null)
-                foreach (Note n in e.NewItems) _context.Notes.Add(n);
-
-            if (e.OldItems != null)
-                foreach (Note n in e.OldItems) _context.Notes.Remove(n);
-        };
-
         // ---------------------------------------------------------------------------
         // STEP 2: LOAD ALL PLOT POINTS (The Narrative Units)
         // ---------------------------------------------------------------------------
@@ -463,12 +443,6 @@ public class StoryService : IStoryService
             !n.StoryThreadId.HasValue).ToList();
 
         _context.Notes.RemoveRange(unassignedList);
-
-        // If you implemented the UnassignedNotes observable collection from the previous step, clear it so the UI updates
-        if (UnassignedNotes != null)
-        {
-            UnassignedNotes.Clear();
-        }
 
         await SaveAsync();
     }
