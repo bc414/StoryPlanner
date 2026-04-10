@@ -11,6 +11,10 @@
             
         Title="Mission Control" Height="900" Width="1200"
         WindowStartupLocation="CenterScreen" d:DataContext="{d:DesignInstance Type=vm:MainViewModel}">
+    <Window.Resources>
+        <v:UtcToLocalConverter x:Key="UtcToLocalConverter" />
+        <v:RecencyToColorConverter x:Key="RecencyToColorConverter" />
+    </Window.Resources>
 
     <TabControl TabStripPlacement="Left">
 
@@ -325,25 +329,7 @@
             </Grid>
         </TabItem>
 
-        <TabItem Header="Unassigned Notes">
-            <Grid Margin="10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-
-                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
-                    <TextBlock Text="Inbox / Unassigned Notes" FontSize="20" FontWeight="SemiBold" Foreground="#333" Margin="0,0,20,0"/>
-
-                    <Button Content="🗑 Purge All" 
-            Command="{Binding DataContext.PurgeUnassignedNotesCommand, RelativeSource={RelativeSource AncestorType=Window}}" 
-            Background="#FFF0F0" Foreground="Red" BorderBrush="Red" Padding="10,5"/>
-                </StackPanel>
-
-                <v:NoteViewer Grid.Row="1" DataContext="{Binding UnassignedNotesVM}" />
-            </Grid>
-        </TabItem>
-
+        
 
         <TabItem Header="Audit Old Text">
             <Grid Margin="10">
@@ -371,7 +357,7 @@
                                         <StackPanel Grid.Column="0" Margin="0,0,10,0">
                                             <StackPanel Orientation="Horizontal" Margin="0,0,0,5">
                                                 <TextBlock Text="{Binding Type}" FontWeight="Bold" Foreground="#666666" Margin="0,0,10,0"/>
-                                                <TextBlock Text="{Binding LastModified, StringFormat='{}{0:g}'}" Foreground="#999999"/>
+                                                <TextBlock Text="{Binding LastModified, StringFormat='{}{0:g}', Converter={StaticResource UtcToLocalConverter}}" Foreground="{Binding LastModified, Converter={StaticResource RecencyToColorConverter}}"/>
                                             </StackPanel>
                                             <TextBlock Text="{Binding Text}" TextWrapping="Wrap" Margin="0,0,0,10"/>
                                             <Button Content="{Binding OwnerName, StringFormat='Navigate to: {0}'}" 
@@ -390,6 +376,26 @@
                         </ItemsControl.ItemTemplate>
                     </ItemsControl>
                 </ScrollViewer>
+            </Grid>
+        </TabItem>
+
+
+        <TabItem Header="Unassigned Notes">
+            <Grid Margin="10">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
+                    <TextBlock Text="Inbox / Unassigned Notes" FontSize="20" FontWeight="SemiBold" Foreground="#333" Margin="0,0,20,0"/>
+
+                    <Button Content="🗑 Purge All" 
+    Command="{Binding DataContext.PurgeUnassignedNotesCommand, RelativeSource={RelativeSource AncestorType=Window}}" 
+    Background="#FFF0F0" Foreground="Red" BorderBrush="Red" Padding="10,5"/>
+                </StackPanel>
+
+                <v:NoteViewer Grid.Row="1" DataContext="{Binding UnassignedNotesVM}" />
             </Grid>
         </TabItem>
 

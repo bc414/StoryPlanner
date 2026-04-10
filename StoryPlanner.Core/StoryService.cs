@@ -234,10 +234,17 @@ public class StoryService : IStoryService
         UnassignedNotes.CollectionChanged += (s, e) =>
         {
             if (e.NewItems != null)
-                foreach (Note n in e.NewItems) _context.Notes.Add(n);
-
-            if (e.OldItems != null)
-                foreach (Note n in e.OldItems) _context.Notes.Remove(n);
+            {
+                foreach (Note n in e.NewItems)
+                {
+                    // Only force EF to Add if it's a brand new entity
+                    // (EF Core defaults integer primary keys to 0 before saving)
+                    if (n.Id == 0)
+                    {
+                        _context.Notes.Add(n);
+                    }
+                } 
+            }
         };
 
         // ---------------------------------------------------------------------------

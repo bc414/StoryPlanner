@@ -827,21 +827,64 @@ public partial class MainViewModel : ObservableObject
             AuditableItemViewModel vm = null;
             if (item is Note note)
             {
+                string ownerName = "Unassigned";
+                if (note.Chapter != null)
+                {
+                    ownerName = "Chapter: " + note.Chapter.Title;
+                }
+                else if (note.Character != null)
+                {
+                    ownerName = "Character: " + note.Character.Name;
+                }
+                else if (note.Theme != null)
+                {
+                    ownerName = "Theme: " + note.Theme.Name;
+                }
+                else if (note.StoryThread != null)
+                {
+                    ownerName = "Story Thread: " + note.StoryThread.Name;
+                }
+                else if (note.CodexEntry != null)
+                {
+                    ownerName = "Codex Entry: " + note.CodexEntry.Title;
+                }
                 vm = new AuditableItemViewModel(
                     note,
-                    "Note",
+                    ownerName,
                     note.Content,
                     "Note",
                     note.LastModified,
                     () => { note.LastModified = DateTime.UtcNow; },
-                    () => { /* Navigate */ }
+                    () => {
+                        if (note.Chapter != null)
+                        {
+                            OpenEditorWindow(ChapterViewModels.FirstOrDefault(c => c.Chapter.Id == note.ChapterId));
+
+                        }
+                        else if (note.Character != null)
+                        {
+                            OpenEditorWindow(CharacterViewModels.FirstOrDefault(c => c.Character.Id == note.CharacterId));
+                        }
+                        else if(note.Theme != null)
+                        {
+                            OpenEditorWindow(ThemeViewModels.FirstOrDefault(t => t.Theme.Id == note.ThemeId));
+                        }
+                        else if(note.StoryThread != null)
+                        {
+                            OpenEditorWindow(StoryThreadViewModels.FirstOrDefault(s => s.StoryThread.Id == note.StoryThreadId));
+                        }
+                        else if(note.CodexEntry != null)
+                        {
+                            OpenEditorWindow(CodexEntryViewModels.FirstOrDefault(c => c.CodexEntry.Id == note.CodexEntryId));
+                        }
+                    }
                 );
             }
             else if (item is PlotPoint pp)
             {
                 vm = new AuditableItemViewModel(
                     pp,
-                    pp.Title,
+                    "Plot Point: " + pp.Title,
                     pp.Synopsis,
                     "PlotPoint Synopsis",
                     pp.LastModified,
@@ -853,7 +896,7 @@ public partial class MainViewModel : ObservableObject
             {
                 vm = new AuditableItemViewModel(
                     ppt,
-                    ppt.PlotPoint?.Title ?? "Unknown Plot Point",
+                    "Thread: " + (ppt.StoryThread?.Name ?? "Unknown Thread") + " | Plot Point: " + (ppt.PlotPoint?.Title ?? "Unknown Plot Point"),
                     ppt.ImpactDescription,
                     "Thread Impact",
                     ppt.LastModified,
@@ -865,7 +908,7 @@ public partial class MainViewModel : ObservableObject
             {
                 vm = new AuditableItemViewModel(
                     pptheme,
-                    pptheme.PlotPoint?.Title ?? "Unknown Plot Point",
+                    "Theme: " + (pptheme.Theme?.Name ?? "Unknown Theme") + " | Plot Point: " + (pptheme.PlotPoint?.Title ?? "Unknown Plot Point"),
                     pptheme.Commentary,
                     "Theme Commentary",
                     pptheme.LastModified,
@@ -877,7 +920,7 @@ public partial class MainViewModel : ObservableObject
             {
                 vm = new AuditableItemViewModel(
                     ppce,
-                    ppce.PlotPoint?.Title ?? "Unknown Plot Point",
+                    "Codex Entry: " + (ppce.CodexEntry?.Title ?? "Unknown Codex Entry") + " | Plot Point: " + (ppce.PlotPoint?.Title ?? "Unknown Plot Point"),
                     ppce.Commentary,
                     "Codex Commentary",
                     ppce.LastModified,
@@ -889,7 +932,7 @@ public partial class MainViewModel : ObservableObject
             {
                 vm = new AuditableItemViewModel(
                     ppc,
-                    ppc.PlotPoint?.Title ?? "Unknown Plot Point",
+                    "Character: " + (ppc.Character?.Name ?? "Unknown Character") + " | Plot Point: " + (ppc.PlotPoint?.Title ?? "Unknown Plot Point"),
                     ppc.DevelopmentNote,
                     "Character Dev Note",
                     ppc.LastModified,

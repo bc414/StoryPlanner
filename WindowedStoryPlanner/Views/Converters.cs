@@ -100,4 +100,51 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
         
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
     }
+
+    public class UtcToLocalConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value is DateTime utcDateTime)
+            {
+                // Converts from UTC to the local system time of the user's machine
+                return utcDateTime.ToLocalTime().ToString("g"); // "g" is a short date/time pattern
+            }
+            return value;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            // If you need two-way binding, convert back to UTC before saving
+            if (DateTime.TryParse(value?.ToString(), out DateTime localDateTime))
+            {
+                return localDateTime.ToUniversalTime();
+            }
+            return value;
+        }
+    }
+
+    public class RecencyToColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value is DateTime lastModified)
+            {
+                // Calculate the difference between now (UTC) and the modified time (UTC)
+                TimeSpan diff = DateTime.UtcNow - lastModified;
+
+                if (diff.TotalHours <= 24)
+                {
+                    return Brushes.Green; // Modified within the last 24 hours
+                }
+                return Brushes.Red; // Older than 24 hours
+            }
+            return Brushes.Black; // Default fallback
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
 }
