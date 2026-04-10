@@ -4,9 +4,10 @@ using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
 
-public class PlotPoint
+public class PlotPoint : IAuditableText
 {
     public int Id { get; set; }
+    public DateTime LastModified { get; set; } = DateTime.UtcNow;
     public string Title { get; set; } = string.Empty;
 
     // --- 5 Ws Context ---

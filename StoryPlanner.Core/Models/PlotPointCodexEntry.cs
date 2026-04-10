@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core.Models;
 
-public partial class PlotPointCodexEntry : ObservableObject
+public partial class PlotPointCodexEntry : ObservableObject, IAuditableText
 {
     // --- KEYS (Standard) ---
     public int PlotPointId { get; set; }
@@ -17,6 +17,9 @@ public partial class PlotPointCodexEntry : ObservableObject
     // --- PAYLOAD (Observable for Live Edit) ---
     
     // How is this element used? (Mentioned, Active Usage, Subversion, etc.)
+    [ObservableProperty]
+    private DateTime _lastModified = DateTime.UtcNow;
+
     [ObservableProperty]
     private CodexUsageType _usageType = CodexUsageType.Mentioned;
 

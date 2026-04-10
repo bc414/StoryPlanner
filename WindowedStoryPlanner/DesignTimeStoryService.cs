@@ -100,4 +100,9 @@ public class DesignTimeStoryService : IStoryService
     {
         throw new NotImplementedException();
     }
+
+    public IEnumerable<IAuditableText> GetAllAuditableTexts()
+    {
+        throw new NotImplementedException();
+    }
 }

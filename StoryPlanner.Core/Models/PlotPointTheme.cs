@@ -4,7 +4,7 @@ using System.Text.Json.Serialization;
 namespace StoryPlanner.Core.Models;
 
 // Link: PlotPoint <-> Theme (Thematic Argument)
-public partial class PlotPointTheme : ObservableObject
+public partial class PlotPointTheme : ObservableObject, IAuditableText
 {
     // --- KEYS (Standard) ---
     public int PlotPointId { get; set; }
@@ -16,6 +16,9 @@ public partial class PlotPointTheme : ObservableObject
     public Theme Theme { get; set; } = null!;
 
     // --- PAYLOAD (Observable for Live Edit) ---
+
+    [ObservableProperty]
+    private DateTime _lastModified = DateTime.UtcNow;
 
     [ObservableProperty]
     private ThemeProminence _prominence;
