@@ -821,7 +821,8 @@ public partial class MainViewModel : ObservableObject
 
 
     {
-        AuditableItems.Clear();
+        // 1. Create a temporary standard List (does not notify UI)
+        var tempItems = new List<AuditableItemViewModel>();
         foreach (var item in _storyService.GetAllAuditableTexts())
         {
             AuditableItemViewModel vm = null;
@@ -943,13 +944,19 @@ public partial class MainViewModel : ObservableObject
             
             if (vm != null && !string.IsNullOrWhiteSpace(vm.Text))
             {
-                AuditableItems.Add(vm);
+                tempItems.Add(vm);
             }
         }
-        
-        var sorted = AuditableItems.OrderBy(x => x.LastModified).ToList();
+
+        // 3. Sort by date, take only the oldest 200, and execute the query
+        var cappedAndSorted = tempItems
+            .OrderBy(x => x.LastModified)
+            .Take(200)
+            .ToList();
+
+        // 4. Finally, update the actual UI collection
         AuditableItems.Clear();
-        foreach (var sortedVm in sorted)
+        foreach (var sortedVm in cappedAndSorted)
         {
             AuditableItems.Add(sortedVm);
         }
@@ -986,7 +993,26 @@ public partial class MainViewModel : ObservableObject
         }
         return false;
     }
-    
+
+    [RelayCommand]
+    public void OpenAuditWindow()
+    {
+        // Use a specific key for the singleton window
+        string key = "AuditWindow";
+
+        // Checks if the window is already open and brings it to the front if it is
+        if (ActivateIfOpen(key)) return;
+
+        var win = new AuditWindow { DataContext = this }; // 'this' is the MainViewModel
+
+        // Registers the window so MainViewModel knows to track it
+        RegisterWindow(key, win);
+        win.Show();
+
+        // Optional: Automatically fetch the items when the window opens
+        RefreshAuditableItems();
+    }
+
     // 1. The Collection the DataGrid binds to
     public ObservableCollection<NotePropertyStats> DataGridStats { get; } = new();
 

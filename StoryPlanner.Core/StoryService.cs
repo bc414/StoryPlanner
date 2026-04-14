@@ -453,7 +453,25 @@ public class StoryService : IStoryService
     {
         if (_context != null)
         {
-            _context.Notes.Remove(note);
+            // 1. Handle EF Core Tracking
+            if (note.Id == 0)
+            {
+                // The note is new and unsaved. Just detach it from EF tracking.
+                _context.Entry(note).State = EntityState.Detached;
+            }
+            else
+            {
+                // The note exists in the database. Mark it for deletion.
+                _context.Notes.Remove(note);
+            }
+
+            // 2. Clean up the UI Collection
+            // Ensure the note is removed from your unassigned list so the UI updates
+            // (Since your CollectionChanged event only handles NewItems, not OldItems)
+            if (UnassignedNotes != null && UnassignedNotes.Contains(note))
+            {
+                UnassignedNotes.Remove(note);
+            }
         }
     }
 
