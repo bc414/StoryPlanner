@@ -69,9 +69,6 @@
             <DataTemplate DataType="{x:Type vm:ThemeViewModel}">
                 <local:ThemeCard />
             </DataTemplate>
-            <DataTemplate DataType="{x:Type vm:LocationViewModel}">
-                <local:LocationCard />
-            </DataTemplate>
             <DataTemplate DataType="{x:Type vm:CodexEntryViewModel}">
                 <local:CodexEntryCard />
             </DataTemplate>

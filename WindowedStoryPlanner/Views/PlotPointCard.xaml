@@ -22,7 +22,7 @@
             <v:PlotPointThemeView />
         </DataTemplate>
         
-        <DataTemplate DataType="{x:Type m:PlotPointThread}">
+        <DataTemplate DataType="{x:Type m:PlotPointStoryThread}">
             <v:PlotPointThreadView />
         </DataTemplate>
         

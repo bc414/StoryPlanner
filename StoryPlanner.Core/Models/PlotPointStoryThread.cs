@@ -4,14 +4,14 @@ using System.Text.Json.Serialization;
 namespace StoryPlanner.Core.Models;
 
 // Link: PlotPoint <-> Thread
-public partial class PlotPointThread : ObservableObject, IAuditableText
+public partial class PlotPointStoryThread : ObservableObject, IAuditableText
 {
     // --- KEYS (Standard) ---
     public int PlotPointId { get; set; }
     [JsonIgnore]
     public PlotPoint PlotPoint { get; set; } = null!;
 
-    public int ThreadId { get; set; }
+    public int StoryThreadId { get; set; }
     [JsonIgnore]
     public StoryThread StoryThread { get; set; } = null!;
 

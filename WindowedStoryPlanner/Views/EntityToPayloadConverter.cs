@@ -36,7 +36,7 @@ namespace WindowedStoryPlanner.Views
             if (contextItem is StoryThreadViewModel threadVM)
             {
                 return plotPointVM.Model.ThreadAssignments
-                    .FirstOrDefault(x => x.ThreadId == threadVM.StoryThread.Id);
+                    .FirstOrDefault(x => x.StoryThreadId == threadVM.StoryThread.Id);
             }
     
             if (contextItem is CodexEntryViewModel codexVM)

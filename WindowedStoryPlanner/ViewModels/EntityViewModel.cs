@@ -160,8 +160,6 @@ public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
             (PlotPointViewModel, CodexEntryViewModel) => true,
             (ChapterViewModel, PlotPointViewModel) => true,
             (PlotPointViewModel, ChapterViewModel) => true,
-            (LocationViewModel, PlotPointViewModel) => true,
-            (PlotPointViewModel, LocationViewModel) => true,
             _ => false
         };
 
@@ -196,8 +194,6 @@ public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
             case (PlotPointViewModel p, CodexEntryViewModel e): p.LinkCodexEntry(e); break;
             case (ChapterViewModel ch, PlotPointViewModel p): p.LinkChapter(ch); break;
             case (PlotPointViewModel p, ChapterViewModel ch): p.LinkChapter(ch); break;
-            case (LocationViewModel l, PlotPointViewModel p): p.LinkLocation(l); break;
-            case (PlotPointViewModel p, LocationViewModel l): p.LinkLocation(l); break;
         }
     }
 }

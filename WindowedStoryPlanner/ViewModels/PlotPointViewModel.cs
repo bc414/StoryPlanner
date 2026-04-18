@@ -20,7 +20,6 @@ public partial class PlotPointViewModel : EntityViewModel
     public ObservableCollection<CodexEntryViewModel> CodexEntries { get; } = new();
     public ObservableCollection<ThemeViewModel> Themes { get; } = new();
     public ObservableCollection<ChapterViewModel> Chapters { get; } = new();
-    public ObservableCollection<LocationViewModel> Locations { get; } = new();
     
     public ObservableCollection<ChapterViewModel> AllChapters => MainViewModel.Instance.ChapterViewModels;
 
@@ -42,7 +41,7 @@ public partial class PlotPointViewModel : EntityViewModel
     public void PopulateAssociatedViewModelCollections()
     {
         StoryThreads.Clear();
-        foreach (PlotPointThread threadAssignment in Model.ThreadAssignments)
+        foreach (PlotPointStoryThread threadAssignment in Model.ThreadAssignments)
         {
             StoryThreads.Add(MainViewModel.Instance.StoryThreadDictionary[threadAssignment.StoryThread]);
         }
@@ -69,12 +68,6 @@ public partial class PlotPointViewModel : EntityViewModel
         if (Model.Chapter != null)
         {
             Chapters.Add(MainViewModel.Instance.ChapterDictionary[Model.Chapter]);
-        }
-        
-        Locations.Clear();
-        if (Model.Location != null)
-        {
-            Locations.Add(MainViewModel.Instance.LocationDictionary[Model.Location]);
         }
     }
 
@@ -163,28 +156,6 @@ public partial class PlotPointViewModel : EntityViewModel
         set => SetProperty(Model.Presentation, value, Model, (u, n) => u.Presentation = n);
     }
 
-    
-    
-    [RelayCommand]
-    private void ViewLocationPayload(LocationViewModel vm)
-    {
-        // Location is a single assignment, so payload is just the Location itself or null
-        // But for consistency with others, we might not have a dedicated payload window for simple assignment.
-        // However, we can still provide Unlink.
-        
-        // Since Location is 1:1, we don't have a "Payload Object" like "PlotPointTheme".
-        // We just open the Location details? Or maybe nothing?
-        // User asked for "View/Edit Connection Details". 
-        // For simple properties, maybe just select it?
-        
-        // Let's just allow Unlink for now or open details.
-        
-        if (MessageBox.Show($"Unlink Location '{vm.Location.Name}'?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
-        {
-            UnlinkLocation(vm);
-        }
-    }
-
     [RelayCommand]
     private void ViewChapterPayload(ChapterViewModel vm)
     {
@@ -266,7 +237,7 @@ public partial class PlotPointViewModel : EntityViewModel
     [RelayCommand]
     public void UnlinkThread(StoryThreadViewModel StoryThreadViewModel)
     {
-        PlotPointThread payload = StoryThreadViewModel.StoryThread.PlotPointAssignments.Where(pp => pp.PlotPoint == Model).FirstOrDefault();
+        PlotPointStoryThread payload = StoryThreadViewModel.StoryThread.PlotPointAssignments.Where(pp => pp.PlotPoint == Model).FirstOrDefault();
         if(payload != null)
         {
             //1. Remove from Plot Point Model
@@ -280,17 +251,6 @@ public partial class PlotPointViewModel : EntityViewModel
 
             //4. Remove from StoryThreadViewModel's PlotPointViewModel Collection
             StoryThreadViewModel.PlotPointCollectionViewModel.ViewModelCollection.Remove(this);
-        }
-    }
-    
-    public void UnlinkLocation(LocationViewModel locationViewModel)
-    {
-        if (Model.Location == locationViewModel.Location)
-        {
-            Model.Location = null;
-            Locations.Clear();
-            locationViewModel.Location.PlotPoints.Remove(Model);
-            locationViewModel.PlotPointCollectionViewModel.ViewModelCollection.Remove(this);
         }
     }
 
@@ -336,10 +296,6 @@ public partial class PlotPointViewModel : EntityViewModel
                 UnlinkChapter(chapterVM);
                 break;
 
-            case LocationViewModel locVM:
-                UnlinkLocation(locVM);
-                break;
-
             default:
                 // Optional: Log warning or ignore
                 MessageBox.Show("UnlinkEntity: Unsupported entity type.");
@@ -357,8 +313,7 @@ public partial class PlotPointViewModel : EntityViewModel
             CodexEntryViewModel e => Model.CodexReferences.Any(x => x.CodexEntry == e.CodexEntry),
             
             // 1:1 Relationships (Check if IDs match or objects match)
-            ChapterViewModel ch => Model.ChapterId == ch.Chapter.Id, 
-            LocationViewModel l => Model.LocationId == l.Location.Id,
+            ChapterViewModel ch => Model.ChapterId == ch.Chapter.Id,
             
             _ => false
         };
@@ -386,12 +341,12 @@ public partial class PlotPointViewModel : EntityViewModel
     {
         if (IsLinkedTo(threadViewModel)) return;
 
-        PlotPointThread newPayload = new PlotPointThread()
+        PlotPointStoryThread newPayload = new PlotPointStoryThread()
         {
             PlotPoint = Model,
             PlotPointId = Model.Id,
             StoryThread = threadViewModel.StoryThread,
-            ThreadId = threadViewModel.StoryThread.Id,
+            StoryThreadId = threadViewModel.StoryThread.Id,
             SortOrder = threadViewModel.StoryThread.PlotPointAssignments.Count
         };
 
@@ -436,23 +391,6 @@ public partial class PlotPointViewModel : EntityViewModel
         Model.CodexReferences.Add(newPayload);
         codexViewModel.CodexEntry.PlotPointReferences.Add(newPayload);
         CodexEntries.Add(codexViewModel);
-
-        //ViewCodexPayload(codexViewModel);
-    }
-
-    public void LinkLocation(LocationViewModel locationViewModel)
-    {
-        if (IsLinkedTo(locationViewModel)) return; // 1:1 Logic is slightly different, but checking equality works
-
-        Model.Location = locationViewModel.Location;
-        Model.LocationId = locationViewModel.Location.Id;
-
-        locationViewModel.Location.PlotPoints.Add(Model);
-        
-        Locations.Clear();
-        Locations.Add(locationViewModel);
-        
-        locationViewModel.PlotPointCollectionViewModel.ViewModelCollection.Add(this);
     }
 
     public void LinkChapter(ChapterViewModel chapterViewModel)
@@ -565,11 +503,11 @@ public partial class PlotPointViewModel : EntityViewModel
     private void AddThread(StoryThread thread)
     {
         // 1. Create Data Link
-        var newLink = new PlotPointThread 
+        var newLink = new PlotPointStoryThread 
         { 
             PlotPoint = Model, 
             StoryThread = thread,
-            ThreadId = thread.Id,
+            StoryThreadId = thread.Id,
             ThreadTrajectory = GoalTrajectory.Unset 
         };
 

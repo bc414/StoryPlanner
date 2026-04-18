@@ -156,12 +156,12 @@ public partial class StoryThreadViewModel : EntityViewModel
 
         var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
 
-        PlotPointThread junction = new PlotPointThread
+        PlotPointStoryThread junction = new PlotPointStoryThread
         {
             PlotPoint = plotPoint,
             PlotPointId = plotPoint.Id,
             StoryThread = _storyThread,
-            ThreadId = _storyThread.Id,
+            StoryThreadId = _storyThread.Id,
             SortOrder = _storyThread.PlotPointAssignments.Count,
             IsPrimary = true,
             ThreadTrajectory = GoalTrajectory.Unset,

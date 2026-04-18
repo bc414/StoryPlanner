@@ -10,7 +10,6 @@ public interface IStoryService : IDisposable
     ObservableCollection<StoryThread> StoryThreads { get; }
     ObservableCollection<Character> Characters { get; }
     ObservableCollection<Theme> Themes { get; }
-    ObservableCollection<Location> Locations { get; }
     ObservableCollection<CodexEntry> CodexEntries { get; }
     ObservableCollection<SourceMaterial> SourceMaterials { get; }
     ObservableCollection<PlotPoint> PlotPoints { get; }

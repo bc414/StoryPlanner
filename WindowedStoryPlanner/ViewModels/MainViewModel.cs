@@ -35,7 +35,6 @@ public partial class MainViewModel : ObservableObject
     public ObservableCollection<Chapter> Chapters => _storyService.Chapters;
     public ObservableCollection<StoryThread> Threads => _storyService.StoryThreads;
     public ObservableCollection<Theme> Themes => _storyService.Themes;
-    public ObservableCollection<Location> Locations => _storyService.Locations;
     public ObservableCollection<CodexEntry> CodexEntries => _storyService.CodexEntries;
     public ObservableCollection<SourceMaterial> SourceMaterials => _storyService.SourceMaterials;
 
@@ -54,7 +53,6 @@ public partial class MainViewModel : ObservableObject
     public ObservableCollection<ChapterViewModel> ChapterViewModels { get; set; }
     public ObservableCollection<StoryThreadViewModel> StoryThreadViewModels { get; set; }
     public ObservableCollection<ThemeViewModel> ThemeViewModels { get; set; }
-    public ObservableCollection<LocationViewModel> LocationViewModels { get; set; }
     public ObservableCollection<CodexEntryViewModel> CodexEntryViewModels { get; set; }
 
     //Need a dictionary for reasonable performance converting navigation property model lists to view model list
@@ -64,7 +62,6 @@ public partial class MainViewModel : ObservableObject
     public Dictionary<Chapter, ChapterViewModel> ChapterDictionary = new();
     public Dictionary<StoryThread, StoryThreadViewModel> StoryThreadDictionary = new();
     public Dictionary<Theme, ThemeViewModel> ThemeDictionary = new();
-    public Dictionary<Location, LocationViewModel> LocationDictionary = new();
     public Dictionary<CodexEntry, CodexEntryViewModel> CodexEntryDictionary = new();
 
     public PlotPointCollectionViewModel PlotPointsByTextViewModel { get; set; } = new();
@@ -236,12 +233,6 @@ public partial class MainViewModel : ObservableObject
                 StoryThreadDictionary);
             EnableLiveSorting(StoryThreadViewModels, nameof(StoryThreadViewModel.Name));
 
-            // 6. Locations
-            LocationViewModels = CreateViewModelCollection<Location, LocationViewModel>(
-                Locations, 
-                LocationDictionary);
-            EnableLiveSorting(LocationViewModels, nameof(LocationViewModel.Name));
-
             // 7. CodexEntries
             CodexEntryViewModels = CreateViewModelCollection<CodexEntry, CodexEntryViewModel>(
                 CodexEntries, 
@@ -283,7 +274,6 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(PlotPoints));
             OnPropertyChanged(nameof(CodexEntries));
             OnPropertyChanged(nameof(Themes));
-            OnPropertyChanged(nameof(Locations));
             OnPropertyChanged(nameof(SourceMaterials));
 
             OnPropertyChanged(nameof(CharacterViewModels));
@@ -291,7 +281,6 @@ public partial class MainViewModel : ObservableObject
             OnPropertyChanged(nameof(StoryThreadViewModels));
             OnPropertyChanged(nameof(ThemeViewModels));
             OnPropertyChanged(nameof(ChapterViewModels));
-            OnPropertyChanged(nameof(LocationViewModels));
             OnPropertyChanged(nameof(CodexEntryViewModels));
             OnPropertyChanged(nameof(CodexEntriesGroupedView));
 
@@ -487,29 +476,6 @@ public partial class MainViewModel : ObservableObject
     }
 
     [RelayCommand]
-    public async Task AddLocation()
-    {
-        Location newLocation = new Location();
-        _storyService.Locations.Add(newLocation);
-        await _storyService.SaveAsync();
-        LocationViewModel viewModel = new LocationViewModel(newLocation);
-        LocationViewModels.Add(viewModel);
-        OpenEditorWindow(viewModel);
-    }
-
-    [RelayCommand]
-    public void DeleteLocation(LocationViewModel viewModel)
-    {
-        Location location = viewModel.Location;
-        if (MessageBox.Show($"Are you sure you want to delete location '{location.Name}')?", "Confirm Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
-        {
-            LocationViewModels.Remove(viewModel);
-            LocationDictionary.Remove(location);
-            _storyService.Locations.Remove(location);
-        }
-    }
-
-    [RelayCommand]
     public async Task AddCodexEntry()
     {
         CodexEntry newCodexEntry = new CodexEntry();
@@ -632,10 +598,6 @@ public partial class MainViewModel : ObservableObject
         {
             return new ThemeWindow();
         }
-        else if (viewModel is LocationViewModel)
-        {
-            return new LocationWindow();
-        }
         else if (viewModel is CodexEntryViewModel)
         {
             return new CodexEntryWindow();
@@ -659,7 +621,6 @@ public partial class MainViewModel : ObservableObject
         if (ChapterViewModels != null) pendingEntities.AddRange(ChapterViewModels.Where(x => x.HasAnalysisPending));
         if (StoryThreadViewModels != null) pendingEntities.AddRange(StoryThreadViewModels.Where(x => x.HasAnalysisPending));
         if (ThemeViewModels != null) pendingEntities.AddRange(ThemeViewModels.Where(x => x.HasAnalysisPending));
-        if (LocationViewModels != null) pendingEntities.AddRange(LocationViewModels.Where(x => x.HasAnalysisPending));
         if (CodexEntryViewModels != null) pendingEntities.AddRange(CodexEntryViewModels.Where(x => x.HasAnalysisPending));
 
         if (pendingEntities.Count > 0)
@@ -893,7 +854,7 @@ public partial class MainViewModel : ObservableObject
                     () => { OpenEditorWindow(PlotPointViewModels.FirstOrDefault(p => p.Model.Id == pp.Id)); }
                 );
             }
-            else if (item is PlotPointThread ppt)
+            else if (item is PlotPointStoryThread ppt)
             {
                 vm = new AuditableItemViewModel(
                     ppt,
@@ -984,7 +945,6 @@ public partial class MainViewModel : ObservableObject
             else if (entity is StoryThreadViewModel s) textToSearch = s.Name;
             else if (entity is ChapterViewModel ch) textToSearch = ch.Title;
             else if (entity is CodexEntryViewModel ce) textToSearch = ce.Title;
-            else if (entity is LocationViewModel l) textToSearch = l.Name;
 
             if (string.IsNullOrEmpty(textToSearch)) return false;
 

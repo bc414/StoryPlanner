@@ -9,8 +9,7 @@ public class AppDbContext : DbContext
 
     // --- Tables ---
     public DbSet<Chapter> Chapters { get; set; }
-    public DbSet<StoryThread> Threads { get; set; }
-    public DbSet<Location> Locations { get; set; }
+    public DbSet<StoryThread> StoryThreads { get; set; }
     public DbSet<PlotPoint> PlotPoints { get; set; }
     
     // The "Concept Containers"
@@ -31,7 +30,7 @@ public class AppDbContext : DbContext
     
     public DbSet<PlotPointCharacter> PlotPointCharacters { get; set; }
     public DbSet<PlotPointTheme> PlotPointThemes { get; set; }
-    public DbSet<PlotPointThread> PlotPointThreads { get; set; }
+    public DbSet<PlotPointStoryThread> PlotPointThreads { get; set; }
     
     // NEW: The replacement for PlotPointNotes
     public DbSet<PlotPointCodexEntry> PlotPointCodexEntries { get; set; }
@@ -45,8 +44,8 @@ public class AppDbContext : DbContext
         // =========================================================
 
         // PlotPoint <-> Thread
-        modelBuilder.Entity<PlotPointThread>()
-            .HasKey(pt => new { pt.PlotPointId, pt.ThreadId });
+        modelBuilder.Entity<PlotPointStoryThread>()
+            .HasKey(pt => new { pt.PlotPointId, pt.StoryThreadId });
 
         // PlotPoint <-> Theme (Thematic Argument)
         modelBuilder.Entity<PlotPointTheme>()
@@ -99,12 +98,6 @@ public class AppDbContext : DbContext
             .HasOne(n => n.StoryThread)
             .WithMany(c => c.Notes)
             .HasForeignKey(n => n.StoryThreadId)
-            .OnDelete(DeleteBehavior.Cascade);
-        
-        modelBuilder.Entity<Note>()
-            .HasOne(n => n.Location)
-            .WithMany(c => c.Notes)
-            .HasForeignKey(n => n.LocationId)
             .OnDelete(DeleteBehavior.Cascade);
     }
     

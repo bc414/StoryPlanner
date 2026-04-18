@@ -6,7 +6,6 @@ namespace StoryPlanner.Core.Models;
 
 public record StoryWorldData(
     List<SourceMaterial> Sources,
-    List<Location> Locations,
     List<Character> Characters,
     List<Theme> Themes,
     List<StoryThread> StoryThreads,
@@ -20,25 +19,12 @@ public static class DesignDataFactory
 {
     public static StoryWorldData CreateWorld()
     {
-        // ==============================================================================
-        // 1. SOURCES & LOCATIONS
-        // ==============================================================================
+        
         var sources = new List<SourceMaterial>
         {
             new() { Id = 1, Name = "Canon FIM", Abbreviation = "FIM", ColorHex = "#D63384" },
             new() { Id = 2, Name = "Equestria at War", Abbreviation = "EaW", ColorHex = "#FD7E14" },
             new() { Id = 3, Name = "Original Fiction", Abbreviation = "OC", ColorHex = "#20C997" }
-        };
-
-        var locations = new List<Location>
-        {
-            new() { Id = 1, Name = "Tall Tale", Region = "North Equestria", Description = "Industrial hub, home of Star Energy. The 'Stalingrad' of the war." },
-            new() { Id = 2, Name = "Appleloosa", Region = "Southwest", Description = "Oil fields and Buffalo territory. Site of Rockfeller's sabotage." },
-            new() { Id = 3, Name = "Tzinacatl Jungle", Region = "Southeast", Description = "Home of the 12 Tribes. Source of rubber and ancient irrigation magic." },
-            new() { Id = 4, Name = "Canterlot Castle", Region = "Central", Description = "The Throne Room. Site of Pagala's execution and Celestia's abdication." },
-            new() { Id = 5, Name = "Bluebell River", Region = "Central Plains", Description = "The site of the decisive armored spearhead." },
-            new() { Id = 6, Name = "Cloudbury", Region = "Griffonian Republic", Description = "Capital of the GR. Site of the 'Voice' conference." },
-            new() { Id = 7, Name = "Vesalipolis", Region = "Changeling Lands", Description = "The final siege." }
         };
 
         // ==============================================================================
@@ -174,8 +160,6 @@ public static class DesignDataFactory
             Chapter = chapters.First(c => c.Id == 1),
             ChapterId = 1, // <--- EXPLICIT ID
             Title = "The Retreat Order",
-            Location = locations.First(l => l.Id == 1),
-            LocationId = 1, // <--- EXPLICIT ID
             WorldDate = "1011.12.05",
             Stakes = "Survival of Tall Tale's civilian population.",
             Synopsis = "Luna arrives and orders a general retreat, citing the 'nightmares' of the soldiers. Applejack refuses to leave her home and the Star Energy factories.",
@@ -187,22 +171,22 @@ public static class DesignDataFactory
             Status = DraftStatus.Outlined
         };
         // Link by Object AND Id to prevent "ThreadId=0" duplicates
-        pp1.ThreadAssignments.Add(new PlotPointThread
+        pp1.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp1,
             PlotPointId = 1, // <--- EXPLICIT ID
             StoryThread = threads.First(t => t.Id == 5),
-            ThreadId = 5,    // <--- EXPLICIT ID
+            StoryThreadId = 5,    // <--- EXPLICIT ID
             ThreadTrajectory = GoalTrajectory.Stagnant,
             ImpactDescription = "Defense weakened, but resolve hardened.",
             IsPrimary = true
         });
-        pp1.ThreadAssignments.Add(new PlotPointThread
+        pp1.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp1,
             PlotPointId = 1,
             StoryThread = threads.First(t => t.Id == 2),
-            ThreadId = 2,    // <--- EXPLICIT ID
+            StoryThreadId = 2,    // <--- EXPLICIT ID
             ThreadTrajectory = GoalTrajectory.Positive,
             ImpactDescription = "First defiance of Royal authority."
         });
@@ -225,8 +209,6 @@ public static class DesignDataFactory
             Chapter = chapters.First(c => c.Id == 3),
             ChapterId = 3,
             Title = "Red Magic",
-            Location = locations.First(l => l.Id == 1),
-            LocationId = 1,
             WorldDate = "1012.01.15",
             Stakes = "AJ's life. The integrity of the defensive line.",
             Synopsis = "AJ is pinned down by tanks. Twilight arrives, disobeying Celestia, and uses a laser to vaporize the fuel trucks and changelings.",
@@ -237,22 +219,22 @@ public static class DesignDataFactory
             Presentation = Presentation.RealTime,
             Status = DraftStatus.Drafted
         };
-        pp2.ThreadAssignments.Add(new PlotPointThread
+        pp2.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp2,
             PlotPointId = 2,
             StoryThread = threads.First(t => t.Id == 3),
-            ThreadId = 3,
+            StoryThreadId = 3,
             ThreadTrajectory = GoalTrajectory.Positive,
             ImpactDescription = "Shared trauma. 'You are my monster.' Bonding.",
             IsPrimary = true
         });
-        pp2.ThreadAssignments.Add(new PlotPointThread
+        pp2.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp2,
             PlotPointId = 2,
             StoryThread = threads.First(t => t.Id == 5),
-            ThreadId = 5,
+            StoryThreadId = 5,
             ThreadTrajectory = GoalTrajectory.Triumph,
             ImpactDescription = "Tall Tale survives the second battle."
         });
@@ -275,8 +257,6 @@ public static class DesignDataFactory
             Chapter = chapters.First(c => c.Id == 6),
             ChapterId = 6,
             Title = "The Shovel Reveal",
-            Location = locations.First(l => l.Id == 2),
-            LocationId = 2,
             WorldDate = "1012.03.10",
             Stakes = "Oil supply for the tanks.",
             Synopsis = "Fleur Bloom explains that mechanization doesn't dampen Earth Pony magic; it amplifies it. Rockfeller was suppressing this to keep control.",
@@ -287,22 +267,22 @@ public static class DesignDataFactory
             Presentation = Presentation.RealTime,
             Status = DraftStatus.Planned
         };
-        pp3.ThreadAssignments.Add(new PlotPointThread
+        pp3.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp3,
             PlotPointId = 3,
             StoryThread = threads.First(t => t.Id == 6),
-            ThreadId = 6,
+            StoryThreadId = 6,
             ThreadTrajectory = GoalTrajectory.Triumph,
             ImpactDescription = "Oil crisis solved. Star Energy model validated.",
             IsPrimary = true
         });
-        pp3.ThreadAssignments.Add(new PlotPointThread
+        pp3.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp3,
             PlotPointId = 3,
             StoryThread = threads.First(t => t.Id == 4),
-            ThreadId = 4,
+            StoryThreadId = 4,
             ThreadTrajectory = GoalTrajectory.Triumph,
             ImpactDescription = "Theory of Magic confirmed."
         });
@@ -315,8 +295,6 @@ public static class DesignDataFactory
             Chapter = chapters.First(c => c.Id == 10),
             ChapterId = 10,
             Title = "Trimmel's Surrender",
-            Location = locations.First(l => l.Id == 5),
-            LocationId = 5,
             WorldDate = "1012.06.20",
             Stakes = "The encirclement of the Changeling Army.",
             Synopsis = "Trimmel realizes he has been outmaneuvered by AJ's 'Backhand Blow'. He surrenders to AJ, acknowledging her as a peer ('The Lioness').",
@@ -327,12 +305,12 @@ public static class DesignDataFactory
             Presentation = Presentation.RealTime,
             Status = DraftStatus.Idea
         };
-        pp4.ThreadAssignments.Add(new PlotPointThread
+        pp4.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp4,
             PlotPointId = 4,
             StoryThread = threads.First(t => t.Id == 1),
-            ThreadId = 1,
+            StoryThreadId = 1,
             ThreadTrajectory = GoalTrajectory.Triumph,
             ImpactDescription = "Enemy's best general removed from the board.",
             IsPrimary = true
@@ -356,8 +334,6 @@ public static class DesignDataFactory
             Chapter = chapters.First(c => c.Id == 11),
             ChapterId = 11,
             Title = "The Entrenching Tool",
-            Location = locations.First(l => l.Id == 4),
-            LocationId = 4,
             WorldDate = "1012.08.01",
             Stakes = "Liberation of Canterlot.",
             Synopsis = "In the throne room, Pagala uses hostages. AJ shoots Pagala with a magical rifle (or shovel?), ending her terror.",
@@ -368,12 +344,12 @@ public static class DesignDataFactory
             Presentation = Presentation.RealTime,
             Status = DraftStatus.Idea
         };
-        pp5.ThreadAssignments.Add(new PlotPointThread
+        pp5.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp5,
             PlotPointId = 5,
             StoryThread = threads.First(t => t.Id == 1),
-            ThreadId = 1,
+            StoryThreadId = 1,
             ThreadTrajectory = GoalTrajectory.Triumph,
             ImpactDescription = "Occupation of Equestria ends.",
             IsPrimary = true
@@ -397,8 +373,6 @@ public static class DesignDataFactory
             Chapter = chapters.First(c => c.Id == 12),
             ChapterId = 12,
             Title = "The White Peace",
-            Location = locations.First(l => l.Id == 4),
-            LocationId = 4,
             WorldDate = "1012.09.01",
             Stakes = "The future of the war.",
             Synopsis = "Celestia declares the war over and refuses to invade the Changeling Lands. She wants to return to the 'Walled Garden'. AJ refuses to stop.",
@@ -409,22 +383,22 @@ public static class DesignDataFactory
             Presentation = Presentation.RealTime,
             Status = DraftStatus.Outlined
         };
-        pp6.ThreadAssignments.Add(new PlotPointThread
+        pp6.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp6,
             PlotPointId = 6,
             StoryThread = threads.First(t => t.Id == 2),
-            ThreadId = 2,
+            StoryThreadId = 2,
             ThreadTrajectory = GoalTrajectory.Triumph,
             ImpactDescription = "The Republic becomes inevitable.",
             IsPrimary = true
         });
-        pp6.ThreadAssignments.Add(new PlotPointThread
+        pp6.ThreadAssignments.Add(new PlotPointStoryThread
         {
             PlotPoint = pp6,
             PlotPointId = 6,
             StoryThread = threads.First(t => t.Id == 1),
-            ThreadId = 1,
+            StoryThreadId = 1,
             ThreadTrajectory = GoalTrajectory.Negative,
             ImpactDescription = "War effort stalled by politics."
         });
@@ -497,7 +471,6 @@ public static class DesignDataFactory
                 Character = characters.First(c => c.Id == 5)
             },
 
-            // --- LOCATION SPECIFIC ---
             new()
             {
                 Id = 8,
@@ -564,6 +537,6 @@ public static class DesignDataFactory
         });
 
         // Add entries to the final return object
-        return new StoryWorldData(sources, locations, characters, themes, threads, notes, chapters, points, codexEntries);
+        return new StoryWorldData(sources, characters, themes, threads, notes, chapters, points, codexEntries);
     }
 }

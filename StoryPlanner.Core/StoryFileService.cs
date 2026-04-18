@@ -46,9 +46,8 @@ public class StoryFileService
 
             // 2. World Entities (Include Notes for all)
             Characters = _context.Characters.Include(c => c.Notes).AsNoTracking().ToList(),
-            Locations = _context.Locations.Include(l => l.Notes).Include(l => l.PlotPoints).AsNoTracking().ToList(),
             Themes = _context.Themes.Include(t => t.Notes).AsNoTracking().ToList(),
-            StoryThreads = _context.Threads.Include(t => t.Notes).AsNoTracking().ToList(),
+            StoryThreads = _context.StoryThreads.Include(t => t.Notes).AsNoTracking().ToList(),
             CodexEntries = _context.CodexEntries.Include(c => c.Notes).AsNoTracking().ToList(),
             
             // 3. Meta
@@ -93,9 +92,8 @@ public class StoryFileService
         _context.Chapters.RemoveRange(_context.Chapters);
         
         _context.Characters.RemoveRange(_context.Characters);
-        _context.Threads.RemoveRange(_context.Threads);
+        _context.StoryThreads.RemoveRange(_context.StoryThreads);
         _context.Themes.RemoveRange(_context.Themes);
-        _context.Locations.RemoveRange(_context.Locations);
         _context.CodexEntries.RemoveRange(_context.CodexEntries);
         _context.SourceMaterials.RemoveRange(_context.SourceMaterials);
         _context.GeminiEntries.RemoveRange(_context.GeminiEntries);
@@ -113,8 +111,7 @@ public class StoryFileService
         // Insert Reference Entities
         if (data.Characters.Any()) _context.Characters.AddRange(data.Characters);
         if (data.Themes.Any()) _context.Themes.AddRange(data.Themes);
-        if (data.StoryThreads.Any()) _context.Threads.AddRange(data.StoryThreads);
-        if (data.Locations.Any()) _context.Locations.AddRange(data.Locations);
+        if (data.StoryThreads.Any()) _context.StoryThreads.AddRange(data.StoryThreads);
         if (data.CodexEntries.Any()) _context.CodexEntries.AddRange(data.CodexEntries);
 
         // Insert Hierarchy
@@ -142,7 +139,7 @@ public class StoryFileService
             .AsNoTracking()
             .ToList();
 
-        var threads = _context.Threads.Include(t => t.Notes).AsNoTracking().ToList();
+        var threads = _context.StoryThreads.Include(t => t.Notes).AsNoTracking().ToList();
         var themes = _context.Themes.Include(t => t.Notes).AsNoTracking().ToList();
         var chars = _context.Characters.Include(c => c.Notes).AsNoTracking().ToList();
         var codex = _context.CodexEntries.Include(c => c.Notes).AsNoTracking().ToList();

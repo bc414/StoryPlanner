@@ -11,7 +11,7 @@ public class StoryThread
     public string Icon { get; set; } = "🧵"; // Default to a thread spool?
     public ThreadScope ThreadScope { get; set; }
 
-    public ObservableCollection<PlotPointThread> PlotPointAssignments { get; set; } = new();
+    public ObservableCollection<PlotPointStoryThread> PlotPointAssignments { get; set; } = new();
 
     public ObservableCollection<Note> Notes { get; set; } = new();
 }

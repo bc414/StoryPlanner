@@ -18,7 +18,6 @@ public class StoryProjectData
     public List<Character> Characters { get; set; } = new();
     public List<StoryThread> StoryThreads { get; set; } = new();
     public List<Theme> Themes { get; set; } = new();
-    public List<Location> Locations { get; set; } = new();
     public List<CodexEntry> CodexEntries { get; set; } = new();
     
     // --- Meta & Aux ---

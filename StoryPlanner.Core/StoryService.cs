@@ -21,7 +21,6 @@ public class StoryService : IStoryService
     public ObservableCollection<Theme> Themes { get; private set; } = new();
     
     // --- NEW ENTITIES ---
-    public ObservableCollection<Location> Locations { get; private set; } = new();
     public ObservableCollection<CodexEntry> CodexEntries { get; private set; } = new();
     public ObservableCollection<SourceMaterial> SourceMaterials { get; private set; } = new();
 
@@ -214,7 +213,6 @@ public class StoryService : IStoryService
         var unassignedList = _context.Set<Note>().Local.Where(n =>
             !n.CharacterId.HasValue &&
             !n.ThemeId.HasValue &&
-            !n.LocationId.HasValue &&
             !n.CodexEntryId.HasValue &&
             !n.ChapterId.HasValue &&
             !n.StoryThreadId.HasValue).ToList();
@@ -244,8 +242,6 @@ public class StoryService : IStoryService
         // We load EVERY PlotPoint (both Chapter-bound and Floating).
         // We include every possible connection here. 
         await _context.PlotPoints
-            // 1. Geography
-            .Include(p => p.Location) 
             // 2. Threads (Junction Table + The Thread itself)
             .Include(p => p.ThreadAssignments).ThenInclude(t => t.StoryThread)
             // 3. Themes (Junction Table + The Theme itself)
@@ -265,10 +261,9 @@ public class StoryService : IStoryService
         // EF Core will see "Chapter 1" and "PlotPoint 5 (ChapterId=1)" and connect them.
 
         await _context.Chapters.OrderBy(c => c.OrderIndex).LoadAsync();
-        await _context.Threads.LoadAsync();
+        await _context.StoryThreads.LoadAsync();
         await _context.Characters.LoadAsync();
         await _context.Themes.LoadAsync();
-        await _context.Locations.LoadAsync();
         await _context.CodexEntries.LoadAsync();
         await _context.SourceMaterials.LoadAsync();
         await _context.GeminiEntries.LoadAsync();
@@ -278,10 +273,9 @@ public class StoryService : IStoryService
         // STEP 4: BIND TO UI
         // ---------------------------------------------------------------------------
         Chapters = _context.Chapters.Local.ToObservableCollection();
-        StoryThreads = _context.Threads.Local.ToObservableCollection();
+        StoryThreads = _context.StoryThreads.Local.ToObservableCollection();
         Characters = _context.Characters.Local.ToObservableCollection();
         Themes = _context.Themes.Local.ToObservableCollection();
-        Locations = _context.Locations.Local.ToObservableCollection();
         CodexEntries = _context.CodexEntries.Local.ToObservableCollection();
         SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
         PlotPoints = _context.PlotPoints.Local.ToObservableCollection();
@@ -361,7 +355,6 @@ public class StoryService : IStoryService
             Unassigned = filteredNotes.Count(n => 
                 !n.CharacterId.HasValue && 
                 !n.ThemeId.HasValue && 
-                !n.LocationId.HasValue && 
                 !n.CodexEntryId.HasValue && 
                 !n.ChapterId.HasValue && 
                 !n.StoryThreadId.HasValue)
@@ -402,7 +395,6 @@ public class StoryService : IStoryService
         var unassignedList = _context.Set<Note>().Local.Where(n =>
             !n.CharacterId.HasValue &&
             !n.ThemeId.HasValue &&
-            !n.LocationId.HasValue &&
             !n.CodexEntryId.HasValue &&
             !n.ChapterId.HasValue &&
             !n.StoryThreadId.HasValue).ToList();

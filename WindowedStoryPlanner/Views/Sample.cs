@@ -53,15 +53,6 @@ public static class Sample
         }
     }
 
-    public static LocationViewModel LocationViewModel
-    {
-        get
-        {
-            var data = DesignDataFactory.CreateWorld();
-            return new LocationViewModel(data.Locations.First());
-        }
-    }
-
     public static ThemeViewModel ThemeViewModel
     {
         get
@@ -150,7 +141,7 @@ public static class Sample
         }
     }
 
-    public static PlotPointThread PlotPointThread
+    public static PlotPointStoryThread PlotPointThread
     {
         get
         {

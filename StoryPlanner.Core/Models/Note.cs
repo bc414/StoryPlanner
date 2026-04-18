@@ -27,8 +27,6 @@ public partial class Note : ObservableObject, IAuditableText
 
     public int? CodexEntryId { get; set; }
     [JsonIgnore] public CodexEntry? CodexEntry { get; set; }
-    public int? LocationId { get; set; }
-    [JsonIgnore] public Location? Location { get; set; }
     public int? CharacterId { get; set; }
     [JsonIgnore] public Character? Character { get; set; }
     public int? ThemeId { get; set; }

@@ -267,15 +267,6 @@ Width="200" Height="40" Margin="0,0,10,0"/>
             </DockPanel>
         </TabItem>
 
-        <TabItem Header="Locations">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding LocationViewModels}" DeleteItemCommand="{Binding DeleteLocationCommand}"/>
-                    <Button Content="Add Location"  Command="{Binding AddLocationCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
-        </TabItem>
-
         <TabItem Header="Sources">
             <Grid Margin="10">
                 <Grid.RowDefinitions>

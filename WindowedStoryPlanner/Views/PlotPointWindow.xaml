@@ -23,9 +23,6 @@
         <DataTemplate DataType="{x:Type vm:ChapterViewModel}">
             <local:ChapterCard/>
         </DataTemplate>
-        <DataTemplate DataType="{x:Type vm:LocationViewModel}">
-            <local:LocationCard/>
-        </DataTemplate>
         <DataTemplate DataType="{x:Type vm:StoryThreadViewModel}">
             <local:StoryThreadCard/>
         </DataTemplate>
@@ -35,7 +32,7 @@
         <DataTemplate DataType="{x:Type m:PlotPointTheme}">
             <local:PlotPointThemeView />
         </DataTemplate>
-        <DataTemplate DataType="{x:Type m:PlotPointThread}">
+        <DataTemplate DataType="{x:Type m:PlotPointStoryThread}">
             <local:PlotPointThreadView />
         </DataTemplate>
         <DataTemplate DataType="{x:Type m:PlotPointCodexEntry}">
@@ -158,10 +155,6 @@
 
                     <Expander Header="CODEX / LORE" IsExpanded="True">
                         <local:VerticalLinkViewer ItemsSource="{Binding CodexEntries}" />
-                    </Expander>
-
-                    <Expander Header="LOCATION" IsExpanded="True">
-                        <local:VerticalLinkViewer ItemsSource="{Binding Locations}" />
                     </Expander>
 
                 </StackPanel>

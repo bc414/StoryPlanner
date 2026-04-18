@@ -5,9 +5,9 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public partial class PlotPointThreadViewModel : ObservableObject
 {
-    private readonly PlotPointThread _link;
+    private readonly PlotPointStoryThread _link;
 
-    public PlotPointThreadViewModel(PlotPointThread link)
+    public PlotPointThreadViewModel(PlotPointStoryThread link)
     {
         _link = link;
     }

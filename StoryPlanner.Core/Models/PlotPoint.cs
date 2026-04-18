@@ -32,13 +32,9 @@ public class PlotPoint : IAuditableText
     public Chapter? Chapter { get; set; }
     public int OrderInChapter { get; set; }
 
-    public int? LocationId { get; set; }
-    [JsonIgnore]
-    public Location? Location { get; set; }
-
     // --- Collections ---
     // We keep ObservableCollection here so the VM can listen to adds/removes
-    public ObservableCollection<PlotPointThread> ThreadAssignments { get; set; } = new();
+    public ObservableCollection<PlotPointStoryThread> ThreadAssignments { get; set; } = new();
     public ObservableCollection<PlotPointCharacter> CharacterAppearances { get; set; } = new();
     public ObservableCollection<PlotPointTheme> ThemeAssignments { get; set; } = new();
     public ObservableCollection<PlotPointCodexEntry> CodexReferences { get; set; } = new();
