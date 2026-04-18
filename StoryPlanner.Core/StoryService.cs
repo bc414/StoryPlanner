@@ -13,7 +13,6 @@ namespace StoryPlanner.Core;
 public class StoryService : IStoryService
 {
     private AppDbContext? _context;
-    private string _googleDocId = "1rr3SASDp85y2sYzkXVvdgkOLFp18-6LbiyPFAoKrSgw";
 
     // --- The In-Memory Data Graph ---
     public ObservableCollection<Chapter> Chapters { get; private set; } = new();
@@ -86,15 +85,7 @@ public class StoryService : IStoryService
 
     public string GetAiContextJson(bool includeVerbatim)
     {
-        if (_context == null) throw new InvalidOperationException("Project not loaded");
-        var fileService = new StoryFileService(_context);
-        //string a = fileService.GetContextForAI(false);
-        string b = fileService.GetOptimizedContextForAINew();
-        //string c = fileService.GetSuperOptimizedContextForAI();
-
-        //string c = fileService.GetMarkdownContextForAI();
-
-        return b;
+        return string.Empty;
     }
 
     public string GetMarkdown()
@@ -343,78 +334,6 @@ public class StoryService : IStoryService
             System.Diagnostics.Debug.WriteLine($"Failed to write stats to CSV: {ex.Message}");
         }
     }
-    
-    private async Task SyncToGoogleDocsAsync(string markdownText, string documentTitle)
-    {
-        try
-        {
-            // 1. Authenticate (Assumes a Service Account for seamless background saving)
-            // You will need to generate a service-account.json from Google Cloud Console
-            GoogleCredential credential;
-            using (var stream = new FileStream("service-account.json", FileMode.Open, FileAccess.Read))
-            {
-                credential = GoogleCredential.FromStream(stream)
-                    .CreateScoped(DriveService.Scope.DriveFile);
-            }
-
-            // 2. Create Drive Service
-            var service = new DriveService(new BaseClientService.Initializer()
-            {
-                HttpClientInitializer = credential,
-                ApplicationName = "StoryPlanner"
-            });
-
-            // 3. Convert Markdown to HTML for Native Google Doc Formatting
-            var pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();
-            string htmlContent = Markdown.ToHtml(markdownText, pipeline);
-
-            // 4. Prepare File Stream
-            using var byteArray = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(htmlContent));
-
-            if (string.IsNullOrEmpty(_googleDocId))
-            {
-                // CREATE NEW DOCUMENT
-                var fileMetadata = new Google.Apis.Drive.v3.Data.File()
-                {
-                    Name = documentTitle,
-                    MimeType = "application/vnd.google-apps.document" // Triggers conversion to Native Google Doc
-                };
-
-                var request = service.Files.Create(fileMetadata, byteArray, "text/html");
-                request.Fields = "id, webViewLink";
-                
-                var progress = await request.UploadAsync();
-                if (progress.Status == UploadStatus.Completed)
-                {
-                    _googleDocId = request.ResponseBody.Id;
-                    System.Diagnostics.Debug.WriteLine($"Created Google Doc: {request.ResponseBody.WebViewLink}");
-                }
-            }
-            else
-            {
-                // UPDATE EXISTING DOCUMENT (Overwrites content with the new save)
-                var fileMetadata = new Google.Apis.Drive.v3.Data.File()
-                {
-                    Name = documentTitle 
-                };
-
-                var request = service.Files.Update(fileMetadata, _googleDocId, byteArray, "text/html");
-                var progress = await request.UploadAsync();
-                
-                if (progress.Status == UploadStatus.Completed)
-                {
-                    System.Diagnostics.Debug.WriteLine($"Updated existing Google Doc: {_googleDocId}");
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            // Fail silently so a network error doesn't crash your local save
-            System.Diagnostics.Debug.WriteLine($"Google Drive Sync Failed: {ex.Message}");
-        }
-    }
-    
-    // Inside StoryService.cs
 
     public NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition)
     {

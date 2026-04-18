@@ -3,10 +3,11 @@ obj/
 /packages/
 riderModule.iml
 /_ReSharper.Caches/
-/.idea/.idea.StoryPlanner/.idea
+/.idea/
 /.vs/StoryPlanner
 /WindowedStoryPlanner/Properties/PublishProfiles
 /codebase_dump.txt
 /WindowedStoryPlanner/WindowedStoryPlanner.csproj.user
 /identifier.sqlite
 /StoryPlanner.sln.DotSettings.user
+/.vs/
