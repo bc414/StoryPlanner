@@ -10,7 +10,7 @@ public partial class CharacterViewModel : EntityViewModel
     private readonly Character _character;
     public Character Character => _character;
 
-    public CharacterViewModel(Character character)
+    public CharacterViewModel(Character character, IEditorCoordinator editorCoordinator) : base(editorCoordinator)
     {
         _character = character;
 

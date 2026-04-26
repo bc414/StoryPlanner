@@ -14,8 +14,9 @@ public enum ThemeProminence
     Unset = 0,
     Motif = 1,         // Background flavor
     Discussion = 2,    // Talked about
-    Demonstration = 3, // actively shown in events
-    CentralConflict = 4 // The core point of the scene
+    Counterargument = 3,
+    Demonstration = 4, // actively shown in events
+    CentralConflict = 5 // The core point of the scene
 }
 
 public enum CharacterRole
@@ -23,16 +24,16 @@ public enum CharacterRole
     Unset = 0,
     Supporting = 1,
     Protagonist = 2,
-    PointOfView = 3,    // We are in their head
-    Antagonist = 4
+    Antagonist = 3
 }
 
 public enum CharacterDevImpact
 {
-    Static = 0,        // No change
-    CoreValueLearned = 1,    // New belief acquired
-    CoreValueDemonstration = 2,    //They teach others
-    CoreValueChange = 3,  // Major decision/change
+    Unset = 0,        // No change
+    CoreValueTested = 1,
+    CoreValueLearned = 2,    // New belief acquired
+    CoreValueDemonstration = 3,    //They teach others
+    CoreValueChange = 4,  // Major decision/change
 }
 
 public enum CodexCategory
@@ -96,7 +97,7 @@ public enum TensionPhase
     // --- The Comedown (Falling Energy) ---
     Impact,          // Phase 1: The immediate force (Good or Bad). Shock/Celebration.
     Resolution,      // Phase 2: The New Normal. Processing. Safety.
-
+    //Revelation? delivering a recontextualizing piece of world truth or character truth to the reader, after a local climax?
     // --- Utility ---
     Transition       // Bridge
 }
@@ -108,7 +109,7 @@ public enum ConflictType
 {
     Unset = 0,
 
-    Peaceful = 1 << 0, // No conflict at all (for scenes that are purely reflective or expositional)
+    Ideological = 1 << 0, // system vs system, when a character represent something beyond themself
 
     // 1. You vs. Someone Else (The Rival)
     Interpersonal = 1 << 1,

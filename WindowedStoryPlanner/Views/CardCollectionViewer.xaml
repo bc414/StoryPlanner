@@ -72,7 +72,7 @@
             <DataTemplate DataType="{x:Type vm:CodexEntryViewModel}">
                 <local:CodexEntryCard />
             </DataTemplate>
-            <DataTemplate DataType="{x:Type vm:PlotPointViewModel}">
+            <DataTemplate DataType="{x:Type vm:PlotPointViewModelOld}">
                 <local:PlotPointCard />
             </DataTemplate>
         </ListView.Resources>

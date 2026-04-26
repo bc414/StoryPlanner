@@ -66,11 +66,6 @@
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,5,0,0">
                 <Button Content="+ New Plot Point" Height="24" Command="{Binding AddPlotPointCommand}"/>
-                <Button Content="Sort by Chapter" 
-                        Height="24" 
-                        Margin="0,0,10,0" 
-                        Command="{Binding SortByChapterOrderCommand}"
-                        ToolTip="Rearrange these plot points to match their order in the book"/>
                 <CheckBox x:Name="ReOrderCheckbox" Visibility="Collapsed"
                           Content="Reorder Thread Flow" 
                           IsChecked="{Binding IsPlotPointReorderMode}"

@@ -37,6 +37,9 @@ public partial class App : Application
                 // will talk to this ONE instance.
                 services.AddSingleton<IStoryService, StoryService>();
 
+                services.AddSingleton<MainViewModel>();
+                services.AddSingleton<IEditorCoordinator>(sp => sp.GetRequiredService<MainViewModel>());
+
                 // 3. REGISTER WINDOWS
                 // We register MainWindow so DI can inject the Service into it automatically.
                 services.AddSingleton<MainWindow>();
@@ -69,7 +72,7 @@ public partial class App : Application
         if (e.Key == Key.S && (Keyboard.Modifiers & ModifierKeys.Control) == ModifierKeys.Control)
         {
             // Access the Singleton Instance of MainViewModel
-            var vm = MainViewModel.Instance;
+            var vm = AppHost.Services.GetRequiredService<MainViewModel>();
 
             // Execute the command if it exists and can execute
             if (vm != null && vm.SaveChangesCommand.CanExecute(null))

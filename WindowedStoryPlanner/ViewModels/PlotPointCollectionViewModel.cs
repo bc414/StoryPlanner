@@ -10,7 +10,7 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public partial class PlotPointCollectionViewModel : ObservableObject
 {
-    public ObservableCollection<PlotPointViewModel> ViewModelCollection { get; set; } = new();
+    public ObservableCollection<PlotPointViewModelOld> ViewModelCollection { get; set; } = new();
 
     // Strategy: If null, reordering is disabled (Buttons Hidden)
     private readonly Action<int, int>? _reorderStrategy;
@@ -36,14 +36,14 @@ public partial class PlotPointCollectionViewModel : ObservableObject
     public bool CanReorder => _reorderStrategy != null;
 
     [RelayCommand]
-    public void MoveItemUp(PlotPointViewModel item)
+    public void MoveItemUp(PlotPointViewModelOld item)
     {
         int index = ViewModelCollection.IndexOf(item);
         if (index > 0) MoveItem(index, index - 1);
     }
 
     [RelayCommand]
-    public void MoveItemDown(PlotPointViewModel item)
+    public void MoveItemDown(PlotPointViewModelOld item)
     {
         int index = ViewModelCollection.IndexOf(item);
         if (index < ViewModelCollection.Count - 1) MoveItem(index, index + 1);

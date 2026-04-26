@@ -10,22 +10,29 @@ using StoryPlanner.Core.Models;
 
 namespace StoryPlanner.Core;
 
+/// <summary>
+/// Represents data loading
+/// </summary>
 public class StoryService : IStoryService
 {
     private AppDbContext? _context;
 
     // --- The In-Memory Data Graph ---
-    public ObservableCollection<Chapter> Chapters { get; private set; } = new();
-    public ObservableCollection<StoryThread> StoryThreads { get; private set; } = new();
-    public ObservableCollection<Character> Characters { get; private set; } = new();
-    public ObservableCollection<Theme> Themes { get; private set; } = new();
-    
-    // --- NEW ENTITIES ---
-    public ObservableCollection<CodexEntry> CodexEntries { get; private set; } = new();
-    public ObservableCollection<SourceMaterial> SourceMaterials { get; private set; } = new();
 
-    // All plot points (to be filtered later)
+    public ObservableCollection<Subject> Subjects { get; private set; } = new();
     public ObservableCollection<PlotPoint> PlotPoints { get; private set; } = new();
+
+    public ObservableCollection<PlotPointSubjectLink> PlotPointsSubjectLinks { get; private set; } = new();
+
+    public ObservableCollection<Chapter> Chapters { get; private set; } = new();
+    public ObservableCollection<Note> Notes { get; private set; } = new();
+    public ObservableCollection<SubjectDefinition> SubjectDefinitions { get; private set; } = new();
+    public ObservableCollection<NoteTrackDefinition> NoteTrackDefinitions { get; private set; } = new();
+    public ObservableCollection<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; private set; } = new();
+    public ObservableCollection<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; private set; } = new();
+    public ObservableCollection<NarrativePropertyValue> NarrativePropertyValues { get; private set; } = new();
+
+    public ObservableCollection<SourceMaterial> SourceMaterials { get; private set; } = new();
 
     public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
     public ObservableCollection<Idea> Ideas { get; private set; } = new();
@@ -68,18 +75,6 @@ public class StoryService : IStoryService
         if (_context == null) throw new InvalidOperationException("Project not loaded");
         var fileService = new StoryFileService(_context);
         return fileService.ExportFullDatabase();
-    }
-
-    public async Task RestoreProjectFromJsonAsync(string json)
-    {
-        if (_context == null) throw new InvalidOperationException("Project not loaded");
-        var fileService = new StoryFileService(_context);
-        
-        await fileService.ImportFullDatabaseAsync(json);
-        
-        // CRITICAL: Reload the data into the ObservableCollections
-        // so the UI updates immediately
-        await LoadDataAsync();
     }
 
     public string GetAiContextJson(bool includeVerbatim)
@@ -200,71 +195,22 @@ public class StoryService : IStoryService
     public async Task LoadDataAsync()
     {
         if (_context == null) return;
-        // ---------------------------------------------------------------------------
-        // STEP 1: LOAD ALL NOTES (The Atoms)
-        // ---------------------------------------------------------------------------
-        // We load every single note in the database.
-        // Because Notes are polymorphic (they can belong to Themes, Characters, etc.),
-        // loading them first ensures that when we load the "Containers" later, 
-        // their .Notes collections will instantly populate via Fix-Up.
+
         await _context.Set<Note>()
             .LoadAsync();
 
-        var unassignedList = _context.Set<Note>().Local.Where(n =>
-            !n.CharacterId.HasValue &&
-            !n.ThemeId.HasValue &&
-            !n.CodexEntryId.HasValue &&
-            !n.ChapterId.HasValue &&
-            !n.StoryThreadId.HasValue).ToList();
-
-        UnassignedNotes = new ObservableCollection<Note>(unassignedList);
-
-        // 3. Wire up the auto-sync to the Database Context
-        UnassignedNotes.CollectionChanged += (s, e) =>
-        {
-            if (e.NewItems != null)
-            {
-                foreach (Note n in e.NewItems)
-                {
-                    // Only force EF to Add if it's a brand new entity
-                    // (EF Core defaults integer primary keys to 0 before saving)
-                    if (n.Id == 0)
-                    {
-                        _context.Notes.Add(n);
-                    }
-                } 
-            }
-        };
-
-        // ---------------------------------------------------------------------------
-        // STEP 2: LOAD ALL PLOT POINTS (The Narrative Units)
-        // ---------------------------------------------------------------------------
-        // We load EVERY PlotPoint (both Chapter-bound and Floating).
-        // We include every possible connection here. 
         await _context.PlotPoints
-            // 2. Threads (Junction Table + The Thread itself)
-            .Include(p => p.ThreadAssignments).ThenInclude(t => t.StoryThread)
-            // 3. Themes (Junction Table + The Theme itself)
-            .Include(p => p.ThemeAssignments).ThenInclude(t => t.Theme)
-            // 4. Characters (Junction Table + The Character itself)
-            .Include(p => p.CharacterAppearances).ThenInclude(c => c.Character)
-            .Include(p => p.CodexReferences).ThenInclude(c => c.CodexEntry)
-            .Include(p => p.Chapter)
-            .AsSplitQuery() // Essential to prevent Cartesian Explosion
             .LoadAsync();
 
-        // ---------------------------------------------------------------------------
-        // STEP 3: LOAD THE CONTAINERS (The Buckets)
-        // ---------------------------------------------------------------------------
-        // We don't need .Include() here! 
-        // Why? Because the Children (Notes and PlotPoints) are already in memory.
-        // EF Core will see "Chapter 1" and "PlotPoint 5 (ChapterId=1)" and connect them.
-
         await _context.Chapters.OrderBy(c => c.OrderIndex).LoadAsync();
-        await _context.StoryThreads.LoadAsync();
-        await _context.Characters.LoadAsync();
-        await _context.Themes.LoadAsync();
-        await _context.CodexEntries.LoadAsync();
+
+        // Definitions — load leaves first so EF relationship fixup wires nav properties
+        await _context.NoteTrackDefinitions.LoadAsync();
+        await _context.NarrativePropertyValueDefinitions.LoadAsync();
+        await _context.NarrativePropertyDefinitions.LoadAsync();   // nav → NarrativePropertyValueDefinitions
+        await _context.SubjectDefinitions.LoadAsync();             // nav → NoteTrackDefinitions, NarrativePropertyDefinitions
+        await _context.NarrativePropertyValues.LoadAsync();        // FK refs only, no nav props
+
         await _context.SourceMaterials.LoadAsync();
         await _context.GeminiEntries.LoadAsync();
         await _context.Ideas.LoadAsync();
@@ -273,12 +219,15 @@ public class StoryService : IStoryService
         // STEP 4: BIND TO UI
         // ---------------------------------------------------------------------------
         Chapters = _context.Chapters.Local.ToObservableCollection();
-        StoryThreads = _context.StoryThreads.Local.ToObservableCollection();
-        Characters = _context.Characters.Local.ToObservableCollection();
-        Themes = _context.Themes.Local.ToObservableCollection();
-        CodexEntries = _context.CodexEntries.Local.ToObservableCollection();
-        SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
         PlotPoints = _context.PlotPoints.Local.ToObservableCollection();
+
+        SubjectDefinitions           = _context.SubjectDefinitions.Local.ToObservableCollection();
+        NoteTrackDefinitions         = _context.NoteTrackDefinitions.Local.ToObservableCollection();
+        NarrativePropertyDefinitions = _context.NarrativePropertyDefinitions.Local.ToObservableCollection();
+        NarrativePropertyValueDefinitions = _context.NarrativePropertyValueDefinitions.Local.ToObservableCollection();
+        NarrativePropertyValues      = _context.NarrativePropertyValues.Local.ToObservableCollection();
+
+        SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
         GeminiEntries = _context.GeminiEntries.Local.ToObservableCollection();
         Ideas  = _context.Ideas.Local.ToObservableCollection();
 

@@ -2,7 +2,7 @@ using System.Collections.ObjectModel;
 
 namespace StoryPlanner.Core.Models;
 
-public class Chapter
+public class Chapter : INoteable
 {
     public int Id { get; set; }
     public string Title { get; set; } = string.Empty;
@@ -10,9 +10,7 @@ public class Chapter
     public string Description { get; set; } = string.Empty;
     
     // The explicit order in the book (1, 2, 3...)
-    public int OrderIndex { get; set; } 
+    public int OrderIndex { get; set; }
 
-    public ObservableCollection<PlotPoint> PlotPoints { get; set; } = new();
-
-    public ObservableCollection<Note> Notes { get; set; } = new();
+    public OwnerType OwnerType => OwnerType.Chapter;
 }

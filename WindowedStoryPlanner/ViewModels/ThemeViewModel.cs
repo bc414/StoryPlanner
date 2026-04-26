@@ -11,7 +11,7 @@ public partial class ThemeViewModel : EntityViewModel
     private readonly Theme _theme;
     public Theme Theme => _theme;
 
-    public ThemeViewModel(Theme theme)
+    public ThemeViewModel(Theme theme, IEditorCoordinator editorCoordinator) : base(editorCoordinator)
     {
         _theme = theme;
 

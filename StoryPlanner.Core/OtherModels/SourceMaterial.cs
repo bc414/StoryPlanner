@@ -14,6 +14,4 @@ public partial class SourceMaterial : ObservableObject
     
     [ObservableProperty]
     private string _colorHex = "#FFFFFF"; // UI binds to this
-    
-    public List<Note> Notes { get; set; } = new();
 }

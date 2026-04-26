@@ -8,97 +8,27 @@ public class AppDbContext : DbContext
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
     // --- Tables ---
-    public DbSet<Chapter> Chapters { get; set; }
-    public DbSet<StoryThread> StoryThreads { get; set; }
     public DbSet<PlotPoint> PlotPoints { get; set; }
-    
-    // The "Concept Containers"
-    public DbSet<Character> Characters { get; set; }
-    public DbSet<Theme> Themes { get; set; }
-    public DbSet<CodexEntry> CodexEntries { get; set; }
-    
-    // The Atomic Unit of Truth
+    public DbSet<Subject> Subjects { get; set; }
+    public DbSet<PlotPointSubjectLink> PlotPointSubjectLinks { get; set; }
+    public DbSet<Chapter> Chapters { get; set; }
     public DbSet<Note> Notes { get; set; }
+
+    public DbSet<SubjectDefinition> SubjectDefinitions { get; set; }
+    public DbSet<NoteTrackDefinition> NoteTrackDefinitions { get; set; }
+    public DbSet<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; set; }
+    public DbSet<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; set; }
+    public DbSet<NarrativePropertyValue> NarrativePropertyValues { get; set; }
     
     public DbSet<SourceMaterial> SourceMaterials { get; set; }
     
     public DbSet<GeminiEntry> GeminiEntries { get; set; }
     public DbSet<Idea> Ideas { get; set; }
     
-    // --- PAYLOAD CONNECTIONS (The Edges of the Graph) ---
-    // Adding these allows you to do: _context.PlotPointCharacters.Remove(link);
-    
-    public DbSet<PlotPointCharacter> PlotPointCharacters { get; set; }
-    public DbSet<PlotPointTheme> PlotPointThemes { get; set; }
-    public DbSet<PlotPointStoryThread> PlotPointThreads { get; set; }
-    
-    // NEW: The replacement for PlotPointNotes
-    public DbSet<PlotPointCodexEntry> PlotPointCodexEntries { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-
-        // =========================================================
-        // 1. COMPOSITE KEYS (Many-to-Many Payloads)
-        // =========================================================
-
-        // PlotPoint <-> Thread
-        modelBuilder.Entity<PlotPointStoryThread>()
-            .HasKey(pt => new { pt.PlotPointId, pt.StoryThreadId });
-
-        // PlotPoint <-> Theme (Thematic Argument)
-        modelBuilder.Entity<PlotPointTheme>()
-            .HasKey(pt => new { pt.PlotPointId, pt.ThemeId });
-
-        // PlotPoint <-> Character (Development)
-        modelBuilder.Entity<PlotPointCharacter>()
-            .HasKey(pc => new { pc.PlotPointId, pc.CharacterId });
-
-        modelBuilder.Entity<PlotPointCodexEntry>()
-            .HasKey(pc => new { pc.PlotPointId, pc.CodexEntryId });
-
-        modelBuilder.Entity<Note>()
-            .HasOne(n => n.SourceMaterial)
-            .WithMany(s => s.Notes)
-            .HasForeignKey(n => n.SourceMaterialId)
-            .OnDelete(DeleteBehavior.SetNull); // If you delete a Source, keep the note but clear the tag
-
-        // =========================================================
-        // 3. OPTIONAL CONSTRAINTS
-        // =========================================================
-        
-        // Ensure Note belongs to only one parent container (optional enforcement)
-        // EF Core handles the nullable FKs automatically, but explicit config helps clarity.
-        modelBuilder.Entity<Note>()
-            .HasOne(n => n.Character)
-            .WithMany(c => c.Notes)
-            .HasForeignKey(n => n.CharacterId)
-            .OnDelete(DeleteBehavior.Cascade);
-
-        modelBuilder.Entity<Note>()
-            .HasOne(n => n.Theme)
-            .WithMany(t => t.Notes)
-            .HasForeignKey(n => n.ThemeId)
-            .OnDelete(DeleteBehavior.Cascade);
-
-        modelBuilder.Entity<Note>()
-            .HasOne(n => n.CodexEntry)
-            .WithMany(c => c.Notes)
-            .HasForeignKey(n => n.CodexEntryId)
-            .OnDelete(DeleteBehavior.Cascade);
-        
-        modelBuilder.Entity<Note>()
-            .HasOne(n => n.Chapter)
-            .WithMany(c => c.Notes)
-            .HasForeignKey(n => n.ChapterId)
-            .OnDelete(DeleteBehavior.Cascade);
-        
-        modelBuilder.Entity<Note>()
-            .HasOne(n => n.StoryThread)
-            .WithMany(c => c.Notes)
-            .HasForeignKey(n => n.StoryThreadId)
-            .OnDelete(DeleteBehavior.Cascade);
     }
     
     public override int SaveChanges()
@@ -116,7 +46,7 @@ public class AppDbContext : DbContext
     private void UpdateAuditFields()
     {
         // Get all tracked entities that implement IAuditableText
-        var entries = ChangeTracker.Entries<IAuditableText>();
+        var entries = ChangeTracker.Entries<Note>();
 
         foreach (var entry in entries)
         {

@@ -9,7 +9,7 @@ using WindowedStoryPlanner.Views;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public partial class PlotPointViewModel : EntityViewModel
+public partial class PlotPointViewModelOld : EntityViewModel
 {
     public PlotPoint Model { get; }
 
@@ -23,7 +23,7 @@ public partial class PlotPointViewModel : EntityViewModel
     
     public ObservableCollection<ChapterViewModel> AllChapters => MainViewModel.Instance.ChapterViewModels;
 
-    public PlotPointViewModel(PlotPoint model)
+    public PlotPointViewModelOld(PlotPoint model, IEditorCoordinator editorCoordinator) : base(editorCoordinator)
     {
         Model = model;
 
@@ -154,15 +154,6 @@ public partial class PlotPointViewModel : EntityViewModel
     {
         get => Model.Presentation;
         set => SetProperty(Model.Presentation, value, Model, (u, n) => u.Presentation = n);
-    }
-
-    [RelayCommand]
-    private void ViewChapterPayload(ChapterViewModel vm)
-    {
-        if (MessageBox.Show($"Unlink Chapter '{vm.Chapter.Title}'?", "Confirm", MessageBoxButton.YesNo) == MessageBoxResult.Yes)
-        {
-            UnlinkChapter(vm);
-        }
     }
     
     [RelayCommand]

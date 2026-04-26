@@ -9,10 +9,9 @@ public partial class CodexEntryViewModel : EntityViewModel
     private readonly CodexEntry _codexEntry;
     public CodexEntry CodexEntry => _codexEntry;
 
-    public CodexEntryViewModel(CodexEntry codexEntry)
+    public CodexEntryViewModel(CodexEntry codexEntry, IEditorCoordinator editorCoordinator) : base(editorCoordinator)
     {
         _codexEntry = codexEntry;
-
         // Initialize the collection VM using the list from the model
         NoteCollectionViewModel = new NoteCollectionViewModel(codexEntry.Notes);
         NoteCollectionViewModel.PropertyChanged += (s, e) =>

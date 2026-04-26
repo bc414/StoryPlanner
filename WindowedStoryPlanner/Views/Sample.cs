@@ -89,7 +89,7 @@ public static class Sample
     public static NoteCollectionViewModel NoteCollectionViewModel => 
         new(new ObservableCollection<Note>(DesignDataFactory.CreateWorld().Notes));
 
-    public static PlotPointViewModel PlotPointViewModel
+    public static PlotPointViewModelOld PlotPointViewModel
     {
         get
         {
@@ -103,7 +103,7 @@ public static class Sample
         get
         {
             List<PlotPoint> plotPoints = DesignDataFactory.CreateWorld().PlotPoints;
-            ObservableCollection<PlotPointViewModel> vms = new ObservableCollection<PlotPointViewModel>();
+            ObservableCollection<PlotPointViewModelOld> vms = new ObservableCollection<PlotPointViewModelOld>();
             foreach(var plotPoint in plotPoints)
             {
                 vms.Add(new PlotPointViewModel(plotPoint));

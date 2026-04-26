@@ -15,8 +15,8 @@ namespace WindowedStoryPlanner.Views
 
             // 1. Identify which input is the PlotPoint and which is the Context Entity
             //    We check both slots because the order depends on where the binding is written.
-            var plotPointVM = values[0] as PlotPointViewModel ?? values[1] as PlotPointViewModel;
-            var contextItem = (values[0] is PlotPointViewModel) ? values[1] : values[0];
+            var plotPointVM = values[0] as PlotPointViewModelOld ?? values[1] as PlotPointViewModelOld;
+            var contextItem = (values[0] is PlotPointViewModelOld) ? values[1] : values[0];
 
             if (plotPointVM == null || contextItem == null) return null;
 

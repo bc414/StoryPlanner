@@ -38,7 +38,7 @@ public partial class FloatingPlotPointsViewModel : ObservableObject
     {
         if (e.NewItems != null)
         {
-            foreach (PlotPointViewModel newItem in e.NewItems)
+            foreach (PlotPointViewModelOld newItem in e.NewItems)
             {
                 // Start listening to this new item's links
                 newItem.Chapters.CollectionChanged += (s, args) => OnChapterLinkChanged(newItem);
@@ -53,7 +53,7 @@ public partial class FloatingPlotPointsViewModel : ObservableObject
 
         if (e.OldItems != null)
         {
-            foreach (PlotPointViewModel oldItem in e.OldItems)
+            foreach (PlotPointViewModelOld oldItem in e.OldItems)
             {
                 // Stop listening
                 // Note: We can't easily unsubscribe the anonymous lambda, but since the object is dying, it's usually acceptable.
@@ -65,7 +65,7 @@ public partial class FloatingPlotPointsViewModel : ObservableObject
     }
 
     // Handles when a Plot Point is Linked or Unlinked
-    private void OnChapterLinkChanged(PlotPointViewModel vm)
+    private void OnChapterLinkChanged(PlotPointViewModelOld vm)
     {
         bool isFloating = vm.Chapters.Count == 0;
         bool isInList = PlotPointCollectionViewModel.ViewModelCollection.Contains(vm);
@@ -91,13 +91,13 @@ public partial class FloatingPlotPointsViewModel : ObservableObject
         };
 
         // Registering adds it to MainViewModel -> OnGlobalListChanged fires -> Adds to our list
-        PlotPointViewModel plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
+        PlotPointViewModelOld plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
         
         MainViewModel.Instance.OpenEditorWindow(plotPointVM);
     }
     
     [RelayCommand]
-    public void DeleteFloatingPlotPoint(PlotPointViewModel vm)
+    public void DeleteFloatingPlotPoint(PlotPointViewModelOld vm)
     {
         if (vm == null) return;
 

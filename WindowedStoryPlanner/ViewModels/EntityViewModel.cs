@@ -13,6 +13,8 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public partial class EntityViewModel : ObservableObject, IDropTarget
 {
+    protected readonly IEditorCoordinator _editorCoordinator;
+
     // Changed to backing field to hook events when set
     private NoteCollectionViewModel _noteCollectionViewModel;
 
@@ -37,7 +39,7 @@ public partial class EntityViewModel : ObservableObject, IDropTarget
     }
 
 
-public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
+    public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
 
     public virtual bool IsLinkingMode => !NoteCollectionViewModel.IsNoteReorderMode;
 
@@ -49,9 +51,9 @@ public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
     [ObservableProperty]
     private string _progressStats = ""; // The "X/Y" text
 
-    public EntityViewModel()
+    public EntityViewModel(IEditorCoordinator editorCoordinator)
     {
-
+        _editorCoordinator = editorCoordinator;
     }
 
     // --- Event Subscription Logic ---
@@ -125,7 +127,7 @@ public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
     [RelayCommand]
     public void OpenWindow()
     {
-        MainViewModel.Instance.OpenEditorWindow(this);
+        _editorCoordinator.OpenEditorWindow(this);
     }
 
     [RelayCommand]
@@ -145,21 +147,21 @@ public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
         object source = dropInfo.Data;
         var target = this;
 
-        PlotPointViewModel? plotPoint = source as PlotPointViewModel ?? target as PlotPointViewModel;
+        PlotPointViewModelOld? plotPoint = source as PlotPointViewModelOld ?? target as PlotPointViewModelOld;
         EntityViewModel? otherEntity = (source == plotPoint) ? target as EntityViewModel : source as EntityViewModel;
 
         bool isTypeCompatible = (source, target) switch
         {
-            (CharacterViewModel, PlotPointViewModel) => true,
-            (PlotPointViewModel, CharacterViewModel) => true,
-            (ThemeViewModel, PlotPointViewModel) => true,
-            (PlotPointViewModel, ThemeViewModel) => true,
-            (StoryThreadViewModel, PlotPointViewModel) => true,
-            (PlotPointViewModel, StoryThreadViewModel) => true,
-            (CodexEntryViewModel, PlotPointViewModel) => true,
-            (PlotPointViewModel, CodexEntryViewModel) => true,
-            (ChapterViewModel, PlotPointViewModel) => true,
-            (PlotPointViewModel, ChapterViewModel) => true,
+            (CharacterViewModel, PlotPointViewModelOld) => true,
+            (PlotPointViewModelOld, CharacterViewModel) => true,
+            (ThemeViewModel, PlotPointViewModelOld) => true,
+            (PlotPointViewModelOld, ThemeViewModel) => true,
+            (StoryThreadViewModel, PlotPointViewModelOld) => true,
+            (PlotPointViewModelOld, StoryThreadViewModel) => true,
+            (CodexEntryViewModel, PlotPointViewModelOld) => true,
+            (PlotPointViewModelOld, CodexEntryViewModel) => true,
+            (ChapterViewModel, PlotPointViewModelOld) => true,
+            (PlotPointViewModelOld, ChapterViewModel) => true,
             _ => false
         };
 
@@ -184,16 +186,16 @@ public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; set; }
 
         switch (source, target)
         {
-            case (CharacterViewModel c, PlotPointViewModel p): p.LinkCharacter(c); break;
-            case (PlotPointViewModel p, CharacterViewModel c): p.LinkCharacter(c); break;
-            case (ThemeViewModel t, PlotPointViewModel p): p.LinkTheme(t); break;
-            case (PlotPointViewModel p, ThemeViewModel t): p.LinkTheme(t); break;
-            case (StoryThreadViewModel s, PlotPointViewModel p): p.LinkThread(s); break;
-            case (PlotPointViewModel p, StoryThreadViewModel s): p.LinkThread(s); break;
-            case (CodexEntryViewModel e, PlotPointViewModel p): p.LinkCodexEntry(e); break;
-            case (PlotPointViewModel p, CodexEntryViewModel e): p.LinkCodexEntry(e); break;
-            case (ChapterViewModel ch, PlotPointViewModel p): p.LinkChapter(ch); break;
-            case (PlotPointViewModel p, ChapterViewModel ch): p.LinkChapter(ch); break;
+            case (CharacterViewModel c, PlotPointViewModelOld p): p.LinkCharacter(c); break;
+            case (PlotPointViewModelOld p, CharacterViewModel c): p.LinkCharacter(c); break;
+            case (ThemeViewModel t, PlotPointViewModelOld p): p.LinkTheme(t); break;
+            case (PlotPointViewModelOld p, ThemeViewModel t): p.LinkTheme(t); break;
+            case (StoryThreadViewModel s, PlotPointViewModelOld p): p.LinkThread(s); break;
+            case (PlotPointViewModelOld p, StoryThreadViewModel s): p.LinkThread(s); break;
+            case (CodexEntryViewModel e, PlotPointViewModelOld p): p.LinkCodexEntry(e); break;
+            case (PlotPointViewModelOld p, CodexEntryViewModel e): p.LinkCodexEntry(e); break;
+            case (ChapterViewModel ch, PlotPointViewModelOld p): p.LinkChapter(ch); break;
+            case (PlotPointViewModelOld p, ChapterViewModel ch): p.LinkChapter(ch); break;
         }
     }
 }
