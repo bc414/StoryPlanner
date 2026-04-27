@@ -18,7 +18,7 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
     {
         get
         {
-            return MainViewModel.Instance.SourceMaterials;
+            return null;
         }
     }
     
@@ -166,7 +166,7 @@ public partial class NoteCollectionViewModel : ObservableObject, IDropTarget
 
         NoteCollection.Remove(noteToDelete);
         UpdateSortOrders();
-        MainViewModel.Instance.DeleteNoteFromDatabase(noteToDelete);
+        //MainViewModel.Instance.DeleteNoteFromDatabase(noteToDelete);
         
         // 3. Notify the UI that the Undo command's execution state has changed
         UndoDeleteCommand.NotifyCanExecuteChanged();

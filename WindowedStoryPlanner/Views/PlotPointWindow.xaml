@@ -26,18 +26,6 @@
         <DataTemplate DataType="{x:Type vm:StoryThreadViewModel}">
             <local:StoryThreadCard/>
         </DataTemplate>
-        <DataTemplate DataType="{x:Type m:PlotPointCharacter}">
-            <local:PlotPointCharacterView />
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type m:PlotPointTheme}">
-            <local:PlotPointThemeView />
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type m:PlotPointStoryThread}">
-            <local:PlotPointThreadView />
-        </DataTemplate>
-        <DataTemplate DataType="{x:Type m:PlotPointCodexEntry}">
-            <local:PlotPointCodexEntryView/>
-        </DataTemplate>
         <ObjectDataProvider x:Key="CoreDriverEnum" MethodName="GetValues" ObjectType="{x:Type m:CoreDriver}">
             <ObjectDataProvider.MethodParameters>
                 <x:Type TypeName="m:CoreDriver"/>

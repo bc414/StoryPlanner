@@ -15,18 +15,11 @@ public class StoryProjectData
     public List<PlotPoint> PlotPoints { get; set; } = new(); // Optional: Usually nested in Chapters, but keeping a flat list can sometimes help validation
     
     // --- The World Bible ---
-    public List<Character> Characters { get; set; } = new();
-    public List<StoryThread> StoryThreads { get; set; } = new();
-    public List<Theme> Themes { get; set; } = new();
-    public List<CodexEntry> CodexEntries { get; set; } = new();
+    public List<Subject> Subjects { get; set; } = new();
+    public List<Note> Notes { get; set; } = new();
     
     // --- Meta & Aux ---
     public List<SourceMaterial> SourceMaterials { get; set; } = new();
     public List<GeminiEntry> GeminiEntries { get; set; } = new();
     public List<Idea> Ideas { get; set; } = new();
-
-    // Note: We don't need a separate "Notes" list here because Notes are children 
-    // of the entities above (Character.Notes, Theme.Notes, etc.). 
-    // However, if you have "Orphan Notes", you might want a list for them.
-    // For safety, let's assume notes travel with their parents.
 }

@@ -19,13 +19,10 @@ public static class DataSeeder
         // OR allow identity insert. For SQLite, adding with IDs usually works fine.
     
         context.SourceMaterials.AddRange(data.Sources);
-        context.Characters.AddRange(data.Characters);
-        context.Themes.AddRange(data.Themes);
-        context.StoryThreads.AddRange(data.StoryThreads);
+        context.Subjects.AddRange(data.Subjects);
         context.Notes.AddRange(data.Notes);
         context.Chapters.AddRange(data.Chapters);
         context.PlotPoints.AddRange(data.PlotPoints);
-        context.CodexEntries.AddRange(data.CodexEntries);
 
         await context.SaveChangesAsync();
     }

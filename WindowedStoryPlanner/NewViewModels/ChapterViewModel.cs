@@ -3,7 +3,8 @@ using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using System.ComponentModel;
-using System.Runtime.InteropServices.JavaScript;
+using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels;
@@ -11,63 +12,54 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class ChapterViewModel : OwnerViewModel
 {
     private readonly Chapter _chapter;
-    public ICollectionView PlotPointsInChapter;
-    private IViewModelRegistry _viewModelRegistry;
-    private IStoryService _storyService;
+
+    public ICollectionView PlotPointsInChapter { get; }
 
     public int Id => _chapter.Id;
-    public ChapterViewModel(Chapter chapter, IViewModelRegistry viewModelRegistry, IStoryService storyService) : base(viewModelRegistry, storyService)
+
+    public ChapterViewModel(
+        Chapter chapter,
+        IViewModelRegistry viewModelRegistry,
+        IStoryService storyService,
+        IEditorCoordinator editorCoordinator)
+        : base(viewModelRegistry, storyService, editorCoordinator)
     {
         _chapter = chapter;
-        _viewModelRegistry = viewModelRegistry;
-        _storyService = storyService;
 
         var noteTracks = storyService.NoteTrackDefinitions
-                .Where(ntd => ntd.OwnerType == OwnerType.Chapter)
-                .ToList();
+            .Where(ntd => ntd.OwnerType == OwnerType.Chapter)
+            .ToList();
 
         var propertyDefs = storyService.NarrativePropertyDefinitions
             .Where(npd => npd.OwnerType == OwnerType.Chapter)
             .ToList();
 
-        InitializeCollections(chapter.Id, OwnerType.Chapter,
-                              noteTracks, propertyDefs);
+        InitializeCollections(chapter.Id, OwnerType.Chapter, noteTracks, propertyDefs);
 
-        PlotPointsInChapter = CollectionViewSource.GetDefaultView(viewModelRegistry.AllPlotPointViewModels);
+        PlotPointsInChapter = CollectionViewSource.GetDefaultView(
+            viewModelRegistry.AllPlotPointViewModels);
         PlotPointsInChapter.Filter = FilterPlotPoints;
-        PlotPointsInChapter.SortDescriptions.Add(new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
-
+        PlotPointsInChapter.SortDescriptions.Add(
+            new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
     }
 
     private bool FilterPlotPoints(object obj)
     {
         if (obj is not PlotPointViewModel plotPoint) return false;
-        return plotPoint.ChapterId.HasValue ? plotPoint.ChapterId == _chapter.Id : false;
+        return plotPoint.ChapterId == _chapter.Id;
     }
 
-    public void UpdateSortOrders()
-    {
-        for (int i = 0; i < PlotPointCollectionViewModel.ViewModelCollection.Count; i++)
-        {
-            PlotPointCollectionViewModel.ViewModelCollection[i].OrderInChapter = i;
-        }
-    }
+    // ── Properties ───────────────────────────────────────────────────────
 
-    // --- Properties Wrapper ---
-
-    // 1. New Computed Property
     public string FullTitle => $"{OrderIndex}. {Title}";
 
-    // 2. Update existing properties to notify FullTitle when they change
     public string Title
     {
         get => _chapter.Title;
         set
         {
             if (SetProperty(_chapter.Title, value, _chapter, (u, n) => u.Title = n))
-            {
                 OnPropertyChanged(nameof(FullTitle));
-            }
         }
     }
 
@@ -76,23 +68,8 @@ public partial class ChapterViewModel : OwnerViewModel
         get => _chapter.OrderIndex;
         set
         {
-            // Standard Property Update
             if (SetProperty(_chapter.OrderIndex, value, _chapter, (u, n) => u.OrderIndex = n))
-            {
-                // 1. Update own title (e.g. "Chapter 1: The Beginning")
-                OnPropertyChanged(nameof(Title)); 
-
-                // 2. THE SIMPLER FIX: Push update to all children
-                // Since this ViewModel already holds the collection of PlotPoints, 
-                // we can just loop through them.
-                foreach (var o in PlotPointsInChapter)
-                {
-                    if(o is PlotPointViewModel plotPoint)
-                    {
-                        
-                    }
-                }
-            }
+                OnPropertyChanged(nameof(FullTitle));
         }
     }
 
@@ -108,30 +85,19 @@ public partial class ChapterViewModel : OwnerViewModel
         set => SetProperty(_chapter.Description, value, _chapter, (u, n) => u.Description = n);
     }
 
-    
+    // ── Commands ─────────────────────────────────────────────────────────
 
     [RelayCommand]
     public async Task AddPlotPoint()
     {
-        PlotPoint? last = _storyService.PlotPoints.Where(p => p.ChapterId == _chapter.Id).OrderBy(p => p.OrderInChapter).LastOrDefault();
-        int orderToUse;
-        if(last != null)
-        {
-            orderToUse = last.OrderInChapter + 1;
-        }
-        else
-        {
-            orderToUse = 1;
-        }
-        PlotPoint plotPoint = new PlotPoint
-        {
-            Title = "New Plot Point",
-            ChapterId = _chapter.Id,
-            OrderInChapter = orderToUse,
-        };
-        _storyService.PlotPoints.Add(plotPoint);
-        await _storyService.SaveAsync();
+        // Determine the next sort order from the service layer so it is
+        // correct even if the window is not yet open (Sections not initialized).
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == _chapter.Id)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
 
-        _viewModelRegistry.AllPlotPointViewModels.Add(new PlotPointViewModel(plotPoint, _viewModelRegistry, _storyService));
+        await _editorCoordinator.CreatePlotPointAsync(_chapter.Id, nextOrder);
     }
 }

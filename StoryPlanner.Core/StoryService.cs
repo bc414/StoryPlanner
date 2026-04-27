@@ -86,7 +86,8 @@ public class StoryService : IStoryService
     {
         if (_context == null) throw new InvalidOperationException("Project not loaded");
         var fileService = new StoryFileService(_context);
-        return fileService.GetMarkdownContextForAI();
+        //return fileService.GetMarkdownContextForAI();
+        return string.Empty;
     }
 
     // --- 1. NEW PROJECT ---
@@ -265,11 +266,11 @@ public class StoryService : IStoryService
                 int wordCount = markdownContext.Split(new char[] { ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
 
                 // 2. Note Metrics via EF Core's Local Tracker
-                int notesToAnalyze = _context.Set<Note>().Local.Count(n => n.NeedsFurtherAnalysis);
-                int notesIncorporated = _context.Set<Note>().Local.Count(n => n.IsIncorporated);
+                //int notesToAnalyze = _context.Set<Note>().Local.Count(n => n.NeedsFurtherAnalysis);
+                //int notesIncorporated = _context.Set<Note>().Local.Count(n => n.IsIncorporated);
 
                 // Append the entry
-                await sw.WriteLineAsync($"{timestamp},{charCount},{wordCount},{notesToAnalyze},{notesIncorporated}");
+                //await sw.WriteLineAsync($"{timestamp},{charCount},{wordCount},{notesToAnalyze},{notesIncorporated}");
             }
         }
         catch (Exception ex)
@@ -277,39 +278,12 @@ public class StoryService : IStoryService
             System.Diagnostics.Debug.WriteLine($"Failed to write stats to CSV: {ex.Message}");
         }
     }
-
+    /*
     public NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition)
     {
-        // Return an empty/zeroed stats object if context isn't loaded
-        if (_context == null) return new NotePropertyStats { StatName = statName };
-
-        // Apply the generic condition to the local cache
-        var filteredNotes = _context.Set<Note>().Local
-            .Where(condition)
-            .ToList();
-
-        return new NotePropertyStats
-        {
-            StatName = statName,
-            Total = filteredNotes.Count,
-        
-            // Tally based on the foreign keys
-            Characters = filteredNotes.Count(n => n.CharacterId.HasValue),
-            Themes = filteredNotes.Count(n => n.ThemeId.HasValue),
-            Codex = filteredNotes.Count(n => n.CodexEntryId.HasValue),
-            Chapters = filteredNotes.Count(n => n.ChapterId.HasValue),
-            Threads = filteredNotes.Count(n => n.StoryThreadId.HasValue),
-        
-            // Catch notes without a parent
-            Unassigned = filteredNotes.Count(n => 
-                !n.CharacterId.HasValue && 
-                !n.ThemeId.HasValue && 
-                !n.CodexEntryId.HasValue && 
-                !n.ChapterId.HasValue && 
-                !n.StoryThreadId.HasValue)
-        };
+        TODO: rework using new NoteState
     }
-
+    */
     public void DeleteNote(Note note)
     {
         if (_context != null)
@@ -341,37 +315,7 @@ public class StoryService : IStoryService
     {
         if (_context == null) return;
 
-        var unassignedList = _context.Set<Note>().Local.Where(n =>
-            !n.CharacterId.HasValue &&
-            !n.ThemeId.HasValue &&
-            !n.CodexEntryId.HasValue &&
-            !n.ChapterId.HasValue &&
-            !n.StoryThreadId.HasValue).ToList();
-
-        _context.Notes.RemoveRange(unassignedList);
-
-        if (UnassignedNotes != null)
-        {
-            UnassignedNotes.Clear();
-        }
-
-        await SaveAsync();
-    }
-
-    public IEnumerable<IAuditableText> GetAllAuditableTexts()
-    {
-        if (_context == null) yield break;
-
-        foreach (var note in _context.Set<Note>().Local) yield return note;
-        
-        foreach (var plotPoint in _context.Set<PlotPoint>().Local)
-        {
-            yield return plotPoint;
-            foreach (var thread in plotPoint.ThreadAssignments) yield return thread;
-            foreach (var theme in plotPoint.ThemeAssignments) yield return theme;
-            foreach (var charApp in plotPoint.CharacterAppearances) yield return charApp;
-            foreach (var codex in plotPoint.CodexReferences) yield return codex;
-        }
+        //TODO: don't purge, but have the unassigned notes visible
     }
 
 
@@ -379,4 +323,7 @@ public class StoryService : IStoryService
     {
         _context?.Dispose();
     }
+
+    public NoteTrackDefinition? GetNoteTrackDefinition(int id)
+    => _context?.Set<NoteTrackDefinition>().Find(id);
 }

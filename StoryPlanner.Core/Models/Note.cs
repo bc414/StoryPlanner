@@ -9,7 +9,7 @@ public class Note
     public int Id { get; set; }
 
     public int OwnerId { get; set; }
-    public int NoteTrackDefinitionId { get; set; }
+    public int? NoteTrackDefinitionId { get; set; }
 
     public DateTime LastModified { get; set; }
 

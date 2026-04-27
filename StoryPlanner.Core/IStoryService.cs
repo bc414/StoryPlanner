@@ -32,9 +32,7 @@ public interface IStoryService : IDisposable
     Task StoreGeminiEntriesAsync(string file);
     string GetFullProjectJson();
     string GetAiContextJson(bool includeVerbatim);
-    // Inside IStoryService.cs
-    NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition);
     void DeleteNote(Note note);
     Task PurgeUnassignedNotesAsync();
-    IEnumerable<IAuditableText> GetAllAuditableTexts();
+    NoteTrackDefinition? GetNoteTrackDefinition(int id);
 }

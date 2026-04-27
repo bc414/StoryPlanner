@@ -84,6 +84,46 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
         UpdateState();
     }
 
+    // --- IEditorCoordinator factory methods ---
+
+    public async Task<NoteViewModel> CreateNoteAsync(int ownerId, int noteTrackDefinitionId, int sortOrder)
+    {
+        Note newNote = new Note
+        {
+            OwnerId = ownerId,
+            NoteTrackDefinitionId = noteTrackDefinitionId,
+            NoteState = NoteState.Unset,
+            SortOrder = sortOrder,
+            LastModified = DateTime.UtcNow
+        };
+
+        _storyService.Notes.Add(newNote);
+        await _storyService.SaveAsync(); // populates newNote.Id
+
+        var vm = new NoteViewModel(newNote, _storyService);
+        AllNoteViewModels.Add(vm);
+        return vm;
+    }
+
+    public async Task CreatePlotPointSubjectLinkAsync(PlotPointViewModel plotPoint, SubjectViewModel subject)
+    {
+        // Guard: link must not already exist
+        if (AllPlotPointSubjectLinkViewModels.Any(l => l.PlotPointId == plotPoint.Id && l.SubjectId == subject.Id))
+            return;
+
+        var link = new PlotPointSubjectLink
+        {
+            PlotPointId = plotPoint.Id,
+            SubjectId = subject.Id
+        };
+
+        _storyService.PlotPointsSubjectLinks.Add(link);
+        await _storyService.SaveAsync(); // populates link.Id
+
+        var vm = new PlotPointSubjectLinkViewModel(link, this, _storyService, this);
+        AllPlotPointSubjectLinkViewModels.Add(vm);
+    }
+
     [RelayCommand]
     public async Task CreateNewProject()
     {
@@ -170,33 +210,25 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
         {
             WindowTitle = $"Story Planner - {_storyService.CurrentFilePath}";
 
-                        // Subjects
-            foreach(Subject subject in _storyService.Subjects)
-            {
-                AllSubjectViewModels.Add(new SubjectViewModel(subject, this, _storyService));
-            }
+            // Subjects
+            foreach (Subject subject in _storyService.Subjects)
+                AllSubjectViewModels.Add(new SubjectViewModel(subject, this, _storyService, this));
 
-            // PlotPoints
-            foreach(PlotPoint plotPoint in _storyService.PlotPoints)
-            {
-                AllPlotPointViewModels.Add(new PlotPointViewModel(plotPoint, this, _storyService));
-            }
+            foreach (PlotPoint plotPoint in _storyService.PlotPoints)
+                AllPlotPointViewModels.Add(new PlotPointViewModel(plotPoint, this, _storyService, this));
 
-            // PlotPointSubjectLinks
-            foreach(PlotPointSubjectLink link in _storyService.PlotPointsSubjectLinks)
-            {
-                AllPlotPointSubjectLinkViewModels.Add(new PlotPointSubjectLinkViewModel(link, this, _storyService));
-            }
+            foreach (PlotPointSubjectLink link in _storyService.PlotPointsSubjectLinks)
+                AllPlotPointSubjectLinkViewModels.Add(new PlotPointSubjectLinkViewModel(link, this, _storyService, this));
 
-            foreach(Chapter chapter in _storyService.Chapters)
+            foreach (Chapter chapter in _storyService.Chapters)
             {
-                AllChapterViewModels.Add(new ChapterViewModel(chapter, this, _storyService));
+                AllChapterViewModels.Add(new ChapterViewModel(chapter, this, _storyService, this));
             }
 
             // Notes
             foreach(Note note in _storyService.Notes)
             {
-                AllNoteViewModels.Add(new NoteViewModel(note));
+                AllNoteViewModels.Add(new NoteViewModel(note, _storyService));
             }
 
             // NarrativePropertyValues (raw collection)
@@ -250,18 +282,26 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
         SearchResultsView.Filter = FilterSearchResults;
     }
 
-    public async Task RegisterNewPlotPoint()
+    public async Task RegisterNewFloatingPlotPointAsync()
     {
-        
+        await CreatePlotPointAsync(null, 1);
+    }
+
+    public async Task<PlotPointViewModel> CreatePlotPointAsync(int? chapterId, int orderInChapter)
+    {
         PlotPoint plotPoint = new PlotPoint
         {
             Title = "New Plot Point",
-            ChapterId = null
+            ChapterId = chapterId,
+            OrderInChapter = orderInChapter
         };
-        _storyService.PlotPoints.Add(plotPoint);
-        await _storyService.SaveAsync();
 
-        AllPlotPointViewModels.Add(new PlotPointViewModel(plotPoint, this, _storyService));
+        _storyService.PlotPoints.Add(plotPoint);
+        await _storyService.SaveAsync(); // populates plotPoint.Id
+
+        var vm = new PlotPointViewModel(plotPoint, this, _storyService, this);
+        AllPlotPointViewModels.Add(vm);
+        return vm;
     }
 
     [RelayCommand]
@@ -270,7 +310,7 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
         Subject subject = new Subject();
         _storyService.Subjects.Add(subject);
         await _storyService.SaveAsync();
-        SubjectViewModel viewModel = new SubjectViewModel(subject, this, _storyService);
+        SubjectViewModel viewModel = new SubjectViewModel(subject, this, _storyService, this);
         AllSubjectViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);
     }
@@ -293,7 +333,7 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
         Chapter newChapter = new Chapter();
         _storyService.Chapters.Add(newChapter);
         await _storyService.SaveAsync();
-        ChapterViewModel viewModel = new ChapterViewModel(newChapter, this, _storyService);
+        ChapterViewModel viewModel = new ChapterViewModel(newChapter, this, _storyService, this);
         AllChapterViewModels.Add(viewModel);
         OpenEditorWindow(viewModel);
     }
@@ -526,6 +566,7 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
     [ObservableProperty]
     private string _searchText = "";
 
+    public event Action<int> NoteViewModelMutated;
 
     [RelayCommand]
     public void RefreshAuditableItems()
@@ -597,5 +638,10 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
             await _storyService.PurgeUnassignedNotesAsync();
             MessageBox.Show("Unassigned notes purged successfully.", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
         }
+    }
+
+    public void RaiseNoteMutated(int noteId)
+    {
+        NoteViewModelMutated?.Invoke(noteId);
     }
 }

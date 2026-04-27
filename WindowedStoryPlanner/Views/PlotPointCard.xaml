@@ -14,21 +14,6 @@
     <UserControl.Resources>
         <v:EntityToPayloadConverter x:Key="EntityToPayloadConverter"/>
 
-        <DataTemplate DataType="{x:Type m:PlotPointCharacter}">
-            <v:PlotPointCharacterView />
-        </DataTemplate>
-
-        <DataTemplate DataType="{x:Type m:PlotPointTheme}">
-            <v:PlotPointThemeView />
-        </DataTemplate>
-        
-        <DataTemplate DataType="{x:Type m:PlotPointStoryThread}">
-            <v:PlotPointThreadView />
-        </DataTemplate>
-        
-        <DataTemplate DataType="{x:Type m:PlotPointCodexEntry}">
-            <v:PlotPointCodexEntryView />
-        </DataTemplate>
     </UserControl.Resources>
     <UserControl.ContextMenu>
         <ContextMenu>

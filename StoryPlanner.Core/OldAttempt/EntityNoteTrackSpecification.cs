@@ -50,7 +50,7 @@ namespace StoryPlanner.Core.Models
 
             List<EntityNoteTrackSpecification> worldMechanicSpecs = new List<EntityNoteTrackSpecification>();
             AddUniversalTracks(worldMechanicSpecs, EntityType.Character);
-            AddRevelation(worldMechanicSpecs, EntityType.WorldLaw)
+            AddRevelation(worldMechanicSpecs, EntityType.WorldLaw);
 
             List<EntityNoteTrackSpecification> themeSpecs = new List<EntityNoteTrackSpecification>();
             AddUniversalTracks(themeSpecs, EntityType.Theme);
@@ -167,12 +167,12 @@ namespace StoryPlanner.Core.Models
                 NoteTrack = NoteTrack.Revelation,
                 Description = "What mechanics or backstory of the subject is revealed or utilized, independent of POV character or reader perception (zero focalization claim). Informs but does not specify scene design."
             });
-            specs.Add(new EntityNoteTrackSpecification
+            /*specs.Add(new EntityNoteTrackSpecification
             {
                 EntityType = entityType,
                 NoteTrack = NoteTrack.ReaderAccumulation,
                 Description = ""
-            })
+            })*/
         }
     }
 }

@@ -6,7 +6,6 @@ using StoryPlanner.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 using System.Windows;
 using System.Windows.Input;
 
@@ -14,14 +13,24 @@ namespace WindowedStoryPlanner.ViewModels
 {
     public partial class OwnerViewModel : ObservableObject, IDropTarget
     {
-        IStoryService _storyService;
-        IViewModelRegistry _viewModelRegistry;
-        public ObservableCollection<NoteTrackViewModel> NoteTracks { get; set; } = new ObservableCollection<NoteTrackViewModel>();
-        public ObservableCollection<NarrativePropertyViewModel> NarrativeProperties { get; set; } = new ObservableCollection<NarrativePropertyViewModel>();
-        public OwnerViewModel(IViewModelRegistry viewModelRegistry, IStoryService storyService)
+        protected readonly IStoryService _storyService;
+        protected readonly IViewModelRegistry _viewModelRegistry;
+        protected readonly IEditorCoordinator _editorCoordinator;
+
+        [ObservableProperty]
+        private NoteViewModel? _selectedNote;
+
+        public ObservableCollection<NoteTrackViewModel> NoteTracks { get; set; } = new();
+        public ObservableCollection<NarrativePropertyViewModel> NarrativeProperties { get; set; } = new();
+
+        public OwnerViewModel(
+            IViewModelRegistry viewModelRegistry,
+            IStoryService storyService,
+            IEditorCoordinator editorCoordinator)
         {
             _storyService = storyService;
             _viewModelRegistry = viewModelRegistry;
+            _editorCoordinator = editorCoordinator;
         }
 
         protected void InitializeCollections(
@@ -34,14 +43,14 @@ namespace WindowedStoryPlanner.ViewModels
             {
                 var trackVm = new NoteTrackViewModel(
                     ntd,
-                    ownerId,      // passed through so NoteTrackViewModel 
-                    ownerType,    // can filter notes correctly
+                    ownerId,
+                    ownerType,
                     _viewModelRegistry,
-                    _storyService);
+                    _storyService,
+                    _editorCoordinator,       // ← threaded through
+                    OnSectionSelectionChanged);
                 NoteTracks.Add(trackVm);
             }
-
-            //TODO: add another NoteTrackViewModel to NoteTracks for unset when the criteria don't match
 
             foreach (var npd in narrativePropertyDefinitions)
             {
@@ -55,117 +64,93 @@ namespace WindowedStoryPlanner.ViewModels
             }
         }
 
-        public virtual void DragOver(IDropInfo dropInfo)
+        /// <summary>
+        /// Called by any NoteTrackSectionViewModel when its ListBox selection changes.
+        /// Keeps OwnerViewModel.SelectedNote in sync for F-key hotkey commands.
+        /// </summary>
+        private void OnSectionSelectionChanged(NoteViewModel? note)
         {
-            object source = dropInfo.Data;
-            var target = this;
-
-            PlotPointViewModel? plotPoint = source as PlotPointViewModel ?? target as PlotPointViewModel;
-            SubjectViewModel? otherEntity = (source == plotPoint) ? target as SubjectViewModel : source as SubjectViewModel;
-
-            bool isTypeCompatible = (source, target) switch
-            {
-                (SubjectViewModel, PlotPointViewModel) => true,
-                (PlotPointViewModel, SubjectViewModel) => true,
-                (PlotPointSubjectLinkViewModel, PlotPointViewModel) => true,
-                (PlotPointSubjectLinkViewModel, SubjectViewModel s) => true,
-                _ => false
-            };
-
-            if (isTypeCompatible && plotPoint != null && otherEntity != null && !LinkExists(plotPoint, otherEntity))
-            {
-                dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
-                dropInfo.Effects = DragDropEffects.Move;
-            }
-            else
-            {
-                dropInfo.Effects = DragDropEffects.None;
-            }
+            SelectedNote = note;
         }
 
-        public async virtual void Drop(IDropInfo dropInfo)
+        public void OnWindowOpened()
+        {
+            if (NoteTracks.Count == 0) return;
+            foreach (var track in NoteTracks)
+                track.Initialize();
+        }
+
+        public void OnWindowClosed()
+        {
+            foreach (var track in NoteTracks)
+                track.Uninitialize();
+        }
+
+        public void MoveSelectedNoteToTrack(int noteTrackDefinitionId)
+        {
+            if (SelectedNote is null) return;
+
+            var targetTrack = NoteTracks
+                .FirstOrDefault(t => t.Definition.Id == noteTrackDefinitionId);
+            if (targetTrack is null) return;
+
+            var unsetSection = targetTrack.Sections
+                .FirstOrDefault(s => s.TargetState == NoteState.Unset);
+
+            int maxOrder = unsetSection?.SectionNotes
+                .Cast<NoteViewModel>()
+                .Select(n => n.SortOrder)
+                .DefaultIfEmpty(0)
+                .Max() ?? 0;
+
+            SelectedNote.NoteTrackDefinitionId = noteTrackDefinitionId;
+            SelectedNote.NoteState = NoteState.Unset;
+            SelectedNote.SortOrder = maxOrder + 10;
+
+            _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+            _ = _storyService.SaveAsync();
+        }
+
+        // ── GongSolutions IDropTarget (PlotPoint ↔ Subject linking) ──────────
+
+        public virtual void DragOver(IDropInfo dropInfo) { }
+        public virtual async void Drop(IDropInfo dropInfo)
         {
             var source = dropInfo.Data;
             var target = this;
 
             switch (source, target)
             {
-                case (SubjectViewModel s, PlotPointViewModel p): await CreateNewLink(p, s); break;
-                case (PlotPointViewModel p, SubjectViewModel s): await CreateNewLink(p, s); break;
-                case (PlotPointSubjectLinkViewModel l, PlotPointViewModel p): MoveLinkToNewPlotPoint(l, p); break;
-                case (PlotPointSubjectLinkViewModel l, SubjectViewModel s): MoveLinkToNewSubject(l, s); break;
+                case (SubjectViewModel s, PlotPointViewModel p):
+                    await _editorCoordinator.CreatePlotPointSubjectLinkAsync(p, s); break;
+                case (PlotPointViewModel p, SubjectViewModel s):
+                    await _editorCoordinator.CreatePlotPointSubjectLinkAsync(p, s); break;
+                case (PlotPointSubjectLinkViewModel l, PlotPointViewModel p):
+                    l.PlotPointId = p.Id; break;
+                case (PlotPointSubjectLinkViewModel l, SubjectViewModel s):
+                    l.SubjectId = s.Id; break;
             }
         }
 
-        private async Task CreateNewLink(PlotPointViewModel p, SubjectViewModel s)
+        public void RegisterTrackHotkeys(Window window)
         {
-            if (LinkExists(p, s))
-                return;
-            var l = new PlotPointSubjectLink()
+            foreach (var track in NoteTracks.Where(t => t.FunctionKeyNumber.HasValue))
             {
-                PlotPointId = p.Id,
-                SubjectId = s.Id
-            };
-            _storyService.PlotPointsSubjectLinks.Add(l);
-            await _storyService.SaveAsync(); //saving will populate the link instance with the autogenerated Id
+                var key = KeyFromFunctionNumber(track.FunctionKeyNumber!.Value);
+                var definitionId = track.Definition.Id;
 
-            _viewModelRegistry.AllPlotPointSubjectLinkViewModels.Add(new PlotPointSubjectLinkViewModel(l, _viewModelRegistry, _storyService));
-
-        }
-
-        private bool LinkExists(PlotPointViewModel p, SubjectViewModel s)
-        {
-            return _viewModelRegistry.AllPlotPointSubjectLinkViewModels.Any(l => l.PlotPointId == p.Id && l.SubjectId == s.Id);
-        }
-
-        private void MoveLinkToNewPlotPoint(PlotPointSubjectLinkViewModel l, PlotPointViewModel p)
-        {
-            l.PlotPointId = p.Id;
-        }
-
-        private void MoveLinkToNewSubject(PlotPointSubjectLinkViewModel l, SubjectViewModel s)
-        {
-            l.SubjectId = s.Id;
-        }
-
-        private void RegisterTrackHotkeys(
-    IEnumerable<NoteTrackDefinition> noteTrackDefinitions)
-        {
-            foreach (var noteTrackDefinition in noteTrackDefinitions
-                .Where(c => c.FunctionKeyNumber.HasValue))
-            {
-                var key = KeyFromFunctionNumber(
-                    noteTrackDefinition.FunctionKeyNumber!.Value);
-
-                var binding = new KeyBinding(
-                    new RelayCommand(() =>
-                        MoveSelectedNoteToTrack(noteTrackDefinition.Id)),
+                window.InputBindings.Add(new KeyBinding(
+                    new RelayCommand(() => MoveSelectedNoteToTrack(definitionId)),
                     key,
-                    ModifierKeys.None);
-
-                //InputBindings.Add(binding);
+                    ModifierKeys.None));
             }
-        }
-
-        private void MoveSelectedNoteToTrack(int noteTrackDefinitionId)
-        {
-            
         }
 
         private static Key KeyFromFunctionNumber(int n) => n switch
         {
-            1 => Key.F1,
-            2 => Key.F2,
-            3 => Key.F3,
-            4 => Key.F4,
-            5 => Key.F5,
-            6 => Key.F6,
-            7 => Key.F7,
-            8 => Key.F8,
-            9 => Key.F9,
-            10 => Key.F10,
-            11 => Key.F11,
-            12 => Key.F12,
+            1  => Key.F1,  2  => Key.F2,  3  => Key.F3,  4  => Key.F4,
+            5  => Key.F5,  6  => Key.F6,  7  => Key.F7,  8  => Key.F8,
+            9  => Key.F9,  10 => Key.F10, 11 => Key.F11, 12 => Key.F12,
             _ => throw new ArgumentOutOfRangeException(nameof(n))
         };
     }

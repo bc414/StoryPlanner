@@ -39,8 +39,8 @@ namespace WindowedStoryPlanner.ViewModels
 
         public ICollectionView PlotPointSubjectLinks { get; set; }
 
-        public SubjectViewModel(Subject subject, IViewModelRegistry viewModelRegistry, IStoryService storyService)
-            : base(viewModelRegistry, storyService)
+        public SubjectViewModel(Subject subject, IViewModelRegistry viewModelRegistry, IStoryService storyService, IEditorCoordinator editorCoordinator)
+            : base(viewModelRegistry, storyService, editorCoordinator)
         {
             _subject = subject;
 
@@ -56,6 +56,7 @@ namespace WindowedStoryPlanner.ViewModels
 
             InitializeCollections(subject.Id, OwnerType.Subject,
                                   noteTracks, propertyDefs);
+            //TODO: need own view, follow note track section pattern
             PlotPointSubjectLinks = CollectionViewSource.GetDefaultView(
                     viewModelRegistry.AllPlotPointSubjectLinkViewModels);
             PlotPointSubjectLinks.Filter = FilterLinks;
@@ -63,7 +64,6 @@ namespace WindowedStoryPlanner.ViewModels
                 new SortDescription(nameof(PlotPointSubjectLinkViewModel.ChapterOrderIndex), ListSortDirection.Ascending));
             PlotPointSubjectLinks.SortDescriptions.Add(
                 new SortDescription(nameof(PlotPointSubjectLinkViewModel.PlotPointOrderInChapter), ListSortDirection.Ascending));
-            //TODO: call refresh when plot points are reordered if the window is active, and when the window opens
             PlotPointSubjectLinks.Refresh();
         }
 

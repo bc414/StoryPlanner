@@ -1,10 +1,7 @@
 ﻿using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.ComponentModel;
-using System.Text;
+using System.Linq;
 using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels
@@ -15,34 +12,31 @@ namespace WindowedStoryPlanner.ViewModels
         private PlotPoint _plotPoint;
 
         public int Id => _plotPoint.Id;
+
         public int? ChapterId
         {
             get => _plotPoint.ChapterId;
-            set
-            {
-                SetProperty(_plotPoint.ChapterId, value, _plotPoint, (p, n) => p.ChapterId = n);
-            }
+            set => SetProperty(_plotPoint.ChapterId, value, _plotPoint, (p, n) => p.ChapterId = n);
         }
 
         public int OrderInChapter
         {
             get => _plotPoint.OrderInChapter;
-            set
-            {
-                SetProperty(_plotPoint.OrderInChapter, value, _plotPoint, (p, n) => p.OrderInChapter = n);
-            }
+            set => SetProperty(_plotPoint.OrderInChapter, value, _plotPoint, (p, n) => p.OrderInChapter = n);
         }
 
         public string Title
         {
             get => _plotPoint.Title;
-            set
-            {
-                SetProperty(_plotPoint.Title, value, _plotPoint, (p, n) => p.Title = n);
-            }
+            set => SetProperty(_plotPoint.Title, value, _plotPoint, (p, n) => p.Title = n);
         }
 
-        public PlotPointViewModel(PlotPoint plotPoint, IViewModelRegistry viewModelRegistry, IStoryService storyService) : base(viewModelRegistry, storyService)
+        public PlotPointViewModel(
+            PlotPoint plotPoint,
+            IViewModelRegistry viewModelRegistry,
+            IStoryService storyService,
+            IEditorCoordinator editorCoordinator)
+            : base(viewModelRegistry, storyService, editorCoordinator)
         {
             _plotPoint = plotPoint;
 
@@ -54,8 +48,7 @@ namespace WindowedStoryPlanner.ViewModels
                 .Where(npd => npd.OwnerType == OwnerType.PlotPoint)
                 .ToList();
 
-            InitializeCollections(plotPoint.Id, OwnerType.PlotPoint,
-                                  noteTracks, propertyDefs);
+            InitializeCollections(plotPoint.Id, OwnerType.PlotPoint, noteTracks, propertyDefs);
 
             PlotPointSubjectLinks = CollectionViewSource.GetDefaultView(
                 viewModelRegistry.AllPlotPointSubjectLinkViewModels);
