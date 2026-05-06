@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace WindowedStoryPlanner.ViewModels
 {
-    public partial class PlotPointSubjectLinkViewModel : OwnerViewModel
+    public partial class PlotPointSubjectLinkViewModel : NarrativeElementViewModel
     {
         private readonly IViewModelRegistry _viewModelRegistry;
         private readonly PlotPointSubjectLink _link;

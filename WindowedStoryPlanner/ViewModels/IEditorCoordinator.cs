@@ -5,7 +5,7 @@ namespace WindowedStoryPlanner.ViewModels
 {
     public interface IEditorCoordinator
     {
-        void OpenEditorWindow(OwnerViewModel viewModel);
+        void OpenEditorWindow(NarrativeElementViewModel viewModel);
 
         /// <summary>
         /// Creates a Note model + NoteViewModel atomically and registers both

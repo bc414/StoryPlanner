@@ -24,7 +24,6 @@ namespace WindowedStoryPlanner.ViewModels
         private readonly NoteState _targetState;
         private readonly IStoryService _storyService;
         private readonly IViewModelRegistry _viewModelRegistry;
-        private readonly Action<NoteViewModel?> _onSelectionChanged;
 
         public string SectionHeader => _targetState.ToString();
         public NoteState TargetState => _targetState;
@@ -33,27 +32,18 @@ namespace WindowedStoryPlanner.ViewModels
         [ObservableProperty]
         private NoteViewModel? _selectedNote;
 
-        partial void OnSelectedNoteChanged(NoteViewModel? value)
-        {
-            // Notify OwnerViewModel so F-key hotkeys know which note is focused,
-            // regardless of which section or track currently holds the selection.
-            _onSelectionChanged(value);
-        }
-
         public NoteTrackSectionViewModel(
             int ownerId,
             NoteTrackDefinition definition,
             NoteState targetState,
             IViewModelRegistry viewModelRegistry,
-            IStoryService storyService,
-            Action<NoteViewModel?> onSelectionChanged)
+            IStoryService storyService)
         {
             _ownerId = ownerId;
             _definition = definition;
             _targetState = targetState;
             _storyService = storyService;
             _viewModelRegistry = viewModelRegistry;
-            _onSelectionChanged = onSelectionChanged;
 
             // Each section owns an independent view — NOT GetDefaultView —
             // so each can have its own filter without overwriting siblings.

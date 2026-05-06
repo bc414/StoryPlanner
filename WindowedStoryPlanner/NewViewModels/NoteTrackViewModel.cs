@@ -22,21 +22,24 @@ namespace WindowedStoryPlanner.ViewModels
         private readonly IStoryService _storyService;
         private readonly IViewModelRegistry _viewModelRegistry;
         private readonly IEditorCoordinator _editorCoordinator;
-        private readonly Action<NoteViewModel?> _onSelectionChanged;
 
-        /// <summary>
-        /// The three state-filtered sections in display order: Confirmed, Unset, Flagged.
-        /// Empty until Initialize() is called when the owning window opens.
-        /// </summary>
         public ObservableCollection<NoteTrackSectionViewModel> Sections { get; } = new();
 
         public int DisplayOrder => _definition.DisplayOrder;
         public string DisplayQuestion => _definition.DisplayQuestion;
         public string TrackName => _definition.TrackName;
-        public int? FunctionKeyNumber => _definition.FunctionKeyNumber;
         public string Explanation => _definition.Explanation;
         public CognitiveMode CognitiveMode => _definition.CognitiveMode;
         public NoteTrackDefinition Definition => _definition;
+
+        /// <summary>
+        /// Set by CommonWindow when this track is placed in a panel.
+        /// F1–F6 for the left panel, F7–F12 for the right panel, based on DisplayOrder.
+        /// Null when the track has no assigned key (more than 6 tracks in a panel).
+        /// Observed by NoteTrackView to show/hide the F-key badge.
+        /// </summary>
+        [ObservableProperty]
+        private int? _assignedFunctionKey;
 
         public NoteTrackViewModel(
             NoteTrackDefinition definition,
@@ -44,16 +47,14 @@ namespace WindowedStoryPlanner.ViewModels
             OwnerType ownerType,
             IViewModelRegistry registry,
             IStoryService storyService,
-            IEditorCoordinator editorCoordinator,
-            Action<NoteViewModel?> onSelectionChanged)
+            IEditorCoordinator editorCoordinator)
         {
-            _definition = definition;
-            _ownerId = ownerId;
-            _ownerType = ownerType;
-            _storyService = storyService;
-            _viewModelRegistry = registry;
-            _editorCoordinator = editorCoordinator;
-            _onSelectionChanged = onSelectionChanged;
+            _definition         = definition;
+            _ownerId            = ownerId;
+            _ownerType          = ownerType;
+            _storyService       = storyService;
+            _viewModelRegistry  = registry;
+            _editorCoordinator  = editorCoordinator;
         }
 
         /// <summary>
@@ -62,20 +63,20 @@ namespace WindowedStoryPlanner.ViewModels
         /// </summary>
         public void Initialize()
         {
-            if (Sections.Count > 0) return; // already initialized
+            if (Sections.Count > 0) return;
 
             // Order is intentional: Confirmed (stable) → Unset (provisional) → Flagged (needs work)
             Sections.Add(new NoteTrackSectionViewModel(
                 _ownerId, _definition, NoteState.Confirmed,
-                _viewModelRegistry, _storyService, _onSelectionChanged));
+                _viewModelRegistry, _storyService));
 
             Sections.Add(new NoteTrackSectionViewModel(
                 _ownerId, _definition, NoteState.Unset,
-                _viewModelRegistry, _storyService, _onSelectionChanged));
+                _viewModelRegistry, _storyService));
 
             Sections.Add(new NoteTrackSectionViewModel(
                 _ownerId, _definition, NoteState.Flagged,
-                _viewModelRegistry, _storyService, _onSelectionChanged));
+                _viewModelRegistry, _storyService));
         }
 
         /// <summary>
@@ -86,7 +87,6 @@ namespace WindowedStoryPlanner.ViewModels
         {
             foreach (var section in Sections)
                 section.Dispose();
-
             Sections.Clear();
         }
 

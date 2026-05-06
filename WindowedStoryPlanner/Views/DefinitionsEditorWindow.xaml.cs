@@ -8,17 +8,16 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace WindowedStoryPlanner.Views
 {
     /// <summary>
-    /// Interaction logic for StoryThreadCard.xaml
+    /// Interaction logic for DefinitionsEditorWindow.xaml
     /// </summary>
-    public partial class StoryThreadCard : UserControl
+    public partial class DefinitionsEditorWindow : Window
     {
-        public StoryThreadCard()
+        public DefinitionsEditorWindow()
         {
             InitializeComponent();
         }

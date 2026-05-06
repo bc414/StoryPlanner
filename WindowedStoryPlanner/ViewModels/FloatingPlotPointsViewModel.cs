@@ -11,7 +11,7 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class FloatingPlotPointsViewModel : ObservableObject
 {
     // The wrapper that the View binds to
-    public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; }
+    /*public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; }
 
     public FloatingPlotPointsViewModel()
     {
@@ -110,5 +110,5 @@ public partial class FloatingPlotPointsViewModel : ObservableObject
             MainViewModel.Instance.PlotPoints.Remove(vm.Model);
             MainViewModel.Instance.PlotPointViewModels.Remove(vm);
         }
-    }
+    }*/
 }

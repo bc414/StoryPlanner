@@ -16,6 +16,9 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
 {
     private readonly IStoryService _storyService;
 
+    [ObservableProperty]
+    private DefinitionsEditorViewModel _definitionsEditor;
+
     public ObservableCollection<SubjectViewModel> AllSubjectViewModels { get; set; } = new ObservableCollection<SubjectViewModel>();
 
     public ObservableCollection<PlotPointViewModel> AllPlotPointViewModels { get; set; } = new ObservableCollection<PlotPointViewModel>();
@@ -23,7 +26,7 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
     public ObservableCollection<PlotPointSubjectLinkViewModel> AllPlotPointSubjectLinkViewModels { get; set; } = new ObservableCollection<PlotPointSubjectLinkViewModel>();
 
     public ObservableCollection<ChapterViewModel> AllChapterViewModels { get; set; } = new ObservableCollection<ChapterViewModel>();
-
+    public ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; set; } = new ObservableCollection<NoteTrackDefinitionViewModel>();
     public ObservableCollection<NoteViewModel> AllNoteViewModels { get; set; } = new ObservableCollection<NoteViewModel>();
 
     public ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues
@@ -72,7 +75,7 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
     public ICollectionView CodexEntriesGroupedView { get; private set; }
     
     // 1. The Source Collection
-    public ObservableCollection<EntityViewModel> DashboardEntities { get; } = new();
+    //public ObservableCollection<EntityViewModel> DashboardEntities { get; } = new();
 
     // 2. The Sorted View for the UI
     [ObservableProperty]
@@ -225,6 +228,8 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
                 AllChapterViewModels.Add(new ChapterViewModel(chapter, this, _storyService, this));
             }
 
+            
+
             // Notes
             foreach(Note note in _storyService.Notes)
             {
@@ -240,8 +245,9 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
                 AllNarrativePropertyValueDefinitions.Add(new NarrativePropertyValueViewModel(value));
             }
 
-            
-            
+            DefinitionsEditor = new DefinitionsEditorViewModel(_storyService);
+            DefinitionsEditor.Initialize();
+
             RefreshDashboardList();
 
             // Notify UI to refresh bindings since the collections were replaced
@@ -267,7 +273,7 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
     
     private void RefreshDashboardList()
     {
-        DashboardEntities.Clear();
+        /*DashboardEntities.Clear();
 
         
 
@@ -276,10 +282,10 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
 
         // 3. Apply Sort (CharacterCount Descending)
         DashboardEntitiesView.SortDescriptions.Clear();
-        DashboardEntitiesView.SortDescriptions.Add(new SortDescription(nameof(EntityViewModel.CharacterCount), ListSortDirection.Descending));
+        //DashboardEntitiesView.SortDescriptions.Add(new SortDescription(nameof(EntityViewModel.CharacterCount), ListSortDirection.Descending));
 
         SearchResultsView = new ListCollectionView(DashboardEntities);
-        SearchResultsView.Filter = FilterSearchResults;
+        SearchResultsView.Filter = FilterSearchResults;*/
     }
 
     public async Task RegisterNewFloatingPlotPointAsync()
@@ -380,17 +386,17 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
     public void OpenFloatingPoints()
     {
         // Use a specific key for the singleton window
-        string key = "FloatingPoints"; 
+        /*string key = "FloatingPoints"; 
         if (ActivateIfOpen(key)) return;
 
         var vm = new FloatingPlotPointsViewModel();
         var win = new FloatingPlotPointsWindow { DataContext = vm };
         
         RegisterWindow(key, win);
-        win.Show();
+        win.Show();*/
     }
     
-    public void OpenEditorWindow(OwnerViewModel viewModel)
+    public void OpenEditorWindow(NarrativeElementViewModel viewModel)
     {
         if (viewModel == null) return;
 
@@ -431,35 +437,6 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
     {
         //TODO: new windows
 
-        if (viewModel is CharacterViewModel)
-        {
-            return new CharacterWindow();
-        }
-        else if(viewModel is PlotPointViewModelOld)
-        {
-            return new PlotPointWindow();
-        }
-        else if (viewModel is ChapterViewModel)
-        {
-            return new ChapterWindow();
-        }
-        
-        else if (viewModel is StoryThreadViewModel)
-        {
-            return new StoryThreadWindow();
-        }
-        else if (viewModel is ThemeViewModel)
-        {
-            return new ThemeWindow();
-        }
-        else if (viewModel is CodexEntryViewModel)
-        {
-            return new CodexEntryWindow();
-        }
-        else if (viewModel is GeminiEntry)
-        {
-            return new GeminiEntryWindow();
-        }
 
         return null;
     }
@@ -586,7 +563,7 @@ public partial class MainViewModel : ObservableObject, IEditorCoordinator, IView
         if (string.IsNullOrWhiteSpace(SearchText))
             return true; // Show all if search is empty
 
-        if (obj is OwnerViewModel entity)
+        if (obj is NarrativeElementViewModel entity)
         {
             string textToSearch = string.Empty;
 

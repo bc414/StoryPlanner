@@ -9,7 +9,7 @@ using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public partial class ChapterViewModel : OwnerViewModel
+public partial class ChapterViewModel : NarrativeElementViewModel
 {
     private readonly Chapter _chapter;
 

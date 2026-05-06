@@ -3,10 +3,11 @@ using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using System.ComponentModel;
 using System.Windows.Data;
+using System.Windows.Media;
 
 namespace WindowedStoryPlanner.ViewModels
 {
-    public partial class SubjectViewModel : OwnerViewModel
+    public partial class SubjectViewModel : NarrativeElementViewModel
     {
         private Subject _subject;
 
@@ -71,6 +72,45 @@ namespace WindowedStoryPlanner.ViewModels
         {
             if (obj is not PlotPointSubjectLinkViewModel link) return false;
             return link.SubjectId == _subject.Id;
+        }
+
+        public string BadgeText => !string.IsNullOrWhiteSpace(Abbreviation)
+        ? Abbreviation
+        : (Name.Length > 3 ? Name.Substring(0, 3) : Name).ToUpper();
+
+        public Brush BadgeBackground
+        {
+            get
+            {
+                try
+                {
+                    var color = (Color)ColorConverter.ConvertFromString(
+                        !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
+                    return new SolidColorBrush(color);
+                }
+                catch
+                {
+                    return Brushes.LightGray;
+                }
+            }
+        }
+
+        public Brush BadgeForeground
+        {
+            get
+            {
+                try
+                {
+                    var color = (Color)ColorConverter.ConvertFromString(
+                        !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
+                    // Luminance formula to determine if dark or light
+                    return (color.R * 0.299 + color.G * 0.587 + color.B * 0.114) < 186 ? Brushes.White : Brushes.Black;
+                }
+                catch
+                {
+                    return Brushes.Black;
+                }
+            }
         }
     }
 }

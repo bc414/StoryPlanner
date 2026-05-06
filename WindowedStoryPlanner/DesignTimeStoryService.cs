@@ -4,7 +4,7 @@ using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner; // Adjust namespace to match your project
 
-public class DesignTimeStoryService : IStoryService
+/*public class DesignTimeStoryService : IStoryService
 {
     // --- Data Collections ---
     public ObservableCollection<Chapter> Chapters { get; }
@@ -103,4 +103,4 @@ public class DesignTimeStoryService : IStoryService
     {
         throw new NotImplementedException();
     }
-}
+}*/

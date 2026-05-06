@@ -6,7 +6,7 @@ namespace WindowedStoryPlanner.Views;
 
 public static class Sample
 {
-    public static MainViewModel MainViewModel
+    /*public static MainViewModel MainViewModel
     {
         get
         {
@@ -161,5 +161,5 @@ public static class Sample
                 State = IdeaState.Written,
             };
         }
-    }
+    }*/
 }

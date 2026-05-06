@@ -10,7 +10,6 @@ namespace StoryPlanner.Core.Models
         public int SubjectDefinitionId { get; set; }
         public OwnerType OwnerType { get; set; }
         public int DisplayOrder { get; set; }
-        public int? FunctionKeyNumber { get; set; }
         public string TrackName { get; set; } = string.Empty;
         public string DisplayQuestion { get; set; } = string.Empty;
         public string Explanation { get; set;  } = string.Empty;

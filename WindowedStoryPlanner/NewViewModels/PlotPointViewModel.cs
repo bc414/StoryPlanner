@@ -6,7 +6,7 @@ using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels
 {
-    public class PlotPointViewModel : OwnerViewModel
+    public class PlotPointViewModel : NarrativeElementViewModel
     {
         public ICollectionView PlotPointSubjectLinks { get; set; }
         private PlotPoint _plotPoint;

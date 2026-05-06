@@ -50,19 +50,19 @@
                                        Foreground="White"
                                        FontWeight="Bold"
                                        FontSize="13"/>
-                            <!-- F-key badge — hidden when FunctionKeyNumber is null -->
+                            <!-- F-key badge — hidden when AssignedFunctionKey is null -->
                             <Border CornerRadius="3"
                                     Background="#33FFFFFF"
                                     Padding="4,1"
                                     Margin="6,0,0,0"
-                                    Visibility="{Binding FunctionKeyNumber,
+                                    Visibility="{Binding AssignedFunctionKey,
                                                          Converter={StaticResource NullToVisibilityConverter}}">
                                 <TextBlock Foreground="White"
                                            FontSize="10"
                                            FontWeight="SemiBold">
                                     <TextBlock.Text>
                                         <MultiBinding StringFormat="F{0}">
-                                            <Binding Path="FunctionKeyNumber"/>
+                                            <Binding Path="AssignedFunctionKey"/>
                                         </MultiBinding>
                                     </TextBlock.Text>
                                 </TextBlock>

@@ -32,122 +32,25 @@
         <TabItem Header="Chapters">
             <ScrollViewer>
                 <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding ChapterViewModels}" DeleteItemCommand="{Binding DeleteChapterCommand}"/>
+                    
                     <Button Content="Add Chapter" Command="{Binding AddChapterCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
-        <TabItem Header="Story Threads">
+        <TabItem Header="Subjects">
             <ScrollViewer>
                 <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding StoryThreadViewModels}" DeleteItemCommand="{Binding DeleteStoryThreadCommand}"/>
+                    
                     <Button Content="Add StoryThread"  Command="{Binding AddStoryThreadCommand}" Style="{StaticResource AddButtonStyle}"/>
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
-        <TabItem Header="Characters">
+        <TabItem Header="Definitions">
             <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding CharacterViewModels}" DeleteItemCommand="{Binding DeleteCharacterCommand}"/>
-                    <Button Content="Add Character"  Command="{Binding AddCharacterCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
+                <v:DefinitionsEditorWindow/>
             </ScrollViewer>
         </TabItem>
-        <TabItem Header="CodexEntries">
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <StackPanel>
-
-                    <ListView ItemsSource="{Binding CodexEntriesGroupedView}"
-          BorderThickness="0"
-          Background="Transparent"
-          ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.UseDefaultDragAdorner="True">
-
-                        <ListView.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <WrapPanel Orientation="Horizontal" IsItemsHost="True"/>
-                            </ItemsPanelTemplate>
-                        </ListView.ItemsPanel>
-
-                        <ListView.GroupStyle>
-                            <GroupStyle>
-
-                                <GroupStyle.ContainerStyle>
-                                    <Style TargetType="{x:Type GroupItem}">
-                                        <Setter Property="Template">
-                                            <Setter.Value>
-                                                <ControlTemplate TargetType="{x:Type GroupItem}">
-                                                    <Expander IsExpanded="False" Margin="0,0,0,20">
-
-                                                        <Expander.Header>
-                                                            <Border BorderBrush="#DDDDDD" BorderThickness="0,0,0,2" 
-                                                Padding="5" Margin="10,0,0,0"
-                                                HorizontalAlignment="Stretch">
-                                                                <TextBlock Text="{Binding Name}" 
-                                                       Style="{StaticResource LabelStyle}"/>
-                                                            </Border>
-                                                        </Expander.Header>
-
-                                                        <ItemsPresenter />
-
-                                                    </Expander>
-                                                </ControlTemplate>
-                                            </Setter.Value>
-                                        </Setter>
-                                    </Style>
-                                </GroupStyle.ContainerStyle>
-
-                                <GroupStyle.Panel>
-                                    <ItemsPanelTemplate>
-                                        <StackPanel Orientation="Vertical" IsItemsHost="True" Margin="20,10,0,0"/>
-                                    </ItemsPanelTemplate>
-                                </GroupStyle.Panel>
-
-                            </GroupStyle>
-                        </ListView.GroupStyle>
-
-                        <ListView.ItemTemplate>
-                            <DataTemplate DataType="{x:Type vm:CodexEntryViewModel}">
-                                <v:CodexEntryCard Margin="0,0,10,10"/>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-
-                        <ListView.ItemContainerStyle>
-                            <Style TargetType="ListViewItem">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="ListViewItem">
-                                            <ContentPresenter />
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Setter Property="ContextMenu">
-                                    <Setter.Value>
-                                        <ContextMenu>
-                                            <MenuItem Header="Delete" 
-                                  Command="{Binding DataContext.DeleteCodexEntryCommand, RelativeSource={RelativeSource AncestorType=Window}}"
-                                  CommandParameter="{Binding}"/>
-                                        </ContextMenu>
-                                    </Setter.Value>
-                                </Setter>
-                            </Style>
-                        </ListView.ItemContainerStyle>
-
-                    </ListView>
-                    <Button Content="Add Codex Entry"  
-                    Command="{Binding AddCodexEntryCommand}" 
-                    Style="{StaticResource AddButtonStyle}"
-                    Margin="0,20,0,0"/>
-                </StackPanel>
-            </ScrollViewer>
-        </TabItem>
-        <TabItem Header="Themes">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding ThemeViewModels}" DeleteItemCommand="{Binding DeleteThemeCommand}"/>
-                    <Button Content="Add Theme"  Command="{Binding AddThemeCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
-        </TabItem>
+        
         
         <TabItem Header="PlotPoints">
             <DockPanel>
@@ -167,7 +70,6 @@ Width="200" Height="40" Margin="0,0,10,0"/>
                     
                 </StackPanel>
 
-                <v:PlotPointCollectionViewer DataContext="{Binding PlotPointsByTextViewModel}" />
             </DockPanel>
         </TabItem>
         <TabItem Header="Gemini Prompts">
@@ -245,7 +147,7 @@ Width="200" Height="40" Margin="0,0,10,0"/>
                         </DataGrid>
                     </Grid>
                     <TextBlock Text="Cards sorted by combined character count:" FontSize="20" FontWeight="SemiBold" VerticalAlignment="Center" Margin="0,0,20,0"/>
-                    <v:CardCollectionViewer ItemsSource="{Binding DashboardEntities}"/>
+                    
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
@@ -262,7 +164,7 @@ Width="200" Height="40" Margin="0,0,10,0"/>
                 </StackPanel>
 
                 <ScrollViewer VerticalScrollBarVisibility="Auto">
-                    <v:CardCollectionViewer ItemsSource="{Binding SearchResultsView}"/>
+                    
                 </ScrollViewer>
             </DockPanel>
         </TabItem>
@@ -346,7 +248,7 @@ Width="200" Height="40" Margin="0,0,10,0"/>
     Background="#FFF0F0" Foreground="Red" BorderBrush="Red" Padding="10,5"/>
                 </StackPanel>
 
-                <v:NoteViewer Grid.Row="1" DataContext="{Binding UnassignedNotesVM}" />
+                
             </Grid>
         </TabItem>
 
