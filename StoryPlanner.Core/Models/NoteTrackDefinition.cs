@@ -27,4 +27,15 @@ namespace StoryPlanner.Core.Models
         Analogical,            // User connecting the project world to the real world
         LinguisticExecution,   // User as writer
     }
+
+    public static class UnassignedTrack
+    {
+        public static readonly NoteTrackDefinition Definition = new()
+        {
+            Id = 0,   // 0 is never a valid EF-generated PK
+            TrackName = "Unassigned",
+            DisplayQuestion = "Notes not yet assigned to a track",
+            DisplayOrder = int.MaxValue,
+        };
+    }
 }

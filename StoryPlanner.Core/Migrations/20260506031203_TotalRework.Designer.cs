@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using StoryPlanner.Core;
 
@@ -10,9 +11,11 @@ using StoryPlanner.Core;
 namespace StoryPlanner.Core.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260506031203_TotalRework")]
+    partial class TotalRework
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.6");
@@ -23,8 +26,16 @@ namespace StoryPlanner.Core.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("OrderIndex")
                         .HasColumnType("INTEGER");
+
+                    b.Property<string>("Summary")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Title")
                         .IsRequired()
@@ -169,9 +180,6 @@ namespace StoryPlanner.Core.Migrations
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("OwnerId")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("OwnerType")
                         .HasColumnType("INTEGER");
 
                     b.Property<int>("SortOrder")
@@ -322,9 +330,6 @@ namespace StoryPlanner.Core.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("DisplayOrder")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("SubjectType")

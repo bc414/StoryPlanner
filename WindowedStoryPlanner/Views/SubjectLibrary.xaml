@@ -1,0 +1,55 @@
+﻿<UserControl x:Class="WindowedStoryPlanner.Views.SubjectLibrary"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+             xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance Type=vm:SubjectLibraryViewModel}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <ItemsControl ItemsSource="{Binding Groups}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate DataType="{x:Type vm:SubjectGroupViewModel}">
+                    <Expander IsExpanded="True" Margin="0,0,0,6">
+
+                        <Expander.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding GroupLabel}"
+                                           FontSize="14" FontWeight="SemiBold"
+                                           VerticalAlignment="Center"/>
+                                <Button Content="+ Add"
+                                        Margin="12,0,0,0" Padding="6,2"
+                                        VerticalAlignment="Center"
+                                        Command="{Binding DataContext.AddSubjectCommand,
+                                                  RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                        CommandParameter="{Binding}"/>
+                            </StackPanel>
+                        </Expander.Header>
+
+                        <!--
+                            IsDragSource enables dragging SubjectViewModels to
+                            CommonWindow link panels for link creation.
+                        -->
+                        <ItemsControl ItemsSource="{Binding Subjects}"
+                                      dd:DragDrop.IsDragSource="True">
+                            <ItemsControl.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <WrapPanel/>
+                                </ItemsPanelTemplate>
+                            </ItemsControl.ItemsPanel>
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate DataType="{x:Type vm:SubjectViewModel}">
+                                    <v:SubjectCard/>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+                    </Expander>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </ScrollViewer>
+</UserControl>

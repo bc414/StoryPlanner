@@ -31,4 +31,9 @@
       </Page>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="NewViewModels\" />
+      <Folder Include="RetainedOldViewModels\" />
+    </ItemGroup>
+
 </Project>

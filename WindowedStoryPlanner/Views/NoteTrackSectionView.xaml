@@ -1,0 +1,147 @@
+﻿<UserControl x:Class="WindowedStoryPlanner.Views.NoteTrackSectionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="300"
+             d:DataContext="{d:DesignInstance Type=vm:NoteTrackSectionViewModel}">
+
+    <UserControl.Resources>
+
+        <!-- Confirmed: solid green border brush -->
+        <SolidColorBrush x:Key="ConfirmedBorderBrush" Color="#34A853"/>
+
+        <!-- Unset: light gray border brush -->
+        <SolidColorBrush x:Key="UnsetBorderBrush" Color="#CCCCCC"/>
+
+        <!-- Flagged: multicolor gradient border reproduced from old NoteCard -->
+        <LinearGradientBrush x:Key="FlaggedBorderBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#E8F0FE" Offset="0.0"/>
+            <GradientStop Color="#FCE8E6" Offset="0.35"/>
+            <GradientStop Color="#FEF7E0" Offset="0.65"/>
+            <GradientStop Color="#E6F4EA" Offset="1.0"/>
+        </LinearGradientBrush>
+
+        <!-- Background tints per section state -->
+        <SolidColorBrush x:Key="ConfirmedBackgroundBrush" Color="#F2FBF5"/>
+        <SolidColorBrush x:Key="UnsetBackgroundBrush"     Color="#F8F8F8"/>
+        <LinearGradientBrush x:Key="FlaggedBackgroundBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#F0F4FF" Offset="0.0"/>
+            <GradientStop Color="#FFF3F2" Offset="0.5"/>
+            <GradientStop Color="#F5FFF6" Offset="1.0"/>
+        </LinearGradientBrush>
+
+        <!-- Header label color per state -->
+        <SolidColorBrush x:Key="ConfirmedHeaderBrush" Color="#1E7E34"/>
+        <SolidColorBrush x:Key="UnsetHeaderBrush"     Color="#888888"/>
+        <SolidColorBrush x:Key="FlaggedHeaderBrush"   Color="#9C3B2E"/>
+
+    </UserControl.Resources>
+
+    <!-- Outer border: color driven by a style with DataTriggers on SectionHeader -->
+    <Border CornerRadius="5"
+            BorderThickness="2"
+            Margin="4"
+            Padding="0">
+
+        <Border.Style>
+            <Style TargetType="Border">
+                <!-- Unset is the default -->
+                <Setter Property="BorderBrush"  Value="{StaticResource UnsetBorderBrush}"/>
+                <Setter Property="Background"   Value="{StaticResource UnsetBackgroundBrush}"/>
+                <Style.Triggers>
+                    <DataTrigger Binding="{Binding SectionHeader}" Value="Confirmed">
+                        <Setter Property="BorderBrush" Value="{StaticResource ConfirmedBorderBrush}"/>
+                        <Setter Property="Background"  Value="{StaticResource ConfirmedBackgroundBrush}"/>
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding SectionHeader}" Value="Flagged">
+                        <Setter Property="BorderBrush" Value="{StaticResource FlaggedBorderBrush}"/>
+                        <Setter Property="Background"  Value="{StaticResource FlaggedBackgroundBrush}"/>
+                    </DataTrigger>
+                </Style.Triggers>
+            </Style>
+        </Border.Style>
+
+        <DockPanel>
+
+            <!-- ── Section header ── -->
+            <Border DockPanel.Dock="Top"
+                    CornerRadius="3,3,0,0"
+                    Padding="8,4">
+                <Border.Style>
+                    <Style TargetType="Border">
+                        <Setter Property="Background" Value="#EEEEEE"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding SectionHeader}" Value="Confirmed">
+                                <Setter Property="Background" Value="#C8EDCC"/>
+                            </DataTrigger>
+                            <DataTrigger Binding="{Binding SectionHeader}" Value="Flagged">
+                                <Setter Property="Background" Value="#F5E6E4"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Border.Style>
+
+                <TextBlock Text="{Binding SectionHeader}"
+                           FontWeight="SemiBold"
+                           FontSize="12">
+                    <TextBlock.Style>
+                        <Style TargetType="TextBlock">
+                            <Setter Property="Foreground" Value="{StaticResource UnsetHeaderBrush}"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding SectionHeader}" Value="Confirmed">
+                                    <Setter Property="Foreground" Value="{StaticResource ConfirmedHeaderBrush}"/>
+                                </DataTrigger>
+                                <DataTrigger Binding="{Binding SectionHeader}" Value="Flagged">
+                                    <Setter Property="Foreground" Value="{StaticResource FlaggedHeaderBrush}"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </TextBlock.Style>
+                </TextBlock>
+            </Border>
+
+            <!-- ── Note list ── -->
+            <ListBox DockPanel.Dock="Bottom"
+                     ItemsSource="{Binding SectionNotes}"
+                     SelectedItem="{Binding SelectedNote, Mode=TwoWay}"
+                     Background="Transparent"
+                     BorderThickness="0"
+                     Padding="4"
+                     ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                     dd:DragDrop.IsDropTarget="True"
+                     dd:DragDrop.DropHandler="{Binding}"
+                     dd:DragDrop.IsDragSource="True"
+                     dd:DragDrop.UseDefaultDragAdorner="True"
+                     dd:DragDrop.UseDefaultEffectDataTemplate="True">
+
+                <ListBox.InputBindings>
+                    <KeyBinding Key="Up"   Modifiers="Alt"  Command="{Binding MoveNoteUpCommand}"/>
+                    <KeyBinding Key="Down" Modifiers="Alt"  Command="{Binding MoveNoteDownCommand}"/>
+                    <KeyBinding Key="Up"   Modifiers="Ctrl" Command="{Binding PromoteNoteCommand}"/>
+                    <KeyBinding Key="Down" Modifiers="Ctrl" Command="{Binding DemoteNoteCommand}"/>
+                </ListBox.InputBindings>
+
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="ListBoxItem">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                        <Setter Property="Padding" Value="0"/>
+                        <Setter Property="Margin"  Value="0,1"/>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <local:NoteView/>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+
+            </ListBox>
+
+        </DockPanel>
+    </Border>
+</UserControl>

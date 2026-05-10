@@ -1,33 +1,24 @@
 ﻿using StoryPlanner.Core.Models;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
 
-namespace WindowedStoryPlanner.ViewModels
+namespace WindowedStoryPlanner.ViewModels;
+
+public interface IViewModelRegistry
 {
-    public interface IViewModelRegistry
-    {
-        ObservableCollection<SubjectViewModel> AllSubjectViewModels { get; }
-        ObservableCollection<PlotPointViewModel> AllPlotPointViewModels { get; }
-        ObservableCollection<PlotPointSubjectLinkViewModel> AllPlotPointSubjectLinkViewModels { get; }
-        ObservableCollection<ChapterViewModel> AllChapterViewModels { get; }
-        ObservableCollection<NoteViewModel> AllNoteViewModels { get; }
-        ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues { get; }
-        ObservableCollection<NarrativePropertyValueViewModel> AllNarrativePropertyValueDefinitions { get; }
+    ObservableCollection<SubjectViewModel> AllSubjectViewModels { get; }
+    ObservableCollection<PlotPointViewModel> AllPlotPointViewModels { get; }
+    ObservableCollection<PlotPointSubjectLinkViewModel> AllPlotPointSubjectLinkViewModels { get; }
+    ObservableCollection<ChapterViewModel> AllChapterViewModels { get; }
+    ObservableCollection<NoteViewModel> AllNoteViewModels { get; }
+    ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues { get; set; }
+    ObservableCollection<NarrativePropertyValueViewModel> AllNarrativePropertyValueDefinitions { get; }
 
-        /// <summary>
-        /// Raised when a NoteViewModel's filter-relevant properties (OwnerId,
-        /// NoteTrackDefinitionId, NoteState, SortOrder) have been mutated.
-        /// The int argument is the affected Note.Id.
-        /// All active NoteTrackSectionViewModels should refresh their views in response.
-        /// </summary>
-        event Action<int> NoteViewModelMutated;
+    // Promoted from DefinitionsEditorViewModel — registry owns these like every other VM collection
+    ObservableCollection<SubjectDefinitionViewModel> AllSubjectDefinitionViewModels { get; }
+    ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; }
 
-        /// <summary>
-        /// Broadcasts NoteViewModelMutated to all current subscribers.
-        /// Call this from NoteTrackSectionViewModel after completing a drop mutation.
-        /// </summary>
-        void RaiseNoteMutated(int noteId);
-    }
+    event Action<int> NoteViewModelMutated;
+    void RaiseNoteMutated(int noteId);
+    void Clear();
 }
