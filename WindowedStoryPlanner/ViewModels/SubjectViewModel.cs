@@ -56,14 +56,17 @@ namespace WindowedStoryPlanner.ViewModels
             InitializeTracksAndProperties();
 
             //TODO: need own view, follow note track section pattern
-            PlotPointSubjectLinks = CollectionViewSource.GetDefaultView(
-                    viewModelRegistry.AllPlotPointSubjectLinkViewModels);
-            PlotPointSubjectLinks.Filter = FilterLinks;
-            PlotPointSubjectLinks.SortDescriptions.Add(
-                new SortDescription(nameof(PlotPointSubjectLinkViewModel.ChapterOrderIndex), ListSortDirection.Ascending));
-            PlotPointSubjectLinks.SortDescriptions.Add(
-                new SortDescription(nameof(PlotPointSubjectLinkViewModel.PlotPointOrderInChapter), ListSortDirection.Ascending));
-            PlotPointSubjectLinks.Refresh();
+            var view = new ListCollectionView(viewModelRegistry.AllPlotPointSubjectLinkViewModels)
+            {
+                Filter = obj => obj is PlotPointSubjectLinkViewModel link && link.SubjectId == _subject.Id,
+                IsLiveSorting = true,
+            };
+            view.LiveSortingProperties.Add(nameof(PlotPointSubjectLinkViewModel.ChapterOrderIndex));
+            view.LiveSortingProperties.Add(nameof(PlotPointSubjectLinkViewModel.PlotPointOrderInChapter));
+            view.SortDescriptions.Add(new SortDescription(nameof(PlotPointSubjectLinkViewModel.ChapterOrderIndex), ListSortDirection.Ascending));
+            view.SortDescriptions.Add(new SortDescription(nameof(PlotPointSubjectLinkViewModel.PlotPointOrderInChapter), ListSortDirection.Ascending));
+            PlotPointSubjectLinks = view;
+
             _windowManager = windowManager;
         }
 
@@ -97,12 +100,6 @@ namespace WindowedStoryPlanner.ViewModels
                 .ToList();
 
             InitializeCollections(_subject.Id, OwnerType.Subject, noteTracks, propertyDefs);
-        }
-
-        private bool FilterLinks(object obj)
-        {
-            if (obj is not PlotPointSubjectLinkViewModel link) return false;
-            return link.SubjectId == _subject.Id;
         }
 
         public string BadgeText => !string.IsNullOrWhiteSpace(Abbreviation)

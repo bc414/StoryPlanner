@@ -21,4 +21,6 @@ public interface IViewModelRegistry
     event Action<int> NoteViewModelMutated;
     void RaiseNoteMutated(int noteId);
     void Clear();
+    event Action LinksInvalidated;
+    void RaiseLinksInvalidated();
 }

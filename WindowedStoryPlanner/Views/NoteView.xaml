@@ -11,28 +11,34 @@
     <UserControl.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </UserControl.Resources>
-    <DockPanel dd:DragDrop.IsDragSource="True">
-        <StackPanel Visibility="{Binding SupportsWorldDate, Converter={StaticResource BoolToVis}}" 
+    <Border BorderThickness="2"
+        CornerRadius="3"
+        Padding="5"
+        Margin="2"
+        BorderBrush="LightGray">
+        <DockPanel dd:DragDrop.IsDragSource="True">
+            <StackPanel Visibility="{Binding SupportsWorldDate, Converter={StaticResource BoolToVis}}" 
                     Orientation="Horizontal" DockPanel.Dock="Top" HorizontalAlignment="Right">
-            <TextBlock Text="World Date: "/>
-            <TextBox Text="{Binding WorldDate}"/>
-        </StackPanel>
-        <StackPanel DockPanel.Dock="Left">
-            <TextBlock Text="{Binding SortOrder, StringFormat={}{0}.}"/>
-            <TextBlock Text="{Binding StateLabel}"/>
-        </StackPanel>
-        <TextBox Text="{Binding Content}" TextWrapping="Wrap" 
+                <TextBlock Text="World Date: "/>
+                <TextBox Text="{Binding WorldDate}"/>
+            </StackPanel>
+            <StackPanel DockPanel.Dock="Left">
+                <TextBlock Text="{Binding SortOrder, StringFormat={}{0}.}"/>
+            </StackPanel>
+            <TextBox Text="{Binding Content}" TextWrapping="Wrap" 
 AcceptsReturn="True"
 BorderThickness="0"
 Background="Transparent"
 VerticalAlignment="Stretch"/>
-        <StackPanel Visibility="{Binding IsFlagged, Converter={StaticResource BoolToVis}}" Orientation="Horizontal" DockPanel.Dock="Bottom">
-            <TextBlock Text="Flag Reason: "/>
-            <TextBox Text="{Binding FlagReason}" TextWrapping="Wrap" 
+            <StackPanel Visibility="{Binding IsFlagged, Converter={StaticResource BoolToVis}}" Orientation="Horizontal" DockPanel.Dock="Bottom">
+                <TextBlock Text="Flag Reason: "/>
+                <TextBox Text="{Binding FlagReason}" TextWrapping="Wrap" 
 AcceptsReturn="True"
 BorderThickness="0"
 Background="Transparent"
 VerticalAlignment="Stretch"/>
-        </StackPanel>
-    </DockPanel>
+            </StackPanel>
+        </DockPanel>
+    </Border>
+    
 </UserControl>

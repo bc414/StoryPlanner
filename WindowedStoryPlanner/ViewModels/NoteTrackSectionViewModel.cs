@@ -22,6 +22,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     public string SectionHeader => _targetState.ToString();
     public NoteState TargetState => _targetState;
     public ICollectionView SectionNotes { get; }
+    private readonly CollectionViewSource _cvs;
 
     [ObservableProperty]
     private NoteViewModel? _selectedNote;
@@ -41,8 +42,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _storyService      = storyService;
         _viewModelRegistry = viewModelRegistry;
 
-        var cvs = new CollectionViewSource { Source = viewModelRegistry.AllNoteViewModels };
-        SectionNotes = cvs.View;
+        _cvs = new CollectionViewSource { Source = viewModelRegistry.AllNoteViewModels };
+        SectionNotes = _cvs.View;
         SectionNotes.Filter = FilterNote;
         SectionNotes.SortDescriptions.Add(
             new SortDescription(nameof(NoteViewModel.SortOrder), ListSortDirection.Ascending));
@@ -147,13 +148,13 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     // ── Helpers ──────────────────────────────────────────────────────────
 
     /// <summary>
-    /// Assigns SortOrder values of 10, 20, 30... to the provided ordered list.
+    /// 
     /// Call this after any operation that changes note ordering within a section.
     /// </summary>
     private static void ReindexSection(List<NoteViewModel> orderedNotes)
     {
         for (int i = 0; i < orderedNotes.Count; i++)
-            orderedNotes[i].SortOrder = (i + 1) * 10;
+            orderedNotes[i].SortOrder = (i + 1);
     }
 
     [RelayCommand]

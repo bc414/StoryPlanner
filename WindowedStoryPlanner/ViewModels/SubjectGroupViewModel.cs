@@ -15,6 +15,8 @@ public class SubjectGroupViewModel
     public int    SubjectDefinitionId { get; }  // stored directly — avoids string lookup in AddSubject
     public ICollectionView Subjects { get; }
 
+    private readonly CollectionViewSource _cvs;
+
     public SubjectGroupViewModel(
         SubjectDefinition definition,
         ObservableCollection<SubjectViewModel> allSubjects)
@@ -23,8 +25,8 @@ public class SubjectGroupViewModel
         DisplayOrder        = definition.DisplayOrder;
         SubjectDefinitionId = definition.Id;
 
-        var cvs = new CollectionViewSource { Source = allSubjects };
-        Subjects = cvs.View;
+        _cvs = new CollectionViewSource { Source = allSubjects };
+        Subjects = _cvs.View;
         Subjects.Filter = obj =>
             obj is SubjectViewModel s && s.SubjectDefinitionId == definition.Id;
         Subjects.SortDescriptions.Add(

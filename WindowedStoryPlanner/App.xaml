@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+             xmlns:behaviors="clr-namespace:WindowedStoryPlanner.Views.Behaviors"
              ShutdownMode="OnMainWindowClose">
     
     <Application.Resources>
@@ -15,6 +16,14 @@
             <v:CanMoveToChapterConverter x:Key="TypeCheckConverter"/>
             <v:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
             <v:IsFloatingWindowConverter x:Key="IsFloatingWindowConverter"/>
+
+            <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
+                <Setter Property="behaviors:ScrollPassthroughBehavior.Enabled" Value="True"/>
+            </Style>
+
+            <Style TargetType="ListBox" BasedOn="{StaticResource {x:Type ListBox}}">
+                <Setter Property="behaviors:ScrollPassthroughBehavior.Enabled" Value="True"/>
+            </Style>
 
         </ResourceDictionary>
         

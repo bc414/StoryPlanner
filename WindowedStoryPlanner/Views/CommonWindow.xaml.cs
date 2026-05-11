@@ -74,12 +74,15 @@ namespace WindowedStoryPlanner.Views
             }
 
             UpdateLayout();
+            _registry.LinksInvalidated += UpdateLayout;
+        }
 
-            Closed += (_, _) =>
-            {
-                _mainElement?.OnWindowClosed();
-                _secondaryElement?.OnWindowClosed();
-            };
+        protected override void OnClosed(EventArgs e)
+        {
+            _registry.LinksInvalidated -= UpdateLayout;
+            _mainElement?.OnWindowClosed();
+            _secondaryElement?.OnWindowClosed();
+            base.OnClosed(e);
         }
 
         // ── Note selection (routed from any section ListBox in the tree) ──────
@@ -252,15 +255,16 @@ namespace WindowedStoryPlanner.Views
         /// </summary>
         private void PivotToElement(NarrativeElementViewModel newMain, bool newIsSubjectMode)
         {
-            var previousMain  = _mainElement;
-            _mainElement      = newMain;
-            _secondaryElement = previousMain;
-            _isSubjectMode    = newIsSubjectMode;
+            _mainElement?.OnWindowClosed();
+
+            _mainElement   = newMain;
+            _isSubjectMode = newIsSubjectMode;
 
             Title = TitleFor(_mainElement);
 
             _mainElement.OnWindowOpened();
 
+            RefreshSecondaryElement();
             UpdateLayout();
         }
 
@@ -271,14 +275,8 @@ namespace WindowedStoryPlanner.Views
 
             if (SelectedLink is null) return;
 
-            NarrativeElementViewModel? next = _isSubjectMode
-                ? _registry.AllPlotPointViewModels
-                      .FirstOrDefault(pp => pp.Id == SelectedLink.PlotPointId)
-                : _registry.AllSubjectViewModels
-                      .FirstOrDefault(s => s.Id == SelectedLink.SubjectId);
-
-            _secondaryElement = next;
-            _secondaryElement?.OnWindowOpened();
+            _secondaryElement = SelectedLink;
+            _secondaryElement.OnWindowOpened();
         }
 
         private new void UpdateLayout()
@@ -289,20 +287,58 @@ namespace WindowedStoryPlanner.Views
             RightPanel.Content    = RightElement;
             RightPanel.Visibility = RightElement is not null ? Visibility.Visible : Visibility.Collapsed;
 
+            // Resize columns: collapse inactive side to 0; give primary 2× width when both visible
+            var leftCol  = ContentGrid.ColumnDefinitions[0];
+            var rightCol = ContentGrid.ColumnDefinitions[2];
+
+            bool leftVisible  = LeftElement  is not null;
+            bool rightVisible = RightElement is not null;
+            // In subject mode the subject (main) is on the left; in plot-point mode it is on the right
+            bool primaryIsLeft = _isSubjectMode;
+
+            if (leftVisible && rightVisible)
+            {
+                leftCol.Width  = primaryIsLeft
+                    ? new GridLength(2, GridUnitType.Star)
+                    : new GridLength(1, GridUnitType.Star);
+                rightCol.Width = primaryIsLeft
+                    ? new GridLength(1, GridUnitType.Star)
+                    : new GridLength(2, GridUnitType.Star);
+            }
+            else
+            {
+                leftCol.Width  = leftVisible  ? new GridLength(1, GridUnitType.Star) : new GridLength(0);
+                rightCol.Width = rightVisible ? new GridLength(1, GridUnitType.Star) : new GridLength(0);
+            }
+
             AssignFunctionKeys(LeftElement, RightElement);
 
-            LinkCardsListBox.ItemsSource = _isSubjectMode
-                ? (_mainElement as SubjectViewModel)?.PlotPointSubjectLinks
-                : (_mainElement as PlotPointViewModel)?.PlotPointSubjectLinks;
+            LinkCardsListBox.ItemsSource = GetSortedLinks().ToList();
 
-            //unsubscribes temporarily to prevent recursively calling this UpdateLayout() method. This is because
-            //when changing ItemsSource, SelectedItem becomes null
             LinkCardsListBox.SelectionChanged -= LinkCards_SelectionChanged;
             LinkCardsListBox.SelectedItem      = SelectedLink;
             LinkCardsListBox.SelectionChanged += LinkCards_SelectionChanged;
 
-            NavigateLeftButton.IsEnabled  = LeftElement  is not null && SelectedLink is not null;
-            NavigateRightButton.IsEnabled = RightElement is not null && SelectedLink is not null;
+            NavigateLeftButton.IsEnabled  = !_isSubjectMode && SelectedLink is not null;
+            NavigateRightButton.IsEnabled =  _isSubjectMode && SelectedLink is not null;
+            DeselectLinkButton.IsEnabled  = SelectedLink is not null;
+        }
+
+        private IEnumerable<PlotPointSubjectLinkViewModel> GetSortedLinks()
+        {
+            if (_isSubjectMode && _mainElement is SubjectViewModel subject)
+                return _registry.AllPlotPointSubjectLinkViewModels
+                    .Where(l => l.SubjectId == subject.Id)
+                    .OrderBy(l => l.ChapterOrderIndex)
+                    .ThenBy(l => l.PlotPointOrderInChapter);
+
+            if (!_isSubjectMode && _mainElement is PlotPointViewModel plotPoint)
+                return _registry.AllPlotPointSubjectLinkViewModels
+                    .Where(l => l.PlotPointId == plotPoint.Id)
+                    .OrderBy(l => l.SubjectTypeName)
+                    .ThenBy(l => l.SubjectName, StringComparer.CurrentCultureIgnoreCase);
+
+            return Enumerable.Empty<PlotPointSubjectLinkViewModel>();
         }
 
         private static string TitleFor(NarrativeElementViewModel? vm) => vm switch
@@ -311,5 +347,13 @@ namespace WindowedStoryPlanner.Views
             PlotPointViewModel pp => $"Plot Point — {pp.Title}",
             _                     => "Story Planner"
         };
+
+        private void DeselectLink_Click(object sender, RoutedEventArgs e)
+        {
+            SelectedLink = null;
+            _secondaryElement?.OnWindowClosed();
+            _secondaryElement = null;
+            UpdateLayout();
+        }
     }
 }

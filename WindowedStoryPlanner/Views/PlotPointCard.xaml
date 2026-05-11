@@ -7,7 +7,9 @@
              xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              mc:Ignorable="d" 
-             Width="300" Height="60" d:DataContext="{d:DesignInstance Type=vm:PlotPointViewModel}"
+             Width="300" Height="60"
+             d:DataContext="{d:DesignInstance Type=vm:PlotPointViewModel}"
+             Style="{StaticResource PlotPointCardStyle}"
              dd:DragDrop.IsDragSource="True"
              dd:DragDrop.IsDropTarget="True"
              dd:DragDrop.DropHandler="{Binding}">
@@ -17,15 +19,15 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="0"
-           TextWrapping="Wrap"
-           VerticalAlignment="Center"
-           Margin="0,2,0,4">
-    <Run Text="{Binding FullOrder, Mode=OneWay}" 
-         Foreground="#888" 
-         FontSize="11" 
-         FontWeight="Bold"/>
-    <Run Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
-         FontSize="13"/>
+                   TextWrapping="Wrap"
+                   VerticalAlignment="Center"
+                   Margin="0,2,0,4">
+            <Run Text="{Binding FullOrder, Mode=OneWay}" 
+                 Foreground="#888" 
+                 FontSize="11" 
+                 FontWeight="Bold"/>
+            <Run Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
+                 FontSize="13"/>
         </TextBlock>
     </Grid>
 </UserControl>

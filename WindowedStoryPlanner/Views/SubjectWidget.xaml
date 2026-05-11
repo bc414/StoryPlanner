@@ -32,6 +32,9 @@
 
     <Grid>
         <StackPanel Margin="8">
+            <TextBlock Text="NAME" Style="{StaticResource LabelStyle}"/>
+            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+         Style="{StaticResource TitleTextBox}"/>
             <Label Content="Subject Type" FontWeight="SemiBold"/>
             <ComboBox ItemsSource="{Binding AvailableSubjectDefinitions}"
                       SelectedItem="{Binding SelectedSubjectDefinition, Mode=TwoWay}"

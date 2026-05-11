@@ -85,6 +85,6 @@ public partial class NoteTrackViewModel : ObservableObject
 
         int? trackId = _definition.Id == UnassignedTrack.Definition.Id ? null : _definition.Id;
 
-        await _editorCoordinator.CreateNoteAsync(_ownerId, _ownerType, trackId, maxOrder + 10);
+        await _editorCoordinator.CreateNoteAsync(_ownerId, _ownerType, trackId, maxOrder + 1);
     }
 }

@@ -39,9 +39,10 @@ public partial class ChapterViewModel : NarrativeElementViewModel
 
         InitializeCollections(chapter.Id, OwnerType.Chapter, noteTracks, propertyDefs);
 
-        PlotPointsInChapter = CollectionViewSource.GetDefaultView(
-            viewModelRegistry.AllPlotPointViewModels);
-        PlotPointsInChapter.Filter = FilterPlotPoints;
+        PlotPointsInChapter = new ListCollectionView(viewModelRegistry.AllPlotPointViewModels)
+        {
+            Filter = FilterPlotPoints
+        };
         PlotPointsInChapter.SortDescriptions.Add(
             new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
     }
@@ -72,7 +73,10 @@ public partial class ChapterViewModel : NarrativeElementViewModel
         set
         {
             if (SetProperty(_chapter.OrderIndex, value, _chapter, (u, n) => u.OrderIndex = n))
+            {
                 OnPropertyChanged(nameof(FullTitle));
+                _viewModelRegistry.RaiseLinksInvalidated();
+            }
         }
     }
 

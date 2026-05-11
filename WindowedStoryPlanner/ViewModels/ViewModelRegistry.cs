@@ -23,6 +23,9 @@ public class ViewModelRegistry : IViewModelRegistry
     public event Action<int>? NoteViewModelMutated;
     public void RaiseNoteMutated(int noteId) => NoteViewModelMutated?.Invoke(noteId);
 
+    public event Action? LinksInvalidated;
+    public void RaiseLinksInvalidated() => LinksInvalidated?.Invoke();
+
     public void Clear()
     {
         AllSubjectViewModels.Clear();

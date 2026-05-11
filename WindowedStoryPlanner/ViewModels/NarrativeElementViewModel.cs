@@ -109,9 +109,13 @@ namespace WindowedStoryPlanner.ViewModels
                 case (PlotPointViewModel p, SubjectViewModel s):
                     await _editorCoordinator.CreatePlotPointSubjectLinkAsync(p, s); break;
                 case (PlotPointSubjectLinkViewModel l, PlotPointViewModel p):
-                    l.PlotPointId = p.Id; break;
+                    l.PlotPointId = p.Id;
+                    _viewModelRegistry.RaiseLinksInvalidated();
+                    break;
                 case (PlotPointSubjectLinkViewModel l, SubjectViewModel s):
-                    l.SubjectId = s.Id; break;
+                    l.SubjectId = s.Id;
+                    _viewModelRegistry.RaiseLinksInvalidated();
+                    break;
             }
         }
     }

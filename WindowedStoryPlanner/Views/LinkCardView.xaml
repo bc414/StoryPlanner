@@ -1,0 +1,47 @@
+﻿<UserControl x:Class="WindowedStoryPlanner.Views.LinkCardView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+             mc:Ignorable="d"
+             Width="300"
+             d:DataContext="{d:DesignInstance Type=vm:PlotPointSubjectLinkViewModel}">
+    <Border BorderThickness="2"
+            CornerRadius="3"
+            Padding="5"
+            Margin="2"
+            BorderBrush="LightGray">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="1"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Subject side (left) -->
+            <StackPanel Grid.Column="0" Margin="6,4" VerticalAlignment="Center">
+                <TextBlock Text="{Binding SubjectName}"
+                           FontWeight="SemiBold"
+                           FontSize="10" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+                <TextBlock Text="{Binding SubjectTypeName}"
+                           FontSize="8"
+                           Foreground="Gray" TextWrapping="Wrap" HorizontalAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Divider -->
+            <Rectangle Grid.Column="1"
+                       Fill="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}"
+                       Width="1"
+                       VerticalAlignment="Stretch"/>
+
+            <!-- Plot point side (right) -->
+            <StackPanel Grid.Column="2" Margin="6,4" VerticalAlignment="Center">
+                <TextBlock Text="{Binding PlotPointDisplayText}"
+           FontWeight="SemiBold"
+           FontSize="10"
+           TextWrapping="Wrap" HorizontalAlignment="Center" TextAlignment="Center"/>
+            </StackPanel>
+        </Grid>
+    </Border>
+</UserControl>

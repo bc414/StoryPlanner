@@ -6,16 +6,12 @@
              xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
              mc:Ignorable="d"
-             d:DataContext="{d:DesignInstance Type=vm:SubjectViewModel}" Style="{StaticResource EntityCardStyle}"
+             d:DataContext="{d:DesignInstance Type=vm:SubjectViewModel}"
+             Style="{StaticResource SubjectCardStyle}"
+             HorizontalContentAlignment="Center"
+             VerticalContentAlignment="Center"
              dd:DragDrop.IsDragSource="True"
              dd:DragDrop.IsDropTarget="True"
              dd:DragDrop.DropHandler="{Binding}">
-    <Border BorderBrush="#CCCCCC" BorderThickness="1"
-            CornerRadius="4" Padding="8,5" Margin="4"
-            Background="White" Cursor="Hand">
-        <Border.InputBindings>
-            <MouseBinding MouseAction="LeftDoubleClick" Command="{Binding OpenCommand}"/>
-        </Border.InputBindings>
-        <TextBlock Text="{Binding Name}" FontSize="13" VerticalAlignment="Center"/>
-    </Border>
+    <TextBlock Text="{Binding Name}" FontSize="16" VerticalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
 </UserControl>

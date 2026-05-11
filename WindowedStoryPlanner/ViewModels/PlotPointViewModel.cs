@@ -20,9 +20,10 @@ namespace WindowedStoryPlanner.ViewModels
         {
             get => _plotPoint.ChapterId;
             set
-            { 
+            {
                 SetProperty(_plotPoint.ChapterId, value, _plotPoint, (p, n) => p.ChapterId = n);
                 OnPropertyChanged(nameof(FullOrder));
+                _viewModelRegistry.RaiseLinksInvalidated();
             }
         }
 
@@ -33,6 +34,7 @@ namespace WindowedStoryPlanner.ViewModels
             {
                 SetProperty(_plotPoint.OrderInChapter, value, _plotPoint, (p, n) => p.OrderInChapter = n);
                 OnPropertyChanged(nameof(FullOrder));
+                _viewModelRegistry.RaiseLinksInvalidated();
             }
         }
 
@@ -43,8 +45,8 @@ namespace WindowedStoryPlanner.ViewModels
         }
 
         public string FullOrder => ChapterId == null
-        ? "? "
-        : $"{_viewModelRegistry.AllChapterViewModels.FirstOrDefault(c => c.Id == ChapterId)?.OrderIndex : '? '}.{OrderInChapter} ";
+    ? "? "
+    : $"{_viewModelRegistry.AllChapterViewModels.FirstOrDefault(c => c.Id == ChapterId)?.OrderIndex.ToString() ?? "?"}.{OrderInChapter} ";
 
         [RelayCommand]
         private void Open() => _windowManager.OpenCommonWindow(this);
@@ -69,16 +71,31 @@ namespace WindowedStoryPlanner.ViewModels
 
             InitializeCollections(plotPoint.Id, OwnerType.PlotPoint, noteTracks, propertyDefs);
 
-            PlotPointSubjectLinks = CollectionViewSource.GetDefaultView(
-                viewModelRegistry.AllPlotPointSubjectLinkViewModels);
-            PlotPointSubjectLinks.Filter = FilterLinks;
-            _windowManager = windowManager;
-        }
+            var view = new ListCollectionView(viewModelRegistry.AllPlotPointSubjectLinkViewModels)
+            {
+                Filter = obj => obj is PlotPointSubjectLinkViewModel link && link.PlotPointId == _plotPoint.Id,
+                CustomSort = Comparer<object>.Create((a, b) =>
+                {
+                    if (a is not PlotPointSubjectLinkViewModel la || b is not PlotPointSubjectLinkViewModel lb)
+                        return 0;
 
-        private bool FilterLinks(object obj)
-        {
-            if (obj is not PlotPointSubjectLinkViewModel link) return false;
-            return link.PlotPointId == _plotPoint.Id;
+                    var subjectA = viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == la.SubjectId);
+                    var subjectB = viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == lb.SubjectId);
+
+                    var defOrderA = viewModelRegistry.AllSubjectDefinitionViewModels
+                        .FirstOrDefault(d => d.Id == subjectA?.SubjectDefinitionId)?.DisplayOrder ?? int.MaxValue;
+                    var defOrderB = viewModelRegistry.AllSubjectDefinitionViewModels
+                        .FirstOrDefault(d => d.Id == subjectB?.SubjectDefinitionId)?.DisplayOrder ?? int.MaxValue;
+
+                    int defCompare = defOrderA.CompareTo(defOrderB);
+                    if (defCompare != 0) return defCompare;
+
+                    return string.Compare(subjectA?.Name, subjectB?.Name, StringComparison.CurrentCultureIgnoreCase);
+                })
+            };
+            PlotPointSubjectLinks = view;
+
+            _windowManager = windowManager;
         }
     }
 }

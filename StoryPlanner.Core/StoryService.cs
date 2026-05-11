@@ -195,12 +195,10 @@ public class StoryService : IStoryService
     {
         if (_context == null) return;
 
-        await _context.Set<Note>()
-            .LoadAsync();
-
-        await _context.PlotPoints
-            .LoadAsync();
-
+        await _context.Notes.LoadAsync();
+        await _context.Subjects.LoadAsync();
+        await _context.PlotPoints.LoadAsync();
+        await _context.PlotPointSubjectLinks.LoadAsync();
         await _context.Chapters.OrderBy(c => c.OrderIndex).LoadAsync();
 
         // Definitions — load leaves first so EF relationship fixup wires nav properties
@@ -217,18 +215,21 @@ public class StoryService : IStoryService
         // ---------------------------------------------------------------------------
         // STEP 4: BIND TO UI
         // ---------------------------------------------------------------------------
+        Notes    = _context.Notes.Local.ToObservableCollection();
+        Subjects = _context.Subjects.Local.ToObservableCollection();
         Chapters = _context.Chapters.Local.ToObservableCollection();
         PlotPoints = _context.PlotPoints.Local.ToObservableCollection();
+        PlotPointsSubjectLinks = _context.PlotPointSubjectLinks.Local.ToObservableCollection();
 
-        SubjectDefinitions           = _context.SubjectDefinitions.Local.ToObservableCollection();
-        NoteTrackDefinitions         = _context.NoteTrackDefinitions.Local.ToObservableCollection();
-        NarrativePropertyDefinitions = _context.NarrativePropertyDefinitions.Local.ToObservableCollection();
+        SubjectDefinitions                = _context.SubjectDefinitions.Local.ToObservableCollection();
+        NoteTrackDefinitions              = _context.NoteTrackDefinitions.Local.ToObservableCollection();
+        NarrativePropertyDefinitions      = _context.NarrativePropertyDefinitions.Local.ToObservableCollection();
         NarrativePropertyValueDefinitions = _context.NarrativePropertyValueDefinitions.Local.ToObservableCollection();
-        NarrativePropertyValues      = _context.NarrativePropertyValues.Local.ToObservableCollection();
+        NarrativePropertyValues           = _context.NarrativePropertyValues.Local.ToObservableCollection();
 
         SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
-        GeminiEntries = _context.GeminiEntries.Local.ToObservableCollection();
-        Ideas  = _context.Ideas.Local.ToObservableCollection();
+        GeminiEntries   = _context.GeminiEntries.Local.ToObservableCollection();
+        Ideas           = _context.Ideas.Local.ToObservableCollection();
 
         IsProjectLoaded = true;
     }

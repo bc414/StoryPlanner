@@ -99,5 +99,6 @@ public class ContentFactory : IContentFactory
 
         var vm = new PlotPointSubjectLinkViewModel(link, _registry, _storyService, this);
         _registry.AllPlotPointSubjectLinkViewModels.Add(vm);
+        _registry.RaiseLinksInvalidated();  // ← new link exists
     }
 }
