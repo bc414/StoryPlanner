@@ -99,7 +99,17 @@ namespace WindowedStoryPlanner.ViewModels
                            && npd.SubjectDefinitionId == _subject.SubjectDefinitionId)
                 .ToList();
 
-            InitializeCollections(_subject.Id, OwnerType.Subject, noteTracks, propertyDefs);
+            InitializeCollections(
+                _subject.Id,
+                OwnerType.Subject,
+                () => _storyService.NoteTrackDefinitions
+                          .Where(ntd => ntd.OwnerType == OwnerType.Subject
+                                     && ntd.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                          .ToList(),
+                () => _storyService.NarrativePropertyDefinitions
+                          .Where(npd => npd.OwnerType == OwnerType.Subject
+                                     && npd.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                          .ToList());
         }
 
         public string BadgeText => !string.IsNullOrWhiteSpace(Abbreviation)

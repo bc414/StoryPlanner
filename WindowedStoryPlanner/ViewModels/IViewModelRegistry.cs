@@ -14,12 +14,19 @@ public interface IViewModelRegistry
     ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues { get; set; }
     ObservableCollection<NarrativePropertyValueViewModel> AllNarrativePropertyValueDefinitions { get; }
 
-    // Promoted from DefinitionsEditorViewModel — registry owns these like every other VM collection
     ObservableCollection<SubjectDefinitionViewModel> AllSubjectDefinitionViewModels { get; }
     ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; }
+    ObservableCollection<ThemeViewModel> AllThemeViewModels { get; }
 
     event Action<int> NoteViewModelMutated;
     void RaiseNoteMutated(int noteId);
+
+    // Broadcast when any section selects a note so all other sections
+    // can clear their own selection, enforcing a single selection across
+    // the entire NarrativeElementFullView.
+    event Action<int> NoteSelected;
+    void RaiseNoteSelected(int noteId);
+
     void Clear();
     event Action LinksInvalidated;
     void RaiseLinksInvalidated();

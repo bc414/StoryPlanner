@@ -15,16 +15,19 @@ public class ViewModelLocator
     public ChapterLibraryViewModel    Chapters     { get; }
     public DefinitionsEditorViewModel Definitions  { get; }
     public SubjectLibraryViewModel    Subjects     { get; }
+    public ThemeLibraryViewModel      Themes       { get; }
 
     public ViewModelLocator(
         FileManagerViewModel       fileManager,
         ChapterLibraryViewModel    chapters,
         DefinitionsEditorViewModel definitions,
-        SubjectLibraryViewModel    subjects)
+        SubjectLibraryViewModel    subjects,
+        ThemeLibraryViewModel      themes)
     {
         FileManager = fileManager;
         Chapters    = chapters;
         Definitions = definitions;
         Subjects    = subjects;
+        Themes      = themes;
     }
 }

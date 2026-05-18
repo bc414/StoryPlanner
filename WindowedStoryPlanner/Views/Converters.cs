@@ -148,9 +148,9 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
 
             var color = mode switch
             {
-                CognitiveMode.ZeroFocalization => Color.FromRgb(0xB0, 0xD4, 0xE3),   // Pastel Blue
-                CognitiveMode.SceneArchitecture => Color.FromRgb(0xC5, 0xC5, 0xD0),  // Pastel Lavender-Gray
-                CognitiveMode.Metatextual => Color.FromRgb(0xD8, 0xBF, 0xD8),        // Pastel Purple
+                CognitiveMode.InUniverseContent => Color.FromRgb(0xB0, 0xD4, 0xE3),   // Pastel Blue
+                CognitiveMode.ReaderExperienceDesign => Color.FromRgb(0xC5, 0xC5, 0xD0),  // Pastel Lavender-Gray
+                CognitiveMode.NotesToSelf => Color.FromRgb(0xD8, 0xBF, 0xD8),        // Pastel Purple
                 CognitiveMode.Analogical => Color.FromRgb(0xAF, 0xD8, 0xD8),         // Pastel Teal
                 CognitiveMode.LinguisticExecution => Color.FromRgb(0xF4, 0xD2, 0xAB), // Pastel Peach
                 _ => Colors.LightGray

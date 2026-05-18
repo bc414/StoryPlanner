@@ -4,7 +4,8 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
-        mc:Ignorable="d">
+             xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+        mc:Ignorable="d" d:DataContext="{d:DesignInstance Type=vm:DefinitionsEditorViewModel}">
 
     <UserControl.Resources>
         <Style TargetType="TextBlock" x:Key="LabelStyle">
@@ -170,29 +171,44 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <TextBlock Text="{Binding DisplayQuestion}" VerticalAlignment="Center"
-                                       Margin="4,0" TextTrimming="CharacterEllipsis"/>
+                                       Margin="4,0" TextWrapping="Wrap"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                     <DataGridTemplateColumn.CellEditingTemplate>
                         <DataTemplate>
                             <TextBox Text="{Binding DisplayQuestion, UpdateSourceTrigger=PropertyChanged}"
-                                     BorderThickness="0" Padding="3"/>
+                                     BorderThickness="0" Padding="3" TextWrapping="Wrap"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
 
                 <!-- Explanation -->
-                <DataGridTemplateColumn Header="Explanation" Width="*">
+                <DataGridTemplateColumn Header="Usage Directive" Width="*">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding Explanation}" VerticalAlignment="Center"
-                                       Margin="4,0" TextTrimming="CharacterEllipsis"/>
+                            <TextBlock Text="{Binding UsageDirective}" VerticalAlignment="Center"
+                                       Margin="4,0" TextWrapping="Wrap"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                     <DataGridTemplateColumn.CellEditingTemplate>
                         <DataTemplate>
-                            <TextBox Text="{Binding Explanation, UpdateSourceTrigger=PropertyChanged}"
-                                     BorderThickness="0" Padding="3"/>
+                            <TextBox Text="{Binding UsageDirective, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0" Padding="3" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Audit Directive" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding AuditDirective}" VerticalAlignment="Center"
+                       Margin="4,0" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding AuditDirective, UpdateSourceTrigger=PropertyChanged}"
+                     BorderThickness="0" Padding="3" TextWrapping="Wrap"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
@@ -264,41 +280,6 @@
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
 
-                <!-- Function Key (nullable, F1–F12 ComboBox) -->
-                <DataGridTemplateColumn Header="F-Key" Width="68">
-                    <DataGridTemplateColumn.CellTemplate>
-                        <DataTemplate>
-                            <TextBlock Text="{Binding FunctionKeyLabel}" VerticalAlignment="Center"
-                                       HorizontalAlignment="Center"/>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellTemplate>
-                    <DataGridTemplateColumn.CellEditingTemplate>
-                        <DataTemplate>
-                            <ComboBox SelectedItem="{Binding FunctionKeyNumber, UpdateSourceTrigger=PropertyChanged}"
-                                      ItemsSource="{Binding DataContext.FunctionKeyOptions,
-                                                   RelativeSource={RelativeSource AncestorType=DataGrid}}"
-                                      BorderThickness="0">
-                                <ComboBox.ItemTemplate>
-                                    <DataTemplate>
-                                        <TextBlock>
-                                            <TextBlock.Style>
-                                                <Style TargetType="TextBlock">
-                                                    <Setter Property="Text" Value="{Binding StringFormat='F{0}'}"/>
-                                                    <Style.Triggers>
-                                                        <DataTrigger Binding="{Binding}" Value="{x:Null}">
-                                                            <Setter Property="Text" Value="None"/>
-                                                        </DataTrigger>
-                                                    </Style.Triggers>
-                                                </Style>
-                                            </TextBlock.Style>
-                                        </TextBlock>
-                                    </DataTemplate>
-                                </ComboBox.ItemTemplate>
-                            </ComboBox>
-                        </DataTemplate>
-                    </DataGridTemplateColumn.CellEditingTemplate>
-                </DataGridTemplateColumn>
-
                 <!-- IsSingleton -->
                 <DataGridTemplateColumn Header="Singleton" Width="62" CanUserResize="False">
                     <DataGridTemplateColumn.CellTemplate>
@@ -327,6 +308,36 @@
                         <DataTemplate>
                             <CheckBox IsChecked="{Binding SupportsWorldDate, UpdateSourceTrigger=PropertyChanged}"
                                       HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Theme" Width="70" CanUserResize="False">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding SupportsTheme, UpdateSourceTrigger=PropertyChanged}"
+                      HorizontalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding SupportsTheme, UpdateSourceTrigger=PropertyChanged}"
+                      HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="Edit in Audit" Width="70" CanUserResize="False">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding CanEditInAuditMode, UpdateSourceTrigger=PropertyChanged}"
+                      HorizontalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding CanEditInAuditMode, UpdateSourceTrigger=PropertyChanged}"
+                      HorizontalAlignment="Center"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>

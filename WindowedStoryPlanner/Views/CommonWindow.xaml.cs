@@ -240,9 +240,15 @@ namespace WindowedStoryPlanner.Views
                                             ? null
                                             : targetTrack.Definition.Id;
             note.NoteState             = NoteState.Unset;
-            note.SortOrder             = maxOrder + 10;
+            note.SortOrder             = maxOrder + 1;
 
             _registry.RaiseNoteMutated(note.Id);
+
+            // Selection follows the note to its new section so _selectedNote
+            // stays current and subsequent hotkeys act on the right note.
+            if (unsetSection is not null)
+                unsetSection.SelectedNote = note;
+
             _ = _storyService.SaveAsync();
         }
 

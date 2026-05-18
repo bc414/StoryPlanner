@@ -42,6 +42,7 @@ public partial class App : Application
                 services.AddSingleton<SubjectLibraryViewModel>();
                 services.AddSingleton<FileManagerViewModel>();
                 services.AddSingleton<ChapterLibraryViewModel>();
+                services.AddSingleton<ThemeLibraryViewModel>(); // ← add this
 
                 services.AddSingleton<ProjectLoader>();
                 services.AddSingleton<ViewModelLocator>();

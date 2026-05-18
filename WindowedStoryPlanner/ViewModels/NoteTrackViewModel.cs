@@ -22,7 +22,7 @@ public partial class NoteTrackViewModel : ObservableObject
     public int DisplayOrder => _definition.DisplayOrder;
     public string DisplayQuestion => _definition.DisplayQuestion;
     public string TrackName => _definition.TrackName;
-    public string Explanation => _definition.Explanation;
+    public string Explanation => _definition.UsageDirective;
     public CognitiveMode CognitiveMode => _definition.CognitiveMode;
     public NoteTrackDefinition Definition => _definition;
 
@@ -63,12 +63,18 @@ public partial class NoteTrackViewModel : ObservableObject
         Sections.Add(new NoteTrackSectionViewModel(
             _ownerId, _ownerType, _definition, NoteState.Flagged,
             _viewModelRegistry, _storyService));
+
+        foreach (var section in Sections)
+            section.SelectionTransferRequested += OnSelectionTransferRequested;
     }
 
     public void Uninitialize()
     {
         foreach (var section in Sections)
+        {
+            section.SelectionTransferRequested -= OnSelectionTransferRequested;
             section.Dispose();
+        }
         Sections.Clear();
     }
 
@@ -86,5 +92,12 @@ public partial class NoteTrackViewModel : ObservableObject
         int? trackId = _definition.Id == UnassignedTrack.Definition.Id ? null : _definition.Id;
 
         await _editorCoordinator.CreateNoteAsync(_ownerId, _ownerType, trackId, maxOrder + 1);
+    }
+
+    private void OnSelectionTransferRequested(NoteViewModel note)
+    {
+        var destination = Sections.FirstOrDefault(s => s.TargetState == note.NoteState);
+        if (destination is not null)
+            destination.SelectedNote = note;
     }
 }

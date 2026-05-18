@@ -89,17 +89,17 @@ namespace WindowedStoryPlanner.ViewModels
                 .First(s => s.Id == link.SubjectId)
                 .SubjectDefinitionId;
 
-            var noteTracks = storyService.NoteTrackDefinitions
-                .Where(ntd => ntd.OwnerType == OwnerType.PlotPointSubjectLink
-                           && ntd.SubjectDefinitionId == subjectDefId)
-                .ToList();
-
-            var propertyDefs = storyService.NarrativePropertyDefinitions
-                .Where(npd => npd.OwnerType == OwnerType.PlotPointSubjectLink
-                           && npd.SubjectDefinitionId == subjectDefId)
-                .ToList();
-
-            InitializeCollections(link.Id, OwnerType.PlotPointSubjectLink, noteTracks, propertyDefs);
+            InitializeCollections(
+                link.Id,
+                OwnerType.PlotPointSubjectLink,
+                () => storyService.NoteTrackDefinitions
+                    .Where(ntd => ntd.OwnerType == OwnerType.PlotPointSubjectLink
+                               && ntd.SubjectDefinitionId == subjectDefId)
+                    .ToList(),
+                () => storyService.NarrativePropertyDefinitions
+                    .Where(npd => npd.OwnerType == OwnerType.PlotPointSubjectLink
+                               && npd.SubjectDefinitionId == subjectDefId)
+                    .ToList());
 
             SubscribePlotPoint();
             SubscribeSubject();

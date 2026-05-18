@@ -61,15 +61,15 @@ namespace WindowedStoryPlanner.ViewModels
         {
             _plotPoint = plotPoint;
 
-            var noteTracks = storyService.NoteTrackDefinitions
-                .Where(ntd => ntd.OwnerType == OwnerType.PlotPoint)
-                .ToList();
-
-            var propertyDefs = storyService.NarrativePropertyDefinitions
-                .Where(npd => npd.OwnerType == OwnerType.PlotPoint)
-                .ToList();
-
-            InitializeCollections(plotPoint.Id, OwnerType.PlotPoint, noteTracks, propertyDefs);
+            InitializeCollections(
+                plotPoint.Id,
+                OwnerType.PlotPoint,
+                () => storyService.NoteTrackDefinitions
+                          .Where(ntd => ntd.OwnerType == OwnerType.PlotPoint)
+                          .ToList(),
+                () => storyService.NarrativePropertyDefinitions
+                          .Where(npd => npd.OwnerType == OwnerType.PlotPoint)
+                          .ToList());
 
             var view = new ListCollectionView(viewModelRegistry.AllPlotPointSubjectLinkViewModels)
             {

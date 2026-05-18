@@ -1,0 +1,2686 @@
+
+================================================================================
+File: ChapterLibraryViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using StoryPlanner.Core;
+using System.Collections.ObjectModel;
+using System.Threading.Tasks;
+using System.Windows;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public partial class ChapterLibraryViewModel : ObservableObject
+{
+    private readonly IContentFactory    _factory;
+    private readonly IContentDeleter    _deleter;
+    private readonly IWindowManager     _windowManager;
+    private readonly IViewModelRegistry _registry;
+    private readonly IStoryService      _storyService;
+
+    public ObservableCollection<ChapterViewModel> Chapters => _registry.AllChapterViewModels;
+
+    public ChapterLibraryViewModel(
+        IContentFactory     factory,
+        IContentDeleter     deleter,
+        IWindowManager      windowManager,
+        IViewModelRegistry  registry,
+        IStoryService       storyService)
+    {
+        _factory       = factory;
+        _deleter       = deleter;
+        _windowManager = windowManager;
+        _registry      = registry;
+        _storyService  = storyService;
+    }
+
+    [RelayCommand]
+    private async Task AddChapter()
+    {
+        var vm = await _factory.CreateChapterAsync();
+        _windowManager.OpenChapterWindow(vm);
+    }
+
+    [RelayCommand]
+    private void OpenChapter(ChapterViewModel chapter) =>
+        _windowManager.OpenChapterWindow(chapter);
+
+    [RelayCommand]
+    private void MoveChapterUp(ChapterViewModel vm)
+    {
+        int index = Chapters.IndexOf(vm);
+        if (index <= 0) return;
+
+        var other = Chapters[index - 1];
+        (vm.OrderIndex, other.OrderIndex) = (other.OrderIndex, vm.OrderIndex);
+        Chapters.Move(index, index - 1);
+        _ = _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private void MoveChapterDown(ChapterViewModel vm)
+    {
+        int index = Chapters.IndexOf(vm);
+        if (index < 0 || index >= Chapters.Count - 1) return;
+
+        var other = Chapters[index + 1];
+        (vm.OrderIndex, other.OrderIndex) = (other.OrderIndex, vm.OrderIndex);
+        Chapters.Move(index, index + 1);
+        _ = _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private async Task DeleteChapter(ChapterViewModel vm)
+    {
+        if (!await _deleter.TryDeleteChapterAsync(vm))
+            MessageBox.Show(
+                "Cannot delete a chapter that still has notes.",
+                "Delete Failed",
+                MessageBoxButton.OK,
+                MessageBoxImage.Warning);
+    }
+}
+
+
+================================================================================
+File: ChapterViewModel.cs
+================================================================================
+
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System.ComponentModel;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Data;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public partial class ChapterViewModel : NarrativeElementViewModel
+{
+    private readonly Chapter _chapter;
+    public Chapter Chapter => _chapter;
+
+    public ICollectionView PlotPointsInChapter { get; }
+
+    public int Id => _chapter.Id;
+
+    public ChapterViewModel(
+        Chapter chapter,
+        IViewModelRegistry viewModelRegistry,
+        IStoryService storyService,
+        IContentFactory editorCoordinator)
+        : base(viewModelRegistry, storyService, editorCoordinator)
+    {
+        _chapter = chapter;
+
+        InitializeCollections(
+            chapter.Id,
+            OwnerType.Chapter,
+            () => storyService.NoteTrackDefinitions
+                .Where(ntd => ntd.OwnerType == OwnerType.Chapter)
+                .ToList(),
+            () => storyService.NarrativePropertyDefinitions
+                .Where(npd => npd.OwnerType == OwnerType.Chapter)
+                .ToList());
+
+        PlotPointsInChapter = new ListCollectionView(viewModelRegistry.AllPlotPointViewModels)
+        {
+            Filter = FilterPlotPoints
+        };
+        PlotPointsInChapter.SortDescriptions.Add(
+            new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
+    }
+
+    private bool FilterPlotPoints(object obj)
+    {
+        if (obj is not PlotPointViewModel plotPoint) return false;
+        return plotPoint.ChapterId == _chapter.Id;
+    }
+
+    // ── Properties ───────────────────────────────────────────────────────
+
+    public string FullTitle => $"{OrderIndex}. {Title}";
+
+    public string Title
+    {
+        get => _chapter.Title;
+        set
+        {
+            if (SetProperty(_chapter.Title, value, _chapter, (u, n) => u.Title = n))
+                OnPropertyChanged(nameof(FullTitle));
+        }
+    }
+
+    public int OrderIndex
+    {
+        get => _chapter.OrderIndex;
+        set
+        {
+            if (SetProperty(_chapter.OrderIndex, value, _chapter, (u, n) => u.OrderIndex = n))
+            {
+                OnPropertyChanged(nameof(FullTitle));
+                _viewModelRegistry.RaiseLinksInvalidated();
+            }
+        }
+    }
+
+    // ── Selection ────────────────────────────────────────────────────────
+
+    [ObservableProperty]
+    private PlotPointViewModel? _selectedPlotPoint;
+
+    // ── Commands ─────────────────────────────────────────────────────────
+
+    [RelayCommand]
+    public async Task AddPlotPoint()
+    {
+        // Determine the next sort order from the service layer so it is
+        // correct even if the window is not yet open (Sections not initialized).
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == _chapter.Id)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
+
+        await _editorCoordinator.CreatePlotPointAsync(_chapter.Id, nextOrder);
+    }
+
+    [RelayCommand]
+    private void MovePlotPointUp()
+    {
+        if (SelectedPlotPoint is null) return;
+
+        var neighbor = PlotPointsInChapter.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter < SelectedPlotPoint.OrderInChapter)
+            .OrderByDescending(p => p.OrderInChapter)
+            .FirstOrDefault();
+
+        if (neighbor is null) return;
+
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+
+        PlotPointsInChapter.Refresh();
+    }
+
+    [RelayCommand]
+    private void MovePlotPointDown()
+    {
+        if (SelectedPlotPoint is null) return;
+
+        var neighbor = PlotPointsInChapter.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter > SelectedPlotPoint.OrderInChapter)
+            .OrderBy(p => p.OrderInChapter)
+            .FirstOrDefault();
+
+        if (neighbor is null) return;
+
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+
+        PlotPointsInChapter.Refresh();
+    }
+
+    // ── Drag & Drop ──────────────────────────────────────────────────────
+
+    public override void DragOver(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is PlotPointViewModel)
+        {
+            dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
+            dropInfo.Effects = DragDropEffects.Move;
+        }
+        else
+        {
+            base.DragOver(dropInfo);
+        }
+    }
+
+    public override async void Drop(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is not PlotPointViewModel plotPoint)
+        {
+            base.Drop(dropInfo);
+            return;
+        }
+
+        int? oldChapterId = plotPoint.ChapterId;
+        bool isNewChapter = oldChapterId != _chapter.Id;
+
+        // Move to the end of this chapter
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == _chapter.Id && p.Id != plotPoint.Id)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
+
+        plotPoint.ChapterId = _chapter.Id;
+        plotPoint.OrderInChapter = nextOrder;
+
+        // Compact the old chapter's ordering to remove the gap
+        if (isNewChapter && oldChapterId.HasValue)
+        {
+            var oldChapterPlotPoints = _viewModelRegistry.AllPlotPointViewModels
+                .Where(p => p.ChapterId == oldChapterId.Value)
+                .OrderBy(p => p.OrderInChapter)
+                .ToList();
+
+            for (int i = 0; i < oldChapterPlotPoints.Count; i++)
+                oldChapterPlotPoints[i].OrderInChapter = i + 1;
+
+            // Refresh the old chapter's list view if it is open
+            var oldChapterVm = _viewModelRegistry.AllChapterViewModels
+                .FirstOrDefault(c => c.Id == oldChapterId.Value);
+            oldChapterVm?.PlotPointsInChapter.Refresh();
+        }
+
+        PlotPointsInChapter.Refresh();
+    }
+}
+
+================================================================================
+File: ContentDeleter.cs
+================================================================================
+
+﻿using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public class ContentDeleter : IContentDeleter
+{
+    private readonly IStoryService _storyService;
+    private readonly IViewModelRegistry _registry;
+
+    public ContentDeleter(IStoryService storyService, IViewModelRegistry registry)
+    {
+        _storyService = storyService;
+        _registry = registry;
+    }
+
+    public async Task DeleteNoteAsync(NoteViewModel note)
+    {
+        _storyService.Notes.Remove(note.Note);
+        _registry.AllNoteViewModels.Remove(note);
+        await _storyService.SaveAsync();
+    }
+
+    public async Task<bool> TryDeleteLinkAsync(PlotPointSubjectLinkViewModel link)
+    {
+        bool hasNotes = _storyService.Notes
+            .Any(n => n.OwnerId == link.Id && n.OwnerType == OwnerType.PlotPointSubjectLink);
+
+        if (hasNotes) return false;
+
+        RemoveOwnedNarrativePropertyValues(link.Id, OwnerType.PlotPointSubjectLink);
+
+        _storyService.PlotPointsSubjectLinks.Remove(link.Link);
+        _registry.AllPlotPointSubjectLinkViewModels.Remove(link);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteSubjectAsync(SubjectViewModel subject)
+    {
+        bool hasNotes = _storyService.Notes
+            .Any(n => n.OwnerId == subject.Id && n.OwnerType == OwnerType.Subject);
+
+
+        bool hasLinks = _storyService.PlotPointsSubjectLinks
+            .Any(l => l.SubjectId == subject.Id);
+
+        if (hasNotes || hasLinks) return false;
+
+        RemoveOwnedNarrativePropertyValues(subject.Id, OwnerType.Subject);
+
+        _storyService.Subjects.Remove(subject.Subject);
+        _registry.AllSubjectViewModels.Remove(subject);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeletePlotPointAsync(PlotPointViewModel plotPoint)
+    {
+        bool hasNotes = _storyService.Notes
+            .Any(n => n.OwnerId == plotPoint.Id && n.OwnerType == OwnerType.PlotPoint);
+
+
+        bool hasLinks = _storyService.PlotPointsSubjectLinks
+            .Any(l => l.PlotPointId == plotPoint.Id);
+
+        if (hasNotes || hasLinks) return false;
+
+        RemoveOwnedNarrativePropertyValues(plotPoint.Id, OwnerType.PlotPoint);
+
+        _storyService.PlotPoints.Remove(plotPoint.PlotPoint);
+        _registry.AllPlotPointViewModels.Remove(plotPoint);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteChapterAsync(ChapterViewModel chapter)
+    {
+        bool hasNotes = _storyService.Notes
+    .Any(n => n.OwnerId == chapter.Id && n.OwnerType == OwnerType.Chapter);
+
+        if (hasNotes) return false;
+
+        // Orphan plot points — set ChapterId to null, do not delete
+        var ownedPlotPoints = _storyService.PlotPoints
+            .Where(pp => pp.ChapterId == chapter.Id)
+            .ToList();
+        foreach (var pp in ownedPlotPoints)
+            pp.ChapterId = null;
+
+        RemoveOwnedNarrativePropertyValues(chapter.Id, OwnerType.Chapter);
+
+        _storyService.Chapters.Remove(chapter.Chapter);
+        _registry.AllChapterViewModels.Remove(chapter);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    // --- Helpers ---
+
+    private void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType)
+    {
+        // Resolve which ValueDefinitionIds are valid for this owner type,
+        // by tracing: ValueDefinition → PropertyDefinition → OwnerType
+        var validValueDefinitionIds = _storyService.NarrativePropertyValueDefinitions
+            .Where(vd => _storyService.NarrativePropertyDefinitions
+                .Any(pd => pd.Id == vd.NarrativePropertyDefinitionId
+                        && pd.OwnerType == ownerType))
+            .Select(vd => vd.Id)
+            .ToHashSet();
+
+        var owned = _storyService.NarrativePropertyValues
+            .Where(p => p.OwnerId == ownerId
+                     && validValueDefinitionIds.Contains(p.ValueDefinitionId))
+            .ToList();
+
+        foreach (var prop in owned)
+            _storyService.NarrativePropertyValues.Remove(prop);
+    }
+}
+
+
+================================================================================
+File: ContentFactory.cs
+================================================================================
+
+﻿using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public class ContentFactory : IContentFactory
+{
+    private readonly IStoryService _storyService;
+    private readonly IViewModelRegistry _registry;
+    private readonly IWindowManager _windowManager;
+
+    public ContentFactory(
+        IStoryService storyService,
+        IViewModelRegistry registry,
+        IWindowManager windowManager)
+    {
+        _storyService  = storyService;
+        _registry      = registry;
+        _windowManager = windowManager;
+    }
+
+    public async Task<NoteViewModel> CreateNoteAsync(int ownerId, OwnerType ownerType, int? noteTrackDefinitionId, int sortOrder)
+    {
+        var newNote = new Note
+        {
+            OwnerId = ownerId,
+            OwnerType = ownerType,
+            NoteTrackDefinitionId = noteTrackDefinitionId,
+            NoteState = NoteState.Unset,
+            SortOrder = sortOrder,
+            LastModified = DateTime.UtcNow
+        };
+
+        _storyService.Notes.Add(newNote);
+        await _storyService.SaveAsync();
+
+        var vm = new NoteViewModel(newNote, _storyService);
+        _registry.AllNoteViewModels.Add(vm);
+        return vm;
+    }
+
+    public async Task<PlotPointViewModel> CreatePlotPointAsync(int? chapterId, int orderInChapter)
+    {
+        var plotPoint = new PlotPoint
+        {
+            Title = "New Plot Point",
+            ChapterId = chapterId,
+            OrderInChapter = orderInChapter
+        };
+
+        _storyService.PlotPoints.Add(plotPoint);
+        await _storyService.SaveAsync();
+
+        var vm = new PlotPointViewModel(plotPoint, _registry, _storyService, this, _windowManager);
+        _registry.AllPlotPointViewModels.Add(vm);
+        return vm;
+    }
+
+    public async Task<SubjectViewModel> CreateSubjectAsync(int subjectDefinitionId)
+    {
+        var subject = new Subject { SubjectDefinitionId = subjectDefinitionId };
+
+        _storyService.Subjects.Add(subject);
+        await _storyService.SaveAsync();
+
+        var vm = new SubjectViewModel(subject, _registry, _storyService, this, _windowManager);
+        _registry.AllSubjectViewModels.Add(vm);
+        return vm;
+    }
+
+    public async Task<ChapterViewModel> CreateChapterAsync()
+    {
+        var chapter = new Chapter();
+
+        _storyService.Chapters.Add(chapter);
+        await _storyService.SaveAsync();
+
+        var vm = new ChapterViewModel(chapter, _registry, _storyService, this);
+        _registry.AllChapterViewModels.Add(vm);
+        return vm;
+    }
+
+    public async Task CreatePlotPointSubjectLinkAsync(PlotPointViewModel plotPoint, SubjectViewModel subject)
+    {
+        if (_registry.AllPlotPointSubjectLinkViewModels.Any(l =>
+                l.PlotPointId == plotPoint.Id && l.SubjectId == subject.Id))
+            return;
+
+        var link = new PlotPointSubjectLink
+        {
+            PlotPointId = plotPoint.Id,
+            SubjectId = subject.Id
+        };
+
+        _storyService.PlotPointsSubjectLinks.Add(link);
+        await _storyService.SaveAsync();
+
+        var vm = new PlotPointSubjectLinkViewModel(link, _registry, _storyService, this);
+        _registry.AllPlotPointSubjectLinkViewModels.Add(vm);
+        _registry.RaiseLinksInvalidated();  // ← new link exists
+    }
+}
+
+
+================================================================================
+File: DefinitionsEditorViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+/// <summary>
+/// Tab ViewModel for the Definitions editor.
+/// Follows the same pattern as ChapterLibraryViewModel:
+/// collections live in IViewModelRegistry, this class only handles commands
+/// and owns UI-derived state (AvailableSubjectTypes).
+/// </summary>
+public partial class DefinitionsEditorViewModel : ObservableObject
+{
+    private readonly IStoryService _storyService;
+    private readonly IViewModelRegistry _registry;
+
+    // Registry-owned collections — exposed as passthroughs for XAML binding
+    public ObservableCollection<SubjectDefinitionViewModel> SubjectDefinitions
+        => _registry.AllSubjectDefinitionViewModels;
+
+    public ObservableCollection<NoteTrackDefinitionViewModel> NoteTrackDefinitions
+        => _registry.AllNoteTrackDefinitionViewModels;
+
+    // UI-only derived state — not model data, lives here not in registry
+    public ObservableCollection<string> AvailableSubjectTypes { get; } = new();
+
+    public IReadOnlyList<OwnerType> OwnerTypes { get; } = Enum.GetValues<OwnerType>();
+    public IReadOnlyList<CognitiveMode> CognitiveModes { get; } = Enum.GetValues<CognitiveMode>();
+    public IReadOnlyList<int?> FunctionKeyOptions { get; } =
+        new int?[] { null }.Concat(Enumerable.Range(1, 12).Cast<int?>()).ToList();
+
+    public DefinitionsEditorViewModel(IStoryService storyService, IViewModelRegistry registry)
+    {
+        _storyService = storyService;
+        _registry     = registry;
+    }
+
+    /// <summary>
+    /// Refreshes AvailableSubjectTypes from the registry after ProjectLoader repopulates it.
+    /// The registry collections are already cleared and repopulated by ProjectLoader directly —
+    /// this only needs to sync the derived UI list.
+    /// </summary>
+    public void Reload() => RefreshAvailableSubjectTypes();
+
+    private void RefreshAvailableSubjectTypes()
+    {
+        AvailableSubjectTypes.Clear();
+        foreach (var subjectType in SubjectDefinitions.Select(s => s.SubjectType))
+            AvailableSubjectTypes.Add(subjectType);
+    }
+
+    [RelayCommand]
+    private async Task AddSubjectDefinition()
+    {
+        int nextOrder = SubjectDefinitions.Count > 0
+            ? SubjectDefinitions.Max(s => s.DisplayOrder) + 1
+            : 0;
+        var model = new SubjectDefinition { SubjectType = "NewType", DisplayOrder = nextOrder };
+        _storyService.SubjectDefinitions.Add(model);
+        await _storyService.SaveAsync();
+        SubjectDefinitions.Add(new SubjectDefinitionViewModel(model, _storyService));
+        RefreshAvailableSubjectTypes();
+    }
+
+    [RelayCommand]
+    private async Task DeleteSubjectDefinition(SubjectDefinitionViewModel vm)
+    {
+        _storyService.SubjectDefinitions.Remove(vm.Model);
+        SubjectDefinitions.Remove(vm);
+        await _storyService.SaveAsync();
+        RefreshAvailableSubjectTypes();
+    }
+
+    [RelayCommand]
+    private async Task MoveSubjectDefinitionUp(SubjectDefinitionViewModel vm)
+    {
+        int index = SubjectDefinitions.IndexOf(vm);
+        if (index <= 0) return;
+        var other = SubjectDefinitions[index - 1];
+        (vm.DisplayOrder, other.DisplayOrder) = (other.DisplayOrder, vm.DisplayOrder);
+        SubjectDefinitions.Move(index, index - 1);
+        await _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private async Task MoveSubjectDefinitionDown(SubjectDefinitionViewModel vm)
+    {
+        int index = SubjectDefinitions.IndexOf(vm);
+        if (index < 0 || index >= SubjectDefinitions.Count - 1) return;
+        var other = SubjectDefinitions[index + 1];
+        (vm.DisplayOrder, other.DisplayOrder) = (other.DisplayOrder, vm.DisplayOrder);
+        SubjectDefinitions.Move(index, index + 1);
+        await _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private async Task SaveAll()
+    {
+        RefreshAvailableSubjectTypes();
+        await _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private async Task AddNoteTrackDefinition()
+    {
+        var model = new NoteTrackDefinition { TrackName = "New Track", DisplayOrder = 0 };
+        _storyService.NoteTrackDefinitions.Add(model);
+        await _storyService.SaveAsync();
+        NoteTrackDefinitions.Add(new NoteTrackDefinitionViewModel(model, _storyService, SubjectDefinitions));
+    }
+
+    [RelayCommand]
+    private async Task DeleteNoteTrackDefinition(NoteTrackDefinitionViewModel vm)
+    {
+        _storyService.NoteTrackDefinitions.Remove(vm.Model);
+        NoteTrackDefinitions.Remove(vm);
+        await _storyService.SaveAsync();
+    }
+}
+
+
+================================================================================
+File: FileManagerViewModel.cs
+================================================================================
+
+﻿using System;
+using System.Windows;
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using Microsoft.Win32;
+using StoryPlanner.Core;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public partial class FileManagerViewModel : ObservableObject
+{
+    private readonly IStoryService _storyService;
+    private readonly ProjectLoader _projectLoader;
+
+    [ObservableProperty] private bool _isProjectLoaded;
+    [ObservableProperty] private string _windowTitle = "Story Planner";
+
+    public FileManagerViewModel(IStoryService storyService, ProjectLoader projectLoader)
+    {
+        _storyService  = storyService;
+        _projectLoader = projectLoader;
+    }
+
+    /// <summary>
+    /// Raised after a successful CreateNewProject or OpenProject so the shell
+    /// can react (e.g. refresh bindings, update title).
+    /// </summary>
+    public event Action? ProjectLoaded;
+
+    [RelayCommand]
+    public async Task CreateNewProject()
+    {
+        var dialog = new SaveFileDialog
+        {
+            Title = "Create New Story File",
+            Filter = "Story Database (*.db)|*.db",
+            FileName = "MyNewStory.db"
+        };
+
+        if (dialog.ShowDialog() == true)
+        {
+            await _storyService.CreateProjectAsync(dialog.FileName);
+            OnProjectLoaded();
+        }
+    }
+
+    [RelayCommand]
+    public async Task OpenProject()
+    {
+        var dialog = new OpenFileDialog
+        {
+            Title = "Open Story File",
+            Filter = "Story Database (*.db)|*.db"
+        };
+
+        if (dialog.ShowDialog() == true)
+        {
+            await _storyService.OpenProjectAsync(dialog.FileName);
+            OnProjectLoaded();
+        }
+    }
+
+    [RelayCommand]
+    public async Task SaveChanges()
+    {
+        await _storyService.SaveAsync();
+        MessageBox.Show("Saved!", "Story Planner", MessageBoxButton.OK, MessageBoxImage.Information);
+    }
+
+    [RelayCommand]
+    public void JsonToMarkdown()
+    {
+        var dialog = new OpenFileDialog
+        {
+            Title = "Open Story File",
+            Filter = "Google Takeout (*.json)|*.json"
+        };
+
+        if (dialog.ShowDialog() == true)
+        {
+            var exporter = new GeminiExporter();
+            exporter.ConvertJsonToMarkdownFiles(dialog.FileName, dialog.FileName + ".md");
+        }
+    }
+
+    [RelayCommand]
+    public async Task StoreGeminiPrompts()
+    {
+        var dialog = new OpenFileDialog { Title = "Open Gemini Prompts" };
+
+        if (dialog.ShowDialog() == true)
+        {
+            await _storyService.StoreGeminiEntriesAsync(dialog.FileName);
+            RefreshState();
+        }
+    }
+
+    [RelayCommand]
+    public void CopyAiContext()
+    {
+        if (!IsProjectLoaded) return;
+
+        try
+        {
+            string json = _storyService.GetAiContextJson(includeVerbatim: false);
+            Clipboard.SetText(json);
+            MessageBox.Show("Story Context copied to Clipboard!", "AI Ready");
+        }
+        catch (Exception ex)
+        {
+            MessageBox.Show($"Error: {ex.Message}");
+        }
+    }
+
+    private void OnProjectLoaded()
+    {
+        _projectLoader.Load();
+        RefreshState();
+        ProjectLoaded?.Invoke();
+    }
+
+    private void RefreshState()
+    {
+        IsProjectLoaded = _storyService.IsProjectLoaded;
+        WindowTitle = _storyService.IsProjectLoaded
+            ? $"Story Planner - {_storyService.CurrentFilePath}"
+            : "Story Planner - No Project Loaded";
+    }
+}
+
+
+================================================================================
+File: IContentDeleter.cs
+================================================================================
+
+﻿using System.Threading.Tasks;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public interface IContentDeleter
+{
+    /// <summary>
+    /// Deletes a note unconditionally from the service and registry.
+    /// </summary>
+    Task DeleteNoteAsync(NoteViewModel note);
+
+    /// <summary>
+    /// Deletes a PlotPointSubjectLink if it has no notes.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteLinkAsync(PlotPointSubjectLinkViewModel link);
+
+    /// <summary>
+    /// Deletes a Subject if it has no notes and no remaining links.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteSubjectAsync(SubjectViewModel subject);
+
+    /// <summary>
+    /// Deletes a PlotPoint if it has no notes and no remaining links.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeletePlotPointAsync(PlotPointViewModel plotPoint);
+
+    /// <summary>
+    /// Deletes a Chapter if it has no notes.
+    /// Its plot points are orphaned (ChapterId set to null) — not deleted.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteChapterAsync(ChapterViewModel chapter);
+}
+
+
+================================================================================
+File: IContentFactory.cs
+================================================================================
+
+﻿using StoryPlanner.Core.Models;
+using System.Threading.Tasks;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public interface IContentFactory
+{
+    /// <summary>
+    /// Creates a Note model + NoteViewModel atomically and registers both
+    /// in IStoryService and AllNoteViewModels. Returns the new ViewModel.
+    /// </summary>
+    Task<NoteViewModel> CreateNoteAsync(int ownerId, OwnerType ownerType, int? noteTrackDefinitionId, int sortOrder);
+
+    /// <summary>
+    /// Creates a PlotPoint model + ViewModel atomically and registers both
+    /// in IStoryService and AllPlotPointViewModels. Returns the new ViewModel.
+    /// </summary>
+    Task<PlotPointViewModel> CreatePlotPointAsync(int? chapterId, int orderInChapter);
+
+    /// <summary>
+    /// Creates a Subject model + ViewModel atomically and registers both in IStoryService and AllSubjectViewModels.
+    /// Returns the new ViewModel.
+    /// </summary>
+    /// <param name="subjectDefinitionId"></param>
+    /// <returns></returns>
+    Task<SubjectViewModel> CreateSubjectAsync(int subjectDefinitionId);
+
+    /// <summary>
+    /// Creates a PlotPointSubjectLink model + ViewModel atomically and registers
+    /// both in IStoryService and AllPlotPointSubjectLinkViewModels.
+    /// No-ops if the link already exists.
+    /// </summary>
+    Task CreatePlotPointSubjectLinkAsync(PlotPointViewModel plotPoint, SubjectViewModel subject);
+
+    /// <summary>
+    /// Creates a Chapter model + ChapterViewModel atomically and registers both
+    /// in IStoryService and AllChapterViewModels. Returns the new ViewModel.
+    /// </summary>
+    Task<ChapterViewModel> CreateChapterAsync();
+}
+
+
+================================================================================
+File: IViewModelRegistry.cs
+================================================================================
+
+﻿using StoryPlanner.Core.Models;
+using System;
+using System.Collections.ObjectModel;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public interface IViewModelRegistry
+{
+    ObservableCollection<SubjectViewModel> AllSubjectViewModels { get; }
+    ObservableCollection<PlotPointViewModel> AllPlotPointViewModels { get; }
+    ObservableCollection<PlotPointSubjectLinkViewModel> AllPlotPointSubjectLinkViewModels { get; }
+    ObservableCollection<ChapterViewModel> AllChapterViewModels { get; }
+    ObservableCollection<NoteViewModel> AllNoteViewModels { get; }
+    ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues { get; set; }
+    ObservableCollection<NarrativePropertyValueViewModel> AllNarrativePropertyValueDefinitions { get; }
+
+    ObservableCollection<SubjectDefinitionViewModel> AllSubjectDefinitionViewModels { get; }
+    ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; }
+
+    event Action<int> NoteViewModelMutated;
+    void RaiseNoteMutated(int noteId);
+
+    // Broadcast when any section selects a note so all other sections
+    // can clear their own selection, enforcing a single selection across
+    // the entire NarrativeElementFullView.
+    event Action<int> NoteSelected;
+    void RaiseNoteSelected(int noteId);
+
+    void Clear();
+    event Action LinksInvalidated;
+    void RaiseLinksInvalidated();
+}
+
+
+================================================================================
+File: IWindowManager.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public interface IWindowManager
+    {
+        void OpenCommonWindow(
+            NarrativeElementViewModel element,
+            PlotPointSubjectLinkViewModel? initialLink = null);
+
+        void OpenChapterWindow(ChapterViewModel chapter);
+    }
+}
+
+
+================================================================================
+File: NarrativeElementViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Windows;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class NarrativeElementViewModel : ObservableObject, IDropTarget
+    {
+        protected readonly IStoryService _storyService;
+        protected readonly IViewModelRegistry _viewModelRegistry;
+        protected readonly IContentFactory _editorCoordinator;
+
+        public ObservableCollection<NoteTrackViewModel> NoteTracks { get; set; } = new();
+        public ObservableCollection<NarrativePropertyViewModel> NarrativeProperties { get; set; } = new();
+
+        private int _openWindowCount = 0;
+
+        private Func<List<NoteTrackDefinition>>? _noteTrackFactory;
+        private Func<List<NarrativePropertyDefinition>>? _propertyFactory;
+        private int _ownerId;
+        private OwnerType _ownerType;
+
+        public NarrativeElementViewModel(
+            IViewModelRegistry viewModelRegistry,
+            IStoryService storyService,
+            IContentFactory editorCoordinator)
+        {
+            _storyService      = storyService;
+            _viewModelRegistry = viewModelRegistry;
+            _editorCoordinator = editorCoordinator;
+        }
+
+        protected void InitializeCollections(
+            int ownerId,
+            OwnerType ownerType,
+            Func<List<NoteTrackDefinition>> noteTrackFactory,
+            Func<List<NarrativePropertyDefinition>> propertyFactory)
+        {
+            _ownerId          = ownerId;
+            _ownerType        = ownerType;
+            _noteTrackFactory = noteTrackFactory;
+            _propertyFactory  = propertyFactory;
+
+            RebuildNoteTracks();
+        }
+
+        private void RebuildNoteTracks()
+        {
+            if (_noteTrackFactory is null || _propertyFactory is null) return;
+
+            NoteTracks.Clear();
+            NarrativeProperties.Clear();
+
+            foreach (var ntd in _noteTrackFactory())
+                NoteTracks.Add(new NoteTrackViewModel(
+                    ntd, _ownerId, _ownerType,
+                    _viewModelRegistry, _storyService, _editorCoordinator));
+
+            // Always add an unassigned track at the end for notes with no track set
+            NoteTracks.Add(new NoteTrackViewModel(
+                UnassignedTrack.Definition, _ownerId, _ownerType,
+                _viewModelRegistry, _storyService, _editorCoordinator));
+
+            foreach (var npd in _propertyFactory())
+                NarrativeProperties.Add(new NarrativePropertyViewModel(
+                    _ownerId, _ownerType, npd, _viewModelRegistry, _storyService));
+        }
+
+        public void OnWindowOpened()
+        {
+            _openWindowCount++;
+            if (_openWindowCount > 1) return;
+
+            RebuildNoteTracks();
+
+            foreach (var track in NoteTracks)
+                track.Initialize();
+        }
+
+        public void OnWindowClosed()
+        {
+            _openWindowCount = Math.Max(0, _openWindowCount - 1);
+            if (_openWindowCount > 0) return;
+
+            foreach (var track in NoteTracks)
+                track.Uninitialize();
+        }
+
+        // ── GongSolutions IDropTarget (PlotPoint ↔ Subject linking) ──────────
+
+        public virtual void DragOver(IDropInfo dropInfo)
+        {
+            // Let NoteViewModel drags pass through to NoteTrackSectionView's drop handler
+            if (dropInfo.Data is NoteViewModel)
+            {
+                dropInfo.Effects = System.Windows.DragDropEffects.None;
+                return;
+            }
+
+            bool canDrop = (dropInfo.Data, this) switch
+            {
+                (SubjectViewModel,            PlotPointViewModel) => true,
+                (PlotPointViewModel,          SubjectViewModel)   => true,
+                (PlotPointSubjectLinkViewModel, PlotPointViewModel) => true,
+                (PlotPointSubjectLinkViewModel, SubjectViewModel)   => true,
+                _ => false
+            };
+
+            if (canDrop)
+            {
+                dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
+                dropInfo.Effects = DragDropEffects.Link;
+            }
+        }
+
+        public virtual async void Drop(IDropInfo dropInfo)
+        {
+            if (dropInfo.Data is NoteViewModel) return; // ignore — handled by NoteTrackSectionViewModel
+
+            var source = dropInfo.Data;
+            var target = this;
+
+            switch (source, target)
+            {
+                case (SubjectViewModel s, PlotPointViewModel p):
+                    await _editorCoordinator.CreatePlotPointSubjectLinkAsync(p, s); break;
+                case (PlotPointViewModel p, SubjectViewModel s):
+                    await _editorCoordinator.CreatePlotPointSubjectLinkAsync(p, s); break;
+                case (PlotPointSubjectLinkViewModel l, PlotPointViewModel p):
+                    l.PlotPointId = p.Id;
+                    _viewModelRegistry.RaiseLinksInvalidated();
+                    break;
+                case (PlotPointSubjectLinkViewModel l, SubjectViewModel s):
+                    l.SubjectId = s.Id;
+                    _viewModelRegistry.RaiseLinksInvalidated();
+                    break;
+            }
+        }
+    }
+}
+
+
+================================================================================
+File: NarrativePropertyValueViewModel.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using CommunityToolkit.Mvvm.ComponentModel;
+using StoryPlanner.Core.Models;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class NarrativePropertyValueViewModel : ObservableObject
+    {
+        private readonly NarrativePropertyValueDefinition _narrativePropertyValueDefinition;
+
+        public NarrativePropertyValueViewModel(NarrativePropertyValueDefinition narrativePropertyValueDefinition)
+        {
+            _narrativePropertyValueDefinition = narrativePropertyValueDefinition;
+        }
+
+        public string ValueName => _narrativePropertyValueDefinition.ValueName;
+        public string Description => _narrativePropertyValueDefinition.Description;
+        public int Id => _narrativePropertyValueDefinition.Id;
+    }
+}
+
+
+================================================================================
+File: NarrativePropertyViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Text;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class NarrativePropertyViewModel : ObservableObject
+    {
+        private NarrativePropertyValueViewModel _selectedValue;
+        public NarrativePropertyValueViewModel SelectedValue
+        {
+            get => _selectedValue;
+            set
+            {
+                SetProperty(ref _selectedValue, value);
+                if (actualValue != null)
+                {
+                    actualValue.ValueDefinitionId = value.Id;
+                }
+            }
+        }
+
+        private NarrativePropertyValue? actualValue;
+
+        public ObservableCollection<NarrativePropertyValueViewModel> ValidValues { get; set; }
+        public NarrativePropertyViewModel(int ownerId, OwnerType ownerType, NarrativePropertyDefinition narrativePropertyDefinition, IViewModelRegistry viewModelRegistry, IStoryService storyService)
+        {
+            //get valid values
+            ValidValues = new ObservableCollection<NarrativePropertyValueViewModel>();
+            var defs = viewModelRegistry.AllNarrativePropertyValueDefinitions.Where(n => n.Id == narrativePropertyDefinition.Id);
+            foreach (var def in defs)
+            {
+                ValidValues.Add(def);
+            }
+
+            actualValue = storyService.NarrativePropertyValues.FirstOrDefault(n => n.OwnerId == ownerId && n.ValueDefinitionId == narrativePropertyDefinition.Id);
+            _selectedValue = ValidValues.FirstOrDefault(v => v.Id == actualValue?.ValueDefinitionId) ?? ValidValues.First();
+        }
+
+        
+    }
+}
+
+
+================================================================================
+File: NoteTrackDefinitionViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class NoteTrackDefinitionViewModel : ObservableObject
+    {
+        private readonly NoteTrackDefinition _model;
+        public NoteTrackDefinition Model => _model;
+        private readonly IStoryService _storyService;
+        private readonly IReadOnlyList<SubjectDefinitionViewModel> _subjectDefinitions;
+
+        public int Id           => _model.Id;
+        public OwnerType OwnerType
+        {
+            get => _model.OwnerType;
+            set => SetProperty(_model.OwnerType, value, _model, (m, v) => m.OwnerType = v);
+        }
+        public string TrackName
+        {
+            get => _model.TrackName;
+            set => SetProperty(_model.TrackName, value, _model, (m, v) => m.TrackName = v);
+        }
+        public string DisplayQuestion
+        {
+            get => _model.DisplayQuestion;
+            set => SetProperty(_model.DisplayQuestion, value, _model, (m, v) => m.DisplayQuestion = v);
+        }
+        public string Explanation
+        {
+            get => _model.Explanation;
+            set => SetProperty(_model.Explanation, value, _model, (m, v) => m.Explanation = v);
+        }
+        public int DisplayOrder
+        {
+            get => _model.DisplayOrder;
+            set => SetProperty(_model.DisplayOrder, value, _model, (m, v) => m.DisplayOrder = v);
+        }
+        public CognitiveMode CognitiveMode
+        {
+            get => _model.CognitiveMode;
+            set => SetProperty(_model.CognitiveMode, value, _model, (m, v) => m.CognitiveMode = v);
+        }
+        public bool IsSingleton
+        {
+            get => _model.IsSingleton;
+            set => SetProperty(_model.IsSingleton, value, _model, (m, v) => m.IsSingleton = v);
+        }
+        public bool SupportsWorldDate
+        {
+            get => _model.SupportsWorldDate;
+            set => SetProperty(_model.SupportsWorldDate, value, _model, (m, v) => m.SupportsWorldDate = v);
+        }
+
+        // Resolves SubjectDefinitionId → display string; sets SubjectDefinitionId on write
+        public string SelectedSubjectType
+        {
+            get => _subjectDefinitions.FirstOrDefault(s => s.Id == _model.SubjectDefinitionId)?.SubjectType ?? string.Empty;
+            set
+            {
+                var match = _subjectDefinitions.FirstOrDefault(s => s.SubjectType == value);
+                if (match is not null)
+                    SetProperty(_model.SubjectDefinitionId, match.Id, _model, (m, v) => m.SubjectDefinitionId = v);
+            }
+        }
+
+        public NoteTrackDefinitionViewModel(
+            NoteTrackDefinition model,
+            IStoryService storyService,
+            IReadOnlyList<SubjectDefinitionViewModel> subjectDefinitions)
+        {
+            _model = model;
+            _storyService = storyService;
+            _subjectDefinitions = subjectDefinitions;
+        }
+    }
+}
+
+
+================================================================================
+File: NoteTrackSectionViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System;
+using System.ComponentModel;
+using System.Linq;
+using System.Windows.Data;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
+{
+    private readonly int _ownerId;
+    private readonly OwnerType _ownerType;
+    private readonly NoteTrackDefinition _definition;
+    private readonly NoteState _targetState;
+    private readonly IStoryService _storyService;
+    private readonly IViewModelRegistry _viewModelRegistry;
+
+    // Guard against re-entrant OnNoteMutated calls triggered by ReindexSection
+    // writing SortOrder. If SortOrder ever raises NoteViewModelMutated in future,
+    // this prevents an infinite loop.
+    private bool _isReindexing;
+
+    public string SectionHeader => _targetState.ToString();
+    public NoteState TargetState => _targetState;
+    public ICollectionView SectionNotes { get; }
+    private readonly CollectionViewSource _cvs;
+
+    [ObservableProperty]
+    private NoteViewModel? _selectedNote;
+
+    partial void OnSelectedNoteChanged(NoteViewModel? value)
+    {
+        // When this section gains a selection, broadcast it so all other sections
+        // across the entire NarrativeElementFullView clear their own selection.
+        if (value is not null)
+            _viewModelRegistry.RaiseNoteSelected(value.Id);
+    }
+
+    public NoteTrackSectionViewModel(
+        int ownerId,
+        OwnerType ownerType,
+        NoteTrackDefinition definition,
+        NoteState targetState,
+        IViewModelRegistry viewModelRegistry,
+        IStoryService storyService)
+    {
+        _ownerId           = ownerId;
+        _ownerType         = ownerType;
+        _definition        = definition;
+        _targetState       = targetState;
+        _storyService      = storyService;
+        _viewModelRegistry = viewModelRegistry;
+
+        _cvs = new CollectionViewSource { Source = viewModelRegistry.AllNoteViewModels };
+        SectionNotes = _cvs.View;
+        SectionNotes.Filter = FilterNote;
+        SectionNotes.SortDescriptions.Add(
+            new SortDescription(nameof(NoteViewModel.SortOrder), ListSortDirection.Ascending));
+
+        _viewModelRegistry.NoteViewModelMutated += OnNoteMutated;
+        _viewModelRegistry.NoteSelected         += OnNoteSelected;
+    }
+
+    public void Dispose()
+    {
+        _viewModelRegistry.NoteViewModelMutated -= OnNoteMutated;
+        _viewModelRegistry.NoteSelected         -= OnNoteSelected;
+    }
+
+    // Clear this section's selection when another section anywhere in the
+    // application has selected a different note.
+    private void OnNoteSelected(int noteId)
+    {
+        if (SelectedNote is not null && SelectedNote.Id != noteId)
+            SelectedNote = null;
+    }
+
+    private void OnNoteMutated(int noteId)
+    {
+        // Guard: ReindexSection writes SortOrder on NoteViewModels. If SortOrder
+        // is ever wired to raise NoteViewModelMutated, this prevents re-entrant
+        // calls cascading back into here infinitely.
+        if (_isReindexing) return;
+
+        SectionNotes.Refresh();
+
+        var current = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
+
+        _isReindexing = true;
+        try
+        {
+            ReindexSection(current);
+        }
+        finally
+        {
+            _isReindexing = false;
+        }
+    }
+
+    private bool FilterNote(object obj)
+    {
+        if (obj is not NoteViewModel note) return false;
+
+        bool isUnassignedTrack = _definition.Id == UnassignedTrack.Definition.Id;
+
+        return note.OwnerId    == _ownerId
+            && note.OwnerType  == _ownerType
+            && note.NoteState  == _targetState
+            && (isUnassignedTrack
+                ? note.NoteTrackDefinitionId == null
+                : note.NoteTrackDefinitionId == _definition.Id);
+    }
+
+    [RelayCommand]
+    private void MoveNoteUp()
+    {
+        if (SelectedNote is null) return;
+
+        var note  = SelectedNote; // capture before Refresh() can clear the binding
+        var notes = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
+        int index = notes.IndexOf(note);
+        if (index <= 0) return;
+
+        notes.RemoveAt(index);
+        notes.Insert(index - 1, note);
+
+        ReindexSection(notes);
+        _viewModelRegistry.RaiseNoteMutated(note.Id); // triggers Refresh() synchronously
+        SelectedNote = note;                           // re-assert after refresh clears it
+        _ = _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private void MoveNoteDown()
+    {
+        if (SelectedNote is null) return;
+
+        var note  = SelectedNote;
+        var notes = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
+        int index = notes.IndexOf(note);
+        if (index < 0 || index >= notes.Count - 1) return;
+
+        notes.RemoveAt(index);
+        notes.Insert(index + 1, note);
+
+        ReindexSection(notes);
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        SelectedNote = note;
+        _ = _storyService.SaveAsync();
+    }
+
+    public void DragOver(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is NoteViewModel)
+        {
+            dropInfo.DropTargetAdorner = DropTargetAdorners.Insert;
+            dropInfo.Effects = System.Windows.DragDropEffects.Move;
+        }
+        else
+        {
+            dropInfo.Effects = System.Windows.DragDropEffects.None;
+        }
+    }
+
+    public void Drop(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is not NoteViewModel note) return;
+
+        var sectionNotes = SectionNotes
+            .Cast<NoteViewModel>()
+            .OrderBy(n => n.SortOrder)
+            .ToList();
+
+        int originalIndex = sectionNotes.FindIndex(n => n.Id == note.Id);
+        int insertAt      = dropInfo.InsertIndex;
+
+        if (originalIndex >= 0 && originalIndex < insertAt)
+            insertAt--;
+
+        sectionNotes.RemoveAll(n => n.Id == note.Id);
+        insertAt = Math.Clamp(insertAt, 0, sectionNotes.Count);
+        sectionNotes.Insert(insertAt, note);
+
+        ReindexSection(sectionNotes);
+
+        note.OwnerId               = _ownerId;
+        note.OwnerType             = _ownerType;
+        note.NoteTrackDefinitionId = _definition.Id == UnassignedTrack.Definition.Id
+                                        ? null
+                                        : _definition.Id;
+        note.NoteState             = _targetState;
+
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _ = _storyService.SaveAsync();
+    }
+
+    // ── Helpers ──────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Assigns contiguous 1-based SortOrder values to the supplied ordered list.
+    /// Call this after any operation that changes note ordering within a section.
+    /// </summary>
+    private static void ReindexSection(List<NoteViewModel> orderedNotes)
+    {
+        for (int i = 0; i < orderedNotes.Count; i++)
+            orderedNotes[i].SortOrder = (i + 1);
+    }
+
+    [RelayCommand]
+    private void PromoteNote()
+    {
+        if (SelectedNote is null) return;
+
+        SelectedNote.NoteState = SelectedNote.NoteState switch
+        {
+            NoteState.Flagged => NoteState.Unset,
+            NoteState.Unset   => NoteState.Confirmed,
+            _                 => SelectedNote.NoteState
+        };
+
+        _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+        _ = _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private void DemoteNote()
+    {
+        if (SelectedNote is null) return;
+
+        SelectedNote.NoteState = SelectedNote.NoteState switch
+        {
+            NoteState.Confirmed => NoteState.Unset,
+            NoteState.Unset     => NoteState.Flagged,
+            _                   => SelectedNote.NoteState
+        };
+
+        _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+        _ = _storyService.SaveAsync();
+    }
+
+    // Raised when a hotkey moves a note out of this section so the track VM
+    // can transfer selection to whichever section now owns it.
+    public event Action<NoteViewModel>? SelectionTransferRequested;
+
+    [RelayCommand]
+    private void ToggleConfirmed()
+    {
+        if (SelectedNote is null) return;
+        var note = SelectedNote;
+
+        var newState = note.NoteState switch
+        {
+            NoteState.Confirmed => NoteState.Unset,
+            NoteState.Unset     => NoteState.Confirmed,
+            _                   => note.NoteState
+        };
+
+        if (newState != note.NoteState)
+            PlaceAtEndOfSection(note, newState);
+
+        note.NoteState = newState;
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _ = _storyService.SaveAsync();
+
+        if (note.NoteState != _targetState)
+            SelectionTransferRequested?.Invoke(note);
+    }
+
+    [RelayCommand]
+    private void ToggleFlagged()
+    {
+        if (SelectedNote is null) return;
+        var note = SelectedNote;
+
+        var newState = note.NoteState switch
+        {
+            NoteState.Flagged => NoteState.Unset,
+            NoteState.Unset   => NoteState.Flagged,
+            _                 => note.NoteState
+        };
+
+        if (newState != note.NoteState)
+            PlaceAtEndOfSection(note, newState);
+
+        note.NoteState = newState;
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _ = _storyService.SaveAsync();
+
+        if (note.NoteState != _targetState)
+            SelectionTransferRequested?.Invoke(note);
+    }
+
+    // Sets the note's SortOrder to one past the current maximum in the destination
+    // section so it arrives at the end rather than being sorted by its stale order.
+    // Must be called before NoteState is changed so the destination filter still
+    // excludes the note when computing the max.
+    private void PlaceAtEndOfSection(NoteViewModel note, NoteState destinationState)
+    {
+        // Find the sibling section VM for the destination state via the registry —
+        // filter the same AllNoteViewModels source directly to avoid depending on
+        // the parent track VM from here.
+        int max = _viewModelRegistry.AllNoteViewModels
+            .Where(n => n.OwnerId   == _ownerId
+                     && n.OwnerType == _ownerType
+                     && n.NoteTrackDefinitionId == note.NoteTrackDefinitionId
+                     && n.NoteState == destinationState
+                     && n.Id        != note.Id)
+            .Select(n => n.SortOrder)
+            .DefaultIfEmpty(0)
+            .Max();
+
+        note.SortOrder = max + 1;
+    }
+
+    [RelayCommand]
+    private void DeleteNote(NoteViewModel note)
+    {
+        if (note is null) return;
+
+        // Clear selection if this note was selected so _selectedNote
+        // in CommonWindow doesn't hold a dangling reference.
+        if (SelectedNote?.Id == note.Id)
+            SelectedNote = null;
+
+        // Remove from the registry's AllNoteViewModels so it's filtered out
+        // when SectionNotes.Refresh() is called below.
+        _viewModelRegistry.AllNoteViewModels.Remove(note);
+
+        _storyService.DeleteNote(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _ = _storyService.SaveAsync();
+    }
+}
+
+
+================================================================================
+File: NoteTrackViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Threading.Tasks;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public partial class NoteTrackViewModel : ObservableObject
+{
+    private readonly int _ownerId;
+    private readonly OwnerType _ownerType;
+    private readonly NoteTrackDefinition _definition;
+    private readonly IStoryService _storyService;
+    private readonly IViewModelRegistry _viewModelRegistry;
+    private readonly IContentFactory _editorCoordinator;
+
+    public ObservableCollection<NoteTrackSectionViewModel> Sections { get; } = new();
+
+    public int DisplayOrder => _definition.DisplayOrder;
+    public string DisplayQuestion => _definition.DisplayQuestion;
+    public string TrackName => _definition.TrackName;
+    public string Explanation => _definition.Explanation;
+    public CognitiveMode CognitiveMode => _definition.CognitiveMode;
+    public NoteTrackDefinition Definition => _definition;
+
+    [ObservableProperty]
+    private int? _assignedFunctionKey;
+
+    public int OwnerId       => _ownerId;
+    public OwnerType OwnerType => _ownerType;
+
+    public NoteTrackViewModel(
+        NoteTrackDefinition definition,
+        int ownerId,
+        OwnerType ownerType,
+        IViewModelRegistry registry,
+        IStoryService storyService,
+        IContentFactory editorCoordinator)
+    {
+        _definition        = definition;
+        _ownerId           = ownerId;
+        _ownerType         = ownerType;
+        _storyService      = storyService;
+        _viewModelRegistry = registry;
+        _editorCoordinator = editorCoordinator;
+    }
+
+    public void Initialize()
+    {
+        if (Sections.Count > 0) return;
+
+        Sections.Add(new NoteTrackSectionViewModel(
+            _ownerId, _ownerType, _definition, NoteState.Confirmed,
+            _viewModelRegistry, _storyService));
+
+        Sections.Add(new NoteTrackSectionViewModel(
+            _ownerId, _ownerType, _definition, NoteState.Unset,
+            _viewModelRegistry, _storyService));
+
+        Sections.Add(new NoteTrackSectionViewModel(
+            _ownerId, _ownerType, _definition, NoteState.Flagged,
+            _viewModelRegistry, _storyService));
+
+        foreach (var section in Sections)
+            section.SelectionTransferRequested += OnSelectionTransferRequested;
+    }
+
+    public void Uninitialize()
+    {
+        foreach (var section in Sections)
+        {
+            section.SelectionTransferRequested -= OnSelectionTransferRequested;
+            section.Dispose();
+        }
+        Sections.Clear();
+    }
+
+    [RelayCommand]
+    public async Task CreateNewNote()
+    {
+        var unsetSection = Sections.FirstOrDefault(s => s.TargetState == NoteState.Unset);
+
+        int maxOrder = unsetSection?.SectionNotes
+            .Cast<NoteViewModel>()
+            .Select(n => n.SortOrder)
+            .DefaultIfEmpty(0)
+            .Max() ?? 0;
+
+        int? trackId = _definition.Id == UnassignedTrack.Definition.Id ? null : _definition.Id;
+
+        await _editorCoordinator.CreateNoteAsync(_ownerId, _ownerType, trackId, maxOrder + 1);
+    }
+
+    private void OnSelectionTransferRequested(NoteViewModel note)
+    {
+        var destination = Sections.FirstOrDefault(s => s.TargetState == note.NoteState);
+        if (destination is not null)
+            destination.SelectedNote = note;
+    }
+}
+
+
+================================================================================
+File: NoteViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public partial class NoteViewModel : ObservableObject
+{
+    private readonly Note _note;
+    private readonly IStoryService _storyService;
+
+    public NoteViewModel(Note note, IStoryService storyService)
+    {
+        _note = note;
+        _storyService = storyService;
+        _noteTrackDefinition = note.NoteTrackDefinitionId.HasValue
+            ? storyService.GetNoteTrackDefinition(note.NoteTrackDefinitionId.Value)
+            : null;
+    }
+
+    public int Id => _note.Id;
+    public Note Note => _note;
+
+    public int OwnerId
+    {
+        get => _note.OwnerId;
+        set => SetProperty(_note.OwnerId, value, _note, (n, v) => n.OwnerId = v);
+    }
+
+    public OwnerType OwnerType
+    {
+        get => _note.OwnerType;
+        set => SetProperty(_note.OwnerType, value, _note, (n, v) => n.OwnerType = v);
+    }
+
+    public int? NoteTrackDefinitionId
+    {
+        get => _note.NoteTrackDefinitionId;
+        set
+        {
+            if (SetProperty(_note.NoteTrackDefinitionId, value, _note, (n, v) => n.NoteTrackDefinitionId = v))
+            {
+                _noteTrackDefinition = value.HasValue
+                    ? _storyService.GetNoteTrackDefinition(value.Value)
+                    : null;
+
+                OnPropertyChanged(nameof(NoteTrackDefinition));
+                OnPropertyChanged(nameof(SupportsWorldDate));
+            }
+        }
+    }
+
+    private NoteTrackDefinition? _noteTrackDefinition;
+    public NoteTrackDefinition? NoteTrackDefinition => _noteTrackDefinition;
+
+    public bool SupportsWorldDate => _noteTrackDefinition?.SupportsWorldDate ?? false;
+    public DateTime LastModified => _note.LastModified;
+
+    public string Content
+    {
+        get => _note.Content;
+        set
+        {
+            if (SetProperty(_note.Content, value, _note, (n, v) => n.Content = v))
+                OnPropertyChanged(nameof(IsEmpty));
+        }
+    }
+
+    // True when the note has no meaningful content — used to show the delete button.
+    public bool IsEmpty => string.IsNullOrWhiteSpace(_note.Content);
+
+    public NoteState NoteState
+    {
+        get => _note.NoteState;
+        set
+        {
+            if (SetProperty(_note.NoteState, value, _note, (n, v) => n.NoteState = v))
+            {
+                OnPropertyChanged(nameof(IsFlagged));
+                OnPropertyChanged(nameof(StateLabel));
+            }
+        }
+    }
+
+    public string FlagReason
+    {
+        get => _note.FlagReason;
+        set => SetProperty(_note.FlagReason, value, _note, (n, v) => n.FlagReason = v);
+    }
+
+    public int SortOrder
+    {
+        get => _note.SortOrder;
+        set => SetProperty(_note.SortOrder, value, _note, (n, v) => n.SortOrder = v);
+    }
+
+    public string WorldDate
+    {
+        get => _note.WorldDate;
+        set => SetProperty(_note.WorldDate, value, _note, (n, v) => n.WorldDate = v);
+    }
+
+    public bool IsFlagged => _note.NoteState == NoteState.Flagged;
+
+    public string StateLabel => _note.NoteState switch
+    {
+        NoteState.Confirmed => "✓",
+        NoteState.Flagged   => "⚑",
+        NoteState.Unset     => "–",
+        _                   => string.Empty
+    };
+
+    public Note Model => _note;
+}
+
+
+================================================================================
+File: PlotPointSubjectLinkViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System.ComponentModel;
+using System.Linq;
+using System.Windows;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class PlotPointSubjectLinkViewModel : NarrativeElementViewModel
+    {
+        private readonly PlotPointSubjectLink _link;
+        public PlotPointSubjectLink Link => _link;
+
+        public int Id => _link.Id;
+
+        public int SubjectId
+        {
+            get => _link.SubjectId;
+            set
+            {
+                if (_link.SubjectId == value) return;
+                UnsubscribeSubject();
+                SetProperty(_link.SubjectId, value, _link, (l, n) => l.SubjectId = n);
+                SubscribeSubject();
+                OnPropertyChanged(nameof(SubjectName));
+                OnPropertyChanged(nameof(SubjectTypeName));
+            }
+        }
+
+        public int PlotPointId
+        {
+            get => _link.PlotPointId;
+            set
+            {
+                if (_link.PlotPointId == value) return;
+                UnsubscribePlotPoint();
+                SetProperty(_link.PlotPointId, value, _link, (l, n) => l.PlotPointId = n);
+                SubscribePlotPoint();
+                OnPropertyChanged(nameof(PlotPointDisplayText));
+                OnPropertyChanged(nameof(ChapterOrderIndex));
+                OnPropertyChanged(nameof(PlotPointOrderInChapter));
+            }
+        }
+
+        public int ChapterOrderIndex =>
+            _viewModelRegistry.AllPlotPointViewModels
+                .FirstOrDefault(pp => pp.Id == _link.PlotPointId)
+                ?.ChapterId is int chapterId
+                    ? _viewModelRegistry.AllChapterViewModels
+                        .FirstOrDefault(c => c.Id == chapterId)
+                        ?.OrderIndex ?? int.MaxValue
+                    : int.MaxValue;
+
+        public int PlotPointOrderInChapter =>
+            _viewModelRegistry.AllPlotPointViewModels
+                .FirstOrDefault(pp => pp.Id == _link.PlotPointId)
+                ?.OrderInChapter ?? int.MaxValue;
+
+        public string SubjectName =>
+            _viewModelRegistry.AllSubjectViewModels
+                .FirstOrDefault(s => s.Id == _link.SubjectId)
+                ?.Name ?? string.Empty;
+
+        public string SubjectTypeName =>
+            _viewModelRegistry.AllSubjectViewModels
+                .FirstOrDefault(s => s.Id == _link.SubjectId) is SubjectViewModel subject
+                    ? _viewModelRegistry.AllSubjectDefinitionViewModels
+                        .FirstOrDefault(d => d.Id == subject.SubjectDefinitionId)
+                        ?.SubjectType ?? string.Empty
+                    : string.Empty;
+
+        public string PlotPointDisplayText =>
+            _viewModelRegistry.AllPlotPointViewModels
+                .FirstOrDefault(pp => pp.Id == _link.PlotPointId) is PlotPointViewModel pp
+                    ? $"{pp.FullOrder}{pp.Title}"
+                    : string.Empty;
+
+        public PlotPointSubjectLinkViewModel(
+            PlotPointSubjectLink link,
+            IViewModelRegistry viewModelRegistry,
+            IStoryService storyService,
+            IContentFactory editorCoordinator)
+            : base(viewModelRegistry, storyService, editorCoordinator)
+        {
+            _link = link;
+
+            var subjectDefId = storyService.Subjects
+                .First(s => s.Id == link.SubjectId)
+                .SubjectDefinitionId;
+
+            InitializeCollections(
+                link.Id,
+                OwnerType.PlotPointSubjectLink,
+                () => storyService.NoteTrackDefinitions
+                    .Where(ntd => ntd.OwnerType == OwnerType.PlotPointSubjectLink
+                               && ntd.SubjectDefinitionId == subjectDefId)
+                    .ToList(),
+                () => storyService.NarrativePropertyDefinitions
+                    .Where(npd => npd.OwnerType == OwnerType.PlotPointSubjectLink
+                               && npd.SubjectDefinitionId == subjectDefId)
+                    .ToList());
+
+            SubscribePlotPoint();
+            SubscribeSubject();
+        }
+
+        private void SubscribePlotPoint()
+        {
+            var vm = _viewModelRegistry.AllPlotPointViewModels.FirstOrDefault(pp => pp.Id == _link.PlotPointId);
+            if (vm is null) return;
+            WeakEventManager<INotifyPropertyChanged, PropertyChangedEventArgs>
+                .AddHandler(vm, nameof(INotifyPropertyChanged.PropertyChanged), OnPlotPointPropertyChanged);
+        }
+
+        private void UnsubscribePlotPoint()
+        {
+            var vm = _viewModelRegistry.AllPlotPointViewModels.FirstOrDefault(pp => pp.Id == _link.PlotPointId);
+            if (vm is null) return;
+            WeakEventManager<INotifyPropertyChanged, PropertyChangedEventArgs>
+                .RemoveHandler(vm, nameof(INotifyPropertyChanged.PropertyChanged), OnPlotPointPropertyChanged);
+        }
+
+        private void SubscribeSubject()
+        {
+            var vm = _viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == _link.SubjectId);
+            if (vm is null) return;
+            WeakEventManager<INotifyPropertyChanged, PropertyChangedEventArgs>
+                .AddHandler(vm, nameof(INotifyPropertyChanged.PropertyChanged), OnSubjectPropertyChanged);
+        }
+
+        private void UnsubscribeSubject()
+        {
+            var vm = _viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == _link.SubjectId);
+            if (vm is null) return;
+            WeakEventManager<INotifyPropertyChanged, PropertyChangedEventArgs>
+                .RemoveHandler(vm, nameof(INotifyPropertyChanged.PropertyChanged), OnSubjectPropertyChanged);
+        }
+
+        private void OnPlotPointPropertyChanged(object? sender, PropertyChangedEventArgs e)
+        {
+            OnPropertyChanged(nameof(PlotPointDisplayText));
+            OnPropertyChanged(nameof(ChapterOrderIndex));
+            OnPropertyChanged(nameof(PlotPointOrderInChapter));
+        }
+
+        private void OnSubjectPropertyChanged(object? sender, PropertyChangedEventArgs e)
+        {
+            OnPropertyChanged(nameof(SubjectName));
+            OnPropertyChanged(nameof(SubjectTypeName));
+        }
+    }
+}
+
+
+================================================================================
+File: PlotPointViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.Input;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System.ComponentModel;
+using System.Linq;
+using System.Windows.Data;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class PlotPointViewModel : NarrativeElementViewModel
+    {
+        public ICollectionView PlotPointSubjectLinks { get; set; }
+        private PlotPoint _plotPoint;
+        public PlotPoint PlotPoint => _plotPoint;
+        private readonly IWindowManager _windowManager;
+
+        public int Id => _plotPoint.Id;
+
+        public int? ChapterId
+        {
+            get => _plotPoint.ChapterId;
+            set
+            {
+                SetProperty(_plotPoint.ChapterId, value, _plotPoint, (p, n) => p.ChapterId = n);
+                OnPropertyChanged(nameof(FullOrder));
+                _viewModelRegistry.RaiseLinksInvalidated();
+            }
+        }
+
+        public int OrderInChapter
+        {
+            get => _plotPoint.OrderInChapter;
+            set
+            {
+                SetProperty(_plotPoint.OrderInChapter, value, _plotPoint, (p, n) => p.OrderInChapter = n);
+                OnPropertyChanged(nameof(FullOrder));
+                _viewModelRegistry.RaiseLinksInvalidated();
+            }
+        }
+
+        public string Title
+        {
+            get => _plotPoint.Title;
+            set => SetProperty(_plotPoint.Title, value, _plotPoint, (p, n) => p.Title = n);
+        }
+
+        public string FullOrder => ChapterId == null
+    ? "? "
+    : $"{_viewModelRegistry.AllChapterViewModels.FirstOrDefault(c => c.Id == ChapterId)?.OrderIndex.ToString() ?? "?"}.{OrderInChapter} ";
+
+        [RelayCommand]
+        private void Open() => _windowManager.OpenCommonWindow(this);
+
+        public PlotPointViewModel(
+            PlotPoint plotPoint,
+            IViewModelRegistry viewModelRegistry,
+            IStoryService storyService,
+            IContentFactory editorCoordinator,
+            IWindowManager windowManager)
+            : base(viewModelRegistry, storyService, editorCoordinator)
+        {
+            _plotPoint = plotPoint;
+
+            InitializeCollections(
+                plotPoint.Id,
+                OwnerType.PlotPoint,
+                () => storyService.NoteTrackDefinitions
+                          .Where(ntd => ntd.OwnerType == OwnerType.PlotPoint)
+                          .ToList(),
+                () => storyService.NarrativePropertyDefinitions
+                          .Where(npd => npd.OwnerType == OwnerType.PlotPoint)
+                          .ToList());
+
+            var view = new ListCollectionView(viewModelRegistry.AllPlotPointSubjectLinkViewModels)
+            {
+                Filter = obj => obj is PlotPointSubjectLinkViewModel link && link.PlotPointId == _plotPoint.Id,
+                CustomSort = Comparer<object>.Create((a, b) =>
+                {
+                    if (a is not PlotPointSubjectLinkViewModel la || b is not PlotPointSubjectLinkViewModel lb)
+                        return 0;
+
+                    var subjectA = viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == la.SubjectId);
+                    var subjectB = viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == lb.SubjectId);
+
+                    var defOrderA = viewModelRegistry.AllSubjectDefinitionViewModels
+                        .FirstOrDefault(d => d.Id == subjectA?.SubjectDefinitionId)?.DisplayOrder ?? int.MaxValue;
+                    var defOrderB = viewModelRegistry.AllSubjectDefinitionViewModels
+                        .FirstOrDefault(d => d.Id == subjectB?.SubjectDefinitionId)?.DisplayOrder ?? int.MaxValue;
+
+                    int defCompare = defOrderA.CompareTo(defOrderB);
+                    if (defCompare != 0) return defCompare;
+
+                    return string.Compare(subjectA?.Name, subjectB?.Name, StringComparison.CurrentCultureIgnoreCase);
+                })
+            };
+            PlotPointSubjectLinks = view;
+
+            _windowManager = windowManager;
+        }
+    }
+}
+
+
+================================================================================
+File: ProjectLoader.cs
+================================================================================
+
+﻿using StoryPlanner.Core;
+using System.Linq;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+/// <summary>
+/// Populates IViewModelRegistry from IStoryService after a project is opened or created.
+/// This is the only class permitted to construct leaf ViewModels directly.
+/// </summary>
+public class ProjectLoader
+{
+    private readonly IStoryService             _storyService;
+    private readonly IViewModelRegistry        _registry;
+    private readonly IContentFactory           _factory;
+    private readonly IWindowManager            _windowManager;
+    private readonly DefinitionsEditorViewModel _definitions;
+    private readonly SubjectLibraryViewModel   _subjectLibrary;
+
+    public ProjectLoader(
+        IStoryService              storyService,
+        IViewModelRegistry         registry,
+        IContentFactory            factory,
+        IWindowManager             windowManager,
+        DefinitionsEditorViewModel definitions,
+        SubjectLibraryViewModel    subjectLibrary)
+    {
+        _storyService   = storyService;
+        _registry       = registry;
+        _factory        = factory;
+        _windowManager  = windowManager;
+        _definitions    = definitions;
+        _subjectLibrary = subjectLibrary;
+    }
+
+    public void Load()
+    {
+        _registry.Clear();
+
+        // --- Definitions first — subjects depend on AllSubjectDefinitionViewModels ---
+        foreach (var m in _storyService.SubjectDefinitions.OrderBy(s => s.DisplayOrder))
+            _registry.AllSubjectDefinitionViewModels.Add(
+                new SubjectDefinitionViewModel(m, _storyService));
+
+        foreach (var m in _storyService.NoteTrackDefinitions)
+            _registry.AllNoteTrackDefinitionViewModels.Add(
+                new NoteTrackDefinitionViewModel(m, _storyService, _registry.AllSubjectDefinitionViewModels));
+
+        // Sync UI-derived state on tab VMs that depend on definitions
+        _definitions.Reload();
+        _subjectLibrary.Reload();   // builds Groups from AllSubjectDefinitionViewModels
+
+        // --- Narrative elements ---
+        foreach (var subject in _storyService.Subjects)
+            _registry.AllSubjectViewModels.Add(
+                new SubjectViewModel(subject, _registry, _storyService, _factory, _windowManager));
+
+        foreach (var plotPoint in _storyService.PlotPoints)
+            _registry.AllPlotPointViewModels.Add(
+                new PlotPointViewModel(plotPoint, _registry, _storyService, _factory, _windowManager));
+
+        foreach (var link in _storyService.PlotPointsSubjectLinks)
+            _registry.AllPlotPointSubjectLinkViewModels.Add(
+                new PlotPointSubjectLinkViewModel(link, _registry, _storyService, _factory));
+
+        foreach (var chapter in _storyService.Chapters)
+            _registry.AllChapterViewModels.Add(
+                new ChapterViewModel(chapter, _registry, _storyService, _factory));
+
+        foreach (var note in _storyService.Notes)
+            _registry.AllNoteViewModels.Add(new NoteViewModel(note, _storyService));
+
+        _registry.AllNarrativePropertyValues = _storyService.NarrativePropertyValues;
+
+        foreach (var value in _storyService.NarrativePropertyValueDefinitions)
+            _registry.AllNarrativePropertyValueDefinitions.Add(
+                new NarrativePropertyValueViewModel(value));
+    }
+}
+
+
+================================================================================
+File: SubjectDefinitionViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class SubjectDefinitionViewModel : ObservableObject
+    {
+        SubjectDefinition _model;
+        private readonly IStoryService _storyService;
+
+        public string SubjectType
+        {
+            get => _model.SubjectType;
+            set => SetProperty(_model.SubjectType, value, _model, (m, v) => m.SubjectType = v);
+        }
+
+        public int Id => _model.Id;
+        public SubjectDefinition Model => _model;
+
+        public int DisplayOrder
+        {
+            get => _model.DisplayOrder;
+            set
+            {
+                if (_model.DisplayOrder != value)
+                {
+                    _model.DisplayOrder = value;
+                    OnPropertyChanged();
+                }
+            }
+        }
+
+        public SubjectDefinitionViewModel(SubjectDefinition model, IStoryService storyService)
+        {
+            _model = model;
+            _storyService = storyService;
+
+            SubjectType = _model.SubjectType;
+        }
+    }
+}
+
+
+================================================================================
+File: SubjectGroupViewModel.cs
+================================================================================
+
+﻿using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Windows.Data;
+using StoryPlanner.Core.Models;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+/// <summary>
+/// One Expander section in the Subject Library — subjects of a single SubjectDefinition.
+/// </summary>
+public class SubjectGroupViewModel
+{
+    public string GroupLabel        { get; }
+    public int    DisplayOrder      { get; }
+    public int    SubjectDefinitionId { get; }  // stored directly — avoids string lookup in AddSubject
+    public ICollectionView Subjects { get; }
+
+    private readonly CollectionViewSource _cvs;
+
+    public SubjectGroupViewModel(
+        SubjectDefinition definition,
+        ObservableCollection<SubjectViewModel> allSubjects)
+    {
+        GroupLabel          = definition.SubjectType;
+        DisplayOrder        = definition.DisplayOrder;
+        SubjectDefinitionId = definition.Id;
+
+        _cvs = new CollectionViewSource { Source = allSubjects };
+        Subjects = _cvs.View;
+        Subjects.Filter = obj =>
+            obj is SubjectViewModel s && s.SubjectDefinitionId == definition.Id;
+        Subjects.SortDescriptions.Add(
+            new SortDescription(nameof(SubjectViewModel.Name), ListSortDirection.Ascending));
+    }
+}
+
+================================================================================
+File: SubjectLibraryViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using StoryPlanner.Core;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+/// <summary>
+/// Tab ViewModel for the Subject Library.
+/// Follows the same pattern as ChapterLibraryViewModel:
+/// all subject data lives in IViewModelRegistry; this class owns only
+/// Groups, which is a UI-derived grouping of AllSubjectViewModels by definition.
+/// </summary>
+public partial class SubjectLibraryViewModel : ObservableObject
+{
+    private readonly IContentFactory    _factory;
+    private readonly IContentDeleter    _deleter;
+    private readonly IWindowManager     _windowManager;
+    private readonly IViewModelRegistry _registry;
+
+    /// <summary>
+    /// One entry per SubjectDefinition, ordered by DisplayOrder.
+    /// UI-derived — rebuilt whenever definitions change.
+    /// Lives here, not in the registry, for the same reason AvailableSubjectTypes
+    /// lives on DefinitionsEditorViewModel: it is a presentation grouping, not model data.
+    /// </summary>
+    public ObservableCollection<SubjectGroupViewModel> Groups { get; } = new();
+
+    public SubjectLibraryViewModel(
+        IContentFactory    factory,
+        IContentDeleter    deleter,
+        IWindowManager     windowManager,
+        IViewModelRegistry registry)
+    {
+        _factory       = factory;
+        _deleter       = deleter;
+        _windowManager = windowManager;
+        _registry      = registry;
+
+        // Rebuild groups when definitions are added/removed at runtime (e.g. from Definitions tab).
+        // Listen to the registry collection — not IStoryService — since the registry is
+        // now the canonical source for SubjectDefinitionViewModels.
+        _registry.AllSubjectDefinitionViewModels.CollectionChanged += (_, _) => RebuildGroups();
+
+        // Do NOT call RebuildGroups() here — registry is empty at construction time.
+        // ProjectLoader calls Reload() after populating the registry.
+    }
+
+    /// <summary>
+    /// Rebuilds Groups from the current registry state.
+    /// Called by ProjectLoader after each project load and automatically
+    /// when AllSubjectDefinitionViewModels changes at runtime.
+    /// </summary>
+    public void Reload() => RebuildGroups();
+
+    private void RebuildGroups()
+    {
+        Groups.Clear();
+        foreach (var defVm in _registry.AllSubjectDefinitionViewModels.OrderBy(d => d.DisplayOrder))
+            Groups.Add(new SubjectGroupViewModel(defVm.Model, _registry.AllSubjectViewModels));
+    }
+
+    [RelayCommand]
+    private async Task AddSubject(SubjectGroupViewModel group)
+    {
+        // SubjectDefinitionId is stored directly on the group — no fragile string lookup needed
+        var vm = await _factory.CreateSubjectAsync(group.SubjectDefinitionId);
+        _windowManager.OpenCommonWindow(vm);
+    }
+
+    [RelayCommand]
+    private void OpenSubject(SubjectViewModel subject) =>
+        _windowManager.OpenCommonWindow(subject);
+
+    [RelayCommand]
+    private async Task DeleteSubject(SubjectViewModel subject)
+    {
+        if (!await _deleter.TryDeleteSubjectAsync(subject))
+            MessageBox.Show(
+                "Cannot delete a subject that still has notes or plot point links.",
+                "Delete Failed",
+                MessageBoxButton.OK,
+                MessageBoxImage.Warning);
+    }
+}
+
+
+================================================================================
+File: SubjectViewModel.cs
+================================================================================
+
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+using System.ComponentModel;
+using System.Windows;
+using System.Windows.Data;
+using System.Windows.Media;
+
+namespace WindowedStoryPlanner.ViewModels
+{
+    public partial class SubjectViewModel : NarrativeElementViewModel
+    {
+        private Subject _subject;
+        public Subject Subject => _subject;
+
+        public int Id => _subject.Id;
+        public int SubjectDefinitionId => _subject.SubjectDefinitionId;
+
+        public string Name
+        {
+            get => _subject.Name;
+            set => SetProperty(_subject.Name, value, _subject, (s, n) => s.Name = n);
+        }
+
+        public string Description
+        {
+            get => _subject.Description;
+            set => SetProperty(_subject.Description, value, _subject, (s, n) => s.Description = n);
+        }
+
+        public string Abbreviation
+        {
+            get => _subject.Abbreviation;
+            set => SetProperty(_subject.Abbreviation, value, _subject, (s, n) => s.Abbreviation = n);
+        }
+
+        public string ColorHex
+        {
+            get => _subject.ColorHex;
+            set => SetProperty(_subject.ColorHex, value, _subject, (s, n) => s.ColorHex = n);
+        }
+
+        public ICollectionView PlotPointSubjectLinks { get; set; }
+        private readonly IWindowManager _windowManager;
+
+        [RelayCommand]
+        private void Open() => _windowManager.OpenCommonWindow(this);
+
+        public SubjectViewModel(Subject subject, IViewModelRegistry viewModelRegistry, IStoryService storyService, IContentFactory editorCoordinator, IWindowManager windowManager)
+            : base(viewModelRegistry, storyService, editorCoordinator)
+        {
+            _subject = subject;
+
+            InitializeTracksAndProperties();
+
+            //TODO: need own view, follow note track section pattern
+            var view = new ListCollectionView(viewModelRegistry.AllPlotPointSubjectLinkViewModels)
+            {
+                Filter = obj => obj is PlotPointSubjectLinkViewModel link && link.SubjectId == _subject.Id,
+                IsLiveSorting = true,
+            };
+            view.LiveSortingProperties.Add(nameof(PlotPointSubjectLinkViewModel.ChapterOrderIndex));
+            view.LiveSortingProperties.Add(nameof(PlotPointSubjectLinkViewModel.PlotPointOrderInChapter));
+            view.SortDescriptions.Add(new SortDescription(nameof(PlotPointSubjectLinkViewModel.ChapterOrderIndex), ListSortDirection.Ascending));
+            view.SortDescriptions.Add(new SortDescription(nameof(PlotPointSubjectLinkViewModel.PlotPointOrderInChapter), ListSortDirection.Ascending));
+            PlotPointSubjectLinks = view;
+
+            _windowManager = windowManager;
+        }
+
+        /// <summary>
+        /// Changes the subject's type and rebuilds its note tracks and narrative properties
+        /// to match the new SubjectDefinition.
+        /// </summary>
+        public void ChangeSubjectDefinition(int newSubjectDefinitionId)
+        {
+            if (_subject.SubjectDefinitionId == newSubjectDefinitionId) return;
+
+            _subject.SubjectDefinitionId = newSubjectDefinitionId;
+
+            NoteTracks.Clear();
+            NarrativeProperties.Clear();
+            InitializeTracksAndProperties();
+
+            OnPropertyChanged(nameof(SubjectDefinitionId));
+        }
+
+        private void InitializeTracksAndProperties()
+        {
+            var noteTracks = _storyService.NoteTrackDefinitions
+                .Where(ntd => ntd.OwnerType == OwnerType.Subject
+                           && ntd.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                .ToList();
+
+            var propertyDefs = _storyService.NarrativePropertyDefinitions
+                .Where(npd => npd.OwnerType == OwnerType.Subject
+                           && npd.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                .ToList();
+
+            InitializeCollections(
+                _subject.Id,
+                OwnerType.Subject,
+                () => _storyService.NoteTrackDefinitions
+                          .Where(ntd => ntd.OwnerType == OwnerType.Subject
+                                     && ntd.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                          .ToList(),
+                () => _storyService.NarrativePropertyDefinitions
+                          .Where(npd => npd.OwnerType == OwnerType.Subject
+                                     && npd.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                          .ToList());
+        }
+
+        public string BadgeText => !string.IsNullOrWhiteSpace(Abbreviation)
+        ? Abbreviation
+        : (Name.Length > 3 ? Name.Substring(0, 3) : Name).ToUpper();
+
+        public Brush BadgeBackground
+        {
+            get
+            {
+                try
+                {
+                    var color = (Color)ColorConverter.ConvertFromString(
+                        !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
+                    return new SolidColorBrush(color);
+                }
+                catch
+                {
+                    return Brushes.LightGray;
+                }
+            }
+        }
+
+        public Brush BadgeForeground
+        {
+            get
+            {
+                try
+                {
+                    var color = (Color)ColorConverter.ConvertFromString(
+                        !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
+                    // Luminance formula to determine if dark or light
+                    return (color.R * 0.299 + color.G * 0.587 + color.B * 0.114) < 186 ? Brushes.White : Brushes.Black;
+                }
+                catch
+                {
+                    return Brushes.Black;
+                }
+            }
+        }
+
+        /// <summary>All subject types the user can pick from.</summary>
+        public IReadOnlyList<SubjectDefinitionViewModel> AvailableSubjectDefinitions =>
+            _viewModelRegistry.AllSubjectDefinitionViewModels;
+
+        /// <summary>
+        /// The currently selected SubjectDefinition. Setting this calls ChangeSubjectDefinition.
+        /// </summary>
+        public SubjectDefinitionViewModel? SelectedSubjectDefinition
+        {
+            get => AvailableSubjectDefinitions.FirstOrDefault(s => s.Id == _subject.SubjectDefinitionId);
+            set
+            {
+                if (value is null) return;
+                ChangeSubjectDefinition(value.Id);
+                OnPropertyChanged();
+            }
+        }
+    }
+}
+
+
+================================================================================
+File: ViewModelLocator.cs
+================================================================================
+
+﻿using System.Collections.ObjectModel;
+using CommunityToolkit.Mvvm.ComponentModel;
+using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+/// <summary>
+/// DataContext for MainWindow. Pure property bag — no logic, no ObservableObject needed.
+/// Each property is a tab ViewModel resolved from DI.
+/// </summary>
+public class ViewModelLocator
+{
+    public FileManagerViewModel       FileManager  { get; }
+    public ChapterLibraryViewModel    Chapters     { get; }
+    public DefinitionsEditorViewModel Definitions  { get; }
+    public SubjectLibraryViewModel    Subjects     { get; }
+
+    public ViewModelLocator(
+        FileManagerViewModel       fileManager,
+        ChapterLibraryViewModel    chapters,
+        DefinitionsEditorViewModel definitions,
+        SubjectLibraryViewModel    subjects)
+    {
+        FileManager = fileManager;
+        Chapters    = chapters;
+        Definitions = definitions;
+        Subjects    = subjects;
+    }
+}
+
+
+================================================================================
+File: ViewModelRegistry.cs
+================================================================================
+
+﻿using System;
+using System.Collections.ObjectModel;
+using StoryPlanner.Core.Models;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+/// <summary>
+/// Pure collection store for the lifetime of the application.
+/// No factory dependencies — ProjectLoader is solely responsible for populating it.
+/// </summary>
+public class ViewModelRegistry : IViewModelRegistry
+{
+    public ObservableCollection<SubjectViewModel> AllSubjectViewModels { get; } = new();
+    public ObservableCollection<PlotPointViewModel> AllPlotPointViewModels { get; } = new();
+    public ObservableCollection<PlotPointSubjectLinkViewModel> AllPlotPointSubjectLinkViewModels { get; } = new();
+    public ObservableCollection<ChapterViewModel> AllChapterViewModels { get; } = new();
+    public ObservableCollection<NoteViewModel> AllNoteViewModels { get; } = new();
+    public ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues { get; set; } = new();
+    public ObservableCollection<NarrativePropertyValueViewModel> AllNarrativePropertyValueDefinitions { get; } = new();
+    public ObservableCollection<SubjectDefinitionViewModel> AllSubjectDefinitionViewModels { get; } = new();
+    public ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; } = new();
+
+    public event Action<int>? NoteViewModelMutated;
+    public void RaiseNoteMutated(int noteId) => NoteViewModelMutated?.Invoke(noteId);
+
+    public event Action<int>? NoteSelected;
+    public void RaiseNoteSelected(int noteId) => NoteSelected?.Invoke(noteId);
+
+    public event Action? LinksInvalidated;
+    public void RaiseLinksInvalidated() => LinksInvalidated?.Invoke();
+
+    public void Clear()
+    {
+        AllSubjectViewModels.Clear();
+        AllPlotPointViewModels.Clear();
+        AllPlotPointSubjectLinkViewModels.Clear();
+        AllChapterViewModels.Clear();
+        AllNoteViewModels.Clear();
+        AllNarrativePropertyValueDefinitions.Clear();
+        AllSubjectDefinitionViewModels.Clear();
+        AllNoteTrackDefinitionViewModels.Clear();
+        // AllNarrativePropertyValues is not cleared here — it is replaced by
+        // reference in ProjectLoader since it is a direct alias to the service list.
+    }
+}
+
+
+================================================================================
+File: WindowManager.cs
+================================================================================
+
+﻿using StoryPlanner.Core;
+using System;
+using System.Collections.Generic;
+using System.Windows;
+using WindowedStoryPlanner.Views;
+
+namespace WindowedStoryPlanner.ViewModels;
+
+public class WindowManager : IWindowManager
+{
+    // No IContentFactory — the delegate captures it from the service provider at
+    // registration time, so WindowManager has no direct knowledge of it at all.
+    private readonly Func<NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> _commonWindowFactory;
+    private readonly Dictionary<object, Window> _singletonWindows = new();
+
+    public WindowManager(
+        Func<NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> commonWindowFactory)
+    {
+        _commonWindowFactory = commonWindowFactory;
+    }
+
+    /// <summary>
+    /// Opens a new CommonWindow. Always creates a new instance —
+    /// CommonWindow is intentionally multi-instance.
+    /// </summary>
+    public void OpenCommonWindow(
+        NarrativeElementViewModel element,
+        PlotPointSubjectLinkViewModel? initialLink = null)
+    {
+        _commonWindowFactory(element, initialLink).Show();
+    }
+
+    /// <summary>
+    /// Opens a ChapterWindow for the given chapter — singleton per chapter.
+    /// </summary>
+    public void OpenChapterWindow(ChapterViewModel chapter)
+    {
+        if (_singletonWindows.TryGetValue(chapter, out var existing) && existing.IsLoaded)
+        {
+            if (existing.WindowState == WindowState.Minimized)
+                existing.WindowState = WindowState.Normal;
+            existing.Activate();
+            return;
+        }
+
+        var window = new ChapterWindow { DataContext = chapter };
+        _singletonWindows[chapter] = window;
+        window.Closed += (_, _) => _singletonWindows.Remove(chapter);
+        window.Show();
+    }
+}
+

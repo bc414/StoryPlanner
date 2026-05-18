@@ -13,7 +13,7 @@
         <ItemsControl ItemsSource="{Binding Groups}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate DataType="{x:Type vm:SubjectGroupViewModel}">
-                    <Expander IsExpanded="True" Margin="0,0,0,6">
+                    <Expander IsExpanded="False" Margin="0,0,0,6">
 
                         <Expander.Header>
                             <StackPanel Orientation="Horizontal">

@@ -31,6 +31,7 @@ public class StoryService : IStoryService
     public ObservableCollection<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; private set; } = new();
     public ObservableCollection<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; private set; } = new();
     public ObservableCollection<NarrativePropertyValue> NarrativePropertyValues { get; private set; } = new();
+    public ObservableCollection<Theme> Themes { get; private set; } = new();
 
     public ObservableCollection<SourceMaterial> SourceMaterials { get; private set; } = new();
 
@@ -204,22 +205,23 @@ public class StoryService : IStoryService
         // Definitions — load leaves first so EF relationship fixup wires nav properties
         await _context.NoteTrackDefinitions.LoadAsync();
         await _context.NarrativePropertyValueDefinitions.LoadAsync();
-        await _context.NarrativePropertyDefinitions.LoadAsync();   // nav → NarrativePropertyValueDefinitions
-        await _context.SubjectDefinitions.LoadAsync();             // nav → NoteTrackDefinitions, NarrativePropertyDefinitions
-        await _context.NarrativePropertyValues.LoadAsync();        // FK refs only, no nav props
+        await _context.NarrativePropertyDefinitions.LoadAsync();
+        await _context.SubjectDefinitions.LoadAsync();
+        await _context.NarrativePropertyValues.LoadAsync();
+
+        await _context.Themes.LoadAsync();   // ← was missing
 
         await _context.SourceMaterials.LoadAsync();
         await _context.GeminiEntries.LoadAsync();
         await _context.Ideas.LoadAsync();
 
-        // ---------------------------------------------------------------------------
         // STEP 4: BIND TO UI
-        // ---------------------------------------------------------------------------
-        Notes    = _context.Notes.Local.ToObservableCollection();
-        Subjects = _context.Subjects.Local.ToObservableCollection();
-        Chapters = _context.Chapters.Local.ToObservableCollection();
-        PlotPoints = _context.PlotPoints.Local.ToObservableCollection();
+        Notes                  = _context.Notes.Local.ToObservableCollection();
+        Subjects               = _context.Subjects.Local.ToObservableCollection();
+        Chapters               = _context.Chapters.Local.ToObservableCollection();
+        PlotPoints             = _context.PlotPoints.Local.ToObservableCollection();
         PlotPointsSubjectLinks = _context.PlotPointSubjectLinks.Local.ToObservableCollection();
+        Themes                 = _context.Themes.Local.ToObservableCollection();
 
         SubjectDefinitions                = _context.SubjectDefinitions.Local.ToObservableCollection();
         NoteTrackDefinitions              = _context.NoteTrackDefinitions.Local.ToObservableCollection();
@@ -298,4 +300,11 @@ public class StoryService : IStoryService
 
     public NoteTrackDefinition? GetNoteTrackDefinition(int id)
     => _context?.Set<NoteTrackDefinition>().Find(id);
+
+    public void DeleteNote(int noteId)
+    {
+        var note = Notes.FirstOrDefault(n => n.Id == noteId);
+        if (note is not null)
+            Notes.Remove(note);
+    }
 }

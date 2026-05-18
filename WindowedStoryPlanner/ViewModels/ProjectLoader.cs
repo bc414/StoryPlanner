@@ -9,20 +9,22 @@ namespace WindowedStoryPlanner.ViewModels;
 /// </summary>
 public class ProjectLoader
 {
-    private readonly IStoryService             _storyService;
-    private readonly IViewModelRegistry        _registry;
-    private readonly IContentFactory           _factory;
-    private readonly IWindowManager            _windowManager;
+    private readonly IStoryService              _storyService;
+    private readonly IViewModelRegistry         _registry;
+    private readonly IContentFactory            _factory;
+    private readonly IWindowManager             _windowManager;
     private readonly DefinitionsEditorViewModel _definitions;
-    private readonly SubjectLibraryViewModel   _subjectLibrary;
+    private readonly SubjectLibraryViewModel    _subjectLibrary;
+    private readonly ThemeLibraryViewModel      _themeLibrary;
 
     public ProjectLoader(
-        IStoryService              storyService,
-        IViewModelRegistry         registry,
-        IContentFactory            factory,
-        IWindowManager             windowManager,
-        DefinitionsEditorViewModel definitions,
-        SubjectLibraryViewModel    subjectLibrary)
+        IStoryService               storyService,
+        IViewModelRegistry          registry,
+        IContentFactory             factory,
+        IWindowManager              windowManager,
+        DefinitionsEditorViewModel  definitions,
+        SubjectLibraryViewModel     subjectLibrary,
+        ThemeLibraryViewModel       themeLibrary)
     {
         _storyService   = storyService;
         _registry       = registry;
@@ -30,6 +32,7 @@ public class ProjectLoader
         _windowManager  = windowManager;
         _definitions    = definitions;
         _subjectLibrary = subjectLibrary;
+        _themeLibrary   = themeLibrary;
     }
 
     public void Load()
@@ -47,7 +50,13 @@ public class ProjectLoader
 
         // Sync UI-derived state on tab VMs that depend on definitions
         _definitions.Reload();
-        _subjectLibrary.Reload();   // builds Groups from AllSubjectDefinitionViewModels
+        _subjectLibrary.Reload();
+
+        // --- Themes ---
+        foreach (var m in _storyService.Themes)
+            _registry.AllThemeViewModels.Add(new ThemeViewModel(m, _storyService));
+
+        _themeLibrary.Reload();
 
         // --- Narrative elements ---
         foreach (var subject in _storyService.Subjects)
@@ -67,7 +76,8 @@ public class ProjectLoader
                 new ChapterViewModel(chapter, _registry, _storyService, _factory));
 
         foreach (var note in _storyService.Notes)
-            _registry.AllNoteViewModels.Add(new NoteViewModel(note, _storyService));
+            _registry.AllNoteViewModels.Add(
+                new NoteViewModel(note, _storyService, _registry.AllThemeViewModels));
 
         _registry.AllNarrativePropertyValues = _storyService.NarrativePropertyValues;
 

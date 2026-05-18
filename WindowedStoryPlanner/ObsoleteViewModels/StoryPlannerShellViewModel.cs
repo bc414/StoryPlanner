@@ -118,7 +118,7 @@ public partial class StoryPlannerShellViewModel : ObservableObject
             // Notes
             foreach(Note note in _storyService.Notes)
             {
-                AllNoteViewModels.Add(new NoteViewModel(note, _storyService));
+                //AllNoteViewModels.Add(new NoteViewModel(note, _storyService, t));
             }
 
             // NarrativePropertyValues (raw collection)

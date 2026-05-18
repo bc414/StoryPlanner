@@ -1,6 +1,10 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
+using System;
+using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace WindowedStoryPlanner.ViewModels;
 
@@ -8,11 +12,13 @@ public partial class NoteViewModel : ObservableObject
 {
     private readonly Note _note;
     private readonly IStoryService _storyService;
+    private readonly ObservableCollection<ThemeViewModel> _themes;
 
-    public NoteViewModel(Note note, IStoryService storyService)
+    public NoteViewModel(Note note, IStoryService storyService, ObservableCollection<ThemeViewModel> themes)
     {
         _note = note;
         _storyService = storyService;
+        _themes = themes;
         _noteTrackDefinition = note.NoteTrackDefinitionId.HasValue
             ? storyService.GetNoteTrackDefinition(note.NoteTrackDefinitionId.Value)
             : null;
@@ -46,6 +52,7 @@ public partial class NoteViewModel : ObservableObject
 
                 OnPropertyChanged(nameof(NoteTrackDefinition));
                 OnPropertyChanged(nameof(SupportsWorldDate));
+                OnPropertyChanged(nameof(SupportsTheme));
             }
         }
     }
@@ -54,13 +61,21 @@ public partial class NoteViewModel : ObservableObject
     public NoteTrackDefinition? NoteTrackDefinition => _noteTrackDefinition;
 
     public bool SupportsWorldDate => _noteTrackDefinition?.SupportsWorldDate ?? false;
+    public bool SupportsTheme     => _noteTrackDefinition?.SupportsTheme     ?? false;
+
     public DateTime LastModified => _note.LastModified;
 
     public string Content
     {
         get => _note.Content;
-        set => SetProperty(_note.Content, value, _note, (n, v) => n.Content = v);
+        set
+        {
+            if (SetProperty(_note.Content, value, _note, (n, v) => n.Content = v))
+                OnPropertyChanged(nameof(IsEmpty));
+        }
     }
+
+    public bool IsEmpty => string.IsNullOrWhiteSpace(_note.Content);
 
     public NoteState NoteState
     {
@@ -103,5 +118,34 @@ public partial class NoteViewModel : ObservableObject
         _                   => string.Empty
     };
 
+    // ── Theme ─────────────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Shared collection reference — same instance across all NoteViewModels.
+    /// Bound as ComboBox ItemsSource in NoteView.xaml.
+    /// </summary>
+    public ObservableCollection<ThemeViewModel> AvailableThemes => _themes;
+
+    /// <summary>
+    /// Resolves ThemeId → ThemeViewModel for display; sets ThemeId on write.
+    /// Null means "no theme assigned".
+    /// </summary>
+    public ThemeViewModel? SelectedTheme
+    {
+        get => _themes.FirstOrDefault(t => t.Id == _note.ThemeId);
+        set
+        {
+            var newId = value?.Id;
+            if (SetProperty(_note.ThemeId, newId, _note, (n, v) => n.ThemeId = v))
+                OnPropertyChanged();
+        }
+    }
+
     public Note Model => _note;
+
+    [RelayCommand]
+    private void ClearTheme()
+    {
+        SelectedTheme = null;
+    }
 }

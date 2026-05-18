@@ -1,14 +1,16 @@
 ﻿<UserControl x:Class="WindowedStoryPlanner.Views.NoteTrackSectionView"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
              xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+             xmlns:behaviors="clr-namespace:WindowedStoryPlanner.Views.Behaviors"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
-             mc:Ignorable="d" 
+             mc:Ignorable="d"
              d:DesignHeight="450" d:DesignWidth="300"
-             d:DataContext="{d:DesignInstance Type=vm:NoteTrackSectionViewModel}">
+             d:DataContext="{d:DesignInstance Type=vm:NoteTrackSectionViewModel}"
+             PreviewKeyDown="NoteTrackSectionView_PreviewKeyDown">
 
     <UserControl.Resources>
 
@@ -18,22 +20,13 @@
         <!-- Unset: light gray border brush -->
         <SolidColorBrush x:Key="UnsetBorderBrush" Color="#CCCCCC"/>
 
-        <!-- Flagged: multicolor gradient border reproduced from old NoteCard -->
-        <LinearGradientBrush x:Key="FlaggedBorderBrush" StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="#E8F0FE" Offset="0.0"/>
-            <GradientStop Color="#FCE8E6" Offset="0.35"/>
-            <GradientStop Color="#FEF7E0" Offset="0.65"/>
-            <GradientStop Color="#E6F4EA" Offset="1.0"/>
-        </LinearGradientBrush>
+        <!-- Flagged: solid red/pink border brush -->
+        <SolidColorBrush x:Key="FlaggedBorderBrush" Color="#E05A4E"/>
 
         <!-- Background tints per section state -->
         <SolidColorBrush x:Key="ConfirmedBackgroundBrush" Color="#F2FBF5"/>
         <SolidColorBrush x:Key="UnsetBackgroundBrush"     Color="#F8F8F8"/>
-        <LinearGradientBrush x:Key="FlaggedBackgroundBrush" StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="#F0F4FF" Offset="0.0"/>
-            <GradientStop Color="#FFF3F2" Offset="0.5"/>
-            <GradientStop Color="#F5FFF6" Offset="1.0"/>
-        </LinearGradientBrush>
+        <SolidColorBrush x:Key="FlaggedBackgroundBrush"   Color="#FDF0EE"/>
 
         <!-- Header label color per state -->
         <SolidColorBrush x:Key="ConfirmedHeaderBrush" Color="#1E7E34"/>
@@ -42,7 +35,6 @@
 
     </UserControl.Resources>
 
-    <!-- Outer border: color driven by a style with DataTriggers on SectionHeader -->
     <Border CornerRadius="5"
             BorderThickness="2"
             Margin="4"
@@ -50,7 +42,6 @@
 
         <Border.Style>
             <Style TargetType="Border">
-                <!-- Unset is the default -->
                 <Setter Property="BorderBrush"  Value="{StaticResource UnsetBorderBrush}"/>
                 <Setter Property="Background"   Value="{StaticResource UnsetBackgroundBrush}"/>
                 <Style.Triggers>
@@ -106,6 +97,8 @@
             </Border>
 
             <!-- ── Note list ── -->
+            <!-- ScrollPassthroughBehavior lets wheel events bypass the ListBox's internal  -->
+            <!-- ScrollViewer and bubble up to NoteTrackView's ScrollViewer instead.        -->
             <ListBox DockPanel.Dock="Bottom"
                      ItemsSource="{Binding SectionNotes}"
                      SelectedItem="{Binding SelectedNote, Mode=TwoWay}"
@@ -114,6 +107,7 @@
                      Padding="4"
                      ScrollViewer.HorizontalScrollBarVisibility="Disabled"
                      ScrollViewer.VerticalScrollBarVisibility="Disabled"
+                     behaviors:ScrollPassthroughBehavior.Enabled="True"
                      dd:DragDrop.IsDropTarget="True"
                      dd:DragDrop.DropHandler="{Binding}"
                      dd:DragDrop.IsDragSource="True"
@@ -132,6 +126,37 @@
                         <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
                         <Setter Property="Padding" Value="0"/>
                         <Setter Property="Margin"  Value="0,1"/>
+                        <Setter Property="Background" Value="Transparent"/>
+                        <EventSetter Event="PreviewMouseLeftButtonDown"
+                                     Handler="ListBoxItem_PreviewMouseLeftButtonDown"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="ListBoxItem">
+                                    <Border Background="{TemplateBinding Background}"
+                                            BorderThickness="0">
+                                        <ContentPresenter/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <!-- Hover: subtle dark wash, visible but unobtrusive -->
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#18000000"/>
+                                        </Trigger>
+                                        <!-- Selected: default WPF light blue -->
+                                        <Trigger Property="IsSelected" Value="True">
+                                            <Setter Property="Background" Value="#CCE8FF"/>
+                                        </Trigger>
+                                        <!-- Selected + Hovered: slightly deeper blue — still reads as selected -->
+                                        <MultiTrigger>
+                                            <MultiTrigger.Conditions>
+                                                <Condition Property="IsSelected"  Value="True"/>
+                                                <Condition Property="IsMouseOver" Value="True"/>
+                                            </MultiTrigger.Conditions>
+                                            <Setter Property="Background" Value="#99CAEE"/>
+                                        </MultiTrigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
                     </Style>
                 </ListBox.ItemContainerStyle>
 

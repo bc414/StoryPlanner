@@ -35,6 +35,9 @@
         <TabItem Header="Subjects">
             <v:SubjectLibrary DataContext="{Binding Subjects}"/>
         </TabItem>
+        <TabItem Header="Themes">
+            <v:ThemeLibrary DataContext="{Binding Themes}"/>
+        </TabItem>
         <TabItem Header="Definitions">
             <ScrollViewer>
                 <v:DefinitionsEditorControl DataContext="{Binding Definitions}"/>

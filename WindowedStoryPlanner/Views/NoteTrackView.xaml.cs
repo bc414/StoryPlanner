@@ -1,26 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Windows;
+﻿using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace WindowedStoryPlanner.Views
 {
-    /// <summary>
-    /// Interaction logic for NoteTrackView.xaml
-    /// </summary>
     public partial class NoteTrackView : UserControl
     {
         public NoteTrackView()
         {
             InitializeComponent();
+        }
+
+        // Cancels automatic scroll-to-selection that fires when SelectedItem
+        // changes on any ListBox inside this track. Must be handled here (inside
+        // the ScrollViewer) rather than on the ScrollViewer itself, because the
+        // ScrollViewer acts on the event in its internal override before a XAML
+        // handler on the ScrollViewer element would fire.
+        private void SectionsItemsControl_RequestBringIntoView(object sender, RequestBringIntoViewEventArgs e)
+        {
+            e.Handled = true;
         }
     }
 }

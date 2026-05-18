@@ -19,6 +19,11 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _viewModelRegistry;
 
+    // Guard against re-entrant OnNoteMutated calls triggered by ReindexSection
+    // writing SortOrder. If SortOrder ever raises NoteViewModelMutated in future,
+    // this prevents an infinite loop.
+    private bool _isReindexing;
+
     public string SectionHeader => _targetState.ToString();
     public NoteState TargetState => _targetState;
     public ICollectionView SectionNotes { get; }
@@ -26,6 +31,14 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
     [ObservableProperty]
     private NoteViewModel? _selectedNote;
+
+    partial void OnSelectedNoteChanged(NoteViewModel? value)
+    {
+        // When this section gains a selection, broadcast it so all other sections
+        // across the entire NarrativeElementFullView clear their own selection.
+        if (value is not null)
+            _viewModelRegistry.RaiseNoteSelected(value.Id);
+    }
 
     public NoteTrackSectionViewModel(
         int ownerId,
@@ -49,14 +62,44 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             new SortDescription(nameof(NoteViewModel.SortOrder), ListSortDirection.Ascending));
 
         _viewModelRegistry.NoteViewModelMutated += OnNoteMutated;
+        _viewModelRegistry.NoteSelected         += OnNoteSelected;
     }
 
     public void Dispose()
     {
         _viewModelRegistry.NoteViewModelMutated -= OnNoteMutated;
+        _viewModelRegistry.NoteSelected         -= OnNoteSelected;
     }
 
-    private void OnNoteMutated(int noteId) => SectionNotes.Refresh();
+    // Clear this section's selection when another section anywhere in the
+    // application has selected a different note.
+    private void OnNoteSelected(int noteId)
+    {
+        if (SelectedNote is not null && SelectedNote.Id != noteId)
+            SelectedNote = null;
+    }
+
+    private void OnNoteMutated(int noteId)
+    {
+        // Guard: ReindexSection writes SortOrder on NoteViewModels. If SortOrder
+        // is ever wired to raise NoteViewModelMutated, this prevents re-entrant
+        // calls cascading back into here infinitely.
+        if (_isReindexing) return;
+
+        SectionNotes.Refresh();
+
+        var current = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
+
+        _isReindexing = true;
+        try
+        {
+            ReindexSection(current);
+        }
+        finally
+        {
+            _isReindexing = false;
+        }
+    }
 
     private bool FilterNote(object obj)
     {
@@ -77,15 +120,17 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     {
         if (SelectedNote is null) return;
 
+        var note  = SelectedNote; // capture before Refresh() can clear the binding
         var notes = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
-        int index = notes.IndexOf(SelectedNote);
+        int index = notes.IndexOf(note);
         if (index <= 0) return;
 
         notes.RemoveAt(index);
-        notes.Insert(index - 1, SelectedNote);
+        notes.Insert(index - 1, note);
 
         ReindexSection(notes);
-        _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+        _viewModelRegistry.RaiseNoteMutated(note.Id); // triggers Refresh() synchronously
+        SelectedNote = note;                           // re-assert after refresh clears it
         _ = _storyService.SaveAsync();
     }
 
@@ -94,15 +139,17 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     {
         if (SelectedNote is null) return;
 
+        var note  = SelectedNote;
         var notes = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
-        int index = notes.IndexOf(SelectedNote);
+        int index = notes.IndexOf(note);
         if (index < 0 || index >= notes.Count - 1) return;
 
         notes.RemoveAt(index);
-        notes.Insert(index + 1, SelectedNote);
+        notes.Insert(index + 1, note);
 
         ReindexSection(notes);
-        _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        SelectedNote = note;
         _ = _storyService.SaveAsync();
     }
 
@@ -125,11 +172,17 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
         var sectionNotes = SectionNotes
             .Cast<NoteViewModel>()
-            .Where(n => n.Id != note.Id)
             .OrderBy(n => n.SortOrder)
             .ToList();
 
-        int insertAt = Math.Clamp(dropInfo.InsertIndex, 0, sectionNotes.Count);
+        int originalIndex = sectionNotes.FindIndex(n => n.Id == note.Id);
+        int insertAt      = dropInfo.InsertIndex;
+
+        if (originalIndex >= 0 && originalIndex < insertAt)
+            insertAt--;
+
+        sectionNotes.RemoveAll(n => n.Id == note.Id);
+        insertAt = Math.Clamp(insertAt, 0, sectionNotes.Count);
         sectionNotes.Insert(insertAt, note);
 
         ReindexSection(sectionNotes);
@@ -148,7 +201,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     // ── Helpers ──────────────────────────────────────────────────────────
 
     /// <summary>
-    /// 
+    /// Assigns contiguous 1-based SortOrder values to the supplied ordered list.
     /// Call this after any operation that changes note ordering within a section.
     /// </summary>
     private static void ReindexSection(List<NoteViewModel> orderedNotes)
@@ -164,9 +217,9 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
         SelectedNote.NoteState = SelectedNote.NoteState switch
         {
-            NoteState.Flagged   => NoteState.Unset,
-            NoteState.Unset     => NoteState.Confirmed,
-            _                   => SelectedNote.NoteState
+            NoteState.Flagged => NoteState.Unset,
+            NoteState.Unset   => NoteState.Confirmed,
+            _                 => SelectedNote.NoteState
         };
 
         _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
@@ -186,6 +239,99 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         };
 
         _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+        _ = _storyService.SaveAsync();
+    }
+
+    // Raised when a hotkey moves a note out of this section so the track VM
+    // can transfer selection to whichever section now owns it.
+    public event Action<NoteViewModel>? SelectionTransferRequested;
+
+    [RelayCommand]
+    private void ToggleConfirmed()
+    {
+        if (SelectedNote is null) return;
+        var note = SelectedNote;
+
+        var newState = note.NoteState switch
+        {
+            NoteState.Confirmed => NoteState.Unset,
+            NoteState.Unset     => NoteState.Confirmed,
+            _                   => note.NoteState
+        };
+
+        if (newState != note.NoteState)
+            PlaceAtEndOfSection(note, newState);
+
+        note.NoteState = newState;
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _ = _storyService.SaveAsync();
+
+        if (note.NoteState != _targetState)
+            SelectionTransferRequested?.Invoke(note);
+    }
+
+    [RelayCommand]
+    private void ToggleFlagged()
+    {
+        if (SelectedNote is null) return;
+        var note = SelectedNote;
+
+        var newState = note.NoteState switch
+        {
+            NoteState.Flagged => NoteState.Unset,
+            NoteState.Unset   => NoteState.Flagged,
+            _                 => note.NoteState
+        };
+
+        if (newState != note.NoteState)
+            PlaceAtEndOfSection(note, newState);
+
+        note.NoteState = newState;
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _ = _storyService.SaveAsync();
+
+        if (note.NoteState != _targetState)
+            SelectionTransferRequested?.Invoke(note);
+    }
+
+    // Sets the note's SortOrder to one past the current maximum in the destination
+    // section so it arrives at the end rather than being sorted by its stale order.
+    // Must be called before NoteState is changed so the destination filter still
+    // excludes the note when computing the max.
+    private void PlaceAtEndOfSection(NoteViewModel note, NoteState destinationState)
+    {
+        // Find the sibling section VM for the destination state via the registry —
+        // filter the same AllNoteViewModels source directly to avoid depending on
+        // the parent track VM from here.
+        int max = _viewModelRegistry.AllNoteViewModels
+            .Where(n => n.OwnerId   == _ownerId
+                     && n.OwnerType == _ownerType
+                     && n.NoteTrackDefinitionId == note.NoteTrackDefinitionId
+                     && n.NoteState == destinationState
+                     && n.Id        != note.Id)
+            .Select(n => n.SortOrder)
+            .DefaultIfEmpty(0)
+            .Max();
+
+        note.SortOrder = max + 1;
+    }
+
+    [RelayCommand]
+    private void DeleteNote(NoteViewModel note)
+    {
+        if (note is null) return;
+
+        // Clear selection if this note was selected so _selectedNote
+        // in CommonWindow doesn't hold a dangling reference.
+        if (SelectedNote?.Id == note.Id)
+            SelectedNote = null;
+
+        // Remove from the registry's AllNoteViewModels so it's filtered out
+        // when SectionNotes.Refresh() is called below.
+        _viewModelRegistry.AllNoteViewModels.Remove(note);
+
+        _storyService.DeleteNote(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
         _ = _storyService.SaveAsync();
     }
 }

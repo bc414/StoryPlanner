@@ -36,7 +36,7 @@ public class ContentFactory : IContentFactory
         _storyService.Notes.Add(newNote);
         await _storyService.SaveAsync();
 
-        var vm = new NoteViewModel(newNote, _storyService);
+        var vm = new NoteViewModel(newNote, _storyService, _registry.AllThemeViewModels);
         _registry.AllNoteViewModels.Add(vm);
         return vm;
     }

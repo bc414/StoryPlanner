@@ -20,6 +20,11 @@ namespace WindowedStoryPlanner.ViewModels
 
         private int _openWindowCount = 0;
 
+        private Func<List<NoteTrackDefinition>>? _noteTrackFactory;
+        private Func<List<NarrativePropertyDefinition>>? _propertyFactory;
+        private int _ownerId;
+        private OwnerType _ownerType;
+
         public NarrativeElementViewModel(
             IViewModelRegistry viewModelRegistry,
             IStoryService storyService,
@@ -33,36 +38,45 @@ namespace WindowedStoryPlanner.ViewModels
         protected void InitializeCollections(
             int ownerId,
             OwnerType ownerType,
-            List<NoteTrackDefinition> noteTrackDefinitions,
-            List<NarrativePropertyDefinition> narrativePropertyDefinitions)
+            Func<List<NoteTrackDefinition>> noteTrackFactory,
+            Func<List<NarrativePropertyDefinition>> propertyFactory)
         {
-            foreach (var ntd in noteTrackDefinitions)
-            {
+            _ownerId          = ownerId;
+            _ownerType        = ownerType;
+            _noteTrackFactory = noteTrackFactory;
+            _propertyFactory  = propertyFactory;
+
+            RebuildNoteTracks();
+        }
+
+        private void RebuildNoteTracks()
+        {
+            if (_noteTrackFactory is null || _propertyFactory is null) return;
+
+            NoteTracks.Clear();
+            NarrativeProperties.Clear();
+
+            foreach (var ntd in _noteTrackFactory())
                 NoteTracks.Add(new NoteTrackViewModel(
-                    ntd, ownerId, ownerType,
+                    ntd, _ownerId, _ownerType,
                     _viewModelRegistry, _storyService, _editorCoordinator));
-            }
 
             // Always add an unassigned track at the end for notes with no track set
             NoteTracks.Add(new NoteTrackViewModel(
-                UnassignedTrack.Definition,
-                ownerId,
-                ownerType,
-                _viewModelRegistry,
-                _storyService,
-                _editorCoordinator));
+                UnassignedTrack.Definition, _ownerId, _ownerType,
+                _viewModelRegistry, _storyService, _editorCoordinator));
 
-            foreach (var npd in narrativePropertyDefinitions)
-            {
+            foreach (var npd in _propertyFactory())
                 NarrativeProperties.Add(new NarrativePropertyViewModel(
-                    ownerId, ownerType, npd, _viewModelRegistry, _storyService));
-            }
+                    _ownerId, _ownerType, npd, _viewModelRegistry, _storyService));
         }
 
         public void OnWindowOpened()
         {
             _openWindowCount++;
             if (_openWindowCount > 1) return;
+
+            RebuildNoteTracks();
 
             foreach (var track in NoteTracks)
                 track.Initialize();
@@ -81,6 +95,13 @@ namespace WindowedStoryPlanner.ViewModels
 
         public virtual void DragOver(IDropInfo dropInfo)
         {
+            // Let NoteViewModel drags pass through to NoteTrackSectionView's drop handler
+            if (dropInfo.Data is NoteViewModel)
+            {
+                dropInfo.Effects = System.Windows.DragDropEffects.None;
+                return;
+            }
+
             bool canDrop = (dropInfo.Data, this) switch
             {
                 (SubjectViewModel,            PlotPointViewModel) => true,
@@ -99,6 +120,8 @@ namespace WindowedStoryPlanner.ViewModels
 
         public virtual async void Drop(IDropInfo dropInfo)
         {
+            if (dropInfo.Data is NoteViewModel) return; // ignore — handled by NoteTrackSectionViewModel
+
             var source = dropInfo.Data;
             var target = this;
 

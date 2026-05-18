@@ -32,14 +32,25 @@
 
     <Grid>
         <StackPanel Margin="8">
-            <TextBlock Text="NAME" Style="{StaticResource LabelStyle}"/>
-            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
-         Style="{StaticResource TitleTextBox}"/>
-            <Label Content="Subject Type" FontWeight="SemiBold"/>
-            <ComboBox ItemsSource="{Binding AvailableSubjectDefinitions}"
-                      SelectedItem="{Binding SelectedSubjectDefinition, Mode=TwoWay}"
-                      DisplayMemberPath="SubjectType"
-                      Margin="0,2,0,8"/>
+
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="NAME" Style="{StaticResource LabelStyle}" Grid.Column="0" Grid.Row="0"/>
+                <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+                    Style="{StaticResource TitleTextBox}" Grid.Column="0" Grid.Row="1"/>
+                <TextBlock Text="Subject Type" Style="{StaticResource LabelStyle}" Margin="4,0,0,0" Grid.Row="0" Grid.Column="1"/>
+                <ComboBox ItemsSource="{Binding AvailableSubjectDefinitions}"
+                    SelectedItem="{Binding SelectedSubjectDefinition, Mode=TwoWay}"
+                    DisplayMemberPath="SubjectType"
+                    Margin="4,0,0,8" Grid.Row="1" Grid.Column="1" Width="160"/>
+            </Grid>
 
             <Border dd:DragDrop.IsDragSource="True"
                     dd:DragDrop.DragAdornerTemplate="{StaticResource SubjectDragAdorner}"

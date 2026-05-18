@@ -31,10 +31,15 @@ namespace WindowedStoryPlanner.ViewModels
             get => _model.DisplayQuestion;
             set => SetProperty(_model.DisplayQuestion, value, _model, (m, v) => m.DisplayQuestion = v);
         }
-        public string Explanation
+        public string UsageDirective
         {
-            get => _model.Explanation;
-            set => SetProperty(_model.Explanation, value, _model, (m, v) => m.Explanation = v);
+            get => _model.UsageDirective;
+            set => SetProperty(_model.UsageDirective, value, _model, (m, v) => m.UsageDirective = v);
+        }
+        public string AuditDirective
+        {
+            get => _model.AuditDirective;
+            set => SetProperty(_model.AuditDirective, value, _model, (m, v) => m.AuditDirective = v);
         }
         public int DisplayOrder
         {
@@ -55,6 +60,16 @@ namespace WindowedStoryPlanner.ViewModels
         {
             get => _model.SupportsWorldDate;
             set => SetProperty(_model.SupportsWorldDate, value, _model, (m, v) => m.SupportsWorldDate = v);
+        }
+        public bool SupportsTheme
+        {
+            get => _model.SupportsTheme;
+            set => SetProperty(_model.SupportsTheme, value, _model, (m, v) => m.SupportsTheme = v);
+        }
+        public bool CanEditInAuditMode
+        {
+            get => _model.CanEditInAuditMode;
+            set => SetProperty(_model.CanEditInAuditMode, value, _model, (m, v) => m.CanEditInAuditMode = v);
         }
 
         // Resolves SubjectDefinitionId → display string; sets SubjectDefinitionId on write

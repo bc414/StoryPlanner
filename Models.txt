@@ -1,0 +1,307 @@
+
+================================================================================
+File: Chapter.cs
+================================================================================
+
+using System.Collections.ObjectModel;
+
+namespace StoryPlanner.Core.Models;
+
+public class Chapter
+{
+    public int Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+    
+    // The explicit order in the book (1, 2, 3...)
+    public int OrderIndex { get; set; }
+
+    public OwnerType OwnerType => OwnerType.Chapter;
+}
+
+================================================================================
+File: INoteable.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    public interface INoteable
+    {
+        int Id { get; }
+        OwnerType OwnerType { get; }
+    }
+}
+
+
+================================================================================
+File: NarrativePropertyDefinition.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    /// <summary>
+    /// Represents a field on an entity that has to be assigned a value
+    /// </summary>
+    public class NarrativePropertyDefinition
+    {
+        public int Id { get; set; }
+        public int SubjectDefinitionId { get; set; }
+        public OwnerType OwnerType { get; set; }
+        public string Name { get; set; }
+        public string Question { get; set; } //UI facing text describing what question the value of this property answers
+        public string Explanation { get; set; } //verbose explanation for why the property exists and how to use it
+    }
+}
+
+
+================================================================================
+File: NarrativePropertyValue.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    public class NarrativePropertyValue
+    {
+        public int Id { get; set; }
+        public int OwnerId { get; set; }
+        public int ValueDefinitionId { get; set; } //e.g. Positive, a possible value of GoalTrajectory
+    }
+}
+
+
+================================================================================
+File: NarrativePropertyValueDefinition.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    /// <summary>
+    /// Specifies a valid value for a particular property
+    /// </summary>
+    public class NarrativePropertyValueDefinition
+    {
+        public int Id { get; set; }
+        public int NarrativePropertyDefinitionId { get; set; }
+        public string ValueName { get; set; }
+        public string Description { get; set; }
+    }
+}
+
+
+================================================================================
+File: Note.cs
+================================================================================
+
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using System.Text.Json.Serialization;
+using System;
+
+namespace StoryPlanner.Core.Models;
+
+public class Note
+{
+    public int Id { get; set; }
+
+    public int OwnerId { get; set; }
+    public OwnerType OwnerType { get; set; }
+
+    public int? NoteTrackDefinitionId { get; set; }
+
+    public DateTime LastModified { get; set; }
+
+    public string Content { get; set; } = string.Empty;
+
+    public NoteState NoteState { get; set; }
+    public string FlagReason { get; set; } = string.Empty;
+    public int SortOrder { get; set; }
+
+    public string WorldDate { get; set; } = string.Empty; // year or year range allowed
+}
+
+public enum NoteState
+{
+    Unset,     // captured but not reviewed; provisional
+    Flagged,   // reviewed and found to require new research; FlagReason should be populated
+    Confirmed  // stable within current structural context; safe for downstream design work
+}
+
+================================================================================
+File: NoteTrackDefinition.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    public class NoteTrackDefinition
+    {
+        public int Id { get; set; }
+        public int SubjectDefinitionId { get; set; }
+        public OwnerType OwnerType { get; set; }
+        public int DisplayOrder { get; set; }
+        public string TrackName { get; set; } = string.Empty;
+        public string DisplayQuestion { get; set; } = string.Empty;
+        public string Explanation { get; set;  } = string.Empty;
+        public bool IsSingleton { get; set; }
+        public CognitiveMode CognitiveMode { get; set; }
+        public bool SupportsWorldDate { get; set; }
+        
+    }
+
+    public enum CognitiveMode
+    {
+        ZeroFocalization,      // User as in-universe historian/physicist
+        SceneArchitecture,     // User as director
+        Metatextual,           // User to future self, treating the project as a project rather than in-universe
+        Analogical,            // User connecting the project world to the real world
+        LinguisticExecution,   // User as writer
+    }
+
+    public static class UnassignedTrack
+    {
+        public static readonly NoteTrackDefinition Definition = new()
+        {
+            Id = 0,   // 0 is never a valid EF-generated PK
+            TrackName = "Unassigned",
+            DisplayQuestion = "Notes not yet assigned to a track",
+            DisplayOrder = int.MaxValue,
+        };
+    }
+}
+
+
+================================================================================
+File: OwnerType.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    public enum OwnerType
+    {
+        Subject, //a subject bucket
+        PlotPoint, //a scene for the story
+        Chapter, //a container for scenes of the story
+        PlotPointSubjectLink //connects a plot point with a subject and holds a payload
+    }
+}
+
+
+================================================================================
+File: PlotPoint.cs
+================================================================================
+
+using System.Collections.ObjectModel;
+using System.Text;
+using System.Text.Json.Serialization;
+
+namespace StoryPlanner.Core.Models;
+
+public class PlotPoint : INoteable
+{
+    public int Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+
+    // --- Relationships ---
+    public int? ChapterId { get; set; }
+    public int OrderInChapter { get; set; }
+
+    public OwnerType OwnerType => OwnerType.PlotPoint;
+
+    public int GetTotalTextLength()
+    {
+        return GetCombinedText().Length;
+    }
+
+    public string GetCombinedText()
+    {
+        return string.Empty;
+    }
+}
+
+================================================================================
+File: PlotPointSubjectLink.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    public class PlotPointSubjectLink : INoteable
+    {
+        public int Id { get; set; }
+        public int PlotPointId { get; set; }
+        public int SubjectId { get; set; }
+
+        public OwnerType OwnerType => OwnerType.PlotPointSubjectLink;
+    }
+}
+
+
+================================================================================
+File: Subject.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    public class Subject : INoteable
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
+        public string Abbreviation { get; set; } = string.Empty;
+        public string ColorHex { get; set; } = string.Empty;
+        public int SubjectDefinitionId { get; set; }
+
+        public OwnerType OwnerType => OwnerType.Subject;
+    }
+}
+
+
+================================================================================
+File: SubjectDefinition.cs
+================================================================================
+
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace StoryPlanner.Core.Models
+{
+    public class SubjectDefinition
+    {
+        public int Id { get; set; }
+        public string SubjectType { get; set; }
+        public int DisplayOrder { get; set; }
+
+        //Can add properties for tooltips and displays later, but not configurable stuff that goes into note tracks
+    }
+}
+

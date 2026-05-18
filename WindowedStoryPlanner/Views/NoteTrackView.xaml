@@ -13,7 +13,6 @@
         <local:CognitiveModeToColorConverter x:Key="CognitiveModeToColor"/>
     </UserControl.Resources>
 
-    <!-- Outer border color = CognitiveMode accent -->
     <Border BorderThickness="3"
             CornerRadius="6"
             Margin="4"
@@ -28,7 +27,6 @@
                     Background="{Binding CognitiveMode,
                                          Converter={StaticResource CognitiveModeToColor}}">
 
-                <!-- Tooltip over the entire header shows Explanation -->
                 <Border.ToolTip>
                     <ToolTip MaxWidth="320">
                         <TextBlock Text="{Binding Explanation}"
@@ -42,7 +40,6 @@
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
 
-                    <!-- Left: TrackName + optional Fkey badge -->
                     <StackPanel Grid.Column="0" VerticalAlignment="Center">
 
                         <StackPanel Orientation="Horizontal">
@@ -50,7 +47,6 @@
                                        Foreground="White"
                                        FontWeight="Bold"
                                        FontSize="13"/>
-                            <!-- F-key badge — hidden when AssignedFunctionKey is null -->
                             <Border CornerRadius="3"
                                     Background="#33FFFFFF"
                                     Padding="4,1"
@@ -69,7 +65,6 @@
                             </Border>
                         </StackPanel>
 
-                        <!-- Display question as subtitle -->
                         <TextBlock Text="{Binding DisplayQuestion}"
                                    Foreground="#E0FFFFFF"
                                    FontSize="11"
@@ -79,7 +74,6 @@
 
                     </StackPanel>
 
-                    <!-- Right: + Add Note button -->
                     <Button Grid.Column="1"
                             Content="+"
                             FontSize="18"
@@ -122,15 +116,23 @@
                 </Grid>
             </Border>
 
-            <!-- ── Three sections: Confirmed → Unset → Flagged ── -->
-            <ItemsControl DockPanel.Dock="Bottom"
-                          ItemsSource="{Binding Sections}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <local:NoteTrackSectionView/>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+            <!-- ── Three sections: Confirmed → Unset → Flagged — scrolls vertically per track ── -->
+            <ScrollViewer DockPanel.Dock="Bottom"
+                          VerticalScrollBarVisibility="Auto"
+                          HorizontalScrollBarVisibility="Disabled">
+                <!-- RequestBringIntoView is handled here — inside the ScrollViewer —
+                     so it is marked handled before bubbling up to ScrollViewer's
+                     internal OnRequestBringIntoView override, preventing scroll jumps
+                     when programmatic selection changes occur in sibling sections. -->
+                <ItemsControl ItemsSource="{Binding Sections}"
+                              RequestBringIntoView="SectionsItemsControl_RequestBringIntoView">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <local:NoteTrackSectionView/>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
 
         </DockPanel>
     </Border>

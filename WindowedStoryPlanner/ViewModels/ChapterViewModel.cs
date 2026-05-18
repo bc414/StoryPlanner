@@ -29,15 +29,15 @@ public partial class ChapterViewModel : NarrativeElementViewModel
     {
         _chapter = chapter;
 
-        var noteTracks = storyService.NoteTrackDefinitions
-            .Where(ntd => ntd.OwnerType == OwnerType.Chapter)
-            .ToList();
-
-        var propertyDefs = storyService.NarrativePropertyDefinitions
-            .Where(npd => npd.OwnerType == OwnerType.Chapter)
-            .ToList();
-
-        InitializeCollections(chapter.Id, OwnerType.Chapter, noteTracks, propertyDefs);
+        InitializeCollections(
+            chapter.Id,
+            OwnerType.Chapter,
+            () => storyService.NoteTrackDefinitions
+                .Where(ntd => ntd.OwnerType == OwnerType.Chapter)
+                .ToList(),
+            () => storyService.NarrativePropertyDefinitions
+                .Where(npd => npd.OwnerType == OwnerType.Chapter)
+                .ToList());
 
         PlotPointsInChapter = new ListCollectionView(viewModelRegistry.AllPlotPointViewModels)
         {

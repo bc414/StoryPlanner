@@ -7,10 +7,7 @@
              xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800" d:DataContext="{d:DesignInstance Type=vm:NarrativeElementViewModel}"
-             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
-             xmlns:behaviors="clr-namespace:WindowedStoryPlanner.Views.Behaviors"
-             dd:DragDrop.IsDropTarget="True"
-             dd:DragDrop.DropHandler="{Binding}">
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop">
     <UserControl.Resources>
         <local:NarrativeElementWidgetSelector x:Key="WidgetSelector">
             <local:NarrativeElementWidgetSelector.SubjectTemplate>
@@ -27,7 +24,6 @@
             </local:NarrativeElementWidgetSelector.ChapterTemplate>
         </local:NarrativeElementWidgetSelector>
 
-        <!-- CollectionViewSource stays here too -->
         <CollectionViewSource x:Key="SortedNoteTracks" Source="{Binding NoteTracks}">
             <CollectionViewSource.SortDescriptions>
                 <scm:SortDescription PropertyName="DisplayOrder" Direction="Ascending"
@@ -36,50 +32,39 @@
         </CollectionViewSource>
     </UserControl.Resources>
 
-    <!-- Outer ScrollViewer owns all vertical scrolling for the window -->
-    <ScrollViewer x:Name="RootScroller"
-              VerticalScrollBarVisibility="Auto"
-              HorizontalScrollBarVisibility="Disabled">
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <!-- Main content area -->
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
+    <DockPanel LastChildFill="True">
 
-            <DockPanel Grid.Column="0" LastChildFill="True">
+        <!-- Top widget area -->
+        <ContentControl DockPanel.Dock="Top"
+                        MinHeight="80"
+                        Margin="8,8,8,4"
+                        Content="{Binding}"
+                        ContentTemplateSelector="{StaticResource WidgetSelector}"
+                        dd:DragDrop.IsDropTarget="True"
+                        dd:DragDrop.DropHandler="{Binding}"/>
 
-                <!-- Top placeholder content control -->
-                <ContentControl DockPanel.Dock="Top"
-                            MinHeight="80"
-                            Margin="8,8,8,4"
-                            Content="{Binding}"
-                            ContentTemplateSelector="{StaticResource WidgetSelector}">
-                </ContentControl>
+        <!-- Note tracks — owns horizontal scrolling only.                              -->
+        <!-- Vertical scrolling is intentionally NOT passed through; each NoteTrackView -->
+        <!-- owns its own vertical ScrollViewer.                                        -->
+        <ScrollViewer DockPanel.Dock="Bottom"
+                      HorizontalScrollBarVisibility="Auto"
+                      VerticalScrollBarVisibility="Disabled">
+            <ItemsControl
+                      ItemsSource="{Binding Source={StaticResource SortedNoteTracks}}"
+                      Margin="8,4,4,8"
+                      VirtualizingPanel.IsVirtualizing="False">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <local:NoteTrackView Width="360" Margin="0,0,8,0"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
 
-                <!-- Note tracks — horizontal, fixed width per track, horizontal scroll -->
-                <ScrollViewer DockPanel.Dock="Bottom"
-                              HorizontalScrollBarVisibility="Auto"
-                              VerticalScrollBarVisibility="Disabled"
-                              behaviors:ScrollPassthroughBehavior.Enabled="True">
-                    <ItemsControl
-                              ItemsSource="{Binding Source={StaticResource SortedNoteTracks}}"
-                              Margin="8,4,4,8"
-                              VirtualizingPanel.IsVirtualizing="False">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <StackPanel Orientation="Horizontal"/>
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate>
-                                <local:NoteTrackView Width="360" Margin="0,0,8,0"/>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                </ScrollViewer>
-            </DockPanel>
-
-            
-        </Grid>
-    </ScrollViewer>
+    </DockPanel>
 </UserControl>

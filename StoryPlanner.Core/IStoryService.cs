@@ -16,10 +16,10 @@ public interface IStoryService : IDisposable
     ObservableCollection<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; }
     ObservableCollection<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; }
     ObservableCollection<NarrativePropertyValue> NarrativePropertyValues { get; }
+    ObservableCollection<Theme> Themes { get; }
     ObservableCollection<SourceMaterial> SourceMaterials { get; }
     ObservableCollection<GeminiEntry> GeminiEntries { get; }
     ObservableCollection<Idea> Ideas { get; }
-    // Inside IStoryService.cs
 
     // --- State Properties ---
     string CurrentFilePath { get; }
@@ -30,6 +30,7 @@ public interface IStoryService : IDisposable
     Task OpenProjectAsync(string filePath);
     Task SaveAsync();
     Task StoreGeminiEntriesAsync(string file);
+    void DeleteNote(int noteId);
     string GetFullProjectJson();
     string GetAiContextJson(bool includeVerbatim);
     Task PurgeUnassignedNotesAsync();
