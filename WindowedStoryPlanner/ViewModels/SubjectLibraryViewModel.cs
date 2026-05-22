@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -68,12 +69,12 @@ public partial class SubjectLibraryViewModel : ObservableObject
     {
         // SubjectDefinitionId is stored directly on the group — no fragile string lookup needed
         var vm = await _factory.CreateSubjectAsync(group.SubjectDefinitionId);
-        _windowManager.OpenCommonWindow(vm);
+        _windowManager.OpenCommonWindow(EditorMode.Expansion, vm);
     }
 
     [RelayCommand]
     private void OpenSubject(SubjectViewModel subject) =>
-        _windowManager.OpenCommonWindow(subject);
+        _windowManager.OpenCommonWindow(EditorMode.Expansion, subject);
 
     [RelayCommand]
     private async Task DeleteSubject(SubjectViewModel subject)

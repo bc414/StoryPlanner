@@ -43,16 +43,14 @@
                         dd:DragDrop.IsDropTarget="True"
                         dd:DragDrop.DropHandler="{Binding}"/>
 
-        <!-- Note tracks — owns horizontal scrolling only.                              -->
-        <!-- Vertical scrolling is intentionally NOT passed through; each NoteTrackView -->
-        <!-- owns its own vertical ScrollViewer.                                        -->
-        <ScrollViewer DockPanel.Dock="Bottom"
+        <!-- Note tracks -->
+        <ScrollViewer x:Name="TrackScrollViewer"
+                      DockPanel.Dock="Bottom"
                       HorizontalScrollBarVisibility="Auto"
                       VerticalScrollBarVisibility="Disabled">
-            <ItemsControl
-                      ItemsSource="{Binding Source={StaticResource SortedNoteTracks}}"
-                      Margin="8,4,4,8"
-                      VirtualizingPanel.IsVirtualizing="False">
+            <ItemsControl ItemsSource="{Binding Source={StaticResource SortedNoteTracks}}"
+                          Margin="8,4,4,8"
+                          VirtualizingPanel.IsVirtualizing="False">
                 <ItemsControl.ItemsPanel>
                     <ItemsPanelTemplate>
                         <StackPanel Orientation="Horizontal"/>
@@ -60,7 +58,25 @@
                 </ItemsControl.ItemsPanel>
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
-                        <local:NoteTrackView Width="360" Margin="0,0,8,0"/>
+                        <local:NoteTrackView Margin="0,0,8,0">
+                            <local:NoteTrackView.Style>
+                                <Style TargetType="local:NoteTrackView">
+                                    <Setter Property="Width" Value="360"/>
+                                    <Style.Triggers>
+                                        <!-- Archive mode + first track: fill the viewport width -->
+                                        <MultiDataTrigger>
+                                            <MultiDataTrigger.Conditions>
+                                                <Condition Binding="{Binding AppSettings.IsArchiveMode}" Value="True"/>
+                                                <Condition Binding="{Binding IsFirstTrack}"             Value="True"/>
+                                            </MultiDataTrigger.Conditions>
+                                            <Setter Property="Width"
+                                                    Value="{Binding ViewportWidth,
+                                                            RelativeSource={RelativeSource AncestorType=ScrollViewer}}"/>
+                                        </MultiDataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </local:NoteTrackView.Style>
+                        </local:NoteTrackView>
                     </DataTemplate>
                 </ItemsControl.ItemTemplate>
             </ItemsControl>

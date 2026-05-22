@@ -46,10 +46,10 @@ namespace WindowedStoryPlanner.ViewModels
         private readonly IWindowManager _windowManager;
 
         [RelayCommand]
-        private void Open() => _windowManager.OpenCommonWindow(this);
+        private void Open() => _windowManager.OpenCommonWindow(EditorMode.Expansion, this);
 
-        public SubjectViewModel(Subject subject, IViewModelRegistry viewModelRegistry, IStoryService storyService, IContentFactory editorCoordinator, IWindowManager windowManager)
-            : base(viewModelRegistry, storyService, editorCoordinator)
+        public SubjectViewModel(Subject subject, IViewModelRegistry viewModelRegistry, IStoryService storyService, IContentFactory editorCoordinator, IWindowManager windowManager, AppSettings appSettings)
+            : base(viewModelRegistry, storyService, editorCoordinator, appSettings)
         {
             _subject = subject;
 

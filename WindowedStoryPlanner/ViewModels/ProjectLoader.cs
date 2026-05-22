@@ -13,6 +13,7 @@ public class ProjectLoader
     private readonly IViewModelRegistry         _registry;
     private readonly IContentFactory            _factory;
     private readonly IWindowManager             _windowManager;
+    private readonly AppSettings                 _appSettings;
     private readonly DefinitionsEditorViewModel _definitions;
     private readonly SubjectLibraryViewModel    _subjectLibrary;
     private readonly ThemeLibraryViewModel      _themeLibrary;
@@ -22,6 +23,7 @@ public class ProjectLoader
         IViewModelRegistry          registry,
         IContentFactory             factory,
         IWindowManager              windowManager,
+        AppSettings                 appSettings,
         DefinitionsEditorViewModel  definitions,
         SubjectLibraryViewModel     subjectLibrary,
         ThemeLibraryViewModel       themeLibrary)
@@ -30,6 +32,7 @@ public class ProjectLoader
         _registry       = registry;
         _factory        = factory;
         _windowManager  = windowManager;
+        _appSettings    = appSettings;
         _definitions    = definitions;
         _subjectLibrary = subjectLibrary;
         _themeLibrary   = themeLibrary;
@@ -61,19 +64,19 @@ public class ProjectLoader
         // --- Narrative elements ---
         foreach (var subject in _storyService.Subjects)
             _registry.AllSubjectViewModels.Add(
-                new SubjectViewModel(subject, _registry, _storyService, _factory, _windowManager));
+                new SubjectViewModel(subject, _registry, _storyService, _factory, _windowManager, _appSettings));
 
         foreach (var plotPoint in _storyService.PlotPoints)
             _registry.AllPlotPointViewModels.Add(
-                new PlotPointViewModel(plotPoint, _registry, _storyService, _factory, _windowManager));
+                new PlotPointViewModel(plotPoint, _registry, _storyService, _factory, _windowManager, _appSettings));
 
         foreach (var link in _storyService.PlotPointsSubjectLinks)
             _registry.AllPlotPointSubjectLinkViewModels.Add(
-                new PlotPointSubjectLinkViewModel(link, _registry, _storyService, _factory));
+                new PlotPointSubjectLinkViewModel(link, _registry, _storyService, _factory, _appSettings));
 
         foreach (var chapter in _storyService.Chapters)
             _registry.AllChapterViewModels.Add(
-                new ChapterViewModel(chapter, _registry, _storyService, _factory));
+                new ChapterViewModel(chapter, _registry, _storyService, _factory, _appSettings));
 
         foreach (var note in _storyService.Notes)
             _registry.AllNoteViewModels.Add(

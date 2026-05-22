@@ -49,15 +49,15 @@ namespace WindowedStoryPlanner.ViewModels
     : $"{_viewModelRegistry.AllChapterViewModels.FirstOrDefault(c => c.Id == ChapterId)?.OrderIndex.ToString() ?? "?"}.{OrderInChapter} ";
 
         [RelayCommand]
-        private void Open() => _windowManager.OpenCommonWindow(this);
+        private void Open() => _windowManager.OpenCommonWindow(EditorMode.Gardener, this);
 
         public PlotPointViewModel(
             PlotPoint plotPoint,
             IViewModelRegistry viewModelRegistry,
             IStoryService storyService,
             IContentFactory editorCoordinator,
-            IWindowManager windowManager)
-            : base(viewModelRegistry, storyService, editorCoordinator)
+            IWindowManager windowManager, AppSettings appSettings)
+            : base(viewModelRegistry, storyService, editorCoordinator, appSettings)
         {
             _plotPoint = plotPoint;
 

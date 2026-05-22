@@ -13,6 +13,7 @@
              PreviewKeyDown="NoteTrackSectionView_PreviewKeyDown">
 
     <UserControl.Resources>
+        <local:InverseBooleanConverter x:Key="InverseBoolConverter"/>
 
         <!-- Confirmed: solid green border brush -->
         <SolidColorBrush x:Key="ConfirmedBorderBrush" Color="#34A853"/>
@@ -99,6 +100,7 @@
             <!-- ── Note list ── -->
             <!-- ScrollPassthroughBehavior lets wheel events bypass the ListBox's internal  -->
             <!-- ScrollViewer and bubble up to NoteTrackView's ScrollViewer instead.        -->
+            <!-- IsDragSource/IsDropTarget are disabled when the section is readonly.       -->
             <ListBox DockPanel.Dock="Bottom"
                      ItemsSource="{Binding SectionNotes}"
                      SelectedItem="{Binding SelectedNote, Mode=TwoWay}"
@@ -110,7 +112,8 @@
                      behaviors:ScrollPassthroughBehavior.Enabled="True"
                      dd:DragDrop.IsDropTarget="True"
                      dd:DragDrop.DropHandler="{Binding}"
-                     dd:DragDrop.IsDragSource="True"
+                     dd:DragDrop.IsDragSource="{Binding IsReadOnly,
+                                               Converter={StaticResource InverseBoolConverter}}"
                      dd:DragDrop.UseDefaultDragAdorner="True"
                      dd:DragDrop.UseDefaultEffectDataTemplate="True">
 
@@ -137,15 +140,12 @@
                                         <ContentPresenter/>
                                     </Border>
                                     <ControlTemplate.Triggers>
-                                        <!-- Hover: subtle dark wash, visible but unobtrusive -->
                                         <Trigger Property="IsMouseOver" Value="True">
                                             <Setter Property="Background" Value="#18000000"/>
                                         </Trigger>
-                                        <!-- Selected: default WPF light blue -->
                                         <Trigger Property="IsSelected" Value="True">
                                             <Setter Property="Background" Value="#CCE8FF"/>
                                         </Trigger>
-                                        <!-- Selected + Hovered: slightly deeper blue — still reads as selected -->
                                         <MultiTrigger>
                                             <MultiTrigger.Conditions>
                                                 <Condition Property="IsSelected"  Value="True"/>

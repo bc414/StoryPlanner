@@ -39,30 +39,38 @@
                 <StackPanel Visibility="{Binding SupportsWorldDate, Converter={StaticResource BoolToVis}}"
                             Orientation="Horizontal" Margin="0,0,8,0">
                     <TextBlock Text="World Date: " VerticalAlignment="Center"/>
-                    <TextBox Text="{Binding WorldDate}" MinWidth="50" VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding WorldDate}"
+                             MinWidth="50"
+                             VerticalAlignment="Center"
+                             IsReadOnly="{Binding DataContext.IsReadOnly,
+                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"/>
                 </StackPanel>
 
                 <!-- Theme picker — only visible when the track supports themes -->
                 <StackPanel Orientation="Horizontal"
-            Visibility="{Binding SupportsTheme, Converter={StaticResource BoolToVis}}">
+                            Visibility="{Binding SupportsTheme, Converter={StaticResource BoolToVis}}">
                     <TextBlock Text="Theme: " VerticalAlignment="Center" FontSize="11" Foreground="#666"/>
                     <ComboBox ItemsSource="{Binding AvailableThemes}"
-              SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
-              DisplayMemberPath="Name"
-              MinWidth="100"
-              VerticalAlignment="Center"
-              FontSize="11"/>
+                              SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
+                              DisplayMemberPath="Name"
+                              MinWidth="100"
+                              VerticalAlignment="Center"
+                              FontSize="11"
+                              IsEnabled="{Binding DataContext.IsReadOnly,
+                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView},
+                                          Converter={StaticResource InverseBooleanConverter}}"/>
                     <Button Content="✕"
-                        Width="16" Height="16"
-                        Padding="0"
-                        FontSize="9"
-                        Margin="2,0,0,0"
-                        VerticalAlignment="Center"
-                        Background="Transparent"
-                        BorderThickness="0"
-                        Foreground="#999"
-                        ToolTip="Clear theme"
-                        Command="{Binding ClearThemeCommand}" Visibility="{Binding SelectedTheme, Converter={StaticResource NullToVis}}"/>
+                            Width="16" Height="16"
+                            Padding="0"
+                            FontSize="9"
+                            Margin="2,0,0,0"
+                            VerticalAlignment="Center"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Foreground="#999"
+                            ToolTip="Clear theme"
+                            Command="{Binding ClearThemeCommand}"
+                            Visibility="{Binding SelectedTheme, Converter={StaticResource NullToVis}}"/>
                 </StackPanel>
             </StackPanel>
 
@@ -71,10 +79,9 @@
                 <TextBlock Text="{Binding SortOrder, StringFormat={}{0}.}"/>
             </StackPanel>
 
-            <!-- ✕ delete button — only visible when content is empty -->
+            <!-- ✕ delete button — only visible when content is empty AND track is not readonly -->
             <Button DockPanel.Dock="Right"
                     Content="✕"
-                    Visibility="{Binding IsEmpty, Converter={StaticResource BoolToVis}}"
                     VerticalAlignment="Top"
                     Width="18" Height="18"
                     Padding="0"
@@ -88,6 +95,8 @@
                     CommandParameter="{Binding}">
                 <Button.Style>
                     <Style TargetType="Button">
+                        <Setter Property="Visibility"
+                                Value="{Binding IsEmpty, Converter={StaticResource BoolToVis}}"/>
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="Button">
@@ -103,10 +112,19 @@
                                 </ControlTemplate>
                             </Setter.Value>
                         </Setter>
+                        <!-- Readonly overrides the IsEmpty visibility — hide the button entirely -->
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding DataContext.IsReadOnly,
+                                         RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"
+                                         Value="True">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
                     </Style>
                 </Button.Style>
             </Button>
 
+            <!-- Flag reason box -->
             <StackPanel Visibility="{Binding IsFlagged, Converter={StaticResource BoolToVis}}"
                         Orientation="Vertical" DockPanel.Dock="Bottom" Margin="0,4,0,0">
                 <TextBlock Text="Flag Reason:" Margin="0,0,0,2" FontSize="11" Foreground="#9C3B2E"/>
@@ -115,20 +133,26 @@
                         Padding="4"
                         BorderBrush="{StaticResource FlagReasonBorderBrush}"
                         Background="{StaticResource FlagReasonBackgroundBrush}">
-                    <TextBox Text="{Binding FlagReason}" TextWrapping="Wrap"
+                    <TextBox Text="{Binding FlagReason}"
+                             TextWrapping="Wrap"
                              AcceptsReturn="True"
                              BorderThickness="0"
                              Background="Transparent"
-                             VerticalAlignment="Stretch"/>
+                             VerticalAlignment="Stretch"
+                             IsReadOnly="{Binding DataContext.IsReadOnly,
+                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"/>
                 </Border>
             </StackPanel>
 
+            <!-- Note content -->
             <TextBox Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}"
                      TextWrapping="Wrap"
                      AcceptsReturn="True"
                      BorderThickness="0"
                      Background="Transparent"
-                     VerticalAlignment="Stretch"/>
+                     VerticalAlignment="Stretch"
+                     IsReadOnly="{Binding DataContext.IsReadOnly,
+                                  RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"/>
         </DockPanel>
     </Border>
 </UserControl>

@@ -18,6 +18,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     private readonly NoteState _targetState;
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _viewModelRegistry;
+    private readonly NoteTrackViewModel _parentTrack;
 
     // Guard against re-entrant OnNoteMutated calls triggered by ReindexSection
     // writing SortOrder. If SortOrder ever raises NoteViewModelMutated in future,
@@ -40,13 +41,52 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             _viewModelRegistry.RaiseNoteSelected(value.Id);
     }
 
+    // ── Read-only state (mirrored from parent track) ──────────────────────
+
+    private bool _isReadOnly;
+    private bool _canPromoteToConfirmed;
+
+    /// <summary>Mirrors <see cref="NoteTrackViewModel.IsReadOnly"/>. All edits blocked when true.</summary>
+    public bool IsReadOnly
+    {
+        get => _isReadOnly;
+        private set
+        {
+            if (_isReadOnly == value) return;
+            _isReadOnly = value;
+            OnPropertyChanged();
+        }
+    }
+
+    /// <summary>Mirrors <see cref="NoteTrackViewModel.CanPromoteToConfirmed"/>. Guards Unset → Confirmed transitions.</summary>
+    public bool CanPromoteToConfirmed
+    {
+        get => _canPromoteToConfirmed;
+        private set
+        {
+            if (_canPromoteToConfirmed == value) return;
+            _canPromoteToConfirmed = value;
+            OnPropertyChanged();
+        }
+    }
+
+    /// <summary>Called by the parent track when <see cref="NoteTrackViewModel.TrackDisplayMode"/> changes.</summary>
+    public void RefreshReadonlyState()
+    {
+        IsReadOnly           = _parentTrack.IsReadOnly;
+        CanPromoteToConfirmed = _parentTrack.CanPromoteToConfirmed;
+    }
+
+    // ── Constructor ───────────────────────────────────────────────────────
+
     public NoteTrackSectionViewModel(
         int ownerId,
         OwnerType ownerType,
         NoteTrackDefinition definition,
         NoteState targetState,
         IViewModelRegistry viewModelRegistry,
-        IStoryService storyService)
+        IStoryService storyService,
+        NoteTrackViewModel parentTrack)
     {
         _ownerId           = ownerId;
         _ownerType         = ownerType;
@@ -54,6 +94,11 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _targetState       = targetState;
         _storyService      = storyService;
         _viewModelRegistry = viewModelRegistry;
+        _parentTrack       = parentTrack;
+
+        // Seed from parent so initial state is correct even before first mode change
+        _isReadOnly            = parentTrack.IsReadOnly;
+        _canPromoteToConfirmed = parentTrack.CanPromoteToConfirmed;
 
         _cvs = new CollectionViewSource { Source = viewModelRegistry.AllNoteViewModels };
         SectionNotes = _cvs.View;
@@ -71,6 +116,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _viewModelRegistry.NoteSelected         -= OnNoteSelected;
     }
 
+    // ── Internal registry events ──────────────────────────────────────────
+
     // Clear this section's selection when another section anywhere in the
     // application has selected a different note.
     private void OnNoteSelected(int noteId)
@@ -83,7 +130,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     {
         // Guard: ReindexSection writes SortOrder on NoteViewModels. If SortOrder
         // is ever wired to raise NoteViewModelMutated, this prevents re-entrant
-        // calls cascading back into here infinitely.
+        // calls cascading back here infinitely.
         if (_isReindexing) return;
 
         SectionNotes.Refresh();
@@ -115,12 +162,14 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
                 : note.NoteTrackDefinitionId == _definition.Id);
     }
 
+    // ── Reorder commands ──────────────────────────────────────────────────
+
     [RelayCommand]
     private void MoveNoteUp()
     {
-        if (SelectedNote is null) return;
+        if (IsReadOnly || SelectedNote is null) return;
 
-        var note  = SelectedNote; // capture before Refresh() can clear the binding
+        var note  = SelectedNote;
         var notes = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
         int index = notes.IndexOf(note);
         if (index <= 0) return;
@@ -129,15 +178,15 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         notes.Insert(index - 1, note);
 
         ReindexSection(notes);
-        _viewModelRegistry.RaiseNoteMutated(note.Id); // triggers Refresh() synchronously
-        SelectedNote = note;                           // re-assert after refresh clears it
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        SelectedNote = note;
         _ = _storyService.SaveAsync();
     }
 
     [RelayCommand]
     private void MoveNoteDown()
     {
-        if (SelectedNote is null) return;
+        if (IsReadOnly || SelectedNote is null) return;
 
         var note  = SelectedNote;
         var notes = SectionNotes.Cast<NoteViewModel>().OrderBy(n => n.SortOrder).ToList();
@@ -153,10 +202,24 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _ = _storyService.SaveAsync();
     }
 
+    // ── Drag-drop ─────────────────────────────────────────────────────────
+
     public void DragOver(IDropInfo dropInfo)
     {
+        if (IsReadOnly)
+        {
+            dropInfo.Effects = System.Windows.DragDropEffects.None;
+            return;
+        }
+
         if (dropInfo.Data is NoteViewModel)
         {
+            // Block drops into Confirmed unless in Audit mode
+            if (_targetState == NoteState.Confirmed && !CanPromoteToConfirmed)
+            {
+                dropInfo.Effects = System.Windows.DragDropEffects.None;
+                return;
+            }
             dropInfo.DropTargetAdorner = DropTargetAdorners.Insert;
             dropInfo.Effects = System.Windows.DragDropEffects.Move;
         }
@@ -168,7 +231,9 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
     public void Drop(IDropInfo dropInfo)
     {
+        if (IsReadOnly) return;
         if (dropInfo.Data is not NoteViewModel note) return;
+        if (_targetState == NoteState.Confirmed && !CanPromoteToConfirmed) return;
 
         var sectionNotes = SectionNotes
             .Cast<NoteViewModel>()
@@ -198,28 +263,18 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _ = _storyService.SaveAsync();
     }
 
-    // ── Helpers ──────────────────────────────────────────────────────────
-
-    /// <summary>
-    /// Assigns contiguous 1-based SortOrder values to the supplied ordered list.
-    /// Call this after any operation that changes note ordering within a section.
-    /// </summary>
-    private static void ReindexSection(List<NoteViewModel> orderedNotes)
-    {
-        for (int i = 0; i < orderedNotes.Count; i++)
-            orderedNotes[i].SortOrder = (i + 1);
-    }
+    // ── State-change commands ─────────────────────────────────────────────
 
     [RelayCommand]
     private void PromoteNote()
     {
-        if (SelectedNote is null) return;
+        if (IsReadOnly || SelectedNote is null) return;
 
         SelectedNote.NoteState = SelectedNote.NoteState switch
         {
-            NoteState.Flagged => NoteState.Unset,
-            NoteState.Unset   => NoteState.Confirmed,
-            _                 => SelectedNote.NoteState
+            NoteState.Flagged                                  => NoteState.Unset,
+            NoteState.Unset when CanPromoteToConfirmed         => NoteState.Confirmed,
+            _                                                  => SelectedNote.NoteState,
         };
 
         _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
@@ -229,13 +284,13 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     [RelayCommand]
     private void DemoteNote()
     {
-        if (SelectedNote is null) return;
+        if (IsReadOnly || SelectedNote is null) return;
 
         SelectedNote.NoteState = SelectedNote.NoteState switch
         {
             NoteState.Confirmed => NoteState.Unset,
             NoteState.Unset     => NoteState.Flagged,
-            _                   => SelectedNote.NoteState
+            _                   => SelectedNote.NoteState,
         };
 
         _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
@@ -249,14 +304,15 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     [RelayCommand]
     private void ToggleConfirmed()
     {
-        if (SelectedNote is null) return;
+        if (IsReadOnly || SelectedNote is null) return;
         var note = SelectedNote;
 
+        // Unset → Confirmed only in Audit mode
         var newState = note.NoteState switch
         {
-            NoteState.Confirmed => NoteState.Unset,
-            NoteState.Unset     => NoteState.Confirmed,
-            _                   => note.NoteState
+            NoteState.Confirmed                        => NoteState.Unset,
+            NoteState.Unset when CanPromoteToConfirmed => NoteState.Confirmed,
+            _                                          => note.NoteState,
         };
 
         if (newState != note.NoteState)
@@ -273,14 +329,14 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     [RelayCommand]
     private void ToggleFlagged()
     {
-        if (SelectedNote is null) return;
+        if (IsReadOnly || SelectedNote is null) return;
         var note = SelectedNote;
 
         var newState = note.NoteState switch
         {
             NoteState.Flagged => NoteState.Unset,
             NoteState.Unset   => NoteState.Flagged,
-            _                 => note.NoteState
+            _                 => note.NoteState,
         };
 
         if (newState != note.NoteState)
@@ -294,15 +350,31 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             SelectionTransferRequested?.Invoke(note);
     }
 
-    // Sets the note's SortOrder to one past the current maximum in the destination
-    // section so it arrives at the end rather than being sorted by its stale order.
-    // Must be called before NoteState is changed so the destination filter still
-    // excludes the note when computing the max.
+    [RelayCommand]
+    private void DeleteNote(NoteViewModel note)
+    {
+        if (IsReadOnly || note is null) return;
+
+        if (SelectedNote?.Id == note.Id)
+            SelectedNote = null;
+
+        _viewModelRegistry.AllNoteViewModels.Remove(note);
+
+        _storyService.DeleteNote(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _ = _storyService.SaveAsync();
+    }
+
+    // ── Helpers ───────────────────────────────────────────────────────────
+
+    private static void ReindexSection(List<NoteViewModel> orderedNotes)
+    {
+        for (int i = 0; i < orderedNotes.Count; i++)
+            orderedNotes[i].SortOrder = (i + 1);
+    }
+
     private void PlaceAtEndOfSection(NoteViewModel note, NoteState destinationState)
     {
-        // Find the sibling section VM for the destination state via the registry —
-        // filter the same AllNoteViewModels source directly to avoid depending on
-        // the parent track VM from here.
         int max = _viewModelRegistry.AllNoteViewModels
             .Where(n => n.OwnerId   == _ownerId
                      && n.OwnerType == _ownerType
@@ -314,24 +386,5 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             .Max();
 
         note.SortOrder = max + 1;
-    }
-
-    [RelayCommand]
-    private void DeleteNote(NoteViewModel note)
-    {
-        if (note is null) return;
-
-        // Clear selection if this note was selected so _selectedNote
-        // in CommonWindow doesn't hold a dangling reference.
-        if (SelectedNote?.Id == note.Id)
-            SelectedNote = null;
-
-        // Remove from the registry's AllNoteViewModels so it's filtered out
-        // when SectionNotes.Refresh() is called below.
-        _viewModelRegistry.AllNoteViewModels.Remove(note);
-
-        _storyService.DeleteNote(note.Id);
-        _viewModelRegistry.RaiseNoteMutated(note.Id);
-        _ = _storyService.SaveAsync();
     }
 }

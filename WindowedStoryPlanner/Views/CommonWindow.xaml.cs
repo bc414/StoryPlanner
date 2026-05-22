@@ -1,365 +1,318 @@
 ﻿using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using WindowedStoryPlanner.ViewModels;
 
-namespace WindowedStoryPlanner.Views
+namespace WindowedStoryPlanner.Views;
+
+public partial class CommonWindow : Window
 {
-    public partial class CommonWindow : Window
+    // ── Injected dependencies ─────────────────────────────────────────────
+
+    private readonly IViewModelRegistry _registry;
+    private readonly IContentFactory _editorCoordinator;
+    private readonly IStoryService _storyService;
+    private readonly AppSettings _appSettings;
+
+    // ── Mode state ────────────────────────────────────────────────────────
+
+    private EditorMode _currentMode;
+
+    /// <summary>The subject anchor. Set in Expansion/Linking; resolved when transitioning Gardener → Linking.</summary>
+    private SubjectViewModel? _subjectElement;
+
+    /// <summary>The plot point anchor. Set in Gardener; resolved when transitioning Linking → Gardener.</summary>
+    private PlotPointViewModel? _plotPointElement;
+
+    /// <summary>The currently selected link. Non-null when a link card is selected in Linking or Gardener.</summary>
+    private PlotPointSubjectLinkViewModel? _selectedLink;
+
+    // ── Properties ─────────────────────────────────────────────────────────
+
+    public AppSettings AppSettings => _appSettings;
+
+    // ── Constructor ───────────────────────────────────────────────────────
+
+    /// <param name="initialMode">
+    ///   Must be <see cref="EditorMode.Expansion"/> or <see cref="EditorMode.Linking"/> when
+    ///   <paramref name="primaryElement"/> is a <see cref="SubjectViewModel"/>, 
+    ///   or <see cref="EditorMode.Gardener"/> when it is a <see cref="PlotPointViewModel"/>.
+    /// </param>
+    /// <param name="primaryElement">The subject or plot point that anchors this window.</param>
+    /// <param name="initialLink">Optional link to pre-select on open.</param>
+    public CommonWindow(
+        IViewModelRegistry registry,
+        IContentFactory editorCoordinator,
+        IStoryService storyService,
+        AppSettings appSettings,
+        EditorMode initialMode,
+        NarrativeElementViewModel primaryElement,
+        PlotPointSubjectLinkViewModel? initialLink = null)
     {
-        // ── Injected dependencies ─────────────────────────────────────────────
+        _registry          = registry;
+        _editorCoordinator = editorCoordinator;
+        _storyService      = storyService;
+        _appSettings        = appSettings;
+        _currentMode       = initialMode;
 
-        private readonly IViewModelRegistry _registry;
-        private readonly IContentFactory _editorCoordinator;
-        private readonly IStoryService _storyService;
+        DataContext = this;
+        InitializeComponent();
 
-        // ── State ─────────────────────────────────────────────────────────────
-
-        private NarrativeElementViewModel? _mainElement;
-        private NarrativeElementViewModel? _secondaryElement;
-        private bool _isSubjectMode;
-
-        public PlotPointSubjectLinkViewModel? SelectedLink { get; private set; }
-
-        // ── Derived layout helpers ────────────────────────────────────────────
-
-        private NarrativeElementViewModel? LeftElement =>
-            _isSubjectMode ? _mainElement : _secondaryElement;
-
-        private NarrativeElementViewModel? RightElement =>
-            _isSubjectMode ? _secondaryElement : _mainElement;
-
-        // ── Constructor ───────────────────────────────────────────────────────
-
-        /// <param name="initialElement">
-        ///   Must be a <see cref="SubjectViewModel"/> or <see cref="PlotPointViewModel"/>.
-        ///   Determines layout mode and is shown immediately on open.
-        /// </param>
-        /// <param name="initialLink">
-        ///   Optional link to select on open, restoring a previous context
-        ///   (e.g. when spawning a new window from a middle-click).
-        /// </param>
-        public CommonWindow(
-            IViewModelRegistry registry,
-            IContentFactory editorCoordinator,
-            IStoryService storyService,
-            NarrativeElementViewModel initialElement,
-            PlotPointSubjectLinkViewModel? initialLink = null)
+        switch (initialMode)
         {
-            _registry          = registry;
-            _editorCoordinator = editorCoordinator;
-            _storyService      = storyService;
-            _isSubjectMode     = initialElement is SubjectViewModel;
+            case EditorMode.Expansion:
+            case EditorMode.Linking:
+                _subjectElement = (SubjectViewModel)primaryElement;
+                _subjectElement.OnWindowOpened();
+                Title = $"Subject — {_subjectElement.Name}";
+                break;
 
-            DataContext = this;
-            InitializeComponent();
+            case EditorMode.Gardener:
+                _plotPointElement = (PlotPointViewModel)primaryElement;
+                _plotPointElement.OnWindowOpened();
+                Title = $"Plot Point — {_plotPointElement.Title}";
+                break;
+        }
 
-            // Capture note selections from any ListBox in the window by type —
-            // NoteViewModel items only appear in note section ListBoxes.
-            AddHandler(Selector.SelectionChangedEvent,
-                new SelectionChangedEventHandler(OnAnySelectionChanged));
+        if (initialLink is not null)
+        {
+            _selectedLink = initialLink;
+            _selectedLink.OnWindowOpened();
+        }
 
-            _mainElement = initialElement;
-            _mainElement.OnWindowOpened();
-            Title = TitleFor(_mainElement);
+        UpdateLayout();
+        _registry.LinksInvalidated += UpdateLayout;
+    }
 
-            if (initialLink is not null)
-            {
-                SelectedLink = initialLink;
-                RefreshSecondaryElement();
-            }
+    protected override void OnClosed(EventArgs e)
+    {
+        _registry.LinksInvalidated -= UpdateLayout;
+        _subjectElement?.OnWindowClosed();
+        _plotPointElement?.OnWindowClosed();
+        _selectedLink?.OnWindowClosed();
+        base.OnClosed(e);
+    }
 
+    // ── Mode button clicks ────────────────────────────────────────────────
+
+    private void ExpansionMode_Click(object sender, RoutedEventArgs e) => SwitchToExpansion();
+    private void LinkingMode_Click(object sender, RoutedEventArgs e)   => SwitchToLinking();
+    private void GardenerMode_Click(object sender, RoutedEventArgs e)  => SwitchToGardener();
+
+    private void SwitchToExpansion()
+    {
+        // Reachable only from Linking — close the selected link and hide the panels
+        _selectedLink?.OnWindowClosed();
+        _selectedLink = null;
+        _currentMode  = EditorMode.Expansion;
+        UpdateLayout();
+    }
+
+    private void SwitchToLinking()
+    {
+        if (_currentMode == EditorMode.Expansion)
+        {
+            // Subject already open — just surface the link panel
+            _currentMode = EditorMode.Linking;
             UpdateLayout();
-            _registry.LinksInvalidated += UpdateLayout;
+            return;
         }
 
-        protected override void OnClosed(EventArgs e)
+        if (_currentMode == EditorMode.Gardener && _selectedLink is not null)
         {
-            _registry.LinksInvalidated -= UpdateLayout;
-            _mainElement?.OnWindowClosed();
-            _secondaryElement?.OnWindowClosed();
-            base.OnClosed(e);
-        }
-
-        // ── Note selection (routed from any section ListBox in the tree) ──────
-
-        private NoteViewModel? _selectedNote;
-
-        private void OnAnySelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            if (e.AddedItems.Count > 0 && e.AddedItems[0] is NoteViewModel note)
-                _selectedNote = note;
-            else if (e.RemovedItems.Count > 0 && e.RemovedItems[0] is NoteViewModel)
-                _selectedNote = null;
-        }
-
-        // ── Nav button event handlers ─────────────────────────────────────────
-
-        private void NavigateLeft_Click(object sender, RoutedEventArgs e)
-        {
-            if (SelectedLink is null || _isSubjectMode) return;
-
             var subject = _registry.AllSubjectViewModels
-                .FirstOrDefault(s => s.Id == SelectedLink.SubjectId);
+                .FirstOrDefault(s => s.Id == _selectedLink.SubjectId);
             if (subject is null) return;
 
-            PivotToElement(subject, newIsSubjectMode: true);
-        }
+            _subjectElement = subject;
+            _subjectElement.OnWindowOpened();
 
-        private void NavigateRight_Click(object sender, RoutedEventArgs e)
-        {
-            if (SelectedLink is null || !_isSubjectMode) return;
+            _plotPointElement?.OnWindowClosed();
+            _plotPointElement = null;
 
-            var plotPoint = _registry.AllPlotPointViewModels
-                .FirstOrDefault(pp => pp.Id == SelectedLink.PlotPointId);
-            if (plotPoint is null) return;
-
-            PivotToElement(plotPoint, newIsSubjectMode: false);
-        }
-
-        private void NavigateLeft_PreviewMouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Middle)
-            {
-                OpenLeftInNewWindow();
-                e.Handled = true;
-            }
-        }
-
-        private void NavigateRight_PreviewMouseDown(object sender, MouseButtonEventArgs e)
-        {
-            if (e.ChangedButton == MouseButton.Middle)
-            {
-                OpenRightInNewWindow();
-                e.Handled = true;
-            }
-        }
-
-        // ── Card selection ────────────────────────────────────────────────────
-
-        private void LinkCards_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            SelectedLink = LinkCardsListBox.SelectedItem as PlotPointSubjectLinkViewModel;
-            RefreshSecondaryElement();
+            Title        = $"Subject — {_subjectElement.Name}";
+            _currentMode = EditorMode.Linking;
             UpdateLayout();
         }
+    }
 
-        // ── Open in new window (middle-click, accumulative) ───────────────────
+    private void SwitchToGardener()
+    {
+        if (_currentMode != EditorMode.Linking || _selectedLink is null) return;
 
-        private void OpenLeftInNewWindow()
+        var plotPoint = _registry.AllPlotPointViewModels
+            .FirstOrDefault(pp => pp.Id == _selectedLink.PlotPointId);
+        if (plotPoint is null) return;
+
+        _plotPointElement = plotPoint;
+        _plotPointElement.OnWindowOpened();
+
+        _subjectElement?.OnWindowClosed();
+        _subjectElement = null;
+
+        Title        = $"Plot Point — {_plotPointElement.Title}";
+        _currentMode = EditorMode.Gardener;
+        UpdateLayout();
+    }
+
+    // ── Link card selection ───────────────────────────────────────────────
+
+    private void LinkCards_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+        var newLink = LinkCardsListBox.SelectedItem as PlotPointSubjectLinkViewModel;
+        if (newLink == _selectedLink) return;
+
+        _selectedLink?.OnWindowClosed();
+        _selectedLink = newLink;
+        _selectedLink?.OnWindowOpened();
+
+        UpdateLayout();
+    }
+
+    // ── Clear selected link (X button) ───────────────────────────────────
+
+    private void ClearSelectedLink_Click(object sender, RoutedEventArgs e)
+    {
+        if (_selectedLink is null) return;
+
+        // Close the selected link and clear the selection
+        _selectedLink.OnWindowClosed();
+        _selectedLink = null;
+
+        UpdateLayout();
+
+        e.Handled = true;
+    }
+
+    // ── Middle-click: open in new window ──────────────────────────────────
+
+    private void ExpansionModeButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+    {
+        if (e.ChangedButton != MouseButton.Middle || _subjectElement is null) return;
+
+        new CommonWindow(_registry, _editorCoordinator, _storyService, AppSettings,
+            EditorMode.Expansion, _subjectElement)
+            .Show();
+        e.Handled = true;
+    }
+
+    private void GardenerModeButton_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+    {
+        if (e.ChangedButton != MouseButton.Middle) return;
+
+        // In Linking with a link selected: resolve the plot point from the link
+        PlotPointViewModel? plotPoint = _plotPointElement;
+        if (plotPoint is null && _selectedLink is not null)
+            plotPoint = _registry.AllPlotPointViewModels
+                .FirstOrDefault(pp => pp.Id == _selectedLink.PlotPointId);
+
+        if (plotPoint is null) return;
+
+        new CommonWindow(_registry, _editorCoordinator, _storyService, AppSettings,
+            EditorMode.Gardener, plotPoint, _selectedLink)
+            .Show();
+        e.Handled = true;
+    }
+
+    // ── Layout ────────────────────────────────────────────────────────────
+
+    private new void UpdateLayout()
+    {
+        NarrativeElementViewModel? leftElement  = null;
+        NarrativeElementViewModel? rightElement = null;
+        bool showMiddle = false;
+
+        switch (_currentMode)
         {
-            if (LeftElement is null || SelectedLink is null || _isSubjectMode) return;
+            case EditorMode.Expansion:
+                leftElement  = _subjectElement;
+                rightElement = null;
+                showMiddle   = false;
+                _subjectElement?.SetTrackDisplayMode(TrackDisplayMode.Active);
+                break;
 
-            var subject = _registry.AllSubjectViewModels
-                .FirstOrDefault(s => s.Id == SelectedLink.SubjectId);
-            if (subject is null) return;
+            case EditorMode.Linking:
+                leftElement  = _subjectElement;
+                rightElement = _selectedLink;
+                showMiddle   = true;
+                _subjectElement?.SetTrackDisplayMode(TrackDisplayMode.Reference);
+                _selectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
+                break;
 
-            new CommonWindow(_registry, _editorCoordinator, _storyService, subject, SelectedLink)
-                .Show();
+            case EditorMode.Gardener:
+                leftElement  = _selectedLink;
+                rightElement = _plotPointElement;
+                showMiddle   = true;
+                _selectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
+                _plotPointElement?.SetTrackDisplayMode(TrackDisplayMode.Active);
+                break;
         }
 
-        private void OpenRightInNewWindow()
+        // Panels
+        LeftPanel.Content    = leftElement;
+        LeftPanel.Visibility = leftElement  is not null ? Visibility.Visible : Visibility.Collapsed;
+
+        RightPanel.Content    = rightElement;
+        RightPanel.Visibility = rightElement is not null ? Visibility.Visible : Visibility.Collapsed;
+
+        LinkPanelBorder.Visibility = showMiddle ? Visibility.Visible : Visibility.Collapsed;
+
+        // Column widths — secondary (Reference/link) panel gets 1*, primary gets 2*
+        var leftCol  = ContentGrid.ColumnDefinitions[0];
+        var rightCol = ContentGrid.ColumnDefinitions[2];
+
+        bool leftVisible  = leftElement  is not null;
+        bool rightVisible = rightElement is not null;
+
+        if (leftVisible && rightVisible)
         {
-            if (RightElement is null || SelectedLink is null || !_isSubjectMode) return;
-
-            var plotPoint = _registry.AllPlotPointViewModels
-                .FirstOrDefault(pp => pp.Id == SelectedLink.PlotPointId);
-            if (plotPoint is null) return;
-
-            new CommonWindow(_registry, _editorCoordinator, _storyService, plotPoint, SelectedLink)
-                .Show();
+            // In both Linking and Gardener the right panel is primary
+            leftCol.Width  = new GridLength(1, GridUnitType.Star);
+            rightCol.Width = new GridLength(2, GridUnitType.Star);
+        }
+        else
+        {
+            leftCol.Width  = leftVisible  ? new GridLength(1, GridUnitType.Star) : new GridLength(0);
+            rightCol.Width = rightVisible ? new GridLength(1, GridUnitType.Star) : new GridLength(0);
         }
 
-        // ── F-key assignment ──────────────────────────────────────────────────
+        // Link list
+        LinkCardsListBox.ItemsSource = GetSortedLinks().ToList();
 
-        private static void AssignFunctionKeys(
-            NarrativeElementViewModel? leftElement,
-            NarrativeElementViewModel? rightElement)
-        {
-            AssignRange(leftElement,  startKey: 1);
-            AssignRange(rightElement, startKey: 7);
-        }
+        LinkCardsListBox.SelectionChanged -= LinkCards_SelectionChanged;
+        LinkCardsListBox.SelectedItem      = _selectedLink;
+        LinkCardsListBox.SelectionChanged += LinkCards_SelectionChanged;
 
-        private static void AssignRange(NarrativeElementViewModel? element, int startKey)
-        {
-            if (element is null) return;
+        // Mode buttons — Tag="Active" marks the selected mode; IsEnabled gates valid transitions
+        ExpansionModeButton.Tag = _currentMode == EditorMode.Expansion ? "Active" : null;
+        LinkingModeButton.Tag   = _currentMode == EditorMode.Linking   ? "Active" : null;
+        GardenerModeButton.Tag  = _currentMode == EditorMode.Gardener  ? "Active" : null;
 
-            var ordered = element.NoteTracks
-                .OrderBy(t => t.DisplayOrder)
-                .ToList();
+        ExpansionModeButton.IsEnabled = _currentMode == EditorMode.Linking;
+        LinkingModeButton.IsEnabled   = _currentMode != EditorMode.Linking;
+        GardenerModeButton.IsEnabled  = _currentMode == EditorMode.Linking && _selectedLink is not null;
+    }
 
-            for (int i = 0; i < ordered.Count; i++)
-            {
-                int keyNumber = startKey + i;
-                ordered[i].AssignedFunctionKey = keyNumber <= startKey + 5 ? keyNumber : null;
-            }
-        }
+    private IEnumerable<PlotPointSubjectLinkViewModel> GetSortedLinks()
+    {
+        if ((_currentMode == EditorMode.Expansion || _currentMode == EditorMode.Linking)
+            && _subjectElement is not null)
+            return _registry.AllPlotPointSubjectLinkViewModels
+                .Where(l => l.SubjectId == _subjectElement.Id)
+                .OrderBy(l => l.ChapterOrderIndex)
+                .ThenBy(l => l.PlotPointOrderInChapter);
 
-        // ── Window-level F-key handling ───────────────────────────────────────
+        if (_currentMode == EditorMode.Gardener && _plotPointElement is not null)
+            return _registry.AllPlotPointSubjectLinkViewModels
+                .Where(l => l.PlotPointId == _plotPointElement.Id)
+                .OrderBy(l => l.SubjectTypeName)
+                .ThenBy(l => l.SubjectName, StringComparer.CurrentCultureIgnoreCase);
 
-        private void CommonWindow_PreviewKeyDown(object sender, KeyEventArgs e)
-        {
-            int? fNumber = e.Key switch
-            {
-                Key.F1  => 1,  Key.F2  => 2,  Key.F3  => 3,  Key.F4  => 4,
-                Key.F5  => 5,  Key.F6  => 6,  Key.F7  => 7,  Key.F8  => 8,
-                Key.F9  => 9,  Key.F10 => 10, Key.F11 => 11, Key.F12 => 12,
-                _ => null
-            };
-
-            if (fNumber is null || _selectedNote is null) return;
-
-            var allTracks = (LeftElement?.NoteTracks  ?? Enumerable.Empty<NoteTrackViewModel>())
-                .Concat(RightElement?.NoteTracks ?? Enumerable.Empty<NoteTrackViewModel>());
-
-            var target = allTracks.FirstOrDefault(t => t.AssignedFunctionKey == fNumber);
-            if (target is null) return;
-
-            MoveNoteToTrack(_selectedNote, target);
-            e.Handled = true;
-        }
-
-        private void MoveNoteToTrack(NoteViewModel note, NoteTrackViewModel targetTrack)
-        {
-            var unsetSection = targetTrack.Sections
-                .FirstOrDefault(s => s.TargetState == NoteState.Unset);
-
-            int maxOrder = unsetSection?.SectionNotes
-                .Cast<NoteViewModel>()
-                .Select(n => n.SortOrder)
-                .DefaultIfEmpty(0)
-                .Max() ?? 0;
-
-            note.OwnerId               = targetTrack.OwnerId;
-            note.OwnerType             = targetTrack.OwnerType;
-            note.NoteTrackDefinitionId = targetTrack.Definition.Id == UnassignedTrack.Definition.Id
-                                            ? null
-                                            : targetTrack.Definition.Id;
-            note.NoteState             = NoteState.Unset;
-            note.SortOrder             = maxOrder + 1;
-
-            _registry.RaiseNoteMutated(note.Id);
-
-            // Selection follows the note to its new section so _selectedNote
-            // stays current and subsequent hotkeys act on the right note.
-            if (unsetSection is not null)
-                unsetSection.SelectedNote = note;
-
-            _ = _storyService.SaveAsync();
-        }
-
-        // ── Private helpers ───────────────────────────────────────────────────
-
-        /// <summary>
-        /// Pivots the window so <paramref name="newMain"/> becomes the main element
-        /// while the current main slides to secondary. The selected link is preserved.
-        /// Used by nav buttons — the constructor handles initial setup.
-        /// </summary>
-        private void PivotToElement(NarrativeElementViewModel newMain, bool newIsSubjectMode)
-        {
-            _mainElement?.OnWindowClosed();
-
-            _mainElement   = newMain;
-            _isSubjectMode = newIsSubjectMode;
-
-            Title = TitleFor(_mainElement);
-
-            _mainElement.OnWindowOpened();
-
-            RefreshSecondaryElement();
-            UpdateLayout();
-        }
-
-        private void RefreshSecondaryElement()
-        {
-            _secondaryElement?.OnWindowClosed();
-            _secondaryElement = null;
-
-            if (SelectedLink is null) return;
-
-            _secondaryElement = SelectedLink;
-            _secondaryElement.OnWindowOpened();
-        }
-
-        private new void UpdateLayout()
-        {
-            LeftPanel.Content    = LeftElement;
-            LeftPanel.Visibility = LeftElement  is not null ? Visibility.Visible : Visibility.Collapsed;
-
-            RightPanel.Content    = RightElement;
-            RightPanel.Visibility = RightElement is not null ? Visibility.Visible : Visibility.Collapsed;
-
-            // Resize columns: collapse inactive side to 0; give primary 2× width when both visible
-            var leftCol  = ContentGrid.ColumnDefinitions[0];
-            var rightCol = ContentGrid.ColumnDefinitions[2];
-
-            bool leftVisible  = LeftElement  is not null;
-            bool rightVisible = RightElement is not null;
-            // In subject mode the subject (main) is on the left; in plot-point mode it is on the right
-            bool primaryIsLeft = _isSubjectMode;
-
-            if (leftVisible && rightVisible)
-            {
-                leftCol.Width  = primaryIsLeft
-                    ? new GridLength(2, GridUnitType.Star)
-                    : new GridLength(1, GridUnitType.Star);
-                rightCol.Width = primaryIsLeft
-                    ? new GridLength(1, GridUnitType.Star)
-                    : new GridLength(2, GridUnitType.Star);
-            }
-            else
-            {
-                leftCol.Width  = leftVisible  ? new GridLength(1, GridUnitType.Star) : new GridLength(0);
-                rightCol.Width = rightVisible ? new GridLength(1, GridUnitType.Star) : new GridLength(0);
-            }
-
-            AssignFunctionKeys(LeftElement, RightElement);
-
-            LinkCardsListBox.ItemsSource = GetSortedLinks().ToList();
-
-            LinkCardsListBox.SelectionChanged -= LinkCards_SelectionChanged;
-            LinkCardsListBox.SelectedItem      = SelectedLink;
-            LinkCardsListBox.SelectionChanged += LinkCards_SelectionChanged;
-
-            NavigateLeftButton.IsEnabled  = !_isSubjectMode && SelectedLink is not null;
-            NavigateRightButton.IsEnabled =  _isSubjectMode && SelectedLink is not null;
-            DeselectLinkButton.IsEnabled  = SelectedLink is not null;
-        }
-
-        private IEnumerable<PlotPointSubjectLinkViewModel> GetSortedLinks()
-        {
-            if (_isSubjectMode && _mainElement is SubjectViewModel subject)
-                return _registry.AllPlotPointSubjectLinkViewModels
-                    .Where(l => l.SubjectId == subject.Id)
-                    .OrderBy(l => l.ChapterOrderIndex)
-                    .ThenBy(l => l.PlotPointOrderInChapter);
-
-            if (!_isSubjectMode && _mainElement is PlotPointViewModel plotPoint)
-                return _registry.AllPlotPointSubjectLinkViewModels
-                    .Where(l => l.PlotPointId == plotPoint.Id)
-                    .OrderBy(l => l.SubjectTypeName)
-                    .ThenBy(l => l.SubjectName, StringComparer.CurrentCultureIgnoreCase);
-
-            return Enumerable.Empty<PlotPointSubjectLinkViewModel>();
-        }
-
-        private static string TitleFor(NarrativeElementViewModel? vm) => vm switch
-        {
-            SubjectViewModel s    => $"Subject — {s.Name}",
-            PlotPointViewModel pp => $"Plot Point — {pp.Title}",
-            _                     => "Story Planner"
-        };
-
-        private void DeselectLink_Click(object sender, RoutedEventArgs e)
-        {
-            SelectedLink = null;
-            _secondaryElement?.OnWindowClosed();
-            _secondaryElement = null;
-            UpdateLayout();
-        }
+        return Enumerable.Empty<PlotPointSubjectLinkViewModel>();
     }
 }

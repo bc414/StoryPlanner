@@ -24,8 +24,9 @@ public partial class ChapterViewModel : NarrativeElementViewModel
         Chapter chapter,
         IViewModelRegistry viewModelRegistry,
         IStoryService storyService,
-        IContentFactory editorCoordinator)
-        : base(viewModelRegistry, storyService, editorCoordinator)
+        IContentFactory editorCoordinator,
+        AppSettings appSettings)
+        : base(viewModelRegistry, storyService, editorCoordinator, appSettings)
     {
         _chapter = chapter;
 

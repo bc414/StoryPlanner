@@ -1,4 +1,5 @@
 ﻿using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Windows;
@@ -8,13 +9,11 @@ namespace WindowedStoryPlanner.ViewModels;
 
 public class WindowManager : IWindowManager
 {
-    // No IContentFactory — the delegate captures it from the service provider at
-    // registration time, so WindowManager has no direct knowledge of it at all.
-    private readonly Func<NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> _commonWindowFactory;
+    private readonly Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> _commonWindowFactory;
     private readonly Dictionary<object, Window> _singletonWindows = new();
 
     public WindowManager(
-        Func<NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> commonWindowFactory)
+        Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> commonWindowFactory)
     {
         _commonWindowFactory = commonWindowFactory;
     }
@@ -24,10 +23,11 @@ public class WindowManager : IWindowManager
     /// CommonWindow is intentionally multi-instance.
     /// </summary>
     public void OpenCommonWindow(
+        EditorMode mode,
         NarrativeElementViewModel element,
         PlotPointSubjectLinkViewModel? initialLink = null)
     {
-        _commonWindowFactory(element, initialLink).Show();
+        _commonWindowFactory(mode, element, initialLink).Show();
     }
 
     /// <summary>

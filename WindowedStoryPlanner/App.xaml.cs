@@ -2,10 +2,12 @@
 using System.Data;
 using System.Windows;
 using System.Windows.Input;
+using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.ViewModels;
 using WindowedStoryPlanner.Views;
 
@@ -42,18 +44,22 @@ public partial class App : Application
                 services.AddSingleton<SubjectLibraryViewModel>();
                 services.AddSingleton<FileManagerViewModel>();
                 services.AddSingleton<ChapterLibraryViewModel>();
-                services.AddSingleton<ThemeLibraryViewModel>(); // ← add this
+                services.AddSingleton<ThemeLibraryViewModel>();
 
                 services.AddSingleton<ProjectLoader>();
                 services.AddSingleton<ViewModelLocator>();
 
+                services.AddSingleton<AppSettings>();
+
                 // Windows
                 services.AddSingleton<MainWindow>();
-                services.AddSingleton<Func<NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow>>(sp =>
-                    (element, initialLink) => new CommonWindow(
+                services.AddSingleton<Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow>>(sp =>
+                    (mode, element, initialLink) => new CommonWindow(
                         sp.GetRequiredService<IViewModelRegistry>(),
                         sp.GetRequiredService<IContentFactory>(),
                         sp.GetRequiredService<IStoryService>(),
+                        sp.GetRequiredService<AppSettings>(),
+                        mode,
                         element,
                         initialLink));
             })

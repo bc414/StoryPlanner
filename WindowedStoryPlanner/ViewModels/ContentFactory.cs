@@ -10,15 +10,18 @@ public class ContentFactory : IContentFactory
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _registry;
     private readonly IWindowManager _windowManager;
+    private readonly AppSettings _appSettings;
 
     public ContentFactory(
         IStoryService storyService,
         IViewModelRegistry registry,
-        IWindowManager windowManager)
+        IWindowManager windowManager,
+        AppSettings appSettings)
     {
         _storyService  = storyService;
         _registry      = registry;
         _windowManager = windowManager;
+        _appSettings = appSettings;
     }
 
     public async Task<NoteViewModel> CreateNoteAsync(int ownerId, OwnerType ownerType, int? noteTrackDefinitionId, int sortOrder)
@@ -53,7 +56,7 @@ public class ContentFactory : IContentFactory
         _storyService.PlotPoints.Add(plotPoint);
         await _storyService.SaveAsync();
 
-        var vm = new PlotPointViewModel(plotPoint, _registry, _storyService, this, _windowManager);
+        var vm = new PlotPointViewModel(plotPoint, _registry, _storyService, this, _windowManager, _appSettings);
         _registry.AllPlotPointViewModels.Add(vm);
         return vm;
     }
@@ -65,7 +68,7 @@ public class ContentFactory : IContentFactory
         _storyService.Subjects.Add(subject);
         await _storyService.SaveAsync();
 
-        var vm = new SubjectViewModel(subject, _registry, _storyService, this, _windowManager);
+        var vm = new SubjectViewModel(subject, _registry, _storyService, this, _windowManager, _appSettings);
         _registry.AllSubjectViewModels.Add(vm);
         return vm;
     }
@@ -77,7 +80,7 @@ public class ContentFactory : IContentFactory
         _storyService.Chapters.Add(chapter);
         await _storyService.SaveAsync();
 
-        var vm = new ChapterViewModel(chapter, _registry, _storyService, this);
+        var vm = new ChapterViewModel(chapter, _registry, _storyService, this, _appSettings);
         _registry.AllChapterViewModels.Add(vm);
         return vm;
     }
@@ -97,7 +100,7 @@ public class ContentFactory : IContentFactory
         _storyService.PlotPointsSubjectLinks.Add(link);
         await _storyService.SaveAsync();
 
-        var vm = new PlotPointSubjectLinkViewModel(link, _registry, _storyService, this);
+        var vm = new PlotPointSubjectLinkViewModel(link, _registry, _storyService, this, _appSettings);
         _registry.AllPlotPointSubjectLinkViewModels.Add(vm);
         _registry.RaiseLinksInvalidated();  // ← new link exists
     }

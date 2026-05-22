@@ -40,40 +40,21 @@
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
 
+                    <!-- Track name + header text (switches between DisplayQuestion / UsageDirective / AuditDirective) -->
                     <StackPanel Grid.Column="0" VerticalAlignment="Center">
-
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock Text="{Binding TrackName}"
-                                       Foreground="White"
-                                       FontWeight="Bold"
-                                       FontSize="13"/>
-                            <Border CornerRadius="3"
-                                    Background="#33FFFFFF"
-                                    Padding="4,1"
-                                    Margin="6,0,0,0"
-                                    Visibility="{Binding AssignedFunctionKey,
-                                                         Converter={StaticResource NullToVisibilityConverter}}">
-                                <TextBlock Foreground="White"
-                                           FontSize="10"
-                                           FontWeight="SemiBold">
-                                    <TextBlock.Text>
-                                        <MultiBinding StringFormat="F{0}">
-                                            <Binding Path="AssignedFunctionKey"/>
-                                        </MultiBinding>
-                                    </TextBlock.Text>
-                                </TextBlock>
-                            </Border>
-                        </StackPanel>
-
-                        <TextBlock Text="{Binding DisplayQuestion}"
+                        <TextBlock Text="{Binding TrackName}"
+                                   Foreground="White"
+                                   FontWeight="Bold"
+                                   FontSize="13"/>
+                        <TextBlock Text="{Binding HeaderText}"
                                    Foreground="#E0FFFFFF"
                                    FontSize="11"
                                    FontStyle="Italic"
                                    TextWrapping="Wrap"
                                    Margin="0,2,0,0"/>
-
                     </StackPanel>
 
+                    <!-- Add-note button — hidden when track is readonly -->
                     <Button Grid.Column="1"
                             Content="+"
                             FontSize="18"
@@ -88,6 +69,7 @@
                             Command="{Binding CreateNewNoteCommand}">
                         <Button.Style>
                             <Style TargetType="Button">
+                                <Setter Property="Visibility" Value="Visible"/>
                                 <Setter Property="Template">
                                     <Setter.Value>
                                         <ControlTemplate TargetType="Button">
@@ -109,6 +91,11 @@
                                         </ControlTemplate>
                                     </Setter.Value>
                                 </Setter>
+                                <Style.Triggers>
+                                    <DataTrigger Binding="{Binding IsReadOnly}" Value="True">
+                                        <Setter Property="Visibility" Value="Collapsed"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
                             </Style>
                         </Button.Style>
                     </Button>
