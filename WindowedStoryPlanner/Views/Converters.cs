@@ -143,16 +143,20 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value is not CognitiveMode mode)
+            if (value is not TrackType mode)
                 return new SolidColorBrush(Colors.LightGray);
 
             var color = mode switch
             {
-                CognitiveMode.InUniverseContent => Color.FromRgb(0xB0, 0xD4, 0xE3),   // Pastel Blue
-                CognitiveMode.ReaderExperienceDesign => Color.FromRgb(0xC5, 0xC5, 0xD0),  // Pastel Lavender-Gray
-                CognitiveMode.NotesToSelf => Color.FromRgb(0xD8, 0xBF, 0xD8),        // Pastel Purple
-                CognitiveMode.Analogical => Color.FromRgb(0xAF, 0xD8, 0xD8),         // Pastel Teal
-                CognitiveMode.LinguisticExecution => Color.FromRgb(0xF4, 0xD2, 0xAB), // Pastel Peach
+                TrackType.Ontology => Color.FromRgb(0xB0, 0xD4, 0xE3),             // Pastel Blue - foundational knowledge
+                TrackType.Civilization => Color.FromRgb(0xF4, 0xD2, 0xAB),         // Pastel Peach - construction & tangible world
+                TrackType.History => Color.FromRgb(0xDB, 0xB8, 0xAF),              // Pastel Rust - temporal reflection
+                TrackType.Characterization => Color.FromRgb(0xEB, 0xC5, 0xCF),     // Pastel Rose - psychological depth
+                TrackType.PageDesign => Color.FromRgb(0xD7, 0xBD, 0xE1),           // Pastel Purple - theatrical staging
+                TrackType.WorldInference => Color.FromRgb(0xC5, 0xC8, 0xDC),       // Pastel Indigo - cognitive inference
+                TrackType.ThematicEvidence => Color.FromRgb(0xC5, 0xE0, 0xB4),     // Pastel Green - philosophical wisdom
+                TrackType.NotesToSelf => Color.FromRgb(0xF2, 0xCA, 0xDA),          // Pastel Pink - intimate author's voice
+                TrackType.Analogies => Color.FromRgb(0xE0, 0xD2, 0xBE),            // Pastel Tan - real-world connection
                 _ => Colors.LightGray
             };
 

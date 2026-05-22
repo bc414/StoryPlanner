@@ -32,7 +32,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     public ObservableCollection<string> AvailableSubjectTypes { get; } = new();
 
     public IReadOnlyList<OwnerType> OwnerTypes { get; } = Enum.GetValues<OwnerType>();
-    public IReadOnlyList<CognitiveMode> CognitiveModes { get; } = Enum.GetValues<CognitiveMode>();
+    public IReadOnlyList<TrackType> TrackTypes { get; } = Enum.GetValues<TrackType>();
     public IReadOnlyList<int?> FunctionKeyOptions { get; } =
         new int?[] { null }.Concat(Enumerable.Range(1, 12).Cast<int?>()).ToList();
 

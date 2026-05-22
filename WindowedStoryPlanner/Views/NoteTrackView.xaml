@@ -24,7 +24,7 @@
             <Border DockPanel.Dock="Top"
                     CornerRadius="3,3,0,0"
                     Padding="8,6"
-                    Background="{Binding CognitiveMode,
+                    Background="{Binding TrackType,
                                          Converter={StaticResource CognitiveModeToColor}}">
 
                 <Border.ToolTip>
@@ -40,8 +40,14 @@
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
 
-                    <!-- Track name + header text (switches between DisplayQuestion / UsageDirective / AuditDirective) -->
+                    <!-- Track cognitive mode + name + header text -->
                     <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                        <TextBlock Text="{Binding CognitiveMode}"
+                                   Foreground="#E0FFFFFF"
+                                   FontSize="10"
+                                   FontStyle="Italic"
+                                   TextWrapping="Wrap"
+                                   Margin="0,0,0,4"/>
                         <TextBlock Text="{Binding TrackName}"
                                    Foreground="White"
                                    FontWeight="Bold"
@@ -50,6 +56,7 @@
                                    Foreground="#E0FFFFFF"
                                    FontSize="11"
                                    FontStyle="Italic"
+                                   FontWeight="SemiBold"
                                    TextWrapping="Wrap"
                                    Margin="0,2,0,0"/>
                     </StackPanel>

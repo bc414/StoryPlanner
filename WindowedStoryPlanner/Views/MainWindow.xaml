@@ -10,7 +10,7 @@
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
             
         Title="Mission Control" Height="900" Width="1200"
-        WindowStartupLocation="CenterScreen" d:DataContext="{d:DesignInstance Type=vm:ViewModelLocator}">
+        WindowStartupLocation="CenterScreen" d:DataContext="{d:DesignInstance Type=vm:ViewModelLocator}" WindowState="Maximized">
     <Window.Resources>
         <v:UtcToLocalConverter x:Key="UtcToLocalConverter" />
         <v:RecencyToColorConverter x:Key="RecencyToColorConverter" />

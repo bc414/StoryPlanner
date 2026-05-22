@@ -46,10 +46,10 @@ namespace WindowedStoryPlanner.ViewModels
             get => _model.DisplayOrder;
             set => SetProperty(_model.DisplayOrder, value, _model, (m, v) => m.DisplayOrder = v);
         }
-        public CognitiveMode CognitiveMode
+        public TrackType TrackType
         {
-            get => _model.CognitiveMode;
-            set => SetProperty(_model.CognitiveMode, value, _model, (m, v) => m.CognitiveMode = v);
+            get => _model.TrackType;
+            set => SetProperty(_model.TrackType, value, _model, (m, v) => m.TrackType = v);
         }
         public bool IsSingleton
         {

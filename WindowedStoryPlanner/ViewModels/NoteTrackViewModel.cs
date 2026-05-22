@@ -23,7 +23,8 @@ public partial class NoteTrackViewModel : ObservableObject
     public int DisplayOrder    => _definition.DisplayOrder;
     public string TrackName    => _definition.TrackName;
     public string Explanation  => _definition.UsageDirective;
-    public CognitiveMode CognitiveMode => _definition.CognitiveMode;
+    public TrackType TrackType => _definition.TrackType;
+    public string CognitiveMode => _definition.TrackType.GetCognitiveMode();
     public NoteTrackDefinition Definition => _definition;
 
     public int OwnerId       => _ownerId;
@@ -85,6 +86,8 @@ public partial class NoteTrackViewModel : ObservableObject
         {
             if (e.PropertyName == nameof(AppSettings.IsArchiveMode))
                 OnPropertyChanged(nameof(CanPromoteToConfirmed));
+            foreach (var section in Sections)
+                section.RefreshReadonlyState();
         };
     }
 

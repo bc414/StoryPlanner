@@ -5,17 +5,12 @@ using StoryPlanner.Core.Models;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-/// <summary>
-/// One Expander section in the Subject Library — subjects of a single SubjectDefinition.
-/// </summary>
 public class SubjectGroupViewModel
 {
     public string GroupLabel        { get; }
     public int    DisplayOrder      { get; }
-    public int    SubjectDefinitionId { get; }  // stored directly — avoids string lookup in AddSubject
+    public int    SubjectDefinitionId { get; }
     public ICollectionView Subjects { get; }
-
-    private readonly CollectionViewSource _cvs;
 
     public SubjectGroupViewModel(
         SubjectDefinition definition,
@@ -25,8 +20,11 @@ public class SubjectGroupViewModel
         DisplayOrder        = definition.DisplayOrder;
         SubjectDefinitionId = definition.Id;
 
-        _cvs = new CollectionViewSource { Source = allSubjects };
-        Subjects = _cvs.View;
+        var cvs = new CollectionViewSource { Source = allSubjects };
+        cvs.IsLiveFilteringRequested = true;
+        cvs.LiveFilteringProperties.Add(nameof(SubjectViewModel.SubjectDefinitionId));
+        
+        Subjects = cvs.View;
         Subjects.Filter = obj =>
             obj is SubjectViewModel s && s.SubjectDefinitionId == definition.Id;
         Subjects.SortDescriptions.Add(

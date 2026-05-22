@@ -155,7 +155,7 @@
                 <DataGridTemplateColumn Header="Track Name" Width="120">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding TrackName}" VerticalAlignment="Center" Margin="4,0"/>
+                            <TextBlock Text="{Binding TrackName}" VerticalAlignment="Center" Margin="4,0" TextWrapping="Wrap"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                     <DataGridTemplateColumn.CellEditingTemplate>
@@ -248,16 +248,16 @@
                 </DataGridTemplateColumn>
 
                 <!-- Cognitive Mode -->
-                <DataGridTemplateColumn Header="Cognitive Mode" Width="115">
+                <DataGridTemplateColumn Header="Track Type" Width="115">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding CognitiveMode}" VerticalAlignment="Center" Margin="4,0"/>
+                            <TextBlock Text="{Binding TrackType}" VerticalAlignment="Center" Margin="4,0"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                     <DataGridTemplateColumn.CellEditingTemplate>
                         <DataTemplate>
-                            <ComboBox SelectedItem="{Binding CognitiveMode, UpdateSourceTrigger=PropertyChanged}"
-                                      ItemsSource="{Binding DataContext.CognitiveModes,
+                            <ComboBox SelectedItem="{Binding TrackType, UpdateSourceTrigger=PropertyChanged}"
+                                      ItemsSource="{Binding DataContext.TrackTypes,
                                                    RelativeSource={RelativeSource AncestorType=DataGrid}}"
                                       BorderThickness="0"/>
                         </DataTemplate>
@@ -359,7 +359,9 @@
 
         <!-- ── Save bar ── -->
         <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
-            
+            <Button Content="+ Add" Style="{StaticResource AddButton}"
+        Command="{Binding AddNoteTrackDefinitionCommand}"
+        Margin="12,0,0,0" VerticalAlignment="Center"/>
             <Button Content="Save All" Padding="14,5"
                     Command="{Binding SaveAllCommand}"/>
         </StackPanel>
