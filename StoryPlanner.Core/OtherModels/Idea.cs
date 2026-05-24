@@ -10,3 +10,10 @@ public partial class Idea : ObservableObject
     
     [ObservableProperty] private IdeaState _state;
 }
+
+public enum IdeaState
+{
+    Written,
+    PartiallyAnalyzed,
+    FullyAnalyzed
+}

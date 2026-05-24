@@ -117,7 +117,7 @@ public class StoryService : IStoryService
 
         // Seed Defaults
         //Get rid of this when done testing and ready to actually plan my story
-        await DataSeeder.SeedAsync(_context);
+        //await DataSeeder.SeedAsync(_context);
 
         // Load it up
         await LoadDataAsync();
