@@ -32,7 +32,19 @@
 
     <Grid>
         <StackPanel Margin="8">
-            
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Text="Title" Style="{StaticResource LabelStyle}" Grid.Column="0" Grid.Row="0"/>
+                <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"
+        Style="{StaticResource TitleTextBox}" Grid.Column="0" Grid.Row="1"/>
+            </Grid>
             <Border dd:DragDrop.IsDragSource="True"
                     dd:DragDrop.DragAdornerTemplate="{StaticResource PlotPointDragAdorner}"
                     BorderBrush="#AAAAAA"

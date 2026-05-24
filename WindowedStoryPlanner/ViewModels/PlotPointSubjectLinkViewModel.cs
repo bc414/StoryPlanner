@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using System.ComponentModel;
@@ -76,6 +77,31 @@ namespace WindowedStoryPlanner.ViewModels
                     ? $"{pp.FullOrder}{pp.Title}"
                     : string.Empty;
 
+        public bool HasNotes =>
+            _storyService.Notes.Any(n =>
+                n.OwnerId == _link.Id &&
+                n.OwnerType == OwnerType.PlotPointSubjectLink);
+
+        private bool CanDelete() => !HasNotes;
+
+        [RelayCommand(CanExecute = nameof(CanDelete))]
+        private void DeleteSelf()
+        {
+            var modelToRemove = _storyService.PlotPointsSubjectLinks
+                .FirstOrDefault(l => l.Id == _link.Id);
+            if (modelToRemove is null) return;
+
+            _storyService.PlotPointsSubjectLinks.Remove(modelToRemove);
+
+            var vmToRemove = _viewModelRegistry.AllPlotPointSubjectLinkViewModels
+                .FirstOrDefault(vm => vm.Id == _link.Id);
+            if (vmToRemove is not null)
+                _viewModelRegistry.AllPlotPointSubjectLinkViewModels.Remove(vmToRemove);
+
+            _ = _storyService.SaveAsync();
+            _viewModelRegistry.RaiseLinksInvalidated();
+        }
+
         public PlotPointSubjectLinkViewModel(
             PlotPointSubjectLink link,
             IViewModelRegistry viewModelRegistry,
@@ -104,6 +130,13 @@ namespace WindowedStoryPlanner.ViewModels
 
             SubscribePlotPoint();
             SubscribeSubject();
+
+            // Re-evaluate CanDelete when the Notes collection changes
+            _storyService.Notes.CollectionChanged += (_, _) =>
+            {
+                OnPropertyChanged(nameof(HasNotes));
+                DeleteSelfCommand.NotifyCanExecuteChanged();
+            };
         }
 
         private void SubscribePlotPoint()

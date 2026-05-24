@@ -14,27 +14,48 @@
             Padding="12,8"
             Margin="8"
             Background="#F8F8F8">
-        <StackPanel>
-            <TextBlock Text="LINK"
-                       Style="{StaticResource LabelStyle}"/>
-            <WrapPanel>
-                <TextBlock Text="{Binding SubjectName}"
-                           FontSize="16"
-                           FontWeight="Bold"/>
-                <TextBlock Text=" · "
-                           FontSize="16"
-                           Foreground="#AAAAAA"/>
-                <TextBlock Text="{Binding SubjectTypeName}"
-                           FontSize="16"
-                           Foreground="#666666"/>
-                <TextBlock Text="  ⟷  "
-                           FontSize="16"
-                           Foreground="#AAAAAA"
-                           VerticalAlignment="Center"/>
-                <TextBlock Text="{Binding PlotPointDisplayText}"
-                           FontSize="16"
-                           FontWeight="Bold"/>
-            </WrapPanel>
-        </StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Column="0">
+                <TextBlock Text="LINK"
+                           Style="{StaticResource LabelStyle}"/>
+                <WrapPanel>
+                    <TextBlock Text="{Binding SubjectName}"
+                               FontSize="16"
+                               FontWeight="Bold"/>
+                    <TextBlock Text=" · "
+                               FontSize="16"
+                               Foreground="#AAAAAA"/>
+                    <TextBlock Text="{Binding SubjectTypeName}"
+                               FontSize="16"
+                               Foreground="#666666"/>
+                    <TextBlock Text="  ⟷  "
+                               FontSize="16"
+                               Foreground="#AAAAAA"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Text="{Binding PlotPointDisplayText}"
+                               FontSize="16"
+                               FontWeight="Bold"/>
+                </WrapPanel>
+            </StackPanel>
+
+            <Button Grid.Column="1"
+                    Command="{Binding DeleteSelfCommand}"
+                    Content="✕"
+                    ToolTip="Delete link (only available when there are no notes)"
+                    VerticalAlignment="Top"
+                    Margin="8,0,0,0"
+                    Padding="6,2"
+                    FontSize="12"
+                    Foreground="#CC3333"
+                    Background="Transparent"
+                    BorderBrush="#CC3333"
+                    BorderThickness="1"
+                    Cursor="Hand"/>
+        </Grid>
     </Border>
 </UserControl>

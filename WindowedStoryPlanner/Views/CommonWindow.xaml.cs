@@ -6,12 +6,18 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Windows.Threading;
 using WindowedStoryPlanner.ViewModels;
+using System.ComponentModel;
+using System.Collections.ObjectModel;
 
 namespace WindowedStoryPlanner.Views;
 
-public partial class CommonWindow : Window
+public partial class CommonWindow : Window, INotifyPropertyChanged
 {
+    public event PropertyChangedEventHandler? PropertyChanged;
+    private void Notify(string name) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
+
     // ── Injected dependencies ─────────────────────────────────────────────
 
     private readonly IViewModelRegistry _registry;
@@ -29,8 +35,26 @@ public partial class CommonWindow : Window
     /// <summary>The plot point anchor. Set in Gardener; resolved when transitioning Linking → Gardener.</summary>
     private PlotPointViewModel? _plotPointElement;
 
-    /// <summary>The currently selected link. Non-null when a link card is selected in Linking or Gardener.</summary>
     private PlotPointSubjectLinkViewModel? _selectedLink;
+    public PlotPointSubjectLinkViewModel? SelectedLink
+    {
+        get => _selectedLink;
+        set
+        {
+            if (value == _selectedLink) return;
+
+            _selectedLink?.OnWindowClosed();
+            _selectedLink = value;
+            _selectedLink?.OnWindowOpened();
+
+            Notify(nameof(SelectedLink));
+            UpdateLayout();
+        }
+    }
+
+    // ── Link list (set once as ItemsSource; updated in-place) ─────────────
+
+    public ObservableCollection<PlotPointSubjectLinkViewModel> LinkItems { get; } = [];
 
     // ── Properties ─────────────────────────────────────────────────────────
 
@@ -81,8 +105,8 @@ public partial class CommonWindow : Window
 
         if (initialLink is not null)
         {
-            _selectedLink = initialLink;
-            _selectedLink.OnWindowOpened();
+            SelectedLink = initialLink;
+            SelectedLink.OnWindowOpened();
         }
 
         UpdateLayout();
@@ -94,8 +118,21 @@ public partial class CommonWindow : Window
         _registry.LinksInvalidated -= UpdateLayout;
         _subjectElement?.OnWindowClosed();
         _plotPointElement?.OnWindowClosed();
-        _selectedLink?.OnWindowClosed();
+        SelectedLink?.OnWindowClosed();
         base.OnClosed(e);
+    }
+
+    protected override void OnKeyDown(KeyEventArgs e)
+    {
+        if (e.Key == Key.Escape)
+        {
+            e.Handled = true;
+            Close();
+        }
+        else
+        {
+            base.OnKeyDown(e);
+        }
     }
 
     // ── Mode button clicks ────────────────────────────────────────────────
@@ -107,8 +144,8 @@ public partial class CommonWindow : Window
     private void SwitchToExpansion()
     {
         // Reachable only from Linking — close the selected link and hide the panels
-        _selectedLink?.OnWindowClosed();
-        _selectedLink = null;
+        SelectedLink?.OnWindowClosed();
+        SelectedLink = null;
         _currentMode  = EditorMode.Expansion;
         UpdateLayout();
     }
@@ -123,10 +160,10 @@ public partial class CommonWindow : Window
             return;
         }
 
-        if (_currentMode == EditorMode.Gardener && _selectedLink is not null)
+        if (_currentMode == EditorMode.Gardener && SelectedLink is not null)
         {
             var subject = _registry.AllSubjectViewModels
-                .FirstOrDefault(s => s.Id == _selectedLink.SubjectId);
+                .FirstOrDefault(s => s.Id == SelectedLink.SubjectId);
             if (subject is null) return;
 
             _subjectElement = subject;
@@ -143,10 +180,10 @@ public partial class CommonWindow : Window
 
     private void SwitchToGardener()
     {
-        if (_currentMode != EditorMode.Linking || _selectedLink is null) return;
+        if (_currentMode != EditorMode.Linking || SelectedLink is null) return;
 
         var plotPoint = _registry.AllPlotPointViewModels
-            .FirstOrDefault(pp => pp.Id == _selectedLink.PlotPointId);
+            .FirstOrDefault(pp => pp.Id == SelectedLink.PlotPointId);
         if (plotPoint is null) return;
 
         _plotPointElement = plotPoint;
@@ -165,24 +202,29 @@ public partial class CommonWindow : Window
     private void LinkCards_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
         var newLink = LinkCardsListBox.SelectedItem as PlotPointSubjectLinkViewModel;
-        if (newLink == _selectedLink) return;
+        if (newLink == SelectedLink) return;
 
-        _selectedLink?.OnWindowClosed();
-        _selectedLink = newLink;
-        _selectedLink?.OnWindowOpened();
+        SelectedLink?.OnWindowClosed();
+        SelectedLink = newLink;
+        SelectedLink?.OnWindowOpened();
 
-        UpdateLayout();
+        // Defer UpdateLayout so it runs after WPF finishes processing
+        // the current SelectionChanged event cycle. Without this deferral,
+        // replacing ItemsSource inside a SelectionChanged handler causes WPF
+        // to schedule its own deferred collection-reconciliation work that fires
+        // *after* our SelectedItem assignment, resetting selection to the first item.
+        Dispatcher.InvokeAsync(UpdateLayout, DispatcherPriority.Loaded);
     }
 
     // ── Clear selected link (X button) ───────────────────────────────────
 
     private void ClearSelectedLink_Click(object sender, RoutedEventArgs e)
     {
-        if (_selectedLink is null) return;
+        if (SelectedLink is null) return;
 
         // Close the selected link and clear the selection
-        _selectedLink.OnWindowClosed();
-        _selectedLink = null;
+        SelectedLink.OnWindowClosed();
+        SelectedLink = null;
 
         UpdateLayout();
 
@@ -207,14 +249,14 @@ public partial class CommonWindow : Window
 
         // In Linking with a link selected: resolve the plot point from the link
         PlotPointViewModel? plotPoint = _plotPointElement;
-        if (plotPoint is null && _selectedLink is not null)
+        if (plotPoint is null && SelectedLink is not null)
             plotPoint = _registry.AllPlotPointViewModels
-                .FirstOrDefault(pp => pp.Id == _selectedLink.PlotPointId);
+                .FirstOrDefault(pp => pp.Id == SelectedLink.PlotPointId);
 
         if (plotPoint is null) return;
 
         new CommonWindow(_registry, _editorCoordinator, _storyService, AppSettings,
-            EditorMode.Gardener, plotPoint, _selectedLink)
+            EditorMode.Gardener, plotPoint, SelectedLink)
             .Show();
         e.Handled = true;
     }
@@ -238,17 +280,17 @@ public partial class CommonWindow : Window
 
             case EditorMode.Linking:
                 leftElement  = _subjectElement;
-                rightElement = _selectedLink;
+                rightElement = SelectedLink;
                 showMiddle   = true;
                 _subjectElement?.SetTrackDisplayMode(TrackDisplayMode.Reference);
-                _selectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
+                SelectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
                 break;
 
             case EditorMode.Gardener:
-                leftElement  = _selectedLink;
+                leftElement  = SelectedLink;
                 rightElement = _plotPointElement;
                 showMiddle   = true;
-                _selectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
+                SelectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
                 _plotPointElement?.SetTrackDisplayMode(TrackDisplayMode.Active);
                 break;
         }
@@ -262,7 +304,7 @@ public partial class CommonWindow : Window
 
         LinkPanelBorder.Visibility = showMiddle ? Visibility.Visible : Visibility.Collapsed;
 
-        // Column widths — secondary (Reference/link) panel gets 1*, primary gets 2*
+        // Column widths
         var leftCol  = ContentGrid.ColumnDefinitions[0];
         var rightCol = ContentGrid.ColumnDefinitions[2];
 
@@ -271,7 +313,6 @@ public partial class CommonWindow : Window
 
         if (leftVisible && rightVisible)
         {
-            // In both Linking and Gardener the right panel is primary
             leftCol.Width  = new GridLength(1, GridUnitType.Star);
             rightCol.Width = new GridLength(2, GridUnitType.Star);
         }
@@ -281,21 +322,24 @@ public partial class CommonWindow : Window
             rightCol.Width = rightVisible ? new GridLength(1, GridUnitType.Star) : new GridLength(0);
         }
 
-        // Link list
-        LinkCardsListBox.ItemsSource = GetSortedLinks().ToList();
+        // Rebuild link list in-place — ItemsSource reference never changes,
+        // so WPF does NOT reset selection or run container reconciliation.
+        // The two-way SelectedItem binding keeps SelectedLink in sync automatically.
+        var fresh = GetSortedLinks().ToList();
+        for (int i = LinkItems.Count - 1; i >= 0; i--)
+            if (!fresh.Contains(LinkItems[i])) LinkItems.RemoveAt(i);
+        for (int i = 0; i < fresh.Count; i++)
+            if (i >= LinkItems.Count || !ReferenceEquals(LinkItems[i], fresh[i]))
+                LinkItems.Insert(i, fresh[i]);
 
-        LinkCardsListBox.SelectionChanged -= LinkCards_SelectionChanged;
-        LinkCardsListBox.SelectedItem      = _selectedLink;
-        LinkCardsListBox.SelectionChanged += LinkCards_SelectionChanged;
-
-        // Mode buttons — Tag="Active" marks the selected mode; IsEnabled gates valid transitions
+        // Mode buttons
         ExpansionModeButton.Tag = _currentMode == EditorMode.Expansion ? "Active" : null;
         LinkingModeButton.Tag   = _currentMode == EditorMode.Linking   ? "Active" : null;
         GardenerModeButton.Tag  = _currentMode == EditorMode.Gardener  ? "Active" : null;
 
         ExpansionModeButton.IsEnabled = _currentMode == EditorMode.Linking;
         LinkingModeButton.IsEnabled   = _currentMode != EditorMode.Linking;
-        GardenerModeButton.IsEnabled  = _currentMode == EditorMode.Linking && _selectedLink is not null;
+        GardenerModeButton.IsEnabled  = _currentMode == EditorMode.Linking && SelectedLink is not null;
     }
 
     private IEnumerable<PlotPointSubjectLinkViewModel> GetSortedLinks()

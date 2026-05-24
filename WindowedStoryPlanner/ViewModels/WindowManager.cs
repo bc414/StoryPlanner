@@ -48,4 +48,24 @@ public class WindowManager : IWindowManager
         window.Closed += (_, _) => _singletonWindows.Remove(chapter);
         window.Show();
     }
+
+    /// <summary>
+    /// Opens the Floating Plot Points window — application-wide singleton.
+    /// The VM is passed in to avoid a circular DI dependency.
+    /// </summary>
+    public void OpenFloatingPlotPointsWindow(FloatingPlotPointsViewModel vm)
+    {
+        if (_singletonWindows.TryGetValue(vm, out var existing) && existing.IsLoaded)
+        {
+            if (existing.WindowState == WindowState.Minimized)
+                existing.WindowState = WindowState.Normal;
+            existing.Activate();
+            return;
+        }
+
+        var window = new FloatingPlotPointsWindow { DataContext = vm };
+        _singletonWindows[vm] = window;
+        window.Closed += (_, _) => _singletonWindows.Remove(vm);
+        window.Show();
+    }
 }

@@ -8,7 +8,6 @@
         xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
         mc:Ignorable="d"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
-            
         Title="Mission Control" Height="900" Width="1200"
         WindowStartupLocation="CenterScreen" d:DataContext="{d:DesignInstance Type=vm:ViewModelLocator}" WindowState="Maximized">
     <Window.Resources>
@@ -25,6 +24,7 @@
                 <Setter Property="Padding" Value="10" />
             </Style>
         </TabControl.Resources>
+
         <TabItem Header="File Management">
             <v:FileManagerTab DataContext="{Binding FileManager}"/>
         </TabItem>
@@ -32,6 +32,19 @@
         <TabItem Header="Chapters">
             <v:ChapterLibrary DataContext="{Binding Chapters}"/>
         </TabItem>
+
+        <TabItem Header="Unassigned Plot Points" DataContext="{Binding FloatingPlotPoints}">
+            <StackPanel Margin="20" MaxWidth="400">
+                <TextBlock Text="Unassigned Plot Points"
+                           FontSize="18" FontWeight="Bold" Margin="0,0,0,6"/>
+                <TextBlock TextWrapping="Wrap" Foreground="#666666" Margin="0,0,0,16"
+                           Text="Plot points not yet assigned to a chapter. Open the window to edit, reorder, or drag them into a chapter."/>
+                <Button Content="Open Unassigned Plot Points Window"
+                        Height="36" FontSize="14" HorizontalAlignment="Left" Padding="12,0"
+                        Command="{Binding OpenWindowCommand}"/>
+            </StackPanel>
+        </TabItem>
+
         <TabItem Header="Subjects">
             <v:SubjectLibrary DataContext="{Binding Subjects}"/>
         </TabItem>
@@ -39,9 +52,7 @@
             <v:ThemeLibrary DataContext="{Binding Themes}"/>
         </TabItem>
         <TabItem Header="Definitions">
-            <ScrollViewer>
-                <v:DefinitionsEditorControl DataContext="{Binding Definitions}"/>
-            </ScrollViewer>
+            <v:DefinitionsEditorControl DataContext="{Binding Definitions}"/>
         </TabItem>
 
         <TabItem Header="Global Search">
@@ -54,10 +65,7 @@
                              VerticalContentAlignment="Center"
                              Background="#FAFAFA" BorderBrush="#CCCCCC" BorderThickness="1"/>
                 </StackPanel>
-
-                <ScrollViewer VerticalScrollBarVisibility="Auto">
-                    
-                </ScrollViewer>
+                <ScrollViewer VerticalScrollBarVisibility="Auto"/>
             </DockPanel>
         </TabItem>
 

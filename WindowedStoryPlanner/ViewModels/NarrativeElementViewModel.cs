@@ -134,7 +134,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         if (canDrop)
         {
             dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
-            dropInfo.Effects = DragDropEffects.Link;
+            dropInfo.Effects = DragDropEffects.Move;
         }
     }
 

@@ -11,23 +11,26 @@ namespace WindowedStoryPlanner.ViewModels;
 /// </summary>
 public class ViewModelLocator
 {
-    public FileManagerViewModel       FileManager  { get; }
-    public ChapterLibraryViewModel    Chapters     { get; }
-    public DefinitionsEditorViewModel Definitions  { get; }
-    public SubjectLibraryViewModel    Subjects     { get; }
-    public ThemeLibraryViewModel      Themes       { get; }
+    public FileManagerViewModel           FileManager      { get; }
+    public ChapterLibraryViewModel        Chapters         { get; }
+    public DefinitionsEditorViewModel     Definitions      { get; }
+    public SubjectLibraryViewModel        Subjects         { get; }
+    public ThemeLibraryViewModel          Themes           { get; }
+    public FloatingPlotPointsViewModel    FloatingPlotPoints { get; }
 
     public ViewModelLocator(
-        FileManagerViewModel       fileManager,
-        ChapterLibraryViewModel    chapters,
-        DefinitionsEditorViewModel definitions,
-        SubjectLibraryViewModel    subjects,
-        ThemeLibraryViewModel      themes)
+        FileManagerViewModel           fileManager,
+        ChapterLibraryViewModel        chapters,
+        DefinitionsEditorViewModel     definitions,
+        SubjectLibraryViewModel        subjects,
+        ThemeLibraryViewModel          themes,
+        FloatingPlotPointsViewModel    floatingPlotPoints)
     {
-        FileManager = fileManager;
-        Chapters    = chapters;
-        Definitions = definitions;
-        Subjects    = subjects;
-        Themes      = themes;
+        FileManager        = fileManager;
+        Chapters           = chapters;
+        Definitions        = definitions;
+        Subjects           = subjects;
+        Themes             = themes;
+        FloatingPlotPoints = floatingPlotPoints;
     }
 }

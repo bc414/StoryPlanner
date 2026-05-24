@@ -146,7 +146,8 @@
                   GridLinesVisibility="Horizontal"
                   RowHeaderWidth="0"
                   BorderBrush="#CCCCCC"
-                  BorderThickness="1">
+                  BorderThickness="1"
+                  VerticalScrollBarVisibility="Auto">
             <DataGrid.Columns>
 
                 <DataGridTextColumn Header="Id" Binding="{Binding Id}" IsReadOnly="True" Width="36"/>

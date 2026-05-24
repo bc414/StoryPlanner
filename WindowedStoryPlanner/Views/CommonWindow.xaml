@@ -173,8 +173,7 @@
                     <ListBox x:Name="LinkCardsListBox"
                              Grid.Row="1"
                              BorderThickness="0"
-                             behaviors:ScrollPassthroughBehavior.Enabled="False"
-                             SelectionChanged="LinkCards_SelectionChanged">
+                             behaviors:ScrollPassthroughBehavior.Enabled="False" ItemsSource="{Binding LinkItems}" SelectedItem="{Binding SelectedLink, Mode=TwoWay}">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="HorizontalContentAlignment" Value="Stretch"/>

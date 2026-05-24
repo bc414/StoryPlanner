@@ -16,7 +16,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
     private readonly Chapter _chapter;
     public Chapter Chapter => _chapter;
 
-    public ICollectionView PlotPointsInChapter { get; }
+    public ICollectionView PlotPoints { get; }
 
     public int Id => _chapter.Id;
 
@@ -40,11 +40,11 @@ public partial class ChapterViewModel : NarrativeElementViewModel
                 .Where(npd => npd.OwnerType == OwnerType.Chapter)
                 .ToList());
 
-        PlotPointsInChapter = new ListCollectionView(viewModelRegistry.AllPlotPointViewModels)
+        PlotPoints = new ListCollectionView(viewModelRegistry.AllPlotPointViewModels)
         {
             Filter = FilterPlotPoints
         };
-        PlotPointsInChapter.SortDescriptions.Add(
+        PlotPoints.SortDescriptions.Add(
             new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
     }
 
@@ -107,7 +107,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
     {
         if (SelectedPlotPoint is null) return;
 
-        var neighbor = PlotPointsInChapter.Cast<PlotPointViewModel>()
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
             .Where(p => p.OrderInChapter < SelectedPlotPoint.OrderInChapter)
             .OrderByDescending(p => p.OrderInChapter)
             .FirstOrDefault();
@@ -117,7 +117,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
         (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
             (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
 
-        PlotPointsInChapter.Refresh();
+        PlotPoints.Refresh();
     }
 
     [RelayCommand]
@@ -125,7 +125,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
     {
         if (SelectedPlotPoint is null) return;
 
-        var neighbor = PlotPointsInChapter.Cast<PlotPointViewModel>()
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
             .Where(p => p.OrderInChapter > SelectedPlotPoint.OrderInChapter)
             .OrderBy(p => p.OrderInChapter)
             .FirstOrDefault();
@@ -135,14 +135,14 @@ public partial class ChapterViewModel : NarrativeElementViewModel
         (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
             (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
 
-        PlotPointsInChapter.Refresh();
+        PlotPoints.Refresh();
     }
 
     // ── Drag & Drop ──────────────────────────────────────────────────────
 
     public override void DragOver(IDropInfo dropInfo)
     {
-        if (dropInfo.Data is PlotPointViewModel)
+        if (dropInfo.Data is PlotPointViewModel plotPoint && plotPoint.ChapterId != _chapter.Id)
         {
             dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
             dropInfo.Effects = DragDropEffects.Move;
@@ -188,9 +188,9 @@ public partial class ChapterViewModel : NarrativeElementViewModel
             // Refresh the old chapter's list view if it is open
             var oldChapterVm = _viewModelRegistry.AllChapterViewModels
                 .FirstOrDefault(c => c.Id == oldChapterId.Value);
-            oldChapterVm?.PlotPointsInChapter.Refresh();
+            oldChapterVm?.PlotPoints.Refresh();
         }
 
-        PlotPointsInChapter.Refresh();
+        PlotPoints.Refresh();
     }
 }

@@ -39,25 +39,8 @@ dd:DragDrop.DropHandler="{Binding}">
 
             <local:NarrativeElementFullView/>
 
-            <ListBox ItemsSource="{Binding PlotPointsInChapter}"
-                     SelectedItem="{Binding SelectedPlotPoint}"
-                     dd:DragDrop.IsDragSource="True"
-                     dd:DragDrop.IsDropTarget="False">
-                <ListBox.InputBindings>
-                    <KeyBinding Key="Up" Modifiers="Alt" Command="{Binding MovePlotPointUpCommand}"/>
-                    <KeyBinding Key="Down" Modifiers="Alt" Command="{Binding MovePlotPointDownCommand}"/>
-                </ListBox.InputBindings>
-                <ListBox.ItemTemplate>
-                    <DataTemplate DataType="{x:Type vm:PlotPointViewModel}">
-                        <local:PlotPointCard/>
-                    </DataTemplate>
-                </ListBox.ItemTemplate>
-            </ListBox>
+            <local:PlotPointListControl/>
 
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Content="+ New Plot Point" Height="24" Command="{Binding AddPlotPointCommand}"/>
-            </StackPanel>
-            
         </StackPanel>
     </ScrollViewer>
 </Window>

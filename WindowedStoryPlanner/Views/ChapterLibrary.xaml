@@ -32,9 +32,7 @@
             <TextBlock Text="Chapters"
                        FontSize="14" FontWeight="Bold"
                        VerticalAlignment="Center" Margin="0,0,12,0"/>
-            <Button Content="+ Add Chapter"
-                    Padding="10,4"
-                    Command="{Binding AddChapterCommand}"/>
+            
         </StackPanel>
 
         <!-- Table -->
@@ -126,5 +124,8 @@
             </DataGrid.Columns>
         </DataGrid>
 
+        <Button Grid.Row="2" Content="+ Add Chapter"
+        Padding="10,4"
+        Command="{Binding AddChapterCommand}"/>
     </Grid>
 </UserControl>

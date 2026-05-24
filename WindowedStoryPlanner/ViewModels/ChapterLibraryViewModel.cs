@@ -35,7 +35,12 @@ public partial class ChapterLibraryViewModel : ObservableObject
     private async Task AddChapter()
     {
         var vm = await _factory.CreateChapterAsync();
-        _windowManager.OpenChapterWindow(vm);
+        
+        // Set OrderIndex to max + 1
+        vm.OrderIndex = (Chapters.Count > 0 ? Chapters.Max(c => c.OrderIndex) : 0) + 1;
+        
+        //_windowManager.OpenChapterWindow(vm);
+        _ = _storyService.SaveAsync();
     }
 
     [RelayCommand]
