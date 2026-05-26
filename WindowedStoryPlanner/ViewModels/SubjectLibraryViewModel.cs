@@ -22,6 +22,8 @@ public partial class SubjectLibraryViewModel : ObservableObject
     private readonly IWindowManager     _windowManager;
     private readonly IViewModelRegistry _registry;
 
+    public AppSettings AppSettings { get; }
+
     /// <summary>
     /// One entry per SubjectDefinition, ordered by DisplayOrder.
     /// UI-derived — rebuilt whenever definitions change.
@@ -34,12 +36,14 @@ public partial class SubjectLibraryViewModel : ObservableObject
         IContentFactory    factory,
         IContentDeleter    deleter,
         IWindowManager     windowManager,
-        IViewModelRegistry registry)
+        IViewModelRegistry registry,
+        AppSettings        appSettings)
     {
         _factory       = factory;
         _deleter       = deleter;
         _windowManager = windowManager;
         _registry      = registry;
+        AppSettings    = appSettings;
 
         // Rebuild groups when definitions are added/removed at runtime (e.g. from Definitions tab).
         // Listen to the registry collection — not IStoryService — since the registry is
@@ -61,7 +65,7 @@ public partial class SubjectLibraryViewModel : ObservableObject
     {
         Groups.Clear();
         foreach (var defVm in _registry.AllSubjectDefinitionViewModels.OrderBy(d => d.DisplayOrder))
-            Groups.Add(new SubjectGroupViewModel(defVm.Model, _registry.AllSubjectViewModels));
+            Groups.Add(new SubjectGroupViewModel(defVm.Model, _registry.AllSubjectViewModels, AppSettings));
     }
 
     [RelayCommand]

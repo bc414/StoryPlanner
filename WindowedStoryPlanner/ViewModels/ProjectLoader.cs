@@ -87,5 +87,9 @@ public class ProjectLoader
         foreach (var value in _storyService.NarrativePropertyValueDefinitions)
             _registry.AllNarrativePropertyValueDefinitions.Add(
                 new NarrativePropertyValueViewModel(value));
+
+        // Signal that bulk loading is complete. NarrativeElementViewModels use
+        // this to defer their initial note-count calculation until all notes exist.
+        _registry.RaiseStoryLoaded();
     }
 }

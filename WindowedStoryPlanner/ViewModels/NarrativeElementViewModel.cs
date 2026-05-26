@@ -5,6 +5,7 @@ using StoryPlanner.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Collections.Specialized;
 using System.Linq;
 using System.Windows;
 
@@ -26,6 +27,52 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     private int _ownerId;
     private OwnerType _ownerType;
 
+    // ── Note counts ───────────────────────────────────────────────────────
+
+    [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(UnconfirmedNoteCount))]
+    private int _totalNoteCount;
+
+    [ObservableProperty]
+    [NotifyPropertyChangedFor(nameof(UnconfirmedNoteCount))]
+    private int _confirmedNoteCount;
+
+    /// <summary>
+    /// Notes that exist but have not yet been confirmed.
+    /// Used by archive mode to surface subjects with the most outstanding work.
+    /// </summary>
+    public int UnconfirmedNoteCount => TotalNoteCount - ConfirmedNoteCount;
+
+    private bool _storyLoaded;
+
+    private void RefreshNoteCounts()
+    {
+        var owned = _viewModelRegistry.AllNoteViewModels
+            .Where(n => n.OwnerId == _ownerId && n.OwnerType == _ownerType)
+            .ToList();
+
+        TotalNoteCount        = owned.Count;
+        ConfirmedNoteCount = owned.Count(n => n.NoteState == NoteState.Confirmed);
+    }
+
+    private void OnAllNotesCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
+    {
+        if (!_storyLoaded) return;
+        RefreshNoteCounts();
+    }
+
+    private void OnNoteViewModelMutated(int noteId)
+    {
+        if (!_storyLoaded) return;
+        RefreshNoteCounts();
+    }
+
+    private void OnStoryLoaded()
+    {
+        _storyLoaded = true;
+        RefreshNoteCounts();
+    }
+
     public NarrativeElementViewModel(
         IViewModelRegistry viewModelRegistry,
         IStoryService storyService,
@@ -36,6 +83,10 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         _viewModelRegistry = viewModelRegistry;
         _editorCoordinator = editorCoordinator;
         AppSettings        = appSettings;
+
+        _viewModelRegistry.AllNoteViewModels.CollectionChanged += OnAllNotesCollectionChanged;
+        _viewModelRegistry.NoteViewModelMutated += OnNoteViewModelMutated;
+        _viewModelRegistry.StoryLoaded += OnStoryLoaded;
     }
 
     protected void InitializeCollections(
@@ -49,6 +100,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         _noteTrackFactory = noteTrackFactory;
         _propertyFactory  = propertyFactory;
 
+        RefreshNoteCounts();
         RebuildNoteTracks();
     }
 

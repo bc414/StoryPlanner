@@ -6,16 +6,51 @@
              xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
              xmlns:behaviors="clr-namespace:WindowedStoryPlanner.Views.Behaviors"
              ShutdownMode="OnMainWindowClose">
-    
+
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Styles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+
             <v:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
             <v:CanMoveToChapterConverter x:Key="TypeCheckConverter"/>
             <v:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
             <v:IsFloatingWindowConverter x:Key="IsFloatingWindowConverter"/>
+
+            <!-- Picker button style: small icon button used by navigation pickers across all windows -->
+            <Style x:Key="PickerButtonStyle" TargetType="Button">
+                <Setter Property="Width"           Value="26"/>
+                <Setter Property="Height"          Value="22"/>
+                <Setter Property="Margin"          Value="2,4"/>
+                <Setter Property="Padding"         Value="0"/>
+                <Setter Property="Background"      Value="Transparent"/>
+                <Setter Property="BorderBrush"     Value="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Cursor"          Value="Hand"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border x:Name="Root"
+                                    Background="{TemplateBinding Background}"
+                                    BorderBrush="{TemplateBinding BorderBrush}"
+                                    BorderThickness="{TemplateBinding BorderThickness}"
+                                    CornerRadius="3"
+                                    Padding="{TemplateBinding Padding}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="Root" Property="Background" Value="#E0E0E0"/>
+                                </Trigger>
+                                <Trigger Property="IsPressed" Value="True">
+                                    <Setter TargetName="Root" Property="Background" Value="#C8C8C8"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
 
             <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
                 <Setter Property="behaviors:ScrollPassthroughBehavior.Enabled" Value="True"/>
@@ -26,6 +61,5 @@
             </Style>
 
         </ResourceDictionary>
-        
     </Application.Resources>
 </Application>

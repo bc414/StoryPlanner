@@ -27,6 +27,14 @@ public interface IViewModelRegistry
     event Action<int> NoteSelected;
     void RaiseNoteSelected(int noteId);
 
+    /// <summary>
+    /// Raised once after all view models have been bulk-loaded from storage.
+    /// Subscribers that are too expensive to update per-note during load
+    /// should defer their initial work until this fires.
+    /// </summary>
+    event Action StoryLoaded;
+    void RaiseStoryLoaded();
+
     void Clear();
     event Action LinksInvalidated;
     void RaiseLinksInvalidated();

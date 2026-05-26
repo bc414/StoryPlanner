@@ -13,5 +13,12 @@
              dd:DragDrop.IsDragSource="True"
              dd:DragDrop.IsDropTarget="True"
              dd:DragDrop.DropHandler="{Binding}">
-    <TextBlock Text="{Binding Name}" FontSize="16" VerticalAlignment="Center" TextWrapping="Wrap" TextAlignment="Center"/>
+    <DockPanel Width="140" Height="80">
+        <TextBlock DockPanel.Dock="Bottom" HorizontalAlignment="Right" TextAlignment="Center" FontSize="12">
+            <Run Text="{Binding ConfirmedNoteCount, Mode=OneWay}"/>
+            <Run Text="/"/>
+            <Run Text="{Binding TotalNoteCount, Mode=OneWay}"/>
+        </TextBlock>
+        <TextBlock Text="{Binding Name}" FontSize="16" TextWrapping="Wrap" TextAlignment="Center"/>
+    </DockPanel>
 </UserControl>

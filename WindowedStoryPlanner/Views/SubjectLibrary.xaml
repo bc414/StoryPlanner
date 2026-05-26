@@ -9,47 +9,59 @@
              mc:Ignorable="d"
              d:DataContext="{d:DesignInstance Type=vm:SubjectLibraryViewModel}">
 
-    <ScrollViewer VerticalScrollBarVisibility="Auto">
-        <ItemsControl ItemsSource="{Binding Groups}">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate DataType="{x:Type vm:SubjectGroupViewModel}">
-                    <Expander IsExpanded="False" Margin="0,0,0,6">
+    <DockPanel>
 
-                        <Expander.Header>
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="{Binding GroupLabel}"
-                                           FontSize="14" FontWeight="SemiBold"
-                                           VerticalAlignment="Center"/>
-                                <Button Content="+ Add"
-                                        Margin="12,0,0,0" Padding="6,2"
-                                        VerticalAlignment="Center"
-                                        Command="{Binding DataContext.AddSubjectCommand,
-                                                  RelativeSource={RelativeSource AncestorType=UserControl}}"
-                                        CommandParameter="{Binding}"/>
-                            </StackPanel>
-                        </Expander.Header>
+        <!-- Archive mode toggle -->
+        <ToggleButton DockPanel.Dock="Top"
+                      Content="Archive Mode"
+                      IsChecked="{Binding AppSettings.IsArchiveMode, Mode=TwoWay}"
+                      HorizontalAlignment="Left"
+                      Margin="4,4,4,6"
+                      Padding="8,3"/>
 
-                        <!--
-                            IsDragSource enables dragging SubjectViewModels to
-                            CommonWindow link panels for link creation.
-                        -->
-                        <ItemsControl ItemsSource="{Binding Subjects}"
-                                      dd:DragDrop.IsDragSource="True">
-                            <ItemsControl.ItemsPanel>
-                                <ItemsPanelTemplate>
-                                    <WrapPanel/>
-                                </ItemsPanelTemplate>
-                            </ItemsControl.ItemsPanel>
-                            <ItemsControl.ItemTemplate>
-                                <DataTemplate DataType="{x:Type vm:SubjectViewModel}">
-                                    <v:SubjectCard/>
-                                </DataTemplate>
-                            </ItemsControl.ItemTemplate>
-                        </ItemsControl>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ItemsControl ItemsSource="{Binding Groups}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate DataType="{x:Type vm:SubjectGroupViewModel}">
+                        <Expander IsExpanded="False" Margin="0,0,0,6">
 
-                    </Expander>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
-    </ScrollViewer>
+                            <Expander.Header>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{Binding GroupLabel}"
+                                               FontSize="14" FontWeight="SemiBold"
+                                               VerticalAlignment="Center"/>
+                                    <Button Content="+ Add"
+                                            Margin="12,0,0,0" Padding="6,2"
+                                            VerticalAlignment="Center"
+                                            Command="{Binding DataContext.AddSubjectCommand,
+                                                      RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                            CommandParameter="{Binding}"/>
+                                </StackPanel>
+                            </Expander.Header>
+
+                            <!--
+                                IsDragSource enables dragging SubjectViewModels to
+                                CommonWindow link panels for link creation.
+                            -->
+                            <ItemsControl ItemsSource="{Binding Subjects}"
+                                          dd:DragDrop.IsDragSource="True">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate>
+                                        <WrapPanel/>
+                                    </ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate DataType="{x:Type vm:SubjectViewModel}">
+                                        <v:SubjectCard/>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+
+                        </Expander>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+    </DockPanel>
 </UserControl>

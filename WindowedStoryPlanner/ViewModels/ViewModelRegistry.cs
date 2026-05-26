@@ -30,6 +30,9 @@ public class ViewModelRegistry : IViewModelRegistry
     public event Action? LinksInvalidated;
     public void RaiseLinksInvalidated() => LinksInvalidated?.Invoke();
 
+    public event Action? StoryLoaded;
+    public void RaiseStoryLoaded() => StoryLoaded?.Invoke();
+
     public void Clear()
     {
         AllSubjectViewModels.Clear();

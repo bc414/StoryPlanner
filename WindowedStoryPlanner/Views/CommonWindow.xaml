@@ -10,7 +10,7 @@
         Title="Story Planner"
         Height="900" Width="1600"
         MinWidth="600" MinHeight="400"
-        WindowState="Maximized">
+        WindowState="Maximized" d:DataContext="{d:DesignInstance Type=local:CommonWindow}">
 
     <Window.Resources>
         <!-- Typed DataTemplates: ContentControl resolves these automatically by Content type -->
@@ -23,6 +23,8 @@
         <DataTemplate DataType="{x:Type vm:PlotPointSubjectLinkViewModel}">
             <local:NarrativeElementFullView/>
         </DataTemplate>
+
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
 
         <!-- Mode button style -->
         <Style x:Key="ModeButtonStyle" TargetType="Button">
@@ -97,17 +99,35 @@
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
 
-            <!-- Expansion: anchored to subject, no links visible -->
-            <Button x:Name="ExpansionModeButton"
-                    Grid.Column="0"
-                    Content="Expansion"
-                    HorizontalAlignment="Left"
-                    Style="{StaticResource ModeButtonStyle}"
-                    ToolTip="Expansion mode — subject only, no links (middle-click to open in new window)"
-                    Click="ExpansionMode_Click"
-                    PreviewMouseDown="ExpansionModeButton_PreviewMouseDown"/>
+            <!-- LEFT ZONE: Expansion button + subject picker button -->
+            <StackPanel Grid.Column="0" Orientation="Horizontal" VerticalAlignment="Center">
+                <Button x:Name="ExpansionModeButton"
+                        Content="Expansion"
+                        Style="{StaticResource ModeButtonStyle}"
+                        ToolTip="Expansion mode — subject only, no links (middle-click to open in new window)"
+                        Click="ExpansionMode_Click"
+                        PreviewMouseDown="ExpansionModeButton_PreviewMouseDown"/>
 
-            <!-- Linking + Archive toggle -->
+                <!-- Subject picker toggle button -->
+                <Button x:Name="SubjectPickerButton"
+                        Style="{StaticResource PickerButtonStyle}"
+                        ToolTip="Pick subject"
+                        Click="SubjectPickerButton_Click">
+                    <TextBlock Text="⌖" FontSize="13" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
+                <!-- Subject picker flyout -->
+                <Popup x:Name="SubjectPickerPopup"
+                       PlacementTarget="{Binding ElementName=SubjectPickerButton}"
+                       Placement="Bottom"
+                       StaysOpen="True"
+                       AllowsTransparency="True"
+                       PopupAnimation="Fade">
+                    <local:SubjectPickerControl x:Name="SubjectPicker"/>
+                </Popup>
+            </StackPanel>
+
+            <!-- CENTER ZONE: Linking + Archive toggle -->
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
                 <Button x:Name="LinkingModeButton"
                         Content="Linking"
@@ -121,15 +141,35 @@
                           IsChecked="{Binding AppSettings.IsArchiveMode, Mode=TwoWay}"/>
             </StackPanel>
 
-            <!-- Gardener: plot point on right, link tracks on left -->
-            <Button x:Name="GardenerModeButton"
-                    Grid.Column="2"
-                    Content="Gardener"
-                    HorizontalAlignment="Right"
-                    Style="{StaticResource ModeButtonStyle}"
-                    ToolTip="Gardener mode — plot point on right, selected link tracks on left (middle-click to open in new window)"
-                    Click="GardenerMode_Click"
-                    PreviewMouseDown="GardenerModeButton_PreviewMouseDown"/>
+            <!-- RIGHT ZONE: plot point picker button + Gardener button -->
+            <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center"
+                        HorizontalAlignment="Right">
+
+                <!-- Plot point picker toggle button -->
+                <Button x:Name="PlotPointPickerButton"
+                        Style="{StaticResource PickerButtonStyle}"
+                        ToolTip="Pick plot point"
+                        Click="PlotPointPickerButton_Click">
+                    <TextBlock Text="⌖" FontSize="13" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
+                <!-- Plot point picker flyout -->
+                <Popup x:Name="PlotPointPickerPopup"
+                       PlacementTarget="{Binding ElementName=PlotPointPickerButton}"
+                       Placement="Bottom"
+                       StaysOpen="True"
+                       AllowsTransparency="True"
+                       PopupAnimation="Fade">
+                    <local:PlotPointPickerControl x:Name="PlotPointPicker"/>
+                </Popup>
+
+                <Button x:Name="GardenerModeButton"
+                        Content="Gardener"
+                        Style="{StaticResource ModeButtonStyle}"
+                        ToolTip="Gardener mode — plot point on right, selected link tracks on left (middle-click to open in new window)"
+                        Click="GardenerMode_Click"
+                        PreviewMouseDown="GardenerModeButton_PreviewMouseDown"/>
+            </StackPanel>
         </Grid>
 
         <!-- ══ THREE-COLUMN CONTENT AREA ════════════════════════════════════ -->
@@ -173,7 +213,9 @@
                     <ListBox x:Name="LinkCardsListBox"
                              Grid.Row="1"
                              BorderThickness="0"
-                             behaviors:ScrollPassthroughBehavior.Enabled="False" ItemsSource="{Binding LinkItems}" SelectedItem="{Binding SelectedLink, Mode=TwoWay}">
+                             behaviors:ScrollPassthroughBehavior.Enabled="False"
+                             ItemsSource="{Binding LinkItems}"
+                             SelectedItem="{Binding SelectedLink, Mode=TwoWay}">
                         <ListBox.ItemContainerStyle>
                             <Style TargetType="ListBoxItem">
                                 <Setter Property="HorizontalContentAlignment" Value="Stretch"/>

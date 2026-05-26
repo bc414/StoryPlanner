@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Controls.Primitives;
 using System.Windows.Input;
 using System.Windows.Threading;
 using WindowedStoryPlanner.ViewModels;
@@ -87,6 +88,12 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         DataContext = this;
         InitializeComponent();
 
+        // Wire up pickers
+        SubjectPicker.Registry       = _registry;
+        SubjectPicker.SubjectSelected   += OnSubjectPicked;
+        PlotPointPicker.Registry     = _registry;
+        PlotPointPicker.PlotPointSelected += OnPlotPointPicked;
+
         switch (initialMode)
         {
             case EditorMode.Expansion:
@@ -144,9 +151,8 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
     private void SwitchToExpansion()
     {
         // Reachable only from Linking — close the selected link and hide the panels
-        SelectedLink?.OnWindowClosed();
-        SelectedLink = null;
-        _currentMode  = EditorMode.Expansion;
+        ClearSelectedLinkSilent();
+        _currentMode = EditorMode.Expansion;
         UpdateLayout();
     }
 
@@ -166,13 +172,9 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
                 .FirstOrDefault(s => s.Id == SelectedLink.SubjectId);
             if (subject is null) return;
 
-            _subjectElement = subject;
-            _subjectElement.OnWindowOpened();
-
-            _plotPointElement?.OnWindowClosed();
-            _plotPointElement = null;
-
-            Title        = $"Subject — {_subjectElement.Name}";
+            ClearSelectedLinkSilent();
+            SetPlotPointElement(null);
+            SetSubjectElement(subject);
             _currentMode = EditorMode.Linking;
             UpdateLayout();
         }
@@ -186,13 +188,84 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
             .FirstOrDefault(pp => pp.Id == SelectedLink.PlotPointId);
         if (plotPoint is null) return;
 
-        _plotPointElement = plotPoint;
-        _plotPointElement.OnWindowOpened();
+        ClearSelectedLinkSilent();
+        SetSubjectElement(null);
+        SetPlotPointElement(plotPoint);
+        _currentMode = EditorMode.Gardener;
+        UpdateLayout();
+    }
 
+    // ── Primary element helpers ───────────────────────────────────────────
+
+    /// <summary>
+    /// Closes the current subject element, assigns the new one (or null), opens it,
+    /// and updates the window title. Does NOT change mode or call UpdateLayout.
+    /// </summary>
+    private void SetSubjectElement(SubjectViewModel? subject)
+    {
         _subjectElement?.OnWindowClosed();
-        _subjectElement = null;
+        _subjectElement = subject;
+        _subjectElement?.OnWindowOpened();
+        Title = subject is not null ? $"Subject — {subject.Name}" : Title;
+    }
 
-        Title        = $"Plot Point — {_plotPointElement.Title}";
+    /// <summary>
+    /// Closes the current plot point element, assigns the new one (or null), opens it,
+    /// and updates the window title. Does NOT change mode or call UpdateLayout.
+    /// </summary>
+    private void SetPlotPointElement(PlotPointViewModel? plotPoint)
+    {
+        _plotPointElement?.OnWindowClosed();
+        _plotPointElement = plotPoint;
+        _plotPointElement?.OnWindowOpened();
+        Title = plotPoint is not null ? $"Plot Point — {plotPoint.Title}" : Title;
+    }
+
+    /// <summary>
+    /// Clears SelectedLink without triggering the property setter's UpdateLayout call.
+    /// Use this when a full UpdateLayout will be called shortly afterward.
+    /// </summary>
+    private void ClearSelectedLinkSilent()
+    {
+        _selectedLink?.OnWindowClosed();
+        _selectedLink = null;
+        Notify(nameof(SelectedLink));
+    }
+
+    // ── Picker button clicks ──────────────────────────────────────────────
+
+    private void SubjectPickerButton_Click(object sender, RoutedEventArgs e)
+    {
+        SubjectPickerPopup.IsOpen = !SubjectPickerPopup.IsOpen;
+    }
+
+    private void PlotPointPickerButton_Click(object sender, RoutedEventArgs e)
+    {
+        PlotPointPickerPopup.IsOpen = !PlotPointPickerPopup.IsOpen;
+    }
+
+    // ── Picker selection handlers ─────────────────────────────────────────
+
+    private void OnSubjectPicked(SubjectViewModel subject)
+    {
+        SubjectPickerPopup.IsOpen = false;
+
+        // Always land in Expansion; clear any selected link and plot point
+        ClearSelectedLinkSilent();
+        SetPlotPointElement(null);
+        SetSubjectElement(subject);
+        _currentMode = EditorMode.Expansion;
+        UpdateLayout();
+    }
+
+    private void OnPlotPointPicked(PlotPointViewModel plotPoint)
+    {
+        PlotPointPickerPopup.IsOpen = false;
+
+        // Always land in Gardener; clear any selected link and subject
+        ClearSelectedLinkSilent();
+        SetSubjectElement(null);
+        SetPlotPointElement(plotPoint);
         _currentMode = EditorMode.Gardener;
         UpdateLayout();
     }
@@ -222,7 +295,6 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
     {
         if (SelectedLink is null) return;
 
-        // Close the selected link and clear the selection
         SelectedLink.OnWindowClosed();
         SelectedLink = null;
 
