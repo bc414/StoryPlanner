@@ -20,17 +20,47 @@ public partial class NoteTrackViewModel : ObservableObject
 
     public ObservableCollection<NoteTrackSectionViewModel> Sections { get; } = new();
 
-    public int DisplayOrder    => _definition.DisplayOrder;
-    public string TrackName    => _definition.TrackName;
-    public string Explanation  => _definition.UsageDirective;
-    public TrackType TrackType => _definition.TrackType;
+    public int DisplayOrder     => _definition.DisplayOrder;
+    public string TrackName     => _definition.TrackName;
+    public string Explanation   => _definition.UsageDirective;
+    public TrackType TrackType  => _definition.TrackType;
     public string CognitiveMode => _definition.TrackType.GetCognitiveMode();
     public NoteTrackDefinition Definition => _definition;
 
-    public int OwnerId       => _ownerId;
+    public int OwnerId         => _ownerId;
     public OwnerType OwnerType => _ownerType;
 
     public AppSettings AppSettings => _appSettings;
+
+    // ── HasNotes ──────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// True when this track owns at least one note in any state.
+    /// Drives the populated/empty layout split in NarrativeElementFullView.
+    /// </summary>
+    [ObservableProperty]
+    private bool _hasNotes;
+
+    private void RefreshHasNotes()
+    {
+        bool isUnassigned = _definition.Id == UnassignedTrack.Definition.Id;
+        HasNotes = _viewModelRegistry.AllNoteViewModels.Any(n =>
+            n.OwnerId   == _ownerId &&
+            n.OwnerType == _ownerType &&
+            (isUnassigned
+                ? n.NoteTrackDefinitionId == null
+                : n.NoteTrackDefinitionId == _definition.Id));
+    }
+
+    // ── IsFirstTrack ──────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Set by the parent NarrativeElementViewModel on the first populated track
+    /// (by DisplayOrder). Drives the archive-mode full-width trigger in XAML.
+    /// Observable so the XAML trigger reacts when tracks move between groups.
+    /// </summary>
+    [ObservableProperty]
+    private bool _isFirstTrack;
 
     // ── Display mode ──────────────────────────────────────────────────────
 
@@ -80,7 +110,7 @@ public partial class NoteTrackViewModel : ObservableObject
         _storyService      = storyService;
         _viewModelRegistry = registry;
         _editorCoordinator = editorCoordinator;
-        _appSettings = appSettings;
+        _appSettings       = appSettings;
 
         _appSettings.PropertyChanged += (_, e) =>
         {
@@ -89,6 +119,12 @@ public partial class NoteTrackViewModel : ObservableObject
             foreach (var section in Sections)
                 section.RefreshReadonlyState();
         };
+
+        _viewModelRegistry.AllNoteViewModels.CollectionChanged += (_, _) => RefreshHasNotes();
+        _viewModelRegistry.NoteViewModelMutated                += _      => RefreshHasNotes();
+
+        // Seed the initial value — story may already be loaded when this track is created.
+        RefreshHasNotes();
     }
 
     // ── Lifecycle ─────────────────────────────────────────────────────────
@@ -151,6 +187,4 @@ public partial class NoteTrackViewModel : ObservableObject
         if (destination is not null)
             destination.SelectedNote = note;
     }
-
-    public bool IsFirstTrack { get; set; }
 }

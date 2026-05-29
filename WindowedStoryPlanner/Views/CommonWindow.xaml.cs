@@ -94,6 +94,12 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         PlotPointPicker.Registry     = _registry;
         PlotPointPicker.PlotPointSelected += OnPlotPointPicked;
 
+        // Wire up create-link pickers
+        CreateLinkPlotPointPicker.Registry        = _registry;
+        CreateLinkPlotPointPicker.PlotPointSelected += OnCreateLinkPlotPointPicked;
+        CreateLinkSubjectPicker.Registry          = _registry;
+        CreateLinkSubjectPicker.SubjectSelected   += OnCreateLinkSubjectPicked;
+
         switch (initialMode)
         {
             case EditorMode.Expansion:
@@ -244,6 +250,23 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         PlotPointPickerPopup.IsOpen = !PlotPointPickerPopup.IsOpen;
     }
 
+    // ── Create-link picker button ─────────────────────────────────────────
+
+    private void CreateLinkButton_Click(object sender, RoutedEventArgs e)
+    {
+        if (_currentMode == EditorMode.Gardener)
+        {
+            // Close the other one in case it was left open, then toggle this one
+            CreateLinkPlotPointPickerPopup.IsOpen = false;
+            CreateLinkSubjectPickerPopup.IsOpen   = !CreateLinkSubjectPickerPopup.IsOpen;
+        }
+        else
+        {
+            CreateLinkSubjectPickerPopup.IsOpen    = false;
+            CreateLinkPlotPointPickerPopup.IsOpen  = !CreateLinkPlotPointPickerPopup.IsOpen;
+        }
+    }
+
     // ── Picker selection handlers ─────────────────────────────────────────
 
     private void OnSubjectPicked(SubjectViewModel subject)
@@ -268,6 +291,52 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         SetPlotPointElement(plotPoint);
         _currentMode = EditorMode.Gardener;
         UpdateLayout();
+    }
+
+    // ── Create-link pick handlers ─────────────────────────────────────────
+
+    /// <summary>
+    /// Expansion and Linking modes: user picked a plot point to link to the current subject.
+    /// Creates (or finds) the link, then selects it. Switches to Linking if in Expansion.
+    /// </summary>
+    private async void OnCreateLinkPlotPointPicked(PlotPointViewModel plotPoint)
+    {
+        CreateLinkPlotPointPickerPopup.IsOpen = false;
+
+        if (_subjectElement is null) return;
+
+        await _editorCoordinator.CreatePlotPointSubjectLinkAsync(plotPoint, _subjectElement);
+
+        var link = _registry.AllPlotPointSubjectLinkViewModels
+            .FirstOrDefault(l => l.PlotPointId == plotPoint.Id && l.SubjectId == _subjectElement.Id);
+        if (link is null) return;
+
+        // Switch to Linking if still in Expansion (subject is already open, no re-init needed)
+        if (_currentMode == EditorMode.Expansion)
+            _currentMode = EditorMode.Linking;
+
+        // Selecting the link calls OnWindowOpened + UpdateLayout via the property setter
+        SelectedLink = link;
+    }
+
+    /// <summary>
+    /// Gardener mode: user picked a subject to link to the current plot point.
+    /// Creates (or finds) the link, then selects it. Stays in Gardener mode.
+    /// </summary>
+    private async void OnCreateLinkSubjectPicked(SubjectViewModel subject)
+    {
+        CreateLinkSubjectPickerPopup.IsOpen = false;
+
+        if (_plotPointElement is null) return;
+
+        await _editorCoordinator.CreatePlotPointSubjectLinkAsync(_plotPointElement, subject);
+
+        var link = _registry.AllPlotPointSubjectLinkViewModels
+            .FirstOrDefault(l => l.PlotPointId == _plotPointElement.Id && l.SubjectId == subject.Id);
+        if (link is null) return;
+
+        // Stay in Gardener; selecting the link calls OnWindowOpened + UpdateLayout
+        SelectedLink = link;
     }
 
     // ── Link card selection ───────────────────────────────────────────────

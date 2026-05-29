@@ -24,12 +24,28 @@
             </local:NarrativeElementWidgetSelector.ChapterTemplate>
         </local:NarrativeElementWidgetSelector>
 
-        <CollectionViewSource x:Key="SortedNoteTracks" Source="{Binding NoteTracks}">
-            <CollectionViewSource.SortDescriptions>
-                <scm:SortDescription PropertyName="DisplayOrder" Direction="Ascending"
-                                 xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"/>
-            </CollectionViewSource.SortDescriptions>
-        </CollectionViewSource>
+        <!-- Shared item template for both populated and empty track ItemsControls -->
+        <DataTemplate x:Key="NoteTrackItemTemplate">
+            <local:NoteTrackView Margin="0,0,8,0">
+                <local:NoteTrackView.Style>
+                    <Style TargetType="local:NoteTrackView">
+                        <Setter Property="Width" Value="360"/>
+                        <Style.Triggers>
+                            <!-- Archive mode + first track: fill the viewport width -->
+                            <MultiDataTrigger>
+                                <MultiDataTrigger.Conditions>
+                                    <Condition Binding="{Binding AppSettings.IsArchiveMode}" Value="True"/>
+                                    <Condition Binding="{Binding IsFirstTrack}"             Value="True"/>
+                                </MultiDataTrigger.Conditions>
+                                <Setter Property="Width"
+                                        Value="{Binding ViewportWidth,
+                                                RelativeSource={RelativeSource AncestorType=ScrollViewer}}"/>
+                            </MultiDataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </local:NoteTrackView.Style>
+            </local:NoteTrackView>
+        </DataTemplate>
     </UserControl.Resources>
 
     <DockPanel LastChildFill="True">
@@ -37,7 +53,7 @@
         <!-- Top widget area -->
         <ContentControl DockPanel.Dock="Top"
                         MinHeight="80"
-                        Margin="8,8,8,4"
+                        Margin="8,0,8,0"
                         Content="{Binding}"
                         ContentTemplateSelector="{StaticResource WidgetSelector}"
                         dd:DragDrop.IsDropTarget="True"
@@ -48,38 +64,36 @@
                       DockPanel.Dock="Bottom"
                       HorizontalScrollBarVisibility="Auto"
                       VerticalScrollBarVisibility="Disabled">
-            <ItemsControl ItemsSource="{Binding Source={StaticResource SortedNoteTracks}}"
-                          Margin="8,4,4,8"
-                          VirtualizingPanel.IsVirtualizing="False">
-                <ItemsControl.ItemsPanel>
-                    <ItemsPanelTemplate>
-                        <StackPanel Orientation="Horizontal"/>
-                    </ItemsPanelTemplate>
-                </ItemsControl.ItemsPanel>
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <local:NoteTrackView Margin="0,0,8,0">
-                            <local:NoteTrackView.Style>
-                                <Style TargetType="local:NoteTrackView">
-                                    <Setter Property="Width" Value="360"/>
-                                    <Style.Triggers>
-                                        <!-- Archive mode + first track: fill the viewport width -->
-                                        <MultiDataTrigger>
-                                            <MultiDataTrigger.Conditions>
-                                                <Condition Binding="{Binding AppSettings.IsArchiveMode}" Value="True"/>
-                                                <Condition Binding="{Binding IsFirstTrack}"             Value="True"/>
-                                            </MultiDataTrigger.Conditions>
-                                            <Setter Property="Width"
-                                                    Value="{Binding ViewportWidth,
-                                                            RelativeSource={RelativeSource AncestorType=ScrollViewer}}"/>
-                                        </MultiDataTrigger>
-                                    </Style.Triggers>
-                                </Style>
-                            </local:NoteTrackView.Style>
-                        </local:NoteTrackView>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
+            <StackPanel Orientation="Horizontal"
+                        Margin="8,4,4,8">
+
+                <!-- ── Populated tracks: horizontal row (left) ── -->
+                <ItemsControl ItemsSource="{Binding PopulatedNoteTracks}"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              ItemTemplate="{StaticResource NoteTrackItemTemplate}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <StackPanel Orientation="Horizontal"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </ItemsControl>
+
+                <!-- ── Empty tracks: vertical wrap (right) ── -->
+                <!-- WrapPanel fills downward then starts a new column, matching the
+                     height of the ScrollViewer so columns align with populated tracks. -->
+                <ItemsControl ItemsSource="{Binding EmptyNoteTracks}"
+                              VirtualizingPanel.IsVirtualizing="False"
+                              ItemTemplate="{StaticResource NoteTrackItemTemplate}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <WrapPanel Orientation="Vertical"
+                                       Height="{Binding ActualHeight,
+                                               RelativeSource={RelativeSource AncestorType=ScrollViewer}}"/>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                </ItemsControl>
+
+            </StackPanel>
         </ScrollViewer>
 
     </DockPanel>

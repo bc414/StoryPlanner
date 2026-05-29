@@ -40,12 +40,12 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="Title" Style="{StaticResource LabelStyle}" Grid.Column="0" Grid.Row="0"/>
                 <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"
         Style="{StaticResource TitleTextBox}" Grid.Column="0" Grid.Row="1"/>
-            </Grid>
-            <Border dd:DragDrop.IsDragSource="True"
+            <Border dd:DragDrop.IsDragSource="True" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
                     dd:DragDrop.DragAdornerTemplate="{StaticResource PlotPointDragAdorner}"
                     BorderBrush="#AAAAAA"
                     BorderThickness="1"
@@ -60,6 +60,7 @@
                            FontSize="11"
                            Foreground="#666666"/>
             </Border>
+            </Grid>
         </StackPanel>
     </Grid>
 </UserControl>

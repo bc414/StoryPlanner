@@ -31,7 +31,7 @@
     </UserControl.Resources>
 
     <Grid>
-        <StackPanel Margin="8">
+        <StackPanel Margin="2">
 
             <Grid>
                 <Grid.RowDefinitions>
@@ -41,6 +41,7 @@
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Text="NAME" Style="{StaticResource LabelStyle}" Grid.Column="0" Grid.Row="0"/>
                 <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
@@ -49,10 +50,10 @@
                 <ComboBox ItemsSource="{Binding AvailableSubjectDefinitions}"
                     SelectedItem="{Binding SelectedSubjectDefinition, Mode=TwoWay}"
                     DisplayMemberPath="SubjectType"
-                    Margin="4,0,0,8" Grid.Row="1" Grid.Column="1" Width="160"/>
-            </Grid>
+                    Margin="4,0,0,0" Grid.Row="1" Grid.Column="1" Width="160"/>
+            
 
-            <Border dd:DragDrop.IsDragSource="True"
+            <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" dd:DragDrop.IsDragSource="True"
                     dd:DragDrop.DragAdornerTemplate="{StaticResource SubjectDragAdorner}"
                     BorderBrush="#AAAAAA"
                     BorderThickness="1"
@@ -67,6 +68,7 @@
                            FontSize="11"
                            Foreground="#666666"/>
             </Border>
+            </Grid>
         </StackPanel>
     </Grid>
 </UserControl>

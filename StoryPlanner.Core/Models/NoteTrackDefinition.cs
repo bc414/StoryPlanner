@@ -34,6 +34,8 @@ namespace StoryPlanner.Core.Models
         ThematicEvidence, //Philosopher
         NotesToSelf, //Project manager
         Analogies, //Connections to real world
+        NarrativeArchitecture,
+        Canon
     }
 
     public static class UnassignedTrack
@@ -54,23 +56,27 @@ namespace StoryPlanner.Core.Models
             switch (trackType)
             {
                 case TrackType.Ontology:
-                    return "Ontology Notes - written by a world builder in god-mode defining what the rules of the fictional universe are";
+                    return "Ontology Notes (Layer 1) - written by a world builder in god-mode defining what the rules of the fictional universe are";
                 case TrackType.Civilization:
-                    return "Civilization Notes - written by a world builder building things made by in-universe agents in response to their ontology";
+                    return "Civilization Notes (Layer 3) - written by a world builder building things made by in-universe agents in response to their ontology";
                 case TrackType.History:
-                    return "History Notes - written by an in-universe historian reporting facts";
+                    return "History Notes (Layer 2) - written by an in-universe historian reporting facts";
                 case TrackType.Characterization:
-                    return "Characterization Notes - written by a psychologist asserting the truth of what makes a character who they are";
+                    return "Characterization Notes (Layer 3) - written by a psychologist asserting the truth of what makes a character who they are";
                 case TrackType.PageDesign:
                     return "Page Notes - written by a director staging what the reader observes on the page";
                 case TrackType.WorldInference:
                     return "World Inference Notes - written by a reader psychologist designing what a reader should infer from what is on the page";
                 case TrackType.ThematicEvidence:
-                    return "Thematic Evidence Notes - written by a philosopher deploying evidence for a reader to arrive at a thematic proposition";
+                    return "Thematic Evidence Notes (Layer 5) - written by a philosopher deploying evidence for a reader to arrive at a thematic proposition";
                 case TrackType.NotesToSelf:
                     return "Notes to self - written by the author, talking about the story planning project and process";
                 case TrackType.Analogies:
                     return "Analogical Notes - written by the author to relate the story to the real world";
+                case TrackType.NarrativeArchitecture:
+                    return "Narrative Architecture Notes (Layer 4) - written by the author planning out how the reader should experience the story world";
+                case TrackType.Canon:
+                    return "Canon Notes - written by the author to constrain the story within established canon, build upon and recontextualize canon";
                 default:
                     return "Unset Notes";
             }

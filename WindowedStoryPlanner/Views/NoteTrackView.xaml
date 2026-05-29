@@ -11,6 +11,7 @@
 
     <UserControl.Resources>
         <local:CognitiveModeToColorConverter x:Key="CognitiveModeToColor"/>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
     </UserControl.Resources>
 
     <Border BorderThickness="3"
@@ -120,6 +121,18 @@
                      when programmatic selection changes occur in sibling sections. -->
                 <ItemsControl ItemsSource="{Binding Sections}"
                               RequestBringIntoView="SectionsItemsControl_RequestBringIntoView">
+
+                    <!-- Collapse sections whose IsVisible is false.
+                         When HasNotes is false, only the Unset section (the drop zone)
+                         remains in the layout; Confirmed and Flagged are fully removed. -->
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Visibility"
+                                    Value="{Binding IsVisible,
+                                            Converter={StaticResource BoolToVisibility}}"/>
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+
                     <ItemsControl.ItemTemplate>
                         <DataTemplate>
                             <local:NoteTrackSectionView/>

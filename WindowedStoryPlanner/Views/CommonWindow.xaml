@@ -127,13 +127,42 @@
                 </Popup>
             </StackPanel>
 
-            <!-- CENTER ZONE: Linking + Archive toggle -->
+            <!-- CENTER ZONE: Linking + create-link picker + Archive toggle -->
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
                 <Button x:Name="LinkingModeButton"
                         Content="Linking"
                         Style="{StaticResource ModeButtonStyle}"
                         ToolTip="Linking mode — subject on left (read-only), selected link tracks on right"
                         Click="LinkingMode_Click"/>
+
+                <!-- Create-link picker toggle button -->
+                <Button x:Name="CreateLinkButton"
+                        Style="{StaticResource PickerButtonStyle}"
+                        ToolTip="Create a new link to this subject / plot point"
+                        Click="CreateLinkButton_Click">
+                    <TextBlock Text="🔗" FontSize="12" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
+                <!-- Create-link: plot point picker (Expansion and Linking modes) -->
+                <Popup x:Name="CreateLinkPlotPointPickerPopup"
+                       PlacementTarget="{Binding ElementName=CreateLinkButton}"
+                       Placement="Bottom"
+                       StaysOpen="True"
+                       AllowsTransparency="True"
+                       PopupAnimation="Fade">
+                    <local:PlotPointPickerControl x:Name="CreateLinkPlotPointPicker"/>
+                </Popup>
+
+                <!-- Create-link: subject picker (Gardener mode) -->
+                <Popup x:Name="CreateLinkSubjectPickerPopup"
+                       PlacementTarget="{Binding ElementName=CreateLinkButton}"
+                       Placement="Bottom"
+                       StaysOpen="True"
+                       AllowsTransparency="True"
+                       PopupAnimation="Fade">
+                    <local:SubjectPickerControl x:Name="CreateLinkSubjectPicker"/>
+                </Popup>
+
                 <CheckBox Content="Archive"
                           VerticalAlignment="Center"
                           Margin="12,0,4,0"

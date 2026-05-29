@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 
@@ -17,8 +18,18 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     protected readonly IViewModelRegistry _viewModelRegistry;
     protected readonly IContentFactory _editorCoordinator;
 
+    // Internal master list used for lifecycle management (Initialize / Uninitialize).
     public ObservableCollection<NoteTrackViewModel> NoteTracks { get; set; } = new();
     public ObservableCollection<NarrativePropertyViewModel> NarrativeProperties { get; set; } = new();
+
+    /// <summary>Tracks that own at least one note — displayed left-to-right in the main scroll area.</summary>
+    public ObservableCollection<NoteTrackViewModel> PopulatedNoteTracks { get; } = new();
+
+    /// <summary>Tracks with no notes — stacked vertically in a WrapPanel to the right of populated tracks.</summary>
+    public ObservableCollection<NoteTrackViewModel> EmptyNoteTracks { get; } = new();
+
+    // Keyed delegates so we can cleanly unsubscribe when tracks are torn down.
+    private readonly Dictionary<NoteTrackViewModel, PropertyChangedEventHandler> _trackHandlers = new();
 
     private int _openWindowCount = 0;
 
@@ -51,7 +62,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
             .Where(n => n.OwnerId == _ownerId && n.OwnerType == _ownerType)
             .ToList();
 
-        TotalNoteCount        = owned.Count;
+        TotalNoteCount     = owned.Count;
         ConfirmedNoteCount = owned.Count(n => n.NoteState == NoteState.Confirmed);
     }
 
@@ -86,7 +97,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
 
         _viewModelRegistry.AllNoteViewModels.CollectionChanged += OnAllNotesCollectionChanged;
         _viewModelRegistry.NoteViewModelMutated += OnNoteViewModelMutated;
-        _viewModelRegistry.StoryLoaded += OnStoryLoaded;
+        _viewModelRegistry.StoryLoaded          += OnStoryLoaded;
     }
 
     protected void InitializeCollections(
@@ -108,24 +119,105 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     {
         if (_noteTrackFactory is null || _propertyFactory is null) return;
 
+        // Unsubscribe from any existing tracks before clearing.
+        foreach (var track in NoteTracks)
+            UnsubscribeFromTrack(track);
+
         NoteTracks.Clear();
         NarrativeProperties.Clear();
+        PopulatedNoteTracks.Clear();
+        EmptyNoteTracks.Clear();
 
         foreach (var ntd in _noteTrackFactory())
-            NoteTracks.Add(new NoteTrackViewModel(
+        {
+            var track = new NoteTrackViewModel(
                 ntd, _ownerId, _ownerType,
-                _viewModelRegistry, _storyService, _editorCoordinator, AppSettings));
+                _viewModelRegistry, _storyService, _editorCoordinator, AppSettings);
+            NoteTracks.Add(track);
+            SubscribeToTrack(track);
+            DistributeTrack(track);
+        }
 
-        // Always add an unassigned track at the end for notes with no track set
-        NoteTracks.Add(new NoteTrackViewModel(
+        // Always add an unassigned track at the end for notes with no track set.
+        var unassigned = new NoteTrackViewModel(
             UnassignedTrack.Definition, _ownerId, _ownerType,
-            _viewModelRegistry, _storyService, _editorCoordinator, AppSettings));
+            _viewModelRegistry, _storyService, _editorCoordinator, AppSettings);
+        NoteTracks.Add(unassigned);
+        SubscribeToTrack(unassigned);
+        DistributeTrack(unassigned);
 
         foreach (var npd in _propertyFactory())
             NarrativeProperties.Add(new NarrativePropertyViewModel(
                 _ownerId, _ownerType, npd, _viewModelRegistry, _storyService));
 
-        var first = NoteTracks.OrderBy(t => t.DisplayOrder).FirstOrDefault();
+        RefreshIsFirstTrack();
+    }
+
+    // ── Track distribution helpers ────────────────────────────────────────
+
+    private void SubscribeToTrack(NoteTrackViewModel track)
+    {
+        PropertyChangedEventHandler handler = (_, e) =>
+        {
+            if (e.PropertyName == nameof(NoteTrackViewModel.HasNotes))
+                OnTrackHasNotesChanged(track);
+        };
+        _trackHandlers[track] = handler;
+        track.PropertyChanged += handler;
+    }
+
+    private void UnsubscribeFromTrack(NoteTrackViewModel track)
+    {
+        if (_trackHandlers.TryGetValue(track, out var handler))
+        {
+            track.PropertyChanged -= handler;
+            _trackHandlers.Remove(track);
+        }
+    }
+
+    /// <summary>Inserts <paramref name="track"/> into the correct sorted collection based on <see cref="NoteTrackViewModel.HasNotes"/>.</summary>
+    private void DistributeTrack(NoteTrackViewModel track)
+    {
+        if (track.HasNotes)
+            InsertSorted(PopulatedNoteTracks, track);
+        else
+            InsertSorted(EmptyNoteTracks, track);
+    }
+
+    private static void InsertSorted(ObservableCollection<NoteTrackViewModel> collection, NoteTrackViewModel track)
+    {
+        int index = 0;
+        while (index < collection.Count && collection[index].DisplayOrder <= track.DisplayOrder)
+            index++;
+        collection.Insert(index, track);
+    }
+
+    private void OnTrackHasNotesChanged(NoteTrackViewModel track)
+    {
+        if (track.HasNotes)
+        {
+            EmptyNoteTracks.Remove(track);
+            InsertSorted(PopulatedNoteTracks, track);
+        }
+        else
+        {
+            PopulatedNoteTracks.Remove(track);
+            InsertSorted(EmptyNoteTracks, track);
+        }
+
+        RefreshIsFirstTrack();
+    }
+
+    /// <summary>
+    /// Marks the first track by DisplayOrder in <see cref="PopulatedNoteTracks"/> as
+    /// <see cref="NoteTrackViewModel.IsFirstTrack"/> so the archive-mode width trigger fires correctly.
+    /// </summary>
+    private void RefreshIsFirstTrack()
+    {
+        foreach (var t in NoteTracks)
+            t.IsFirstTrack = false;
+
+        var first = PopulatedNoteTracks.FirstOrDefault(); // already sorted by DisplayOrder
         if (first is not null)
             first.IsFirstTrack = true;
     }

@@ -101,9 +101,12 @@
             <!-- ScrollPassthroughBehavior lets wheel events bypass the ListBox's internal  -->
             <!-- ScrollViewer and bubble up to NoteTrackView's ScrollViewer instead.        -->
             <!-- IsDragSource/IsDropTarget are disabled when the section is readonly.       -->
+            <!-- MinHeight ensures the Unset section has a usable drop target on empty      -->
+            <!-- tracks even when no notes are present.                                     -->
             <ListBox DockPanel.Dock="Bottom"
                      ItemsSource="{Binding SectionNotes}"
                      SelectedItem="{Binding SelectedNote, Mode=TwoWay}"
+                     MinHeight="{Binding MinDropHeight}"
                      Background="Transparent"
                      BorderThickness="0"
                      Padding="4"

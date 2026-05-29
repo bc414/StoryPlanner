@@ -73,9 +73,26 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     /// <summary>Called by the parent track when <see cref="NoteTrackViewModel.TrackDisplayMode"/> changes.</summary>
     public void RefreshReadonlyState()
     {
-        IsReadOnly           = _parentTrack.IsReadOnly;
+        IsReadOnly            = _parentTrack.IsReadOnly;
         CanPromoteToConfirmed = _parentTrack.CanPromoteToConfirmed;
     }
+
+    // ── Visibility / drop-zone sizing ─────────────────────────────────────
+
+    /// <summary>
+    /// True when this section should be shown in the UI.
+    /// The Unset section is always visible (it acts as the drop zone for empty tracks).
+    /// Confirmed and Flagged are only visible when the parent track has at least one note.
+    /// </summary>
+    public bool IsVisible => _targetState == NoteState.Unset || _parentTrack.HasNotes;
+
+    /// <summary>
+    /// Minimum height for the section's note ListBox.
+    /// When the track is empty, the Unset section gets a guaranteed 40 px drop target;
+    /// otherwise 0 (the ListBox grows naturally with its content).
+    /// </summary>
+    public double MinDropHeight =>
+        _targetState == NoteState.Unset && !_parentTrack.HasNotes ? 40.0 : 0.0;
 
     // ── Constructor ───────────────────────────────────────────────────────
 
@@ -108,12 +125,17 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
         _viewModelRegistry.NoteViewModelMutated += OnNoteMutated;
         _viewModelRegistry.NoteSelected         += OnNoteSelected;
+
+        // React to HasNotes changes on the parent track so IsVisible and MinDropHeight
+        // update when the last note leaves or the first note arrives.
+        _parentTrack.PropertyChanged += OnParentTrackPropertyChanged;
     }
 
     public void Dispose()
     {
         _viewModelRegistry.NoteViewModelMutated -= OnNoteMutated;
         _viewModelRegistry.NoteSelected         -= OnNoteSelected;
+        _parentTrack.PropertyChanged            -= OnParentTrackPropertyChanged;
     }
 
     // ── Internal registry events ──────────────────────────────────────────
@@ -145,6 +167,15 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         finally
         {
             _isReindexing = false;
+        }
+    }
+
+    private void OnParentTrackPropertyChanged(object? sender, PropertyChangedEventArgs e)
+    {
+        if (e.PropertyName == nameof(NoteTrackViewModel.HasNotes))
+        {
+            OnPropertyChanged(nameof(IsVisible));
+            OnPropertyChanged(nameof(MinDropHeight));
         }
     }
 
@@ -272,9 +303,9 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
         SelectedNote.NoteState = SelectedNote.NoteState switch
         {
-            NoteState.Flagged                                  => NoteState.Unset,
-            NoteState.Unset when CanPromoteToConfirmed         => NoteState.Confirmed,
-            _                                                  => SelectedNote.NoteState,
+            NoteState.Flagged                          => NoteState.Unset,
+            NoteState.Unset when CanPromoteToConfirmed => NoteState.Confirmed,
+            _                                          => SelectedNote.NoteState,
         };
 
         _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
