@@ -148,15 +148,30 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
 
             var color = mode switch
             {
-                TrackType.Ontology => Color.FromRgb(0xB0, 0xD4, 0xE3),             // Pastel Blue - foundational knowledge
-                TrackType.Civilization => Color.FromRgb(0xF4, 0xD2, 0xAB),         // Pastel Peach - construction & tangible world
-                TrackType.History => Color.FromRgb(0xDB, 0xB8, 0xAF),              // Pastel Rust - temporal reflection
-                TrackType.Characterization => Color.FromRgb(0xEB, 0xC5, 0xCF),     // Pastel Rose - psychological depth
-                TrackType.PageDesign => Color.FromRgb(0xD7, 0xBD, 0xE1),           // Pastel Purple - theatrical staging
-                TrackType.WorldInference => Color.FromRgb(0xC5, 0xC8, 0xDC),       // Pastel Indigo - cognitive inference
-                TrackType.ThematicEvidence => Color.FromRgb(0xC5, 0xE0, 0xB4),     // Pastel Green - philosophical wisdom
-                TrackType.NotesToSelf => Color.FromRgb(0xF2, 0xCA, 0xDA),          // Pastel Pink - intimate author's voice
-                TrackType.Analogies => Color.FromRgb(0xE0, 0xD2, 0xBE),            // Pastel Tan - real-world connection
+                // Layer 1 - Reds
+                TrackType.Ontology              => Color.FromRgb(0xF4, 0xAA, 0xA8), // Pastel Red        - foundational rules
+
+                // Layer 2 - Oranges
+                TrackType.History               => Color.FromRgb(0xF4, 0xC8, 0x9A), // Pastel Orange     - temporal record
+                TrackType.Civilization          => Color.FromRgb(0xF8, 0xDA, 0xA0), // Pastel Amber      - built world
+
+                // Layer 3 - Yellows
+                TrackType.Characterization      => Color.FromRgb(0xF8, 0xF0, 0x9C), // Pastel Yellow     - psychological depth
+
+                // Layer 4 - Greens
+                TrackType.NarrativeArchitecture => Color.FromRgb(0xB8, 0xE4, 0xA8), // Pastel Green       - structural design
+                TrackType.PageDesign            => Color.FromRgb(0x9C, 0xDC, 0xA4), // Pastel Pure Green  - staging & scene (prose-facing)
+                TrackType.WorldInference        => Color.FromRgb(0x90, 0xC4, 0xE8), // Pastel Cyan-Blue   - reader cognition (must not enter prose)
+
+                // Layer 5 - Blues
+                TrackType.ThematicEvidence      => Color.FromRgb(0xA0, 0xB0, 0xF4), // Pastel Blue        - philosophical meaning
+
+                // Author Voice - Indigo → Purple → Pink
+                TrackType.Analogies             => Color.FromRgb(0xB0, 0xB0, 0xE8), // Pastel Indigo     - real-world connection
+                TrackType.Canon                 => Color.FromRgb(0xCC, 0xAA, 0xE4), // Pastel Purple     - established canon
+                TrackType.NotesToSelf           => Color.FromRgb(0xF2, 0xB0, 0xCC), // Pastel Pink       - intimate author voice
+
+                // Unset
                 _ => Colors.LightGray
             };
 
