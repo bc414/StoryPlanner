@@ -5,8 +5,10 @@ using StoryPlanner.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace WindowedStoryPlanner.ViewModels;
 
@@ -47,7 +49,11 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     /// The registry collections are already cleared and repopulated by ProjectLoader directly —
     /// this only needs to sync the derived UI list.
     /// </summary>
-    public void Reload() => RefreshAvailableSubjectTypes();
+    public void Reload()
+    {
+        RefreshAvailableSubjectTypes();
+        SortNoteTrackDefinitions();
+    }
 
     private void RefreshAvailableSubjectTypes()
     {
@@ -122,5 +128,84 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         _storyService.NoteTrackDefinitions.Remove(vm.Model);
         NoteTrackDefinitions.Remove(vm);
         await _storyService.SaveAsync();
+    }
+
+    private void SortNoteTrackDefinitions()
+    {
+        var sorted = NoteTrackDefinitions
+            .OrderBy(SectionOrder)
+            .ThenBy(SectionKey,     StringComparer.OrdinalIgnoreCase)
+            .ThenBy(SubGroupOrder)
+            .ThenBy(t => t.DisplayOrder)
+            .ToList();
+
+        for (int targetIndex = 0; targetIndex < sorted.Count; targetIndex++)
+        {
+            int currentIndex = NoteTrackDefinitions.IndexOf(sorted[targetIndex]);
+            if (currentIndex != targetIndex)
+                NoteTrackDefinitions.Move(currentIndex, targetIndex);
+        }
+    }
+
+    // ── Sort key helpers (mirror the exporter's grouping logic) ───────────────
+
+    private static string SectionKey(NoteTrackDefinitionViewModel t) =>
+        t.OwnerType switch
+        {
+            OwnerType.Subject              => string.IsNullOrWhiteSpace(t.SelectedSubjectType)
+                                                 ? "Unassigned Subject"
+                                                 : t.SelectedSubjectType,
+            OwnerType.PlotPointSubjectLink => string.IsNullOrWhiteSpace(t.SelectedSubjectType)
+                                                 ? "Unassigned Subject"
+                                                 : t.SelectedSubjectType,
+            OwnerType.PlotPoint            => "Plot Point",
+            OwnerType.Chapter              => "Chapter",
+            _                              => t.OwnerType.ToString()
+        };
+
+    private static int SectionOrder(NoteTrackDefinitionViewModel t) =>
+        t.OwnerType switch
+        {
+            OwnerType.PlotPoint => int.MaxValue - 1,
+            OwnerType.Chapter   => int.MaxValue,
+            _                   => 0   // subject-type sections sort alphabetically via SectionKey
+        };
+
+    private static int SubGroupOrder(NoteTrackDefinitionViewModel t) =>
+        t.OwnerType == OwnerType.PlotPointSubjectLink ? 1 : 0;
+
+    [RelayCommand]
+    private void ResortNoteTrackDefinitions() => SortNoteTrackDefinitions();
+
+    [RelayCommand]
+    private void ExportDefinitionsToMarkdown()
+    {
+        string projectPath = _storyService.CurrentFilePath;
+        string projectName = Path.GetFileNameWithoutExtension(projectPath);
+        string outputPath  = Path.Combine(Path.GetDirectoryName(projectPath)!, $"{projectName}-definitions.md");
+
+        var subjectData = SubjectDefinitions
+            .Select(s => (s.SubjectType, s.DisplayOrder));
+
+        var trackData = NoteTrackDefinitions
+            .Select(t => new NoteTrackDefinitionExportData(
+                TrackName:           t.TrackName,
+                TrackType:           t.TrackType.ToString(),
+                OwnerType:           t.OwnerType.ToString(),
+                SelectedSubjectType: t.SelectedSubjectType,
+                IsSingleton:         t.IsSingleton,
+                SupportsWorldDate:   t.SupportsWorldDate,
+                SupportsTheme:       t.SupportsTheme,
+                CanEditInAuditMode:  t.CanEditInAuditMode,
+                DisplayQuestion:     t.DisplayQuestion ?? string.Empty,
+                UsageDirective:      t.UsageDirective  ?? string.Empty,
+                AuditDirective:      t.AuditDirective  ?? string.Empty,
+                DisplayOrder:        t.DisplayOrder));
+
+        string markdown = DefinitionsMarkdownExporter.Build(subjectData, trackData);
+        File.WriteAllText(outputPath, markdown);
+
+        MessageBox.Show($"Exported to:\n{outputPath}", "Export Complete",
+            MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }
