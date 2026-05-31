@@ -9,7 +9,7 @@ namespace WindowedStoryPlanner.ViewModels
 {
     public partial class PlotPointViewModel : NarrativeElementViewModel
     {
-        public ICollectionView PlotPointSubjectLinks { get; set; }
+        public ICollectionView? PlotPointSubjectLinks { get; private set; }
         private PlotPoint _plotPoint;
         public PlotPoint PlotPoint => _plotPoint;
         private readonly IWindowManager _windowManager;
@@ -71,7 +71,20 @@ namespace WindowedStoryPlanner.ViewModels
                           .Where(npd => npd.OwnerType == OwnerType.PlotPoint)
                           .ToList());
 
-            var view = new ListCollectionView(viewModelRegistry.AllPlotPointSubjectLinkViewModels)
+            if (viewModelRegistry.IsStoryLoaded)
+                BuildLinkView();
+
+            _windowManager = windowManager;
+        }
+
+        protected override void OnStoryFullyLoaded()
+        {
+            BuildLinkView();
+        }
+
+        private void BuildLinkView()
+        {
+            var view = new ListCollectionView(_viewModelRegistry.AllPlotPointSubjectLinkViewModels)
             {
                 Filter = obj => obj is PlotPointSubjectLinkViewModel link && link.PlotPointId == _plotPoint.Id,
                 CustomSort = Comparer<object>.Create((a, b) =>
@@ -79,12 +92,12 @@ namespace WindowedStoryPlanner.ViewModels
                     if (a is not PlotPointSubjectLinkViewModel la || b is not PlotPointSubjectLinkViewModel lb)
                         return 0;
 
-                    var subjectA = viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == la.SubjectId);
-                    var subjectB = viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == lb.SubjectId);
+                    var subjectA = _viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == la.SubjectId);
+                    var subjectB = _viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == lb.SubjectId);
 
-                    var defOrderA = viewModelRegistry.AllSubjectDefinitionViewModels
+                    var defOrderA = _viewModelRegistry.AllSubjectDefinitionViewModels
                         .FirstOrDefault(d => d.Id == subjectA?.SubjectDefinitionId)?.DisplayOrder ?? int.MaxValue;
-                    var defOrderB = viewModelRegistry.AllSubjectDefinitionViewModels
+                    var defOrderB = _viewModelRegistry.AllSubjectDefinitionViewModels
                         .FirstOrDefault(d => d.Id == subjectB?.SubjectDefinitionId)?.DisplayOrder ?? int.MaxValue;
 
                     int defCompare = defOrderA.CompareTo(defOrderB);
@@ -94,8 +107,7 @@ namespace WindowedStoryPlanner.ViewModels
                 })
             };
             PlotPointSubjectLinks = view;
-
-            _windowManager = windowManager;
+            OnPropertyChanged(nameof(PlotPointSubjectLinks));
         }
     }
 }

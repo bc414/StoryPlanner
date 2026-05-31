@@ -116,7 +116,15 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     [RelayCommand]
     private async Task AddNoteTrackDefinition()
     {
-        var model = new NoteTrackDefinition { TrackName = "New Track", DisplayOrder = 0 };
+        var model = new NoteTrackDefinition 
+        { 
+            TrackName = "New Track", 
+            ExpansionModeDisplayOrder = 0,
+            LinkingModeDisplayOrder = 0,
+            GardenerModeDisplayOrder = 0,
+            AuditModeDisplayOrder = 0,
+            SceneDesignModeDisplayOrder = 0
+        };
         _storyService.NoteTrackDefinitions.Add(model);
         await _storyService.SaveAsync();
         NoteTrackDefinitions.Add(new NoteTrackDefinitionViewModel(model, _storyService, SubjectDefinitions));
@@ -136,7 +144,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
             .OrderBy(SectionOrder)
             .ThenBy(SectionKey,     StringComparer.OrdinalIgnoreCase)
             .ThenBy(SubGroupOrder)
-            .ThenBy(t => t.DisplayOrder)
+            .ThenBy(t => t.ExpansionModeDisplayOrder)
             .ToList();
 
         for (int targetIndex = 0; targetIndex < sorted.Count; targetIndex++)
@@ -189,18 +197,22 @@ public partial class DefinitionsEditorViewModel : ObservableObject
 
         var trackData = NoteTrackDefinitions
             .Select(t => new NoteTrackDefinitionExportData(
-                TrackName:           t.TrackName,
-                TrackType:           t.TrackType.ToString(),
-                OwnerType:           t.OwnerType.ToString(),
-                SelectedSubjectType: t.SelectedSubjectType,
-                IsSingleton:         t.IsSingleton,
-                SupportsWorldDate:   t.SupportsWorldDate,
-                SupportsTheme:       t.SupportsTheme,
-                CanEditInAuditMode:  t.CanEditInAuditMode,
-                DisplayQuestion:     t.DisplayQuestion ?? string.Empty,
-                UsageDirective:      t.UsageDirective  ?? string.Empty,
-                AuditDirective:      t.AuditDirective  ?? string.Empty,
-                DisplayOrder:        t.DisplayOrder));
+                TrackName:                   t.TrackName,
+                TrackType:                   t.TrackType.ToString(),
+                OwnerType:                   t.OwnerType.ToString(),
+                SelectedSubjectType:         t.SelectedSubjectType,
+                IsSingleton:                 t.IsSingleton,
+                SupportsWorldDate:           t.SupportsWorldDate,
+                SupportsTheme:               t.SupportsTheme,
+                CanEditInAuditMode:          t.CanEditInAuditMode,
+                DisplayQuestion:             t.DisplayQuestion ?? string.Empty,
+                UsageDirective:              t.UsageDirective  ?? string.Empty,
+                AuditDirective:              t.AuditDirective  ?? string.Empty,
+                ExpansionModeDisplayOrder:   t.ExpansionModeDisplayOrder,
+                LinkingModeDisplayOrder:     t.LinkingModeDisplayOrder,
+                GardenerModeDisplayOrder:    t.GardenerModeDisplayOrder,
+                AuditModeDisplayOrder:       t.AuditModeDisplayOrder,
+                SceneDesignModeDisplayOrder: t.SceneDesignModeDisplayOrder));
 
         string markdown = DefinitionsMarkdownExporter.Build(subjectData, trackData);
         File.WriteAllText(outputPath, markdown);

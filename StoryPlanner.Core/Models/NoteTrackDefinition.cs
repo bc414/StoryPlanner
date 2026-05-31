@@ -9,7 +9,11 @@ namespace StoryPlanner.Core.Models
         public int Id { get; set; }
         public int SubjectDefinitionId { get; set; }
         public OwnerType OwnerType { get; set; }
-        public int DisplayOrder { get; set; }
+        public int ExpansionModeDisplayOrder { get; set; }
+        public int LinkingModeDisplayOrder { get; set; }
+        public int GardenerModeDisplayOrder { get; set; }
+        public int AuditModeDisplayOrder { get; set; }
+        public int SceneDesignModeDisplayOrder { get; set; }
         public string TrackName { get; set; } = string.Empty;
         public string DisplayQuestion { get; set; } = string.Empty;
         public string UsageDirective { get; set;  } = string.Empty;
@@ -33,9 +37,10 @@ namespace StoryPlanner.Core.Models
         WorldInference, //Reader psychologist
         ThematicEvidence, //Philosopher
         NotesToSelf, //Project manager
-        Analogies, //Connections to real world
+        Analogies, //real-world inspiration
         NarrativeArchitecture,
-        Canon
+        Canon,
+        Allegories //Social commentary
     }
 
     public static class UnassignedTrack
@@ -45,7 +50,11 @@ namespace StoryPlanner.Core.Models
             Id = 0,   // 0 is never a valid EF-generated PK
             TrackName = "Unassigned",
             DisplayQuestion = "Notes not yet assigned to a track",
-            DisplayOrder = int.MaxValue,
+            ExpansionModeDisplayOrder = int.MaxValue,
+            LinkingModeDisplayOrder = int.MaxValue,
+            GardenerModeDisplayOrder = int.MaxValue,
+            AuditModeDisplayOrder = int.MaxValue,
+            SceneDesignModeDisplayOrder = int.MaxValue,
         };
     }
 

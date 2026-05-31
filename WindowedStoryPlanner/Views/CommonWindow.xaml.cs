@@ -416,6 +416,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
                 leftElement  = _subjectElement;
                 rightElement = null;
                 showMiddle   = false;
+                _subjectElement?.SetEditorMode(EditorMode.Expansion);
                 _subjectElement?.SetTrackDisplayMode(TrackDisplayMode.Active);
                 break;
 
@@ -423,7 +424,9 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
                 leftElement  = _subjectElement;
                 rightElement = SelectedLink;
                 showMiddle   = true;
+                _subjectElement?.SetEditorMode(EditorMode.Linking);
                 _subjectElement?.SetTrackDisplayMode(TrackDisplayMode.Reference);
+                SelectedLink?.SetEditorMode(EditorMode.Linking);
                 SelectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
                 break;
 
@@ -431,7 +434,9 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
                 leftElement  = SelectedLink;
                 rightElement = _plotPointElement;
                 showMiddle   = true;
+                SelectedLink?.SetEditorMode(EditorMode.Gardener);
                 SelectedLink?.SetTrackDisplayMode(TrackDisplayMode.Active);
+                _plotPointElement?.SetEditorMode(EditorMode.Gardener);
                 _plotPointElement?.SetTrackDisplayMode(TrackDisplayMode.Active);
                 break;
         }

@@ -265,17 +265,92 @@
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
 
-                <!-- Display Order (small integer — plain TextBox, narrow) -->
-                <DataGridTemplateColumn Header="Order" Width="52">
+                <!-- Display Order columns — one per EditorMode -->
+                <DataGridTemplateColumn Width="44" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="Exp." ToolTip="Expansion mode display order"/>
+                    </DataGridTemplateColumn.Header>
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
-                            <TextBlock Text="{Binding DisplayOrder}" VerticalAlignment="Center"
+                            <TextBlock Text="{Binding ExpansionModeDisplayOrder}" VerticalAlignment="Center"
                                        HorizontalAlignment="Center"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                     <DataGridTemplateColumn.CellEditingTemplate>
                         <DataTemplate>
-                            <TextBox Text="{Binding DisplayOrder, UpdateSourceTrigger=PropertyChanged}"
+                            <TextBox Text="{Binding ExpansionModeDisplayOrder, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0" Padding="3" TextAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="44" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="Link." ToolTip="Linking mode display order"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding LinkingModeDisplayOrder}" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding LinkingModeDisplayOrder, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0" Padding="3" TextAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="44" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="Gard." ToolTip="Gardener mode display order"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding GardenerModeDisplayOrder}" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding GardenerModeDisplayOrder, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0" Padding="3" TextAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="44" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="Audit" ToolTip="Audit mode display order"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding AuditModeDisplayOrder}" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding AuditModeDisplayOrder, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0" Padding="3" TextAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="44" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="Scene" ToolTip="Scene Design mode display order"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding SceneDesignModeDisplayOrder}" VerticalAlignment="Center"
+                                       HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding SceneDesignModeDisplayOrder, UpdateSourceTrigger=PropertyChanged}"
                                      BorderThickness="0" Padding="3" TextAlignment="Center"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellEditingTemplate>

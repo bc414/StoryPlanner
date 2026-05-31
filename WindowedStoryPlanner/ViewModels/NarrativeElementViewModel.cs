@@ -37,6 +37,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     private Func<List<NarrativePropertyDefinition>>? _propertyFactory;
     private int _ownerId;
     private OwnerType _ownerType;
+    private EditorMode _editorMode = EditorMode.Expansion;
 
     // ── Note counts ───────────────────────────────────────────────────────
 
@@ -82,7 +83,16 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     {
         _storyLoaded = true;
         RefreshNoteCounts();
+        OnStoryFullyLoaded();
     }
+
+    /// <summary>
+    /// Called once after the registry signals that bulk loading is complete and
+    /// <see cref="RefreshNoteCounts"/> has run. Override in subclasses to release
+    /// any <see cref="System.ComponentModel.ICollectionView.DeferRefresh"/> tokens
+    /// or perform other one-time post-load initialization.
+    /// </summary>
+    protected virtual void OnStoryFullyLoaded() { }
 
     public NarrativeElementViewModel(
         IViewModelRegistry viewModelRegistry,
@@ -133,6 +143,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
             var track = new NoteTrackViewModel(
                 ntd, _ownerId, _ownerType,
                 _viewModelRegistry, _storyService, _editorCoordinator, AppSettings);
+            track.EditorMode = _editorMode;
             NoteTracks.Add(track);
             SubscribeToTrack(track);
             DistributeTrack(track);
@@ -142,6 +153,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         var unassigned = new NoteTrackViewModel(
             UnassignedTrack.Definition, _ownerId, _ownerType,
             _viewModelRegistry, _storyService, _editorCoordinator, AppSettings);
+        unassigned.EditorMode = _editorMode;
         NoteTracks.Add(unassigned);
         SubscribeToTrack(unassigned);
         DistributeTrack(unassigned);
@@ -243,6 +255,38 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     }
 
     // ── IEditorModeAware ──────────────────────────────────────────────────
+
+    /// <summary>
+    /// Stores the current editor mode and pushes it to all tracks, which updates their
+    /// <see cref="NoteTrackViewModel.DisplayOrder"/> to switch on the correct display-order field.
+    /// Also re-sorts both distributed collections so the visual order reflects the new mode
+    /// regardless of whether the tracks were built before or after the mode was known.
+    /// </summary>
+    public void SetEditorMode(EditorMode mode)
+    {
+        _editorMode = mode;
+        foreach (var track in NoteTracks)
+            track.EditorMode = mode;
+        ResortDistributedTracks();
+    }
+
+    private void ResortDistributedTracks()
+    {
+        ResortCollection(PopulatedNoteTracks);
+        ResortCollection(EmptyNoteTracks);
+        RefreshIsFirstTrack();
+    }
+
+    private static void ResortCollection(ObservableCollection<NoteTrackViewModel> collection)
+    {
+        var sorted = collection.OrderBy(t => t.DisplayOrder).ToList();
+        for (int i = 0; i < sorted.Count; i++)
+        {
+            int current = collection.IndexOf(sorted[i]);
+            if (current != i)
+                collection.Move(current, i);
+        }
+    }
 
     /// <summary>
     /// Pushes <paramref name="mode"/> to every track so they update their

@@ -30,11 +30,18 @@ public class ViewModelRegistry : IViewModelRegistry
     public event Action? LinksInvalidated;
     public void RaiseLinksInvalidated() => LinksInvalidated?.Invoke();
 
+    public bool IsStoryLoaded { get; private set; }
+
     public event Action? StoryLoaded;
-    public void RaiseStoryLoaded() => StoryLoaded?.Invoke();
+    public void RaiseStoryLoaded()
+    {
+        IsStoryLoaded = true;
+        StoryLoaded?.Invoke();
+    }
 
     public void Clear()
     {
+        IsStoryLoaded = false;
         AllSubjectViewModels.Clear();
         AllPlotPointViewModels.Clear();
         AllPlotPointSubjectLinkViewModels.Clear();

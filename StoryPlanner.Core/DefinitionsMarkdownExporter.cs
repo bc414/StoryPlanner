@@ -107,7 +107,7 @@ public static class DefinitionsMarkdownExporter
                 sb.AppendLine($"### {subGroup.Key}");
                 sb.AppendLine();
 
-                foreach (var t in subGroup.OrderBy(t => t.DisplayOrder))
+                foreach (var t in subGroup.OrderBy(t => t.ExpansionModeDisplayOrder))
                 {
                     sb.AppendLine($"#### {t.TrackName}");
                     sb.AppendLine();
@@ -121,6 +121,11 @@ public static class DefinitionsMarkdownExporter
                     sb.AppendLine($"| Supports World Date | {BoolLabel(t.SupportsWorldDate)} |");
                     sb.AppendLine($"| Supports Theme | {BoolLabel(t.SupportsTheme)} |");
                     sb.AppendLine($"| Editable in Audit Mode | {BoolLabel(t.CanEditInAuditMode)} |");
+                    sb.AppendLine($"| Expansion Display Order | {t.ExpansionModeDisplayOrder} |");
+                    sb.AppendLine($"| Linking Display Order | {t.LinkingModeDisplayOrder} |");
+                    sb.AppendLine($"| Gardener Display Order | {t.GardenerModeDisplayOrder} |");
+                    sb.AppendLine($"| Audit Display Order | {t.AuditModeDisplayOrder} |");
+                    sb.AppendLine($"| Scene Design Display Order | {t.SceneDesignModeDisplayOrder} |");
                     sb.AppendLine();
 
                     if (!string.IsNullOrWhiteSpace(t.DisplayQuestion))
@@ -176,4 +181,8 @@ public record NoteTrackDefinitionExportData(
     string DisplayQuestion,
     string UsageDirective,
     string AuditDirective,
-    int DisplayOrder);
+    int ExpansionModeDisplayOrder,
+    int LinkingModeDisplayOrder,
+    int GardenerModeDisplayOrder,
+    int AuditModeDisplayOrder,
+    int SceneDesignModeDisplayOrder);

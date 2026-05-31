@@ -28,6 +28,12 @@ public interface IViewModelRegistry
     void RaiseNoteSelected(int noteId);
 
     /// <summary>
+    /// True after <see cref="RaiseStoryLoaded"/> has been called at least once.
+    /// Consumers that are created post-load can read this to skip deferral logic.
+    /// </summary>
+    bool IsStoryLoaded { get; }
+
+    /// <summary>
     /// Raised once after all view models have been bulk-loaded from storage.
     /// Subscribers that are too expensive to update per-note during load
     /// should defer their initial work until this fires.

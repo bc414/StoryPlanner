@@ -20,7 +20,29 @@ public partial class NoteTrackViewModel : ObservableObject
 
     public ObservableCollection<NoteTrackSectionViewModel> Sections { get; } = new();
 
-    public int DisplayOrder     => _definition.DisplayOrder;
+    private EditorMode _editorMode = EditorMode.Expansion;
+    public EditorMode EditorMode
+    {
+        get => _editorMode;
+        set
+        {
+            if (_editorMode != value)
+            {
+                _editorMode = value;
+                OnPropertyChanged(nameof(DisplayOrder));
+            }
+        }
+    }
+
+    public int DisplayOrder => _editorMode switch
+    {
+        EditorMode.Expansion => _definition.ExpansionModeDisplayOrder,
+        EditorMode.Linking => _definition.LinkingModeDisplayOrder,
+        EditorMode.Gardener => _definition.GardenerModeDisplayOrder,
+        EditorMode.Audit => _definition.AuditModeDisplayOrder,
+        EditorMode.SceneDesign => _definition.SceneDesignModeDisplayOrder,
+        _ => _definition.ExpansionModeDisplayOrder
+    };
     public string TrackName     => _definition.TrackName;
     public string Explanation   => _definition.UsageDirective;
     public TrackType TrackType  => _definition.TrackType;
@@ -33,6 +55,12 @@ public partial class NoteTrackViewModel : ObservableObject
     public AppSettings AppSettings => _appSettings;
 
     // ── HasNotes ──────────────────────────────────────────────────────────
+
+    /// <summary>
+    /// True after the registry has raised <see cref="IViewModelRegistry.StoryLoaded"/>.
+    /// Guards <see cref="RefreshHasNotes"/> against O(notes × tracks) calls during bulk load.
+    /// </summary>
+    private bool _storyLoaded;
 
     /// <summary>
     /// True when this track owns at least one note in any state.
@@ -120,8 +148,22 @@ public partial class NoteTrackViewModel : ObservableObject
                 section.RefreshReadonlyState();
         };
 
-        _viewModelRegistry.AllNoteViewModels.CollectionChanged += (_, _) => RefreshHasNotes();
-        _viewModelRegistry.NoteViewModelMutated                += _      => RefreshHasNotes();
+        // During bulk load, AllNoteViewModels.CollectionChanged fires once per note
+        // for every NoteTrackViewModel, which is O(notes × tracks) and wasteful.
+        // Suppress it while loading and let the StoryLoaded event do a single refresh.
+        _storyLoaded = _viewModelRegistry.IsStoryLoaded;
+
+        _viewModelRegistry.AllNoteViewModels.CollectionChanged += (_, _) =>
+        {
+            if (_storyLoaded) RefreshHasNotes();
+        };
+        _viewModelRegistry.NoteViewModelMutated += _ => RefreshHasNotes();
+
+        _viewModelRegistry.StoryLoaded += () =>
+        {
+            _storyLoaded = true;
+            RefreshHasNotes();
+        };
 
         // Seed the initial value — story may already be loaded when this track is created.
         RefreshHasNotes();

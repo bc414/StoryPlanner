@@ -16,7 +16,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
     private readonly Chapter _chapter;
     public Chapter Chapter => _chapter;
 
-    public ICollectionView PlotPoints { get; }
+    public ICollectionView? PlotPoints { get; private set; }
 
     public int Id => _chapter.Id;
 
@@ -40,12 +40,25 @@ public partial class ChapterViewModel : NarrativeElementViewModel
                 .Where(npd => npd.OwnerType == OwnerType.Chapter)
                 .ToList());
 
-        PlotPoints = new ListCollectionView(viewModelRegistry.AllPlotPointViewModels)
+        if (viewModelRegistry.IsStoryLoaded)
+            BuildPlotPointsView();
+    }
+
+    protected override void OnStoryFullyLoaded()
+    {
+        BuildPlotPointsView();
+    }
+
+    private void BuildPlotPointsView()
+    {
+        var view = new ListCollectionView(_viewModelRegistry.AllPlotPointViewModels)
         {
             Filter = FilterPlotPoints
         };
-        PlotPoints.SortDescriptions.Add(
+        view.SortDescriptions.Add(
             new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
+        PlotPoints = view;
+        OnPropertyChanged(nameof(PlotPoints));
     }
 
     private bool FilterPlotPoints(object obj)

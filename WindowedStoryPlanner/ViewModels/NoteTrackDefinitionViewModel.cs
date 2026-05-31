@@ -41,10 +41,30 @@ namespace WindowedStoryPlanner.ViewModels
             get => _model.AuditDirective;
             set => SetProperty(_model.AuditDirective, value, _model, (m, v) => m.AuditDirective = v);
         }
-        public int DisplayOrder
+        public int ExpansionModeDisplayOrder
         {
-            get => _model.DisplayOrder;
-            set => SetProperty(_model.DisplayOrder, value, _model, (m, v) => m.DisplayOrder = v);
+            get => _model.ExpansionModeDisplayOrder;
+            set => SetProperty(_model.ExpansionModeDisplayOrder, value, _model, (m, v) => m.ExpansionModeDisplayOrder = v);
+        }
+        public int LinkingModeDisplayOrder
+        {
+            get => _model.LinkingModeDisplayOrder;
+            set => SetProperty(_model.LinkingModeDisplayOrder, value, _model, (m, v) => m.LinkingModeDisplayOrder = v);
+        }
+        public int GardenerModeDisplayOrder
+        {
+            get => _model.GardenerModeDisplayOrder;
+            set => SetProperty(_model.GardenerModeDisplayOrder, value, _model, (m, v) => m.GardenerModeDisplayOrder = v);
+        }
+        public int AuditModeDisplayOrder
+        {
+            get => _model.AuditModeDisplayOrder;
+            set => SetProperty(_model.AuditModeDisplayOrder, value, _model, (m, v) => m.AuditModeDisplayOrder = v);
+        }
+        public int SceneDesignModeDisplayOrder
+        {
+            get => _model.SceneDesignModeDisplayOrder;
+            set => SetProperty(_model.SceneDesignModeDisplayOrder, value, _model, (m, v) => m.SceneDesignModeDisplayOrder = v);
         }
         public TrackType TrackType
         {

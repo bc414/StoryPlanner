@@ -131,8 +131,16 @@ namespace WindowedStoryPlanner.ViewModels
             SubscribePlotPoint();
             SubscribeSubject();
 
-            // Re-evaluate CanDelete when the Notes collection changes
-            _storyService.Notes.CollectionChanged += (_, _) =>
+            // Re-evaluate CanDelete when notes are added/removed or mutated.
+            // Guard against bulk load: AllNoteViewModels grows during load but HasNotes
+            // reads from _storyService.Notes (pre-populated), so no-op until story is settled.
+            _viewModelRegistry.AllNoteViewModels.CollectionChanged += (_, _) =>
+            {
+                if (!_viewModelRegistry.IsStoryLoaded) return;
+                OnPropertyChanged(nameof(HasNotes));
+                DeleteSelfCommand.NotifyCanExecuteChanged();
+            };
+            _viewModelRegistry.NoteViewModelMutated += _ =>
             {
                 OnPropertyChanged(nameof(HasNotes));
                 DeleteSelfCommand.NotifyCanExecuteChanged();

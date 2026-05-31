@@ -42,7 +42,7 @@ namespace WindowedStoryPlanner.ViewModels
             set => SetProperty(_subject.ColorHex, value, _subject, (s, n) => s.ColorHex = n);
         }
 
-        public ICollectionView PlotPointSubjectLinks { get; set; }
+        public ICollectionView? PlotPointSubjectLinks { get; private set; }
         private readonly IWindowManager _windowManager;
 
         [RelayCommand]
@@ -55,8 +55,21 @@ namespace WindowedStoryPlanner.ViewModels
 
             InitializeTracksAndProperties();
 
+            if (viewModelRegistry.IsStoryLoaded)
+                BuildLinkView();
+
+            _windowManager = windowManager;
+        }
+
+        protected override void OnStoryFullyLoaded()
+        {
+            BuildLinkView();
+        }
+
+        private void BuildLinkView()
+        {
             //TODO: need own view, follow note track section pattern
-            var view = new ListCollectionView(viewModelRegistry.AllPlotPointSubjectLinkViewModels)
+            var view = new ListCollectionView(_viewModelRegistry.AllPlotPointSubjectLinkViewModels)
             {
                 Filter = obj => obj is PlotPointSubjectLinkViewModel link && link.SubjectId == _subject.Id,
                 IsLiveSorting = true,
@@ -66,8 +79,7 @@ namespace WindowedStoryPlanner.ViewModels
             view.SortDescriptions.Add(new SortDescription(nameof(PlotPointSubjectLinkViewModel.ChapterOrderIndex), ListSortDirection.Ascending));
             view.SortDescriptions.Add(new SortDescription(nameof(PlotPointSubjectLinkViewModel.PlotPointOrderInChapter), ListSortDirection.Ascending));
             PlotPointSubjectLinks = view;
-
-            _windowManager = windowManager;
+            OnPropertyChanged(nameof(PlotPointSubjectLinks));
         }
 
         /// <summary>
