@@ -92,9 +92,10 @@ namespace WindowedStoryPlanner.ViewModels
 
             _subject.SubjectDefinitionId = newSubjectDefinitionId;
 
-            NoteTracks.Clear();
-            NarrativeProperties.Clear();
+            // Re-register the factories for the new definition, then rebuild+initialize
+            // tracks exactly as OnWindowOpened does — no manual Clear() needed here.
             InitializeTracksAndProperties();
+            RebuildAndInitializeTracks();
 
             OnPropertyChanged(nameof(SubjectDefinitionId));
         }

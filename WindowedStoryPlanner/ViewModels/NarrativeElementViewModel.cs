@@ -235,24 +235,36 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
             first.IsFirstTrack = true;
     }
 
+    // Single private teardown — used by both close and rebuild paths.
+    private void TeardownTracks()
+    {
+        foreach (var track in NoteTracks)
+        {
+            track.Uninitialize();        // disposes sections, removes SelectionTransfer handlers
+            UnsubscribeFromTrack(track); // removes HasNotes PropertyChanged handler + clears _trackHandlers entry
+        }
+    }
+
+    public void RebuildAndInitializeTracks()
+    {
+        TeardownTracks();
+        RebuildNoteTracks();           // clears + repopulates NoteTracks / PopulatedNoteTracks / EmptyNoteTracks
+        foreach (var track in NoteTracks)
+            track.Initialize();
+    }
+
     public void OnWindowOpened()
     {
         _openWindowCount++;
         if (_openWindowCount > 1) return;
-
-        RebuildNoteTracks();
-
-        foreach (var track in NoteTracks)
-            track.Initialize();
+        RebuildAndInitializeTracks();
     }
 
     public void OnWindowClosed()
     {
         _openWindowCount = Math.Max(0, _openWindowCount - 1);
         if (_openWindowCount > 0) return;
-
-        foreach (var track in NoteTracks)
-            track.Uninitialize();
+        TeardownTracks();
     }
 
     // ── IEditorModeAware ──────────────────────────────────────────────────

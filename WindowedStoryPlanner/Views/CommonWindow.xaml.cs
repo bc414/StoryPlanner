@@ -503,4 +503,26 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
 
         return Enumerable.Empty<PlotPointSubjectLinkViewModel>();
     }
+
+    private void SnapTopHalf_Click(object sender, RoutedEventArgs e)
+    {
+        var wa = SystemParameters.WorkArea;
+
+        WindowState = WindowState.Normal;
+        Left   = wa.Left;
+        Top    = wa.Top;
+        Width  = wa.Width;
+        Height = wa.Height / 2.0;
+    }
+
+    private void SnapBottomHalf_Click(object sender, RoutedEventArgs e)
+    {
+        var wa = SystemParameters.WorkArea;
+
+        WindowState = WindowState.Normal;
+        Left   = wa.Left;
+        Top    = wa.Top + wa.Height / 2.0;
+        Width  = wa.Width;
+        Height = wa.Height / 2.0;
+    }
 }
