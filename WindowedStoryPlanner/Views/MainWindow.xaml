@@ -15,7 +15,7 @@
         <v:RecencyToColorConverter x:Key="RecencyToColorConverter" />
     </Window.Resources>
 
-    <TabControl TabStripPlacement="Left">
+    <TabControl TabStripPlacement="Left" SelectedIndex="{Binding SelectedTabIndex}">
 
         <TabControl.Resources>
             <Style TargetType="TabItem">

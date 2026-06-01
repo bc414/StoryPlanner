@@ -1,5 +1,6 @@
 ﻿using System.Configuration;
 using System.Data;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
@@ -72,6 +73,24 @@ public partial class App : Application
         await AppHost!.StartAsync();
 
         AppHost.Services.GetRequiredService<MainWindow>().Show();
+
+        if (e.Args.Length > 0 && File.Exists(e.Args[0]))
+        {
+            var path = e.Args[0];
+            var fileManager = AppHost.Services.GetRequiredService<FileManagerViewModel>();
+            await fileManager.OpenProjectFromPath(path);
+
+            // Navigate to Subjects tab (index 3)
+            var locator = AppHost.Services.GetRequiredService<ViewModelLocator>();
+            locator.SelectedTabIndex = 3;
+
+            // Set archive mode if filename contains "archive"
+            if (Path.GetFileNameWithoutExtension(path).Contains("archive", StringComparison.OrdinalIgnoreCase))
+            {
+                var settings = AppHost.Services.GetRequiredService<AppSettings>();
+                settings.IsArchiveMode = true;
+            }
+        }
 
         base.OnStartup(e);
 

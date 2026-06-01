@@ -33,8 +33,8 @@ public partial class FileManagerViewModel : ObservableObject
         var dialog = new SaveFileDialog
         {
             Title = "Create New Story File",
-            Filter = "Story Database (*.db)|*.db",
-            FileName = "MyNewStory.db"
+            Filter = "Story Planner File (*.storyplan)|*.storyplan",
+            FileName = "MyNewStory.storyplan"
         };
 
         if (dialog.ShowDialog() == true)
@@ -50,7 +50,7 @@ public partial class FileManagerViewModel : ObservableObject
         var dialog = new OpenFileDialog
         {
             Title = "Open Story File",
-            Filter = "Story Database (*.db)|*.db"
+            Filter = "Story Database (*.storyplan)|*.storyplan"
         };
 
         if (dialog.ShowDialog() == true)
@@ -58,6 +58,12 @@ public partial class FileManagerViewModel : ObservableObject
             await _storyService.OpenProjectAsync(dialog.FileName);
             OnProjectLoaded();
         }
+    }
+
+    public async Task OpenProjectFromPath(string path)
+    {
+        await _storyService.OpenProjectAsync(path);
+        OnProjectLoaded();
     }
 
     [RelayCommand]
