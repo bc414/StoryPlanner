@@ -157,7 +157,11 @@ public partial class NoteTrackViewModel : ObservableObject
         {
             if (_storyLoaded) RefreshHasNotes();
         };
-        _viewModelRegistry.NoteViewModelMutated += _ => RefreshHasNotes();
+        _viewModelRegistry.NoteViewModelMutated += args =>
+        {
+            if (args.OwnerId == _ownerId && args.OwnerType == _ownerType)
+                RefreshHasNotes();
+        };
 
         _viewModelRegistry.StoryLoaded += () =>
         {

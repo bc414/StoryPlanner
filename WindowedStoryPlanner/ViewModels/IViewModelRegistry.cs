@@ -18,8 +18,8 @@ public interface IViewModelRegistry
     ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; }
     ObservableCollection<ThemeViewModel> AllThemeViewModels { get; }
 
-    event Action<int> NoteViewModelMutated;
-    void RaiseNoteMutated(int noteId);
+    event Action<NoteMutatedArgs> NoteViewModelMutated;
+    void RaiseNoteMutated(NoteMutatedArgs args);
 
     // Broadcast when any section selects a note so all other sections
     // can clear their own selection, enforcing a single selection across

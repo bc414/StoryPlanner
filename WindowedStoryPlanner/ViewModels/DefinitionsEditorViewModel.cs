@@ -220,4 +220,166 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         MessageBox.Show($"Exported to:\n{outputPath}", "Export Complete",
             MessageBoxButton.OK, MessageBoxImage.Information);
     }
+
+    // ── Canonical TrackType display order (shared by all mode auto-numbering) ─
+
+    private static readonly IReadOnlyList<TrackType> CanonicalTrackTypeOrder = new[]
+    {
+        TrackType.Ontology,
+        TrackType.Civilization,
+        TrackType.History,
+        TrackType.Characterization,
+        TrackType.PageDesign,
+        TrackType.WorldInference,
+        TrackType.ThematicEvidence,
+        TrackType.NarrativeArchitecture,
+        TrackType.Canon,
+        TrackType.Analogies,
+        TrackType.Allegories,
+        TrackType.NotesToSelf,
+        TrackType.Unset,
+    };
+
+    /// <summary>
+    /// Within each independent section (subject type / owner type grouping),
+    /// assigns sequential display-order values 0, 1, 2 … according to
+    /// <paramref name="trackTypeOrder"/>. Tracks whose <see cref="TrackType"/>
+    /// does not appear in the list are placed at the end in their original
+    /// relative order.
+    /// </summary>
+    private async Task AssignSequentialDisplayOrders(
+        TrackType[]                                trackTypeOrder,
+        Func<NoteTrackDefinitionViewModel, int>    getOrder,
+        Action<NoteTrackDefinitionViewModel, int>  setOrder)
+    {
+        var groups = NoteTrackDefinitions
+            .GroupBy(t => (SectionOrder(t), SectionKey(t), SubGroupOrder(t)));
+
+        foreach (var group in groups)
+        {
+            var ordered = group
+                .OrderBy(t =>
+                {
+                    int idx = Array.IndexOf(trackTypeOrder, t.TrackType);
+                    return idx < 0 ? int.MaxValue : idx;
+                })
+                .ThenBy(getOrder)
+                .ToList();
+
+            for (int i = 0; i < ordered.Count; i++)
+                setOrder(ordered[i], i);
+        }
+
+        await _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private Task AutoNumberExpansionModeDisplayOrders() =>
+        AssignSequentialDisplayOrders(
+            trackTypeOrder: new[]
+            {
+                TrackType.Canon,
+                TrackType.Analogies,
+                TrackType.Ontology,
+                TrackType.Civilization,
+                TrackType.History,
+                TrackType.Characterization,
+                TrackType.ThematicEvidence,
+                TrackType.Allegories,
+                TrackType.NotesToSelf,
+                TrackType.NarrativeArchitecture,
+                TrackType.PageDesign,
+                TrackType.WorldInference,
+                TrackType.Unset,
+            },
+            getOrder: t => t.ExpansionModeDisplayOrder,
+            setOrder: (t, v) => t.ExpansionModeDisplayOrder = v);
+
+    [RelayCommand]
+    private Task AutoNumberLinkingModeDisplayOrders() =>
+        AssignSequentialDisplayOrders(
+            trackTypeOrder: new[]
+            {
+                TrackType.Ontology,
+                TrackType.Civilization,
+                TrackType.History,
+                TrackType.Characterization,
+                TrackType.PageDesign,
+                TrackType.WorldInference,
+                TrackType.NarrativeArchitecture,
+                TrackType.ThematicEvidence,
+                TrackType.Allegories,
+                TrackType.Canon,
+                TrackType.Analogies,
+                TrackType.NotesToSelf,
+                TrackType.Unset,
+            },
+            getOrder: t => t.LinkingModeDisplayOrder,
+            setOrder: (t, v) => t.LinkingModeDisplayOrder = v);
+
+    [RelayCommand]
+    private Task AutoNumberGardenerModeDisplayOrders() =>
+        AssignSequentialDisplayOrders(
+            trackTypeOrder: new[]
+            {
+                TrackType.Ontology,
+                TrackType.Civilization,
+                TrackType.History,
+                TrackType.Characterization,
+                TrackType.PageDesign,
+                TrackType.WorldInference,
+                TrackType.ThematicEvidence,
+                TrackType.NarrativeArchitecture,
+                TrackType.Canon,
+                TrackType.Analogies,
+                TrackType.Allegories,
+                TrackType.NotesToSelf,
+                TrackType.Unset,
+            },
+            getOrder: t => t.GardenerModeDisplayOrder,
+            setOrder: (t, v) => t.GardenerModeDisplayOrder = v);
+
+    [RelayCommand]
+    private Task AutoNumberAuditModeDisplayOrders() =>
+        AssignSequentialDisplayOrders(
+            trackTypeOrder: new[]
+            {
+                TrackType.NarrativeArchitecture,
+                TrackType.Ontology,
+                TrackType.Civilization,
+                TrackType.History,
+                TrackType.Characterization,
+                TrackType.PageDesign,
+                TrackType.WorldInference,
+                TrackType.ThematicEvidence,
+                TrackType.Canon,
+                TrackType.Analogies,
+                TrackType.Allegories,
+                TrackType.NotesToSelf,
+                TrackType.Unset,
+            },
+            getOrder: t => t.AuditModeDisplayOrder,
+            setOrder: (t, v) => t.AuditModeDisplayOrder = v);
+
+    [RelayCommand]
+    private Task AutoNumberSceneDesignModeDisplayOrders() =>
+        AssignSequentialDisplayOrders(
+            trackTypeOrder: new[]
+            {
+                TrackType.Ontology,
+                TrackType.Civilization,
+                TrackType.History,
+                TrackType.Characterization,
+                TrackType.PageDesign,
+                TrackType.WorldInference,
+                TrackType.ThematicEvidence,
+                TrackType.NarrativeArchitecture,
+                TrackType.Canon,
+                TrackType.Analogies,
+                TrackType.Allegories,
+                TrackType.NotesToSelf,
+                TrackType.Unset,
+            },
+            getOrder: t => t.SceneDesignModeDisplayOrder,
+            setOrder: (t, v) => t.SceneDesignModeDisplayOrder = v);
 }

@@ -81,7 +81,9 @@ namespace StoryPlanner.Core.Models
                 case TrackType.NotesToSelf:
                     return "Notes to self - written by the author, talking about the story planning project and process";
                 case TrackType.Analogies:
-                    return "Analogical Notes - written by the author to relate the story to the real world";
+                    return "Analogical Notes - written by the author to document real-world inspiration (can be historical or present-day inspiration)";
+                case TrackType.Allegories:
+                    return "Allegorical Notes - written by the author as a reader inference target for social commentary";
                 case TrackType.NarrativeArchitecture:
                     return "Narrative Architecture Notes (Layer 4) - written by the author planning out how the reader should experience the story world";
                 case TrackType.Canon:

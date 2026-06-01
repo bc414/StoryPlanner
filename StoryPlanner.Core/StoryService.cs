@@ -239,8 +239,6 @@ public class StoryService : IStoryService
     public async Task SaveAsync()
     {
         if (_context == null) throw new InvalidOperationException("Not initialized");
-        // FORCE EF Core to look at all objects in memory and detect changes
-        _context.ChangeTracker.DetectChanges();
         await _context.SaveChangesAsync();
 
         string markdownContext = GetMarkdown();

@@ -166,7 +166,6 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
     {
         if (_currentMode == EditorMode.Expansion)
         {
-            // Subject already open — just surface the link panel
             _currentMode = EditorMode.Linking;
             UpdateLayout();
             return;
@@ -178,7 +177,6 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
                 .FirstOrDefault(s => s.Id == SelectedLink.SubjectId);
             if (subject is null) return;
 
-            ClearSelectedLinkSilent();
             SetPlotPointElement(null);
             SetSubjectElement(subject);
             _currentMode = EditorMode.Linking;
@@ -194,7 +192,6 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
             .FirstOrDefault(pp => pp.Id == SelectedLink.PlotPointId);
         if (plotPoint is null) return;
 
-        ClearSelectedLinkSilent();
         SetSubjectElement(null);
         SetPlotPointElement(plotPoint);
         _currentMode = EditorMode.Gardener;
@@ -460,7 +457,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         if (leftVisible && rightVisible)
         {
             leftCol.Width  = new GridLength(1, GridUnitType.Star);
-            rightCol.Width = new GridLength(2, GridUnitType.Star);
+            rightCol.Width = new GridLength(1, GridUnitType.Star);
         }
         else
         {
@@ -484,7 +481,8 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         GardenerModeButton.Tag  = _currentMode == EditorMode.Gardener  ? "Active" : null;
 
         ExpansionModeButton.IsEnabled = _currentMode == EditorMode.Linking;
-        LinkingModeButton.IsEnabled   = _currentMode != EditorMode.Linking;
+        LinkingModeButton.IsEnabled   = _currentMode == EditorMode.Expansion ||
+                                        (_currentMode == EditorMode.Gardener && SelectedLink is not null);
         GardenerModeButton.IsEnabled  = _currentMode == EditorMode.Linking && SelectedLink is not null;
     }
 

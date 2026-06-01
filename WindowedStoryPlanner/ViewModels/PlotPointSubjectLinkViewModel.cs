@@ -140,8 +140,10 @@ namespace WindowedStoryPlanner.ViewModels
                 OnPropertyChanged(nameof(HasNotes));
                 DeleteSelfCommand.NotifyCanExecuteChanged();
             };
-            _viewModelRegistry.NoteViewModelMutated += _ =>
+            _viewModelRegistry.NoteViewModelMutated += args =>
             {
+                if (args.OwnerId != _link.Id || args.OwnerType != OwnerType.PlotPointSubjectLink)
+                    return;
                 OnPropertyChanged(nameof(HasNotes));
                 DeleteSelfCommand.NotifyCanExecuteChanged();
             };

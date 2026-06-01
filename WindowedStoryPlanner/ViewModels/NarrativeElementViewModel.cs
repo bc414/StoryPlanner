@@ -73,9 +73,10 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         RefreshNoteCounts();
     }
 
-    private void OnNoteViewModelMutated(int noteId)
+    private void OnNoteViewModelMutated(NoteMutatedArgs args)
     {
         if (!_storyLoaded) return;
+        if (args.OwnerId != _ownerId || args.OwnerType != _ownerType) return;
         RefreshNoteCounts();
     }
 

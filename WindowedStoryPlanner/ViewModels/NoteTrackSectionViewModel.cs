@@ -148,12 +148,25 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             SelectedNote = null;
     }
 
-    private void OnNoteMutated(int noteId)
+    private void OnNoteMutated(NoteMutatedArgs args)
     {
         // Guard: ReindexSection writes SortOrder on NoteViewModels. If SortOrder
         // is ever wired to raise NoteViewModelMutated, this prevents re-entrant
         // calls cascading back here infinitely.
         if (_isReindexing) return;
+
+        // Deletion is handled automatically by ObservableCollection change notifications.
+        // A property mutation on a note that belongs to a different owner/track
+        // cannot affect this section's filter, so bail out early to avoid an
+        // O(notes × sections × tracks) CollectionView.Refresh() storm.
+        if (args.OwnerId != _ownerId || args.OwnerType != _ownerType) return;
+
+        bool isUnassignedTrack = _definition.Id == UnassignedTrack.Definition.Id;
+        bool belongsToThisTrack = isUnassignedTrack
+            ? args.NoteTrackDefinitionId == null
+            : args.NoteTrackDefinitionId == _definition.Id;
+
+        if (!belongsToThisTrack) return;
 
         SectionNotes.Refresh();
 
@@ -209,7 +222,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         notes.Insert(index - 1, note);
 
         ReindexSection(notes);
-        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+            note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         SelectedNote = note;
         _ = _storyService.SaveAsync();
     }
@@ -228,7 +242,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         notes.Insert(index + 1, note);
 
         ReindexSection(notes);
-        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+            note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         SelectedNote = note;
         _ = _storyService.SaveAsync();
     }
@@ -290,7 +305,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
                                         : _definition.Id;
         note.NoteState             = _targetState;
 
-        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+            note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         _ = _storyService.SaveAsync();
     }
 
@@ -308,7 +324,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             _                                          => SelectedNote.NoteState,
         };
 
-        _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+        _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+            SelectedNote.Id, SelectedNote.OwnerId, SelectedNote.OwnerType, SelectedNote.NoteTrackDefinitionId));
         _ = _storyService.SaveAsync();
     }
 
@@ -324,7 +341,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             _                   => SelectedNote.NoteState,
         };
 
-        _viewModelRegistry.RaiseNoteMutated(SelectedNote.Id);
+        _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+            SelectedNote.Id, SelectedNote.OwnerId, SelectedNote.OwnerType, SelectedNote.NoteTrackDefinitionId));
         _ = _storyService.SaveAsync();
     }
 
@@ -350,7 +368,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             PlaceAtEndOfSection(note, newState);
 
         note.NoteState = newState;
-        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+            note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         _ = _storyService.SaveAsync();
 
         if (note.NoteState != _targetState)
@@ -374,7 +393,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             PlaceAtEndOfSection(note, newState);
 
         note.NoteState = newState;
-        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+            note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         _ = _storyService.SaveAsync();
 
         if (note.NoteState != _targetState)
@@ -389,10 +409,14 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         if (SelectedNote?.Id == note.Id)
             SelectedNote = null;
 
+        // Snapshot args before removing from collection so subscribers get valid context
+        var mutationArgs = new NoteMutatedArgs(
+            note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId);
+
         _viewModelRegistry.AllNoteViewModels.Remove(note);
 
         _storyService.DeleteNote(note.Id);
-        _viewModelRegistry.RaiseNoteMutated(note.Id);
+        _viewModelRegistry.RaiseNoteMutated(mutationArgs);
         _ = _storyService.SaveAsync();
     }
 

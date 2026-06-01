@@ -441,6 +441,23 @@
             <Button Content="↕ Resort" Padding="14,5" Margin="0,0,8,0"
                     Command="{Binding ResortNoteTrackDefinitionsCommand}"
                     ToolTip="Re-sort tracks into their canonical order"/>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="4,0"/>
+            <Button Content="# Exp." Padding="10,5" Margin="0,0,4,0"
+                    Command="{Binding AutoNumberExpansionModeDisplayOrdersCommand}"
+                    ToolTip="Auto-number Expansion mode display orders by track type"/>
+            <Button Content="# Link." Padding="10,5" Margin="0,0,4,0"
+                    Command="{Binding AutoNumberLinkingModeDisplayOrdersCommand}"
+                    ToolTip="Auto-number Linking mode display orders by track type"/>
+            <Button Content="# Gard." Padding="10,5" Margin="0,0,4,0"
+                    Command="{Binding AutoNumberGardenerModeDisplayOrdersCommand}"
+                    ToolTip="Auto-number Gardener mode display orders by track type"/>
+            <Button Content="# Audit" Padding="10,5" Margin="0,0,4,0"
+                    Command="{Binding AutoNumberAuditModeDisplayOrdersCommand}"
+                    ToolTip="Auto-number Audit mode display orders by track type"/>
+            <Button Content="# Scene" Padding="10,5" Margin="0,0,8,0"
+                    Command="{Binding AutoNumberSceneDesignModeDisplayOrdersCommand}"
+                    ToolTip="Auto-number Scene Design mode display orders by track type"/>
+            <Separator Style="{StaticResource {x:Static ToolBar.SeparatorStyleKey}}" Margin="4,0"/>
             <Button Content="Export for LLM" Padding="14,5" Margin="0,0,8,0"
                     Command="{Binding ExportDefinitionsToMarkdownCommand}"
                     ToolTip="Save definitions as Markdown for LLM ingestion"/>

@@ -21,8 +21,8 @@ public class ViewModelRegistry : IViewModelRegistry
     public ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; } = new();
     public ObservableCollection<ThemeViewModel> AllThemeViewModels { get; } = new();
 
-    public event Action<int>? NoteViewModelMutated;
-    public void RaiseNoteMutated(int noteId) => NoteViewModelMutated?.Invoke(noteId);
+    public event Action<NoteMutatedArgs>? NoteViewModelMutated;
+    public void RaiseNoteMutated(NoteMutatedArgs args) => NoteViewModelMutated?.Invoke(args);
 
     public event Action<int>? NoteSelected;
     public void RaiseNoteSelected(int noteId) => NoteSelected?.Invoke(noteId);
