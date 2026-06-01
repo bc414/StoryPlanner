@@ -1,11 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
 
-namespace WindowedStoryPlanner.Views;
-
-public partial class PlotPointCard : UserControl
+namespace WindowedStoryPlanner.Views
 {
-    public PlotPointCard()
+    /// <summary>
+    /// Interaction logic for PlotPointCard.xaml
+    /// </summary>
+    public partial class PlotPointCard : UserControl
     {
-        InitializeComponent();
+        public PlotPointCard()
+        {
+            InitializeComponent();
+        }
     }
 }

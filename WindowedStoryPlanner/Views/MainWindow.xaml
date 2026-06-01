@@ -8,15 +8,14 @@
         xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
         mc:Ignorable="d"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
-            
         Title="Mission Control" Height="900" Width="1200"
-        WindowStartupLocation="CenterScreen" d:DataContext="{d:DesignInstance Type=vm:MainViewModel}">
+        WindowStartupLocation="CenterScreen" d:DataContext="{d:DesignInstance Type=vm:ViewModelLocator}" WindowState="Maximized">
     <Window.Resources>
         <v:UtcToLocalConverter x:Key="UtcToLocalConverter" />
         <v:RecencyToColorConverter x:Key="RecencyToColorConverter" />
     </Window.Resources>
 
-    <TabControl TabStripPlacement="Left">
+    <TabControl TabStripPlacement="Left" SelectedIndex="{Binding SelectedTabIndex}">
 
         <TabControl.Resources>
             <Style TargetType="TabItem">
@@ -25,229 +24,35 @@
                 <Setter Property="Padding" Value="10" />
             </Style>
         </TabControl.Resources>
+
         <TabItem Header="File Management">
-            <v:FileManagerTab/>
+            <v:FileManagerTab DataContext="{Binding FileManager}"/>
         </TabItem>
 
         <TabItem Header="Chapters">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding ChapterViewModels}" DeleteItemCommand="{Binding DeleteChapterCommand}"/>
-                    <Button Content="Add Chapter" Command="{Binding AddChapterCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
+            <v:ChapterLibrary DataContext="{Binding Chapters}"/>
         </TabItem>
-        <TabItem Header="Story Threads">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding StoryThreadViewModels}" DeleteItemCommand="{Binding DeleteStoryThreadCommand}"/>
-                    <Button Content="Add StoryThread"  Command="{Binding AddStoryThreadCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
+
+        <TabItem Header="Unassigned Plot Points" DataContext="{Binding FloatingPlotPoints}">
+            <StackPanel Margin="20" MaxWidth="400">
+                <TextBlock Text="Unassigned Plot Points"
+                           FontSize="18" FontWeight="Bold" Margin="0,0,0,6"/>
+                <TextBlock TextWrapping="Wrap" Foreground="#666666" Margin="0,0,0,16"
+                           Text="Plot points not yet assigned to a chapter. Open the window to edit, reorder, or drag them into a chapter."/>
+                <Button Content="Open Unassigned Plot Points Window"
+                        Height="36" FontSize="14" HorizontalAlignment="Left" Padding="12,0"
+                        Command="{Binding OpenWindowCommand}"/>
+            </StackPanel>
         </TabItem>
-        <TabItem Header="Characters">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding CharacterViewModels}" DeleteItemCommand="{Binding DeleteCharacterCommand}"/>
-                    <Button Content="Add Character"  Command="{Binding AddCharacterCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
-        </TabItem>
-        <TabItem Header="CodexEntries">
-            <ScrollViewer VerticalScrollBarVisibility="Auto">
-                <StackPanel>
 
-                    <ListView ItemsSource="{Binding CodexEntriesGroupedView}"
-          BorderThickness="0"
-          Background="Transparent"
-          ScrollViewer.HorizontalScrollBarVisibility="Disabled" dd:DragDrop.IsDragSource="True" dd:DragDrop.UseDefaultDragAdorner="True">
-
-                        <ListView.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <WrapPanel Orientation="Horizontal" IsItemsHost="True"/>
-                            </ItemsPanelTemplate>
-                        </ListView.ItemsPanel>
-
-                        <ListView.GroupStyle>
-                            <GroupStyle>
-
-                                <GroupStyle.ContainerStyle>
-                                    <Style TargetType="{x:Type GroupItem}">
-                                        <Setter Property="Template">
-                                            <Setter.Value>
-                                                <ControlTemplate TargetType="{x:Type GroupItem}">
-                                                    <Expander IsExpanded="False" Margin="0,0,0,20">
-
-                                                        <Expander.Header>
-                                                            <Border BorderBrush="#DDDDDD" BorderThickness="0,0,0,2" 
-                                                Padding="5" Margin="10,0,0,0"
-                                                HorizontalAlignment="Stretch">
-                                                                <TextBlock Text="{Binding Name}" 
-                                                       Style="{StaticResource LabelStyle}"/>
-                                                            </Border>
-                                                        </Expander.Header>
-
-                                                        <ItemsPresenter />
-
-                                                    </Expander>
-                                                </ControlTemplate>
-                                            </Setter.Value>
-                                        </Setter>
-                                    </Style>
-                                </GroupStyle.ContainerStyle>
-
-                                <GroupStyle.Panel>
-                                    <ItemsPanelTemplate>
-                                        <StackPanel Orientation="Vertical" IsItemsHost="True" Margin="20,10,0,0"/>
-                                    </ItemsPanelTemplate>
-                                </GroupStyle.Panel>
-
-                            </GroupStyle>
-                        </ListView.GroupStyle>
-
-                        <ListView.ItemTemplate>
-                            <DataTemplate DataType="{x:Type vm:CodexEntryViewModel}">
-                                <v:CodexEntryCard Margin="0,0,10,10"/>
-                            </DataTemplate>
-                        </ListView.ItemTemplate>
-
-                        <ListView.ItemContainerStyle>
-                            <Style TargetType="ListViewItem">
-                                <Setter Property="Template">
-                                    <Setter.Value>
-                                        <ControlTemplate TargetType="ListViewItem">
-                                            <ContentPresenter />
-                                        </ControlTemplate>
-                                    </Setter.Value>
-                                </Setter>
-                                <Setter Property="ContextMenu">
-                                    <Setter.Value>
-                                        <ContextMenu>
-                                            <MenuItem Header="Delete" 
-                                  Command="{Binding DataContext.DeleteCodexEntryCommand, RelativeSource={RelativeSource AncestorType=Window}}"
-                                  CommandParameter="{Binding}"/>
-                                        </ContextMenu>
-                                    </Setter.Value>
-                                </Setter>
-                            </Style>
-                        </ListView.ItemContainerStyle>
-
-                    </ListView>
-                    <Button Content="Add Codex Entry"  
-                    Command="{Binding AddCodexEntryCommand}" 
-                    Style="{StaticResource AddButtonStyle}"
-                    Margin="0,20,0,0"/>
-                </StackPanel>
-            </ScrollViewer>
+        <TabItem Header="Subjects">
+            <v:SubjectLibrary DataContext="{Binding Subjects}"/>
         </TabItem>
         <TabItem Header="Themes">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding ThemeViewModels}" DeleteItemCommand="{Binding DeleteThemeCommand}"/>
-                    <Button Content="Add Theme"  Command="{Binding AddThemeCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
+            <v:ThemeLibrary DataContext="{Binding Themes}"/>
         </TabItem>
-        
-        <TabItem Header="PlotPoints">
-            <DockPanel>
-                <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="10">
-                    <Button Content="Open Floating Plot Points" 
-                    Command="{Binding OpenFloatingPointsCommand}" 
-                    Width="200" Height="40" Margin="0,0,10,0"/>
-
-                    <Button Content="Open Text Audit" 
-Command="{Binding OpenAuditWindowCommand}" 
-Width="200" Height="40" Margin="0,0,10,0"/>
-
-                    <Button Content="Open Note Categorizer" 
-                    Command="{Binding OpenNoteCategorizerCommand}" 
-                    Width="200" Height="40" />
-
-                    
-                </StackPanel>
-
-                <v:PlotPointCollectionViewer DataContext="{Binding PlotPointsByTextViewModel}" />
-            </DockPanel>
-        </TabItem>
-        <TabItem Header="Gemini Prompts">
-            <v:GeminiLibrary />
-        </TabItem>
-        <TabItem Header="Ideas">
-            <ScrollViewer>
-                <StackPanel>
-                    <ItemsControl ItemsSource="{Binding Ideas}">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <WrapPanel/>
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate DataType="{x:Type m:Idea}">
-                                <v:IdeaCard/>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                    <Button Content="🎲 Fix Random Analysis Item" 
-                    Command="{Binding OpenRandomAnalysisEntityCommand}" 
-                    Padding="10,5"
-                    FontWeight="SemiBold"
-                    HorizontalAlignment="Right" />
-                    <Button Content="Add Idea" Command="{Binding AddIdeaCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
-        </TabItem>
-
-        <TabItem Header="Note Length">
-            <ScrollViewer>
-                <StackPanel>
-                    <Grid Margin="10">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="Auto"/>
-                            <RowDefinition Height="*"/>
-                        </Grid.RowDefinitions>
-
-                        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,15">
-                            <TextBlock Text="Project Note Analysis" FontSize="20" FontWeight="SemiBold" VerticalAlignment="Center" Margin="0,0,20,0"/>
-                            <Button Content="Refresh Statistics" 
-                            Command="{Binding RefreshStatisticsCommand}" 
-                            Width="150" Height="35" 
-                            Style="{StaticResource AddButtonStyle}" />
-                        </StackPanel>
-
-                        <DataGrid Grid.Row="1" 
-                          ItemsSource="{Binding DataGridStats}" 
-                          AutoGenerateColumns="False" 
-                          IsReadOnly="True"
-                          CanUserAddRows="False"
-                          CanUserDeleteRows="False"
-                          HeadersVisibility="Column"
-                          GridLinesVisibility="All"
-                          HorizontalGridLinesBrush="#E0E0E0"
-                          VerticalGridLinesBrush="#E0E0E0"
-                          BorderBrush="#CCCCCC"
-                          BorderThickness="1"
-                          RowBackground="White"
-                          AlternatingRowBackground="#F7F9FA"
-                          RowHeight="35"
-                          FontSize="14">
-
-                            <DataGrid.Columns>
-                                <DataGridTextColumn Header="Metric" Binding="{Binding StatName}" FontWeight="SemiBold" Width="180"/>
-                                <DataGridTextColumn Header="Total" Binding="{Binding Total}" Width="80" FontWeight="Bold" Foreground="#333333"/>
-                                <DataGridTextColumn Header="Characters" Binding="{Binding Characters}" Width="100"/>
-                                <DataGridTextColumn Header="Themes" Binding="{Binding Themes}" Width="100"/>
-                                <DataGridTextColumn Header="Codex" Binding="{Binding Codex}" Width="100"/>
-                                <DataGridTextColumn Header="Chapters" Binding="{Binding Chapters}" Width="100"/>
-                                <DataGridTextColumn Header="Threads" Binding="{Binding Threads}" Width="100"/>
-                                <DataGridTextColumn Header="Unassigned" Binding="{Binding Unassigned}" Width="100" Foreground="Gray"/>
-                            </DataGrid.Columns>
-                        </DataGrid>
-                    </Grid>
-                    <TextBlock Text="Cards sorted by combined character count:" FontSize="20" FontWeight="SemiBold" VerticalAlignment="Center" Margin="0,0,20,0"/>
-                    <v:CardCollectionViewer ItemsSource="{Binding DashboardEntities}"/>
-                </StackPanel>
-            </ScrollViewer>
+        <TabItem Header="Definitions">
+            <v:DefinitionsEditorControl DataContext="{Binding Definitions}"/>
         </TabItem>
 
         <TabItem Header="Global Search">
@@ -260,20 +65,8 @@ Width="200" Height="40" Margin="0,0,10,0"/>
                              VerticalContentAlignment="Center"
                              Background="#FAFAFA" BorderBrush="#CCCCCC" BorderThickness="1"/>
                 </StackPanel>
-
-                <ScrollViewer VerticalScrollBarVisibility="Auto">
-                    <v:CardCollectionViewer ItemsSource="{Binding SearchResultsView}"/>
-                </ScrollViewer>
+                <ScrollViewer VerticalScrollBarVisibility="Auto"/>
             </DockPanel>
-        </TabItem>
-
-        <TabItem Header="Locations">
-            <ScrollViewer>
-                <StackPanel>
-                    <v:CardCollectionViewer ItemsSource="{Binding LocationViewModels}" DeleteItemCommand="{Binding DeleteLocationCommand}"/>
-                    <Button Content="Add Location"  Command="{Binding AddLocationCommand}" Style="{StaticResource AddButtonStyle}"/>
-                </StackPanel>
-            </ScrollViewer>
         </TabItem>
 
         <TabItem Header="Sources">
@@ -337,25 +130,6 @@ Width="200" Height="40" Margin="0,0,10,0"/>
                 <Button Grid.Row="1" Content="Add Source Material" Height="40" Margin="0,10,0,0"
                         Command="{Binding AddSourceMaterialCommand}" 
                         Background="#F0F8FF" BorderBrush="#ADD8E6"/>
-            </Grid>
-        </TabItem>
-
-        <TabItem Header="Unassigned Notes">
-            <Grid Margin="10">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="Auto"/>
-                    <RowDefinition Height="*"/>
-                </Grid.RowDefinitions>
-
-                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,10">
-                    <TextBlock Text="Inbox / Unassigned Notes" FontSize="20" FontWeight="SemiBold" Foreground="#333" Margin="0,0,20,0"/>
-
-                    <Button Content="🗑 Purge All" 
-    Command="{Binding DataContext.PurgeUnassignedNotesCommand, RelativeSource={RelativeSource AncestorType=Window}}" 
-    Background="#FFF0F0" Foreground="Red" BorderBrush="Red" Padding="10,5"/>
-                </StackPanel>
-
-                <v:NoteViewer Grid.Row="1" DataContext="{Binding UnassignedNotesVM}" />
             </Grid>
         </TabItem>
 

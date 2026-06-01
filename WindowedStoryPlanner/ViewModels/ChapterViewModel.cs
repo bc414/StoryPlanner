@@ -1,88 +1,83 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
+using System.ComponentModel;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public partial class ChapterViewModel : EntityViewModel
+public partial class ChapterViewModel : NarrativeElementViewModel
 {
     private readonly Chapter _chapter;
     public Chapter Chapter => _chapter;
 
-    [ObservableProperty]
-    [NotifyPropertyChangedFor(nameof(IsLinkingMode))]
-    private bool _isPlotPointReorderMode;
+    public ICollectionView? PlotPoints { get; private set; }
 
-    public override bool IsLinkingMode => !IsPlotPointReorderMode && !NoteCollectionViewModel.IsNoteReorderMode;
+    public int Id => _chapter.Id;
 
-    public ChapterViewModel(Chapter chapter)
+    public ChapterViewModel(
+        Chapter chapter,
+        IViewModelRegistry viewModelRegistry,
+        IStoryService storyService,
+        IContentFactory editorCoordinator,
+        AppSettings appSettings)
+        : base(viewModelRegistry, storyService, editorCoordinator, appSettings)
     {
         _chapter = chapter;
 
-        // Initialize the notes collection generic to the entity
-        NoteCollectionViewModel = new NoteCollectionViewModel(chapter.Notes);
-        NoteCollectionViewModel.PropertyChanged += (s, e) =>
-        {
-            if (e.PropertyName == nameof(NoteCollectionViewModel.IsNoteReorderMode))
-            {
-                OnPropertyChanged(nameof(IsLinkingMode));
-            }
-        };
-        
-        // --- THE FIX: SORT THE MODEL FIRST ---
-        // We must ensure the underlying ObservableCollection is sorted by OrderInChapter.
-        // Otherwise, the UI (which we want sorted) and the Model (which might be unsorted)
-        // will have mismatched indices, causing Drag & Drop to move the wrong items.
-        
-        var sortedList = _chapter.PlotPoints.OrderBy(p => p.OrderInChapter).ToList();
-        
-        // Only modify if actually out of order to avoid unnecessary events
-        if (!_chapter.PlotPoints.SequenceEqual(sortedList))
-        {
-            _chapter.PlotPoints.Clear();
-            foreach (var p in sortedList)
-            {
-                _chapter.PlotPoints.Add(p);
-            }
-        }
-        
-        // Initialize with Chapter-Specific Reorder Logic
-        PlotPointCollectionViewModel = new PlotPointCollectionViewModel(
-            chapter.PlotPoints,
-            (oldIndex, newIndex) => 
-            {
-                // 1. Move in Model
-                _chapter.PlotPoints.Move(oldIndex, newIndex);
-            
-                // 2. Update Sort Indexes
-                UpdateSortOrders();
-            }
-        );
+        InitializeCollections(
+            chapter.Id,
+            OwnerType.Chapter,
+            () => storyService.NoteTrackDefinitions
+                .Where(ntd => ntd.OwnerType == OwnerType.Chapter)
+                .ToList(),
+            () => storyService.NarrativePropertyDefinitions
+                .Where(npd => npd.OwnerType == OwnerType.Chapter)
+                .ToList());
+
+        if (viewModelRegistry.IsStoryLoaded)
+            BuildPlotPointsView();
     }
 
-    public void UpdateSortOrders()
+    protected override void OnStoryFullyLoaded()
     {
-        for (int i = 0; i < PlotPointCollectionViewModel.ViewModelCollection.Count; i++)
-        {
-            PlotPointCollectionViewModel.ViewModelCollection[i].OrderInChapter = i;
-        }
+        BuildPlotPointsView();
     }
 
-    // --- Properties Wrapper ---
+    private void BuildPlotPointsView()
+    {
+        var view = new ListCollectionView(_viewModelRegistry.AllPlotPointViewModels)
+        {
+            Filter = FilterPlotPoints
+        };
+        view.SortDescriptions.Add(
+            new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
+        PlotPoints = view;
+        OnPropertyChanged(nameof(PlotPoints));
+    }
 
-    // 1. New Computed Property
+    private bool FilterPlotPoints(object obj)
+    {
+        if (obj is not PlotPointViewModel plotPoint) return false;
+        return plotPoint.ChapterId == _chapter.Id;
+    }
+
+    // ── Properties ───────────────────────────────────────────────────────
+
     public string FullTitle => $"{OrderIndex}. {Title}";
 
-    // 2. Update existing properties to notify FullTitle when they change
     public string Title
     {
         get => _chapter.Title;
         set
         {
             if (SetProperty(_chapter.Title, value, _chapter, (u, n) => u.Title = n))
-            {
                 OnPropertyChanged(nameof(FullTitle));
-            }
         }
     }
 
@@ -91,49 +86,124 @@ public partial class ChapterViewModel : EntityViewModel
         get => _chapter.OrderIndex;
         set
         {
-            // Standard Property Update
             if (SetProperty(_chapter.OrderIndex, value, _chapter, (u, n) => u.OrderIndex = n))
             {
-                // 1. Update own title (e.g. "Chapter 1: The Beginning")
-                OnPropertyChanged(nameof(Title)); 
-
-                // 2. THE SIMPLER FIX: Push update to all children
-                // Since this ViewModel already holds the collection of PlotPoints, 
-                // we can just loop through them.
-                foreach (var pp in PlotPointCollectionViewModel.ViewModelCollection)
-                {
-                    pp.RefreshFullOrder();
-                }
+                OnPropertyChanged(nameof(FullTitle));
+                _viewModelRegistry.RaiseLinksInvalidated();
             }
         }
     }
 
-    public string Summary
-    {
-        get => _chapter.Summary;
-        set => SetProperty(_chapter.Summary, value, _chapter, (u, n) => u.Summary = n);
-    }
+    // ── Selection ────────────────────────────────────────────────────────
 
-    public string Description
-    {
-        get => _chapter.Description;
-        set => SetProperty(_chapter.Description, value, _chapter, (u, n) => u.Description = n);
-    }
+    [ObservableProperty]
+    private PlotPointViewModel? _selectedPlotPoint;
 
-    
+    // ── Commands ─────────────────────────────────────────────────────────
 
     [RelayCommand]
     public async Task AddPlotPoint()
     {
-        PlotPoint plotPoint = new PlotPoint
+        // Determine the next sort order from the service layer so it is
+        // correct even if the window is not yet open (Sections not initialized).
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == _chapter.Id)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
+
+        await _editorCoordinator.CreatePlotPointAsync(_chapter.Id, nextOrder);
+    }
+
+    [RelayCommand]
+    private void MovePlotPointUp()
+    {
+        if (SelectedPlotPoint is null) return;
+
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter < SelectedPlotPoint.OrderInChapter)
+            .OrderByDescending(p => p.OrderInChapter)
+            .FirstOrDefault();
+
+        if (neighbor is null) return;
+
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+
+        PlotPoints.Refresh();
+    }
+
+    [RelayCommand]
+    private void MovePlotPointDown()
+    {
+        if (SelectedPlotPoint is null) return;
+
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter > SelectedPlotPoint.OrderInChapter)
+            .OrderBy(p => p.OrderInChapter)
+            .FirstOrDefault();
+
+        if (neighbor is null) return;
+
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+
+        PlotPoints.Refresh();
+    }
+
+    // ── Drag & Drop ──────────────────────────────────────────────────────
+
+    public override void DragOver(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is PlotPointViewModel plotPoint && plotPoint.ChapterId != _chapter.Id)
         {
-            Title = "New Plot Point",
-            ChapterId = _chapter.Id,
-            OrderInChapter = _chapter.PlotPoints.Count
-        };
-        _chapter.PlotPoints.Add(plotPoint);
-        var plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
-        plotPointVM.Chapters.Add(this);
-        PlotPointCollectionViewModel.ViewModelCollection.Add(plotPointVM);
+            dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
+            dropInfo.Effects = DragDropEffects.Move;
+        }
+        else
+        {
+            base.DragOver(dropInfo);
+        }
+    }
+
+    public override async void Drop(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is not PlotPointViewModel plotPoint)
+        {
+            base.Drop(dropInfo);
+            return;
+        }
+
+        int? oldChapterId = plotPoint.ChapterId;
+        bool isNewChapter = oldChapterId != _chapter.Id;
+
+        // Move to the end of this chapter
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == _chapter.Id && p.Id != plotPoint.Id)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
+
+        plotPoint.ChapterId = _chapter.Id;
+        plotPoint.OrderInChapter = nextOrder;
+
+        // Compact the old chapter's ordering to remove the gap
+        if (isNewChapter && oldChapterId.HasValue)
+        {
+            var oldChapterPlotPoints = _viewModelRegistry.AllPlotPointViewModels
+                .Where(p => p.ChapterId == oldChapterId.Value)
+                .OrderBy(p => p.OrderInChapter)
+                .ToList();
+
+            for (int i = 0; i < oldChapterPlotPoints.Count; i++)
+                oldChapterPlotPoints[i].OrderInChapter = i + 1;
+
+            // Refresh the old chapter's list view if it is open
+            var oldChapterVm = _viewModelRegistry.AllChapterViewModels
+                .FirstOrDefault(c => c.Id == oldChapterId.Value);
+            oldChapterVm?.PlotPoints.Refresh();
+        }
+
+        PlotPoints.Refresh();
     }
 }

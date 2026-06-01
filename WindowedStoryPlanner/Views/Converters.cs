@@ -21,7 +21,7 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
             throw new NotImplementedException();
         }
     }
-    
+
     [ValueConversion(typeof(bool), typeof(bool))]
     public class InverseBooleanConverter : IValueConverter
     {
@@ -44,17 +44,17 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
             return false;
         }
     }
-    
+
     public class CanMoveToChapterConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             return value is ChapterViewModel || value is FloatingPlotPointsViewModel;
-    }
+        }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
     }
-    
+
     public class IsFloatingWindowConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -63,15 +63,6 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
             return value is FloatingPlotPointsViewModel;
         }
 
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
-    }
-    
-    public class IsEntityViewModelConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            return value is EntityViewModel;
-        }
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
     }
 
@@ -97,7 +88,7 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
 
             return Brushes.CornflowerBlue;
         }
-        
+
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
     }
 
@@ -140,6 +131,52 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
                 return Brushes.Red; // Older than 24 hours
             }
             return Brushes.Black; // Default fallback
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    public class CognitiveModeToColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value is not TrackType mode)
+                return new SolidColorBrush(Colors.LightGray);
+
+            var color = mode switch
+            {
+                // Layer 1 - Red
+                TrackType.Ontology              => Color.FromRgb(0xF4, 0xAA, 0xA8), // Pastel Red         - foundational rules
+
+                // Layer 2 - Oranges
+                TrackType.History               => Color.FromRgb(0xF4, 0xC8, 0x9A), // Pastel Orange      - temporal record
+                TrackType.Civilization          => Color.FromRgb(0xF8, 0xDA, 0xA0), // Pastel Amber       - built world
+
+                // Layer 3 - Yellow
+                TrackType.Characterization      => Color.FromRgb(0xF8, 0xF0, 0x9C), // Pastel Yellow      - psychological depth
+
+                // Layer 4 - Greens
+                TrackType.NarrativeArchitecture => Color.FromRgb(0xB8, 0xE4, 0xA8), // Pastel Green       - structural design
+                TrackType.PageDesign            => Color.FromRgb(0x9C, 0xDC, 0xA4), // Pastel Pure Green  - staging & scene (prose-facing)
+                TrackType.WorldInference        => Color.FromRgb(0x90, 0xC4, 0xE8), // Pastel Cyan-Blue   - reader cognition (must not enter prose)
+
+                // Layer 5 - Light Blue (abstract philosophical output)
+                TrackType.ThematicEvidence      => Color.FromRgb(0xB8, 0xD4, 0xF8), // Pastel Light Blue  - philosophical meaning
+
+                // Author Voice - wraps the color wheel back toward red via violet/purple
+                TrackType.Allegories            => Color.FromRgb(0x88, 0xB0, 0xF0), // Pastel Deep Blue   - deliberate social commentary
+                TrackType.Analogies             => Color.FromRgb(0xA4, 0x98, 0xEC), // Pastel Blue-Violet - real-world inspiration
+                TrackType.Canon                 => Color.FromRgb(0xC0, 0x9C, 0xE0), // Pastel Purple      - established canon (blue+red, echoes ontology)
+                TrackType.NotesToSelf           => Color.FromRgb(0xF2, 0xB0, 0xCC), // Pastel Pink        - intimate author voice
+
+                // Unset
+                _ => Colors.LightGray
+            };
+
+            return new SolidColorBrush(color);
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)

@@ -1,11 +1,14 @@
 ﻿using System.Configuration;
 using System.Data;
+using System.IO;
 using System.Windows;
 using System.Windows.Input;
+using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StoryPlanner.Core;
+using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.ViewModels;
 using WindowedStoryPlanner.Views;
 
@@ -22,27 +25,45 @@ public partial class App : Application
     public App()
     {
         AppHost = Host.CreateDefaultBuilder()
-            .ConfigureServices((hostContext, services) =>
+            .ConfigureServices((_, services) =>
             {
-                // --- ADD THIS BLOCK ---
-                // This registers the AppDbContext so the "StoryService" can find it.
-                // We use "Data Source=StoryPlanner.db" to create a local file.
+                // Infrastructure
                 services.AddDbContext<AppDbContext>(options =>
-                {
-                    options.UseSqlite("Data Source=StoryPlanner.db");
-                });
-                
-                // 2. REGISTER SINGLETON SERVICE
-                // This is your "Central Store". Both MainWindow and ChapterWindow
-                // will talk to this ONE instance.
+                    options.UseSqlite("Data Source=StoryPlanner.db"));
+
+                // Core
                 services.AddSingleton<IStoryService, StoryService>();
 
-                // 3. REGISTER WINDOWS
-                // We register MainWindow so DI can inject the Service into it automatically.
+                // ViewModel services
+                services.AddSingleton<IViewModelRegistry, ViewModelRegistry>();
+                services.AddSingleton<IContentFactory, ContentFactory>();
+                services.AddSingleton<IContentDeleter, ContentDeleter>();
+                services.AddSingleton<IWindowManager, WindowManager>();
+
+                // Tab ViewModels
+                services.AddSingleton<DefinitionsEditorViewModel>();
+                services.AddSingleton<SubjectLibraryViewModel>();
+                services.AddSingleton<FileManagerViewModel>();
+                services.AddSingleton<ChapterLibraryViewModel>();
+                services.AddSingleton<ThemeLibraryViewModel>();
+                services.AddSingleton<FloatingPlotPointsViewModel>();
+
+                services.AddSingleton<ProjectLoader>();
+                services.AddSingleton<ViewModelLocator>();
+
+                services.AddSingleton<AppSettings>();
+
+                // Windows
                 services.AddSingleton<MainWindow>();
-                
-                // (Optional) Register other windows if they have complex dependencies,
-                // otherwise you can just 'new' them up manually.
+                services.AddSingleton<Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow>>(sp =>
+                    (mode, element, initialLink) => new CommonWindow(
+                        sp.GetRequiredService<IViewModelRegistry>(),
+                        sp.GetRequiredService<IContentFactory>(),
+                        sp.GetRequiredService<IStoryService>(),
+                        sp.GetRequiredService<AppSettings>(),
+                        mode,
+                        element,
+                        initialLink));
             })
             .Build();
     }
@@ -51,38 +72,49 @@ public partial class App : Application
     {
         await AppHost!.StartAsync();
 
-        // 4. Show Window
-        var startupForm = AppHost.Services.GetRequiredService<MainWindow>();
-        startupForm.Show();
+        AppHost.Services.GetRequiredService<MainWindow>().Show();
+
+        if (e.Args.Length > 0 && File.Exists(e.Args[0]))
+        {
+            var path = e.Args[0];
+            var fileManager = AppHost.Services.GetRequiredService<FileManagerViewModel>();
+            await fileManager.OpenProjectFromPath(path);
+
+            // Navigate to Subjects tab (index 3)
+            var locator = AppHost.Services.GetRequiredService<ViewModelLocator>();
+            locator.SelectedTabIndex = 3;
+
+            // Set archive mode if filename contains "archive"
+            if (Path.GetFileNameWithoutExtension(path).Contains("archive", StringComparison.OrdinalIgnoreCase))
+            {
+                var settings = AppHost.Services.GetRequiredService<AppSettings>();
+                settings.IsArchiveMode = true;
+            }
+        }
 
         base.OnStartup(e);
-        
-        // Register a global handler for the KeyDown event on ANY Window
-        EventManager.RegisterClassHandler(typeof(Window), 
-            Window.KeyDownEvent, 
+
+        EventManager.RegisterClassHandler(
+            typeof(Window),
+            Window.KeyDownEvent,
             new KeyEventHandler(OnGlobalKeyDown));
     }
-    
+
     private void OnGlobalKeyDown(object sender, KeyEventArgs e)
     {
-        // Check for Ctrl + S
         if (e.Key == Key.S && (Keyboard.Modifiers & ModifierKeys.Control) == ModifierKeys.Control)
         {
-            // Access the Singleton Instance of MainViewModel
-            var vm = MainViewModel.Instance;
-
-            // Execute the command if it exists and can execute
-            if (vm != null && vm.SaveChangesCommand.CanExecute(null))
+            var vm = AppHost!.Services.GetRequiredService<FileManagerViewModel>();
+            if (vm.SaveChangesCommand.CanExecute(null))
             {
                 vm.SaveChangesCommand.Execute(null);
-                e.Handled = true; // Prevent other controls from reacting
+                e.Handled = true;
             }
         }
     }
 
     protected override async void OnExit(ExitEventArgs e)
     {
-        // Gracefully shut down the host (saves logs, closes connections)
         await AppHost!.StopAsync();
         base.OnExit(e);
     }

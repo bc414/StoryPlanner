@@ -1,0 +1,158 @@
+﻿<UserControl x:Class="WindowedStoryPlanner.Views.NoteView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+             xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800"
+             d:DataContext="{d:DesignInstance Type=vm:NoteViewModel}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+        <LinearGradientBrush x:Key="FlagReasonBackgroundBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#F0F4FF" Offset="0.0"/>
+            <GradientStop Color="#FFF3F2" Offset="0.5"/>
+            <GradientStop Color="#F5FFF6" Offset="1.0"/>
+        </LinearGradientBrush>
+        <LinearGradientBrush x:Key="FlagReasonBorderBrush" StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#E8F0FE" Offset="0.0"/>
+            <GradientStop Color="#FCE8E6" Offset="0.35"/>
+            <GradientStop Color="#FEF7E0" Offset="0.65"/>
+            <GradientStop Color="#E6F4EA" Offset="1.0"/>
+        </LinearGradientBrush>
+        <local:NullToVisibilityConverter x:Key="NullToVis"/>
+    </UserControl.Resources>
+
+    <Border BorderThickness="2"
+            CornerRadius="3"
+            Padding="5"
+            Margin="2"
+            BorderBrush="LightGray">
+        <DockPanel>
+
+            <!-- Top metadata row: WorldDate + Theme picker -->
+            <StackPanel DockPanel.Dock="Top" Orientation="Horizontal"
+                        HorizontalAlignment="Right" Margin="0,0,0,2">
+
+                <StackPanel Visibility="{Binding SupportsWorldDate, Converter={StaticResource BoolToVis}}"
+                            Orientation="Horizontal" Margin="0,0,8,0">
+                    <TextBlock Text="World Date: " VerticalAlignment="Center"/>
+                    <TextBox Text="{Binding WorldDate}"
+                             MinWidth="50"
+                             VerticalAlignment="Center"
+                             IsReadOnly="{Binding DataContext.IsReadOnly,
+                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"/>
+                </StackPanel>
+
+                <!-- Theme picker — only visible when the track supports themes -->
+                <StackPanel Orientation="Horizontal"
+                            Visibility="{Binding SupportsTheme, Converter={StaticResource BoolToVis}}">
+                    <TextBlock Text="Theme: " VerticalAlignment="Center" FontSize="11" Foreground="#666"/>
+                    <ComboBox ItemsSource="{Binding AvailableThemes}"
+                              SelectedItem="{Binding SelectedTheme, Mode=TwoWay}"
+                              DisplayMemberPath="Name"
+                              MinWidth="100"
+                              VerticalAlignment="Center"
+                              FontSize="11"
+                              IsEnabled="{Binding DataContext.IsReadOnly,
+                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView},
+                                          Converter={StaticResource InverseBooleanConverter}}"/>
+                    <Button Content="✕"
+                            Width="16" Height="16"
+                            Padding="0"
+                            FontSize="9"
+                            Margin="2,0,0,0"
+                            VerticalAlignment="Center"
+                            Background="Transparent"
+                            BorderThickness="0"
+                            Foreground="#999"
+                            ToolTip="Clear theme"
+                            Command="{Binding ClearThemeCommand}"
+                            Visibility="{Binding SelectedTheme, Converter={StaticResource NullToVis}}"/>
+                </StackPanel>
+            </StackPanel>
+
+            <!-- Sort order number on the left -->
+            <StackPanel DockPanel.Dock="Left">
+                <TextBlock Text="{Binding SortOrder, StringFormat={}{0}.}"/>
+            </StackPanel>
+
+            <!-- ✕ delete button — only visible when content is empty AND track is not readonly -->
+            <Button DockPanel.Dock="Right"
+                    Content="✕"
+                    VerticalAlignment="Top"
+                    Width="18" Height="18"
+                    Padding="0"
+                    FontSize="10"
+                    Foreground="#CC4444"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    ToolTip="Delete empty note"
+                    Command="{Binding DataContext.DeleteNoteCommand,
+                              RelativeSource={RelativeSource AncestorType=local:NoteTrackSectionView}}"
+                    CommandParameter="{Binding}">
+                <Button.Style>
+                    <Style TargetType="Button">
+                        <Setter Property="Visibility"
+                                Value="{Binding IsEmpty, Converter={StaticResource BoolToVis}}"/>
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate TargetType="Button">
+                                    <Border Background="{TemplateBinding Background}" CornerRadius="3">
+                                        <ContentPresenter HorizontalAlignment="Center"
+                                                          VerticalAlignment="Center"/>
+                                    </Border>
+                                    <ControlTemplate.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#22CC4444"/>
+                                        </Trigger>
+                                    </ControlTemplate.Triggers>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                        <!-- Readonly overrides the IsEmpty visibility — hide the button entirely -->
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding DataContext.IsReadOnly,
+                                         RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"
+                                         Value="True">
+                                <Setter Property="Visibility" Value="Collapsed"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Button.Style>
+            </Button>
+
+            <!-- Flag reason box -->
+            <StackPanel Visibility="{Binding IsFlagged, Converter={StaticResource BoolToVis}}"
+                        Orientation="Vertical" DockPanel.Dock="Bottom" Margin="0,4,0,0">
+                <TextBlock Text="Flag Reason:" Margin="0,0,0,2" FontSize="11" Foreground="#9C3B2E"/>
+                <Border BorderThickness="2"
+                        CornerRadius="3"
+                        Padding="4"
+                        BorderBrush="{StaticResource FlagReasonBorderBrush}"
+                        Background="{StaticResource FlagReasonBackgroundBrush}">
+                    <TextBox Text="{Binding FlagReason}"
+                             TextWrapping="Wrap"
+                             AcceptsReturn="True"
+                             BorderThickness="0"
+                             Background="Transparent"
+                             VerticalAlignment="Stretch"
+                             IsReadOnly="{Binding DataContext.IsReadOnly,
+                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"/>
+                </Border>
+            </StackPanel>
+
+            <!-- Note content -->
+            <TextBox Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}"
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True"
+                     BorderThickness="0"
+                     Background="Transparent"
+                     VerticalAlignment="Stretch"
+                     IsReadOnly="{Binding DataContext.IsReadOnly,
+                                  RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"/>
+        </DockPanel>
+    </Border>
+</UserControl>

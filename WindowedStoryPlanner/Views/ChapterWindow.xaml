@@ -4,12 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+        xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         mc:Ignorable="d"
         Title="{Binding Title, StringFormat='Chapter: {0}'}" Width="350" SizeToContent="Height"
-        d:DataContext="{x:Static local:Sample.ChapterViewModel}"
+             d:DataContext="{d:DesignInstance Type=vm:ChapterViewModel}"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
 
-dd:DragDrop.IsDropTarget="{Binding IsLinkingMode}"
+dd:DragDrop.IsDropTarget="True"
 dd:DragDrop.DropHandler="{Binding}">
     <Window.Resources>
         <Style TargetType="TextBlock" x:Key="LabelStyle">
@@ -35,23 +36,11 @@ dd:DragDrop.DropHandler="{Binding}">
                 <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
     FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Width="200"/>
             </StackPanel>
-            <TextBlock Text="SUMMARY" Style="{StaticResource LabelStyle}"/>
-            <TextBox Text="{Binding Summary, UpdateSourceTrigger=PropertyChanged}" 
-Style="{StaticResource AutoGrowingTextBox}"
-MinHeight="20"/>
-            <TextBlock Text="DESCRIPTION" Style="{StaticResource LabelStyle}"/>
-            <TextBox Text="{Binding Description, UpdateSourceTrigger=PropertyChanged}" 
-Style="{StaticResource AutoGrowingTextBox}"
-MinHeight="20"/>
-            <local:NoteViewer DataContext="{Binding NoteCollectionViewModel}" />
-            <local:PlotPointCollectionViewer DataContext="{Binding PlotPointCollectionViewModel}" 
-                                             IsDragReorderEnabled="{Binding IsChecked, ElementName=ReOrderCheckbox}" x:Name="PlotPointCollectionViewer"/>
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
-                <Button Content="+ New Plot Point" Height="24" Command="{Binding AddPlotPointCommand}"/>
-                <CheckBox x:Name="ReOrderCheckbox" Content="Reorder Plot Points" IsChecked="{Binding IsPlotPointReorderMode}"
-                          VerticalAlignment="Center" Margin="5,0,0,0"/>
-            </StackPanel>
-            
+
+            <local:NarrativeElementFullView/>
+
+            <local:PlotPointListControl/>
+
         </StackPanel>
     </ScrollViewer>
 </Window>

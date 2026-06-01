@@ -1,79 +1,23 @@
-<UserControl x:Class="WindowedStoryPlanner.Views.PlotPointCard"
+﻿<UserControl x:Class="WindowedStoryPlanner.Views.PlotPointCard"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-             xmlns:local="clr-namespace:WindowedStoryPlanner"
-             xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
-             xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
-             d:DataContext="{x:Static v:Sample.PlotPointViewModel}"
-             mc:Ignorable="d"
-             Style="{StaticResource CardBaseStyle}"
-             Margin="2,5">
-    <UserControl.Resources>
-        <v:EntityToPayloadConverter x:Key="EntityToPayloadConverter"/>
-
-        <DataTemplate DataType="{x:Type m:PlotPointCharacter}">
-            <v:PlotPointCharacterView />
-        </DataTemplate>
-
-        <DataTemplate DataType="{x:Type m:PlotPointTheme}">
-            <v:PlotPointThemeView />
-        </DataTemplate>
-        
-        <DataTemplate DataType="{x:Type m:PlotPointThread}">
-            <v:PlotPointThreadView />
-        </DataTemplate>
-        
-        <DataTemplate DataType="{x:Type m:PlotPointCodexEntry}">
-            <v:PlotPointCodexEntryView />
-        </DataTemplate>
-    </UserControl.Resources>
-    <UserControl.ContextMenu>
-        <ContextMenu>
-            <MenuItem Header="Unlink from this Window"
-                      Command="{Binding UnlinkEntityCommand}"
-                      CommandParameter="{Binding PlacementTarget.Tag, RelativeSource={RelativeSource AncestorType=ContextMenu}}">
-                <MenuItem.Style>
-                    <Style TargetType="MenuItem">
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding PlacementTarget.Tag, RelativeSource={RelativeSource AncestorType=ContextMenu}}" Value="{x:Null}">
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </MenuItem.Style>
-            </MenuItem>
-
-            <MenuItem Header="Move to..." ItemsSource="{Binding AllChapters}">
-                <MenuItem.ItemContainerStyle>
-                    <Style TargetType="MenuItem">
-                        <Setter Property="Header" Value="{Binding Title}"/>
-                        <Setter Property="Command" Value="{Binding DataContext.MoveToChapterCommand, RelativeSource={RelativeSource AncestorType=ContextMenu}}"/>
-                        <Setter Property="CommandParameter" Value="{Binding}"/>
-                    </Style>
-                </MenuItem.ItemContainerStyle>
-                <MenuItem.Style>
-                    <Style TargetType="MenuItem">
-                        <Style.Triggers>
-                            <DataTrigger Binding="{Binding PlacementTarget.Tag, RelativeSource={RelativeSource AncestorType=ContextMenu}, Converter={StaticResource TypeCheckConverter}}" Value="False">
-                                <Setter Property="Visibility" Value="Collapsed"/>
-                            </DataTrigger>
-                        </Style.Triggers>
-                    </Style>
-                </MenuItem.Style>
-            </MenuItem>
-        </ContextMenu>
-    </UserControl.ContextMenu>
-
+             mc:Ignorable="d" 
+             Width="300" Height="60"
+             d:DataContext="{d:DesignInstance Type=vm:PlotPointViewModel}"
+             Style="{StaticResource PlotPointCardStyle}"
+             dd:DragDrop.IsDragSource="True"
+             dd:DragDrop.IsDropTarget="True"
+             dd:DragDrop.DropHandler="{Binding}">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
-            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
-
         <TextBlock Grid.Row="0"
                    TextWrapping="Wrap"
                    VerticalAlignment="Center"
@@ -85,69 +29,5 @@
             <Run Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
                  FontSize="13"/>
         </TextBlock>
-
-        
-        
-        <Expander Grid.Row="2">
-            <Expander.Style>
-                <Style TargetType="Expander">
-                    <Style.Triggers>
-                        <!--<DataTrigger Binding="{Binding Content, ElementName=PayloadPresenter}" Value="{x:Null}">
-                            <Setter Property="Visibility" Value="Collapsed"/>
-                        </DataTrigger>-->
-                    </Style.Triggers>
-                </Style>
-            </Expander.Style>
-
-            <Expander.Header>
-                <DockPanel Grid.Row="1" Margin="0,0,0,2" LastChildFill="True"
-                           Width="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Expander}}, Path=ActualWidth}">
-
-                    <StackPanel Orientation="Horizontal" DockPanel.Dock="Right">
-                        <ItemsControl ItemsSource="{Binding Themes}" VerticalAlignment="Center"
-                            ItemTemplate="{StaticResource ThemeBadgeTemplate}"
-                            Margin="5,0,0,0">       
-                            <ItemsControl.ItemsPanel>
-                                <ItemsPanelTemplate>
-                                    <WrapPanel/>
-                                </ItemsPanelTemplate>
-                            </ItemsControl.ItemsPanel>
-                        </ItemsControl>
-                        <TextBlock Width="30"/>
-                    </StackPanel>
-                    
-
-                    <ItemsControl ItemsSource="{Binding StoryThreads}"
-          ItemTemplate="{StaticResource ThreadBadgeTemplate}"
-          DockPanel.Dock="Left"
-          Margin="0,0,8,0">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <WrapPanel/>
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                    </ItemsControl>
-
-                    <ItemsControl ItemsSource="{Binding CodexEntries}" 
-          ItemTemplate="{StaticResource CodexBadgeTemplate}" HorizontalAlignment="Center">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <WrapPanel/>
-                            </ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                    </ItemsControl>
-
-                </DockPanel>
-            </Expander.Header>
-
-            <ContentControl x:Name="PayloadPresenter">
-                <ContentControl.Content>
-                    <MultiBinding Converter="{StaticResource EntityToPayloadConverter}">
-                        <Binding /> 
-                        <Binding RelativeSource="{RelativeSource AncestorType=Window}" Path="DataContext"/>
-                    </MultiBinding>
-                </ContentControl.Content>
-            </ContentControl>
-        </Expander>
     </Grid>
 </UserControl>

@@ -1,18 +1,13 @@
-using System.Collections.ObjectModel;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace StoryPlanner.Core.Models;
-
-public class Theme
+namespace StoryPlanner.Core.Models
 {
-    public int Id { get; set; }
-    public string Name { get; set; } = string.Empty; // "The Cost of War"
-    
-    public string Description { get; set; } = string.Empty;
-    
-    // NEW: The 2-letter code (e.g., "Au", "Rv", "Bo")
-    public string Abbreviation { get; set; } = string.Empty; 
-    
-    public string ColorHex { get; set; } = "#";
-    public ObservableCollection<Note> Notes { get; set; } = new();
-    public ObservableCollection<PlotPointTheme> PlotPointAssignments { get; set; } = new();
+    public class Theme
+    {
+        public int Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Proposition {  get; set; } = string.Empty;
+    }
 }

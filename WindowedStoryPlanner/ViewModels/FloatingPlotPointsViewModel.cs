@@ -1,114 +1,103 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using StoryPlanner.Core.Models;
-using System.Collections.ObjectModel;
-using System.Collections.Specialized;
+using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core;
+using System.ComponentModel;
 using System.Linq;
-using System.Windows;
+using System.Threading.Tasks;
+using System.Windows.Data;
 
 namespace WindowedStoryPlanner.ViewModels;
 
-public partial class FloatingPlotPointsViewModel : ObservableObject
+public partial class FloatingPlotPointsViewModel : ObservableObject, IDropTarget
 {
-    // The wrapper that the View binds to
-    public PlotPointCollectionViewModel PlotPointCollectionViewModel { get; }
+    private readonly IViewModelRegistry _viewModelRegistry;
+    private readonly IStoryService _storyService;
+    private readonly IContentFactory _editorCoordinator;
+    private readonly IWindowManager _windowManager;
 
-    public FloatingPlotPointsViewModel()
+    public ICollectionView PlotPoints { get; }
+
+    public FloatingPlotPointsViewModel(
+        IViewModelRegistry viewModelRegistry,
+        IStoryService storyService,
+        IContentFactory editorCoordinator,
+        IWindowManager windowManager)
     {
-        // 1. Initial Populate: Find all VMs where the Chapters list is empty
-        var unassignedPoints = MainViewModel.Instance.PlotPointViewModels
-            .Where(vm => vm.Chapters.Count == 0) // Check the ViewModel's collection, not the Model
-            .Select(vm => vm.Model);
+        _viewModelRegistry = viewModelRegistry;
+        _storyService = storyService;
+        _editorCoordinator = editorCoordinator;
+        _windowManager = windowManager;
 
-        // Initialize the wrapper
-        PlotPointCollectionViewModel = new PlotPointCollectionViewModel(unassignedPoints, null);
-
-        // 2. Subscribe to Global List Changes (New/Deleted items)
-        MainViewModel.Instance.PlotPointViewModels.CollectionChanged += OnGlobalListChanged;
-
-        // 3. Subscribe to Individual Item Link Changes (Existing items)
-        foreach (var vm in MainViewModel.Instance.PlotPointViewModels)
+        PlotPoints = new ListCollectionView(viewModelRegistry.AllPlotPointViewModels)
         {
-            vm.Chapters.CollectionChanged += (s, e) => OnChapterLinkChanged(vm);
-        }
-    }
-
-    // Handles when a Plot Point is created or deleted entirely
-    private void OnGlobalListChanged(object? sender, NotifyCollectionChangedEventArgs e)
-    {
-        if (e.NewItems != null)
-        {
-            foreach (PlotPointViewModel newItem in e.NewItems)
-            {
-                // Start listening to this new item's links
-                newItem.Chapters.CollectionChanged += (s, args) => OnChapterLinkChanged(newItem);
-
-                // If it starts unassigned, show it
-                if (newItem.Chapters.Count == 0)
-                {
-                    PlotPointCollectionViewModel.ViewModelCollection.Add(newItem);
-                }
-            }
-        }
-
-        if (e.OldItems != null)
-        {
-            foreach (PlotPointViewModel oldItem in e.OldItems)
-            {
-                // Stop listening
-                // Note: We can't easily unsubscribe the anonymous lambda, but since the object is dying, it's usually acceptable.
-                // For stricter memory management, you'd use a named method for the event handler.
-                
-                PlotPointCollectionViewModel.ViewModelCollection.Remove(oldItem);
-            }
-        }
-    }
-
-    // Handles when a Plot Point is Linked or Unlinked
-    private void OnChapterLinkChanged(PlotPointViewModel vm)
-    {
-        bool isFloating = vm.Chapters.Count == 0;
-        bool isInList = PlotPointCollectionViewModel.ViewModelCollection.Contains(vm);
-
-        if (isFloating && !isInList)
-        {
-            PlotPointCollectionViewModel.ViewModelCollection.Add(vm);
-        }
-        else if (!isFloating && isInList)
-        {
-            PlotPointCollectionViewModel.ViewModelCollection.Remove(vm);
-        }
-    }
-
-    [RelayCommand]
-    public async Task AddFloatingPlotPoint()
-    {
-        PlotPoint plotPoint = new PlotPoint
-        {
-            Title = "",
-            ChapterId = null,
-            OrderInChapter = 0
+            Filter = o => o is PlotPointViewModel p && p.ChapterId == null
         };
-
-        // Registering adds it to MainViewModel -> OnGlobalListChanged fires -> Adds to our list
-        PlotPointViewModel plotPointVM = await MainViewModel.Instance.RegisterNewPlotPoint(plotPoint);
-        
-        MainViewModel.Instance.OpenEditorWindow(plotPointVM);
+        PlotPoints.SortDescriptions.Add(
+            new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
     }
-    
-    [RelayCommand]
-    public void DeleteFloatingPlotPoint(PlotPointViewModel vm)
-    {
-        if (vm == null) return;
 
-        if (MessageBox.Show($"Are you sure you want to delete '{vm.Title}' entirely?", 
-                            "Confirm Delete", 
-                            MessageBoxButton.YesNo, 
-                            MessageBoxImage.Warning) == MessageBoxResult.Yes)
+    [ObservableProperty]
+    private PlotPointViewModel? _selectedPlotPoint;
+
+    [RelayCommand]
+    private void OpenWindow() => _windowManager.OpenFloatingPlotPointsWindow(this);
+
+    [RelayCommand]
+    public async Task AddPlotPoint()
+    {
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == null)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
+
+        await _editorCoordinator.CreatePlotPointAsync(chapterId: null, nextOrder);
+    }
+
+    [RelayCommand]
+    private void MovePlotPointUp()
+    {
+        if (SelectedPlotPoint is null) return;
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter < SelectedPlotPoint.OrderInChapter)
+            .OrderByDescending(p => p.OrderInChapter)
+            .FirstOrDefault();
+        if (neighbor is null) return;
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+        PlotPoints.Refresh();
+    }
+
+    [RelayCommand]
+    private void MovePlotPointDown()
+    {
+        if (SelectedPlotPoint is null) return;
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter > SelectedPlotPoint.OrderInChapter)
+            .OrderBy(p => p.OrderInChapter)
+            .FirstOrDefault();
+        if (neighbor is null) return;
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+        PlotPoints.Refresh();
+    }
+
+    // Accepts drops FROM chapter windows — clears ChapterId
+    public void DragOver(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is PlotPointViewModel)
         {
-            // Remove from global source
-            MainViewModel.Instance.PlotPoints.Remove(vm.Model);
-            MainViewModel.Instance.PlotPointViewModels.Remove(vm);
+            dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
+            dropInfo.Effects = System.Windows.DragDropEffects.Move;
         }
+    }
+
+    public void Drop(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is not PlotPointViewModel plotPoint) return;
+        plotPoint.ChapterId = null;
+        plotPoint.OrderInChapter = PlotPoints.Cast<PlotPointViewModel>().Count() + 1;
+        PlotPoints.Refresh();
     }
 }
