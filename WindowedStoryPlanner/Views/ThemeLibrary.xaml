@@ -45,6 +45,10 @@
                     Style="{StaticResource AddButton}"
                     Command="{Binding AddThemeCommand}"
                     Margin="12,0,0,0" VerticalAlignment="Center"/>
+            <Button Content="Export to Markdown"
+                    Style="{StaticResource AddButton}"
+                    Command="{Binding ExportThemesToMarkdownCommand}"
+                    VerticalAlignment="Center"/>
         </StackPanel>
 
         <!-- ── DataGrid ── -->

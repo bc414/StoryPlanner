@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
         xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
         mc:Ignorable="d"
-        Title="IdeaWindow" Height="450" Width="800" d:DataContext="{x:Static local:Sample.Idea}">
+        Title="IdeaWindow" Height="450" Width="800" d:DataContext="{d:DesignInstance Type=m:Idea}">
     <Window.Resources>
         <ObjectDataProvider x:Key="IdeaStateEnum" MethodName="GetValues" ObjectType="{x:Type m:IdeaState}">
             <ObjectDataProvider.MethodParameters>

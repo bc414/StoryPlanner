@@ -3,7 +3,10 @@ using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using System.Collections.ObjectModel;
+using System.IO;
+using System.Linq;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace WindowedStoryPlanner.ViewModels;
 
@@ -52,6 +55,21 @@ public partial class ThemeLibraryViewModel : ObservableObject
     private async Task SaveAll()
     {
         await _storyService.SaveAsync();
+    }
+
+    [RelayCommand]
+    private void ExportThemesToMarkdown()
+    {
+        string projectPath = _storyService.CurrentFilePath;
+        string projectName = Path.GetFileNameWithoutExtension(projectPath);
+        string outputPath  = Path.Combine(Path.GetDirectoryName(projectPath)!, $"{projectName}-themes.md");
+
+        var data = Themes.Select(t => new ThemeExportData(t.Name, t.Proposition));
+        string markdown = ThemesMarkdownExporter.Build(data);
+        File.WriteAllText(outputPath, markdown);
+
+        MessageBox.Show($"Exported to:\n{outputPath}", "Export Complete",
+            MessageBoxButton.OK, MessageBoxImage.Information);
     }
 
     [RelayCommand]

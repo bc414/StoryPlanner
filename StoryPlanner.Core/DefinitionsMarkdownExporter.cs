@@ -63,6 +63,21 @@ public static class DefinitionsMarkdownExporter
     {
         var sb = new StringBuilder();
 
+        // ── Track Types ────────────────────────────────────────────────────────
+        sb.AppendLine("# Track Types");
+        sb.AppendLine();
+        sb.AppendLine("Track types define the cognitive mode and authorial perspective of a note track.");
+        sb.AppendLine();
+
+        foreach (var trackType in Enum.GetValues<TrackType>().Where(t => t != TrackType.Unset))
+        {
+            sb.AppendLine($"- **{trackType}**: {trackType.GetCognitiveMode()}");
+        }
+
+        sb.AppendLine();
+        sb.AppendLine("---");
+        sb.AppendLine();
+
         // ── Subject Definitions ────────────────────────────────────────────────
         sb.AppendLine("# Subject Definitions");
         sb.AppendLine();
@@ -112,20 +127,7 @@ public static class DefinitionsMarkdownExporter
                     sb.AppendLine($"#### {t.TrackName}");
                     sb.AppendLine();
 
-                    // Metadata table — OwnerType and SubjectType omitted;
-                    // they are conveyed by the ## / ### section structure
-                    sb.AppendLine("| Field | Value |");
-                    sb.AppendLine("|---|---|");
-                    sb.AppendLine($"| Track Type | {t.TrackType} |");
-                    sb.AppendLine($"| Singleton | {BoolLabel(t.IsSingleton)} |");
-                    sb.AppendLine($"| Supports World Date | {BoolLabel(t.SupportsWorldDate)} |");
-                    sb.AppendLine($"| Supports Theme | {BoolLabel(t.SupportsTheme)} |");
-                    sb.AppendLine($"| Editable in Audit Mode | {BoolLabel(t.CanEditInAuditMode)} |");
-                    sb.AppendLine($"| Expansion Display Order | {t.ExpansionModeDisplayOrder} |");
-                    sb.AppendLine($"| Linking Display Order | {t.LinkingModeDisplayOrder} |");
-                    sb.AppendLine($"| Gardener Display Order | {t.GardenerModeDisplayOrder} |");
-                    sb.AppendLine($"| Audit Display Order | {t.AuditModeDisplayOrder} |");
-                    sb.AppendLine($"| Scene Design Display Order | {t.SceneDesignModeDisplayOrder} |");
+                    sb.AppendLine($"Track Type: {t.TrackType}");
                     sb.AppendLine();
 
                     if (!string.IsNullOrWhiteSpace(t.DisplayQuestion))

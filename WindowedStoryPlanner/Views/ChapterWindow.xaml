@@ -1,4 +1,4 @@
-﻿<Window x:Class="WindowedStoryPlanner.Views.ChapterWindow"
+<Window x:Class="WindowedStoryPlanner.Views.ChapterWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,12 +6,11 @@
         xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
         xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
         mc:Ignorable="d"
-        Title="{Binding Title, StringFormat='Chapter: {0}'}" Width="350" SizeToContent="Height"
-             d:DataContext="{d:DesignInstance Type=vm:ChapterViewModel}"
+        Title="{Binding Title, StringFormat='Chapter: {0}'}" WindowState="Maximized"
+        d:DataContext="{d:DesignInstance Type=vm:ChapterViewModel}"
         xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
-
-dd:DragDrop.IsDropTarget="True"
-dd:DragDrop.DropHandler="{Binding}">
+        dd:DragDrop.IsDropTarget="True"
+        dd:DragDrop.DropHandler="{Binding}">
     <Window.Resources>
         <Style TargetType="TextBlock" x:Key="LabelStyle">
             <Setter Property="Foreground" Value="#666666"/>
@@ -27,20 +26,24 @@ dd:DragDrop.DropHandler="{Binding}">
             <Setter Property="BorderBrush" Value="#CCCCCC"/>
         </Style>
     </Window.Resources>
-    <ScrollViewer>
-        <StackPanel>
-            <StackPanel Orientation="Horizontal">
-                <TextBlock Text="Chapter " FontWeight="Bold" FontSize="16"/>
-                <TextBox Text="{Binding OrderIndex, UpdateSourceTrigger=LostFocus}" FontWeight="Bold" FontSize="16"/>
-                <TextBlock Text=". " FontWeight="Bold" FontSize="16"/>
-                <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}" 
-    FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Width="200"/>
-            </StackPanel>
+    <DockPanel>
 
-            <local:NarrativeElementFullView/>
-
-            <local:PlotPointListControl/>
-
+        <!-- Title bar spans full width -->
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <TextBlock Text="Chapter " FontWeight="Bold" FontSize="16"/>
+            <TextBox Text="{Binding OrderIndex, UpdateSourceTrigger=LostFocus}" FontWeight="Bold" FontSize="16"/>
+            <TextBlock Text=". " FontWeight="Bold" FontSize="16"/>
+            <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Width="200"/>
         </StackPanel>
-    </ScrollViewer>
+
+        <!-- Plot point list: fixed width on the left -->
+        <ScrollViewer DockPanel.Dock="Left" Width="300" HorizontalScrollBarVisibility="Hidden">
+            <local:PlotPointListControl/>
+        </ScrollViewer>
+
+        <!-- NarrativeElementFullView fills the remaining space (LastChildFill) -->
+        <local:NarrativeElementFullView/>
+
+    </DockPanel>
 </Window>

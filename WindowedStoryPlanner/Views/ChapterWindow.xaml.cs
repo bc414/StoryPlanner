@@ -12,7 +12,7 @@ namespace WindowedStoryPlanner.Views
         public ChapterWindow()
         {
             InitializeComponent();
-
+            /*
             // 1. Apply the limit BEFORE the window loads.
             // Using WorkArea is better than PrimaryScreenHeight as it accounts for the Taskbar.
             this.MaxHeight = SystemParameters.WorkArea.Height * 0.9;
@@ -26,7 +26,7 @@ namespace WindowedStoryPlanner.Views
 
                 // Now remove the limit so the user can resize it larger if they want.
                 this.MaxHeight = double.PositiveInfinity;
-            };
+            };*/
 
             this.Loaded += OnLoaded;
             this.Closed += OnClosed;

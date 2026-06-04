@@ -19,6 +19,8 @@
                       Margin="4,4,4,6"
                       Padding="8,3"/>
 
+        <Button DockPanel.Dock="Top" Content="Export Subjects to Markdown" Command="{Binding ExportSubjectsToMarkdownCommand}"/>
+
         <ScrollViewer VerticalScrollBarVisibility="Auto">
             <ItemsControl ItemsSource="{Binding Groups}">
                 <ItemsControl.ItemTemplate>

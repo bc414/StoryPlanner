@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using System.Collections.ObjectModel;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
@@ -21,6 +22,7 @@ public partial class SubjectLibraryViewModel : ObservableObject
     private readonly IContentDeleter    _deleter;
     private readonly IWindowManager     _windowManager;
     private readonly IViewModelRegistry _registry;
+    private readonly IStoryService      _storyService;
 
     public AppSettings AppSettings { get; }
 
@@ -37,12 +39,14 @@ public partial class SubjectLibraryViewModel : ObservableObject
         IContentDeleter    deleter,
         IWindowManager     windowManager,
         IViewModelRegistry registry,
+        IStoryService      storyService,
         AppSettings        appSettings)
     {
         _factory       = factory;
         _deleter       = deleter;
         _windowManager = windowManager;
         _registry      = registry;
+        _storyService  = storyService;
         AppSettings    = appSettings;
 
         // Rebuild groups when definitions are added/removed at runtime (e.g. from Definitions tab).
@@ -89,5 +93,27 @@ public partial class SubjectLibraryViewModel : ObservableObject
                 "Delete Failed",
                 MessageBoxButton.OK,
                 MessageBoxImage.Warning);
+    }
+
+    [RelayCommand]
+    private void ExportSubjectsToMarkdown()
+    {
+        string projectPath = _storyService.CurrentFilePath;
+        string projectName = Path.GetFileNameWithoutExtension(projectPath);
+        string outputPath  = Path.Combine(Path.GetDirectoryName(projectPath)!, $"{projectName}-subjects.md");
+
+        var data = _registry.AllSubjectViewModels
+            .Select(s => new SubjectExportData(
+                Name:         s.Name,
+                SubjectType:  s.SelectedSubjectDefinition?.SubjectType ?? "Unknown",
+                Description:  s.Description  ?? string.Empty,
+                Abbreviation: s.Abbreviation ?? string.Empty,
+                ColorHex:     s.ColorHex     ?? string.Empty));
+
+        string markdown = SubjectsMarkdownExporter.Build(data);
+        File.WriteAllText(outputPath, markdown);
+
+        MessageBox.Show($"Exported to:\n{outputPath}", "Export Complete",
+            MessageBoxButton.OK, MessageBoxImage.Information);
     }
 }

@@ -4,8 +4,9 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             xmlns:m="clr-namespace:StoryPlanner.Core.Models;assembly=StoryPlanner.Core"
              mc:Ignorable="d"
-             d:DesignHeight="300" d:DesignWidth="300" d:DataContext="{x:Static local:Sample.Idea}">
+             d:DesignHeight="300" d:DesignWidth="300" d:DataContext="{d:DesignInstance Type=m:Idea}">
     <UserControl.Resources>
         <local:IdeaStatusToColorConverter x:Key="IdeaStatusToColorConverter"/>
     </UserControl.Resources>

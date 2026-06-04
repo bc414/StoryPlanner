@@ -134,7 +134,8 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
     private void OnNoteMutated(NoteMutatedArgs args)
     {
-        if (args.OwnerId != _ownerId || args.OwnerType != _ownerType) return;
+        if (args.OwnerId != _ownerId || args.OwnerType != _ownerType)
+            if (!_sectionSource.Any(n => n.Id == args.NoteId)) return;
 
         var note = _viewModelRegistry.AllNoteViewModels.FirstOrDefault(n => n.Id == args.NoteId);
         if (note is null) return;
