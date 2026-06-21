@@ -107,8 +107,9 @@ namespace WindowedStoryPlanner.ViewModels
             IViewModelRegistry viewModelRegistry,
             IStoryService storyService,
             IContentFactory editorCoordinator,
-            AppSettings appSettings)
-            : base(viewModelRegistry, storyService, editorCoordinator, appSettings)
+            AppSettings appSettings,
+            ExportService exportService)
+            : base(viewModelRegistry, storyService, editorCoordinator, appSettings, exportService)
         {
             _link = link;
 

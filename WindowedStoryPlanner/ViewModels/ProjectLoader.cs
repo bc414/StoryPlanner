@@ -14,9 +14,11 @@ public class ProjectLoader
     private readonly IContentFactory            _factory;
     private readonly IWindowManager             _windowManager;
     private readonly AppSettings                 _appSettings;
+    private readonly ExportService              _exportService;
     private readonly DefinitionsEditorViewModel _definitions;
     private readonly SubjectLibraryViewModel    _subjectLibrary;
     private readonly ThemeLibraryViewModel      _themeLibrary;
+    private readonly ExportViewModel            _export;
 
     public ProjectLoader(
         IStoryService               storyService,
@@ -24,18 +26,22 @@ public class ProjectLoader
         IContentFactory             factory,
         IWindowManager              windowManager,
         AppSettings                 appSettings,
+        ExportService               exportService,
         DefinitionsEditorViewModel  definitions,
         SubjectLibraryViewModel     subjectLibrary,
-        ThemeLibraryViewModel       themeLibrary)
+        ThemeLibraryViewModel       themeLibrary,
+        ExportViewModel             export)
     {
         _storyService   = storyService;
         _registry       = registry;
         _factory        = factory;
         _windowManager  = windowManager;
         _appSettings    = appSettings;
+        _exportService  = exportService;
         _definitions    = definitions;
         _subjectLibrary = subjectLibrary;
         _themeLibrary   = themeLibrary;
+        _export         = export;
     }
 
     public void Load()
@@ -64,19 +70,19 @@ public class ProjectLoader
         // --- Narrative elements ---
         foreach (var subject in _storyService.Subjects)
             _registry.AllSubjectViewModels.Add(
-                new SubjectViewModel(subject, _registry, _storyService, _factory, _windowManager, _appSettings));
+                new SubjectViewModel(subject, _registry, _storyService, _factory, _windowManager, _appSettings, _exportService));
 
         foreach (var plotPoint in _storyService.PlotPoints)
             _registry.AllPlotPointViewModels.Add(
-                new PlotPointViewModel(plotPoint, _registry, _storyService, _factory, _windowManager, _appSettings));
+                new PlotPointViewModel(plotPoint, _registry, _storyService, _factory, _windowManager, _appSettings, _exportService));
 
         foreach (var link in _storyService.PlotPointsSubjectLinks)
             _registry.AllPlotPointSubjectLinkViewModels.Add(
-                new PlotPointSubjectLinkViewModel(link, _registry, _storyService, _factory, _appSettings));
+                new PlotPointSubjectLinkViewModel(link, _registry, _storyService, _factory, _appSettings, _exportService));
 
         foreach (var chapter in _storyService.Chapters)
             _registry.AllChapterViewModels.Add(
-                new ChapterViewModel(chapter, _registry, _storyService, _factory, _appSettings));
+                new ChapterViewModel(chapter, _registry, _storyService, _factory, _appSettings, _exportService));
 
         foreach (var note in _storyService.Notes)
             _registry.AllNoteViewModels.Add(
@@ -91,5 +97,7 @@ public class ProjectLoader
         // Signal that bulk loading is complete. NarrativeElementViewModels use
         // this to defer their initial note-count calculation until all notes exist.
         _registry.RaiseStoryLoaded();
+
+        _export.Reload();
     }
 }

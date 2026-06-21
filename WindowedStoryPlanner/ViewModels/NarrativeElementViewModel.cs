@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using GongSolutions.Wpf.DragDrop;
 using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
@@ -7,7 +8,9 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
+using System.IO;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows;
 
 namespace WindowedStoryPlanner.ViewModels;
@@ -17,6 +20,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     protected readonly IStoryService _storyService;
     protected readonly IViewModelRegistry _viewModelRegistry;
     protected readonly IContentFactory _editorCoordinator;
+    private readonly ExportService _exportService;
 
     // Internal master list used for lifecycle management (Initialize / Uninitialize).
     public ObservableCollection<NoteTrackViewModel> NoteTracks { get; set; } = new();
@@ -95,16 +99,45 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     /// </summary>
     protected virtual void OnStoryFullyLoaded() { }
 
+    // ── Quick Export ──────────────────────────────────────────────────────
+
+    [ObservableProperty] private int    _quickExportScope;
+    [ObservableProperty] private string _quickExportStatus = string.Empty;
+
+    [RelayCommand(CanExecute = nameof(CanQuickExport))]
+    private void QuickExport()
+    {
+        var markdown   = _exportService.BuildQuickMarkdown(_ownerId, _ownerType, QuickExportScope);
+        _exportService.CopyToClipboard(markdown);
+        var entityName = GetEntityDisplayName();
+        var path       = _exportService.WriteToFile(markdown, "", $"{entityName}-scope{QuickExportScope}");
+        QuickExportStatus = $"Saved + copied  ({Path.GetFileName(path)})";
+        _ = Task.Delay(5000).ContinueWith(_ =>
+            Application.Current.Dispatcher.Invoke(() => QuickExportStatus = string.Empty));
+    }
+
+    private bool CanQuickExport() => _ownerType != OwnerType.PlotPointSubjectLink;
+
+    private string GetEntityDisplayName() => _ownerType switch
+    {
+        OwnerType.Subject   => _storyService.Subjects.FirstOrDefault(s => s.Id == _ownerId)?.Name    ?? "Entity",
+        OwnerType.PlotPoint => _storyService.PlotPoints.FirstOrDefault(p => p.Id == _ownerId)?.Title ?? "Entity",
+        OwnerType.Chapter   => _storyService.Chapters.FirstOrDefault(c => c.Id == _ownerId)?.Title   ?? "Entity",
+        _                   => "Entity"
+    };
+
     public NarrativeElementViewModel(
         IViewModelRegistry viewModelRegistry,
         IStoryService storyService,
         IContentFactory editorCoordinator,
-        AppSettings appSettings)
+        AppSettings appSettings,
+        ExportService exportService)
     {
         _storyService      = storyService;
         _viewModelRegistry = viewModelRegistry;
         _editorCoordinator = editorCoordinator;
         AppSettings        = appSettings;
+        _exportService     = exportService;
 
         _viewModelRegistry.AllNoteViewModels.CollectionChanged += OnAllNotesCollectionChanged;
         _viewModelRegistry.NoteViewModelMutated += OnNoteViewModelMutated;

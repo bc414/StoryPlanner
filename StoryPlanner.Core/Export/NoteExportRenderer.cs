@@ -1,0 +1,423 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using StoryPlanner.Core.Models;
+
+namespace StoryPlanner.Core.Export;
+
+public static class NoteExportRenderer
+{
+    public static string Build(ExportResult result, ExportConfiguration config, IStoryService storyService)
+    {
+        var sb = new StringBuilder();
+
+        // ---- Lookups ----
+        var subjectById     = storyService.Subjects.ToDictionary(s => s.Id);
+        var plotPointById   = storyService.PlotPoints.ToDictionary(p => p.Id);
+        var chapterById     = storyService.Chapters.ToDictionary(c => c.Id);
+        var themeById       = storyService.Themes.ToDictionary(t => t.Id);
+        var subjectDefById  = storyService.SubjectDefinitions.ToDictionary(sd => sd.Id);
+
+        // Map (PlotPointId, SubjectId) → PlotPointSubjectLink.Id for note lookups
+        var linkIdByPair = storyService.PlotPointsSubjectLinks
+            .ToDictionary(l => (l.PlotPointId, l.SubjectId), l => l.Id);
+
+        // Filtered notes (exclude Flagged only; null NoteTrackDefinitionId = Unassigned, kept for optional rendering)
+        var notesByOwner = storyService.Notes
+            .Where(n => n.NoteState != NoteState.Flagged)
+            .GroupBy(n => (n.OwnerId, n.OwnerType))
+            .ToDictionary(g => g.Key, g => g.ToList());
+
+        // Track def lookups
+        var subjectTrackDefs = storyService.NoteTrackDefinitions
+            .Where(ntd => ntd.OwnerType == OwnerType.Subject)
+            .GroupBy(ntd => ntd.SubjectDefinitionId)
+            .ToDictionary(g => g.Key, g => g.OrderBy(ntd => ntd.ExpansionModeDisplayOrder).ToList());
+
+        var linkTrackDefs = storyService.NoteTrackDefinitions
+            .Where(ntd => ntd.OwnerType == OwnerType.PlotPointSubjectLink)
+            .GroupBy(ntd => ntd.SubjectDefinitionId)
+            .ToDictionary(g => g.Key, g => g.OrderBy(ntd => ntd.ExpansionModeDisplayOrder).ToList());
+
+        var plotPointTrackDefs = storyService.NoteTrackDefinitions
+            .Where(ntd => ntd.OwnerType == OwnerType.PlotPoint)
+            .OrderBy(ntd => ntd.ExpansionModeDisplayOrder)
+            .ToList();
+
+        // SubjectDefinition IDs present in the export content
+        var subDefIdsInPart1 = result.FullSubjectIds
+            .Where(id => subjectById.ContainsKey(id))
+            .Select(id => subjectById[id].SubjectDefinitionId)
+            .ToHashSet();
+
+        var subDefIdsInLinks = result.ActiveLinks
+            .Select(l => l.SubjectId)
+            .Where(id => subjectById.ContainsKey(id))
+            .Select(id => subjectById[id].SubjectDefinitionId)
+            .ToHashSet();
+
+        bool hasAnyPlotPoints = result.FullPlotPointIds.Count > 0 || result.ThinPlotPointIds.Count > 0;
+
+        // ---- PREAMBLE ----
+        sb.AppendLine("# Preamble");
+        sb.AppendLine();
+        BuildPreamble(sb, config, storyService, subjectDefById,
+            subDefIdsInPart1, subDefIdsInLinks, hasAnyPlotPoints,
+            subjectTrackDefs, linkTrackDefs, plotPointTrackDefs);
+
+        // ---- PART 1: SUBJECT PROFILES ----
+        if (result.FullSubjectIds.Count > 0)
+        {
+            sb.AppendLine("---");
+            sb.AppendLine();
+            sb.AppendLine("# Part 1: Subject Profiles");
+            sb.AppendLine();
+
+            var subjectGroups = result.FullSubjectIds
+                .Where(id => subjectById.ContainsKey(id))
+                .Select(id => subjectById[id])
+                .Where(s => subjectDefById.ContainsKey(s.SubjectDefinitionId))
+                .GroupBy(s => s.SubjectDefinitionId)
+                .OrderBy(g => subjectDefById[g.Key].DisplayOrder);
+
+            foreach (var group in subjectGroups)
+            {
+                sb.AppendLine($"## {subjectDefById[group.Key].SubjectType}");
+                sb.AppendLine();
+
+                foreach (var subject in group.OrderBy(s => s.Name))
+                {
+                    sb.AppendLine($"### {subject.Name}");
+                    sb.AppendLine();
+
+                    var tracks = subjectTrackDefs.TryGetValue(subject.SubjectDefinitionId, out var td)
+                        ? td.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList()
+                        : new List<NoteTrackDefinition>();
+
+                    var ownerNotes = notesByOwner.TryGetValue((subject.Id, OwnerType.Subject), out var sn)
+                        ? sn : new List<Note>();
+
+                    RenderTrackSections(sb, tracks, ownerNotes, themeById, "####",
+                        config.IncludedTrackTypes.Contains(TrackType.Unset));
+                }
+            }
+        }
+
+        // ---- PART 2: SCENE CONTENT ----
+        var allPpIds = result.FullPlotPointIds.Union(result.ThinPlotPointIds).ToHashSet();
+        if (allPpIds.Count > 0)
+        {
+            sb.AppendLine("---");
+            sb.AppendLine();
+            sb.AppendLine("# Part 2: Scene Content");
+            sb.AppendLine();
+
+            var allPps = allPpIds
+                .Where(id => plotPointById.ContainsKey(id))
+                .Select(id => plotPointById[id])
+                .ToList();
+
+            // PlotPoints without a chapter
+            var noChapter = allPps.Where(p => p.ChapterId == null)
+                .OrderBy(p => p.OrderInChapter).ToList();
+
+            if (noChapter.Count > 0)
+            {
+                sb.AppendLine("## (No Chapter)");
+                sb.AppendLine();
+                foreach (var pp in noChapter)
+                    RenderPlotPoint(sb, pp, result, config, notesByOwner, plotPointTrackDefs,
+                        linkTrackDefs, subjectById, subjectDefById, themeById, linkIdByPair);
+            }
+
+            // PlotPoints grouped by chapter, ordered by chapter OrderIndex
+            var chapterGroups = allPps
+                .Where(p => p.ChapterId.HasValue && chapterById.ContainsKey(p.ChapterId.Value))
+                .GroupBy(p => p.ChapterId!.Value)
+                .OrderBy(g => chapterById[g.Key].OrderIndex);
+
+            foreach (var group in chapterGroups)
+            {
+                var chapter = chapterById[group.Key];
+                sb.AppendLine($"## Chapter {chapter.OrderIndex}: {chapter.Title}");
+                sb.AppendLine();
+                foreach (var pp in group.OrderBy(p => p.OrderInChapter))
+                    RenderPlotPoint(sb, pp, result, config, notesByOwner, plotPointTrackDefs,
+                        linkTrackDefs, subjectById, subjectDefById, themeById, linkIdByPair);
+            }
+        }
+
+        return sb.ToString();
+    }
+
+    // ---- Preamble ----
+
+    private static void BuildPreamble(
+        StringBuilder sb,
+        ExportConfiguration config,
+        IStoryService storyService,
+        Dictionary<int, SubjectDefinition> subjectDefById,
+        HashSet<int> subDefIdsInPart1,
+        HashSet<int> subDefIdsInLinks,
+        bool hasAnyPlotPoints,
+        Dictionary<int, List<NoteTrackDefinition>> subjectTrackDefs,
+        Dictionary<int, List<NoteTrackDefinition>> linkTrackDefs,
+        List<NoteTrackDefinition> plotPointTrackDefs)
+    {
+        // Track Type Glossary
+        sb.AppendLine("## Track Type Glossary");
+        sb.AppendLine();
+        foreach (var tt in Enum.GetValues<TrackType>()
+                     .Where(t => t != TrackType.Unset && config.IncludedTrackTypes.Contains(t)))
+        {
+            sb.AppendLine($"**{tt}** — {tt.GetCognitiveMode()}");
+        }
+        sb.AppendLine();
+
+        // Themes (all project themes)
+        sb.AppendLine("## Themes");
+        sb.AppendLine();
+        foreach (var theme in storyService.Themes.OrderBy(t => t.Name))
+        {
+            sb.AppendLine($"### {theme.Name}");
+            sb.AppendLine(theme.Proposition);
+            sb.AppendLine();
+        }
+
+        // Subject Roster (all project subjects, name + type only)
+        sb.AppendLine("## Subject Roster");
+        sb.AppendLine();
+        var rosterGroups = storyService.Subjects
+            .Where(s => subjectDefById.ContainsKey(s.SubjectDefinitionId))
+            .GroupBy(s => s.SubjectDefinitionId)
+            .OrderBy(g => subjectDefById[g.Key].DisplayOrder);
+        foreach (var group in rosterGroups)
+        {
+            sb.AppendLine($"**{subjectDefById[group.Key].SubjectType}**");
+            foreach (var subject in group.OrderBy(s => s.Name))
+                sb.AppendLine($"- {subject.Name}");
+            sb.AppendLine();
+        }
+
+        // Track Definitions (filtered to subject types in content + included track types)
+        sb.AppendLine("## Track Definitions");
+        sb.AppendLine();
+
+        // Subjects present in Part 1 — their project-wide tracks
+        var subDefsForPart1 = subDefIdsInPart1
+            .Where(id => subjectDefById.ContainsKey(id))
+            .Select(id => subjectDefById[id])
+            .OrderBy(sd => sd.DisplayOrder);
+
+        foreach (var subDef in subDefsForPart1)
+        {
+            var tracks = subjectTrackDefs.TryGetValue(subDef.Id, out var td)
+                ? td.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList()
+                : new List<NoteTrackDefinition>();
+            if (tracks.Count == 0) continue;
+
+            sb.AppendLine($"### {subDef.SubjectType} — Project-Wide Tracks");
+            sb.AppendLine();
+            foreach (var track in tracks)
+            {
+                sb.AppendLine($"**{track.TrackName}** — {track.TrackType.GetCognitiveMode()}");
+                sb.AppendLine($"*{track.DisplayQuestion}*");
+                sb.AppendLine();
+            }
+        }
+
+        // Subjects present via links — their link tracks
+        var subDefsForLinks = subDefIdsInLinks
+            .Where(id => subjectDefById.ContainsKey(id))
+            .Select(id => subjectDefById[id])
+            .OrderBy(sd => sd.DisplayOrder);
+
+        foreach (var subDef in subDefsForLinks)
+        {
+            var tracks = linkTrackDefs.TryGetValue(subDef.Id, out var td)
+                ? td.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList()
+                : new List<NoteTrackDefinition>();
+            if (tracks.Count == 0) continue;
+
+            sb.AppendLine($"### {subDef.SubjectType} — Link Tracks");
+            sb.AppendLine();
+            foreach (var track in tracks)
+            {
+                sb.AppendLine($"**{track.TrackName}** — {track.TrackType.GetCognitiveMode()}");
+                sb.AppendLine($"*{track.DisplayQuestion}*");
+                sb.AppendLine();
+            }
+        }
+
+        // Plot Point tracks
+        if (hasAnyPlotPoints)
+        {
+            var ppTracks = plotPointTrackDefs.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList();
+            if (ppTracks.Count > 0)
+            {
+                sb.AppendLine("### Plot Point Tracks");
+                sb.AppendLine();
+                foreach (var track in ppTracks)
+                {
+                    sb.AppendLine($"**{track.TrackName}** — {track.TrackType.GetCognitiveMode()}");
+                    sb.AppendLine($"*{track.DisplayQuestion}*");
+                    sb.AppendLine();
+                }
+            }
+        }
+    }
+
+    // ---- PlotPoint rendering ----
+
+    private static void RenderPlotPoint(
+        StringBuilder sb,
+        PlotPoint pp,
+        ExportResult result,
+        ExportConfiguration config,
+        Dictionary<(int, OwnerType), List<Note>> notesByOwner,
+        List<NoteTrackDefinition> plotPointTrackDefs,
+        Dictionary<int, List<NoteTrackDefinition>> linkTrackDefs,
+        Dictionary<int, Subject> subjectById,
+        Dictionary<int, SubjectDefinition> subjectDefById,
+        Dictionary<int, Theme> themeById,
+        Dictionary<(int, int), int> linkIdByPair)
+    {
+        sb.AppendLine($"### {pp.Title}");
+        sb.AppendLine();
+
+        // Own tracks — full entries only
+        if (result.FullPlotPointIds.Contains(pp.Id))
+        {
+            var ppNotes = notesByOwner.TryGetValue((pp.Id, OwnerType.PlotPoint), out var pn)
+                ? pn : new List<Note>();
+            var ppTracks = plotPointTrackDefs.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList();
+            RenderTrackSections(sb, ppTracks, ppNotes, themeById, "####",
+                config.IncludedTrackTypes.Contains(TrackType.Unset));
+        }
+
+        // Link sub-sections
+        var linkedSubjects = result.ActiveLinks
+            .Where(l => l.PlotPointId == pp.Id)
+            .Select(l => l.SubjectId)
+            .Where(id => subjectById.ContainsKey(id))
+            .Select(id => subjectById[id])
+            .Where(s => subjectDefById.ContainsKey(s.SubjectDefinitionId))
+            .OrderBy(s => subjectDefById[s.SubjectDefinitionId].DisplayOrder)
+            .ThenBy(s => s.Name)
+            .ToList();
+
+        foreach (var subject in linkedSubjects)
+        {
+            sb.AppendLine($"#### {subject.Name}");
+            sb.AppendLine();
+
+            if (!linkIdByPair.TryGetValue((pp.Id, subject.Id), out var linkId)) continue;
+
+            var linkNotes = notesByOwner.TryGetValue((linkId, OwnerType.PlotPointSubjectLink), out var ln)
+                ? ln : new List<Note>();
+
+            var tracks = linkTrackDefs.TryGetValue(subject.SubjectDefinitionId, out var td)
+                ? td.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList()
+                : new List<NoteTrackDefinition>();
+
+            RenderTrackSections(sb, tracks, linkNotes, themeById, "#####",
+                config.IncludedTrackTypes.Contains(TrackType.Unset));
+        }
+    }
+
+    // ---- Track section rendering ----
+
+    private static void RenderTrackSections(
+        StringBuilder sb,
+        List<NoteTrackDefinition> tracks,
+        List<Note> allNotes,
+        Dictionary<int, Theme> themeById,
+        string headingLevel,
+        bool includeUnassigned = false)
+    {
+        foreach (var track in tracks)
+        {
+            var trackNotes = allNotes
+                .Where(n => n.NoteTrackDefinitionId == track.Id)
+                .OrderBy(n => n.SortOrder)
+                .ToList();
+
+            if (trackNotes.Count == 0) continue;
+
+            sb.AppendLine($"{headingLevel} {track.TrackName}");
+            sb.AppendLine($"*{track.TrackType.GetCognitiveMode()} — {track.DisplayQuestion}*");
+            sb.AppendLine();
+
+            foreach (var note in trackNotes)
+            {
+                RenderNoteAsListItem(sb, note, track, themeById);
+                sb.AppendLine();
+            }
+        }
+
+        if (includeUnassigned)
+        {
+            var unassigned = allNotes
+                .Where(n => n.NoteTrackDefinitionId == null)
+                .OrderBy(n => n.SortOrder)
+                .ToList();
+
+            if (unassigned.Count > 0)
+            {
+                sb.AppendLine($"{headingLevel} {UnassignedTrack.Definition.TrackName}");
+                sb.AppendLine($"*{UnassignedTrack.Definition.DisplayQuestion}*");
+                sb.AppendLine();
+
+                foreach (var note in unassigned)
+                {
+                    RenderNoteAsListItem(sb, note, UnassignedTrack.Definition, themeById);
+                    sb.AppendLine();
+                }
+            }
+        }
+    }
+
+    private static void RenderNoteAsListItem(
+        StringBuilder sb,
+        Note note,
+        NoteTrackDefinition track,
+        Dictionary<int, Theme> themeById)
+    {
+        var lines = note.Content.Split('\n');
+        sb.Append("- ");
+        sb.AppendLine(lines[0].TrimEnd('\r'));
+        for (int i = 1; i < lines.Length; i++)
+            sb.AppendLine("  " + lines[i].TrimEnd('\r'));
+        AppendNoteMetadata(sb, note, track, themeById);
+    }
+
+    // ---- Note metadata ----
+
+    private static void AppendNoteMetadata(
+        StringBuilder sb,
+        Note note,
+        NoteTrackDefinition track,
+        Dictionary<int, Theme> themeById)
+    {
+        if (track.SupportsTheme)
+        {
+            if (note.ThemeId.HasValue && themeById.TryGetValue(note.ThemeId.Value, out var theme))
+                sb.AppendLine($"  *Theme: {theme.Name}*");
+            else if (note.NoteState == NoteState.Confirmed)
+                sb.AppendLine("  *Theme: (no theme assigned)*");
+            else
+                sb.AppendLine("  *(theme not yet assigned)*");
+        }
+
+        if (track.SupportsWorldDate)
+        {
+            if (!string.IsNullOrWhiteSpace(note.WorldDate))
+                sb.AppendLine($"  *Date: {note.WorldDate}*");
+            else if (note.NoteState == NoteState.Confirmed)
+                sb.AppendLine("  *Date: (no date)*");
+            else
+                sb.AppendLine("  *(date not yet assigned)*");
+        }
+    }
+}

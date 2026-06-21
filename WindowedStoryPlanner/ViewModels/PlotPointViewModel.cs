@@ -56,8 +56,10 @@ namespace WindowedStoryPlanner.ViewModels
             IViewModelRegistry viewModelRegistry,
             IStoryService storyService,
             IContentFactory editorCoordinator,
-            IWindowManager windowManager, AppSettings appSettings)
-            : base(viewModelRegistry, storyService, editorCoordinator, appSettings)
+            IWindowManager windowManager,
+            AppSettings appSettings,
+            ExportService exportService)
+            : base(viewModelRegistry, storyService, editorCoordinator, appSettings, exportService)
         {
             _plotPoint = plotPoint;
 

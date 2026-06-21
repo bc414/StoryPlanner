@@ -48,6 +48,9 @@ public partial class App : Application
                 services.AddSingleton<ThemeLibraryViewModel>();
                 services.AddSingleton<FloatingPlotPointsViewModel>();
 
+                services.AddSingleton<ExportService>();
+                services.AddSingleton<ExportViewModel>();
+
                 services.AddSingleton<ProjectLoader>();
                 services.AddSingleton<ViewModelLocator>();
 

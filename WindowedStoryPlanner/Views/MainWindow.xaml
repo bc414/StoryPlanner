@@ -133,5 +133,9 @@
             </Grid>
         </TabItem>
 
+        <TabItem Header="Export">
+            <v:ExportView DataContext="{Binding Export}"/>
+        </TabItem>
+
     </TabControl>
 </Window>

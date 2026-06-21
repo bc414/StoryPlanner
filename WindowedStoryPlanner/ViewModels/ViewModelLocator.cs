@@ -17,6 +17,7 @@ public partial class ViewModelLocator : ObservableObject
     public SubjectLibraryViewModel        Subjects           { get; }
     public ThemeLibraryViewModel          Themes             { get; }
     public FloatingPlotPointsViewModel    FloatingPlotPoints { get; }
+    public ExportViewModel                Export             { get; }
 
     [ObservableProperty]
     private int _selectedTabIndex;
@@ -27,7 +28,8 @@ public partial class ViewModelLocator : ObservableObject
         DefinitionsEditorViewModel     definitions,
         SubjectLibraryViewModel        subjects,
         ThemeLibraryViewModel          themes,
-        FloatingPlotPointsViewModel    floatingPlotPoints)
+        FloatingPlotPointsViewModel    floatingPlotPoints,
+        ExportViewModel                export)
     {
         FileManager        = fileManager;
         Chapters           = chapters;
@@ -35,5 +37,6 @@ public partial class ViewModelLocator : ObservableObject
         Subjects           = subjects;
         Themes             = themes;
         FloatingPlotPoints = floatingPlotPoints;
+        Export             = export;
     }
 }
