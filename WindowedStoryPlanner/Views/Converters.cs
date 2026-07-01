@@ -13,7 +13,11 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             // If the Command is null, Collapse. Otherwise, Visible.
-            return value == null ? Visibility.Collapsed : Visibility.Visible;
+            // ConverterParameter="Invert" flips that (null => Visible, non-null => Collapsed).
+            bool isNull = value == null;
+            bool invert = string.Equals(parameter as string, "Invert", StringComparison.OrdinalIgnoreCase);
+            if (invert) isNull = !isNull;
+            return isNull ? Visibility.Collapsed : Visibility.Visible;
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
@@ -180,6 +184,26 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
         }
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            throw new NotImplementedException();
+        }
+    }
+
+    /// <summary>
+    /// Resolves a note's "from: ..." breadcrumb inside ThemeWindow/SourceMaterialWindow.
+    /// values[0] is the NoteViewModel (the ItemTemplate's own DataContext),
+    /// values[1] is the hosting window's TaggedNotesViewModelBase DataContext.
+    /// </summary>
+    public class NoteBreadcrumbConverter : IMultiValueConverter
+    {
+        public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (values is [NoteViewModel note, TaggedNotesViewModelBase owner])
+                return $"from: {owner.Breadcrumb(note)}";
+            return string.Empty;
+        }
+
+        public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
         }

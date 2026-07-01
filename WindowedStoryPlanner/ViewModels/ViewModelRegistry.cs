@@ -20,6 +20,7 @@ public class ViewModelRegistry : IViewModelRegistry
     public ObservableCollection<SubjectDefinitionViewModel> AllSubjectDefinitionViewModels { get; } = new();
     public ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; } = new();
     public ObservableCollection<ThemeViewModel> AllThemeViewModels { get; } = new();
+    public ObservableCollection<SourceMaterialViewModel> AllSourceMaterialViewModels { get; } = new();
 
     public event Action<NoteMutatedArgs>? NoteViewModelMutated;
     public void RaiseNoteMutated(NoteMutatedArgs args) => NoteViewModelMutated?.Invoke(args);
@@ -51,6 +52,7 @@ public class ViewModelRegistry : IViewModelRegistry
         AllSubjectDefinitionViewModels.Clear();
         AllNoteTrackDefinitionViewModels.Clear();
         AllThemeViewModels.Clear();
+        AllSourceMaterialViewModels.Clear();
         // AllNarrativePropertyValues is not cleared here — it is replaced by
         // reference in ProjectLoader since it is a direct alias to the service list.
     }

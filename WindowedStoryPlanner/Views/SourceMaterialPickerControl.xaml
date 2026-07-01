@@ -1,0 +1,46 @@
+<UserControl x:Class="WindowedStoryPlanner.Views.SourceMaterialPickerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WindowedStoryPlanner.Views"
+             mc:Ignorable="d"
+             d:DesignHeight="40" d:DesignWidth="180">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+        <local:NullToVisibilityConverter x:Key="NullToVis"/>
+    </UserControl.Resources>
+
+    <Grid>
+        <!-- ── Chip mode: a source material is already selected ── -->
+        <StackPanel Orientation="Horizontal"
+                    Visibility="{Binding SelectedSourceMaterial, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Converter={StaticResource NullToVis}}">
+            <TextBlock Text="{Binding SelectedSourceMaterial.Name, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}}"
+                       VerticalAlignment="Center" FontSize="11"/>
+            <Button Content="✕"
+                    Width="16" Height="16"
+                    Padding="0" FontSize="9"
+                    Margin="2,0,0,0"
+                    VerticalAlignment="Center"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Foreground="#999"
+                    ToolTip="Clear source material"
+                    Click="ClearButton_Click"/>
+        </StackPanel>
+
+        <!-- ── Search mode: nothing selected yet ── -->
+        <StackPanel Visibility="{Binding SelectedSourceMaterial, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Converter={StaticResource NullToVis}, ConverterParameter=Invert}">
+            <TextBox x:Name="SearchBox"
+                     Text="{Binding SearchText, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     MinWidth="100" FontSize="11"/>
+            <ListBox x:Name="SearchResultsList"
+                     ItemsSource="{Binding SearchResults, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}}"
+                     DisplayMemberPath="Name"
+                     MaxHeight="140"
+                     FontSize="11"
+                     Visibility="{Binding HasSearchText, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Converter={StaticResource BoolToVis}}"
+                     SelectionChanged="SearchResultsList_SelectionChanged"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

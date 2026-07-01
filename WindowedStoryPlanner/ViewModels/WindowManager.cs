@@ -10,12 +10,15 @@ namespace WindowedStoryPlanner.ViewModels;
 public class WindowManager : IWindowManager
 {
     private readonly Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> _commonWindowFactory;
+    private readonly IViewModelRegistry _registry;
     private readonly Dictionary<object, Window> _singletonWindows = new();
 
     public WindowManager(
-        Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> commonWindowFactory)
+        Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> commonWindowFactory,
+        IViewModelRegistry registry)
     {
         _commonWindowFactory = commonWindowFactory;
+        _registry = registry;
     }
 
     /// <summary>
@@ -66,6 +69,44 @@ public class WindowManager : IWindowManager
         var window = new FloatingPlotPointsWindow { DataContext = vm };
         _singletonWindows[vm] = window;
         window.Closed += (_, _) => _singletonWindows.Remove(vm);
+        window.Show();
+    }
+
+    /// <summary>
+    /// Opens a ThemeWindow for the given theme — singleton per theme.
+    /// </summary>
+    public void OpenThemeWindow(ThemeViewModel theme)
+    {
+        if (_singletonWindows.TryGetValue(theme, out var existing) && existing.IsLoaded)
+        {
+            if (existing.WindowState == WindowState.Minimized)
+                existing.WindowState = WindowState.Normal;
+            existing.Activate();
+            return;
+        }
+
+        var window = new ThemeWindow { DataContext = new ThemeDetailViewModel(theme, _registry) };
+        _singletonWindows[theme] = window;
+        window.Closed += (_, _) => _singletonWindows.Remove(theme);
+        window.Show();
+    }
+
+    /// <summary>
+    /// Opens a SourceMaterialWindow for the given source material — singleton per source material.
+    /// </summary>
+    public void OpenSourceMaterialWindow(SourceMaterialViewModel sourceMaterial)
+    {
+        if (_singletonWindows.TryGetValue(sourceMaterial, out var existing) && existing.IsLoaded)
+        {
+            if (existing.WindowState == WindowState.Minimized)
+                existing.WindowState = WindowState.Normal;
+            existing.Activate();
+            return;
+        }
+
+        var window = new SourceMaterialWindow { DataContext = new SourceMaterialDetailViewModel(sourceMaterial, _registry) };
+        _singletonWindows[sourceMaterial] = window;
+        window.Closed += (_, _) => _singletonWindows.Remove(sourceMaterial);
         window.Show();
     }
 }

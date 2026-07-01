@@ -72,6 +72,14 @@
                             Command="{Binding ClearThemeCommand}"
                             Visibility="{Binding SelectedTheme, Converter={StaticResource NullToVis}}"/>
                 </StackPanel>
+
+                <!-- Source material picker — only visible when the track supports source material references -->
+                <StackPanel Orientation="Horizontal" Margin="8,0,0,0"
+                            Visibility="{Binding SupportsSourceMaterial, Converter={StaticResource BoolToVis}}">
+                    <TextBlock Text="Source: " VerticalAlignment="Center" FontSize="11" Foreground="#666"/>
+                    <local:SourceMaterialPickerControl AvailableSourceMaterials="{Binding AvailableSourceMaterials}"
+                                                        SelectedSourceMaterial="{Binding SelectedSourceMaterial, Mode=TwoWay}"/>
+                </StackPanel>
             </StackPanel>
 
             <!-- Sort order number on the left -->

@@ -17,6 +17,7 @@ public interface IViewModelRegistry
     ObservableCollection<SubjectDefinitionViewModel> AllSubjectDefinitionViewModels { get; }
     ObservableCollection<NoteTrackDefinitionViewModel> AllNoteTrackDefinitionViewModels { get; }
     ObservableCollection<ThemeViewModel> AllThemeViewModels { get; }
+    ObservableCollection<SourceMaterialViewModel> AllSourceMaterialViewModels { get; }
 
     event Action<NoteMutatedArgs> NoteViewModelMutated;
     void RaiseNoteMutated(NoteMutatedArgs args);

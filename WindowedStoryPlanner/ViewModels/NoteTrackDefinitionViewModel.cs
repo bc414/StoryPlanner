@@ -86,6 +86,11 @@ namespace WindowedStoryPlanner.ViewModels
             get => _model.SupportsTheme;
             set => SetProperty(_model.SupportsTheme, value, _model, (m, v) => m.SupportsTheme = v);
         }
+        public bool SupportsSourceMaterial
+        {
+            get => _model.SupportsSourceMaterial;
+            set => SetProperty(_model.SupportsSourceMaterial, value, _model, (m, v) => m.SupportsSourceMaterial = v);
+        }
         public bool CanEditInAuditMode
         {
             get => _model.CanEditInAuditMode;

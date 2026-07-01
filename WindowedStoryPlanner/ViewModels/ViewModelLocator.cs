@@ -16,6 +16,7 @@ public partial class ViewModelLocator : ObservableObject
     public DefinitionsEditorViewModel     Definitions        { get; }
     public SubjectLibraryViewModel        Subjects           { get; }
     public ThemeLibraryViewModel          Themes             { get; }
+    public SourceMaterialLibraryViewModel SourceMaterials    { get; }
     public FloatingPlotPointsViewModel    FloatingPlotPoints { get; }
     public ExportViewModel                Export             { get; }
 
@@ -28,6 +29,7 @@ public partial class ViewModelLocator : ObservableObject
         DefinitionsEditorViewModel     definitions,
         SubjectLibraryViewModel        subjects,
         ThemeLibraryViewModel          themes,
+        SourceMaterialLibraryViewModel  sourceMaterials,
         FloatingPlotPointsViewModel    floatingPlotPoints,
         ExportViewModel                export)
     {
@@ -36,6 +38,7 @@ public partial class ViewModelLocator : ObservableObject
         Definitions        = definitions;
         Subjects           = subjects;
         Themes             = themes;
+        SourceMaterials    = sourceMaterials;
         FloatingPlotPoints = floatingPlotPoints;
         Export             = export;
     }

@@ -1,0 +1,2031 @@
+<https://claude.ai/new>
+
+New chat
+Ctrl+⇧+O
+ <https://claude.ai/new>
+
+Search
+Ctrl+K
+ <#>
+
+Chats
+ <https://claude.ai/recents>
+
+Projects
+ <https://claude.ai/projects>
+
+Code
+
+<https://claude.ai/code>
+
+Customize
+ <https://claude.ai/customize>
+
+Design
+ <https://claude.ai/design>
+
+More
+
+
+    RecentsHide
+
+  *
+    Planning versus writing: evolution of creative process
+     <https://claude.ai/chat/bd0585de-8017-40ed-b23b-5389a8bad105>
+
+  *
+    Claude projects context isolation
+     <https://claude.ai/chat/a758c839-f4e6-45ed-8500-567c6cb1563b>
+
+  *
+    Applejack's parents and industrial rejection
+     <https://claude.ai/chat/362911b6-9ed3-477b-8233-4af66fbd3949>
+
+  *
+    Character-reader perception gap in story design
+     <https://claude.ai/chat/5d23d34d-b71c-4083-91ea-d09552cf1221>
+
+  *
+    Thematic analysis of story structure and evidence
+     <https://claude.ai/chat/3532c5e0-467f-4a5e-a7e6-25f408cbf86d>
+
+  *
+    Applejack's evolved element of honesty
+     <https://claude.ai/chat/1f886a75-e19d-40b3-8376-ee59afda415b>
+
+  *
+    Using an IR thermometer for hot pot
+     <https://claude.ai/chat/a225e2e9-80e8-45f5-a2ad-aceaa20a84dc>
+
+  *
+    Using Claude's full context window
+     <https://claude.ai/chat/43ba2867-4591-4e02-8fc7-1a1df87f5fef>
+
+  *
+    Renaming the bibliographical note track
+     <https://claude.ai/chat/9793d919-5067-4040-96ff-5372d983aeb8>
+
+  *
+    Understanding The Catcher in the Rye
+     <https://claude.ai/chat/8e3014fc-9c5b-4157-8dc3-19b576943378>
+
+  *
+    Structuring the climactic confrontation scene
+     <https://claude.ai/chat/0fccc850-d64f-4488-82b4-4bed300aded3>
+
+  *
+    Migrating model classes to note collections
+     <https://claude.ai/chat/8a830116-4b3f-4ca1-9c3b-ecf5d669f2ac>
+
+  *
+    Organizing a multi-story fabula for selective syuzhet
+     <https://claude.ai/chat/65167504-15fa-4f7e-809d-e85832d13955>
+
+  *
+    Chrysalis character analysis
+     <https://claude.ai/chat/e9d57a7b-49e9-4bd3-b753-af05d6036b2c>
+
+  *
+    Statthalter slave trade and feudal occupation lore
+     <https://claude.ai/chat/273bc5e6-2f27-4245-8949-4a0edfaf304c>
+
+  *
+    Comet Shine's reveal timing and foreshadowing strategy
+     <https://claude.ai/chat/3edc6334-6f5e-4513-9971-3d2f4ed6c288>
+
+  *
+    Applejack's parents in the story plan
+     <https://claude.ai/chat/653eadeb-a028-45b1-a7e7-f30674fdcf6c>
+
+  *
+    Mali character analysis
+     <https://claude.ai/chat/cc9281ac-64e5-4603-977c-b780226753cb>
+
+  *
+    Aquileia story plans analysis
+     <https://claude.ai/chat/37313e64-ff0a-4706-81b1-2eded90d92db>
+
+  *
+    Synovial's role in The Lioness of Tall Tale
+     <https://claude.ai/chat/41d6759b-1f18-4483-806c-c7979a203a24>
+
+  *
+    Analyzing The Lioness of Tall Tale fanfiction
+     <https://claude.ai/chat/cc199e14-b4d8-4d11-b38e-a28ce6e23756>
+
+  *
+    Celestia's immortality and outliving friendships
+     <https://claude.ai/chat/34a4fadb-e44f-4bc2-b986-155001d7e14c>
+
+  *
+    Accessing Claude across devices with Google account
+     <https://claude.ai/chat/0e274a4d-d6d2-4478-950a-077a9b7d38fb>
+
+  *
+    Dual perspective techniques in third person limited romance
+     <https://claude.ai/chat/74de10fd-3c51-465e-b2e9-5f6c0bfa81df>
+
+  *
+    BAML file extension in C# .NET
+     <https://claude.ai/chat/ab29d2fe-1dbc-465b-976a-de9053d7c690>
+
+BC
+Brian ChengPro plan
+
+The Lioness of Tall Tale Story Design <https://claude.ai/
+project/019da7ce-7405-763b-ab7d-e153fe917f64>/
+Migrating model classes to note collections
+
+
+    You said: I am going to change the paradigm of my model classes such
+    that the PlotPointCharacter, PlotPointCodexEntry, PlotPointTheme and
+    PlotPointStoryThread entities w…
+
+I am going to change the paradigm of my model classes such that the PlotPointCharacter, PlotPointCodexEntry, PlotPointTheme and PlotPointStoryThread entities will have note collections. The notes will have a new property called note track. These notes tracks will be displayed separate from each other to enforce data sanitation and separation of concerns. What are the possible paths to realistically migrating my data?
+
+Apr 20
+
+
+    Claude responded: This is a well-scoped architectural question with
+    a few distinct paths.
+
+Architected migration strategies for restructured note-tracking database
+schema
+
+Architected migration strategies for restructured note-tracking database
+schema
+
+This is a well-scoped architectural question with a few distinct paths.
+Let me break down what the change actually demands structurally, then
+lay out your realistic options.
+
+*What the change actually requires*
+
+There are two separate schema problems here:
+
+First, |Note| needs a |NoteTrack| discriminator property — that's a simple nullable enum column, no
+relational complexity.
+
+Second, |Note| needs to be able to belong to a junction entity. This is the hard
+part. Your junction entities (|PlotPointCharacter|, |PlotPointStoryThread|, etc.) currently have composite primary keys. |Note| resolves ownership by nullable foreign keys to single-column PKs. Your
+junction entities don't have those. You have a structural mismatch to
+resolve before migration is even on the table.
+
+You have two sub-options for that FK problem before deciding a migration
+path:
+
+*Option A — Add surrogate PKs to the junction entities.* Give |PlotPointCharacter| its own |int Id|. |Note| then gets a nullable |PlotPointCharacterId|, same pattern as |ChapterId| or |CharacterId| today. This is the least disruptive to your existing Note model and
+query patterns. The downside is that your database schema becomes
+slightly denormalized and EF navigation is more verbose.
+
+*Option B — Keep composite keys, use a polymorphic ownership table.*
+Instead of adding FK columns directly to |Note|, create a separate |NoteOwnership| link table that maps a |NoteId| to a discriminator column plus the two relevant IDs (e.g. |PlotPointId| + |CharacterId|). This is cleaner relationally but adds query complexity and a new
+model class.
+
+Given that you already use the wide nullable FK pattern consistently
+across your existing |Note| model, Option A is the most coherent choice for your codebase style.
+The following migration paths all assume Option A.
+
+------------------------------------------------------------------------
+
+*Migration Path 1 — EF Core Migrations (if you're using EF Core)*
+
+This is the lowest-risk path if you have EF Core wired up. You add the
+surrogate PKs, the nullable FK columns, and the |NoteTrack| enum to your models, then run |Add-Migration| and |Update-Database|. EF generates the |ALTER TABLE| statements. Existing note rows get |NULL| in all new FK columns, which is correct — they aren't broken, they
+just don't belong to a junction entity yet. No existing data is touched
+destructively. The risk here is only if your existing migrations have
+drift from your actual schema, which is worth verifying first.
+
+*Migration Path 2 — Manual SQLite migration script*
+
+If you're not using EF Core migrations (just a DbContext with |EnsureCreated|), you write a versioned SQL script that runs on app startup when it
+detects the schema version is behind. The operations are straightforward: |ALTER TABLE Notes ADD COLUMN NoteTrack INTEGER NOT NULL DEFAULT 0|, add the four nullable FK columns, add the surrogate |Id| columns to junction tables. SQLite's |ALTER TABLE| only supports |ADD COLUMN|, so you don't need to rebuild tables. This is very safe for existing data.
+
+*Migration Path 3 — JSON export, schema change, reimport*
+
+Since you have |[JsonIgnore]| attributes throughout and what appears to be JSON serialization
+support on |GeminiEntry|, you may already have a serialization layer. If so: export all data to
+JSON before the change, make the model changes, rebuild the database
+clean with |EnsureCreated|, then reimport. This gives you a clean slate and forces you to audit
+your data. The risk is that your serialization coverage may be incomplete — |[JsonIgnore]| on navigation properties means your export/import logic has to be
+deliberate about what it actually captures.
+
+*Migration Path 4 — Additive shadow tables (least disruptive, most
+temporary)*
+
+Add entirely new tables (|PlotPointCharacterNotes|, etc.) as separate entities rather than extending |Note|. This avoids touching the |Note| table at all. It's the fastest path to a working UI, but you're
+accumulating technical debt by fragmenting what is conceptually the same
+entity. Only worth considering if you want to ship the feature fast and
+do a proper consolidation later. Given that you've already described
+wanting a properly typed note track system and data sanitation, this
+path likely conflicts with your design goals.
+
+------------------------------------------------------------------------
+
+*My recommendation given your context*
+
+Path 1 if EF Core migrations are already in your workflow. Path 2 if
+you're on |EnsureCreated|. In either case, do Option A (surrogate PKs on junction entities)
+first as a standalone migration, verify the app still runs, then do the |NoteTrack| and new FK columns as a second migration. Decoupling them makes
+rollback easier if something breaks.
+
+One thing worth deciding before you touch the schema: what is the
+exhaustive set of |NoteTrack| values? Since you mentioned these will drive separate display panels,
+the enum needs to be stable before migration so you're not running
+migrations twice. Based on your five-layer framework from the design
+document, your tracks likely map to something like |HowItWorks|, |ObjectiveBackstory|, |AuthorialNotes| — but you should make that explicit in the model before the first |Add-Migration| runs.
+
+
+    You said: I do have EF Core and sqlite.
+
+I do have EF Core and sqlite.
+Another thing is that plot points also need a note collection. All the existing text in its fields need to become notes with Unset as the NoteTrack.
+I was actually thinking of getting rid of the 5 different nullable foreign keys on Note and make all the entities a TPH inheritance setup for the 10 entities that can have notes and generalizing as much as possible. I want to reduce tech debt before I add more to the foundation. However, that is why I am asking about data migration, which seems to be the biggest downside.
+
+Apr 20
+
+
+    Claude responded: Good instinct on paying down the debt before
+    building on top of it.
+
+Architected phased TPH migration strategy with data consolidation approach
+
+Architected phased TPH migration strategy with data consolidation approach
+
+Good instinct on paying down the debt before building on top of it. Let
+me clarify the architecture first, then lay out the migration path
+precisely.
+
+
+      Clarifying Which TPH
+
+There are two ways to read "TPH for the 10 entities that can have
+notes." The one that makes sense here is *TPH on |Note| itself*, not on the owning entities. The owning entities (Chapter,
+Character, PlotPoint, etc.) are too structurally different to collapse
+into one table usefully. What you want is:
+
+csharp
+
+|public abstract class Note : ObservableObject, IAuditableText
+{
+    public int Id { get; set; }
+    public NoteTrack NoteTrack { get; set; }
+    // ... shared fields: Content, LastModified, SortOrder, etc.
+}
+
+public class CharacterNote : Note
+{
+    public int CharacterId { get; set; }
+    [JsonIgnore] public Character Character { get; set; } = null!;
+}
+
+public class ChapterNote : Note
+{
+    public int ChapterId { get; set; }
+    [JsonIgnore] public Chapter Chapter { get; set; } = null!;
+}
+
+public class PlotPointNote : Note
+{
+    public int PlotPointId { get; set; }
+    [JsonIgnore] public PlotPoint PlotPoint { get; set; } = null!;
+}
+
+public class PlotPointCharacterNote : Note
+{
+    public int PlotPointCharacterId { get; set; }
+    [JsonIgnore] public PlotPointCharacter PlotPointCharacter { get; set; } = null!;
+}
+// ...and so on for all 10|
+
+EF Core adds a |Discriminator| column automatically. The database still has one |Notes| table. The C# model is clean — each derived type declares exactly one
+non-nullable FK. The wide nullable FK columns on the base class are gone
+entirely at the model layer. EF still generates nullable FK columns for
+each derived type's FK in the single table, but you never touch them
+from code except through the typed derived class.
+
+------------------------------------------------------------------------
+
+
+      The Prerequisite: Surrogate PKs on Junction Entities
+
+Before the TPH migration runs, the four junction entities need surrogate
+PKs. Right now |PlotPointCharacter| is identified by |(PlotPointId, CharacterId)|. |PlotPointCharacterNote| needs a single-column |PlotPointCharacterId| to reference. This must land in its own migration first, verified
+working, before the Note refactor migration runs.
+
+csharp
+
+|public partial class PlotPointCharacter : ObservableObject, IAuditableText
+{
+    public int Id { get; set; } // new
+    public int PlotPointId { get; set; }
+    public int CharacterId { get; set; }
+    // ...
+}|
+
+EF Core can add the surrogate PK via migration. Since SQLite has limited |ALTER TABLE| support, EF will likely need to rebuild those four tables using its
+table-rebuild strategy — it creates a new table, copies data, drops the
+old, renames. This is safe but worth running against a copy of your
+database first.
+
+------------------------------------------------------------------------
+
+
+      The Migration Sequence
+
+
+        Phase 1 — Surrogate PKs on junction entities
+
+One migration, four table rebuilds. No data loss risk. Verify the app
+runs normally before proceeding.
+
+
+        Phase 2 — TPH model change + schema migration
+
+Change the C# models as above. EF generates a migration that:
+
+  * Adds the |Discriminator| column to |Notes|
+  * Adds new nullable FK columns for the new owner types
+  * Does *not* automatically populate |Discriminator| for existing rows — this is the gap you must fill manually
+
+Inside the generated migration's |Up()| method, after the schema changes, add raw SQL to backfill the
+discriminator:
+
+csharp
+
+|migrationBuilder.Sql(@"
+    UPDATE Notes SET Discriminator = 'CharacterNote' WHERE CharacterId IS NOT NULL;
+    UPDATE Notes SET Discriminator = 'ChapterNote' WHERE ChapterId IS NOT NULL;
+    UPDATE Notes SET Discriminator = 'ThemeNote' WHERE ThemeId IS NOT NULL;
+    UPDATE Notes SET Discriminator = 'CodexEntryNote' WHERE CodexEntryId IS NOT NULL;
+    UPDATE Notes SET Discriminator = 'StoryThreadNote' WHERE StoryThreadId IS NOT NULL;
+");|
+
+EF Core's default discriminator values are the class names as strings,
+so make sure your SQL strings match exactly. You can override the
+discriminator values in |OnModelCreating| if you want something shorter and more stable.
+
+
+        Phase 3 — PlotPoint text fields → Notes
+
+This is a pure data migration, also done as raw SQL inside a migration's |Up()|. For each PlotPoint row, you INSERT new |PlotPointNote| rows from the existing text fields:
+
+csharp
+
+|migrationBuilder.Sql(@"
+    INSERT INTO Notes (Discriminator, NoteTrack, Content, PlotPointId, SortOrder, LastModified, IsIncorporated, NeedsFurtherAnalysis)
+    SELECT 'PlotPointNote', 0, Synopsis, Id, 0, LastModified, 0, 0
+    FROM PlotPoints WHERE Synopsis IS NOT NULL AND Synopsis != '';
+
+    INSERT INTO Notes (Discriminator, NoteTrack, Content, PlotPointId, SortOrder, LastModified, IsIncorporated, NeedsFurtherAnalysis)
+    SELECT 'PlotPointNote', 0, Stakes, Id, 1, LastModified, 0, 0
+    FROM PlotPoints WHERE Stakes IS NOT NULL AND Stakes != '';
+    
+    -- repeat for Outcome, ReaderState, VerbatimText
+");|
+
+|NoteTrack = 0| maps to |Unset| as you specified. The |SortOrder| values give you a stable initial ordering that preserves which field
+the content came from — you may want to use a named sentinel value or a
+separate field to indicate source field origin, since once flattened
+into notes the field provenance is lost unless you encode it somewhere.
+
+One question worth deciding before this runs: do the PlotPoint fields
+get *removed* from the model in this same migration, or do you keep them
+as a deprecated fallback temporarily? Removing them immediately is
+cleaner, but means your UI must be updated atomically. Keeping them
+briefly lets you ship the migration and update the UI in the next cycle.
+
+
+        Phase 4 — Drop old nullable FK columns from Note (cleanup)
+
+After the app is running stably on the TPH model, a final migration
+drops the five original FK columns (|CharacterId|, |ChapterId|, |ThemeId|, |CodexEntryId|, |StoryThreadId|) from the |Notes| table. SQLite requires a table rebuild for column drops, so EF will
+generate a rebuild here. This is the lowest-risk phase since it's pure
+cleanup with no data transformation.
+
+------------------------------------------------------------------------
+
+
+      One Design Decision to Nail Before Phase 2
+
+What is your |NoteTrack| enum? Since the discriminator already identifies the owner type, |NoteTrack| only needs to describe the *semantic role* of the note within that
+owner — the layer it belongs to. Based on your five-layer framework and
+the codex entry design notes in your Google Doc, it looks like you need
+something in the range of:
+
+  * |Unset| (migration default, also for PlotPoint fields)
+  * |HowItWorks| (Layer 1 / Track A)
+  * |ObjectiveHistory| (Layer 2 / Track B)
+  * |Psychology| (Layer 3, for characters)
+  * |AuthorialNotes| (meta, historical inspiration, etc.)
+  * |ReaderPerception| (Layer 4, the arc tracking that's currently sparse)
+
+Getting this enum stable before Phase 2 matters because |NoteTrack| is being added in the same migration. Changing it later is another
+table rebuild.
+
+
+    You said: I only have one sqlite file that I need to migrate.
+
+I only have one sqlite file that I need to migrate. This is a personal project. So there aren't many concerns about backward compatibility.
+
+I was thinking of taking away observable object on the PlotPointX classes and using one single generic view model for all 10 entities. Then the junction tables would have IDs. Although I'm not sure how to handle the junction tables, which are supposed to have unique composite foreign key pairs. Would the int become the primary key or not? I didn't think of table per hierarchy for the notes, that seems interesting. In the end, my goal is also to reduce view model and xaml bloat by generalizing.
+
+I imagine the generic entity window would render all present note tracks. The note tracks would not be hardcoded per entity type and I don't think they have any effect on the schema. They only affect sorting behavior. Is this correct or incorrect?
+
+Show more
+Apr 20
+
+
+    Claude responded: These are three separate questions that are worth
+    untangling individually before connecting them.
+
+Reconciled generic viewmodel architecture with junction table design
+patterns
+
+Reconciled generic viewmodel architecture with junction table design
+patterns
+
+These are three separate questions that are worth untangling
+individually before connecting them.
+
+------------------------------------------------------------------------
+
+
+      Junction Table PKs vs. Composite Uniqueness
+
+These are two different concerns and you need both, not one or the other.
+
+The |int Id| becomes the *primary key* — the stable identity that |Note|'s FK column references. The composite pair |(PlotPointId, CharacterId)| becomes a *unique constraint* — the business rule that prevents
+duplicate relationships. They don't conflict:
+
+csharp
+
+|public partial class PlotPointCharacter : IAuditableText
+{
+    public int Id { get; set; }              // PK, referenced by PlotPointCharacterNote
+    public int PlotPointId { get; set; }     // \
+    public int CharacterId { get; set; }     //  } unique constraint, not PK
+    // ...payload fields
+}|
+
+In |OnModelCreating|:
+
+csharp
+
+|modelBuilder.Entity<PlotPointCharacter>()
+    .HasKey(x => x.Id);
+
+modelBuilder.Entity<PlotPointCharacter>()
+    .HasIndex(x => new { x.PlotPointId, x.CharacterId })
+    .IsUnique();|
+
+The unique constraint preserves exactly the data integrity guarantee
+your composite PK had before, while the surrogate PK enables the Note
+relationship. Nothing is lost.
+
+------------------------------------------------------------------------
+
+
+      Removing ObservableObject from Junction Entities
+
+This is correct and is the right call if a generic ViewModel is taking
+ownership of change notification. The junction entity becomes a plain
+data container — no |[ObservableProperty]|, no |partial|, no MVVM toolkit dependency. The ViewModel wraps it and exposes
+observable properties for binding. The model's job is just to hold data
+and survive serialization.
+
+The one thing to audit before removing it: check whether any existing
+XAML binds *directly* to properties on |PlotPointCharacter| or its siblings via a CollectionView or DataTemplate. If so, those
+bindings break silently at runtime, not compile time. Search your XAML for |DevelopmentNote|, |DevelopmentImpact|, |ThreadTrajectory|, |Prominence|, |UsageType|, |IsPrimary| — anywhere those property names appear in bindings is a place where
+the VM wrapper needs to expose a corresponding observable property
+before you strip the model.
+
+------------------------------------------------------------------------
+
+
+      NoteTrack and the Schema — Your Instinct is Correct
+
+|NoteTrack| has no structural effect on the schema beyond being a column on the |Notes| table. Your reasoning is sound. The discriminator answers *who owns
+this note* (the entity type). |NoteTrack| answers *what semantic layer this note belongs to within that owner*.
+They are orthogonal.
+
+The valid |NoteTrack| values for a given entity type is purely a ViewModel and UI concern.
+The database doesn't know or care that a |PlotPointNote| with |NoteTrack = Psychology| is semantically unusual — that's enforced by whatever the generic
+ViewModel exposes as valid options per entity. This means:
+
+  * You can change which tracks are valid for which entity types without
+    a migration
+  * You can add new |NoteTrack| enum values with a migration that only adds a new integer constant
+    — no column changes, no data backfill required
+  * The generic window can derive its displayed track panels entirely
+    from which |NoteTrack| values are *present in the note collection*, rather than from a
+    hardcoded map of entity type → valid tracks
+
+That last point is worth making explicit as a design decision. You have
+two options for how the generic window decides which track panels to render:
+
+*Option A — Presence-driven rendering:* Render a panel for every |NoteTrack| value that has at least one note in the collection, plus an "add note"
+affordance for any track. No hardcoded map required. This is the most
+flexible.
+
+*Option B — Entity-type-driven rendering:* The ViewModel for a given
+entity type declares which tracks are valid, and the window renders
+those tracks regardless of whether notes exist yet. This gives you
+intentional empty-state UI ("No Layer 1 notes yet") rather than panels
+appearing only after first use.
+
+Option A is simpler to implement generically. Option B is better for
+guiding the author's workflow since it makes the expected note structure
+visible before any notes exist. For your five-layer design framework,
+Option B seems more aligned — you want the structure to be apparent, not
+emergent from data.
+
+------------------------------------------------------------------------
+
+
+      Connecting It Together
+
+The clean architecture that falls out of these three decisions is:
+
+  * *Models* are plain data containers with surrogate PKs and unique
+    constraints where needed. No MVVM toolkit dependency on junction
+    entities.
+  * *One |NoteableEntityViewModel<TEntity>|* (or a non-generic base if XAML generics get awkward) owns the
+    observable note collection, exposes the valid |NoteTrack| values for its entity type, and handles add/remove/reorder.
+  * *One generic XAML window* binds to the ViewModel interface. The
+    track panels are either presence-driven (Option A) or declared by
+    the ViewModel (Option B).
+  * *|NoteTrack|* is just an enum column on |Notes|. The schema is indifferent to semantics.
+
+The remaining open question before you write code is whether |NoteTrack| validity per entity type lives in the ViewModel subclass or in a
+static map somewhere. That decision determines whether you need 10 thin
+ViewModel subclasses (each declaring its valid tracks) or truly one
+ViewModel class driven by a configuration table. Given that your entity
+types are fixed at design time and not user-extensible, 10 thin
+subclasses that each return a |IReadOnlyList<NoteTrack> ValidTracks| is probably the right call — it's explicit, statically verifiable, and
+trivially navigable.
+
+
+    You said: What complications does the inherited notes introduce for
+    view model logic?
+
+What complications does the inherited notes introduce for view model logic? Is it possible to have an interface to reduce boilerplate?
+
+Apr 21
+
+
+    Claude responded: The Core Complications
+
+Examined inheritance complications and architected interface solutions
+
+Examined inheritance complications and architected interface solutions
+
+
+      The Core Complications
+
+There are three distinct problems the TPH inheritance creates for
+ViewModel logic, and they compound each other if not addressed deliberately.
+
+
+        Problem 1 — Loading
+
+EF Core can load all notes for an owner through the navigation
+collection typed as |ObservableCollection<Note>| on the owning entity. TPH handles the discriminator filter
+transparently, so loading is actually the least complicated piece. Where
+it gets awkward is if you ever need to query notes directly against the |DbSet<Note>| — you have to use |OfType<CharacterNote>()| to get the typed results, or filter on the discriminator manually. For
+your use case where notes are always loaded through their owner's
+navigation property, this is mostly a non-issue.
+
+
+        Problem 2 — Creation
+
+This is the real complication. When the ViewModel creates a new note, it
+cannot instantiate the abstract |Note| base class. It must instantiate the correct derived type and set the
+correct FK. With 10 derived types, this logic has to live somewhere —
+and wherever it lives, it's conditional on the owner type. If that logic
+bleeds into the generic ViewModel, you've defeated the purpose of
+generalizing.
+
+
+        Problem 3 — Persistence
+
+When saving a new note through the generic ViewModel, the repository or
+DbContext method receiving it must either accept a typed parameter or
+accept the base |Note| and trust the discriminator is set correctly. If you pass a |Note| base reference that is actually a |CharacterNote| instance with |CharacterId| set, EF Core handles it correctly via the runtime type. But if your
+repository signature accepts |Note|, you lose static type safety and the compiler cannot catch a malformed
+note missing its FK.
+
+------------------------------------------------------------------------
+
+
+      The Interface Approach
+
+An interface alone isn't quite enough — you need an interface combined
+with a factory pattern to solve Problem 2 cleanly. Here is the structure:
+
+csharp
+
+|public interface INoteableViewModel
+{
+    ObservableCollection<Note> Notes { get; }
+    IReadOnlyList<NoteTrack> ValidTracks { get; }
+    Note CreateNote(NoteTrack track);
+    void AddNote(Note note);
+    void RemoveNote(Note note);
+}|
+
+|CreateNote| is the key method. It isolates the derived-type instantiation and FK
+assignment behind the interface, so the generic window only calls |ViewModel.CreateNote(selectedTrack)| and never knows what concrete type comes back. The ViewModel
+implementation for each entity type is the only place that knows the
+concrete type:
+
+csharp
+
+|public class CharacterViewModel : NoteableViewModelBase<Character>, INoteableViewModel
+{
+    public override IReadOnlyList<NoteTrack> ValidTracks { get; } = 
+        new[] { NoteTrack.Psychology, NoteTrack.ObjectiveHistory, NoteTrack.AuthorialNotes };
+
+    public override Note CreateNote(NoteTrack track) => new CharacterNote
+    {
+        CharacterId = Entity.Id,
+        NoteTrack = track,
+        LastModified = DateTime.UtcNow
+    };
+}|
+
+The base class carries everything that is truly shared:
+
+csharp
+
+|public abstract class NoteableViewModelBase<TEntity> : ObservableObject, INoteableViewModel
+{
+    protected TEntity Entity { get; }
+    
+    public ObservableCollection<Note> Notes { get; } = new();
+    
+    public abstract IReadOnlyList<NoteTrack> ValidTracks { get; }
+    public abstract Note CreateNote(NoteTrack track);
+
+    public void AddNote(Note note)
+    {
+        Notes.Add(note);
+        // signal repository / unit of work
+    }
+
+    public void RemoveNote(Note note)
+    {
+        Notes.Remove(note);
+        // signal repository / unit of work
+    }
+
+    public IEnumerable<Note> NotesForTrack(NoteTrack track) =>
+        Notes.Where(n => n.NoteTrack == track);
+}|
+
+------------------------------------------------------------------------
+
+
+      What You Can't Fully Generalize
+
+There are two things that resist the interface cleanly.
+
+*The junction entity payload fields.* |PlotPointCharacter| has |DevelopmentImpact|, |Role|, |LogicalOrder|. |PlotPointStoryThread| has |ThreadTrajectory|, |IsPrimary|, |ImpactDescription|. These are structurally specific to each junction type. The generic
+window cannot bind to these without either reflection, a secondary typed
+sub-ViewModel for the payload section, or a discriminated union approach
+where the window has a typed content presenter for the payload region
+that switches on entity type. The note collection generalizes cleanly;
+the payload section does not.
+
+*Repository type safety.* If your repository has a method like |SaveNote(Note note)|, it accepts the base class and relies on EF's runtime type resolution.
+This works but is a code smell — a future maintainer (or future you) may
+not realize the note must be a correctly typed derived instance with the
+FK set. A safer alternative is a generic repository method |SaveNote<TNote>(TNote note) where TNote : Note|, which preserves static type safety while still allowing the ViewModel
+base class to call it through a covariant interface.
+
+------------------------------------------------------------------------
+
+
+      Practical Shape of the Boilerplate Reduction
+
+With this structure, each of your 10 ViewModel classes has exactly three
+things to implement:
+
+ 1. |ValidTracks| — one line, a list literal
+ 2. |CreateNote| — three to four lines, a constructor with FK assignment
+ 3. Any payload-specific properties for the non-note fields
+
+Everything else — note collection management, track filtering, add/
+remove, sort order logic — lives once in the base class and is inherited
+for free. The XAML window binds to |INoteableViewModel| and works identically for all 10 entities.
+
+
+    You said: What would be the best design from scratch?
+
+What would be the best design from scratch? What are the core problems, and do they relate to EF Core and WPF?
+
+Apr 21
+
+
+    Claude responded: The Three Fundamental Problems
+
+Dissected architectural tensions between EF Core, WPF, and design principles
+
+Dissected architectural tensions between EF Core, WPF, and design principles
+
+
+      The Three Fundamental Problems
+
+Before discussing EF Core or WPF specifically, there are three problems
+that exist at the pure design level. The technology choices either make
+them easier or harder, but don't create or eliminate them.
+
+------------------------------------------------------------------------
+
+
+        Problem 1 — Ownership Resolution
+
+A |Note| must belong to exactly one owner. That ownership must be resolvable in
+both directions — from the owner to its notes, and from a note back to
+its owner. Every design decision downstream flows from how you resolve this.
+
+The wide nullable FK approach you started with is the simplest schema
+but produces an incoherent model — |Note| knows about every possible owner type, which means adding an 11th
+ownable entity requires a schema change to |Note|. It also makes ownership validation a runtime concern rather than a
+compile-time one.
+
+TPH inheritance solves the model incoherence cleanly. Each derived |Note| type knows exactly one owner type. Adding an 11th type means adding
+one new class, one new migration that adds one nullable FK column — |Note|'s base class never changes. The tradeoff is that the single |Notes| table grows wide with mostly-null FK columns, which is acceptable at
+your scale and is the standard EF Core TPH consequence.
+
+The alternative worth considering from scratch is *a generic ownership
+table* — a separate |NoteOwnership| table with a discriminator, an owner ID, and a note ID. This
+eliminates nullable FK columns entirely from |Notes|. But it adds a join to every note query and makes EF navigation
+properties significantly more awkward to configure. For a personal
+project this trades a manageable schema concern for a persistent query
+complexity burden. TPH is the better choice here.
+
+
+        Problem 2 — The Model/ViewModel Boundary
+
+This is the most consequential design decision and it's independent of
+both EF Core and WPF. The question is: *what is a model's job versus a
+ViewModel's job?*
+
+The failure mode in your current code, which is extremely common in WPF
+MVVM projects, is that the models are doing ViewModel work. |ObservableObject| on |PlotPointCharacter| means the model carries change notification infrastructure. |[ObservableProperty]| on model fields means binding is wired directly to the persistence
+layer. This feels convenient early and becomes a source of bugs and
+bloat because the model's lifecycle and the ViewModel's lifecycle are
+different things — a model instance should survive as long as the data
+exists, while a ViewModel instance should survive only as long as a view
+is open.
+
+The clean design is a strict boundary:
+
+  * *Models* are pure data containers. No MVVM toolkit dependency
+    whatsoever. They serialize, they persist, they carry no UI awareness.
+  * *ViewModels* wrap models and own all observable state. They are
+    constructed from models, they push changes back to models before
+    persistence, and they are disposed when the view closes.
+
+This boundary is not enforced by any framework — EF Core doesn't care
+and WPF doesn't care. It is a discipline decision. But it is the
+decision that determines whether your ViewModel generalization effort
+succeeds or accumulates new debt.
+
+
+        Problem 3 — Change Tracking Ownership
+
+Who is responsible for knowing that a |Note| was added, modified, or deleted? This problem has three candidate
+owners and most projects accidentally distribute it across all three,
+which causes bugs.
+
+*Option A — EF Core's change tracker owns it.* You load entities into a
+long-lived |DbContext|, make changes directly to tracked entities, and call |SaveChanges|. This is the simplest mental model and works well for desktop apps
+where the context can be scoped to a session. The risk is that long-
+lived contexts accumulate tracked entities and memory pressure grows
+over time, and that accidental mutations on tracked entities persist on
+the next |SaveChanges|.
+
+*Option B — ViewModels own it.* ViewModels maintain a list of pending
+operations (added notes, modified notes, deleted notes) and a dedicated
+save action flushes them to a short-lived |DbContext|. This is more explicit and testable but requires you to implement the
+pending-operations pattern yourself.
+
+*Option C — A Unit of Work owns it.* A UoW object is opened for an
+editing session, collects all changes, and commits or rolls back
+atomically. This is the most architecturally pure option and maps well
+to your use case — opening an entity editor, making changes to notes and
+payload fields, then either saving or canceling the whole set.
+
+For a personal WPF project, Option A with a session-scoped context is
+pragmatic and defensible. The risk is manageable if you are disciplined
+about not holding the context longer than a top-level window's lifetime.
+
+------------------------------------------------------------------------
+
+
+      Where EF Core Specifically Creates Friction
+
+EF Core's friction points in this design are concrete and predictable.
+
+*Navigation property loading.* EF Core does not automatically load
+navigation properties. |Character.Notes| is null until you either eagerly load it with |.Include()|, lazily load it (requires proxy configuration), or explicitly load it
+after the fact. For a collection like notes that you always want when
+you open an entity editor, eager loading via |.Include()| is the right call — but you must remember to include it in every query
+that feeds an editor ViewModel. A repository pattern with a well-defined |GetForEditing| method that always includes the right navigations is the standard
+mitigation.
+
+*TPH and polymorphic queries.* When you load a |Character| with |.Include(c => c.Notes)|, EF returns the collection typed as |ObservableCollection<Note>| but the instances are correctly typed derived objects at runtime — |CharacterNote| instances. This is correct behavior but requires that your ViewModel
+and XAML handle the base type in collections while occasionally needing
+to downcast. This is manageable but worth knowing in advance.
+
+*SQLite and concurrent writes.* SQLite serializes writes. For a single-
+user desktop app this is irrelevant, but it means your architecture
+should never attempt concurrent save operations. A single UI thread with
+synchronous saves or properly awaited async saves is sufficient.
+
+------------------------------------------------------------------------
+
+
+      Where WPF Specifically Creates Friction
+
+WPF's friction is primarily in three places.
+
+*DataTemplate selection for derived types.* If your notes collection
+contains base |Note| references that are actually derived instances, and you want different
+visual treatment per derived type or per |NoteTrack|, WPF's |DataTemplateSelector| is the mechanism. It selects a template based on the runtime type of
+the bound object. Without it, WPF uses the most specific matching
+DataTemplate it can find — if you define a DataTemplate for |Note|, all derived types use it unless you define more specific ones. This
+needs to be designed intentionally or your generic window will not
+render note types differently if you ever want that.
+
+*ObservableCollection and thread affinity.* WPF's binding system
+requires that |ObservableCollection| mutations happen on the UI thread. If you ever load notes
+asynchronously (which you will want to do for perceived performance),
+you must marshal the collection population back to the UI thread. |BindingOperations.EnableCollectionSynchronization| is the standard mitigation.
+
+*The generic ViewModel / XAML boundary.* WPF's XAML does not support
+generic type arguments directly in markup. |NoteableViewModelBase<Character>| cannot be referenced directly in XAML. The standard pattern is to have
+the generic base class and then thin non-generic subclasses that XAML
+can reference by name, which is also where your entity-specific
+properties live. This is not a significant burden — it aligns with the
+thin subclass pattern already described — but it means you cannot
+eliminate the subclasses entirely even if the base class does all the work.
+
+------------------------------------------------------------------------
+
+
+      The Cleanest From-Scratch Design
+
+Given all of the above, the architecture that minimizes long-term
+complexity is:
+
+*Schema layer.* TPH on |Note| with surrogate PKs on junction entities and unique constraints
+preserving composite integrity. |NoteTrack| is a column on |Notes|, semantically inert to the schema.
+
+*Model layer.* Plain C# classes with no MVVM toolkit dependency.
+Navigation properties exist for EF but carry |[JsonIgnore]| where appropriate. Models are the source of truth for what the data is.
+
+*Repository layer.* One generic repository interface |IRepository<T>| covering CRUD, plus entity-specific query methods where the generic
+pattern breaks down — primarily the |GetForEditing| methods that specify which navigations to include. The repository
+hides all EF Core specifics from the ViewModel layer.
+
+*ViewModel layer.* |NoteableViewModelBase<TEntity>| as described, implementing |INoteableViewModel|. Ten thin subclasses, each providing |ValidTracks| and |CreateNote|. Payload-specific properties live in the subclass. The base class owns
+all note collection management, track filtering, and dirty tracking.
+
+*View layer.* One generic editor window bound to |INoteableViewModel|. Track panels are rendered via |ItemsControl| bound to |ValidTracks|, each panel filtered to its track's notes. A |DataTemplateSelector| handles any per-type visual variation. A |ContentPresenter| in the payload region switches on the concrete ViewModel type for
+entity-specific fields.
+
+The key discipline is that the model/ViewModel boundary is enforced as a
+rule, change tracking ownership is assigned to the session-scoped |DbContext| as a deliberate choice, and |NoteTrack| validity per entity type is declared in the ViewModel subclass and
+never encoded in the schema.
+
+
+    You said: I existing application loads everything from EF Core at
+    once, makes changes to the local collection, and saves changes.
+
+I existing application loads everything from EF Core at once, makes changes to the local collection, and saves changes. View Models are 1 to 1 with Models and are singletons all created at the start. All the different views for an entity, which depict it in different ways based on needs, all bind to the same view model instance. Changes to one way of viewing affect others by design. The whole database is stateful. I am generally using the UI thread for almost everything, because all the loading happens on program startup.
+
+What if I make StoryThread, Character, CodexEntry and Theme all inherit from a base class, or even all be the same class just with a property for entity type? The code implementation is the same; the data is what differentiates them. The entity type property can fuel computed properties for display data that describes what the fields should be for.
+
+However I'm still not sure how the junction tables fit in. These would be self-references?
+
+Show more
+Apr 21
+
+
+    Claude responded: Whether the Collapse Makes Sense
+
+Evaluated entity consolidation strategy and junction table implications
+
+Evaluated entity consolidation strategy and junction table implications
+
+
+      Whether the Collapse Makes Sense
+
+Looking at your four candidates structurally:
+
+Field	Character	Theme	CodexEntry	StoryThread
+Id, Name/Title, Description, Notes	✓	✓	✓	✓
+Abbreviation, ColorHex	—	✓	✓	—
+Inspiration, Archetype	✓	—	—	—
+Category (enum)	—	—	✓	—
+Icon, ThreadScope	—	—	—	✓
+
+The shared core is substantial. The divergent fields are sparse enough
+to live as nullable columns on one table without being a design smell —
+especially since your entity type discriminator already communicates
+which fields are meaningful for a given row. This is essentially TPH
+applied at the domain entity level rather than just the note level.
+
+The case for doing this is strong given your architecture specifically.
+Since ViewModels are singletons loaded at startup and all views bind to
+the same instance, collapsing four entity types means one ViewModel
+class, one |ObservableCollection<StoryEntity>| on your root ViewModel, and one set of XAML templates with conditional
+sections driven by entity type. The XAML and ViewModel bloat reduction
+is proportional to how similar the views already are across these four
+types — which appears to be substantial.
+
+------------------------------------------------------------------------
+
+
+      The Junction Table Question
+
+These are not self-references. A self-reference would be |StoryEntity → StoryEntity| (like a parent/child hierarchy within the same type). What you have is |PlotPoint → StoryEntity| through a junction, which is an ordinary many-to-many between two
+different types. The fact that one side is now a discriminated union
+doesn't change the relational structure.
+
+The real question is whether the four junction tables collapse as well.
+Look at their payload fields:
+
+|PlotPointCharacter:  Role, DevelopmentImpact, DevelopmentNote, LogicalOrder
+PlotPointTheme:      Prominence, Commentary
+PlotPointCodexEntry: UsageType, Commentary, LogicalOrder
+PlotPointStoryThread: ThreadTrajectory, IsPrimary, ImpactDescription|
+
+These are structurally different enough that collapsing them into one
+table creates the exact nullable column problem you're trying to
+eliminate from |Note|. You have two defensible options:
+
+*Option A — Keep four junction classes, update their FK to point at |StoryEntity|*
+
+csharp
+
+|public class PlotPointCharacter : PlotPointLink
+{
+    public int StoryEntityId { get; set; }    // was CharacterId
+    public StoryEntity StoryEntity { get; set; } = null!;
+    
+    // payload unchanged
+    public CharacterRole Role { get; set; }
+    public CharacterDevImpact DevelopmentImpact { get; set; }
+    public string? DevelopmentNote { get; set; }
+}|
+
+The name |PlotPointCharacter| becomes slightly misleading since |StoryEntityId| could theoretically reference any entity type. You'd enforce the
+constraint that it must reference a |Character|-typed entity either in application logic or via a check constraint. EF
+Core doesn't natively support FK constraints filtered by discriminator
+value, so this is application-layer validation.
+
+*Option B — TPH on the junction tables as well*
+
+csharp
+
+|public abstract class PlotPointLink
+{
+    public int Id { get; set; }
+    public int PlotPointId { get; set; }
+    public PlotPoint PlotPoint { get; set; } = null!;
+    public int StoryEntityId { get; set; }
+    public StoryEntity StoryEntity { get; set; } = null!;
+    public ObservableCollection<Note> Notes { get; set; } = new();
+}
+
+public class PlotPointCharacterLink : PlotPointLink
+{
+    public CharacterRole Role { get; set; }
+    public CharacterDevImpact DevelopmentImpact { get; set; }
+    public string? DevelopmentNote { get; set; }
+}
+
+public class PlotPointThemeLink : PlotPointLink
+{
+    public ThemeProminence Prominence { get; set; }
+    public string? Commentary { get; set; }
+}|
+
+This gives you one |PlotPointLinks| table with a discriminator, surrogate PKs, and the payload fields as
+nullable columns per derived type. The unique constraint becomes |(PlotPointId, StoryEntityId, Discriminator)| — the same pair shouldn't appear twice for the same link type.
+
+The advantage of Option B is that |PlotPoint.ThreadAssignments|, |PlotPoint.CharacterAppearances| etc. collapse into one |PlotPoint.Links| collection typed as |ObservableCollection<PlotPointLink>|. Your PlotPoint ViewModel has one collection instead of four. The XAML
+for displaying a PlotPoint's connections filters that one collection by
+discriminator type for display grouping. This mirrors exactly what
+you're doing with NoteTrack on Notes — presence-driven or type-driven
+rendering of a unified collection.
+
+------------------------------------------------------------------------
+
+
+      The Structural Implication for PlotPoint
+
+One question worth making explicit: does |PlotPoint| also become a |StoryEntity|? The answer is almost certainly no. PlotPoint has Chapter membership,
+ordering, the five-axis analytical fields, and is the primary narrative
+unit rather than a reference/annotation entity. The four collapse
+candidates are all world-building reference entities that plots annotate
+against — they form a conceptually coherent group that PlotPoint does
+not belong to.
+
+The clean conceptual split is:
+
+  * *|StoryEntity|* — the annotation layer. Things a PlotPoint references.
+  * *|PlotPoint|* — the narrative sequence layer. Things that reference StoryEntities.
+  * *|PlotPointLink|* (TPH) — the relationship layer with typed payloads.
+  * *|Note|* (TPH) — the design-layer commentary attached to any of the above.
+
+This maps directly onto your five-layer framework from the design
+document, where the entity types represent different layers of the
+Fabula and the notes carry the typed claims about each layer.
+
+
+    You said: In my big redesign, all of the text fields on the
+    PlotPointX entities become notes in that entity's collection,
+    displayed separately via note track.
+
+In my big redesign, all of the text fields on the PlotPointX entities become notes in that entity's collection, displayed separately via note track.
+
+I wanted to make all the story entities one class and remove TPH on Note. Is this possible or useful? Or is it not needed that Note has to be casted because it's not used for junctions? I want to avoid boilerplate and different types when adding or deleting notes. Also notes could be moved from one entity to another. Is it possible to get all the story entities to share a base class? Or only the view model needs a shared base class? That would be Character, StoryThread, Theme, CodexEntry, Chapter, PlotPoint, PlotPointTheme, PlotPointCodexEntry, PlotPointStoryThread, and PlotPointCharacter. If these could all have a base class, then Note only needs one field. Give an analysis on this thinking
+
+Apr 21
+
+
+    Claude responded: The Core Insight You're Reaching For
+
+Weighed polymorphic association patterns against inheritance strategies
+for unified note ownership
+
+Weighed polymorphic association patterns against inheritance strategies
+for unified note ownership
+
+
+      The Core Insight You're Reaching For
+
+You're describing a *polymorphic association* — where |Note| has one ownership FK rather than one per ownable type. This is a
+legitimate and well-understood pattern. The question is which layer
+enforces the ownership contract: the database, the application, or both.
+
+The answer branches entirely on that question.
+
+------------------------------------------------------------------------
+
+
+      If the Database Must Enforce Referential Integrity
+
+A single FK on |Note| pointing to multiple tables is not possible in a relational database.
+A FK must reference exactly one table. So for the database to enforce |Note.OwnerId| as a valid FK, all 10 ownable types must share one table or a shared
+base table.
+
+EF Core offers three inheritance strategies for this:
+
+*TPH on the owner side.* All 10 entity types in one |StoryEntities| table with a discriminator. |Note.OwnerId| is a valid FK against that table. The schema consequence is severe —
+one table holding Character, Theme, CodexEntry, StoryThread, Chapter,
+PlotPoint, and all four junction types simultaneously. The column count
+would be enormous and mostly null. This is the wrong application of TPH.
+
+*TPT on the owner side.* A shared |StoryEntities| base table with just |Id| and common fields. Each of the 10 types has its own table extending it. |Note.OwnerId| is a valid FK to the base table, and EF Core resolves the full entity
+via a join. Proper referential integrity, no nullable column explosion
+on the Note side.
+
+The tradeoff is that EF Core's TPT implementation generates a join for
+every entity query — every time you load a |Character|, EF joins |StoryEntities| and |Characters|. For a startup-load-everything architecture this is a one-time cost,
+but EF Core's TPT has historically had performance and query generation
+issues worth being aware of.
+
+*TPC (Table Per Concrete type).* Each type gets its own table, no shared
+base table exists in the DB. The FK referential integrity problem
+returns because |Note.OwnerId| cannot reference six different tables. TPC does not solve your problem.
+
+------------------------------------------------------------------------
+
+
+      If the Application Enforces Ownership
+
+This is the pragmatic path for your specific architecture and is worth
+taking seriously. |Note| gets two fields:
+
+csharp
+
+|public class Note : ObservableObject, IAuditableText
+{
+    public int Id { get; set; }
+    public int OwnerId { get; set; }
+    public NoteOwnerType OwnerType { get; set; }  // enum discriminator
+    public NoteTrack NoteTrack { get; set; }
+    // ... all other existing fields unchanged
+}
+
+public enum NoteOwnerType
+{
+    Character,
+    Theme,
+    CodexEntry,
+    StoryThread,
+    Chapter,
+    PlotPoint,
+    PlotPointCharacter,
+    PlotPointTheme,
+    PlotPointCodexEntry,
+    PlotPointStoryThread
+}|
+
+No FK constraint in the database. No TPH on Note. No casting. Adding a
+note is uniform — set |OwnerId| and |OwnerType|, done. Moving a note between owners is two property assignments. The
+orphan risk is real but manageable — your startup load-everything
+pattern means you can validate note ownership on load and catch any
+orphans immediately.
+
+The schema is as simple as it gets. The |Notes| table has one |OwnerId| int column and one |OwnerType| int column. No nullable columns. No discriminator infrastructure.
+
+------------------------------------------------------------------------
+
+
+      Whether the Model Needs a Shared Base Class
+
+This is the key question and the answer is: *the model does not need
+one, only the ViewModel does.*
+
+The 10 ownable types are not semantically the same kind of thing. |PlotPointCharacter| is a relationship between two entities. |Character| is a domain entity. |Chapter| is a narrative container. Forcing them into a class hierarchy
+conflates genuinely different concepts at the model layer, which will
+surface as confusion when you need to query, display, or reason about
+them individually.
+
+What they share is the *trait of being noteable* — not a type identity.
+In C# that is an interface:
+
+csharp
+
+|public interface INoteable
+{
+    int Id { get; }
+    // No Notes collection here - that belongs to the ViewModel
+}|
+
+Every model class implements |INoteable| by virtue of having an |Id|. That's sufficient for the ViewModel layer to operate generically. The
+Notes collection does not belong on the model at all under your
+architecture — it belongs on the ViewModel, which holds the filtered
+slice of the global notes collection relevant to its entity.
+
+------------------------------------------------------------------------
+
+
+      How This Changes the ViewModel Architecture
+
+Since you load everything at startup into singleton ViewModels, the
+cleanest structure is:
+
+csharp
+
+|public abstract class NoteableViewModel<TModel> : ObservableObject
+    where TModel : INoteable
+{
+    private readonly ObservableCollection<Note> _allNotes;  // reference to global collection
+    
+    public TModel Model { get; }
+    
+    public IEnumerable<Note> Notes => 
+        _allNotes.Where(n => n.OwnerId == Model.Id && 
+                             n.OwnerType == OwnerType);
+    
+    public abstract NoteOwnerType OwnerType { get; }
+    public abstract IReadOnlyList<NoteTrack> ValidTracks { get; }
+    
+    public Note AddNote(NoteTrack track)
+    {
+        var note = new Note 
+        { 
+            OwnerId = Model.Id, 
+            OwnerType = OwnerType,
+            NoteTrack = track 
+        };
+        _allNotes.Add(note);
+        return note;
+    }
+    
+    public void RemoveNote(Note note) => _allNotes.Remove(note);
+    
+    public void MoveNote(Note note, NoteableViewModel<INoteable> target)
+    {
+        note.OwnerId = target.Model.Id;
+        note.OwnerType = target.OwnerType;
+    }
+}|
+
+The global notes collection lives once on your root ViewModel. Each
+entity ViewModel holds a reference to it and filters by |OwnerId + OwnerType|. Note moving is two property assignments with no collection surgery —
+since all views bind to filtered projections of the same collection, the
+move is immediately reflected everywhere.
+
+------------------------------------------------------------------------
+
+
+      The Junction Entity Complication
+
+The junction entities have a structural issue that the other six do not.
+Their |Id| is only meaningful in the context of their parent relationship. If you
+move a note from |PlotPointCharacter(Id=5)| to |Character(Id=5)|, the |OwnerId=5| is ambiguous without |OwnerType|. Your |OwnerType| discriminator already handles this — but it means the |Id| values across entity types do not need to be globally unique, they
+only need to be unique within a type. This is already true in your
+schema, and the |(OwnerId, OwnerType)| pair is what uniquely identifies ownership, not |OwnerId| alone.
+
+------------------------------------------------------------------------
+
+
+      The Recommended Path
+
+Given your architecture specifically — singleton ViewModels, startup
+load, stateful in-memory model, single SQLite file, personal project:
+
+  * *Models* implement |INoteable| via having an |Id|. No shared base class required.
+  * *|Note|* has |OwnerId| + |OwnerType|. No TPH, no nullable FK columns, no casting. Application enforces
+    ownership, database does not.
+  * *|NoteableViewModel<TModel>|* holds a reference to the global notes collection and filters it.
+    Note add, remove, and move are all uniform operations on this one
+    collection.
+  * *ViewModel subclasses* declare |OwnerType| and |ValidTracks|. That is the entirety of their note-related boilerplate.
+
+The junction entities fit without special handling — they implement |INoteable|, have an |Id| from their surrogate PK, and their |OwnerType| enum value disambiguates them from other types that might share an |Id| integer value.
+
+
+    You said: This seems ground breaking to me, a paradigm shift that
+    not every efcore interaction has to follow the two way links of the
+    framework.
+
+This seems ground breaking to me, a paradigm shift that not every efcore interaction has to follow the two way links of the framework. Why is it acceptable here, in more detail, are there other areas that happen to be able to use simplification, and when can the guidelines in ef core be suspended in a similar manner? Compare how all this stuff, c# to SQL data read and write, would be done without entity framework. Use that as a frame for understanding
+
+Apr 21
+
+
+    Claude responded: What EF Core Actually Is
+
+Synthesized architectural reasoning bridging EF Core conventions with
+raw SQL fundamentals
+
+Synthesized architectural reasoning bridging EF Core conventions with
+raw SQL fundamentals
+
+
+      What EF Core Actually Is
+
+To understand when you can suspend its conventions, you need a clear
+model of what EF Core does at the mechanical level.
+
+Without EF Core, reading a |Character| with its notes looks like this:
+
+sql
+
+|SELECT * FROM Characters WHERE Id = 1;
+SELECT * FROM Notes WHERE OwnerId = 1 AND OwnerType = 0;|
+
+You get back rows. You manually construct C# objects from those rows.
+You manually assign the notes list to the character object. You track
+which objects you've modified by hand. When you save, you manually write:
+
+sql
+
+|UPDATE Characters SET Name = 'Applejack' WHERE Id = 1;
+INSERT INTO Notes (OwnerId, OwnerType, Content, NoteTrack) VALUES (1, 0, 'text', 2);|
+
+EF Core automates exactly four things and nothing else:
+
+ 1. *Object construction* — turning result rows into typed C# instances
+ 2. *Relationship resolution* — populating navigation properties from FK
+    relationships
+ 3. *Change tracking* — detecting which properties changed since load
+ 4. *SQL generation* — writing the INSERT/UPDATE/DELETE statements from
+    tracked changes
+
+Every EF Core convention — the FK columns, the navigation properties,
+the required relationships, the cascade delete configuration — exists to
+serve one of those four automation goals. When you don't need the
+automation for a specific concern, the convention that serves it becomes
+optional.
+
+------------------------------------------------------------------------
+
+
+      Why the OwnerId/OwnerType Pattern is Acceptable
+
+In raw SQL, the query for all notes belonging to a character has always
+been:
+
+sql
+
+|SELECT * FROM Notes WHERE OwnerId = @id AND OwnerType = @type;|
+
+This is a perfectly valid query. The database executes it correctly. The
+data integrity concern — what if |OwnerId| references a row that doesn't exist — is real but is a different
+concern from query correctness. Referential integrity and query
+correctness are separate problems that SQL conflates via FK constraints
+because enforcement at the database layer is the safest default for
+multi-user, multi-application systems.
+
+Your system is none of those things. One application. One user. One
+startup load that reads everything. The orphan risk that FK constraints
+guard against — a concurrent process deleting a Character while another
+inserts a Note referencing it — cannot occur in your architecture. The
+constraint would be protecting against a threat that doesn't exist in
+your context.
+
+What you're doing is consciously accepting application-layer enforcement
+instead of database-layer enforcement. This is not a violation of a
+universal law. It is a deliberate tradeoff that the relational model
+itself acknowledges — constraints are guarantees you pay a cost to
+maintain, and whether that cost is worth paying depends on the threat model.
+
+The reason this feels like a paradigm shift is that EF Core's defaults
+are designed for the most dangerous context — production multi-user web
+applications where the database is the last line of defense. Those
+defaults are not laws. They are conservative defaults appropriate for
+the most demanding context.
+
+------------------------------------------------------------------------
+
+
+      The Frame: What EF Core Automates vs. What You Manage
+
+Every place you can simplify follows the same reasoning. Map each EF
+Core convention to what threat it addresses:
+
+*Navigation properties* exist to automate object graph construction.
+Without them you write the join query and the population loop yourself.
+If you load everything at startup into collections you manage manually,
+navigation properties on models are redundant — you already have the
+object graph in memory. The ViewModel's filtered projection replaces
+what navigation properties do.
+
+*Cascade delete configuration* exists to maintain referential integrity
+when a parent is deleted. Without it you write |DELETE FROM Notes WHERE OwnerId = @id| before deleting the entity. In your architecture, deletion is a
+ViewModel operation that removes from in-memory collections first and
+then persists — you control the sequence explicitly. EF's cascade
+configuration is automating sequencing you already control.
+
+*Required vs. optional relationships* exist to control whether EF
+generates nullable or non-nullable FK columns and whether it throws on
+save if the relationship isn't populated. If you are constructing
+objects manually in the ViewModel and validating them before calling
+save, EF's required/optional distinction is enforcing a contract you're
+already enforcing earlier in the call stack.
+
+*Eager loading via Include()* exists because EF doesn't load navigation
+properties unless told to, because in a web context loading everything
+by default would be catastrophic. Your load-everything-at-startup
+pattern makes Include unnecessary — you load the full graph once and it
+stays in memory.
+
+*The DbSet per entity type* exists because EF needs a typed entry point
+for queries. If you bypass LINQ queries in favor of raw SQL for complex
+cases, you can use |dbContext.Database.ExecuteSqlRaw()| directly. For your OwnerId/OwnerType queries, this is actually cleaner
+than configuring EF to understand a keyless relationship.
+
+------------------------------------------------------------------------
+
+
+      Other Areas in Your Specific Project
+
+The same reasoning applies to several other places in your design.
+
+*The PlotPoint text fields becoming notes.* In raw SQL this is just rows
+in Notes with different NoteTrack values. There is no structural reason
+those fields were columns on PlotPoints versus rows in Notes — it was a
+modeling convenience. The database doesn't care whether "Synopsis" is a
+column on PlotPoints or a row in Notes with NoteTrack = Synopsis. The
+query changes, the data doesn't.
+
+*The junction table payload fields.* If |PlotPointCharacter.DevelopmentNote| becomes a note in the PlotPointCharacter's note collection, the raw
+SQL equivalent is just moving data between tables. The relationship
+between PlotPoint and Character is still encoded in the junction table
+row. The note is just a row in Notes pointing at that junction row.
+There is no conceptual violation — you are choosing where to store a
+piece of text.
+
+*SortOrder on notes.* EF has no concept of ordered collections. The sort
+order is always application-managed regardless of how much or little EF
+you use. Raw SQL would do |SELECT * FROM Notes WHERE OwnerId = @id ORDER BY SortOrder|. Your ViewModel does the same thing on an in-memory collection. EF is
+not helping you here and was never helping you — you were always
+managing this yourself.
+
+------------------------------------------------------------------------
+
+
+      When the EF Core Guidelines Cannot Be Suspended
+
+The cases where EF's conventions represent genuine constraints rather
+than conservative defaults are narrower than they appear.
+
+*Multi-user or multi-process access to the same database.* If two
+processes can write simultaneously, application-layer enforcement of
+referential integrity breaks down because Process A can delete a
+Character while Process B is inserting a Note for it. Database-layer FK
+constraints are the only reliable guard. Your architecture has one process.
+
+*Queries that EF needs to translate to SQL.* If you write LINQ against a
+DbSet that EF has to translate — |dbContext.Notes.Where(n => n.Character.Name == "Applejack")| — EF needs the navigation property and FK configured correctly to
+generate the join. If you bypass LINQ and write the SQL yourself, or if
+you load everything at startup and filter in memory, EF doesn't need to
+translate anything. Your architecture loads at startup and filters in
+memory, so this constraint rarely applies.
+
+*Migrations.* EF's migration system reads your model configuration to
+generate schema changes. If your model configuration doesn't reflect the
+actual schema — because you've added raw SQL constraints that EF doesn't
+know about, or used conventions EF doesn't understand — the migration
+system generates incorrect diffs. This is the one area where suspending
+conventions has a concrete cost. Your OwnerId/OwnerType pattern means EF
+will never generate a FK constraint for that relationship, because you
+never configured one. That's fine as long as you know that's what you
+chose. The risk is forgetting that you made that choice and later
+wondering why EF's schema validation passes while an orphaned note exists.
+
+------------------------------------------------------------------------
+
+
+      The Unifying Frame
+
+The raw SQL frame makes the underlying principle clear. SQL is a query
+language operating on sets of rows. C# is an object language operating
+on typed instances. EF Core is a translation layer between them. Every
+EF convention exists to make that translation reliable in the most
+demanding contexts.
+
+When your context is less demanding — one user, one process, startup
+load, in-memory state, explicit ViewModel operations — you can move
+enforcement up the stack toward the application layer. The data still
+lives in SQL rows. The queries are still SQL queries. The constraints
+are still enforced. The only thing that changes is who enforces them and
+when.
+
+The paradigm shift you're sensing is recognizing that EF Core is not the
+database. It is a tool that talks to the database. The database existed
+before EF Core and will continue to work correctly after you stop asking
+EF Core to configure every aspect of it. Understanding which parts of EF
+Core you need for your specific context, and which parts are defaults
+designed for contexts you don't have, is what separates using a
+framework from being constrained by it.
+
+
+    You said: Okay, this makes a lot of sense because I started learning
+    modern .
+
+Okay, this makes a lot of sense because I started learning modern .net recently with Gemini, and this included blazor, ef core, scoped services for a Web application. By experience at work is with .net framework 4.5, WPF, WCF and full stack on semi wafer fab equipment where our database write data every second using stored procedures.
+
+Apr 21
+
+
+    Claude responded: This context explains almost everything about
+    where the confusion originated, and it's worth mapping explicitly
+    because the three paradigms you've worked in ha…
+
+Reconciled divergent paradigms shaping their EF Core mental model
+
+Reconciled divergent paradigms shaping their EF Core mental model
+
+This context explains almost everything about where the confusion
+originated, and it's worth mapping explicitly because the three
+paradigms you've worked in have almost opposite characteristics.
+
+------------------------------------------------------------------------
+
+
+      Your Three Paradigms Compared
+
+*Wafer fab WPF/WCF with stored procedures* is the most honest
+environment for understanding what the database actually is. Stored
+procedures are explicit SQL authored by a human. The database writes
+every second, so you know exactly what a transaction is, what contention
+means, and why the database layer must be the authority on data
+integrity. Nothing is hidden. The cost of every operation is visible.
+You never had the illusion that the application layer was managing the
+database — the database was clearly managing itself and the application
+was a client.
+
+*Blazor with EF Core scoped services* is the opposite end. A scoped |DbContext| lives for one HTTP request and is disposed at the end. The threat
+model is maximum — thousands of concurrent users, concurrent writes, no
+shared memory between requests, the database as the only source of
+truth. Every EF Core default is calibrated for this context. Navigation
+properties matter because you can't hold the object graph in memory
+across requests. Required relationships matter because two requests can
+conflict. The scoped lifetime matters because a long-lived context in a
+web app is a memory and consistency disaster. When Gemini taught you EF
+Core through this lens, every convention it showed you was correct for
+that context. The problem is that context has almost nothing in common
+with your WPF personal project.
+
+*Your WPF personal project* is structurally closer to the wafer fab
+paradigm than the Blazor paradigm, even though you learned the tooling
+through Blazor. One process. One user. Long-lived in-memory state.
+Explicit save operations. The database is a persistence file, not a
+concurrent authority. The correct mental model is closer to your stored
+procedure experience than to scoped HTTP services — you are the
+authority on what the data looks like, and the database is where you
+write it down.
+
+------------------------------------------------------------------------
+
+
+      What This Means Practically
+
+The stored procedure experience gave you something Blazor/EF learning
+obscures — you already know what the SQL actually is. When you write a
+stored procedure you write |SELECT * FROM Notes WHERE OwnerId = @id AND OwnerType = @type|. You know that query is correct. You know what it costs. You don't
+need EF to validate whether your data model is legitimate because you
+can read the SQL yourself.
+
+That instinct is trustworthy here. When a design decision feels right in
+raw SQL terms, it is right. EF Core is just writing that SQL for you.
+
+The Blazor learning gave you the modern .NET surface — async patterns,
+LINQ, the DbContext API, migrations. Those are tools worth having. The
+defaults and conventions you absorbed alongside them were correct for
+web and don't transfer, but the tooling itself transfers fine.
+
+Your wafer fab background also means you already have an intuition the
+Blazor-first learner lacks — that a database writing every second via
+stored procedures and a database that gets written on explicit user save
+operations are fundamentally different animals that should be treated
+differently. You've worked with the demanding version. Your personal
+project is the easy version. The constraints can be relaxed proportionally.
+
+
+    You said: What are the fundamental differences between the note to
+    story entity relationship vs story entity to junction table?
+
+What are the fundamental differences between the note to story entity relationship vs story entity to junction table? And therefore the best way to implement
+
+Apr 21
+
+
+    Claude responded: The Fundamental Structural Difference
+
+Analyzed ownership versus association patterns and their implementation
+implications
+
+Analyzed ownership versus association patterns and their implementation
+implications
+
+
+      The Fundamental Structural Difference
+
+These two relationships are categorically different things that happen
+to both involve connecting entities.
+
+*Note → StoryEntity is ownership.* The note is subordinate to its owner.
+It has no independent meaning. It exists to annotate something else. The
+relationship is one-directional — the owner doesn't need to know the
+note exists to be a valid entity, and the note's entire purpose is
+defined by its owner. This is why the note can move between owners
+without changing what it fundamentally is. The content stays the same.
+Only the annotation target changes.
+
+*StoryEntity → Junction is association.* The junction table does not
+belong to either side. It /is/ the relationship between two peers. |PlotPointCharacter| is not owned by |PlotPoint| or by |Character| — it is the fact that a specific character appears in a specific plot
+point, plus everything known about that appearance. Neither side is
+subordinate. Both sides must exist for the junction to be valid. The
+junction cannot move, because moving it would mean it is a different
+relationship entirely.
+
+The payload field distinction makes this concrete. A note's content is
+independent of its owner — the text "she loses trust in Command" is
+meaningful regardless of which entity holds it. A junction's payload
+fields are /constitutive/ of the relationship — |DevelopmentImpact = CoreValueChange| is not a piece of text that could live anywhere, it is a claim
+specifically about what this character's appearance in this plot point
+means. It has no meaning detached from both sides.
+
+------------------------------------------------------------------------
+
+
+      The Ownership Problem Each Relationship Has
+
+These different natures produce different problems.
+
+*Notes have an ownership resolution problem.* Given a note, which entity
+owns it? Your OwnerId + OwnerType solution is correct precisely because
+ownership is the only thing that needs resolving. The note doesn't need
+referential integrity enforced at the database layer because in your
+architecture the application controls the sequence — you never delete an
+entity without handling its notes first, because deletion is an explicit
+ViewModel operation you author.
+
+*Junctions have an integrity problem on both sides simultaneously.* A
+junction row without a valid PlotPoint is corrupt. A junction row
+without a valid Character is also corrupt. These are two independent
+integrity constraints, and unlike notes, they cannot be relaxed by
+application-layer sequencing alone — the business rule is that both
+sides must exist for the relationship to be meaningful at all. This is
+why EF Core's cascade delete configuration matters more for junctions
+than for notes. If you delete a Character, every junction referencing
+that Character must also be deleted, or you have meaningless rows where
+one side points at nothing.
+
+------------------------------------------------------------------------
+
+
+      Implementation Consequences
+
+*For Notes*, the OwnerId + OwnerType pattern is the right
+implementation. No FK constraint, no TPH, no casting. The application
+enforces ownership through ViewModel operations. Loading is a simple
+filter on two columns. Moving is two property assignments. The schema is
+as flat as it can be.
+
+*For Junctions*, the relational constraints must be respected because
+both sides are peers with equal validity requirements. The correct
+implementation is:
+
+csharp
+
+|public abstract class PlotPointLink : INoteable
+{
+    public int Id { get; set; }              // surrogate PK for Note ownership
+    public int PlotPointId { get; set; }     // FK, must be valid
+    public int StoryEntityId { get; set; }   // FK, must be valid
+}|
+
+With EF configuration:
+
+csharp
+
+|modelBuilder.Entity<PlotPointCharacterLink>()
+    .HasOne(x => x.PlotPoint)
+    .WithMany(x => x.Links)
+    .HasForeignKey(x => x.PlotPointId)
+    .OnDelete(DeleteBehavior.Cascade);
+
+modelBuilder.Entity<PlotPointCharacterLink>()
+    .HasOne(x => x.StoryEntity)
+    .WithMany()
+    .HasForeignKey(x => x.StoryEntityId)
+    .OnDelete(DeleteBehavior.Cascade);
+
+modelBuilder.Entity<PlotPointCharacterLink>()
+    .HasIndex(x => new { x.PlotPointId, x.StoryEntityId })
+    .IsUnique();|
+
+The cascade deletes here are not conservative defaults — they are
+correct business logic. When a Character is deleted, its junction rows
+are genuinely meaningless and should be deleted. This is different from
+the note case where you might want to prompt the user before deletion,
+or move the note rather than delete it.
+
+------------------------------------------------------------------------
+
+
+      Where They Converge
+
+Both relationships converge at one point — notes on junctions. A |PlotPointCharacterLink| is |INoteable|, has a surrogate |Id|, and its notes use OwnerId + OwnerType exactly like any other entity's
+notes. The fact that the junction itself has strict relational integrity
+on both its FKs is orthogonal to the loose annotation relationship its
+notes have to it.
+
+This is actually the clearest validation that the two patterns are
+correctly separated. The junction participates in two different
+relationship paradigms simultaneously — strict peer association with its
+two sides, and loose annotation ownership with its notes — and neither
+paradigm interferes with the other because they are solving different
+problems at different layers.
+
+The unified picture is:
+
+  * *Strict FK constraints with cascade* — anywhere two entities are
+    peers and both must exist for the relationship to be valid. Junction
+    tables to their two sides.
+  * *OwnerId + OwnerType with application enforcement* — anywhere an
+    entity is subordinate to an owner and the relationship is annotation
+    rather than association. Notes to everything.
+
+
+    You said: We went through a lot of discussion.
+
+We went through a lot of discussion. Please provide me with a concise and complete summary of the conclusions, followed by a plan for making the new model classes
+
+Apr 22
+
+
+    Claude responded: Conclusions
+
+Synthesized database architecture and consolidated model class strategy
+
+Synthesized database architecture and consolidated model class strategy
+
+
+      Conclusions
+
+
+        Architecture Principles
+
+*Models are pure data containers.* No |ObservableObject|, no |[ObservableProperty]|, no MVVM toolkit dependency anywhere on model classes. The ViewModel
+layer owns all change notification. The model's job is to hold data and
+survive persistence.
+
+*EF Core conventions are defaults, not laws.* They are calibrated for
+multi-user web applications. Your context — one user, one process,
+startup load, explicit save — allows deliberate relaxation of
+conventions where the threat they guard against does not exist.
+
+*Two distinct relationship paradigms exist in this schema.* Strict peer
+association for junctions, loose annotation ownership for notes. They
+solve different problems and should be implemented differently.
+
+------------------------------------------------------------------------
+
+
+        Note Ownership
+
+Notes use |OwnerId + OwnerType| instead of nullable FK columns or TPH. No FK constraint in the
+database. Application layer enforces ownership through ViewModel
+operations. This is acceptable because deletion is always an explicit
+authored ViewModel operation — the orphan threat that FK constraints
+guard against does not exist in your architecture.
+
+|NoteTrack| is a semantic discriminator only. It has no schema effect beyond being
+an int column. It drives ViewModel display logic — which panels render,
+what order — and nothing else. Valid tracks per entity type are declared
+in the ViewModel, not encoded in the schema.
+
+PlotPoint's existing text fields — |Synopsis|, |Stakes|, |Outcome|, |ReaderState|, |VerbatimText| — become notes with |NoteTrack = Unset| during migration. Those columns are removed from |PlotPoints|.
+
+------------------------------------------------------------------------
+
+
+        Story Entities
+
+|Character|, |Theme|, |CodexEntry|, |StoryThread|, |Chapter|, and |PlotPoint| all implement |INoteable| — meaning they have an |Id| that the note system can reference. This is sufficient for the
+ViewModel layer to operate generically.
+
+|Character|, |Theme|, |CodexEntry|, and |StoryThread| share enough structure — |Id|, |Name|, |Description|, |Abbreviation|, |ColorHex|, |Notes| — to justify collapsing into one |StoryEntity| class with an |EntityType| discriminator. Sparse fields like |Inspiration|, |Archetype|, |Icon|, |ThreadScope|, |Category| become nullable columns meaningful only for specific entity types. |Chapter| and |PlotPoint| remain separate classes — they are structurally too different to collapse.
+
+------------------------------------------------------------------------
+
+
+        Junction Tables
+
+Junction tables get surrogate PKs for note ownership. The original
+composite pair becomes a unique constraint, preserving data integrity.
+Both FK sides retain strict EF FK constraints with cascade delete,
+because both sides must exist for the relationship to be valid — this is
+genuine business logic, not a conservative default.
+
+Junction payload fields remain on their respective junction classes. The
+payload is constitutive of the specific relationship and does not
+generalize. TPH on junctions is the cleanest schema option — one |PlotPointLinks| table with a discriminator and nullable payload columns per derived type.
+
+------------------------------------------------------------------------
+
+
+        ViewModel
+
+|NoteableViewModelBase<TModel>| holds a reference to the global notes collection and filters by |OwnerId + OwnerType|. Note add, remove, and move are uniform operations on that one
+collection. Subclasses declare |OwnerType| and |ValidTracks| — that is the entirety of note-related boilerplate per entity type.
+
+------------------------------------------------------------------------
+
+
+      New Model Classes
+
+csharp
+
+|// INoteable.cs
+public interface INoteable
+{
+    int Id { get; }
+}
+
+// NoteOwnerType.cs
+public enum NoteOwnerType
+{
+    StoryEntity = 0,        // covers Character, Theme, CodexEntry, 
+                            // StoryThread in one table
+    Chapter = 1,
+    PlotPoint = 2,
+    PlotPointCharacter = 3,
+    PlotPointTheme = 4,
+    PlotPointCodexEntry = 5,
+    PlotPointStoryThread = 6
+}
+
+public enum StoryEntityType
+{
+    Character = 0,
+    Theme = 1,
+    CodexEntry = 2,
+    StoryThread = 3
+}
+
+public enum NoteTrack
+{
+    Unset = 0,
+    HowItWorks = 1,
+    ObjectiveHistory = 2,
+    Psychology = 3,
+    NarrativeLayer = 4,
+    AuthorialNotes = 5
+}|
+
+csharp
+
+|// Note.cs
+public class Note : IAuditableText
+{
+    public int Id { get; set; }
+    public DateTime LastModified { get; set; } = DateTime.UtcNow;
+
+    public int OwnerId { get; set; }
+    public NoteOwnerType OwnerType { get; set; }
+    public NoteTrack NoteTrack { get; set; } = NoteTrack.Unset;
+
+    public string Content { get; set; } = string.Empty;
+    public bool NeedsFurtherAnalysis { get; set; }
+    public bool IsIncorporated { get; set; }
+    public int SortOrder { get; set; }
+
+    public int? SourceMaterialId { get; set; }
+    public SourceMaterial? SourceMaterial { get; set; }
+}|
+
+csharp
+
+|// StoryEntity.cs
+// Replaces Character, Theme, CodexEntry, StoryThread
+public class StoryEntity : INoteable
+{
+    public int Id { get; set; }
+    public StoryEntityType EntityType { get; set; }
+
+    // Shared across all four
+    public string Name { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+
+    // Character, Theme, CodexEntry
+    public string Abbreviation { get; set; } = string.Empty;
+    public string ColorHex { get; set; } = "#000000";
+
+    // Character only
+    public string? Inspiration { get; set; }
+    public string? Archetype { get; set; }
+
+    // CodexEntry only
+    public CodexCategory? Category { get; set; }
+
+    // StoryThread only
+    public string? Icon { get; set; }
+    public ThreadScope? ThreadScope { get; set; }
+}|
+
+csharp
+
+|// Chapter.cs
+public class Chapter : INoteable
+{
+    public int Id { get; set; }
+    public string Title { get; set; } = string.Empty;
+    public string Summary { get; set; } = string.Empty;
+    public string Description { get; set; } = string.Empty;
+    public int OrderIndex { get; set; }
+}|
+
+csharp
+
+|// PlotPoint.cs
+public class PlotPoint : INoteable, IAuditableText
+{
+    public int Id { get; set; }
+    public DateTime LastModified { get; set; } = DateTime.UtcNow;
+    public string Title { get; set; } = string.Empty;
+    public string POVCharacter { get; set; } = string.Empty;
+    public string? WorldDate { get; set; }
+    public DraftStatus Status { get; set; } = DraftStatus.Idea;
+
+    // The 5 axes
+    public CoreDriver CoreDriver { get; set; }
+    public TensionPhase TensionPhase { get; set; }
+    public ConflictType ConflictType { get; set; }
+    public Presentation Presentation { get; set; }
+
+    // Relationships
+    public int? ChapterId { get; set; }
+    public Chapter? Chapter { get; set; }
+    public int OrderInChapter { get; set; }
+
+    // Removed: Synopsis, Stakes, Outcome, ReaderState, VerbatimText
+    // These become Notes with NoteTrack values
+}|
+
+csharp
+
+|// PlotPointLink.cs — TPH base for all junction types
+public abstract class PlotPointLink : INoteable
+{
+    public int Id { get; set; }             // surrogate PK, referenced by Note
+    public int PlotPointId { get; set; }
+    public PlotPoint PlotPoint { get; set; } = null!;
+    public int StoryEntityId { get; set; }
+    public StoryEntity StoryEntity { get; set; } = null!;
+}
+
+public class PlotPointCharacterLink : PlotPointLink, IAuditableText
+{
+    public DateTime LastModified { get; set; } = DateTime.UtcNow;
+    public CharacterRole Role { get; set; }
+    public CharacterDevImpact DevelopmentImpact { get; set; }
+    public int LogicalOrder { get; set; }
+    // DevelopmentNote removed — becomes a Note
+}
+
+public class PlotPointThemeLink : PlotPointLink, IAuditableText
+{
+    public DateTime LastModified { get; set; } = DateTime.UtcNow;
+    public ThemeProminence Prominence { get; set; }
+    // Commentary removed — becomes a Note
+}
+
+public class PlotPointCodexEntryLink : PlotPointLink, IAuditableText
+{
+    public DateTime LastModified { get; set; } = DateTime.UtcNow;
+    public CodexUsageType UsageType { get; set; } = CodexUsageType.Mentioned;
+    public int LogicalOrder { get; set; }
+    // Commentary removed — becomes a Note
+}
+
+public class PlotPointStoryThreadLink : PlotPointLink, IAuditableText
+{
+    public DateTime LastModified { get; set; } = DateTime.UtcNow;
+    public GoalTrajectory ThreadTrajectory { get; set; }
+    public bool IsPrimary { get; set; }
+    // ImpactDescription removed — becomes a Note
+}|
+
+csharp
+
+|// SourceMaterial.cs — unchanged except MVVM removal
+public class SourceMaterial : INoteable
+{
+    public int Id { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Abbreviation { get; set; } = string.Empty;
+    public string ColorHex { get; set; } = "#FFFFFF";
+}|
+
+------------------------------------------------------------------------
+
+
+        What Was Deliberately Removed
+
+Removed	Reason
+|ObservableObject| on all models	ViewModel layer owns change notification
+Nullable FK columns on |Note|	Replaced by |OwnerId + OwnerType|
+|Character|, |Theme|, |CodexEntry|, |StoryThread| as separate classes	Collapsed into |StoryEntity|
+|PlotPointCharacter|, |PlotPointTheme|, |PlotPointCodexEntry|, |PlotPointStoryThread|	Replaced by |PlotPointLink| TPH hierarchy
+|Synopsis|, |Stakes|, |Outcome|, |ReaderState|, |VerbatimText| on |PlotPoint|	Become |Note| rows with appropriate |NoteTrack|
+|DevelopmentNote|, |Commentary|, |ImpactDescription| on junction classes	Become |Note| rows owned by the junction's surrogate Id
+Navigation collections on models (|ObservableCollection<Note>|, etc.)	Owned by ViewModels, not models
+
+
+Sonnet 4.6
+Adaptive
+
+Claude is AI and can make mistakes. Please double-check responses.
+<https://support.anthropic.com/en/articles/8525154-claude-is-providing-
+incorrect-or-misleading-responses-what-s-going-on>
+Share
+
+
+      Project content
+
+The Lioness of Tall Tale Story Design
+ <https://claude.ai/project/019da7ce-7405-763b-ab7d-e153fe917f64>
+Created by you
+
+
+          Enhanced Project Design
+
+    Drive
+
+    <https://docs.google.com/document/
+    d/1pmM5uBiDI8FY85qyvF3CbVgqk7VMTbW3V60Be6L_OdI/edit?usp=drivesdk>
+
+
+          Existing example articulation of character-reader gap
+
+    Drive
+
+    <https://docs.google.com/document/d/1_Re1fQMDure9z5-
+    RXydww6whsqOs0Xf8RmUfhn488po/edit?tab=t.0>
+
+
+          Context of Lived Experience
+
+    Drive
+
+    <https://docs.google.com/document/
+    d/1LKON2YwmB26TbqF_GMCVwa03y_jONIai0XQ-jj1vbBI/edit?tab=t.0>
+
+View all 5 files
+

@@ -24,6 +24,7 @@ public class Note
 
     public string WorldDate { get; set; } = string.Empty; // year or year range allowed
     public int? ThemeId { get; set; }
+    public int? SourceMaterialId { get; set; }
 }
 
 public enum NoteState

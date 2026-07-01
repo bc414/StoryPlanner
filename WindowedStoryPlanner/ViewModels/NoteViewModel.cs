@@ -13,12 +13,18 @@ public partial class NoteViewModel : ObservableObject
     private readonly Note _note;
     private readonly IStoryService _storyService;
     private readonly ObservableCollection<ThemeViewModel> _themes;
+    private readonly ObservableCollection<SourceMaterialViewModel> _sourceMaterials;
 
-    public NoteViewModel(Note note, IStoryService storyService, ObservableCollection<ThemeViewModel> themes)
+    public NoteViewModel(
+        Note note,
+        IStoryService storyService,
+        ObservableCollection<ThemeViewModel> themes,
+        ObservableCollection<SourceMaterialViewModel> sourceMaterials)
     {
         _note = note;
         _storyService = storyService;
         _themes = themes;
+        _sourceMaterials = sourceMaterials;
         _noteTrackDefinition = note.NoteTrackDefinitionId.HasValue
             ? storyService.GetNoteTrackDefinition(note.NoteTrackDefinitionId.Value)
             : null;
@@ -53,6 +59,7 @@ public partial class NoteViewModel : ObservableObject
                 OnPropertyChanged(nameof(NoteTrackDefinition));
                 OnPropertyChanged(nameof(SupportsWorldDate));
                 OnPropertyChanged(nameof(SupportsTheme));
+                OnPropertyChanged(nameof(SupportsSourceMaterial));
             }
         }
     }
@@ -60,8 +67,9 @@ public partial class NoteViewModel : ObservableObject
     private NoteTrackDefinition? _noteTrackDefinition;
     public NoteTrackDefinition? NoteTrackDefinition => _noteTrackDefinition;
 
-    public bool SupportsWorldDate => _noteTrackDefinition?.SupportsWorldDate ?? false;
-    public bool SupportsTheme     => _noteTrackDefinition?.SupportsTheme     ?? false;
+    public bool SupportsWorldDate     => _noteTrackDefinition?.SupportsWorldDate     ?? false;
+    public bool SupportsTheme         => _noteTrackDefinition?.SupportsTheme         ?? false;
+    public bool SupportsSourceMaterial => _noteTrackDefinition?.SupportsSourceMaterial ?? false;
 
     public DateTime LastModified => _note.LastModified;
 
@@ -147,5 +155,34 @@ public partial class NoteViewModel : ObservableObject
     private void ClearTheme()
     {
         SelectedTheme = null;
+    }
+
+    // ── Source Material ─────────────────────────────────────────────────────
+
+    /// <summary>
+    /// Shared collection reference — same instance across all NoteViewModels.
+    /// Bound as the search picker's ItemsSource in NoteView.xaml.
+    /// </summary>
+    public ObservableCollection<SourceMaterialViewModel> AvailableSourceMaterials => _sourceMaterials;
+
+    /// <summary>
+    /// Resolves SourceMaterialId → SourceMaterialViewModel for display; sets SourceMaterialId on write.
+    /// Null means "no source material assigned".
+    /// </summary>
+    public SourceMaterialViewModel? SelectedSourceMaterial
+    {
+        get => _sourceMaterials.FirstOrDefault(s => s.Id == _note.SourceMaterialId);
+        set
+        {
+            var newId = value?.Id;
+            if (SetProperty(_note.SourceMaterialId, newId, _note, (n, v) => n.SourceMaterialId = v))
+                OnPropertyChanged();
+        }
+    }
+
+    [RelayCommand]
+    private void ClearSourceMaterial()
+    {
+        SelectedSourceMaterial = null;
     }
 }

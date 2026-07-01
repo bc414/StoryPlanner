@@ -12,4 +12,8 @@ public interface IWindowManager
     void OpenChapterWindow(ChapterViewModel chapter);
 
     void OpenFloatingPlotPointsWindow(FloatingPlotPointsViewModel vm);
+
+    void OpenThemeWindow(ThemeViewModel theme);
+
+    void OpenSourceMaterialWindow(SourceMaterialViewModel sourceMaterial);
 }

@@ -18,6 +18,7 @@ public class ProjectLoader
     private readonly DefinitionsEditorViewModel _definitions;
     private readonly SubjectLibraryViewModel    _subjectLibrary;
     private readonly ThemeLibraryViewModel      _themeLibrary;
+    private readonly SourceMaterialLibraryViewModel _sourceMaterialLibrary;
     private readonly ExportViewModel            _export;
 
     public ProjectLoader(
@@ -30,6 +31,7 @@ public class ProjectLoader
         DefinitionsEditorViewModel  definitions,
         SubjectLibraryViewModel     subjectLibrary,
         ThemeLibraryViewModel       themeLibrary,
+        SourceMaterialLibraryViewModel sourceMaterialLibrary,
         ExportViewModel             export)
     {
         _storyService   = storyService;
@@ -41,6 +43,7 @@ public class ProjectLoader
         _definitions    = definitions;
         _subjectLibrary = subjectLibrary;
         _themeLibrary   = themeLibrary;
+        _sourceMaterialLibrary = sourceMaterialLibrary;
         _export         = export;
     }
 
@@ -67,6 +70,12 @@ public class ProjectLoader
 
         _themeLibrary.Reload();
 
+        // --- Source Materials ---
+        foreach (var m in _storyService.SourceMaterials)
+            _registry.AllSourceMaterialViewModels.Add(new SourceMaterialViewModel(m, _storyService));
+
+        _sourceMaterialLibrary.Reload();
+
         // --- Narrative elements ---
         foreach (var subject in _storyService.Subjects)
             _registry.AllSubjectViewModels.Add(
@@ -86,7 +95,7 @@ public class ProjectLoader
 
         foreach (var note in _storyService.Notes)
             _registry.AllNoteViewModels.Add(
-                new NoteViewModel(note, _storyService, _registry.AllThemeViewModels));
+                new NoteViewModel(note, _storyService, _registry.AllThemeViewModels, _registry.AllSourceMaterialViewModels));
 
         _registry.AllNarrativePropertyValues = _storyService.NarrativePropertyValues;
 

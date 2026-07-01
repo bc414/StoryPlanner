@@ -22,6 +22,7 @@ namespace StoryPlanner.Core.Models
         public TrackType TrackType { get; set; }
         public bool SupportsWorldDate { get; set; }
         public bool SupportsTheme { get; set; }
+        public bool SupportsSourceMaterial { get; set; }
         public bool CanEditInAuditMode { get; set; }
         
     }
