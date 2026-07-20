@@ -47,6 +47,7 @@ public partial class App : Application
                 services.AddSingleton<ChapterLibraryViewModel>();
                 services.AddSingleton<ThemeLibraryViewModel>();
                 services.AddSingleton<SourceMaterialLibraryViewModel>();
+                services.AddSingleton<ConversationLibraryViewModel>();
                 services.AddSingleton<FloatingPlotPointsViewModel>();
 
                 services.AddSingleton<ExportService>();

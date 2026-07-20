@@ -19,6 +19,7 @@ public class ProjectLoader
     private readonly SubjectLibraryViewModel    _subjectLibrary;
     private readonly ThemeLibraryViewModel      _themeLibrary;
     private readonly SourceMaterialLibraryViewModel _sourceMaterialLibrary;
+    private readonly ConversationLibraryViewModel   _conversationLibrary;
     private readonly ExportViewModel            _export;
 
     public ProjectLoader(
@@ -32,19 +33,21 @@ public class ProjectLoader
         SubjectLibraryViewModel     subjectLibrary,
         ThemeLibraryViewModel       themeLibrary,
         SourceMaterialLibraryViewModel sourceMaterialLibrary,
+        ConversationLibraryViewModel   conversationLibrary,
         ExportViewModel             export)
     {
-        _storyService   = storyService;
-        _registry       = registry;
-        _factory        = factory;
-        _windowManager  = windowManager;
-        _appSettings    = appSettings;
-        _exportService  = exportService;
-        _definitions    = definitions;
-        _subjectLibrary = subjectLibrary;
-        _themeLibrary   = themeLibrary;
+        _storyService          = storyService;
+        _registry              = registry;
+        _factory               = factory;
+        _windowManager         = windowManager;
+        _appSettings           = appSettings;
+        _exportService         = exportService;
+        _definitions           = definitions;
+        _subjectLibrary        = subjectLibrary;
+        _themeLibrary          = themeLibrary;
         _sourceMaterialLibrary = sourceMaterialLibrary;
-        _export         = export;
+        _conversationLibrary   = conversationLibrary;
+        _export                = export;
     }
 
     public void Load()
@@ -75,6 +78,7 @@ public class ProjectLoader
             _registry.AllSourceMaterialViewModels.Add(new SourceMaterialViewModel(m, _storyService));
 
         _sourceMaterialLibrary.Reload();
+        _conversationLibrary.Reload();
 
         // --- Narrative elements ---
         foreach (var subject in _storyService.Subjects)
@@ -97,6 +101,31 @@ public class ProjectLoader
             _registry.AllNoteViewModels.Add(
                 new NoteViewModel(note, _storyService, _registry.AllThemeViewModels, _registry.AllSourceMaterialViewModels));
 
+        // Build ConversationViewModels and attach their block VMs
+        var blocksByConv = _storyService.ConversationBlocks
+            .GroupBy(b => b.ConversationId)
+            .ToDictionary(g => g.Key, g => g.OrderBy(b => b.BlockNumber).ToList());
+
+        foreach (var conv in _storyService.Conversations)
+        {
+            var convVm = new ConversationViewModel(conv, _windowManager, _factory, _registry);
+            if (blocksByConv.TryGetValue(conv.Id, out var blocks))
+                foreach (var block in blocks)
+                {
+                    var blockVm = new ConversationBlockViewModel(block, _storyService) { ParentConversation = convVm };
+                    blockVm.Initialize();
+                    convVm.Blocks.Add(blockVm);
+                }
+            convVm.BuildSubjectCoverages(
+                _storyService.ConversationSubjectCoverages,
+                _storyService.ConversationSubjectCoverageTracks,
+                _registry.AllSubjectViewModels,
+                _registry.AllNoteTrackDefinitionViewModels,
+                _storyService);
+            convVm.OnStatsRefreshed = _conversationLibrary.RefreshDashboard;
+            _registry.AllConversationViewModels.Add(convVm);
+        }
+
         _registry.AllNarrativePropertyValues = _storyService.NarrativePropertyValues;
 
         foreach (var value in _storyService.NarrativePropertyValueDefinitions)
@@ -106,6 +135,12 @@ public class ProjectLoader
         // Signal that bulk loading is complete. NarrativeElementViewModels use
         // this to defer their initial note-count calculation until all notes exist.
         _registry.RaiseStoryLoaded();
+
+        // Bulk-adding conversations doesn't notify the library's computed dashboard
+        // stats (they aren't collection-bound), so push one refresh now that all
+        // blocks and their states are in place — otherwise the dashboard, and the
+        // overall progress bar in particular, stays at zero until the first edit.
+        _conversationLibrary.RefreshDashboard();
 
         _export.Reload();
     }

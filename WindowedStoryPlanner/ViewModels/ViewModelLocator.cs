@@ -11,14 +11,15 @@ namespace WindowedStoryPlanner.ViewModels;
 /// </summary>
 public partial class ViewModelLocator : ObservableObject
 {
-    public FileManagerViewModel           FileManager        { get; }
-    public ChapterLibraryViewModel        Chapters           { get; }
-    public DefinitionsEditorViewModel     Definitions        { get; }
-    public SubjectLibraryViewModel        Subjects           { get; }
-    public ThemeLibraryViewModel          Themes             { get; }
-    public SourceMaterialLibraryViewModel SourceMaterials    { get; }
-    public FloatingPlotPointsViewModel    FloatingPlotPoints { get; }
-    public ExportViewModel                Export             { get; }
+    public FileManagerViewModel              FileManager        { get; }
+    public ChapterLibraryViewModel           Chapters           { get; }
+    public DefinitionsEditorViewModel        Definitions        { get; }
+    public SubjectLibraryViewModel           Subjects           { get; }
+    public ThemeLibraryViewModel             Themes             { get; }
+    public SourceMaterialLibraryViewModel    SourceMaterials    { get; }
+    public ConversationLibraryViewModel      ConversationLibrary { get; }
+    public FloatingPlotPointsViewModel       FloatingPlotPoints { get; }
+    public ExportViewModel                   Export             { get; }
 
     [ObservableProperty]
     private int _selectedTabIndex;
@@ -29,17 +30,19 @@ public partial class ViewModelLocator : ObservableObject
         DefinitionsEditorViewModel     definitions,
         SubjectLibraryViewModel        subjects,
         ThemeLibraryViewModel          themes,
-        SourceMaterialLibraryViewModel  sourceMaterials,
+        SourceMaterialLibraryViewModel sourceMaterials,
+        ConversationLibraryViewModel   conversationLibrary,
         FloatingPlotPointsViewModel    floatingPlotPoints,
         ExportViewModel                export)
     {
-        FileManager        = fileManager;
-        Chapters           = chapters;
-        Definitions        = definitions;
-        Subjects           = subjects;
-        Themes             = themes;
-        SourceMaterials    = sourceMaterials;
-        FloatingPlotPoints = floatingPlotPoints;
-        Export             = export;
+        FileManager         = fileManager;
+        Chapters            = chapters;
+        Definitions         = definitions;
+        Subjects            = subjects;
+        Themes              = themes;
+        SourceMaterials     = sourceMaterials;
+        ConversationLibrary = conversationLibrary;
+        FloatingPlotPoints  = floatingPlotPoints;
+        Export              = export;
     }
 }

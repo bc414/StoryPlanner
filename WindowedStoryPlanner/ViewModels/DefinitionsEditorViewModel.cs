@@ -197,6 +197,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
 
         var trackData = NoteTrackDefinitions
             .Select(t => new NoteTrackDefinitionExportData(
+                Id:                          t.Id,
                 TrackName:                   t.TrackName,
                 TrackType:                   t.TrackType.ToString(),
                 OwnerType:                   t.OwnerType.ToString(),

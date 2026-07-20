@@ -1,0 +1,141 @@
+<Window x:Class="WindowedStoryPlanner.Views.ScanPreviewWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
+        xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
+        mc:Ignorable="d"
+        Title="Scan Claude Export" Height="700" Width="1060"
+        WindowStartupLocation="CenterOwner"
+        d:DataContext="{d:DesignInstance Type=vm:ScanPreviewViewModel, IsDesignTimeCreatable=False}">
+
+    <Window.Resources>
+        <v:SyncClassificationToColorConverter x:Key="SyncClassificationToColorConverter"/>
+        <v:SyncClassificationToLabelConverter x:Key="SyncClassificationToLabelConverter"/>
+        <v:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+    </Window.Resources>
+
+    <DockPanel Margin="12">
+
+        <!-- ── Toolbar ── -->
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,8">
+            <TextBlock Text="Search: " VerticalAlignment="Center"/>
+            <TextBox Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                     MinWidth="220" VerticalAlignment="Center"/>
+            <CheckBox Content="Hide Unchanged/Ignored"
+                      IsChecked="{Binding HideUnchangedAndIgnored, Mode=TwoWay}"
+                      VerticalAlignment="Center" Margin="16,0,0,0"/>
+            <TextBlock Margin="16,0,0,0" VerticalAlignment="Center" FontSize="12" Foreground="#666">
+                <Run Text="{Binding SelectedCount, Mode=OneWay}"/> <Run Text=" checked of "/>
+                <Run Text="{Binding TotalCount, Mode=OneWay}"/> <Run Text=" conversations"/>
+            </TextBlock>
+        </StackPanel>
+
+        <!-- ── Bottom action bar ── -->
+        <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="0,8,0,0">
+            <Button Content="Export Checked for Cowork…" Padding="10,4"
+                    Command="{Binding ExportSelectedCommand}"
+                    ToolTip="Write NNN_*_content.json files for the checked rows to a folder you hand to Cowork"/>
+            <Button Content="Ignore Checked (not story)" Padding="10,4" Margin="8,0,0,0"
+                    Command="{Binding IgnoreSelectedCommand}"
+                    ToolTip="Mark every checked New row as not story-related, so it stops surfacing on future scans"/>
+            <TextBlock Text="{Binding StatusMessage}" VerticalAlignment="Center" Margin="16,0,0,0"
+                       Foreground="#2A6FB0" FontSize="12"/>
+        </StackPanel>
+
+        <!-- ── Row grid ── -->
+        <DataGrid ItemsSource="{Binding FilteredRows}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserReorderColumns="False"
+                  CanUserResizeRows="False"
+                  SelectionMode="Extended"
+                  HeadersVisibility="Column"
+                  GridLinesVisibility="Horizontal"
+                  RowHeaderWidth="0"
+                  BorderBrush="#CCCCCC"
+                  BorderThickness="1">
+            <DataGrid.Columns>
+
+                <!-- Export checkbox -->
+                <DataGridTemplateColumn Header="Export" Width="55">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding IsSelected, Mode=TwoWay}"
+                                      HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Classification badge -->
+                <DataGridTemplateColumn Header="Status" Width="130">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Border Background="{Binding Classification, Converter={StaticResource SyncClassificationToColorConverter}}"
+                                    CornerRadius="3" Padding="6,2" Margin="2" HorizontalAlignment="Left">
+                                <TextBlock Text="{Binding Classification, Converter={StaticResource SyncClassificationToLabelConverter}}"
+                                           Foreground="White" FontSize="11" FontWeight="SemiBold"/>
+                            </Border>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Date -->
+                <DataGridTextColumn Header="Date" Binding="{Binding Date}" IsReadOnly="True" Width="90"/>
+
+                <!-- Title -->
+                <DataGridTemplateColumn Header="Title" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Margin="4,2">
+                                <TextBlock Text="{Binding Title}" TextWrapping="Wrap"/>
+                                <TextBlock Text="{Binding ProposedMatchTitle, StringFormat='proposed match: {0}'}"
+                                           FontSize="11" FontStyle="Italic" Foreground="#888"
+                                           Visibility="{Binding IsNeedsConfirmation, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Blocks -->
+                <DataGridTextColumn Header="Blocks" Binding="{Binding BlockCountLabel}" IsReadOnly="True" Width="130"/>
+
+                <!-- Row actions -->
+                <DataGridTemplateColumn Header="Actions" Width="260">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="2">
+                                <Button Content="Confirm" Padding="6,2" Margin="0,0,4,0"
+                                        Command="{Binding DataContext.ConfirmMatchCommand, RelativeSource={RelativeSource AncestorType=v:ScanPreviewWindow}}"
+                                        CommandParameter="{Binding}"
+                                        Visibility="{Binding IsNeedsConfirmation, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                                <Button Content="Reject" Padding="6,2" Margin="0,0,4,0"
+                                        Command="{Binding DataContext.RejectMatchCommand, RelativeSource={RelativeSource AncestorType=v:ScanPreviewWindow}}"
+                                        CommandParameter="{Binding}"
+                                        Visibility="{Binding IsNeedsConfirmation, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                                <Button Content="Ignore" Padding="6,2" Margin="0,0,4,0"
+                                        Command="{Binding DataContext.IgnoreRowCommand, RelativeSource={RelativeSource AncestorType=v:ScanPreviewWindow}}"
+                                        CommandParameter="{Binding}"
+                                        Visibility="{Binding CanIgnore, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                                <Button Content="Un-ignore" Padding="6,2"
+                                        Command="{Binding DataContext.UnignoreRowCommand, RelativeSource={RelativeSource AncestorType=v:ScanPreviewWindow}}"
+                                        CommandParameter="{Binding}"
+                                        ToolTip="Remove from the ignore list and re-check it against the DB"
+                                        Visibility="{Binding CanUnignore, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                                <Button Content="Map…" Padding="6,2"
+                                        Command="{Binding DataContext.MapToExistingCommand, RelativeSource={RelativeSource AncestorType=v:ScanPreviewWindow}}"
+                                        CommandParameter="{Binding}"
+                                        ToolTip="Manually point this row at a specific existing conversation instead of relying on the automatic guess"
+                                        Visibility="{Binding CanMapToExisting, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </DockPanel>
+</Window>

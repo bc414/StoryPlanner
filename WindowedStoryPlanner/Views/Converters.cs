@@ -3,6 +3,7 @@ using System.Windows.Media;
 using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
+using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 using WindowedStoryPlanner.ViewModels;
 
@@ -190,10 +191,152 @@ namespace WindowedStoryPlanner.Views // Adjust namespace if needed
     }
 
     /// <summary>
+    /// Shows an element only when the bound Platform string ("Claude"/"Gemini") matches
+    /// ConverterParameter — used to switch between brand-styled badges per platform.
+    /// </summary>
+    public class PlatformToVisibilityConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            string.Equals(value as string, parameter as string, StringComparison.OrdinalIgnoreCase)
+                ? Visibility.Visible
+                : Visibility.Collapsed;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    /// <summary>
     /// Resolves a note's "from: ..." breadcrumb inside ThemeWindow/SourceMaterialWindow.
     /// values[0] is the NoteViewModel (the ItemTemplate's own DataContext),
     /// values[1] is the hosting window's TaggedNotesViewModelBase DataContext.
     /// </summary>
+    public class ConversationDerivedStateToColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            value is ConversationDerivedState state
+                ? state switch
+                {
+                    ConversationDerivedState.Unstarted  => new SolidColorBrush(Color.FromRgb(160, 160, 160)),
+                    ConversationDerivedState.InProgress => new SolidColorBrush(Color.FromRgb(230, 150,  30)),
+                    ConversationDerivedState.Complete   => new SolidColorBrush(Color.FromRgb( 40, 160,  80)),
+                    _                                   => Brushes.Gray
+                }
+                : Brushes.Gray;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    public class ConversationDerivedStateToLabelConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            value is ConversationDerivedState state
+                ? state switch
+                {
+                    ConversationDerivedState.Unstarted  => "Unstarted",
+                    ConversationDerivedState.InProgress => "In Progress",
+                    ConversationDerivedState.Complete   => "Complete",
+                    _                                   => string.Empty
+                }
+                : string.Empty;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    public class BlockStateToColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            value is BlockState state
+                ? state switch
+                {
+                    BlockState.Unread  => new SolidColorBrush(Color.FromRgb(160, 160, 160)), // gray
+                    BlockState.Skipped => new SolidColorBrush(Color.FromRgb( 70, 130, 210)), // blue
+                    BlockState.Flagged => new SolidColorBrush(Color.FromRgb(220, 110,  20)), // orange
+                    BlockState.Done    => new SolidColorBrush(Color.FromRgb( 40, 160,  80)), // green
+                    _                  => Brushes.Gray
+                }
+                : Brushes.Gray;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    public class BoolToVisibilityConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            bool flag = value is bool b && b;
+            bool invert = string.Equals(parameter as string, "Invert", StringComparison.OrdinalIgnoreCase);
+            return (flag ^ invert) ? Visibility.Visible : Visibility.Collapsed;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    /// <summary>
+    /// Pale/pastel version of BlockStateToColorConverter, for filling an entire row's
+    /// background rather than a thin accent bar. Selection/hover are layered on top
+    /// of this in the reader window's ListBoxItem template, not mixed into these values.
+    /// </summary>
+    public class BlockStateToRowBackgroundConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            value is BlockState state
+                ? state switch
+                {
+                    BlockState.Unread  => new SolidColorBrush(Color.FromRgb(242, 242, 242)), // pale gray
+                    BlockState.Skipped => new SolidColorBrush(Color.FromRgb(227, 237, 251)), // pale blue
+                    BlockState.Flagged => new SolidColorBrush(Color.FromRgb(253, 234, 217)), // pale orange
+                    BlockState.Done    => new SolidColorBrush(Color.FromRgb(227, 245, 232)), // pale green
+                    _                  => Brushes.White
+                }
+                : Brushes.White;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    /// <summary>Badge color for a Scan Preview row's advisory classification.</summary>
+    public class SyncClassificationToColorConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            value is ConversationSyncClassification c
+                ? c switch
+                {
+                    ConversationSyncClassification.New               => new SolidColorBrush(Color.FromRgb( 70, 130, 210)), // blue
+                    ConversationSyncClassification.Reopened          => new SolidColorBrush(Color.FromRgb( 40, 160,  80)), // green
+                    ConversationSyncClassification.Unchanged         => new SolidColorBrush(Color.FromRgb(160, 160, 160)), // gray
+                    ConversationSyncClassification.NeedsConfirmation => new SolidColorBrush(Color.FromRgb(220, 110,  20)), // orange
+                    ConversationSyncClassification.Ignored           => new SolidColorBrush(Color.FromRgb(190, 190, 190)), // pale gray
+                    _                                                => Brushes.Gray
+                }
+                : Brushes.Gray;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    public class SyncClassificationToLabelConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            value is ConversationSyncClassification c
+                ? c switch
+                {
+                    ConversationSyncClassification.New               => "New",
+                    ConversationSyncClassification.Reopened          => "Reopened",
+                    ConversationSyncClassification.Unchanged         => "Unchanged",
+                    ConversationSyncClassification.NeedsConfirmation => "Needs confirmation",
+                    ConversationSyncClassification.Ignored           => "Ignored",
+                    _                                                => string.Empty
+                }
+                : string.Empty;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
     public class NoteBreadcrumbConverter : IMultiValueConverter
     {
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)

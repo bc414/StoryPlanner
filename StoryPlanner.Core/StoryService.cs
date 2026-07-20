@@ -38,6 +38,11 @@ public class StoryService : IStoryService
     public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
     public ObservableCollection<Idea> Ideas { get; private set; } = new();
 
+    public ObservableCollection<Conversation> Conversations { get; private set; } = new();
+    public ObservableCollection<ConversationBlock> ConversationBlocks { get; private set; } = new();
+    public ObservableCollection<ConversationSubjectCoverage> ConversationSubjectCoverages { get; private set; } = new();
+    public ObservableCollection<ConversationSubjectCoverageTrack> ConversationSubjectCoverageTracks { get; private set; } = new();
+
     public string CurrentFilePath { get; private set; } = string.Empty;
     public bool IsProjectLoaded { get; private set; } = false;
 
@@ -215,6 +220,11 @@ public class StoryService : IStoryService
         await _context.GeminiEntries.LoadAsync();
         await _context.Ideas.LoadAsync();
 
+        await _context.Conversations.OrderBy(c => c.ConversationDate).LoadAsync();
+        await _context.ConversationBlocks.OrderBy(b => b.ConversationId).ThenBy(b => b.BlockNumber).LoadAsync();
+        await _context.ConversationSubjectCoverages.LoadAsync();
+        await _context.ConversationSubjectCoverageTracks.LoadAsync();
+
         // STEP 4: BIND TO UI
         Notes                  = _context.Notes.Local.ToObservableCollection();
         Subjects               = _context.Subjects.Local.ToObservableCollection();
@@ -232,6 +242,11 @@ public class StoryService : IStoryService
         SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
         GeminiEntries   = _context.GeminiEntries.Local.ToObservableCollection();
         Ideas           = _context.Ideas.Local.ToObservableCollection();
+
+        Conversations                 = _context.Conversations.Local.ToObservableCollection();
+        ConversationBlocks            = _context.ConversationBlocks.Local.ToObservableCollection();
+        ConversationSubjectCoverages  = _context.ConversationSubjectCoverages.Local.ToObservableCollection();
+        ConversationSubjectCoverageTracks = _context.ConversationSubjectCoverageTracks.Local.ToObservableCollection();
 
         IsProjectLoaded = true;
     }
@@ -283,6 +298,90 @@ public class StoryService : IStoryService
         TODO: rework using new NoteState
     }
     */
+    public async Task ImportConversationsAsync(string contentPath, string metaPath)
+    {
+        if (_context == null) return;
+        var importer = new ConversationImporter(_context, Subjects);
+        await importer.ImportAsync(contentPath, metaPath);
+        await SaveAsync();
+
+        // Reload conversation collections so in-memory state reflects new rows
+        await _context.Conversations.LoadAsync();
+        await _context.ConversationBlocks.LoadAsync();
+        await _context.ConversationSubjectCoverages.LoadAsync();
+        await _context.ConversationSubjectCoverageTracks.LoadAsync();
+    }
+
+    public async Task ImportConversationsFolderAsync(string folderPath)
+    {
+        if (_context == null) return;
+        var importer = new ConversationImporter(_context, Subjects);
+        await importer.ImportFolderAsync(folderPath);
+        await SaveAsync();
+
+        await _context.Conversations.LoadAsync();
+        await _context.ConversationBlocks.LoadAsync();
+        await _context.ConversationSubjectCoverages.LoadAsync();
+        await _context.ConversationSubjectCoverageTracks.LoadAsync();
+    }
+
+    // --- Conversation scan/export (Claude export vs. DB ground-truth) ---
+
+    public async Task<List<ConversationSyncItem>> ScanClaudeExportAsync(string claudeExportPath)
+    {
+        if (_context == null) return new List<ConversationSyncItem>();
+
+        // The export can be well over 100MB, so parse off the UI thread.
+        var parsed  = await Task.Run(() => ClaudeExportParser.Parse(claudeExportPath));
+        var ignored = await _context.IgnoredConversations.ToListAsync();
+
+        return ConversationSyncScanner.Scan(parsed, Conversations, ignored);
+    }
+
+    public async Task<List<ConversationContentExporter.ExportedFile>> ExportConversationContentAsync(
+        IReadOnlyList<ConversationSyncItem> selectedItems, string outputFolder)
+    {
+        if (_context == null) return new List<ConversationContentExporter.ExportedFile>();
+        return await Task.Run(() => ConversationContentExporter.Export(selectedItems, outputFolder, Conversations));
+    }
+
+    public async Task BackfillConversationUuidAsync(int conversationId, string uuid)
+    {
+        if (_context == null) return;
+        var conversation = Conversations.FirstOrDefault(c => c.Id == conversationId);
+        if (conversation is null) return;
+
+        conversation.SourceUuid = uuid;
+        await SaveAsync();
+    }
+
+    public async Task IgnoreConversationAsync(string uuid, string title)
+    {
+        if (_context == null) return;
+        if (await _context.IgnoredConversations.AnyAsync(i => i.SourceUuid == uuid)) return;
+
+        _context.IgnoredConversations.Add(new IgnoredConversation { SourceUuid = uuid, Title = title });
+        await SaveAsync();
+    }
+
+    public async Task UnignoreConversationAsync(string uuid)
+    {
+        if (_context == null) return;
+        var entry = await _context.IgnoredConversations.FirstOrDefaultAsync(i => i.SourceUuid == uuid);
+        if (entry is null) return;
+
+        _context.IgnoredConversations.Remove(entry);
+        await SaveAsync();
+    }
+
+    public async Task<ConversationSyncItem> RescanOneAsync(ParsedClaudeConversation export)
+    {
+        if (_context == null) return new ConversationSyncItem { Export = export, Classification = ConversationSyncClassification.New };
+
+        var ignored = await _context.IgnoredConversations.ToListAsync();
+        return ConversationSyncScanner.Scan([export], Conversations, ignored).Single();
+    }
+
     public async Task PurgeUnassignedNotesAsync()
     {
         if (_context == null) return;
@@ -304,5 +403,26 @@ public class StoryService : IStoryService
         var note = Notes.FirstOrDefault(n => n.Id == noteId);
         if (note is not null)
             Notes.Remove(note);
+    }
+
+    public async Task DeleteConversationAsync(Conversation conversation)
+    {
+        var blocks = ConversationBlocks.Where(b => b.ConversationId == conversation.Id).ToList();
+        foreach (var block in blocks)
+            ConversationBlocks.Remove(block);
+
+        var coverages = ConversationSubjectCoverages.Where(c => c.ConversationId == conversation.Id).ToList();
+        foreach (var coverage in coverages)
+        {
+            var tracks = ConversationSubjectCoverageTracks
+                .Where(t => t.ConversationSubjectCoverageId == coverage.Id).ToList();
+            foreach (var track in tracks)
+                ConversationSubjectCoverageTracks.Remove(track);
+
+            ConversationSubjectCoverages.Remove(coverage);
+        }
+
+        Conversations.Remove(conversation);
+        await SaveAsync();
     }
 }

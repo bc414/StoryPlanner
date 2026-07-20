@@ -124,7 +124,7 @@ public static class DefinitionsMarkdownExporter
 
                 foreach (var t in subGroup.OrderBy(t => t.ExpansionModeDisplayOrder))
                 {
-                    sb.AppendLine($"#### {t.TrackName}");
+                    sb.AppendLine($"#### {t.TrackName} (id: {t.Id})");
                     sb.AppendLine();
 
                     sb.AppendLine($"Track Type: {t.TrackType}");
@@ -172,6 +172,7 @@ public static class DefinitionsMarkdownExporter
 /// stays free of ViewModel dependencies.
 /// </summary>
 public record NoteTrackDefinitionExportData(
+    int Id,
     string TrackName,
     string TrackType,
     string OwnerType,

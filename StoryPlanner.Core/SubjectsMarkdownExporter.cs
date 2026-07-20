@@ -21,7 +21,7 @@ public static class SubjectsMarkdownExporter
 
             foreach (var s in group.OrderBy(s => s.Name, StringComparer.OrdinalIgnoreCase))
             {
-                sb.AppendLine($"### {s.Name}");
+                sb.AppendLine($"### {s.Name} (id: {s.Id})");
                 sb.AppendLine();
 
                 /*sb.AppendLine("| Field | Value |");
@@ -46,6 +46,7 @@ public static class SubjectsMarkdownExporter
 }
 
 public record SubjectExportData(
+    int    Id,
     string Name,
     string SubjectType,
     string Description,

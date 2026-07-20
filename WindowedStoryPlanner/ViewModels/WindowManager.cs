@@ -109,4 +109,23 @@ public class WindowManager : IWindowManager
         window.Closed += (_, _) => _singletonWindows.Remove(sourceMaterial);
         window.Show();
     }
+
+    /// <summary>
+    /// Opens a ConversationReaderWindow for the given conversation — singleton per conversation.
+    /// </summary>
+    public void OpenConversationReaderWindow(ConversationViewModel conversation)
+    {
+        if (_singletonWindows.TryGetValue(conversation, out var existing) && existing.IsLoaded)
+        {
+            if (existing.WindowState == WindowState.Minimized)
+                existing.WindowState = WindowState.Normal;
+            existing.Activate();
+            return;
+        }
+
+        var window = new ConversationReaderWindow { DataContext = conversation };
+        _singletonWindows[conversation] = window;
+        window.Closed += (_, _) => _singletonWindows.Remove(conversation);
+        window.Show();
+    }
 }

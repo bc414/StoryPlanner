@@ -25,7 +25,13 @@ public class AppDbContext : DbContext
     
     public DbSet<GeminiEntry> GeminiEntries { get; set; }
     public DbSet<Idea> Ideas { get; set; }
-    
+
+    public DbSet<Conversation> Conversations { get; set; }
+    public DbSet<ConversationBlock> ConversationBlocks { get; set; }
+    public DbSet<ConversationSubjectCoverage> ConversationSubjectCoverages { get; set; }
+    public DbSet<ConversationSubjectCoverageTrack> ConversationSubjectCoverageTracks { get; set; }
+    public DbSet<IgnoredConversation> IgnoredConversations { get; set; }
+
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

@@ -104,6 +104,7 @@ public partial class SubjectLibraryViewModel : ObservableObject
 
         var data = _registry.AllSubjectViewModels
             .Select(s => new SubjectExportData(
+                Id:           s.Id,
                 Name:         s.Name,
                 SubjectType:  s.SelectedSubjectDefinition?.SubjectType ?? "Unknown",
                 Description:  s.Description  ?? string.Empty,

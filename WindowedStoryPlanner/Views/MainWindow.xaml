@@ -73,6 +73,10 @@
             <v:SourceMaterialLibrary DataContext="{Binding SourceMaterials}"/>
         </TabItem>
 
+        <TabItem Header="Conversations">
+            <v:ConversationLibrary DataContext="{Binding ConversationLibrary}"/>
+        </TabItem>
+
         <TabItem Header="Export">
             <v:ExportView DataContext="{Binding Export}"/>
         </TabItem>
