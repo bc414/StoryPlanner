@@ -84,13 +84,20 @@ public partial class ChapterViewModel : NarrativeElementViewModel
         }
     }
 
+    /// <summary>"{FullNumber} — {Title}" — for pickers (e.g. the Move… dialog's "relative to"
+    /// combo) where the bare number alone doesn't tell you which chapter it is.</summary>
+    public string FullNumberAndTitle => $"{FullNumber} — {Title}";
+
     public string Title
     {
         get => _chapter.Title;
         set
         {
             if (SetProperty(_chapter.Title, value, _chapter, (u, n) => u.Title = n))
+            {
                 OnPropertyChanged(nameof(FullTitle));
+                OnPropertyChanged(nameof(FullNumberAndTitle));
+            }
         }
     }
 
@@ -103,6 +110,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
             if (SetProperty(_chapter.StoryId, value, _chapter, (c, n) => c.StoryId = n))
             {
                 OnPropertyChanged(nameof(FullNumber));
+                OnPropertyChanged(nameof(FullNumberAndTitle));
                 _viewModelRegistry.RaiseLinksInvalidated();
             }
         }
@@ -117,6 +125,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
             {
                 OnPropertyChanged(nameof(FullTitle));
                 OnPropertyChanged(nameof(FullNumber));
+                OnPropertyChanged(nameof(FullNumberAndTitle));
                 _viewModelRegistry.RaiseLinksInvalidated();
             }
         }
