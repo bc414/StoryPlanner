@@ -44,9 +44,16 @@ namespace WindowedStoryPlanner.ViewModels
             set => SetProperty(_plotPoint.Title, value, _plotPoint, (p, n) => p.Title = n);
         }
 
-        public string FullOrder => ChapterId == null
-    ? "? "
-    : $"{_viewModelRegistry.AllChapterViewModels.FirstOrDefault(c => c.Id == ChapterId)?.OrderIndex.ToString() ?? "?"}.{OrderInChapter} ";
+        // "{story reading order}.{chapter order}.{position in chapter}" — e.g. "3.12.4".
+        public string FullOrder
+        {
+            get
+            {
+                if (ChapterId is null) return "? ";
+                var chapter = _viewModelRegistry.AllChapterViewModels.FirstOrDefault(c => c.Id == ChapterId);
+                return chapter is null ? "?.? " : $"{chapter.FullNumber}.{OrderInChapter} ";
+            }
+        }
 
         [RelayCommand]
         private void Open() => _windowManager.OpenCommonWindow(EditorMode.Gardener, this);

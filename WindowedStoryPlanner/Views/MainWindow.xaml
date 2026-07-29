@@ -29,6 +29,10 @@
             <v:FileManagerTab DataContext="{Binding FileManager}"/>
         </TabItem>
 
+        <TabItem Header="Stories">
+            <v:StoryLibrary DataContext="{Binding Stories}"/>
+        </TabItem>
+
         <TabItem Header="Chapters">
             <v:ChapterLibrary DataContext="{Binding Chapters}"/>
         </TabItem>

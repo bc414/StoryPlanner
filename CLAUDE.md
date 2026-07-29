@@ -65,8 +65,10 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   drafts into.
 - **v1 and v2 never join.** Different organizing principles on purpose; no id correspondence,
   ~40% name overlap, and no join is wanted.
-- **The scene graph is in v1** (1,125 links) until plot-point/link migration; v2 holds the
-  taxonomy. **The 106 track definitions are final; the data is in flux.**
+- **The scene graph is in v1** (1,125 links); v2 holds the taxonomy. Migrating it is Brian's
+  future authorial work — matching v1 links to v2 subjects/plot points is categorization, not a
+  mechanical operation, and no tool should propose the mapping. **The 106 track definitions are
+  final; the data is in flux.**
 - **`WorldDate` is free text** — `993`, `-100-0`, `870-928`. Sorts wrong lexicographically.
 - **0 `Confirmed` notes in v2 is not a defect** — Audit is the only mode that can promote to
   Confirmed, and no audit pass has run. Surprising ≠ broken.
@@ -81,10 +83,31 @@ and `StoryPlanner.Core`'s export/scan/transform logic. Run before finishing any 
 `tools/` or `StoryPlanner.Core/`. Conventions and the known WPF-layer gap:
 `.claude/skills/testing/SKILL.md`.
 
-- **App running → build the project, not the solution.** The running app locks
-  `WindowedStoryPlanner/bin/Debug/net10.0-windows/`; other projects' outputs are free.
-- **Live Claude session → cannot rebuild the MCP server** (it locks its own DLLs).
-  Disconnect via `/mcp` first.
+- **Brian's own instance of the app runs from a published copy, not `bin/Debug`.** Same reasoning
+  as the MCP server below: `WindowedStoryPlanner/publish/WindowedStoryPlanner.exe` (a
+  `dotnet publish -c Debug -o publish` output, gitignored — Debug on purpose, so a debugger can
+  still attach and hit breakpoints) is what Brian actually launches day to day, deliberately
+  separate from `bin/Debug/net10.0-windows/`, which is what `dotnet build`/`dotnet run` write to.
+  This means Claude Code can freely build, run, or screenshot-verify WindowedStoryPlanner (see the
+  `run` skill) without waiting on or colliding with Brian's own running instance, and vice versa.
+  **After changing code under `WindowedStoryPlanner` or `StoryPlanner.Core`**, republish to ship
+  it to Brian's instance: `dotnet publish WindowedStoryPlanner -c Debug -o WindowedStoryPlanner/publish`
+  — Brian then closes and relaunches the app manually to pick it up (there's no live-reconnect
+  equivalent for a WPF window; the point of the split is to remove *build* contention, not to make
+  the relaunch itself unnecessary).
+- **The MCP server runs from a published copy, not `bin/Debug`.** `.mcp.json` points every
+  session's `storyplanner` connection at `tools/StoryPlanner.Mcp/publish/StoryPlanner.Mcp.dll`
+  (a `dotnet publish -c Release -o publish` output, gitignored) — deliberately separate from
+  `bin/Debug/net10.0/`, which is what `dotnet build`/`dotnet test` write to. This is why any
+  number of parallel sessions can stay connected while others build or run
+  `dotnet test tests/StoryPlanner.Tests` freely: nothing in the ordinary build path touches the
+  folder live servers have locked.
+  **After changing code under `tools/StoryPlanner.Mcp` or `StoryPlanner.Core`**, republish to
+  ship it: `dotnet publish tools/StoryPlanner.Mcp -c Release -o tools/StoryPlanner.Mcp/publish`,
+  then reconnect via `/mcp` in each session that should pick it up. Until reconnected, a session
+  keeps running the server code from its last connect. If the publish step itself fails on a
+  locked file, some session still holds the *publish* folder open mid-reconnect — wait for it to
+  finish or ask that session to retry `/mcp`.
 - `.storyplan` is raw SQLite in **WAL mode**. Reads never block the running app. The main file's
   **mtime does not advance on write** — change detection uses `PRAGMA data_version`.
 - **`StoryService` is not read-only:** `OpenProjectAsync` runs `MigrateAsync()` (upgrades the

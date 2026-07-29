@@ -33,4 +33,11 @@ public interface IContentDeleter
     /// Returns false and takes no action if the precondition is not met.
     /// </summary>
     Task<bool> TryDeleteChapterAsync(ChapterViewModel chapter);
+
+    /// <summary>
+    /// Deletes a Story. Story is container-only (owns no notes), so this always succeeds —
+    /// its chapters are orphaned to the "(Unassigned)" sentinel (StoryId = 0), never cascaded
+    /// or refused. The bool return matches the other TryDelete*Async guards' shape.
+    /// </summary>
+    Task<bool> TryDeleteStoryAsync(StoryViewModel story);
 }

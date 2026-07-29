@@ -1,0 +1,7 @@
+{
+  "stories": [
+    { "orderIndex": 1, "title": "The Lioness of Tall Tale", "abbreviation": "", "colorHex": "#7A5C3E", "from": 1, "to": 32 },
+    { "orderIndex": 2, "title": "Prequel — Battle of Mount Aris", "abbreviation": "", "colorHex": "#4E6E58", "from": 34, "to": 34 },
+    { "orderIndex": 3, "title": "TLTT Paratext (Blog Posts)", "abbreviation": "", "colorHex": "#6B6B6B", "from": 33, "to": 33 }
+  ]
+}

@@ -105,6 +105,7 @@ Don't assume the schema below is still current — confirm live, then proceed:
 Then a population sweep to see what's actually used vs. empty/orphaned:
 ```sql
 SELECT 'Chapters', COUNT(*) FROM Chapters
+UNION ALL SELECT 'Stories', COUNT(*) FROM Stories
 UNION ALL SELECT 'PlotPoints', COUNT(*) FROM PlotPoints
 UNION ALL SELECT 'Subjects', COUNT(*) FROM Subjects
 UNION ALL SELECT 'Notes', COUNT(*) FROM Notes
@@ -125,11 +126,18 @@ UNION ALL SELECT 'ConversationSubjectCoverageTracks', COUNT(*) FROM Conversation
 UNION ALL SELECT 'IgnoredConversations', COUNT(*) FROM IgnoredConversations;
 ```
 
-**Known orphan models — expect these to NOT appear as tables at all** (confirmed absent from
-`.tables` on the live v2 file): `Story` (`Models/Story.cs`) and `SubjectCluster`
-(`Models/SubjectCluster.cs`) have no `DbSet<>` in `AppDbContext.cs`, so EF never created a table
-for them. If a question hinges on multi-story scoping or subject clusters, the honest answer is
-"not implemented in the data model yet" — see `FEATURE-AUDIT.md` items A1 and E2.
+**`Stories` is no longer an orphan model — A1 shipped.** `Models/Story.cs` now has a `DbSet<>`
+and a real `Stories` table (`Id`, `Title`, `Abbreviation`, `ColorHex`, `OrderIndex`), and
+`Chapters.StoryId` groups chapters under them. `StoryId = 0` is a permanent, legal sentinel
+meaning "(Unassigned)" (see `UnassignedStory` in `Story.cs`) — not a missing reference, and not
+evidence a backfill is incomplete. **v1 and v2 have independent Stories tables, never joined or
+id-shared** — a story of the same name in both files (e.g. "The Lioness of Tall Tale") is a
+coincidence for the reader, not a correspondence, consistent with "v1 and v2 never join" above.
+
+**Still a known orphan model** (confirmed absent from `.tables`): `SubjectCluster`
+(`Models/SubjectCluster.cs`) has no `DbSet<>` in `AppDbContext.cs`, so EF never created a table
+for it. If a question hinges on subject clusters, the honest answer is "not implemented in the
+data model yet" — see `FEATURE-AUDIT.md` item E2.
 
 ## Schema reference — tables, key columns, and what integers mean
 
@@ -170,7 +178,13 @@ actual distinct values in whichever file you're querying.
 **`PlotPoints`** (`Models/PlotPoint.cs`) — scenes. `ChapterId` → `Chapters.Id` (nullable — null
 means not yet placed in a chapter), `OrderInChapter`.
 
-**`Chapters`** (`Models/Chapter.cs`) — `Title`, `OrderIndex`.
+**`Chapters`** (`Models/Chapter.cs`) — `Title`, `OrderIndex` (now **per-story**, contiguous 1..n —
+not the flat book-wide sequence it was before A1), `StoryId` → `Stories.Id`. `StoryId = 0` is the
+permanent "(Unassigned)" sentinel, never a missing/dangling reference.
+
+**`Stories`** (`Models/Story.cs`) — `Title`, `Abbreviation`, `ColorHex`, `OrderIndex` (publication/
+reading order). Container only — no `OwnerType`, no notes of its own. Independent per file: v1's
+and v2's `Stories` tables are never joined or id-shared, even when a title matches.
 
 **`PlotPointSubjectLinks`** (`Models/PlotPointSubjectLink.cs`) — join table between a `PlotPoint`
 and a `Subject` that is *itself* noteable (has its own `Notes` via `OwnerType=3`). This is how a

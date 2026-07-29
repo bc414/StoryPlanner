@@ -46,7 +46,7 @@ public sealed class ArchiveTools(StoryPlanSources sources)
         => Engine.GetPlotPoints(C, ids, includeNotes);
 
     [McpServerTool(Name = "get_chapters_archive")]
-    [Description("Fetch ARCHIVE (v1) chapters by id: chapter notes and the ordered plot point list. Pass an EMPTY ids array for the inventory of all 34 v1 chapters.")]
+    [Description("Fetch ARCHIVE (v1) chapters by id: chapter notes and the ordered plot point list. Pass an EMPTY ids array for the inventory of all 34 v1 chapters, grouped under story headings (see list_stories/get_stories — the archive's 3 stories are unrelated rows from v2's, never cross-referenced by name).")]
     public string GetChaptersArchive(
         [Description("Archive chapter ids. Empty array → one-line inventory of every chapter.")] int[] ids,
         [Description("Include full chapter-note content (default true).")] bool includeNotes = true)
@@ -73,7 +73,7 @@ public sealed class ArchiveTools(StoryPlanSources sources)
         => Engine.GetNotesInDateRange(C, fromYear, toYear);
 
     [McpServerTool(Name = "count_notes_archive")]
-    [Description("Group and count ARCHIVE (v1) notes by up to 3 dimensions: state, track, trackType, ownerType, subject, subjectType, chapter, theme, hasWorldDate. Note: in v1 every note is untracked (the track system postdates v1) and 'subjectType' returns v1's triage labels (e.g. \"First Pass, subject notes only\"), not real categories.")]
+    [Description("Group and count ARCHIVE (v1) notes by up to 3 dimensions: state, track, trackType, ownerType, subject, subjectType, chapter, story, theme, hasWorldDate. Note: in v1 every note is untracked (the track system postdates v1) and 'subjectType' returns v1's triage labels (e.g. \"First Pass, subject notes only\"), not real categories.")]
     public string CountNotesArchive(
         [Description("Dimensions to group by, e.g. [\"subject\",\"state\"]. Default [\"state\"].")] string[]? groupBy = null)
         => Engine.CountNotes(C, groupBy ?? []);

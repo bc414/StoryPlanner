@@ -12,6 +12,7 @@ namespace WindowedStoryPlanner.ViewModels;
 public partial class ViewModelLocator : ObservableObject
 {
     public FileManagerViewModel              FileManager        { get; }
+    public StoryLibraryViewModel             Stories            { get; }
     public ChapterLibraryViewModel           Chapters           { get; }
     public DefinitionsEditorViewModel        Definitions        { get; }
     public SubjectLibraryViewModel           Subjects           { get; }
@@ -26,6 +27,7 @@ public partial class ViewModelLocator : ObservableObject
 
     public ViewModelLocator(
         FileManagerViewModel           fileManager,
+        StoryLibraryViewModel          stories,
         ChapterLibraryViewModel        chapters,
         DefinitionsEditorViewModel     definitions,
         SubjectLibraryViewModel        subjects,
@@ -36,6 +38,7 @@ public partial class ViewModelLocator : ObservableObject
         ExportViewModel                export)
     {
         FileManager         = fileManager;
+        Stories             = stories;
         Chapters            = chapters;
         Definitions         = definitions;
         Subjects            = subjects;

@@ -90,7 +90,7 @@ public static class ExportResolver
 
     private static bool IsInChapterRange(int plotPointId, ExportConfiguration config, IStoryService storyService)
     {
-        if (config.ChapterFrom == null && config.ChapterTo == null)
+        if (config.ChapterFrom == null && config.ChapterTo == null && config.StoryId == null)
             return true;
 
         var pp = storyService.PlotPoints.FirstOrDefault(p => p.Id == plotPointId);
@@ -99,6 +99,9 @@ public static class ExportResolver
         var chapter = storyService.Chapters.FirstOrDefault(c => c.Id == pp.ChapterId.Value);
         if (chapter == null) return false;
 
+        // ChapterFrom/ChapterTo are per-story OrderIndex values — without a StoryId they are
+        // ambiguous across every story, so a range is only meaningful once scoped to one.
+        if (config.StoryId.HasValue && chapter.StoryId != config.StoryId.Value) return false;
         if (config.ChapterFrom.HasValue && chapter.OrderIndex < config.ChapterFrom.Value) return false;
         if (config.ChapterTo.HasValue && chapter.OrderIndex > config.ChapterTo.Value) return false;
 

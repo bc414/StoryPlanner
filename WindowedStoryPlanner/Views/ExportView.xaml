@@ -119,8 +119,12 @@
                 <!-- Chapter range -->
                 <TextBlock Text="Chapter Range (optional)" FontWeight="Bold"
                            FontSize="14" Margin="0,0,0,6"/>
-                <TextBlock Text="Filters link expansion to chapters within this range."
+                <TextBlock Text="Filters link expansion to chapters within this range. From/To are per-story chapter numbers, so pick a story to make the range unambiguous."
                            FontSize="11" Foreground="#666" TextWrapping="Wrap" Margin="0,0,0,6"/>
+                <TextBlock Text="Story" FontSize="11" Foreground="#555" Margin="0,0,0,2"/>
+                <ComboBox ItemsSource="{Binding StoryFilterOptions}"
+                          SelectedItem="{Binding SelectedStoryFilter, Mode=TwoWay}"
+                          FontSize="13" Margin="0,0,0,10"/>
                 <Grid Margin="0,0,0,16">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>

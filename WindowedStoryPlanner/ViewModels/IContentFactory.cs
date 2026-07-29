@@ -37,4 +37,10 @@ public interface IContentFactory
     /// in IStoryService and AllChapterViewModels. Returns the new ViewModel.
     /// </summary>
     Task<ChapterViewModel> CreateChapterAsync();
+
+    /// <summary>
+    /// Creates a Story model + StoryViewModel atomically and registers both
+    /// in IStoryService and AllStoryViewModels. Returns the new ViewModel.
+    /// </summary>
+    Task<StoryViewModel> CreateStoryAsync();
 }

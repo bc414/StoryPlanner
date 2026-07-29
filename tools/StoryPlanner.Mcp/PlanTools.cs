@@ -40,7 +40,7 @@ public sealed class PlanTools(StoryPlanSources sources)
         => Engine.GetPlotPoints(C, ids, includeNotes);
 
     [McpServerTool(Name = "get_chapters_plan")]
-    [Description("Fetch chapters by id from the WORKING plan (v2): chapter notes and the ordered plot point list with note/link tallies. Pass an EMPTY ids array to get the inventory of all chapters.")]
+    [Description("Fetch chapters by id from the WORKING plan (v2): chapter notes and the ordered plot point list with note/link tallies. Pass an EMPTY ids array for the inventory of all chapters, grouped under story headings (see list_stories/get_stories for the story layer itself).")]
     public string GetChaptersPlan(
         [Description("Chapter ids. Empty array → one-line inventory of every chapter.")] int[] ids,
         [Description("Include full chapter-note content (default true).")] bool includeNotes = true)
@@ -67,7 +67,7 @@ public sealed class PlanTools(StoryPlanSources sources)
         => Engine.GetNotesInDateRange(C, fromYear, toYear);
 
     [McpServerTool(Name = "count_notes_plan")]
-    [Description("Group and count WORKING plan (v2) notes by up to 3 dimensions: state, track, trackType, ownerType, subject, subjectType, chapter, theme, hasWorldDate. Counts include flagged notes (counts are numbers, not content). Compose absence/intersection questions from counts — e.g. groupBy [\"subject\",\"trackType\"] then look for zeros.")]
+    [Description("Group and count WORKING plan (v2) notes by up to 3 dimensions: state, track, trackType, ownerType, subject, subjectType, chapter, story, theme, hasWorldDate. \"story\" resolves Chapter/PlotPoint/Link-owned notes through to their story (\"(Unassigned)\" if the chapter has none); Subject notes report \"(no story)\". Counts include flagged notes (counts are numbers, not content). Compose absence/intersection questions from counts — e.g. groupBy [\"subject\",\"trackType\"] then look for zeros.")]
     public string CountNotesPlan(
         [Description("Dimensions to group by, e.g. [\"track\",\"state\"]. Default [\"state\"].")] string[]? groupBy = null)
         => Engine.CountNotes(C, groupBy ?? []);

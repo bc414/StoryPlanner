@@ -5,6 +5,10 @@
 
 > **Note added 2026-07-28.** The transcripts referenced throughout now live in `docs/design-conversations/`. Two source files cited below as grep targets — `ModelClasses.txt`, `Models.txt`, `ViewModels.txt` — were **deleted** that day: they were snapshots of the *pre-TotalRework* v1 architecture and were actively misleading about the current schema (see conv 020, which introduces `ModelClasses.txt` as *"the old model classes … not to be confused with the new design"*). Every citation of them in this document is a claim about **absence** — that a field exists only in old dumps and *not* in the live code — so the claims still hold; only the artifacts are gone. Verify absence against the code itself, or `git show` the deleted files from history.
 
+> **Note added 2026-07-28 (later the same day).** A1 (chapter-level multi-story grouping) shipped —
+> see its entry in Section A below for what changed. Per-note narrative tagging, the other half of
+> A1's original ask, was deliberately deferred and remains outstanding.
+
 **Bottom line:** The **data-model refactor** those conversations argued for is substantially *shipped* — the unified polymorphic `Note`, data-driven `SubjectDefinition`/`NoteTrackDefinition` tracks, the `TrackType` cognitive-layer taxonomy, `Unset/Flagged/Confirmed` note states, per-editor-mode track ordering, `WorldDate`/`Theme`/`SourceMaterial` tagging, `PlotPointSubjectLink` as a first-class noteable, F-key track assignment, and the anchor+scope export resolver all exist. What remains outstanding is almost entirely the **layer built on top of that model**: aggregation/navigation views, multi-story scoping, the scene-architecture (perception-gap) layer, note-provenance lifecycle, and a handful of definition-system refinements.
 
 Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where a conversation's "ask" is worth confirming as done) · ⚪ Deliberately rejected in-conversation
@@ -15,7 +19,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 
 | # | Feature | Status | Signal (convos) | Structural? |
 |---|---------|--------|-----------------|-------------|
-| A1 | Multi-story / narrative scoping (`StoryId` on content, `SupportsNarrativeTag`) | 🔴 | 015, 020, 053, 077, 091, 038/039 | **Enabler** |
+| A1 | Multi-story / narrative scoping (`StoryId` on content, `SupportsNarrativeTag`) | 🟡 | 015, 020, 053, 077, 091, 038/039 | **Enabler** |
 | B1 | Master timeline view (aggregate `WorldDate` notes) | 🔴 | 015, 019, 053 | View |
 | B2 | Global entity search (tab is a stub) | 🔴 | 038/039 | View |
 | C1 | Note supersession / preserving retconned lore | 🔴 (contested) | 091, 015, 053, 038/039 | Model |
@@ -40,10 +44,20 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 
 ## A. Multi-story / narrative scoping — highest-signal gap
 
-**A1 — 🔴 Multi-story project & per-note narrative tagging.** *Discussed in six of the nine transcripts* (015 blocks 219-229, 020, 053 blocks 37-42/78-79/94-96, 077 block 7, 091 blocks 2/16/31/33, 038/039 "StoryScope"). The recurring need: the same planner holds a trilogy (TLTT → Minette → Chrysalis), a Subject/Bond "lives in" one story but is inherited by prequels/sequels, and reveal/recontextualization notes need **one note per narrative** — implying a per-track `SupportsNarrativeTag` boolean and a narrative selector on notes, parallel to `WorldDate`.
+**A1 — 🟡 Multi-story project & per-note narrative tagging.** *Discussed in six of the nine transcripts* (015 blocks 219-229, 020, 053 blocks 37-42/78-79/94-96, 077 block 7, 091 blocks 2/16/31/33, 038/039 "StoryScope"). The recurring need: the same planner holds a trilogy (TLTT → Minette → Chrysalis), a Subject/Bond "lives in" one story but is inherited by prequels/sequels, and reveal/recontextualization notes need **one note per narrative** — implying a per-track `SupportsNarrativeTag` boolean and a narrative selector on notes, parallel to `WorldDate`.
 
-- **Current state:** `Story` model exists (`Models/Story.cs`: `Id`, `Title`, `OrderIndex`) but is an **orphan** — no `DbSet<Story>` in `AppDbContext.cs`, no `StoryId` FK on `Note`/`Subject`/`PlotPoint`/`Chapter`, no `SupportsNarrativeTag` on `NoteTrackDefinition`. `grep StoryId` matches only transcripts.
-- **Assessment:** The single most-requested structural feature, and effectively unbuilt (stubbed model only). Everything else about the trilogy architecture depends on it.
+- **Current state (shipped):** `Story` (`Models/Story.cs`: `Id`, `Title`, `Abbreviation`, `ColorHex`,
+  `OrderIndex`) is now a real, DbSet-backed table with a `Chapters.StoryId` FK (`0` = the permanent
+  "(Unassigned)" sentinel, not a missing reference). `Chapter.OrderIndex` is per-story, not the flat
+  book-wide sequence it was. A `StoryPlanner.DataOps` one-time op (`AssignStories`) backfilled both
+  real files: v2 into six stories, the v1 archive into three (including a paratext story for its
+  "Blog Posts" chapter — deliberately not the sentinel, since it's a settled fact, not undecided).
+  WPF gained a Stories tab and a Move… dialog for cross-story chapter repositioning; the MCP server
+  gained `list_stories`/`get_stories`, story-qualified chapter labels, story-grouped inventories, and
+  a `count_notes_plan` "story" dimension — v1's and v2's Stories are never joined or cross-referenced.
+- **Still outstanding:** per-note `SupportsNarrativeTag` / narrative tagging — deliberately deferred
+  (Brian's call when this shipped); `OwnerType.Story` and story-level notes are out of scope by design
+  (Story stays a container). See `docs/design-conversations/` for the original per-note-tagging ask.
 
 ---
 

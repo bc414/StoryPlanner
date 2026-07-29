@@ -25,7 +25,9 @@ public sealed class SyntheticPlan : IDisposable
     public const int CharacterDefId = 1;
     public const int SubjectId = 1;          // "Testcharacter", 2 visible + 2 flagged notes
     public const int EmptySubjectId = 2;     // no notes at all
-    public const int ChapterId = 1;
+    public const int ChapterId = 1;                 // StoryId 0 — "(Unassigned)", the default/legacy state
+    public const int StoryId = 1;
+    public const int SecondChapterId = 2;            // belongs to StoryId, exercises story-grouped output
     public const int PlotPointId = 1;
     public const int LinkId = 1;
     public const int BackstoryTrackId = 1;
@@ -118,7 +120,13 @@ public sealed class SyntheticPlan : IDisposable
             new Subject { Id = SubjectId, Name = "Testcharacter", SubjectDefinitionId = CharacterDefId },
             new Subject { Id = EmptySubjectId, Name = "Lonelysubject", SubjectDefinitionId = CharacterDefId });
 
-        ctx.Chapters.Add(new Chapter { Id = ChapterId, Title = "Testchapter", OrderIndex = 1 });
+        ctx.Chapters.Add(new Chapter { Id = ChapterId, Title = "Testchapter", OrderIndex = 1 }); // StoryId defaults to 0 (Unassigned)
+
+        // A second story + chapter — otherwise nothing exercises story-grouped inventories,
+        // list_stories, or the "(Unassigned)" grouping actually having company.
+        ctx.Stories.Add(new Story { Id = StoryId, Title = "Test Story", Abbreviation = "TS", ColorHex = "#123456", OrderIndex = 1 });
+        ctx.Chapters.Add(new Chapter { Id = SecondChapterId, Title = "Story chapter", StoryId = StoryId, OrderIndex = 1 });
+
         ctx.PlotPoints.Add(new PlotPoint { Id = PlotPointId, Title = "Testscene", ChapterId = ChapterId, OrderInChapter = 1 });
         ctx.PlotPointSubjectLinks.Add(new PlotPointSubjectLink { Id = LinkId, PlotPointId = PlotPointId, SubjectId = SubjectId });
 

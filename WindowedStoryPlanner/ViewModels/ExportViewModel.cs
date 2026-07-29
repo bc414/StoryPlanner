@@ -47,6 +47,13 @@ public partial class ExportViewModel : ObservableObject
     // ---- Export options ----
     [ObservableProperty] private int  _scope;
 
+    // Story scope for the chapter range below — ChapterFrom/ChapterTo are per-story OrderIndex
+    // values, so without a story selected they'd match a range in every story at once.
+    public ObservableCollection<StoryOption> StoryFilterOptions { get; private set; }
+
+    [ObservableProperty]
+    private StoryOption? _selectedStoryFilter;
+
     // String-backed chapter range (TextBox-friendly; empty = no bound)
     [ObservableProperty] private string _chapterFromText = string.Empty;
     [ObservableProperty] private string _chapterToText   = string.Empty;
@@ -70,6 +77,17 @@ public partial class ExportViewModel : ObservableObject
         {
             if (e.PropertyName == nameof(AppSettings.IsArchiveMode))
                 UpdateUnassignedDefault();
+        };
+
+        StoryFilterOptions = StoryOption.BuildFilterList(_registry.AllStoryViewModels);
+        SelectedStoryFilter = StoryFilterOptions.FirstOrDefault();
+        _registry.AllStoryViewModels.CollectionChanged += (_, _) =>
+        {
+            var previouslySelectedId = SelectedStoryFilter?.Id;
+            StoryFilterOptions = StoryOption.BuildFilterList(_registry.AllStoryViewModels);
+            OnPropertyChanged(nameof(StoryFilterOptions));
+            SelectedStoryFilter = StoryFilterOptions.FirstOrDefault(o => o.Id == previouslySelectedId)
+                ?? StoryFilterOptions.FirstOrDefault();
         };
     }
 
@@ -172,10 +190,13 @@ public partial class ExportViewModel : ObservableObject
             return;
         }
 
+        int? storyId = SelectedStoryFilter is { } f && f.Id != StoryOption.AllStoriesId ? f.Id : null;
+
         var config = new ExportConfiguration
         {
             Anchors            = Anchors.Select(a => (a.Id, a.OwnerType)).ToList(),
             Scope              = Scope,
+            StoryId            = storyId,
             ChapterFrom        = ChapterFrom,
             ChapterTo          = ChapterTo,
             IncludedTrackTypes = TrackTypeFilters

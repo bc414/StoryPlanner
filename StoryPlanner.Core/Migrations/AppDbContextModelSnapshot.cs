@@ -26,6 +26,9 @@ namespace StoryPlanner.Core.Migrations
                     b.Property<int>("OrderIndex")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("StoryId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("TEXT");
@@ -447,6 +450,32 @@ namespace StoryPlanner.Core.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("SourceMaterials");
+                });
+
+            modelBuilder.Entity("StoryPlanner.Core.Models.Story", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Abbreviation")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ColorHex")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("OrderIndex")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Stories");
                 });
 
             modelBuilder.Entity("StoryPlanner.Core.Models.Subject", b =>

@@ -4,7 +4,7 @@
       "type": "stdio",
       "command": "dotnet",
       "args": [
-        "C:\\Users\\Brian\\RiderProjects\\StoryPlanner\\tools\\StoryPlanner.Mcp\\bin\\Debug\\net10.0\\StoryPlanner.Mcp.dll"
+        "C:\\Users\\Brian\\RiderProjects\\StoryPlanner\\tools\\StoryPlanner.Mcp\\publish\\StoryPlanner.Mcp.dll"
       ],
       "env": {
         "STORYPLAN_WORKING": "C:\\Users\\Brian\\Desktop\\TLTT v2.storyplan",

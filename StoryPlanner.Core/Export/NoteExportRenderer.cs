@@ -16,8 +16,16 @@ public static class NoteExportRenderer
         var subjectById     = storyService.Subjects.ToDictionary(s => s.Id);
         var plotPointById   = storyService.PlotPoints.ToDictionary(p => p.Id);
         var chapterById     = storyService.Chapters.ToDictionary(c => c.Id);
+        var storyById       = storyService.Stories.ToDictionary(s => s.Id);
         var themeById       = storyService.Themes.ToDictionary(t => t.Id);
         var subjectDefById  = storyService.SubjectDefinitions.ToDictionary(sd => sd.Id);
+
+        // StoryId 0 is the "(Unassigned)" sentinel — never a real Story row.
+        int StoryOrderOf(Chapter ch) => ch.StoryId == 0 || !storyById.TryGetValue(ch.StoryId, out var s)
+            ? int.MaxValue : s.OrderIndex;
+        string StoryLabelOf(Chapter ch) => ch.StoryId == 0
+            ? "(Unassigned)"
+            : (storyById.TryGetValue(ch.StoryId, out var s) ? s.Title : $"story:{ch.StoryId}?");
 
         // Map (PlotPointId, SubjectId) → PlotPointSubjectLink.Id for note lookups
         var linkIdByPair = storyService.PlotPointsSubjectLinks
@@ -131,16 +139,17 @@ public static class NoteExportRenderer
                         linkTrackDefs, subjectById, subjectDefById, themeById, linkIdByPair);
             }
 
-            // PlotPoints grouped by chapter, ordered by chapter OrderIndex
+            // PlotPoints grouped by chapter, ordered by (story reading order, chapter order)
             var chapterGroups = allPps
                 .Where(p => p.ChapterId.HasValue && chapterById.ContainsKey(p.ChapterId.Value))
                 .GroupBy(p => p.ChapterId!.Value)
-                .OrderBy(g => chapterById[g.Key].OrderIndex);
+                .OrderBy(g => StoryOrderOf(chapterById[g.Key]))
+                .ThenBy(g => chapterById[g.Key].OrderIndex);
 
             foreach (var group in chapterGroups)
             {
                 var chapter = chapterById[group.Key];
-                sb.AppendLine($"## Chapter {chapter.OrderIndex}: {chapter.Title}");
+                sb.AppendLine($"## {StoryLabelOf(chapter)} — Chapter {chapter.OrderIndex}: {chapter.Title}");
                 sb.AppendLine();
                 foreach (var pp in group.OrderBy(p => p.OrderInChapter))
                     RenderPlotPoint(sb, pp, result, config, notesByOwner, plotPointTrackDefs,

@@ -14,6 +14,7 @@ public class ViewModelRegistry : IViewModelRegistry
     public ObservableCollection<PlotPointViewModel> AllPlotPointViewModels { get; } = new();
     public ObservableCollection<PlotPointSubjectLinkViewModel> AllPlotPointSubjectLinkViewModels { get; } = new();
     public ObservableCollection<ChapterViewModel> AllChapterViewModels { get; } = new();
+    public ObservableCollection<StoryViewModel> AllStoryViewModels { get; } = new();
     public ObservableCollection<NoteViewModel> AllNoteViewModels { get; } = new();
     public ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues { get; set; } = new();
     public ObservableCollection<NarrativePropertyValueViewModel> AllNarrativePropertyValueDefinitions { get; } = new();
@@ -48,6 +49,7 @@ public class ViewModelRegistry : IViewModelRegistry
         AllPlotPointViewModels.Clear();
         AllPlotPointSubjectLinkViewModels.Clear();
         AllChapterViewModels.Clear();
+        AllStoryViewModels.Clear();
         AllNoteViewModels.Clear();
         AllNarrativePropertyValueDefinitions.Clear();
         AllSubjectDefinitionViewModels.Clear();

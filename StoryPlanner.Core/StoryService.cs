@@ -25,6 +25,7 @@ public class StoryService : IStoryService
     public ObservableCollection<PlotPointSubjectLink> PlotPointsSubjectLinks { get; private set; } = new();
 
     public ObservableCollection<Chapter> Chapters { get; private set; } = new();
+    public ObservableCollection<Story> Stories { get; private set; } = new();
     public ObservableCollection<Note> Notes { get; private set; } = new();
     public ObservableCollection<SubjectDefinition> SubjectDefinitions { get; private set; } = new();
     public ObservableCollection<NoteTrackDefinition> NoteTrackDefinitions { get; private set; } = new();
@@ -143,13 +144,26 @@ public class StoryService : IStoryService
 
         _context = new AppDbContext(options);
 
+        // Back up before any schema upgrade — this is the one path that silently rewrote
+        // Brian's real file with no safety net (CreateSafetyBackup was only ever called from
+        // CreateProjectAsync, which then deletes the file anyway). Only costs a copy on the
+        // open that actually has something pending.
+        if ((await _context.Database.GetPendingMigrationsAsync()).Any())
+            CreateSafetyBackup(filePath);
+
         // Ensure schema is compatible
         await _context.Database.MigrateAsync();
 
         await LoadDataAsync();
     }
     
-    private void CreateSafetyBackup(string originalPath)
+    /// <summary>
+    /// Copies <paramref name="originalPath"/> into a sibling "Backups" folder with a timestamped
+    /// name, keeping the 10 most recent. Static and public so <c>StoryPlanner.DataOps</c> can
+    /// reuse the exact same safety procedure before running a one-time operation, rather than
+    /// re-deriving it.
+    /// </summary>
+    public static void CreateSafetyBackup(string originalPath)
     {
         try 
         {
@@ -179,7 +193,7 @@ public class StoryService : IStoryService
         }
     }
 
-    private void CleanUpOldBackups(string backupFolder)
+    private static void CleanUpOldBackups(string backupFolder)
     {
         try
         {
@@ -205,7 +219,20 @@ public class StoryService : IStoryService
         await _context.Subjects.LoadAsync();
         await _context.PlotPoints.LoadAsync();
         await _context.PlotPointSubjectLinks.LoadAsync();
-        await _context.Chapters.OrderBy(c => c.OrderIndex).LoadAsync();
+
+        // Stories load first so the chapter query below can order by (story, chapter) below.
+        await _context.Stories.OrderBy(s => s.OrderIndex).LoadAsync();
+
+        // Chapters sort by (story reading order, chapter order). No navigation property exists
+        // (settled architecture), so the join is written explicitly; StoryId = 0 (the
+        // "(Unassigned)" sentinel, see UnassignedStory) never matches a real Story row and
+        // sorts last via the null-coalesced MaxValue.
+        await (from c in _context.Chapters
+               join s in _context.Stories on c.StoryId equals s.Id into storyGroup
+               from s in storyGroup.DefaultIfEmpty()
+               orderby s == null ? int.MaxValue : s.OrderIndex, c.OrderIndex
+               select c)
+            .LoadAsync();
 
         // Definitions — load leaves first so EF relationship fixup wires nav properties
         await _context.NoteTrackDefinitions.LoadAsync();
@@ -228,6 +255,7 @@ public class StoryService : IStoryService
         // STEP 4: BIND TO UI
         Notes                  = _context.Notes.Local.ToObservableCollection();
         Subjects               = _context.Subjects.Local.ToObservableCollection();
+        Stories                = _context.Stories.Local.ToObservableCollection();
         Chapters               = _context.Chapters.Local.ToObservableCollection();
         PlotPoints             = _context.PlotPoints.Local.ToObservableCollection();
         PlotPointsSubjectLinks = _context.PlotPointSubjectLinks.Local.ToObservableCollection();

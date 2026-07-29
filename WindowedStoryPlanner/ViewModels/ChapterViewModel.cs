@@ -72,6 +72,18 @@ public partial class ChapterViewModel : NarrativeElementViewModel
 
     public string FullTitle => $"{OrderIndex}. {Title}";
 
+    /// <summary>"{story reading order}.{chapter order}" — e.g. "3.12". Derived, never typed; see
+    /// the plan's rationale for why the chapter number must never live in the title again.</summary>
+    public string FullNumber
+    {
+        get
+        {
+            var storyOrder = _viewModelRegistry.AllStoryViewModels
+                .FirstOrDefault(s => s.Id == _chapter.StoryId)?.OrderIndex ?? 0;
+            return $"{storyOrder}.{OrderIndex}";
+        }
+    }
+
     public string Title
     {
         get => _chapter.Title;
@@ -79,6 +91,20 @@ public partial class ChapterViewModel : NarrativeElementViewModel
         {
             if (SetProperty(_chapter.Title, value, _chapter, (u, n) => u.Title = n))
                 OnPropertyChanged(nameof(FullTitle));
+        }
+    }
+
+    // 0 = "(Unassigned)" sentinel (see UnassignedStory) — a legal, permanent value.
+    public int StoryId
+    {
+        get => _chapter.StoryId;
+        set
+        {
+            if (SetProperty(_chapter.StoryId, value, _chapter, (c, n) => c.StoryId = n))
+            {
+                OnPropertyChanged(nameof(FullNumber));
+                _viewModelRegistry.RaiseLinksInvalidated();
+            }
         }
     }
 
@@ -90,6 +116,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
             if (SetProperty(_chapter.OrderIndex, value, _chapter, (u, n) => u.OrderIndex = n))
             {
                 OnPropertyChanged(nameof(FullTitle));
+                OnPropertyChanged(nameof(FullNumber));
                 _viewModelRegistry.RaiseLinksInvalidated();
             }
         }

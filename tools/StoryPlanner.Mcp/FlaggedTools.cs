@@ -90,7 +90,7 @@ public sealed class FlaggedTools(StoryPlanSources sources)
             if (shown++ >= limit) break;
             var r = n.FlagReason.Trim().Length == 0 ? "(no reason recorded)" : Query.Truncate(Query.OneLine(n.FlagReason), 200);
             var content = n.Content.Trim().Length == 0 ? "(empty — pure question)" : Query.Truncate(Query.OneLine(n.Content), 100);
-            sb.AppendLine($"q:{n.Id} [{Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} / {Query.TrackName(c, n)}] R:\"{r}\" C:\"{content}\"");
+            sb.AppendLine($"{Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} · {Query.TrackName(c, n)} (q:{n.Id}) R:\"{r}\" C:\"{content}\"");
         }
         return Query.Cap(sb);
     }
@@ -122,7 +122,8 @@ public sealed class FlaggedTools(StoryPlanSources sources)
                 continue;
             }
             found++;
-            body.AppendLine($"## q:{n.Id} — [{Query.OwnerRef(n.OwnerType, n.OwnerId)} {Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} / {Query.TrackLabel(c, n)}] — FLAGGED (unstable)");
+            body.AppendLine($"## {Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} · {Query.TrackLabel(c, n)} — FLAGGED (unstable) " +
+                            $"(q:{n.Id}, {Query.OwnerRef(n.OwnerType, n.OwnerId)})");
             var meta = new List<string>();
             var wd = Query.WorldDateLabel(n.WorldDate);
             if (wd.Length > 0) meta.Add(wd);

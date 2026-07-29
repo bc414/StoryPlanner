@@ -25,6 +25,12 @@ public static class ServerInfo
         - CONVERSATIONS: imported AI chat transcripts (search_conversations / get_blocks), with
           the author's per-block read states (unread / skipped / flagged / done).
 
+        Both corpora group chapters under stories (list_stories / get_stories). A chapter's
+        StoryId 0 is "(Unassigned)" — a legal, permanent state, not an error. Chapter labels are
+        story-qualified ("TLTT CH#12"). The two corpora's Stories are never joined or
+        cross-referenced: a story of the same name in the working plan and the archive are
+        unrelated rows with no shared id, exactly like subjects and notes.
+
         Flagged notes are open questions, not settled lore: ordinary tools never return their
         content or flag reasons, and instead disclose per-track flagged tallies. Retrieve them
         deliberately via list_open_questions / get_open_questions (flag reasons often contain

@@ -93,6 +93,12 @@ public class ProjectLoader
             _registry.AllPlotPointSubjectLinkViewModels.Add(
                 new PlotPointSubjectLinkViewModel(link, _registry, _storyService, _factory, _appSettings, _exportService));
 
+        // Stories before chapters — ChapterViewModel.FullNumber looks up its story's
+        // OrderIndex, and the Chapters tab's story filter/combo needs AllStoryViewModels
+        // populated before any ChapterViewModel construction can rely on it.
+        foreach (var story in _storyService.Stories)
+            _registry.AllStoryViewModels.Add(new StoryViewModel(story, _registry));
+
         foreach (var chapter in _storyService.Chapters)
             _registry.AllChapterViewModels.Add(
                 new ChapterViewModel(chapter, _registry, _storyService, _factory, _appSettings, _exportService));

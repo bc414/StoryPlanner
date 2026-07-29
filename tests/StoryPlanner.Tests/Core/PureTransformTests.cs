@@ -129,4 +129,50 @@ public class PureTransformTests
         Assert.Equal("Unassigned", UnassignedTrack.Definition.TrackName);
         Assert.Equal(int.MaxValue, UnassignedTrack.Definition.ExpansionModeDisplayOrder);
     }
+
+    // ── ConversationMarkdownRenderer ──────────────────────────────────────────
+
+    [Fact]
+    public void Render_turns_a_single_newline_into_a_hard_break()
+    {
+        // ClaudeExportParser joins attachment placeholders and message parts with a single
+        // AppendLine() (a markdown soft break). Without UseSoftlineBreakAsHardlineBreak(),
+        // Markdig collapses that to a space and the lines run together.
+        var html = ConversationMarkdownRenderer.Render(
+            "[Attached file: A.md]\n[Attached file: B.md]", "Claude", "user");
+
+        Assert.Contains("<br", html);
+    }
+
+    [Fact]
+    public void Render_treats_CRLF_the_same_as_LF()
+    {
+        // Confirmed data has mixed line endings (AppendLine emits \r\n; export text keeps
+        // whatever the source used). Guards against a future "just normalize EOLs" change
+        // masking a real difference between the two.
+        var lf = ConversationMarkdownRenderer.Render("line one\nline two", "Claude", "assistant");
+        var crlf = ConversationMarkdownRenderer.Render("line one\r\nline two", "Claude", "assistant");
+
+        Assert.Contains("<br", lf);
+        Assert.Contains("<br", crlf);
+    }
+
+    [Fact]
+    public void Render_still_separates_paragraphs_on_a_blank_line()
+    {
+        var html = ConversationMarkdownRenderer.Render("first paragraph\n\nsecond paragraph", "Claude", "assistant");
+
+        Assert.Equal(2, html.Split("<p>").Length - 1);
+    }
+
+    [Theory]
+    [InlineData("user", "user")]
+    [InlineData("assistant", "assistant")]
+    [InlineData("some-unexpected-sender", "assistant")]
+    public void Render_maps_speaker_to_a_body_role_class(string speaker, string expectedClass)
+    {
+        var html = ConversationMarkdownRenderer.Render("hello", "Claude", speaker);
+
+        Assert.Contains($"<body class='{expectedClass}'>", html);
+    }
 }

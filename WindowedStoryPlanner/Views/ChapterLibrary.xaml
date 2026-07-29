@@ -32,7 +32,11 @@
             <TextBlock Text="Chapters"
                        FontSize="14" FontWeight="Bold"
                        VerticalAlignment="Center" Margin="0,0,12,0"/>
-            
+
+            <TextBlock Text="Story:" VerticalAlignment="Center" Margin="0,0,6,0"/>
+            <ComboBox ItemsSource="{Binding StoryFilterOptions}"
+                      SelectedItem="{Binding SelectedStoryFilter, Mode=TwoWay}"
+                      MinWidth="180" VerticalAlignment="Center"/>
         </StackPanel>
 
         <!-- Table -->
@@ -52,11 +56,11 @@
 
             <DataGrid.Columns>
 
-                <!-- Order index -->
+                <!-- Story.Chapter (derived, never typed) -->
                 <DataGridTextColumn Header="#"
-                                    Binding="{Binding OrderIndex}"
+                                    Binding="{Binding FullNumber}"
                                     IsReadOnly="True"
-                                    Width="36"/>
+                                    Width="48"/>
 
                 <!-- Title (inline edit) -->
                 <DataGridTemplateColumn Header="Title" Width="*">
@@ -87,24 +91,37 @@
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>
 
-                <!-- Reorder -->
+                <!-- Reorder (nudge within the same story) -->
                 <DataGridTemplateColumn Header="" Width="54" CanUserResize="False">
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <StackPanel Orientation="Horizontal">
                                 <Button Content="▲" Width="24" Height="24"
                                         Padding="0" Margin="0,0,2,0"
-                                        ToolTip="Move up"
+                                        ToolTip="Move up within this story"
                                         Command="{Binding DataContext.MoveChapterUpCommand,
                                                   RelativeSource={RelativeSource AncestorType=DataGrid}}"
                                         CommandParameter="{Binding}"/>
                                 <Button Content="▼" Width="24" Height="24"
                                         Padding="0"
-                                        ToolTip="Move down"
+                                        ToolTip="Move down within this story"
                                         Command="{Binding DataContext.MoveChapterDownCommand,
                                                   RelativeSource={RelativeSource AncestorType=DataGrid}}"
                                         CommandParameter="{Binding}"/>
                             </StackPanel>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Move to another story / arbitrary position -->
+                <DataGridTemplateColumn Header="" Width="64" CanUserResize="False">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Move…" Padding="6,2"
+                                    ToolTip="Move to another story, or reposition relative to a specific chapter"
+                                    Command="{Binding DataContext.OpenMoveDialogCommand,
+                                              RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}"/>
                         </DataTemplate>
                     </DataGridTemplateColumn.CellTemplate>
                 </DataGridTemplateColumn>

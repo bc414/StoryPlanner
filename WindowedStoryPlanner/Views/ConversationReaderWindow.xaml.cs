@@ -50,7 +50,7 @@ public partial class ConversationReaderWindow : Window
             return;
         }
 
-        string html = ConversationMarkdownRenderer.Render(block.RawContent, _vm.Platform);
+        string html = ConversationMarkdownRenderer.Render(block.RawContent, _vm.Platform, block.Speaker);
         ContentWebView.NavigateToString(html);
     }
 

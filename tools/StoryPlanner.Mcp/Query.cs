@@ -40,6 +40,25 @@ public static class Query
 
     // ── Owner resolution (no FKs in the schema — this join is done here, once) ──
 
+    /// <summary>
+    /// "{Abbreviation or Title} CH#{n}" — e.g. "TLTT CH#12" or "(Unassigned) CH#5". StoryId = 0
+    /// is the permanent "(Unassigned)" sentinel (see UnassignedStory), not a missing reference.
+    /// </summary>
+    public static string ChapterLabel(PlanCache c, Chapter ch) =>
+        $"{StoryLabel(c, ch.StoryId)} CH#{ch.OrderIndex}";
+
+    public static string StoryLabel(PlanCache c, int storyId)
+    {
+        if (storyId == 0) return "(Unassigned)";
+        if (!c.StoryById.TryGetValue(storyId, out var s)) return $"story:{storyId}(missing)";
+        return string.IsNullOrEmpty(s.Abbreviation) ? s.Title : s.Abbreviation;
+    }
+
+    /// <summary>
+    /// Name-led label for an owner — the id is available separately via <see cref="OwnerRef"/>
+    /// for graph navigation, kept out of this string so callers can lead output with the name
+    /// and demote the id to a trailing parenthetical instead of the id leading every line.
+    /// </summary>
     public static string OwnerLabel(PlanCache c, OwnerType type, int ownerId)
     {
         switch (type)
@@ -54,7 +73,7 @@ public static class Query
                 return $"PP \"{pp.Title}\"{ChapterSuffix(c, pp)}";
             case OwnerType.Chapter:
                 return c.ChapterById.TryGetValue(ownerId, out var ch)
-                    ? $"CH#{ch.OrderIndex} \"{ch.Title}\""
+                    ? $"{ChapterLabel(c, ch)} \"{ch.Title}\""
                     : $"chapter:{ownerId}(missing)";
             case OwnerType.PlotPointSubjectLink:
                 if (!c.LinkById.TryGetValue(ownerId, out var link))
@@ -67,6 +86,8 @@ public static class Query
         }
     }
 
+    /// <summary>The callable id for the owner entity — distinct from the note/edge's own id,
+    /// this is what a follow-up fetch call uses. Always placed at the end of a composed line.</summary>
     public static string OwnerRef(OwnerType type, int ownerId) => type switch
     {
         OwnerType.Subject => $"subject:{ownerId}",
@@ -80,7 +101,7 @@ public static class Query
     {
         if (pp.ChapterId is null) return " (unplaced)";
         return c.ChapterById.TryGetValue(pp.ChapterId.Value, out var ch)
-            ? $" (CH#{ch.OrderIndex} \"{ch.Title}\")"
+            ? $" ({ChapterLabel(c, ch)} \"{ch.Title}\")"
             : $" (chapter:{pp.ChapterId} missing)";
     }
 

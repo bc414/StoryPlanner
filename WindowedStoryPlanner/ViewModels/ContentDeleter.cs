@@ -98,6 +98,22 @@ public class ContentDeleter : IContentDeleter
         return true;
     }
 
+    public async Task<bool> TryDeleteStoryAsync(StoryViewModel story)
+    {
+        // Orphan children — set StoryId back to the "(Unassigned)" sentinel, do not delete.
+        // Story has no notes to guard on, so this never refuses.
+        var ownedChapters = _storyService.Chapters
+            .Where(ch => ch.StoryId == story.Id)
+            .ToList();
+        foreach (var ch in ownedChapters)
+            ch.StoryId = 0;
+
+        _storyService.Stories.Remove(story.Story);
+        _registry.AllStoryViewModels.Remove(story);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
     // --- Helpers ---
 
     private void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType)

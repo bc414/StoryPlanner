@@ -42,8 +42,10 @@ internal static class Engine
                 if (!m.Success) continue;
                 noteHits++;
                 if (lines.Count < limit)
-                    lines.Add($"note:{n.Id} [{Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} / {Query.TrackName(c, n)}] " +
-                              $"({Query.StateLabel(c.Corpus, n.NoteState)}) \"{Query.Snippet(n.Content, m, contextChars)}\"");
+                    // Name-led, id trailing in a parenthetical; the unbounded snippet goes on
+                    // its own indented line so a truncation never eats the id off the end.
+                    lines.Add($"{Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} · {Query.TrackName(c, n)} · " +
+                              $"{Query.StateLabel(c.Corpus, n.NoteState)} (note:{n.Id})\n  \"{Query.Snippet(n.Content, m, contextChars)}\"");
             }
 
             foreach (var s in c.Subjects)
@@ -58,7 +60,7 @@ internal static class Engine
                     var where = mName.Success
                         ? $"name: \"{s.Name}\""
                         : $"description: \"{Query.Snippet(s.Description, mDesc, contextChars)}\"";
-                    lines.Add($"subject:{s.Id} [{type}] {s.Name} — {where}");
+                    lines.Add($"{s.Name} [{type}] (subject:{s.Id}) — {where}");
                 }
             }
 
@@ -68,7 +70,7 @@ internal static class Engine
                 if (!m.Success) continue;
                 ppHits++;
                 if (lines.Count < limit)
-                    lines.Add($"plotpoint:{p.Id} {Query.OwnerLabel(c, OwnerType.PlotPoint, p.Id)}");
+                    lines.Add($"{Query.OwnerLabel(c, OwnerType.PlotPoint, p.Id)} (plotpoint:{p.Id})");
             }
 
             foreach (var ch in c.Chapters)
@@ -77,7 +79,7 @@ internal static class Engine
                 if (!m.Success) continue;
                 chapterHits++;
                 if (lines.Count < limit)
-                    lines.Add($"chapter:{ch.Id} CH#{ch.OrderIndex} \"{ch.Title}\"");
+                    lines.Add($"{Query.ChapterLabel(c, ch)} \"{ch.Title}\" (chapter:{ch.Id})");
             }
 
             foreach (var t in c.Themes)
@@ -90,7 +92,7 @@ internal static class Engine
                 {
                     var where = mName.Success ? $"name: \"{t.Name}\""
                         : $"proposition: \"{Query.Snippet(t.Proposition, mProp, contextChars)}\"";
-                    lines.Add($"theme:{t.Id} {t.Name} — {where}");
+                    lines.Add($"{t.Name} (theme:{t.Id}) — {where}");
                 }
             }
         }
@@ -132,7 +134,7 @@ internal static class Engine
             if (n.NoteState == NoteState.Flagged)
             {
                 flagged++;
-                body.AppendLine($"## note:{id} — [{Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} / {Query.TrackName(c, n)}] — FLAGGED (walled): use get_open_questions(ids: [{id}])");
+                body.AppendLine($"{Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} · {Query.TrackName(c, n)} — FLAGGED (walled) (note:{id}): use get_open_questions(ids: [{id}])");
                 continue;
             }
             found++;
@@ -146,7 +148,8 @@ internal static class Engine
 
     private static void AppendNoteBlock(StringBuilder sb, PlanCache c, Note n)
     {
-        sb.AppendLine($"## note:{n.Id} — [{Query.OwnerRef(n.OwnerType, n.OwnerId)} {Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} / {Query.TrackLabel(c, n)}] — {Query.StateLabel(c.Corpus, n.NoteState)}");
+        sb.AppendLine($"## {Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} · {Query.TrackLabel(c, n)} · " +
+                      $"{Query.StateLabel(c.Corpus, n.NoteState)} (note:{n.Id}, {Query.OwnerRef(n.OwnerType, n.OwnerId)})");
         var meta = new List<string>();
         var wd = Query.WorldDateLabel(n.WorldDate);
         if (wd.Length > 0) meta.Add(wd);
@@ -184,7 +187,7 @@ internal static class Engine
                 continue;
             }
             var type = c.SubjectDefById.TryGetValue(s.SubjectDefinitionId, out var d) ? d.SubjectType : "?";
-            sb.AppendLine($"## subject:{s.Id} — {s.Name} [{type}]");
+            sb.AppendLine($"## {s.Name} [{type}] (subject:{s.Id})");
             if (s.Abbreviation.Length > 0) sb.AppendLine($"abbreviation: {s.Abbreviation}");
             if (s.Description.Length > 0) sb.AppendLine($"description: {s.Description}");
 
@@ -207,8 +210,8 @@ internal static class Engine
                     var linkNotes = c.NotesByOwner.TryGetValue((OwnerType.PlotPointSubjectLink, l.Id), out var lnl) ? lnl : [];
                     var vis = linkNotes.Count(n => n.NoteState != NoteState.Flagged);
                     var flg = linkNotes.Count - vis;
-                    sb.AppendLine($"  link:{l.Id} — {Query.OwnerLabel(c, OwnerType.PlotPoint, l.PlotPointId)}" +
-                                  $" ({vis} link notes{(flg > 0 ? $", +{flg} flagged" : "")})");
+                    sb.AppendLine($"  {Query.OwnerLabel(c, OwnerType.PlotPoint, l.PlotPointId)}" +
+                                  $" — {vis} link notes{(flg > 0 ? $", +{flg} flagged" : "")} (link:{l.Id})");
                 }
             }
             else sb.AppendLine("scenes: none (no plot-point links)");
@@ -235,11 +238,12 @@ internal static class Engine
             sb.AppendLine($"### {g.Key} — {g.Count()} notes");
             foreach (var n in g)
             {
-                var meta = new List<string> { $"note:{n.Id}", Query.StateLabel(c.Corpus, n.NoteState) };
+                var meta = new List<string> { Query.StateLabel(c.Corpus, n.NoteState) };
                 var wd = Query.WorldDateLabel(n.WorldDate);
                 if (wd.Length > 0) meta.Add(wd);
                 if (n.ThemeId is int tid)
                     meta.Add(c.ThemeById.TryGetValue(tid, out var th) ? $"theme:{th.Name}" : $"theme:{tid}?");
+                meta.Add($"(note:{n.Id})");
                 sb.AppendLine($"--- {string.Join(" | ", meta)}");
                 sb.AppendLine(n.Content.Length == 0 ? "(empty content)" : n.Content.TrimEnd());
             }
@@ -259,9 +263,9 @@ internal static class Engine
                 sb.AppendLine($"## plotpoint:{id} — not found in {Query.CorpusName(c.Corpus)}");
                 continue;
             }
-            sb.AppendLine($"## plotpoint:{pp.Id} — \"{pp.Title}\"");
+            sb.AppendLine($"## \"{pp.Title}\" (plotpoint:{pp.Id})");
             if (pp.ChapterId is int chId && c.ChapterById.TryGetValue(chId, out var ch))
-                sb.AppendLine($"chapter: chapter:{ch.Id} CH#{ch.OrderIndex} \"{ch.Title}\" (position {pp.OrderInChapter})");
+                sb.AppendLine($"chapter: {Query.ChapterLabel(c, ch)} \"{ch.Title}\" (position {pp.OrderInChapter}) (chapter:{ch.Id})");
             else
                 sb.AppendLine("chapter: (unplaced)");
 
@@ -277,13 +281,14 @@ internal static class Engine
                 foreach (var l in links)
                 {
                     var subjLabel = c.SubjectById.TryGetValue(l.SubjectId, out var s)
-                        ? $"subject:{s.Id} {s.Name}" +
-                          (c.SubjectDefById.TryGetValue(s.SubjectDefinitionId, out var d) ? $" [{d.SubjectType}]" : "")
+                        ? $"{s.Name}" +
+                          (c.SubjectDefById.TryGetValue(s.SubjectDefinitionId, out var d) ? $" [{d.SubjectType}]" : "") +
+                          $" (subject:{s.Id})"
                         : $"subject:{l.SubjectId}(missing)";
                     var linkNotes = c.NotesByOwner.TryGetValue((OwnerType.PlotPointSubjectLink, l.Id), out var lnl) ? lnl : [];
                     var vis = linkNotes.Count(n => n.NoteState != NoteState.Flagged);
                     var flg = linkNotes.Count - vis;
-                    sb.AppendLine($"  link:{l.Id} — {subjLabel} ({vis} link notes{(flg > 0 ? $", +{flg} flagged" : "")})");
+                    sb.AppendLine($"  {subjLabel} — {vis} link notes{(flg > 0 ? $", +{flg} flagged" : "")} (link:{l.Id})");
                 }
             }
             else sb.AppendLine("linked subjects: none");
@@ -303,13 +308,25 @@ internal static class Engine
         if (ids.Length == 0)
         {
             sb.AppendLine($"# chapters in {Query.CorpusName(c.Corpus)} — {c.Chapters.Count} total (ids omitted → inventory)");
-            foreach (var ch in c.Chapters.OrderBy(x => x.OrderIndex))
+
+            // Grouped under story headings, in story reading order; "(Unassigned)" (StoryId 0,
+            // never a real Story row) sorts last regardless of where 0 would otherwise land.
+            var groups = c.Chapters.GroupBy(ch => ch.StoryId)
+                .OrderBy(g => g.Key == 0
+                    ? int.MaxValue
+                    : (c.StoryById.TryGetValue(g.Key, out var st) ? st.OrderIndex : int.MaxValue - 1));
+
+            foreach (var group in groups)
             {
-                var pps = c.PlotPoints.Count(p => p.ChapterId == ch.Id);
-                var own = c.NotesByOwner.TryGetValue((OwnerType.Chapter, ch.Id), out var list) ? list : [];
-                var vis = own.Count(n => n.NoteState != NoteState.Flagged);
-                var flg = own.Count - vis;
-                sb.AppendLine($"chapter:{ch.Id} CH#{ch.OrderIndex} \"{ch.Title}\" — {pps} plot points, {vis} chapter notes{(flg > 0 ? $" (+{flg} flagged)" : "")}");
+                sb.AppendLine($"## {Query.StoryLabel(c, group.Key)}" + (group.Key != 0 ? $" (story:{group.Key})" : ""));
+                foreach (var ch in group.OrderBy(x => x.OrderIndex))
+                {
+                    var pps = c.PlotPoints.Count(p => p.ChapterId == ch.Id);
+                    var own = c.NotesByOwner.TryGetValue((OwnerType.Chapter, ch.Id), out var list) ? list : [];
+                    var vis = own.Count(n => n.NoteState != NoteState.Flagged);
+                    var flg = own.Count - vis;
+                    sb.AppendLine($"CH#{ch.OrderIndex} \"{ch.Title}\" — {pps} plot points, {vis} chapter notes{(flg > 0 ? $" (+{flg} flagged)" : "")} (chapter:{ch.Id})");
+                }
             }
             return Query.Cap(sb);
         }
@@ -322,7 +339,7 @@ internal static class Engine
                 sb.AppendLine($"## chapter:{id} — not found in {Query.CorpusName(c.Corpus)}");
                 continue;
             }
-            sb.AppendLine($"## chapter:{ch.Id} — CH#{ch.OrderIndex} \"{ch.Title}\"");
+            sb.AppendLine($"## {Query.ChapterLabel(c, ch)} \"{ch.Title}\" (chapter:{ch.Id})");
 
             var own = c.NotesByOwner.TryGetValue((OwnerType.Chapter, ch.Id), out var list) ? list : [];
             var visible = own.Where(n => n.NoteState != NoteState.Flagged).ToList();
@@ -337,7 +354,7 @@ internal static class Engine
                 var links = c.LinksByPlotPoint.TryGetValue(pp.Id, out var ll) ? ll.Count : 0;
                 var vis = ppNotes.Count(n => n.NoteState != NoteState.Flagged);
                 var flg = ppNotes.Count - vis;
-                sb.AppendLine($"  plotpoint:{pp.Id} \"{pp.Title}\" (pos {pp.OrderInChapter}) — {vis} notes{(flg > 0 ? $" (+{flg} flagged)" : "")}, {links} links");
+                sb.AppendLine($"  \"{pp.Title}\" (pos {pp.OrderInChapter}) — {vis} notes{(flg > 0 ? $" (+{flg} flagged)" : "")}, {links} links (plotpoint:{pp.Id})");
             }
 
             if (includeNotes && visible.Count > 0)
@@ -360,8 +377,8 @@ internal static class Engine
                 sb.AppendLine($"## link:{id} — not found in {Query.CorpusName(c.Corpus)}");
                 continue;
             }
-            var subjLabel = c.SubjectById.TryGetValue(l.SubjectId, out var s) ? $"subject:{s.Id} {s.Name}" : $"subject:{l.SubjectId}(missing)";
-            sb.AppendLine($"## link:{l.Id} — {Query.OwnerLabel(c, OwnerType.PlotPoint, l.PlotPointId)} x {subjLabel} (plotpoint:{l.PlotPointId})");
+            var subjLabel = c.SubjectById.TryGetValue(l.SubjectId, out var s) ? $"{s.Name} (subject:{s.Id})" : $"subject:{l.SubjectId}(missing)";
+            sb.AppendLine($"## {Query.OwnerLabel(c, OwnerType.PlotPoint, l.PlotPointId)} x {subjLabel} (link:{l.Id}, plotpoint:{l.PlotPointId})");
 
             var own = c.NotesByOwner.TryGetValue((OwnerType.PlotPointSubjectLink, l.Id), out var list) ? list : [];
             var visible = own.Where(n => n.NoteState != NoteState.Flagged).ToList();
@@ -391,7 +408,7 @@ internal static class Engine
         var visible = tagged.Where(n => n.NoteState != NoteState.Flagged).ToList();
 
         var sb = new StringBuilder();
-        sb.AppendLine($"# theme:{t.Id} \"{t.Name}\" in {Query.CorpusName(c.Corpus)}");
+        sb.AppendLine($"# \"{t.Name}\" (theme:{t.Id}) in {Query.CorpusName(c.Corpus)}");
         sb.AppendLine($"proposition: {t.Proposition}");
         sb.AppendLine($"tagged notes: {visible.Count} retrievable" + FlaggedTally(c, tagged, $"corpus: \"{(c.Corpus == Corpus.Working ? "working" : "archive")}\""));
         sb.AppendLine();
@@ -438,7 +455,7 @@ internal static class Engine
     // ── generic count/group ─────────────────────────────────────────────────────
 
     private static readonly string[] ValidDims =
-        ["state", "track", "trackType", "ownerType", "subject", "subjectType", "chapter", "theme", "hasWorldDate"];
+        ["state", "track", "trackType", "ownerType", "subject", "subjectType", "chapter", "story", "theme", "hasWorldDate"];
 
     public static string CountNotes(PlanCache c, string[] groupBy)
     {
@@ -458,6 +475,7 @@ internal static class Engine
             "subject" => SubjectDim(c, n),
             "subjectType" => SubjectTypeDim(c, n),
             "chapter" => ChapterDim(c, n),
+            "story" => StoryDim(c, n),
             "theme" => n.ThemeId is int tid
                 ? (c.ThemeById.TryGetValue(tid, out var th) ? th.Name : $"theme:{tid}?")
                 : "(no theme)",
@@ -526,6 +544,22 @@ internal static class Engine
         if (ppId is null) return "(no chapter)";
         if (!c.PlotPointById.TryGetValue(ppId.Value, out var pp)) return $"plotpoint:{ppId}?";
         if (pp.ChapterId is null) return "(unplaced plot point)";
-        return c.ChapterById.TryGetValue(pp.ChapterId.Value, out var ch) ? $"CH#{ch.OrderIndex} {ch.Title}" : $"chapter:{pp.ChapterId}?";
+        return c.ChapterById.TryGetValue(pp.ChapterId.Value, out var ch) ? $"{Query.ChapterLabel(c, ch)} {ch.Title}" : $"chapter:{pp.ChapterId}?";
+    }
+
+    // "story" dim: Chapter-owned -> its story; PlotPoint-owned -> its chapter's story;
+    // Link-owned -> its plot point's chapter's story; Subject-owned -> "(no story)".
+    private static string StoryDim(PlanCache c, Note n)
+    {
+        int? chapterId = n.OwnerType switch
+        {
+            OwnerType.Chapter => n.OwnerId,
+            OwnerType.PlotPoint => c.PlotPointById.TryGetValue(n.OwnerId, out var pp) ? pp.ChapterId : null,
+            OwnerType.PlotPointSubjectLink => c.LinkById.TryGetValue(n.OwnerId, out var l)
+                && c.PlotPointById.TryGetValue(l.PlotPointId, out var lpp) ? lpp.ChapterId : null,
+            _ => null
+        };
+        if (chapterId is null) return "(no story)";
+        return c.ChapterById.TryGetValue(chapterId.Value, out var ch) ? Query.StoryLabel(c, ch.StoryId) : "(no story)";
     }
 }

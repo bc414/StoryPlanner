@@ -88,6 +88,18 @@ public class ContentFactory : IContentFactory
         return vm;
     }
 
+    public async Task<StoryViewModel> CreateStoryAsync()
+    {
+        var story = new Story();
+
+        _storyService.Stories.Add(story);
+        await _storyService.SaveAsync();
+
+        var vm = new StoryViewModel(story, _registry);
+        _registry.AllStoryViewModels.Add(vm);
+        return vm;
+    }
+
     public async Task CreatePlotPointSubjectLinkAsync(PlotPointViewModel plotPoint, SubjectViewModel subject)
     {
         if (_registry.AllPlotPointSubjectLinkViewModels.Any(l =>

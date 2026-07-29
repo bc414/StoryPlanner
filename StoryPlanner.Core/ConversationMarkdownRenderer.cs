@@ -10,16 +10,18 @@ public static class ConversationMarkdownRenderer
 {
     private static readonly MarkdownPipeline Pipeline = new MarkdownPipelineBuilder()
         .UseAdvancedExtensions()
+        .UseSoftlineBreakAsHardlineBreak()   // chat text is line-structured, not soft-wrapped prose
         .Build();
 
-    public static string Render(string rawContent, string platform)
+    public static string Render(string rawContent, string platform, string speaker)
     {
         string body = Markdown.ToHtml(rawContent, Pipeline);
         string css  = platform == "Gemini" ? GeminiCss : ClaudeCss;
-        return WrapHtml(body, css);
+        string role = speaker == "user" ? "user" : "assistant";
+        return WrapHtml(body, css, role);
     }
 
-    private static string WrapHtml(string body, string css) => $"""
+    private static string WrapHtml(string body, string css, string role) => $"""
         <!DOCTYPE html>
         <html>
         <head>
@@ -27,7 +29,7 @@ public static class ConversationMarkdownRenderer
             <meta http-equiv='X-UA-Compatible' content='IE=edge' />
             <style>{css}</style>
         </head>
-        <body>{body}</body>
+        <body class='{role}'><main>{body}</main></body>
         </html>
         """;
 
@@ -82,6 +84,24 @@ public static class ConversationMarkdownRenderer
         }
         hr { border: none; border-top: 1px solid #eee; margin: 20px 0; }
         strong { font-weight: 600; }
+        main > :first-child { margin-top: 0; }
+        main > :last-child { margin-bottom: 0; }
+        body.user {
+            font-family: 'Styrene B', 'Styrene A', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+        body.user main {
+            background: #F5F3EE;
+            border: 1px solid #EDE9E2;
+            border-radius: 12px;
+            padding: 16px 20px;
+        }
+        body.assistant main {
+            background: none;
+            border: none;
+            padding: 0;
+        }
         """;
 
     // ── Google Gemini AI Studio theme ──────────────────────────────────────────
@@ -132,5 +152,16 @@ public static class ConversationMarkdownRenderer
         }
         hr { border: none; border-top: 1px solid #e5e7eb; margin: 20px 0; }
         a  { color: #1a73e8; text-decoration: none; }
+        main > :first-child { margin-top: 0; }
+        main > :last-child { margin-bottom: 0; }
+        body.user main {
+            background: #F1F3F4;
+            border-radius: 12px;
+            padding: 14px 18px;
+        }
+        body.assistant main {
+            background: none;
+            padding: 0;
+        }
         """;
 }

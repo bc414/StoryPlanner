@@ -26,9 +26,10 @@ public class FlaggedWallTests
         Assert.DoesNotContain(SyntheticPlan.FlaggedContentEnvelope, byContent);
         Assert.DoesNotContain(SyntheticPlan.FlaggedReasonEnvelope, byReason);
 
-        // ...and no hit line is produced for the flagged note.
-        Assert.DoesNotContain($"note:{SyntheticPlan.FlaggedNoteId} ", byContent);
-        Assert.DoesNotContain($"note:{SyntheticPlan.FlaggedNoteId} ", byReason);
+        // ...and no hit line is produced for the flagged note (id is a trailing parenthetical
+        // in the current output format — see Query.OwnerLabel/OwnerRef).
+        Assert.DoesNotContain($"(note:{SyntheticPlan.FlaggedNoteId})", byContent);
+        Assert.DoesNotContain($"(note:{SyntheticPlan.FlaggedNoteId})", byReason);
         Assert.Contains("notes 0", byContent); // zero ordinary note hits
     }
 

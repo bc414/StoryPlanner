@@ -1,0 +1,10 @@
+{
+  "stories": [
+    { "orderIndex": 1, "title": "The Lioness of Tall Tale", "abbreviation": "TLTT", "colorHex": "#7A5C3E", "from": 1, "to": 32 },
+    { "orderIndex": 2, "title": "The Battle of Mount Aris", "abbreviation": "", "colorHex": "#4E6E58", "from": 33, "to": 35 },
+    { "orderIndex": 3, "title": "The Kitty of Westkeep", "abbreviation": "KoW", "colorHex": "#6B4E7A", "from": 36, "to": 53 },
+    { "orderIndex": 4, "title": "The Lord of the Hedge (Blueblood's Prequel)", "abbreviation": "", "colorHex": "#8A6D3B", "from": 54, "to": 54 },
+    { "orderIndex": 5, "title": "The Countess of Crystal Rock", "abbreviation": "", "colorHex": "#3B5A8A", "from": 55, "to": 64 },
+    { "orderIndex": 6, "title": "Grover III and Celestia Prequel", "abbreviation": "", "colorHex": "#B08D2E", "from": 65, "to": 70 }
+  ]
+}

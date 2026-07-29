@@ -12,6 +12,7 @@ public class AppDbContext : DbContext
     public DbSet<Subject> Subjects { get; set; }
     public DbSet<PlotPointSubjectLink> PlotPointSubjectLinks { get; set; }
     public DbSet<Chapter> Chapters { get; set; }
+    public DbSet<Story> Stories { get; set; }
     public DbSet<Note> Notes { get; set; }
 
     public DbSet<SubjectDefinition> SubjectDefinitions { get; set; }

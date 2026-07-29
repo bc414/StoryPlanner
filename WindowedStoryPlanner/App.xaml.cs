@@ -44,6 +44,7 @@ public partial class App : Application
                 services.AddSingleton<DefinitionsEditorViewModel>();
                 services.AddSingleton<SubjectLibraryViewModel>();
                 services.AddSingleton<FileManagerViewModel>();
+                services.AddSingleton<StoryLibraryViewModel>();
                 services.AddSingleton<ChapterLibraryViewModel>();
                 services.AddSingleton<ThemeLibraryViewModel>();
                 services.AddSingleton<SourceMaterialLibraryViewModel>();
@@ -85,9 +86,10 @@ public partial class App : Application
             var fileManager = AppHost.Services.GetRequiredService<FileManagerViewModel>();
             await fileManager.OpenProjectFromPath(path);
 
-            // Navigate to Subjects tab (index 3)
+            // Navigate to Subjects tab (index 4 — a "Stories" tab was inserted at index 1,
+            // between File Management and Chapters, shifting every tab after it by one)
             var locator = AppHost.Services.GetRequiredService<ViewModelLocator>();
-            locator.SelectedTabIndex = 3;
+            locator.SelectedTabIndex = 4;
 
             // Set archive mode if filename contains "archive"
             if (Path.GetFileNameWithoutExtension(path).Contains("archive", StringComparison.OrdinalIgnoreCase))

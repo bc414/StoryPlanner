@@ -10,6 +10,7 @@ public interface IViewModelRegistry
     ObservableCollection<PlotPointViewModel> AllPlotPointViewModels { get; }
     ObservableCollection<PlotPointSubjectLinkViewModel> AllPlotPointSubjectLinkViewModels { get; }
     ObservableCollection<ChapterViewModel> AllChapterViewModels { get; }
+    ObservableCollection<StoryViewModel> AllStoryViewModels { get; }
     ObservableCollection<NoteViewModel> AllNoteViewModels { get; }
     ObservableCollection<NarrativePropertyValue> AllNarrativePropertyValues { get; set; }
     ObservableCollection<NarrativePropertyValueViewModel> AllNarrativePropertyValueDefinitions { get; }

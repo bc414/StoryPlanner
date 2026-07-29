@@ -18,6 +18,7 @@
          infrastructure beyond a temp SQLite file. See .claude/skills/testing/SKILL.md. -->
     <ItemGroup>
         <ProjectReference Include="..\..\tools\StoryPlanner.Mcp\StoryPlanner.Mcp.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.DataOps\StoryPlanner.DataOps.csproj" />
     </ItemGroup>
 
 </Project>

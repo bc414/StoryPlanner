@@ -106,7 +106,7 @@ public sealed class ReferenceTools(StoryPlanSources sources)
                 var vis = own.Count(n => n.NoteState != NoteState.Flagged);
                 var flg = own.Count - vis;
                 var links = c.LinksBySubject.TryGetValue(s.Id, out var ll) ? ll.Count : 0;
-                sb.AppendLine($"subject:{s.Id} {s.Name} — {vis} notes{(flg > 0 ? $" (+{flg} flagged)" : "")}, {links} scene links");
+                sb.AppendLine($"{s.Name} — {vis} notes{(flg > 0 ? $" (+{flg} flagged)" : "")}, {links} scene links (subject:{s.Id})");
             }
         }
         return Query.Cap(sb);
@@ -124,7 +124,7 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         {
             var tagged = c.Notes.Count(n => n.ThemeId == t.Id && n.NoteState != NoteState.Flagged);
             var flagged = c.Notes.Count(n => n.ThemeId == t.Id && n.NoteState == NoteState.Flagged);
-            sb.AppendLine($"theme:{t.Id} \"{t.Name}\" — {tagged} tagged notes{(flagged > 0 ? $" (+{flagged} flagged)" : "")}");
+            sb.AppendLine($"\"{t.Name}\" — {tagged} tagged notes{(flagged > 0 ? $" (+{flagged} flagged)" : "")} (theme:{t.Id})");
             sb.AppendLine($"  proposition: {t.Proposition}");
         }
         return Query.Cap(sb);
@@ -162,6 +162,19 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         var unplaced = c.PlotPoints.Count(p => p.ChapterId is null);
         sb.AppendLine($"plot points: {c.PlotPoints.Count} ({unplaced} unplaced) | chapters: {c.Chapters.Count} | scene links: {c.Links.Count}");
 
+        if (c.Stories.Count > 0)
+        {
+            var perStory = c.Stories.OrderBy(s => s.OrderIndex).Select(s =>
+            {
+                var chs = c.ChaptersByStory.TryGetValue(s.Id, out var l) ? l : [];
+                var pps = chs.Sum(ch => c.PlotPoints.Count(p => p.ChapterId == ch.Id));
+                return $"{s.Title} {chs.Count}ch/{pps}pp";
+            });
+            var unassignedChapters = c.Chapters.Count(ch => ch.StoryId == 0);
+            sb.AppendLine($"stories: {c.Stories.Count} ({string.Join(", ", perStory)})" +
+                          (unassignedChapters > 0 ? $" | Unassigned: {unassignedChapters} chapters" : ""));
+        }
+
         if (c.Tracks.Count > 0)
         {
             var usedTrackIds = c.Notes.Where(n => n.NoteTrackDefinitionId is int).Select(n => n.NoteTrackDefinitionId!.Value).ToHashSet();
@@ -182,5 +195,63 @@ public sealed class ReferenceTools(StoryPlanSources sources)
             sb.AppendLine($"conversations: {c.Conversations.Count} ({c.Blocks.Count} blocks: {string.Join(", ", blockStates)})");
         }
         sb.AppendLine();
+    }
+
+    [McpServerTool(Name = "list_stories")]
+    [Description("Inventory of stories: title, abbreviation, reading order, chapter and plot-point counts, plus any chapters still \"(Unassigned)\" (StoryId 0 — a legal, permanent state, not an error). Stories are never joined across corpora: a story of the same name in the working plan and the archive are unrelated rows with no shared id — never cross-reference them by name.")]
+    public string ListStories(
+        [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
+    {
+        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        var sb = new StringBuilder();
+        sb.AppendLine($"# stories in {Query.CorpusName(c.Corpus)} — {c.Stories.Count}");
+        foreach (var s in c.Stories.OrderBy(s => s.OrderIndex))
+        {
+            var chapters = c.ChaptersByStory.TryGetValue(s.Id, out var chs) ? chs : [];
+            var pps = chapters.Sum(ch => c.PlotPoints.Count(p => p.ChapterId == ch.Id));
+            var abbr = string.IsNullOrEmpty(s.Abbreviation) ? "" : $" [{s.Abbreviation}]";
+            sb.AppendLine($"\"{s.Title}\"{abbr} — {chapters.Count} chapters, {pps} plot points (story:{s.Id})");
+        }
+        var unassigned = c.Chapters.Count(ch => ch.StoryId == 0);
+        if (unassigned > 0)
+            sb.AppendLine($"(Unassigned) — {unassigned} chapters");
+        return Query.Cap(sb);
+    }
+
+    [McpServerTool(Name = "get_stories")]
+    [Description("Fetch stories by id: title, abbreviation, and the ordered chapter list (with plot-point/note tallies). Pass an EMPTY ids array for the inventory (same as list_stories).")]
+    public string GetStories(
+        [Description("Story ids. Empty array → inventory of every story.")] int[] ids,
+        [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
+    {
+        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (ids.Length == 0) return ListStories(corpus);
+
+        var sb = new StringBuilder();
+        foreach (var id in ids.Distinct())
+        {
+            if (!c.StoryById.TryGetValue(id, out var s))
+            {
+                sb.AppendLine($"## story:{id} — not found in {Query.CorpusName(c.Corpus)}");
+                continue;
+            }
+            var abbr = string.IsNullOrEmpty(s.Abbreviation) ? "" : $" [{s.Abbreviation}]";
+            sb.AppendLine($"## \"{s.Title}\"{abbr} (story:{s.Id})");
+
+            var chapters = c.ChaptersByStory.TryGetValue(s.Id, out var chs)
+                ? chs.OrderBy(ch => ch.OrderIndex).ToList()
+                : new List<Chapter>();
+            sb.AppendLine($"chapters ({chapters.Count}):");
+            foreach (var ch in chapters)
+            {
+                var pps = c.PlotPoints.Count(p => p.ChapterId == ch.Id);
+                var own = c.NotesByOwner.TryGetValue((OwnerType.Chapter, ch.Id), out var list) ? list : [];
+                var vis = own.Count(n => n.NoteState != NoteState.Flagged);
+                var flg = own.Count - vis;
+                sb.AppendLine($"  CH#{ch.OrderIndex} \"{ch.Title}\" — {pps} plot points, {vis} chapter notes{(flg > 0 ? $" (+{flg} flagged)" : "")} (chapter:{ch.Id})");
+            }
+            sb.AppendLine();
+        }
+        return Query.Cap(sb);
     }
 }
