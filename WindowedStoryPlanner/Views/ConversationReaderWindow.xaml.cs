@@ -70,6 +70,10 @@ public partial class ConversationReaderWindow : Window
         }
     }
 
+    private void SnapTopHalf_Click(object sender, RoutedEventArgs e) => WindowSnap.TopHalf(this);
+
+    private void SnapBottomHalf_Click(object sender, RoutedEventArgs e) => WindowSnap.BottomHalf(this);
+
     protected override void OnClosed(EventArgs e)
     {
         if (_vm is not null)

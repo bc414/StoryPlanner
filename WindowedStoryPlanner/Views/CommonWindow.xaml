@@ -26,62 +26,7 @@
 
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
 
-        <!-- Mode button style -->
-        <Style x:Key="ModeButtonStyle" TargetType="Button">
-            <Setter Property="Padding"     Value="8,4"/>
-            <Setter Property="Margin"      Value="2,4"/>
-            <Setter Property="Width"    Value="90"/>
-            <Setter Property="Background"  Value="Transparent"/>
-            <Setter Property="Foreground"  Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
-            <Setter Property="BorderBrush" Value="{DynamicResource {x:Static SystemColors.ControlDarkBrushKey}}"/>
-            <Setter Property="BorderThickness" Value="1"/>
-            <Setter Property="Cursor"      Value="Hand"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border x:Name="Root"
-                                Background="{TemplateBinding Background}"
-                                BorderBrush="{TemplateBinding BorderBrush}"
-                                BorderThickness="{TemplateBinding BorderThickness}"
-                                CornerRadius="3"
-                                Padding="{TemplateBinding Padding}">
-                            <ContentPresenter HorizontalAlignment="Center"
-                                              VerticalAlignment="Center"
-                                              TextElement.Foreground="{TemplateBinding Foreground}"
-                                              TextElement.FontWeight="{TemplateBinding FontWeight}"/>
-                        </Border>
-                        <ControlTemplate.Triggers>
-                            <Trigger Property="IsMouseOver" Value="True">
-                                <Setter TargetName="Root" Property="Background" Value="#E0E0E0"/>
-                            </Trigger>
-                            <Trigger Property="IsPressed" Value="True">
-                                <Setter TargetName="Root" Property="Background" Value="#C8C8C8"/>
-                            </Trigger>
-                            <Trigger Property="IsEnabled" Value="False">
-                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
-                            </Trigger>
-                            <!-- Active + disabled: keep white text over the blue background -->
-                            <MultiTrigger>
-                                <MultiTrigger.Conditions>
-                                    <Condition Property="IsEnabled" Value="False"/>
-                                    <Condition Property="Tag"       Value="Active"/>
-                                </MultiTrigger.Conditions>
-                                <Setter Property="Foreground" Value="White"/>
-                            </MultiTrigger>
-                        </ControlTemplate.Triggers>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <!-- Active/selected mode -->
-                <Trigger Property="Tag" Value="Active">
-                    <Setter Property="Background"  Value="#00FF00"/>
-                    <Setter Property="Foreground"  Value="White"/>
-                    <Setter Property="FontWeight"  Value="SemiBold"/>
-                    <Setter Property="BorderBrush" Value="#005A9E"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
+        <!-- ModeButtonStyle lives in App.xaml — shared with ConversationReaderWindow -->
     </Window.Resources>
 
     <Grid>

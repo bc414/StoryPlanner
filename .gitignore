@@ -14,3 +14,16 @@ riderModule.iml
 /Additional Potential Conversations with Specs/
 /Selected_Chats/
 /conversations.json
+
+# Derived exports — regenerate on demand, never commit.
+# Story data: use the storyplanner MCP server (get_track_definitions,
+# list_subjects, list_themes, search_archive). Code: read the code.
+# These were deleted 2026-07-28; committing them again reintroduces the
+# staleness that caused the v1-Confirmed documentation error.
+/TheLionessOfTallTale*.md
+/TLTT v2-*.md
+/ModelClasses.txt
+/Models.txt
+/ViewModels.txt
+/run_stdout.log
+/run_stderr.log

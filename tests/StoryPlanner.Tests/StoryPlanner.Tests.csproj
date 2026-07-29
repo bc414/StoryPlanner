@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <RootNamespace>StoryPlanner.Tests</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
+        <PackageReference Include="xunit" Version="2.9.3" />
+        <PackageReference Include="xunit.runner.visualstudio" Version="3.1.5" />
+    </ItemGroup>
+
+    <!-- Mcp references Core transitively; both tiers live here because neither needs
+         infrastructure beyond a temp SQLite file. See .claude/skills/testing/SKILL.md. -->
+    <ItemGroup>
+        <ProjectReference Include="..\..\tools\StoryPlanner.Mcp\StoryPlanner.Mcp.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,3 +1,32 @@
 {
-  "model" : "opusplan"
+  "model": "opusplan",
+  "permissions": {
+    "allow": [
+      "Read(**)",
+      "Glob(**)",
+      "Grep(**)",
+      "Bash(dotnet build*)",
+      "Bash(dotnet test*)",
+      "Bash(dotnet ef*)",
+      "Bash(dotnet run*)",
+      "Write(.claude/**)",
+      "Edit(.claude/**)",
+      "mcp__storyplanner"
+    ],
+    "deny": []
+  },
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "mcp__storyplanner__.*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell",
+            "args": ["-NoProfile", "-File", ".claude/hooks/storyplanner-plan-mode-allow.ps1"]
+          }
+        ]
+      }
+    ]
+  }
 }

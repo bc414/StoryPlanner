@@ -1,5 +1,17 @@
 # Conversation Reader — Feature Spec for Story Planner v2
 
+> **HISTORICAL (banner added 2026-07-28). Built 2026-07 — do not update this file.**
+> It records the *intent* behind the Conversation Reader and is worth reading for that.
+> It is **not** an accurate description of what shipped. Known drift, per `FEATURE-AUDIT.md` §F:
+> - **`BlockSubjectMention` was never built** — only conversation-level `ConversationSubjectCoverage` exists, so the cross-conversation subject view (F2) that depends on it does not exist either.
+> - **`TrackTypesCsv` became a real junction table**, `ConversationSubjectCoverageTrack`, with an added `IsAdded` flag.
+> - **The subject/track coverage feature was abandoned in practice** — 4,062 coverage-track rows, `IsAdded = 0` on every one. Automated subject routing "turned out to not be helpful." Do not revive it.
+> - **`IgnoredConversation` and the Conversation Picker** are post-spec additions not described here.
+> - Multi-select bulk state ops (F3) and the unresolved-material dashboard metric (F4) were not built.
+>
+> What *is* live and actively used: the three-column reader, block-level triage via the F1–F4 keys (`BlockState`), WebView2 markdown rendering, and folder-pair import.
+> For current state, query the data (`storyplanner` MCP `list_conversations`) rather than trusting this document.
+
 ## Background
 
 Story Planner v2 has ~50 conversations (Gemini AI Studio + Claude) containing story-planning decisions that need to enter v2 as notes. These conversations are long (up to 37,000 lines), structurally opaque, and end-loaded — insights concentrate in later turns while earlier turns are setup, deliberation, and AI reformulation. Reading them serially (or backwards, which was the v1 workflow) is ineffective. The Conversation Reader makes the corpus navigable so the author can survey conversations holistically, identify which turns contain decisions worth reading in full, and work through the corpus systematically with progress tracking.

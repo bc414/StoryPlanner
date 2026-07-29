@@ -89,10 +89,29 @@
         <Border Grid.Row="0"
                 BorderBrush="#E0E0E0" BorderThickness="0,0,0,1"
                 Background="#F8F9FA" Padding="12,8">
-            <TextBlock Text="{Binding ArcSummary}"
-                       FontSize="13" Foreground="#333"
-                       TextWrapping="Wrap"
-                       MaxHeight="80"/>
+            <DockPanel>
+                <!-- Snap-to-half buttons — mirrors CommonWindow's pair.
+                     Docked first so the summary TextBlock fills what's left;
+                     top-aligned so they stay put when a long summary wraps. -->
+                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal"
+                            VerticalAlignment="Top" Margin="12,0,0,0">
+                    <Button x:Name="SnapTopHalfButton"
+                            Content="⬆ Top" Width="50"
+                            Style="{StaticResource ModeButtonStyle}"
+                            ToolTip="Snap window to top half of screen"
+                            Click="SnapTopHalf_Click"/>
+                    <Button x:Name="SnapBottomHalfButton"
+                            Content="⬇ Bot" Width="50"
+                            Style="{StaticResource ModeButtonStyle}"
+                            ToolTip="Snap window to bottom half of screen"
+                            Click="SnapBottomHalf_Click"/>
+                </StackPanel>
+
+                <TextBlock Text="{Binding ArcSummary}"
+                           FontSize="13" Foreground="#333"
+                           TextWrapping="Wrap"
+                           MaxHeight="80"/>
+            </DockPanel>
         </Border>
 
         <!-- ══ Four-column layout ══ -->
