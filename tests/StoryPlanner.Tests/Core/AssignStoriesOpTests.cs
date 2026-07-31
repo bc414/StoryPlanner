@@ -1,9 +1,7 @@
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 using StoryPlanner.DataOps;
-using StoryPlanner.DataOps.Ops;
 using Xunit;
 
 namespace StoryPlanner.Tests;

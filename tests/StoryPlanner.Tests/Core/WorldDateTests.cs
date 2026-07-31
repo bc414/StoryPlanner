@@ -1,9 +1,7 @@
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
-using StoryPlanner.Core.Timeline;
 using Xunit;
 
-namespace StoryPlanner.Tests.Core;
+namespace StoryPlanner.Tests;
 
 /// <summary>
 /// Pure tests for the structured world-date type: notation round-trip, the legacy converter's

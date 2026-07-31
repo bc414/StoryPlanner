@@ -1,0 +1,245 @@
+using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
+using GongSolutions.Wpf.DragDrop;
+using StoryPlanner.Core;
+using System.ComponentModel;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Data;
+
+namespace WindowedStoryPlanner;
+
+public partial class ChapterViewModel : NarrativeElementViewModel
+{
+    private readonly Chapter _chapter;
+    public Chapter Chapter => _chapter;
+
+    public ICollectionView? PlotPoints { get; private set; }
+
+    public int Id => _chapter.Id;
+
+    public ChapterViewModel(
+        Chapter chapter,
+        IViewModelRegistry viewModelRegistry,
+        IStoryService storyService,
+        IContentFactory editorCoordinator,
+        AppSettings appSettings,
+        ExportService exportService)
+        : base(viewModelRegistry, storyService, editorCoordinator, appSettings, exportService)
+    {
+        _chapter = chapter;
+
+        InitializeCollections(
+            chapter.Id,
+            OwnerType.Chapter,
+            () => storyService.NoteTrackDefinitions
+                .Where(ntd => ntd.OwnerType == OwnerType.Chapter)
+                .ToList(),
+            () => storyService.NarrativePropertyDefinitions
+                .Where(npd => npd.OwnerType == OwnerType.Chapter)
+                .ToList());
+
+        if (viewModelRegistry.IsStoryLoaded)
+            BuildPlotPointsView();
+    }
+
+    protected override void OnStoryFullyLoaded()
+    {
+        BuildPlotPointsView();
+    }
+
+    private void BuildPlotPointsView()
+    {
+        var view = new ListCollectionView(_viewModelRegistry.AllPlotPointViewModels)
+        {
+            Filter = FilterPlotPoints
+        };
+        view.SortDescriptions.Add(
+            new SortDescription(nameof(PlotPointViewModel.OrderInChapter), ListSortDirection.Ascending));
+        PlotPoints = view;
+        OnPropertyChanged(nameof(PlotPoints));
+    }
+
+    private bool FilterPlotPoints(object obj)
+    {
+        if (obj is not PlotPointViewModel plotPoint) return false;
+        return plotPoint.ChapterId == _chapter.Id;
+    }
+
+    // ── Properties ───────────────────────────────────────────────────────
+
+    public string FullTitle => $"{OrderIndex}. {Title}";
+
+    /// <summary>"{story reading order}.{chapter order}" — e.g. "3.12". Derived, never typed; see
+    /// the plan's rationale for why the chapter number must never live in the title again.</summary>
+    public string FullNumber
+    {
+        get
+        {
+            var storyOrder = _viewModelRegistry.AllStoryViewModels
+                .FirstOrDefault(s => s.Id == _chapter.StoryId)?.OrderIndex ?? 0;
+            return $"{storyOrder}.{OrderIndex}";
+        }
+    }
+
+    /// <summary>"{FullNumber} — {Title}" — for pickers (e.g. the Move… dialog's "relative to"
+    /// combo) where the bare number alone doesn't tell you which chapter it is.</summary>
+    public string FullNumberAndTitle => $"{FullNumber} — {Title}";
+
+    public string Title
+    {
+        get => _chapter.Title;
+        set
+        {
+            if (SetProperty(_chapter.Title, value, _chapter, (u, n) => u.Title = n))
+            {
+                OnPropertyChanged(nameof(FullTitle));
+                OnPropertyChanged(nameof(FullNumberAndTitle));
+            }
+        }
+    }
+
+    // 0 = "(Unassigned)" sentinel (see UnassignedStory) — a legal, permanent value.
+    public int StoryId
+    {
+        get => _chapter.StoryId;
+        set
+        {
+            if (SetProperty(_chapter.StoryId, value, _chapter, (c, n) => c.StoryId = n))
+            {
+                OnPropertyChanged(nameof(FullNumber));
+                OnPropertyChanged(nameof(FullNumberAndTitle));
+                _viewModelRegistry.RaiseLinksInvalidated();
+            }
+        }
+    }
+
+    public int OrderIndex
+    {
+        get => _chapter.OrderIndex;
+        set
+        {
+            if (SetProperty(_chapter.OrderIndex, value, _chapter, (u, n) => u.OrderIndex = n))
+            {
+                OnPropertyChanged(nameof(FullTitle));
+                OnPropertyChanged(nameof(FullNumber));
+                OnPropertyChanged(nameof(FullNumberAndTitle));
+                _viewModelRegistry.RaiseLinksInvalidated();
+            }
+        }
+    }
+
+    // ── Selection ────────────────────────────────────────────────────────
+
+    [ObservableProperty]
+    private PlotPointViewModel? _selectedPlotPoint;
+
+    // ── Commands ─────────────────────────────────────────────────────────
+
+    [RelayCommand]
+    public async Task AddPlotPoint()
+    {
+        // Determine the next sort order from the service layer so it is
+        // correct even if the window is not yet open (Sections not initialized).
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == _chapter.Id)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
+
+        await _editorCoordinator.CreatePlotPointAsync(_chapter.Id, nextOrder);
+    }
+
+    [RelayCommand]
+    private void MovePlotPointUp()
+    {
+        if (SelectedPlotPoint is null) return;
+
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter < SelectedPlotPoint.OrderInChapter)
+            .OrderByDescending(p => p.OrderInChapter)
+            .FirstOrDefault();
+
+        if (neighbor is null) return;
+
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+
+        PlotPoints.Refresh();
+    }
+
+    [RelayCommand]
+    private void MovePlotPointDown()
+    {
+        if (SelectedPlotPoint is null) return;
+
+        var neighbor = PlotPoints.Cast<PlotPointViewModel>()
+            .Where(p => p.OrderInChapter > SelectedPlotPoint.OrderInChapter)
+            .OrderBy(p => p.OrderInChapter)
+            .FirstOrDefault();
+
+        if (neighbor is null) return;
+
+        (SelectedPlotPoint.OrderInChapter, neighbor.OrderInChapter) =
+            (neighbor.OrderInChapter, SelectedPlotPoint.OrderInChapter);
+
+        PlotPoints.Refresh();
+    }
+
+    // ── Drag & Drop ──────────────────────────────────────────────────────
+
+    public override void DragOver(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is PlotPointViewModel plotPoint && plotPoint.ChapterId != _chapter.Id)
+        {
+            dropInfo.DropTargetAdorner = DropTargetAdorners.Highlight;
+            dropInfo.Effects = DragDropEffects.Move;
+        }
+        else
+        {
+            base.DragOver(dropInfo);
+        }
+    }
+
+    public override async void Drop(IDropInfo dropInfo)
+    {
+        if (dropInfo.Data is not PlotPointViewModel plotPoint)
+        {
+            base.Drop(dropInfo);
+            return;
+        }
+
+        int? oldChapterId = plotPoint.ChapterId;
+        bool isNewChapter = oldChapterId != _chapter.Id;
+
+        // Move to the end of this chapter
+        int nextOrder = _storyService.PlotPoints
+            .Where(p => p.ChapterId == _chapter.Id && p.Id != plotPoint.Id)
+            .Select(p => p.OrderInChapter)
+            .DefaultIfEmpty(0)
+            .Max() + 1;
+
+        plotPoint.ChapterId = _chapter.Id;
+        plotPoint.OrderInChapter = nextOrder;
+
+        // Compact the old chapter's ordering to remove the gap
+        if (isNewChapter && oldChapterId.HasValue)
+        {
+            var oldChapterPlotPoints = _viewModelRegistry.AllPlotPointViewModels
+                .Where(p => p.ChapterId == oldChapterId.Value)
+                .OrderBy(p => p.OrderInChapter)
+                .ToList();
+
+            for (int i = 0; i < oldChapterPlotPoints.Count; i++)
+                oldChapterPlotPoints[i].OrderInChapter = i + 1;
+
+            // Refresh the old chapter's list view if it is open
+            var oldChapterVm = _viewModelRegistry.AllChapterViewModels
+                .FirstOrDefault(c => c.Id == oldChapterId.Value);
+            oldChapterVm?.PlotPoints.Refresh();
+        }
+
+        PlotPoints.Refresh();
+    }
+}

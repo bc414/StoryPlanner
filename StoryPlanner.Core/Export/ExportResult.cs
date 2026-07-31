@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace StoryPlanner.Core.Export;
+namespace StoryPlanner.Core;
 
 public class ExportResult
 {

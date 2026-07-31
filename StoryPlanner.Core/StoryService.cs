@@ -6,7 +6,7 @@ using Google.Apis.Services;
 using Google.Apis.Upload;
 using Markdig;
 using Microsoft.EntityFrameworkCore;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
 namespace StoryPlanner.Core;
 

@@ -1,7 +1,6 @@
 using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 
 namespace StoryPlanner.Mcp;
 

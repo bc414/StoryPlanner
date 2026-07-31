@@ -1,4 +1,4 @@
-namespace StoryPlanner.Core.Models
+namespace StoryPlanner.Core
 {
     /// <summary>
     /// An authored year at which the world's causal regime changed — eras are DERIVED as the

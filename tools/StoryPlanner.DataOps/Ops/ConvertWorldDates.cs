@@ -1,9 +1,8 @@
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 
-namespace StoryPlanner.DataOps.Ops;
+namespace StoryPlanner.DataOps;
 
 /// <summary>
 /// The master-timeline data conversion, in three mechanical moves (config: configs/world-dates.v2.json):

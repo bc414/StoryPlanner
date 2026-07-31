@@ -1,6 +1,6 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace StoryPlanner.Core.Models;
+namespace StoryPlanner.Core;
 
 public partial class Idea : ObservableObject
 {

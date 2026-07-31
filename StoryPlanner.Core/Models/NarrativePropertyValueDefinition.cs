@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StoryPlanner.Core.Models
+namespace StoryPlanner.Core
 {
     /// <summary>
     /// Specifies a valid value for a particular property

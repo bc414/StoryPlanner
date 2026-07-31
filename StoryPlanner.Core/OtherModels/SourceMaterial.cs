@@ -1,4 +1,4 @@
-namespace StoryPlanner.Core.Models;
+namespace StoryPlanner.Core;
 
 public class SourceMaterial
 {

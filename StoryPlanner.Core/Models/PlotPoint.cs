@@ -2,7 +2,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using System.Text.Json.Serialization;
 
-namespace StoryPlanner.Core.Models;
+namespace StoryPlanner.Core;
 
 public class PlotPoint : INoteable
 {

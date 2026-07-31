@@ -1,4 +1,4 @@
-namespace StoryPlanner.Core.Models;
+namespace StoryPlanner.Core;
 
 /// <summary>
 /// A Claude conversation the user has explicitly marked as not story-related (programming

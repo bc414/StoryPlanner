@@ -50,6 +50,13 @@ World Law subject are the same C# class with different definition rows. The plan
 evolves by data entry rather than code change; that flexibility was the point. Editor modes are
 the same principle applied to the UI (see the wpf-conventions skill).
 
+**Code organization (2026-07-30): one flat namespace per project; feature-first folders.**
+Folders are organization, namespaces are assembly identity — decoupled on purpose so files move
+freely (`.editorconfig` suppresses the analyzers that fight this; sole exception:
+`StoryPlanner.Core.Migrations`, generated). WPF layer has no `Views/`/`ViewModels/` split —
+features own their folder (`Timeline/`, `Conversations/`, …) with `Shell/`, `Common/`,
+`Editing/` as the only horizontals. Rules and rationale: the `wpf-conventions` skill.
+
 *Accepted cost, decided at design time:* metadata-driven queries are less self-documenting.
 Filtering by `NoteTrackDefinitionId` reads worse than `IsOntologyTrack` would. Do not "fix" this.
 Rationale: `docs/design-conversations/019_…json` blocks 126–135.

@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
-namespace StoryPlanner.Core.Export;
+namespace StoryPlanner.Core;
 
 public static class NoteExportRenderer
 {

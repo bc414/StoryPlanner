@@ -1,7 +1,7 @@
 using System.Windows;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
-namespace WindowedStoryPlanner.Views;
+namespace WindowedStoryPlanner;
 
 public partial class GeminiEntryWindow : Window
 {

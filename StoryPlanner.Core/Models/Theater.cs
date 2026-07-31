@@ -1,4 +1,4 @@
-namespace StoryPlanner.Core.Models
+namespace StoryPlanner.Core
 {
     /// <summary>
     /// A timeline column — the x-axis coordinate of the master timeline. A display coordinate,

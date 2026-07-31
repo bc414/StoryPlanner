@@ -17,7 +17,7 @@ namespace StoryPlanner.Core.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.6");
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Chapter", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Chapter", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -35,10 +35,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Chapters");
+                    b.ToTable("Chapters", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Conversation", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Conversation", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -75,10 +75,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Conversations");
+                    b.ToTable("Conversations", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.ConversationBlock", b =>
+            modelBuilder.Entity("StoryPlanner.Core.ConversationBlock", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -113,10 +113,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ConversationBlocks");
+                    b.ToTable("ConversationBlocks", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.ConversationSubjectCoverage", b =>
+            modelBuilder.Entity("StoryPlanner.Core.ConversationSubjectCoverage", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -130,10 +130,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ConversationSubjectCoverages");
+                    b.ToTable("ConversationSubjectCoverages", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.ConversationSubjectCoverageTrack", b =>
+            modelBuilder.Entity("StoryPlanner.Core.ConversationSubjectCoverageTrack", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -150,10 +150,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ConversationSubjectCoverageTracks");
+                    b.ToTable("ConversationSubjectCoverageTracks", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.GeminiEntry", b =>
+            modelBuilder.Entity("StoryPlanner.Core.GeminiEntry", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -175,10 +175,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("GeminiEntries");
+                    b.ToTable("GeminiEntries", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Idea", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Idea", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -192,10 +192,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Ideas");
+                    b.ToTable("Ideas", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.IgnoredConversation", b =>
+            modelBuilder.Entity("StoryPlanner.Core.IgnoredConversation", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -211,10 +211,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("IgnoredConversations");
+                    b.ToTable("IgnoredConversations", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NarrativePropertyDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NarrativePropertyDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -240,10 +240,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("NarrativePropertyDefinitions");
+                    b.ToTable("NarrativePropertyDefinitions", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NarrativePropertyValue", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NarrativePropertyValue", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -257,10 +257,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("NarrativePropertyValues");
+                    b.ToTable("NarrativePropertyValues", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NarrativePropertyValueDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NarrativePropertyValueDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -279,10 +279,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("NarrativePropertyValueDefinitions");
+                    b.ToTable("NarrativePropertyValueDefinitions", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Note", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Note", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -344,10 +344,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Notes");
+                    b.ToTable("Notes", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NoteTrackDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NoteTrackDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -413,10 +413,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("NoteTrackDefinitions");
+                    b.ToTable("NoteTrackDefinitions", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Pivot", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Pivot", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -435,10 +435,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Pivots");
+                    b.ToTable("Pivots", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.PlotPoint", b =>
+            modelBuilder.Entity("StoryPlanner.Core.PlotPoint", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -468,10 +468,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PlotPoints");
+                    b.ToTable("PlotPoints", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.PlotPointSubjectLink", b =>
+            modelBuilder.Entity("StoryPlanner.Core.PlotPointSubjectLink", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -485,10 +485,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("PlotPointSubjectLinks");
+                    b.ToTable("PlotPointSubjectLinks", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.SourceMaterial", b =>
+            modelBuilder.Entity("StoryPlanner.Core.SourceMaterial", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -504,10 +504,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SourceMaterials");
+                    b.ToTable("SourceMaterials", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Story", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Story", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -530,10 +530,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Stories");
+                    b.ToTable("Stories", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Subject", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Subject", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -563,10 +563,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Subjects");
+                    b.ToTable("Subjects", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.SubjectDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.SubjectDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -581,10 +581,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SubjectDefinitions");
+                    b.ToTable("SubjectDefinitions", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Theater", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Theater", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -603,10 +603,10 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Theaters");
+                    b.ToTable("Theaters", (string)null);
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Theme", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Theme", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -622,7 +622,7 @@ namespace StoryPlanner.Core.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Themes");
+                    b.ToTable("Themes", (string)null);
                 });
 #pragma warning restore 612, 618
         }

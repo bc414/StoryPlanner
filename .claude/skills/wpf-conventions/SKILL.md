@@ -5,10 +5,43 @@ description: Conventions for the WindowedStoryPlanner WPF/MVVM layer — the Vie
 
 # WindowedStoryPlanner conventions
 
-WPF, `net10.0-windows`, MVVM via CommunityToolkit.Mvvm source generators. 51 view models, 6
+WPF, `net10.0-windows`, MVVM via CommunityToolkit.Mvvm source generators. ~60 view models, 6
 interfaces, **two shallow inheritance families**. The conventions below are already consistent
 across the codebase — they just weren't written down, which is the condition under which a
 session invents a second way of doing the same thing.
+
+## File and folder organization (adopted 2026-07-30 — see `.editorconfig`)
+
+**One flat namespace per project.** Everything in this project is `namespace WindowedStoryPlanner`,
+everything in Core is `StoryPlanner.Core`, regardless of folder (sole exception:
+`StoryPlanner.Core.Migrations`, which dotnet-ef generates into). Folders are feature
+organization; namespaces are assembly identity; the two are decoupled so files move freely
+without touching a using directive or a XAML reference. The `.editorconfig` suppresses the
+analyzers that fight this — do not "fix" a namespace to match its folder. In XAML there are
+exactly two prefixes for our own code: `local:` (this assembly) and `core:` (StoryPlanner.Core).
+Never introduce `vm:`/`v:`-style prefixes again.
+
+**Feature-first folders, no Views/ or ViewModels/ parents.** A feature's views, view models, and
+controls live together in one folder — the folder is the working set, the grep scope, and the
+diff. Current layout: `Shell/` (app composition: MainWindow, locator, registry, window manager,
+settings), `Common/` (genuinely shared machinery: converters, behaviors, NoteView, pickers,
+ContentFactory/Deleter, TaggedNotesViewModelBase), `Editing/` (the entity-editor machinery —
+NarrativeElement family, note tracks, CommonWindow, widgets — deliberately framed as a feature:
+the libraries are thin browsers over it), then one folder per feature: `Subjects/ Chapters/
+Stories/ PlotPoints/ Themes/ Sources/ Definitions/ Files/ Conversations/ Export/ Timeline/`.
+Root keeps only `App.xaml`, `Styles.xaml`, `AssemblyInfo.cs`, and quarantined dead code.
+
+The rules that keep it healthy:
+
+1. **One public class per file, file named for the class.** With flat namespaces, filename is
+   how a type is found — this rule is load-bearing, not cosmetic.
+2. **A feature with more than ~3 files gets a folder; never create a folder ahead of need**
+   (the old empty `NewViewModels/` was the cautionary tale).
+3. **`Common/` admits a file only on second use.** Promotion, never speculation — otherwise it
+   becomes the junk drawer the reorganization existed to kill.
+4. **`Models/` in Core stays flat and shared, permanently.** Row vessels are polymorphically
+   owned and deliberately not feature-owned; moving `Note.cs` into a feature folder would
+   misstate the architecture.
 
 **The architecture this layer sits on is deliberate.** Model classes have no navigation
 properties, the schema has no foreign keys and no indexes, and note ownership is polymorphic.

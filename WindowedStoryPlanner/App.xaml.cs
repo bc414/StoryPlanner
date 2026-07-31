@@ -8,9 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
-using WindowedStoryPlanner.ViewModels;
-using WindowedStoryPlanner.Views;
+using WindowedStoryPlanner;
 
 namespace WindowedStoryPlanner;
 

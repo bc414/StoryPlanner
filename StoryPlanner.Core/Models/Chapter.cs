@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace StoryPlanner.Core.Models;
+namespace StoryPlanner.Core;
 
 public class Chapter
 {

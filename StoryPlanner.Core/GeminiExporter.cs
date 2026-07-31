@@ -1,7 +1,6 @@
 using System.Text;
 using System.Text.Json;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 
 public class GeminiExporter
 {

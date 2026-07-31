@@ -1,6 +1,4 @@
 using StoryPlanner.Core;
-using StoryPlanner.Core.Export;
-using StoryPlanner.Core.Models;
 using Xunit;
 
 namespace StoryPlanner.Tests;

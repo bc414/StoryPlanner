@@ -1,5 +1,5 @@
 using System.Collections.ObjectModel;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
 namespace StoryPlanner.Core;
 

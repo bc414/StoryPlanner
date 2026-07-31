@@ -1,9 +1,8 @@
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 
-namespace StoryPlanner.DataOps.Ops;
+namespace StoryPlanner.DataOps;
 
 /// <summary>
 /// Creates the timeline's Theater rows and Pivot rows from a config Brian has reviewed

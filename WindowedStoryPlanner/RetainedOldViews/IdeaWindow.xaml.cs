@@ -1,6 +1,6 @@
 using System.Windows;
 
-namespace WindowedStoryPlanner.Views;
+namespace WindowedStoryPlanner;
 
 public partial class IdeaWindow : Window
 {

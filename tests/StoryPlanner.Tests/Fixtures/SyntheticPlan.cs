@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 
 using StoryPlanner.Mcp;
 

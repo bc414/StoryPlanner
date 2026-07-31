@@ -3,7 +3,7 @@ using CommunityToolkit.Mvvm.Input;
 using System.Text.Json.Serialization;
 using System;
 
-namespace StoryPlanner.Core.Models;
+namespace StoryPlanner.Core;
 
 public class Note
 {

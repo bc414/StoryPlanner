@@ -1,4 +1,4 @@
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 using System.Text.Json.Serialization;
 
 namespace StoryPlanner.Core;

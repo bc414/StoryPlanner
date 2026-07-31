@@ -3,7 +3,6 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.Extensions.DependencyInjection;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 using Xunit;
 
 namespace StoryPlanner.Tests;

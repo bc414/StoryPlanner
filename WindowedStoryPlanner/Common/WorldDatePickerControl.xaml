@@ -1,0 +1,89 @@
+<UserControl x:Class="WindowedStoryPlanner.WorldDatePickerControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WindowedStoryPlanner"
+             mc:Ignorable="d"
+             x:Name="Root"
+             d:DataContext="{d:DesignInstance Type=local:NoteViewModel}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+        <Style x:Key="PartBox" TargetType="TextBox">
+            <Setter Property="Width" Value="44"/>
+            <Setter Property="Margin" Value="2,0,0,0"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <!-- The expander button that lives next to the compact notation field -->
+        <ToggleButton x:Name="OpenToggle" Content="▾" Width="18" Height="18" Padding="0"
+                      FontSize="9" Background="Transparent" BorderThickness="0" Foreground="#666"
+                      ToolTip="Open the full date editor (a second path to the same date — the compact field and this write the same structure)"/>
+
+        <Popup IsOpen="{Binding IsChecked, ElementName=OpenToggle, Mode=TwoWay}"
+               StaysOpen="False" Placement="Bottom" PlacementTarget="{Binding ElementName=OpenToggle}"
+               Opened="Popup_Opened" AllowsTransparency="True">
+            <Border Background="White" BorderBrush="#BBB" BorderThickness="1" CornerRadius="4"
+                    Padding="10" Margin="0,2,8,8">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="8" ShadowDepth="2" Opacity="0.25"/>
+                </Border.Effect>
+                <StackPanel>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock Grid.Row="0" Grid.Column="1" Text="Year" FontSize="10" Foreground="#888" Margin="4,0,0,1"/>
+                        <TextBlock Grid.Row="0" Grid.Column="2" Text="Month" FontSize="10" Foreground="#888" Margin="4,0,0,1"/>
+                        <TextBlock Grid.Row="0" Grid.Column="3" Text="Day" FontSize="10" Foreground="#888" Margin="4,0,0,1"/>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Start" FontSize="12" VerticalAlignment="Center"/>
+                        <TextBox Grid.Row="1" Grid.Column="1" x:Name="StartYear" Style="{StaticResource PartBox}"
+                                 TextChanged="AnyPart_TextChanged" ToolTip="Required first — year is the precision floor. Negative = BLB, 0 = the banishment."/>
+                        <TextBox Grid.Row="1" Grid.Column="2" x:Name="StartMonth" Style="{StaticResource PartBox}"
+                                 TextChanged="AnyPart_TextChanged" ToolTip="1-12, or empty for 'to be determined'"/>
+                        <TextBox Grid.Row="1" Grid.Column="3" x:Name="StartDay" Style="{StaticResource PartBox}"
+                                 TextChanged="AnyPart_TextChanged" ToolTip="1-31, or empty for 'to be determined'"/>
+
+                        <!-- End row only exists on condition tracks — the track is the discriminator -->
+                        <TextBlock Grid.Row="2" Grid.Column="0" Text="End" FontSize="12" VerticalAlignment="Center" Margin="0,4,0,0"
+                                   Visibility="{Binding Note.SupportsWorldDateEnd, ElementName=Root, Converter={StaticResource BoolToVis}}"/>
+                        <TextBox Grid.Row="2" Grid.Column="1" x:Name="EndYear" Style="{StaticResource PartBox}" Margin="2,4,0,0"
+                                 TextChanged="AnyPart_TextChanged" ToolTip="Empty = in force, end to be determined"
+                                 Visibility="{Binding Note.SupportsWorldDateEnd, ElementName=Root, Converter={StaticResource BoolToVis}}"/>
+                        <TextBox Grid.Row="2" Grid.Column="2" x:Name="EndMonth" Style="{StaticResource PartBox}" Margin="2,4,0,0"
+                                 TextChanged="AnyPart_TextChanged"
+                                 Visibility="{Binding Note.SupportsWorldDateEnd, ElementName=Root, Converter={StaticResource BoolToVis}}"/>
+                        <TextBox Grid.Row="2" Grid.Column="3" x:Name="EndDay" Style="{StaticResource PartBox}" Margin="2,4,0,0"
+                                 TextChanged="AnyPart_TextChanged"
+                                 Visibility="{Binding Note.SupportsWorldDateEnd, ElementName=Root, Converter={StaticResource BoolToVis}}"/>
+                    </Grid>
+
+                    <!-- Live preview of the notation this will write, or why it can't -->
+                    <TextBlock x:Name="Preview" FontSize="11" Foreground="#555" Margin="0,8,0,0"
+                               TextWrapping="Wrap" MaxWidth="260"/>
+
+                    <StackPanel Orientation="Horizontal" Margin="0,8,0,0" HorizontalAlignment="Right">
+                        <Button Content="Clear date" Click="Clear_Click" Padding="8,2" FontSize="11"
+                                ToolTip="Undated is a valid, long-lived state — this clears, it does not zero"/>
+                        <Button Content="Cancel" Click="Cancel_Click" Padding="8,2" FontSize="11" Margin="6,0,0,0"/>
+                        <Button x:Name="ApplyBtn" Content="Apply" Click="Apply_Click" Padding="10,2" FontSize="11"
+                                Margin="6,0,0,0" FontWeight="SemiBold"/>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+    </Grid>
+</UserControl>

@@ -267,6 +267,36 @@ widths were unified at 360px so pinning never resizes it either.
   mistake bit twice more: `-match "pin"` also matches "Un**pin** all", so an automated pin was
   immediately undone by its own next iteration.
 
+## 2026-07-30 night — flat namespaces + feature-first reorganization (Brian's call, whole repo)
+
+Modeled on TheCanalaveLibrary after comparing its structure: adopted the flat-namespace
+convention and feature folders; rejected as overkill its DTO/interface proliferation (wire-
+boundary artifacts this app deliberately lacks), per-slice folders in the small projects, and
+the status-grid process apparatus.
+
+- **One flat namespace per project**, folders decoupled from namespaces. 233 files rewritten by
+  script; all XAML normalized to exactly two own-code prefixes (`local:`, `core:`). Exception:
+  `StoryPlanner.Core.Migrations` (dotnet-ef generates into it).
+- **EF snapshot hazard handled**: the model snapshot records entities by full CLR name, so the
+  type-name STRINGS inside `Migrations/` were rewritten with the types while the migration
+  namespace stayed put — verified by generating a probe migration afterward, confirming its
+  `Up()` was EMPTY (zero perceived model drift), then removing it. Without the string rewrite,
+  the next real migration would have diffed as drop-and-recreate of every table.
+- **Feature-first layout in WindowedStoryPlanner** (the `Views/`/`ViewModels/` parents are gone):
+  `Shell/`, `Common/`, `Editing/`, plus `Subjects/ Chapters/ Stories/ PlotPoints/ Themes/
+  Sources/ Definitions/ Files/ Conversations/ Export/ Timeline/`. All moves via `git mv` so
+  history follows. csproj cleanup: dead `NewViewModels` declaration and the `MainWindow` Page
+  pin removed.
+- **TimelineViewModel.cs split** under the new one-class-per-file rule: 24 types → 24 files in
+  `Timeline/`; the VM file now holds only the VM (981 lines — the `Rebuild()` extraction plus
+  projection tests remain the audit's next item).
+- Rules written into the `wpf-conventions` skill + CLAUDE.md; `.editorconfig` created with the
+  analyzer suppressions and rationale (the analyzers otherwise prompt exactly the "fix" the
+  convention forbids).
+- **Verified**: full solution builds, 157/157 tests, probe migration empty, and a runtime smoke
+  test (launch → Timeline tab builds its canvas → Conversations tab loads) — compiled-XAML
+  resource lookup being the one thing a build can't prove.
+
 ## Deliberate scope cuts (deferred, not forgotten — all in plan §6, none load-bearing for v1)
 
 - ~~**Era-range collapse**~~ — **built 2026-07-30 evening**, see above.

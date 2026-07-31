@@ -1,4 +1,4 @@
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 using Xunit;
 
 using StoryPlanner.Mcp;

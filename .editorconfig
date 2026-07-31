@@ -1,0 +1,20 @@
+root = true
+
+# This solution uses ONE FLAT NAMESPACE PER PROJECT (WindowedStoryPlanner, StoryPlanner.Core,
+# StoryPlanner.Mcp, StoryPlanner.DataOps, StoryPlanner.Tests) regardless of folder — folders are
+# feature organization, namespaces are assembly identity, and the two are deliberately decoupled
+# so files move freely without touching a single using directive or XAML clr-namespace reference.
+# (Adopted 2026-07-30 from TheCanalaveLibrary's convention; rationale in the wpf-conventions
+# skill.) The analyzers below actively fight this convention and will otherwise prompt "fix
+# namespace" suggestions that re-introduce folder-based namespaces — do not re-enable them.
+#
+# The ONE exception: StoryPlanner.Core/Migrations keeps StoryPlanner.Core.Migrations, because
+# dotnet-ef generates new migrations into that namespace and regenerating tooling should not
+# fight the convention either.
+
+[*.cs]
+dotnet_style_namespace_match_folder = false
+dotnet_diagnostic.IDE0130.severity = none
+
+# Rider/ReSharper's equivalent inspection
+resharper_check_namespace_highlighting = none

@@ -1,9 +1,8 @@
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
-using StoryPlanner.Core.Models;
 
-namespace StoryPlanner.DataOps.Ops;
+namespace StoryPlanner.DataOps;
 
 /// <summary>
 /// Groups an existing flat <c>Chapter.OrderIndex</c> run into stories, per a config file Brian

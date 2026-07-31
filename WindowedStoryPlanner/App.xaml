@@ -2,9 +2,6 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WindowedStoryPlanner"
-             xmlns:v="clr-namespace:WindowedStoryPlanner.Views"
-             xmlns:vm="clr-namespace:WindowedStoryPlanner.ViewModels"
-             xmlns:behaviors="clr-namespace:WindowedStoryPlanner.Views.Behaviors"
              ShutdownMode="OnMainWindowClose">
 
     <Application.Resources>
@@ -13,10 +10,10 @@
                 <ResourceDictionary Source="Styles.xaml"/>
             </ResourceDictionary.MergedDictionaries>
 
-            <v:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
-            <v:CanMoveToChapterConverter x:Key="TypeCheckConverter"/>
-            <v:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
-            <v:IsFloatingWindowConverter x:Key="IsFloatingWindowConverter"/>
+            <local:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+            <local:CanMoveToChapterConverter x:Key="TypeCheckConverter"/>
+            <local:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
+            <local:IsFloatingWindowConverter x:Key="IsFloatingWindowConverter"/>
 
             <!-- Picker button style: small icon button used by navigation pickers across all windows -->
             <Style x:Key="PickerButtonStyle" TargetType="Button">
@@ -110,11 +107,11 @@
             </Style>
 
             <Style TargetType="TextBox" BasedOn="{StaticResource {x:Type TextBox}}">
-                <Setter Property="behaviors:ScrollPassthroughBehavior.Enabled" Value="True"/>
+                <Setter Property="local:ScrollPassthroughBehavior.Enabled" Value="True"/>
             </Style>
 
             <Style TargetType="ListBox" BasedOn="{StaticResource {x:Type ListBox}}">
-                <Setter Property="behaviors:ScrollPassthroughBehavior.Enabled" Value="True"/>
+                <Setter Property="local:ScrollPassthroughBehavior.Enabled" Value="True"/>
             </Style>
 
         </ResourceDictionary>

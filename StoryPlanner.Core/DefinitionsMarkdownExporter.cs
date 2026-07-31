@@ -1,5 +1,5 @@
 ﻿using System.Text;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
 namespace StoryPlanner.Core;
 

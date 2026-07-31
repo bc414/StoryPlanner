@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StoryPlanner.Core.Models
+namespace StoryPlanner.Core
 {
     /// <summary>
     /// Represents a field on an entity that has to be assigned a value

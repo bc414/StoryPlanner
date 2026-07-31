@@ -1,6 +1,6 @@
 using System.Windows.Controls;
 
-namespace WindowedStoryPlanner.Views;
+namespace WindowedStoryPlanner;
 
 public partial class IdeaCard : UserControl
 {

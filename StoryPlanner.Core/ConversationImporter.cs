@@ -1,7 +1,7 @@
 using System.Collections.ObjectModel;
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
 namespace StoryPlanner.Core;
 

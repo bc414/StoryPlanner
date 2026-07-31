@@ -1,7 +1,7 @@
 using System.ComponentModel;
 using System.Text;
 using ModelContextProtocol.Server;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
 namespace StoryPlanner.Mcp;
 

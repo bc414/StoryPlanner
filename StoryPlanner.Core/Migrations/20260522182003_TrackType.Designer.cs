@@ -20,7 +20,7 @@ namespace StoryPlanner.Core.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "10.0.6");
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Chapter", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Chapter", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -38,7 +38,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("Chapters");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.GeminiEntry", b =>
+            modelBuilder.Entity("StoryPlanner.Core.GeminiEntry", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -63,7 +63,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("GeminiEntries");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Idea", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Idea", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -80,7 +80,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("Ideas");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NarrativePropertyDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NarrativePropertyDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -109,7 +109,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("NarrativePropertyDefinitions");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NarrativePropertyValue", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NarrativePropertyValue", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -126,7 +126,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("NarrativePropertyValues");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NarrativePropertyValueDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NarrativePropertyValueDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -148,7 +148,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("NarrativePropertyValueDefinitions");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Note", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Note", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -192,7 +192,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("Notes");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.NoteTrackDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.NoteTrackDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -243,7 +243,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("NoteTrackDefinitions");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.PlotPoint", b =>
+            modelBuilder.Entity("StoryPlanner.Core.PlotPoint", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -264,7 +264,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("PlotPoints");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.PlotPointSubjectLink", b =>
+            modelBuilder.Entity("StoryPlanner.Core.PlotPointSubjectLink", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -281,7 +281,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("PlotPointSubjectLinks");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.SourceMaterial", b =>
+            modelBuilder.Entity("StoryPlanner.Core.SourceMaterial", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -304,7 +304,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("SourceMaterials");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Subject", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Subject", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -334,7 +334,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("Subjects");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.SubjectDefinition", b =>
+            modelBuilder.Entity("StoryPlanner.Core.SubjectDefinition", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -352,7 +352,7 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("SubjectDefinitions");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.Models.Theme", b =>
+            modelBuilder.Entity("StoryPlanner.Core.Theme", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

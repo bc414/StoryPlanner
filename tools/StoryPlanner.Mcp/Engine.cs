@@ -1,6 +1,6 @@
 using System.Text;
 using System.Text.RegularExpressions;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
 namespace StoryPlanner.Mcp;
 

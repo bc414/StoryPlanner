@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
-namespace StoryPlanner.Core.Timeline;
+namespace StoryPlanner.Core;
 
 /// <summary>
 /// An era is the interval between two consecutive pivots — derived, never stored. StartYear is

@@ -1,8 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
-using StoryPlanner.Core.Models;
+using StoryPlanner.Core;
 
-namespace StoryPlanner.Core.Export;
+namespace StoryPlanner.Core;
 
 public class ExportConfiguration
 {

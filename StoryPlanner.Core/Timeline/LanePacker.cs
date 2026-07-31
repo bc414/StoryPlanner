@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace StoryPlanner.Core.Timeline;
+namespace StoryPlanner.Core;
 
 /// <summary>
 /// Greedy interval packing for one lane pool: sort by start (longest-first on ties), assign
