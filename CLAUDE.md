@@ -67,9 +67,22 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   ~40% name overlap, and no join is wanted.
 - **The scene graph is in v1** (1,125 links); v2 holds the taxonomy. Migrating it is Brian's
   future authorial work — matching v1 links to v2 subjects/plot points is categorization, not a
-  mechanical operation, and no tool should propose the mapping. **The 106 track definitions are
-  final; the data is in flux.**
-- **`WorldDate` is free text** — `993`, `-100-0`, `870-928`. Sorts wrong lexicographically.
+  mechanical operation, and no tool should propose the mapping. **The track definitions are
+  final in shape** (the 2026-07-30 event/condition split of the six History tracks was a
+  definition-row change, not a schema change — the design's whole point); the data is in flux.
+- **World dates are structured** (2026-07-30): `Start(Y,M?,D?)` + optional `End` columns on
+  `Note`, event-only `Fabula*` on `PlotPoint`. Year is the precision floor; nulls mean "to be
+  determined", never "approximately". Whether a date is an event or a condition is the TRACK
+  (`SupportsWorldDateEnd`), never a field on the value — and plot points are always events (a
+  plot point wanting a span is holding more than one scene). Notation: `1007`, `1007-03-15`,
+  `854..914`, `1007..`; negative = BLB, `0` = the banishment. The legacy free-text `WorldDate`
+  string column survives only until the `convert-world-dates` DataOps op has run per file
+  (unconvertible strings stay in it, surfaced by the Timeline tab's triage panel); all read
+  paths prefer structured and legacy-convert mechanically — flag, never guess.
+- **Timeline x-axis**: `Subject.TheaterId` / `PlotPoint.TheaterId` (sentinel `0` =
+  "(Unplaced)", same pattern as `Chapter.StoryId`). Theater assignment is authorial — never
+  derive it from names. `Pivot` rows are authored years; eras are DERIVED as the gaps between
+  pivots, never stored.
 - **0 `Confirmed` notes in v2 is not a defect** — Audit is the only mode that can promote to
   Confirmed, and no audit pass has run. Surprising ≠ broken.
 

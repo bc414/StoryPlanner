@@ -11,6 +11,8 @@ public interface IStoryService : IDisposable
     ObservableCollection<PlotPointSubjectLink> PlotPointsSubjectLinks { get; }
     ObservableCollection<Chapter> Chapters { get; }
     ObservableCollection<Story> Stories { get; }
+    ObservableCollection<Theater> Theaters { get; }
+    ObservableCollection<Pivot> Pivots { get; }
     ObservableCollection<Note> Notes { get; }
     ObservableCollection<SubjectDefinition> SubjectDefinitions { get; }
     ObservableCollection<NoteTrackDefinition> NoteTrackDefinitions { get; }

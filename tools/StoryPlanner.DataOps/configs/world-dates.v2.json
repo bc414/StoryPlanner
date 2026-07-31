@@ -1,0 +1,81 @@
+{
+  "_comment": "Track split for the master timeline: each History track becomes an event track (the existing row, id preserved — the 288 point-dated notes stay put) plus a NEW condition track (legacy range notes are re-filed onto it). Track names and display questions below are Claude's overnight drafts against the plan's requirements — reword freely; re-running the op with edited prose updates the rows in place (idempotent).",
+  "trackSplits": [
+    {
+      "sourceTrackId": 2,
+      "_subjectType": "Character (was: Backstory)",
+      "event": {
+        "trackName": "Backstory",
+        "displayQuestion": "What happened to this character before the start of TLTT, and when?"
+      },
+      "condition": {
+        "trackName": "Life Phases",
+        "displayQuestion": "Over what periods was a sustained state true of this character's life (an upbringing, an occupation, an exile), from when to when?",
+        "usageDirective": "Revelations should draw from here.",
+        "auditDirective": "All backstory should have a reveal somewhere in the project."
+      }
+    },
+    {
+      "sourceTrackId": 61,
+      "_subjectType": "Bond (was: History)",
+      "event": {
+        "trackName": "History",
+        "displayQuestion": "What happened between the two characters before the story starts, and when?"
+      },
+      "condition": {
+        "trackName": "Relationship Phases",
+        "displayQuestion": "Over what periods did a sustained state of the relationship hold (estrangement, partnership, rivalry), from when to when?"
+      }
+    },
+    {
+      "sourceTrackId": 43,
+      "_subjectType": "Civilizational System (was: History)",
+      "event": {
+        "trackName": "History",
+        "displayQuestion": "When was the system established, reformed, or brought down — what happened, and when?"
+      },
+      "condition": {
+        "trackName": "Conditions In Force",
+        "displayQuestion": "Over what period was the system in force, and what standing effects did it have on the story world while it held?"
+      }
+    },
+    {
+      "sourceTrackId": 52,
+      "_subjectType": "Organization (was: History)",
+      "event": {
+        "trackName": "History",
+        "displayQuestion": "What happened to the organization — formation, splits, turning points, dissolution — and when? (Can be empty if formed during TLTT)"
+      },
+      "condition": {
+        "trackName": "Activities",
+        "displayQuestion": "Over what periods was the organization operating, and what was it doing while it operated?"
+      }
+    },
+    {
+      "sourceTrackId": 32,
+      "_subjectType": "Technology (was: History)",
+      "event": {
+        "trackName": "Invention",
+        "displayQuestion": "When was it invented, adopted, banned, or superseded — what happened, and when?"
+      },
+      "condition": {
+        "trackName": "Usage",
+        "displayQuestion": "Over what period was it in use, and by whom?"
+      }
+    },
+    {
+      "sourceTrackId": 22,
+      "_subjectType": "World Law (was: Historical Study)",
+      "event": {
+        "trackName": "Discoveries",
+        "displayQuestion": "When did in-universe study of this world truth advance — who discovered or established what, and when?",
+        "usageDirective": "What the characters say on page should not contradict the in-universe timeline of understanding and study established here. Refer to the world date."
+      },
+      "condition": {
+        "trackName": "Historical Study",
+        "displayQuestion": "Over what periods did a given in-universe understanding of the world truth hold, and how did characters' understanding evolve across them?",
+        "usageDirective": "What the characters say on page should not contradict the in-universe timeline of understanding and study established here. Refer to the world date."
+      }
+    }
+  ]
+}

@@ -57,6 +57,8 @@ public class SchemaTruthTests
     }
 
     // ── WorldDate: mechanical parse, never a guess ──────────────────────────
+    // Legacy free-text values are converted on read via Core's WorldDateLegacy (shared with
+    // the DataOps conversion op) until a file has been converted; these prove the fallback.
 
     [Theory]
     [InlineData("993", 993, 993)]
@@ -66,13 +68,13 @@ public class SchemaTruthTests
     [InlineData("-100-0", -100, 0)]
     [InlineData("0-100", 0, 100)]
     [InlineData("  993  ", 993, 993)]
-    public void WorldDate_parses_years_and_ranges_including_negatives(string raw, int start, int end)
+    public void Legacy_WorldDate_reads_years_and_ranges_including_negatives(string raw, int start, int end)
     {
-        var (s, e, parsed) = Query.ParseWorldDate(raw);
+        var date = Query.EffectiveWorldDate(new Note { WorldDate = raw });
 
-        Assert.True(parsed);
-        Assert.Equal(start, s);
-        Assert.Equal(end, e);
+        Assert.NotNull(date);
+        Assert.Equal(start, date!.Value.Start!.Value.Year);
+        Assert.Equal(end, (date.Value.End ?? date.Value.Start)!.Value.Year);
     }
 
     [Theory]
@@ -81,20 +83,24 @@ public class SchemaTruthTests
     [InlineData("sometime after the war")]
     [InlineData("early spring")]
     [InlineData("993ish")]
-    public void WorldDate_flags_unparseable_values_rather_than_guessing(string raw)
+    public void Legacy_WorldDate_flags_unparseable_values_rather_than_guessing(string raw)
     {
-        var (s, e, parsed) = Query.ParseWorldDate(raw);
+        Assert.Null(Query.EffectiveWorldDate(new Note { WorldDate = raw }));
+    }
 
-        Assert.False(parsed);
-        Assert.Equal(0, s);
-        Assert.Equal(0, e);
+    [Fact]
+    public void Structured_date_wins_over_legacy_text_when_both_exist()
+    {
+        var note = new Note { WorldDate = "993", WorldDateStartYear = 1007 };
+        Assert.Equal(1007, Query.EffectiveWorldDate(note)!.Value.Start!.Value.Year);
     }
 
     [Fact]
     public void WorldDate_label_marks_unparsed_values_visibly()
     {
-        Assert.Contains("(unparsed)", Query.WorldDateLabel("sometime after the war"));
-        Assert.DoesNotContain("(unparsed)", Query.WorldDateLabel("993"));
+        Assert.Contains("(unparsed)", Query.WorldDateLabel(new Note { WorldDate = "sometime after the war" }));
+        Assert.DoesNotContain("(unparsed)", Query.WorldDateLabel(new Note { WorldDate = "993" }));
+        Assert.Equal("", Query.WorldDateLabel(new Note()));
     }
 
     [Fact]

@@ -31,6 +31,13 @@ public static class ServerInfo
         cross-referenced: a story of the same name in the working plan and the archive are
         unrelated rows with no shared id, exactly like subjects and notes.
 
+        Subjects and plot points carry a THEATER (list_theaters) — the master timeline's x-axis,
+        a display coordinate ordered by narrative density, not a taxonomy. TheaterId 0 is
+        "(Unplaced)": the author has not placed it, often because placement is genuinely
+        undecided. Placement is authorial — never infer or propose it from a subject's name.
+        Pivots are authored years where the world's causal regime changed; eras are DERIVED as
+        the gaps between consecutive pivots and are never stored or named.
+
         Flagged notes are open questions, not settled lore: ordinary tools never return their
         content or flag reasons, and instead disclose per-track flagged tallies. Retrieve them
         deliberately via list_open_questions / get_open_questions (flag reasons often contain
@@ -40,7 +47,17 @@ public static class ServerInfo
         fetch by ids (get_notes_*/get_subjects_*/...) -> get_track_definitions for the tracks
         present -> follow edge ids embedded in fetch results (subject fetches list scene links;
         plot point fetches list linked subjects and chapter). count_notes_* groups counts across
-        dimensions for shape/absence questions. WorldDate is free text (years or ranges, e.g.
-        "993", "-100-0") returned raw plus a mechanical start/end parse.
+        dimensions for shape/absence questions.
+
+        World dates are structured (start year/month/day + optional end), rendered in a
+        notation: "1007" = event, year precision; "1007-03-15" = pinned to a day; "854..914" =
+        interval; "1007.." / "..1007" = interval with an endpoint still to be determined.
+        Negative years are BLB (before Luna's banishment); 0 is the banishment. Whether a note's
+        date is an event (when it happened) or a condition (over what period it held) is
+        determined by its TRACK (event tracks vs condition tracks — see get_track_definitions'
+        "worldDate (event…)" / "worldDate (condition…)" flags), never by the value alone.
+        Files not yet converted may still carry legacy free-text dates ("993", "870-928"); tools
+        convert those mechanically on read and label unconvertible values "(unparsed)" — never
+        guessed. Undated is a valid, long-lived authorial state, not an error.
         """;
 }

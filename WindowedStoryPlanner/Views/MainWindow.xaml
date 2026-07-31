@@ -52,6 +52,12 @@
         <TabItem Header="Subjects">
             <v:SubjectLibrary DataContext="{Binding Subjects}"/>
         </TabItem>
+        <!-- Inserted AFTER Subjects (index 4) on purpose: App.xaml.cs sets SelectedTabIndex = 4
+             to land on Subjects after a file open — a tab inserted at or before index 4 would
+             silently shift that. Keep Timeline at index 5+. -->
+        <TabItem Header="Timeline">
+            <v:TimelineView DataContext="{Binding Timeline}"/>
+        </TabItem>
         <TabItem Header="Themes">
             <v:ThemeLibrary DataContext="{Binding Themes}"/>
         </TabItem>

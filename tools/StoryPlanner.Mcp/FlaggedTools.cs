@@ -125,7 +125,7 @@ public sealed class FlaggedTools(StoryPlanSources sources)
             body.AppendLine($"## {Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} · {Query.TrackLabel(c, n)} — FLAGGED (unstable) " +
                             $"(q:{n.Id}, {Query.OwnerRef(n.OwnerType, n.OwnerId)})");
             var meta = new List<string>();
-            var wd = Query.WorldDateLabel(n.WorldDate);
+            var wd = Query.WorldDateLabel(n);
             if (wd.Length > 0) meta.Add(wd);
             if (n.ThemeId is int tid)
                 meta.Add(c.ThemeById.TryGetValue(tid, out var th) ? $"theme:{th.Name}" : $"theme:{tid}?");

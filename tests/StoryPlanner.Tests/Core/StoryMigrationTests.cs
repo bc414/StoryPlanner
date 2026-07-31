@@ -36,21 +36,24 @@ public class StoryMigrationTests
                 var migrator = ctx.GetInfrastructure().GetRequiredService<IMigrator>();
                 await migrator.MigrateAsync(PreStoriesMigration);
 
-                // Chapters must be seeded via raw SQL matching the OLD schema (Id, OrderIndex,
-                // Title — no StoryId yet). EF always generates INSERTs from the CURRENT compiled
-                // model, which already declares StoryId, and that column does not exist in the
-                // physical table at this migration. Every other table's shape is unchanged by
-                // AddStories, so those still go through the normal tracked DbSet.
+                // Schema-changed tables must be seeded via raw SQL matching the OLD schema. EF
+                // always generates INSERTs from the CURRENT compiled model — which already
+                // declares Chapters.StoryId (AddStories) and the MasterTimeline columns
+                // (Notes.WorldDate*, PlotPoints.TheaterId/Fabula*, Subjects.TheaterId) — and
+                // none of those columns exist in the physical table at this migration. Tables
+                // untouched by both migrations still go through the normal tracked DbSet.
                 await ctx.Database.ExecuteSqlRawAsync(
                     "INSERT INTO Chapters (Id, OrderIndex, Title) VALUES (1, 1, 'Chapter One'), (2, 2, 'Chapter Two')");
+                await ctx.Database.ExecuteSqlRawAsync(
+                    "INSERT INTO PlotPoints (Id, Title, ChapterId, OrderInChapter) VALUES (1, 'A scene', 1, 1)");
+                await ctx.Database.ExecuteSqlRawAsync(
+                    "INSERT INTO Subjects (Id, Name, Description, Abbreviation, ColorHex, SubjectDefinitionId) " +
+                    "VALUES (1, 'A subject', '', '', '', 1)");
+                await ctx.Database.ExecuteSqlRawAsync(
+                    "INSERT INTO Notes (Id, OwnerId, OwnerType, LastModified, Content, NoteState, FlagReason, SortOrder, WorldDate) " +
+                    "VALUES (1, 1, 2, '2026-01-01', 'Pre-migration content', 0, '', 1, '870-928')");
 
                 ctx.SubjectDefinitions.Add(new SubjectDefinition { Id = 1, SubjectType = "Character", DisplayOrder = 0 });
-                ctx.PlotPoints.Add(new PlotPoint { Id = 1, Title = "A scene", ChapterId = 1, OrderInChapter = 1 });
-                ctx.Notes.Add(new Note
-                {
-                    Id = 1, OwnerId = 1, OwnerType = OwnerType.Chapter,
-                    NoteState = NoteState.Unset, Content = "Pre-migration content", SortOrder = 1
-                });
                 await ctx.SaveChangesAsync();
             }
 
@@ -77,6 +80,16 @@ public class StoryMigrationTests
 
                 var note = await verify.Notes.SingleAsync();
                 Assert.Equal("Pre-migration content", note.Content);
+
+                // MasterTimeline columns arrive empty/sentinel: legacy free-text WorldDate is
+                // preserved untouched (conversion is the DataOps op's job, never the migration's),
+                // structured dates are null, and theater ids default to the "(Unplaced)" 0.
+                Assert.Equal("870-928", note.WorldDate);
+                Assert.Null(note.WorldDateStartYear);
+                Assert.Null(note.WorldDateEndYear);
+                Assert.Equal(0, (await verify.PlotPoints.SingleAsync()).TheaterId);
+                Assert.Null((await verify.PlotPoints.SingleAsync()).FabulaYear);
+                Assert.Equal(0, (await verify.Subjects.SingleAsync()).TheaterId);
             }
         }
         finally

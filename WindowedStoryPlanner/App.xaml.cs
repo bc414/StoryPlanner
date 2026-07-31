@@ -50,6 +50,7 @@ public partial class App : Application
                 services.AddSingleton<SourceMaterialLibraryViewModel>();
                 services.AddSingleton<ConversationLibraryViewModel>();
                 services.AddSingleton<FloatingPlotPointsViewModel>();
+                services.AddSingleton<TimelineViewModel>();
 
                 services.AddSingleton<ExportService>();
                 services.AddSingleton<ExportViewModel>();

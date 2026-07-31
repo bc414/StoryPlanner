@@ -21,6 +21,15 @@ namespace StoryPlanner.Core.Models
         public bool IsSingleton { get; set; }
         public TrackType TrackType { get; set; }
         public bool SupportsWorldDate { get; set; }
+
+        /// <summary>
+        /// The event/condition track split: false = event track (date editor exposes Start
+        /// only; a note here asserts *position* — "when did it happen"); true = condition
+        /// track (Start..End; a note here asserts *extent* — "over what period was it true").
+        /// Only meaningful when SupportsWorldDate is true. No note carries an event-vs-
+        /// condition discriminator of its own — the track IS the discriminator.
+        /// </summary>
+        public bool SupportsWorldDateEnd { get; set; }
         public bool SupportsTheme { get; set; }
         public bool SupportsSourceMaterial { get; set; }
         public bool CanEditInAuditMode { get; set; }

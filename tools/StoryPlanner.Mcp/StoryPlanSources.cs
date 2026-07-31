@@ -27,6 +27,8 @@ public sealed class PlanCache
     public required IReadOnlyList<PlotPoint> PlotPoints { get; init; }
     public required IReadOnlyList<Chapter> Chapters { get; init; }
     public required IReadOnlyList<Story> Stories { get; init; }
+    public required IReadOnlyList<Theater> Theaters { get; init; }
+    public required IReadOnlyList<Pivot> Pivots { get; init; }
     public required IReadOnlyList<PlotPointSubjectLink> Links { get; init; }
     public required IReadOnlyList<NoteTrackDefinition> Tracks { get; init; }
     public required IReadOnlyList<Theme> Themes { get; init; }
@@ -38,6 +40,8 @@ public sealed class PlanCache
     public required IReadOnlyDictionary<int, PlotPoint> PlotPointById { get; init; }
     public required IReadOnlyDictionary<int, Chapter> ChapterById { get; init; }
     public required IReadOnlyDictionary<int, Story> StoryById { get; init; }
+    /// <summary>Key 0 is the "(Unplaced)" sentinel — never a real Theater row.</summary>
+    public required IReadOnlyDictionary<int, Theater> TheaterById { get; init; }
 
     /// <summary>Chapters grouped by StoryId. Key 0 is the "(Unassigned)" sentinel — never a real Story row.</summary>
     public required IReadOnlyDictionary<int, List<Chapter>> ChaptersByStory { get; init; }
@@ -174,6 +178,8 @@ public sealed class StoryPlanSources : IDisposable
         var plotPoints = ctx.PlotPoints.ToList();
         var chapters = ctx.Chapters.ToList();
         var stories = ctx.Stories.ToList();
+        var theaters = ctx.Theaters.ToList();
+        var pivots = ctx.Pivots.ToList();
         var links = ctx.PlotPointSubjectLinks.ToList();
         var tracks = ctx.NoteTrackDefinitions.ToList();
         var themes = ctx.Themes.ToList();
@@ -192,6 +198,8 @@ public sealed class StoryPlanSources : IDisposable
             PlotPoints = plotPoints,
             Chapters = chapters,
             Stories = stories,
+            Theaters = theaters,
+            Pivots = pivots,
             Links = links,
             Tracks = tracks,
             Themes = themes,
@@ -202,6 +210,7 @@ public sealed class StoryPlanSources : IDisposable
             PlotPointById = plotPoints.ToDictionary(p => p.Id),
             ChapterById = chapters.ToDictionary(c => c.Id),
             StoryById = stories.ToDictionary(s => s.Id),
+            TheaterById = theaters.ToDictionary(t => t.Id),
             ChaptersByStory = chapters.GroupBy(c => c.StoryId).ToDictionary(g => g.Key, g => g.ToList()),
             LinkById = links.ToDictionary(l => l.Id),
             TrackById = tracks.ToDictionary(t => t.Id),

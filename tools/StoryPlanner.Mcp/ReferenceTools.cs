@@ -70,7 +70,7 @@ public sealed class ReferenceTools(StoryPlanSources sources)
                     if (t.AuditDirective.Length > 0) sb.AppendLine($"Audit: {t.AuditDirective}");
                     var flags = new List<string>();
                     if (t.IsSingleton) flags.Add("singleton");
-                    if (t.SupportsWorldDate) flags.Add("worldDate");
+                    if (t.SupportsWorldDate) flags.Add(t.SupportsWorldDateEnd ? "worldDate (condition: start..end)" : "worldDate (event: start only)");
                     if (t.SupportsTheme) flags.Add("theme");
                     if (t.SupportsSourceMaterial) flags.Add("sourceMaterial");
                     if (flags.Count > 0) sb.AppendLine($"supports: {string.Join(", ", flags)}");
@@ -183,7 +183,7 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         }
         else sb.AppendLine("track definitions: 0 (this file predates the track system)");
 
-        var withDate = c.Notes.Count(n => !string.IsNullOrWhiteSpace(n.WorldDate));
+        var withDate = c.Notes.Count(Query.HasAnyWorldDate);
         var withTheme = c.Notes.Count(n => n.ThemeId is not null);
         sb.AppendLine($"themes: {c.Themes.Count} | notes with worldDate: {withDate} | with theme tag: {withTheme}");
 
@@ -215,6 +215,59 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         var unassigned = c.Chapters.Count(ch => ch.StoryId == 0);
         if (unassigned > 0)
             sb.AppendLine($"(Unassigned) — {unassigned} chapters");
+        return Query.Cap(sb);
+    }
+
+    [McpServerTool(Name = "list_theaters")]
+    [Description("Inventory of theaters — the master timeline's x-axis (a display coordinate ordered by narrative density, NOT a taxonomy). Per theater: subject count by type, dated-note count, plot-point count, and world-date span. TheaterId 0 is \"(Unplaced)\" — a legal, permanent state meaning the author has not placed it (or is deliberately uncertain), never an error. Theater assignment is authorial: never infer it from a subject's name.")]
+    public string ListTheaters(
+        [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
+    {
+        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        var sb = new StringBuilder();
+        sb.AppendLine($"# theaters in {Query.CorpusName(c.Corpus)} — {c.Theaters.Count}");
+        if (c.Theaters.Count == 0)
+            sb.AppendLine("(none defined — the timeline x-axis is unconfigured in this file)");
+
+        var subjectsByTheater = c.Subjects.GroupBy(s => s.TheaterId).ToDictionary(g => g.Key, g => g.ToList());
+        var ppByTheater = c.PlotPoints.GroupBy(p => p.TheaterId).ToDictionary(g => g.Key, g => g.ToList());
+
+        IEnumerable<(int Id, string Name, int Order)> rows = c.Theaters
+            .OrderBy(t => t.OrderIndex).Select(t => (t.Id, t.Name, t.OrderIndex));
+        rows = rows.Append((0, "(Unplaced)", int.MaxValue));
+
+        foreach (var (id, name, _) in rows)
+        {
+            var subs = subjectsByTheater.GetValueOrDefault(id) ?? [];
+            var pps = ppByTheater.GetValueOrDefault(id) ?? [];
+            if (subs.Count == 0 && pps.Count == 0 && id == 0) continue;
+
+            var subjectIds = subs.Select(s => s.Id).ToHashSet();
+            var dated = c.Notes.Where(n => n.OwnerType == OwnerType.Subject
+                                           && subjectIds.Contains(n.OwnerId)
+                                           && Query.EffectiveWorldDate(n) is not null).ToList();
+
+            var byType = subs
+                .GroupBy(s => c.SubjectDefById.TryGetValue(s.SubjectDefinitionId, out var d) ? d.SubjectType : "?")
+                .OrderByDescending(g => g.Count())
+                .Select(g => $"{g.Key} {g.Count()}");
+
+            var years = dated.Select(n => Query.EffectiveWorldDate(n)!.Value)
+                .SelectMany(d => new[] { d.Start?.Year, d.End?.Year })
+                .Where(y => y is not null).Select(y => y!.Value).ToList();
+            var span = years.Count > 0 ? $"{years.Min()}..{years.Max()}" : "no dated notes";
+
+            sb.AppendLine($"\"{name}\" — {subs.Count} subjects ({string.Join(", ", byType)}), " +
+                          $"{dated.Count} dated notes [{span}], {pps.Count} plot points (theater:{id})");
+        }
+
+        if (c.Pivots.Count > 0)
+        {
+            sb.AppendLine();
+            sb.AppendLine($"# pivots — {c.Pivots.Count} authored years; eras are DERIVED as the gaps between them (never stored)");
+            foreach (var p in c.Pivots.OrderBy(p => p.Year))
+                sb.AppendLine($"{p.Year} — {p.Name}{(p.Description.Length > 0 ? $" ({p.Description})" : "")}");
+        }
         return Query.Cap(sb);
     }
 

@@ -14,6 +14,8 @@ public class AppDbContext : DbContext
     public DbSet<Chapter> Chapters { get; set; }
     public DbSet<Story> Stories { get; set; }
     public DbSet<Note> Notes { get; set; }
+    public DbSet<Theater> Theaters { get; set; }
+    public DbSet<Pivot> Pivots { get; set; }
 
     public DbSet<SubjectDefinition> SubjectDefinitions { get; set; }
     public DbSet<NoteTrackDefinition> NoteTrackDefinitions { get; set; }

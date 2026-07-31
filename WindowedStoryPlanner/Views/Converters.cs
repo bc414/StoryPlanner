@@ -9,6 +9,18 @@ using WindowedStoryPlanner.ViewModels;
 
 namespace WindowedStoryPlanner.Views // Adjust namespace if needed
 {
+    /// <summary>Visible when false — the complement of BooleanToVisibilityConverter, for the
+    /// pairs of templates that swap on a single bool (e.g. a theater column's expanded vs
+    /// collapsed header).</summary>
+    public class InverseBoolToVisibilityConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            value is true ? Visibility.Collapsed : Visibility.Visible;
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
     public class NullToVisibilityConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)

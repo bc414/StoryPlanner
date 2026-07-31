@@ -22,7 +22,25 @@ public class Note
     public string FlagReason { get; set; } = string.Empty;
     public int SortOrder { get; set; }
 
-    public string WorldDate { get; set; } = string.Empty; // year or year range allowed
+    /// <summary>
+    /// LEGACY free-text date, kept only until the convert-world-dates DataOps op has run on
+    /// every real file; the op moves its content into the structured columns below and blanks
+    /// it. New code never writes this. Drop the column in a later migration once both real
+    /// files are converted.
+    /// </summary>
+    public string WorldDate { get; set; } = string.Empty;
+
+    // Structured world date (see StoryPlanner.Core.WorldDate). All-null = undated. Whether
+    // this is an event (start only) or a condition (start..end) is the TRACK's shape
+    // (NoteTrackDefinition.SupportsWorldDateEnd), never stored per note. Year is the precision
+    // floor; month/day are progressive pinning, null = to be determined.
+    public int? WorldDateStartYear { get; set; }
+    public int? WorldDateStartMonth { get; set; }
+    public int? WorldDateStartDay { get; set; }
+    public int? WorldDateEndYear { get; set; }
+    public int? WorldDateEndMonth { get; set; }
+    public int? WorldDateEndDay { get; set; }
+
     public int? ThemeId { get; set; }
     public int? SourceMaterialId { get; set; }
 }

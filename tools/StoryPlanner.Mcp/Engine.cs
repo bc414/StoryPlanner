@@ -151,7 +151,7 @@ internal static class Engine
         sb.AppendLine($"## {Query.OwnerLabel(c, n.OwnerType, n.OwnerId)} · {Query.TrackLabel(c, n)} · " +
                       $"{Query.StateLabel(c.Corpus, n.NoteState)} (note:{n.Id}, {Query.OwnerRef(n.OwnerType, n.OwnerId)})");
         var meta = new List<string>();
-        var wd = Query.WorldDateLabel(n.WorldDate);
+        var wd = Query.WorldDateLabel(n);
         if (wd.Length > 0) meta.Add(wd);
         if (n.ThemeId is int tid)
             meta.Add(c.ThemeById.TryGetValue(tid, out var th) ? $"theme:{th.Name}" : $"theme:{tid}?");
@@ -239,7 +239,7 @@ internal static class Engine
             foreach (var n in g)
             {
                 var meta = new List<string> { Query.StateLabel(c.Corpus, n.NoteState) };
-                var wd = Query.WorldDateLabel(n.WorldDate);
+                var wd = Query.WorldDateLabel(n);
                 if (wd.Length > 0) meta.Add(wd);
                 if (n.ThemeId is int tid)
                     meta.Add(c.ThemeById.TryGetValue(tid, out var th) ? $"theme:{th.Name}" : $"theme:{tid}?");
@@ -421,21 +421,25 @@ internal static class Engine
 
     public static string GetNotesInDateRange(PlanCache c, int? fromYear, int? toYear)
     {
-        var dated = c.Notes.Where(n => !string.IsNullOrWhiteSpace(n.WorldDate)).ToList();
-        var parsedNotes = new List<(Note n, int start, int end)>();
+        var dated = c.Notes.Where(Query.HasAnyWorldDate).ToList();
+        var parsedNotes = new List<(Note n, double earliest, double latest)>();
         int unparseable = 0;
         foreach (var n in dated)
         {
-            var (start, end, ok) = Query.ParseWorldDate(n.WorldDate);
-            if (ok) parsedNotes.Add((n, start, end));
+            if (Query.EffectiveWorldDate(n) is { } d)
+                parsedNotes.Add((n,
+                    d.EarliestFraction ?? double.NegativeInfinity,   // start TBD ("..1007")
+                    d.End is not null ? d.LatestFraction!.Value
+                        : IsConditionTrack(c, n) ? double.PositiveInfinity // in force, end TBD
+                        : d.LatestFraction ?? double.PositiveInfinity));
             else unparseable++;
         }
 
-        var lo = fromYear ?? int.MinValue;
-        var hi = toYear ?? int.MaxValue;
+        double lo = fromYear ?? double.NegativeInfinity;
+        double hi = toYear is int ty ? ty + 1.0 : double.PositiveInfinity; // inclusive year → exclusive edge
         var inRange = parsedNotes
-            .Where(x => x.end >= lo && x.start <= hi)
-            .OrderBy(x => x.start).ThenBy(x => x.end).ThenBy(x => x.n.Id)
+            .Where(x => x.latest >= lo && x.earliest < hi)
+            .OrderBy(x => x.earliest).ThenBy(x => x.latest).ThenBy(x => x.n.Id)
             .ToList();
         var visible = inRange.Where(x => x.n.NoteState != NoteState.Flagged).ToList();
         var flaggedInRange = inRange.Count - visible.Count;
@@ -445,17 +449,22 @@ internal static class Engine
         sb.AppendLine($"# chronology {Query.CorpusName(c.Corpus)} [{rangeLabel}] — {visible.Count} notes" +
                       (flaggedInRange > 0 ? $" (+{flaggedInRange} flagged, walled)" : "") +
                       $"; dated notes total: {dated.Count}, unparseable WorldDate values: {unparseable}");
-        sb.AppendLine("# sorted by parsed start year (WorldDate is free text; parse is mechanical)");
+        sb.AppendLine("# sorted chronologically (structured world dates; legacy free-text values converted mechanically, never guessed)");
         sb.AppendLine();
-        foreach (var (n, start, end) in visible)
+        foreach (var (n, _, _) in visible)
             AppendNoteBlock(sb, c, n);
         return Query.Cap(sb);
     }
 
+    /// <summary>A start-only date on a condition track means "in force, end TBD" — for range
+    /// intersection it extends to +inf, unlike the same stored value on an event track.</summary>
+    private static bool IsConditionTrack(PlanCache c, Note n) =>
+        n.NoteTrackDefinitionId is int id && c.TrackById.TryGetValue(id, out var t) && t.SupportsWorldDateEnd;
+
     // ── generic count/group ─────────────────────────────────────────────────────
 
     private static readonly string[] ValidDims =
-        ["state", "track", "trackType", "ownerType", "subject", "subjectType", "chapter", "story", "theme", "hasWorldDate"];
+        ["state", "track", "trackType", "ownerType", "subject", "subjectType", "chapter", "story", "theme", "hasWorldDate", "theater", "dateShape", "worldDateYear"];
 
     public static string CountNotes(PlanCache c, string[] groupBy)
     {
@@ -479,7 +488,10 @@ internal static class Engine
             "theme" => n.ThemeId is int tid
                 ? (c.ThemeById.TryGetValue(tid, out var th) ? th.Name : $"theme:{tid}?")
                 : "(no theme)",
-            "hasWorldDate" => string.IsNullOrWhiteSpace(n.WorldDate) ? "no" : "yes",
+            "hasWorldDate" => Query.HasAnyWorldDate(n) ? "yes" : "no",
+            "theater" => TheaterDim(c, n),
+            "dateShape" => DateShapeDim(c, n),
+            "worldDateYear" => WorldDateYearDim(c, n),
             _ => "?"
         };
 
@@ -514,6 +526,52 @@ internal static class Engine
         };
         if (subjectId is null) return "(not subject-owned)";
         return c.SubjectById.TryGetValue(subjectId.Value, out var s) ? s.Name : $"subject:{subjectId}?";
+    }
+
+    // "worldDateYear" dim: the note's START year (events and conditions alike). Crossed with
+    // "theater" this reports COLLISION DENSITY — how many items share one (column, year) cell,
+    // which is what the canvas must draw as a group while year remains the working precision.
+    private static string WorldDateYearDim(PlanCache c, Note n)
+    {
+        var date = Query.EffectiveWorldDate(n);
+        if (date is null) return Query.HasAnyWorldDate(n) ? "(unparsed)" : "(undated)";
+        return date.Value.Start?.Year.ToString() ?? "(start TBD)";
+    }
+
+    // "theater" dim: the timeline column a note renders in — its owning subject's placement.
+    // Only subject-owned notes have one (link-owned notes resolve through their subject);
+    // TheaterId 0 is "(Unplaced)", a legal authorial state, not a missing reference.
+    private static string TheaterDim(PlanCache c, Note n)
+    {
+        int? subjectId = n.OwnerType switch
+        {
+            OwnerType.Subject => n.OwnerId,
+            OwnerType.PlotPointSubjectLink => c.LinkById.TryGetValue(n.OwnerId, out var l) ? l.SubjectId : null,
+            _ => null
+        };
+        if (subjectId is null) return "(not subject-owned)";
+        if (!c.SubjectById.TryGetValue(subjectId.Value, out var s)) return $"subject:{subjectId}?";
+        if (s.TheaterId == 0) return "(Unplaced)";
+        return c.TheaterById.TryGetValue(s.TheaterId, out var t) ? t.Name : $"theater:{s.TheaterId}?";
+    }
+
+    // "dateShape" dim: how a dated note renders on the timeline — the event/condition split
+    // comes from the TRACK, and the precision from the value. Answers "what will the canvas
+    // actually draw", which is what governs layout work.
+    private static string DateShapeDim(PlanCache c, Note n)
+    {
+        var date = Query.EffectiveWorldDate(n);
+        if (date is null) return Query.HasAnyWorldDate(n) ? "unparsed (triage)" : "undated";
+        var isCondition = n.NoteTrackDefinitionId is int id
+                          && c.TrackById.TryGetValue(id, out var t) && t.SupportsWorldDateEnd;
+        var d = date.Value;
+        if (!isCondition)
+            return d.Start?.Month is null ? "event (year precision → glyph)"
+                 : d.Start?.Day is null ? "event (month precision)" : "event (day precision)";
+        if (d.End is null) return "condition (open-ended)";
+        var extent = (d.End.Value.Year - (d.Start?.Year ?? d.End.Value.Year));
+        return extent >= 100 ? "condition (span ≥100y)"
+             : extent >= 10 ? "condition (span 10-99y)" : "condition (span <10y)";
     }
 
     private static string SubjectTypeDim(PlanCache c, Note n)

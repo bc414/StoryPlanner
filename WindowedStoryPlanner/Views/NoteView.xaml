@@ -42,8 +42,26 @@
                     <TextBox Text="{Binding WorldDate}"
                              MinWidth="50"
                              VerticalAlignment="Center"
+                             ToolTip="{Binding WorldDateHint}"
                              IsReadOnly="{Binding DataContext.IsReadOnly,
-                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}"/>
+                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackView}}">
+                        <TextBox.Style>
+                            <Style TargetType="TextBox">
+                                <Style.Triggers>
+                                    <!-- Invalid notation: text stays on screen, nothing written; red edge + reason -->
+                                    <DataTrigger Binding="{Binding HasWorldDateError}" Value="True">
+                                        <Setter Property="BorderBrush" Value="#CC4444"/>
+                                        <Setter Property="BorderThickness" Value="2"/>
+                                        <Setter Property="ToolTip" Value="{Binding WorldDateError}"/>
+                                    </DataTrigger>
+                                </Style.Triggers>
+                            </Style>
+                        </TextBox.Style>
+                    </TextBox>
+                    <!-- Full-fidelity second path: discrete Y/M/D (+ End on condition tracks)
+                         fields writing through the same validated setter as the text box -->
+                    <local:WorldDatePickerControl VerticalAlignment="Center" Margin="1,0,0,0"
+                                                  Note="{Binding}"/>
                 </StackPanel>
 
                 <!-- Theme picker — only visible when the track supports themes -->

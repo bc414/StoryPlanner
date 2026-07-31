@@ -1,0 +1,18 @@
+{
+  "_comment": "Theaters in narrative-density order (a display coordinate, not a taxonomy — reorderable at runtime afterward). Pivots are the plan's default set; eras derive as the gaps between them. No subject or plot point is assigned to a theater by this op — everything starts at '(Unplaced)' and moving it is authorial work done in the app.",
+  "theaters": [
+    { "name": "Equestria", "orderIndex": 1 },
+    { "name": "Aquileia", "orderIndex": 2 },
+    { "name": "Changeling Lands", "orderIndex": 3 },
+    { "name": "Skyfall", "orderIndex": 4 },
+    { "name": "Herzland", "orderIndex": 5 },
+    { "name": "Stalliongrad", "orderIndex": 6 }
+  ],
+  "pivots": [
+    { "year": 870, "name": "Start of global trade", "description": "Ocean travel connects the continents; from here the world is causal and isolationism is a myth." },
+    { "year": 930, "name": "Celestia closes off Equestria", "description": "" },
+    { "year": 978, "name": "The Republican Revolution", "description": "" },
+    { "year": 1006, "name": "Battle of Mount Aris", "description": "EaW's start; a loosely related cluster rather than a single event." },
+    { "year": 1011, "name": "The Great War", "description": "TLTT chapter 1. The during-story zone begins here." }
+  ]
+}

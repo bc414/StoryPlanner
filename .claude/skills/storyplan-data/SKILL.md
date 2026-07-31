@@ -86,10 +86,15 @@ Try in this order and use whichever works — don't hardcode one:
    python -c "import sqlite3; con=sqlite3.connect('file:PATH?mode=ro', uri=True); ..."
    ```
 
-Example copy-then-query flow (PowerShell):
+Example copy-then-query flow (PowerShell). **Copy the `-wal`/`-shm` sidecars too** — the files
+are in WAL mode, so recent transactions (potentially including whole schema migrations) live in
+`*.storyplan-wal`; a bare copy of the main file silently reads stale data (learned 2026-07-30
+when a copy appeared to be two migrations behind):
 ```powershell
 $scratch = "<scratchpad dir for this session>"
 Copy-Item "C:\Users\Brian\Desktop\TLTT v2.storyplan" "$scratch\probe.db" -Force
+Copy-Item "C:\Users\Brian\Desktop\TLTT v2.storyplan-wal" "$scratch\probe.db-wal" -Force -ErrorAction SilentlyContinue
+Copy-Item "C:\Users\Brian\Desktop\TLTT v2.storyplan-shm" "$scratch\probe.db-shm" -Force -ErrorAction SilentlyContinue
 sqlite3 "$scratch\probe.db" ".tables"
 ```
 
@@ -106,6 +111,8 @@ Then a population sweep to see what's actually used vs. empty/orphaned:
 ```sql
 SELECT 'Chapters', COUNT(*) FROM Chapters
 UNION ALL SELECT 'Stories', COUNT(*) FROM Stories
+UNION ALL SELECT 'Theaters', COUNT(*) FROM Theaters
+UNION ALL SELECT 'Pivots', COUNT(*) FROM Pivots
 UNION ALL SELECT 'PlotPoints', COUNT(*) FROM PlotPoints
 UNION ALL SELECT 'Subjects', COUNT(*) FROM Subjects
 UNION ALL SELECT 'Notes', COUNT(*) FROM Notes
@@ -153,7 +160,12 @@ polymorphic FK (no DB-level foreign key; resolve manually per `OwnerType`).
   v2 OR deliberately superseded; not recorded which), see "The files" above
 - `NoteTrackDefinitionId` → `NoteTrackDefinitions.Id` (nullable — null means unassigned to a track)
 - `ThemeId` → `Themes.Id` (nullable), `SourceMaterialId` → `SourceMaterials.Id` (nullable)
-- `WorldDate` is a free-text year/year-range string, not a real date
+- World dates are structured (2026-07-30): `WorldDateStartYear/Month/Day` +
+  `WorldDateEndYear/Month/Day`, all nullable ints — all-null = undated; nulls at month/day level
+  mean "to be determined", never "approximately". Event vs condition is the note's TRACK
+  (`SupportsWorldDateEnd`), not a field here. The old free-text `WorldDate` string column is
+  legacy: blanked per-note by the `convert-world-dates` DataOps op; a non-blank value on a note
+  with null structured columns means "unconvertible, awaiting triage" (e.g. `"?"`, `"954-914"`)
 
 **`NoteTrackDefinitions`** (`Models/NoteTrackDefinition.cs`) — defines the *kinds* of notes a
 `Subject`/`PlotPoint`/etc. can have. Not all tracks apply to all owner types — filter by `OwnerType`.
@@ -164,7 +176,11 @@ polymorphic FK (no DB-level foreign key; resolve manually per `OwnerType`).
   A `TrackType` with zero `Notes` rows pointing at its tracks is a layer that's *defined but unused*.
 - `*ModeDisplayOrder` columns (Expansion/Linking/Gardener/Audit/SceneDesign) control per-`EditorMode`
   ordering; `EditorMode` enum (`Models/EditorMode.cs`): `0=Expansion,1=Linking,2=Gardener,3=Audit,4=SceneDesign`
-- `IsSingleton`, `SupportsWorldDate`, `SupportsTheme`, `SupportsSourceMaterial`, `CanEditInAuditMode` are booleans (0/1)
+- `IsSingleton`, `SupportsWorldDate`, `SupportsWorldDateEnd`, `SupportsTheme`,
+  `SupportsSourceMaterial`, `CanEditInAuditMode` are booleans (0/1). `SupportsWorldDateEnd`
+  is the 2026-07-30 event/condition track split: `SupportsWorldDate=1, SupportsWorldDateEnd=0`
+  = event track (a dated note asserts *when it happened*); both 1 = condition track (a dated
+  note asserts *over what period it held*, start..end)
 
 **`Subjects`** (`Models/Subject.cs`) — the entity buckets (characters, locations, etc.).
 `SubjectDefinitionId` → `SubjectDefinitions.Id` classifies *what kind* of subject it is.
@@ -176,7 +192,20 @@ for...", "Complete") — see "The files" above. Don't assume the v2 meaning with
 actual distinct values in whichever file you're querying.
 
 **`PlotPoints`** (`Models/PlotPoint.cs`) — scenes. `ChapterId` → `Chapters.Id` (nullable — null
-means not yet placed in a chapter), `OrderInChapter`.
+means not yet placed in a chapter), `OrderInChapter`. Since 2026-07-30 also `TheaterId`
+(0 = "(Unplaced)" sentinel) and a fabula date `FabulaYear/Month/Day` (nullable — EVENT ONLY,
+never an interval: a plot point wanting a span is holding more than one scene). A plot point
+thus carries two independent temporal coordinates: fabula date (world time) and syuzhet
+position (chapter + order); their divergence is flashback/non-linear telling.
+
+**`Theaters`** (`Models/Theater.cs`, 2026-07-30) — timeline columns: `Name`, `Description`,
+`OrderIndex` (narrative-density order, a display coordinate, not a taxonomy). Deliberately no
+ColorHex — hue is reserved for subject type. `Subjects.TheaterId` / `PlotPoints.TheaterId`
+reference it; 0 = "(Unplaced)", same sentinel pattern as `Chapter.StoryId`.
+
+**`Pivots`** (`Models/Pivot.cs`, 2026-07-30) — authored years where the world's causal regime
+changed (`Year`, `Name`, `Description`). Eras are DERIVED as intervals between consecutive
+pivots (N pivots → N+1 eras) — never stored, so there is no Eras table to look for.
 
 **`Chapters`** (`Models/Chapter.cs`) — `Title`, `OrderIndex` (now **per-story**, contiguous 1..n —
 not the flat book-wide sequence it was before A1), `StoryId` → `Stories.Id`. `StoryId = 0` is the

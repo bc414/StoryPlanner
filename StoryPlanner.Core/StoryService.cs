@@ -26,6 +26,8 @@ public class StoryService : IStoryService
 
     public ObservableCollection<Chapter> Chapters { get; private set; } = new();
     public ObservableCollection<Story> Stories { get; private set; } = new();
+    public ObservableCollection<Theater> Theaters { get; private set; } = new();
+    public ObservableCollection<Pivot> Pivots { get; private set; } = new();
     public ObservableCollection<Note> Notes { get; private set; } = new();
     public ObservableCollection<SubjectDefinition> SubjectDefinitions { get; private set; } = new();
     public ObservableCollection<NoteTrackDefinition> NoteTrackDefinitions { get; private set; } = new();
@@ -223,6 +225,9 @@ public class StoryService : IStoryService
         // Stories load first so the chapter query below can order by (story, chapter) below.
         await _context.Stories.OrderBy(s => s.OrderIndex).LoadAsync();
 
+        await _context.Theaters.OrderBy(t => t.OrderIndex).LoadAsync();
+        await _context.Pivots.OrderBy(p => p.Year).LoadAsync();
+
         // Chapters sort by (story reading order, chapter order). No navigation property exists
         // (settled architecture), so the join is written explicitly; StoryId = 0 (the
         // "(Unassigned)" sentinel, see UnassignedStory) never matches a real Story row and
@@ -256,6 +261,8 @@ public class StoryService : IStoryService
         Notes                  = _context.Notes.Local.ToObservableCollection();
         Subjects               = _context.Subjects.Local.ToObservableCollection();
         Stories                = _context.Stories.Local.ToObservableCollection();
+        Theaters               = _context.Theaters.Local.ToObservableCollection();
+        Pivots                 = _context.Pivots.Local.ToObservableCollection();
         Chapters               = _context.Chapters.Local.ToObservableCollection();
         PlotPoints             = _context.PlotPoints.Local.ToObservableCollection();
         PlotPointsSubjectLinks = _context.PlotPointSubjectLinks.Local.ToObservableCollection();

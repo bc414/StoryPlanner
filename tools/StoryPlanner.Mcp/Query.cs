@@ -1,5 +1,6 @@
 using System.Text;
 using System.Text.RegularExpressions;
+using StoryPlanner.Core;
 using StoryPlanner.Core.Models;
 
 namespace StoryPlanner.Mcp;
@@ -117,31 +118,41 @@ public static class Query
         return "(untracked)";
     }
 
-    // ── WorldDate: raw free text plus a mechanical parse (never guessed) ────────
+    // ── WorldDate: structured columns first, legacy free text as fallback ───────
+    // The structured columns (StoryPlanner.Core.WorldDate) are the source of truth once the
+    // convert-world-dates DataOps op has run on a file; until then notes still carry the
+    // legacy free-text string, which is converted on read here — mechanically, never guessed
+    // (WorldDateLegacy). Both paths share Core's one implementation.
 
-    private static readonly Regex WorldDateRx =
-        new(@"^\s*(-?\d+)\s*-\s*(-?\d+)\s*$|^\s*(-?\d+)\s*$", RegexOptions.Compiled);
-
-    public static (int Start, int End, bool Parsed) ParseWorldDate(string raw)
+    /// <summary>The note's date regardless of conversion state; null = undated or unconvertible.</summary>
+    public static WorldDate? EffectiveWorldDate(Note n)
     {
-        if (string.IsNullOrWhiteSpace(raw)) return (0, 0, false);
-        var m = WorldDateRx.Match(raw);
-        if (!m.Success) return (0, 0, false);
-        if (m.Groups[3].Success)
+        try
         {
-            var y = int.Parse(m.Groups[3].Value);
-            return (y, y, true);
+            var structured = n.GetWorldDate();
+            if (structured is not null) return structured;
         }
-        return (int.Parse(m.Groups[1].Value), int.Parse(m.Groups[2].Value), true);
+        catch (ArgumentException)
+        {
+            return null; // malformed columns — report as unparsed, never guess
+        }
+        var outcome = WorldDateLegacy.TryConvert(n.WorldDate, out var legacy);
+        return outcome is WorldDateLegacy.Outcome.Point or WorldDateLegacy.Outcome.Range ? legacy : null;
     }
 
-    public static string WorldDateLabel(string raw)
+    /// <summary>True when the note carries ANY date signal — structured or legacy text,
+    /// including unconvertible legacy text ("?" is a date-shaped claim, just not a usable one).</summary>
+    public static bool HasAnyWorldDate(Note n) =>
+        n.WorldDateStartYear is not null || n.WorldDateEndYear is not null ||
+        !string.IsNullOrWhiteSpace(n.WorldDate);
+
+    public static string WorldDateLabel(Note n)
     {
-        if (string.IsNullOrWhiteSpace(raw)) return "";
-        var (start, end, parsed) = ParseWorldDate(raw);
-        return parsed
-            ? (start == end ? $"wd:{raw.Trim()}" : $"wd:{raw.Trim()} [{start}..{end}]")
-            : $"wd:\"{raw.Trim()}\" (unparsed)";
+        if (!HasAnyWorldDate(n)) return "";
+        var date = EffectiveWorldDate(n);
+        return date is { } d
+            ? $"wd:{d.ToNotation(d.End is not null)}"
+            : $"wd:\"{n.WorldDate.Trim()}\" (unparsed)";
     }
 
     // ── Regex + snippets ────────────────────────────────────────────────────────

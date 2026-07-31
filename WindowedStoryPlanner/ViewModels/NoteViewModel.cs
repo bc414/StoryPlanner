@@ -58,6 +58,8 @@ public partial class NoteViewModel : ObservableObject
 
                 OnPropertyChanged(nameof(NoteTrackDefinition));
                 OnPropertyChanged(nameof(SupportsWorldDate));
+                OnPropertyChanged(nameof(SupportsWorldDateEnd));
+                OnPropertyChanged(nameof(WorldDateHint));
                 OnPropertyChanged(nameof(SupportsTheme));
                 OnPropertyChanged(nameof(SupportsSourceMaterial));
             }
@@ -68,8 +70,15 @@ public partial class NoteViewModel : ObservableObject
     public NoteTrackDefinition? NoteTrackDefinition => _noteTrackDefinition;
 
     public bool SupportsWorldDate     => _noteTrackDefinition?.SupportsWorldDate     ?? false;
+    public bool SupportsWorldDateEnd  => _noteTrackDefinition?.SupportsWorldDateEnd  ?? false;
     public bool SupportsTheme         => _noteTrackDefinition?.SupportsTheme         ?? false;
     public bool SupportsSourceMaterial => _noteTrackDefinition?.SupportsSourceMaterial ?? false;
+
+    /// <summary>Watermark/tooltip for the date field, shaped by the track: event tracks take a
+    /// single date, condition tracks an interval.</summary>
+    public string WorldDateHint => SupportsWorldDateEnd
+        ? "Interval: 854..914, 1007.. (end TBD), ..1007 (start TBD). Precision: YYYY, YYYY-MM, YYYY-MM-DD. Negative = BLB."
+        : "Single date: 1007, 1007-03, 1007-03-15. Negative = BLB, 0 = the banishment.";
 
     public DateTime LastModified => _note.LastModified;
 
@@ -110,11 +119,62 @@ public partial class NoteViewModel : ObservableObject
         set => SetProperty(_note.SortOrder, value, _note, (n, v) => n.SortOrder = v);
     }
 
+    /// <summary>
+    /// The structured world date rendered/edited in notation form ("1007", "1007-03-15",
+    /// "854..914", "1007.."). Reads prefer the structured columns and fall back to the legacy
+    /// free-text string on unconverted files; a successful edit always writes structured and
+    /// blanks the legacy string. Invalid input is kept on screen with <see cref="WorldDateError"/>
+    /// set and nothing written — flag, never guess.
+    /// </summary>
     public string WorldDate
     {
-        get => _note.WorldDate;
-        set => SetProperty(_note.WorldDate, value, _note, (n, v) => n.WorldDate = v);
+        get
+        {
+            if (_invalidWorldDateText is not null) return _invalidWorldDateText;
+            try
+            {
+                if (_note.GetWorldDate() is { } d)
+                    return d.ToNotation(asInterval: d.End is not null || SupportsWorldDateEnd);
+            }
+            catch (ArgumentException) { /* malformed columns — fall through to legacy text */ }
+            return _note.WorldDate;
+        }
+        set
+        {
+            if (value == WorldDate) return;
+
+            if (!StoryPlanner.Core.WorldDate.TryParse(value, out var date, out var error))
+            {
+                _invalidWorldDateText = value;
+                WorldDateError = error;
+                OnPropertyChanged();
+                return;
+            }
+            if (date is { End: not null } && !SupportsWorldDateEnd)
+            {
+                _invalidWorldDateText = value;
+                WorldDateError = "This is an event track — a note here asserts when something happened, " +
+                                 "not over what period. Give a single date, or move the note to the condition track.";
+                OnPropertyChanged();
+                return;
+            }
+
+            _invalidWorldDateText = null;
+            WorldDateError = "";
+            _note.SetWorldDate(date);
+            _note.WorldDate = string.Empty; // structured is now the one representation
+            OnPropertyChanged();
+        }
     }
+
+    private string? _invalidWorldDateText;
+
+    [ObservableProperty]
+    private string _worldDateError = "";
+
+    public bool HasWorldDateError => WorldDateError.Length > 0;
+
+    partial void OnWorldDateErrorChanged(string value) => OnPropertyChanged(nameof(HasWorldDateError));
 
     public bool IsFlagged => _note.NoteState == NoteState.Flagged;
 

@@ -5,6 +5,8 @@ using StoryPlanner.DataOps.Ops;
 var ops = new Dictionary<string, IDataOperation>(StringComparer.OrdinalIgnoreCase)
 {
     ["assign-stories"] = new AssignStories(),
+    ["convert-world-dates"] = new ConvertWorldDates(),
+    ["seed-timeline-defaults"] = new SeedTimelineDefaults(),
 };
 
 var positional = args.Where(a => a != "--apply").ToList();

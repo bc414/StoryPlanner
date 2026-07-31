@@ -20,7 +20,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | # | Feature | Status | Signal (convos) | Structural? |
 |---|---------|--------|-----------------|-------------|
 | A1 | Multi-story / narrative scoping (`StoryId` on content, `SupportsNarrativeTag`) | 🟡 | 015, 020, 053, 077, 091, 038/039 | **Enabler** |
-| B1 | Master timeline view (aggregate `WorldDate` notes) | 🔴 | 015, 019, 053 | View |
+| B1 | Master timeline view (aggregate `WorldDate` notes) | 🟡 | 015, 019, 053 | View |
 | B2 | Global entity search (tab is a stub) | 🔴 | 038/039 | View |
 | C1 | Note supersession / preserving retconned lore | 🔴 (contested) | 091, 015, 053, 038/039 | Model |
 | C2 | Stage-0 "accumulation" inbox / `IsIncorporated` flag | 🔴 | 053, 038/039, 015 | Model |
@@ -63,7 +63,18 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 
 ## B. Aggregation & navigation views
 
-**B1 — 🔴 Master timeline view.** Aggregate all `WorldDate`-tagged notes across subjects into one chronological view (015 block 1433 explicitly: "does not yet exist in the planner but is buildable"; also 019 block 60, 053). The *data substrate is done* — `Note.WorldDate` + `NoteTrackDefinition.SupportsWorldDate` + editing in `NoteViewModel` — but there is **no timeline view** (no `*Timeline*` view/VM in the project).
+**B1 — 🟡 Master timeline view.** *(First pass shipped 2026-07-30 — overnight build, pending
+Brian's review; see `docs/TIMELINE-IMPLEMENTATION-DECISIONS.md`.)* Shipped: structured world
+dates (`WorldDateStart*/End*` on `Note`, event-only `Fabula*` + `TheaterId` on `PlotPoint`,
+`Subject.TheaterId`), the event/condition track split (`SupportsWorldDateEnd`, 6 History tracks
+→ 12 via the `convert-world-dates` DataOps op), `Theater`/`Pivot` entities (eras derived, never
+stored), a Timeline tab (`TimelineViewModel`/`TimelineView`: y = world time, x = theaters,
+condition bars with extent-proportional height, fixed-size event markers, year-precision count
+glyphs, pixel-space lane packing via `Core/Timeline/LanePacker`, pivot rules, snapshot-not-live
+by design), a triage panel for undated items with confirm-style assignment, and notation
+editing in `NoteView`. Still outstanding: era-range collapse (deep-history tail), drag-from-
+triage onto the canvas, viewport persistence, and the DataOps ops actually being applied to the
+real files (rehearsed on a copy only — Brian's call).
 
 **B2 — 🔴 Global entity search.** The "Global Search" tab in [MainWindow.xaml](WindowedStoryPlanner/Views/MainWindow.xaml#L58-L70) is a `TextBox` bound to `SearchText` above an **empty `ScrollViewer`** — no results binding, no search VM (`grep SearchText` in `ViewModelLocator` → nothing). *Note:* a working, export-scoped search does exist in `ExportViewModel.RebuildSearchResults()` for anchor-picking, but the global cross-entity search is unimplemented.
 
