@@ -79,6 +79,11 @@ public sealed class ConvertWorldDates : IDataOperation
                     SupportsTheme = source.SupportsTheme,
                     SupportsSourceMaterial = source.SupportsSourceMaterial,
                     CanEditInAuditMode = source.CanEditInAuditMode,
+                    HiddenInExpansionMode = source.HiddenInExpansionMode,
+                    HiddenInLinkingMode = source.HiddenInLinkingMode,
+                    HiddenInGardenerMode = source.HiddenInGardenerMode,
+                    HiddenInAuditMode = source.HiddenInAuditMode,
+                    HiddenInSceneDesignMode = source.HiddenInSceneDesignMode,
                 };
                 // Slot the condition track directly after its event twin in every editor
                 // mode: bump later tracks of the same owner group by one, then take source+1.

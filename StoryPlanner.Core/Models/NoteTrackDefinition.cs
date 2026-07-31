@@ -33,7 +33,15 @@ namespace StoryPlanner.Core
         public bool SupportsTheme { get; set; }
         public bool SupportsSourceMaterial { get; set; }
         public bool CanEditInAuditMode { get; set; }
-        
+
+        // Per-editor-mode visibility: true = the track is demoted to the collapsed
+        // "Hidden in this mode" group in that mode, even when it has notes. false
+        // (the default for every existing and new row) = visible, current behavior.
+        public bool HiddenInExpansionMode { get; set; }
+        public bool HiddenInLinkingMode { get; set; }
+        public bool HiddenInGardenerMode { get; set; }
+        public bool HiddenInAuditMode { get; set; }
+        public bool HiddenInSceneDesignMode { get; set; }
     }
 
     public enum TrackType
@@ -55,6 +63,8 @@ namespace StoryPlanner.Core
 
     public static class UnassignedTrack
     {
+        // The HiddenIn*Mode flags stay false: the Unassigned track must always be
+        // visible — it is the only surface for notes with no track assignment.
         public static readonly NoteTrackDefinition Definition = new()
         {
             Id = 0,   // 0 is never a valid EF-generated PK

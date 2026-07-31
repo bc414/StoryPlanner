@@ -95,6 +95,31 @@ namespace WindowedStoryPlanner
             get => _model.CanEditInAuditMode;
             set => SetProperty(_model.CanEditInAuditMode, value, _model, (m, v) => m.CanEditInAuditMode = v);
         }
+        public bool HiddenInExpansionMode
+        {
+            get => _model.HiddenInExpansionMode;
+            set => SetProperty(_model.HiddenInExpansionMode, value, _model, (m, v) => m.HiddenInExpansionMode = v);
+        }
+        public bool HiddenInLinkingMode
+        {
+            get => _model.HiddenInLinkingMode;
+            set => SetProperty(_model.HiddenInLinkingMode, value, _model, (m, v) => m.HiddenInLinkingMode = v);
+        }
+        public bool HiddenInGardenerMode
+        {
+            get => _model.HiddenInGardenerMode;
+            set => SetProperty(_model.HiddenInGardenerMode, value, _model, (m, v) => m.HiddenInGardenerMode = v);
+        }
+        public bool HiddenInAuditMode
+        {
+            get => _model.HiddenInAuditMode;
+            set => SetProperty(_model.HiddenInAuditMode, value, _model, (m, v) => m.HiddenInAuditMode = v);
+        }
+        public bool HiddenInSceneDesignMode
+        {
+            get => _model.HiddenInSceneDesignMode;
+            set => SetProperty(_model.HiddenInSceneDesignMode, value, _model, (m, v) => m.HiddenInSceneDesignMode = v);
+        }
 
         // Resolves SubjectDefinitionId → display string; sets SubjectDefinitionId on write
         public string SelectedSubjectType

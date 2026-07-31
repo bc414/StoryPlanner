@@ -52,6 +52,13 @@ public class ConvertWorldDatesOpTests
             Assert.Equal(source.OwnerType, condition.OwnerType);
             Assert.Equal(TrackType.History, condition.TrackType);
 
+            // The condition twin copies the source's per-mode visibility flags.
+            Assert.False(condition.HiddenInExpansionMode);
+            Assert.False(condition.HiddenInLinkingMode);
+            Assert.True(condition.HiddenInGardenerMode);
+            Assert.False(condition.HiddenInAuditMode);
+            Assert.False(condition.HiddenInSceneDesignMode);
+
             // The condition twin slots directly after its event twin; later tracks bumped past it.
             Assert.Equal(source.ExpansionModeDisplayOrder + 1, condition.ExpansionModeDisplayOrder);
             var later = await verify.NoteTrackDefinitions.SingleAsync(t => t.Id == LaterTrackId);
@@ -157,7 +164,7 @@ public class ConvertWorldDatesOpTests
                 TrackName = "Backstory", DisplayQuestion = "What is this character's history?",
                 TrackType = TrackType.History, SupportsWorldDate = true, ExpansionModeDisplayOrder = 1,
                 LinkingModeDisplayOrder = 1, GardenerModeDisplayOrder = 1, AuditModeDisplayOrder = 1,
-                SceneDesignModeDisplayOrder = 1
+                SceneDesignModeDisplayOrder = 1, HiddenInGardenerMode = true
             },
             new NoteTrackDefinition
             {

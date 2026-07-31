@@ -213,7 +213,12 @@ public partial class DefinitionsEditorViewModel : ObservableObject
                 LinkingModeDisplayOrder:     t.LinkingModeDisplayOrder,
                 GardenerModeDisplayOrder:    t.GardenerModeDisplayOrder,
                 AuditModeDisplayOrder:       t.AuditModeDisplayOrder,
-                SceneDesignModeDisplayOrder: t.SceneDesignModeDisplayOrder));
+                SceneDesignModeDisplayOrder: t.SceneDesignModeDisplayOrder,
+                HiddenInExpansionMode:       t.HiddenInExpansionMode,
+                HiddenInLinkingMode:         t.HiddenInLinkingMode,
+                HiddenInGardenerMode:        t.HiddenInGardenerMode,
+                HiddenInAuditMode:           t.HiddenInAuditMode,
+                HiddenInSceneDesignMode:     t.HiddenInSceneDesignMode));
 
         string markdown = DefinitionsMarkdownExporter.Build(subjectData, trackData);
         File.WriteAllText(outputPath, markdown);

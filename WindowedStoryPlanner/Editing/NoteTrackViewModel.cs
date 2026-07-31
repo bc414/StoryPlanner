@@ -29,6 +29,7 @@ public partial class NoteTrackViewModel : ObservableObject
             {
                 _editorMode = value;
                 OnPropertyChanged(nameof(DisplayOrder));
+                OnPropertyChanged(nameof(IsVisibleInCurrentMode));
             }
         }
     }
@@ -42,6 +43,22 @@ public partial class NoteTrackViewModel : ObservableObject
         EditorMode.SceneDesign => _definition.SceneDesignModeDisplayOrder,
         _ => _definition.ExpansionModeDisplayOrder
     };
+
+    /// <summary>
+    /// False when the definition hides this track in the current editor mode — the
+    /// parent NarrativeElementViewModel then routes it to the collapsed hidden group
+    /// instead of the populated/empty split. The Unassigned track's flags are all
+    /// false, so it is always visible.
+    /// </summary>
+    public bool IsVisibleInCurrentMode => !(_editorMode switch
+    {
+        EditorMode.Expansion => _definition.HiddenInExpansionMode,
+        EditorMode.Linking => _definition.HiddenInLinkingMode,
+        EditorMode.Gardener => _definition.HiddenInGardenerMode,
+        EditorMode.Audit => _definition.HiddenInAuditMode,
+        EditorMode.SceneDesign => _definition.HiddenInSceneDesignMode,
+        _ => _definition.HiddenInExpansionMode
+    });
     public string TrackName     => _definition.TrackName;
     public string Explanation   => _definition.UsageDirective;
     public TrackType TrackType  => _definition.TrackType;

@@ -130,6 +130,18 @@ public static class DefinitionsMarkdownExporter
                     sb.AppendLine($"Track Type: {t.TrackType}");
                     sb.AppendLine();
 
+                    var hiddenModes = new List<string>();
+                    if (t.HiddenInExpansionMode)   hiddenModes.Add("Expansion");
+                    if (t.HiddenInLinkingMode)     hiddenModes.Add("Linking");
+                    if (t.HiddenInGardenerMode)    hiddenModes.Add("Gardener");
+                    if (t.HiddenInAuditMode)       hiddenModes.Add("Audit");
+                    if (t.HiddenInSceneDesignMode) hiddenModes.Add("Scene Design");
+                    if (hiddenModes.Count > 0)
+                    {
+                        sb.AppendLine($"Hidden in: {string.Join(", ", hiddenModes)}");
+                        sb.AppendLine();
+                    }
+
                     if (!string.IsNullOrWhiteSpace(t.DisplayQuestion))
                     {
                         sb.AppendLine("**Display Question**");
@@ -189,4 +201,9 @@ public record NoteTrackDefinitionExportData(
     int LinkingModeDisplayOrder,
     int GardenerModeDisplayOrder,
     int AuditModeDisplayOrder,
-    int SceneDesignModeDisplayOrder);
+    int SceneDesignModeDisplayOrder,
+    bool HiddenInExpansionMode = false,
+    bool HiddenInLinkingMode = false,
+    bool HiddenInGardenerMode = false,
+    bool HiddenInAuditMode = false,
+    bool HiddenInSceneDesignMode = false);

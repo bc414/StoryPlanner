@@ -110,6 +110,43 @@
                     </ItemsControl.ItemsPanel>
                 </ItemsControl>
 
+                <!-- ── Hidden-in-this-mode tracks: collapsed expander (far right) ── -->
+                <!-- Tracks the definition hides in the current editor mode. Collapsed by
+                     default; nothing is ever unreachable without a mode switch. -->
+                <Expander ExpandDirection="Right" IsExpanded="False"
+                          VerticalAlignment="Top" Margin="4,0,0,0">
+                    <Expander.Style>
+                        <Style TargetType="Expander">
+                            <Setter Property="Visibility" Value="Visible"/>
+                            <Style.Triggers>
+                                <DataTrigger Binding="{Binding HiddenNoteTracks.Count}" Value="0">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                </DataTrigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Expander.Style>
+                    <Expander.Header>
+                        <TextBlock Foreground="#888" FontSize="11">
+                            <TextBlock.LayoutTransform>
+                                <RotateTransform Angle="90"/>
+                            </TextBlock.LayoutTransform>
+                            <Run Text="Hidden in this mode ("/><Run Text="{Binding HiddenNoteTracks.Count, Mode=OneWay}"/><Run Text=")"/>
+                        </TextBlock>
+                    </Expander.Header>
+                    <ItemsControl ItemsSource="{Binding HiddenNoteTracks}"
+                                  VirtualizingPanel.IsVirtualizing="False"
+                                  ItemTemplate="{StaticResource NoteTrackItemTemplate}"
+                                  Margin="4,0,0,0">
+                        <ItemsControl.ItemsPanel>
+                            <ItemsPanelTemplate>
+                                <WrapPanel Orientation="Vertical"
+                                           Height="{Binding ActualHeight,
+                                                   RelativeSource={RelativeSource AncestorType=ScrollViewer}}"/>
+                            </ItemsPanelTemplate>
+                        </ItemsControl.ItemsPanel>
+                    </ItemsControl>
+                </Expander>
+
             </StackPanel>
         </ScrollViewer>
 

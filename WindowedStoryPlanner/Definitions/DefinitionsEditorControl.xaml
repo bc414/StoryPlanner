@@ -355,6 +355,98 @@
                     </DataGridTemplateColumn.CellEditingTemplate>
                 </DataGridTemplateColumn>
 
+                <!-- Per-mode Hidden columns — true demotes the track to the collapsed
+                     "Hidden in this mode" group in that editor mode -->
+                <DataGridTemplateColumn Width="48" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="H:Exp" ToolTip="Hide this track in Expansion mode"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInExpansionMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInExpansionMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="48" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="H:Link" ToolTip="Hide this track in Linking mode"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInLinkingMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInLinkingMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="48" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="H:Gard" ToolTip="Hide this track in Gardener mode"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInGardenerMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInGardenerMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="52" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="H:Audit" ToolTip="Hide this track in Audit mode"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInAuditMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInAuditMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Width="52" CanUserResize="False">
+                    <DataGridTemplateColumn.Header>
+                        <TextBlock Text="H:Scene" ToolTip="Hide this track in Scene Design mode"/>
+                    </DataGridTemplateColumn.Header>
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInSceneDesignMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center" IsHitTestVisible="False"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding HiddenInSceneDesignMode, UpdateSourceTrigger=PropertyChanged}"
+                                      HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
                 <!-- IsSingleton -->
                 <DataGridTemplateColumn Header="Singleton" Width="62" CanUserResize="False">
                     <DataGridTemplateColumn.CellTemplate>

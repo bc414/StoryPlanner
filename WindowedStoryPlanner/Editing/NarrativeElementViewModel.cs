@@ -31,6 +31,12 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     /// <summary>Tracks with no notes — stacked vertically in a WrapPanel to the right of populated tracks.</summary>
     public ObservableCollection<NoteTrackViewModel> EmptyNoteTracks { get; } = new();
 
+    /// <summary>
+    /// Tracks the definition hides in the current editor mode (regardless of notes) —
+    /// shown in a collapsed "Hidden in this mode" expander after the empty tracks.
+    /// </summary>
+    public ObservableCollection<NoteTrackViewModel> HiddenNoteTracks { get; } = new();
+
     // Keyed delegates so we can cleanly unsubscribe when tracks are torn down.
     private readonly Dictionary<NoteTrackViewModel, PropertyChangedEventHandler> _trackHandlers = new();
 
@@ -170,6 +176,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         NarrativeProperties.Clear();
         PopulatedNoteTracks.Clear();
         EmptyNoteTracks.Clear();
+        HiddenNoteTracks.Clear();
 
         foreach (var ntd in _noteTrackFactory())
         {
@@ -220,10 +227,16 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         }
     }
 
-    /// <summary>Inserts <paramref name="track"/> into the correct sorted collection based on <see cref="NoteTrackViewModel.HasNotes"/>.</summary>
+    /// <summary>
+    /// Inserts <paramref name="track"/> into the correct sorted collection: the hidden
+    /// group when the definition hides it in the current mode (even with notes — mode
+    /// visibility outranks the populated/empty split), else by <see cref="NoteTrackViewModel.HasNotes"/>.
+    /// </summary>
     private void DistributeTrack(NoteTrackViewModel track)
     {
-        if (track.HasNotes)
+        if (!track.IsVisibleInCurrentMode)
+            InsertSorted(HiddenNoteTracks, track);
+        else if (track.HasNotes)
             InsertSorted(PopulatedNoteTracks, track);
         else
             InsertSorted(EmptyNoteTracks, track);
@@ -239,18 +252,16 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
 
     private void OnTrackHasNotesChanged(NoteTrackViewModel track)
     {
-        if (track.HasNotes)
-        {
-            EmptyNoteTracks.Remove(track);
-            InsertSorted(PopulatedNoteTracks, track);
-        }
-        else
-        {
-            PopulatedNoteTracks.Remove(track);
-            InsertSorted(EmptyNoteTracks, track);
-        }
-
+        RemoveFromDistributedCollections(track);
+        DistributeTrack(track);
         RefreshIsFirstTrack();
+    }
+
+    private void RemoveFromDistributedCollections(NoteTrackViewModel track)
+    {
+        PopulatedNoteTracks.Remove(track);
+        EmptyNoteTracks.Remove(track);
+        HiddenNoteTracks.Remove(track);
     }
 
     /// <summary>
@@ -303,34 +314,22 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
 
     /// <summary>
     /// Stores the current editor mode and pushes it to all tracks, which updates their
-    /// <see cref="NoteTrackViewModel.DisplayOrder"/> to switch on the correct display-order field.
-    /// Also re-sorts both distributed collections so the visual order reflects the new mode
-    /// regardless of whether the tracks were built before or after the mode was known.
+    /// <see cref="NoteTrackViewModel.DisplayOrder"/> and per-mode visibility. A full
+    /// redistribution then handles reordering and hide/reappear in one pass, regardless
+    /// of whether the tracks were built before or after the mode was known.
     /// </summary>
     public void SetEditorMode(EditorMode mode)
     {
         _editorMode = mode;
         foreach (var track in NoteTracks)
             track.EditorMode = mode;
-        ResortDistributedTracks();
-    }
 
-    private void ResortDistributedTracks()
-    {
-        ResortCollection(PopulatedNoteTracks);
-        ResortCollection(EmptyNoteTracks);
+        PopulatedNoteTracks.Clear();
+        EmptyNoteTracks.Clear();
+        HiddenNoteTracks.Clear();
+        foreach (var track in NoteTracks)
+            DistributeTrack(track);
         RefreshIsFirstTrack();
-    }
-
-    private static void ResortCollection(ObservableCollection<NoteTrackViewModel> collection)
-    {
-        var sorted = collection.OrderBy(t => t.DisplayOrder).ToList();
-        for (int i = 0; i < sorted.Count; i++)
-        {
-            int current = collection.IndexOf(sorted[i]);
-            if (current != i)
-                collection.Move(current, i);
-        }
     }
 
     /// <summary>
