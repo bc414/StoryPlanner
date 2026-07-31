@@ -25,6 +25,7 @@ public interface IStoryService : IDisposable
     ObservableCollection<NoteSourceReference> NoteSourceReferences { get; }
     ObservableCollection<GeminiEntry> GeminiEntries { get; }
     ObservableCollection<Idea> Ideas { get; }
+    ObservableCollection<UiSetting> UiSettings { get; }
 
     ObservableCollection<Conversation> Conversations { get; }
     ObservableCollection<ConversationBlock> ConversationBlocks { get; }

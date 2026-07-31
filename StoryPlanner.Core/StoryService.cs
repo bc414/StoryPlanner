@@ -42,6 +42,7 @@ public class StoryService : IStoryService
 
     public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
     public ObservableCollection<Idea> Ideas { get; private set; } = new();
+    public ObservableCollection<UiSetting> UiSettings { get; private set; } = new();
 
     public ObservableCollection<Conversation> Conversations { get; private set; } = new();
     public ObservableCollection<ConversationBlock> ConversationBlocks { get; private set; } = new();
@@ -255,6 +256,7 @@ public class StoryService : IStoryService
         await _context.NoteSourceReferences.LoadAsync();
         await _context.GeminiEntries.LoadAsync();
         await _context.Ideas.LoadAsync();
+        await _context.UiSettings.LoadAsync();
 
         await _context.Conversations.OrderBy(c => c.ConversationDate).LoadAsync();
         await _context.ConversationBlocks.OrderBy(b => b.ConversationId).ThenBy(b => b.BlockNumber).LoadAsync();
@@ -283,6 +285,7 @@ public class StoryService : IStoryService
         NoteSourceReferences  = _context.NoteSourceReferences.Local.ToObservableCollection();
         GeminiEntries   = _context.GeminiEntries.Local.ToObservableCollection();
         Ideas           = _context.Ideas.Local.ToObservableCollection();
+        UiSettings      = _context.UiSettings.Local.ToObservableCollection();
 
         Conversations                 = _context.Conversations.Local.ToObservableCollection();
         ConversationBlocks            = _context.ConversationBlocks.Local.ToObservableCollection();

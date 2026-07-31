@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Input;
+using System.Windows.Threading;
 
 namespace WindowedStoryPlanner;
 
@@ -48,7 +49,7 @@ public partial class TimelineViewModel : ObservableObject
 
     public bool IsYearViewMode => PixelsPerYear >= StripZoomThresholdPpy;
 
-    // Session state — not persisted (nothing persists UI prefs in this app yet).
+    // Persisted with the file via the UiSettings table (see TimelineViewState).
     private readonly HashSet<int> _collapsedTheaters = [];
     private readonly HashSet<string> _collapsedEras = [];
 
@@ -56,7 +57,70 @@ public partial class TimelineViewModel : ObservableObject
     {
         _storyService = storyService;
         _registry = registry;
-        _registry.StoryLoaded += () => { Rebuild(); RebuildSidePanels(); };
+        _registry.StoryLoaded += () => { LoadPersistedViewState(); Rebuild(); RebuildSidePanels(); };
+
+        _viewStateSaveTimer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
+        _viewStateSaveTimer.Tick += (_, _) =>
+        {
+            _viewStateSaveTimer.Stop();
+            _ = SaveViewStateAsync();
+        };
+    }
+
+    // ── Viewport persistence ────────────────────────────────────────────────────
+    // One UiSettings row keyed by TimelineViewState.UiSettingKey. Saves are debounced
+    // (SaveAsync also writes the .md/_stats.csv exports, so never save per scroll tick);
+    // at most the last few seconds of scrolling are lost on an abrupt close.
+
+    private readonly DispatcherTimer _viewStateSaveTimer;
+    private string _lastSavedViewState = "";
+
+    private void LoadPersistedViewState()
+    {
+        var row = _storyService.UiSettings.FirstOrDefault(s => s.Key == TimelineViewState.UiSettingKey);
+        var state = TimelineViewState.TryDeserialize(row?.Value);
+        if (state is null) return; // missing row or corrupt payload → built-in defaults
+
+        if (state.PixelsPerYear is { } ppy) PixelsPerYear = Math.Clamp(ppy, 0.5, 4000);
+        if (state.CenterYear is { } center) _centerFrac = center;
+        _collapsedTheaters.Clear();
+        _collapsedTheaters.UnionWith(state.CollapsedTheaters);
+        _collapsedEras.Clear();
+        _collapsedEras.UnionWith(state.CollapsedEras);
+        _lastSavedViewState = CaptureViewState().Serialize();
+    }
+
+    private TimelineViewState CaptureViewState() => new()
+    {
+        PixelsPerYear = PixelsPerYear,
+        CenterYear = double.IsNaN(_centerFrac) ? null : _centerFrac,
+        CollapsedTheaters = _collapsedTheaters.OrderBy(i => i).ToList(),
+        CollapsedEras = _collapsedEras.OrderBy(k => k, StringComparer.Ordinal).ToList(),
+    };
+
+    /// <summary>Restarts the debounce window; the actual save happens on the timer tick.</summary>
+    private void RequestViewStateSave()
+    {
+        if (!_storyService.IsProjectLoaded) return;
+        _viewStateSaveTimer.Stop();
+        _viewStateSaveTimer.Start();
+    }
+
+    private async Task SaveViewStateAsync()
+    {
+        if (!_storyService.IsProjectLoaded) return;
+        var json = CaptureViewState().Serialize();
+        if (json == _lastSavedViewState) return;
+
+        var row = _storyService.UiSettings.FirstOrDefault(s => s.Key == TimelineViewState.UiSettingKey);
+        if (row is null)
+        {
+            row = new UiSetting { Key = TimelineViewState.UiSettingKey };
+            _storyService.UiSettings.Add(row);
+        }
+        row.Value = json;
+        await _storyService.SaveAsync();
+        _lastSavedViewState = json;
     }
 
     /// <summary>The scrolling body.</summary>
@@ -168,16 +232,16 @@ public partial class TimelineViewModel : ObservableObject
     }
 
     [RelayCommand]
-    private void ZoomIn() { PixelsPerYear = Math.Min(4000, PixelsPerYear * 1.5); Rebuild(); }
+    private void ZoomIn() { PixelsPerYear = Math.Min(4000, PixelsPerYear * 1.5); Rebuild(); RequestViewStateSave(); }
 
     [RelayCommand]
-    private void ZoomOut() { PixelsPerYear = Math.Max(0.5, PixelsPerYear / 1.5); Rebuild(); }
+    private void ZoomOut() { PixelsPerYear = Math.Max(0.5, PixelsPerYear / 1.5); Rebuild(); RequestViewStateSave(); }
 
     [RelayCommand]
-    private void ZoomSurvey() { PixelsPerYear = SurveyPpy; Rebuild(); }
+    private void ZoomSurvey() { PixelsPerYear = SurveyPpy; Rebuild(); RequestViewStateSave(); }
 
     [RelayCommand]
-    private void ZoomYearView() { PixelsPerYear = YearViewPpy; Rebuild(); }
+    private void ZoomYearView() { PixelsPerYear = YearViewPpy; Rebuild(); RequestViewStateSave(); }
 
     [RelayCommand]
     private void Refresh() { Rebuild(); RebuildSidePanels(); }
@@ -189,6 +253,7 @@ public partial class TimelineViewModel : ObservableObject
         if (!_collapsedTheaters.Remove(id)) _collapsedTheaters.Add(id);
         Rebuild();
         foreach (var row in TheaterRows) row.NotifyCollapsedChanged();
+        RequestViewStateSave();
     }
 
     [RelayCommand]
@@ -197,6 +262,7 @@ public partial class TimelineViewModel : ObservableObject
         _collapsedTheaters.Clear();
         Rebuild();
         foreach (var row in TheaterRows) row.NotifyCollapsedChanged();
+        RequestViewStateSave();
     }
 
     public bool IsTheaterCollapsed(int id) => _collapsedTheaters.Contains(id);
@@ -208,6 +274,7 @@ public partial class TimelineViewModel : ObservableObject
         if (!_collapsedEras.Remove(row.Key)) _collapsedEras.Add(row.Key);
         row.NotifyCollapsedChanged();
         Rebuild();
+        RequestViewStateSave();
     }
 
     public bool IsEraCollapsed(string key) => _collapsedEras.Contains(key);
@@ -365,6 +432,7 @@ public partial class TimelineViewModel : ObservableObject
                 if (axis.YOf(mid) < verticalCenterPx) lo = mid; else hi = mid;
             }
             _centerFrac = (lo + hi) / 2;
+            RequestViewStateSave();
         }
     }
 
