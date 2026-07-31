@@ -252,6 +252,32 @@ public class SchemaTruthTests
         Assert.Contains("S3E03", result.Split('\n').Single(l => l.Contains("<- untouched")));
     }
 
+    [Fact]
+    public void ListSourceMaterials_does_not_report_part_citations_as_work_level_ones()
+    {
+        // A Part-level citation must never be counted as "naming the work itself" — conflating
+        // the two overstates work-level citation everywhere Parts are used, which is most of
+        // the corpus. Here: 3 citations under the Work, only 1 of which names the Work alone.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SourceMaterials.Add(new SourceMaterial { Id = 1, Name = "MLP:FiM", PartNoun = "Episode" });
+            ctx.SourceMaterialParts.AddRange(
+                new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "S3E01" },
+                new SourceMaterialPart { Id = 2, SourceMaterialId = 1, Code = "S3E02" });
+            ctx.NoteSourceReferences.AddRange(
+                new NoteSourceReference { NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 1 },
+                new NoteSourceReference { NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 2 },
+                new NoteSourceReference { NoteId = SyntheticPlan.PlotPointNoteId, SourceMaterialId = 1, SourceMaterialPartId = null });
+        });
+        var reference = new ReferenceTools(plan.Sources);
+
+        var workLine = reference.ListSourceMaterials().Split('\n').Single(l => l.StartsWith("## MLP:FiM"));
+
+        Assert.Contains("3 citation(s) total", workLine);
+        Assert.Contains("1 naming the work itself", workLine);
+    }
+
     // ── Focal character (POV) ────────────────────────────────────────────────
 
     [Fact]

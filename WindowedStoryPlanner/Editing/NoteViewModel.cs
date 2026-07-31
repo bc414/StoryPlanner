@@ -4,6 +4,7 @@ using StoryPlanner.Core;
 using System;
 using System.Collections.ObjectModel;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace WindowedStoryPlanner;
 
@@ -288,20 +289,27 @@ public partial class NoteViewModel : ObservableObject
     /// <summary>Quick-add: creates a new Work (e.g. a fanfic not yet in the library). Does not
     /// cite it — call AddSourceReference afterward. Adds to the shared registry-backed
     /// collection so every open picker sees it, matching ContentFactory's
-    /// mutate-then-save-then-sync-registry pattern.</summary>
-    public SourceMaterialViewModel CreateSourceMaterial(string name)
+    /// mutate-then-save-then-sync-registry pattern.
+    ///
+    /// AWAITS the save deliberately: EF assigns model.Id there, and the caller immediately uses
+    /// that id (as a Part's SourceMaterialId, and as a citation's). Fire-and-forget would hand
+    /// back a Work whose Id is still 0 and silently orphan both rows.</summary>
+    public async Task<SourceMaterialViewModel> CreateSourceMaterialAsync(string name)
     {
         var model = new SourceMaterial { Name = name, Description = string.Empty, OrderIndex = _sourceMaterials.Count };
         _storyService.SourceMaterials.Add(model);
+        await _storyService.SaveAsync();          // Id assigned here — must precede any use of it
         var vm = new SourceMaterialViewModel(model, _storyService);
         _sourceMaterials.Add(vm);
-        _ = _storyService.SaveAsync();
         return vm;
     }
 
     /// <summary>Quick-add: creates a new Part under an existing Work (e.g. an episode missing
-    /// from the seeded list). Does not cite it — call AddSourceReference afterward.</summary>
-    public SourceMaterialPartViewModel CreateSourceMaterialPart(SourceMaterialViewModel work, string code, string name)
+    /// from the seeded list). Does not cite it — call AddSourceReference afterward. Awaits the
+    /// save for the same reason as CreateSourceMaterialAsync: the caller cites the new Part by
+    /// id straight afterward.</summary>
+    public async Task<SourceMaterialPartViewModel> CreateSourceMaterialPartAsync(
+        SourceMaterialViewModel work, string code, string name)
     {
         var model = new SourceMaterialPart
         {
@@ -313,9 +321,9 @@ public partial class NoteViewModel : ObservableObject
             ReviewState = SourcePartReviewState.NotReviewed
         };
         _storyService.SourceMaterialParts.Add(model);
+        await _storyService.SaveAsync();          // Id assigned here
         var vm = new SourceMaterialPartViewModel(model, _storyService);
         _sourceMaterialParts.Add(vm);
-        _ = _storyService.SaveAsync();
         return vm;
     }
 }

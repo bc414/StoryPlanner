@@ -28,3 +28,7 @@ riderModule.iml
 /ViewModels.txt
 /run_stdout.log
 /run_stderr.log
+
+# Saved reference webpages used to seed source-material.v2.json — large HTML
+# snapshots (with asset folders), not source, and easily re-saved from the web.
+/source_material_references/

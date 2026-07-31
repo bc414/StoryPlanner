@@ -139,15 +139,23 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
         var sb = new StringBuilder();
 
-        var citedPartIds = c.SourceReferencesByNote.Values.SelectMany(refs => refs)
-            .Where(r => r.SourceMaterialPartId.HasValue)
-            .Select(r => r.SourceMaterialPartId!.Value)
-            .ToHashSet();
-        var citationCountByPart = c.SourceReferencesByNote.Values.SelectMany(refs => refs)
+        var allReferences = c.SourceReferencesByNote.Values.SelectMany(refs => refs).ToList();
+
+        // Two DIFFERENT per-Work numbers, never conflated: citations naming only the Work
+        // ("work-level"), and every citation under it including Part-level ones ("total").
+        // Reporting the total as though it were work-level would overstate work-level citation
+        // wherever Parts are cited — most of the corpus.
+        var partCitationCountByPart = allReferences
             .Where(r => r.SourceMaterialPartId.HasValue)
             .GroupBy(r => r.SourceMaterialPartId!.Value)
             .ToDictionary(g => g.Key, g => g.Count());
-        var citationCountByWork = c.SourceReferencesByNote.Values.SelectMany(refs => refs)
+        var citedPartIds = partCitationCountByPart.Keys.ToHashSet();
+
+        var workLevelCountByWork = allReferences
+            .Where(r => r.SourceMaterialPartId is null)
+            .GroupBy(r => r.SourceMaterialId)
+            .ToDictionary(g => g.Key, g => g.Count());
+        var totalCountByWork = allReferences
             .GroupBy(r => r.SourceMaterialId)
             .ToDictionary(g => g.Key, g => g.Count());
 
@@ -160,8 +168,9 @@ public sealed class ReferenceTools(StoryPlanSources sources)
 
         foreach (var work in c.SourceMaterials.OrderBy(w => w.OrderIndex))
         {
-            var workCitations = citationCountByWork.GetValueOrDefault(work.Id);
-            sb.AppendLine($"## {work.Name} — {workCitations} note(s) cite the work directly (source:{work.Id})");
+            var workLevel = workLevelCountByWork.GetValueOrDefault(work.Id);
+            var total = totalCountByWork.GetValueOrDefault(work.Id);
+            sb.AppendLine($"## {work.Name} — {total} citation(s) total, {workLevel} naming the work itself (source:{work.Id})");
             if (work.Description.Length > 0) sb.AppendLine($"  {work.Description}");
 
             var parts = c.SourceMaterialPartsByWork.TryGetValue(work.Id, out var pl) ? pl : [];
@@ -176,7 +185,7 @@ public sealed class ReferenceTools(StoryPlanSources sources)
             sb.AppendLine($"  {parts.Count} {partNoun}s ({untouched} untouched — never reviewed AND never cited)");
             foreach (var p in parts)
             {
-                var n = citationCountByPart.GetValueOrDefault(p.Id);
+                var n = partCitationCountByPart.GetValueOrDefault(p.Id);
                 var reviewed = p.ReviewState == SourcePartReviewState.Reviewed;
                 var flag = n == 0 && !reviewed ? " <- untouched" : "";
                 var label = p.Name.Length > 0 ? $"{p.Code} — {p.Name}" : p.Code;

@@ -1,59 +1,2226 @@
 {
-  "_comment": "Seeds the Work/Part coverage model and enables citation on the six TrackType.Canon tracks (Source Material References / Canon References across Character, Bond, Organization, World Law, Civilizational System, Technology — ids confirmed live against TLTT v2.storyplan). NOT the full ~221-episode MLP:FiM catalog: 'parts' below covers only episodes/chapters already evidenced verbatim in Brian's own note text, plus season premieres/finales whose SxxExx numbering is unambiguous public fact. Where a specific episode number was NOT confidently known, 'code' is the episode title itself (no invented SxxExx) — flag, never guess, per CLAUDE.md. Extend this file (idempotent re-run) or use the in-app '+ Add new' quick-add as coverage grows.",
-
+  "_comment": "Seeds the Work/Part coverage model and enables citation on the six TrackType.Canon tracks (Source Material References / Canon References across Character, Bond, Organization, World Law, Civilizational System, Technology -- ids confirmed live against TLTT v2.storyplan). MLP:FiM (all 221 numbered episodes + movie/specials/clip-shows), Equestria at War (all 79 playable countries, 3-letter game tags), The Princess and the Kaiser, and Pax Chrysalia were seeded from real reference material Brian supplied in source_material_references/ (gitignored -- Wikipedia's episode list, the EaW wiki's country list, and each Fimfiction chapter list) rather than guessed. Where a Fimfiction chapter has no real title (Fimfiction shows only \"Part N\"), its Name is Brian's own adhoc short name from his personal tracking spreadsheet (The Princess and the Kaiser - Sheet1.csv); one chapter (P&K ch1) has neither and is left unnamed -- Code is its display fallback. Extend this file (idempotent re-run) or use the in-app '+ Add new' quick-add as coverage grows.",
   "sourceMaterials": [
     {
       "name": "MLP:FiM",
-      "description": "My Little Pony: Friendship is Magic — the canon series TLTT is built on top of.",
+      "description": "My Little Pony: Friendship is Magic -- the canon series TLTT is built on top of.",
       "partNoun": "Episode",
       "orderIndex": 1,
       "parts": [
-        { "code": "S1E02", "name": "Friendship is Magic Part 2", "orderIndex": 1 },
-        { "code": "Dragonshy", "name": "", "orderIndex": 2 },
-        { "code": "Bridle Gossip", "name": "", "orderIndex": 3 },
-        { "code": "Look Before You Sleep", "name": "", "orderIndex": 4 },
-        { "code": "Sonic Rainboom", "name": "", "orderIndex": 5 },
-        { "code": "Winter Wrap Up", "name": "", "orderIndex": 6 },
-        { "code": "A Bird in the Hoof", "name": "", "orderIndex": 7 },
-        { "code": "S1E23", "name": "The Cutie Mark Chronicles", "orderIndex": 8 },
-        { "code": "S2", "name": "Secret of my Excess", "orderIndex": 9,
-          "description": "Season confirmed directly in Brian's note; episode number not." },
-        { "code": "Luna Eclipsed", "name": "", "orderIndex": 10 },
-        { "code": "Hearth's Warming Eve", "name": "", "orderIndex": 11 },
-        { "code": "S2E25-26", "name": "Canterlot Wedding", "orderIndex": 12 },
-        { "code": "S3E01", "name": "The Crystal Empire Part 1", "orderIndex": 13 },
-        { "code": "S3E02", "name": "The Crystal Empire Part 2", "orderIndex": 14 },
-        { "code": "Wonderbolts Academy", "name": "", "orderIndex": 15 },
-        { "code": "It's About Time", "name": "", "orderIndex": 16 },
-        { "code": "S3E13", "name": "Magical Mystery Cure", "orderIndex": 17 },
-        { "code": "Rarity Takes Manehattan", "name": "", "orderIndex": 18 },
-        { "code": "S4E25-26", "name": "Twilight's Kingdom", "orderIndex": 19 },
-        { "code": "S5E01-02", "name": "The Cutie Map", "orderIndex": 20 },
-        { "code": "Equestria Games", "name": "", "orderIndex": 21 },
-        { "code": "S5E25-26", "name": "The Cutie Remark", "orderIndex": 22 },
-        { "code": "S6E01-02", "name": "The Crystalling", "orderIndex": 23,
-          "description": "Brian's notes use both 'The Crystaling' and 'The Chrysalling' as spelling variants for this Part." },
-        { "code": "No Second Prances", "name": "", "orderIndex": 24 },
-        { "code": "Stare Master", "name": "", "orderIndex": 25 },
-        { "code": "S6E25-26", "name": "To Where and Back Again", "orderIndex": 26 },
-        { "code": "S9", "name": "Sweet and Smoky", "orderIndex": 27,
-          "description": "Season confirmed directly in Brian's note; episode number not." },
-        { "code": "My Little Pony: The Movie", "name": "", "orderIndex": 28 }
+        {
+          "code": "S1E01",
+          "name": "Friendship Is Magic Part 1",
+          "orderIndex": 1
+        },
+        {
+          "code": "S1E02",
+          "name": "Friendship Is Magic Part 2",
+          "orderIndex": 2
+        },
+        {
+          "code": "S1E03",
+          "name": "The Ticket Master",
+          "orderIndex": 3
+        },
+        {
+          "code": "S1E04",
+          "name": "Applebuck Season",
+          "orderIndex": 4
+        },
+        {
+          "code": "S1E05",
+          "name": "Griffon the Brush Off",
+          "orderIndex": 5
+        },
+        {
+          "code": "S1E06",
+          "name": "Boast Busters",
+          "orderIndex": 6
+        },
+        {
+          "code": "S1E07",
+          "name": "Dragonshy",
+          "orderIndex": 7
+        },
+        {
+          "code": "S1E08",
+          "name": "Look Before You Sleep",
+          "orderIndex": 8
+        },
+        {
+          "code": "S1E09",
+          "name": "Bridle Gossip",
+          "orderIndex": 9
+        },
+        {
+          "code": "S1E10",
+          "name": "Swarm of the Century",
+          "orderIndex": 10
+        },
+        {
+          "code": "S1E11",
+          "name": "Winter Wrap Up",
+          "orderIndex": 11
+        },
+        {
+          "code": "S1E12",
+          "name": "Call of the Cutie",
+          "orderIndex": 12
+        },
+        {
+          "code": "S1E13",
+          "name": "Fall Weather Friends",
+          "orderIndex": 13
+        },
+        {
+          "code": "S1E14",
+          "name": "Suited for Success",
+          "orderIndex": 14
+        },
+        {
+          "code": "S1E15",
+          "name": "Feeling Pinkie Keen",
+          "orderIndex": 15
+        },
+        {
+          "code": "S1E16",
+          "name": "Sonic Rainboom",
+          "orderIndex": 16
+        },
+        {
+          "code": "S1E17",
+          "name": "Stare Master",
+          "orderIndex": 17
+        },
+        {
+          "code": "S1E18",
+          "name": "The Show Stoppers",
+          "orderIndex": 18
+        },
+        {
+          "code": "S1E19",
+          "name": "A Dog and Pony Show",
+          "orderIndex": 19
+        },
+        {
+          "code": "S1E20",
+          "name": "Green Isn't Your Color",
+          "orderIndex": 20
+        },
+        {
+          "code": "S1E21",
+          "name": "Over a Barrel",
+          "orderIndex": 21
+        },
+        {
+          "code": "S1E22",
+          "name": "A Bird in the Hoof",
+          "orderIndex": 22
+        },
+        {
+          "code": "S1E23",
+          "name": "The Cutie Mark Chronicles",
+          "orderIndex": 23
+        },
+        {
+          "code": "S1E24",
+          "name": "Owl's Well That Ends Well",
+          "orderIndex": 24
+        },
+        {
+          "code": "S1E25",
+          "name": "Party of One",
+          "orderIndex": 25
+        },
+        {
+          "code": "S1E26",
+          "name": "The Best Night Ever",
+          "orderIndex": 26
+        },
+        {
+          "code": "S2E01",
+          "name": "The Return of Harmony Part 1",
+          "orderIndex": 27
+        },
+        {
+          "code": "S2E02",
+          "name": "The Return of Harmony Part 2",
+          "orderIndex": 28
+        },
+        {
+          "code": "S2E03",
+          "name": "Lesson Zero",
+          "orderIndex": 29
+        },
+        {
+          "code": "S2E04",
+          "name": "Luna Eclipsed",
+          "orderIndex": 30
+        },
+        {
+          "code": "S2E05",
+          "name": "Sisterhooves Social",
+          "orderIndex": 31
+        },
+        {
+          "code": "S2E06",
+          "name": "The Cutie Pox",
+          "orderIndex": 32
+        },
+        {
+          "code": "S2E07",
+          "name": "May the Best Pet Win!",
+          "orderIndex": 33
+        },
+        {
+          "code": "S2E08",
+          "name": "The Mysterious Mare Do Well",
+          "orderIndex": 34
+        },
+        {
+          "code": "S2E09",
+          "name": "Sweet and Elite",
+          "orderIndex": 35
+        },
+        {
+          "code": "S2E10",
+          "name": "Secret of My Excess",
+          "orderIndex": 36
+        },
+        {
+          "code": "S2E11",
+          "name": "Hearth's Warming Eve",
+          "orderIndex": 37
+        },
+        {
+          "code": "S2E12",
+          "name": "Family Appreciation Day",
+          "orderIndex": 38
+        },
+        {
+          "code": "S2E13",
+          "name": "Baby Cakes",
+          "orderIndex": 39
+        },
+        {
+          "code": "S2E14",
+          "name": "The Last Roundup",
+          "orderIndex": 40
+        },
+        {
+          "code": "S2E15",
+          "name": "The Super Speedy Cider Squeezy 6000",
+          "orderIndex": 41
+        },
+        {
+          "code": "S2E16",
+          "name": "Read It and Weep",
+          "orderIndex": 42
+        },
+        {
+          "code": "S2E17",
+          "name": "Hearts and Hooves Day",
+          "orderIndex": 43
+        },
+        {
+          "code": "S2E18",
+          "name": "A Friend in Deed",
+          "orderIndex": 44
+        },
+        {
+          "code": "S2E19",
+          "name": "Putting Your Hoof Down",
+          "orderIndex": 45
+        },
+        {
+          "code": "S2E20",
+          "name": "It's About Time",
+          "orderIndex": 46
+        },
+        {
+          "code": "S2E21",
+          "name": "Dragon Quest",
+          "orderIndex": 47
+        },
+        {
+          "code": "S2E22",
+          "name": "Hurricane Fluttershy",
+          "orderIndex": 48
+        },
+        {
+          "code": "S2E23",
+          "name": "Ponyville Confidential",
+          "orderIndex": 49
+        },
+        {
+          "code": "S2E24",
+          "name": "MMMystery on the Friendship Express",
+          "orderIndex": 50
+        },
+        {
+          "code": "S2E25",
+          "name": "A Canterlot Wedding Part 1",
+          "orderIndex": 51
+        },
+        {
+          "code": "S2E26",
+          "name": "A Canterlot Wedding Part 2",
+          "orderIndex": 52
+        },
+        {
+          "code": "S3E01",
+          "name": "The Crystal Empire Part 1",
+          "orderIndex": 53
+        },
+        {
+          "code": "S3E02",
+          "name": "The Crystal Empire Part 2",
+          "orderIndex": 54
+        },
+        {
+          "code": "S3E03",
+          "name": "Too Many Pinkie Pies",
+          "orderIndex": 55
+        },
+        {
+          "code": "S3E04",
+          "name": "One Bad Apple",
+          "orderIndex": 56
+        },
+        {
+          "code": "S3E05",
+          "name": "Magic Duel",
+          "orderIndex": 57
+        },
+        {
+          "code": "S3E06",
+          "name": "Sleepless in Ponyville",
+          "orderIndex": 58
+        },
+        {
+          "code": "S3E07",
+          "name": "Wonderbolts Academy",
+          "orderIndex": 59
+        },
+        {
+          "code": "S3E08",
+          "name": "Apple Family Reunion",
+          "orderIndex": 60
+        },
+        {
+          "code": "S3E09",
+          "name": "Spike at Your Service",
+          "orderIndex": 61
+        },
+        {
+          "code": "S3E10",
+          "name": "Keep Calm and Flutter On",
+          "orderIndex": 62
+        },
+        {
+          "code": "S3E11",
+          "name": "Just for Sidekicks",
+          "orderIndex": 63
+        },
+        {
+          "code": "S3E12",
+          "name": "Games Ponies Play",
+          "orderIndex": 64
+        },
+        {
+          "code": "S3E13",
+          "name": "Magical Mystery Cure",
+          "orderIndex": 65
+        },
+        {
+          "code": "S4E01",
+          "name": "Princess Twilight Sparkle Part 1",
+          "orderIndex": 66
+        },
+        {
+          "code": "S4E02",
+          "name": "Princess Twilight Sparkle Part 2",
+          "orderIndex": 67
+        },
+        {
+          "code": "S4E03",
+          "name": "Castle Mane-ia",
+          "orderIndex": 68
+        },
+        {
+          "code": "S4E04",
+          "name": "Daring Don't",
+          "orderIndex": 69
+        },
+        {
+          "code": "S4E05",
+          "name": "Flight to the Finish",
+          "orderIndex": 70
+        },
+        {
+          "code": "S4E06",
+          "name": "Power Ponies",
+          "orderIndex": 71
+        },
+        {
+          "code": "S4E07",
+          "name": "Bats!",
+          "orderIndex": 72
+        },
+        {
+          "code": "S4E08",
+          "name": "Rarity Takes Manehattan",
+          "orderIndex": 73
+        },
+        {
+          "code": "S4E09",
+          "name": "Pinkie Apple Pie",
+          "orderIndex": 74
+        },
+        {
+          "code": "S4E10",
+          "name": "Rainbow Falls",
+          "orderIndex": 75
+        },
+        {
+          "code": "S4E11",
+          "name": "Three's a Crowd",
+          "orderIndex": 76
+        },
+        {
+          "code": "S4E12",
+          "name": "Pinkie Pride",
+          "orderIndex": 77
+        },
+        {
+          "code": "S4E13",
+          "name": "Simple Ways",
+          "orderIndex": 78
+        },
+        {
+          "code": "S4E14",
+          "name": "Filli Vanilli",
+          "orderIndex": 79
+        },
+        {
+          "code": "S4E15",
+          "name": "Twilight Time",
+          "orderIndex": 80
+        },
+        {
+          "code": "S4E16",
+          "name": "It Ain't Easy Being Breezies",
+          "orderIndex": 81
+        },
+        {
+          "code": "S4E17",
+          "name": "Somepony to Watch Over Me",
+          "orderIndex": 82
+        },
+        {
+          "code": "S4E18",
+          "name": "Maud Pie",
+          "orderIndex": 83
+        },
+        {
+          "code": "S4E19",
+          "name": "For Whom the Sweetie Belle Toils",
+          "orderIndex": 84
+        },
+        {
+          "code": "S4E20",
+          "name": "Leap of Faith",
+          "orderIndex": 85
+        },
+        {
+          "code": "S4E21",
+          "name": "Testing Testing 1, 2, 3",
+          "orderIndex": 86
+        },
+        {
+          "code": "S4E22",
+          "name": "Trade Ya!",
+          "orderIndex": 87
+        },
+        {
+          "code": "S4E23",
+          "name": "Inspiration Manifestation",
+          "orderIndex": 88
+        },
+        {
+          "code": "S4E24",
+          "name": "Equestria Games",
+          "orderIndex": 89
+        },
+        {
+          "code": "S4E25",
+          "name": "Twilight's Kingdom Part 1",
+          "orderIndex": 90
+        },
+        {
+          "code": "S4E26",
+          "name": "Twilight's Kingdom Part 2",
+          "orderIndex": 91
+        },
+        {
+          "code": "S5E01",
+          "name": "The Cutie Map Part 1",
+          "orderIndex": 92
+        },
+        {
+          "code": "S5E02",
+          "name": "The Cutie Map Part 2",
+          "orderIndex": 93
+        },
+        {
+          "code": "S5E03",
+          "name": "Castle Sweet Castle",
+          "orderIndex": 94
+        },
+        {
+          "code": "S5E04",
+          "name": "Bloom & Gloom",
+          "orderIndex": 95
+        },
+        {
+          "code": "S5E05",
+          "name": "Tanks for the Memories",
+          "orderIndex": 96
+        },
+        {
+          "code": "S5E06",
+          "name": "Appleoosa's Most Wanted",
+          "orderIndex": 97
+        },
+        {
+          "code": "S5E07",
+          "name": "Make New Friends but Keep Discord",
+          "orderIndex": 98
+        },
+        {
+          "code": "S5E08",
+          "name": "The Lost Treasure of Griffonstone",
+          "orderIndex": 99
+        },
+        {
+          "code": "S5E09",
+          "name": "Slice of Life",
+          "orderIndex": 100
+        },
+        {
+          "code": "S5E10",
+          "name": "Princess Spike",
+          "orderIndex": 101
+        },
+        {
+          "code": "S5E11",
+          "name": "Party Pooped",
+          "orderIndex": 102
+        },
+        {
+          "code": "S5E12",
+          "name": "Amending Fences",
+          "orderIndex": 103
+        },
+        {
+          "code": "S5E13",
+          "name": "Do Princesses Dream of Magic Sheep?",
+          "orderIndex": 104
+        },
+        {
+          "code": "S5E14",
+          "name": "Canterlot Boutique",
+          "orderIndex": 105
+        },
+        {
+          "code": "S5E15",
+          "name": "Rarity Investigates!",
+          "orderIndex": 106
+        },
+        {
+          "code": "S5E16",
+          "name": "Made in Manehattan",
+          "orderIndex": 107
+        },
+        {
+          "code": "S5E17",
+          "name": "Brotherhooves Social",
+          "orderIndex": 108
+        },
+        {
+          "code": "S5E18",
+          "name": "Crusaders of the Lost Mark",
+          "orderIndex": 109
+        },
+        {
+          "code": "S5E19",
+          "name": "The One Where Pinkie Pie Knows",
+          "orderIndex": 110
+        },
+        {
+          "code": "S5E20",
+          "name": "Hearthbreakers",
+          "orderIndex": 111
+        },
+        {
+          "code": "S5E21",
+          "name": "Scare Master",
+          "orderIndex": 112
+        },
+        {
+          "code": "S5E22",
+          "name": "What About Discord?",
+          "orderIndex": 113
+        },
+        {
+          "code": "S5E23",
+          "name": "The Hooffields and McColts",
+          "orderIndex": 114
+        },
+        {
+          "code": "S5E24",
+          "name": "The Mane Attraction",
+          "orderIndex": 115
+        },
+        {
+          "code": "S5E25",
+          "name": "The Cutie Re-Mark Part 1",
+          "orderIndex": 116
+        },
+        {
+          "code": "S5E26",
+          "name": "The Cutie Re-Mark Part 2",
+          "orderIndex": 117
+        },
+        {
+          "code": "S6E01",
+          "name": "The Crystalling Part 1",
+          "orderIndex": 118
+        },
+        {
+          "code": "S6E02",
+          "name": "The Crystalling Part 2",
+          "orderIndex": 119
+        },
+        {
+          "code": "S6E03",
+          "name": "The Gift of the Maud Pie",
+          "orderIndex": 120
+        },
+        {
+          "code": "S6E04",
+          "name": "On Your Marks",
+          "orderIndex": 121
+        },
+        {
+          "code": "S6E05",
+          "name": "Gauntlet of Fire",
+          "orderIndex": 122
+        },
+        {
+          "code": "S6E06",
+          "name": "No Second Prances",
+          "orderIndex": 123
+        },
+        {
+          "code": "S6E07",
+          "name": "Newbie Dash",
+          "orderIndex": 124
+        },
+        {
+          "code": "S6E08",
+          "name": "A Hearth's Warming Tail",
+          "orderIndex": 125
+        },
+        {
+          "code": "S6E09",
+          "name": "The Saddle Row Review",
+          "orderIndex": 126
+        },
+        {
+          "code": "S6E10",
+          "name": "Applejack's \"Day\" Off",
+          "orderIndex": 127
+        },
+        {
+          "code": "S6E11",
+          "name": "Flutter Brutter",
+          "orderIndex": 128
+        },
+        {
+          "code": "S6E12",
+          "name": "Spice Up Your Life",
+          "orderIndex": 129
+        },
+        {
+          "code": "S6E13",
+          "name": "Stranger Than Fan Fiction",
+          "orderIndex": 130
+        },
+        {
+          "code": "S6E14",
+          "name": "The Cart Before the Ponies",
+          "orderIndex": 131
+        },
+        {
+          "code": "S6E15",
+          "name": "28 Pranks Later",
+          "orderIndex": 132
+        },
+        {
+          "code": "S6E16",
+          "name": "The Times They Are a Changeling",
+          "orderIndex": 133
+        },
+        {
+          "code": "S6E17",
+          "name": "Dungeons & Discords",
+          "orderIndex": 134
+        },
+        {
+          "code": "S6E18",
+          "name": "Buckball Season",
+          "orderIndex": 135
+        },
+        {
+          "code": "S6E19",
+          "name": "The Fault in Our Cutie Marks",
+          "orderIndex": 136
+        },
+        {
+          "code": "S6E20",
+          "name": "Viva Las Pegasus",
+          "orderIndex": 137
+        },
+        {
+          "code": "S6E21",
+          "name": "Every Little Thing She Does",
+          "orderIndex": 138
+        },
+        {
+          "code": "S6E22",
+          "name": "P.P.O.V. (Pony Point of View)",
+          "orderIndex": 139
+        },
+        {
+          "code": "S6E23",
+          "name": "Where the Apple Lies",
+          "orderIndex": 140
+        },
+        {
+          "code": "S6E24",
+          "name": "Top Bolt",
+          "orderIndex": 141
+        },
+        {
+          "code": "S6E25",
+          "name": "To Where and Back Again Part 1",
+          "orderIndex": 142
+        },
+        {
+          "code": "S6E26",
+          "name": "To Where and Back Again Part 2",
+          "orderIndex": 143
+        },
+        {
+          "code": "S7E01",
+          "name": "Celestial Advice",
+          "orderIndex": 144
+        },
+        {
+          "code": "S7E02",
+          "name": "All Bottled Up",
+          "orderIndex": 145
+        },
+        {
+          "code": "S7E03",
+          "name": "A Flurry of Emotions",
+          "orderIndex": 146
+        },
+        {
+          "code": "S7E04",
+          "name": "Rock Solid Friendship",
+          "orderIndex": 147
+        },
+        {
+          "code": "S7E05",
+          "name": "Fluttershy Leans In",
+          "orderIndex": 148
+        },
+        {
+          "code": "S7E06",
+          "name": "Forever Filly",
+          "orderIndex": 149
+        },
+        {
+          "code": "S7E07",
+          "name": "Parental Glideance",
+          "orderIndex": 150
+        },
+        {
+          "code": "S7E08",
+          "name": "Hard to Say Anything",
+          "orderIndex": 151
+        },
+        {
+          "code": "S7E09",
+          "name": "Honest Apple",
+          "orderIndex": 152
+        },
+        {
+          "code": "S7E10",
+          "name": "A Royal Problem",
+          "orderIndex": 153
+        },
+        {
+          "code": "S7E11",
+          "name": "Not Asking for Trouble",
+          "orderIndex": 154
+        },
+        {
+          "code": "S7E12",
+          "name": "Discordant Harmony",
+          "orderIndex": 155
+        },
+        {
+          "code": "S7E13",
+          "name": "The Perfect Pear",
+          "orderIndex": 156
+        },
+        {
+          "code": "S7E14",
+          "name": "Fame and Misfortune",
+          "orderIndex": 157
+        },
+        {
+          "code": "S7E15",
+          "name": "Triple Threat",
+          "orderIndex": 158
+        },
+        {
+          "code": "S7E16",
+          "name": "Campfire Tales",
+          "orderIndex": 159
+        },
+        {
+          "code": "S7E17",
+          "name": "To Change a Changeling",
+          "orderIndex": 160
+        },
+        {
+          "code": "S7E18",
+          "name": "Daring Done?",
+          "orderIndex": 161
+        },
+        {
+          "code": "S7E19",
+          "name": "It Isn't the Mane Thing About You",
+          "orderIndex": 162
+        },
+        {
+          "code": "S7E20",
+          "name": "A Health of Information",
+          "orderIndex": 163
+        },
+        {
+          "code": "S7E21",
+          "name": "Marks and Recreation",
+          "orderIndex": 164
+        },
+        {
+          "code": "S7E22",
+          "name": "Once Upon a Zeppelin",
+          "orderIndex": 165
+        },
+        {
+          "code": "S7E23",
+          "name": "Secrets and Pies",
+          "orderIndex": 166
+        },
+        {
+          "code": "S7E24",
+          "name": "Uncommon Bond",
+          "orderIndex": 167
+        },
+        {
+          "code": "S7E25",
+          "name": "Shadow Play Part 1",
+          "orderIndex": 168
+        },
+        {
+          "code": "S7E26",
+          "name": "Shadow Play Part 2",
+          "orderIndex": 169
+        },
+        {
+          "code": "S8E01",
+          "name": "School Daze Part 1",
+          "orderIndex": 170
+        },
+        {
+          "code": "S8E02",
+          "name": "School Daze Part 2",
+          "orderIndex": 171
+        },
+        {
+          "code": "S8E03",
+          "name": "The Maud Couple",
+          "orderIndex": 172
+        },
+        {
+          "code": "S8E04",
+          "name": "Fake It 'Til You Make It",
+          "orderIndex": 173
+        },
+        {
+          "code": "S8E05",
+          "name": "Grannies Gone Wild",
+          "orderIndex": 174
+        },
+        {
+          "code": "S8E06",
+          "name": "Surf and/or Turf",
+          "orderIndex": 175
+        },
+        {
+          "code": "S8E07",
+          "name": "Horse Play",
+          "orderIndex": 176
+        },
+        {
+          "code": "S8E08",
+          "name": "The Parent Map",
+          "orderIndex": 177
+        },
+        {
+          "code": "S8E09",
+          "name": "Non-Compete Clause",
+          "orderIndex": 178
+        },
+        {
+          "code": "S8E10",
+          "name": "The Break Up Break Down",
+          "orderIndex": 179
+        },
+        {
+          "code": "S8E11",
+          "name": "Molt Down",
+          "orderIndex": 180
+        },
+        {
+          "code": "S8E12",
+          "name": "Marks for Effort",
+          "orderIndex": 181
+        },
+        {
+          "code": "S8E13",
+          "name": "The Mean 6",
+          "orderIndex": 182
+        },
+        {
+          "code": "S8E14",
+          "name": "A Matter of Principals",
+          "orderIndex": 183
+        },
+        {
+          "code": "S8E15",
+          "name": "The Hearth's Warming Club",
+          "orderIndex": 184
+        },
+        {
+          "code": "S8E16",
+          "name": "Friendship University",
+          "orderIndex": 185
+        },
+        {
+          "code": "S8E17",
+          "name": "The End in Friend",
+          "orderIndex": 186
+        },
+        {
+          "code": "S8E18",
+          "name": "Yakity-Sax",
+          "orderIndex": 187
+        },
+        {
+          "code": "S8E19",
+          "name": "Road to Friendship",
+          "orderIndex": 188
+        },
+        {
+          "code": "S8E20",
+          "name": "The Washouts",
+          "orderIndex": 189
+        },
+        {
+          "code": "S8E21",
+          "name": "A Rockhoof and a Hard Place",
+          "orderIndex": 190
+        },
+        {
+          "code": "S8E22",
+          "name": "What Lies Beneath",
+          "orderIndex": 191
+        },
+        {
+          "code": "S8E23",
+          "name": "Sounds of Silence",
+          "orderIndex": 192
+        },
+        {
+          "code": "S8E24",
+          "name": "Father Knows Beast",
+          "orderIndex": 193
+        },
+        {
+          "code": "S8E25",
+          "name": "School Raze Part 1",
+          "orderIndex": 194
+        },
+        {
+          "code": "S8E26",
+          "name": "School Raze Part 2",
+          "orderIndex": 195
+        },
+        {
+          "code": "S9E01",
+          "name": "The Beginning of the End Part 1",
+          "orderIndex": 196
+        },
+        {
+          "code": "S9E02",
+          "name": "The Beginning of the End Part 2",
+          "orderIndex": 197
+        },
+        {
+          "code": "S9E03",
+          "name": "Uprooted",
+          "orderIndex": 198
+        },
+        {
+          "code": "S9E04",
+          "name": "Sparkle's Seven",
+          "orderIndex": 199
+        },
+        {
+          "code": "S9E05",
+          "name": "The Point of No Return",
+          "orderIndex": 200
+        },
+        {
+          "code": "S9E06",
+          "name": "Common Ground",
+          "orderIndex": 201
+        },
+        {
+          "code": "S9E07",
+          "name": "She's All Yak",
+          "orderIndex": 202
+        },
+        {
+          "code": "S9E08",
+          "name": "Frenemies",
+          "orderIndex": 203
+        },
+        {
+          "code": "S9E09",
+          "name": "Sweet and Smoky",
+          "orderIndex": 204
+        },
+        {
+          "code": "S9E10",
+          "name": "Going to Seed",
+          "orderIndex": 205
+        },
+        {
+          "code": "S9E11",
+          "name": "Student Counsel",
+          "orderIndex": 206
+        },
+        {
+          "code": "S9E12",
+          "name": "The Last Crusade",
+          "orderIndex": 207
+        },
+        {
+          "code": "S9E13",
+          "name": "Between Dark and Dawn",
+          "orderIndex": 208
+        },
+        {
+          "code": "S9E14",
+          "name": "The Last Laugh",
+          "orderIndex": 209
+        },
+        {
+          "code": "S9E15",
+          "name": "2, 4, 6, Greaaat",
+          "orderIndex": 210
+        },
+        {
+          "code": "S9E16",
+          "name": "A Trivial Pursuit",
+          "orderIndex": 211
+        },
+        {
+          "code": "S9E17",
+          "name": "The Summer Sun Setback",
+          "orderIndex": 212
+        },
+        {
+          "code": "S9E18",
+          "name": "She Talks to Angel",
+          "orderIndex": 213
+        },
+        {
+          "code": "S9E19",
+          "name": "Dragon Dropped",
+          "orderIndex": 214
+        },
+        {
+          "code": "S9E20",
+          "name": "A Horse Shoe-In",
+          "orderIndex": 215
+        },
+        {
+          "code": "S9E21",
+          "name": "Daring Doubt",
+          "orderIndex": 216
+        },
+        {
+          "code": "S9E22",
+          "name": "Growing Up is Hard to Do",
+          "orderIndex": 217
+        },
+        {
+          "code": "S9E23",
+          "name": "The Big Mac Question",
+          "orderIndex": 218
+        },
+        {
+          "code": "S9E24",
+          "name": "The Ending of the End Part 1",
+          "orderIndex": 219
+        },
+        {
+          "code": "S9E25",
+          "name": "The Ending of the End Part 2",
+          "orderIndex": 220
+        },
+        {
+          "code": "S9E26",
+          "name": "The Last Problem",
+          "orderIndex": 221
+        },
+        {
+          "code": "Movie",
+          "name": "My Little Pony: The Movie",
+          "orderIndex": 222,
+          "description": "2017 theatrical film."
+        },
+        {
+          "code": "BestGiftEver",
+          "name": "My Little Pony: Best Gift Ever",
+          "orderIndex": 223,
+          "description": "2018 TV special."
+        },
+        {
+          "code": "RainbowRoadtrip",
+          "name": "My Little Pony: Rainbow Roadtrip",
+          "orderIndex": 224,
+          "description": "2019 TV special."
+        },
+        {
+          "code": "ADressingMemories",
+          "name": "A-Dressing Memories",
+          "orderIndex": 225,
+          "description": "2020 clip show short."
+        },
+        {
+          "code": "CakesForTheMemories",
+          "name": "Cakes for the Memories",
+          "orderIndex": 226,
+          "description": "2020 clip show short."
+        },
+        {
+          "code": "Memnagerie",
+          "name": "Memnagerie",
+          "orderIndex": 227,
+          "description": "2020 clip show short."
+        },
+        {
+          "code": "DeepTissueMemories",
+          "name": "Deep Tissue Memories",
+          "orderIndex": 228,
+          "description": "2020 clip show short."
+        },
+        {
+          "code": "HarvestingMemories",
+          "name": "Harvesting Memories",
+          "orderIndex": 229,
+          "description": "2020 clip show short."
+        },
+        {
+          "code": "MemoriesAndMore",
+          "name": "Memories and More",
+          "orderIndex": 230,
+          "description": "2020 clip show short."
+        }
       ]
     },
     {
       "name": "Equestria at War",
-      "description": "The HoI4 mod TLTT recontextualizes — a bleaker, HoI4-mechanics version of the MLP world. Brian's own framing: the Part for EaW is a playable-country playthrough, not an episode.",
+      "description": "The HoI4 mod TLTT recontextualizes -- a bleaker, HoI4-mechanics version of the MLP world. Brian's own framing: the Part for EaW is a playable-country playthrough, not an episode.",
       "partNoun": "Country",
       "orderIndex": 2,
-      "parts": []
+      "parts": [
+        {
+          "code": "HLR",
+          "name": "Arcturian Order",
+          "orderIndex": 1
+        },
+        {
+          "code": "OLV",
+          "name": "Austurland",
+          "orderIndex": 2
+        },
+        {
+          "code": "BAK",
+          "name": "Bakaran Republic",
+          "orderIndex": 3,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "ANG",
+          "name": "Barony of Angriver",
+          "orderIndex": 4,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "ARA",
+          "name": "Barony of Arantiga",
+          "orderIndex": 5,
+          "description": "Karthinian Pact Faction"
+        },
+        {
+          "code": "JFT",
+          "name": "Barony of Pridea",
+          "orderIndex": 6,
+          "description": "Vassal of Kingdom of Aquileia"
+        },
+        {
+          "code": "LAK",
+          "name": "Barony of Rumare",
+          "orderIndex": 7
+        },
+        {
+          "code": "BAR",
+          "name": "Barrad Magocracy",
+          "orderIndex": 8
+        },
+        {
+          "code": "BAN",
+          "name": "Blackrock's Bandits",
+          "orderIndex": 9
+        },
+        {
+          "code": "BUF",
+          "name": "Buffalo Chiefdom",
+          "orderIndex": 10
+        },
+        {
+          "code": "CHN",
+          "name": "Changeling Lands",
+          "orderIndex": 11
+        },
+        {
+          "code": "FLO",
+          "name": "City of Flowena",
+          "orderIndex": 12
+        },
+        {
+          "code": "HEL",
+          "name": "County of Adelart",
+          "orderIndex": 13
+        },
+        {
+          "code": "BRZ",
+          "name": "County of Bronzehill",
+          "orderIndex": 14,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "CYA",
+          "name": "County of Cyanolisia",
+          "orderIndex": 15
+        },
+        {
+          "code": "FRN",
+          "name": "County of Francistria",
+          "orderIndex": 16,
+          "description": "Karthinian Pact Faction"
+        },
+        {
+          "code": "AET",
+          "name": "County of Greifwald",
+          "orderIndex": 17
+        },
+        {
+          "code": "LNS",
+          "name": "County of Longsword",
+          "orderIndex": 18
+        },
+        {
+          "code": "CRY",
+          "name": "Crystal Empire",
+          "orderIndex": 19,
+          "description": "Puppet of Equestria"
+        },
+        {
+          "code": "DEP",
+          "name": "Deponya",
+          "orderIndex": 20,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "DMT",
+          "name": "Diamond Mountain",
+          "orderIndex": 21,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "DED",
+          "name": "Dread League",
+          "orderIndex": 22
+        },
+        {
+          "code": "JEB",
+          "name": "Duchy of Rila",
+          "orderIndex": 23,
+          "description": "Vassal of Kingdom of Aquileia"
+        },
+        {
+          "code": "TAL",
+          "name": "Duchy of Talouse",
+          "orderIndex": 24,
+          "description": "Karthinian Pact Faction"
+        },
+        {
+          "code": "VIN",
+          "name": "Duchy of Vinovia",
+          "orderIndex": 25,
+          "description": "Vassal of Kingdom of Aquileia"
+        },
+        {
+          "code": "EQS",
+          "name": "Equestria",
+          "orderIndex": 26
+        },
+        {
+          "code": "FAL",
+          "name": "Falcorian Queendom",
+          "orderIndex": 27
+        },
+        {
+          "code": "FBK",
+          "name": "Farbrook",
+          "orderIndex": 28
+        },
+        {
+          "code": "SIC",
+          "name": "Federated Parishes of Sicameon",
+          "orderIndex": 29
+        },
+        {
+          "code": "FIR",
+          "name": "Firtree Villages",
+          "orderIndex": 30
+        },
+        {
+          "code": "ROU",
+          "name": "Free City of Romau",
+          "orderIndex": 31,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "GRU",
+          "name": "Free Towns of Gryphus",
+          "orderIndex": 32
+        },
+        {
+          "code": "FEA",
+          "name": "Grand Duchy of Feathisia",
+          "orderIndex": 33,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "PYT",
+          "name": "Greifenmarschen",
+          "orderIndex": 34,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "NCH",
+          "name": "Greneclyf",
+          "orderIndex": 35
+        },
+        {
+          "code": "GFF",
+          "name": "Griffon Frontier",
+          "orderIndex": 36,
+          "description": "Puppet of Nova Griffonia"
+        },
+        {
+          "code": "GRW",
+          "name": "Griffon Liberation Army",
+          "orderIndex": 37
+        },
+        {
+          "code": "GRI",
+          "name": "Griffonian Empire",
+          "orderIndex": 38
+        },
+        {
+          "code": "FAT",
+          "name": "Griffonian Republic",
+          "orderIndex": 39
+        },
+        {
+          "code": "GRY",
+          "name": "Gryphian Host",
+          "orderIndex": 40
+        },
+        {
+          "code": "HAU",
+          "name": "Haukland",
+          "orderIndex": 41
+        },
+        {
+          "code": "AVI",
+          "name": "House Avian",
+          "orderIndex": 42
+        },
+        {
+          "code": "ERI",
+          "name": "House Erie",
+          "orderIndex": 43
+        },
+        {
+          "code": "EYR",
+          "name": "House Eyrie",
+          "orderIndex": 44
+        },
+        {
+          "code": "JAK",
+          "name": "Jaki-Clan",
+          "orderIndex": 45
+        },
+        {
+          "code": "KAT",
+          "name": "Katerin Principality",
+          "orderIndex": 46,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "JER",
+          "name": "Kingdom of Aquileia",
+          "orderIndex": 47
+        },
+        {
+          "code": "BRF",
+          "name": "Kingdom of Brodfeld",
+          "orderIndex": 48
+        },
+        {
+          "code": "BOI",
+          "name": "Kingdom of Griffonstone",
+          "orderIndex": 49
+        },
+        {
+          "code": "OLE",
+          "name": "Kingdom of Olenia",
+          "orderIndex": 50
+        },
+        {
+          "code": "PNG",
+          "name": "Kingdom of Pingland",
+          "orderIndex": 51
+        },
+        {
+          "code": "VED",
+          "name": "Kingdom of Vedina",
+          "orderIndex": 52
+        },
+        {
+          "code": "WNG",
+          "name": "Kingdom of Wingbardy",
+          "orderIndex": 53,
+          "description": "Karthinian Pact Faction"
+        },
+        {
+          "code": "WIT",
+          "name": "Kingdom of Wittenland",
+          "orderIndex": 54,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "YAK",
+          "name": "Kingdom of Yakyakistan",
+          "orderIndex": 55
+        },
+        {
+          "code": "ZES",
+          "name": "Kása Free State",
+          "orderIndex": 56
+        },
+        {
+          "code": "LCT",
+          "name": "Lake City",
+          "orderIndex": 57,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "JRR",
+          "name": "Marquisate of Westkeep",
+          "orderIndex": 58,
+          "description": "Vassal of Kingdom of Aquileia"
+        },
+        {
+          "code": "EQC",
+          "name": "New Mareland",
+          "orderIndex": 59,
+          "description": "Dominion of Equestria"
+        },
+        {
+          "code": "NIM",
+          "name": "Nimbusia",
+          "orderIndex": 60,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "NTR",
+          "name": "Northern Tribes",
+          "orderIndex": 61
+        },
+        {
+          "code": "GRF",
+          "name": "Nova Griffonia",
+          "orderIndex": 62
+        },
+        {
+          "code": "HLQ",
+          "name": "Ordensstaat Hellquill",
+          "orderIndex": 63
+        },
+        {
+          "code": "STL",
+          "name": "Our Town",
+          "orderIndex": 64
+        },
+        {
+          "code": "PLB",
+          "name": "Polar Bear Communities",
+          "orderIndex": 65
+        },
+        {
+          "code": "POM",
+          "name": "Pomovarra",
+          "orderIndex": 66
+        },
+        {
+          "code": "LUS",
+          "name": "Principality of Lushi",
+          "orderIndex": 67
+        },
+        {
+          "code": "FRE",
+          "name": "Pònaidhean",
+          "orderIndex": 68,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "MIT",
+          "name": "Republic of Asterion",
+          "orderIndex": 69
+        },
+        {
+          "code": "RCT",
+          "name": "River Republic",
+          "orderIndex": 70,
+          "description": "River Coalition Faction"
+        },
+        {
+          "code": "TRD",
+          "name": "Skyfall Trade Federation",
+          "orderIndex": 71
+        },
+        {
+          "code": "SRS",
+          "name": "Socialist Republic of Skynavia",
+          "orderIndex": 72
+        },
+        {
+          "code": "STG",
+          "name": "Stalliongrad",
+          "orderIndex": 73
+        },
+        {
+          "code": "STW",
+          "name": "Strawberry Duchy",
+          "orderIndex": 74,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "MNC",
+          "name": "Sunstriker Clan",
+          "orderIndex": 75,
+          "description": "Vassal of Griffonian Empire"
+        },
+        {
+          "code": "FEZ",
+          "name": "Township of Fezera",
+          "orderIndex": 76
+        },
+        {
+          "code": "DRG",
+          "name": "United Dragon Isles",
+          "orderIndex": 77
+        },
+        {
+          "code": "WAT",
+          "name": "Watertowns",
+          "orderIndex": 78
+        },
+        {
+          "code": "YAL",
+          "name": "Yale Rectorate",
+          "orderIndex": 79,
+          "description": "Vassal of Griffonian Empire"
+        }
+      ]
     },
     {
       "name": "The Princess and the Kaiser",
-      "description": "The fanfic TLTT is explicitly framed as a 'fork' of — see the per-character divergence sweep in the Canon-track notes.",
+      "description": "The fanfic TLTT is explicitly framed as a 'fork' of -- see the per-character divergence sweep in the Canon-track notes.",
       "partNoun": "Chapter",
       "orderIndex": 3,
-      "parts": []
+      "parts": [
+        {
+          "code": "ch1",
+          "name": "",
+          "orderIndex": 1
+        },
+        {
+          "code": "ch2",
+          "name": "Rallying supporters on the boat",
+          "orderIndex": 2
+        },
+        {
+          "code": "ch3",
+          "name": "Thorax tempers her",
+          "orderIndex": 3
+        },
+        {
+          "code": "ch4",
+          "name": "Frontier",
+          "orderIndex": 4
+        },
+        {
+          "code": "ch5",
+          "name": "Letters with Grover",
+          "orderIndex": 5
+        },
+        {
+          "code": "ch6",
+          "name": "Duskcrest",
+          "orderIndex": 6
+        },
+        {
+          "code": "ch7",
+          "name": "Blackpeak",
+          "orderIndex": 7
+        },
+        {
+          "code": "ch8",
+          "name": "Bronzetail",
+          "orderIndex": 8
+        },
+        {
+          "code": "ch9",
+          "name": "Negotiating tanks",
+          "orderIndex": 9
+        },
+        {
+          "code": "ch10",
+          "name": "Bronzetail",
+          "orderIndex": 10
+        },
+        {
+          "code": "ch11",
+          "name": "First kill",
+          "orderIndex": 11
+        },
+        {
+          "code": "ch12",
+          "name": "She is not a foal",
+          "orderIndex": 12
+        },
+        {
+          "code": "ch13",
+          "name": "Plans against Nova Griffonia",
+          "orderIndex": 13
+        },
+        {
+          "code": "ch14",
+          "name": "Cerie",
+          "orderIndex": 14
+        },
+        {
+          "code": "ch15",
+          "name": "Katherine",
+          "orderIndex": 15
+        },
+        {
+          "code": "ch16",
+          "name": "Frederick's letter",
+          "orderIndex": 16
+        },
+        {
+          "code": "ch17",
+          "name": "Reading the letter",
+          "orderIndex": 17
+        },
+        {
+          "code": "ch18",
+          "name": "Refusing to betray her griffons",
+          "orderIndex": 18
+        },
+        {
+          "code": "ch19",
+          "name": "Air and sea battle",
+          "orderIndex": 19
+        },
+        {
+          "code": "ch20",
+          "name": "Planning coup",
+          "orderIndex": 20
+        },
+        {
+          "code": "ch21",
+          "name": "Kemerskai alliance",
+          "orderIndex": 21
+        },
+        {
+          "code": "ch22",
+          "name": "Planning battle",
+          "orderIndex": 22
+        },
+        {
+          "code": "ch23",
+          "name": "Nouvelle Aquila",
+          "orderIndex": 23
+        },
+        {
+          "code": "ch24",
+          "name": "Betrayal plan",
+          "orderIndex": 24
+        },
+        {
+          "code": "ch25",
+          "name": "Assassinate Blackpeak",
+          "orderIndex": 25
+        },
+        {
+          "code": "ch26",
+          "name": "Nuked Kemerskai",
+          "orderIndex": 26
+        },
+        {
+          "code": "ch27",
+          "name": "Aftermath and conscience",
+          "orderIndex": 27
+        },
+        {
+          "code": "ch28",
+          "name": "Shield",
+          "orderIndex": 28
+        },
+        {
+          "code": "ch29",
+          "name": "Red Dawn",
+          "orderIndex": 29
+        },
+        {
+          "code": "ch30",
+          "name": "Government",
+          "orderIndex": 30
+        },
+        {
+          "code": "ch31",
+          "name": "Laws",
+          "orderIndex": 31
+        },
+        {
+          "code": "ch32",
+          "name": "Katherine holds a gun",
+          "orderIndex": 32
+        },
+        {
+          "code": "ch33",
+          "name": "Spike holds her back, Navy waves white flag",
+          "orderIndex": 33
+        },
+        {
+          "code": "ch34",
+          "name": "Explaining deal with Grover",
+          "orderIndex": 34
+        },
+        {
+          "code": "ch35",
+          "name": "Reactions to marriage proposal",
+          "orderIndex": 35
+        },
+        {
+          "code": "ch36",
+          "name": "Ironbend",
+          "orderIndex": 36
+        },
+        {
+          "code": "ch37",
+          "name": "Ironbend aftermath",
+          "orderIndex": 37
+        },
+        {
+          "code": "ch38",
+          "name": "Crystal City plans",
+          "orderIndex": 38
+        },
+        {
+          "code": "ch39",
+          "name": "Crystal City part 1",
+          "orderIndex": 39
+        },
+        {
+          "code": "ch40",
+          "name": "Crystal City part 2",
+          "orderIndex": 40
+        },
+        {
+          "code": "ch41",
+          "name": "Crystal City part 3",
+          "orderIndex": 41
+        },
+        {
+          "code": "ch42",
+          "name": "Crystal City part 4, Trimmel",
+          "orderIndex": 42
+        },
+        {
+          "code": "ch43",
+          "name": "Sunburst",
+          "orderIndex": 43
+        },
+        {
+          "code": "ch44",
+          "name": "Hospital",
+          "orderIndex": 44
+        },
+        {
+          "code": "ch45",
+          "name": "Crystal Heart",
+          "orderIndex": 45
+        },
+        {
+          "code": "ch46",
+          "name": "Flashback",
+          "orderIndex": 46
+        },
+        {
+          "code": "ch47",
+          "name": "Waking up",
+          "orderIndex": 47
+        },
+        {
+          "code": "ch48",
+          "name": "Recovery",
+          "orderIndex": 48
+        },
+        {
+          "code": "ch49",
+          "name": "Radio address, yaks",
+          "orderIndex": 49
+        },
+        {
+          "code": "ch50",
+          "name": "The Princess and the Kaiser",
+          "orderIndex": 50
+        },
+        {
+          "code": "ch51",
+          "name": "Wind Rider",
+          "orderIndex": 51
+        },
+        {
+          "code": "ch52",
+          "name": "Radio from Manehattan",
+          "orderIndex": 52
+        },
+        {
+          "code": "ch53",
+          "name": "Duty Price",
+          "orderIndex": 53
+        },
+        {
+          "code": "ch54",
+          "name": "Manehattan jail",
+          "orderIndex": 54
+        },
+        {
+          "code": "ch55",
+          "name": "Grover meets Katherine",
+          "orderIndex": 55
+        },
+        {
+          "code": "ch56",
+          "name": "Baltimare",
+          "orderIndex": 56
+        },
+        {
+          "code": "ch57",
+          "name": "Into the jungle",
+          "orderIndex": 57
+        },
+        {
+          "code": "ch58",
+          "name": "Caballeron",
+          "orderIndex": 58
+        },
+        {
+          "code": "ch59",
+          "name": "Thestral Congress",
+          "orderIndex": 59
+        },
+        {
+          "code": "ch60",
+          "name": "Baltimare/Thestral deal",
+          "orderIndex": 60
+        },
+        {
+          "code": "ch61",
+          "name": "Flurry and Grover discuss war plans in Manehattan",
+          "orderIndex": 61
+        },
+        {
+          "code": "ch62",
+          "name": "Everfree",
+          "orderIndex": 62
+        },
+        {
+          "code": "ch63",
+          "name": "ELF",
+          "orderIndex": 63
+        },
+        {
+          "code": "ch64",
+          "name": "Plans for Canterlot battle",
+          "orderIndex": 64
+        },
+        {
+          "code": "ch65",
+          "name": "Tree of Harmony",
+          "orderIndex": 65
+        },
+        {
+          "code": "ch66",
+          "name": "Tensions with ELF, armor",
+          "orderIndex": 66
+        },
+        {
+          "code": "ch67",
+          "name": "Plans in auditorium",
+          "orderIndex": 67
+        },
+        {
+          "code": "ch68",
+          "name": "Strategic overview with Grover",
+          "orderIndex": 68
+        },
+        {
+          "code": "ch69",
+          "name": "Birthday and Twilight bait",
+          "orderIndex": 69
+        },
+        {
+          "code": "ch70",
+          "name": "Final battle plans",
+          "orderIndex": 70
+        },
+        {
+          "code": "ch71",
+          "name": "The Deluge and the Dawn",
+          "orderIndex": 71
+        },
+        {
+          "code": "ch72",
+          "name": "The Miracle of the North",
+          "orderIndex": 72
+        },
+        {
+          "code": "ch73",
+          "name": "The Element of Loyalty",
+          "orderIndex": 73
+        },
+        {
+          "code": "ch74",
+          "name": "The Cadet",
+          "orderIndex": 74
+        },
+        {
+          "code": "ch75",
+          "name": "The Secretary",
+          "orderIndex": 75
+        },
+        {
+          "code": "ch76",
+          "name": "The Field Marshal",
+          "orderIndex": 76
+        },
+        {
+          "code": "ch77",
+          "name": "The Generalmajor",
+          "orderIndex": 77
+        },
+        {
+          "code": "ch78",
+          "name": "The Daughter of Maar",
+          "orderIndex": 78
+        },
+        {
+          "code": "ch79",
+          "name": "The Spark that Ignited the World",
+          "orderIndex": 79
+        },
+        {
+          "code": "ch80",
+          "name": "The Kaiser of Griffonkind",
+          "orderIndex": 80
+        },
+        {
+          "code": "ch81",
+          "name": "The Princess of Ponies",
+          "orderIndex": 81
+        },
+        {
+          "code": "ch82",
+          "name": "Alicippe speaks to Grover",
+          "orderIndex": 82
+        },
+        {
+          "code": "ch83",
+          "name": "Victory parade",
+          "orderIndex": 83
+        },
+        {
+          "code": "ch84",
+          "name": "Sees Twilight",
+          "orderIndex": 84
+        },
+        {
+          "code": "ch85",
+          "name": "Jachs' trial",
+          "orderIndex": 85
+        },
+        {
+          "code": "ch86",
+          "name": "Noble execution",
+          "orderIndex": 86
+        },
+        {
+          "code": "ch87",
+          "name": "Discussion of it",
+          "orderIndex": 87
+        },
+        {
+          "code": "ch88",
+          "name": "Cozy Glow",
+          "orderIndex": 88
+        },
+        {
+          "code": "ch89",
+          "name": "Asks Grover to take prisoners",
+          "orderIndex": 89
+        },
+        {
+          "code": "ch90",
+          "name": "Stops lynchings",
+          "orderIndex": 90
+        },
+        {
+          "code": "ch91",
+          "name": "Changeling civilians",
+          "orderIndex": 91
+        },
+        {
+          "code": "ch92",
+          "name": "Garden",
+          "orderIndex": 92
+        },
+        {
+          "code": "ch93",
+          "name": "The Alicorn and the Griffon",
+          "orderIndex": 93
+        },
+        {
+          "code": "ch94",
+          "name": "United government",
+          "orderIndex": 94
+        },
+        {
+          "code": "ch95",
+          "name": "Marriage reveal",
+          "orderIndex": 95
+        },
+        {
+          "code": "ch96",
+          "name": "Birthday feast",
+          "orderIndex": 96
+        },
+        {
+          "code": "ch97",
+          "name": "Bar",
+          "orderIndex": 97
+        },
+        {
+          "code": "ch98",
+          "name": "Midnight date",
+          "orderIndex": 98
+        },
+        {
+          "code": "ch99",
+          "name": "Coronation",
+          "orderIndex": 99
+        },
+        {
+          "code": "ch100",
+          "name": "War plans for south",
+          "orderIndex": 100
+        },
+        {
+          "code": "ch101",
+          "name": "Talk before depart",
+          "orderIndex": 101
+        },
+        {
+          "code": "ch102",
+          "name": "Motorized assault",
+          "orderIndex": 102
+        },
+        {
+          "code": "ch103",
+          "name": "Dragons",
+          "orderIndex": 103
+        },
+        {
+          "code": "ch104",
+          "name": "Applejack",
+          "orderIndex": 104
+        },
+        {
+          "code": "ch105",
+          "name": "Velvet",
+          "orderIndex": 105
+        },
+        {
+          "code": "ch106",
+          "name": "Pinkie",
+          "orderIndex": 106
+        },
+        {
+          "code": "ch107",
+          "name": "Air battle",
+          "orderIndex": 107
+        },
+        {
+          "code": "ch108",
+          "name": "Ember, Mudbeak",
+          "orderIndex": 108
+        },
+        {
+          "code": "ch109",
+          "name": "Las Pegasus surrenders",
+          "orderIndex": 109
+        },
+        {
+          "code": "ch110",
+          "name": "Las Pegasus justice",
+          "orderIndex": 110
+        },
+        {
+          "code": "ch111",
+          "name": "War plans for northwest",
+          "orderIndex": 111
+        },
+        {
+          "code": "ch112",
+          "name": "Nukes, Grover",
+          "orderIndex": 112
+        },
+        {
+          "code": "ch113",
+          "name": "Cheese puffs",
+          "orderIndex": 113
+        },
+        {
+          "code": "ch114",
+          "name": "Stalliongrad history",
+          "orderIndex": 114
+        },
+        {
+          "code": "ch115",
+          "name": "Grover tours Crystal City",
+          "orderIndex": 115
+        },
+        {
+          "code": "ch116",
+          "name": "Dancing",
+          "orderIndex": 116
+        },
+        {
+          "code": "ch117",
+          "name": "The Princess of the Sun",
+          "orderIndex": 117
+        },
+        {
+          "code": "ch118",
+          "name": "The Princess of the Moon",
+          "orderIndex": 118
+        },
+        {
+          "code": "ch119",
+          "name": "The Princess of Friendship",
+          "orderIndex": 119
+        },
+        {
+          "code": "ch120",
+          "name": "The Duchess of Strawberry",
+          "orderIndex": 120
+        },
+        {
+          "code": "special-announcement",
+          "name": "Project Phoenix",
+          "orderIndex": 121
+        },
+        {
+          "code": "ch121",
+          "name": "The Wind that Fanned the Flames, I",
+          "orderIndex": 122
+        },
+        {
+          "code": "ch122",
+          "name": "The Wind that Fanned the Flames, II",
+          "orderIndex": 123
+        }
+      ]
     },
     {
       "name": "Pax Chrysalia",
@@ -61,17 +2228,187 @@
       "partNoun": "Chapter",
       "orderIndex": 4,
       "parts": [
-        { "code": "ch1", "name": "", "orderIndex": 1, "description": "Features the Love Tax." }
+        {
+          "code": "ch1",
+          "name": "The Victory Parade",
+          "orderIndex": 1
+        },
+        {
+          "code": "ch2",
+          "name": "The Love Harvest",
+          "orderIndex": 2
+        },
+        {
+          "code": "ch3",
+          "name": "The Sympathizer",
+          "orderIndex": 3
+        },
+        {
+          "code": "ch4",
+          "name": "The Pony Volunteers",
+          "orderIndex": 4
+        },
+        {
+          "code": "ch5",
+          "name": "Loyalty",
+          "orderIndex": 5
+        },
+        {
+          "code": "ch6",
+          "name": "The Royal Visit",
+          "orderIndex": 6
+        },
+        {
+          "code": "ch7",
+          "name": "By Queen's Command",
+          "orderIndex": 7
+        },
+        {
+          "code": "ch8",
+          "name": "Canterlot At Night",
+          "orderIndex": 8
+        },
+        {
+          "code": "ch9",
+          "name": "Revenge",
+          "orderIndex": 9
+        },
+        {
+          "code": "ch10",
+          "name": "Visitors",
+          "orderIndex": 10
+        },
+        {
+          "code": "ch11",
+          "name": "The Ideal And The Real",
+          "orderIndex": 11
+        },
+        {
+          "code": "ch12",
+          "name": "The Morning After",
+          "orderIndex": 12
+        },
+        {
+          "code": "ch13",
+          "name": "The Vesali Court",
+          "orderIndex": 13
+        },
+        {
+          "code": "ch14",
+          "name": "Vesalipolis At Day",
+          "orderIndex": 14
+        },
+        {
+          "code": "ch15",
+          "name": "Gilded Chains",
+          "orderIndex": 15
+        },
+        {
+          "code": "ch16",
+          "name": "The War Of The Wälder Part 1: Waiting",
+          "orderIndex": 16
+        },
+        {
+          "code": "ch17",
+          "name": "The War Of The Wälder Part 2: Escalation",
+          "orderIndex": 17
+        },
+        {
+          "code": "ch18",
+          "name": "The War Of The Wälder Part 3: Priority Target Lodestar",
+          "orderIndex": 18
+        },
+        {
+          "code": "ch19",
+          "name": "The High Priestess",
+          "orderIndex": 19
+        },
+        {
+          "code": "ch20",
+          "name": "The Dimming Sun",
+          "orderIndex": 20
+        },
+        {
+          "code": "ch21",
+          "name": "Vindication",
+          "orderIndex": 21
+        },
+        {
+          "code": "ch22",
+          "name": "Just A Little Longer",
+          "orderIndex": 22
+        },
+        {
+          "code": "ch23",
+          "name": "Infiltrator",
+          "orderIndex": 23
+        },
+        {
+          "code": "ch24",
+          "name": "Unfinished Business",
+          "orderIndex": 24
+        },
+        {
+          "code": "ch25",
+          "name": "Krönungstag; The Star, Part 1",
+          "orderIndex": 25
+        },
+        {
+          "code": "ch26",
+          "name": "Krönungstag; The Star, Part 2",
+          "orderIndex": 26
+        },
+        {
+          "code": "intermission",
+          "name": "Dear Princess Chrysalis",
+          "orderIndex": 27
+        },
+        {
+          "code": "ch27",
+          "name": "Aftermath",
+          "orderIndex": 28
+        },
+        {
+          "code": "ch28",
+          "name": "Something Wicked",
+          "orderIndex": 29
+        },
+        {
+          "code": "ch29",
+          "name": "The Lovers",
+          "orderIndex": 30
+        },
+        {
+          "code": "ch30",
+          "name": "Death",
+          "orderIndex": 31
+        },
+        {
+          "code": "ch31",
+          "name": "It's Me",
+          "orderIndex": 32
+        },
+        {
+          "code": "ch32",
+          "name": "Afterimage",
+          "orderIndex": 33
+        }
       ]
     },
     {
       "name": "Hearts of Iron IV",
-      "description": "The base game Equestria at War mods — cited for its own mechanics (supply hubs, tech-rush behavior) independent of the mod's pony reskin.",
+      "description": "The base game Equestria at War mods -- cited for its own mechanics (supply hubs, tech-rush behavior) independent of the mod's pony reskin.",
       "partNoun": "",
       "orderIndex": 5,
       "parts": []
     }
   ],
-
-  "enableSourceMaterialOnTracks": [82, 84, 85, 86, 87, 88]
+  "enableSourceMaterialOnTracks": [
+    82,
+    84,
+    85,
+    86,
+    87,
+    88
+  ]
 }

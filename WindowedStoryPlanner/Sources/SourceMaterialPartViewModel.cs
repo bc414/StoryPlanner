@@ -64,12 +64,14 @@ public partial class SourceMaterialPartViewModel : ObservableObject
     public string DisplayLabel => string.IsNullOrWhiteSpace(Name) ? Code : $"{Code} — {Name}";
 
     // ── Coverage ─────────────────────────────────────────────────────────────
-    // Deliberately NOT a live-reactive property (would need a permanent subscription to the
-    // shared NoteSourceReferences collection, outliving delete for every Part ever created —
-    // see the file header's leak note). Correct on load and on RefreshNoteCount(); the Sources
-    // tab calls that explicitly on Work-selection and via a Refresh Coverage command, matching
-    // the app's "explicit action, nothing silently updates" ethos (CLAUDE.md: retrieval, not
-    // suggestion).
+    // Deliberately NOT live-reactive. Making it so would mean every Part VM (465 of them after
+    // seeding) permanently subscribing to the shared NoteSourceReferences collection, and each
+    // subscription would have to be torn down on Part delete or it would keep the VM alive —
+    // a lot of leak surface for a number the coverage grid only needs when it is on screen.
+    //
+    // Counted fresh on every read instead, so it can never be silently stale; RefreshNoteCount
+    // exists only to re-raise the change notifications, and the Sources tab calls it on
+    // Work-selection and via its Refresh Coverage command.
 
     /// <summary>How many notes cite this Part, counted fresh from IStoryService each read.</summary>
     public int NoteCount => _storyService.NoteSourceReferences.Count(r => r.SourceMaterialPartId == Id);
