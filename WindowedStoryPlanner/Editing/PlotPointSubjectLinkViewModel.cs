@@ -81,6 +81,19 @@ namespace WindowedStoryPlanner
                 n.OwnerId == _link.Id &&
                 n.OwnerType == OwnerType.PlotPointSubjectLink);
 
+        /// <summary>True when this link's subject is the owning plot point's designated POV
+        /// character — the gate for IsFocalCharacterOnly tracks (see InitializeCollections).</summary>
+        private bool IsFocalLink =>
+            _storyService.PlotPoints
+                .FirstOrDefault(p => p.Id == _link.PlotPointId)
+                ?.FocalCharacterId == _link.SubjectId;
+
+        private bool HasNotesOnTrack(int trackDefinitionId) =>
+            _storyService.Notes.Any(n =>
+                n.OwnerId == _link.Id &&
+                n.OwnerType == OwnerType.PlotPointSubjectLink &&
+                n.NoteTrackDefinitionId == trackDefinitionId);
+
         private bool CanDelete() => !HasNotes;
 
         [RelayCommand(CanExecute = nameof(CanDelete))]
@@ -119,9 +132,14 @@ namespace WindowedStoryPlanner
             InitializeCollections(
                 link.Id,
                 OwnerType.PlotPointSubjectLink,
+                // A track flagged IsFocalCharacterOnly (see docs/design-conversations/053 blocks
+                // 262-263) only belongs on the POV character's own link — showing the gap on an
+                // observed character's link would be a category error. The safety valve:
+                // existing notes are never hidden, even on a non-focal link.
                 () => storyService.NoteTrackDefinitions
                     .Where(ntd => ntd.OwnerType == OwnerType.PlotPointSubjectLink
-                               && ntd.SubjectDefinitionId == subjectDefId)
+                               && ntd.SubjectDefinitionId == subjectDefId
+                               && (!ntd.IsFocalCharacterOnly || IsFocalLink || HasNotesOnTrack(ntd.Id)))
                     .ToList(),
                 () => storyService.NarrativePropertyDefinitions
                     .Where(npd => npd.OwnerType == OwnerType.PlotPointSubjectLink

@@ -38,6 +38,13 @@ public static class ServerInfo
         Pivots are authored years where the world's causal regime changed; eras are DERIVED as
         the gaps between consecutive pivots and are never stored or named.
 
+        A plot point may carry a FOCAL character — the subject whose third-person-limited
+        perspective filters that scene, shown as "focal:" in get_plot_points_*. Absent (most
+        scenes) means undesignated, not "no POV" — a legal, long-lived state; the field is
+        authorial and never inferred from links, note counts, or names. It also gates which
+        plot-point-subject-link tracks display in the app UI (a track can be POV-only), but that
+        gating is a client-side display rule, not a data fact this server enforces or reports.
+
         Flagged notes are open questions, not settled lore: ordinary tools never return their
         content or flag reasons, and instead disclose per-track flagged tallies. Retrieve them
         deliberately via list_open_questions / get_open_questions (flag reasons often contain

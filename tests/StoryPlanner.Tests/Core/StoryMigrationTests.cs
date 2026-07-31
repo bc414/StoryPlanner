@@ -89,6 +89,12 @@ public class StoryMigrationTests
                 Assert.Equal(0, (await verify.PlotPoints.SingleAsync()).TheaterId);
                 Assert.Null((await verify.PlotPoints.SingleAsync()).FabulaYear);
                 Assert.Equal(0, (await verify.Subjects.SingleAsync()).TheaterId);
+
+                // FocalCharacter columns (2026-07-31): a plot point's POV defaults to
+                // undesignated (null, not a sentinel — there is no "(No POV)" row), and a
+                // subject defaults to not being a POV candidate.
+                Assert.Null((await verify.PlotPoints.SingleAsync()).FocalCharacterId);
+                Assert.False((await verify.Subjects.SingleAsync()).IsPovCharacter);
             }
         }
         finally

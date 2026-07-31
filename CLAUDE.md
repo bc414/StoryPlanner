@@ -90,6 +90,17 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   "(Unplaced)", same pattern as `Chapter.StoryId`). Theater assignment is authorial — never
   derive it from names. `Pivot` rows are authored years; eras are DERIVED as the gaps between
   pivots, never stored.
+- **POV is `PlotPoint.FocalCharacterId`** (`int?`, 2026-07-31). Null = undesignated, a legal
+  long-lived state — most scenes have none, and unlike `TheaterId`/`StoryId` there is no
+  sentinel row to fall back to. Assignment is authorial, never derived from links, note counts,
+  or names. Candidates are gated by `Subject.IsPovCharacter` (an unfiltered picker over every
+  Character subject is unusable). It also drives which `PlotPointSubjectLink` note tracks
+  display: `NoteTrackDefinition.IsFocalCharacterOnly` hides a track everywhere except the link
+  whose `SubjectId` equals the plot point's `FocalCharacterId` — the gap for an *observed*
+  character lives in the POV character's own link, never the observed one's (design rationale:
+  `docs/design-conversations/053_…json` blocks 262-263, `019_…json` block 36-37). A link that
+  already holds notes on a focal-only track keeps showing it regardless, so existing content is
+  never hidden by a later POV change.
 - **0 `Confirmed` notes in v2 is not a defect** — Audit is the only mode that can promote to
   Confirmed, and no audit pass has run. Surprising ≠ broken.
 - **Source material is a coverage tracker, not a tag** (2026-07-31). Two-tier: `SourceMaterial`

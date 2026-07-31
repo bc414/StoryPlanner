@@ -273,6 +273,11 @@ internal static class Engine
             else
                 sb.AppendLine("chapter: (unplaced)");
 
+            if (pp.FocalCharacterId is int focalId)
+                sb.AppendLine(c.SubjectById.TryGetValue(focalId, out var focal)
+                    ? $"focal: {focal.Name} (subject:{focalId})"
+                    : $"focal: subject:{focalId}(missing)");
+
             var own = c.NotesByOwner.TryGetValue((OwnerType.PlotPoint, pp.Id), out var list) ? list : [];
             var visible = own.Where(n => n.NoteState != NoteState.Flagged).ToList();
             sb.AppendLine($"notes: {visible.Count} retrievable" +

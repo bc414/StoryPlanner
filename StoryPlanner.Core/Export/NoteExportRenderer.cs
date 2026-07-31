@@ -311,6 +311,13 @@ public static class NoteExportRenderer
         sb.AppendLine($"### {pp.Title}");
         sb.AppendLine();
 
+        if (pp.FocalCharacterId is int focalId)
+        {
+            var focalName = subjectById.TryGetValue(focalId, out var focalSubject) ? focalSubject.Name : $"subject:{focalId}?";
+            sb.AppendLine($"*POV: {focalName}*");
+            sb.AppendLine();
+        }
+
         // Own tracks — full entries only
         if (result.FullPlotPointIds.Contains(pp.Id))
         {

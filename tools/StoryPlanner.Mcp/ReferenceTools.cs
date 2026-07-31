@@ -73,6 +73,7 @@ public sealed class ReferenceTools(StoryPlanSources sources)
                     if (t.SupportsWorldDate) flags.Add(t.SupportsWorldDateEnd ? "worldDate (condition: start..end)" : "worldDate (event: start only)");
                     if (t.SupportsTheme) flags.Add("theme");
                     if (t.SupportsSourceMaterial) flags.Add("sourceMaterial");
+                    if (t.IsFocalCharacterOnly) flags.Add("focalCharacterOnly");
                     if (flags.Count > 0) sb.AppendLine($"supports: {string.Join(", ", flags)}");
                 }
                 sb.AppendLine();

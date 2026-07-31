@@ -44,6 +44,17 @@
                 <TextBlock Text="Title" Style="{StaticResource LabelStyle}" Grid.Column="0" Grid.Row="0"/>
                 <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"
         Style="{StaticResource TitleTextBox}" Grid.Column="0" Grid.Row="1"/>
+            <TextBlock Text="POV Character" Style="{StaticResource LabelStyle}" Margin="4,0,0,0" Grid.Row="0" Grid.Column="1"/>
+            <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="4,0,0,0">
+                <ComboBox ItemsSource="{Binding FocalCharacterChoices}"
+                    SelectedItem="{Binding SelectedFocalCharacter, Mode=TwoWay}"
+                    DisplayMemberPath="Name"
+                    Width="160"/>
+                <Button Content="✕" ToolTip="Clear POV character"
+                    Command="{Binding ClearFocalCharacterCommand}"
+                    Visibility="{Binding SelectedFocalCharacter, Converter={StaticResource NullToVisibilityConverter}}"
+                    Margin="4,0,0,0" Padding="4,0"/>
+            </StackPanel>
             <Border dd:DragDrop.IsDragSource="True" Grid.Row="0" Grid.Column="2" Grid.RowSpan="2"
                     dd:DragDrop.DragAdornerTemplate="{StaticResource PlotPointDragAdorner}"
                     BorderBrush="#AAAAAA"

@@ -20,6 +20,14 @@ namespace StoryPlanner.Core
         /// date is the causality signal.</summary>
         public int TheaterId { get; set; }
 
+        /// <summary>Authorial designation that this subject may narrate somewhere in
+        /// third-person-limited — the only thing that populates a PlotPoint's focal-character
+        /// picker (PlotPoint.FocalCharacterId). Not restricted to Character-type subjects at the
+        /// schema level, but that is the intended use — SubjectType is free text the author
+        /// controls, so no code-level check is enforced. Never inferred from links, appearance
+        /// counts, or name; the author sets it explicitly, same as TheaterId.</summary>
+        public bool IsPovCharacter { get; set; }
+
         public OwnerType OwnerType => OwnerType.Subject;
     }
 }

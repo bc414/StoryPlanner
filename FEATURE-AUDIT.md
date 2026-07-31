@@ -14,6 +14,10 @@
 > "contested" was wrong. See its entry in Section C. This is the first item to close as ⚪ by
 > *existing design* rather than by in-conversation rejection; the legend was widened accordingly.
 
+> **Note added 2026-07-31 (later the same day).** D1 (POV/focal-character on `PlotPoint`) shipped —
+> see its entry in Section D for what changed, including how it also delivered 053 blocks 262-263's
+> conditional gap-track display.
+
 > **Note added 2026-07-31.** This document's "SourceMaterial tagging — done" claim (below and in
 > Section G) was **shipped in code and dark in data**: the June 2026 rework built the full UI
 > (Sources tab, per-note picker, cross-cut detail window) but the migration defaulted
@@ -38,7 +42,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | B2 | Global entity search (tab is a stub) | 🟢 | 038/039 | View |
 | C1 | ~~Note supersession / preserving retconned lore~~ | ⚪ | 091, 015, 019, 038/039 | Resolved — no code |
 | C2 | Stage-0 "accumulation" inbox / `IsIncorporated` flag | 🔴 | 053, 038/039, 015 | Model |
-| D1 | POV / focal-character designation on `PlotPoint` | 🔴 | 015, 019 | Model |
+| D1 | POV / focal-character designation on `PlotPoint` | 🟢 | 015, 019, 053 | Model |
 | D2 | `GapType` enum + perception-gap scene fields | 🔴 | 019, 015, 053, 038/039 | Model |
 | B3 | Per-entity completion / scene-readiness dashboard | 🔴 | 019, 038/039 | View |
 | E1 | Theme dialectical model (antithesis + Support/Counter/Refutation) | 🔴 | 053 | Model |
@@ -148,7 +152,7 @@ tests pinning that as intentional. Story is out of scope (no `OwnerType`, no det
 
 This is the biggest *conceptual* body of work in the transcripts (esp. 019, the "character-reader perception gap" session). Most of it was ultimately resolved to live in **note tracks** rather than hardcoded fields — so the generic machinery can express it — but the specific tracks aren't configured and a few genuinely-discrete fields remain unbuilt.
 
-**D1 — 🔴 POV / focal-character on `PlotPoint`.** A nullable `FocalCharacterId` FK making POV the pivot of scene design (015 blocks 1308/3138, 019 blocks 8-10/37/69). `PlotPoint` has only `Id/Title/ChapterId/OrderInChapter` — no POV field.
+**D1 — 🟢 POV / focal-character on `PlotPoint`.** A nullable `FocalCharacterId` making POV the pivot of scene design (015 blocks 1308/3138, 019 blocks 8-10/37/69, 053 blocks 262-263 — 2026-07-31). Shipped as `PlotPoint.FocalCharacterId` (`int?`, null = undesignated), gated to candidates via `Subject.IsPovCharacter` (105 Character subjects made an unfiltered picker unworkable), and wired to 053's conditional-display proposal: `NoteTrackDefinition.IsFocalCharacterOnly` hides a scene-link track everywhere except the POV character's own link, with existing notes on a track always kept visible regardless. Surfaced in `NoteExportRenderer` (`*POV: {name}*` under the scene heading) and `get_plot_points_plan`/`get_plot_points_archive` (`focal:` line) and `get_track_definitions` (`supports: focalCharacterOnly`). Not built: the two Category-B "observed character" fields 019 block 37 separately proposed for `PlotPointSubjectLink` (`ObservedPerception`/`ObservedGapType`) — those are a content question (which tracks capture that content), not a schema gap, and are out of scope here.
 
 **D2 — 🔴 `GapType` enum + perception-gap fields.** `GapType` (Ironic / Tragic / Closing / Aligned) was repeatedly specified to stay a **discrete enum field**, not a note (019 blocks 18/37/65-69). Also the named field/track set: `POVBelief`, `POVReaderPerception`, `ReaderState`, `FIDAnchors`, `Stakes`, `Outcome`, `ArcStatement`, `StructuralTruth`, `EvidenceDeposited`, `ReaderHypothesis`, plus `RevealLayer`/`TLTTVisibility` link enums (015 blocks 778/2467). None exist in code (`grep GapType|POVBelief|ReaderState|RevealLayer` → transcripts/`ModelClasses.txt` only). Decide per item: promote to a discrete field vs. seed as a `NoteTrackDefinition` row.
 

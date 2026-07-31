@@ -41,6 +41,15 @@ namespace WindowedStoryPlanner
             set => SetProperty(_subject.ColorHex, value, _subject, (s, n) => s.ColorHex = n);
         }
 
+        /// <summary>Authorial designation that this subject may narrate somewhere in
+        /// third-person-limited — the only thing that populates a PlotPoint's focal-character
+        /// picker (see PlotPointViewModel.FocalCharacterChoices).</summary>
+        public bool IsPovCharacter
+        {
+            get => _subject.IsPovCharacter;
+            set => SetProperty(_subject.IsPovCharacter, value, _subject, (s, n) => s.IsPovCharacter = n);
+        }
+
         public ICollectionView? PlotPointSubjectLinks { get; private set; }
         private readonly IWindowManager _windowManager;
 

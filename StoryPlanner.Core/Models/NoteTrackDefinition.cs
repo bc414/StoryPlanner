@@ -34,6 +34,17 @@ namespace StoryPlanner.Core
         public bool SupportsSourceMaterial { get; set; }
         public bool CanEditInAuditMode { get; set; }
 
+        /// <summary>Only meaningful when OwnerType is PlotPointSubjectLink. When true, this
+        /// track displays on a link only if the owning PlotPoint's FocalCharacterId equals the
+        /// link's SubjectId — i.e. only on the POV character's own link, never on an observed
+        /// character's link (docs/design-conversations/053 blocks 262-263: the gap for an
+        /// observed character lives in the POV character's link, not the observed one's, so
+        /// showing it there would be a category error). A link that already holds notes on the
+        /// track keeps showing it regardless, so existing content is never hidden. No note
+        /// carries a POV marker of its own — the track is the discriminator, same pattern as
+        /// SupportsWorldDateEnd.</summary>
+        public bool IsFocalCharacterOnly { get; set; }
+
         // Per-editor-mode visibility: true = the track is demoted to the collapsed
         // "Hidden in this mode" group in that mode, even when it has notes. false
         // (the default for every existing and new row) = visible, current behavior.

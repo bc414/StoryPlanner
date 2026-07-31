@@ -91,6 +91,8 @@ public static class PlanIntegrity
         {
             if (pp.ChapterId is int chId && !chapterIds.Contains(chId))
                 violations.Add(new Violation("plotpoint.chapter_missing", $"plotpoint:{pp.Id} -> chapter:{chId}"));
+            if (pp.FocalCharacterId is int focalId && !subjectIds.Contains(focalId))
+                violations.Add(new Violation("plotpoint.focal_character_missing", $"plotpoint:{pp.Id} -> subject:{focalId}"));
         }
 
         foreach (var l in ctx.PlotPointSubjectLinks)

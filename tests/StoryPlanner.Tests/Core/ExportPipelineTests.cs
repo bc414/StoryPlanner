@@ -207,4 +207,36 @@ public class ExportPipelineTests
 
         Assert.Contains("*(source not yet cited)*", markdown);
     }
+
+    // ── Focal character (POV) ────────────────────────────────────────────────
+
+    [Fact]
+    public async Task Renderer_emits_the_focal_character_under_the_scene_heading()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.Subjects.Single(s => s.Id == SyntheticPlan.SubjectId).IsPovCharacter = true;
+            ctx.PlotPoints.Single(p => p.Id == SyntheticPlan.PlotPointId).FocalCharacterId = SyntheticPlan.SubjectId;
+        });
+        using var svc = await plan.OpenStoryServiceAsync();
+
+        var config = new ExportConfiguration { Anchors = [], Scope = 0 };
+        var markdown = NoteExportRenderer.Build(ExportResolver.ResolveAll(svc), config, svc);
+
+        Assert.Contains("### Testscene", markdown);
+        Assert.Contains("*POV: Testcharacter*", markdown);
+    }
+
+    [Fact]
+    public async Task Renderer_omits_the_focal_line_when_no_pov_is_designated()
+    {
+        using var plan = SyntheticPlan.Create();
+        using var svc = await plan.OpenStoryServiceAsync();
+
+        var config = new ExportConfiguration { Anchors = [], Scope = 0 };
+        var markdown = NoteExportRenderer.Build(ExportResolver.ResolveAll(svc), config, svc);
+
+        Assert.DoesNotContain("*POV:", markdown);
+    }
 }

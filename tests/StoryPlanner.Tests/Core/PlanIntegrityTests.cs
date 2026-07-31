@@ -72,6 +72,34 @@ public class PlanIntegrityTests
     }
 
     [Fact]
+    public void Check_reports_a_plot_point_pointing_at_a_missing_focal_character()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.PlotPoints.Add(new PlotPoint
+        {
+            Id = 999, Title = "Dangling focal", FocalCharacterId = 424242, OrderInChapter = 1
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "plotpoint.focal_character_missing" && v.Detail.Contains("plotpoint:999"));
+    }
+
+    [Fact]
+    public void Check_passes_when_focal_character_is_null_or_resolves()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+            ctx.PlotPoints.Single(p => p.Id == SyntheticPlan.PlotPointId).FocalCharacterId = SyntheticPlan.SubjectId);
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.DoesNotContain(violations, v => v.Rule == "plotpoint.focal_character_missing");
+    }
+
+    [Fact]
     public void Check_reports_a_source_material_part_pointing_at_a_missing_work()
     {
         using var plan = SyntheticPlan.Create();

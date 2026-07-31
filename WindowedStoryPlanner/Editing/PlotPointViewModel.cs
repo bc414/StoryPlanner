@@ -1,5 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows.Data;
@@ -52,6 +54,44 @@ namespace WindowedStoryPlanner
                 var chapter = _viewModelRegistry.AllChapterViewModels.FirstOrDefault(c => c.Id == ChapterId);
                 return chapter is null ? "?.? " : $"{chapter.FullNumber}.{OrderInChapter} ";
             }
+        }
+
+        /// <summary>Candidates for the focal-character picker: subjects the author has
+        /// designated as POV-capable (Subject.IsPovCharacter), with subjects already linked to
+        /// this scene sorted first, then alphabetically. Not restricted to linked subjects —
+        /// POV may legitimately be set before links exist.</summary>
+        public IEnumerable<SubjectViewModel> FocalCharacterChoices =>
+            _viewModelRegistry.AllSubjectViewModels
+                .Where(s => s.IsPovCharacter)
+                .OrderByDescending(s => _viewModelRegistry.AllPlotPointSubjectLinkViewModels
+                    .Any(l => l.PlotPointId == _plotPoint.Id && l.SubjectId == s.Id))
+                .ThenBy(s => s.Name, StringComparer.CurrentCultureIgnoreCase);
+
+        /// <summary>Resolves FocalCharacterId → SubjectViewModel for display; sets
+        /// FocalCharacterId on write. Null means "no POV designated for this scene". Setting
+        /// this rebuilds every link's note tracks so IsFocalCharacterOnly tracks move to (or
+        /// off) the newly (un)designated character's link.</summary>
+        public SubjectViewModel? SelectedFocalCharacter
+        {
+            get => _viewModelRegistry.AllSubjectViewModels.FirstOrDefault(s => s.Id == _plotPoint.FocalCharacterId);
+            set
+            {
+                var newId = value?.Id;
+                if (_plotPoint.FocalCharacterId == newId) return;
+                SetProperty(_plotPoint.FocalCharacterId, newId, _plotPoint, (p, n) => p.FocalCharacterId = n);
+                OnPropertyChanged();
+                RebuildLinkedTracks();
+            }
+        }
+
+        [RelayCommand]
+        private void ClearFocalCharacter() => SelectedFocalCharacter = null;
+
+        private void RebuildLinkedTracks()
+        {
+            foreach (var link in _viewModelRegistry.AllPlotPointSubjectLinkViewModels
+                         .Where(l => l.PlotPointId == _plotPoint.Id))
+                link.RebuildAndInitializeTracks();
         }
 
         [RelayCommand]

@@ -188,9 +188,20 @@ polymorphic FK (no DB-level foreign key; resolve manually per `OwnerType`).
   is the 2026-07-30 event/condition track split: `SupportsWorldDate=1, SupportsWorldDateEnd=0`
   = event track (a dated note asserts *when it happened*); both 1 = condition track (a dated
   note asserts *over what period it held*, start..end)
+- `IsFocalCharacterOnly` (bool, 2026-07-31) — only meaningful on `OwnerType=3`
+  (`PlotPointSubjectLink`) tracks. `1` means the track shows only on the link whose
+  `SubjectId` equals the owning `PlotPoint.FocalCharacterId`; on any other link for the same
+  plot point it's hidden **unless that link already has notes on it** (existing content is
+  never hidden). This is an app-UI display rule, not something enforced or reported by the
+  MCP server — a query joining `Notes` to a focal-only track will still find rows on
+  non-focal links, and that's expected, not a data error.
 
 **`Subjects`** (`Models/Subject.cs`) — the entity buckets (characters, locations, etc.).
 `SubjectDefinitionId` → `SubjectDefinitions.Id` classifies *what kind* of subject it is.
+`IsPovCharacter` (bool, 2026-07-31) is an authorial flag — "this subject may narrate a scene in
+third-person-limited" — and is the only thing that populates a `PlotPoint`'s focal-character
+picker in the app. It does not require `SubjectDefinitionId` to be Character (no code-level
+check), though that's the intended use.
 
 **`SubjectDefinitions`** (`Models/SubjectDefinition.cs`) — `SubjectType` (free text), `DisplayOrder`.
 In v2 these are real subject-kind categories (`Character`, `Technology`, ...); **in the v1 archive
@@ -204,6 +215,11 @@ means not yet placed in a chapter), `OrderInChapter`. Since 2026-07-30 also `The
 never an interval: a plot point wanting a span is holding more than one scene). A plot point
 thus carries two independent temporal coordinates: fabula date (world time) and syuzhet
 position (chapter + order); their divergence is flashback/non-linear telling.
+`FocalCharacterId` (nullable int, 2026-07-31) → `Subjects.Id` — the scene's POV character.
+Null (the overwhelming majority of scenes) means undesignated, not "no POV" — there is no
+sentinel row here, unlike `TheaterId`/`ChapterId`. Only ever set to a subject with
+`IsPovCharacter=1`, though nothing at the schema level enforces that after the fact (e.g. if
+the subject's flag is later unticked).
 
 **`Theaters`** (`Models/Theater.cs`, 2026-07-30) — timeline columns: `Name`, `Description`,
 `OrderIndex` (narrative-density order, a display coordinate, not a taxonomy). Deliberately no
@@ -334,6 +350,21 @@ SELECT COUNT(*) AS total,
        SUM(WorldDateStartYear IS NOT NULL) AS with_worlddate,
        SUM(ThemeId IS NOT NULL) AS with_theme
 FROM Notes;
+```
+
+**Focal-character (POV) coverage** — how many scenes have a POV designated, and by whom:
+```sql
+SELECT COUNT(*) AS total, SUM(FocalCharacterId IS NOT NULL) AS with_focal_character
+FROM PlotPoints;
+
+SELECT s.Name, COUNT(*) AS scenes
+FROM PlotPoints pp JOIN Subjects s ON s.Id = pp.FocalCharacterId
+GROUP BY s.Id ORDER BY scenes DESC;
+
+-- Candidates: subjects flagged as POV-capable but never actually used as a scene's focal character.
+SELECT s.Name FROM Subjects s
+WHERE s.IsPovCharacter = 1
+  AND NOT EXISTS (SELECT 1 FROM PlotPoints pp WHERE pp.FocalCharacterId = s.Id);
 ```
 
 **Source material citation coverage** (many-to-many — a note may cite several Parts, so this is

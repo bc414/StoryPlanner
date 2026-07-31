@@ -46,11 +46,16 @@
                 <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
                     Style="{StaticResource TitleTextBox}" Grid.Column="0" Grid.Row="1"/>
                 <TextBlock Text="Subject Type" Style="{StaticResource LabelStyle}" Margin="4,0,0,0" Grid.Row="0" Grid.Column="1"/>
-                <ComboBox ItemsSource="{Binding AvailableSubjectDefinitions}"
-                    SelectedItem="{Binding SelectedSubjectDefinition, Mode=TwoWay}"
-                    DisplayMemberPath="SubjectType"
-                    Margin="4,0,0,0" Grid.Row="1" Grid.Column="1" Width="160"/>
-            
+                <StackPanel Orientation="Horizontal" Grid.Row="1" Grid.Column="1" Margin="4,0,0,0">
+                    <ComboBox ItemsSource="{Binding AvailableSubjectDefinitions}"
+                        SelectedItem="{Binding SelectedSubjectDefinition, Mode=TwoWay}"
+                        DisplayMemberPath="SubjectType"
+                        Width="160"/>
+                    <CheckBox Content="POV character" IsChecked="{Binding IsPovCharacter, Mode=TwoWay}"
+                        ToolTip="Authorial designation that this subject may narrate a scene in third-person-limited — the only subjects offered by a PlotPoint's POV Character picker."
+                        VerticalAlignment="Center" Margin="8,0,0,0"/>
+                </StackPanel>
+
 
             <Border Grid.Column="2" Grid.Row="0" Grid.RowSpan="2" dd:DragDrop.IsDragSource="True"
                     dd:DragDrop.DragAdornerTemplate="{StaticResource SubjectDragAdorner}"

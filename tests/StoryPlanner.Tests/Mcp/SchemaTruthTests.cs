@@ -252,6 +252,48 @@ public class SchemaTruthTests
         Assert.Contains("S3E03", result.Split('\n').Single(l => l.Contains("<- untouched")));
     }
 
+    // ── Focal character (POV) ────────────────────────────────────────────────
+
+    [Fact]
+    public void GetPlotPoints_emits_the_focal_character_when_designated()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.Subjects.Single(s => s.Id == SyntheticPlan.SubjectId).IsPovCharacter = true;
+            ctx.PlotPoints.Single(p => p.Id == SyntheticPlan.PlotPointId).FocalCharacterId = SyntheticPlan.SubjectId;
+        });
+        var tools = new PlanTools(plan.Sources);
+
+        var result = tools.GetPlotPointsPlan([SyntheticPlan.PlotPointId]);
+
+        Assert.Contains($"focal: Testcharacter (subject:{SyntheticPlan.SubjectId})", result);
+    }
+
+    [Fact]
+    public void GetPlotPoints_omits_the_focal_line_when_undesignated()
+    {
+        using var plan = SyntheticPlan.Create();
+        var tools = new PlanTools(plan.Sources);
+
+        var result = tools.GetPlotPointsPlan([SyntheticPlan.PlotPointId]);
+
+        Assert.DoesNotContain("focal:", result);
+    }
+
+    [Fact]
+    public void GetTrackDefinitions_reports_the_focalCharacterOnly_flag()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+            ctx.NoteTrackDefinitions.Single(t => t.Id == SyntheticPlan.LinkTrackId).IsFocalCharacterOnly = true);
+        var reference = new ReferenceTools(plan.Sources);
+
+        var result = reference.GetTrackDefinitions(["Revelation"]);
+
+        Assert.Contains("focalCharacterOnly", result);
+    }
+
     [Fact]
     public void Count_notes_by_source_groups_multi_cite_notes_by_their_full_citation_set()
     {

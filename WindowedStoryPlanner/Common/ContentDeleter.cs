@@ -52,7 +52,12 @@ public class ContentDeleter : IContentDeleter
         bool hasLinks = _storyService.PlotPointsSubjectLinks
             .Any(l => l.SubjectId == subject.Id);
 
-        if (hasNotes || hasLinks) return false;
+        // A subject designated as someone's POV is a peer reference, not a container
+        // relationship — refuse rather than nulling PlotPoint.FocalCharacterId out from under it.
+        bool isFocalCharacter = _storyService.PlotPoints
+            .Any(p => p.FocalCharacterId == subject.Id);
+
+        if (hasNotes || hasLinks || isFocalCharacter) return false;
 
         RemoveOwnedNarrativePropertyValues(subject.Id, OwnerType.Subject);
 
