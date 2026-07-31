@@ -77,10 +77,12 @@ testing for every future timeline change — highest-value item on this list.
 
 ## 4. Features that ought to exist (each small)
 
-**4a. UI-state persistence.** Zoom, theater-collapse set, era-collapse set, viewport center —
-all reset per launch; deferred three times, now four consumers. One JSON in
-`%LOCALAPPDATA%\StoryPlanner\`, keyed by `.storyplan` path. Nothing else in the app persists UI
-prefs, so this creates the mechanism (keep it tiny).
+~~**4a. UI-state persistence.**~~ **Shipped 2026-07-31**, with a different mechanism than
+proposed here: Brian rejected `%LOCALAPPDATA%` ("can't the settings be contained in the sqlite
+db? This is a single user desktop app"), so the state lives in a new `UiSettings` key/value
+table inside the `.storyplan` itself — one row keyed `Timeline.ViewState`
+(`Core/Timeline/TimelineViewState.cs`), written through the normal `SaveAsync` path with a 5s
+debounce. Zoom, viewport center, and both collapse sets restore on load.
 
 **4b. AutomationIds + cells as real Buttons.** `AutomationProperties.AutomationId` on marks,
 toolbar buttons, and side-panel controls so UIA tests stop keying off display text ("◧" broke

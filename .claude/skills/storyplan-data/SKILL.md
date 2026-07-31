@@ -179,6 +179,10 @@ polymorphic FK (no DB-level foreign key; resolve manually per `OwnerType`).
   A `TrackType` with zero `Notes` rows pointing at its tracks is a layer that's *defined but unused*.
 - `*ModeDisplayOrder` columns (Expansion/Linking/Gardener/Audit/SceneDesign) control per-`EditorMode`
   ordering; `EditorMode` enum (`Models/EditorMode.cs`): `0=Expansion,1=Linking,2=Gardener,3=Audit,4=SceneDesign`
+- `HiddenIn*Mode` columns (same five modes, 2026-07-31): booleans; 1 demotes the track to a
+  collapsed "Hidden in this mode" group in that editor mode (even when it has notes). 0 =
+  visible, the default for every row. A display preference like the order columns — the MCP
+  server deliberately does not expose or honor them
 - `IsSingleton`, `SupportsWorldDate`, `SupportsWorldDateEnd`, `SupportsTheme`,
   `SupportsSourceMaterial`, `CanEditInAuditMode` are booleans (0/1). `SupportsWorldDateEnd`
   is the 2026-07-30 event/condition track split: `SupportsWorldDate=1, SupportsWorldDateEnd=0`
@@ -223,6 +227,12 @@ and a `Subject` that is *itself* noteable (has its own `Notes` via `OwnerType=3`
 scene's specific effect on a subject gets its own notes distinct from the subject's general notes.
 
 **`Themes`** (`Models/Theme.cs`) — `Name`, `Proposition`.
+
+**`UiSettings`** (`Models/UiSetting.cs`, 2026-07-31) — key/value rows for UI preferences that
+persist with the file (`Key`, `Value` = opaque JSON payload). Currently one key:
+`Timeline.ViewState` (zoom, viewport center, collapsed theaters/eras — payload shape in
+`Core/Timeline/TimelineViewState.cs`). App state, not story data: ignore it when analyzing
+content, and expect readers to tolerate a missing row or unparseable payload.
 
 **`SourceMaterials` / `SourceMaterialParts` / `NoteSourceReferences`** (`Models/SourceMaterial*.cs`,
 `Models/NoteSourceReference.cs`, 2026-07-31) — a two-tier citation/coverage model, NOT a plain

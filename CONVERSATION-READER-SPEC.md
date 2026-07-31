@@ -7,7 +7,7 @@
 > - **`TrackTypesCsv` became a real junction table**, `ConversationSubjectCoverageTrack`, with an added `IsAdded` flag.
 > - **The subject/track coverage feature was abandoned in practice** — 4,062 coverage-track rows, `IsAdded = 0` on every one. Automated subject routing "turned out to not be helpful." Do not revive it.
 > - **`IgnoredConversation` and the Conversation Picker** are post-spec additions not described here.
-> - Multi-select bulk state ops (F3) and the unresolved-material dashboard metric (F4) were not built.
+> - Multi-select bulk state ops (F3) and the unresolved-material dashboard metric (F4) were not built. *(Banner amendment 2026-07-31: F3 has since shipped — see `FEATURE-AUDIT.md` §F. F4 was declined pending a conversation-pipeline redesign.)*
 >
 > What *is* live and actively used: the three-column reader, block-level triage via the F1–F4 keys (`BlockState`), WebView2 markdown rendering, and folder-pair import.
 > For current state, query the data (`storyplanner` MCP `list_conversations`) rather than trusting this document.

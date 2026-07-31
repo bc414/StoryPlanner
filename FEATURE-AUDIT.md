@@ -43,7 +43,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | B3 | Per-entity completion / scene-readiness dashboard | 🔴 | 019, 038/039 | View |
 | E1 | Theme dialectical model (antithesis + Support/Counter/Refutation) | 🔴 | 053 | Model |
 | E2 | Subject clusters surfaced in UI (`SubjectCluster` orphaned) | 🔴 | 077, 053 | Model+View |
-| E3 | Per-mode track *visibility/collapse* (not just ordering) | 🔴 | 077 | Model |
+| E3 | Per-mode track *visibility/collapse* (not just ordering) | 🟢 | 077 | Model |
 | E4 | "Synthesizes Links" source-vs-aggregate track flag | 🔴 | 077 | Model |
 | E5 | Chapter primary-thread spine / chapter-subject link tracks | 🔴 | 015, 053 | Model |
 | C3 | `ValidationTier` opt-in enforcement system | 🔴 | 038/039 | Model |
@@ -51,7 +51,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | B4 | Cross-thread "synchronized ratchet" chapter view | 🔴 | 015 | View |
 | F1 | Conversation Reader: per-block subject mentions | 🔴 | (spec) | Model |
 | F2 | Conversation Reader: cross-conversation subject view | 🔴 | (spec) | View |
-| F3 | Conversation Reader: bulk multi-select state ops | 🔴 | (spec) | UX |
+| F3 | Conversation Reader: bulk multi-select state ops | 🟢 | (spec) | UX |
 | G1 | Session export presets (degree-of-separation scoping) | 🟡 | 019 | Mostly done |
 
 ---
@@ -86,9 +86,15 @@ stored), a Timeline tab (`TimelineViewModel`/`TimelineView`: y = world time, x =
 condition bars with extent-proportional height, fixed-size event markers, year-precision count
 glyphs, pixel-space lane packing via `Core/Timeline/LanePacker`, pivot rules, snapshot-not-live
 by design), a triage panel for undated items with confirm-style assignment, and notation
-editing in `NoteView`. Still outstanding: era-range collapse (deep-history tail), drag-from-
-triage onto the canvas, viewport persistence, and the DataOps ops actually being applied to the
-real files (rehearsed on a copy only — Brian's call).
+editing in `NoteView`. Era-range collapse and drag-from-triage both shipped later the same
+evening (2026-07-30 — see `docs/TIMELINE-IMPLEMENTATION-DECISIONS.md`; this entry was stale
+until 2026-07-31). Viewport persistence shipped 2026-07-31 via a new `UiSettings` key/value
+table *inside the `.storyplan`* — Brian's explicit mechanism choice over the
+`%LOCALAPPDATA%` JSON the timeline backlog had proposed ("settings … contained in the sqlite
+db"); zoom, center year, and the theater/era collapse sets restore on load
+(`Core/Timeline/TimelineViewState.cs`, debounced writes through `SaveAsync`). Still
+outstanding: the DataOps ops actually being applied to the real files (rehearsed on a copy
+only — Brian's call).
 
 **B2 — 🟢 Global entity search.** *(Shipped 2026-07-30.)* The "Global Search" tab in
 [MainWindow.xaml](WindowedStoryPlanner/Shell/MainWindow.xaml#L66-L68) now hosts a real
@@ -156,7 +162,16 @@ This is the biggest *conceptual* body of work in the transcripts (esp. 019, the 
 
 **E2 — 🔴 Subject clusters in UI.** Grouping headings like "Night Economy" over multiple subjects (077 blocks 18/32, 053). `Models/SubjectCluster.cs` (`Id/Name/ColorHex`) exists but is **orphaned** — no `Subject.ClusterId`, no `DbSet`, no UI (`grep SubjectCluster|ClusterId` → model file only).
 
-**E3 — 🔴 Per-mode track visibility/collapse.** Editor modes reorder tracks but can't hide/collapse irrelevant ones (077 block 41: "visibility tells you what's even relevant"). `NoteTrackDefinition` has five per-mode *order* fields but no per-mode visibility boolean.
+**E3 — 🟢 Per-mode track visibility/collapse.** *(Shipped 2026-07-31.)* Five `HiddenIn*Mode`
+booleans on `NoteTrackDefinition` (one per `EditorMode`, default false = visible, so the
+migration changed nothing until opted into), edited as checkbox columns in the definitions
+grid. A track hidden in the current mode — even one with notes — is demoted to a collapsed
+"Hidden in this mode" expander after the empty-track panel
+([NarrativeElementFullView.xaml](WindowedStoryPlanner/Editing/NarrativeElementFullView.xaml)),
+Brian's chosen variant over full hiding: nothing is ever unreachable without a mode switch.
+The Unassigned track is always visible; `convert-world-dates` copies the flags to condition
+twins; the flags are deliberately *not* exposed via the MCP server (display preference, like
+the per-mode order fields).
 
 **E4 — 🔴 "Synthesizes Links" flag.** Distinguish fill-first source-of-truth tracks (Ontology/History) from tracks that aggregate upward from link notes — a suggested `SynthesizesLinks` boolean (077 blocks 26-28). No such field; `CanEditInAuditMode` only loosely proxies it.
 
@@ -170,16 +185,24 @@ The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-S
 
 - **F1 — 🔴 Per-block subject mentions.** The spec's `BlockSubjectMention` entity (per-block subject tagging, for filtering blocks by subject within a conversation) was never built — only conversation-level `ConversationSubjectCoverage` exists. `grep BlockSubjectMention` → spec only.
 - **F2 — 🔴 Cross-conversation subject view.** "What did every conversation say about Applejack's Characterization?" — spec §Cross-Conversation Subject View + `SubjectCoverageView.xaml`. Not present (no such view/VM; depends on F1).
-- **F3 — 🔴 Bulk multi-select state ops.** Spec calls multi-select "critical for marking runs of AI-deliberation turns Skipped in one action." The block `ListBox` is single-select; state commands apply one block at a time.
-- **F4 — 🟡 Dashboard "subjects with unresolved material" metric.** Dashboard has conversation/block counts but not the spec's "subjects appearing in coverage for not-yet-Complete conversations" number.
+- **F3 — 🟢 Bulk multi-select state ops.** *(Shipped 2026-07-31.)* Both block columns are
+  `SelectionMode="Extended"` (Shift/Ctrl-click, per the spec's ask); the context menu, U/S/F/D
+  keys, and F1–F4 all apply to the whole selection when the target block is part of one, via a
+  single bulk path (`ConversationViewModel.ApplyStateToSelectionAsync`) that refreshes stats
+  and saves exactly once. A block outside the selection stays single-target.
+- **F4 — ⚪ Dashboard "subjects with unresolved material" metric — declined 2026-07-30.**
+  Brian, when offered it for an overnight build: "I need to redesign that conversation
+  pipeline and cut out the AI suggested tracks anyway." The metric would sit on
+  `ConversationSubjectCoverage`, which is in that redesign's blast radius — build nothing new
+  on it until the redesign lands.
 
 ---
 
 ## G. Largely-done items worth confirming
 
-- **G1 — 🟡 Session export presets.** 019 block 63 wanted purpose-scoped exports with degree-of-separation entity scoping and track-type exclusion. Most of this **is built**: [ExportConfiguration.cs](StoryPlanner.Core/Export/ExportConfiguration.cs) has `Anchors`, `Scope`, `ChapterFrom/To`, `IncludedTrackTypes`, and [ExportResolver.cs](StoryPlanner.Core/Export/ExportResolver.cs) implements a real 0/1/2-degree expansion (anchors → links → other-end entities). What's missing is only the *named presets* ("World Expansion / Architecture Review / Scene Design") as saved configurations.
+- **G1 — ⚪ Session export presets — remainder dropped 2026-07-30.** 019 block 63 wanted purpose-scoped exports with degree-of-separation entity scoping and track-type exclusion. Most of this **is built**: [ExportConfiguration.cs](StoryPlanner.Core/Export/ExportConfiguration.cs) has `Anchors`, `Scope`, `ChapterFrom/To`, `IncludedTrackTypes`, and [ExportResolver.cs](StoryPlanner.Core/Export/ExportResolver.cs) implements a real 0/1/2-degree expansion (anchors → links → other-end entities). The only missing piece was *named presets* as saved configurations, and Brian declined it when offered: "I don't need any more work on the markdown exports since I have the mcp server now." The MCP server superseded the export workflow the presets were for.
 - **F-key track assignment** (038/039 P46) — **done**: `DefinitionsEditorViewModel.FunctionKeyOptions`, `NoteTrackSectionView.xaml.cs` `PreviewKeyDown`, `App.xaml.cs` `OnGlobalKeyDown`.
-- **Cross-cut tag views** for Theme and SourceMaterial (015) — **done** via `TaggedNotesViewModelBase` (`ThemeDetailViewModel`, `SourceMaterialDetailViewModel`, `SourceMaterialPartDetailViewModel`). SourceMaterial's was built 2026-06-21 but unreachable in practice until 2026-07-31 — see the note near the top of this document.
+- **Cross-cut tag views** for Theme and SourceMaterial (015) — **done** via `TaggedNotesViewModelBase` (`ThemeDetailViewModel`, `SourceMaterialDetailViewModel`).
 
 ## ⚪ Proposed but deliberately rejected (do not build)
 
