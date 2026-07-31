@@ -32,6 +32,13 @@ struck three times during the MCP server build under three different names.
 > An obvious bottleneck in the data is not a mandate for a feature. When a feature idea encodes
 > workflow, intent, ranking, or suggestion — stop and ask.
 
+**The coverage suggestion is now cut, not merely unused (2026-07-31).** No code path writes
+`ConversationSubjectCoverage`, the reader's checklist column is gone, and a meta file's
+`subjectsCovered` array is inert on import — a test asserts it writes zero rows. The tables and
+their existing data survive, dormant, so `DeleteConversationAsync`'s cascade still works. The
+block-level `HasDecisions` flag went with it (same judgment call, one layer down): column dropped.
+Do not rebuild either. Conversation import no longer requires an AI pass at all — see below.
+
 ## Architecture — deliberate, not accidental
 
 **No navigation properties, no foreign keys, no indexes.** Single-user, load-everything-at-
@@ -158,8 +165,17 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 - **`StoryService` is not read-only:** `OpenProjectAsync` runs `MigrateAsync()` (upgrades the
   schema in place, no backup) and silently no-ops if a project is already loaded; `SaveAsync()`
   writes `.md` and `_stats.csv` litter. The MCP server bypasses it with `Mode=ReadOnly`.
-- **stdout is JSON-RPC in the MCP process** — stderr only. This is why `ConversationImporter`
-  (which uses `Console.WriteLine`) stays out of the server.
+- **stdout is JSON-RPC in the MCP process** — stderr only. Never `Console.WriteLine` from code the
+  server can reach. (`ConversationImporter` used to be the standing example; as of 2026-07-31 it
+  reports through a returned `ConversationImportResult` instead of printing, but it is still a
+  write path and the read-only server has no business calling it.)
+- **Conversation import needs no AI pass (2026-07-31).** Two routes, both first-class: *Scan Claude
+  Export… → Import Checked Directly* puts raw blocks straight in the reader from the export, and
+  *Export Checked for Cowork… → Import from Folder…* adds summaries afterwards. A `_meta.json` is
+  optional everywhere; it supplies `ArcSummary` and per-block `Summary` (navigation only) and
+  nothing else. Meta never destroys: a content-only re-import leaves earlier summaries and block
+  triage state intact. An empty summary is ordinary, not missing data — never substitute an
+  excerpt for one.
 
 ## Settled — do not propose alternatives
 

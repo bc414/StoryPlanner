@@ -1,4 +1,3 @@
-using System.Collections.ObjectModel;
 using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
 using StoryPlanner.Core;
@@ -6,62 +5,127 @@ using StoryPlanner.Core;
 namespace StoryPlanner.Core;
 
 /// <summary>
-/// Merges a *_content.json (raw block text) with a *_meta.json (AI-generated summaries and routing)
-/// and persists the resulting entities to the database.
-/// Both files are matched by blockNumber. The app never re-emits raw content during extraction.
+/// One conversation's raw block text, independent of where it came from. Both the file-based
+/// import (a *_content.json written for a Cowork round trip) and the direct import (straight from
+/// a scanned conversations.json export) project onto this shape, so the merge logic below has a
+/// single implementation.
+/// </summary>
+public sealed record ConversationImportSource(
+    string Platform,
+    string Title,
+    string ConversationDate,
+    string SourceUuid,
+    string SourceUpdatedAt,
+    IReadOnlyList<ConversationImportBlock> Blocks);
+
+public sealed record ConversationImportBlock(
+    int BlockNumber,
+    string Speaker,
+    string RawContent,
+    bool IsCompaction);
+
+/// <summary>
+/// The optional enrichment half: summaries authored outside the app (a *_meta.json). Summaries are
+/// a navigation aid only — nothing here proposes structure, and a null ConversationMeta is an
+/// ordinary, fully supported import.
+/// </summary>
+public sealed class ConversationMeta
+{
+    public string                       ArcSummary { get; set; } = string.Empty;
+    public List<ConversationMetaBlock>  Blocks     { get; set; } = new();
+}
+
+public sealed class ConversationMetaBlock
+{
+    public int    BlockNumber { get; set; }
+    public string Summary     { get; set; } = string.Empty;
+}
+
+/// <summary>
+/// What a batch import actually did. <paramref name="WithoutSummaries"/> counts conversations
+/// imported with no meta file — worth reporting back, since an unpaired content file now imports
+/// rather than being skipped and the user would otherwise not know which ones landed bare.
+/// </summary>
+public sealed record ConversationImportResult(int Created, int Updated, int WithoutSummaries)
+{
+    public int Total => Created + Updated;
+
+    public static ConversationImportResult operator +(ConversationImportResult a, ConversationImportResult b) =>
+        new(a.Created + b.Created, a.Updated + b.Updated, a.WithoutSummaries + b.WithoutSummaries);
+
+    public static readonly ConversationImportResult Empty = new(0, 0, 0);
+}
+
+/// <summary>
+/// Persists imported conversations. The raw block text is required; summaries are optional.
 ///
-/// Additive/incremental: a content file whose sourceUuid (or, absent that, NNN_{slug} prefix)
-/// matches an existing Conversation is treated as a re-analysis of a reopened conversation rather
-/// than a duplicate. Blocks are upserted by BlockNumber — already-reviewed blocks keep their
-/// BlockState (Done/Flagged/Skipped) while newly-added turns land as Unread — and the arc summary
-/// / subject coverage are refreshed from the new meta file.
+/// Additive/incremental: a source whose sourceUuid (or, absent that, NNN_{slug} prefix) matches an
+/// existing Conversation is treated as a re-import of a reopened conversation rather than a
+/// duplicate. Blocks are upserted by BlockNumber — already-reviewed blocks keep their BlockState
+/// (Done/Flagged/Skipped) while newly-added turns land as Unread.
+///
+/// Re-importing *without* meta never erases summaries an earlier meta pass produced; meta only
+/// ever adds. Nothing in this class writes ConversationSubjectCoverage — the AI-suggested
+/// subject×track routing was cut on 2026-07-31 (the tables and their existing rows remain, but no
+/// code path adds to them). A meta file that still carries a subjectsCovered array imports
+/// cleanly; the property is simply ignored.
 /// </summary>
 public class ConversationImporter
 {
-    private readonly AppDbContext                     _context;
-    private readonly ObservableCollection<Subject>   _subjects;
+    private readonly AppDbContext _context;
 
     private static readonly JsonSerializerOptions JsonOpts = new()
     {
         PropertyNameCaseInsensitive = true
     };
 
-    public ConversationImporter(AppDbContext context, ObservableCollection<Subject> subjects)
+    public ConversationImporter(AppDbContext context)
     {
-        _context  = context;
-        _subjects = subjects;
+        _context = context;
     }
 
     // ── Public API ────────────────────────────────────────────────────────────
 
     /// <summary>
-    /// Import one paired content+meta file set. Creates a new Conversation, or — when the content
-    /// file's sourceUuid/prefix matches one already in the DB — updates it additively.
+    /// Import one conversation. Creates a new Conversation, or — when the source's
+    /// sourceUuid/prefix matches one already in the DB — updates it additively.
+    /// A null <paramref name="meta"/> imports raw content with no summaries.
     /// </summary>
-    public async Task ImportAsync(string contentPath, string metaPath)
+    public async Task<ConversationImportResult> ImportAsync(
+        ConversationImportSource source, string sourceFilePrefix, ConversationMeta? meta)
     {
-        string prefix  = PrefixOf(Path.GetFileName(contentPath), "_content.json");
-        var    content = DeserializeContent(contentPath);
-        var    meta    = DeserializeMeta(metaPath);
+        int bare = meta is null ? 1 : 0;
 
-        var existing = await FindExistingAsync(prefix, content.SourceUuid);
+        var existing = await FindExistingAsync(sourceFilePrefix, source.SourceUuid);
         if (existing is null)
         {
-            Console.WriteLine($"  [new] {prefix}");
-            await CreateAsync(prefix, content, meta);
+            await CreateAsync(sourceFilePrefix, source, meta);
+            return new ConversationImportResult(Created: 1, Updated: 0, WithoutSummaries: bare);
         }
-        else
-        {
-            Console.WriteLine($"  [update] {prefix} (conversation #{existing.Id})");
-            await UpdateAsync(existing, content, meta);
-        }
+
+        await UpdateAsync(existing, source, meta);
+        return new ConversationImportResult(Created: 0, Updated: 1, WithoutSummaries: bare);
     }
 
     /// <summary>
-    /// Import all paired content+meta files in a folder.
-    /// Pairs are matched by the NNN_{slug} prefix (content suffix _content.json, meta suffix _meta.json).
+    /// Import one content file, optionally paired with a meta file. Pass null for
+    /// <paramref name="metaPath"/> to import raw content with no summaries.
     /// </summary>
-    public async Task ImportFolderAsync(string folderPath)
+    public async Task<ConversationImportResult> ImportFileAsync(string contentPath, string? metaPath)
+    {
+        string prefix  = PrefixOf(Path.GetFileName(contentPath), "_content.json");
+        var    content = DeserializeContent(contentPath);
+        var    meta    = metaPath is null ? null : DeserializeMeta(metaPath);
+
+        return await ImportAsync(ToSource(content), prefix, meta);
+    }
+
+    /// <summary>
+    /// Import every *_content.json in a folder. A matching *_meta.json (same NNN_{slug} prefix)
+    /// is used when present; a content file without one imports without summaries rather than
+    /// being skipped.
+    /// </summary>
+    public async Task<ConversationImportResult> ImportFolderAsync(string folderPath)
     {
         var contentFiles = Directory.GetFiles(folderPath, "*_content.json")
             .ToDictionary(f => PrefixOf(Path.GetFileName(f), "_content.json"), f => f);
@@ -69,17 +133,58 @@ public class ConversationImporter
         var metaFiles = Directory.GetFiles(folderPath, "*_meta.json")
             .ToDictionary(f => PrefixOf(Path.GetFileName(f), "_meta.json"), f => f);
 
+        var result = ConversationImportResult.Empty;
         foreach (var (prefix, contentPath) in contentFiles)
         {
-            if (!metaFiles.TryGetValue(prefix, out var metaPath))
-            {
-                Console.WriteLine($"  [skip] no matching meta file for {Path.GetFileName(contentPath)}");
-                continue;
-            }
-
-            await ImportAsync(contentPath, metaPath);
+            metaFiles.TryGetValue(prefix, out var metaPath);
+            result += await ImportFileAsync(contentPath, metaPath);
         }
+        return result;
     }
+
+    /// <summary>
+    /// Import scan rows straight from a parsed Claude export — no content files, no meta, no
+    /// Cowork round trip. New conversations are assigned the same NNN_{slug} prefix a file export
+    /// would have given them, so exporting one later for a summary pass still pairs up.
+    /// </summary>
+    public async Task<ConversationImportResult> ImportScannedAsync(IReadOnlyList<ConversationSyncItem> items)
+    {
+        // Snapshot the next free index once: several New rows in one batch must not all claim it.
+        int nextIndex = ConversationPrefix.NextIndex(await _context.Conversations.ToListAsync());
+
+        var result = ConversationImportResult.Empty;
+        foreach (var item in items)
+        {
+            string prefix = string.IsNullOrEmpty(item.ExistingSourceFilePrefix)
+                ? ConversationPrefix.Build(nextIndex++, item.Export.Title)
+                : item.ExistingSourceFilePrefix;
+
+            result += await ImportAsync(ToSource(item.Export), prefix, meta: null);
+        }
+        return result;
+    }
+
+    // ── Projection ────────────────────────────────────────────────────────────
+
+    private static ConversationImportSource ToSource(ContentFile content) =>
+        new(content.Platform,
+            content.Title,
+            content.ConversationDate,
+            content.SourceUuid,
+            content.SourceUpdatedAt,
+            content.Blocks
+                .Select(b => new ConversationImportBlock(b.BlockNumber, b.Speaker, b.RawContent, b.IsCompaction))
+                .ToList());
+
+    private static ConversationImportSource ToSource(ParsedClaudeConversation export) =>
+        new("Claude",
+            export.Title,
+            export.ConversationDate,
+            export.Uuid,
+            export.UpdatedAt,
+            export.Blocks
+                .Select(b => new ConversationImportBlock(b.BlockNumber, b.Speaker, b.RawContent, b.IsCompaction))
+                .ToList());
 
     // ── Deserialization ───────────────────────────────────────────────────────
 
@@ -90,10 +195,10 @@ public class ConversationImporter
                ?? throw new InvalidDataException($"Failed to deserialize content file: {path}");
     }
 
-    private static MetaFile DeserializeMeta(string path)
+    private static ConversationMeta DeserializeMeta(string path)
     {
         using var stream = File.OpenRead(path);
-        return JsonSerializer.Deserialize<MetaFile>(stream, JsonOpts)
+        return JsonSerializer.Deserialize<ConversationMeta>(stream, JsonOpts)
                ?? throw new InvalidDataException($"Failed to deserialize meta file: {path}");
     }
 
@@ -112,25 +217,25 @@ public class ConversationImporter
 
     // ── Create ────────────────────────────────────────────────────────────────
 
-    private async Task CreateAsync(string sourceFilePrefix, ContentFile content, MetaFile meta)
+    private async Task CreateAsync(string sourceFilePrefix, ConversationImportSource source, ConversationMeta? meta)
     {
         var conversation = new Conversation
         {
-            Title            = content.Title,
-            ConversationDate = ParseDate(content.ConversationDate) ?? DateTime.MinValue,
-            Platform         = content.Platform,
-            BlockCount       = content.Blocks.Count,
-            ArcSummary       = meta.ArcSummary,
+            Title            = source.Title,
+            ConversationDate = ParseDate(source.ConversationDate) ?? DateTime.MinValue,
+            Platform         = source.Platform,
+            BlockCount       = source.Blocks.Count,
+            ArcSummary       = meta?.ArcSummary ?? string.Empty,
             SourceFilePrefix = sourceFilePrefix,
-            SourceUuid       = content.SourceUuid,
-            SourceUpdatedAt  = ParseDate(content.SourceUpdatedAt)
+            SourceUuid       = source.SourceUuid,
+            SourceUpdatedAt  = ParseDate(source.SourceUpdatedAt)
         };
 
         _context.Conversations.Add(conversation);
         await _context.SaveChangesAsync(); // flush to get conversation.Id
 
-        var metaBlockMap = meta.Blocks.ToDictionary(b => b.BlockNumber);
-        foreach (var cb in content.Blocks)
+        var metaBlockMap = BuildMetaBlockMap(meta);
+        foreach (var cb in source.Blocks)
         {
             metaBlockMap.TryGetValue(cb.BlockNumber, out var mb);
             _context.ConversationBlocks.Add(new ConversationBlock
@@ -141,46 +246,47 @@ public class ConversationImporter
                 RawContent     = cb.RawContent,
                 IsCompaction   = cb.IsCompaction,
                 Summary        = mb?.Summary ?? string.Empty,
-                HasDecisions   = mb?.HasDecisions ?? false,
                 BlockState     = BlockState.Unread
             });
         }
         await _context.SaveChangesAsync();
-
-        await ReplaceSubjectCoverageAsync(conversation, meta);
     }
 
     // ── Update (additive re-import of a reopened conversation) ──────────────────
 
-    private async Task UpdateAsync(Conversation conversation, ContentFile content, MetaFile meta)
+    private async Task UpdateAsync(Conversation conversation, ConversationImportSource source, ConversationMeta? meta)
     {
-        conversation.Title            = content.Title;
-        conversation.ConversationDate = ParseDate(content.ConversationDate) ?? conversation.ConversationDate;
-        conversation.Platform         = content.Platform;
-        conversation.BlockCount       = content.Blocks.Count;
-        conversation.ArcSummary       = meta.ArcSummary;
-        if (!string.IsNullOrEmpty(content.SourceUuid))
-            conversation.SourceUuid = content.SourceUuid;
-        conversation.SourceUpdatedAt = ParseDate(content.SourceUpdatedAt) ?? conversation.SourceUpdatedAt;
+        conversation.Title            = source.Title;
+        conversation.ConversationDate = ParseDate(source.ConversationDate) ?? conversation.ConversationDate;
+        conversation.Platform         = source.Platform;
+        conversation.BlockCount       = source.Blocks.Count;
 
-        var metaBlockMap = meta.Blocks.ToDictionary(b => b.BlockNumber);
+        // Only a meta pass may touch the arc summary — a content-only re-import of a conversation
+        // that was summarized earlier must not blank it.
+        if (meta is not null)
+            conversation.ArcSummary = meta.ArcSummary;
+
+        if (!string.IsNullOrEmpty(source.SourceUuid))
+            conversation.SourceUuid = source.SourceUuid;
+        conversation.SourceUpdatedAt = ParseDate(source.SourceUpdatedAt) ?? conversation.SourceUpdatedAt;
+
+        var metaBlockMap = BuildMetaBlockMap(meta);
         var existingBlocksByNumber = await _context.ConversationBlocks
             .Where(b => b.ConversationId == conversation.Id)
             .ToDictionaryAsync(b => b.BlockNumber);
 
-        foreach (var cb in content.Blocks)
+        foreach (var cb in source.Blocks)
         {
             metaBlockMap.TryGetValue(cb.BlockNumber, out var mb);
 
             if (existingBlocksByNumber.TryGetValue(cb.BlockNumber, out var block))
             {
                 // Refresh content/summary but deliberately leave BlockState untouched —
-                // the reader's read-state on already-reviewed blocks must survive re-analysis.
+                // the reader's read-state on already-reviewed blocks must survive re-import.
                 block.Speaker      = cb.Speaker;
                 block.RawContent   = cb.RawContent;
                 block.IsCompaction = cb.IsCompaction;
                 block.Summary      = mb?.Summary ?? block.Summary;
-                block.HasDecisions = mb?.HasDecisions ?? block.HasDecisions;
             }
             else
             {
@@ -193,85 +299,21 @@ public class ConversationImporter
                     RawContent     = cb.RawContent,
                     IsCompaction   = cb.IsCompaction,
                     Summary        = mb?.Summary ?? string.Empty,
-                    HasDecisions   = mb?.HasDecisions ?? false,
                     BlockState     = BlockState.Unread
                 });
             }
         }
         await _context.SaveChangesAsync();
-
-        await ReplaceSubjectCoverageAsync(conversation, meta);
-    }
-
-    // ── Subject coverage ──────────────────────────────────────────────────────
-
-    /// <summary>
-    /// Drops and re-adds this conversation's subject coverage + track rows from a fresh meta file.
-    /// Coverage carries no read-state of its own (unlike blocks), so a clean replace is safe and
-    /// keeps a re-analyzed conversation's routing fully in sync with the latest Cowork output.
-    /// </summary>
-    private async Task ReplaceSubjectCoverageAsync(Conversation conversation, MetaFile meta)
-    {
-        var oldCoverages = await _context.ConversationSubjectCoverages
-            .Where(c => c.ConversationId == conversation.Id)
-            .ToListAsync();
-
-        if (oldCoverages.Count > 0)
-        {
-            var oldCoverageIds = oldCoverages.Select(c => c.Id).ToList();
-            var oldTracks = await _context.ConversationSubjectCoverageTracks
-                .Where(t => oldCoverageIds.Contains(t.ConversationSubjectCoverageId))
-                .ToListAsync();
-
-            _context.ConversationSubjectCoverageTracks.RemoveRange(oldTracks);
-            _context.ConversationSubjectCoverages.RemoveRange(oldCoverages);
-            await _context.SaveChangesAsync();
-        }
-
-        foreach (var sc in meta.SubjectsCovered)
-        {
-            // Resolve SubjectId by the explicit ID from the meta file if present,
-            // otherwise fall back to name matching against the in-memory subjects collection.
-            int? resolvedId = ResolveSubjectId(sc);
-            if (resolvedId is null) continue; // skip unresolved subjects
-
-            var coverage = new ConversationSubjectCoverage
-            {
-                ConversationId = conversation.Id,
-                SubjectId      = resolvedId.Value
-            };
-
-            _context.ConversationSubjectCoverages.Add(coverage);
-            await _context.SaveChangesAsync(); // flush to get coverage.Id
-
-            foreach (var trackId in sc.NoteTrackDefinitionIds)
-            {
-                _context.ConversationSubjectCoverageTracks.Add(new ConversationSubjectCoverageTrack
-                {
-                    ConversationSubjectCoverageId = coverage.Id,
-                    NoteTrackDefinitionId         = trackId
-                });
-            }
-
-            await _context.SaveChangesAsync();
-        }
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────
 
-    private int? ResolveSubjectId(MetaSubjectCovered sc)
-    {
-        if (sc.SubjectId.HasValue && sc.SubjectId.Value > 0)
-        {
-            return _subjects.Any(s => s.Id == sc.SubjectId.Value)
-                ? sc.SubjectId.Value
-                : null;
-        }
-
-        var match = _subjects.FirstOrDefault(s =>
-            string.Equals(s.Name, sc.SubjectName, StringComparison.OrdinalIgnoreCase));
-        return match?.Id;
-    }
+    private static Dictionary<int, ConversationMetaBlock> BuildMetaBlockMap(ConversationMeta? meta) =>
+        meta is null
+            ? new Dictionary<int, ConversationMetaBlock>()
+            : meta.Blocks
+                .GroupBy(b => b.BlockNumber)
+                .ToDictionary(g => g.Key, g => g.First());
 
     private static string PrefixOf(string fileName, string suffix)
         => fileName.EndsWith(suffix, StringComparison.OrdinalIgnoreCase)
@@ -301,28 +343,5 @@ public class ConversationImporter
         public string Speaker      { get; set; } = string.Empty;
         public string RawContent   { get; set; } = string.Empty;
         public bool   IsCompaction { get; set; }
-    }
-
-    // ── JSON DTOs (meta file shape) ───────────────────────────────────────────
-
-    private class MetaFile
-    {
-        public string                ArcSummary      { get; set; } = string.Empty;
-        public List<MetaSubjectCovered> SubjectsCovered { get; set; } = new();
-        public List<MetaBlock>       Blocks          { get; set; } = new();
-    }
-
-    private class MetaSubjectCovered
-    {
-        public int?   SubjectId              { get; set; }
-        public string SubjectName            { get; set; } = string.Empty;
-        public List<int> NoteTrackDefinitionIds { get; set; } = new();
-    }
-
-    private class MetaBlock
-    {
-        public int    BlockNumber  { get; set; }
-        public string Summary      { get; set; } = string.Empty;
-        public bool   HasDecisions { get; set; }
     }
 }

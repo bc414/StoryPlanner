@@ -5,11 +5,13 @@
 > It is **not** an accurate description of what shipped. Known drift, per `FEATURE-AUDIT.md` §F:
 > - **`BlockSubjectMention` was never built** — only conversation-level `ConversationSubjectCoverage` exists, so the cross-conversation subject view (F2) that depends on it does not exist either.
 > - **`TrackTypesCsv` became a real junction table**, `ConversationSubjectCoverageTrack`, with an added `IsAdded` flag.
-> - **The subject/track coverage feature was abandoned in practice** — 4,062 coverage-track rows, `IsAdded = 0` on every one. Automated subject routing "turned out to not be helpful." Do not revive it.
+> - **The subject/track coverage feature was abandoned in practice** — 4,062 coverage-track rows, `IsAdded = 0` on every one. Automated subject routing "turned out to not be helpful." Do not revive it. *(Banner amendment 2026-07-31: it is now **cut**, not just unused — the import path, the reader's checklist column and the library's subject filter are gone; the tables are frozen. See `FEATURE-AUDIT.md` §F, item F0.)*
 > - **`IgnoredConversation` and the Conversation Picker** are post-spec additions not described here.
-> - Multi-select bulk state ops (F3) and the unresolved-material dashboard metric (F4) were not built. *(Banner amendment 2026-07-31: F3 has since shipped — see `FEATURE-AUDIT.md` §F. F4 was declined pending a conversation-pipeline redesign.)*
+> - Multi-select bulk state ops (F3) and the unresolved-material dashboard metric (F4) were not built. *(Banner amendment 2026-07-31: F3 has since shipped — see `FEATURE-AUDIT.md` §F. F4 stays declined; the redesign it waited on shipped as F0 and removed its data source.)*
+> - **The `HasDecisions` flag (§ "A visual marker for HasDecisions", § block detail) no longer exists** — column dropped 2026-07-31. The ★ markers it drove are gone from both block columns.
+> - **AI summaries are no longer a precondition for import** *(2026-07-31)*. This spec assumes every conversation arrives with an `arcSummary` and per-block summaries; since F0 a conversation can be imported straight from a raw Claude export with none, and the reader shows such blocks by number and speaker alone. Everything below about summaries now describes an *optional* enrichment pass.
 >
-> What *is* live and actively used: the three-column reader, block-level triage via the F1–F4 keys (`BlockState`), WebView2 markdown rendering, and folder-pair import.
+> What *is* live and actively used: the three-column reader, block-level triage via the F1–F4 keys (`BlockState`), WebView2 markdown rendering, direct import from a scanned export, and folder import with an optional meta file.
 > For current state, query the data (`storyplanner` MCP `list_conversations`) rather than trusting this document.
 
 ## Background

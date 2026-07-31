@@ -41,8 +41,18 @@ public interface IStoryService : IDisposable
     Task OpenProjectAsync(string filePath);
     Task SaveAsync();
     Task StoreGeminiEntriesAsync(string file);
-    Task ImportConversationsAsync(string contentPath, string metaPath);
-    Task ImportConversationsFolderAsync(string folderPath);
+    /// <summary>Imports one content file. <paramref name="metaPath"/> is optional — pass null to
+    /// import raw block text with no summaries.</summary>
+    Task<ConversationImportResult> ImportConversationsAsync(string contentPath, string? metaPath);
+
+    /// <summary>Imports every *_content.json in a folder, using each one's *_meta.json when
+    /// present. A content file with no meta partner imports without summaries.</summary>
+    Task<ConversationImportResult> ImportConversationsFolderAsync(string folderPath);
+
+    /// <summary>Imports scan rows straight from a parsed Claude export — no content files, no
+    /// summaries, no Cowork round trip.</summary>
+    Task<ConversationImportResult> ImportScannedConversationsAsync(IReadOnlyList<ConversationSyncItem> items);
+
     Task DeleteConversationAsync(Conversation conversation);
 
     // --- Conversation scan/export (Claude export vs. DB ground-truth) ---

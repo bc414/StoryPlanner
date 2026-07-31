@@ -122,7 +122,7 @@ public class ProjectLoader
 
         foreach (var conv in _storyService.Conversations)
         {
-            var convVm = new ConversationViewModel(conv, _windowManager, _factory, _registry, _storyService);
+            var convVm = new ConversationViewModel(conv, _storyService);
             if (blocksByConv.TryGetValue(conv.Id, out var blocks))
                 foreach (var block in blocks)
                 {
@@ -130,12 +130,6 @@ public class ProjectLoader
                     blockVm.Initialize();
                     convVm.Blocks.Add(blockVm);
                 }
-            convVm.BuildSubjectCoverages(
-                _storyService.ConversationSubjectCoverages,
-                _storyService.ConversationSubjectCoverageTracks,
-                _registry.AllSubjectViewModels,
-                _registry.AllNoteTrackDefinitionViewModels,
-                _storyService);
             convVm.OnStatsRefreshed = _conversationLibrary.RefreshDashboard;
             _registry.AllConversationViewModels.Add(convVm);
         }

@@ -33,9 +33,12 @@
 
         <!-- ── Bottom action bar ── -->
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Margin="0,8,0,0">
-            <Button Content="Export Checked for Cowork…" Padding="10,4"
+            <Button Content="Import Checked Directly" Padding="10,4"
+                    Command="{Binding ImportSelectedCommand}"
+                    ToolTip="Import the checked conversations straight into the reader, with no summaries. Export for Cowork instead if you want summaries."/>
+            <Button Content="Export Checked for Cowork…" Padding="10,4" Margin="8,0,0,0"
                     Command="{Binding ExportSelectedCommand}"
-                    ToolTip="Write NNN_*_content.json files for the checked rows to a folder you hand to Cowork"/>
+                    ToolTip="Write NNN_*_content.json files for the checked rows to a folder you hand to Cowork, which returns NNN_*_meta.json summaries to import"/>
             <Button Content="Ignore Checked (not story)" Padding="10,4" Margin="8,0,0,0"
                     Command="{Binding IgnoreSelectedCommand}"
                     ToolTip="Mark every checked New row as not story-related, so it stops surfacing on future scans"/>

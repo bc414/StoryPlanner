@@ -109,14 +109,17 @@
                             Click="SnapBottomHalf_Click"/>
                 </StackPanel>
 
+                <!-- Collapses for a conversation imported without summaries — an empty band
+                     would read as a missing summary rather than an absent one. -->
                 <TextBlock Text="{Binding ArcSummary}"
                            FontSize="13" Foreground="#333"
                            TextWrapping="Wrap"
-                           MaxHeight="80"/>
+                           MaxHeight="80"
+                           Visibility="{Binding HasArcSummary, Converter={StaticResource BoolToVisConverter}}"/>
             </DockPanel>
         </Border>
 
-        <!-- ══ Four-column layout ══ -->
+        <!-- ══ Three-column layout ══ -->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="80"  MinWidth="60"/>
@@ -124,8 +127,6 @@
                 <ColumnDefinition Width="320" MinWidth="180"/>
                 <ColumnDefinition Width="5"/>
                 <ColumnDefinition Width="*"   MinWidth="200"/>
-                <ColumnDefinition Width="5"/>
-                <ColumnDefinition Width="280" MinWidth="200"/>
             </Grid.ColumnDefinitions>
 
             <!-- ── Left: compact block index ── -->
@@ -143,8 +144,6 @@
                             <TextBlock FontSize="10" Foreground="#888"
                                        Text="{Binding Speaker}"
                                        TextTrimming="CharacterEllipsis"/>
-                            <TextBlock Text="★" FontSize="9" Foreground="#D08020"
-                                       Visibility="{Binding HasDecisions, Converter={StaticResource BoolToVisConverter}}"/>
                         </StackPanel>
                     </DataTemplate>
                 </ListBox.ItemTemplate>
@@ -163,16 +162,14 @@
                     <DataTemplate DataType="{x:Type local:ConversationBlockViewModel}">
                         <Border Padding="8,6" BorderBrush="#EBEBEB" BorderThickness="0,0,0,1">
                             <StackPanel>
-                                <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
-                                    <TextBlock FontSize="11" Foreground="#666">
-                                        <Run Text="{Binding BlockNumber, Mode=OneWay}" FontWeight="SemiBold"/>
-                                        <Run Text=" · "/>
-                                        <Run Text="{Binding Speaker, Mode=OneWay}"/>
-                                    </TextBlock>
-                                    <TextBlock Text=" ★" FontSize="10" Foreground="#D08020"
-                                               VerticalAlignment="Center"
-                                               Visibility="{Binding HasDecisions, Converter={StaticResource BoolToVisConverter}}"/>
-                                </StackPanel>
+                                <TextBlock FontSize="11" Foreground="#666" Margin="0,0,0,4">
+                                    <Run Text="{Binding BlockNumber, Mode=OneWay}" FontWeight="SemiBold"/>
+                                    <Run Text=" · "/>
+                                    <Run Text="{Binding Speaker, Mode=OneWay}"/>
+                                </TextBlock>
+                                <!-- Blank for a conversation imported without summaries. The card
+                                     stays as a number/speaker navigation target; nothing is
+                                     substituted in, because any substitute would be invented. -->
                                 <TextBlock Text="{Binding Summary}"
                                            FontSize="12" Foreground="#333"
                                            TextWrapping="Wrap"/>
@@ -185,84 +182,10 @@
             <GridSplitter Grid.Column="3" Width="5" HorizontalAlignment="Stretch" Background="#DDDDDD"/>
 
             <!-- ── Right: rendered content ── -->
+            <!-- A fourth column used to sit here: the AI-suggested subject×track coverage
+                 checklist, whose ticks created notes. Cut 2026-07-31 — the tool retrieves, it
+                 does not propose structure. The tables and their rows survive, dormant. -->
             <wv2:WebView2 Grid.Column="4" Name="ContentWebView"/>
-
-            <GridSplitter Grid.Column="5" Width="5" HorizontalAlignment="Stretch" Background="#DDDDDD"/>
-
-            <!-- ── Far right: subject coverage checklist ── -->
-            <DockPanel Grid.Column="6" Background="#F8F9FA">
-                <TextBlock DockPanel.Dock="Top" Text="Subject Coverage"
-                           FontSize="12" FontWeight="SemiBold" Foreground="#444"
-                           Margin="8,8,8,4"/>
-                <ScrollViewer VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
-                    <ItemsControl ItemsSource="{Binding SubjectCoverages}" Margin="8,0,8,8">
-                        <ItemsControl.ItemsPanel>
-                            <ItemsPanelTemplate><StackPanel/></ItemsPanelTemplate>
-                        </ItemsControl.ItemsPanel>
-                        <ItemsControl.ItemTemplate>
-                            <DataTemplate DataType="{x:Type local:SubjectCoverageViewModel}">
-                                <Border CornerRadius="4" Padding="8,6" Margin="0,0,0,6"
-                                        Background="#F0F4FF" BorderBrush="#C6D9FF" BorderThickness="1">
-                                    <StackPanel>
-                                        <!-- Subject header — pure navigation, no note creation -->
-                                        <TextBlock Text="{Binding SubjectName, Mode=OneWay}"
-                                                   FontSize="12" Foreground="#1A73E8" FontWeight="SemiBold"
-                                                   Cursor="Hand" Margin="0,0,0,4"
-                                                   ToolTip="Open subject">
-                                            <TextBlock.InputBindings>
-                                                <MouseBinding MouseAction="LeftClick"
-                                                              Command="{Binding DataContext.OpenSubjectCommand,
-                                                                        RelativeSource={RelativeSource AncestorType=Window}}"
-                                                              CommandParameter="{Binding}"/>
-                                            </TextBlock.InputBindings>
-                                        </TextBlock>
-
-                                        <!-- Tracks — stacked vertically underneath the subject -->
-                                        <ItemsControl ItemsSource="{Binding Tracks}">
-                                            <ItemsControl.ItemsPanel>
-                                                <ItemsPanelTemplate><StackPanel/></ItemsPanelTemplate>
-                                            </ItemsControl.ItemsPanel>
-                                            <ItemsControl.ItemTemplate>
-                                                <DataTemplate DataType="{x:Type local:CoverageTrackViewModel}">
-                                                    <Border CornerRadius="3" Padding="4,2" Margin="0,0,0,2"
-                                                            Cursor="Hand">
-                                                        <Border.Style>
-                                                            <Style TargetType="Border">
-                                                                <Setter Property="Background" Value="#FFFFFF"/>
-                                                                <Setter Property="ToolTip" Value="Click to create a note in this track"/>
-                                                                <Style.Triggers>
-                                                                    <DataTrigger Binding="{Binding IsAdded}" Value="True">
-                                                                        <Setter Property="Background" Value="#DFF3E3"/>
-                                                                        <Setter Property="ToolTip" Value="Note already added — click to open"/>
-                                                                    </DataTrigger>
-                                                                </Style.Triggers>
-                                                            </Style>
-                                                        </Border.Style>
-                                                        <Border.InputBindings>
-                                                            <MouseBinding MouseAction="LeftClick"
-                                                                          Command="{Binding DataContext.AddCoverageTrackCommand,
-                                                                                    RelativeSource={RelativeSource AncestorType=Window}}"
-                                                                          CommandParameter="{Binding}"/>
-                                                        </Border.InputBindings>
-                                                        <StackPanel Orientation="Horizontal">
-                                                            <TextBlock Text="&#x2610;" FontSize="11" Margin="0,0,4,0"
-                                                                       Visibility="{Binding IsAdded, Converter={StaticResource BoolToVisConverter}, ConverterParameter=Invert}"/>
-                                                            <TextBlock Text="&#x2611;" FontSize="11" Margin="0,0,4,0" Foreground="#2AA050"
-                                                                       Visibility="{Binding IsAdded, Converter={StaticResource BoolToVisConverter}}"/>
-                                                            <TextBlock Text="{Binding TrackName, Mode=OneWay}"
-                                                                       FontSize="11" Foreground="#333" TextWrapping="Wrap"/>
-                                                        </StackPanel>
-                                                    </Border>
-                                                </DataTemplate>
-                                            </ItemsControl.ItemTemplate>
-                                        </ItemsControl>
-                                    </StackPanel>
-                                </Border>
-                            </DataTemplate>
-                        </ItemsControl.ItemTemplate>
-                    </ItemsControl>
-                </ScrollViewer>
-            </DockPanel>
 
         </Grid>
     </Grid>

@@ -10,37 +10,23 @@ namespace WindowedStoryPlanner;
 /// <summary>
 /// Wraps one Conversation entity. Serves double duty:
 ///   - Library card: stats, derived state, progress bar.
-///   - Reader window DataContext: selected block, routing header subjects.
+///   - Reader window DataContext: block list and selection.
 /// The window manager enforces at most one open reader window per conversation,
 /// so merging these concerns into one class is safe.
 /// </summary>
 public partial class ConversationViewModel : ObservableObject
 {
-    private readonly IWindowManager     _windowManager;
-    private readonly IContentFactory    _contentFactory;
-    private readonly IViewModelRegistry _registry;
-    private readonly IStoryService      _storyService;
+    private readonly IStoryService _storyService;
 
     public Conversation Model { get; }
 
     // Ordered block VMs populated by ProjectLoader
     public ObservableCollection<ConversationBlockViewModel> Blocks { get; } = new();
 
-    // Subject coverage for the routing header — populated by BuildSubjectCoverages()
-    public ObservableCollection<SubjectCoverageViewModel> SubjectCoverages { get; } = new();
-
-    public ConversationViewModel(
-        Conversation model,
-        IWindowManager windowManager,
-        IContentFactory contentFactory,
-        IViewModelRegistry registry,
-        IStoryService storyService)
+    public ConversationViewModel(Conversation model, IStoryService storyService)
     {
-        Model           = model;
-        _windowManager  = windowManager;
-        _contentFactory = contentFactory;
-        _registry       = registry;
-        _storyService   = storyService;
+        Model         = model;
+        _storyService = storyService;
     }
 
     // ── Passthrough display properties ─────────────────────────────────────────
@@ -57,6 +43,11 @@ public partial class ConversationViewModel : ObservableObject
     public DateTime ConversationDate => Model.ConversationDate;
     public string   ArcSummary       => Model.ArcSummary;
     public int      BlockCount       => Model.BlockCount;
+
+    // A conversation imported straight from a raw export has no arc summary. Rather than showing
+    // an empty header band / an expander that opens onto nothing, the surfaces that display it
+    // collapse. Empty is ordinary here, not a defect.
+    public bool HasArcSummary => !string.IsNullOrWhiteSpace(Model.ArcSummary);
 
     // ── Library stats (computed from block VMs) ────────────────────────────────
 
@@ -126,69 +117,6 @@ public partial class ConversationViewModel : ObservableObject
     [RelayCommand] private void SetSelectedSkipped() => SelectedBlock?.MarkSkipped();
     [RelayCommand] private void SetSelectedFlagged() => SelectedBlock?.MarkFlagged();
     [RelayCommand] private void SetSelectedDone()    => SelectedBlock?.MarkDone();
-
-    // ── Routing header subject coverages ──────────────────────────────────────
-
-    [RelayCommand]
-    private void OpenSubject(SubjectCoverageViewModel coverage)
-    {
-        _windowManager.OpenCommonWindow(EditorMode.Expansion, coverage.Subject);
-    }
-
-    [RelayCommand]
-    private async Task AddCoverageTrack(CoverageTrackViewModel track)
-    {
-        if (track.IsAdded)
-        {
-            // Misclick recovery: unmark only. No note deletion, no window pop-up —
-            // toggling off should be a free, side-effect-free correction.
-            track.IsAdded = false;
-            return;
-        }
-
-        // Guard note creation by whether a note already exists for this (subject, track)
-        // pairing — not by the checkbox history — so re-checking after an unmark never
-        // creates a duplicate note.
-        bool noteExists = _registry.AllNoteViewModels.Any(n =>
-            n.OwnerId == track.Subject.Id
-            && n.OwnerType == OwnerType.Subject
-            && n.NoteTrackDefinitionId == track.Track.Id);
-
-        if (!noteExists)
-            await _contentFactory.CreateNoteAsync(track.Subject.Id, OwnerType.Subject, track.Track.Id, 1);
-
-        track.IsAdded = true; // triggers its own SaveAsync via OnIsAddedChanged
-        _windowManager.OpenCommonWindow(EditorMode.Expansion, track.Subject);
-    }
-
-    // Called by ProjectLoader (Phase 5) once coverage data is available
-    public void BuildSubjectCoverages(
-        IEnumerable<ConversationSubjectCoverage> coverages,
-        IEnumerable<ConversationSubjectCoverageTrack> tracks,
-        IEnumerable<SubjectViewModel> allSubjects,
-        IEnumerable<NoteTrackDefinitionViewModel> allTracks,
-        IStoryService storyService)
-    {
-        SubjectCoverages.Clear();
-        foreach (var c in coverages.Where(c => c.ConversationId == Model.Id))
-        {
-            var subject = allSubjects.FirstOrDefault(s => s.Id == c.SubjectId);
-            if (subject is null) continue;
-
-            var trackVms = tracks
-                .Where(t => t.ConversationSubjectCoverageId == c.Id)
-                .Select(t =>
-                {
-                    var trackDef = allTracks.FirstOrDefault(td => td.Id == t.NoteTrackDefinitionId);
-                    return trackDef is null ? null : new CoverageTrackViewModel(t, trackDef, subject, storyService);
-                })
-                .Where(t => t is not null)
-                .Cast<CoverageTrackViewModel>()
-                .ToList();
-
-            SubjectCoverages.Add(new SubjectCoverageViewModel(subject, trackVms, c));
-        }
-    }
 }
 
 public enum ConversationDerivedState

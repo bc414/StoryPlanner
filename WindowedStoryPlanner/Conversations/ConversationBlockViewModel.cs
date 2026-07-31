@@ -26,7 +26,6 @@ public partial class ConversationBlockViewModel : ObservableObject
     public string Speaker      => Model.Speaker;
     public string RawContent   => Model.RawContent;
     public string Summary      => Model.Summary;
-    public bool   HasDecisions => Model.HasDecisions;
     public bool   IsCompaction => Model.IsCompaction;
 
     // ── Mutable state ──────────────────────────────────────────────────────────

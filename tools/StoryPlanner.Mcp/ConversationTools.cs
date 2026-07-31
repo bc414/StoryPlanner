@@ -119,8 +119,7 @@ public sealed class ConversationTools(StoryPlanSources sources)
                 ? $"conv:{b.ConversationId}?"
                 : $"conv:{conv.Id} \"{conv.Title}\" [{conv.Platform} {conv.ConversationDate:yyyy-MM-dd}]";
             body.AppendLine($"## block:{b.Id} — {convLabel} #{b.BlockNumber} — {b.Speaker} — {BlockStateLabel(b.BlockState)}" +
-                            (b.IsCompaction ? " — COMPACTION BLOCK" : "") +
-                            (b.HasDecisions ? " — has-decisions" : ""));
+                            (b.IsCompaction ? " — COMPACTION BLOCK" : ""));
             if (b.Summary.Length > 0) body.AppendLine($"summary: {Query.OneLine(b.Summary)}");
             var content = b.RawContent;
             if (content.Length > BlockContentCap)

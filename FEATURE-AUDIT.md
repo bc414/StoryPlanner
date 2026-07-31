@@ -53,6 +53,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | C3 | `ValidationTier` opt-in enforcement system | 🔴 | 038/039 | Model |
 | C4 | `LastRevisedDate` / revision tracking on notes | 🔴 | 038/039 | Model |
 | B4 | Cross-thread "synchronized ratchet" chapter view | 🔴 | 015 | View |
+| F0 | Conversation pipeline: cut suggested tracks, summaries optional | 🟢 | (Brian) | Model + UX |
 | F1 | Conversation Reader: per-block subject mentions | 🔴 | (spec) | Model |
 | F2 | Conversation Reader: cross-conversation subject view | 🔴 | (spec) | View |
 | F3 | Conversation Reader: bulk multi-select state ops | 🟢 | (spec) | UX |
@@ -185,20 +186,36 @@ the per-mode order fields).
 
 ## F. Conversation Reader — spec vs. build
 
-The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-SPEC.md)) is **substantially implemented**: three-column reader window, routing header with clickable subject+track chips, `BlockState` context menu **and** U/S/F/D keyboard shortcuts ([ConversationReaderWindow.xaml.cs:57-71](WindowedStoryPlanner/Views/ConversationReaderWindow.xaml.cs#L57-L71)), WebView2 markdown rendering, folder-pair import, derived conversation states, and dashboard stats (`ConversationLibraryViewModel`). Outstanding spec items:
+The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-SPEC.md)) is **substantially implemented**: three-column reader window, `BlockState` context menu **and** U/S/F/D keyboard shortcuts ([ConversationReaderWindow.xaml.cs:57-71](WindowedStoryPlanner/Conversations/ConversationReaderWindow.xaml.cs#L57-L71)), WebView2 markdown rendering, folder import, derived conversation states, and dashboard stats (`ConversationLibraryViewModel`). Outstanding spec items:
 
-- **F1 — 🔴 Per-block subject mentions.** The spec's `BlockSubjectMention` entity (per-block subject tagging, for filtering blocks by subject within a conversation) was never built — only conversation-level `ConversationSubjectCoverage` exists. `grep BlockSubjectMention` → spec only.
-- **F2 — 🔴 Cross-conversation subject view.** "What did every conversation say about Applejack's Characterization?" — spec §Cross-Conversation Subject View + `SubjectCoverageView.xaml`. Not present (no such view/VM; depends on F1).
+- **F0 — 🟢 Pipeline redesign: AI-suggested tracks cut, summaries made optional.** *(Shipped 2026-07-31.)*
+  The redesign F4 was blocked on. Two changes, both irreversible in intent:
+  - **Suggested subject×track coverage is cut.** `ReplaceSubjectCoverageAsync` is gone, the reader's
+    fourth column (the checklist whose ticks created notes) is gone, the library's subject filter is
+    gone with it, and a `_meta.json`'s `subjectsCovered` array is now inert on import —
+    `ConversationImporterTests` asserts it writes zero rows, so reconnecting the path fails a test.
+    The two tables and their 1,472 / 4,062 rows survive **dormant** (deletion cascade still needs
+    them). `ConversationBlock.HasDecisions` went too — same judgment call one layer down, column
+    dropped by migration `DropBlockHasDecisions`.
+  - **Summaries are optional.** A `_content.json` with no meta partner imports instead of being
+    skipped, and *Import Checked Directly* on the Scan Preview loads conversations straight from
+    the raw Claude export — no Cowork round trip, no summaries. The Cowork path survives as pure
+    enrichment: `ArcSummary` + per-block `Summary`, navigation only. Meta never destroys — a
+    content-only re-import preserves earlier summaries and all block triage state.
+- **F1 — 🔴 Per-block subject mentions.** The spec's `BlockSubjectMention` entity (per-block subject tagging, for filtering blocks by subject within a conversation) was never built. **Re-read F0 before reviving this:** it is per-block *coverage*, one level finer than the thing that was just cut, and the spec's motivation for it was routing. If it ever returns it must be authored, never proposed.
+- **F2 — 🔴 Cross-conversation subject view.** "What did every conversation say about Applejack's Characterization?" — spec §Cross-Conversation Subject View + `SubjectCoverageView.xaml`. Not present (no such view/VM; depended on F1 and on the now-cut conversation-level coverage).
 - **F3 — 🟢 Bulk multi-select state ops.** *(Shipped 2026-07-31.)* Both block columns are
   `SelectionMode="Extended"` (Shift/Ctrl-click, per the spec's ask); the context menu, U/S/F/D
   keys, and F1–F4 all apply to the whole selection when the target block is part of one, via a
   single bulk path (`ConversationViewModel.ApplyStateToSelectionAsync`) that refreshes stats
   and saves exactly once. A block outside the selection stays single-target.
-- **F4 — ⚪ Dashboard "subjects with unresolved material" metric — declined 2026-07-30.**
-  Brian, when offered it for an overnight build: "I need to redesign that conversation
-  pipeline and cut out the AI suggested tracks anyway." The metric would sit on
-  `ConversationSubjectCoverage`, which is in that redesign's blast radius — build nothing new
-  on it until the redesign lands.
+- **F4 — ⚪ Dashboard "subjects with unresolved material" metric — declined 2026-07-30, and the
+  ground it stood on is now gone.** Brian, when offered it for an overnight build: "I need to
+  redesign that conversation pipeline and cut out the AI suggested tracks anyway." That redesign
+  shipped as F0 on 2026-07-31, which resolves the blocker by **deleting the data source** — the
+  metric would have been computed from `ConversationSubjectCoverage`, now frozen and never
+  written. This stays ⚪. It was a ranking/attention metric ("what needs work"), which is the
+  suggestion pattern CLAUDE.md forbids regardless of what table it reads.
 
 ---
 

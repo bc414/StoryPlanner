@@ -24,7 +24,7 @@
             <Button Content="Import from Folder…"
                     Padding="10,4" Margin="8,0,0,0"
                     Command="{Binding ImportFromFolderCommand}"
-                    ToolTip="Select a folder containing NNN_*_content.json + NNN_*_meta.json pairs"/>
+                    ToolTip="Select a folder of NNN_*_content.json files. A matching NNN_*_meta.json adds summaries and is optional — a content file without one imports with no summaries."/>
             <CheckBox Content="Expand cards"
                       VerticalAlignment="Center" Margin="16,0,0,0"
                       IsChecked="{Binding ShowExpandedCards, Mode=TwoWay}"
@@ -40,19 +40,8 @@
             </ComboBox>
         </StackPanel>
 
-        <!-- ── Subject filter ── -->
-        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,8">
-            <TextBlock Text="Filter by subject:" VerticalAlignment="Center" Margin="0,0,6,0" FontSize="12"/>
-            <ComboBox ItemsSource="{Binding AllSubjects}"
-                      SelectedItem="{Binding SubjectFilter, Mode=TwoWay}"
-                      DisplayMemberPath="Name"
-                      MinWidth="200" VerticalAlignment="Center"
-                      ToolTip="Show only conversations covering this subject"/>
-            <Button Content="✕" Padding="8,3" Margin="4,0,0,0"
-                    Command="{Binding ClearSubjectFilterCommand}"
-                    ToolTip="Clear subject filter"
-                    Visibility="{Binding SubjectFilter, Converter={StaticResource NullToVisibilityConverter}}"/>
-        </StackPanel>
+        <!-- A "Filter by subject" row sat here. It filtered on the AI-suggested subject coverage,
+             which was cut 2026-07-31; with nothing writing coverage the filter had no basis. -->
 
         <!-- ── Dashboard ── -->
         <Border DockPanel.Dock="Top"

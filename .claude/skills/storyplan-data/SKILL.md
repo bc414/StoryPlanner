@@ -281,11 +281,27 @@ the definition chain).
 
 **`Conversations` / `ConversationBlocks` / `ConversationSubjectCoverages` / `ConversationSubjectCoverageTracks` / `IgnoredConversations`**
 (`Models/Conversation*.cs`, `IgnoredConversation.cs`) — the Conversation Reader feature (imported
-Claude/Gemini chat transcripts, block-by-block, with subject-coverage suggestions). v2-only —
-0 rows in the v1 archive, which predates this feature.
-- `ConversationBlocks.BlockState`: `0=Unread, 1=Skipped, 2=Flagged, 3=Done`
+Claude/Gemini chat transcripts, block-by-block). v2-only — 0 rows in the v1 archive, which
+predates this feature.
+- `ConversationBlocks.BlockState`: `0=Unread, 1=Skipped, 2=Flagged, 3=Done` — the only authored
+  state in this corpus, and the only one worth analyzing
 - `ConversationBlocks.Speaker`: `"user"` or `"assistant"` (text, not enum)
-- `ConversationSubjectCoverageTracks.IsAdded` (bool) tracks whether a suggested note was actually created
+- `Conversations.ArcSummary` and `ConversationBlocks.Summary` are **optional navigation aids**,
+  not content: authored outside the app and imported from a `*_meta.json`. Since 2026-07-31 a
+  conversation can be imported straight from a raw Claude export with no meta pass at all, so
+  **empty is an ordinary state, not missing data** — do not report a blank summary as a gap, and
+  never count summaries as a coverage/progress metric. Import never destroys one: a content-only
+  re-import leaves existing summaries and `BlockState` untouched.
+- `ConversationBlocks.HasDecisions` **no longer exists** — dropped 2026-07-31 (migration
+  `DropBlockHasDecisions`). It was an AI judgment about which turns mattered. Any older note or
+  query referencing it is stale.
+- **`ConversationSubjectCoverages` / `ConversationSubjectCoverageTracks` are FROZEN.** They hold
+  the abandoned AI-suggested subject×track routing. Nothing writes them any more: the import path
+  and the reader's checklist column were cut 2026-07-31, and a meta file's `subjectsCovered` array
+  is now inert. The rows remain only so conversation deletion keeps cascading. Point-in-time
+  counts at the cut: 1,472 coverages / 4,062 tracks / **0** with `IsAdded=1`. Treat them as an
+  archaeological record of a rejected feature — never as a signal about a subject, and never as
+  the basis of a new query or metric.
 
 **`GeminiEntries`** (`OtherModels/GeminiEntry.cs`) — legacy Gemini prompt/response log, predates
 the Conversation Reader. `IsAnalyzed` (bool). Empty (0 rows) in current v2; this is where v1-era
@@ -382,12 +398,15 @@ WHERE p.ReviewState = 0
 ORDER BY sm.OrderIndex, p.OrderIndex;
 ```
 
-**Conversation Reader progress (block review state, subject coverage acted-on rate):**
+**Conversation Reader progress (block review state — the only live progress signal here):**
 ```sql
 SELECT BlockState, COUNT(*) FROM ConversationBlocks GROUP BY BlockState;
-
-SELECT IsAdded, COUNT(*) FROM ConversationSubjectCoverageTracks GROUP BY IsAdded;
 ```
+
+Do **not** pair this with a `ConversationSubjectCoverageTracks` / `IsAdded` breakdown. That query
+is historical: the feature was cut on 2026-07-31 and its rows are frozen, so the tally answers
+"what did an abandoned experiment propose in 2026", not anything about the current file. Summary
+population (`ArcSummary <> ''`) is likewise not a progress metric — summaries are optional.
 
 **Flagged notes needing research (read `FlagReason` for actual content):**
 ```sql

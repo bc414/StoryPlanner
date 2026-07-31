@@ -11,6 +11,7 @@
         <local:ConversationDerivedStateToColorConverter  x:Key="StateToColor"/>
         <local:ConversationDerivedStateToLabelConverter  x:Key="StateToLabel"/>
         <local:PlatformToVisibilityConverter             x:Key="PlatformToVis"/>
+        <local:BoolToVisibilityConverter                 x:Key="BoolToVisConverter"/>
     </UserControl.Resources>
 
     <Border BorderBrush="#DDDDDD" BorderThickness="1" CornerRadius="4"
@@ -117,9 +118,12 @@
                 Row 4: summary expander. IsExpanded follows the library's "Expand cards"
                 setting OneWay, so flipping that setting opens/closes every card, while a
                 user can still toggle an individual card without disturbing the others.
+                Hidden entirely on a conversation imported without summaries — an expander
+                that opens onto nothing reads as a bug.
             -->
             <Expander Grid.Row="4" Margin="0,6,0,0" Header="Summary"
                       FontSize="11" Foreground="#666"
+                      Visibility="{Binding HasArcSummary, Converter={StaticResource BoolToVisConverter}}"
                       IsExpanded="{Binding DataContext.ShowExpandedCards,
                                    RelativeSource={RelativeSource AncestorType=ItemsControl},
                                    Mode=OneWay}">

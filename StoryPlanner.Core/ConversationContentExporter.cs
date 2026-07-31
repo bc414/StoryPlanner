@@ -1,7 +1,6 @@
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using System.Text.RegularExpressions;
 using StoryPlanner.Core;
 
 namespace StoryPlanner.Core;
@@ -43,17 +42,14 @@ public static class ConversationContentExporter
     {
         Directory.CreateDirectory(outputFolder);
 
-        int nextIndex = allDbConversations
-            .Select(c => LeadingIndex(c.SourceFilePrefix))
-            .DefaultIfEmpty(0)
-            .Max() + 1;
+        int nextIndex = ConversationPrefix.NextIndex(allDbConversations);
 
         var written = new List<ExportedFile>();
 
         foreach (var item in selectedItems)
         {
             string prefix = string.IsNullOrEmpty(item.ExistingSourceFilePrefix)
-                ? $"{nextIndex++:D3}_{Slugify(item.Export.Title)}"
+                ? ConversationPrefix.Build(nextIndex++, item.Export.Title)
                 : item.ExistingSourceFilePrefix;
 
             string fileName = $"{prefix}_content.json";
@@ -98,13 +94,6 @@ public static class ConversationContentExporter
         return written;
     }
 
-    private static int LeadingIndex(string prefix)
-    {
-        if (string.IsNullOrEmpty(prefix)) return 0;
-        var digits = new string(prefix.TakeWhile(char.IsDigit).ToArray());
-        return int.TryParse(digits, out var n) ? n : 0;
-    }
-
     private static void WriteIndex(List<ExportedFile> files, string outputFolder)
     {
         var sb = new StringBuilder();
@@ -139,13 +128,4 @@ public static class ConversationContentExporter
 
     private static string FormatDate(string iso) =>
         DateTime.TryParse(iso, out var dt) ? dt.ToString("yyyy-MM-dd") : iso;
-
-    private static string Slugify(string title)
-    {
-        string lower   = title.ToLowerInvariant();
-        string ascii   = Regex.Replace(lower, @"[^a-z0-9\s-]", " ");
-        string hyphens = Regex.Replace(ascii.Trim(), @"\s+", "-");
-        string clean   = Regex.Replace(hyphens, @"-+", "-").Trim('-');
-        return clean.Length > 60 ? clean[..60].TrimEnd('-') : clean;
-    }
 }

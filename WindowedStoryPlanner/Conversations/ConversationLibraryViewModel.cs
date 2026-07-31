@@ -17,17 +17,12 @@ public partial class ConversationLibraryViewModel : ObservableObject
     private readonly IStoryService      _storyService;
     private readonly IViewModelRegistry _registry;
     private readonly IWindowManager     _windowManager;
-    private readonly IContentFactory    _contentFactory;
 
     public ObservableCollection<ConversationViewModel> Conversations => _registry.AllConversationViewModels;
-
-    // Exposed so the library toolbar can offer a subject filter
-    public ObservableCollection<SubjectViewModel> AllSubjects => _registry.AllSubjectViewModels;
 
     public ICollectionView FilteredConversations { get; }
 
     [ObservableProperty] private string _searchText = string.Empty;
-    [ObservableProperty] private SubjectViewModel? _subjectFilter;
 
     // When on, cards start with their summary expander open. Cards bind this OneWay,
     // so individual expanders can still be toggled without fighting the shared setting.
@@ -37,23 +32,22 @@ public partial class ConversationLibraryViewModel : ObservableObject
     // with the most blocks still to read first.
     [ObservableProperty] private ConversationSortMode _sortMode = ConversationSortMode.Date;
 
+    // IContentFactory used to be injected here so the reader's coverage checklist could create
+    // notes. That path is gone (2026-07-31); the library never creates content of its own.
     public ConversationLibraryViewModel(
         IStoryService storyService,
         IViewModelRegistry registry,
-        IWindowManager windowManager,
-        IContentFactory contentFactory)
+        IWindowManager windowManager)
     {
         _storyService   = storyService;
         _registry       = registry;
         _windowManager  = windowManager;
-        _contentFactory = contentFactory;
 
         FilteredConversations = new ListCollectionView(Conversations) { Filter = FilterConversation };
         ApplySort();
     }
 
     partial void OnSearchTextChanged(string value)    => FilteredConversations.Refresh();
-    partial void OnSubjectFilterChanged(SubjectViewModel? value) => FilteredConversations.Refresh();
     partial void OnSortModeChanged(ConversationSortMode value) => ApplySort();
 
     // Rebuild the view's sort. UnreadCount is a computed property, so this re-sorts on
@@ -79,9 +73,6 @@ public partial class ConversationLibraryViewModel : ObservableObject
         if (obj is not ConversationViewModel vm) return false;
         if (!string.IsNullOrWhiteSpace(SearchText) &&
             !vm.Title.Contains(SearchText, System.StringComparison.OrdinalIgnoreCase))
-            return false;
-        if (SubjectFilter is not null &&
-            !vm.SubjectCoverages.Any(sc => sc.Subject.Id == SubjectFilter.Id))
             return false;
         return true;
     }
@@ -126,8 +117,9 @@ public partial class ConversationLibraryViewModel : ObservableObject
     // ── Commands ───────────────────────────────────────────────────────────────
 
     /// <summary>
-    /// Bulk import: point at a folder containing NNN_{slug}_content.json + NNN_{slug}_meta.json pairs.
-    /// Files are paired by the NNN_ index prefix; unmatched files are logged and skipped.
+    /// Bulk import: point at a folder of NNN_{slug}_content.json files. A NNN_{slug}_meta.json with
+    /// the same prefix supplies summaries when present; a content file without one imports anyway,
+    /// with no summaries. Summaries are a navigation aid, not a precondition for reading.
     /// </summary>
     [RelayCommand]
     private async Task ImportFromFolder()
@@ -136,13 +128,28 @@ public partial class ConversationLibraryViewModel : ObservableObject
 
         var dlg = new OpenFolderDialog
         {
-            Title = "Select folder containing NNN_*_content.json + NNN_*_meta.json pairs"
+            Title = "Select folder containing NNN_*_content.json files (NNN_*_meta.json optional)"
         };
         if (dlg.ShowDialog() != true) return;
 
-        await _storyService.ImportConversationsFolderAsync(dlg.FolderName);
+        var result = await _storyService.ImportConversationsFolderAsync(dlg.FolderName);
         RebuildConversationVMs();
         RefreshDashboard();
+
+        MessageBox.Show(DescribeImport(result), "Import Complete",
+            MessageBoxButton.OK, MessageBoxImage.Information);
+    }
+
+    /// <summary>Plain tally of what an import did — including how many landed without summaries,
+    /// which is otherwise invisible until the conversation is opened.</summary>
+    private static string DescribeImport(ConversationImportResult result)
+    {
+        if (result.Total == 0) return "Nothing to import.";
+
+        var text = $"{result.Created} new, {result.Updated} updated.";
+        if (result.WithoutSummaries > 0)
+            text += $"\n{result.WithoutSummaries} imported without summaries (no meta file).";
+        return text;
     }
 
     /// <summary>
@@ -175,7 +182,14 @@ public partial class ConversationLibraryViewModel : ObservableObject
             return;
         }
 
-        var previewVm = new ScanPreviewViewModel(_storyService, items);
+        // The preview can import directly (no Cowork round trip), which adds rows the library's
+        // VMs know nothing about — so it gets a callback to rebuild them, the same refresh the
+        // folder import does for itself.
+        var previewVm = new ScanPreviewViewModel(_storyService, items, onImported: () =>
+        {
+            RebuildConversationVMs();
+            RefreshDashboard();
+        });
         var window = new ScanPreviewWindow
         {
             DataContext = previewVm,
@@ -189,9 +203,6 @@ public partial class ConversationLibraryViewModel : ObservableObject
     {
         _windowManager.OpenConversationReaderWindow(vm);
     }
-
-    [RelayCommand]
-    private void ClearSubjectFilter() => SubjectFilter = null;
 
     [RelayCommand]
     private async Task DeleteConversation(ConversationViewModel vm)
@@ -221,7 +232,7 @@ public partial class ConversationLibraryViewModel : ObservableObject
 
         foreach (var conv in _storyService.Conversations)
         {
-            var convVm = new ConversationViewModel(conv, _windowManager, _contentFactory, _registry, _storyService);
+            var convVm = new ConversationViewModel(conv, _storyService);
             if (blocksByConv.TryGetValue(conv.Id, out var blocks))
                 foreach (var block in blocks)
                 {
@@ -229,12 +240,6 @@ public partial class ConversationLibraryViewModel : ObservableObject
                     bVm.Initialize();
                     convVm.Blocks.Add(bVm);
                 }
-            convVm.BuildSubjectCoverages(
-                _storyService.ConversationSubjectCoverages,
-                _storyService.ConversationSubjectCoverageTracks,
-                _registry.AllSubjectViewModels,
-                _registry.AllNoteTrackDefinitionViewModels,
-                _storyService);
             convVm.OnStatsRefreshed = RefreshDashboard;
             _registry.AllConversationViewModels.Add(convVm);
         }

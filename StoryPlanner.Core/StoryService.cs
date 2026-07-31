@@ -342,27 +342,42 @@ public class StoryService : IStoryService
         TODO: rework using new NoteState
     }
     */
-    public async Task ImportConversationsAsync(string contentPath, string metaPath)
+    public async Task<ConversationImportResult> ImportConversationsAsync(string contentPath, string? metaPath)
     {
-        if (_context == null) return;
-        var importer = new ConversationImporter(_context, Subjects);
-        await importer.ImportAsync(contentPath, metaPath);
+        if (_context == null) return ConversationImportResult.Empty;
+        var importer = new ConversationImporter(_context);
+        var result = await importer.ImportFileAsync(contentPath, metaPath);
         await SaveAsync();
-
-        // Reload conversation collections so in-memory state reflects new rows
-        await _context.Conversations.LoadAsync();
-        await _context.ConversationBlocks.LoadAsync();
-        await _context.ConversationSubjectCoverages.LoadAsync();
-        await _context.ConversationSubjectCoverageTracks.LoadAsync();
+        await ReloadConversationsAsync();
+        return result;
     }
 
-    public async Task ImportConversationsFolderAsync(string folderPath)
+    public async Task<ConversationImportResult> ImportConversationsFolderAsync(string folderPath)
+    {
+        if (_context == null) return ConversationImportResult.Empty;
+        var importer = new ConversationImporter(_context);
+        var result = await importer.ImportFolderAsync(folderPath);
+        await SaveAsync();
+        await ReloadConversationsAsync();
+        return result;
+    }
+
+    public async Task<ConversationImportResult> ImportScannedConversationsAsync(IReadOnlyList<ConversationSyncItem> items)
+    {
+        if (_context == null) return ConversationImportResult.Empty;
+        var importer = new ConversationImporter(_context);
+        var result = await importer.ImportScannedAsync(items);
+        await SaveAsync();
+        await ReloadConversationsAsync();
+        return result;
+    }
+
+    // Reload conversation collections so in-memory state reflects new rows. The coverage sets are
+    // reloaded too: nothing writes them any more (the AI-suggested routing was cut 2026-07-31) but
+    // the existing rows stay live so DeleteConversationAsync's cascade keeps working.
+    private async Task ReloadConversationsAsync()
     {
         if (_context == null) return;
-        var importer = new ConversationImporter(_context, Subjects);
-        await importer.ImportFolderAsync(folderPath);
-        await SaveAsync();
-
         await _context.Conversations.LoadAsync();
         await _context.ConversationBlocks.LoadAsync();
         await _context.ConversationSubjectCoverages.LoadAsync();

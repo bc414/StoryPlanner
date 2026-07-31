@@ -23,6 +23,10 @@ public partial class ScanPreviewViewModel : ObservableObject
 {
     private readonly IStoryService _storyService;
 
+    // Raised after a direct import so the library tab can rebuild its conversation VMs — rows
+    // imported here never pass through ConversationLibraryViewModel's own import path.
+    private readonly Action? _onImported;
+
     public ObservableCollection<ScanPreviewRowViewModel> Rows { get; }
     public ICollectionView FilteredRows { get; }
 
@@ -35,9 +39,13 @@ public partial class ScanPreviewViewModel : ObservableObject
 
     [ObservableProperty] private string _statusMessage = string.Empty;
 
-    public ScanPreviewViewModel(IStoryService storyService, System.Collections.Generic.IEnumerable<ConversationSyncItem> items)
+    public ScanPreviewViewModel(
+        IStoryService storyService,
+        System.Collections.Generic.IEnumerable<ConversationSyncItem> items,
+        Action? onImported = null)
     {
         _storyService = storyService;
+        _onImported   = onImported;
         Rows = new ObservableCollection<ScanPreviewRowViewModel>(items.Select(i => new ScanPreviewRowViewModel(i)));
         FilteredRows = new ListCollectionView(Rows) { Filter = FilterRow };
     }
@@ -184,5 +192,40 @@ public partial class ScanPreviewViewModel : ObservableObject
 
         var written = await _storyService.ExportConversationContentAsync(selected, dlg.FolderName);
         StatusMessage = $"Wrote {written.Count} content file(s) to {dlg.FolderName}.";
+    }
+
+    /// <summary>
+    /// Imports the checked rows straight into the reader from the parsed export — no content
+    /// files, no meta files, no Cowork round trip, and therefore no summaries. Each conversation
+    /// still claims the NNN_{slug} prefix a file export would have given it, so exporting one
+    /// later for a summary pass updates the same record instead of duplicating it.
+    /// </summary>
+    [RelayCommand]
+    private async Task ImportSelected()
+    {
+        var selected = Rows.Where(r => r.IsSelected).ToList();
+        if (selected.Count == 0)
+        {
+            StatusMessage = "No conversations checked — check the ones you want to import first.";
+            return;
+        }
+
+        var result = await _storyService.ImportScannedConversationsAsync(
+            selected.Select(r => r.Item).ToList());
+
+        // Every imported row is now in the DB at the export's block count, so it is Unchanged.
+        // Reclassify and uncheck it rather than leaving the grid offering the same rows again.
+        foreach (var row in selected)
+        {
+            row.Item.Classification = ConversationSyncClassification.Unchanged;
+            row.IsSelected = false;
+            row.RefreshClassification();
+        }
+        FilteredRows.Refresh();
+
+        _onImported?.Invoke();
+
+        StatusMessage = $"Imported {result.Total} conversation(s) with no summaries " +
+                        $"({result.Created} new, {result.Updated} updated).";
     }
 }
