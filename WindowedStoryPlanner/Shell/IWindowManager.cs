@@ -29,5 +29,6 @@ public interface IWindowManager
     void OpenSourceMaterialPartWindow(SourceMaterialPartViewModel part);
     void OpenDateRangeWindow();
     void OpenMissingFieldWindow(MissingNoteField field);
+    void OpenPovCharactersWindow();
     void OpenConversationReaderWindow(ConversationViewModel conversation);
 }

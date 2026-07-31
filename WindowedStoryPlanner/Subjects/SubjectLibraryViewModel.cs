@@ -95,6 +95,9 @@ public partial class SubjectLibraryViewModel : ObservableObject
     }
 
     [RelayCommand]
+    private void OpenPovCharacters() => _windowManager.OpenPovCharactersWindow();
+
+    [RelayCommand]
     private void ExportSubjectsToMarkdown()
     {
         string projectPath = _storyService.CurrentFilePath;

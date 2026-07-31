@@ -18,6 +18,9 @@
                       Margin="4,4,4,6"
                       Padding="8,3"/>
 
+        <Button DockPanel.Dock="Top" Content="POV Characters…" Command="{Binding OpenPovCharactersCommand}"
+                HorizontalAlignment="Left" Margin="4,0,4,6"/>
+
         <Button DockPanel.Dock="Top" Content="Export Subjects to Markdown" Command="{Binding ExportSubjectsToMarkdownCommand}"/>
 
         <ScrollViewer VerticalScrollBarVisibility="Auto">

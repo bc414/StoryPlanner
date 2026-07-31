@@ -19,11 +19,21 @@
             <TextBlock Text="Chapter" FontSize="11"
                        Foreground="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"
                        Margin="0,0,0,2"/>
-            <ComboBox x:Name="ChapterCombo"
-                      ItemsSource="{Binding Chapters, RelativeSource={RelativeSource AncestorType=UserControl}}"
-                      DisplayMemberPath="FullTitle"
-                      SelectionChanged="ChapterCombo_SelectionChanged"
-                      Margin="0,0,0,4"/>
+            <Grid Margin="0,0,0,4">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <ComboBox x:Name="ChapterCombo" Grid.Column="0"
+                          ItemsSource="{Binding Chapters, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                          DisplayMemberPath="FullTitle"
+                          SelectionChanged="ChapterCombo_SelectionChanged"/>
+                <Button x:Name="ClearChapterButton" Grid.Column="1" Content="✕"
+                        Width="18" Height="18" Padding="0" FontSize="9" Margin="2,0,0,0"
+                        Background="Transparent" BorderThickness="0" Foreground="#888"
+                        ToolTip="Clear — search across every chapter again"
+                        Visibility="Collapsed" Click="ClearChapterButton_Click"/>
+            </Grid>
 
             <TextBlock Text="Plot Point" FontSize="11"
                        Foreground="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"
@@ -42,6 +52,7 @@
                        Margin="0,0,0,2"/>
             <TextBox x:Name="SearchBox"
                      Text="{Binding SearchText, RelativeSource={RelativeSource AncestorType=UserControl}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                     ToolTip="{Binding SearchScopeHint, RelativeSource={RelativeSource AncestorType=UserControl}}"
                      Margin="0,0,0,2"/>
 
             <!-- Search results: visible only when search text is non-empty -->

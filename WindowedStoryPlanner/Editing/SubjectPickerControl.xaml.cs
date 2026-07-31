@@ -48,6 +48,14 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
     public bool IsAnyComboDropDownOpen =>
         TypeCombo.IsDropDownOpen || SubjectCombo.IsDropDownOpen;
 
+    /// <summary>Tooltip reflecting whatever RebuildSearchResults is currently scoped to — a
+    /// Type picked in the combo restrains the search box to that type's subjects (see
+    /// RebuildSearchResults), matching SourceMaterialPickerControl's Work-scoped search.</summary>
+    public string SearchScopeHint =>
+        _selectedDefinition is not null
+            ? $"Search {_selectedDefinition.SubjectType} subjects by name"
+            : "Search subjects by name";
+
     // ── Subject definitions (type combo) ──────────────────────────────────
 
     public IEnumerable<SubjectDefinitionViewModel> SubjectDefinitions =>
@@ -107,7 +115,15 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
         }
 
         var lower = _searchText.Trim().ToLowerInvariant();
-        _searchResults = Registry.AllSubjectViewModels
+
+        // A Type picked in the combo restrains the search to just that type's subjects —
+        // searching other types no longer makes sense once one is already chosen (same
+        // enhancement as SourceMaterialPickerControl's Work-scoped Part search).
+        var scope = _selectedDefinition is null
+            ? Registry.AllSubjectViewModels
+            : Registry.AllSubjectViewModels.Where(s => s.SubjectDefinitionId == _selectedDefinition.Id);
+
+        _searchResults = scope
             .Where(s => s.Name.ToLowerInvariant().Contains(lower))
             .OrderBy(s => s.Name)
             .ToList();
@@ -123,6 +139,14 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
         // Rebuild the subject list and clear any stale subject selection
         RebuildFilteredSubjects();
         SubjectCombo.SelectedItem = null;
+        ClearTypeButton.Visibility = _selectedDefinition is null ? Visibility.Collapsed : Visibility.Visible;
+        Notify(nameof(SearchScopeHint));
+        RebuildSearchResults();
+    }
+
+    private void ClearTypeButton_Click(object sender, RoutedEventArgs e)
+    {
+        TypeCombo.SelectedItem = null; // cascades through TypeCombo_SelectionChanged
     }
 
     private void SubjectCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -149,6 +173,8 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
         RebuildFilteredSubjects();
         TypeCombo.SelectedItem  = null;
         SubjectCombo.SelectedItem = null;
+        ClearTypeButton.Visibility = Visibility.Collapsed;
+        Notify(nameof(SearchScopeHint));
         SearchText = string.Empty;
 
         SubjectSelected?.Invoke(subject);

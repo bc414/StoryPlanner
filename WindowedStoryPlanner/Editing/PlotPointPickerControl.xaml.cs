@@ -48,6 +48,14 @@ public partial class PlotPointPickerControl : UserControl, INotifyPropertyChange
     public bool IsAnyComboDropDownOpen =>
         ChapterCombo.IsDropDownOpen || PlotPointCombo.IsDropDownOpen;
 
+    /// <summary>Tooltip reflecting whatever RebuildSearchResults is currently scoped to — a
+    /// Chapter picked in the combo restrains the search box to that chapter's plot points (see
+    /// RebuildSearchResults), matching SourceMaterialPickerControl's Work-scoped search.</summary>
+    public string SearchScopeHint =>
+        _selectedChapter is not null
+            ? $"Search {_selectedChapter.FullTitle}'s plot points by title"
+            : "Search plot points by title";
+
     // ── Chapters (chapter combo ItemsSource) ──────────────────────────────
 
     public IEnumerable<ChapterViewModel> Chapters =>
@@ -107,7 +115,15 @@ public partial class PlotPointPickerControl : UserControl, INotifyPropertyChange
         }
 
         var lower = _searchText.Trim().ToLowerInvariant();
-        _searchResults = Registry.AllPlotPointViewModels
+
+        // A Chapter picked in the combo restrains the search to just that chapter's plot
+        // points — searching other chapters no longer makes sense once one is already chosen
+        // (same enhancement as SourceMaterialPickerControl's Work-scoped Part search).
+        var scope = _selectedChapter is null
+            ? Registry.AllPlotPointViewModels
+            : Registry.AllPlotPointViewModels.Where(p => p.ChapterId == _selectedChapter.Id);
+
+        _searchResults = scope
             .Where(p => p.Title.ToLowerInvariant().Contains(lower))
             .OrderBy(p => p.Title)
             .ToList();
@@ -122,6 +138,14 @@ public partial class PlotPointPickerControl : UserControl, INotifyPropertyChange
         _selectedChapter = ChapterCombo.SelectedItem as ChapterViewModel;
         RebuildFilteredPlotPoints();
         PlotPointCombo.SelectedItem = null;
+        ClearChapterButton.Visibility = _selectedChapter is null ? Visibility.Collapsed : Visibility.Visible;
+        Notify(nameof(SearchScopeHint));
+        RebuildSearchResults();
+    }
+
+    private void ClearChapterButton_Click(object sender, RoutedEventArgs e)
+    {
+        ChapterCombo.SelectedItem = null; // cascades through ChapterCombo_SelectionChanged
     }
 
     private void PlotPointCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -148,6 +172,8 @@ public partial class PlotPointPickerControl : UserControl, INotifyPropertyChange
         RebuildFilteredPlotPoints();
         ChapterCombo.SelectedItem    = null;
         PlotPointCombo.SelectedItem  = null;
+        ClearChapterButton.Visibility = Visibility.Collapsed;
+        Notify(nameof(SearchScopeHint));
         SearchText = string.Empty;
 
         PlotPointSelected?.Invoke(plotPoint);

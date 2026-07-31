@@ -16,6 +16,7 @@ public class WindowManager : IWindowManager
     /// <summary>Keys for the windows there is only ever one of, regardless of what they show.</summary>
     private static readonly object DateRangeWindowKey = new();
     private static readonly object MissingFieldWindowKey = new();
+    private static readonly object PovCharactersWindowKey = new();
 
     public WindowManager(
         Func<EditorMode, NarrativeElementViewModel, PlotPointSubjectLinkViewModel?, CommonWindow> commonWindowFactory,
@@ -142,4 +143,16 @@ public class WindowManager : IWindowManager
     /// </summary>
     public void OpenConversationReaderWindow(ConversationViewModel conversation) =>
         ShowSingleton(conversation, () => new ConversationReaderWindow { DataContext = conversation });
+
+    /// <summary>
+    /// Opens the POV-characters manager — application-wide singleton, like the date range and
+    /// missing-field windows. The dedicated picker+list, not an inline checkbox on every subject
+    /// widget: a real file's Character subjects run in the hundreds, so the flag needed a place
+    /// of its own.
+    /// </summary>
+    public void OpenPovCharactersWindow() =>
+        ShowSingleton(PovCharactersWindowKey, () => new PovCharactersWindow
+        {
+            DataContext = new PovCharactersViewModel(_registry)
+        });
 }
