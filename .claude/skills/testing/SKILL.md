@@ -154,6 +154,13 @@ Because the WPF layer has no automated coverage, the only way to know a UI chang
 it — and **Claude Code does not drive the app.** Computer-use/screenshot automation is unreliable
 and intrusive while Brian is using his machine for other things. The procedure:
 
+**No GUI automation at all — this is absolute, not a default to weigh against convenience.** No
+synthetic clicks or keystrokes (`mouse_event`, `SetCursorPos`, `SendKeys`, UI Automation), no
+screen capture, no window focusing (`SetForegroundWindow` steals focus from whatever Brian is
+doing). Launching the app is allowed; touching it afterwards is not. "I'll take one screenshot to
+confirm it rendered" is the shape this rule exists to forbid — the check is unreliable *and* it
+seizes the machine, and the window appearing is already the handoff signal.
+
 1. `dotnet build WindowedStoryPlanner` (the project, not the solution).
 2. **Copy** a `.storyplan` to the scratchpad and launch `bin/Debug` against the copy:
    ```
@@ -185,6 +192,13 @@ path fully determines which data is touched. `bin/Debug` and `publish/` are sepa
 a test instance never collides with Brian's own. Before building, check whether an instance is
 holding `bin/Debug`: `Get-Process -Name WindowedStoryPlanner | Select-Object Id, Path` tells you
 which one it is, and only the `bin/Debug` one is yours to close.
+
+**Close it by pid, never by name.** Both instances run the same executable name, so
+`Stop-Process -Name WindowedStoryPlanner` — and any `Get-Process -Name … | Stop-Process` pipeline —
+kills Brian's session along with yours, silently and with no way to tell afterwards which one you
+hit. Keep the pid the launch returned (`Start-Process -PassThru`) and stop exactly that one.
+This is not hypothetical: on 2026-07-31 a name-matched cleanup after a GUI session took out
+Brian's running app.
 
 `dotnet test` still runs unattended — this handoff is only about the GUI.
 

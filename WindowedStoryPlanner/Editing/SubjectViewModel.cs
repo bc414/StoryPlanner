@@ -130,6 +130,7 @@ namespace WindowedStoryPlanner
                 () => _storyService.NarrativePropertyDefinitions
                           .Where(npd => npd.OwnerType == OwnerType.Subject
                                      && npd.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                          .OrderBy(npd => npd.DisplayOrder)
                           .ToList());
         }
 

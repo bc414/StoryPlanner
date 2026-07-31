@@ -82,6 +82,82 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         return Query.Cap(sb);
     }
 
+    [McpServerTool(Name = "list_narrative_properties")]
+    [Description("The narrative properties defined on each entity type — closed-vocabulary fields an entity is assigned a value from, alongside its note tracks. Reports each property's allowed values with how many entities hold each, and how many hold none. Single-select: an entity has at most one value per property, and no value at all is a legal, long-lived authorial state, not missing data. Assignment is the author's — never infer or propose one.")]
+    public string ListNarrativeProperties(
+        [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
+    {
+        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        var sb = new StringBuilder();
+
+        sb.AppendLine($"# narrative properties {Query.CorpusName(c.Corpus)} — {c.NarrativeProperties.Count}");
+        sb.AppendLine();
+
+        if (c.NarrativeProperties.Count == 0)
+        {
+            sb.AppendLine("(none defined — see the seed-narrative-properties DataOps op)");
+            return Query.Cap(sb);
+        }
+
+        if (c.WorkPhases.Count > 0)
+        {
+            sb.AppendLine("## Work phases (ordered stages of the planning work)");
+            foreach (var p in c.WorkPhases)
+            {
+                var criteria = new List<string>();
+                if (p.RequiresZeroFlaggedNotes) criteria.Add("0 flagged notes");
+                if (p.RequiresZeroUnsetNotes) criteria.Add("0 unset notes");
+                sb.AppendLine($"- {p.DisplayOrder}. {p.Name} (workphase id:{p.Id})"
+                              + (criteria.Count > 0 ? $" — complete when: {string.Join(", ", criteria)}" : ""));
+            }
+            sb.AppendLine();
+        }
+
+        foreach (var group in c.NarrativeProperties
+                     .GroupBy(p => c.SubjectDefById.TryGetValue(p.SubjectDefinitionId, out var d) ? d.SubjectType : "(project-wide)")
+                     .OrderBy(g => g.Key))
+        {
+            foreach (var scope in group.GroupBy(p => p.OwnerType).OrderBy(g => (int)g.Key))
+            {
+                var scopeName = scope.Key switch
+                {
+                    OwnerType.Subject => "subject-wide properties",
+                    OwnerType.PlotPoint => "plot point properties",
+                    OwnerType.Chapter => "chapter properties",
+                    OwnerType.PlotPointSubjectLink => "scene-link properties (per plot-point×subject)",
+                    _ => scope.Key.ToString()
+                };
+                sb.AppendLine($"## {group.Key} — {scopeName}");
+
+                foreach (var p in scope.OrderBy(p => p.DisplayOrder))
+                {
+                    sb.AppendLine($"### {p.Name} (property id:{p.Id})");
+                    if (p.Question.Length > 0) sb.AppendLine($"Q: {p.Question}");
+                    if (p.Explanation.Length > 0) sb.AppendLine(p.Explanation);
+                    if (p.GatingWorkPhaseId is int phaseId && c.WorkPhaseById.TryGetValue(phaseId, out var phase))
+                        sb.AppendLine($"gates at phase: {phase.Name}");
+
+                    var values = c.ValueDefsByProperty.TryGetValue(p.Id, out var vs) ? vs : new List<NarrativePropertyValueDefinition>();
+                    if (values.Count == 0)
+                    {
+                        sb.AppendLine("(no allowed values defined yet)");
+                        continue;
+                    }
+
+                    foreach (var v in values)
+                    {
+                        var count = c.NarrativePropertyValues.Count(a => a.ValueDefinitionId == v.Id);
+                        sb.AppendLine($"- {v.ValueName} (value id:{v.Id}) — {count} assigned"
+                                      + (v.Description.Length > 0 ? $"; {v.Description}" : ""));
+                    }
+                }
+                sb.AppendLine();
+            }
+        }
+
+        return Query.Cap(sb);
+    }
+
     [McpServerTool(Name = "list_subjects")]
     [Description("Inventory of subjects: id, name, type, retrievable note count, flagged count, scene-link count. The name→id map for fetches. In the archive, subject 'types' are v1 triage labels (\"First Pass, subject notes only\", \"Deferred…\"), not categories.")]
     public string ListSubjects(

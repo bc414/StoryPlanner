@@ -117,6 +117,7 @@ namespace WindowedStoryPlanner
                           .ToList(),
                 () => storyService.NarrativePropertyDefinitions
                           .Where(npd => npd.OwnerType == OwnerType.PlotPoint)
+                          .OrderBy(npd => npd.DisplayOrder)
                           .ToList());
 
             if (viewModelRegistry.IsStoryLoaded)

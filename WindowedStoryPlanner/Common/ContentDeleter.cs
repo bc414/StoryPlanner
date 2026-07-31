@@ -144,6 +144,59 @@ public class ContentDeleter : IContentDeleter
         return true;
     }
 
+    public async Task<bool> TryDeleteWorkPhaseAsync(WorkPhaseViewModel phase)
+    {
+        if (ContentIntegrity.WorkPhaseHasDependents(_storyService, phase.Id)) return false;
+
+        _storyService.WorkPhases.Remove(phase.Model);
+        _registry.AllWorkPhaseViewModels.Remove(phase);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteNarrativePropertyDefinitionAsync(NarrativePropertyDefinitionViewModel property)
+    {
+        if (ContentIntegrity.NarrativePropertyDefinitionHasDependents(_storyService, property.Id)) return false;
+
+        // Its allowed values go with it — they are meaningless without the property and are
+        // provably unassigned, since the guard above just established that. This is the one place
+        // a cascade is correct rather than a refusal: nothing authored is being discarded.
+        var ownedValues = _storyService.NarrativePropertyValueDefinitions
+            .Where(v => v.NarrativePropertyDefinitionId == property.Id)
+            .ToList();
+
+        foreach (var value in ownedValues)
+        {
+            var vm = _registry.AllNarrativePropertyValueDefinitionViewModels.FirstOrDefault(x => x.Id == value.Id);
+            if (vm is not null) _registry.AllNarrativePropertyValueDefinitionViewModels.Remove(vm);
+            _storyService.NarrativePropertyValueDefinitions.Remove(value);
+        }
+
+        // The entity-editor picker binds NarrativePropertyValueViewModels from this parallel
+        // collection, so it has to be pruned too or a deleted value keeps appearing in dropdowns.
+        foreach (var stale in _registry.AllNarrativePropertyValueDefinitions
+                     .Where(v => ownedValues.Any(o => o.Id == v.Id)).ToList())
+            _registry.AllNarrativePropertyValueDefinitions.Remove(stale);
+
+        _storyService.NarrativePropertyDefinitions.Remove(property.Model);
+        _registry.AllNarrativePropertyDefinitionViewModels.Remove(property);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteNarrativePropertyValueDefinitionAsync(NarrativePropertyValueDefinitionViewModel value)
+    {
+        if (ContentIntegrity.NarrativePropertyValueDefinitionHasAssignments(_storyService, value.Id)) return false;
+
+        var stale = _registry.AllNarrativePropertyValueDefinitions.FirstOrDefault(v => v.Id == value.Id);
+        if (stale is not null) _registry.AllNarrativePropertyValueDefinitions.Remove(stale);
+
+        _storyService.NarrativePropertyValueDefinitions.Remove(value.Model);
+        _registry.AllNarrativePropertyValueDefinitionViewModels.Remove(value);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
     // --- Helpers ---
 
     private void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType)

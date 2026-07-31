@@ -38,6 +38,7 @@ public partial class ChapterViewModel : NarrativeElementViewModel
                 .ToList(),
             () => storyService.NarrativePropertyDefinitions
                 .Where(npd => npd.OwnerType == OwnerType.Chapter)
+                .OrderBy(npd => npd.DisplayOrder)
                 .ToList());
 
         if (viewModelRegistry.IsStoryLoaded)

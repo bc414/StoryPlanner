@@ -59,7 +59,8 @@ public static class DefinitionsMarkdownExporter
     /// </summary>
     public static string Build(
         IEnumerable<(string SubjectType, int DisplayOrder)> subjectDefinitions,
-        IEnumerable<NoteTrackDefinitionExportData> noteTrackDefinitions)
+        IEnumerable<NoteTrackDefinitionExportData> noteTrackDefinitions,
+        IEnumerable<NarrativePropertyExportData>? narrativeProperties = null)
     {
         var sb = new StringBuilder();
 
@@ -172,6 +173,79 @@ public static class DefinitionsMarkdownExporter
             }
         }
 
+        // ── Narrative Properties ───────────────────────────────────────────────
+        // Omitted entirely when none are configured, rather than printing an empty heading —
+        // a section that says nothing reads as a feature that is broken rather than unused.
+        var properties = narrativeProperties?.ToList() ?? [];
+        if (properties.Count > 0)
+        {
+            sb.AppendLine("# Narrative Properties");
+            sb.AppendLine();
+            sb.AppendLine("Closed-vocabulary fields on an entity: rather than prose, the author picks "
+                        + "one of a fixed set of allowed values. Single-select — an entity holds at "
+                        + "most one value per property, and holding none is a legal, long-lived "
+                        + "state rather than missing data.");
+            sb.AppendLine();
+
+            foreach (var section in properties
+                         .GroupBy(p => string.IsNullOrWhiteSpace(p.SelectedSubjectType)
+                                           ? p.OwnerType
+                                           : p.SelectedSubjectType)
+                         .OrderBy(g => SectionOrder(g.Key))
+                         .ThenBy(g => g.Key, StringComparer.OrdinalIgnoreCase))
+            {
+                sb.AppendLine($"## {section.Key}");
+                sb.AppendLine();
+
+                foreach (var p in section.OrderBy(p => p.DisplayOrder))
+                {
+                    sb.AppendLine($"### {p.Name} (id: {p.Id})");
+                    sb.AppendLine();
+                    sb.AppendLine($"Applies to: {p.OwnerType}");
+                    sb.AppendLine();
+
+                    if (!string.IsNullOrWhiteSpace(p.GatingWorkPhase))
+                    {
+                        sb.AppendLine($"Reported as a gap from phase: {p.GatingWorkPhase}");
+                        sb.AppendLine();
+                    }
+
+                    if (!string.IsNullOrWhiteSpace(p.Question))
+                    {
+                        sb.AppendLine("**Question**");
+                        sb.AppendLine();
+                        sb.AppendLine(p.Question);
+                        sb.AppendLine();
+                    }
+
+                    if (!string.IsNullOrWhiteSpace(p.Explanation))
+                    {
+                        sb.AppendLine("**Explanation**");
+                        sb.AppendLine();
+                        sb.AppendLine(p.Explanation);
+                        sb.AppendLine();
+                    }
+
+                    sb.AppendLine("**Allowed Values**");
+                    sb.AppendLine();
+                    if (p.Values.Count == 0)
+                    {
+                        sb.AppendLine("_(none defined yet)_");
+                    }
+                    else
+                    {
+                        foreach (var v in p.Values)
+                            sb.AppendLine($"- **{v.ValueName}**"
+                                          + (string.IsNullOrWhiteSpace(v.Description) ? "" : $": {v.Description}"));
+                    }
+
+                    sb.AppendLine();
+                    sb.AppendLine("---");
+                    sb.AppendLine();
+                }
+            }
+        }
+
         return sb.ToString();
     }
 
@@ -207,3 +281,21 @@ public record NoteTrackDefinitionExportData(
     bool HiddenInGardenerMode = false,
     bool HiddenInAuditMode = false,
     bool HiddenInSceneDesignMode = false);
+
+/// <summary>
+/// Plain data record for one narrative property and its allowed values, with the subject type and
+/// gating phase already resolved to strings — same reason as NoteTrackDefinitionExportData, so
+/// Core stays free of ViewModel dependencies.
+/// </summary>
+public record NarrativePropertyExportData(
+    int Id,
+    string Name,
+    string OwnerType,
+    string SelectedSubjectType,
+    int DisplayOrder,
+    string Question,
+    string Explanation,
+    string GatingWorkPhase,
+    IReadOnlyList<NarrativePropertyValueExportData> Values);
+
+public record NarrativePropertyValueExportData(string ValueName, string Description);

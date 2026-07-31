@@ -39,6 +39,18 @@ their existing data survive, dormant, so `DeleteConversationAsync`'s cascade sti
 block-level `HasDecisions` flag went with it (same judgment call, one layer down): column dropped.
 Do not rebuild either. Conversation import no longer requires an AI pass at all — see below.
 
+**Seeders seed structure, never prose (2026-07-31).** A DataOps seed op may create rows, ids,
+orderings, and flags. It must **not** author the prose on them — display questions, explanations,
+usage directives, value descriptions. That prose is story metadata: it carries Brian's framing of
+what a track or property *asks*, and a plausible machine-written one is worse than an empty field,
+because an empty field is visibly unfinished while a wrong one reads as decided. Precedent: the
+2026-07-30 History-track split shipped seeded display questions that all had to be rewritten. Seed
+the names, leave the prose empty, let it be authored in the Definitions tab — and make a re-run
+incapable of clobbering it. `seed-narrative-properties` does this structurally: its config has no
+prose field at all, so there is nothing to overwrite with. (`seed-source-material` predates the
+rule and does re-stamp `Description` on Works and Parts; those describe real published works
+rather than Brian's framing, which is the reason it is left alone.)
+
 ## Architecture — deliberate, not accidental
 
 **No navigation properties, no foreign keys, no indexes.** Single-user, load-everything-at-
@@ -133,6 +145,24 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   colours all four quadrants (2026-07-31): untouched = plain white (the baseline), cited-but-not-
   reviewed = warm blue, reviewed-and-cited = green, reviewed-with-zero-citations = beige. Four
   labels, no ranking — no quadrant is a score or a queue position.
+- **Narrative properties are closed-vocabulary fields, and they are authorial** (2026-07-31, first
+  real use after a year dormant). `NarrativePropertyDefinition` is a Type Object row scoped by
+  `(SubjectDefinitionId, OwnerType)` exactly like `NoteTrackDefinition` —
+  `NarrativePropertyValueDefinition` rows are its allowed answers, `NarrativePropertyValue` the
+  assignment. **Single-select**: at most one value per (owner, property), an invariant the schema
+  cannot express (no FKs, no unique constraints, no unit of work) so `PlanIntegrity` enforces it
+  as `narrativevalue.duplicate_for_property`. **Absence of a row is "unset"** — a legal, long-lived
+  state, never missing data, and there is deliberately no `(none)` value row because its id would
+  be stored and read back as a real answer. `NarrativePropertyValue` has **no `OwnerType` column**:
+  resolve ownership by tracing `ValueDefinitionId → NarrativePropertyDefinitionId → OwnerType`, or
+  subject 7 and chapter 7 collide silently. Assignment is Brian's — **never derive a value** from
+  note text, names, links, or real-world analogues. First use is the four orthogonal political axes
+  on Civilizational System subjects (Human Capital / Governance / Boundary / Social Contract, two
+  poles each); a system that moves along an axis over time is modelled as *separate era subjects*,
+  so do not add date-scoped or multi-value assignments. `WorkPhase` rows are the ordered stages of
+  the planning work — **not `EditorMode`**, whose values overlap by name only — and a property may
+  name the phase at which an unset value is reported as a gap. That gate **reports and never
+  blocks**; `CanPromoteToConfirmed` does not consult it.
 
 Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 **Live counts: `mcp__storyplanner get_stats`. Never hardcode counts in a document.**

@@ -79,5 +79,16 @@ public static class ServerInfo
         one nobody has looked at. The Work/Part set is pre-seeded rather than accreted from
         citations, so an untouched Part is real negative space, not just an unpopulated tag —
         list_source_materials surfaces it as a flat list, never ranked by likely yield.
+
+        Alongside its note tracks, an entity type may define NARRATIVE PROPERTIES
+        (list_narrative_properties) — closed-vocabulary fields answered by picking one of a fixed
+        set of allowed values, rather than by prose. Single-select: an entity holds at most one
+        value per property, and having none is a legal, long-lived authorial state rendered
+        explicitly as "(unset)" in a subject's "properties:" line — never omitted, since omission
+        would be indistinguishable from the property not existing. A property may name a work phase
+        at which an unset value counts as an open gap; that is a report inside the app and gates
+        nothing. Assignment is authorial: never infer a value from note text, names, links, or
+        real-world analogues, and never propose one. Which subjects lack a value is deliberately
+        not exposed here.
         """;
 }

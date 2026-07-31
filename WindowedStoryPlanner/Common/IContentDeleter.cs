@@ -52,4 +52,22 @@ public interface IContentDeleter
     /// Returns false and takes no action if the precondition is not met.
     /// </summary>
     Task<bool> TryDeleteSourceMaterialPartAsync(SourceMaterialPartViewModel part);
+
+    /// <summary>
+    /// Deletes a WorkPhase if no narrative property definition gates on it.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteWorkPhaseAsync(WorkPhaseViewModel phase);
+
+    /// <summary>
+    /// Deletes a NarrativePropertyDefinition, and its allowed values with it, if no owner has
+    /// assigned any of those values. Returns false and takes no action otherwise.
+    /// </summary>
+    Task<bool> TryDeleteNarrativePropertyDefinitionAsync(NarrativePropertyDefinitionViewModel property);
+
+    /// <summary>
+    /// Deletes a NarrativePropertyValueDefinition if no owner has it assigned.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteNarrativePropertyValueDefinitionAsync(NarrativePropertyValueDefinitionViewModel value);
 }

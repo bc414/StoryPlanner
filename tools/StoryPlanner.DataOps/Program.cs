@@ -7,6 +7,7 @@ var ops = new Dictionary<string, IDataOperation>(StringComparer.OrdinalIgnoreCas
     ["convert-world-dates"] = new ConvertWorldDates(),
     ["seed-timeline-defaults"] = new SeedTimelineDefaults(),
     ["seed-source-material"] = new SeedSourceMaterial(),
+    ["seed-narrative-properties"] = new SeedNarrativeProperties(),
 };
 
 var positional = args.Where(a => a != "--apply").ToList();

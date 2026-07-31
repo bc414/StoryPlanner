@@ -19,4 +19,27 @@ public static class ContentIntegrity
     /// <summary>True if any NoteSourceReference still cites this Part.</summary>
     public static bool SourceMaterialPartHasReferences(IStoryService storyService, int sourceMaterialPartId) =>
         storyService.NoteSourceReferences.Any(r => r.SourceMaterialPartId == sourceMaterialPartId);
+
+    /// <summary>True if any NarrativePropertyDefinition gates on this WorkPhase.</summary>
+    public static bool WorkPhaseHasDependents(IStoryService storyService, int workPhaseId) =>
+        storyService.NarrativePropertyDefinitions.Any(p => p.GatingWorkPhaseId == workPhaseId);
+
+    /// <summary>
+    /// True if any owner has selected one of this property's allowed values. Deleting the property
+    /// would orphan the assignment rows, and because NarrativePropertyValue has no OwnerType there
+    /// would be no way afterwards to work out what they had meant.
+    /// </summary>
+    public static bool NarrativePropertyDefinitionHasDependents(IStoryService storyService, int propertyDefinitionId)
+    {
+        var valueDefIds = storyService.NarrativePropertyValueDefinitions
+            .Where(v => v.NarrativePropertyDefinitionId == propertyDefinitionId)
+            .Select(v => v.Id)
+            .ToHashSet();
+
+        return storyService.NarrativePropertyValues.Any(v => valueDefIds.Contains(v.ValueDefinitionId));
+    }
+
+    /// <summary>True if any owner has this specific value assigned.</summary>
+    public static bool NarrativePropertyValueDefinitionHasAssignments(IStoryService storyService, int valueDefinitionId) =>
+        storyService.NarrativePropertyValues.Any(v => v.ValueDefinitionId == valueDefinitionId);
 }

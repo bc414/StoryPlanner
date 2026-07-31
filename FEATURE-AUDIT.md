@@ -116,7 +116,7 @@ content in full**, unlike `NoteExportRenderer` and the MCP server's `Engine.Sear
 author reading their own data in-app, not an LLM-facing surface; see `EntitySearchTests` for the
 tests pinning that as intentional. Story is out of scope (no `OwnerType`, no detail window).
 
-**B3 — 🔴 Per-entity completion / scene-readiness dashboard.** Per-entity note-state rollups ("3 Confirmed, 4 Unset, 2 Flagged") and a derived "Completion Profile" that signals when a scene is ready to draft (019 blocks 61/69, 038/039 R8). Per-note/per-track VMs exist (`NoteTrackSectionViewModel`, `NoteViewModel`) but no state-rollup or readiness-scoring surface.
+**B3 — 🟡 Per-entity completion / scene-readiness dashboard — rollup half shipped 2026-07-31, scoring half still declined.** The **Progress** tab renders per-subject and per-track Confirmed/Unset/Flagged counts, sortable, snapshot-on-load with an explicit Refresh (`Progress/ProgressViewModel.cs`), and relabels the Confirmed column in archive mode where the state means "review closed", not "stable". What is *not* built, and is not a gap to close: the derived "Completion Profile" / readiness score from 019 blocks 61/69. A number that says a scene is ready to draft is a judgment, and the same shape as F4 below. Counting and sorting authored data is presentation; scoring it is not.
 
 **B4 — 🔴 Cross-thread "synchronized ratchet" view.** A per-chapter view showing each active thread's goal-trajectory distribution so stagnant threads stand out (015 block 521). No such view; the `GoalTrajectory` payload it assumed is no longer a structured field (payloads became notes).
 
@@ -143,7 +143,7 @@ tests pinning that as intentional. Story is out of scope (no `OwnerType`, no det
 
 **C2 — 🔴 Stage-0 "accumulation" inbox / `IsIncorporated` flag.** A pre-structural inbox for raw hypotheses/research directives distinct from Stage-1 truth, tracked by an `IsIncorporated` marker (038/039 P23-25, 053 blocks 21-24, 015). **Concrete artifact:** the flag was scaffolded and abandoned — `IsIncorporated`/`NeedsFurtherAnalysis` appear only as **commented-out dead code** in [StoryService.cs:283-284](StoryPlanner.Core/StoryService.cs#L283-L284). `Note` has no such field today.
 
-**C3 — 🔴 `ValidationTier` opt-in enforcement.** A tier system (None / StructuralRecord / ExperienceDesign / SceneBlueprint) making fields like `GapType` optional until the author opts into enforcement per tier (038/039 P51). No `ValidationTier` enum in `Core`.
+**C3 — 🟢 `ValidationTier` opt-in enforcement — shipped 2026-07-31 as data, not an enum.** The 019-block-123 design (a `ValidationTier` enum: None / StructuralRecord / ExperienceDesign / SceneBlueprint) was superseded rather than built: the tiers are `WorkPhase` **rows** — configurable, reorderable, named by Brian — and `NarrativePropertyDefinition.GatingWorkPhaseId` (nullable, null = never gates) names the phase at which an unset value is reported. Same opt-in property the enum was for, reached by data entry instead of a migration, consistent with the Type Object rule the rest of the configuration layer follows. Two differences from the transcript design, both deliberate: **it never blocks** (`CanPromoteToConfirmed` is untouched — the report is the whole feature), and a phase's own completion criteria are note-state counts (`RequiresZeroFlaggedNotes` / `RequiresZeroUnsetNotes`) rather than a per-entity profile. Do not add a `ValidationTier` enum.
 
 **C4 — 🔴 `LastRevisedDate` / revision tracking.** Record when a claim was revised as upstream dependencies change (038/039 P24). `Note` has only a plain `LastModified` timestamp — no revision history or `LastRevisedDate`.
 
@@ -216,6 +216,37 @@ The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-S
   metric would have been computed from `ConversationSubjectCoverage`, now frozen and never
   written. This stays ⚪. It was a ranking/attention metric ("what needs work"), which is the
   suggestion pattern CLAUDE.md forbids regardless of what table it reads.
+- **F5 — 🟢 Narrative properties activated; the four political axes on Civilizational Systems.**
+  *(Shipped 2026-07-31.)* The `NarrativeProperty*` tables had existed since `TotalRework`
+  (2026-05-06) with **0 rows in every file**, no UI binding them, and three latent bugs in
+  `NarrativePropertyViewModel` that would have thrown on opening any entity the moment a definition
+  row existed — plus a `ProjectLoader` ordering bug that populated the value-definition registry
+  *after* the view models that read it. All fixed. Now shipping: the picker strip in the entity
+  editor, authoring grids in a new Definitions sub-tab, three refusing delete guards
+  (`ContentIntegrity` + `ContentDeleter`), two `PlanIntegrity` codes, a `list_narrative_properties`
+  MCP tool plus a `properties:` line on `get_subjects_plan`, and the `seed-narrative-properties`
+  DataOps op. First content: Human Capital / Governance / Boundary / Social Contract, two poles
+  each, on the 37 Civilizational System subjects — transcribed from conv:25 (2026-04-23).
+  **The op writes zero `NarrativePropertyValue` rows and no prose**; both are pinned by tests.
+  **Why this is not F4.** The **Property Gaps** tab reports which entities lack a value — but
+  against a requirement Brian authored (he writes the property, he sets its gating phase), which is
+  the same category as `PlanIntegrity`'s violation codes, not an inference about what deserves
+  attention. F4 died because it computed attention from `ConversationSubjectCoverage`, i.e. from
+  *AI-suggested* data; the audit itself records that deleting that data source resolved it. The
+  line that matters is **never derive or propose a value** — that would be importing analysis.
+  Counting, grouping, and sorting authored data is presentation, and the app already sorts subjects
+  by unconfirmed count in archive mode.
+- **F6 — 🔴 The Definitions tab's *existing* deletes have no guards.** Noticed 2026-07-31 while
+  adding guards for the new rows, and deliberately left alone rather than fixed in passing.
+  `DefinitionsEditorViewModel.DeleteSubjectDefinition` and `DeleteNoteTrackDefinition` remove a
+  definition row directly and never consult `ContentDeleter` — deleting a `SubjectDefinition`
+  silently orphans every subject and every track pointing at it, and deleting a
+  `NoteTrackDefinition` orphans its notes. `PlanIntegrity` would report the wreckage afterwards;
+  nothing prevents it. The fix is the shape now used by the narrative-property deletes: id-based
+  predicates in `ContentIntegrity`, a `TryDelete*Async` wrapper that refuses, and a status line so
+  the refusal is visible. Low urgency — these are rarely-used destructive buttons on a
+  configuration screen — but it is a real hole in the referential-integrity story, not an
+  accepted cost.
 
 ---
 

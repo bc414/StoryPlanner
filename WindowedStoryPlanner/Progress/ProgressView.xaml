@@ -1,0 +1,99 @@
+<UserControl x:Class="WindowedStoryPlanner.ProgressView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WindowedStoryPlanner"
+             mc:Ignorable="d" d:DesignHeight="600" d:DesignWidth="900"
+             d:DataContext="{d:DesignInstance Type=local:ProgressViewModel}">
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </UserControl.Resources>
+
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <DockPanel Grid.Row="0" LastChildFill="False" Margin="0,0,0,8">
+            <TextBlock DockPanel.Dock="Left" Text="Progress" FontSize="18" FontWeight="Bold"
+                       VerticalAlignment="Center"/>
+            <TextBlock DockPanel.Dock="Left" Text="{Binding Summary}" Foreground="#555555"
+                       VerticalAlignment="Center" Margin="14,0,0,0"/>
+            <Button DockPanel.Dock="Right" Content="Refresh" Padding="14,5"
+                    Command="{Binding RebuildCommand}"
+                    ToolTip="Counts are a snapshot taken when the project loaded."/>
+        </DockPanel>
+
+        <!-- v1 semantics differ and the counts would otherwise read as v2 facts. -->
+        <Border Grid.Row="1" Background="#FDF3E3" BorderBrush="#E0C088" BorderThickness="1"
+                Padding="8,5" Margin="0,0,0,8"
+                Visibility="{Binding IsArchiveMode, Converter={StaticResource BoolToVis}}">
+            <TextBlock TextWrapping="Wrap" Foreground="#7A5A10"
+                       Text="Archive file: &quot;Review closed&quot; here means the note was reviewed and closed — migrated to v2 or deliberately superseded, disposition not recorded. It does not mean the claim is current."/>
+        </Border>
+
+        <GroupBox Grid.Row="2" Header="Work phases" Margin="0,0,0,10">
+            <ItemsControl ItemsSource="{Binding PhaseStatuses}" Margin="4">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" Margin="0,2" FontSize="12"/>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </GroupBox>
+
+        <DataGrid Grid.Row="3" ItemsSource="{Binding Subjects}"
+                  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                  IsReadOnly="True" SelectionMode="Single" HeadersVisibility="Column"
+                  GridLinesVisibility="Horizontal" RowHeaderWidth="0"
+                  BorderBrush="#CCCCCC" BorderThickness="1"
+                  CanUserSortColumns="True">
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <ItemsControl ItemsSource="{Binding Tracks}" Margin="28,4,8,8">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Margin="0,1">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="320"/>
+                                        <ColumnDefinition Width="70"/>
+                                        <ColumnDefinition Width="70"/>
+                                        <ColumnDefinition Width="70"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Grid.Column="0" Text="{Binding TrackName}" FontSize="11"/>
+                                    <TextBlock Grid.Column="1" Text="{Binding Confirmed}" FontSize="11" Foreground="#1E7B34"/>
+                                    <TextBlock Grid.Column="2" Text="{Binding Unset}"     FontSize="11" Foreground="#555555"/>
+                                    <TextBlock Grid.Column="3" Text="{Binding Flagged}"   FontSize="11" Foreground="#C0392B"/>
+                                </Grid>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Subject"      Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Type"         Binding="{Binding SubjectType}" Width="160"/>
+                <DataGridTextColumn Header="{Binding DataContext.ConfirmedColumnHeader,
+                                             RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                    Binding="{Binding Confirmed}" Width="110"/>
+                <DataGridTextColumn Header="Unset"        Binding="{Binding Unset}" Width="80"/>
+                <DataGridTextColumn Header="Flagged"      Binding="{Binding Flagged}" Width="80"/>
+                <DataGridTextColumn Header="Total"        Binding="{Binding Total}" Width="80"/>
+                <DataGridTemplateColumn Header="" Width="70">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="Open" Padding="8,2" FontSize="11"
+                                    Command="{Binding DataContext.OpenSubjectCommand,
+                                              RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

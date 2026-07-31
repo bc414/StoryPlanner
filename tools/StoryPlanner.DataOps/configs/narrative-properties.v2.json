@@ -1,0 +1,81 @@
+{
+  "_comment": [
+    "Narrative property definitions for the working plan (v2). NAMES, ORDER, AND FLAGS ONLY.",
+    "There is deliberately no field here for Question, Explanation, or a value's Description:",
+    "those carry Brian's framing and are authored in the app's Definitions tab. Because the",
+    "config cannot express them, no re-run of this op can overwrite that work.",
+    "",
+    "The four axes are the settled geopolitical grid of the fabula, transcribed from the design",
+    "conversation 'Political Axes Of The Fabula' (2026-04-23) after its two in-conversation",
+    "corrections: axis 1's anti-pole reframed as the industrial baseline rather than a reaction,",
+    "and the original Isolationist/Interventionist axis replaced by Boundary.",
+    "",
+    "Two poles per axis, single-select. Adding degrees later is a data operation, not a code",
+    "change: add value rows here (or in the Definitions tab) and re-run.",
+    "",
+    "This op assigns NOTHING to any subject. Placing a civilizational system on an axis is",
+    "authorial categorization and happens only in the app."
+  ],
+
+  "workPhases": [
+    {
+      "name": "Expansion",
+      "displayOrder": 1,
+      "requiresZeroFlaggedNotes": true,
+      "requiresZeroUnsetNotes": false
+    },
+    {
+      "name": "Audit",
+      "displayOrder": 2,
+      "requiresZeroFlaggedNotes": true,
+      "requiresZeroUnsetNotes": true
+    }
+  ],
+
+  "properties": [
+    {
+      "subjectType": "Civilizational System",
+      "ownerType": "Subject",
+      "name": "Human Capital Axis",
+      "displayOrder": 1,
+      "gatingWorkPhase": null,
+      "values": [
+        { "valueName": "Asset Specificity" },
+        { "valueName": "Standardized Interchangeability" }
+      ]
+    },
+    {
+      "subjectType": "Civilizational System",
+      "ownerType": "Subject",
+      "name": "Governance Axis",
+      "displayOrder": 2,
+      "gatingWorkPhase": null,
+      "values": [
+        { "valueName": "Bottom-Up Friction" },
+        { "valueName": "Top-Down Paternalism" }
+      ]
+    },
+    {
+      "subjectType": "Civilizational System",
+      "ownerType": "Subject",
+      "name": "Boundary Axis",
+      "displayOrder": 3,
+      "gatingWorkPhase": null,
+      "values": [
+        { "valueName": "Universalism" },
+        { "valueName": "Tribalism" }
+      ]
+    },
+    {
+      "subjectType": "Civilizational System",
+      "ownerType": "Subject",
+      "name": "Social Contract Axis",
+      "displayOrder": 4,
+      "gatingWorkPhase": null,
+      "values": [
+        { "valueName": "Unconditional Conscience" },
+        { "valueName": "Transactional Leverage" }
+      ]
+    }
+  ]
+}

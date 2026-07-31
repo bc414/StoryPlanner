@@ -63,6 +63,15 @@
             <local:DefinitionsEditorControl DataContext="{Binding Definitions}"/>
         </TabItem>
 
+        <!-- Read-only reports. Like Timeline above, these must stay at index 5+ so
+             App.xaml.cs's SelectedTabIndex = 4 still lands on Subjects. -->
+        <TabItem Header="Progress">
+            <local:ProgressView DataContext="{Binding Progress}"/>
+        </TabItem>
+        <TabItem Header="Property Gaps">
+            <local:PropertyGapsView DataContext="{Binding PropertyGaps}"/>
+        </TabItem>
+
         <TabItem Header="Global Search">
             <local:GlobalSearchView DataContext="{Binding GlobalSearch}"/>
         </TabItem>

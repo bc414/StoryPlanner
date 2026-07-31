@@ -144,6 +144,7 @@ namespace WindowedStoryPlanner
                 () => storyService.NarrativePropertyDefinitions
                     .Where(npd => npd.OwnerType == OwnerType.PlotPointSubjectLink
                                && npd.SubjectDefinitionId == subjectDefId)
+                    .OrderBy(npd => npd.DisplayOrder)
                     .ToList());
 
             SubscribePlotPoint();

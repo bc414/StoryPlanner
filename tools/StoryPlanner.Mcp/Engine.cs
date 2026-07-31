@@ -175,6 +175,48 @@ internal static class Engine
         return $" + {flagged.Count} flagged (walled: {string.Join(", ", byTrack)} — list_open_questions({scopeHint}))";
     }
 
+    // ── narrative properties (closed-vocabulary fields on an entity) ─────────────
+
+    /// <summary>
+    /// One "properties:" metadata line for an entity, or null when its type has none configured.
+    ///
+    /// Renders an unassigned property EXPLICITLY as (unset) rather than omitting it. Omission
+    /// would make "the author has not decided" indistinguishable from "no such property exists",
+    /// and unset is a legal long-lived state here — the same reason TheaterId 0 renders as
+    /// "(Unplaced)" instead of vanishing.
+    /// </summary>
+    private static string? NarrativePropertyLine(PlanCache c, OwnerType ownerType, int ownerId, int subjectDefinitionId)
+    {
+        // Scope mirrors the app's own factories: Subject and PlotPointSubjectLink properties are
+        // filtered by subject type; PlotPoint and Chapter properties apply to every owner.
+        var defs = c.NarrativeProperties
+            .Where(p => p.OwnerType == ownerType
+                     && (ownerType is OwnerType.PlotPoint or OwnerType.Chapter
+                         || p.SubjectDefinitionId == subjectDefinitionId))
+            .OrderBy(p => p.DisplayOrder)
+            .ToList();
+
+        if (defs.Count == 0) return null;
+
+        var assigned = c.NarrativePropertyValuesByOwner.TryGetValue((ownerType, ownerId), out var vals)
+            ? vals
+            : [];
+
+        var parts = defs.Select(def =>
+        {
+            var valueDefIds = c.ValueDefsByProperty.TryGetValue(def.Id, out var vs)
+                ? vs.Select(v => v.Id).ToHashSet()
+                : [];
+            var hit = assigned.FirstOrDefault(a => valueDefIds.Contains(a.ValueDefinitionId));
+            var label = hit is not null && c.NarrativePropertyValueDefById.TryGetValue(hit.ValueDefinitionId, out var vd)
+                ? vd.ValueName
+                : "(unset)";
+            return $"{def.Name}={label}";
+        });
+
+        return $"properties: {string.Join(", ", parts)}";
+    }
+
     // ── fetch: subjects (edges embedded: scene links) ───────────────────────────
 
     public static string GetSubjects(PlanCache c, int[] ids, bool includeNotes)
@@ -192,6 +234,9 @@ internal static class Engine
             sb.AppendLine($"## {s.Name} [{type}] (subject:{s.Id})");
             if (s.Abbreviation.Length > 0) sb.AppendLine($"abbreviation: {s.Abbreviation}");
             if (s.Description.Length > 0) sb.AppendLine($"description: {s.Description}");
+
+            var propertyLine = NarrativePropertyLine(c, OwnerType.Subject, s.Id, s.SubjectDefinitionId);
+            if (propertyLine is not null) sb.AppendLine(propertyLine);
 
             var own = c.NotesByOwner.TryGetValue((OwnerType.Subject, s.Id), out var list) ? list : [];
             var visible = own.Where(n => n.NoteState != NoteState.Flagged).ToList();

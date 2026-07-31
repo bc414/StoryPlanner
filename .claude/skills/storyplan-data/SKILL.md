@@ -272,12 +272,42 @@ pre-enumerated (seeded from a reviewable config, not accreted on first citation)
 is real negative space only if the set is known to be complete; do not treat an empty
 `SourceMaterialParts` table as "nothing to cite," check whether seeding has run.
 
-**`NarrativePropertyDefinitions` / `NarrativePropertyValueDefinitions` / `NarrativePropertyValues`**
-(`Models/NarrativeProperty*.cs`) — a generic typed-enum-on-an-entity system. A `NarrativePropertyDefinition`
-belongs to a `SubjectDefinition`+`OwnerType` and asks a `Question`; `NarrativePropertyValueDefinition`
-rows are its allowed answers; `NarrativePropertyValues` rows are the actual `OwnerId` → chosen
-`ValueDefinitionId` assignments (no `OwnerType` column on the value itself — cross-reference via
-the definition chain).
+**`NarrativePropertyDefinitions` / `NarrativePropertyValueDefinitions` / `NarrativePropertyValues`
+/ `WorkPhases`** (`Models/NarrativeProperty*.cs`, `Models/WorkPhase.cs`) — a generic
+typed-enum-on-an-entity system, dormant from 2026-05-06 until its first real use on 2026-07-31.
+A `NarrativePropertyDefinition` belongs to a `SubjectDefinition`+`OwnerType` and asks a `Question`;
+`NarrativePropertyValueDefinition` rows are its allowed answers; `NarrativePropertyValues` rows are
+the actual `OwnerId` → chosen `ValueDefinitionId` assignments.
+
+Four things to know before querying it:
+
+- **No `OwnerType` on the value row.** Join
+  `NarrativePropertyValues → NarrativePropertyValueDefinitions → NarrativePropertyDefinitions` to
+  learn what kind of owner an `OwnerId` refers to. A bare `OwnerId` match conflates subject 7 with
+  chapter 7 — the same class of error as ignoring `Note.OwnerType`.
+- **Single-select.** At most one value per (owner, property). Nothing in the schema enforces it;
+  `PlanIntegrity` reports a second as `narrativevalue.duplicate_for_property`. If you find one,
+  it is a bug, not a legal multi-value assignment.
+- **Unset = no row.** There is no sentinel value row, and unset is a normal long-lived state, so a
+  `LEFT JOIN` is the right shape and a count of assignments is not a count of entities.
+  "Which entities lack a value" is a legitimate question about *data*; **which value one should
+  get is not** — that is authorial categorization (CLAUDE.md).
+- **Scope is the compound key.** `(SubjectDefinitionId, OwnerType)`, exactly like
+  `NoteTrackDefinition` — and with the same asymmetry: rows for `OwnerType.PlotPoint` and
+  `.Chapter` ignore `SubjectDefinitionId` (their call sites filter on `OwnerType` alone), while
+  `.Subject` and `.PlotPointSubjectLink` rows use both.
+
+`WorkPhases` are the ordered stages of the planning work (`Name`, `DisplayOrder`, plus
+`RequiresZeroFlaggedNotes` / `RequiresZeroUnsetNotes` criteria). **Not `EditorMode`** — the names
+overlap, the concepts do not, and neither derives from the other. Phase completion is derived from
+the criteria, never stored, the same way timeline eras are derived as the gaps between pivots.
+`NarrativePropertyDefinition.GatingWorkPhaseId` (nullable, null = never gates) names the phase at
+which an unset value is *reported* as a gap; it blocks nothing.
+
+Seeded by the `seed-narrative-properties` DataOps op, which writes definitions and allowed values
+and **never a `NarrativePropertyValue`** — a test pins that. Its config carries no prose fields at
+all, so `Question` / `Explanation` / `Description` are authored in the app and cannot be clobbered
+by a re-run.
 
 **`Conversations` / `ConversationBlocks` / `ConversationSubjectCoverages` / `ConversationSubjectCoverageTracks` / `IgnoredConversations`**
 (`Models/Conversation*.cs`, `IgnoredConversation.cs`) — the Conversation Reader feature (imported

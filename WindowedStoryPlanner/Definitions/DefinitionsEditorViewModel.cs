@@ -21,6 +21,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
 {
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _registry;
+    private readonly IContentDeleter _deleter;
 
     // Registry-owned collections — exposed as passthroughs for XAML binding
     public ObservableCollection<SubjectDefinitionViewModel> SubjectDefinitions
@@ -28,6 +29,19 @@ public partial class DefinitionsEditorViewModel : ObservableObject
 
     public ObservableCollection<NoteTrackDefinitionViewModel> NoteTrackDefinitions
         => _registry.AllNoteTrackDefinitionViewModels;
+
+    public ObservableCollection<WorkPhaseViewModel> WorkPhases
+        => _registry.AllWorkPhaseViewModels;
+
+    public ObservableCollection<NarrativePropertyDefinitionViewModel> NarrativePropertyDefinitions
+        => _registry.AllNarrativePropertyDefinitionViewModels;
+
+    public ObservableCollection<NarrativePropertyValueDefinitionViewModel> NarrativePropertyValueDefinitions
+        => _registry.AllNarrativePropertyValueDefinitionViewModels;
+
+    /// <summary>Status line for the narrative-property grids — a refused delete is otherwise silent.</summary>
+    [ObservableProperty]
+    private string _narrativePropertyStatus = string.Empty;
 
     // UI-only derived state — not model data, lives here not in registry
     public ObservableCollection<string> AvailableSubjectTypes { get; } = new();
@@ -37,10 +51,11 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     public IReadOnlyList<int?> FunctionKeyOptions { get; } =
         new int?[] { null }.Concat(Enumerable.Range(1, 12).Cast<int?>()).ToList();
 
-    public DefinitionsEditorViewModel(IStoryService storyService, IViewModelRegistry registry)
+    public DefinitionsEditorViewModel(IStoryService storyService, IViewModelRegistry registry, IContentDeleter deleter)
     {
         _storyService = storyService;
         _registry     = registry;
+        _deleter      = deleter;
     }
 
     /// <summary>
@@ -137,6 +152,87 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         await _storyService.SaveAsync();
     }
 
+    // ── Work phases ───────────────────────────────────────────────────────────
+
+    [RelayCommand]
+    private async Task AddWorkPhase()
+    {
+        int nextOrder = WorkPhases.Count > 0 ? WorkPhases.Max(p => p.DisplayOrder) + 1 : 1;
+        var model = new WorkPhase { Name = "New Phase", DisplayOrder = nextOrder };
+        _storyService.WorkPhases.Add(model);
+        await _storyService.SaveAsync();
+        WorkPhases.Add(new WorkPhaseViewModel(model, _storyService));
+    }
+
+    [RelayCommand]
+    private async Task DeleteWorkPhase(WorkPhaseViewModel vm)
+    {
+        NarrativePropertyStatus = await _deleter.TryDeleteWorkPhaseAsync(vm)
+            ? string.Empty
+            : $"Cannot delete \"{vm.Name}\" — a narrative property gates on it. Clear that first.";
+    }
+
+    // ── Narrative property definitions ────────────────────────────────────────
+
+    [RelayCommand]
+    private async Task AddNarrativePropertyDefinition()
+    {
+        int nextOrder = NarrativePropertyDefinitions.Count > 0
+            ? NarrativePropertyDefinitions.Max(p => p.DisplayOrder) + 1
+            : 1;
+        var model = new NarrativePropertyDefinition
+        {
+            Name = "New Property",
+            OwnerType = OwnerType.Subject,
+            SubjectDefinitionId = SubjectDefinitions.FirstOrDefault()?.Id ?? 0,
+            DisplayOrder = nextOrder
+            // Question / Explanation stay empty — the same rule the seed op follows. An empty
+            // field is visibly unfinished; a placeholder reads as decided.
+        };
+        _storyService.NarrativePropertyDefinitions.Add(model);
+        await _storyService.SaveAsync();
+        NarrativePropertyDefinitions.Add(new NarrativePropertyDefinitionViewModel(
+            model, _storyService, SubjectDefinitions, WorkPhases));
+    }
+
+    [RelayCommand]
+    private async Task DeleteNarrativePropertyDefinition(NarrativePropertyDefinitionViewModel vm)
+    {
+        NarrativePropertyStatus = await _deleter.TryDeleteNarrativePropertyDefinitionAsync(vm)
+            ? string.Empty
+            : $"Cannot delete \"{vm.Name}\" — entities have values assigned on it. Clear those first.";
+    }
+
+    // ── Allowed values ────────────────────────────────────────────────────────
+
+    [RelayCommand]
+    private async Task AddNarrativePropertyValueDefinition(NarrativePropertyDefinitionViewModel property)
+    {
+        if (property is null) return;
+
+        var model = new NarrativePropertyValueDefinition
+        {
+            NarrativePropertyDefinitionId = property.Id,
+            ValueName = "New Value"
+        };
+        _storyService.NarrativePropertyValueDefinitions.Add(model);
+        await _storyService.SaveAsync();
+
+        NarrativePropertyValueDefinitions.Add(new NarrativePropertyValueDefinitionViewModel(
+            model, _storyService, NarrativePropertyDefinitions));
+        // The entity editor's picker binds the other projection — keep both in step or a new value
+        // will not appear in any dropdown until the project is reopened.
+        _registry.AllNarrativePropertyValueDefinitions.Add(new NarrativePropertyValueViewModel(model));
+    }
+
+    [RelayCommand]
+    private async Task DeleteNarrativePropertyValueDefinition(NarrativePropertyValueDefinitionViewModel vm)
+    {
+        NarrativePropertyStatus = await _deleter.TryDeleteNarrativePropertyValueDefinitionAsync(vm)
+            ? string.Empty
+            : $"Cannot delete \"{vm.ValueName}\" — entities have it assigned. Clear those first.";
+    }
+
     private void SortNoteTrackDefinitions()
     {
         var sorted = NoteTrackDefinitions
@@ -220,7 +316,24 @@ public partial class DefinitionsEditorViewModel : ObservableObject
                 HiddenInAuditMode:           t.HiddenInAuditMode,
                 HiddenInSceneDesignMode:     t.HiddenInSceneDesignMode));
 
-        string markdown = DefinitionsMarkdownExporter.Build(subjectData, trackData);
+        var propertyData = NarrativePropertyDefinitions
+            .Select(p => new NarrativePropertyExportData(
+                Id:                  p.Id,
+                Name:                p.Name,
+                OwnerType:           p.OwnerType.ToString(),
+                SelectedSubjectType: p.OwnerType is OwnerType.PlotPoint or OwnerType.Chapter
+                                         ? string.Empty          // these ignore SubjectDefinitionId
+                                         : p.SelectedSubjectType,
+                DisplayOrder:        p.DisplayOrder,
+                Question:            p.Question,
+                Explanation:         p.Explanation,
+                GatingWorkPhase:     p.SelectedWorkPhase?.Name ?? string.Empty,
+                Values:              NarrativePropertyValueDefinitions
+                                         .Where(v => v.NarrativePropertyDefinitionId == p.Id)
+                                         .Select(v => new NarrativePropertyValueExportData(v.ValueName, v.Description))
+                                         .ToList()));
+
+        string markdown = DefinitionsMarkdownExporter.Build(subjectData, trackData, propertyData);
         File.WriteAllText(outputPath, markdown);
 
         MessageBox.Show($"Exported to:\n{outputPath}", "Export Complete",

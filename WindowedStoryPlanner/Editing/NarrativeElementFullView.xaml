@@ -8,6 +8,8 @@
              d:DesignHeight="450" d:DesignWidth="800" d:DataContext="{d:DesignInstance Type=local:NarrativeElementViewModel}"
              xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop">
     <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+
         <local:NarrativeElementWidgetSelector x:Key="WidgetSelector">
             <local:NarrativeElementWidgetSelector.SubjectTemplate>
                 <DataTemplate><local:SubjectWidget/></DataTemplate>
@@ -75,6 +77,56 @@
                         ContentTemplateSelector="{StaticResource WidgetSelector}"
                         dd:DragDrop.IsDropTarget="True"
                         dd:DragDrop.DropHandler="{Binding}"/>
+
+        <!-- ── Narrative properties: one picker per configured property ──
+             Entity-level facts, peers of the widget's fields — deliberately NOT a fourth sibling
+             of Populated/Empty/HiddenNoteTracks (those are one partition of one collection) and
+             deliberately not inside the track ScrollViewer, whose children size against its
+             viewport. Collapses entirely when the entity's type has no properties configured,
+             which is every entity until the definitions are seeded. -->
+        <ItemsControl DockPanel.Dock="Top"
+                      ItemsSource="{Binding NarrativeProperties}"
+                      Margin="8,4,8,2">
+            <ItemsControl.Style>
+                <Style TargetType="ItemsControl">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding NarrativeProperties.Count}" Value="0">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ItemsControl.Style>
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,16,4"
+                                ToolTip="{Binding Explanation}">
+                        <TextBlock Text="{Binding Name}" FontWeight="SemiBold" FontSize="11"
+                                   VerticalAlignment="Center" Margin="0,0,6,0"
+                                   ToolTip="{Binding Question}"/>
+                        <!-- A gated property with no value shows a marker and nothing more.
+                             It never disables an action; see NarrativePropertyViewModel. -->
+                        <TextBlock Text="&#x25CF;" Foreground="#C0392B" FontSize="10"
+                                   VerticalAlignment="Center" Margin="0,0,4,0"
+                                   ToolTip="No value assigned — this property gates a work phase."
+                                   Visibility="{Binding IsGatedAndUnset,
+                                                Converter={StaticResource BoolToVis}}"/>
+                        <ComboBox ItemsSource="{Binding ValidValues}"
+                                  SelectedItem="{Binding SelectedValue, Mode=TwoWay}"
+                                  DisplayMemberPath="ValueName"
+                                  MinWidth="170" FontSize="11" VerticalAlignment="Center"/>
+                        <Button Content="&#x2715;" Command="{Binding ClearCommand}"
+                                Padding="5,0" Margin="3,0,0,0" FontSize="10"
+                                VerticalAlignment="Center"
+                                ToolTip="Clear — returns this property to unset"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
 
         <!-- Note tracks -->
         <ScrollViewer x:Name="TrackScrollViewer"

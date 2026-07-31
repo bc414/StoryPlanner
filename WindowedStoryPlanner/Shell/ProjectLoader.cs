@@ -66,6 +66,34 @@ public class ProjectLoader
             _registry.AllNoteTrackDefinitionViewModels.Add(
                 new NoteTrackDefinitionViewModel(m, _storyService, _registry.AllSubjectDefinitionViewModels));
 
+        // Narrative property definitions belong in THIS block, not after the narrative elements.
+        // Every SubjectViewModel / PlotPointViewModel / ChapterViewModel /
+        // PlotPointSubjectLinkViewModel constructed below runs InitializeCollections ->
+        // RebuildNoteTracks -> new NarrativePropertyViewModel(...), which resolves its allowed
+        // values against these collections. Populating them afterwards left every property with an
+        // empty value list; it went unnoticed for a year only because the tables held no rows.
+        _registry.AllNarrativePropertyValues = _storyService.NarrativePropertyValues;
+
+        foreach (var value in _storyService.NarrativePropertyValueDefinitions)
+            _registry.AllNarrativePropertyValueDefinitions.Add(
+                new NarrativePropertyValueViewModel(value));
+
+        // Work phases before property definitions — the gating-phase combo resolves against them
+        // at construction. Same dependency shape as note tracks needing subject definitions above,
+        // and stories needing to precede chapters below.
+        foreach (var m in _storyService.WorkPhases.OrderBy(p => p.DisplayOrder))
+            _registry.AllWorkPhaseViewModels.Add(new WorkPhaseViewModel(m, _storyService));
+
+        foreach (var m in _storyService.NarrativePropertyDefinitions.OrderBy(p => p.DisplayOrder))
+            _registry.AllNarrativePropertyDefinitionViewModels.Add(
+                new NarrativePropertyDefinitionViewModel(
+                    m, _storyService, _registry.AllSubjectDefinitionViewModels, _registry.AllWorkPhaseViewModels));
+
+        foreach (var m in _storyService.NarrativePropertyValueDefinitions)
+            _registry.AllNarrativePropertyValueDefinitionViewModels.Add(
+                new NarrativePropertyValueDefinitionViewModel(
+                    m, _storyService, _registry.AllNarrativePropertyDefinitionViewModels));
+
         // Sync UI-derived state on tab VMs that depend on definitions
         _definitions.Reload();
         _subjectLibrary.Reload();
@@ -133,12 +161,6 @@ public class ProjectLoader
             convVm.OnStatsRefreshed = _conversationLibrary.RefreshDashboard;
             _registry.AllConversationViewModels.Add(convVm);
         }
-
-        _registry.AllNarrativePropertyValues = _storyService.NarrativePropertyValues;
-
-        foreach (var value in _storyService.NarrativePropertyValueDefinitions)
-            _registry.AllNarrativePropertyValueDefinitions.Add(
-                new NarrativePropertyValueViewModel(value));
 
         // Signal that bulk loading is complete. NarrativeElementViewModels use
         // this to defer their initial note-count calculation until all notes exist.

@@ -36,6 +36,10 @@ public sealed class PlanCache
     public required IReadOnlyList<NoteSourceReference> SourceReferences { get; init; }
     public required IReadOnlyList<Conversation> Conversations { get; init; }
     public required IReadOnlyList<ConversationBlock> Blocks { get; init; }
+    public required IReadOnlyList<WorkPhase> WorkPhases { get; init; }
+    public required IReadOnlyList<NarrativePropertyDefinition> NarrativeProperties { get; init; }
+    public required IReadOnlyList<NarrativePropertyValueDefinition> NarrativePropertyValueDefs { get; init; }
+    public required IReadOnlyList<NarrativePropertyValue> NarrativePropertyValues { get; init; }
 
     public required IReadOnlyDictionary<int, Subject> SubjectById { get; init; }
     public required IReadOnlyDictionary<int, SubjectDefinition> SubjectDefById { get; init; }
@@ -67,6 +71,23 @@ public sealed class PlanCache
     /// <summary>Links grouped by SubjectId and by PlotPointId.</summary>
     public required IReadOnlyDictionary<int, List<PlotPointSubjectLink>> LinksBySubject { get; init; }
     public required IReadOnlyDictionary<int, List<PlotPointSubjectLink>> LinksByPlotPoint { get; init; }
+
+    public required IReadOnlyDictionary<int, WorkPhase> WorkPhaseById { get; init; }
+    public required IReadOnlyDictionary<int, NarrativePropertyDefinition> NarrativePropertyById { get; init; }
+    public required IReadOnlyDictionary<int, NarrativePropertyValueDefinition> NarrativePropertyValueDefById { get; init; }
+
+    /// <summary>Allowed values grouped by their owning property, in row order.</summary>
+    public required IReadOnlyDictionary<int, List<NarrativePropertyValueDefinition>> ValueDefsByProperty { get; init; }
+
+    /// <summary>
+    /// Assigned narrative property values grouped by (OwnerType, OwnerId).
+    ///
+    /// NarrativePropertyValue has NO OwnerType column of its own — it is resolved by tracing
+    /// ValueDefinitionId -> NarrativePropertyDefinitionId -> OwnerType, mirroring
+    /// ContentDeleter.RemoveOwnedNarrativePropertyValues and PlanIntegrity. Do not "simplify" this
+    /// to a plain OwnerId key: subject 7 and chapter 7 would collide silently.
+    /// </summary>
+    public required IReadOnlyDictionary<(OwnerType, int), List<NarrativePropertyValue>> NarrativePropertyValuesByOwner { get; init; }
 }
 
 /// <summary>
@@ -198,6 +219,17 @@ public sealed class StoryPlanSources : IDisposable
         var sourceReferences = ctx.NoteSourceReferences.ToList();
         var conversations = ctx.Conversations.ToList();
         var blocks = ctx.ConversationBlocks.ToList();
+        var workPhases = ctx.WorkPhases.OrderBy(p => p.DisplayOrder).ToList();
+        var properties = ctx.NarrativePropertyDefinitions.ToList();
+        var valueDefs = ctx.NarrativePropertyValueDefinitions.ToList();
+        var propertyValues = ctx.NarrativePropertyValues.ToList();
+
+        // Resolve each assignment's owner type through the definition chain — the value row has no
+        // OwnerType of its own. An assignment whose value definition is missing is dropped rather
+        // than guessed; PlanIntegrity reports it as narrativevalue.definition_missing.
+        var ownerTypeByValueDefId = valueDefs
+            .Join(properties, vd => vd.NarrativePropertyDefinitionId, pd => pd.Id, (vd, pd) => new { vd.Id, pd.OwnerType })
+            .ToDictionary(x => x.Id, x => x.OwnerType);
 
         return new PlanCache
         {
@@ -249,7 +281,21 @@ public sealed class StoryPlanSources : IDisposable
                 .ToDictionary(g => g.Key, g => g.OrderBy(p => p.OrderIndex).ToList()),
             SourceReferencesByNote = sourceReferences
                 .GroupBy(r => r.NoteId)
-                .ToDictionary(g => g.Key, g => g.OrderBy(r => r.SortOrder).ToList())
+                .ToDictionary(g => g.Key, g => g.OrderBy(r => r.SortOrder).ToList()),
+            WorkPhases = workPhases,
+            NarrativeProperties = properties,
+            NarrativePropertyValueDefs = valueDefs,
+            NarrativePropertyValues = propertyValues,
+            WorkPhaseById = workPhases.ToDictionary(p => p.Id),
+            NarrativePropertyById = properties.ToDictionary(p => p.Id),
+            NarrativePropertyValueDefById = valueDefs.ToDictionary(v => v.Id),
+            ValueDefsByProperty = valueDefs
+                .GroupBy(v => v.NarrativePropertyDefinitionId)
+                .ToDictionary(g => g.Key, g => g.OrderBy(v => v.Id).ToList()),
+            NarrativePropertyValuesByOwner = propertyValues
+                .Where(v => ownerTypeByValueDefId.ContainsKey(v.ValueDefinitionId))
+                .GroupBy(v => (ownerTypeByValueDefId[v.ValueDefinitionId], v.OwnerId))
+                .ToDictionary(g => g.Key, g => g.ToList())
         };
     }
 

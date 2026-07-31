@@ -33,7 +33,12 @@
         </Style>
     </UserControl.Resources>
 
-    <Grid Margin="12">
+    <!-- Two tabs rather than five stacked sections: the existing subject/track grids already
+         fill the height, and the narrative-property grids are a separate concern with their own
+         add/delete verbs. The existing content moved wholesale into tab 1, unedited. -->
+    <TabControl Margin="12">
+    <TabItem Header="Subjects &amp; Tracks">
+    <Grid Margin="8">
         <Grid.RowDefinitions>
             <!-- Subject Definitions section -->
             <RowDefinition Height="Auto"/>
@@ -572,4 +577,175 @@
         </StackPanel>
 
     </Grid>
+    </TabItem>
+
+    <TabItem Header="Narrative Properties">
+        <Grid Margin="8">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"  MinHeight="80"/>
+                <RowDefinition Height="6"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="2*" MinHeight="120"/>
+                <RowDefinition Height="6"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="2*" MinHeight="120"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- ── Work Phases ── -->
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,4">
+                <TextBlock Text="Work Phases" Style="{StaticResource SectionHeader}" VerticalAlignment="Center"/>
+                <Button Content="+ Add" Style="{StaticResource AddButton}"
+                        Command="{Binding AddWorkPhaseCommand}"
+                        Margin="12,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Stages of the planning work, in order. Not editor modes."
+                           Foreground="#777777" FontSize="11" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            </StackPanel>
+
+            <DataGrid Grid.Row="1" ItemsSource="{Binding WorkPhases}"
+                      AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                      SelectionMode="Single" HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal" RowHeaderWidth="0"
+                      BorderBrush="#CCCCCC" BorderThickness="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id"    Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
+                    <DataGridTextColumn Header="Order" Binding="{Binding DisplayOrder, UpdateSourceTrigger=PropertyChanged}" Width="55"/>
+                    <DataGridTextColumn Header="Name"  Binding="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Width="180"/>
+                    <DataGridCheckBoxColumn Header="0 Flagged" Binding="{Binding RequiresZeroFlaggedNotes, UpdateSourceTrigger=PropertyChanged}" Width="75"/>
+                    <DataGridCheckBoxColumn Header="0 Unset"   Binding="{Binding RequiresZeroUnsetNotes, UpdateSourceTrigger=PropertyChanged}" Width="70"/>
+                    <DataGridTextColumn Header="Description" Binding="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                    <DataGridTemplateColumn Header="" Width="34">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="✕" Style="{StaticResource DeleteButton}"
+                                        Command="{Binding DataContext.DeleteWorkPhaseCommand,
+                                                  RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                        CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <GridSplitter Grid.Row="2" Height="6" HorizontalAlignment="Stretch" Background="#EEEEEE"/>
+
+            <!-- ── Property Definitions ── -->
+            <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,4">
+                <TextBlock Text="Narrative Properties" Style="{StaticResource SectionHeader}" VerticalAlignment="Center"/>
+                <Button Content="+ Add" Style="{StaticResource AddButton}"
+                        Command="{Binding AddNarrativePropertyDefinitionCommand}"
+                        Margin="12,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Subject Type applies to Subject and Link properties only; Plot Point and Chapter ignore it."
+                           Foreground="#777777" FontSize="11" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            </StackPanel>
+
+            <DataGrid Grid.Row="4" x:Name="PropertyDefinitionsGrid"
+                      ItemsSource="{Binding NarrativePropertyDefinitions}"
+                      AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                      SelectionMode="Single" HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal" RowHeaderWidth="0"
+                      BorderBrush="#CCCCCC" BorderThickness="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id"    Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
+                    <DataGridTextColumn Header="Order" Binding="{Binding DisplayOrder, UpdateSourceTrigger=PropertyChanged}" Width="55"/>
+                    <DataGridTextColumn Header="Name"  Binding="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Width="160"/>
+                    <DataGridTemplateColumn Header="Owner Type" Width="130">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate><TextBlock Text="{Binding OwnerType}" VerticalAlignment="Center" Margin="4,0"/></DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <ComboBox SelectedItem="{Binding OwnerType, UpdateSourceTrigger=PropertyChanged}"
+                                          ItemsSource="{Binding DataContext.OwnerTypes,
+                                                        RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Subject Type" Width="150">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate><TextBlock Text="{Binding SelectedSubjectType}" VerticalAlignment="Center" Margin="4,0"/></DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <ComboBox SelectedItem="{Binding SelectedSubjectType, UpdateSourceTrigger=PropertyChanged}"
+                                          ItemsSource="{Binding DataContext.AvailableSubjectTypes,
+                                                        RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Gates At" Width="120">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate><TextBlock Text="{Binding SelectedWorkPhase.Name}" VerticalAlignment="Center" Margin="4,0"/></DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <ComboBox SelectedItem="{Binding SelectedWorkPhase, UpdateSourceTrigger=PropertyChanged}"
+                                          DisplayMemberPath="Name"
+                                          ItemsSource="{Binding DataContext.WorkPhases,
+                                                        RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Question"    Binding="{Binding Question, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                    <DataGridTextColumn Header="Explanation" Binding="{Binding Explanation, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                    <DataGridTemplateColumn Header="" Width="34">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="✕" Style="{StaticResource DeleteButton}"
+                                        Command="{Binding DataContext.DeleteNarrativePropertyDefinitionCommand,
+                                                  RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                        CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <GridSplitter Grid.Row="5" Height="6" HorizontalAlignment="Stretch" Background="#EEEEEE"/>
+
+            <!-- ── Allowed Values ── -->
+            <StackPanel Grid.Row="6" Orientation="Horizontal" Margin="0,0,0,4">
+                <TextBlock Text="Allowed Values" Style="{StaticResource SectionHeader}" VerticalAlignment="Center"/>
+                <Button Content="+ Add to selected property" Style="{StaticResource AddButton}"
+                        Command="{Binding AddNarrativePropertyValueDefinitionCommand}"
+                        CommandParameter="{Binding SelectedItem, ElementName=PropertyDefinitionsGrid}"
+                        Margin="12,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Single-select: an entity holds at most one of these per property. Row order is the picker order."
+                           Foreground="#777777" FontSize="11" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            </StackPanel>
+
+            <DataGrid Grid.Row="7" ItemsSource="{Binding NarrativePropertyValueDefinitions}"
+                      AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                      SelectionMode="Single" HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal" RowHeaderWidth="0"
+                      BorderBrush="#CCCCCC" BorderThickness="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id"       Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
+                    <DataGridTextColumn Header="Property" Binding="{Binding PropertyName}" IsReadOnly="True" Width="170"/>
+                    <DataGridTextColumn Header="Value"    Binding="{Binding ValueName, UpdateSourceTrigger=PropertyChanged}" Width="220"/>
+                    <DataGridTextColumn Header="Description" Binding="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                    <DataGridTemplateColumn Header="" Width="34">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="✕" Style="{StaticResource DeleteButton}"
+                                        Command="{Binding DataContext.DeleteNarrativePropertyValueDefinitionCommand,
+                                                  RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                        CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <!-- Refused deletes are otherwise silent — the guards return false and do nothing. -->
+            <DockPanel Grid.Row="8" Margin="0,8,0,0" LastChildFill="False">
+                <TextBlock DockPanel.Dock="Left" Text="{Binding NarrativePropertyStatus}"
+                           Foreground="#C0392B" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <Button DockPanel.Dock="Right" Content="Save All" Padding="14,5"
+                        Command="{Binding SaveAllCommand}"/>
+            </DockPanel>
+        </Grid>
+    </TabItem>
+    </TabControl>
 </UserControl>

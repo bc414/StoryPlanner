@@ -52,6 +52,8 @@ public partial class App : Application
                 services.AddSingleton<FloatingPlotPointsViewModel>();
                 services.AddSingleton<TimelineViewModel>();
                 services.AddSingleton<GlobalSearchViewModel>();
+                services.AddSingleton<ProgressViewModel>();
+                services.AddSingleton<PropertyGapsViewModel>();
 
                 services.AddSingleton<ExportService>();
                 services.AddSingleton<ExportViewModel>();
