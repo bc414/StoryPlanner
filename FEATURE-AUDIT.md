@@ -202,7 +202,7 @@ The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-S
 
 - **G1 — ⚪ Session export presets — remainder dropped 2026-07-30.** 019 block 63 wanted purpose-scoped exports with degree-of-separation entity scoping and track-type exclusion. Most of this **is built**: [ExportConfiguration.cs](StoryPlanner.Core/Export/ExportConfiguration.cs) has `Anchors`, `Scope`, `ChapterFrom/To`, `IncludedTrackTypes`, and [ExportResolver.cs](StoryPlanner.Core/Export/ExportResolver.cs) implements a real 0/1/2-degree expansion (anchors → links → other-end entities). The only missing piece was *named presets* as saved configurations, and Brian declined it when offered: "I don't need any more work on the markdown exports since I have the mcp server now." The MCP server superseded the export workflow the presets were for.
 - **F-key track assignment** (038/039 P46) — **done**: `DefinitionsEditorViewModel.FunctionKeyOptions`, `NoteTrackSectionView.xaml.cs` `PreviewKeyDown`, `App.xaml.cs` `OnGlobalKeyDown`.
-- **Cross-cut tag views** for Theme and SourceMaterial (015) — **done** via `TaggedNotesViewModelBase` (`ThemeDetailViewModel`, `SourceMaterialDetailViewModel`).
+- **Cross-cut tag views** for Theme and SourceMaterial (015) — **done** via `TaggedNotesViewModelBase` (`ThemeDetailViewModel`, `SourceMaterialDetailViewModel`, `SourceMaterialPartDetailViewModel`). SourceMaterial's was built 2026-06-21 but unreachable in practice until 2026-07-31 — see the note near the top of this document.
 
 ## ⚪ Proposed but deliberately rejected (do not build)
 
