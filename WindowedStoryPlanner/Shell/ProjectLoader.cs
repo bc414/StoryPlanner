@@ -122,7 +122,7 @@ public class ProjectLoader
 
         foreach (var conv in _storyService.Conversations)
         {
-            var convVm = new ConversationViewModel(conv, _windowManager, _factory, _registry);
+            var convVm = new ConversationViewModel(conv, _windowManager, _factory, _registry, _storyService);
             if (blocksByConv.TryGetValue(conv.Id, out var blocks))
                 foreach (var block in blocks)
                 {

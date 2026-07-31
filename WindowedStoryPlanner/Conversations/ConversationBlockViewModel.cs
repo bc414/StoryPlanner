@@ -34,6 +34,10 @@ public partial class ConversationBlockViewModel : ObservableObject
     [ObservableProperty]
     private BlockState _blockState = BlockState.Unread;
 
+    // Multi-select membership (two-way bound to ListBoxItem.IsSelected in the reader window).
+    [ObservableProperty]
+    private bool _isSelected;
+
     partial void OnBlockStateChanged(BlockState value)
     {
         Model.BlockState = value;
@@ -46,12 +50,34 @@ public partial class ConversationBlockViewModel : ObservableObject
         await _storyService.SaveAsync();
     }
 
-    // ── State commands (used by right-click menu and keyboard shortcuts) ────────
+    // Sets the state without triggering the per-block save/stat-refresh in
+    // OnBlockStateChanged — the bulk path saves and refreshes once for the whole
+    // selection instead (N concurrent SaveAsync calls on one DbContext would throw).
+    public void SetStateBulk(BlockState value)
+    {
+        if (_blockState == value) return;
+        _blockState      = value;
+        Model.BlockState = value;
+        OnPropertyChanged(nameof(BlockState));
+    }
 
-    [RelayCommand] public void MarkUnread()  => BlockState = BlockState.Unread;
-    [RelayCommand] public void MarkSkipped() => BlockState = BlockState.Skipped;
-    [RelayCommand] public void MarkFlagged() => BlockState = BlockState.Flagged;
-    [RelayCommand] public void MarkDone()    => BlockState = BlockState.Done;
+    // ── State commands (used by right-click menu and keyboard shortcuts) ────────
+    // When this block is part of a multi-selection, the command applies to the whole
+    // selection; a block outside the selection (e.g. right-clicked directly) stays
+    // single-target — standard Windows selection semantics.
+
+    [RelayCommand] public void MarkUnread()  => Mark(BlockState.Unread);
+    [RelayCommand] public void MarkSkipped() => Mark(BlockState.Skipped);
+    [RelayCommand] public void MarkFlagged() => Mark(BlockState.Flagged);
+    [RelayCommand] public void MarkDone()    => Mark(BlockState.Done);
+
+    private void Mark(BlockState state)
+    {
+        if (IsSelected && ParentConversation?.SelectedCount > 1)
+            _ = ParentConversation.ApplyStateToSelectionAsync(state);
+        else
+            BlockState = state;
+    }
 
     // ── Initialization ─────────────────────────────────────────────────────────
 

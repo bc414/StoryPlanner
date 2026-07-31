@@ -19,6 +19,7 @@ public partial class ConversationViewModel : ObservableObject
     private readonly IWindowManager     _windowManager;
     private readonly IContentFactory    _contentFactory;
     private readonly IViewModelRegistry _registry;
+    private readonly IStoryService      _storyService;
 
     public Conversation Model { get; }
 
@@ -32,12 +33,14 @@ public partial class ConversationViewModel : ObservableObject
         Conversation model,
         IWindowManager windowManager,
         IContentFactory contentFactory,
-        IViewModelRegistry registry)
+        IViewModelRegistry registry,
+        IStoryService storyService)
     {
         Model           = model;
         _windowManager  = windowManager;
         _contentFactory = contentFactory;
         _registry       = registry;
+        _storyService   = storyService;
     }
 
     // ── Passthrough display properties ─────────────────────────────────────────
@@ -95,6 +98,19 @@ public partial class ConversationViewModel : ObservableObject
 
     [ObservableProperty]
     private ConversationBlockViewModel? _selectedBlock;
+
+    public int SelectedCount => Blocks.Count(b => b.IsSelected);
+
+    // Bulk state application for the multi-selection: set every selected block's
+    // state without per-block persistence, then refresh stats and save exactly once.
+    public async Task ApplyStateToSelectionAsync(BlockState state)
+    {
+        foreach (var block in Blocks.Where(b => b.IsSelected))
+            block.SetStateBulk(state);
+
+        RefreshStats();
+        await _storyService.SaveAsync();
+    }
 
     [RelayCommand]
     private void SelectBlock(ConversationBlockViewModel block)

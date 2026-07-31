@@ -54,6 +54,9 @@
             <Setter Property="Margin"                     Value="0"/>
             <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
             <Setter Property="ContextMenu"                Value="{StaticResource BlockContextMenu}"/>
+            <!-- Shared VM selection flag: keeps index and summary columns mirrored and
+                 lets state commands apply to the whole multi-selection. -->
+            <Setter Property="IsSelected"                 Value="{Binding IsSelected, Mode=TwoWay}"/>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="ListBoxItem">
@@ -130,7 +133,8 @@
                      Style="{StaticResource NakedListBox}"
                      ItemContainerStyle="{StaticResource NakedListBoxItem}"
                      ItemsSource="{Binding Blocks}"
-                     SelectedItem="{Binding SelectedBlock, Mode=TwoWay}">
+                     SelectionMode="Extended"
+                     SelectionChanged="OnBlockSelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate DataType="{x:Type local:ConversationBlockViewModel}">
                         <StackPanel Margin="5,3,4,3">
@@ -153,7 +157,8 @@
                      Style="{StaticResource NakedListBox}"
                      ItemContainerStyle="{StaticResource NakedListBoxItem}"
                      ItemsSource="{Binding Blocks}"
-                     SelectedItem="{Binding SelectedBlock, Mode=TwoWay}">
+                     SelectionMode="Extended"
+                     SelectionChanged="OnBlockSelectionChanged">
                 <ListBox.ItemTemplate>
                     <DataTemplate DataType="{x:Type local:ConversationBlockViewModel}">
                         <Border Padding="8,6" BorderBrush="#EBEBEB" BorderThickness="0,0,0,1">

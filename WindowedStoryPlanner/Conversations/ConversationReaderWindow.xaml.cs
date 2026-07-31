@@ -1,4 +1,5 @@
 using System.ComponentModel;
+using System.Linq;
 using System.Windows;
 using System.Windows.Input;
 using StoryPlanner.Core;
@@ -52,6 +53,16 @@ public partial class ConversationReaderWindow : Window
 
         string html = ConversationMarkdownRenderer.Render(block.RawContent, _vm.Platform, block.Speaker);
         ContentWebView.NavigateToString(html);
+    }
+
+    // Reading pane follows the last block added to the selection. SelectedItem is no
+    // longer bound (a two-way single-item binding would collapse Ctrl/Shift
+    // multi-selections), so this is the only writer of SelectedBlock from the UI.
+    private void OnBlockSelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
+    {
+        if (_vm is null) return;
+        if (e.AddedItems.OfType<ConversationBlockViewModel>().LastOrDefault() is { } last)
+            _vm.SelectedBlock = last;
     }
 
     // Keyboard shortcuts: U=Unread, S=Skip, F=Flag, D=Done

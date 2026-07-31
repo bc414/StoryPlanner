@@ -221,7 +221,7 @@ public partial class ConversationLibraryViewModel : ObservableObject
 
         foreach (var conv in _storyService.Conversations)
         {
-            var convVm = new ConversationViewModel(conv, _windowManager, _contentFactory, _registry);
+            var convVm = new ConversationViewModel(conv, _windowManager, _contentFactory, _registry, _storyService);
             if (blocksByConv.TryGetValue(conv.Id, out var blocks))
                 foreach (var block in blocks)
                 {
