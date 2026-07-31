@@ -147,6 +147,12 @@ public partial class SourceMaterialLibraryViewModel : ObservableObject
         _windowManager.OpenSourceMaterialPartWindow(part);
     }
 
+    /// <summary>The note-side counterpart of this tab's Part-side coverage grid: notes on a
+    /// source-supporting track that carry no citation.</summary>
+    [RelayCommand]
+    private void OpenNotesWithoutCitation() =>
+        _windowManager.OpenMissingFieldWindow(MissingNoteField.SourceMaterial);
+
     [RelayCommand]
     private async Task AddPart()
     {

@@ -66,7 +66,7 @@ public sealed class ArchiveTools(StoryPlanSources sources)
         => Engine.GetThemeNotes(C, theme);
 
     [McpServerTool(Name = "get_notes_in_date_range_archive")]
-    [Description("Non-flagged ARCHIVE (v1) notes whose WorldDate intersects [fromYear, toYear], sorted by mechanically parsed start year. Omit both bounds for the full archive chronology.")]
+    [Description("Non-flagged ARCHIVE (v1) notes whose world date intersects [fromYear, toYear], both years inclusive, sorted chronologically. v1 has no tracks, so every date reads as an event; legacy free-text values are converted mechanically and unconvertible ones are counted, never guessed. Omit both bounds for the full archive chronology.")]
     public string GetNotesInDateRangeArchive(
         [Description("Start year (inclusive). Negative = before year 0. Omit for open start.")] int? fromYear = null,
         [Description("End year (inclusive). Omit for open end.")] int? toYear = null)

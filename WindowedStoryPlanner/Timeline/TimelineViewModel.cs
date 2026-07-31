@@ -24,6 +24,7 @@ public partial class TimelineViewModel : ObservableObject
 {
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _registry;
+    private readonly IWindowManager _windowManager;
 
     // Layout constants (pixels). Marker/glyph height is FIXED at every zoom — an event asserts
     // position, not extent; only condition bars scale with the year axis.
@@ -53,10 +54,11 @@ public partial class TimelineViewModel : ObservableObject
     private readonly HashSet<int> _collapsedTheaters = [];
     private readonly HashSet<string> _collapsedEras = [];
 
-    public TimelineViewModel(IStoryService storyService, IViewModelRegistry registry)
+    public TimelineViewModel(IStoryService storyService, IViewModelRegistry registry, IWindowManager windowManager)
     {
         _storyService = storyService;
         _registry = registry;
+        _windowManager = windowManager;
         _registry.StoryLoaded += () => { LoadPersistedViewState(); Rebuild(); RebuildSidePanels(); };
 
         _viewStateSaveTimer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
@@ -857,15 +859,16 @@ public partial class TimelineViewModel : ObservableObject
         };
     }
 
+    /// <summary>The same world-time axis as this canvas, read as a chronological list instead.</summary>
+    [RelayCommand]
+    private void OpenDateRange() => _windowManager.OpenDateRangeWindow();
+
     private static string FormatYear(int year) => year < 0 ? $"{-year} BLB" : year.ToString();
 
-    private static WorldDate? EffectiveDate(Note n)
-    {
-        try { if (n.GetWorldDate() is { } d) return d; }
-        catch (ArgumentException) { return null; }
-        var outcome = WorldDateLegacy.TryConvert(n.WorldDate, out var legacy);
-        return outcome is WorldDateLegacy.Outcome.Point or WorldDateLegacy.Outcome.Range ? legacy : null;
-    }
+    // Structured first, legacy free text converted mechanically as a fallback — one shared
+    // implementation in Core (WorldDateModel), so the timeline, the date-range window and the
+    // MCP server can never disagree about what a note's date is.
+    private static WorldDate? EffectiveDate(Note n) => n.EffectiveWorldDate();
 
     private static string DateLabel(Note n, NoteTrackDefinition track)
     {

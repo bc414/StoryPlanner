@@ -92,7 +92,13 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   `854..914`, `1007..`; negative = BLB, `0` = the banishment. The legacy free-text `WorldDate`
   string column survives only until the `convert-world-dates` DataOps op has run per file
   (unconvertible strings stay in it, surfaced by the Timeline tab's triage panel); all read
-  paths prefer structured and legacy-convert mechanically — flag, never guess.
+  paths prefer structured and legacy-convert mechanically — flag, never guess. That read is
+  `Note.EffectiveWorldDate()` in `WorldDateModel.cs` and **range intersection is
+  `WorldDateRange`** (`StoryPlanner.Core`), shared by the MCP server and the app so the two can
+  never disagree. Both of its rules are subtle: an inclusive end year means an *exclusive* edge at
+  `year + 1.0`, and both overlap comparisons are strict (writing `latest >= Lo` admits a note
+  dated 914 into the range `915..` — a real off-by-one in `get_notes_in_date_range`, fixed
+  2026-07-31).
 - **Timeline x-axis**: `Subject.TheaterId` / `PlotPoint.TheaterId` (sentinel `0` =
   "(Unplaced)", same pattern as `Chapter.StoryId`). Theater assignment is authorial — never
   derive it from names. `Pivot` rows are authored years; eras are DERIVED as the gaps between
@@ -123,7 +129,10 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   NotReviewed and zero citations. The Work/Part set is pre-seeded (`seed-source-material` DataOps
   op) rather than accreted from citations — an uncited Part is only meaningful negative space if
   the set is known complete, so **never** rank Parts by likely yield or suggest what to look for;
-  list them flat (same rule as everywhere else: retrieval, not suggestion).
+  list them flat (same rule as everywhere else: retrieval, not suggestion). The coverage grid
+  colours all four quadrants (2026-07-31): untouched = plain white (the baseline), cited-but-not-
+  reviewed = warm blue, reviewed-and-cited = green, reviewed-with-zero-citations = beige. Four
+  labels, no ranking — no quadrant is a score or a queue position.
 
 Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 **Live counts: `mcp__storyplanner get_stats`. Never hardcode counts in a document.**
@@ -140,8 +149,12 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
   `dotnet publish -c Debug -o publish` output, gitignored — Debug on purpose, so a debugger can
   still attach and hit breakpoints) is what Brian actually launches day to day, deliberately
   separate from `bin/Debug/net10.0-windows/`, which is what `dotnet build`/`dotnet run` write to.
-  This means Claude Code can freely build, run, or screenshot-verify WindowedStoryPlanner (see the
-  `run` skill) without waiting on or colliding with Brian's own running instance, and vice versa.
+  This means Claude Code can freely build and run WindowedStoryPlanner without waiting on or
+  colliding with Brian's own running instance, and vice versa. **Claude Code does not drive the
+  app, though:** verifying a UI change means launching `bin/Debug` against a *copy* of a
+  `.storyplan` (with its `-wal`/`-shm`), then stopping and handing Brian a numbered checklist —
+  he clicks and signs off, and only then does the publish below happen. Procedure and rationale:
+  `.claude/skills/testing/SKILL.md`, "The third tier is Brian".
   **After changing code under `WindowedStoryPlanner` or `StoryPlanner.Core`**, republish to ship
   it to Brian's instance: `dotnet publish WindowedStoryPlanner -c Debug -o WindowedStoryPlanner/publish`
   — Brian then closes and relaunches the app manually to pick it up (there's no live-reconnect

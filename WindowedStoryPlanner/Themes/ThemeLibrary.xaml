@@ -44,6 +44,11 @@
                     Style="{StaticResource AddButton}"
                     Command="{Binding AddThemeCommand}"
                     Margin="12,0,0,0" VerticalAlignment="Center"/>
+            <Button Content="Notes without a theme"
+                    Style="{StaticResource AddButton}"
+                    Command="{Binding OpenNotesWithoutThemeCommand}"
+                    VerticalAlignment="Center"
+                    ToolTip="Every note on a track that supports themes but carries none."/>
             <Button Content="Export to Markdown"
                     Style="{StaticResource AddButton}"
                     Command="{Binding ExportThemesToMarkdownCommand}"

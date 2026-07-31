@@ -1,3 +1,5 @@
+using System.Linq;
+
 namespace WindowedStoryPlanner;
 
 /// <summary>
@@ -5,16 +7,18 @@ namespace WindowedStoryPlanner;
 /// grid's "N notes" cell. Complements SourceMaterialDetailViewModel, which shows every note
 /// citing the Work at any depth.
 /// </summary>
-public class SourceMaterialPartDetailViewModel : TaggedNotesViewModelBase
+/// <remarks>
+/// Primary constructor on purpose — see ThemeDetailViewModel's remarks: a derived property
+/// initializer runs before the base constructor, which seeds the list via <see cref="Matches"/>.
+/// </remarks>
+public class SourceMaterialPartDetailViewModel(SourceMaterialPartViewModel part, IViewModelRegistry registry)
+    : TaggedNotesViewModelBase(registry)
 {
-    public SourceMaterialPartViewModel Part { get; }
-
-    public SourceMaterialPartDetailViewModel(SourceMaterialPartViewModel part, IViewModelRegistry registry) : base(registry)
-    {
-        Part = part;
-    }
+    public SourceMaterialPartViewModel Part { get; } = part;
 
     protected override bool Matches(NoteViewModel note) =>
         note.SourceReferences.Any(r => r.Part?.Id == Part.Id);
-    protected override string TagPropertyName => nameof(NoteViewModel.SourceReferences);
+
+    protected override bool AffectsMembership(string? propertyName) =>
+        propertyName is nameof(NoteViewModel.SourceReferences) or null or "";
 }

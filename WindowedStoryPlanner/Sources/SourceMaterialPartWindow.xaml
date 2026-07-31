@@ -10,7 +10,6 @@
         d:DataContext="{d:DesignInstance Type=local:SourceMaterialPartDetailViewModel}">
 
     <Window.Resources>
-        <local:NoteBreadcrumbConverter x:Key="NoteBreadcrumbConverter"/>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
     </Window.Resources>
 
@@ -41,26 +40,7 @@
         </StackPanel>
 
         <!-- ── Tagged notes ── -->
-        <ScrollViewer VerticalScrollBarVisibility="Auto">
-            <ItemsControl ItemsSource="{Binding Notes}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <StackPanel Margin="0,0,0,10">
-                            <TextBlock FontSize="11" FontStyle="Italic" Foreground="#888888" Margin="2,0,0,2">
-                                <TextBlock.Text>
-                                    <MultiBinding Converter="{StaticResource NoteBreadcrumbConverter}">
-                                        <Binding/>
-                                        <Binding Path="DataContext"
-                                                 RelativeSource="{RelativeSource AncestorType=local:SourceMaterialPartWindow}"/>
-                                    </MultiBinding>
-                                </TextBlock.Text>
-                            </TextBlock>
-                            <local:NoteView/>
-                        </StackPanel>
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        </ScrollViewer>
+        <local:CrossCutNoteListView/>
 
     </DockPanel>
 </Window>

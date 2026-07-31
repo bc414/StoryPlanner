@@ -10,8 +10,8 @@ namespace WindowedStoryPlanner
     {
         public ThemeWindow()
         {
+            // Disposal of the DataContext is WindowManager.ShowSingleton's job.
             InitializeComponent();
-            Closed += (_, _) => (DataContext as ThemeDetailViewModel)?.Dispose();
         }
     }
 }

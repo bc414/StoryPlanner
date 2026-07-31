@@ -124,26 +124,11 @@ public static class Query
     // (WorldDateLegacy). Both paths share Core's one implementation.
 
     /// <summary>The note's date regardless of conversion state; null = undated or unconvertible.</summary>
-    public static WorldDate? EffectiveWorldDate(Note n)
-    {
-        try
-        {
-            var structured = n.GetWorldDate();
-            if (structured is not null) return structured;
-        }
-        catch (ArgumentException)
-        {
-            return null; // malformed columns — report as unparsed, never guess
-        }
-        var outcome = WorldDateLegacy.TryConvert(n.WorldDate, out var legacy);
-        return outcome is WorldDateLegacy.Outcome.Point or WorldDateLegacy.Outcome.Range ? legacy : null;
-    }
+    public static WorldDate? EffectiveWorldDate(Note n) => n.EffectiveWorldDate();
 
     /// <summary>True when the note carries ANY date signal — structured or legacy text,
     /// including unconvertible legacy text ("?" is a date-shaped claim, just not a usable one).</summary>
-    public static bool HasAnyWorldDate(Note n) =>
-        n.WorldDateStartYear is not null || n.WorldDateEndYear is not null ||
-        !string.IsNullOrWhiteSpace(n.WorldDate);
+    public static bool HasAnyWorldDate(Note n) => n.HasAnyWorldDate();
 
     public static string WorldDateLabel(Note n)
     {

@@ -83,12 +83,16 @@ public partial class SourceMaterialPartViewModel : ObservableObject
     /// </summary>
     public bool IsUntouched => ReviewState == SourcePartReviewState.NotReviewed && NoteCount == 0;
 
+    /// <summary>The other axis of the negative-space 2x2, orthogonal to ReviewState.</summary>
+    public bool HasCitations => NoteCount > 0;
+
     /// <summary>Call after any citation add/remove elsewhere to bring NoteCount/IsUntouched
     /// back in sync for display.</summary>
     public void RefreshNoteCount()
     {
         OnPropertyChanged(nameof(NoteCount));
         OnPropertyChanged(nameof(IsUntouched));
+        OnPropertyChanged(nameof(HasCitations));
     }
 
     public SourceMaterialPartViewModel(SourceMaterialPart model, IStoryService storyService)

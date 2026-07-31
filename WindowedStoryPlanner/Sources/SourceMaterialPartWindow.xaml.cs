@@ -9,8 +9,8 @@ namespace WindowedStoryPlanner
     {
         public SourceMaterialPartWindow()
         {
+            // Disposal of the DataContext is WindowManager.ShowSingleton's job.
             InitializeComponent();
-            Closed += (_, _) => (DataContext as SourceMaterialPartDetailViewModel)?.Dispose();
         }
     }
 }

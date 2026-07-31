@@ -60,7 +60,7 @@ public sealed class PlanTools(StoryPlanSources sources)
         => Engine.GetThemeNotes(C, theme);
 
     [McpServerTool(Name = "get_notes_in_date_range_plan")]
-    [Description("Non-flagged notes from the WORKING plan (v2) whose WorldDate intersects [fromYear, toYear], sorted chronologically by mechanically parsed start year. WorldDate is free text (\"993\", \"-100-0\", \"870-928\"); unparseable values are counted, never guessed. Omit both bounds for the full story-world chronology.")]
+    [Description("Non-flagged notes from the WORKING plan (v2) whose world date intersects [fromYear, toYear], both years inclusive, sorted chronologically. Dates are read from the structured columns, falling back to the legacy free-text value converted mechanically (\"993\", \"870-928\", \"300 BLB\"); unconvertible values are counted, never guessed. A start-only date on a CONDITION track (SupportsWorldDateEnd) means \"in force, end TBD\" and so matches every later range; the same value on an event track does not. Omit both bounds for the full story-world chronology.")]
     public string GetNotesInDateRangePlan(
         [Description("Start year (inclusive). Negative = before year 0. Omit for open start.")] int? fromYear = null,
         [Description("End year (inclusive). Omit for open end.")] int? toYear = null)

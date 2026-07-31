@@ -431,8 +431,10 @@
                             Visibility="{Binding HasPinnedCards, Converter={StaticResource BoolToVis}}"/>
                     <Button Content="Survey" Command="{Binding ZoomSurveyCommand}" Padding="8,2" FontSize="12"
                             ToolTip="Jump to survey mode: condition bars whose height is duration, centuries in view."/>
-                    <Button Content="Year view" Command="{Binding ZoomYearViewCommand}" Padding="8,2" FontSize="12" Margin="4,0,12,0"
+                    <Button Content="Year view" Command="{Binding ZoomYearViewCommand}" Padding="8,2" FontSize="12" Margin="4,0,8,0"
                             ToolTip="Jump past the flip: per-year 'in force' strips for conditions, events placed within the year (needs month/day precision on the note)."/>
+                    <Button Content="Date range…" Command="{Binding OpenDateRangeCommand}" Padding="8,2" FontSize="12" Margin="0,0,12,0"
+                            ToolTip="Open the dated notes and plot points of a world-date range as a chronological list."/>
                     <TextBlock Text="{Binding StatusLine}" VerticalAlignment="Center" Foreground="#666" FontSize="12"/>
                 </StackPanel>
                 <!-- Legend: the seven hues. Theater identity is never a hue. -->

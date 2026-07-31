@@ -155,6 +155,9 @@
             <Button Content="Refresh Coverage" Padding="10,4" Margin="6,0,0,0"
                     Command="{Binding RefreshCoverageCommand}"
                     ToolTip="Note counts aren't live — refresh after citing a Part from a note editor elsewhere."/>
+            <Button Content="Notes without a citation" Padding="10,4" Margin="6,0,0,0"
+                    Command="{Binding OpenNotesWithoutCitationCommand}"
+                    ToolTip="The note side of this grid: every note on a track that supports source material but carries no citation."/>
         </StackPanel>
 
         <!-- ── Parts DataGrid — the negative-space view ── -->
@@ -174,10 +177,34 @@
             <DataGrid.RowStyle>
                 <Style TargetType="DataGridRow">
                     <Style.Triggers>
-                        <!-- The untouched rows are the point of this grid — make them findable at a glance -->
-                        <DataTrigger Binding="{Binding IsUntouched}" Value="True">
+                        <!-- The negative-space 2x2 (CLAUDE.md). ReviewState and citation count are
+                             orthogonal, so each quadrant reads as its own state:
+                               untouched      (not reviewed, uncited) — plain white, the baseline
+                               cited          (not reviewed, cited)   — warm blue
+                               confirmed empty(reviewed,     uncited) — beige: checked, nothing there
+                               mined          (reviewed,     cited)   — green
+                             No quadrant is ranked above another; these are labels, not a score. -->
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding IsReviewed}" Value="True"/>
+                                <Condition Binding="{Binding HasCitations}" Value="True"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter Property="Background" Value="#E6F4EA"/>
+                        </MultiDataTrigger>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding IsReviewed}" Value="False"/>
+                                <Condition Binding="{Binding HasCitations}" Value="True"/>
+                            </MultiDataTrigger.Conditions>
+                            <Setter Property="Background" Value="#E8F0FE"/>
+                        </MultiDataTrigger>
+                        <MultiDataTrigger>
+                            <MultiDataTrigger.Conditions>
+                                <Condition Binding="{Binding IsReviewed}" Value="True"/>
+                                <Condition Binding="{Binding HasCitations}" Value="False"/>
+                            </MultiDataTrigger.Conditions>
                             <Setter Property="Background" Value="#FFF7E6"/>
-                        </DataTrigger>
+                        </MultiDataTrigger>
                     </Style.Triggers>
                 </Style>
             </DataGrid.RowStyle>
@@ -218,7 +245,8 @@
                     <DataGridTemplateColumn.CellTemplate>
                         <DataTemplate>
                             <Button Content="{Binding NoteCount}"
-                                    Padding="6,2" Background="Transparent" BorderThickness="0"
+                                    Padding="10,1" Margin="4,2" Cursor="Hand"
+                                    HorizontalAlignment="Center" VerticalAlignment="Center"
                                     ToolTip="Open every note citing this Part"
                                     Command="{Binding DataContext.OpenSourceMaterialPartWindowCommand,
                                               RelativeSource={RelativeSource AncestorType=DataGrid}}"

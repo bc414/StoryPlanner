@@ -430,24 +430,23 @@ internal static class Engine
 
     public static string GetNotesInDateRange(PlanCache c, int? fromYear, int? toYear)
     {
+        var range = WorldDateRange.FromYears(fromYear, toYear);
         var dated = c.Notes.Where(Query.HasAnyWorldDate).ToList();
         var parsedNotes = new List<(Note n, double earliest, double latest)>();
         int unparseable = 0;
         foreach (var n in dated)
         {
             if (Query.EffectiveWorldDate(n) is { } d)
-                parsedNotes.Add((n,
-                    d.EarliestFraction ?? double.NegativeInfinity,   // start TBD ("..1007")
-                    d.End is not null ? d.LatestFraction!.Value
-                        : IsConditionTrack(c, n) ? double.PositiveInfinity // in force, end TBD
-                        : d.LatestFraction ?? double.PositiveInfinity));
+            {
+                var isCondition = IsConditionTrack(c, n);
+                if (!range.Overlaps(d, isCondition)) continue;
+                var (earliest, latest) = WorldDateRange.Span(d, isCondition);
+                parsedNotes.Add((n, earliest, latest));
+            }
             else unparseable++;
         }
 
-        double lo = fromYear ?? double.NegativeInfinity;
-        double hi = toYear is int ty ? ty + 1.0 : double.PositiveInfinity; // inclusive year → exclusive edge
         var inRange = parsedNotes
-            .Where(x => x.latest >= lo && x.earliest < hi)
             .OrderBy(x => x.earliest).ThenBy(x => x.latest).ThenBy(x => x.n.Id)
             .ToList();
         var visible = inRange.Where(x => x.n.NoteState != NoteState.Flagged).ToList();

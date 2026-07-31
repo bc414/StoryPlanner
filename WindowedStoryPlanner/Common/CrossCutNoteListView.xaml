@@ -1,0 +1,41 @@
+<UserControl x:Class="WindowedStoryPlanner.CrossCutNoteListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WindowedStoryPlanner"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="600"
+             d:DataContext="{d:DesignInstance Type=local:TaggedNotesViewModelBase}">
+
+    <!-- The one cross-cutting note list: every note carrying some tag, shown with where it
+         actually lives. Hosted by ThemeWindow, SourceMaterialWindow, SourceMaterialPartWindow
+         and DateRangeWindow — the breadcrumb binding resolves against THIS control, so a new
+         host needs no XAML of its own. -->
+
+    <UserControl.Resources>
+        <local:NoteBreadcrumbConverter x:Key="NoteBreadcrumbConverter"/>
+    </UserControl.Resources>
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <ItemsControl ItemsSource="{Binding NotesSource}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="0,0,0,10">
+                        <TextBlock FontSize="11" FontStyle="Italic" Foreground="#888888" Margin="2,0,0,2">
+                            <TextBlock.Text>
+                                <MultiBinding Converter="{StaticResource NoteBreadcrumbConverter}">
+                                    <Binding/>
+                                    <Binding Path="DataContext"
+                                             RelativeSource="{RelativeSource AncestorType=local:CrossCutNoteListView}"/>
+                                </MultiBinding>
+                            </TextBlock.Text>
+                        </TextBlock>
+                        <local:NoteView/>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </ScrollViewer>
+
+</UserControl>

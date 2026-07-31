@@ -78,4 +78,10 @@ public partial class ThemeLibraryViewModel : ObservableObject
     {
         _windowManager.OpenThemeWindow(vm);
     }
+
+    /// <summary>The other side of the theme cross-cut: notes on a theme-supporting track that
+    /// carry no theme. Retrieval — an untagged note is a legal state, not a defect.</summary>
+    [RelayCommand]
+    private void OpenNotesWithoutTheme() =>
+        _windowManager.OpenMissingFieldWindow(MissingNoteField.Theme);
 }

@@ -69,7 +69,40 @@ reimplement track composition, and do not push shared behavior down into the mod
 **`TaggedNotesViewModelBase : ObservableObject, IDisposable`** — the cross-cutting tag view.
 Subclasses: `ThemeDetailViewModel`, `SourceMaterialDetailViewModel` (every note citing a Work at
 any depth), `SourceMaterialPartDetailViewModel` (every note citing one specific Part — the
-coverage grid's drill-down). **A new "show me every note tagged X" surface subclasses this.**
+coverage grid's drill-down), `DateRangeNotesViewModel` (every EVENT-track note dated into a world
+date range), `MissingFieldNotesViewModel` (every note whose track declares a field applicable but
+which carries no value — the criterion inverted). **A new "show me every note where X" surface
+subclasses this**, supplies `Matches` + `AffectsMembership`, and renders through
+`Common/CrossCutNoteListView` — do not write another copy of the breadcrumb + `NoteView` item
+template.
+
+The criterion is always read from the **track** (`SupportsTheme`, `SupportsSourceMaterial`,
+`SupportsWorldDate`/`SupportsWorldDateEnd`), never from `TrackType` and never from the shape of the
+stored value. A track flag is an authored statement that the field applies; that is what makes an
+empty-field view retrieval rather than a machine-generated to-do list. Keep it that way: no
+ordering by how worth filling a note looks, no proposed values, no completion percentage.
+
+Three things about this family are load-bearing:
+
+1. **Subclasses use primary constructors, and must.** The base constructor seeds the list by
+   calling the virtual `Matches`. Derived *field/property initializers* run before the base
+   constructor; a derived *constructor body* runs after it. Assigning the criterion in a body
+   therefore dereferences null during seeding — that was a real crash, fixed 2026-07-31. Anything
+   `Matches` reads has to be an initializer (`public ThemeViewModel Theme { get; } = theme;`) or a
+   field with a default (`private WorldDateRange? _range = null;`).
+2. **It is LIVE, and it handles `CollectionChanged` Reset.** `ViewModelRegistry.Clear()` raises
+   Reset on every project load, with neither `NewItems` nor `OldItems`. Ignoring it leaves an open
+   window showing the previous file's rows and then appending the new file's — two corpora blended
+   in one list. The base re-seeds from a `HashSet` of what it actually subscribed to; `Dispose()`
+   works off that set, never off the registry (which no longer holds those notes by then).
+3. **Disposal belongs to `WindowManager.ShowSingleton`**, not to each window's code-behind —
+   `(window.DataContext as IDisposable)?.Dispose()` on `Closed`, so a new cross-cut window cannot
+   forget it.
+
+`Notes` stays a bare `ReadOnlyObservableCollection` — the base *is* the membership mechanism, so an
+`ICollectionView` filter over it would be a second one that can silently disagree. A subclass that
+needs an order overrides `NotesSource` with its own `ListCollectionView` (see
+`DateRangeNotesViewModel`'s chronological comparer).
 
 Everything else derives from `ObservableObject` directly and is declared `partial`
 (`[ObservableProperty]` / `[RelayCommand]` generate into the other half).
@@ -182,6 +215,11 @@ per-mode behavior in the definition table, not in `switch` statements.
 Run `dotnet test tests/StoryPlanner.Tests`. If the WPF app is running, build the specific
 project rather than the solution — the running app locks
 `WindowedStoryPlanner/bin/Debug/net10.0-windows/`.
+
+**Verifying in the live app is a handoff, not something you drive.** Build, launch the
+`bin/Debug` binary against a *copy* of a `.storyplan` (with its `-wal`/`-shm`), then stop and give
+Brian a numbered checklist; publish only after he signs off. Full procedure:
+`.claude/skills/testing/SKILL.md`, "The third tier is Brian".
 
 **This layer has no automated coverage yet, and that is a known, documented gap** — see
 `.claude/skills/testing/SKILL.md` "Known gap". `ContentDeleter`'s guards are the highest-value

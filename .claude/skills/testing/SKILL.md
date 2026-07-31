@@ -148,6 +148,39 @@ bool HasNotes(int ownerId, OwnerType ownerType);   // pure, testable against a f
 logic is next touched. Until then this is a **known, deliberate gap**; do not paper over it by
 mocking `IStoryService` (see above) or by asserting on a view model built with null dependencies.
 
+## The third tier is Brian: WPF verification is a handoff (adopted 2026-07-31)
+
+Because the WPF layer has no automated coverage, the only way to know a UI change works is to run
+it — and **Claude Code does not drive the app.** Computer-use/screenshot automation is unreliable
+and intrusive while Brian is using his machine for other things. The procedure:
+
+1. `dotnet build WindowedStoryPlanner` (the project, not the solution).
+2. **Copy** a `.storyplan` to the scratchpad and launch `bin/Debug` against the copy:
+   ```
+   cp "C:/Users/Brian/Desktop/TLTT v2.storyplan"      "$SCRATCH/testdb/TLTT v2 TEST.storyplan"
+   cp "C:/Users/Brian/Desktop/TLTT v2.storyplan-wal"  "$SCRATCH/testdb/TLTT v2 TEST.storyplan-wal"
+   cp "C:/Users/Brian/Desktop/TLTT v2.storyplan-shm"  "$SCRATCH/testdb/TLTT v2 TEST.storyplan-shm"
+   ./WindowedStoryPlanner/bin/Debug/net10.0-windows/WindowedStoryPlanner.exe "$SCRATCH/testdb/TLTT v2 TEST.storyplan"
+   ```
+   **Copy the `-wal` and `-shm` too** — the file is in WAL mode, so the main file alone is a stale
+   snapshot. Never launch against a Desktop file: `OpenProjectAsync` runs `MigrateAsync()` in place
+   with no backup and `SaveAsync()` writes `.md`/`_stats.csv` litter. Avoid "archive" in the copy's
+   filename unless you want `AppSettings.IsArchiveMode` (it is set from the filename).
+   Stage a *second* copy when the change touches project loading — switching files is how the
+   `CollectionChanged` Reset class of bug shows itself.
+3. **Stop.** Post a short numbered checklist: what to click, what to expect, why. The app window
+   appearing is Brian's signal that it is his turn.
+4. He signs off or gives corrections. Only then publish
+   (`dotnet publish WindowedStoryPlanner -c Debug -o WindowedStoryPlanner/publish`).
+
+The app takes the file as `argv[0]` and opens nothing otherwise (`App.OnStartup`), so the launch
+path fully determines which data is touched. `bin/Debug` and `publish/` are separate on purpose —
+a test instance never collides with Brian's own. Before building, check whether an instance is
+holding `bin/Debug`: `Get-Process -Name WindowedStoryPlanner | Select-Object Id, Path` tells you
+which one it is, and only the `bin/Debug` one is yours to close.
+
+`dotnet test` still runs unattended — this handoff is only about the GUI.
+
 ## What the tiers structurally can't see
 
 Each tier trades runtime realism for speed and determinism. Neither existing tier runs WPF, so
