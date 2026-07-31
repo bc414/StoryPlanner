@@ -41,7 +41,7 @@ public partial class ConversationBlockViewModel : ObservableObject
     {
         Model.BlockState = value;
         ParentConversation?.RefreshStats();
-        _ = PersistStateAsync();
+        PersistStateAsync().FireAndForget();
     }
 
     private async Task PersistStateAsync()
@@ -73,7 +73,7 @@ public partial class ConversationBlockViewModel : ObservableObject
     private void Mark(BlockState state)
     {
         if (IsSelected && ParentConversation?.SelectedCount > 1)
-            _ = ParentConversation.ApplyStateToSelectionAsync(state);
+            ParentConversation.ApplyStateToSelectionAsync(state).FireAndForget();
         else
             BlockState = state;
     }

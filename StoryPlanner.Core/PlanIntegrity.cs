@@ -135,22 +135,44 @@ public static class PlanIntegrity
         // NarrativePropertyValue has no OwnerType of its own — resolve it by tracing
         // ValueDefinitionId -> NarrativePropertyDefinitionId -> OwnerType, mirroring
         // ContentDeleter.RemoveOwnedNarrativePropertyValues.
-        var ownerTypeByValueDefId = ctx.NarrativePropertyValueDefinitions
+        var propertyByValueDefId = ctx.NarrativePropertyValueDefinitions
             .Join(ctx.NarrativePropertyDefinitions,
                 vd => vd.NarrativePropertyDefinitionId, pd => pd.Id,
-                (vd, pd) => new { vd.Id, pd.OwnerType })
-            .ToDictionary(x => x.Id, x => x.OwnerType);
+                (vd, pd) => new { vd.Id, pd.OwnerType, PropertyDefinitionId = pd.Id })
+            .ToDictionary(x => x.Id, x => (x.OwnerType, x.PropertyDefinitionId));
+
+        // Assignments that survive the definition lookup, keyed for the single-select check below.
+        var resolved = new List<(int ValueId, OwnerType OwnerType, int OwnerId, int PropertyDefinitionId)>();
 
         foreach (var v in ctx.NarrativePropertyValues)
         {
-            if (!ownerTypeByValueDefId.TryGetValue(v.ValueDefinitionId, out var ownerType))
+            if (!propertyByValueDefId.TryGetValue(v.ValueDefinitionId, out var owner))
             {
                 violations.Add(new Violation("narrativevalue.definition_missing", $"value:{v.Id} -> valueDef:{v.ValueDefinitionId}"));
                 continue;
             }
-            if (!ResolvesOwner(ownerType, v.OwnerId))
-                violations.Add(new Violation("narrativevalue.owner_missing", $"value:{v.Id} ({ownerType}:{v.OwnerId})"));
+            if (!ResolvesOwner(owner.OwnerType, v.OwnerId))
+                violations.Add(new Violation("narrativevalue.owner_missing", $"value:{v.Id} ({owner.OwnerType}:{v.OwnerId})"));
+
+            resolved.Add((v.Id, owner.OwnerType, v.OwnerId, owner.PropertyDefinitionId));
         }
+
+        // Narrative properties are SINGLE-SELECT: at most one value per (owner, property). The
+        // schema cannot say so — no unique constraint, no FKs, no unit of work — so this check is
+        // the enforcement, the same role ContentDeleter plays for referential integrity. Note the
+        // key includes OwnerType: without it, subject 7 and chapter 7 collide.
+        foreach (var dup in resolved
+                     .GroupBy(r => (r.OwnerType, r.OwnerId, r.PropertyDefinitionId))
+                     .Where(g => g.Count() > 1))
+            violations.Add(new Violation("narrativevalue.duplicate_for_property",
+                $"{dup.Key.OwnerType}:{dup.Key.OwnerId} property:{dup.Key.PropertyDefinitionId} has " +
+                $"{dup.Count()} values ({string.Join(", ", dup.Select(r => $"value:{r.ValueId}"))})"));
+
+        var workPhaseIds = ctx.WorkPhases.Select(w => w.Id).ToHashSet();
+        foreach (var pd in ctx.NarrativePropertyDefinitions)
+            if (pd.GatingWorkPhaseId is int phaseId && !workPhaseIds.Contains(phaseId))
+                violations.Add(new Violation("narrativepropertydefinition.workphase_missing",
+                    $"property:{pd.Id} -> workPhase:{phaseId}"));
 
         return violations;
     }

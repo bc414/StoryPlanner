@@ -155,6 +155,111 @@ public class PlanIntegrityTests
     }
 
     [Fact]
+    public void Check_reports_a_second_narrative_property_value_for_the_same_owner_and_property()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.NarrativePropertyDefinitions.Add(new NarrativePropertyDefinition
+            {
+                Id = 1, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                OwnerType = OwnerType.Subject, Name = "Test Axis"
+            });
+            ctx.NarrativePropertyValueDefinitions.AddRange(
+                new NarrativePropertyValueDefinition { Id = 1, NarrativePropertyDefinitionId = 1, ValueName = "Pole A" },
+                new NarrativePropertyValueDefinition { Id = 2, NarrativePropertyDefinitionId = 1, ValueName = "Pole B" });
+            // Both poles assigned to the same subject — narrative properties are single-select and
+            // nothing in the schema can say so, which is exactly why PlanIntegrity has to.
+            ctx.NarrativePropertyValues.AddRange(
+                new NarrativePropertyValue { Id = 1, OwnerId = SyntheticPlan.SubjectId, ValueDefinitionId = 1 },
+                new NarrativePropertyValue { Id = 2, OwnerId = SyntheticPlan.SubjectId, ValueDefinitionId = 2 });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "narrativevalue.duplicate_for_property"
+                                      && v.Detail.Contains("property:1"));
+    }
+
+    [Fact]
+    public void Check_does_not_confuse_a_subject_and_a_chapter_that_share_an_id()
+    {
+        // NarrativePropertyValue has no OwnerType column, so an OwnerId-only predicate would read
+        // these two assignments as a duplicate on one owner. The fixture's SubjectId and ChapterId
+        // are both 1, which is what makes this reproducible.
+        Assert.Equal(SyntheticPlan.SubjectId, SyntheticPlan.ChapterId);
+
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.NarrativePropertyDefinitions.AddRange(
+                new NarrativePropertyDefinition
+                {
+                    Id = 1, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                    OwnerType = OwnerType.Subject, Name = "Subject Axis"
+                },
+                new NarrativePropertyDefinition
+                {
+                    Id = 2, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                    OwnerType = OwnerType.Chapter, Name = "Chapter Axis"
+                });
+            ctx.NarrativePropertyValueDefinitions.AddRange(
+                new NarrativePropertyValueDefinition { Id = 1, NarrativePropertyDefinitionId = 1, ValueName = "Subject value" },
+                new NarrativePropertyValueDefinition { Id = 2, NarrativePropertyDefinitionId = 2, ValueName = "Chapter value" });
+            ctx.NarrativePropertyValues.AddRange(
+                new NarrativePropertyValue { Id = 1, OwnerId = SyntheticPlan.SubjectId, ValueDefinitionId = 1 },
+                new NarrativePropertyValue { Id = 2, OwnerId = SyntheticPlan.ChapterId, ValueDefinitionId = 2 });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.DoesNotContain(violations, v => v.Rule == "narrativevalue.duplicate_for_property");
+        Assert.DoesNotContain(violations, v => v.Rule == "narrativevalue.owner_missing");
+    }
+
+    [Fact]
+    public void Check_reports_a_property_definition_gating_on_a_missing_work_phase()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.NarrativePropertyDefinitions.Add(new NarrativePropertyDefinition
+        {
+            Id = 999, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+            OwnerType = OwnerType.Subject, Name = "Dangling gate", GatingWorkPhaseId = 424242
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "narrativepropertydefinition.workphase_missing"
+                                      && v.Detail.Contains("property:999"));
+    }
+
+    [Fact]
+    public void Check_passes_when_a_property_gates_on_a_work_phase_that_exists()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.WorkPhases.Add(new WorkPhase
+            {
+                Id = 1, Name = "Expansion", DisplayOrder = 1, RequiresZeroFlaggedNotes = true
+            });
+            ctx.NarrativePropertyDefinitions.Add(new NarrativePropertyDefinition
+            {
+                Id = 1, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                OwnerType = OwnerType.Subject, Name = "Gated", GatingWorkPhaseId = 1
+            });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.DoesNotContain(violations, v => v.Rule == "narrativepropertydefinition.workphase_missing");
+    }
+
+    [Fact]
     public void ComputeNoteChecksum_is_stable_across_reads_and_changes_when_content_changes()
     {
         using var plan = SyntheticPlan.Create();

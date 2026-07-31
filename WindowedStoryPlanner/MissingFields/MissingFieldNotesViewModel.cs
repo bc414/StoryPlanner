@@ -24,8 +24,9 @@ public partial class MissingFieldNotesViewModel : TaggedNotesViewModelBase
     [ObservableProperty]
     private MissingNoteField _selectedField = MissingNoteField.SourceMaterial;
 
-    public MissingFieldNotesViewModel(IViewModelRegistry registry, MissingNoteField field)
-        : base(registry)
+    public MissingFieldNotesViewModel(
+        IViewModelRegistry registry, IWindowManager windowManager, MissingNoteField field)
+        : base(registry, windowManager)
     {
         SelectedField = field;
         ((INotifyCollectionChanged)Notes).CollectionChanged += (_, _) => RaiseStatus();

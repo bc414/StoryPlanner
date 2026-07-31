@@ -76,12 +76,12 @@ public partial class SubjectLibraryViewModel : ObservableObject
     {
         // SubjectDefinitionId is stored directly on the group — no fragile string lookup needed
         var vm = await _factory.CreateSubjectAsync(group.SubjectDefinitionId);
-        _windowManager.OpenCommonWindow(EditorMode.Expansion, vm);
+        _windowManager.OpenSubjectWindow(vm);
     }
 
     [RelayCommand]
     private void OpenSubject(SubjectViewModel subject) =>
-        _windowManager.OpenCommonWindow(EditorMode.Expansion, subject);
+        _windowManager.OpenSubjectWindow(subject);
 
     [RelayCommand]
     private async Task DeleteSubject(SubjectViewModel subject)

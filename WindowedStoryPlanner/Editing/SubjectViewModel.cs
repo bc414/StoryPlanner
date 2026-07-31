@@ -54,7 +54,7 @@ namespace WindowedStoryPlanner
         private readonly IWindowManager _windowManager;
 
         [RelayCommand]
-        private void Open() => _windowManager.OpenCommonWindow(EditorMode.Expansion, this);
+        private void Open() => _windowManager.OpenSubjectWindow(this);
 
         public SubjectViewModel(Subject subject, IViewModelRegistry viewModelRegistry, IStoryService storyService, IContentFactory editorCoordinator, IWindowManager windowManager, AppSettings appSettings, ExportService exportService)
             : base(viewModelRegistry, storyService, editorCoordinator, appSettings, exportService)

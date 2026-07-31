@@ -34,6 +34,7 @@ public class StoryService : IStoryService
     public ObservableCollection<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; private set; } = new();
     public ObservableCollection<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; private set; } = new();
     public ObservableCollection<NarrativePropertyValue> NarrativePropertyValues { get; private set; } = new();
+    public ObservableCollection<WorkPhase> WorkPhases { get; private set; } = new();
     public ObservableCollection<Theme> Themes { get; private set; } = new();
 
     public ObservableCollection<SourceMaterial> SourceMaterials { get; private set; } = new();
@@ -243,6 +244,7 @@ public class StoryService : IStoryService
             .LoadAsync();
 
         // Definitions — load leaves first so EF relationship fixup wires nav properties
+        await _context.WorkPhases.LoadAsync();
         await _context.NoteTrackDefinitions.LoadAsync();
         await _context.NarrativePropertyValueDefinitions.LoadAsync();
         await _context.NarrativePropertyDefinitions.LoadAsync();
@@ -279,6 +281,9 @@ public class StoryService : IStoryService
         NarrativePropertyDefinitions      = _context.NarrativePropertyDefinitions.Local.ToObservableCollection();
         NarrativePropertyValueDefinitions = _context.NarrativePropertyValueDefinitions.Local.ToObservableCollection();
         NarrativePropertyValues           = _context.NarrativePropertyValues.Local.ToObservableCollection();
+        // .Local is change-tracker order, NOT the LoadAsync ordering — every consumer sorts by
+        // DisplayOrder at the point of use.
+        WorkPhases                        = _context.WorkPhases.Local.ToObservableCollection();
 
         SourceMaterials       = _context.SourceMaterials.Local.ToObservableCollection();
         SourceMaterialParts   = _context.SourceMaterialParts.Local.ToObservableCollection();

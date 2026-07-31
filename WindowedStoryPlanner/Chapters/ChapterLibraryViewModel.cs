@@ -95,7 +95,7 @@ public partial class ChapterLibraryViewModel : ObservableObject
             .DefaultIfEmpty(0)
             .Max() + 1;
 
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     [RelayCommand]
@@ -115,7 +115,7 @@ public partial class ChapterLibraryViewModel : ObservableObject
         var other = siblings[index - 1];
         (vm.OrderIndex, other.OrderIndex) = (other.OrderIndex, vm.OrderIndex);
         Chapters.Refresh();
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     [RelayCommand]
@@ -131,7 +131,7 @@ public partial class ChapterLibraryViewModel : ObservableObject
         var other = siblings[index + 1];
         (vm.OrderIndex, other.OrderIndex) = (other.OrderIndex, vm.OrderIndex);
         Chapters.Refresh();
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     /// <summary>
@@ -148,7 +148,7 @@ public partial class ChapterLibraryViewModel : ObservableObject
 
         PerformMove(chapter, dialogVm.SelectedStory, dialogVm.SelectedAnchor, dialogVm.PlaceBefore);
         Chapters.Refresh();
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     private void PerformMove(ChapterViewModel chapter, StoryOption targetStory, ChapterViewModel? anchor, bool placeBefore)

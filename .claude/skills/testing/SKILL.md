@@ -173,6 +173,13 @@ and intrusive while Brian is using his machine for other things. The procedure:
 4. He signs off or gives corrections. Only then publish
    (`dotnet publish WindowedStoryPlanner -c Debug -o WindowedStoryPlanner/publish`).
 
+**Two artifacts make a GUI session checkable without watching it.** Delete
+`bin/Debug/net10.0-windows/crash-log.txt` before launching — if it exists afterwards, something
+was reported (`CrashReporter` writes it; the app now survives UI-thread exceptions instead of
+dying, so a fault no longer shows up as the window vanishing). And grep the launch command's
+captured stdout for `Unhandled exception`, which is what a non-UI-thread failure leaves behind.
+Both are evidence, not a substitute for Brian's sign-off.
+
 The app takes the file as `argv[0]` and opens nothing otherwise (`App.OnStartup`), so the launch
 path fully determines which data is touched. `bin/Debug` and `publish/` are separate on purpose —
 a test instance never collides with Brian's own. Before building, check whether an instance is

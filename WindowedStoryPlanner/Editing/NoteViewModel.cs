@@ -275,7 +275,7 @@ public partial class NoteViewModel : ObservableObject
         _storyService.NoteSourceReferences.Add(model);
         _sourceReferences.Add(new NoteSourceReferenceViewModel(model, work, part));
         OnPropertyChanged(nameof(SourceReferences));
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     public void RemoveSourceReference(NoteSourceReferenceViewModel reference)
@@ -283,7 +283,7 @@ public partial class NoteViewModel : ObservableObject
         _storyService.NoteSourceReferences.Remove(reference.Model);
         _sourceReferences.Remove(reference);
         OnPropertyChanged(nameof(SourceReferences));
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     /// <summary>Quick-add: creates a new Work (e.g. a fanfic not yet in the library). Does not

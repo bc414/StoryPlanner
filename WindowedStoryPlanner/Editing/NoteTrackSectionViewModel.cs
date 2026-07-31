@@ -192,7 +192,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
             note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         SelectedNote = note;
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     [RelayCommand]
@@ -207,7 +207,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
             note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         SelectedNote = note;
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     // ── Drag-drop ─────────────────────────────────────────────────────────
@@ -249,7 +249,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
 
         _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
             note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     // ── State-change commands ─────────────────────────────────────────────
@@ -266,7 +266,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         };
         _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
             SelectedNote.Id, SelectedNote.OwnerId, SelectedNote.OwnerType, SelectedNote.NoteTrackDefinitionId));
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     [RelayCommand]
@@ -281,7 +281,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         };
         _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
             SelectedNote.Id, SelectedNote.OwnerId, SelectedNote.OwnerType, SelectedNote.NoteTrackDefinitionId));
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     public event Action<NoteViewModel>? SelectionTransferRequested;
@@ -301,7 +301,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         note.NoteState = newState;
         _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
             note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
         if (note.NoteState != _targetState) SelectionTransferRequested?.Invoke(note);
     }
 
@@ -322,7 +322,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         note.NoteState = newState;
         _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
             note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
         if (note.NoteState != _targetState) SelectionTransferRequested?.Invoke(note);
     }
 
@@ -336,7 +336,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _viewModelRegistry.AllNoteViewModels.Remove(note);
         _storyService.DeleteNote(note.Id);
         _viewModelRegistry.RaiseNoteMutated(mutationArgs);
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────

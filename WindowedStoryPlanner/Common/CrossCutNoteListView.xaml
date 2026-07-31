@@ -22,15 +22,29 @@
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
                     <StackPanel Margin="0,0,0,10">
-                        <TextBlock FontSize="11" FontStyle="Italic" Foreground="#888888" Margin="2,0,0,2">
-                            <TextBlock.Text>
-                                <MultiBinding Converter="{StaticResource NoteBreadcrumbConverter}">
-                                    <Binding/>
-                                    <Binding Path="DataContext"
-                                             RelativeSource="{RelativeSource AncestorType=local:CrossCutNoteListView}"/>
-                                </MultiBinding>
-                            </TextBlock.Text>
-                        </TextBlock>
+                        <!-- The breadcrumb is the way back: it already names where the note
+                             lives, so it is also the control that opens it there. A Button
+                             rather than a Hyperlink so the breadcrumb's MultiBinding stays on a
+                             plain TextBlock — bindings on a Run inside a Hyperlink resolve
+                             through the inline tree and fail quietly when they don't. -->
+                        <Button HorizontalAlignment="Left" Cursor="Hand"
+                                Background="Transparent" BorderThickness="0"
+                                Padding="0" Margin="2,0,0,2"
+                                ToolTip="Open this note where it lives"
+                                Command="{Binding DataContext.OpenOwnerCommand,
+                                          RelativeSource={RelativeSource AncestorType=local:CrossCutNoteListView}}"
+                                CommandParameter="{Binding}">
+                            <TextBlock FontSize="11" FontStyle="Italic"
+                                       Foreground="#4A6FA5" TextDecorations="Underline">
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource NoteBreadcrumbConverter}">
+                                        <Binding/>
+                                        <Binding Path="DataContext"
+                                                 RelativeSource="{RelativeSource AncestorType=local:CrossCutNoteListView}"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                        </Button>
                         <local:NoteView/>
                     </StackPanel>
                 </DataTemplate>

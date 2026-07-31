@@ -22,6 +22,8 @@ public partial class App : Application
 
     public App()
     {
+        InstallGlobalExceptionHandlers();
+
         AppHost = Host.CreateDefaultBuilder()
             .ConfigureServices((_, services) =>
             {
@@ -72,6 +74,41 @@ public partial class App : Application
                         initialLink));
             })
             .Build();
+    }
+
+    /// <summary>
+    /// Three doors an exception can leave by, all of which default to killing the process or —
+    /// worse — saying nothing at all. Wired in the constructor so they are live before any
+    /// window, service, or project load can throw.
+    /// </summary>
+    private void InstallGlobalExceptionHandlers()
+    {
+        // 1. The UI thread: commands, event handlers, bindings, `async void` handlers. Recoverable
+        //    — the dispatcher keeps pumping once the exception is marked handled, so a bad click
+        //    costs you the click, not the session.
+        DispatcherUnhandledException += (_, args) =>
+        {
+            args.Handled = true;
+            CrashReporter.Report(args.Exception, "UI thread", recovered: true);
+        };
+
+        // 2. Faulted tasks nobody awaited — the app is full of `_ = SaveAsync()`. Without this the
+        //    exception surfaces only when the GC finalizes the Task, and .NET does not terminate
+        //    for it, so a FAILED SAVE IS SILENT: the user believes their work is on disk when it
+        //    is not. This is the data-loss path that has no visible symptom.
+        TaskScheduler.UnobservedTaskException += (_, args) =>
+        {
+            args.SetObserved();
+            CrashReporter.Report(args.Exception, "background task", recovered: true);
+        };
+
+        // 3. Anything else — a non-UI thread. The CLR is going to terminate whatever we do here;
+        //    all that is left is to say so and leave a log behind.
+        AppDomain.CurrentDomain.UnhandledException += (_, args) =>
+        {
+            if (args.ExceptionObject is Exception ex)
+                CrashReporter.Report(ex, "background thread", recovered: false);
+        };
     }
 
     protected override async void OnStartup(StartupEventArgs e)

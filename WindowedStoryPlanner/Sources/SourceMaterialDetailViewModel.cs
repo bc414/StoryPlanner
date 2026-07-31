@@ -10,8 +10,8 @@ namespace WindowedStoryPlanner;
 /// Primary constructor on purpose — see ThemeDetailViewModel's remarks: a derived property
 /// initializer runs before the base constructor, which seeds the list via <see cref="Matches"/>.
 /// </remarks>
-public class SourceMaterialDetailViewModel(SourceMaterialViewModel sourceMaterial, IViewModelRegistry registry)
-    : TaggedNotesViewModelBase(registry)
+public class SourceMaterialDetailViewModel(SourceMaterialViewModel sourceMaterial, IViewModelRegistry registry, IWindowManager windowManager)
+    : TaggedNotesViewModelBase(registry, windowManager)
 {
     public SourceMaterialViewModel SourceMaterial { get; } = sourceMaterial;
 

@@ -26,7 +26,6 @@ namespace WindowedStoryPlanner;
 public partial class DateRangeNotesViewModel : TaggedNotesViewModelBase
 {
     private readonly IStoryService _storyService;
-    private readonly IWindowManager _windowManager;
 
     // Null = no range applied yet, which is what the window opens on: rendering the whole
     // chronology by default is visibly slow, and nothing here is worth that wait before the
@@ -40,10 +39,9 @@ public partial class DateRangeNotesViewModel : TaggedNotesViewModelBase
     public DateRangeNotesViewModel(
         IViewModelRegistry registry,
         IStoryService storyService,
-        IWindowManager windowManager) : base(registry)
+        IWindowManager windowManager) : base(registry, windowManager)
     {
         _storyService = storyService;
-        _windowManager = windowManager;
 
         ((INotifyCollectionChanged)Notes).CollectionChanged += (_, _) => RaiseStatus();
         registry.StoryLoaded += OnStoryLoaded;
@@ -196,7 +194,7 @@ public partial class DateRangeNotesViewModel : TaggedNotesViewModelBase
                     ? name
                     : "(Unplaced)",
                 OpenCommand = new RelayCommand(() =>
-                    _windowManager.OpenCommonWindow(EditorMode.Gardener, vm))
+                    _windowManager.OpenPlotPointWindow(vm))
             });
         }
     }

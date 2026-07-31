@@ -110,7 +110,7 @@ namespace WindowedStoryPlanner
             if (vmToRemove is not null)
                 _viewModelRegistry.AllPlotPointSubjectLinkViewModels.Remove(vmToRemove);
 
-            _ = _storyService.SaveAsync();
+            _storyService.SaveAsync().FireAndForget();
             _viewModelRegistry.RaiseLinksInvalidated();
         }
 

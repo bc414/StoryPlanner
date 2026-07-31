@@ -27,17 +27,22 @@ public class WindowManager : IWindowManager
         _storyService = storyService;
     }
 
-    /// <summary>
-    /// Opens a new CommonWindow. Always creates a new instance —
-    /// CommonWindow is intentionally multi-instance.
-    /// </summary>
-    public void OpenCommonWindow(
-        EditorMode mode,
-        NarrativeElementViewModel element,
+    // CommonWindow is intentionally multi-instance — these always create a new one.
+
+    public void OpenSubjectWindow(
+        SubjectViewModel subject,
+        EditorMode mode = EditorMode.Expansion,
         PlotPointSubjectLinkViewModel? initialLink = null)
     {
-        _commonWindowFactory(mode, element, initialLink).Show();
+        if (mode is not (EditorMode.Expansion or EditorMode.Linking))
+            throw new ArgumentOutOfRangeException(nameof(mode), mode,
+                "A subject's editor opens in Expansion or Linking; Gardener takes a plot point.");
+
+        _commonWindowFactory(mode, subject, initialLink).Show();
     }
+
+    public void OpenPlotPointWindow(PlotPointViewModel plotPoint) =>
+        _commonWindowFactory(EditorMode.Gardener, plotPoint, null).Show();
 
     /// <summary>
     /// Shows the one window registered under <paramref name="key"/>, creating it if it isn't
@@ -83,7 +88,7 @@ public class WindowManager : IWindowManager
     /// Opens a ThemeWindow for the given theme — singleton per theme.
     /// </summary>
     public void OpenThemeWindow(ThemeViewModel theme) =>
-        ShowSingleton(theme, () => new ThemeWindow { DataContext = new ThemeDetailViewModel(theme, _registry) });
+        ShowSingleton(theme, () => new ThemeWindow { DataContext = new ThemeDetailViewModel(theme, _registry, this) });
 
     /// <summary>
     /// Opens a SourceMaterialWindow for the given source material — singleton per source material.
@@ -91,7 +96,7 @@ public class WindowManager : IWindowManager
     public void OpenSourceMaterialWindow(SourceMaterialViewModel sourceMaterial) =>
         ShowSingleton(sourceMaterial, () => new SourceMaterialWindow
         {
-            DataContext = new SourceMaterialDetailViewModel(sourceMaterial, _registry)
+            DataContext = new SourceMaterialDetailViewModel(sourceMaterial, _registry, this)
         });
 
     /// <summary>
@@ -102,7 +107,7 @@ public class WindowManager : IWindowManager
     public void OpenSourceMaterialPartWindow(SourceMaterialPartViewModel part) =>
         ShowSingleton(part, () => new SourceMaterialPartWindow
         {
-            DataContext = new SourceMaterialPartDetailViewModel(part, _registry)
+            DataContext = new SourceMaterialPartDetailViewModel(part, _registry, this)
         });
 
     /// <summary>
@@ -125,7 +130,7 @@ public class WindowManager : IWindowManager
     {
         var window = ShowSingleton(MissingFieldWindowKey, () => new MissingFieldWindow
         {
-            DataContext = new MissingFieldNotesViewModel(_registry, field)
+            DataContext = new MissingFieldNotesViewModel(_registry, this, field)
         });
 
         if (window.DataContext is MissingFieldNotesViewModel vm)

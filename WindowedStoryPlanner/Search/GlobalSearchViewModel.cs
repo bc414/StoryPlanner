@@ -173,12 +173,12 @@ public partial class GlobalSearchViewModel : ObservableObject
         {
             case SearchHitKind.Subject:
                 if (FindSubject(result.Id) is { } subjectVm)
-                    _windowManager.OpenCommonWindow(EditorMode.Expansion, subjectVm);
+                    _windowManager.OpenSubjectWindow(subjectVm);
                 break;
 
             case SearchHitKind.PlotPoint:
                 if (FindPlotPoint(result.Id) is { } plotPointVm)
-                    _windowManager.OpenCommonWindow(EditorMode.Gardener, plotPointVm);
+                    _windowManager.OpenPlotPointWindow(plotPointVm);
                 break;
 
             case SearchHitKind.Chapter:
@@ -205,31 +205,8 @@ public partial class GlobalSearchViewModel : ObservableObject
     private void OpenNoteOwner(int noteId)
     {
         var note = _registry.AllNoteViewModels.FirstOrDefault(n => n.Id == noteId);
-        if (note is null) return;
-
-        switch (note.OwnerType)
-        {
-            case OwnerType.Subject:
-                if (FindSubject(note.OwnerId) is { } subjectVm)
-                    _windowManager.OpenCommonWindow(EditorMode.Expansion, subjectVm);
-                break;
-
-            case OwnerType.PlotPoint:
-                if (FindPlotPoint(note.OwnerId) is { } plotPointVm)
-                    _windowManager.OpenCommonWindow(EditorMode.Gardener, plotPointVm);
-                break;
-
-            case OwnerType.Chapter:
-                if (FindChapter(note.OwnerId) is { } chapterVm)
-                    _windowManager.OpenChapterWindow(chapterVm);
-                break;
-
-            case OwnerType.PlotPointSubjectLink:
-                var link = _registry.AllPlotPointSubjectLinkViewModels.FirstOrDefault(l => l.Id == note.OwnerId);
-                if (link is not null && FindPlotPoint(link.PlotPointId) is { } ownerPlotPointVm)
-                    _windowManager.OpenCommonWindow(EditorMode.Linking, ownerPlotPointVm, link);
-                break;
-        }
+        if (note is not null)
+            OwnerNavigator.Open(note, _registry, _windowManager);
     }
 
     private SubjectViewModel? FindSubject(int id) => _registry.AllSubjectViewModels.FirstOrDefault(s => s.Id == id);

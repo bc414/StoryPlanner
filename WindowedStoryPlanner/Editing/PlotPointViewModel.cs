@@ -95,7 +95,7 @@ namespace WindowedStoryPlanner
         }
 
         [RelayCommand]
-        private void Open() => _windowManager.OpenCommonWindow(EditorMode.Gardener, this);
+        private void Open() => _windowManager.OpenPlotPointWindow(this);
 
         public PlotPointViewModel(
             PlotPoint plotPoint,

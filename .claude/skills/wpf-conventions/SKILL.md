@@ -151,6 +151,19 @@ _registry.AllNoteViewModels.Add(vm);      // registry stays in sync
 Save immediately on create: EF assigns the `Id`, and notes cannot be associated with an owner
 until it exists. Do not compute ids yourself.
 
+**Never discard a save Task.** `_ = _storyService.SaveAsync();` throws its exception away: a
+discarded Task's fault surfaces only if the GC finalizes it, and .NET does not terminate for that,
+so **a failed save is completely silent** — the author keeps editing a project they believe is on
+disk. That is the worst failure this app can have, because unlike a crash it has no symptom. When
+you cannot await, use the extension instead:
+
+```csharp
+_storyService.SaveAsync().FireAndForget();   // observed; reports the failure when it happens
+```
+
+`Common/FireAndForgetExtensions.cs`; `[CallerMemberName]` labels the report with the calling
+method, so the dialog names the operation that did not persist.
+
 ## `ContentDeleter` is the referential integrity system
 
 The database has no foreign keys, so **nothing but this class prevents orphaned rows.** Deletes
@@ -190,9 +203,48 @@ per-mode behavior in the definition table, not in `switch` statements.
 
 - **`IViewModelRegistry`** is the central lookup for all observable collections. Resolve through
   it rather than passing view model references around.
-- **`IWindowManager`** opens windows; `ViewModelLocator` is the root DataContext.
+- **`IWindowManager`** opens windows; `ViewModelLocator` is the root DataContext. Its editor
+  entry points are **typed on purpose**: `OpenSubjectWindow(subject, mode, initialLink)` and
+  `OpenPlotPointWindow(plotPoint)`. There is no `OpenCommonWindow(EditorMode, NarrativeElementViewModel, …)`
+  any more — that shape let any mode pair with any element while `CommonWindow` resolved it with
+  an *unchecked* cast (`SubjectViewModel` for Expansion **and Linking**, `PlotPointViewModel` for
+  Gardener). Passing a plot point to Linking mode was a compile-clean hard process kill; it shipped
+  in Global Search for months before anyone double-clicked a link-owned note. Do not reintroduce a
+  loosely-typed opener — the pairing is the compiler's job.
+  A note owned by a `PlotPointSubjectLink` opens as its **subject** in Linking mode with the link
+  preselected; the plot point is wrong on both counts. `Common/OwnerNavigator.Open(...)` is the one
+  implementation — every cross-owner surface routes through it.
 - **Views:** UserControls for library and widget surfaces, Windows for detail surfaces.
   Value converters live in `Views/Converters.cs`; drag-drop behaviors in `Views/Behaviors/`.
+
+## The crash safety net (added 2026-07-31)
+
+`App`'s constructor installs three handlers before any window or project load can throw; the
+reporting lives in `Shell/CrashReporter.cs`, which logs to `crash-log.txt` beside the executable.
+
+| door | what it catches | outcome |
+|---|---|---|
+| `DispatcherUnhandledException` | UI thread: commands, bindings, `async void` handlers | `Handled = true` — **the app survives** |
+| `TaskScheduler.UnobservedTaskException` | faulted tasks nobody awaited | reported instead of vanishing |
+| `AppDomain.UnhandledException` | non-UI threads | CLR terminates anyway; log and say so |
+
+Why it exists: every note edit is typed straight into a live POCO, so a process kill costs
+unsaved authoring. An unchecked cast in one window is not a good enough reason to lose an
+afternoon's work.
+
+Two deliberate choices, do not "improve" them:
+
+- **No emergency save on crash.** In-memory state is of unknown validity, writes to a `.storyplan`
+  are Brian's decision, and a well-meant emergency save is how a recoverable session becomes a
+  corrupted file. The dialog tells him what happened and stops there.
+- **Repeat suppression is per-signature, not per-session.** Three identical `(origin, type,
+  message)` reports stop raising dialogs so a per-keystroke failure cannot trap the user in a
+  modal loop with no way to reach File > Save; a *different* failure still gets its dialog, and
+  everything is logged regardless.
+
+This is a safety net, not a licence to throw. It does not make an exception an acceptable control
+flow, and it does not excuse an unchecked cast — it means one gets a dialog instead of taking the
+window down mid-edit.
 
 ## Traps
 

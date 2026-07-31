@@ -65,7 +65,7 @@ public partial class TimelineViewModel : ObservableObject
         _viewStateSaveTimer.Tick += (_, _) =>
         {
             _viewStateSaveTimer.Stop();
-            _ = SaveViewStateAsync();
+            SaveViewStateAsync().FireAndForget();
         };
     }
 

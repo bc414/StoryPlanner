@@ -10,8 +10,8 @@ namespace WindowedStoryPlanner;
 /// constructor, which seeds the list by calling <see cref="Matches"/>. Assigning Theme in a
 /// constructor body instead would run after that call and dereference null.
 /// </remarks>
-public class ThemeDetailViewModel(ThemeViewModel theme, IViewModelRegistry registry)
-    : TaggedNotesViewModelBase(registry)
+public class ThemeDetailViewModel(ThemeViewModel theme, IViewModelRegistry registry, IWindowManager windowManager)
+    : TaggedNotesViewModelBase(registry, windowManager)
 {
     public ThemeViewModel Theme { get; } = theme;
 

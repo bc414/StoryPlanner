@@ -36,7 +36,7 @@ public partial class StoryLibraryViewModel : ObservableObject
 
         // Set OrderIndex to max + 1 — same convention as ChapterLibraryViewModel.AddChapter.
         vm.OrderIndex = (Stories.Count > 0 ? Stories.Max(s => s.OrderIndex) : 0) + 1;
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     [RelayCommand]
@@ -48,7 +48,7 @@ public partial class StoryLibraryViewModel : ObservableObject
         var other = Stories[index - 1];
         (vm.OrderIndex, other.OrderIndex) = (other.OrderIndex, vm.OrderIndex);
         Stories.Move(index, index - 1);
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     [RelayCommand]
@@ -60,7 +60,7 @@ public partial class StoryLibraryViewModel : ObservableObject
         var other = Stories[index + 1];
         (vm.OrderIndex, other.OrderIndex) = (other.OrderIndex, vm.OrderIndex);
         Stories.Move(index, index + 1);
-        _ = _storyService.SaveAsync();
+        _storyService.SaveAsync().FireAndForget();
     }
 
     [RelayCommand]

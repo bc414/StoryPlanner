@@ -6,6 +6,7 @@ using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 namespace WindowedStoryPlanner;
 
@@ -21,6 +22,7 @@ namespace WindowedStoryPlanner;
 public abstract class TaggedNotesViewModelBase : ObservableObject, IDisposable
 {
     protected readonly IViewModelRegistry _registry;
+    protected readonly IWindowManager _windowManager;
 
     private readonly ObservableCollection<NoteViewModel> _notes = new();
     public ReadOnlyObservableCollection<NoteViewModel> Notes { get; }
@@ -29,14 +31,28 @@ public abstract class TaggedNotesViewModelBase : ObservableObject, IDisposable
     // registry, which by then may no longer contain the notes we subscribed to.
     private readonly HashSet<NoteViewModel> _subscribed = new();
 
-    protected TaggedNotesViewModelBase(IViewModelRegistry registry)
+    protected TaggedNotesViewModelBase(IViewModelRegistry registry, IWindowManager windowManager)
     {
         _registry = registry;
+        _windowManager = windowManager;
         Notes = new ReadOnlyObservableCollection<NoteViewModel>(_notes);
 
         registry.AllNoteViewModels.CollectionChanged += OnAllNotesCollectionChanged;
         Reseed();
     }
+
+    /// <summary>
+    /// Opens the entity a row's note actually lives on — the way out of a cross-cut list and back
+    /// into the note's own context, where its siblings on the same track are. Bound to the
+    /// breadcrumb, which is already the thing naming where the note is.
+    /// </summary>
+    public IRelayCommand<NoteViewModel> OpenOwnerCommand => _openOwnerCommand ??=
+        new RelayCommand<NoteViewModel>(note =>
+        {
+            if (note is not null) OwnerNavigator.Open(note, _registry, _windowManager);
+        });
+
+    private IRelayCommand<NoteViewModel>? _openOwnerCommand;
 
     /// <summary>Whether this note currently carries the tag this view model is filtering on.</summary>
     protected abstract bool Matches(NoteViewModel note);
