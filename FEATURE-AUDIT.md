@@ -21,7 +21,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 |---|---------|--------|-----------------|-------------|
 | A1 | Multi-story / narrative scoping (`StoryId` on content, `SupportsNarrativeTag`) | 🟡 | 015, 020, 053, 077, 091, 038/039 | **Enabler** |
 | B1 | Master timeline view (aggregate `WorldDate` notes) | 🟡 | 015, 019, 053 | View |
-| B2 | Global entity search (tab is a stub) | 🔴 | 038/039 | View |
+| B2 | Global entity search (tab is a stub) | 🟢 | 038/039 | View |
 | C1 | Note supersession / preserving retconned lore | 🔴 (contested) | 091, 015, 053, 038/039 | Model |
 | C2 | Stage-0 "accumulation" inbox / `IsIncorporated` flag | 🔴 | 053, 038/039, 015 | Model |
 | D1 | POV / focal-character designation on `PlotPoint` | 🔴 | 015, 019 | Model |
@@ -76,7 +76,20 @@ editing in `NoteView`. Still outstanding: era-range collapse (deep-history tail)
 triage onto the canvas, viewport persistence, and the DataOps ops actually being applied to the
 real files (rehearsed on a copy only — Brian's call).
 
-**B2 — 🔴 Global entity search.** The "Global Search" tab in [MainWindow.xaml](WindowedStoryPlanner/Views/MainWindow.xaml#L58-L70) is a `TextBox` bound to `SearchText` above an **empty `ScrollViewer`** — no results binding, no search VM (`grep SearchText` in `ViewModelLocator` → nothing). *Note:* a working, export-scoped search does exist in `ExportViewModel.RebuildSearchResults()` for anchor-picking, but the global cross-entity search is unimplemented.
+**B2 — 🟢 Global entity search.** *(Shipped 2026-07-30.)* The "Global Search" tab in
+[MainWindow.xaml](WindowedStoryPlanner/Shell/MainWindow.xaml#L66-L68) now hosts a real
+`GlobalSearchView`/`GlobalSearchViewModel` (`WindowedStoryPlanner/Search/`), backed by a new
+Pure-tier-tested matcher, `StoryPlanner.Core.EntitySearch`
+(`StoryPlanner.Core/Search/EntitySearch.cs`). It searches `Subject.Name/Description/Abbreviation`,
+`PlotPoint.Title`, `Chapter.Title`, `Theme.Name/Proposition`, `SourceMaterial.Name/Description`,
+and — the actual gap this closed — **`Note.Content`/`FlagReason`**, which nothing else in the app
+searched before (`ExportViewModel.RebuildSearchResults()` remains anchor-picking only, over
+names/titles). Results are grouped by type, show a snippet, and open the owning entity's window
+via the existing `IWindowManager` on double-click (a note opens its owner, including
+`PlotPointSubjectLink` notes with the link pre-selected). **Deliberately includes flagged notes'
+content in full**, unlike `NoteExportRenderer` and the MCP server's `Engine.Search` — this is the
+author reading their own data in-app, not an LLM-facing surface; see `EntitySearchTests` for the
+tests pinning that as intentional. Story is out of scope (no `OwnerType`, no detail window).
 
 **B3 — 🔴 Per-entity completion / scene-readiness dashboard.** Per-entity note-state rollups ("3 Confirmed, 4 Unset, 2 Flagged") and a derived "Completion Profile" that signals when a scene is ready to draft (019 blocks 61/69, 038/039 R8). Per-note/per-track VMs exist (`NoteTrackSectionViewModel`, `NoteViewModel`) but no state-rollup or readiness-scoring surface.
 

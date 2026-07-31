@@ -21,6 +21,7 @@ public class ProjectLoader
     private readonly SourceMaterialLibraryViewModel _sourceMaterialLibrary;
     private readonly ConversationLibraryViewModel   _conversationLibrary;
     private readonly ExportViewModel            _export;
+    private readonly GlobalSearchViewModel      _globalSearch;
 
     public ProjectLoader(
         IStoryService               storyService,
@@ -34,7 +35,8 @@ public class ProjectLoader
         ThemeLibraryViewModel       themeLibrary,
         SourceMaterialLibraryViewModel sourceMaterialLibrary,
         ConversationLibraryViewModel   conversationLibrary,
-        ExportViewModel             export)
+        ExportViewModel             export,
+        GlobalSearchViewModel       globalSearch)
     {
         _storyService          = storyService;
         _registry              = registry;
@@ -48,6 +50,7 @@ public class ProjectLoader
         _sourceMaterialLibrary = sourceMaterialLibrary;
         _conversationLibrary   = conversationLibrary;
         _export                = export;
+        _globalSearch          = globalSearch;
     }
 
     public void Load()
@@ -149,5 +152,6 @@ public class ProjectLoader
         _conversationLibrary.RefreshDashboard();
 
         _export.Reload();
+        _globalSearch.Reload();
     }
 }

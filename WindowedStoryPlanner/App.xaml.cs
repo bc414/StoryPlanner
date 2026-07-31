@@ -49,6 +49,7 @@ public partial class App : Application
                 services.AddSingleton<ConversationLibraryViewModel>();
                 services.AddSingleton<FloatingPlotPointsViewModel>();
                 services.AddSingleton<TimelineViewModel>();
+                services.AddSingleton<GlobalSearchViewModel>();
 
                 services.AddSingleton<ExportService>();
                 services.AddSingleton<ExportViewModel>();
