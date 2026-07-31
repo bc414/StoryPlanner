@@ -21,7 +21,10 @@
         <PrivateAssets>all</PrivateAssets>
         <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       </PackageReference>
-      <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.6" />
+      <!-- Transitive pin: EF Core 10.0.6 resolves SQLitePCLRaw 2.1.11, which bundles a SQLite
+           build with GHSA-2m69-gcr7-jv3q. 2.1.12 is the first unaffected release. Remove when
+           Microsoft.EntityFrameworkCore.Sqlite resolves 2.1.12+ on its own. -->
+      <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.12" />
     </ItemGroup>
 
 </Project>

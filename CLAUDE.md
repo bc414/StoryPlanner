@@ -98,8 +98,8 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 
 ## Build & run
 
-.NET 10. `dotnet test tests/StoryPlanner.Tests` — 77 tests covering the MCP server's invariants
-and `StoryPlanner.Core`'s export/scan/transform logic. Run before finishing any work in
+.NET 10. `dotnet test tests/StoryPlanner.Tests` — covers the MCP server's invariants and
+`StoryPlanner.Core`'s export/scan/transform logic. Run before finishing any work in
 `tools/` or `StoryPlanner.Core/`. Conventions and the known WPF-layer gap:
 `.claude/skills/testing/SKILL.md`.
 
@@ -192,6 +192,10 @@ for features that were later abandoned.
 ## Doc rules
 
 Absolute dates only — never "this session", "recently", "currently".
+**No live counts in prose** — not note/subject counts, not the test total. Anything that grows
+goes stale the moment it is written; name the command that answers it (`get_stats`,
+`dotnet test`) instead of its output. Point-in-time counts belong only in dated decision logs,
+where they are a record of what was true then, not a claim about now.
 When data semantics change, **three places update together**: the `storyplan-data` skill, this
 file, and the MCP server's `ServerInfo.Instructions`.
 Derived exports are regenerated, never committed (see `.gitignore`).
