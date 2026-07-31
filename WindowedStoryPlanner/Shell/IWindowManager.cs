@@ -16,5 +16,6 @@ public interface IWindowManager
     void OpenThemeWindow(ThemeViewModel theme);
 
     void OpenSourceMaterialWindow(SourceMaterialViewModel sourceMaterial);
+    void OpenSourceMaterialPartWindow(SourceMaterialPartViewModel part);
     void OpenConversationReaderWindow(ConversationViewModel conversation);
 }

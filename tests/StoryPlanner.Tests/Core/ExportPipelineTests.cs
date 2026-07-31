@@ -167,4 +167,44 @@ public class ExportPipelineTests
 
         Assert.DoesNotContain(SyntheticPlan.VisibleSecret, markdown);
     }
+
+    [Fact]
+    public async Task Renderer_emits_source_citations_including_multiple_per_note()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.NoteTrackDefinitions.Single(t => t.Id == SyntheticPlan.BackstoryTrackId).SupportsSourceMaterial = true;
+
+            ctx.SourceMaterials.Add(new SourceMaterial { Id = 1, Name = "MLP:FiM" });
+            ctx.SourceMaterialParts.AddRange(
+                new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "S3E01", Name = "The Crystal Empire Part 1" },
+                new SourceMaterialPart { Id = 2, SourceMaterialId = 1, Code = "S3E02" }); // no Name -> falls back to Code
+
+            // Mirrors note 696's shape: one note, several citations for one claim.
+            ctx.NoteSourceReferences.AddRange(
+                new NoteSourceReference { NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 1, SortOrder = 0 },
+                new NoteSourceReference { NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 2, SortOrder = 1 });
+        });
+        using var svc = await plan.OpenStoryServiceAsync();
+
+        var config = new ExportConfiguration { Anchors = [], Scope = 0 };
+        var markdown = NoteExportRenderer.Build(ExportResolver.ResolveAll(svc), config, svc);
+
+        Assert.Contains("*Source: MLP:FiM · S3E01 — The Crystal Empire Part 1, MLP:FiM · S3E02*", markdown);
+    }
+
+    [Fact]
+    public async Task Renderer_shows_the_uncited_placeholder_on_a_source_track_with_no_citation()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+            ctx.NoteTrackDefinitions.Single(t => t.Id == SyntheticPlan.BackstoryTrackId).SupportsSourceMaterial = true);
+        using var svc = await plan.OpenStoryServiceAsync();
+
+        var config = new ExportConfiguration { Anchors = [], Scope = 0 };
+        var markdown = NoteExportRenderer.Build(ExportResolver.ResolveAll(svc), config, svc);
+
+        Assert.Contains("*(source not yet cited)*", markdown);
+    }
 }

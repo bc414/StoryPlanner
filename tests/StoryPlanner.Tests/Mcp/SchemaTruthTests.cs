@@ -192,4 +192,84 @@ public class SchemaTruthTests
 
         Assert.Contains("(untracked)", result);
     }
+
+    // ── Source material: two-tier Work/Part, a note may cite several Parts ─────
+
+    [Fact]
+    public void SourceLabel_renders_every_citation_not_just_the_first()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SourceMaterials.Add(new SourceMaterial { Id = 1, Name = "MLP:FiM" });
+            ctx.SourceMaterialParts.AddRange(
+                new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "S3E01" },
+                new SourceMaterialPart { Id = 2, SourceMaterialId = 1, Code = "S3E02" });
+            ctx.NoteSourceReferences.AddRange(
+                new NoteSourceReference { NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 1, SortOrder = 0 },
+                new NoteSourceReference { NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 2, SortOrder = 1 });
+        });
+        var cache = plan.Sources.Get(Corpus.Working);
+        var note = cache.Notes.Single(n => n.Id == SyntheticPlan.VisibleNoteId);
+
+        Assert.Equal("source:MLP:FiM·S3E01,MLP:FiM·S3E02", Query.SourceLabel(cache, note));
+    }
+
+    [Fact]
+    public void SourceLabel_is_empty_when_a_note_has_no_citations()
+    {
+        using var plan = SyntheticPlan.Create();
+        var cache = plan.Sources.Get(Corpus.Working);
+        var note = cache.Notes.Single(n => n.Id == SyntheticPlan.VisibleNoteId);
+
+        Assert.Equal("", Query.SourceLabel(cache, note));
+    }
+
+    [Fact]
+    public void ListSourceMaterials_reports_untouched_parts_as_negative_space()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SourceMaterials.Add(new SourceMaterial { Id = 1, Name = "MLP:FiM", PartNoun = "Episode" });
+            ctx.SourceMaterialParts.AddRange(
+                new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "S3E01" },     // cited
+                new SourceMaterialPart { Id = 2, SourceMaterialId = 1, Code = "S3E02", ReviewState = SourcePartReviewState.Reviewed }, // reviewed, 0 cites -> NOT untouched
+                new SourceMaterialPart { Id = 3, SourceMaterialId = 1, Code = "S3E03" });     // untouched
+            ctx.NoteSourceReferences.Add(new NoteSourceReference
+            {
+                NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 1
+            });
+        });
+        var reference = new ReferenceTools(plan.Sources);
+
+        var result = reference.ListSourceMaterials();
+
+        Assert.Contains("1 untouched", result); // only S3E03
+        Assert.Contains("S3E01: 1 note(s)", result);
+        Assert.Contains("S3E02: 0 note(s), reviewed", result);
+        Assert.Contains("S3E03: 0 note(s)", result);
+        Assert.Contains("S3E03", result.Split('\n').Single(l => l.Contains("<- untouched")));
+    }
+
+    [Fact]
+    public void Count_notes_by_source_groups_multi_cite_notes_by_their_full_citation_set()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SourceMaterials.Add(new SourceMaterial { Id = 1, Name = "MLP:FiM" });
+            ctx.SourceMaterialParts.Add(new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "S3E01" });
+            ctx.NoteSourceReferences.Add(new NoteSourceReference
+            {
+                NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 1, SourceMaterialPartId = 1
+            });
+        });
+        var tools = new PlanTools(plan.Sources);
+
+        var result = tools.CountNotesPlan(["source"]);
+
+        Assert.Contains("MLP:FiM·S3E01 | 1", result);
+        Assert.Contains("(no source)", result); // every other note in the fixture
+    }
 }

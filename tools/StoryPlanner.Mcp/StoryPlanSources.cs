@@ -31,6 +31,9 @@ public sealed class PlanCache
     public required IReadOnlyList<PlotPointSubjectLink> Links { get; init; }
     public required IReadOnlyList<NoteTrackDefinition> Tracks { get; init; }
     public required IReadOnlyList<Theme> Themes { get; init; }
+    public required IReadOnlyList<SourceMaterial> SourceMaterials { get; init; }
+    public required IReadOnlyList<SourceMaterialPart> SourceMaterialParts { get; init; }
+    public required IReadOnlyList<NoteSourceReference> SourceReferences { get; init; }
     public required IReadOnlyList<Conversation> Conversations { get; init; }
     public required IReadOnlyList<ConversationBlock> Blocks { get; init; }
 
@@ -47,11 +50,19 @@ public sealed class PlanCache
     public required IReadOnlyDictionary<int, PlotPointSubjectLink> LinkById { get; init; }
     public required IReadOnlyDictionary<int, NoteTrackDefinition> TrackById { get; init; }
     public required IReadOnlyDictionary<int, Theme> ThemeById { get; init; }
+    public required IReadOnlyDictionary<int, SourceMaterial> SourceMaterialById { get; init; }
+    public required IReadOnlyDictionary<int, SourceMaterialPart> SourceMaterialPartById { get; init; }
     public required IReadOnlyDictionary<int, Conversation> ConversationById { get; init; }
     public required IReadOnlyDictionary<int, ConversationBlock> BlockById { get; init; }
 
     /// <summary>Notes grouped by (OwnerType, OwnerId) — the polymorphic ownership join.</summary>
     public required IReadOnlyDictionary<(OwnerType, int), List<Note>> NotesByOwner { get; init; }
+
+    /// <summary>SourceMaterialParts grouped by their parent Work's Id.</summary>
+    public required IReadOnlyDictionary<int, List<SourceMaterialPart>> SourceMaterialPartsByWork { get; init; }
+
+    /// <summary>NoteSourceReferences grouped by NoteId — a note may cite several Parts for one claim.</summary>
+    public required IReadOnlyDictionary<int, List<NoteSourceReference>> SourceReferencesByNote { get; init; }
 
     /// <summary>Links grouped by SubjectId and by PlotPointId.</summary>
     public required IReadOnlyDictionary<int, List<PlotPointSubjectLink>> LinksBySubject { get; init; }
@@ -182,6 +193,9 @@ public sealed class StoryPlanSources : IDisposable
         var links = ctx.PlotPointSubjectLinks.ToList();
         var tracks = ctx.NoteTrackDefinitions.ToList();
         var themes = ctx.Themes.ToList();
+        var sourceMaterials = ctx.SourceMaterials.ToList();
+        var sourceMaterialParts = ctx.SourceMaterialParts.ToList();
+        var sourceReferences = ctx.NoteSourceReferences.ToList();
         var conversations = ctx.Conversations.ToList();
         var blocks = ctx.ConversationBlocks.ToList();
 
@@ -202,6 +216,9 @@ public sealed class StoryPlanSources : IDisposable
             Links = links,
             Tracks = tracks,
             Themes = themes,
+            SourceMaterials = sourceMaterials,
+            SourceMaterialParts = sourceMaterialParts,
+            SourceReferences = sourceReferences,
             Conversations = conversations,
             Blocks = blocks,
             SubjectById = subjects.ToDictionary(s => s.Id),
@@ -214,6 +231,8 @@ public sealed class StoryPlanSources : IDisposable
             LinkById = links.ToDictionary(l => l.Id),
             TrackById = tracks.ToDictionary(t => t.Id),
             ThemeById = themes.ToDictionary(t => t.Id),
+            SourceMaterialById = sourceMaterials.ToDictionary(s => s.Id),
+            SourceMaterialPartById = sourceMaterialParts.ToDictionary(p => p.Id),
             ConversationById = conversations.ToDictionary(c => c.Id),
             BlockById = blocks.ToDictionary(b => b.Id),
             NotesByOwner = notes
@@ -224,7 +243,13 @@ public sealed class StoryPlanSources : IDisposable
                 .ToDictionary(g => g.Key, g => g.ToList()),
             LinksByPlotPoint = links
                 .GroupBy(l => l.PlotPointId)
-                .ToDictionary(g => g.Key, g => g.ToList())
+                .ToDictionary(g => g.Key, g => g.ToList()),
+            SourceMaterialPartsByWork = sourceMaterialParts
+                .GroupBy(p => p.SourceMaterialId)
+                .ToDictionary(g => g.Key, g => g.OrderBy(p => p.OrderIndex).ToList()),
+            SourceReferencesByNote = sourceReferences
+                .GroupBy(r => r.NoteId)
+                .ToDictionary(g => g.Key, g => g.OrderBy(r => r.SortOrder).ToList())
         };
     }
 

@@ -5,42 +5,85 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              xmlns:local="clr-namespace:WindowedStoryPlanner"
              mc:Ignorable="d"
-             d:DesignHeight="40" d:DesignWidth="180">
+             x:Name="Root"
+             d:DataContext="{d:DesignInstance Type=local:NoteViewModel}"
+             d:DesignHeight="24" d:DesignWidth="260">
     <UserControl.Resources>
         <BooleanToVisibilityConverter x:Key="BoolToVis"/>
-        <local:NullToVisibilityConverter x:Key="NullToVis"/>
     </UserControl.Resources>
 
-    <Grid>
-        <!-- ── Chip mode: a source material is already selected ── -->
-        <StackPanel Orientation="Horizontal"
-                    Visibility="{Binding SelectedSourceMaterial, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Converter={StaticResource NullToVis}}">
-            <TextBlock Text="{Binding SelectedSourceMaterial.Name, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}}"
-                       VerticalAlignment="Center" FontSize="11"/>
-            <Button Content="✕"
-                    Width="16" Height="16"
-                    Padding="0" FontSize="9"
-                    Margin="2,0,0,0"
-                    VerticalAlignment="Center"
-                    Background="Transparent"
-                    BorderThickness="0"
-                    Foreground="#999"
-                    ToolTip="Clear source material"
-                    Click="ClearButton_Click"/>
-        </StackPanel>
+    <StackPanel Orientation="Horizontal">
+        <!-- ── Chips: one per existing citation ── -->
+        <ItemsControl ItemsSource="{Binding Note.SourceReferences, ElementName=Root}">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <StackPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border Background="#EEF2FF" CornerRadius="8" Padding="6,1" Margin="0,0,3,0">
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="{Binding DisplayLabel}" FontSize="11" VerticalAlignment="Center"
+                                       ToolTip="{Binding Work.Name}"/>
+                            <Button Content="✕" Width="14" Height="14" Padding="0" FontSize="8"
+                                    Margin="3,0,0,0" VerticalAlignment="Center"
+                                    Background="Transparent" BorderThickness="0" Foreground="#888"
+                                    ToolTip="Remove citation"
+                                    Click="RemoveChip_Click"/>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
 
-        <!-- ── Search mode: nothing selected yet ── -->
-        <StackPanel Visibility="{Binding SelectedSourceMaterial, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Converter={StaticResource NullToVis}, ConverterParameter=Invert}">
-            <TextBox x:Name="SearchBox"
-                     Text="{Binding SearchText, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                     MinWidth="100" FontSize="11"/>
-            <ListBox x:Name="SearchResultsList"
-                     ItemsSource="{Binding SearchResults, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}}"
-                     DisplayMemberPath="Name"
-                     MaxHeight="140"
-                     FontSize="11"
-                     Visibility="{Binding HasSearchText, RelativeSource={RelativeSource AncestorType=local:SourceMaterialPickerControl}, Converter={StaticResource BoolToVis}}"
-                     SelectionChanged="SearchResultsList_SelectionChanged"/>
-        </StackPanel>
-    </Grid>
+        <!-- ── The expander button that opens the search/add popup ── -->
+        <ToggleButton x:Name="OpenToggle" Content="+" Width="18" Height="18" Padding="0"
+                      FontSize="11" Background="Transparent" BorderThickness="1" BorderBrush="#CCC"
+                      Foreground="#666" ToolTip="Cite a source"/>
+
+        <Popup IsOpen="{Binding IsChecked, ElementName=OpenToggle, Mode=TwoWay}"
+               StaysOpen="False" Placement="Bottom" PlacementTarget="{Binding ElementName=OpenToggle}"
+               Opened="Popup_Opened" AllowsTransparency="True">
+            <Border Background="White" BorderBrush="#BBB" BorderThickness="1" CornerRadius="4"
+                    Padding="8" Margin="0,2,8,8" MinWidth="240">
+                <Border.Effect>
+                    <DropShadowEffect BlurRadius="8" ShadowDepth="2" Opacity="0.25"/>
+                </Border.Effect>
+                <StackPanel>
+                    <TextBox x:Name="SearchBox" FontSize="11"
+                             TextChanged="SearchBox_TextChanged"
+                             ToolTip="Search Works and Parts by name/code"/>
+
+                    <ListBox x:Name="ResultsList" FontSize="11" MaxHeight="160" Margin="0,4,0,0"
+                             DisplayMemberPath="Label"
+                             Visibility="{Binding HasResults, ElementName=Root, Converter={StaticResource BoolToVis}}"
+                             SelectionChanged="ResultsList_SelectionChanged"/>
+
+                    <!-- Quick-add: shown when the search text doesn't already exist -->
+                    <StackPanel x:Name="AddNewPanel" Margin="0,6,0,0">
+                        <Button x:Name="ShowAddNewButton" Content="+ Add new source…" FontSize="10"
+                                HorizontalAlignment="Left" Padding="4,2" Background="Transparent"
+                                BorderThickness="0" Foreground="#3366CC" Click="ShowAddNewButton_Click"/>
+
+                        <StackPanel x:Name="AddNewForm" Visibility="Collapsed" Margin="0,4,0,0">
+                            <TextBlock Text="Work (existing or new):" FontSize="10" Foreground="#888"/>
+                            <ComboBox x:Name="WorkCombo" FontSize="11" IsEditable="True"
+                                      ItemsSource="{Binding Note.AvailableSourceMaterials, ElementName=Root}"
+                                      DisplayMemberPath="Name" Margin="0,0,0,4"/>
+                            <TextBlock Text="Part code (optional, e.g. S4E11):" FontSize="10" Foreground="#888"/>
+                            <TextBox x:Name="PartCodeBox" FontSize="11" Margin="0,0,0,4"/>
+                            <TextBlock Text="Part name (optional):" FontSize="10" Foreground="#888"/>
+                            <TextBox x:Name="PartNameBox" FontSize="11" Margin="0,0,0,4"/>
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Content="Cancel" FontSize="10" Padding="6,2" Click="CancelAddNew_Click"/>
+                                <Button Content="Add" FontSize="10" Padding="8,2" Margin="4,0,0,0"
+                                        FontWeight="SemiBold" Click="ConfirmAddNew_Click"/>
+                            </StackPanel>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </Border>
+        </Popup>
+    </StackPanel>
 </UserControl>

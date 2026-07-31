@@ -95,6 +95,7 @@ public partial class GlobalSearchViewModel : ObservableObject
                 _storyService.Chapters.ToList(),
                 _storyService.Themes.ToList(),
                 _storyService.SourceMaterials.ToList(),
+                _storyService.SourceMaterialParts.ToList(),
                 _storyService.Notes.ToList());
 
             foreach (var hit in EntitySearch.Run(input, SearchText, KindFilter))

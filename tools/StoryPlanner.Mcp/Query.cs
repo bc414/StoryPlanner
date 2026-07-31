@@ -154,6 +154,27 @@ public static class Query
             : $"wd:\"{n.WorldDate.Trim()}\" (unparsed)";
     }
 
+    // ── Source material: a note may cite several Parts for one claim ────────────
+    // (e.g. "the Wonderbolts were useless in a crisis" citing four episodes) — see
+    // NoteSourceReference's doc comment. All are rendered, comma-joined, never just the first.
+
+    public static string SourceLabel(PlanCache c, Note n)
+    {
+        if (!c.SourceReferencesByNote.TryGetValue(n.Id, out var refs) || refs.Count == 0) return "";
+        var citations = refs
+            .Select(r => FormatSourceCitation(c, r))
+            .Where(s => s.Length > 0);
+        return $"source:{string.Join(",", citations)}";
+    }
+
+    private static string FormatSourceCitation(PlanCache c, NoteSourceReference r)
+    {
+        if (!c.SourceMaterialById.TryGetValue(r.SourceMaterialId, out var work)) return "";
+        if (r.SourceMaterialPartId is int partId && c.SourceMaterialPartById.TryGetValue(partId, out var part))
+            return $"{work.Name}·{part.Code}";
+        return work.Name;
+    }
+
     // ── Regex + snippets ────────────────────────────────────────────────────────
 
     public static Regex BuildRegex(string pattern, bool caseSensitive, bool wholeWord)

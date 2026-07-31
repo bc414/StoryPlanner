@@ -20,6 +20,8 @@ public class StoryProjectData
     
     // --- Meta & Aux ---
     public List<SourceMaterial> SourceMaterials { get; set; } = new();
+    public List<SourceMaterialPart> SourceMaterialParts { get; set; } = new();
+    public List<NoteSourceReference> NoteSourceReferences { get; set; } = new();
     public List<GeminiEntry> GeminiEntries { get; set; } = new();
     public List<Idea> Ideas { get; set; } = new();
 }

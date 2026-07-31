@@ -94,8 +94,10 @@
                 <StackPanel Orientation="Horizontal" Margin="8,0,0,0"
                             Visibility="{Binding SupportsSourceMaterial, Converter={StaticResource BoolToVis}}">
                     <TextBlock Text="Source: " VerticalAlignment="Center" FontSize="11" Foreground="#666"/>
-                    <local:SourceMaterialPickerControl AvailableSourceMaterials="{Binding AvailableSourceMaterials}"
-                                                        SelectedSourceMaterial="{Binding SelectedSourceMaterial, Mode=TwoWay}"/>
+                    <local:SourceMaterialPickerControl Note="{Binding}"
+                                                        IsEnabled="{Binding DataContext.IsReadOnly,
+                                                                    RelativeSource={RelativeSource AncestorType=local:NoteTrackView},
+                                                                    Converter={StaticResource InverseBooleanConverter}}"/>
                 </StackPanel>
             </StackPanel>
 

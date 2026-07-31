@@ -6,6 +6,7 @@ var ops = new Dictionary<string, IDataOperation>(StringComparer.OrdinalIgnoreCas
     ["assign-stories"] = new AssignStories(),
     ["convert-world-dates"] = new ConvertWorldDates(),
     ["seed-timeline-defaults"] = new SeedTimelineDefaults(),
+    ["seed-source-material"] = new SeedSourceMaterial(),
 };
 
 var positional = args.Where(a => a != "--apply").ToList();

@@ -110,6 +110,27 @@ public class WindowManager : IWindowManager
     }
 
     /// <summary>
+    /// Opens a SourceMaterialPartWindow for the given Part — singleton per Part. The drill-down
+    /// from the coverage grid's "N notes" cell, complementing OpenSourceMaterialWindow (which
+    /// shows citations of the whole Work).
+    /// </summary>
+    public void OpenSourceMaterialPartWindow(SourceMaterialPartViewModel part)
+    {
+        if (_singletonWindows.TryGetValue(part, out var existing) && existing.IsLoaded)
+        {
+            if (existing.WindowState == WindowState.Minimized)
+                existing.WindowState = WindowState.Normal;
+            existing.Activate();
+            return;
+        }
+
+        var window = new SourceMaterialPartWindow { DataContext = new SourceMaterialPartDetailViewModel(part, _registry) };
+        _singletonWindows[part] = window;
+        window.Closed += (_, _) => _singletonWindows.Remove(part);
+        window.Show();
+    }
+
+    /// <summary>
     /// Opens a ConversationReaderWindow for the given conversation — singleton per conversation.
     /// </summary>
     public void OpenConversationReaderWindow(ConversationViewModel conversation)

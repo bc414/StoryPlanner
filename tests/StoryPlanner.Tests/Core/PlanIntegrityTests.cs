@@ -72,6 +72,61 @@ public class PlanIntegrityTests
     }
 
     [Fact]
+    public void Check_reports_a_source_material_part_pointing_at_a_missing_work()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.SourceMaterialParts.Add(new SourceMaterialPart
+        {
+            Id = 999, SourceMaterialId = 424242, Code = "S1E01"
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "sourcepart.material_missing" && v.Detail.Contains("part:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_note_source_reference_whose_note_or_material_is_dangling()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.NoteSourceReferences.Add(new NoteSourceReference
+        {
+            Id = 999, NoteId = 424242, SourceMaterialId = 424243
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "sourcereference.note_missing" && v.Detail.Contains("reference:999"));
+        Assert.Contains(violations, v => v.Rule == "sourcereference.material_missing" && v.Detail.Contains("reference:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_reference_whose_part_belongs_to_a_different_work()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SourceMaterials.AddRange(
+                new SourceMaterial { Id = 1, Name = "MLP:FiM" },
+                new SourceMaterial { Id = 2, Name = "Equestria at War" });
+            ctx.SourceMaterialParts.Add(new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "S3E01" });
+            // References material 2 but cites a Part that actually belongs to material 1 — the
+            // invariant PlanIntegrity is meant to catch since nothing in the schema can enforce it.
+            ctx.NoteSourceReferences.Add(new NoteSourceReference
+            {
+                Id = 999, NoteId = SyntheticPlan.VisibleNoteId, SourceMaterialId = 2, SourceMaterialPartId = 1
+            });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "sourcereference.part_parent_mismatch" && v.Detail.Contains("reference:999"));
+    }
+
+    [Fact]
     public void ComputeNoteChecksum_is_stable_across_reads_and_changes_when_content_changes()
     {
         using var plan = SyntheticPlan.Create();

@@ -67,6 +67,14 @@ public static class EntitySearch
                 .OfType<SearchHit>());
         }
 
+        if (kindFilter is null or SearchHitKind.SourceMaterialPart)
+        {
+            hits.AddRange(input.SourceMaterialParts
+                .OrderBy(p => p.OrderIndex)
+                .Select(p => MatchSourceMaterialPart(p, query))
+                .OfType<SearchHit>());
+        }
+
         if (kindFilter is null or SearchHitKind.Note)
         {
             hits.AddRange(input.Notes
@@ -92,6 +100,11 @@ public static class EntitySearch
     private static SearchHit? MatchSourceMaterial(SourceMaterial sm, string query)
         => MatchField(SearchHitKind.SourceMaterial, sm.Id, "Name", sm.Name, query)
            ?? MatchField(SearchHitKind.SourceMaterial, sm.Id, "Description", sm.Description, query);
+
+    private static SearchHit? MatchSourceMaterialPart(SourceMaterialPart p, string query)
+        => MatchField(SearchHitKind.SourceMaterialPart, p.Id, "Code", p.Code, query)
+           ?? MatchField(SearchHitKind.SourceMaterialPart, p.Id, "Name", p.Name, query)
+           ?? MatchField(SearchHitKind.SourceMaterialPart, p.Id, "Description", p.Description, query);
 
     private static SearchHit? MatchNote(Note n, string query)
         => MatchField(SearchHitKind.Note, n.Id, "Content", n.Content, query)

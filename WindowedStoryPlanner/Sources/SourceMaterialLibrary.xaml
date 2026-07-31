@@ -9,6 +9,7 @@
              d:DataContext="{d:DesignInstance Type=local:SourceMaterialLibraryViewModel}">
 
     <UserControl.Resources>
+        <local:NullToVisibilityConverter x:Key="NullToVis"/>
         <Style TargetType="TextBlock" x:Key="SectionHeader">
             <Setter Property="FontWeight" Value="Bold"/>
             <Setter Property="FontSize" Value="14"/>
@@ -34,6 +35,8 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*" MinHeight="100"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -54,9 +57,10 @@
                      MinWidth="240" VerticalAlignment="Center"/>
         </StackPanel>
 
-        <!-- ── DataGrid ── -->
+        <!-- ── Works DataGrid — select a row to see its coverage below ── -->
         <DataGrid Grid.Row="2"
                   ItemsSource="{Binding FilteredSourceMaterials}"
+                  SelectedItem="{Binding SelectedSourceMaterial, Mode=TwoWay}"
                   AutoGenerateColumns="False"
                   CanUserAddRows="False"
                   CanUserDeleteRows="False"
@@ -136,8 +140,121 @@
             </DataGrid.Columns>
         </DataGrid>
 
+        <!-- ── Coverage toolbar: which Work's Parts, the untouched filter, quick actions ── -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,10,0,6">
+            <TextBlock Style="{StaticResource SectionHeader}" VerticalAlignment="Center" Margin="0,0,0,0">
+                <Run Text="Coverage"/>
+                <Run Text="{Binding SelectedSourceMaterial.Name, StringFormat=' — {0}', FallbackValue=' — select a source above'}"/>
+            </TextBlock>
+            <CheckBox Content="Show only untouched" VerticalAlignment="Center" Margin="12,0,0,0"
+                      IsChecked="{Binding ShowOnlyUntouched}"
+                      ToolTip="Never reviewed AND never cited — the rewatch/reread queue. A Part you reviewed and found nothing in is excluded even at 0 notes."/>
+            <Button Content="+ Add Part" Style="{StaticResource AddButton}" Margin="12,0,0,0"
+                    Command="{Binding AddPartCommand}"
+                    Visibility="{Binding SelectedSourceMaterial, Converter={StaticResource NullToVis}}"/>
+            <Button Content="Refresh Coverage" Padding="10,4" Margin="6,0,0,0"
+                    Command="{Binding RefreshCoverageCommand}"
+                    ToolTip="Note counts aren't live — refresh after citing a Part from a note editor elsewhere."/>
+        </StackPanel>
+
+        <!-- ── Parts DataGrid — the negative-space view ── -->
+        <DataGrid Grid.Row="4"
+                  ItemsSource="{Binding FilteredParts}"
+                  AutoGenerateColumns="False"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="False"
+                  CanUserReorderColumns="False"
+                  CanUserResizeRows="False"
+                  SelectionMode="Single"
+                  HeadersVisibility="Column"
+                  GridLinesVisibility="Horizontal"
+                  RowHeaderWidth="0"
+                  BorderBrush="#CCCCCC"
+                  BorderThickness="1">
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Style.Triggers>
+                        <!-- The untouched rows are the point of this grid — make them findable at a glance -->
+                        <DataTrigger Binding="{Binding IsUntouched}" Value="True">
+                            <Setter Property="Background" Value="#FFF7E6"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+            <DataGrid.Columns>
+
+                <!-- Code (editable) -->
+                <DataGridTemplateColumn Header="Code" Width="110">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Code}" VerticalAlignment="Center" Margin="4,0"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Code, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0" Padding="3"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Name (editable) -->
+                <DataGridTemplateColumn Header="Name" Width="*">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Name}" VerticalAlignment="Center" Margin="4,0" TextWrapping="Wrap"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                    <DataGridTemplateColumn.CellEditingTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}"
+                                     BorderThickness="0" Padding="3"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellEditingTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Notes (read-only count, drills into the citing notes) -->
+                <DataGridTemplateColumn Header="Notes" Width="60" CanUserResize="False">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Content="{Binding NoteCount}"
+                                    Padding="6,2" Background="Transparent" BorderThickness="0"
+                                    ToolTip="Open every note citing this Part"
+                                    Command="{Binding DataContext.OpenSourceMaterialPartWindowCommand,
+                                              RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Reviewed (orthogonal to Notes — see CLAUDE.md's negative-space 2x2) -->
+                <DataGridTemplateColumn Header="Reviewed" Width="70" CanUserResize="False">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <CheckBox IsChecked="{Binding IsReviewed}" HorizontalAlignment="Center"
+                                      ToolTip="Deliberately passed over for TLTT material — independent of whether any note cites it"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <!-- Delete -->
+                <DataGridTemplateColumn Header="" Width="34" CanUserResize="False">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Style="{StaticResource DeleteButton}"
+                                    ToolTip="Delete Part"
+                                    Command="{Binding DataContext.DeletePartCommand,
+                                              RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                    CommandParameter="{Binding}"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+            </DataGrid.Columns>
+        </DataGrid>
+
         <!-- ── Save bar ── -->
-        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
+        <StackPanel Grid.Row="5" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
             <Button Content="Save All" Padding="14,5"
                     Command="{Binding SaveAllCommand}"/>
         </StackPanel>

@@ -37,6 +37,8 @@ public class StoryService : IStoryService
     public ObservableCollection<Theme> Themes { get; private set; } = new();
 
     public ObservableCollection<SourceMaterial> SourceMaterials { get; private set; } = new();
+    public ObservableCollection<SourceMaterialPart> SourceMaterialParts { get; private set; } = new();
+    public ObservableCollection<NoteSourceReference> NoteSourceReferences { get; private set; } = new();
 
     public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
     public ObservableCollection<Idea> Ideas { get; private set; } = new();
@@ -248,7 +250,9 @@ public class StoryService : IStoryService
 
         await _context.Themes.LoadAsync();   // ← was missing
 
-        await _context.SourceMaterials.LoadAsync();
+        await _context.SourceMaterials.OrderBy(s => s.OrderIndex).LoadAsync();
+        await _context.SourceMaterialParts.OrderBy(p => p.OrderIndex).LoadAsync();
+        await _context.NoteSourceReferences.LoadAsync();
         await _context.GeminiEntries.LoadAsync();
         await _context.Ideas.LoadAsync();
 
@@ -274,7 +278,9 @@ public class StoryService : IStoryService
         NarrativePropertyValueDefinitions = _context.NarrativePropertyValueDefinitions.Local.ToObservableCollection();
         NarrativePropertyValues           = _context.NarrativePropertyValues.Local.ToObservableCollection();
 
-        SourceMaterials = _context.SourceMaterials.Local.ToObservableCollection();
+        SourceMaterials       = _context.SourceMaterials.Local.ToObservableCollection();
+        SourceMaterialParts   = _context.SourceMaterialParts.Local.ToObservableCollection();
+        NoteSourceReferences  = _context.NoteSourceReferences.Local.ToObservableCollection();
         GeminiEntries   = _context.GeminiEntries.Local.ToObservableCollection();
         Ideas           = _context.Ideas.Local.ToObservableCollection();
 

@@ -17,6 +17,12 @@ public class ContentDeleter : IContentDeleter
 
     public async Task DeleteNoteAsync(NoteViewModel note)
     {
+        // NoteSourceReference rows are note-owned — no orphan risk, cascade is correct here
+        // (contrast SourceMaterial/SourceMaterialPart below, which refuse instead).
+        var ownedReferences = _storyService.NoteSourceReferences.Where(r => r.NoteId == note.Id).ToList();
+        foreach (var r in ownedReferences)
+            _storyService.NoteSourceReferences.Remove(r);
+
         _storyService.Notes.Remove(note.Note);
         _registry.AllNoteViewModels.Remove(note);
         await _storyService.SaveAsync();
@@ -109,6 +115,26 @@ public class ContentDeleter : IContentDeleter
 
         _storyService.Stories.Remove(story.Story);
         _registry.AllStoryViewModels.Remove(story);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteSourceMaterialAsync(SourceMaterialViewModel work)
+    {
+        if (ContentIntegrity.SourceMaterialHasDependents(_storyService, work.Id)) return false;
+
+        _storyService.SourceMaterials.Remove(work.Model);
+        _registry.AllSourceMaterialViewModels.Remove(work);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteSourceMaterialPartAsync(SourceMaterialPartViewModel part)
+    {
+        if (ContentIntegrity.SourceMaterialPartHasReferences(_storyService, part.Id)) return false;
+
+        _storyService.SourceMaterialParts.Remove(part.Model);
+        _registry.AllSourceMaterialPartViewModels.Remove(part);
         await _storyService.SaveAsync();
         return true;
     }

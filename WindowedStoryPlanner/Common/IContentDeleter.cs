@@ -40,4 +40,16 @@ public interface IContentDeleter
     /// or refused. The bool return matches the other TryDelete*Async guards' shape.
     /// </summary>
     Task<bool> TryDeleteStoryAsync(StoryViewModel story);
+
+    /// <summary>
+    /// Deletes a SourceMaterial (Work) if it has no Parts and no direct citations.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteSourceMaterialAsync(SourceMaterialViewModel work);
+
+    /// <summary>
+    /// Deletes a SourceMaterialPart if no note still cites it.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteSourceMaterialPartAsync(SourceMaterialPartViewModel part);
 }

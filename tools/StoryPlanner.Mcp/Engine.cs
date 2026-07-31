@@ -155,6 +155,8 @@ internal static class Engine
         if (wd.Length > 0) meta.Add(wd);
         if (n.ThemeId is int tid)
             meta.Add(c.ThemeById.TryGetValue(tid, out var th) ? $"theme:{th.Name}" : $"theme:{tid}?");
+        var src = Query.SourceLabel(c, n);
+        if (src.Length > 0) meta.Add(src);
         meta.Add($"modified:{n.LastModified:yyyy-MM-dd}");
         sb.AppendLine(string.Join(" | ", meta));
         sb.AppendLine(n.Content.Length == 0 ? "(empty content)" : n.Content.TrimEnd());
@@ -243,6 +245,8 @@ internal static class Engine
                 if (wd.Length > 0) meta.Add(wd);
                 if (n.ThemeId is int tid)
                     meta.Add(c.ThemeById.TryGetValue(tid, out var th) ? $"theme:{th.Name}" : $"theme:{tid}?");
+                var src = Query.SourceLabel(c, n);
+                if (src.Length > 0) meta.Add(src);
                 meta.Add($"(note:{n.Id})");
                 sb.AppendLine($"--- {string.Join(" | ", meta)}");
                 sb.AppendLine(n.Content.Length == 0 ? "(empty content)" : n.Content.TrimEnd());
@@ -464,7 +468,7 @@ internal static class Engine
     // ── generic count/group ─────────────────────────────────────────────────────
 
     private static readonly string[] ValidDims =
-        ["state", "track", "trackType", "ownerType", "subject", "subjectType", "chapter", "story", "theme", "hasWorldDate", "theater", "dateShape", "worldDateYear"];
+        ["state", "track", "trackType", "ownerType", "subject", "subjectType", "chapter", "story", "theme", "source", "hasWorldDate", "theater", "dateShape", "worldDateYear"];
 
     public static string CountNotes(PlanCache c, string[] groupBy)
     {
@@ -488,6 +492,9 @@ internal static class Engine
             "theme" => n.ThemeId is int tid
                 ? (c.ThemeById.TryGetValue(tid, out var th) ? th.Name : $"theme:{tid}?")
                 : "(no theme)",
+            // Multi-valued (a note may cite several Parts) — composite label, not multi-membership,
+            // consistent with every other dimension here producing one group key per note.
+            "source" => Query.SourceLabel(c, n) is { Length: > 0 } label ? label["source:".Length..] : "(no source)",
             "hasWorldDate" => Query.HasAnyWorldDate(n) ? "yes" : "no",
             "theater" => TheaterDim(c, n),
             "dateShape" => DateShapeDim(c, n),

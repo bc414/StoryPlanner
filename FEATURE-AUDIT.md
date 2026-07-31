@@ -9,9 +9,23 @@
 > see its entry in Section A below for what changed. Per-note narrative tagging, the other half of
 > A1's original ask, was deliberately deferred and remains outstanding.
 
-**Bottom line:** The **data-model refactor** those conversations argued for is substantially *shipped* — the unified polymorphic `Note`, data-driven `SubjectDefinition`/`NoteTrackDefinition` tracks, the `TrackType` cognitive-layer taxonomy, `Unset/Flagged/Confirmed` note states, per-editor-mode track ordering, `WorldDate`/`Theme`/`SourceMaterial` tagging, `PlotPointSubjectLink` as a first-class noteable, F-key track assignment, and the anchor+scope export resolver all exist. What remains outstanding is almost entirely the **layer built on top of that model**: aggregation/navigation views, multi-story scoping, the scene-architecture (perception-gap) layer, note-provenance lifecycle, and a handful of definition-system refinements.
+> **Note added 2026-07-30.** C1 (note supersession) is **closed, not built** — it was resolved by
+> track design that already shipped, and the original entry's reading of the transcripts as
+> "contested" was wrong. See its entry in Section C. This is the first item to close as ⚪ by
+> *existing design* rather than by in-conversation rejection; the legend was widened accordingly.
 
-Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where a conversation's "ask" is worth confirming as done) · ⚪ Deliberately rejected in-conversation
+> **Note added 2026-07-31.** This document's "SourceMaterial tagging — done" claim (below and in
+> Section G) was **shipped in code and dark in data**: the June 2026 rework built the full UI
+> (Sources tab, per-note picker, cross-cut detail window) but the migration defaulted
+> `SupportsSourceMaterial` to `false` on every track and nothing ever ticked it — 0 of 112 tracks,
+> 0 `SourceMaterials` rows, 0 tagged notes across every real file. It has since been rebuilt as a
+> two-tier Work/Part coverage tracker (not a flat tag) with a seeded, pre-enumerated Part set, a
+> negative-space ("untouched") view, and `SupportsSourceMaterial` now enabled on the six
+> `TrackType.Canon` tracks. See CLAUDE.md's "Source material is a coverage tracker, not a tag."
+
+**Bottom line:** The **data-model refactor** those conversations argued for is substantially *shipped* — the unified polymorphic `Note`, data-driven `SubjectDefinition`/`NoteTrackDefinition` tracks, the `TrackType` cognitive-layer taxonomy, `Unset/Flagged/Confirmed` note states, per-editor-mode track ordering, `WorldDate`/`Theme` tagging and `SourceMaterial` coverage tracking, `PlotPointSubjectLink` as a first-class noteable, F-key track assignment, and the anchor+scope export resolver all exist. What remains outstanding is almost entirely the **layer built on top of that model**: aggregation/navigation views, multi-story scoping, the scene-architecture (perception-gap) layer, note-provenance lifecycle, and a handful of definition-system refinements.
+
+Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where a conversation's "ask" is worth confirming as done) · ⚪ Deliberately rejected in-conversation, or resolved by existing design without new code
 
 ---
 
@@ -22,7 +36,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | A1 | Multi-story / narrative scoping (`StoryId` on content, `SupportsNarrativeTag`) | 🟡 | 015, 020, 053, 077, 091, 038/039 | **Enabler** |
 | B1 | Master timeline view (aggregate `WorldDate` notes) | 🟡 | 015, 019, 053 | View |
 | B2 | Global entity search (tab is a stub) | 🟢 | 038/039 | View |
-| C1 | Note supersession / preserving retconned lore | 🔴 (contested) | 091, 015, 053, 038/039 | Model |
+| C1 | ~~Note supersession / preserving retconned lore~~ | ⚪ | 091, 015, 019, 038/039 | Resolved — no code |
 | C2 | Stage-0 "accumulation" inbox / `IsIncorporated` flag | 🔴 | 053, 038/039, 015 | Model |
 | D1 | POV / focal-character designation on `PlotPoint` | 🔴 | 015, 019 | Model |
 | D2 | `GapType` enum + perception-gap scene fields | 🔴 | 019, 015, 053, 038/039 | Model |
@@ -99,7 +113,22 @@ tests pinning that as intentional. Story is out of scope (no `OwnerType`, no det
 
 ## C. Note lifecycle & provenance
 
-**C1 — 🔴 Note supersession / preserving retconned lore. (Design-contested — resolve before building.)** Multiple conversations want superseded world-truth preserved rather than deleted: a `Retcon` track (015 block 1383), a "reader-prior-belief" demotion (091 block 24), a `Superseded` fourth `NoteState` (038/039, 053). **However, 019 blocks 56-57 explicitly considered and *rejected* a `Superseded` state as over-engineering.** Current code has only `Unset/Flagged/Confirmed` + `FlagReason`. This is a genuine open design question, not a clean backlog item — the transcripts disagree with each other. Recommend deciding between (a) a `Superseded` state, (b) a dedicated `Retcon`/`ReaderPriorBelief` track type, or (c) a supersession link between notes, before implementing.
+**C1 — ⚪ ~~Note supersession / preserving retconned lore.~~ Resolved 2026-07-30 — closed as track design, no code to write.** The original entry read the transcripts as disagreeing. Re-read in order, they converge, and the resolution is already live in the data.
+
+- **015** proposed a `Retcon` NoteTrack (block 6; block 12: *"superseded by retcons should be marked Retcon … rather than deleted"*) — then Brian overrode it **in the same conversation** at block 19: *"the retcons to layers 1-3 can become the layer 4 initial perception … Seems like I've already been doing this."* Block 20 names the method: *"The retcon does not discard the naive version; it promotes it to Layer 4 material."*
+- **091 block 24** is the same instruction in Brian's words: *"newer assertions can trump old ones but old ones that got displaced should be preserved as reader prior belief."*
+- **019** is the only genuine reversal, and it lands in the same place: block 55 argued for a `Superseded` fourth state, block 57 retracted it — *"the old claim is not retained in the World Mechanics track. It is moved to the Project Notes track of the same entity as a Revision Directive."*
+
+**Shipped as definition rows, per the Type Object premise** — displaced lore lands in two existing homes, neither of which is a supersession primitive:
+
+- `Reader Prior Belief Update` (TrackType `WorldInference`) and `Reader Prior Belief Clash` (TrackType `ThematicEvidence`, `SupportsTheme`) — one pair per subject type, all scene-link scoped (`OwnerType=3`), track ids 89-93/97 and 11/28/39/49/59/69. This is 015's "Layer 4" and 091's demotion target.
+- `Garden Notes` / `Craft Notes` (TrackType `NotesToSelf`) — 019 block 57's "Project Notes track" under a different name.
+
+**The pairing is verifiable in `TLTT v2.storyplan`:** subject `EEEE!` carries Garden Note 2137, a revision directive (*"original EaW EEEE! was just a vague activist group in a pub, and I probably elevated them to a generic union … but now EEEE! is specifically a machinist guild…"*), while its link at *"Rarity attends the EEEE! meeting"* carries the displaced version promoted to reader-facing material — note 2133 (*"Readers expect an angry mob of workers. They get a highly organized guild of engineers"*) and note 2066. Same shape on Celestia, the Griffonian Republic, the Universal Translator, Rainbow Dash. Corroborating negative: `search_plan` for `retcon|supersed|previously believed` returns **0 matches** across v2 — no shadow vocabulary waiting for a feature.
+
+**Do not build:** (a) a `Superseded` `NoteState` — rejected at 019 block 57; (b) a `Retcon` track — superseded by 015 block 19-20; (c) a supersession *link* between notes — this appeared in **no transcript**, it was invented by the original audit entry, and it would add machine-tracked provenance the method does not use.
+
+*Not a gap:* the Reader Prior Belief tracks are scene-link scoped, so a displaced subject-level `World Truth` note cannot be *moved* into one. It is rewritten against the scene where the belief updates, and the Garden Note holds the audit trail. That is the method working as designed.
 
 **C2 — 🔴 Stage-0 "accumulation" inbox / `IsIncorporated` flag.** A pre-structural inbox for raw hypotheses/research directives distinct from Stage-1 truth, tracked by an `IsIncorporated` marker (038/039 P23-25, 053 blocks 21-24, 015). **Concrete artifact:** the flag was scaffolded and abandoned — `IsIncorporated`/`NeedsFurtherAnalysis` appear only as **commented-out dead code** in [StoryService.cs:283-284](StoryPlanner.Core/StoryService.cs#L283-L284). `Note` has no such field today.
 
@@ -150,13 +179,14 @@ The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-S
 
 - **G1 — 🟡 Session export presets.** 019 block 63 wanted purpose-scoped exports with degree-of-separation entity scoping and track-type exclusion. Most of this **is built**: [ExportConfiguration.cs](StoryPlanner.Core/Export/ExportConfiguration.cs) has `Anchors`, `Scope`, `ChapterFrom/To`, `IncludedTrackTypes`, and [ExportResolver.cs](StoryPlanner.Core/Export/ExportResolver.cs) implements a real 0/1/2-degree expansion (anchors → links → other-end entities). What's missing is only the *named presets* ("World Expansion / Architecture Review / Scene Design") as saved configurations.
 - **F-key track assignment** (038/039 P46) — **done**: `DefinitionsEditorViewModel.FunctionKeyOptions`, `NoteTrackSectionView.xaml.cs` `PreviewKeyDown`, `App.xaml.cs` `OnGlobalKeyDown`.
-- **Cross-cut tag views** for Theme and SourceMaterial (015) — **done** via `TaggedNotesViewModelBase` (`ThemeDetailViewModel`, `SourceMaterialDetailViewModel`).
+- **Cross-cut tag views** for Theme and SourceMaterial (015) — **done** via `TaggedNotesViewModelBase` (`ThemeDetailViewModel`, `SourceMaterialDetailViewModel`, `SourceMaterialPartDetailViewModel`). SourceMaterial's was built 2026-06-21 but unreachable in practice until 2026-07-31 — see the note near the top of this document.
 
 ## ⚪ Proposed but deliberately rejected (do not build)
 
 - **7th subject type** (Historical Events / Places / Threads) — evaluated and rejected across 077 blocks 21-22 and 053 (threads dissolve into subject tracks + plot-point links).
 - **Unified `StoryEntity` + payload-enum menagerie** (`ArcMovement`, `GoalTrajectory`, `Prominence`, `RevealLayer`, TPH junction classes) — 015/020 proposed, then intentionally superseded by the data-driven `Subject`/`SubjectDefinition` + payloads-as-notes design that shipped.
 - **Numeric confidence scores, per-note priority/export flags, full revision history** — 019 block 60 rejected as over-engineering (note C4's `LastRevisedDate` is the narrower survivor).
+- **Note supersession as a schema feature** — a `Superseded` state, a `Retcon` track, or a note-to-note supersession link. See **C1** above: the transcripts resolved this into the shipped `Reader Prior Belief` and `Garden Notes` tracks, and the live data uses them that way.
 
 ---
 

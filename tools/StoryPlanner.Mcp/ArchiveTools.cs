@@ -73,7 +73,7 @@ public sealed class ArchiveTools(StoryPlanSources sources)
         => Engine.GetNotesInDateRange(C, fromYear, toYear);
 
     [McpServerTool(Name = "count_notes_archive")]
-    [Description("Group and count ARCHIVE (v1) notes by up to 3 dimensions: state, track, trackType, ownerType, subject, subjectType, chapter, story, theme, hasWorldDate. Note: in v1 every note is untracked (the track system postdates v1) and 'subjectType' returns v1's triage labels (e.g. \"First Pass, subject notes only\"), not real categories.")]
+    [Description("Group and count ARCHIVE (v1) notes by up to 3 dimensions: state, track, trackType, ownerType, subject, subjectType, chapter, story, theme, source, hasWorldDate. Note: in v1 every note is untracked (the track system postdates v1), 'subjectType' returns v1's triage labels (e.g. \"First Pass, subject notes only\") not real categories, and 'source' will read \"(no source)\" throughout (Source Material is a v2-era concept, same as tracks). See TIMELINE-REFACTOR-BACKLOG.md 1c for the pre-existing theater/dateShape/worldDateYear description gap (separate from this addition).")]
     public string CountNotesArchive(
         [Description("Dimensions to group by, e.g. [\"subject\",\"state\"]. Default [\"state\"].")] string[]? groupBy = null)
         => Engine.CountNotes(C, groupBy ?? []);

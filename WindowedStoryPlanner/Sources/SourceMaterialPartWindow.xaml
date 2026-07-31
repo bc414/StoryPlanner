@@ -1,0 +1,66 @@
+<Window x:Class="WindowedStoryPlanner.SourceMaterialPartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WindowedStoryPlanner"
+        mc:Ignorable="d"
+        Title="{Binding Part.DisplayLabel, StringFormat='Part: {0}'}"
+        Height="800" Width="700"
+        d:DataContext="{d:DesignInstance Type=local:SourceMaterialPartDetailViewModel}">
+
+    <Window.Resources>
+        <local:NoteBreadcrumbConverter x:Key="NoteBreadcrumbConverter"/>
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </Window.Resources>
+
+    <DockPanel Margin="12">
+
+        <!-- ── Part header ── -->
+        <StackPanel DockPanel.Dock="Top" Margin="0,0,0,12">
+            <TextBlock Text="Code" FontSize="11" Foreground="#666666" Margin="0,0,0,2"/>
+            <TextBox Text="{Binding Part.Code, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="18" FontWeight="Bold"
+                     BorderThickness="0,0,0,1" Margin="0,0,0,8"/>
+
+            <TextBlock Text="Name" FontSize="11" Foreground="#666666" Margin="0,0,0,2"/>
+            <TextBox Text="{Binding Part.Name, UpdateSourceTrigger=PropertyChanged}"
+                     BorderThickness="0,0,0,1" Margin="0,0,0,8"/>
+
+            <TextBlock Text="Description" FontSize="11" Foreground="#666666" Margin="0,0,0,2"/>
+            <TextBox Text="{Binding Part.Description, UpdateSourceTrigger=PropertyChanged}"
+                     TextWrapping="Wrap" AcceptsReturn="True"
+                     BorderThickness="0,0,0,1" Padding="0,0,0,4" Margin="0,0,0,8"/>
+
+            <CheckBox Content="Reviewed — deliberately passed over for TLTT material"
+                      IsChecked="{Binding Part.IsReviewed}"
+                      ToolTip="Orthogonal to whether any note cites this Part. Check this after a rewatch/reread that turned up nothing, so it leaves the untouched queue without a false citation."/>
+
+            <TextBlock Margin="0,6,0,0" FontSize="11" Foreground="#888888"
+                       Text="{Binding Notes.Count, StringFormat='{}{0} note(s) cite this Part.'}"/>
+        </StackPanel>
+
+        <!-- ── Tagged notes ── -->
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <ItemsControl ItemsSource="{Binding Notes}">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="0,0,0,10">
+                            <TextBlock FontSize="11" FontStyle="Italic" Foreground="#888888" Margin="2,0,0,2">
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource NoteBreadcrumbConverter}">
+                                        <Binding/>
+                                        <Binding Path="DataContext"
+                                                 RelativeSource="{RelativeSource AncestorType=local:SourceMaterialPartWindow}"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+                            <local:NoteView/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+    </DockPanel>
+</Window>

@@ -1,0 +1,77 @@
+{
+  "_comment": "Seeds the Work/Part coverage model and enables citation on the six TrackType.Canon tracks (Source Material References / Canon References across Character, Bond, Organization, World Law, Civilizational System, Technology — ids confirmed live against TLTT v2.storyplan). NOT the full ~221-episode MLP:FiM catalog: 'parts' below covers only episodes/chapters already evidenced verbatim in Brian's own note text, plus season premieres/finales whose SxxExx numbering is unambiguous public fact. Where a specific episode number was NOT confidently known, 'code' is the episode title itself (no invented SxxExx) — flag, never guess, per CLAUDE.md. Extend this file (idempotent re-run) or use the in-app '+ Add new' quick-add as coverage grows.",
+
+  "sourceMaterials": [
+    {
+      "name": "MLP:FiM",
+      "description": "My Little Pony: Friendship is Magic — the canon series TLTT is built on top of.",
+      "partNoun": "Episode",
+      "orderIndex": 1,
+      "parts": [
+        { "code": "S1E02", "name": "Friendship is Magic Part 2", "orderIndex": 1 },
+        { "code": "Dragonshy", "name": "", "orderIndex": 2 },
+        { "code": "Bridle Gossip", "name": "", "orderIndex": 3 },
+        { "code": "Look Before You Sleep", "name": "", "orderIndex": 4 },
+        { "code": "Sonic Rainboom", "name": "", "orderIndex": 5 },
+        { "code": "Winter Wrap Up", "name": "", "orderIndex": 6 },
+        { "code": "A Bird in the Hoof", "name": "", "orderIndex": 7 },
+        { "code": "S1E23", "name": "The Cutie Mark Chronicles", "orderIndex": 8 },
+        { "code": "S2", "name": "Secret of my Excess", "orderIndex": 9,
+          "description": "Season confirmed directly in Brian's note; episode number not." },
+        { "code": "Luna Eclipsed", "name": "", "orderIndex": 10 },
+        { "code": "Hearth's Warming Eve", "name": "", "orderIndex": 11 },
+        { "code": "S2E25-26", "name": "Canterlot Wedding", "orderIndex": 12 },
+        { "code": "S3E01", "name": "The Crystal Empire Part 1", "orderIndex": 13 },
+        { "code": "S3E02", "name": "The Crystal Empire Part 2", "orderIndex": 14 },
+        { "code": "Wonderbolts Academy", "name": "", "orderIndex": 15 },
+        { "code": "It's About Time", "name": "", "orderIndex": 16 },
+        { "code": "S3E13", "name": "Magical Mystery Cure", "orderIndex": 17 },
+        { "code": "Rarity Takes Manehattan", "name": "", "orderIndex": 18 },
+        { "code": "S4E25-26", "name": "Twilight's Kingdom", "orderIndex": 19 },
+        { "code": "S5E01-02", "name": "The Cutie Map", "orderIndex": 20 },
+        { "code": "Equestria Games", "name": "", "orderIndex": 21 },
+        { "code": "S5E25-26", "name": "The Cutie Remark", "orderIndex": 22 },
+        { "code": "S6E01-02", "name": "The Crystalling", "orderIndex": 23,
+          "description": "Brian's notes use both 'The Crystaling' and 'The Chrysalling' as spelling variants for this Part." },
+        { "code": "No Second Prances", "name": "", "orderIndex": 24 },
+        { "code": "Stare Master", "name": "", "orderIndex": 25 },
+        { "code": "S6E25-26", "name": "To Where and Back Again", "orderIndex": 26 },
+        { "code": "S9", "name": "Sweet and Smoky", "orderIndex": 27,
+          "description": "Season confirmed directly in Brian's note; episode number not." },
+        { "code": "My Little Pony: The Movie", "name": "", "orderIndex": 28 }
+      ]
+    },
+    {
+      "name": "Equestria at War",
+      "description": "The HoI4 mod TLTT recontextualizes — a bleaker, HoI4-mechanics version of the MLP world. Brian's own framing: the Part for EaW is a playable-country playthrough, not an episode.",
+      "partNoun": "Country",
+      "orderIndex": 2,
+      "parts": []
+    },
+    {
+      "name": "The Princess and the Kaiser",
+      "description": "The fanfic TLTT is explicitly framed as a 'fork' of — see the per-character divergence sweep in the Canon-track notes.",
+      "partNoun": "Chapter",
+      "orderIndex": 3,
+      "parts": []
+    },
+    {
+      "name": "Pax Chrysalia",
+      "description": "Brazen Gauge's fanfic adaptation, cited alongside EaW's own focus tree for the Love Harvester / Love Tax mechanic.",
+      "partNoun": "Chapter",
+      "orderIndex": 4,
+      "parts": [
+        { "code": "ch1", "name": "", "orderIndex": 1, "description": "Features the Love Tax." }
+      ]
+    },
+    {
+      "name": "Hearts of Iron IV",
+      "description": "The base game Equestria at War mods — cited for its own mechanics (supply hubs, tech-rush behavior) independent of the mod's pony reskin.",
+      "partNoun": "",
+      "orderIndex": 5,
+      "parts": []
+    }
+  ],
+
+  "enableSourceMaterialOnTracks": [82, 84, 85, 86, 87, 88]
+}

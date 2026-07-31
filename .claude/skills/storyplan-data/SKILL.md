@@ -124,6 +124,8 @@ UNION ALL SELECT 'NarrativePropertyValueDefinitions', COUNT(*) FROM NarrativePro
 UNION ALL SELECT 'NarrativePropertyValues', COUNT(*) FROM NarrativePropertyValues
 UNION ALL SELECT 'Themes', COUNT(*) FROM Themes
 UNION ALL SELECT 'SourceMaterials', COUNT(*) FROM SourceMaterials
+UNION ALL SELECT 'SourceMaterialParts', COUNT(*) FROM SourceMaterialParts
+UNION ALL SELECT 'NoteSourceReferences', COUNT(*) FROM NoteSourceReferences
 UNION ALL SELECT 'GeminiEntries', COUNT(*) FROM GeminiEntries
 UNION ALL SELECT 'Ideas', COUNT(*) FROM Ideas
 UNION ALL SELECT 'Conversations', COUNT(*) FROM Conversations
@@ -159,7 +161,8 @@ polymorphic FK (no DB-level foreign key; resolve manually per `OwnerType`).
   archive file `Confirmed` means "review closed — no need to look at this anymore" (migrated to
   v2 OR deliberately superseded; not recorded which), see "The files" above
 - `NoteTrackDefinitionId` → `NoteTrackDefinitions.Id` (nullable — null means unassigned to a track)
-- `ThemeId` → `Themes.Id` (nullable), `SourceMaterialId` → `SourceMaterials.Id` (nullable)
+- `ThemeId` → `Themes.Id` (nullable). Source material citations are **not** a column here (2026-07-31)
+  — see `NoteSourceReferences` below; a note may cite several Parts for one claim
 - World dates are structured (2026-07-30): `WorldDateStartYear/Month/Day` +
   `WorldDateEndYear/Month/Day`, all nullable ints — all-null = undated; nulls at month/day level
   mean "to be determined", never "approximately". Event vs condition is the note's TRACK
@@ -221,7 +224,27 @@ scene's specific effect on a subject gets its own notes distinct from the subjec
 
 **`Themes`** (`Models/Theme.cs`) — `Name`, `Proposition`.
 
-**`SourceMaterials`** (`OtherModels/SourceMaterial.cs`) — `Name`, `Description`.
+**`SourceMaterials` / `SourceMaterialParts` / `NoteSourceReferences`** (`Models/SourceMaterial*.cs`,
+`Models/NoteSourceReference.cs`, 2026-07-31) — a two-tier citation/coverage model, NOT a plain
+tag. `SourceMaterials` is the Work (`Name`, `Description`, `PartNoun` — "Episode"/"Country"/
+"Chapter", empty = no Parts, cite the Work itself — `OrderIndex`). `SourceMaterialParts` is one
+unit of a mining pass under a Work (`SourceMaterialId`, `Code` e.g. `"S3E01"`, `Name`,
+`Description`, `OrderIndex`, `ReviewState` 0=NotReviewed/1=Reviewed). `NoteSourceReferences` is
+the join (`NoteId`, `SourceMaterialId`, `SourceMaterialPartId` nullable — null cites the Work as a
+whole — `SortOrder`) — **many rows per note are expected**: a note may cite several Parts for one
+claim (e.g. "the Wonderbolts were useless in a crisis, as shown in Sonic Rainboom, Secret of my
+Excess, Equestria Games and Twilight's Kingdom" is one `Note` with four `NoteSourceReference` rows).
+Only tracks with `NoteTrackDefinitions.SupportsSourceMaterial=1` can carry a citation — as of
+2026-07-31 that's the six `TrackType.Canon` tracks (seeded via the `seed-source-material` DataOps
+op), never every track that happens to mention canon in prose.
+`ReviewState` is **orthogonal to citation count**, not derived from it: a Part can be `Reviewed`
+with zero citations ("watched it again, nothing there — confirmed empty") or `NotReviewed` with
+citations ("cited from memory, never revisited"). "Untouched" (the negative-space / rewatch-queue
+signal) means **both** `NotReviewed` AND zero citations — computing it from either column alone
+gives a false answer for one of those two quadrants. The Work/Part set is meant to be
+pre-enumerated (seeded from a reviewable config, not accreted on first citation) — an uncited Part
+is real negative space only if the set is known to be complete; do not treat an empty
+`SourceMaterialParts` table as "nothing to cite," check whether seeding has run.
 
 **`NarrativePropertyDefinitions` / `NarrativePropertyValueDefinitions` / `NarrativePropertyValues`**
 (`Models/NarrativeProperty*.cs`) — a generic typed-enum-on-an-entity system. A `NarrativePropertyDefinition`
@@ -293,13 +316,29 @@ GROUP BY sd.SubjectType ORDER BY COUNT(s.Id) DESC;
 SELECT COUNT(*) FROM PlotPoints WHERE ChapterId IS NULL;
 ```
 
-**`WorldDate` / `Theme` / `SourceMaterial` tagging coverage:**
+**`WorldDate` / `Theme` tagging coverage** (count the structured columns, not the legacy
+`WorldDate` string — on a converted file that string is blank except for the unconvertible
+triage residue, so `SUM(WorldDate <> '')` undercounts by exactly the converted rows):
 ```sql
 SELECT COUNT(*) AS total,
-       SUM(WorldDate <> '') AS with_worlddate,
-       SUM(ThemeId IS NOT NULL) AS with_theme,
-       SUM(SourceMaterialId IS NOT NULL) AS with_source
+       SUM(WorldDateStartYear IS NOT NULL) AS with_worlddate,
+       SUM(ThemeId IS NOT NULL) AS with_theme
 FROM Notes;
+```
+
+**Source material citation coverage** (many-to-many — a note may cite several Parts, so this is
+not a single boolean column on `Notes`; see `NoteSourceReferences` above):
+```sql
+SELECT COUNT(DISTINCT NoteId) AS notes_with_a_citation, COUNT(*) AS total_citations
+FROM NoteSourceReferences;
+
+-- Negative space: untouched Parts (never reviewed AND never cited).
+SELECT sm.Name AS work, p.Code, p.Name,
+       (SELECT COUNT(*) FROM NoteSourceReferences r WHERE r.SourceMaterialPartId = p.Id) AS notes
+FROM SourceMaterialParts p JOIN SourceMaterials sm ON sm.Id = p.SourceMaterialId
+WHERE p.ReviewState = 0
+  AND NOT EXISTS (SELECT 1 FROM NoteSourceReferences r WHERE r.SourceMaterialPartId = p.Id)
+ORDER BY sm.OrderIndex, p.OrderIndex;
 ```
 
 **Conversation Reader progress (block review state, subject coverage acted-on rate):**

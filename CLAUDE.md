@@ -92,6 +92,20 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   pivots, never stored.
 - **0 `Confirmed` notes in v2 is not a defect** — Audit is the only mode that can promote to
   Confirmed, and no audit pass has run. Surprising ≠ broken.
+- **Source material is a coverage tracker, not a tag** (2026-07-31). Two-tier: `SourceMaterial`
+  (a Work — MLP:FiM, Equestria at War, another fanfic) → `SourceMaterialPart` (one unit of a
+  mining pass — an episode, a playable country, a chapter; empty `PartNoun` = no Parts, cite the
+  Work itself). `NoteSourceReference` is the join, and **many rows per note are normal**: a note
+  may cite several Parts for one claim (e.g. one Wonderbolts note citing four episodes) —
+  splitting such a note into one-per-citation was considered and rejected. Only tracks with
+  `SupportsSourceMaterial=1` can carry a citation (the six `TrackType.Canon` tracks, by decision —
+  not every track that happens to mention canon in prose). A Part's `ReviewState` is **orthogonal
+  to citation count**: Reviewed-with-zero-citations means "checked, nothing there," not the same
+  as never-looked-at. "Untouched" (the negative-space/rewatch-queue signal) requires **both**
+  NotReviewed and zero citations. The Work/Part set is pre-seeded (`seed-source-material` DataOps
+  op) rather than accreted from citations — an uncited Part is only meaningful negative space if
+  the set is known complete, so **never** rank Parts by likely yield or suggest what to look for;
+  list them flat (same rule as everywhere else: retrieval, not suggestion).
 
 Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 **Live counts: `mcp__storyplanner get_stats`. Never hardcode counts in a document.**
@@ -144,8 +158,12 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
   corpora never joined.
 - **Abandoned after being built:** note categorization, coverage-track suggestions, the
   41-report insight pipeline.
-- `FEATURE-AUDIT.md` ⚪ lists features rejected in-conversation. **C1 (note supersession) is
-  design-contested — ask before building.**
+- `FEATURE-AUDIT.md` ⚪ lists features rejected in-conversation or closed as already-resolved.
+- **Note supersession is settled (2026-07-30, FEATURE-AUDIT C1).** No `Superseded` state, no
+  `Retcon` track, no note-to-note supersession link. Displaced lore is not archived — it is
+  *promoted*: rewritten as a scene-link `Reader Prior Belief Update`/`Clash` note (what the reader
+  believed before the scene corrected them), with the authorial revision recorded in the subject's
+  `Garden Notes`. Both track families ship and the real files use them this way.
 
 ## Brian's decisions, always
 

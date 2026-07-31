@@ -76,9 +76,13 @@ public class ProjectLoader
 
         _themeLibrary.Reload();
 
-        // --- Source Materials ---
+        // --- Source Materials --- Works before Parts before Notes (Notes resolve citations
+        // against both shared collections at construction time).
         foreach (var m in _storyService.SourceMaterials)
             _registry.AllSourceMaterialViewModels.Add(new SourceMaterialViewModel(m, _storyService));
+
+        foreach (var m in _storyService.SourceMaterialParts)
+            _registry.AllSourceMaterialPartViewModels.Add(new SourceMaterialPartViewModel(m, _storyService));
 
         _sourceMaterialLibrary.Reload();
         _conversationLibrary.Reload();
@@ -108,7 +112,8 @@ public class ProjectLoader
 
         foreach (var note in _storyService.Notes)
             _registry.AllNoteViewModels.Add(
-                new NoteViewModel(note, _storyService, _registry.AllThemeViewModels, _registry.AllSourceMaterialViewModels));
+                new NoteViewModel(note, _storyService, _registry.AllThemeViewModels,
+                    _registry.AllSourceMaterialViewModels, _registry.AllSourceMaterialPartViewModels));
 
         // Build ConversationViewModels and attach their block VMs
         var blocksByConv = _storyService.ConversationBlocks

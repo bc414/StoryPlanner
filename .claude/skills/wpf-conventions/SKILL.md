@@ -67,8 +67,9 @@ reimplement track composition, and do not push shared behavior down into the mod
 (they are row vessels with no responsibilities).
 
 **`TaggedNotesViewModelBase : ObservableObject, IDisposable`** — the cross-cutting tag view.
-Subclasses: `ThemeDetailViewModel`, `SourceMaterialDetailViewModel`. **A new "show me every
-note tagged X" surface subclasses this.**
+Subclasses: `ThemeDetailViewModel`, `SourceMaterialDetailViewModel` (every note citing a Work at
+any depth), `SourceMaterialPartDetailViewModel` (every note citing one specific Part — the
+coverage grid's drill-down). **A new "show me every note tagged X" surface subclasses this.**
 
 Everything else derives from `ObservableObject` directly and is declared `partial`
 (`[ObservableProperty]` / `[RelayCommand]` generate into the other half).

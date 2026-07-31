@@ -59,5 +59,18 @@ public static class ServerInfo
         Files not yet converted may still carry legacy free-text dates ("993", "870-928"); tools
         convert those mechanically on read and label unconvertible values "(unparsed)" — never
         guessed. Undated is a valid, long-lived authorial state, not an error.
+
+        Source material citations are two-tier: a Work (MLP:FiM, Equestria at War, another
+        fanfic) and an optional Part (an episode, a playable country, a chapter — one unit of a
+        mining pass; Works with no Parts, like the HoI4 base game, are cited directly). A note
+        may cite several Parts for one claim (list_source_materials, the "source:" note-metadata
+        prefix, and count_notes_*'s "source" dimension all render every citation, comma-joined —
+        never just the first). Only tracks flagged supportsSourceMaterial in
+        get_track_definitions can carry a citation. A Part's review state (Reviewed/NotReviewed)
+        is orthogonal to whether any note cites it: "untouched" means BOTH never reviewed and
+        never cited — a Part a human deliberately checked and found nothing in is not the same as
+        one nobody has looked at. The Work/Part set is pre-seeded rather than accreted from
+        citations, so an untouched Part is real negative space, not just an unpopulated tag —
+        list_source_materials surfaces it as a flat list, never ranked by likely yield.
         """;
 }

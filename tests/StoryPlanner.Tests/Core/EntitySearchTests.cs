@@ -14,6 +14,7 @@ public class EntitySearchTests
         Chapter[]? chapters = null,
         Theme[]? themes = null,
         SourceMaterial[]? sourceMaterials = null,
+        SourceMaterialPart[]? sourceMaterialParts = null,
         Note[]? notes = null)
         => new(
             subjects ?? [],
@@ -21,6 +22,7 @@ public class EntitySearchTests
             chapters ?? [],
             themes ?? [],
             sourceMaterials ?? [],
+            sourceMaterialParts ?? [],
             notes ?? []);
 
     [Fact]
@@ -83,6 +85,18 @@ public class EntitySearchTests
 
         Assert.Single(EntitySearch.Run(byName, "equestria"));
         Assert.Single(EntitySearch.Run(byDescription, "hoi4"));
+    }
+
+    [Fact]
+    public void Matches_source_material_part_code_name_and_description()
+    {
+        var byCode = Input(sourceMaterialParts: [new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "S3E01", Name = "" }]);
+        var byName = Input(sourceMaterialParts: [new SourceMaterialPart { Id = 2, SourceMaterialId = 1, Code = "S3E01", Name = "The Crystal Empire Part 1" }]);
+        var byDescription = Input(sourceMaterialParts: [new SourceMaterialPart { Id = 3, SourceMaterialId = 1, Code = "S3E01", Description = "Sombra returns" }]);
+
+        Assert.Single(EntitySearch.Run(byCode, "s3e01"));
+        Assert.Single(EntitySearch.Run(byName, "crystal empire"));
+        Assert.Single(EntitySearch.Run(byDescription, "sombra"));
     }
 
     [Fact]
@@ -173,13 +187,14 @@ public class EntitySearchTests
             plotPoints: [new PlotPoint { Id = 1, Title = "matches the query" }],
             chapters: [new Chapter { Id = 1, Title = "matches the query" }],
             themes: [new Theme { Id = 1, Name = "matches the query" }],
-            sourceMaterials: [new SourceMaterial { Id = 1, Name = "matches the query" }]);
+            sourceMaterials: [new SourceMaterial { Id = 1, Name = "matches the query" }],
+            sourceMaterialParts: [new SourceMaterialPart { Id = 1, SourceMaterialId = 1, Code = "matches the query" }]);
 
         var hits = EntitySearch.Run(input, "matches the query");
 
         Assert.Equal(
             [SearchHitKind.Subject, SearchHitKind.PlotPoint, SearchHitKind.Chapter,
-             SearchHitKind.Theme, SearchHitKind.SourceMaterial, SearchHitKind.Note],
+             SearchHitKind.Theme, SearchHitKind.SourceMaterial, SearchHitKind.SourceMaterialPart, SearchHitKind.Note],
             hits.Select(h => h.Kind));
     }
 

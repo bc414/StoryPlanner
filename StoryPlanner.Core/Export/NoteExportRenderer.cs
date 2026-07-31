@@ -20,6 +20,21 @@ public static class NoteExportRenderer
         var themeById       = storyService.Themes.ToDictionary(t => t.Id);
         var subjectDefById  = storyService.SubjectDefinitions.ToDictionary(sd => sd.Id);
 
+        // Source material citations, pre-formatted per note (NoteId -> "Work · Part" joined by
+        // ", " for multi-cite notes) so the metadata renderer stays a single dictionary lookup,
+        // matching themeById's shape. A note can cite several Parts for one claim (see
+        // NoteSourceReference's doc comment) — all are rendered, not just the first.
+        var sourceMaterialById     = storyService.SourceMaterials.ToDictionary(w => w.Id);
+        var sourceMaterialPartById = storyService.SourceMaterialParts.ToDictionary(p => p.Id);
+        var sourceCitationByNoteId = storyService.NoteSourceReferences
+            .GroupBy(r => r.NoteId)
+            .ToDictionary(
+                g => g.Key,
+                g => string.Join(", ", g
+                    .OrderBy(r => r.SortOrder)
+                    .Select(r => FormatCitation(r, sourceMaterialById, sourceMaterialPartById))
+                    .Where(s => s.Length > 0)));
+
         // StoryId 0 is the "(Unassigned)" sentinel — never a real Story row.
         int StoryOrderOf(Chapter ch) => ch.StoryId == 0 || !storyById.TryGetValue(ch.StoryId, out var s)
             ? int.MaxValue : s.OrderIndex;
@@ -106,7 +121,7 @@ public static class NoteExportRenderer
                     var ownerNotes = notesByOwner.TryGetValue((subject.Id, OwnerType.Subject), out var sn)
                         ? sn : new List<Note>();
 
-                    RenderTrackSections(sb, tracks, ownerNotes, themeById, "####",
+                    RenderTrackSections(sb, tracks, ownerNotes, themeById, sourceCitationByNoteId, "####",
                         config.IncludedTrackTypes.Contains(TrackType.Unset));
                 }
             }
@@ -136,7 +151,7 @@ public static class NoteExportRenderer
                 sb.AppendLine();
                 foreach (var pp in noChapter)
                     RenderPlotPoint(sb, pp, result, config, notesByOwner, plotPointTrackDefs,
-                        linkTrackDefs, subjectById, subjectDefById, themeById, linkIdByPair);
+                        linkTrackDefs, subjectById, subjectDefById, themeById, sourceCitationByNoteId, linkIdByPair);
             }
 
             // PlotPoints grouped by chapter, ordered by (story reading order, chapter order)
@@ -153,7 +168,7 @@ public static class NoteExportRenderer
                 sb.AppendLine();
                 foreach (var pp in group.OrderBy(p => p.OrderInChapter))
                     RenderPlotPoint(sb, pp, result, config, notesByOwner, plotPointTrackDefs,
-                        linkTrackDefs, subjectById, subjectDefById, themeById, linkIdByPair);
+                        linkTrackDefs, subjectById, subjectDefById, themeById, sourceCitationByNoteId, linkIdByPair);
             }
         }
 
@@ -290,6 +305,7 @@ public static class NoteExportRenderer
         Dictionary<int, Subject> subjectById,
         Dictionary<int, SubjectDefinition> subjectDefById,
         Dictionary<int, Theme> themeById,
+        Dictionary<int, string> sourceCitationByNoteId,
         Dictionary<(int, int), int> linkIdByPair)
     {
         sb.AppendLine($"### {pp.Title}");
@@ -301,7 +317,7 @@ public static class NoteExportRenderer
             var ppNotes = notesByOwner.TryGetValue((pp.Id, OwnerType.PlotPoint), out var pn)
                 ? pn : new List<Note>();
             var ppTracks = plotPointTrackDefs.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList();
-            RenderTrackSections(sb, ppTracks, ppNotes, themeById, "####",
+            RenderTrackSections(sb, ppTracks, ppNotes, themeById, sourceCitationByNoteId, "####",
                 config.IncludedTrackTypes.Contains(TrackType.Unset));
         }
 
@@ -330,7 +346,7 @@ public static class NoteExportRenderer
                 ? td.Where(t => config.IncludedTrackTypes.Contains(t.TrackType)).ToList()
                 : new List<NoteTrackDefinition>();
 
-            RenderTrackSections(sb, tracks, linkNotes, themeById, "#####",
+            RenderTrackSections(sb, tracks, linkNotes, themeById, sourceCitationByNoteId, "#####",
                 config.IncludedTrackTypes.Contains(TrackType.Unset));
         }
     }
@@ -342,6 +358,7 @@ public static class NoteExportRenderer
         List<NoteTrackDefinition> tracks,
         List<Note> allNotes,
         Dictionary<int, Theme> themeById,
+        Dictionary<int, string> sourceCitationByNoteId,
         string headingLevel,
         bool includeUnassigned = false)
     {
@@ -360,7 +377,7 @@ public static class NoteExportRenderer
 
             foreach (var note in trackNotes)
             {
-                RenderNoteAsListItem(sb, note, track, themeById);
+                RenderNoteAsListItem(sb, note, track, themeById, sourceCitationByNoteId);
                 sb.AppendLine();
             }
         }
@@ -380,7 +397,7 @@ public static class NoteExportRenderer
 
                 foreach (var note in unassigned)
                 {
-                    RenderNoteAsListItem(sb, note, UnassignedTrack.Definition, themeById);
+                    RenderNoteAsListItem(sb, note, UnassignedTrack.Definition, themeById, sourceCitationByNoteId);
                     sb.AppendLine();
                 }
             }
@@ -391,14 +408,15 @@ public static class NoteExportRenderer
         StringBuilder sb,
         Note note,
         NoteTrackDefinition track,
-        Dictionary<int, Theme> themeById)
+        Dictionary<int, Theme> themeById,
+        Dictionary<int, string> sourceCitationByNoteId)
     {
         var lines = note.Content.Split('\n');
         sb.Append("- ");
         sb.AppendLine(lines[0].TrimEnd('\r'));
         for (int i = 1; i < lines.Length; i++)
             sb.AppendLine("  " + lines[i].TrimEnd('\r'));
-        AppendNoteMetadata(sb, note, track, themeById);
+        AppendNoteMetadata(sb, note, track, themeById, sourceCitationByNoteId);
     }
 
     // ---- Note metadata ----
@@ -407,7 +425,8 @@ public static class NoteExportRenderer
         StringBuilder sb,
         Note note,
         NoteTrackDefinition track,
-        Dictionary<int, Theme> themeById)
+        Dictionary<int, Theme> themeById,
+        Dictionary<int, string> sourceCitationByNoteId)
     {
         if (track.SupportsTheme)
         {
@@ -428,5 +447,31 @@ public static class NoteExportRenderer
             else
                 sb.AppendLine("  *(date not yet assigned)*");
         }
+
+        if (track.SupportsSourceMaterial)
+        {
+            if (sourceCitationByNoteId.TryGetValue(note.Id, out var citation) && citation.Length > 0)
+                sb.AppendLine($"  *Source: {citation}*");
+            else if (note.NoteState == NoteState.Confirmed)
+                sb.AppendLine("  *Source: (none cited)*");
+            else
+                sb.AppendLine("  *(source not yet cited)*");
+        }
+    }
+
+    private static string FormatCitation(
+        NoteSourceReference reference,
+        Dictionary<int, SourceMaterial> workById,
+        Dictionary<int, SourceMaterialPart> partById)
+    {
+        if (!workById.TryGetValue(reference.SourceMaterialId, out var work)) return "";
+
+        if (reference.SourceMaterialPartId is int partId && partById.TryGetValue(partId, out var part))
+        {
+            var partLabel = string.IsNullOrWhiteSpace(part.Name) ? part.Code : $"{part.Code} — {part.Name}";
+            return $"{work.Name} · {partLabel}";
+        }
+
+        return work.Name;
     }
 }

@@ -204,6 +204,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
                 IsSingleton:                 t.IsSingleton,
                 SupportsWorldDate:           t.SupportsWorldDate,
                 SupportsTheme:               t.SupportsTheme,
+                SupportsSourceMaterial:      t.SupportsSourceMaterial,
                 CanEditInAuditMode:          t.CanEditInAuditMode,
                 DisplayQuestion:             t.DisplayQuestion ?? string.Empty,
                 UsageDirective:              t.UsageDirective  ?? string.Empty,

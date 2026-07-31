@@ -35,6 +35,8 @@ public class StoryFileService
             
             // 3. Meta
             SourceMaterials = _context.SourceMaterials.AsNoTracking().ToList(),
+            SourceMaterialParts = _context.SourceMaterialParts.AsNoTracking().ToList(),
+            NoteSourceReferences = _context.NoteSourceReferences.AsNoTracking().ToList(),
             GeminiEntries = _context.GeminiEntries.AsNoTracking().ToList(),
             Ideas = _context.Ideas.AsNoTracking().ToList()
         };

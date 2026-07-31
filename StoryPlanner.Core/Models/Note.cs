@@ -42,7 +42,9 @@ public class Note
     public int? WorldDateEndDay { get; set; }
 
     public int? ThemeId { get; set; }
-    public int? SourceMaterialId { get; set; }
+
+    // Source material citations live in NoteSourceReference (0..N per note — a note may cite
+    // several episodes for one claim), not a column here. See NoteSourceReference.cs.
 }
 
 public enum NoteState

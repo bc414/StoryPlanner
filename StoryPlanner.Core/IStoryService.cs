@@ -21,6 +21,8 @@ public interface IStoryService : IDisposable
     ObservableCollection<NarrativePropertyValue> NarrativePropertyValues { get; }
     ObservableCollection<Theme> Themes { get; }
     ObservableCollection<SourceMaterial> SourceMaterials { get; }
+    ObservableCollection<SourceMaterialPart> SourceMaterialParts { get; }
+    ObservableCollection<NoteSourceReference> NoteSourceReferences { get; }
     ObservableCollection<GeminiEntry> GeminiEntries { get; }
     ObservableCollection<Idea> Ideas { get; }
 

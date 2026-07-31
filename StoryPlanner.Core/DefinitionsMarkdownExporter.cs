@@ -180,6 +180,7 @@ public record NoteTrackDefinitionExportData(
     bool IsSingleton,
     bool SupportsWorldDate,
     bool SupportsTheme,
+    bool SupportsSourceMaterial,
     bool CanEditInAuditMode,
     string DisplayQuestion,
     string UsageDirective,

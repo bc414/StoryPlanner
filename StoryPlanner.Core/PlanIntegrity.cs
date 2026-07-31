@@ -101,6 +101,35 @@ public static class PlanIntegrity
                 violations.Add(new Violation("link.subject_missing", $"link:{l.Id} -> subject:{l.SubjectId}"));
         }
 
+        // Source material coverage: Works, Parts (Work/Part is a real two-tier parent-child
+        // relationship even though the schema has no FK for it), and per-note citations.
+        var noteIds = ctx.Notes.Select(n => n.Id).ToHashSet();
+        var sourceMaterialIds = ctx.SourceMaterials.Select(s => s.Id).ToHashSet();
+        var partParentBySourceMaterialPartId = ctx.SourceMaterialParts.ToDictionary(p => p.Id, p => p.SourceMaterialId);
+
+        foreach (var p in ctx.SourceMaterialParts)
+        {
+            if (!sourceMaterialIds.Contains(p.SourceMaterialId))
+                violations.Add(new Violation("sourcepart.material_missing", $"part:{p.Id} -> material:{p.SourceMaterialId}"));
+        }
+
+        foreach (var r in ctx.NoteSourceReferences)
+        {
+            if (!noteIds.Contains(r.NoteId))
+                violations.Add(new Violation("sourcereference.note_missing", $"reference:{r.Id} -> note:{r.NoteId}"));
+            if (!sourceMaterialIds.Contains(r.SourceMaterialId))
+                violations.Add(new Violation("sourcereference.material_missing", $"reference:{r.Id} -> material:{r.SourceMaterialId}"));
+
+            if (r.SourceMaterialPartId is int partId)
+            {
+                if (!partParentBySourceMaterialPartId.TryGetValue(partId, out var partParent))
+                    violations.Add(new Violation("sourcereference.part_missing", $"reference:{r.Id} -> part:{partId}"));
+                else if (partParent != r.SourceMaterialId)
+                    violations.Add(new Violation("sourcereference.part_parent_mismatch",
+                        $"reference:{r.Id} cites material:{r.SourceMaterialId} but part:{partId} belongs to material:{partParent}"));
+            }
+        }
+
         // NarrativePropertyValue has no OwnerType of its own — resolve it by tracing
         // ValueDefinitionId -> NarrativePropertyDefinitionId -> OwnerType, mirroring
         // ContentDeleter.RemoveOwnedNarrativePropertyValues.

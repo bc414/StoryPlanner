@@ -13,20 +13,38 @@ public partial class NoteViewModel : ObservableObject
     private readonly IStoryService _storyService;
     private readonly ObservableCollection<ThemeViewModel> _themes;
     private readonly ObservableCollection<SourceMaterialViewModel> _sourceMaterials;
+    private readonly ObservableCollection<SourceMaterialPartViewModel> _sourceMaterialParts;
 
     public NoteViewModel(
         Note note,
         IStoryService storyService,
         ObservableCollection<ThemeViewModel> themes,
-        ObservableCollection<SourceMaterialViewModel> sourceMaterials)
+        ObservableCollection<SourceMaterialViewModel> sourceMaterials,
+        ObservableCollection<SourceMaterialPartViewModel> sourceMaterialParts)
     {
         _note = note;
         _storyService = storyService;
         _themes = themes;
         _sourceMaterials = sourceMaterials;
+        _sourceMaterialParts = sourceMaterialParts;
         _noteTrackDefinition = note.NoteTrackDefinitionId.HasValue
             ? storyService.GetNoteTrackDefinition(note.NoteTrackDefinitionId.Value)
             : null;
+
+        // Resolve this note's existing citations. Orphaned rows (Work no longer resolvable)
+        // are skipped rather than crashing — ContentDeleter's SourceMaterial guard is what's
+        // supposed to prevent that state from ever existing, but a resolver should not assume.
+        foreach (var r in storyService.NoteSourceReferences
+                     .Where(r => r.NoteId == note.Id)
+                     .OrderBy(r => r.SortOrder))
+        {
+            var work = _sourceMaterials.FirstOrDefault(s => s.Id == r.SourceMaterialId);
+            if (work is null) continue;
+            var part = r.SourceMaterialPartId.HasValue
+                ? _sourceMaterialParts.FirstOrDefault(p => p.Id == r.SourceMaterialPartId.Value)
+                : null;
+            _sourceReferences.Add(new NoteSourceReferenceViewModel(r, work, part));
+        }
     }
 
     public int Id => _note.Id;
@@ -217,31 +235,87 @@ public partial class NoteViewModel : ObservableObject
     }
 
     // ── Source Material ─────────────────────────────────────────────────────
+    // Many-to-many: a note may cite several Parts for one claim (e.g. "the Wonderbolts were
+    // useless in a crisis, as shown in Sonic Rainboom, Secret of my Excess, Equestria Games
+    // and Twilight's Kingdom" cites four episodes for one proposition) — see the plan's "why
+    // not just split the notes" analysis. Backed by NoteSourceReference rows, not a single FK.
 
     /// <summary>
     /// Shared collection reference — same instance across all NoteViewModels.
-    /// Bound as the search picker's ItemsSource in NoteView.xaml.
+    /// Bound as the picker's Work search source in NoteView.xaml.
     /// </summary>
     public ObservableCollection<SourceMaterialViewModel> AvailableSourceMaterials => _sourceMaterials;
 
     /// <summary>
-    /// Resolves SourceMaterialId → SourceMaterialViewModel for display; sets SourceMaterialId on write.
-    /// Null means "no source material assigned".
+    /// Shared collection reference — same instance across all NoteViewModels.
+    /// Bound as the picker's Part search source in NoteView.xaml.
     /// </summary>
-    public SourceMaterialViewModel? SelectedSourceMaterial
+    public ObservableCollection<SourceMaterialPartViewModel> AvailableSourceMaterialParts => _sourceMaterialParts;
+
+    private readonly ObservableCollection<NoteSourceReferenceViewModel> _sourceReferences = new();
+
+    /// <summary>This note's citations. Mutate only via AddSourceReference/RemoveSourceReference —
+    /// both keep the underlying NoteSourceReference rows and OnPropertyChanged in sync.</summary>
+    public ObservableCollection<NoteSourceReferenceViewModel> SourceReferences => _sourceReferences;
+
+    /// <summary>Adds a citation. part = null cites the Work as a whole. No-ops on a duplicate
+    /// (Work, Part) pair — re-citing the same thing twice is never useful.</summary>
+    public void AddSourceReference(SourceMaterialViewModel work, SourceMaterialPartViewModel? part)
     {
-        get => _sourceMaterials.FirstOrDefault(s => s.Id == _note.SourceMaterialId);
-        set
+        if (_sourceReferences.Any(r => r.Work.Id == work.Id && r.Part?.Id == part?.Id)) return;
+
+        var model = new NoteSourceReference
         {
-            var newId = value?.Id;
-            if (SetProperty(_note.SourceMaterialId, newId, _note, (n, v) => n.SourceMaterialId = v))
-                OnPropertyChanged();
-        }
+            NoteId = _note.Id,
+            SourceMaterialId = work.Id,
+            SourceMaterialPartId = part?.Id,
+            SortOrder = _sourceReferences.Count
+        };
+        _storyService.NoteSourceReferences.Add(model);
+        _sourceReferences.Add(new NoteSourceReferenceViewModel(model, work, part));
+        OnPropertyChanged(nameof(SourceReferences));
+        _ = _storyService.SaveAsync();
     }
 
-    [RelayCommand]
-    private void ClearSourceMaterial()
+    public void RemoveSourceReference(NoteSourceReferenceViewModel reference)
     {
-        SelectedSourceMaterial = null;
+        _storyService.NoteSourceReferences.Remove(reference.Model);
+        _sourceReferences.Remove(reference);
+        OnPropertyChanged(nameof(SourceReferences));
+        _ = _storyService.SaveAsync();
+    }
+
+    /// <summary>Quick-add: creates a new Work (e.g. a fanfic not yet in the library). Does not
+    /// cite it — call AddSourceReference afterward. Adds to the shared registry-backed
+    /// collection so every open picker sees it, matching ContentFactory's
+    /// mutate-then-save-then-sync-registry pattern.</summary>
+    public SourceMaterialViewModel CreateSourceMaterial(string name)
+    {
+        var model = new SourceMaterial { Name = name, Description = string.Empty, OrderIndex = _sourceMaterials.Count };
+        _storyService.SourceMaterials.Add(model);
+        var vm = new SourceMaterialViewModel(model, _storyService);
+        _sourceMaterials.Add(vm);
+        _ = _storyService.SaveAsync();
+        return vm;
+    }
+
+    /// <summary>Quick-add: creates a new Part under an existing Work (e.g. an episode missing
+    /// from the seeded list). Does not cite it — call AddSourceReference afterward.</summary>
+    public SourceMaterialPartViewModel CreateSourceMaterialPart(SourceMaterialViewModel work, string code, string name)
+    {
+        var model = new SourceMaterialPart
+        {
+            SourceMaterialId = work.Id,
+            Code = code,
+            Name = name,
+            Description = string.Empty,
+            OrderIndex = _sourceMaterialParts.Count(p => p.SourceMaterialId == work.Id),
+            ReviewState = SourcePartReviewState.NotReviewed
+        };
+        _storyService.SourceMaterialParts.Add(model);
+        var vm = new SourceMaterialPartViewModel(model, _storyService);
+        _sourceMaterialParts.Add(vm);
+        _ = _storyService.SaveAsync();
+        return vm;
     }
 }

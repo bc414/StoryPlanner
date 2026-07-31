@@ -13,4 +13,5 @@ public record SearchInput(
     IReadOnlyList<Chapter> Chapters,
     IReadOnlyList<Theme> Themes,
     IReadOnlyList<SourceMaterial> SourceMaterials,
+    IReadOnlyList<SourceMaterialPart> SourceMaterialParts,
     IReadOnlyList<Note> Notes);

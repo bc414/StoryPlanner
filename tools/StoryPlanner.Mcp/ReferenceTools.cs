@@ -130,6 +130,61 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         return Query.Cap(sb);
     }
 
+    [McpServerTool(Name = "list_source_materials")]
+    [Description("Coverage over the two-tier Source Material model (Work -> Part, e.g. MLP:FiM -> S3E01, or Equestria at War -> a playable country). Per Part: citing note count and review state (Reviewed = deliberately passed over for TLTT material, independent of citation count). This is the negative-space view — an untouched Part (NotReviewed, 0 citations) is a rewatch/reread candidate, never ranked or suggested here, just listed. The Work/Part set is pre-seeded (DataOps seed-source-material) rather than accreted from citations, so an untouched Part is a real signal, not a gap in what's been tagged.")]
+    public string ListSourceMaterials(
+        [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
+    {
+        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        var sb = new StringBuilder();
+
+        var citedPartIds = c.SourceReferencesByNote.Values.SelectMany(refs => refs)
+            .Where(r => r.SourceMaterialPartId.HasValue)
+            .Select(r => r.SourceMaterialPartId!.Value)
+            .ToHashSet();
+        var citationCountByPart = c.SourceReferencesByNote.Values.SelectMany(refs => refs)
+            .Where(r => r.SourceMaterialPartId.HasValue)
+            .GroupBy(r => r.SourceMaterialPartId!.Value)
+            .ToDictionary(g => g.Key, g => g.Count());
+        var citationCountByWork = c.SourceReferencesByNote.Values.SelectMany(refs => refs)
+            .GroupBy(r => r.SourceMaterialId)
+            .ToDictionary(g => g.Key, g => g.Count());
+
+        sb.AppendLine($"# source materials {Query.CorpusName(c.Corpus)} — {c.SourceMaterials.Count} works, {c.SourceMaterialParts.Count} parts");
+        if (c.SourceMaterials.Count == 0)
+        {
+            sb.AppendLine("(none seeded — see the seed-source-material DataOps op)");
+            return Query.Cap(sb);
+        }
+
+        foreach (var work in c.SourceMaterials.OrderBy(w => w.OrderIndex))
+        {
+            var workCitations = citationCountByWork.GetValueOrDefault(work.Id);
+            sb.AppendLine($"## {work.Name} — {workCitations} note(s) cite the work directly (source:{work.Id})");
+            if (work.Description.Length > 0) sb.AppendLine($"  {work.Description}");
+
+            var parts = c.SourceMaterialPartsByWork.TryGetValue(work.Id, out var pl) ? pl : [];
+            if (parts.Count == 0)
+            {
+                if (work.PartNoun.Length == 0) sb.AppendLine("  no Parts — cite the work itself");
+                continue;
+            }
+
+            var partNoun = work.PartNoun.Length > 0 ? work.PartNoun : "Part";
+            var untouched = parts.Count(p => p.ReviewState == SourcePartReviewState.NotReviewed && !citedPartIds.Contains(p.Id));
+            sb.AppendLine($"  {parts.Count} {partNoun}s ({untouched} untouched — never reviewed AND never cited)");
+            foreach (var p in parts)
+            {
+                var n = citationCountByPart.GetValueOrDefault(p.Id);
+                var reviewed = p.ReviewState == SourcePartReviewState.Reviewed;
+                var flag = n == 0 && !reviewed ? " <- untouched" : "";
+                var label = p.Name.Length > 0 ? $"{p.Code} — {p.Name}" : p.Code;
+                sb.AppendLine($"  {label}: {n} note(s){(reviewed ? ", reviewed" : "")} (sourcepart:{p.Id}){flag}");
+            }
+        }
+        return Query.Cap(sb);
+    }
+
     [McpServerTool(Name = "get_stats")]
     [Description("Population statistics for one or both corpora: file info, subjects by type, notes by state, tracked/untracked, plot point placement, links, chapters, tracks defined vs used, themes, WorldDate/theme tagging coverage, and conversation-block triage tallies. The live version of the numbers — never stale.")]
     public string GetStats(
@@ -185,7 +240,19 @@ public sealed class ReferenceTools(StoryPlanSources sources)
 
         var withDate = c.Notes.Count(Query.HasAnyWorldDate);
         var withTheme = c.Notes.Count(n => n.ThemeId is not null);
-        sb.AppendLine($"themes: {c.Themes.Count} | notes with worldDate: {withDate} | with theme tag: {withTheme}");
+        var withSource = c.SourceReferencesByNote.Count; // notes with >=1 citation, not citation count
+        sb.AppendLine($"themes: {c.Themes.Count} | notes with worldDate: {withDate} | with theme tag: {withTheme} | with source citation: {withSource}");
+
+        if (c.SourceMaterials.Count > 0)
+        {
+            var citedPartIds = c.SourceReferencesByNote.Values.SelectMany(refs => refs)
+                .Where(r => r.SourceMaterialPartId.HasValue)
+                .Select(r => r.SourceMaterialPartId!.Value)
+                .ToHashSet();
+            var untouched = c.SourceMaterialParts.Count(p =>
+                p.ReviewState == SourcePartReviewState.NotReviewed && !citedPartIds.Contains(p.Id));
+            sb.AppendLine($"source materials: {c.SourceMaterials.Count} works, {c.SourceMaterialParts.Count} parts ({untouched} untouched)");
+        }
 
         if (c.Conversations.Count > 0)
         {

@@ -12,5 +12,6 @@ public enum SearchHitKind
     Chapter,
     Theme,
     SourceMaterial,
+    SourceMaterialPart,
     Note
 }

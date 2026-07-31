@@ -3,111 +3,166 @@ using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using WindowedStoryPlanner;
+using System.Windows.Controls.Primitives;
 
 namespace WindowedStoryPlanner;
 
+/// <summary>
+/// Multi-chip source-material citation picker. Chips are the note's existing
+/// NoteSourceReferences (rendered from Note.SourceReferences); the "+" opens a popup offering a
+/// combined Work/Part search plus an inline quick-add form. Follows WorldDatePickerControl's
+/// shape — a Note DP pointing at the whole NoteViewModel, so the control can host outside
+/// NoteView too — rather than a plain value DP, because add/remove/create are all mutations
+/// that belong on the view model, not on this control.
+/// </summary>
 public partial class SourceMaterialPickerControl : UserControl, INotifyPropertyChanged
 {
     public event PropertyChangedEventHandler? PropertyChanged;
     private void Notify(string name) => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
 
-    // ── AvailableSourceMaterials DP ─────────────────────────────────────────
+    // ── Note DP ──────────────────────────────────────────────────────────────
 
-    public static readonly DependencyProperty AvailableSourceMaterialsProperty =
-        DependencyProperty.Register(
-            nameof(AvailableSourceMaterials),
-            typeof(IEnumerable<SourceMaterialViewModel>),
-            typeof(SourceMaterialPickerControl),
-            new PropertyMetadata(null, OnAvailableSourceMaterialsChanged));
+    public static readonly DependencyProperty NoteProperty = DependencyProperty.Register(
+        nameof(Note), typeof(NoteViewModel), typeof(SourceMaterialPickerControl), new PropertyMetadata(null));
 
-    public IEnumerable<SourceMaterialViewModel>? AvailableSourceMaterials
+    public NoteViewModel? Note
     {
-        get => (IEnumerable<SourceMaterialViewModel>?)GetValue(AvailableSourceMaterialsProperty);
-        set => SetValue(AvailableSourceMaterialsProperty, value);
+        get => (NoteViewModel?)GetValue(NoteProperty);
+        set => SetValue(NoteProperty, value);
     }
 
-    private static void OnAvailableSourceMaterialsChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
+    private NoteViewModel? Vm => Note ?? DataContext as NoteViewModel;
+
+    // ── Search results ───────────────────────────────────────────────────────
+
+    private sealed class SearchResult
     {
-        if (d is SourceMaterialPickerControl ctrl)
-            ctrl.RebuildSearchResults();
+        public required SourceMaterialViewModel Work { get; init; }
+        public SourceMaterialPartViewModel? Part { get; init; }
+        public required string Label { get; init; }
     }
 
-    // ── SelectedSourceMaterial DP ────────────────────────────────────────────
+    private List<SearchResult> _results = [];
+    public bool HasResults => _results.Count > 0;
 
-    public static readonly DependencyProperty SelectedSourceMaterialProperty =
-        DependencyProperty.Register(
-            nameof(SelectedSourceMaterial),
-            typeof(SourceMaterialViewModel),
-            typeof(SourceMaterialPickerControl),
-            new FrameworkPropertyMetadata(null, FrameworkPropertyMetadataOptions.BindsTwoWayByDefault, OnSelectedSourceMaterialChanged));
+    // ── Popup lifecycle ──────────────────────────────────────────────────────
 
-    public SourceMaterialViewModel? SelectedSourceMaterial
+    private void Popup_Opened(object sender, System.EventArgs e)
     {
-        get => (SourceMaterialViewModel?)GetValue(SelectedSourceMaterialProperty);
-        set => SetValue(SelectedSourceMaterialProperty, value);
+        SearchBox.Text = string.Empty;
+        AddNewForm.Visibility = Visibility.Collapsed;
+        WorkCombo.SelectedItem = null;
+        WorkCombo.Text = string.Empty;
+        PartCodeBox.Text = string.Empty;
+        PartNameBox.Text = string.Empty;
+        RebuildResults();
+        SearchBox.Focus();
     }
 
-    private static void OnSelectedSourceMaterialChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
-    {
-        if (d is SourceMaterialPickerControl ctrl)
-            ctrl.Notify(nameof(SelectedSourceMaterial));
-    }
+    private void SearchBox_TextChanged(object sender, TextChangedEventArgs e) => RebuildResults();
 
-    // ── Search ────────────────────────────────────────────────────────────
-
-    private string _searchText = string.Empty;
-    public string SearchText
+    private void RebuildResults()
     {
-        get => _searchText;
-        set
+        var query = SearchBox.Text.Trim();
+        if (Vm is null || query.Length == 0)
         {
-            if (_searchText == value) return;
-            _searchText = value;
-            Notify(nameof(SearchText));
-            Notify(nameof(HasSearchText));
-            RebuildSearchResults();
+            _results = [];
+        }
+        else
+        {
+            var lower = query.ToLowerInvariant();
+
+            var workHits = Vm.AvailableSourceMaterials
+                .Where(w => w.Name.ToLowerInvariant().Contains(lower))
+                .OrderBy(w => w.Name)
+                .Select(w => new SearchResult { Work = w, Part = null, Label = w.Name });
+
+            var partHits = Vm.AvailableSourceMaterialParts
+                .Where(p => p.Code.ToLowerInvariant().Contains(lower) || p.Name.ToLowerInvariant().Contains(lower))
+                .OrderBy(p => p.OrderIndex)
+                .Select(p =>
+                {
+                    var work = Vm.AvailableSourceMaterials.FirstOrDefault(w => w.Id == p.SourceMaterialId);
+                    return work is null
+                        ? null
+                        : new SearchResult { Work = work, Part = p, Label = $"{work.Name} · {p.DisplayLabel}" };
+                })
+                .OfType<SearchResult>();
+
+            _results = workHits.Concat(partHits).ToList();
+        }
+
+        ResultsList.ItemsSource = _results;
+        Notify(nameof(HasResults));
+
+        // Pre-fill the quick-add Part code with whatever was typed — the common quick-add case
+        // is "this episode isn't in the seeded list yet", where the search text already IS the
+        // code the author wants.
+        PartCodeBox.Text = query;
+    }
+
+    private void ResultsList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+        if (ResultsList.SelectedItem is not SearchResult result || Vm is null) return;
+        ResultsList.SelectedItem = null;
+        Vm.AddSourceReference(result.Work, result.Part);
+        OpenToggle.IsChecked = false;
+    }
+
+    private void RemoveChip_Click(object sender, RoutedEventArgs e)
+    {
+        if (sender is not FrameworkElement { DataContext: NoteSourceReferenceViewModel reference } || Vm is null) return;
+        Vm.RemoveSourceReference(reference);
+    }
+
+    // ── Quick add ────────────────────────────────────────────────────────────
+
+    private void ShowAddNewButton_Click(object sender, RoutedEventArgs e)
+    {
+        AddNewForm.Visibility = AddNewForm.Visibility == Visibility.Visible ? Visibility.Collapsed : Visibility.Visible;
+        if (AddNewForm.Visibility == Visibility.Visible && WorkCombo.Text.Length == 0 && SearchBox.Text.Length > 0)
+        {
+            // If the search text matches an existing Work by name, default to it rather than
+            // proposing a duplicate Work.
+            var existing = Vm?.AvailableSourceMaterials
+                .FirstOrDefault(w => string.Equals(w.Name, SearchBox.Text.Trim(), System.StringComparison.OrdinalIgnoreCase));
+            if (existing is not null) WorkCombo.SelectedItem = existing;
         }
     }
 
-    public bool HasSearchText => !string.IsNullOrWhiteSpace(_searchText);
-
-    private List<SourceMaterialViewModel> _searchResults = [];
-    public IReadOnlyList<SourceMaterialViewModel> SearchResults => _searchResults;
-
-    private void RebuildSearchResults()
+    private void CancelAddNew_Click(object sender, RoutedEventArgs e)
     {
-        if (AvailableSourceMaterials is null || !HasSearchText)
-        {
-            _searchResults = [];
-            Notify(nameof(SearchResults));
-            return;
-        }
-
-        var lower = _searchText.Trim().ToLowerInvariant();
-        _searchResults = AvailableSourceMaterials
-            .Where(s => s.Name.ToLowerInvariant().Contains(lower))
-            .OrderBy(s => s.Name)
-            .ToList();
-
-        Notify(nameof(SearchResults));
+        AddNewForm.Visibility = Visibility.Collapsed;
     }
 
-    // ── Selection handlers ───────────────────────────────────────────────────
-
-    private void SearchResultsList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    private void ConfirmAddNew_Click(object sender, RoutedEventArgs e)
     {
-        if (sender is ListBox lb && lb.SelectedItem is SourceMaterialViewModel sourceMaterial)
+        if (Vm is null) return;
+
+        SourceMaterialViewModel? work = WorkCombo.SelectedItem as SourceMaterialViewModel;
+        if (work is null)
         {
-            lb.SelectedItem = null;
-            SearchText = string.Empty;
-            SelectedSourceMaterial = sourceMaterial;
-        }
-    }
+            var typed = WorkCombo.Text.Trim();
+            if (typed.Length == 0) return; // a citation needs at least a Work
 
-    private void ClearButton_Click(object sender, RoutedEventArgs e)
-    {
-        SelectedSourceMaterial = null;
+            work = Vm.AvailableSourceMaterials
+                .FirstOrDefault(w => string.Equals(w.Name, typed, System.StringComparison.OrdinalIgnoreCase));
+            work ??= Vm.CreateSourceMaterial(typed);
+        }
+
+        var code = PartCodeBox.Text.Trim();
+        SourceMaterialPartViewModel? part = null;
+        if (code.Length > 0)
+        {
+            // Reuse an existing Part under this Work with the same code rather than duplicating it.
+            part = Vm.AvailableSourceMaterialParts
+                .FirstOrDefault(p => p.SourceMaterialId == work.Id &&
+                                      string.Equals(p.Code, code, System.StringComparison.OrdinalIgnoreCase));
+            part ??= Vm.CreateSourceMaterialPart(work, code, PartNameBox.Text.Trim());
+        }
+
+        Vm.AddSourceReference(work, part);
+        OpenToggle.IsChecked = false;
     }
 
     // ── Constructor ───────────────────────────────────────────────────────
