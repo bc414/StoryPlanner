@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using System.Windows.Media;
-using WindowedStoryPlanner;
+using System.Windows.Threading;
 
 namespace WindowedStoryPlanner
 {
@@ -15,6 +15,33 @@ namespace WindowedStoryPlanner
         public NoteTrackSectionView()
         {
             InitializeComponent();
+            DataContextChanged += OnDataContextChanged;
+        }
+
+        // Section VMs are destroyed and recreated on every Uninitialize/Initialize
+        // cycle, so the NoteCreated subscription must follow the DataContext —
+        // a constructor-time subscription would pin dead VMs.
+        private void OnDataContextChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (e.OldValue is NoteTrackSectionViewModel oldVm)
+                oldVm.NoteCreated -= OnNoteCreated;
+            if (e.NewValue is NoteTrackSectionViewModel newVm)
+                newVm.NoteCreated += OnNoteCreated;
+        }
+
+        // Focus the freshly inserted note's content box. Targeted by name:
+        // NoteView's visual tree puts the WorldDate and FlagReason TextBoxes
+        // before the content one, and collapsed elements still count, so a
+        // find-first-TextBox walk would focus the wrong box on every track.
+        private void OnNoteCreated(NoteViewModel note)
+        {
+            // Container generation is async; Loaded priority runs after layout.
+            Dispatcher.BeginInvoke(DispatcherPriority.Loaded, new Action(() =>
+            {
+                if (NotesList.ItemContainerGenerator.ContainerFromItem(note) is not ListBoxItem item)
+                    return;
+                FindDescendant<TextBox>(item, tb => tb.Name == "ContentBox")?.Focus();
+            }));
         }
 
         // TextBox consumes MouseLeftButtonDown so it never reaches the ListBoxItem.
@@ -34,7 +61,6 @@ namespace WindowedStoryPlanner
         //   Alt+Down  — move note down (reorder within section)
         //   Page Up   — toggle Confirmed ↔ Unset  (selection follows to destination section)
         //   Page Down — toggle Flagged ↔ Unset    (selection follows to destination section)
-        //   F1–F12    — move to track (handled at CommonWindow level)
         private void NoteTrackSectionView_PreviewKeyDown(object sender, KeyEventArgs e)
         {
             if (DataContext is not NoteTrackSectionViewModel vm) return;
@@ -63,32 +89,15 @@ namespace WindowedStoryPlanner
             }
         }
 
-        // After a state toggle the note has moved to a sibling section on the same
-        // NoteTrackViewModel. Walk up to find NoteTrackView, then locate whichever
-        // section now owns the note and set SelectedNote on it so the ListBox
-        // selection follows and CommonWindow._selectedNote stays current.
-        private void SelectNoteInSiblingSection(NoteViewModel note)
+        private static T? FindDescendant<T>(DependencyObject parent, Predicate<T> match)
+            where T : DependencyObject
         {
-            var trackView = FindAncestor<NoteTrackView>(this);
-            if (trackView?.DataContext is not NoteTrackViewModel trackVm) return;
-
-            foreach (var section in trackVm.Sections)
+            int count = VisualTreeHelper.GetChildrenCount(parent);
+            for (int i = 0; i < count; i++)
             {
-                if (section.TargetState == note.NoteState)
-                {
-                    section.SelectedNote = note;
-                    return;
-                }
-            }
-        }
-
-        private static T? FindAncestor<T>(DependencyObject child) where T : DependencyObject
-        {
-            var current = VisualTreeHelper.GetParent(child);
-            while (current is not null)
-            {
-                if (current is T match) return match;
-                current = VisualTreeHelper.GetParent(current);
+                var child = VisualTreeHelper.GetChild(parent, i);
+                if (child is T typed && match(typed)) return typed;
+                if (FindDescendant(child, match) is T found) return found;
             }
             return null;
         }

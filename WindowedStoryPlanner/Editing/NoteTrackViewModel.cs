@@ -197,15 +197,15 @@ public partial class NoteTrackViewModel : ObservableObject
 
         Sections.Add(new NoteTrackSectionViewModel(
             _ownerId, _ownerType, _definition, NoteState.Confirmed,
-            _viewModelRegistry, _storyService, this));
+            _viewModelRegistry, _storyService, _editorCoordinator, this));
 
         Sections.Add(new NoteTrackSectionViewModel(
             _ownerId, _ownerType, _definition, NoteState.Unset,
-            _viewModelRegistry, _storyService, this));
+            _viewModelRegistry, _storyService, _editorCoordinator, this));
 
         Sections.Add(new NoteTrackSectionViewModel(
             _ownerId, _ownerType, _definition, NoteState.Flagged,
-            _viewModelRegistry, _storyService, this));
+            _viewModelRegistry, _storyService, _editorCoordinator, this));
 
         foreach (var section in Sections)
             section.SelectionTransferRequested += OnSelectionTransferRequested;
@@ -228,17 +228,13 @@ public partial class NoteTrackViewModel : ObservableObject
     {
         if (IsReadOnly) return;
 
+        // One creation path: a null anchor is the append-to-end case. The Unset
+        // section is always present once Initialize() has run, which happens
+        // before any NoteTrackView (and thus this button) can exist.
         var unsetSection = Sections.FirstOrDefault(s => s.TargetState == NoteState.Unset);
+        if (unsetSection is null) return;
 
-        int maxOrder = unsetSection?.SectionNotes
-            .Cast<NoteViewModel>()
-            .Select(n => n.SortOrder)
-            .DefaultIfEmpty(0)
-            .Max() ?? 0;
-
-        int? trackId = _definition.Id == UnassignedTrack.Definition.Id ? null : _definition.Id;
-
-        await _editorCoordinator.CreateNoteAsync(_ownerId, _ownerType, trackId, maxOrder + 1);
+        await unsetSection.InsertNoteBeforeCommand.ExecuteAsync(null);
     }
 
     // ── Private helpers ───────────────────────────────────────────────────

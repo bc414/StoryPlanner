@@ -7,6 +7,7 @@ using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace WindowedStoryPlanner;
 
@@ -18,6 +19,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     private readonly NoteState _targetState;
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _viewModelRegistry;
+    private readonly IContentFactory _contentFactory;
     private readonly NoteTrackViewModel _parentTrack;
 
     public string SectionHeader => _targetState.ToString();
@@ -47,8 +49,21 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
     public bool IsReadOnly
     {
         get => _isReadOnly;
-        private set { if (_isReadOnly != value) { _isReadOnly = value; OnPropertyChanged(); } }
+        private set
+        {
+            if (_isReadOnly != value)
+            {
+                _isReadOnly = value;
+                OnPropertyChanged();
+                OnPropertyChanged(nameof(SupportsInsert));
+            }
+        }
     }
+
+    /// <summary>Insert points exist only where a new note can legally be born:
+    /// the Unset section of an editable track. ContentFactory creates every note
+    /// as NoteState.Unset, and Confirmed additionally requires Audit mode.</summary>
+    public bool SupportsInsert => !IsReadOnly && _targetState == NoteState.Unset;
 
     public bool CanPromoteToConfirmed
     {
@@ -77,6 +92,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         NoteState targetState,
         IViewModelRegistry viewModelRegistry,
         IStoryService storyService,
+        IContentFactory contentFactory,
         NoteTrackViewModel parentTrack)
     {
         _ownerId           = ownerId;
@@ -85,6 +101,7 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
         _targetState       = targetState;
         _storyService      = storyService;
         _viewModelRegistry = viewModelRegistry;
+        _contentFactory    = contentFactory;
         _parentTrack       = parentTrack;
 
         _isReadOnly            = parentTrack.IsReadOnly;
@@ -208,6 +225,54 @@ public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
             note.Id, note.OwnerId, note.OwnerType, note.NoteTrackDefinitionId));
         SelectedNote = note;
         _storyService.SaveAsync().FireAndForget();
+    }
+
+    // ── Insert-at-position ────────────────────────────────────────────────
+
+    /// <summary>Raised after a strip-anchored insert so the view can focus the
+    /// new note's content box. Not raised for plain appends (null anchor) —
+    /// see the RequestBringIntoView suppression note on the command.</summary>
+    public event Action<NoteViewModel>? NoteCreated;
+
+    /// <summary>Creates a new empty note positioned directly above
+    /// <paramref name="anchor"/>. A null anchor appends to the end (the header
+    /// + path) with today's exact behavior: no move, no select, no focus —
+    /// deliberate, because NoteTrackView suppresses all RequestBringIntoView,
+    /// so focusing an appended note on a scrolled track would put the caret in
+    /// an offscreen TextBox. A strip-clicked gap is on-screen by construction.
+    ///
+    /// The note is born at the end of the section, then Moved into place: a
+    /// mid-list SortOrder would collide with its neighbour's, and InsertSorted
+    /// resolves ties by placing the newcomer after — the wrong side.</summary>
+    [RelayCommand]
+    private async Task InsertNoteBefore(NoteViewModel? anchor)
+    {
+        if (!SupportsInsert) return;
+
+        // Anchor's index, captured before creation (append-at-end doesn't shift it).
+        int index = anchor is null ? -1 : _sectionSource.IndexOf(anchor);
+
+        int? trackId = _definition.Id == UnassignedTrack.Definition.Id ? null : _definition.Id;
+        int endOrder = _sectionSource.Select(n => n.SortOrder).DefaultIfEmpty(0).Max() + 1;
+
+        // Saves internally (Id assignment) and adds the VM to AllNoteViewModels,
+        // which lands it in _sectionSource via OnAllNotesCollectionChanged.
+        var vm = await _contentFactory.CreateNoteAsync(_ownerId, _ownerType, trackId, endOrder);
+
+        if (index < 0) return;   // plain append — done
+
+        int landed = _sectionSource.IndexOf(vm);
+        if (landed >= 0 && landed != index)
+        {
+            _sectionSource.Move(landed, index);
+            ReindexSection();
+            _viewModelRegistry.RaiseNoteMutated(new NoteMutatedArgs(
+                vm.Id, vm.OwnerId, vm.OwnerType, vm.NoteTrackDefinitionId));
+            _storyService.SaveAsync().FireAndForget();
+        }
+
+        SelectedNote = vm;
+        NoteCreated?.Invoke(vm);
     }
 
     // ── Drag-drop ─────────────────────────────────────────────────────────

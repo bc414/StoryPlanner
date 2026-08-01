@@ -171,8 +171,11 @@
                 </Border>
             </StackPanel>
 
-            <!-- Note content -->
-            <TextBox Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}"
+            <!-- Note content. Named so NoteTrackSectionView can focus it after an
+                 insert — the WorldDate/FlagReason TextBoxes precede it in the
+                 visual tree, so a find-by-type walk would land on the wrong box. -->
+            <TextBox x:Name="ContentBox"
+                     Text="{Binding Content, UpdateSourceTrigger=PropertyChanged}"
                      TextWrapping="Wrap"
                      AcceptsReturn="True"
                      BorderThickness="0"

@@ -12,6 +12,40 @@
 
     <UserControl.Resources>
         <local:InverseBooleanConverter x:Key="InverseBoolConverter"/>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+
+        <!-- Insert-here strip shown above each note in the Unset section.
+             Constant height so hovering never reflows the list; only opacity
+             changes. Root's Background="Transparent" is load-bearing: a null
+             background is not hit-testable, so IsMouseOver would never fire. -->
+        <Style x:Key="InsertStripStyle" TargetType="Button">
+            <Setter Property="Height" Value="10"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="ToolTip" Value="Insert a new note here"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Grid x:Name="Root" Background="Transparent" Opacity="0">
+                            <Rectangle Height="1" Fill="#7AA7D8" Margin="14,0,4,0"
+                                       VerticalAlignment="Center"/>
+                            <Border Width="14" Height="10" CornerRadius="2"
+                                    Background="#7AA7D8" HorizontalAlignment="Left">
+                                <TextBlock Text="+" Foreground="White" FontSize="9"
+                                           FontWeight="Bold" HorizontalAlignment="Center"
+                                           VerticalAlignment="Center"/>
+                            </Border>
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Root" Property="Opacity" Value="1"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
 
         <!-- Confirmed: solid green border brush -->
         <SolidColorBrush x:Key="ConfirmedBorderBrush" Color="#34A853"/>
@@ -101,7 +135,8 @@
             <!-- IsDragSource/IsDropTarget are disabled when the section is readonly.       -->
             <!-- MinHeight ensures the Unset section has a usable drop target on empty      -->
             <!-- tracks even when no notes are present.                                     -->
-            <ListBox DockPanel.Dock="Bottom"
+            <ListBox x:Name="NotesList"
+                     DockPanel.Dock="Bottom"
                      ItemsSource="{Binding SectionNotes}"
                      SelectedItem="{Binding SelectedNote, Mode=TwoWay}"
                      MinHeight="{Binding MinDropHeight}"
@@ -136,10 +171,35 @@
                         <Setter Property="Template">
                             <Setter.Value>
                                 <ControlTemplate TargetType="ListBoxItem">
-                                    <Border Background="{TemplateBinding Background}"
-                                            BorderThickness="0">
-                                        <ContentPresenter/>
-                                    </Border>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="Auto"/>
+                                            <RowDefinition Height="*"/>
+                                        </Grid.RowDefinitions>
+
+                                        <!-- Insert-here strip: reveals on hover, inserts a new
+                                             note above this one. Only the Unset section of an
+                                             editable track shows it (SupportsInsert). Not
+                                             focusable — an invisible tab stop per note would
+                                             wreck keyboard navigation. Sits outside the Border
+                                             below so the note's hover/selection tint never
+                                             covers it. -->
+                                        <Button Grid.Row="0"
+                                                Style="{StaticResource InsertStripStyle}"
+                                                Focusable="False"
+                                                Command="{Binding DataContext.InsertNoteBeforeCommand,
+                                                          RelativeSource={RelativeSource AncestorType=local:NoteTrackSectionView}}"
+                                                CommandParameter="{Binding}"
+                                                Visibility="{Binding DataContext.SupportsInsert,
+                                                             RelativeSource={RelativeSource AncestorType=local:NoteTrackSectionView},
+                                                             Converter={StaticResource BoolToVisibility}}"/>
+
+                                        <Border Grid.Row="1"
+                                                Background="{TemplateBinding Background}"
+                                                BorderThickness="0">
+                                            <ContentPresenter/>
+                                        </Border>
+                                    </Grid>
                                     <ControlTemplate.Triggers>
                                         <Trigger Property="IsMouseOver" Value="True">
                                             <Setter Property="Background" Value="#18000000"/>
