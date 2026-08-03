@@ -15,66 +15,6 @@ public class ContentDeleter : IContentDeleter
         _registry = registry;
     }
 
-    public async Task DeleteNoteAsync(NoteViewModel note)
-    {
-        // StoryService.DeleteNote cascades the note's NoteSourceReference rows — citations are
-        // note-owned, so the cascade is correct there (contrast SourceMaterial/Part below, which
-        // refuse instead). Keeping the cascade in Core means no caller can bypass it.
-        _storyService.DeleteNote(note.Id);
-        _registry.AllNoteViewModels.Remove(note);
-        await _storyService.SaveAsync();
-    }
-
-    public async Task<bool> TryDeleteLinkAsync(PlotPointSubjectLinkViewModel link)
-    {
-        if (ContentIntegrity.HasNotes(_storyService, link.Id, OwnerType.PlotPointSubjectLink)) return false;
-
-        // StoryService.DeleteLink removes the link's owned NarrativePropertyValue rows with it.
-        _storyService.DeleteLink(link.Id);
-        _registry.AllPlotPointSubjectLinkViewModels.Remove(link);
-        await _storyService.SaveAsync();
-        return true;
-    }
-
-    public async Task<bool> TryDeleteSubjectAsync(SubjectViewModel subject)
-    {
-        bool hasNotes = ContentIntegrity.HasNotes(_storyService, subject.Id, OwnerType.Subject);
-
-        bool hasLinks = _storyService.PlotPointsSubjectLinks
-            .Any(l => l.SubjectId == subject.Id);
-
-        // A subject designated as someone's POV is a peer reference, not a container
-        // relationship — refuse rather than nulling PlotPoint.FocalCharacterId out from under it.
-        bool isFocalCharacter = _storyService.PlotPoints
-            .Any(p => p.FocalCharacterId == subject.Id);
-
-        if (hasNotes || hasLinks || isFocalCharacter) return false;
-
-        _storyService.RemoveOwnedNarrativePropertyValues(subject.Id, OwnerType.Subject);
-
-        _storyService.Subjects.Remove(subject.Subject);
-        _registry.AllSubjectViewModels.Remove(subject);
-        await _storyService.SaveAsync();
-        return true;
-    }
-
-    public async Task<bool> TryDeletePlotPointAsync(PlotPointViewModel plotPoint)
-    {
-        bool hasNotes = ContentIntegrity.HasNotes(_storyService, plotPoint.Id, OwnerType.PlotPoint);
-
-        bool hasLinks = _storyService.PlotPointsSubjectLinks
-            .Any(l => l.PlotPointId == plotPoint.Id);
-
-        if (hasNotes || hasLinks) return false;
-
-        _storyService.RemoveOwnedNarrativePropertyValues(plotPoint.Id, OwnerType.PlotPoint);
-
-        _storyService.PlotPoints.Remove(plotPoint.PlotPoint);
-        _registry.AllPlotPointViewModels.Remove(plotPoint);
-        await _storyService.SaveAsync();
-        return true;
-    }
-
     public async Task<bool> TryDeleteChapterAsync(ChapterViewModel chapter)
     {
         if (ContentIntegrity.HasNotes(_storyService, chapter.Id, OwnerType.Chapter)) return false;

@@ -1,4 +1,4 @@
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using GongSolutions.Wpf.DragDrop;
 using StoryPlanner.Core;
@@ -11,7 +11,6 @@ namespace WindowedStoryPlanner;
 
 public partial class FloatingPlotPointsViewModel : ObservableObject, IDropTarget
 {
-    private readonly IViewModelRegistry _viewModelRegistry;
     private readonly IStoryService _storyService;
     private readonly IContentFactory _editorCoordinator;
     private readonly IWindowManager _windowManager;
@@ -24,7 +23,6 @@ public partial class FloatingPlotPointsViewModel : ObservableObject, IDropTarget
         IContentFactory editorCoordinator,
         IWindowManager windowManager)
     {
-        _viewModelRegistry = viewModelRegistry;
         _storyService = storyService;
         _editorCoordinator = editorCoordinator;
         _windowManager = windowManager;

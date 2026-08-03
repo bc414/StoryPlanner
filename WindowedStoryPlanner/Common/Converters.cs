@@ -61,100 +61,6 @@ namespace WindowedStoryPlanner // Adjust namespace if needed
         }
     }
 
-    public class CanMoveToChapterConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            return value is ChapterViewModel || value is FloatingPlotPointsViewModel;
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
-    }
-
-    public class IsFloatingWindowConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            // Returns TRUE if the bound object (the Window's DataContext) is the Floating VM
-            return value is FloatingPlotPointsViewModel;
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
-    }
-
-    public class IdeaStatusToColorConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            if (value is IdeaState ideaState)
-            {
-                if (ideaState == IdeaState.Written)
-                {
-                    return Brushes.Red;
-                }
-                else if (ideaState == IdeaState.PartiallyAnalyzed)
-                {
-                    return Brushes.Yellow;
-                }
-                else
-                {
-                    return Brushes.LawnGreen;
-                }
-            }
-
-            return Brushes.CornflowerBlue;
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) => Binding.DoNothing;
-    }
-
-    public class UtcToLocalConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            if (value is DateTime utcDateTime)
-            {
-                // Converts from UTC to the local system time of the user's machine
-                return utcDateTime.ToLocalTime().ToString("g"); // "g" is a short date/time pattern
-            }
-            return value;
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            // If you need two-way binding, convert back to UTC before saving
-            if (DateTime.TryParse(value?.ToString(), out DateTime localDateTime))
-            {
-                return localDateTime.ToUniversalTime();
-            }
-            return value;
-        }
-    }
-
-    public class RecencyToColorConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            if (value is DateTime lastModified)
-            {
-                // Calculate the difference between now (UTC) and the modified time (UTC)
-                TimeSpan diff = DateTime.UtcNow - lastModified;
-
-                if (diff.TotalHours <= 24)
-                {
-                    return Brushes.Green; // Modified within the last 24 hours
-                }
-                return Brushes.Red; // Older than 24 hours
-            }
-            return Brushes.Black; // Default fallback
-        }
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
-        {
-            throw new NotImplementedException();
-        }
-    }
-
     public class CognitiveModeToColorConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -255,24 +161,6 @@ namespace WindowedStoryPlanner // Adjust namespace if needed
             throw new NotImplementedException();
     }
 
-    public class BlockStateToColorConverter : IValueConverter
-    {
-        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
-            value is BlockState state
-                ? state switch
-                {
-                    BlockState.Unread  => new SolidColorBrush(Color.FromRgb(160, 160, 160)), // gray
-                    BlockState.Skipped => new SolidColorBrush(Color.FromRgb( 70, 130, 210)), // blue
-                    BlockState.Flagged => new SolidColorBrush(Color.FromRgb(220, 110,  20)), // orange
-                    BlockState.Done    => new SolidColorBrush(Color.FromRgb( 40, 160,  80)), // green
-                    _                  => Brushes.Gray
-                }
-                : Brushes.Gray;
-
-        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
-            throw new NotImplementedException();
-    }
-
     public class BoolToVisibilityConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
@@ -287,7 +175,7 @@ namespace WindowedStoryPlanner // Adjust namespace if needed
     }
 
     /// <summary>
-    /// Pale/pastel version of BlockStateToColorConverter, for filling an entire row's
+    /// Pale/pastel block-state colours, for filling an entire row's
     /// background rather than a thin accent bar. Selection/hover are layered on top
     /// of this in the reader window's ListBoxItem template, not mixed into these values.
     /// </summary>

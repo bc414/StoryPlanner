@@ -150,47 +150,10 @@ namespace StoryPlanner.Core.Migrations
                     b.ToTable("ConversationSubjectCoverageTracks");
                 });
 
-            modelBuilder.Entity("StoryPlanner.Core.GeminiEntry", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<bool>("IsAnalyzed")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Prompt")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<string>("ResponseHtml")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
-
-                    b.Property<DateTime>("Time")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("GeminiEntries");
-                });
-
-            modelBuilder.Entity("StoryPlanner.Core.Idea", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
-
-                    b.Property<int>("State")
-                        .HasColumnType("INTEGER");
-
-                    b.Property<string>("Text")
-                        .HasColumnType("TEXT");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Ideas");
-                });
+            // The GeminiEntries and Ideas entities were removed from the model 2026-08-02. Their
+            // TABLES are deliberately left in place — the v1 archive still holds their rows — so
+            // their snapshot entries are removed too, rather than left to make the next
+            // `migrations add` emit a DropTable for data nothing is meant to destroy.
 
             modelBuilder.Entity("StoryPlanner.Core.IgnoredConversation", b =>
                 {

@@ -13,7 +13,6 @@ public partial class FileManagerViewModel : ObservableObject
     private readonly ProjectLoader _projectLoader;
 
     [ObservableProperty] private bool _isProjectLoaded;
-    [ObservableProperty] private string _windowTitle = "Story Planner";
 
     public FileManagerViewModel(IStoryService storyService, ProjectLoader projectLoader)
     {
@@ -73,51 +72,6 @@ public partial class FileManagerViewModel : ObservableObject
         MessageBox.Show("Saved!", "Story Planner", MessageBoxButton.OK, MessageBoxImage.Information);
     }
 
-    [RelayCommand]
-    public void JsonToMarkdown()
-    {
-        var dialog = new OpenFileDialog
-        {
-            Title = "Open Story File",
-            Filter = "Google Takeout (*.json)|*.json"
-        };
-
-        if (dialog.ShowDialog() == true)
-        {
-            var exporter = new GeminiExporter();
-            exporter.ConvertJsonToMarkdownFiles(dialog.FileName, dialog.FileName + ".md");
-        }
-    }
-
-    [RelayCommand]
-    public async Task StoreGeminiPrompts()
-    {
-        var dialog = new OpenFileDialog { Title = "Open Gemini Prompts" };
-
-        if (dialog.ShowDialog() == true)
-        {
-            await _storyService.StoreGeminiEntriesAsync(dialog.FileName);
-            RefreshState();
-        }
-    }
-
-    [RelayCommand]
-    public void CopyAiContext()
-    {
-        if (!IsProjectLoaded) return;
-
-        try
-        {
-            string json = _storyService.GetAiContextJson(includeVerbatim: false);
-            Clipboard.SetText(json);
-            MessageBox.Show("Story Context copied to Clipboard!", "AI Ready");
-        }
-        catch (Exception ex)
-        {
-            MessageBox.Show($"Error: {ex.Message}");
-        }
-    }
-
     private void OnProjectLoaded()
     {
         _projectLoader.Load();
@@ -125,11 +79,5 @@ public partial class FileManagerViewModel : ObservableObject
         ProjectLoaded?.Invoke();
     }
 
-    private void RefreshState()
-    {
-        IsProjectLoaded = _storyService.IsProjectLoaded;
-        WindowTitle = _storyService.IsProjectLoaded
-            ? $"Story Planner - {_storyService.CurrentFilePath}"
-            : "Story Planner - No Project Loaded";
-    }
+    private void RefreshState() => IsProjectLoaded = _storyService.IsProjectLoaded;
 }

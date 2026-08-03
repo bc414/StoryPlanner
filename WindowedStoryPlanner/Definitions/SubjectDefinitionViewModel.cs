@@ -10,7 +10,6 @@ namespace WindowedStoryPlanner
     public partial class SubjectDefinitionViewModel : ObservableObject
     {
         SubjectDefinition _model;
-        private readonly IStoryService _storyService;
 
         public string SubjectType
         {
@@ -34,10 +33,9 @@ namespace WindowedStoryPlanner
             }
         }
 
-        public SubjectDefinitionViewModel(SubjectDefinition model, IStoryService storyService)
+        public SubjectDefinitionViewModel(SubjectDefinition model)
         {
             _model = model;
-            _storyService = storyService;
 
             SubjectType = _model.SubjectType;
         }

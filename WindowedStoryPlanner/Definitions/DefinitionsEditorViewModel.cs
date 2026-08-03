@@ -53,8 +53,6 @@ public partial class DefinitionsEditorViewModel : ObservableObject
 
     public IReadOnlyList<OwnerType> OwnerTypes { get; } = Enum.GetValues<OwnerType>();
     public IReadOnlyList<TrackType> TrackTypes { get; } = Enum.GetValues<TrackType>();
-    public IReadOnlyList<int?> FunctionKeyOptions { get; } =
-        new int?[] { null }.Concat(Enumerable.Range(1, 12).Cast<int?>()).ToList();
 
     public DefinitionsEditorViewModel(IStoryService storyService, IViewModelRegistry registry, IContentDeleter deleter)
     {
@@ -90,7 +88,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         var model = new SubjectDefinition { SubjectType = "NewType", DisplayOrder = nextOrder };
         _storyService.SubjectDefinitions.Add(model);
         await _storyService.SaveAsync();
-        SubjectDefinitions.Add(new SubjectDefinitionViewModel(model, _storyService));
+        SubjectDefinitions.Add(new SubjectDefinitionViewModel(model));
         RefreshAvailableSubjectTypes();
     }
 
@@ -152,7 +150,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         };
         _storyService.NoteTrackDefinitions.Add(model);
         await _storyService.SaveAsync();
-        NoteTrackDefinitions.Add(new NoteTrackDefinitionViewModel(model, _storyService, SubjectDefinitions));
+        NoteTrackDefinitions.Add(new NoteTrackDefinitionViewModel(model, SubjectDefinitions));
     }
 
     [RelayCommand]
@@ -172,7 +170,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         var model = new WorkPhase { Name = "New Phase", DisplayOrder = nextOrder };
         _storyService.WorkPhases.Add(model);
         await _storyService.SaveAsync();
-        WorkPhases.Add(new WorkPhaseViewModel(model, _storyService));
+        WorkPhases.Add(new WorkPhaseViewModel(model));
     }
 
     [RelayCommand]
@@ -203,7 +201,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         _storyService.NarrativePropertyDefinitions.Add(model);
         await _storyService.SaveAsync();
         NarrativePropertyDefinitions.Add(new NarrativePropertyDefinitionViewModel(
-            model, _storyService, SubjectDefinitions, WorkPhases));
+            model, SubjectDefinitions, WorkPhases));
     }
 
     [RelayCommand]
@@ -230,7 +228,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         await _storyService.SaveAsync();
 
         NarrativePropertyValueDefinitions.Add(new NarrativePropertyValueDefinitionViewModel(
-            model, _storyService, NarrativePropertyDefinitions));
+            model, NarrativePropertyDefinitions));
         // The entity editor's picker binds the other projection — keep both in step or a new value
         // will not appear in any dropdown until the project is reopened.
         _registry.AllNarrativePropertyValueDefinitions.Add(new NarrativePropertyValueViewModel(model));

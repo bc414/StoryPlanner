@@ -6,7 +6,6 @@ namespace WindowedStoryPlanner;
 public partial class ThemeViewModel : ObservableObject
 {
     private readonly Theme _model;
-    private readonly IStoryService _storyService;
 
     public Theme Model => _model;
 
@@ -24,9 +23,8 @@ public partial class ThemeViewModel : ObservableObject
         set => SetProperty(_model.Proposition, value, _model, (m, v) => m.Proposition = v);
     }
 
-    public ThemeViewModel(Theme model, IStoryService storyService)
+    public ThemeViewModel(Theme model)
     {
         _model       = model;
-        _storyService = storyService;
     }
 }

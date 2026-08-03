@@ -134,10 +134,6 @@ namespace WindowedStoryPlanner
                           .ToList());
         }
 
-        public string BadgeText => !string.IsNullOrWhiteSpace(Abbreviation)
-        ? Abbreviation
-        : (Name.Length > 3 ? Name.Substring(0, 3) : Name).ToUpper();
-
         public Brush BadgeBackground
         {
             get

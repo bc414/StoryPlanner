@@ -23,14 +23,5 @@ namespace WindowedStoryPlanner
         {
             InitializeComponent();
         }
-
-        private void SubjectCard_DoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            if (sender is ListBoxItem { DataContext: SubjectViewModel subject }
-                && DataContext is SubjectLibraryViewModel vm)
-            {
-                vm.OpenSubjectCommand.Execute(subject);
-            }
-        }
     }
 }

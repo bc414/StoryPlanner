@@ -24,8 +24,6 @@ public interface IStoryService : IDisposable
     ObservableCollection<SourceMaterial> SourceMaterials { get; }
     ObservableCollection<SourceMaterialPart> SourceMaterialParts { get; }
     ObservableCollection<NoteSourceReference> NoteSourceReferences { get; }
-    ObservableCollection<GeminiEntry> GeminiEntries { get; }
-    ObservableCollection<Idea> Ideas { get; }
     ObservableCollection<UiSetting> UiSettings { get; }
 
     ObservableCollection<Conversation> Conversations { get; }
@@ -41,7 +39,6 @@ public interface IStoryService : IDisposable
     Task CreateProjectAsync(string filePath);
     Task OpenProjectAsync(string filePath);
     Task SaveAsync();
-    Task StoreGeminiEntriesAsync(string file);
     /// <summary>Imports one content file. <paramref name="metaPath"/> is optional — pass null to
     /// import raw block text with no summaries.</summary>
     Task<ConversationImportResult> ImportConversationsAsync(string contentPath, string? metaPath);
@@ -99,7 +96,5 @@ public interface IStoryService : IDisposable
     /// OwnerType. Called by ContentDeleter before removing any note-owning entity.</summary>
     void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType);
 
-    string GetAiContextJson(bool includeVerbatim);
-    Task PurgeUnassignedNotesAsync();
     NoteTrackDefinition? GetNoteTrackDefinition(int id);
 }

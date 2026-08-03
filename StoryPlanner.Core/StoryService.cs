@@ -35,8 +35,6 @@ public class StoryService : IStoryService
     public ObservableCollection<SourceMaterialPart> SourceMaterialParts { get; private set; } = new();
     public ObservableCollection<NoteSourceReference> NoteSourceReferences { get; private set; } = new();
 
-    public ObservableCollection<GeminiEntry> GeminiEntries { get; private set; } = new();
-    public ObservableCollection<Idea> Ideas { get; private set; } = new();
     public ObservableCollection<UiSetting> UiSettings { get; private set; } = new();
 
     public ObservableCollection<Conversation> Conversations { get; private set; } = new();
@@ -50,34 +48,6 @@ public class StoryService : IStoryService
     public StoryService()
     {
         
-    }
-
-    public async Task StoreGeminiEntriesAsync(string file)
-    {
-        if (_context == null) return;
-        
-        using Stream stream = File.OpenRead(file);
-        using StreamReader reader = new StreamReader(stream);
-            
-        // Read file to string
-        string jsonContent = await reader.ReadToEndAsync();
-
-        // Deserialize with case-insensitive options just to be safe
-        JsonSerializerOptions options = new JsonSerializerOptions
-        {
-            PropertyNameCaseInsensitive = true
-        };
-
-        var entries = JsonSerializer.Deserialize<List<GeminiJsonReader>>(jsonContent, options);
-
-        var answers = GeminiEntry.FromJson(entries);
-        _context.GeminiEntries.AddRange(answers);
-        await SaveAsync();
-    }
-
-    public string GetAiContextJson(bool includeVerbatim)
-    {
-        return string.Empty;
     }
 
     // --- 1. NEW PROJECT ---
@@ -258,8 +228,6 @@ public class StoryService : IStoryService
         await _context.SourceMaterials.OrderBy(s => s.OrderIndex).LoadAsync();
         await _context.SourceMaterialParts.OrderBy(p => p.OrderIndex).LoadAsync();
         await _context.NoteSourceReferences.LoadAsync();
-        await _context.GeminiEntries.LoadAsync();
-        await _context.Ideas.LoadAsync();
         await _context.UiSettings.LoadAsync();
 
         await _context.Conversations.OrderBy(c => c.ConversationDate).LoadAsync();
@@ -290,9 +258,7 @@ public class StoryService : IStoryService
         SourceMaterials       = _context.SourceMaterials.Local.ToObservableCollection();
         SourceMaterialParts   = _context.SourceMaterialParts.Local.ToObservableCollection();
         NoteSourceReferences  = _context.NoteSourceReferences.Local.ToObservableCollection();
-        GeminiEntries   = _context.GeminiEntries.Local.ToObservableCollection();
-        Ideas           = _context.Ideas.Local.ToObservableCollection();
-        UiSettings      = _context.UiSettings.Local.ToObservableCollection();
+        UiSettings            = _context.UiSettings.Local.ToObservableCollection();
 
         Conversations                 = _context.Conversations.Local.ToObservableCollection();
         ConversationBlocks            = _context.ConversationBlocks.Local.ToObservableCollection();
@@ -405,14 +371,6 @@ public class StoryService : IStoryService
         var ignored = await _context.IgnoredConversations.ToListAsync();
         return ConversationSyncScanner.Scan([export], Conversations, ignored).Single();
     }
-
-    public async Task PurgeUnassignedNotesAsync()
-    {
-        if (_context == null) return;
-
-        //TODO: don't purge, but have the unassigned notes visible
-    }
-
 
     public void Dispose()
     {

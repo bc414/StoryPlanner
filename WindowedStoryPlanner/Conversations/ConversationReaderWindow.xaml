@@ -1,4 +1,4 @@
-<Window x:Class="WindowedStoryPlanner.ConversationReaderWindow"
+﻿<Window x:Class="WindowedStoryPlanner.ConversationReaderWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
@@ -20,9 +20,6 @@
     </Window.InputBindings>
 
     <Window.Resources>
-        <local:ConversationDerivedStateToColorConverter  x:Key="StateToColor"/>
-        <local:ConversationDerivedStateToLabelConverter  x:Key="StateToLabel"/>
-        <local:BlockStateToColorConverter                x:Key="BlockStateToColor"/>
         <local:BlockStateToRowBackgroundConverter        x:Key="BlockStateToRowBackground"/>
         <local:BoolToVisibilityConverter                 x:Key="BoolToVisConverter"/>
 

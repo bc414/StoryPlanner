@@ -69,11 +69,11 @@ public class ProjectLoader
         // --- Definitions first — subjects depend on AllSubjectDefinitionViewModels ---
         foreach (var m in _storyService.SubjectDefinitions.OrderBy(s => s.DisplayOrder))
             _registry.AllSubjectDefinitionViewModels.Add(
-                new SubjectDefinitionViewModel(m, _storyService));
+                new SubjectDefinitionViewModel(m));
 
         foreach (var m in _storyService.NoteTrackDefinitions)
             _registry.AllNoteTrackDefinitionViewModels.Add(
-                new NoteTrackDefinitionViewModel(m, _storyService, _registry.AllSubjectDefinitionViewModels));
+                new NoteTrackDefinitionViewModel(m, _registry.AllSubjectDefinitionViewModels));
 
         // Narrative property definitions belong in THIS block, not after the narrative elements.
         // Every SubjectViewModel / PlotPointViewModel / ChapterViewModel /
@@ -91,17 +91,17 @@ public class ProjectLoader
         // at construction. Same dependency shape as note tracks needing subject definitions above,
         // and stories needing to precede chapters below.
         foreach (var m in _storyService.WorkPhases.OrderBy(p => p.DisplayOrder))
-            _registry.AllWorkPhaseViewModels.Add(new WorkPhaseViewModel(m, _storyService));
+            _registry.AllWorkPhaseViewModels.Add(new WorkPhaseViewModel(m));
 
         foreach (var m in _storyService.NarrativePropertyDefinitions.OrderBy(p => p.DisplayOrder))
             _registry.AllNarrativePropertyDefinitionViewModels.Add(
                 new NarrativePropertyDefinitionViewModel(
-                    m, _storyService, _registry.AllSubjectDefinitionViewModels, _registry.AllWorkPhaseViewModels));
+                    m, _registry.AllSubjectDefinitionViewModels, _registry.AllWorkPhaseViewModels));
 
         foreach (var m in _storyService.NarrativePropertyValueDefinitions)
             _registry.AllNarrativePropertyValueDefinitionViewModels.Add(
                 new NarrativePropertyValueDefinitionViewModel(
-                    m, _storyService, _registry.AllNarrativePropertyDefinitionViewModels));
+                    m, _registry.AllNarrativePropertyDefinitionViewModels));
 
         // Sync UI-derived state on tab VMs that depend on definitions
         _definitions.Reload();
@@ -109,14 +109,14 @@ public class ProjectLoader
 
         // --- Themes ---
         foreach (var m in _storyService.Themes)
-            _registry.AllThemeViewModels.Add(new ThemeViewModel(m, _storyService));
+            _registry.AllThemeViewModels.Add(new ThemeViewModel(m));
 
         _themeLibrary.Reload();
 
         // --- Source Materials --- Works before Parts before Notes (Notes resolve citations
         // against both shared collections at construction time).
         foreach (var m in _storyService.SourceMaterials)
-            _registry.AllSourceMaterialViewModels.Add(new SourceMaterialViewModel(m, _storyService));
+            _registry.AllSourceMaterialViewModels.Add(new SourceMaterialViewModel(m));
 
         foreach (var m in _storyService.SourceMaterialParts)
             _registry.AllSourceMaterialPartViewModels.Add(new SourceMaterialPartViewModel(m, _storyService));

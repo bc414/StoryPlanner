@@ -18,7 +18,6 @@ namespace WindowedStoryPlanner;
 public partial class SubjectLibraryViewModel : ObservableObject
 {
     private readonly IContentFactory    _factory;
-    private readonly IContentDeleter    _deleter;
     private readonly IWindowManager     _windowManager;
     private readonly IViewModelRegistry _registry;
     private readonly IStoryService      _storyService;
@@ -35,14 +34,12 @@ public partial class SubjectLibraryViewModel : ObservableObject
 
     public SubjectLibraryViewModel(
         IContentFactory    factory,
-        IContentDeleter    deleter,
         IWindowManager     windowManager,
         IViewModelRegistry registry,
         IStoryService      storyService,
         AppSettings        appSettings)
     {
         _factory       = factory;
-        _deleter       = deleter;
         _windowManager = windowManager;
         _registry      = registry;
         _storyService  = storyService;
@@ -82,21 +79,6 @@ public partial class SubjectLibraryViewModel : ObservableObject
         // SubjectDefinitionId is stored directly on the group — no fragile string lookup needed
         var vm = await _factory.CreateSubjectAsync(group.SubjectDefinitionId);
         _windowManager.OpenSubjectWindow(vm);
-    }
-
-    [RelayCommand]
-    private void OpenSubject(SubjectViewModel subject) =>
-        _windowManager.OpenSubjectWindow(subject);
-
-    [RelayCommand]
-    private async Task DeleteSubject(SubjectViewModel subject)
-    {
-        if (!await _deleter.TryDeleteSubjectAsync(subject))
-            MessageBox.Show(
-                "Cannot delete a subject that still has notes or plot point links.",
-                "Delete Failed",
-                MessageBoxButton.OK,
-                MessageBoxImage.Warning);
     }
 
     [RelayCommand]

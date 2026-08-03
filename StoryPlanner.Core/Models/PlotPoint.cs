@@ -39,13 +39,4 @@ public class PlotPoint : INoteable
 
     public OwnerType OwnerType => OwnerType.PlotPoint;
 
-    public int GetTotalTextLength()
-    {
-        return GetCombinedText().Length;
-    }
-
-    public string GetCombinedText()
-    {
-        return string.Empty;
-    }
 }

@@ -91,9 +91,6 @@ public readonly record struct WorldDate
 
     public static WorldDate Event(WorldDatePoint at) => new(at);
 
-    /// <summary>True when either endpoint is still to be determined.</summary>
-    public bool IsPartial => Start is null || End is null;
-
     /// <summary>Earliest fractional year this date can touch; null when the start is TBD.</summary>
     public double? EarliestFraction => Start?.EarliestFraction;
 

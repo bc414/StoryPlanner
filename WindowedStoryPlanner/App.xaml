@@ -11,9 +11,7 @@
             </ResourceDictionary.MergedDictionaries>
 
             <local:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
-            <local:CanMoveToChapterConverter x:Key="TypeCheckConverter"/>
             <local:NullToVisibilityConverter x:Key="NullToVisibilityConverter"/>
-            <local:IsFloatingWindowConverter x:Key="IsFloatingWindowConverter"/>
 
             <!-- Picker button style: small icon button used by navigation pickers across all windows -->
             <Style x:Key="PickerButtonStyle" TargetType="Button">

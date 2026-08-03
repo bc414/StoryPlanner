@@ -335,24 +335,6 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         SelectedLink = link;
     }
 
-    // ── Link card selection ───────────────────────────────────────────────
-
-    private void LinkCards_SelectionChanged(object sender, SelectionChangedEventArgs e)
-    {
-        var newLink = LinkCardsListBox.SelectedItem as PlotPointSubjectLinkViewModel;
-        if (newLink == SelectedLink) return;
-
-        // The setter alone handles the OnWindowClosed/Opened pair — see the constructor note.
-        SelectedLink = newLink;
-
-        // Defer UpdateModeLayout so it runs after WPF finishes processing
-        // the current SelectionChanged event cycle. Without this deferral,
-        // replacing ItemsSource inside a SelectionChanged handler causes WPF
-        // to schedule its own deferred collection-reconciliation work that fires
-        // *after* our SelectedItem assignment, resetting selection to the first item.
-        Dispatcher.InvokeAsync(UpdateModeLayout, DispatcherPriority.Loaded);
-    }
-
     // ── Clear selected link (X button) ───────────────────────────────────
 
     private void ClearSelectedLink_Click(object sender, RoutedEventArgs e)

@@ -337,19 +337,68 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     /// <see cref="NoteTrackViewModel.DisplayOrder"/> and per-mode visibility. A full
     /// redistribution then handles reordering and hide/reappear in one pass, regardless
     /// of whether the tracks were built before or after the mode was known.
+    ///
+    /// No-ops when the mode is unchanged. UpdateModeLayout calls this on every layout pass —
+    /// including every selected-link change, where this element's mode is already correct —
+    /// and redistribution is the single most expensive thing this layer does: any remove/re-add
+    /// of a track VM makes its ItemsControl throw away and re-template that whole NoteTrackView,
+    /// sections and note views included. The partition is maintained incrementally between mode
+    /// changes (RebuildNoteTracks distributes on build; OnTrackHasNotesChanged moves single
+    /// tracks), so a same-mode call has nothing to recompute.
     /// </summary>
     public void SetEditorMode(EditorMode mode)
     {
+        if (_editorMode == mode) return;
+
         _editorMode = mode;
         foreach (var track in NoteTracks)
             track.EditorMode = mode;
 
-        PopulatedNoteTracks.Clear();
-        EmptyNoteTracks.Clear();
-        HiddenNoteTracks.Clear();
-        foreach (var track in NoteTracks)
-            DistributeTrack(track);
+        RedistributeTracks();
         RefreshIsFirstTrack();
+    }
+
+    /// <summary>
+    /// Brings the three distributed collections in line with the current mode by reconciling
+    /// each toward its desired content — removes, inserts, and Moves only where they differ —
+    /// instead of Clear + re-add. A Clear on a bound collection discards every generated
+    /// container, so a mode switch re-templated all ~40–60 NoteTrackViews even though a mode
+    /// change mostly reorders tracks (Move relocates the existing container) and re-buckets
+    /// only the few tracks the definition hides in one mode but not the other.
+    /// </summary>
+    private void RedistributeTracks()
+    {
+        var populated = new List<NoteTrackViewModel>();
+        var empty     = new List<NoteTrackViewModel>();
+        var hidden    = new List<NoteTrackViewModel>();
+
+        // OrderBy is stable, so ties on DisplayOrder keep NoteTracks order — the same result
+        // sequential InsertSorted calls produce on the rebuild path.
+        foreach (var track in NoteTracks.OrderBy(t => t.DisplayOrder))
+        {
+            if (!track.IsVisibleInCurrentMode) hidden.Add(track);
+            else if (track.HasNotes)           populated.Add(track);
+            else                               empty.Add(track);
+        }
+
+        Reconcile(PopulatedNoteTracks, populated);
+        Reconcile(EmptyNoteTracks,     empty);
+        Reconcile(HiddenNoteTracks,    hidden);
+    }
+
+    private static void Reconcile(
+        ObservableCollection<NoteTrackViewModel> target, List<NoteTrackViewModel> desired)
+    {
+        for (int i = target.Count - 1; i >= 0; i--)
+            if (!desired.Contains(target[i]))
+                target.RemoveAt(i);
+
+        for (int i = 0; i < desired.Count; i++)
+        {
+            int current = target.IndexOf(desired[i]);
+            if (current < 0)       target.Insert(i, desired[i]);
+            else if (current != i) target.Move(current, i);
+        }
     }
 
     /// <summary>

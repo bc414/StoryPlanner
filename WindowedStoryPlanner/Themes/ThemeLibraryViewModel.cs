@@ -48,7 +48,7 @@ public partial class ThemeLibraryViewModel : ObservableObject
         var model = new Theme { Name = "New Theme", Proposition = string.Empty };
         _storyService.Themes.Add(model);
         await _storyService.SaveAsync();
-        Themes.Add(new ThemeViewModel(model, _storyService));
+        Themes.Add(new ThemeViewModel(model));
     }
 
     [RelayCommand]

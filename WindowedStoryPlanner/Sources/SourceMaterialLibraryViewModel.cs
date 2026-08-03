@@ -1,4 +1,4 @@
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using StoryPlanner.Core;
 using System.Collections.ObjectModel;
@@ -115,7 +115,7 @@ public partial class SourceMaterialLibraryViewModel : ObservableObject
         };
         _storyService.SourceMaterials.Add(model);
         await _storyService.SaveAsync();
-        SourceMaterials.Add(new SourceMaterialViewModel(model, _storyService));
+        SourceMaterials.Add(new SourceMaterialViewModel(model));
     }
 
     [RelayCommand]

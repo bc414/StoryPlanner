@@ -2,31 +2,15 @@
 
 namespace WindowedStoryPlanner;
 
+/// <summary>
+/// The guarded deletes. Notes and PlotPointSubjectLinks are deliberately absent: both are
+/// deleted straight through <see cref="StoryPlanner.Core.IStoryService.DeleteNote"/> /
+/// <see cref="StoryPlanner.Core.IStoryService.DeleteLink"/> by their owning view models, which
+/// also raise the registry's mutation events. Duplicating those paths here (2026-08-02) only
+/// created a second, event-less way to do the same thing.
+/// </summary>
 public interface IContentDeleter
 {
-    /// <summary>
-    /// Deletes a note unconditionally from the service and registry.
-    /// </summary>
-    Task DeleteNoteAsync(NoteViewModel note);
-
-    /// <summary>
-    /// Deletes a PlotPointSubjectLink if it has no notes.
-    /// Returns false and takes no action if the precondition is not met.
-    /// </summary>
-    Task<bool> TryDeleteLinkAsync(PlotPointSubjectLinkViewModel link);
-
-    /// <summary>
-    /// Deletes a Subject if it has no notes and no remaining links.
-    /// Returns false and takes no action if the precondition is not met.
-    /// </summary>
-    Task<bool> TryDeleteSubjectAsync(SubjectViewModel subject);
-
-    /// <summary>
-    /// Deletes a PlotPoint if it has no notes and no remaining links.
-    /// Returns false and takes no action if the precondition is not met.
-    /// </summary>
-    Task<bool> TryDeletePlotPointAsync(PlotPointViewModel plotPoint);
-
     /// <summary>
     /// Deletes a Chapter if it has no notes.
     /// Its plot points are orphaned (ChapterId set to null) — not deleted.

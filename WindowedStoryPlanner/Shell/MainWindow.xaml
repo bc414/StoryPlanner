@@ -1,4 +1,4 @@
-<Window x:Class="WindowedStoryPlanner.MainWindow"
+﻿<Window x:Class="WindowedStoryPlanner.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:local="clr-namespace:WindowedStoryPlanner"
@@ -9,8 +9,6 @@
         Title="Mission Control" Height="900" Width="1200"
         WindowStartupLocation="CenterScreen" d:DataContext="{d:DesignInstance Type=local:ViewModelLocator}" WindowState="Maximized">
     <Window.Resources>
-        <local:UtcToLocalConverter x:Key="UtcToLocalConverter" />
-        <local:RecencyToColorConverter x:Key="RecencyToColorConverter" />
     </Window.Resources>
 
     <TabControl TabStripPlacement="Left" SelectedIndex="{Binding SelectedTabIndex}">

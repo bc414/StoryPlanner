@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Core;
@@ -13,18 +13,15 @@ namespace WindowedStoryPlanner
     public partial class NarrativePropertyDefinitionViewModel : ObservableObject
     {
         private readonly NarrativePropertyDefinition _model;
-        private readonly IStoryService _storyService;
         private readonly IReadOnlyList<SubjectDefinitionViewModel> _subjectDefinitions;
         private readonly IReadOnlyList<WorkPhaseViewModel> _workPhases;
 
         public NarrativePropertyDefinitionViewModel(
             NarrativePropertyDefinition model,
-            IStoryService storyService,
             IReadOnlyList<SubjectDefinitionViewModel> subjectDefinitions,
             IReadOnlyList<WorkPhaseViewModel> workPhases)
         {
             _model = model;
-            _storyService = storyService;
             _subjectDefinitions = subjectDefinitions;
             _workPhases = workPhases;
         }

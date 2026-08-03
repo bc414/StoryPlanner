@@ -29,9 +29,6 @@ public class AppDbContext : DbContext
     public DbSet<SourceMaterialPart> SourceMaterialParts { get; set; }
     public DbSet<NoteSourceReference> NoteSourceReferences { get; set; }
     
-    public DbSet<GeminiEntry> GeminiEntries { get; set; }
-    public DbSet<Idea> Ideas { get; set; }
-
     public DbSet<UiSetting> UiSettings { get; set; }
 
     public DbSet<Conversation> Conversations { get; set; }

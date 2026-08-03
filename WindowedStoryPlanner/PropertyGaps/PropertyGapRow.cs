@@ -24,6 +24,5 @@ public sealed class PropertyGapGroup
     public required int TotalOwners { get; init; }
     public required IReadOnlyList<PropertyGapRow> Gaps { get; init; }
 
-    public int AssignedCount => TotalOwners - Gaps.Count;
     public string Header => $"{PropertyName} — {Gaps.Count} of {TotalOwners} unset";
 }

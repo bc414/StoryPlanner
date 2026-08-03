@@ -11,7 +11,6 @@ namespace WindowedStoryPlanner
     {
         private readonly NoteTrackDefinition _model;
         public NoteTrackDefinition Model => _model;
-        private readonly IStoryService _storyService;
         private readonly IReadOnlyList<SubjectDefinitionViewModel> _subjectDefinitions;
 
         public int Id           => _model.Id;
@@ -135,11 +134,9 @@ namespace WindowedStoryPlanner
 
         public NoteTrackDefinitionViewModel(
             NoteTrackDefinition model,
-            IStoryService storyService,
             IReadOnlyList<SubjectDefinitionViewModel> subjectDefinitions)
         {
             _model = model;
-            _storyService = storyService;
             _subjectDefinitions = subjectDefinitions;
         }
     }

@@ -299,7 +299,7 @@ public partial class NoteViewModel : ObservableObject
         var model = new SourceMaterial { Name = name, Description = string.Empty, OrderIndex = _sourceMaterials.Count };
         _storyService.SourceMaterials.Add(model);
         await _storyService.SaveAsync();          // Id assigned here — must precede any use of it
-        var vm = new SourceMaterialViewModel(model, _storyService);
+        var vm = new SourceMaterialViewModel(model);
         _sourceMaterials.Add(vm);
         return vm;
     }

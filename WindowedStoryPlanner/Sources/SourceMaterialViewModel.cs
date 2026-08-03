@@ -1,4 +1,4 @@
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Core;
 
 namespace WindowedStoryPlanner;
@@ -6,7 +6,6 @@ namespace WindowedStoryPlanner;
 public partial class SourceMaterialViewModel : ObservableObject
 {
     private readonly SourceMaterial _model;
-    private readonly IStoryService _storyService;
 
     public SourceMaterial Model => _model;
 
@@ -24,9 +23,8 @@ public partial class SourceMaterialViewModel : ObservableObject
         set => SetProperty(_model.Description, value, _model, (m, v) => m.Description = v);
     }
 
-    public SourceMaterialViewModel(SourceMaterial model, IStoryService storyService)
+    public SourceMaterialViewModel(SourceMaterial model)
     {
         _model = model;
-        _storyService = storyService;
     }
 }

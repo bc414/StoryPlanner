@@ -248,8 +248,6 @@ public static class DefinitionsMarkdownExporter
 
         return sb.ToString();
     }
-
-    private static string BoolLabel(bool value) => value ? "Yes" : "No";
 }
 
 /// <summary>

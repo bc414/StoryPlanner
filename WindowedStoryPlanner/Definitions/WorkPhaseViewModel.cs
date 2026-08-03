@@ -1,4 +1,4 @@
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Core;
 
 namespace WindowedStoryPlanner
@@ -9,12 +9,10 @@ namespace WindowedStoryPlanner
     public partial class WorkPhaseViewModel : ObservableObject
     {
         private readonly WorkPhase _model;
-        private readonly IStoryService _storyService;
 
-        public WorkPhaseViewModel(WorkPhase model, IStoryService storyService)
+        public WorkPhaseViewModel(WorkPhase model)
         {
             _model = model;
-            _storyService = storyService;
         }
 
         public int Id => _model.Id;
