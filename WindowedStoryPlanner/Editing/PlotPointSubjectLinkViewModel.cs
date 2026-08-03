@@ -99,11 +99,11 @@ namespace WindowedStoryPlanner
         [RelayCommand(CanExecute = nameof(CanDelete))]
         private void DeleteSelf()
         {
-            var modelToRemove = _storyService.PlotPointsSubjectLinks
-                .FirstOrDefault(l => l.Id == _link.Id);
-            if (modelToRemove is null) return;
+            if (HasNotes) return;
 
-            _storyService.PlotPointsSubjectLinks.Remove(modelToRemove);
+            // DeleteLink also removes the link's owned NarrativePropertyValue rows — the value
+            // table has no OwnerType, so a recycled link id would otherwise inherit them.
+            _storyService.DeleteLink(_link.Id);
 
             var vmToRemove = _viewModelRegistry.AllPlotPointSubjectLinkViewModels
                 .FirstOrDefault(vm => vm.Id == _link.Id);
@@ -153,19 +153,30 @@ namespace WindowedStoryPlanner
             // Re-evaluate CanDelete when notes are added/removed or mutated.
             // Guard against bulk load: AllNoteViewModels grows during load but HasNotes
             // reads from _storyService.Notes (pre-populated), so no-op until story is settled.
-            _viewModelRegistry.AllNoteViewModels.CollectionChanged += (_, _) =>
-            {
-                if (!_viewModelRegistry.IsStoryLoaded) return;
-                OnPropertyChanged(nameof(HasNotes));
-                DeleteSelfCommand.NotifyCanExecuteChanged();
-            };
-            _viewModelRegistry.NoteViewModelMutated += args =>
-            {
-                if (args.OwnerId != _link.Id || args.OwnerType != OwnerType.PlotPointSubjectLink)
-                    return;
-                OnPropertyChanged(nameof(HasNotes));
-                DeleteSelfCommand.NotifyCanExecuteChanged();
-            };
+            _viewModelRegistry.AllNoteViewModels.CollectionChanged += OnNotesChangedForCanDelete;
+            _viewModelRegistry.NoteViewModelMutated += OnNoteMutatedForCanDelete;
+        }
+
+        private void OnNotesChangedForCanDelete(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        {
+            if (!_viewModelRegistry.IsStoryLoaded) return;
+            OnPropertyChanged(nameof(HasNotes));
+            DeleteSelfCommand.NotifyCanExecuteChanged();
+        }
+
+        private void OnNoteMutatedForCanDelete(NoteMutatedArgs args)
+        {
+            if (args.OwnerId != _link.Id || args.OwnerType != OwnerType.PlotPointSubjectLink)
+                return;
+            OnPropertyChanged(nameof(HasNotes));
+            DeleteSelfCommand.NotifyCanExecuteChanged();
+        }
+
+        public override void Dispose()
+        {
+            _viewModelRegistry.AllNoteViewModels.CollectionChanged -= OnNotesChangedForCanDelete;
+            _viewModelRegistry.NoteViewModelMutated -= OnNoteMutatedForCanDelete;
+            base.Dispose();
         }
 
         private void SubscribePlotPoint()

@@ -18,6 +18,13 @@
 > see its entry in Section D for what changed, including how it also delivered 053 blocks 262-263's
 > conditional gap-track display.
 
+> **Note added 2026-08-02.** A foundation-hardening pass (delete-path unification, PlanIntegrity
+> extension, lifecycle-leak fixes) shipped **F6** (the Definitions-tab delete guards) and updated
+> this document where the code had moved: the priority table now agrees with the body on C3, B3,
+> and G1 (it had drifted); B1's "DataOps not yet applied to real files" line was stale (applied
+> 2026-07-30); C2's commented-out `IsIncorporated` scaffold and the legacy `StoryFileService.cs`
+> were deleted outright.
+
 > **Note added 2026-07-31.** This document's "SourceMaterial tagging — done" claim (below and in
 > Section G) was **shipped in code and dark in data**: the June 2026 rework built the full UI
 > (Sources tab, per-note picker, cross-cut detail window) but the migration defaulted
@@ -44,20 +51,22 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | C2 | Stage-0 "accumulation" inbox / `IsIncorporated` flag | 🔴 | 053, 038/039, 015 | Model |
 | D1 | POV / focal-character designation on `PlotPoint` | 🟢 | 015, 019, 053 | Model |
 | D2 | `GapType` enum + perception-gap scene fields | 🔴 | 019, 015, 053, 038/039 | Model |
-| B3 | Per-entity completion / scene-readiness dashboard | 🔴 | 019, 038/039 | View |
+| B3 | Per-entity completion dashboard (rollup 🟢; readiness *scoring* stays unbuilt on purpose) | 🟡 | 019, 038/039 | View |
 | E1 | Theme dialectical model (antithesis + Support/Counter/Refutation) | 🔴 | 053 | Model |
 | E2 | Subject clusters surfaced in UI (`SubjectCluster` orphaned) | 🔴 | 077, 053 | Model+View |
 | E3 | Per-mode track *visibility/collapse* (not just ordering) | 🟢 | 077 | Model |
 | E4 | "Synthesizes Links" source-vs-aggregate track flag | 🔴 | 077 | Model |
 | E5 | Chapter primary-thread spine / chapter-subject link tracks | 🔴 | 015, 053 | Model |
-| C3 | `ValidationTier` opt-in enforcement system | 🔴 | 038/039 | Model |
+| C3 | `ValidationTier` — shipped as `WorkPhase` rows + gating, NOT an enum; do not build one | 🟢 | 038/039 | Model |
 | C4 | `LastRevisedDate` / revision tracking on notes | 🔴 | 038/039 | Model |
 | B4 | Cross-thread "synchronized ratchet" chapter view | 🔴 | 015 | View |
 | F0 | Conversation pipeline: cut suggested tracks, summaries optional | 🟢 | (Brian) | Model + UX |
 | F1 | Conversation Reader: per-block subject mentions | 🔴 | (spec) | Model |
 | F2 | Conversation Reader: cross-conversation subject view | 🔴 | (spec) | View |
 | F3 | Conversation Reader: bulk multi-select state ops | 🟢 | (spec) | UX |
-| G1 | Session export presets (degree-of-separation scoping) | 🟡 | 019 | Mostly done |
+| F5 | Narrative properties activated (political axes on Civilizational Systems) | 🟢 | (conv:25) | Model + UX |
+| F6 | Definitions-tab delete guards (subject/track definitions, themes) | 🟢 | (audit) | Model |
+| G1 | Session export presets — remainder declined by Brian 2026-07-30 | ⚪ | 019 | Resolved |
 
 ---
 
@@ -97,12 +106,13 @@ until 2026-07-31). Viewport persistence shipped 2026-07-31 via a new `UiSettings
 table *inside the `.storyplan`* — Brian's explicit mechanism choice over the
 `%LOCALAPPDATA%` JSON the timeline backlog had proposed ("settings … contained in the sqlite
 db"); zoom, center year, and the theater/era collapse sets restore on load
-(`Core/Timeline/TimelineViewState.cs`, debounced writes through `SaveAsync`). Still
-outstanding: the DataOps ops actually being applied to the real files (rehearsed on a copy
-only — Brian's call).
+(`Core/Timeline/TimelineViewState.cs`, debounced writes through `SaveAsync`). The DataOps ops
+were applied to the live v2 file on Brian's instruction the morning of 2026-07-30 (360 notes
+converted — see `docs/TIMELINE-IMPLEMENTATION-DECISIONS.md`); an earlier revision of this entry
+still called that outstanding, which was stale from 2026-07-30 to 2026-08-02.
 
 **B2 — 🟢 Global entity search.** *(Shipped 2026-07-30.)* The "Global Search" tab in
-[MainWindow.xaml](WindowedStoryPlanner/Shell/MainWindow.xaml#L66-L68) now hosts a real
+[MainWindow.xaml](WindowedStoryPlanner/Shell/MainWindow.xaml) now hosts a real
 `GlobalSearchView`/`GlobalSearchViewModel` (`WindowedStoryPlanner/Search/`), backed by a new
 Pure-tier-tested matcher, `StoryPlanner.Core.EntitySearch`
 (`StoryPlanner.Core/Search/EntitySearch.cs`). It searches `Subject.Name/Description/Abbreviation`,
@@ -141,7 +151,7 @@ tests pinning that as intentional. Story is out of scope (no `OwnerType`, no det
 
 *Not a gap:* the Reader Prior Belief tracks are scene-link scoped, so a displaced subject-level `World Truth` note cannot be *moved* into one. It is rewritten against the scene where the belief updates, and the Garden Note holds the audit trail. That is the method working as designed.
 
-**C2 — 🔴 Stage-0 "accumulation" inbox / `IsIncorporated` flag.** A pre-structural inbox for raw hypotheses/research directives distinct from Stage-1 truth, tracked by an `IsIncorporated` marker (038/039 P23-25, 053 blocks 21-24, 015). **Concrete artifact:** the flag was scaffolded and abandoned — `IsIncorporated`/`NeedsFurtherAnalysis` appear only as **commented-out dead code** in [StoryService.cs:283-284](StoryPlanner.Core/StoryService.cs#L283-L284). `Note` has no such field today.
+**C2 — 🔴 Stage-0 "accumulation" inbox / `IsIncorporated` flag.** A pre-structural inbox for raw hypotheses/research directives distinct from Stage-1 truth, tracked by an `IsIncorporated` marker (038/039 P23-25, 053 blocks 21-24, 015). The flag was scaffolded and abandoned — it survived only as commented-out dead code in `StoryService.SaveAsync`'s stats block until that block was deleted outright on 2026-08-02. `Note` has no such field today.
 
 **C3 — 🟢 `ValidationTier` opt-in enforcement — shipped 2026-07-31 as data, not an enum.** The 019-block-123 design (a `ValidationTier` enum: None / StructuralRecord / ExperienceDesign / SceneBlueprint) was superseded rather than built: the tiers are `WorkPhase` **rows** — configurable, reorderable, named by Brian — and `NarrativePropertyDefinition.GatingWorkPhaseId` (nullable, null = never gates) names the phase at which an unset value is reported. Same opt-in property the enum was for, reached by data entry instead of a migration, consistent with the Type Object rule the rest of the configuration layer follows. Two differences from the transcript design, both deliberate: **it never blocks** (`CanPromoteToConfirmed` is untouched — the report is the whole feature), and a phase's own completion criteria are note-state counts (`RequiresZeroFlaggedNotes` / `RequiresZeroUnsetNotes`) rather than a per-entity profile. Do not add a `ValidationTier` enum.
 
@@ -157,7 +167,7 @@ This is the biggest *conceptual* body of work in the transcripts (esp. 019, the 
 
 **D2 — 🔴 `GapType` enum + perception-gap fields.** `GapType` (Ironic / Tragic / Closing / Aligned) was repeatedly specified to stay a **discrete enum field**, not a note (019 blocks 18/37/65-69). Also the named field/track set: `POVBelief`, `POVReaderPerception`, `ReaderState`, `FIDAnchors`, `Stakes`, `Outcome`, `ArcStatement`, `StructuralTruth`, `EvidenceDeposited`, `ReaderHypothesis`, plus `RevealLayer`/`TLTTVisibility` link enums (015 blocks 778/2467). None exist in code (`grep GapType|POVBelief|ReaderState|RevealLayer` → transcripts/`ModelClasses.txt` only). Decide per item: promote to a discrete field vs. seed as a `NoteTrackDefinition` row.
 
-**D-note — rich PlotPoint metadata** (`DraftStatus`, `CoreDriver`, `TensionPhase`, `ConflictType`, `Presentation`) is assumed throughout 019 but appears only in legacy `StoryFileService.cs` import parsing, not on the live `PlotPoint`. Largely superseded by the payloads-as-notes decision; flag only if completion-signals (B3) need `DraftStatus`.
+**D-note — rich PlotPoint metadata** (`DraftStatus`, `CoreDriver`, `TensionPhase`, `ConflictType`, `Presentation`) is assumed throughout 019 but never existed on the live `PlotPoint` — its only trace was commented-out parsing in the legacy `StoryFileService.cs`, deleted 2026-08-02. Largely superseded by the payloads-as-notes decision; flag only if completion-signals (B3) need `DraftStatus`.
 
 ---
 
@@ -180,13 +190,13 @@ the per-mode order fields).
 
 **E4 — 🔴 "Synthesizes Links" flag.** Distinguish fill-first source-of-truth tracks (Ontology/History) from tracks that aggregate upward from link notes — a suggested `SynthesizesLinks` boolean (077 blocks 26-28). No such field; `CanEditInAuditMode` only loosely proxies it.
 
-**E5 — 🔴 Chapter primary-thread spine / chapter-subject link tracks.** Mark each chapter's primary narrative thread (015 block 1717) and/or add a Chapter↔Subject link scope with its own tracks (053 block 69). `Chapter` remains `Id/Title/OrderIndex`; no chapter-subject junction.
+**E5 — 🔴 Chapter primary-thread spine / chapter-subject link tracks.** Mark each chapter's primary narrative thread (015 block 1717) and/or add a Chapter↔Subject link scope with its own tracks (053 block 69). `Chapter` remains a plain row (`Id/Title/StoryId/OrderIndex` — the `StoryId` arrived with A1); no primary-thread field and no chapter-subject junction.
 
 ---
 
 ## F. Conversation Reader — spec vs. build
 
-The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-SPEC.md)) is **substantially implemented**: three-column reader window, `BlockState` context menu **and** U/S/F/D keyboard shortcuts ([ConversationReaderWindow.xaml.cs:57-71](WindowedStoryPlanner/Conversations/ConversationReaderWindow.xaml.cs#L57-L71)), WebView2 markdown rendering, folder import, derived conversation states, and dashboard stats (`ConversationLibraryViewModel`). Outstanding spec items:
+The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-SPEC.md)) is **substantially implemented**: three-column reader window, `BlockState` context menu **and** U/S/F/D keyboard shortcuts ([ConversationReaderWindow.xaml.cs](WindowedStoryPlanner/Conversations/ConversationReaderWindow.xaml.cs)), WebView2 markdown rendering, folder import, derived conversation states, and dashboard stats (`ConversationLibraryViewModel`). Outstanding spec items:
 
 - **F0 — 🟢 Pipeline redesign: AI-suggested tracks cut, summaries made optional.** *(Shipped 2026-07-31.)*
   The redesign F4 was blocked on. Two changes, both irreversible in intent:
@@ -236,17 +246,19 @@ The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-S
   line that matters is **never derive or propose a value** — that would be importing analysis.
   Counting, grouping, and sorting authored data is presentation, and the app already sorts subjects
   by unconfirmed count in archive mode.
-- **F6 — 🔴 The Definitions tab's *existing* deletes have no guards.** Noticed 2026-07-31 while
-  adding guards for the new rows, and deliberately left alone rather than fixed in passing.
-  `DefinitionsEditorViewModel.DeleteSubjectDefinition` and `DeleteNoteTrackDefinition` remove a
-  definition row directly and never consult `ContentDeleter` — deleting a `SubjectDefinition`
-  silently orphans every subject and every track pointing at it, and deleting a
-  `NoteTrackDefinition` orphans its notes. `PlanIntegrity` would report the wreckage afterwards;
-  nothing prevents it. The fix is the shape now used by the narrative-property deletes: id-based
-  predicates in `ContentIntegrity`, a `TryDelete*Async` wrapper that refuses, and a status line so
-  the refusal is visible. Low urgency — these are rarely-used destructive buttons on a
-  configuration screen — but it is a real hole in the referential-integrity story, not an
-  accepted cost.
+- **F6 — 🟢 Definitions-tab delete guards — shipped 2026-08-02, in exactly the shape this entry
+  prescribed.** `DeleteSubjectDefinition` and `DeleteNoteTrackDefinition` now route through
+  `ContentDeleter` (`TryDeleteSubjectDefinitionAsync` / `TryDeleteNoteTrackDefinitionAsync`) with
+  id-based predicates in `ContentIntegrity` (`SubjectDefinitionHasDependents`,
+  `NoteTrackDefinitionHasNotes`) and a status line on the Subjects & Tracks tab so a refusal is
+  visible. The same pass guarded `DeleteTheme` (`ThemeHasNotes` — `Note.ThemeId` had nothing
+  protecting it), rewired the live note- and link-delete paths through the Core cascades
+  (`StoryService.DeleteNote` now removes `NoteSourceReference` rows; `DeleteLink` removes owned
+  `NarrativePropertyValue` rows), moved Theater/Pivot deletion into `ContentDeleter`, and taught
+  `PlanIntegrity` to see the orphan classes these paths used to create (`note.track_missing`,
+  `note.theme_missing`, `subject.definition_missing`, sentinel-aware theater/story checks, and
+  `conversationblock.conversation_missing`). All predicate + cascade behavior is covered in
+  `ContentIntegrityTests`, `StoryServiceTests`, and `PlanIntegrityTests`.
 
 ---
 

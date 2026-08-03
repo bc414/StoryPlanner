@@ -25,6 +25,7 @@ public partial class TimelineViewModel : ObservableObject
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _registry;
     private readonly IWindowManager _windowManager;
+    private readonly IContentDeleter _deleter;
 
     // Layout constants (pixels). Marker/glyph height is FIXED at every zoom — an event asserts
     // position, not extent; only condition bars scale with the year axis.
@@ -54,11 +55,13 @@ public partial class TimelineViewModel : ObservableObject
     private readonly HashSet<int> _collapsedTheaters = [];
     private readonly HashSet<string> _collapsedEras = [];
 
-    public TimelineViewModel(IStoryService storyService, IViewModelRegistry registry, IWindowManager windowManager)
+    public TimelineViewModel(IStoryService storyService, IViewModelRegistry registry,
+        IWindowManager windowManager, IContentDeleter deleter)
     {
         _storyService = storyService;
         _registry = registry;
         _windowManager = windowManager;
+        _deleter = deleter;
         _registry.StoryLoaded += () => { LoadPersistedViewState(); Rebuild(); RebuildSidePanels(); };
 
         _viewStateSaveTimer = new DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
@@ -70,9 +73,9 @@ public partial class TimelineViewModel : ObservableObject
     }
 
     // ── Viewport persistence ────────────────────────────────────────────────────
-    // One UiSettings row keyed by TimelineViewState.UiSettingKey. Saves are debounced
-    // (SaveAsync also writes the .md/_stats.csv exports, so never save per scroll tick);
-    // at most the last few seconds of scrolling are lost on an abrupt close.
+    // One UiSettings row keyed by TimelineViewState.UiSettingKey. Saves are debounced —
+    // never save per scroll tick; at most the last few seconds of scrolling are lost
+    // on an abrupt close.
 
     private readonly DispatcherTimer _viewStateSaveTimer;
     private string _lastSavedViewState = "";
@@ -1013,10 +1016,8 @@ public partial class TimelineViewModel : ObservableObject
     private async Task DeleteTheater(TheaterRow? row)
     {
         if (row is null) return;
-        // Orphan members back to "(Unplaced)" (sentinel 0) — never refuse, never cascade.
-        foreach (var s in _storyService.Subjects.Where(s => s.TheaterId == row.Theater.Id)) s.TheaterId = 0;
-        foreach (var p in _storyService.PlotPoints.Where(p => p.TheaterId == row.Theater.Id)) p.TheaterId = 0;
-        _storyService.Theaters.Remove(row.Theater);
+        // ContentDeleter orphans members back to "(Unplaced)" (sentinel 0) and saves.
+        await _deleter.DeleteTheaterAsync(row.Theater);
         await PersistAndRebuild();
     }
 
@@ -1048,7 +1049,13 @@ public partial class TimelineViewModel : ObservableObject
     [RelayCommand]
     private async Task AddPivot()
     {
-        if (!int.TryParse(NewPivotYearText.Replace("BLB", "-").Trim(), out var year)) return;
+        // Accept "-300", "BLB300", and the documented "300 BLB" suffix notation alike.
+        var text = NewPivotYearText.Trim();
+        bool blb = text.Contains("BLB", StringComparison.OrdinalIgnoreCase);
+        var digits = text.Replace("BLB", "", StringComparison.OrdinalIgnoreCase).Trim();
+        if (!int.TryParse(digits, out var year)) return;
+        if (blb) year = -Math.Abs(year);
+
         _storyService.Pivots.Add(new Pivot { Year = year, Name = NewPivotName });
         NewPivotYearText = "";
         NewPivotName = "";
@@ -1058,7 +1065,7 @@ public partial class TimelineViewModel : ObservableObject
     [RelayCommand]
     private async Task DeletePivot(Pivot pivot)
     {
-        _storyService.Pivots.Remove(pivot);
+        await _deleter.DeletePivotAsync(pivot);
         await PersistAndRebuild();
     }
 }

@@ -19,15 +19,22 @@ public partial class ThemeLibraryViewModel : ObservableObject
     private readonly IStoryService _storyService;
     private readonly IViewModelRegistry _registry;
     private readonly IWindowManager _windowManager;
+    private readonly IContentDeleter _deleter;
 
     // Registry-owned collection — exposed as passthrough for XAML binding
     public ObservableCollection<ThemeViewModel> Themes => _registry.AllThemeViewModels;
 
-    public ThemeLibraryViewModel(IStoryService storyService, IViewModelRegistry registry, IWindowManager windowManager)
+    /// <summary>Status line — a refused delete is otherwise silent.</summary>
+    [ObservableProperty]
+    private string _themeStatus = string.Empty;
+
+    public ThemeLibraryViewModel(IStoryService storyService, IViewModelRegistry registry,
+        IWindowManager windowManager, IContentDeleter deleter)
     {
         _storyService  = storyService;
         _registry      = registry;
         _windowManager = windowManager;
+        _deleter       = deleter;
     }
 
     /// <summary>
@@ -47,9 +54,10 @@ public partial class ThemeLibraryViewModel : ObservableObject
     [RelayCommand]
     private async Task DeleteTheme(ThemeViewModel vm)
     {
-        _storyService.Themes.Remove(vm.Model);
-        Themes.Remove(vm);
-        await _storyService.SaveAsync();
+        ThemeStatus = await _deleter.TryDeleteThemeAsync(vm)
+            ? string.Empty
+            : $"Cannot delete \"{vm.Name}\" — notes are tagged with it. Untag them first " +
+              "(open the theme window to see every tagged note).";
     }
 
     [RelayCommand]

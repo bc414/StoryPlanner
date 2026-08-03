@@ -109,10 +109,13 @@ Prefer this over a comment. A comment goes stale; a test fails.
   resolution is hand-written and a wrong join returns plausible-looking wrong data.
 - **Mechanical parsers** — `WorldDate`, and any future free-text field. Especially the
   *unparseable* case: the rule is flag, never guess.
-- **Graph traversal and absence.** "This subject has no links" is information (221 of 263 real
-  subjects have none); a tool that silently omits the section is wrong.
+- **Graph traversal and absence.** "This subject has no links" is information — most real
+  subjects have none (`get_stats` for the live ratio); a tool that silently omits the section
+  is wrong.
 - **Cache invalidation.** See above.
-- **Guard predicates that stand in for database constraints** — once they're reachable.
+- **Guard predicates and cascades that stand in for database constraints** — the
+  `ContentIntegrity` predicates and the `StoryService.DeleteNote`/`DeleteLink` cascades. These
+  ARE the foreign keys this schema doesn't have.
 
 **Don't test these:**
 
@@ -120,33 +123,25 @@ Prefer this over a comment. A comment goes stale; a test fails.
   particular way; otherwise every wording improvement is a test failure.
 - **EF Core's own behavior.** Migrations applying, `Id` assignment on save, `DbSet.Local`
   tracking — that's the framework's test suite.
-- **Stubs.** `GetMarkdown()`, `GetAiContextJson()`, `PurgeUnassignedNotesAsync()` all return
-  empty or do nothing deliberately. A test asserting "returns empty" locks in an accident.
+- **Stubs.** `GetAiContextJson()` and `PurgeUnassignedNotesAsync()` return empty / do nothing
+  deliberately. A test asserting "returns empty" locks in an accident.
 - **Deliberately-rejected features.** `FEATURE-AUDIT.md`'s ⚪ list is not a to-do list.
 
-## Known gap: the WPF layer is not covered, and why
+## Known gap: the WPF layer is not covered, and what was carved out of it
 
-`ContentDeleter` is the referential-integrity system — with no foreign keys in the schema, its
-`TryDelete*` guards are the only thing preventing orphaned rows. It is the highest-value untested
-code in the repository.
+The deletion story was carved OUT of this gap on 2026-08-02, by exactly the production refactor
+this section used to ask for: the guard predicates operate on ids in `ContentIntegrity` (Core),
+the unconditional cascades live in `StoryService.DeleteNote`/`DeleteLink`, and both are
+fixture-tested (`ContentIntegrityTests`, `StoryServiceTests`) — `ContentDeleter`'s methods are
+now thin wrappers whose only untested work is registry sync.
 
-It is untested because its methods take **view models**, and constructing one
-(`PlotPointSubjectLinkViewModel`, `SubjectViewModel`) requires a six-dependency graph
-(`IViewModelRegistry`, `IStoryService`, `IContentFactory`, `AppSettings`, `ExportService`,
-sometimes `IWindowManager`) *and* the constructors do real work — `InitializeTracksAndProperties()`,
-and `BuildLinkView()` when the registry reports a loaded story. Standing that up is the
-"spin up the world" cost the tier split exists to avoid.
-
-**What would unlock it** is a small production refactor, not a test trick: extract the guard
-predicates to operate on ids rather than view models —
-
-```csharp
-bool HasNotes(int ownerId, OwnerType ownerType);   // pure, testable against a fixture
-```
-
-— leaving `TryDeleteLinkAsync` as a thin wrapper. That change is worth doing when the deletion
-logic is next touched. Until then this is a **known, deliberate gap**; do not paper over it by
-mocking `IStoryService` (see above) or by asserting on a view model built with null dependencies.
+What remains untested is the WPF layer proper: view-model composition (constructing a
+`SubjectViewModel` needs a six-dependency graph and the constructors do real work), data
+binding, `ICollectionView` filtering, drag-drop, dispatcher behavior, and the editor lifecycle
+(window open/close teardown). That is a **known, deliberate gap**; do not paper over it by
+mocking `IStoryService` (see above) or by asserting on a view model built with null
+dependencies. If it ever earns automated coverage, that is the `tests/StoryPlanner.App.Tests`
+project described in the tier table.
 
 ## The third tier is Brian: WPF verification is a handoff (adopted 2026-07-31)
 
@@ -170,9 +165,11 @@ seizes the machine, and the window appearing is already the handoff signal.
    ./WindowedStoryPlanner/bin/Debug/net10.0-windows/WindowedStoryPlanner.exe "$SCRATCH/testdb/TLTT v2 TEST.storyplan"
    ```
    **Copy the `-wal` and `-shm` too** — the file is in WAL mode, so the main file alone is a stale
-   snapshot. Never launch against a Desktop file: `OpenProjectAsync` runs `MigrateAsync()` in place
-   with no backup and `SaveAsync()` writes `.md`/`_stats.csv` litter. Avoid "archive" in the copy's
-   filename unless you want `AppSettings.IsArchiveMode` (it is set from the filename).
+   snapshot. Never launch against a Desktop file: `OpenProjectAsync` runs `MigrateAsync()` in
+   place (it VACUUM-INTO-backs-up first and refuses if the backup fails — 2026-08-02 — but a
+   test session still has no business rewriting Brian's real file), and the app saves on exit.
+   Avoid "archive" in the copy's filename unless you want `AppSettings.IsArchiveMode` (it is set
+   from the filename).
    Stage a *second* copy when the change touches project loading — switching files is how the
    `CollectionChanged` Reset class of bug shows itself.
 3. **Stop.** Post a short numbered checklist: what to click, what to expect, why. The app window

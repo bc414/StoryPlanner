@@ -14,7 +14,7 @@ using System.Windows;
 
 namespace WindowedStoryPlanner;
 
-public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, IEditorModeAware
+public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, IEditorModeAware, IDisposable
 {
     protected readonly IStoryService _storyService;
     protected readonly IViewModelRegistry _viewModelRegistry;
@@ -117,8 +117,13 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         var entityName = GetEntityDisplayName();
         var path       = _exportService.WriteToFile(markdown, "", $"{entityName}-scope{QuickExportScope}");
         QuickExportStatus = $"Saved + copied  ({Path.GetFileName(path)})";
-        _ = Task.Delay(5000).ContinueWith(_ =>
-            Application.Current.Dispatcher.Invoke(() => QuickExportStatus = string.Empty));
+        ClearQuickExportStatusAfterDelay().FireAndForget();
+    }
+
+    private async Task ClearQuickExportStatusAfterDelay()
+    {
+        await Task.Delay(5000);
+        await Application.Current.Dispatcher.InvokeAsync(() => QuickExportStatus = string.Empty);
     }
 
     private bool CanQuickExport() => _ownerType != OwnerType.PlotPointSubjectLink;
@@ -149,6 +154,21 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
         _viewModelRegistry.StoryLoaded          += OnStoryLoaded;
     }
 
+    /// <summary>
+    /// Unsubscribes this element from the app-lifetime registry events and tears down its
+    /// tracks. ProjectLoader calls this on every element VM it is about to replace — without
+    /// it, a project switch left ~hundreds of previous-file VMs subscribed, each re-scanning
+    /// the new file's notes on every mutation for the rest of the session. Subclasses that
+    /// add their own registry subscriptions override and call base.
+    /// </summary>
+    public virtual void Dispose()
+    {
+        _viewModelRegistry.AllNoteViewModels.CollectionChanged -= OnAllNotesCollectionChanged;
+        _viewModelRegistry.NoteViewModelMutated -= OnNoteViewModelMutated;
+        _viewModelRegistry.StoryLoaded          -= OnStoryLoaded;
+        TeardownTracks();
+    }
+
     protected void InitializeCollections(
         int ownerId,
         OwnerType ownerType,
@@ -168,9 +188,10 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
     {
         if (_noteTrackFactory is null || _propertyFactory is null) return;
 
-        // Unsubscribe from any existing tracks before clearing.
-        foreach (var track in NoteTracks)
-            UnsubscribeFromTrack(track);
+        // Fully tear down existing tracks before clearing — Uninitialize removes their own
+        // registry/app-settings handlers (idempotent), not just this element's HasNotes handler.
+        // Dropping a still-subscribed track VM leaks it for the rest of the session.
+        TeardownTracks();
 
         NoteTracks.Clear();
         NarrativeProperties.Clear();
@@ -290,8 +311,7 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
 
     public void RebuildAndInitializeTracks()
     {
-        TeardownTracks();
-        RebuildNoteTracks();           // clears + repopulates NoteTracks / PopulatedNoteTracks / EmptyNoteTracks
+        RebuildNoteTracks();           // tears down the old set, then repopulates all collections
         foreach (var track in NoteTracks)
             track.Initialize();
     }

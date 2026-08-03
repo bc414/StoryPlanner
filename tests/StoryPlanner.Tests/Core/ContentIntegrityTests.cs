@@ -189,4 +189,79 @@ public class ContentIntegrityTests
         Assert.True(ContentIntegrity.NarrativePropertyValueDefinitionHasAssignments(svc, 1));
         Assert.False(ContentIntegrity.NarrativePropertyValueDefinitionHasAssignments(svc, 2));
     }
+
+    // ── Guards added 2026-08-02 for the delete paths that used to bypass ContentDeleter ──
+
+    [Fact]
+    public async Task HasNotes_resolves_the_polymorphic_pair_not_just_the_id()
+    {
+        using var plan = SyntheticPlan.Create();
+        var svc = await plan.OpenStoryServiceAsync();
+
+        Assert.True(ContentIntegrity.HasNotes(svc, SyntheticPlan.SubjectId, OwnerType.Subject));
+        Assert.False(ContentIntegrity.HasNotes(svc, SyntheticPlan.EmptySubjectId, OwnerType.Subject));
+        // Same numeric id, different owner type — the pair is the join, not the id.
+        Assert.True(ContentIntegrity.HasNotes(svc, SyntheticPlan.PlotPointId, OwnerType.PlotPoint));
+    }
+
+    [Fact]
+    public async Task ThemeHasNotes_is_true_only_for_the_theme_a_note_is_tagged_with()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.Themes.AddRange(
+                new Theme { Id = 1, Name = "Tagged" },
+                new Theme { Id = 2, Name = "Untagged" });
+            ctx.Notes.Find(SyntheticPlan.VisibleNoteId)!.ThemeId = 1;
+        });
+        var svc = await plan.OpenStoryServiceAsync();
+
+        Assert.True(ContentIntegrity.ThemeHasNotes(svc, 1));
+        Assert.False(ContentIntegrity.ThemeHasNotes(svc, 2));
+    }
+
+    [Fact]
+    public async Task SubjectDefinitionHasDependents_sees_subjects_tracks_and_properties()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            // 90: nothing hangs off it. 91: only a track definition. 92: only a property definition.
+            ctx.SubjectDefinitions.AddRange(
+                new SubjectDefinition { Id = 90, SubjectType = "Free", DisplayOrder = 90 },
+                new SubjectDefinition { Id = 91, SubjectType = "TrackScoped", DisplayOrder = 91 },
+                new SubjectDefinition { Id = 92, SubjectType = "PropertyScoped", DisplayOrder = 92 });
+            ctx.NoteTrackDefinitions.Add(new NoteTrackDefinition
+            {
+                Id = 91, SubjectDefinitionId = 91, OwnerType = OwnerType.Subject, TrackName = "Scoped"
+            });
+            ctx.NarrativePropertyDefinitions.Add(new NarrativePropertyDefinition
+            {
+                Id = 92, SubjectDefinitionId = 92, OwnerType = OwnerType.Subject, Name = "Scoped"
+            });
+        });
+        var svc = await plan.OpenStoryServiceAsync();
+
+        // The baseline definition types real subjects — the common refusal case.
+        Assert.True(ContentIntegrity.SubjectDefinitionHasDependents(svc, SyntheticPlan.CharacterDefId));
+        Assert.False(ContentIntegrity.SubjectDefinitionHasDependents(svc, 90));
+        Assert.True(ContentIntegrity.SubjectDefinitionHasDependents(svc, 91));
+        Assert.True(ContentIntegrity.SubjectDefinitionHasDependents(svc, 92));
+    }
+
+    [Fact]
+    public async Task NoteTrackDefinitionHasNotes_distinguishes_a_used_track_from_an_empty_one()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.NoteTrackDefinitions.Add(new NoteTrackDefinition
+        {
+            Id = 90, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+            OwnerType = OwnerType.Subject, TrackName = "Never used"
+        }));
+        var svc = await plan.OpenStoryServiceAsync();
+
+        Assert.True(ContentIntegrity.NoteTrackDefinitionHasNotes(svc, SyntheticPlan.BackstoryTrackId));
+        Assert.False(ContentIntegrity.NoteTrackDefinitionHasNotes(svc, 90));
+    }
 }

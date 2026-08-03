@@ -48,7 +48,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
             _selectedLink?.OnWindowOpened();
 
             Notify(nameof(SelectedLink));
-            UpdateLayout();
+            UpdateModeLayout();
         }
     }
 
@@ -115,19 +115,19 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
                 break;
         }
 
+        // The SelectedLink setter is the ONLY caller of the link's OnWindowOpened/Closed pair.
+        // An extra explicit call here once double-opened the initial link, so its refcount
+        // never returned to zero and teardown silently skipped.
         if (initialLink is not null)
-        {
             SelectedLink = initialLink;
-            SelectedLink.OnWindowOpened();
-        }
 
-        UpdateLayout();
-        _registry.LinksInvalidated += UpdateLayout;
+        UpdateModeLayout();
+        _registry.LinksInvalidated += UpdateModeLayout;
     }
 
     protected override void OnClosed(EventArgs e)
     {
-        _registry.LinksInvalidated -= UpdateLayout;
+        _registry.LinksInvalidated -= UpdateModeLayout;
         _subjectElement?.OnWindowClosed();
         _plotPointElement?.OnWindowClosed();
         SelectedLink?.OnWindowClosed();
@@ -158,7 +158,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         // Reachable only from Linking — close the selected link and hide the panels
         ClearSelectedLinkSilent();
         _currentMode = EditorMode.Expansion;
-        UpdateLayout();
+        UpdateModeLayout();
     }
 
     private void SwitchToLinking()
@@ -166,7 +166,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         if (_currentMode == EditorMode.Expansion)
         {
             _currentMode = EditorMode.Linking;
-            UpdateLayout();
+            UpdateModeLayout();
             return;
         }
 
@@ -179,7 +179,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
             SetPlotPointElement(null);
             SetSubjectElement(subject);
             _currentMode = EditorMode.Linking;
-            UpdateLayout();
+            UpdateModeLayout();
         }
     }
 
@@ -194,14 +194,14 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         SetSubjectElement(null);
         SetPlotPointElement(plotPoint);
         _currentMode = EditorMode.Gardener;
-        UpdateLayout();
+        UpdateModeLayout();
     }
 
     // ── Primary element helpers ───────────────────────────────────────────
 
     /// <summary>
     /// Closes the current subject element, assigns the new one (or null), opens it,
-    /// and updates the window title. Does NOT change mode or call UpdateLayout.
+    /// and updates the window title. Does NOT change mode or call UpdateModeLayout.
     /// </summary>
     private void SetSubjectElement(SubjectViewModel? subject)
     {
@@ -213,7 +213,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
 
     /// <summary>
     /// Closes the current plot point element, assigns the new one (or null), opens it,
-    /// and updates the window title. Does NOT change mode or call UpdateLayout.
+    /// and updates the window title. Does NOT change mode or call UpdateModeLayout.
     /// </summary>
     private void SetPlotPointElement(PlotPointViewModel? plotPoint)
     {
@@ -224,8 +224,8 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
     }
 
     /// <summary>
-    /// Clears SelectedLink without triggering the property setter's UpdateLayout call.
-    /// Use this when a full UpdateLayout will be called shortly afterward.
+    /// Clears SelectedLink without triggering the property setter's UpdateModeLayout call.
+    /// Use this when a full UpdateModeLayout will be called shortly afterward.
     /// </summary>
     private void ClearSelectedLinkSilent()
     {
@@ -274,7 +274,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         SetPlotPointElement(null);
         SetSubjectElement(subject);
         _currentMode = EditorMode.Expansion;
-        UpdateLayout();
+        UpdateModeLayout();
     }
 
     private void OnPlotPointPicked(PlotPointViewModel plotPoint)
@@ -286,7 +286,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         SetSubjectElement(null);
         SetPlotPointElement(plotPoint);
         _currentMode = EditorMode.Gardener;
-        UpdateLayout();
+        UpdateModeLayout();
     }
 
     // ── Create-link pick handlers ─────────────────────────────────────────
@@ -311,7 +311,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         if (_currentMode == EditorMode.Expansion)
             _currentMode = EditorMode.Linking;
 
-        // Selecting the link calls OnWindowOpened + UpdateLayout via the property setter
+        // Selecting the link calls OnWindowOpened + UpdateModeLayout via the property setter
         SelectedLink = link;
     }
 
@@ -331,7 +331,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
             .FirstOrDefault(l => l.PlotPointId == _plotPointElement.Id && l.SubjectId == subject.Id);
         if (link is null) return;
 
-        // Stay in Gardener; selecting the link calls OnWindowOpened + UpdateLayout
+        // Stay in Gardener; selecting the link calls OnWindowOpened + UpdateModeLayout
         SelectedLink = link;
     }
 
@@ -342,16 +342,15 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         var newLink = LinkCardsListBox.SelectedItem as PlotPointSubjectLinkViewModel;
         if (newLink == SelectedLink) return;
 
-        SelectedLink?.OnWindowClosed();
+        // The setter alone handles the OnWindowClosed/Opened pair — see the constructor note.
         SelectedLink = newLink;
-        SelectedLink?.OnWindowOpened();
 
-        // Defer UpdateLayout so it runs after WPF finishes processing
+        // Defer UpdateModeLayout so it runs after WPF finishes processing
         // the current SelectionChanged event cycle. Without this deferral,
         // replacing ItemsSource inside a SelectionChanged handler causes WPF
         // to schedule its own deferred collection-reconciliation work that fires
         // *after* our SelectedItem assignment, resetting selection to the first item.
-        Dispatcher.InvokeAsync(UpdateLayout, DispatcherPriority.Loaded);
+        Dispatcher.InvokeAsync(UpdateModeLayout, DispatcherPriority.Loaded);
     }
 
     // ── Clear selected link (X button) ───────────────────────────────────
@@ -363,7 +362,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         SelectedLink.OnWindowClosed();
         SelectedLink = null;
 
-        UpdateLayout();
+        UpdateModeLayout();
 
         e.Handled = true;
     }
@@ -400,7 +399,7 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
 
     // ── Layout ────────────────────────────────────────────────────────────
 
-    private new void UpdateLayout()
+    private void UpdateModeLayout()
     {
         NarrativeElementViewModel? leftElement  = null;
         NarrativeElementViewModel? rightElement = null;

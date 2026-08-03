@@ -1,4 +1,4 @@
-﻿using StoryPlanner.Core;
+using StoryPlanner.Core;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -17,27 +17,20 @@ public class ContentDeleter : IContentDeleter
 
     public async Task DeleteNoteAsync(NoteViewModel note)
     {
-        // NoteSourceReference rows are note-owned — no orphan risk, cascade is correct here
-        // (contrast SourceMaterial/SourceMaterialPart below, which refuse instead).
-        var ownedReferences = _storyService.NoteSourceReferences.Where(r => r.NoteId == note.Id).ToList();
-        foreach (var r in ownedReferences)
-            _storyService.NoteSourceReferences.Remove(r);
-
-        _storyService.Notes.Remove(note.Note);
+        // StoryService.DeleteNote cascades the note's NoteSourceReference rows — citations are
+        // note-owned, so the cascade is correct there (contrast SourceMaterial/Part below, which
+        // refuse instead). Keeping the cascade in Core means no caller can bypass it.
+        _storyService.DeleteNote(note.Id);
         _registry.AllNoteViewModels.Remove(note);
         await _storyService.SaveAsync();
     }
 
     public async Task<bool> TryDeleteLinkAsync(PlotPointSubjectLinkViewModel link)
     {
-        bool hasNotes = _storyService.Notes
-            .Any(n => n.OwnerId == link.Id && n.OwnerType == OwnerType.PlotPointSubjectLink);
+        if (ContentIntegrity.HasNotes(_storyService, link.Id, OwnerType.PlotPointSubjectLink)) return false;
 
-        if (hasNotes) return false;
-
-        RemoveOwnedNarrativePropertyValues(link.Id, OwnerType.PlotPointSubjectLink);
-
-        _storyService.PlotPointsSubjectLinks.Remove(link.Link);
+        // StoryService.DeleteLink removes the link's owned NarrativePropertyValue rows with it.
+        _storyService.DeleteLink(link.Id);
         _registry.AllPlotPointSubjectLinkViewModels.Remove(link);
         await _storyService.SaveAsync();
         return true;
@@ -45,9 +38,7 @@ public class ContentDeleter : IContentDeleter
 
     public async Task<bool> TryDeleteSubjectAsync(SubjectViewModel subject)
     {
-        bool hasNotes = _storyService.Notes
-            .Any(n => n.OwnerId == subject.Id && n.OwnerType == OwnerType.Subject);
-
+        bool hasNotes = ContentIntegrity.HasNotes(_storyService, subject.Id, OwnerType.Subject);
 
         bool hasLinks = _storyService.PlotPointsSubjectLinks
             .Any(l => l.SubjectId == subject.Id);
@@ -59,7 +50,7 @@ public class ContentDeleter : IContentDeleter
 
         if (hasNotes || hasLinks || isFocalCharacter) return false;
 
-        RemoveOwnedNarrativePropertyValues(subject.Id, OwnerType.Subject);
+        _storyService.RemoveOwnedNarrativePropertyValues(subject.Id, OwnerType.Subject);
 
         _storyService.Subjects.Remove(subject.Subject);
         _registry.AllSubjectViewModels.Remove(subject);
@@ -69,16 +60,14 @@ public class ContentDeleter : IContentDeleter
 
     public async Task<bool> TryDeletePlotPointAsync(PlotPointViewModel plotPoint)
     {
-        bool hasNotes = _storyService.Notes
-            .Any(n => n.OwnerId == plotPoint.Id && n.OwnerType == OwnerType.PlotPoint);
-
+        bool hasNotes = ContentIntegrity.HasNotes(_storyService, plotPoint.Id, OwnerType.PlotPoint);
 
         bool hasLinks = _storyService.PlotPointsSubjectLinks
             .Any(l => l.PlotPointId == plotPoint.Id);
 
         if (hasNotes || hasLinks) return false;
 
-        RemoveOwnedNarrativePropertyValues(plotPoint.Id, OwnerType.PlotPoint);
+        _storyService.RemoveOwnedNarrativePropertyValues(plotPoint.Id, OwnerType.PlotPoint);
 
         _storyService.PlotPoints.Remove(plotPoint.PlotPoint);
         _registry.AllPlotPointViewModels.Remove(plotPoint);
@@ -88,10 +77,7 @@ public class ContentDeleter : IContentDeleter
 
     public async Task<bool> TryDeleteChapterAsync(ChapterViewModel chapter)
     {
-        bool hasNotes = _storyService.Notes
-    .Any(n => n.OwnerId == chapter.Id && n.OwnerType == OwnerType.Chapter);
-
-        if (hasNotes) return false;
+        if (ContentIntegrity.HasNotes(_storyService, chapter.Id, OwnerType.Chapter)) return false;
 
         // Orphan plot points — set ChapterId to null, do not delete
         var ownedPlotPoints = _storyService.PlotPoints
@@ -100,7 +86,7 @@ public class ContentDeleter : IContentDeleter
         foreach (var pp in ownedPlotPoints)
             pp.ChapterId = null;
 
-        RemoveOwnedNarrativePropertyValues(chapter.Id, OwnerType.Chapter);
+        _storyService.RemoveOwnedNarrativePropertyValues(chapter.Id, OwnerType.Chapter);
 
         _storyService.Chapters.Remove(chapter.Chapter);
         _registry.AllChapterViewModels.Remove(chapter);
@@ -122,6 +108,60 @@ public class ContentDeleter : IContentDeleter
         _registry.AllStoryViewModels.Remove(story);
         await _storyService.SaveAsync();
         return true;
+    }
+
+    public async Task<bool> TryDeleteThemeAsync(ThemeViewModel theme)
+    {
+        // Note.ThemeId is a raw id — deleting a tagged theme would silently erase the tagging
+        // work (the notes would start appearing in "notes without theme" as if never tagged).
+        if (ContentIntegrity.ThemeHasNotes(_storyService, theme.Id)) return false;
+
+        _storyService.Themes.Remove(theme.Model);
+        _registry.AllThemeViewModels.Remove(theme);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteSubjectDefinitionAsync(SubjectDefinitionViewModel definition)
+    {
+        // Type Object row — subjects, note tracks, and narrative properties are all scoped by it.
+        if (ContentIntegrity.SubjectDefinitionHasDependents(_storyService, definition.Id)) return false;
+
+        _storyService.SubjectDefinitions.Remove(definition.Model);
+        _registry.AllSubjectDefinitionViewModels.Remove(definition);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteNoteTrackDefinitionAsync(NoteTrackDefinitionViewModel definition)
+    {
+        // A note keeps its NoteTrackDefinitionId when the track row vanishes: the categorization
+        // is lost by reference, and a condition-track note's date semantics silently flip
+        // (event-vs-condition lives on the track). Refuse while any note carries the id.
+        if (ContentIntegrity.NoteTrackDefinitionHasNotes(_storyService, definition.Id)) return false;
+
+        _storyService.NoteTrackDefinitions.Remove(definition.Model);
+        _registry.AllNoteTrackDefinitionViewModels.Remove(definition);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task DeleteTheaterAsync(Theater theater)
+    {
+        // Orphan members back to "(Unplaced)" (sentinel 0) — never refuse, never cascade.
+        // Same shape as TryDeleteStoryAsync's StoryId sentinel.
+        foreach (var s in _storyService.Subjects.Where(s => s.TheaterId == theater.Id)) s.TheaterId = 0;
+        foreach (var p in _storyService.PlotPoints.Where(p => p.TheaterId == theater.Id)) p.TheaterId = 0;
+        _storyService.Theaters.Remove(theater);
+        await _storyService.SaveAsync();
+    }
+
+    public async Task DeletePivotAsync(Pivot pivot)
+    {
+        // Eras are derived as the gaps between pivots, never stored — removing a pivot
+        // orphans nothing, so this is unconditional.
+        _storyService.Pivots.Remove(pivot);
+        await _storyService.SaveAsync();
     }
 
     public async Task<bool> TryDeleteSourceMaterialAsync(SourceMaterialViewModel work)
@@ -195,27 +235,5 @@ public class ContentDeleter : IContentDeleter
         _registry.AllNarrativePropertyValueDefinitionViewModels.Remove(value);
         await _storyService.SaveAsync();
         return true;
-    }
-
-    // --- Helpers ---
-
-    private void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType)
-    {
-        // Resolve which ValueDefinitionIds are valid for this owner type,
-        // by tracing: ValueDefinition → PropertyDefinition → OwnerType
-        var validValueDefinitionIds = _storyService.NarrativePropertyValueDefinitions
-            .Where(vd => _storyService.NarrativePropertyDefinitions
-                .Any(pd => pd.Id == vd.NarrativePropertyDefinitionId
-                        && pd.OwnerType == ownerType))
-            .Select(vd => vd.Id)
-            .ToHashSet();
-
-        var owned = _storyService.NarrativePropertyValues
-            .Where(p => p.OwnerId == ownerId
-                     && validValueDefinitionIds.Contains(p.ValueDefinitionId))
-            .ToList();
-
-        foreach (var prop in owned)
-            _storyService.NarrativePropertyValues.Remove(prop);
     }
 }

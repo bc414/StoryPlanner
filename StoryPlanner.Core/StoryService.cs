@@ -1,12 +1,6 @@
 using System.Collections.ObjectModel;
 using System.Text.Json;
-using Google.Apis.Auth.OAuth2;
-using Google.Apis.Drive.v3;
-using Google.Apis.Services;
-using Google.Apis.Upload;
-using Markdig;
 using Microsoft.EntityFrameworkCore;
-using StoryPlanner.Core;
 
 namespace StoryPlanner.Core;
 
@@ -81,23 +75,8 @@ public class StoryService : IStoryService
         await SaveAsync();
     }
 
-    public string GetFullProjectJson()
-    {
-        if (_context == null) throw new InvalidOperationException("Project not loaded");
-        var fileService = new StoryFileService(_context);
-        return fileService.ExportFullDatabase();
-    }
-
     public string GetAiContextJson(bool includeVerbatim)
     {
-        return string.Empty;
-    }
-
-    public string GetMarkdown()
-    {
-        if (_context == null) throw new InvalidOperationException("Project not loaded");
-        var fileService = new StoryFileService(_context);
-        //return fileService.GetMarkdownContextForAI();
         return string.Empty;
     }
 
@@ -107,9 +86,12 @@ public class StoryService : IStoryService
         if (IsProjectLoaded) return;
 
         CurrentFilePath = filePath;
-        
-        CreateSafetyBackup(filePath);
-        
+
+        // About to wipe any existing file at this path — refuse if it can't be snapshotted first.
+        if (File.Exists(filePath) && !CreateSafetyBackup(filePath))
+            throw new InvalidOperationException(
+                $"\"{filePath}\" already exists and could not be backed up before being overwritten.");
+
         // Configure for the new file
         var options = new DbContextOptionsBuilder<AppDbContext>()
             .UseSqlite($"Data Source={filePath}")
@@ -153,9 +135,14 @@ public class StoryService : IStoryService
         // Back up before any schema upgrade — this is the one path that silently rewrote
         // Brian's real file with no safety net (CreateSafetyBackup was only ever called from
         // CreateProjectAsync, which then deletes the file anyway). Only costs a copy on the
-        // open that actually has something pending.
-        if ((await _context.Database.GetPendingMigrationsAsync()).Any())
-            CreateSafetyBackup(filePath);
+        // open that actually has something pending — and if the backup cannot be taken, the
+        // migration does not run: a failed safety net plus an in-place schema rewrite is the
+        // exact combination this guard exists to prevent.
+        if ((await _context.Database.GetPendingMigrationsAsync()).Any() && !CreateSafetyBackup(filePath))
+            throw new InvalidOperationException(
+                $"A schema upgrade is pending for \"{filePath}\" but the safety backup could not be " +
+                "written (see debug output). Fix the backup problem and reopen — migrating without " +
+                "a backup rewrites the file in place with no way back.");
 
         // Ensure schema is compatible
         await _context.Database.MigrateAsync();
@@ -164,38 +151,53 @@ public class StoryService : IStoryService
     }
     
     /// <summary>
-    /// Copies <paramref name="originalPath"/> into a sibling "Backups" folder with a timestamped
+    /// Snapshots <paramref name="originalPath"/> into a sibling "Backups" folder with a timestamped
     /// name, keeping the 10 most recent. Static and public so <c>StoryPlanner.DataOps</c> can
     /// reuse the exact same safety procedure before running a one-time operation, rather than
     /// re-deriving it.
+    ///
+    /// Uses SQLite's <c>VACUUM INTO</c> rather than <c>File.Copy</c>: the files are WAL-mode, so a
+    /// bare main-file copy silently misses every transaction still sitting in the <c>-wal</c>
+    /// sidecar (the documented 2026-07-30 stale-copy trap). <c>VACUUM INTO</c> reads through the
+    /// WAL and produces a consistent, self-contained snapshot even while another process has the
+    /// file open. Returns false on failure — callers that are about to do something irreversible
+    /// (schema migration, a DataOps write) must refuse rather than proceed unprotected.
     /// </summary>
-    public static void CreateSafetyBackup(string originalPath)
+    public static bool CreateSafetyBackup(string originalPath)
     {
-        try 
+        try
         {
-            // Example: "MyStory.db" -> "MyStory.2023-10-27_14-30-00.bak"
+            // Example: "MyStory.storyplan" -> "Backups/MyStory.2026-08-02_14-30-00.bak"
             string directory = Path.GetDirectoryName(originalPath) ?? string.Empty;
             string fileName = Path.GetFileNameWithoutExtension(originalPath);
-            string extension = Path.GetExtension(originalPath); // .db
-        
+
             string timestamp = DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss");
-            string backupName = $"{fileName}.{timestamp}.bak";
-            string backupPath = Path.Combine(directory, "Backups", backupName);
+            string backupFolder = Path.Combine(directory, "Backups");
+            string backupPath = Path.Combine(backupFolder, $"{fileName}.{timestamp}.bak");
 
-            // Ensure "Backups" folder exists
-            Directory.CreateDirectory(Path.Combine(directory, "Backups"));
+            Directory.CreateDirectory(backupFolder);
 
-            // Perform the Copy
-            File.Copy(originalPath, backupPath, overwrite: true);
-        
-            // Optional: Clean up old backups (keep last 10)
-            CleanUpOldBackups(Path.Combine(directory, "Backups"));
+            // VACUUM INTO refuses to overwrite; the timestamped name makes collisions
+            // effectively impossible, but clear a leftover from a same-second retry anyway.
+            if (File.Exists(backupPath)) File.Delete(backupPath);
+
+            using (var connection = new Microsoft.Data.Sqlite.SqliteConnection(
+                       $"Data Source={originalPath};Mode=ReadOnly"))
+            {
+                connection.Open();
+                using var command = connection.CreateCommand();
+                // VACUUM INTO does not accept parameters — escape the literal path instead.
+                command.CommandText = $"VACUUM INTO '{backupPath.Replace("'", "''")}'";
+                command.ExecuteNonQuery();
+            }
+
+            CleanUpOldBackups(backupFolder);
+            return true;
         }
         catch (Exception ex)
         {
-            // Don't stop the app, just log it. 
-            // In a real app, you might show a warning "Backup Failed".
             System.Diagnostics.Debug.WriteLine($"Backup failed: {ex.Message}");
+            return false;
         }
     }
 
@@ -304,49 +306,7 @@ public class StoryService : IStoryService
     {
         if (_context == null) throw new InvalidOperationException("Not initialized");
         await _context.SaveChangesAsync();
-
-        string markdownContext = GetMarkdown();
-        File.WriteAllText(CurrentFilePath + ".md", markdownContext);
-        string docTitle = Path.GetFileNameWithoutExtension(CurrentFilePath) + " - Story Bible";
-        //await SyncToGoogleDocsAsync(markdownContext, docTitle);
-        // --- Log specific metrics to CSV ---
-        try
-        {
-            string csvFilePath = CurrentFilePath + "_stats.csv";
-            bool isNewFile = !File.Exists(csvFilePath);
-
-            using (StreamWriter sw = new StreamWriter(csvFilePath, append: true))
-            {
-                if (isNewFile)
-                {
-                    await sw.WriteLineAsync("Timestamp,CharCount,WordCount,NotesToAnalyze,NotesIncorporated");
-                }
-
-                string timestamp = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
-                
-                // 1. Character & Word Counts
-                int charCount = markdownContext.Length;
-                int wordCount = markdownContext.Split(new char[] { ' ', '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries).Length;
-
-                // 2. Note Metrics via EF Core's Local Tracker
-                //int notesToAnalyze = _context.Set<Note>().Local.Count(n => n.NeedsFurtherAnalysis);
-                //int notesIncorporated = _context.Set<Note>().Local.Count(n => n.IsIncorporated);
-
-                // Append the entry
-                //await sw.WriteLineAsync($"{timestamp},{charCount},{wordCount},{notesToAnalyze},{notesIncorporated}");
-            }
-        }
-        catch (Exception ex)
-        {
-            System.Diagnostics.Debug.WriteLine($"Failed to write stats to CSV: {ex.Message}");
-        }
     }
-    /*
-    public NotePropertyStats GetNoteStatsByCondition(string statName, Func<Note, bool> condition)
-    {
-        TODO: rework using new NoteState
-    }
-    */
     public async Task<ConversationImportResult> ImportConversationsAsync(string contentPath, string? metaPath)
     {
         if (_context == null) return ConversationImportResult.Empty;
@@ -465,8 +425,40 @@ public class StoryService : IStoryService
     public void DeleteNote(int noteId)
     {
         var note = Notes.FirstOrDefault(n => n.Id == noteId);
-        if (note is not null)
-            Notes.Remove(note);
+        if (note is null) return;
+
+        // Citations are note-owned; without this cascade a deleted cited note leaves dangling
+        // NoteSourceReference rows that silently corrupt the source-material coverage data.
+        foreach (var reference in NoteSourceReferences.Where(r => r.NoteId == noteId).ToList())
+            NoteSourceReferences.Remove(reference);
+
+        Notes.Remove(note);
+    }
+
+    public void DeleteLink(int linkId)
+    {
+        var link = PlotPointsSubjectLinks.FirstOrDefault(l => l.Id == linkId);
+        if (link is null) return;
+
+        RemoveOwnedNarrativePropertyValues(linkId, OwnerType.PlotPointSubjectLink);
+        PlotPointsSubjectLinks.Remove(link);
+    }
+
+    public void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType)
+    {
+        // NarrativePropertyValue has no OwnerType column — ownership resolves only by tracing
+        // ValueDefinitionId → NarrativePropertyDefinitionId → OwnerType. Without the trace,
+        // subject 7 and chapter 7 collide silently.
+        var validValueDefinitionIds = NarrativePropertyValueDefinitions
+            .Where(vd => NarrativePropertyDefinitions
+                .Any(pd => pd.Id == vd.NarrativePropertyDefinitionId && pd.OwnerType == ownerType))
+            .Select(vd => vd.Id)
+            .ToHashSet();
+
+        foreach (var value in NarrativePropertyValues
+                     .Where(v => v.OwnerId == ownerId && validValueDefinitionIds.Contains(v.ValueDefinitionId))
+                     .ToList())
+            NarrativePropertyValues.Remove(value);
     }
 
     public async Task DeleteConversationAsync(Conversation conversation)

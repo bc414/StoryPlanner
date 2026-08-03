@@ -39,7 +39,11 @@ public static class DataOpEnvelope
 
             Console.WriteLine($"[{op.Name}] {(apply ? "APPLY" : "DRY RUN")} — {dbPath}");
 
-            StoryService.CreateSafetyBackup(dbPath);
+            if (!StoryService.CreateSafetyBackup(dbPath))
+            {
+                Console.Error.WriteLine("Refusing: safety backup failed — not touching the file without one.");
+                return 2;
+            }
             Console.WriteLine("  backed up (see Backups/ next to the file)");
 
             var hadPendingMigration = pending.Count == 1;

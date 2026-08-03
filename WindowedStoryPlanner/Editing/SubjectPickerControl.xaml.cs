@@ -1,12 +1,16 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
-using WindowedStoryPlanner;
 
 namespace WindowedStoryPlanner;
 
+/// <summary>
+/// Type → Subject picker. All filtering/search/reset behavior lives in the shared
+/// <see cref="ScopedPickerController{TScope,TItem}"/>; this class only adapts it to XAML
+/// (property names, combo events, clear-button visibility).
+/// </summary>
 public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
 {
     public event PropertyChangedEventHandler? PropertyChanged;
@@ -14,6 +18,32 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
 
     // ── Raised when the user confirms a subject selection ─────────────────
     public event Action<SubjectViewModel>? SubjectSelected;
+
+    private readonly ScopedPickerController<SubjectDefinitionViewModel, SubjectViewModel> _picker;
+
+    public SubjectPickerControl()
+    {
+        _picker = new ScopedPickerController<SubjectDefinitionViewModel, SubjectViewModel>(
+            allItems:       () => Registry?.AllSubjectViewModels ?? Enumerable.Empty<SubjectViewModel>(),
+            belongsToScope: (s, def) => s.SubjectDefinitionId == def.Id,
+            searchableText: s => s.Name,
+            comboOrder:     items => items.OrderBy(s => s.Name),
+            searchOrder:    items => items.OrderBy(s => s.Name),
+            scopedHint:     def => $"Search {def.SubjectType} subjects by name",
+            unscopedHint:   "Search subjects by name");
+        _picker.StateChanged += OnPickerStateChanged;
+
+        InitializeComponent();
+    }
+
+    private void OnPickerStateChanged()
+    {
+        Notify(nameof(FilteredSubjects));
+        Notify(nameof(SearchResults));
+        Notify(nameof(SearchText));
+        Notify(nameof(HasSearchText));
+        Notify(nameof(SearchScopeHint));
+    }
 
     // ── Registry DP ───────────────────────────────────────────────────────
 
@@ -33,14 +63,10 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
     private static void OnRegistryChanged(DependencyObject d, DependencyPropertyChangedEventArgs e)
     {
         if (d is SubjectPickerControl ctrl)
-            ctrl.OnRegistryChanged();
-    }
-
-    private void OnRegistryChanged()
-    {
-        Notify(nameof(SubjectDefinitions));
-        RebuildFilteredSubjects();
-        RebuildSearchResults();
+        {
+            ctrl.Notify(nameof(SubjectDefinitions));
+            ctrl._picker.Refresh();
+        }
     }
 
     // ── Whether any combo dropdown is currently open ───────────────────────
@@ -48,100 +74,31 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
     public bool IsAnyComboDropDownOpen =>
         TypeCombo.IsDropDownOpen || SubjectCombo.IsDropDownOpen;
 
-    /// <summary>Tooltip reflecting whatever RebuildSearchResults is currently scoped to — a
-    /// Type picked in the combo restrains the search box to that type's subjects (see
-    /// RebuildSearchResults), matching SourceMaterialPickerControl's Work-scoped search.</summary>
-    public string SearchScopeHint =>
-        _selectedDefinition is not null
-            ? $"Search {_selectedDefinition.SubjectType} subjects by name"
-            : "Search subjects by name";
-
-    // ── Subject definitions (type combo) ──────────────────────────────────
+    // ── XAML-facing projections of the shared controller ──────────────────
 
     public IEnumerable<SubjectDefinitionViewModel> SubjectDefinitions =>
         Registry?.AllSubjectDefinitionViewModels
                  .OrderBy(d => d.DisplayOrder)
         ?? Enumerable.Empty<SubjectDefinitionViewModel>();
 
-    // ── Filtered subjects (subject combo ItemsSource) ─────────────────────
+    public IReadOnlyList<SubjectViewModel> FilteredSubjects => _picker.FilteredItems;
+    public IReadOnlyList<SubjectViewModel> SearchResults => _picker.SearchResults;
+    public bool HasSearchText => _picker.HasSearchText;
+    public string SearchScopeHint => _picker.SearchScopeHint;
 
-    private SubjectDefinitionViewModel? _selectedDefinition;
-
-    private List<SubjectViewModel> _filteredSubjects = [];
-    public IReadOnlyList<SubjectViewModel> FilteredSubjects => _filteredSubjects;
-
-    private void RebuildFilteredSubjects()
-    {
-        _filteredSubjects = Registry is null
-            ? []
-            : _selectedDefinition is null
-                ? Registry.AllSubjectViewModels.OrderBy(s => s.Name).ToList()
-                : Registry.AllSubjectViewModels
-                           .Where(s => s.SubjectDefinitionId == _selectedDefinition.Id)
-                           .OrderBy(s => s.Name)
-                           .ToList();
-
-        Notify(nameof(FilteredSubjects));
-    }
-
-    // ── Search ────────────────────────────────────────────────────────────
-
-    private string _searchText = string.Empty;
     public string SearchText
     {
-        get => _searchText;
-        set
-        {
-            if (_searchText == value) return;
-            _searchText = value;
-            Notify(nameof(SearchText));
-            Notify(nameof(HasSearchText));
-            RebuildSearchResults();
-        }
-    }
-
-    public bool HasSearchText => !string.IsNullOrWhiteSpace(_searchText);
-
-    private List<SubjectViewModel> _searchResults = [];
-    public IReadOnlyList<SubjectViewModel> SearchResults => _searchResults;
-
-    private void RebuildSearchResults()
-    {
-        if (Registry is null || !HasSearchText)
-        {
-            _searchResults = [];
-            Notify(nameof(SearchResults));
-            return;
-        }
-
-        var lower = _searchText.Trim().ToLowerInvariant();
-
-        // A Type picked in the combo restrains the search to just that type's subjects —
-        // searching other types no longer makes sense once one is already chosen (same
-        // enhancement as SourceMaterialPickerControl's Work-scoped Part search).
-        var scope = _selectedDefinition is null
-            ? Registry.AllSubjectViewModels
-            : Registry.AllSubjectViewModels.Where(s => s.SubjectDefinitionId == _selectedDefinition.Id);
-
-        _searchResults = scope
-            .Where(s => s.Name.ToLowerInvariant().Contains(lower))
-            .OrderBy(s => s.Name)
-            .ToList();
-
-        Notify(nameof(SearchResults));
+        get => _picker.SearchText;
+        set => _picker.SearchText = value;
     }
 
     // ── Combo SelectionChanged handlers (no two-way binding) ──────────────
 
     private void TypeCombo_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        _selectedDefinition = TypeCombo.SelectedItem as SubjectDefinitionViewModel;
-        // Rebuild the subject list and clear any stale subject selection
-        RebuildFilteredSubjects();
-        SubjectCombo.SelectedItem = null;
-        ClearTypeButton.Visibility = _selectedDefinition is null ? Visibility.Collapsed : Visibility.Visible;
-        Notify(nameof(SearchScopeHint));
-        RebuildSearchResults();
+        _picker.SelectedScope = TypeCombo.SelectedItem as SubjectDefinitionViewModel;
+        SubjectCombo.SelectedItem = null;   // clear any stale subject selection
+        ClearTypeButton.Visibility = _picker.SelectedScope is null ? Visibility.Collapsed : Visibility.Visible;
     }
 
     private void ClearTypeButton_Click(object sender, RoutedEventArgs e)
@@ -169,21 +126,11 @@ public partial class SubjectPickerControl : UserControl, INotifyPropertyChanged
     private void CommitSelection(SubjectViewModel subject)
     {
         // Reset control state so it is clean when next opened
-        _selectedDefinition = null;
-        RebuildFilteredSubjects();
+        _picker.Reset();
         TypeCombo.SelectedItem  = null;
         SubjectCombo.SelectedItem = null;
         ClearTypeButton.Visibility = Visibility.Collapsed;
-        Notify(nameof(SearchScopeHint));
-        SearchText = string.Empty;
 
         SubjectSelected?.Invoke(subject);
-    }
-
-    // ── Constructor ───────────────────────────────────────────────────────
-
-    public SubjectPickerControl()
-    {
-        InitializeComponent();
     }
 }

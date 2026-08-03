@@ -138,6 +138,9 @@
         </DataGrid>
 
         <!-- ── Save bar ── -->
+        <!-- Refused deletes are otherwise silent — the guard returns false and does nothing. -->
+        <TextBlock Grid.Row="2" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0,10,0,0"
+                   Text="{Binding ThemeStatus}" Foreground="#C0392B" TextWrapping="Wrap" MaxWidth="520"/>
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,10,0,0">
             <Button Content="Save All" Padding="14,5"
                     Command="{Binding SaveAllCommand}"/>

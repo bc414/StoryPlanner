@@ -23,7 +23,9 @@ public static class ServerInfo
           attention — whether the content was migrated to v2 or deliberately superseded was NOT
           recorded, so never treat closed archive notes as either current or migrated.
         - CONVERSATIONS: imported AI chat transcripts (search_conversations / get_blocks), with
-          the author's per-block read states (unread / skipped / flagged / done).
+          the author's per-block read states (unread / skipped / flagged / done). Arc and block
+          summaries are optional navigation aids: an empty summary is ordinary, not missing
+          data — never report blank summaries as gaps and never substitute an excerpt for one.
 
         Both corpora group chapters under stories (list_stories / get_stories). A chapter's
         StoryId 0 is "(Unassigned)" — a legal, permanent state, not an error. Chapter labels are

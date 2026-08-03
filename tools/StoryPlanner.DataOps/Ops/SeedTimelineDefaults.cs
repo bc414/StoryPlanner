@@ -9,8 +9,10 @@ namespace StoryPlanner.DataOps;
 /// (configs/timeline-defaults.v2.json). Does NOT assign any subject or plot point to a
 /// theater — that mapping is categorization (Brian's authorial work, done in the app or via a
 /// future author-written config), so everything stays at the "(Unplaced)" sentinel until he
-/// moves it. Idempotent: theaters match by name, pivots by year; re-runs update prose and
-/// order, never duplicate.
+/// moves it. Idempotent: theaters match by name, pivots by year; re-runs update ordering only
+/// and never duplicate. Names and descriptions are stamped ONLY on row creation — they are
+/// Brian's framing of his fictional world, so a re-run must be incapable of clobbering an
+/// in-app rewrite (CLAUDE.md, "Seeders seed structure, never prose").
 /// </summary>
 public sealed class SeedTimelineDefaults : IDataOperation
 {
@@ -31,12 +33,15 @@ public sealed class SeedTimelineDefaults : IDataOperation
                 var existing = theaters.FirstOrDefault(t => t.Name == name);
                 if (existing is null)
                 {
-                    existing = new Theater { Name = name };
+                    existing = new Theater
+                    {
+                        Name = name,
+                        Description = e.TryGetProperty("description", out var d) ? d.GetString() ?? "" : ""
+                    };
                     ctx.Theaters.Add(existing);
                     theaters.Add(existing);
                 }
-                existing.OrderIndex = e.GetProperty("orderIndex").GetInt32();
-                existing.Description = e.TryGetProperty("description", out var d) ? d.GetString() ?? "" : "";
+                existing.OrderIndex = e.GetProperty("orderIndex").GetInt32(); // structure, not prose
             }
         }
 
@@ -49,12 +54,16 @@ public sealed class SeedTimelineDefaults : IDataOperation
                 var existing = pivots.FirstOrDefault(p => p.Year == year);
                 if (existing is null)
                 {
-                    existing = new Pivot { Year = year };
-                    ctx.Pivots.Add(existing);
-                    pivots.Add(existing);
+                    // Name and description only at creation — see the class doc.
+                    var pivot = new Pivot
+                    {
+                        Year = year,
+                        Name = e.GetProperty("name").GetString() ?? "",
+                        Description = e.TryGetProperty("description", out var d) ? d.GetString() ?? "" : ""
+                    };
+                    ctx.Pivots.Add(pivot);
+                    pivots.Add(pivot);
                 }
-                existing.Name = e.GetProperty("name").GetString() ?? "";
-                existing.Description = e.TryGetProperty("description", out var d) ? d.GetString() ?? "" : "";
             }
         }
     }

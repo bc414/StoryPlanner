@@ -294,6 +294,129 @@ public class PlanIntegrityTests
         Assert.Equal("rowcount.changed", violationsUnexpected[0].Rule);
     }
 
+    // ── Orphans the 2026-08-02 audit found invisible to Check ────────────────
+    // These line up one-to-one with delete paths that used to bypass ContentDeleter:
+    // track-definition delete, theme delete, subject-definition delete. The checks make
+    // that class of orphan detectable; the guards now make it unreachable from the UI.
+
+    [Fact]
+    public void Check_reports_a_note_carrying_a_deleted_track_definition()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.Notes.Add(new Note
+        {
+            Id = 999, OwnerId = SyntheticPlan.SubjectId, OwnerType = OwnerType.Subject,
+            NoteTrackDefinitionId = 424242, NoteState = NoteState.Unset, Content = "demoted", SortOrder = 1
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "note.track_missing" && v.Detail.Contains("note:999"));
+    }
+
+    [Fact]
+    public void Check_does_not_flag_a_null_track_id_or_theme_id()
+    {
+        // Null = "Unassigned" / untagged — legal, long-lived states, not missing data.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.Notes.Add(new Note
+        {
+            Id = 999, OwnerId = SyntheticPlan.SubjectId, OwnerType = OwnerType.Subject,
+            NoteTrackDefinitionId = null, ThemeId = null,
+            NoteState = NoteState.Unset, Content = "unassigned", SortOrder = 1
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.DoesNotContain(violations, v => v.Rule == "note.track_missing");
+        Assert.DoesNotContain(violations, v => v.Rule == "note.theme_missing");
+    }
+
+    [Fact]
+    public void Check_reports_a_note_tagged_with_a_deleted_theme()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.Notes.Add(new Note
+        {
+            Id = 999, OwnerId = SyntheticPlan.SubjectId, OwnerType = OwnerType.Subject,
+            ThemeId = 424242, NoteState = NoteState.Unset, Content = "orphan tag", SortOrder = 1
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "note.theme_missing" && v.Detail.Contains("note:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_subject_typed_by_a_deleted_definition()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.Subjects.Add(new Subject
+        {
+            Id = 999, Name = "Stranded", SubjectDefinitionId = 424242
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "subject.definition_missing" && v.Detail.Contains("subject:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_track_definition_scoped_to_a_deleted_subject_definition()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.NoteTrackDefinitions.Add(new NoteTrackDefinition
+        {
+            Id = 999, SubjectDefinitionId = 424242, OwnerType = OwnerType.Subject, TrackName = "Stranded"
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "trackdefinition.subjectdefinition_missing" && v.Detail.Contains("track:999"));
+    }
+
+    [Fact]
+    public void Check_reports_dangling_theater_and_story_ids_but_not_the_zero_sentinels()
+    {
+        // The synthetic plan's baseline already exercises the sentinels: Chapter 1 has StoryId 0
+        // and every subject/plot point has TheaterId 0 — Check_passes_clean covers that side.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.Subjects.Add(new Subject
+            {
+                Id = 999, Name = "Misplaced", SubjectDefinitionId = SyntheticPlan.CharacterDefId, TheaterId = 424242
+            });
+            ctx.Chapters.Add(new Chapter { Id = 999, Title = "Misfiled", StoryId = 424242, OrderIndex = 9 });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "subject.theater_missing" && v.Detail.Contains("subject:999"));
+        Assert.Contains(violations, v => v.Rule == "chapter.story_missing" && v.Detail.Contains("chapter:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_conversation_block_whose_conversation_is_gone()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.ConversationBlocks.Add(new ConversationBlock
+        {
+            Id = 999, ConversationId = 424242, BlockNumber = 1
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "conversationblock.conversation_missing" && v.Detail.Contains("block:999"));
+    }
+
     private static AppDbContext OpenContext(string path) =>
         new(new DbContextOptionsBuilder<AppDbContext>().UseSqlite($"Data Source={path}").Options);
 }

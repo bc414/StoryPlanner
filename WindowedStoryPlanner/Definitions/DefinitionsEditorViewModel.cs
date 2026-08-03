@@ -43,6 +43,11 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     [ObservableProperty]
     private string _narrativePropertyStatus = string.Empty;
 
+    /// <summary>Status line for the subject/track definition grids — same role as
+    /// <see cref="NarrativePropertyStatus"/> on the other tab.</summary>
+    [ObservableProperty]
+    private string _definitionStatus = string.Empty;
+
     // UI-only derived state — not model data, lives here not in registry
     public ObservableCollection<string> AvailableSubjectTypes { get; } = new();
 
@@ -92,10 +97,16 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     [RelayCommand]
     private async Task DeleteSubjectDefinition(SubjectDefinitionViewModel vm)
     {
-        _storyService.SubjectDefinitions.Remove(vm.Model);
-        SubjectDefinitions.Remove(vm);
-        await _storyService.SaveAsync();
-        RefreshAvailableSubjectTypes();
+        if (await _deleter.TryDeleteSubjectDefinitionAsync(vm))
+        {
+            DefinitionStatus = string.Empty;
+            RefreshAvailableSubjectTypes();
+        }
+        else
+        {
+            DefinitionStatus = $"Cannot delete \"{vm.SubjectType}\" — subjects, tracks, or narrative " +
+                               "properties still use it. Reassign or delete those first.";
+        }
     }
 
     [RelayCommand]
@@ -147,9 +158,9 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     [RelayCommand]
     private async Task DeleteNoteTrackDefinition(NoteTrackDefinitionViewModel vm)
     {
-        _storyService.NoteTrackDefinitions.Remove(vm.Model);
-        NoteTrackDefinitions.Remove(vm);
-        await _storyService.SaveAsync();
+        DefinitionStatus = await _deleter.TryDeleteNoteTrackDefinitionAsync(vm)
+            ? string.Empty
+            : $"Cannot delete \"{vm.TrackName}\" — notes still carry this track. Move or delete them first.";
     }
 
     // ── Work phases ───────────────────────────────────────────────────────────

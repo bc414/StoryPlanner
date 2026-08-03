@@ -16,9 +16,6 @@ namespace StoryPlanner.Mcp;
 [McpServerToolType]
 public sealed class FlaggedTools(StoryPlanSources sources)
 {
-    private static Corpus ParseCorpus(string corpus) =>
-        corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working;
-
     [McpServerTool(Name = "list_open_questions")]
     [Description("Compact index of flagged notes (open questions): id, owner, track, flag reason (truncated), content preview. These are NOT settled lore — each is a claim plus an unresolved obligation. Filter by subject, track, and/or a regex over content+reason. Full text via get_open_questions.")]
     public string ListOpenQuestions(
@@ -28,7 +25,8 @@ public sealed class FlaggedTools(StoryPlanSources sources)
         [Description("Regex filter over note content AND flag reason (.NET syntax, case-insensitive).")] string? pattern = null,
         [Description("Maximum rows (default 250).")] int limit = 250)
     {
-        var c = sources.Get(ParseCorpus(corpus));
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         limit = Math.Clamp(limit, 1, 500);
 
         Regex? rx = null;
@@ -101,7 +99,8 @@ public sealed class FlaggedTools(StoryPlanSources sources)
         [Description("Note ids of flagged notes (from list_open_questions, or a count disclosure).")] int[] ids,
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
-        var c = sources.Get(ParseCorpus(corpus));
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         var noteById = c.Notes.ToDictionary(n => n.Id);
         var sb = new StringBuilder();
         int found = 0, notFlagged = 0, missing = 0;

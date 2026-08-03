@@ -262,9 +262,11 @@ public class ConversationImporter
         conversation.BlockCount       = source.Blocks.Count;
 
         // Only a meta pass may touch the arc summary — a content-only re-import of a conversation
-        // that was summarized earlier must not blank it.
-        if (meta is not null)
-            conversation.ArcSummary = meta.ArcSummary;
+        // that was summarized earlier must not blank it. And "meta never destroys" extends inside
+        // the meta itself: an EMPTY ArcSummary in a meta file means "nothing supplied", never
+        // "erase what an earlier pass wrote".
+        if (!string.IsNullOrWhiteSpace(meta?.ArcSummary))
+            conversation.ArcSummary = meta!.ArcSummary;
 
         if (!string.IsNullOrEmpty(source.SourceUuid))
             conversation.SourceUuid = source.SourceUuid;
@@ -283,10 +285,12 @@ public class ConversationImporter
             {
                 // Refresh content/summary but deliberately leave BlockState untouched —
                 // the reader's read-state on already-reviewed blocks must survive re-import.
+                // A meta block carrying an empty Summary is "nothing supplied", not an erase.
                 block.Speaker      = cb.Speaker;
                 block.RawContent   = cb.RawContent;
                 block.IsCompaction = cb.IsCompaction;
-                block.Summary      = mb?.Summary ?? block.Summary;
+                if (!string.IsNullOrWhiteSpace(mb?.Summary))
+                    block.Summary = mb!.Summary;
             }
             else
             {

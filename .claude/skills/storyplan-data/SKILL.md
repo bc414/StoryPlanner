@@ -17,10 +17,10 @@ actually used, instead of inferring from code structure alone.
 
 ## The files
 
-| File | ~Size | Role |
-|------|-------|------|
-| `C:\Users\Brian\Desktop\TLTT v2.storyplan` | 14 MB | **Current / live** working file — default target |
-| `C:\Users\Brian\Desktop\TLTT v1 Archive.storyplan` | 5.4 MB | Orthogonal legacy dataset — see below, **not** an old copy of v2 |
+| File | Role |
+|------|------|
+| `C:\Users\Brian\Desktop\TLTT v2.storyplan` | **Current / live** working file — default target (grows; `get_stats` reports its size) |
+| `C:\Users\Brian\Desktop\TLTT v1 Archive.storyplan` | Orthogonal legacy dataset — see below, **not** an old copy of v2 |
 
 Default to `TLTT v2.storyplan` unless the user names a different file or explicitly asks about the
 v1 archive or a v1-vs-v2 comparison.
@@ -51,9 +51,12 @@ those columns are used in v2. Practically:
   populated in the v1 archive but sit at 0 in current v2 — they're pre-Conversation-Reader features
   Brian used at the time, superseded later. Conversely `Conversations`/`ConversationBlocks` (the
   Conversation Reader) are 0 in v1 — that feature didn't exist yet.
-- **Structurally larger and messier**, consistent with "not rigorously sorted": 5,843 Notes (vs.
-  2,130 in v2), 450 PlotPoints with 39 still unplaced (vs. 1 of 362 in v2), 226 Subjects across 10
-  `SubjectDefinitions` (the triage labels above, vs. 7 real categories in v2).
+- **Structurally larger and messier**, consistent with "not rigorously sorted": the v1 archive is
+  frozen at 5,843 Notes, 450 PlotPoints (39 unplaced), and 226 Subjects across 10
+  `SubjectDefinitions` (the triage labels above). v2's side of any comparison GROWS — get the
+  live numbers from `get_stats`, never from this file. v2's `SubjectDefinitions` are the six
+  documented types plus an empty "Uncategorized" row (a definition-table placeholder, not a
+  seventh type — the MCP server and CLAUDE.md rightly say six).
 
 Because of this, treat v1-archive query results as describing *a different workflow era*, not a
 smaller/older version of the same one. If you want a structural (not semantic) diff between the
@@ -70,7 +73,7 @@ These are Brian's irreplaceable creative writing files. Treat them as production
 - **Always copy first, no exceptions.** Copy the target `.storyplan` file into the scratchpad
   directory and run every query against the copy, never the original. This has zero risk to the
   source file and avoids lock/WAL contention if the WindowedStoryPlanner app happens to be open on
-  the same file. The copy is instant (~14 MB) — there's no size or convenience threshold that
+  the same file. The copy takes a moment at most — there's no size or convenience threshold that
   justifies querying the original directly.
 
 ## Invoking sqlite3 (don't assume PATH)
@@ -245,10 +248,11 @@ scene's specific effect on a subject gets its own notes distinct from the subjec
 **`Themes`** (`Models/Theme.cs`) — `Name`, `Proposition`.
 
 **`UiSettings`** (`Models/UiSetting.cs`, 2026-07-31) — key/value rows for UI preferences that
-persist with the file (`Key`, `Value` = opaque JSON payload). Currently one key:
+persist with the file (`Key`, `Value` = opaque JSON payload). First key (2026-07-31):
 `Timeline.ViewState` (zoom, viewport center, collapsed theaters/eras — payload shape in
-`Core/Timeline/TimelineViewState.cs`). App state, not story data: ignore it when analyzing
-content, and expect readers to tolerate a missing row or unparseable payload.
+`Core/Timeline/TimelineViewState.cs`); query the table for whatever exists today. App state, not
+story data: ignore it when analyzing content, and expect readers to tolerate a missing row or
+unparseable payload.
 
 **`SourceMaterials` / `SourceMaterialParts` / `NoteSourceReferences`** (`Models/SourceMaterial*.cs`,
 `Models/NoteSourceReference.cs`, 2026-07-31) — a two-tier citation/coverage model, NOT a plain
@@ -450,5 +454,6 @@ When a query result confirms or contradicts an assumption, name the specific evi
 - If it bears on a claim in `FEATURE-AUDIT.md` (e.g. "is `SubjectCluster` really orphaned?", "how
   much `WorldDate` data exists to justify a timeline view?"), reference the specific item ID (A1,
   B1, etc.) and state whether the live data supports or updates that assessment.
-- Prefer real counts over impressions — "1,931 Unset notes vs. 199 Flagged vs. 0 Confirmed" is a
-  concrete, checkable fact; "notes seem mostly unreviewed" is not.
+- Prefer real counts over impressions — "N Unset notes vs. M Flagged vs. 0 Confirmed" (with N
+  and M freshly queried) is a concrete, checkable fact; "notes seem mostly unreviewed" is not.
+  Report counts *with their query date* — they go stale the moment they're written down.

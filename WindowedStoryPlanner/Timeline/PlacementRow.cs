@@ -36,7 +36,8 @@ public partial class PlacementRow : ObservableObject
             if (value is null || value.Id == Subject.TheaterId) return;
             Subject.TheaterId = value.Id;
             OnPropertyChanged();
-            _ = _owner.PersistAndRebuildCanvasOnly();
+            // This persists a TheaterId write — a discarded Task would make a failed save silent.
+            _owner.PersistAndRebuildCanvasOnly().FireAndForget();
         }
     }
 }

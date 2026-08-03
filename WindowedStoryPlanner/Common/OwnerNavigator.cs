@@ -42,9 +42,9 @@ public static class OwnerNavigator
                 // A link has no window of its own — it opens as its SUBJECT in Linking mode with
                 // the link preselected. The subject, not the plot point: CommonWindow casts
                 // primaryElement to SubjectViewModel for both Expansion and Linking, and to
-                // PlotPointViewModel for Gardener (CommonWindow.xaml.cs:103-115). Those casts are
-                // unchecked, and an unhandled InvalidCastException takes the whole app down —
-                // there is no DispatcherUnhandledException handler.
+                // PlotPointViewModel for Gardener. Those casts are unchecked — since the
+                // 2026-07-31 crash net an InvalidCastException costs the click instead of the
+                // session, but it is still a wrong-pairing bug this routing exists to prevent.
                 var link = registry.AllPlotPointSubjectLinkViewModels.FirstOrDefault(l => l.Id == ownerId);
                 if (link is not null &&
                     registry.AllSubjectViewModels.FirstOrDefault(s => s.Id == link.SubjectId) is { } linkSubject)

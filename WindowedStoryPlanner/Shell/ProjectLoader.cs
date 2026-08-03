@@ -55,6 +55,15 @@ public class ProjectLoader
 
     public void Load()
     {
+        // Dispose the previous file's element VMs before dropping them: their constructors
+        // subscribed to app-lifetime registry events, so Clear() alone would leave every old
+        // VM live and re-scanning the NEW file's notes on each mutation — the cross-project
+        // leak class. Reverse of the construction order below, harmless on first load.
+        foreach (var vm in _registry.AllSubjectViewModels) vm.Dispose();
+        foreach (var vm in _registry.AllPlotPointViewModels) vm.Dispose();
+        foreach (var vm in _registry.AllPlotPointSubjectLinkViewModels) vm.Dispose();
+        foreach (var vm in _registry.AllChapterViewModels) vm.Dispose();
+
         _registry.Clear();
 
         // --- Definitions first — subjects depend on AllSubjectDefinitionViewModels ---
@@ -143,24 +152,10 @@ public class ProjectLoader
                 new NoteViewModel(note, _storyService, _registry.AllThemeViewModels,
                     _registry.AllSourceMaterialViewModels, _registry.AllSourceMaterialPartViewModels));
 
-        // Build ConversationViewModels and attach their block VMs
-        var blocksByConv = _storyService.ConversationBlocks
-            .GroupBy(b => b.ConversationId)
-            .ToDictionary(g => g.Key, g => g.OrderBy(b => b.BlockNumber).ToList());
-
-        foreach (var conv in _storyService.Conversations)
-        {
-            var convVm = new ConversationViewModel(conv, _storyService);
-            if (blocksByConv.TryGetValue(conv.Id, out var blocks))
-                foreach (var block in blocks)
-                {
-                    var blockVm = new ConversationBlockViewModel(block, _storyService) { ParentConversation = convVm };
-                    blockVm.Initialize();
-                    convVm.Blocks.Add(blockVm);
-                }
-            convVm.OnStatsRefreshed = _conversationLibrary.RefreshDashboard;
+        // Build ConversationViewModels and attach their block VMs — the one construction
+        // recipe lives in ConversationViewModel.BuildAll, shared with the library's rebuild.
+        foreach (var convVm in ConversationViewModel.BuildAll(_storyService, _conversationLibrary.RefreshDashboard))
             _registry.AllConversationViewModels.Add(convVm);
-        }
 
         // Signal that bulk loading is complete. NarrativeElementViewModels use
         // this to defer their initial note-count calculation until all notes exist.

@@ -12,6 +12,13 @@ riderModule.iml
 /identifier.sqlite
 /StoryPlanner.sln.DotSettings.user
 /.vs/
+
+# Local-only conversation staging (never source):
+# - "Additional Potential Conversations with Specs/" holds _content.json twins of the tracked
+#   docs/design-conversations/ set (plus 056, graded "None" and deliberately untracked) — a
+#   pre-manifest working copy, kept locally for convenience only.
+# - Selected_Chats/ and conversations.json are Conversation Reader staging: raw exports and
+#   Cowork round-trip material. The imported truth lives inside the .storyplan files.
 /Additional Potential Conversations with Specs/
 /Selected_Chats/
 /conversations.json

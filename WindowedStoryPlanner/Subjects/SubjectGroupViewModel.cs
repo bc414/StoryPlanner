@@ -1,4 +1,6 @@
-﻿using System.Collections.ObjectModel;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.ComponentModel;
 using System.Linq;
@@ -7,7 +9,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace WindowedStoryPlanner;
 
-public partial class SubjectGroupViewModel : ObservableObject
+public partial class SubjectGroupViewModel : ObservableObject, IDisposable
 {
     public string GroupLabel          { get; }
     public int    DisplayOrder        { get; }
@@ -15,6 +17,11 @@ public partial class SubjectGroupViewModel : ObservableObject
 
     private readonly ObservableCollection<SubjectViewModel> _allSubjects;
     private readonly AppSettings                            _appSettings;
+
+    // What we actually subscribed to — Dispose and the Reset case work off this set, never off
+    // the live collection (which no longer holds those items by then). Same discipline as
+    // TaggedNotesViewModelBase.
+    private readonly HashSet<SubjectViewModel> _subscribed = new();
 
     /// <summary>
     /// Subjects filtered to this group and sorted by the current mode:
@@ -38,10 +45,25 @@ public partial class SubjectGroupViewModel : ObservableObject
 
         // FIX 1: subscribe to subjects that already exist at construction time
         foreach (var vm in _allSubjects)
-            vm.PropertyChanged += OnSubjectPropertyChanged;
+            Subscribe(vm);
 
         _allSubjects.CollectionChanged += OnSourceCollectionChanged;
         _appSettings.PropertyChanged   += OnAppSettingsPropertyChanged;
+    }
+
+    /// <summary>
+    /// SubjectLibraryViewModel calls this on every group it replaces (RebuildGroups runs on each
+    /// definition change and project load). Without it every discarded group stayed subscribed to
+    /// the app-lifetime collection and re-filtered itself forever.
+    /// </summary>
+    public void Dispose()
+    {
+        foreach (var vm in _subscribed)
+            vm.PropertyChanged -= OnSubjectPropertyChanged;
+        _subscribed.Clear();
+
+        _allSubjects.CollectionChanged -= OnSourceCollectionChanged;
+        _appSettings.PropertyChanged   -= OnAppSettingsPropertyChanged;
     }
 
     // ── Sorting / filtering ───────────────────────────────────────────────
@@ -58,6 +80,18 @@ public partial class SubjectGroupViewModel : ObservableObject
 
     private void InvalidateSubjects() => OnPropertyChanged(nameof(Subjects));
 
+    private void Subscribe(SubjectViewModel vm)
+    {
+        if (_subscribed.Add(vm))
+            vm.PropertyChanged += OnSubjectPropertyChanged;
+    }
+
+    private void Unsubscribe(SubjectViewModel vm)
+    {
+        if (_subscribed.Remove(vm))
+            vm.PropertyChanged -= OnSubjectPropertyChanged;
+    }
+
     // ── Change listeners ──────────────────────────────────────────────────
 
     private void OnAppSettingsPropertyChanged(object? sender, PropertyChangedEventArgs e)
@@ -68,13 +102,25 @@ public partial class SubjectGroupViewModel : ObservableObject
 
     private void OnSourceCollectionChanged(object? sender, NotifyCollectionChangedEventArgs e)
     {
+        if (e.Action == NotifyCollectionChangedAction.Reset)
+        {
+            // Registry Clear() raises Reset with neither OldItems nor NewItems — re-seed
+            // from the subscribed set, then from whatever the collection now holds.
+            foreach (var vm in _subscribed.ToList())
+                Unsubscribe(vm);
+            foreach (var vm in _allSubjects)
+                Subscribe(vm);
+            InvalidateSubjects();
+            return;
+        }
+
         if (e.OldItems is not null)
             foreach (SubjectViewModel vm in e.OldItems)
-                vm.PropertyChanged -= OnSubjectPropertyChanged;
+                Unsubscribe(vm);
 
         if (e.NewItems is not null)
             foreach (SubjectViewModel vm in e.NewItems)
-                vm.PropertyChanged += OnSubjectPropertyChanged;
+                Subscribe(vm);
 
         InvalidateSubjects();
     }

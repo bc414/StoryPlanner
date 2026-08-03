@@ -81,11 +81,65 @@ public static class PlanIntegrity
             _ => false
         };
 
+        var trackDefinitionIds = ctx.NoteTrackDefinitions.Select(t => t.Id).ToHashSet();
+        var themeIds = ctx.Themes.Select(t => t.Id).ToHashSet();
+
         foreach (var n in ctx.Notes)
         {
             if (!ResolvesOwner(n.OwnerType, n.OwnerId))
                 violations.Add(new Violation("note.owner_missing", $"note:{n.Id} ({n.OwnerType}:{n.OwnerId})"));
+
+            // Null is legal ("Unassigned" track / untagged); a non-null id must resolve. A note
+            // whose track row vanished silently demotes to Unassigned — and for a condition track
+            // its date semantics flip, since event-vs-condition lives on the track.
+            if (n.NoteTrackDefinitionId is int trackId && !trackDefinitionIds.Contains(trackId))
+                violations.Add(new Violation("note.track_missing", $"note:{n.Id} -> track:{trackId}"));
+
+            if (n.ThemeId is int themeId && !themeIds.Contains(themeId))
+                violations.Add(new Violation("note.theme_missing", $"note:{n.Id} -> theme:{themeId}"));
         }
+
+        // Type Object scoping: subjects and definitions hang off SubjectDefinition rows. Id 0 is
+        // tolerated as an unscoped placeholder (the add-command's fallback), so only a non-zero id
+        // that fails to resolve is an orphan.
+        var subjectDefinitionIds = ctx.SubjectDefinitions.Select(d => d.Id).ToHashSet();
+
+        foreach (var s in ctx.Subjects)
+            if (s.SubjectDefinitionId != 0 && !subjectDefinitionIds.Contains(s.SubjectDefinitionId))
+                violations.Add(new Violation("subject.definition_missing", $"subject:{s.Id} -> subjectDef:{s.SubjectDefinitionId}"));
+
+        foreach (var t in ctx.NoteTrackDefinitions)
+            if (t.SubjectDefinitionId != 0 && !subjectDefinitionIds.Contains(t.SubjectDefinitionId))
+                violations.Add(new Violation("trackdefinition.subjectdefinition_missing",
+                    $"track:{t.Id} -> subjectDef:{t.SubjectDefinitionId}"));
+
+        foreach (var p in ctx.NarrativePropertyDefinitions)
+            if (p.SubjectDefinitionId != 0 && !subjectDefinitionIds.Contains(p.SubjectDefinitionId))
+                violations.Add(new Violation("propertydefinition.subjectdefinition_missing",
+                    $"property:{p.Id} -> subjectDef:{p.SubjectDefinitionId}"));
+
+        // Sentinel-0 references ("(Unplaced)" / "(Unassigned)") are legal, permanent states —
+        // only a non-zero id pointing at a deleted row is an orphan.
+        var theaterIds = ctx.Theaters.Select(t => t.Id).ToHashSet();
+        var storyIds = ctx.Stories.Select(s => s.Id).ToHashSet();
+
+        foreach (var s in ctx.Subjects)
+            if (s.TheaterId != 0 && !theaterIds.Contains(s.TheaterId))
+                violations.Add(new Violation("subject.theater_missing", $"subject:{s.Id} -> theater:{s.TheaterId}"));
+
+        foreach (var p in ctx.PlotPoints)
+            if (p.TheaterId != 0 && !theaterIds.Contains(p.TheaterId))
+                violations.Add(new Violation("plotpoint.theater_missing", $"plotpoint:{p.Id} -> theater:{p.TheaterId}"));
+
+        foreach (var c in ctx.Chapters)
+            if (c.StoryId != 0 && !storyIds.Contains(c.StoryId))
+                violations.Add(new Violation("chapter.story_missing", $"chapter:{c.Id} -> story:{c.StoryId}"));
+
+        var conversationIds = ctx.Conversations.Select(c => c.Id).ToHashSet();
+        foreach (var b in ctx.ConversationBlocks)
+            if (!conversationIds.Contains(b.ConversationId))
+                violations.Add(new Violation("conversationblock.conversation_missing",
+                    $"block:{b.Id} -> conversation:{b.ConversationId}"));
 
         foreach (var pp in ctx.PlotPoints)
         {

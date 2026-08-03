@@ -156,43 +156,64 @@ public partial class NoteTrackViewModel : ObservableObject
         _editorCoordinator = editorCoordinator;
         _appSettings       = appSettings;
 
-        _appSettings.PropertyChanged += (_, e) =>
-        {
-            if (e.PropertyName == nameof(AppSettings.IsArchiveMode))
-                OnPropertyChanged(nameof(CanPromoteToConfirmed));
-            foreach (var section in Sections)
-                section.RefreshReadonlyState();
-        };
-
         // During bulk load, AllNoteViewModels.CollectionChanged fires once per note
         // for every NoteTrackViewModel, which is O(notes × tracks) and wasteful.
         // Suppress it while loading and let the StoryLoaded event do a single refresh.
         _storyLoaded = _viewModelRegistry.IsStoryLoaded;
 
-        _viewModelRegistry.AllNoteViewModels.CollectionChanged += (_, _) =>
-        {
-            if (_storyLoaded) RefreshHasNotes();
-        };
-        _viewModelRegistry.NoteViewModelMutated += args =>
-        {
-            if (args.OwnerId == _ownerId && args.OwnerType == _ownerType)
-                RefreshHasNotes();
-        };
-
-        _viewModelRegistry.StoryLoaded += () =>
-        {
-            _storyLoaded = true;
-            RefreshHasNotes();
-        };
+        // Registry/app-settings subscriptions live in Initialize/Uninitialize, NOT here: the
+        // targets are app-lifetime singletons, so a constructor subscription with no teardown
+        // pins every discarded track VM forever — and each leaked handler re-scans all notes on
+        // every mutation. This was the layer's biggest gets-slower-the-longer-you-work leak.
 
         // Seed the initial value — story may already be loaded when this track is created.
         RefreshHasNotes();
     }
 
     // ── Lifecycle ─────────────────────────────────────────────────────────
+    // Subscription teardown pairs with Initialize, and both are idempotent. Tracks built at
+    // element-VM construction but never shown in a window simply never subscribe; every
+    // window open rebuilds fresh tracks whose constructors re-seed HasNotes.
+
+    private bool _subscribed;
+
+    private void OnAppSettingsPropertyChanged(object? sender, System.ComponentModel.PropertyChangedEventArgs e)
+    {
+        if (e.PropertyName == nameof(AppSettings.IsArchiveMode))
+            OnPropertyChanged(nameof(CanPromoteToConfirmed));
+        foreach (var section in Sections)
+            section.RefreshReadonlyState();
+    }
+
+    private void OnAllNotesCollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+    {
+        if (_storyLoaded) RefreshHasNotes();
+    }
+
+    private void OnNoteMutated(NoteMutatedArgs args)
+    {
+        if (args.OwnerId == _ownerId && args.OwnerType == _ownerType)
+            RefreshHasNotes();
+    }
+
+    private void OnStoryLoaded()
+    {
+        _storyLoaded = true;
+        RefreshHasNotes();
+    }
 
     public void Initialize()
     {
+        if (!_subscribed)
+        {
+            _appSettings.PropertyChanged += OnAppSettingsPropertyChanged;
+            _viewModelRegistry.AllNoteViewModels.CollectionChanged += OnAllNotesCollectionChanged;
+            _viewModelRegistry.NoteViewModelMutated += OnNoteMutated;
+            _viewModelRegistry.StoryLoaded += OnStoryLoaded;
+            _subscribed = true;
+            RefreshHasNotes();
+        }
+
         if (Sections.Count > 0) return;
 
         Sections.Add(new NoteTrackSectionViewModel(
@@ -213,6 +234,15 @@ public partial class NoteTrackViewModel : ObservableObject
 
     public void Uninitialize()
     {
+        if (_subscribed)
+        {
+            _appSettings.PropertyChanged -= OnAppSettingsPropertyChanged;
+            _viewModelRegistry.AllNoteViewModels.CollectionChanged -= OnAllNotesCollectionChanged;
+            _viewModelRegistry.NoteViewModelMutated -= OnNoteMutated;
+            _viewModelRegistry.StoryLoaded -= OnStoryLoaded;
+            _subscribed = false;
+        }
+
         foreach (var section in Sections)
         {
             section.SelectionTransferRequested -= OnSelectionTransferRequested;

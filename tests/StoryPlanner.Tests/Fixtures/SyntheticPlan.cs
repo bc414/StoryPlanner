@@ -188,9 +188,8 @@ public sealed class SyntheticPlan : IDisposable
     /// <c>ExportResolver</c> / <c>NoteExportRenderer</c> exercise the same IStoryService the app
     /// uses, including its DbSet.Local-backed ObservableCollections.
     ///
-    /// Caller disposes. Never call SaveAsync() on it: StoryService.SaveAsync writes a .md and a
-    /// _stats.csv beside the project file, which would litter the temp dir (harmless, but the
-    /// export paths under test are read-only anyway).
+    /// Caller disposes. SaveAsync() is safe here — it is a bare SaveChangesAsync (the .md /
+    /// _stats.csv litter it used to write beside the file was removed 2026-08-02).
     /// </summary>
     public async Task<IStoryService> OpenStoryServiceAsync()
     {

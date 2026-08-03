@@ -226,23 +226,8 @@ public partial class ConversationLibraryViewModel : ObservableObject
     {
         _registry.AllConversationViewModels.Clear();
 
-        var blocksByConv = _storyService.ConversationBlocks
-            .GroupBy(b => b.ConversationId)
-            .ToDictionary(g => g.Key, g => g.OrderBy(b => b.BlockNumber).ToList());
-
-        foreach (var conv in _storyService.Conversations)
-        {
-            var convVm = new ConversationViewModel(conv, _storyService);
-            if (blocksByConv.TryGetValue(conv.Id, out var blocks))
-                foreach (var block in blocks)
-                {
-                    var bVm = new ConversationBlockViewModel(block, _storyService) { ParentConversation = convVm };
-                    bVm.Initialize();
-                    convVm.Blocks.Add(bVm);
-                }
-            convVm.OnStatsRefreshed = RefreshDashboard;
+        foreach (var convVm in ConversationViewModel.BuildAll(_storyService, RefreshDashboard))
             _registry.AllConversationViewModels.Add(convVm);
-        }
     }
 }
 

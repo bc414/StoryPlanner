@@ -1,3 +1,8 @@
+> **Historical log (banner added 2026-08-02).** A dated decision record addressed to Brian —
+> do not execute from it. Any checklist items shown blocked below have long since resolved
+> (the MCP republish went through; the DataOps ops were applied to the live files as the ✅
+> lines record). The live forward worklist is `TIMELINE-REFACTOR-BACKLOG.md`.
+
 # Master Timeline — overnight implementation, decisions made mid-flight
 
 **Date:** 2026-07-30 (overnight run, Brian asleep). Plan: `C:\Users\Brian\.claude\plans\help-me-plan-out-merry-pizza.md`.

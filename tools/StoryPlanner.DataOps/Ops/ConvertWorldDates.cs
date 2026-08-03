@@ -27,8 +27,9 @@ namespace StoryPlanner.DataOps;
 /// proves it), does not assign theaters (author-written config, never derived from names), and
 /// does not create pivots/theaters (see SeedTimelineDefaults).
 ///
-/// Idempotent: a second run finds blank legacy strings (nothing to convert), existing condition
-/// twins (nothing to create), and identical track prose (no-op updates).
+/// Idempotent: a second run finds blank legacy strings (nothing to convert) and existing
+/// condition twins (nothing to create) — and it never touches track prose again after the first
+/// application, so display questions rewritten in the Definitions tab survive a re-run.
 /// </summary>
 public sealed class ConvertWorldDates : IDataOperation
 {
@@ -53,19 +54,35 @@ public sealed class ConvertWorldDates : IDataOperation
             var source = tracks.FirstOrDefault(t => t.Id == split.SourceTrackId);
             if (source is null) continue; // tolerant: v1 archive has no track rows at all
 
-            source.TrackName = split.Event.TrackName;
-            source.DisplayQuestion = split.Event.DisplayQuestion;
-            if (split.Event.UsageDirective is not null) source.UsageDirective = split.Event.UsageDirective;
-            if (split.Event.AuditDirective is not null) source.AuditDirective = split.Event.AuditDirective;
-            source.SupportsWorldDate = true;
-            source.SupportsWorldDateEnd = false;
-
+            // Find the condition twin by name first; fall back to the structural signature
+            // (same owner group, same TrackType, span-shaped) so an in-app rename of the twin
+            // doesn't cause a re-run to create a duplicate condition track.
             var condition = tracks.FirstOrDefault(t =>
                 t.SubjectDefinitionId == source.SubjectDefinitionId &&
                 t.OwnerType == source.OwnerType &&
                 t.TrackName == split.Condition.TrackName &&
+                t.SupportsWorldDateEnd)
+                ?? tracks.FirstOrDefault(t =>
+                t.SubjectDefinitionId == source.SubjectDefinitionId &&
+                t.OwnerType == source.OwnerType &&
+                t.TrackType == source.TrackType &&
                 t.SupportsWorldDateEnd);
 
+            // The condition twin's existence is the "already applied" marker. Prose is stamped
+            // ONLY on first application: track prose is Brian's framing, authored/rewritten in
+            // the Definitions tab, and a re-run must be incapable of clobbering it (CLAUDE.md,
+            // "Seeders seed structure, never prose" — the 2026-07-30 seeded display questions
+            // all had to be rewritten once already).
+            bool conditionIsNew = condition is null;
+            if (conditionIsNew)
+            {
+                source.TrackName = split.Event.TrackName;
+                source.DisplayQuestion = split.Event.DisplayQuestion;
+                if (split.Event.UsageDirective is not null) source.UsageDirective = split.Event.UsageDirective;
+                if (split.Event.AuditDirective is not null) source.AuditDirective = split.Event.AuditDirective;
+            }
+            source.SupportsWorldDate = true;      // structural flags, not prose — always enforced
+            source.SupportsWorldDateEnd = false;
             if (condition is null)
             {
                 condition = new NoteTrackDefinition
@@ -107,10 +124,14 @@ public sealed class ConvertWorldDates : IDataOperation
                 tracks.Add(condition);
             }
 
-            condition.TrackName = split.Condition.TrackName;
-            condition.DisplayQuestion = split.Condition.DisplayQuestion;
-            condition.UsageDirective = split.Condition.UsageDirective ?? condition.UsageDirective;
-            condition.AuditDirective = split.Condition.AuditDirective ?? condition.AuditDirective;
+            // Same rule as the source track: prose only on creation, never on a re-run.
+            if (conditionIsNew)
+            {
+                condition.TrackName = split.Condition.TrackName;
+                condition.DisplayQuestion = split.Condition.DisplayQuestion;
+                condition.UsageDirective = split.Condition.UsageDirective ?? condition.UsageDirective;
+                condition.AuditDirective = split.Condition.AuditDirective ?? condition.AuditDirective;
+            }
 
             await ctx.SaveChangesAsync(); // assign the condition track's Id before re-filing
             conditionIdBySourceId[source.Id] = condition.Id;
@@ -194,14 +215,17 @@ public sealed class ConvertWorldDates : IDataOperation
         }
 
         // Every configured split must have produced its condition twin (when the source exists).
+        // Recognized by config name OR by the structural signature (same owner group, same
+        // TrackType, span-shaped) — the same fallback Apply uses, so an in-app rename of the
+        // twin doesn't read as "missing".
         foreach (var split in ParseSplits(config))
         {
             if (!trackById.TryGetValue(split.SourceTrackId, out var source)) continue;
-            var hasTwin = ctx.NoteTrackDefinitions.Any(t =>
+            var hasTwin = ctx.NoteTrackDefinitions.AsEnumerable().Any(t =>
                 t.SubjectDefinitionId == source.SubjectDefinitionId &&
                 t.OwnerType == source.OwnerType &&
-                t.TrackName == split.Condition.TrackName &&
-                t.SupportsWorldDate && t.SupportsWorldDateEnd);
+                t.SupportsWorldDate && t.SupportsWorldDateEnd &&
+                (t.TrackName == split.Condition.TrackName || t.TrackType == source.TrackType));
             if (!hasTwin)
                 violations.Add(new PlanIntegrity.Violation(
                     "tracksplit.condition_missing", $"source track:{split.SourceTrackId} ({split.Event.TrackName})"));

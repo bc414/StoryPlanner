@@ -7,8 +7,9 @@ namespace flatten, feature-first folders, and the `TimelineViewModel.cs` one-cla
 split (24 files in `WindowedStoryPlanner/Timeline/`).
 
 Ground rules for whoever executes: work under the organization rules in the `wpf-conventions`
-skill; run `dotnet test tests/StoryPlanner.Tests` (157 green as of writing) before finishing;
-republish per CLAUDE.md when `WindowedStoryPlanner/` or `StoryPlanner.Core/` change.
+skill; run `dotnet test tests/StoryPlanner.Tests` (all green before you start — the total
+grows, don't pin it) before finishing; republish per CLAUDE.md when `WindowedStoryPlanner/` or
+`StoryPlanner.Core/` change.
 
 ---
 
@@ -26,10 +27,9 @@ cleaner rule; Brian's call which). File: `Timeline/TimelineView.xaml.cs`.
 ToolTips there, and stop building the now-redundant full-content `Tooltip` strings for those
 items in `Rebuild()` (wasted allocation, second stale render path). Cells already dropped theirs.
 
-**1c. Doc drift.** `storyplan-data` skill line ~299: the coverage recipe still counts
-`SUM(WorldDate <> '')` — against a converted file that returns 2 (the unconvertibles), not 362.
-Must count structured columns. Also `count_notes_archive`'s `[Description]` omits the three
-dimensions its engine now accepts (`theater`, `dateShape`, `worldDateYear`).
+~~**1c. Doc drift.**~~ **Done** (verified 2026-08-02): the `storyplan-data` coverage recipe
+counts the structured columns, and `count_notes_archive`'s `[Description]` lists `theater`,
+`dateShape`, and `worldDateYear`.
 
 **1d. `Era.Label` doesn't BLB-format.** Negative years render as "-400" in the Eras panel while
 everywhere else says "400 BLB". Move `FormatYear` to Core (e.g. on `WorldDatePoint` or a
@@ -37,11 +37,10 @@ everywhere else says "400 BLB". Move `FormatYear` to Core (e.g. on `WorldDatePoi
 
 ## 2. Consolidation into Core (kills duplication + a test smell)
 
-**2a. One `EffectiveWorldDate`.** The structured-first/legacy-fallback read exists twice:
-`Mcp/Query.EffectiveWorldDate` and `Timeline/TimelineViewModel.EffectiveDate`. Move to Core
-(`WorldDateModel.GetEffectiveWorldDate(this Note)`), both consumers delegate. Same treatment for
-the track-shaped notation render duplicated between `TimelineViewModel.DateLabel` and the
-`NoteViewModel.WorldDate` getter.
+**2a. One `EffectiveWorldDate` — first half done** (verified 2026-08-02):
+`Note.EffectiveWorldDate()` lives in Core (`WorldDateModel.cs`) and both `Mcp/Query` and
+`TimelineViewModel` delegate to it. **Still open:** the track-shaped notation render duplicated
+between `TimelineViewModel.DateLabel` and the `NoteViewModel.WorldDate` getter.
 
 **2b. `PointAtFractionalYear` to Core, kill the test mirror.** The fractional-year→point
 conversion (with its 1e-6 epsilon and the 12×31 grid coupling to `WorldDatePoint`) is pure math
@@ -93,10 +92,9 @@ this once already). Cells/bars as `Button`s with a `ControlTemplate` additionall
 card (in that priority). Click-away cancels the drop-confirm popup. Currently everything needs
 precise travel to a ✕.
 
-**4d. Theater-delete guard into `ContentDeleter`.** The orphan-to-sentinel logic lives on
-`TimelineViewModel`, violating the skill's "every deletable entity's guard lives in
-ContentDeleter" rule (logged as a deviation at the time; audit verdict: move it). Shape it on
-ids, not VMs, per the testing skill's known-gap note.
+~~**4d. Theater-delete guard into `ContentDeleter`.**~~ **Done 2026-08-02** as part of the
+delete-path unification: `ContentDeleter.DeleteTheaterAsync` / `DeletePivotAsync` own the
+orphan-to-sentinel logic; `TimelineViewModel` delegates.
 
 ## 5. Decisions Brian owns (blocked on him, not on code)
 

@@ -161,6 +161,20 @@ public partial class App : Application
 
     protected override async void OnExit(ExitEventArgs e)
     {
+        // Note prose binds PropertyChanged straight into live POCOs, so edits accumulate in the
+        // change tracker until *something* saves. Without this, a session of pure typing followed
+        // by a clean close discarded everything since the last incidental save — silently.
+        try
+        {
+            var storyService = AppHost!.Services.GetRequiredService<IStoryService>();
+            if (storyService.IsProjectLoaded)
+                await storyService.SaveAsync();
+        }
+        catch (Exception ex)
+        {
+            CrashReporter.Report(ex, "final save on exit", recovered: false);
+        }
+
         await AppHost!.StopAsync();
         base.OnExit(e);
     }

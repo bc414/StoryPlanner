@@ -38,6 +38,24 @@ public static class Query
     public static string CorpusName(Corpus corpus) =>
         corpus == Corpus.Working ? "working-plan(v2)" : "archive(v1)";
 
+    /// <summary>
+    /// Strict corpus-argument parsing: only "working" and "archive" are accepted. Anything
+    /// else (a typo like "archvie") must be an ERROR, not a silent fall-through to the working
+    /// plan — the two corpora are never joined and never substituted for one another, so
+    /// answering from the wrong one is worse than refusing.
+    /// </summary>
+    public static bool TryParseCorpus(string corpus, out Corpus parsed)
+    {
+        if (corpus.Equals("archive", StringComparison.OrdinalIgnoreCase)) { parsed = Corpus.Archive; return true; }
+        if (corpus.Equals("working", StringComparison.OrdinalIgnoreCase)) { parsed = Corpus.Working; return true; }
+        parsed = Corpus.Working;
+        return false;
+    }
+
+    public static string UnknownCorpusMessage(string corpus) =>
+        $"Unknown corpus \"{corpus}\" — pass \"working\" (v2) or \"archive\" (v1). " +
+        "Refusing rather than guessing: the corpora are never substituted for one another.";
+
     // ── Owner resolution (no FKs in the schema — this join is done here, once) ──
 
     /// <summary>

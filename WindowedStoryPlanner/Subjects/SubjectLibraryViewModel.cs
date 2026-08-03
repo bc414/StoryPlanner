@@ -66,6 +66,11 @@ public partial class SubjectLibraryViewModel : ObservableObject
 
     private void RebuildGroups()
     {
+        // Dispose before dropping — each group subscribes to app-lifetime objects in its
+        // constructor, so a bare Clear() leaks every replaced group for the session.
+        foreach (var group in Groups)
+            group.Dispose();
+
         Groups.Clear();
         foreach (var defVm in _registry.AllSubjectDefinitionViewModels.OrderBy(d => d.DisplayOrder))
             Groups.Add(new SubjectGroupViewModel(defVm.Model, _registry.AllSubjectViewModels, AppSettings));

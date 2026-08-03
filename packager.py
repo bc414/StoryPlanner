@@ -1,3 +1,7 @@
+# Dumps the codebase into one text file (codebase_dump.txt, gitignored) for pasting into an
+# LLM chat. Predates Claude Code and the MCP server, which read the repo directly — kept per
+# the 2026-07-28 "tools, not outputs" call (docs/CLAUDE-MD-REPORT.md §6E), but there is no
+# reason to run it in an agentic session.
 import os
 import argparse
 

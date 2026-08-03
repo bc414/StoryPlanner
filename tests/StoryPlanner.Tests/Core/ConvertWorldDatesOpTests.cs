@@ -121,6 +121,65 @@ public class ConvertWorldDatesOpTests
     }
 
     [Fact]
+    public async Task A_second_apply_does_not_clobber_prose_rewritten_in_the_app()
+    {
+        // The CLAUDE.md seeder rule: a re-run must be INCAPABLE of overwriting authored prose.
+        // The 2026-07-30 split shipped seeded display questions that all had to be rewritten —
+        // this asserts a re-run can't revert that rewrite.
+        var (path, dir) = await BuildFile();
+        try
+        {
+            Assert.Equal(0, await DataOpEnvelope.RunAsync(new ConvertWorldDates(), path, ParseConfig(Config), apply: true));
+
+            await using (var app = OpenContext(path))
+            {
+                (await app.NoteTrackDefinitions.SingleAsync(t => t.Id == SourceTrackId))
+                    .DisplayQuestion = "Brian's rewritten event question";
+                (await app.NoteTrackDefinitions.SingleAsync(t => t.TrackName == "Life Phases"))
+                    .DisplayQuestion = "Brian's rewritten condition question";
+                await app.SaveChangesAsync();
+            }
+
+            Assert.Equal(0, await DataOpEnvelope.RunAsync(new ConvertWorldDates(), path, ParseConfig(Config), apply: true));
+
+            using var verify = OpenContext(path);
+            Assert.Equal("Brian's rewritten event question",
+                (await verify.NoteTrackDefinitions.SingleAsync(t => t.Id == SourceTrackId)).DisplayQuestion);
+            Assert.Equal("Brian's rewritten condition question",
+                (await verify.NoteTrackDefinitions.SingleAsync(t => t.TrackName == "Life Phases")).DisplayQuestion);
+        }
+        finally { TryDelete(dir); }
+    }
+
+    [Fact]
+    public async Task A_renamed_condition_twin_is_recognized_not_duplicated()
+    {
+        // The twin is found by name first, then by structural signature (owner group + TrackType
+        // + span-shaped) — so renaming "Life Phases" in the app must not make a re-run create a
+        // second condition track.
+        var (path, dir) = await BuildFile();
+        try
+        {
+            Assert.Equal(0, await DataOpEnvelope.RunAsync(new ConvertWorldDates(), path, ParseConfig(Config), apply: true));
+
+            await using (var app = OpenContext(path))
+            {
+                (await app.NoteTrackDefinitions.SingleAsync(t => t.TrackName == "Life Phases"))
+                    .TrackName = "Eras of a Life";
+                await app.SaveChangesAsync();
+            }
+
+            Assert.Equal(0, await DataOpEnvelope.RunAsync(new ConvertWorldDates(), path, ParseConfig(Config), apply: true));
+
+            using var verify = OpenContext(path);
+            Assert.Equal(1, await verify.NoteTrackDefinitions.CountAsync(t => t.SupportsWorldDateEnd));
+            Assert.Equal("Eras of a Life",
+                (await verify.NoteTrackDefinitions.SingleAsync(t => t.SupportsWorldDateEnd)).TrackName);
+        }
+        finally { TryDelete(dir); }
+    }
+
+    [Fact]
     public async Task Dry_run_persists_nothing()
     {
         var (path, dir) = await BuildFile();

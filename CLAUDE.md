@@ -60,8 +60,13 @@ would only serve lazy loading, `Include`, and DB-executed LINQ — none of which
 adding real risks (stale lazy loads, change-tracking surprises, circular-reference serialization).
 
 Note ownership is **polymorphic** (`OwnerId` + `OwnerType`), so the database cannot enforce
-referential integrity. **`ContentDeleter.cs` IS the integrity system** — its guards are not
-decoration. Indexes follow from the same premise: nothing queries the database after load.
+referential integrity. **Application code IS the integrity system**, in three layers
+(2026-08-02): id-based guard predicates in `ContentIntegrity` (Core, fixture-tested),
+unconditional cascades in `StoryService.DeleteNote`/`DeleteLink` (a note takes its citation
+rows; a link takes its owned narrative-property values), and the guarded, registry-syncing
+`TryDelete*Async` deletes in `ContentDeleter.cs` — none of it decoration, and every UI delete
+path routes through it. `PlanIntegrity.Check` is the after-the-fact auditor for the same
+invariants. Indexes follow from the same premise: nothing queries the database after load.
 
 The configuration layer is **Type Object pattern + metadata-driven design** —
 `SubjectDefinition` and `NoteTrackDefinition` are *rows*, not classes. A Character subject and a
@@ -86,7 +91,7 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   *review closed — migrated to v2 **or** deliberately superseded, disposition not recorded.*
   Never render an archive note as "confirmed"; never read it as current truth.
 - **Flagged notes are walled wherever an LLM consumes data** — the app's export
-  (`NoteExportRenderer.cs:28`) and the MCP server's ordinary tools both exclude them. Counts are
+  (`NoteExportRenderer.cs`) and the MCP server's ordinary tools both exclude them. Counts are
   disclosed; content requires the flagged tool family. `FlagReason` is itself a corpus Brian
   drafts into.
 - **v1 and v2 never join.** Different organizing principles on purpose; no id correspondence,
@@ -206,8 +211,11 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 - `.storyplan` is raw SQLite in **WAL mode**. Reads never block the running app. The main file's
   **mtime does not advance on write** — change detection uses `PRAGMA data_version`.
 - **`StoryService` is not read-only:** `OpenProjectAsync` runs `MigrateAsync()` (upgrades the
-  schema in place, no backup) and silently no-ops if a project is already loaded; `SaveAsync()`
-  writes `.md` and `_stats.csv` litter. The MCP server bypasses it with `Mode=ReadOnly`.
+  schema in place — since 2026-08-02 it takes a `VACUUM INTO` snapshot into `Backups/` first and
+  **refuses to migrate if the backup fails**) and silently no-ops if a project is already
+  loaded. `SaveAsync()` is a bare `SaveChangesAsync` (the `.md`/`_stats.csv` litter it used to
+  write was removed 2026-08-02), and the app also saves on exit. The MCP server bypasses it
+  with `Mode=ReadOnly`.
 - **stdout is JSON-RPC in the MCP process** — stderr only. Never `Console.WriteLine` from code the
   server can reach. (`ConversationImporter` used to be the standing example; as of 2026-07-31 it
   reports through a returned `ConversationImportResult` instead of printing, but it is still a

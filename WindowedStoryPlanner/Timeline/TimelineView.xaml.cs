@@ -29,9 +29,13 @@ public partial class TimelineView : UserControl
             _closeTimer.Stop();
             if (!_pointerInPopup) HoverPopup.IsOpen = false;
         };
-        DataContextChanged += (_, _) =>
+        DataContextChanged += (_, e) =>
         {
-            if (DataContext is TimelineViewModel vm)
+            // Unsubscribe the previous VM first — resubscribing without this leaks a handler
+            // per DataContext change if this view is ever hosted non-singleton.
+            if (e.OldValue is TimelineViewModel oldVm)
+                oldVm.PropertyChanged -= OnVmPropertyChanged;
+            if (e.NewValue is TimelineViewModel vm)
                 vm.PropertyChanged += OnVmPropertyChanged;
         };
     }

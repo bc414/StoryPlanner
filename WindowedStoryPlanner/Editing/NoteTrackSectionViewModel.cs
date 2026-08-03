@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace WindowedStoryPlanner;
 
-public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget
+public partial class NoteTrackSectionViewModel : ObservableObject, IDropTarget, IDisposable
 {
     private readonly int _ownerId;
     private readonly OwnerType _ownerType;

@@ -83,8 +83,22 @@ public interface IStoryService : IDisposable
     /// + ignore list — used after Confirm/Reject/Ignore/Un-ignore to refresh one Scan Preview row
     /// without re-parsing or re-scanning the whole export.</summary>
     Task<ConversationSyncItem> RescanOneAsync(ParsedClaudeConversation export);
+
+    /// <summary>Removes a note and, with it, its NoteSourceReference rows — citations are
+    /// note-owned, so this cascade is the only thing standing in for the FK the schema
+    /// deliberately lacks. Every note-delete path must come through here.</summary>
     void DeleteNote(int noteId);
-    string GetFullProjectJson();
+
+    /// <summary>Removes a link and its owned NarrativePropertyValue rows. The value rows have no
+    /// OwnerType column, so once the link is gone a recycled link id would silently inherit them —
+    /// this cascade is what prevents that. Every link-delete path must come through here.</summary>
+    void DeleteLink(int linkId);
+
+    /// <summary>Removes every NarrativePropertyValue owned by the given entity, resolving the
+    /// valueless OwnerType by tracing ValueDefinitionId → NarrativePropertyDefinitionId →
+    /// OwnerType. Called by ContentDeleter before removing any note-owning entity.</summary>
+    void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType);
+
     string GetAiContextJson(bool includeVerbatim);
     Task PurgeUnassignedNotesAsync();
     NoteTrackDefinition? GetNoteTrackDefinition(int id);

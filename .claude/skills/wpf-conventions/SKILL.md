@@ -24,12 +24,14 @@ Never introduce `vm:`/`v:`-style prefixes again.
 **Feature-first folders, no Views/ or ViewModels/ parents.** A feature's views, view models, and
 controls live together in one folder — the folder is the working set, the grep scope, and the
 diff. Current layout: `Shell/` (app composition: MainWindow, locator, registry, window manager,
-settings), `Common/` (genuinely shared machinery: converters, behaviors, NoteView, pickers,
-ContentFactory/Deleter, TaggedNotesViewModelBase), `Editing/` (the entity-editor machinery —
-NarrativeElement family, note tracks, CommonWindow, widgets — deliberately framed as a feature:
-the libraries are thin browsers over it), then one folder per feature: `Subjects/ Chapters/
-Stories/ PlotPoints/ Themes/ Sources/ Definitions/ Files/ Conversations/ Export/ Timeline/`.
-Root keeps only `App.xaml`, `Styles.xaml`, `AssemblyInfo.cs`, and quarantined dead code.
+settings), `Common/` (genuinely shared machinery: converters, behaviors, NoteView, pickers +
+`ScopedPickerController`, ContentFactory/Deleter, OwnerNavigator, TaggedNotesViewModelBase,
+CrossCutNoteListView), `Editing/` (the entity-editor machinery — NarrativeElement family, note
+tracks, CommonWindow, widgets — deliberately framed as a feature: the libraries are thin
+browsers over it), then one folder per feature: `Subjects/ Chapters/ Stories/ PlotPoints/
+Themes/ Sources/ Definitions/ Files/ Conversations/ Export/ Timeline/ Search/ Progress/
+PropertyGaps/ MissingFields/`. Root keeps only `App.xaml`, `Styles.xaml`, `AssemblyInfo.cs`;
+quarantined dead code lives in `RetainedOldViews/`.
 
 The rules that keep it healthy:
 
@@ -164,26 +166,46 @@ _storyService.SaveAsync().FireAndForget();   // observed; reports the failure wh
 `Common/FireAndForgetExtensions.cs`; `[CallerMemberName]` labels the report with the calling
 method, so the dialog names the operation that did not persist.
 
-## `ContentDeleter` is the referential integrity system
+## Deletion is a three-layer system (reshaped 2026-08-02)
 
-The database has no foreign keys, so **nothing but this class prevents orphaned rows.** Deletes
-that could orphan return `bool` and refuse rather than cascading:
+The database has no foreign keys, so **application code is the only thing preventing orphaned
+rows.** The responsibilities are split so no single caller can get it wrong:
+
+1. **`ContentIntegrity` (Core)** — id-based *guard predicates* (`HasNotes`, `ThemeHasNotes`,
+   `SubjectDefinitionHasDependents`, `NoteTrackDefinitionHasNotes`, the source-material and
+   narrative-property guards). Pure reads over `IStoryService`, fixture-tested in
+   `ContentIntegrityTests`. New guard logic goes HERE, so it stays testable.
+2. **`StoryService.DeleteNote` / `DeleteLink` (Core)** — the *unconditional cascades* that must
+   hold no matter which UI path triggered the delete: a note takes its `NoteSourceReference`
+   rows with it; a link takes its owned `NarrativePropertyValue` rows
+   (`RemoveOwnedNarrativePropertyValues` — `NarrativePropertyValue` has an `OwnerId` but **no
+   `OwnerType`**, so ownership resolves only by tracing `ValueDefinitionId →
+   NarrativePropertyDefinitionId → .OwnerType`; never reinvent that trace). Tested in
+   `StoryServiceTests`. Every note/link delete path must come through these.
+3. **`ContentDeleter` (this layer)** — the *guarded entity deletes*: consult a `ContentIntegrity`
+   predicate, refuse with `false` rather than cascade, keep `IViewModelRegistry` in sync, save.
+   Sentinel-orphaning deletes (Story → `StoryId 0`, Theater → `TheaterId 0`) and the one
+   documented deliberate cascade (a property definition's provably-unassigned allowed values)
+   also live here.
 
 ```csharp
 public async Task<bool> TryDeleteLinkAsync(PlotPointSubjectLinkViewModel link)
 {
-    bool hasNotes = _storyService.Notes
-        .Any(n => n.OwnerId == link.Id && n.OwnerType == OwnerType.PlotPointSubjectLink);
-    if (hasNotes) return false;                       // guard, not cascade
-    RemoveOwnedNarrativePropertyValues(link.Id, OwnerType.PlotPointSubjectLink);
-    …
+    if (ContentIntegrity.HasNotes(_storyService, link.Id, OwnerType.PlotPointSubjectLink))
+        return false;                                 // guard, not cascade
+    _storyService.DeleteLink(link.Id);                // Core cascade
+    _registry.AllPlotPointSubjectLinkViewModels.Remove(link);
+    await _storyService.SaveAsync();
+    return true;
 }
 ```
 
-**Any new deletable entity needs its guard added here.** And note
-`RemoveOwnedNarrativePropertyValues` — `NarrativePropertyValue` has an `OwnerId` but **no
-`OwnerType`**, so ownership resolves only by tracing `ValueDefinitionId →
-NarrativePropertyDefinitionId → .OwnerType`. Copy that method's logic; do not reinvent it.
+**Any new deletable entity needs its predicate in `ContentIntegrity` and its `TryDelete*Async`
+here — never an inline `Remove` in a view model.** That inline shortcut is exactly how the
+definitions/themes deletes went unguarded for a year (FEATURE-AUDIT F6). A refused delete is
+silent by default: pair every refusing command with a status line
+(`DefinitionsEditorViewModel.DefinitionStatus` / `NarrativePropertyStatus`,
+`ThemeLibraryViewModel.ThemeStatus` are the pattern).
 
 ## Editor modes reorganize the UI, and the behavior lives in data
 
@@ -215,7 +237,41 @@ per-mode behavior in the definition table, not in `switch` statements.
   preselected; the plot point is wrong on both counts. `Common/OwnerNavigator.Open(...)` is the one
   implementation — every cross-owner surface routes through it.
 - **Views:** UserControls for library and widget surfaces, Windows for detail surfaces.
-  Value converters live in `Views/Converters.cs`; drag-drop behaviors in `Views/Behaviors/`.
+  Value converters live in `Common/Converters.cs`; drag-drop behaviors in `Common/Behaviors/`.
+
+## Lifecycle: who unsubscribes constructor-era subscriptions (adopted 2026-08-02)
+
+The registry's collections and events, and `AppSettings`, are **app-lifetime singletons** — any
+handler attached to them pins its owner (and everything its owner references) until removed. The
+convention, after this leak class was found in three places at once:
+
+- **A VM that subscribes must have a teardown, and something must own calling it.**
+  `NarrativeElementViewModel` implements `IDisposable`; `ProjectLoader.Load()` disposes every
+  element VM it is about to replace *before* `registry.Clear()`. A subclass adding its own
+  registry subscriptions overrides `Dispose` and calls base
+  (`PlotPointSubjectLinkViewModel` is the example).
+- **`NoteTrackViewModel` subscribes in `Initialize()` and unsubscribes in `Uninitialize()`** —
+  never in the constructor. Track sets are rebuilt wholesale on every window open; a
+  constructor-subscribed track that misses teardown re-scans all notes on every mutation forever.
+  `RebuildNoteTracks` tears the old set down fully before clearing; both lifecycle methods are
+  idempotent.
+- **`SubjectGroupViewModel`** tracks what it subscribed to in a `HashSet` (Reset-safe, same
+  discipline as `TaggedNotesViewModelBase`) and is disposed by `RebuildGroups` before
+  replacement.
+- **`CommonWindow.SelectedLink`'s setter is the ONLY caller of the selected link's
+  `OnWindowOpened`/`OnWindowClosed` pair.** An extra explicit call at any site unbalances the
+  refcount and silently skips teardown — the `Math.Max(0, …)` clamp hides the underflow, so the
+  bug has no symptom. Cross-cut windows stay on the established pattern:
+  `WindowManager.ShowSingleton` disposes `(DataContext as IDisposable)` on `Closed`.
+
+## Pickers: one controller, thin adapters
+
+`Common/ScopedPickerController<TScope,TItem>` owns the scope-combo + item-combo + scoped-search
+picker behavior. `SubjectPickerControl` (Type → Subject) and `PlotPointPickerControl`
+(Chapter → PlotPoint) are thin adapters over it — they had been line-for-line clones, and a
+search enhancement once had to be hand-ported across three controls. A future picker (Theme,
+WorkPhase, …) instantiates the controller rather than becoming the next copy.
+`SourceMaterialPickerControl` keeps its extra chip/quick-add layer but shares the shape.
 
 ## The crash safety net (added 2026-07-31)
 
@@ -248,19 +304,23 @@ window down mid-edit.
 
 ## Traps
 
-- **`NewViewModels/`** is an empty folder declared in the `.csproj`. Dead scaffolding — do not
-  populate it; put view models in `ViewModels/`.
-- **`DesignTimeStoryService.cs`** is entirely commented out and references a pre-`TotalRework`
-  model (`Character`, `CodexEntry`, `StoryThread`). It will not compile against the current
-  `IStoryService` and is not a usable template.
+- **New files go in their feature's folder** (or `Common/` on second use) — there is no
+  `Views/`, `ViewModels/`, or `NewViewModels/` and none may be recreated; the 2026-07-30
+  reorganization abolished them.
+- **`RetainedOldViews/DesignTimeStoryService.cs`** is entirely commented out and references a
+  pre-`TotalRework` model (`Character`, `CodexEntry`, `StoryThread`). It will not compile against
+  the current `IStoryService` and is not a usable template.
 - **`App.xaml.cs` registers a DI `AppDbContext`** against `"Data Source=StoryPlanner.db"` that is
   never used — `StoryService` builds its own context from the opened file path. Don't follow it.
 - **`AppSettings.IsArchiveMode`** is set from the *filename* containing "archive"
   (`App.xaml.cs`). It makes notes read-only, includes `TrackType.Unset` in exports, and re-sorts
   subjects by unconfirmed count. Archive files are a different mode, not just different data.
-- **Stubs that look like bugs:** `StoryService.GetMarkdown()` and `GetAiContextJson()` return
-  `string.Empty`; `PurgeUnassignedNotesAsync()` is a no-op; `PlotPoint.GetCombinedText()` returns
+- **Stubs that look like bugs:** `StoryService.GetAiContextJson()` returns `string.Empty`;
+  `PurgeUnassignedNotesAsync()` is a no-op; `PlotPoint.GetCombinedText()` returns
   `string.Empty`. Check intent before "fixing" any of them.
+- **The final save lives in `App.OnExit`** — note prose binds `PropertyChanged` straight into
+  live POCOs, so edits accumulate untracked-by-any-command until a save runs. Do not remove the
+  exit save, and any new "close the app" path must go through normal shutdown so it fires.
 
 ## Before you finish
 
@@ -273,8 +333,8 @@ project rather than the solution — the running app locks
 Brian a numbered checklist; publish only after he signs off. Full procedure:
 `.claude/skills/testing/SKILL.md`, "The third tier is Brian".
 
-**This layer has no automated coverage yet, and that is a known, documented gap** — see
-`.claude/skills/testing/SKILL.md` "Known gap". `ContentDeleter`'s guards are the highest-value
-untested code in the repo; the blocker is that its methods take view models rather than ids.
-When you next touch deletion logic, extracting `bool HasNotes(int ownerId, OwnerType ownerType)`
-would make the guards testable without standing up the view-model graph.
+**The WPF layer itself has no automated coverage, and that is a known, documented gap** — see
+`.claude/skills/testing/SKILL.md` "Known gap". The deletion story is no longer part of that gap:
+the guards live id-based in `ContentIntegrity`, the cascades in `StoryService.DeleteNote`/
+`DeleteLink`, and both are fixture-tested — what remains untested is only `ContentDeleter`'s
+thin registry-sync wrappers, along with everything else that needs a running dispatcher.

@@ -14,9 +14,9 @@ namespace StoryPlanner.Mcp;
 public sealed class ReferenceTools(StoryPlanSources sources)
 {
     [McpServerTool(Name = "get_track_definitions")]
-    [Description("The 106 note-track definitions from the working plan (v2) — pass 3 of retrieval: what each track's notes MEAN. Grouped by subject type and owner scope; each carries its TrackType, the authorial cognitive mode, DisplayQuestion (the exact question its notes answer), and Usage/Audit directives where recorded. Filter by track names and/or subject type. Track definitions are final — safe to read once per session and reuse.")]
+    [Description("Every note-track definition from the working plan (v2) — pass 3 of retrieval: what each track's notes MEAN. Grouped by subject type and owner scope; each carries its TrackType, the authorial cognitive mode, DisplayQuestion (the exact question its notes answer), and Usage/Audit directives where recorded. Filter by track names and/or subject type. Track definitions are final in shape — safe to read once per session and reuse.")]
     public string GetTrackDefinitions(
-        [Description("Exact track names to return (case-insensitive), e.g. [\"Backstory\",\"Reader Opinion Plan\"]. Omit for all 106.")] string[]? trackNames = null,
+        [Description("Exact track names to return (case-insensitive), e.g. [\"Backstory\",\"Reader Opinion Plan\"]. Omit for all.")] string[]? trackNames = null,
         [Description("Filter to one subject type, e.g. \"Character\". Omit for all.")] string? subjectType = null)
     {
         var c = sources.Get(Corpus.Working);
@@ -87,7 +87,8 @@ public sealed class ReferenceTools(StoryPlanSources sources)
     public string ListNarrativeProperties(
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
-        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         var sb = new StringBuilder();
 
         sb.AppendLine($"# narrative properties {Query.CorpusName(c.Corpus)} — {c.NarrativeProperties.Count}");
@@ -164,7 +165,8 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working",
         [Description("Filter to one subject type (working plan) or triage label (archive), case-insensitive. Omit for all.")] string? subjectType = null)
     {
-        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         var sb = new StringBuilder();
 
         var groups = c.Subjects
@@ -194,7 +196,8 @@ public sealed class ReferenceTools(StoryPlanSources sources)
     public string ListThemes(
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
-        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         var sb = new StringBuilder();
         sb.AppendLine($"# themes {Query.CorpusName(c.Corpus)} — {c.Themes.Count}");
         foreach (var t in c.Themes.OrderBy(t => t.Id))
@@ -212,7 +215,8 @@ public sealed class ReferenceTools(StoryPlanSources sources)
     public string ListSourceMaterials(
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
-        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         var sb = new StringBuilder();
 
         var allReferences = c.SourceReferencesByNote.Values.SelectMany(refs => refs).ToList();
@@ -276,10 +280,16 @@ public sealed class ReferenceTools(StoryPlanSources sources)
     public string GetStats(
         [Description("\"working\", \"archive\", or \"both\" (default).")] string corpus = "both")
     {
+        // "both" is legal here; anything else must parse strictly — a typo silently
+        // answering "both" would misattribute one corpus's numbers to the other.
+        bool both = corpus.Equals("both", StringComparison.OrdinalIgnoreCase);
+        if (!both && !Query.TryParseCorpus(corpus, out _))
+            return Query.UnknownCorpusMessage(corpus) + " (This tool also accepts \"both\".)";
+
         var sb = new StringBuilder();
-        if (!corpus.Equals("archive", StringComparison.OrdinalIgnoreCase))
+        if (both || corpus.Equals("working", StringComparison.OrdinalIgnoreCase))
             AppendStats(sb, sources.Get(Corpus.Working));
-        if (!corpus.Equals("working", StringComparison.OrdinalIgnoreCase))
+        if (both || corpus.Equals("archive", StringComparison.OrdinalIgnoreCase))
             AppendStats(sb, sources.Get(Corpus.Archive));
         return Query.Cap(sb);
     }
@@ -355,7 +365,8 @@ public sealed class ReferenceTools(StoryPlanSources sources)
     public string ListStories(
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
-        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         var sb = new StringBuilder();
         sb.AppendLine($"# stories in {Query.CorpusName(c.Corpus)} — {c.Stories.Count}");
         foreach (var s in c.Stories.OrderBy(s => s.OrderIndex))
@@ -376,7 +387,8 @@ public sealed class ReferenceTools(StoryPlanSources sources)
     public string ListTheaters(
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
-        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         var sb = new StringBuilder();
         sb.AppendLine($"# theaters in {Query.CorpusName(c.Corpus)} — {c.Theaters.Count}");
         if (c.Theaters.Count == 0)
@@ -430,7 +442,8 @@ public sealed class ReferenceTools(StoryPlanSources sources)
         [Description("Story ids. Empty array → inventory of every story.")] int[] ids,
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
-        var c = sources.Get(corpus.Equals("archive", StringComparison.OrdinalIgnoreCase) ? Corpus.Archive : Corpus.Working);
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
         if (ids.Length == 0) return ListStories(corpus);
 
         var sb = new StringBuilder();

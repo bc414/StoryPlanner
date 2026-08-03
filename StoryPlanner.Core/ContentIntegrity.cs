@@ -10,6 +10,34 @@ namespace StoryPlanner.Core;
 /// </summary>
 public static class ContentIntegrity
 {
+    /// <summary>True if the owner identified by the polymorphic pair still owns any note.
+    /// The generic guard every note-owning entity's delete checks first.</summary>
+    public static bool HasNotes(IStoryService storyService, int ownerId, OwnerType ownerType) =>
+        storyService.Notes.Any(n => n.OwnerId == ownerId && n.OwnerType == ownerType);
+
+    /// <summary>True if any note is tagged with this theme — deleting the theme would silently
+    /// erase that tagging work (Note.ThemeId is a raw id with nothing else guarding it).</summary>
+    public static bool ThemeHasNotes(IStoryService storyService, int themeId) =>
+        storyService.Notes.Any(n => n.ThemeId == themeId);
+
+    /// <summary>
+    /// True if anything still hangs off this SubjectDefinition: subjects typed by it, or note-track /
+    /// narrative-property definitions scoped to it. These are Type Object rows — the schema's
+    /// load-bearing metadata — so deleting one with dependents strands every one of them.
+    /// </summary>
+    public static bool SubjectDefinitionHasDependents(IStoryService storyService, int subjectDefinitionId) =>
+        storyService.Subjects.Any(s => s.SubjectDefinitionId == subjectDefinitionId) ||
+        storyService.NoteTrackDefinitions.Any(t => t.SubjectDefinitionId == subjectDefinitionId) ||
+        storyService.NarrativePropertyDefinitions.Any(p => p.SubjectDefinitionId == subjectDefinitionId);
+
+    /// <summary>
+    /// True if any note carries this track id. Deleting a track with notes silently demotes them to
+    /// "Unassigned" (categorization lost by reference), and for a condition track it also flips
+    /// their date semantics — event-vs-condition lives on the track, not the note.
+    /// </summary>
+    public static bool NoteTrackDefinitionHasNotes(IStoryService storyService, int noteTrackDefinitionId) =>
+        storyService.Notes.Any(n => n.NoteTrackDefinitionId == noteTrackDefinitionId);
+
     /// <summary>True if any SourceMaterialPart or NoteSourceReference still points at this
     /// Work — deleting it would orphan them.</summary>
     public static bool SourceMaterialHasDependents(IStoryService storyService, int sourceMaterialId) =>

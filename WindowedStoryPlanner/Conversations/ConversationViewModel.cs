@@ -29,6 +29,36 @@ public partial class ConversationViewModel : ObservableObject
         _storyService = storyService;
     }
 
+    /// <summary>
+    /// Builds one fully-wired VM per conversation — blocks grouped, ordered, initialized, and
+    /// parented; OnStatsRefreshed attached. The ONE construction recipe, shared by ProjectLoader
+    /// (initial load) and ConversationLibraryViewModel (post-import rebuild): when the 2026-07-31
+    /// pipeline redesign changed block-VM construction, both copies had to change in lockstep,
+    /// which is exactly the drift this factory removes.
+    /// </summary>
+    public static List<ConversationViewModel> BuildAll(IStoryService storyService, Action onStatsRefreshed)
+    {
+        var blocksByConv = storyService.ConversationBlocks
+            .GroupBy(b => b.ConversationId)
+            .ToDictionary(g => g.Key, g => g.OrderBy(b => b.BlockNumber).ToList());
+
+        var result = new List<ConversationViewModel>();
+        foreach (var conv in storyService.Conversations)
+        {
+            var convVm = new ConversationViewModel(conv, storyService);
+            if (blocksByConv.TryGetValue(conv.Id, out var blocks))
+                foreach (var block in blocks)
+                {
+                    var blockVm = new ConversationBlockViewModel(block, storyService) { ParentConversation = convVm };
+                    blockVm.Initialize();
+                    convVm.Blocks.Add(blockVm);
+                }
+            convVm.OnStatsRefreshed = onStatsRefreshed;
+            result.Add(convVm);
+        }
+        return result;
+    }
+
     // ── Passthrough display properties ─────────────────────────────────────────
 
     public int Id => Model.Id;
