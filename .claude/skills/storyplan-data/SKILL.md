@@ -276,6 +276,42 @@ pre-enumerated (seeded from a reviewable config, not accreted on first citation)
 is real negative space only if the set is known to be complete; do not treat an empty
 `SourceMaterialParts` table as "nothing to cite," check whether seeding has run.
 
+**`sources.db` — the cited TEXT, in a different file** (2026-08-03). The `.storyplan` records that
+a note cites `FiM·S3E01`; it never holds what S3E01 says. That text lives in a standalone SQLite
+file (Brian's: `C:\Users\Brian\Desktop\TLTT Sources.db`, ~52 MB, `STORYPLAN_SOURCE_TEXTS`), built
+offline by `tools/StoryPlanner.SourceTexts` and read only by the MCP server — the WPF app never
+opens it. **Do not look for a body column in `SourceMaterialPart`; there isn't one, by design.**
+
+One table, no FKs (same house rule), one unique index — which is *not* a contradiction of "no
+indexes": that rule follows from "nothing queries the `.storyplan` after load," and this file is
+queried per call precisely so its bodies never become resident.
+
+```
+SourceTexts(Id, WorkName, PartCode, UnitKey, UnitLabel, Kind, OrderIndex, Body, SourceRef, RetrievedUtc)
+```
+
+`WorkName`/`PartCode` are the **string** join back to the plan (`SourceMaterial.Name`,
+`SourceMaterialPart.Code`) — never ids, because the two files are reseeded independently and an id
+join would silently re-point text. `UnitKey` subdivides a Part where the source is itself keyed:
+empty for prose and transcripts (one unit per Part), the localisation key for EaW
+(`EQS_Crystal_Fair_desc`), and the second half's own code on a merged FiM two-parter (`S2E02` under
+Part `S2E01`). `Kind` is `transcript` | `prose` | `flavor`.
+
+Coverage is partial on purpose and is **not** a defect: the fics are ongoing, the FiM movie and
+shorts were never transcribed, and three EaW Parts are tech trees with no country file. Query it:
+
+```sql
+-- coverage per work (run against sources.db, not the .storyplan)
+SELECT WorkName, COUNT(*) units, COUNT(DISTINCT PartCode) parts, SUM(LENGTH(Body)) chars
+FROM SourceTexts GROUP BY WorkName;
+```
+
+Two traps if you re-run the ingest. **Acquire fics as EPUB, never the Fimfiction `.txt`**: the
+plain-text export drops every italic, and this author sets internal monologue in them. And
+**never re-run the full `source-material.v2.json`** to add Parts — it re-stamps `Name`/`OrderIndex`
+on every Part it lists and would recreate the 14 FiM two-parters Brian merged in-app; use a
+work-scoped config like `configs/source-material-pk-sections.json`.
+
 **`NarrativePropertyDefinitions` / `NarrativePropertyValueDefinitions` / `NarrativePropertyValues`
 / `WorkPhases`** (`Models/NarrativeProperty*.cs`, `Models/WorkPhase.cs`) — a generic
 typed-enum-on-an-entity system, dormant from 2026-05-06 until its first real use on 2026-07-31.

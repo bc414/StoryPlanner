@@ -19,7 +19,13 @@ if (string.IsNullOrWhiteSpace(workingPath) || string.IsNullOrWhiteSpace(archiveP
     return 1;
 }
 
+// Optional, unlike the two .storyplan files: the plan's citations resolve without it, and only
+// the cited text is unavailable when it is absent. So no fail-fast here — the source-text tools
+// report that they are unconfigured and every other tool works unchanged.
+var sourceTextPath = Environment.GetEnvironmentVariable("STORYPLAN_SOURCE_TEXTS");
+
 builder.Services.AddSingleton(new StoryPlanSources(workingPath, archivePath));
+builder.Services.AddSingleton(new SourceTextStore(sourceTextPath));
 
 builder.Services
     .AddMcpServer(o => o.ServerInstructions = ServerInfo.Instructions)
@@ -28,7 +34,8 @@ builder.Services
     .WithTools<ArchiveTools>()
     .WithTools<ConversationTools>()
     .WithTools<FlaggedTools>()
-    .WithTools<ReferenceTools>();
+    .WithTools<ReferenceTools>()
+    .WithTools<SourceTextTools>();
 
 var host = builder.Build();
 
@@ -40,6 +47,12 @@ try
     sources.LoadAll();
     Console.Error.WriteLine(
         $"storyplanner-mcp: loaded working plan '{workingPath}' and archive '{archivePath}'.");
+
+    // Manifest only — source-text bodies are streamed per query and never held resident.
+    var sourceTexts = host.Services.GetRequiredService<SourceTextStore>();
+    Console.Error.WriteLine(sourceTexts.IsConfigured
+        ? $"storyplanner-mcp: source texts '{sourceTextPath}' ({sourceTexts.Manifest().Count} units)."
+        : "storyplanner-mcp: no source-text corpus (STORYPLAN_SOURCE_TEXTS unset or missing).");
 }
 catch (Exception ex)
 {

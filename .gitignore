@@ -39,3 +39,13 @@ riderModule.iml
 # Saved reference webpages used to seed source-material.v2.json — large HTML
 # snapshots (with asset folders), not source, and easily re-saved from the web.
 /source_material_references/
+
+# Downloaded source material ingested into sources.db (StoryPlanner.SourceTexts):
+# published works in personal-use copies, re-downloadable, and megabytes of prose
+# this repo has no business carrying. The ingested truth lives in sources.db, which
+# sits beside the .storyplan files outside the repo.
+/*.epub
+/*.storyplan
+/sources.db
+/The Princess and the Kaiser*.txt
+/Pax Chrysalia*.txt

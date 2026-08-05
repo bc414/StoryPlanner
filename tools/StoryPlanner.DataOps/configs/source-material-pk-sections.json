@@ -1,0 +1,58 @@
+{
+  "_comment": [
+    "Adds the 22 section Parts for the two 'Wind that Fanned the Flames' chapters of P&K, which are",
+    "an ontology of role-vignettes rather than single scenes. Each section is one unit of a mining",
+    "pass, which is what a Part is; a citation to 235,000 characters of 'chapter' is barely more",
+    "precise than citing the whole fic.",
+    "",
+    "DELIBERATELY SCOPED TO P&K ONLY — do not merge this into source-material.v2.json and re-run",
+    "that. The live Part set has diverged from the original config on purpose (Brian merged the FiM",
+    "two-parters in-app: 216 Parts live against the config's 230), and seed-source-material re-stamps",
+    "Name/Description/OrderIndex on every Part it is given, so re-running the full config would",
+    "recreate the 14 merged episodes and undo that decision.",
+    "",
+    "The Work row's description/partNoun/orderIndex below are the live values, so the upsert leaves",
+    "it byte-identical. Section names are the fic author's own headings, read out of the EPUB — the",
+    "same standing as the published-work descriptions seed-source-material already stamps, not",
+    "Brian's framing prose. ReviewState is set once on creation and never re-stamped, so a re-run",
+    "cannot un-review a section he has checked off.",
+    "",
+    "Parent Parts ch121 and ch122 are left in place: ch122 already carries a citation, and deleting",
+    "Parts is authorial work this op cannot do. They hold no text of their own after the split, which",
+    "the ingest reports as 'split', not as missing."
+  ],
+
+  "sourceMaterials": [
+    {
+      "name": "P&K",
+      "description": "The Princess and the Kaiser",
+      "partNoun": "Chapter",
+      "orderIndex": 3,
+      "parts": [
+        { "code": "ch121-queens-scientist",      "name": "The Queen's Scientist",        "orderIndex": 124 },
+        { "code": "ch121-father",                "name": "Father",                       "orderIndex": 125 },
+        { "code": "ch121-hive-marshal",          "name": "The Hive Marshal",             "orderIndex": 126 },
+        { "code": "ch121-last-of-her-line",      "name": "Last of Her Line",             "orderIndex": 127 },
+        { "code": "ch121-lord-commander",        "name": "The Lord Commander",           "orderIndex": 128 },
+        { "code": "ch121-captain",               "name": "The Captain",                  "orderIndex": 129 },
+        { "code": "ch121-archon",                "name": "The Archon",                   "orderIndex": 130 },
+        { "code": "ch121-student-of-friendship", "name": "Student of Friendship",        "orderIndex": 131 },
+        { "code": "ch121-husband",               "name": "Husband",                      "orderIndex": 132 },
+        { "code": "ch121-republican",            "name": "The Republican",               "orderIndex": 133 },
+
+        { "code": "ch122-spy",                   "name": "The Spy",                      "orderIndex": 134 },
+        { "code": "ch122-storm-kings-right-hoof","name": "The Storm King's Right Hoof",  "orderIndex": 135 },
+        { "code": "ch122-parolee",               "name": "The Parolee",                  "orderIndex": 136 },
+        { "code": "ch122-element-of-generosity", "name": "The Element of Generosity",    "orderIndex": 137 },
+        { "code": "ch122-sister",                "name": "Sister",                       "orderIndex": 138 },
+        { "code": "ch122-orphan",                "name": "Orphan",                       "orderIndex": 139 },
+        { "code": "ch122-kommandant",            "name": "The Kommandant",               "orderIndex": 140 },
+        { "code": "ch122-crusader",              "name": "The Crusader",                 "orderIndex": 141 },
+        { "code": "ch122-daughter",              "name": "Daughter",                     "orderIndex": 142 },
+        { "code": "ch122-brother",               "name": "Brother",                      "orderIndex": 143 },
+        { "code": "ch122-mother",                "name": "Mother",                       "orderIndex": 144 },
+        { "code": "ch122-aunt",                  "name": "Aunt",                         "orderIndex": 145 }
+      ]
+    }
+  ]
+}

@@ -82,6 +82,21 @@ public static class ServerInfo
         citations, so an untouched Part is real negative space, not just an unpopulated tag —
         list_source_materials surfaces it as a flat list, never ranked by likely yield.
 
+        SOURCE TEXT (list_source_texts / search_source_texts / get_source_text) is a FOURTH
+        corpus: the published material a citation points at — MLP:FiM episode transcripts, the
+        fanfics' chapters, Equestria at War's per-country flavour text, one unit per localisation
+        key. It is joined to the plan only by (Work name, Part code) — the pair a citation renders
+        as "FiM·S3E01" — and only when a caller asks; plan tools never fold cited text into their
+        own output. Availability is partial by nature and reported as coverage, never as a defect:
+        a fic is ongoing, an episode was never transcribed, a Part was seeded before its text
+        existed. The corpus may be absent entirely, in which case the tools say so and everything
+        else works unchanged. Search is regex in document order — no ranking, no relevance
+        ordering, no stemming, no fuzzy matching; the caller supplies the vocabulary. get_source_text
+        windows long units via offset/length, since one chapter can exceed the whole output budget.
+        These tools report what the source says. They never rank Parts by likely yield, never
+        propose what to write from a passage, and never propose a citation — reading the text is
+        retrieval; deciding what it means for the story is the author's.
+
         Alongside its note tracks, an entity type may define NARRATIVE PROPERTIES
         (list_narrative_properties) — closed-vocabulary fields answered by picking one of a fixed
         set of allowed values, rather than by prose. Single-select: an entity holds at most one

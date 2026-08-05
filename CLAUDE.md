@@ -150,6 +150,27 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   colours all four quadrants (2026-07-31): untouched = plain white (the baseline), cited-but-not-
   reviewed = warm blue, reviewed-and-cited = green, reviewed-with-zero-citations = beige. Four
   labels, no ranking — no quadrant is a score or a queue position.
+- **Source *text* is a fourth corpus, and it lives outside the `.storyplan` (2026-08-03).** The
+  published material a citation points at — FiM episode transcripts, the fanfics' chapters, EaW's
+  per-country flavour text (one unit per localisation key) — is ingested by
+  `tools/StoryPlanner.SourceTexts` into a standalone `sources.db` (`STORYPLAN_SOURCE_TEXTS`,
+  Brian's is `Desktop/TLTT Sources.db`, ~52 MB). **Not** in the `.storyplan`: the app eager-loads
+  its whole database and has no use for prose it doesn't own, and every `VACUUM INTO` backup would
+  carry it. The MCP server reads it; the WPF app never opens it. Joined to the plan **only by
+  `(SourceMaterial.Name, SourceMaterialPart.Code)`** — never by id, since a reseed must not
+  silently re-point text — and the ingest reports both directions of mismatch rather than zipping
+  a short list onto a long one. Bodies are streamed per query and never cached; only a manifest is
+  resident, which is also why this one file carries an index (the `.storyplan`'s "nothing queries
+  it after load" premise is exactly what is untrue here). **Acquire as EPUB/structured, never as
+  plain text**: the `.txt` Fimfiction export silently drops every italic, and this author sets
+  internal monologue in them. Partial coverage is normal and is reported as coverage, never as a
+  defect — the fic is ongoing, the movie was never transcribed. Same standing rule as everywhere:
+  the tools show what the source says, and never rank Parts by likely yield, propose what to write
+  from a passage, or propose a citation. **Splitting a Part is authorial**: P&K's two "Wind that
+  Fanned the Flames" chapters are an ontology of role-vignettes, so their 22 sections were promoted
+  to Parts of their own (`ch121-queens-scientist`, …) via a **P&K-scoped** seed config — never
+  re-run the full `source-material.v2.json`, which would recreate the 14 FiM two-parters Brian
+  merged in-app.
 - **Narrative properties are closed-vocabulary fields, and they are authorial** (2026-07-31, first
   real use after a year dormant). `NarrativePropertyDefinition` is a Type Object row scoped by
   `(SubjectDefinitionId, OwnerType)` exactly like `NoteTrackDefinition` —
@@ -208,6 +229,14 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
   keeps running the server code from its last connect. If the publish step itself fails on a
   locked file, some session still holds the *publish* folder open mid-reconnect — wait for it to
   finish or ask that session to retry `/mcp`.
+- **Source-text ingest** (`tools/StoryPlanner.SourceTexts`) is offline and separate from DataOps
+  because it writes `sources.db`, not a `.storyplan` — it opens the plan `Mode=ReadOnly` purely to
+  learn the Work/Part spine. `dotnet run --project tools/StoryPlanner.SourceTexts -- <config.json>
+  [--apply] [--work NAME]`; dry run prints the full chapter↔Part mapping and both directions of
+  mismatch, and refuses to write if anything is unresolved. Re-ingest replaces a Work wholesale, so
+  a re-download can shed chapters that vanished upstream. `STORYPLAN_SOURCE_TEXTS` is **optional**
+  in all three MCP configs — absent, the source-text tools say so and the rest of the server is
+  unaffected.
 - `.storyplan` is raw SQLite in **WAL mode**. Reads never block the running app. The main file's
   **mtime does not advance on write** — change detection uses `PRAGMA data_version`.
 - **`StoryService` is not read-only:** `OpenProjectAsync` runs `MigrateAsync()` (upgrades the

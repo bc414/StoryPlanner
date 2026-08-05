@@ -1,0 +1,69 @@
+{
+  "_comment": [
+    "Ingest config for sources.db — published source material the MCP server retrieves so that a",
+    "citation like 'FiM·S3E01' can be read rather than merely pointed at.",
+    "",
+    "Paths point at Brian's own copies in place; nothing is copied into the repo. The two fic EPUBs",
+    "live in the repo root and are gitignored — EPUB rather than the .txt export because the .txt",
+    "loses every italic (this author sets internal monologue in them) and has no reliable chapter",
+    "list, which would have made the chapter-to-Part mapping a guess.",
+    "",
+    "splitChapters names the P&K chapters that are an ontology of role-vignettes rather than a",
+    "single scene. Each marked section becomes its own Part (ch121-queens-scientist, …), because a",
+    "citation to 235,000 characters of 'chapter' is barely more precise than citing the whole fic.",
+    "",
+    "mergeInto is filled from the dry run's orphan list, never inferred: the plan merges the",
+    "two-part episodes into one Part while the transcript corpus lists both halves."
+  ],
+
+  "storyplan": "C:\\Users\\Brian\\Desktop\\TLTT v2.storyplan",
+  "output": "C:\\Users\\Brian\\Desktop\\TLTT Sources.db",
+
+  "sources": [
+    {
+      "work": "P&K",
+      "reader": "fimfiction-epub",
+      "path": "c:\\Users\\Brian\\RiderProjects\\StoryPlanner\\the-princess-and-the-kaiser.epub",
+      "splitChapters": ["ch121", "ch122"]
+    },
+    {
+      "work": "Pax Chrysalia",
+      "reader": "fimfiction-epub",
+      "path": "c:\\Users\\Brian\\RiderProjects\\StoryPlanner\\pax-chrysalia.epub"
+    },
+    {
+      "work": "FiM",
+      "reader": "fim-transcript-json",
+      "path": "C:\\Users\\Brian\\Documents\\All MLP Transcripts.txt",
+      "_mergeIntoComment": [
+        "Every entry below was verified against the plan before being written here: the target Part",
+        "exists and its name is the two-parter with the 'Part 1/Part 2' suffix dropped, which is how",
+        "Brian merged them. S9E25 merges into S9E24 ('The Ending of the End') while S9E26 stands",
+        "alone ('The Last Problem') — the season 9 finale is a two-parter followed by a separate",
+        "episode, not a three-parter."
+      ],
+      "mergeInto": {
+        "S2E02": "S2E01",
+        "S2E26": "S2E25",
+        "S3E02": "S3E01",
+        "S4E02": "S4E01",
+        "S4E26": "S4E25",
+        "S5E02": "S5E01",
+        "S5E26": "S5E25",
+        "S6E02": "S6E01",
+        "S6E26": "S6E25",
+        "S7E26": "S7E25",
+        "S8E02": "S8E01",
+        "S8E26": "S8E25",
+        "S9E02": "S9E01",
+        "S9E25": "S9E24"
+      }
+    },
+    {
+      "work": "EaW",
+      "reader": "hoi4-localisation",
+      "path": "C:\\Users\\Brian\\Documents\\GitHub\\equestria_dev\\localisation\\english",
+      "includeTooltips": false
+    }
+  ]
+}

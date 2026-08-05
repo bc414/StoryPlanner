@@ -19,6 +19,7 @@
     <ItemGroup>
         <ProjectReference Include="..\..\tools\StoryPlanner.Mcp\StoryPlanner.Mcp.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.DataOps\StoryPlanner.DataOps.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.SourceTexts\StoryPlanner.SourceTexts.csproj" />
     </ItemGroup>
 
 </Project>

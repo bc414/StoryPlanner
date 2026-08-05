@@ -8,7 +8,8 @@
       ],
       "env": {
         "STORYPLAN_WORKING": "C:\\Users\\Brian\\Desktop\\TLTT v2.storyplan",
-        "STORYPLAN_ARCHIVE": "C:\\Users\\Brian\\Desktop\\TLTT v1 Archive.storyplan"
+        "STORYPLAN_ARCHIVE": "C:\\Users\\Brian\\Desktop\\TLTT v1 Archive.storyplan",
+        "STORYPLAN_SOURCE_TEXTS": "C:\\Users\\Brian\\Desktop\\TLTT Sources.db"
       }
     }
   }
