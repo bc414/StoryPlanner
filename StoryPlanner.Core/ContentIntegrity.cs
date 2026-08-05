@@ -28,7 +28,12 @@ public static class ContentIntegrity
     public static bool SubjectDefinitionHasDependents(IStoryService storyService, int subjectDefinitionId) =>
         storyService.Subjects.Any(s => s.SubjectDefinitionId == subjectDefinitionId) ||
         storyService.NoteTrackDefinitions.Any(t => t.SubjectDefinitionId == subjectDefinitionId) ||
-        storyService.NarrativePropertyDefinitions.Any(p => p.SubjectDefinitionId == subjectDefinitionId);
+        storyService.NarrativePropertyDefinitions.Any(p => p.SubjectDefinitionId == subjectDefinitionId) ||
+        storyService.PropertyBoards.Any(b => b.SubjectDefinitionId == subjectDefinitionId) ||
+        // Both ends: a relation definition typed FROM or TO this subject definition is stranded
+        // by its deletion just the same.
+        storyService.SubjectRelationDefinitions.Any(r => r.SubjectDefinitionId == subjectDefinitionId
+                                                      || r.TargetSubjectDefinitionId == subjectDefinitionId);
 
     /// <summary>
     /// True if any note carries this track id. Deleting a track with notes silently demotes them to
@@ -70,4 +75,21 @@ public static class ContentIntegrity
     /// <summary>True if any owner has this specific value assigned.</summary>
     public static bool NarrativePropertyValueDefinitionHasAssignments(IStoryService storyService, int valueDefinitionId) =>
         storyService.NarrativePropertyValues.Any(v => v.ValueDefinitionId == valueDefinitionId);
+
+    /// <summary>
+    /// True if any subject has authored an edge of this kind. Deleting the definition would orphan
+    /// every one of them, and since the edges are the only structural record of a succession the
+    /// author worked out by hand, there is nothing to reconstruct them from afterwards.
+    /// </summary>
+    public static bool SubjectRelationDefinitionHasAssignments(IStoryService storyService, int relationDefinitionId) =>
+        storyService.SubjectRelations.Any(r => r.RelationDefinitionId == relationDefinitionId);
+
+    /// <summary>
+    /// True if any narrative property still names this board. Refusing rather than cascading is
+    /// deliberate even though clearing the ids would be harmless data-wise: board membership is
+    /// authored, and silently un-boarding five properties is the kind of loss that is only noticed
+    /// much later, when the grids come back empty.
+    /// </summary>
+    public static bool PropertyBoardHasMembers(IStoryService storyService, int propertyBoardId) =>
+        storyService.NarrativePropertyDefinitions.Any(p => p.PropertyBoardId == propertyBoardId);
 }

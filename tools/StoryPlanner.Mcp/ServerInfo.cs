@@ -107,5 +107,17 @@ public static class ServerInfo
         nothing. Assignment is authorial: never infer a value from note text, names, links, or
         real-world analogues, and never propose one. Which subjects lack a value is deliberately
         not exposed here.
+
+        Subjects may also carry SUBJECT RELATIONS (list_subject_relations, get_subject_tree) —
+        authored edges from one subject to another, of a configured kind such as "Ancestor". A
+        subject's "relations:" line renders a configured-but-undrawn edge explicitly as "(none)",
+        for the same reason properties render "(unset)". These edges are the author's own
+        structural work and are frequently NOT inferable: the one succession recorded in prose here
+        skips three intervening regimes and shares no name token with its target. Never propose an
+        edge from names, dates, shared vocabulary, or narrative-property similarity. A relation
+        marked as forming a hierarchy is acyclic and can be walked as a tree; get_subject_tree
+        expands one subject along one relation and stops, marking the node, if a subject recurs on
+        its own line. Where an entity's property values are compared against others' is an in-app
+        display concern and is deliberately not exposed here.
         """;
 }

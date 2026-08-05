@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using GongSolutions.Wpf.DragDrop;
 using StoryPlanner.Core;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Windows;
 using System.Windows.Data;
@@ -132,6 +133,35 @@ namespace WindowedStoryPlanner
                                      && npd.SubjectDefinitionId == _subject.SubjectDefinitionId)
                           .OrderBy(npd => npd.DisplayOrder)
                           .ToList());
+        }
+
+        /// <summary>
+        /// Rebuilt alongside the note tracks and narrative properties, so a relation authored in
+        /// the Definitions tab while the app is running appears on the next window open rather
+        /// than only after reopening the project.
+        /// </summary>
+        protected override void OnCollectionsRebuilt() => RebuildSubjectRelations();
+
+        /// <summary>
+        /// Edges this subject may draw, one picker per relation definition scoped to its type.
+        /// Empty — and so invisible — until a relation is authored in the Definitions tab, which is
+        /// why the migration changes nothing about an existing file's editor.
+        ///
+        /// Lives on SubjectViewModel rather than NarrativeElementViewModel because relations are
+        /// Subject→Subject only; there is no polymorphic form of this and none should be added.
+        /// </summary>
+        public ObservableCollection<SubjectRelationViewModel> SubjectRelations { get; } = new();
+
+        private void RebuildSubjectRelations()
+        {
+            SubjectRelations.Clear();
+
+            foreach (var definition in _storyService.SubjectRelationDefinitions
+                         .Where(d => d.SubjectDefinitionId == _subject.SubjectDefinitionId)
+                         .OrderBy(d => d.DisplayOrder)
+                         .ThenBy(d => d.Id))
+                SubjectRelations.Add(new SubjectRelationViewModel(
+                    _subject.Id, definition, _viewModelRegistry, _storyService));
         }
 
         public Brush BadgeBackground

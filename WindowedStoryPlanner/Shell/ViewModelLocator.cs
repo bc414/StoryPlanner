@@ -24,6 +24,7 @@ public partial class ViewModelLocator : ObservableObject
     public GlobalSearchViewModel             GlobalSearch       { get; }
     public ProgressViewModel                 Progress           { get; }
     public PropertyGapsViewModel             PropertyGaps       { get; }
+    public BoardsViewModel                   Boards             { get; }
 
     [ObservableProperty]
     private int _selectedTabIndex;
@@ -42,7 +43,8 @@ public partial class ViewModelLocator : ObservableObject
         TimelineViewModel              timeline,
         GlobalSearchViewModel          globalSearch,
         ProgressViewModel              progress,
-        PropertyGapsViewModel          propertyGaps)
+        PropertyGapsViewModel          propertyGaps,
+        BoardsViewModel                boards)
     {
         FileManager         = fileManager;
         Stories             = stories;
@@ -58,5 +60,6 @@ public partial class ViewModelLocator : ObservableObject
         GlobalSearch        = globalSearch;
         Progress            = progress;
         PropertyGaps        = propertyGaps;
+        Boards              = boards;
     }
 }

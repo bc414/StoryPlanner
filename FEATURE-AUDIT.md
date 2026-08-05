@@ -66,6 +66,7 @@ Legend: 🔴 Outstanding · 🟡 Partial · 🟢 Implemented (listed only where 
 | F3 | Conversation Reader: bulk multi-select state ops | 🟢 | (spec) | UX |
 | F5 | Narrative properties activated (political axes on Civilizational Systems) | 🟢 | (conv:25) | Model + UX |
 | F6 | Definitions-tab delete guards (subject/track definitions, themes) | 🟢 | (audit) | Model |
+| F7 | Subject relations, property boards, pairwise grids + subject tree | 🟢 | (Brian) | Model + View |
 | G1 | Session export presets — remainder declined by Brian 2026-07-30 | ⚪ | 019 | Resolved |
 
 ---
@@ -259,6 +260,46 @@ The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-S
   `note.theme_missing`, `subject.definition_missing`, sentinel-aware theater/story checks, and
   `conversationblock.conversation_missing`). All predicate + cascade behavior is covered in
   `ContentIntegrityTests`, `StoryServiceTests`, and `PlanIntegrityTests`.
+
+- **F7 — 🟢 Subject relations, property boards, and the two views over them.**
+  *(Shipped 2026-08-04.)* Narrative properties had acquired a second job — F5 activated them as
+  bookkeeping, and Brian then used them to place all 37 Civilizational Systems on five political
+  axes, making them the densest structured story data in the file (174 of 185 slots assigned; by
+  contrast 5 of those 37 carry any scene link and no note is Confirmed). Nothing in the app could
+  read an assignment except one subject at a time, so the 23 distinct 5-tuples the systems occupy —
+  and the six that share one — were invisible.
+  - **`SubjectRelation` + `SubjectRelationDefinition`**: authored Subject→Subject edges, a Type
+    Object pair mirroring `NarrativeProperty*`. Chosen over a single `Subject.AncestorSubjectId`
+    column because note 1630 (*"Kemerskai's government in Cloudbury is the true successor to Grover
+    III's aborted Enlightenment"*) records an ideological predecessor while the Republic also, in
+    fact, replaced Eros's Reich — one column loses a fact the data already holds. `IsSingle` and
+    `FormsHierarchy` are the two flags; edges carry **no notes** (no fifth `OwnerType`), since why
+    a succession happened belongs on the successor's Causality of Creation track.
+  - **`PropertyBoard`** + a nullable `PropertyBoardId` on the property: an authored set of
+    properties under comparison, which is what keeps a future project-management property out of
+    the political-axes board. `IncludeUnsetBand` is per board and changes the population, not the
+    layout.
+  - **The Boards tab**, three independent sub-tabs sharing only the board and one card control:
+    C(n,2) pairwise grids (collapsed expanders, `UniformGrid` over a flat cell list), **Matches**,
+    and a generic subject tree (pick an edge, a root, and a direction).
+    `NarrativePropertyValueDefinition` gained `ColorHex` so a value reads as a chip in all three.
+  - **Matches** groups subjects identical on every board property — the full-tuple collisions a
+    pairwise grid structurally cannot show. A subject unset on any board property is not grouped at
+    all and is listed with its unset count; singletons get their own trailing section; ordering is
+    largest-first, tie-broken by authored value order. Exact predicate only — no similarity
+    measure, no near-miss, no proposal that anything ought to join a group. On the live file this
+    is 9 shared positions over 23 subjects, 9 alone, and 5 not fully assigned.
+  - Core carries the tested half — `SubjectRelationGraph` (cycle-safe walks, shared with the MCP
+    server) and `NarrativePropertyCrossTab` — plus twelve new `PlanIntegrity` codes and two
+    `ContentIntegrity` guards. MCP gained `list_subject_relations`, `get_subject_tree`, and a
+    `relations:` line; **boards and grids are deliberately NOT exposed** — they are a display
+    grouping, and Desktop can already read every property value from `get_subjects_plan`, the same
+    reasoning that keeps `HiddenIn*Mode` unexposed.
+  - **Why this is not the suggestion pattern.** Grids report occupancy and the tree restates
+    authored edges. Nothing ranks a cell, scores a lineage, computes coverage, or proposes a value
+    or an edge — an empty cell is a fact about the world Brian built, the same discipline as the
+    source-material quadrants. Adjacent to but distinct from **E2**: a `SubjectCluster` is a
+    grouping entity, a relation is an edge, and E2 remains orphaned and unrevived.
 
 ---
 

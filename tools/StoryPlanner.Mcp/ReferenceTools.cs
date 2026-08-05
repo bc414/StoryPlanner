@@ -83,7 +83,7 @@ public sealed class ReferenceTools(StoryPlanSources sources)
     }
 
     [McpServerTool(Name = "list_narrative_properties")]
-    [Description("The narrative properties defined on each entity type — closed-vocabulary fields an entity is assigned a value from, alongside its note tracks. Reports each property's allowed values with how many entities hold each, and how many hold none. Single-select: an entity has at most one value per property, and no value at all is a legal, long-lived authorial state, not missing data. Assignment is the author's — never infer or propose one.")]
+    [Description("The narrative properties defined on each entity type — closed-vocabulary fields an entity is assigned a value from, alongside its note tracks. Reports each property's allowed values with how many entities hold each. Single-select: an entity has at most one value per property, and no value at all is a legal, long-lived authorial state, not missing data. Which entities lack a value is deliberately not reported here. Assignment is the author's — never infer or propose one.")]
     public string ListNarrativeProperties(
         [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
     {
@@ -155,6 +155,99 @@ public sealed class ReferenceTools(StoryPlanSources sources)
                 sb.AppendLine();
             }
         }
+
+        return Query.Cap(sb);
+    }
+
+    [McpServerTool(Name = "list_subject_relations")]
+    [Description("The kinds of edge subjects may draw to one another — \"Ancestor\", \"Rival of\" — with how many are authored. Each names the subject types at both ends, whether it is single-valued, and whether it forms a hierarchy (acyclic, walkable as a tree by get_subject_tree). Edges are the author's: they record successions and connections worked out by hand, are frequently NOT inferable from names or dates, and must never be proposed. An edge a subject has not been given is unset, a legal long-lived state.")]
+    public string ListSubjectRelations(
+        [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
+    {
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
+        var sb = new StringBuilder();
+
+        sb.AppendLine($"# subject relations {Query.CorpusName(c.Corpus)} — {c.SubjectRelationDefinitions.Count} defined, "
+                      + $"{c.SubjectRelations.Count} authored");
+        sb.AppendLine();
+
+        if (c.SubjectRelationDefinitions.Count == 0)
+        {
+            sb.AppendLine("(none defined — they are authored in the app's Definitions tab, never seeded)");
+            return Query.Cap(sb);
+        }
+
+        foreach (var d in c.SubjectRelationDefinitions)
+        {
+            var from = c.SubjectDefById.TryGetValue(d.SubjectDefinitionId, out var f) ? f.SubjectType : "?";
+            var to = c.SubjectDefById.TryGetValue(d.TargetSubjectDefinitionId, out var t) ? t.SubjectType : "?";
+            var count = c.SubjectRelations.Count(r => r.RelationDefinitionId == d.Id);
+
+            sb.AppendLine($"## {d.Name} (relation id:{d.Id}) — {from} → {to}, {count} authored");
+            if (d.InverseName.Length > 0) sb.AppendLine($"read backwards: {d.InverseName}");
+            if (d.Question.Length > 0) sb.AppendLine($"Q: {d.Question}");
+            if (d.Explanation.Length > 0) sb.AppendLine(d.Explanation);
+
+            var flags = new List<string>();
+            flags.Add(d.IsSingle ? "single-valued" : "multi-valued");
+            if (d.FormsHierarchy) flags.Add("forms a hierarchy (acyclic)");
+            sb.AppendLine($"kind: {string.Join(", ", flags)}");
+            sb.AppendLine();
+        }
+
+        return Query.Cap(sb);
+    }
+
+    [McpServerTool(Name = "get_subject_tree")]
+    [Description("Expands one subject along one relation, recursively — the ancestry of a civilizational system, or whatever else the relation records. Each node carries its narrative property values, so a value changing down a line is visible. Set inverted=true to follow the edge backwards: with an ancestor edge, false climbs to the root and true renders the descendants. Cycle-safe — a subject already on the line stops the walk and is marked. Retrieval only: it reports authored edges and never proposes one.")]
+    public string GetSubjectTree(
+        [Description("Subject id to expand from (see list_subjects).")] int subjectId,
+        [Description("Relation id (see list_subject_relations).")] int relationId,
+        [Description("Follow edges backwards. False (default) walks subject→target; true walks target→subject.")] bool inverted = false,
+        [Description("\"working\" (v2, default) or \"archive\" (v1).")] string corpus = "working")
+    {
+        if (!Query.TryParseCorpus(corpus, out var corpusKind)) return Query.UnknownCorpusMessage(corpus);
+        var c = sources.Get(corpusKind);
+        var sb = new StringBuilder();
+
+        if (!c.SubjectById.TryGetValue(subjectId, out var root))
+            return $"subject:{subjectId} — not found in {Query.CorpusName(c.Corpus)}";
+
+        if (!c.SubjectRelationDefById.TryGetValue(relationId, out var def))
+            return $"relation:{relationId} — not found in {Query.CorpusName(c.Corpus)} (see list_subject_relations)";
+
+        var direction = inverted
+            ? (def.InverseName.Length > 0 ? def.InverseName : $"inverse of \"{def.Name}\"")
+            : def.Name;
+
+        sb.AppendLine($"# {root.Name} (subject:{root.Id}) — \"{direction}\"");
+        sb.AppendLine();
+
+        var walk = SubjectRelationGraph.Walk(c.SubjectRelations, relationId, subjectId, inverted);
+
+        foreach (var node in walk)
+        {
+            if (!c.SubjectById.TryGetValue(node.SubjectId, out var s)) continue;
+
+            var indent = new string(' ', node.Depth * 2);
+
+            if (node.StopsOnCycle)
+            {
+                sb.AppendLine($"{indent}- {s.Name} (subject:{s.Id}) — already above on this line; walk stopped");
+                continue;
+            }
+
+            sb.AppendLine($"{indent}- {s.Name} (subject:{s.Id})");
+
+            var properties = Engine.NarrativePropertyLine(c, OwnerType.Subject, s.Id, s.SubjectDefinitionId);
+            if (properties is not null) sb.AppendLine($"{indent}  {properties}");
+        }
+
+        // A one-node result is ordinary: most subjects have no edges, and that is an authorial
+        // state rather than an omission.
+        if (walk.Count == 1)
+            sb.AppendLine($"\n(nothing {(inverted ? "beneath" : "above")} this subject on this relation)");
 
         return Query.Cap(sb);
     }

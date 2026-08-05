@@ -189,6 +189,55 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   the planning work — **not `EditorMode`**, whose values overlap by name only — and a property may
   name the phase at which an unset value is reported as a gap. That gate **reports and never
   blocks**; `CanPromoteToConfirmed` does not consult it.
+- **Narrative properties now serve two purposes, and the second is the larger one (2026-08-04).**
+  They were built as project-management bookkeeping (a gating `WorkPhase`, the Property Gaps
+  report). They are now also **the densest structured story data in the working plan** — every
+  Civilizational System sits somewhere on the five political axes, while most carry no scene link
+  and no note is Confirmed. Both faces stay: Property Gaps is the bookkeeping view, the Boards tab
+  is the content view. `NarrativePropertyValueDefinition.ColorHex` exists so a value reads as a
+  colour wherever it is shown; it is authored, empty is a legal unfinished state, and nothing
+  auto-assigns one from a palette.
+- **Subject relations are authored edges between subjects, and are never inferred (2026-08-04).**
+  `SubjectRelationDefinition` is a Type Object row scoped by `(SubjectDefinitionId,
+  TargetSubjectDefinitionId)`; `SubjectRelation` is the assignment. **Subject→Subject only and
+  deliberately not polymorphic** — both endpoints are Subjects and `RelationDefinitionId` resolves
+  both types, so there is no `OwnerType` to omit and none may be added. `IsSingle` is the
+  single-select invariant (`PlanIntegrity`: `subjectrelation.duplicate_for_single`);
+  `FormsHierarchy` means acyclic-and-walkable and **requires the same subject type at both ends**,
+  because a chain that changes type is not a chain — a single same-type relation can otherwise be
+  legitimately cyclic (a symmetric "Rival of"), which is why the flag is explicit rather than
+  derived. Absence of a row is unset, a legal permanent state; there is no sentinel target.
+  **Edges carry no notes** — no fifth `OwnerType` — because why a succession happened belongs on
+  the successor's Causality of Creation / History track, where that content already lives.
+  Assignment is Brian's: the one succession recorded in the file (`Griffonian Republic` ← `Grover
+  III's Enlightenment`, note 1630) skips three intervening regimes and shares no name token with
+  its target, so **never propose an edge** from names, dates, or shared vocabulary. Nothing is
+  seeded — the relation row is authored in the Definitions tab, like its prose.
+- **A `PropertyBoard` is an authored set of properties under comparison (2026-08-04)** — the scope
+  for the Boards tab's three independent views: C(n,2) pairwise grids, exact-match groups, and a
+  generic subject tree.
+  Membership is opt-in (`NarrativePropertyDefinition.PropertyBoardId`, null = on no board), which
+  is what keeps a future bookkeeping property out of the political-axes board; a board must never
+  acquire a property just because the scope matches. `IncludeUnsetBand` is **per board and changes
+  the population, not just the layout**: off, a subject unset on either axis of a grid is absent
+  from that grid entirely, so grid totals legitimately differ from each other and from the subject
+  count — that is the configuration working, never missing data. The views share the board and the
+  card control and **nothing else**: there is no ancestry overlay on the grids, no cross-
+  highlighting, and the card renders identically in all three because it does not know where it
+  is. Same standing rule: cells are occupancy, never a ranking, a score, or a coverage figure, and
+  an empty cell is a fact about the world.
+- **The Matches view groups subjects identical on EVERY board property (2026-08-04)** — the
+  full-tuple collisions a pairwise grid structurally cannot show, since a grid crosses two
+  properties and its cells mix subjects that agree on those two and differ elsewhere. Two rules,
+  both deliberate: a subject unset on **any** board property is **not grouped at all** and is
+  listed separately with its unset count (you cannot say two systems agree on all five when three
+  are unknown), and singletons are shown in a trailing "alone on their coordinates" section rather
+  than hidden — a system unique in the world is a fact, and hiding it is how you fail to notice one
+  that should have had company. Ordering is largest-group-first, tie-broken by authored value
+  order; that is counting and sorting authored data, the same category as the Progress tab, and
+  **not** a score. Exact predicate only: no similarity measure, no near-miss ("differs on one
+  axis"), no explanation of why a group exists, and never a proposal that something ought to join
+  one. Grouping lives in `NarrativePropertyMatchGroups` (Core, Pure-tested).
 
 Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 **Live counts: `mcp__storyplanner get_stats`. Never hardcode counts in a document.**

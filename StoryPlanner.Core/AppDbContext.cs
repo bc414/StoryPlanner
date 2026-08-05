@@ -22,6 +22,9 @@ public class AppDbContext : DbContext
     public DbSet<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; set; }
     public DbSet<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; set; }
     public DbSet<NarrativePropertyValue> NarrativePropertyValues { get; set; }
+    public DbSet<PropertyBoard> PropertyBoards { get; set; }
+    public DbSet<SubjectRelationDefinition> SubjectRelationDefinitions { get; set; }
+    public DbSet<SubjectRelation> SubjectRelations { get; set; }
     public DbSet<WorkPhase> WorkPhases { get; set; }
     public DbSet<Theme> Themes { get; set; }
     

@@ -93,10 +93,21 @@ public class ProjectLoader
         foreach (var m in _storyService.WorkPhases.OrderBy(p => p.DisplayOrder))
             _registry.AllWorkPhaseViewModels.Add(new WorkPhaseViewModel(m));
 
+        // Boards before property definitions, for the same reason as work phases: the board combo
+        // on a property row resolves against this collection at construction.
+        foreach (var m in _storyService.PropertyBoards.OrderBy(b => b.DisplayOrder))
+            _registry.AllPropertyBoardViewModels.Add(
+                new PropertyBoardViewModel(m, _registry.AllSubjectDefinitionViewModels));
+
+        foreach (var m in _storyService.SubjectRelationDefinitions.OrderBy(r => r.DisplayOrder))
+            _registry.AllSubjectRelationDefinitionViewModels.Add(
+                new SubjectRelationDefinitionViewModel(m, _registry.AllSubjectDefinitionViewModels));
+
         foreach (var m in _storyService.NarrativePropertyDefinitions.OrderBy(p => p.DisplayOrder))
             _registry.AllNarrativePropertyDefinitionViewModels.Add(
                 new NarrativePropertyDefinitionViewModel(
-                    m, _registry.AllSubjectDefinitionViewModels, _registry.AllWorkPhaseViewModels));
+                    m, _registry.AllSubjectDefinitionViewModels, _registry.AllWorkPhaseViewModels,
+                    _registry.AllPropertyBoardViewModels));
 
         foreach (var m in _storyService.NarrativePropertyValueDefinitions)
             _registry.AllNarrativePropertyValueDefinitionViewModels.Add(

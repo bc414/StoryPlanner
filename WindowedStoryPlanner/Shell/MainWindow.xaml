@@ -69,6 +69,9 @@
         <TabItem Header="Property Gaps">
             <local:PropertyGapsView DataContext="{Binding PropertyGaps}"/>
         </TabItem>
+        <TabItem Header="Boards">
+            <local:BoardsView DataContext="{Binding Boards}"/>
+        </TabItem>
 
         <TabItem Header="Global Search">
             <local:GlobalSearchView DataContext="{Binding GlobalSearch}"/>

@@ -223,8 +223,20 @@ public partial class NarrativeElementViewModel : ObservableObject, IDropTarget, 
             NarrativeProperties.Add(new NarrativePropertyViewModel(
                 _ownerId, _ownerType, npd, _viewModelRegistry, _storyService));
 
+        OnCollectionsRebuilt();
         RefreshIsFirstTrack();
     }
+
+    /// <summary>
+    /// Hook for per-subclass collections that must be rebuilt on the same schedule as the tracks
+    /// and properties — construction, a definition change, and every window open. SubjectViewModel
+    /// rebuilds its relation pickers here.
+    ///
+    /// The window-open case is the load-bearing one: definitions authored while the app is running
+    /// are picked up on the next open, so a new relation or property does not require reopening
+    /// the project. A collection rebuilt only in a constructor silently misses that.
+    /// </summary>
+    protected virtual void OnCollectionsRebuilt() { }
 
     // ── Track distribution helpers ────────────────────────────────────────
 

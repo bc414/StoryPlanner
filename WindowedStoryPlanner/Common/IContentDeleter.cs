@@ -85,4 +85,16 @@ public interface IContentDeleter
     /// Returns false and takes no action if the precondition is not met.
     /// </summary>
     Task<bool> TryDeleteNarrativePropertyValueDefinitionAsync(NarrativePropertyValueDefinitionViewModel value);
+
+    /// <summary>
+    /// Deletes a PropertyBoard if no narrative property still names it.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeletePropertyBoardAsync(PropertyBoardViewModel board);
+
+    /// <summary>
+    /// Deletes a SubjectRelationDefinition if no subject has authored an edge of that kind.
+    /// Returns false and takes no action if the precondition is not met.
+    /// </summary>
+    Task<bool> TryDeleteSubjectRelationDefinitionAsync(SubjectRelationDefinitionViewModel definition);
 }

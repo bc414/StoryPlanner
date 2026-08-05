@@ -128,6 +128,89 @@
             </ItemsControl.ItemTemplate>
         </ItemsControl>
 
+        <!-- ── Subject relations: one picker per configured relation ──
+             Same strip treatment as the narrative properties above, and collapsed the same way
+             when none are configured — which is every file until a relation is authored in the
+             Definitions tab. Only SubjectViewModel exposes SubjectRelations; on the other three
+             element types this binds to nothing and the Count trigger keeps it hidden. -->
+        <ItemsControl DockPanel.Dock="Top"
+                      ItemsSource="{Binding SubjectRelations}"
+                      Margin="8,0,8,4">
+            <ItemsControl.Style>
+                <Style TargetType="ItemsControl">
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding SubjectRelations.Count}" Value="0">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding SubjectRelations}" Value="{x:Null}">
+                            <Setter Property="Visibility" Value="Collapsed"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </ItemsControl.Style>
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,16,4"
+                                ToolTip="{Binding Explanation}">
+                        <TextBlock Text="{Binding Name}" FontWeight="SemiBold" FontSize="11"
+                                   VerticalAlignment="Center" Margin="0,0,6,0"
+                                   ToolTip="{Binding Question}"/>
+
+                        <!-- Single-valued: combo + clear, exactly the POV-character shape. -->
+                        <StackPanel Orientation="Horizontal"
+                                    Visibility="{Binding IsSingle, Converter={StaticResource BoolToVis}}">
+                            <ComboBox ItemsSource="{Binding Candidates}"
+                                      SelectedItem="{Binding SelectedTarget, Mode=TwoWay}"
+                                      DisplayMemberPath="Name"
+                                      MinWidth="180" FontSize="11" VerticalAlignment="Center"/>
+                            <Button Content="&#x2715;" Command="{Binding ClearCommand}"
+                                    Padding="5,0" Margin="3,0,0,0" FontSize="10"
+                                    VerticalAlignment="Center"
+                                    ToolTip="Clear — returns this relation to unset"/>
+                        </StackPanel>
+
+                        <!-- Multi-valued: chips with a remove each, plus an add combo. -->
+                        <StackPanel Orientation="Horizontal"
+                                    Visibility="{Binding IsMulti, Converter={StaticResource BoolToVis}}">
+                            <ItemsControl ItemsSource="{Binding Targets}" VerticalAlignment="Center">
+                                <ItemsControl.ItemsPanel>
+                                    <ItemsPanelTemplate><WrapPanel Orientation="Horizontal"/></ItemsPanelTemplate>
+                                </ItemsControl.ItemsPanel>
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Background="#EEF2F7" BorderBrush="#C6D2E0" BorderThickness="1"
+                                                CornerRadius="8" Padding="6,1" Margin="0,0,4,2">
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock Text="{Binding Name}" FontSize="11" VerticalAlignment="Center"/>
+                                                <Button Content="&#x2715;" FontSize="9" Padding="4,0" Margin="4,0,0,0"
+                                                        BorderThickness="0" Background="Transparent"
+                                                        Command="{Binding DataContext.RemoveTargetCommand,
+                                                                  RelativeSource={RelativeSource AncestorType=ItemsControl,
+                                                                                  AncestorLevel=2}}"
+                                                        CommandParameter="{Binding}"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                            <ComboBox ItemsSource="{Binding Candidates}"
+                                      SelectedItem="{Binding PendingTarget, Mode=TwoWay}"
+                                      DisplayMemberPath="Name"
+                                      MinWidth="150" FontSize="11" VerticalAlignment="Center" Margin="4,0,0,0"/>
+                            <Button Content="+" Command="{Binding AddTargetCommand}"
+                                    Padding="6,0" Margin="3,0,0,0" FontSize="11"
+                                    VerticalAlignment="Center" ToolTip="Add this target"/>
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
         <!-- Note tracks -->
         <ScrollViewer x:Name="TrackScrollViewer"
                       DockPanel.Dock="Bottom"

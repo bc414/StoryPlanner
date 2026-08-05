@@ -264,4 +264,82 @@ public class ContentIntegrityTests
         Assert.True(ContentIntegrity.NoteTrackDefinitionHasNotes(svc, SyntheticPlan.BackstoryTrackId));
         Assert.False(ContentIntegrity.NoteTrackDefinitionHasNotes(svc, 90));
     }
+
+    [Fact]
+    public async Task SubjectRelationDefinitionHasAssignments_distinguishes_a_used_relation_from_an_empty_one()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectRelationDefinitions.AddRange(
+                new SubjectRelationDefinition
+                {
+                    Id = 1, Name = "Ancestor",
+                    SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                    TargetSubjectDefinitionId = SyntheticPlan.CharacterDefId
+                },
+                new SubjectRelationDefinition
+                {
+                    Id = 2, Name = "Never drawn",
+                    SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                    TargetSubjectDefinitionId = SyntheticPlan.CharacterDefId
+                });
+            ctx.SubjectRelations.Add(new SubjectRelation
+            {
+                Id = 1, RelationDefinitionId = 1,
+                SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = SyntheticPlan.EmptySubjectId
+            });
+        });
+        var svc = await plan.OpenStoryServiceAsync();
+
+        Assert.True(ContentIntegrity.SubjectRelationDefinitionHasAssignments(svc, 1));
+        Assert.False(ContentIntegrity.SubjectRelationDefinitionHasAssignments(svc, 2));
+    }
+
+    [Fact]
+    public async Task PropertyBoardHasMembers_distinguishes_a_populated_board_from_an_empty_one()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.PropertyBoards.AddRange(
+                new PropertyBoard { Id = 1, Name = "Axes", SubjectDefinitionId = SyntheticPlan.CharacterDefId },
+                new PropertyBoard { Id = 2, Name = "Empty", SubjectDefinitionId = SyntheticPlan.CharacterDefId });
+            ctx.NarrativePropertyDefinitions.Add(new NarrativePropertyDefinition
+            {
+                Id = 1, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                OwnerType = OwnerType.Subject, Name = "Boundary", PropertyBoardId = 1
+            });
+        });
+        var svc = await plan.OpenStoryServiceAsync();
+
+        Assert.True(ContentIntegrity.PropertyBoardHasMembers(svc, 1));
+        Assert.False(ContentIntegrity.PropertyBoardHasMembers(svc, 2));
+    }
+
+    [Fact]
+    public async Task SubjectDefinitionHasDependents_also_counts_boards_and_relations_at_either_end()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectDefinitions.AddRange(
+                new SubjectDefinition { Id = 90, SubjectType = "Board host" },
+                new SubjectDefinition { Id = 91, SubjectType = "Relation source" },
+                new SubjectDefinition { Id = 92, SubjectType = "Relation target" },
+                new SubjectDefinition { Id = 93, SubjectType = "Truly unused" });
+            ctx.PropertyBoards.Add(new PropertyBoard { Id = 1, Name = "Axes", SubjectDefinitionId = 90 });
+            ctx.SubjectRelationDefinitions.Add(new SubjectRelationDefinition
+            {
+                Id = 1, Name = "Descends from", SubjectDefinitionId = 91, TargetSubjectDefinitionId = 92
+            });
+        });
+        var svc = await plan.OpenStoryServiceAsync();
+
+        Assert.True(ContentIntegrity.SubjectDefinitionHasDependents(svc, 90));
+        Assert.True(ContentIntegrity.SubjectDefinitionHasDependents(svc, 91));
+        // The TARGET end too — deleting it strands the relation just as thoroughly.
+        Assert.True(ContentIntegrity.SubjectDefinitionHasDependents(svc, 92));
+        Assert.False(ContentIntegrity.SubjectDefinitionHasDependents(svc, 93));
+    }
 }

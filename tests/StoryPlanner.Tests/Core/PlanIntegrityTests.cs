@@ -417,6 +417,199 @@ public class PlanIntegrityTests
         Assert.Contains(violations, v => v.Rule == "conversationblock.conversation_missing" && v.Detail.Contains("block:999"));
     }
 
+    // ── Property boards ───────────────────────────────────────────────────────
+
+    [Fact]
+    public void Check_reports_a_board_scoped_to_a_missing_subject_definition()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.PropertyBoards.Add(new PropertyBoard
+        {
+            Id = 999, Name = "Orphan Board", SubjectDefinitionId = 424242
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        Assert.Contains(PlanIntegrity.Check(ctx),
+            v => v.Rule == "propertyboard.subjectdefinition_missing" && v.Detail.Contains("board:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_property_on_a_board_that_no_longer_exists()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx => ctx.NarrativePropertyDefinitions.Add(new NarrativePropertyDefinition
+        {
+            Id = 999, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+            OwnerType = OwnerType.Subject, Name = "Stranded", PropertyBoardId = 424242
+        }));
+        using var ctx = OpenContext(plan.Path);
+
+        Assert.Contains(PlanIntegrity.Check(ctx),
+            v => v.Rule == "narrativepropertydefinition.board_missing" && v.Detail.Contains("property:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_property_on_a_board_scoped_to_a_different_subject_type()
+    {
+        // Would put a subject in a grid whose axes do not apply to it.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectDefinitions.Add(new SubjectDefinition { Id = 77, SubjectType = "Civilizational System" });
+            ctx.PropertyBoards.Add(new PropertyBoard { Id = 1, Name = "Axes", SubjectDefinitionId = 77 });
+            ctx.NarrativePropertyDefinitions.Add(new NarrativePropertyDefinition
+            {
+                Id = 999, SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                OwnerType = OwnerType.Subject, Name = "Mismatched", PropertyBoardId = 1
+            });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        Assert.Contains(PlanIntegrity.Check(ctx),
+            v => v.Rule == "narrativepropertydefinition.board_scope_mismatch" && v.Detail.Contains("property:999"));
+    }
+
+    // ── Subject relations ─────────────────────────────────────────────────────
+
+    [Fact]
+    public void Check_reports_a_hierarchy_relation_that_crosses_subject_types()
+    {
+        // A chain that changes subject type partway down is not a chain.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectDefinitions.Add(new SubjectDefinition { Id = 77, SubjectType = "Organization" });
+            ctx.SubjectRelationDefinitions.Add(new SubjectRelationDefinition
+            {
+                Id = 999, Name = "Descends from",
+                SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                TargetSubjectDefinitionId = 77,
+                FormsHierarchy = true
+            });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        Assert.Contains(PlanIntegrity.Check(ctx),
+            v => v.Rule == "subjectrelationdefinition.hierarchy_cross_type" && v.Detail.Contains("relationDef:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_relation_row_whose_definition_or_endpoints_are_gone()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectRelationDefinitions.Add(new SubjectRelationDefinition
+            {
+                Id = 1, Name = "Ancestor",
+                SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                TargetSubjectDefinitionId = SyntheticPlan.CharacterDefId
+            });
+            ctx.SubjectRelations.Add(new SubjectRelation
+            {
+                Id = 998, RelationDefinitionId = 424242,
+                SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = SyntheticPlan.EmptySubjectId
+            });
+            ctx.SubjectRelations.Add(new SubjectRelation
+            {
+                Id = 999, RelationDefinitionId = 1, SubjectId = 424242, TargetSubjectId = 424243
+            });
+        });
+        using var ctx = OpenContext(plan.Path);
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "subjectrelation.definition_missing" && v.Detail.Contains("relation:998"));
+        Assert.Contains(violations, v => v.Rule == "subjectrelation.subject_missing" && v.Detail.Contains("relation:999"));
+        Assert.Contains(violations, v => v.Rule == "subjectrelation.target_missing" && v.Detail.Contains("relation:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_self_referencing_edge()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectRelationDefinitions.Add(SameTypeAncestor());
+            ctx.SubjectRelations.Add(new SubjectRelation
+            {
+                Id = 999, RelationDefinitionId = 1,
+                SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = SyntheticPlan.SubjectId
+            });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        Assert.Contains(PlanIntegrity.Check(ctx),
+            v => v.Rule == "subjectrelation.self_reference" && v.Detail.Contains("relation:999"));
+    }
+
+    [Fact]
+    public void Check_reports_a_second_target_on_a_single_valued_relation()
+    {
+        // The schema cannot express single-select — no unique constraints, no FKs — so this check
+        // is the enforcement, exactly as narrativevalue.duplicate_for_property is for properties.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectDefinitions.Add(new SubjectDefinition { Id = 3, SubjectType = "Spare" });
+            ctx.Subjects.Add(new Subject { Id = 3, Name = "Third", SubjectDefinitionId = SyntheticPlan.CharacterDefId });
+            ctx.SubjectRelationDefinitions.Add(SameTypeAncestor());
+            ctx.SubjectRelations.AddRange(
+                new SubjectRelation { Id = 1, RelationDefinitionId = 1, SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = SyntheticPlan.EmptySubjectId },
+                new SubjectRelation { Id = 2, RelationDefinitionId = 1, SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = 3 });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        Assert.Contains(PlanIntegrity.Check(ctx),
+            v => v.Rule == "subjectrelation.duplicate_for_single"
+              && v.Detail.Contains($"subject:{SyntheticPlan.SubjectId}"));
+    }
+
+    [Fact]
+    public void Check_reports_every_subject_on_a_hierarchy_cycle()
+    {
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectRelationDefinitions.Add(SameTypeAncestor(formsHierarchy: true));
+            ctx.SubjectRelations.AddRange(
+                new SubjectRelation { Id = 1, RelationDefinitionId = 1, SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = SyntheticPlan.EmptySubjectId },
+                new SubjectRelation { Id = 2, RelationDefinitionId = 1, SubjectId = SyntheticPlan.EmptySubjectId, TargetSubjectId = SyntheticPlan.SubjectId });
+        });
+        using var ctx = OpenContext(plan.Path);
+        var violations = PlanIntegrity.Check(ctx);
+
+        Assert.Contains(violations, v => v.Rule == "subjectrelation.cycle" && v.Detail.Contains($"subject:{SyntheticPlan.SubjectId}"));
+        Assert.Contains(violations, v => v.Rule == "subjectrelation.cycle" && v.Detail.Contains($"subject:{SyntheticPlan.EmptySubjectId}"));
+    }
+
+    [Fact]
+    public void Check_does_not_report_a_cycle_on_a_relation_that_never_claimed_to_be_a_hierarchy()
+    {
+        // A symmetric relation — "Rival of" — is legitimately cyclic. Only a relation asserting
+        // FormsHierarchy is audited for loops.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.SubjectRelationDefinitions.Add(SameTypeAncestor(formsHierarchy: false));
+            ctx.SubjectRelations.AddRange(
+                new SubjectRelation { Id = 1, RelationDefinitionId = 1, SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = SyntheticPlan.EmptySubjectId },
+                new SubjectRelation { Id = 2, RelationDefinitionId = 1, SubjectId = SyntheticPlan.EmptySubjectId, TargetSubjectId = SyntheticPlan.SubjectId });
+        });
+        using var ctx = OpenContext(plan.Path);
+
+        Assert.DoesNotContain(PlanIntegrity.Check(ctx), v => v.Rule == "subjectrelation.cycle");
+    }
+
+    private static SubjectRelationDefinition SameTypeAncestor(bool formsHierarchy = false) => new()
+    {
+        Id = 1,
+        Name = "Ancestor",
+        SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+        TargetSubjectDefinitionId = SyntheticPlan.CharacterDefId,
+        IsSingle = true,
+        FormsHierarchy = formsHierarchy
+    };
+
     private static AppDbContext OpenContext(string path) =>
         new(new DbContextOptionsBuilder<AppDbContext>().UseSqlite($"Data Source={path}").Options);
 }

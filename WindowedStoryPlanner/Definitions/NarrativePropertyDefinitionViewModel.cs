@@ -15,15 +15,18 @@ namespace WindowedStoryPlanner
         private readonly NarrativePropertyDefinition _model;
         private readonly IReadOnlyList<SubjectDefinitionViewModel> _subjectDefinitions;
         private readonly IReadOnlyList<WorkPhaseViewModel> _workPhases;
+        private readonly IReadOnlyList<PropertyBoardViewModel> _boards;
 
         public NarrativePropertyDefinitionViewModel(
             NarrativePropertyDefinition model,
             IReadOnlyList<SubjectDefinitionViewModel> subjectDefinitions,
-            IReadOnlyList<WorkPhaseViewModel> workPhases)
+            IReadOnlyList<WorkPhaseViewModel> workPhases,
+            IReadOnlyList<PropertyBoardViewModel> boards)
         {
             _model = model;
             _subjectDefinitions = subjectDefinitions;
             _workPhases = workPhases;
+            _boards = boards;
         }
 
         public int Id => _model.Id;
@@ -83,6 +86,17 @@ namespace WindowedStoryPlanner
         {
             get => _workPhases.FirstOrDefault(p => p.Id == _model.GatingWorkPhaseId);
             set => SetProperty(_model.GatingWorkPhaseId, value?.Id, _model, (m, v) => m.GatingWorkPhaseId = v);
+        }
+
+        /// <summary>
+        /// The board this property is compared on. Null is the normal state and means the property
+        /// appears in no grid — correct for every bookkeeping property, and why membership is
+        /// opted into rather than inferred from the property's scope.
+        /// </summary>
+        public PropertyBoardViewModel? SelectedBoard
+        {
+            get => _boards.FirstOrDefault(b => b.Id == _model.PropertyBoardId);
+            set => SetProperty(_model.PropertyBoardId, value?.Id, _model, (m, v) => m.PropertyBoardId = v);
         }
     }
 }

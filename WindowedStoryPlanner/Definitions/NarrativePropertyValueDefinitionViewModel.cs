@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Windows.Media;
 using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Core;
 
@@ -43,5 +44,23 @@ namespace WindowedStoryPlanner
         /// <summary>Owning property, resolved to its name for the grid's read-only context column.</summary>
         public string PropertyName =>
             _properties.FirstOrDefault(p => p.Id == _model.NarrativePropertyDefinitionId)?.Name ?? "(unknown)";
+
+        /// <summary>
+        /// Display colour, "#RRGGBB". Edited as hex text, following the Story colour column — WPF
+        /// has no built-in picker and this layer has never added one.
+        /// </summary>
+        public string ColorHex
+        {
+            get => _model.ColorHex;
+            set
+            {
+                if (SetProperty(_model.ColorHex, value, _model, (m, v) => m.ColorHex = v))
+                    OnPropertyChanged(nameof(ColorBrush));
+            }
+        }
+
+        /// <summary>Swatch fill for the grid. Falls back to the same neutral the Story and Subject
+        /// rows use, so an unset colour looks unfinished rather than broken.</summary>
+        public Brush ColorBrush => ChipInk.FillBrush(_model.ColorHex);
     }
 }

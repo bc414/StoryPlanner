@@ -118,6 +118,30 @@ public static class PlanIntegrity
                 violations.Add(new Violation("propertydefinition.subjectdefinition_missing",
                     $"property:{p.Id} -> subjectDef:{p.SubjectDefinitionId}"));
 
+        foreach (var b in ctx.PropertyBoards)
+            if (b.SubjectDefinitionId != 0 && !subjectDefinitionIds.Contains(b.SubjectDefinitionId))
+                violations.Add(new Violation("propertyboard.subjectdefinition_missing",
+                    $"board:{b.Id} -> subjectDef:{b.SubjectDefinitionId}"));
+
+        foreach (var rd in ctx.SubjectRelationDefinitions)
+        {
+            if (rd.SubjectDefinitionId != 0 && !subjectDefinitionIds.Contains(rd.SubjectDefinitionId))
+                violations.Add(new Violation("subjectrelationdefinition.subjectdefinition_missing",
+                    $"relationDef:{rd.Id} -> subjectDef:{rd.SubjectDefinitionId}"));
+
+            if (rd.TargetSubjectDefinitionId != 0 && !subjectDefinitionIds.Contains(rd.TargetSubjectDefinitionId))
+                violations.Add(new Violation("subjectrelationdefinition.subjectdefinition_missing",
+                    $"relationDef:{rd.Id} -> targetSubjectDef:{rd.TargetSubjectDefinitionId}"));
+
+            // A hierarchy that changes subject type partway down is not a chain: the tree view's
+            // property columns come from the source definition, and a cycle guard that compares
+            // across two type scopes has nothing coherent to compare.
+            if (rd.FormsHierarchy && rd.SubjectDefinitionId != rd.TargetSubjectDefinitionId)
+                violations.Add(new Violation("subjectrelationdefinition.hierarchy_cross_type",
+                    $"relationDef:{rd.Id} \"{rd.Name}\" forms a hierarchy but points "
+                    + $"subjectDef:{rd.SubjectDefinitionId} -> subjectDef:{rd.TargetSubjectDefinitionId}"));
+        }
+
         // Sentinel-0 references ("(Unplaced)" / "(Unassigned)") are legal, permanent states —
         // only a non-zero id pointing at a deleted row is an orphan.
         var theaterIds = ctx.Theaters.Select(t => t.Id).ToHashSet();
@@ -227,6 +251,83 @@ public static class PlanIntegrity
             if (pd.GatingWorkPhaseId is int phaseId && !workPhaseIds.Contains(phaseId))
                 violations.Add(new Violation("narrativepropertydefinition.workphase_missing",
                     $"property:{pd.Id} -> workPhase:{phaseId}"));
+
+        // Board membership. A property on a board scoped to a different subject definition would
+        // put a subject in a grid whose axes do not apply to it.
+        var boardsById = ctx.PropertyBoards.ToDictionary(b => b.Id);
+        foreach (var pd in ctx.NarrativePropertyDefinitions)
+        {
+            if (pd.PropertyBoardId is not int boardId) continue;
+
+            if (!boardsById.TryGetValue(boardId, out var board))
+                violations.Add(new Violation("narrativepropertydefinition.board_missing",
+                    $"property:{pd.Id} -> board:{boardId}"));
+            else if (board.SubjectDefinitionId != pd.SubjectDefinitionId)
+                violations.Add(new Violation("narrativepropertydefinition.board_scope_mismatch",
+                    $"property:{pd.Id} (subjectDef:{pd.SubjectDefinitionId}) is on "
+                    + $"board:{boardId} (subjectDef:{board.SubjectDefinitionId})"));
+        }
+
+        // Subject relations. Unlike NarrativePropertyValue these rows name their definition, so
+        // both endpoints resolve without a polymorphic trace — but nothing else guards them.
+        var relationDefsById = ctx.SubjectRelationDefinitions.ToDictionary(r => r.Id);
+        var subjectDefinitionBySubjectId = ctx.Subjects.ToDictionary(s => s.Id, s => s.SubjectDefinitionId);
+        var resolvedRelations = new List<(int Id, int RelationDefinitionId, int SubjectId)>();
+
+        foreach (var r in ctx.SubjectRelations)
+        {
+            if (!relationDefsById.TryGetValue(r.RelationDefinitionId, out var def))
+            {
+                violations.Add(new Violation("subjectrelation.definition_missing",
+                    $"relation:{r.Id} -> relationDef:{r.RelationDefinitionId}"));
+                continue;
+            }
+
+            if (r.SubjectId == r.TargetSubjectId)
+                violations.Add(new Violation("subjectrelation.self_reference",
+                    $"relation:{r.Id} subject:{r.SubjectId} \"{def.Name}\" points at itself"));
+
+            if (!subjectIds.Contains(r.SubjectId))
+                violations.Add(new Violation("subjectrelation.subject_missing",
+                    $"relation:{r.Id} -> subject:{r.SubjectId}"));
+            else if (def.SubjectDefinitionId != 0
+                     && subjectDefinitionBySubjectId[r.SubjectId] != def.SubjectDefinitionId)
+                violations.Add(new Violation("subjectrelation.type_mismatch",
+                    $"relation:{r.Id} source subject:{r.SubjectId} is "
+                    + $"subjectDef:{subjectDefinitionBySubjectId[r.SubjectId]}, "
+                    + $"relationDef:{def.Id} expects subjectDef:{def.SubjectDefinitionId}"));
+
+            if (!subjectIds.Contains(r.TargetSubjectId))
+                violations.Add(new Violation("subjectrelation.target_missing",
+                    $"relation:{r.Id} -> subject:{r.TargetSubjectId}"));
+            else if (def.TargetSubjectDefinitionId != 0
+                     && subjectDefinitionBySubjectId[r.TargetSubjectId] != def.TargetSubjectDefinitionId)
+                violations.Add(new Violation("subjectrelation.type_mismatch",
+                    $"relation:{r.Id} target subject:{r.TargetSubjectId} is "
+                    + $"subjectDef:{subjectDefinitionBySubjectId[r.TargetSubjectId]}, "
+                    + $"relationDef:{def.Id} expects subjectDef:{def.TargetSubjectDefinitionId}"));
+
+            resolvedRelations.Add((r.Id, r.RelationDefinitionId, r.SubjectId));
+        }
+
+        // IsSingle is the same unenforceable invariant single-select properties have, and this
+        // check plays the same role for it.
+        foreach (var dup in resolvedRelations
+                     .Where(r => relationDefsById[r.RelationDefinitionId].IsSingle)
+                     .GroupBy(r => (r.RelationDefinitionId, r.SubjectId))
+                     .Where(g => g.Count() > 1))
+            violations.Add(new Violation("subjectrelation.duplicate_for_single",
+                $"subject:{dup.Key.SubjectId} relationDef:{dup.Key.RelationDefinitionId} has "
+                + $"{dup.Count()} targets ({string.Join(", ", dup.Select(r => $"relation:{r.Id}"))})"));
+
+        // Cycles, hierarchy relations only — a non-hierarchy edge may legitimately loop (a
+        // symmetric "Rival of"). Reported per subject rather than per loop so the violation names
+        // something that can be opened and fixed.
+        var allRelations = ctx.SubjectRelations.ToList();
+        foreach (var def in relationDefsById.Values.Where(d => d.FormsHierarchy))
+            foreach (var subjectId in SubjectRelationGraph.SubjectsOnCycles(allRelations, def.Id).Order())
+                violations.Add(new Violation("subjectrelation.cycle",
+                    $"subject:{subjectId} is on a cycle of relationDef:{def.Id} \"{def.Name}\""));
 
         return violations;
     }

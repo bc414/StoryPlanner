@@ -690,6 +690,21 @@
                             </DataTemplate>
                         </DataGridTemplateColumn.CellEditingTemplate>
                     </DataGridTemplateColumn>
+                    <!-- Board membership is opt-in: blank means this property appears in no grid,
+                         which is right for every bookkeeping property. -->
+                    <DataGridTemplateColumn Header="Board" Width="150">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate><TextBlock Text="{Binding SelectedBoard.Name}" VerticalAlignment="Center" Margin="4,0"/></DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <ComboBox SelectedItem="{Binding SelectedBoard, UpdateSourceTrigger=PropertyChanged}"
+                                          DisplayMemberPath="Name"
+                                          ItemsSource="{Binding DataContext.PropertyBoards,
+                                                        RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
                     <DataGridTextColumn Header="Question"    Binding="{Binding Question, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
                     <DataGridTextColumn Header="Explanation" Binding="{Binding Explanation, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
                     <DataGridTemplateColumn Header="" Width="34">
@@ -727,6 +742,25 @@
                     <DataGridTextColumn Header="Id"       Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
                     <DataGridTextColumn Header="Property" Binding="{Binding PropertyName}" IsReadOnly="True" Width="170"/>
                     <DataGridTextColumn Header="Value"    Binding="{Binding ValueName, UpdateSourceTrigger=PropertyChanged}" Width="220"/>
+                    <!-- Colour (inline edit, hex text) — same shape as the Story colour column.
+                         Empty is legal and renders as a neutral chip; nothing auto-assigns one. -->
+                    <DataGridTemplateColumn Header="Colour" Width="110">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Margin="4,0">
+                                    <Border Width="14" Height="14" BorderBrush="#999999" BorderThickness="1" Margin="0,0,6,0"
+                                            Background="{Binding ColorBrush}"/>
+                                    <TextBlock Text="{Binding ColorHex}" VerticalAlignment="Center"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <TextBox Text="{Binding ColorHex, UpdateSourceTrigger=PropertyChanged}"
+                                         BorderThickness="0" Padding="3"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
                     <DataGridTextColumn Header="Description" Binding="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
                     <DataGridTemplateColumn Header="" Width="34">
                         <DataGridTemplateColumn.CellTemplate>
@@ -744,6 +778,138 @@
             <!-- Refused deletes are otherwise silent — the guards return false and do nothing. -->
             <DockPanel Grid.Row="8" Margin="0,8,0,0" LastChildFill="False">
                 <TextBlock DockPanel.Dock="Left" Text="{Binding NarrativePropertyStatus}"
+                           Foreground="#C0392B" VerticalAlignment="Center" TextWrapping="Wrap"/>
+                <Button DockPanel.Dock="Right" Content="Save All" Padding="14,5"
+                        Command="{Binding SaveAllCommand}"/>
+            </DockPanel>
+        </Grid>
+    </TabItem>
+
+    <TabItem Header="Boards &amp; Relations">
+        <Grid Margin="8">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"  MinHeight="120"/>
+                <RowDefinition Height="6"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"  MinHeight="120"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- ── Property Boards ── -->
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,4">
+                <TextBlock Text="Property Boards" Style="{StaticResource SectionHeader}" VerticalAlignment="Center"/>
+                <Button Content="+ Add" Style="{StaticResource AddButton}"
+                        Command="{Binding AddPropertyBoardCommand}"
+                        Margin="12,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="A set of properties held under comparison. Put properties on a board with the Board column on the Narrative Properties tab."
+                           Foreground="#777777" FontSize="11" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            </StackPanel>
+
+            <DataGrid Grid.Row="1" ItemsSource="{Binding PropertyBoards}"
+                      AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                      SelectionMode="Single" HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal" RowHeaderWidth="0"
+                      BorderBrush="#CCCCCC" BorderThickness="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id"    Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
+                    <DataGridTextColumn Header="Order" Binding="{Binding DisplayOrder, UpdateSourceTrigger=PropertyChanged}" Width="55"/>
+                    <DataGridTextColumn Header="Name"  Binding="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Width="230"/>
+                    <DataGridTemplateColumn Header="Subject Type" Width="150">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate><TextBlock Text="{Binding SelectedSubjectType}" VerticalAlignment="Center" Margin="4,0"/></DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <ComboBox SelectedItem="{Binding SelectedSubjectType, UpdateSourceTrigger=PropertyChanged}"
+                                          ItemsSource="{Binding DataContext.AvailableSubjectTypes,
+                                                        RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridCheckBoxColumn Header="Unset band" Width="85"
+                                            Binding="{Binding IncludeUnsetBand, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Description" Binding="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                    <DataGridTemplateColumn Header="" Width="34">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="✕" Style="{StaticResource DeleteButton}"
+                                        Command="{Binding DataContext.DeletePropertyBoardCommand,
+                                                  RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                        CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <GridSplitter Grid.Row="2" Height="6" HorizontalAlignment="Stretch" Background="#EEEEEE"/>
+
+            <!-- ── Subject Relations ── -->
+            <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,4">
+                <TextBlock Text="Subject Relations" Style="{StaticResource SectionHeader}" VerticalAlignment="Center"/>
+                <Button Content="+ Add" Style="{StaticResource AddButton}"
+                        Command="{Binding AddSubjectRelationDefinitionCommand}"
+                        Margin="12,0,0,0" VerticalAlignment="Center"/>
+                <TextBlock Text="Kinds of edge one subject may draw to another. Hierarchy = acyclic and walkable as a tree; it requires the same type on both ends."
+                           Foreground="#777777" FontSize="11" VerticalAlignment="Center" Margin="12,0,0,0"/>
+            </StackPanel>
+
+            <DataGrid Grid.Row="4" ItemsSource="{Binding SubjectRelationDefinitions}"
+                      AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False"
+                      SelectionMode="Single" HeadersVisibility="Column"
+                      GridLinesVisibility="Horizontal" RowHeaderWidth="0"
+                      BorderBrush="#CCCCCC" BorderThickness="1">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id"    Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
+                    <DataGridTextColumn Header="Order" Binding="{Binding DisplayOrder, UpdateSourceTrigger=PropertyChanged}" Width="55"/>
+                    <DataGridTextColumn Header="Name"  Binding="{Binding Name, UpdateSourceTrigger=PropertyChanged}" Width="150"/>
+                    <DataGridTextColumn Header="Inverse name" Binding="{Binding InverseName, UpdateSourceTrigger=PropertyChanged}" Width="150"/>
+                    <DataGridTemplateColumn Header="From type" Width="140">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate><TextBlock Text="{Binding SelectedSubjectType}" VerticalAlignment="Center" Margin="4,0"/></DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <ComboBox SelectedItem="{Binding SelectedSubjectType, UpdateSourceTrigger=PropertyChanged}"
+                                          ItemsSource="{Binding DataContext.AvailableSubjectTypes,
+                                                        RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="To type" Width="140">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate><TextBlock Text="{Binding SelectedTargetSubjectType}" VerticalAlignment="Center" Margin="4,0"/></DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                        <DataGridTemplateColumn.CellEditingTemplate>
+                            <DataTemplate>
+                                <ComboBox SelectedItem="{Binding SelectedTargetSubjectType, UpdateSourceTrigger=PropertyChanged}"
+                                          ItemsSource="{Binding DataContext.AvailableSubjectTypes,
+                                                        RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellEditingTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridCheckBoxColumn Header="Single" Width="60"
+                                            Binding="{Binding IsSingle, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridCheckBoxColumn Header="Hierarchy" Width="75"
+                                            Binding="{Binding FormsHierarchy, UpdateSourceTrigger=PropertyChanged}"/>
+                    <DataGridTextColumn Header="Question"    Binding="{Binding Question, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                    <DataGridTextColumn Header="Explanation" Binding="{Binding Explanation, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
+                    <DataGridTemplateColumn Header="" Width="34">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Content="✕" Style="{StaticResource DeleteButton}"
+                                        Command="{Binding DataContext.DeleteSubjectRelationDefinitionCommand,
+                                                  RelativeSource={RelativeSource AncestorType=DataGrid}}"
+                                        CommandParameter="{Binding}"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                </DataGrid.Columns>
+            </DataGrid>
+
+            <DockPanel Grid.Row="5" Margin="0,8,0,0" LastChildFill="False">
+                <TextBlock DockPanel.Dock="Left" Text="{Binding BoardStatus}"
                            Foreground="#C0392B" VerticalAlignment="Center" TextWrapping="Wrap"/>
                 <Button DockPanel.Dock="Right" Content="Save All" Padding="14,5"
                         Command="{Binding SaveAllCommand}"/>

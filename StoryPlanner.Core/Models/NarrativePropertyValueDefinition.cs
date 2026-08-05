@@ -19,5 +19,16 @@ namespace StoryPlanner.Core
         public int NarrativePropertyDefinitionId { get; set; }
         public string ValueName { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Display colour for this value, "#RRGGBB". Empty is a legal, visibly-unfinished state
+        /// rendered as a neutral chip — never auto-assigned from a palette, for the same reason
+        /// seeded prose is forbidden: a machine-chosen answer reads as decided.
+        ///
+        /// Colour lives on the VALUE, not the property. A card renders one chip per property in
+        /// DisplayOrder, so the property is identified by slot position and needs no hue of its
+        /// own. Kept generic rather than board-specific so anything later can consume it.
+        /// </summary>
+        public string ColorHex { get; set; } = string.Empty;
     }
 }

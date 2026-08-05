@@ -88,6 +88,18 @@ public sealed class PlanCache
     /// to a plain OwnerId key: subject 7 and chapter 7 would collide silently.
     /// </summary>
     public required IReadOnlyDictionary<(OwnerType, int), List<NarrativePropertyValue>> NarrativePropertyValuesByOwner { get; init; }
+
+    /// <summary>
+    /// Authored subject-to-subject edges and the definitions that type them. Unlike the narrative
+    /// property values these need no owner-type trace: both endpoints are Subjects and
+    /// RelationDefinitionId resolves both types.
+    /// </summary>
+    public required IReadOnlyList<SubjectRelationDefinition> SubjectRelationDefinitions { get; init; }
+    public required IReadOnlyList<SubjectRelation> SubjectRelations { get; init; }
+    public required IReadOnlyDictionary<int, SubjectRelationDefinition> SubjectRelationDefById { get; init; }
+
+    /// <summary>Edges grouped by the subject holding them, in SortOrder.</summary>
+    public required IReadOnlyDictionary<int, List<SubjectRelation>> SubjectRelationsBySubject { get; init; }
 }
 
 /// <summary>
@@ -223,6 +235,8 @@ public sealed class StoryPlanSources : IDisposable
         var properties = ctx.NarrativePropertyDefinitions.ToList();
         var valueDefs = ctx.NarrativePropertyValueDefinitions.ToList();
         var propertyValues = ctx.NarrativePropertyValues.ToList();
+        var relationDefs = ctx.SubjectRelationDefinitions.OrderBy(r => r.DisplayOrder).ThenBy(r => r.Id).ToList();
+        var relations = ctx.SubjectRelations.ToList();
 
         // Resolve each assignment's owner type through the definition chain — the value row has no
         // OwnerType of its own. An assignment whose value definition is missing is dropped rather
@@ -295,7 +309,13 @@ public sealed class StoryPlanSources : IDisposable
             NarrativePropertyValuesByOwner = propertyValues
                 .Where(v => ownerTypeByValueDefId.ContainsKey(v.ValueDefinitionId))
                 .GroupBy(v => (ownerTypeByValueDefId[v.ValueDefinitionId], v.OwnerId))
-                .ToDictionary(g => g.Key, g => g.ToList())
+                .ToDictionary(g => g.Key, g => g.ToList()),
+            SubjectRelationDefinitions = relationDefs,
+            SubjectRelations = relations,
+            SubjectRelationDefById = relationDefs.ToDictionary(r => r.Id),
+            SubjectRelationsBySubject = relations
+                .GroupBy(r => r.SubjectId)
+                .ToDictionary(g => g.Key, g => g.OrderBy(r => r.SortOrder).ThenBy(r => r.Id).ToList())
         };
     }
 

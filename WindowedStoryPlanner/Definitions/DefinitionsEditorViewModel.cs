@@ -39,6 +39,12 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     public ObservableCollection<NarrativePropertyValueDefinitionViewModel> NarrativePropertyValueDefinitions
         => _registry.AllNarrativePropertyValueDefinitionViewModels;
 
+    public ObservableCollection<PropertyBoardViewModel> PropertyBoards
+        => _registry.AllPropertyBoardViewModels;
+
+    public ObservableCollection<SubjectRelationDefinitionViewModel> SubjectRelationDefinitions
+        => _registry.AllSubjectRelationDefinitionViewModels;
+
     /// <summary>Status line for the narrative-property grids — a refused delete is otherwise silent.</summary>
     [ObservableProperty]
     private string _narrativePropertyStatus = string.Empty;
@@ -47,6 +53,10 @@ public partial class DefinitionsEditorViewModel : ObservableObject
     /// <see cref="NarrativePropertyStatus"/> on the other tab.</summary>
     [ObservableProperty]
     private string _definitionStatus = string.Empty;
+
+    /// <summary>Status line for the boards and relations grids — same role again.</summary>
+    [ObservableProperty]
+    private string _boardStatus = string.Empty;
 
     // UI-only derived state — not model data, lives here not in registry
     public ObservableCollection<string> AvailableSubjectTypes { get; } = new();
@@ -201,7 +211,7 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         _storyService.NarrativePropertyDefinitions.Add(model);
         await _storyService.SaveAsync();
         NarrativePropertyDefinitions.Add(new NarrativePropertyDefinitionViewModel(
-            model, SubjectDefinitions, WorkPhases));
+            model, SubjectDefinitions, WorkPhases, PropertyBoards));
     }
 
     [RelayCommand]
@@ -240,6 +250,67 @@ public partial class DefinitionsEditorViewModel : ObservableObject
         NarrativePropertyStatus = await _deleter.TryDeleteNarrativePropertyValueDefinitionAsync(vm)
             ? string.Empty
             : $"Cannot delete \"{vm.ValueName}\" — entities have it assigned. Clear those first.";
+    }
+
+    // ── Property boards ───────────────────────────────────────────────────────
+
+    [RelayCommand]
+    private async Task AddPropertyBoard()
+    {
+        int nextOrder = PropertyBoards.Count > 0 ? PropertyBoards.Max(b => b.DisplayOrder) + 1 : 1;
+        var model = new PropertyBoard
+        {
+            Name = "New Board",
+            SubjectDefinitionId = SubjectDefinitions.FirstOrDefault()?.Id ?? 0,
+            DisplayOrder = nextOrder
+            // Description stays empty, and IncludeUnsetBand stays false: a board is for properties
+            // that are all meant to be assigned, and turning the band on is a deliberate choice
+            // about what the board is for.
+        };
+        _storyService.PropertyBoards.Add(model);
+        await _storyService.SaveAsync();
+        PropertyBoards.Add(new PropertyBoardViewModel(model, SubjectDefinitions));
+    }
+
+    [RelayCommand]
+    private async Task DeletePropertyBoard(PropertyBoardViewModel vm)
+    {
+        BoardStatus = await _deleter.TryDeletePropertyBoardAsync(vm)
+            ? string.Empty
+            : $"Cannot delete \"{vm.Name}\" — properties are still on it. Clear their Board first.";
+    }
+
+    // ── Subject relation definitions ──────────────────────────────────────────
+
+    [RelayCommand]
+    private async Task AddSubjectRelationDefinition()
+    {
+        int nextOrder = SubjectRelationDefinitions.Count > 0
+            ? SubjectRelationDefinitions.Max(r => r.DisplayOrder) + 1
+            : 1;
+        var firstType = SubjectDefinitions.FirstOrDefault()?.Id ?? 0;
+        var model = new SubjectRelationDefinition
+        {
+            Name = "New Relation",
+            SubjectDefinitionId = firstType,
+            // Same type on both ends by default — the ordinary case, and the only shape a
+            // hierarchy relation may have.
+            TargetSubjectDefinitionId = firstType,
+            DisplayOrder = nextOrder,
+            IsSingle = true
+            // InverseName / Question / Explanation stay empty, per the prose rule.
+        };
+        _storyService.SubjectRelationDefinitions.Add(model);
+        await _storyService.SaveAsync();
+        SubjectRelationDefinitions.Add(new SubjectRelationDefinitionViewModel(model, SubjectDefinitions));
+    }
+
+    [RelayCommand]
+    private async Task DeleteSubjectRelationDefinition(SubjectRelationDefinitionViewModel vm)
+    {
+        BoardStatus = await _deleter.TryDeleteSubjectRelationDefinitionAsync(vm)
+            ? string.Empty
+            : $"Cannot delete \"{vm.Name}\" — subjects have edges of this kind. Clear those first.";
     }
 
     private void SortNoteTrackDefinitions()

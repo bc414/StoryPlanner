@@ -349,6 +349,76 @@ and **never a `NarrativePropertyValue`** — a test pins that. Its config carrie
 all, so `Question` / `Explanation` / `Description` are authored in the app and cannot be clobbered
 by a re-run.
 
+**Beware config drift on that op.** The shipped `configs/narrative-properties.v2.json` no longer
+matches the live v2 file: all four seeded properties were renamed in-app (Human Capital Axis →
+Economy, Governance → Political Power, Boundary → External Boundary), a fifth (Identity) was
+added, and Social Contract gained a third pole. The op matches on
+`(OwnerType, SubjectDefinitionId, Name)`, so **re-running it against v2 creates four NEW
+definitions rather than updating the existing ones** — the same class of footgun as re-running the
+full `source-material.v2.json`.
+
+`NarrativePropertyValueDefinitions.ColorHex` (2026-08-04) is a `"#RRGGBB"` display colour on the
+VALUE, not the property — a card renders one chip per property in `DisplayOrder`, so slot position
+identifies the property. Empty is a legal, visibly-unfinished state; nothing auto-assigns one.
+
+**`PropertyBoards` / `NarrativePropertyDefinitions.PropertyBoardId`** (2026-08-04) — a board is an
+authored set of properties held under comparison, scoped to one `SubjectDefinitionId`. Membership
+is opt-in via the nullable `PropertyBoardId`; null (the default, and correct for every bookkeeping
+property) means the property appears on no board. `IncludeUnsetBand` is per board and **changes
+which subjects appear**, not just the layout: off, a subject unset on either axis of a grid is
+absent from that grid entirely, so per-grid totals legitimately differ from each other and from
+the subject count. Do not report that difference as missing data.
+
+A board drives three app views, none of them stored: the pairwise grids, a subject tree walked
+along a `SubjectRelation`, and **exact-match groups** (`NarrativePropertyMatchGroups` in Core) —
+subjects holding the same value on *every* board property. That last one excludes any subject
+unset on any board property, reporting it separately with its unset count, and shows singletons in
+their own section. Ordering is by group size, which is presentation over authored data, not a
+score; there is no similarity measure and no near-miss reporting anywhere in it. If you need the
+same grouping from a query, group on the full ordered tuple of `ValueDefinitionId` per property
+and drop any subject missing one — a partial tuple must never be matched on its known values.
+
+**`SubjectRelationDefinitions` / `SubjectRelations`** (2026-08-04) — authored edges between
+subjects. Four things to know:
+
+- **No `OwnerType`, and none is needed** — both endpoints are `Subjects`, and
+  `RelationDefinitionId` resolves the source and target types. This is deliberately unlike
+  `NarrativePropertyValue`; do not add a polymorphic form.
+- `SubjectRelationDefinition` carries `SubjectDefinitionId` (source type),
+  `TargetSubjectDefinitionId`, `Name` / `InverseName` (the edge read backwards, a label only —
+  never a second stored row), `IsSingle`, and `FormsHierarchy`.
+- **`IsSingle`** = at most one target per (subject, relation); `PlanIntegrity` reports a second as
+  `subjectrelation.duplicate_for_single`. **`FormsHierarchy`** = acyclic and walkable as a tree,
+  and requires the same subject type at both ends; only these relations are audited for cycles,
+  because a non-hierarchy relation may legitimately loop (a symmetric "Rival of").
+- **Nothing seeds these, and nothing may infer one.** The one succession in the file
+  (`Griffonian Republic` ← `Grover III's Enlightenment`, note 1630) skips three regimes and shares
+  no name token with its target. Absence of a row is unset — a legal permanent state.
+
+New `PlanIntegrity` codes from this pair: `propertyboard.subjectdefinition_missing`,
+`narrativepropertydefinition.board_missing`, `narrativepropertydefinition.board_scope_mismatch`,
+`subjectrelationdefinition.subjectdefinition_missing`,
+`subjectrelationdefinition.hierarchy_cross_type`, `subjectrelation.definition_missing`,
+`subjectrelation.subject_missing`, `subjectrelation.target_missing`,
+`subjectrelation.type_mismatch`, `subjectrelation.self_reference`,
+`subjectrelation.duplicate_for_single`, `subjectrelation.cycle`.
+
+```sql
+-- Every authored edge, resolved to names.
+SELECT d.Name AS relation, s.Name AS subject, t.Name AS target
+FROM SubjectRelations r
+JOIN SubjectRelationDefinitions d ON d.Id = r.RelationDefinitionId
+JOIN Subjects s ON s.Id = r.SubjectId
+JOIN Subjects t ON t.Id = r.TargetSubjectId
+ORDER BY d.DisplayOrder, r.SortOrder;
+
+-- A board's members, in the order its grids use.
+SELECT b.Name AS board, p.Name AS property, p.DisplayOrder
+FROM NarrativePropertyDefinitions p
+JOIN PropertyBoards b ON b.Id = p.PropertyBoardId
+ORDER BY b.DisplayOrder, p.DisplayOrder;
+```
+
 **`Conversations` / `ConversationBlocks` / `ConversationSubjectCoverages` / `ConversationSubjectCoverageTracks` / `IgnoredConversations`**
 (`Models/Conversation*.cs`, `IgnoredConversation.cs`) — the Conversation Reader feature (imported
 Claude/Gemini chat transcripts, block-by-block). v2-only — 0 rows in the v1 archive, which

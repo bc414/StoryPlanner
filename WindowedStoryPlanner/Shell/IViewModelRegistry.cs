@@ -20,6 +20,8 @@ public interface IViewModelRegistry
     ObservableCollection<WorkPhaseViewModel> AllWorkPhaseViewModels { get; }
     ObservableCollection<NarrativePropertyDefinitionViewModel> AllNarrativePropertyDefinitionViewModels { get; }
     ObservableCollection<NarrativePropertyValueDefinitionViewModel> AllNarrativePropertyValueDefinitionViewModels { get; }
+    ObservableCollection<PropertyBoardViewModel> AllPropertyBoardViewModels { get; }
+    ObservableCollection<SubjectRelationDefinitionViewModel> AllSubjectRelationDefinitionViewModels { get; }
     ObservableCollection<ThemeViewModel> AllThemeViewModels { get; }
     ObservableCollection<SourceMaterialViewModel> AllSourceMaterialViewModels { get; }
     ObservableCollection<SourceMaterialPartViewModel> AllSourceMaterialPartViewModels { get; }

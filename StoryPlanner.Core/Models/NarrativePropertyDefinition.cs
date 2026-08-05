@@ -35,5 +35,13 @@ namespace StoryPlanner.Core
         /// consult this.
         /// </summary>
         public int? GatingWorkPhaseId { get; set; }
+
+        /// <summary>
+        /// The PropertyBoard this property is compared on, or null for none — which is the default
+        /// and stays correct for every bookkeeping property. Membership is authored, never implied
+        /// by scope: a board must not silently acquire a property added later for an unrelated
+        /// purpose. Only meaningful on OwnerType.Subject rows.
+        /// </summary>
+        public int? PropertyBoardId { get; set; }
     }
 }

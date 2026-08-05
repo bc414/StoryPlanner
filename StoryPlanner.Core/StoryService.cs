@@ -28,6 +28,9 @@ public class StoryService : IStoryService
     public ObservableCollection<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; private set; } = new();
     public ObservableCollection<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; private set; } = new();
     public ObservableCollection<NarrativePropertyValue> NarrativePropertyValues { get; private set; } = new();
+    public ObservableCollection<PropertyBoard> PropertyBoards { get; private set; } = new();
+    public ObservableCollection<SubjectRelationDefinition> SubjectRelationDefinitions { get; private set; } = new();
+    public ObservableCollection<SubjectRelation> SubjectRelations { get; private set; } = new();
     public ObservableCollection<WorkPhase> WorkPhases { get; private set; } = new();
     public ObservableCollection<Theme> Themes { get; private set; } = new();
 
@@ -218,10 +221,13 @@ public class StoryService : IStoryService
         // Definitions — load leaves first so EF relationship fixup wires nav properties
         await _context.WorkPhases.LoadAsync();
         await _context.NoteTrackDefinitions.LoadAsync();
+        await _context.PropertyBoards.LoadAsync();
         await _context.NarrativePropertyValueDefinitions.LoadAsync();
         await _context.NarrativePropertyDefinitions.LoadAsync();
         await _context.SubjectDefinitions.LoadAsync();
         await _context.NarrativePropertyValues.LoadAsync();
+        await _context.SubjectRelationDefinitions.LoadAsync();
+        await _context.SubjectRelations.LoadAsync();
 
         await _context.Themes.LoadAsync();   // ← was missing
 
@@ -251,6 +257,9 @@ public class StoryService : IStoryService
         NarrativePropertyDefinitions      = _context.NarrativePropertyDefinitions.Local.ToObservableCollection();
         NarrativePropertyValueDefinitions = _context.NarrativePropertyValueDefinitions.Local.ToObservableCollection();
         NarrativePropertyValues           = _context.NarrativePropertyValues.Local.ToObservableCollection();
+        PropertyBoards                    = _context.PropertyBoards.Local.ToObservableCollection();
+        SubjectRelationDefinitions        = _context.SubjectRelationDefinitions.Local.ToObservableCollection();
+        SubjectRelations                  = _context.SubjectRelations.Local.ToObservableCollection();
         // .Local is change-tracker order, NOT the LoadAsync ordering — every consumer sorts by
         // DisplayOrder at the point of use.
         WorkPhases                        = _context.WorkPhases.Local.ToObservableCollection();
@@ -417,6 +426,17 @@ public class StoryService : IStoryService
                      .Where(v => v.OwnerId == ownerId && validValueDefinitionIds.Contains(v.ValueDefinitionId))
                      .ToList())
             NarrativePropertyValues.Remove(value);
+    }
+
+    public void RemoveSubjectRelations(int subjectId)
+    {
+        // BOTH ends. Dropping only the outgoing edges would leave every subject that pointed AT
+        // this one holding a target id that no longer resolves — and since subject ids are
+        // reused by SQLite's rowid allocation, a later subject could silently inherit the edge.
+        foreach (var relation in SubjectRelations
+                     .Where(r => r.SubjectId == subjectId || r.TargetSubjectId == subjectId)
+                     .ToList())
+            SubjectRelations.Remove(relation);
     }
 
     public async Task DeleteConversationAsync(Conversation conversation)

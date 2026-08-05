@@ -19,6 +19,9 @@ public interface IStoryService : IDisposable
     ObservableCollection<NarrativePropertyDefinition> NarrativePropertyDefinitions { get; }
     ObservableCollection<NarrativePropertyValueDefinition> NarrativePropertyValueDefinitions { get; }
     ObservableCollection<NarrativePropertyValue> NarrativePropertyValues { get; }
+    ObservableCollection<PropertyBoard> PropertyBoards { get; }
+    ObservableCollection<SubjectRelationDefinition> SubjectRelationDefinitions { get; }
+    ObservableCollection<SubjectRelation> SubjectRelations { get; }
     ObservableCollection<WorkPhase> WorkPhases { get; }
     ObservableCollection<Theme> Themes { get; }
     ObservableCollection<SourceMaterial> SourceMaterials { get; }
@@ -95,6 +98,12 @@ public interface IStoryService : IDisposable
     /// valueless OwnerType by tracing ValueDefinitionId → NarrativePropertyDefinitionId →
     /// OwnerType. Called by ContentDeleter before removing any note-owning entity.</summary>
     void RemoveOwnedNarrativePropertyValues(int ownerId, OwnerType ownerType);
+
+    /// <summary>Removes every SubjectRelation touching this subject at EITHER end. A true cascade
+    /// rather than sentinel-orphaning: an edge with a dead endpoint asserts nothing, and a
+    /// recycled subject id would silently inherit it. Every subject-delete path must come through
+    /// here.</summary>
+    void RemoveSubjectRelations(int subjectId);
 
     NoteTrackDefinition? GetNoteTrackDefinition(int id);
 }

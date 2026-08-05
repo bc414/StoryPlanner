@@ -1,0 +1,320 @@
+<UserControl x:Class="WindowedStoryPlanner.BoardsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:WindowedStoryPlanner"
+             mc:Ignorable="d" d:DesignHeight="700" d:DesignWidth="1000"
+             d:DataContext="{d:DesignInstance Type=local:BoardsViewModel}">
+
+    <UserControl.Resources>
+        <!-- Declared locally, as NarrativeElementFullView does — this layer keeps stock converters
+             on the view that uses them rather than in App.xaml. -->
+        <BooleanToVisibilityConverter x:Key="BoolToVis"/>
+    </UserControl.Resources>
+
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Board selector — shared by both sub-tabs, and the only thing they share. -->
+        <DockPanel Grid.Row="0" LastChildFill="False" Margin="0,0,0,8">
+            <TextBlock DockPanel.Dock="Left" Text="Board" FontSize="18" FontWeight="Bold"
+                       VerticalAlignment="Center"/>
+            <ComboBox DockPanel.Dock="Left" Margin="12,0,0,0" MinWidth="260" VerticalAlignment="Center"
+                      ItemsSource="{Binding Boards}"
+                      SelectedItem="{Binding SelectedBoard, Mode=TwoWay}"
+                      DisplayMemberPath="DisplayLabel"/>
+            <TextBlock DockPanel.Dock="Left" Text="{Binding Summary}" Foreground="#555555"
+                       VerticalAlignment="Center" Margin="14,0,0,0" TextWrapping="Wrap"/>
+            <Button DockPanel.Dock="Right" Content="Refresh" Padding="14,5"
+                    Command="{Binding RebuildCommand}"/>
+        </DockPanel>
+
+        <TabControl Grid.Row="1">
+
+            <!-- ══ Grids ══ -->
+            <TabItem Header="Grids">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Margin="0,0,0,8" Foreground="#777777" FontSize="11"
+                               TextWrapping="Wrap"
+                               Text="Every pair of the board's properties, crossed. Axis order is the authored value order, not a ranking, and nothing here is scored — an empty cell is a fact about the world, not a gap to fill."/>
+
+                    <ItemsControl Grid.Row="1" ItemsSource="{Binding Grids}">
+                        <ItemsControl.Template>
+                            <ControlTemplate TargetType="ItemsControl">
+                                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                    <ItemsPresenter/>
+                                </ScrollViewer>
+                            </ControlTemplate>
+                        </ItemsControl.Template>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <!-- Collapsed by default: ten headers scan fast, one click reads one. -->
+                                <Expander Margin="0,0,0,6" IsExpanded="False">
+                                    <Expander.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="{Binding Header}" FontWeight="SemiBold"/>
+                                            <TextBlock Text="{Binding CountLabel}" Foreground="#777777"
+                                                       Margin="12,0,0,0"/>
+                                        </StackPanel>
+                                    </Expander.Header>
+
+                                    <ItemsControl ItemsSource="{Binding Cells}" Margin="18,6,0,10">
+                                        <ItemsControl.ItemsPanel>
+                                            <ItemsPanelTemplate>
+                                                <!-- One flat cell list, header row and column
+                                                     included, laid out by column count. The panel
+                                                     inherits the ItemsControl's DataContext, so
+                                                     this is the grid's own ColumnCount. -->
+                                                <UniformGrid Columns="{Binding ColumnCount}"/>
+                                            </ItemsPanelTemplate>
+                                        </ItemsControl.ItemsPanel>
+                                        <ItemsControl.ItemTemplate>
+                                            <DataTemplate>
+                                                <Grid>
+                                                    <!-- Corner: nothing. -->
+                                                    <Border Visibility="{Binding IsCorner, Converter={StaticResource BoolToVis}}"/>
+
+                                                    <!-- Axis header, filled with the value's own colour. -->
+                                                    <Border Visibility="{Binding IsHeader, Converter={StaticResource BoolToVis}}"
+                                                            Background="{Binding HeaderFill}"
+                                                            BorderBrush="#BBBBBB" BorderThickness="1"
+                                                            CornerRadius="3" Margin="1" Padding="5,3">
+                                                        <TextBlock Text="{Binding Label}" FontSize="11"
+                                                                   FontWeight="SemiBold"
+                                                                   Foreground="{Binding HeaderInk}"
+                                                                   TextWrapping="Wrap"
+                                                                   VerticalAlignment="Center"/>
+                                                    </Border>
+
+                                                    <!-- Body cell: the subjects at this intersection. -->
+                                                    <Border Visibility="{Binding IsBody, Converter={StaticResource BoolToVis}}"
+                                                            BorderBrush="#DDDDDD" BorderThickness="1"
+                                                            Margin="1" Padding="3" Background="#FFFFFF">
+                                                        <ScrollViewer VerticalScrollBarVisibility="Auto"
+                                                                      MaxHeight="320">
+                                                            <ItemsControl ItemsSource="{Binding Cards}">
+                                                                <ItemsControl.ItemTemplate>
+                                                                    <DataTemplate>
+                                                                        <local:SubjectCardView/>
+                                                                    </DataTemplate>
+                                                                </ItemsControl.ItemTemplate>
+                                                            </ItemsControl>
+                                                        </ScrollViewer>
+                                                    </Border>
+                                                </Grid>
+                                            </DataTemplate>
+                                        </ItemsControl.ItemTemplate>
+                                    </ItemsControl>
+                                </Expander>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Grid>
+            </TabItem>
+
+            <!-- ══ Matches ══ -->
+            <TabItem Header="Matches">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="{Binding MatchSummary}" Foreground="#555555"
+                               FontSize="12" Margin="0,0,0,4"/>
+
+                    <TextBlock Grid.Row="1" Margin="0,0,0,8" Foreground="#777777" FontSize="11"
+                               TextWrapping="Wrap"
+                               Text="Subjects holding the same value on every property of this board. Exact matches only — nothing here measures similarity or reports near-misses. Groups are ordered by size, which counts what you authored; it does not rank the groups."/>
+
+                    <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+                        <StackPanel>
+
+                            <!-- Shared positions, largest first. One expander per group: the
+                                 expander chrome IS the divider, and its header carries what the
+                                 member cards cannot — the size, and who is in it, so a collapsed
+                                 group is still identifiable. The defining tuple is deliberately
+                                 NOT repeated here; every card below already shows it. -->
+                            <ItemsControl ItemsSource="{Binding SharedMatchGroups}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Expander Margin="0,0,0,6" IsExpanded="True">
+                                            <Expander.Header>
+                                                <DockPanel LastChildFill="True" MinWidth="600">
+                                                    <Border DockPanel.Dock="Left" Background="#E8EEF7"
+                                                            BorderBrush="#C0CEE0" BorderThickness="1"
+                                                            CornerRadius="9" Padding="8,1" Margin="0,0,10,0"
+                                                            VerticalAlignment="Center">
+                                                        <TextBlock Text="{Binding CountLabel}"
+                                                                   FontWeight="SemiBold" FontSize="11"/>
+                                                    </Border>
+                                                    <TextBlock Text="{Binding MemberNames}"
+                                                               ToolTip="{Binding MemberNames}"
+                                                               Foreground="#666666" FontSize="11"
+                                                               VerticalAlignment="Center"
+                                                               TextTrimming="CharacterEllipsis"/>
+                                                </DockPanel>
+                                            </Expander.Header>
+
+                                            <ItemsControl ItemsSource="{Binding Cards}" Margin="22,4,0,6">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate><local:SubjectCardView/></DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </Expander>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+
+                            <!-- Alone. A subject unique in the world is a fact worth seeing, and
+                                 hiding these is how you fail to notice one that should have had
+                                 company. One expander for the whole section — a singleton does not
+                                 warrant chrome of its own. -->
+                            <Expander Margin="0,8,0,6" IsExpanded="True">
+                                <Expander.Style>
+                                    <Style TargetType="Expander">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding AloneMatchGroups.Count}" Value="0">
+                                                <Setter Property="Visibility" Value="Collapsed"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Expander.Style>
+                                <Expander.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Alone on their coordinates" FontWeight="SemiBold"/>
+                                        <TextBlock Text="{Binding AloneMatchGroups.Count}"
+                                                   Foreground="#777777" Margin="8,0,0,0"/>
+                                    </StackPanel>
+                                </Expander.Header>
+                                <ItemsControl ItemsSource="{Binding AloneMatchGroups}" Margin="22,4,0,0">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <ItemsControl ItemsSource="{Binding Cards}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate><local:SubjectCardView/></DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </Expander>
+
+                            <!-- Not grouped. Listed, never silently dropped — but the count is a
+                                 statement of fact, not a to-do list. -->
+                            <Expander Margin="0,0,0,6" IsExpanded="True">
+                                <Expander.Style>
+                                    <Style TargetType="Expander">
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding PartiallyAssigned.Count}" Value="0">
+                                                <Setter Property="Visibility" Value="Collapsed"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Expander.Style>
+                                <Expander.Header>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Not fully assigned, not grouped" FontWeight="SemiBold"/>
+                                        <TextBlock Text="{Binding PartiallyAssigned.Count}"
+                                                   Foreground="#777777" Margin="8,0,0,0"/>
+                                    </StackPanel>
+                                </Expander.Header>
+                                <ItemsControl ItemsSource="{Binding PartiallyAssigned}" Margin="22,4,0,0">
+                                    <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                            <DockPanel LastChildFill="True" Margin="0,0,0,2">
+                                                <TextBlock DockPanel.Dock="Right" Text="{Binding UnsetLabel}"
+                                                           Foreground="#C0392B" FontSize="10"
+                                                           VerticalAlignment="Center" Margin="10,0,0,0"/>
+                                                <ContentControl Content="{Binding Card}">
+                                                    <ContentControl.ContentTemplate>
+                                                        <DataTemplate><local:SubjectCardView/></DataTemplate>
+                                                    </ContentControl.ContentTemplate>
+                                                </ContentControl>
+                                            </DockPanel>
+                                        </DataTemplate>
+                                    </ItemsControl.ItemTemplate>
+                                </ItemsControl>
+                            </Expander>
+
+                        </StackPanel>
+                    </ScrollViewer>
+                </Grid>
+            </TabItem>
+
+            <!-- ══ Tree ══ -->
+            <TabItem Header="Tree">
+                <Grid Margin="0,8,0,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <WrapPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,6">
+                        <TextBlock Text="Edge" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="11"/>
+                        <ComboBox Margin="6,0,16,0" MinWidth="170" VerticalAlignment="Center"
+                                  ItemsSource="{Binding RelationChoices}"
+                                  SelectedItem="{Binding SelectedRelation, Mode=TwoWay}"
+                                  DisplayMemberPath="DisplayLabel"/>
+
+                        <TextBlock Text="From" VerticalAlignment="Center" FontWeight="SemiBold" FontSize="11"/>
+                        <ComboBox Margin="6,0,16,0" MinWidth="220" VerticalAlignment="Center"
+                                  ItemsSource="{Binding RootChoices}"
+                                  SelectedItem="{Binding SelectedRoot, Mode=TwoWay}"
+                                  DisplayMemberPath="Name"/>
+
+                        <CheckBox Content="Follow inverted" VerticalAlignment="Center"
+                                  IsChecked="{Binding WalkInverted, Mode=TwoWay}"
+                                  ToolTip="Unticked walks the edge as stored. Ticked walks it backwards — with an ancestor edge, that renders descendants instead of climbing."/>
+                        <TextBlock Text="{Binding DirectionLabel}" Foreground="#777777" FontSize="11"
+                                   VerticalAlignment="Center" Margin="8,0,16,0"/>
+
+                        <TextBlock Text="{Binding TreeSummary}" Foreground="#555555" FontSize="11"
+                                   VerticalAlignment="Center"/>
+                    </WrapPanel>
+
+                    <TextBlock Grid.Row="1" Margin="0,0,0,8" Foreground="#777777" FontSize="11"
+                               TextWrapping="Wrap"
+                               Text="One subject at a time, expanded recursively along the chosen edge. The chips are the same board properties the grids use, so a change of colour down a line is a change of value."/>
+
+                    <ItemsControl Grid.Row="2" ItemsSource="{Binding TreeNodes}">
+                        <ItemsControl.Template>
+                            <ControlTemplate TargetType="ItemsControl">
+                                <ScrollViewer VerticalScrollBarVisibility="Auto">
+                                    <ItemsPresenter/>
+                                </ScrollViewer>
+                            </ControlTemplate>
+                        </ItemsControl.Template>
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Orientation="Horizontal" Margin="{Binding Indent}">
+                                    <!-- A revisited subject stops the walk and says so, rather than
+                                         being dropped: a cycle is data worth seeing. -->
+                                    <TextBlock Text="↩ already above" Foreground="#C0392B" FontSize="10"
+                                               VerticalAlignment="Center" Margin="0,0,6,0"
+                                               Visibility="{Binding StopsOnCycle, Converter={StaticResource BoolToVis}}"/>
+                                    <ContentControl Content="{Binding Card}" MinWidth="260">
+                                        <ContentControl.ContentTemplate>
+                                            <DataTemplate><local:SubjectCardView/></DataTemplate>
+                                        </ContentControl.ContentTemplate>
+                                    </ContentControl>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Grid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

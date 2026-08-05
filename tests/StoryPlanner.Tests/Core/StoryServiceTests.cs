@@ -100,4 +100,47 @@ public class StoryServiceTests
         Assert.False(StoryService.CreateSafetyBackup(
             Path.Combine(Path.GetTempPath(), "storyplan-tests-missing", "no-such-file.storyplan")));
     }
+
+    [Fact]
+    public async Task RemoveSubjectRelations_takes_edges_at_BOTH_ends_of_the_subject()
+    {
+        // Dropping only the outgoing edges would leave every subject that pointed AT this one
+        // holding a target id that no longer resolves — and SQLite reuses rowids, so a later
+        // subject could silently inherit the edge.
+        using var plan = SyntheticPlan.Create();
+        plan.ExternalWrite(ctx =>
+        {
+            ctx.Subjects.Add(new Subject { Id = 3, Name = "Third", SubjectDefinitionId = SyntheticPlan.CharacterDefId });
+            ctx.SubjectRelationDefinitions.Add(new SubjectRelationDefinition
+            {
+                Id = 1, Name = "Ancestor",
+                SubjectDefinitionId = SyntheticPlan.CharacterDefId,
+                TargetSubjectDefinitionId = SyntheticPlan.CharacterDefId
+            });
+            ctx.SubjectRelations.AddRange(
+                // Outgoing from the subject we are about to strip…
+                new SubjectRelation { Id = 1, RelationDefinitionId = 1, SubjectId = SyntheticPlan.SubjectId, TargetSubjectId = SyntheticPlan.EmptySubjectId },
+                // …incoming to it…
+                new SubjectRelation { Id = 2, RelationDefinitionId = 1, SubjectId = 3, TargetSubjectId = SyntheticPlan.SubjectId },
+                // …and one that does not touch it at all.
+                new SubjectRelation { Id = 3, RelationDefinitionId = 1, SubjectId = SyntheticPlan.EmptySubjectId, TargetSubjectId = 3 });
+        });
+        var svc = await plan.OpenStoryServiceAsync();
+
+        svc.RemoveSubjectRelations(SyntheticPlan.SubjectId);
+
+        var survivor = Assert.Single(svc.SubjectRelations);
+        Assert.Equal(3, survivor.Id);
+    }
+
+    [Fact]
+    public async Task RemoveSubjectRelations_is_a_no_op_for_a_subject_with_no_edges()
+    {
+        using var plan = SyntheticPlan.Create();
+        var svc = await plan.OpenStoryServiceAsync();
+
+        svc.RemoveSubjectRelations(SyntheticPlan.EmptySubjectId);
+
+        Assert.Empty(svc.SubjectRelations);
+    }
 }

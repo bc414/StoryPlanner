@@ -23,6 +23,8 @@ public class ViewModelRegistry : IViewModelRegistry
     public ObservableCollection<WorkPhaseViewModel> AllWorkPhaseViewModels { get; } = new();
     public ObservableCollection<NarrativePropertyDefinitionViewModel> AllNarrativePropertyDefinitionViewModels { get; } = new();
     public ObservableCollection<NarrativePropertyValueDefinitionViewModel> AllNarrativePropertyValueDefinitionViewModels { get; } = new();
+    public ObservableCollection<PropertyBoardViewModel> AllPropertyBoardViewModels { get; } = new();
+    public ObservableCollection<SubjectRelationDefinitionViewModel> AllSubjectRelationDefinitionViewModels { get; } = new();
     public ObservableCollection<ThemeViewModel> AllThemeViewModels { get; } = new();
     public ObservableCollection<SourceMaterialViewModel> AllSourceMaterialViewModels { get; } = new();
     public ObservableCollection<SourceMaterialPartViewModel> AllSourceMaterialPartViewModels { get; } = new();
@@ -61,6 +63,8 @@ public class ViewModelRegistry : IViewModelRegistry
         AllWorkPhaseViewModels.Clear();
         AllNarrativePropertyDefinitionViewModels.Clear();
         AllNarrativePropertyValueDefinitionViewModels.Clear();
+        AllPropertyBoardViewModels.Clear();
+        AllSubjectRelationDefinitionViewModels.Clear();
         AllThemeViewModels.Clear();
         AllSourceMaterialViewModels.Clear();
         AllSourceMaterialPartViewModels.Clear();

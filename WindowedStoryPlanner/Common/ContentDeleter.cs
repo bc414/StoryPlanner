@@ -176,4 +176,28 @@ public class ContentDeleter : IContentDeleter
         await _storyService.SaveAsync();
         return true;
     }
+
+    public async Task<bool> TryDeletePropertyBoardAsync(PropertyBoardViewModel board)
+    {
+        // Refuse rather than clearing the members' PropertyBoardId. Un-boarding five properties
+        // silently would only be noticed later, when the grids come back empty.
+        if (ContentIntegrity.PropertyBoardHasMembers(_storyService, board.Id)) return false;
+
+        _storyService.PropertyBoards.Remove(board.Model);
+        _registry.AllPropertyBoardViewModels.Remove(board);
+        await _storyService.SaveAsync();
+        return true;
+    }
+
+    public async Task<bool> TryDeleteSubjectRelationDefinitionAsync(SubjectRelationDefinitionViewModel definition)
+    {
+        // The edges are the only structural record of a succession worked out by hand; there is
+        // nothing to reconstruct them from once the definition that typed them is gone.
+        if (ContentIntegrity.SubjectRelationDefinitionHasAssignments(_storyService, definition.Id)) return false;
+
+        _storyService.SubjectRelationDefinitions.Remove(definition.Model);
+        _registry.AllSubjectRelationDefinitionViewModels.Remove(definition);
+        await _storyService.SaveAsync();
+        return true;
+    }
 }

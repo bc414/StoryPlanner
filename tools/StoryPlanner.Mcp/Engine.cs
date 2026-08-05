@@ -185,7 +185,7 @@ internal static class Engine
     /// and unset is a legal long-lived state here — the same reason TheaterId 0 renders as
     /// "(Unplaced)" instead of vanishing.
     /// </summary>
-    private static string? NarrativePropertyLine(PlanCache c, OwnerType ownerType, int ownerId, int subjectDefinitionId)
+    public static string? NarrativePropertyLine(PlanCache c, OwnerType ownerType, int ownerId, int subjectDefinitionId)
     {
         // Scope mirrors the app's own factories: Subject and PlotPointSubjectLink properties are
         // filtered by subject type; PlotPoint and Chapter properties apply to every owner.
@@ -217,6 +217,47 @@ internal static class Engine
         return $"properties: {string.Join(", ", parts)}";
     }
 
+    // ── subject relations (authored subject-to-subject edges) ───────────────────
+
+    /// <summary>
+    /// One "relations:" metadata line for a subject, or null when its type has no relations
+    /// configured.
+    ///
+    /// Renders a configured-but-unset relation EXPLICITLY as (none), for the same reason
+    /// <see cref="NarrativePropertyLine"/> renders (unset): omission would make "the author has
+    /// not drawn this edge" indistinguishable from "no such edge exists for this type".
+    ///
+    /// These edges are authored and never inferred. The one succession recorded in the real file
+    /// skips three intervening regimes and shares no name token with its target — nothing may
+    /// propose an edge from names, dates, or shared vocabulary.
+    /// </summary>
+    public static string? SubjectRelationLine(PlanCache c, int subjectId, int subjectDefinitionId)
+    {
+        var defs = c.SubjectRelationDefinitions
+            .Where(d => d.SubjectDefinitionId == subjectDefinitionId)
+            .ToList();
+
+        if (defs.Count == 0) return null;
+
+        var held = c.SubjectRelationsBySubject.TryGetValue(subjectId, out var rows) ? rows : [];
+
+        var parts = defs.Select(def =>
+        {
+            var targets = held
+                .Where(r => r.RelationDefinitionId == def.Id)
+                .Select(r => c.SubjectById.TryGetValue(r.TargetSubjectId, out var t)
+                    ? $"{t.Name} (subject:{t.Id})"
+                    : $"subject:{r.TargetSubjectId} (missing)")
+                .ToList();
+
+            return targets.Count == 0
+                ? $"{def.Name}=(none)"
+                : $"{def.Name}={string.Join(" + ", targets)}";
+        });
+
+        return $"relations: {string.Join(", ", parts)}";
+    }
+
     // ── fetch: subjects (edges embedded: scene links) ───────────────────────────
 
     public static string GetSubjects(PlanCache c, int[] ids, bool includeNotes)
@@ -237,6 +278,9 @@ internal static class Engine
 
             var propertyLine = NarrativePropertyLine(c, OwnerType.Subject, s.Id, s.SubjectDefinitionId);
             if (propertyLine is not null) sb.AppendLine(propertyLine);
+
+            var relationLine = SubjectRelationLine(c, s.Id, s.SubjectDefinitionId);
+            if (relationLine is not null) sb.AppendLine(relationLine);
 
             var own = c.NotesByOwner.TryGetValue((OwnerType.Subject, s.Id), out var list) ? list : [];
             var visible = own.Where(n => n.NoteState != NoteState.Flagged).ToList();
