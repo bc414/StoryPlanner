@@ -39,6 +39,14 @@ public partial class StoryLibraryViewModel : ObservableObject
         _storyService.SaveAsync().FireAndForget();
     }
 
+    /// <summary>
+    /// Persists a colour picked in the grid. This tab has no Save button, so without it a colour
+    /// would live only in memory until App.OnExit — and a colour is the one field here you set once
+    /// and never revisit, which is exactly the kind that goes missing unnoticed.
+    /// </summary>
+    [RelayCommand]
+    private void SaveNow() => _storyService.SaveAsync().FireAndForget();
+
     [RelayCommand]
     private void MoveStoryUp(StoryViewModel vm)
     {

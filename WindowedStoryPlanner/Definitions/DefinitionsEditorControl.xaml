@@ -742,24 +742,19 @@
                     <DataGridTextColumn Header="Id"       Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
                     <DataGridTextColumn Header="Property" Binding="{Binding PropertyName}" IsReadOnly="True" Width="170"/>
                     <DataGridTextColumn Header="Value"    Binding="{Binding ValueName, UpdateSourceTrigger=PropertyChanged}" Width="220"/>
-                    <!-- Colour (inline edit, hex text) — same shape as the Story colour column.
-                         Empty is legal and renders as a neutral chip; nothing auto-assigns one. -->
-                    <DataGridTemplateColumn Header="Colour" Width="110">
+                    <!-- Colour — same shape as the Story colour column. CellTemplate only and
+                         IsReadOnly, so the DataGrid never enters edit mode around an open Popup:
+                         its commit-on-focus-loss would tear down the template that owns the popup.
+                         The swatch button IS the editor. Empty is legal and renders as a neutral
+                         chip; nothing auto-assigns one. -->
+                    <DataGridTemplateColumn Header="Colour" Width="130" IsReadOnly="True">
                         <DataGridTemplateColumn.CellTemplate>
                             <DataTemplate>
-                                <StackPanel Orientation="Horizontal" Margin="4,0">
-                                    <Border Width="14" Height="14" BorderBrush="#999999" BorderThickness="1" Margin="0,0,6,0"
-                                            Background="{Binding ColorBrush}"/>
-                                    <TextBlock Text="{Binding ColorHex}" VerticalAlignment="Center"/>
-                                </StackPanel>
+                                <local:ColorPickerControl Target="{Binding}" Margin="4,0"
+                                    SaveCommand="{Binding DataContext.SaveAllCommand,
+                                                  RelativeSource={RelativeSource AncestorType=DataGrid}}"/>
                             </DataTemplate>
                         </DataGridTemplateColumn.CellTemplate>
-                        <DataGridTemplateColumn.CellEditingTemplate>
-                            <DataTemplate>
-                                <TextBox Text="{Binding ColorHex, UpdateSourceTrigger=PropertyChanged}"
-                                         BorderThickness="0" Padding="3"/>
-                            </DataTemplate>
-                        </DataGridTemplateColumn.CellEditingTemplate>
                     </DataGridTemplateColumn>
                     <DataGridTextColumn Header="Description" Binding="{Binding Description, UpdateSourceTrigger=PropertyChanged}" Width="*"/>
                     <DataGridTemplateColumn Header="" Width="34">

@@ -1,6 +1,5 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Core;
-using System.Windows.Media;
 
 namespace WindowedStoryPlanner;
 
@@ -9,7 +8,7 @@ namespace WindowedStoryPlanner;
 /// the plan this shipped with). Unlike NarrativeElementViewModel's subclasses, it derives
 /// straight from ObservableObject.
 /// </summary>
-public partial class StoryViewModel : ObservableObject
+public partial class StoryViewModel : ObservableObject, IColorHexOwner
 {
     private readonly Story _story;
     private readonly IViewModelRegistry _viewModelRegistry;
@@ -35,32 +34,14 @@ public partial class StoryViewModel : ObservableObject
         set => SetProperty(_story.Abbreviation, value, _story, (s, n) => s.Abbreviation = n);
     }
 
+    /// <summary>
+    /// Story colour, "#RRGGBB", edited through <see cref="ColorPickerControl"/> in the library grid
+    /// and read by the timeline for plot-point edges. Empty is legal and renders as ChipInk's neutral.
+    /// </summary>
     public string ColorHex
     {
         get => _story.ColorHex;
-        set
-        {
-            if (SetProperty(_story.ColorHex, value, _story, (s, n) => s.ColorHex = n))
-                OnPropertyChanged(nameof(ColorBrush));
-        }
-    }
-
-    // Same parse-with-fallback pattern as SubjectViewModel.BadgeBackground.
-    public Brush ColorBrush
-    {
-        get
-        {
-            try
-            {
-                var color = (Color)ColorConverter.ConvertFromString(
-                    !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
-                return new SolidColorBrush(color);
-            }
-            catch
-            {
-                return Brushes.LightGray;
-            }
-        }
+        set => SetProperty(_story.ColorHex, value, _story, (s, n) => s.ColorHex = n);
     }
 
     // Publication/reading order — also the leading digit of every chapter's and plot point's

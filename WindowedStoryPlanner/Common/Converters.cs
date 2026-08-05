@@ -38,6 +38,30 @@ namespace WindowedStoryPlanner // Adjust namespace if needed
         }
     }
 
+    /// <summary>An authored "#RRGGBB" to the brush that fills a swatch. Empty or malformed gives
+    /// ChipInk's neutral — an unfinished colour is a legal state, not a binding error.</summary>
+    [ValueConversion(typeof(string), typeof(Brush))]
+    public class ColorHexToFillBrushConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            ChipInk.FillBrush(value as string);
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
+    /// <summary>The text colour ChipInk derives from a fill, so a swatch can carry its own hex
+    /// legibly. Derived, never authored — see ChipInk.</summary>
+    [ValueConversion(typeof(string), typeof(Brush))]
+    public class ColorHexToInkBrushConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture) =>
+            ChipInk.InkBrush(value as string);
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture) =>
+            throw new NotImplementedException();
+    }
+
     [ValueConversion(typeof(bool), typeof(bool))]
     public class InverseBooleanConverter : IValueConverter
     {

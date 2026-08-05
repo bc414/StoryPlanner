@@ -12,6 +12,9 @@ namespace WindowedStoryPlanner;
 ///
 /// An empty or unparseable hex is a legal, visibly-unfinished state, not an error: it falls back
 /// to the same neutral the Story and Subject colour columns already use.
+///
+/// <see cref="TryParseColor"/> is public because <see cref="ColorPickerControl"/> needs the same
+/// leniency for a hex being typed one character at a time — one parser in the app, not two.
 /// </summary>
 public static class ChipInk
 {
@@ -24,13 +27,14 @@ public static class ChipInk
 
     /// <summary>Fill for a chip or swatch. Empty/unparseable → the neutral.</summary>
     public static Brush FillBrush(string? colorHex) =>
-        TryParse(colorHex, out var color) ? Freeze(new SolidColorBrush(color)) : Neutral;
+        TryParseColor(colorHex, out var color) ? Freeze(new SolidColorBrush(color)) : Neutral;
 
     /// <summary>Text colour that stays legible on <paramref name="colorHex"/>.</summary>
     public static Brush InkBrush(string? colorHex) =>
-        TryParse(colorHex, out var color) && RelativeLuminance(color) < 0.5 ? LightInk : DarkInk;
+        TryParseColor(colorHex, out var color) && RelativeLuminance(color) < 0.5 ? LightInk : DarkInk;
 
-    private static bool TryParse(string? colorHex, out Color color)
+    /// <summary>Lenient parse of an authored colour string. False for empty or malformed.</summary>
+    public static bool TryParseColor(string? colorHex, out Color color)
     {
         color = default;
         if (string.IsNullOrWhiteSpace(colorHex)) return false;

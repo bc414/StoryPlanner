@@ -273,6 +273,37 @@ search enhancement once had to be hand-ported across three controls. A future pi
 WorkPhase, …) instantiates the controller rather than becoming the next copy.
 `SourceMaterialPickerControl` keeps its extra chip/quick-add layer but shares the shape.
 
+### A `Popup` inside a `DataGrid` cell cannot host an editor (learned 2026-08-05)
+
+`WorldDatePickerControl` and `SourceMaterialPickerControl` use the same shape — a `ToggleButton`
+driving a `StaysOpen="False"` `Popup` — and both work. **That shape does not survive being put in
+a `DataGridTemplateColumn`.** The colour picker was built that way first and every control inside
+the popup was inert: swatch clicks, the hex `TextBox`, and all three of Clear/Cancel/Apply. Not one
+handler, all of them.
+
+The cause is routing, not any individual handler. A `Popup`'s content lives in its own HWND but its
+**logical** parent chain still runs Popup → the declaring element → `DataGridCell` → `DataGridRow`
+→ `DataGrid`, and WPF builds routed-event routes across that seam. So the grid's own mouse and key
+handling sits in the path of every event the popup's content needs, and tunneling `Preview*` events
+reach the grid *first*. Debugging this by chasing individual handlers is a dead end — the symptom
+is "everything is dead", which reads like a broken binding and isn't.
+
+**Rule:** an editor hosted in a `DataGrid` cell is a modal `Window`, not a `Popup`.
+`ColorPickerWindow` is the worked example, and `ColorPickerControl` is the cell-side face — a
+`Button` showing the value, which opens the window and performs one write on return. Keep `Popup`
+for the surfaces where it already works (`NoteView`, `TimelineView`, `CommonWindow`), none of which
+is a grid.
+
+Two things the modal buys beyond just working: the `ToggleButton.IsChecked` ↔ `Popup.IsOpen`
+close-then-reopen wart disappears, and so does the row-recycling hazard — a virtualized `DataGrid`
+can re-point a cell's bindings at a different row mid-edit, but a modal dialog blocks the scroll
+that would cause it, so no open-time target snapshot is needed.
+
+Whichever you use, the colour column itself must be `IsReadOnly="True"` with a `CellTemplate` and
+**no** `CellEditingTemplate`: a template column lacking an editing template falls back to using the
+`CellTemplate` as its editor, so F2 or a second click pushes the cell into edit state around a live
+editor. The control *is* the editor; the grid must never think it also has one.
+
 ## The crash safety net (added 2026-07-31)
 
 `App`'s constructor installs three handlers before any window or project load can throw; the
@@ -321,6 +352,8 @@ window down mid-edit.
 - **The final save lives in `App.OnExit`** — note prose binds `PropertyChanged` straight into
   live POCOs, so edits accumulate untracked-by-any-command until a save runs. Do not remove the
   exit save, and any new "close the app" path must go through normal shutdown so it fires.
+- **A `Popup` inside a `DataGrid` cell goes completely inert** — every handler, not one. Use a
+  modal `Window`; see "A `Popup` inside a `DataGrid` cell cannot host an editor" above.
 
 ## Before you finish
 

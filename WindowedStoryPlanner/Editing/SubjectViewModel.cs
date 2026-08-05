@@ -10,7 +10,7 @@ using System.Windows.Media;
 
 namespace WindowedStoryPlanner
 {
-    public partial class SubjectViewModel : NarrativeElementViewModel
+    public partial class SubjectViewModel : NarrativeElementViewModel, IColorHexOwner
     {
         private Subject _subject;
         public Subject Subject => _subject;
@@ -36,11 +36,21 @@ namespace WindowedStoryPlanner
             set => SetProperty(_subject.Abbreviation, value, _subject, (s, n) => s.Abbreviation = n);
         }
 
+        /// <summary>
+        /// Subject colour, "#RRGGBB", authored through <see cref="ColorPickerControl"/> in the
+        /// subject widget. Empty is a legal, long-lived state; nothing derives one from the name,
+        /// the subject type, or anything else. Read today by the markdown export.
+        /// </summary>
         public string ColorHex
         {
             get => _subject.ColorHex;
             set => SetProperty(_subject.ColorHex, value, _subject, (s, n) => s.ColorHex = n);
         }
+
+        /// <summary>Persists a colour picked in the subject widget. CommonWindow does not save on
+        /// close, so the picker carries its own save rather than relying on App.OnExit.</summary>
+        [RelayCommand]
+        private void SaveNow() => _storyService.SaveAsync().FireAndForget();
 
         /// <summary>Authorial designation that this subject may narrate somewhere in
         /// third-person-limited — the only thing that populates a PlotPoint's focal-character
@@ -164,40 +174,12 @@ namespace WindowedStoryPlanner
                     _subject.Id, definition, _viewModelRegistry, _storyService));
         }
 
-        public Brush BadgeBackground
-        {
-            get
-            {
-                try
-                {
-                    var color = (Color)ColorConverter.ConvertFromString(
-                        !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
-                    return new SolidColorBrush(color);
-                }
-                catch
-                {
-                    return Brushes.LightGray;
-                }
-            }
-        }
-
-        public Brush BadgeForeground
-        {
-            get
-            {
-                try
-                {
-                    var color = (Color)ColorConverter.ConvertFromString(
-                        !string.IsNullOrEmpty(ColorHex) ? ColorHex : "#CCCCCC");
-                    // Luminance formula to determine if dark or light
-                    return (color.R * 0.299 + color.G * 0.587 + color.B * 0.114) < 186 ? Brushes.White : Brushes.Black;
-                }
-                catch
-                {
-                    return Brushes.Black;
-                }
-            }
-        }
+        // Bound in no XAML today — kept because ColorHex now has an editor, so a subject badge
+        // becomes possible in a way it wasn't while the field was unreachable. Whether a
+        // per-subject hue should appear anywhere is a separate call: the timeline already colours
+        // subjects by TYPE, and two colour languages on one card would fight.
+        public Brush BadgeBackground => ChipInk.FillBrush(ColorHex);
+        public Brush BadgeForeground => ChipInk.InkBrush(ColorHex);
 
         /// <summary>All subject types the user can pick from.</summary>
         public IReadOnlyList<SubjectDefinitionViewModel> AvailableSubjectDefinitions =>

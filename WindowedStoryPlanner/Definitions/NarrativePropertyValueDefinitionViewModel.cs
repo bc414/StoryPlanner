@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using System.Windows.Media;
 using CommunityToolkit.Mvvm.ComponentModel;
 using StoryPlanner.Core;
 
@@ -11,7 +10,7 @@ namespace WindowedStoryPlanner
     /// one property. Distinct from <see cref="NarrativePropertyValueViewModel"/>, which is the
     /// read-only projection the entity editor's picker binds to.
     /// </summary>
-    public partial class NarrativePropertyValueDefinitionViewModel : ObservableObject
+    public partial class NarrativePropertyValueDefinitionViewModel : ObservableObject, IColorHexOwner
     {
         private readonly NarrativePropertyValueDefinition _model;
         private readonly IReadOnlyList<NarrativePropertyDefinitionViewModel> _properties;
@@ -46,21 +45,13 @@ namespace WindowedStoryPlanner
             _properties.FirstOrDefault(p => p.Id == _model.NarrativePropertyDefinitionId)?.Name ?? "(unknown)";
 
         /// <summary>
-        /// Display colour, "#RRGGBB". Edited as hex text, following the Story colour column — WPF
-        /// has no built-in picker and this layer has never added one.
+        /// Display colour, "#RRGGBB", edited through <see cref="ColorPickerControl"/> in the grid.
+        /// Empty is a legal, unfinished state and renders as ChipInk's neutral; nothing assigns one.
         /// </summary>
         public string ColorHex
         {
             get => _model.ColorHex;
-            set
-            {
-                if (SetProperty(_model.ColorHex, value, _model, (m, v) => m.ColorHex = v))
-                    OnPropertyChanged(nameof(ColorBrush));
-            }
+            set => SetProperty(_model.ColorHex, value, _model, (m, v) => m.ColorHex = v);
         }
-
-        /// <summary>Swatch fill for the grid. Falls back to the same neutral the Story and Subject
-        /// rows use, so an unset colour looks unfinished rather than broken.</summary>
-        public Brush ColorBrush => ChipInk.FillBrush(_model.ColorHex);
     }
 }

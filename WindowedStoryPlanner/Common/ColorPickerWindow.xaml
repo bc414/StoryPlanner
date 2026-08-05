@@ -1,0 +1,90 @@
+<Window x:Class="WindowedStoryPlanner.ColorPickerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:WindowedStoryPlanner"
+        mc:Ignorable="d"
+        Title="Colour" SizeToContent="WidthAndHeight" ResizeMode="NoResize"
+        WindowStyle="ToolWindow" ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <local:ColorHexToFillBrushConverter x:Key="HexToFill"/>
+
+        <!-- A swatch is a bare coloured rectangle with a hairline border; the button chrome is
+             templated away so the grid reads as a palette rather than as 67 buttons. -->
+        <Style x:Key="SwatchButton" TargetType="Button">
+            <Setter Property="Width" Value="22"/>
+            <Setter Property="Height" Value="22"/>
+            <Setter Property="Margin" Value="1"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border x:Name="Chip" BorderBrush="#88000000" BorderThickness="1"
+                                Background="{Binding Converter={StaticResource HexToFill}}"/>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="Chip" Property="BorderBrush" Value="#111111"/>
+                                <Setter TargetName="Chip" Property="BorderThickness" Value="2"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+    <StackPanel Margin="14">
+        <!-- Hues, then neutrals. Two ItemsControls rather than one so the neutrals sit on their
+             own line regardless of how the hue rows wrap. -->
+        <ItemsControl x:Name="HueSwatches" Width="288">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate><WrapPanel/></ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button Style="{StaticResource SwatchButton}" Tag="{Binding}"
+                            ToolTip="{Binding}" Click="Swatch_Click"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <ItemsControl x:Name="NeutralSwatches" Width="288" Margin="0,8,0,0">
+            <ItemsControl.ItemsPanel>
+                <ItemsPanelTemplate><WrapPanel/></ItemsPanelTemplate>
+            </ItemsControl.ItemsPanel>
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Button Style="{StaticResource SwatchButton}" Tag="{Binding}"
+                            ToolTip="{Binding}" Click="Swatch_Click"/>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+
+        <!-- Preview: the pending colour carrying its own hex in the ink ChipInk derives, so the
+             chip you will actually get is visible before committing. -->
+        <StackPanel Orientation="Horizontal" Margin="0,14,0,0">
+            <Border x:Name="PreviewSwatch" Width="150" Height="30"
+                    BorderBrush="#999999" BorderThickness="1">
+                <TextBlock x:Name="PreviewText" FontSize="12"
+                           HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            </Border>
+            <TextBox x:Name="HexBox" Width="130" Margin="8,0,0,0"
+                     VerticalContentAlignment="Center" TextChanged="Hex_TextChanged"
+                     ToolTip="#RRGGBB — typeable, and the way to reach a colour that isn't a swatch. Empty means no colour."/>
+        </StackPanel>
+
+        <TextBlock x:Name="Hint" FontSize="11" Foreground="#555555" Margin="0,8,0,0"
+                   TextWrapping="Wrap" MaxWidth="288" MinHeight="16"/>
+
+        <StackPanel Orientation="Horizontal" Margin="0,14,0,0" HorizontalAlignment="Right">
+            <Button Content="Clear" Click="Clear_Click" Padding="10,3" FontSize="12"
+                    ToolTip="No colour is a valid, long-lived state — this clears, it does not set black"/>
+            <Button Content="Cancel" Click="Cancel_Click" Padding="10,3" FontSize="12" Margin="6,0,0,0"
+                    IsCancel="True"/>
+            <Button x:Name="ApplyBtn" Content="Apply" Click="Apply_Click" Padding="14,3" FontSize="12"
+                    Margin="6,0,0,0" FontWeight="SemiBold" IsDefault="True"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
