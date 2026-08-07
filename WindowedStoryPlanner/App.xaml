@@ -41,6 +41,12 @@
                                 <Trigger Property="IsPressed" Value="True">
                                     <Setter TargetName="Root" Property="Background" Value="#C8C8C8"/>
                                 </Trigger>
+                                <!-- CommonWindow's prev/next arrows are the first picker-style buttons
+                                     that can be disabled (at the ends of the plot point sequence). -->
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                    <Setter TargetName="Root" Property="Opacity" Value="0.45"/>
+                                </Trigger>
                             </ControlTemplate.Triggers>
                         </ControlTemplate>
                     </Setter.Value>

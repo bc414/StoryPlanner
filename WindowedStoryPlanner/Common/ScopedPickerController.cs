@@ -68,20 +68,47 @@ public sealed class ScopedPickerController<TScope, TItem>
     /// <summary>Tooltip reflecting whatever the search is currently scoped to — a scope picked
     /// in the combo restrains the search box to that scope's items.</summary>
     public string SearchScopeHint =>
-        _selectedScope is not null ? _scopedHint(_selectedScope) : _unscopedHint;
+        _selectedScope is not null ? _scopedHint(_selectedScope)
+        : _outerHint ?? _unscopedHint;
+
+    // ── Outer scope (optional, coarser than the scope combo) ──────────────
+
+    private Func<TItem, bool>? _outerFilter;
+    private string? _outerHint;
+
+    /// <summary>
+    /// An optional coarser narrowing applied before the scope filter — this is how
+    /// PlotPointPickerControl hangs a Story above its Chapter combo. It restrains the item combo
+    /// and the search the same way a scope does, and a scope picked inside it narrows further.
+    /// Pass nulls to clear. Two-level pickers never call this.
+    /// </summary>
+    public void SetOuterScope(Func<TItem, bool>? filter, string? hint)
+    {
+        _outerFilter = filter;
+        _outerHint   = hint;
+        RebuildFilteredItems();
+        RebuildSearchResults();
+        StateChanged?.Invoke();
+    }
+
+    /// <summary>Everything still in play: all items, narrowed by the outer scope and then the
+    /// scope combo. Both the item combo and the search box draw from this.</summary>
+    private IEnumerable<TItem> Candidates()
+    {
+        var items = _allItems();
+        if (_outerFilter is not null)
+            items = items.Where(_outerFilter);
+        if (_selectedScope is not null)
+            items = items.Where(i => _belongsToScope(i, _selectedScope));
+        return items;
+    }
 
     // ── Filtered items (item combo ItemsSource) ───────────────────────────
 
     private List<TItem> _filteredItems = [];
     public IReadOnlyList<TItem> FilteredItems => _filteredItems;
 
-    private void RebuildFilteredItems()
-    {
-        var items = _allItems();
-        if (_selectedScope is not null)
-            items = items.Where(i => _belongsToScope(i, _selectedScope));
-        _filteredItems = _comboOrder(items).ToList();
-    }
+    private void RebuildFilteredItems() => _filteredItems = _comboOrder(Candidates()).ToList();
 
     // ── Search ────────────────────────────────────────────────────────────
 
@@ -115,12 +142,8 @@ public sealed class ScopedPickerController<TScope, TItem>
 
         // A scope picked in the combo restrains the search to just that scope's items —
         // searching outside it no longer makes sense once one is already chosen.
-        var scope = _selectedScope is null
-            ? _allItems()
-            : _allItems().Where(i => _belongsToScope(i, _selectedScope));
-
         _searchResults = _searchOrder(
-                scope.Where(i => _searchableText(i).ToLowerInvariant().Contains(lower)))
+                Candidates().Where(i => _searchableText(i).ToLowerInvariant().Contains(lower)))
             .ToList();
     }
 
@@ -134,11 +157,13 @@ public sealed class ScopedPickerController<TScope, TItem>
         StateChanged?.Invoke();
     }
 
-    /// <summary>Resets scope and search so the picker is clean when next opened —
+    /// <summary>Resets both scopes and the search so the picker is clean when next opened —
     /// called by the control after a selection is committed.</summary>
     public void Reset()
     {
         _selectedScope = null;
+        _outerFilter = null;
+        _outerHint = null;
         _searchText = string.Empty;
         RebuildFilteredItems();
         RebuildSearchResults();

@@ -1,32 +1,26 @@
-﻿using System;
+using System;
 using System.Windows;
-using WindowedStoryPlanner;
+using System.Windows.Input;
 
 namespace WindowedStoryPlanner
 {
     /// <summary>
-    /// Interaction logic for ChapterWindow.xaml
+    /// Interaction logic for ChapterWindow.xaml. Unlike CommonWindow this is a singleton per
+    /// chapter, so its Story → Chapter picker cannot just swap DataContext on its own — the
+    /// re-keying belongs to the WindowManager (<see cref="IWindowManager.RetargetChapterWindow"/>).
     /// </summary>
     public partial class ChapterWindow : Window
     {
-        public ChapterWindow()
+        private readonly IWindowManager _windowManager;
+
+        public ChapterWindow(IWindowManager windowManager, IViewModelRegistry registry)
         {
+            _windowManager = windowManager;
+
             InitializeComponent();
-            /*
-            // 1. Apply the limit BEFORE the window loads.
-            // Using WorkArea is better than PrimaryScreenHeight as it accounts for the Taskbar.
-            this.MaxHeight = SystemParameters.WorkArea.Height * 0.9;
 
-            // 2. Wait until the window is effectively on screen and sized.
-            this.ContentRendered += (s, e) =>
-            {
-                // Switch to Manual mode. This "freezes" the window at its current 
-                // calculated size (which was clamped by MaxHeight).
-                this.SizeToContent = SizeToContent.Manual;
-
-                // Now remove the limit so the user can resize it larger if they want.
-                this.MaxHeight = double.PositiveInfinity;
-            };*/
+            ChapterPicker.Registry = registry;
+            ChapterPicker.ChapterSelected += OnChapterPicked;
 
             this.Loaded += OnLoaded;
             this.Closed += OnClosed;
@@ -42,6 +36,37 @@ namespace WindowedStoryPlanner
         {
             if (DataContext is NarrativeElementViewModel vm)
                 vm.OnWindowClosed();
+        }
+
+        // ── Chapter picker ────────────────────────────────────────────────
+
+        private void ChapterPickerButton_Click(object sender, RoutedEventArgs e)
+        {
+            ChapterPickerPopup.IsOpen = !ChapterPickerPopup.IsOpen;
+        }
+
+        private void OnChapterPicked(ChapterViewModel chapter)
+        {
+            ChapterPickerPopup.IsOpen = false;
+            _windowManager.RetargetChapterWindow(this, chapter);
+        }
+
+        // ── Escape closes the window (the picker flyout first, if it is open) ──
+
+        protected override void OnKeyDown(KeyEventArgs e)
+        {
+            if (e.Key == Key.Escape)
+            {
+                e.Handled = true;
+                if (ChapterPickerPopup.IsOpen)
+                    ChapterPickerPopup.IsOpen = false;
+                else
+                    Close();
+            }
+            else
+            {
+                base.OnKeyDown(e);
+            }
         }
     }
 }

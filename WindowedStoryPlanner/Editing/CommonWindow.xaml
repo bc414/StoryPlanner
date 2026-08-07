@@ -51,12 +51,28 @@
                         Click="ExpansionMode_Click"
                         PreviewMouseDown="ExpansionModeButton_PreviewMouseDown"/>
 
+                <!-- Previous subject: alphabetical within this subject's own type, wrapping -->
+                <Button x:Name="PrevSubjectButton"
+                        Style="{StaticResource PickerButtonStyle}"
+                        Margin="12,4,2,4"
+                        ToolTip="Previous subject — alphabetical within this subject's type, wrapping A→Z"
+                        Click="PrevSubject_Click">
+                    <TextBlock Text="◀" FontSize="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
                 <!-- Subject picker toggle button -->
                 <Button x:Name="SubjectPickerButton"
                         Style="{StaticResource PickerButtonStyle}"
                         ToolTip="Pick subject"
                         Click="SubjectPickerButton_Click">
                     <TextBlock Text="⌖" FontSize="13" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button x:Name="NextSubjectButton"
+                        Style="{StaticResource PickerButtonStyle}"
+                        ToolTip="Next subject — alphabetical within this subject's type, wrapping Z→A"
+                        Click="NextSubject_Click">
+                    <TextBlock Text="▶" FontSize="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Button>
 
                 <!-- Subject picker flyout -->
@@ -129,12 +145,28 @@
             <StackPanel Grid.Column="2" Orientation="Horizontal" VerticalAlignment="Center"
                         HorizontalAlignment="Right">
 
+                <!-- Previous plot point: reading order, crossing the chapter boundary at an edge -->
+                <Button x:Name="PrevPlotPointButton"
+                        Style="{StaticResource PickerButtonStyle}"
+                        ToolTip="Previous plot point — reading order, stepping back into the previous chapter at a chapter's first scene"
+                        Click="PrevPlotPoint_Click">
+                    <TextBlock Text="◀" FontSize="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
                 <!-- Plot point picker toggle button -->
                 <Button x:Name="PlotPointPickerButton"
                         Style="{StaticResource PickerButtonStyle}"
                         ToolTip="Pick plot point"
                         Click="PlotPointPickerButton_Click">
                     <TextBlock Text="⌖" FontSize="13" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                </Button>
+
+                <Button x:Name="NextPlotPointButton"
+                        Style="{StaticResource PickerButtonStyle}"
+                        Margin="2,4,12,4"
+                        ToolTip="Next plot point — reading order, stepping on into the next chapter at a chapter's last scene"
+                        Click="NextPlotPoint_Click">
+                    <TextBlock Text="▶" FontSize="10" VerticalAlignment="Center" HorizontalAlignment="Center"/>
                 </Button>
 
                 <!-- Plot point picker flyout -->

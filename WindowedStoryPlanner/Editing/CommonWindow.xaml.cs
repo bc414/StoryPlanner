@@ -268,8 +268,19 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
     private void OnSubjectPicked(SubjectViewModel subject)
     {
         SubjectPickerPopup.IsOpen = false;
+        NavigateToSubject(subject);
+    }
 
-        // Always land in Expansion; clear any selected link and plot point
+    private void OnPlotPointPicked(PlotPointViewModel plotPoint)
+    {
+        PlotPointPickerPopup.IsOpen = false;
+        NavigateToPlotPoint(plotPoint);
+    }
+
+    /// <summary>Re-points the window at a subject. Always lands in Expansion: the selected link
+    /// belonged to the outgoing subject, so it cannot survive the move.</summary>
+    private void NavigateToSubject(SubjectViewModel subject)
+    {
         ClearSelectedLinkSilent();
         SetPlotPointElement(null);
         SetSubjectElement(subject);
@@ -277,16 +288,86 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         UpdateModeLayout();
     }
 
-    private void OnPlotPointPicked(PlotPointViewModel plotPoint)
+    /// <summary>Re-points the window at a plot point. Always lands in Gardener, and for the same
+    /// reason the selected link and subject are cleared first.</summary>
+    private void NavigateToPlotPoint(PlotPointViewModel plotPoint)
     {
-        PlotPointPickerPopup.IsOpen = false;
-
-        // Always land in Gardener; clear any selected link and subject
         ClearSelectedLinkSilent();
         SetSubjectElement(null);
         SetPlotPointElement(plotPoint);
         _currentMode = EditorMode.Gardener;
         UpdateModeLayout();
+    }
+
+    // ── Previous / next navigation ────────────────────────────────────────
+
+    private void PrevSubject_Click(object sender, RoutedEventArgs e) => StepSubject(-1);
+    private void NextSubject_Click(object sender, RoutedEventArgs e) => StepSubject(+1);
+
+    private void PrevPlotPoint_Click(object sender, RoutedEventArgs e) => StepPlotPoint(-1);
+    private void NextPlotPoint_Click(object sender, RoutedEventArgs e) => StepPlotPoint(+1);
+
+    private void StepSubject(int delta)
+    {
+        if (_subjectElement is null) return;
+
+        var next = Step(SubjectSequence(_subjectElement), _subjectElement, delta, wrap: true);
+        if (next is null || ReferenceEquals(next, _subjectElement)) return;
+
+        NavigateToSubject(next);
+    }
+
+    private void StepPlotPoint(int delta)
+    {
+        if (_plotPointElement is null) return;
+
+        var next = Step(PlotPointSequence(), _plotPointElement, delta, wrap: false);
+        if (next is null || ReferenceEquals(next, _plotPointElement)) return;
+
+        NavigateToPlotPoint(next);
+    }
+
+    /// <summary>
+    /// Subjects in alphabetical order <em>within their own type</em> — stepping never crosses from
+    /// a Character into a World Law, because the two are different kinds of thing and an
+    /// all-subjects alphabet interleaves them. The ring wraps: a type is a closed set with no
+    /// natural first or last member, so ◀ from the first name lands on the last.
+    /// </summary>
+    private List<SubjectViewModel> SubjectSequence(SubjectViewModel anchor) =>
+        _registry.AllSubjectViewModels
+            .Where(s => s.SubjectDefinitionId == anchor.SubjectDefinitionId)
+            .OrderBy(s => s.Name, StringComparer.CurrentCultureIgnoreCase)
+            .ThenBy(s => s.Id)
+            .ToList();
+
+    /// <summary>
+    /// Every plot point in reading order — story, then chapter, then position in chapter (the same
+    /// <see cref="NarrativeOrder"/> sort the plot point picker's combo uses, so the two can never
+    /// disagree about what "next" means). Stepping past a chapter's last plot point therefore lands
+    /// on the next chapter's first: the sequence is the story, not the chapter. It deliberately does
+    /// NOT wrap — the last scene of the last story has no successor, and offering one would read as
+    /// a claim that the story is a loop.
+    /// </summary>
+    private List<PlotPointViewModel> PlotPointSequence() =>
+        NarrativeOrder.PlotPoints(_registry, _registry.AllPlotPointViewModels).ToList();
+
+    /// <summary>
+    /// The item <paramref name="delta"/> places from <paramref name="current"/>, or null when that
+    /// runs off an end (<paramref name="wrap"/> false) or when <paramref name="current"/> is not in
+    /// the sequence at all.
+    /// </summary>
+    private static T? Step<T>(List<T> sequence, T current, int delta, bool wrap) where T : class
+    {
+        int i = sequence.IndexOf(current);
+        if (i < 0) return null;
+
+        int target = i + delta;
+        if (wrap)
+            target = (target % sequence.Count + sequence.Count) % sequence.Count;
+        else if (target < 0 || target >= sequence.Count)
+            return null;
+
+        return sequence[target];
     }
 
     // ── Create-link pick handlers ─────────────────────────────────────────
@@ -464,6 +545,28 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
         LinkingModeButton.IsEnabled   = _currentMode == EditorMode.Expansion ||
                                         (_currentMode == EditorMode.Gardener && SelectedLink is not null);
         GardenerModeButton.IsEnabled  = _currentMode == EditorMode.Linking && SelectedLink is not null;
+
+        UpdateNavigationButtons();
+    }
+
+    /// <summary>
+    /// Each pair of arrows is live only while its own anchor is — subjects in Expansion/Linking,
+    /// plot points in Gardener — which is exactly when the other anchor is null. The subject ring
+    /// wraps, so its two arrows share one condition (more than one subject of this type); the plot
+    /// point sequence does not, so each end is asked separately.
+    /// </summary>
+    private void UpdateNavigationButtons()
+    {
+        bool canStepSubject = _subjectElement is not null
+                              && SubjectSequence(_subjectElement).Count > 1;
+        PrevSubjectButton.IsEnabled = canStepSubject;
+        NextSubjectButton.IsEnabled = canStepSubject;
+
+        var plotPoints = _plotPointElement is null ? null : PlotPointSequence();
+        PrevPlotPointButton.IsEnabled = plotPoints is not null
+                                        && Step(plotPoints, _plotPointElement!, -1, wrap: false) is not null;
+        NextPlotPointButton.IsEnabled = plotPoints is not null
+                                        && Step(plotPoints, _plotPointElement!, +1, wrap: false) is not null;
     }
 
     private IEnumerable<PlotPointSubjectLinkViewModel> GetSortedLinks()

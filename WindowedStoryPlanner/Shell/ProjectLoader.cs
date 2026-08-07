@@ -55,6 +55,12 @@ public class ProjectLoader
 
     public void Load()
     {
+        // Close the previous file's windows FIRST, while their view models are still valid: each
+        // one then runs its ordinary Closed teardown (OnWindowClosed, or disposal of a window-owned
+        // cross-cut VM). Left open, they would go on showing the outgoing file, bound to VMs the
+        // loop below disposes. Harmless on first load — there are no windows yet.
+        _windowManager.CloseAllProjectWindows();
+
         // Dispose the previous file's element VMs before dropping them: their constructors
         // subscribed to app-lifetime registry events, so Clear() alone would leave every old
         // VM live and re-scanning the NEW file's notes on each mutation — the cross-project

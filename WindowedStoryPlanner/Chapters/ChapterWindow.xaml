@@ -34,6 +34,24 @@
             <TextBlock Text=". " FontWeight="Bold" FontSize="16"/>
             <TextBox Text="{Binding Title, UpdateSourceTrigger=PropertyChanged}"
                      FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Width="200"/>
+
+            <!-- Chapter picker toggle button: re-points this window at another chapter -->
+            <Button x:Name="ChapterPickerButton"
+                    Style="{StaticResource PickerButtonStyle}"
+                    VerticalAlignment="Center" Margin="8,0,0,10"
+                    ToolTip="Go to another chapter"
+                    Click="ChapterPickerButton_Click">
+                <TextBlock Text="⌖" FontSize="13" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </Button>
+
+            <Popup x:Name="ChapterPickerPopup"
+                   PlacementTarget="{Binding ElementName=ChapterPickerButton}"
+                   Placement="Bottom"
+                   StaysOpen="True"
+                   AllowsTransparency="True"
+                   PopupAnimation="Fade">
+                <local:ChapterPickerControl x:Name="ChapterPicker"/>
+            </Popup>
         </StackPanel>
 
         <!-- Plot point list: fixed width on the left -->

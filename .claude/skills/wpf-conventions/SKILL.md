@@ -97,9 +97,10 @@ Three things about this family are load-bearing:
    window showing the previous file's rows and then appending the new file's — two corpora blended
    in one list. The base re-seeds from a `HashSet` of what it actually subscribed to; `Dispose()`
    works off that set, never off the registry (which no longer holds those notes by then).
-3. **Disposal belongs to `WindowManager.ShowSingleton`**, not to each window's code-behind —
-   `(window.DataContext as IDisposable)?.Dispose()` on `Closed`, so a new cross-cut window cannot
-   forget it.
+3. **Disposal belongs to `WindowManager.ShowSingleton`**, not to each window's code-behind, so a
+   new cross-cut window cannot forget it. The call site declares
+   `ContextLifetime.OwnedByWindow` — see "Who owns a singleton window's DataContext" below, and
+   note that a cross-cut VM is the owned case precisely because it was built for that window.
 
 `Notes` stays a bare `ReadOnlyObservableCollection` — the base *is* the membership mechanism, so an
 `ICollectionView` filter over it would be a second one that can silently disagree. A subclass that
@@ -261,17 +262,69 @@ convention, after this leak class was found in three places at once:
 - **`CommonWindow.SelectedLink`'s setter is the ONLY caller of the selected link's
   `OnWindowOpened`/`OnWindowClosed` pair.** An extra explicit call at any site unbalances the
   refcount and silently skips teardown — the `Math.Max(0, …)` clamp hides the underflow, so the
-  bug has no symptom. Cross-cut windows stay on the established pattern:
-  `WindowManager.ShowSingleton` disposes `(DataContext as IDisposable)` on `Closed`.
+  bug has no symptom.
+
+### Who owns a singleton window's DataContext (stated, not inferred — 2026-08-06)
+
+`ShowSingleton` used to end its `Closed` handler with `(DataContext as IDisposable)?.Dispose()`.
+That asks *"is this disposable"* when the question is *"does this window own it"*, and the two
+answers diverge: of the nine call sites, three pass a **borrowed** context — `ChapterViewModel` and
+`ConversationViewModel` (registry elements) and `FloatingPlotPointsViewModel` (a DI singleton).
+Only the first is `IDisposable`, so the other two were correct by accident; giving
+`ConversationViewModel` an `IDisposable` later would have silently started destroying a registry
+element on every reader close. Every call site now names a `ContextLifetime`, and there is no
+default to fall through:
+
+- **`OwnedByWindow`** — built by the factory lambda for this window (every cross-cut VM). Disposed
+  on close. If you construct it inside the `create` delegate, it is this.
+- **`OutlivesWindow`** — a registry element or DI singleton. Never disposed here; its teardown
+  belongs to whoever made it (ProjectLoader, the container). Per-open setup is the refcounted
+  `OnWindowOpened`/`OnWindowClosed` pair instead — that pair, not disposal, is what builds and
+  tears down note tracks.
+
+Two consequences worth keeping straight. `NarrativeElementViewModel.Dispose()` is **project-lifetime
+teardown, not window teardown**: it drops the constructor-era registry subscriptions and nothing
+ever re-adds them, so calling it on window close permanently deadens a registry-owned VM. And
+`ProjectLoader.Load()` calls `IWindowManager.CloseAllProjectWindows()` **first**, before it disposes
+the outgoing file's VMs — otherwise every open window keeps showing the previous file bound to
+view models that were just disposed. That is why switching files closes the editor windows.
+
+**A per-entity singleton keyed on its VM must be re-keyed if the window is ever re-pointed.**
+`ChapterWindow`'s Story → Chapter picker swaps DataContext in place, so `RetargetChapterWindow`
+moves the dictionary key with it; correspondingly `ShowSingleton`'s `Closed` handler unregisters
+**by window, not by the key it captured at creation** — a retargeted window closing would otherwise
+evict whichever window had since claimed its original key, leaving that one open but unregistered.
 
 ## Pickers: one controller, thin adapters
 
 `Common/ScopedPickerController<TScope,TItem>` owns the scope-combo + item-combo + scoped-search
-picker behavior. `SubjectPickerControl` (Type → Subject) and `PlotPointPickerControl`
-(Chapter → PlotPoint) are thin adapters over it — they had been line-for-line clones, and a
-search enhancement once had to be hand-ported across three controls. A future picker (Theme,
-WorkPhase, …) instantiates the controller rather than becoming the next copy.
-`SourceMaterialPickerControl` keeps its extra chip/quick-add layer but shares the shape.
+picker behavior. `SubjectPickerControl` (Type → Subject), `ChapterPickerControl` (Story → Chapter)
+and `PlotPointPickerControl` (Story → Chapter → PlotPoint) are thin adapters over it — they had
+been line-for-line clones, and a search enhancement once had to be hand-ported across three
+controls. A future picker (Theme, WorkPhase, …) instantiates the controller rather than becoming
+the next copy. `SourceMaterialPickerControl` keeps its extra chip/quick-add layer but shares the
+shape.
+
+All three **commit on selection** — they raise `XSelected` and reset themselves — rather than
+exposing a bindable `SelectedX`. A picker is a go-to gesture, not a bound field; the host closes
+its popup in the handler.
+
+**A third level is the controller's *outer scope*, not a second controller** (2026-08-06).
+`SetOuterScope(filter, hint)` installs a coarser narrowing applied before the scope combo's, and
+`Candidates()` — pool → outer → scope — is the single definition of "still in play" that the item
+combo and the search box both draw from, so the search can never disagree with the combo about
+what is in scope. The hint falls through scope → outer → unscoped, and `Reset()` clears both
+levels. `SubjectPickerControl` never calls it; a two-level picker is unchanged by its existence.
+
+Two rules the plot point picker illustrates for any future third level. **Every level clears
+independently** (its own ✕) — Story alone, meaning "somewhere in TLTT, chapter unknown", is a
+first-class state and not a half-finished path to Story + Chapter. And **a lower combo that can now
+span several parents must be re-ordered and re-labelled to say which parent it is in**: chapters
+show `FullNumberAndTitle` sorted by (story, chapter), and plot points sort by (story, chapter,
+position) rather than `OrderInChapter` alone, which used to stack every chapter's "1." together.
+Those sorts live in `Common/NarrativeOrder` because both pickers need the same answer: with no
+navigation properties the "which story is this chapter in" join is a dictionary built once per
+sort, where a per-item `FirstOrDefault` would re-scan on every keystroke in the search box.
 
 ### A `Popup` inside a `DataGrid` cell cannot host an editor (learned 2026-08-05)
 
