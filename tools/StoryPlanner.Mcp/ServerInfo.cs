@@ -101,6 +101,27 @@ public static class ServerInfo
         propose what to write from a passage, and never propose a citation — reading the text is
         retrieval; deciding what it means for the story is the author's.
 
+        GEMINI CORPUS (search_gemini / get_gemini_report / get_gemini_entry /
+        list_gemini_threads) is a FIFTH corpus: the founding-era Gemini web-app conversations
+        (Sep 2025 – Jun 2026), the era before AI Studio and Claude. It is a provenance record,
+        not ground truth — most of it was superseded by later work, but it records when and why
+        decisions were made. Two searchable layers, and the REPORTS are the primary entry point:
+        28 weekly story-development reports plus 5 appendices (curated chronological digests with
+        cross-week references, reading paths, and a data-quality catalogue) answer "when was X
+        decided?" directly. The 3,259 raw conversation entries across 814 threads are the detail
+        pass — drill into them from a report hit when the verbatim exchange matters. Typical
+        flow: search_gemini → get_gemini_report (read the curated digest) → get_gemini_entry
+        (only if finer detail is needed). The export is damaged (Appendix D catalogues elision,
+        truncation, and missing responses), so a quotation from this corpus carries lower
+        confidence than one from the Claude or AI Studio conversations. 93 entries are plan-paste
+        prompts (the full story plan pasted in) — these are stubbed to a placeholder; only the
+        response is searchable. Search is regex, reports listed first then entries in
+        chronological order — no ranking, no relevance ordering. The corpus may be absent
+        entirely, in which case the tools say so and everything else works unchanged. Same
+        standing rule: these tools report what was said; they never rank threads by importance,
+        propose what to take from a conversation, or suggest which era's version of a decision
+        is correct.
+
         Alongside its note tracks, an entity type may define NARRATIVE PROPERTIES
         (list_narrative_properties) — closed-vocabulary fields answered by picking one of a fixed
         set of allowed values, rather than by prose. Single-select: an entity holds at most one

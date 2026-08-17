@@ -180,6 +180,21 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   to Parts of their own (`ch121-queens-scientist`, …) via a **P&K-scoped** seed config — never
   re-run the full `source-material.v2.json`, which would recreate the 14 FiM two-parters Brian
   merged in-app.
+- **The Gemini-era corpus is a fifth corpus, and it lives outside the `.storyplan` (2026-08-16).**
+  The founding-era Gemini web-app conversations (Sep 2025 – Jun 2026) — the era before AI Studio
+  and Claude — are ingested by `tools/StoryPlanner.GeminiCorpus` into a standalone `gemini.db`
+  (`STORYPLAN_GEMINI_CORPUS`, Brian's is `Desktop/TLTT Gemini.db`, ~28 MB). Same sidecar pattern
+  as `sources.db`: not in the `.storyplan`, bodies streamed per query and never cached, manifest-
+  only resident, tools always registered but guarded on `IsConfigured`. Two searchable layers:
+  3,259 story-tagged conversation entries across 814 threads, and 34 curated weekly/appendix
+  reports. **Reports are the primary entry point** — they answer "when was X decided?" directly.
+  Raw entries are the detail pass, drilled into from a report hit. This corpus is **provenance,
+  not ground truth** — most of it was superseded by later work. 94 entries whose prompts paste the
+  full story plan are stubbed to a placeholder (`IsPlanPaste`); only the response is searchable.
+  The export is damaged (elision, truncation, missing responses — catalogued in `APPENDIX-D-method`
+  inside the corpus). `dotnet run --project tools/StoryPlanner.GeminiCorpus --
+  <gemini_markdown_dir> <output.db> [--apply]`; the source corpus is static, so a re-run replaces
+  everything.
 - **Narrative properties are closed-vocabulary fields, and they are authorial** (2026-07-31, first
   real use after a year dormant). `NarrativePropertyDefinition` is a Type Object row scoped by
   `(SubjectDefinitionId, OwnerType)` exactly like `NoteTrackDefinition` —
@@ -295,6 +310,12 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
   a re-download can shed chapters that vanished upstream. `STORYPLAN_SOURCE_TEXTS` is **optional**
   in all three MCP configs — absent, the source-text tools say so and the rest of the server is
   unaffected.
+- **Gemini-corpus ingest** (`tools/StoryPlanner.GeminiCorpus`) reads the converted Gemini Takeout
+  markdown corpus (`gemini_markdown/corpus_index.json` + entry files + `story_development_report/`
+  weekly reports) and writes `gemini.db`. `dotnet run --project tools/StoryPlanner.GeminiCorpus --
+  <gemini_markdown_dir> <output.db> [--apply]`. Source corpus is static; a re-run replaces
+  everything. `STORYPLAN_GEMINI_CORPUS` is **optional** in all three MCP configs — absent, the
+  Gemini tools say so and the rest of the server is unaffected.
 - `.storyplan` is raw SQLite in **WAL mode**. Reads never block the running app. The main file's
   **mtime does not advance on write** — change detection uses `PRAGMA data_version`.
 - **`StoryService` is not read-only:** `OpenProjectAsync` runs `MigrateAsync()` (upgrades the

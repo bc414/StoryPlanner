@@ -24,8 +24,12 @@ if (string.IsNullOrWhiteSpace(workingPath) || string.IsNullOrWhiteSpace(archiveP
 // report that they are unconfigured and every other tool works unchanged.
 var sourceTextPath = Environment.GetEnvironmentVariable("STORYPLAN_SOURCE_TEXTS");
 
+// Also optional: the founding-era Gemini web-app corpus (provenance, not ground truth).
+var geminiCorpusPath = Environment.GetEnvironmentVariable("STORYPLAN_GEMINI_CORPUS");
+
 builder.Services.AddSingleton(new StoryPlanSources(workingPath, archivePath));
 builder.Services.AddSingleton(new SourceTextStore(sourceTextPath));
+builder.Services.AddSingleton(new GeminiCorpusStore(geminiCorpusPath));
 
 builder.Services
     .AddMcpServer(o => o.ServerInstructions = ServerInfo.Instructions)
@@ -35,7 +39,8 @@ builder.Services
     .WithTools<ConversationTools>()
     .WithTools<FlaggedTools>()
     .WithTools<ReferenceTools>()
-    .WithTools<SourceTextTools>();
+    .WithTools<SourceTextTools>()
+    .WithTools<GeminiCorpusTools>();
 
 var host = builder.Build();
 
@@ -53,6 +58,11 @@ try
     Console.Error.WriteLine(sourceTexts.IsConfigured
         ? $"storyplanner-mcp: source texts '{sourceTextPath}' ({sourceTexts.Manifest().Count} units)."
         : "storyplanner-mcp: no source-text corpus (STORYPLAN_SOURCE_TEXTS unset or missing).");
+
+    var geminiCorpus = host.Services.GetRequiredService<GeminiCorpusStore>();
+    Console.Error.WriteLine(geminiCorpus.IsConfigured
+        ? $"storyplanner-mcp: gemini corpus '{geminiCorpusPath}' ({geminiCorpus.Entries().Count} entries, {geminiCorpus.Reports().Count} reports)."
+        : "storyplanner-mcp: no gemini corpus (STORYPLAN_GEMINI_CORPUS unset or missing).");
 }
 catch (Exception ex)
 {
