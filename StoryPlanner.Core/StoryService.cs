@@ -277,10 +277,21 @@ public class StoryService : IStoryService
         IsProjectLoaded = true;
     }
 
+    /// <summary>
+    /// The app fires saves from several independent triggers — a block's triage state, a
+    /// LostFocus-committed summary note, Ctrl+S, the exit save — and two that overlap on one
+    /// DbContext throw ("A second operation was started on this context"). Serializing them here
+    /// turns that into "wait your turn": every caller is on the UI thread, so nothing is lost, and
+    /// no call site has to know which other one might be in flight.
+    /// </summary>
+    private readonly SemaphoreSlim _saveGate = new(1, 1);
+
     public async Task SaveAsync()
     {
         if (_context == null) throw new InvalidOperationException("Not initialized");
-        await _context.SaveChangesAsync();
+        await _saveGate.WaitAsync();
+        try { await _context.SaveChangesAsync(); }
+        finally { _saveGate.Release(); }
     }
     public async Task<ConversationImportResult> ImportConversationsAsync(string contentPath, string? metaPath)
     {
@@ -324,7 +335,7 @@ public class StoryService : IStoryService
         await _context.ConversationSubjectCoverageTracks.LoadAsync();
     }
 
-    // --- Conversation scan/export (Claude export vs. DB ground-truth) ---
+    // --- Conversation scan (Claude export vs. DB ground-truth) ---
 
     public async Task<List<ConversationSyncItem>> ScanClaudeExportAsync(string claudeExportPath)
     {
@@ -335,13 +346,6 @@ public class StoryService : IStoryService
         var ignored = await _context.IgnoredConversations.ToListAsync();
 
         return ConversationSyncScanner.Scan(parsed, Conversations, ignored);
-    }
-
-    public async Task<List<ConversationContentExporter.ExportedFile>> ExportConversationContentAsync(
-        IReadOnlyList<ConversationSyncItem> selectedItems, string outputFolder)
-    {
-        if (_context == null) return new List<ConversationContentExporter.ExportedFile>();
-        return await Task.Run(() => ConversationContentExporter.Export(selectedItems, outputFolder, Conversations));
     }
 
     public async Task BackfillConversationUuidAsync(int conversationId, string uuid)

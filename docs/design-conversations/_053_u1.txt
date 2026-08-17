@@ -1,0 +1,365 @@
+
+--- [U1] ---
+"Applejack genuinely mastered the machine gun, built solidarity. When the reality of the war hits, she feels like a liar because she drummed up hope against what felt like unwinable odds. Her imposter syndrome isn't truly warranted, but she feels it because of the asymmetric material reality of the changelings' military strength."
+
+What parts of this old note go into what character note tracks, across psychology, backstory and narrative macroarchitecture, or should it go in a track to a link to a plot point? But this happens immediately before the start of the story but isn't dramatized but revealed and apparent later
+
+--- [U3] ---
+"Faust's original Applejack was the star of the town (Applebuck Season, The Last Roundup, Leap of Faith where everypony trusts her endorsement). Later Applejack didn't have initiative and was a background pony. This manifests as Applejack's imposter syndrome at the start of the story and subsequent need to be at a machine gun to feel like she's contributing in chapter 1. Applejack was trust into a season 1-tier spotlight as a general, but she has internalized her late-season passivity and background-ness after feeling small and helpless at Ain Trotgourait behind Twilight's shield when her Honesty was worthless against warlords with no moral compass. (She actually played a part in breaking Fizzlepop's worldview, but doesn't realize it because it's worthless against all the other warlords who are mindless)"
+
+Here is another dense note. Instead of me asking you to put into track buckets that were designed but not validated yet, I think it's more productive if I ask: from first principles, identify what kinds of claims/assertions are being made in this block of text?
+
+The goal of separating notes into tracks is to make it so every track answers a particular kind of claim type about the project in only one cognitive mode, without messiness, because that is how the categorization will actually be effective.
+
+I am in the phase of trying to solidify my note tracks now
+
+--- [U5] ---
+Maybe the task forward should not be trying to break up notes into sentences that go here or there, but rather to read my notes and build each track cleanly from scratch?
+
+--- [U7] ---
+What are the pros and cons of starting with Applejack who is the main character versus starting with a minor character?
+
+--- [U9] ---
+I need a reminder of all the possible claims and tracks and a clear articulation of what the goal of the note track separation is. It's been 2-3 weeks between trying to understand and putting the refactored story planner into a working executable state. Look through all the conversations in this Claude Project "The Lioness of Tall Tale Story Design" and give an overview of the conclusions regarding the tracks.
+
+--- [U11] ---
+I later moved away from the hard categories defined in that conversation in favor of making the application configurable so that I could determine the tracks based on data. I'm at that stage now and want insight and analysis on how to move forward. What are the goals now? What information would be helpful?
+
+--- [U13] ---
+The code was outdated. I want to upload into the project the complete new architecture but not sure how to do it effectively. Is there a way to link github into the project or should I just upload all the .cs and .xaml files into the project? Can there be a folder or no?
+
+--- [U15] ---
+Go ahead.
+
+--- [U17] ---
+I put Models.txt and ViewModels.txt in the project memory. Note that I am not thinking about the narrative properties at all yet, only the data. I am not even close to the part of the project about verifying stages or categorizing or building statistics or anywhere near writing prose. I am only interested in organizing existing notes. The application appears ready to take on that task. I have not made much of the configuration of note tracks yet. I have 300,000 words worth of seed data sitting in unset note tracks across 500+ subjects and plot points. I have not put the subjects into subject types either yet because they are also a mix.
+
+--- [U19] ---
+[Attached file: GetMarkdownContext.txt]
+
+[Attached file: ModelClasses.txt]
+
+[Attached file: ExamplePart1-Subjects.md]
+
+[Attached file: ExamplePart2-PlotPoints.md]
+
+[Attached file: GetMarkdownContext.txt]
+
+
+
+I need to give you much more context into what the nature of the data is. I migrated it from the old architecture. Attached is "ModelClasses.txt" which is the old model classes in EF Core with navigation properties, not to be confused with the new design. Key pain points were that plot point had singular text fields which became dumping grounds, same for the links between plot points and the 4 subject types (Character, Codex Entry, Theme, StoryThread), and those each had one note collection. The notes were scattered, and it was unclear what things should go where. This old story planner was a vehicle for raw idea capture first, organization later (which is now). Once I had a working reasonable application I put that aside and spent 2-3 months expanding the story design and putting data wherever because that was what I actually wanted to do, not perfect a program.
+
+I have uploaded the method used to turn the model classes into markdown in "GetMarkdownContext.txt". Then I have included in example part 1 and part 2 what some of the data looks like in the markdown (I am not putting the full 300,000 words as that would lead to RAG which gives worse results).
+
+I migrated the data from the old models to the new models. For the text fields on link entities and synopsis on plot point, whenever there was a double new line in the old data, I made that a separate note split in the new model. So now everything is in the notes table, with owner id and owner type correctly referenced to Subjects, Plot Points, or Plot Point Subject Links or Chapters. The data association integrity is there. The subjects are all currently with subject type=unassigned (id = 1) because I want to validate them manually as I go through. It's obvious that Character in the old model will become Character subject type in the new one. But Themes are not straightforward as some stuff belongs elsewhere and those notes may be broken up into cleaner subjects. Story threads are also an arbitrary mismash. Codex Entries need further separation on a clean case by case basis as the existing categories are not rigorous. So there is some structure but not to the level that would be effective moving forward.
+
+Please analyze the existing data in the markdown documents to understand the nature of the text and the claims that needs to be put into tracks to be effective moving forward and set me up for success later. Use the GetMarkdownContext.txt to understand where the data comes from in the old model, and how it was mapped into the new model in unset tracks as of now.
+
+I don't expect quick fixes. I expect this process of organizing the notes is part of the story design expansion and detailing.
+
+--- [U21] ---
+After stepping away and reflecting and recalling, I think it's worth reflecting on the full casual chain of how I got to the position I am in today with regard to the story design project of TLTT and where my current 300k words of data comes from, how it is structured and what it contains and why I made it.
+
+This project started in February 2025 as my classic setup of putting notes in a google doc for a story. In November 2025 I discovered that Gemini 2.5 Pro could reason about story logic (but was awful at prose). I had a week long thread rapidly expanding my story plans, and then there was a UI bug and I couldn't access it anymore, so I had to use Google Takeout to recover the raw data. The google doc would not be able to sustain the volume of insights made in those 120-ish prompts so I wanted to make a desktop application to organize it. I thought it would take a weekend but it ended up taking 3 weeks. By December 2025 I had a minimum viable story planner that could hold data. I was not planning on writing prose any time soon. I just needed a reasonable way to dump my data, then copy the full context, paste back into the gemini web app and ask my next question to get more exciting insights about my world building. Some notes are copy and paste from Gemini's output, the parts that made sense. Some notes/text fields are written by me, filtering out what I didn't like and typing out what I did. I put in the system instruction "no prose". Eventually the context grew too large to paste into the text window and I had to upload the document. This led to worse results due to RAG on the consumer app. Eventually I found Google AI Studio where I could be sure the full context was read and further specify more constraints like "no direct address" to make the text more copy and paste-able in some situations. I also used Notebook LM at some point but that had other problems with RAG and not full context. Eventually the AI Studio answers were degrading too.
+
+Then I tried out Claude (you) and found better reasoning results and longer, complete answers, but Claude would not take the full context and truncate it; even if the consumer interface took everything, that would not be good for the usage limits. The Claude usage limits were more honest than Gemini's model of taking larger context but lowering the reasoning and output length to save compute and offer "unlimited" to the whole userbase. So I figured at 300k words this was no longer suitable for pasting the whole thing and I needed to redesign the story planner where the notes were organized for two main purposes: selective context to provide for further questions, and organizing in a way that would eventually help me write prose.
+
+To be clear, prose is still not even on my immediate radar for the past 5 months of story design expansion. I still have around 65 outstanding questions and many more unintegrated notes. My plan before was to get all those questions answered with insights. My pattern of where to put text was as follows: If I knew what plot point in the story/chapter plan an insight sort of belong to, I would put it in the synopsis or the link between that plot point and the subject. If I didn't know yet or the insight was an overarching thing, I put it in notes of a subject. My thinking before was: if the data was in a plot point or link, it was usable to inform prose later. If it's in a note of a subject but not in a plot point, it had to make it into a plot point or link and get marked as "Incorporated". These raw capture of insights led to the mixed, anything goes nature of the notes today. There were a couple times where I had particular ideas for prose outlines, but these would get outdated or invalidated potentially so I stopped that and focused on outstanding worldbuilding questions.
+
+Now the problems I encountered today with this data: it is all sitting in my new, squeaky clean note track separated story planner v2 after a migration I did yesterday. But now I am seeing that this data is "dirty" or so thoroughly mixed. The goal of getting cleaner context export for further analysis cannot accommodate the dirty data and I want total data to go down and duplications resolved instead of more expansion. I thought I could split up the old text into the tracks, but that doesn't seem to be the case because the data is genuinely tightly coupled, I think. The way I wrote those notes seems to be so tightly coupled, which was a product of its entry method and not necessarily wrong but served a different purpose of raw capture convenience not analysis and prose informing suitability. It seems I don't want to keep the "unclean" data in the new story planner at all. The new story planner v2 is basically a whole new architecture. The parallel was me making the story planner v2 code. I had immense friction dealing with stripping out the old v1 concepts and then getting compiliation errors so new stuff wasn't testable until I wiped out old v1 things. It seems in place manipulation isn't what I want. Is this a real problem others have with codebases?
+
+I want to be able to see progress. I can't see progress in stuff moving from unset to the tracks if I can't delete from unset or cleanly move fragments over into separate tracks.
+
+Therefore my new radical idea is to keep all the old data in the v1 story planner. Have both v1 and v2 open. Read the data in v1 and type what belongs in v2 in tracks. This way the v1 data is viewable in the form it lived in, which has association with how I entered it in, and the old text will not be a part of the v2 data to interfere with the new way. Use v1's isincorporated to track entry into v2. Please give an analysis of the whole causal chain and the pros and cons and nuances of this new idea for data migration.
+
+--- [U23] ---
+In addition to the 65 v1 notes that need further research, there are also hidden questions/obligations in plot point synopses and link payloads which didn't have the boolean flag to make it apparent. I also have more notes in Google Keep which I captured and didn't put into v1 yet, and also probably 10+ conversations with Claude or Gemini on topics about the story design with new insights which I had while writing the code for v2 in parallel. I don't have delusions that project scope will stop growing. I don't have any financial deadlines or obligations regarding the project. The utility value is in the process.
+
+I believe v2 can still have new questions added, and that is what the Flagged note state and Flag Reason are for. There will be more things added as I compile the research data into the world bible compilation. Story Planner v1 and v2 are both a world bible (or attempted to be one) and a project management tool; tracks are labeled by their purpose. Does this make sense?
+
+--- [U25] ---
+[Attached file: All Applejack data.md]
+
+
+
+Here is data from v1 of Applejack notes and all plot points that link to her. Give a renewed analysis of what claim types are present in the v1 data which should become tracks in v2, why, with examples, and the display question and reasoning included. Give tracks for Character, for PlotPoint, and for PlotPointSubjectLink when the subject type is character. Not only layers 1-5 but also the authorial and meta textual and anything else
+
+--- [U27] ---
+I'm thinking the thematic function needs to go into the theme subject entity that embodies that proposition, not in Applejack's subject entity
+When you say scene design doesn't exist in v1 do you mean the field was not part of the architecture but the content is there, scattered across other fields? Or is the content missing and I don't have any because I didn't do it yet?
+I don't think authorial directives (project management directives, obligations) should be a track. They should be put into FlagReason on a note in a track, and that note goes to the Flagged state which is separate from Unset and Confirmed.
+I noticed "ArcTrajectory" is about "how does this character change", but there's another planning layer which is about notes that plan out how the objective backstory and psychology are revealed. It seems like how it's revealed and how they change are orthogonal tracks, distinct enough they deserve separate tracks. For example, Applejack's core wound about her parents leaving the farm (built on top of canon, so there is stuff to Applejack I made for TLTT that FiM fans will discover) and also her trauma from Mount Aris are reveals, not changes/development. Are there examples in my v1 notes of this kind of planning? If not included, then they might live in other subjects, like the Mount Aris one or the one about AJ's parents, which is why this v1 compilation into v2 is necessary.
+
+Indeed, I found this in Applejack's Parents: "Pre-war Applejack looks at the SAA leaderboard and sees Skyfall-style "Rat Race" capitalism. She believes her parents turned the sacred, spiritual act of farming into a soulless quota system. She views the mashing of apples and pears into identical cans as the erasure of their identity (a loss of Terroir). This is why she rejects the factory, returns to the farm, and earns her Cutie Mark in defiance of "industry."
+Her parents need a lot of industrial growth and recruitment of ponies to solve world hunger, then focus on getting profit margins to pay shipping to the GR" that was in a note. And then in a link to a plot point: "Comet Shine says he knew Applejack's parents
+Applejack frowns and says she'd rather not talk about them
+Comet Shine stumbles (he thought that would help them connect)
+Applejack's fundamental belief is that industry creates distance, and distance creates corruption. When she sells an apple she bucked herself, she looks the buyer in the eye. She knows the fruit is good. The transaction is moral. In her parents' factory, you can't tell.
+Flim & Flam validated it all. It's too easy to flip a switch and make bad product.
+She views efficiency as soullessness. This is also why when Henri says the Herzlanders have no soul, it resonates with Applejack immensely."
+
+Then in the entry for The Battle of Mount Aris: "Applejack does not leave Mount Aris naive; she leaves feeling profoundly emasculated and small. She learns that the world is cruel, but more importantly, she learns that her innate Earth Pony virtues are insufficient to stop that cruelty. After the Aquileian and Republican volunteers decimate the horde and Twilight rescues Fizzlepop, Applejack returns to Sweet Apple Acres. She seeks grounding in the dirt, attempting to cope with her feelings of powerlessness through hard, physical labor. She does not accompany Twilight to Canterlot to present Fizzlepop to Celestia.
+Twilight goes to Canterlot and is brutally berated by Celestia. Celestia weaponizes Twilight’s trauma, framing Twilight’s frontline intervention not as heroism, but as a reckless flirtation with the exact supremacist violence that created Nightmare Moon.
+Because Applejack is not in Canterlot, she does not see Celestia crush Twilight’s spirit. Applejack only sees the results: Twilight abruptly shuts down the School of Friendship, relocates to Ain Trotgourait with Pinkie to perform top-down charity, and eventually locks herself in an underground lab to build magical supply organization/teleportation networks.
+Applejack logically—but incorrectly—concludes that Twilight has become a cold, bureaucratic extension of Celestia’s Stagnation. The "old nerd" who loved grassroots friendship is dead, replaced by a "new nerd" who treats the world like a supply chain. They drift apart because Applejack views Twilight’s new methodology as soulless, while Twilight is too consumed by her "Reactive Atlas Complex" to explain that she is actually hiding from Celestia's geopolitical terror.
+Because Applejack felt useless behind Twilight's shield in 1006, she is highly motivated to never feel useless again. When Luna eventually offers her the General's star, Applejack refuses to be a mere figurehead. She volunteers for basic training and masters the machine gun because she believes that tactical competence will prevent a repeat of Mount Aris. Applejack enters 1011 ALB believing she understands the cruelty of the world. She thinks, "I saw the warlords. I know it gets ugly. But this time, I have a gun, and I have the solidarity of my troops." The Imposter Syndrome triggers because Chrysalis’s Heer is not the Storm King’s horde. The Storm King was a disorganized, performative bully. Trimmel’s Panzer divisions are a mechanized, industrialized superpower executing Auftragstaktik. Applejack’s breakdown in Chapter 1 occurs because she realizes her preparation was fundamentally asymmetrical to the threat. She trained for a gritty infantry defense; the Changelings arrived with a macroeconomic war machine. She feels like a "Fake General" because she brought a machine gun to a logistics war. Her hard-earned, grassroots solidarity is instantly vaporized by Blitz-Essenz and artillery."
+
+I'm not sure if the arc trajectory and backstory/psychology reveal plan are zero focalization or scene architecture.
+
+
+```
+public enum CognitiveMode
+{
+    ZeroFocalization,      // User as in-universe historian/physicist
+    SceneArchitecture,     // User as director
+    Metatextual,           // User to future self, treating the project as a project rather than in-universe
+    Analogical,            // User connecting the project world to the real world
+    LinguisticExecution,   // User as writer
+}
+```
+
+
+Here are my existing cognitive modes. I think SceneArchitecture is too narrow. It should be about the text not being story content (layers 1, 2, 3, 5) but it's specifically layer 4/syuzhet and it's notes about designing the reader experience. I need a better term for this second enum value.
+Also I'm using Metatextual as specifically talking about the text as a project, hence meta. This is separate from analogical which is about real life inspiration. But analogies aren't just information flowing from real life history informing characters/story design, it's also characters/story design acting as a social commentary on present day real life, which is the opposite direction. Do both of these belong in the same cognitive mode? Are they separate tracks? Actually maybe the social commentary has to go in thematic proposition subject's track and not other subjects?
+
+--- [U29] ---
+For characters, Now I'm thinking there are 3 axes: psychology vs events, pre-story vs in-story, and story-wide scope (goes in character) vs scene-level scope (goes in link). There are 8 tracks that span the character and link. Then the analogy track exists outside these 8. Is this too simple or is it precise? Is nuance lost?
+
+I think Reader Perception Design goes only on plot point, not on character. I would be reading the NarrativeDesign note tracks from all the subjects that connect to the plot point, then put in notes for the reader perception design (Note that I am nowhere near this stage of the project yet)
+
+--- [U31] ---
+I wrote out the scenarios and our current understanding on a piece of paper, and now I will type out what my tentative conclusions are and need an analysis:
+
+Character means the track belongs on the subject and means the track when read as a whole applies story-wide (individual notes may refer to a part of the story but as a whole they form a story-wide set of data).
+Link means the track belongs on a PlotPointSubjectLink connecting character to a plot point. The track can have multiple notes and they all apply specifically to that plot point and the character, not the whole story.
+
+Track 1 (Psychology + Pre-Story + Character) = Psychological Architecture. ZF (zero focalization). What is true of who the character is and why, before the main story starts.
+Track 2 (Events + pre-story + Character) = Objective Backstory, with dates, what happened to them before the story starts
+Track 3 (Psychology + in-story + Character) = The objective plan for how their psychology changes in-story, aka character development, written as a set of notes in the track that together represent a hollistic collection. This would be where the AJ note about "from Vanhoover to the Town hall she has imposter syndrome, from Town hall to trimmel..." would go.
+Track 4 (Events + in-story + Character) = a high level plan of their actions in the story.
+Maybe it is possible that track 3 and track 4 are singletons, which forces conciseness and data sanitation, acknowledging they are sparse and shouldn't have much data because the real data lives in the plot points. But filling them in means I thought about it.
+Tracks 1-4 are all zero focalization, an omniscient voice. The text is describing in-universe things.
+
+Track 5 (Psychology + pre-story + Link) = Reveal plan of their pre-story psychology - how this scene reveals stuff, how it fits into the plan. This is syuzhet/Narrative Design, not zero focalization.
+Track 6 (Events + pre-story + Link) = Reveal plan of their pre-story events, their objective backstory, through the scenes. This is syuzhet.
+
+Track 7 (Psychology + in-story + Link) = How they are changing in this scene. Stated as an omniscient fact, so it is zero focalization.
+Track 8 (Events + in-story + Link) = Objective report of what they are doing in this scene. Zero focalization.
+
+The singleton of Track 3 which is in the subject should equal the sum of Track 7 across all of that subject's links. Same for Track 4 and Track 8.
+
+That comes back to tracks 5 and 6. They are reveal plans. I suppose they need summary equivalents in the character, which would 9 and 10 (more precisely it's akin to like a 1.5 and 2.5)
+I'm actually not sure what should be singletons or not now. Maybe it's possible the 5-8 are all singletons and they have to add up to the summary in the subject. But they could actually be tracks with multiple notes too... But the singleton or multiple note track is a separate discussion to the shape of the tracks. It seems there are 10 total tracks. There are 4 in the link, 4 in the subject which are checked against the sum of the links, and 2 in the subject that are completely independent of the plot point/story/delivery and are just world bible. I believe zero focalization/fabula vs syuzhet/narrative design is not enough nuance to capture the cognitive modes. 1.5, 2.5, 3 and 4 are all about story-wide. 1.5 is the story-wide reveal plan of psychology stated, the whole scope of it, in one track or one singleton. The sum of track 5 has to be checked against it; it is the specific reveals in each chapter. 1.5, the holistic reveal plan of the psychology, is distinct from track 1, which IS the psychology, which is distinct from track 5 which is the psychology reveal for a specific plot point only. Track 2 is the objective backstory, Track/singleton 2.5 is the story-wide reveal plan readable in one place, and track 6 is a portion of the reveal plan of the backstory for that specific plot point (what gets revealed here specifically).
+
+But now I'm wondering if the presence of 1.5 versus 1 means there's actually a fourth axis. Maybe that axis is zero focalization (layers 1-3 and 5) versus syuzhet/narrative design (layer 4). But this means the combo that forms Track 5, read as psychology + pre-story + link + zero focalization is empty, which makes sense because pre-story and link are incompitable in zero focalization since link taking place during the story. Not sure if it's worth going into a 4 axis system or if these 10 tracks cover the full scope of psychology and event related things.
+
+And in addition to all that, there is the allegorical track for Character. There is no allegorical track on the link. Metatextual as in obligations and research directives are on FlagReason, not a note track. Maybe I meant metatextual to mean the 1.5, 2.5, 3 and 4 because the text there is a plan about the story content, not story content itself. The story content is in tracks 1 and 2.
+
+--- [U33] ---
+If the underlying data truly has 4 axes, as it appears to be, then there should be, in theory, 16 combinations. Only 10 seem to be meaningful, that's what my instinct says. But I want to audit this.
+
+The 4 axes are:
+psychology vs events
+pre-story vs in-story
+story-wide (Subject) vs scene-specific (Link)
+zero focalization/objective assertions vs narrative design/reader experience design
+
+What are the 6 unstated combinations and why are they invalid? Are they actually valid?
+
+The psychology vs events seems to be generalizable across subjects into ontology (layer 1, or layer 3 for characters) vs fabula/backstory.
+The 4th axis comes down to whether it is layer 4 syuzhet or ontology/psychology.
+So I believe this framework works for codex entries too. For world physics, the psychology is world principles/rules/ontology. For organizations it's binding logic. For technology it's mechanics. For constructed ideas (like Stagnation of Harmony or Harmonic Capitalism) it's the rules of how the abstract system works.
+The "events" angle varies slightly but has the same idea. Discovery of the world physics, creation of the system, invention of the tech, formation of the organization. It's historical records.
+
+Outside of the 16, there's the analogical track for subjects. I don't think links need an analogical track. Still uncertain about whether metatexual can be trackless or if there should be a home for obligations and notes to self, perhaps project history too (like I made something obsolete because... XYZ, such as it didn't fit the the hopepunk thesis, so make sure to avoid this trope that was previously in the story). I think I have "metatextual" too connected with the "prospective zero focalization" that was identified earlier, so perhaps it can be renamed to "project management" or project thinking or something else. And I think prospective zero focalization and retrospective zero focalization (or more clear terms) should live in the headers of the tracks so that I know what I'm doing with them and the distinction.
+
+--- [U35] ---
+What if I call it "Garden Notes"? I am not gardening the prose but I am gardening the story design. These are notes that had to revised out from the gardening process; they are worth preserving as reminders because they must have served a point at one point and that information is valuable. Or maybe something more clever like "Wilted" as the track name? Stuff that won't get into the final product, but are there for a reason.
+
+Some of the codex entries won't have tracks that characters do. Seems like characters are maximal. Each kind can be reasoned about independently.
+
+Characters and what were formally codex entries cover layers 1, 3, and 4 of the materialist historicist worldbuilding engine in their ontology and layer 2 in their events side. For layer 5, the themes, it seems like we need a slightly different approach.
+
+Thematic proposition must be an argument where the reader arrives at the conclusion via deposited evidence, not told the conclusion. Let's see how the 4 axes that were established for characters and codex entries may or may not apply for themes.
+
+There is not Ontology/Psychology vs Events/History (what kind of content); it is a single category of note - what the conclusion is (what I am designing towards). So this first one isn't an axis.
+Pre-story vs In-story also doesn't apply because arguments are universal.
+Story-wide vs Scene specific seems to have some weight.
+Zero focalization/objective vs narrative design/subjective reader experience. I think this is the axis of What the desired conclusion is vs the evidence for the reader to experience (evidence in favor of my conclusion and demonstrations that the other conclusion failed, not from authorial fiat but from the materialist historicist rigor). This appears to be the only axis? Therefore themes only have 1 track for the conclusion, 1 track for social commentary on the present (allegorical), and on the subject link it's one track for evidence deposited, with an enum for whether it is evidence in support or evidence against the antithesis. But there seems to be a need for a design plan that is story-wide too. The evidence deposited is narrative design; it's a specification of what I want the reader to experience without telling them but showing them, and this is important for informing scene level design. I guess the theme subject should have a track that holds the sum of the link scene designs. Maybe the conclusion or the argument isn't a track at all, or it's a singleton. Thus we have a singleton for the proposition, a track for story-wide design, and a track for reader experience on the link to plot points.
+
+Themes are cross cutting subjects. I guess different subjects used for the same purpose belong in the same note track because it's the same question being answered.
+
+Story Threads as they existed in v1 are very in question now. It's possible all their content can slot into this 16-track (well, 14 since two are impossible) structure. One Story Thread "the true actions and motivations of Chrysalis" was literally the reveal plan and backstory for her, which obviously now lives as a Chrysalis character subject note track. One of them was "Perception of Changelings" which was a plan about depicting the changelings as monsters at first (the grimdark expectation), then exposed as poseurs (social commentary on neo fascists, surface level alignment of elite contempt), then sympathized as victims and fellow citizens (the hopepunk thesis). A prominent story thread is TwiJack, tracking their romantic relationship. I'm not sure what to do with this, perhaps this is a genuine story thread outside of characters. But there's also overlap. "Twilight Breaking from Celestia" should be put in Twilight's character subject and links under the new 14 track framework.
+It could be that Story Threads are cross cutters like themes. I'm really not sure what should go in here. Perhaps we should start reasoning about what is not covered by Characters, the 4 codex entries (both are world content in general) and Thematic Propositions. It doesn't need to be called "Story Threads" if that thinking genuinely goes to the character and codex entry subject tracks.
+
+My v1 story threads and themes are quite disorganized and arbitrary. Let's start with first principles reasoning, then after, I'll try to provide examples of v1 content and we'll see where they can go
+
+--- [U37] ---
+I'm thinking "Equestrian Republic", interestingly, can be a codex entry just like "Stagnation of Harmony" and "Harmonic Capitalism" and "Changeling Hives", as an abstract concept. It is created in story. The backstory won't have any entries. This is similar to how in a different conversation, it was suggested that "Cute Intelligence Agency" can be an organization-type subject even though it is created in story.
+
+The reasoning is: this story planner is also eventually a planner for the prequel-sequels. Minette and Chrysalis are going to eventually have full on stories which need plot points. This means "in-story" for them actually overlaps with "pre-story"/backstory in the TLTT framing. If that is the case, should it be generalized to TLTT, the main story? This adds another layer to the pre-story vs in-story axis that I'm having trouble wrapping my head around. The story planner should definitely be geared for TLTT first and foremost. But even so, I'm wondering if there is something fundamental in the data representation that should be brought to light now.
+
+Here's what I'm thinking about Minette. She is the one who lived and made a lot of Aquileian history. In TLTT, reveal plan notes are about how the reader, through Applejack and Twilight, learn Minette's backstory. This is definitely valid. In her story, she's the one narrating, and the backstory is being made. But this is really interesting because Applejack in the main story also withholds her backstory from the reader until reveal time in TLTT. Any prequel-sequel still starts in media res at some point and has a reveal plan for things.
+
+For Coltbert Reforms, in TLTT, it would have a big reveal plan. For Minette's prequel, Coltbert Reforms is made from scratch within that timeline, so in her framing, the backstory is empty, just like Equestrian Republic is empty in TLTT framing. Thus Coltbert Reforms has the same objective backstory regardless of what story is being planned. When the backstory is empty, reveal plan is empty. Also the macro reveal plan at story-wide scope is not actually story wide, it is project wide. Some of the very specific details of the Coltbert Reforms are not mentioned in TLTT at all, or just alluded to, and only fully dramatized in Minette's story. So the high level plan at the Abstract System track would have notes about what goes in Minette's story and what goes into TLTT; this is the plan I have to make before moving onto scene design because I need to put in decisions about what is too much for TLTT that would make it too dense and should stay in Minette's story, versus what is essential to TLTT.
+
+For Minette's character subject entity itself, it would have backstory prior to TLTT. The plot point links to her in TLTT have reveal plan track and objective track. The plot point links to plot points in her story don't have reveal plan, because it is the objective building of it.
+
+Maybe this is where the "impossible" tracks are actually possible! Because the current pre-story vs in-story axis is specific to TLTT. If the plot point is for a prequel, it is actually possible for a pre-story zero focalization note to a link to exist for psychology or events. Now I'm trying to understand what are the fundamentals of the pre-story vs in-story axis, perhaps they need different names. The data points to take into account are the fact that some subjects are birthed within TLTT, and for subjects before TLTT, in their prequels it's the equivalent, where they are being birthed there. Some insights seems on the tip of my tongue but I can't articulate it. Give a deep analysis
+
+--- [U39] ---
+So Prior-Established and Narrative-Emergent as an axis ONLY applies to PlotPointSubjectLinks, because the Subject is a project-wide plan? Prior-Established, link, psychology, narrative design exists, it's the reveal plan. Prior-established, link, psychology, zero focalization does not exist because there is no truth being established now. Narrative-emergent, link, psychology, zero focalization exists, because the event is happening. Narrative-emergent, link, psychology, narrative design ALSO exists, it is gap design and structural irony work. Seems like events does not have narrative design for narrative emergent because there's no gap or irony between events and reader experience like there is a gap for psychology/ontology/binding logic and reader experience.
+
+This prior-established vs narrative-emergent only exists in the links. Subjects do NOT have this axis. Their entries for the plan still have to equal the sum of links, across all stories. The subject plan tracks shouldn't be singletons anymore; they should have one entry per relevant planned narrative. Read all together, it forms the entire picture across the project. Looking at one entry, it is the sum of one story which can be compared against in a scan.
+
+Link tracks aren't story specific, they are scene specific, which is even more precise. I think having the track be project-wide in the subject, with notes within the track being narrative-specific makes sense. Possibly there can be a boolean in note track definition for this kind of track design, like how there is a boolean for tracks that have world date. Only those show that world date field on the UI. Same for tracks like this where story should be specified for the note. The notes in track 1 and 2 are totally project wide. Some specific notes in these new tracks are story-wide.
+
+I'm starting to think the chronology track should not be only what happens before TLTT part 1 but it should actually include what happens in TLTT as part of the chronology. But this is duplication of data because it exists on the link? But this means Coltbert Reforms objective history exists in both link track for Minette's story's plot points and the subject's track. This might be overkill for TLTT, putting TLTT events in the objective track. Maybe the way to frame it is: TLTT is chronologically the LAST story in project. Everything else is a prequel. As the last story chronologically (but first to be written), it needs notes for reveal plans and that's what the objective backstory is calibrated for. Also none of the prequels are sequential, they are all parallel, somewhat unrelated, only related to TLTT closely. Well that's not exactly true as most of them have an intersection with Chrysalis and everything is actually interconnected, really. But the idea is, the "objective backstory" should be callibrated to TLTT not just because it is the main story and the first to be written, but also because it takes place last. Why is it last? Because the theme is demonstrated by the end of it. Any sequel would need a new theme. The prequels also sort of argue the themes though, so I guess a sequel could too. But any sequel would not be as interesting as a prequel. I'm not really sure here what other reasoning goes in. Actually, the difference with a sequel is: it doesn't need reveal sequences because it is READ after TLTT. But TLTT is read before Minette's story.
+
+--- [U41] ---
+Ok, so Track 8 is primarily in relation with the action plan (track 4) which would now have one note entry per narrative. Track 2 is only informing track 6 (reveal plan) for TLTT, which happens chronologically last but told first. What about in prequels where the payloads have to do with dramatic irony and recontextualization? Also Track 2 does not have to equal the sum of the prequel link track 8s. Not EVERY subject is dramatized, only the ones that deserve one by being compelling enough. So I really think track 2 is categorically disconnected from track 8. Just like how Equestrian Republic has a track 8 in TLTT (it's being built, objectively) and has an empty track 2, because it doesn't exist before TLTT.
+
+Track 2 is the vehicle for revelations.
+
+What about when something dramatized in a prequel plot point recontextualizes the track 1 of a subject, enhancing the reader's understanding of what they read in TLTT? Does this fit into a track that exists out of the 16 possible combinations? I guess the recontextualization is the *how*. There aren't reveal plans in the syuzhet/narrative design for track 6. I think this is where the narrative design of how this extra detail enhances/recontextualizes something from TLTT lives. It is reader experience design! So the reveal plan becomes a recontextualization plan. These are both reader experience designs.
+
+--- [U43] ---
+Please give a full overview of all 16 tracks (and whether they exist or not)
+
+--- [U45] ---
+What popular works operate on this kind of framework if any? I must gotten these principles implicitly from somewhere. These aren't made up, they exist in my raw notes
+
+--- [U47] ---
+Do other works have this "main story plus prequels" setup where the main story is read first but chronologically last? Where could my spirit of revelation in onion layers in main story then recontextualization and dramatic irony in the prequel come from?
+
+--- [U49] ---
+Actually I haven't consumed most of these things. Only Star wars but I'm not they invested. I think Rogue One is my favorite. Also City Hunter and Itaewon Class. I have not watched One Piece or Breaking Bad. Haven't actually read the Lord of the Rings or Game of thrones. Maybe there's more of an effect of converging in first principles. The fanfics I regularly read don't actually utilize this structure either.
+
+--- [U51] ---
+Actually I haven't consumed most of these things. Only Star wars but I'm not they invested. I think Rogue One is my favorite. Also City Hunter and Itaewon Class. I have not watched One Piece or Breaking Bad. Haven't actually read the Lord of the Rings or Game of thrones. Maybe there's more of an effect of converging in first principles. The fanfics I regularly read don't actually utilize this structure either. I guess not the typical romance or adventure fanfics I read in Pokemon or MLP, but the two EaW fics I read, The Princess and the Kaiser, and Pax Chrysalia, have this structure. And I want to do better than them by writing a hopepunk reading of EaW instead of the cynical one. These two start after the Changelings have occupied Equestria. How it happened is revealed over time. For me, I'm starting with the war in equestria but how Chrysalis and many others became who they are is what I'm designing how to reveal.
+
+--- [U53] ---
+I think some of what I called "Story Threads" in v1 is equivalent to things that are narrative-emergent in TLTT. Now the v2 framework can accommodate them. This reflects an asymmetry in v1's data model: the narrative emergent stuff for prequels was in the character or codex entry notes, which is prior existing in TLTT. I remember I was putting notes for plot outlines and syuzhet delivery for Minette's prequel story in her character entry because they weren't plot points in tltt. The narrative emergent stuff in TLTT like Equestrian Republic went in a story thread with a goal trajectory. Now the new v2 way of thinking says goal trajectory/arc equally applies to prior established subjects, and syuzhet narrative design equally applies to prior established subjects which appear in a prequel.
+
+This still doesn't cover TwiJack which is a cross cutting thread, but things like Establishing the Equestrian Republic and Cute Intelligence Agency clearly become subjects that happen to have rich narrative emergent tracks in TLTT plot points and an empty prior backstory
+
+--- [U55] ---
+One more clarification on my process of getting here. After the initial week of Gemini expansion of my world building, data loss and recovery via Google takeout, my plan was a barebones application (actually I tried to do it as a web app first with blazor) where there were only two entities: Chapters and Story Threads. I imagined a "plot point" which was just a title would belong to one chapter and possibly 0-many threads. Then I would display everything in parallel tracks.
+
+Once blazor failed (I was learning it from first principles with Gemini to make a fanfiction website but it was a category mismatch for a story planner) I switched to WPF (what I use at work). Then when trying to design from ground up, I got the concepts of notes, characters, payload fields, codex entries, themes, enums.
+
+So "Story Threads" was originally a catch all for ANY reader question that went across chapters, which is what I wanted to design for. NOW, we've established that all subjects have such a thing, all characters, codex entries and themes have story wide (indeed, project wide) arcs; that is what makes them a subject in the project and not a single plot point. Therefore story thread needs to be for only such things they don't fit in a subject. Hence TwiJack as the premier example. It is an arc of their romance across many chapters; not just how they get together( they happens quick) but what it means for the rest of the story, because my romance writing principles dictate that the romance is tightly coupled with the main plot and theme. This is a response to City Hunter and Itaewon Class romance arcs slightly falling apart near their endings.
+
+It kind of seems like story threads would not have the ontology/psychology part of the content axis but does have events. These events can even be prior established though most is narrative emergent; TwiJack has a history before TLTT. And it's both zero focalization and syuzhet narrative design. There is project wide scope and scene scope. But perhaps one could also argue that other things could have an ontology equivalent. Organization as a codex entry with binding logic as its ontology kind of represents that. So in a way, TwiJack as a relationship kind of mirrors organization, with a scale of two characters. It would be bureaucratic to name it that. But either way, all these things go into the subject table in a unified data structure which is the point of v2's design. I may want to make a "generic" subject type which doesn't have focused questions but has the maximal track configuration. Things can live there if they really don't fit. If I recognize the pattern repeated, I can make it a new subject type, audit which tracks apply, articulate the track question and explanation for that subject type, and see if it generalizes to other story concepts
+
+--- [U57] ---
+I think having a relationship as a subject type makes sense, but it's not just a relationship, it's specifically about when it involves a POV character, because the way I design these romance arcs is that they are tightly coupled, ironclad to the main thematic argument. 
+
+TwiJack isn't the only example in the project although it's the one for the main story. Minette and Réni in their prequel story is another. 
+
+Applejack's Parents if I give them a story may or may not qualify. Or perhaps it's the same mechanic because their decision to become industrialists is because the farm feud was in conflict with their love.
+
+Henri and Fleur can also qualify which is interesting because I have design notes about how they are not romantic committed but it's like friends with benefits but healthy. So I'm wondering if this subject type covers more than just romance? What about Trimmel and Chrysalis? Fleur and Coltbert? These are like mentor and follower. But perhaps these applies where both characters are affected; it can't be one externally reacting to another. Trimmel looks up to Chrysalis but Chrysalis is unmoved by Trimmel.
+
+--- [U59] ---
+What are possible ways to visualize 4 binary axes in 2d? Punnett squares? Game theory? Something from dld?
+
+This is reasoning about and classifying the 16 possible track types from the 4 binary axes
+
+--- [U61] ---
+So it seems like the K map is for abstract Boolean expression simplification, not for preserving semantic meaning? Thus the nested punnett square is better? 
+
+The left and right outer split definitely is subject vs link, but I'm not sure whether the second outer axis should be ontology vs events or if it should be fabula/zero focalization vs syuzhet/narrative design. What are the implications of either choice? It seems like the outer axes make it harder to do direct comparison from adjacency but good for drawing parallels across the two worlds. It's hard to wrap my head around the pros and cons of each approach clearly 
+
+It seems like whether the split happens on the outer vs the inner has different implications for date interpretation
+
+--- [U62] ---
+So it seems like the K map is for abstract Boolean expression simplification, not for preserving semantic meaning? Thus the nested punnett square is better? 
+
+The left and right outer split definitely is subject vs link, but I'm not sure whether the second outer axis should be ontology vs events or if it should be fabula/zero focalization vs syuzhet/narrative design. What are the implications of either choice? It seems like the outer axes make it harder to do direct comparison from adjacency but good for drawing parallels across the two worlds. It's hard to wrap my head around the pros and cons of each approach clearly 
+
+It seems like whether the split happens on the outer vs the inner has different implications for data interpretation of the differences of that axis. Like whether it's more important to see difference within that axis (put axis in inner square) or if it's better for the axis to be fixed because the other axis variation is more meaningful side by side (put axis in outer square)
+
+--- [U63] ---
+So it seems like the K map is for abstract Boolean expression simplification, not for preserving semantic meaning? Thus the nested punnett square is better? 
+
+The left and right outer split definitely is subject vs link, but I'm not sure whether the second outer axis should be ontology vs events or if it should be fabula/zero focalization vs syuzhet/narrative design. What are the implications of either choice? It seems like the outer axes make it harder to do direct comparison from adjacency but good for drawing parallels across the two worlds. It's hard to wrap my head around the pros and cons of each approach clearly 
+
+It seems like whether the split happens on the outer vs the inner has different implications for data interpretation of the differences of that axis. Like whether it's more important to see difference within that axis (put axis in inner square) or if it's better for the axis to be fixed because the other axis variation is more meaningful side by side (put axis in outer square)
+
+--- [U66] ---
+Let's not assume subject and link are outer. I'm curious about all possible setups. Actually I'd wager they are all helpful in different context, maybe.
+
+How many ways are there to arrange the 4 axes in a nested punnett square (this seems to be both a combination and permutation question?) and are all the configurations helpful in some way or are some just inferior?
+
+--- [U68] ---
+Now the million dollar question about this framework is whether this setup of 4 axes each with two values is "suitably exhaustive" or if there are more possible tracks to consider within the combinatorics. Allegorical sits completely separate and so does Garden Notes so things that can be separate are not what I'm looking for. I'm wondering if any of the current axes have more than two meaningful values or not, and whether there are any other meaningful axes that could warrant thought.
+
+--- [U70] ---
+How do the potential 16 track types from the 4 axes compare to this original document outlining the different modes and functions of the story planner? Are they incompatible or is there a synthesis that is possible and there is overlap, that they are different angles of the same thing?
+
+--- [U72] ---
+I'm still not completely concrete on what each of the potential 16 tracks mean and whether they lead to a meaningful question for a particular subject type. It seems like some subject types won't have some tracks. Give an analysis of this plan to move forward and potential pitfalls:
+
+I am going to put in all 16 tracks titled by their axis values and then try to sort/rearticulate all my notes about Applejack. If by the end of that, one of the tracks is empty it probably means that track doesn't apply and there is probably a reason for it. Hopefully my Applejack notes have enough material that whatever type of track that can exist already does in the notes and hopefully the 4 axes are suitably exhaustive (which the analysis above greenlighted). This is because for some of the combinations I am not able to articulate the exact question or explanation/purpose.
+
+Every axis should have a single question to force focus, plus an explanation that speaks to what the contents of the track will be used for in the story planning process, right?
+
+The excel sheet mentioned single claims or assertion types, is this still applicable?
+
+--- [U74] ---
+The problem is we thought some tracks were deferred to other areas but that doesn't seem to be the case after realigning or axing "story thread". I now believe all 16 tracks can possibly hold meaning, but sometimes two tracks can collapse into one if the axis that makes them differ doesn't apply to the subject and the context of the other three axes. But it's hard to know without having data. I'm not sure if static analysis of first principles can do it; please give an analysis of this
+
+--- [U76] ---
+I drew out a nested punnett square where the two outer axes are ontology vs events and prior established vs narrative emergent. The inner axes are zero focalization vs narrative design and project wide vs scene specific. This is because the inner ones can inform each other and build on each other, so they should be close. The outer ones, their content is more independent. Psychology and events are different data points, even though events drive psychology and ontology drives events. The Prior Established content and Narrative Emergent content are different content.
+
+Give an analysis of whether this nested punnett square configuration is the best one for determining track questions and explanations/uses, or not
+
+--- [U78] ---
+From now on, no more referring to tracks by numbers or letter plus number, because it's too hard to parse and figure out what track that is. All tracks need to be referred to by their 4 axes values in the following order with plus signs:
+O or E
+PE or NE
+S or L
+ZF or ND
+
+Now let me walk through the first analysis for characters, the O+PE quadrant.
+O+PE+S+ZF is the classic, most obvious track. This is the character's established psychology, who they are as a character, at the start of the main story.
+Moving one cell over to O+PE+S+ND, I believe it is something like: What is the plan for how the reader should learn the character's truth and why? It would start out with what a reader would assume based on tropes and first impressions and then outline a plan of the design for how that character is revealed.
+The "impossible" combination of O+PE+L+ZF needs to be rethought. I believe the question here is: What truth is being revealed about who they are in this scene? This is objective, and the sum of all these links across the story should accumulate into the full psychology. We were previously putting this "what is revealed" in O+PE+L+ND, I think because the reveal informed narrative design and reader experience. But that's where the distinction comes in. "What truth is being revealed" is objective. "How should the reader feel about the reveal? How does their understanding change after learning the new truth? What gets recontextualized from before; what is the reader thinking about?" This IS what we are designing for in the reader's feelings. In O+PE+L, we are talking about what is being revealed about their established self in a specific scene. What is being revealed is the ZF portion; how the reader should feel about it is the ND portion.
+
+I feel like there is this really complex interplay where in certain combos of the first two axes, the second two axes have swapped orders of what informs what in terms of intuitiveness.
+
+For tracks on L, I believe that "prior established" and "narrative emergent" suddenly flip when the link is to a plot point of a prequel-sequel which is read after the main story. In this case, the narrative emergent stuff is the stuff happening chronlogically earlier. The "prior established" is what the reader already knows happens latter. Thus the L+ND cell acts as dramatic irony for the prequel (notes here talk about what the reader would recall as a truth they hold which the character doesn't) while L+ND in the main story is about revelation (notes here talk about what the reader's new truth makes them feel differently and reevaluate their current opinions)
+
+--- [U80] ---
+The insight that PE+ZF and NE+ZF refers to chronological framing while  PE+ND and NE+ND refer to epistemological framing is fascinating. I also noticed that S+ZF and E+ZF tends to mean objective truth while S+ND and E+ND is about a plan. I'm now wondering if it would be effective to actually go through all 16 two value possibilities and state what the resulting 4 quadrants have in common, because that framing changes based on certain axis value combinations. Does this mean the axes are NOT orthogonal, but their meaning is codependent/tightly coupled? That seems obvious, actually. It seems I've been trying to treat them as independent like vector algebra when really we are not talking numbers but semantic meaning, and semantics are tightly coupled (well I guess LLM training is about vectorizing semantics in such a high dimensional space that they become independent, but that doesn't apply for the scale of human narrative design).
+
+It may also be possible that PE and NE are not accurate, and maybe this axis is about the gap between reader state and truth instead. The reader could know less than the truth (revelation), the reader could be learning the truth simultaneously with the character (this is narrative emergent?) or the reader could know more than the character (dramatic irony, from main story knowledge when reading prequel, or from perceiving something about the character that they can't see in themselves yet, which is the classic AJ at the machine gun in a hiding place example). But that also seems to be the ZF vs ND axis instead.
+
+--- [U82] ---
+I pasted in a new hypothesis. Please analyze fully and answer all questions contained within.
+
+--- [U84] ---
+The framing of PE vs NE is still not correct. Some of the PE content IS dramatized directly in a prequel. What makes it important is that it exists as truth chronologically before the reader encounters it?
+Where are for NE, the truth is formed simultaneously with the reader encountering it for the first time.
+
+"exists independently of the story's dramatized events" is the ZF world. The dramatized events plan for the reader is the ND world.
+
+Both PE and NE exist independently of the dramatized prose that the reader encounters. In PE it happened before the reader's first encounter with TLTT, their entry point in the chronological timeline. It can STILL be dramatized later with an ND spec in a prequel. Or if it's not important enough it is merely stated or explained in TLTT (or a prequel). It seems like a piece of content can be BOTH PE and NE. Chrysalis's psychology is PE that gets revealed, crashing against the reader's cartoon villain or evil Nazi dictator expectations, and also NE that is dramatized in her prequel. Minette has PE in TLTT that reveals her life story, NE in TLTT where she changes after learning from AJ and the war, and more NE where the changes that led to her PE spec are dramatized in her prequel. The Equestrian Republic has NE from being established in TLTT. It does NOT have any PE. A world law like The Charitostatic Effect has O+PE+ZF on how it works objectively. I think since the objetlaw of how it works can't change there is no O+NE+ZF or O+NE+ND. There is O+PE+ND which is how it the understanding of the law evolves, to characters and readers. So, for something whose truth can't change, there is no O+NE. Its usage and understanding is E+NE+ZF which has entries since NE+ZF means "what this character or thing is doing in this scene (L) or the plan for What they do across the project (S)"
+
+Please redo the analysis on what the PE NE labels can possibly be, what is fundamentally happening, and the Applejack examples, and the intuitive labels/questions for the tracks.
+
+Regarding which tracks are merged:
+The possible merges have to do with PE+ND and NE+ND. For PE+S+ND it is the plan for how the reader's understanding of the subject changes, so O and E are combined in the question. For PE+L+ND it is what the reader's change of understanding should be in that scene and what conclusion they should arrive at from it, which requires both O and E. For NE+L+ND it is what the reader should feel about the character's development/change in internal truth (O) It's intertwined with what is happening in the scene (E). NE+S+ND is the interesting case where O and E are disjointed? O+NE+S+ND is a plan for how the reader witnesses changes in the ontology of the subject and what that change in ontology should make the reader feel, what conclusions that that change in ontology should make the reader reach. What conclusion the reader should reach after witnessing that change in ontology. E+NE+S+ND is a requirement list of the events in the story that cause it? Maybe these tracks do merge too, leaving 12? Because events on their own don't deliver anything, it IS telling. When the event tells a change in ontology but the conclusion about the ontology is formed by the reader, that is Showing? I'm starting to think "ZF" as zero focalization is wrong. The narrative design is still written omnisciently? Or I'm confusing ZF with author? I think ZF vs ND also needs clarification on what they truly mean once PE and NE are clarified?
+
+--- [U86] ---
+I think the key insight is that PE and NE, whatever they truely are, are additive, not mutually exclusive. They operate in respect to each other as items in a checkbox list, not radio buttons. S vs L are radio buttons - a note is either project wide or for a specific scene. ZF vs ND SHOULD be radio buttons - a note SHOULD either Be truth or reader experience, it should not be both (that's what was unhelpful in the old system). Mixing the two claims is discouraged in v2 but was convenient in v1 for data capture. O vs E is radio buttons in ZF, but they appear to be one and the same in ND, completely coupled.
+
+This is what I'm imagining Chrysalis's PE+S+ND track will contain:
+1. Readers are expected to believe at the start that Chrysalis is a cartoon villain from FiM and an evil dictator from EaW and the trope of being a leader of a fascist state leads to the perception of being a "bugnazi".
+2. Throughout TLTT, Chrysalis's actual actions and narcissism that I have designed are revealed in onion layers, first through changelings POWs, then through Trimmel, then through Eagleclaw, then through Synovial. By the end of TLTT, the reader should feel they Chrysalis is clearly not a cartoon villain or an irrational dictatorial bugnazi; she is a rational tyranical reformer like Peter the Great or Emperor Meiji.
+3. In Chrysalis's prequel, the reader experiences firsthand, through chrysalis's 3rd person limited POV, how and why she became the tyrant that she is in TLTT. She wanted to solve resource scarcity in the hives and was bullied by Herzlander elites while learning how to modernize. By the end of her prequel, readers should feel that individual villains are not what cause injustice; the system they were a part of is the root cause.
+
+Analogy and social commentary leaked into the reader experience design. Is this okay or not? Should they be exorcized into separate tracks? The purpose of the S+ND track is to inform the L+ND track which then informs the plot point. Not sure of if the analogy and social commentary help or hurt that goal or workflow.
+
+Chrysalis's O+NE+S+ZF has to track how her ontology (her psychology) changes. It goes into how her world view changes. E+NE+S+ZF is a summary outline of what is dramatized, which is mostly in service of delivering the changes to the reader. NE+S+NE (both O and E) would then be a plan for what a reader should feel from the changes. Hmm, maybe this is the same as the PE version, as in, the stuff that's dramatized and what it means is already covered by what I outlined? If this is the case, then that means S+ND, the plan for reader experience across the project, covers ALL content possibilities: O+PE (truth reference), E+PE (backstory), O+NE (what truth changes/character

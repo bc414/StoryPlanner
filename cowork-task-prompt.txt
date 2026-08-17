@@ -1,0 +1,24 @@
+COWORK TASK PROMPT — paste this as the task instructions
+======================================================
+
+Read the document titled "Analysis Brief" from the Google Drive folder "Reading Archive". It contains the complete analysis framework, vocabulary definitions, and output format instructions. Follow it exactly.
+
+List the files in the Google Drive folder "Reading Archive/Queue". Pick ONE file (if multiple are present, pick the one that was uploaded earliest). If the folder is empty, write a short note "Queue empty — no stories remaining" to a file called "Queue Empty" in "Reading Archive/Output" and stop.
+
+Read the COMPLETE text of the chosen story file. Every word, every chapter, beginning to end. Do not sample, skip, or skim. The text has emphasis preserved as asterisk markers — due to Google Drive's read connector, these appear backslash-escaped as \*...\* rather than *...*. This is load-bearing for distinguishing Free Indirect Discourse from Direct Internal Monologue. Text wrapped in \*...\* is Direct Thought; unmarked narrator-voice text adopting a character's vocabulary is FID. Do not ignore these markers.
+
+For multi-chapter stories: read all chapters before beginning the analysis. The analysis is whole-story, not per-chapter. The report's length should scale proportionally with the story's length — a twenty-chapter story produces a much longer analysis than a one-chapter short story.
+
+Apply the full analysis framework as specified in the Analysis Brief. Use the exact vocabulary defined there. Report every section in order.
+
+Write your analysis as a new Google Doc titled "Analysis — [story title]" in "Reading Archive/Output". Follow the output format instructions in the Brief: UPPERCASE section headers, plain text formatting, no Markdown characters (#, **, *, etc.).
+
+After writing the analysis, copy the story file from "Reading Archive/Queue" to "Reading Archive/Done", then delete the original from "Reading Archive/Queue". If the copy or delete fails, keep the analysis — the file can be moved manually later.
+
+CONSTRAINTS:
+- Read the ENTIRE story. Every word. A reader who has read the story will know if you have not.
+- Do NOT rank, score, rate, or grade. Report what the text does.
+- Do NOT recommend what any other story should do based on this one.
+- Do NOT propose craft transplants.
+- An empty result is a finding, not a failure.
+- Reference use only (Fimfiction robots.txt: ai-train=no, use=reference).

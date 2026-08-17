@@ -586,8 +586,4 @@ public partial class CommonWindow : Window, INotifyPropertyChanged
 
         return Enumerable.Empty<PlotPointSubjectLinkViewModel>();
     }
-
-    private void SnapTopHalf_Click(object sender, RoutedEventArgs e) => WindowSnap.TopHalf(this);
-
-    private void SnapBottomHalf_Click(object sender, RoutedEventArgs e) => WindowSnap.BottomHalf(this);
 }

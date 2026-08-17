@@ -20,11 +20,11 @@
             <Button Content="Scan Claude Export…"
                     Padding="10,4"
                     Command="{Binding ScanClaudeExportCommand}"
-                    ToolTip="Compare a conversations.json export against this project and pick which conversations to export for Cowork"/>
-            <Button Content="Import from Folder…"
+                    ToolTip="Compare a conversations.json export against this project and pick which conversations to import"/>
+            <Button Content="Import from Folder (legacy)…"
                     Padding="10,4" Margin="8,0,0,0"
                     Command="{Binding ImportFromFolderCommand}"
-                    ToolTip="Select a folder of NNN_*_content.json files. A matching NNN_*_meta.json adds summaries and is optional — a content file without one imports with no summaries."/>
+                    ToolTip="Select a folder of NNN_*_content.json files written by the retired export. Nothing produces these any more — use Scan Claude Export… instead."/>
             <CheckBox Content="Expand cards"
                       VerticalAlignment="Center" Margin="16,0,0,0"
                       IsChecked="{Binding ShowExpandedCards, Mode=TwoWay}"

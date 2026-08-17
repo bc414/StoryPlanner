@@ -117,9 +117,10 @@ public partial class ConversationLibraryViewModel : ObservableObject
     // ── Commands ───────────────────────────────────────────────────────────────
 
     /// <summary>
-    /// Bulk import: point at a folder of NNN_{slug}_content.json files. A NNN_{slug}_meta.json with
-    /// the same prefix supplies summaries when present; a content file without one imports anyway,
-    /// with no summaries. Summaries are a navigation aid, not a precondition for reading.
+    /// The legacy bulk import: point at a folder of NNN_{slug}_content.json files written by the
+    /// export that was retired with the Cowork round trip on 2026-08-11. Nothing produces such a
+    /// folder any more, so this serves the ones already on disk; a NNN_{slug}_meta.json alongside
+    /// one is parsed and ignored. Scan Claude Export… is the live route.
     /// </summary>
     [RelayCommand]
     private async Task ImportFromFolder()
@@ -128,7 +129,7 @@ public partial class ConversationLibraryViewModel : ObservableObject
 
         var dlg = new OpenFolderDialog
         {
-            Title = "Select folder containing NNN_*_content.json files (NNN_*_meta.json optional)"
+            Title = "Select a legacy folder of NNN_*_content.json files"
         };
         if (dlg.ShowDialog() != true) return;
 
@@ -140,23 +141,16 @@ public partial class ConversationLibraryViewModel : ObservableObject
             MessageBoxButton.OK, MessageBoxImage.Information);
     }
 
-    /// <summary>Plain tally of what an import did — including how many landed without summaries,
-    /// which is otherwise invisible until the conversation is opened.</summary>
-    private static string DescribeImport(ConversationImportResult result)
-    {
-        if (result.Total == 0) return "Nothing to import.";
-
-        var text = $"{result.Created} new, {result.Updated} updated.";
-        if (result.WithoutSummaries > 0)
-            text += $"\n{result.WithoutSummaries} imported without summaries (no meta file).";
-        return text;
-    }
+    /// <summary>Plain tally of what an import did.</summary>
+    private static string DescribeImport(ConversationImportResult result) =>
+        result.Total == 0
+            ? "Nothing to import."
+            : $"{result.Created} new, {result.Updated} updated.";
 
     /// <summary>
-    /// Stage 1 of the pipeline: pick a Claude conversations.json export, scan it against the DB's
+    /// The live import route: pick a Claude conversations.json export, scan it against the DB's
     /// existing conversations, and open the Scan Preview so the user can hand-pick exactly which
-    /// conversations to export for Cowork (most exported conversations are off-topic and must be
-    /// kept out of that folder).
+    /// conversations come in (most of an export is off-topic and must be kept out).
     /// </summary>
     [RelayCommand]
     private async Task ScanClaudeExport()
@@ -182,9 +176,8 @@ public partial class ConversationLibraryViewModel : ObservableObject
             return;
         }
 
-        // The preview can import directly (no Cowork round trip), which adds rows the library's
-        // VMs know nothing about — so it gets a callback to rebuild them, the same refresh the
-        // folder import does for itself.
+        // The preview imports directly, which adds rows the library's VMs know nothing about — so
+        // it gets a callback to rebuild them, the same refresh the folder import does for itself.
         var previewVm = new ScanPreviewViewModel(_storyService, items, onImported: () =>
         {
             RebuildConversationVMs();

@@ -5,11 +5,11 @@ namespace StoryPlanner.Core;
 /// <summary>
 /// The NNN_{slug} identity a conversation carries in <see cref="Conversation.SourceFilePrefix"/>.
 ///
-/// Shared by both halves of the pipeline on purpose: <see cref="ConversationContentExporter"/>
-/// names its content files with it, and <see cref="ConversationImporter.ImportScannedAsync"/>
-/// assigns the same prefix when importing straight from a scan. That's what lets a conversation
-/// imported raw today be exported for a summary pass later and pair back up with the DB record it
-/// came from, instead of arriving as a duplicate.
+/// <see cref="ConversationImporter.ImportScannedAsync"/> assigns it when importing straight from a
+/// scan, and it is the fallback match key when a conversation has no sourceUuid — which is what
+/// lets a legacy NNN_{slug}_content.json folder still pair back up with the record it produced,
+/// instead of arriving as a duplicate. It outlived the file export it was named for (retired
+/// 2026-08-11) because that matching job is entirely its own.
 /// </summary>
 public static class ConversationPrefix
 {

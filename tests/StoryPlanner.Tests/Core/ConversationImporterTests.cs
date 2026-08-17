@@ -7,12 +7,16 @@ namespace StoryPlanner.Tests;
 /// <summary>
 /// Fixture-tier tests for <see cref="ConversationImporter"/>'s merge semantics.
 ///
-/// These guard three things a regression would break silently: that summaries are OPTIONAL (a
-/// content file with no meta partner imports rather than being skipped), that a content-only
-/// re-import never erases summaries or read-state a previous pass established, and that a meta
-/// file's subjectsCovered array — present in every meta file authored before 2026-07-31 — writes
-/// no coverage rows. That last one is the reason the AI-suggested-track cut is enforceable rather
-/// than merely done: reconnecting the path fails a test instead of quietly refilling the tables.
+/// The important ones here guard AUTHORED content against an import. Since 2026-08-11 a block's
+/// Summary is Brian's own hand-written navigation note and BlockState is his triage; the importer
+/// writes neither, ever, and there is no undo if it ever starts. A re-import must refresh the
+/// transcript and nothing else.
+///
+/// The rest guard two deliberate inertnesses. A legacy *_meta.json's summaries write nothing (the
+/// Cowork round trip that produced them is retired), and its subjectsCovered array writes no
+/// coverage rows (the AI-suggested subject×track routing, cut 2026-07-31). Both cuts are
+/// enforceable rather than merely done: reconnecting either path fails a test instead of quietly
+/// refilling the field.
 /// </summary>
 public class ConversationImporterTests
 {
@@ -36,10 +40,10 @@ public class ConversationImporterTests
                 .Select(b => new ConversationImportBlock(b.Number, b.Speaker, b.Text, IsCompaction: false))
                 .ToList());
 
-    // ── Summaries are optional ────────────────────────────────────────────────
+    // ── Blocks arrive bare; the note is Brian's to write ──────────────────────
 
     [Fact]
-    public async Task Import_without_meta_creates_the_conversation_with_empty_summaries()
+    public async Task Import_creates_the_conversation_with_empty_summaries()
     {
         using var plan = SyntheticPlan.Create();
         await using var ctx = OpenContext(plan);
@@ -47,11 +51,9 @@ public class ConversationImporterTests
         var result = await new ConversationImporter(ctx).ImportAsync(
             Source(Uuid, (1, "user", "What if the nursery is self-protection?"),
                          (2, "assistant", "Then the reveal lands two chapters early.")),
-            "001_a-design-conversation",
-            meta: null);
+            "001_a-design-conversation");
 
         Assert.Equal(1, result.Created);
-        Assert.Equal(1, result.WithoutSummaries);
 
         var conv = Assert.Single(await ctx.Conversations.ToListAsync());
         Assert.Equal("", conv.ArcSummary);
@@ -61,7 +63,7 @@ public class ConversationImporterTests
         Assert.Equal(2, blocks.Count);
         Assert.All(blocks, b => Assert.Equal("", b.Summary));
         Assert.All(blocks, b => Assert.Equal(BlockState.Unread, b.BlockState));
-        // Raw content is the point of a summary-less import — it must be fully present.
+        // Raw content is the whole payload of an import — it must be fully present.
         Assert.Contains("nursery", blocks[0].RawContent);
     }
 
@@ -90,7 +92,6 @@ public class ConversationImporterTests
             var result = await new ConversationImporter(ctx).ImportFolderAsync(folder.FullName);
 
             Assert.Equal(1, result.Created);
-            Assert.Equal(1, result.WithoutSummaries);
             var conv = Assert.Single(await ctx.Conversations.ToListAsync());
             Assert.Equal("Bare conversation", conv.Title);
             Assert.Equal("007_bare", conv.SourceFilePrefix);
@@ -101,80 +102,91 @@ public class ConversationImporterTests
         }
     }
 
-    // ── Meta enriches, never destroys ─────────────────────────────────────────
+    // ── An import never writes an authored field ──────────────────────────────
 
     [Fact]
-    public async Task Meta_pass_over_a_bare_conversation_adds_summaries_and_keeps_read_state()
+    public async Task Reimport_preserves_hand_written_block_summaries_and_adds_the_new_turns()
     {
         using var plan = SyntheticPlan.Create();
         await using var ctx = OpenContext(plan);
         var importer = new ConversationImporter(ctx);
 
-        var source = Source(Uuid, (1, "user", "First turn."), (2, "assistant", "Second turn."));
-        await importer.ImportAsync(source, "001_a-design-conversation", meta: null);
+        await importer.ImportAsync(Source(Uuid, (1, "user", "First turn.")), "001_conv");
 
-        // Triage block 1 before the summaries arrive — the reader's state must outlive re-import.
+        // Brian reads the block and writes his own note on it, then triages it.
         var block1 = await ctx.ConversationBlocks.SingleAsync(b => b.BlockNumber == 1);
+        block1.Summary    = "Where the tariff argument actually starts.";
         block1.BlockState = BlockState.Done;
         await ctx.SaveChangesAsync();
 
-        var meta = new ConversationMeta
-        {
-            ArcSummary = "Establishes the immortality rules.",
-            Blocks =
-            {
-                new ConversationMetaBlock { BlockNumber = 1, Summary = "User sets the rules." },
-                new ConversationMetaBlock { BlockNumber = 2, Summary = "Assistant draws implications." }
-            }
-        };
-
-        var result = await importer.ImportAsync(source, "001_a-design-conversation", meta);
-
-        Assert.Equal(1, result.Updated);
-        Assert.Equal(0, result.WithoutSummaries);
+        // The conversation is reopened and re-scanned. His note and his triage must survive:
+        // there is no undo, so an importer that overwrites either destroys authored work.
+        await importer.ImportAsync(
+            Source(Uuid, (1, "user", "First turn."), (2, "assistant", "A newly added turn.")),
+            "001_conv");
 
         var conv = Assert.Single(await ctx.Conversations.ToListAsync());
-        Assert.Equal("Establishes the immortality rules.", conv.ArcSummary);
+        Assert.Equal(2, conv.BlockCount);
 
         var blocks = await ctx.ConversationBlocks.OrderBy(b => b.BlockNumber).ToListAsync();
-        Assert.Equal("User sets the rules.", blocks[0].Summary);
-        Assert.Equal(BlockState.Done, blocks[0].BlockState);   // survived the re-import
+        Assert.Equal("Where the tariff argument actually starts.", blocks[0].Summary);
+        Assert.Equal(BlockState.Done, blocks[0].BlockState);
+        Assert.Equal("", blocks[1].Summary);                  // genuinely new, never annotated
         Assert.Equal(BlockState.Unread, blocks[1].BlockState);
     }
 
     [Fact]
-    public async Task Content_only_reimport_preserves_existing_summaries_and_adds_the_new_turns()
+    public async Task A_legacy_meta_file_never_overwrites_a_hand_written_summary()
     {
         using var plan = SyntheticPlan.Create();
         await using var ctx = OpenContext(plan);
         var importer = new ConversationImporter(ctx);
 
-        var meta = new ConversationMeta
+        var folder = Directory.CreateTempSubdirectory("storyplan-import-");
+        try
         {
-            ArcSummary = "The arc, as summarized earlier.",
-            Blocks = { new ConversationMetaBlock { BlockNumber = 1, Summary = "Block one, summarized." } }
-        };
-        await importer.ImportAsync(Source(Uuid, (1, "user", "First turn.")), "001_conv", meta);
+            await File.WriteAllTextAsync(Path.Combine(folder.FullName, "001_conv_content.json"), """
+                {
+                  "platform": "Claude",
+                  "title": "A design conversation",
+                  "conversationDate": "2026-07-01T10:00:00Z",
+                  "sourceUuid": "meta-clobber-uuid",
+                  "sourceUpdatedAt": "2026-07-01T12:00:00Z",
+                  "blocks": [
+                    { "blockNumber": 1, "speaker": "user", "rawContent": "First turn.", "isCompaction": false }
+                  ]
+                }
+                """);
+            await File.WriteAllTextAsync(Path.Combine(folder.FullName, "001_conv_meta.json"), """
+                {
+                  "arcSummary": "An AI-written arc summary.",
+                  "blocks": [ { "blockNumber": 1, "summary": "An AI-written block summary." } ]
+                }
+                """);
 
-        // The conversation is reopened and re-scanned; no fresh meta pass has been run.
-        await importer.ImportAsync(
-            Source(Uuid, (1, "user", "First turn."), (2, "assistant", "A newly added turn.")),
-            "001_conv",
-            meta: null);
+            await importer.ImportFolderAsync(folder.FullName);
 
-        var conv = Assert.Single(await ctx.Conversations.ToListAsync());
-        Assert.Equal("The arc, as summarized earlier.", conv.ArcSummary);
-        Assert.Equal(2, conv.BlockCount);
+            var block = await ctx.ConversationBlocks.SingleAsync();
+            Assert.Equal("", block.Summary);        // the meta wrote nothing on the way in
+            block.Summary = "Brian's own note.";
+            await ctx.SaveChangesAsync();
 
-        var blocks = await ctx.ConversationBlocks.OrderBy(b => b.BlockNumber).ToListAsync();
-        Assert.Equal("Block one, summarized.", blocks[0].Summary);  // not blanked
-        Assert.Equal("", blocks[1].Summary);                        // genuinely new, never summarized
+            // Re-import the same folder, meta and all.
+            await importer.ImportFolderAsync(folder.FullName);
+
+            Assert.Equal("Brian's own note.", (await ctx.ConversationBlocks.SingleAsync()).Summary);
+            Assert.Equal("", (await ctx.Conversations.SingleAsync()).ArcSummary);
+        }
+        finally
+        {
+            folder.Delete(recursive: true);
+        }
     }
 
-    // ── The suggestion path stays cut ─────────────────────────────────────────
+    // ── Both suggestion paths stay cut ────────────────────────────────────────
 
     [Fact]
-    public async Task Meta_file_carrying_subjectsCovered_writes_no_coverage_rows()
+    public async Task Legacy_meta_file_writes_neither_summaries_nor_coverage_rows()
     {
         using var plan = SyntheticPlan.Create();
         await using var ctx = OpenContext(plan);
@@ -196,7 +208,8 @@ public class ConversationImporterTests
                 """);
 
             // Shaped exactly like the meta files authored before the 2026-07-31 cut: the
-            // subjectsCovered array is still there and must be inert, not merely unused.
+            // subjectsCovered array is still there, and so are the summaries retired on
+            // 2026-08-11. All of it must be inert, not merely unused.
             await File.WriteAllTextAsync(Path.Combine(folder.FullName, "001_legacy_meta.json"), $$"""
                 {
                   "arcSummary": "An arc.",
@@ -210,12 +223,14 @@ public class ConversationImporterTests
 
             await new ConversationImporter(ctx).ImportFolderAsync(folder.FullName);
 
-            // The summaries land...
+            // The content lands...
             var conv = Assert.Single(await ctx.Conversations.ToListAsync());
-            Assert.Equal("An arc.", conv.ArcSummary);
-            Assert.Equal("A summary.", (await ctx.ConversationBlocks.SingleAsync()).Summary);
+            Assert.Equal("Legacy pair", conv.Title);
+            Assert.Equal("A turn.", (await ctx.ConversationBlocks.SingleAsync()).RawContent);
 
-            // ...and nothing proposes structure.
+            // ...and none of the machine-written text does.
+            Assert.Equal("", conv.ArcSummary);
+            Assert.Equal("", (await ctx.ConversationBlocks.SingleAsync()).Summary);
             Assert.Empty(await ctx.ConversationSubjectCoverages.ToListAsync());
             Assert.Empty(await ctx.ConversationSubjectCoverageTracks.ToListAsync());
         }
@@ -249,7 +264,6 @@ public class ConversationImporterTests
         var result = await new ConversationImporter(ctx).ImportScannedAsync(items);
 
         Assert.Equal(2, result.Created);
-        Assert.Equal(2, result.WithoutSummaries);
 
         var prefixes = await ctx.Conversations
             .Where(c => c.SourceUuid != "existing-uuid")
@@ -291,7 +305,9 @@ public class ConversationImporterTests
         Assert.Equal("005_older-title", conv.SourceFilePrefix);
         Assert.Equal("Newer title", conv.Title);
         Assert.Equal(3, conv.BlockCount);
-        Assert.Equal("Summarized in an earlier pass.", conv.ArcSummary); // a raw re-import never blanks it
+        // Frozen historical text from the retired Cowork pass: nothing writes ArcSummary any
+        // more, and a re-import must not blank what is already there.
+        Assert.Equal("Summarized in an earlier pass.", conv.ArcSummary);
     }
 
     private static ParsedClaudeConversation Export(string uuid, string title, int blockCount = 2) =>

@@ -407,6 +407,43 @@ window down mid-edit.
   exit save, and any new "close the app" path must go through normal shutdown so it fires.
 - **A `Popup` inside a `DataGrid` cell goes completely inert** — every handler, not one. Use a
   modal `Window`; see "A `Popup` inside a `DataGrid` cell cannot host an editor" above.
+- **A `TextBox` inside a `ListBoxItem` takes four things from its container** — see below.
+
+### An editable field inside a list item (learned 2026-08-11)
+
+The Conversation Reader's summary cards became editable notes. A `TextBox` in the item template
+compiles and looks right, and silently takes four things away from the list around it:
+
+1. **Row selection.** `TextBoxBase.OnMouseLeftButtonDown` sets `e.Handled`, and
+   `ListBoxItem`'s class handler is registered with `handledEventsToo: false` — so clicking the
+   editor selects nothing, raises no `SelectionChanged`, and any pane that follows the selection
+   stops following. Fix in the box's `GotKeyboardFocus`: reproduce the click that was eaten
+   (already-selected → keep the multi-selection, otherwise set `SelectedItem`).
+   Ctrl/Shift-click *landing on the text* is gone for good — keep a `TextBlock` line in the
+   template as a grab handle, since a `TextBlock` has no `Background` and clicks fall through.
+2. **The container's `ContextMenu`.** A `TextBox` supplies its own Cut/Copy/Paste menu, which
+   shadows the inherited one. Set `ContextMenu` explicitly on the box or the item's menu vanishes
+   from most of the column.
+3. **Bare-letter shortcuts.** A window-level `KeyDown` that treats letters as commands turns
+   typing into command execution. Guard with
+   `if (Keyboard.FocusedElement is TextBoxBase) return;`. Function keys are safe and keep working
+   mid-edit, which is usually what you want.
+4. **Arrow-key navigation between items**, while focused. Give Enter and Escape a
+   `PreviewKeyDown` handler that returns focus to the row.
+
+**`UpdateSourceTrigger=LostFocus` is the right trigger for a per-item editor** — one save per edit
+session instead of one per keystroke — but it is the only place in this app where typed text lives
+outside the model, so it needs three explicit commits: window `OnClosing` (LostFocus is not
+guaranteed during teardown), the global Ctrl+S handler (otherwise it reports success on a save that
+omitted what was being typed), and Enter. Escape reverts via `BindingExpression.UpdateTarget()`,
+which also clears the dirty flag so the following LostFocus writes nothing.
+
+**Turn virtualization off** (`VirtualizingPanel.IsVirtualizing="False"`) on a list hosting editors,
+unless the item count is genuinely large. It removes the recycling hazard of re-pointing a live
+editor at another row mid-edit — the `DataGrid` sibling of this trap is documented above — and it
+also fixes a stale-`IsSelected` bug wherever an item container binds `IsSelected` TwoWay to the VM:
+a virtualized-away container cannot push deselection back, so a bulk operation counting VM flags
+can reach rows the user believes are deselected.
 
 ## Before you finish
 

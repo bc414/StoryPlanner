@@ -20,23 +20,13 @@ public partial class ConversationCard : UserControl
     private void RootBorder_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
     {
         if (e.ClickCount != 2) return;
-        if (FindAncestor<TextBox>(e.OriginalSource as DependencyObject) is not null) return;
+        if (VisualTreeSearch.FindAncestor<TextBox>(e.OriginalSource as DependencyObject) is not null) return;
         if (DataContext is not ConversationViewModel vm) return;
 
-        if (FindAncestor<ItemsControl>(this)?.DataContext is ConversationLibraryViewModel libraryVm
+        if (VisualTreeSearch.FindAncestor<ItemsControl>(this)?.DataContext is ConversationLibraryViewModel libraryVm
             && libraryVm.OpenConversationReaderCommand.CanExecute(vm))
         {
             libraryVm.OpenConversationReaderCommand.Execute(vm);
         }
-    }
-
-    private static T? FindAncestor<T>(DependencyObject? node) where T : DependencyObject
-    {
-        while (node is not null)
-        {
-            if (node is T match) return match;
-            node = VisualTreeHelper.GetParent(node);
-        }
-        return null;
     }
 }

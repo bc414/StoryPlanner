@@ -423,15 +423,20 @@ ORDER BY b.DisplayOrder, p.DisplayOrder;
 (`Models/Conversation*.cs`, `IgnoredConversation.cs`) — the Conversation Reader feature (imported
 Claude/Gemini chat transcripts, block-by-block). v2-only — 0 rows in the v1 archive, which
 predates this feature.
-- `ConversationBlocks.BlockState`: `0=Unread, 1=Skipped, 2=Flagged, 3=Done` — the only authored
-  state in this corpus, and the only one worth analyzing
+- `ConversationBlocks.BlockState`: `0=Unread, 1=Skipped, 2=Flagged, 3=Done` — one of the two
+  authored fields in this corpus, and the one worth analyzing
 - `ConversationBlocks.Speaker`: `"user"` or `"assistant"` (text, not enum)
-- `Conversations.ArcSummary` and `ConversationBlocks.Summary` are **optional navigation aids**,
-  not content: authored outside the app and imported from a `*_meta.json`. Since 2026-07-31 a
-  conversation can be imported straight from a raw Claude export with no meta pass at all, so
-  **empty is an ordinary state, not missing data** — do not report a blank summary as a gap, and
-  never count summaries as a coverage/progress metric. Import never destroys one: a content-only
-  re-import leaves existing summaries and `BlockState` untouched.
+- **`ConversationBlocks.Summary` is Brian's own hand-written navigation note (2026-08-11)** —
+  authored in the reader's middle column, in his words. It used to hold AI summaries imported from
+  a `*_meta.json`; that pipeline is retired, the imported text was blanked wholesale by the
+  `wipe-block-summaries` DataOps op, and no import path writes the column any more. So a non-empty
+  Summary is the author speaking *about* a block, which is a different thing from `RawContent`
+  and must never be conflated with it. **Empty is ordinary and permanent** — most blocks will
+  never carry a note. Do not report a blank as a gap, never count notes as a coverage/progress
+  metric, and never substitute an excerpt of `RawContent` for an absent one.
+- `Conversations.ArcSummary` is the **frozen** remainder of that pipeline: whatever a meta pass
+  wrote before 2026-08-11 is still there, displayed read-only, and nothing writes it again. It was
+  deliberately not wiped. Same rules otherwise — empty is ordinary, not a gap.
 - `ConversationBlocks.HasDecisions` **no longer exists** — dropped 2026-07-31 (migration
   `DropBlockHasDecisions`). It was an AI judgment about which turns mattered. Any older note or
   query referencing it is stale.
@@ -545,8 +550,9 @@ SELECT BlockState, COUNT(*) FROM ConversationBlocks GROUP BY BlockState;
 
 Do **not** pair this with a `ConversationSubjectCoverageTracks` / `IsAdded` breakdown. That query
 is historical: the feature was cut on 2026-07-31 and its rows are frozen, so the tally answers
-"what did an abandoned experiment propose in 2026", not anything about the current file. Summary
-population (`ArcSummary <> ''`) is likewise not a progress metric — summaries are optional.
+"what did an abandoned experiment propose in 2026", not anything about the current file. Note
+population (`Summary <> ''`) is likewise not a progress metric — a block note is written when
+Brian has something to say about a block, and most blocks will never get one.
 
 **Flagged notes needing research (read `FlagReason` for actual content):**
 ```sql

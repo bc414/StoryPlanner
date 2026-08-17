@@ -1,6 +1,5 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
-using Microsoft.Win32;
 using StoryPlanner.Core;
 using System;
 using System.Collections.ObjectModel;
@@ -15,9 +14,9 @@ namespace WindowedStoryPlanner;
 
 /// <summary>
 /// Drives the Scan Preview dialog: lists every conversation from a Claude export scan with its
-/// advisory classification, lets the user hand-pick exactly which ones to export for Cowork
-/// (most conversations are off-topic and must NOT be exported), resolve NeedsConfirmation matches,
-/// and mark off-topic conversations as ignored so they stop resurfacing as New on future scans.
+/// advisory classification, lets the user hand-pick exactly which ones to import (most
+/// conversations are off-topic and must NOT be), resolve NeedsConfirmation matches, and mark
+/// off-topic conversations as ignored so they stop resurfacing as New on future scans.
 /// </summary>
 public partial class ScanPreviewViewModel : ObservableObject
 {
@@ -177,28 +176,10 @@ public partial class ScanPreviewViewModel : ObservableObject
         FilteredRows.Refresh();
     }
 
-    [RelayCommand]
-    private async Task ExportSelected()
-    {
-        var selected = Rows.Where(r => r.IsSelected).Select(r => r.Item).ToList();
-        if (selected.Count == 0)
-        {
-            StatusMessage = "No conversations checked — check the ones you want to hand to Cowork first.";
-            return;
-        }
-
-        var dlg = new OpenFolderDialog { Title = "Choose an output folder for the Cowork content files" };
-        if (dlg.ShowDialog() != true) return;
-
-        var written = await _storyService.ExportConversationContentAsync(selected, dlg.FolderName);
-        StatusMessage = $"Wrote {written.Count} content file(s) to {dlg.FolderName}.";
-    }
-
     /// <summary>
-    /// Imports the checked rows straight into the reader from the parsed export — no content
-    /// files, no meta files, no Cowork round trip, and therefore no summaries. Each conversation
-    /// still claims the NNN_{slug} prefix a file export would have given it, so exporting one
-    /// later for a summary pass updates the same record instead of duplicating it.
+    /// Imports the checked rows straight into the reader from the parsed export. Each conversation
+    /// claims the NNN_{slug} prefix the retired file export would have given it, so a legacy
+    /// folder covering the same conversation updates the same record instead of duplicating it.
     /// </summary>
     [RelayCommand]
     private async Task ImportSelected()
@@ -225,7 +206,7 @@ public partial class ScanPreviewViewModel : ObservableObject
 
         _onImported?.Invoke();
 
-        StatusMessage = $"Imported {result.Total} conversation(s) with no summaries " +
+        StatusMessage = $"Imported {result.Total} conversation(s) " +
                         $"({result.Created} new, {result.Updated} updated).";
     }
 }

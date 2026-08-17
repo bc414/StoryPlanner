@@ -42,30 +42,24 @@ public interface IStoryService : IDisposable
     Task CreateProjectAsync(string filePath);
     Task OpenProjectAsync(string filePath);
     Task SaveAsync();
-    /// <summary>Imports one content file. <paramref name="metaPath"/> is optional — pass null to
-    /// import raw block text with no summaries.</summary>
+    /// <summary>Imports one legacy content file. <paramref name="metaPath"/> is optional and
+    /// inert — a meta file is parsed but nothing it carries is written.</summary>
     Task<ConversationImportResult> ImportConversationsAsync(string contentPath, string? metaPath);
 
-    /// <summary>Imports every *_content.json in a folder, using each one's *_meta.json when
-    /// present. A content file with no meta partner imports without summaries.</summary>
+    /// <summary>Imports every *_content.json in a folder — the legacy route, for folders written
+    /// by the export that was retired with the Cowork round trip.</summary>
     Task<ConversationImportResult> ImportConversationsFolderAsync(string folderPath);
 
-    /// <summary>Imports scan rows straight from a parsed Claude export — no content files, no
-    /// summaries, no Cowork round trip.</summary>
+    /// <summary>Imports scan rows straight from a parsed Claude export — the one live route.</summary>
     Task<ConversationImportResult> ImportScannedConversationsAsync(IReadOnlyList<ConversationSyncItem> items);
 
     Task DeleteConversationAsync(Conversation conversation);
 
-    // --- Conversation scan/export (Claude export vs. DB ground-truth) ---
+    // --- Conversation scan (Claude export vs. DB ground-truth) ---
 
     /// <summary>Parses a Claude conversations.json export and classifies each conversation
     /// against the DB (New / Reopened / Unchanged / NeedsConfirmation / Ignored). Read-only.</summary>
     Task<List<ConversationSyncItem>> ScanClaudeExportAsync(string claudeExportPath);
-
-    /// <summary>Writes NNN_{slug}_content.json (+ index) for the given scan rows to outputFolder —
-    /// the input for Cowork analysis.</summary>
-    Task<List<ConversationContentExporter.ExportedFile>> ExportConversationContentAsync(
-        IReadOnlyList<ConversationSyncItem> selectedItems, string outputFolder);
 
     /// <summary>Confirms a NeedsConfirmation scan row's proposed match by stamping the Claude uuid
     /// onto the matched Conversation, so future scans recognize it with certainty.</summary>

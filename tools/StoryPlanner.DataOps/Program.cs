@@ -8,6 +8,7 @@ var ops = new Dictionary<string, IDataOperation>(StringComparer.OrdinalIgnoreCas
     ["seed-timeline-defaults"] = new SeedTimelineDefaults(),
     ["seed-source-material"] = new SeedSourceMaterial(),
     ["seed-narrative-properties"] = new SeedNarrativeProperties(),
+    ["wipe-block-summaries"] = new WipeBlockSummaries(),
 };
 
 var positional = args.Where(a => a != "--apply").ToList();

@@ -39,6 +39,15 @@ their existing data survive, dormant, so `DeleteConversationAsync`'s cascade sti
 block-level `HasDecisions` flag went with it (same judgment call, one layer down): column dropped.
 Do not rebuild either. Conversation import no longer requires an AI pass at all — see below.
 
+**The AI block summaries are cut too, and this time the data went with them (2026-08-11).** Same
+judgment, the third time: machine-written per-block summaries "turned out to not be helpful." The
+Cowork round trip that produced them is deleted (`ConversationContentExporter`, the *Export Checked
+for Cowork…* button, `ExportConversationContentAsync`), a `_meta.json`'s summaries are inert on
+import, and the existing text was blanked by the `wipe-block-summaries` DataOps op. The **column
+stays and changes hands**: `ConversationBlock.Summary` is now Brian's own navigation note, typed in
+the reader. That is the pattern to notice — the field was worth keeping, the machine filling it was
+not.
+
 **Seeders seed structure, never prose (2026-07-31).** A DataOps seed op may create rows, ids,
 orderings, and flags. It must **not** author the prose on them — display questions, explanations,
 usage directives, value descriptions. That prose is story metadata: it carries Brian's framing of
@@ -298,13 +307,21 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
   server can reach. (`ConversationImporter` used to be the standing example; as of 2026-07-31 it
   reports through a returned `ConversationImportResult` instead of printing, but it is still a
   write path and the read-only server has no business calling it.)
-- **Conversation import needs no AI pass (2026-07-31).** Two routes, both first-class: *Scan Claude
-  Export… → Import Checked Directly* puts raw blocks straight in the reader from the export, and
-  *Export Checked for Cowork… → Import from Folder…* adds summaries afterwards. A `_meta.json` is
-  optional everywhere; it supplies `ArcSummary` and per-block `Summary` (navigation only) and
-  nothing else. Meta never destroys: a content-only re-import leaves earlier summaries and block
-  triage state intact. An empty summary is ordinary, not missing data — never substitute an
-  excerpt for one.
+- **Conversation import needs no AI pass, and no longer offers one (2026-07-31, cut 2026-08-11).**
+  One live route: *Scan Claude Export… → Import Checked Directly* puts raw blocks straight in the
+  reader. *Import from Folder (legacy)…* survives for `_content.json` folders already on disk —
+  nothing produces one any more. A `_meta.json` is parsed and **entirely inert**: its `ArcSummary`
+  and per-block `Summary` write nothing, exactly like `subjectsCovered` since 2026-07-31, and a
+  test asserts it. **An import writes no authored field** — not `Summary`, not `BlockState`; a
+  re-import refreshes the transcript and nothing else.
+- **A block `Summary` is Brian's own navigation note (2026-08-11).** It is typed into the reader's
+  middle column, two-way bound and committed on focus-leave — his words, not a machine's, which is
+  a different citation status from `RawContent` when one turns up in a search. The AI-written
+  summaries that used to fill this column were wiped by the `wipe-block-summaries` DataOps op
+  ("not helpful"): same judgment as the coverage-suggestion cut above, one feature over. Empty is
+  ordinary and permanent — most blocks will never carry a note — and **never substitute an excerpt
+  for an absent one**. `Conversation.ArcSummary` is the frozen remainder: still displayed
+  read-only, never written by anything again.
 
 ## Settled — do not propose alternatives
 

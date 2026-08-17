@@ -1,0 +1,498 @@
+set tracks of v2 and correct subject, link and plot point. The ids and links are preserved. But note that some stuff is in wrong cognitive mode or subject. Either one is an option.
+
+AJ's notes from v1 are in her subject for v2. But because of the incomplete unrigorous nature of v1, some notes that should be in AJ in v2 live in many different subjects in v1.
+
+Gemini uses v1 and takes three entire 300k words as context, 500k tokens. I plan on v2 export being more granular, but that's not implemented yet. But I'm willing to pause expansion until v2 is sorted.
+
+If I go with the export, subjects are already created but need to be given a type. Remember some subjects are wrong and should be folded into others.
+
+A session can be all night if I want. I'm basically using almost all my free time on it after work or weekends as long as it gives me more dopamine than any other non-planned activity.
+
+--- [U170] ---
+What if I have two instances of v2 planner open? One with the imported v1 for tracking purposes, and the second as my working clean copy?
+
+--- [U172] ---
+I don't want to do software engineering work on v1 anymore. And the data model divergence is intentional between v2 with v1 data and clean v2 because subjects need consolidation and new ones created. I don't want to do this in place, I want it separated. Give an analysis and also point out gaps in understanding for me to clarify
+
+--- [U174] ---
+What are the pros and cons of loading both into the same database but having separate windows?
+
+Clean doesn't have anything right now but if helpful you can suggest
+
+Also I'm not sure how to decide where to break up plot points. If the old ones cover too much in one plot point then that's not transferable. My old methodology was just data capture. I didn't put too much thoughts into stakes or outcome. I didn't think that far, I was mostly in expansion mode
+
+Planning for old material to not be deleted but at least moved to confirmed track to show I included everything in the clean version. But I'm considering moving or copy paste prose fragments that are decent.
+
+I don't know the consolidations yet
+
+Not sure how to handle links if plot points aren't one to one
+
+Give analysis and declare gaps for me to clarify
+
+--- [U176] ---
+I think I really need to drill down on what makes a plot point a plot point. Please analyze from first principles given what we've already built with subjects and plot point subject links which are meant for calibrating thematic proposition evidence and reader experience and separating page, world inference and theme proposition evidence.
+
+Are plot points about page level planning then? What else? I think I previously used it for summary to revise later. Originally "plot point" was going to be a single note then somehow it became scene level. Also analyze existing examples of v1 notes to understand what actually went into these and how I can approach in v2. Ask clarifying questions instead of assuming
+
+--- [U178] ---
+"griffon magic" was a placeholder for a plan to uncover griffon magic through a new character but that character wasn't invented yet. "Why didn't Chrysalis invent a magic rifle?" I can see being a flagged chapter note to make sure to include the question somewhere. 
+
+Chapters I imagine are units of publishing with an arc that the chapter name alludes to. Sometimes they grew big enough to be split into chapters. But they aren't arbitrary plot point groups or single scenes
+
+Where one plot point ended and another began in v1 can come down to: scene break, time skip, character change. But there were also extended sequences in time but plot into different plot points when the vibe changed. There was no method to this. That's why I need to derive a helpful method that informs the page prose from first principles moving forward, as was done rigorously for subjects and plotpointsubjectlink
+
+What I meant by "originally a single note" I was refering to a time when the whole planner was just chapters and threads meant to intersect at one sentence summaries. The planner grew beyond that era
+
+--- [U180] ---
+Maybe I need a parallel data track for a chapter, of raw capture beats and plans and prose fragments, separate from refined plot points that need stakes and outcome and reader understanding target? which allows me to not have to edit gardened text in place when it is time to determine these things. Or would this just create more mess to have different data structures?
+The key thing is that I am not in a position to pencil in stakes or outcome because I haven't even finished expanding the world. There were times when i drafted entire dialogue, and it got invalidated a month later as I shifted the foundation of the story. But I still need a place to capture clever insights that would go on the page and the plot structure like a general idea of what happens when and what informs what (otherwise there would be no story, just a vast wiki of lore)
+Also note that in my old v1 workflow I would sometimes make plot points with no chapter; they were floating. They captured something I felt should reach the reader, often with links to subjects. Perhaps they are also sometimes acting as containers for cross subject things that reach the reader. But these floating plot points are a minority.
+If two links that talk about different outcomes shouldn't share a plot point, does that mean if any links converge on a plot point, they should each be serving as evidence for the same thematic proposition? Is that how I make plot points coherent and make a powerful reader experience? If so, would this be a HARD rule or a soft rule?
+If so, then I can't be using the paradigm that links have to link a subject and a plot point. If the links need to be defined first, and then links of the same theme can be put together.
+Some of my existing "plot points" have huge delivery sequences and 6+ subjects connecting to them in v1. What if this is correct, that I have a bucket where the subjects land with links in a general area, then when it's time for refinement, I examine all the links that pertain to the same theme and then make individual scenes and decide how to order them so that each theme stays together, leading to a more "powerful" page for the reader?
+Vibe changes may have been differences in theme. But they may have also been just different chunks of plot. That's why I said "vibe" - it's not well defined.
+In Chapters 10 to 12 it is specifically a back and forth interweaving of Twilight's plot and Applejack's plot, separated by letters. This is the most complicated part of the story and not fully ordered. The rest of the story is mostly single threaded.
+Please elaborate on reader understanding target from first principles; what it ought to be. I haven't given it much thought until now. And suggest alternative nomenclature options so I can pick what is most intuitive. Ask for clarification on gaps in understanding instead of assuming.
+
+--- [U182] ---
+I'm wondering: the subject and plot point subject link setup is now heavily revolving around reader inference design for evidence of thematic propositions, but at the plot point level's reader experience, themes aren't the only thing, right? Readers don't only care about meaning. They also care about getting questions answered, questions that the story makes them form. Is this orthogonal to theme evidence as a part of the story that needs designing? And stakes/outcome/reader understanding target encompasses both themes and "questions"/"thinks that make the reader want to read more"?
+It seems like separate entity types are better because in-place fixing to make things more structured sounds painful and not productive.
+Is it possible for themes to be unrelated? It doesn't seem like that is possible if the story has a coherent direction. It seems like all my current themes are complementary and that's sort of the point.
+I do imagine Twilight's narrative about magical engineering and Applejack's narrative about Tzinacatl diplomacy are two sides of the same time, both demonstrations of them working towards the ideals of the eventual Equestrian Republic, across chapters 10-12, and it's all seeded by the town hall in chapter 9.
+
+The pasted in scenes 9.15 to 9.19 of unrefined and unsorted/undisciplined notes is going to be one continuous narrative without scene breaks. I don't know how I separated them and it may not be optimal, but I did something based on "vibes".
+
+9.20 is a "mega bucket" which is one continuous scene which covers a lot of themes and beats I guess, and maybe this should be split into specific points within the deep conversation between Applejack and Twilight each with individual stakes and outcome? Not sure how this would work.
+
+9.21 and 9.22 are probably representative of well-scoped scenes? With a clear stakes and outcome?
+
+Give analysis and ask for info to clear gaps instead of assuming
+
+--- [U184] ---
+I have pasted in 9.15 to 9.22. Do the previously specified analysis.
+
+My notes as they are is at such high and unrefined, macro level that I can't think about stakes or outcome or specific reader takeaways because they can get invalidated by new fundamental shifts.
+I'm intrigued by how the subject tracks are wide spanning plans and ideally the sum of link tracks can equal the subject tracks. What if chapters are considered in a similar way? The chapter holds the broad beats and plan. This can be refined and arranged. But chapter is still too broad. A subject can have impactful links within a chapter two or more times.
+Currently a chapter holds plot points with no payload on that connection.
+The original most naive version of story planner was just chapters, plot points, and "story threads", where plot points would be a single sentence describing a scene. Chapters had an outline made up of one sentence plot points and story threads would latch onto the plot points across chapters. If the story threads evolved into rigorous, track-separated notes on Subjects with links with extensive and specific payloads, maybe chapters should be the same? Subject links to plot points are design specs for thematic proposition evidence. Chapter links to plot points are design specs for the storytelling and page stuff? The surface level plans and specs?
+Also I'm not even sure how permanent each of the notes in the plot points are. They could become invalidated or need heavy rearranging.
+Maybe unlike Subjects we really need to design in a two step process and the desired data structures, or at least the UI presentation of the data, must be tailored? I want to minimize thinking hard about stuff that could become obsolete, and also not losing material that could be good. The way I see it, I'm creating a lot of material, but not everything will make it. And I want to expand the material more but have at least some structure to not shoot myself in the foot later.
+I've came up with this elegant subject plot point link system but there seems to be a chicken and egg problem 
+Or maybe I should make the plot points from memory, properly scoped?
+Give analysis and ask for gaps instead of assuming
+
+--- [U186] ---
+Ok, so the v2 ending entities, whatever we call them, which inform prose writing should actually be big, but separated by detailed and split track links? Or should they be granular? Maybe the large size and volume of text isn't a liability once structured?
+
+--- [U188] ---
+[Attached file: Chapter 1 - Attitude and Pizzazz.pdf]
+
+
+
+I am uploading a PDF of a chapter of actual prose I wrote for an MLP story about Rarity and Fluttershy called Green Is Your Color (not Equestria at War, just regular FiM) about a year and a half ago. Split this up into sample plot points using the principles outlined and specify the stakes, outcome, reader understanding (note that the POV might not be very strict or intentional from my writing back then, that's an area I aim to improve, but you can point this out too). This should hopefully give me a sense of what scope to define plot points in my v2 story planner for The Lioness of Tall Tale. This chapter in particular is somewhat of a deepening of the canon episode Green Isn't Your Color from Season 1.
+
+--- [U190] ---
+[Attached file: Chapter 2 - The Return of Flutterguy.pdf]
+
+
+
+One correction, the chapter 1 word count is 5717, not 300, so it seems like plot point scope can be bigger than initial projections. I think if a "plot point" is indeed this scope, it wouldn't be too hard to define them ahead of time. Please analyze chapter 2 of the story for plot point scoping analysis and POV analysis. This chapter 2 is based on the canon season 4 episode Filli Vanilli but I reimagined it as taking place after Green Isn't Your Color from chapter 1. Also incorporate into your analysis what you know about that canon episode and research audience perceptions of it. Part of the reader experience is also reader expectation being subverted with new info (The La track and themes arising from updating prior belief as discussed earlier in this conversation or the compacted transcript of this conversation)
+
+--- [U192] ---
+[Attached file: Chapter 3 - Haute Couture, Please.pdf]
+
+
+
+To be clear, the [hr] tags represent line breaks. I believe hiding from rainbow and refuge at Rarity's have to be different scenes. Hiding from Rainbow has a different stakes and outcome, from refuge at Rarity's, I think. But in TLTT I probably won't have scenes that short with short line breaks because I'll be planning ahead. This story didn't really have that kind of planning or trimming.
+
+I can kind of see how the running and the confession, despite being two different action sequences, are an integrated reader experience.
+
+I think TLTT I will have an easier time sticking to third person limited with planning; this story was tougher because the conflicts are kind of more interpersonal rather than external. Although that isn't exactly true, I think both TLTT and this story can be similar. But the main difference is less reliance on deliberate POV switching for irony.
+
+And I'm seeing how, even before encountering EaW, planning TLTT, and was only limited to just canon FiM, I already was obesessed with "reader prior belief correction" and subversion as a storytelling power.
+
+Please analyze the above, and then apply the same kind of analysis to chapter 3, attached, which is based on the canon episode Suited For Success.
+
+--- [U194] ---
+[Attached file: Chapter 1 - Attitude and Pizzazz.pdf]
+
+
+
+I pasted instructions for more analysis and attached a PDF of chapter 4. Please thoroughly answer everything.
+
+--- [U196] ---
+[Attached file: Chapter 4 - The Best Garden Ever.pdf]
+
+
+
+Here is chapter 4, apply the same kinds of analysis
+
+--- [U198] ---
+I suppose chapter 4 has good FID because Fluttershy's emotions and interiority are uncontested for narration space. In chapter 1 there was sharing between Fluttershy and Rarity. Chapter 2 adds Pinkie Pie too. In TLTT I think it'll be more clear who to be the pov anchor since I'll have the story planner and the conflict is at a scale that is beyond interpersonal and internal stakes, even though the internal and interpersonal are also there. 
+
+What's interesting about the carriage scene that you flagged as "no thematic weight, it's a transition" is that it's actually planting multiple Latent data points which serve plot points about Twilight and Applejack later.
+
+Also please pay special attention to whether things you are analyzing are La (latent) or En (enacted, or emergent). Don't just say everything powerful is La. Use the distinctions developed in this conversation (or the transcript of it, if it is compressed)
+
+Now give a similar analysis of chapter 5 which is based on Lesson Zero.
+
+--- [U200] ---
+I think you didn't get access to the ending of the chapter due to truncation which has even more deep stuff between Fluttershy and Twilight, please analyze.
+
+I'm also realizing how I expanded the scope of the story which was originally just about RariShy shipping to also include materialist causality about Twilight (and Rainbow Dash with the sonic Rainboom, Pinkie in Filli Vanilli, and later chapter 8 has Applejack). These are coherent intertwining with the Fluttershy and Rarity arcs but separate threads but I think with common theme overlap which is why it works?
+
+In TLTT the scope expanded so much that I have prequels planned for side characters instead of putting everything in the main story.
+
+--- [U202] ---
+Here is my tentative workflow for populating v2:
+
+Write the display text for subject types
+Create the subjects and their project-wide tracks from memory after a quick scan of v1, following display questions
+Create the plot points as empty buckets, just to have a plan outline skeleton they subjects can link to, and to have the right scope. Analysis of my past written story prose gave a sense of appropriate scope for plot points
+Link subjects to plot points to have a skeleton 
+Audit subjects from v1, fill in stuff in v1 that was missed from memory
+Audit plot points from v1, put subject-appropriate stuff into subjects instead of in the plot point, evaluate delivery blueprint and keep what is still compatible as unset in delivery blueprint track, define stakes and outcome
+
+Then further expansion can proceed, using the new data set as clean context. New plot points can be made of genuinely separate from the existing skeleton.
+
+Give an analysis of this workflow, potential complications, viable alternatives, and ask for more info to clear gaps in understanding instead of assuming.
+
+--- [U204] ---
+Now I'm thinking the links should be created from me reading plot points (auditing them) then linking to the subject. Not provisional links with no data.
+
+Since GIYC revealed that plot points do have large scope of text, I don't need separate beat capture. Also since TLTT is only plans, not prose, the word count parallels aren't very meaningful. What I needed to learn is that it's okay for delivery blueprints to cover a lot of ground of it's one reader experience.
+
+AJ's v1 subject tracks don't really have plot point specific data. In v1, plot point synopses have subject level data or things that belong on tracks in links (separate of P, WI and T) but subject notes generally don't have much in plot point scope. It's more backstory and arc plans and theme relations, or also research directives to expand on something more.
+
+Plot point list won't come from memory, I'll scan v1 plot point lists in chapters and make a judgement 
+
+I expect 100 subjects and 400 plot points is my current scope. The text count is around 300k words. This is 5 months of story planning content sitting in v1.
+
+Either Gemini expansion or Claude for expansion to answer flagged questions. I plan on making subjects/links/plot points selectable for export with a UI for selecting, so that I don't have to send the whole 300k words which is 500k tokens. Gemini is hitting needle in haystack problems and Claude has usage limits (Gemini also just added usage limits, though AI studio may still be lenient).
+
+--- [U206] ---
+There are currently 32 chapters with nearly as much attention and detail as the chapter which I shared with you, 9-12. I don't think I should go chapter by chapter because everything in all chapters relate to and are designed on each other. If I spend a ton of effort on refinement of chapters 9-12, them discover big story planning shifts later, 9-12 need to be reworked. This is why expansion must finish before refinement starts anywhere. In order to finish expansion, i need to sort existing data into something workable and comprehensible first, but not refine it because everything could potentially be replaced.
+
+--- [U208] ---
+I can't just route v1 text to tracks in v2. I tried that and failed because v1 data is mixed cognitive mode and not able to be decoupled into focused tracks. That's why v2 data needs to be written from memory using the track questions.
+Currently the v1 mixed text gives some context for AI but uses way too many tokens and has ambiguity they leads to hallucination. And it is not helpful for a prose writer in this unorganized mode.
+I agree that organization comes first, expansion then refinement.
+Building the subject tracks from memory, separated by track, may be "refinement" but is not the same as refinement of the delivery blueprint (chapters and plot points).
+I won't signal that I am done with expansion until there are 0 flagged questions left. Currently there are 60 in v1, and probably 50+ more hidden in plot point text because only the subject notes in v1 supported the Boolean flag, not plot point text fields. In order to answer a flagged question, I need to ask AI for analysis about it, which requires context. I am hitting a wall where the analysis is degrading due to too much text context and tokens. That's why I need to organize, so I can be more selective about context. Doing analysis WILL create more flagged questions. I'm not in a rush to write. I don't care about timeline. I care about correctness and not doing things out of order that will make me redo things. I don't want to repeat myself.
+I want all the backstory and foundation concrete before I work on really making plot point deliveries and reader inference design. I want to map out where everything connects before hand. There is provisional blueprints of ideas I think might work which need a home too. That's what the plot point skeleton would be for. But these can be invalidated, which is why they must not be refined.
+Don't just use phase numbers, attach a descriptor to it for disambiguation.
+I want to make sure all text in v1 synopses that should be in v2 subject or link tracks makes it to their track. I want the working copy of v2 to have no track question violations. The archive version of v2 (imported v1 so that every text field can gave independent unset or confirmed for tracking, and v1 synopses were split into separate notes using double return carriage new line) is what ever mix of v1 was there and won't contaminate the future looking v2 database instance.
+Let's take a different approach on coming up with the workflow, rather than coming up with ideas, let's align on requirements, intent, goals, anything else relevant, and make all these things precise. What gaps in your understanding do you have that could inform the decision making logic and process for determining the workflow?
+
+--- [U210] ---
+The archive instance is already made. It is the same application as the v2 story planner. The v2 story planner has an archive mode. Right now the working copy is completely empty because I have not started it yet.
+
+The subject foundation and backstory tracks which I will write from memory using display questions are still only snapshots of the current state. Most will probably stay but can still change or be reworked if I discover a better way to handle that subject to serve the story and themes. So it's a provisional anchor that can shift. The reason I'm doing this is to get my subject data into an organized state so I can get better analysis from LLMs and have it serve a useful reference for writing links and then plot points and then prose.
+
+Arc and Reveal Plan can be empty. Even foundation or historical record can be not fully filled in to the max depth if that material hasn't been developed yet. I just want whatever exists scattered across v1 to make into a nice home (a specific track) in v2.
+
+A plot point bucket doesn't technically need anything. It could "not exist" if the plot wasn't conceived of yet. But whatever is scattered across v1 I want in a proper place in v2 so that it can potentially serve as context for questions/analysis/expansion that is based on it. When asking analysis questions, the data in plot points are relevant. Not having the data means worse answers.
+
+Provisional blueprints would come verbatim for v1 if they really are "provisional blueprints" as in they are dialogue, a sentence describing what a character does, an event taking place. They might not be mixed mode paragraphs that are too hard to untangle. The mixed mode paragraphs are more like, it's an event that happens, coupled with what the reader should feel about it in the same sentence, coupled with how it applies to a theme in the same paragraph. That is too hard to migrate. But if a sentence is just a plain line of provisional dialogue or a plain statement about what happens, it can be copied over into an unset track in a plot point in v2. So I guess not all v1 text is invalid for direct routing, only the text that is too tangled.
+
+"Map out where everything connects" means subject to plot point links in the working copy. I think the best way to do this during the data transmutation is when reading plot points, see if they already connected to a subject in v1, and if it's meaningful, I can make the link. This will usually be because the plot point link in v1 does have a text field. Also there can be stuff in the plot point synopsis that should belong in a v2 link instead of a v2 delivery blueprint, thus I want to make that link to the subject. But I will only be making links when text exists in v1 which deserves to be in a link. I won't be making new links for newly created text yet, only existing text that needs the proper home.
+
+The 60 flagged questions and extra hidden ones are all kinds of things. They need to be routed to appropriate tracks in v2. Questions to myself to research how to deliver and shape the writing, Need to do XYZ, plot ideas, world truths which I'm not sure fit and need a decision on whether to keep or delete or rework, facts with an "is this true?" added on, a note with "Does this work?" added on, contradictions that need to be resolved, plans for future plot. Prose writing does not start until all of these are resolved with something I am satisfied with. I think not even auditing or moving things to Confirmed can begin until all flagged notes are resolved with something I am satisfied with. Any note that is flagged has potential to change plans anywhere.
+
+I also have more notes not in v1 but just in my personal google keep, and more things to review in other Gemini and Claude chats.
+
+Here are my numbers from the v1 to v2 migration script: 34 chapters, 450 plot points, 226 subjects. Some subjects will be consolidated because in v1 I had, for example, an entry on Queen Chrysalis and another for how her backstory was uncovered and then another on her economic scheme. Some of the plot points are empty stubs besides the title. It could mean future work on filling it in, or it could mean it could be folded into another plot point. A minority of plot points have so much text with too much scope that it can be split, but this seems to be the exception, not the norm.
+
+I thought I needed all subjects filled in before I can continue expanding, but technically with selective export UI I don't. Since I won't be pasting in the whole context anyway anymore as that's ineffective and a waste of tokens. Before, things were frictionless when I was using Gemini in AI Studio's 1M token window to just put 500k tokens in. But the results are getting worse now. However, if I don't fill in the subjects in v2, I won't have possible context available for selection. That doesn't seem like a good idea.
+
+I still have to build the selective export UI. This shouldn't be too much work.
+
+Confirmed state on archive notes requires the note to be fully evaluated to make sure everything in its text and its implications exists somewhere in v2, if applicable. If the note was invalidated by more recent world building then it can be put in Confirmed without text reaching v2. Once everything is Confirmed to be evaluated for inclusion in v2, the archive will be retired because now v2 is the master database with everything organized. During subject building from memory, which happens before evaluating v1 for inclusion, I would consult v1 briefly, then minimize it and write into the pristine v2 tracks.
+
+All subjects should be built to a rigorous standard so that revision later is minimized.
+
+I think plot points can be added progressively as expansion reaches those areas. The main story has 32 chapters with pretty clear arcs planned. The prequels don't have clear arcs planned, just a somewhat stable idea of what the focal characters' backstories are chronologically.
+
+--- [U212] ---
+Clarification: every flagged note in v2 working copy has to be resolved before anything in v2 working copy can move to confirmed. For the archive moving to confirmed, the note's text just needs to evaluated that all of its statements and nuances/subtext made it into v2. Flagged notes in the archive become flagged notes in v2.
+
+Tangled v1 paragraphs have to evaluated: I need to dissect the nuance of the text and put the insights into the appropriate tracks. This is too hard working from a blank slate, which is why the tracks should be prepopulated from memory as a starting point before trying to evaluate v1 tangled paragraphs.
+
+Consolidation doesn't happen before subject building begins because the text data is not disciplined. The judgement should be made on the fly.
+
+Many Google Keep and AI chat notes DO contradict data in v1. But I have to start somewhere. If I remember that v1 data is outdated from undocumented data, then I'll skip or put flagged notes. This seems to suggest that the google keep and AI chat note entry into v2 should come before the v1 evaluation pass that moves notes to Confirmed in the archive to mean included. The biggest example is a chat where I decided EEEE! is a machinist's guild, not a combative union. So when I encounter notes in v1 about EEEE! being a union, I would not put it in v2.
+
+Hidden flagged notes in plot point text can become flagged in the v2 plot point with a flag question. Flagged notes and reasons absolutely accumulate in v2. Flags should not go to the archive. But crucially, the flag question is a property of a note in v2's design, not a separate note. Thus the owning note can belong to the correct track, which maintains rigorous sanitation. Flagged notes also appear in a different section of the UI as unset notes.
+
+Rigorous standard means no cognitive mixing. What's on the page stays separate from what the reader should infer. It doesn't mean content completeness. It can have flagged notes.
+
+I want to get some subjects into v2 so that I can test the selective export with some real data. Also I've done a lot of software engineering work on the v2 application and want to defer the export so I can do author-related tasks instead of software-related tasks for the short term.
+
+--- [U214] ---
+All 5 facts in the Updated Understanding are correct and aligned.
+
+My usual workflow back in v1 times would involve starting a conversation by pasting in the entire context, asking a question that was a flagged question, getting an answer, and then iterating until I like the result. Then I would read the conversation in reverse and add what I like into v1. I pick what insights I like and leave behind what I didn't like. There are probably 20+ full conversations that I have to read through and add the insights that I like into v2's appropriate tracks. But I think I need to start with subjects from memory first so that there's a starting point.
+
+The tangled plot point should have all things that belong on subject tracks or subject plot point link tracks go to those. The rest can go to appropriate tracks on the plot point; I will have appropriate display questions. No tangled paragraphs whatsoever should enter v2; v2 must have notes in appropriate tracks. I think this makes sense; I previously included "Unset" as a track in v2 to import old notes, but now I think those old notes stay in archive as mixed and never enter v2.
+
+Highest priority subjects first
+
+--- [U216] ---
+I had a "CognitiveMode" enum which each note track should have one value. I'm wondering if I should update or scrap this concept. Currently it is serving as the background color for the track.
+
+The original values were: InUniverseContent, ReaderExperienceDesign, NotesToSelf, Analogical, LinguistingExecution. And I recently appended on Page and WorldInference.
+
+Review where these came from throughout the conversation and the artifacts, and determine if they are obsolete or should be modified to fit the new design. What purpose would they serve?
+
+I am currently using the EditorModes like Expansion, Linking and Gardener to toggle the display text between DisplayQuestion, UsageDirective
+
+--- [U218] ---
+I'm thinking each of these cognitive modes should be accompanied by a description, both on the UI for me to read as a reminder and to be part of the ai llm context export to signify what the notes are for.
+
+So PageDesign would say "These notes are written by a Director staging what readers should observe." WorldInference would say "These notes are written by a Reader Psychologist designing what the reader constructs from evidence."
+
+Therefore, I think WorldTruth needs to be broken up into the layer 1/2/3 splits to accomodate the different Physicist/Historian/Psychologist stances required to author and analyze that track. This is where differentiation between subject types like Character and WorldLaw and PoliticalSystem and Bond come in.
+
+I believe Metatextual (which I renamed to NotesToSelf to be more intuitive) is limited in scope for specifically talking about the project. Analogical is different, it's connecting the project to the real world. Neither of them reach the page.
+
+--- [U220] ---
+I don't think Foundation and Historical Record are a one size fit all presciption for subject types. For Technology and Political System I was considering tracks like History, How it works, and then Why it was created which is psychologist or economist or sociologist.
+
+I would like a deconstruction of the "Physicist" cognitive mode into first principles based on what could appear, and then from the total, maixmal first principles list of cognitive modes I can decide which one apply to subject types.
+
+--- [U222] ---
+What are the pros and cons of declaring these 8 cognitive modes to be mutually exclusive, requiring different tracks, or if some can be combined in a track, but the track still clearly labels what two things are operating and that it's not to be a mix of all 8? Are there natural overlaps, are overlaps productive or shooting myself in the foot? Why or why not? Because it seems like political scientist and economist and sociologist have overlap regarding political systems and potentially others. Should these lenses be mixed in a track or does that create problems? From the perspective specifically of a world builder/project manager/writer; that is to say, my specific project's purposes. Please ask clarifying questions for gaps instead of assuming.
+
+--- [U224] ---
+I think when Claude initially diagnosed "notes need to become typed claims and separate tracks" this was a correct diagnosis of history, psychology, reader inference and what's on page and stuff like that needing separation, but upon looking deeply at the nuances, I think political and economic separation is too far. These do belong in one track for things like Harmonic Capitalism because they are designed together for worldbuilding and story telling. So I think things need to be framed in terms of authorship/storytelling/story planning. Psychology is very special, specifically individual character psychology, because that is load bearing. History/backstory is separate. Physicist (the magical systems that are made up for the story) is separate. Then stuff like economy, political, sociology, anthropology needs a good umbrella term distinct from the other three pillars. They belong in the same pillar because they serve the same worldbuilding/storytelling purpose, I think. I also need a precise term for the "Physicist" considering I am making subject entities for world laws that I am creating for the story/world, such as "Earth Pony Magic". I'm not making subject entities for world laws that exist in real life like "haber-bosch process" or "nitrocellulose gunpowder" or "how oil is formed". I guess Ontology is what I'm creating for the world, so maybe ontologist? Or fantasy system builder? Don't know if these are too specific.
+
+With this insight in mind, I don't think the LLM should receive economic and political analysis separately. They seem to be part of the same worldbuilding pillar - separate from backstory and character psychology and immutable world physics that were created. These are things created by characters, kind of like technology too. And technology doesn't have entries for things that already exist in WW2-era tech; I am making entries for magical/original stuff for TLTT (and since I made them, they serve a storytelling and probably a thematic purpose, hence get a subject entry).
+
+When imagining a scene with a political system, an integrated account of both power analysis and incentive analysis is probably what is most helpful and meaningful for the author and reader. Similar answer for whatever happens with technology.
+
+--- [U226] ---
+I made the tracks for Character and started going through but realized some character notes really should be links. So now I think I need to make the plot points first but leave them empty so that links can be made. Currently I'm flagging them in the v1 archive with a flag note of where I think it should land.
+
+I want to minimize double work. I am okay with the process of migration and sanitation being long, but I want the process to be optimized.
+
+--- [U228] ---
+The scene specific content comes out of a tangled paragraph. For example: 974 - Coltbert stopped Gisele's abuse by saying cruelty is uncouth. He used manners as a weapon. He offers a proper affair but she has to ask nicely; she throws him out. The other griffonesses brag to Gisele, showing off their trophy shelves (tableau de chasse). Gisele asks Minette to make a nice suit for Coltbert. Coltbert asks Minette if the Gisele made it, Minette lies for Gisele under pressure but Coltbert asks for the truth, saying it would be a shame if Gisele is lying, and Gisele admits that Minette made it. Then Coltbert says have your servant teach you how to make the suit, then he'll accept it. So Minette spends days teaching Gisele how to make the suit, and the other servants are totally left alone. Minette is fascinated at how Coltbert forced her to negotiate by calling her a brute. She helps Lady Gisele fill out her tableau de chasse (trophy shelf) to compete with the other noble griffonesses.
+
+This old note on Minette is partly history for her, but the specific line "He used manners as a weapon" isn't a Minette note at all, it's a Coltbert note for whatever plot point is the dramatization of this summary in Minette's prequel, and that line implies a WI and T (I can feel it in the subtext) that I haven't written out but eventually should. I never made plot points for Minette's prequel, but it seems like I should in order for the Coltbert insight to be properly categorized in a way that is useful going forward.
+
+--- [U230] ---
+The thing is, I used Minette's character entry in v1 as essentially a dumping ground for plans for her prequel. Yes, "he uses manners as a weapon" is part of Coltbert's foundation, but it's ALSO present in this specific event. If I don't create a home for that fact in v2 by making a plot point in Minette's prequel, that insight, to invoke Coltbert using manners as a weapon in that specific scene is Lost. Right now it is implied because his psychological foundation is mentioned alongside the tangled scene. This seems to mean the text can't just be moved somewhere, it really needs a proper home in order to preserve the insights.
+
+I don't intend on writing out the WI and T during transmutation. The empty fields on the link would signify future work required.
+
+Prequel content is probably not that common. I looked at Minette because she would be complex. Now I'm thinking to defer her. But maybe it's better in the long term to consider her now. I don't want to do double work (some is inevitable, but optimizing work order is preferred), and I don't want to lose insights.
+
+Vague scene references I probably would just flag. Some "link content" my head goes straight to where I think it should belong, hence why I think those links need to be made on the spot to avoid double work. I think I can do the plot point skeleton for the main story now, not sure about prequels. They do have some sort of outline.
+
+--- [U232] ---
+Should there be some overlap between character's psychology track and history track? Because their psychology is caused by the history. How do I keep the tracks clean such that they are useful, but still have the necessary insights? It's starting to seem like these are not mutually exclusive tracks but rather the psychology/characterization builds on the history.
+
+--- [U234] ---
+Here is an example of a v1 note:
+
+Crystal ponies have emotion sense just like changelings. When they crystalize, it's a visual indicator of caloric surplus and charitostatic magic. Crystals are stored magic, so the transparent crystalization effect is stored friendship.  Adjacent to how thymodynamic magic from windigos are stored in crystals
+Example from the canon episode: the crystal ponies literally get color back to their dull coats after hearing about the crystal faire
+The big blast at the crystal faire makes even non crystal ponies get the crystalization effect
+
+What track should the "example from the canon episode" go into? World truth ontology? Analogical? Should a new kind of track be defined?
+
+--- [U236] ---
+Is there overlap with the reader opinion plan where I'm outlining how the reader's understanding updates, starting with tropes or preexisting material? Or this is something a bit different, where if they watch the canon show again after reading my story, they might view the show differently? It's similar to the reader prior belief clash but applied to the show itself which already existed and how my worldbuilding affects the interpretation of the show? Since a lot of my world building works within the constraints of the hasbro mandates to recontextualize them.
+
+--- [U238] ---
+I'm thinking canon recontextualization doesn't need to be designed. It happens to a reader based on my ontology and reveals. This track doesn't seem to impact the design of my story.
+
+And what is the purpose of source evidence for design of my story, if any?
+
+--- [U240] ---
+It really feels like inspiration from real world (analogical) and inspiration from source material warrant a separation. Maybe their usage for design overlaps, but still they feel distinct. The thing is, source material is also fantasy like TLTT, not real world analogies.
+
+Are there any other important points that could warrant the distinction? Why do they feel distinct?
+
+--- [U242] ---
+The "Stagnation of Harmony" concept recontextualizes the canon show not as a utopia, but as a Nursery.
+    The Nursery: A nursery is safe, soft, and innocent. But you cannot stay in a nursery forever. The Changeling invasion kicked down the door.
+    The Trauma of Puberty: The war acts as a metaphor for the nation hitting puberty. They discover sex (Aquileian influence), violence (The Front), and independence (The Republic).
+    Celestia as the Overprotective Mother: Her attempt to "White Peace" the conflict is a parent trying to shove the grown child back into the crib. Applejack’s refusal ("I am the Lioness") is the moment the child moves out. It is painful, but necessary.
+
+I'm really not sure how to decouple and categorize the above notes. What are they saying? What story planning/design purpose do they serve? Are they too broad? Already implied? Is there a home for them?
+
+--- [U244] ---
+What order should v1 plot points be evaluated to populate v2? I want the possible logic for making this decision. I am hesitant to go in chapter order because early chapters actually feel less developed because I wanted the big picture before seeing the early chapters with things with payoff later. I'm wondering if plot points that are immovably load bearing would go first as anchors? Like the Town Hall which lays out the thesis. But the Stagnation chapter which is a big turning point is a disorganized mess and could get stuff added to it or cut still.
+
+--- [U246] ---
+[Attached file: TLTT v2-definitions.md]
+
+
+
+Here are the tracks I came up with. Give an analysis, comparing to the principles established throughout this conversation. What is working well? What could be meaningfully improved, if any? Are there any significant gaps?
+
+--- [U248] ---
+I am going ahead with "What should the reader independently conclude from this scene? Synthesize the thematic propositions evidenced by all subject links." Now I want a better track name than "reader experience target".
+
+Do I need a different track type for the project-wide plans? Should I have one? The track itself doesn't go on the page. It's an aggregate. It's a planning reference which only I see, not the reader. (Though the reader can construct it themself if they are really invested)
+
+POV field will exist independent of note tracks and will be required.
+
+I imagine delivery blueprint and inference seeds are separate. Delivery blueprint is dry, omniscient summary or sample prose. Inference seeds contain sample phrases. Me as a writer later would read both when writing prose.
+
+I'm not really sure how analogies on a bond would work, but I agree source material references for fanon TwiJack is warranted, and also canon events that are shipping fuel. But I need to know how to distinguish from Twilight's source material references and Applejack's source material references.
+
+What subjects are missing meaningful tracks that a different track has?
+
+I think the project-wide character development track is supposed to be an authorial plan. This goes back to needing a separate track type for these project wide plans. This is an aggregate of what goes on the page. Like I mentioned before, I believe an invested reader should be able to assemble something that resembles my plan.
+
+--- [U250] ---
+What should be the separate track type name for the source material reference track, if it is to be separated from allegories?
+
+I feel like there is something special about characters, who are the ones we experience the story through, that warrants a separate track for themes about character development. And maybe this track is specifically for when the character is the POV character? Because being the POV character leads to especially distinct and powerful thematic proposition evidence? Hence why I am bothering to write prequels for other characters. And in TLTT, the POV is not just Applejack and Twilight, it goes to other mane 6 members (Rarity, Fluttershy, Rainbow Dash and Pinkie Pie) and also their friends/mentors in very specific moments meant for character development (when Mali decides to take action to change the world instead of accepting others' flaws/inaction passively as one example)
+
+Meanwhile, the rest of the subjects are kind of like constructs that can be discarded. The dismantling of an organization or civilizational system is intertwined with what the reader infers from the page so that's why there's one track. But characters are different because they can't just be discarded/dismantled and they are the storytellers.
+
+Please give a precise analysis on these insights
+
+--- [U252] ---
+No wonder the first conversation (character reader perception gap, do you have a summary?) felt foreign and overwhelming. It was the deepest possible track, skipping over all these other "lower level" or more fundamental tracks that are foundational storytelling. I had to walk (getting the basic tracks) before I could run (finally understand the reader character perception gap from the first conversation) and this was the advanced method I didn't really understand. I understood the reader prior belief clash implicitly from learning from Lauren Faust and writing green is your color and it's all over my TLTT story plans. I didn't understand the reader character perception gap intrinsically because I didn't understand 3rd person limited. I was using third person (omniscient) mainly for paralipsis, to withhold reader knowledge until the moment a revelation could clash against prior beliefs. This seemed incompatible with fid. Now I know I can use fid for character reader perception gap and paralipsis for the prior belief clash setups, and they both can be achieved via INTENTIONAL variable focalization. The theme tracks were the planning mechanism to make these third person limited choices intentional.
+
+It also seems like the old advice conflated the menu different ways to deliver themes and take notes
+
+How does the reader-character perception gap contrast with the reader prior belief clash? These are both distinct from the P/WI/T pipeline? The P/WI/T pipeline is the default, available in omniscient? Then reader prior belief clash is enabled by fanfiction or just rubbing up against general media tropes, requiring paralipsis/variable focalization, and the reader character perception gap is from third person limited, requiring FID?
+
+Derive the taxonomy of the escalating levels of sophistication starting from Three Little Pigs (simplest children's story) and up the levels of literature until reaching my current level of operation
+
+For characters who are observed, they keep the same theme track that the constructs have, the witness/infer/theme evidence pipeline? Plus the reader prior belief clash as mode 2? Should infer actually have theme evidence or it should be separate? They seem to be collapsing, I am not sure, need example from AJ
+
+What makes my current system "correct" or not? The old advice they was naive or "dress reckoning" without iteration was deficient, but how do I know this system is not deficient, or at least, not too deficient that I'll need to do another rework?
+
+--- [U254] ---
+Is the character reader perception gap well studied? From Robert McGee or someone else? What about the reader prior belief clash? I determined I got this partially from how Lauren Faust worked against common tropes and subverted the Hasbro Mandate of a toy commercial 
+
+Also go into more detail about how these two things deliver theme evidence separately, and how it contrasts with the the standard P/WI/T
+
+For my WI vs T distinction, currently T is worded as what evidence the subject provides for the thematic proposition in the scene. The theme itself is a property of the note. Would the T note be explaining how the evidence is evidence for the selected theme? And the evidence itself is in WI?
+
+--- [U256] ---
+I am pretty sure that Lauren Faust has said in interviews that she had MLP G1 toys as a kid and made up personalities for them because the G1 shows weren't satisfying enough (maybe there's an exception for Rescue at Midnight Castle which was a spark of what was possible? Her online username is fire_flye based on what I think was Firefly the protectionist of that first animated movie?)
+
+If so, Faust's G4 would be akin to an elaborate "fanfiction" of a very old and Stagnant IP. And it got funded by the IP holder, then control taken away. It seems like the category is a bit more broad than fanfiction but shares a fundamental mechanism. I also think The Little Mermaid does this partly, and Mulan fully. Also Frozen! Maybe Tangled, although I haven't watched it? And Shrek? The Princess Bride? Monty Python?
+
+Seems like there is some overlap with satire but satire isn't genuine the way Friendship is Magic or Mulan are.
+
+--- [U258] ---
+I think the reader character perception gap is relatively low applicability in TLTT itself, and prior belief clash is more relevant, but in specifically Chrysalis's prequel-sequel which is read after TLTT, structured as a greek tragedy where the reader already knows her machine is flawed but inhabit Chrysalis as a competent narcissist rational CEO who built the system and her justifications and grievances against the old nobility, this is where the reader character perception gap is used to maximum potential.
+
+Should WI track for the standard P/WI/T rational evidence for attentive witness be separated from a distinct WI track for reader prior belief clash? Where the P is the update, the WI states what the expected prior is and the desired update, and the T has how that update acts as evidence for a theme?
+
+It seems like Sincere Revision is a relatively new possibility due to mass media in the last 50-80 years? Also maybe commercialization? And the flattening of media for the masses? Is it specifically that or more general?
+
+I encountered Faust's MLP:FiM in November 2023 with its strong prior belief clash mechanisms, but I think my first encounter with it goes all the way back to April 2014 when I read a pokemon fanfiction called Silver, in a particular scene where the female lead, Eve, unexpectedly is a strong battler while Silver (the male Eevee lead) had spent 13 chapters prior trying to protect Eve as they escaped captivity. The author hid Eve's battling prowess for 13 chapters. As a teenage boy, this taught me that I didn't have to be a loud breadwinner who has to carry all responsibility. This story is what got me into reading and writing pokemon fanfiction for 9 years, leading to FiM and writing Green Is Your Color and now planning TLTT. I have pasted in the inspiring chapter in question. Could a pursuit of these reader prior belief clashes be what mainly draws me towards fanfiction? It's outside publication constraints and commercial constraints.
+
+--- [U260] ---
+The WI+En and WI+La tracks are separated for characters, but not for the other subjects. I'm wondering if they should be separated. And also, characters have been revealed to have three tracks: witness, prior belief clash, and narrator perception gap. Do these all need to be in separate tracks on Character Plot Point Link? Or, does narrator perception gap go only on plot point? Maybe it does have a home on character link too? Character link enables auditing with subject. Maybe it's intertwined with character arc?
+
+I'm still confused about what should actually go into WI+La versus T+La for prior belief clash. Give an example for the following: the characters in TLTT believe the Stagnation of Harmony was a system Celestia put in place for 1000 years to keep the ponies in a nursery and maintain pacified harmony. Then at the white peace chapter, Celestia tells Applejack it was only 80 years ago that the current policies were put in place as a response to ponies adopting griffon industry (like the Gilded Age) and the ambition turned inward to harm others, which is why ponies at the time petitioned Celestia to ban griffon-style industry. Before 80 years ago, ambitious ponies would be directed to the edge of the Everfree Forest to tame it and settle more land (this is the canonical recount that Granny Smith gives of the founding of Ponyville in the canon episode Family Appreciation Day).
+
+--- [U262] ---
+uninhabited note tracks should stack on the side instead of be on full display
+How about if plot points need to pick a POV character, and if that POV character ID matches a link's subject, then and only then the narrator gap WI track is displayed on the story planner UI? Because there is something special about the POV character versus the other characters who the POV character is observing. Observed characters can do La revelation and En actions. The POV character additionally has special power. What is it precisely? What are the pros and cons of this conditional approach? Is it overkill or helpful?
+Does the WI+La note need to restate the thing that is clashing when the P+La note has that fact already? So the WI+La note can just say the prior belief and how the reader's belief is being updated in response to the content in P+La? Thus the note holds prior belief and the reader's new inferred understanding of the story world. Then T+La specifies how that update serves as thematic proposition evidence. This will be about how the reader was once wrong and now thinks differently? Like how I updated my beliefs after reading Eve use Giga Impact on a Houndour after 13 chapters of being protected?
+Also I believe Granny Smith's founding of Ponyville story in Family Appreciation Day was Lauren Faust reaching for something. TLTT expands on it by recontextualizing it as the pre-stagnation era. Thus fulfilling more of FiM's potential. It is "sincere revision". But I'm not sure exactly whether this is source material reference/recontextualization, reader prior belief gap, or both? How are the two intertwined and how are they not intertwined?
+
+--- [U264] ---
+[Attached file: All Applejack data.md]
+
+
+
+So in standard storytelling (En): reader observes and rationally arrives at the evidence of the argument.
+In prior belief clash (La): reader observes disclosure on page, then experiences a clash and update of their OWN understanding.
+In narrator perception gap: reader experiences the character's earnest belief. This clashes with their structural understanding.
+Are these correct?
+
+I am attaching my v1 data for Applejack: her character notes and all plot points which she had a link to in the v1 story planner. Please give a few examples of each complete mechanism coming from these v1 notes instead of always repeating the "AJ at the machine gun is hiding" example to make sure I'm not overfitting to it (is that example even in the v1 text? If it is, is it actually that important compared to the rest of the notes?)
+
+--- [U266] ---
+Now give examples of the mechanisms from this passage from Pax Chrysalia written by Brazen Gauge. This is a fanfiction of EaW that takes the opposite direction of TLTT: in Pax Chrysalia, Chrysalis appears as a narcissist but is actually a harmonist where the arbitrary cruelty is a mask. The changelings defeated Equestria and now Chrysalis has to reign in the predators of her own race because she wants a meritocracy of both changelings and ponies. This passage is specifically of Vaspier, the leader of VOPS, who is a changeling supremacist. The chapter depicts him through FID as genuinely feeling right, while the reader holds the structural context that he's both a monster and also totally outgunned by Chrysalis's supporters, due to the earlier Chrysalis POV chapters. And I guess it shows the earnest mindset of something akin to a 1950s breadwinner father who "owns" his wife and children? Or some feudal lord with a birthright?
+
+--- [U268] ---
+[Attached file: TLTT v2-definitions.md]
+
+
+
+Can the prior belief clash come from both revelation and enacted events -> inference?
+Similarly, for tech or civ system, reader can infer ontology/how it works from revelation about history on page, not just seeing it in action on page. Same for characters, readers can infer their characterization from actions on page or disclosed backstory on page
+So the the "La inference and theme" are not strictly from "La reveal" aka backstory. Same for the standard "witnessed action, rational inference, argument evidence" pipeline. Rational inference and argument evidence can come from backstory or history reveal too.
+
+I am attaching the current state of my track definitions for analysis
+
+--- [U270] ---
+I'm not sure what is the scope of things that go into garden notes considering I have flag reasons for things that need more planning across any track. Please review this claude chat conversation history to find what should end up in garden notes and where the track came from.
+
+What is the difference between allegories and analogies, from first principles? Which should I use, or if there is a genuine difference, should both exist? Why or why not?
+
+I believe all the non character tracks for links now have the full separation of tracks covering Page, World Inference, Theme evidence, and across both standard witnessing/rational inference and the reader prior belief clash where the reader themself is involved. I haven't revised character yet because of the extra nuance that was discussed in this conversation. Please review it. Character tracks need those tracks that the others have, and in addition needs the two extra tracks for the next separate mechanism about character reader perception gap? Inference and Theme, and note that it's a continuous mechanism. But not any other need for more Page tracks? Also I am wondering if the character link and subject tracks currently conflate things that are needed for character reader perception gap with things for the standard rational witness inference and the reader prior belief update/clash?
+
+Please analyze, from first principles (ignoring what is currently in the character tracks) whether the baseline is established across the other subjects, and then whether that baseline should be deployed properly for character, and then additional character stuff added, potentially only visible if the plot point that is being linked to has that specific character as the POV character. Once the first principles of what should be there are established logically, then compare those first principles with what is currently in the character tracks, and identify current standing differences, how to rectify, and why.
+
+--- [U272] ---
+I see. Character link has 8 tracks whereas other subjects have 6. And then on top of that, there are the two POV specific tracks for a total of 10. For a long time, in the beginning part of this Note Categorization Bootstrapping conversation, I was compressing characters to 6 and it was missing stuff. This total, complete expansion and disambiguation makes a lot more sense.
+
+Now, please analyze why character has these additional tracks. Analyze whether the other subject types could have additional tracks too, or not. I'm not talking about the POV specific conditional ones. I'm talking about the character development and whether there are equivalents.
+
+This current conversation "Note Categorization Bootstrapping" was already compressed twice. Please explain the various ways you can access the compressed parts and utilize them. Is there a transcript to access? A way to read from the conversation itself? You were able to access "Character Reader Perception Gap in story design", can you access earlier parts of this conversation, "Note Categorization Bootstrapping", through the same pathway?
+
+--- [U274] ---
+Now that we have established that character and bond have 8 tracks (plus two conditional on POV for character), and the rest have 6, please re-evaluate the Subject Tracks/Project-Wide Tracks. Take in all insights and history of deliberation from the transcripts and journal file when analyzing. What should be present for the typical subject types, and then for bond, and then for character?
+
+--- [U276] ---
+I feel like the actual content in analogies and allegories is going to end up the same. Should the analogies track have a display question in expansion mode about what inspires world building, and that same track have a usage directive in linking mode about how these analogies should be used for reader inference while not reaching the page? Is it fundamental that any analogy used for world building becomes an allegory target or is there more nuance to it?
+
+Here is what I am theorizing for the connection between link tracks and project wide tracks:
+
+The World Truth tracks (Ontology, History, Civilizational, Characterization) map to the two Page Design tracks, roughly. And also the "standard" world inference track which comes from the page?
+The "retrospective" narrative architecture track which covers the plan for the page is also tied to the page design tracks and the standard world inference track by association to the page design.
+
+Then we have the "prospective" narrative architecture track which is the plan for reader belief, and does this map cleanly to the Reader Prior Belief Update WI track?
+
+Then there is the themes subject-wide track which maps to all the theme scene evidence link tracks?
+
+For character (and bond), we add in an arc plan track which corresponds with the Character Development WI track, which is one of the additional tracks that character gets for being a dynamic, changeable psychological interior? Then I'm not sure if the extra theme track about character development goes into the same theme subject wide track as the others or its own track?
+
+Is there any aggregate project wide track for planning/auditing the character reader perception gap WI (POV specific conditional track) across the story? Or is this blended with the character arc plan? This only applies to characters who have a POV that isn't a one off, so pretty much just the prominent protagonist(s) of a story.
+
+Canon, NotesToSelf and External grounding inform World Truth and Inference, sort of like 2nd order material
+
+I have already reworked the UI to make tracks with no notes appear off to the side, so increasing tracks is not a concern if it genuinely helps with story planning and reducing cognitive overload and increasing coherence. It should be warranted when it is not introducing complexity, but merely managing complexity that already inherently exists in the project, rather than making that complexity appear blended in other tracks. But creating tracks that aren't warranted is also a failure mode leading to fragmentation. So the track design choices need to be precise.
+
+--- [U278] ---
+So Narrative Architecture tracks on project wide are:
+For all subjects:
+Appearance Plan - aggregate of disclosure/enactment/standard inference. Editable in audit mode
+Reader Opinion Plan - seems like it should not be editable in audit mode. It is declared from subject level and then constrains the links and plot? Although I can discover new twists I want too. So maybe not so simple. It's a two way iterative process?
+For character and bond only:
+Character Development Plan - also an iterative process?
+Reader Character Perception Gap Plan - mostly top down planning in response to character development plan, and only applicable to prominent narrators?
+Then does Appearance Plan end up being a two way iterative process too?
+
+Also do Theme Plan and ArcThesis really need to be split or can they be one track? It can have multiple entries. The theme evidence from the gap plan also has to go somewhere. In a consolidate subject-wide themes track or in separate theme tracks?
+
+--- [U280] ---
+I don't think "Character Development Plan" and "Character Development (aggregate)" are two different things. Shouldn't they be the same track? By the track being an iterative process between the project wide data and the link data for scene specific, both top down and bottom up are allowed. Same for "Bond Story Plan" and "Bond Development Summary (aggregate)".
+
+For the themes, currently most subjects have two possible thematic proposition evidence tracks: standard/witnessed/rational inference, and evidence the reader arrives at from processing and thinking about the clash with their prior beliefs. Then character/bond has a third: evidence witnessed from character/bond development. And character has a fourth: theme evidence the reader arrives at from processing and thinking about the character-reader perception gap.
+That's what we're working with on the link level. Should the subject level Theme Plan track aggregate all 4 across all links? Keep in mind the themes themselves are the same, but I'm not sure if the data is radically different to warrant different tracks or if they should be the same subject wide tracks because it's the same themes. But maybe different tracks are good because the same theme can be supported through different mechanisms? If they are all one track, then multiple notes in the track reference the same theme but hold different data talking about different mechanisms? Or, is the data going to be similar or actually the same, despite the discovery mechanisms (rational inference, prior belief clash, inference on character development, gap perception)?
+
+--- [U282] ---
+[Attached file: TLTT v2-definitions.md]
+
+
+
+Please evaluate these revised definitions compared to the principles established throughout this conversation
+
+--- [U284] ---
+I feel like Technology and World Law are genuinely only allegories. They don't have analogies. They are fantasy invented. This is contrasted with Civilizational System which is a direct analogy, inspired by real world governments like Fascism and social democracy.
+And Bond is the only one with no analogy track? I don't imagine picking out specific things that TwiJack is referenced against. It's just canon moments and fanon shipping.

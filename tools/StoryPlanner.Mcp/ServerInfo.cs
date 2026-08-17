@@ -23,9 +23,13 @@ public static class ServerInfo
           attention — whether the content was migrated to v2 or deliberately superseded was NOT
           recorded, so never treat closed archive notes as either current or migrated.
         - CONVERSATIONS: imported AI chat transcripts (search_conversations / get_blocks), with
-          the author's per-block read states (unread / skipped / flagged / done). Arc and block
-          summaries are optional navigation aids: an empty summary is ordinary, not missing
-          data — never report blank summaries as gaps and never substitute an excerpt for one.
+          the author's per-block read states (unread / skipped / flagged / done). A block's
+          summary is the AUTHOR'S OWN navigation note, hand-written in the reader — his words,
+          not the transcript's and not a machine's, so a summary hit in search_conversations
+          carries a different citation status from a RawContent hit. A conversation's arc summary
+          is frozen text from a retired import pass. Both are optional: empty is ordinary and
+          permanent, most blocks will never carry a note — never report blank summaries as gaps
+          and never substitute an excerpt for one.
 
         Both corpora group chapters under stories (list_stories / get_stories). A chapter's
         StoryId 0 is "(Unassigned)" — a legal, permanent state, not an error. Chapter labels are

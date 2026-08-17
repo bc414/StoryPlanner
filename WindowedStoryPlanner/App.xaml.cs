@@ -2,6 +2,7 @@
 using System.Data;
 using System.IO;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Input;
 using CommunityToolkit.Mvvm.Input;
 using Microsoft.EntityFrameworkCore;
@@ -151,6 +152,12 @@ public partial class App : Application
     {
         if (e.Key == Key.S && (Keyboard.Modifiers & ModifierKeys.Control) == ModifierKeys.Control)
         {
+            // A LostFocus-committed editor (the Conversation Reader's note cards) holds its text
+            // outside the model until focus leaves. Push it down first, or Ctrl+S reports
+            // "Saved!" on a save that omitted exactly what the user was typing when they hit it.
+            if (Keyboard.FocusedElement is TextBox focused)
+                focused.GetBindingExpression(TextBox.TextProperty)?.UpdateSource();
+
             var vm = AppHost!.Services.GetRequiredService<FileManagerViewModel>();
             if (vm.SaveChangesCommand.CanExecute(null))
             {

@@ -27,7 +27,7 @@ public sealed class ConversationTools(StoryPlanSources sources)
     };
 
     [McpServerTool(Name = "search_conversations")]
-    [Description("Regex search over imported AI conversation transcripts: block RawContent, block Summary, conversation titles, and conversation ArcSummary. Each hit labels which field matched and carries the author's block triage state (unread/skipped/flagged/done). Fetch full block text with get_blocks.")]
+    [Description("Regex search over imported AI conversation transcripts: block RawContent, the author's own hand-written block note (Summary), conversation titles, and conversation ArcSummary. Each hit labels which field matched and carries the author's block triage state (unread/skipped/flagged/done). A 'summary:' hit is the author writing about the block, not the transcript. Fetch full block text with get_blocks.")]
     public string SearchConversations(
         [Description("Regular expression (.NET syntax). Case-insensitive unless caseSensitive=true.")] string pattern,
         [Description("Match case-sensitively (default false).")] bool caseSensitive = false,
@@ -96,7 +96,7 @@ public sealed class ConversationTools(StoryPlanSources sources)
     }
 
     [McpServerTool(Name = "get_blocks")]
-    [Description("Fetch full transcript blocks by block id: verbatim RawContent (capped at 20k chars per block), speaker, block number, triage state, compaction marker, stored summary, and the owning conversation. Ids come from search_conversations hits.")]
+    [Description("Fetch full transcript blocks by block id: verbatim RawContent (capped at 20k chars per block), speaker, block number, triage state, compaction marker, the author's own navigation note when he has written one, and the owning conversation. Ids come from search_conversations hits.")]
     public string GetBlocks(
         [Description("Block ids.")] int[] ids)
     {

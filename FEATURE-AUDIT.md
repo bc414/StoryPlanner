@@ -213,6 +213,29 @@ The Conversation Reader (per [CONVERSATION-READER-SPEC.md](CONVERSATION-READER-S
     the raw Claude export — no Cowork round trip, no summaries. The Cowork path survives as pure
     enrichment: `ArcSummary` + per-block `Summary`, navigation only. Meta never destroys — a
     content-only re-import preserves earlier summaries and all block triage state.
+    > **Amended 2026-08-11 — the enrichment half is now cut as well; see F0b.** "The Cowork path
+    > survives as pure enrichment" is no longer true of the build.
+- **F0b — 🟢 AI summaries cut; the column becomes an authored note.** *(Shipped 2026-08-11.)*
+  The third machine-proposal cut in this file, and the first to also remove the data it had
+  produced: per-block AI summaries "turned out to not be helpful."
+  - **The Cowork round trip is deleted**, not made dormant: `ConversationContentExporter`,
+    `IStoryService.ExportConversationContentAsync`, `ScanPreviewViewModel.ExportSelected`, and the
+    *Export Checked for Cowork…* button are gone. Nothing in the app writes a `_content.json` any
+    more, so *Import from Folder…* is relabelled **(legacy)** and serves only folders already on
+    disk. *Scan Claude Export… → Import Checked Directly* is the one live route.
+  - **A `_meta.json` is now entirely inert** — `ArcSummary` and per-block `Summary` join
+    `subjectsCovered` in being parsed and dropped, asserted by
+    `Legacy_meta_file_writes_neither_summaries_nor_coverage_rows`. More strongly, **the importer
+    writes no authored field at all**: `Reimport_preserves_hand_written_block_summaries_and_adds_the_new_turns`
+    is the guard that matters, because a re-import overwriting a note would destroy authored work
+    with no undo.
+  - **The existing AI text was wiped** by a new `wipe-block-summaries` DataOps op (confirmation
+    token in its config, since it is the only irreversible-by-design op in the set; fingerprints
+    prove `RawContent`, `BlockState` and `ArcSummary` are untouched).
+  - **`ConversationBlock.Summary` changes hands rather than being dropped.** It is Brian's own
+    navigation note now, edited inline in the reader's middle column — two-way, committed on
+    focus-leave. The column was worth keeping; the machine filling it was not. `ArcSummary` is
+    frozen: displayed read-only, never written again.
 - **F1 — 🔴 Per-block subject mentions.** The spec's `BlockSubjectMention` entity (per-block subject tagging, for filtering blocks by subject within a conversation) was never built. **Re-read F0 before reviving this:** it is per-block *coverage*, one level finer than the thing that was just cut, and the spec's motivation for it was routing. If it ever returns it must be authored, never proposed.
 - **F2 — 🔴 Cross-conversation subject view.** "What did every conversation say about Applejack's Characterization?" — spec §Cross-Conversation Subject View + `SubjectCoverageView.xaml`. Not present (no such view/VM; depended on F1 and on the now-cut conversation-level coverage).
 - **F3 — 🟢 Bulk multi-select state ops.** *(Shipped 2026-07-31.)* Both block columns are

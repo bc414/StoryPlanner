@@ -1,0 +1,29 @@
+<UserControl x:Class="WindowedStoryPlanner.WindowSnapButtons"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d">
+    <!-- Snap-to-half buttons. ModeButtonStyle lives in App.xaml; its Width="90" is overridden
+         here because these are label-plus-glyph, not mode names. Shared by CommonWindow's top
+         mode bar and ConversationReaderWindow's arc-summary band — the host positions the
+         control, the control knows nothing about where it sits. -->
+    <StackPanel Orientation="Horizontal">
+        <Button Content="⬅ Left" Width="56"
+                Style="{StaticResource ModeButtonStyle}"
+                ToolTip="Snap window to left half of screen"
+                Click="SnapLeftHalf_Click"/>
+        <Button Content="⬆ Top" Width="56"
+                Style="{StaticResource ModeButtonStyle}"
+                ToolTip="Snap window to top half of screen"
+                Click="SnapTopHalf_Click"/>
+        <Button Content="⬇ Bot" Width="56"
+                Style="{StaticResource ModeButtonStyle}"
+                ToolTip="Snap window to bottom half of screen"
+                Click="SnapBottomHalf_Click"/>
+        <Button Content="➡ Right" Width="56"
+                Style="{StaticResource ModeButtonStyle}"
+                ToolTip="Snap window to right half of screen"
+                Click="SnapRightHalf_Click"/>
+    </StackPanel>
+</UserControl>

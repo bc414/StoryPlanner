@@ -25,8 +25,35 @@ public partial class ConversationBlockViewModel : ObservableObject
     public int    BlockNumber  => Model.BlockNumber;
     public string Speaker      => Model.Speaker;
     public string RawContent   => Model.RawContent;
-    public string Summary      => Model.Summary;
     public bool   IsCompaction => Model.IsCompaction;
+
+    // ── The author's own navigation note ───────────────────────────────────────
+
+    /// <summary>
+    /// Brian's hand-written note on this block — not a machine summary; nothing writes it but
+    /// this setter. The reader's middle-column card IS the editor, bound with
+    /// UpdateSourceTrigger=LostFocus, so this runs at most once per focus session: that is what
+    /// makes persisting from inside it one save per edit rather than one per keystroke.
+    /// SetProperty's equality check means focusing in and out without typing saves nothing.
+    /// </summary>
+    public string Summary
+    {
+        get => Model.Summary;
+        set
+        {
+            if (!SetProperty(Model.Summary, value, Model, (m, v) => m.Summary = v)) return;
+            OnPropertyChanged(nameof(HasSummary));
+            // Called directly rather than through a helper so [CallerMemberName] labels a failed
+            // save "Summary" — a helper's name would tell Brian nothing about what didn't persist.
+            _storyService.SaveAsync().FireAndForget();
+        }
+    }
+
+    /// <summary>
+    /// Drives the card's "Add a note…" affordance. Empty is an ordinary, permanent state — most
+    /// blocks will never carry a note, and nothing is ever substituted in for an absent one.
+    /// </summary>
+    public bool HasSummary => !string.IsNullOrWhiteSpace(Model.Summary);
 
     // ── Mutable state ──────────────────────────────────────────────────────────
 

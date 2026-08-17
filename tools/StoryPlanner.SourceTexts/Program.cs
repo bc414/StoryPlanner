@@ -7,6 +7,9 @@ using StoryPlanner.SourceTexts;
 //
 //   dotnet run --project tools/StoryPlanner.SourceTexts -- <config.json> [--apply] [--work NAME]
 
+if (args.Length > 0 && args[0] == "--to-markdown")
+    return EpubToMarkdown.Run(args.Skip(1).ToArray());
+
 var positional = args.Where(a => !a.StartsWith("--")).ToList();
 var apply = args.Contains("--apply");
 var onlyWorkIndex = Array.IndexOf(args, "--work");

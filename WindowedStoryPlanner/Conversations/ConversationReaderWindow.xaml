@@ -89,22 +89,11 @@
                 BorderBrush="#E0E0E0" BorderThickness="0,0,0,1"
                 Background="#F8F9FA" Padding="12,8">
             <DockPanel>
-                <!-- Snap-to-half buttons — mirrors CommonWindow's pair.
+                <!-- Snap-to-half buttons — the same control CommonWindow's top bar hosts.
                      Docked first so the summary TextBlock fills what's left;
                      top-aligned so they stay put when a long summary wraps. -->
-                <StackPanel DockPanel.Dock="Right" Orientation="Horizontal"
-                            VerticalAlignment="Top" Margin="12,0,0,0">
-                    <Button x:Name="SnapTopHalfButton"
-                            Content="⬆ Top" Width="50"
-                            Style="{StaticResource ModeButtonStyle}"
-                            ToolTip="Snap window to top half of screen"
-                            Click="SnapTopHalf_Click"/>
-                    <Button x:Name="SnapBottomHalfButton"
-                            Content="⬇ Bot" Width="50"
-                            Style="{StaticResource ModeButtonStyle}"
-                            ToolTip="Snap window to bottom half of screen"
-                            Click="SnapBottomHalf_Click"/>
-                </StackPanel>
+                <local:WindowSnapButtons DockPanel.Dock="Right"
+                                         VerticalAlignment="Top" Margin="12,0,0,0"/>
 
                 <!-- Collapses for a conversation imported without summaries — an empty band
                      would read as a missing summary rather than an absent one. -->
@@ -148,28 +137,88 @@
 
             <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" Background="#DDDDDD"/>
 
-            <!-- ── Middle: summary cards ── -->
-            <ListBox Grid.Column="2"
+            <!-- ── Middle: the author's navigation notes ── -->
+            <!--
+                Virtualization is OFF deliberately. One conversation is shown at a time and the
+                largest is a few hundred blocks, so the cost is nil — and it buys two things that
+                matter: a recycled container can never re-point a live editor's binding at a
+                different block mid-edit (silently discarding typed prose), and the IsSelected
+                TwoWay binding below can't go stale while a container is virtualized away, which
+                would let a bulk mark reach blocks the user believes are deselected.
+            -->
+            <ListBox Grid.Column="2" x:Name="SummaryList"
                      Style="{StaticResource NakedListBox}"
                      ItemContainerStyle="{StaticResource NakedListBoxItem}"
                      ItemsSource="{Binding Blocks}"
                      SelectionMode="Extended"
-                     SelectionChanged="OnBlockSelectionChanged">
+                     SelectionChanged="OnBlockSelectionChanged"
+                     VirtualizingPanel.IsVirtualizing="False">
                 <ListBox.ItemTemplate>
                     <DataTemplate DataType="{x:Type local:ConversationBlockViewModel}">
                         <Border Padding="8,6" BorderBrush="#EBEBEB" BorderThickness="0,0,0,1">
                             <StackPanel>
-                                <TextBlock FontSize="11" Foreground="#666" Margin="0,0,0,4">
+                                <!-- The row's grab handle. A TextBlock has no Background, so it is
+                                     not hit-test-visible and clicks fall through to the
+                                     ListBoxItem — which is what keeps click, Ctrl-click and
+                                     Shift-click multi-selection alive in this column now that the
+                                     note editor below swallows them. -->
+                                <TextBlock FontSize="11" Foreground="#666" Margin="0,0,0,5">
                                     <Run Text="{Binding BlockNumber, Mode=OneWay}" FontWeight="SemiBold"/>
                                     <Run Text=" · "/>
                                     <Run Text="{Binding Speaker, Mode=OneWay}"/>
                                 </TextBlock>
-                                <!-- Blank for a conversation imported without summaries. The card
-                                     stays as a number/speaker navigation target; nothing is
-                                     substituted in, because any substitute would be invented. -->
-                                <TextBlock Text="{Binding Summary}"
-                                           FontSize="12" Foreground="#333"
-                                           TextWrapping="Wrap"/>
+
+                                <Grid>
+                                    <!--
+                                        Brian's own navigation note. LostFocus is the TextBox
+                                        default, but it is stated because it is deliberate here and
+                                        PropertyChanged everywhere else in the app: one save per
+                                        edit session, not one per keystroke.
+
+                                        Transparent with no border so the ListBoxItem template's
+                                        state-colour / hover / selection layers show through
+                                        unchanged — same chrome as the card title box in
+                                        ConversationCard.xaml.
+
+                                        ContextMenu is not decoration: a TextBox otherwise supplies
+                                        its own Cut/Copy/Paste menu, which would shadow the
+                                        container's and silently remove Mark Unread/Skipped/
+                                        Flagged/Done from most of this column. Ctrl+X/C/V still work.
+                                    -->
+                                    <TextBox x:Name="SummaryBox"
+                                             Text="{Binding Summary, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"
+                                             FontSize="12" Foreground="#333"
+                                             Background="Transparent" BorderThickness="0" Padding="0"
+                                             TextWrapping="Wrap" AcceptsReturn="False"
+                                             MinHeight="34" VerticalContentAlignment="Top"
+                                             ContextMenu="{StaticResource BlockContextMenu}"
+                                             GotKeyboardFocus="OnSummaryGotKeyboardFocus"
+                                             PreviewKeyDown="OnSummaryPreviewKeyDown"/>
+
+                                    <!-- Affordance, never content: no excerpt of the block is ever
+                                         substituted for an absent note. Gated on focus as well as
+                                         emptiness — with a LostFocus commit HasSummary does not
+                                         flip while typing, so an emptiness-only trigger would leave
+                                         this sitting under the user's own text mid-edit. -->
+                                    <TextBlock Text="Add a note…"
+                                               FontSize="12" FontStyle="Italic" Foreground="#B8B8B8"
+                                               IsHitTestVisible="False" VerticalAlignment="Top">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Visibility" Value="Collapsed"/>
+                                                <Style.Triggers>
+                                                    <MultiDataTrigger>
+                                                        <MultiDataTrigger.Conditions>
+                                                            <Condition Binding="{Binding HasSummary}" Value="False"/>
+                                                            <Condition Binding="{Binding IsKeyboardFocusWithin, ElementName=SummaryBox}" Value="False"/>
+                                                        </MultiDataTrigger.Conditions>
+                                                        <Setter Property="Visibility" Value="Visible"/>
+                                                    </MultiDataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </Grid>
                             </StackPanel>
                         </Border>
                     </DataTemplate>

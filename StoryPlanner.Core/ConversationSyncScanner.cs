@@ -5,7 +5,7 @@ namespace StoryPlanner.Core;
 public enum ConversationSyncClassification
 {
     /// <summary>No DB match by uuid and no heuristic match. Most of these are off-topic and
-    /// won't be exported — that's expected; the user hand-picks what actually goes to Cowork.</summary>
+    /// won't be imported — that's expected; the user hand-picks what actually comes in.</summary>
     New,
 
     /// <summary>Certain match (DB record already carries this uuid) and the export has more
@@ -29,7 +29,7 @@ public enum ConversationSyncClassification
 
 /// <summary>One row of a scan result: an exported Claude conversation plus how it relates to
 /// what's already in the DB. No writes happen while building this — it's purely advisory for the
-/// Scan Preview UI, which is where the user decides what actually gets exported for Cowork.</summary>
+/// Scan Preview UI, which is where the user decides what actually gets imported.</summary>
 public class ConversationSyncItem
 {
     public required ParsedClaudeConversation Export { get; init; }
