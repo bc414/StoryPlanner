@@ -1,19 +1,69 @@
 COWORK TASK PROMPT — paste this as the task instructions
 ======================================================
 
-Read the document titled "Analysis Brief" from the Google Drive folder "Reading Archive". It contains the complete analysis framework, vocabulary definitions, and output format instructions. Follow it exactly.
+GOOGLE DRIVE REFERENCE — do not search for these, use the IDs directly:
 
-List the files in the Google Drive folder "Reading Archive/Queue". Pick ONE file (if multiple are present, pick the one that was uploaded earliest). If the folder is empty, write a short note "Queue empty — no stories remaining" to a file called "Queue Empty" in "Reading Archive/Output" and stop.
+  Analysis Brief (doc):  1VUYIhCd70oU0Uyh0sOE88Hf4POxqpRQvaHUYV7oQtEA
+  Queue folder:          1MKVZxR9R3J4ualUcrvRhhrh5wc7ftD3z
+  Done folder:           13BLadzbqFpZrcyjfjWfWWFNa__r0xPW0
+  Output folder:         1Sqf9j3v5Fi78ipDrA5VzpLJS2Q2b9TFQ
 
-Read the COMPLETE text of the chosen story file. Every word, every chapter, beginning to end. Do not sample, skip, or skim. The text has emphasis preserved as asterisk markers — due to Google Drive's read connector, these appear backslash-escaped as \*...\* rather than *...*. This is load-bearing for distinguishing Free Indirect Discourse from Direct Internal Monologue. Text wrapped in \*...\* is Direct Thought; unmarked narrator-voice text adopting a character's vocabulary is FID. Do not ignore these markers.
+Drive search syntax: structured queries like `parentId = 'ID'`,
+`title contains 'word'`, combined with `and`/`or`. String values must be
+single-quoted. See search_files tool schema for all supported query terms.
 
-For multi-chapter stories: read all chapters before beginning the analysis. The analysis is whole-story, not per-chapter. The report's length should scale proportionally with the story's length — a twenty-chapter story produces a much longer analysis than a one-chapter short story.
 
-Apply the full analysis framework as specified in the Analysis Brief. Use the exact vocabulary defined there. Report every section in order.
+FIRST ACTION — load all Google Drive tool schemas before doing anything else:
+  ToolSearch("select:mcp__claude_ai_Google_Drive__read_file_content,mcp__claude_ai_Google_Drive__search_files,mcp__claude_ai_Google_Drive__create_file,mcp__claude_ai_Google_Drive__copy_file,mcp__claude_ai_Google_Drive__trash_file")
 
-Write your analysis as a new Google Doc titled "Analysis — [story title]" in "Reading Archive/Output". Follow the output format instructions in the Brief: UPPERCASE section headers, plain text formatting, no Markdown characters (#, **, *, etc.).
 
-After writing the analysis, copy the story file from "Reading Archive/Queue" to "Reading Archive/Done", then delete the original from "Reading Archive/Queue". If the copy or delete fails, keep the analysis — the file can be moved manually later.
+PROCEDURE
+
+1. Read the Analysis Brief by its file ID (above). It contains the complete analysis
+   framework, vocabulary definitions, and output format instructions. Follow it exactly.
+
+2. Find a story to analyze: search Google Drive with query `parentId = '1MKVZxR9R3J4ualUcrvRhhrh5wc7ftD3z'`
+   to list all files in the Queue folder. If no files are returned, write a short note
+   "Queue empty — no stories remaining" to a file called "Queue Empty" in the Output
+   folder (by ID) and stop.
+
+   If multiple files are in the Queue, pick one at random to minimize chances of
+   analyzing the same story as another ongoing session.
+
+3. Before starting the analysis, check the Output folder for an existing analysis of
+   the chosen story. Search: `parentId = '1Sqf9j3v5Fi78ipDrA5VzpLJS2Q2b9TFQ' and title contains '[story-slug]'`
+   (where [story-slug] is the filename of the story without extension). If an analysis
+   already exists, skip that story and pick the next one from Queue. Repeat until you
+   find a story with no existing analysis, or until all Queue stories have been checked.
+
+4. Read the COMPLETE text of the chosen story file. Every word, every chapter, beginning
+   to end. Do not sample, skip, or skim.
+
+   The text has emphasis preserved as asterisk markers. Due to Google Drive's read
+   connector, these appear backslash-escaped: \*italicized text\* rather than
+   *italicized text*. This is load-bearing for distinguishing Free Indirect Discourse
+   from Direct Internal Monologue. Do not ignore these markers. Not every \*...\* is
+   Direct Thought — authors also use italics for emphasis. The Analysis Brief defines
+   the distinction in detail.
+
+   For multi-chapter stories: read all chapters before beginning the analysis. The
+   analysis is whole-story, not per-chapter. The report's length should scale
+   proportionally with the story's length.
+
+5. Apply the full analysis framework as specified in the Analysis Brief. Use the exact
+   vocabulary defined there. Report every section in order.
+
+6. Write your analysis as a new Google Doc in the Output folder (by ID). Use the title
+   format: [Story Title] - analysis v4
+   (where [Story Title] is the human-readable story title, capitalized normally).
+   Follow the output format instructions in the Brief: begin with the metadata header,
+   then UPPERCASE section headers, plain text formatting, no Markdown characters
+   (#, **, *, etc.).
+
+7. After writing the analysis, copy the story file from Queue to the Done folder (by ID),
+   then delete the original from Queue. If the copy or delete fails, keep the analysis —
+   the file can be moved manually later.
+
 
 CONSTRAINTS:
 - Read the ENTIRE story. Every word. A reader who has read the story will know if you have not.
