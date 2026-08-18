@@ -24,12 +24,14 @@ if (string.IsNullOrWhiteSpace(workingPath) || string.IsNullOrWhiteSpace(archiveP
 // report that they are unconfigured and every other tool works unchanged.
 var sourceTextPath = Environment.GetEnvironmentVariable("STORYPLAN_SOURCE_TEXTS");
 
-// Also optional: the founding-era Gemini web-app corpus (provenance, not ground truth).
-var geminiCorpusPath = Environment.GetEnvironmentVariable("STORYPLAN_GEMINI_CORPUS");
+// Also optional: the LINEAGE corpus — the founding-era chats (Gemini web app, AI Studio,
+// NotebookLM) in one database (provenance, not ground truth). Replaced STORYPLAN_GEMINI_CORPUS
+// on 2026-08-18, when gemini.db was absorbed as lineage.db's first source layer.
+var lineagePath = Environment.GetEnvironmentVariable("STORYPLAN_LINEAGE");
 
 builder.Services.AddSingleton(new StoryPlanSources(workingPath, archivePath));
 builder.Services.AddSingleton(new SourceTextStore(sourceTextPath));
-builder.Services.AddSingleton(new GeminiCorpusStore(geminiCorpusPath));
+builder.Services.AddSingleton(new LineageStore(lineagePath));
 
 builder.Services
     .AddMcpServer(o => o.ServerInstructions = ServerInfo.Instructions)
@@ -40,7 +42,7 @@ builder.Services
     .WithTools<FlaggedTools>()
     .WithTools<ReferenceTools>()
     .WithTools<SourceTextTools>()
-    .WithTools<GeminiCorpusTools>();
+    .WithTools<LineageTools>();
 
 var host = builder.Build();
 
@@ -59,10 +61,12 @@ try
         ? $"storyplanner-mcp: source texts '{sourceTextPath}' ({sourceTexts.Manifest().Count} units)."
         : "storyplanner-mcp: no source-text corpus (STORYPLAN_SOURCE_TEXTS unset or missing).");
 
-    var geminiCorpus = host.Services.GetRequiredService<GeminiCorpusStore>();
-    Console.Error.WriteLine(geminiCorpus.IsConfigured
-        ? $"storyplanner-mcp: gemini corpus '{geminiCorpusPath}' ({geminiCorpus.Entries().Count} entries, {geminiCorpus.Reports().Count} reports)."
-        : "storyplanner-mcp: no gemini corpus (STORYPLAN_GEMINI_CORPUS unset or missing).");
+    var lineage = host.Services.GetRequiredService<LineageStore>();
+    Console.Error.WriteLine(lineage.IsConfigured
+        ? $"storyplanner-mcp: lineage corpus '{lineagePath}' ({lineage.GeminiEntries().Count} gemini entries, " +
+          $"{lineage.Reports().Count} reports, {lineage.AiChats().Count} aistudio chats, " +
+          $"{lineage.NlmNotebooks().Count} nlm notebooks)."
+        : "storyplanner-mcp: no lineage corpus (STORYPLAN_LINEAGE unset or missing).");
 }
 catch (Exception ex)
 {

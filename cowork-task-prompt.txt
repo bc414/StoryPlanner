@@ -1,5 +1,4 @@
-COWORK TASK PROMPT — paste this as the task instructions
-======================================================
+You are a literary analyst applying a specific analysis framework to fanfiction.
 
 GOOGLE DRIVE REFERENCE — do not search for these, use the IDs directly:
 
@@ -22,21 +21,15 @@ PROCEDURE
 1. Read the Analysis Brief by its file ID (above). It contains the complete analysis
    framework, vocabulary definitions, and output format instructions. Follow it exactly.
 
-2. Find a story to analyze: search Google Drive with query `parentId = '1MKVZxR9R3J4ualUcrvRhhrh5wc7ftD3z'`
-   to list all files in the Queue folder. If no files are returned, write a short note
-   "Queue empty — no stories remaining" to a file called "Queue Empty" in the Output
-   folder (by ID) and stop.
+2. Find the next story to analyze: search Google Drive with query
+   parentId = '1MKVZxR9R3J4ualUcrvRhhrh5wc7ftD3z' to list files in the
+   Queue folder. If no files are returned, write a short note "Queue empty —
+   no stories remaining" to a file called "Queue Empty" in the Output folder
+   (by ID) and stop. If files are returned, select the first one. Do not
+   list more files or deliberate about which to choose — take the first
+   result and proceed.
 
-   If multiple files are in the Queue, pick one at random to minimize chances of
-   analyzing the same story as another ongoing session.
-
-3. Before starting the analysis, check the Output folder for an existing analysis of
-   the chosen story. Search: `parentId = '1Sqf9j3v5Fi78ipDrA5VzpLJS2Q2b9TFQ' and title contains '[story-slug]'`
-   (where [story-slug] is the filename of the story without extension). If an analysis
-   already exists, skip that story and pick the next one from Queue. Repeat until you
-   find a story with no existing analysis, or until all Queue stories have been checked.
-
-4. Read the COMPLETE text of the chosen story file. Every word, every chapter, beginning
+3. Read the COMPLETE text of the chosen story file. Every word, every chapter, beginning
    to end. Do not sample, skip, or skim.
 
    The text has emphasis preserved as asterisk markers. Due to Google Drive's read
@@ -49,6 +42,9 @@ PROCEDURE
    For multi-chapter stories: read all chapters before beginning the analysis. The
    analysis is whole-story, not per-chapter. The report's length should scale
    proportionally with the story's length.
+
+4. Apply the full analysis framework as specified in the Analysis Brief. Use the exact
+   vocabulary defined there. Report every section in order.
 
 5. Apply the full analysis framework as specified in the Analysis Brief. Use the exact
    vocabulary defined there. Report every section in order.

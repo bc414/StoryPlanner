@@ -171,6 +171,29 @@ public static class GeminiCorpusDb
         return written;
     }
 
+    /// <summary>
+    /// Appends this run to lineage.db's shared disclosure ledger (created here if this ingest
+    /// reaches the file first — same DDL as StoryPlanner.Lineage's LineageDb, copied not shared,
+    /// like the rest of the sidecar-tool boilerplate). list_lineage reads the latest row per
+    /// source to distinguish "never ingested" from "ingested, zero rows".
+    /// </summary>
+    public static void RecordIngestRun(SqliteConnection conn, int rows)
+    {
+        Execute(conn, """
+            CREATE TABLE IF NOT EXISTS IngestRuns (
+                Id     INTEGER PRIMARY KEY AUTOINCREMENT,
+                Source TEXT NOT NULL,
+                RunUtc TEXT NOT NULL,
+                Rows   INTEGER NOT NULL
+            );
+            """);
+        using var cmd = conn.CreateCommand();
+        cmd.CommandText = "INSERT INTO IngestRuns (Source, RunUtc, Rows) VALUES ('gemini', $t, $r);";
+        cmd.Parameters.AddWithValue("$t", DateTime.UtcNow.ToString("o"));
+        cmd.Parameters.AddWithValue("$r", rows);
+        cmd.ExecuteNonQuery();
+    }
+
     private static void Execute(SqliteConnection conn, string sql)
     {
         using var cmd = conn.CreateCommand();

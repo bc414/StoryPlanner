@@ -1,0 +1,69 @@
+{
+  "_comment": [
+    "LINEAGE corpus ingest — the AI Studio and NotebookLM layers of lineage.db.",
+    "The Gemini web-app layer is written into the SAME file by tools/StoryPlanner.GeminiCorpus",
+    "(point its <output.db> argument at the output below); each ingest replaces only its own tables.",
+    "",
+    "aistudio population rule (2026-08-18): the never-imported founding-era set. A raw chat is",
+    "included unless <name>.json exists in the excludeImportedVia subfolder (those 34 were imported",
+    "into the .storyplan Conversations corpus and are tracked there) or its name is in exclude.",
+    "The dry run names every inclusion/exclusion so near-miss filenames are caught by eye —",
+    "exclude is the authored escape hatch for pairs the mechanical rule cannot see.",
+    "",
+    "notebooklm: captures are manual saves (Ctrl+S, complete webpage, chat panel scrolled fully",
+    "to the TOP — history is server-side lazy-loaded and an under-scrolled save silently loses",
+    "older turns). slug and authoredDate are AUTHORED — chat turns carry no timestamps in a",
+    "capture, so the date is the author's assignment (year or year-month precision is fine),",
+    "never derived from content. Undated notebooks stay undated and are flagged on every run."
+  ],
+  "output": "C:\\Users\\Brian\\Desktop\\TLTT Lineage.db",
+  "aistudio": {
+    "chatsDir": "C:\\Users\\Brian\\Documents\\Google AI Studio Chats",
+    "excludeImportedVia": "Selected_Chats",
+    "exclude": [
+      "Aspect-Oriented Programming_ A Paradigm Shift"
+    ],
+    "ignore": []
+  },
+  "notebooklm": {
+    "capturesDir": "C:\\Users\\Brian\\Documents\\NotebookLM Captures",
+    "notebooks": [
+      {
+        "slug": "tltt-story-plan",
+        "file": "The Lioness of Tall Tale Story Plan - Gemini Notebook.htm",
+        "authoredDate": "2026-01-13"
+      },
+      {
+        "slug": "perspective-analysis",
+        "file": "Perspective Analysis - Gemini Notebook.htm",
+        "title": "Perspective Analysis",
+        "authoredDate": "2026-02-02"
+      },
+      {
+        "slug": "tltt-history",
+        "file": "TLTT History - Gemini Notebook.htm",
+        "authoredDate": "2026-02-10"
+      },
+      {
+        "slug": "ambition-and-harmony",
+        "file": "Ambition and Harmony_ The Lioness of Tall Tale - Gemini Notebook.htm",
+        "authoredDate": "2026-02-11"
+      },
+      {
+        "slug": "refinement-of-aquileian-lore",
+        "file": "Refinement of Aquileian Lore - Gemini Notebook.htm",
+        "authoredDate": "2026-02-13"
+      },
+      {
+        "slug": "prompt-history-2025-12-to-2026-03",
+        "file": "Prompt History 12-27-25 to 3-23-26 Try 2 - Gemini Notebook.htm",
+        "authoredDate": "2026-03-23"
+      },
+      {
+        "slug": "mlp-transcripts-and-tltt-story-plan",
+        "file": "MLP Transcripts and TLTT Story Plan - Gemini Notebook.htm",
+        "authoredDate": "2026-03-30"
+      }
+    ]
+  }
+}

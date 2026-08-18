@@ -101,26 +101,37 @@ public static class ServerInfo
         propose what to write from a passage, and never propose a citation — reading the text is
         retrieval; deciding what it means for the story is the author's.
 
-        GEMINI CORPUS (search_gemini / get_gemini_report / get_gemini_entry /
-        list_gemini_threads) is a FIFTH corpus: the founding-era Gemini web-app conversations
-        (Sep 2025 – Jun 2026), the era before AI Studio and Claude. It is a provenance record,
-        not ground truth — most of it was superseded by later work, but it records when and why
-        decisions were made. Two searchable layers, and the REPORTS are the primary entry point:
-        28 weekly story-development reports plus 5 appendices (curated chronological digests with
-        cross-week references, reading paths, and a data-quality catalogue) answer "when was X
-        decided?" directly. The 3,259 raw conversation entries across 814 threads are the detail
-        pass — drill into them from a report hit when the verbatim exchange matters. Typical
-        flow: search_gemini → get_gemini_report (read the curated digest) → get_gemini_entry
-        (only if finer detail is needed). The export is damaged (Appendix D catalogues elision,
-        truncation, and missing responses), so a quotation from this corpus carries lower
-        confidence than one from the Claude or AI Studio conversations. 93 entries are plan-paste
-        prompts (the full story plan pasted in) — these are stubbed to a placeholder; only the
-        response is searchable. Search is regex, reports listed first then entries in
-        chronological order — no ranking, no relevance ordering. The corpus may be absent
-        entirely, in which case the tools say so and everything else works unchanged. Same
-        standing rule: these tools report what was said; they never rank threads by importance,
-        propose what to take from a conversation, or suggest which era's version of a decision
-        is correct.
+        LINEAGE (search_lineage / get_lineage / list_lineage) is a FIFTH corpus: the
+        founding-era chats behind the story's decisions, three source layers in one database —
+        the Gemini web-app conversations (Sep 2025 – Jun 2026) with their curated weekly
+        story-development reports and appendices, the early-2026 Google AI Studio chats that
+        were never imported into the CONVERSATIONS corpus (the two populations are disjoint by
+        construction — an imported chat lives in CONVERSATIONS with the author's read states,
+        never here), and captures of the NotebookLM notebooks. One tool family because the
+        caller's question is lineage-shaped ("where did this come from / when was X decided"),
+        not platform-shaped; hits carry source-prefixed ids and the layers are never joined to
+        each other or to anything else. Everything here is provenance, not ground truth — most
+        of it was superseded by later work. The chain a story decision travelled is: founding
+        chats (this corpus) → the v1 ARCHIVE (which absorbed them, plus more) → the v1 freeze →
+        CONVERSATIONS (post-freeze, awaiting mining) → the v2 WORKING plan. Lineage is reached
+        for deliberately, when the question is asked — the default for any question is the
+        working plan, and the archive and conversations are consulted through their own tool
+        families, each with its own semantics. The REPORTS are the primary entry point (curated
+        digests answering "when was X decided?" directly; raw material is the detail pass).
+        Per-layer caveats, all mechanical: the gemini export is damaged (its Appendix D
+        catalogues elision and truncation) and its giant plan-paste prompts are stubbed to
+        placeholders; AI Studio model thinking was stripped at ingest and a Drive-document turn
+        is a placeholder — a placeholder means the content was never captured, not that it is
+        withheld; AI Studio system instructions are searched only under scope "system" (many
+        chats share one boilerplate instruction — a mechanical dedup, not a relevance judgment);
+        NotebookLM captures carry no timestamps, so a notebook's date is the AUTHOR'S assignment
+        at year or year-month precision, and "undated" means not yet resolved, never "no date
+        exists"; NotebookLM studio notes may be title-only (the captured panel renders
+        previews). Ingest status is disclosed per source — "never ingested" is distinct from
+        "zero rows". The corpus may be absent entirely, in which case the tools say so and
+        everything else works unchanged. Same standing rule: these tools report what was said;
+        they never rank sources or threads by importance, propose what to take from a
+        conversation, or suggest which era's version of a decision is correct.
 
         Alongside its note tracks, an entity type may define NARRATIVE PROPERTIES
         (list_narrative_properties) — closed-vocabulary fields answered by picking one of a fixed

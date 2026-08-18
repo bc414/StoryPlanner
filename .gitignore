@@ -47,5 +47,7 @@ riderModule.iml
 /*.epub
 /*.storyplan
 /sources.db
+/lineage.db
+/codesessions.db
 /The Princess and the Kaiser*.txt
 /Pax Chrysalia*.txt

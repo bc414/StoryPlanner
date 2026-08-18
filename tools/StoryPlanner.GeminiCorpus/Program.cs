@@ -82,6 +82,7 @@ Console.WriteLine("Writing database...");
 using var conn = GeminiCorpusDb.OpenWrite(outputPath);
 var entryCount = GeminiCorpusDb.ReplaceEntries(conn, entries);
 var reportCount = GeminiCorpusDb.ReplaceReports(conn, reports);
+GeminiCorpusDb.RecordIngestRun(conn, entryCount + reportCount);
 Console.WriteLine($"  Wrote {entryCount:N0} entries and {reportCount} reports to: {outputPath}");
 
 var fileSize = new FileInfo(outputPath).Length;

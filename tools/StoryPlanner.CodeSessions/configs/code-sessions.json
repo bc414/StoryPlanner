@@ -1,0 +1,21 @@
+{
+  "_comment": [
+    "Claude Code transcript ingest — codesessions.db, the sealed-but-greppable engineering",
+    "archive. AUTHORED include-list (2026-08-17): where planner process knowledge was created,",
+    "and nothing else — relevance is never auto-detected. Google-Drive-Analysis and Agent-Stats",
+    "were considered and excluded (operational sessions, not knowledge-bearing);",
+    "TheCanalaveLibrary is a different project.",
+    "",
+    "projectsRoot can be pointed at the 2026-08-17 snapshot",
+    "(Documents\\ClaudeCode Projects Snapshot 2026-08-17) to backfill from it; per-session",
+    "replace means running against both sources is safe and order-independent."
+  ],
+  "projectsRoot": "C:\\Users\\Brian\\.claude\\projects",
+  "output": "C:\\Users\\Brian\\Desktop\\TLTT CodeSessions.db",
+  "projects": [
+    "C--Users-Brian-RiderProjects-StoryPlanner",
+    "c--Users-Brian-Documents-Gemini-Full-Analysis",
+    "c--Users-Brian-Documents-Takeout-Scan",
+    "c--Users-Brian-Documents-Fimfiction-Comments-Capture"
+  ]
+}

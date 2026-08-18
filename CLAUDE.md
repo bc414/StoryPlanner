@@ -180,21 +180,54 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   to Parts of their own (`ch121-queens-scientist`, …) via a **P&K-scoped** seed config — never
   re-run the full `source-material.v2.json`, which would recreate the 14 FiM two-parters Brian
   merged in-app.
-- **The Gemini-era corpus is a fifth corpus, and it lives outside the `.storyplan` (2026-08-16).**
-  The founding-era Gemini web-app conversations (Sep 2025 – Jun 2026) — the era before AI Studio
-  and Claude — are ingested by `tools/StoryPlanner.GeminiCorpus` into a standalone `gemini.db`
-  (`STORYPLAN_GEMINI_CORPUS`, Brian's is `Desktop/TLTT Gemini.db`, ~28 MB). Same sidecar pattern
-  as `sources.db`: not in the `.storyplan`, bodies streamed per query and never cached, manifest-
-  only resident, tools always registered but guarded on `IsConfigured`. Two searchable layers:
-  3,259 story-tagged conversation entries across 814 threads, and 34 curated weekly/appendix
-  reports. **Reports are the primary entry point** — they answer "when was X decided?" directly.
-  Raw entries are the detail pass, drilled into from a report hit. This corpus is **provenance,
-  not ground truth** — most of it was superseded by later work. 94 entries whose prompts paste the
-  full story plan are stubbed to a placeholder (`IsPlanPaste`); only the response is searchable.
-  The export is damaged (elision, truncation, missing responses — catalogued in `APPENDIX-D-method`
-  inside the corpus). `dotnet run --project tools/StoryPlanner.GeminiCorpus --
-  <gemini_markdown_dir> <output.db> [--apply]`; the source corpus is static, so a re-run replaces
-  everything.
+- **LINEAGE is the fifth corpus: the founding-era chats, three source layers in ONE
+  `lineage.db`, ONE tool family (2026-08-18; absorbed the 2026-08-16 gemini.db as its first
+  layer).** The layers: the Gemini web-app conversations (Sep 2025 – Jun 2026) with their curated
+  weekly reports; the early-2026 Google AI Studio chats **never imported into Conversations**
+  (populations disjoint by construction — the ingest excludes any raw chat whose `<name>.json`
+  sits in `Selected_Chats`, plus an authored `exclude` list for near-miss filenames); and
+  NotebookLM captures. One tool family (`list_lineage` / `search_lineage` / `get_lineage`,
+  source-prefixed ids) because the caller's question is lineage-shaped — *"where did this come
+  from / when was X decided"* — not platform-shaped; `STORYPLAN_LINEAGE` replaced
+  `STORYPLAN_GEMINI_CORPUS` in all three MCP configs, and the four gemini-specific tools retired
+  with it. Same sidecar pattern as `sources.db`: bodies streamed, manifest-resident, guarded on
+  `IsConfigured`; a shared `IngestRuns` ledger lets the tools disclose "never ingested"
+  distinctly from "zero rows", since each ingest creates only its own tables. **The chain**
+  (2026-08-17): founding chats → v1 archive (absorbed them, plus more) → v1 freeze →
+  Conversations (post-freeze, unmined) → v2 plan; lineage is **opt-in archeology** — the default
+  for any question is the working plan. **Provenance, never ground truth.** Per-layer caveats,
+  all mechanical: gemini's export is damaged (its APPENDIX-D catalogues it) and giant plan-paste
+  prompts are stubbed; AI Studio thinking chunks were stripped at ingest and a Drive-document
+  turn is a placeholder (never captured ≠ withheld), system instructions searched only under
+  `scope=system` (boilerplate dedup); **NotebookLM captures carry no timestamps, so a notebook's
+  date is Brian's authored assignment in the ingest config** (year or year-month precision;
+  undated = not yet resolved, flagged on every apply run — never inferred from content), and
+  studio notes are title-only until a capture that opens them exists. Capture procedure: manual
+  Ctrl+S of the notebook page with the chat panel scrolled fully to the TOP (history is
+  server-side lazy-loaded; once loaded the DOM retains all turns) into
+  `Documents/NotebookLM Captures/`, then a config entry with authored slug + date.
+- **Claude Code transcripts are a sixth corpus — sealed-but-greppable, and deliberately NOT in
+  the MCP server (2026-08-18).** `tools/StoryPlanner.CodeSessions` progressively ingests an
+  **authored include-list** of `~/.claude/projects/` dirs (StoryPlanner, Gemini-Full-Analysis,
+  Takeout-Scan, Fimfiction-Comments-Capture — where planner process knowledge was created;
+  relevance is never auto-detected) into `codesessions.db` (Brian's is
+  `Desktop/TLTT CodeSessions.db`). No MCP surface because the corpus split mirrors the Two AI
+  roles: this is **instrument lineage** (how the planner was built, what was tried and cut),
+  single-consumer — future Claude Code sessions query it directly with sqlite3; Desktop's story
+  needs are met by the products those sessions shipped (reports in lineage.db, docs, briefs).
+  Query recipes and schema: the `code-sessions` skill. **The ingest's write unit is one session
+  (per-session replace on a bytes+mtime stamp) and there is no delete path** — Claude Code
+  removes transcripts after its retention window (raised to 3650 days on 2026-08-17, after the
+  30-day default silently ate the pre-mid-July era; a full snapshot sits in
+  `Documents/ClaudeCode Projects Snapshot 2026-08-17/`), so a session absent from disk RETAINS
+  its rows: the db is the durable record. Extraction is communication-vs-computation, Brian's
+  policy of 2026-08-17: user/assistant text verbatim, subagent transcripts as their own sessions
+  (`Kind='subagent'`, `ParentSessionId`), each tool call a mechanical one-liner stub, thinking
+  and tool-result payloads dropped with char-count disclosure (`[tool result elided — N chars]`
+  means never stored, not withheld), >20k-word user pastes stubbed like gemini's plan-pastes.
+  Records keep `Uuid`/`ParentUuid` — a rewound session's branches stay visible; the DAG is never
+  linearized. In the engineering authority order this corpus sits at the transcript level: the
+  record of *why*, authoritative for *nothing* — FEATURE-AUDIT first, always.
 - **Narrative properties are closed-vocabulary fields, and they are authorial** (2026-07-31, first
   real use after a year dormant). `NarrativePropertyDefinition` is a Type Object row scoped by
   `(SubjectDefinitionId, OwnerType)` exactly like `NoteTrackDefinition` —
@@ -310,12 +343,25 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
   a re-download can shed chapters that vanished upstream. `STORYPLAN_SOURCE_TEXTS` is **optional**
   in all three MCP configs — absent, the source-text tools say so and the rest of the server is
   unaffected.
-- **Gemini-corpus ingest** (`tools/StoryPlanner.GeminiCorpus`) reads the converted Gemini Takeout
-  markdown corpus (`gemini_markdown/corpus_index.json` + entry files + `story_development_report/`
-  weekly reports) and writes `gemini.db`. `dotnet run --project tools/StoryPlanner.GeminiCorpus --
-  <gemini_markdown_dir> <output.db> [--apply]`. Source corpus is static; a re-run replaces
-  everything. `STORYPLAN_GEMINI_CORPUS` is **optional** in all three MCP configs — absent, the
-  Gemini tools say so and the rest of the server is unaffected.
+- **Lineage ingest is TWO tools writing ONE `lineage.db`, each replacing only its own tables
+  (2026-08-18).** The gemini layer: `dotnet run --project tools/StoryPlanner.GeminiCorpus --
+  <gemini_markdown_dir> <lineage.db> [--apply]` (reads `gemini_markdown/corpus_index.json` +
+  entry files + the sibling `story_development_report/`; source corpus static, re-run replaces
+  its tables). The AI Studio + NotebookLM layers: `dotnet run --project tools/StoryPlanner.Lineage
+  -- tools/StoryPlanner.Lineage/configs/lineage.json [--apply] [--source aistudio|notebooklm]`
+  — dry run names every included/excluded/dropped chat so the population is eyeballed before a
+  write, refuses on any unparseable non-ignored candidate, and every apply run re-prints the
+  NotebookLM date status (undated notebooks are a standing flag, resolved only by an authored
+  `authoredDate` in the config). Each ingest appends to the shared `IngestRuns` ledger.
+  `STORYPLAN_LINEAGE` is **optional** in all three MCP configs — absent, the lineage tools say
+  so and the rest of the server is unaffected.
+- **Code-sessions ingest** (`tools/StoryPlanner.CodeSessions`) writes `codesessions.db`, which
+  the MCP server never opens (see the sixth-corpus bullet above).
+  `dotnet run --project tools/StoryPlanner.CodeSessions --
+  tools/StoryPlanner.CodeSessions/configs/code-sessions.json [--apply] [--project NAME]` —
+  progressive: per-session replace on a `(SourceBytes, SourceMtimeUtc)` stamp; dry run prints
+  per-project new / changed / unchanged / **absent-but-retained** tallies. Re-run it whenever the
+  archive should catch up with recent sessions; sessions aged off disk keep their rows.
 - `.storyplan` is raw SQLite in **WAL mode**. Reads never block the running app. The main file's
   **mtime does not advance on write** — change detection uses `PRAGMA data_version`.
 - **`StoryService` is not read-only:** `OpenProjectAsync` runs `MigrateAsync()` (upgrades the
