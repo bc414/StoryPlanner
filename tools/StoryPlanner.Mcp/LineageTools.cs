@@ -6,9 +6,10 @@ using ModelContextProtocol.Server;
 namespace StoryPlanner.Mcp;
 
 /// <summary>
-/// Retrieval over the LINEAGE corpus — the founding-era chats behind the story's decisions,
-/// three source layers in one database: the Gemini web-app conversations with their curated
-/// weekly reports, the never-imported AI Studio chats, and the NotebookLM captures. One tool
+/// Retrieval over the LINEAGE corpus — the founding-era material behind the story's decisions,
+/// four source layers in one database: the pre-AI Google Doc revision history, the Gemini
+/// web-app conversations with their curated weekly reports, the never-imported AI Studio chats,
+/// and the NotebookLM captures. One tool
 /// family because the caller's question is lineage-shaped ("where did this come from / when
 /// was X decided"), not platform-shaped.
 ///
@@ -27,30 +28,30 @@ public sealed class LineageTools(LineageStore store)
     private const int DefaultWindow = 40_000;
     private const int MaxWindow = 50_000;
 
-    private static readonly string[] Sources = ["all", "gemini", "aistudio", "notebooklm"];
-    private static readonly string[] Scopes = ["all", "reports", "entries", "chats", "notes", "system"];
+    private static readonly string[] Sources = ["all", "gemini", "aistudio", "notebooklm", "gdoc"];
+    private static readonly string[] Scopes = ["all", "reports", "entries", "chats", "notes", "system", "snapshots"];
 
     // ── search_lineage ────────────────────────────────────────────────────────
 
     [McpServerTool(Name = "search_lineage")]
     [Description(
-        "Regex search across the LINEAGE corpus — the founding-era chats (Gemini web app " +
-        "Sep 2025 – Jun 2026, AI Studio early 2026, NotebookLM captures). Reports are searched " +
-        "and listed FIRST: they are curated digests that answer \"when was X decided?\" " +
-        "directly; drill into raw material via get_lineage only when the verbatim exchange " +
-        "matters. Everything here is provenance, not ground truth — most of it was superseded " +
-        "by later work. Hits carry source-prefixed ids (gemini:/report:/aistudio:/nlm:/" +
-        "nlm-note:) that get_lineage accepts.")]
+        "Regex search across the LINEAGE corpus — the pre-AI Google Doc revision history " +
+        "(Apr 2025 – Jan 2026), the Gemini web-app chats (Sep 2025 – Jun 2026), the AI Studio " +
+        "chats (early 2026), and the NotebookLM captures. Reports are searched and listed FIRST: " +
+        "curated digests that answer \"when was X decided?\" directly; drill into raw material " +
+        "via get_lineage only when the verbatim exchange matters. Everything here is provenance, " +
+        "not ground truth — most was superseded by later work. Hits carry source-prefixed ids " +
+        "(gdoc:/gdoc-snapshot:/gemini:/report:/aistudio:/nlm:/nlm-note:) that get_lineage accepts.")]
     public string SearchLineage(
         [Description("Regex pattern (.NET syntax). Case-insensitive unless caseSensitive=true.")]
         string pattern,
-        [Description("Source layer: \"all\" (default), \"gemini\", \"aistudio\", or \"notebooklm\".")]
+        [Description("Source layer: \"all\" (default), \"gemini\", \"aistudio\", \"notebooklm\", or \"gdoc\".")]
         string source = "all",
-        [Description("Scope: \"all\" (default) = reports + entries + chats + notes; \"reports\" / " +
-                     "\"entries\" (gemini layer); \"chats\" (AI Studio + NotebookLM turns); \"notes\" " +
-                     "(NotebookLM studio notes); \"system\" (AI Studio system instructions — searched " +
-                     "ONLY under this scope, because many chats share one boilerplate instruction and a " +
-                     "default-on match would repeat identically per chat).")]
+        [Description("Scope: \"all\" (default) = gdoc diffs + reports + entries + chats + notes; " +
+                     "\"reports\" / \"entries\" (gemini layer); \"chats\" (AI Studio + NotebookLM turns); " +
+                     "\"notes\" (NotebookLM studio notes); \"system\" (AI Studio system instructions — " +
+                     "searched ONLY under this scope); \"snapshots\" (Google Doc full-text snapshots — " +
+                     "searched ONLY under this scope; use gdoc: diffs in the default search instead).")]
         string scope = "all",
         [Description("Restrict gemini entries to a subtopic: worldbuilding-lore, characters-arcs, politics-war-military, story-craft-structure, themes-philosophy, general, romance-relationships.")]
         string? subtopic = null,
@@ -80,6 +81,9 @@ public sealed class LineageTools(LineageStore store)
         var doGemini = source is "all" or "gemini";
         var doAiStudio = source is "all" or "aistudio";
         var doNlm = source is "all" or "notebooklm";
+        var doGDoc = source is "all" or "gdoc";
+        var doGDocDiffs = doGDoc && scope is "all";
+        var doGDocSnapshots = doGDoc && scope is "snapshots";
         var doReports = doGemini && scope is "all" or "reports";
         var doEntries = doGemini && scope is "all" or "entries";
         var doAiChats = doAiStudio && scope is "all" or "chats";
@@ -91,6 +95,40 @@ public sealed class LineageTools(LineageStore store)
 
         try
         {
+            if (doGDocDiffs)
+            {
+                var total = 0;
+                var lines = new List<string>();
+                foreach (var (diff, body) in store.StreamGDocDiffs())
+                {
+                    var m = rx.Match(body);
+                    if (!m.Success) continue;
+                    total++;
+                    if (lines.Count >= limit) continue;
+                    lines.Add($"gdoc:{diff.Id} [{diff.Date} from {diff.FromDate}] " +
+                              $"+{diff.LinesAdded}/-{diff.LinesRemoved} — " +
+                              $"body: \"{Query.Snippet(body, m, contextChars)}\"");
+                }
+                sections.Add(("Google Doc diffs (pre-AI story plan changes)", total, lines));
+            }
+
+            if (doGDocSnapshots)
+            {
+                var total = 0;
+                var lines = new List<string>();
+                foreach (var (snapshot, body) in store.StreamGDocSnapshots())
+                {
+                    var m = rx.Match(body);
+                    if (!m.Success) continue;
+                    total++;
+                    if (lines.Count >= limit) continue;
+                    lines.Add($"gdoc-snapshot:{snapshot.Id} [{snapshot.Date}] " +
+                              $"{snapshot.BodyChars:N0} chars — " +
+                              $"body: \"{Query.Snippet(body, m, contextChars)}\"");
+                }
+                sections.Add(("Google Doc snapshots (point-in-time full text)", total, lines));
+            }
+
             if (doReports)
             {
                 var total = 0;
@@ -230,8 +268,9 @@ public sealed class LineageTools(LineageStore store)
 
     [McpServerTool(Name = "get_lineage")]
     [Description(
-        "Fetch full text from the LINEAGE corpus by source-prefixed id: \"report:3\" or " +
-        "\"report:2025-W49\" (curated digest — the PRIMARY read), \"gemini:12\" (one web-app " +
+        "Fetch full text from the LINEAGE corpus by source-prefixed id: \"gdoc:5\" (one day's " +
+        "diff from the pre-AI story plan), \"gdoc-snapshot:3\" (full text at a date), \"report:3\" " +
+        "or \"report:2025-W49\" (curated digest — the PRIMARY read), \"gemini:12\" (one web-app " +
         "exchange), \"aistudio:4\" (a whole AI Studio chat, turn by turn), \"aistudio-system:4\" " +
         "(that chat's system instruction), \"nlm:2\" or \"nlm:perspective-analysis\" (a whole " +
         "NotebookLM notebook), \"nlm-note:5\" (one studio note). Long texts are windowed via " +
@@ -264,6 +303,8 @@ public sealed class LineageTools(LineageStore store)
 
             var rendered = prefix switch
             {
+                "gdoc" => RenderGDocDiff(body, rest, offset, length),
+                "gdoc-snapshot" => RenderGDocSnapshot(body, rest, offset, length),
                 "report" => RenderReport(body, rest, offset, length),
                 "gemini" => RenderGeminiEntry(body, rest, offset, length),
                 "aistudio" => RenderAiChat(body, rest, offset, length, fromTurn),
@@ -283,10 +324,40 @@ public sealed class LineageTools(LineageStore store)
 
         static bool Unknown(StringBuilder body, string rawId)
         {
-            body.AppendLine($"## {rawId} — unknown id form. Valid prefixes: report:, gemini:, " +
-                            "aistudio:, aistudio-system:, nlm:, nlm-note:");
+            body.AppendLine($"## {rawId} — unknown id form. Valid prefixes: gdoc:, gdoc-snapshot:, " +
+                            "report:, gemini:, aistudio:, aistudio-system:, nlm:, nlm-note:");
             return false;
         }
+    }
+
+    private bool RenderGDocDiff(StringBuilder body, string rest, int offset, int length)
+    {
+        if (!int.TryParse(rest, out var id) || store.FetchGDocDiff(id) is not { } hit)
+        {
+            body.AppendLine($"## gdoc:{rest} — not found");
+            return false;
+        }
+        var (diff, text) = hit;
+        body.AppendLine($"## gdoc:{diff.Id} — changes on {diff.Date} (from {diff.FromDate})");
+        body.AppendLine($"+{diff.LinesAdded} lines / -{diff.LinesRemoved} lines | {diff.DeltaBytes:+#;-#;0} bytes");
+        body.AppendLine();
+        AppendWindow(body, text, offset, length, $"get_lineage(ids: [\"gdoc:{diff.Id}\"]");
+        return true;
+    }
+
+    private bool RenderGDocSnapshot(StringBuilder body, string rest, int offset, int length)
+    {
+        if (!int.TryParse(rest, out var id) || store.FetchGDocSnapshot(id) is not { } hit)
+        {
+            body.AppendLine($"## gdoc-snapshot:{rest} — not found");
+            return false;
+        }
+        var (snapshot, text) = hit;
+        body.AppendLine($"## gdoc-snapshot:{snapshot.Id} — snapshot on {snapshot.Date}");
+        body.AppendLine($"{snapshot.BodyChars:N0} chars | {snapshot.FileBytes:N0} bytes | extraction: {snapshot.Source}");
+        body.AppendLine();
+        AppendWindow(body, text, offset, length, $"get_lineage(ids: [\"gdoc-snapshot:{snapshot.Id}\"]");
+        return true;
     }
 
     private bool RenderReport(StringBuilder body, string rest, int offset, int length)
@@ -410,10 +481,10 @@ public sealed class LineageTools(LineageStore store)
     [McpServerTool(Name = "list_lineage")]
     [Description(
         "Inventory of the LINEAGE corpus: per-source ingest status (\"never ingested\" is " +
-        "disclosed distinctly from \"zero rows\"), all curated reports (the primary entry " +
-        "point), the AI Studio chats in date order, and the NotebookLM notebooks with their " +
-        "notes. Pass detail=\"gemini-threads\" for the full per-thread inventory of the gemini " +
-        "layer instead of the summary.")]
+        "disclosed distinctly from \"zero rows\"), the pre-AI Google Doc revision history " +
+        "(diffs + snapshots), all curated reports (the primary entry point), the AI Studio " +
+        "chats, and the NotebookLM notebooks with their notes. Pass detail=\"gemini-threads\" " +
+        "for the full per-thread inventory of the gemini layer instead of the summary.")]
     public string ListLineage(
         [Description("\"summary\" (default) or \"gemini-threads\" (the gemini layer's full thread inventory).")]
         string detail = "summary")
@@ -427,13 +498,18 @@ public sealed class LineageTools(LineageStore store)
         var aiChats = store.AiChats();
         var notebooks = store.NlmNotebooks();
         var notes = store.NlmNotes();
+        var gdocDiffs = store.GDocDiffs();
+        var gdocSnapshots = store.GDocSnapshots();
         var runs = store.LatestIngestRuns();
 
         var sb = new StringBuilder();
-        sb.AppendLine("# lineage corpus — founding-era chat provenance, three source layers, never ground truth");
+        sb.AppendLine("# lineage corpus — founding-era provenance, four source layers, never ground truth");
         sb.AppendLine("(reached for deliberately — the default for any question is the working plan)");
         sb.AppendLine();
         sb.AppendLine("## Sources");
+        sb.AppendLine(SourceStatus("gdoc", runs,
+            $"{gdocDiffs.Count} diffs, {gdocSnapshots.Count} snapshots",
+            "tools/StoryPlanner.GDocHistory"));
         sb.AppendLine(SourceStatus("gemini", runs,
             $"{entries.Count:N0} entries across {entries.Select(e => e.ThreadId).Distinct().Count()} threads, {reports.Count} reports",
             "tools/StoryPlanner.GeminiCorpus"));
@@ -466,7 +542,27 @@ public sealed class LineageTools(LineageStore store)
             return Query.Cap(sb);
         }
 
-        // Reports first — they are the primary entry point.
+        // GDoc diffs — the pre-AI story plan
+        if (gdocDiffs.Count > 0 || gdocSnapshots.Count > 0)
+        {
+            sb.AppendLine();
+            sb.AppendLine($"## Google Doc revision history ({gdocDiffs.Count} diffs, {gdocSnapshots.Count} snapshots) — " +
+                          "pre-AI story plan (Apr 2025 – Jan 2026)");
+            sb.AppendLine("Diffs show what changed each day (searched by default); snapshots are full text " +
+                          "(scope \"snapshots\" only, retrievable by id).");
+            foreach (var d in gdocDiffs)
+                sb.AppendLine($"gdoc:{d.Id} [{d.Date} from {d.FromDate}] +{d.LinesAdded}/-{d.LinesRemoved}, " +
+                              $"{d.DeltaBytes:+#;-#;0} bytes, {d.BodyChars:N0} diff chars");
+            if (gdocSnapshots.Count > 0)
+            {
+                sb.AppendLine();
+                sb.AppendLine("Snapshots (point-in-time full text, not in default search):");
+                foreach (var s in gdocSnapshots)
+                    sb.AppendLine($"  gdoc-snapshot:{s.Id} [{s.Date}] {s.BodyChars:N0} chars ({s.Source})");
+            }
+        }
+
+        // Reports — they are the primary entry point.
         sb.AppendLine();
         sb.AppendLine($"## Reports ({reports.Count}) — curated digests, the primary entry point");
         foreach (var r in reports)

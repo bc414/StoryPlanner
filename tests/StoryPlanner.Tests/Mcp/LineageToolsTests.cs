@@ -1,3 +1,4 @@
+using StoryPlanner.GDocHistory;
 using StoryPlanner.GeminiCorpus;
 using StoryPlanner.Lineage;
 using StoryPlanner.Mcp;
@@ -73,6 +74,22 @@ public class LineageToolsTests : IDisposable
                     Notes: [new NlmNote(1, "Literary Blueprints", "179d", "")])
             ]);
             LineageDb.RecordIngestRun(conn, "notebooklm", 3);
+        }
+
+        // GDoc revision history layer — written by its own Db class.
+        using (var conn = GDocHistoryDb.OpenWrite(_dbPath))
+        {
+            GDocHistoryDb.ReplaceGDocHistory(conn,
+                [
+                    new GDocSnapshot("2025-04-18", "Cover art for TLTT\n\nOCs\nMali is a thestral volunteer", 22407, "v1-only"),
+                    new GDocSnapshot("2025-04-28", "Cover art for TLTT\n\nOCs\nMali is a thestral volunteer\nComet Shine runs Star Energy", 32594, "v1-only"),
+                ],
+                [
+                    new GDocDiffEntry("2025-04-28", "2025-04-18",
+                        "# Changes: 2025-04-28 (from 2025-04-18)\n+1 lines / -0 lines\n\n--- under: OCs, near line 4 ---\n  Mali is a thestral volunteer\n+ Comet Shine runs Star Energy",
+                        1, 0, 10187),
+                ]);
+            GDocHistoryDb.RecordIngestRun(conn, 3);
         }
     }
 
@@ -231,6 +248,68 @@ public class LineageToolsTests : IDisposable
 
         Assert.Contains("unknown id form", result);
         Assert.Contains("aistudio-system:", result);
+    }
+
+    [Fact]
+    public void GDoc_diffs_are_searched_under_default_scope()
+    {
+        var result = Tools().SearchLineage("Comet Shine");
+        Assert.Contains("gdoc:1", result);
+        Assert.Contains("body:", result);
+    }
+
+    [Fact]
+    public void GDoc_snapshots_are_NOT_searched_under_default_scope()
+    {
+        var result = Tools().SearchLineage("thestral volunteer");
+        Assert.DoesNotContain("gdoc-snapshot:", result);
+    }
+
+    [Fact]
+    public void GDoc_snapshots_are_searched_under_scope_snapshots()
+    {
+        var result = Tools().SearchLineage("thestral volunteer", scope: "snapshots");
+        Assert.Contains("gdoc-snapshot:", result);
+    }
+
+    [Fact]
+    public void GDoc_diff_is_retrievable_by_prefixed_id()
+    {
+        var result = Tools().GetLineage(["gdoc:1"]);
+        Assert.Contains("changes on 2025-04-28", result);
+        Assert.Contains("from 2025-04-18", result);
+    }
+
+    [Fact]
+    public void GDoc_snapshot_is_retrievable_by_prefixed_id()
+    {
+        var result = Tools().GetLineage(["gdoc-snapshot:1"]);
+        Assert.Contains("snapshot on 2025-04-18", result);
+        Assert.Contains("Cover art for TLTT", result);
+    }
+
+    [Fact]
+    public void List_shows_gdoc_source_status()
+    {
+        var result = Tools().ListLineage();
+        Assert.Contains("gdoc:", result);
+        Assert.Contains("diffs", result);
+        Assert.Contains("snapshots", result);
+        Assert.Contains("last ingested", result);
+    }
+
+    [Fact]
+    public void Missing_gdoc_tables_are_absent_not_an_error()
+    {
+        var geminiOnlyPath = Path.Combine(_dir, "gdoc-absent.db");
+        using (var conn = GeminiCorpusDb.OpenWrite(geminiOnlyPath))
+        {
+            GeminiCorpusDb.ReplaceEntries(conn, []);
+            GeminiCorpusDb.ReplaceReports(conn, []);
+            GeminiCorpusDb.RecordIngestRun(conn, 0);
+        }
+        var result = new LineageTools(new LineageStore(geminiOnlyPath)).ListLineage();
+        Assert.Contains("gdoc: never ingested", result);
     }
 
     public void Dispose()

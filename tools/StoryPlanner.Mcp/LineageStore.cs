@@ -3,11 +3,12 @@ using Microsoft.Data.Sqlite;
 namespace StoryPlanner.Mcp;
 
 /// <summary>
-/// Read access to the LINEAGE corpus — one physical database (lineage.db) holding the three
-/// founding-era chat sources as parallel shelves: the Gemini web-app conversations and their
-/// curated reports (written by tools/StoryPlanner.GeminiCorpus), the never-imported AI Studio
-/// chats, and the NotebookLM captures (both written by tools/StoryPlanner.Lineage). One corpus,
-/// three source layers, still joined to nothing — provenance, not ground truth.
+/// Read access to the LINEAGE corpus — one physical database (lineage.db) holding four
+/// source layers as parallel shelves: the pre-AI Google Doc revision history (written by
+/// tools/StoryPlanner.GDocHistory), the Gemini web-app conversations and their curated reports
+/// (written by tools/StoryPlanner.GeminiCorpus), the never-imported AI Studio chats, and the
+/// NotebookLM captures (both written by tools/StoryPlanner.Lineage). One corpus, four source
+/// layers, still joined to nothing — provenance, not ground truth.
 ///
 /// Same residency model as <see cref="SourceTextStore"/>: only manifests (identity, labels,
 /// char counts) are cached; bodies are streamed per query and dropped. Invalidation is a plain
@@ -43,14 +44,19 @@ public sealed class LineageStore(string? path)
 
     public sealed record IngestRun(string Source, string RunUtc, long Rows);
 
+    public sealed record GDocDiffManifest(int Id, string Date, string FromDate, int BodyChars, int LinesAdded, int LinesRemoved, int DeltaBytes);
+    public sealed record GDocSnapshotManifest(int Id, string Date, int BodyChars, int FileBytes, string Source);
+
     private readonly object _gate = new();
     private IReadOnlyList<GeminiEntryManifest>? _geminiEntries;
     private IReadOnlyList<ReportManifest>? _reports;
     private IReadOnlyList<AiChatManifest>? _aiChats;
     private IReadOnlyList<NlmNotebookManifest>? _nlmNotebooks;
     private IReadOnlyList<NlmNoteManifest>? _nlmNotes;
+    private IReadOnlyList<GDocDiffManifest>? _gdocDiffs;
+    private IReadOnlyList<GDocSnapshotManifest>? _gdocSnapshots;
     private IReadOnlyDictionary<string, IngestRun>? _latestRuns;
-    private bool _hasGemini, _hasAiStudio, _hasNlm;
+    private bool _hasGemini, _hasAiStudio, _hasNlm, _hasGDoc;
     private (long Length, DateTime MTimeUtc) _stamp;
 
     public bool IsConfigured => !string.IsNullOrWhiteSpace(path) && File.Exists(path);
@@ -69,8 +75,10 @@ public sealed class LineageStore(string? path)
     public IReadOnlyList<AiChatManifest> AiChats() { EnsureManifest(); return _aiChats!; }
     public IReadOnlyList<NlmNotebookManifest> NlmNotebooks() { EnsureManifest(); return _nlmNotebooks!; }
     public IReadOnlyList<NlmNoteManifest> NlmNotes() { EnsureManifest(); return _nlmNotes!; }
+    public IReadOnlyList<GDocDiffManifest> GDocDiffs() { EnsureManifest(); return _gdocDiffs!; }
+    public IReadOnlyList<GDocSnapshotManifest> GDocSnapshots() { EnsureManifest(); return _gdocSnapshots!; }
 
-    /// <summary>Latest ingest run per source ("gemini" / "aistudio" / "notebooklm"), if any.</summary>
+    /// <summary>Latest ingest run per source ("gemini" / "aistudio" / "notebooklm" / "gdoc"), if any.</summary>
     public IReadOnlyDictionary<string, IngestRun> LatestIngestRuns() { EnsureManifest(); return _latestRuns!; }
 
     private void EnsureManifest()
@@ -86,6 +94,7 @@ public sealed class LineageStore(string? path)
             _hasGemini = TableExists(conn, "Entries");
             _hasAiStudio = TableExists(conn, "AiStudioChats");
             _hasNlm = TableExists(conn, "NlmNotebooks");
+            _hasGDoc = TableExists(conn, "GDocDiffs");
 
             var entries = new List<GeminiEntryManifest>();
             if (_hasGemini)
@@ -151,6 +160,30 @@ public sealed class LineageStore(string? path)
                 }
             }
 
+            var gdocDiffs = new List<GDocDiffManifest>();
+            var gdocSnapshots = new List<GDocSnapshotManifest>();
+            if (_hasGDoc)
+            {
+                using (var cmd = conn.CreateCommand())
+                {
+                    cmd.CommandText = "SELECT Id, Date, FromDate, BodyChars, LinesAdded, LinesRemoved, DeltaBytes FROM GDocDiffs ORDER BY Date";
+                    using var r = cmd.ExecuteReader();
+                    while (r.Read())
+                        gdocDiffs.Add(new GDocDiffManifest(
+                            r.GetInt32(0), r.GetString(1), r.GetString(2), r.GetInt32(3),
+                            r.GetInt32(4), r.GetInt32(5), r.GetInt32(6)));
+                }
+                if (TableExists(conn, "GDocSnapshots"))
+                {
+                    using var cmd = conn.CreateCommand();
+                    cmd.CommandText = "SELECT Id, Date, BodyChars, FileBytes, Source FROM GDocSnapshots ORDER BY Date";
+                    using var r = cmd.ExecuteReader();
+                    while (r.Read())
+                        gdocSnapshots.Add(new GDocSnapshotManifest(
+                            r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetInt32(3), r.GetString(4)));
+                }
+            }
+
             var runs = new Dictionary<string, IngestRun>(StringComparer.OrdinalIgnoreCase);
             if (TableExists(conn, "IngestRuns"))
             {
@@ -169,6 +202,8 @@ public sealed class LineageStore(string? path)
             _aiChats = aiChats;
             _nlmNotebooks = notebooks;
             _nlmNotes = notes;
+            _gdocDiffs = gdocDiffs;
+            _gdocSnapshots = gdocSnapshots;
             _latestRuns = runs;
             _stamp = stamp;
         }
@@ -292,6 +327,37 @@ public sealed class LineageStore(string? path)
                 r.GetString(6));
     }
 
+    public IEnumerable<(GDocDiffManifest Diff, string Body)> StreamGDocDiffs()
+    {
+        EnsureManifest();
+        if (!_hasGDoc) yield break;
+
+        using var conn = OpenReadOnly();
+        using var cmd = conn.CreateCommand();
+        cmd.CommandText = "SELECT Id, Date, FromDate, BodyChars, LinesAdded, LinesRemoved, DeltaBytes, Body FROM GDocDiffs ORDER BY Date";
+        using var r = cmd.ExecuteReader();
+        while (r.Read())
+            yield return (new GDocDiffManifest(
+                    r.GetInt32(0), r.GetString(1), r.GetString(2), r.GetInt32(3),
+                    r.GetInt32(4), r.GetInt32(5), r.GetInt32(6)),
+                r.GetString(7));
+    }
+
+    public IEnumerable<(GDocSnapshotManifest Snapshot, string Body)> StreamGDocSnapshots()
+    {
+        EnsureManifest();
+        if (!_hasGDoc) yield break;
+
+        using var conn = OpenReadOnly();
+        using var cmd = conn.CreateCommand();
+        cmd.CommandText = "SELECT Id, Date, BodyChars, FileBytes, Source, Body FROM GDocSnapshots ORDER BY Date";
+        using var r = cmd.ExecuteReader();
+        while (r.Read())
+            yield return (new GDocSnapshotManifest(
+                    r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetInt32(3), r.GetString(4)),
+                r.GetString(5));
+    }
+
     // ── Windowed fetch ────────────────────────────────────────────────────────
 
     public (GeminiEntryManifest Entry, string Prompt, string Response)? FetchGeminiEntry(int id)
@@ -402,6 +468,39 @@ public sealed class LineageStore(string? path)
         return (new NlmNoteManifest(
                 r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetString(3), r.GetString(4), r.GetInt32(5)),
             r.GetString(6));
+    }
+
+    public (GDocDiffManifest Diff, string Body)? FetchGDocDiff(int id)
+    {
+        EnsureManifest();
+        if (!_hasGDoc) return null;
+
+        using var conn = OpenReadOnly();
+        using var cmd = conn.CreateCommand();
+        cmd.CommandText = "SELECT Id, Date, FromDate, BodyChars, LinesAdded, LinesRemoved, DeltaBytes, Body FROM GDocDiffs WHERE Id = $id";
+        cmd.Parameters.AddWithValue("$id", id);
+        using var r = cmd.ExecuteReader();
+        if (!r.Read()) return null;
+        return (new GDocDiffManifest(
+                r.GetInt32(0), r.GetString(1), r.GetString(2), r.GetInt32(3),
+                r.GetInt32(4), r.GetInt32(5), r.GetInt32(6)),
+            r.GetString(7));
+    }
+
+    public (GDocSnapshotManifest Snapshot, string Body)? FetchGDocSnapshot(int id)
+    {
+        EnsureManifest();
+        if (!_hasGDoc) return null;
+
+        using var conn = OpenReadOnly();
+        using var cmd = conn.CreateCommand();
+        cmd.CommandText = "SELECT Id, Date, BodyChars, FileBytes, Source, Body FROM GDocSnapshots WHERE Id = $id";
+        cmd.Parameters.AddWithValue("$id", id);
+        using var r = cmd.ExecuteReader();
+        if (!r.Read()) return null;
+        return (new GDocSnapshotManifest(
+                r.GetInt32(0), r.GetString(1), r.GetInt32(2), r.GetInt32(3), r.GetString(4)),
+            r.GetString(5));
     }
 
     // ── Helpers ───────────────────────────────────────────────────────────────

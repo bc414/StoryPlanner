@@ -102,13 +102,17 @@ public static class ServerInfo
         retrieval; deciding what it means for the story is the author's.
 
         LINEAGE (search_lineage / get_lineage / list_lineage) is a FIFTH corpus: the
-        founding-era chats behind the story's decisions, three source layers in one database —
-        the Gemini web-app conversations (Sep 2025 – Jun 2026) with their curated weekly
-        story-development reports and appendices, the early-2026 Google AI Studio chats that
-        were never imported into the CONVERSATIONS corpus (the two populations are disjoint by
-        construction — an imported chat lives in CONVERSATIONS with the author's read states,
-        never here), and captures of the NotebookLM notebooks. One tool family because the
-        caller's question is lineage-shaped ("where did this come from / when was X decided"),
+        founding-era material behind the story's decisions, four source layers in one database —
+        the pre-AI Google Doc revision history (daily snapshots of the story plan from Apr 2025 –
+        Jan 2026, before AI assistance — diffs between consecutive snapshots are searched by
+        default as what changed each day, and full point-in-time snapshots are retrievable under
+        scope "snapshots" only, following the system-instruction precedent; ids: gdoc:/
+        gdoc-snapshot:), the Gemini web-app conversations (Sep 2025 – Jun 2026) with their
+        curated weekly story-development reports and appendices, the early-2026 Google AI Studio
+        chats that were never imported into the CONVERSATIONS corpus (the two populations are
+        disjoint by construction — an imported chat lives in CONVERSATIONS with the author's read
+        states, never here), and captures of the NotebookLM notebooks. One tool family because
+        the caller's question is lineage-shaped ("where did this come from / when was X decided"),
         not platform-shaped; hits carry source-prefixed ids and the layers are never joined to
         each other or to anything else. Everything here is provenance, not ground truth — most
         of it was superseded by later work. The chain a story decision travelled is: founding

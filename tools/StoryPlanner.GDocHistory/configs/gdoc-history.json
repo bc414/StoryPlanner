@@ -1,0 +1,8 @@
+{
+  // Google Doc revision history — the zeroth layer of the LINEAGE corpus.
+  // Reads the 54 merged daily snapshots, computes line-level diffs between
+  // consecutive days, and writes both to lineage.db alongside the other
+  // three source layers. Each ingest replaces only the gdoc tables.
+  "output": "C:\\Users\\Brian\\Desktop\\TLTT Lineage.db",
+  "snapshotsDir": "C:\\Users\\Brian\\RiderProjects\\StoryPlanner\\source_material_references\\TLTT Story Plan Revision History (merged)"
+}
