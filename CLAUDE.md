@@ -17,9 +17,16 @@ every document describing it.
 
 Claude Code **reads story content to understand how to build features** — you cannot correctly
 implement a flagged-note wall without reading flagged notes. That reading is instrumental. What
-Claude Code does not do is form or offer opinions about the story itself: whether a flagged note
-is resolved, whether a theme is well-evidenced, what a subject needs next. Same data, different
-purpose. Story analysis happens in Desktop, through the MCP server.
+Claude Code does not do is form or offer **opinions** about story content: whether a flagged note
+is resolved, whether a theme is well-evidenced, what a subject needs next, what prose to write.
+
+Claude Code CAN form **hypotheses** about craft technique and framework design, grounded in
+evidence (analyzed corpora, Brian's own writing, v1 archive patterns, provenance research).
+A hypothesis is a testable prediction, not a judgment. "The corpus shows M4 correlates with
+FID dominance" is a finding. "TLTT should use more FID" is an opinion. Findings and hypotheses
+are Claude Code's domain. Opinions and decisions are Brian's. This is the scientific method
+applied to narrative design: observe, hypothesize, test against evidence, report findings,
+Brian adjudicates. See `docs/ANALYSIS-SYNTHESIS-PLAN.md` for the active framework synthesis.
 
 ## What the tool must never do
 
@@ -31,6 +38,13 @@ struck three times during the MCP server build under three different names.
 > Tools answer *"what is here."* Never *"what should you do"* or *"what's interesting."*
 > An obvious bottleneck in the data is not a mandate for a feature. When a feature idea encodes
 > workflow, intent, ranking, or suggestion — stop and ask.
+
+This rule applies to **MCP tools and planner features** — the instrument must not propose story
+content. It does not prohibit **framework analysis**: testing hypotheses about craft technique
+against corpora, identifying patterns in analyzed stories, or evaluating whether track definitions
+are overfit. The three cuts above were machine-proposed *content* (AI categorizing notes, AI
+suggesting coverage, AI writing summaries). Framework analysis (testing hypotheses about how
+narrative technique works, grounded in evidence) is a different activity — see the synthesis plan.
 
 **The coverage suggestion is now cut, not merely unused (2026-07-31).** No code path writes
 `ConversationSubjectCoverage`, the reader's checklist column is gone, and a meta file's
@@ -110,6 +124,10 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   mechanical operation, and no tool should propose the mapping. **The track definitions are
   final in shape** (the 2026-07-30 event/condition split of the six History tracks was a
   definition-row change, not a schema change — the design's whole point); the data is in flux.
+  "Final in shape" means the Type Object schema is stable — tracks are data rows, not code
+  classes. The definitions themselves (which tracks exist, their display questions, cognitive
+  modes) are under active review as part of the v3 framework synthesis
+  (`docs/ANALYSIS-SYNTHESIS-PLAN.md`). The schema supports this evolution by design.
 - **World dates are structured** (2026-07-30): `Start(Y,M?,D?)` + optional `End` columns on
   `Note`, event-only `Fabula*` on `PlotPoint`. Year is the precision floor; nulls mean "to be
   determined", never "approximately". Whether a date is an event or a condition is the TRACK
@@ -180,14 +198,18 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   to Parts of their own (`ch121-queens-scientist`, …) via a **P&K-scoped** seed config — never
   re-run the full `source-material.v2.json`, which would recreate the 14 FiM two-parters Brian
   merged in-app.
-- **LINEAGE is the fifth corpus: the founding-era chats, three source layers in ONE
+- **LINEAGE is the fifth corpus: the founding-era material, four source layers in ONE
   `lineage.db`, ONE tool family (2026-08-18; absorbed the 2026-08-16 gemini.db as its first
-  layer).** The layers: the Gemini web-app conversations (Sep 2025 – Jun 2026) with their curated
-  weekly reports; the early-2026 Google AI Studio chats **never imported into Conversations**
-  (populations disjoint by construction — the ingest excludes any raw chat whose `<name>.json`
-  sits in `Selected_Chats`, plus an authored `exclude` list for near-miss filenames); and
-  NotebookLM captures. One tool family (`list_lineage` / `search_lineage` / `get_lineage`,
-  source-prefixed ids) because the caller's question is lineage-shaped — *"where did this come
+  layer; 2026-08-27: added the pre-AI Google Doc revision history as the zeroth layer).** The
+  layers: the pre-AI Google Doc revision history (Apr 2025 – Jan 2026, `tools/StoryPlanner.GDocHistory`
+  — 53 diffs between daily snapshots searched by default, 54 full snapshots retrievable under
+  scope "snapshots" only, ids `gdoc:`/`gdoc-snapshot:`); the Gemini web-app conversations
+  (Sep 2025 – Jun 2026) with their curated weekly reports; the early-2026 Google AI Studio chats
+  **never imported into Conversations** (populations disjoint by construction — the ingest
+  excludes any raw chat whose `<name>.json` sits in `Selected_Chats`, plus an authored `exclude`
+  list for near-miss filenames); and NotebookLM captures. One tool family (`list_lineage` /
+  `search_lineage` / `get_lineage`, source-prefixed ids) because the caller's question is
+  lineage-shaped — *"where did this come
   from / when was X decided"* — not platform-shaped; `STORYPLAN_LINEAGE` replaced
   `STORYPLAN_GEMINI_CORPUS` in all three MCP configs, and the four gemini-specific tools retired
   with it. Same sidecar pattern as `sources.db`: bodies streamed, manifest-resident, guarded on
@@ -343,8 +365,13 @@ Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
   a re-download can shed chapters that vanished upstream. `STORYPLAN_SOURCE_TEXTS` is **optional**
   in all three MCP configs — absent, the source-text tools say so and the rest of the server is
   unaffected.
-- **Lineage ingest is TWO tools writing ONE `lineage.db`, each replacing only its own tables
-  (2026-08-18).** The gemini layer: `dotnet run --project tools/StoryPlanner.GeminiCorpus --
+- **Lineage ingest is THREE tools writing ONE `lineage.db`, each replacing only its own tables
+  (2026-08-18; gdoc layer added 2026-08-27).** The Google Doc revision history layer:
+  `dotnet run --project tools/StoryPlanner.GDocHistory --
+  tools/StoryPlanner.GDocHistory/configs/gdoc-history.json [--apply]` (reads the 54 merged
+  daily snapshots from `source_material_references/TLTT Story Plan Revision History (merged)/`,
+  computes line-level diffs using DiffPlex; diffs searched by default, snapshots under scope
+  "snapshots" only). The gemini layer: `dotnet run --project tools/StoryPlanner.GeminiCorpus --
   <gemini_markdown_dir> <lineage.db> [--apply]` (reads `gemini_markdown/corpus_index.json` +
   entry files + the sibling `story_development_report/`; source corpus static, re-run replaces
   its tables). The AI Studio + NotebookLM layers: `dotnet run --project tools/StoryPlanner.Lineage

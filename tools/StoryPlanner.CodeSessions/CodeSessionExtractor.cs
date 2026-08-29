@@ -12,7 +12,11 @@ public sealed record ExtractedSession(
     int DuplicateUuids,
     int MalformedLines,
     int EmptyRecords,
-    int LargePasteStubs);
+    int LargePasteStubs)
+{
+    /// <summary>Total chars of assistant content — the signal for minimum-content filtering.</summary>
+    public long AssistantChars => Records.Where(r => r.Role == "assistant").Sum(r => (long)r.Body.Length);
+}
 
 /// <summary>
 /// Reduces one Claude Code session transcript (JSONL, one record per line) to its dialogue

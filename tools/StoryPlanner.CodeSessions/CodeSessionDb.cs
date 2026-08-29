@@ -190,6 +190,25 @@ public static class CodeSessionDb
         tx.Commit();
     }
 
+    public static void DeleteSessions(SqliteConnection conn, IReadOnlyList<string> sessionIds)
+    {
+        if (sessionIds.Count == 0) return;
+        using var tx = conn.BeginTransaction();
+        foreach (var sql in (string[])["DELETE FROM Records WHERE SessionId = $sid;", "DELETE FROM Sessions WHERE SessionId = $sid;"])
+        {
+            using var cmd = conn.CreateCommand();
+            cmd.Transaction = tx;
+            cmd.CommandText = sql;
+            var p = cmd.Parameters.Add("$sid", SqliteType.Text);
+            foreach (var id in sessionIds)
+            {
+                p.Value = id;
+                cmd.ExecuteNonQuery();
+            }
+        }
+        tx.Commit();
+    }
+
     /// <summary>An unchanged session still gets its LastSeenUtc advanced — proof the file existed this run.</summary>
     public static void TouchSeen(SqliteConnection conn, string sessionId)
     {

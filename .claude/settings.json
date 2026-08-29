@@ -1,15 +1,13 @@
 {
-  "model": "opus",
+  "model": "claude-opus-4-6[1m]",
   "permissions": {
     "allow": [
       "Read(**)",
-      "Glob(**)",
       "Grep(**)",
       "Bash(dotnet build*)",
       "Bash(dotnet test*)",
       "Bash(dotnet ef*)",
       "Bash(dotnet run*)",
-      "Write(.claude/**)",
       "Edit(.claude/**)",
       "mcp__storyplanner"
     ],

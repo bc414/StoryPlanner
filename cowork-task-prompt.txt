@@ -46,17 +46,14 @@ PROCEDURE
 4. Apply the full analysis framework as specified in the Analysis Brief. Use the exact
    vocabulary defined there. Report every section in order.
 
-5. Apply the full analysis framework as specified in the Analysis Brief. Use the exact
-   vocabulary defined there. Report every section in order.
-
-6. Write your analysis as a new Google Doc in the Output folder (by ID). Use the title
+5. Write your analysis as a new Google Doc in the Output folder (by ID). Use the title
    format: [Story Title] - analysis v4
    (where [Story Title] is the human-readable story title, capitalized normally).
    Follow the output format instructions in the Brief: begin with the metadata header,
    then UPPERCASE section headers, plain text formatting, no Markdown characters
    (#, **, *, etc.).
 
-7. After writing the analysis, copy the story file from Queue to the Done folder (by ID),
+6. After writing the analysis, copy the story file from Queue to the Done folder (by ID),
    then delete the original from Queue. If the copy or delete fails, keep the analysis —
    the file can be moved manually later.
 

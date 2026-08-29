@@ -13,6 +13,7 @@ using StoryPlanner.CodeSessions;
 
 var positional = args.Where(a => !a.StartsWith("--")).ToList();
 var apply = args.Contains("--apply");
+var purgeStubs = args.Contains("--purge-stubs");
 var projectArgIdx = Array.IndexOf(args, "--project");
 string? onlyProject = projectArgIdx >= 0 && projectArgIdx + 1 < args.Length ? args[projectArgIdx + 1] : null;
 if (onlyProject is not null) positional.Remove(onlyProject);
@@ -57,12 +58,52 @@ if (onlyProject is not null && !config.Projects.Contains(onlyProject, StringComp
 
 List<string> projects = onlyProject is not null ? [onlyProject] : config.Projects;
 
+const int MinAssistantChars = 200;
+
 Console.WriteLine($"code-sessions ingest ({(apply ? "APPLY" : "DRY RUN")})");
 Console.WriteLine($"  root   : {config.ProjectsRoot}");
 Console.WriteLine($"  output : {config.Output}");
 Console.WriteLine();
 
 using var conn = CodeSessionDb.OpenWrite(config.Output);
+
+if (purgeStubs)
+{
+    Console.WriteLine($"Purging stub sessions (assistant content < {MinAssistantChars} chars)...");
+    using var findCmd = conn.CreateCommand();
+    findCmd.CommandText = """
+        SELECT s.SessionId FROM Sessions s
+        WHERE (SELECT COALESCE(SUM(r.BodyChars), 0) FROM Records r WHERE r.SessionId = s.SessionId AND r.Role = 'assistant') < $min
+        """;
+    findCmd.Parameters.AddWithValue("$min", MinAssistantChars);
+    var stubIds = new List<string>();
+    using (var reader = findCmd.ExecuteReader())
+        while (reader.Read()) stubIds.Add(reader.GetString(0));
+
+    if (stubIds.Count == 0)
+    {
+        Console.WriteLine("No stubs found.");
+    }
+    else
+    {
+        Console.WriteLine($"Found {stubIds.Count} stub session(s).");
+        if (apply)
+        {
+            CodeSessionDb.DeleteSessions(conn, stubIds);
+            Console.WriteLine($"Purged {stubIds.Count} stub session(s). " +
+                              $"Database {new FileInfo(config.Output).Length / (1024.0 * 1024.0):F1} MB — " +
+                              $"run VACUUM externally to reclaim space.");
+        }
+        else
+        {
+            Console.WriteLine("DRY RUN — pass --apply to purge.");
+        }
+    }
+
+    if (!apply) return 0;
+    Console.WriteLine();
+}
+
 var stamps = CodeSessionDb.LoadStamps(conn);
 
 // (SessionId, ProjectDir, Kind, ParentSessionId, file path, subagent count) per file found.
@@ -151,6 +192,7 @@ if (!apply)
 
 Console.WriteLine("Writing...");
 var written = 0;
+var skipped = 0;
 foreach (var (f, change) in work)
 {
     if (change == IngestPlan.Change.Unchanged)
@@ -161,6 +203,13 @@ foreach (var (f, change) in work)
 
     var info = new FileInfo(f.Path);
     var extracted = CodeSessionExtractor.Extract(File.ReadLines(f.Path));
+
+    if (extracted.AssistantChars < MinAssistantChars)
+    {
+        skipped++;
+        continue;
+    }
+
     var records = extracted.Records;
     var session = new SessionRow(
         SessionId: f.SessionId,
@@ -187,7 +236,8 @@ foreach (var (f, change) in work)
 }
 
 Console.WriteLine();
-Console.WriteLine($"Wrote {written} session(s); {absent.Count} absent-but-retained; database " +
+Console.WriteLine($"Wrote {written} session(s); {skipped} skipped (< {MinAssistantChars} assistant chars); " +
+                  $"{absent.Count} absent-but-retained; database " +
                   $"{new FileInfo(config.Output).Length / (1024.0 * 1024.0):F1} MB");
 return 0;
 
