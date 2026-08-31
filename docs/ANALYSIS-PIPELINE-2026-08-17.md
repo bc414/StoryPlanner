@@ -28,7 +28,7 @@ Great = remember something, Absolute Favorites = really stick.
 
 - **Italics are load-bearing**: FID is defined partly by the ABSENCE of italic marking.
   Fimfiction's `.txt` export silently strips italics. Solution: download as EPUB, convert
-  via `EpubToMarkdown.cs` (reusing existing `FimfictionEpubReader` + `FicHtml.ChapterMarkdown`).
+  via `EpubToMarkdown.cs` (reusing existing `FicEpubReader` + `FicHtml.ChapterMarkdown`).
   Built as a `--to-markdown` command on `tools/StoryPlanner.SourceTexts`.
 
 - **Pipeline architecture**: EPUB → Markdown locally → upload to Google Drive Queue folder →

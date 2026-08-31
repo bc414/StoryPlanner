@@ -153,22 +153,14 @@ created: 2026-09-01
 
 ## Hypothesis
 
-[Concise testable prediction. What this claims, what would confirm or refute it.
-If you're explaining WHY you think this, you've drifted into rationale. One to
-three sentences.]
-
-## Rationale
-
-[Why this hypothesis exists. The provenance, the pattern that prompted it, the
-reasoning. Written when the hypothesis is first formulated or substantially
-reframed. Not updated on minor refinements — the record captures those. This
-section can be as rich as the reasoning requires, but it is supporting context,
-not the prediction itself.]
+[Concise testable prediction. 1-3 sentences. If you're explaining WHY the
+prediction exists, you've drifted into founding reasoning — that goes in the
+record's first entry.]
 
 ## Record
 
-[Chronological entries — evidence, iteration, and baseline — with full
-timestamps. See Record conventions below.]
+[Chronological entries — created, evidence, iteration, and baseline — oldest
+first, newest appended to the bottom. See Record conventions below.]
 ```
 
 **Frontmatter fields:**
@@ -184,20 +176,37 @@ timestamps. See Record conventions below.]
 **Verbosity guardrails:**
 
 The hypothesis statement must be readable in isolation as a testable prediction.
-If it can't be, it's carrying material that belongs in the rationale or record.
+If it can't be, it's carrying material that belongs in the record's founding
+entry.
 
-- **Statement:** What this predicts. What would confirm or refute it. 1-3
-  sentences. No provenance, no implications, no testing methodology.
-- **Rationale:** Why this hypothesis exists. One to three paragraphs. Written
-  once or on major reframings. Not grown on every iteration.
-- **Record:** Compressed deltas. Each entry is one to three sentences. Not a
-  re-explanation of the full hypothesis.
+- **Statement:** What this predicts. 1-3 sentences. No provenance, no
+  implications, no testing methodology, no confirm/refute conditions.
+- **Record entries:** Compressed deltas. Each entry is one to three sentences,
+  except the founding `created` entry which may be longer (creation is a bigger
+  event than a typical iteration).
 
 ### Record conventions
 
-The record is a single chronological list with three entry types, distinguished
-by structured markers. Full ISO timestamps (not just dates — multiple events
-happen per day).
+The record is a single chronological list, **oldest first, newest appended to
+the bottom.** Four entry types, distinguished by structured markers. Full ISO
+timestamps (not just dates — multiple events happen per day).
+
+**Created entries** are always the first entry. They explain why the hypothesis
+was created — the reasoning, the motivation, the observation that prompted it.
+The hypothesis stands on its own as a primary source; the created entry does
+not cite which document or prior numbering it was extracted from (that
+provenance chain is in the consolidation report). The entry is written in
+Claude's voice with Brian's assertions as the primary content. It does NOT
+include confirm/refute conditions or testing methodology — those are the
+forward plan's job when designing WUs.
+
+```
+- created | 2026-09-01T10:00: Variable focalization may be the master
+  perspective principle rather than deep third/FID. The v2 framework centered
+  FID as the primary technique; the 112-story corpus and Brian's NLM analysis
+  suggest the power comes from variation across the focalization spectrum, not
+  from staying deep.
+```
 
 **Evidence entries** have a source in parentheses and alignment in brackets:
 
@@ -229,9 +238,10 @@ place on the original evidence entry line (e.g., change `[challenging]` to
 which entries changed. The evidence content (what was found) is never edited —
 only the alignment tag.
 
-**Grep patterns:** `^- evidence` finds all evidence entries across files.
-`\[challenging\]` finds all currently-challenging evidence. `^- baselined` finds
-all baseline events. `^- iteration` finds all hypothesis text changes.
+**Grep patterns:** `^- created` finds all founding entries. `^- evidence` finds
+all evidence entries. `\[challenging\]` finds all currently-challenging evidence.
+`^- baselined` finds all baseline events. `^- iteration` finds all hypothesis
+text changes.
 
 ### Ceremony scaling
 
@@ -243,7 +253,7 @@ unless the change was evidence-driven.
 
 **Significant** (scope changed, evidence prompted rethink): Full iteration entry
 with evidence citations. Re-assess prior evidence alignment. Reconsider status.
-Update rationale section if it's now misleading.
+Update the founding `created` entry if the reframing makes it misleading.
 
 **Structural** (split, merge, supersede): Create new file(s). Add a final
 iteration entry to the old file recording the structural change and what
@@ -270,8 +280,8 @@ elaborated away.
 
 The same protocol applies whether creating one hypothesis or forty during a
 consolidation. The file must have: frontmatter with all required fields,
-a hypothesis statement (concise testable prediction), a rationale, and an
-empty or initial record.
+a hypothesis statement (concise testable prediction) and a record with a
+founding `created` entry.
 
 **Detection criteria for emergent hypotheses:**
 
@@ -311,7 +321,7 @@ from Claude-originated hypotheses.
 ### Connections between hypotheses
 
 No formal cross-references in frontmatter or metadata. Connections emerge from
-prose — the hypothesis statement, rationale, and record entries naturally mention
+prose — the hypothesis statement and record entries naturally mention
 other hypotheses when relevant. Formal reference fields are staleness targets.
 
 Consolidation sessions are the maintenance mechanism for the hypothesis graph:
@@ -347,6 +357,61 @@ consolidation change the landscape significantly.
 retired plan with no successor yet (consolidation happened, new plan pending)
 is signaled by the consolidation report existing without a matching next-
 numbered plan.
+
+**Designing the experimental agenda:**
+
+The forward plan is a best-effort agenda for the full hypothesis set — not a
+partial selection. Every hypothesis should be targeted by at least one WU.
+Hypothesis tiers are comprehension order for reading the index, not execution
+order or scoping boundaries; WUs cross tiers freely (a corpus synthesis WU
+will inform hypotheses from Tiers F, G, and H simultaneously).
+
+Start from the hypothesis landscape, not from prior plans or synthesis
+documents. Read the full index and hypothesis files. For each hypothesis or
+cluster, ask: what evidence would move this from untested to evidenced or
+challenged? The answer is a candidate experiment.
+
+Group candidate experiments by evidence source. Multiple hypotheses testable
+from the same evidence (the same corpus read, the same archive mining pass)
+share a WU. A WU that can't name specific hypotheses it informs is too vague.
+
+WUs with unmet preconditions (blocked on Brian, needs a skill, needs prior WU
+findings) are in the plan with preconditions noted — not deferred to a future
+plan. The plan is comprehensive; execution order follows the criteria below.
+
+Prior plans and synthesis documents are reference for understanding what was
+tried before — not templates. A forward plan that looks like a renumbering of
+a prior document has not engaged with the current landscape.
+
+**Ordering criteria** (in priority order — hard constraints first, then
+efficiency, then advisory):
+
+1. **Evidence dependency chains.** WU X needs WU Y's findings as input. A
+   retrospective that assesses framework provenance against corpus evidence
+   can't run until the corpus synthesis has produced that evidence. These are
+   constraints the plan must respect, not preferences.
+2. **Precondition blockers.** The experiment needs a skill, a data export, or
+   Brian's action that doesn't exist yet. Noted in the WU spec; the experiment
+   is in the plan but can't execute until the precondition is met.
+3. **Infrastructure hypotheses first.** Some hypotheses predict properties of
+   the experimental infrastructure itself — the existence of an evidence source,
+   a contamination in the data, a methodological bias, a domain-separability
+   assumption. If confirmed or refuted, they change how other experiments are
+   designed or how their results are interpreted. Testing them late means
+   potentially reworking findings made on wrong assumptions. Their evidence and
+   deliberation may warrant a new forward plan. Examples: a hypothesis that an
+   un-ingested corpus contains needed provenance (test source existence before
+   running experiments that would benefit from it); a hypothesis that the
+   working data has voice contamination (assess severity before mining
+   experiments that would inherit the confusion); a hypothesis that two domains
+   are separable (test before designing experiments scoped to one domain alone).
+4. **Unblocking value.** An experiment that produces evidence for many
+   hypotheses simultaneously (high evidence-source multiplexing) unblocks more
+   downstream work per unit of effort. Run high-yield experiments first.
+5. **Foundation before application.** Testing foundational hypotheses (the
+   premises downstream claims rest on) before the claims that build on them
+   makes findings more interpretable. Not blocking — application experiments
+   can run — but results are harder to evaluate on untested foundations.
 
 **Contents:**
 
@@ -451,8 +516,9 @@ experimental approaches:
 - `baselined` — Brian has reviewed and is acting on these. Unless new challenges
   emerge, no experiment needed.
 
-This priority ordering is advisory. Brian picks what to work on based on
-interest, energy, and what's blocking the creative work he wants to do.
+This priority ordering is one input to experiment design. The ordering criteria
+in "Designing the experimental agenda" above are the primary ordering mechanism;
+hypothesis status is a secondary signal within that structure.
 
 ### WU design and execution
 
@@ -552,6 +618,12 @@ once evidence.
 
 **Hypothesis files:** `NNN-slug.md` in the `hypotheses/` directory.
 
+**Implementation candidates:** `implementation-candidates.md`. Proposed codebase
+changes gated on hypotheses. Living document — new candidates added as they
+emerge. Not a forward plan (doesn't prioritize experiments) and not FEATURE-AUDIT
+(doesn't record decisions). Candidates become actionable when their gating
+hypotheses are baselined, then enter the normal development process.
+
 **When to consult provenance:** Understanding why a hypothesis looks the way it
 does (read its record + the consolidation report that last touched it).
 Understanding why a forward plan was retired (read its header stamp + the
@@ -567,10 +639,11 @@ hypothesis files are the working instruments. Everything else is history.
 
 Two companion files live in this skill's folder (`.claude/skills/v3-buildout/`):
 
-**VERSION-HISTORY.md** — Origin of the v3 buildout, version history (v0 through
-v3 codebase and framework evolution), and the provenance table (which concept
-first appeared where). Stable, written once, rarely updated. Referenced by
-retrospective WUs and consolidation sessions that need historical context.
+**VERSION-HISTORY.md** — Verifiable facts about the project timeline and
+architecture: dates, commit counts, tool/platform transitions, architectural
+changes, key conversation metadata. Facts only — no interpretive claims about
+why things happened, where concepts came from, or what characterizes each era.
+Interpretive claims are hypotheses and belong in hypothesis files.
 
 **CORPUS-STATUS.md** — What material exists and what state it's in: the 112-
 story analysis corpus, Brian's own fiction, supplementary material (comments,

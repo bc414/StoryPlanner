@@ -5,21 +5,25 @@ using System.Text.RegularExpressions;
 namespace StoryPlanner.SourceTexts;
 
 /// <summary>
-/// Reads a Fimfiction EPUB export into one unit per chapter.
+/// Reads a fiction EPUB (Fimfiction native or FicHub export) into one unit per chapter.
 ///
 /// EPUB rather than the .txt export for two reasons, both measured rather than assumed: the .txt
 /// loses every italic (this author sets internal monologue in them throughout), and the EPUB
 /// carries an explicit chapter list, which removes the ordinal guessing that the .txt's
 /// "&gt; Title / &gt; ----" delimiters would have required. Chapter order IS the mapping onto the
 /// Part set; chapter titles are the audit of that mapping, printed for every pair.
+///
+/// Fimfiction's native export uses chapter-N.html at the archive root with h1 headings and
+/// span-style emphasis. FicHub uses EPUB/chap_N.xhtml with h2 headings and semantic em/strong.
+/// Both share an NCX navigation file; FicHtml.ToMarkdown handles both emphasis styles.
 /// </summary>
-public static class FimfictionEpubReader
+public static class FicEpubReader
 {
     private static readonly Regex NavPoint = new(
         """<navLabel>\s*<text>(.*?)</text>\s*</navLabel>\s*<content src="(.*?)"\s*/?>""",
         RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
-    private static readonly Regex ChapterFile = new(@"^chapter-\d+\.html$", RegexOptions.IgnoreCase);
+    private static readonly Regex ChapterFile = new(@"^chap(ter)?[-_]\d+\.x?html$", RegexOptions.IgnoreCase);
 
     /// <summary>Front matter that ships as a chapter file but is not a chapter.</summary>
     private static readonly string[] NonChapterTitles = ["table of contents", "title", "cover"];
@@ -35,16 +39,21 @@ public static class FimfictionEpubReader
                        ?? throw new InvalidOperationException($"No .ncx navigation file in {epubPath}");
         var ncx = ReadEntry(ncxEntry);
 
+        // NCX src paths are relative to the NCX file's location in the archive
+        // (Fimfiction: root; FicHub: EPUB/)
+        var ncxDir = Path.GetDirectoryName(ncxEntry.FullName)?.Replace('\\', '/') ?? "";
+
         var chapters = new List<EpubChapter>();
         foreach (Match m in NavPoint.Matches(ncx))
         {
             var title = WebUtility.HtmlDecode(m.Groups[1].Value).Trim();
             var src = m.Groups[2].Value.Trim();
-            if (!ChapterFile.IsMatch(src)) continue;
+            if (!ChapterFile.IsMatch(Path.GetFileName(src))) continue;
             if (NonChapterTitles.Contains(title.ToLowerInvariant())) continue;
 
+            var resolvedSrc = string.IsNullOrEmpty(ncxDir) ? src : $"{ncxDir}/{src}";
             var entry = zip.Entries.FirstOrDefault(e =>
-                e.FullName.Equals(src, StringComparison.OrdinalIgnoreCase));
+                e.FullName.Equals(resolvedSrc, StringComparison.OrdinalIgnoreCase));
             if (entry is null) continue;
 
             chapters.Add(new EpubChapter(src, title, ReadEntry(entry)));

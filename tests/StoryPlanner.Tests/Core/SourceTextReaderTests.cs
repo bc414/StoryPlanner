@@ -69,8 +69,8 @@ public class SourceTextReaderTests
     [Fact]
     public void Section_codes_are_stable_and_readable()
     {
-        Assert.Equal("ch121-queens-scientist", FimfictionEpubReader.SectionCode("ch121", "The Queen's Scientist"));
-        Assert.Equal("ch122-storm-kings-right-hoof", FimfictionEpubReader.SectionCode("ch122", "The Storm King's Right Hoof"));
+        Assert.Equal("ch121-queens-scientist", FicEpubReader.SectionCode("ch121", "The Queen's Scientist"));
+        Assert.Equal("ch122-storm-kings-right-hoof", FicEpubReader.SectionCode("ch122", "The Storm King's Right Hoof"));
     }
 
     // ── EPUB -> Part mapping: the refusal that guards against off-by-one ────────
@@ -81,14 +81,14 @@ public class SourceTextReaderTests
         // Zipping a short list onto a long one silently misdates every chapter after the gap,
         // and a citation pointing at the wrong chapter is worse than no text at all.
         var report = new IngestReport();
-        var chapters = new List<FimfictionEpubReader.EpubChapter>
+        var chapters = new List<FicEpubReader.EpubChapter>
         {
             new("chapter-1.html", "Part One", "<html><body><p>a</p></body></html>"),
             new("chapter-2.html", "Part Two", "<html><body><p>b</p></body></html>")
         };
         var parts = new List<(string, string)> { ("ch1", "Departure"), ("ch2", "Boat"), ("ch3", "Frontier") };
 
-        var units = FimfictionEpubReader.ToUnits("P&K", chapters, parts, new HashSet<string>(), "x.epub", report);
+        var units = FicEpubReader.ToUnits("P&K", chapters, parts, new HashSet<string>(), "x.epub", report);
 
         Assert.Empty(units);
         Assert.True(report.HasErrors);
@@ -98,14 +98,14 @@ public class SourceTextReaderTests
     public void Matching_counts_map_in_reading_order()
     {
         var report = new IngestReport();
-        var chapters = new List<FimfictionEpubReader.EpubChapter>
+        var chapters = new List<FicEpubReader.EpubChapter>
         {
             new("chapter-1.html", "Part One", "<html><body><p>alpha</p></body></html>"),
             new("chapter-2.html", "Part Two", "<html><body><p>beta</p></body></html>")
         };
         var parts = new List<(string, string)> { ("ch1", "Departure"), ("ch2", "Boat") };
 
-        var units = FimfictionEpubReader.ToUnits("P&K", chapters, parts, new HashSet<string>(), "x.epub", report);
+        var units = FicEpubReader.ToUnits("P&K", chapters, parts, new HashSet<string>(), "x.epub", report);
 
         Assert.False(report.HasErrors);
         Assert.Equal(["ch1", "ch2"], units.Select(u => u.PartCode));
@@ -117,13 +117,13 @@ public class SourceTextReaderTests
     public void A_split_chapter_becomes_one_unit_per_section()
     {
         var report = new IngestReport();
-        var chapters = new List<FimfictionEpubReader.EpubChapter>
+        var chapters = new List<FicEpubReader.EpubChapter>
         {
             new("chapter-1.html", "The Wind that Fanned the Flames, I", ChapterWithSections)
         };
         var parts = new List<(string, string)> { ("ch121", "The Wind that Fanned the Flames, I") };
 
-        var units = FimfictionEpubReader.ToUnits(
+        var units = FicEpubReader.ToUnits(
             "P&K", chapters, parts, new HashSet<string> { "ch121" }, "x.epub", report);
 
         Assert.Equal(["ch121-queens-scientist", "ch121-father"], units.Select(u => u.PartCode));

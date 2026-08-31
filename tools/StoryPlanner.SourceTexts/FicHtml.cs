@@ -30,6 +30,7 @@ public static class FicHtml
         RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
     private static readonly Regex H1 = new(@"<h1[^>]*>(.*?)</h1>", RegexOptions.Singleline | RegexOptions.IgnoreCase);
+    private static readonly Regex H2 = new(@"<h2[^>]*>(.*?)</h2>", RegexOptions.Singleline | RegexOptions.IgnoreCase);
     private static readonly Regex BodyTag = new(@"<body[^>]*>(.*?)</body>", RegexOptions.Singleline | RegexOptions.IgnoreCase);
 
     public sealed record Section(string Title, string Markdown);
@@ -38,6 +39,7 @@ public static class FicHtml
     public static string ChapterTitle(string xhtml)
     {
         var m = H1.Match(xhtml);
+        if (!m.Success) m = H2.Match(xhtml);
         return m.Success ? WebUtility.HtmlDecode(StripTags(m.Groups[1].Value)).Trim() : "";
     }
 
@@ -64,7 +66,15 @@ public static class FicHtml
     }
 
     /// <summary>The whole chapter as Markdown, &lt;h1&gt; removed (the title is stored separately).</summary>
-    public static string ChapterMarkdown(string xhtml) => ToMarkdown(H1.Replace(ExtractBody(xhtml), ""));
+    public static string ChapterMarkdown(string xhtml)
+    {
+        var body = ExtractBody(xhtml);
+        // Fimfiction: chapter heading is h1. FicHub: h2. Strip whichever is present so the
+        // title (stored separately via NCX) doesn't duplicate in the markdown output.
+        if (H1.IsMatch(body))
+            return ToMarkdown(H1.Replace(body, ""));
+        return ToMarkdown(H2.Replace(body, "", 1));
+    }
 
     private static string ExtractBody(string xhtml)
     {

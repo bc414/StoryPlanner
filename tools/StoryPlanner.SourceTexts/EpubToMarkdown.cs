@@ -4,7 +4,7 @@ public static class EpubToMarkdown
 {
     public static string Convert(string epubPath)
     {
-        var chapters = FimfictionEpubReader.ReadChapters(epubPath);
+        var chapters = FicEpubReader.ReadChapters(epubPath);
         if (chapters.Count == 0)
             throw new InvalidOperationException($"No chapters found in {epubPath}");
 

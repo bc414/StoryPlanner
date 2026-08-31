@@ -1,12 +1,13 @@
 ---
 name: analyze-story
-description: Run a v4 literary analysis on a Fimfiction story using Opus 4.6 at 1M context. Reads the full story locally, produces a structured analysis, and writes it to Google Drive as a Google Doc. Invoked per-story from separate sessions for parallelism.
+description: Run a v4 literary analysis on a Fimfiction story using Opus 4.6 at 1M context. Reads the full story locally, produces a structured analysis, and writes it to Google Drive (or locally with --local). Invoked per-story from separate sessions for parallelism.
 ---
 
 # Analyze Story
 
 Run a v4 Analysis Brief analysis on a single Fimfiction story using the full 1M context
-window — no compaction, no sampling, no skimming. Write the result to Google Drive.
+window — no compaction, no sampling, no skimming. Write the result to Google Drive, or
+to a local file with `--local`.
 
 ## Populations and naming conventions
 
@@ -16,7 +17,7 @@ naming convention. Read it before doing meta-analysis work (4.1a/4.1b/4.2/4.3/4.
 
 ## Invocation
 
-Three modes:
+Three modes, plus a combinable output flag:
 
 **Full analysis (default):**
 `/analyze-story <story-name>`
@@ -32,8 +33,16 @@ Splits at the chapter midpoint. See "Split mode" below.
 
 **Lightweight merge of Part 1 + Part 2:**
 `/analyze-story <story-name> --merge`
-Reads both the existing Part 1 (truncated) and Part 2 (continuation) analyses from Drive,
-then produces a single reconciled canonical analysis. See "Merge mode" below.
+Reads both existing Part 1 and Part 2 analyses, then produces a single reconciled
+canonical analysis. See "Merge mode" below.
+
+**Local output (`--local`, combinable with any mode):**
+`/analyze-story <story-name> --local`
+Writes the analysis to `source_material_references/Reading Archive Analyses/` as a `.txt`
+file instead of creating a Google Doc on Drive. The merge source also reads from local
+files when `--local` is set. Use for stories where Drive upload is unnecessary or the
+output is an intermediate (split parts that will be merged). Combinable with `--part 2`,
+`--continue-from`, `--merge`, or default mode.
 
 ## Procedure
 
@@ -84,9 +93,19 @@ Key adaptations from the cloud pipeline:
   - `CONTEXT: 1M (full read, no compaction)` (or the appropriate variant — see modes below)
   - `DATE: <today's date>`
 
-### 5. Write to Google Drive
+### 5. Write output
 
-After producing the analysis text, use the `mcp__claude_ai_Google_Drive__create_file` tool:
+**If `--local`:** Write the analysis text to a `.txt` file in
+`source_material_references/Reading Archive Analyses/` using the local naming convention:
+
+| Mode | Filename |
+|---|---|
+| Full | `<slug>-1m.txt` |
+| Split Part 1 | `<slug>-1m-part1.txt` |
+| Split Part 2 / Continuation | `<slug>-1m-part2.txt` |
+| Merge | `<slug>-1m-merged.txt` |
+
+**Otherwise (default):** Use the `mcp__claude_ai_Google_Drive__create_file` tool:
 - `title`: see the naming convention for each mode below.
   Convert the slug to title case for the story title (e.g. `salvation` → `Salvation`,
   `the-best-night-ever` → `The Best Night Ever`).
@@ -98,15 +117,17 @@ The `text/plain` content is auto-converted to a Google Doc by Drive.
 
 ### 6. Check off in populations.md
 
-After the Drive write succeeds, update `.claude/skills/analyze-story/populations.md`:
+After the write succeeds (Drive or local), update
+`.claude/skills/analyze-story/populations.md`:
 - For full/continuation/split: check off the story's checkbox.
 - For merge: check off the story's merge checkbox.
 Use the Edit tool with the exact checkbox line.
 
 ### 7. Report completion
 
-Tell the user: the story name, the output doc title, the mode used, and what to do next
-(e.g. run `--merge` after continuation, or nothing if merge is done).
+Tell the user: the story name, the output location (Drive doc title or local file path),
+the mode used, and what to do next (e.g. run `--merge` after continuation, or nothing if
+merge is done).
 
 ---
 
@@ -151,9 +172,18 @@ Produces a single canonical analysis from a Part 1 + Part 2 pair. This is a ligh
 reconciliation, NOT a full re-analysis.
 
 **How it works:**
-1. Search Drive Output folder for both `<Story Title> - analysis v4 (1M)` (the truncated
-   Part 1) and `<Story Title> - analysis v4 (1M, Part 2)` (the continuation).
+
+1. Read the Part 1 and Part 2 analyses:
+
+   **If `--local`:** Read from `source_material_references/Reading Archive Analyses/`:
+   - Part 1: `<slug>-1m.txt` (truncated full) or `<slug>-1m-part1.txt` (split)
+   - Part 2: `<slug>-1m-part2.txt`
+
+   **Otherwise:** Search Drive Output folder for both
+   `<Story Title> - analysis v4 (1M)` (the truncated Part 1) and
+   `<Story Title> - analysis v4 (1M, Part 2)` (the continuation).
    Use `mcp__claude_ai_Google_Drive__search_files` and `read_file_content`.
+
 2. Read both documents in full.
 3. Produce a merged analysis that:
    a) Accepts both parts' per-chapter analytical findings (mechanism instances, DT/FID

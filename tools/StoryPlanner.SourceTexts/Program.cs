@@ -69,7 +69,7 @@ foreach (var src in root.GetProperty("sources").EnumerateArray())
     {
         case "fimfiction-epub":
         {
-            var chapters = FimfictionEpubReader.ReadChapters(path);
+            var chapters = FicEpubReader.ReadChapters(path);
             var splitCodes = src.TryGetProperty("splitChapters", out var sc)
                 ? sc.EnumerateArray().Select(e => e.GetString()!).ToHashSet(StringComparer.OrdinalIgnoreCase)
                 : new HashSet<string>(StringComparer.OrdinalIgnoreCase);
@@ -81,7 +81,7 @@ foreach (var src in root.GetProperty("sources").EnumerateArray())
                 .Where(p => !splitCodes.Any(sc => p.Code.StartsWith($"{sc}-", StringComparison.OrdinalIgnoreCase)))
                 .Select(p => (p.Code, p.Name))
                 .ToList();
-            units = FimfictionEpubReader.ToUnits(workName, chapters, parts, splitCodes, path, report);
+            units = FicEpubReader.ToUnits(workName, chapters, parts, splitCodes, path, report);
             break;
         }
         case "fim-transcript-json":

@@ -20,19 +20,23 @@ Ground truth for populations: `.claude/skills/analyze-story/populations.md`.
 - romance-reports (1,049 KB) — Abandoned by Brian; partial analysis may cover
   unread content. Existing analysis kept; flagged in favorites as Abandoned.
 
-## Brian's own fiction (for WU2a)
+## Brian's own fiction
 
-6 published stories + naive TLTT chapters:
-- THLB (Pokemon, 2015-2017, first-person alternating POV) — fichub epub, verify italics
-- Wish (Pokemon, 2020, one-shot) — fichub epub, verify italics
-- TEatS (Pokemon, 2020-2021) — fichub epub, verify italics
-- NTL (Pokemon, 2021-2023, unfinished) — fichub epub, verify italics
-- GIYC (MLP, 2024-2025, unfinished) — Fimfiction epub (italics expected preserved)
-- Falldale (EaW, Nov 2025, one-shot) — Fimfiction epub (italics expected preserved)
-- Naive TLTT Ch1-2 (June 2025) — already in `source_material_references/` as markdown
+6 published stories + naive TLTT chapters. Italics verified 2026-08-31.
 
-Status: epubs downloaded 2026-08-29. Remaining: verify italics in the 4 fichub exports
-from fanfiction.net (THLB, Wish, TEatS, NTL).
+Markdown files in `source_material_references/open_stories_md/`:
+- THLB (Pokemon, 2015-2017, first-person alternating POV)
+- Wish (Pokemon, 2020, one-shot)
+- TEatS (Pokemon, 2020-2021)
+- NTL (Pokemon, 2021-2023, unfinished)
+- GIYC (MLP, 2024-2025, unfinished)
+- Falldale (EaW, Nov 2025, one-shot)
+- Naive TLTT Ch1-2 (June 2025) — in `source_material_references/` as markdown
+
+Source epubs in `source_material_references/own_stories_epub/`. Converted via
+FicEpubReader (`dotnet run --project tools/StoryPlanner.SourceTexts -- --to-markdown`).
+
+Status: **Ready.** All texts converted with italics intact.
 
 ## Supplementary material
 
@@ -47,18 +51,37 @@ from fanfiction.net (THLB, Wish, TEatS, NTL).
 
 All in `source_material_references/`.
 
-## Planning doc revision histories (for WU3)
+## Planning doc revision histories
 
 - TLTT — already in lineage (53 diffs, `gdoc:` ids)
-- KU/NTL — Drive doc IDs known, needs appscript export + GDocHistory ingest
-- GIYC — Drive doc ID known, needs appscript export + GDocHistory ingest
-- Falldale — Drive doc ID known; planning doc "almost as long as the prose itself"
+- KU/NTL, GIYC, Falldale — raw exports in `Planning_Document_Revision_History/`.
+  Mix of `.txt` (from appscript) and plain text docs (manually copied from Drive
+  to fill gaps from the API's limitations). Preprocessing needed before GDocHistory
+  ingest — the forward plan should note the location and scope the preprocessing.
 
-Status: Blocks on Brian running the appscript to export revision histories from Drive.
+Status: **Raw data available.** Preprocessing and ingest pending.
+
+## Google Keep notes
+
+Brian's Google Keep notes are in `C:/Users/Brian/Google Drive Analysis`. May
+contain provenance material (early hypotheses, intuitions, corrections) not in
+other corpora. Whether they warrant an ingest path is hypothesis 045.
+
+Status: **Available for assessment.** No ingest path exists yet.
+
+## Lineage corpus
+
+All layers ingested into `lineage.db`:
+- Google Doc revision history (TLTT, 53 diffs + 54 snapshots)
+- Gemini web conversations
+- AI Studio chats (all accounts — multiple accounts processed 2026-08-31)
+- NotebookLM captures
+
+Status: **Current.**
 
 ## Skills needed
 
-- WU2a needs an adapted analyze-story skill (self-diagnostic framing, handle
-  unfinished works, naive chapters as partial text)
-- WU2b needs a new skill for v1 archive extraction (multiple subagents, batched by
-  chapter arc, Gemini-voice separation via lineage grep, consistent categorization)
+- Own fiction analysis needs an adapted analyze-story skill (self-diagnostic
+  framing, handle unfinished works, naive chapters as partial text)
+- V1 archive extraction needs a new skill (multiple subagents, batched by
+  chapter arc, voice separation via lineage grep, consistent categorization)

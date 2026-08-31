@@ -1,5 +1,18 @@
 # Framework v3 Synthesis Plan (2026-08-29)
 
+> **HISTORICAL (banner added 2026-08-31).** Superseded by the `v3-buildout` skill
+> (methodology), individual hypothesis files in `docs/v3-framework/hypotheses/`
+> (hypothesis set), and numbered forward plans in `docs/v3-framework/` (experimental
+> agenda). This document was the first governing plan for the v3 framework synthesis,
+> written by a Claude session. Its hypotheses (H1-H28) were consolidated into
+> individual files with unified numbering (see `consolidation-1-plan.md`). Its WU
+> specifications are being absorbed into forward-plan-1.md. Its version history and
+> framing sections mix verifiable facts with interpretive claims — the facts were
+> extracted to `.claude/skills/v3-buildout/VERSION-HISTORY.md`; the interpretive
+> claims are hypotheses tracked in the hypothesis files. **Do not treat this
+> document's assertions as settled — they are a point-in-time best effort from
+> 2026-08-29.**
+
 ## Origin
 
 On 2026-08-14, Brian set up automated analysis of his Fimfiction favorites during a

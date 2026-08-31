@@ -463,7 +463,7 @@ govern the planner at every level.
   corpora never joined.
 - **Abandoned after being built:** note categorization, coverage-track suggestions, the
   41-report insight pipeline.
-- `FEATURE-AUDIT.md` ⚪ lists features rejected in-conversation or closed as already-resolved.
+- `FEATURE-AUDIT.md` ⚪ records features rejected in-conversation or closed as already-resolved at the time of writing — its assertions are testable against current evidence, not settled.
 - **Note supersession is settled (2026-07-30, FEATURE-AUDIT C1).** No `Superseded` state, no
   `Retcon` track, no note-to-note supersession link. Displaced lore is not archived — it is
   *promoted*: rewritten as a scene-link `Reader Prior Belief Update`/`Clash` note (what the reader
