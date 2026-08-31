@@ -1,5 +1,10 @@
 # Analysis Pipeline — Post-Vacation Plan (2026-08-26)
 
+> **Superseded for forward-looking work by `ANALYSIS-SYNTHESIS-PLAN.md` (2026-08-29).**
+> This document remains valid as the historical record of the per-story pipeline
+> execution (phases 1a, 1b, 2, 3, 4) and the corpus populations. The synthesis plan
+> governs the framework v3 work that builds on this pipeline's outputs.
+
 Successor to `ANALYSIS-PIPELINE-2026-08-17.md`. That document covers the origin
 through v4 Brief; this one picks up where the vacation left off.
 

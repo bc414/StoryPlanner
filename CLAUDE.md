@@ -26,7 +26,8 @@ A hypothesis is a testable prediction, not a judgment. "The corpus shows M4 corr
 FID dominance" is a finding. "TLTT should use more FID" is an opinion. Findings and hypotheses
 are Claude Code's domain. Opinions and decisions are Brian's. This is the scientific method
 applied to narrative design: observe, hypothesize, test against evidence, report findings,
-Brian adjudicates. See `docs/ANALYSIS-SYNTHESIS-PLAN.md` for the active framework synthesis.
+Brian adjudicates. See the `v3-buildout` skill for the framework synthesis methodology,
+and `docs/v3-framework/` for hypothesis files and forward plans.
 
 ## What the tool must never do
 
@@ -126,8 +127,9 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   definition-row change, not a schema change — the design's whole point); the data is in flux.
   "Final in shape" means the Type Object schema is stable — tracks are data rows, not code
   classes. The definitions themselves (which tracks exist, their display questions, cognitive
-  modes) are under active review as part of the v3 framework synthesis
-  (`docs/ANALYSIS-SYNTHESIS-PLAN.md`). The schema supports this evolution by design.
+  modes) are under active review as part of the v3 framework buildout
+  (`docs/v3-framework/`; methodology: the `v3-buildout` skill). The schema supports this
+  evolution by design.
 - **World dates are structured** (2026-07-30): `Start(Y,M?,D?)` + optional `End` columns on
   `Note`, event-only `Fabula*` on `PlotPoint`. Year is the precision floor; nulls mean "to be
   determined", never "approximately". Whether a date is an event or a condition is the TRACK
@@ -159,7 +161,13 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   already holds notes on a focal-only track keeps showing it regardless, so existing content is
   never hidden by a later POV change.
 - **0 `Confirmed` notes in v2 is not a defect** — Audit is the only mode that can promote to
-  Confirmed, and no audit pass has run. Surprising ≠ broken.
+  Confirmed, and no audit pass has run. Surprising ≠ broken. The v3 epistemic framework
+  (see below) reframes Confirmed as "baselined" — Brian has reviewed and is comfortable
+  acting on the content, but it remains challengeable. The `NoteState.Confirmed` enum value
+  and Audit mode's promotion mechanism are unchanged in code; the semantic shift is
+  framework-level, not schema-level. The v1 archive's `Confirmed` retains its distinct
+  meaning (review closed, disposition not recorded) — the v3 vocabulary applies only to
+  the working plan.
 - **Source material is a coverage tracker, not a tag** (2026-07-31). Two-tier: `SourceMaterial`
   (a Work — MLP:FiM, Equestria at War, another fanfic) → `SourceMaterialPart` (one unit of a
   mining pass — an episode, a playable country, a chapter; empty `PartNoun` = no Parts, cite the
@@ -321,6 +329,36 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
 Schema detail and query recipes: `.claude/skills/storyplan-data/SKILL.md`.
 **Live counts: `mcp__storyplanner get_stats`. Never hardcode counts in a document.**
 
+## Epistemic framework (2026-08-31)
+
+All claims in the planner — story content, framework design, pipeline methodology — are
+**hypotheses with evidence-relationship status**, not facts to be confirmed. This applies
+uniformly: a fabula assertion ("Chrysalis controls the economy through MEFO bills") is a
+hypothesis evidenced by canon compliance and materialist historicist analysis; a framework
+assertion ("FID is the primary perception gap mechanism") is a hypothesis evidenced by the
+112-story corpus. Both are revisable. Neither has a terminal "confirmed" state.
+
+**Three epistemic states:** `untested` (no evidence examined), `evidenced` (evidence
+gathered and currently supporting — thin or thick, always revisable), `challenged`
+(unresolved counterevidence exists). Transitions are reversible: evidenced → challenged
+when counterevidence arrives, challenged → evidenced when the challenge is resolved by
+refining the claim or addressing the counterevidence.
+
+**Baselining is progress tracking, not truth.** When Brian reviews a hypothesis or note's
+evidence picture and judges it sufficient to act on, that is a **baseline** — a progress
+checkpoint recording Brian's attention and judgment. Baselining does not make the claim
+stronger, more important, or less challengeable. A baselined claim has identical
+challengeability to an evidenced-but-not-baselined claim with the same evidence. Evidence
+drives the framework and the story, not top-down labels.
+
+**The method:** hypothesize → gather evidence → iterate. v3 tooling makes this
+sustainable at scale: MCP for queryable evidence, skills for consistent methodology,
+external corpora for voice separation. Whether this cycle was already Brian's natural
+workflow in v1 (and v2's prescriptive staging moved away from it), or whether v3
+genuinely introduces it, is itself a hypothesis to be tested against the lineage
+evidence. The `v3-buildout` skill governs the framework buildout; these principles
+govern the planner at every level.
+
 ## Build & run
 
 .NET 10. `dotnet test tests/StoryPlanner.Tests` — covers the MCP server's invariants and
@@ -443,8 +481,8 @@ taxonomy changes · anything that writes to a `.storyplan`.
 
 Cold start: this file → `FEATURE-AUDIT.md` → `get_stats`.
 Per task: `storyplan-data` skill (data work) · `wpf-conventions` skill (WindowedStoryPlanner) ·
-`tools/StoryPlanner.Mcp` (server work) · `CONVERSATION-READER-SPEC.md` (historical — see its
-banner for drift).
+`tools/StoryPlanner.Mcp` (server work) · `docs/CONVERSATION-READER-SPEC.md` (historical — see
+its banner for drift).
 
 Two sources, two purposes — do not substitute one for the other:
 

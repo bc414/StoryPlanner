@@ -234,8 +234,8 @@ is the data-quality fix (clean the notes).
 voices in the .storyplan, AI voice in sidecars — is a structural prerequisite for
 the v3 framework to operate correctly. If the .storyplan still contains AI analytical
 voice, any v3 track architecture built on top of mixed-voice data inherits the
-confusion. The three-voice separation is not a cleanup task for after the framework
-evolves — it must precede or run alongside the framework evolution. (See H24.)
+confusion. Voice separation is not a cleanup task for after the framework evolves —
+it must precede or run alongside the framework evolution. (See H22/H23/H24.)
 
 **The hallmark wall pattern (observation):** Each version hit the same wall at a higher
 level of abstraction — the data's complexity exceeded the instrument's structure. v0:
@@ -249,10 +249,11 @@ sidecar corpora.
 
 ### From the original 8 (2026-08-17, derived from 42 stories)
 
-- **H1:** WI-terminal links are legitimate — not every inference serves a theme.
+- **H1/H2:** Not every inference serves a theme. WI-terminal links are legitimate
+  because World Inference is a superset of Thematic Evidence — the P→WI→T pipeline
+  is a special case of the more general P→WI→[T or structural purpose] pipeline.
+  What is the natural WI-terminal to T-terminal ratio across the corpus?
   (Tested by: WU1, WU5b, WU5d)
-- **H2:** World Inference is a superset of Thematic Evidence — the P→WI→T pipeline is
-  a special case. (Tested by: WU1, WU5b, WU5d)
 - **H3:** DT-based knowledge asymmetry is a real technique adjacent to M4.
   (Tested by: WU1, WU2a, WU5b)
 - **H4:** First-person narration produces M4-adjacent effects.
@@ -279,14 +280,13 @@ sidecar corpora.
   afterward. Track 99's usage directive should specify the inference target, not
   the prose technique.
   (Tested by: WU1, WU2b, WU4, WU5b, WU5d)
-- **H11:** Theme is not the only goal category. Humor, establishing prior beliefs,
-  emotional warmth, structural setup, and potentially others are peer goal
-  categories alongside thematic evidence.
+- **H11/H12:** Theme is one goal category among peers (humor, structural setup,
+  emotional investment, prior-belief establishment, and potentially others). The
+  P→WI→T chain is the pathway for thematic goals; other goal categories may follow
+  different pathways that don't pass through "inference" at all (P→emotional
+  resonance, P→humor). Which non-thematic goals are plannable vs prose-craft is
+  an open question.
   (Tested by: WU1, WU5b, WU5d)
-- **H12:** The P→WI→T chain is one pathway, not the universal one. Some pathways
-  (P→emotional resonance, P→humor, P→prior-belief setup) may not pass through
-  "inference" at all.
-  (Tested by: WU1, WU5d)
 - **H13:** Different stories in the multi-story project need different variable-
   focalization mixes. Chrysalis's Greek tragedy ≠ TLTT's ensemble ≠ Kitty's
   bildungsroman. One track architecture, variable usage profiles.
@@ -307,12 +307,25 @@ sidecar corpora.
   NarrativeDesign) is correct; the specific boundaries and modes may need revision
   to accommodate the three-level framework and non-inferential goals.
   (Tested by: WU4, WU5d)
-- **H18:** The three-level framework (prose technique → mechanism → goal) describes
-  the hierarchy that organizes what the planner should track. Prose techniques are
-  the lowest level (never planned, chosen at writing time). Mechanisms are the
-  middle level (designed reader operations). Goals are the highest level (what the
-  scene is FOR). The planner tracks goals and mechanisms. Prose techniques live in
-  a reference catalog (Writing Techniques).
+- **H18:** Three distinct concerns — goal (what the scene is FOR), mechanism (what
+  the reader does), and prose technique (how it's written) — should be recognized
+  separately by the planner. Prose techniques are never planned (chosen at writing
+  time, Brian's hypothesis that he can already do this instinctively). Goals and
+  mechanisms belong in the planner. Whether these three concerns relate as a
+  containment hierarchy (goal contains mechanism contains technique), independent
+  dimensions (like the political axes or music theory's harmony × melody × rhythm),
+  a directed graph (like a knowledge graph with typed edges), or some hybrid is an
+  OPEN QUESTION. The unit of the narrative framework is the **reader-experience
+  moment** (an instance of designed reader operation at a scene-level intersection),
+  not the codebase's Note. A moment simultaneously occupies positions on multiple
+  dimensions — it HAS a goal, operates through a mechanism, and is rendered via a
+  technique, all at once. The codebase's Note is the hierarchical REPRESENTATION
+  (one Note, one Track, one TrackType); the moment is the potentially dimensional
+  REALITY. Evidence from H8 (three-axis model already described as "structurally
+  independent but semantically coupled"), the political axes (dimensional, not
+  hierarchical), music theory (harmony/melody/rhythm as independent dimensions),
+  and the CLI/API evolution (hierarchical containment for data organization, but
+  the concepts may not nest the same way) all inform but do not settle this.
   (Tested by: WU1, WU2, WU5d)
 - **H19:** "What replaces fabula-through-dialogue" — the naive chapters delivered
   worldbuilding through characters explaining things to each other. The replacement
@@ -331,60 +344,64 @@ sidecar corpora.
   specific mode designs (what's visible, what's writable, what's excluded) are
   optimal should be evaluated.
   (Tested by: WU4, WU5d)
-- **H22:** The fundamental design struggle across v0-v2 was the contradiction
-  between needing AI context for architectural analysis and not wanting AI voice
-  in the prose layer. v0 had no AI (no contamination, but no analysis). v1
-  introduced the full-plan-paste paradigm (~940K chars into Gemini's 1M context
-  every session) which created a feedback loop: AI reads plan → generates insight
-  → Brian pastes insight back → AI reads its own prior insight next session. v2
-  tried to separate cognitive modes within the plan but couldn't break the loop
-  because full-plan export was still the interaction paradigm. The v3 MCP sidecar
-  architecture is the first design that reconciles this: the AI has context access
-  via targeted queries without the plan absorbing the AI's voice.
-  (Tested by: WU2b — the Gemini-voice separation will quantify how much AI voice
-  is in the v1 archive. WU4 — the retrospective traces the feedback loop's effects.)
-- **H23:** Once AI analytical voice is exorcised from the .storyplan and accessible
-  in sidecars, the plan becomes a cleaner instrument for scene-level work — Brian
-  reads only his own voice (fabula/architectural + prose/craft) when designing
-  scenes and writing prose. The AI's insights remain available one MCP query away
-  but do not contaminate the reading experience. This may partially resolve the v2
-  scene-level stall: the stall was not only about the FID vocabulary being too
-  narrow, but also about the plan not feeling like Brian's own instrument when
-  he tried to use it for scene-level design.
-  (Tested by: practice — after the linting protocol runs, does scene-level work
-  feel less premature? This is experiential, not analytically testable.)
-- **H24:** The five-voice separation (see "The five voices" section) is the
-  structural prerequisite for the v3 framework to operate correctly. If the
-  .storyplan still contains AI analytical voice (voice 5), the framework cannot
-  distinguish between "what Brian designed" and "what an AI framed" — and any v3
-  track architecture built on top of mixed-voice data inherits the confusion.
-  Clean voice separation must precede or run alongside the framework evolution,
-  not follow it.
-  (Tested by: WU2b — quantifies the problem. Downstream linting protocol — fixes
-  it. WU5d — evaluates whether the track architecture can be designed from the
-  current mixed-voice data or requires clean data first.)
-- **H25:** Brian's prompt pattern has always asked for grounding against the plan
-  data ("check my plans," "look at the archive," "review story plans where needed").
-  The v1 paste paradigm made compliance imprecise — 940K chars as atmosphere, used
-  loosely, no specific notes referenced. The v3 MCP paradigm enables the precise
-  grounding Brian always wanted — targeted queries returning specific notes by ID.
-  The issue was tooling, not intent. This is independent from H22 (the feedback
-  loop): grounding compliance is about how AI accesses INPUT; voice mixing is about
-  what happens to AI OUTPUT.
-  (Tested by: the post-MCP conversations (conv 76, 80) vs the pre-MCP conversations
-  (conv 5, 11, 17) provide direct evidence — same prompt pattern, different
-  compliance. WU4 retrospective can trace this across the full conversation history.)
-- **H26:** Treating the plan as queryable evidence (v3) consistently produces
-  better outcomes than treating it as pasted atmosphere (v1). "Better" means: fewer
-  internal contradictions, more precise elimination of overfit structures, new lore
-  constrained by existing lore in real time. The v3 tooling enables this; whether
-  it consistently delivers is tested by the synthesis work itself. Note: v1 also
-  produced eliminations and restructurings (the Stagnation of Harmony reframe from
-  1000 years to 80 years is a major v1-era elimination). The hypothesis is about
-  the PROCESS (evidence-grounded vs intuition-driven), not about whether elimination
-  occurs at all.
-  (Tested by: the synthesis work units themselves — do evidence-grounded findings
-  produce more durable framework revisions than conversation-derived ones did?)
+- **H22/H23/H24:** The AI context contradiction and voice separation. The
+  fundamental v0-v2 struggle was the contradiction between needing AI context for
+  architectural analysis and not wanting AI voice in the prose layer. v1's
+  full-plan-paste paradigm (~940K chars into Gemini's 1M context) created a
+  feedback loop: AI reads plan → generates insight → Brian pastes insight back →
+  AI reads its own prior insight next session. v2 tried cognitive mode separation
+  but couldn't break the loop because full-plan export was still the interaction
+  paradigm. The v3 MCP sidecar architecture reconciles this: AI accesses via
+  targeted queries, AI voice stays in external corpora. Once AI voice is exorcised
+  from the .storyplan and accessible in sidecars, the plan becomes a cleaner
+  instrument for scene-level work — Brian reads only his own voice when designing
+  scenes. This may partially resolve the v2 stall (not just FID vocabulary being
+  too narrow, but the plan not feeling like his own instrument). The five-voice
+  separation (see "Voice registers" section) is a structural prerequisite for the
+  v3 framework — if the .storyplan still contains AI voice, any v3 track
+  architecture built on mixed-voice data inherits the confusion. Clean voice
+  separation must precede or run alongside framework evolution, not follow it.
+  (Tested by: WU2b — quantifies the contamination. WU4 — traces the feedback
+  loop's effects. Downstream linting protocol — fixes it. WU5d — evaluates
+  whether track architecture can be designed from current mixed-voice data or
+  requires clean data first. Whether scene-level work feels less premature after
+  linting is experiential, not analytically testable.)
+- **H25/H26:** Grounding, evidence, and instructional text. Four independent
+  factors improve analytical outcomes, and none substitutes for any other:
+  (a) **Intent** — Brian's prompt pattern has always asked for grounding ("check
+  my plans," "look at the archive"). Constant across all eras.
+  (b) **System prompt / skill quality** — instructional text enforcing analytical
+  rigor and grounding. Present in v1 (Custom Gem's four rules, AI Studio's
+  Anti-Pantser + analytical lenses). Dropped in v2 (Claude's constitutional AI
+  baseline seemed sufficient). Partially restored in v3 (CLAUDE.md for Code,
+  but absent for Desktop). The prior theory "Claude = good, Gemini = bad, system
+  prompt only needed for Gemini" is a hypothesis to test — evidence may show
+  Claude also benefits from consistent instructional text, and that v2's
+  ungrounded elaboration was partly due to the absence of a system prompt, not
+  just the absence of MCP.
+  (c) **Data architecture** — paste atmosphere (v1/v2: ~940K chars, used loosely)
+  vs MCP queryable evidence (v3: specific notes by ID, verifiable). MCP makes
+  grounding explicit (tool calls are visible) rather than implicit (casual
+  references to pasted text are unverifiable).
+  (d) **Model capability** — Claude's constitutional AI produces better baseline
+  analytical rigor than Gemini, but this is a floor, not a ceiling. A system
+  prompt raises the ceiling for any model.
+  All four are independent. A system prompt improves ANY model+data combination.
+  MCP improves ANY model+prompt combination. Claude improves ANY prompt+data
+  combination. Not all text is created equal — instructional text (system prompts,
+  skills, MCP ServerInfo.Instructions, Project prompts) shapes behavior and
+  deserves the same iterative craft as the system prompts Brian designed in v1.
+  Also: external tools for historical research (web search) are a peer to MCP
+  for plan data — the methodology is about grounding against ALL authoritative
+  sources (MCP for plan data, web for historical parallels, lineage for
+  provenance, source texts for canon), not privileging one tool.
+  Note: v1 also produced eliminations (the Stagnation reframe from 1000 years to
+  80 years). The hypothesis is about PROCESS consistency, not whether good
+  outcomes occur at all.
+  (Tested by: post-MCP conversations vs pre-MCP conversations provide direct
+  evidence. WU4 traces grounding compliance and system prompt effects across
+  the full conversation history. The synthesis WUs themselves test whether
+  evidence-grounded findings produce more durable revisions.)
 - **H27:** Brian's voice has five distinct registers (prose/craft, fabula,
   syuzhet/design, Brian's analytical, AI analytical) rather than three. The
   distinction between fabula and syuzhet/design maps to ZeroFocalization vs
@@ -397,6 +414,30 @@ sidecar corpora.
   (Tested by: WU2b — the voice separation will reveal whether five is the right
   count. WU5d — framework evaluation assesses whether the cognitive mode system
   needs revision to accommodate the finer distinction.)
+- **H28:** Note-to-note design relationships (setup→payoff, parallel, contradicts,
+  revelation chain) may be needed for structurally managing the trajectories the
+  planner exists to track. Currently, the connection between a prior-belief-setup
+  note in ch3 and its payoff-clash note in ch15 is invisible in the data — held
+  in Brian's head or written as prose in the note content. For serialized
+  publication where published chapters cannot be rewritten, these connections may
+  need to be explicit and validatable BEFORE publication. Distinct from the
+  rejected note-to-note SUPERSESSION links (FEATURE-AUDIT C1, ⚪): supersession
+  says "this replaces that" and was resolved by existing Reader Prior Belief and
+  Garden Notes tracks. Design relationships say "this is designed to prepare the
+  reader for that" — different semantic, different purpose, never previously
+  proposed. V2 eliminated v1's typed edges (PlotPointCharacter, PlotPointTheme)
+  for polymorphic notes + track types; this was correct for code simplification
+  but may have lost the conceptual richness of typed relationship semantics at
+  the scene level. V3 tooling makes the implementation achievable (the
+  SubjectRelation pattern already exists as a model). The existing codebase also
+  has patterns for dimensional annotation (NarrativePropertyValue for single-
+  select from closed vocabulary, NoteSourceReference for many-to-many junction)
+  that could serve the reader-experience-moment's dimensional properties (H18)
+  without new architecture.
+  (Tested by: WU2b — does the v1 archive show designed connections between
+  moments that are currently invisible? WU5d — does the evidence require
+  structural note-to-note edges, or does the current subject-level arc plan
+  suffice? Downstream: code design follows framework decision.)
 
 Each work unit reports hypothesis-relevant findings as it encounters them. WU5b
 performs meta-adjudication: synthesizing all prior findings into per-hypothesis
@@ -693,7 +734,7 @@ the same patterns the v4 Brief's formal analysis identified.
 **Scale:** Single session.
 
 **Depends on:** WU5a complete. Brian's tier arbitration in `corpus-favorites-tiers.txt`
-complete.
+complete (done 2026-08-29).
 
 ---
 
@@ -811,7 +852,7 @@ WU3 (planning evolution) ──→ WU5d (framework + arch evaluation) |
 **Parallel work:** WU1, WU2a, WU2b, WU3 can all start in parallel (WU1 can start
 immediately; the others block on Brian's preparation). WU4 blocks on WU1.
 WU5a blocks on WU1 + WU2a + WU2b. WU5b blocks on WU5a + WU4. WU5c blocks on
-WU5a + Brian's tier arbitration. WU5d blocks on WU5a-c + WU4 + WU3 (ideal, not
+WU5a (tier arbitration done). WU5d blocks on WU5a-c + WU4 + WU3 (ideal, not
 hard blocking). WU6 blocks on WU5d.
 
 WU3 feeds into WU5d if available but is not a hard blocker — the framework
@@ -894,9 +935,14 @@ Other WUs are single-session or ad-hoc.
 
 ## What blocks on Brian
 
-- Complete favorites tier arbitration in `corpus-favorites-tiers.txt` (blocks WU5c)
-- Download own fiction from Drive as epub, verify italics in fichub exports (blocks
-  WU2a)
+- ~~Complete favorites tier arbitration in `corpus-favorites-tiers.txt`~~ — DONE
+  (2026-08-29). All 31 long-corpus stories assigned. New tiers added: Abandoned
+  (3 stories), Special (6 stories with nuanced supplementary material). WU5c
+  unblocked.
+- ~~Download own fiction from Drive as epub~~ — DONE (2026-08-29). Epubs in
+  `source_material_references/`. Remaining: verify italics in the 4 fichub
+  exports from fanfiction.net (THLB, Wish, TEatS, NTL). GIYC and Falldale are
+  Fimfiction epubs (italics expected to be preserved). WU2a partially unblocked.
 - Run appscript to export planning doc revision histories (blocks WU3)
 - Add pending story entities to v2 (Daring Do, Applejack's Parents, etc.) — does
   not block any WU but informs WU6
@@ -932,6 +978,35 @@ These are hypotheses about what comes next, not commitments:
   voice accessibly via MCP, the .storyplan notes should contain only Brian's
   fabula/architectural voice and prose/craft voice — the AI voice is retrievable
   but not embedded.
+- **Codebase architecture for dimensional annotations (H18/H28):** If WU5d
+  determines that reader-experience-moments are dimensional (not hierarchical),
+  the codebase already has patterns that could represent this without new
+  architecture: NarrativePropertyValue (single-select from closed vocabulary,
+  used for the political axes on civilizational systems), NoteSourceReference
+  (many-to-many junction table), and nullable scalar properties on Note (ThemeId,
+  WorldDate). Whether to use these patterns, whether a third data-driven level
+  is needed (GoalCategory as data rows instead of TrackType enum), and whether
+  note-to-note design edges (H28) require a new NoteRelation table — these are
+  code design questions downstream of the framework decisions WU5d produces.
+  V2 eliminated v1's typed edges (PlotPointCharacter, PlotPointTheme with enums)
+  for polymorphic notes + track types — correct for code simplification, but the
+  typed relationship semantics at the scene level may need to return in a
+  different form if H28 holds.
+- **Instructional text hierarchy (H25/H26):** Once the v3 framework hypotheses
+  are tested, iterate on the full instructional text stack for both consumers:
+  - **Claude Code:** CLAUDE.md (standing prompt, already iterated) → skills
+    (conditional, some written, more to come) → MCP ServerInfo.Instructions
+    (never audited by Brian — a first-draft "binary help text" that should be
+    reviewed against the v3 framework findings)
+  - **Claude Desktop:** Project prompt (doesn't exist yet — the v3 descendant
+    of the v1 TLTT Analyzer Gem's four rules, enforcing scientific method +
+    MCP-grounded evidence + hypothesis/opinion distinction) → Project skills
+    (customize tab — conditional instructions) → MCP ServerInfo.Instructions
+    (shared with Claude Code — the same "binary")
+  The MCP server's instructions are shared infrastructure: both Claude Code and
+  Claude Desktop read them. Improvements benefit both consumers. "Just works"
+  is a hypothesis about instructional text quality, not a fact — the same
+  assumption Brian correctly challenged about Claude not needing a system prompt.
 - **Own fiction analysis follow-up:** Use the self-diagnostic synthesis to inform
   specific writing practice decisions (Brian's domain)
 - **Writing:** Eventually, write TLTT chapter 1. With a plan.
