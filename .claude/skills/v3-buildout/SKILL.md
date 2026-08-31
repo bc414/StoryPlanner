@@ -107,6 +107,14 @@ skill's folder has the material inventory (what exists, what's pending).
 
 ## Session routing
 
+**Single-session default.** All buildout activities — planning, exploration,
+questioning, and execution — happen in one session. Start in plan mode, read the
+relevant files, ask all open questions, write the plan, then exit plan mode and
+execute. No subagents unless the source material exceeds ~600K tokens (leaving
+headroom for hypothesis files, synthesis output, and evidence deposits in the 1M
+context window). When subagents are needed, they extract and report summaries;
+the main session synthesizes.
+
 **Before starting work, determine your activity and read accordingly:**
 
 - **Hypothesis iteration** (updating a hypothesis, depositing evidence, refining
@@ -129,6 +137,38 @@ skill's folder has the material inventory (what exists, what's pending).
   hypothesis index and all hypothesis files. Read the consolidation report if one
   just happened. Focus on: Experiment cycle → Forward plan section + Hypothesis
   management (for status assessment).
+
+- **Post-WU review** (Brian reviews a WU's findings): Follows WU execution in
+  the same session. Two interleaving modes:
+
+  *Challenge mode*: Brian questions a finding. Verify against source evidence —
+  this may require tool calls to per-story analyses or original story text, not
+  just the meta-analyses. If the evidence doesn't hold, correct the synthesis
+  report, evidence entries, and hypothesis statements. The narrator-character
+  blend investigation (WU1.1) showed meta-analysis summaries can mischaracterize
+  what per-story evidence actually shows.
+
+  *Enrichment mode*: Brian connects a finding to his practice or recall. Add
+  testing specs to downstream WU specs in the forward plan. Do NOT add Brian's
+  recall to hypothesis records — recall is not evidence and not a statement
+  change. WU specs are the stash for "test this in a future WU."
+
+  **Story-content boundary**: thematic content comparisons ("my stories also
+  argue vulnerability-as-prerequisite") don't inform the framework. The
+  framework studies technique, architecture, and methodology. When the
+  discussion drifts into content territory, redirect to the framework-relevant
+  question ("do the tracks support this?") or acknowledge it's outside scope.
+
+  **Hypothesis statement updates are batched at the end of the review**, not
+  done inline. Enrichment-mode WU spec additions go inline as the discussion
+  flows — they serve as memory. After the discussion is complete, sweep the
+  hypothesis set: which statements need updating based on the full picture?
+  Findings refine each other across the discussion, so statements written at
+  the end are more precise than inline updates would be.
+
+  **Standard outputs**: corrected synthesis report (challenge mode), enriched
+  downstream WU specs (enrichment mode), batched hypothesis statement updates,
+  updated INDEX.md.
 
 - **Ad hoc conversation** (Brian asks about the framework, discusses ideas): Read
   the hypothesis index for orientation. Read specific hypothesis files as the
@@ -181,9 +221,14 @@ entry.
 
 - **Statement:** What this predicts. 1-3 sentences. No provenance, no
   implications, no testing methodology, no confirm/refute conditions.
-- **Record entries:** Compressed deltas. Each entry is one to three sentences,
-  except the founding `created` entry which may be longer (creation is a bigger
-  event than a typical iteration).
+- **Record entries:** Compressed but as long as the finding requires. Iteration
+  entries are typically short (one to three sentences). Evidence entries may be
+  longer when the finding is dense — specificity (naming mechanisms, citing
+  counts, listing examples) is more valuable than brevity. The founding
+  `created` entry may also be longer (creation is a bigger event than a typical
+  iteration). The constraint is: each entry should be one citable unit, not a
+  multi-finding essay. If an entry covers two distinct findings, split it into
+  two entries.
 
 ### Record conventions
 
@@ -215,6 +260,13 @@ forward plan's job when designing WUs.
   stories use non-FID mechanisms for perception gap delivery.
 ```
 
+Evidence must be grounded in corpora or verifiable sources — not Brian's recall
+about his own practice (that's the hypothesis being tested) and not a restatement
+of the hypothesis itself. When depositing evidence from meta-analyses, verify
+ambiguous or architecturally significant findings against per-story analyses or
+original source text before depositing — meta-analysis summaries can
+mischaracterize what the per-story evidence actually shows.
+
 **Iteration entries** describe a hypothesis text change:
 
 ```
@@ -242,6 +294,26 @@ only the alignment tag.
 all evidence entries. `\[challenging\]` finds all currently-challenging evidence.
 `^- baselined` finds all baseline events. `^- iteration` finds all hypothesis
 text changes.
+
+**What does NOT go in hypothesis records:**
+
+- **Brian's recall about his own practice.** "I think I do this instinctively"
+  is the hypothesis being tested, not evidence for it. It goes in the forward
+  plan's WU spec as a testing spec ("check whether Brian's fiction shows X").
+- **Brian's design observations.** "This connects to my story in way Y" is
+  story content, not framework evidence. If it produces a framework question
+  ("do the tracks support Y?"), that goes in a WU spec.
+- **Observations that don't change the statement.** If an insight informs a
+  future WU but doesn't change what the hypothesis predicts, it's a WU spec
+  addition, not an iteration entry. Iteration entries record *what changed in
+  the statement and why*.
+- **Methodological pointers.** "WU1.3 should check this" is a WU spec note,
+  not a hypothesis record entry.
+
+The test: if removing the entry would leave the hypothesis record incomplete
+(missing a statement change, missing grounded evidence, missing a baseline
+event), it belongs. If removing it would only lose a pointer to future work,
+it belongs in the WU spec instead.
 
 ### Ceremony scaling
 
@@ -436,15 +508,15 @@ strategic reasoning. Can be long if the reasoning warrants it.]
 **Hypotheses:** [list of hypothesis IDs this WU informs]
 **Evidence sources:** [what data to examine]
 **Scope:** [what it does and doesn't do, briefly]
-**Scale:** [single session / multiple subagents / batched]
+**Scale:** [estimated token volume of source material and whether it fits in one
+context window, e.g. "~88K tokens — single context window with ample headroom"
+or "~900K tokens — requires subagent extraction and summary"]
 **Preconditions:** [blocking items — downloads, exports, etc. — if any]
 **Status:** proposed
 
-[Prose description: enough for a plan-mode session to flesh out the full
-execution methodology. Not the methodology itself — that's the plan-mode
-session's job. The question, the target hypotheses, the evidence sources, and
-enough scope context to design the execution. Can be longer when the experiment
-is complex or the scope boundaries matter.]
+[Prose description: the question, the target hypotheses, the evidence sources,
+and enough scope context to design the execution in plan mode. Can be longer when
+the experiment is complex or the scope boundaries matter.]
 
 (independent of WU N.2 — can run in parallel)
 
@@ -469,7 +541,7 @@ note says so: "(independent of WU N.2)", "(requires WU N.1 complete)", "(most
 valuable after WU N.1-N.3 findings, but can start with partial results)." The
 ordering is advice, not a gate.
 
-**WU status values:** `proposed` → `scoped` (plan-mode session has designed the
+**WU status values:** `proposed` → `scoped` (plan mode has designed the
 execution) → `in-progress` → `complete`. Updated in place in the forward plan.
 
 **Plan creation triggers:**
@@ -497,9 +569,9 @@ WUs have findings.
 
 **The forward plan is expected to be a long document.** It carries the full
 experimental agenda with enough detail per WU for plan-mode sessions to work
-from. Do not artificially constrain its length. The constraint is: enough detail
-for a plan-mode session to scope the execution, not more. That's a function of
-the experiments' complexity, not a word budget.
+from. Do not artificially constrain its length. The constraint is: enough detail to
+scope the execution in plan mode, not more. That's a function of the
+experiments' complexity, not a word budget.
 
 **How the forward plan treats hypotheses by status:**
 
@@ -522,18 +594,38 @@ hypothesis status is a secondary signal within that structure.
 
 ### WU design and execution
 
-**Every WU runs a plan-mode session before execution.** The forward plan's WU
-spec is the starting point — the plan-mode session designs the full execution
-methodology: exact scope, batching strategy, output format, which hypothesis
-files to read, what evidence to look for.
+**Every WU runs plan mode before execution, in the same session.** The session
+starts in plan mode, designs the execution, gets Brian's approval, then exits
+plan mode and executes immediately — no handoff to a separate session or agent.
 
-**WU session startup:** Read the active forward plan to find the WU spec and its
-target hypothesis list. Read those hypothesis files. This is the primary work's
-focus — the target hypotheses.
+**Plan-mode phase:**
+
+1. **Read.** Read the active forward plan to find the WU spec and its target
+   hypothesis list. Read those hypothesis files. Read the evidence sources (or
+   assess their size — if they exceed ~600K tokens, plan subagent extraction
+   instead of direct reading). Read CORPUS-STATUS.md if the WU involves corpus
+   material.
+2. **Identify all open questions.** What is ambiguous in the WU spec? What
+   decisions require Brian's input? What assumptions need confirmation? Collect
+   every open question before asking any.
+3. **Ask all open questions.** Use AskUserQuestion, batching at the 4-question
+   limit per call and continuing with remaining questions until all are answered.
+   Do not write the plan before questions are resolved — the answers shape the
+   plan.
+4. **Write the plan.** With all questions answered, write the execution plan to
+   the plan file. The plan describes: what to read and in what order, what the
+   output document covers, how evidence deposit works, the wrap-up step, and
+   what the WU does NOT do.
+5. **Exit plan mode.** Brian reviews and approves. The session continues into
+   execution.
+
+**Execution phase:**
 
 **Primary work:** Execute the experiment focused on target hypotheses. Deposit
-evidence entries in the target hypothesis files as findings emerge. Update the
-WU's status in the forward plan (`in-progress` → `complete`).
+evidence entries in the target hypothesis files after the synthesis is complete
+(batch deposit — findings refine each other across sections, so entries are more
+precise after the full picture). Update the WU's status in the forward plan
+(`in-progress` → `complete`).
 
 **Wrap-up step:** After primary work, read the full hypothesis index. Check
 whether any findings produced evidence relevant to hypotheses OUTSIDE the target

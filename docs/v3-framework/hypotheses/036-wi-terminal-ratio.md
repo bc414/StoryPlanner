@@ -1,6 +1,6 @@
 ---
 id: 36
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -31,3 +31,14 @@ empirical question.
   subordinate to T. The corpus can answer what the natural ratio is — how many
   WI chains terminate at structural purpose vs how many reach thematic argument —
   and whether that ratio varies by story length, genre, or paradigm.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The counterargument
+  deficit provides direct evidence. 76% of the short corpus has no genuine
+  counterargument — most WI chains serve structural purposes (building suspense,
+  establishing prior beliefs, managing information) without reaching thematic
+  argument. The ratio varies by category: AU has the highest counterargument
+  rate (8/11 genuine), suggesting more T-terminal chains; romance and ensemble
+  have the lowest, suggesting genre contracts promise resolution without
+  demanding thematic contest. The non-thematic goal pathways identified
+  (P→affect, P→accumulation, P→information_plant) are inherently WI-terminal
+  or bypass WI entirely, confirming WI-terminal is not deficient but a
+  legitimate common pattern.

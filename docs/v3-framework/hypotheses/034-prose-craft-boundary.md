@@ -1,16 +1,18 @@
 ---
 id: 34
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
 
 ## Hypothesis
 
-Comedy, atmosphere, and narrative voice are prose-craft — chosen at writing time,
-not planned in the planner — rather than framework-level categories, and the
-boundary between plannable goals and prose-craft needs evidence-based definition
-rather than theoretical line-drawing.
+The boundary between plannable goals and prose-craft falls on cross-scene
+architecture: effects depending on cross-scene structure (prior-belief
+construction, revelation sequencing, behavioral proxy accumulation, comedy
+placement for tonal management) are plannable; effects within a single moment
+of prose (joke execution, word choice, atmospheric description, narrative voice
+register) are prose-craft, chosen at writing time.
 
 ## Record
 
@@ -31,3 +33,35 @@ rather than theoretical line-drawing.
   track. This hypothesis is the complement of hypothesis 033
   (non-thematic-goal-categories): 033 asks what the goal categories are, this one
   asks which of them belong in the framework and which are left to the writing.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The prose-craft boundary
+  is remarkably stable across all 7 reports. Comedy, atmosphere, narrative voice,
+  and sensory immersion are consistently classified as "prose-craft dimensions
+  the framework intentionally does not measure" — the phrasing is "near-
+  formulaic." The corpus evidence suggests the boundary falls on cross-scene
+  architecture: effects depending on cross-scene structure (prior-belief
+  construction, revelation sequencing, behavioral proxy accumulation) are
+  plannable; effects within a single moment of prose (joke timing, word choice,
+  atmospheric description) are prose-craft. Structural comedy (comedy-of-errors
+  chains, comic escalation across scenes) falls on the plannable side; one-liner
+  wit falls on the prose-craft side.
+- evidence | 2026-09-01T01:00 | (WU1.1, post-discussion) [supporting]: Per-story
+  Inference Profile and Triangulation review confirms comedy is almost never a
+  primary genre — it operates as a delivery register for tonal management,
+  characterization, and reader attachment in 85%+ of stories. This refines the
+  boundary: joke execution is prose-craft, but comedy-as-moment placement
+  (deciding a scene needs a comedic beat for structural purposes) may be
+  plannable — open question for WU1.3.
+- evidence | 2026-09-01T01:30 | (WU1.1, post-discussion) [supporting]: Emotional
+  investment through accumulation splits on the same cross-scene architecture
+  line: each individual gesture (one wing-wrap, one shared meal) is prose-craft,
+  but the designed pattern of where to place accumulation beats and how many
+  before a payoff is plannable cross-scene architecture.
+- iteration | 2026-09-01T03:30: Rewritten from "the boundary needs evidence-
+  based definition" to "the boundary falls on cross-scene architecture." The
+  corpus evidence consistently separates plannable cross-scene effects (prior-
+  belief construction, revelation sequencing, accumulation placement, comedy
+  placement) from prose-craft single-moment effects (joke execution, word
+  choice, atmosphere). Brian's recall that cross-scene architecture is why he
+  built v1 (to be verified by WU1.5) would be the strongest confirmation — the
+  planner exists because cross-scene design can't be done in prose alone.
+

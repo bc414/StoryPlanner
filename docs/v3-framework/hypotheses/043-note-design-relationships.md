@@ -36,3 +36,12 @@ publication trajectories, distinct from the rejected supersession links
   subject-level arc plans already cover the need sufficiently are both open
   questions that evidence from v1 archive mining and framework evaluation
   should inform.
+- evidence | 2026-09-01T01:30 | (WU1.1, post-discussion) [contextual]: The corpus
+  documents emotional investment through accumulation as a cross-scene effect
+  where Demonstration note 15 depends on notes 1-14 for its meaning. This is a
+  type of designed note-to-note relationship — not setup→payoff (the notes don't
+  resolve each other) but accumulation (each instance's effect is shaped by all
+  prior instances). The v2 codebase can support this without new architecture
+  (Type Object tracks are config, not code), but whether accumulation
+  relationships need to be *explicit* or are adequately implied by the plan +
+  instances bookend is the open question this hypothesis tests.

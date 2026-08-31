@@ -1,6 +1,6 @@
 ---
 id: 31
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -35,3 +35,12 @@ in the framework.
   focalization plan (which characters get DT sections, in what order, with
   what information restrictions). If the distinction holds, the planner needs
   vocabulary for both.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: DT-based knowledge
+  asymmetry is the most frequently documented unnamed technique across the
+  entire corpus — it appears in every category. 4.1a identifies it in ~6
+  stories, 4.2a documents it in 4/6 ensemble stories, 4.2b in 6/15 romance/SoL
+  stories, 4.2e in 6/11 explicit/plot stories. Every report uses the same
+  diagnostic language: "sympathetic observation rather than sympathetic
+  inhabitation." The 4.2b report calls the DT/FID boundary "a continuous
+  technique" that the framework "slices through," confirming the technique is
+  real and distinct from FID-delivered M4.

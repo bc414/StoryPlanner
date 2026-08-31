@@ -1,6 +1,6 @@
 ---
 id: 25
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -28,3 +28,16 @@ mean better story.
   moment asks the reader to perform), never a quality score. This parallels the
   standing rule in the planner: cells are occupancy, never a ranking — and
   mechanism levels are occupancy on the complexity axis.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The v4 Brief's standing
+  constraint (do not rank by mechanism level) was internalized uniformly across
+  all 112 analyses. 4.1a: "Several analyses explicitly note that a story
+  operating primarily at Mechanism 1 achieves powerful effects." The constraint
+  is "near-formulaic across analyses," confirming the framework vocabulary
+  treats the hierarchy as structural, not evaluative. M1 dominance (75% of
+  short corpus, majority in most long-corpus categories) is the corpus's most
+  prominent structural fact — not a finding about quality.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: M1 is "the broadest
+  category and the least discriminating: the range within M1 is wider than the
+  range between some adjacent mechanisms" (4.1a). This suggests M1 is doing too
+  much work as a single category — a structural complexity finding, not a
+  quality one.

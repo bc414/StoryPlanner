@@ -28,3 +28,16 @@ have been v1's natural workflow before v2's prescriptive staging displaced it.
   workflow. Whether v2 displaced an existing practice or named something not yet
   practiced is testable against the lineage evidence — the answer determines
   whether v3 restores a natural workflow or introduces one.
+- evidence | 2026-08-31T22:30 | (WU1.2) [contextual]: The Google Keep corpus
+  (5,583 notes, Oct 2015 – Aug 2026) shows a structural shift in Brian's note-
+  taking over 11 years: imperative notes ("Get…", "Check…") fell from 24% to
+  6%; question notes rose from 20% to 33%. The "staged interrogation" format
+  (questions queued for a named authority, answers appended after) is
+  morphologically identical from 2016 to 2025 — only the interlocutor changes
+  (counselor → professors → doctors → fanfic authors → himself → AI). This
+  establishes that a questioning/testing habit is longitudinal and predates AI
+  by a decade, but whether this constitutes the specific hypothesize-gather-
+  iterate cycle or a different pattern (question-gather-file) needs assessment
+  alongside the lineage evidence in WU1.5. Source: question-cabinet analysis
+  in C:/Users/Brian/Documents/Google Drive Analysis/question-cabinet.html and
+  keep-lab.html. Full assessment: WU1.2-keep-assessment.md.

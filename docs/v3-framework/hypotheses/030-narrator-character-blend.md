@@ -1,16 +1,17 @@
 ---
 id: 30
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
 
 ## Hypothesis
 
-The narrator-character blend ("as if roses were red" — the narrator's literary
-register channeling the focalizer's assessment) is a distinct technique not
-captured by the current ZF/ND cognitive mode split, requiring its own
-recognition as a mode or cross-cutting phenomenon.
+FID operates with varying narrator presence — from full character-voice takeover
+to passages where the narrator's own literary register renders the character's
+perception. This is a spectrum, not two distinct techniques. The framework
+should recognize the narrator-presence dimension within FID rather than treating
+FID as a single uniform mode.
 
 ## Record
 
@@ -35,3 +36,28 @@ recognition as a mode or cross-cutting phenomenon.
   that operates within both modes is the open question. The blend appeared
   frequently enough in the 112-story corpus to be a real technique, not an
   edge case.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: Per-story analysis review
+  shows the examples initially cited as "blend" evidence are actually FID: Where
+  Earth Meets Sky's focalizer-matched register uses the CHARACTER's vocabulary
+  (Applejack's rural similes, Dash's childish logic), Salvation's differentiated
+  FID textures are each character's OWN register, and Best Night Ever's Pinkie
+  dual-voice is a split-FID variant. Fixing Up Miss Smartypants's "semi-FID" /
+  "narrated monologue" borrows character vocabulary with narratorial distance —
+  the closest case, but still the character's words, not the narrator's literary
+  register rendering the character's perception. The blend as hypothesized
+  (narrator's own literary vocabulary rendering a character's subjective
+  perception) does not appear distinctly in the 112-story corpus. It may be a
+  technique Brian uses that this corpus does not document, or it may be the
+  shallow end of the FID spectrum rather than a categorically distinct technique.
+  WU1.3 (own fiction) can test whether it appears in Brian's writing.
+- iteration | 2026-09-01T00:30: Rewritten from "distinct technique requiring
+  its own recognition" to "FID with varying narrator presence as a spectrum."
+  Source-text review of Where Earth Meets Sky, Salvation, Best Night Ever, and
+  filly-fooling showed a continuum: clear FID (character vocabulary takes over)
+  → grey zone (neither voice dominates) → narrator-literary-register-visible
+  (Salvation's "Laconic, as Rainbow Dash's Word-a-Day calendar might have
+  said"). The strongest "blend" examples come from one story (Salvation) and
+  appear most with vocabulary-limited characters (Dash). Brian particularly
+  interested in testing where his own writing falls on this spectrum (WU1.3).
+  Re-assessed prior evidence from [challenging] to [supporting] — the corpus
+  evidence supports the spectrum model, just not the "distinct technique" model.

@@ -1,6 +1,6 @@
 ---
 id: 32
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -36,3 +36,14 @@ third-person techniques.
   within it). Whether this difference requires separate mechanism categories or
   is adequately captured by the existing M4 definition with a rendering-mode
   qualifier is the testable question.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: All first-person stories
+  across the corpus (6 in the short corpus, 4 in romance/SoL, 1 in AU) note
+  M4 is structurally unavailable and identify four first-person techniques that
+  produce M4-adjacent effects: unreliable self-assessment, retrospective temporal
+  collapse, first-person enacted irony, and epistolary dual positioning. Multiple
+  analyses note the framework "undersells the reader's experience" — the
+  phenomenological experience of holding what the narrator believes against what
+  the reader knows is similar to M4 but operates through narrator unreliability
+  rather than FID. 4.2b identifies a "structural analogue to M4 through dual
+  first-person POV" in 3 stories, classified as "cognitively similar but
+  formally distinct."

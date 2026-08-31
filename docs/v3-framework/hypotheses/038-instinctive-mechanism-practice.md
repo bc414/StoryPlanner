@@ -7,9 +7,12 @@ created: 2026-08-31
 
 ## Hypothesis
 
-Brian already practices all mechanism types (M2, M3, behavioral proxy, structural
-parallels) instinctively and without formal vocabulary, as evidenced in the v1
-archive and naive TLTT chapters.
+Brian's instinctive technique toolkit already spans most perception-gap delivery
+mechanisms — including DT-based knowledge asymmetry, strategic opacity,
+first-person unreliability, and narrated denial — that the v2 framework's
+prescriptive FID focus missed. The framework should recognize the full delivery
+toolkit the corpus documents, which includes both what Brian already practices
+and techniques he may adopt.
 
 ## Record
 
@@ -25,3 +28,9 @@ archive and naive TLTT chapters.
   framework's mechanism vocabulary names what Brian already does rather than
   prescribing something new — which means the framework succeeds by making
   instinct articulable, not by replacing instinct with theory.
+- iteration | 2026-09-01T00:00: Refined from generic "all mechanism types" to
+  the specific perception-gap delivery mechanisms WU1.1 identified. Added that
+  the framework should cover the full corpus toolkit, not just what Brian already
+  does — he should also be able to learn new techniques. Brian's insight that
+  the v2 FID prescription missed techniques he was already using prompted the
+  merge.

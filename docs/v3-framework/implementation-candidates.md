@@ -86,6 +86,27 @@ purpose, what it surfaces, and what actions it offers need rethinking.
 
 Source: design conversation (2026-08-31)
 
+### Keep sidecar ingest
+
+**Gated on:** 045 (keep-notes-provenance) — already evidenced
+
+Selective ingest of provenance-relevant Google Keep notes into `lineage.db`,
+following the sidecar pattern (own tables, `IngestRuns` ledger, `keep:` source-
+prefixed ids, authored include-list config). Source: 5,583 notes in the Google
+Takeout at `C:/Users/Brian/Documents/Google Drive Analysis/`. Three content
+categories: (1) content-unique notes (no lineage echo — full ingest),
+(2) timestamp-unique notes (content in lineage via Dec 2025 copy-paste into
+Gemini, Keep adds prior capture timestamp — metadata ingest), (3) non-unique
+(skip). ~130 credential-containing notes must be excluded.
+
+**Timing:** Build after the first wave of WUs (1.1, 1.3, 1.4, 1.5, 1.7). Those
+WUs operate on their own corpora and can read the existing Claude Code analysis
+artifacts directly. Once they produce findings, the specific Keep notes they
+cited become the authored include-list — curating notes already used rather than
+guessing which ones matter.
+
+Source: WU1.2 assessment (2026-08-31)
+
 ## Tasks (not feature proposals — gated on framework decisions but not codebase changes)
 
 These are content/data tasks that become relevant when framework decisions are

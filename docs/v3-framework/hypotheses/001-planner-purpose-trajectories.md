@@ -23,3 +23,4 @@ informs.
   close. This hypothesis functions more as a design constraint than an empirical
   prediction, bounding the synthesis work: findings that don't serve trajectory
   management may be interesting craft observations but don't change the planner.
+

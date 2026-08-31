@@ -1,6 +1,6 @@
 ---
 id: 35
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -31,3 +31,14 @@ relationship to the embedding narrative through another.
   rather than a modifier on existing mechanisms, and that the framework needs to
   recognize it distinctly rather than forcing embedded content into M1-M4
   classifications that describe only the inner layer.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: Embedded texts are cited
+  as a framework gap in ~14% of the short corpus (8 stories) and more
+  prominently in the long corpus: letters creating doubled reading positions,
+  diaries as access-mode shifts, dream sequences as liminal interiority (3
+  dark-premise stories), fantasy sequences as unreliable interiority (2
+  explicit/plot stories). The double-interpretive-layer structure is confirmed.
+  4.1a's assessment is that embedded texts "do not need a dedicated planning-
+  level track" — but this is based on the corpus's narrower use (characterization,
+  access-mode shifts). Whether the planning-level significance is higher when
+  embedded texts serve as structural scaffolding or dual-function world
+  infrastructure is an open question for WU1.3, WU1.4, and WU1.9.

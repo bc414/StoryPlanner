@@ -1,16 +1,18 @@
 ---
 id: 29
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
 
 ## Hypothesis
 
-Character-reader perception gap is the correct WorldInference target for
-experience design, with FID as one of several delivery mechanisms (not the
-privileged one) and conversation 21's technique-agnostic gap taxonomy
-(ironic/tragic/closing/aligned) as the starting hypothesis for gap types.
+Character-reader perception gap is one of several cross-scene design targets for
+experience design — alongside prior-belief management, reader investment
+accumulation, revelation sequencing, and reader stance trajectory — with FID as
+one of several delivery mechanisms (not the privileged one) and conversation 21's
+technique-agnostic gap taxonomy (ironic/tragic/closing/aligned) as the starting
+hypothesis for gap types.
 
 ## Record
 
@@ -35,3 +37,26 @@ privileged one) and conversation 21's technique-agnostic gap taxonomy
   mechanism delivers it (using the mechanism vocabulary), not assume FID is
   the default delivery. Track 99's usage directive should describe the
   inference target (the gap), not prescribe the prose technique.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The corpus documents at
+  least seven mechanisms that produce M4-adjacent effects without classical FID:
+  DT-based knowledge asymmetry (every category), first-person unreliability (6+
+  stories), dual-POV structural dramatic irony (6 analyses in 4.2b alone),
+  strategic opacity (4 stories), narrated denial (Last Train Home), the
+  adversarial inner voice (Salvation), and the Mother voice (Moon's Apprentice).
+  All share the structure of reader holding contradicting knowledge about a
+  character's self-understanding through non-FID means. FID is one delivery
+  mechanism, not the privileged one.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: 4.2b identifies "the
+  structural analogue to M4 through dual first-person POV" in 3 of 15 stories —
+  reader holds knowledge from one narrator's chapters while reading the other's.
+  Analyses consistently classify this as "cognitively similar but formally
+  distinct" from classical Perception Gap, confirming the gap taxonomy is
+  technique-agnostic.
+- iteration | 2026-09-01T03:30: Rewritten from "the correct WorldInference
+  target" to "one of several cross-scene design targets." Post-WU discussion
+  identified peers at the same architectural level: prior-belief management,
+  reader investment accumulation, revelation sequencing, and reader stance
+  trajectory. Perception gap was elevated to a pinnacle position in v2 (top
+  of P→WI→T, its own track, FID prescribed); the corpus evidence shows it as
+  one designed reader effect among several. WU1.5 should trace how it came to
+  be elevated and whether its peers were considered.

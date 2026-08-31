@@ -1,6 +1,6 @@
 ---
 id: 24
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -37,3 +37,12 @@ rather than nesting goal inside mechanism inside technique.
   mechanisms? which mechanisms are rendered by which techniques?). Whether this
   is true, and whether the planner should reify those crossings, is what the
   hypothesis tests.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The corpus reports'
+  section structure treats mechanism, perspective technique, and goal as
+  independent section topics that vary independently across stories. A moment
+  can be M1 via behavioral proxy serving a structural goal, or M2 via told
+  narration serving a thematic goal, or M3 via FID serving an emotional-
+  investment goal. The combinations appear across all categories without
+  nesting constraints, consistent with dimensional rather than hierarchical
+  organization. However, the evidence is inferential from cross-section
+  comparison rather than direct — no report explicitly tests independence.

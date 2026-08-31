@@ -28,3 +28,10 @@ stories and the post-FiM texts.
   had read — the vocabulary arrived through analysis of the pre-FiM reading, but
   the instinct shift (if real) would have happened through the post-FiM reading
   itself, before the vocabulary existed.
+- evidence | 2026-08-31T23:45 | (WU1.1) [contextual]: The 112-story corpus IS
+  the FiM reading that the hypothesis predicts influenced Brian's technique. The
+  corpus documents what Brian was exposed to: 75% M1-dominant stories, 90% with
+  FID present but DT as the more common interiority technique, told narration as
+  the most frequent technique. If the hypothesis is correct, Brian absorbed
+  these patterns. Whether they shifted his technique relative to his pre-FiM
+  work requires comparison with WU1.3 (own fiction analysis).

@@ -61,13 +61,32 @@ All in `source_material_references/`.
 
 Status: **Raw data available.** Preprocessing and ingest pending.
 
+## V1 database snapshots
+
+Dated `.db` files in Google Drive, titled `TheLionessOfTallTale[date].db`. Time-
+series of the v1 planner's state during v1's lifetime (Dec 2025 – Apr 2026).
+Enables temporal analysis: when subjects, notes, and scene-graph links appeared,
+and how growth correlates with dated Gemini conversations — useful for voice
+attribution (notes appearing after a conversation are copy-paste candidates) and
+for tracing the plan's evolution under the full-plan-paste paradigm.
+
+Status: **Known, not preprocessed.** Need to be downloaded from Drive and made
+queryable (likely read-only SQLite opens, diffing against the final v1 archive
+or against each other). Enhancement for WU1.4 and WU1.5, not a hard blocker.
+
 ## Google Keep notes
 
-Brian's Google Keep notes are in `C:/Users/Brian/Google Drive Analysis`. May
-contain provenance material (early hypotheses, intuitions, corrections) not in
-other corpora. Whether they warrant an ingest path is hypothesis 045.
+Brian's Google Keep notes: 5,583 notes (Oct 2015 – Aug 2026) in a Google
+Takeout export at `C:/Users/Brian/Documents/Google Drive Analysis/
+takeout-20260810T030233Z-1-001.zip`. WU1.2 confirmed unique provenance
+material (8/8 key moments absent from all lineage layers). Five Claude Code
+analysis artifacts in the same directory provide a curatorial guide. ~300–500
+notes carry framework provenance value; ~130 contain credentials (must be
+excluded from any ingest). Hypothesis 045 → evidenced.
 
-Status: **Available for assessment.** No ingest path exists yet.
+Status: **Assessed (WU1.2, 2026-08-31).** Selective ingest warranted, not yet
+built. Recommended approach: authored include-list config following the
+NotebookLM/code-sessions precedent.
 
 ## Lineage corpus
 

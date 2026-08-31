@@ -1,6 +1,6 @@
 ---
 id: 26
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -32,3 +32,12 @@ independence should be preserved in the framework architecture.
   technique) are dimensional, then the three axes within the mechanism concern
   should also be dimensional. Whether the two sets of three are the same three
   or overlapping-but-distinct is part of the open territory.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The corpus confirms
+  structural independence: mechanism level does not determine rendering mode
+  (M4 requires FID, but M1-M3 can use any technique), and rendering mode does
+  not determine inference stage (FID serves WI and T equally). Semantic coupling
+  is also confirmed: the DT/FID choice determines whether M4 is available,
+  making the coupling between rendering mode and mechanism ceiling the corpus's
+  most consistent finding. Independence holds for the other axis pairs; the
+  DT→M4 coupling is the exception that proves the structure — it is a specific
+  semantic coupling, not a hierarchical nesting.

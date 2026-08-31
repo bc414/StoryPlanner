@@ -1,6 +1,6 @@
 ---
 id: 37
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -35,3 +35,13 @@ density per story rather than per-story track definitions.
   scenes populate bond and growth tracks densely. The architecture is universal;
   the density is per-story. This predicts that no track should be story-specific,
   and that apparent story-specificity signals a track that is too narrow.
+- evidence | 2026-08-31T23:45 | (WU1.1) [supporting]: Cross-category comparison
+  confirms that different story paradigms produce different technique profiles.
+  Ensemble stories (4.2a) are universally M4-absent with DT-dominant interiority
+  and transparent observation. Dark premise (4.2c) achieves M4 only in the two
+  stories that most resemble literary fiction in FID technique. AU (4.2d) has M2
+  as the dominant mechanism due to ambient Latent fields. The same mechanism
+  vocabulary and the same DT/FID diagnostic describe all categories — the
+  architecture is universal. The usage profiles differ sharply. This supports
+  variable density per paradigm within universal architecture.
+

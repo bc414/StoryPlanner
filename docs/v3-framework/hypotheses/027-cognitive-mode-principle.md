@@ -1,6 +1,6 @@
 ---
 id: 27
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -33,3 +33,12 @@ accommodate the three-level framework and non-inferential goals.
   analytical, AI analytical) further complicates the picture — fabula and
   syuzhet/design map to ZF and ND, but Brian's analytical voice operates in
   both modes simultaneously. The principle survives; the map may need redrawing.
+- evidence | 2026-08-31T23:45 | (WU1.1) [supporting]: The narrator-character
+  blend technique documented across multiple corpus categories (ensemble, romance,
+  dark premise, AU) confirms a phenomenon that sits between ZF and ND: content
+  is the character's subjective assessment (not world-fact, so not ZF), but the
+  narrator's literary register adds texture independently of the character's
+  cognitive state (not straightforwardly ND either). This supports the hypothesis
+  that the mode boundaries need revision. Non-thematic goal categories (comedy,
+  emotional investment, structural setup) follow pathways that bypass inference
+  entirely, further challenging ND's inference-oriented framing.

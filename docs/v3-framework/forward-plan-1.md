@@ -21,19 +21,71 @@ consolidation noted that these two domains are predicted to be separable (hypoth
 consolidate further as pipeline work gets scoped. This plan addresses both domains
 but acknowledges their different evidence bases and maturity levels.
 
-The framework domain has rich evidence sources ready: the 112-story corpus (7
-meta-analysis reports), Brian's own fiction (6 stories + naive chapters, italics
-verified), the v1 archive (450 plot points, 1,125 links, accessible via MCP), the
-lineage corpus (all layers ingested), and the v2 working plan (accessible via MCP).
-Framework hypotheses are testable now.
+The framework domain has rich evidence sources ready. Twelve distinct upstream
+sources are available, grouped by access pattern:
+
+**Analysis corpus (already analyzed, local files):**
+- The 112-story analysis corpus — 7 meta-analysis reports + individual per-story
+  analyses, in `source_material_references/Reading Archive Analyses/`. These are
+  the product of the v4 analysis pipeline (Aug 2026) — structured findings ready
+  for synthesis
+
+**Raw material (not yet analyzed, local files):**
+- Brian's own fiction — 6 published stories + naive TLTT chapters, as markdown in
+  `source_material_references/open_stories_md/` and `source_material_references/`.
+  Raw text awaiting analysis under an adapted v4 Brief (WU1.3)
+- Supplementary material — comments (P&K, Pax Chrysalia, others), reviews (Filly
+  Fooling essay + spreadsheet), favorites tiers, TLTT paradigm annotations, in
+  `source_material_references/`. Brian's unprocessed analytical voice
+- Design conversations — framework-origin transcripts in
+  `docs/design-conversations/` (conv 020 and 039 are NOT in the MCP database;
+  the rest are accessible via both MCP and local files)
+
+**MCP corpora (three independent corpora in the .storyplan, never joined):**
+- V2 working plan — the current plan (`*_plan` tools: notes, subjects, chapters,
+  plot points, links, track definitions, narrative properties)
+- V1 archive — the older capture-era dataset (`*_archive` tools: notes, subjects,
+  chapters, plot points, links). Different organizing principles, no id
+  correspondence with v2
+- Conversations — imported AI chat transcripts (`search_conversations`,
+  `get_blocks`, `list_conversations`). Brian's per-block read states and his own
+  navigation notes (Summary field). Arc summaries are frozen text from a retired
+  import pass
+
+**MCP sidecar corpora (separate databases, queried via MCP):**
+- Lineage corpus (`lineage.db`) — four ingested layers: Google Doc revision
+  history (53 diffs + 54 snapshots), Gemini web conversations, AI Studio chats,
+  NotebookLM captures. `search_lineage` / `get_lineage` / `list_lineage`
+- Source texts (`sources.db`) — published material citations point at: FiM
+  episode transcripts, fanfic chapters, EaW flavor text. `search_source_texts` /
+  `get_source_text`
+
+**Non-MCP corpora (queried directly via sqlite3 or file access):**
+- Code sessions (`codesessions.db`) — sealed Claude Code transcript archive,
+  engineering-process provenance. Deliberately outside MCP; queried via sqlite3
+  (recipes in the `code-sessions` skill)
+- Google Keep notes (`C:/Users/Brian/Google Drive Analysis`) — available for
+  assessment, no ingest path exists yet (hypothesis 045)
+- Planning doc revision histories — TLTT already in lineage; KU/NTL, GIYC,
+  Falldale as raw exports in `Planning_Document_Revision_History/`, preprocessing
+  needed before GDocHistory ingest
+- V1 database snapshots — dated `.db` files in Google Drive
+  (`TheLionessOfTallTale[date].db`). Time-series of the v1 planner's state,
+  showing how the data evolved during v1's lifetime. Preprocessing needed to
+  make them queryable (likely opening each as read-only SQLite and diffing
+  against the final v1 archive)
+
+Framework hypotheses are testable now against most of these sources. Pipeline
+hypotheses draw primarily from the lineage corpus, code sessions, and
+configuration history.
 
 The pipeline domain has thinner evidence and more speculative hypotheses. Its
-evidence sources — lineage transcripts, session records, configuration history —
-exist but have not been systematically mined for pipeline-specific questions. Some
-pipeline hypotheses (010-013, model-intrinsic properties) may not be testable with
-current evidence at all, requiring controlled model comparisons that are expensive
-and outside the framework buildout's primary mission. The pipeline WU is designed
-to extract what evidence exists and identify which hypotheses need a different kind
+evidence sources — lineage, code sessions, configuration files — exist but have
+not been systematically mined for pipeline-specific questions. Some pipeline
+hypotheses (010-013, model-intrinsic properties) may not be testable with current
+evidence at all, requiring controlled model comparisons that are expensive and
+outside the framework buildout's primary mission. The pipeline WU is designed to
+extract what evidence exists and identify which hypotheses need a different kind
 of investigation.
 
 ### Strategic ordering
@@ -147,7 +199,7 @@ pages; the session needs the full 1M context.
 
 **Preconditions:** None. Can start immediately.
 
-**Status:** proposed
+**Status:** complete
 
 (No dependencies — this is the first WU to start. Highest downstream value: WU1.5,
 WU1.9, WU1.11, and WU1.12 all depend on its findings.)
@@ -195,10 +247,12 @@ character, and feasibility recommendation.
 
 **Preconditions:** Access to the Google Keep notes directory.
 
-**Status:** proposed
+**Status:** complete
 
 (Independent of all other WUs. Infrastructure hypothesis — test early to determine
-whether a new evidence source exists before later WUs are scoped in detail.)
+whether a new evidence source exists before later WUs are scoped in detail.
+Downstream implementation work: Keep sidecar ingest, recorded in
+implementation-candidates.md.)
 
 ---
 
@@ -228,7 +282,11 @@ The core question is open-ended: what does Brian instinctively do? Expected area
 based on prior analysis include mechanism profiles, interiority technique
 preferences (DT vs FID vs narrator-character blend), perspective discipline, and
 the DT/FID relationship — but the synthesis should discover patterns, not just
-confirm expected ones.
+confirm expected ones. Hypothesis 030 (narrator-character blend, now reframed as
+FID with varying narrator presence): the 112-story corpus shows a spectrum from
+full character-voice FID to narrator-literary-register-visible passages, most
+prominent with vocabulary-limited characters. Where does Brian's writing fall on
+this spectrum? Brian is particularly interested in this question.
 
 Hypothesis 039 (FiM reading effect) is directly testable here: compare the pre-FiM
 Pokemon stories (THLB 2015-2017, Wish 2020, TEatS 2020-2021, NTL 2021-2023)
@@ -237,6 +295,158 @@ against the post-FiM texts (GIYC 2024-2025, Falldale Nov 2025, naive TLTT June
 interiority rendering. THLB's alternating first-person already shows perspective
 restriction instincts, so the prediction is not that perspective awareness appeared
 from nothing but that the specific toolkit shifted.
+
+Hypotheses 033/034 (comedy): the 112-story corpus shows comedy is almost never a
+primary genre but is a major structural force as a delivery register in 85%+ of
+stories. Does Brian's fiction use comedic moments at structural positions (after
+intensity, before reveals, at character-introduction beats)? If so, comedy-as-
+moment placement is something he's already designing, and the question is whether
+the planner should support it.
+
+DT prevalence: the corpus shows DT is the primary interiority technique in the
+majority of stories and does more perception-gap-adjacent work than FID (DT-based
+knowledge asymmetry is the most frequently documented unnamed technique across all
+categories). The own-fiction analysis should specifically track Brian's DT/FID
+ratio and what perception-gap work each does — if Brian's instinctive toolkit is
+DT-heavy (like most of the corpus), the planner should support DT-based gap design,
+not just FID-based. This is the flip side of hypothesis 028: variable focalization
+means designing when to use DT (observation stance) vs FID (inhabitation stance)
+vs other techniques, and DT may be where most of the designed work lives.
+
+Hypothesis 038 (instinctive mechanism practice): WU1.1 identified seven
+perception-gap delivery mechanisms beyond FID (DT-based knowledge asymmetry,
+first-person unreliability, dual-POV structural dramatic irony, strategic opacity,
+narrated denial, the adversarial inner voice, the Mother voice). Brian recognizes
+six of seven from his own practice (all except the Mother voice) — look for these
+specific techniques in the fiction as a grounding checklist.
+
+Hypothesis 037 (multi-story focalization): Brian's recall is that he finds
+unintegrated parallel character arcs annoying (negative examples: Filly Fooling,
+About Last Night) and his instinctive pattern is: split briefly, converge with
+payoff, don't re-split (TLTT's Agency/Tempest/Crash split, NTL's similar
+pattern). Does his fiction confirm this pattern? The multi-story architecture
+may be a deliberate response — pre-TLTT material in its own stories rather
+than parallel subplots within TLTT.
+
+Bond obstacle architecture: the corpus shows characterological obstacles as the
+dominant primary barrier in bonded stories (13/15 romance/SoL, all ensemble, 10/11
+explicit/plot). Brian's recall: his stories will differ — they aren't pure romance,
+and the bond is structurally intertwined with a parallel plot, so structural
+obstacles should be more prominent. Does his fiction confirm structural obstacles
+as primary or co-primary? Lineage discusses this intertwining — WU1.5 should check.
+Additionally: produce a per-story obstacle-type breakdown from the corpus analyses
+alongside the own-fiction findings — which corpus stories use structural or combined
+obstacles rather than pure characterological? The synthesis states characterological
+dominance, but individual stories (P&K, Promises, AU stories with structural
+barriers) may cluster differently. Brian wants the comparison at report time.
+
+Behavioral proxy: the corpus shows it as a near-universal significant secondary
+technique across all categories — wing movements, physical displacement behaviors,
+involuntary responses. Does Brian's fiction use behavioral proxy, and if so, what
+are his specific recurring proxies? This informs how the planner should represent
+the precursor design work (the planned behavioral setup) such that it invokes what
+Brian actually wrote — the planner's Demonstration and Character Actions tracks
+should connect to Brian's instinctive proxy vocabulary.
+
+Candidate design targets from WU1.1 (not yet hypotheses — test whether Brian
+designs these): (a) Information architecture — does Brian's fiction show designed
+macro-level management of what the reader knows when, beyond individual M2
+instances? (b) Reader stance trajectory — does Brian design shifts in the reader's
+relationship to the characters (observation → inhabitation → solidarity → irony)
+as a cross-scene arc? (c) Structural correspondence — does Brian use echo
+architecture, structural rhyme, or designed mirroring between scenes?
+
+Dual-POV structural dramatic irony: the corpus identifies this as a new gap
+(4.2b, 6 analyses) — reader holds knowledge from one focalizer's chapters while
+reading the other's, producing sustained asymmetric awareness that is neither
+Latent nor Perception Gap nor Development. Brian's recall: this may be the
+*foundational* mechanism that got him to want to write in the first place. THLB
+and many other stories are likely built on it. Three questions for the own-fiction
+analysis: (a) Is dual-POV structural dramatic irony Brian's primary technique?
+(b) How does his use compare to the corpus's treatment? (c) How should it surface
+in v3 — is it a design target the planner should support (cross-chapter knowledge
+management across focalizers)? Also check the v1 archive (WU1.4) for whether
+TLTT's multi-focalizer scene graph shows designed cross-focalizer knowledge
+asymmetry.
+
+Demonstration over declaration: the corpus confirms bonds are demonstrated through
+behavioral evidence and accumulated gesture rather than verbal declaration — "I
+love you" moments are payoffs earned by chapters of behavioral demonstration.
+Does Brian's fiction follow this instinct? Check own fiction (WU1.3) for whether
+bonds are demonstrated behaviorally or declared verbally. Check v1 archive (WU1.4)
+for whether the Demonstration track notes and link notes design behavioral bond
+evidence rather than confession/declaration scenes. This connects to the
+behavioral proxy finding — if Brian's instinctive bond design is behavioral, the
+planner's Demonstration track is doing the right work.
+
+Asymmetric interiority access: the corpus shows it as the norm in bonded stories
+— one partner receives deeper narrative access, creating dramatic tension about
+the less-accessed partner's feelings. Does Brian's fiction use this instinctively?
+Check WU1.3 (own fiction — which characters in Brian's dual-focalizer stories get
+more interiority?), WU1.4 (v1 archive — do the 1,125 links and plot point notes
+show asymmetric access design across character pairings?), and v2 working plan
+(WU1.7 — do the Character-Reader Perception Gap or Reader Opinion Plan notes
+show designed asymmetry between bonded partners?).
+
+Bond obstacle architecture — Brian's prediction: his fiction will show the opposite
+of the corpus's characterological dominance. His bonds exist alongside structural/
+external conflicts rather than requiring character change before the relationship
+is possible. One data point: the one characterological story idea he planned
+(Ninetales and Mightyena, discussed in conv 36 about writing vs planning) did NOT
+become a story — which is itself evidence about instinctive preferences. Scope
+addition: include Brian's unwritten story plans as supplementary input to the
+own-fiction synthesis — not as v4 Brief analyses but as design-intent evidence.
+What obstacle architecture does Brian design when planning? What became a story
+vs what didn't, and does that correlate with obstacle type? Sources: conv 36
+(Ninetales/Mightyena), other story ideas in conversations and lineage that
+didn't become written fiction.
+
+Counterargument architecture: the corpus shows a counterargument deficit correlated
+with genre — romance/SoL and ensemble stories rarely present genuine opposition,
+while AU stories have the strongest counterarguments (8/11 genuine). Stories with
+genuine counterarguments are generally stronger for it. Does Brian's written fiction
+contain counterarguments where genre counterparts in the corpus don't? For
+unfinished or unwritten stories, do Brian's v2 plans (theme propositions, subject
+notes, plot points) show designed counterarguments? This is testable against the
+working plan via MCP — check whether Theme Plan and Scene Theme Evidence notes
+articulate opposing positions. The hopepunk thesis specifically predicts engagement
+with genuine opposition (grimdark's "power is all that matters" is a real
+counterargument TLTT must defeat, not dismiss). Compare Brian's counterargument
+density against his genre counterparts in the corpus.
+
+Perspective mode in Brian's ensemble stories: the corpus shows 5/6 ensemble stories
+use rotated limited third rather than omniscient (only The Best Night Ever Repeat
+uses omniscient). NotebookLM labelled TEatS and NTL as omniscient — test this
+claim. Are they actually omniscient, or rotated limited? If rotated limited, Brian's
+instinct aligns with the corpus pattern. If genuinely omniscient, that's a
+distinctive choice the framework should account for.
+
+Shame-about-desire and sex-as-thematic-testing-ground: the explicit/plot corpus
+shows shame-about-desire as its defining thematic family (7/11) and sex scenes as
+thematic testing ground rather than decoration. Brian's recall: this maps directly
+to TLTT's chapter titled "Passion" and to The Kitty of Westkeep as a whole — the
+most inspired by the explicit/plot category. Sex scenes as thematic testing ground
+is a goal across both. Test against: (a) WU1.4 — the v1 archive's "Passion"
+chapter notes and the Aquileian subject notes, (b) v2 working plan — The Kitty of
+Westkeep's subjects, notes, and story plan via MCP, (c) conversations and lineage
+— design discussions about the Kitty story and about how explicit content serves
+theme. The explicit/plot corpus's techniques (self-constructed priors demolished,
+fantasy sequences as unreliable interiority, split-self DT dialogue about desire)
+are a checklist for what Brian may be designing instinctively.
+
+Canon virtues as psychological traps: the corpus documents this in Salvation
+(Loyalty as self-imprisonment, Generosity as inability to accept love) and
+Dash's New Mom (Loyalty to memory as cruelty to the living). Brian's recall:
+P&K's defining thematic message (imported from ASOIAF's grimdark "power is the
+only thing that matters") is exactly this pattern. TLTT subverts it (hopepunk
+thesis), but also approaches canon-virtue-as-trap from a different angle in
+chapters 3-8 (Element-named chapter titles). This needs investigation across
+multiple WUs: (a) WU1.3 — does Brian's fiction show canon virtues as traps,
+and how does it differ from the dark premise corpus? (b) WU1.4 — does the v1
+archive show this pattern in the scene graph for TLTT's early chapters?
+(c) WU1.5 — trace the hopepunk thesis lineage and how it relates to the
+canon-virtue-as-trap pattern (subversion? different angle? both?). (d) WU1.9 —
+compare Brian's treatment against Salvation's and P&K's treatments.
 
 Hypothesis 040 (fabula-dialogue replacement) is testable against the naive chapters
 specifically: do they show the fabula-through-dialogue delivery pattern that the
@@ -280,7 +490,11 @@ formal vocabulary, and whose voice is doing the capturing?
 **Evidence sources:** All 450 plot points, 1,125 links, and relevant notes in the
 v1 archive, accessible via MCP (`get_plot_points_archive`, `get_links_archive`,
 `get_notes_archive`). The Gemini conversation corpus in lineage
-(`search_lineage source:"gemini"`) for voice separation.
+(`search_lineage source:"gemini"`) for voice separation. If preprocessed, the
+dated v1 database snapshots in Google Drive (`TheLionessOfTallTale[date].db`)
+could show WHEN specific notes appeared — enabling temporal voice attribution
+(notes that appeared after a dated Gemini conversation are candidates for
+copy-paste) — but this is an enhancement, not a precondition.
 
 **Scope:** Read ALL plot point notes and link notes — no skipping, no sampling.
 The core question is open-ended: what is Brian instinctively doing at the scene
@@ -302,7 +516,138 @@ scene graph that v2 could not replicate because scene-level work stalled (hypoth
 gap setups, prior-belief management, revelation sequencing, structural parallels —
 all without formal vocabulary. Categorize what is found by the mechanism and goal
 vocabulary the v3 framework is developing (hypotheses 023-036), but the categories
-should EMERGE from the data, not be imposed.
+should EMERGE from the data, not be imposed. For hypothesis 038: WU1.1 identified
+seven named perception-gap delivery mechanisms beyond FID — look for traces of
+these specific techniques (especially DT-based knowledge asymmetry, strategic
+opacity, and narrated denial) in Brian-voice notes. Also look for traces of
+three candidate design targets from WU1.1: (a) designed information architecture
+(macro-level management of what the reader learns when — beyond individual M2
+prior-plants), (b) reader stance trajectory (designed shifts between observation,
+inhabitation, irony across scenes), (c) structural correspondence (echo
+architecture, designed mirroring between scenes). If these appear in the v1 scene
+graph, they're design targets Brian was already working with. Also check for
+canon-virtue-as-psychological-trap patterns in the early TLTT chapters (3-8,
+Element-named titles) — how does the v1 scene graph handle the tension between
+hopepunk subversion and approaching the trap from a different angle? Also check
+the "Passion" chapter notes and Aquileian subject notes for shame-about-desire
+and sex-as-thematic-testing-ground patterns — does the v1 archive show Brian
+designing these as thematic delivery rather than decoration? Check for
+dual-POV structural dramatic irony — does the v1 scene graph show designed
+cross-focalizer knowledge asymmetry (information placed in one character's
+scenes that the reader carries into another character's scenes)? Brian
+believes this is his foundational mechanism and one of the reasons he built v1.
+More broadly: does the v1 archive show designed dramatic irony (reader ahead
+of characters) as a structural pattern? The corpus shows it as the dominant
+information architecture in the majority of stories. The current v2 tracks
+capture specific slices (Reader Prior Belief Update captures what the reader
+learns; Track 99 captures one type of character-reader gap) but not the general
+cross-focalizer knowledge management: what the reader knows from focalizer A
+that focalizer B doesn't know. Embedded texts and dream sequences: the corpus documents embedded texts as
+creating a double interpretive layer and dream sequences as psychological
+evidence the character doesn't control. Brian's recall on two fronts:
+
+(a) Embedded texts: TLTT has Friendship Letters that AJ and Twilight send to
+each other, instinctively planned as the transition points between subplots for
+three chapters. This is embedded text serving as structural architecture — not
+just characterization through voice (the corpus pattern) but narrative
+scaffolding that connects parallel threads. Heavy analysis needed on the v1
+archive's Friendship Letter notes: how are they designed? Do they function as
+information architecture (what the reader learns through the letter vs what the
+characters know)? Do they serve the dual-POV dramatic irony pattern (reader
+holds knowledge from one character's letter while reading the other's subplot)?
+The instinctive choice to use letters as subplot transition points may be a
+distinctive technique not documented in the corpus.
+
+(b) Dream sequences: TLTT uses dreams in two ways that may mix and extend what
+the corpus documents. First, the "AJ the collaborator" thread (in v1 archive,
+not yet migrated to v2) — dreams as psychological evidence, closest to the
+corpus's treatment. Second, the dreamscape aid network — a materialist magical
+system where dreams are functional communication/collaboration infrastructure,
+not just psychological revelation. This is probably unique: the corpus treats
+dreams as interiority evidence (the character's subconscious), but TLTT's
+dreamscape is BOTH interiority evidence AND literal in-world infrastructure.
+The two uses may produce different reader effects that the framework needs to
+distinguish. Check v1 archive for the "AJ the collaborator" dream thread notes
+and the dreamscape aid network design. Good target for comparative analysis
+against the corpus's dream sequence patterns (Third Time's a Charm, Inner
+Strength, Salvation, Perfect on Paper, The Sky is Falling, Ribbons and Lace,
+Controlling Your Desires).
+
+Deliberate perspective breach: the corpus shows NO story using deliberate
+sustained perspective breach as a technique — all breaches are accidental,
+clustering at emotional intensity and expository needs. NLM suggested a planned
+perspective switch for TwiJack scenes in TLTT — a deliberate "breach" of the
+story's otherwise disciplined perspective. This would be unexploited technique
+space with no corpus evidence for or against. Check v1 archive for whether
+the TwiJack perspective switch was designed. Check lineage (WU1.5) for NLM's
+reasoning behind the suggestion. The framework question for WU1.13: should
+the planner support marking designed perspective breaches as deliberate
+technique choices distinct from the story's default perspective discipline?
+
+AU ambient Latent field: the corpus shows AU stories create a persistent
+background comparison between canon and AU — every character encounter generates
+a clash. This is TLTT's operating mode as an EaW AU. The synthesis says "the
+framework has no term for it," but Brian questions whether the existing framework
+actually does represent it — possibly through the Source Material References
+tracks (Canon) or the Reader Prior Belief Update tracks. Check v1 archive and
+v2 working plan for whether existing tracks are already doing this work. If
+so, the gap may be vocabulary (the framework does it but doesn't name it)
+rather than architecture (the framework can't do it).
+
+Anti-development / structurally significant stasis: the corpus documents this in
+Carrot Top Season (Applejack refuses to change despite mounting evidence). The
+framework captures behavioral proxies of near-breakdown but has no category for
+"development that does not occur as a structurally significant absence." This
+may be central to Chrysalis's Greek tragedy — if her arc IS the refusal to
+change, the designed absence of development is the tragic structure. Check v1
+archive for whether Chrysalis's scene graph shows designed stasis (the reader
+watches her refuse the growth that would save her) and whether the planner can
+represent "this character will NOT change, and that refusal is the designed
+reader experience."
+
+Content-rating elision as technique: the corpus documents that what a story
+refuses to show does real work — "the kisses land harder for being the ceiling of
+physical expression." Brian's recall: his design in the v1 archive subverts this
+— TLTT and the Kitty of Westkeep deliberately DO show what these stories elide.
+Check the v1 archive for how this subversion is designed. If Brian's architecture
+treats explicit content as thematic delivery rather than as something to elide
+for restraint-based power, that's a different relationship to content-rating
+discipline than the corpus's dominant pattern — and aligns with the explicit/plot
+category's finding that "the explicitness is the instrument, not the goal."
+
+Pinkie Pie as consistent non-focalizer: the corpus shows Pinkie denied narrative
+interiority across multiple stories and categories, making her operate at M3 for
+the reader (always inferred, never told) — a shared authorial instinct that her
+unpredictability is preserved by keeping the reader outside her consciousness.
+Brian's recall: he follows the same pattern instinctively, not knowing how to
+write her. Check the v1 archive for whether Pinkie's plot point notes and link
+notes show designed external-only access — is she consistently designed to be
+inferred from outside rather than shown from inside?
+
+Check for designed counterarguments in the v1 archive's scene graph — do plot
+point notes or link notes articulate opposing positions that the story must
+defeat? This measures Brian's planning instincts for counterargument design
+before he had framework vocabulary for it. The corpus shows counterargument
+depth correlates with mechanism ceiling and length — does Brian's v1 planning
+show the same pattern?
+
+Specifically search v1's free-form text fields
+for remnants of dramatic-irony-enabling design — especially syuzhet-adjacent
+notes (reader experience design, revelation timing, information sequencing)
+that have NOT been migrated to v2. These unmigrated notes may be the clearest
+evidence of what Brian was designing in v1 that v2's track architecture lost.
+
+Conversation-as-resolution pattern: the corpus flags extended honest conversations
+resolving emotional problems as a potential narrative shortcut (4.2b, 4.2c — "bypasses
+more protracted emotional processing"). Audit the v1 archive for this — there are
+many scenes where Twilight and Applejack talk extensively. Caveat: the shortcut
+critique applies specifically to characterological obstacles (character changes through
+one conversation rather than through accumulated behavioral evidence). TLTT's main
+conflict is structural/political, not characterological, so the TwiJack conversations
+may serve a different function — processing the non-characterological conflict through
+their relationship rather than resolving a characterological barrier. Understanding
+the characterological dimension of the TwiJack arc versus TLTT's structural main
+conflict is the key distinction to make.
 
 **Note-to-note relationships** (hypothesis 043) are testable here: does the v1
 archive show designed connections between moments (a setup note in chapter 3 and
@@ -363,6 +708,10 @@ it overfit?
 - WU1.1 findings (corpus evidence baseline to assess against)
 - The provenance claims from VERSION-HISTORY-DRAFT1.md (the unverified provenance
   table preserved in consolidation-1-plan.md)
+- If preprocessed, the dated v1 database snapshots in Google Drive — time-series
+  of how the plan evolved under the full-plan-paste paradigm, showing when
+  subjects, notes, and the scene graph grew and how their growth correlates with
+  dated Gemini conversations
 
 **Scope:** Trace the provenance of each major framework concept. For each, assess
 against the corpus evidence from WU1.1: confirmed, partially validated, overfit,
@@ -391,26 +740,81 @@ Specific provenance chains to trace:
    evidence should show whether Brian was testing and correcting ideas in v1
    (supporting 002) or accumulating them without testing (challenging 002).
 
-4. **The "every link must have T" rule** (hypothesis 036): conv 47 block 1520.
+4. **The M2 provenance chain**: Where did the prior-belief-clash-revision
+   vocabulary come from? Trace through lineage how M2 was formulated, what
+   prescriptive reasoning shaped its design, and compare that reasoning against
+   both the 112-story corpus evidence (WU1.1 — M2 as sharpest diagnostic) and
+   Brian's own fiction (WU1.3). Is the M2 vocabulary accurate to how prior-
+   belief work actually operates in the stories Brian reads and writes, or is it
+   overfit to the prescriptive framing that produced it?
+
+5. **The Spark provenance chain**: The Spark (why two characters have something
+   special) maps cleanly across the corpus — every bond analysis traces it to a
+   specific moment or quality. Like M2, this is a v2 concept that turned out to
+   match well. Trace where The Spark came from in the framework's design history
+   and why it landed accurately. Compare with the FID fixation chain and the M2
+   chain — three v2 concepts, two that matched the corpus well (M2, The Spark)
+   and one that overfit (FID prescription). What went differently? Understanding
+   why some prescriptive reasoning produced accurate vocabulary while other
+   reasoning overfit is a methodological finding about how to build framework
+   concepts.
+
+6. **Track 99's FID prescription vs DT prevalence** (hypotheses 028, 029, 031):
+   Track 99's usage directive prescribes FID for perception gap delivery. The
+   corpus shows DT is the dominant interiority technique and DT-based knowledge
+   asymmetry is the most common perception-gap-adjacent technique. Was DT-based
+   gap work considered when Track 99 was designed? Was it rejected, or not
+   considered? The provenance of the FID prescription should show whether the
+   narrowing was deliberate (DT was considered insufficient) or incidental (the
+   FID fixation chain bypassed DT entirely).
+
+6. **The perception gap concept itself** (hypotheses 028, 029): Where did
+   "perception gap" come from as the central design target? Trace through conv 21
+   and its antecedents. Three questions: (a) What was perception gap designed to
+   achieve — what reader effect was it naming? (b) How did it come to occupy the
+   pinnacle position in the v2 framework (top of P→WI→T, its own track, FID
+   prescribed as delivery)? (c) What are its peers — what other designed reader
+   effects sit at the same level of architectural importance? The corpus shows
+   prior-belief management (M2), reader investment accumulation, revelation
+   sequencing, and reader opinion trajectory as cross-scene design targets that
+   can't be done in prose alone. Were these considered as peers to perception gap
+   when the framework was designed, or was perception gap elevated above them?
+
+7. **The "every link must have T" rule** (hypothesis 036): conv 47 block 1520.
    Does the corpus evidence support relaxing it?
 
-5. **The four gap types** (hypothesis 029): ironic/tragic/closing/aligned from
+8. **The four gap types** (hypothesis 029): ironic/tragic/closing/aligned from
    conv 21 block 613. One AI's taxonomy, held as hypothesis. Does the corpus show
    these four types, different types, or a more complex picture?
 
-6. **The v2 prescribed workflow** (hypotheses 041, 042): Stage 0→1→2→3, five
+9. **The v2 prescribed workflow** (hypotheses 041, 042): Stage 0→1→2→3, five
    EditorModes. What stalled and why? Was the sequential model the problem, or the
    specific mode designs, or the narrowness of the experience-design vocabulary?
    Lineage evidence from the v2 working period should show what was attempted and
    where it broke down.
 
-7. **The AI context contradiction** (hypothesis 019): trace the read-generate-
-   paste-reread feedback loop through lineage evidence. Reports W05-W07 document
-   the ~940K-char paste scale. The Gemini conversations should show the cycle: the
-   plan enters the prompt, the AI produces output, Brian pastes output back, the
-   next session's plan paste contains the AI's prior output.
+10. **The AI context contradiction** (hypothesis 019): trace the read-generate-
+    paste-reread feedback loop through lineage evidence. Reports W05-W07 document
+    the ~940K-char paste scale. The Gemini conversations should show the cycle: the
+    plan enters the prompt, the AI produces output, Brian pastes output back, the
+    next session's plan paste contains the AI's prior output.
 
-8. **The unverified provenance table** from VERSION-HISTORY-DRAFT1.md: nine claims
+11. **The v1 founding motivation** (hypothesis 034): Brian's recall is that
+    cross-scene architecture is why he built v1 — the planner exists because
+    cross-scene design can't be done in prose alone. Verify against lineage: what
+    do the earliest planning conversations and Google Doc revisions say about why
+    the planner was created? If grounded, this is the strongest evidence for 034's
+    prose-craft boundary falling on cross-scene architecture.
+
+12. **The hopepunk thesis provenance**: Trace where the hopepunk thesis came from
+    and how it relates to the canon-virtue-as-psychological-trap pattern found in
+    the dark premise corpus (Salvation, Dash's New Mom). Brian's recall: P&K's
+    grimdark "power is the only thing that matters" IS the canon-virtue-as-trap
+    thesis, and TLTT subverts it. But TLTT chapters 3-8 also approach the trap
+    from a different angle. How do these relate — is it subversion, reframing,
+    both? Trace through lineage.
+
+13. **The unverified provenance table** from VERSION-HISTORY-DRAFT1.md: nine claims
    about when specific concepts first appeared (fabula/syuzhet at aistudio:6,
    Architect/Gardener at NLM nlm:3, etc.). Each row is checkable against lineage.
    Deposit findings as evidence into the relevant hypothesis records.
@@ -476,6 +880,16 @@ questions:
    itself may not reveal mode-specific usage patterns directly, but the track
    populations by cognitive mode — ZeroFocalization vs NarrativeDesign — show
    whether the cognitive split was practiced in the data.)
+
+5. **Dramatic irony coverage in v2 tracks**: The corpus shows dramatic irony
+   (reader ahead of characters) as the dominant information architecture. How does
+   the current v2 track setup handle this? Reader Prior Belief Update captures
+   what the reader learns. Track 99 captures one specific character-reader gap.
+   But general cross-focalizer knowledge management (what the reader knows from
+   focalizer A that focalizer B doesn't know) has no dedicated track. Survey
+   whether any existing notes in the working plan are doing this work informally
+   — notes on Reader Prior Belief Update or Reader Opinion that track cross-
+   focalizer knowledge asymmetry despite the track not being designed for it.
 
 **What it does NOT do:** Evaluate the framework (that is WU1.12). Mine note
 content for patterns (that is v2-scope work, not v1 mining). Propose changes to
@@ -600,7 +1014,52 @@ does the cross-corpus evidence show goal, mechanism, and technique varying
 independently across all three corpora? Or are they correlated in ways that
 challenge the dimensional model?
 
-**What it does NOT do:** Test hypotheses systematically (that is WU1.11). Propose
+Embedded texts and dream sequences: compare Brian's use of Friendship Letters as
+subplot transition architecture AND his dual dream usage (psychological interiority
++ materialist magical dreamscape infrastructure) against the corpus. For dreams
+specifically: the corpus uses them as psychological evidence the character doesn't
+control. TLTT's dreamscape aid network adds a second function — literal in-world
+infrastructure — that may produce a reader effect the corpus doesn't document
+(the reader processes the dream content simultaneously as psychological evidence
+AND as plot-functional communication). Does any corpus story mix these two dream
+functions?
+
+Also compare Brian's use of Friendship Letters as subplot transition
+architecture against the corpus's embedded text techniques. The corpus shows
+letters creating doubled reading positions (Letters From a Secret Admirer),
+access-mode shifts (A Certain Type of Chic diary, Don't Want Perfection diary),
+and artifact-as-plot-device (The Notebook, In Everything But Name). Brian's use
+as structural scaffolding connecting parallel threads may be distinctive — does
+any corpus story use embedded text as a subplot transition mechanism?
+
+Canon virtues as psychological traps: compare Brian's treatment (hopepunk
+subversion + the different-angle approach in TLTT chapters 3-8) against the dark
+premise corpus's treatment (Salvation's Loyalty/Generosity as traps, Dash's New
+Mom's Loyalty/Honesty as traps) and P&K's treatment (grimdark "power is the
+only thing that matters" as the fullest expression of the pattern). Three
+questions: does Brian's fiction use the same mechanism as the corpus? Does his
+subversion use a different mechanism? Is the chapters 3-8 "different angle" a
+third approach distinct from both?
+
+Celestia as recontextualization vessel: the corpus shows four AU stories using
+retroactive disclosure about Celestia as a major revelation architecture element
+— her canonical inscrutability makes her a natural site for hidden knowledge that
+produces the strongest M2 operations in the corpus. Brian's recall: his handling
+of Celestia follows a similar mechanism. Compare TLTT's Celestia design (v1
+archive subjects, v2 working plan, lineage discussions) against the corpus
+pattern. Is Brian using Celestia the same way (inscrutability → retroactive
+recontextualization)? Is this an instinctive choice shared with the corpus
+authors, or a deliberate design informed by reading them?
+
+Shame-about-desire and sex-as-thematic-testing-ground: compare Brian's design for
+TLTT's "Passion" chapter and The Kitty of Westkeep against the explicit/plot
+corpus's techniques. Does Brian use the same delivery mechanisms (self-constructed
+priors demolished, fantasy sequences, split-self DT dialogue about desire)? Does
+his treatment differ from the corpus's predominantly romance-centered framing? The
+Kitty story is the most directly comparable to the explicit/plot category — how
+does its thematic architecture compare?
+
+**What it does NOT do:** Test hypotheses systematically (that is WU1.12). Propose
 tracks. Apply the favorites lens (that is WU1.11).
 
 **Output:** A cross-corpus comparison report
@@ -882,6 +1341,49 @@ evaluation areas:
    non-thematic goal tracks absent, narrator-character blend unrecognized)? Which
    cognitive modes (ZF/ND/Analogical/LinguisticExecution/Garden) need revision?
    WI-terminal patterns — should the "every link must have T" rule be relaxed?
+   Writing Techniques track shape: the current Writing Techniques track (id:113)
+   is free-form NotesToSelf. The corpus study is producing structured technique
+   insights (e.g., "split-self DT as hamartia works for Greek tragedy — see
+   Salvation, Ribbons and Lace"). Should the track evolve to support structured
+   technique references (corpus-sourced, paradigm-tagged, with links to source
+   stories) or stay free-form? This determines whether corpus-derived technique
+   insights have a systematic home or remain scattered notes.
+   Anti-development representation: if WU1.4 confirms Chrysalis's designed
+   stasis is a real pattern, the Character Development track (id:6) may need
+   its definition broadened. Currently it asks "What is the plan for how the
+   character changes?" — which assumes positive direction. The hypothesis is
+   that the same track could hold designed non-change or decline without new
+   architecture — the display question just stops assuming the direction. A
+   character's arc trajectory (growth, stasis, decline) would be expressible
+   on the existing track rather than requiring a separate anti-development
+   track.
+   M3 adjudication fuzziness: the corpus consistently notes the boundary between
+   "reader infers change from behavioral proxy" (genuine M3) and "narrator states
+   change with behavioral illustration" (told-with-illustration) is fuzzy. This
+   may resolve the same way as the FID/gap finding: the planner designs the
+   behavioral proxy sequence (plannable cross-scene architecture), while whether
+   the narrator assists the reader's inference or lets the proxy stand alone is
+   a prose-craft writing-time decision. Should M3 have a gradient (like M4's
+   approached/sustained), or is the proxy-vs-told boundary a technique question
+   the framework shouldn't try to adjudicate?
+   Counterargument architecture support: the corpus shows stories with genuine
+   counterarguments are generally stronger. The current Theme Plan track holds
+   thematic propositions but doesn't explicitly invite counterargument design
+   ("what is the opposing position, how does the story engage with it, how is
+   it defeated rather than dismissed?"). Should a track or display question
+   support designing the counterargument alongside the thesis?
+   DT-based knowledge asymmetry: the corpus shows DT doing more perception-gap-
+   adjacent work than FID. Does Track 99 need to recognize DT-based gap design
+   alongside or instead of its current FID prescription? Should the framework
+   give DT-based knowledge asymmetry its own vocabulary rather than treating it
+   as "adjacent to M4"?
+   Candidate design targets from WU1.1 (if confirmed by WU1.3/WU1.4 as things
+   Brian actually designs): (a) information architecture — macro-level management
+   of what the reader knows when; (b) reader stance trajectory — designed shifts
+   in reader-character relationship across scenes; (c) structural correspondence
+   — echo architecture, mirroring, refrains. These are cross-scene effects the
+   corpus documents but the current tracks don't address. If Brian's practice
+   confirms them, evaluate whether they need track-level or architectural support.
 
 4. **Goal categories and boundaries (hypotheses 033, 034):** What is the full
    set of goal categories the framework should recognize? Where does the
@@ -972,6 +1474,20 @@ planning. For each story (or story cluster):
    purpose (hypothesis 001) as trajectory management? Are there trajectory types
    the current framework cannot represent — and should they be represented in the
    planner or left to prose?
+
+6. **Thematic vocabulary fit:** The corpus identified five stable thematic
+   territories and category-specific additions. Do the Theme Plan tracks
+   support these territories architecturally? Is the thematic vocabulary the
+   framework uses accurate to how Brian's stories argue their propositions?
+
+7. **Faust-era vs Hasbro-mandate characterization:** The corpus universally uses
+   early-season characterization as baseline, but Brian questions whether this
+   distinction is meaningful — AUs like P&K and Moon's Apprentice have Mane 6
+   still recognizable as Faust's characters, and Lunaverse "arrogant" versions
+   are close to canon S1-2. Check Brian's own fabula notes for what "Hasbro
+   mandate versions" actually means in his characterization design, and whether
+   the difference from what he's "bringing back" is as stark as assumed. Compare
+   against what the corpus AUs actually do with characterization.
 
 **What it does NOT do:** Propose plot changes. Write prose. Suggest story content.
 Determine what any subject "needs next." Those are Brian's decisions.
@@ -1083,6 +1599,7 @@ inform each hypothesis, with the primary WU listed first.
 | Adapted analyze-story skill (self-diagnostic framing, unfinished works) | WU1.3 | Claude Code (buildout work) | Not started |
 | V1 archive mining skill (extraction methodology, voice attribution, structured output) | WU1.4 | Claude Code (buildout work) | Not started |
 | Preprocessing of raw revision history exports in `Planning_Document_Revision_History/` | WU1.8 | Brian | Not started |
+| V1 database snapshots (`TheLionessOfTallTale[date].db`) downloaded from Google Drive and made queryable | WU1.4, WU1.5 (enhancement) | Brian | Not started — location known, preprocessing TBD |
 | Access to Google Keep notes directory | WU1.2 | Brian | Available |
 | Own fiction source texts ready | WU1.3 | — | Done (CORPUS-STATUS: italics verified 2026-08-31) |
 | Favorites tier arbitration complete | WU1.11 | Brian | Done (2026-08-29) |

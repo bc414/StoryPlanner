@@ -1,6 +1,6 @@
 ---
 id: 28
-status: untested
+status: evidenced
 baselined: false
 created: 2026-08-31
 ---
@@ -34,3 +34,18 @@ not from staying deep.
   FID is present" to "design the focalization trajectory for each scene." The
   prediction is testable: stories rated highest in the corpus should show more
   focalization variation, not more sustained FID.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The DT/FID axis is the
+  corpus's single most architecturally deterministic finding, but the stories
+  with the richest perspective effects (P&K, Salvation, Not Unless You Mean It)
+  use BOTH DT and FID extensively, with the distinction between them serving
+  different functions. P&K's analysis states the DT/FID distinction is
+  "structurally load-bearing" — DT reveals what Flurry conceals, FID shapes how
+  the reader processes the narrative. Saturated FID achieves M4 but varied
+  technique produces richer reader experiences. The ensemble finding (6/6 zero
+  M4 with DT-only) shows the structural consequences of NOT varying.
+- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: Across all categories,
+  FID prevalence does not increase with length — it is an authorial preference,
+  not a function of available space. The three heaviest FID users in the
+  romance/SoL category are mid-range in length. This supports the reframing:
+  FID is a chosen tool deployed for specific effects, not a default mode to
+  sustain.
