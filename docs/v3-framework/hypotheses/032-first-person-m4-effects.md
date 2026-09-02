@@ -47,3 +47,11 @@ third-person techniques.
   rather than FID. 4.2b identifies a "structural analogue to M4 through dual
   first-person POV" in 3 stories, classified as "cognitively similar but
   formally distinct."
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: THLB (first-person
+  alternating) produces reader-narrator gaps through narrator unreliability
+  (Hickory's self-serving readings of Spruce and of Maple's blushes) and dual
+  first-person POV (each narrator's feelings known to the reader, unknown to
+  the other). Would differ if false: first-person narration would produce no
+  gap between reported and inferred, or only gaps identical in kind to
+  third-person FID; THLB's are produced by narrator bias, which has no
+  third-person analogue. One text; thin.

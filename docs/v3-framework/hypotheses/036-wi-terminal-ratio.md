@@ -42,3 +42,12 @@ empirical question.
   (P→affect, P→accumulation, P→information_plant) are inherently WI-terminal
   or bypass WI entirely, confirming WI-terminal is not deficient but a
   legitimate common pattern.
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Extensive M1 chains
+  terminate at structural purpose: THLB's Cedar backstory (parallel, not
+  thematic evidence), TEatS's class-prejudice texture, NTL's
+  economic-development chapters (Ch 8-9, foundation for a later argument),
+  GIYC's modeling scenes (setup for later M2). Theme-terminal chains arrive as
+  culminations after this groundwork. Would differ if false: if WI were
+  instrumentally subordinate to T, most WI chains would reach a thematic
+  proposition within the scene or chapter that produced them; the per-story
+  analyses record them reaching structural purpose instead.

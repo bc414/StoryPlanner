@@ -76,3 +76,12 @@ plannable vs prose-craft is an open empirical question.
   Added specific pathways (P→accumulation→attachment, P→information_plant).
   Per-story verification of five corpus stories confirmed comedy is almost never
   a primary genre.
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Comedy at structural
+  positions in 5/7 texts (character introductions — Hooves, Falc, Chadwyck,
+  Pinkie; after intensity — Terry's pranks in NTL's siege chapters; as irony
+  generator — Falldale's opening); emotional investment through accumulated
+  physical gesture (TEatS, NTL, GIYC) with no WI→T step; structural setup
+  chains (THLB Cedar/Spruce parallel, naive TLTT's layered Celestia
+  revelation). Would differ if false: if theme were the terminal goal, comedy
+  and accumulation beats would be traceable to thematic propositions; the
+  per-story Inference Analyses trace none of them there.

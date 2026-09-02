@@ -1,0 +1,88 @@
+SELF-DIAGNOSTIC ADDITIONS TO THE V4 ANALYSIS BRIEF
+====================================================
+
+These additions are prepended/inserted into the standard v4 Analysis Brief
+for self-diagnostic analysis of the author's own fiction.
+
+
+--- INSERT BEFORE "READING MANDATE" ---
+
+SELF-DIAGNOSTIC CONTEXT
+
+This is the author's own fiction being analyzed for instinctive pattern
+discovery. The question is not "what does this story use?" but "what does
+this author instinctively do?" — what technique preferences, recurring
+patterns, and distinctive choices appear across the writing?
+
+Emphasize: recurring technique preferences (does the author default to DT or
+FID? what interiority techniques appear most?), distinctive choices (what does
+this author do that is unusual or characteristic?), and instinctive patterns
+(what shows up without apparent deliberate design?). These patterns ARE the
+primary finding.
+
+This analysis feeds into a cross-story synthesis comparing 7 texts spanning
+2015-2025 across three fandoms (Pokemon, MLP:FiM, Equestria at War). Each
+per-story analysis is independent — the subagent reads only one text. The
+synthesis session reads all 7 analysis outputs. The analysis should be self-
+contained: report what this text shows without reference to other texts.
+
+
+--- INSERT INTO "READING MANDATE" AFTER THE ITALIC-MARKERS PARAGRAPH ---
+
+UNFINISHED AND PARTIAL TEXT
+
+If this text is an unfinished work (the story is ongoing or was abandoned
+before completion), analyze what exists. Note the incompleteness as context
+rather than a limitation — "the story's Theme Propositions are incomplete
+because the story ends mid-arc" is a finding, not an apology. Run the full
+analysis structure including all sections; mark sections that are genuinely
+inapplicable to an incomplete text as N/A with a brief note on why.
+
+If this text is partial text (a fragment or draft, not a story with a
+beginning), treat it as prose-technique evidence rather than a story to be
+analyzed for arc and theme. The full analysis structure still applies — the
+Perspective Analysis, Inference Analysis, and Framework Fit sections are
+productive even on partial text. Story Map, Theme Propositions, and Bond
+Analysis may be N/A.
+
+
+--- APPEND TO "VOCABULARY REFERENCE" AFTER THE DT-BASED KNOWLEDGE ASYMMETRY PARAGRAPH ---
+
+Additional perception-gap delivery mechanisms (from the 112-story corpus
+analysis). These are recognition vocabulary — name them when they appear:
+
+First-person unreliability: The narrator is a character, and the reader can
+distrust the narration itself. When a first-person narrator says "I wasn't
+bothered," the reader may infer from context that the narrator was deeply
+bothered. M4-adjacent through narrator unreliability rather than FID.
+
+Dual-POV structural dramatic irony: Reader holds knowledge from one
+focalizer's chapters while reading the other's, producing sustained
+asymmetric awareness. Neither Latent nor Perception Gap nor Development in
+the classical sense.
+
+Strategic opacity: The narration withholds interiority at a moment when the
+reader expects access, producing inference from the withholding itself.
+
+Narrated denial: The narrator states a character's self-assessment that the
+accumulated narrative evidence contradicts. The gap between the narration's
+claim and what the reader has observed does the work.
+
+The adversarial inner voice: A character's DT operates as a hostile
+interlocutor to their own consciousness, producing a split-self effect.
+
+The Mother voice: A character's interiority channels the voice and
+judgments of a parental figure, producing a second consciousness within
+the character's own narration.
+
+
+--- METADATA BLOCK CHANGES ---
+
+For complete stories:
+  CONTEXT: 1M (self-diagnostic, full read)
+
+For unfinished stories:
+  CONTEXT: 1M (self-diagnostic, unfinished -- chapters 1-N of ongoing)
+
+For partial text:
+  CONTEXT: 1M (self-diagnostic, partial text -- v0 prose evidence)

@@ -44,4 +44,13 @@ density per story rather than per-story track definitions.
   vocabulary and the same DT/FID diagnostic describe all categories — the
   architecture is universal. The usage profiles differ sharply. This supports
   variable density per paradigm within universal architecture.
-
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Four paradigms across 7
+  texts (first-person alternating; third-person soft-limited romance;
+  third-person ensemble; single-POV war narrative) are all described by one
+  vocabulary — M1-M3, DT/dialogue/behavioral proxy — with sharply different
+  proportions (THLB DT-saturated dual irony; NTL proxy-dominant ensemble
+  rotation; Falldale dialogue-carried interiority with zero DT). Would differ
+  if false: if paradigms required different architectures, at least one text
+  would need a category the vocabulary lacks; the only gap found (dual-POV
+  structural irony falling between M2/M3/M4) recurs across paradigms rather
+  than belonging to one.

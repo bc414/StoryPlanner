@@ -37,11 +37,12 @@
 | 035 | [embedded-text-category](035-embedded-text-category.md) | evidenced | — |
 | 036 | [wi-terminal-ratio](036-wi-terminal-ratio.md) | evidenced | — |
 | 037 | [multi-story-focalization-profiles](037-multi-story-focalization-profiles.md) | evidenced | — |
-| 038 | [instinctive-mechanism-practice](038-instinctive-mechanism-practice.md) | untested | — |
-| 039 | [fim-reading-effect](039-fim-reading-effect.md) | untested | — |
-| 040 | [fabula-dialogue-replacement](040-fabula-dialogue-replacement.md) | untested | — |
+| 038 | [instinctive-mechanism-practice](038-instinctive-mechanism-practice.md) | challenged | — |
+| 039 | [fim-reading-effect](039-fim-reading-effect.md) | challenged | — |
+| 040 | [fabula-dialogue-replacement](040-fabula-dialogue-replacement.md) | challenged | — |
 | 041 | [sufficient-stability-iterative](041-sufficient-stability-iterative.md) | untested | — |
 | 042 | [editor-modes-evaluation](042-editor-modes-evaluation.md) | untested | — |
 | 043 | [note-design-relationships](043-note-design-relationships.md) | untested | — |
 | 044 | [bespokeness-tension](044-bespokeness-tension.md) | untested | — |
 | 045 | [keep-notes-provenance](045-keep-notes-provenance.md) | evidenced | — |
+| 046 | [dt-two-classes](046-dt-two-classes.md) | evidenced | — |

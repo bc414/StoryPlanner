@@ -60,3 +60,13 @@ hypothesis for gap types.
   of P→WI→T, its own track, FID prescribed); the corpus evidence shows it as
   one designed reader effect among several. WU1.5 should trace how it came to
   be elevated and whether its peers were considered.
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: FID-delivered M4 is
+  absent from all 7 texts, yet reader-character knowledge gaps are pervasive,
+  delivered by dual-POV structural dramatic irony (THLB, Wish, TEatS, NTL,
+  GIYC), DT-based knowledge asymmetry (GIYC "horrible pony", TEatS "a burden",
+  Wish "not ready"), first-person unreliability (THLB, Hickory's
+  jealousy-colored reading of Spruce), and the adversarial inner voice (5
+  texts). Would differ if false: if FID were the privileged delivery
+  mechanism, gap effects would cluster where FID appears and be absent where
+  it does not; they are strongest in the text with no FID at all (THLB). Bears
+  on delivery only — the per-story analyses did not assess the four gap types.

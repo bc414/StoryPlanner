@@ -1,6 +1,6 @@
 ---
 id: 38
-status: untested
+status: challenged
 baselined: false
 created: 2026-08-31
 ---
@@ -34,3 +34,13 @@ and techniques he may adopt.
   does — he should also be able to learn new techniques. Brian's insight that
   the v2 FID prescription missed techniques he was already using prompted the
   merge.
+- evidence | 2026-09-01T22:41 | (WU1.3) [challenging]: The statement names
+  four mechanisms as already in the toolkit. Found across the 7 texts:
+  DT-based knowledge asymmetry (GIYC, TEatS, Wish, THLB) and first-person
+  unreliability (THLB). Absent from all 7: strategic opacity and narrated
+  denial. Also present, unnamed by the statement: dual-POV structural dramatic
+  irony (5 texts, the primary technique) and the adversarial inner voice (5
+  texts). Would differ if true: strategic opacity or narrated denial would
+  appear somewhere in seven texts spanning a decade. Brian's recall in the WU
+  spec was 6 of 7 corpus mechanisms recognized; the evidence is 4 of 7, and
+  two of the four the statement explicitly names are the absent ones.

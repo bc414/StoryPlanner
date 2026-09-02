@@ -44,3 +44,12 @@ in the framework.
   inhabitation." The 4.2b report calls the DT/FID boundary "a continuous
   technique" that the framework "slices through," confirming the technique is
   real and distinct from FID-delivered M4.
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Wrong-self-assessment
+  gaps in Brian's fiction occur in marked DT, not FID: GIYC "I must be a
+  horrible pony" against four chapters of contrary evidence; TEatS Valerie's
+  "a burden" against Shane's demonstrated devotion; Wish Jason's "not ready
+  for a formal relationship" against his own behavior; THLB Hickory's "she
+  seemed happier when she was with me" against Maple's chapters. Would differ
+  if false: if DT asymmetry were not distinct from FID-delivered irony, these
+  gaps would coincide with FID passages or vanish in FID-free texts; they
+  occur in DT with no FID present (TEatS, THLB).

@@ -24,7 +24,8 @@ Ground truth for populations: `.claude/skills/analyze-story/populations.md`.
 
 6 published stories + naive TLTT chapters. Italics verified 2026-08-31.
 
-Markdown files in `source_material_references/open_stories_md/`:
+Plain-text files (`.txt`, italics as `*...*`) in
+`source_material_references/own_stories_md/`:
 - THLB (Pokemon, 2015-2017, first-person alternating POV)
 - Wish (Pokemon, 2020, one-shot)
 - TEatS (Pokemon, 2020-2021)
@@ -36,7 +37,11 @@ Markdown files in `source_material_references/open_stories_md/`:
 Source epubs in `source_material_references/own_stories_epub/`. Converted via
 FicEpubReader (`dotnet run --project tools/StoryPlanner.SourceTexts -- --to-markdown`).
 
-Status: **Ready.** All texts converted with italics intact.
+Status: **Analyzed (WU1.3, 2026-09-01).** Seven self-diagnostic v4 analyses in
+`Reading Archive Analyses/` (`thlb`, `wish`, `teats`, `ntl`, `giyc`,
+`falldale`, `naive-tltt`, each `-1m.txt`); correction notes prepended to four
+after source verification. Synthesis: `docs/v3-framework/WU1.3-own-voice-synthesis.md`.
+Brief additions used: `docs/analysis-briefs/v4-self-diagnostic-additions.txt`.
 
 ## Supplementary material
 
@@ -100,7 +105,7 @@ Status: **Current.**
 
 ## Skills needed
 
-- Own fiction analysis needs an adapted analyze-story skill (self-diagnostic
-  framing, handle unfinished works, naive chapters as partial text)
+- Own fiction analysis: done without a skill change — the self-diagnostic
+  additions were embedded in subagent prompts (`docs/analysis-briefs/`)
 - V1 archive extraction needs a new skill (multiple subagents, batched by
   chapter arc, voice separation via lineage grep, consistent categorization)

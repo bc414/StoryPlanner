@@ -47,3 +47,14 @@ designed reader operation at scene-level intersections.
   techniques. Non-thematic goals (comedy, emotional investment, structural
   setup) follow pathways that bypass inference entirely, confirming they are
   peer concerns, not sub-concerns of theme.
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Brian's 7 texts show
+  goal, mechanism, and technique varying independently. M1 Enacted serves
+  thematic argument (NTL's economic transformation), structural setup (THLB,
+  Spruce's promise-breaking), and emotional investment (GIYC modeling scenes).
+  The bonding goal is delivered via DT (THLB, TEatS), dialogue (Falldale), and
+  narrator-rendered proxy (GIYC's pink curtain). Would differ if false: a
+  mechanism would pair consistently with one goal or one technique across
+  texts. Caveat: the v4 brief's section structure itself separates the three
+  concerns, so this is weaker than an independent test — it shows the
+  separation is describable in Brian's fiction, not that the fiction forces
+  it.

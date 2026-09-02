@@ -64,4 +64,12 @@ register) are prose-craft, chosen at writing time.
   choice, atmosphere). Brian's recall that cross-scene architecture is why he
   built v1 (to be verified by WU1.5) would be the strongest confirmation — the
   planner exists because cross-scene design can't be done in prose alone.
-
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: On the open
+  comedy-placement question: in 5/7 texts comedic beats cluster at
+  identifiable structural positions (introductions, post-intensity,
+  pre-reveal, irony setup) rather than distributing uniformly, and recur in
+  the same positions across texts. Would differ if false: if comedy placement
+  were within-moment prose-craft rather than cross-scene architecture, beats
+  would show no positional pattern across scenes or texts. Limited to comedy
+  placement — the fiction cannot locate the boundary for other goal categories
+  from text alone.

@@ -70,3 +70,19 @@ and if so they warrant an ingest path into the lineage corpus.
   nowhere else, and Category 2 timestamps have provenance value — but the
   ingest design should distinguish the categories rather than treating all
   Keep notes as equally unique. Assessment updated accordingly.
+- evidence | 2026-08-31T23:30 | (WU1.2, verification round 2) [supporting]:
+  Broader concept searches (not just exact phrasing) tested whether the IDEAS
+  behind the 8 test items appear in lineage in different words. Result: the
+  initial exact-phrasing test was methodologically insufficient — 2 of the 8
+  items (TLTT economic thesis, Applejack mask/democracy) are actually Category
+  2 (timestamp-unique), not Category 1 (content-unique). The Applejack+mask
+  concept has 55 hits in lineage from Dec 4, 2025 onward; the Keep note (Aug
+  23) is the temporal origin but the idea entered lineage. The remaining 6
+  items (StoryPlanner conception, purpose statement, craft guardrail, voice
+  separation, craft-theory questions, KU critique) returned 0 hits even with
+  broadened concept searches — these are genuine Category 1. The pattern:
+  worldbuilding/story-content ideas entered lineage via copy-paste; self-
+  reflective, metacognitive, and craft-methodology notes did not. Brian's
+  thinking about his own process is unique to Keep; his story content largely
+  is not. Hypothesis remains evidenced — Category 1 material exists and
+  warrants ingest.

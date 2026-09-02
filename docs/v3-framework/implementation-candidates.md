@@ -99,11 +99,15 @@ categories: (1) content-unique notes (no lineage echo — full ingest),
 Gemini, Keep adds prior capture timestamp — metadata ingest), (3) non-unique
 (skip). ~130 credential-containing notes must be excluded.
 
-**Timing:** Build after the first wave of WUs (1.1, 1.3, 1.4, 1.5, 1.7). Those
-WUs operate on their own corpora and can read the existing Claude Code analysis
-artifacts directly. Once they produce findings, the specific Keep notes they
-cited become the authored include-list — curating notes already used rather than
-guessing which ones matter.
+**Timing:** Build before WU1.5 (Retrospective), which lists it as a
+precondition. WU1.5 traces provenance chains that need pre-AI timestamps from
+Keep to establish when framework concepts formed before AI engagement. WU1.8
+(Planning Evolution) also benefits — for pre-Gemini stories (KU/NTL, GIYC),
+Keep is the only source of Brian's thinking alongside the planning doc
+revisions. Can be built in parallel with WU1.1 (corpus synthesis), which has
+no dependency on Keep. The existing Claude Code analysis artifacts
+(`C:/Users/Brian/Documents/Google Drive Analysis/`) provide the curatorial
+guide for the authored include-list.
 
 Source: WU1.2 assessment (2026-08-31)
 

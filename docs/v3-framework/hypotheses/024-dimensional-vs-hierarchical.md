@@ -46,3 +46,12 @@ rather than nesting goal inside mechanism inside technique.
   nesting constraints, consistent with dimensional rather than hierarchical
   organization. However, the evidence is inferential from cross-section
   comparison rather than direct — no report explicitly tests independence.
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Across the 7 texts,
+  mechanism, technique, and goal combine without nesting: M1 via behavioral
+  proxy for structural setup (THLB training arc), M2 via dialogue for thematic
+  argument (naive TLTT's Celestia revision), M3 via narrator-rendered proxy
+  for characterization (GIYC pink-curtain arc), M2 via revelation architecture
+  for structural payoff (TEatS Elliot reveal). Would differ if false: under
+  containment, a goal would constrain the mechanisms available to it or a
+  mechanism would constrain its rendering; no such constraint appears. Same
+  brief-structure caveat as the 023 entry.

@@ -129,14 +129,18 @@ revision histories exist as raw exports in `Planning_Document_Revision_History/`
 before `GDocHistory` can ingest them into lineage.db. This is Brian's task; WU1.8
 is designed to proceed without it if needed.
 
-**5. The convergence pattern is: evidence → comparison → adjudication →
-evaluation → connection.** Three primary evidence WUs (corpus synthesis, own
-fiction, V1 mining) feed into a cross-corpus comparison, which feeds into a
-favorites lens, which feeds into hypothesis adjudication and framework evaluation,
-which feeds into the connection to TLTT. The retrospective and pipeline
-investigation run alongside this chain, feeding into the adjudication and
-evaluation at the convergence point. The working plan assessment and planning
-evolution are independent smaller WUs that feed into specific hypotheses.
+**5. Enrichment flow determines execution order.** Each WU's post-review adds
+testing specs to downstream WUs — proven by WU1.1, which added ~35 testing
+specs across 7 downstream WUs. Discovery WUs (open-ended mining, corpus
+synthesis) produce findings that add questions to downstream survey, comparison,
+and assessment WUs. This information flow is one-directional and determines
+execution order: WU1.4 (V1 mining, discovery) → WU1.3 (own fiction, discovery)
+→ WU1.7 (working plan survey, enriched by both discoveries) → WU1.5
+(retrospective) → WU1.9 (cross-corpus comparison) → convergence WUs.
+Practical considerations (which skill is ready, which WU is quicker) are not
+ordering criteria. The convergence pattern remains: evidence → comparison →
+adjudication → evaluation → connection — but the evidence WUs are sequential,
+not parallel, so each one's findings enrich the next.
 
 ### Hypothesis coverage
 
@@ -149,10 +153,10 @@ Every hypothesis is targeted by at least one WU. The mapping:
 | C (010-013) | Model properties | WU1.10 (pipeline) |
 | D (014-018) | Instructions, environment | WU1.5 (retrospective), WU1.8 (planning evolution), WU1.10 (pipeline) |
 | E (019-022) | Voice, interaction | WU1.4 (V1 mining), WU1.5 (retrospective) |
-| F (023-027) | Framework architecture | WU1.1 (corpus), WU1.9 (cross-corpus), WU1.12 (framework eval) |
-| G (028-032) | Perspective, perception | WU1.1 (corpus), WU1.3 (own fiction), WU1.5 (retrospective), WU1.9 (cross-corpus) |
-| H (033-037) | Goals, scope, boundaries | WU1.1 (corpus), WU1.3 (own fiction), WU1.9 (cross-corpus), WU1.12 (framework eval) |
-| I (038-040) | Brian's practice | WU1.3 (own fiction), WU1.4 (V1 mining), WU1.9 (cross-corpus) |
+| F (023-027) | Framework architecture | WU1.1 (corpus), WU1.3 (own fiction, 023/024), WU1.9 (cross-corpus), WU1.12 (framework eval) |
+| G (028-032) | Perspective, perception | WU1.1 (corpus), WU1.3 (own fiction), WU1.4 (V1 mining, 028/029/031 from scope reconciliation), WU1.5 (retrospective), WU1.9 (cross-corpus) |
+| H (033-037) | Goals, scope, boundaries | WU1.1 (corpus), WU1.3 (own fiction, +033-036 from scope reconciliation), WU1.4 (V1 mining, 035 from scope reconciliation), WU1.9 (cross-corpus), WU1.12 (framework eval) |
+| I (038-040) | Brian's practice | WU1.3 (own fiction), WU1.4 (V1 mining, +040 from scope reconciliation), WU1.9 (cross-corpus) |
 | J (041-045) | Planner instrument | WU1.4 (V1 mining), WU1.5 (retrospective), WU1.2 (Keep assessment), WU1.7 (working plan), WU1.12 (framework eval) |
 
 
@@ -201,9 +205,6 @@ pages; the session needs the full 1M context.
 
 **Status:** complete
 
-(No dependencies — this is the first WU to start. Highest downstream value: WU1.5,
-WU1.9, WU1.11, and WU1.12 all depend on its findings.)
-
 ---
 
 ### WU1.2: Keep Notes Assessment
@@ -249,11 +250,6 @@ character, and feasibility recommendation.
 
 **Status:** complete
 
-(Independent of all other WUs. Infrastructure hypothesis — test early to determine
-whether a new evidence source exists before later WUs are scoped in detail.
-Downstream implementation work: Keep sidecar ingest, recorded in
-implementation-candidates.md.)
-
 ---
 
 ### WU1.3: Own Fiction Analysis
@@ -262,7 +258,7 @@ implementation-candidates.md.)
 profiles, perspective techniques, interiority rendering, and structural patterns
 appear in his fiction?
 
-**Hypotheses:** 028, 029, 030, 031, 032, 037, 038, 039, 040
+**Hypotheses:** 023, 024, 028, 029, 030, 031, 032, 033, 034, 035, 036, 037, 038, 039, 040
 
 **Evidence sources:** Brian's 6 published stories + naive TLTT chapters, all as
 local markdown files in `source_material_references/open_stories_md/` and
@@ -334,11 +330,8 @@ explicit/plot). Brian's recall: his stories will differ — they aren't pure rom
 and the bond is structurally intertwined with a parallel plot, so structural
 obstacles should be more prominent. Does his fiction confirm structural obstacles
 as primary or co-primary? Lineage discusses this intertwining — WU1.5 should check.
-Additionally: produce a per-story obstacle-type breakdown from the corpus analyses
-alongside the own-fiction findings — which corpus stories use structural or combined
-obstacles rather than pure characterological? The synthesis states characterological
-dominance, but individual stories (P&K, Promises, AU stories with structural
-barriers) may cluster differently. Brian wants the comparison at report time.
+(Per-story obstacle-type breakdown from corpus analyses moved to WU1.9 —
+scope reconciliation 2026-09-01.)
 
 Behavioral proxy: the corpus shows it as a near-universal significant secondary
 technique across all categories — wing movements, physical displacement behaviors,
@@ -361,11 +354,10 @@ Dual-POV structural dramatic irony: the corpus identifies this as a new gap
 reading the other's, producing sustained asymmetric awareness that is neither
 Latent nor Perception Gap nor Development. Brian's recall: this may be the
 *foundational* mechanism that got him to want to write in the first place. THLB
-and many other stories are likely built on it. Three questions for the own-fiction
-analysis: (a) Is dual-POV structural dramatic irony Brian's primary technique?
-(b) How does his use compare to the corpus's treatment? (c) How should it surface
-in v3 — is it a design target the planner should support (cross-chapter knowledge
-management across focalizers)? Also check the v1 archive (WU1.4) for whether
+and many other stories are likely built on it. Question for the own-fiction
+analysis: Is dual-POV structural dramatic irony Brian's primary technique?
+(Corpus comparison (b) moved to WU1.9; framework surfacing (c) moved to
+WU1.13 — scope reconciliation 2026-09-01.) Also check the v1 archive (WU1.4) for whether
 TLTT's multi-focalizer scene graph shows designed cross-focalizer knowledge
 asymmetry.
 
@@ -391,28 +383,16 @@ show designed asymmetry between bonded partners?).
 Bond obstacle architecture — Brian's prediction: his fiction will show the opposite
 of the corpus's characterological dominance. His bonds exist alongside structural/
 external conflicts rather than requiring character change before the relationship
-is possible. One data point: the one characterological story idea he planned
-(Ninetales and Mightyena, discussed in conv 36 about writing vs planning) did NOT
-become a story — which is itself evidence about instinctive preferences. Scope
-addition: include Brian's unwritten story plans as supplementary input to the
-own-fiction synthesis — not as v4 Brief analyses but as design-intent evidence.
-What obstacle architecture does Brian design when planning? What became a story
-vs what didn't, and does that correlate with obstacle type? Sources: conv 36
-(Ninetales/Mightyena), other story ideas in conversations and lineage that
-didn't become written fiction.
+is possible. Does his written fiction confirm this?
+(Unwritten story plans as supplementary input moved to WU1.8 — planning-
+process question, not fiction-analysis question. Source: Google Drive
+"Miscellaneous Story Stuff" folder. Scope reconciliation 2026-09-01.)
 
-Counterargument architecture: the corpus shows a counterargument deficit correlated
-with genre — romance/SoL and ensemble stories rarely present genuine opposition,
-while AU stories have the strongest counterarguments (8/11 genuine). Stories with
-genuine counterarguments are generally stronger for it. Does Brian's written fiction
-contain counterarguments where genre counterparts in the corpus don't? For
-unfinished or unwritten stories, do Brian's v2 plans (theme propositions, subject
-notes, plot points) show designed counterarguments? This is testable against the
-working plan via MCP — check whether Theme Plan and Scene Theme Evidence notes
-articulate opposing positions. The hopepunk thesis specifically predicts engagement
-with genuine opposition (grimdark's "power is all that matters" is a real
-counterargument TLTT must defeat, not dismiss). Compare Brian's counterargument
-density against his genre counterparts in the corpus.
+Counterargument architecture: Does Brian's written fiction contain genuine
+counterarguments? The hopepunk thesis specifically predicts engagement with
+genuine opposition. (v2 working plan MCP query for designed counterarguments
+moved to WU1.7; corpus counterargument density comparison moved to WU1.9 —
+scope reconciliation 2026-09-01.)
 
 Perspective mode in Brian's ensemble stories: the corpus shows 5/6 ensemble stories
 use rotated limited third rather than omniscient (only The Best Night Ever Repeat
@@ -421,32 +401,19 @@ claim. Are they actually omniscient, or rotated limited? If rotated limited, Bri
 instinct aligns with the corpus pattern. If genuinely omniscient, that's a
 distinctive choice the framework should account for.
 
-Shame-about-desire and sex-as-thematic-testing-ground: the explicit/plot corpus
-shows shame-about-desire as its defining thematic family (7/11) and sex scenes as
-thematic testing ground rather than decoration. Brian's recall: this maps directly
-to TLTT's chapter titled "Passion" and to The Kitty of Westkeep as a whole — the
-most inspired by the explicit/plot category. Sex scenes as thematic testing ground
-is a goal across both. Test against: (a) WU1.4 — the v1 archive's "Passion"
-chapter notes and the Aquileian subject notes, (b) v2 working plan — The Kitty of
-Westkeep's subjects, notes, and story plan via MCP, (c) conversations and lineage
-— design discussions about the Kitty story and about how explicit content serves
-theme. The explicit/plot corpus's techniques (self-constructed priors demolished,
-fantasy sequences as unreliable interiority, split-self DT dialogue about desire)
-are a checklist for what Brian may be designing instinctively.
+Shame-about-desire and sex-as-thematic-testing-ground: does Brian's written
+fiction show these patterns? The per-story analyses will discover thematic
+families if present. (Specific TLTT/Kitty evidence sources moved to their
+respective WUs: v1 archive "Passion" chapter to WU1.4, v2 working plan Kitty
+subjects to WU1.7, conversations/lineage to WU1.5 — scope reconciliation
+2026-09-01.)
 
-Canon virtues as psychological traps: the corpus documents this in Salvation
-(Loyalty as self-imprisonment, Generosity as inability to accept love) and
-Dash's New Mom (Loyalty to memory as cruelty to the living). Brian's recall:
-P&K's defining thematic message (imported from ASOIAF's grimdark "power is the
-only thing that matters") is exactly this pattern. TLTT subverts it (hopepunk
-thesis), but also approaches canon-virtue-as-trap from a different angle in
-chapters 3-8 (Element-named chapter titles). This needs investigation across
-multiple WUs: (a) WU1.3 — does Brian's fiction show canon virtues as traps,
-and how does it differ from the dark premise corpus? (b) WU1.4 — does the v1
-archive show this pattern in the scene graph for TLTT's early chapters?
-(c) WU1.5 — trace the hopepunk thesis lineage and how it relates to the
-canon-virtue-as-trap pattern (subversion? different angle? both?). (d) WU1.9 —
-compare Brian's treatment against Salvation's and P&K's treatments.
+Canon virtues as psychological traps: does Brian's fiction show canon virtues
+as traps? Only the MLP texts (GIYC, naive TLTT) and potentially Falldale (EaW)
+can show this in the fandom-specific sense; the Pokemon stories can show the
+general "virtue-as-trap" pattern. (Corpus comparison (d) moved to WU1.9;
+v1 archive (b) already tagged for WU1.4; hopepunk lineage (c) already tagged
+for WU1.5 — scope reconciliation 2026-09-01.)
 
 Hypothesis 040 (fabula-dialogue replacement) is testable against the naive chapters
 specifically: do they show the fabula-through-dialogue delivery pattern that the
@@ -473,10 +440,19 @@ framing, unfinished works, and the naive chapters as partial text. The skill
 adaptation is part of the buildout work — build it before running this WU. All
 source texts are ready (CORPUS-STATUS: "All texts converted with italics intact").
 
-**Status:** proposed
+**Status:** complete
 
-(Independent of WU1.1. Blocks WU1.9 and WU1.11. The skill adaptation is the
-gating precondition.)
+**Completion (2026-09-01):** Seven analyses and the synthesis produced; brief
+additions preserved at `docs/analysis-briefs/v4-self-diagnostic-additions.txt`.
+Post-WU review found the initial deposits biased (13 supporting, 0
+challenging) and four per-story FID misclassifications on source check; the
+Deposit protocol was added to the v3-buildout skill and the deposits redone
+under it. Final tag counts: 16 targets (15 + new 046), 14 entries — 11
+supporting, 3 challenging (038, 039, 040 → `challenged`), 2 not deposited
+(028, 035). Hypothesis 046 (dt-two-classes) created. Counterargument finding
+corrected (5/7, not 3/7). Corrections and audit trail: synthesis, Correction
+section. Open for Brian: statement sweep on 038/039/040; 046 borderline
+adjudication; the brief-bias hypothesis offer.
 
 ---
 
@@ -485,7 +461,18 @@ gating precondition.)
 **Question:** What scene-level instincts did Brian capture in v1 before having
 formal vocabulary, and whose voice is doing the capturing?
 
-**Hypotheses:** 019, 020, 021, 022, 038, 043, 044
+**Hypotheses:** 019, 020, 021, 022, 028, 029, 031, 035, 038, 040, 043, 044
+(029, 031, 035 added by scope reconciliation 2026-09-02 — the testing specs
+accumulated below from the WU1.1 and WU1.3 reviews target 029's named
+cross-scene design targets, 031's focalization-plan prediction, and 035's
+"structural scaffolding" open question, which 035's own record already
+delegates to this WU. 028 and 040 added the same day at Brian's direction:
+the Pinkie external-only-access and TwiJack perspective-breach checks are
+focalization-variation design questions for 028; the v1 notes are where
+040's four named replacement techniques — behavioral evidence, designed
+incomplete understanding, revelation architecture, designed mistakes — would
+appear as designed rather than as written, which WU1.3's `[challenging]`
+entry could only test in prose.)
 
 **Evidence sources:** All 450 plot points, 1,125 links, and relevant notes in the
 v1 archive, accessible via MCP (`get_plot_points_archive`, `get_links_archive`,
@@ -649,6 +636,26 @@ their relationship rather than resolving a characterological barrier. Understand
 the characterological dimension of the TwiJack arc versus TLTT's structural main
 conflict is the key distinction to make.
 
+Three checks delegated here from WU1.3's spec (the ordering audit's 1.3 → 1.4
+STRONG edge; brought onto this card by scope reconciliation 2026-09-02 so the
+read-once pass asks them). WU1.3's findings on each are the comparand:
+
+(a) Behavioral-proxy vocabulary: WU1.3 found Brian's recurring proxies in the
+prose (synthesis, "Behavioral Proxy Vocabulary"). Do v1 plot point and link
+notes plan behavioral setups in the same vocabulary — i.e. does the v1
+Demonstration/Character Actions material name the proxies he later wrote?
+
+(b) Demonstration over declaration: do v1 Demonstration-track notes and link
+notes design behavioral bond evidence rather than confession/declaration scenes?
+WU1.3 found bonds demonstrated behaviorally in the fiction (synthesis,
+"Demonstration Over Declaration").
+
+(c) Asymmetric interiority access: do the 1,125 links and plot point notes show
+designed asymmetric access across character pairings — one bonded partner
+planned for more interiority than the other? WU1.3 found the pattern in the
+fiction (synthesis, "Asymmetric Interiority Access"); this asks whether v1
+designed it or the prose produced it.
+
 **Note-to-note relationships** (hypothesis 043) are testable here: does the v1
 archive show designed connections between moments (a setup note in chapter 3 and
 its payoff in chapter 15) that are currently invisible in the data? The v1 archive's
@@ -672,8 +679,18 @@ excerpt). The structured format serves WU1.9 (cross-corpus comparison can query
 patterns) and the downstream voice linting protocol (voice attribution enables
 grep-based cleanup). One file per arc batch + a summary.
 
-**Scale:** Multiple subagents batched by TLTT chapter arc (e.g., Arc 1 chapters,
-Arc 2 chapters, etc.), plus Aris and Paratext.
+**Scale:** Re-measured 2026-09-02 (scope reconciliation) against the archive
+file: the scene-level material the spec mandates in full — plot point notes,
+link notes, chapter notes — is ~1.06M characters (~265K tokens); the subject
+notes, read selectively, are another ~1.0M characters (~250K tokens). The
+mandatory read fits one context window with headroom; the whole archive
+(~515K tokens) sits just under the skill's ~600K subagent threshold. The
+original characterization ("multiple subagents batched by chapter arc, plus
+Aris and Paratext") is therefore a choice for plan mode, not a necessity —
+and the Deposit protocol requires the main session to write deposits either
+way. What has grown since plan creation is the question list, not the source:
+the accumulated specs above (from the WU1.1 and WU1.3 reviews) are roughly
+twenty named checks on top of the open-ended read. Not quick.
 
 **Preconditions:** A new skill for V1 archive extraction — consistent methodology,
 voice attribution via lineage grep, structured output format. The skill must be
@@ -681,10 +698,6 @@ built before running this WU. The v1 archive is accessible now via MCP; no other
 blockers.
 
 **Status:** proposed
-
-(Independent of WU1.1. Blocks WU1.9 and WU1.11. Tests infrastructure hypothesis
-020 — results determine whether framework evolution must wait for voice separation.
-The skill is the gating precondition.)
 
 ---
 
@@ -705,6 +718,11 @@ it overfit?
   bootstrapping, 285 blocks)
 - Conv 64 (P&K ASOIAF inspirations, 289 blocks — extract framework-relevant blocks)
 - Google Doc revision history (lineage `gdoc:` ids, 53 diffs + 54 snapshots)
+- Google Keep notes in lineage (`keep:` ids) — pre-AI timestamps for framework
+  concepts (TLTT thesis Jul 2025, Applejack keystone Aug 2025, StoryPlanner
+  conception Dec 6 2025, craft guardrails Mar–May 2026, purpose statement Apr
+  2026). Establishes when ideas formed before AI engagement — critical for
+  provenance chains 2, 3, and 11
 - WU1.1 findings (corpus evidence baseline to assess against)
 - The provenance claims from VERSION-HISTORY-DRAFT1.md (the unverified provenance
   table preserved in consolidation-1-plan.md)
@@ -828,17 +846,10 @@ and assessments against corpus evidence.
 
 **Scale:** Single session. All sources accessible via MCP and lineage.
 
-**Preconditions:** WU1.1 complete (needs the corpus evidence baseline to assess
-framework concepts against).
+**Preconditions:** Keep sidecar ingest into lineage.db complete (needs pre-AI
+timestamps for provenance chains — see implementation-candidates.md).
 
 **Status:** proposed
-
-(Requires WU1.1 complete. Independent of WU1.3 and WU1.4. Feeds into WU1.11 and
-WU1.12.)
-
----
-
-*(WU1.6 skipped — numbering artifact from draft.)*
 
 ---
 
@@ -891,6 +902,13 @@ questions:
    — notes on Reader Prior Belief Update or Reader Opinion that track cross-
    focalizer knowledge asymmetry despite the track not being designed for it.
 
+Testing specs moved from WU1.3 (scope reconciliation 2026-09-01):
+- Do Brian's v2 plans (theme propositions, subject notes, plot points) show
+  designed counterarguments? Check via MCP whether Theme Plan and Scene Theme
+  Evidence notes articulate opposing positions.
+- Shame-about-desire / sex-as-thematic-testing-ground: check The Kitty of
+  Westkeep's subjects, notes, and story plan via MCP for these patterns.
+
 **What it does NOT do:** Evaluate the framework (that is WU1.12). Mine note
 content for patterns (that is v2-scope work, not v1 mining). Propose changes to
 NoteState or tracks.
@@ -898,15 +916,13 @@ NoteState or tracks.
 **Output:** A brief assessment document
 (`docs/v3-framework/WU1.7-working-plan-assessment.md`) with data survey findings.
 
-**Scale:** Single session. Quick — queries via MCP, no large-scale reading.
+**Scale:** Single session. Scope grows with upstream discoveries — plan-mode
+reconciliation (v3-buildout skill, step 2) will re-assess scale at execution
+time.
 
-**Preconditions:** None. Can start immediately.
+**Preconditions:** None.
 
 **Status:** proposed
-
-(Independent of all other WUs. Quick. Most valuable alongside WU1.5 — the
-working plan data contextualizes the retrospective's findings about what stalled
-and why.)
 
 ---
 
@@ -948,6 +964,14 @@ For hypothesis 039 (FiM reading effect): do the planning documents show a shift
 in Brian's thinking about perspective technique that correlates with his FiM
 reading period?
 
+Testing specs moved from WU1.3 (scope reconciliation 2026-09-01):
+- Unwritten story plans from Google Drive "Miscellaneous Story Stuff" folder
+  (ID: `0BzQC1JZ2OeGMOTNCNzdXdnBBcVk`) as supplementary input — design-intent
+  evidence. What obstacle architecture does Brian design when planning? What
+  became a story vs what didn't, and does that correlate with obstacle type?
+  Includes the Ninetales/Mightyena story (conv 36) and ~15 other unwritten
+  plans spanning 2016-2024.
+
 **What it does NOT do:** Analyze the prose (that is WU1.3). Propose framework
 changes.
 
@@ -965,9 +989,6 @@ history is already in lineage and can be analyzed independently while the other
 stories' histories are being preprocessed.
 
 **Status:** proposed
-
-(Independent of WU1.1, WU1.3, WU1.4. Blocks on Brian's preprocessing action.
-Feeds into WU1.12 and WU1.11 if available, but neither hard-blocks on it.)
 
 ---
 
@@ -1059,6 +1080,37 @@ his treatment differ from the corpus's predominantly romance-centered framing? T
 Kitty story is the most directly comparable to the explicit/plot category — how
 does its thematic architecture compare?
 
+Testing specs moved from WU1.3 (scope reconciliation 2026-09-01):
+- Per-story obstacle-type breakdown from corpus analyses alongside own-fiction
+  findings — which corpus stories use structural or combined obstacles rather
+  than pure characterological? Individual stories (P&K, Promises, AU stories
+  with structural barriers) may cluster differently from the stated
+  characterological dominance.
+- Dual-POV structural dramatic irony: how does Brian's use compare to the
+  corpus's treatment?
+- Counterargument density: compare Brian's counterargument density against his
+  genre counterparts in the corpus.
+- Canon virtues as psychological traps: compare Brian's treatment against
+  Salvation's and P&K's treatments.
+
+Added 2026-09-01 (hypothesis 046, created during WU1.3 post-review):
+- Classify the DT instances the seven per-story analyses cite as class A
+  (gap-producing) or class B (told interiority in italics), using the
+  sub-types in 046's first evidence entry; report the share per text and
+  adjudicate the borderline sub-types (revelation-in-DT, arc-climax
+  realization, comic voice). Compare against the corpus: do the DT-dominant
+  corpus stories show the same split, or is class B distinctive to Brian?
+  Note the sampling caveat — TEatS/NTL telepathy and THLB flashback italics
+  inflate raw DT counts by roughly a third.
+- Counterargument reading check (WU1.3 post-review, 2026-09-01): the v4
+  brief's Theme Propositions section, applied to bonded stories, read the
+  bond thesis in THLB and GIYC and scored opposition to that, missing the
+  structural plot's genuine counterargument in both. The corpus deficit
+  (76% none; romance/SoL lowest) came from the same section on the same
+  kind of stories. Re-read a sample of romance/SoL corpus analyses'
+  counterargument sections against source: does the deficit survive when
+  the structural plot's thesis is read instead of the bond's?
+
 **What it does NOT do:** Test hypotheses systematically (that is WU1.12). Propose
 tracks. Apply the favorites lens (that is WU1.11).
 
@@ -1068,12 +1120,9 @@ tracks. Apply the favorites lens (that is WU1.11).
 **Scale:** Single session reading 3 synthesis reports (WU1.1, WU1.3, WU1.4
 outputs).
 
-**Preconditions:** WU1.1, WU1.3, and WU1.4 complete.
+**Preconditions:** None.
 
 **Status:** proposed
-
-(Requires three prior WUs. Central convergence point — WU1.11 and WU1.12 both
-draw on it heavily.)
 
 ---
 
@@ -1126,6 +1175,30 @@ and identify what controlled experiments would be needed to make them testable.
 Do NOT recommend running expensive controlled experiments — surface the evidence
 gap and move on.
 
+Two candidate model-intrinsic properties observed during the forward-plan-1
+ordering session (2026-08-31), not yet tested:
+
+(a) Systematic principle application: Opus 4.6 needed four corrections to apply
+the enrichment flow ordering principle consistently across the 14-WU graph —
+each error was convenience overriding principle (WU1.7 slotted early because
+"quick"; WU1.8 left floating because "blocks on Brian"; WU1.5/WU1.9 given
+"scheduling freedom"; WU1.8 before WU1.3 missing product-before-process). Fable
+produced a correct ordering without these errors. The task type — systematic
+principle application across a relationship graph — may be distinct from
+synthesis/discovery work. Check code sessions for other instances of this error
+class across models.
+
+(b) Scope of initiative: Opus 4.6 stays narrowly scoped to the immediate
+question rather than proactively surfacing related implications (e.g., not
+flagging that WU1.8's "floating" contradicted the principle just enshrined).
+Brian's observation: this is context-dependent — a weakness in framework
+buildout (logic-driven, correct answers exist, proactive identification saves
+follow-up rounds) but a strength in story planning (open-ended, Brian's
+decisions, unsolicited advice violates retrieval-not-suggestion). Implies
+model-intrinsic properties are task-type-dependent, not simply strengths or
+weaknesses. Check code sessions for patterns in when narrow scope helped vs
+hurt across different activity types.
+
 **Sub-question 3: Instruction design (014-015).** What evidence exists for
 evidence-based instruction design? The lineage corpus contains the instruction
 evolution: v1's custom Gemini gem (four rules), AI Studio system prompts, v2's
@@ -1161,12 +1234,6 @@ sessions, and configuration files — the session needs access to all of them.
 **Preconditions:** None. Can start anytime.
 
 **Status:** proposed
-
-(Independent of the framework evidence chain. Tests infrastructure hypothesis 008
-— results determine whether future pipeline work can proceed independently. Can
-run in parallel with any other WU. Most valuable after WU1.5 — the retrospective's
-provenance chains provide context for the instruction evolution — but does not
-hard-block on it.)
 
 ---
 
@@ -1228,12 +1295,9 @@ adopt. Judge stories' quality relative to each other.
 
 **Scale:** Single session reading WU1.9 output + supplementary material.
 
-**Preconditions:** WU1.9 complete. Brian's tier arbitration complete (done
-2026-08-29).
+**Preconditions:** Tier arbitration by Brian complete (done 2026-08-29).
 
 **Status:** proposed
-
-(Requires WU1.9 complete. Feeds into WU1.12 and WU1.13.)
 
 ---
 
@@ -1292,16 +1356,9 @@ assessment, evidence citations, and any unresolved conflicts.
 **Scale:** Single session reading all prior WU outputs + the hypothesis files.
 Large context needed.
 
-**Preconditions:** WU1.1 (corpus synthesis), WU1.4 (V1 mining), WU1.5
-(retrospective), and WU1.9 (cross-corpus comparison) complete. WU1.3 (own
-fiction), WU1.8 (planning evolution), and WU1.10 (pipeline) are ideal but not
-hard blocking — the adjudication notes which hypotheses lack evidence from
-incomplete WUs.
+**Preconditions:** None.
 
 **Status:** proposed
-
-(The first integration WU. Most WUs should be complete before this runs. Feeds
-into WU1.13.)
 
 ---
 
@@ -1372,6 +1429,12 @@ evaluation areas:
    ("what is the opposing position, how does the story engage with it, how is
    it defeated rather than dismissed?"). Should a track or display question
    support designing the counterargument alongside the thesis?
+   WU1.3 post-review (2026-09-01): in Brian's bonded stories the genuine
+   counterargument lives in the intertwined structural plot, not the bond
+   arc (THLB: the Guard's self-image vs their culpability; GIYC: Rarity's
+   ambition as the pro-visibility position). Any counterargument support
+   must attach to the structural thesis, and a bond-centered reading will
+   miss it.
    DT-based knowledge asymmetry: the corpus shows DT doing more perception-gap-
    adjacent work than FID. Does Track 99 need to recognize DT-based gap design
    alongside or instead of its current FID prescription? Should the framework
@@ -1401,7 +1464,9 @@ evaluation areas:
 6. **Note-to-note relationships (hypothesis 043):** Does the evidence require
    structural note-to-note edges for serialized publication trajectory management?
    Or does the current subject-level arc plan suffice? If edges are needed, what
-   types (setup→payoff, parallel, contradicts, revelation chain)? Do existing
+   types (setup→payoff, parallel, contradicts, revelation chain, accumulation —
+   the WU1.1 finding that Demonstration note 15 depends on notes 1-14 for its
+   meaning, a relationship type distinct from setup→payoff)? Do existing
    codebase patterns (SubjectRelation model, NarrativePropertyValue) serve, or
    is new architecture needed?
 
@@ -1409,6 +1474,11 @@ evaluation areas:
    density at v2's quality level? Is the hallmark wall pattern real (each version
    exceeds its instrument capacity at a higher abstraction level), and if so, does
    v3's iterative method avoid or defer the next wall?
+
+Testing spec moved from WU1.3 (scope reconciliation 2026-09-01):
+- Dual-POV structural dramatic irony: how should it surface in v3 — is it a
+  design target the planner should support (cross-chapter knowledge management
+  across focalizers)?
 
 **What it does NOT do:** Propose specific tracks. Write display questions. Author
 cognitive-mode definitions. Decide which goal categories are plannable. These are
@@ -1422,14 +1492,9 @@ v3 framework decisions.
 **Scale:** Large session reading all prior integration WU outputs + working plan
 data.
 
-**Preconditions:** WU1.9 (cross-corpus comparison), WU1.11 (favorites lens),
-WU1.12 (hypothesis adjudication), and WU1.5 (retrospective) complete. WU1.7
-(working plan assessment) and WU1.8 (planning evolution) are ideal but not
-hard blocking.
+**Preconditions:** None.
 
 **Status:** proposed
-
-(Requires most prior WUs. The penultimate integration — feeds into WU1.14.)
 
 ---
 
@@ -1460,7 +1525,10 @@ planning. For each story (or story cluster):
    design? Where is it thin? How does the bespokeness tension (hypothesis 044)
    manifest per story?
 
-3. **Paradigm connections:** Brian identified 5 paradigm connections from the
+3. **Paradigm connections:** (WU1.3 post-review, 2026-09-01: Brian
+   identifies TEatS and NTL — political plot with intertwined bonds and
+   genuine multi-position counterargument — as the nearest technique
+   precedents in his own fiction for TLTT.) Brian identified 5 paradigm connections from the
    categories file (ensemble→TLTT, romance/SoL→TwiJack, dark premise→hopepunk,
    AU→EaW×FiM, explicit/plot→Kitty). What do the corpus patterns in each paradigm
    suggest for the corresponding TLTT story?
@@ -1498,46 +1566,58 @@ implications grounded in corpus evidence and Brian's own instincts.
 
 **Scale:** Single session.
 
-**Preconditions:** WU1.13 complete.
+**Preconditions:** None.
 
 **Status:** proposed
 
-(Requires WU1.13 complete. The final WU — connects evidence to the project.)
-
 ---
 
-## Dependency graph
+## Execution sequence
+
+**Execution order** (derived 2026-08-31 by the blind two-pass ordering audit —
+derivation, edge tables, and maintenance protocol in
+`forward-plan-1-ordering-audit.md`, which is the living authority on this
+order; this section is updated to match whenever the audit's derived order
+changes):
 
 ```
-WU1.1 (corpus synthesis) ──────────────────────────────────────────────┐
-  │                                                                     │
-  ├──→ WU1.5 (retrospective, needs WU1.1 baseline)                     │
-  │                                                                     │
-WU1.2 (Keep assessment) ── infrastructure, quick                        │
-WU1.7 (working plan assessment) ── independent, quick                   │
-                                                                        │
-WU1.3 (own fiction) ──────────────────┐                                 │
-WU1.4 (V1 archive mining) ───────────┤                                 │
-                                      ↓                                 │
-                          WU1.9 (cross-corpus comparison) ──────────────┤
-                                      │                                 │
-                          WU1.11 (favorites + supplementary lens)       │
-                                      │                                 │
-WU1.10 (pipeline investigation) ──→ WU1.12 (hypothesis adjudication) ←─┤
-                                      │                               ←─ WU1.5
-                          WU1.8 (planning evolution, if available) ──→   │
-                                      │                                 │
-                          WU1.13 (framework + arch evaluation) ←────────┘
-                                      │                               ←─ WU1.7
-                          WU1.14 (connection to TLTT)
+WU1.1 (corpus synthesis) ── complete
+WU1.2 (Keep assessment) ── complete
+  ↓
+WU1.3 (own fiction) ── complete
+  ↓
+WU1.4 (V1 archive mining) ── voice attribution; strong edge into WU1.5
+  ↓
+WU1.9 (cross-corpus comparison) ── consumes WU1.3 + WU1.4
+  ↓
+WU1.11 (favorites + supplementary lens) ── consumes WU1.9; weak edges
+  ↓                                          into WU1.5 and WU1.8
+WU1.7 (working plan survey) ── weak edge into WU1.5 (stall-shape targets)
+  ↓
+WU1.5 (retrospective) ── consumes WU1.3; Keep ingest is internal to it
+  ↓
+WU1.8 (planning evolution) ── waits in slot on Brian's preprocessing
+  ↓                            (or runs TLTT-only per its spec)
+WU1.10 (pipeline) ── weak edges in from WU1.4, WU1.5, WU1.8
+  ↓
+WU1.12 (hypothesis adjudication) ── needs ALL evidence WUs (Brian ratified
+  ↓                                  2026-08-31); hard-blocks on WU1.8
+WU1.13 (framework + architecture eval)
+  ↓
+WU1.14 (connection to TLTT)
 ```
 
-**Parallel work:** WU1.1, WU1.2, WU1.7 can start immediately and in parallel.
-WU1.3 and WU1.4 can start as soon as their respective skills are built. WU1.10
-can start anytime. WU1.8 blocks on Brian's preprocessing. WU1.5 blocks on WU1.1.
-WU1.9 blocks on WU1.1 + WU1.3 + WU1.4. WU1.11 blocks on WU1.9. WU1.12 blocks
-on the major evidence WUs. WU1.13 blocks on WU1.12 + WU1.11 + WU1.9 + WU1.5.
-WU1.14 blocks on WU1.13.
+An earlier hand-derived sequence (1.4 → 1.3 → 1.7 → 1.5 → 1.9 → …, recorded
+2026-08-31 in prior revisions of this section) was superseded the same day by
+the audit: its asserted enrichment chain did not survive blind pairwise
+evaluation. The audit's derived order differs in three ways — WU1.3 leads
+(the strong edges run from own-fiction findings into the mining pass, not the
+reverse), the comparison block (WU1.9, WU1.11) runs immediately after the
+discoveries, and the retrospective (WU1.5) runs late. Preconditions gate
+execution timing in place, never position: the two skills to build are the
+first tasks inside WU1.3 and WU1.4, the Keep ingest is internal to WU1.5, and
+Brian's preprocessing of the revision-history exports is the critical-path
+precondition for the WU1.12 → WU1.13 → WU1.14 tail.
 
 ## Per-hypothesis WU coverage
 
@@ -1568,39 +1648,40 @@ inform each hypothesis, with the primary WU listed first.
 | 020 | voice-separation-prerequisite | WU1.4 | — |
 | 021 | five-voice-registers | WU1.4 | — |
 | 022 | voice-treatment-protocol | WU1.4 | WU1.5 |
-| 023 | three-concern-separation | WU1.1 | WU1.9, WU1.13 |
-| 024 | dimensional-vs-hierarchical | WU1.1 | WU1.9, WU1.13 |
+| 023 | three-concern-separation | WU1.1 | WU1.3, WU1.9, WU1.13 |
+| 024 | dimensional-vs-hierarchical | WU1.1 | WU1.3, WU1.9, WU1.13 |
 | 025 | mechanism-hierarchy-is-complexity | WU1.1 | WU1.9 |
 | 026 | three-axis-independence | WU1.1 | WU1.9 |
 | 027 | cognitive-mode-principle | WU1.9 | WU1.13 |
-| 028 | variable-focalization-master | WU1.1 | WU1.3, WU1.5, WU1.9, WU1.11 |
-| 029 | perception-gap-delivery | WU1.1 | WU1.3, WU1.5, WU1.9, WU1.11 |
+| 028 | variable-focalization-master | WU1.1 | WU1.3, WU1.4, WU1.5, WU1.9, WU1.11 |
+| 029 | perception-gap-delivery | WU1.1 | WU1.3, WU1.4, WU1.5, WU1.9, WU1.11 |
 | 030 | narrator-character-blend | WU1.1 | WU1.3, WU1.9 |
-| 031 | dt-knowledge-asymmetry | WU1.1 | WU1.3 |
+| 031 | dt-knowledge-asymmetry | WU1.1 | WU1.3, WU1.4 |
 | 032 | first-person-m4-effects | WU1.1 | WU1.3 |
-| 033 | non-thematic-goal-categories | WU1.1 | WU1.9, WU1.11, WU1.13 |
-| 034 | prose-craft-boundary | WU1.1 | WU1.9, WU1.11, WU1.13 |
-| 035 | embedded-text-category | WU1.1 | WU1.13 |
-| 036 | wi-terminal-ratio | WU1.1 | WU1.13 |
+| 033 | non-thematic-goal-categories | WU1.1 | WU1.3, WU1.9, WU1.11, WU1.13 |
+| 034 | prose-craft-boundary | WU1.1 | WU1.3, WU1.9, WU1.11, WU1.13 |
+| 035 | embedded-text-category | WU1.1 | WU1.3, WU1.4, WU1.13 |
+| 036 | wi-terminal-ratio | WU1.1 | WU1.3, WU1.13 |
 | 037 | multi-story-focalization-profiles | WU1.3 | WU1.9, WU1.13, WU1.14 |
 | 038 | instinctive-mechanism-practice | WU1.3 | WU1.4, WU1.9, WU1.11 |
 | 039 | fim-reading-effect | WU1.3 | WU1.8, WU1.9 |
-| 040 | fabula-dialogue-replacement | WU1.1 | WU1.3, WU1.9 |
+| 040 | fabula-dialogue-replacement | WU1.1 | WU1.3, WU1.4, WU1.9 |
 | 041 | sufficient-stability-iterative | WU1.7 | WU1.5, WU1.13 |
 | 042 | editor-modes-evaluation | WU1.7 | WU1.5, WU1.13 |
 | 043 | note-design-relationships | WU1.4 | WU1.13 |
 | 044 | bespokeness-tension | WU1.4 | WU1.5, WU1.13, WU1.14 |
 | 045 | keep-notes-provenance | WU1.2 | — |
+| 046 | dt-two-classes | WU1.9 | WU1.13 |
 
 ## Preconditions summary
 
 | Precondition | Blocks | Owner | Status |
 |---|---|---|---|
-| Adapted analyze-story skill (self-diagnostic framing, unfinished works) | WU1.3 | Claude Code (buildout work) | Not started |
+| Adapted analyze-story skill (self-diagnostic framing, unfinished works) | WU1.3 | Claude Code (buildout work) | Done (embedded in subagent prompts, 2026-09-01) |
 | V1 archive mining skill (extraction methodology, voice attribution, structured output) | WU1.4 | Claude Code (buildout work) | Not started |
 | Preprocessing of raw revision history exports in `Planning_Document_Revision_History/` | WU1.8 | Brian | Not started |
 | V1 database snapshots (`TheLionessOfTallTale[date].db`) downloaded from Google Drive and made queryable | WU1.4, WU1.5 (enhancement) | Brian | Not started — location known, preprocessing TBD |
-| Access to Google Keep notes directory | WU1.2 | Brian | Available |
+| Keep sidecar ingest into lineage.db (selective, authored include-list) | WU1.5, WU1.8 | Claude Code (buildout work) | Not started — WU1.2 assessed feasibility, see implementation-candidates.md |
 | Own fiction source texts ready | WU1.3 | — | Done (CORPUS-STATUS: italics verified 2026-08-31) |
 | Favorites tier arbitration complete | WU1.11 | Brian | Done (2026-08-29) |
 

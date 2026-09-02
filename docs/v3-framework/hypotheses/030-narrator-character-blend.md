@@ -61,3 +61,19 @@ FID as a single uniform mode.
   interested in testing where his own writing falls on this spectrum (WU1.3).
   Re-assessed prior evidence from [challenging] to [supporting] — the corpus
   evidence supports the spectrum model, just not the "distinct technique" model.
+- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: GIYC shows both ends of
+  the narrator-presence spectrum in one text. Narrator-literary-register end:
+  the "pink curtain" (green-is-your-color.txt lines 103, 245, 1316, 1800,
+  2118, 2142) — the narrator renames Fluttershy's mane with a metaphor she
+  never uses ("tried to hide behind her mane, but her usual pink curtain was
+  tied back"), sustains it across five chapters, and rhymes it with the
+  literal stage curtain (line 119); also "her big disobedient eyes" (line
+  2178). Character-vocabulary end: Rarity's "attitude and pizzazz" (line 199),
+  Fluttershy's "Be bold like Rarity" quoting line 475. Would differ if false:
+  under a single uniform FID mode, every narrator-dissolved passage would use
+  the character's vocabulary, and passages whose vocabulary is demonstrably
+  the narrator's would not occur. The GIYC per-story analysis misclassified
+  the curtain as Fluttershy's own vocabulary; corrected against source
+  2026-09-01. GIYC is the only confirmed instance; NTL line 8649 ("an itch
+  that gnawed at her") was briefly read as a second and is told interiority,
+  not blend (adjudicated by Brian 2026-09-01).

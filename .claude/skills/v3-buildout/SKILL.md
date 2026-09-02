@@ -68,10 +68,16 @@ must be re-assessed — a rewrite that accommodates previously challenging evide
 changes that evidence's alignment to supporting. The evidence content (what was
 found) never changes. Only the alignment tag changes.
 
-`contextual` alignment means: gathered under a prior framing, relevance to the
-current hypothesis unclear. Neither supporting nor challenging — pending
-reassessment. Used when the hypothesis has been substantially reframed and old
-evidence needs fresh evaluation.
+`contextual` is a **transitional** tag with exactly one use: an entry deposited
+under a prior wording of the hypothesis that has not yet been re-assessed
+against the rewritten statement. It is applied only by an iteration entry, and
+it is resolved — to `supporting` or `challenging` — by the next session that
+reads the record. It is never applied at deposit time. **It is not a tag for
+inconclusive, mixed, adjacent, or non-discriminating evidence.** Evidence that
+neither supports nor challenges the current statement does not enter the record
+at all (see Deposit protocol below); it stays in the WU artifact. Between
+2026-08-31 and 2026-09-01 the tag was misused as a soft landing for exactly
+that kind of evidence, which is why this paragraph is emphatic.
 
 **Recall is atmosphere, evidence is grounding.** When anyone states something
 about the data — Brian from recall, a prior session, a memory entry, this skill,
@@ -108,12 +114,12 @@ skill's folder has the material inventory (what exists, what's pending).
 ## Session routing
 
 **Single-session default.** All buildout activities — planning, exploration,
-questioning, and execution — happen in one session. Start in plan mode, read the
-relevant files, ask all open questions, write the plan, then exit plan mode and
-execute. No subagents unless the source material exceeds ~600K tokens (leaving
-headroom for hypothesis files, synthesis output, and evidence deposits in the 1M
-context window). When subagents are needed, they extract and report summaries;
-the main session synthesizes.
+questioning, and execution — happen in one session. WU sessions run four phases:
+scope reconciliation (auto mode), plan mode, execution (auto mode), then post-WU
+review. See WU design and execution for the full protocol. No subagents unless
+the source material exceeds ~600K tokens (leaving headroom for hypothesis files,
+synthesis output, and evidence deposits in the 1M context window). When subagents
+are needed, they extract and report summaries; the main session synthesizes.
 
 **Before starting work, determine your activity and read accordingly:**
 
@@ -122,11 +128,11 @@ the main session synthesizes.
   references other hypotheses, read those too. Focus on: Hypothesis management
   section.
 
-- **WU execution** (running an experiment): Read the active forward plan to find
-  your WU spec and target hypotheses. Read those hypothesis files. During primary
-  work, focus on target hypotheses. In the wrap-up step, read the full hypothesis
-  index to check for far-reach findings. Focus on: Experiment cycle → WU
-  execution section + Hypothesis management (for evidence deposit).
+- **WU execution** (running an experiment): Follow the four-phase protocol in
+  WU design and execution. Scope reconciliation reads the forward plan and
+  hypothesis files; plan mode reads the evidence sources; execution does the
+  primary work and wrap-up. Focus on: Experiment cycle → WU execution section
+  + Hypothesis management (for evidence deposit).
 
 - **Consolidation** (restructuring the hypothesis set): Read the full hypothesis
   index, then read ALL hypothesis files. Read the active forward plan (to
@@ -257,8 +263,13 @@ forward plan's job when designing WUs.
 
 ```
 - evidence | 2026-09-02T14:30 | (WU1.3) [supporting]: Corpus shows 73% of
-  stories use non-FID mechanisms for perception gap delivery.
+  stories use non-FID mechanisms for perception gap delivery. Would differ if
+  false: FID would be the sole or dominant mechanism in the M4 stories.
 ```
+
+The trailing "Would differ if false:" clause is required on every evidence
+entry. It is the discrimination test (Deposit protocol, below) written down
+where the tag can be checked against it.
 
 Evidence must be grounded in corpora or verifiable sources — not Brian's recall
 about his own practice (that's the hypothesis being tested) and not a restatement
@@ -314,6 +325,43 @@ The test: if removing the entry would leave the hypothesis record incomplete
 (missing a statement change, missing grounded evidence, missing a baseline
 event), it belongs. If removing it would only lose a pointer to future work,
 it belongs in the WU spec instead.
+
+### Deposit protocol
+
+A WU's analyses run discovery-first with no hypothesis in view; its deposits
+are written with the hypothesis list open, by a session that has just spent
+hours looking for the predicted patterns. The analyses are impartial by
+construction; the deposits are not. The protocol is two writes in sequence —
+first the WU artifact, then the hypothesis records — each written once, both
+by the main session. Deposits are judgment and are never delegated to a
+subagent.
+
+**First write — the WU artifact.** It is organized by what was observed —
+texts, passages, counts — not by hypothesis. No hypothesis IDs in its section
+structure. It is complete before any hypothesis record is touched.
+
+**Second write — the hypothesis records.** With the artifact finished, for
+each hypothesis the WU targets:
+
+1. Locate the relevant findings in the artifact.
+2. Write the "Would differ if false:" clause. If it cannot be written, the
+   findings do not discriminate and **no entry is written** — the findings
+   are already in the artifact; add a pointer in a downstream WU spec if they
+   need follow-up. If it can be written, the tag is `supporting` or
+   `challenging`.
+3. If the statement names specific items, address every named item. Any
+   named item contradicted makes the entry `[challenging]` and the hypothesis
+   `challenged`, regardless of the overall impression.
+4. If the entry rests on a classification made by an intermediate analysis
+   (FID vs DT vs blend, mechanism level, obstacle type, perspective mode),
+   cite the passage and read the surrounding paragraph in the original source
+   before writing the entry — the preceding clauses decide whose register a
+   sentence is in. Intermediate analyses assert classifications without showing their
+   evidence.
+
+A recall-derived testing spec ("Brian's recall: X — does the evidence confirm
+X?") is a prediction to test, not a search target; disconfirmation of the
+recall is recorded as prominently as confirmation.
 
 ### Ceremony scaling
 
@@ -456,16 +504,27 @@ tried before — not templates. A forward plan that looks like a renumbering of
 a prior document has not engaged with the current landscape.
 
 **Ordering criteria** (in priority order — hard constraints first, then
-efficiency, then advisory):
+information flow, then strategic and advisory):
 
 1. **Evidence dependency chains.** WU X needs WU Y's findings as input. A
    retrospective that assesses framework provenance against corpus evidence
    can't run until the corpus synthesis has produced that evidence. These are
    constraints the plan must respect, not preferences.
-2. **Precondition blockers.** The experiment needs a skill, a data export, or
+2. **Enrichment flow.** A WU whose post-review findings would add testing
+   specs or scope to another WU goes first, even when the second WU has no
+   hard dependency on the first and could execute independently. Discovery
+   WUs (open-ended mining, corpus synthesis) produce findings that add
+   questions to downstream survey, comparison, and assessment WUs — that
+   information flow is one-directional and determines order. Practical
+   considerations — which skill is ready first, which WU is quicker, which
+   fills a scheduling gap — are not ordering criteria. Convenience and
+   throughput do not override information flow.
+3. **Precondition blockers.** The experiment needs a skill, a data export, or
    Brian's action that doesn't exist yet. Noted in the WU spec; the experiment
    is in the plan but can't execute until the precondition is met.
-3. **Infrastructure hypotheses first.** Some hypotheses predict properties of
+   Preconditions gate execution timing in place — they never determine a WU's
+   position in the order, and readiness is not an ordering criterion.
+4. **Infrastructure hypotheses first.** Some hypotheses predict properties of
    the experimental infrastructure itself — the existence of an evidence source,
    a contamination in the data, a methodological bias, a domain-separability
    assumption. If confirmed or refuted, they change how other experiments are
@@ -477,10 +536,10 @@ efficiency, then advisory):
    working data has voice contamination (assess severity before mining
    experiments that would inherit the confusion); a hypothesis that two domains
    are separable (test before designing experiments scoped to one domain alone).
-4. **Unblocking value.** An experiment that produces evidence for many
+5. **Unblocking value.** An experiment that produces evidence for many
    hypotheses simultaneously (high evidence-source multiplexing) unblocks more
    downstream work per unit of effort. Run high-yield experiments first.
-5. **Foundation before application.** Testing foundational hypotheses (the
+6. **Foundation before application.** Testing foundational hypotheses (the
    premises downstream claims rest on) before the claims that build on them
    makes findings more interpretable. Not blocking — application experiments
    can run — but results are harder to evaluate on untested foundations.
@@ -511,18 +570,17 @@ strategic reasoning. Can be long if the reasoning warrants it.]
 **Scale:** [estimated token volume of source material and whether it fits in one
 context window, e.g. "~88K tokens — single context window with ample headroom"
 or "~900K tokens — requires subagent extraction and summary"]
-**Preconditions:** [blocking items — downloads, exports, etc. — if any]
+**Preconditions:** [tooling or Brian-action blockers — downloads, exports,
+skills to build — if any. Never WU dependencies: those live in the ordering
+audit, not in WU specs]
 **Status:** proposed
 
 [Prose description: the question, the target hypotheses, the evidence sources,
 and enough scope context to design the execution in plan mode. Can be longer when
 the experiment is complex or the scope boundaries matter.]
 
-(independent of WU N.2 — can run in parallel)
-
 ### WU [N.Y+1]: [title]
 ...
-(most valuable after WU N.1 findings, but can start with partial results)
 ```
 
 **WU numbering:** The major number is the forward plan number. The minor number
@@ -535,11 +593,15 @@ no "tested by" metadata — that's a staleness target. When the forward plan is
 revised or retired, the hypothesis references update here, not across dozens of
 hypothesis files.
 
-**Advisory ordering:** WUs are listed in suggested execution order (top to
-bottom). Where independence or partial dependency matters, an inline advisory
-note says so: "(independent of WU N.2)", "(requires WU N.1 complete)", "(most
-valuable after WU N.1-N.3 findings, but can start with partial results)." The
-ordering is advice, not a gate.
+**Ordering:** WU specs are listed in numeric id order — the plan is a catalog,
+found by id, not a schedule. Execution order is derived and maintained by the
+plan's ordering audit (`forward-plan-N-ordering-audit.md`, a living companion
+document that carries its own procedure: blind two-pass pairwise evaluation of
+consumption and enrichment edges, mechanical assembly, dated amendments). The
+plan's execution-sequence section states the current derived order and cites
+the audit; it is updated whenever the audit's derived order changes. WU specs
+carry no ordering notes — no trailing parentheticals, and no WU-dependency
+claims in Preconditions fields.
 
 **WU status values:** `proposed` → `scoped` (plan mode has designed the
 execution) → `in-progress` → `complete`. Updated in place in the forward plan.
@@ -594,17 +656,30 @@ hypothesis status is a secondary signal within that structure.
 
 ### WU design and execution
 
-**Every WU runs plan mode before execution, in the same session.** The session
-starts in plan mode, designs the execution, gets Brian's approval, then exits
-plan mode and executes immediately — no handoff to a separate session or agent.
+**Every WU runs four phases in the same session:** scope reconciliation,
+plan mode, execution, then post-WU review (described under Session routing).
+No handoff to a separate session or agent.
+
+**Scope reconciliation phase** (auto mode, before plan mode):
+
+Read the active forward plan to find the WU spec and its target hypothesis
+list. Read those hypothesis files. Prior WU post-reviews add testing specs to
+downstream WU specs — the WU's scope at execution time is larger than at plan-
+creation time. Reconcile: do the accumulated testing specs touch hypotheses not
+in the original list? If so, update the WU's hypothesis list in the forward
+plan. Update the per-hypothesis WU coverage table to match. Re-assess the WU's
+scale description — a WU characterized as "quick" at plan-creation time may no
+longer be quick after upstream reviews have added scope. These are clerical
+forward-plan edits (bringing metadata in line with content), not judgment calls.
+The planning phase needs accurate scope on the page to work from.
 
 **Plan-mode phase:**
 
-1. **Read.** Read the active forward plan to find the WU spec and its target
-   hypothesis list. Read those hypothesis files. Read the evidence sources (or
-   assess their size — if they exceed ~600K tokens, plan subagent extraction
-   instead of direct reading). Read CORPUS-STATUS.md if the WU involves corpus
-   material.
+1. **Read.** Read the evidence sources (or assess their size — if they exceed
+   ~600K tokens, plan subagent extraction instead of direct reading). Read
+   CORPUS-STATUS.md if the WU involves corpus material. The forward plan and
+   hypothesis files were already read during scope reconciliation; re-read only
+   if the reconciliation changed the hypothesis list.
 2. **Identify all open questions.** What is ambiguous in the WU spec? What
    decisions require Brian's input? What assumptions need confirmation? Collect
    every open question before asking any.
@@ -631,6 +706,10 @@ precise after the full picture). Update the WU's status in the forward plan
 whether any findings produced evidence relevant to hypotheses OUTSIDE the target
 set. If so, deposit evidence entries in those files. This catches serendipitous
 discoveries without skewing the primary work.
+
+Then report the tag counts to Brian: targets, entries written, supporting,
+challenging, and targets where no entry was written because the findings did
+not discriminate. Brian decides whether the distribution warrants a recheck.
 
 **New hypothesis detection during WUs:** During primary work, note unexpected
 observations but hold new-hypothesis proposals for the wrap-up step. In the

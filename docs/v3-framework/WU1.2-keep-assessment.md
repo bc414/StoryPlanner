@@ -38,26 +38,35 @@ intuitions, corrections — not already captured in the existing lineage corpora
 
 Five categories of framework-relevant content were identified in the Keep corpus:
 
-### 1a. Foundational story concepts (pre-AI, unique)
+### 1a. Foundational story concepts (pre-AI, timestamp-unique)
 
 Key moments captured in Keep that predate all AI interaction (the Gemini
-conversations begin Sep 2025):
+conversations begin Sep 2025). These are **temporally** unique — Keep records
+when the ideas first formed — but most of the IDEAS subsequently entered lineage
+when Brian pasted them into Gemini prompts. Verification against broader lineage
+searches (not just exact phrasing) shows:
 
 - **Jul 8, 2025:** TLTT's economic thesis — "technology that benefits everyone,
-  not the top taking all the profits… You get AI and your productivity goes up.
-  Instead of throwing you on the street you get to work less and spend more time
-  with family." The thematic core of the hopepunk project, timestamped.
+  not the top taking all the profits…" The thematic core of the hopepunk project.
+  Keep provides the timestamp; the ideas entered Gemini in the December
+  worldbuilding period.
 - **Aug 23, 2025 (Taiwan):** The Applejack democracy keystone — "the pony who
   doesn't wear masks, forced by leadership to wear one, and the final moral is
-  that no one should have to wear the mask forever, hence democracy." Character
-  concept and thematic argument fused in one note.
+  that no one should have to wear the mask forever, hence democracy." The exact
+  phrasing is absent from lineage, but the CONCEPT (Applejack + masks + political
+  democracy thesis) has 55 hits in lineage from Dec 4, 2025 onward. Keep
+  establishes the temporal origin — 3+ months before any AI conversation.
 - **Dec 6, 2025:** StoryPlanner conception — "Make program for organization of
-  notes." A one-line to-do. The first Gemini discussion of the planner is Dec 29,
-  2025 (lineage report W01), 23 days later.
+  notes." A one-line to-do. **Content-unique**: 0 hits in lineage even with
+  broad searches. The first Gemini discussion of the planner is Dec 29, 2025
+  (lineage report W01), 23 days later. The conception moment itself never
+  entered any AI conversation.
 - **Dec 2025:** ~30 multi-thousand-word worldbuilding streams in one month —
   magic as physics, Chrysalis's love-extraction economy, Harmonic Republicanism.
-  The December 2025 volume peak (127 notes, matching the 2019 Ingress peak) is
-  the worldbuilding avalanche.
+  **Not content-unique**: these were copy-pasted as Gemini prompts during the
+  first week of AI interaction (lineage W49, Dec 1–7). Searching lineage for
+  this vocabulary returns 317–379 hits. Keep's value here is the prior
+  timestamps, not unique content.
 
 ### 1b. Craft self-interrogation predating AI (pre-AI, unique)
 
@@ -110,59 +119,64 @@ pre-Gemini creative identity.
 
 ## Finding 2: The material is definitively unique
 
-Systematic comparison: 8 key Keep-captured moments were searched against all
-lineage layers (Google Doc diffs, Gemini entries + reports, AI Studio turns,
-NotebookLM turns + notes). Results:
+Systematic comparison in two rounds:
 
-| Keep moment | Date | Lineage hits |
-|---|---|---|
-| TLTT economic thesis | 2025-07-08 | **0** |
-| Applejack mask/democracy | 2025-08-23 | **0** |
-| StoryPlanner conception | 2025-12-06 | **0** (first lineage mention: Dec 29) |
-| Purpose statement ("not for an audience") | 2026-04-16 | **0** |
-| Craft guardrail ("not writing the way ai does") | 2026-03-xx | **0** |
-| Voice separation ("text needs to be mine") | 2026-05-04 | **0** |
-| Craft-theory questions (italics, chapter, gardening) | 2023–2026 | **0** |
-| KU craft self-critique | 2022 | **0** |
+**Round 1 — Exact phrasing:** 8 key Keep-captured moments searched against all
+lineage layers. All 8 returned 0 hits for their exact Keep wording.
 
-**The 8 tested moments are unique** — none appear in any lineage layer. However,
-"8 for 8" overstates the overall uniqueness of the Keep corpus. The December
-2025 worldbuilding avalanche — the single largest block of framework-relevant
-Keep content — was copy-pasted as Gemini prompts during the first week of
-Gemini interaction (lineage W49, Dec 1–7, 2025). Searching lineage for
-characteristic December worldbuilding vocabulary ("magic as physics," "love
-extraction," "Harmonic Republicanism") returns 317 hits. The content of those
-Keep notes is NOT unique — it lives in lineage as Brian's prompt text.
+**Round 2 — Broader concept verification (Brian's correction):** The exact-
+phrasing test was methodologically insufficient — ideas pasted into Gemini
+would appear in different words. Broader searches revealed that the CONCEPTS
+behind several items are extensively present in lineage, even though the exact
+Keep phrasing is not.
 
-The uniqueness is therefore **category-specific, not corpus-wide:**
+| Keep moment | Date | Exact phrasing | Concept/idea | Category |
+|---|---|---|---|---|
+| TLTT economic thesis | 2025-07-08 | 0 hits | Likely present (Dec worldbuilding) | 2 (timestamp) |
+| Applejack mask/democracy | 2025-08-23 | 0 hits | 55 hits (from Dec 4) | 2 (timestamp) |
+| StoryPlanner conception | 2025-12-06 | 0 hits | 0 hits (first mention Dec 29) | **1 (content)** |
+| Purpose statement | 2026-04-16 | 0 hits | Thematic echo Apr 19 only | **1 (content)** |
+| Craft guardrail | 2026-03-xx | 0 hits | 0 hits even broadly | **1 (content)** |
+| Voice separation | 2026-05-04 | 0 hits | 0 hits even broadly | **1 (content)** |
+| Craft-theory questions | 2023–2026 | 0 hits | 0 hits even broadly | **1 (content)** |
+| KU craft self-critique | 2022 | 0 hits | 0 hits | **1 (content)** |
 
-**Category 1 — Content-unique material (no lineage echo):**
-- Pre-AI self-reflective notes (TLTT thesis Jul 2025, Applejack keystone Aug
-  2025, KU critique 2022, craft-theory questions 2023–2026)
-- Between-conversation metacognitive notes (craft guardrails, voice separation
-  awareness, purpose statement)
-- The full pre-2025 creative biography arc (THLB through MLP pivot)
+**The pattern:** Worldbuilding and story-content ideas entered lineage via
+copy-paste (Category 2–3). Self-reflective, metacognitive, and craft-
+methodology notes did NOT (Category 1). Brian's *thinking about his own
+process* is unique to Keep; his *story content* largely is not.
+
+The uniqueness is **category-specific, not corpus-wide:**
+
+**Category 1 — Content-unique material (no lineage echo, even broadly):**
+- Craft self-interrogation (KU critique 2022, italics question 2023, chapter/
+  gardening questions 2026)
+- AI-collaboration metacognition (craft guardrails, voice separation awareness)
+- The purpose statement ("not for an audience" — the specific self-reflective
+  framing, not the strategy-game theme which has a downstream echo)
+- The StoryPlanner conception moment (Dec 6 to-do, 23 days before lineage)
 - The question corpus's longitudinal structure (855 questions, 11 years)
+- The pre-2023 creative biography arc (THLB through early Pokemon era) — no
+  lineage coverage at all for this decade
 
 **Category 2 — Timestamp-unique material (content echoed in lineage):**
-- The December 2025 worldbuilding avalanche and other notes that were
-  copy-pasted into Gemini. The CONTENT is in lineage, but Keep adds the
-  **prior timestamp** — when the idea was first captured on the phone, before
-  the conversation. For provenance purposes this is still valuable: it
-  establishes that ideas formed before AI engagement, not during it. The
-  StoryPlanner conception note (Dec 6, 2025) is an example: the content
-  eventually reached Gemini (Dec 29), but Keep establishes the 23-day gap.
+- The TLTT economic thesis (Jul 2025) and Applejack keystone (Aug 2025) —
+  Keep has temporal priority (months before any AI conversation), but the
+  IDEAS entered Gemini when Brian pasted them starting Dec 2025. Keep's
+  provenance value: establishing that these concepts formed independently,
+  before AI engagement.
+- The December 2025 worldbuilding avalanche — copy-pasted as Gemini prompts
+  (317–379 hits in lineage for characteristic vocabulary). Keep provides the
+  prior capture timestamps.
 
 **Category 3 — Non-unique material (fully covered in lineage):**
-- Notes that were copy-pasted verbatim into Gemini prompts where the
-  timestamp gap is negligible (same-day or next-day paste). These add
-  redundancy but minimal provenance value.
+- Notes copy-pasted verbatim into Gemini prompts with negligible timestamp
+  gap (same-day or next-day paste). Redundant.
 
-The distinction between Category 1 and Category 2 matters for ingest design:
-Category 1 material warrants full ingest (it exists nowhere else). Category 2
-material warrants metadata-only ingest (creation timestamp + a pointer to the
-lineage entry that received the paste, establishing the temporal gap). Category
-3 can be excluded.
+The distinction matters for ingest design: Category 1 material warrants full
+ingest (it exists nowhere else). Category 2 material warrants metadata-only
+ingest (creation timestamp + a pointer to the lineage entry that received the
+paste, establishing the temporal gap). Category 3 can be excluded.
 
 ## Finding 3: Character of the material
 
