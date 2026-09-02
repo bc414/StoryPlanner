@@ -697,7 +697,38 @@ voice attribution via lineage grep, structured output format. The skill must be
 built before running this WU. The v1 archive is accessible now via MCP; no other
 blockers.
 
-**Status:** proposed
+**Status:** in-progress
+
+**Instrument built and validated (2026-09-02).** Voice attribution is mechanical:
+`StoryPlanner.Core/VoiceMatch.cs` (shingle index, earliest-dated source wins, token
+mask, structural labels) and the read-only `tools/StoryPlanner.VoiceAttribution`
+(CSV + calibration sheets + reading render + `scan.html` census view). Evidence set:
+`WU1.4-v1-scene-instincts/attribution.csv`, one row per non-Paratext note. Rulings
+taken during validation, all Brian's: two roles (`brian` / `model`), no style
+heuristics, lineage as complete ground truth; the pre-AI Google Doc is not a voice
+source; the Note Organizer chats (`aistudio:22–25`) are excluded (verified
+pass-through; the 32 Sorter-only notes are Brian's); the `print(open(...))` plan
+dump is a plan snapshot, not a voice; labels are structural (verbatim /
+edited-paste / framed-paste / fragment / phrase / none / short, R=8, G=6,
+verbatim ≥0.9 both coverages) with pastes and lifts counted separately and phrase
+never counted; PlanFirst (note in a dated v1 snapshot before the matching
+response) and Echo (the model's "in your notes…" lead-in) both rule a match
+Brian's. Calibration: `calibration-sample-1.md` (120 verdicts, kept as record)
+and Brian's census scan of the page. Paratext excluded from the CSV.
+
+**Reading redesigned as three sessions (2026-09-02).** The scene corpus is read
+twice, blind — a single long read and one subagent per arc, identical locus-level
+record format — then adjudicated by a third session that bins disagreements
+(cross-arc / missed by the long read / over-read by the fresh reader) and drills
+only the last two. The subject checks (six named subjects + 18 triage-labelled)
+run as a separate session on the adjudicated inventory and write the deposits.
+This is also a methodological experiment on the two historical failure modes
+(lossy consolidation; lossy long-input reading) and its disagreement counts are
+evidence for the pipeline hypotheses. Per-session method: the `v1-archive-mining`
+skill; session sequence and outputs: `WU1.4-execution-plan.md`.
+Output field for this WU therefore reads: `attribution.csv` + `read-manifest.md`
++ two dated record sets + an adjudicated inventory + one synthesis; no per-arc
+files.
 
 ---
 
@@ -1678,9 +1709,9 @@ inform each hypothesis, with the primary WU listed first.
 | Precondition | Blocks | Owner | Status |
 |---|---|---|---|
 | Adapted analyze-story skill (self-diagnostic framing, unfinished works) | WU1.3 | Claude Code (buildout work) | Done (embedded in subagent prompts, 2026-09-01) |
-| V1 archive mining skill (extraction methodology, voice attribution, structured output) | WU1.4 | Claude Code (buildout work) | Not started |
+| V1 archive mining skill (extraction methodology, voice attribution, structured output) | WU1.4 | Claude Code (buildout work) | Done (2026-09-02): `v1-archive-mining` skill + `tools/StoryPlanner.VoiceAttribution` |
 | Preprocessing of raw revision history exports in `Planning_Document_Revision_History/` | WU1.8 | Brian | Not started |
-| V1 database snapshots (`TheLionessOfTallTale[date].db`) downloaded from Google Drive and made queryable | WU1.4, WU1.5 (enhancement) | Brian | Not started — location known, preprocessing TBD |
+| V1 database snapshots (`TheLionessOfTallTale[date].db`) downloaded from Google Drive and made queryable | WU1.4, WU1.5 (enhancement) | Brian | Done (2026-09-02): 15 snapshots in `source_material_references/v1 sqlite/`, renamed `yyyy-MM-dd`, read raw by the attribution tool (no schema migration); the 2025-12-23 backup on Drive is not downloaded |
 | Keep sidecar ingest into lineage.db (selective, authored include-list) | WU1.5, WU1.8 | Claude Code (buildout work) | Not started — WU1.2 assessed feasibility, see implementation-candidates.md |
 | Own fiction source texts ready | WU1.3 | — | Done (CORPUS-STATUS: italics verified 2026-08-31) |
 | Favorites tier arbitration complete | WU1.11 | Brian | Done (2026-08-29) |

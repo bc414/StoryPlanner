@@ -75,9 +75,12 @@ and how growth correlates with dated Gemini conversations — useful for voice
 attribution (notes appearing after a conversation are copy-paste candidates) and
 for tracing the plan's evolution under the full-plan-paste paradigm.
 
-Status: **Known, not preprocessed.** Need to be downloaded from Drive and made
-queryable (likely read-only SQLite opens, diffing against the final v1 archive
-or against each other). Enhancement for WU1.4 and WU1.5, not a hard blocker.
+Status: **Local and in use (2026-09-02).** 15 of the 16 Drive snapshots are in
+`source_material_references/v1 sqlite/` as `TheLionessOfTallTale yyyy-MM-dd.db`
+(2025-12-26 → 2026-04-18; the 2025-12-23 backup not downloaded). Read raw and
+immutable by `tools/StoryPlanner.VoiceAttribution` — every TEXT column of every
+table except `GeminiEntries` — to date each archive note's first appearance in
+the plan (the PlanFirst rule). No schema migration; note ids never joined.
 
 ## Google Keep notes
 
@@ -107,5 +110,7 @@ Status: **Current.**
 
 - Own fiction analysis: done without a skill change — the self-diagnostic
   additions were embedded in subagent prompts (`docs/analysis-briefs/`)
-- V1 archive extraction needs a new skill (multiple subagents, batched by
-  chapter arc, voice separation via lineage grep, consistent categorization)
+- V1 archive mining: **done (2026-09-02)** — the `v1-archive-mining` skill and
+  `tools/StoryPlanner.VoiceAttribution`. Voice attribution is mechanical
+  (evidence set `docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv`);
+  the reading runs as two blind scene passes + adjudication + a subject pass.

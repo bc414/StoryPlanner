@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voice attribution scan</title>
+<style>
+  /*
+    Encodings, each one-to-one with a thing the tool claims (Brian, 2026-09-02):
+      bold text          = the tool claims an AI wrote these words (a model-role source contains them)
+      purple underline   = an AI source matched, but a rule says Brian wrote them first (PlanFirst / echo)
+      dotted underline   = shared phrasing under R words — not a claim
+      box fill           = the label: red = AI note (verbatim / edited-paste), orange = mixed (framed-paste),
+                           yellow = one borrowed sentence (fragment); no fill = Brian's note
+      box edge           = light blue-green = Brian's, nothing captured; green = Brian's, matched his own
+                           prompt; purple = ruled Brian's by PlanFirst / echo
+  */
+  :root {
+    --bg:#f7f6f3; --fg:#1d1d1b; --muted:#6b6b66; --line:#dcdad4; --card:#fff;
+    --red:#e53935; --orange:#fb8c00; --yellow:#fdd835; --purple:#7e57c2; --green:#2e7d32; --teal:#7fc9bd;
+    --fill-red:#fde4e2; --fill-orange:#fdebd3; --fill-yellow:#fbf6d2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#191918; --fg:#e8e6e0; --muted:#9a9a93; --line:#33332f; --card:#222220;
+      --fill-red:#3a2321; --fill-orange:#3a2d1c; --fill-yellow:#35321c; --teal:#3e8f83; --green:#5fae63; --purple:#9b7fd6; }
+  }
+  * { box-sizing:border-box }
+  body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.45 system-ui, sans-serif }
+  header { position:sticky; top:0; z-index:5; background:var(--bg); border-bottom:1px solid var(--line); padding:8px 16px; display:flex; flex-wrap:wrap; gap:8px 16px; align-items:center }
+  header h1 { font-size:15px; margin:0 8px 0 0; font-weight:600 }
+  header label { display:inline-flex; align-items:center; gap:4px; font-size:13px; color:var(--muted) }
+  header select, header input[type=text] { font:inherit; padding:2px 6px; border:1px solid var(--line); border-radius:4px; background:var(--card); color:var(--fg) }
+  #drop { border:2px dashed var(--line); border-radius:8px; padding:40px; margin:40px auto; max-width:720px; text-align:center; color:var(--muted) }
+  #drop.over { border-color:var(--green) }
+  main { display:grid; grid-template-columns: 340px 1fr 380px; min-height:calc(100vh - 52px) }
+  nav { border-right:1px solid var(--line); overflow:auto; max-height:calc(100vh - 52px); position:sticky; top:52px; font-size:12.5px }
+  nav table { border-collapse:collapse; width:100% }
+  nav td, nav th { padding:3px 5px; text-align:right; white-space:nowrap }
+  nav td:first-child, nav th:first-child { text-align:left; white-space:normal }
+  nav tr { cursor:pointer } nav tr:hover { background:var(--card) }
+  nav th { color:var(--muted); font-weight:500; position:sticky; top:0; background:var(--bg) }
+  nav .bar { display:inline-block; height:8px; background:var(--red); vertical-align:middle; border-radius:2px }
+  nav .bar.p { background:var(--purple) }
+  #content { padding:12px 18px; overflow:auto }
+  aside { border-left:1px solid var(--line); padding:12px; overflow:auto; max-height:calc(100vh - 52px); position:sticky; top:52px; font-size:13px }
+  h2 { font-size:15px; margin:18px 0 6px; padding-top:8px; border-top:1px solid var(--line) }
+  h3 { font-size:13.5px; margin:14px 0 4px }
+  h4 { font-size:12.5px; margin:8px 0 2px 14px; color:var(--muted); font-weight:500 }
+  .note { margin:3px 0 3px 14px; padding:4px 8px 5px; border-left:4px solid var(--teal); border-radius:3px; background:var(--card); cursor:pointer; white-space:pre-wrap }
+  .note.link { margin-left:34px }
+  .note .tag { display:block; font:11px/1.4 ui-monospace, monospace; color:var(--muted) }
+  .note.sel { outline:2px solid var(--fg) }
+  /* A filled box's edge repeats its fill hue — the "yours" edges belong only to unfilled boxes. */
+  .fill-red { background:var(--fill-red); border-left-color:var(--red) } .fill-orange { background:var(--fill-orange); border-left-color:var(--orange) } .fill-yellow { background:var(--fill-yellow); border-left-color:var(--yellow) }
+  .edge-teal { border-left-color:var(--teal) } .edge-green { border-left-color:var(--green) } .edge-purple { border-left-color:var(--purple) }
+  .note b { font-weight:700 }
+  .note u.ruled { text-decoration:underline; text-decoration-color:var(--purple); text-decoration-thickness:2px; text-underline-offset:2px }
+  .note u.phrase { text-decoration:underline dotted var(--muted); text-underline-offset:2px }
+  .flag { font:10.5px/1.2 ui-monospace, monospace; padding:0 4px; border-radius:3px; border:1px solid var(--line); margin-left:4px; color:var(--muted) }
+  .flag.pf, .flag.echo { border-color:var(--purple); color:var(--purple) }
+  aside dl { display:grid; grid-template-columns: 110px 1fr; gap:3px 8px; margin:0 } aside dt { color:var(--muted) } aside dd { margin:0; word-break:break-word }
+  aside blockquote { margin:6px 0; padding:6px 8px; border-left:3px solid var(--line); background:var(--card); white-space:pre-wrap; font-size:12.5px }
+  aside mark { background: color-mix(in srgb, var(--red) 25%, transparent); color:inherit }
+  textarea { width:100%; height:120px; font:12.5px ui-monospace, monospace; background:var(--card); color:var(--fg); border:1px solid var(--line); border-radius:4px; padding:6px }
+  button { font:inherit; padding:3px 10px; border:1px solid var(--line); border-radius:4px; background:var(--card); color:var(--fg); cursor:pointer }
+  .muted { color:var(--muted) }
+  .legend { font-size:12px; color:var(--muted); display:flex; gap:12px; flex-wrap:wrap; align-items:center }
+  .legend i { display:inline-block; width:12px; height:12px; border-radius:2px; margin-right:3px; vertical-align:-2px; border:1px solid var(--line) }
+  .legend .e { width:4px; border:0 }
+  #matrix { font:12px ui-monospace, monospace; white-space:pre; overflow:auto }
+</style>
+</head>
+<body>
+<header>
+  <h1>Voice attribution scan</h1>
+  <label>Show <select id="fClaim">
+    <option value="">everything</option>
+    <option value="ai">AI text (red / orange / yellow)</option>
+    <option value="ai-notes">AI notes only (red)</option>
+    <option value="mixed">mixed only (orange)</option>
+    <option value="lift">one borrowed sentence only (yellow)</option>
+    <option value="ruled">ruled yours (purple)</option>
+    <option value="yours">yours only (no fill)</option>
+    <option value="phrase">shared phrasing only</option>
+  </select></label>
+  <label>Story <select id="fStory"><option value="">all</option></select></label>
+  <label>Owner <select id="fOwner"><option value="">any</option><option>PlotPoint</option><option>Link</option><option>Chapter</option><option>Subject</option></select></label>
+  <label>Layer <select id="fLayer"><option value="">any</option><option>gemini</option><option>aistudio</option><option>notebooklm</option></select></label>
+  <label><input type="checkbox" id="fStitch"> stitched</label>
+  <label><input type="checkbox" id="fTie"> tie</label>
+  <label>Find <input type="text" id="fText" size="16" placeholder="note text or id"></label>
+  <span id="status" class="muted"></span>
+  <span class="legend">
+    <span><b>bold</b> AI text</span>
+    <span><u style="text-decoration-color:var(--purple);text-decoration-thickness:2px">ruled yours</u></span>
+    <span><u style="text-decoration:underline dotted">phrasing</u></span>
+    <span><i style="background:var(--fill-red)"></i>AI note</span><span><i style="background:var(--fill-orange)"></i>mixed</span><span><i style="background:var(--fill-yellow)"></i>borrowed sentence</span>
+    <span><i class="e" style="background:var(--teal)"></i>yours</span><span><i class="e" style="background:var(--green)"></i>yours, in your prompt</span><span><i class="e" style="background:var(--purple)"></i>ruled yours</span>
+  </span>
+</header>
+
+<div id="drop">Drop <b>attribution.csv</b> here (or <label style="text-decoration:underline;cursor:pointer">choose a file<input type="file" id="file" accept=".csv,.md" hidden></label>). Optionally drop a calibration sheet (.md) afterwards for the agreement matrix. Nothing leaves this page.</div>
+
+<main id="main" hidden>
+  <nav><table id="counts"></table></nav>
+  <div id="content"></div>
+  <aside>
+    <div id="detail" class="muted">Click a note.</div>
+    <h3>Notes to Claude</h3>
+    <div class="muted" style="font-size:12px">Click a note then press <kbd>n</kbd> to add its id, or type. Copy out when done — nothing is saved.</div>
+    <textarea id="memo"></textarea>
+    <button id="copy">copy</button>
+    <h3>Agreement</h3>
+    <div id="matrix" class="muted">drop a calibration sheet (.md)</div>
+  </aside>
+</main>
+
+<script>
+(() => {
+  const AI_NOTE = ['verbatim', 'edited-paste'];
+  let rows = [], byId = new Map(), selected = null, storyRank = new Map();
+  const $ = id => document.getElementById(id);
+
+  // ---------- CSV ----------
+  function parseCsv(text) {
+    const out = []; let row = [], field = '', i = 0, q = false;
+    while (i < text.length) {
+      const c = text[i];
+      if (q) {
+        if (c === '"') { if (text[i+1] === '"') { field += '"'; i += 2; continue; } q = false; i++; continue; }
+        field += c; i++; continue;
+      }
+      if (c === '"') { q = true; i++; continue; }
+      if (c === ',') { row.push(field); field = ''; i++; continue; }
+      if (c === '\r') { i++; continue; }
+      if (c === '\n') { row.push(field); out.push(row); row = []; field = ''; i++; continue; }
+      field += c; i++;
+    }
+    if (field.length || row.length) { row.push(field); out.push(row); }
+    const head = out.shift();
+    return out.filter(r => r.length > 1).map(r => Object.fromEntries(head.map((h, j) => [h, r[j] ?? ''])));
+  }
+
+  // The semantic class of a row — what the tool claims about the note.
+  function claim(r) {
+    if (r.pf || r.echo) return 'ruled';
+    if (AI_NOTE.includes(r.Label) && r.Role === 'model') return 'ai-notes';
+    if (r.Label === 'framed-paste' && r.Role === 'model') return 'mixed';
+    if (r.Label === 'fragment' && r.Role === 'model') return 'lift';
+    if (r.Label === 'phrase') return 'phrase';
+    return 'yours';
+  }
+
+  function load(text) {
+    rows = parseCsv(text).map(r => {
+      const o = {
+        ...r, id: +r.NoteId, ch: +r.ChapterOrder, pp: +r.PlotPointId, ord: +r.OrderInChapter, link: +r.LinkId, subj: +r.SubjectId,
+        pf: r.PlanFirst === 'true', echo: r.EchoCandidate === 'true', tie: r.Tie === 'true',
+        nsrc: r.Sources ? r.Sources.split(';').length : 0,
+        spans: (r.MatchedSpans || '').split(';').filter(Boolean).map(s => { const m = s.match(/^(\d+)-(\d+):(.*)$/); return m ? { s: +m[1], e: +m[2], src: m[3] } : null; }).filter(Boolean),
+      };
+      o.claim = claim(o);
+      return o;
+    });
+    byId = new Map(rows.map(r => [r.id, r]));
+    const storyCounts = new Map();
+    for (const r of rows) if (r.Story) storyCounts.set(r.Story, (storyCounts.get(r.Story) || 0) + 1);
+    storyRank = new Map([...storyCounts.entries()].sort((a, b) => b[1] - a[1]).map(([s], i) => [s, i]));
+    const fs = $('fStory'); fs.innerHTML = '<option value="">all</option>';
+    for (const [s] of storyRank) { const o = document.createElement('option'); o.value = o.textContent = s; fs.appendChild(o); }
+    const so = document.createElement('option'); so.value = '§'; so.textContent = '(subjects only)'; fs.appendChild(so);
+    $('drop').hidden = true; $('main').hidden = false;
+    render();
+  }
+
+  // ---------- filters ----------
+  ['fClaim','fStory','fOwner','fLayer','fStitch','fTie'].forEach(id => $(id).addEventListener('change', render));
+  $('fText').addEventListener('input', debounce(render, 250));
+  function debounce(f, ms) { let t; return () => { clearTimeout(t); t = setTimeout(f, ms); }; }
+
+  function pass(r) {
+    const c = $('fClaim').value;
+    if (c === 'ai' && !['ai-notes','mixed','lift'].includes(r.claim)) return false;
+    if (c && c !== 'ai' && r.claim !== c) return false;
+    const story = $('fStory').value; if (story === '§' ? r.OwnerType !== 'Subject' : story && r.Story !== story) return false;
+    if ($('fOwner').value && r.OwnerType !== $('fOwner').value) return false;
+    if ($('fLayer').value && r.OriginLayer !== $('fLayer').value) return false;
+    if ($('fStitch').checked && r.nsrc < 2) return false;
+    if ($('fTie').checked && !r.tie) return false;
+    const t = $('fText').value.trim().toLowerCase();
+    if (t && !(String(r.id) === t || r.Content.toLowerCase().includes(t) || r.OwnerName.toLowerCase().includes(t))) return false;
+    return true;
+  }
+
+  // ---------- render ----------
+  function render() {
+    const vis = rows.filter(pass);
+    $('status').textContent = `${vis.length} of ${rows.length} notes`;
+    renderCounts(vis);
+    renderContent(vis);
+  }
+
+  function groupKey(r) {
+    if (r.OwnerType === 'Subject') return `S|${String(r.subj).padStart(5,'0')}|${r.OwnerName}`;
+    return `C|${storyRank.get(r.Story) ?? 9}|${String(r.ch).padStart(3,'0')}|${r.Story}|${r.Chapter}`;
+  }
+  function groupTitle(k) {
+    const p = k.split('|');
+    return p[0] === 'S' ? { short: '§ ' + p[2], long: 'Subject: ' + p[2] } : { short: p[4], long: p[3] + ' — ' + p[4] };
+  }
+
+  function renderCounts(vis) {
+    const groups = new Map();
+    for (const r of vis) {
+      const k = groupKey(r);
+      if (!groups.has(k)) groups.set(k, { n:0, ai:0, mixed:0, lift:0, ruled:0 });
+      const g = groups.get(k); g.n++;
+      if (r.claim === 'ai-notes') g.ai++; else if (r.claim === 'mixed') g.mixed++; else if (r.claim === 'lift') g.lift++; else if (r.claim === 'ruled') g.ruled++;
+    }
+    let html = '<tr><th>chapter / subject</th><th>n</th><th title="AI notes (red)">AI</th><th title="mixed (orange)">mix</th><th title="borrowed sentence (yellow)">lift</th><th title="ruled yours (purple)">ruled</th><th>AI share</th></tr>';
+    for (const k of [...groups.keys()].sort()) {
+      const g = groups.get(k);
+      const aiShare = g.n ? (g.ai + g.mixed + g.lift) / g.n : 0, ruledShare = g.n ? g.ruled / g.n : 0;
+      html += `<tr data-k="${enc(k)}"><td>${esc(groupTitle(k).short)}</td><td>${g.n}</td><td>${g.ai}</td><td>${g.mixed}</td><td>${g.lift}</td><td>${g.ruled}</td><td><span class="bar" style="width:${Math.round(60*aiShare)}px"></span><span class="bar p" style="width:${Math.round(60*ruledShare)}px"></span></td></tr>`;
+    }
+    $('counts').innerHTML = html;
+    $('counts').querySelectorAll('tr[data-k]').forEach(tr => tr.addEventListener('click', () => {
+      const el = document.querySelector(`[data-group="${tr.dataset.k}"]`); if (el) el.scrollIntoView({ block:'start' });
+    }));
+  }
+
+  function renderContent(vis) {
+    const groups = new Map();
+    for (const r of vis) { const k = groupKey(r); if (!groups.has(k)) groups.set(k, []); groups.get(k).push(r); }
+    const out = [];
+    for (const k of [...groups.keys()].sort()) {
+      const list = groups.get(k).sort((a, b) => a.ord - b.ord || a.pp - b.pp || a.link - b.link || a.id - b.id);
+      out.push(`<h2 data-group="${enc(k)}">${esc(groupTitle(k).long)} <span class="muted">(${list.length})</span></h2>`);
+      let lastPp = null, lastLink = null;
+      for (const r of list) {
+        if (r.OwnerType === 'PlotPoint' || r.OwnerType === 'Link') {
+          if (r.pp !== lastPp) { out.push(`<h3>PP ${esc(r.OwnerType === 'Link' ? r.OwnerName.split(' × ')[0] : r.OwnerName)} <span class="muted">(pp:${r.pp})</span></h3>`); lastPp = r.pp; lastLink = null; }
+          if (r.OwnerType === 'Link' && r.link !== lastLink) { out.push(`<h4>× ${esc(r.OwnerName.split(' × ').slice(1).join(' × '))} <span class="muted">(link:${r.link})</span></h4>`); lastLink = r.link; }
+        } else if (r.OwnerType === 'Chapter' && lastPp !== 'ch') { out.push('<h3>chapter notes</h3>'); lastPp = 'ch'; }
+        out.push(noteHtml(r));
+      }
+    }
+    $('content').innerHTML = out.join('');
+    $('content').querySelectorAll('.note').forEach(el => el.addEventListener('click', () => select(+el.dataset.id)));
+  }
+
+  function noteHtml(r) {
+    const fill = r.claim === 'ai-notes' ? 'fill-red' : r.claim === 'mixed' ? 'fill-orange' : r.claim === 'lift' ? 'fill-yellow' : '';
+    const edge = fill ? '' : r.claim === 'ruled' ? 'edge-purple' : r.Role === 'brian' ? 'edge-green' : 'edge-teal';
+    const mark = r.claim === 'ruled' ? 'ruled' : r.claim === 'phrase' ? 'phrase' : (fill ? 'bold' : 'none');
+    const share = r.spans.length ? ' · AI ' + Math.round(100 * r.spans.reduce((a, s) => a + (s.e - s.s), 0) / Math.max(1, r.Content.length)) + '%' : '';
+    const flags = (r.pf ? '<span class="flag pf">PlanFirst</span>' : '') + (r.echo ? '<span class="flag echo">echo?</span>' : '') + (r.tie ? '<span class="flag">tie</span>' : '') + (r.nsrc >= 2 ? `<span class="flag">×${r.nsrc}</span>` : '');
+    const origin = r.OriginId ? ` · ${r.OriginLayer}/${r.Role} ${r.OriginDate}` : '';
+    return `<div class="note ${fill} ${edge} ${r.OwnerType === 'Link' ? 'link' : ''}" data-id="${r.id}"><span class="tag">${r.id} · ${r.Label}${origin}${share}${flags}</span>${markup(r.Content, r.spans, mark)}</div>`;
+  }
+
+  // Marks the model-role spans in the note text: <b> (AI text), <u class=ruled>, <u class=phrase>, or nothing.
+  function markup(text, spans, mark) {
+    if (!spans.length || mark === 'none') return esc(text);
+    const tag = mark === 'bold' ? ['<b>', '</b>'] : mark === 'ruled' ? ['<u class="ruled">', '</u>'] : ['<u class="phrase">', '</u>'];
+    let out = '', cur = 0;
+    for (const s of [...spans].sort((a, b) => a.s - b.s)) {
+      if (s.s < cur) continue;
+      out += esc(text.slice(cur, s.s)) + tag[0] + esc(text.slice(s.s, s.e)) + tag[1];
+      cur = s.e;
+    }
+    return out + esc(text.slice(cur));
+  }
+
+  // ---------- detail ----------
+  function select(id) {
+    selected = id;
+    document.querySelectorAll('.note.sel').forEach(e => e.classList.remove('sel'));
+    const el = document.querySelector(`.note[data-id="${id}"]`); if (el) el.classList.add('sel');
+    const r = byId.get(id); if (!r) return;
+    const claimText = { 'ai-notes':'AI note', mixed:'mixed — AI paste plus your writing', lift:'your note with one borrowed sentence', ruled:'matched an AI source; ruled yours', yours:'yours', phrase:'yours — shared phrasing only' }[r.claim];
+    const dl = [
+      ['note', `${r.id} · ${r.OwnerType} · ${esc(r.OwnerName)}`],
+      ['claim', claimText],
+      ['label / role', `${r.Label} / ${r.Role || '—'}`],
+      ['coverage', `token ${r.TokenCoverage} · shingle ${r.Coverage || '—'} · longest run ${r.LongestRun}w`],
+      ['origin', r.OriginId ? `${r.OriginId} (${r.OriginLayer}/${r.Role}, ${r.OriginDate}, share ${r.OriginShare})` : '—'],
+      ['sources', esc(r.Sources || '—')],
+      ['first snapshot', r.FirstSnapshot || '—'],
+      ['PlanFirst', r.pf ? `yes — echoed by ${r.EchoedBy}` : 'no'],
+      ['echo candidate', r.echo ? 'yes' : 'no'],
+      ['tie', r.tie ? 'yes' : 'no'],
+    ].map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
+    let html = `<dl>${dl}</dl>`;
+    if (r.UncoveredText) html += `<h3>longest run no source explains</h3><blockquote>${esc(r.UncoveredText)}</blockquote>`;
+    if (r.SourceWindow) html += `<h3>source window <span class="muted">(${r.OriginId} — get_lineage for the full turn)</span></h3>${r.SourcePrompt ? `<div class="muted" style="font-size:12px">prompt it answered: “${esc(r.SourcePrompt)}”</div>` : ''}<blockquote>${highlight(r.SourceWindow, r.OriginPassage)}</blockquote>`;
+    $('detail').innerHTML = html;
+  }
+  // Token-aligned, like the engine: markdown and punctuation in the source can't break the match.
+  function tokens(s) {
+    const out = []; const re = /[\p{L}\p{N}]+/gu; let m;
+    while ((m = re.exec(s))) out.push({ t: m[0].toLowerCase(), s: m.index, e: m.index + m[0].length });
+    return out;
+  }
+  function highlight(window, passage) {
+    if (!passage) return esc(window);
+    const wt = tokens(window), pt = tokens(passage);
+    if (!pt.length || !wt.length) return esc(window);
+    const probe = pt.slice(0, Math.min(6, pt.length)).map(x => x.t);
+    let at = -1;
+    for (let i = 0; i + probe.length <= wt.length; i++) {
+      let ok = true;
+      for (let j = 0; j < probe.length; j++) if (wt[i + j].t !== probe[j]) { ok = false; break; }
+      if (ok) { at = i; break; }
+    }
+    if (at < 0) return esc(window);
+    const end = wt[Math.min(wt.length - 1, at + pt.length - 1)].e, start = wt[at].s;
+    return esc(window.slice(0, start)) + '<mark>' + esc(window.slice(start, end)) + '</mark>' + esc(window.slice(end));
+  }
+  document.addEventListener('keydown', e => {
+    if (e.key === 'n' && selected != null && !['TEXTAREA','INPUT'].includes(document.activeElement.tagName)) {
+      const m = $('memo'); m.value += (m.value && !m.value.endsWith('\n') ? '\n' : '') + selected + ': '; m.focus();
+    }
+  });
+  $('copy').addEventListener('click', () => navigator.clipboard.writeText($('memo').value));
+
+  // ---------- verdict sheet → agreement matrix ----------
+  function loadSheet(text) {
+    const entries = text.split(/\n(?=### )/).slice(1);
+    const classes = ['ok','brian','model','mixed','phrase','paratext','unsure','other'];
+    const cls = raw => {
+      const t = raw.trim().toLowerCase(); if (!t) return 'ok';
+      const first = (t.match(/^[a-z?\-]+/) || [''])[0];
+      const has = (...n) => n.some(x => t.includes(x));
+      if (['ok','yes','agree'].includes(first)) return 'ok';
+      if (first === '?') return 'unsure';
+      if (has('paratext')) return 'paratext';
+      if (['brian','me','mine'].includes(first) || has('my prompt','reads like my voice','reads as me','no ai involved')) return 'brian';
+      if (['mixed','mix'].includes(first) || has('mixed','a mix')) return 'mixed';
+      if (['phrase','boilerplate'].includes(first) || has('boilerplate')) return 'phrase';
+      if (['model','ai','gemini'].includes(first) || has('reads as ai','from a model','accurately ai')) return 'model';
+      return 'other';
+    };
+    const cells = new Map(); let n = 0, missing = 0;
+    for (const e of entries) {
+      const h = e.match(/^### (\S+) \d+ · note (\d+)/); if (!h) continue;
+      const v = e.match(/^verdict:?\s*(.*?)\s*:?\s*$/mi); const raw = v ? v[1] : '';
+      const r = byId.get(+h[2]); if (!r) { missing++; continue; }
+      const key = `${r.Label}/${r.Role || '—'}`; if (!cells.has(key)) cells.set(key, {});
+      const c = cells.get(key); const k = cls(raw); c[k] = (c[k] || 0) + 1; n++;
+    }
+    let s = 'tool label/role'.padEnd(22) + ' n ' + classes.map(c => c.padStart(8)).join('') + '\n';
+    for (const key of [...cells.keys()].sort()) {
+      const c = cells.get(key); const tot = Object.values(c).reduce((a, b) => a + b, 0);
+      s += key.padEnd(22) + String(tot).padStart(2) + ' ' + classes.map(x => String(c[x] || 0).padStart(8)).join('') + '\n';
+    }
+    s += `\n${n} verdicts${missing ? `, ${missing} on notes not in this CSV` : ''}`;
+    $('matrix').textContent = s; $('matrix').classList.remove('muted');
+  }
+
+  // ---------- file handling ----------
+  function handle(file) {
+    const rd = new FileReader();
+    rd.onload = () => file.name.toLowerCase().endsWith('.md') ? loadSheet(rd.result) : load(rd.result);
+    rd.readAsText(file);
+  }
+  $('file').addEventListener('change', e => { for (const f of e.target.files) handle(f); });
+  const drop = $('drop');
+  for (const el of [drop, document.body]) {
+    el.addEventListener('dragover', e => { e.preventDefault(); drop.classList.add('over'); });
+    el.addEventListener('dragleave', () => drop.classList.remove('over'));
+    el.addEventListener('drop', e => { e.preventDefault(); drop.classList.remove('over'); for (const f of e.dataTransfer.files) handle(f); });
+  }
+
+  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c])); }
+  function enc(s) { return esc(s).replace(/\|/g, '&#124;'); }
+})();
+</script>
+</body>
+</html>

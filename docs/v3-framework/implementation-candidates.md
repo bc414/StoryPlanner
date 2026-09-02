@@ -31,6 +31,14 @@ Includes the more specific proposals from the design conversation:
 Source: synthesis plan downstream section (2026-08-29), Keep dump D19/D20
 (2026-08-30)
 
+**Read-only half exists (2026-09-02).** WU1.4 built the matcher
+(`StoryPlanner.Core/VoiceMatch.cs`: per-span source credit with character
+offsets — D19's storage shape) and a read-only tool that reports it as a sidecar
+CSV (`tools/StoryPlanner.VoiceAttribution`, run on the v1 archive; the same
+invocation against the v2 working plan is the lint report). What remains gated is
+only the write path: persisting spans into the `.storyplan` and D20's surfacing.
+The gate is unchanged.
+
 ### NoteState vocabulary change
 
 **Gated on:** 003 (epistemic-vocabulary-for-content)
