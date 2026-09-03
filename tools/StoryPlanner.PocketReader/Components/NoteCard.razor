@@ -1,0 +1,53 @@
+@* One note, plain text, with its metadata. Flagged notes are shown in full and marked:
+   the wall is for LLM consumers, and this is the author reading his own data. *@
+
+<div class="card @(Note.NoteState == NoteState.Flagged ? "flagged" : "")">
+    <div class="note-head">
+        <span class="pill @(Cache.Corpus == Corpus.Working ? "pill-plan" : "pill-archive")">@Labels.CorpusName(Cache.Corpus)</span>
+        <span class="pill @(Note.NoteState == NoteState.Flagged ? "pill-flag" : "")">@Labels.NoteStateLabel(Cache.Corpus, Note.NoteState)</span>
+        @if (ShowTrack)
+        {
+            <span class="pill">@Track.TrackName</span>
+        }
+    </div>
+
+    @if (ShowTrack && !string.IsNullOrWhiteSpace(Track.DisplayQuestion))
+    {
+        <div class="question" style="margin-top:.5rem">@Track.DisplayQuestion</div>
+    }
+
+    <div class="note-body">@Note.Content</div>
+
+    @if (Note.NoteState == NoteState.Flagged && !string.IsNullOrWhiteSpace(Note.FlagReason))
+    {
+        <div class="flag-reason"><strong>Flag:</strong> @Note.FlagReason</div>
+    }
+
+    @if (ShowOwner)
+    {
+        var owner = Labels.Owner(Cache, Note);
+        <div class="meta" style="margin-top:.5rem">
+            On:
+            @if (owner.Href is not null) { <a href="@owner.Href">@owner.Text</a> } else { @owner.Text }
+        </div>
+    }
+    @{
+        var date = Labels.WorldDateText(Cache, Note);
+        var citations = Labels.Citations(Cache, Note);
+    }
+    @if (date.Length > 0) { <div class="meta">When: @date</div> }
+    @if (Note.ThemeId is int themeId && Cache.ThemeById.TryGetValue(themeId, out var theme))
+    {
+        <div class="meta">Theme: @theme.Name</div>
+    }
+    @if (citations.Length > 0) { <div class="meta">Source: @citations</div> }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public PlanCache Cache { get; set; } = default!;
+    [Parameter, EditorRequired] public Note Note { get; set; } = default!;
+    [Parameter] public bool ShowOwner { get; set; }
+    [Parameter] public bool ShowTrack { get; set; } = true;
+
+    private NoteTrackDefinition Track => Labels.Track(Cache, Note.NoteTrackDefinitionId);
+}

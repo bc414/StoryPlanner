@@ -1,0 +1,107 @@
+@{
+    var slug = Labels.CorpusSlug(Cache.Corpus);
+}
+<h1>
+    @if (!string.IsNullOrWhiteSpace(Subject.ColorHex)) { <span class="swatch" style="background:@Subject.ColorHex"></span> }
+    @Subject.Name
+</h1>
+<div class="meta">
+    <span class="pill @(Cache.Corpus == Corpus.Working ? "pill-plan" : "pill-archive")">@Labels.CorpusName(Cache.Corpus)</span>
+    @Labels.SubjectType(Cache, Subject)
+    @if (!string.IsNullOrWhiteSpace(Subject.Abbreviation)) { <text> · @Subject.Abbreviation</text> }
+    @if (Subject.IsPovCharacter) { <text> · POV character</text> }
+</div>
+<div class="meta">Theater: @Labels.TheaterName(Cache, Subject.TheaterId)</div>
+
+@if (!string.IsNullOrWhiteSpace(Subject.Description))
+{
+    <div class="card"><div class="note-body" style="margin:0">@Subject.Description</div></div>
+}
+
+@if (Properties.Count > 0)
+{
+    <h3>Properties</h3>
+    <ul class="plain">
+        @foreach (var (def, val) in Properties)
+        {
+            <li>
+                <span class="meta">@def.Name</span><br />
+                @if (!string.IsNullOrWhiteSpace(val.ColorHex)) { <span class="swatch" style="background:@val.ColorHex"></span> }
+                @val.ValueName
+            </li>
+        }
+    </ul>
+}
+
+@if (Outgoing.Count > 0 || Incoming.Count > 0)
+{
+    <h3>Relations</h3>
+    <ul class="plain">
+        @foreach (var (def, rel) in Outgoing)
+        {
+            <li><span class="meta">@def.Name</span><br /><a href="subject/@slug/@rel.TargetSubjectId">@Labels.SubjectName(Cache, rel.TargetSubjectId)</a></li>
+        }
+        @foreach (var (def, rel) in Incoming)
+        {
+            <li><span class="meta">@(string.IsNullOrWhiteSpace(def.InverseName) ? $"{def.Name} (inverse)" : def.InverseName)</span><br /><a href="subject/@slug/@rel.SubjectId">@Labels.SubjectName(Cache, rel.SubjectId)</a></li>
+        }
+    </ul>
+}
+
+<TrackGroups Cache="Cache" OwnerType="OwnerType.Subject" OwnerId="Subject.Id" />
+
+@if (Links.Count > 0)
+{
+    <h3>Scenes (@Links.Count)</h3>
+    <ul class="plain">
+        @foreach (var l in Links)
+        {
+            var pp = Cache.PlotPointById.GetValueOrDefault(l.PlotPointId);
+            var noteCount = Cache.NotesByOwner.TryGetValue((OwnerType.PlotPointSubjectLink, l.Id), out var ns) ? ns.Count : 0;
+            <li>
+                <a href="link/@slug/@l.Id">@(pp?.Title ?? $"scene {l.PlotPointId}")</a>
+                <div class="meta">
+                    @(pp?.ChapterId is int ch ? Labels.ChapterLabel(Cache, ch) : "(no chapter)")
+                    @if (noteCount > 0) { <text> · @noteCount link note@(noteCount == 1 ? "" : "s")</text> }
+                </div>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    [Parameter, EditorRequired] public PlanCache Cache { get; set; } = default!;
+    [Parameter, EditorRequired] public Subject Subject { get; set; } = default!;
+
+    private List<(NarrativePropertyDefinition Def, NarrativePropertyValueDefinition Value)> Properties = new();
+    private List<(SubjectRelationDefinition Def, SubjectRelation Rel)> Outgoing = new();
+    private List<(SubjectRelationDefinition Def, SubjectRelation Rel)> Incoming = new();
+    private List<PlotPointSubjectLink> Links = new();
+
+    protected override void OnParametersSet()
+    {
+        Properties = (Cache.NarrativePropertyValuesByOwner.TryGetValue((OwnerType.Subject, Subject.Id), out var vals) ? vals : new List<NarrativePropertyValue>())
+            .Select(v => Cache.NarrativePropertyValueDefById.TryGetValue(v.ValueDefinitionId, out var vd)
+                         && Cache.NarrativePropertyById.TryGetValue(vd.NarrativePropertyDefinitionId, out var pd)
+                ? (pd, vd) : default)
+            .Where(t => t.pd is not null)
+            .OrderBy(t => t.pd.DisplayOrder)
+            .ToList()!;
+
+        Outgoing = (Cache.SubjectRelationsBySubject.TryGetValue(Subject.Id, out var rels) ? rels : new List<SubjectRelation>())
+            .Select(r => Cache.SubjectRelationDefById.TryGetValue(r.RelationDefinitionId, out var d) ? (d, r) : default)
+            .Where(t => t.d is not null)
+            .ToList()!;
+
+        Incoming = Cache.SubjectRelations
+            .Where(r => r.TargetSubjectId == Subject.Id)
+            .Select(r => Cache.SubjectRelationDefById.TryGetValue(r.RelationDefinitionId, out var d) ? (d, r) : default)
+            .Where(t => t.d is not null)
+            .ToList()!;
+
+        Links = (Cache.LinksBySubject.TryGetValue(Subject.Id, out var ls) ? ls : new List<PlotPointSubjectLink>())
+            .OrderBy(l => Cache.PlotPointById.TryGetValue(l.PlotPointId, out var p) && p.ChapterId is int c && Cache.ChapterById.TryGetValue(c, out var ch) ? ch.OrderIndex : int.MaxValue)
+            .ThenBy(l => Cache.PlotPointById.TryGetValue(l.PlotPointId, out var p) ? p.OrderInChapter : 0)
+            .ToList();
+    }
+}

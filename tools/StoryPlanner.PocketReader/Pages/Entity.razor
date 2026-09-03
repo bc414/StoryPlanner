@@ -1,0 +1,42 @@
+@* One route family for the four entity pages: /{kind}/{corpus}/{id}. *@
+@page "/subject/{Slug}/{Id:int}"
+@page "/plotpoint/{Slug}/{Id:int}"
+@page "/link/{Slug}/{Id:int}"
+@page "/note/{Slug}/{Id:int}"
+@inject NavigationManager Nav
+@inject PlanStore Plans
+@implements IDisposable
+
+@if (Item is ItemRef item)
+{
+    <ItemView Item="item" />
+}
+else
+{
+    <div class="empty">Bad address.</div>
+}
+
+@code {
+    [Parameter] public string Slug { get; set; } = "";
+    [Parameter] public int Id { get; set; }
+
+    private ItemRef? Item
+    {
+        get
+        {
+            if (Labels.ParseCorpus(Slug) is not Corpus corpus) return null;
+            var path = Nav.ToBaseRelativePath(Nav.Uri);
+            var kind = path.Split('/')[0] switch
+            {
+                "subject" => RandomUnit.Subject,
+                "plotpoint" => RandomUnit.PlotPoint,
+                "link" => RandomUnit.Link,
+                _ => RandomUnit.Note
+            };
+            return new ItemRef(corpus, kind, Id);
+        }
+    }
+
+    protected override void OnInitialized() => Plans.Changed += StateHasChanged;
+    public void Dispose() => Plans.Changed -= StateHasChanged;
+}

@@ -1,0 +1,18 @@
+@{
+    var slug = Labels.CorpusSlug(Cache.Corpus);
+    var pp = Cache.PlotPointById.GetValueOrDefault(Link.PlotPointId);
+}
+<h1><a href="plotpoint/@slug/@Link.PlotPointId">@Labels.PlotPointTitle(Cache, Link.PlotPointId)</a></h1>
+<h1 style="margin-top:0">× <a href="subject/@slug/@Link.SubjectId">@Labels.SubjectName(Cache, Link.SubjectId)</a></h1>
+<div class="meta">
+    <span class="pill @(Cache.Corpus == Corpus.Working ? "pill-plan" : "pill-archive")">@Labels.CorpusName(Cache.Corpus)</span>
+    @(pp?.ChapterId is int ch ? Labels.ChapterLabel(Cache, ch) : "(no chapter)")
+    @if (pp?.FocalCharacterId == Link.SubjectId) { <span class="pill">POV</span> }
+</div>
+
+<TrackGroups Cache="Cache" OwnerType="OwnerType.PlotPointSubjectLink" OwnerId="Link.Id" />
+
+@code {
+    [Parameter, EditorRequired] public PlanCache Cache { get; set; } = default!;
+    [Parameter, EditorRequired] public PlotPointSubjectLink Link { get; set; } = default!;
+}

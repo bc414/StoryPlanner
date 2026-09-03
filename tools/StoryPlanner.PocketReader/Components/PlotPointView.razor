@@ -1,0 +1,47 @@
+@{
+    var slug = Labels.CorpusSlug(Cache.Corpus);
+    var fabula = Labels.FabulaDate(PlotPoint);
+}
+<h1>@PlotPoint.Title</h1>
+<div class="meta">
+    <span class="pill @(Cache.Corpus == Corpus.Working ? "pill-plan" : "pill-archive")">@Labels.CorpusName(Cache.Corpus)</span>
+    @(PlotPoint.ChapterId is int ch ? $"{Labels.ChapterLabel(Cache, ch)} {Labels.ChapterTitle(Cache, ch)}".Trim() : "(no chapter)")
+    · scene @PlotPoint.OrderInChapter
+</div>
+<div class="meta">Theater: @Labels.TheaterName(Cache, PlotPoint.TheaterId)</div>
+@if (PlotPoint.FocalCharacterId is int focal)
+{
+    <div class="meta">POV: <a href="subject/@slug/@focal">@Labels.SubjectName(Cache, focal)</a></div>
+}
+@if (fabula.Length > 0) { <div class="meta">When: @fabula</div> }
+
+<TrackGroups Cache="Cache" OwnerType="OwnerType.PlotPoint" OwnerId="PlotPoint.Id" />
+
+@if (Links.Count > 0)
+{
+    <h3>Subjects in this scene (@Links.Count)</h3>
+    foreach (var l in Links)
+    {
+        <h2>
+            <a href="subject/@slug/@l.SubjectId">@Labels.SubjectName(Cache, l.SubjectId)</a>
+            @if (l.SubjectId == PlotPoint.FocalCharacterId) { <span class="pill">POV</span> }
+        </h2>
+        <div class="meta"><a href="link/@slug/@l.Id">open this link</a></div>
+        <TrackGroups Cache="Cache" OwnerType="OwnerType.PlotPointSubjectLink" OwnerId="l.Id" />
+    }
+}
+
+@code {
+    [Parameter, EditorRequired] public PlanCache Cache { get; set; } = default!;
+    [Parameter, EditorRequired] public PlotPoint PlotPoint { get; set; } = default!;
+
+    private List<PlotPointSubjectLink> Links = new();
+
+    protected override void OnParametersSet()
+    {
+        Links = (Cache.LinksByPlotPoint.TryGetValue(PlotPoint.Id, out var ls) ? ls : new List<PlotPointSubjectLink>())
+            .OrderByDescending(l => l.SubjectId == PlotPoint.FocalCharacterId)
+            .ThenBy(l => Labels.SubjectName(Cache, l.SubjectId), StringComparer.OrdinalIgnoreCase)
+            .ToList();
+    }
+}

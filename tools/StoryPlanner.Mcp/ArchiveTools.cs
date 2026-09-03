@@ -1,3 +1,4 @@
+using StoryPlanner.Core;
 using System.ComponentModel;
 using ModelContextProtocol.Server;
 

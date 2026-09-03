@@ -1,0 +1,29 @@
+@inherits LayoutComponentBase
+@inject PlanStore Plans
+@implements IDisposable
+
+<div class="shell">
+    <header class="topbar">
+        <a class="brand" href="">Pocket Reader</a>
+        <span class="loaded">
+            @if (Plans.Working.IsLoaded) { <span class="pill pill-plan">plan</span> }
+            @if (Plans.Archive.IsLoaded) { <span class="pill pill-archive">archive</span> }
+        </span>
+    </header>
+
+    <main class="content">
+        @Body
+    </main>
+
+    <nav class="bottomnav">
+        <NavLink href="" Match="NavLinkMatch.All">Random</NavLink>
+        <NavLink href="browse">Browse</NavLink>
+        <NavLink href="search">Search</NavLink>
+        <NavLink href="plans">Files</NavLink>
+    </nav>
+</div>
+
+@code {
+    protected override void OnInitialized() => Plans.Changed += StateHasChanged;
+    public void Dispose() => Plans.Changed -= StateHasChanged;
+}

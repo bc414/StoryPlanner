@@ -27,6 +27,7 @@
         <ProjectReference Include="..\..\tools\StoryPlanner.Lineage\StoryPlanner.Lineage.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.CodeSessions\StoryPlanner.CodeSessions.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.GDocHistory\StoryPlanner.GDocHistory.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.PocketReader\StoryPlanner.PocketReader.csproj" />
     </ItemGroup>
 
 </Project>

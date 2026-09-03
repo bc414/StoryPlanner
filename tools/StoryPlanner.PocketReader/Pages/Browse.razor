@@ -1,0 +1,80 @@
+@page "/browse"
+@inject PlanStore Plans
+
+<h1>Browse</h1>
+
+@if (!Plans.AnyLoaded)
+{
+    <div class="empty">Nothing loaded. <a href="plans">Pick a file</a>.</div>
+}
+
+<div class="controls">
+    @foreach (var c in new[] { Plans.Working.Cache, Plans.Archive.Cache }.Where(c => c is not null))
+    {
+        <button class="btn @(Selected == c!.Corpus ? "btn-primary" : "")" @onclick="() => Selected = c!.Corpus">@Labels.CorpusName(c.Corpus)</button>
+    }
+</div>
+
+@if (Cache is PlanCache cache)
+{
+    var slug = Labels.CorpusSlug(cache.Corpus);
+
+    <h2>Subjects (@cache.Subjects.Count)</h2>
+    foreach (var def in cache.SubjectDefinitions.OrderBy(d => d.DisplayOrder).ThenBy(d => d.Id))
+    {
+        var subjects = cache.Subjects.Where(s => s.SubjectDefinitionId == def.Id).OrderBy(s => s.Name, StringComparer.OrdinalIgnoreCase).ToList();
+        if (subjects.Count == 0) continue;
+        <details>
+            <summary>@def.SubjectType <span class="count">(@subjects.Count)</span></summary>
+            <ul class="plain">
+                @foreach (var s in subjects)
+                {
+                    var noteCount = cache.NotesByOwner.TryGetValue((OwnerType.Subject, s.Id), out var ns) ? ns.Count : 0;
+                    <li><a href="subject/@slug/@s.Id">@s.Name</a> <span class="meta">@noteCount</span></li>
+                }
+            </ul>
+        </details>
+    }
+
+    <h2>Scenes (@cache.PlotPoints.Count)</h2>
+    foreach (var storyGroup in cache.ChaptersByStory.OrderBy(kv => kv.Key == 0 ? int.MaxValue : (cache.StoryById.TryGetValue(kv.Key, out var st) ? st.OrderIndex : int.MaxValue - 1)))
+    {
+        <h3>@Labels.StoryLabel(cache, storyGroup.Key)</h3>
+        foreach (var ch in storyGroup.Value.OrderBy(c => c.OrderIndex))
+        {
+            var pps = cache.PlotPoints.Where(p => p.ChapterId == ch.Id).OrderBy(p => p.OrderInChapter).ToList();
+            <details>
+                <summary>CH#@ch.OrderIndex @ch.Title <span class="count">(@pps.Count)</span></summary>
+                <ul class="plain">
+                    @foreach (var p in pps)
+                    {
+                        <li><a href="plotpoint/@slug/@p.Id">@p.Title</a></li>
+                    }
+                </ul>
+            </details>
+        }
+    }
+    var orphan = cache.PlotPoints.Where(p => p.ChapterId is null || !cache.ChapterById.ContainsKey(p.ChapterId.Value)).OrderBy(p => p.Title).ToList();
+    if (orphan.Count > 0)
+    {
+        <details>
+            <summary>(no chapter) <span class="count">(@orphan.Count)</span></summary>
+            <ul class="plain">
+                @foreach (var p in orphan)
+                {
+                    <li><a href="plotpoint/@slug/@p.Id">@p.Title</a></li>
+                }
+            </ul>
+        </details>
+    }
+}
+
+@code {
+    private Corpus? _selected;
+    private Corpus? Selected
+    {
+        get => _selected ?? (Plans.Working.IsLoaded ? Corpus.Working : Plans.Archive.IsLoaded ? Corpus.Archive : null);
+        set => _selected = value;
+    }
+    private PlanCache? Cache => Selected is Corpus c ? Plans.Get(c) : null;
+}

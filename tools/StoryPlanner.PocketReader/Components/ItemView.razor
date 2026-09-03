@@ -1,0 +1,37 @@
+@* Renders whatever an ItemRef points at, or says why it cannot. *@
+@inject PlanStore Plans
+
+@if (Cache is null)
+{
+    <div class="empty">The @Labels.CorpusName(Item.Corpus) is not loaded.</div>
+}
+else
+{
+    switch (Item.Kind)
+    {
+        case RandomUnit.Note:
+            if (Cache.Notes.FirstOrDefault(n => n.Id == Item.Id) is Note note)
+            {
+                <NoteCard Cache="Cache" Note="note" ShowOwner="true" />
+            }
+            else { <div class="empty">No note @Item.Id in this file.</div> }
+            break;
+        case RandomUnit.Subject:
+            if (Cache.SubjectById.TryGetValue(Item.Id, out var s)) { <SubjectView Cache="Cache" Subject="s" /> }
+            else { <div class="empty">No subject @Item.Id in this file.</div> }
+            break;
+        case RandomUnit.PlotPoint:
+            if (Cache.PlotPointById.TryGetValue(Item.Id, out var p)) { <PlotPointView Cache="Cache" PlotPoint="p" /> }
+            else { <div class="empty">No scene @Item.Id in this file.</div> }
+            break;
+        case RandomUnit.Link:
+            if (Cache.LinkById.TryGetValue(Item.Id, out var l)) { <LinkView Cache="Cache" Link="l" /> }
+            else { <div class="empty">No link @Item.Id in this file.</div> }
+            break;
+    }
+}
+
+@code {
+    [Parameter, EditorRequired] public ItemRef Item { get; set; }
+    private PlanCache? Cache => Plans.Get(Item.Corpus);
+}

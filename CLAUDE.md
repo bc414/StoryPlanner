@@ -395,6 +395,23 @@ govern the planner at every level.
   keeps running the server code from its last connect. If the publish step itself fails on a
   locked file, some session still holds the *publish* folder open mid-reconnect — wait for it to
   finish or ask that session to retry `/mcp`.
+- **The pocket reader is a fourth consumer of Core, and it runs in a phone's browser (2026-09-02).**
+  `tools/StoryPlanner.PocketReader` is a Blazor WebAssembly PWA (needs the `wasm-tools` workload;
+  `WasmBuildNative=true` links SQLitePCLRaw's `e_sqlite3` into the runtime) that opens `.storyplan`
+  files Brian picks on the device with real SQLite in WASM and builds the same `PlanCache` the MCP
+  server uses (`StoryPlanner.Core/PlanCache.cs`, moved out of the MCP project that day — `Build`
+  is the one place the tables become that shape). **The page carries no story data**, which is why
+  it is deployed from this public repo to GitHub Pages (`.github/workflows/pocket-reader.yml`).
+  Read-only forever, never migrates: `MigrationGate` refuses a file that lacks a reader migration
+  or carries one beyond the reader's latest, and accepts the two orphaned 2026-05-31 ids the real
+  v2 file carries from removed migrations. Shows flagged notes in full, marked — the wall is for
+  LLM consumers, and this is the author reading his own data (FEATURE-AUDIT B2/B5). Preferences
+  live in `localStorage`, the one place the "UI settings live in the `.storyplan`" rule cannot
+  apply, since the reader cannot write the file. **Copy a file only after the WPF app has closed**:
+  in WAL mode the newest changes sit in `-wal` until then. Local run:
+  `dotnet run --project tools/StoryPlanner.PocketReader`; publish check:
+  `dotnet publish tools/StoryPlanner.PocketReader -c Release`. Pure tests for the draw and the gate
+  live under `tests/StoryPlanner.Tests/PocketReader/`.
 - **Source-text ingest** (`tools/StoryPlanner.SourceTexts`) is offline and separate from DataOps
   because it writes `sources.db`, not a `.storyplan` — it opens the plan `Mode=ReadOnly` purely to
   learn the Work/Part spine. `dotnet run --project tools/StoryPlanner.SourceTexts -- <config.json>

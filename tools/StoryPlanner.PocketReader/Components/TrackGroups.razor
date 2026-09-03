@@ -1,0 +1,43 @@
+@* Every note an owner holds, grouped under its track's name and display question.
+   Only tracks that actually hold notes appear; an empty track is nothing to read. *@
+
+@if (Groups.Count == 0)
+{
+    <div class="empty">No notes here.</div>
+}
+else
+{
+    foreach (var g in Groups)
+    {
+        <h2>@g.Track.TrackName</h2>
+        @if (!string.IsNullOrWhiteSpace(g.Track.DisplayQuestion))
+        {
+            <div class="question">@g.Track.DisplayQuestion</div>
+        }
+        foreach (var n in g.Notes)
+        {
+            <NoteCard Cache="Cache" Note="n" ShowTrack="false" />
+        }
+    }
+}
+
+@code {
+    [Parameter, EditorRequired] public PlanCache Cache { get; set; } = default!;
+    [Parameter, EditorRequired] public OwnerType OwnerType { get; set; }
+    [Parameter, EditorRequired] public int OwnerId { get; set; }
+
+    private List<(NoteTrackDefinition Track, List<Note> Notes)> Groups = new();
+
+    protected override void OnParametersSet()
+    {
+        Groups.Clear();
+        if (!Cache.NotesByOwner.TryGetValue((OwnerType, OwnerId), out var notes)) return;
+
+        Groups = notes
+            .GroupBy(n => n.NoteTrackDefinitionId)
+            .Select(g => (Track: Labels.Track(Cache, g.Key), Notes: g.ToList()))
+            .OrderBy(g => g.Track.Id == 0 ? int.MaxValue : g.Track.ExpansionModeDisplayOrder)
+            .ThenBy(g => g.Track.TrackName)
+            .ToList();
+    }
+}

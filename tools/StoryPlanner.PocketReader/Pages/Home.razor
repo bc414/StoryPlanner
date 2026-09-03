@@ -1,0 +1,65 @@
+@page "/"
+@inject PlanStore Plans
+@inject ReaderState State
+@implements IDisposable
+
+@if (!Plans.AnyLoaded)
+{
+    <h1>Nothing loaded yet</h1>
+    <PlanPicker />
+}
+else
+{
+    <div class="controls">
+        <select value="@State.Unit" @onchange="OnUnit">
+            @foreach (var u in Enum.GetValues<RandomUnit>())
+            {
+                <option value="@u">random @Labels.UnitName(u)</option>
+            }
+        </select>
+        <select value="@State.Scope" @onchange="OnScope">
+            <option value="@CorpusScope.Plan">working plan</option>
+            <option value="@CorpusScope.Archive">v1 archive</option>
+            <option value="@CorpusScope.Both">both files</option>
+        </select>
+        <button class="btn" disabled="@(!State.CanBack)" @onclick="State.Back">← back</button>
+        <button class="btn btn-primary" @onclick="Next">next @Labels.UnitName(State.Unit) →</button>
+    </div>
+    <div class="meta" style="margin-bottom:.4rem">Pool: @State.PoolSize.ToString("N0") @Labels.UnitName(State.Unit)s, drawn uniformly.</div>
+
+    @if (State.Current is ItemRef item)
+    {
+        <ItemView Item="item" />
+    }
+    else
+    {
+        <div class="empty">Nothing in this pool. Load the other file or pick another unit.</div>
+    }
+}
+
+@code {
+    protected override void OnInitialized()
+    {
+        State.Changed += StateHasChanged;
+        Plans.Changed += StateHasChanged;
+        if (Plans.AnyLoaded && State.Current is null) State.Next();
+    }
+
+    private void Next() => State.Next();
+
+    private void OnUnit(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<RandomUnit>(e.Value?.ToString(), out var u)) { State.SetUnit(u); State.Next(); }
+    }
+
+    private void OnScope(ChangeEventArgs e)
+    {
+        if (Enum.TryParse<CorpusScope>(e.Value?.ToString(), out var s)) { State.SetScope(s); State.Next(); }
+    }
+
+    public void Dispose()
+    {
+        State.Changed -= StateHasChanged;
+        Plans.Changed -= StateHasChanged;
+    }
+}

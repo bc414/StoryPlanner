@@ -1,0 +1,62 @@
+@page "/search"
+@inject PlanStore Plans
+@inject ReaderState State
+
+<h1>Search</h1>
+<input class="search-box" type="search" placeholder="two or more characters…" @bind="Query" @bind:event="oninput" />
+<div class="meta" style="margin:.4rem 0">Plain substring match, no ranking. Flagged notes included.</div>
+
+@foreach (var cache in Caches)
+{
+    var hits = Query.Trim().Length >= 2 ? EntitySearch.Run(Input(cache), Query) : Array.Empty<SearchHit>();
+    <h2>@Labels.CorpusName(cache.Corpus) <span class="count">(@hits.Count)</span></h2>
+    if (hits.Count == 0) { <div class="meta">No hits.</div> continue; }
+
+    var slug = Labels.CorpusSlug(cache.Corpus);
+    foreach (var group in hits.GroupBy(h => h.Kind))
+    {
+        <h3>@group.Key (@group.Count())</h3>
+        <ul class="plain">
+            @foreach (var h in group)
+            {
+                var (title, href) = Describe(cache, h, slug);
+                <li>
+                    @if (href is not null) { <a href="@href">@title</a> } else { <span>@title</span> }
+                    <div class="snippet">@h.Snippet</div>
+                </li>
+            }
+        </ul>
+    }
+}
+
+@code {
+    private string Query { get; set; } = "";
+
+    private IEnumerable<PlanCache> Caches => new[] { Plans.Working.Cache, Plans.Archive.Cache }
+        .Where(c => c is not null)
+        .Where(c => State.Scope == CorpusScope.Both
+                    || (State.Scope == CorpusScope.Plan && c!.Corpus == Corpus.Working)
+                    || (State.Scope == CorpusScope.Archive && c!.Corpus == Corpus.Archive))!;
+
+    private static SearchInput Input(PlanCache c) =>
+        new(c.Subjects, c.PlotPoints, c.Chapters, c.Themes, c.SourceMaterials, c.SourceMaterialParts, c.Notes);
+
+    private static (string Title, string? Href) Describe(PlanCache c, SearchHit h, string slug) => h.Kind switch
+    {
+        SearchHitKind.Subject => (Labels.SubjectName(c, h.Id), $"subject/{slug}/{h.Id}"),
+        SearchHitKind.PlotPoint => (Labels.PlotPointTitle(c, h.Id), $"plotpoint/{slug}/{h.Id}"),
+        SearchHitKind.Chapter => ($"{Labels.ChapterLabel(c, h.Id)} {Labels.ChapterTitle(c, h.Id)}", null),
+        SearchHitKind.Theme => (c.ThemeById.TryGetValue(h.Id, out var t) ? t.Name : $"theme {h.Id}", null),
+        SearchHitKind.SourceMaterial => (c.SourceMaterialById.TryGetValue(h.Id, out var sm) ? sm.Name : $"work {h.Id}", null),
+        SearchHitKind.SourceMaterialPart => (c.SourceMaterialPartById.TryGetValue(h.Id, out var p) ? $"{p.Code} {p.Name}" : $"part {h.Id}", null),
+        _ => (NoteTitle(c, h.Id), $"note/{slug}/{h.Id}")
+    };
+
+    private static string NoteTitle(PlanCache c, int noteId)
+    {
+        var n = c.Notes.FirstOrDefault(x => x.Id == noteId);
+        if (n is null) return $"note {noteId}";
+        var owner = Labels.Owner(c, n).Text;
+        return $"{owner} · {Labels.Track(c, n.NoteTrackDefinitionId).TrackName}";
+    }
+}

@@ -1,0 +1,42 @@
+@inject PlanStore Plans
+
+<p class="help">
+    Pick the <code>.storyplan</code> files from wherever you copied them (Drive, Files, a USB copy).
+    They are stored in this browser only and never uploaded anywhere. <strong>Copy a file only after
+    closing the desktop app</strong>: while it is open, the latest changes sit in the <code>-wal</code>
+    journal beside the file, and a copy of the main file alone would miss them.
+</p>
+
+@foreach (var slot in new[] { Plans.Working, Plans.Archive })
+{
+    <div class="slot card">
+        <h2 style="margin-top:0">@Labels.CorpusName(slot.Corpus)</h2>
+        @if (slot.HasFile)
+        {
+            <div class="meta">@slot.FileName</div>
+            <div class="meta">picked @(slot.PickedAtUtc?.ToLocalTime().ToString("yyyy-MM-dd HH:mm") ?? "?")</div>
+            @if (slot.IsLoaded)
+            {
+                <div class="meta">
+                    @slot.Cache!.Subjects.Count subjects · @slot.Cache.PlotPoints.Count scenes ·
+                    @slot.Cache.Links.Count links · @slot.Cache.Notes.Count notes
+                </div>
+                <div class="meta">@slot.Detail</div>
+            }
+        }
+        @if (slot.Error is not null) { <p class="error">@slot.Error</p> }
+        @if (slot.Detail.Length > 0 && !slot.IsLoaded && slot.Error is null) { <p class="meta">@slot.Detail</p> }
+
+        <div class="row" style="margin-top:.6rem">
+            <InputFile class="grow" OnChange="e => Pick(slot.Corpus, e)" />
+            @if (slot.HasFile)
+            {
+                <button class="btn" @onclick="() => Plans.ForgetAsync(slot.Corpus)">Forget</button>
+            }
+        </div>
+    </div>
+}
+
+@code {
+    private Task Pick(Corpus corpus, InputFileChangeEventArgs e) => Plans.PickAsync(corpus, e.File);
+}

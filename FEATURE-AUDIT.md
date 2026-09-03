@@ -129,6 +129,24 @@ tests pinning that as intentional. Story is out of scope (no `OwnerType`, no det
 
 **B3 — 🟡 Per-entity completion / scene-readiness dashboard — rollup half shipped 2026-07-31, scoring half still declined.** The **Progress** tab renders per-subject and per-track Confirmed/Unset/Flagged counts, sortable, snapshot-on-load with an explicit Refresh (`Progress/ProgressViewModel.cs`), and relabels the Confirmed column in archive mode where the state means "review closed", not "stable". What is *not* built, and is not a gap to close: the derived "Completion Profile" / readiness score from 019 blocks 61/69. A number that says a scene is ready to draft is a judgment, and the same shape as F4 below. Counting and sorting authored data is presentation; scoring it is not.
 
+**B5 — 🟢 Pocket reader (phone), shipped 2026-09-02.** Not from a transcript: Brian asked for a way
+to replace doomscrolling with sifting through the plan on a phone. `tools/StoryPlanner.PocketReader`
+is a Blazor WebAssembly PWA that carries **no story data**: the `.storyplan` file(s) are picked on
+the device, opened by real SQLite compiled to WASM, and kept in IndexedDB, so it works offline with
+no server and no desktop dependency. It reuses Core end to end — `AppDbContext`, `PlanCache`
+(moved from the MCP server into Core the same day, `StoryPlanner.Core/PlanCache.cs`), `EntitySearch`,
+`WorldDateModel` — so there is no second copy of the schema. The landing view is **one random item
+per tap** (note / subject / scene / scene link, chosen and remembered) drawn **uniformly** over the
+selected corpora, with the corpus toggle (working plan / v1 archive / both) as the only control;
+secondary surfaces are jump-to-owner, substring search, and subject/scene browse trees. Deliberately
+**not** built, and not gaps: weighting, filters, "interesting" ordering, or any ranking — the one
+non-uniformity is a short no-repeat ring so *next* does not show what was just read. Read-only
+forever; never migrates (a migration gate refuses a file that is older or newer than the reader,
+and accepts orphaned older ids the real v2 file carries from removed migrations); shows flagged
+notes in full with their reason, on the same B2 reasoning; renders archive states as
+open / flagged / closed, never "confirmed". Hosted from this public repo via GitHub Pages
+(`.github/workflows/pocket-reader.yml`), which is fine precisely because the page holds no data.
+
 **B4 — 🔴 Cross-thread "synchronized ratchet" view.** A per-chapter view showing each active thread's goal-trajectory distribution so stagnant threads stand out (015 block 521). No such view; the `GoalTrajectory` payload it assumed is no longer a structured field (payloads became notes).
 
 ---
