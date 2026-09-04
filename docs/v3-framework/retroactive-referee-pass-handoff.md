@@ -1,5 +1,12 @@
 # Handoff: the retroactive referee pass
 
+> **Assigned 2026-09-04 as WU2.15 in `forward-plan-2.md`.** Work folder
+> `fanout/WU2.15-retroactive-referee/`; referee runs under `fanout/referee/<date>-retroactive/`.
+> Step 5's spec-pool returns are pre-seeded: every pre-revision entry already has a pool entry
+> (seeded by plan 2 with its original timestamp), so the promotion session links a declined
+> entry to its pool entry rather than writing a new question. The plan's rationale records the
+> expected outcome: most entries originate from exploratory passes and will be declined.
+
 Written 2026-09-03 for a future session. One-time work: re-verify every hypothesis
 evidence entry deposited before methodology revision 1 through the revision-1 pipeline. It
 is a **verification WU** and belongs on a forward-plan-2 card; it does not have to precede

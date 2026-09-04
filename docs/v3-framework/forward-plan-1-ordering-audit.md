@@ -1,9 +1,17 @@
 # Forward Plan 1 — Ordering Audit
 
+> **Historical as of 2026-09-04.** Retired with forward-plan-1 (successor:
+> `forward-plan-2.md`). No longer maintained: the amendment protocol below is inert, the
+> edge verdicts describe WUs that no longer exist, and ordering is now structural
+> (`v3-buildout` skill, `forward-plans.md`). What survives is recorded in
+> `methodology-revision-1.md`: the blind-evaluator procedure as the referee's ancestor; the
+> two ordering principles (readiness, convenience, throughput and duration are never
+> ordering inputs; preconditions gate timing, never position); and its finding that the
+> hand-asserted enrichment chain did not survive blind evaluation, as a lead for
+> hypothesis 048.
+
 Created: 2026-08-31
-Status: **living document.** Initial audit complete 2026-08-31 (both passes run,
-order derived); maintained under the amendment protocol below as specs change
-and WUs complete.
+Status: historical (was a living document 2026-08-31 → 2026-09-04).
 
 This audit re-derives the execution ordering of forward-plan-1's remaining work
 units from documented, individually challengeable judgments, replacing the

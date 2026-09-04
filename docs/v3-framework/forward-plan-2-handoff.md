@@ -1,5 +1,12 @@
 # Handoff: forward-plan-2
 
+> **Applied 2026-09-04.** `forward-plan-2.md` exists; the rulings below are recorded in its
+> § Rationale, together with the 2026-09-04 rulings the plan session took from the material
+> (subject-set census results, the Friendship Letters item as chapters 10–12, flagged notes
+> included for the verification pass's subject items, subset arcs 6–9 and 19–22, the staged
+> slice condition with the full-slice model chosen after the subset's adjudication). The
+> codesessions purge was found already run. Reference only from here.
+
 Written 2026-09-03 for the session that writes forward-plan-2. Everything here is
 one-time and reactive — the state of the buildout on this date and the rulings Brian made
 in the 2026-09-02/03 design conversation that a fresh session could not reconstruct. None

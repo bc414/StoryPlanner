@@ -1,5 +1,12 @@
 # Forward Plan 1
 
+> **Retired 2026-09-04.** Successor: `forward-plan-2.md`. Reason: methodology revision 1
+> (2026-09-03) re-typed every WU — exploratory, verification, synthesis, infrastructure —
+> and this plan's single WU type, testing-spec accretion and derived execution sequence no
+> longer describe the work. Its unexecuted WUs are retired proposals, not evidence; its
+> testing specs were seeded into `spec-pools/` with provenance; WU1.4's instrument,
+> `attribution.csv`, calibration records and card rulings stand. Reference only.
+
 Created: 2026-08-31
 After: consolidation-1
 
