@@ -33,6 +33,9 @@
         <ProjectReference Include="..\..\tools\StoryPlanner.GDocHistory\StoryPlanner.GDocHistory.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.PocketReader\StoryPlanner.PocketReader.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.AgentRunner\StoryPlanner.AgentRunner.csproj" />
+        <!-- ProcessMap validates the v3-buildout skill's process map. Pure tier throughout: its
+             fixtures are inline markdown in a temp folder, never the real skill. -->
+        <ProjectReference Include="..\..\tools\StoryPlanner.ProcessMap\StoryPlanner.ProcessMap.csproj" />
     </ItemGroup>
 
 </Project>

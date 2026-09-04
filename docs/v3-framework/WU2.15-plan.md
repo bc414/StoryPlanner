@@ -1,5 +1,11 @@
 # WU2.15 — Retroactive referee pass: process map first, then the pass
 
+> **DEFERRED 2026-09-04 (evening)** until methodology revision 2 lands
+> (`methodology-revision-2-handoff.md`): the process map moves into the skill as its router,
+> and this plan's step 2 text fixes fold into that revision. Step 1 here is complete
+> (draft 1 at `32b6d4b`); step 3 resumes only after the revision. The copy of this plan in
+> `~/.claude/plans/` is superseded by this file.
+>
 > **Approved plan of 2026-09-04, saved to the repo because the work spans sessions.**
 > Status at close of the planning session (2026-09-04 evening): **step 1 delivered, paused
 > for Brian's review** — `process-map-1-draft.md` and its artifact
@@ -213,6 +219,16 @@ before the step-1 review.
   were written out (status board → derive at read time; V artifact → drop per-item
   duplication only; pool `status` → keep, add promotion as writer; stage strip → keep, fix
   G13; scope reconciliation → keep where it gates, fold where clerical).
+- 2026-09-04 — Map machinery settled (Brian: "this combination works"): **source** = markdown
+  tables in the map file itself (roots, files, processes, edges — fixed columns, ids in every
+  cross-reference); **engine** = a small C# tool under `tools/` with pure tests, reading the
+  tables through the runner's markdown unit rule where reusable, validating (unique ids, known
+  references, every process cites a root, every output has a consumer) and emitting derived
+  views; **visualizer** = generated mermaid written into marked sections of the same file,
+  never hand-edited, republished as the artifact. Rejected: JSON as source (rationale prose
+  reads worst there), PowerShell as engine (no tests; 5.1 quirks already cost the skill-audit
+  scripts), a separate visualizer (artifact + GitHub rendering suffice; the runner host could
+  serve `/process-map` later if interaction is ever needed).
 
 ## Carry-forward — insights from the 2026-09-04 planning session not yet in any governing text
 
