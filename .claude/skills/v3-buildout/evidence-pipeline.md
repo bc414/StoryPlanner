@@ -34,7 +34,8 @@ the moment.
 
 ## The candidates file
 
-One per verification WU, in the WU's artifact directory, **append-only**: a finding is
+One per verification WU, in the WU's work folder under `fanout/` (the table above; the
+`docs/` artifact cites it), **append-only**: a finding is
 never edited after it is written; the referee and the promotion session append lines.
 
 ```markdown

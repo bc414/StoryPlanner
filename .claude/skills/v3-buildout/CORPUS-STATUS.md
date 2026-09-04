@@ -11,6 +11,12 @@ analysis reports (4.1a, 4.2a-e, 4.3). All in
 
 Ground truth for populations: `.claude/skills/analyze-story/populations.md`.
 
+**Story texts** (what a verification pass reads — never the analysis alone): local
+markdown conversions, one `<name>.md` per story, in
+`C:\Users\Brian\Documents\Fimfiction Favorites\markdowns\` and `…\markdowns1\` (the
+`analyze-story` skill's resolution order; it says `.txt`, the files are `.md`). Outside the repo, so a
+runner job that reads one gets it as an input file or an `addDirs` entry.
+
 **Unanalyzed stories (4 Tier 3):**
 - green (Steel Resolve, 2,656 KB) — Brian read it; was in NLM Perspective Analysis;
   Wings of Dew draws from it. Large. Defer unless Brian prioritizes.
@@ -112,5 +118,7 @@ Status: **Current.**
   additions were embedded in subagent prompts (`docs/analysis-briefs/`)
 - V1 archive mining: **done (2026-09-02)** — the `v1-archive-mining` skill and
   `tools/StoryPlanner.VoiceAttribution`. Voice attribution is mechanical
-  (evidence set `docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv`);
-  the reading runs as two blind scene passes + adjudication + a subject pass.
+  (evidence set `docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv`).
+  The reading itself was re-specced by methodology revision 1 as the v1 corpus pair
+  (a five-arm exploratory factorial, then a verification pass) — forward-plan-2 and its
+  handoff carry the design; `WU1.4-execution-plan.md` is superseded.

@@ -160,7 +160,9 @@ dotnet run --project tools/StoryPlanner.CodeSessions -- tools/StoryPlanner.CodeS
   tallies and the per-rule match counts. `--list-excluded` prints the excluded transcript
   paths (kind + path, one per line) and exits — the one sanctioned way to act on the
   excluded set outside the ingest, so a cleanup selects by the ingest's own predicate and
-  never by one of its own.
+  never by one of its own. For rows whose transcripts are already gone from disk, the one
+  purge that has been ruled is `scripts/purge-excluded-2026-09-03.sql` beside the config —
+  a dated op, run by Brian, applying the same predicate inside the db; not a delete path.
 - A torn trailing line (live session appending mid-copy) is counted in `MalformedLines`, never
   fatal — the next run picks the completed line up via the changed stamp.
 

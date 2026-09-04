@@ -1,7 +1,10 @@
 # Spec pools
 
-One file per corpus (`<corpus>.md` — e.g. `v1-archive.md`, `own-fiction.md`,
-`analysis-corpus.md`, `lineage.md`, `working-plan.md`). A spec pool is where an
+One file per corpus (`<corpus>.md`). The seven corpora of the buildout as of 2026-09-03,
+each with a pool file here: `analysis-corpus.md` (the 112 analyzed stories),
+`own-fiction.md`, `v1-archive.md`, `working-plan.md` (v2), `lineage.md`,
+`conversations.md`, `code-sessions.md`. A corpus added later gets a file the same way. A
+spec pool is where an
 **exploratory** pass, or a post-WU review, deposits the *questions* it raised about that
 corpus — never findings, never evidence. Verification passes are built from the pool.
 

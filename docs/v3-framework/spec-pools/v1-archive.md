@@ -15,7 +15,7 @@ Questions about the v1 archive corpus awaiting a verification pass. Format and r
 - bears-on: 050, 010
 - question: With WU1.4 run as a factorial (two reading conditions × three models, subset arcs for the slice-reader condition), is the pathfinder-vs-slice gap per model larger in its variation across models than the between-model gap at the slice level?
 - candidate-predicate: gap(model) = |records(pathfinder, model) Δ records(slice, model)| on the subset arcs; compare spread of gap(model) across models to spread of records(slice, model) across models
-- status: open
+- status: open — scope narrowed 2026-09-03 (Brian): Sonnet is not a pathfinder option, so gap(model) exists for Fable and Opus only; the slice-level comparison still spans all three models
 
 ### Does the instruction stack change what a classifier sees?
 - asked-by: methodology revision 1 design conversation (2026-09-03); recorded 2026-09-03

@@ -1,7 +1,8 @@
 # Codebook: referee — the discrimination test
 
 Status: **draft, uncalibrated** (2026-09-03). Not to be applied in a batch until a
-calibration record (`referee.calibration-<date>.md`) exists beside it with Brian's verdicts
+calibration record (`calibration-<date>.md` — that exact prefix: the runner's page detects
+the calibrated stage by `calibration-*.md` beside the codebook) exists beside it with Brian's verdicts
 on a scored sample. The runner hashes this file; every verdict cites `referee@<hash>`.
 
 ## What you are given

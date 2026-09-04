@@ -15,6 +15,72 @@ enumerator, a generator, a tallier, a `run.md`), `methodology-revision-1.md` wit
 addenda, `forward-plan-1.md` with its ordering audit (as history), every hypothesis file,
 every spec pool, and `CORPUS-STATUS.md`.
 
+## Rulings made 2026-09-03 (night) — after the readiness review
+
+A readiness review of this handoff against the repo (same date, late) raised the open
+points below; Brian ruled on each. They supersede any earlier wording in this file.
+
+- **Model ids for the runner arms.** Fable: `claude-fable-5-1[1m]`. Opus: the 4.6 line,
+  **`claude-opus-4-6[1m]`** whenever the item needs more than 200K tokens (every pathfinder
+  arm does — the scene render alone was measured at ~265K tokens on 2026-09-02,
+  `WU1.4-execution-plan.md` § Sizes), `claude-opus-4-6` below that. Brian's rule of thumb:
+  anything small enough for the non-1m variant is usually better on Sonnet, so in practice
+  the Opus id that gets picked is the 1m one — except where the factorial itself demands an
+  Opus slice arm. Sonnet: `claude-sonnet-5`, **slice arms only — Sonnet is not a
+  pathfinder option** (Brian, 2026-09-03). So the factorial is five arms, not six: the
+  pathfinder condition under Fable and Opus, the slice-reader condition under all three
+  models; 050's interaction is read from the two models that ran both conditions, and the
+  card names the Sonnet pathfinder cell as not measured. **Confirmed 2026-09-04:** print
+  mode accepts all three ids (`claude-opus-4-6[1m]`, `claude-fable-5-1[1m]`,
+  `claude-sonnet-5`) — a one-turn `claude -p` from the fanout folder answered under each.
+  One residue for the pilot, not the plan: the init event echoed `claude-fable-5-1` without
+  the suffix, so whether the Fable arm actually gets the 1M window is settled by the
+  pathfinder pilot itself (a ~265K-token prompt either runs or errors at once).
+- **Subject reading is split by what names the subject.** The six check-named subjects
+  (Aquileian, Chrysalis, Pinkie Pie, AJ the Collaborator, Friendship Letters,
+  TwiJack-related) belong to the v1 **verification** pass, as a focused-reader step: they are
+  named by hypotheses, and the discovery-first rule keeps checks closed during the
+  exploratory read. The 18 triage-labelled subjects (*Deferred for a plot point* / *Deferred
+  until chapter notes*) belong to the v1 **exploratory** pass as slice-reader items, like the
+  plot points and links — they hold scene design parked in subject notes. The six subjects'
+  ids are looked up by the plan-2 session (a census over `get_subjects_archive`), not
+  recalled.
+- **R = 8 stays.** The render is generated with it; nothing regenerates.
+- **Hypothesis 013 stays an iteration.** No new file; the plan covers 050 hypotheses.
+- **The leftover `/analyze-story` transcripts live on.** Three, not two, are on disk (all
+  dated 2026-08-26); insignificant, no action, and the ingest rule keeps them out.
+- **codesessions.db is purged of rule-matching sessions by a one-time script**:
+  `tools/StoryPlanner.CodeSessions/scripts/purge-excluded-2026-09-03.sql`, selecting by
+  the ingest's own predicate (56 main sessions matched on the dry-run check, no subagents).
+  Brian runs it — a Claude Code session is blocked from writing that file. Until it has
+  run, a code-sessions verification pass would enumerate from a population that includes
+  them; the plan-2 code-sessions card names the purge as its precondition, checked by
+  running the script's first two `select`s (both must be zero).
+- **Calibration file naming fixed.** The referee codebook now says `calibration-<date>.md`,
+  the name the runner's stage detector matches; the revision note's `codebooks/` pointers
+  were corrected to `fanout/referee/`.
+- **Spec-pool shells exist for all seven corpora** (`spec-pools/README.md` lists them);
+  seeding remains plan 2's task, below.
+
+## Facts the plan should rest on (as of 2026-09-03)
+
+- **Every pre-revision evidence entry is unverified.** None carries a referee line. Census
+  the population with `grep -c '^- evidence' docs/v3-framework/hypotheses/*.md` — on this
+  date, forty entries across twenty hypotheses (023–040, 045, 046). That population is the
+  referee calibration sample's source and the retroactive card's whole scope; the twenty
+  `evidenced`/`challenged` statuses in `INDEX.md` are computed from it and read as leads.
+- **All of plan 1's syntheses carry verification debt.** WU1.9 and everything downstream
+  (1.11–1.14), and WU1.5, name at least one corpus with no verification round; none can run
+  until the analysis-corpus, own-fiction and v1-archive verification passes have a round.
+- **Two Brian-owned preconditions are unchanged from plan 1** and stay as infrastructure
+  gates, not WU dependencies: preprocessing the revision-history exports (WU1.8's line) and
+  the Keep ingest (an authored include-list, credentials excluded — `CORPUS-STATUS.md`).
+- **Arm sizes for the v1 factorial** (dated measurements, `WU1.4-execution-plan.md`): the
+  scene render ~265K tokens whole, so ~33K per arc file on average; the subject files are a
+  fraction of ~250K. Slice arms fit any model; every pathfinder arm needs a 1M context.
+- **The ordering audit's principles that survive** are in the revision note's table (row
+  "Ordering is structural"); nothing else from it is carried forward.
+
 ## Preconditions
 
 - **Met 2026-09-03 (evening).** The comparison of the old `v3-buildout` skill against its
@@ -61,12 +127,13 @@ sequence.
   card. What is re-typed:
   - The reading becomes the v1 **exploratory pass** run as a **factorial**: two reading
     conditions (pathfinder — the whole scene corpus in one context; slice readers — one
-    per arc file plus Aris) × three models (Fable 5.1, Opus 4.6, Sonnet 5). The pathfinder
-    condition runs under all three; the slice-reader condition runs fully under one model
-    and on a **subset of arcs** under the other two — choose one dense/contaminated arc and
-    one sparse/clean arc so the model comparison sees both regimes. Brian accepted the
-    extra spend because the v1 archive is his current work.
-  - All six arms are runner jobs under a work folder `fanout/WU2.<n>-v1-exploratory/`
+    per arc file plus Aris) × three models (Fable 5.1, Opus 4.6, Sonnet 5), minus one cell:
+    the pathfinder condition runs under Fable and Opus only (Sonnet is not a pathfinder
+    option — ruling above); the slice-reader condition runs fully under one model and on a
+    **subset of arcs** under the other two — choose one dense/contaminated arc and one
+    sparse/clean arc so the model comparison sees both regimes. Brian accepted the extra
+    spend because the v1 archive is his current work.
+  - All five arms are runner jobs under a work folder `fanout/WU2.<n>-v1-exploratory/`
     with an identical explicit protocol — the `v1-archive-mining` skill's reading protocol
     and record format handed over as a protocol file, no CLAUDE.md in any arm, the Fable
     arm scheduled with `--at reset` when the weekly window is fresh. The slice-reader
@@ -77,26 +144,28 @@ sequence.
     item *is* the whole scene corpus, because the condition under test (047, 050) is
     exactly that context. Plan 2 must say so on the card, set `timeoutMinutes` generously,
     and treat a pathfinder arm that times out as a finding, not a failure: the first
-    corpus-scale single job of 2026-09-03 produced nothing in 39 minutes. Check the CLI
-    model ids (Brian's interactive model is `claude-fable-5-1[1m]`; confirm what
-    `--model` accepts for each arm).
+    corpus-scale single job of 2026-09-03 produced nothing in 39 minutes. Model ids per
+    arm are ruled above (`claude-fable-5-1[1m]`, `claude-opus-4-6[1m]` / `claude-opus-4-6`,
+    `claude-sonnet-5`); the CLI accepts an alias or a full model name, and the two open
+    confirmations are listed with the ruling.
   - Arms are blind to each other and labelled neutrally; the label→(condition, model)
     map lives in `read-manifest.md` and is not opened until disagreements are binned.
-  - Adjudication is redesigned for six record sets: do not join all pairs. Spine: each
-    model's slice-reader set against the *same-model* pathfinder set (condition effect —
-    047's disjointness question); the three slice-reader sets against each other on the
-    subset arcs (model effect); the interaction from both (050). Extend the bin taxonomy
+  - Adjudication is redesigned for five record sets: do not join all pairs. Spine: each
+    of Fable's and Opus's slice-reader sets against the *same-model* pathfinder set
+    (condition effect — 047's disjointness question); the three slice-reader sets against
+    each other on the subset arcs (model effect); the interaction from the two models that
+    ran both conditions (050). Extend the bin taxonomy
     beyond plan 1's three (cross-arc / missed by the pathfinder / over-read by the fresh
     reader) to distinguish missed-by-one-model from missed-by-all. Brian adjudicates the
     drills.
   - The ~20 named checks accreted on the card become the v1 **verification pass**: for
     each, a frozen decision rule (evidence source, rule, what is written if absent),
     calibrated before the batch; 049's with/without-instruction-stack cell can ride on
-    this pass (already in the v1 spec pool). Whether the subject reading (six named
-    subjects + 18 triage-labelled) is part of the exploratory pass or a focused-reader step of the
-    verification pass is plan 2's decision.
-  - Instrument settings still to confirm from plan 1's banner: R = 8 against borderline
-    `fragment` rows; the six named subjects' ids. The 2025-12-23 backup is not needed.
+    this pass (already in the v1 spec pool). The subject reading is split (ruling above):
+    the six named subjects are a focused-reader step of the verification pass; the 18
+    triage-labelled subjects are slice-reader items of the exploratory pass.
+  - Instrument settings: R = 8 confirmed (ruling above); the six named subjects' ids are
+    looked up by the plan session. The 2025-12-23 backup is not needed.
   - The twelve target hypotheses of plan 1's card (019, 020, 021, 022, 028, 029, 031, 035,
     038, 040, 043, 044) become spec-pool questions for the v1 corpus; three questions
     (047, 049, 050) are already in `spec-pools/v1-archive.md`.
@@ -128,8 +197,10 @@ Every plan-1 "testing spec" and every pre-revision evidence entry becomes a spec
 question in the corpus that could verify it, with provenance (which WU or review raised
 it, which hypothesis it bears on, Brian's-recall items marked as such — recall is a
 question, never evidence). This unwinds the card bloat the revision note describes.
-`spec-pools/v1-archive.md` and `spec-pools/working-plan.md` exist; the others are created
-here. A **code-sessions pool** should open with the questions the 2026-09-03 evening
+All seven pool files exist (`spec-pools/README.md` names them); `v1-archive.md` and
+`working-plan.md` hold entries, the other five are empty shells seeded here. Coverage is
+expanded to whatever rigor needs — every plan-1 testing spec and every pre-revision entry
+finds a pool. The **code-sessions pool** should open with the questions the 2026-09-03 evening
 raised about the buildout's own process (recorded in the revision note's addenda and the
 session transcript): whether a design authored in a session violates rules loaded in that
 same session at a measurable rate (the first runner job broke four rules its author had
@@ -148,13 +219,15 @@ pass needs. No shared codebooks folder: an instrument lives with the work that a
 and calibrates it. Each verification card names its codebooks as "to calibrate" and
 calibration is the card's first task; every card names its `fanout/` work folder.
 
-## Also open, Brian's rulings
+## Formerly open — all ruled 2026-09-03 (see § Rulings above)
 
-- The two `/analyze-story` transcripts dated 2026-08-26 left in the project dir.
-- The 53 rule-matching sessions still in codesessions.db (no delete path; a one-time
-  purge would be a deliberate op).
-- Whether hypothesis 013's refinement stays an iteration or becomes its own file.
-- (Skill name: settled 2026-09-03 — `v3-buildout`.)
+- The `/analyze-story` transcripts left in the project dir: stay.
+- The rule-matching sessions in codesessions.db: purged by the dated script.
+- Hypothesis 013's refinement: stays an iteration.
+- Skill name: `v3-buildout`.
+
+Nothing in this file waits on a ruling. A session pointed at this file and the skill can
+write plan 2; the two model-id confirmations above are checks it performs, not decisions.
 
 ## Standing reminders that are easy to lose here
 
