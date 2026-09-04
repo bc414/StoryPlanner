@@ -1,0 +1,24 @@
+{
+  "_comment": [
+    "Smoke test for the runner: one Sonnet job with no MCP that writes a one-word file and",
+    "reports what it can see. Verifies, in order: the agent ran from the launch folder, wrote",
+    "the output by relative-to-run-folder path, saw no mcp__* tools (strict MCP dropped the",
+    "user-level connectors), and left no transcript in any project dir. Run it twice: the",
+    "second run must launch nothing (the ledger shows the job succeeded). To run it again",
+    "after a runner change, give the job a new id (e.g. smoke-sonnet-2026-09-10)."
+  ],
+  "launchDir": "C:\\Users\\Brian\\RiderProjects\\StoryPlanner-fanout",
+  "maxAttempts": 1,
+  "utilizationCap": 95,
+  "timeoutMinutes": 5,
+  "defaults": { "model": "sonnet", "permissionMode": "auto", "tools": ["Write"], "allowedTools": ["Write"], "mcp": false },
+  "jobs": [
+    {
+      "id": "smoke-sonnet",
+      "item": "the harness itself — one file write and a tool inventory",
+      "instructions": "This is a harness smoke test. Do exactly two things. First, write a file at the output path whose entire content is the single word OK followed by a newline. Second, in your reply, list the names of every tool available to you, one per line, and state the current working directory if you know it. Do not read any other file and do not write anywhere else.",
+      "outputPath": "results/ok.txt",
+      "requireOnce": ["OK"]
+    }
+  ]
+}

@@ -15,6 +15,15 @@ every document describing it.
 | Autonomy | Agentic, autonomous, guided by these conventions | n/a — writes no code |
 | Governed by | This file + skills | The MCP server's own instructions |
 
+**A third role exists since 2026-09-03 and is governed by neither column: autonomous agents**
+— classifiers, investigators, auditors, referees and the like, of the v3 buildout — launched by
+`tools/StoryPlanner.AgentRunner` from `RiderProjects\StoryPlanner-fanout`, a folder outside
+this repo. They receive a protocol file and an item, an exact toolset, and nothing else: no
+CLAUDE.md, no skills, no memory, no MCP unless the job opts in, no transcript persisted.
+Their inputs and outputs live under `fanout/` in this repo, one folder per piece of work.
+Their rules are the `v3-buildout` skill's (when a cell calls for one) and the
+`agent-runner` skill's (how to run one); this file does not reach them, by design.
+
 Claude Code **reads story content to understand how to build features** — you cannot correctly
 implement a flagged-note wall without reading flagged notes. That reading is instrumental. What
 Claude Code does not do is form or offer **opinions** about story content: whether a flagged note
@@ -250,7 +259,14 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   removes transcripts after its retention window (raised to 3650 days on 2026-08-17, after the
   30-day default silently ate the pre-mid-July era; a full snapshot sits in
   `Documents/ClaudeCode Projects Snapshot 2026-08-17/`), so a session absent from disk RETAINS
-  its rows: the db is the durable record. Extraction is communication-vs-computation, Brian's
+  its rows: the db is the durable record. **The archive is human-in-the-loop sessions only
+  (2026-09-03)**: an authored `excludeFirstUserMessage` rule in the ingest config drops any
+  main session (with its subagents) whose first human message matches — currently
+  `^/analyze-story `, after a runner's infinite retry left 9,245 batch transcripts in the
+  project dir on 2026-08-27 — and autonomous agents now launch from a folder outside the repo
+  with `--no-session-persistence` (`tools/StoryPlanner.AgentRunner`), so prevention is
+  structural and the rule is a seal, not curation. Never run the ingest's `--apply` with the
+  rule absent. Extraction is communication-vs-computation, Brian's
   policy of 2026-08-17: user/assistant text verbatim, subagent transcripts as their own sessions
   (`Kind='subagent'`, `ParentSessionId`), each tool call a mechanical one-liner stub, thinking
   and tool-result payloads dropped with char-count disclosure (`[tool result elided — N chars]`
@@ -395,6 +411,12 @@ govern the planner at every level.
   keeps running the server code from its last connect. If the publish step itself fails on a
   locked file, some session still holds the *publish* folder open mid-reconnect — wait for it to
   finish or ask that session to retry `/mcp`.
+- **The agent runner runs from a published copy too (2026-09-03).** A batch holds
+  `tools/StoryPlanner.AgentRunner/publish/StoryPlanner.AgentRunner.exe` loaded for minutes to
+  hours; `bin/Debug` stays free for `dotnet build`/`dotnet test`. After changing the runner:
+  `dotnet publish tools/StoryPlanner.AgentRunner -c Release -o tools/StoryPlanner.AgentRunner/publish`.
+  Its inputs and outputs live under `fanout/` (one folder per work); rules in the
+  `agent-runner` skill.
 - **The pocket reader is a fourth consumer of Core, and it runs in a phone's browser (2026-09-02).**
   `tools/StoryPlanner.PocketReader` is a Blazor WebAssembly PWA (needs the `wasm-tools` workload;
   `WasmBuildNative=true` links SQLitePCLRaw's `e_sqlite3` into the runtime) that opens `.storyplan`

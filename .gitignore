@@ -51,3 +51,14 @@ riderModule.iml
 /codesessions.db
 /The Princess and the Kaiser*.txt
 /Pax Chrysalia*.txt
+
+# agent runner (fanout/), one convention for every run (agent-runner skill):
+# attempts/ is the runner's — prompt.md is ~85 KB per attempt and reconstructible from the
+# ledger's input hashes plus the committed inputs, stream.jsonl is for watching a live run;
+# items/ holds regenerable inputs, of which only the manifest is committed. Jobs, results,
+# ledger, protocols, codebooks, generators and talliers are committed.
+fanout/**/attempts/
+fanout/**/items/*
+!fanout/**/items/manifest.md
+fanout/**/runner-log.txt
+fanout/**/runner-log.txt.err

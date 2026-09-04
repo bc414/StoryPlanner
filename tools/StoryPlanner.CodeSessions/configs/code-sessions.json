@@ -8,7 +8,16 @@
     "",
     "projectsRoot can be pointed at the 2026-08-17 snapshot",
     "(Documents\\ClaudeCode Projects Snapshot 2026-08-17) to backfill from it; per-session",
-    "replace means running against both sources is safe and order-independent."
+    "replace means running against both sources is safe and order-independent.",
+    "",
+    "excludeFirstUserMessage (2026-09-03): AUTHORED regexes; a main session whose first human",
+    "user message matches is never ingested, and its subagents go with it. The archive is",
+    "provenance for human-in-the-loop sessions only. Programmatic batch children carry none:",
+    "on 2026-08-27 a runner's infinite retry of `claude -p /analyze-story` left 9,245",
+    "transcripts in the StoryPlanner project dir. There is no delete path, so this rule is what",
+    "makes re-running the ingest safe after a manual cleanup. Never run --apply without it.",
+    "Autonomous agents now launch from a folder outside the repo with --no-session-persistence",
+    "(tools/StoryPlanner.AgentRunner), so future batches never reach an included dir at all."
   ],
   "projectsRoot": "C:\\Users\\Brian\\.claude\\projects",
   "output": "C:\\Users\\Brian\\Desktop\\TLTT CodeSessions.db",
@@ -17,5 +26,8 @@
     "c--Users-Brian-Documents-Gemini-Full-Analysis",
     "c--Users-Brian-Documents-Takeout-Scan",
     "c--Users-Brian-Documents-Fimfiction-Comments-Capture"
+  ],
+  "excludeFirstUserMessage": [
+    "^/analyze-story "
   ]
 }

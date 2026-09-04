@@ -5,7 +5,7 @@
         <TargetFramework>net10.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>StoryPlanner.AnalysisRunner</RootNamespace>
+        <RootNamespace>StoryPlanner.AgentRunner</RootNamespace>
     </PropertyGroup>
 
 </Project>

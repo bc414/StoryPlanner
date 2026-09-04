@@ -143,7 +143,24 @@ dotnet run --project tools/StoryPlanner.CodeSessions -- tools/StoryPlanner.CodeS
   touched; **there is no delete path** — absent-but-retained is the point. `projectsRoot` can
   be re-aimed at the 2026-08-17 snapshot to backfill; per-session replace makes running against
   both sources safe in any order.
-- Dry run first; it prints per-project new/changed/unchanged/absent-but-retained tallies.
+- **Authored exclusion rule** (`excludeFirstUserMessage`, 2026-09-03): a main session whose
+  first human user message matches a configured regex is never ingested, and its subagents go
+  with it. Currently `^/analyze-story ` — the 2026-08-27 incident, when a runner's infinite
+  retry of `claude -p /analyze-story` left 9,245 transcripts in the StoryPlanner project dir.
+  There is no delete path, so the rule is what makes a re-run safe after a manual cleanup of
+  the db: **never run `--apply` with the rule absent.** Tool results and images are
+  array-content user records, not human messages, and are skipped when finding the first one.
+- **Prevention, not curation.** The archive holds human-rooted interactive session trees only
+  (a subagent of an interactive session is part of the tree). Autonomous agents — classifiers,
+  investigators, auditors, referees launched by `tools/StoryPlanner.AgentRunner` — run from a
+  folder **outside** the repo with `--no-session-persistence`, so their transcripts never reach
+  an included project dir; the runner's ledger is their record. A batch that must be excluded
+  by rule is a batch that was launched wrong.
+- Dry run first; it prints per-project new/changed/unchanged/absent-but-retained/excluded
+  tallies and the per-rule match counts. `--list-excluded` prints the excluded transcript
+  paths (kind + path, one per line) and exits — the one sanctioned way to act on the
+  excluded set outside the ingest, so a cleanup selects by the ingest's own predicate and
+  never by one of its own.
 - A torn trailing line (live session appending mid-copy) is counted in `MalformedLines`, never
   fatal — the next run picks the completed line up via the changed stamp.
 

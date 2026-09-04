@@ -46,3 +46,7 @@
 | 044 | [bespokeness-tension](044-bespokeness-tension.md) | untested | — |
 | 045 | [keep-notes-provenance](045-keep-notes-provenance.md) | evidenced | — |
 | 046 | [dt-two-classes](046-dt-two-classes.md) | evidenced | — |
+| 047 | [uncorrelated-failure-modes](047-uncorrelated-failure-modes.md) | untested | — |
+| 048 | [self-administered-discrimination-bias](048-self-administered-discrimination-bias.md) | untested | — |
+| 049 | [instruction-stack-contamination](049-instruction-stack-contamination.md) | untested | — |
+| 050 | [context-penalty-model-interaction](050-context-penalty-model-interaction.md) | untested | — |

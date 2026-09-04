@@ -1,5 +1,15 @@
 # WU1.4 — execution plan for the remaining work
 
+> **Superseded 2026-09-03, pending forward-plan-2.** Methodology revision 1
+> (`methodology-revision-1.md`; skill `v3-buildout`) re-types every WU as an exploratory or
+> verification pass per corpus, and WU1.4 is to be re-specced whole in forward-plan-2 —
+> the reading as the v1 archive's exploratory pass (six arms: two reading conditions × three
+> models), the ~20 named checks as its verification pass under calibrated decision rules.
+> **Do not execute the session sequence below.** What stands unchanged: the attribution
+> instrument, `attribution.csv`, the calibration records, and the rulings on the WU card in
+> `forward-plan-1.md`. The background section remains the record of the instrument
+> validation.
+
 > **NEXT STEP (not yet done as of 2026-09-02): a dedicated planning session, before any
 > reading session.** Fresh context; loads the `v3-buildout` and `v1-archive-mining` skills,
 > the WU1.4 card, the twelve hypothesis files, and this file; runs plan mode properly (read,

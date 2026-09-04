@@ -135,6 +135,50 @@ foreach (var project in projects)
     }
 }
 
+// Authored exclusion (IngestExclusion): a main session whose first human message matches a
+// configured pattern is dropped here, before classification, together with its subagents —
+// never classified, never written, never touched. Prevention for the archive's HITL-only
+// policy; the rule is what makes re-running the ingest safe after a manual cleanup.
+var rules = IngestExclusion.CompileRules(config.ExcludeFirstUserMessage);
+var excludedMain = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase); // SessionId -> rule
+var ruleCounts = new Dictionary<string, Dictionary<string, int>>();                   // project -> rule -> mains
+if (rules.Count > 0)
+{
+    foreach (var f in found.Where(f => f.Kind == "main"))
+    {
+        var rule = IngestExclusion.MatchingRule(IngestExclusion.FirstUserBody(File.ReadLines(f.Path)), rules);
+        if (rule is null) continue;
+        excludedMain[f.SessionId] = rule;
+        if (!ruleCounts.TryGetValue(f.ProjectDir, out var perRule))
+            ruleCounts[f.ProjectDir] = perRule = new Dictionary<string, int>();
+        perRule[rule] = perRule.TryGetValue(rule, out var c) ? c + 1 : 1;
+    }
+}
+var excludedIds = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+var excludedPerProject = new Dictionary<string, int>(StringComparer.OrdinalIgnoreCase);
+var excludedPaths = new List<(string Kind, string Path)>();
+found = found.Where(f =>
+{
+    var excluded = f.Kind == "main"
+        ? excludedMain.ContainsKey(f.SessionId)
+        : f.Parent is not null && excludedMain.ContainsKey(f.Parent);
+    if (!excluded) return true;
+    excludedIds.Add(f.SessionId);
+    excludedPerProject[f.ProjectDir] = excludedPerProject.TryGetValue(f.ProjectDir, out var n) ? n + 1 : 1;
+    excludedPaths.Add((f.Kind, f.Path));
+    return false;
+}).ToList();
+
+// --list-excluded: print the excluded transcript paths (main files and subagent files), one
+// per line, then exit. The one sanctioned way to act on the excluded set outside the ingest —
+// a cleanup script must select by THIS predicate, never by its own.
+if (args.Contains("--list-excluded"))
+{
+    foreach (var (kind, path) in excludedPaths)
+        Console.WriteLine($"{kind}\t{path}");
+    return 0;
+}
+
 var totals = new Dictionary<string, (int New, int Changed, int Unchanged)>();
 var work = new List<((string SessionId, string ProjectDir, string Kind, string? Parent, string Path, int Subagents) File, IngestPlan.Change Change)>();
 
@@ -157,18 +201,24 @@ foreach (var f in found)
 
 // Absent-but-retained: stored sessions (scoped to the projects this run covers) with no file.
 var scopedStored = stamps.Where(kv => projects.Contains(kv.Value.ProjectDir, StringComparer.OrdinalIgnoreCase));
-var absent = IngestPlan.AbsentRetained(scopedStored.Select(kv => kv.Key), found.Select(f => f.SessionId));
+// An excluded session that was ingested before the rule existed is neither present nor
+// "absent" — it is excluded, and its rows stay (no delete path) until cleaned by hand.
+var absent = IngestPlan.AbsentRetained(scopedStored.Select(kv => kv.Key), found.Select(f => f.SessionId).Concat(excludedIds));
 
 foreach (var project in projects)
 {
     (int New, int Changed, int Unchanged) t = totals.TryGetValue(project, out var v) ? v : (0, 0, 0);
     var absentHere = absent.Count(id => stamps[id].ProjectDir.Equals(project, StringComparison.OrdinalIgnoreCase));
-    Console.WriteLine($"{project}: new {t.New} / changed {t.Changed} / unchanged {t.Unchanged} / absent-but-retained {absentHere}");
+    var excludedHere = excludedPerProject.TryGetValue(project, out var e) ? e : 0;
+    Console.WriteLine($"{project}: new {t.New} / changed {t.Changed} / unchanged {t.Unchanged} / absent-but-retained {absentHere} / excluded {excludedHere}");
+    if (ruleCounts.TryGetValue(project, out var perRule))
+        foreach (var (rule, count) in perRule.OrderByDescending(kv => kv.Value))
+            Console.WriteLine($"  rule \"{rule}\": {count} session(s) + their subagents");
 }
 Console.WriteLine($"TOTAL: new {work.Count(w => w.Change == IngestPlan.Change.New)} / " +
                   $"changed {work.Count(w => w.Change == IngestPlan.Change.Changed)} / " +
                   $"unchanged {work.Count(w => w.Change == IngestPlan.Change.Unchanged)} / " +
-                  $"absent-but-retained {absent.Count}");
+                  $"absent-but-retained {absent.Count} / excluded {excludedIds.Count}");
 Console.WriteLine();
 
 var toIngest = work.Where(w => w.Change != IngestPlan.Change.Unchanged).ToList();
@@ -245,7 +295,9 @@ static string Shorten(string sessionId) =>
     sessionId.Length > 8 && sessionId.StartsWith("agent-") ? sessionId[..14] :
     sessionId.Length > 8 ? sessionId[..8] : sessionId;
 
-internal sealed record CodeSessionsConfig(string? ProjectsRoot, string? Output, List<string> Projects)
+internal sealed record CodeSessionsConfig(string? ProjectsRoot, string? Output, List<string> Projects, List<string> ExcludeFirstUserMessage)
 {
     public List<string> Projects { get; init; } = Projects ?? [];
+    /// <summary>Authored regexes; a main session whose first human message matches is never ingested (see IngestExclusion).</summary>
+    public List<string> ExcludeFirstUserMessage { get; init; } = ExcludeFirstUserMessage ?? [];
 }

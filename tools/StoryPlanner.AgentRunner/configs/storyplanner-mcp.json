@@ -1,0 +1,25 @@
+{
+  "_comment": [
+    "MCP config handed to an agent job ONLY when the job sets \"mcp\": true (the runner passes",
+    "--mcp-config <this file> --strict-mcp-config). A copy of the repo's .mcp.json server block,",
+    "kept here so it is versioned with the runner; the launch folder itself carries no .mcp.json,",
+    "because an attached server costs every agent its tool inventory + ServerInfo.Instructions in",
+    "context. Classifiers and referees never need it; investigators querying the plan or lineage do.",
+    "Keep in step with .mcp.json (same publish path, same env)."
+  ],
+  "mcpServers": {
+    "storyplanner": {
+      "type": "stdio",
+      "command": "dotnet",
+      "args": [
+        "C:\\Users\\Brian\\RiderProjects\\StoryPlanner\\tools\\StoryPlanner.Mcp\\publish\\StoryPlanner.Mcp.dll"
+      ],
+      "env": {
+        "STORYPLAN_WORKING": "C:\\Users\\Brian\\Desktop\\TLTT v2.storyplan",
+        "STORYPLAN_ARCHIVE": "C:\\Users\\Brian\\Desktop\\TLTT v1 Archive.storyplan",
+        "STORYPLAN_SOURCE_TEXTS": "C:\\Users\\Brian\\Desktop\\TLTT Sources.db",
+        "STORYPLAN_LINEAGE": "C:\\Users\\Brian\\Desktop\\TLTT Lineage.db"
+      }
+    }
+  }
+}
