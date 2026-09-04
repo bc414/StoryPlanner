@@ -60,5 +60,4 @@ riderModule.iml
 fanout/**/attempts/
 fanout/**/items/*
 !fanout/**/items/manifest.md
-fanout/**/runner-log.txt
-fanout/**/runner-log.txt.err
+fanout/host-log.txt

@@ -163,9 +163,11 @@ instrument), `forward-plan-N.md` (active = highest number; retired plans carry a
 stamp), `consolidation-N.md`, `methodology-revision-N.md`, `WU<plan>.<unit>-…` artifacts
 (write-once), `spec-pools/`, `implementation-candidates.md` (codebase changes
 gated on baselined hypotheses — they enter the ordinary feature process, never this skill),
-and whatever later revisions add. Provenance informs and never prescribes: a retired plan is
-reference, a consolidation report is a record, a WU artifact is evidence, a revision note is
-history.
+and whatever later revisions add. `fanout/` holds what the agent runner takes in and puts
+out, one folder per work — the referee's codebook and runs, a verification WU's codebooks,
+items, jobs, results and candidates (`agent-runner` skill); a document in `docs/` cites a
+run by ledger row. Provenance informs and never prescribes: a retired plan is reference, a
+consolidation report is a record, a WU artifact is evidence, a revision note is history.
 
 ## What this skill does not govern
 

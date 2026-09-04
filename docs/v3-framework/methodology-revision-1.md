@@ -183,3 +183,11 @@ deletion and the name (`v3-buildout2` kept, or renamed to `v3-buildout`) remain 
 `v3-buildout2` renamed to `v3-buildout`. Every `v3-buildout2` above refers to the skill now
 at `.claude/skills/v3-buildout/`; the audit run's job file keeps the old paths as a record of
 what ran.
+
+**Head, 2026-09-03 (night).** The runner became a persistent host with a Blazor Server page
+on localhost (`agent-runner` skill): every batch runs inside it under one global ceiling and
+one cap, the page shows live and finished runs with each attempt's stream, and control is
+harness-only — pause, stop, cancel, ceilings, cap — never a job's model, inputs, protocol or
+instructions. The lifecycle from question to promoted evidence is written once as
+`fanout/PROTOCOL.md` and served at `/protocol`; a run's folder now carries an authored
+`run.md`, and the page detects the lifecycle stages a folder shows evidence of.

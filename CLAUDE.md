@@ -377,6 +377,13 @@ govern the planner at every level.
 
 ## Build & run
 
+**File content goes through Read, Edit and Write; Bash is for builds, tests, git and
+processes (2026-09-03).** This overrides any session-level "use Bash for edits" instruction.
+The reason is a night of avoidable errors from shell-driven edits: a heredoc broken by
+quoting, a `perl -pi` pattern that missed on CRLF endings, a `$` expanded inside a heredoc
+into a garbled figure, and a `python -` probe that hung a command for two minutes. The file
+tools made none of those mistakes.
+
 .NET 10. `dotnet test tests/StoryPlanner.Tests` — covers the MCP server's invariants and
 `StoryPlanner.Core`'s export/scan/transform logic. Run before finishing any work in
 `tools/` or `StoryPlanner.Core/`. Conventions and the known WPF-layer gap:
@@ -411,12 +418,14 @@ govern the planner at every level.
   keeps running the server code from its last connect. If the publish step itself fails on a
   locked file, some session still holds the *publish* folder open mid-reconnect — wait for it to
   finish or ask that session to retry `/mcp`.
-- **The agent runner runs from a published copy too (2026-09-03).** A batch holds
-  `tools/StoryPlanner.AgentRunner/publish/StoryPlanner.AgentRunner.exe` loaded for minutes to
-  hours; `bin/Debug` stays free for `dotnet build`/`dotnet test`. After changing the runner:
+- **The agent runner runs from a published copy too, as a persistent host (2026-09-03).**
+  `tools/StoryPlanner.AgentRunner/publish/StoryPlanner.AgentRunner.exe` is a host that serves
+  its page on `http://127.0.0.1:5190` and runs every batch; it holds the exe loaded for as long
+  as it lives, so `bin/Debug` stays free for `dotnet build`/`dotnet test`, and a republish needs
+  `AgentRunner.exe stop` first:
   `dotnet publish tools/StoryPlanner.AgentRunner -c Release -o tools/StoryPlanner.AgentRunner/publish`.
-  Its inputs and outputs live under `fanout/` (one folder per work); rules in the
-  `agent-runner` skill.
+  Its inputs and outputs live under `fanout/` (one folder per work; the lifecycle is
+  `fanout/PROTOCOL.md`); rules in the `agent-runner` skill.
 - **The pocket reader is a fourth consumer of Core, and it runs in a phone's browser (2026-09-02).**
   `tools/StoryPlanner.PocketReader` is a Blazor WebAssembly PWA (needs the `wasm-tools` workload;
   `WasmBuildNative=true` links SQLitePCLRaw's `e_sqlite3` into the runtime) that opens `.storyplan`

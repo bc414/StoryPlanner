@@ -1,0 +1,43 @@
+:root { --bg:#fbfbf9; --ink:#1d1d1b; --muted:#6b6b66; --line:#dcdcd6; --ok:#2f7d4f; --bad:#b33a3a; --run:#2b62b3; --warn:#a56b12; --panel:#ffffff; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--bg); color:var(--ink); font:14px/1.45 system-ui, "Segoe UI", sans-serif; }
+.shell { max-width: 1400px; margin: 0 auto; padding: 0 16px 40px; }
+.topnav { display:flex; gap:18px; align-items:baseline; padding:12px 0; border-bottom:1px solid var(--line); margin-bottom:16px; }
+.topnav a { color:var(--ink); text-decoration:none; } .topnav .brand { font-weight:600; margin-right:8px; }
+h1 { font-size:20px; margin:8px 0 12px; } h2 { font-size:15px; margin:18px 0 8px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; }
+.muted { color:var(--muted); }
+.hostbar { display:flex; flex-wrap:wrap; gap:18px; align-items:center; padding:10px 12px; background:var(--panel); border:1px solid var(--line); border-radius:6px; margin-bottom:14px; }
+.hostbar label { display:flex; gap:6px; align-items:center; } .hostbar input { width:64px; }
+.stale { color:var(--warn); }
+table { border-collapse:collapse; width:100%; background:var(--panel); border:1px solid var(--line); }
+th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--line); vertical-align:top; }
+th { font-weight:600; color:var(--muted); font-size:12px; }
+tr.selectable { cursor:pointer; } tr.selected { background:#eef3fb; }
+.state { font-weight:600; } .state.Succeeded { color:var(--ok); } .state.Failed { color:var(--bad); } .state.Running { color:var(--run); } .state.Pending { color:var(--muted); }
+.controls { display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin:10px 0; }
+button { font:inherit; padding:4px 10px; border:1px solid var(--line); background:#fff; border-radius:4px; cursor:pointer; } button:disabled { opacity:.5; cursor:default; }
+button.danger { border-color:var(--bad); color:var(--bad); }
+.stages { display:flex; flex-wrap:wrap; gap:6px; margin:8px 0 14px; }
+.stage { padding:2px 8px; border:1px solid var(--line); border-radius:12px; font-size:12px; color:var(--muted); background:#fff; }
+.stage.on { color:var(--ok); border-color:var(--ok); } .stage.na { opacity:.5; }
+.split { display:grid; grid-template-columns: minmax(0,3fr) minmax(0,2fr); gap:16px; } @media (max-width:1000px) { .split { grid-template-columns:1fr; } }
+.stream { background:#141414; color:#e8e8e2; font:12px/1.5 ui-monospace, Consolas, monospace; padding:10px; border-radius:6px; max-height:70vh; overflow:auto; white-space:pre-wrap; word-break:break-word; }
+.stream .ev { padding:2px 0; border-bottom:1px solid #2a2a2a; } .stream .k { color:#9ab; margin-right:8px; } .stream .k.tool { color:#e6c07b; } .stream .k.done { color:#98c379; } .stream .k.init { color:#61afef; } .stream .k.result { color:#c678dd; }
+.notes { background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:8px 14px; margin-bottom:12px; }
+.notes h1, .notes h2, .notes h3 { text-transform:none; letter-spacing:0; color:var(--ink); }
+.protocol { max-width: 880px; } .protocol code { background:#f1f1ec; padding:1px 4px; border-radius:3px; }
+.hold { color:var(--warn); }
+.err { color:var(--bad); }
+.hostbar { flex-direction:column; align-items:stretch; gap:8px; }
+.hostrow { display:flex; flex-wrap:wrap; gap:18px; align-items:center; }
+.usage { display:flex; flex-direction:column; gap:4px; }
+.usage.stale .pct, .usage.stale .when { color:var(--warn); }
+.meter { display:grid; grid-template-columns: 52px minmax(120px, 320px) 48px 1fr; gap:10px; align-items:center; }
+.meter .label { color:var(--muted); font-size:12px; }
+.meter .bar { position:relative; height:10px; background:#ecece6; border:1px solid var(--line); border-radius:5px; overflow:visible; }
+.meter .fill { position:absolute; left:0; top:0; bottom:0; background:var(--run); border-radius:5px; }
+.meter .fill.over { background:var(--bad); }
+.meter .capmark { position:absolute; top:-3px; bottom:-3px; width:2px; background:var(--warn); }
+.meter .pct { font-weight:600; text-align:right; }
+.meter .when { color:var(--muted); font-size:12px; }
+.cachemeta { color:var(--muted); font-size:12px; }

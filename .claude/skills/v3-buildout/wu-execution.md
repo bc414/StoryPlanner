@@ -61,7 +61,8 @@ codebook ready; infrastructure runs when something needs it (`forward-plans.md`
   `fanout/` (`fanout/WU<n>.<m>-<slug>/…/jobs.json`), launched from the external fanout
   folder, items, results, attempts and ledger written beside it, the ledger's prompt and
   codebook hashes cited in the artifact's method section (`agent-runner` skill: one item
-  per job, enumeration by an instrument, a checked output, a pilot before the batch). A pass that needs the MCP server sets `mcp: true` on that
+  per job, enumeration by an instrument, a checked output, a pilot before the batch; the
+  lifecycle in order is `fanout/PROTOCOL.md`, served by the host at `/protocol`). A pass that needs the MCP server sets `mcp: true` on that
   job alone. The Agent tool exists only inside a HITL session and is not a runner job: it
   inherits the instruction stack and its transcript enters the archive, so it serves only
   salience-discretion help to that session in ones and twos — never a batch, never an

@@ -25,15 +25,24 @@ test as well as the cleanup.
    hypotheses — the pre-revision entries themselves are a fine source), run the referee
    on it blind, score the same sample with Brian, adjudicate, record rulings in
    `fanout/referee/calibration-<date>.md`, re-hash. No batch before this exists.
-2. **Build the candidates file** — `fanout/WU2.<n>-retroactive-referee/candidates.md`.
-   One candidate per existing evidence entry: `finding` and `source` copied from the
-   entry; `proposed-by: retroactive / <original WU> / <original timestamp>`; target = the
-   hypothesis it sits in. Fetch each cited source (artifact section, passage, notes) into
-   the job inputs; where the entry cites only an intermediate analysis, fetch the analysis
-   *and* mark the candidate for R2/R5 scrutiny.
-3. **Run the referee** through the runner (Sonnet, `mcp: false`, tools Read/Write),
-   codebook hash cited on every verdict. The referee never sees the entry's original
-   clause.
+2. **Build the candidates file** — `fanout/WU2.<n>-retroactive-referee/candidates.md`,
+   the WU's own record. One candidate per existing evidence entry: `finding` and `source`
+   copied from the entry; `proposed-by: retroactive / <original WU> / <original
+   timestamp>`; target = the hypothesis it sits in. Where the entry cites only an
+   intermediate analysis, fetch the analysis *and* mark the candidate for R2/R5 scrutiny.
+3. **Run the referee** as a run under the referee's own work folder,
+   `fanout/referee/<date>-retroactive/` (vertical by work: every referee run lives there,
+   the candidates file stays with the WU). Per the lifecycle (`fanout/PROTOCOL.md`): the
+   enumerator is a script beside the codebook (`fanout/referee/make-jobs.*`) that turns
+   each candidate plus its statement into one item — one job, one candidate, one target —
+   and writes the fetched source excerpts **outside `items/`** (e.g. `excerpts/C-014.md`),
+   because they are not regenerable and with `prompt.md` gitignored the run folder is the
+   only place they will exist; `requireOnce` carries the two verdict-line markers; the
+   tallier (`fanout/referee/tally.*`) produces step 4's table; `run.md` names the sample,
+   the codebook hash and the arms. Sonnet, `mcp: false`, tools Read/Write, codebook hash
+   cited on every verdict; the referee never sees the entry's original clause. Pilot on
+   three candidates with `--job` before the batch; the promotion session copies each
+   verdict from `results/` into the WU's candidates file.
 4. **Measure** — per candidate, does the blind clause name the same observable as the
    original clause? Same / narrower / different / original vacuous. This table is the
    WU's artifact and the evidence 048 needs; deposit it through the ordinary route (it is

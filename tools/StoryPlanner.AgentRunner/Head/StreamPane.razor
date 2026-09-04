@@ -1,0 +1,18 @@
+@* Leaf: the inside of one attempt — parsed events, raw on request. *@
+<div class="controls">
+    <span class="muted">@(Title ?? "select a job")</span>
+    <label><input type="checkbox" @bind="raw" /> raw</label>
+</div>
+<div class="stream">
+    @if (Events.Count == 0) { <span class="muted">no stream yet</span> }
+    @foreach (var e in Events)
+    {
+        <div class="ev"><span class="k @e.Kind">@e.Kind</span>@(raw ? e.Raw : e.Text)</div>
+    }
+</div>
+
+@code {
+    [Parameter] public IReadOnlyList<StreamEvent> Events { get; set; } = [];
+    [Parameter] public string? Title { get; set; }
+    private bool raw;
+}

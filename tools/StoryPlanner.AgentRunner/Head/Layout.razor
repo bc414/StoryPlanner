@@ -1,0 +1,31 @@
+@inherits LayoutComponentBase
+@implements IDisposable
+@inject RunnerHost Host
+
+<div class="shell">
+    <nav class="topnav">
+        <a href="/" class="brand">agent runner</a>
+        <a href="/">runs</a>
+        <a href="/protocol">protocol</a>
+    </nav>
+    @* The host bar is on every page: the usage cache and the ceilings are what you look at before and during any batch. *@
+    <HostBar InFlight="Host.InFlight" MaxParallel="Host.MaxParallel" UtilizationCap="Host.UtilizationCap"
+             Utilization="Host.ReadUtilization()" ShuttingDown="Host.ShuttingDown"
+             OnMaxParallel="n => Host.SetMaxParallel(n)" OnUtilizationCap="n => Host.SetUtilizationCap(n)" />
+    <main>@Body</main>
+</div>
+
+@code {
+    private Timer? timer;
+
+    protected override void OnInitialized()
+    {
+        Host.Changed += OnChanged;
+        // The cache changes when a Claude Code session writes it, which raises no host event;
+        // the countdowns move on their own. Re-render every 30 s regardless.
+        timer = new Timer(_ => _ = InvokeAsync(StateHasChanged), null, 30_000, 30_000);
+    }
+
+    private void OnChanged() => _ = InvokeAsync(StateHasChanged);
+    public void Dispose() { Host.Changed -= OnChanged; timer?.Dispose(); }
+}

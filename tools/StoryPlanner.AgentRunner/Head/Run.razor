@@ -1,0 +1,78 @@
+@page "/runs/{*RunId}"
+@implements IDisposable
+@inject RunnerHost Host
+
+@if (run is null)
+{
+    <h1>@RunId</h1>
+    <p class="err">No such run under @Host.FanoutRoot.</p>
+}
+else
+{
+    <h1>@run.RunId <span class="muted">— @run.Work</span></h1>
+    @if (run.Error is { } err) { <p class="err">@err</p> }
+    @if (!run.InputsResolvable) { <p class="hold">Some inputs named by jobs.json are no longer at their paths; the ledger's hashes are the record of what ran.</p> }
+    <StageStrip S="run.Stages" />
+    @if (run.RunMd is { } md) { <div class="notes">@MarkdownView.Render(md)</div> }
+    else { <p class="muted">No <code>run.md</code> yet — the authored front page of a run (see <a href="/protocol">protocol</a>).</p> }
+
+    <HarnessControls Run="run" SelectedJobId="@selected" OnAction="Act" OnMaxParallel="n => Host.SetRunMaxParallel(run.RunId, n)" />
+    <p class="muted">@run.Succeeded succeeded, @run.Failed failed, @run.Pending pending — api-equiv $@run.CostUsd.ToString("F2") — attempts in <code>@run.RunDir</code></p>
+
+    <div class="split">
+        <div><JobTable Jobs="run.Jobs" SelectedId="@selected" OnSelect="Select" /></div>
+        <div><StreamPane Events="events" Title="@streamTitle" /></div>
+    </div>
+}
+
+@code {
+    [Parameter] public string? RunId { get; set; }
+    private RunSnapshot? run;
+    private string? selected;
+    private IReadOnlyList<StreamEvent> events = [];
+    private string? streamTitle;
+    private bool streamDirty;
+    private Timer? timer;
+
+    protected override void OnParametersSet()
+    {
+        run = RunId is null ? null : Host.Run(RunId);
+        selected = null; events = []; streamTitle = null;
+    }
+
+    protected override void OnInitialized()
+    {
+        Host.Changed += OnChanged;
+        Host.StreamAdvanced += OnStream;
+        // Stream lines can arrive hundreds of times a second; re-read the tail at most twice a second.
+        timer = new Timer(_ => { if (streamDirty) { streamDirty = false; _ = InvokeAsync(ReloadStream); } }, null, 500, 500);
+    }
+
+    private void OnChanged() => _ = InvokeAsync(() => { if (RunId is not null) run = Host.Run(RunId); StateHasChanged(); });
+    private void OnStream(string runId, string jobId, int attempt) { if (runId == RunId && jobId == selected) streamDirty = true; }
+
+    private void Select(string jobId) { selected = jobId; ReloadStream(); }
+
+    private void ReloadStream()
+    {
+        var j = run?.Jobs.FirstOrDefault(x => x.Id == selected);
+        if (j?.StreamPath is null) { events = []; streamTitle = selected is null ? null : $"{selected} — no attempt yet"; }
+        else { events = StreamEvents.ReadTail(j.StreamPath, 400); streamTitle = $"{j.Id} — attempt {j.Attempts}{(j.State == "Running" ? " (live)" : "")}"; }
+        StateHasChanged();
+    }
+
+    private void Act(string action)
+    {
+        if (run is null) return;
+        switch (action)
+        {
+            case "pause": Host.Pause(run.RunId); break;
+            case "resume": Host.Resume(run.RunId); break;
+            case "stop": Host.Stop(run.RunId); break;
+            case "cancel": if (selected is not null) Host.Cancel(run.RunId, selected); break;
+            case "unschedule": Host.Unschedule(run.RunId); break;
+        }
+    }
+
+    public void Dispose() { Host.Changed -= OnChanged; Host.StreamAdvanced -= OnStream; timer?.Dispose(); }
+}

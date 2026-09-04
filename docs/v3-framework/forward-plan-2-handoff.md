@@ -8,16 +8,21 @@ the situation it is applied to. Where this file and the skill disagree, the skil
 the disagreement is worth reporting.
 
 Read first, in full: `v3-buildout` SKILL.md and `forward-plans.md` (then the files its
-routing table names for plan creation), `methodology-revision-1.md`, `forward-plan-1.md`
-with its ordering audit (as history), every hypothesis file, every spec pool, and
-`CORPUS-STATUS.md`.
+routing table names for plan creation), the `agent-runner` skill and `fanout/PROTOCOL.md`
+(every verification and exploratory card in plan 2 describes runner work, and the
+lifecycle names what a card must provide: a work folder under `fanout/`, an instrument, an
+enumerator, a generator, a tallier, a `run.md`), `methodology-revision-1.md` with its
+addenda, `forward-plan-1.md` with its ordering audit (as history), every hypothesis file,
+every spec pool, and `CORPUS-STATUS.md`.
 
 ## Preconditions
 
-- The adversarial comparison of `v3-buildout` against `v3-buildout` has run and been
-  adjudicated, the old skill folder is deleted, and the skill's name is settled (Brian's
-  call: keep `v3-buildout` or rename to `v3-buildout`). Plan 2 is written under a settled
-  skill, not a provisional one. If this has not happened, stop and say so.
+- **Met 2026-09-03 (evening).** The comparison of the old `v3-buildout` skill against its
+  revision-1 rewrite (then `v3-buildout2`) ran as a runner audit
+  (`fanout/skill-audits/2026-09-03-v3-buildout/`), was adjudicated, eight one-clause
+  restorations were applied, the old folder was deleted and the rewrite renamed to
+  `v3-buildout`. Plan 2 is written under that settled skill. Record: the addendum in
+  `methodology-revision-1.md`.
 - The retroactive referee pass has **not** run and does not need to. Plan 2 treats every
   pre-revision hypothesis status as unverified and gives the pass a card.
 
@@ -61,11 +66,20 @@ sequence.
     and on a **subset of arcs** under the other two — choose one dense/contaminated arc and
     one sparse/clean arc so the model comparison sees both regimes. Brian accepted the
     extra spend because the v1 archive is his current work.
-  - All six arms are runner jobs from the fanout folder with an identical explicit
-    protocol — the `v1-archive-mining` skill's reading protocol and record format handed
-    over as a protocol file, no CLAUDE.md in any arm, the Fable arm launched when the
-    weekly window is fresh. Check the CLI model ids (Brian's interactive model is
-    `claude-fable-5-1[1m]`; confirm what `--model` accepts for each arm).
+  - All six arms are runner jobs under a work folder `fanout/WU2.<n>-v1-exploratory/`
+    with an identical explicit protocol — the `v1-archive-mining` skill's reading protocol
+    and record format handed over as a protocol file, no CLAUDE.md in any arm, the Fable
+    arm scheduled with `--at reset` when the weekly window is fresh. The slice-reader
+    condition is one job per arc file: the arc files are the enumeration (a tool lists
+    them into `items/` with a manifest), `requireOnce` carries the record format's
+    per-arc markers, and the generator writes the arms with neutral ids. **The pathfinder
+    condition is a deliberate exception to the runner's "one job, one item" rule** — the
+    item *is* the whole scene corpus, because the condition under test (047, 050) is
+    exactly that context. Plan 2 must say so on the card, set `timeoutMinutes` generously,
+    and treat a pathfinder arm that times out as a finding, not a failure: the first
+    corpus-scale single job of 2026-09-03 produced nothing in 39 minutes. Check the CLI
+    model ids (Brian's interactive model is `claude-fable-5-1[1m]`; confirm what
+    `--model` accepts for each arm).
   - Arms are blind to each other and labelled neutrally; the label→(condition, model)
     map lives in `read-manifest.md` and is not opened until disagreements are binned.
   - Adjudication is redesigned for six record sets: do not join all pairs. Spine: each
@@ -96,8 +110,11 @@ sequence.
 - **WU1.8 (planning evolution)** still waits on Brian's preprocessing of the revision-
   history exports (infrastructure precondition, unchanged).
 - **WU1.10 (pipeline investigation)**: its "check code sessions for other instances of
-  this error class" items are investigator jobs over `codesessions.db` — a code-sessions
-  verification pass. Note that the sub-question it called untestable (controlled model
+  this error class" items become a code-sessions verification pass — but not as
+  investigator jobs that query the database: a runner child runs `--restricted` and
+  cannot execute `sqlite3`. The query is the enumerator (a HITL session or a script
+  writes the matching turns into `items/`), and classifier jobs judge the items under a
+  codebook. Note that the sub-question it called untestable (controlled model
   comparisons) is now cheap: the runner makes one-factor cells routine, and WU1.4's
   factorial is the first.
 - **WU1.11–1.14** stay syntheses, each waiting on the debts of the corpora it consumes.
@@ -111,13 +128,25 @@ Every plan-1 "testing spec" and every pre-revision evidence entry becomes a spec
 question in the corpus that could verify it, with provenance (which WU or review raised
 it, which hypothesis it bears on, Brian's-recall items marked as such — recall is a
 question, never evidence). This unwinds the card bloat the revision note describes.
-`spec-pools/v1-archive.md` exists with three entries; the others are created here.
+`spec-pools/v1-archive.md` and `spec-pools/working-plan.md` exist; the others are created
+here. A **code-sessions pool** should open with the questions the 2026-09-03 evening
+raised about the buildout's own process (recorded in the revision note's addenda and the
+session transcript): whether a design authored in a session violates rules loaded in that
+same session at a measurable rate (the first runner job broke four rules its author had
+just written — 048's family); whether an auditor tuned to over-flag, given the author's
+drop list as an extra input, flags fewer intended changes without drifting (049's family);
+and whether per-section batching and per-unit jobs yield the same relation labels (the
+batch-size convention's own test).
 
 ## Codebooks the plan must name
 
-`referee` (drafted, uncalibrated); `dt-classes` (046, to write); the v1 check decision
-rules (to write, per check); whatever the analysis-corpus verification pass needs. Each verification card names
-its codebooks as "to calibrate" and calibration is the card's first task.
+`referee` (drafted, uncalibrated — lives at `fanout/referee/codebook.md`, and every
+referee run lives under `fanout/referee/`); `dt-classes` (046, to write — lives in the
+analysis-corpus verification WU's folder); the v1 check decision rules (to write, per
+check — in the v1 verification WU's folder); whatever the analysis-corpus verification
+pass needs. No shared codebooks folder: an instrument lives with the work that authors
+and calibrates it. Each verification card names its codebooks as "to calibrate" and
+calibration is the card's first task; every card names its `fanout/` work folder.
 
 ## Also open, Brian's rulings
 
@@ -125,7 +154,7 @@ its codebooks as "to calibrate" and calibration is the card's first task.
 - The 53 rule-matching sessions still in codesessions.db (no delete path; a one-time
   purge would be a deliberate op).
 - Whether hypothesis 013's refinement stays an iteration or becomes its own file.
-- Skill name after the comparison.
+- (Skill name: settled 2026-09-03 — `v3-buildout`.)
 
 ## Standing reminders that are easy to lose here
 

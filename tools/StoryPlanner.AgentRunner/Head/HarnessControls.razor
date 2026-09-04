@@ -1,0 +1,30 @@
+@* Leaf: harness control for one live run — how it runs, never what a job is. *@
+<div class="controls">
+    @if (Run.Scheduled)
+    {
+        <span>scheduled for @(DateTimeOffset.TryParse(Run.NotBeforeUtc, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : Run.NotBeforeUtc)</span>
+        <button class="danger" @onclick='() => OnAction.InvokeAsync("unschedule")'>unschedule</button>
+    }
+    else if (!Run.Live)
+    {
+        <span class="muted">@(Run.Completed ? "finished" : "not live") — enqueue from the CLI to run it</span>
+    }
+    else
+    {
+        @if (Run.Paused) { <button @onclick='() => OnAction.InvokeAsync("resume")'>resume</button> }
+        else { <button @onclick='() => OnAction.InvokeAsync("pause")' disabled="@Run.StopRequested">pause</button> }
+        <button @onclick='() => OnAction.InvokeAsync("stop")' disabled="@Run.StopRequested">stop after in-flight</button>
+        <button class="danger" @onclick='() => OnAction.InvokeAsync("cancel")' disabled="@(!CanCancel)">cancel selected</button>
+        <label>run ceiling <input type="number" min="1" max="32" value="@(Run.MaxParallel ?? 1)" @onchange="e => OnMaxParallel.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : (Run.MaxParallel ?? 1))" /></label>
+        <span>@Run.InFlight in flight, @Run.Pending pending</span>
+        @if (Run.HoldReason is { } h) { <span class="hold">held: @h</span> }
+    }
+</div>
+
+@code {
+    [Parameter, EditorRequired] public RunSnapshot Run { get; set; } = default!;
+    [Parameter] public string? SelectedJobId { get; set; }
+    [Parameter] public EventCallback<string> OnAction { get; set; }
+    [Parameter] public EventCallback<int> OnMaxParallel { get; set; }
+    private bool CanCancel => SelectedJobId is not null && Run.Jobs.Any(j => j.Id == SelectedJobId && j.State == "Running");
+}

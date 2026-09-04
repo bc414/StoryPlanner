@@ -1,0 +1,15 @@
+@* Leaf: which lifecycle stages the run folder shows evidence of. Detected, never judged. *@
+<div class="stages">
+    <span class="stage @(S.Instrument ? "on" : "")">instrument</span>
+    <span class="stage @(S.Calibrated is null ? "na" : S.Calibrated.Value ? "on" : "")">calibrated</span>
+    <span class="stage @(S.Enumerated ? "on" : "")">enumerated</span>
+    <span class="stage @(S.Generated ? "on" : "")">generated</span>
+    <span class="stage @(S.Piloted ? "on" : "")">piloted</span>
+    <span class="stage @(S.BatchComplete ? "on" : "")">batch complete</span>
+    <span class="stage @(S.Tallied ? "on" : "")">tallier</span>
+    <span class="stage @(S.Documented ? "on" : "")">run.md</span>
+</div>
+
+@code {
+    [Parameter, EditorRequired] public RunStages S { get; set; } = default!;
+}

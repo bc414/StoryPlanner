@@ -98,8 +98,11 @@ public sealed record LedgerRow(
     double? CostUsd,
     int? Turns,
     string? SessionId,
-    string? OutputCheck = null)
+    string? OutputCheck = null,
+    string? Mode = null)
 {
+    /// <summary>"pilot" when the attempt came from a <c>--job</c> enqueue — the mechanical mark of the pilot step; null for a batch launch.</summary>
+    public string? Mode { get; init; } = Mode;
     /// <summary>
     /// Exit 0, the output file present, and — when the job named markers — every marker
     /// present exactly once. A row from before <c>OutputCheck</c> existed has null there and

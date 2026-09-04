@@ -1,0 +1,16 @@
+@page "/protocol"
+@inject RunnerHost Host
+
+<div class="protocol">
+    @if (text is null) { <h1>Protocol</h1><p class="err">No <code>PROTOCOL.md</code> at @path.</p> }
+    else { @MarkdownView.Render(text) }
+</div>
+
+@code {
+    private string? text; private string path = "";
+    protected override void OnInitialized()
+    {
+        path = Path.Combine(Host.FanoutRoot, "PROTOCOL.md");
+        text = File.Exists(path) ? File.ReadAllText(path) : null;
+    }
+}

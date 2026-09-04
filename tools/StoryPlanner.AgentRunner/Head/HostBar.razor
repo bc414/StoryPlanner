@@ -1,0 +1,62 @@
+@* Leaf: the host's ceilings and everything the usage cache says. On every page, from the layout. Parameters and callbacks only. *@
+<div class="hostbar">
+    <div class="hostrow">
+        <span><strong>@InFlight</strong> in flight</span>
+        <label>host ceiling <input type="number" min="1" max="32" value="@MaxParallel" @onchange="e => OnMaxParallel.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : MaxParallel)" /></label>
+        <label>cap % <input type="number" min="1" max="100" value="@UtilizationCap" @onchange="e => OnUtilizationCap.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : UtilizationCap)" /></label>
+        @if (ShuttingDown) { <span class="hold">shutting down</span> }
+    </div>
+    @if (Utilization is { } u)
+    {
+        <div class="usage @(u.Stale ? "stale" : "")" title="what Claude Code last cached in ~/.claude.json — not a live query; a session must run for it to refresh">
+            <div class="meter" aria-label="five-hour window">
+                <span class="label">5-hour</span>
+                <span class="bar"><span class="fill @(u.Percent >= UtilizationCap ? "over" : "")" style="width:@(Math.Clamp(u.Percent, 0, 100))%"></span><span class="capmark" style="left:@(Math.Clamp(UtilizationCap, 0, 100))%"></span></span>
+                <span class="pct">@u.Percent%</span>
+                <span class="when">@(u.ResetPassed ? $"reset passed ({Local(u.ResetsAt)})" : $"resets {Local(u.ResetsAt)} — in {Span(u.UntilReset)}")</span>
+            </div>
+            @if (u.SevenDayPercent is { } sp)
+            {
+                <div class="meter" aria-label="seven-day window">
+                    <span class="label">7-day</span>
+                    <span class="bar"><span class="fill" style="width:@(Math.Clamp(sp, 0, 100))%"></span></span>
+                    <span class="pct">@sp%</span>
+                    <span class="when">@(u.SevenDayResetsAt is { } sr ? $"resets {Local(sr)} — in {Span(sr - DateTimeOffset.UtcNow)}" : "")</span>
+                </div>
+            }
+            <div class="cachemeta">
+                cached @Local(u.ReadAtUtc) (@Span(u.Age) ago)@(u.Stale ? " — stale: no session has refreshed it in over an hour" : "")
+                @if (u.LockedReason is { } reason) { <span class="err"> — locked: @reason</span> }
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="usage muted">utilization unknown — no cached figure in ~/.claude.json</div>
+    }
+</div>
+
+@code {
+    [Parameter] public int InFlight { get; set; }
+    [Parameter] public int MaxParallel { get; set; }
+    [Parameter] public int UtilizationCap { get; set; }
+    [Parameter] public Utilization? Utilization { get; set; }
+    [Parameter] public bool ShuttingDown { get; set; }
+    [Parameter] public EventCallback<int> OnMaxParallel { get; set; }
+    [Parameter] public EventCallback<int> OnUtilizationCap { get; set; }
+
+    private static string Local(DateTimeOffset t)
+    {
+        var l = t.ToLocalTime();
+        return l.Date == DateTimeOffset.Now.Date ? l.ToString("HH:mm") : l.ToString("ddd HH:mm");
+    }
+
+    private static string Span(TimeSpan s)
+    {
+        if (s < TimeSpan.Zero) s = TimeSpan.Zero;
+        if (s.TotalMinutes < 1) return "under a minute";
+        if (s.TotalHours < 1) return $"{(int)s.TotalMinutes} min";
+        if (s.TotalDays < 1) return $"{(int)s.TotalHours} h {s.Minutes:00} min";
+        return $"{(int)s.TotalDays} d {s.Hours} h";
+    }
+}

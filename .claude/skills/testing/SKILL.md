@@ -223,9 +223,15 @@ app locks `WindowedStoryPlanner/bin/Debug/net10.0-windows/`.
 
 ## Project setup reference
 
-`tests/StoryPlanner.Tests` — `xunit`, `xunit.runner.visualstudio`, `Microsoft.NET.Test.Sdk`.
-Project reference: `tools/StoryPlanner.Mcp` (which brings `StoryPlanner.Core` transitively).
+`tests/StoryPlanner.Tests` — `xunit`, `xunit.runner.visualstudio`, `Microsoft.NET.Test.Sdk`,
+and `bunit` (2026-09-03: the RazorComponents tier for the agent runner's head — leaf
+components rendered against a `RunSnapshot` with nothing registered, the sibling Canalave
+repo's convention; `BunitContext` base, `Render<T>(p => p.Add(...))`, tier note in the
+summary). Project reference: `tools/StoryPlanner.Mcp` (which brings `StoryPlanner.Core`
+transitively) and the tools; `tools/StoryPlanner.AgentRunner` is a Web SDK project, whose
+framework reference flows to the tests, so its JSON routes are tested over a real loopback
+listener on a free port (`RunnerHostApiTests`) with no extra package.
 No assertion library beyond xUnit's — the suite is small and `Assert` is adequate; adding
 FluentAssertions later is fine but don't mix styles within a file.
 
-Folders mirror the tiers: `Fixtures/`, `Core/`, `Mcp/`.
+Folders mirror the tiers: `Fixtures/`, `Core/`, `Mcp/`, `Runner/` (pure + RazorComponents).

@@ -1,0 +1,14 @@
+@page "/"
+@implements IDisposable
+@inject RunnerHost Host
+
+<h1>Runs</h1>
+<RunList Runs="runs" />
+<p class="muted">Enqueue from a terminal: <code>AgentRunner.exe fanout\&lt;work&gt;\&lt;run&gt;\jobs.json</code>. The lifecycle is under <a href="/protocol">protocol</a>.</p>
+
+@code {
+    private IReadOnlyList<RunSnapshot> runs = [];
+    protected override void OnInitialized() { runs = Host.Runs(); Host.Changed += OnChanged; }
+    private void OnChanged() => _ = InvokeAsync(() => { runs = Host.Runs(); StateHasChanged(); });
+    public void Dispose() => Host.Changed -= OnChanged;
+}

@@ -1,0 +1,30 @@
+@* Leaf: every run, live first. *@
+<table>
+    <thead><tr><th>run</th><th>work</th><th>state</th><th>jobs</th><th>in flight</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>last activity</th></tr></thead>
+    <tbody>
+    @foreach (var r in Runs)
+    {
+        <tr>
+            <td><a href="/runs/@r.RunId">@r.RunId</a>@(r.InputsResolvable ? "" : " ⚠")</td>
+            <td class="muted">@r.Work</td>
+            <td>
+                @if (r.Scheduled) { <span class="state Pending">scheduled @Local(r.NotBeforeUtc)</span> }
+                else if (r.Live) { <span class="state Running">@(r.Paused ? "paused" : r.StopRequested ? "stopping" : "running")</span> }
+                else if (r.Failed > 0) { <span class="state Failed">@r.Failed failed</span> }
+                else if (r.Completed) { <span class="state Succeeded">complete</span> }
+                else { <span class="state Pending">@r.Pending pending</span> }
+            </td>
+            <td>@r.Succeeded / @r.Jobs.Count</td>
+            <td>@(r.Live ? r.InFlight.ToString() : "")</td>
+            <td>$@r.CostUsd.ToString("F2")</td>
+            <td class="muted">@Local(r.LastActivityUtc)</td>
+        </tr>
+    }
+    </tbody>
+</table>
+@if (Runs.Count == 0) { <p class="muted">No runs under the fanout root yet.</p> }
+
+@code {
+    [Parameter] public IReadOnlyList<RunSnapshot> Runs { get; set; } = [];
+    private static string Local(string? iso) => DateTimeOffset.TryParse(iso, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : "";
+}

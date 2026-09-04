@@ -1,0 +1,16 @@
+{
+  "_comment": [
+    "The persistent host's settings (agent-runner skill). Every field has a default; the file may be",
+    "absent. port/bind: where the page listens — 127.0.0.1 only until the LAN follow-up (bind 0.0.0.0",
+    "plus a token). fanoutRoot: null = derived from the exe's location (the repo's fanout/).",
+    "maxParallel / utilizationCap: the HOST's ceilings across every batch; a job file's values are",
+    "the run's own ceilings, effective = min. Both are adjustable live on the page; changes go to",
+    "fanout/host-log.txt."
+  ],
+  "port": 5190,
+  "bind": "127.0.0.1",
+  "token": null,
+  "fanoutRoot": null,
+  "maxParallel": 4,
+  "utilizationCap": 80
+}

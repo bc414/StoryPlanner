@@ -1,0 +1,25 @@
+@* Leaf: the jobs of one run; a row click selects a job for the stream pane. *@
+<table>
+    <thead><tr><th>job</th><th>state</th><th>att.</th><th>exit</th><th>check</th><th>time</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>item</th></tr></thead>
+    <tbody>
+    @foreach (var j in Jobs)
+    {
+        <tr class="selectable @(j.Id == SelectedId ? "selected" : "")" @onclick="() => OnSelect.InvokeAsync(j.Id)">
+            <td>@j.Id</td>
+            <td><span class="state @j.State">@j.State</span></td>
+            <td>@j.Attempts</td>
+            <td>@(j.LastExitCode?.ToString() ?? "")</td>
+            <td>@(j.LastCheck ?? "")</td>
+            <td>@(j.LastSeconds is { } s ? $"{s:F0}s" : "")</td>
+            <td>@(j.CostUsd > 0 ? $"${j.CostUsd:F3}" : "")</td>
+            <td class="muted">@j.Item</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@code {
+    [Parameter] public IReadOnlyList<JobSnapshot> Jobs { get; set; } = [];
+    [Parameter] public string? SelectedId { get; set; }
+    [Parameter] public EventCallback<string> OnSelect { get; set; }
+}
