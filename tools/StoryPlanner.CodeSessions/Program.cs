@@ -14,13 +14,19 @@ using StoryPlanner.CodeSessions;
 var positional = args.Where(a => !a.StartsWith("--")).ToList();
 var apply = args.Contains("--apply");
 var purgeStubs = args.Contains("--purge-stubs");
+// --reextract: re-run the extractor over every session still on disk, ignoring the (bytes,
+// mtime) stamp. The backfill path for an extraction-policy change — it goes through the
+// ordinary per-session replace, so it is exactly a run in which nothing is "unchanged", never
+// a separate write path. Sessions aged off disk keep their older rows (there is no delete
+// path); Sessions.ExtractVersion is what tells the two apart afterwards.
+var reextract = args.Contains("--reextract");
 var projectArgIdx = Array.IndexOf(args, "--project");
 string? onlyProject = projectArgIdx >= 0 && projectArgIdx + 1 < args.Length ? args[projectArgIdx + 1] : null;
 if (onlyProject is not null) positional.Remove(onlyProject);
 
 if (positional.Count != 1)
 {
-    Console.Error.WriteLine("Usage: dotnet run -- <config.json> [--apply] [--project NAME]");
+    Console.Error.WriteLine("Usage: dotnet run -- <config.json> [--apply] [--project NAME] [--reextract]");
     return 2;
 }
 
@@ -60,9 +66,12 @@ List<string> projects = onlyProject is not null ? [onlyProject] : config.Project
 
 const int MinAssistantChars = 200;
 
-Console.WriteLine($"code-sessions ingest ({(apply ? "APPLY" : "DRY RUN")})");
+Console.WriteLine($"code-sessions ingest ({(apply ? "APPLY" : "DRY RUN")}{(reextract ? ", RE-EXTRACT" : "")})");
 Console.WriteLine($"  root   : {config.ProjectsRoot}");
 Console.WriteLine($"  output : {config.Output}");
+if (reextract)
+    Console.WriteLine($"  note   : every on-disk session re-extracted to policy v{CodeSessionDb.CurrentExtractVersion}; " +
+                      "sessions absent from disk keep their existing rows and version.");
 Console.WriteLine();
 
 using var conn = CodeSessionDb.OpenWrite(config.Output);
@@ -188,6 +197,7 @@ foreach (var f in found)
     var change = IngestPlan.Classify(
         stamps.TryGetValue(f.SessionId, out var s) ? (s.SourceBytes, s.SourceMtimeUtc) : null,
         info.Length, info.LastWriteTimeUtc.ToString("o"));
+    if (reextract && change == IngestPlan.Change.Unchanged) change = IngestPlan.Change.Changed;
     work.Add((f, change));
 
     (int New, int Changed, int Unchanged) t = totals.TryGetValue(f.ProjectDir, out var v) ? v : (0, 0, 0);
@@ -243,6 +253,9 @@ if (!apply)
 Console.WriteLine("Writing...");
 var written = 0;
 var skipped = 0;
+var humanResults = 0;
+var planSnapshots = 0;
+var planDrift = 0;
 foreach (var (f, change) in work)
 {
     if (change == IngestPlan.Change.Unchanged)
@@ -279,8 +292,13 @@ foreach (var (f, change) in work)
 
     CodeSessionDb.ReplaceSession(conn, session, records);
     written++;
+    humanResults += extracted.HumanResults;
+    planSnapshots += extracted.PlanSnapshots;
+    planDrift += extracted.PlanDrift;
     Console.WriteLine($"  {f.ProjectDir}/{Shorten(f.SessionId)} — {records.Count} records, " +
                       $"{session.TotalChars:N0} chars" +
+                      (extracted.HumanResults > 0 ? $", {extracted.HumanResults} human result(s)" : "") +
+                      (extracted.PlanSnapshots > 0 ? $", {extracted.PlanSnapshots} plan(s)" : "") +
                       (extracted.LargePasteStubs > 0 ? $", {extracted.LargePasteStubs} large-paste stub(s)" : "") +
                       (extracted.MalformedLines > 0 ? $", {extracted.MalformedLines} malformed line(s)" : ""));
 }
@@ -289,6 +307,10 @@ Console.WriteLine();
 Console.WriteLine($"Wrote {written} session(s); {skipped} skipped (< {MinAssistantChars} assistant chars); " +
                   $"{absent.Count} absent-but-retained; database " +
                   $"{new FileInfo(config.Output).Length / (1024.0 * 1024.0):F1} MB");
+Console.WriteLine($"Kept {humanResults:N0} human-authored tool result(s) and {planSnapshots:N0} plan snapshot(s).");
+if (planDrift > 0)
+    Console.WriteLine($"  of those, {planDrift} plan(s) were revised between the call and the approval; " +
+                      "both texts are stored on the proposing record.");
 return 0;
 
 static string Shorten(string sessionId) =>

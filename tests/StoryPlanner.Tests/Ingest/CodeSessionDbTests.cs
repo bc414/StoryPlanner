@@ -89,6 +89,46 @@ public class CodeSessionDbTests : IDisposable
         Assert.Equal("parent-session", ScalarString(conn, "SELECT ParentSessionId FROM Sessions WHERE SessionId = 'agent-ae36de02'"));
     }
 
+    [Fact]
+    public void An_existing_database_gains_ExtractVersion_without_losing_its_rows()
+    {
+        // OpenWrite is CREATE TABLE IF NOT EXISTS, so a database written before the column
+        // existed is never reshaped by it. Simulate that pre-2026-09-04 file exactly: create
+        // the schema, drop the column back off, then reopen.
+        using (var conn = CodeSessionDb.OpenWrite(_dbPath))
+        {
+            CodeSessionDb.ReplaceSession(conn, Row("legacy"), [Rec("r1", "extracted under the old policy")]);
+            using var drop = conn.CreateCommand();
+            drop.CommandText = "ALTER TABLE Sessions DROP COLUMN ExtractVersion;";
+            drop.ExecuteNonQuery();
+        }
+
+        using (var conn = CodeSessionDb.OpenWrite(_dbPath))
+        {
+            // Rows predating the column read as version 1 — and a session whose transcript has
+            // aged off disk can never be re-extracted, so it stays there permanently.
+            Assert.Equal(1, ScalarInt(conn, "SELECT ExtractVersion FROM Sessions WHERE SessionId = 'legacy'"));
+            Assert.Equal("extracted under the old policy", ScalarString(conn,
+                "SELECT Body FROM Records WHERE SessionId = 'legacy'"));
+
+            CodeSessionDb.ReplaceSession(conn, Row("re-extracted"), [Rec("r2", "kept an answer")]);
+            Assert.Equal(CodeSessionDb.CurrentExtractVersion,
+                ScalarInt(conn, "SELECT ExtractVersion FROM Sessions WHERE SessionId = 're-extracted'"));
+        }
+    }
+
+    [Fact]
+    public void Opening_the_same_database_twice_does_not_re_add_the_column()
+    {
+        using (var conn = CodeSessionDb.OpenWrite(_dbPath))
+            CodeSessionDb.ReplaceSession(conn, Row("s"), [Rec("r1", "body")]);
+
+        // Idempotence: the guarded ALTER must be a no-op on every subsequent run.
+        using (var conn = CodeSessionDb.OpenWrite(_dbPath))
+            Assert.Equal(1, ScalarInt(conn,
+                "SELECT COUNT(*) FROM pragma_table_info('Sessions') WHERE name = 'ExtractVersion'"));
+    }
+
     private static string ScalarString(SqliteConnection conn, string sql)
     {
         using var cmd = conn.CreateCommand();

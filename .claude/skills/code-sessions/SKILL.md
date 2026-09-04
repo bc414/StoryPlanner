@@ -39,6 +39,43 @@ Communication kept, computation dropped:
 | images | `[image attached]` |
 | `ai-title`, queue/file-history/metadata records | not dialogue — dropped (allow-list: user, assistant, ai-title) |
 
+## Human-authored tool results are KEPT (2026-09-04)
+
+One clause qualifies "tool results are computation": **a tool result carrying a human's
+words or a human's decision is kept.** Some results are not computation at all — they are
+Brian talking, routed through a tool envelope, and eliding them threw away the archive's
+highest-citation-weight content. Recognition is structural (the record's shape), not a
+tool-name switch.
+
+| In a transcript | In the db |
+|---|---|
+| AskUserQuestion answer | `[AskUserQuestion — N answered]`, then per question `Q:` + `Chose:` or `Typed:` |
+| permission denial | `[Rejected by user]`, plus `Typed: <reason>` when one was given |
+| plan verdict | `[Plan approved by user]` / `[Rejected by user]` on the **user** record |
+| `ExitPlanMode` plan text | stored **in full** on the **assistant** record, after `[tool_use: ExitPlanMode]` |
+| a plan revised before approval | both texts on that assistant record, split by `[Plan as approved — differs from the proposal above]` |
+
+**The citation rule — this is the load-bearing part.**
+
+- **`Typed:` is Brian's own prose, and carries IDENTICAL weight to a freestanding user
+  prompt.** He typed it into the "Other" box; it is his words, in his voice, and it is
+  often where the reasoning lives ("Actually don't do F4 — I need to redesign that
+  pipeline anyway"). Treat it exactly as you would treat a message he sent unprompted.
+- **`Chose:` is a Claude-authored option label that Brian selected.** It records his
+  *decision* faithfully, but not his *phrasing*. **Never quote a `Chose:` label as Brian's
+  words** — the wording is the machine's.
+- Selection is exact-match only. A free-text answer that happens to open with a label
+  ("Keep it prose only. The whole point is…") is `Typed:`, because it is.
+
+**Plans are the standing trap at its worst.** ExitPlanMode text is stored in full, so
+plans now dominate keyword search — and a plan is the most persuasive possible argument
+for a feature. **An approved plan is not a shipped feature:** plans are partially
+implemented and abandoned mid-execution routinely, and most stored plans were never
+approved at all (a rejected plan is kept precisely *because* it is an abandoned proposal —
+it survives nowhere else on disk). FEATURE-AUDIT and the code establish what is live.
+
+`[Request interrupted by user]` was always kept — it is a text part, not a tool result.
+
 Records keep `Uuid`/`ParentUuid` in timestamp order — a rewound session shows **both branches**;
 the DAG is never linearized into one reconstructed thread. Full fidelity (thinking, tool
 payloads) exists only in the raw JSONL: the live `~/.claude/projects/` (retention raised to
@@ -51,10 +88,15 @@ payloads) exists only in the raw JSONL: the live `~/.claude/projects/` (retentio
 Sessions(Id, SessionId /*file stem; UNIQUE*/, ProjectDir, Kind /*main|subagent*/,
          ParentSessionId, Title, Slug, FirstTimestamp, LastTimestamp, RecordCount,
          TotalChars, SubagentCount, MalformedLines, SourceBytes, SourceMtimeUtc,
-         FirstIngestedUtc, LastSeenUtc)
+         FirstIngestedUtc, LastSeenUtc, ExtractVersion /*1 = pre-2026-09-04*/)
 Records(Id, SessionId, Uuid, ParentUuid, Seq /*timestamp order*/, Timestamp,
         Role /*user|assistant*/, Body, BodyChars)   -- UNIQUE(SessionId, Uuid)
 ```
+
+`ExtractVersion` is the extraction policy a session's rows were produced under: `1` elided
+every tool result, `2` keeps the human-authored ones. Only re-extracting a transcript can
+raise it, so **a session that aged off disk stays at `1` forever** — that is the archive
+disclosing the limits of its own coverage, not a backlog to clear.
 
 `LastSeenUtc` is proof the source file still existed on that ingest run; a session whose
 `LastSeenUtc` is older than the newest run has **aged off disk and lives only here** — that is
@@ -89,10 +131,32 @@ WHERE r.Timestamp LIKE '2026-07-31%' AND r.Body LIKE '%coverage%suggestion%'
 ORDER BY r.Timestamp;
 ```
 
-**Brian's own framing on a topic** (his words carry the citation weight):
+**Brian's own framing on a topic** (his words carry the citation weight). This now also
+returns answers he typed into a question prompt and reasons he typed into a rejection —
+both are `Role='user'` bodies, and both are his prose:
 ```sql
 SELECT SessionId, Seq, substr(Body,1,300) FROM Records
 WHERE Role='user' AND Body LIKE '%retrieval%not%suggestion%' ORDER BY Timestamp;
+```
+
+**Decision points** — where he was asked and answered, or refused:
+```sql
+SELECT SessionId, substr(Timestamp,1,10) AS day, Body FROM Records
+WHERE Body LIKE '%[AskUserQuestion%' OR Body LIKE '[Rejected by user]%'
+ORDER BY Timestamp DESC LIMIT 20;
+```
+
+**Only what he typed, never a label he merely picked** (`Chose:` is Claude's wording):
+```sql
+SELECT SessionId, substr(Timestamp,1,10) AS day, Body FROM Records
+WHERE Body LIKE '%Typed: %' AND Body LIKE '%<topic>%' ORDER BY Timestamp;
+```
+
+**Plans, approved and abandoned** — mind the trap above before quoting one as rationale:
+```sql
+SELECT r.SessionId, substr(r.Timestamp,1,10) AS day, substr(r.Body,1,160)
+FROM Records r WHERE r.Body LIKE '[tool_use: ExitPlanMode]%' ORDER BY r.Timestamp DESC;
+-- approved ones: the sibling user record reads exactly '[Plan approved by user]'
 ```
 
 **Context around a hit** (the exchange, not the needle):
@@ -133,7 +197,7 @@ ORDER BY LastSeenUtc;
 ## Ingest (progressive — run it to catch the archive up)
 
 ```
-dotnet run --project tools/StoryPlanner.CodeSessions -- tools/StoryPlanner.CodeSessions/configs/code-sessions.json [--apply] [--project NAME]
+dotnet run --project tools/StoryPlanner.CodeSessions -- tools/StoryPlanner.CodeSessions/configs/code-sessions.json [--apply] [--project NAME] [--reextract]
 ```
 
 - **Authored include-list** in the config (2026-08-17: StoryPlanner, Gemini-Full-Analysis,
@@ -165,6 +229,14 @@ dotnet run --project tools/StoryPlanner.CodeSessions -- tools/StoryPlanner.CodeS
   a dated op, run by Brian, applying the same predicate inside the db; not a delete path.
 - A torn trailing line (live session appending mid-copy) is counted in `MalformedLines`, never
   fatal — the next run picks the completed line up via the changed stamp.
+- **`--reextract`** re-runs the extractor over every session still on disk, ignoring the
+  `(bytes, mtime)` stamp — the backfill path after an extraction-policy change. It is an
+  ordinary run in which nothing is "unchanged", not a separate write path, so all the usual
+  rules hold: **dry run first, and never with the exclusion rule absent** (it touches every
+  session). Sessions aged off disk are untouched and keep `ExtractVersion = 1`.
+- **`--purge-stubs`** deletes sessions holding less than 200 chars of assistant content; the
+  same 200-char floor silently skips such sessions at write time on every run. It is the one
+  delete path in the tool, and it is manual.
 
 ## What NOT to do
 

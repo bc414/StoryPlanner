@@ -271,6 +271,21 @@ Rationale: `docs/design-conversations/019_…json` blocks 126–135.
   (`Kind='subagent'`, `ParentSessionId`), each tool call a mechanical one-liner stub, thinking
   and tool-result payloads dropped with char-count disclosure (`[tool result elided — N chars]`
   means never stored, not withheld), >20k-word user pastes stubbed like gemini's plan-pastes.
+  **One clause qualifies that line (2026-09-04): a tool result carrying a HUMAN's words or
+  decision is kept**, because those results are not computation — they are Brian talking through
+  a tool envelope, and eliding them discarded the archive's highest-citation-weight content.
+  Three structural shapes, no tool-name switch: an AskUserQuestion answer set, a permission
+  denial's typed reason, a plan verdict. The authorship distinction is carried by two markers
+  and is the whole point — **`Typed:` is Brian's own prose and weighs exactly as much as a
+  freestanding prompt; `Chose:` is a Claude-authored label he selected**, a faithful record of
+  the decision but never of his phrasing, so it is never quoted as his words. Selection is exact
+  equality against the offered labels (an answer that merely *begins* with one is his). The one
+  deliberate tool-name exception stores `ExitPlanMode`'s plan in full on the **assistant** record
+  — keeping Claude's prose off user-role rows — including rejected plans, which survive nowhere
+  else on disk and are exactly the abandoned proposals this corpus exists to hold; both texts are
+  kept when a plan was revised before approval. `Sessions.ExtractVersion` marks which policy a
+  session's rows came from, and a session aged off disk stays at `1` permanently. **A stored plan
+  is not a shipped feature** — the standing transcript trap at its strongest.
   Records keep `Uuid`/`ParentUuid` — a rewound session's branches stay visible; the DAG is never
   linearized. In the engineering authority order this corpus sits at the transcript level: the
   record of *why*, authoritative for *nothing* — FEATURE-AUDIT first, always.

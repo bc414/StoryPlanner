@@ -82,7 +82,34 @@ public static class CodeSessionDb
         Execute(conn, "CREATE UNIQUE INDEX IF NOT EXISTS IX_Records_Identity ON Records (SessionId, Uuid);");
         Execute(conn, "CREATE INDEX IF NOT EXISTS IX_Records_Session ON Records (SessionId, Seq);");
 
+        AddColumnIfMissing(conn, "Sessions", "ExtractVersion", "INTEGER NOT NULL DEFAULT 1");
+
         return conn;
+    }
+
+    /// <summary>
+    /// The extraction policy a session's rows were produced under. 1 = pre-2026-09-04, when
+    /// every tool result was elided; 2 = human-authored results kept. A row can only be raised
+    /// by re-extracting its transcript, so sessions that have aged off disk stay at 1 forever —
+    /// the archive disclosing the limits of its own coverage, the same posture as LastSeenUtc.
+    /// </summary>
+    public const int CurrentExtractVersion = 2;
+
+    /// <summary>
+    /// OpenWrite is CREATE TABLE IF NOT EXISTS, so an existing database is never reshaped by it.
+    /// Additive columns need this explicit, idempotent step.
+    /// </summary>
+    private static void AddColumnIfMissing(SqliteConnection conn, string table, string column, string decl)
+    {
+        using (var check = conn.CreateCommand())
+        {
+            check.CommandText = $"PRAGMA table_info({table})";
+            using var r = check.ExecuteReader();
+            while (r.Read())
+                if (r.GetString(1).Equals(column, StringComparison.OrdinalIgnoreCase))
+                    return;
+        }
+        Execute(conn, $"ALTER TABLE {table} ADD COLUMN {column} {decl};");
     }
 
     /// <summary>Ingest stamps for change classification, keyed by SessionId.</summary>
@@ -132,9 +159,11 @@ public static class CodeSessionDb
                 INSERT INTO Sessions
                     (SessionId, ProjectDir, Kind, ParentSessionId, Title, Slug,
                      FirstTimestamp, LastTimestamp, RecordCount, TotalChars, SubagentCount,
-                     MalformedLines, SourceBytes, SourceMtimeUtc, FirstIngestedUtc, LastSeenUtc)
+                     MalformedLines, SourceBytes, SourceMtimeUtc, FirstIngestedUtc, LastSeenUtc,
+                     ExtractVersion)
                 VALUES ($sid, $proj, $kind, $parent, $title, $slug,
-                        $first, $last, $count, $chars, $subs, $malformed, $bytes, $mtime, $ingested, $seen);
+                        $first, $last, $count, $chars, $subs, $malformed, $bytes, $mtime, $ingested, $seen,
+                        $version);
                 """;
             ins.Parameters.AddWithValue("$sid", session.SessionId);
             ins.Parameters.AddWithValue("$proj", session.ProjectDir);
@@ -152,6 +181,7 @@ public static class CodeSessionDb
             ins.Parameters.AddWithValue("$mtime", session.SourceMtimeUtc);
             ins.Parameters.AddWithValue("$ingested", firstIngested);
             ins.Parameters.AddWithValue("$seen", now);
+            ins.Parameters.AddWithValue("$version", CurrentExtractVersion);
             ins.ExecuteNonQuery();
         }
 
