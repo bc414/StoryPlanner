@@ -60,7 +60,8 @@ test as well as the cleanup.
    done. Entries whose blind clause survives stand, re-promoted verbatim with the new
    referee line. The rest are declined with reasons. Old entries are never deleted:
    each gets `(superseded by re-referee <date>)` or stands as promoted. Statuses
-   recompute from what remains; `INDEX.md` updated; **one commit**.
+   recompute from what remains, in each file's frontmatter (the index carries no status
+   column since 2026-09-04); **one commit**.
 6. **Report**: counts per class, per originating WU, agreement between original and blind
    clauses, and anything the pipeline's first live run revealed about itself (job
    failures, codebook rulings, referee drift).

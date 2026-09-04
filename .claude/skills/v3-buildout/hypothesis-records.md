@@ -8,8 +8,17 @@ files and the ceremony around changing them.
 
 `docs/v3-framework/hypotheses/NNN-slug.md` — `NNN` a zero-padded three-digit id, stable,
 unique across the whole set, never reused after supersession; `slug` descriptive kebab-case. `INDEX.md` in the same
-directory is a routing table — four columns (ID, slug as link, status, baselined), no
-summaries, updated whenever a file's frontmatter changes.
+directory is a routing table — two columns (ID, slug as link), no summaries, in id order so
+a top-to-bottom scan is comprehension order. It changes only when a file is minted or
+superseded. **It carries no status or baselined column** — those lived there until
+2026-09-04 and were removed as a hand-kept mirror of frontmatter that nothing checked
+(the same failure as forward-plan-2's coverage table). Status is read from the files:
+
+```
+grep -H '^status:' docs/v3-framework/hypotheses/0*.md          # every status
+grep -l '^status: challenged' docs/v3-framework/hypotheses/0*.md # one state
+grep -h '^status:' docs/v3-framework/hypotheses/0*.md | sort | uniq -c   # the counts
+```
 
 ```markdown
 ---

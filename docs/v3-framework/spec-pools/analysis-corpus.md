@@ -12,7 +12,7 @@ testing spec that this corpus could verify. "Brian's recall" marks a question wh
 is recall; recall is a question, never evidence.
 
 ### Do the three concerns vary independently across stories?
-- asked-by: pre-revision entry 023 @ 2026-08-31T23:30 (WU1.1); re-housed by forward-plan-2 (2026-09-04)
+- asked-by: pre-revision entries 023 and 024 @ 2026-08-31T23:30 (WU1.1; the 024 entry admits it is inferential from section structure and that no report tests independence — this question is that test); re-housed by forward-plan-2 (2026-09-04), 024 named 2026-09-04
 - bears-on: 023, 024
 - question: In a sample of stories read at source, do goal, mechanism and rendering technique combine without nesting — the same mechanism serving different goals, the same technique at different mechanism levels, the same goal via different techniques?
 - candidate-predicate: per designed moment (analysis-located), label goal / mechanism / technique under a codebook; test for constraint between the three columns
@@ -68,15 +68,15 @@ is recall; recall is a question, never evidence.
 - status: open
 
 ### Is comedy present as a delivery register in 85%+ of stories, and almost never primary?
-- asked-by: pre-revision entries 033 @ 2026-08-31T23:30 and 033/034 @ 2026-09-01T01:00 (WU1.1, post-discussion: Best Night Ever, Fixing Up Miss Smartypants, Magic Tutor, Carrot Top Season, On a Cross and Arrow); re-housed 2026-09-04
-- bears-on: 033, 034
+- asked-by: pre-revision entries 033 @ 2026-08-31T23:30 and 033/034 @ 2026-09-01T01:00 (WU1.1, post-discussion: Best Night Ever, Fixing Up Miss Smartypants, Magic Tutor, Carrot Top Season, On a Cross and Arrow); re-housed 2026-09-04; 027 added 2026-09-04 (Brian's ruling: the 027 entry's inference-bypass half is tested here)
+- bears-on: 033, 034, 027
 - question: Sampling across categories at source, do comedic beats sit at structural positions (introductions, post-intensity, pre-reveal, irony setup) and serve tonal management / characterization / attachment rather than a thematic proposition?
 - candidate-predicate: `comedy-position` per beat; share of beats at a named position; share traceable to a theme proposition
 - status: open
 
 ### Do non-thematic goals follow pathways that bypass inference?
-- asked-by: pre-revision entries 033 @ 2026-08-31T23:30 and 033 @ 2026-09-01T01:30 (WU1.1; emotional investment through accumulation of M1 gestures); re-housed 2026-09-04
-- bears-on: 033, 036
+- asked-by: pre-revision entries 033 @ 2026-08-31T23:30 and 033 @ 2026-09-01T01:30 (WU1.1; emotional investment through accumulation of M1 gestures); re-housed 2026-09-04; 027 added 2026-09-04 (Brian's ruling: the 027 entry's inference-bypass half is tested here)
+- bears-on: 033, 036, 027
 - question: For accumulation arcs the analyses cite (wing-wraps, shared meals, nuzzles), do the individual instances at source ask no world inference and reach no theme, and does the payoff land affectively?
 - candidate-predicate: per cited instance, inference asked (yes/no) and theme reached (yes/no)
 - status: open

@@ -104,7 +104,8 @@ from the candidate; append the disposition. Brian adjudicates disagreements with
 referee and may decline a diagnostic candidate (reason recorded) or promote nothing.
 `non-diagnostic` candidates stay where they are, visibly, as context — they are not
 promoted and not deleted. Then recompute each touched hypothesis's status from its
-entries, update the index, and commit **once**: the diff is the review surface, and the
+entries in the file's frontmatter (the index carries no status — `hypothesis-records.md`
+§ Files and the index) and commit **once**: the diff is the review surface, and the
 commit message names the WU and the candidate ids.
 
 Report to Brian, after the commit — at least: candidates per target; diagnostic /

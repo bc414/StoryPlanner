@@ -38,8 +38,9 @@ Fifty hypotheses, and under the strong form **every one is unverified**. The cen
 2026-09-03 (`grep -c '^- evidence' docs/v3-framework/hypotheses/*.md`; re-run before
 relying on it) found forty evidence entries across twenty hypotheses (023–040, 045, 046),
 none carrying a referee line or codebook hash. The twenty `evidenced`/`challenged`
-statuses in `INDEX.md` are computed from those entries and are read by this plan as
-leads. All forty come from passes the revision types as exploratory — WU1.1 (twenty-three
+statuses in those files' frontmatter (`grep -h '^status:' docs/v3-framework/hypotheses/0*.md
+| sort | uniq -c`; the index carries no status column since 2026-09-04) are computed from
+those entries and are read by this plan as leads. All forty come from passes the revision types as exploratory — WU1.1 (twenty-three
 entries, over the meta-analyses rather than the story text), WU1.3 (fourteen, over the
 per-story analyses with some source checks), WU1.2 (three, over the Keep export). The
 retroactive referee pass (WU2.15) will re-check them; because their originating passes
@@ -205,8 +206,7 @@ systematically wrong.
 the sole excerpt)
 **Question:** Which of the pool's questions about the corpus survive a frozen-predicate
 read of the story text?
-**Hypotheses:** per spec pool `analysis-corpus.md`, currently: 023, 024, 025, 026, 027,
-028, 029, 030, 031, 032, 033, 034, 035, 036, 037, 038, 046.
+**Hypotheses:** per spec pool `analysis-corpus.md` (its `bears-on` lines; not copied here).
 **Evidence sources:** Story markdowns in `C:\Users\Brian\Documents\Fimfiction
 Favorites\markdowns\` and `…\markdowns1\` (outside the repo — `addDirs` or copied
 excerpts); the per-story analyses as the map to loci; the meta-analyses as the source of
@@ -273,8 +273,7 @@ recorded as such); complete.
 **Corpus:** Brian's own fiction (the prose is the source)
 **Question:** Which of the pool's questions about Brian's fiction survive a frozen-predicate
 read of the prose?
-**Hypotheses:** per spec pool `own-fiction.md`, currently: 023, 024, 028, 029, 030, 031,
-032, 033, 034, 036, 037, 038, 039, 040, 046.
+**Hypotheses:** per spec pool `own-fiction.md` (its `bears-on` lines; not copied here).
 **Evidence sources:** The text files (`.txt`, italics as `*…*`) and the two naive chapters;
 the analyses only as locus maps.
 **Codebooks:** to calibrate, in `fanout/WU2.4-own-fiction-verification/`: `dt-classes`
@@ -421,8 +420,7 @@ the excerpt)
 **Question:** For each frozen question in the v1 pool — the ~20 named checks plan 1 had
 accreted, the factorial's three measurements, the voice-attribution census — what does the
 archive show, with absence written as prominently as presence?
-**Hypotheses:** per spec pool `v1-archive.md`, currently: 019, 020, 021, 022, 028, 029,
-031, 035, 038, 040, 043, 044, 047, 049, 050, 010.
+**Hypotheses:** per spec pool `v1-archive.md` (its `bears-on` lines; not copied here).
 **Evidence sources:** The archive via the render and via MCP (`get_plot_points_archive`,
 `get_links_archive`, `get_subjects_archive`, `get_chapters_archive`; the flagged tool
 family for the walled notes of the subject items — fetched by the HITL session into the
@@ -495,8 +493,7 @@ one HITL session.
 **Corpus:** v2 working plan
 **Question:** Which of the pool's questions about the plan survive a frozen-predicate read
 of the notes — including the trial of the planner's eventual per-claim evidence mode?
-**Hypotheses:** per spec pool `working-plan.md`, currently: 001, 003, 004, 019, 020, 028,
-029, 031, 033, 041, 042, 044.
+**Hypotheses:** per spec pool `working-plan.md` (its `bears-on` lines; not copied here).
 **Evidence sources:** The notes via MCP (pre-fetched into items); `attribution.csv`'s
 sibling for v2 (the same `VoiceAttribution` invocation pointed at the working plan — the
 lint census, read-only, no write path; implementation candidate "Voice linting protocol"
@@ -560,8 +557,7 @@ single-arm, with "no stability figure" stated).
 **Question:** For each provenance claim in the pool — when a concept first appears, which
 chain produced a vocabulary, whether v1's practice was hypothesize-gather-iterate — what
 does the dated record show?
-**Hypotheses:** per spec pool `lineage.md`, currently: 002, 004, 006, 007, 014, 015, 018,
-019, 022, 028, 029, 034, 036, 039, 040, 041, 042, 045.
+**Hypotheses:** per spec pool `lineage.md` (its `bears-on` lines; not copied here).
 **Evidence sources:** Lineage by id (the turn, the diff, the report — fetched by the HITL
 session into `excerpts/` for the referee; investigator jobs run with `mcp: true` against
 the lineage tools).
@@ -623,8 +619,7 @@ conversations pool; anything about what entered v2 to the working-plan pool.
 **Question:** For each pool question — which block narrowed the gap layer to FID, whether
 block 1520 of conversation 47 states the every-link-must-have-T rule and on what reasoning,
 whether the block states carry acceptance signal — what do the cited blocks show?
-**Hypotheses:** per spec pool `conversations.md`, currently: 002, 015, 017, 021, 022, 028,
-029, 036, 041, 042.
+**Hypotheses:** per spec pool `conversations.md` (its `bears-on` lines; not copied here).
 **Evidence sources:** Blocks by id (fetched into `excerpts/`); the block-state and
 `Summary` fields as data.
 **Codebooks:** to calibrate, in `fanout/WU2.12-conversations-verification/`: `chain-step`
@@ -681,8 +676,7 @@ auditor tuned to over-flag, given the author's drop list, flag fewer intended ch
 without drifting; do per-section batching and per-unit jobs yield the same relation labels;
 plus the model-behaviour and instruction-design questions — what do the classified turns
 show?
-**Hypotheses:** per spec pool `code-sessions.md`, currently: 005, 009, 010, 011, 013, 014,
-015, 016, 017, 044, 048, 049.
+**Hypotheses:** per spec pool `code-sessions.md` (its `bears-on` lines; not copied here).
 **Evidence sources:** Turns and tool stubs written into `items/` by an enumerator script
 beside the codebook (the query is recorded and hashed with the run); for the batching
 question, the `fanout/skill-audits/2026-09-03-v3-buildout/` results as one arm and a
@@ -738,7 +732,7 @@ session with Brian — entries from exploratory WUs return to spec-pool status p
 corpus's round (this plan has already seeded the questions; the pass links each declined
 entry to its pool entry), entries whose blind clause survives stand re-promoted verbatim
 with the new referee line, the rest declined with reasons, old entries never deleted
-(`(superseded by re-referee <date>)`), statuses recomputed, `INDEX.md` updated, **one
+(`(superseded by re-referee <date>)`), statuses recomputed in frontmatter, **one
 commit**; report counts per class, per originating WU, agreement between clauses, and what
 the pipeline's first live run revealed about itself. Must not: rewrite a finding, edit a
 tag in place, delete an entry, promote anything Brian has not reviewed in the diff, run
@@ -945,7 +939,8 @@ authored by Brian from the curatorial guide — the ingest never auto-detects re
 
 ## Execution — status board
 
-Regenerated from the cards and pools whenever they change. Not a sequence.
+A hand-kept summary of the cards' `Status` fields below, updated in the same commit as the
+card it summarises; the pool columns point, they do not count. Not a sequence.
 
 | Corpus | Exploratory | Verification rounds | Open pool questions |
 |---|---|---|---|
@@ -978,62 +973,21 @@ Readiness, convenience, throughput and duration are never ordering inputs.
 
 ## Per-hypothesis coverage
 
-Derived from the cards and the pools on 2026-09-04; regenerated, never maintained by hand.
-Verification WUs are listed by the pool that names the hypothesis; exploratory WUs are
-omitted (they target corpora, not hypotheses).
+Not tabulated. This plan carried a per-hypothesis table on 2026-09-04; it was removed the
+same day after an audit found it already behind the pools on the day it was written (13
+of 50 rows), because nothing regenerates it. Coverage is read from the sources instead:
 
-| ID | Verification | Synthesis / other |
-|---|---|---|
-| 001 | 2.8 | 2.20, 2.21 |
-| 002 | 2.10, 2.12 | 2.17 |
-| 003 | 2.8 | — |
-| 004 | 2.8, 2.10 | 2.17 |
-| 005 | 2.14 | 2.17 |
-| 006 | 2.10 | 2.19 |
-| 007 | 2.10 | 2.17, 2.19 |
-| 008 | — (a comparison of verified evidence bases) | 2.19 |
-| 009 | 2.14 | 2.19 |
-| 010 | 2.6, 2.14 | 2.19 |
-| 011 | 2.14 | 2.19 |
-| 012 | — (likely untested by this plan; 2.19 says so) | 2.19 |
-| 013 | 2.14 | 2.19 |
-| 014 | 2.10, 2.14 | 2.17, 2.19 |
-| 015 | 2.10, 2.12, 2.14 | 2.19 |
-| 016 | 2.14 | 2.19 |
-| 017 | 2.12, 2.14 | 2.19 |
-| 018 | 2.10 | 2.19 |
-| 019 | 2.6, 2.8, 2.10 | 2.17 |
-| 020 | 2.6, 2.8 | — |
-| 021 | 2.6, 2.12 | 2.18 |
-| 022 | 2.6, 2.10, 2.12 | 2.17 |
-| 023 | 2.2, 2.4, 2.15 | 2.16, 2.20 |
-| 024 | 2.2, 2.4, 2.15 | 2.16, 2.20 |
-| 025 | 2.2, 2.15 | 2.16, 2.20 |
-| 026 | 2.2, 2.15 | 2.16, 2.20 |
-| 027 | 2.2, 2.15 | 2.16, 2.20 |
-| 028 | 2.2, 2.4, 2.6, 2.8, 2.10, 2.12, 2.15 | 2.16, 2.17, 2.18, 2.20 |
-| 029 | 2.2, 2.4, 2.6, 2.8, 2.10, 2.12, 2.15 | 2.16, 2.17, 2.18, 2.20 |
-| 030 | 2.2, 2.4, 2.15 | 2.16, 2.20 |
-| 031 | 2.2, 2.4, 2.6, 2.8, 2.15 | — |
-| 032 | 2.2, 2.4, 2.15 | — |
-| 033 | 2.2, 2.4, 2.8, 2.15 | 2.16, 2.18, 2.20 |
-| 034 | 2.2, 2.4, 2.10, 2.15 | 2.16, 2.18, 2.20 |
-| 035 | 2.2, 2.6, 2.15 | 2.16, 2.20 |
-| 036 | 2.2, 2.4, 2.10, 2.12, 2.15 | 2.20 |
-| 037 | 2.2, 2.4, 2.15 | 2.16, 2.20, 2.21 |
-| 038 | 2.2, 2.4, 2.6, 2.15 | 2.16, 2.18 |
-| 039 | 2.4, 2.10, 2.15 | 2.16 |
-| 040 | 2.4, 2.6, 2.10, 2.15 | 2.16 |
-| 041 | 2.8, 2.10, 2.12 | 2.17, 2.20 |
-| 042 | 2.8, 2.10, 2.12 | 2.17, 2.20 |
-| 043 | 2.6 | 2.20 |
-| 044 | 2.6, 2.8, 2.14 | 2.17, 2.20, 2.21 |
-| 045 | 2.10, 2.15 | 2.23 (infrastructure) |
-| 046 | 2.2, 2.4, 2.15 | 2.16, 2.20 |
-| 047 | 2.6 | 2.19 |
-| 048 | 2.15, 2.14 | 2.19 |
-| 049 | 2.6, 2.14 | 2.19 |
-| 050 | 2.6 | 2.19 |
+- **Verification:** the pools whose `bears-on` lines name the id — `analysis-corpus.md` →
+  WU2.2, `own-fiction.md` → WU2.4, `v1-archive.md` → WU2.6, `working-plan.md` → WU2.8,
+  `lineage.md` → WU2.10, `conversations.md` → WU2.12, `code-sessions.md` → WU2.14 — plus
+  WU2.15 for every hypothesis carrying a pre-revision evidence entry (023–040, 045, 046)
+  and for 048, which it measures.
+  `grep -l 'bears-on:.*\b<id>\b' docs/v3-framework/spec-pools/*.md` answers a row.
+- **Synthesis and infrastructure:** the `Hypotheses` line of each card WU2.16–WU2.23.
+- **Exploratory passes** target corpora, not hypotheses, and never appear.
+
+Two ids are in no pool on purpose: 008 (a comparison of verified evidence bases, WU2.19)
+and 012 (likely untested by this plan; WU2.19 says so).
 
 ## Codebooks this plan names
 

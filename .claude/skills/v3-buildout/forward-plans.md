@@ -41,7 +41,7 @@ Each card:
 **Type:** exploratory | verification | synthesis | infrastructure
 **Corpus:** <one corpus for exploratory and verification; the consumed corpora for synthesis>
 **Question:** <what it asks>
-**Hypotheses:** <ids — for a verification card, "per spec pool <corpus>.md, currently: …">
+**Hypotheses:** <ids — for a verification card, "per spec pool <corpus>.md" and no id list>
 **Evidence sources:** <what is read or run>
 **Codebooks:** <names and hashes, or "to calibrate"> (verification only)
 **Scope:** <what it does and does not do>
@@ -54,8 +54,14 @@ Hypothesis references live here and in spec pools, never in hypothesis files. WU
 are `<plan>.<unit>`: the major number is the plan's, the minor counts from 1 within it.
 Cards are listed in id order. The hypothesis index's tiers (A–J) are comprehension order
 for reading the index, never execution order or scoping boundaries — a corpus pair informs
-hypotheses across tiers. A plan may carry a per-hypothesis coverage table as a convenience;
-it is derived from the cards and spec pools and is regenerated, never maintained by hand.
+hypotheses across tiers. **A hypothesis-to-corpus edge is authored in exactly one place: a
+pool entry's `bears-on` line.** A plan does not copy those ids — not onto verification
+cards, not into a per-hypothesis coverage table. There is no generator, so any copy is a
+second source that drifts the moment a pool grows (forward-plan-2's table was 13 rows
+behind the pools on the day it was written, 2026-09-04, and was removed). A plan may
+state the derivation (which pool feeds which card) and the grep that answers a row. The
+one legitimate snapshot is a verification round's own run record under `fanout/`, which
+freezes the entries that round answered.
 
 ## Ordering is structural, not derived
 
@@ -84,8 +90,9 @@ Preconditions gate timing in place, never position (a skill to build or an inges
 is the first task *inside* the WU that needs it).
 
 The plan's execution section is a **status board, not a sequence**: per corpus, exploratory pass done or
-not, verification rounds run, open pool questions; per synthesis, which debts still block it. It is
-regenerated from the cards and pools whenever they change.
+not, verification rounds run, open pool questions; per synthesis, which debts still block it. It
+summarises the cards' `Status` fields in the same file and is updated by hand in the same commit
+as the card it summarises; it points at each pool rather than counting its questions.
 
 Hypothesis status is advice for choosing among independent exploratory passes: `challenged` first
 (the pool question that would resolve it), `untested` next, `evidenced` for stress-testing

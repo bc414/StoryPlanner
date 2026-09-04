@@ -1,52 +1,52 @@
-| ID | Slug | Status | Baselined |
-|----|------|--------|-----------|
-| 001 | [planner-purpose-trajectories](001-planner-purpose-trajectories.md) | untested | — |
-| 002 | [epistemic-method-provenance](002-epistemic-method-provenance.md) | untested | — |
-| 003 | [epistemic-vocabulary-for-content](003-epistemic-vocabulary-for-content.md) | untested | — |
-| 004 | [working-cadence-sweeps](004-working-cadence-sweeps.md) | untested | — |
-| 005 | [recall-vs-evidence](005-recall-vs-evidence.md) | untested | — |
-| 006 | [four-factor-decomposition](006-four-factor-decomposition.md) | untested | — |
-| 007 | [version-labels-as-bookmarks](007-version-labels-as-bookmarks.md) | untested | — |
-| 008 | [framework-vs-pipeline-separable](008-framework-vs-pipeline-separable.md) | untested | — |
-| 009 | [v3-tooling-decouples-factors](009-v3-tooling-decouples-factors.md) | untested | — |
-| 010 | [model-intrinsic-properties](010-model-intrinsic-properties.md) | untested | — |
-| 011 | [model-comparison-convergence](011-model-comparison-convergence.md) | untested | — |
-| 012 | [constitutional-ai-constraint](012-constitutional-ai-constraint.md) | untested | — |
-| 013 | [fable-role](013-fable-role.md) | untested | — |
-| 014 | [evidence-based-instruction-design](014-evidence-based-instruction-design.md) | untested | — |
-| 015 | [acceptance-signals](015-acceptance-signals.md) | untested | — |
-| 016 | [data-source-unification](016-data-source-unification.md) | untested | — |
-| 017 | [desktop-vs-code-split](017-desktop-vs-code-split.md) | untested | — |
-| 018 | [target-usage-loop](018-target-usage-loop.md) | untested | — |
-| 019 | [ai-context-contradiction](019-ai-context-contradiction.md) | untested | — |
-| 020 | [voice-separation-prerequisite](020-voice-separation-prerequisite.md) | untested | — |
-| 021 | [five-voice-registers](021-five-voice-registers.md) | untested | — |
-| 022 | [voice-treatment-protocol](022-voice-treatment-protocol.md) | untested | — |
-| 023 | [three-concern-separation](023-three-concern-separation.md) | evidenced | — |
-| 024 | [dimensional-vs-hierarchical](024-dimensional-vs-hierarchical.md) | evidenced | — |
-| 025 | [mechanism-hierarchy-is-complexity](025-mechanism-hierarchy-is-complexity.md) | evidenced | — |
-| 026 | [three-axis-independence](026-three-axis-independence.md) | evidenced | — |
-| 027 | [cognitive-mode-principle](027-cognitive-mode-principle.md) | evidenced | — |
-| 028 | [variable-focalization-master](028-variable-focalization-master.md) | evidenced | — |
-| 029 | [perception-gap-delivery](029-perception-gap-delivery.md) | evidenced | — |
-| 030 | [narrator-character-blend](030-narrator-character-blend.md) | evidenced | — |
-| 031 | [dt-knowledge-asymmetry](031-dt-knowledge-asymmetry.md) | evidenced | — |
-| 032 | [first-person-m4-effects](032-first-person-m4-effects.md) | evidenced | — |
-| 033 | [non-thematic-goal-categories](033-non-thematic-goal-categories.md) | evidenced | — |
-| 034 | [prose-craft-boundary](034-prose-craft-boundary.md) | evidenced | — |
-| 035 | [embedded-text-category](035-embedded-text-category.md) | evidenced | — |
-| 036 | [wi-terminal-ratio](036-wi-terminal-ratio.md) | evidenced | — |
-| 037 | [multi-story-focalization-profiles](037-multi-story-focalization-profiles.md) | evidenced | — |
-| 038 | [instinctive-mechanism-practice](038-instinctive-mechanism-practice.md) | challenged | — |
-| 039 | [fim-reading-effect](039-fim-reading-effect.md) | challenged | — |
-| 040 | [fabula-dialogue-replacement](040-fabula-dialogue-replacement.md) | challenged | — |
-| 041 | [sufficient-stability-iterative](041-sufficient-stability-iterative.md) | untested | — |
-| 042 | [editor-modes-evaluation](042-editor-modes-evaluation.md) | untested | — |
-| 043 | [note-design-relationships](043-note-design-relationships.md) | untested | — |
-| 044 | [bespokeness-tension](044-bespokeness-tension.md) | untested | — |
-| 045 | [keep-notes-provenance](045-keep-notes-provenance.md) | evidenced | — |
-| 046 | [dt-two-classes](046-dt-two-classes.md) | evidenced | — |
-| 047 | [uncorrelated-failure-modes](047-uncorrelated-failure-modes.md) | untested | — |
-| 048 | [self-administered-discrimination-bias](048-self-administered-discrimination-bias.md) | untested | — |
-| 049 | [instruction-stack-contamination](049-instruction-stack-contamination.md) | untested | — |
-| 050 | [context-penalty-model-interaction](050-context-penalty-model-interaction.md) | untested | — |
+| ID | Slug |
+|----|------|
+| 001 | [planner-purpose-trajectories](001-planner-purpose-trajectories.md) |
+| 002 | [epistemic-method-provenance](002-epistemic-method-provenance.md) |
+| 003 | [epistemic-vocabulary-for-content](003-epistemic-vocabulary-for-content.md) |
+| 004 | [working-cadence-sweeps](004-working-cadence-sweeps.md) |
+| 005 | [recall-vs-evidence](005-recall-vs-evidence.md) |
+| 006 | [four-factor-decomposition](006-four-factor-decomposition.md) |
+| 007 | [version-labels-as-bookmarks](007-version-labels-as-bookmarks.md) |
+| 008 | [framework-vs-pipeline-separable](008-framework-vs-pipeline-separable.md) |
+| 009 | [v3-tooling-decouples-factors](009-v3-tooling-decouples-factors.md) |
+| 010 | [model-intrinsic-properties](010-model-intrinsic-properties.md) |
+| 011 | [model-comparison-convergence](011-model-comparison-convergence.md) |
+| 012 | [constitutional-ai-constraint](012-constitutional-ai-constraint.md) |
+| 013 | [fable-role](013-fable-role.md) |
+| 014 | [evidence-based-instruction-design](014-evidence-based-instruction-design.md) |
+| 015 | [acceptance-signals](015-acceptance-signals.md) |
+| 016 | [data-source-unification](016-data-source-unification.md) |
+| 017 | [desktop-vs-code-split](017-desktop-vs-code-split.md) |
+| 018 | [target-usage-loop](018-target-usage-loop.md) |
+| 019 | [ai-context-contradiction](019-ai-context-contradiction.md) |
+| 020 | [voice-separation-prerequisite](020-voice-separation-prerequisite.md) |
+| 021 | [five-voice-registers](021-five-voice-registers.md) |
+| 022 | [voice-treatment-protocol](022-voice-treatment-protocol.md) |
+| 023 | [three-concern-separation](023-three-concern-separation.md) |
+| 024 | [dimensional-vs-hierarchical](024-dimensional-vs-hierarchical.md) |
+| 025 | [mechanism-hierarchy-is-complexity](025-mechanism-hierarchy-is-complexity.md) |
+| 026 | [three-axis-independence](026-three-axis-independence.md) |
+| 027 | [cognitive-mode-principle](027-cognitive-mode-principle.md) |
+| 028 | [variable-focalization-master](028-variable-focalization-master.md) |
+| 029 | [perception-gap-delivery](029-perception-gap-delivery.md) |
+| 030 | [narrator-character-blend](030-narrator-character-blend.md) |
+| 031 | [dt-knowledge-asymmetry](031-dt-knowledge-asymmetry.md) |
+| 032 | [first-person-m4-effects](032-first-person-m4-effects.md) |
+| 033 | [non-thematic-goal-categories](033-non-thematic-goal-categories.md) |
+| 034 | [prose-craft-boundary](034-prose-craft-boundary.md) |
+| 035 | [embedded-text-category](035-embedded-text-category.md) |
+| 036 | [wi-terminal-ratio](036-wi-terminal-ratio.md) |
+| 037 | [multi-story-focalization-profiles](037-multi-story-focalization-profiles.md) |
+| 038 | [instinctive-mechanism-practice](038-instinctive-mechanism-practice.md) |
+| 039 | [fim-reading-effect](039-fim-reading-effect.md) |
+| 040 | [fabula-dialogue-replacement](040-fabula-dialogue-replacement.md) |
+| 041 | [sufficient-stability-iterative](041-sufficient-stability-iterative.md) |
+| 042 | [editor-modes-evaluation](042-editor-modes-evaluation.md) |
+| 043 | [note-design-relationships](043-note-design-relationships.md) |
+| 044 | [bespokeness-tension](044-bespokeness-tension.md) |
+| 045 | [keep-notes-provenance](045-keep-notes-provenance.md) |
+| 046 | [dt-two-classes](046-dt-two-classes.md) |
+| 047 | [uncorrelated-failure-modes](047-uncorrelated-failure-modes.md) |
+| 048 | [self-administered-discrimination-bias](048-self-administered-discrimination-bias.md) |
+| 049 | [instruction-stack-contamination](049-instruction-stack-contamination.md) |
+| 050 | [context-penalty-model-interaction](050-context-penalty-model-interaction.md) |
