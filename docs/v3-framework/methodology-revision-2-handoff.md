@@ -1,5 +1,13 @@
 # Handoff: methodology revision 2 — the process map as the skill's router
 
+> **Superseded 2026-09-05 by `methodology-revision-2-handoff-2.md`.** The schema this
+> handoff specifies (four tables in one file, roots, edges, `governed-by`, the locus
+> grammar, rulings 7–13) was replaced in the session of 2026-09-04 (evening) to 2026-09-05;
+> the replacement and its reasons are in `methodology-revision-2-rulings.md`, and the new
+> skill is `.claude/skills/v3-buildout-2/`. Kept as the record of the first attempt.
+> Still current from this file: § What prompted it, § The principle, the referee ruling
+> (ruling 6), and § Build-vs-buy check records 1–3 and 5.
+
 Written 2026-09-04 (evening) for the sessions that carry it out. Revision 1 (2026-09-03) gave
 the `v3-buildout` skill its rules. This revision gives it a **spine**: a table of processes
 with actor, inputs, outputs, root purpose and governing section, validated by a tool and
