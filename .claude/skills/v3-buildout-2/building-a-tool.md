@@ -1,12 +1,42 @@
 # building-a-tool
 
-Enables preparing-to-explore-a-corpus, preparing-to-verify-a-corpus and revising-the-method.
+Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| build | hitl | dotnet git | corpus-status tool-source corpus | tool-source corpus-status corpus | built | Brian fixes what is built and its acceptance; the session builds it with tests under the testing skill; he signs off the verification checklist; an ingest writes what it ingests and the corpus's state is recorded |
+| build | hitl | dotnet git | corpus-status tool-source corpus | tool-source runner-skill corpus-status corpus | built | Brian fixes what is built and its acceptance; the session builds it with tests under the testing skill; he signs off the verification checklist; an ingest writes what it ingests and the corpus's state is recorded; a runner change updates its skill |
 
 <!-- generated:activity -->
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  build{{"build<br/>hitl"}}:::hitl
+  corpus[/"corpus"/]:::artifact
+  corpusstatus[/"corpus-status"/]:::artifact
+  runnerskill[/"runner-skill"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
+
+  corpusstatus --> build
+  toolsource --> build
+  corpus --> build
+  build --> toolsource
+  build --> runnerskill
+  build --> corpusstatus
+  build --> corpus
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: —
+- **outputs**: corpus corpus-status runner-skill tool-source
+- **instruments**: dotnet git
+- **enabled by**: —
+- **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
 <!-- /generated -->
 
 ## Preconditions
@@ -22,7 +52,8 @@ shown: the tests that must pass, the CORPUS-STATUS entry that must be true after
 checklist Brian will click through. Brian approves; the decision's record is the code and
 its tests. The session builds under the `testing` skill: the tool with its pure tests, the
 publish step where one applies, the ingest run when it is an ingest. When a corpus
-becomes readable, or changes state, CORPUS-STATUS is updated in the same commit. Brian
+becomes readable, or changes state, CORPUS-STATUS is updated in the same commit; when the
+runner gains or changes a verb, the `agent-runner` skill is updated in the same commit. Brian
 signs off the checklist; a tool he sends back is rebuilt in the same activity. This is the
 first task inside the instance that needs the tool, never an instance of its own. A tool
 never authors prose that is Brian's: no display questions, no definitions, no codebook,

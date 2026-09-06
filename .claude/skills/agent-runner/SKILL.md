@@ -1,6 +1,6 @@
 ---
 name: agent-runner
-description: How to run autonomous agents through tools/StoryPlanner.AgentRunner — classifiers, investigators, auditors, referees, reading arms, document audits, any job that must run with explicit context and no transcript. The persistent host and its page (http://127.0.0.1:5190), what a well-formed job is (one item, enumerated by an instrument, a mechanically checked output, a pilot before a batch), the run-folder layout under fanout/ and what a run commits, the job-file schema and ceilings, the launch-folder invariants, the ledger as queue, prompt composition and hashes, the split verb, the JSON routes a session can use, harness control versus experiment control, and the traps found in first use. Load before writing a job file, enqueueing a batch, or citing a runner result in an artifact. Governs the instrument; the v3-buildout skill governs when a cell calls for it; fanout/PROTOCOL.md is the lifecycle.
+description: How to run autonomous agents through tools/StoryPlanner.AgentRunner — classifiers, auditors, referees, slice readers, calibration samples, document audits, any job that must run with explicit context and no transcript. The persistent host and its page (http://127.0.0.1:5190), what a well-formed job is (one item, enumerated by an instrument, a mechanically checked output, a dry run and a pilot before a batch), the run-folder layout under fanout/, what a run commits, the stage strip, the job-file schema and ceilings, the launch-folder invariants, the ledger as queue, prompt composition and hashes, the split verb, the JSON routes, harness control versus experiment control, and the traps found in first use. Load before writing a job file, enqueueing a batch, or citing a runner result. Governs the instrument; the v3-buildout skill's process tables say which rows run here, and the order of a run is derived into its map.md.
 paths: "tools/StoryPlanner.AgentRunner/**, fanout/**"
 ---
 
@@ -33,9 +33,15 @@ app: `dotnet publish tools/StoryPlanner.AgentRunner -c Release -o tools/StoryPla
 throughout. An enqueue returns at once, so a Claude Code session can run it under an
 ordinary tool call.
 
-**The lifecycle — question → cell → work folder → instrument → enumerate → generate → dry
-run → pilot → batch → tally → verify and promote → record — is `fanout/PROTOCOL.md`, served
-at `/protocol`.** This skill holds the rules; that page holds the order.
+**This skill holds the rules of the instrument and never the order of a run.** What
+precedes and follows a batch — the question, the instrument and its calibration, the
+enumeration, the tally, the referee, the promotion — is derived from the `v3-buildout`
+skill's process tables and rendered into its `map.md`; each activity file names the process
+that invokes the runner and reads this skill in full for it. The host's `/protocol` route
+renders that `map.md` (the `v3-buildout` folder's, falling back to `v3-buildout-2`'s until
+the router swap, or `mapPath` in `host.json`), diagrams folded as mermaid source.
+`fanout/PROTOCOL.md`, which held the order as a hand-kept page from 2026-09-03, retired on
+2026-09-05 and was deleted; its text is in git and in the 2026-09-05 skill audit's document A.
 
 ## A well-formed job
 
@@ -51,13 +57,16 @@ nothing written):
    query, a manifest — runs once at design time, writes files, and is hashed like any input.
    A protocol never tells the agent what the items are; a rule the agent applies is judgment
    at runtime, however precisely it is worded. `split` is the splitter for Markdown documents;
-   any other enumerator is the work's own tool and lives in its folder — an enumerator lands
-   in the runner only when it is generic over a format, as `split` is over Markdown.
+   any other enumerator is the instance's own itemizer (`itemize.*` beside the instrument,
+   or a tool project with tests) — an enumerator lands in the runner only when it is generic
+   over a format, as `split` is over Markdown.
 3. **The output contract is mechanical.** `requireOnce` lists markers (item ids, row keys)
    the output must contain exactly once; the runner checks them and records a failed attempt
    on a miss or a duplicate. No human reads a batch to find a skipped item.
-4. **No batch without a pilot.** A new protocol or codebook runs on one job first
-   (`--job`), with the output read by a person, before the batch. Calibration (a scored
+4. **No batch without a dry run and a pilot.** `--dry-run` composes and sizes every prompt
+   and launches nothing, so a mis-sized prompt is seen before it costs anything; then a new
+   protocol or codebook runs on one job (`--job`), with the output read by a person, before
+   the batch. Calibration (a scored
    sample with Brian's verdicts) is the pilot for a codebook; a protocol that produces no
    evidence still gets a pilot. The pilot's ledger row carries `Mode: pilot`. Nothing is exempt.
 
@@ -75,23 +84,42 @@ compute says so in its `run.md` as something not measured.
 The run folder is the folder holding `jobs.json`. Every path in the job file is relative to
 it; the host writes `ledger.jsonl` and `attempts/<id>/attempt-N/` (`prompt.md`,
 `stream.jsonl`) beside it. One folder is one run, and runs group by the work that owns them:
+an instance of the buildout, named by its registry id (`fanout/<instance>/`; every
+`referee-<n>` shares `fanout/referee/`), or a standing action outside the buildout
+(`skill-audits/`, `smoke-test/`). Nothing is shared across works.
 
 ```
-fanout/PROTOCOL.md                    the lifecycle (served at /protocol)
-fanout/host-log.txt                   the host's log: lifecycle, enqueues, knob changes (gitignored)
-fanout/referee/                       codebook.md, calibration-<date>.md, runs
-fanout/WU<n>.<m>-<slug>/              a verification WU's codebooks, items, jobs, results, candidates
-fanout/skill-audits/                  protocol.md, make-jobs.ps1, tally.ps1, one run per audit
-fanout/<work>/<run>/run.md            the run's authored front page (PROTOCOL.md says what it holds)
-fanout/smoke-test/                    the harness check
+fanout/
+  host-log.txt                      the host's log: lifecycle, enqueues, knob changes (gitignored)
+  <instance>/                       one instance: its instrument, generator, tallier, candidates, runs
+    codebook-N.md | protocol-N.md   the instrument, versioned by number; a codebook has a
+    calibration-<date>.md           calibration record at its hash before any batch
+    itemize.*  make-jobs.*  tally.* the itemizer, the generator and the tallier
+    <run>/                          one batch execution, <date>[-<slug>]
+      run.md                        the authored front page (artifacts.md § run.md says what it holds)
+      items/manifest.md             the enumeration's index (bodies regenerable, not committed)
+      jobs.json                     generated
+      ledger.jsonl                  one row per attempt — the record an artifact cites
+      results/                      the agents' outputs, one per job
+      attempts/<job>/attempt-N/     prompt.md and stream.jsonl — local only
+    referee/<run>/                  a referee run, under the round it serves
+  referee/                          the referee's shared instrument only: codebook-N.md,
+                                    calibration-<date>.md, its itemizer, and iterations/
+  skill-audits/                     protocol.md, make-jobs.ps1, tally.ps1, one run per audit
+  smoke-test/                       the harness check
 ```
 
-No shared `codebooks/` or `protocols/` folder: an instrument lives with the work that
-authors and calibrates it. The referee is one work — every verification WU's candidates go
-through the same codebook under the same hash — so its folder holds every referee run. A
-corpus codebook belongs to the verification WU that wrote it; later rounds on that corpus are
-the same WU. What a person writes afterwards (a WU's synthesis, an audit's adjudication) is a
-document in `docs/` that cites the run by ledger row.
+No shared `codebooks/` or `protocols/` folder: an instrument lives with the instance that
+authors and calibrates it, versioned by number, so a superseded version stays on disk and a
+result under its hash stays citable. The referee is the one instrument every round shares —
+each candidate goes through the same codebook under the same hash — so `fanout/referee/`
+holds that instrument and nothing else, and each referee run sits under the round it serves.
+What a person writes afterwards (a round's `round.md`, an exploration's leads, an audit's
+adjudication) is a document in `docs/` that cites the run by ledger row.
+
+Every run carries `run.md`: small, authored, committed, rendered at the top of the run's
+page. What it holds is the `v3-buildout` skill's `artifacts.md` § run.md, for every run,
+buildout or not; everything else about a run is mechanical and lives in the files above.
 
 **What a run commits** — one convention, no per-experiment `.gitignore` edits:
 
@@ -102,19 +130,33 @@ document in `docs/` that cites the run by ledger row.
   `manifest.md` is committed; the bodies are re-made from the committed source and the tool.
 - Everything else under a run is committed: `run.md`, `jobs.json`, `results/`,
   `ledger.jsonl`, the protocol or codebook, the generator and tallier.
-- An input that is **not** regenerable — a source excerpt fetched from a database for the
-  referee, a passage copied from a story text — is written into the run folder outside
+- An input that is **not** regenerable — a note fetched from a database as an item, a
+  passage copied from a story text for a slice — is written into the run folder outside
   `items/` (e.g. `excerpts/`) so it is committed; with `prompt.md` ignored, the run folder is
-  the only place it exists.
+  the only place it exists. The referee is given no excerpt: its item is a statement and a
+  finding.
 
 ## The host and its page
 
 The host is a console process serving Blazor Server on `http://127.0.0.1:5190`
 (`configs/host.json`: `port`, `bind`, `token` — the last two exist for a LAN follow-up and
-are inert on localhost — `fanoutRoot`, `maxParallel`, `utilizationCap`). The CLI starts it
-detached when none answers `/api/ping` and opens the browser. It outlives every batch; the
-page shows every run under `fanout/` — live and finished alike, one view — and closing the
-host is `AgentRunner.exe stop`.
+are inert on localhost — `fanoutRoot`, `maxParallel`, `utilizationCap`, `mapPath`). The CLI
+starts it detached when none answers `/api/ping` and opens the browser. It outlives every
+batch; the page shows every run under `fanout/` — live and finished alike, one view — and
+closing the host is `AgentRunner.exe stop`. The ceilings are read from the file at start:
+a knob change on the page lasts the host's life and is logged, never written back, so a
+different default is an edit to `host.json`.
+
+**A run is its job file, not an enqueue.** The run's page and `/api/runs/<work>/<run>`
+describe the union of `jobs.json` and the ledger: pending is a job in the file with no
+terminal row, the batch is complete when every job in the file is terminal, and a pilot
+(`--job`) leaves the rest pending. An enqueue answers with what it will do — jobs to
+launch, skipped as succeeded, already failed and not relaunched — never a bare count.
+
+**The stage strip** on a run's page is detected from the folder alone: instrument present,
+calibrated (codebooks only), enumerated, generated, piloted, batch complete, tally written
+(`tally.md` in the run folder — the tallier being present beside it is not a tally),
+`run.md` present. Nothing is judged; a missing stage is a fact about the folder.
 
 **Ceilings.** The host's `maxParallel` and `utilizationCap` apply across every batch; a job
 file's `maxParallel` and `utilizationCap` are the run's own ceilings; effective = min. The
@@ -172,11 +214,14 @@ The child emits one JSON event per line as it happens (`--output-format stream-j
 --verbose`) — its text, each tool call with its input, each tool result, the final result
 with cost — and the host tees them to `attempts/<id>/attempt-N/stream.jsonl` as they
 arrive. The run's page shows the selected job's stream parsed (init, text, tool, result,
-done) with a raw toggle, refreshed twice a second while the job runs; the same reader serves
-a finished attempt. Observation only — print mode takes no input after the prompt, so a job
-that goes wrong is cancelled and re-run under a new id, never steered. Extended thinking is
-not in the stream. The ledger row's `ResultPath` is this file; `ParseResultSummary` reads the
-totals from its last `result` event.
+thinking, usage, system, done) with a raw toggle, refreshed twice a second while the job
+runs; the same reader serves a finished attempt. Observation only — print mode takes no
+input after the prompt, so a job that goes wrong is cancelled and re-run under a new id,
+never steered. Extended thinking's text is not in the stream; since harness 2.1.258 its
+token count is, one `system/thinking_tokens` event per step, which the page collapses to
+one running line. A `rate_limit_event` is the harness's own reading of the two usage
+windows at that moment — the one live figure the usage bar cannot get. The ledger row's
+`ResultPath` is this file; `ParseResultSummary` reads the totals from its last `result` event.
 
 ## Invariants the runner enforces (and why)
 
@@ -301,9 +346,15 @@ attempt folder holds the full event stream (init tools and MCP servers, the repl
 - **Two inputs with the same file name** collided: identical headings for the agent, one
   hash overwriting the other in the ledger. Labels are now disambiguated by parent folder.
 - **A succeeded job never relaunches.** To run it again, give it a new id.
-- **The child's output has had three shapes** — a `json` array of events, a single result
-  object, and now `stream-json` lines. `RunnerPlan.ParseResultSummary` reads all three;
-  anything else reading an attempt must too (the smoke test's first attempt is the array form).
+- **The child's output has had four shapes** — a `json` array of events, a single result
+  object, `stream-json` lines, and (harness 2.1.258, the 2026-09-05 audit run) `stream-json`
+  lines whose `system` events carry subtypes beyond `init` (`thinking_tokens` per step,
+  `api_retry` per 429), with `rate_limit_event` lines after init and the result object's
+  `type` key late rather than first. `RunnerPlan.ParseResultSummary` reads all four;
+  anything else reading an attempt must too (the smoke test's first attempt is the array
+  form). The page once showed 55 "init" lines for one job because `StreamEvents` never
+  looked at the subtype; it reads by subtype now, and a subtype it does not know is shown
+  named, never as something it does.
 - **The utilization figure is a cache**, and can be stale either way. The cap is a courtesy;
   `maxAttempts` and the timeout are the guards.
 - **The fanout launch folder gets an empty `~/.claude/projects/<fanout>/memory/` directory**
@@ -317,23 +368,23 @@ SDK was dropped as API-billed and outside the toolchain):
 
 | Mechanism | Runs where | Inherits | Transcript | Serves |
 |---|---|---|---|---|
-| **The runner** (this skill) | Outside the repo, `claude -p` per job, under the host | Nothing but the job's protocol and inputs | None | Every autonomous cell — frozen-predicate and method-discretion work (classifier, investigator, auditor, referee, census-by-LLM), every arm of a controlled experiment, every batch, anything whose result must be cited by hash |
-| **The Agent tool** | **Only inside a HITL session**, spawned by the person-facing session itself | The full instruction stack, MCP servers, memory | Written as a subagent of the interactive session — and kept by the codesessions archive as part of it | Salience-discretion help to the session in ones and twos, where inheriting the stack is acceptable and the transcript *belongs* in the archive: an Explore search, a fresh-eyes read of something under discussion, a slice reader spawned mid-conversation |
+| **The runner** (this skill) | Outside the repo, `claude -p` per job, under the host | Nothing but the job's protocol and inputs | None | Every `agent` process of the `v3-buildout` skill — a classifier or auditor under a codebook, the referee, a slice reader under a reading protocol, a calibration sample — every arm of an exploration, every batch, anything whose result must be cited by hash |
+| **The Agent tool** | **Only inside a HITL session**, spawned by the person-facing session itself | The full instruction stack, MCP servers, memory | Written as a subagent of the interactive session — and kept by the codesessions archive as part of it | Salience-discretion help to the session in ones and twos, where inheriting the stack is acceptable and the transcript *belongs* in the archive: an Explore search, a fresh-eyes read of something under discussion |
 
 Two of Brian's rulings drew the line: explicit context (a classifier or referee must see
 "protocol + item, nothing else", which an in-session subagent cannot) and codesessions as
 prevention (hundreds of subagent transcripts under the repo's project directory would enter
 the archive by construction). So the Agent tool is never a batch mechanism, never an arm,
-and never a substitute for the runner on a cell that calls for explicit context; a runner
-child cannot spawn one; and the runner is never a substitute for a HITL session on a cell
-that calls for judgment.
+and never a substitute for the runner on a process whose mode is `agent`; a runner child
+cannot spawn one; and the runner is never a substitute for a session on a process whose
+mode is `hitl` or `session`.
 
 ## Never
 
-Launch an autonomous cell from a repo cwd, or through the Agent tool of a HITL session,
-when the work calls for explicit context — the `v3-buildout` skill says which cells do.
-Hand an agent the enumeration of its own items. Run a batch under a protocol nobody has
-piloted. Add a control that changes what a job is. Use the Workflow tool for buildout work;
+Launch an `agent` process from a repo cwd, or through the Agent tool of a HITL session —
+the `v3-buildout` skill's process tables say which rows run here. Hand an agent the
+enumeration of its own items. Run a batch under a protocol nobody has piloted, or under a
+codebook with no calibration record at its hash. Add a control that changes what a job is. Use the Workflow tool for buildout work;
 if a need for it ever appears, that is a methodology revision, not a job. Put a `.mcp.json`
 or `CLAUDE.md` in the launch folder. Edit a ledger. Re-run a batch to "get a better
 answer" — a new attempt is a new id and a recorded decision.
@@ -350,4 +401,5 @@ enqueue `fanout/smoke-test/jobs.json` under a new job id: the run appears live, 
 Pending → Running → Succeeded, the stream's init event lists only the configured tools and
 no `mcp_servers`, `curl http://127.0.0.1:5190/api/runs/smoke-test` shows the same, and no
 file appears under the StoryPlanner transcript directory. A second enqueue reports nothing
-pending.
+to launch and every job skipped as succeeded. The skill-audit scripts have their own check:
+`fanout/skill-audits/tally.test.ps1`.

@@ -7,6 +7,35 @@ Enables changing-the-planner-for-v3.
 | baseline | hitl | git | hypothesis-statement hypothesis-record hypothesis-status | hypothesis-record hypothesis-status question-list | built | Brian judges the evidence picture sufficient to act on; the session writes his entry and sets the flag |
 
 <!-- generated:activity -->
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  baseline{{"baseline<br/>hitl"}}:::hitl
+  hypothesisrecord[/"hypothesis-record"/]:::artifact
+  hypothesisstatement[/"hypothesis-statement"/]:::artifact
+  hypothesisstatus[/"hypothesis-status"/]:::artifact
+  questionlist[/"question-list"/]:::artifact
+
+  hypothesisstatement --> baseline
+  hypothesisrecord --> baseline
+  hypothesisstatus --> baseline
+  baseline --> hypothesisrecord
+  baseline --> hypothesisstatus
+  baseline --> questionlist
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: hypothesis-statement
+- **outputs**: hypothesis-record hypothesis-status question-list
+- **instruments**: git
+- **enabled by**: promoting-checked-candidates
+- **enables**: changing-the-planner-for-v3
 <!-- /generated -->
 
 ## Preconditions

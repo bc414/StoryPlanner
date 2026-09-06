@@ -29,7 +29,9 @@ public class RunnerHostApiTests : IAsyncLifetime
     {
         _t = new TempRun(work: "smoke", run: "r1");
         _launcher = new FakeLauncher { Hold = new SemaphoreSlim(0) };
-        _host = new RunnerHost(new HostConfig(FanoutRoot: _t.FanoutRoot, MaxParallel: 1), _launcher, "test");
+        // The gate reads a supplied figure, never the developer's real ~/.claude.json cache: a live
+        // subscription window at or over the cap would hold every launch and time these tests out.
+        _host = new RunnerHost(new HostConfig(FanoutRoot: _t.FanoutRoot, MaxParallel: 1), _launcher, "test", utilization: () => null);
         _app = RunnerApi.BuildApp(_host, "http://127.0.0.1:0");
         await _app.StartAsync();
         var address = _app.Services.GetRequiredService<IServer>().Features.Get<IServerAddressesFeature>()!.Addresses.First();
@@ -93,6 +95,35 @@ public class RunnerHostApiTests : IAsyncLifetime
         Assert.Equal(3, runs[0].GetProperty("succeeded").GetInt32());
         Assert.True(File.Exists(Path.Combine(_t.FanoutRoot, "host-log.txt")));
         Assert.Contains("paused", File.ReadAllText(Path.Combine(_t.FanoutRoot, "host-log.txt")));
+
+        // A second enqueue after completion is accepted and says it has nothing to launch.
+        var second = await _http.PostAsJsonAsync("/api/runs", new EnqueueRequest(_t.JobFilePath));
+        Assert.Equal(HttpStatusCode.OK, second.StatusCode);
+        Assert.Contains("0 to launch, 3 skipped as succeeded", (await second.Content.ReadFromJsonAsync<EnqueueResult>())!.Message);
+    }
+
+    /// <summary>
+    /// The run route describes the job file, not the enqueued subset: a pilot leaves the other
+    /// jobs pending and the batch incomplete (the 2026-09-05 audit run read "pending 0, batch
+    /// complete" after its pilot).
+    /// </summary>
+    [Fact]
+    public async Task A_pilot_enqueue_launches_one_job_and_the_run_route_reports_the_rest_pending()
+    {
+        _t.WriteJobs(3);
+        _launcher.Hold = null;
+        var enq = await _http.PostAsJsonAsync("/api/runs", new EnqueueRequest(_t.JobFilePath, Job: "job-02"));
+        Assert.Equal(HttpStatusCode.OK, enq.StatusCode);
+        Assert.Contains("1 job(s) enqueued — 1 to launch", (await enq.Content.ReadFromJsonAsync<EnqueueResult>())!.Message);
+
+        await Wait.Until(() => _host.Run("smoke/r1")!.Succeeded == 1 && !_host.Run("smoke/r1")!.Live, what: "pilot done");
+        var run = await _http.GetFromJsonAsync<JsonElement>("/api/runs/smoke/r1");
+        Assert.Equal(3, run.GetProperty("jobs").GetArrayLength());
+        Assert.Equal(2, run.GetProperty("pending").GetInt32());
+        Assert.False(run.GetProperty("completed").GetBoolean());
+        Assert.True(run.GetProperty("stages").GetProperty("piloted").GetBoolean());
+        Assert.False(run.GetProperty("stages").GetProperty("batchComplete").GetBoolean());
+        Assert.Equal(1, _launcher.Launched);
     }
 
     [Fact]
@@ -159,6 +190,24 @@ public class RunnerHostApiTests : IAsyncLifetime
 
         var (junk, e7) = Schedule.ParseAt("soon", now, null);
         Assert.Null(junk); Assert.Contains("HH:mm", e7);
+    }
+
+    [Fact]
+    public async Task The_cap_holds_every_launch_while_the_supplied_utilization_is_at_or_over_it()
+    {
+        var figure = new Utilization(85, DateTimeOffset.UtcNow.AddHours(2), DateTimeOffset.UtcNow);
+        using var capped = new RunnerHost(new HostConfig(FanoutRoot: _t.FanoutRoot, MaxParallel: 1, UtilizationCap: 80), _launcher, "test", utilization: () => figure);
+        _t.WriteJobs(1);
+        _launcher.Hold = null;
+        var enq = capped.Enqueue(_t.JobFilePath, null);
+        Assert.True(enq.Ok, enq.Message);
+        await Task.Delay(700);
+        Assert.Equal(0, _launcher.Launched);
+        Assert.Contains("85% ≥ cap 80%", capped.Run("smoke/r1")!.HoldReason);
+
+        figure = figure with { Percent = 40 };
+        await Wait.Until(() => capped.Run("smoke/r1")!.Completed, what: "launch once under the cap");
+        Assert.Equal(1, _launcher.Launched);
     }
 
     [Fact]

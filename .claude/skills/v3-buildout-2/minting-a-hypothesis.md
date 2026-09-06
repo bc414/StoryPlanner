@@ -7,6 +7,35 @@ Enables reviewing-leads.
 | mint | hitl | git | hypothesis-index hypothesis-statement | hypothesis-statement hypothesis-record hypothesis-status hypothesis-index | built | A new hypothesis file on novelty, testability and independence against the current set; Brian words or approves the statement; the created entry records what prompted it |
 
 <!-- generated:activity -->
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  mint{{"mint<br/>hitl"}}:::hitl
+  hypothesisindex[/"hypothesis-index"/]:::artifact
+  hypothesisrecord[/"hypothesis-record"/]:::artifact
+  hypothesisstatement[/"hypothesis-statement"/]:::artifact
+  hypothesisstatus[/"hypothesis-status"/]:::artifact
+
+  hypothesisindex --> mint
+  hypothesisstatement --> mint
+  mint --> hypothesisstatement
+  mint --> hypothesisrecord
+  mint --> hypothesisstatus
+  mint --> hypothesisindex
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: —
+- **outputs**: hypothesis-index hypothesis-record hypothesis-statement hypothesis-status
+- **instruments**: git
+- **enabled by**: —
+- **enables**: reviewing-leads
 <!-- /generated -->
 
 ## Preconditions

@@ -1,0 +1,6 @@
+## unit-001
+- section: (frontmatter)
+- quote: Methodology for the v3 narrative design framework buildout, revision 1 (2026-09-03) — the work matrix (instrument / classifier / investigator / auditor / focused reader / slice reader / census / pathfinder), …
+- counterpart: SKILL.md › frontmatter
+- relation: narrowed
+- note: B's frontmatter and constitutional rules keep the strong-form pipeline (candidates → referee → promotion), verification debt, and the explicit-context rule for the runner, but the work-matrix role taxonomy (instrument/classifier/investigator/auditor/focused reader/slice reader/census/pathfinder) is not carried as a unified set — only classifier, auditor, slice reader and pathfinder resurface, scattered across activity files, with investigator, focused reader and census absent; the four work-unit types collapse to two instance types (exploratory, verification), with synthesis-over-verified-corpora unrepresented and infrastructure only loosely covered by building-a-tool; "spec pools" has no counterpart anywhere in B; and the load-trigger list (WU planning or execution, forward plans, consolidation, promotion sessions) is replaced by the flatter "any framework buildout work."

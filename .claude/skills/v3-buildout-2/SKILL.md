@@ -157,7 +157,7 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 |---|---|---|
 | changing-the-planner-for-v3 | | Making the code changes for version 3 of the story planner from baselined hypotheses. The terminus: out of this skill's scope, owns no processes |
 | baselining-a-hypothesis | changing-the-planner-for-v3 | Brian's dated judgment, in his words in the record, that a hypothesis's evidence picture is sufficient to act on |
-| promoting-checked-candidates | baselining-a-hypothesis iterating-a-statement | Brian deciding the pending referee-diagnostic candidates he chooses, by hypothesis or by round, each after its cited source is read: promote verbatim or decline; one outcome line per candidate; one commit |
+| promoting-checked-candidates | baselining-a-hypothesis | Brian deciding the pending referee-diagnostic candidates he chooses, by hypothesis or by round, each after its cited source is read: promote verbatim or decline; one outcome line per candidate; one commit |
 | iterating-a-statement | refereeing-a-candidate | Brian's rewording of a hypothesis on evidence: the statement edited, an iteration entry as the wording boundary, status recomputed, prior findings queued as iteration candidates |
 | minting-a-hypothesis | reviewing-leads | Creating a hypothesis file on novelty, testability and independence against the current set, in any hitl session, Brian rewriting or approving the statement, provenance in the created entry |
 | refereeing-a-candidate | promoting-checked-candidates | A blind agent given only the current statement and the candidate's finding writes a falsifier and classifies it diagnostic supporting, diagnostic challenging, or non-diagnostic |
@@ -167,10 +167,50 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact: drill the bins, challenge leads against the source, and write the questions Brian raises into the corpus's question list |
 | exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: a pathfinder in one session, or slice readers through the runner, joined and binned; output a leads artifact |
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the card's question and the corpus's question list, the scale, the reading protocol and read-manifest if slices, the plan approved, the protocol piloted |
-| building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus revising-the-method | Code with tests that carries no judgment: ingests, readers, the runner, talliers, renders, the validator; CORPUS-STATUS updated when a corpus becomes readable |
-| revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, the validator passing, a write-once revision note recording what changed and why |
+| building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, the runner, talliers, renders, the validator; CORPUS-STATUS updated when a corpus becomes readable |
+| revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, two lints passing (the validator; for a rewrite, the supersession audit of the prior text), a write-once revision note recording what changed and why |
 
 <!-- generated:level-1 -->
+```mermaid
+flowchart TD
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  changingtheplannerforv3[["changing-the-planner-for-v3"]]:::terminus
+  baseliningahypothesis["baselining-a-hypothesis"]:::activity
+  promotingcheckedcandidates["promoting-checked-candidates"]:::activity
+  iteratingastatement["iterating-a-statement"]:::activity
+  mintingahypothesis["minting-a-hypothesis"]:::activity
+  refereeingacandidate["refereeing-a-candidate"]:::activity
+  writingcandidatesfromverification["writing-candidates-from-verification"]:::activity
+  conductingaverificationround["conducting-a-verification-round"]:::activity
+  preparingtoverifyacorpus["preparing-to-verify-a-corpus"]:::activity
+  reviewingleads["reviewing-leads"]:::activity
+  exploringacorpus["exploring-a-corpus"]:::activity
+  preparingtoexploreacorpus["preparing-to-explore-a-corpus"]:::activity
+  buildingatool["building-a-tool"]:::activity
+  revisingthemethod["revising-the-method"]:::activity
+
+  baseliningahypothesis --> changingtheplannerforv3
+  promotingcheckedcandidates --> baseliningahypothesis
+  iteratingastatement --> refereeingacandidate
+  mintingahypothesis --> reviewingleads
+  refereeingacandidate --> promotingcheckedcandidates
+  writingcandidatesfromverification --> refereeingacandidate
+  conductingaverificationround --> writingcandidatesfromverification
+  preparingtoverifyacorpus --> conductingaverificationround
+  preparingtoverifyacorpus --> refereeingacandidate
+  reviewingleads --> preparingtoverifyacorpus
+  exploringacorpus --> reviewingleads
+  preparingtoexploreacorpus --> exploringacorpus
+  buildingatool --> preparingtoexploreacorpus
+  buildingatool --> preparingtoverifyacorpus
+  revisingthemethod --> preparingtoexploreacorpus
+  revisingthemethod --> preparingtoverifyacorpus
+```
 <!-- /generated -->
 
 ## Companions that are not activities
@@ -202,7 +242,8 @@ full by any process that invokes it.
 ## Provenance
 
 Revision 2 of this skill, built from 2026-09-04 in this folder beside the live
-`v3-buildout` (revision 1, 2026-09-03) and swapped in one commit when the validator passes.
+`v3-buildout` (revision 1, 2026-09-03) and swapped in one commit when the validator passes
+and the supersession audit of revision 1's text is adjudicated.
 Why revision 2 exists and what it replaced is recorded once in
 `docs/v3-framework/methodology-revision-2.md`; the rulings it rests on are appended as made
 to `docs/v3-framework/methodology-revision-2-rulings.md`. Both are provenance; this skill is

@@ -4,13 +4,79 @@ Enables exploring-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| explore-plan | hitl | | question-list corpus-status corpus state | instances arm-key question-list | built | Brian and the session fix the scale, the questions in view, the arms if any; the plan approved is his go, the instance is registered, the arm key written and closed; his opening question written into the list if the corpus has none |
+| explore-plan | hitl | | question-list corpus-status corpus state skill | instances arm-key question-list | built | Brian and the session fix the scale, the questions in view, the arms if any; the plan approved is his go, the instance is registered, the arm key written and closed; his opening question written into the list if the corpus has none |
 | slice | session | itemizer | corpus | items items-manifest | specified | Slices only: the corpus cut into one file per slice, by a tool, with a manifest |
 | author-protocol | hitl | | question-list items reading-protocol | reading-protocol generator | specified | Slices only: the reading protocol written against the real slices, and the generator that encodes its record-set contract; a new numbered version each time |
 | pilot-run | hitl | generator runner | reading-protocol items results | jobs ledger run-record | specified | Slices only: one job under the protocol's hash; Brian reads its record set and rules whether the protocol stands; his verdict in run.md |
 | pilot-read | agent | | reading-protocol items | results | specified | The pilot's slice reader; the only writer of its result |
 
 <!-- generated:activity -->
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  exploreplan{{"explore-plan<br/>hitl"}}:::hitl
+  slice["slice<br/>session"]:::session
+  authorprotocol{{"author-protocol<br/>hitl"}}:::hitl
+  pilotrun{{"pilot-run<br/>hitl"}}:::hitl
+  pilotread(["pilot-read<br/>agent"]):::agent
+  armkey[/"arm-key"/]:::artifact
+  corpus[/"corpus"/]:::artifact
+  corpusstatus[/"corpus-status"/]:::artifact
+  generator[/"generator"/]:::artifact
+  instances[/"instances"/]:::artifact
+  itemizer[/"itemizer"/]:::artifact
+  items[/"items"/]:::artifact
+  itemsmanifest[/"items-manifest"/]:::artifact
+  jobs[/"jobs"/]:::artifact
+  ledger[/"ledger"/]:::artifact
+  questionlist[/"question-list"/]:::artifact
+  readingprotocol[/"reading-protocol"/]:::artifact
+  results[/"results"/]:::artifact
+  runrecord[/"run-record"/]:::artifact
+  skill[/"skill"/]:::artifact
+  state[/"state"/]:::artifact
+
+  questionlist --> exploreplan
+  corpusstatus --> exploreplan
+  corpus --> exploreplan
+  state --> exploreplan
+  skill --> exploreplan
+  exploreplan --> instances
+  exploreplan --> armkey
+  exploreplan --> questionlist
+  corpus --> slice
+  itemizer -.-> slice
+  slice --> items
+  slice --> itemsmanifest
+  questionlist --> authorprotocol
+  items --> authorprotocol
+  readingprotocol --> authorprotocol
+  authorprotocol --> readingprotocol
+  authorprotocol --> generator
+  readingprotocol --> pilotrun
+  items --> pilotrun
+  results --> pilotrun
+  generator -.-> pilotrun
+  pilotrun --> jobs
+  pilotrun --> ledger
+  pilotrun --> runrecord
+  readingprotocol --> pilotread
+  items --> pilotread
+  pilotread --> results
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: corpus corpus-status itemizer skill state
+- **outputs**: arm-key generator instances items items-manifest jobs ledger question-list reading-protocol results run-record
+- **instruments**: generator itemizer runner
+- **enabled by**: building-a-tool revising-the-method
+- **enables**: exploring-a-corpus
 <!-- /generated -->
 
 ## Preconditions
@@ -24,7 +90,10 @@ asked for and written first.
 The session presents the corpus's shape from CORPUS-STATUS and its open questions, and
 asks Brian, batched four per call: the scale (whole corpus in one context, or slices), the
 questions in view, whether arms are wanted and what one factor varies across them, the
-binning scheme, and what the exploration does not do. It writes the plan; Brian approves;
+binning scheme, and what the exploration does not do. The plan is written against the
+chain's activity files, exploring-a-corpus and reviewing-leads, read whole here rather
+than each at its own start, since it names what each of them will do for this instance.
+It writes the plan; Brian approves;
 the session appends the instance to `instances.md` with the date as his go. With arms it
 writes `arm-key.md` and does not open it again.
 

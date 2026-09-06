@@ -5,90 +5,118 @@ using Xunit;
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// What the map derives rather than states. Consumers are never authored, so this is the only
-/// place they exist — a hand-kept consumers column is the stale mirror the map exists to stop
-/// repeating.
+/// What the tables derive rather than state. Consumers are never authored, so this is the only
+/// place they exist — a hand-kept consumers column is the stale mirror the schema exists to
+/// stop repeating.
 /// </summary>
 public class GraphRulesTests
 {
-    static ProcessMapDocument Doc(string? find = null, string? replace = null)
-        => MapReader.Read(find is null
-            ? MapFixture.ValidMap
-            : MapFixture.ValidMap.Replace(find, replace!));
-
     [Fact]
-    public void Consumers_are_derived_from_inputs_and_producers_from_outputs()
+    public void Writers_and_readers_are_derived_from_writes_and_reads()
     {
-        var traffic = GraphRules.Traffic(Doc()).ToDictionary(t => t.FileId);
-        Assert.Equal(["P.1"], traffic["f.b"].Producers);
-        Assert.Equal(["P.2"], traffic["f.b"].Consumers);
+        using var f = new MapFixture();
+        var traffic = GraphRules.Traffic(f.Doc).ToDictionary(t => t.ArtifactId);
+        // Processes are in router order, then table order: promoting's rows precede refereeing's.
+        Assert.Equal(["promote", "referee-append"], traffic["candidates"].Writers);
+        Assert.Equal(["promote", "referee-run", "referee-append"], traffic["candidates"].Readers);
+        Assert.Empty(traffic["codebook"].Writers);
     }
 
     [Fact]
-    public void A_file_no_process_reads_has_an_empty_consumer_list_rather_than_being_omitted()
+    public void An_artifact_named_as_an_instrument_counts_as_read()
     {
-        var doc = Doc(
-            "| f.hyp | docs/hyp.md | committed | docs/proc.md |",
-            "| f.hyp | docs/hyp.md | committed | docs/proc.md |\n| f.orphan | docs/orphan.md | committed | docs/proc.md |");
-        var orphan = GraphRules.Traffic(doc).Single(t => t.FileId == "f.orphan");
-        Assert.Empty(orphan.Producers);
-        Assert.Empty(orphan.Consumers);
+        using var f = MapFixture.With(MapFixture.RefereeingFile,
+            "| referee-judge | agent | | codebook items |", "| referee-judge | agent | items | codebook |");
+        var items = GraphRules.Traffic(f.Doc).Single(t => t.ArtifactId == "items");
+        Assert.Equal(["referee-judge"], items.InstrumentOf);
+        Assert.True(items.IsRead);
+        Assert.Contains(("referee-run", "referee-judge", "items"), GraphRules.DataEdges(f.Doc));
     }
 
     [Fact]
     public void A_data_edge_exists_where_one_row_writes_what_another_reads()
     {
-        var edges = GraphRules.DataEdges(Doc());
-        Assert.Contains(("P.1", "P.2", "f.b"), edges);
+        using var f = new MapFixture();
+        var edges = GraphRules.DataEdges(f.Doc);
+        Assert.Contains(("referee-run", "referee-judge", "items"), edges);
+        Assert.Contains(("referee-append", "promote", "candidates"), edges);
         Assert.DoesNotContain(edges, e => e.From == e.To);
     }
 
     [Fact]
-    public void The_union_graph_carries_both_control_and_data_edges()
+    public void The_terminus_is_the_activity_that_enables_nothing()
     {
-        // P.3 writes f.hyp which P.0 reads; no control edge says so.
-        var graph = GraphRules.UnionGraph(Doc());
-        Assert.Contains("P.0", graph["P.3"]);
-        Assert.DoesNotContain(Doc().Edges, e => e.From == "P.3" && e.To == "P.0");
+        using var f = new MapFixture();
+        Assert.Equal(["changing-the-planner-for-v3"], GraphRules.Termini(f.Doc));
     }
 
     [Fact]
-    public void A_brian_actor_before_the_write_gates_the_path()
-        => Assert.Empty(GraphRules.UngatedPaths(Doc(), "f.cand", "f.hyp"));
-
-    [Fact]
-    public void A_path_with_no_brian_actor_before_the_write_is_reported_with_its_route()
+    public void Enabled_by_is_the_reverse_of_the_router_column()
     {
-        var doc = Doc("| P.3 | M | sop | Promote | brian |", "| P.3 | M | sop | Promote | hitl:fable |");
-        var path = Assert.Single(GraphRules.UngatedPaths(doc, "f.cand", "f.hyp"));
-        Assert.Equal(["P.3"], path.Nodes);
+        using var f = new MapFixture();
+        Assert.Equal(["refereeing-a-candidate"], GraphRules.EnabledBy(f.Doc, "promoting-checked-candidates"));
+        Assert.Empty(GraphRules.EnabledBy(f.Doc, "refereeing-a-candidate"));
     }
 
     [Fact]
-    public void A_brian_row_only_after_the_write_does_not_gate_it()
+    public void The_reference_enables_graph_has_no_cycle()
     {
-        // P.3 writes f.hyp itself; a Brian review downstream is detection, not prevention.
-        var doc = Doc(
-            "| P.3 | M | sop | Promote | brian | f.cand | f.hyp | C1 | docs/proc.md | exists |",
-            "| P.3 | M | sop | Promote | hitl:fable | f.cand | f.hyp | C1 | docs/proc.md | exists |\n" +
-            "| P.4 | M | sop | Review the diff | brian | f.hyp | f.hyp | C1 | docs/proc.md | exists |");
-        Assert.NotEmpty(GraphRules.UngatedPaths(doc, "f.cand", "f.hyp"));
+        using var f = new MapFixture();
+        Assert.Empty(GraphRules.EnablesCycles(f.Doc));
     }
 
     [Fact]
-    public void A_cycle_in_the_graph_does_not_hang_the_search()
+    public void A_cycle_is_reported_once_with_its_members()
     {
-        // The fixture's P.0 → P.1 → P.2 → P.3 → (f.hyp) → P.0 is a cycle by construction.
-        var doc = Doc("| P.3 | M | sop | Promote | brian |", "| P.3 | M | sop | Promote | script |");
-        Assert.NotEmpty(GraphRules.UngatedPaths(doc, "f.cand", "f.hyp"));
+        using var f = MapFixture.With(MapFixture.SkillFile,
+            "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | refereeing-a-candidate |");
+        var cycle = Assert.Single(GraphRules.EnablesCycles(f.Doc));
+        Assert.Equal(3, cycle.Count);
+        Assert.Contains("promoting-checked-candidates", cycle);
     }
 
     [Fact]
-    public void Fan_in_counts_the_rows_sharing_one_governing_document()
+    public void An_enables_edge_is_backed_by_the_artifacts_that_flow_along_it()
     {
-        var fanIn = GraphRules.GovernorFanIn(Doc());
-        var (file, rows) = Assert.Single(fanIn);
-        Assert.Equal("docs/proc.md", file);
-        Assert.Equal(4, rows.Count);
+        using var f = new MapFixture();
+        Assert.Equal(["candidates"], GraphRules.Backing(f.Doc, "refereeing-a-candidate", "promoting-checked-candidates"));
+        Assert.Empty(GraphRules.Backing(f.Doc, "refereeing-a-candidate", "changing-the-planner-for-v3"));
+    }
+
+    [Fact]
+    public void An_hitl_writer_gates_the_path_from_candidates()
+    {
+        using var f = new MapFixture();
+        Assert.Empty(GraphRules.UngatedPaths(f.Doc, "candidates", WellKnown.HypothesisArtifacts));
+    }
+
+    [Fact]
+    public void A_session_writer_reached_from_candidates_is_reported_with_its_route()
+    {
+        using var f = MapFixture.With(MapFixture.PromotingFile, "| promote | hitl |", "| promote | session |");
+        var paths = GraphRules.UngatedPaths(f.Doc, "candidates", WellKnown.HypothesisArtifacts);
+        // Every reader of candidates reaches the write; promote itself is a path of one.
+        Assert.Equal(3, paths.Count);
+        Assert.Contains(paths, p => p.Nodes.SequenceEqual(["promote"]));
+        Assert.All(paths, p => Assert.Equal("promote", p.Nodes[^1]));
+    }
+
+    [Fact]
+    public void An_hitl_process_only_after_the_write_does_not_gate_it()
+    {
+        // A review that reads what promote wrote is detection, not prevention.
+        using var f = MapFixture.With(MapFixture.PromotingFile,
+            "| promote | hitl | git | candidates hypothesis-record hypothesis-status question-list verification-artifact | hypothesis-record hypothesis-status candidates question-list verification-artifact | specified | Brian decides each candidate |",
+            "| promote | session | git | candidates hypothesis-record hypothesis-status question-list verification-artifact | hypothesis-record hypothesis-status candidates question-list verification-artifact | specified | The session decides |\n" +
+            "| review | hitl | git | hypothesis-record | question-list | specified | Brian reviews the diff afterwards |");
+        Assert.NotEmpty(GraphRules.UngatedPaths(f.Doc, "candidates", WellKnown.HypothesisArtifacts));
+    }
+
+    [Fact]
+    public void A_cycle_in_the_data_graph_does_not_hang_the_search()
+    {
+        // referee-append writes candidates, which referee-run reads: a cycle by construction.
+        using var f = MapFixture.With(MapFixture.PromotingFile, "| promote | hitl |", "| promote | agent |");
+        Assert.NotEmpty(GraphRules.UngatedPaths(f.Doc, "candidates", WellKnown.HypothesisArtifacts));
     }
 }

@@ -4,7 +4,7 @@
 
 <h1>Runs</h1>
 <RunList Runs="runs" />
-<p class="muted">Enqueue from a terminal: <code>AgentRunner.exe fanout\&lt;work&gt;\&lt;run&gt;\jobs.json</code>. The lifecycle is under <a href="/protocol">protocol</a>.</p>
+<p class="muted">Enqueue from a terminal: <code>AgentRunner.exe fanout\&lt;work&gt;\&lt;run&gt;\jobs.json</code>. The order of a run is the <a href="/protocol">process map</a>; the rules of the instrument are the agent-runner skill.</p>
 
 @code {
     private IReadOnlyList<RunSnapshot> runs = [];

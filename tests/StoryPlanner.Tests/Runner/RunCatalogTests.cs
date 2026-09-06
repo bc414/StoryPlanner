@@ -27,6 +27,10 @@ public class RunCatalogTests
         File.WriteAllText(Path.Combine(work, "protocol.md"), "# Protocol");
         File.WriteAllText(Path.Combine(work, "tally.ps1"), "# tally");
 
+        // The tallier being present is not a tally having been produced (2026-09-05).
+        Assert.False(RunCatalog.Load(t.RunDir, t.FanoutRoot).Stages.Tallied);
+        File.WriteAllText(Path.Combine(t.RunDir, "tally.md"), "# tally.md");
+
         var snap = RunCatalog.Load(t.RunDir, t.FanoutRoot);
 
         Assert.Equal("skill-audits/2026-09-03-doc", snap.RunId);
@@ -69,6 +73,64 @@ public class RunCatalogTests
 
         File.WriteAllText(Path.Combine(work, "calibration-2026-09-10.md"), "# Calibration");
         Assert.True(RunCatalog.Load(t.RunDir, t.FanoutRoot).Stages.Calibrated);
+    }
+
+    /// <summary>
+    /// The run is the job file, not the enqueued subset: after a pilot (<c>--job</c>) the other
+    /// jobs are pending and the batch is not complete — read from disk, and read from the live
+    /// runner that holds one job, which on 2026-09-05 reported "pending 0, batch complete" with
+    /// 45 of 46 jobs never launched.
+    /// </summary>
+    [Fact]
+    public async Task A_pilot_only_ledger_leaves_the_rest_of_the_file_pending_whether_read_from_disk_or_from_the_live_runner()
+    {
+        using var t = new TempRun(work: "skill-audits", run: "2026-09-05-audit");
+        t.WriteJobs(3);
+        File.WriteAllLines(Path.Combine(t.RunDir, "ledger.jsonl"), [RunnerPlan.SerializeLedgerRow(Row("job-02", 0, true, "ok", mode: "pilot"))]);
+
+        var disk = RunCatalog.Load(t.RunDir, t.FanoutRoot);
+        Assert.Equal(3, disk.Jobs.Count);
+        Assert.Equal(["Pending", "Succeeded", "Pending"], disk.Jobs.Select(j => j.State));
+        Assert.Equal(2, disk.Pending);
+        Assert.Equal(1, disk.Succeeded);
+        Assert.False(disk.Completed);
+        Assert.True(disk.Stages.Piloted);
+        Assert.False(disk.Stages.BatchComplete);
+
+        // The live runner under --job holds one job; the snapshot still describes the file.
+        var (runner, error) = BatchRunner.Create(t.JobFilePath, disk.RunId, "job-02", new FakeLauncher(), new OpenGate(), _ => { }, "test");
+        Assert.Null(error);
+        Assert.Single(runner!.Jobs);
+        var live = RunCatalog.Build(t.RunDir, t.FanoutRoot, runner);
+        Assert.Equal(3, live.Jobs.Count);
+        Assert.Equal(2, live.Pending);
+        Assert.False(live.Completed);
+        Assert.False(live.Stages.BatchComplete);
+
+        // A second enqueue of the whole file says what it will do, from the ledger.
+        var (batch, _) = BatchRunner.Create(t.JobFilePath, disk.RunId, null, new FakeLauncher(), new OpenGate(), _ => { }, "test");
+        Assert.Equal("3 job(s) enqueued — 2 to launch, 1 skipped as succeeded, 0 already failed and not relaunched", RunnerHost.EnqueueTally(batch!));
+        await batch!.RunAsync(CancellationToken.None);
+        var after = RunCatalog.Build(t.RunDir, t.FanoutRoot, batch);
+        Assert.True(after.Completed);
+        Assert.True(after.Stages.BatchComplete);
+        Assert.Equal(0, after.Pending);
+    }
+
+    [Fact]
+    public void A_job_the_file_no_longer_names_is_still_listed_from_its_ledger_rows()
+    {
+        using var t = new TempRun();
+        t.WriteJobs(2);
+        File.WriteAllLines(Path.Combine(t.RunDir, "ledger.jsonl"),
+            [RunnerPlan.SerializeLedgerRow(Row("job-01", 0, true, "ok")), RunnerPlan.SerializeLedgerRow(Row("renamed-away", 1, false, "no output file"))]);
+
+        var snap = RunCatalog.Load(t.RunDir, t.FanoutRoot);
+        Assert.Equal(["job-01", "job-02", "renamed-away"], snap.Jobs.Select(j => j.Id));
+        Assert.Equal("Failed", snap.Jobs[2].State);
+        Assert.Equal("(job file not readable)", snap.Jobs[2].Item);
+        Assert.Equal(1, snap.Pending);
+        Assert.False(snap.Completed);
     }
 
     [Fact]

@@ -86,36 +86,10 @@ public class MapTablesTests
     }
 
     [Fact]
-    public void A_table_matching_no_known_schema_is_refused_rather_than_ignored()
-    {
-        var map = MapFixture.ValidMap.Replace(
-            "## Generated",
-            "## Something new\n\n| surprise | column |\n|---|---|\n| one | two |\n\n## Generated");
-        var ex = Assert.Throws<MapFormatException>(() => MapReader.Read(map));
-        Assert.Contains("matches no known schema", ex.Message);
-    }
-
-    [Fact]
-    public void The_five_tables_are_read_into_typed_rows()
-    {
-        var doc = MapReader.Read(MapFixture.ValidMap);
-        Assert.Equal(2, doc.Roots.Count);
-        Assert.Equal(4, doc.Files.Count);
-        Assert.Equal(4, doc.Processes.Count);
-        Assert.Equal(3, doc.Edges.Count);
-        Assert.Empty(doc.Bootstrap);
-
-        var p2 = doc.Processes.Single(p => p.Id == "P.2");
-        Assert.Equal("agent:sonnet", p2.Actor);
-        Assert.Equal(["f.b"], p2.Inputs);
-        Assert.Equal(["f.cand"], p2.Outputs);
-        Assert.Equal(["C1"], p2.Roots);
-    }
-
-    [Fact]
     public void An_empty_id_list_is_an_empty_list_and_not_a_one_element_one()
     {
-        var doc = MapReader.Read(MapFixture.ValidMap.Replace("| script | f.a | f.b |", "| script |  | f.b |"));
-        Assert.Empty(doc.Processes.Single(p => p.Id == "P.1").Inputs);
+        using var f = MapFixture.With(MapFixture.RefereeingFile,
+            "| referee-judge | agent | | codebook items |", "| referee-judge | agent | |  |");
+        Assert.Empty(f.Doc.Processes.Single(p => p.Id == "referee-judge").Reads);
     }
 }

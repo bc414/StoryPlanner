@@ -10,6 +10,70 @@ Enables promoting-checked-candidates.
 | referee-append | session | | results tally-output candidates iteration-candidates | candidates iteration-candidates | specified | Copies each well-formed result's two lines under its candidate; a malformed one is re-run |
 
 <!-- generated:activity -->
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  refereematerialise["referee-materialise<br/>session"]:::session
+  refereerun["referee-run<br/>session"]:::session
+  refereejudge(["referee-judge<br/>agent"]):::agent
+  refereeappend["referee-append<br/>session"]:::session
+  calibrationrecord[/"calibration-record"/]:::artifact
+  candidates[/"candidates"/]:::artifact
+  codebook[/"codebook"/]:::artifact
+  generator[/"generator"/]:::artifact
+  hypothesisstatement[/"hypothesis-statement"/]:::artifact
+  itemizer[/"itemizer"/]:::artifact
+  items[/"items"/]:::artifact
+  itemsmanifest[/"items-manifest"/]:::artifact
+  iterationcandidates[/"iteration-candidates"/]:::artifact
+  jobs[/"jobs"/]:::artifact
+  ledger[/"ledger"/]:::artifact
+  results[/"results"/]:::artifact
+  runrecord[/"run-record"/]:::artifact
+  tallier[/"tallier"/]:::artifact
+  tallyoutput[/"tally-output"/]:::artifact
+
+  hypothesisstatement --> refereematerialise
+  candidates --> refereematerialise
+  iterationcandidates --> refereematerialise
+  codebook --> refereematerialise
+  itemizer -.-> refereematerialise
+  generator -.-> refereematerialise
+  refereematerialise --> items
+  refereematerialise --> itemsmanifest
+  refereematerialise --> jobs
+  jobs --> refereerun
+  codebook --> refereerun
+  calibrationrecord --> refereerun
+  items --> refereerun
+  results --> refereerun
+  tallier -.-> refereerun
+  refereerun --> ledger
+  refereerun --> tallyoutput
+  refereerun --> runrecord
+  codebook --> refereejudge
+  items --> refereejudge
+  refereejudge --> results
+  results --> refereeappend
+  tallyoutput --> refereeappend
+  candidates --> refereeappend
+  iterationcandidates --> refereeappend
+  refereeappend --> candidates
+  refereeappend --> iterationcandidates
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: calibration-record codebook generator hypothesis-statement itemizer tallier
+- **outputs**: candidates items items-manifest iteration-candidates jobs ledger results run-record tally-output
+- **instruments**: generator itemizer runner tallier
+- **enabled by**: iterating-a-statement writing-candidates-from-verification preparing-to-verify-a-corpus
+- **enables**: promoting-checked-candidates
 <!-- /generated -->
 
 ## Preconditions

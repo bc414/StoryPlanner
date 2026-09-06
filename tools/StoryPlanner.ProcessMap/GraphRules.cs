@@ -1,62 +1,121 @@
 namespace StoryPlanner.ProcessMap;
 
-public sealed record FileTraffic(
-    string FileId,
-    IReadOnlyList<string> Producers,
-    IReadOnlyList<string> Consumers);
+public sealed record ArtifactTraffic(
+    string ArtifactId,
+    IReadOnlyList<string> Writers,
+    IReadOnlyList<string> Readers,
+    IReadOnlyList<string> InstrumentOf)
+{
+    /// <summary>Read by a process, or named as one's instrument (§ Schema: that counts as read).</summary>
+    public bool IsRead => Readers.Count > 0 || InstrumentOf.Count > 0;
+}
 
 /// <summary>
-/// Everything the map derives rather than states: consumers, data-flow edges, the union graph,
-/// and the promotion gate as a reachability question.
-///
-/// Consumers are never authored (<c>process-map.md</c> § the note above Format). A hand-kept
-/// consumers column is the stale-mirror failure the map exists to stop repeating.
+/// Everything the tables derive rather than state (SKILL.md § Derived): consumers of each
+/// artifact, data-flow edges between processes, the <c>enables</c> graph's shape, whether an
+/// <c>enables</c> edge is backed by data flow, and the hitl gate as a reachability question.
+/// There is no edges table; every edge here is computed from reads and writes.
 /// </summary>
 public static class GraphRules
 {
-    /// <summary>Producers and consumers of every file row, in table order.</summary>
-    public static IReadOnlyList<FileTraffic> Traffic(ProcessMapDocument doc)
-        => doc.Files.Select(f => new FileTraffic(
-                f.Id,
-                doc.Processes.Where(p => p.Outputs.Contains(f.Id)).Select(p => p.Id).ToList(),
-                doc.Processes.Where(p => p.Inputs.Contains(f.Id)).Select(p => p.Id).ToList()))
+    /// <summary>Writers, readers and instrument-readers of every artifact, in table order.</summary>
+    public static IReadOnlyList<ArtifactTraffic> Traffic(SkillDocument doc)
+        => doc.Artifacts.Select(a => new ArtifactTraffic(
+                a.Id,
+                doc.Processes.Where(p => p.Writes.Contains(a.Id)).Select(p => p.Id).ToList(),
+                doc.Processes.Where(p => p.Reads.Contains(a.Id)).Select(p => p.Id).ToList(),
+                doc.Processes.Where(p => p.Instruments.Contains(a.Id)).Select(p => p.Id).ToList()))
             .ToList();
 
     /// <summary>
-    /// Data-flow edges: p → q when something p writes is something q reads. A process is not
-    /// linked to itself.
+    /// Data-flow edges: p → q when something p writes is something q reads or runs as an
+    /// instrument. A process is not linked to itself.
     /// </summary>
-    public static IReadOnlyList<(string From, string To, string Via)> DataEdges(ProcessMapDocument doc)
+    public static IReadOnlyList<(string From, string To, string Via)> DataEdges(SkillDocument doc)
     {
         var edges = new List<(string, string, string)>();
         foreach (var p in doc.Processes)
         foreach (var q in doc.Processes)
         {
             if (p.Id == q.Id) continue;
-            foreach (var f in p.Outputs)
-                if (q.Inputs.Contains(f))
-                    edges.Add((p.Id, q.Id, f));
+            foreach (var a in p.Writes)
+                if (q.ReadsOrInstruments(a))
+                    edges.Add((p.Id, q.Id, a));
         }
         return edges;
     }
 
-    /// <summary>
-    /// The union graph the promotion gate walks: authored control edges plus derived data-flow
-    /// edges. Control alone would miss a hand-off that happens purely through a file; data alone
-    /// would make a Brian node that gates by sequence rather than by file invisible.
-    /// </summary>
-    public static IReadOnlyDictionary<string, List<string>> UnionGraph(ProcessMapDocument doc)
+    public static IReadOnlyDictionary<string, List<string>> DataGraph(SkillDocument doc)
     {
-        var g = doc.Processes.ToDictionary(p => p.Id, _ => new List<string>());
-        void Add(string from, string to)
-        {
-            if (g.TryGetValue(from, out var list) && g.ContainsKey(to) && !list.Contains(to))
+        var g = doc.Processes.ToDictionary(p => p.Id, _ => new List<string>(), StringComparer.Ordinal);
+        foreach (var (from, to, _) in DataEdges(doc))
+            if (g.TryGetValue(from, out var list) && !list.Contains(to))
                 list.Add(to);
-        }
-        foreach (var e in doc.Edges) Add(e.From, e.To);
-        foreach (var (from, to, _) in DataEdges(doc)) Add(from, to);
         foreach (var list in g.Values) list.Sort(StringComparer.Ordinal);
         return g;
+    }
+
+    /// <summary>Activities that enable nothing. Exactly one is the terminus; the check is the validator's.</summary>
+    public static IReadOnlyList<string> Termini(SkillDocument doc)
+        => doc.Activities.Where(a => a.Enables.Count == 0).Select(a => a.Id).ToList();
+
+    /// <summary>Activities whose <c>enables</c> names this one, in router order.</summary>
+    public static IReadOnlyList<string> EnabledBy(SkillDocument doc, string activityId)
+        => doc.Activities.Where(a => a.Enables.Contains(activityId)).Select(a => a.Id).ToList();
+
+    /// <summary>
+    /// Every cycle in the <c>enables</c> graph, each as the ids around it starting at its
+    /// smallest id. Targets that are not activity ids are ignored here; they are the
+    /// validator's <c>ref.enables</c> finding.
+    /// </summary>
+    public static IReadOnlyList<IReadOnlyList<string>> EnablesCycles(SkillDocument doc)
+    {
+        var ids = doc.Activities.Select(a => a.Id).ToHashSet(StringComparer.Ordinal);
+        var next = doc.Activities.ToDictionary(
+            a => a.Id, a => a.Enables.Where(ids.Contains).ToList(), StringComparer.Ordinal);
+
+        var colour = new Dictionary<string, int>(StringComparer.Ordinal); // 0 white, 1 grey, 2 black
+        var path = new List<string>();
+        var cycles = new List<IReadOnlyList<string>>();
+        var seen = new HashSet<string>(StringComparer.Ordinal);
+
+        void Visit(string id)
+        {
+            colour[id] = 1;
+            path.Add(id);
+            foreach (var to in next[id])
+            {
+                var c = colour.GetValueOrDefault(to);
+                if (c == 0) Visit(to);
+                else if (c == 1)
+                {
+                    var start = path.IndexOf(to);
+                    var cycle = path.Skip(start).ToList();
+                    var rotate = cycle.IndexOf(cycle.Min(StringComparer.Ordinal)!);
+                    var canonical = cycle.Skip(rotate).Concat(cycle.Take(rotate)).ToList();
+                    if (seen.Add(string.Join(">", canonical))) cycles.Add(canonical);
+                }
+            }
+            path.RemoveAt(path.Count - 1);
+            colour[id] = 2;
+        }
+
+        foreach (var a in doc.Activities)
+            if (colour.GetValueOrDefault(a.Id) == 0) Visit(a.Id);
+
+        return cycles;
+    }
+
+    /// <summary>
+    /// The artifacts that back an <c>enables</c> edge: written by a process of
+    /// <paramref name="from"/> and read (or run as an instrument) by a process of
+    /// <paramref name="to"/>. Empty means the edge is asserted and nothing flows along it.
+    /// </summary>
+    public static IReadOnlyList<string> Backing(SkillDocument doc, string from, string to)
+    {
+        var written = doc.ProcessesOf(from).SelectMany(p => p.Writes).Distinct().ToList();
+        var readers = doc.ProcessesOf(to).ToList();
+        return written.Where(a => readers.Any(q => q.ReadsOrInstruments(a))).ToList();
     }
 
     public sealed record GatePath(IReadOnlyList<string> Nodes)
@@ -65,35 +124,30 @@ public static class GraphRules
     }
 
     /// <summary>
-    /// The promotion gate. Finds a path from a process that reads <paramref name="sourceFile"/>
-    /// to the first process on that path writing <paramref name="targetFile"/>, with no
-    /// <c>brian</c> actor anywhere along it.
+    /// The hitl gate. Finds a path over data-flow edges from a process that reads
+    /// <paramref name="sourceArtifact"/> to the first process on that path writing any of
+    /// <paramref name="targetArtifacts"/>, with no <c>hitl</c> process anywhere along it, the
+    /// writer included.
     ///
-    /// The path ENDS at the write, deliberately: a review after the write is detection, and the
-    /// constitutional rules it enforces (only Brian baselines; nothing but a verification pass
-    /// writes to hypotheses/) are preventive. A Brian node downstream of the write does not
-    /// satisfy the gate.
+    /// The path ENDS at the write, deliberately: a review after the write is detection, and
+    /// the rule it enforces (only verification produces evidence; Brian decides each
+    /// promotion) is preventive. An hitl process downstream of the write does not satisfy it.
     ///
-    /// Returns one shortest violating path per reader, or none. A null
-    /// <paramref name="sourceFile"/> means "from anything": every process is a start.
+    /// Returns one shortest violating path per reader, or none.
     /// </summary>
     public static IReadOnlyList<GatePath> UngatedPaths(
-        ProcessMapDocument doc, string? sourceFile, string targetFile)
+        SkillDocument doc, string sourceArtifact, IReadOnlyCollection<string> targetArtifacts)
     {
-        var byId = doc.Processes.ToDictionary(p => p.Id);
-        var graph = UnionGraph(doc);
+        var byId = doc.Processes.ToDictionary(p => p.Id, StringComparer.Ordinal);
+        var graph = DataGraph(doc);
         var found = new List<GatePath>();
 
-        bool IsBrian(string id) => byId[id].Actor == "brian";
-        bool Writes(string id) => byId[id].Outputs.Contains(targetFile);
+        bool IsHitl(string id) => byId[id].Mode == ClosedSets.Hitl;
+        bool Writes(string id) => byId[id].Writes.Any(targetArtifacts.Contains);
 
-        var starts = sourceFile is null
-            ? doc.Processes
-            : doc.Processes.Where(p => p.Inputs.Contains(sourceFile));
-
-        foreach (var start in starts)
+        foreach (var start in doc.Processes.Where(p => p.ReadsOrInstruments(sourceArtifact)))
         {
-            if (IsBrian(start.Id)) continue;
+            if (IsHitl(start.Id)) continue;
 
             // A single row that both reads the source and writes the target is a path of one.
             if (Writes(start.Id))
@@ -103,14 +157,14 @@ public static class GraphRules
             }
 
             var queue = new Queue<List<string>>();
-            var seen = new HashSet<string> { start.Id };
+            var seen = new HashSet<string>(StringComparer.Ordinal) { start.Id };
             queue.Enqueue([start.Id]);
             while (queue.Count > 0)
             {
                 var path = queue.Dequeue();
                 foreach (var next in graph[path[^1]])
                 {
-                    if (IsBrian(next)) continue;          // gated: this branch is fine
+                    if (IsHitl(next)) continue;          // gated: this branch is fine
                     if (!seen.Add(next)) continue;
                     var extended = new List<string>(path) { next };
                     if (Writes(next))
@@ -126,15 +180,4 @@ public static class GraphRules
 
         return found;
     }
-
-    /// <summary>Rows sharing one governing file. An over-broad governor shows up as a big number.</summary>
-    public static IReadOnlyList<(string File, IReadOnlyList<string> Rows)> GovernorFanIn(
-        ProcessMapDocument doc)
-        => doc.Processes
-            .Where(p => p.GovernedBy.Length > 0)
-            .GroupBy(p => p.GovernedBy, StringComparer.Ordinal)
-            .OrderByDescending(g => g.Count())
-            .ThenBy(g => g.Key, StringComparer.Ordinal)
-            .Select(g => (g.Key, (IReadOnlyList<string>)g.Select(p => p.Id).ToList()))
-            .ToList();
 }

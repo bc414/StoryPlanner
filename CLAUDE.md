@@ -439,8 +439,9 @@ tools made none of those mistakes.
   as it lives, so `bin/Debug` stays free for `dotnet build`/`dotnet test`, and a republish needs
   `AgentRunner.exe stop` first:
   `dotnet publish tools/StoryPlanner.AgentRunner -c Release -o tools/StoryPlanner.AgentRunner/publish`.
-  Its inputs and outputs live under `fanout/` (one folder per work; the lifecycle is
-  `fanout/PROTOCOL.md`); rules in the `agent-runner` skill.
+  Its inputs and outputs live under `fanout/` (one folder per work; the order of a run is
+  derived into the v3-buildout skill's `map.md`, and `fanout/PROTOCOL.md` retired on
+  2026-09-05); rules in the `agent-runner` skill.
 - **The pocket reader is a fourth consumer of Core, and it runs in a phone's browser (2026-09-02).**
   `tools/StoryPlanner.PocketReader` is a Blazor WebAssembly PWA (needs the `wasm-tools` workload;
   `WasmBuildNative=true` links SQLitePCLRaw's `e_sqlite3` into the runtime) that opens `.storyplan`

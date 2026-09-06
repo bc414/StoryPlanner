@@ -111,10 +111,23 @@ public class HeadComponentTests : BunitContext
     [Fact]
     public void StageStrip_lights_detected_stages_and_greys_calibration_for_a_protocol()
     {
-        var cut = Render<StageStrip>(p => p.Add(c => c.S, new RunStages(true, null, true, false, true, false, false, true)));
+        var cut = Render<StageStrip>(p => p.Add(c => c.S, new RunStages(true, null, true, false, true, false, true, true)));
         var on = cut.FindAll(".stage.on").Select(e => e.TextContent).ToList();
-        Assert.Equal(["instrument", "enumerated", "piloted", "run.md"], on);
+        Assert.Equal(["instrument", "enumerated", "piloted", "tally", "run.md"], on);   // "tally": the file, not the tallier
         Assert.Contains("na", cut.Find(".stage:nth-child(2)").ClassList);
+    }
+
+    [Fact]
+    public void StreamPane_labels_thinking_and_usage_events_by_kind_without_repeating_the_kind_in_the_text()
+    {
+        var cut = Render<StreamPane>(p => p.Add(c => c.Events,
+            [new StreamEvent("init", "model claude-sonnet-5; tools [Write]; mcp servers 0", "{}"),
+             new StreamEvent("thinking", "~6,606 tokens so far (estimated), 55 steps", "{}"),
+             new StreamEvent("usage", "five-hour 49%, seven-day 18%", "{}")]));
+        var events = cut.FindAll(".ev");
+        Assert.Equal("initmodel claude-sonnet-5; tools [Write]; mcp servers 0", events[0].TextContent);   // the label once, then the text
+        Assert.Equal("thinking", events[1].QuerySelector(".k")!.TextContent);
+        Assert.Contains("usage", events[2].QuerySelector(".k")!.ClassList);
     }
 
     [Fact]

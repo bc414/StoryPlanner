@@ -3,10 +3,10 @@ using System.Text.Json;
 namespace StoryPlanner.AgentRunner;
 
 /// <summary>
-/// The host's settings: the port and bind address of the page, the global ceilings, and
-/// where the fanout tree is. Read from <c>configs/host.json</c> when present; every field
-/// has a default. <c>token</c> and <c>bind</c> exist for the LAN follow-up and are inert on
-/// localhost.
+/// The host's settings: the port and bind address of the page, the global ceilings, where
+/// the fanout tree is, and optionally where the process map is. Read from
+/// <c>configs/host.json</c> when present; every field has a default. <c>token</c> and
+/// <c>bind</c> exist for the LAN follow-up and are inert on localhost.
 /// </summary>
 public sealed record HostConfig(
     int Port = 5190,
@@ -14,9 +14,35 @@ public sealed record HostConfig(
     string? Token = null,
     string? FanoutRoot = null,
     int MaxParallel = 4,
-    int UtilizationCap = 80)
+    int UtilizationCap = 80,
+    string? MapPath = null)
 {
     public string Url => $"http://{Bind}:{Port}";
+
+    /// <summary>The skill folders the map is looked for under, in order, until the router swap retires the second.</summary>
+    public static readonly string[] MapCandidates =
+        [".claude/skills/v3-buildout/map.md", ".claude/skills/v3-buildout-2/map.md"];
+
+    /// <summary>
+    /// Where the process map is: <c>mapPath</c> from host.json (absolute, or relative to the
+    /// repo root), else the first of <see cref="MapCandidates"/> that exists under the repo
+    /// root, which is the folder above the fanout root. Null when none exists.
+    /// </summary>
+    public static string? ResolveMapPath(string? mapPath, string fanoutRoot)
+    {
+        var repoRoot = Path.GetDirectoryName(Path.TrimEndingDirectorySeparator(Path.GetFullPath(fanoutRoot))) ?? fanoutRoot;
+        if (!string.IsNullOrWhiteSpace(mapPath))
+        {
+            var explicitPath = Path.IsPathRooted(mapPath) ? mapPath : Path.Combine(repoRoot, mapPath);
+            return File.Exists(explicitPath) ? Path.GetFullPath(explicitPath) : null;
+        }
+        foreach (var candidate in MapCandidates)
+        {
+            var p = Path.Combine(repoRoot, candidate.Replace('/', Path.DirectorySeparatorChar));
+            if (File.Exists(p)) return p;
+        }
+        return null;
+    }
 
     private static readonly JsonSerializerOptions Json = new() { PropertyNameCaseInsensitive = true, ReadCommentHandling = JsonCommentHandling.Skip };
 
@@ -109,6 +135,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     private readonly CancellationTokenSource _cts = new();
     private readonly string _logPath;
     private readonly Action<string>? _echo;
+    private readonly Func<Utilization?> _utilization;
     private readonly Timer _scheduler;
     private int _inFlight;
 
@@ -123,7 +150,13 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     public event Action? Changed;
     public event Action<string, string, int>? StreamAdvanced;
 
-    public RunnerHost(HostConfig config, IChildLauncher launcher, string harnessVersion, Action<string>? echo = null)
+    /// <param name="utilization">
+    /// Where the cap reads the usage figure; the cache in <c>~/.claude.json</c> by default. Tests
+    /// pass their own so the launch gate never depends on the developer's live subscription
+    /// window — on 2026-09-05 the pure-tier API tests timed out because the real cache stood
+    /// at 81% against the default cap of 80.
+    /// </param>
+    public RunnerHost(HostConfig config, IChildLauncher launcher, string harnessVersion, Action<string>? echo = null, Func<Utilization?>? utilization = null)
     {
         Config = config;
         FanoutRoot = Path.GetFullPath(config.FanoutRoot ?? HostConfig.FindFanoutRoot());
@@ -132,6 +165,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         _launcher = launcher;
         _harnessVersion = harnessVersion;
         _echo = echo;
+        _utilization = utilization ?? ReadCachedUtilization;
         Directory.CreateDirectory(FanoutRoot);
         _logPath = Path.Combine(FanoutRoot, "host-log.txt");
         _scheduler = new Timer(_ => StartDue(), null, TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1));
@@ -202,19 +236,34 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         runner.Changed += () => Changed?.Invoke();
         runner.StreamAdvanced += (job, attempt) => StreamAdvanced?.Invoke(runId, job, attempt);
         var pilot = jobFilter is null ? "" : $" (pilot: --job {jobFilter})";
+        var tally = EnqueueTally(runner);
         if (notBefore is { } at && at > DateTimeOffset.UtcNow)
         {
             runner.NotBefore = at;
             lock (_lock) _live[runId] = runner;
-            Log($"[{runId}] scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}{pilot}: {runner.Jobs.Count} job(s), run ceiling {runner.MaxParallel}");
+            Log($"[{runId}] scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}{pilot}: {tally}, run ceiling {runner.MaxParallel}");
             Changed?.Invoke();
-            return new EnqueueResult(true, runId, $"{runId}: {runner.Jobs.Count} job(s) scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}");
+            return new EnqueueResult(true, runId, $"{runId}: {tally}; scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}");
         }
 
         lock (_lock) _live[runId] = runner;
-        Log($"[{runId}] enqueued{pilot}: {runner.Jobs.Count} job(s), run ceiling {runner.MaxParallel}");
+        Log($"[{runId}] enqueued{pilot}: {tally}, run ceiling {runner.MaxParallel}");
         Start(runner);
-        return new EnqueueResult(true, runId, $"{runId}: {runner.Jobs.Count} job(s) enqueued");
+        return new EnqueueResult(true, runId, $"{runId}: {tally}");
+    }
+
+    /// <summary>
+    /// What an enqueue will actually do, from the ledger: the jobs it will launch, the ones it
+    /// skips as already succeeded, and the ones already failed at maxAttempts, which never
+    /// relaunch. "46 job(s) enqueued" once meant 45 launches and one skip (2026-09-05).
+    /// </summary>
+    public static string EnqueueTally(BatchRunner runner)
+    {
+        var states = runner.Jobs.Select(runner.StateOf).ToList();
+        var pending = states.Count(s => s == JobState.Pending);
+        var succeeded = states.Count(s => s == JobState.Succeeded);
+        var failed = states.Count(s => s == JobState.Failed);
+        return $"{runner.Jobs.Count} job(s) enqueued — {pending} to launch, {succeeded} skipped as succeeded, {failed} already failed and not relaunched";
     }
 
     private void Start(BatchRunner runner)
@@ -347,7 +396,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     }
 
     /// <summary>What Claude Code last cached in <c>~/.claude.json</c> — not a live query; the file's mtime says how stale.</summary>
-    public Utilization? ReadUtilization() => ReadCachedUtilization();
+    public Utilization? ReadUtilization() => _utilization();
 
     public static Utilization? ReadCachedUtilization()
     {

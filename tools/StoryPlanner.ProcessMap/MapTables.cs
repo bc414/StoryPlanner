@@ -2,8 +2,17 @@ using System.Text;
 
 namespace StoryPlanner.ProcessMap;
 
-/// <summary>Raised when the markdown cannot be parsed. The rule is flag, never guess.</summary>
-public sealed class MapFormatException(string message) : Exception(message);
+/// <summary>
+/// Raised when the markdown cannot be parsed. The rule is flag, never guess. Carries the rule
+/// id the validator reports it under, so a structural refusal and a schema refusal stay
+/// distinguishable in the report.
+/// </summary>
+public sealed class MapFormatException(string message, string ruleId = MapFormatException.Unparseable)
+    : Exception(message)
+{
+    public const string Unparseable = "table.unparseable";
+    public string RuleId { get; } = ruleId;
+}
 
 public sealed record MarkdownTable(
     string Section,

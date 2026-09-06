@@ -23,9 +23,14 @@ button.danger { border-color:var(--bad); color:var(--bad); }
 .split { display:grid; grid-template-columns: minmax(0,3fr) minmax(0,2fr); gap:16px; } @media (max-width:1000px) { .split { grid-template-columns:1fr; } }
 .stream { background:#141414; color:#e8e8e2; font:12px/1.5 ui-monospace, Consolas, monospace; padding:10px; border-radius:6px; max-height:70vh; overflow:auto; white-space:pre-wrap; word-break:break-word; }
 .stream .ev { padding:2px 0; border-bottom:1px solid #2a2a2a; } .stream .k { color:#9ab; margin-right:8px; } .stream .k.tool { color:#e6c07b; } .stream .k.done { color:#98c379; } .stream .k.init { color:#61afef; } .stream .k.result { color:#c678dd; }
+.stream .k.thinking { color:#7f848e; } .stream .k.usage { color:#56b6c2; } .stream .k.system { color:#d19a66; }
 .notes { background:var(--panel); border:1px solid var(--line); border-radius:6px; padding:8px 14px; margin-bottom:12px; }
 .notes h1, .notes h2, .notes h3 { text-transform:none; letter-spacing:0; color:var(--ink); }
-.protocol { max-width: 880px; } .protocol code { background:#f1f1ec; padding:1px 4px; border-radius:3px; }
+.protocol { max-width: 1100px; } .protocol code { background:#f1f1ec; padding:1px 4px; border-radius:3px; }
+.protocol h1, .protocol h2, .protocol h3 { text-transform:none; letter-spacing:0; color:var(--ink); }
+.protocol table { width:auto; margin:8px 0 16px; } .protocol table code { background:transparent; padding:0; }
+.protocol details.diagram { margin:8px 0 16px; } .protocol details.diagram summary { cursor:pointer; color:var(--muted); font-size:12px; }
+.protocol details.diagram pre { background:#f1f1ec; padding:8px 12px; border-radius:6px; overflow:auto; max-height:60vh; font-size:12px; }
 .hold { color:var(--warn); }
 .err { color:var(--bad); }
 .hostbar { flex-direction:column; align-items:stretch; gap:8px; }

@@ -271,4 +271,26 @@ public class RunnerPlanTests
         Assert.Equal("ab", streamed.SessionId);
         Assert.Equal("done", streamed.ResultText);
     }
+
+    /// <summary>
+    /// The fourth shape (harness 2.1.258, the 2026-09-05 audit run): <c>system</c> lines with
+    /// subtypes other than <c>init</c>, <c>rate_limit_event</c> lines, and a result object whose
+    /// <c>type</c> key comes late. The result event is found by its key, not its position, so
+    /// the totals still read. Lines copied from the pilot's stream, the result trimmed of its
+    /// per-model usage detail.
+    /// </summary>
+    [Fact]
+    public void Result_summary_reads_the_harness_2_1_258_stream_shape()
+    {
+        const string stream = "{\"type\":\"system\",\"subtype\":\"init\",\"cwd\":\"C:\\\\x\",\"session_id\":\"9fccd71b-e207-49f4-9af7-9b5ab29b65b4\",\"tools\":[\"Write\"],\"mcp_servers\":[],\"model\":\"claude-sonnet-5\",\"claude_code_version\":\"2.1.258\"}\n"
+            + "{\"type\":\"rate_limit_event\",\"rate_limit_info\":{\"status\":\"allowed\",\"unifiedWindows\":{\"five_hour\":{\"utilization\":0.49,\"resetsAt\":1788624000}}}}\n"
+            + "{\"type\":\"system\",\"subtype\":\"thinking_tokens\",\"estimated_tokens\":50,\"estimated_tokens_delta\":50,\"session_id\":\"9fccd71b-e207-49f4-9af7-9b5ab29b65b4\"}\n"
+            + "{\"type\":\"assistant\",\"message\":{\"role\":\"assistant\",\"content\":[{\"type\":\"tool_use\",\"name\":\"Write\",\"input\":{\"file_path\":\"C:/x/results/arm-A-the-referee.md\",\"content\":\"## unit-084\"}}]}}\n"
+            + "{\"duration_api_ms\":79047,\"stop_reason\":\"end_turn\",\"session_id\":\"9fccd71b-e207-49f4-9af7-9b5ab29b65b4\",\"total_cost_usd\":0.392869,\"usage\":{\"input_tokens\":4,\"output_tokens\":7877},\"permission_denials\":[],\"is_error\":false,\"num_turns\":2,\"subtype\":\"success\",\"result\":\"Wrote the audit for all 7 units (unit-084–unit-090) to `arm-A-the-referee.md`.\",\"type\":\"result\",\"duration_ms\":77542,\"uuid\":\"28d49425-3898-4978-93d2-3aafd9171725\"}\n";
+        var s = RunnerPlan.ParseResultSummary(stream);
+        Assert.Equal(0.392869, s.CostUsd);
+        Assert.Equal(2, s.Turns);
+        Assert.Equal("9fccd71b-e207-49f4-9af7-9b5ab29b65b4", s.SessionId);
+        Assert.StartsWith("Wrote the audit for all 7 units", s.ResultText);
+    }
 }

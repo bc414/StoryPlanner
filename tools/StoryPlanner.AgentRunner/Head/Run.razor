@@ -14,7 +14,7 @@ else
     @if (!run.InputsResolvable) { <p class="hold">Some inputs named by jobs.json are no longer at their paths; the ledger's hashes are the record of what ran.</p> }
     <StageStrip S="run.Stages" />
     @if (run.RunMd is { } md) { <div class="notes">@MarkdownView.Render(md)</div> }
-    else { <p class="muted">No <code>run.md</code> yet — the authored front page of a run (see <a href="/protocol">protocol</a>).</p> }
+    else { <p class="muted">No <code>run.md</code> yet — the authored front page of a run (what it holds: the v3-buildout skill's <code>artifacts.md</code> § run.md; its place in the order: the <a href="/protocol">process map</a>).</p> }
 
     <HarnessControls Run="run" SelectedJobId="@selected" OnAction="Act" OnMaxParallel="n => Host.SetRunMaxParallel(run.RunId, n)" />
     <p class="muted">@run.Succeeded succeeded, @run.Failed failed, @run.Pending pending — api-equiv $@run.CostUsd.ToString("F2") — attempts in <code>@run.RunDir</code></p>

@@ -16,17 +16,18 @@ public sealed record JobSnapshot(
     string? StreamPath);
 
 /// <summary>
-/// The stages of the lifecycle (fanout/PROTOCOL.md) a run folder shows evidence of, each
-/// detected mechanically from what is on disk — never declared, never judged.
+/// The stages of a run (agent-runner skill § The host and its page; the order of a run is
+/// the v3-buildout skill's map) a run folder shows evidence of, each detected mechanically
+/// from what is on disk — never declared, never judged.
 /// </summary>
 public sealed record RunStages(
-    bool Instrument,       // protocol.md or codebook.md in the run folder or its work folder
+    bool Instrument,       // protocol[-N].md or codebook[-N].md in the run folder or its work folder
     bool? Calibrated,      // codebook only: a calibration-*.md beside it; null when the instrument is a protocol
     bool Enumerated,       // items/manifest.md
     bool Generated,        // jobs.json stamped by a generator
     bool Piloted,          // a ledger row with Mode = pilot
-    bool BatchComplete,    // every job succeeded or failed
-    bool Tallied,          // tally.* in the run folder or its work folder
+    bool BatchComplete,    // every job in the file succeeded or failed
+    bool Tallied,          // tally.md in the run folder — the tally written, not the tallier present
     bool Documented);      // run.md
 
 /// <summary>

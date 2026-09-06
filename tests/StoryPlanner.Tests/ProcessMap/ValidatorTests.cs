@@ -10,11 +10,13 @@ namespace StoryPlanner.Tests;
 /// </summary>
 public class ValidatorTests
 {
+    const string Skill = MapFixture.SkillFile;
+    const string Artifacts = MapFixture.ArtifactsFile;
+    const string Refereeing = MapFixture.RefereeingFile;
+    const string Promoting = MapFixture.PromotingFile;
+
     static string[] Rules(MapFixture f)
-        => Validator.Validate(f.RepoRoot, f.SkillFolder).Findings
-            .Where(x => x.Level == FindingLevel.Failure)
-            .Select(x => x.RuleId)
-            .ToArray();
+        => f.Report.Findings.Where(x => x.Level == FindingLevel.Failure).Select(x => x.RuleId).ToArray();
 
     static void Fails(string rule, MapFixture fixture)
     {
@@ -22,213 +24,246 @@ public class ValidatorTests
     }
 
     [Fact]
-    public void The_reference_map_validates_clean()
+    public void The_reference_skill_validates_clean()
     {
         using var f = new MapFixture();
-        var report = Validator.Validate(f.RepoRoot, f.SkillFolder);
+        var report = f.Report;
         Assert.True(report.Passed, string.Join("\n", report.Findings
             .Where(x => x.Level == FindingLevel.Failure)
             .Select(x => $"{x.RuleId} {x.RowId} {x.Message}")));
     }
 
+    // ---- structure ----
+
+    [Fact]
+    public void An_unparseable_table_is_one_finding_under_its_rule_id()
+    {
+        using var f = MapFixture.With(Promoting, "| Brian decides each candidate |", "| Brian decides each candidate | extra |");
+        Assert.Equal([MapFormatException.Unparseable], Rules(f));
+    }
+
+    [Fact]
+    public void A_table_of_an_unknown_signature_is_one_finding_under_its_rule_id()
+    {
+        using var f = MapFixture.With(Promoting,
+            "Promotes what Brian did not decide.",
+            "Promotes what Brian did not decide.\n\n| a | b |\n|---|---|\n| one | two |\n");
+        Assert.Equal([SkillReader.UnknownSignature], Rules(f));
+    }
+
+    [Fact]
+    public void A_markdown_file_no_router_row_names_is_an_orphan_activity()
+        => Fails("file.orphan-activity", MapFixture.WithExtra("stray.md", "# stray\n"));
+
     // ---- ids and references ----
 
     [Fact]
     public void An_id_used_in_two_tables_is_a_duplicate()
-        => Fails("id.duplicate", MapFixture.With("| f.a | docs/a.md", "| G1 | docs/a.md"));
+        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | fanout/<instance>/<run>/items/", "| promote | fanout/<instance>/<run>/items/"));
 
     [Fact]
-    public void An_input_naming_no_file_row_does_not_resolve()
-        => Fails("ref.file", MapFixture.With("| hitl:fable | f.hyp | f.a |", "| hitl:fable | f.nope | f.a |"));
+    public void An_id_outside_the_lowercase_slug_charset_fails()
+        => Fails("id.charset", MapFixture.With(Refereeing, "referee-judge", "Referee-Judge"));
 
     [Fact]
-    public void A_root_cell_naming_no_root_row_does_not_resolve()
-        => Fails("ref.root", MapFixture.With("| f.a | G1 | docs/proc.md", "| f.a | G9 | docs/proc.md"));
+    public void An_enables_cell_naming_no_activity_does_not_resolve()
+        => Fails("ref.enables", MapFixture.With(Skill, "| refereeing-a-candidate | promoting-checked-candidates |", "| refereeing-a-candidate | nowhere |"));
 
     [Fact]
-    public void An_edge_endpoint_naming_no_process_does_not_resolve()
-        => Fails("ref.edge", MapFixture.With("| P.0 | P.1 | flow |", "| P.0 | P.99 | flow |"));
+    public void A_read_naming_no_artifact_does_not_resolve()
+        => Fails("ref.reads", MapFixture.With(Refereeing, "| codebook items | results |", "| codebook nope | results |"));
+
+    [Fact]
+    public void A_write_naming_no_artifact_does_not_resolve()
+        => Fails("ref.writes", MapFixture.With(Refereeing, "| codebook items | results | specified |", "| codebook items | nope | specified |"));
+
+    [Fact]
+    public void A_format_naming_no_heading_in_artifacts_md_does_not_resolve()
+        => Fails("ref.format", MapFixture.With(Artifacts, "| Candidate |", "| Candidates |"));
+
+    [Fact]
+    public void An_activity_that_is_not_the_terminus_needs_its_file()
+        => Fails("ref.companion", MapFixture.Without(Promoting));
+
+    [Fact]
+    public void The_terminus_needs_no_file()
+    {
+        using var f = new MapFixture();
+        Assert.DoesNotContain("ref.companion", Rules(f));
+    }
 
     // ---- closed sets ----
 
     [Fact]
-    public void A_root_kind_outside_the_closed_set_fails()
-        => Fails("enum.root-kind", MapFixture.With("| G1 | goal |", "| G1 | wish |"));
+    public void A_mode_outside_the_closed_set_fails()
+        => Fails("enum.mode", MapFixture.With(Refereeing, "| referee-judge | agent |", "| referee-judge | robot |"));
 
     [Fact]
-    public void A_keep_value_outside_the_closed_set_fails()
-        => Fails("enum.keep", MapFixture.With("| f.a | docs/a.md | committed |", "| f.a | docs/a.md | kept |"));
-
-    [Fact]
-    public void A_level_outside_the_closed_set_fails()
-        => Fails("enum.level", MapFixture.With("| P.1 | P | sop |", "| P.1 | Z | sop |"));
+    public void Two_modes_on_one_row_fail_because_a_process_is_one_run_of_one_mode()
+        => Fails("row.mode-count", MapFixture.With(Refereeing, "| referee-judge | agent |", "| referee-judge | agent session |"));
 
     [Fact]
     public void A_state_outside_the_closed_set_fails()
-        => Fails("enum.state", MapFixture.With("| docs/proc.md | exists |\n| P.1", "| docs/proc.md | maybe |\n| P.1"));
+        => Fails("enum.state", MapFixture.With(Refereeing, "| results | specified | Writes the falsifier blind |", "| results | maybe | Writes the falsifier blind |"));
 
     [Fact]
-    public void An_edge_kind_outside_the_closed_set_fails()
-        => Fails("enum.edge-kind", MapFixture.With("| P.0 | P.1 | flow |", "| P.0 | P.1 | maybe |"));
+    public void A_mutation_outside_the_closed_set_fails()
+        => Fails("enum.mutation", MapFixture.With(Artifacts, "| succeeded |", "| versioned |"));
 
     // ---- row minima ----
 
     [Fact]
-    public void An_actor_outside_the_closed_set_fails()
-        => Fails("row.actor", MapFixture.With("| script | f.a | f.b |", "| robot | f.a | f.b |"));
-
-    [Fact]
-    public void An_actor_prefix_with_no_model_after_the_colon_fails()
-        => Fails("row.actor", MapFixture.With("| script | f.a | f.b |", "| agent: | f.a | f.b |"));
-
-    [Fact]
-    public void Any_model_name_after_the_prefix_is_accepted()
-    {
-        using var f = MapFixture.With("| script | f.a | f.b |", "| agent:model-varies | f.a | f.b |");
-        Assert.DoesNotContain("row.actor", Rules(f));
-    }
-
-    [Fact]
-    public void A_process_citing_no_root_fails()
-        => Fails("row.roots-empty", MapFixture.With("| f.a | f.b | G1 |", "| f.a | f.b |  |"));
-
-    [Fact]
     public void A_process_reading_nothing_fails_because_it_is_deriving_from_recall()
-        => Fails("row.inputs-empty", MapFixture.With("| script | f.a | f.b |", "| script |  | f.b |"));
+        => Fails("row.reads-empty", MapFixture.With(Refereeing, "| referee-judge | agent | | codebook items |", "| referee-judge | agent | |  |"));
 
     [Fact]
     public void A_process_writing_nothing_fails_because_it_is_indistinguishable_from_not_running()
-        => Fails("row.outputs-empty", MapFixture.With("| script | f.a | f.b |", "| script | f.a |  |"));
+        => Fails("row.writes-empty", MapFixture.With(Refereeing, "| codebook items | results | specified |", "| codebook items |  | specified |"));
 
     [Fact]
-    public void A_choice_edge_with_no_branch_condition_fails()
-        => Fails("edge.choice-label",
-            MapFixture.With("| P.1 | P.2 | choice | when there is something to propose |", "| P.1 | P.2 | choice |  |"));
+    public void An_hitl_process_writing_nothing_fails_under_its_own_rule_too()
+        => Fails("row.hitl-writes-nothing", MapFixture.With(Promoting,
+            "| hypothesis-record hypothesis-status candidates question-list verification-artifact | specified |",
+            "|  | specified |"));
 
     [Fact]
-    public void A_flow_edge_may_carry_no_label()
+    public void A_process_with_no_description_fails()
+        => Fails("row.description-empty", MapFixture.With(Refereeing, "| specified | Writes the falsifier blind |", "| specified |  |"));
+
+    // ---- artifacts ----
+
+    [Fact]
+    public void A_path_cell_naming_two_patterns_fails_the_syntax_rule()
+        => Fails("artifact.path-syntax", MapFixture.With(Artifacts,
+            "| fanout/<instance>/codebook-N.md |", "| fanout/<instance>/codebook-N.md, or fanout/referee/codebook-N.md |"));
+
+    [Fact]
+    public void An_artifact_no_process_reads_fails()
+        => Fails("artifact.never-read", MapFixture.With(Artifacts,
+            "| results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs |",
+            "| results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
+
+    [Fact]
+    public void An_artifact_no_process_writes_is_information_not_a_verdict()
     {
         using var f = new MapFixture();
-        Assert.DoesNotContain("edge.choice-label", Rules(f));
-    }
-
-    // ---- governed-by is a file, never a section ----
-
-    [Fact]
-    public void A_governed_by_cell_addressing_a_section_fails()
-        => Fails("governed-by.syntax", MapFixture.With("| G1 | docs/proc.md | exists |", "| G1 | docs/proc.md § What it does | exists |"));
-
-    [Fact]
-    public void A_governed_by_cell_with_a_parenthetical_fails()
-        => Fails("governed-by.syntax", MapFixture.With("| G1 | docs/proc.md | exists |", "| G1 | docs/proc.md (record only) | exists |"));
-
-    [Fact]
-    public void A_bare_file_name_fails_because_there_is_no_search_order()
-        => Fails("governed-by.syntax", MapFixture.With("| G1 | docs/proc.md | exists |", "| G1 | proc.md | exists |"));
-
-    [Fact]
-    public void A_governed_by_file_that_does_not_exist_fails()
-        => Fails("governed-by.missing-file", MapFixture.With("| G1 | docs/proc.md | exists |", "| G1 | docs/nope.md | exists |"));
-
-    [Fact]
-    public void An_empty_governed_by_fails_because_precedence_needs_a_named_document()
-        => Fails("governed-by.empty", MapFixture.With("| G1 | docs/proc.md | exists |", "| G1 |  | exists |"));
-
-    // ---- Roots.source keeps the locus grammar ----
-
-    [Fact]
-    public void A_source_naming_a_heading_the_file_does_not_have_fails()
-        => Fails("source.heading", MapFixture.With("docs/goal.md § Goal |", "docs/goal.md § Purpose |"));
-
-    [Fact]
-    public void A_source_item_beyond_the_list_length_fails()
-        => Fails("source.item", MapFixture.With("docs/goal.md § Rules ¶ 2 |", "docs/goal.md § Rules ¶ 9 |"));
-
-    [Fact]
-    public void A_trailing_integer_is_a_syntax_error_and_is_never_read_as_an_item()
-        => Fails("source.syntax", MapFixture.With("docs/goal.md § Rules ¶ 2 |", "docs/goal.md § Rules 2 |"));
-
-    [Fact]
-    public void A_source_may_list_several_places_separated_by_semicolons()
-    {
-        using var f = MapFixture.With("docs/goal.md § Goal |", "docs/goal.md § Goal; docs/proc.md § What it does |");
-        Assert.DoesNotContain("source.syntax", Rules(f));
-    }
-
-    [Fact]
-    public void A_root_no_process_cites_fails()
-        => Fails("root.uncited", MapFixture.With("| C1 | docs/proc.md | exists |", "| G1 | docs/proc.md | exists |"));
-
-    // ---- file traffic: three distinct kinds, no exemption ----
-
-    [Fact]
-    public void A_file_written_and_never_read_fails()
-        => Fails("file.written-never-read", MapFixture.With("| P.0 | P | sop | Seed the cycle | hitl:fable | f.hyp | f.a |", "| P.0 | P | sop | Seed the cycle | hitl:fable | f.b | f.a |"));
-
-    [Fact]
-    public void A_file_read_and_never_written_fails()
-        => Fails("file.read-never-written", MapFixture.With("| P.1 | P | sop | Transform a into b | script | f.a | f.b |", "| P.1 | P | sop | Transform a into b | script | f.a | f.cand |"));
-
-    [Fact]
-    public void A_file_no_process_touches_at_all_fails_as_its_own_kind()
-        => Fails("file.uncited", MapFixture.With(
-            "| f.hyp | docs/hyp.md | committed | docs/proc.md |",
-            "| f.hyp | docs/hyp.md | committed | docs/proc.md |\n| f.orphan | docs/orphan.md | committed | docs/proc.md |"));
-
-    // ---- the promotion gate ----
-
-    [Fact]
-    public void A_non_brian_row_reading_candidates_and_writing_hypotheses_is_ungated()
-        => Fails("gate.ungated", MapFixture.With("| P.3 | M | sop | Promote | brian |", "| P.3 | M | sop | Promote | hitl:fable |"));
-
-    [Fact]
-    public void A_brian_row_on_the_path_before_the_write_gates_it()
-    {
-        using var f = new MapFixture();
-        Assert.DoesNotContain("gate.ungated", Rules(f));
-    }
-
-    [Fact]
-    public void A_check_with_no_subject_is_reported_as_vacuous_rather_than_passing()
-    {
-        using var f = new MapFixture();
-        var report = Validator.Validate(f.RepoRoot, f.SkillFolder);
-        Assert.Contains(report.Findings, x => x.Level == FindingLevel.Vacuous && x.RuleId == "gate.vacuous");
+        var report = f.Report;
+        Assert.Contains(report.Findings, x => x.RuleId == "info.artifact.never-written" && x.RowId == "codebook" && x.Level == FindingLevel.Info);
         Assert.True(report.Passed);
     }
 
-    // ---- bootstrap ----
+    // ---- the enables graph ----
 
     [Fact]
-    public void A_bootstrap_row_with_nothing_that_retires_it_fails()
-        => Fails("bootstrap.unlisted", MapFixture.With("| P.2 | V | sop |", "| P.2 | V | bootstrap |"));
+    public void A_cycle_in_enables_fails()
+        => Fails("enables.cycle", MapFixture.With(Skill, "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | refereeing-a-candidate |"));
 
     [Fact]
-    public void A_bootstrap_table_row_naming_no_process_fails()
-        => Fails("bootstrap.unknown-row", MapFixture.With(
-            "| row | retired by |\n|---|---|",
-            "| row | retired by |\n|---|---|\n| P.99 | some commit |"));
+    public void Two_activities_enabling_nothing_fail_the_one_terminus_rule()
+        => Fails("enables.terminus-count", MapFixture.With(Skill, "| promoting-checked-candidates | changing-the-planner-for-v3 |", "| promoting-checked-candidates |  |"));
 
     [Fact]
-    public void A_listed_row_whose_kind_is_not_bootstrap_fails()
-        => Fails("bootstrap.not-bootstrap", MapFixture.With(
-            "| row | retired by |\n|---|---|",
-            "| row | retired by |\n|---|---|\n| P.2 | some commit |"));
-
-    // ---- SKILL.md's published limits ----
+    public void A_terminus_that_owns_processes_fails()
+        => Fails("enables.terminus-owns-processes", MapFixture.With(Skill, "| promoting-checked-candidates | changing-the-planner-for-v3 |", "| promoting-checked-candidates |  |"));
 
     [Fact]
-    public void A_companion_named_by_no_skill_file_is_unreachable()
+    public void An_enables_edge_nothing_flows_along_fails()
+        => Fails("enables.unbacked", MapFixture.With(Promoting,
+            "| git | candidates hypothesis-record hypothesis-status question-list verification-artifact |",
+            "| git | hypothesis-record hypothesis-status question-list verification-artifact |"));
+
+    [Fact]
+    public void An_edge_into_the_terminus_is_exempt_and_said_so()
     {
-        using var f = new MapFixture(skill: "---\nname: example\ndescription: d\n---\n\n# Example\n");
-        Assert.Contains("skill.companion-unlinked", Rules(f));
+        using var f = new MapFixture();
+        var report = f.Report;
+        Assert.DoesNotContain("enables.unbacked", Rules(f));
+        Assert.Contains(report.Findings, x => x.RuleId == "enables.vacuous" && x.Level == FindingLevel.Vacuous);
+    }
+
+    // ---- the hitl gate ----
+
+    [Fact]
+    public void A_session_row_reading_candidates_and_writing_a_hypothesis_artifact_is_ungated()
+        => Fails("gate.ungated", MapFixture.With(Promoting, "| promote | hitl |", "| promote | session |"));
+
+    [Fact]
+    public void An_hitl_writer_gates_the_path()
+    {
+        using var f = new MapFixture();
+        Assert.DoesNotContain("gate.ungated", Rules(f));
+        Assert.DoesNotContain(f.Report.Findings, x => x.RuleId == "gate.vacuous");
+    }
+
+    [Fact]
+    public void A_gate_with_no_hypothesis_writer_is_reported_as_vacuous_rather_than_passing()
+    {
+        using var f = MapFixture.With(Promoting,
+            "| hypothesis-record hypothesis-status candidates question-list verification-artifact | specified |",
+            "| candidates question-list verification-artifact | specified |");
+        var report = f.Report;
+        Assert.Contains(report.Findings, x => x.RuleId == "gate.vacuous" && x.Level == FindingLevel.Vacuous);
+        Assert.True(report.Passed);
+    }
+
+    // ---- questions are Brian's ----
+
+    [Fact]
+    public void A_non_hitl_writer_of_the_question_list_fails()
+        => Fails("question-list.writer-not-hitl", MapFixture.With(Refereeing, "| results candidates | candidates |", "| results candidates | candidates question-list |"));
+
+    // ---- the mutation rule, frozen only, series exempt ----
+
+    [Fact]
+    public void A_process_reading_and_writing_a_frozen_artifact_fails()
+        => Fails("mutation.read-and-write", MapFixture.With(Refereeing, "| codebook items | results |", "| codebook items | results items |"));
+
+    [Fact]
+    public void A_process_reading_and_writing_a_frozen_series_is_not_reported_because_it_writes_the_next_member()
+    {
+        // referee-run reads calibration-record (frozen, dated); make it write one too.
+        using var f = MapFixture.With(Refereeing,
+            "| instances calibration-record codebook candidates | items |",
+            "| instances calibration-record codebook candidates | items calibration-record |");
+        Assert.DoesNotContain("mutation.read-and-write", Rules(f));
+    }
+
+    [Fact]
+    public void A_process_reading_and_writing_a_succeeded_or_append_artifact_is_not_reported()
+    {
+        // promote reads and writes candidates (append); make referee-judge read and write codebook (succeeded).
+        using var f = MapFixture.With(Refereeing, "| codebook items | results |", "| codebook items | results codebook |");
+        Assert.DoesNotContain("mutation.read-and-write", Rules(f));
+    }
+
+    // ---- the activity file's shape ----
+
+    [Fact]
+    public void A_section_that_is_not_a_process_id_fails_the_shape()
+        => Fails("file.shape", MapFixture.With(Refereeing, "## referee-judge", "## referee-judging"));
+
+    [Fact]
+    public void A_title_that_is_not_the_activity_id_fails_the_shape()
+        => Fails("file.shape", MapFixture.With(Refereeing, "# refereeing-a-candidate", "# Refereeing"));
+
+    // ---- SKILL.md's published limits and the one-level-deep rule ----
+
+    [Fact]
+    public void A_companion_not_named_by_the_router_is_unreachable()
+        => Fails("skill.companion-unlinked", MapFixture.With(Skill, "artifacts.md holds the Artifacts table; ", ""));
+
+    [Fact]
+    public void An_activity_file_is_linked_by_its_router_row()
+    {
+        using var f = new MapFixture();
+        Assert.DoesNotContain("skill.companion-unlinked", Rules(f));
     }
 
     [Fact]
     public void A_description_over_the_published_limit_fails()
     {
         var long_ = new string('x', Validator.SkillDescriptionBudget + 1);
-        using var f = new MapFixture(skill: $"---\nname: example\ndescription: {long_}\n---\n\nprocess-map.md\n");
+        using var f = MapFixture.With(Skill, "description: An example skill for the process map tests.", $"description: {long_}");
         Assert.Contains("skill.description-length", Rules(f));
     }
 
@@ -236,41 +271,28 @@ public class ValidatorTests
     public void A_skill_over_the_published_line_budget_fails()
     {
         var padding = string.Join("\n", Enumerable.Repeat("filler", Validator.SkillLineBudget + 1));
-        using var f = new MapFixture(skill: $"---\nname: example\ndescription: d\n---\n\nprocess-map.md\n{padding}\n");
+        using var f = MapFixture.With(Skill, "## Companions", $"{padding}\n\n## Companions");
         Assert.Contains("skill.line-budget", Rules(f));
-    }
-
-    // ---- the codebook's worked examples ----
-
-    [Fact]
-    public void A_worked_example_declaring_no_rules_fails()
-    {
-        using var f = new MapFixture();
-        var codebook = System.IO.Path.Combine(f.RepoRoot, "fanout", "referee", "codebook.md");
-        System.IO.File.WriteAllText(codebook,
-            System.IO.File.ReadAllText(codebook).Replace("Exercises R1, R2.", "No rules named here."));
-        Assert.Contains("codebook.example-exercises", Rules(f));
-    }
-
-    [Fact]
-    public void A_worked_example_naming_a_rule_the_codebook_lacks_fails()
-    {
-        using var f = new MapFixture();
-        var codebook = System.IO.Path.Combine(f.RepoRoot, "fanout", "referee", "codebook.md");
-        System.IO.File.WriteAllText(codebook,
-            System.IO.File.ReadAllText(codebook).Replace("Exercises R1, R2.", "Exercises R1, R7."));
-        Assert.Contains("codebook.unknown-rule", Rules(f));
     }
 
     // ---- informational, never a verdict ----
 
     [Fact]
+    public void Free_named_instruments_are_listed_once_without_failing()
+    {
+        using var f = new MapFixture();
+        var info = Assert.Single(f.Report.Findings, x => x.RuleId == "info.instrument.free-name");
+        Assert.Equal(FindingLevel.Info, info.Level);
+        Assert.Contains("git", info.Message);
+        Assert.Contains("runner", info.Message);
+    }
+
+    [Fact]
     public void A_schema_value_no_row_uses_is_reported_without_failing()
     {
         using var f = new MapFixture();
-        var report = Validator.Validate(f.RepoRoot, f.SkillFolder);
-        Assert.Contains(report.Findings,
-            x => x.RuleId == "info.unused-enum-value" && x.Level == FindingLevel.Info);
+        var report = f.Report;
+        Assert.Contains(report.Findings, x => x.RuleId == "info.unused-enum-value" && x.Level == FindingLevel.Info);
         Assert.True(report.Passed);
     }
 }

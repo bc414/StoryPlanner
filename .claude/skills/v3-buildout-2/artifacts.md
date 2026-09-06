@@ -5,12 +5,15 @@ artifact is a class; the files are its instances. Schema and closed sets: `SKILL
 Consumers are never written here; the validator derives them.
 
 Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPUS-STATUS.md`;
-`<instance>` an id from the instance registry (`exploration-of-<corpus>[-<n>]` or
-`round-of-<corpus>-<n>`); `<run>` a runner run folder, `<date>[-<slug>]`, one per batch
-execution; `NNN` a hypothesis id; `N` a version number. An instance's authored artifacts
-live in one directory named by it under `docs/v3-framework/`; its runner input and output,
-including the referee runs that serve it, live under `fanout/<instance>/`. `fanout/referee/`
-holds only the referee's shared instrument and the iteration candidates.
+`<instance>` an instance's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
+or `round-of-<corpus>-<n>`), except that every `referee-<n>` shares the folder `referee`
+and the method's own supersession audit, a work outside the buildout's instances, runs
+under `skill-audits`; `<run>` a runner run folder, `<date>[-<slug>]`, one per batch
+execution; `<date>` an ISO date; `<Name>` a tool project's name; `NNN` a hypothesis id;
+`N` a version number. An instance's authored artifacts live in one directory named by it
+under `docs/v3-framework/`; its runner input and output, including the referee runs that
+serve it, live under `fanout/<instance>/`. `fanout/referee/` holds only the referee's
+shared instrument and the iteration candidates.
 
 | id | path | mutation | format | description |
 |---|---|---|---|---|
@@ -29,10 +32,10 @@ holds only the referee's shared instrument and the iteration candidates.
 | candidates | fanout/<instance>/candidates.md | append | Candidate | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
 | iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | Candidate | Prior findings re-queued after a rewording of hypothesis NNN |
 | corpus-status | .claude/skills/v3-buildout/CORPUS-STATUS.md | in-place | | What material exists and its state |
-| codebook | fanout/<instance>/codebook-N.md, or fanout/referee/codebook-N.md | succeeded | Codebook | The frozen instrument a round or the referee runs under |
+| codebook | fanout/<instance>/codebook-N.md | succeeded | Codebook | The frozen instrument a round or the referee runs under |
 | reading-protocol | fanout/<instance>/protocol-N.md | succeeded | Reading protocol | The instruction slice readers run under; piloted, not calibrated |
-| calibration-record | fanout/<instance>/calibration-<date>.md, or fanout/referee/calibration-<date>.md | frozen | Calibration record | One codebook version's agreement with Brian's blind verdicts, and the rulings |
-| itemizer | fanout/<instance>/itemize.* or tools/StoryPlanner.<Name>/ | in-place | | Code that produces a corpus's items |
+| calibration-record | fanout/<instance>/calibration-<date>.md | frozen | Calibration record | One codebook version's agreement with Brian's blind verdicts, and the rulings |
+| itemizer | fanout/<instance>/itemize.* | in-place | | A script that produces a corpus's items; an itemizer that is a tool project is tool-source |
 | generator | fanout/<instance>/make-jobs.* | in-place | | Code that writes jobs from the manifest |
 | tallier | fanout/<instance>/tally.* | in-place | | Code that reduces results to counts and flagged rows |
 | items | fanout/<instance>/<run>/items/ | frozen | | The units one run judges, one file each; a referee run's sit under fanout/<instance>/referee/<run>/ |
@@ -42,9 +45,11 @@ holds only the referee's shared instrument and the iteration candidates.
 | results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs, one per job |
 | tally-output | fanout/<instance>/<run>/tally.md | frozen | | The tallier's counts and flagged rows for one run |
 | run-record | fanout/<instance>/<run>/run.md | append | run.md | The authored front page of one run |
-| skill | .claude/skills/v3-buildout/*.md and .claude/skills/agent-runner/SKILL.md | in-place | | The method's instructions |
+| skill | .claude/skills/v3-buildout/ | in-place | | The method's instructions: the router, the activity files and artifacts.md |
+| runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
-| tool-source | tools/StoryPlanner.<Name>/ and its tests | in-place | | Code with tests: ingests, readers, the runner, the validator |
+| audit-protocol | fanout/skill-audits/protocol.md | in-place | | The supersession audit's instrument: three questions about one unit of a prior method text, judged against the new folder |
+| tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, the runner, the validator |
 | corpus | outside the repo | in-place | | The corpora named in CORPUS-STATUS.md, read through the MCP server, files or sqlite3 |
 
 ## Hypothesis file
@@ -333,13 +338,19 @@ a calibration record existing at its hash, never from the file, since any line i
 is part of the hash. The runner inlines it as the agent's entire context, so it must be
 complete in itself and must not restate what the process row already says about its
 inputs: what the agent is given is the `reads` of the agent process in the activity file,
-materialised by the generator, and the codebook names it by reference.
+materialised by the generator, and the codebook names it by reference. Its `## Questions`
+section is the one authored place a codebook names the questions it freezes; `state.md`
+derives a question's coverage from that section and a calibration record at the hash.
 
 ```markdown
 # Codebook — <name> (version N)
 
 ## Item
 <what one item is, as the itemizer produces it; the frozen predicate's unit>
+
+## Questions
+<the titles, verbatim, of the entries in questions/<corpus>.md this version freezes; none
+for the referee, whose question is the pipeline's own>
 
 ## Inputs
 <by reference: the agent process row in <activity>.md; the item file's headings>

@@ -12,7 +12,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <!-- Same version StoryPlanner.Core carries; renders fanout/PROTOCOL.md and run.md. -->
+        <!-- Same version StoryPlanner.Core carries; renders the v3-buildout skill's map.md and a run's run.md. -->
         <PackageReference Include="Markdig" Version="1.1.2" />
     </ItemGroup>
 

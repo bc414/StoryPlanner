@@ -178,3 +178,177 @@ are superseded below and the handoff is stamped as superseded when handoff 2 is 
   means a calibration record exists at the hash (draft 1's G22, closed).
 - **The hypothesis record is the evidence relationship, not history**; that reasoning is
   carried here so it is not lost, and lands in `artifacts.md` § Hypothesis file.
+
+## 2026-09-05 — the tool rework (handoff 2, step 1)
+
+Brian answered each of these by selecting a Claude-authored label; the log records the
+selection and the reason offered with it, never as his phrasing.
+
+- **The tool is reworked in place.** The from-scratch ruling of 2026-09-04 applied to the
+  skill because other sessions load the live one during construction. The tool has no live
+  consumer: not in the solution, no publish folder, its real-folder test skipped, and the old
+  `process-map.md` deleted at the swap. Git keeps the old validator. Parser, marker writer,
+  mermaid scanner and the SKILL.md checks survive unchanged; model, reader, validator, graph
+  and renderer are rewritten; roots, edges, bootstrap, governed-by, the locus grammar and the
+  codebook-example check are deleted.
+- **The validator enforces the `enables` DAG as ruled.** The rows of 2026-09-05 carry a
+  cycle — promoting-checked-candidates enables iterating-a-statement, which enables
+  refereeing-a-candidate, which enables promoting-checked-candidates — and it is a step 2
+  finding for Brian, not something the tool is shaped around.
+- **`state` ships in step 1**, tested against fixtures; its real inputs (`instances.md`,
+  `questions/`) arrive in step 4. Its derivations, ruled here: per instance, the
+  instance-scoped artifacts present on disk (paths resolved from the Artifacts table,
+  placeholders as wildcards) and the furthest process in chain order whose instance-scoped
+  writes all exist; a question is covered by a codebook when a calibrated version (a
+  calibration record at its hash, accepted) lists the question's title in a new `## Questions`
+  section of the codebook format — the format change lands in `artifacts.md` § Codebook with
+  this step; per hypothesis, the frontmatter status as authored plus a mismatch flag when the
+  entries after the last `iteration` line imply a different one.
+- **The read-and-write row check covers `frozen` only.** A process row listing one artifact
+  under both reads and writes is reported when that artifact's mutation is `frozen`; a
+  `succeeded` artifact is not reported, because reading version N to write version N+1 is
+  what succession is, and flagging it would push rows to drop a real read. The check examines
+  rows, never files: it says the method as written has an edit-shaped process, not that a
+  file was edited.
+- Decided by the session without a ruling, recorded so they can be overturned: edges into the
+  terminus are exempt from the backed-by-data-flow check, since the terminus owns no
+  processes; an instrument token that is not an artifact id is reported as information, since
+  a typo cannot otherwise be told from a free name; the activity file's shape (title is the
+  id; the sections after the generated marker are Preconditions, one per process id in table
+  order, Never) is checked; the artifact `path` cell is checked against § Schema's "one
+  pattern, never prose", so a cell carrying ", or" or " and" is a finding.
+
+## 2026-09-05 — validating the new folder (handoff 2, step 2)
+
+The first `validate` over `v3-buildout-2` reported ten failures: five path cells carrying
+alternatives, one cycle in `enables`, three unbacked `enables` edges, one frozen artifact
+read and written by one process. Each was fixed as a row edit and a prose edit together.
+Where Brian ruled, he did so by selecting a Claude-authored label, and the log records the
+selection and the reason offered with it, never as his phrasing; the one thing he typed is
+quoted as such. The session's own choices are marked so they can be overturned.
+
+- **Path cells (session).** `codebook` and `calibration-record` are one pattern each under
+  `fanout/<instance>/`, with `<instance>` defined in the `artifacts.md` preamble as the
+  instance's *folder*: its registry id, except that every `referee-<n>` shares the folder
+  `referee` — the mapping the state builder already made. `itemizer` is
+  `fanout/<instance>/itemize.*`; an itemizer that is a tool project is `tool-source`, which
+  the `itemize` row already writes. `skill` is the folder `.claude/skills/v3-buildout/`, and
+  the agent-runner skill is a new artifact, `runner-skill`, written by `build` (a runner
+  change updates its skill in the same commit) and by `revise`, read by `revise`.
+  `tool-source` is `tools/StoryPlanner.<Name>/`, its tests named in the description.
+  `<date>` and `<Name>` were added to the placeholder list, since paths already used them.
+- **revising-the-method → the two preparing activities (Brian, by selection: confirmed).**
+  `explore-plan` and `verify-plan` read `skill`: the plan is written against the chain's
+  activity files, read whole at preparing rather than each at its own start, which is more
+  than the derivable own-file read. Not taken: the validator counting `skill` as implicitly
+  read by every session and hitl process; a different `enables` target for revising.
+- **building-a-tool → revising-the-method (Brian, by selection): the edge is dropped and
+  `ProcessMap` stays a free name.** The session had named `tool-source` as `revise`'s
+  instrument, reading § Schema literally (the validator's code is in the Artifacts table),
+  which backed the edge; Brian chose the free name and no edge. A revision that needs a tool
+  change still builds it as its first task; the router shows no edge for it, and `runner`
+  and `ProcessMap` are free names on the same footing.
+- **The cycle (Brian, by selection): iterating-a-statement is a root, like minting.**
+  promoting-checked-candidates no longer enables it; nothing does. The decision to reword,
+  in a promotion session or any hitl session, is the whole trigger and is a sentence in the
+  file's Preconditions, exactly as minting's permission is. It keeps enabling
+  refereeing-a-candidate through the iteration candidates. The promote → iterate data flow
+  stays visible in `map.md`; promoting's § promote points at iterating for a rethink. This
+  overturns "enabled by promoting alone" (above); that ruling's substance — a statement
+  iterates on evidence only and a lead never rewords — stands in the Preconditions. Not
+  taken: iterating enables baselining instead (backed, hollow); retiring iterating as an
+  activity (by the split rule it is part of `promote` or `mint`); overturning the DAG.
+- **The frozen read-and-write (Brian, by selection, after typing "What is this tool
+  business logic about in the first place?").** Answered: the check is rule 9's row-level
+  shadow — the validator never sees a file edited, and the one edit-shaped thing a row can
+  show is the same artifact under reads and writes; in-place is the declared discipline,
+  append is how appending works, so only frozen is reported; it fired because `revise` reads
+  the prior revision note and writes the next, a series the tool could not tell from an
+  edit; in this method it would catch little today, every frozen artifact being a series,
+  run-scoped, or written and read by different processes. Ruled: a frozen artifact whose
+  path carries `N` or `<date>` is exempt, on the reasoning that exempted `succeeded` —
+  reading one member to write the next is not an edit, and flagging it pushes rows to drop a
+  real read. `<run>` is not a series marker. Tool change with fixtures: `ArtifactPath.IsSeries`,
+  one path test, one validator test; the existing frozen-failure test stands on a run-scoped
+  artifact. Not taken: retiring the check; dropping the read and exempting never-read for
+  frozen; calling the revision note `succeeded`.
+- **Left standing as information:** `state` is written by no process (the tool generates
+  it whenever a session runs `state`); the free names `ProcessMap`, `dotnet`, `git`, `runner`.
+- **Noticed, not fixed — a `state` gap for a later step.** Referee runs live under
+  `fanout/<instance>/referee/<run>/`, but the run-scoped patterns carry one `<run>` segment,
+  so `state` will not count a referee run's items, jobs, results, tally or `run.md` as present
+  for the round it serves. Not a validator finding; recorded so the state verb's first real
+  run does not surprise.
+- **Landed with the step:** `validate` passes on `v3-buildout-2` with three notes; `render`
+  wrote the `level-1` section, thirteen `activity` sections and `map.md`; the real-folder
+  integration test is un-skipped against `v3-buildout-2` (it repoints at `v3-buildout` in
+  the swap commit, where it also gains `claude plugin validate`); `dotnet test` green.
+
+## 2026-09-05 — step 4's first move, taken early: `fanout/PROTOCOL.md` retires
+
+Brian's instruction, in his words: "Proceed with moving protocol.md's rules." Taken ahead
+of the rest of step 4 because the skill audit of the two folders launches within the hour
+and its document A carries PROTOCOL.md as units 160–175 while set B has only the
+agent-runner skill to answer them. Done as the `revise` row says: the `runner-skill`
+artifact edited, the file retired.
+
+- **What moved, and where.** The lifecycle table's order moved nowhere: it is derived from
+  the process tables and rendered into `map.md`, and the agent-runner skill now says so in
+  place of naming PROTOCOL.md as the lifecycle. The rules PROTOCOL.md alone stated went into
+  the agent-runner skill: the run folder's contents as a tree under `fanout/<instance>/`,
+  the stage strip and what it never judges, the dry run as a step before the pilot (rule 4),
+  and `run.md` as a pointer to `artifacts.md` § run.md for every run, buildout or not. The
+  harness-control and JSON-route paragraphs were already there and were not duplicated.
+- **Vocabulary brought to revision 2 in the same edit**, since the audit's set B inlines the
+  skill beside the new one and the protocol treats any member of B as B: instances for WUs
+  (`fanout/<instance>/`, `referee/` holding only the shared instrument, referee runs under
+  the round they serve), `codebook-N.md` / `protocol-N.md` / `calibration-<date>.md`, `agent`
+  processes for cells, slice readers for reading arms, investigators gone, the referee given
+  no excerpt. The "Two mechanisms" line of 2026-09-03 is re-worded, not moved.
+- **The file is a retirement notice, not deleted**, because the host's `/protocol` route
+  reads `fanout/PROTOCOL.md` at request time and every run page links to it; the notice says
+  where the order and the rules went. The route serving the rendering is a runner change
+  (building-a-tool) owed to a later step, not made before the audit since the host is about
+  to run it. `fanout/README.md` and CLAUDE.md's one pointer follow the retirement.
+- **Not moved:** the codebook edit, the spec-pools move, `instances.md`, the forward-plan
+  stamp — the rest of step 4 stands.
+- **The referee codebook in the audit's set B (session's assessment, Brian asked why it is
+  there).** The 2026-09-03 audit's set B carried it because revision 1's `evidence-pipeline.md`
+  delegated the referee's rules to it, so a unit about the referee could only be judged with
+  the codebook present. For this audit it is an A-side document: the revision retires it, a
+  new numbered version is authored and calibrated in `referee-1`, and the new skill delegates
+  to `codebook-N.md`, which does not exist yet. Kept in B, its excerpt rules would let the
+  old skill's excerpt units pass as preserved. The run folder is the preparing session's;
+  removing the file from B is a `jobs.json` regeneration there.
+
+## 2026-09-05 — Brian delegates the audit's preparation; the audit becomes the method's second lint
+
+Brian, in his words: "You are in charge now. Consider the agent runner for skill audit the
+2nd level of linting after the validator tool. Make the appropriate changes and start the
+blazor server process but don't kick off anything yet." The session's decisions under that
+delegation, each overturnable:
+
+- **The audit is two process rows of revising-the-method**, not prose alone: a runner
+  invocation is its own process by the split rule, so `audit-run` (session; runner,
+  generator, tallier; reads the prior text and the protocol; writes items, manifest, jobs,
+  ledger, tally and `run.md`) and `audit-judge` (agent; the protocol's three questions per
+  unit; the only writer of results), with `revise` reading the results and the tally to
+  adjudicate them into the revision note's omissions list. One new artifact,
+  `audit-protocol` (`fanout/skill-audits/protocol.md`, in-place, authored outside the
+  method, so never-written is its honest report). The audit's runs reuse the run-scoped
+  artifact classes by admitting `skill-audits` to the `<instance>` placeholder as a work
+  outside the buildout's instances. Both new rows are `specified`: the 2026-09-03 run
+  predates the text and today's has not launched. The router's description of
+  revising-the-method and § Provenance name the two lints; the swap now waits on both.
+- **Two rules the run taught, written into audit-run:** the rulings log is never in set B
+  (the 2026-09-03 ruling, now text), and set B holds no instrument the revision retires,
+  since a retired file in B lets its own rules pass as preserved — the reason the referee
+  codebook left set B.
+- **Set B regenerated without `fanout/referee/codebook.md`:** 46 jobs, ids and sections
+  unchanged, 17 B files per job. Recorded in the run's `run.md` as an appended pre-launch
+  paragraph; the 10:01 text stands above it.
+- **`fanout/README.md` reduced to a pointer** (what the folder is; layout and rules in the
+  agent-runner skill; the order in `map.md`), not added to document A: it carried no rule
+  of its own, and a second copy of the tree is the stale-mirror failure.
+- **Validate passes with four notes; rendered.** The dry run and the host start are
+  recorded in the run's `run.md`; pilot and batch not enqueued — Brian's go.

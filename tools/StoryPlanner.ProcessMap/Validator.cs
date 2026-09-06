@@ -9,8 +9,10 @@ public sealed record ValidationReport(IReadOnlyList<Finding> Findings)
 }
 
 /// <summary>
-/// Every rule of <c>process-map.md</c> § Format, plus the rulings of 2026-09-04 recorded in
-/// <c>docs/v3-framework/methodology-revision-2-handoff.md</c> § Rulings.
+/// Every check SKILL.md § Schema and § Derived list, plus the rulings of 2026-09-05 recorded
+/// in <c>docs/v3-framework/methodology-revision-2-rulings.md</c>. The validator reads the
+/// skill's tables and nothing else: it says what the method as written has, never what any
+/// file on disk did.
 ///
 /// Findings carry a rule id so a test asserts on the id, never on the prose.
 /// </summary>
@@ -19,436 +21,327 @@ public static class Validator
     public const int SkillLineBudget = 500;          // Anthropic's published figure
     public const int SkillDescriptionBudget = 1024;  // same source
 
-    public static ValidationReport Validate(string repoRoot, string skillFolder)
+    public static ValidationReport Validate(string skillFolder)
     {
-        var findings = new List<Finding>();
-        var mapPath = Path.Combine(skillFolder, "process-map.md");
-        if (!File.Exists(mapPath))
-            return new ValidationReport([Finding.Fail("map.missing", "—",
-                $"no process-map.md in {skillFolder}")]);
-
-        ProcessMapDocument doc;
+        SkillDocument doc;
         try
         {
-            doc = MapReader.Read(File.ReadAllText(mapPath));
+            doc = SkillReader.Read(skillFolder);
         }
         catch (MapFormatException ex)
         {
-            return new ValidationReport([Finding.Fail("map.unparseable", "—", ex.Message)]);
+            return new ValidationReport([Finding.Fail(ex.RuleId, "—", ex.Message)]);
         }
 
+        var findings = new List<Finding>();
         CheckIds(doc, findings);
-        CheckEnums(doc, findings);
+        CheckReferences(doc, findings);
+        CheckClosedSets(doc, findings);
         CheckProcessRows(doc, findings);
-        CheckEdges(doc, findings);
-        CheckGovernedBy(repoRoot, doc, findings);
-        CheckRootSources(repoRoot, doc, findings);
-        CheckRootCitation(doc, findings);
-        CheckFileTraffic(doc, findings);
-        CheckPromotionGate(doc, findings);
-        CheckBootstrap(doc, findings);
-        CheckCodebook(repoRoot, findings);
-        CheckSkill(skillFolder, findings);
+        CheckArtifacts(doc, findings);
+        CheckEnables(doc, findings);
+        CheckGate(doc, findings);
+        CheckQuestionListWriters(doc, findings);
+        CheckMutation(doc, findings);
+        CheckFileShape(doc, findings);
+        CheckSkill(doc, findings);
         ReportInformational(doc, findings);
-
         return new ValidationReport(findings);
     }
 
-    // ---- ids and references ----
+    static string At(string file, int line) => $"{file}:{line}";
 
-    static void CheckIds(ProcessMapDocument doc, List<Finding> findings)
+    // ---- ids: one namespace across the three tables ----
+
+    static void CheckIds(SkillDocument doc, List<Finding> findings)
     {
         var seen = new Dictionary<string, string>(StringComparer.Ordinal);
-        void Claim(string id, string table, int line)
+        void Claim(string id, string table, string file, int line)
         {
-            if (!Regex.IsMatch(id, @"^[A-Za-z0-9.-]+$"))
+            if (!ClosedSets.IdPattern.IsMatch(id))
                 findings.Add(Finding.Fail("id.charset", id,
-                    $"line {line}: an id may only use [A-Za-z0-9.-]"));
+                    $"{At(file, line)}: an id is lowercase [a-z0-9-]+"));
             if (seen.TryGetValue(id, out var other))
                 findings.Add(Finding.Fail("id.duplicate", id,
-                    $"line {line}: id already used in {other}; ids are unique across tables"));
+                    $"{At(file, line)}: id already used in {other}; ids are unique across all tables"));
             else seen[id] = table;
         }
 
-        foreach (var r in doc.Roots) Claim(r.Id, "Roots", r.Line);
-        foreach (var f in doc.Files) Claim(f.Id, "Files", f.Line);
-        foreach (var p in doc.Processes) Claim(p.Id, "Processes", p.Line);
+        foreach (var a in doc.Activities) Claim(a.Id, "Activities", a.File, a.Line);
+        foreach (var a in doc.Artifacts) Claim(a.Id, "Artifacts", a.File, a.Line);
+        foreach (var p in doc.Processes) Claim(p.Id, $"Processes of {p.Activity}", p.File, p.Line);
+    }
 
-        var fileIds = doc.Files.Select(f => f.Id).ToHashSet(StringComparer.Ordinal);
-        var rootIds = doc.Roots.Select(r => r.Id).ToHashSet(StringComparer.Ordinal);
-        var procIds = doc.Processes.Select(p => p.Id).ToHashSet(StringComparer.Ordinal);
+    // ---- references resolve ----
+
+    static void CheckReferences(SkillDocument doc, List<Finding> findings)
+    {
+        var activityIds = doc.Activities.Select(a => a.Id).ToHashSet(StringComparer.Ordinal);
+        var artifactIds = doc.Artifacts.Select(a => a.Id).ToHashSet(StringComparer.Ordinal);
+        var termini = GraphRules.Termini(doc).ToHashSet(StringComparer.Ordinal);
+
+        foreach (var a in doc.Activities)
+        {
+            foreach (var e in a.Enables.Where(e => !activityIds.Contains(e)))
+                findings.Add(Finding.Fail("ref.enables", a.Id,
+                    $"{At(a.File, a.Line)}: enables '{e}', which is not an activity id"));
+            if (!termini.Contains(a.Id) && !File.Exists(doc.ActivityPath(a.Id)))
+                findings.Add(Finding.Fail("ref.companion", a.Id,
+                    $"{At(a.File, a.Line)}: no {a.Id}.md in the skill folder; every activity but the " +
+                    "terminus owns processes, and its file is where they are"));
+        }
 
         foreach (var p in doc.Processes)
         {
-            foreach (var f in p.Inputs.Where(f => !fileIds.Contains(f)))
-                findings.Add(Finding.Fail("ref.file", p.Id, $"line {p.Line}: input '{f}' is not a file id"));
-            foreach (var f in p.Outputs.Where(f => !fileIds.Contains(f)))
-                findings.Add(Finding.Fail("ref.file", p.Id, $"line {p.Line}: output '{f}' is not a file id"));
-            foreach (var r in p.Roots.Where(r => !rootIds.Contains(r)))
-                findings.Add(Finding.Fail("ref.root", p.Id, $"line {p.Line}: root '{r}' is not a root id"));
+            foreach (var r in p.Reads.Where(r => !artifactIds.Contains(r)))
+                findings.Add(Finding.Fail("ref.reads", p.Id,
+                    $"{At(p.File, p.Line)}: reads '{r}', which is not an artifact id"));
+            foreach (var w in p.Writes.Where(w => !artifactIds.Contains(w)))
+                findings.Add(Finding.Fail("ref.writes", p.Id,
+                    $"{At(p.File, p.Line)}: writes '{w}', which is not an artifact id"));
         }
 
-        foreach (var e in doc.Edges)
+        var outline = new MarkdownOutline(File.ReadAllText(doc.ArtifactsPath));
+        foreach (var a in doc.Artifacts.Where(a => a.Format.Length > 0))
         {
-            if (!procIds.Contains(e.From))
-                findings.Add(Finding.Fail("ref.edge", $"{e.From}→{e.To}",
-                    $"line {e.Line}: '{e.From}' is not a process id"));
-            if (!procIds.Contains(e.To))
-                findings.Add(Finding.Fail("ref.edge", $"{e.From}→{e.To}",
-                    $"line {e.Line}: '{e.To}' is not a process id"));
+            var matches = outline.Find(a.Format);
+            if (matches.Count != 1)
+                findings.Add(Finding.Fail("ref.format", a.Id,
+                    $"{At(a.File, a.Line)}: format '{a.Format}' matches {matches.Count} heading(s) in " +
+                    "artifacts.md; a format names exactly one"));
         }
     }
 
     // ---- closed sets ----
 
-    static void CheckEnums(ProcessMapDocument doc, List<Finding> findings)
+    static void CheckClosedSets(SkillDocument doc, List<Finding> findings)
     {
-        foreach (var r in doc.Roots)
-            if (!ClosedSets.RootKinds.Contains(r.Kind))
-                findings.Add(Finding.Fail("enum.root-kind", r.Id,
-                    $"line {r.Line}: kind '{r.Kind}' is not one of {Join(ClosedSets.RootKinds)}"));
-
-        foreach (var f in doc.Files)
-            if (!ClosedSets.Keeps.Contains(f.Keep))
-                findings.Add(Finding.Fail("enum.keep", f.Id,
-                    $"line {f.Line}: keep '{f.Keep}' is not one of {Join(ClosedSets.Keeps)}"));
-
         foreach (var p in doc.Processes)
         {
-            if (!ClosedSets.Levels.Contains(p.Level))
-                findings.Add(Finding.Fail("enum.level", p.Id,
-                    $"line {p.Line}: level '{p.Level}' is not one of {Join(ClosedSets.Levels)}"));
-            if (!ClosedSets.ProcessKinds.Contains(p.Kind))
-                findings.Add(Finding.Fail("enum.process-kind", p.Id,
-                    $"line {p.Line}: kind '{p.Kind}' is not one of {Join(ClosedSets.ProcessKinds)}"));
+            var modes = p.Mode.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+            if (modes.Length != 1)
+                findings.Add(Finding.Fail("row.mode-count", p.Id,
+                    $"{At(p.File, p.Line)}: mode '{p.Mode}' is {modes.Length} value(s); a process is one run of one mode"));
+            else if (!ClosedSets.Modes.Contains(modes[0]))
+                findings.Add(Finding.Fail("enum.mode", p.Id,
+                    $"{At(p.File, p.Line)}: mode '{p.Mode}' is not one of {Join(ClosedSets.Modes)}"));
+
             if (!ClosedSets.States.Contains(p.State))
                 findings.Add(Finding.Fail("enum.state", p.Id,
-                    $"line {p.Line}: state '{p.State}' is not one of {Join(ClosedSets.States)}"));
+                    $"{At(p.File, p.Line)}: state '{p.State}' is not one of {Join(ClosedSets.States)}"));
         }
 
-        foreach (var e in doc.Edges)
-            if (!ClosedSets.EdgeKinds.Contains(e.Kind))
-                findings.Add(Finding.Fail("enum.edge-kind", $"{e.From}→{e.To}",
-                    $"line {e.Line}: kind '{e.Kind}' is not one of {Join(ClosedSets.EdgeKinds)}"));
+        foreach (var a in doc.Artifacts)
+            if (!ClosedSets.Mutations.Contains(a.Mutation))
+                findings.Add(Finding.Fail("enum.mutation", a.Id,
+                    $"{At(a.File, a.Line)}: mutation '{a.Mutation}' is not one of {Join(ClosedSets.Mutations)}"));
     }
 
     static string Join(string[] values) => string.Join(" | ", values);
 
     // ---- process row minima ----
 
-    static void CheckProcessRows(ProcessMapDocument doc, List<Finding> findings)
+    static void CheckProcessRows(SkillDocument doc, List<Finding> findings)
     {
+        var artifactIds = doc.Artifacts.Select(a => a.Id).ToHashSet(StringComparer.Ordinal);
         foreach (var p in doc.Processes)
         {
-            if (!ClosedSets.IsActor(p.Actor))
-                findings.Add(Finding.Fail("row.actor", p.Id,
-                    $"line {p.Line}: actor '{p.Actor}' is not brian | script | tool | hitl:<x> | agent:<x>, " +
-                    "exactly one per row"));
-            if (p.Roots.Count == 0)
-                findings.Add(Finding.Fail("row.roots-empty", p.Id,
-                    $"line {p.Line}: a process cites at least one root, or it has no reason to exist"));
-            if (p.Inputs.Count == 0)
-                findings.Add(Finding.Fail("row.inputs-empty", p.Id,
-                    $"line {p.Line}: a process reads at least one file; one that reads nothing is " +
-                    "deriving from recall, which C8 forbids"));
-            if (p.Outputs.Count == 0)
-                findings.Add(Finding.Fail("row.outputs-empty", p.Id,
-                    $"line {p.Line}: a process writes at least one file; one that writes nothing is " +
-                    "indistinguishable from not having run"));
-            if (p.Text.Length == 0)
-                findings.Add(Finding.Fail("row.text-empty", p.Id, $"line {p.Line}: no process description"));
+            var reads = p.Reads.Count + p.Instruments.Count(artifactIds.Contains);
+            if (reads == 0)
+                findings.Add(Finding.Fail("row.reads-empty", p.Id,
+                    $"{At(p.File, p.Line)}: a process reads at least one artifact (an artifact named as an " +
+                    "instrument counts); one that reads nothing is deriving from recall"));
+            if (p.Writes.Count == 0)
+                findings.Add(Finding.Fail("row.writes-empty", p.Id,
+                    $"{At(p.File, p.Line)}: a process writes at least one artifact; one that writes nothing " +
+                    "is indistinguishable from not having run"));
+            if (p.Mode == ClosedSets.Hitl && p.Writes.Count == 0)
+                findings.Add(Finding.Fail("row.hitl-writes-nothing", p.Id,
+                    $"{At(p.File, p.Line)}: an hitl process writes the artifact that records the decision made in it"));
+            if (p.Description.Length == 0)
+                findings.Add(Finding.Fail("row.description-empty", p.Id, $"{At(p.File, p.Line)}: no description"));
         }
     }
 
-    static void CheckEdges(ProcessMapDocument doc, List<Finding> findings)
+    // ---- artifacts: path syntax and traffic ----
+
+    static void CheckArtifacts(SkillDocument doc, List<Finding> findings)
     {
-        foreach (var e in doc.Edges.Where(e => e.Kind == "choice" && e.Label.Length == 0))
-            findings.Add(Finding.Fail("edge.choice-label", $"{e.From}→{e.To}",
-                $"line {e.Line}: a choice edge's label is the branch condition and cannot be empty"));
-    }
+        foreach (var a in doc.Artifacts)
+            if (!ArtifactPath.TryParse(a.Path, out _, out var error))
+                findings.Add(Finding.Fail("artifact.path-syntax", a.Id, $"{At(a.File, a.Line)}: {error}"));
 
-    // ---- governed-by: a reading assignment, so a bare repo-relative path ----
-
-    static void CheckGovernedBy(string repoRoot, ProcessMapDocument doc, List<Finding> findings)
-    {
-        void Check(string id, string cell, int line)
-        {
-            if (cell.Length == 0)
-            {
-                findings.Add(Finding.Fail("governed-by.empty", id,
-                    $"line {line}: no governing document. Precedence needs a named file: when the row " +
-                    "and the prose disagree, the prose wins on procedure — but only if there is one"));
-                return;
-            }
-            if (cell.Contains(Locus.SectionSign) || cell.Contains(Locus.ItemSign))
-            {
-                findings.Add(Finding.Fail("governed-by.syntax", id,
-                    $"line {line}: '{cell}' addresses a section. governed-by is a reading assignment " +
-                    "and a precedence declaration, both document-granular; section precision belongs " +
-                    "in Roots.source"));
-                return;
-            }
-            if (!Locus.TryValidatePath(cell, out var error))
-            {
-                findings.Add(Finding.Fail("governed-by.syntax", id, $"line {line}: {error}"));
-                return;
-            }
-            if (!File.Exists(Path.Combine(repoRoot, cell)))
-                findings.Add(Finding.Fail("governed-by.missing-file", id,
-                    $"line {line}: '{cell}' does not exist under the repo root"));
-        }
-
-        foreach (var p in doc.Processes) Check(p.Id, p.GovernedBy, p.Line);
-        foreach (var f in doc.Files) Check(f.Id, f.GovernedBy, f.Line);
-    }
-
-    // ---- Roots.source: a citation, so the full locus grammar ----
-
-    static void CheckRootSources(string repoRoot, ProcessMapDocument doc, List<Finding> findings)
-    {
-        var outlines = new Dictionary<string, MarkdownOutline>(StringComparer.Ordinal);
-
-        foreach (var r in doc.Roots)
-        {
-            if (r.Source.Length == 0)
-            {
-                findings.Add(Finding.Fail("source.empty", r.Id,
-                    $"line {r.Line}: a root states where it is stated"));
-                continue;
-            }
-
-            foreach (var part in r.Source.Split(';', StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
-            {
-                if (!Locus.TryParse(part, out var locus, out var error))
-                {
-                    findings.Add(Finding.Fail("source.syntax", r.Id, $"line {r.Line}: '{part}' — {error}"));
-                    continue;
-                }
-
-                var full = Path.Combine(repoRoot, locus!.Path);
-                if (!File.Exists(full))
-                {
-                    findings.Add(Finding.Fail("source.missing-file", r.Id,
-                        $"line {r.Line}: '{locus.Path}' does not exist under the repo root"));
-                    continue;
-                }
-                if (locus.Heading is null) continue;
-
-                if (!outlines.TryGetValue(full, out var outline))
-                    outlines[full] = outline = new MarkdownOutline(File.ReadAllText(full));
-
-                var matches = outline.Find(locus.Heading);
-                if (matches.Count == 0)
-                {
-                    findings.Add(Finding.Fail("source.heading", r.Id,
-                        $"line {r.Line}: '{locus.Path}' has no heading '{locus.Heading}'"));
-                    continue;
-                }
-                if (matches.Count > 1)
-                {
-                    findings.Add(Finding.Fail("source.heading-ambiguous", r.Id,
-                        $"line {r.Line}: '{locus.Path}' has {matches.Count} headings '{locus.Heading}'; " +
-                        "a citation names one place"));
-                    continue;
-                }
-                if (locus.Item is null) continue;
-
-                var items = outline.CountOrderedItems(matches[0]);
-                if (locus.Item > items)
-                    findings.Add(Finding.Fail("source.item", r.Id,
-                        $"line {r.Line}: '{locus.Heading}' has {items} ordered items; " +
-                        $"{Locus.ItemSign} {locus.Item} does not exist"));
-            }
-        }
-    }
-
-    static void CheckRootCitation(ProcessMapDocument doc, List<Finding> findings)
-    {
-        var cited = doc.Processes.SelectMany(p => p.Roots).ToHashSet(StringComparer.Ordinal);
-        foreach (var r in doc.Roots.Where(r => !cited.Contains(r.Id)))
-            findings.Add(Finding.Fail("root.uncited", r.Id,
-                $"line {r.Line}: no process cites this root. A root nothing acts on is not a root"));
-    }
-
-    // ---- file traffic: three distinct orphan kinds, no terminal-record exemption ----
-
-    static void CheckFileTraffic(ProcessMapDocument doc, List<Finding> findings)
-    {
         foreach (var t in GraphRules.Traffic(doc))
         {
-            var f = doc.Files.First(x => x.Id == t.FileId);
-            if (t.Producers.Count == 0 && t.Consumers.Count == 0)
-                findings.Add(Finding.Fail("file.uncited", t.FileId,
-                    $"line {f.Line}: no process reads or writes it"));
-            else if (t.Consumers.Count == 0)
-                findings.Add(Finding.Fail("file.written-never-read", t.FileId,
-                    $"line {f.Line}: written by {string.Join(", ", t.Producers)} and read by nothing. " +
-                    "A file read only by a person is read by a process this map is missing a row for"));
-            else if (t.Producers.Count == 0)
-                findings.Add(Finding.Fail("file.read-never-written", t.FileId,
-                    $"line {f.Line}: read by {string.Join(", ", t.Consumers)} and written by nothing"));
+            if (t.IsRead) continue;
+            var a = doc.Artifact(t.ArtifactId)!;
+            findings.Add(Finding.Fail("artifact.never-read", t.ArtifactId,
+                t.Writers.Count == 0
+                    ? $"{At(a.File, a.Line)}: no process reads or writes it"
+                    : $"{At(a.File, a.Line)}: written by {string.Join(", ", t.Writers)} and read by nothing. " +
+                      "An artifact read only by a person is read by a process the tables are missing a row for"));
         }
     }
 
-    // ---- the promotion gate ----
+    // ---- the enables graph ----
 
-    static void CheckPromotionGate(ProcessMapDocument doc, List<Finding> findings)
+    static void CheckEnables(SkillDocument doc, List<Finding> findings)
     {
-        GateCheck(doc, findings, "f.cand", "f.hyp");
-        GateCheck(doc, findings, null, "f.storyplan");
+        foreach (var cycle in GraphRules.EnablesCycles(doc))
+            findings.Add(Finding.Fail("enables.cycle", cycle[0],
+                $"enables is a DAG, and these rows form a cycle: {string.Join(" → ", cycle)} → {cycle[0]}"));
+
+        var termini = GraphRules.Termini(doc);
+        if (termini.Count != 1)
+            findings.Add(Finding.Fail("enables.terminus-count", "SKILL.md",
+                $"{termini.Count} activities enable nothing ({string.Join(", ", termini)}); exactly one is the terminus"));
+
+        foreach (var t in termini)
+        {
+            var owned = doc.ProcessesOf(t).Select(p => p.Id).ToList();
+            if (owned.Count > 0)
+                findings.Add(Finding.Fail("enables.terminus-owns-processes", t,
+                    $"enables nothing, so it is the terminus, yet owns {owned.Count} process(es): {string.Join(" ", owned)}"));
+        }
+
+        var activityIds = doc.Activities.Select(a => a.Id).ToHashSet(StringComparer.Ordinal);
+        var terminiSet = termini.ToHashSet(StringComparer.Ordinal);
+        var exempt = new List<string>();
+        foreach (var a in doc.Activities)
+        foreach (var e in a.Enables.Where(activityIds.Contains))
+        {
+            if (terminiSet.Contains(e)) { exempt.Add($"{a.Id} → {e}"); continue; }
+            if (GraphRules.Backing(doc, a.Id, e).Count == 0)
+                findings.Add(Finding.Fail("enables.unbacked", a.Id,
+                    $"{At(a.File, a.Line)}: enables {e}, but nothing a process of {a.Id} writes is read by a " +
+                    $"process of {e}. Every enables edge is backed by data flow"));
+        }
+        if (exempt.Count > 0)
+            findings.Add(Finding.Vacuous("enables.vacuous",
+                $"edges into the terminus are not checked for data flow, since it owns no processes: {string.Join("; ", exempt)}"));
     }
 
-    static void GateCheck(ProcessMapDocument doc, List<Finding> findings, string? source, string target)
+    // ---- the hitl gate: candidates → a hypothesis write ----
+
+    static void CheckGate(SkillDocument doc, List<Finding> findings)
     {
-        var label = source is null ? $"anything → {target}" : $"{source} → {target}";
+        var source = WellKnown.Candidates;
+        var targets = WellKnown.HypothesisArtifacts.Where(doc.HasArtifact).ToList();
+        var label = $"{source} → {string.Join("|", WellKnown.HypothesisArtifacts)}";
 
-        if (doc.Files.All(f => f.Id != target))
+        if (!doc.HasArtifact(source))
         {
-            findings.Add(Finding.Vacuous("gate.vacuous", $"{label}: no file row '{target}'"));
+            findings.Add(Finding.Vacuous("gate.vacuous", $"{label}: no artifact row '{source}'"));
             return;
         }
-        var writers = doc.Processes.Where(p => p.Outputs.Contains(target)).ToList();
-        if (writers.Count == 0)
+        if (targets.Count == 0)
         {
-            findings.Add(Finding.Vacuous("gate.vacuous",
-                $"{label}: no process writes '{target}', so the rule has no subject today — " +
-                "reported as vacuous, not as passing"));
+            findings.Add(Finding.Vacuous("gate.vacuous", $"{label}: no hypothesis artifact row"));
             return;
         }
-
-        if (source is not null && doc.Processes.All(p => !p.Inputs.Contains(source)))
+        if (!doc.Processes.Any(p => p.ReadsOrInstruments(source)))
         {
             findings.Add(Finding.Vacuous("gate.vacuous",
-                $"{label}: no process reads '{source}', so the rule has no subject today"));
+                $"{label}: no process reads '{source}', so the rule has no subject today — reported as vacuous, not as passing"));
+            return;
+        }
+        if (!doc.Processes.Any(p => p.Writes.Any(targets.Contains)))
+        {
+            findings.Add(Finding.Vacuous("gate.vacuous",
+                $"{label}: no process writes a hypothesis artifact, so the rule has no subject today"));
             return;
         }
 
-        var readers = source is null ? "anything" : source;
-
-        // One finding per writing row, carrying its shortest ungated path. The same write is
-        // reachable many ways; listing every route reports one gap a dozen times.
-        var shortest = GraphRules.UngatedPaths(doc, source, target)
+        // One finding per writing row, carrying its shortest ungated path.
+        var shortest = GraphRules.UngatedPaths(doc, source, targets)
             .GroupBy(p => p.Nodes[^1], StringComparer.Ordinal)
             .Select(g => g.OrderBy(p => p.Nodes.Count).ThenBy(p => p.ToString(), StringComparer.Ordinal).First())
             .OrderBy(p => p.Nodes[^1], StringComparer.Ordinal);
 
         foreach (var path in shortest)
             findings.Add(Finding.Fail("gate.ungated", path.Nodes[^1],
-                $"{path} writes {target} with no brian actor on the path from {readers}. " +
-                "The path ends at the write: a review after it is detection, and C1/C2 are preventive"));
+                $"{path} writes a hypothesis artifact with no hitl process on the path from {source}. " +
+                "The path ends at the write: a review after it is detection, and the rule is preventive"));
     }
 
-    // ---- bootstrap ----
+    // ---- questions are Brian's ----
 
-    static void CheckBootstrap(ProcessMapDocument doc, List<Finding> findings)
+    static void CheckQuestionListWriters(SkillDocument doc, List<Finding> findings)
     {
-        var listed = doc.Bootstrap.Select(b => b.RowId).ToList();
-        foreach (var b in doc.Bootstrap)
+        if (!doc.HasArtifact(WellKnown.QuestionList))
         {
-            var row = doc.Processes.FirstOrDefault(p => p.Id == b.RowId);
-            if (row is null)
-                findings.Add(Finding.Fail("bootstrap.unknown-row", b.RowId,
-                    $"line {b.Line}: no process with this id"));
-            else if (row.Kind != "bootstrap")
-                findings.Add(Finding.Fail("bootstrap.not-bootstrap", b.RowId,
-                    $"line {b.Line}: listed as bootstrap but its kind is '{row.Kind}'"));
-            if (b.RetiredBy.Length == 0)
-                findings.Add(Finding.Fail("bootstrap.no-retirement", b.RowId,
-                    $"line {b.Line}: a bootstrap row names what retires it"));
-            if (listed.Count(x => x == b.RowId) > 1)
-                findings.Add(Finding.Fail("bootstrap.duplicate", b.RowId, $"line {b.Line}: listed twice"));
-        }
-
-        foreach (var p in doc.Processes.Where(p => p.Kind == "bootstrap" && !listed.Contains(p.Id)))
-            findings.Add(Finding.Fail("bootstrap.unlisted", p.Id,
-                $"line {p.Line}: kind is bootstrap but no row says what retires it"));
-    }
-
-    // ---- the referee codebook's worked examples ----
-
-    internal const string CodebookPath = "fanout/referee/codebook.md";
-
-    static void CheckCodebook(string repoRoot, List<Finding> findings)
-    {
-        var path = Path.Combine(repoRoot, CodebookPath);
-        if (!File.Exists(path))
-        {
-            findings.Add(Finding.Fail("codebook.missing", CodebookPath, "not found under the repo root"));
+            findings.Add(Finding.Vacuous("question-list.vacuous", $"no artifact row '{WellKnown.QuestionList}'"));
             return;
         }
+        foreach (var p in doc.Processes.Where(p => p.Writes.Contains(WellKnown.QuestionList) && p.Mode != ClosedSets.Hitl))
+            findings.Add(Finding.Fail("question-list.writer-not-hitl", p.Id,
+                $"{At(p.File, p.Line)}: writes {WellKnown.QuestionList} in mode '{p.Mode}'; a question is Brian's, " +
+                "so every writer of the list is hitl"));
+    }
 
-        var text = File.ReadAllText(path).Replace("\r\n", "\n");
-        var rules = Regex.Matches(text, @"\*\*(R\d+)\b").Select(m => m.Groups[1].Value)
+    // ---- the mutation rule, frozen only, series exempt (rulings of 2026-09-05) ----
+
+    /// <summary>
+    /// Rule 9's row-level shadow. The validator never sees a file edited; the one edit-shaped
+    /// thing a row can show is the same artifact under reads and writes. For in-place that is
+    /// the declared discipline and for append it is how appending works, so only frozen is
+    /// reported. A frozen series (<see cref="ArtifactPath.IsSeries"/>) is exempt: reading the
+    /// prior member to write the next is succession, not an edit, and flagging it would push
+    /// rows to drop a real read.
+    /// </summary>
+    static void CheckMutation(SkillDocument doc, List<Finding> findings)
+    {
+        var frozen = doc.Artifacts
+            .Where(a => a.Mutation == ClosedSets.Frozen)
+            .Where(a => !(ArtifactPath.TryParse(a.Path, out var path, out _) && path!.IsSeries))
+            .Select(a => a.Id)
             .ToHashSet(StringComparer.Ordinal);
-        if (rules.Count == 0)
-        {
-            findings.Add(Finding.Fail("codebook.no-rules", CodebookPath,
-                "no decision rules of the form **R<n> found"));
-            return;
-        }
-
-        foreach (var (id, body) in CodebookExamples(text))
-        {
-            var line = body.Split('\n').FirstOrDefault(l => l.Contains("exercises R", StringComparison.OrdinalIgnoreCase));
-            if (line is null)
-            {
-                findings.Add(Finding.Fail("codebook.example-exercises", id,
-                    $"{CodebookPath}: worked example {id} declares no 'exercises R…' line. " +
-                    "An example that names no rule is how a duty enters a codebook unruled"));
-                continue;
-            }
-            var named = Regex.Matches(line, @"\bR\d+\b").Select(m => m.Value).ToList();
-            if (named.Count == 0)
-                findings.Add(Finding.Fail("codebook.example-exercises", id,
-                    $"{CodebookPath}: {id}'s exercises line names no rule"));
-            foreach (var r in named.Where(r => !rules.Contains(r)))
-                findings.Add(Finding.Fail("codebook.unknown-rule", id,
-                    $"{CodebookPath}: {id} exercises '{r}', which this codebook does not define"));
-        }
+        foreach (var p in doc.Processes)
+        foreach (var a in p.Writes.Where(a => frozen.Contains(a) && p.ReadsOrInstruments(a)))
+            findings.Add(Finding.Fail("mutation.read-and-write", p.Id,
+                $"{At(p.File, p.Line)}: reads and writes '{a}', whose mutation is frozen. A frozen artifact " +
+                "is written once and never edited; a process that reads and writes it is edit-shaped " +
+                "(a series numbered by N or dated is exempt: reading one member to write the next is not an edit)"));
     }
 
-    /// <summary>Worked examples are bold-led blocks: <c>**E1 — …**</c> to the next one or heading.</summary>
-    internal static IReadOnlyList<(string Id, string Body)> CodebookExamples(string text)
+    // ---- the activity file's one shape ----
+
+    static void CheckFileShape(SkillDocument doc, List<Finding> findings)
     {
-        var result = new List<(string, string)>();
-        var lines = text.Split('\n');
-        string? current = null;
-        var body = new List<string>();
-        foreach (var line in lines)
+        foreach (var name in doc.OrphanActivityFiles)
+            findings.Add(Finding.Fail("file.orphan-activity", name,
+                "not SKILL.md, artifacts.md, map.md, state.md or CORPUS-STATUS.md, and no router row names " +
+                "an activity of this name; an activity not in the table is ungoverned"));
+
+        foreach (var a in doc.Activities)
         {
-            var m = Regex.Match(line.Trim(), @"^\*\*(E\d+)\b");
-            if (m.Success)
-            {
-                if (current is not null) result.Add((current, string.Join("\n", body)));
-                current = m.Groups[1].Value;
-                body = [line];
-                continue;
-            }
-            if (current is null) continue;
-            if (line.TrimStart().StartsWith('#'))
-            {
-                result.Add((current, string.Join("\n", body)));
-                current = null;
-                continue;
-            }
-            body.Add(line);
+            var path = doc.ActivityPath(a.Id);
+            if (!File.Exists(path)) continue;
+            var file = a.Id + ".md";
+            var outline = new MarkdownOutline(File.ReadAllText(path));
+
+            var title = outline.Headings.FirstOrDefault();
+            if (title is null || title.Level != 1 || title.Text != a.Id)
+                findings.Add(Finding.Fail("file.shape", a.Id,
+                    $"{file}: the title is '# {a.Id}'; found " +
+                    (title is null ? "no heading" : $"'{new string('#', title.Level)} {title.Text}' at line {title.Line}")));
+
+            var expected = new List<string> { "Preconditions" };
+            expected.AddRange(doc.ProcessesOf(a.Id).Select(p => p.Id));
+            expected.Add("Never");
+            var found = outline.Headings.Where(h => h.Level == 2).Select(h => h.Text).ToList();
+            if (!found.SequenceEqual(expected, StringComparer.Ordinal))
+                findings.Add(Finding.Fail("file.shape", a.Id,
+                    $"{file}: the sections are Preconditions, one per process id in table order, Never — " +
+                    $"expected [{string.Join(", ", expected)}], found [{string.Join(", ", found)}]"));
         }
-        if (current is not null) result.Add((current, string.Join("\n", body)));
-        return result;
     }
 
     // ---- SKILL.md's published limits and the one-level-deep rule ----
 
-    static void CheckSkill(string skillFolder, List<Finding> findings)
+    static void CheckSkill(SkillDocument doc, List<Finding> findings)
     {
-        var skillPath = Path.Combine(skillFolder, "SKILL.md");
-        if (!File.Exists(skillPath))
-        {
-            findings.Add(Finding.Fail("skill.missing", "SKILL.md", $"no SKILL.md in {skillFolder}"));
-            return;
-        }
-
-        var text = File.ReadAllText(skillPath).Replace("\r\n", "\n");
+        var text = File.ReadAllText(doc.SkillPath).Replace("\r\n", "\n");
         var lines = text.Split('\n').Length;
         if (lines > SkillLineBudget)
             findings.Add(Finding.Fail("skill.line-budget", "SKILL.md",
@@ -462,7 +355,10 @@ public static class Validator
             findings.Add(Finding.Fail("skill.description-length", "SKILL.md",
                 $"description is {description.Length} characters, over the published {SkillDescriptionBudget}"));
 
-        var companions = Directory.GetFiles(skillFolder, "*.md")
+        // An activity file is linked by its router row (the schema names the file by the id);
+        // any other companion must be named in SKILL.md itself.
+        var activityFiles = doc.Activities.Select(a => a.Id + ".md").ToHashSet(StringComparer.Ordinal);
+        var companions = Directory.GetFiles(doc.SkillFolder, "*.md")
             .Select(Path.GetFileName)
             .Where(n => n is not null && !string.Equals(n, "SKILL.md", StringComparison.Ordinal))
             .Select(n => n!)
@@ -471,12 +367,13 @@ public static class Validator
 
         foreach (var companion in companions)
         {
+            if (activityFiles.Contains(companion)) continue;
             if (text.Contains(companion, StringComparison.Ordinal)) continue;
 
             var via = companions
                 .Where(other => !string.Equals(other, companion, StringComparison.Ordinal))
                 .FirstOrDefault(other =>
-                    File.ReadAllText(Path.Combine(skillFolder, other)).Contains(companion, StringComparison.Ordinal));
+                    File.ReadAllText(Path.Combine(doc.SkillFolder, other)).Contains(companion, StringComparison.Ordinal));
 
             findings.Add(Finding.Fail("skill.companion-unlinked", companion,
                 via is null
@@ -510,14 +407,23 @@ public static class Validator
 
     // ---- reports that are not verdicts ----
 
-    static void ReportInformational(ProcessMapDocument doc, List<Finding> findings)
+    static void ReportInformational(SkillDocument doc, List<Finding> findings)
     {
-        // Only fan-in worth looking at. One row per governor is the ordinary case; the report
-        // exists so a document asked to govern many rows is visible, and can be split if it is
-        // not in fact one reading assignment.
-        foreach (var (file, rows) in GraphRules.GovernorFanIn(doc).Where(g => g.Rows.Count > 1))
-            findings.Add(Finding.Info("info.governor-fan-in", file,
-                $"governs {rows.Count} rows: {string.Join(" ", rows)}"));
+        foreach (var t in GraphRules.Traffic(doc).Where(t => t.Writers.Count == 0 && t.IsRead))
+            findings.Add(Finding.Info("info.artifact.never-written", t.ArtifactId,
+                $"read by {string.Join(", ", t.Readers.Concat(t.InstrumentOf))} and written by no process; " +
+                "informational (generated by a tool, or authored outside the method)"));
+
+        var artifactIds = doc.Artifacts.Select(a => a.Id).ToHashSet(StringComparer.Ordinal);
+        var free = doc.Processes.SelectMany(p => p.Instruments)
+            .Where(i => !artifactIds.Contains(i))
+            .Distinct(StringComparer.Ordinal)
+            .OrderBy(i => i, StringComparer.Ordinal)
+            .ToList();
+        if (free.Count > 0)
+            findings.Add(Finding.Info("info.instrument.free-name", "instruments",
+                $"instrument names that are not artifact ids: {string.Join(", ", free)}. A program whose code is " +
+                "an artifact is named by its id; check none of these should have been"));
 
         void Unused(string set, string[] declared, IEnumerable<string> used)
         {
@@ -527,11 +433,8 @@ public static class Validator
                     $"'{v}' is declared by the schema and used by no row"));
         }
 
-        Unused("Roots.kind", ClosedSets.RootKinds, doc.Roots.Select(r => r.Kind));
-        Unused("Files.keep", ClosedSets.Keeps, doc.Files.Select(f => f.Keep));
-        Unused("Processes.level", ClosedSets.Levels, doc.Processes.Select(p => p.Level));
-        Unused("Processes.kind", ClosedSets.ProcessKinds, doc.Processes.Select(p => p.Kind));
+        Unused("Processes.mode", ClosedSets.Modes, doc.Processes.Select(p => p.Mode));
         Unused("Processes.state", ClosedSets.States, doc.Processes.Select(p => p.State));
-        Unused("Edges.kind", ClosedSets.EdgeKinds, doc.Edges.Select(e => e.Kind));
+        Unused("Artifacts.mutation", ClosedSets.Mutations, doc.Artifacts.Select(a => a.Mutation));
     }
 }
