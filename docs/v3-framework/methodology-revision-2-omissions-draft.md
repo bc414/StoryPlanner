@@ -120,6 +120,49 @@ has ruled, and none is recorded anywhere else.
   third-role paragraph ("when a cell calls for one") and its v3 references, and the memory
   file's router pointer. Listed in handoff 2 step 5.
 
+## Draft 1's gaps: disposition (handoff 2 step 4, drafted 2026-09-06)
+
+The node comparison handoff 2 once named for this step is void: draft 1
+(`git show 32b6d4b:docs/v3-framework/process-map-1-draft.md`) has 109 node ids and the new
+`map.md` 67, none shared, because draft 1 abbreviated its ids and the map uses slugs; the
+audit above already mapped the text unit by unit. What draft 1 holds that document A did
+not is its § Gaps. One line per gap, the session's assessment for Brian's confirmation:
+closed (by which ruling or text), dissolved (the frame that carried it retired), partly
+(what remains), or open.
+
+| gap | draft 1 said | disposition |
+|---|---|---|
+| G1 | the referee is given an excerpt; R2, R5, R6 act on it | closed by ruling 6 (two inputs); the codebook's own text fix is step 5's open choice |
+| G2 | who appends the referee's verdict to the candidate | closed: `referee-append` (session) copies each result's two lines under its candidate; a runner child never appends |
+| G3 | the referee's generator and tallier do not exist | still unbuilt; referee-1's `author-codebook` writes them |
+| G4 | the agent-runner skill's excerpt example | closed 2026-09-05 (the skill's commit-convention bullet) |
+| G5 | PROTOCOL.md presents one lifecycle for every type | dissolved: the order is derived per activity; PROTOCOL.md retired |
+| G6 | the 2026-09-03 plan-mode rounds are elided from the archive | open as history: the ingest keeps such answers since 2026-09-04; those two rounds stay lost |
+| G7 | three owners named for authoring and calibrating a codebook | closed: preparing-to-verify's `author-codebook` and `calibrate`; building-a-tool's Never forbids it |
+| G8 | a script-produced (census) candidate cites nothing | dissolved: census retired; write-candidates never writes a script's count with no item behind it |
+| G9 | what an investigator must record for promotion's read | dissolved: investigator retired; the candidate's `source` locator and promote's step 1 |
+| G10 | no text governs a methodology revision | closed: revising-the-method, with two lints |
+| G11 | the calibration run needs a name distinct from a batch | partly: `calibrate-run` is the codebook's pilot under the draft hash; the ledger's mode for it is unstated |
+| G12 | the mechanics of Brian's blind scoring | closed in `calibrate` (verdicts written as given, results withheld until his are complete); no scoring-sheet artifact is named |
+| G13 | the stage strip marks "calibrated" on any record beside a codebook | open: the host still checks any `calibration-*.md`, not one at the current hash (the state verb checks the hash); an engineering item |
+| G14 | calibration per hash, or per hash and model | partly: the record names the model that scored; that a different model needs its own record is unstated |
+| G15 | two homes for exploratory arm outputs | closed: `results/` under the run in fanout; `leads.md` under docs |
+| G16 | no process updates a pool entry's status after a round | closed: `answered-by` and `frozen-into` are derived into state.md, never written |
+| G17 | whether the card's status rides in the promotion commit | dissolved: no cards; state is generated |
+| G18 | "every WU runs four phases in one session" against multi-session WUs | dissolved: chains of separately typed processes |
+| G19 | the HITL-context arm of 049 has no mechanism | open: none under rule 5; the instance that wants it must say how, or drop the arm |
+| G20 | what a pilot must show for a protocol to proceed | closed: `pilot-run`, Brian reads the record set and rules; his verdict in run.md |
+| G21 | promotion's source read is not recorded | partly: `promote` reads the source and reports before any decision; the promoted outcome line carries no field for it |
+| G22 | the codebook's status line and its place in the hash | closed by ruling: no status line; calibrated means a record at the hash |
+| G23 | plan-mode rulings leave no durable record | partly: rulings logs live in the repo; AskUserQuestion answers are kept by the ingest; approved plan files still sit outside |
+| G24 | SOP / one-time / reactive tagging per step | dissolved by ruling: mode by decision; bootstrap is a fact about instances, never about activities |
+
+The level-1 model change, for the note: draft 1's cycle — consolidation on demand, a
+forward plan, a card typed by a matrix cell, four phases in one session, a post-WU review,
+iteration and immediate re-referee — became thirteen activities in an enables graph, run as
+registered instances of two chains, each process typed by who decides in it, what is here
+generated into state.md, and the pick Brian's.
+
 ## Superseded by a ruling: for Brian's confirmation
 
 ### Iteration semantics (9)

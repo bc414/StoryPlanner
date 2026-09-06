@@ -363,3 +363,22 @@ rulings above, and an appendix of things raised outside document A. Brian, in hi
 "I'll decide and skill rulings later." The tool defects the run surfaced went to
 `engineering-handoff-2026-09-05.md`; its code landed on 2026-09-06 (its § Status), and four
 of its items wait on him with the omissions list.
+
+2026-09-06, on Brian's word ("Proceed"): `CORPUS-STATUS.md` copied verbatim into
+`v3-buildout-2`, where the new SKILL.md already names it and the validator accepts it; the
+copy is the working one, with its forward-plan and "verification pass" wording and its
+§ Skills needed brought to revision 2 as facts (the v1 archive reading is an exploration
+instance to register; the five-arm design sits in the retired plan as reference; the
+`v1-archive-mining` skill's status is the open point in the draft's appendix). The
+original stays untouched until the swap deletes the old folder. The corpus ids await the
+ruling on unit-176. Nothing gated the copy: the audit's hashes were pinned, no tool reads
+the file, and the live folder was not edited.
+
+2026-09-06, session decision recorded so it can be overturned: handoff 2's step 3, the node
+comparison against draft 1, is void as specified — draft 1 has 109 node ids and the map 67
+with none shared, and the audit already mapped the text — so the step is reshaped into a
+disposition per gap G1–G24, drafted in the omissions draft for Brian's confirmation
+(nineteen closed or dissolved, four partly, two open: G13 the host's stage strip and G19
+the HITL-context arm). Handoff 2 was rewritten current to 2026-09-06 with a section
+separating what waits on Brian from what is mechanical, so a fresh session can decide
+what comes next from it and the draft.
