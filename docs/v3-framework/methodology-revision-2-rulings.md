@@ -352,3 +352,14 @@ delegation, each overturnable:
   of its own, and a second copy of the tree is the stale-mirror failure.
 - **Validate passes with four notes; rendered.** The dry run and the host start are
   recorded in the run's `run.md`; pilot and batch not enqueued — Brian's go.
+
+## 2026-09-05 to 2026-09-06 — the audit ran; adjudication parked
+
+The pilot (`arm-A-22-the-referee`) was read by Brian; his verdict, in his words: "Proceed
+with the whole batch." 46 of 46 jobs succeeded; `run.md` and `tally.md` in the run folder
+carry the figures. The draft omissions list, `methodology-revision-2-omissions-draft.md`,
+holds 14 open units with the session's proposals and alternatives, 105 units assigned to
+rulings above, and an appendix of things raised outside document A. Brian, in his words:
+"I'll decide and skill rulings later." The tool defects the run surfaced went to
+`engineering-handoff-2026-09-05.md`; its code landed on 2026-09-06 (its § Status), and four
+of its items wait on him with the omissions list.

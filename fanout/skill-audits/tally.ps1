@@ -10,17 +10,22 @@
 # without BOM; the same text goes to stdout. Exit code 1 when any block is malformed: a relation
 # outside the protocol's seven labels, an empty note on a relation other than restated, a unit id
 # not in items\manifest.md, an id appearing twice across the result files, or a manifest unit with
-# no block at all. Self-test: .\tally.test.ps1.
+# no block at all. A tally.md that already exists is a frozen artifact (v3-buildout artifacts.md,
+# rule 9): the script refuses to overwrite it unless -Force is given. Self-test: .\tally.test.ps1.
 # ASCII only: Windows PowerShell 5.1 reads an unmarked file as ANSI.
 param(
     [Parameter(Mandatory)] [string] $Run,
     [string[]] $Flag = @('absent', 'reversed', 'delegated', 'narrowed'),
-    [string] $Out = ''
+    [string] $Out = '',
+    [switch] $Force
 )
 
 $ErrorActionPreference = 'Stop'
 $runPath = (Resolve-Path $Run).Path
 if ($Out -eq '') { $Out = Join-Path $runPath 'tally.md' }
+if ((Test-Path $Out) -and -not $Force) {
+    throw "refusing to overwrite $Out - a written tally is frozen; pass -Out elsewhere, or -Force to replace it on purpose"
+}
 $labels = @('restated', 'narrowed', 'broadened', 'reversed', 'delegated', 'absent', 'non-instructional')
 
 $files = Get-ChildItem (Join-Path $runPath 'results') -Filter *.md | Sort-Object Name

@@ -209,6 +209,11 @@ directly, so a serialization or transport regression would pass. For those, driv
 over stdio manually (the pattern is in this repo's git history) or check `/mcp` in a live session.
 
 Neither tier sees Brian's real `.storyplan` files, by design — **tests never touch them.**
+Nor the machine's other live state: the agent runner's launch gate reads `~/.claude.json`
+in production, so `RunnerHost` takes an injected utilization reader and the API tests pass
+their own. On 2026-09-05 three pure-tier tests timed out because the real cache stood at
+81% against the default cap of 80 — a test whose outcome depends on the developer's
+subscription window that hour is not a pure test, however green it usually runs.
 
 ## Running
 

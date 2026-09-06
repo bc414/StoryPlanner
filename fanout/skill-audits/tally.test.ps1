@@ -27,8 +27,13 @@ function Block([string] $unit, [string] $section, [string] $relation, [string] $
     return @("## $unit", "- section: $section", "- quote: q...", "- counterpart: SKILL.md > x", "- relation: $relation", "- note: $note", '')
 }
 
-function Invoke-Tally([string] $run, [string] $out) {
-    & powershell -NoProfile -ExecutionPolicy Bypass -File $tally -Run $run -Out $out | Out-Null
+function Invoke-Tally([string] $run, [string] $out, [switch] $force) {
+    # 5.1 wraps a native command's stderr in error records; under Stop they would abort this
+    # script on the refusal being tested, so the preference is relaxed around the call.
+    $tallyArgs = @('-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $tally, '-Run', $run, '-Out', $out)
+    if ($force) { $tallyArgs += '-Force' }
+    $eap = $ErrorActionPreference; $ErrorActionPreference = 'Continue'
+    try { & powershell @tallyArgs 2>&1 | Out-Null } finally { $ErrorActionPreference = $eap }
     return $LASTEXITCODE
 }
 
@@ -83,6 +88,14 @@ Check ($text -match "Blocks: 5 in 2 result files") 'clean: block count'
 Check ($text -match "unit-002 \| narrowed \| ## Rules") 'clean: narrowed is flagged by default'
 Check (-not ($text -match "unit-005 \| broadened")) 'clean: broadened is not flagged'
 Check ($text -match "\| ## Traps \| unit-004 \| 2 \| 0 \| 0 \| 1 \| 0 \| 0 \| 1 \| 0 \|") 'clean: by-section counts in label order'
+
+# --- a written tally is frozen: a second run refuses, -Force replaces ---
+$before = [IO.File]::ReadAllText($out)
+$code = Invoke-Tally $run $out
+Check ($code -ne 0) 'frozen: a second run without -Force exits nonzero'
+Check ([IO.File]::ReadAllText($out) -eq $before) 'frozen: the file is untouched'
+$code = Invoke-Tally $run $out -force
+Check ($code -eq 0) 'frozen: -Force replaces it and exits 0'
 Remove-Item $run -Recurse -Force
 
 if ($failures.Count -gt 0) { Write-Host "$($failures.Count) failure(s)"; exit 1 }

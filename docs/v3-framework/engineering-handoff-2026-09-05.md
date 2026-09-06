@@ -154,3 +154,46 @@ his word. Handoff 2 steps 3 to 6 follow that.
 Republish the runner while a batch is live (`AgentRunner.exe stop` first). Edit a file in
 an audit's set B while its run is live. Add a page control that changes what a job is.
 Hand-edit a generated section. Treat any of the above as settled before its test exists.
+
+## Status, 2026-09-06
+
+Landed by the session that took this file up, each with its test, and verified on the
+published host (stopped, republished, restarted; the smoke test enqueued under a new job
+id, `smoke-sonnet-2026-09-06-stream`, succeeded with tools `[Write]` and no transcript):
+
+- Runner 1: `StreamEvents` reads `system` by subtype (`init`; `thinking_tokens` as kind
+  `thinking`, collapsed by `ReadTail` to one running line with the step count; any other
+  subtype named and shown raw), `rate_limit_event` as kind `usage` with both windows, no
+  kind repeated in the text. Fixture lines from the pilot's stream; `ParseResultSummary`
+  pinned against the 2.1.258 result line with its late `type` key.
+- Runner 2: `RunCatalog` builds the snapshot over the union of `jobs.json` and the ledger;
+  pending is a file job with no terminal row; complete is every file job terminal; the
+  enqueue answers "N to launch, N skipped as succeeded, N already failed and not
+  relaunched" (`RunnerHost.EnqueueTally`). The host's launch gate now takes its usage
+  figure from an injectable reader — the API tests had timed out against the developer's
+  real cache at 81% versus the default cap of 80.
+- Runner 3: the stage is `tally.md` in the run folder; strip label `tally`.
+- Runner 4: `/protocol` renders `map.md` (`HostConfig.ResolveMapPath`: `mapPath` in
+  `host.json`, else `v3-buildout` then `v3-buildout-2`), read on each visit;
+  `fanout/PROTOCOL.md` deleted, README and the agent-runner skill updated. **Ruling still
+  open:** Markdig's diagram extension already emits `<pre class="mermaid">`, so choice (a)
+  is one script tag in `App.razor`; until ruled, each diagram is folded into a `details`
+  block with its source (`MarkdownView.RenderWithFoldedDiagrams`, pure-tested).
+- Tallier 1–4: `-Out` defaulting to `<run>/tally.md`, UTF-8 without BOM, header line,
+  stdout kept; `narrowed` in the default flags; a "By section" table from the manifest's
+  order; a "Malformed" section with the five checks and a nonzero exit. Self-test
+  `tally.test.ps1` (one of each defect, then a clean run). Run over this run's `results/`,
+  the output matched the committed `tally.md` line for line below the header, apart from
+  CRLF; the committed file was **not** replaced (frozen artifact) and so lacks the two new
+  sections.
+- Generator 1: `make-jobs.ps1` stamps its full invocation, set B verbatim, into
+  `_comment`. Generator 2: `make-document-a.ps1` writes `document-a.files.md` (order,
+  file, characters, line range) beside the document; `document-a-ranges.ps1` joins it with
+  the manifest through the document's headings and adds the units column, refusing on any
+  heading two files share. Rebuilt from HEAD's eight files, the document matched the
+  audited one apart from line endings, and the join reproduced the ranges `run.md` records.
+- Text follow-ups: all four, plus `revising-the-method.md` rows re-rendered.
+
+Awaiting Brian, unchanged: runner 4's diagram choice; generator 3 (`document-a.md`
+committed or ignored); ProcessMap 1 (where a referee run lives, (a) or (b)); ProcessMap 3
+(unit-096). ProcessMap 4 waits for the swap, as written.

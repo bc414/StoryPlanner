@@ -63,7 +63,7 @@ public class RunCatalogTests
         t.WriteJobs(2);
         File.WriteAllLines(Path.Combine(t.RunDir, "ledger.jsonl"), [RunnerPlan.SerializeLedgerRow(Row("job-01", 0, true, "ok"))]);
         var work = Path.GetDirectoryName(t.RunDir)!;
-        File.WriteAllText(Path.Combine(work, "codebook.md"), "# Codebook");
+        File.WriteAllText(Path.Combine(work, "codebook-2.md"), "# Codebook");   // versioned by number, as artifacts.md names it
 
         var snap = RunCatalog.Load(t.RunDir, t.FanoutRoot);
         Assert.True(snap.Stages.Instrument);

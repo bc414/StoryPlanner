@@ -49,7 +49,12 @@ a rename of existing values, a new parallel system, or a migration. The v1
 archive's Confirmed retains its distinct meaning and is permanently outside this
 change's scope. Audit mode's semantics change alongside (hypothesis 004).
 
-Source: design conversation (2026-08-31)
+Constraint: notes carry no modified-date — a note is an atemporal working
+hypothesis (a current-snapshot assertion), not a revision history. A "when
+reviewed" signal, if ever wanted, rides the baseline flag; a future note-iteration
+record would timestamp its own entries.
+
+Source: design conversation (2026-08-31); no-note-timestamp decision (2026-08-30)
 
 ### Codebase architecture for dimensional annotations
 

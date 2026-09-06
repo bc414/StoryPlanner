@@ -150,8 +150,12 @@ different default is an edit to `host.json`.
 **A run is its job file, not an enqueue.** The run's page and `/api/runs/<work>/<run>`
 describe the union of `jobs.json` and the ledger: pending is a job in the file with no
 terminal row, the batch is complete when every job in the file is terminal, and a pilot
-(`--job`) leaves the rest pending. An enqueue answers with what it will do — jobs to
-launch, skipped as succeeded, already failed and not relaunched — never a bare count.
+(`--job`) leaves the rest pending. A job the ledger holds that the file no longer names
+stays listed as its rows say, so pruning a job file erases no history (the smoke test's
+page shows a 2026-09-03 failure this way). An enqueue answers with what it will do — jobs
+to launch, skipped as succeeded, already failed and not relaunched — never a bare count.
+Running a tallier again on a finished run is refused: a written `tally.md` is frozen, and
+the skill-audit tallier takes `-Force` only for a deliberate replacement.
 
 **The stage strip** on a run's page is detected from the folder alone: instrument present,
 calibrated (codebooks only), enumerated, generated, piloted, batch complete, tally written

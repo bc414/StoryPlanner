@@ -53,7 +53,13 @@ built to and the router the swap installs. The reasons for every choice are in
    the new router; `methodology-revision-2.md` written once from the rulings log (what
    prompted it, the rulings, the omissions list, what was not adopted, what is owed);
    `process-map-1-draft.md` and both handoffs stamped; the integration test un-skipped and
-   extended to run `claude plugin validate .claude/skills`.
+   extended to run `claude plugin validate .claude/skills`. Found 2026-09-05, also at the
+   swap: `CORPUS-STATUS.md` moves into the new folder (it exists only in the old one, which
+   the swap deletes, and the new SKILL.md names it) carrying the corpus ids per the ruling
+   on unit-176; `VERSION-HISTORY.md` goes where the ruling on unit-043 says; CLAUDE.md's
+   revision-1 vocabulary (the third-role paragraph's "when a cell calls for one", its v3
+   skill references) is brought to revision 2; the real-folder test repoints at
+   `v3-buildout`; the omissions draft is folded into the note and retired.
 6. **Then WU2.15 resumes**, re-specified in the new vocabulary: it is `referee-1`, the
    referee's preparation, followed by the retroactive candidates as the first round's input.
 
@@ -78,9 +84,10 @@ are not covered. Its output is a finding for a later revision, not a row.
 
 Also owed: the section-aware check that a hypothesis record's existing lines are unchanged
 between commits; the codebook anchor convention in the agent-runner skill once a
-calibration has produced one; and the tool fixes the first audit run surfaced, in
-`engineering-handoff-2026-09-05.md` (the runner's stream view and stage strip, the
-tallier, the generator's stamp, the state verb's blind spot for referee runs).
+calibration has produced one; and, of the tool fixes the first audit run surfaced
+(`engineering-handoff-2026-09-05.md`), only the state verb's blind spot for referee runs
+and the three other items awaiting a ruling — the rest landed on 2026-09-06, and that
+file's § Status says what and how it was verified.
 
 The audit ran on 2026-09-05 (46 jobs, none failed); its adjudication is the draft
 omissions list `methodology-revision-2-omissions-draft.md`, awaiting Brian's rulings.

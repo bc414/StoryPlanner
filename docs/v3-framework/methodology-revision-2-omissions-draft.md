@@ -29,11 +29,13 @@ Flagged: 119: 82 narrowed, 17 reversed, 20 absent. Assigned to a ruling: 105. Op
 ### unit-067 · narrowed · ## Challenging a hypothesis
 - audit: A challenge is evidence: a specific counterexample with ids …
 - **No channel for Brian's own counterexample.** Revision 1 let a challenge be evidence directly; B routes everything through a round. Proposal: keep the strong form (his counterexample enters the corpus's question list and a round produces the candidate) unless he wants an hitl-authored candidate that still passes the referee.
+- alternatives: (a) question list, then a round: the strong form holds and the record never holds an unrefereed entry; (b) an hitl-authored candidate marked asked-by Brian, still refereed and promoted like any other, with new prose in promoting-checked-candidates and a proposed-by form for a person; (c) a direct challenging entry with no referee line, as revision 1, reversing rule 2 and "an entry without a falsifier is malformed".
 - Brian: *pending*
 
 ### unit-043 · narrowed · ## Context documents
 - audit: Two files travel with this skill and are facts, not rules: `VERSION-HISTORY.md` (dated project timeline — no interpretive claims) and `CORPUS-STATUS.md` (what material exists and its state). …
 - **VERSION-HISTORY.md has no home.** It sits in the old skill folder only; the new folder's validator rejects an unknown .md, and step 5 deletes the old folder. Proposal: move it to docs/v3-framework/VERSION-HISTORY.md at the swap and name it in SKILL.md § Provenance as a fact file.
+- alternatives: (a) docs/v3-framework at the swap, named in § Provenance, no schema change; (b) into the new skill folder, a validator change (a known non-activity file) plus a § Companions line; (c) retire it, git keeps the text, the line records it as dropped by ruling.
 - Brian: *pending*
 
 ### unit-108 · narrowed · ## Design rules for all types
@@ -44,6 +46,7 @@ Flagged: 119: 82 narrowed, 17 reversed, 20 absent. Assigned to a ruling: 105. Op
 ### unit-096 · narrowed · ## Entries this pipeline did not produce
 - audit: An evidence entry with no referee line and no codebook hash was not produced by this pipeline…
 - **Pre-pipeline record entries have no stated fate.** B says an entry without a falsifier is malformed, but every existing record holds such entries, and handoff step 6 plans their re-queue as referee-1's first input. Proposal: one sentence in artifacts.md § Hypothesis file (entries written before the referee existed count toward no status and are re-queued as candidates for the first round), and the state verb ignores them when it implies a status.
+- alternatives: (a) the sentence, and the state verb skips entries without a falsifier (a small tool change with a fixture; engineering handoff ProcessMap 3); (b) the sentence only, the mismatch flag showing on every old hypothesis until referee-1 has run; (c) no rule text, referee-1's own plan and run.md carry it, the line records the omission as deliberate.
 - Brian: *pending*
 
 ### unit-010 · narrowed · ## Epistemic framework (applied)
@@ -74,6 +77,7 @@ Flagged: 119: 82 narrowed, 17 reversed, 20 absent. Assigned to a ruling: 105. Op
 ### unit-176 · narrowed · # Spec pools
 - audit: One file per corpus (`<corpus>.md`). The seven corpora of the buildout as of 2026-09-03, …
 - **CORPUS-STATUS.md does not name the corpora as ids.** artifacts.md says a corpus name comes from CORPUS-STATUS.md, but its headings are prose and the ids in use are the spec-pool filenames (analysis-corpus, own-fiction, v1-archive, working-plan, lineage, conversations, code-sessions). Proposal: CORPUS-STATUS.md carries the id beside each corpus, at step 4 with the spec-pools move.
+- alternatives: (a) the id beside each corpus section in CORPUS-STATUS.md, a fact-file edit; (b) the question-list filenames are the ids and artifacts.md points at questions/ for the name, so a corpus with no list has no id; (c) an id · name · state table at the top of CORPUS-STATUS.md that the state verb could later read.
 - Brian: *pending*
 
 ### unit-122 · reversed · ## The four phases
@@ -90,6 +94,31 @@ Flagged: 119: 82 narrowed, 17 reversed, 20 absent. Assigned to a ruling: 105. Op
 - audit: Among other things: story content decisions; prose technique (the planner specifies goals and mechanisms, never how to write); planner features…
 - **FEATURE-AUDIT check before a feature proposal.** B names FEATURE-AUDIT as governance but drops the instruction to check it first. Proposal: restore the clause in § What this skill does not govern.
 - Brian: *pending*
+
+## Raised in session, outside document A: for the note's "not adopted" and "owed"
+
+Not units of the audit; things the session noticed on 2026-09-05 while checking what the
+old setup held outside its skill folder. Each is a line for the revision note once Brian
+has ruled, and none is recorded anywhere else.
+
+- **Which step carries the codebook text fixes of ruling 6.** Handoff 1 (ruling 6, still
+  current) makes the referee codebook's text fixes part of this revision: inputs by
+  reference to the row, R2 recast, R5 and R6 removed, E1 to E5 removed. Handoff 2 step 4
+  names only the status line and the inputs section. The new format has the referee's
+  codebook authored afresh as `codebook-1.md` in referee-1. Which of the three carries the
+  fixes is unruled; a session could take any one and the others would assume it done.
+- **The `v1-archive-mining` skill.** A reading protocol in everything but location, named
+  by the old CORPUS-STATUS.md and by nothing in the new skill. Whether the exploration of
+  the v1 archive authors it as `protocol-1.md` under its instance or keeps the skill is a
+  preparing-to-explore decision; recorded so it is not lost in between.
+- **Three carry-forward items of `WU2.15-plan.md` with no home in the new text:** the
+  referee's four-goal purpose test (the new Never carries only its narrow form); the rule
+  that a worked example silently carries a rule (the Anchors format answers it in
+  structure only); and copying approved plan-mode files into the repo, partly overtaken
+  since the code-sessions ingest keeps AskUserQuestion answers.
+- **Revision-1 vocabulary outside the skill folder,** to change at the swap: CLAUDE.md's
+  third-role paragraph ("when a cell calls for one") and its v3 references, and the memory
+  file's router pointer. Listed in handoff 2 step 5.
 
 ## Superseded by a ruling: for Brian's confirmation
 
