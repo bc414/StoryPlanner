@@ -76,6 +76,16 @@ header note that the API is inaccessible and the corpus was hand-downloaded, or 
 
 - **Provenance:** session `6f0c2fb1` (2026-08-29) — the OAuth-422 discovery and the
   C#-over-scraping decision, before the API turned out to be inaccessible.
+- **Resolved 2026-09-06:** deleted, not annotated. `tools/StoryPlanner.FimComments` was
+  standalone — two tracked files from `27722ce`, never modified after, absent from
+  `StoryPlanner.sln`, no project reference in either direction, no CI reference, and no
+  output artifact on disk — so nothing in the build or the test run was touched. The
+  corpus survives documented in the `v3-buildout` skill's `CORPUS-STATUS.md` under
+  "Supplementary material"; the source survives in git history and the reasoning in
+  session `6f0c2fb1`. Same treatment as `tools/StoryPlanner.AnalysisRunner`
+  (`methodology-revision-1.md`). Unrelated and deliberately left in place: the
+  `Fimfiction-Comments-Capture` entry in the code-sessions ingest include-list, which
+  names a Claude Code project directory rather than this tool.
 
 ### G2 — notes carry no date-modified metadata, by decision
 
