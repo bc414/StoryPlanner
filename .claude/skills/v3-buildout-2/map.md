@@ -631,6 +631,7 @@ flowchart LR
   auditrun["audit-run<br/>session"]:::session
   auditjudge(["audit-judge<br/>agent"]):::agent
   auditprotocol[/"audit-protocol"/]:::artifact
+  decisions[/"decisions"/]:::artifact
   generator[/"generator"/]:::artifact
   items[/"items"/]:::artifact
   itemsmanifest[/"items-manifest"/]:::artifact
@@ -639,7 +640,6 @@ flowchart LR
   map[/"map"/]:::artifact
   results[/"results"/]:::artifact
   revisionnote[/"revision-note"/]:::artifact
-  rulingslog[/"rulings-log"/]:::artifact
   runrecord[/"run-record"/]:::artifact
   runnerskill[/"runner-skill"/]:::artifact
   skill[/"skill"/]:::artifact
@@ -652,12 +652,12 @@ flowchart LR
   map --> revise
   state --> revise
   revisionnote --> revise
-  rulingslog --> revise
+  decisions --> revise
   results --> revise
   tallyoutput --> revise
   revise --> skill
   revise --> runnerskill
-  revise --> rulingslog
+  revise --> decisions
   revise --> revisionnote
   revise --> map
   skill --> auditrun
@@ -679,7 +679,7 @@ flowchart LR
 Derived from the tables, never authored:
 
 - **inputs**: audit-protocol generator state tallier
-- **outputs**: items items-manifest jobs ledger map results revision-note rulings-log run-record runner-skill skill tally-output
+- **outputs**: decisions items items-manifest jobs ledger map results revision-note run-record runner-skill skill tally-output
 - **instruments**: DocIntegrity generator git runner tallier
 - **enabled by**: —
 - **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
@@ -761,7 +761,7 @@ flowchart TD
   instances[/"instances"/]:::artifact
   state[/"state"/]:::artifact
   revisionnote[/"revision-note"/]:::artifact
-  rulingslog[/"rulings-log"/]:::artifact
+  decisions[/"decisions"/]:::artifact
   leadsartifact[/"leads-artifact"/]:::artifact
   verificationartifact[/"verification-artifact"/]:::artifact
   armkey[/"arm-key"/]:::artifact
@@ -971,12 +971,12 @@ flowchart TD
   map --> revise
   state --> revise
   revisionnote --> revise
-  rulingslog --> revise
+  decisions --> revise
   results --> revise
   tallyoutput --> revise
   revise --> skill
   revise --> runnerskill
-  revise --> rulingslog
+  revise --> decisions
   revise --> revisionnote
   revise --> map
   skill --> auditrun
@@ -1007,7 +1007,7 @@ flowchart TD
 | instances | verify-plan explore-plan | round-run slice-run | — |
 | state | — | verify-plan explore-plan revise | — |
 | revision-note | revise | revise | — |
-| rulings-log | revise | revise | — |
+| decisions | revise | revise | — |
 | leads-artifact | review-leads pathfind join-and-bin | review-leads | — |
 | verification-artifact | promote round-write | write-candidates | — |
 | arm-key | explore-plan | review-leads | — |

@@ -474,3 +474,9 @@ label the log says so.
   Brian: "I don't think the hook should go in claude.md since it is v3 buildout specific."
   The hook's message and the skill's § Schema paragraph are its two homes; CLAUDE.md's
   file-tools rule is the repo-wide half and stands as written.
+
+## 2026-09-06 (night) — this log closes
+
+Decisions continue in `docs/v3-framework/decisions.md`, founded this night in the format
+`artifacts.md` § Decisions; the founding entry there records the ruling and what was not
+taken. This file is cited by heading and never appended again.

@@ -2,7 +2,10 @@
 
 Every artifact a process in this skill reads or writes, and every authored format. An
 artifact is a class; the files are its instances. Schema and closed sets: `SKILL.md` § Schema.
-Consumers are never written here; the validator derives them.
+Consumers are never written here; the validator derives them. Each format's example block
+is the fixture its checker in `process-docs/StoryPlanner.DocIntegrity` is tested against:
+the block and the grammar sentences around it are what the machine reads, the guidance
+sentences are for the author, and a format edited without its checker fails a test.
 
 Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPUS-STATUS.md`;
 `<instance>` an instance's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
@@ -25,7 +28,7 @@ shared instrument and the iteration candidates.
 | instances | docs/v3-framework/instances.md | append | Instance registry | One row per instance of a chain, declared at Brian's go; the ids every artifact path is named by |
 | state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per instance where it is; per corpus, open questions and whether a calibrated codebook covers them; per hypothesis, status and whether any open question names it |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
-| rulings-log | docs/v3-framework/methodology-revision-N-rulings.md | append | | Brian's rulings during a revision, dated, with reasons |
+| decisions | docs/v3-framework/decisions.md | append | Decisions | The method's decision record: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
 | leads-artifact | docs/v3-framework/<instance>/leads.md | append | Leads artifact | What one exploration observed, organised by locus |
 | verification-artifact | docs/v3-framework/<instance>/round.md | append | Verification artifact | One round's method, questions answered, counts and promotion summary |
 | arm-key | docs/v3-framework/<instance>/arm-key.md | frozen | Arm key | The blinding key: arm label to condition and model; opened only after binning |
@@ -416,3 +419,41 @@ about a run is mechanical and lives in `jobs.json`, `ledger.jsonl`, `items/manif
 `results/` and `tally.md`; the runner's own `attempts/` folder, each attempt's composed
 prompt and stream, is its working store, local and never cited. A document in `docs/`
 cites a run by this folder and a ledger row.
+
+## Decisions
+
+`docs/v3-framework/decisions.md` — the method's decision record: one file for every
+revision, sections by revision in order, one titled entry per decision, appended after
+Brian's approval and never edited. Every entry is Brian's: a session drafts it from his
+words in the conversation, he approves, then it is written; nothing lands autonomously.
+Written only during revising-the-method and read there and nowhere else. The skill's
+activity text is those decisions applied, so no standard-operating activity cites one, and
+a decision id appears in this folder only in `revising-the-method.md`, which the validator
+holds. Borrowed shape: architecture decision records, a dated entry whose standing is
+derived from supersession; the words are kept as this method uses them.
+
+```markdown
+## Revision 2
+
+### Generated text is files only
+
+- date: 2026-09-06
+- supersedes: d-2026-09-04-2 (in part)
+
+Brian's words in quotation marks, the rest the session's phrasing; the reason; what was not
+taken; what it resolves, as a sentence ("resolves unit-096"), never as a field.
+```
+
+**Id**: `d-<date>-<n>`, derived by the tool from the entry's `date` line and its position
+among that day's entries in file order; never written by hand; stable because the file is
+append-only. **`date`**: the day Brian decided or approved. **`supersedes`**: decision ids
+only, whole or `(in part)`, and the prose says what still stands; an entry with no
+`supersedes` line establishes something new; standing and superseded are derived, never
+written; a decision already superseded when the file was founded was not entered. Words in
+quotation marks are Brian's verbatim and weigh as a freestanding prompt; unquoted prose is
+the session's and is never quoted as his. Every decision is a titled entry; a section holds
+nothing but entries and one lead-in paragraph; context, instructions received and run
+verdicts go into an entry's prose, a handoff or `run.md`, never a bare paragraph. A
+revision's section is read whole by `revise`; older sections by heading. A decision that
+changes an earlier revision's text reaches it through the supersession audit's unit ids, in
+prose.

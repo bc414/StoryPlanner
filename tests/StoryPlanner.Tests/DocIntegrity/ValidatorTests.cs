@@ -246,6 +246,45 @@ public class ValidatorTests
     public void A_title_that_is_not_the_activity_id_fails_the_shape()
         => Fails("file.shape", MapFixture.With(Refereeing, "# refereeing-a-candidate", "# Refereeing"));
 
+    // ---- decisions are cited only in revising-the-method ----
+
+    [Fact]
+    public void A_decision_id_in_a_standard_operating_activity_file_is_a_failure()
+        => Fails("decision.id-outside-revising", MapFixture.With(Promoting, "Brian decides.", "Brian decides (decision d-2026-09-06-2)."));
+
+    [Fact]
+    public void A_decision_id_in_the_router_is_a_failure()
+        => Fails("decision.id-outside-revising", MapFixture.With(Skill, "## Companions", "See d-2026-09-05-3.\n\n## Companions"));
+
+    [Fact]
+    public void A_decision_id_inside_a_fenced_example_is_schema_not_a_citation()
+    {
+        using var f = MapFixture.With(Artifacts, "## Codebook",
+            "## Decisions\n\n```markdown\n- supersedes: d-2026-09-04-16 (in part)\n```\n\n## Codebook");
+        Assert.DoesNotContain("decision.id-outside-revising", Rules(f));
+    }
+
+    [Fact]
+    public void A_decision_id_in_revising_the_method_is_allowed()
+    {
+        using var f = MapFixture.WithExtra("revising-the-method.md", """
+            # revising-the-method
+
+            Enables nothing yet.
+
+            ## Preconditions
+
+            A finding, per d-2026-09-06-1.
+
+            ## Never
+
+            Nothing.
+            """);
+        // The extra file is an orphan (no router row names it), which is its own finding; the
+        // decision id inside it must not be one.
+        Assert.DoesNotContain("decision.id-outside-revising", Rules(f));
+    }
+
     // ---- SKILL.md's published limits and the one-level-deep rule ----
 
     [Fact]

@@ -183,7 +183,7 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 
 `artifacts.md` — the Artifacts table and every authored format (hypothesis file, index,
 question entry, instance registry, candidate, leads and verification artifacts, arm key,
-reading protocol, codebook, calibration record, run.md). `CORPUS-STATUS.md` — what
+reading protocol, codebook, calibration record, run.md, decisions). `CORPUS-STATUS.md` — what
 material exists and its state; a fact file, not a rule. `map.md` and `state.md` —
 generated only. The `agent-runner` skill governs the runner as an instrument and is read in
 full by any process that invokes it.
@@ -207,20 +207,23 @@ full by any process that invokes it.
 
 ## Provenance
 
-Revision 2 of this skill, built from 2026-09-04 in this folder beside the live
-`v3-buildout` (revision 1, 2026-09-03) and swapped in one commit when the validator passes
-and the supersession audit of revision 1's text is adjudicated.
-Why revision 2 exists and what it replaced is recorded once in
-`docs/v3-framework/methodology-revision-2.md`; the rulings it rests on are appended as made
-to `docs/v3-framework/methodology-revision-2-rulings.md`. Both are provenance; this skill is
-the instruction. `docs/v3-framework/` holds the buildout's record: `hypotheses/`,
-`questions/`, `methodology-revision-N.md` with its rulings log, the leads and verification
-artifacts named `exploration-of-<corpus>` and `round-of-<corpus>-<n>`, the retired forward
-plans of revision 1 (reference only), and `implementation-candidates.md` (codebase changes
-gated on baselined hypotheses — they enter the ordinary feature process, never this
-skill). `fanout/` holds what the runner takes in and puts out, one folder per work. There
-is no plan: what to do next is read from the generated `state.md`, and the pick is Brian's.
+This skill is the instruction; its provenance lives outside it and is read in one
+activity. `docs/v3-framework/decisions.md` is the method's decision record, written and
+read only in revising-the-method; `docs/v3-framework/methodology-revision-N.md` is each
+revision's write-once note. `docs/v3-framework/` also holds the buildout's record:
+`hypotheses/`, `questions/`, the leads and verification artifacts named
+`exploration-of-<corpus>` and `round-of-<corpus>-<n>`, the retired forward plans of
+revision 1 (reference only), and `implementation-candidates.md` (codebase changes gated on
+baselined hypotheses — they enter the ordinary feature process, never this skill).
+`fanout/` holds what the runner takes in and puts out, one folder per work. There is no
+plan: what to do next is read from the generated `state.md`, and the pick is Brian's.
 Provenance informs and never prescribes.
+
+**What survives a session.** When a session ends, or when Brian asks what must survive it,
+the session drafts what it believes must and presents it. A decision about how the buildout
+is run enters `decisions.md` only after his approval, as a titled entry in its format; an
+instance's own conclusions enter that instance's artifacts by its activity's rows; nothing
+lands anywhere autonomously, and nothing survives in a handoff.
 
 ## What this skill does not govern
 

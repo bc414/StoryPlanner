@@ -337,6 +337,40 @@ public static class Validator
         }
 
         CheckNoInlineGenerated(doc, findings);
+        CheckNoDecisionIdsOutsideRevising(doc, findings);
+    }
+
+    public const string RevisingFile = "revising-the-method.md";
+
+    /// <summary>
+    /// Decision ids (<c>d-YYYY-MM-DD-n</c>, artifacts.md § Decisions) are provenance, read
+    /// and written in revising-the-method only. A standard-operating activity file is the
+    /// decisions already applied and never cites one, so the id pattern anywhere else in
+    /// the folder is a failure.
+    /// </summary>
+    static readonly Regex DecisionId = new(@"\bd-\d{4}-\d{2}-\d{2}-\d+\b", RegexOptions.Compiled);
+
+    static void CheckNoDecisionIdsOutsideRevising(SkillDocument doc, List<Finding> findings)
+    {
+        var files = new List<string> { doc.SkillPath, doc.ArtifactsPath };
+        files.AddRange(doc.Activities.Select(a => doc.ActivityPath(a.Id)).Where(File.Exists));
+        foreach (var path in files)
+        {
+            if (string.Equals(Path.GetFileName(path), RevisingFile, StringComparison.Ordinal)) continue;
+            var lines = File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');
+            var inFence = false;
+            for (var i = 0; i < lines.Length; i++)
+            {
+                // A format's example block shows the id's shape; that is schema, not a citation.
+                if (lines[i].TrimStart().StartsWith("```", StringComparison.Ordinal)) { inFence = !inFence; continue; }
+                if (inFence) continue;
+                var m = DecisionId.Match(lines[i]);
+                if (!m.Success) continue;
+                findings.Add(Finding.Fail("decision.id-outside-revising", Path.GetFileName(path),
+                    $"line {i + 1} cites decision {m.Value}; decisions are cited only in {RevisingFile}"));
+                break;
+            }
+        }
     }
 
     /// <summary>
