@@ -96,7 +96,7 @@ fanout/
     calibration-<date>.md           calibration at its hash before any batch
     itemize.*  make-jobs.*  tally.* the itemizer, the generator and the tallier
     <run>/                          one batch execution, <date>[-<slug>]
-      run.md                        the authored front page (the v3-buildout skill's formats/run-page.md says what it holds)
+      run.md                        the authored front page (the v3-buildout skill's schemas/run-page-schema.md says what it holds)
       items/manifest.md             the enumeration's index (bodies regenerable, not committed)
       jobs.json                     generated
       ledger.jsonl                  one row per attempt — the row an artifact cites
@@ -118,7 +118,7 @@ What a person writes afterwards (a round's `round.md`, an exploration's leads, a
 adjudication) is a document in `docs/` that cites the run by ledger row.
 
 Every run carries `run.md`: small, authored, committed, rendered at the top of the run's
-page. What it holds is the `v3-buildout` skill's `formats/run-page.md`, for every run,
+page. What it holds is the `v3-buildout` skill's `schemas/run-page-schema.md`, for every run,
 buildout or not; everything else about a run is mechanical and lives in the files above.
 
 **What a run commits** — one convention, no per-experiment `.gitignore` edits:

@@ -39,7 +39,7 @@ Instructed by `fanout/referee/codebook-N.md` and nothing else; Sonnet by default
 and Write; no MCP. Given the statement and the finding, it writes the falsifier — what the
 finding would have been if the statement were false — and classifies the candidate by which
 side of that observable the finding shows, or non-diagnostic if no such observable can be
-named or the finding is consistent with both. Two lines out, in the candidate's format,
+named or the finding is consistent with both. Two lines out, in the candidate's shape,
 citing its job, model, time and codebook hash. Tuned to over-flag: a false non-diagnostic
 costs one adjudication; a false diagnostic costs the record.
 

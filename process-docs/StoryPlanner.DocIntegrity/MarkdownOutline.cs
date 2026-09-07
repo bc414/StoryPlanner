@@ -1,8 +1,8 @@
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
-/// The headings of one markdown file, for resolving a <c>format</c> cell to exactly one
-/// heading in a format file and for checking an activity file's shape. Fenced code and
+/// The headings of one markdown file, for a schema file's title and for checking an activity
+/// file's shape. Fenced code and
 /// generated sections are skipped: a heading inside a rendered section is never source.
 /// </summary>
 public sealed class MarkdownOutline

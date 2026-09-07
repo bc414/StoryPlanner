@@ -26,7 +26,7 @@ signs off the checklist; a tool he sends back is rebuilt in the same activity. T
 first task inside the study that needs the tool, never a study of its own. A tool
 never authors prose that is Brian's: no display questions, no definitions, no codebook,
 no question. A checker over governed files is not armed until its first run over the real
-files has been predicted in writing, from the decisions and the format, and the run
+files has been predicted in writing, from the decisions and the schema, and the run
 compared with the prediction; a discrepancy is a wrong derivation or a decision not yet
 made, and goes to Brian first.
 

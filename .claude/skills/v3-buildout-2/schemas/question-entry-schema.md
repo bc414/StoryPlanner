@@ -1,4 +1,4 @@
-# question-entry
+# question-entry-schema
 
 `docs/v3-framework/questions/<corpus>.md` — one file per corpus, one entry per question,
 appended, never rewritten; only the `status` line changes, and only to `withdrawn`.

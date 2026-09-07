@@ -1,4 +1,4 @@
-# reading-protocol
+# reading-protocol-schema
 
 `fanout/<study>/protocol-N.md`, the instruction a slice reader runs under, inlined and
 hashed by the runner as the reader's entire context. Authored in preparing-to-explore-a-corpus;

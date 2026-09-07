@@ -78,28 +78,46 @@ public class ValidatorTests
     public void A_write_naming_no_artifact_does_not_resolve()
         => Fails("ref.writes", MapFixture.With(Refereeing, "| codebook items | results | specified |", "| codebook items | nope | specified |"));
 
-    [Fact]
-    public void A_format_naming_no_file_under_formats_does_not_resolve()
-        => Fails("ref.format", MapFixture.With(Artifacts, "| candidate |", "| candidates |"));
+    const string CandidateCell = "| [candidate-schema](schemas/candidate-schema.md) |";
 
     [Fact]
-    public void A_format_that_is_not_a_slug_does_not_resolve()
-        => Fails("ref.format", MapFixture.With(Artifacts, "| candidate |", "| Candidate |"));
+    public void A_schema_naming_no_file_under_schemas_does_not_resolve()
+        => Fails("ref.schema", MapFixture.With(Artifacts, CandidateCell, "| [candidates-schema](schemas/candidates-schema.md) |"));
 
     [Fact]
-    public void A_format_file_whose_title_is_not_its_id_fails_the_shape()
+    public void A_schema_whose_link_text_is_not_a_slug_does_not_resolve()
+        => Fails("ref.schema", MapFixture.With(Artifacts, CandidateCell, "| [Candidate-schema](schemas/Candidate-schema.md) |"));
+
+    [Fact]
+    public void A_schema_cell_that_is_a_bare_slug_is_not_a_link()
+        => Fails("ref.schema", MapFixture.With(Artifacts, CandidateCell, "| candidate-schema |"));
+
+    [Fact]
+    public void A_schema_link_whose_target_is_not_the_file_its_text_names_fails()
+        => Fails("ref.schema", MapFixture.With(Artifacts, CandidateCell, "| [candidate-schema](schemas/codebook-schema.md) |"));
+
+    [Fact]
+    public void A_schema_id_without_the_suffix_fails()
+        => Fails("ref.schema", MapFixture.With(Artifacts, CandidateCell, "| [candidate](schemas/candidate.md) |"));
+
+    [Fact]
+    public void A_schema_id_that_is_an_artifact_id_fails()
+        => Fails("ref.schema", MapFixture.With(Artifacts, "| candidates | fanout/<study>/candidates.md |", "| candidate-schema | fanout/<study>/candidates.md |"));
+
+    [Fact]
+    public void A_schema_file_whose_title_is_not_its_id_fails_the_shape()
     {
         using var f = new MapFixture();
-        f.WriteFormat("candidate", "# Candidate\n\nThe shape.\n");
-        Assert.Contains("format.shape", Rules(f));
+        f.WriteSchema("candidate-schema", "# Candidate-schema\n\nThe shape.\n");
+        Assert.Contains("schema.shape", Rules(f));
     }
 
     [Fact]
-    public void A_format_file_no_row_names_is_an_orphan()
+    public void A_schema_file_no_row_names_is_an_orphan()
     {
         using var f = new MapFixture();
-        f.WriteFormat("stray", "# stray\n");
-        Assert.Contains("file.orphan-format", Rules(f));
+        f.WriteSchema("stray-schema", "# stray-schema\n");
+        Assert.Contains("file.orphan-schema", Rules(f));
     }
 
     [Fact]
@@ -278,18 +296,18 @@ public class ValidatorTests
         => Fails("decision.id-outside-revising", MapFixture.With(Skill, "## Companions", "See d-2026-09-05-3.\n\n## Companions"));
 
     [Fact]
-    public void A_decision_id_inside_a_fenced_example_is_schema_not_a_citation()
+    public void A_decision_id_inside_a_fenced_example_is_the_shape_not_a_citation()
     {
         using var f = new MapFixture();
-        f.WriteFormat("candidate", "# candidate\n\n```markdown\n- supersedes: d-2026-09-04-16 (in part)\n```\n");
+        f.WriteSchema("candidate-schema", "# candidate-schema\n\n```markdown\n- supersedes: d-2026-09-04-16\n```\n");
         Assert.DoesNotContain("decision.id-outside-revising", Rules(f));
     }
 
     [Fact]
-    public void A_decision_id_in_a_format_file_outside_a_fence_is_a_failure()
+    public void A_decision_id_in_a_schema_file_outside_a_fence_is_a_failure()
     {
         using var f = new MapFixture();
-        f.WriteFormat("candidate", "# candidate\n\nPer d-2026-09-05-3.\n");
+        f.WriteSchema("candidate-schema", "# candidate-schema\n\nPer d-2026-09-05-3.\n");
         Assert.Contains("decision.id-outside-revising", Rules(f));
     }
 

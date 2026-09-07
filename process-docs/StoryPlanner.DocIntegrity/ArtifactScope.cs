@@ -1,7 +1,7 @@
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>A file resolved to the artifact class that governs it and the checker for that class.</summary>
-public sealed record GovernedFile(string RepoRoot, string SkillFolder, ArtifactRow Row, FormatChecker Checker)
+public sealed record GovernedFile(string RepoRoot, string SkillFolder, ArtifactRow Row, SchemaChecker Checker)
 {
     public CheckContext Context => CheckContext.From(RepoRoot, SkillFolder);
 }
@@ -10,7 +10,7 @@ public sealed record GovernedFile(string RepoRoot, string SkillFolder, ArtifactR
 /// One artifact class that has a checker, as one skill folder's table declares it, with its
 /// path pattern resolved against that folder's actual name.
 /// </summary>
-public sealed record CheckedClass(string RepoRoot, string SkillFolder, ArtifactRow Row, ArtifactPath Path, FormatChecker Checker)
+public sealed record CheckedClass(string RepoRoot, string SkillFolder, ArtifactRow Row, ArtifactPath Path, SchemaChecker Checker)
 {
     /// <summary>Every file on disk the class governs, repo-wide.</summary>
     public IReadOnlyList<string> Files() => StateBuilder.Matches(RepoRoot, Path, null, null);
@@ -20,7 +20,7 @@ public sealed record CheckedClass(string RepoRoot, string SkillFolder, ArtifactR
 /// The artifacts table is the scope. A path is matched against every row's pattern in every
 /// governed skill folder of its repository, placeholders as wildcards; the first row with a
 /// checker wins; no match, or a match with no checker, is silence. The tool carries no path
-/// list of its own: adding a row to the Artifacts table and a format file is what puts a file
+/// list of its own: adding a row to the Artifacts table and a schema file is what puts a file
 /// under the hook and under <c>check</c>.
 ///
 /// A row whose pattern lies under <c>.claude/skills/&lt;name&gt;/</c> names the skill folder by
@@ -64,7 +64,7 @@ public static class ArtifactScope
             var skillRel = Path.GetRelativePath(repoRoot, skillFolder).Replace('\\', '/').TrimEnd('/');
             foreach (var row in rows)
             {
-                var checker = FormatCheckers.For(row.Id);
+                var checker = SchemaCheckers.For(row.Id);
                 if (checker is null) continue;
                 if (!ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.OutsideRepo || ap.IsDirectory) continue;
 

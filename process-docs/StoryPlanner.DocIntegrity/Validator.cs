@@ -101,27 +101,48 @@ public static class Validator
                     $"{At(p.File, p.Line)}: writes '{w}', which is not an artifact id"));
         }
 
-        // A format is the file formats/<id>.md, named by the row; the file's title is its id.
-        foreach (var a in doc.Artifacts.Where(a => a.Format.Length > 0))
+        // A schema is the file schemas/<name>-schema.md; the cell is the link
+        // [<name>-schema](schemas/<name>-schema.md), so the text is the schema id, the target is
+        // the file the text names, and the file's title is its id. The suffix keeps a schema's
+        // file name apart from a singleton class's own, so a schema id is never a class id.
+        var folder = SkillReader.SchemasFolder;
+        var suffix = SkillReader.SchemaSuffix;
+        foreach (var a in doc.Artifacts.Where(a => a.Schema.Length > 0))
         {
-            if (!ClosedSets.IdPattern.IsMatch(a.Format))
-                findings.Add(Finding.Fail("ref.format", a.Id,
-                    $"{At(a.File, a.Line)}: format '{a.Format}' is not an id; a format is the id of " +
-                    $"{SkillReader.FormatsFolder}/<id>.md, a lowercase slug"));
-            else if (!File.Exists(doc.FormatPath(a.Format)))
-                findings.Add(Finding.Fail("ref.format", a.Id,
-                    $"{At(a.File, a.Line)}: format '{a.Format}' names no file " +
-                    $"{SkillReader.FormatsFolder}/{a.Format}.md; a format is a file"));
+            var link = SkillReader.SchemaLink.Match(a.SchemaCell.Trim());
+            if (!link.Success)
+                findings.Add(Finding.Fail("ref.schema", a.Id,
+                    $"{At(a.File, a.Line)}: schema '{a.SchemaCell}' is not a link; the cell is " +
+                    $"[<name>{suffix}]({folder}/<name>{suffix}.md)"));
+            else if (!ClosedSets.IdPattern.IsMatch(a.Schema))
+                findings.Add(Finding.Fail("ref.schema", a.Id,
+                    $"{At(a.File, a.Line)}: schema '{a.Schema}' is not an id; the link's text is the id of " +
+                    $"{folder}/<name>{suffix}.md, a lowercase slug"));
+            else if (!a.Schema.EndsWith(suffix, StringComparison.Ordinal) || a.Schema.Length == suffix.Length)
+                findings.Add(Finding.Fail("ref.schema", a.Id,
+                    $"{At(a.File, a.Line)}: schema '{a.Schema}' is not <name>{suffix}; the suffix keeps a schema's " +
+                    "file name apart from the class's own"));
+            else if (artifactIds.Contains(a.Schema))
+                findings.Add(Finding.Fail("ref.schema", a.Id,
+                    $"{At(a.File, a.Line)}: schema '{a.Schema}' is an artifact id; a schema is never a class"));
+            else if (link.Groups["target"].Value != $"{folder}/{a.Schema}.md")
+                findings.Add(Finding.Fail("ref.schema", a.Id,
+                    $"{At(a.File, a.Line)}: schema link '{a.SchemaCell}' points at '{link.Groups["target"].Value}'; " +
+                    $"its text names {folder}/{a.Schema}.md"));
+            else if (!File.Exists(doc.SchemaPath(a.Schema)))
+                findings.Add(Finding.Fail("ref.schema", a.Id,
+                    $"{At(a.File, a.Line)}: schema '{a.Schema}' names no file " +
+                    $"{folder}/{a.Schema}.md; a schema is a file"));
         }
 
-        foreach (var format in doc.Artifacts.Select(a => a.Format).Where(f => f.Length > 0).Distinct(StringComparer.Ordinal))
+        foreach (var schema in doc.Artifacts.Select(a => a.Schema).Where(s => s.Length > 0).Distinct(StringComparer.Ordinal))
         {
-            var path = doc.FormatPath(format);
+            var path = doc.SchemaPath(schema);
             if (!File.Exists(path)) continue;
             var title = new MarkdownOutline(File.ReadAllText(path)).Headings.FirstOrDefault();
-            if (title is null || title.Level != 1 || title.Text != format)
-                findings.Add(Finding.Fail("format.shape", format,
-                    $"{SkillReader.FormatsFolder}/{format}.md: the title is '# {format}'; found " +
+            if (title is null || title.Level != 1 || title.Text != schema)
+                findings.Add(Finding.Fail("schema.shape", schema,
+                    $"{folder}/{schema}.md: the title is '# {schema}'; found " +
                     (title is null ? "no heading" : $"'{new string('#', title.Level)} {title.Text}' at line {title.Line}")));
         }
     }
@@ -327,9 +348,9 @@ public static class Validator
                 "not SKILL.md, map.md, state.md or CORPORA.md, and no router row names an activity of " +
                 "this name; an activity not in the table is ungoverned"));
 
-        foreach (var name in doc.OrphanFormatFiles)
-            findings.Add(Finding.Fail("file.orphan-format", $"{SkillReader.FormatsFolder}/{name}",
-                "no artifact row's format names it; a format file nothing routes to is unreachable"));
+        foreach (var name in doc.OrphanSchemaFiles)
+            findings.Add(Finding.Fail("file.orphan-schema", $"{SkillReader.SchemasFolder}/{name}",
+                "no artifact row's schema names it; a schema file nothing routes to is unreachable"));
 
         foreach (var a in doc.Activities)
         {
@@ -361,10 +382,10 @@ public static class Validator
     public const string RevisingFile = "revising-the-method.md";
 
     /// <summary>
-    /// Decision ids (<c>d-YYYY-MM-DD-n</c>, formats/decisions.md) are provenance, read and
+    /// Decision ids (<c>d-YYYY-MM-DD-n</c>, schemas/decisions-schema.md) are provenance, read and
     /// written in revising-the-method only. A standard-operating activity file is the
     /// decisions already applied and never cites one, so the id pattern anywhere else in
-    /// the folder, the format files included, is a failure.
+    /// the folder, the schema files included, is a failure.
     /// </summary>
     static readonly Regex DecisionId = new(@"\bd-\d{4}-\d{2}-\d{2}-\d+\b", RegexOptions.Compiled);
 
@@ -372,7 +393,7 @@ public static class Validator
     {
         var files = new List<string> { doc.SkillPath };
         files.AddRange(doc.Activities.Select(a => doc.ActivityPath(a.Id)).Where(File.Exists));
-        files.AddRange(doc.FormatPaths());
+        files.AddRange(doc.SchemaPaths());
         foreach (var path in files)
         {
             if (string.Equals(Path.GetFileName(path), RevisingFile, StringComparison.Ordinal)) continue;
@@ -381,7 +402,7 @@ public static class Validator
             var inFence = false;
             for (var i = 0; i < lines.Length; i++)
             {
-                // A format's example block shows the id's shape; that is schema, not a citation.
+                // A schema's example block shows the id's shape; that is the shape, not a citation.
                 if (lines[i].TrimStart().StartsWith("```", StringComparison.Ordinal)) { inFence = !inFence; continue; }
                 if (inFence) continue;
                 var m = DecisionId.Match(lines[i]);

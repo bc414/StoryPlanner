@@ -26,7 +26,7 @@ public class CheckTests
     }
 
     [Fact]
-    public void A_governed_file_checks_its_class_s_format_and_is_named_by_its_repo_path()
+    public void A_governed_file_checks_its_class_s_schema_and_is_named_by_its_repo_path()
     {
         using var f = new MapFixture().WithStateTree();
         var path = f.TreePath("docs", "v3-framework", "hypotheses", "032-other.md");

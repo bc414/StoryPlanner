@@ -1,4 +1,4 @@
-# corpora
+# corpora-schema
 
 `CORPORA.md` in the skill folder — the inventory of corpora, a fact file with no state in
 it: one section per corpus, its id as the heading, then what it is, where it lives and how

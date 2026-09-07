@@ -95,10 +95,10 @@ public class SkillReaderTests
     }
 
     [Fact]
-    public void A_format_file_no_row_names_is_listed_as_an_orphan()
+    public void A_schema_file_no_row_names_is_listed_as_an_orphan()
     {
         using var f = new MapFixture();
-        f.WriteFormat("stray", "# stray\n");
-        Assert.Equal(["stray.md"], f.Doc.OrphanFormatFiles);
+        f.WriteSchema("stray-schema", "# stray-schema\n");
+        Assert.Equal(["stray-schema.md"], f.Doc.OrphanSchemaFiles);
     }
 }

@@ -7,7 +7,7 @@
 // (SKILL.md § Schema) — Activities and Artifacts in the router, Processes at the head of each
 // activity file — plus this tool are the schema; the rows are in flux. Iterating
 // the method is editing rows and re-running the check, never rewriting a document. A file of
-// an artifact class that has a format is a governed file, and its checker is that format.
+// an artifact class that has a schema is a governed file, and its checker is that schema.
 //
 //   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check  <path>         [--repo <path>]
 //   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- render <skill-folder> [--force] [--repo <path>]
@@ -18,7 +18,7 @@
 //
 // check takes one path and checks everything governed at or under it, following the
 // artifacts tables: a skill folder gets the checks of the method's shape (Validator), a
-// governed file gets its class's format (FormatCheckers), a folder gets every skill folder and
+// governed file gets its class's schema (SchemaCheckers), a folder gets every skill folder and
 // every governed file under it, so `check .` is the repository and the pre-commit gate's call,
 // and a narrower folder bounds the check. Exit 1 on any failure.
 //
@@ -151,7 +151,7 @@ int Usage(string? message = null)
     Console.Error.WriteLine("""
         Usage:
           DocIntegrity check  <path>         [--repo <path>]            everything governed at or under the path:
-                                                                        a skill folder's shape, a governed file's format,
+                                                                        a skill folder's shape, a governed file's schema,
                                                                         a folder's whole set; `check .` is the repository
           DocIntegrity render <skill-folder> [--force] [--repo <path>]  map.md and state.md, whole
           DocIntegrity hook                                             (reads a Claude Code PostToolUse event from stdin)

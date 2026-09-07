@@ -8,17 +8,17 @@ using Xunit;
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// The format checkers, pure tier. Each class's passing case is the example block of its
-/// format file in the real skill folder (<see cref="FormatExamples"/>), written into a temp tree at
+/// The schema checkers, pure tier. Each class's passing case is the example block of its
+/// schema file in the real skill folder (<see cref="SchemaExamples"/>), written into a temp tree at
 /// the path its artifact row names; each failing case is that example with one thing broken.
 /// Assertions are on rule ids, never on message prose.
 /// </summary>
-public class FormatCheckersTests : IDisposable
+public class SchemaCheckersTests : IDisposable
 {
     readonly string _root = Path.Combine(Path.GetTempPath(), "checkers-" + Guid.NewGuid().ToString("N"));
     readonly string _skill;
 
-    public FormatCheckersTests()
+    public SchemaCheckersTests()
     {
         _skill = Path.Combine(_root, ".claude", "skills", "example");
         Directory.CreateDirectory(_skill);
@@ -50,7 +50,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_hypothesis_example_passes()
     {
-        var path = Write(HypothesisPath, FormatExamples.Block("hypothesis-file"));
+        var path = Write(HypothesisPath, SchemaExamples.Block("hypothesis-file-schema"));
         Assert.Empty(Rules(HypothesisFile.Check(Ctx(), path)));
     }
 
@@ -64,7 +64,7 @@ public class FormatCheckersTests : IDisposable
     [InlineData("- evidence | 2026-09-14T15:20 |", "- evidence | 2026-09-14 |", "hypothesis.entry")]
     public void A_hypothesis_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
     {
-        var text = FormatExamples.Block("hypothesis-file");
+        var text = SchemaExamples.Block("hypothesis-file-schema");
         Assert.Contains(find, text);
         var path = Write(HypothesisPath, text.Replace(find, replace));
         Assert.Contains(rule, Rules(HypothesisFile.Check(Ctx(), path)));
@@ -73,7 +73,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void A_created_entry_that_is_not_first_fails()
     {
-        var text = FormatExamples.Block("hypothesis-file");
+        var text = SchemaExamples.Block("hypothesis-file-schema");
         var created = "- created | 2026-09-01T10:00: <why the hypothesis exists: the observation, Brian's\n  assertion, the motivation; in Claude's voice with Brian's assertions as the content>\n";
         Assert.Contains(created, text);
         var moved = text.Replace(created, "") .Replace("## Record\n\n", "## Record\n\n- iteration | 2026-09-02T09:00: first.\n" + created);
@@ -84,7 +84,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void A_stray_line_in_the_record_that_is_neither_entry_nor_continuation_fails()
     {
-        var text = FormatExamples.Block("hypothesis-file").Replace("## Record\n\n", "## Record\n\nSome prose here.\n\n");
+        var text = SchemaExamples.Block("hypothesis-file-schema").Replace("## Record\n\n", "## Record\n\nSome prose here.\n\n");
         var path = Write(HypothesisPath, text);
         Assert.Contains("hypothesis.entry", Rules(HypothesisFile.Check(Ctx(), path)));
     }
@@ -92,7 +92,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_id_must_match_the_file_name()
     {
-        var path = Write("docs/v3-framework/hypotheses/018-example.md", FormatExamples.Block("hypothesis-file"));
+        var path = Write("docs/v3-framework/hypotheses/018-example.md", SchemaExamples.Block("hypothesis-file-schema"));
         Assert.Contains("hypothesis.frontmatter", Rules(HypothesisFile.Check(Ctx(), path)));
     }
 
@@ -103,7 +103,7 @@ public class FormatCheckersTests : IDisposable
     {
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/002-epistemic-method-provenance.md", "# stub\n");
-        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("hypothesis-index"));
+        var path = Write("docs/v3-framework/hypotheses/INDEX.md", SchemaExamples.Block("hypothesis-index-schema"));
         Assert.Empty(Rules(HypothesisIndex.Check(Ctx(), path)));
     }
 
@@ -111,7 +111,7 @@ public class FormatCheckersTests : IDisposable
     public void A_row_whose_file_is_absent_fails_the_link()
     {
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
-        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("hypothesis-index"));
+        var path = Write("docs/v3-framework/hypotheses/INDEX.md", SchemaExamples.Block("hypothesis-index-schema"));
         Assert.Contains("index.link", Rules(HypothesisIndex.Check(Ctx(), path)));
     }
 
@@ -121,7 +121,7 @@ public class FormatCheckersTests : IDisposable
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/002-epistemic-method-provenance.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/003-unlisted.md", "# stub\n");
-        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("hypothesis-index"));
+        var path = Write("docs/v3-framework/hypotheses/INDEX.md", SchemaExamples.Block("hypothesis-index-schema"));
         Assert.Contains("index.missing", Rules(HypothesisIndex.Check(Ctx(), path)));
     }
 
@@ -130,7 +130,7 @@ public class FormatCheckersTests : IDisposable
     {
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/002-epistemic-method-provenance.md", "# stub\n");
-        var lines = FormatExamples.Block("hypothesis-index").TrimEnd('\n').Split('\n');
+        var lines = SchemaExamples.Block("hypothesis-index-schema").TrimEnd('\n').Split('\n');
         var swapped = string.Join('\n', [lines[0], lines[1], lines[3], lines[2]]) + "\n";
         var path = Write("docs/v3-framework/hypotheses/INDEX.md", swapped);
         Assert.Contains("index.order", Rules(HypothesisIndex.Check(Ctx(), path)));
@@ -143,7 +143,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_registry_example_passes_against_the_corpora_it_names()
     {
-        var path = Write(RegistryPath, FormatExamples.Block("study-registry"));
+        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema"));
         Assert.Empty(Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path)));
     }
 
@@ -159,7 +159,7 @@ public class FormatCheckersTests : IDisposable
     [InlineData("| something-else | exploratory | v1-archive | 2026-09-21 |", new[] { "registry.id" })]
     public void A_registry_row_is_held_to_its_form(string row, string[] expected)
     {
-        var path = Write(RegistryPath, FormatExamples.Block("study-registry") + row + "\n");
+        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema") + row + "\n");
         var rules = Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path));
         if (expected.Length == 0) Assert.Empty(rules);
         else foreach (var r in expected) Assert.Contains(r, rules);
@@ -168,7 +168,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void With_no_corpus_ids_available_the_corpus_column_is_reported_not_failed()
     {
-        var path = Write(RegistryPath, FormatExamples.Block("study-registry"));
+        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema"));
         var findings = Registry.Check(Ctx(), path);
         Assert.Empty(Rules(findings));
         Assert.Contains("registry.corpora-unavailable", findings.Select(f => f.RuleId));
@@ -179,21 +179,21 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_leads_example_passes_at_its_study_folder()
     {
-        var path = Write("docs/v3-framework/exploration-of-v1-archive/leads.md", FormatExamples.Block("leads-artifact"));
+        var path = Write("docs/v3-framework/exploration-of-v1-archive/leads.md", SchemaExamples.Block("leads-artifact-schema"));
         Assert.Empty(Rules(Leads.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_leads_artifact_in_the_wrong_folder_fails_its_title()
     {
-        var path = Write("docs/v3-framework/exploration-of-lineage/leads.md", FormatExamples.Block("leads-artifact"));
+        var path = Write("docs/v3-framework/exploration-of-lineage/leads.md", SchemaExamples.Block("leads-artifact-schema"));
         Assert.Contains("leads.title", Rules(Leads.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_leads_artifact_missing_a_section_fails()
     {
-        var text = FormatExamples.Block("leads-artifact").Replace("## Bins\n", "");
+        var text = SchemaExamples.Block("leads-artifact-schema").Replace("## Bins\n", "");
         var path = Write("docs/v3-framework/exploration-of-v1-archive/leads.md", text);
         Assert.Contains("leads.sections", Rules(Leads.Check(Ctx(), path)));
     }
@@ -203,14 +203,14 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_corpora_example_passes()
     {
-        var path = Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("corpora"));
+        var path = Write(".claude/skills/example/CORPORA.md", SchemaExamples.Block("corpora-schema"));
         Assert.Empty(Rules(Corpora.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_corpus_without_its_three_lines_fails()
     {
-        var text = FormatExamples.Block("corpora").Replace("- read by:", "- readers:");
+        var text = SchemaExamples.Block("corpora-schema").Replace("- read by:", "- readers:");
         var path = Write(".claude/skills/example/CORPORA.md", text);
         Assert.Contains("corpora.fields", Rules(Corpora.Check(Ctx(), path)));
     }
@@ -218,7 +218,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void A_duplicate_corpus_id_fails()
     {
-        var text = FormatExamples.Block("corpora");
+        var text = SchemaExamples.Block("corpora-schema");
         var path = Write(".claude/skills/example/CORPORA.md", text + "\n" + text);
         Assert.Contains("corpora.duplicate", Rules(Corpora.Check(Ctx(), path)));
     }
@@ -227,8 +227,91 @@ public class FormatCheckersTests : IDisposable
     public void Corpus_ids_are_the_section_headings_of_CORPORA_md()
     {
         Assert.Empty(Corpora.Ids(_skill));
-        Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("corpora") + "\n## lineage\n\n- what: x\n- where: y\n- read by: z\n");
+        Write(".claude/skills/example/CORPORA.md", SchemaExamples.Block("corpora-schema") + "\n## lineage\n\n- what: x\n- where: y\n- read by: z\n");
         Assert.Equal(["fimfiction-stories", "lineage"], Corpora.Ids(_skill).OrderBy(x => x).ToArray());
+    }
+
+    // ---- decisions ----
+
+    const string DecisionsPath = "docs/v3-framework/decisions.md";
+
+    [Fact]
+    public void The_decisions_example_passes_and_its_written_ids_are_the_ones_the_rule_expects()
+    {
+        var path = Write(DecisionsPath, SchemaExamples.Block("decisions-schema"));
+        var (entries, findings) = Decisions.Read(path);
+        Assert.Empty(Rules(findings));
+        Assert.Equal(["d-2026-09-07-1", "d-2026-09-08-1"], entries.Select(e => e.Id).ToArray());
+        Assert.Equal(["d-2026-09-07-1"], entries[1].Supersedes.ToArray());
+        Assert.NotNull(SchemaCheckers.For(WellKnown.Decisions));
+        Assert.Contains(WellKnown.Decisions, SchemaCheckers.CheckedIds);
+    }
+
+    [Theory]
+    [InlineData("- id: d-2026-09-08-1\n", "- id: d-2026-09-08-2\n", "decisions.entry.id")]
+    [InlineData("- id: d-2026-09-08-1\n", "- id: d-2026-09-07-2\n", "decisions.entry.id")]
+    [InlineData("- id: d-2026-09-07-1\n", "- id: d-2026-09-07-1\n  more\n", "decisions.entry.id")]
+    [InlineData("- id: d-2026-09-08-1\n", "", "decisions.entry.fields")]
+    [InlineData("- id: d-2026-09-08-1\n- date: 2026-09-08\n", "- date: 2026-09-08\n- id: d-2026-09-08-1\n", "decisions.entry.fields")]
+    [InlineData("- not taken: <the options declined and why>\n", "", "decisions.entry.fields")]
+    [InlineData("- prompted by: <what raised it>\n", "- prompted-by: <what raised it>\n", "decisions.entry.fields")]
+    [InlineData("- date: 2026-09-08\n- supersedes: d-2026-09-07-1\n", "- supersedes: d-2026-09-07-1\n- date: 2026-09-08\n", "decisions.entry.fields")]
+    [InlineData("\n  <a second paragraph", "\n<a second paragraph", "decisions.entry.fields")]
+    [InlineData("- decision: <what was ruled>\n", "- decision: \n", "decisions.entry.fields")]
+    [InlineData("- date: 2026-09-08\n", "- date: 2026-9-8\n", "decisions.entry.date")]
+    [InlineData("- date: 2026-09-08\n", "- date: 2026-09-06\n", "decisions.entry.date")]
+    [InlineData("- date: 2026-09-08\n", "- date: 2026-09-31\n", "decisions.entry.date")]
+    [InlineData("- date: 2026-09-07\n", "- date: 2026-09-07\n  and more\n", "decisions.entry.date")]
+    [InlineData("- supersedes: d-2026-09-07-1\n", "- supersedes: d-2026-09-07-1 (in part)\n", "decisions.supersedes")]
+    [InlineData("- supersedes: d-2026-09-07-1\n", "- supersedes: d-2026-09-08-1\n", "decisions.supersedes")]
+    [InlineData("- supersedes: d-2026-09-07-1\n", "- supersedes: d-2026-09-01-1\n", "decisions.supersedes")]
+    [InlineData("- supersedes: d-2026-09-07-1\n", "- supersedes: d-2026-09-07-1  d-2026-09-07-1\n", "decisions.supersedes")]
+    [InlineData("## Revision 2\n", "## Revision two\n", "decisions.shape")]
+    [InlineData("<at most one paragraph>\n", "<at most one paragraph>\n\nA second paragraph.\n", "decisions.shape")]
+    [InlineData("# Decisions\n", "# decisions\n", "decisions.shape")]
+    [InlineData("## Revision 2\n", "### stray\n\n## Revision 2\n", "decisions.shape")]
+    public void A_decisions_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
+    {
+        var text = SchemaExamples.Block("decisions-schema");
+        Assert.Contains(find, text);
+        var path = Write(DecisionsPath, text.Replace(find, replace));
+        Assert.Contains(rule, Rules(Decisions.Check(Ctx(), path)));
+    }
+
+    const string ThirdEntry = "\n### <a third ruling>\n\n- id: d-2026-09-09-1\n- date: 2026-09-09\n- prompted by: x\n- decision: y\n- not taken: z\n";
+
+    [Fact]
+    public void An_entry_already_superseded_is_never_superseded_again()
+    {
+        var text = SchemaExamples.Block("decisions-schema") + ThirdEntry.Replace("- date: 2026-09-09\n", "- date: 2026-09-09\n- supersedes: d-2026-09-07-1\n");
+        var path = Write(DecisionsPath, text);
+        Assert.Contains("decisions.supersedes", Rules(Decisions.Check(Ctx(), path)));
+    }
+
+    [Fact]
+    public void Sections_ascend()
+    {
+        var path = Write(DecisionsPath, SchemaExamples.Block("decisions-schema") + "\n## Revision 1\n");
+        Assert.Contains("decisions.shape", Rules(Decisions.Check(Ctx(), path)));
+    }
+
+    [Fact]
+    public void A_second_entry_of_one_day_carries_the_next_number()
+    {
+        var third = ThirdEntry.Replace("d-2026-09-09-1", "d-2026-09-08-2").Replace("2026-09-09", "2026-09-08");
+        var path = Write(DecisionsPath, SchemaExamples.Block("decisions-schema") + third);
+        var (entries, findings) = Decisions.Read(path);
+        Assert.Empty(Rules(findings));
+        Assert.Equal("d-2026-09-08-2", entries[2].Id);
+    }
+
+    [Fact]
+    public void A_wrong_id_fails_naming_the_expected_one()
+    {
+        var path = Write(DecisionsPath, SchemaExamples.Block("decisions-schema") + ThirdEntry.Replace("2026-09-09", "2026-09-08"));
+        var findings = Decisions.Check(Ctx(), path);
+        var wrong = Assert.Single(findings, f => f.RuleId == "decisions.entry.id");
+        Assert.Contains("d-2026-09-08-2", wrong.Message);
     }
 
     // ---- scope ----

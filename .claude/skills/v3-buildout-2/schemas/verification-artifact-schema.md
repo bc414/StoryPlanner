@@ -1,4 +1,4 @@
-# verification-artifact
+# verification-artifact-schema
 
 `docs/v3-framework/<study>/round.md`. Written once by conducting-a-verification-round;
 the promotion session appends its summary; corrections are appended, dated. Per-item

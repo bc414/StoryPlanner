@@ -1,4 +1,4 @@
-# hypothesis-file
+# hypothesis-file-schema
 
 `docs/v3-framework/hypotheses/NNN-slug.md` — `NNN` a zero-padded three-digit id, stable,
 unique across the set, never reused; `slug` descriptive kebab-case. One file holds three

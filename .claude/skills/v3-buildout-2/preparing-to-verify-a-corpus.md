@@ -47,7 +47,7 @@ narrowing it may do, and the query is recorded in the manifest.
 
 ## author-codebook
 
-Written against the real items, in the format `formats/codebook.md`: what one item is,
+Written against the real items: what one item is,
 the inputs by reference to the agent row, the output contract, the classes, the decision
 rules at the boundaries, tuned to over-flag. A new numbered file; the previous version, if
 any, stays on disk. With it, the generator that writes one job per item with the output

@@ -1,4 +1,4 @@
-# run-page
+# run-page-schema
 
 `fanout/<study>/<run>/run.md`, the authored front page of one run, appended to and never
 rewritten. Small: which study and which questions the run serves; the instrument and its

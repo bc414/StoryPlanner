@@ -96,7 +96,7 @@ public sealed record HookOutcome(HookOutcomeKind Kind, int ExitCode, string Mess
 /// <summary>
 /// The PostToolUse hook on Edit and Write: after a session writes a file, the hook does what
 /// the write implies. A file inside a governed skill folder has the folder's shape checked and,
-/// if its class has a format, that too; a governed file anywhere else has its format checked.
+/// if its class has a schema, that too; a governed file anywhere else has its schema checked.
 /// A failing report goes back to the session as feedback: the harness shows a hook's stderr to
 /// the model only on exit code 2, so that is the code for feedback; every other case is exit 0
 /// and silence. On a pass the governing folder's generated files are rewritten, so
@@ -143,14 +143,14 @@ public static class WriteHook
             var regenerated = regenerate ? Regenerate(folder, report, out refused) : [];
             if (refused is not null) return refused;
 
-            // A file in the skill folder may also be a governed file with a format of its own (the corpora file).
+            // A file in the skill folder may also be a governed file with a schema of its own (the corpora file).
             var inside = ArtifactScope.Locate(GovernedSkill.RepoRootOf(folder), payload.FilePath);
             return inside is null
                 ? new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated)
                 : CheckGoverned(inside, payload.FilePath, regenerated);
         }
 
-        // Outside every skill folder: the file's format, and on a pass the governing folder's
+        // Outside every skill folder: the file's schema, and on a pass the governing folder's
         // generated files, so state.md follows a governed write the moment it checks clean.
         var governed = ArtifactScope.Locate(payload.FilePath);
         if (governed is null) return HookOutcome.Nothing;
@@ -209,10 +209,10 @@ public static class WriteHook
 
         var rel = Path.GetRelativePath(governed.RepoRoot, Path.GetFullPath(filePath)).Replace('\\', '/');
         var message =
-            $"DocIntegrity: after the write to {Path.GetFileName(filePath)}, it fails the format of `{governed.Row.Id}` " +
+            $"DocIntegrity: after the write to {Path.GetFileName(filePath)}, it fails the schema of `{governed.Row.Id}` " +
             $"({report.Failures} failure(s)):\n" +
             ReportText.FormatFailures(report) +
-            $"The format is {SkillReader.FormatsFolder}/{governed.Row.Format}.md. Fix the file, then re-run check until it passes:\n" +
+            $"The schema is {SkillReader.SchemasFolder}/{governed.Row.Schema}.md. Fix the file, then re-run check until it passes:\n" +
             $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check {rel}\n" +
             "Do not work around this check by writing through the shell; every write to a governed file goes " +
             "through Edit or Write so the check sees it.";

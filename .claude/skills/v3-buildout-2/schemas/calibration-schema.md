@@ -1,4 +1,4 @@
-# calibration
+# calibration-schema
 
 `fanout/<study>/calibration-<date>.md`, or `fanout/referee/calibration-<date>.md`. One
 per calibration of one codebook version, frozen. It is the measurement that lets a codebook

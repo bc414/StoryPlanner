@@ -1,4 +1,4 @@
-# hypothesis-index
+# hypothesis-index-schema
 
 `docs/v3-framework/hypotheses/INDEX.md` — a routing table, two columns (id, slug as link),
 in id order so a top-to-bottom scan is comprehension order, every file in the folder listed

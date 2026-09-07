@@ -32,14 +32,20 @@ public sealed record ProcessRow(
         => Reads.Contains(artifactId) || Instruments.Contains(artifactId);
 }
 
+/// <summary>
+/// One row of the Artifacts table. <see cref="Schema"/> is the schema id the row names, read
+/// from the cell's link text; <see cref="SchemaCell"/> is the cell as written, which the
+/// validator holds to the form [name-schema](schemas/name-schema.md).
+/// </summary>
 public sealed record ArtifactRow(
     string Id,
     string Path,
     string Mutation,
-    string Format,
+    string Schema,
     string Description,
     string File,
-    int Line);
+    int Line,
+    string SchemaCell = "");
 
 public sealed record SkillDocument(
     string SkillFolder,
@@ -47,17 +53,17 @@ public sealed record SkillDocument(
     IReadOnlyList<ProcessRow> Processes,
     IReadOnlyList<ArtifactRow> Artifacts,
     IReadOnlyList<string> OrphanActivityFiles,
-    IReadOnlyList<string> OrphanFormatFiles)
+    IReadOnlyList<string> OrphanSchemaFiles)
 {
     public string SkillPath => System.IO.Path.Combine(SkillFolder, "SKILL.md");
-    public string FormatsFolder => System.IO.Path.Combine(SkillFolder, SkillReader.FormatsFolder);
-    public string FormatPath(string formatId) => System.IO.Path.Combine(FormatsFolder, formatId + ".md");
+    public string SchemasFolder => System.IO.Path.Combine(SkillFolder, SkillReader.SchemasFolder);
+    public string SchemaPath(string schemaId) => System.IO.Path.Combine(SchemasFolder, schemaId + ".md");
     public string ActivityPath(string activityId) => System.IO.Path.Combine(SkillFolder, activityId + ".md");
 
-    /// <summary>Every format file a row names and that exists.</summary>
-    public IEnumerable<string> FormatPaths()
-        => Artifacts.Select(a => a.Format).Where(f => f.Length > 0).Distinct(StringComparer.Ordinal)
-            .Select(FormatPath).Where(File.Exists);
+    /// <summary>Every schema file a row names and that exists.</summary>
+    public IEnumerable<string> SchemaPaths()
+        => Artifacts.Select(a => a.Schema).Where(s => s.Length > 0).Distinct(StringComparer.Ordinal)
+            .Select(SchemaPath).Where(File.Exists);
 
     public IEnumerable<ProcessRow> ProcessesOf(string activityId)
         => Processes.Where(p => p.Activity == activityId);
@@ -130,6 +136,7 @@ public static class WellKnown
     public const string HypothesisIndex = "hypothesis-index";
     public const string LeadsArtifact = "leads-artifact";
     public const string Corpora = "corpora";
+    public const string Decisions = "decisions";
 
     /// <summary>The three artifacts one hypothesis file holds; a write to any is a hypothesis write.</summary>
     public static readonly string[] HypothesisArtifacts =

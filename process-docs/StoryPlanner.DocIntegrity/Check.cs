@@ -3,10 +3,10 @@ namespace StoryPlanner.DocIntegrity;
 /// <summary>
 /// The <c>check</c> verb: everything governed at or under one path, following the artifacts
 /// tables. A governed skill folder gets the validator's checks of the method's shape; a
-/// governed file gets its class's format; a folder gets every skill folder and every governed
+/// governed file gets its class's schema; a folder gets every skill folder and every governed
 /// file under it, so the repository root is the whole set and a narrower folder bounds the
 /// check. A single file inside a skill folder is checked the way the hook checks a write to
-/// it: the folder's shape, then the file's own format if its class has one. Findings on
+/// it: the folder's shape, then the file's own schema if its class has one. Findings on
 /// governed files name the file by its repo-relative path.
 /// </summary>
 public static class Check
@@ -68,7 +68,7 @@ public static class Check
         // A class with a checker that a checked skill folder's table gives no in-repo file
         // pattern for is reported, never failed: nothing can be checked for it.
         foreach (var folder in folders)
-            foreach (var id in FormatCheckers.CheckedIds)
+            foreach (var id in SchemaCheckers.CheckedIds)
                 if (!classes.Any(c => c.SkillFolder == folder && c.Row.Id == id))
                     findings.Add(Finding.Info("check.no-row", id,
                         $"{Path.GetFileName(folder)}: no artifact row with a parseable in-repo path; nothing checked for this class"));
@@ -76,7 +76,7 @@ public static class Check
         return new Result(new ValidationReport(findings), folders, files);
     }
 
-    static IEnumerable<Finding> CheckOne(FormatChecker checker, CheckContext ctx, string repoRoot, string file)
+    static IEnumerable<Finding> CheckOne(SchemaChecker checker, CheckContext ctx, string repoRoot, string file)
     {
         var rel = Path.GetRelativePath(repoRoot, file).Replace('\\', '/');
         IReadOnlyList<Finding> findings;

@@ -90,7 +90,7 @@ These hold in every session type. A companion file elaborates; none overrides.
    names each section's mutation. Whatever can be derived from an artifact is never
    authored beside it.
 
-## Schema — the tables every file in this skill obeys
+## Schema — the skill folder's own: the tables every file in it obeys
 
 Three tables, fixed columns, parsed by `process-docs/StoryPlanner.DocIntegrity`: header and separator
 are structure, every body row is one unit, cells never contain `|`, ids are lowercase
@@ -119,12 +119,13 @@ the same session in the same activity are one process.
 - `state` ∈ `built · specified`: executed at least once under the current text, or only
   written down. Development state of the process type; never the state of a run.
 
-**Artifacts** — the table under § Artifacts below. `id · path · mutation · format ·
+**Artifacts** — the table under § Artifacts below. `id · path · mutation · schema ·
 description`. An artifact is a class; the files matching its pattern are its files. `path`
 is one repo-relative pattern, placeholders in angle brackets, or `outside the repo`; never
-prose. `mutation` ∈ `in-place · succeeded · append · frozen` (rule 9). `format` is the id
-of the file `formats/<id>.md` that specifies the artifact's shape, a lowercase slug whose
-file's title is that id, or blank where none is authored.
+prose. `mutation` ∈ `in-place · succeeded · append · frozen` (rule 9). `schema` is a link
+`[<name>-schema](schemas/<name>-schema.md)` to the file that specifies the class's shape,
+its text the file's id, a lowercase slug ending in `-schema` that is also the file's title
+and never a class id, or blank where none is authored.
 
 **An activity file** has one shape and carries procedure only: the title (the activity
 id); one line naming what it enables; the Processes table;
@@ -137,7 +138,7 @@ decision lands; it cannot script the middle. An `agent` section names the instru
 what the generator materialises for it; the agent never sees the file. A runner section
 names the run's reads and writes and defers to the `agent-runner` skill. Nothing in the
 prose restates the table, an artifact's mutation, a rule, or a word defined in this file
-or a format file. Files are types: no corpus or study appears in one.
+or a schema file. Files are types: no corpus or study appears in one.
 
 **Derived, never authored:** order and data flow (a process reads what another wrote),
 consumers of each artifact, each activity's inputs, outputs and instruments, and the check
@@ -154,7 +155,7 @@ generated sits inside an authored file.
 
 **The tables are checked at the write.** A PostToolUse hook, registered in the project
 settings, runs `check` on every file an Edit or Write touches: this folder's shape for a
-file inside it, a governed file's format wherever it lies. It returns the failures to the
+file inside it, a governed file's schema wherever it lies. It returns the failures to the
 session in the same turn and on a pass rewrites `map.md` and `state.md`. A failure is
 fixed, row and prose together, before any other write; it is never worked around, and a
 write to this folder or to a governed file never goes through the shell, which the hook
@@ -186,11 +187,13 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 
 Every artifact a process in this skill reads or writes. An artifact is a class; the files
 matching its pattern are its files. Consumers are never written here; the validator
-derives them. A format is the file `formats/<id>.md` the `format` column names: its
-example block is the fixture its checker in `process-docs/StoryPlanner.DocIntegrity` is
-tested against, the block and the grammar sentences around it are what the machine reads,
-the guidance sentences are for the author, and a format edited without its checker fails
-a test.
+derives them. A schema is the file `schemas/<name>-schema.md` the `schema` column links
+to, in four sections each named by its consumer: Shape, the grammar a writer follows and
+the hook holds, saying which lines are machine-read and exact and which are free; Example,
+a conforming file with placeholders whose first fenced block is the fixture its checker in
+`process-docs/StoryPlanner.DocIntegrity` is tested against, so a schema edited without its
+checker fails a test; Queries, one grep per question a reader asks of the class; Checks,
+the rule ids the hook reports and when each fails.
 
 Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPORA.md`;
 `<study>` a study's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
@@ -203,26 +206,26 @@ under `docs/v3-framework/`; its runner input and output, including the referee r
 serve it, live under `fanout/<study>/`. `fanout/referee/` holds only the referee's
 shared instrument and the iteration candidates.
 
-| id | path | mutation | format | description |
+| id | path | mutation | schema | description |
 |---|---|---|---|---|
-| hypothesis-statement | docs/v3-framework/hypotheses/NNN-slug.md § Hypothesis | in-place | hypothesis-file | The current wording of one hypothesis |
-| hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | hypothesis-file | The evidence relationship: dated entries, never edited |
-| hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | hypothesis-file | Status and baselined, computed from the record |
-| hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | hypothesis-index | Id and slug per hypothesis, id order |
-| question-list | docs/v3-framework/questions/<corpus>.md | append | question-entry | Brian's open questions about one corpus |
-| studies | docs/v3-framework/studies.md | append | study-registry | One row per study of a chain, declared at Brian's go; the ids every artifact path is named by |
+| hypothesis-statement | docs/v3-framework/hypotheses/NNN-slug.md § Hypothesis | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The current wording of one hypothesis |
+| hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The evidence relationship: dated entries, never edited |
+| hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Status and baselined, computed from the record |
+| hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | [hypothesis-index-schema](schemas/hypothesis-index-schema.md) | Id and slug per hypothesis, id order |
+| question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions about one corpus |
+| studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study of a chain, declared at Brian's go; the ids every artifact path is named by |
 | state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study where it is; per corpus, open questions and whether a calibrated codebook covers them; per hypothesis, status and whether any open question names it |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
-| decisions | docs/v3-framework/decisions.md | append | decisions | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
-| leads-artifact | docs/v3-framework/<study>/leads.md | append | leads-artifact | What one exploration observed, organised by locus |
-| verification-artifact | docs/v3-framework/<study>/round.md | append | verification-artifact | One round's method, questions answered, counts and promotion summary |
-| arm-key | docs/v3-framework/<study>/arm-key.md | frozen | arm-key | The blinding key: arm label to condition and model; opened only after binning |
-| candidates | fanout/<study>/candidates.md | append | candidate | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
-| iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | candidate | Prior findings re-queued after a rewording of hypothesis NNN |
-| corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | corpora | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
-| codebook | fanout/<study>/codebook-N.md | succeeded | codebook | The frozen instrument a round or the referee runs under |
-| reading-protocol | fanout/<study>/protocol-N.md | succeeded | reading-protocol | The instruction slice readers run under; piloted, not calibrated |
-| calibration | fanout/<study>/calibration-<date>.md | frozen | calibration | One codebook version's agreement with Brian's blind verdicts, and the rulings |
+| decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
+| leads-artifact | docs/v3-framework/<study>/leads.md | append | [leads-artifact-schema](schemas/leads-artifact-schema.md) | What one exploration observed, organised by locus |
+| verification-artifact | docs/v3-framework/<study>/round.md | append | [verification-artifact-schema](schemas/verification-artifact-schema.md) | One round's method, questions answered, counts and promotion summary |
+| arm-key | docs/v3-framework/<study>/arm-key.md | frozen | [arm-key-schema](schemas/arm-key-schema.md) | The blinding key: arm label to condition and model; opened only after binning |
+| candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
+| iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | Prior findings re-queued after a rewording of hypothesis NNN |
+| corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | [corpora-schema](schemas/corpora-schema.md) | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
+| codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument a round or the referee runs under |
+| reading-protocol | fanout/<study>/protocol-N.md | succeeded | [reading-protocol-schema](schemas/reading-protocol-schema.md) | The instruction slice readers run under; piloted, not calibrated |
+| calibration | fanout/<study>/calibration-<date>.md | frozen | [calibration-schema](schemas/calibration-schema.md) | One codebook version's agreement with Brian's blind verdicts, and the rulings |
 | itemizer | fanout/<study>/itemize.* | in-place | | A script that produces a corpus's items; an itemizer that is a tool project is tool-source |
 | generator | fanout/<study>/make-jobs.* | in-place | | Code that writes jobs from the manifest |
 | tallier | fanout/<study>/tally.* | in-place | | Code that reduces results to counts and flagged rows |
@@ -232,8 +235,8 @@ shared instrument and the iteration candidates.
 | ledger | fanout/<study>/<run>/ledger.jsonl | append | | One row per attempt, with hashes |
 | results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs, one per job |
 | tally-output | fanout/<study>/<run>/tally.md | frozen | | The tallier's counts and flagged rows for one run |
-| run-page | fanout/<study>/<run>/run.md | append | run-page | The authored front page of one run |
-| skill | .claude/skills/v3-buildout/ | in-place | | The method's instructions: the router with its two tables, the activity files and the format files |
+| run-page | fanout/<study>/<run>/run.md | append | [run-page-schema](schemas/run-page-schema.md) | The authored front page of one run |
+| skill | .claude/skills/v3-buildout/ | in-place | | The method's instructions: the router with its two tables, the activity files and the schema files |
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
 | audit-protocol | fanout/skill-audits/protocol.md | in-place | | The supersession audit's instrument: three questions about one unit of a prior method text, judged against the new folder |
@@ -242,8 +245,11 @@ shared instrument and the iteration candidates.
 
 ## Companions that are not activities
 
-`formats/<id>.md` — one file per format the Artifacts table names in its `format` column:
-the class's schema, its example block as the checker's fixture, and how the class is read.
+`schemas/<name>-schema.md` — one file per schema the Artifacts table links to in its
+`schema` column: Shape, Example, Queries, Checks, each section named by its consumer; a
+schema file not yet in that shape is rewritten to it when it is reviewed, one at a time.
+The suffix keeps a schema's file name apart from the file of a singleton class, which
+carries the class's own name.
 `CORPORA.md` — the corpora: what each is, where it lives, how it is read; a fact file, not
 a rule. `map.md` and `state.md` — generated only. The `agent-runner` skill governs the
 runner as an instrument and is read in full by any process that invokes it.
@@ -251,8 +257,10 @@ runner as an instrument and is read in full by any process that invokes it.
 ## Vocabulary
 
 - **study**: one run of one activity chain over one corpus, declared in the registry.
-- **governed file**: a file of an artifact class that has a format; what a checker holds
-  to that format.
+- **schema**: the shape of one artifact class's files, in `schemas/<name>-schema.md`;
+  § Schema above is the skill folder's own.
+- **governed file**: a file of an artifact class that has a schema; what a checker holds
+  to that schema.
 - **round**: one execution of a calibrated codebook over a corpus's items; repeats.
 - **item**: the unit one agent job judges, produced by an itemizer; a **slice** is the
   exploration's item, a partition of a corpus.
@@ -284,7 +292,7 @@ Provenance informs and never prescribes.
 **What survives a session.** When a session ends, or when Brian asks what must survive it,
 the session drafts what it believes must and presents it, as options with their trade-offs
 where a choice remains, one decision at a time. A decision about how the buildout
-is run enters `decisions.md` only after his approval, as a titled entry in its format; a
+is run enters `decisions.md` only after his approval, as a titled entry in its schema; a
 study's own conclusions enter that study's artifacts by its activity's rows; nothing
 lands anywhere autonomously, and nothing survives in a handoff.
 

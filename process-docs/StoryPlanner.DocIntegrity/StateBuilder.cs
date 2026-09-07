@@ -22,7 +22,7 @@ namespace StoryPlanner.DocIntegrity;
 public static class StateBuilder
 {
     /// <summary>
-    /// Chain membership by study type, from formats/study-registry.md. A closed set
+    /// Chain membership by study type, from schemas/study-registry-schema.md. A closed set
     /// here because the registry names types, not chains; an activity a chain names that the
     /// tables do not carry is skipped and said so.
     /// </summary>
@@ -169,7 +169,7 @@ public static class StateBuilder
         };
     }
 
-    /// <summary>The referee's folder is <c>fanout/referee/</c> for every <c>referee-&lt;n&gt;</c> (formats/study-registry.md).</summary>
+    /// <summary>The referee's folder is <c>fanout/referee/</c> for every <c>referee-&lt;n&gt;</c> (schemas/study-registry-schema.md).</summary>
     public static string StudyFolder(string studyId)
         => RefereeStudy.IsMatch(studyId) ? "referee" : studyId;
 

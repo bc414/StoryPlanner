@@ -10,7 +10,7 @@ namespace StoryPlanner.Tests;
 /// A tiny repository on disk holding a skill folder that validates clean: a three-row router
 /// (a terminus, an hitl activity that writes hypothesis artifacts from candidates, a session
 /// activity that writes candidates), the Artifacts table beside it in SKILL.md, two activity
-/// files and one format file per format the table names. Every failing test starts from this
+/// files and one schema file per schema the table names. Every failing test starts from this
 /// and breaks exactly one thing, so a finding can only come from the mutation.
 /// <see cref="WithStateTree"/> adds the docs and fanout files the state derivation reads.
 ///
@@ -26,7 +26,8 @@ public sealed class MapFixture : IDisposable
     public const string Study = "round-of-analysis-corpus-1";
     public const string OpenQuestion = "Does the DT class split?";
 
-    public static readonly string[] FormatIds = ["hypothesis-file", "question-entry", "study-registry", "candidate", "codebook"];
+    public static readonly string[] SchemaIds =
+        ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "candidate-schema", "codebook-schema"];
 
     public string RepoRoot { get; }
     public string SkillFolder { get; }
@@ -49,7 +50,7 @@ public sealed class MapFixture : IDisposable
         foreach (var (name, content) in files)
             if (content is not null) File.WriteAllText(Path.Combine(SkillFolder, name), content);
 
-        foreach (var id in FormatIds) WriteFormat(id, $"# {id}\n\nThe shape.\n");
+        foreach (var id in SchemaIds) WriteSchema(id, $"# {id}\n\nThe shape.\n");
     }
 
     /// <summary>One file with one substring replaced — the shape of every failing case.</summary>
@@ -77,12 +78,12 @@ public sealed class MapFixture : IDisposable
 
     public string Read(string file) => File.ReadAllText(Path.Combine(SkillFolder, file));
 
-    /// <summary>Writes (or overwrites) one format file under formats/.</summary>
-    public void WriteFormat(string id, string content)
+    /// <summary>Writes (or overwrites) one schema file under schemas/.</summary>
+    public void WriteSchema(string id, string content)
     {
-        var formats = Path.Combine(SkillFolder, SkillReader.FormatsFolder);
-        Directory.CreateDirectory(formats);
-        File.WriteAllText(Path.Combine(formats, id + ".md"), content);
+        var schemas = Path.Combine(SkillFolder, SkillReader.SchemasFolder);
+        Directory.CreateDirectory(schemas);
+        File.WriteAllText(Path.Combine(schemas, id + ".md"), content);
     }
 
     public SkillDocument Doc => SkillReader.Read(SkillFolder);
@@ -248,14 +249,14 @@ public sealed class MapFixture : IDisposable
     public const string ArtifactsSection = """
         ## Artifacts
 
-        | id | path | mutation | format | description |
+        | id | path | mutation | schema | description |
         |---|---|---|---|---|
-        | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | hypothesis-file | The evidence relationship |
-        | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | hypothesis-file | Status and baselined |
-        | question-list | docs/v3-framework/questions/<corpus>.md | append | question-entry | Brian's open questions |
-        | studies | docs/v3-framework/studies.md | append | study-registry | One row per study |
-        | candidates | fanout/<study>/candidates.md | append | candidate | One round's findings |
-        | codebook | fanout/<study>/codebook-N.md | succeeded | codebook | The frozen instrument |
+        | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The evidence relationship |
+        | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Status and baselined |
+        | question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions |
+        | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study |
+        | candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One round's findings |
+        | codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument |
         | calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
         | verification-artifact | docs/v3-framework/<study>/round.md | append | | One round's method and counts |
         | items | fanout/<study>/<run>/items/ | frozen | | The units one run judges |
@@ -282,7 +283,7 @@ public sealed class MapFixture : IDisposable
         """ + ArtifactsSection + """
         ## Companions
 
-        formats/ holds one file per format the Artifacts table names; map.md and state.md are generated only.
+        schemas/ holds one file per schema the Artifacts table links to; map.md and state.md are generated only.
         """;
 
     public const string Refereeing = """

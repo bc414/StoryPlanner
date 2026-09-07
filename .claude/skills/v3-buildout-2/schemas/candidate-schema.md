@@ -1,4 +1,4 @@
-# candidate
+# candidate-schema
 
 `fanout/<study>/candidates.md`, one per round; `fanout/referee/iterations/NNN-<date>/candidates.md`
 for the findings re-queued by a rewording of hypothesis NNN. Append-only: a candidate is never edited after it

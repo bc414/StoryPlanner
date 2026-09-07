@@ -1,4 +1,4 @@
-# codebook
+# codebook-schema
 
 `fanout/<study>/codebook-N.md` for a corpus; `fanout/referee/codebook-N.md` for the
 referee. The frozen instrument an agent applies to one item with no discretion: all

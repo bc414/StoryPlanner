@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
@@ -9,17 +11,36 @@ namespace StoryPlanner.DocIntegrity;
 ///
 /// A router row whose activity file is missing yields no processes; that is the validator's
 /// <c>ref.companion</c> finding, not a refusal here, because the terminus legitimately has
-/// no file. A format is the file <c>formats/&lt;id&gt;.md</c> the Artifacts table's
-/// <c>format</c> column names; a file there that no row names is listed as an orphan.
+/// no file. A schema is the file <c>schemas/&lt;name&gt;-schema.md</c> the Artifacts table's
+/// <c>schema</c> column links to; a file there that no row names is listed as an orphan.
 /// </summary>
 public static class SkillReader
 {
     static readonly string[] ActivityCols = ["id", "enables", "description"];
     static readonly string[] ProcessCols = ["id", "mode", "instruments", "reads", "writes", "state", "description"];
-    static readonly string[] ArtifactCols = ["id", "path", "mutation", "format", "description"];
+    static readonly string[] ArtifactCols = ["id", "path", "mutation", "schema", "description"];
 
     public const string UnknownSignature = "table.unknown-signature";
-    public const string FormatsFolder = "formats";
+    public const string SchemasFolder = "schemas";
+
+    /// <summary>
+    /// Every schema id ends in this, so a schema's file name is never a singleton class's own
+    /// file name (decisions.md holds the entries; decisions-schema.md holds their shape).
+    /// </summary>
+    public const string SchemaSuffix = "-schema";
+
+    /// <summary>The schema cell: a markdown link whose text is the schema id, [name-schema](schemas/name-schema.md).</summary>
+    public static readonly Regex SchemaLink = new(@"^\[(?<id>[^\]]+)\]\((?<target>[^)]+)\)$", RegexOptions.Compiled);
+
+    /// <summary>
+    /// The id a schema cell names: the link's text, or the whole cell when it is not a link,
+    /// so that a bare slug still names its file and the validator reports the cell's form.
+    /// </summary>
+    static string SchemaIdOf(string cell)
+    {
+        var m = SchemaLink.Match(cell.Trim());
+        return m.Success ? m.Groups["id"].Value : cell.Trim();
+    }
 
     public static SkillDocument Read(string skillFolder)
     {
@@ -34,7 +55,7 @@ public static class SkillReader
             .ToList();
 
         var artifacts = artifactsTable.Rows
-            .Select(r => new ArtifactRow(r.Cells[0], r.Cells[1], r.Cells[2], r.Cells[3], r.Cells[4], "SKILL.md", r.Line))
+            .Select(r => new ArtifactRow(r.Cells[0], r.Cells[1], r.Cells[2], SchemaIdOf(r.Cells[3]), r.Cells[4], "SKILL.md", r.Line, r.Cells[3]))
             .ToList();
 
         var processes = new List<ProcessRow>();
@@ -58,18 +79,18 @@ public static class SkillReader
             .OrderBy(n => n, StringComparer.Ordinal)
             .ToList();
 
-        var formatIds = artifacts.Select(a => a.Format).Where(f => f.Length > 0).ToHashSet(StringComparer.Ordinal);
-        var formatsDir = Path.Combine(skillFolder, FormatsFolder);
-        var orphanFormats = Directory.Exists(formatsDir)
-            ? Directory.GetFiles(formatsDir, "*.md")
+        var schemaIds = artifacts.Select(a => a.Schema).Where(s => s.Length > 0).ToHashSet(StringComparer.Ordinal);
+        var schemasDir = Path.Combine(skillFolder, SchemasFolder);
+        var orphanSchemas = Directory.Exists(schemasDir)
+            ? Directory.GetFiles(schemasDir, "*.md")
                 .Select(Path.GetFileName)
-                .Where(n => n is not null && !formatIds.Contains(Path.GetFileNameWithoutExtension(n)))
+                .Where(n => n is not null && !schemaIds.Contains(Path.GetFileNameWithoutExtension(n)))
                 .Select(n => n!)
                 .OrderBy(n => n, StringComparer.Ordinal)
                 .ToList()
             : [];
 
-        return new SkillDocument(skillFolder, activities, processes, artifacts, orphans, orphanFormats);
+        return new SkillDocument(skillFolder, activities, processes, artifacts, orphans, orphanSchemas);
     }
 
     /// <summary>The Artifacts table alone, for scope resolution that needs no activity file.</summary>
@@ -80,7 +101,7 @@ public static class SkillReader
             throw new MapFormatException($"no SKILL.md in {skillFolder}", "skill.missing");
         var (_, artifactsTable) = Router(skillPath);
         return artifactsTable.Rows
-            .Select(r => new ArtifactRow(r.Cells[0], r.Cells[1], r.Cells[2], r.Cells[3], r.Cells[4], "SKILL.md", r.Line))
+            .Select(r => new ArtifactRow(r.Cells[0], r.Cells[1], r.Cells[2], SchemaIdOf(r.Cells[3]), r.Cells[4], "SKILL.md", r.Line, r.Cells[3]))
             .ToList();
     }
 

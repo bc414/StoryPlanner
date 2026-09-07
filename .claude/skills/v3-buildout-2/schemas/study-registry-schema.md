@@ -1,4 +1,4 @@
-# study-registry
+# study-registry-schema
 
 `docs/v3-framework/studies.md` — one row per study of a chain, appended by the
 preparing activity at the moment Brian approves its plan, which is his go. Never edited: a

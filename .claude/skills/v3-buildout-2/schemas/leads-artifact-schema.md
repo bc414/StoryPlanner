@@ -1,4 +1,4 @@
-# leads-artifact
+# leads-artifact-schema
 
 `docs/v3-framework/<study>/leads.md`, beside the arm key and any renders the exploration
 produced. Written once by exploring-a-corpus; reviewing-leads appends dated correction

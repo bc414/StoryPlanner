@@ -1,4 +1,4 @@
-# arm-key
+# arm-key-schema
 
 `docs/v3-framework/<study>/arm-key.md`, only when an exploration runs its slices under
 more than one condition. Written by preparing-to-explore-a-corpus, frozen, and not opened
