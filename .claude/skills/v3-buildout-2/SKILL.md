@@ -47,7 +47,7 @@ Brian from memory, a prior session, a memory file, this skill, any document — 
 hypothesis about what the data says. Before acting on it: query the source, compare, present
 the discrepancy to Brian, proceed on the grounded version once he has seen it. Nothing is
 exempt, including this file. Grounding connectors include the MCP server, the local corpora
-named in `CORPUS-STATUS.md`, `codesessions.db` by sqlite3, and web search; CLAUDE.md carries
+named in `CORPORA.md`, `codesessions.db` by sqlite3, and web search; CLAUDE.md carries
 each source's semantics and caveats.
 
 ## Constitutional rules
@@ -178,16 +178,16 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact: drill the bins, challenge leads against the source, and write the questions Brian raises into the corpus's question list |
 | exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: a pathfinder in one session, or slice readers through the runner, joined and binned; output a leads artifact |
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the card's question and the corpus's question list, the scale, the reading protocol and read-manifest if slices, the plan approved, the protocol piloted |
-| building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, the runner, talliers, renders, the validator; CORPUS-STATUS updated when a corpus becomes readable |
+| building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, the runner, talliers, renders, the validator; CORPORA.md updated when a corpus becomes readable |
 | revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, two lints passing (the validator; for a rewrite, the supersession audit of the prior text), a write-once revision note recording what changed and why |
 
 ## Companions that are not activities
 
 `artifacts.md` — the Artifacts table and every authored format (hypothesis file, index,
 question entry, study registry, candidate, leads and verification artifacts, arm key,
-reading protocol, codebook, calibration, run.md, decisions). `CORPUS-STATUS.md` — what
-material exists and its state; a fact file, not a rule. `map.md` and `state.md` —
-generated only. The `agent-runner` skill governs the runner as an instrument and is read in
+reading protocol, codebook, calibration, run.md, decisions, corpora). `CORPORA.md` — the
+corpora: what each is, where it lives, how it is read; a fact file, not a rule. `map.md`
+and `state.md` — generated only. The `agent-runner` skill governs the runner as an instrument and is read in
 full by any process that invokes it.
 
 ## Vocabulary

@@ -382,13 +382,12 @@ public static class Leads
 
 /// <summary>
 /// artifacts.md § Corpora: one section per corpus, its id as the heading, then what, where and
-/// read-by lines, then caveats. Also the source of corpus ids for the registry: the sections
-/// of CORPORA.md, or until it exists, the id table at the top of CORPUS-STATUS.md.
+/// read-by lines, then caveats. Also the source of corpus ids for the registry: the section
+/// headings of CORPORA.md.
 /// </summary>
 public static class Corpora
 {
     public const string FileName = "CORPORA.md";
-    public const string LegacyFileName = "CORPUS-STATUS.md";
     static readonly string[] Fields = ["- what:", "- where:", "- read by:"];
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
@@ -426,28 +425,13 @@ public static class Corpora
         return findings;
     }
 
-    /// <summary>The corpus ids the skill folder declares, or an empty set when neither file declares any.</summary>
+    /// <summary>The corpus ids the skill folder declares, or an empty set when the file is absent.</summary>
     public static IReadOnlySet<string> Ids(string skillFolder)
     {
         var corpora = Path.Combine(skillFolder, FileName);
-        if (File.Exists(corpora))
-            return new MarkdownOutline(File.ReadAllText(corpora)).Headings
-                .Where(h => h.Level == 2 && ClosedSets.IdPattern.IsMatch(h.Text))
-                .Select(h => h.Text).ToHashSet(StringComparer.Ordinal);
-
-        var legacy = Path.Combine(skillFolder, LegacyFileName);
-        if (!File.Exists(legacy)) return new HashSet<string>(StringComparer.Ordinal);
-        try
-        {
-            var table = MapTables.ReadAll(File.ReadAllText(legacy))
-                .FirstOrDefault(t => t.Headers.Count >= 1 && t.Headers[0].Equals("id", StringComparison.OrdinalIgnoreCase));
-            return table is null
-                ? new HashSet<string>(StringComparer.Ordinal)
-                : table.Rows.Select(r => r.Cells[0]).ToHashSet(StringComparer.Ordinal);
-        }
-        catch (MapFormatException)
-        {
-            return new HashSet<string>(StringComparer.Ordinal);
-        }
+        if (!File.Exists(corpora)) return new HashSet<string>(StringComparer.Ordinal);
+        return new MarkdownOutline(File.ReadAllText(corpora)).Headings
+            .Where(h => h.Level == 2 && ClosedSets.IdPattern.IsMatch(h.Text))
+            .Select(h => h.Text).ToHashSet(StringComparer.Ordinal);
     }
 }

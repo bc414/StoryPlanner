@@ -4,7 +4,23 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 
 ## Studies
 
-Registry absent: `docs/v3-framework/studies.md` does not exist.
+### exploration-of-fimfiction-stories
+
+- type: exploratory · corpus: fimfiction-stories · go: 2026-08-31
+- artifacts present: leads-artifact
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-google-keep
+
+- type: exploratory · corpus: google-keep · go: 2026-08-31
+- artifacts present: leads-artifact
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
+### exploration-of-own-fiction
+
+- type: exploratory · corpus: own-fiction · go: 2026-09-01
+- artifacts present: leads-artifact
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
 
 ## Corpora
 
@@ -38,30 +54,30 @@ Status as authored in the frontmatter; "entries imply" recomputed from the entri
 | 020 | voice-separation-prerequisite | untested | false | untested | — |
 | 021 | five-voice-registers | untested | false | untested | — |
 | 022 | voice-treatment-protocol | untested | false | untested | — |
-| 023 | three-concern-separation | evidenced | false | evidenced | — |
-| 024 | dimensional-vs-hierarchical | evidenced | false | evidenced | — |
-| 025 | mechanism-hierarchy-is-complexity | evidenced | false | evidenced | — |
-| 026 | three-axis-independence | evidenced | false | evidenced | — |
-| 027 | cognitive-mode-principle | evidenced | false | evidenced | — |
-| 028 | variable-focalization-master | evidenced | false | evidenced | — |
-| 029 | perception-gap-delivery | evidenced | false | evidenced | — |
-| 030 | narrator-character-blend | evidenced | false | evidenced | — |
-| 031 | dt-knowledge-asymmetry | evidenced | false | evidenced | — |
-| 032 | first-person-m4-effects | evidenced | false | evidenced | — |
-| 033 | non-thematic-goal-categories | evidenced | false | evidenced | — |
-| 034 | prose-craft-boundary | evidenced | false | evidenced | — |
-| 035 | embedded-text-category | evidenced | false | evidenced | — |
-| 036 | wi-terminal-ratio | evidenced | false | evidenced | — |
-| 037 | multi-story-focalization-profiles | evidenced | false | evidenced | — |
-| 038 | instinctive-mechanism-practice | challenged | false | challenged | — |
-| 039 | fim-reading-effect | challenged | false | challenged | — |
-| 040 | fabula-dialogue-replacement | challenged | false | challenged | — |
+| 023 | three-concern-separation | untested | false | untested | — |
+| 024 | dimensional-vs-hierarchical | untested | false | untested | — |
+| 025 | mechanism-hierarchy-is-complexity | untested | false | untested | — |
+| 026 | three-axis-independence | untested | false | untested | — |
+| 027 | cognitive-mode-principle | untested | false | untested | — |
+| 028 | variable-focalization-master | untested | false | untested | — |
+| 029 | perception-gap-delivery | untested | false | untested | — |
+| 030 | narrator-character-blend | untested | false | untested | — |
+| 031 | dt-knowledge-asymmetry | untested | false | untested | — |
+| 032 | first-person-m4-effects | untested | false | untested | — |
+| 033 | non-thematic-goal-categories | untested | false | untested | — |
+| 034 | prose-craft-boundary | untested | false | untested | — |
+| 035 | embedded-text-category | untested | false | untested | — |
+| 036 | wi-terminal-ratio | untested | false | untested | — |
+| 037 | multi-story-focalization-profiles | untested | false | untested | — |
+| 038 | instinctive-mechanism-practice | untested | false | untested | — |
+| 039 | fim-reading-effect | untested | false | untested | — |
+| 040 | fabula-dialogue-replacement | untested | false | untested | — |
 | 041 | sufficient-stability-iterative | untested | false | untested | — |
 | 042 | editor-modes-evaluation | untested | false | untested | — |
 | 043 | note-design-relationships | untested | false | untested | — |
 | 044 | bespokeness-tension | untested | false | untested | — |
-| 045 | keep-notes-provenance | evidenced | false | evidenced | — |
-| 046 | dt-two-classes | evidenced | false | evidenced | — |
+| 045 | keep-notes-provenance | untested | false | untested | — |
+| 046 | dt-two-classes | untested | false | untested | — |
 | 047 | uncorrelated-failure-modes | untested | false | untested | — |
 | 048 | self-administered-discrimination-bias | untested | false | untested | — |
 | 049 | instruction-stack-contamination | untested | false | untested | — |

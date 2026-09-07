@@ -1,6 +1,6 @@
 ---
 id: 33
-status: evidenced
+status: untested
 baselined: false
 created: 2026-08-31
 ---
@@ -35,39 +35,6 @@ plannable vs prose-craft is an open empirical question.
   not designed in advance) — is the same territory as hypothesis 034
   (prose-craft-boundary). The two hypotheses are companions: this one asks what
   the goal categories are, that one asks where the boundary falls.
-- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: Comedy is cited as a
-  significant unmeasured dimension in 85%+ of stories across every category —
-  the universal framework gap. Cumulative emotional investment is cited in 50%+.
-  Structural setup (prior-belief planting for later M2 demolition) is documented
-  throughout. Relief at confirmatory resolution (reader already knows; payoff is
-  affective, not inferential) is identified in 4/6 ensemble stories. These
-  goals follow distinct pathways: P→affect for comedy (no inference stage),
-  P→accumulation→attachment for emotional investment, P→information_plant for
-  structural setup — none pass through WI→T. Theme is confirmed as one goal
-  category among peers, not the terminal purpose of all scene-level design.
-- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: Category-specific
-  non-thematic goals also emerge: shame-about-desire as the defining thematic
-  family in 7/11 explicit/plot stories, chosen-family in 4/10 dark premise,
-  leadership-and-power in 5/11 AU. These are goal categories with their own
-  delivery architectures.
-- evidence | 2026-09-01T01:00 | (WU1.1, post-discussion) [supporting]: Per-story
-  Inference Profile and Triangulation review of Best Night Ever, Fixing Up Miss
-  Smartypants, Magic Tutor, Carrot Top Season, and On a Cross and Arrow confirms
-  comedy is almost never a primary genre — even the strongest comedic registers
-  are structurally doing other work (communication-failure chains, character
-  transformation, identity recognition) with comedy as delivery register. But
-  comedy's near-universal presence (85%+ of stories) as a secondary mode makes
-  it arguably the most pervasive non-thematic structural force in the corpus —
-  serving tonal management, characterization, and reader attachment.
-- evidence | 2026-09-01T01:30 | (WU1.1, post-discussion) [supporting]: Emotional
-  investment through accumulation (the P→accumulation→attachment pathway) is
-  confirmed as a distinct non-thematic goal with its own delivery mode: individually
-  unremarkable M1 instances (wing-wraps, shared meals, nuzzles) that build an
-  affective argument only through repetition across scenes. The v2 track config
-  captures each instance (Demonstration) and the plan (Reader Opinion) but Reader
-  Opinion's display question asks about opinion (cognitive), not investment
-  (affective) — the goal category exists but the track configuration doesn't
-  fully invite it.
 - iteration | 2026-09-01T03:30: Rewritten to replace "humor" with the actual
   goal categories the corpus evidence supports (tonal management, structural
   setup, emotional investment, characterization, reader attachment). Comedy is
@@ -76,12 +43,3 @@ plannable vs prose-craft is an open empirical question.
   Added specific pathways (P→accumulation→attachment, P→information_plant).
   Per-story verification of five corpus stories confirmed comedy is almost never
   a primary genre.
-- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Comedy at structural
-  positions in 5/7 texts (character introductions — Hooves, Falc, Chadwyck,
-  Pinkie; after intensity — Terry's pranks in NTL's siege chapters; as irony
-  generator — Falldale's opening); emotional investment through accumulated
-  physical gesture (TEatS, NTL, GIYC) with no WI→T step; structural setup
-  chains (THLB Cedar/Spruce parallel, naive TLTT's layered Celestia
-  revelation). Would differ if false: if theme were the terminal goal, comedy
-  and accumulation beats would be traceable to thematic propositions; the
-  per-story Inference Analyses trace none of them there.

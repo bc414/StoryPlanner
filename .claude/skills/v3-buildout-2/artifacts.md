@@ -8,7 +8,7 @@ is the fixture its checker in `process-docs/StoryPlanner.DocIntegrity` is tested
 the block and the grammar sentences around it are what the machine reads, the guidance
 sentences are for the author, and a format edited without its checker fails a test.
 
-Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPUS-STATUS.md`;
+Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPORA.md`;
 `<study>` a study's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
 or `round-of-<corpus>-<n>`), except that every `referee-<n>` shares the folder `referee`
 and the method's own supersession audit, a work outside the buildout's studies, runs
@@ -35,7 +35,7 @@ shared instrument and the iteration candidates.
 | arm-key | docs/v3-framework/<study>/arm-key.md | frozen | Arm key | The blinding key: arm label to condition and model; opened only after binning |
 | candidates | fanout/<study>/candidates.md | append | Candidate | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
 | iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | Candidate | Prior findings re-queued after a rewording of hypothesis NNN |
-| corpus-status | .claude/skills/v3-buildout/CORPUS-STATUS.md | in-place | | What material exists and its state |
+| corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | Corpora | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
 | codebook | fanout/<study>/codebook-N.md | succeeded | Codebook | The frozen instrument a round or the referee runs under |
 | reading-protocol | fanout/<study>/protocol-N.md | succeeded | Reading protocol | The instruction slice readers run under; piloted, not calibrated |
 | calibration | fanout/<study>/calibration-<date>.md | frozen | Calibration | One codebook version's agreement with Brian's blind verdicts, and the rulings |
@@ -54,7 +54,7 @@ shared instrument and the iteration candidates.
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
 | audit-protocol | fanout/skill-audits/protocol.md | in-place | | The supersession audit's instrument: three questions about one unit of a prior method text, judged against the new folder |
 | tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, the runner; the validator lives under process-docs/ and is a free-name instrument, not an artifact |
-| corpus | outside the repo | in-place | | The corpora named in CORPUS-STATUS.md, read through the MCP server, files or sqlite3 |
+| corpus | outside the repo | in-place | | The corpora named in CORPORA.md, read through the MCP server, files or sqlite3 |
 
 ## Hypothesis file
 
@@ -142,7 +142,7 @@ study that stops after preparing: its corpus is `candidates`, its folder is
 materialise itemizer — is what every referee run under every round then uses. It is
 prepared once and again only when a ruling changes the codebook; that is the whole of
 what "bootstrap" means here, and it is a fact about studies, never about activities.
-`corpus` is a name from `CORPUS-STATUS.md`, `verified-artifacts` for an exploration over
+`corpus` is a name from `CORPORA.md`, `verified-artifacts` for an exploration over
 the buildout's own outputs, or `candidates` for the referee. Nothing else is authored
 here: where a study stands is derived by the tool from its artifacts into `state.md`,
 and a tool a study needs is built as its first task.

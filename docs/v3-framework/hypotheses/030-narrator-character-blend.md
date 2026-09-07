@@ -1,6 +1,6 @@
 ---
 id: 30
-status: evidenced
+status: untested
 baselined: false
 created: 2026-08-31
 ---
@@ -36,20 +36,6 @@ FID as a single uniform mode.
   that operates within both modes is the open question. The blend appeared
   frequently enough in the 112-story corpus to be a real technique, not an
   edge case.
-- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: Per-story analysis review
-  shows the examples initially cited as "blend" evidence are actually FID: Where
-  Earth Meets Sky's focalizer-matched register uses the CHARACTER's vocabulary
-  (Applejack's rural similes, Dash's childish logic), Salvation's differentiated
-  FID textures are each character's OWN register, and Best Night Ever's Pinkie
-  dual-voice is a split-FID variant. Fixing Up Miss Smartypants's "semi-FID" /
-  "narrated monologue" borrows character vocabulary with narratorial distance —
-  the closest case, but still the character's words, not the narrator's literary
-  register rendering the character's perception. The blend as hypothesized
-  (narrator's own literary vocabulary rendering a character's subjective
-  perception) does not appear distinctly in the 112-story corpus. It may be a
-  technique Brian uses that this corpus does not document, or it may be the
-  shallow end of the FID spectrum rather than a categorically distinct technique.
-  WU1.3 (own fiction) can test whether it appears in Brian's writing.
 - iteration | 2026-09-01T00:30: Rewritten from "distinct technique requiring
   its own recognition" to "FID with varying narrator presence as a spectrum."
   Source-text review of Where Earth Meets Sky, Salvation, Best Night Ever, and
@@ -61,19 +47,3 @@ FID as a single uniform mode.
   interested in testing where his own writing falls on this spectrum (WU1.3).
   Re-assessed prior evidence from [challenging] to [supporting] — the corpus
   evidence supports the spectrum model, just not the "distinct technique" model.
-- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: GIYC shows both ends of
-  the narrator-presence spectrum in one text. Narrator-literary-register end:
-  the "pink curtain" (green-is-your-color.txt lines 103, 245, 1316, 1800,
-  2118, 2142) — the narrator renames Fluttershy's mane with a metaphor she
-  never uses ("tried to hide behind her mane, but her usual pink curtain was
-  tied back"), sustains it across five chapters, and rhymes it with the
-  literal stage curtain (line 119); also "her big disobedient eyes" (line
-  2178). Character-vocabulary end: Rarity's "attitude and pizzazz" (line 199),
-  Fluttershy's "Be bold like Rarity" quoting line 475. Would differ if false:
-  under a single uniform FID mode, every narrator-dissolved passage would use
-  the character's vocabulary, and passages whose vocabulary is demonstrably
-  the narrator's would not occur. The GIYC per-story analysis misclassified
-  the curtain as Fluttershy's own vocabulary; corrected against source
-  2026-09-01. GIYC is the only confirmed instance; NTL line 8649 ("an itch
-  that gnawed at her") was briefly read as a second and is told interiority,
-  not blend (adjudicated by Brian 2026-09-01).

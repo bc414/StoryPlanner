@@ -1,6 +1,6 @@
 ---
 id: 40
-status: challenged
+status: untested
 baselined: false
 created: 2026-08-31
 ---
@@ -32,15 +32,3 @@ revelation architecture, and designed mistakes.
   property that the reader does cognitive work rather than passively receiving
   exposition, and all four are plannable at the scene level (unlike prose
   technique choices).
-- evidence | 2026-09-01T22:41 | (WU1.3) [challenging]: Wall confirmed: naive
-  TLTT delivers nearly all fabula through characters lecturing AJ, and its
-  unfinished Ch 2 sections degrade into outline bullets of propositions to be
-  stated. Of the four named replacements, behavioral evidence and revelation
-  architecture are dominant in the completed texts (TEatS's Helping Hand as
-  theme, NTL's shown economic build, TEatS's Elliot reveal); designed
-  incomplete understanding and designed mistakes are weak — the reader
-  generally knows what characters know, and planned wrong inferences are rare
-  (THLB Squash, TEatS Firinia). Falldale, the most recent text, retains a
-  ~1,500-word exposition monologue. Would differ if true: all four techniques
-  would appear as replacements, and the newest text would not carry the v0
-  pattern.

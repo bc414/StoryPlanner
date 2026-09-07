@@ -1,5 +1,10 @@
 # WU1.2: Keep Notes Assessment
 
+> Source document of the study `exploration-of-google-keep` (registry
+> `docs/v3-framework/studies.md`); its leads are indexed in
+> `docs/v3-framework/exploration-of-google-keep/leads.md` (2026-09-07). Read as a lead,
+> never as evidence.
+
 Executed: 2026-08-31
 
 ## Question

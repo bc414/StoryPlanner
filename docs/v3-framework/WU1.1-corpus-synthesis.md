@@ -1,5 +1,10 @@
 # WU1.1: Corpus Synthesis
 
+> Source document of the study `exploration-of-fimfiction-stories` (registry
+> `docs/v3-framework/studies.md`); its leads are indexed in
+> `docs/v3-framework/exploration-of-fimfiction-stories/leads.md` (2026-09-07). Read as a
+> lead, never as evidence.
+
 Executed: 2026-08-31
 Sources: 7 meta-analysis reports (4.1a, 4.2a-e, 4.3), covering 112 stories
 

@@ -1,6 +1,6 @@
 ---
 id: 39
-status: challenged
+status: untested
 baselined: false
 created: 2026-08-31
 ---
@@ -28,14 +28,3 @@ stories and the post-FiM texts.
   had read — the vocabulary arrived through analysis of the pre-FiM reading, but
   the instinct shift (if real) would have happened through the post-FiM reading
   itself, before the vocabulary existed.
-- evidence | 2026-09-01T22:41 | (WU1.3) [challenging]: The statement names FID
-  and variable-focalization instincts as improved. FID: absent or negligible in all
-  four pre-FiM texts (TEatS Ch 2 verified; NTL Ch 1 cited by its analysis,
-  unverified), present (subordinate) in GIYC and naive TLTT, absent in
-  Falldale. Variable-focalization sophistication: no change — every text sits
-  in the same compressed soft-limited range. Interiority rendering shifted in
-  the EaW texts, but toward dialogue, not FID: Falldale, the newest text,
-  dropped DT to zero without gaining FID. Would differ if true:
-  variable-focalization range would widen post-FiM, and DT reduction would be
-  accompanied by FID increase. One named instinct shows a modest,
-  genre-confounded shift; the other shows none.

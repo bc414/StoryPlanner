@@ -1,6 +1,6 @@
 ---
 id: 23
-status: evidenced
+status: untested
 baselined: false
 created: 2026-08-31
 ---
@@ -36,25 +36,3 @@ designed reader operation at scene-level intersections.
   goals and mechanisms belong in the planner. Split from a larger hypothesis
   that also addressed how the three concerns relate structurally — the
   structural question is in hypothesis 024.
-- evidence | 2026-08-31T23:30 | (WU1.1) [supporting]: The corpus reports
-  consistently separate three concerns in their section structure: mechanism
-  distribution (what the reader does — M1-M4), perspective technique (how it's
-  rendered — FID, DT, told narration, behavioral proxy), and framework gaps /
-  cross-cutting findings (what goals the scene serves — theme, comedy, emotional
-  investment, structural setup). These three vary independently across stories:
-  the same mechanism serves different goals, the same technique operates at
-  different mechanism levels, and the same goal is achieved through different
-  techniques. Non-thematic goals (comedy, emotional investment, structural
-  setup) follow pathways that bypass inference entirely, confirming they are
-  peer concerns, not sub-concerns of theme.
-- evidence | 2026-09-01T22:41 | (WU1.3) [supporting]: Brian's 7 texts show
-  goal, mechanism, and technique varying independently. M1 Enacted serves
-  thematic argument (NTL's economic transformation), structural setup (THLB,
-  Spruce's promise-breaking), and emotional investment (GIYC modeling scenes).
-  The bonding goal is delivered via DT (THLB, TEatS), dialogue (Falldale), and
-  narrator-rendered proxy (GIYC's pink curtain). Would differ if false: a
-  mechanism would pair consistently with one goal or one technique across
-  texts. Caveat: the v4 brief's section structure itself separates the three
-  concerns, so this is weaker than an independent test — it shows the
-  separation is describable in Brian's fiction, not that the fiction forces
-  it.

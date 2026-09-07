@@ -4,7 +4,7 @@ Enables exploring-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| explore-plan | hitl | | question-list corpus-status corpus state skill | studies arm-key question-list | built | Brian and the session fix the scale, the questions in view, the arms if any; the plan approved is his go, the study is registered, the arm key written and closed; his opening question written into the list if the corpus has none |
+| explore-plan | hitl | | question-list corpora corpus state skill | studies arm-key question-list | built | Brian and the session fix the scale, the questions in view, the arms if any; the plan approved is his go, the study is registered, the arm key written and closed; his opening question written into the list if the corpus has none |
 | slice | session | itemizer | corpus | items items-manifest | specified | Slices only: the corpus cut into one file per slice, by a tool, with a manifest |
 | author-protocol | hitl | | question-list items reading-protocol | reading-protocol generator | specified | Slices only: the reading protocol written against the real slices, and the generator that encodes its lead-set contract; a new numbered version each time |
 | pilot-run | hitl | generator runner | reading-protocol items results | jobs ledger run-page | specified | Slices only: one job under the protocol's hash; Brian reads its lead set and rules whether the protocol stands; his verdict in run.md |
@@ -12,13 +12,13 @@ Enables exploring-a-corpus.
 
 ## Preconditions
 
-The corpus is readable and CORPUS-STATUS says so, or the corpus is the verified artifacts
+The corpus is readable and CORPORA.md says how, or the corpus is the verified artifacts
 of rounds already promoted. If its question list is empty, Brian's opening question is
 asked for and written first.
 
 ## explore-plan
 
-The session presents the corpus's shape from CORPUS-STATUS and its open questions, and
+The session presents the corpus's shape from CORPORA.md and its open questions, and
 asks Brian, batched four per call: the scale (whole corpus in one context, or slices), the
 questions in view, whether arms are wanted and what one factor varies across them, the
 binning scheme, and what the exploration does not do. The plan is written against the

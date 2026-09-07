@@ -130,5 +130,5 @@ public static class WellKnown
 
     /// <summary>Files in the skill folder that are not activity files (SKILL.md § Companions).</summary>
     public static readonly string[] NonActivityFiles =
-        ["SKILL.md", "artifacts.md", "map.md", "state.md", "CORPUS-STATUS.md", "CORPORA.md"];
+        ["SKILL.md", "artifacts.md", "map.md", "state.md", "CORPORA.md"];
 }

@@ -1,5 +1,10 @@
 # WU1.3: Own-Voice Synthesis
 
+> Source document of the study `exploration-of-own-fiction` (registry
+> `docs/v3-framework/studies.md`); its leads are indexed in
+> `docs/v3-framework/exploration-of-own-fiction/leads.md` (2026-09-07). Read as a lead,
+> never as evidence.
+
 Executed: 2026-09-01
 Sources: 7 self-diagnostic v4 analyses of Brian's fiction (2015-2025)
 

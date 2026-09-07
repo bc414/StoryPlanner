@@ -360,8 +360,8 @@ flowchart LR
   calibrate{{"calibrate<br/>hitl"}}:::hitl
   calibration[/"calibration"/]:::artifact
   codebook[/"codebook"/]:::artifact
+  corpora[/"corpora"/]:::artifact
   corpus[/"corpus"/]:::artifact
-  corpusstatus[/"corpus-status"/]:::artifact
   generator[/"generator"/]:::artifact
   itemizer[/"itemizer"/]:::artifact
   items[/"items"/]:::artifact
@@ -378,7 +378,7 @@ flowchart LR
   toolsource[/"tool-source"/]:::artifact
 
   questionlist --> verifyplan
-  corpusstatus --> verifyplan
+  corpora --> verifyplan
   corpus --> verifyplan
   state --> verifyplan
   skill --> verifyplan
@@ -415,7 +415,7 @@ flowchart LR
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus corpus-status skill state
+- **inputs**: corpora corpus skill state
 - **outputs**: calibration codebook generator itemizer items items-manifest jobs ledger question-list results run-page studies tallier tool-source
 - **instruments**: dotnet generator itemizer runner
 - **enabled by**: reviewing-leads building-a-tool revising-the-method
@@ -531,8 +531,8 @@ flowchart LR
   pilotrun{{"pilot-run<br/>hitl"}}:::hitl
   pilotread(["pilot-read<br/>agent"]):::agent
   armkey[/"arm-key"/]:::artifact
+  corpora[/"corpora"/]:::artifact
   corpus[/"corpus"/]:::artifact
-  corpusstatus[/"corpus-status"/]:::artifact
   generator[/"generator"/]:::artifact
   itemizer[/"itemizer"/]:::artifact
   items[/"items"/]:::artifact
@@ -548,7 +548,7 @@ flowchart LR
   studies[/"studies"/]:::artifact
 
   questionlist --> exploreplan
-  corpusstatus --> exploreplan
+  corpora --> exploreplan
   corpus --> exploreplan
   state --> exploreplan
   skill --> exploreplan
@@ -578,7 +578,7 @@ flowchart LR
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus corpus-status itemizer skill state
+- **inputs**: corpora corpus itemizer skill state
 - **outputs**: arm-key generator items items-manifest jobs ledger question-list reading-protocol results run-page studies
 - **instruments**: generator itemizer runner
 - **enabled by**: building-a-tool revising-the-method
@@ -595,24 +595,24 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   build{{"build<br/>hitl"}}:::hitl
+  corpora[/"corpora"/]:::artifact
   corpus[/"corpus"/]:::artifact
-  corpusstatus[/"corpus-status"/]:::artifact
   runnerskill[/"runner-skill"/]:::artifact
   toolsource[/"tool-source"/]:::artifact
 
-  corpusstatus --> build
+  corpora --> build
   toolsource --> build
   corpus --> build
   build --> toolsource
   build --> runnerskill
-  build --> corpusstatus
+  build --> corpora
   build --> corpus
 ```
 
 Derived from the tables, never authored:
 
 - **inputs**: —
-- **outputs**: corpus corpus-status runner-skill tool-source
+- **outputs**: corpora corpus runner-skill tool-source
 - **instruments**: dotnet git
 - **enabled by**: —
 - **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
@@ -767,7 +767,7 @@ flowchart TD
   armkey[/"arm-key"/]:::artifact
   candidates[/"candidates"/]:::artifact
   iterationcandidates[/"iteration-candidates"/]:::artifact
-  corpusstatus[/"corpus-status"/]:::artifact
+  corpora[/"corpora"/]:::artifact
   codebook[/"codebook"/]:::artifact
   readingprotocol[/"reading-protocol"/]:::artifact
   calibration[/"calibration"/]:::artifact
@@ -871,7 +871,7 @@ flowchart TD
   questionlist --> roundwrite
   roundwrite --> verificationartifact
   questionlist --> verifyplan
-  corpusstatus --> verifyplan
+  corpora --> verifyplan
   corpus --> verifyplan
   state --> verifyplan
   skill --> verifyplan
@@ -933,7 +933,7 @@ flowchart TD
   questionlist --> joinandbin
   joinandbin --> leadsartifact
   questionlist --> exploreplan
-  corpusstatus --> exploreplan
+  corpora --> exploreplan
   corpus --> exploreplan
   state --> exploreplan
   skill --> exploreplan
@@ -959,12 +959,12 @@ flowchart TD
   readingprotocol --> pilotread
   items --> pilotread
   pilotread --> results
-  corpusstatus --> build
+  corpora --> build
   toolsource --> build
   corpus --> build
   build --> toolsource
   build --> runnerskill
-  build --> corpusstatus
+  build --> corpora
   build --> corpus
   skill --> revise
   runnerskill --> revise
@@ -1013,7 +1013,7 @@ flowchart TD
 | arm-key | explore-plan | review-leads | — |
 | candidates | promote referee-append write-candidates | promote referee-materialise referee-append | — |
 | iteration-candidates | promote iterate referee-append | promote referee-materialise referee-append | — |
-| corpus-status | build | verify-plan explore-plan build | — |
+| corpora | build | verify-plan explore-plan build | — |
 | codebook | author-codebook calibrate | referee-materialise referee-run referee-judge round-run round-judge author-codebook calibrate-run calibrate-judge calibrate | — |
 | reading-protocol | author-protocol | slice-run slice-read author-protocol pilot-run pilot-read | — |
 | calibration | calibrate | referee-run round-run | — |

@@ -4,7 +4,7 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| build | hitl | dotnet git | corpus-status tool-source corpus | tool-source runner-skill corpus-status corpus | built | Brian fixes what is built and its acceptance; the session builds it with tests under the testing skill; he signs off the verification checklist; an ingest writes what it ingests and the corpus's state is recorded; a runner change updates its skill |
+| build | hitl | dotnet git | corpora tool-source corpus | tool-source runner-skill corpora corpus | built | Brian fixes what is built and its acceptance; the session builds it with tests under the testing skill; he signs off the verification checklist; an ingest writes what it ingests and the corpus's state is recorded; a runner change updates its skill |
 
 ## Preconditions
 
@@ -16,11 +16,11 @@ run or a study has shown, never for one a session can imagine.
 ## build
 
 The session states what is to be built, what will consume it and how acceptance will be
-shown: the tests that must pass, the CORPUS-STATUS entry that must be true afterwards, the
+shown: the tests that must pass, the CORPORA.md entry that must be true afterwards, the
 checklist Brian will click through. Brian approves; the decision is recorded as the code and
 its tests. The session builds under the `testing` skill: the tool with its pure tests, the
 publish step where one applies, the ingest run when it is an ingest. When a corpus
-becomes readable, or changes state, CORPUS-STATUS is updated in the same commit; when the
+becomes readable, or how it is read changes, CORPORA.md is updated in the same commit; when the
 runner gains or changes a verb, the `agent-runner` skill is updated in the same commit. Brian
 signs off the checklist; a tool he sends back is rebuilt in the same activity. This is the
 first task inside the study that needs the tool, never a study of its own. A tool

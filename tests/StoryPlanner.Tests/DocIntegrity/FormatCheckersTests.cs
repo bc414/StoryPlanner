@@ -224,13 +224,11 @@ public class FormatCheckersTests : IDisposable
     }
 
     [Fact]
-    public void Corpus_ids_come_from_CORPORA_md_sections_or_the_legacy_id_table()
+    public void Corpus_ids_are_the_section_headings_of_CORPORA_md()
     {
         Assert.Empty(Corpora.Ids(_skill));
-        Write(".claude/skills/example/CORPUS-STATUS.md", "# status\n\n## Corpus ids\n\n| id | corpus | where described |\n|---|---|---|\n| lineage | x | y |\n| google-keep | x | y |\n");
-        Assert.Equal(["google-keep", "lineage"], Corpora.Ids(_skill).OrderBy(x => x).ToArray());
-        Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("Corpora"));
-        Assert.Equal(["fimfiction-stories"], Corpora.Ids(_skill).ToArray());
+        Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("Corpora") + "\n## lineage\n\n- what: x\n- where: y\n- read by: z\n");
+        Assert.Equal(["fimfiction-stories", "lineage"], Corpora.Ids(_skill).OrderBy(x => x).ToArray());
     }
 
     // ---- scope ----
