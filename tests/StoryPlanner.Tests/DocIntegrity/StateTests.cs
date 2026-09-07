@@ -6,8 +6,8 @@ using Xunit;
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// The <c>state</c> verb's three derivations, ruled 2026-09-05: where an instance stands
-/// (artifacts present, furthest process whose instance-scoped writes all exist), which open
+/// The <c>state</c> verb's three derivations, ruled 2026-09-05: where a study stands
+/// (artifacts present, furthest process whose study-scoped writes all exist), which open
 /// questions a calibrated codebook covers and a round answered, and each hypothesis's
 /// authored status beside the one its entries imply. Absent inputs are said to be absent.
 /// </summary>
@@ -16,11 +16,11 @@ public class StateTests
     static string Build(MapFixture f) => StateBuilder.Build(f.RepoRoot, f.Doc);
 
     [Fact]
-    public void An_instance_lists_the_instance_scoped_artifacts_present()
+    public void A_study_lists_the_study_scoped_artifacts_present()
     {
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
-        Assert.Contains($"### {MapFixture.Instance}", state);
+        Assert.Contains($"### {MapFixture.Study}", state);
         Assert.Contains("- type: verification · corpus: analysis-corpus · go: 2026-09-20", state);
         var line = state.Split('\n').Single(l => l.StartsWith("- artifacts present:"));
         Assert.Contains(" items", line);
@@ -33,32 +33,32 @@ public class StateTests
     public void The_furthest_process_is_the_last_in_chain_order_whose_scoped_writes_all_exist()
     {
         using var f = new MapFixture().WithStateTree();
-        Assert.Contains("furthest process whose instance-scoped writes all exist: promote (promoting-checked-candidates)", Build(f));
+        Assert.Contains("furthest process whose study-scoped writes all exist: promote (promoting-checked-candidates)", Build(f));
     }
 
     [Fact]
     public void A_missing_artifact_moves_the_furthest_process_back()
     {
         using var f = new MapFixture().WithStateTree();
-        File.Delete(f.TreePath("fanout", MapFixture.Instance, "candidates.md"));
-        Assert.Contains("furthest process whose instance-scoped writes all exist: referee-judge (refereeing-a-candidate)", Build(f));
+        File.Delete(f.TreePath("fanout", MapFixture.Study, "candidates.md"));
+        Assert.Contains("furthest process whose study-scoped writes all exist: referee-judge (refereeing-a-candidate)", Build(f));
     }
 
     [Fact]
     public void An_empty_directory_does_not_count_as_present()
     {
         using var f = new MapFixture().WithStateTree();
-        File.Delete(f.TreePath("fanout", MapFixture.Instance, "2026-09-20", "results", "item-001.md"));
+        File.Delete(f.TreePath("fanout", MapFixture.Study, "2026-09-20", "results", "item-001.md"));
         var line = Build(f).Split('\n').Single(l => l.StartsWith("- artifacts present:"));
         Assert.DoesNotContain(" results", line);
     }
 
     [Fact]
-    public void The_referee_instances_share_one_folder()
+    public void The_referee_studies_share_one_folder()
     {
-        Assert.Equal("referee", StateBuilder.InstanceFolder("referee-1"));
-        Assert.Equal("referee", StateBuilder.InstanceFolder("referee-12"));
-        Assert.Equal("round-of-x-1", StateBuilder.InstanceFolder("round-of-x-1"));
+        Assert.Equal("referee", StateBuilder.StudyFolder("referee-1"));
+        Assert.Equal("referee", StateBuilder.StudyFolder("referee-12"));
+        Assert.Equal("round-of-x-1", StateBuilder.StudyFolder("round-of-x-1"));
     }
 
     [Fact]
@@ -70,16 +70,16 @@ public class StateTests
         Assert.Contains("1 open, 1 withdrawn.", state);
         var row = state.Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
         Assert.Contains("| 031 |", row);
-        Assert.Contains($"| fanout/{MapFixture.Instance}/codebook-1@", row);
-        Assert.Contains($"| {MapFixture.Instance} |", row);
+        Assert.Contains($"| fanout/{MapFixture.Study}/codebook-1@", row);
+        Assert.Contains($"| {MapFixture.Study} |", row);
         Assert.DoesNotContain("An old one", state);
     }
 
     [Fact]
-    public void A_codebook_with_no_accepting_calibration_record_at_its_hash_covers_nothing()
+    public void A_codebook_with_no_accepting_calibration_at_its_hash_covers_nothing()
     {
         using var f = new MapFixture().WithStateTree();
-        File.Delete(f.TreePath("fanout", MapFixture.Instance, "calibration-2026-09-19.md"));
+        File.Delete(f.TreePath("fanout", MapFixture.Study, "calibration-2026-09-19.md"));
         var row = Build(f).Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
         Assert.Contains("| nothing |", row);
     }
@@ -88,7 +88,7 @@ public class StateTests
     public void An_edited_codebook_is_no_longer_calibrated_because_its_hash_moved()
     {
         using var f = new MapFixture().WithStateTree();
-        File.AppendAllText(f.TreePath("fanout", MapFixture.Instance, "codebook-1.md"), "an edit\n");
+        File.AppendAllText(f.TreePath("fanout", MapFixture.Study, "codebook-1.md"), "an edit\n");
         var row = Build(f).Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
         Assert.Contains("| nothing |", row);
     }

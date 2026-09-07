@@ -1,9 +1,9 @@
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>A file resolved to the artifact class that governs it and the checker for that class.</summary>
-public sealed record ScopedRecord(string RepoRoot, string SkillFolder, ArtifactRow Row, RecordChecker Checker)
+public sealed record GovernedFile(string RepoRoot, string SkillFolder, ArtifactRow Row, FormatChecker Checker)
 {
-    public RecordContext Context => RecordContext.From(RepoRoot, SkillFolder);
+    public CheckContext Context => CheckContext.From(RepoRoot, SkillFolder);
 }
 
 /// <summary>
@@ -21,7 +21,7 @@ public static class ArtifactScope
 {
     const string SkillsPrefix = ".claude/skills/";
 
-    public static ScopedRecord? Locate(string filePath)
+    public static GovernedFile? Locate(string filePath)
     {
         var full = Path.GetFullPath(filePath);
         var root = RepoLocator.FindRoot(full);
@@ -47,9 +47,9 @@ public static class ArtifactScope
                 }
                 var probe = ap with { Pattern = pattern };
                 if (!probe.ToRegex().IsMatch(rel)) continue;
-                var checker = RecordCheckers.For(row.Id);
+                var checker = FormatCheckers.For(row.Id);
                 if (checker is null) continue;
-                return new ScopedRecord(root, skillFolder, row, checker);
+                return new GovernedFile(root, skillFolder, row, checker);
             }
         }
         return null;

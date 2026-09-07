@@ -3,31 +3,31 @@ using System.Text.RegularExpressions;
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
-/// What a record checker sees besides the file: the repository root, the governing skill
+/// What a format checker sees besides the file: the repository root, the governing skill
 /// folder, and the corpus ids a registry row may name. Built once per check by
 /// <see cref="ArtifactScope"/>; tests build it directly.
 /// </summary>
-public sealed record RecordContext(string RepoRoot, string SkillFolder, IReadOnlySet<string> CorporaIds)
+public sealed record CheckContext(string RepoRoot, string SkillFolder, IReadOnlySet<string> CorporaIds)
 {
-    public static RecordContext From(string repoRoot, string skillFolder)
+    public static CheckContext From(string repoRoot, string skillFolder)
         => new(repoRoot, skillFolder, Corpora.Ids(skillFolder));
 }
 
-/// <summary>One artifact class's format, applied to one file. Findings name the file as their row.</summary>
-public delegate IReadOnlyList<Finding> RecordChecker(RecordContext ctx, string path);
+/// <summary>One artifact class's format, applied to one governed file. Findings name the file as their row.</summary>
+public delegate IReadOnlyList<Finding> FormatChecker(CheckContext ctx, string path);
 
 /// <summary>
-/// The checkers that exist, by artifact id. A class gets its checker when its first instance
-/// is written (decisions.md, 2026-09-06): the five here are what the re-founding of the
-/// hypothesis records writes. An id with no checker is silence, never a failure.
+/// The checkers that exist, by artifact id. A class gets its checker when its first file is
+/// written (decisions.md, 2026-09-06): the five here are what the re-founding of the
+/// hypothesis files writes. An id with no checker is silence, never a failure.
 /// </summary>
-public static class RecordCheckers
+public static class FormatCheckers
 {
-    public static RecordChecker? For(string artifactId) => artifactId switch
+    public static FormatChecker? For(string artifactId) => artifactId switch
     {
         _ when WellKnown.HypothesisArtifacts.Contains(artifactId) => HypothesisFile.Check,
         WellKnown.HypothesisIndex => HypothesisIndex.Check,
-        WellKnown.Instances => Registry.Check,
+        WellKnown.Studies => Registry.Check,
         WellKnown.LeadsArtifact => Leads.Check,
         WellKnown.Corpora => Corpora.Check,
         _ => null,
@@ -35,7 +35,7 @@ public static class RecordCheckers
 
     /// <summary>The artifact ids that dispatch to a checker, one per class (the three hypothesis rows count once).</summary>
     public static readonly string[] CheckedIds =
-        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Instances, WellKnown.LeadsArtifact, WellKnown.Corpora];
+        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.LeadsArtifact, WellKnown.Corpora];
 
     internal static string[] Lines(string path) => File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');
 
@@ -60,18 +60,18 @@ public static class HypothesisFile
         @"^- (?<kind>[a-z]+) \| (?<ts>\d{4}-\d{2}-\d{2}T\d{2}:\d{2})(?<rest>.*)$", RegexOptions.Compiled);
 
     static readonly Regex Citation = new(
-        @"^ \| \((?<instance>[a-z0-9-]+) (?<candidate>C-\d+); (?<codebook>[^@\s]+)@(?<hash>[0-9a-f]{6,64})\) \[(?<tag>supporting|challenging)\]:",
+        @"^ \| \((?<study>[a-z0-9-]+) (?<candidate>C-\d+); (?<codebook>[^@\s]+)@(?<hash>[0-9a-f]{6,64})\) \[(?<tag>supporting|challenging)\]:",
         RegexOptions.Compiled);
 
     static readonly Regex FileName = new(@"^(?<id>\d{3})-[a-z0-9-]+\.md$", RegexOptions.Compiled);
 
     public sealed record RecordEntry(string Kind, string Timestamp, string Rest, int Line, IReadOnlyList<string> Continuation);
 
-    public static IReadOnlyList<Finding> Check(RecordContext ctx, string path)
+    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var findings = new List<Finding>();
-        var lines = RecordCheckers.Lines(path);
+        var lines = FormatCheckers.Lines(path);
 
         // ---- frontmatter ----
         var fm = new Dictionary<string, string>(StringComparer.Ordinal);
@@ -98,11 +98,11 @@ public static class HypothesisFile
             findings.Add(Finding.Fail("hypothesis.frontmatter", file, $"status '{status}' is not untested, evidenced or challenged"));
 
         var baselined = fm.GetValueOrDefault("baselined", "");
-        if (baselined != "false" && !RecordCheckers.IsoDate.IsMatch(baselined))
+        if (baselined != "false" && !FormatCheckers.IsoDate.IsMatch(baselined))
             findings.Add(Finding.Fail("hypothesis.frontmatter", file, $"baselined is false or an ISO date; found '{baselined}'"));
 
         var created = fm.GetValueOrDefault("created", "");
-        if (!RecordCheckers.IsoDate.IsMatch(created))
+        if (!FormatCheckers.IsoDate.IsMatch(created))
             findings.Add(Finding.Fail("hypothesis.frontmatter", file, $"created is an ISO date; found '{created}'"));
 
         var name = FileName.Match(file);
@@ -140,7 +140,7 @@ public static class HypothesisFile
             {
                 if (!Citation.IsMatch(e.Rest))
                     findings.Add(Finding.Fail("hypothesis.evidence.citation", file,
-                        $"line {e.Line}: an evidence entry cites (<instance> <C-id>; <codebook>@<hash>) [supporting|challenging]; " +
+                        $"line {e.Line}: an evidence entry cites (<study> <C-id>; <codebook>@<hash>) [supporting|challenging]; " +
                         "an entry without that citation was not produced by the pipeline"));
                 if (!e.Continuation.Any(c => c.TrimStart().StartsWith("Falsifier:", StringComparison.Ordinal)))
                     findings.Add(Finding.Fail("hypothesis.evidence.no-falsifier", file,
@@ -162,7 +162,7 @@ public static class HypothesisFile
             findings.Add(Finding.Fail("hypothesis.status.mismatch", file,
                 $"status is '{status}' but the entries after the last iteration imply '{implied}'"));
 
-        if (baselined != "false" && RecordCheckers.IsoDate.IsMatch(baselined))
+        if (baselined != "false" && FormatCheckers.IsoDate.IsMatch(baselined))
         {
             if (!current.Any(e => e.Kind == "baselined"))
                 findings.Add(Finding.Fail("hypothesis.baselined", file,
@@ -228,7 +228,7 @@ public static class HypothesisIndex
 {
     static readonly Regex Link = new(@"^\[(?<slug>[a-z0-9-]+)\]\((?<file>\d{3}-[a-z0-9-]+\.md)\)$", RegexOptions.Compiled);
 
-    public static IReadOnlyList<Finding> Check(RecordContext ctx, string path)
+    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var dir = Path.GetDirectoryName(path)!;
@@ -274,7 +274,7 @@ public static class HypothesisIndex
 }
 
 /// <summary>
-/// artifacts.md § Instance registry: id · type · corpus · go, appended at Brian's go; ids of
+/// artifacts.md § Study registry: id · type · corpus · go, appended at Brian's go; ids of
 /// three forms; the corpus a name from the corpora file, verified-artifacts, or candidates.
 /// </summary>
 public static class Registry
@@ -283,7 +283,7 @@ public static class Registry
     public const string Candidates = "candidates";
     static readonly Regex Referee = new(@"^referee-(\d+)$", RegexOptions.Compiled);
 
-    public static IReadOnlyList<Finding> Check(RecordContext ctx, string path)
+    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var findings = new List<Finding>();
@@ -305,7 +305,7 @@ public static class Registry
         {
             var (id, type, corpus, go) = (row.Cells[0], row.Cells[1], row.Cells[2], row.Cells[3]);
             if (!seen.Add(id)) findings.Add(Finding.Fail("registry.duplicate", file, $"line {row.Line}: {id} appears twice"));
-            if (!RecordCheckers.IsoDate.IsMatch(go)) findings.Add(Finding.Fail("registry.go", file, $"line {row.Line}: go is an ISO date; found '{go}'"));
+            if (!FormatCheckers.IsoDate.IsMatch(go)) findings.Add(Finding.Fail("registry.go", file, $"line {row.Line}: go is an ISO date; found '{go}'"));
 
             string? expectedType = null, idCorpus = null;
             if (Referee.IsMatch(id)) { expectedType = "verification"; idCorpus = Candidates; }
@@ -354,20 +354,20 @@ public static class Registry
     }
 }
 
-/// <summary>artifacts.md § Leads artifact: titled by its instance, six sections in order.</summary>
+/// <summary>artifacts.md § Leads artifact: titled by its study, six sections in order.</summary>
 public static class Leads
 {
     public static readonly string[] Sections = ["Method", "Questions in view", "Leads", "Bins", "Proposed questions", "Corrections"];
 
-    public static IReadOnlyList<Finding> Check(RecordContext ctx, string path)
+    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
-        var instance = Path.GetFileName(Path.GetDirectoryName(path)!)!;
+        var study = Path.GetFileName(Path.GetDirectoryName(path)!)!;
         var findings = new List<Finding>();
         var outline = new MarkdownOutline(File.ReadAllText(path));
 
         var title = outline.Headings.FirstOrDefault();
-        var expected = $"{instance} — leads";
+        var expected = $"{study} — leads";
         if (title is null || title.Level != 1 || title.Text != expected)
             findings.Add(Finding.Fail("leads.title", file,
                 $"the title is '# {expected}'; found " + (title is null ? "no heading" : $"'{title.Text}'")));
@@ -391,7 +391,7 @@ public static class Corpora
     public const string LegacyFileName = "CORPUS-STATUS.md";
     static readonly string[] Fields = ["- what:", "- where:", "- read by:"];
 
-    public static IReadOnlyList<Finding> Check(RecordContext ctx, string path)
+    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var findings = new List<Finding>();

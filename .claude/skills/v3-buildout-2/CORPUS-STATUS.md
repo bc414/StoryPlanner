@@ -1,12 +1,12 @@
 # V3 Buildout — Corpus and Material Status
 
 Updated as analyses complete and new material is added. A fact file, not a rule: read by
-the preparing activities when an instance needs specific inputs, and by building-a-tool
+the preparing activities when a study needs specific inputs, and by building-a-tool
 when a corpus becomes readable or changes state.
 
 ## Corpus ids
 
-The ids the question lists, the instance registry and every instance folder are named
+The ids the question lists, the study registry and every study folder are named
 by. Four corpora are the MCP server's and are described in CLAUDE.md rather than in a
 section here.
 
@@ -86,7 +86,7 @@ All in `source_material_references/`.
 - KU/NTL, GIYC, Falldale — raw exports in `Planning_Document_Revision_History/`.
   Mix of `.txt` (from appscript) and plain text docs (manually copied from Drive
   to fill gaps from the API's limitations). Preprocessing needed before GDocHistory
-  ingest — the instance that needs this material scopes the preprocessing and builds it
+  ingest — the study that needs this material scopes the preprocessing and builds it
   as its first task (building-a-tool), and this entry changes state when it lands.
 
 Status: **Raw data available.** Preprocessing and ingest pending.
@@ -138,8 +138,8 @@ Status: **Current.**
 - V1 archive: readable since 2026-09-02 — `tools/StoryPlanner.VoiceAttribution` and the
   `v1-archive-mining` skill. Voice attribution is mechanical (evidence set
   `docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv`). The reading itself is an
-  exploration instance still to be registered (preparing-to-explore-a-corpus); the
+  exploration study still to be registered (preparing-to-explore-a-corpus); the
   five-arm design drafted for it under revision 1 sits in the retired forward-plan-2 as
-  reference, and whether the `v1-archive-mining` skill becomes that instance's
+  reference, and whether the `v1-archive-mining` skill becomes that study's
   `protocol-1.md` or stays a skill is an open point (omissions draft, appendix).
   `WU1.4-execution-plan.md` is superseded.

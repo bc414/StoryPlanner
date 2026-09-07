@@ -5,7 +5,7 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
 | revise | hitl | DocIntegrity git | skill runner-skill map state revision-note decisions results tally-output | skill runner-skill decisions revision-note map | built | Brian decides, the session edits the skill's tables and prose in place under the hook, each decision is recorded as it lands, the audit's tally is adjudicated with him, and the note is written once at the end |
-| audit-run | session | runner generator tallier | skill audit-protocol | items items-manifest jobs ledger run-record tally-output | built | The second lint, after the validator, for a rewrite: the prior text split into units by the runner, one job per section against the new folder, the results tallied |
+| audit-run | session | runner generator tallier | skill audit-protocol | items items-manifest jobs ledger run-page tally-output | built | The second lint, after the validator, for a rewrite: the prior text split into units by the runner, one job per section against the new folder, the results tallied |
 | audit-judge | agent | | audit-protocol items skill | results | built | One section's units against the new folder under the protocol's three questions; the only writer of results |
 
 ## Preconditions

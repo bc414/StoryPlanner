@@ -9,24 +9,24 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 ## Preconditions
 
 Something needs a tool that does not exist: a corpus to make readable, a change to the
-runner or the validator, a render. The need is named by the instance or the revision that
+runner or the validator, a render. The need is named by the study or the revision that
 has it; an itemizer is preparing-to-verify-a-corpus's own. A check is added for a failure a
-run or an instance has shown, never for one a session can imagine.
+run or a study has shown, never for one a session can imagine.
 
 ## build
 
 The session states what is to be built, what will consume it and how acceptance will be
 shown: the tests that must pass, the CORPUS-STATUS entry that must be true afterwards, the
-checklist Brian will click through. Brian approves; the decision's record is the code and
+checklist Brian will click through. Brian approves; the decision is recorded as the code and
 its tests. The session builds under the `testing` skill: the tool with its pure tests, the
 publish step where one applies, the ingest run when it is an ingest. When a corpus
 becomes readable, or changes state, CORPUS-STATUS is updated in the same commit; when the
 runner gains or changes a verb, the `agent-runner` skill is updated in the same commit. Brian
 signs off the checklist; a tool he sends back is rebuilt in the same activity. This is the
-first task inside the instance that needs the tool, never an instance of its own. A tool
+first task inside the study that needs the tool, never a study of its own. A tool
 never authors prose that is Brian's: no display questions, no definitions, no codebook,
-no question. A checker over records is not armed until its first run over the real
-instances has been predicted in writing, from the decisions and the format, and the run
+no question. A checker over governed files is not armed until its first run over the real
+files has been predicted in writing, from the decisions and the format, and the run
 compared with the prediction; a discrepancy is a wrong derivation or a decision not yet
 made, and goes to Brian first.
 

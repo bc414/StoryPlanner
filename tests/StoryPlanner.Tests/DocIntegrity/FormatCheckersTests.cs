@@ -8,17 +8,17 @@ using Xunit;
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// The record checkers, pure tier. Each class's passing case is the example block of its
+/// The format checkers, pure tier. Each class's passing case is the example block of its
 /// format in the real artifacts.md (<see cref="FormatExamples"/>), written into a temp tree at
 /// the path its artifact row names; each failing case is that example with one thing broken.
 /// Assertions are on rule ids, never on message prose.
 /// </summary>
-public class RecordsTests : IDisposable
+public class FormatCheckersTests : IDisposable
 {
-    readonly string _root = Path.Combine(Path.GetTempPath(), "records-" + Guid.NewGuid().ToString("N"));
+    readonly string _root = Path.Combine(Path.GetTempPath(), "checkers-" + Guid.NewGuid().ToString("N"));
     readonly string _skill;
 
-    public RecordsTests()
+    public FormatCheckersTests()
     {
         _skill = Path.Combine(_root, ".claude", "skills", "example");
         Directory.CreateDirectory(_skill);
@@ -30,7 +30,7 @@ public class RecordsTests : IDisposable
         try { Directory.Delete(_root, recursive: true); } catch (IOException) { }
     }
 
-    RecordContext Ctx(params string[] corpora) => new(_root, _skill, corpora.ToHashSet(StringComparer.Ordinal));
+    CheckContext Ctx(params string[] corpora) => new(_root, _skill, corpora.ToHashSet(StringComparer.Ordinal));
 
     string Write(string relative, string content)
     {
@@ -138,12 +138,12 @@ public class RecordsTests : IDisposable
 
     // ---- registry ----
 
-    const string RegistryPath = "docs/v3-framework/instances.md";
+    const string RegistryPath = "docs/v3-framework/studies.md";
 
     [Fact]
     public void The_registry_example_passes_against_the_corpora_it_names()
     {
-        var path = Write(RegistryPath, FormatExamples.Block("Instance registry"));
+        var path = Write(RegistryPath, FormatExamples.Block("Study registry"));
         Assert.Empty(Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path)));
     }
 
@@ -159,7 +159,7 @@ public class RecordsTests : IDisposable
     [InlineData("| something-else | exploratory | v1-archive | 2026-09-21 |", new[] { "registry.id" })]
     public void A_registry_row_is_held_to_its_form(string row, string[] expected)
     {
-        var path = Write(RegistryPath, FormatExamples.Block("Instance registry") + row + "\n");
+        var path = Write(RegistryPath, FormatExamples.Block("Study registry") + row + "\n");
         var rules = Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path));
         if (expected.Length == 0) Assert.Empty(rules);
         else foreach (var r in expected) Assert.Contains(r, rules);
@@ -168,7 +168,7 @@ public class RecordsTests : IDisposable
     [Fact]
     public void With_no_corpus_ids_available_the_corpus_column_is_reported_not_failed()
     {
-        var path = Write(RegistryPath, FormatExamples.Block("Instance registry"));
+        var path = Write(RegistryPath, FormatExamples.Block("Study registry"));
         var findings = Registry.Check(Ctx(), path);
         Assert.Empty(Rules(findings));
         Assert.Contains("registry.corpora-unavailable", findings.Select(f => f.RuleId));
@@ -177,7 +177,7 @@ public class RecordsTests : IDisposable
     // ---- leads ----
 
     [Fact]
-    public void The_leads_example_passes_at_its_instance_folder()
+    public void The_leads_example_passes_at_its_study_folder()
     {
         var path = Write("docs/v3-framework/exploration-of-v1-archive/leads.md", FormatExamples.Block("Leads artifact"));
         Assert.Empty(Rules(Leads.Check(Ctx(), path)));
@@ -243,13 +243,13 @@ public class RecordsTests : IDisposable
         var hypothesis = ArtifactScope.Locate(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md"));
         Assert.NotNull(hypothesis);
         Assert.Contains(hypothesis!.Row.Id, WellKnown.HypothesisArtifacts);
-        var registry = ArtifactScope.Locate(f.TreePath("docs", "v3-framework", "instances.md"));
-        Assert.Equal(WellKnown.Instances, registry!.Row.Id);
+        var registry = ArtifactScope.Locate(f.TreePath("docs", "v3-framework", "studies.md"));
+        Assert.Equal(WellKnown.Studies, registry!.Row.Id);
         Assert.Null(ArtifactScope.Locate(f.TreePath("docs", "note.md")));
     }
 
     [Fact]
-    public void The_hook_checks_a_record_write_and_stays_silent_on_a_well_formed_one()
+    public void The_hook_checks_a_governed_file_write_and_stays_silent_on_a_well_formed_one()
     {
         using var f = new MapFixture().WithStateTree();
         Directory.CreateDirectory(Path.Combine(f.RepoRoot, ".git"));

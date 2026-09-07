@@ -20,8 +20,8 @@
 // bin/Debug, so a build never breaks a live hook.
 //
 // render writes map.md whole (and removes any generated block still inside an authored file,
-// the convention retired on 2026-09-06); state writes state.md whole from the instance
-// registry, the question lists, the hypothesis files and the instance folders under the repo
+// the convention retired on 2026-09-06); state writes state.md whole from the study
+// registry, the question lists, the hypothesis files and the study folders under the repo
 // root. Both refuse unless validate passes. --force writes anyway and stamps the file UNVALIDATED; it
 // exists for reviewing diagrams on a scratchpad COPY, never for the real folder. A copy outside
 // the repo has no repository root above it, so pass --repo <path> to name the real one; only
@@ -136,7 +136,7 @@ int RunCheck()
     var scoped = ArtifactScope.Locate(path);
     if (scoped is null)
     {
-        Console.WriteLine("check: not a governed record; no artifact row with a checker matches this path.");
+        Console.WriteLine("check: not a governed file; no artifact row with a checker matches this path.");
         return 0;
     }
     var report = new ValidationReport(scoped.Checker(scoped.Context, path));
@@ -145,20 +145,20 @@ int RunCheck()
     return report.Passed ? 0 : 1;
 }
 
-/// <summary>Every instance of every artifact class with a checker, over the whole repository; the pre-commit gate's verb.</summary>
+/// <summary>Every file of every artifact class with a checker, over the whole repository; the pre-commit gate's verb.</summary>
 int RunRecords()
 {
     if (positional.Count != 1) return Usage("records takes one argument: the skill folder.");
     var (repoRoot, skillFolder) = Resolve(positional[0]);
     var doc = SkillReader.Read(skillFolder);
-    var ctx = RecordContext.From(repoRoot, skillFolder);
+    var ctx = CheckContext.From(repoRoot, skillFolder);
     var findings = new List<Finding>();
     var seenFiles = new HashSet<string>(StringComparer.Ordinal);
 
-    foreach (var id in RecordCheckers.CheckedIds)
+    foreach (var id in FormatCheckers.CheckedIds)
     {
         var row = doc.Artifact(id);
-        var checker = RecordCheckers.For(id);
+        var checker = FormatCheckers.For(id);
         if (row is null || checker is null || !ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.OutsideRepo)
         {
             findings.Add(Finding.Info("records.no-row", id, "no artifact row with a parseable path; nothing checked"));
@@ -170,7 +170,7 @@ int RunRecords()
         var files = StateBuilder.Matches(repoRoot, ap with { Pattern = pattern }, null, null);
         if (files.Count == 0)
         {
-            findings.Add(Finding.Info("records.no-instance", id, $"no file matches {pattern}; nothing to check"));
+            findings.Add(Finding.Info("records.no-file", id, $"no file matches {pattern}; nothing to check"));
             continue;
         }
         var counted = 0;
@@ -249,8 +249,8 @@ int Usage(string? message = null)
           DocIntegrity state    <skill-folder> [--force] [--repo <path>]
           DocIntegrity nodes    <file.md>
           DocIntegrity hook     (reads a Claude Code PostToolUse event from stdin)
-          DocIntegrity check    <file>            one record against its artifact class's format
-          DocIntegrity records  <skill-folder>    every instance of every class with a checker
+          DocIntegrity check    <file>            one governed file against its class's format
+          DocIntegrity records  <skill-folder>    every file of every class with a checker
         """);
     return 2;
 }

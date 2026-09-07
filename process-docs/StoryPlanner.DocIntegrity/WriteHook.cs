@@ -123,7 +123,7 @@ public static class WriteHook
         if (payload.FilePath is null) return HookOutcome.Nothing;
 
         var folder = GovernedSkill.Locate(payload.FilePath);
-        if (folder is null) return CheckRecord(payload.FilePath, []);
+        if (folder is null) return CheckGoverned(payload.FilePath, []);
 
         var report = (validate ?? Validator.Validate)(folder);
         if (report.Passed)
@@ -141,8 +141,8 @@ public static class WriteHook
                         $"DocIntegrity: the tables validate but render refuses ({ex.RuleId}): {ex.Message}", []);
                 }
             }
-            // A file in the skill folder may also be a record with a format of its own (the corpora file).
-            return CheckRecord(payload.FilePath, regenerated);
+            // A file in the skill folder may also be a governed file with a format of its own (the corpora file).
+            return CheckGoverned(payload.FilePath, regenerated);
         }
 
         var folderName = Path.GetFileName(folder.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar));
@@ -159,11 +159,11 @@ public static class WriteHook
     }
 
     /// <summary>
-    /// The record half of the hook: the written path resolved against the artifacts table; a
+    /// The governed-file half of the hook: the written path resolved against the artifacts table; a
     /// class with a checker is checked and its failures are the feedback. No row, or a row with
     /// no checker, is silence.
     /// </summary>
-    static HookOutcome CheckRecord(string filePath, IReadOnlyList<string> regenerated)
+    static HookOutcome CheckGoverned(string filePath, IReadOnlyList<string> regenerated)
     {
         var scoped = ArtifactScope.Locate(filePath);
         if (scoped is null) return new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated);
@@ -182,7 +182,7 @@ public static class WriteHook
             ReportText.FormatFailures(report) +
             $"The format is artifacts.md, section \"{scoped.Row.Format}\". Fix the file, then re-run the check until it passes:\n" +
             $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check {rel}\n" +
-            "Do not work around this check by writing through the shell; every write to a governed record goes " +
+            "Do not work around this check by writing through the shell; every write to a governed file goes " +
             "through Edit or Write so the check sees it.";
         return new HookOutcome(HookOutcomeKind.Failed, Feedback, message, regenerated);
     }

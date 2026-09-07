@@ -13,7 +13,7 @@ namespace StoryPlanner.DocIntegrity;
 /// ", or", or a pattern "and its tests", is a syntax error, because a tool that must
 /// enumerate files cannot be asked to guess which half it means.
 ///
-/// The placeholders are the ones <c>artifacts.md</c> defines: <c>&lt;instance&gt;</c>,
+/// The placeholders are the ones <c>artifacts.md</c> defines: <c>&lt;study&gt;</c>,
 /// <c>&lt;corpus&gt;</c>, <c>&lt;run&gt;</c>, <c>&lt;date&gt;</c>, <c>NNN</c>, <c>N</c>,
 /// <c>slug</c>, and <c>.*</c> for any extension.
 /// </summary>
@@ -29,13 +29,13 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     static readonly Regex SeriesPlaceholder = new(
         @"(?<![A-Za-z])N(?![A-Za-z])|<date>", RegexOptions.Compiled);
 
-    /// <summary>Named by an instance: its files live under the instance's folder.</summary>
-    public bool IsInstanceScoped
-        => !OutsideRepo && (Pattern.Contains("<instance>") || Pattern.Contains("<run>"));
+    /// <summary>Named by a study: its files live under the study's folder.</summary>
+    public bool IsStudyScoped
+        => !OutsideRepo && (Pattern.Contains("<study>") || Pattern.Contains("<run>"));
 
     /// <summary>
     /// A numbered or dated series: the pattern carries <c>N</c> or <c>&lt;date&gt;</c>, so each
-    /// new instance is written beside the prior ones (a revision note, a calibration record).
+    /// new file is written beside the prior ones (a revision note, a calibration).
     /// Ruled 2026-09-05 (handoff 2, step 2): a process that reads one member to write the next
     /// is not editing, so a frozen series is exempt from the read-and-write check the way a
     /// succeeded artifact is. <c>&lt;run&gt;</c> is not a series marker: a run-scoped frozen
@@ -111,13 +111,13 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     }
 
     /// <summary>
-    /// The pattern with the instance folder and corpus substituted, the rest of the
+    /// The pattern with the study folder and corpus substituted, the rest of the
     /// placeholders left for <see cref="ToRegex"/>.
     /// </summary>
-    public string Substitute(string? instanceFolder, string? corpus)
+    public string Substitute(string? studyFolder, string? corpus)
     {
         var p = Pattern;
-        if (instanceFolder is not null) p = p.Replace("<instance>", instanceFolder);
+        if (studyFolder is not null) p = p.Replace("<study>", studyFolder);
         if (corpus is not null) p = p.Replace("<corpus>", corpus);
         return p;
     }
@@ -126,9 +126,9 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     /// The directory to enumerate: the substituted pattern up to the last slash before its
     /// first remaining placeholder. Empty means the repo root.
     /// </summary>
-    public string FixedPrefix(string? instanceFolder = null, string? corpus = null)
+    public string FixedPrefix(string? studyFolder = null, string? corpus = null)
     {
-        var p = Substitute(instanceFolder, corpus);
+        var p = Substitute(studyFolder, corpus);
         var first = Placeholder.Match(p);
         var cut = first.Success ? first.Index : p.Length;
         if (cut == 0) return "";
@@ -140,9 +140,9 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     /// A regex over a repo-relative forward-slash path. Directory patterns match the directory
     /// path without its trailing slash.
     /// </summary>
-    public Regex ToRegex(string? instanceFolder = null, string? corpus = null)
+    public Regex ToRegex(string? studyFolder = null, string? corpus = null)
     {
-        var p = Substitute(instanceFolder, corpus);
+        var p = Substitute(studyFolder, corpus);
         if (IsDirectory) p = p.TrimEnd('/');
         var sb = new StringBuilder("^");
         var i = 0;
@@ -167,7 +167,7 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
         "NNN" => "[0-9]{3}",
         "N" => "[0-9]+",
         ".*" => @"\.[^/]+",
-        _ => "[^/]+",   // <instance>, <corpus>, <run>, <date>, <Name>, slug
+        _ => "[^/]+",   // <study>, <corpus>, <run>, <date>, <Name>, slug
     };
 
     public string Display()

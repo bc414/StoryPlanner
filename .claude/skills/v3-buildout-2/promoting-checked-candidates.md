@@ -9,7 +9,7 @@ Enables baselining-a-hypothesis.
 ## Preconditions
 
 Every candidate in scope carries the referee's `falsifier` and `referee` lines under a
-codebook hash that has a calibration record, and no `outcome` line.
+codebook hash that has a calibration, and no `outcome` line.
 
 ## promote
 
@@ -26,7 +26,7 @@ For each diagnostic candidate, in whatever order Brian takes them:
    to promote; it is skipped only when Brian declines without it.
 2. Brian decides, after whatever analysis he asks for. The session writes the decision as
    it lands: promote — an `evidence` entry appended to the target's record with the
-   finding and falsifier verbatim, tagged by the verdict, citing instance, candidate id
+   finding and falsifier verbatim, tagged by the verdict, citing study, candidate id
    and codebook hash, then `outcome: promoted …` on the candidate; decline —
    `outcome: declined — <his reason>` on the candidate. A candidate he leaves undecided
    keeps the referee line as its last line.

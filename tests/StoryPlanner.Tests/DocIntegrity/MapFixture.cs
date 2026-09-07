@@ -24,7 +24,7 @@ public sealed class MapFixture : IDisposable
     public const string ArtifactsFile = "artifacts.md";
     public const string RefereeingFile = "refereeing-a-candidate.md";
     public const string PromotingFile = "promoting-checked-candidates.md";
-    public const string Instance = "round-of-analysis-corpus-1";
+    public const string Study = "round-of-analysis-corpus-1";
     public const string OpenQuestion = "Does the DT class split?";
 
     public string RepoRoot { get; }
@@ -80,21 +80,21 @@ public sealed class MapFixture : IDisposable
 
     public ValidationReport Report => Validator.Validate(SkillFolder);
 
-    /// <summary>The docs and fanout files <c>state</c> reads: one verification instance, one question list, two hypotheses.</summary>
+    /// <summary>The docs and fanout files <c>state</c> reads: one verification study, one question list, two hypotheses.</summary>
     public MapFixture WithStateTree()
     {
         var docs = Path.Combine(RepoRoot, "docs", "v3-framework");
-        var fanout = Path.Combine(RepoRoot, "fanout", Instance);
+        var fanout = Path.Combine(RepoRoot, "fanout", Study);
         Directory.CreateDirectory(Path.Combine(docs, "questions"));
         Directory.CreateDirectory(Path.Combine(docs, "hypotheses"));
-        Directory.CreateDirectory(Path.Combine(docs, Instance));
+        Directory.CreateDirectory(Path.Combine(docs, Study));
         Directory.CreateDirectory(Path.Combine(fanout, "2026-09-20", "items"));
         Directory.CreateDirectory(Path.Combine(fanout, "2026-09-20", "results"));
 
-        File.WriteAllText(Path.Combine(docs, "instances.md"), $"""
+        File.WriteAllText(Path.Combine(docs, "studies.md"), $"""
             | id | type | corpus | go |
             |---|---|---|---|
-            | {Instance} | verification | analysis-corpus | 2026-09-20 |
+            | {Study} | verification | analysis-corpus | 2026-09-20 |
 
             """);
 
@@ -159,8 +159,8 @@ public sealed class MapFixture : IDisposable
 
             """);
 
-        File.WriteAllText(Path.Combine(docs, Instance, "round.md"), $"""
-            # {Instance}
+        File.WriteAllText(Path.Combine(docs, Study, "round.md"), $"""
+            # {Study}
 
             ## Method
             the method
@@ -263,7 +263,7 @@ public sealed class MapFixture : IDisposable
 
         | id | mode | instruments | reads | writes | state | description |
         |---|---|---|---|---|---|---|
-        | referee-run | session | runner | instances calibration-record codebook candidates | items | specified | The batch under the host |
+        | referee-run | session | runner | studies calibration codebook candidates | items | specified | The batch under the host |
         | referee-judge | agent | | codebook items | results | specified | Writes the falsifier blind |
         | referee-append | session | | results candidates | candidates | specified | Copies each verdict under its candidate |
 
@@ -318,13 +318,13 @@ public sealed class MapFixture : IDisposable
         | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | Hypothesis file | The evidence relationship |
         | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | Hypothesis file | Status and baselined |
         | question-list | docs/v3-framework/questions/<corpus>.md | append | Question entry | Brian's open questions |
-        | instances | docs/v3-framework/instances.md | append | Instance registry | One row per instance |
-        | candidates | fanout/<instance>/candidates.md | append | Candidate | One round's findings |
-        | codebook | fanout/<instance>/codebook-N.md | succeeded | Codebook | The frozen instrument |
-        | calibration-record | fanout/<instance>/calibration-<date>.md | frozen | | One version's agreement |
-        | verification-artifact | docs/v3-framework/<instance>/round.md | append | | One round's method and counts |
-        | items | fanout/<instance>/<run>/items/ | frozen | | The units one run judges |
-        | results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs |
+        | studies | docs/v3-framework/studies.md | append | Study registry | One row per study |
+        | candidates | fanout/<study>/candidates.md | append | Candidate | One round's findings |
+        | codebook | fanout/<study>/codebook-N.md | succeeded | Codebook | The frozen instrument |
+        | calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
+        | verification-artifact | docs/v3-framework/<study>/round.md | append | | One round's method and counts |
+        | items | fanout/<study>/<run>/items/ | frozen | | The units one run judges |
+        | results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |
 
         ## Hypothesis file
 
@@ -334,7 +334,7 @@ public sealed class MapFixture : IDisposable
 
         The shape.
 
-        ## Instance registry
+        ## Study registry
 
         The shape.
 

@@ -57,7 +57,7 @@ nothing written):
    query, a manifest — runs once at design time, writes files, and is hashed like any input.
    A protocol never tells the agent what the items are; a rule the agent applies is judgment
    at runtime, however precisely it is worded. `split` is the splitter for Markdown documents;
-   any other enumerator is the instance's own itemizer (`itemize.*` beside the instrument,
+   any other enumerator is the study's own itemizer (`itemize.*` beside the instrument,
    or a tool project with tests) — an enumerator lands in the runner only when it is generic
    over a format, as `split` is over Markdown.
 3. **The output contract is mechanical.** `requireOnce` lists markers (item ids, row keys)
@@ -84,22 +84,22 @@ compute says so in its `run.md` as something not measured.
 The run folder is the folder holding `jobs.json`. Every path in the job file is relative to
 it; the host writes `ledger.jsonl` and `attempts/<id>/attempt-N/` (`prompt.md`,
 `stream.jsonl`) beside it. One folder is one run, and runs group by the work that owns them:
-an instance of the buildout, named by its registry id (`fanout/<instance>/`; every
+a study of the buildout, named by its registry id (`fanout/<study>/`; every
 `referee-<n>` shares `fanout/referee/`), or a standing action outside the buildout
 (`skill-audits/`, `smoke-test/`). Nothing is shared across works.
 
 ```
 fanout/
   host-log.txt                      the host's log: lifecycle, enqueues, knob changes (gitignored)
-  <instance>/                       one instance: its instrument, generator, tallier, candidates, runs
+  <study>/                          one study: its instrument, generator, tallier, candidates, runs
     codebook-N.md | protocol-N.md   the instrument, versioned by number; a codebook has a
-    calibration-<date>.md           calibration record at its hash before any batch
+    calibration-<date>.md           calibration at its hash before any batch
     itemize.*  make-jobs.*  tally.* the itemizer, the generator and the tallier
     <run>/                          one batch execution, <date>[-<slug>]
       run.md                        the authored front page (artifacts.md § run.md says what it holds)
       items/manifest.md             the enumeration's index (bodies regenerable, not committed)
       jobs.json                     generated
-      ledger.jsonl                  one row per attempt — the record an artifact cites
+      ledger.jsonl                  one row per attempt — the row an artifact cites
       results/                      the agents' outputs, one per job
       attempts/<job>/attempt-N/     prompt.md and stream.jsonl — local only
     referee/<run>/                  a referee run, under the round it serves
@@ -109,7 +109,7 @@ fanout/
   smoke-test/                       the harness check
 ```
 
-No shared `codebooks/` or `protocols/` folder: an instrument lives with the instance that
+No shared `codebooks/` or `protocols/` folder: an instrument lives with the study that
 authors and calibrates it, versioned by number, so a superseded version stays on disk and a
 result under its hash stays citable. The referee is the one instrument every round shares —
 each candidate goes through the same codebook under the same hash — so `fanout/referee/`
@@ -388,7 +388,7 @@ mode is `hitl` or `session`.
 Launch an `agent` process from a repo cwd, or through the Agent tool of a HITL session —
 the `v3-buildout` skill's process tables say which rows run here. Hand an agent the
 enumeration of its own items. Run a batch under a protocol nobody has piloted, or under a
-codebook with no calibration record at its hash. Add a control that changes what a job is. Use the Workflow tool for buildout work;
+codebook with no calibration at its hash. Add a control that changes what a job is. Use the Workflow tool for buildout work;
 if a need for it ever appears, that is a methodology revision, not a job. Put a `.mcp.json`
 or `CLAUDE.md` in the launch folder. Edit a ledger. Re-run a batch to "get a better
 answer" — a new attempt is a new id and a recorded decision.

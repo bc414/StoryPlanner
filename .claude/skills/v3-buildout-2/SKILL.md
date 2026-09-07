@@ -120,10 +120,10 @@ the same session in the same activity are one process.
   written down. Development state of the process type; never the state of a run.
 
 **Artifacts** — the table in `artifacts.md`. `id · path · mutation · format · description`.
-An artifact is a class; the files are its instances. `path` is one repo-relative pattern,
-placeholders in angle brackets, or `outside the repo`; never prose. `mutation` ∈ `in-place ·
-succeeded · append · frozen` (rule 9). `format` is the heading in `artifacts.md` that
-specifies the artifact's shape, or blank where none is authored.
+An artifact is a class; the files matching its pattern are its files. `path` is one
+repo-relative pattern, placeholders in angle brackets, or `outside the repo`; never prose.
+`mutation` ∈ `in-place · succeeded · append · frozen` (rule 9). `format` is the heading in
+`artifacts.md` that specifies the artifact's shape, or blank where none is authored.
 
 **An activity file** has one shape and carries procedure only: the title (the activity
 id); one line naming what it enables; the Processes table;
@@ -136,7 +136,7 @@ decision lands; it cannot script the middle. An `agent` section names the instru
 what the generator materialises for it; the agent never sees the file. A runner section
 names the run's reads and writes and defers to the `agent-runner` skill. Nothing in the
 prose restates the table, an artifact's mutation, a rule, or a word defined in this file
-or `artifacts.md`. Files are types: no corpus or instance appears in one.
+or `artifacts.md`. Files are types: no corpus or study appears in one.
 
 **Derived, never authored:** order and data flow (a process reads what another wrote),
 consumers of each artifact, each activity's inputs, outputs and instruments, and the check
@@ -152,10 +152,11 @@ write hook after every passing validate, so neither can be hand-edited or stale.
 generated sits inside an authored file.
 
 **The tables are checked at the write.** A PostToolUse hook, registered in the project
-settings, runs `validate` over this folder after every Edit or Write inside it, returns
-the failures to the session in the same turn, and on a pass rewrites `map.md`. A failure
-is fixed, row and prose together, before any other write; it is never worked around, and
-a write to this folder never goes through the shell, which the hook cannot see.
+settings, runs `validate` over this folder after every Edit or Write inside it, and a
+governed file's format checker after every Edit or Write to one, returns the failures to
+the session in the same turn, and on a pass rewrites `map.md`. A failure is fixed, row and
+prose together, before any other write; it is never worked around, and a write to this
+folder or to a governed file never goes through the shell, which the hook cannot see.
 
 ## Router — the activities
 
@@ -182,15 +183,17 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 ## Companions that are not activities
 
 `artifacts.md` — the Artifacts table and every authored format (hypothesis file, index,
-question entry, instance registry, candidate, leads and verification artifacts, arm key,
-reading protocol, codebook, calibration record, run.md, decisions). `CORPUS-STATUS.md` — what
+question entry, study registry, candidate, leads and verification artifacts, arm key,
+reading protocol, codebook, calibration, run.md, decisions). `CORPUS-STATUS.md` — what
 material exists and its state; a fact file, not a rule. `map.md` and `state.md` —
 generated only. The `agent-runner` skill governs the runner as an instrument and is read in
 full by any process that invokes it.
 
 ## Vocabulary
 
-- **instance**: one run of one activity chain over one corpus, declared in the registry.
+- **study**: one run of one activity chain over one corpus, declared in the registry.
+- **governed file**: a file of an artifact class that has a format; what a checker holds
+  to that format.
 - **round**: one execution of a calibrated codebook over a corpus's items; repeats.
 - **item**: the unit one agent job judges, produced by an itemizer; a **slice** is the
   exploration's item, a partition of a corpus.
@@ -208,9 +211,9 @@ full by any process that invokes it.
 ## Provenance
 
 This skill is the instruction; its provenance lives outside it and is read in one
-activity. `docs/v3-framework/decisions.md` is the method's decision record, written and
+activity. `docs/v3-framework/decisions.md` holds the method's decisions, written and
 read only in revising-the-method; `docs/v3-framework/methodology-revision-N.md` is each
-revision's write-once note. `docs/v3-framework/` also holds the buildout's record:
+revision's write-once note. `docs/v3-framework/` also holds what the buildout produces:
 `hypotheses/`, `questions/`, the leads and verification artifacts named
 `exploration-of-<corpus>` and `round-of-<corpus>-<n>`, the retired forward plans of
 revision 1 (reference only), and `implementation-candidates.md` (codebase changes gated on
@@ -222,8 +225,8 @@ Provenance informs and never prescribes.
 **What survives a session.** When a session ends, or when Brian asks what must survive it,
 the session drafts what it believes must and presents it, as options with their trade-offs
 where a choice remains, one decision at a time. A decision about how the buildout
-is run enters `decisions.md` only after his approval, as a titled entry in its format; an
-instance's own conclusions enter that instance's artifacts by its activity's rows; nothing
+is run enters `decisions.md` only after his approval, as a titled entry in its format; a
+study's own conclusions enter that study's artifacts by its activity's rows; nothing
 lands anywhere autonomously, and nothing survives in a handoff.
 
 ## What this skill does not govern

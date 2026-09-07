@@ -1,21 +1,22 @@
 # Artifacts
 
 Every artifact a process in this skill reads or writes, and every authored format. An
-artifact is a class; the files are its instances. Schema and closed sets: `SKILL.md` § Schema.
+artifact is a class; the files matching its pattern are its files. Schema and closed sets:
+`SKILL.md` § Schema.
 Consumers are never written here; the validator derives them. Each format's example block
 is the fixture its checker in `process-docs/StoryPlanner.DocIntegrity` is tested against:
 the block and the grammar sentences around it are what the machine reads, the guidance
 sentences are for the author, and a format edited without its checker fails a test.
 
 Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPUS-STATUS.md`;
-`<instance>` an instance's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
+`<study>` a study's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
 or `round-of-<corpus>-<n>`), except that every `referee-<n>` shares the folder `referee`
-and the method's own supersession audit, a work outside the buildout's instances, runs
+and the method's own supersession audit, a work outside the buildout's studies, runs
 under `skill-audits`; `<run>` a runner run folder, `<date>[-<slug>]`, one per batch
 execution; `<date>` an ISO date; `<Name>` a tool project's name; `NNN` a hypothesis id;
-`N` a version number. An instance's authored artifacts live in one directory named by it
+`N` a version number. A study's authored artifacts live in one directory named by it
 under `docs/v3-framework/`; its runner input and output, including the referee runs that
-serve it, live under `fanout/<instance>/`. `fanout/referee/` holds only the referee's
+serve it, live under `fanout/<study>/`. `fanout/referee/` holds only the referee's
 shared instrument and the iteration candidates.
 
 | id | path | mutation | format | description |
@@ -25,29 +26,29 @@ shared instrument and the iteration candidates.
 | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | Hypothesis file | Status and baselined, computed from the record |
 | hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | Hypothesis index | Id and slug per hypothesis, id order |
 | question-list | docs/v3-framework/questions/<corpus>.md | append | Question entry | Brian's open questions about one corpus |
-| instances | docs/v3-framework/instances.md | append | Instance registry | One row per instance of a chain, declared at Brian's go; the ids every artifact path is named by |
-| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per instance where it is; per corpus, open questions and whether a calibrated codebook covers them; per hypothesis, status and whether any open question names it |
+| studies | docs/v3-framework/studies.md | append | Study registry | One row per study of a chain, declared at Brian's go; the ids every artifact path is named by |
+| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study where it is; per corpus, open questions and whether a calibrated codebook covers them; per hypothesis, status and whether any open question names it |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
-| decisions | docs/v3-framework/decisions.md | append | Decisions | The method's decision record: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
-| leads-artifact | docs/v3-framework/<instance>/leads.md | append | Leads artifact | What one exploration observed, organised by locus |
-| verification-artifact | docs/v3-framework/<instance>/round.md | append | Verification artifact | One round's method, questions answered, counts and promotion summary |
-| arm-key | docs/v3-framework/<instance>/arm-key.md | frozen | Arm key | The blinding key: arm label to condition and model; opened only after binning |
-| candidates | fanout/<instance>/candidates.md | append | Candidate | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
+| decisions | docs/v3-framework/decisions.md | append | Decisions | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
+| leads-artifact | docs/v3-framework/<study>/leads.md | append | Leads artifact | What one exploration observed, organised by locus |
+| verification-artifact | docs/v3-framework/<study>/round.md | append | Verification artifact | One round's method, questions answered, counts and promotion summary |
+| arm-key | docs/v3-framework/<study>/arm-key.md | frozen | Arm key | The blinding key: arm label to condition and model; opened only after binning |
+| candidates | fanout/<study>/candidates.md | append | Candidate | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
 | iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | Candidate | Prior findings re-queued after a rewording of hypothesis NNN |
 | corpus-status | .claude/skills/v3-buildout/CORPUS-STATUS.md | in-place | | What material exists and its state |
-| codebook | fanout/<instance>/codebook-N.md | succeeded | Codebook | The frozen instrument a round or the referee runs under |
-| reading-protocol | fanout/<instance>/protocol-N.md | succeeded | Reading protocol | The instruction slice readers run under; piloted, not calibrated |
-| calibration-record | fanout/<instance>/calibration-<date>.md | frozen | Calibration record | One codebook version's agreement with Brian's blind verdicts, and the rulings |
-| itemizer | fanout/<instance>/itemize.* | in-place | | A script that produces a corpus's items; an itemizer that is a tool project is tool-source |
-| generator | fanout/<instance>/make-jobs.* | in-place | | Code that writes jobs from the manifest |
-| tallier | fanout/<instance>/tally.* | in-place | | Code that reduces results to counts and flagged rows |
-| items | fanout/<instance>/<run>/items/ | frozen | | The units one run judges, one file each; a referee run's sit under fanout/<instance>/referee/<run>/ |
-| items-manifest | fanout/<instance>/<run>/items/manifest.md | frozen | | The index of a run's items |
-| jobs | fanout/<instance>/<run>/jobs.json | frozen | | One run's job file; an edit is a new run |
-| ledger | fanout/<instance>/<run>/ledger.jsonl | append | | One row per attempt, with hashes |
-| results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs, one per job |
-| tally-output | fanout/<instance>/<run>/tally.md | frozen | | The tallier's counts and flagged rows for one run |
-| run-record | fanout/<instance>/<run>/run.md | append | run.md | The authored front page of one run |
+| codebook | fanout/<study>/codebook-N.md | succeeded | Codebook | The frozen instrument a round or the referee runs under |
+| reading-protocol | fanout/<study>/protocol-N.md | succeeded | Reading protocol | The instruction slice readers run under; piloted, not calibrated |
+| calibration | fanout/<study>/calibration-<date>.md | frozen | Calibration | One codebook version's agreement with Brian's blind verdicts, and the rulings |
+| itemizer | fanout/<study>/itemize.* | in-place | | A script that produces a corpus's items; an itemizer that is a tool project is tool-source |
+| generator | fanout/<study>/make-jobs.* | in-place | | Code that writes jobs from the manifest |
+| tallier | fanout/<study>/tally.* | in-place | | Code that reduces results to counts and flagged rows |
+| items | fanout/<study>/<run>/items/ | frozen | | The units one run judges, one file each; a referee run's sit under fanout/<study>/referee/<run>/ |
+| items-manifest | fanout/<study>/<run>/items/manifest.md | frozen | | The index of a run's items |
+| jobs | fanout/<study>/<run>/jobs.json | frozen | | One run's job file; an edit is a new run |
+| ledger | fanout/<study>/<run>/ledger.jsonl | append | | One row per attempt, with hashes |
+| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs, one per job |
+| tally-output | fanout/<study>/<run>/tally.md | frozen | | The tallier's counts and flagged rows for one run |
+| run-page | fanout/<study>/<run>/run.md | append | run.md | The authored front page of one run |
 | skill | .claude/skills/v3-buildout/ | in-place | | The method's instructions: the router, the activity files and artifacts.md |
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
@@ -101,7 +102,7 @@ the first entry always `created`, grep-able by `^- created`, `^- evidence`, `^- 
 `^- baselined`.
 
 An `evidence` entry is written only by a promotion session from a referee-checked candidate
-and carries the instance and candidate id, the codebook version and hash, the alignment
+and carries the study and candidate id, the codebook version and hash, the alignment
 tag (`supporting` or `challenging`, no third tag), the finding and the falsifier verbatim.
 An entry without a falsifier is malformed. An `iteration` entry is a wording boundary:
 nothing above it is invalidated or re-tagged, and nothing above it counts toward the
@@ -115,12 +116,12 @@ observations (story content); observations that do not change the statement; poi
 future work (a question list); leads from an exploration, however relevant.
 Test: removing the entry would leave the evidence relationship incomplete — it belongs.
 
-## Instance registry
+## Study registry
 
-`docs/v3-framework/instances.md` — one row per instance of a chain, appended by the
-preparing activity at the moment Brian approves its plan, which is his go. Never edited: an
-instance abandoned is a fact the artifacts show, not a row removed. Every artifact path an
-instance produces is named by its id.
+`docs/v3-framework/studies.md` — one row per study of a chain, appended by the
+preparing activity at the moment Brian approves its plan, which is his go. Never edited: a
+study abandoned is a fact the artifacts show, not a row removed. Every artifact path a
+study produces is named by its id.
 
 ```markdown
 | id | type | corpus | go |
@@ -136,15 +137,15 @@ verification` names the chain: exploratory runs preparing-to-explore-a-corpus,
 exploring-a-corpus and reviewing-leads; verification runs preparing-to-verify-a-corpus,
 conducting-a-verification-round, writing-candidates-from-verification,
 refereeing-a-candidate and promoting-checked-candidates. `referee-<n>` is a verification
-instance that stops after preparing: its corpus is `candidates`, its folder is
-`fanout/referee/`, and what it produces — the codebook, its calibration record, the
+study that stops after preparing: its corpus is `candidates`, its folder is
+`fanout/referee/`, and what it produces — the codebook, its calibration, the
 materialise itemizer — is what every referee run under every round then uses. It is
 prepared once and again only when a ruling changes the codebook; that is the whole of
-what "bootstrap" means here, and it is a fact about instances, never about activities.
+what "bootstrap" means here, and it is a fact about studies, never about activities.
 `corpus` is a name from `CORPUS-STATUS.md`, `verified-artifacts` for an exploration over
 the buildout's own outputs, or `candidates` for the referee. Nothing else is authored
-here: where an instance stands is derived by the tool from its artifacts into `state.md`,
-and a tool an instance needs is built as its first task.
+here: where a study stands is derived by the tool from its artifacts into `state.md`,
+and a tool a study needs is built as its first task.
 
 ## Hypothesis index
 
@@ -171,7 +172,7 @@ rounds' `round.md`, into `state.md`; they are never written here.
 
 ```
 ### <short title>
-- asked-by: <instance id, "review of <instance id>", "promotion of <scope>", or "ad hoc"> (<date>)
+- asked-by: <study id, "review of <study id>", "promotion of <scope>", or "ad hoc"> (<date>)
 - hypotheses: <ids the answer would be evidence for or against>
 - question: <one testable question about this corpus>
 - predicate: <the frozen predicate a codebook would apply, if one suggests itself; may be blank>
@@ -184,7 +185,7 @@ Leads never enter one; a question is what a lead raised, in Brian's words.
 
 ## Candidate
 
-`fanout/<instance>/candidates.md`, one per round; `fanout/referee/iterations/NNN-<date>/candidates.md`
+`fanout/<study>/candidates.md`, one per round; `fanout/referee/iterations/NNN-<date>/candidates.md`
 for the findings re-queued by a rewording of hypothesis NNN. Append-only: a candidate is never edited after it
 is written; the referee's lines and the outcome are appended beneath it. A finding bearing
 on two hypotheses is two candidates. Status is read from the last line present: a diagnostic
@@ -221,7 +222,7 @@ judged only the finding's shape.
 
 ## Leads artifact
 
-`docs/v3-framework/<instance>/leads.md`, beside the arm key and any renders the exploration
+`docs/v3-framework/<study>/leads.md`, beside the arm key and any renders the exploration
 produced. Written once by exploring-a-corpus; reviewing-leads appends dated correction
 sections and never edits a lead in place. Later sessions cite it and never edit it.
 
@@ -259,7 +260,7 @@ only, by any later session, until a round on its corpus has run.
 
 ## Verification artifact
 
-`docs/v3-framework/<instance>/round.md`. Written once by conducting-a-verification-round;
+`docs/v3-framework/<study>/round.md`. Written once by conducting-a-verification-round;
 the promotion session appends its summary; corrections are appended, dated. Per-item
 results are not copied here: they live in the run's `results/` and `tally.md`, cited by run
 folder and ledger row.
@@ -268,7 +269,7 @@ folder and ledger row.
 # round-of-fimfiction-stories-1
 
 ## Method
-<the codebook id and hash and its calibration record; the itemizer and item count; the
+<the codebook id and hash and its calibration; the itemizer and item count; the
 generator; models; harness version; the run folders and ledgers; what was not measured>
 
 ## Questions answered
@@ -293,9 +294,9 @@ reaches a record only through a candidate, never from this file.
 
 ## Arm key
 
-`docs/v3-framework/<instance>/arm-key.md`, only when an exploration runs its slices under
+`docs/v3-framework/<study>/arm-key.md`, only when an exploration runs its slices under
 more than one condition. Written by preparing-to-explore-a-corpus, frozen, and not opened
-by exploring-a-corpus: the record files carry the neutral labels only, and the session that
+by exploring-a-corpus: the lead sets carry the neutral labels only, and the session that
 joins and bins them cannot see which condition produced which. Opened in reviewing-leads
 after the bins are counted.
 
@@ -311,7 +312,7 @@ and its leads artifact says no disagreement was measured.
 
 ## Reading protocol
 
-`fanout/<instance>/protocol-N.md`, the instruction a slice reader runs under, inlined and
+`fanout/<study>/protocol-N.md`, the instruction a slice reader runs under, inlined and
 hashed by the runner as the reader's entire context. Authored in preparing-to-explore-a-corpus;
 piloted (one job, its output read by Brian) and not calibrated, since a reader exercises
 salience and emits leads rather than labels. Versioned by number; an edit is a new file
@@ -324,7 +325,7 @@ and a new hash, and a slice read under the old hash is cited as such.
 <one slice of the corpus, its extent; the questions in view, verbatim>
 
 ## What you produce
-<a record set: one entry per lead, locus first, then what was observed there, in the
+<a lead set: one entry per lead, locus first, then what was observed there, in the
 form the joiner expects; the output contract's markers>
 
 ## How to read
@@ -337,18 +338,18 @@ hypothesis; never an opinion about story content>
 
 ## Codebook
 
-`fanout/<instance>/codebook-N.md` for a corpus; `fanout/referee/codebook-N.md` for the
+`fanout/<study>/codebook-N.md` for a corpus; `fanout/referee/codebook-N.md` for the
 referee. The frozen instrument an agent applies to one item with no discretion: all
 judgment was spent writing it. Authored in preparing-to-verify-a-corpus against real items,
 calibrated before any batch, versioned by number; every edit is a new file, a new hash and
 a new calibration. It carries no status line: whether a version is calibrated is read from
-a calibration record existing at its hash, never from the file, since any line in the file
+a calibration existing at its hash, never from the file, since any line in the file
 is part of the hash. The runner inlines it as the agent's entire context, so it must be
 complete in itself and must not restate what the process row already says about its
 inputs: what the agent is given is the `reads` of the agent process in the activity file,
 materialised by the generator, and the codebook names it by reference. Its `## Questions`
 section is the one authored place a codebook names the questions it freezes; `state.md`
-derives a question's coverage from that section and a calibration record at the hash.
+derives a question's coverage from that section and a calibration at the hash.
 
 ```markdown
 # Codebook — <name> (version N)
@@ -375,7 +376,7 @@ negative costs the record and a false positive costs one adjudication>
 
 ## Anchors
 <under the rule each anchors: an item from a calibration disagreement, its ruled label,
-and the calibration record it came from; none until a calibration has produced one>
+and the calibration it came from; none until a calibration has produced one>
 ```
 
 The referee's codebook is this shape with `Item` a candidate's finding beside the target's
@@ -384,12 +385,12 @@ verdicts: diagnostic supporting, diagnostic challenging, non-diagnostic. A vacuo
 falsifier, one that restates the claim instead of naming what the finding would have been,
 is non-diagnostic by definition.
 
-## Calibration record
+## Calibration
 
-`fanout/<instance>/calibration-<date>.md`, or `fanout/referee/calibration-<date>.md`. One
+`fanout/<study>/calibration-<date>.md`, or `fanout/referee/calibration-<date>.md`. One
 per calibration of one codebook version, frozen. It is the measurement that lets a codebook
 be trusted to say what Brian would have said, and it is what "calibrated" means: a codebook
-version with no record at its hash is uncalibrated whatever its status line says.
+version with no calibration at its hash is uncalibrated whatever its status line says.
 
 ```markdown
 # Calibration — <codebook id>@<hash> — <date>
@@ -416,8 +417,8 @@ produced, if any — each edit is what makes the next version>
 
 ## run.md
 
-`fanout/<instance>/<run>/run.md`, the authored front page of one run, appended to and never
-rewritten. Small: which instance and which questions the run serves; the instrument and its
+`fanout/<study>/<run>/run.md`, the authored front page of one run, appended to and never
+rewritten. Small: which study and which questions the run serves; the instrument and its
 hash; the arms, if any, and what is deliberately not measured; the pilot read, by whom and
 what it showed; where the tally, the adjudication or the promotion lives. Everything else
 about a run is mechanical and lives in `jobs.json`, `ledger.jsonl`, `items/manifest.md`,
@@ -427,15 +428,15 @@ cites a run by this folder and a ledger row.
 
 ## Decisions
 
-`docs/v3-framework/decisions.md` — the method's decision record: one file for every
+`docs/v3-framework/decisions.md` — the method's decisions: one file for every
 revision, sections by revision in order, one titled entry per decision, appended after
 Brian's approval and never edited. Every entry is Brian's: a session drafts it from his
 words in the conversation, he approves, then it is written; nothing lands autonomously.
 Written only during revising-the-method and read there and nowhere else. The skill's
 activity text is those decisions applied, so no standard-operating activity cites one, and
 a decision id appears in this folder only in `revising-the-method.md`, which the validator
-holds. Borrowed shape: architecture decision records, a dated entry whose standing is
-derived from supersession; the words are kept as this method uses them.
+holds. Borrowed shape: the dated entry whose standing is derived from supersession, as
+software architecture decisions are kept; the words are kept as this method uses them.
 
 ```markdown
 ## Revision 2

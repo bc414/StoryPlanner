@@ -17,7 +17,7 @@ namespace StoryPlanner.DocIntegrity;
 public static class MermaidRenderer
 {
     const string Stamp =
-        "> **UNVALIDATED** — rendered with `--force` while `validate` still fails. Not the record.\n\n";
+        "> **UNVALIDATED** — rendered with `--force` while `validate` still fails. Not authoritative.\n\n";
 
     const string ClassDefs = """
           classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27

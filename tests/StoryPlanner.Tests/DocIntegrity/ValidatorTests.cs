@@ -59,7 +59,7 @@ public class ValidatorTests
 
     [Fact]
     public void An_id_used_in_two_tables_is_a_duplicate()
-        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | fanout/<instance>/<run>/items/", "| promote | fanout/<instance>/<run>/items/"));
+        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | fanout/<study>/<run>/items/", "| promote | fanout/<study>/<run>/items/"));
 
     [Fact]
     public void An_id_outside_the_lowercase_slug_charset_fails()
@@ -135,13 +135,13 @@ public class ValidatorTests
     [Fact]
     public void A_path_cell_naming_two_patterns_fails_the_syntax_rule()
         => Fails("artifact.path-syntax", MapFixture.With(Artifacts,
-            "| fanout/<instance>/codebook-N.md |", "| fanout/<instance>/codebook-N.md, or fanout/referee/codebook-N.md |"));
+            "| fanout/<study>/codebook-N.md |", "| fanout/<study>/codebook-N.md, or fanout/referee/codebook-N.md |"));
 
     [Fact]
     public void An_artifact_no_process_reads_fails()
         => Fails("artifact.never-read", MapFixture.With(Artifacts,
-            "| results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs |",
-            "| results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
+            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |",
+            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
 
     [Fact]
     public void An_artifact_no_process_writes_is_information_not_a_verdict()
@@ -221,10 +221,10 @@ public class ValidatorTests
     [Fact]
     public void A_process_reading_and_writing_a_frozen_series_is_not_reported_because_it_writes_the_next_member()
     {
-        // referee-run reads calibration-record (frozen, dated); make it write one too.
+        // referee-run reads calibration (frozen, dated); make it write one too.
         using var f = MapFixture.With(Refereeing,
-            "| instances calibration-record codebook candidates | items |",
-            "| instances calibration-record codebook candidates | items calibration-record |");
+            "| studies calibration codebook candidates | items |",
+            "| studies calibration codebook candidates | items calibration |");
         Assert.DoesNotContain("mutation.read-and-write", Rules(f));
     }
 

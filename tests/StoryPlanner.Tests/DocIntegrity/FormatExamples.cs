@@ -5,7 +5,7 @@ using System.Linq;
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// The example blocks of <c>artifacts.md</c> are the fixtures the record checkers are tested
+/// The example blocks of <c>artifacts.md</c> are the fixtures the format checkers are tested
 /// against (decisions.md, 2026-09-06: "artifacts.md stays one file, and its example blocks are
 /// fixtures"). This reads the first fenced block under a format heading from the real skill
 /// folder, so a format edited without its checker fails a test here. It is the one place the

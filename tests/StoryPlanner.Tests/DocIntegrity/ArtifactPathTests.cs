@@ -25,8 +25,8 @@ public class ArtifactPathTests
     [Fact]
     public void A_bare_pattern_is_the_whole_file()
     {
-        var p = Parse("fanout/<instance>/candidates.md");
-        Assert.Equal("fanout/<instance>/candidates.md", p.Pattern);
+        var p = Parse("fanout/<study>/candidates.md");
+        Assert.Equal("fanout/<study>/candidates.md", p.Pattern);
         Assert.Null(p.Heading);
         Assert.False(p.Frontmatter);
         Assert.False(p.OutsideRepo);
@@ -54,7 +54,7 @@ public class ArtifactPathTests
 
     [Fact]
     public void Two_patterns_joined_by_or_are_a_syntax_error()
-        => Assert.Contains("one pattern", Error("fanout/<instance>/codebook-N.md, or fanout/referee/codebook-N.md"));
+        => Assert.Contains("one pattern", Error("fanout/<study>/codebook-N.md, or fanout/referee/codebook-N.md"));
 
     [Fact]
     public void A_pattern_and_its_tests_is_a_syntax_error()
@@ -62,7 +62,7 @@ public class ArtifactPathTests
 
     [Fact]
     public void A_parenthetical_is_a_syntax_error()
-        => Assert.Contains("parenthetical", Error("docs/x.md(record)"));
+        => Assert.Contains("parenthetical", Error("docs/x.md(note)"));
 
     [Fact]
     public void An_absolute_path_is_a_syntax_error()
@@ -74,36 +74,36 @@ public class ArtifactPathTests
 
     [Fact]
     public void An_unclosed_placeholder_is_a_syntax_error()
-        => Assert.Contains("unclosed", Error("fanout/<instance/x.md"));
+        => Assert.Contains("unclosed", Error("fanout/<study/x.md"));
 
     [Fact]
     public void A_section_sign_with_nothing_after_it_is_a_syntax_error()
         => Assert.Contains("no heading", Error("docs/x.md §"));
 
     [Fact]
-    public void Instance_scope_is_carried_by_the_instance_or_run_placeholder()
+    public void Study_scope_is_carried_by_the_study_or_run_placeholder()
     {
-        Assert.True(Parse("fanout/<instance>/candidates.md").IsInstanceScoped);
-        Assert.True(Parse("fanout/<instance>/<run>/items/").IsInstanceScoped);
-        Assert.False(Parse("docs/v3-framework/questions/<corpus>.md").IsInstanceScoped);
-        Assert.False(Parse("outside the repo").IsInstanceScoped);
+        Assert.True(Parse("fanout/<study>/candidates.md").IsStudyScoped);
+        Assert.True(Parse("fanout/<study>/<run>/items/").IsStudyScoped);
+        Assert.False(Parse("docs/v3-framework/questions/<corpus>.md").IsStudyScoped);
+        Assert.False(Parse("outside the repo").IsStudyScoped);
     }
 
     [Fact]
     public void A_series_is_numbered_by_N_or_dated_and_a_run_or_a_hypothesis_id_is_not()
     {
         Assert.True(Parse("docs/v3-framework/methodology-revision-N.md").IsSeries);
-        Assert.True(Parse("fanout/<instance>/calibration-<date>.md").IsSeries);
-        Assert.False(Parse("fanout/<instance>/<run>/results/").IsSeries);
+        Assert.True(Parse("fanout/<study>/calibration-<date>.md").IsSeries);
+        Assert.False(Parse("fanout/<study>/<run>/results/").IsSeries);
         Assert.False(Parse("docs/v3-framework/hypotheses/NNN-slug.md").IsSeries);
         Assert.False(Parse("tools/StoryPlanner.<Name>/").IsSeries);
         Assert.False(Parse("outside the repo").IsSeries);
     }
 
     [Fact]
-    public void The_regex_binds_the_instance_and_leaves_the_rest_as_wildcards()
+    public void The_regex_binds_the_study_and_leaves_the_rest_as_wildcards()
     {
-        var r = Parse("fanout/<instance>/codebook-N.md").ToRegex("round-of-x-1");
+        var r = Parse("fanout/<study>/codebook-N.md").ToRegex("round-of-x-1");
         Assert.Matches(r, "fanout/round-of-x-1/codebook-2.md");
         Assert.DoesNotMatch(r, "fanout/round-of-x-1/codebook-a.md");
         Assert.DoesNotMatch(r, "fanout/other/codebook-1.md");
@@ -120,22 +120,22 @@ public class ArtifactPathTests
     [Fact]
     public void Dot_star_is_any_extension_and_a_trailing_slash_is_a_directory()
     {
-        Assert.Matches(Parse("fanout/<instance>/itemize.*").ToRegex("r"), "fanout/r/itemize.py");
-        var dir = Parse("fanout/<instance>/<run>/items/");
+        Assert.Matches(Parse("fanout/<study>/itemize.*").ToRegex("r"), "fanout/r/itemize.py");
+        var dir = Parse("fanout/<study>/<run>/items/");
         Assert.True(dir.IsDirectory);
         Assert.Matches(dir.ToRegex("r"), "fanout/r/2026-09-20/items");
     }
 
     [Fact]
-    public void An_unbound_instance_is_a_wildcard()
-        => Assert.Matches(Parse("fanout/<instance>/candidates.md").ToRegex(), "fanout/anything/candidates.md");
+    public void An_unbound_study_is_a_wildcard()
+        => Assert.Matches(Parse("fanout/<study>/candidates.md").ToRegex(), "fanout/anything/candidates.md");
 
     [Fact]
     public void The_fixed_prefix_is_the_directory_to_enumerate()
     {
-        var p = Parse("fanout/<instance>/<run>/items/");
+        var p = Parse("fanout/<study>/<run>/items/");
         Assert.Equal("fanout/round-of-x-1", p.FixedPrefix("round-of-x-1"));
         Assert.Equal("fanout", p.FixedPrefix());
-        Assert.Equal("docs/v3-framework", Parse("docs/v3-framework/instances.md").FixedPrefix());
+        Assert.Equal("docs/v3-framework", Parse("docs/v3-framework/studies.md").FixedPrefix());
     }
 }

@@ -57,7 +57,7 @@ public class RenderTests
     {
         using var f = new MapFixture();
         var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate");
-        Assert.Contains("- **inputs**: calibration-record codebook instances", section);
+        Assert.Contains("- **inputs**: calibration codebook studies", section);
         Assert.Contains("- **outputs**: candidates items results", section);
         Assert.Contains("- **instruments**: runner", section);
         Assert.Contains("- **enabled by**: —", section);
@@ -109,8 +109,8 @@ public class RenderTests
     public void Ids_that_merge_once_hyphens_are_dropped_are_refused_before_drawing()
     {
         using var f = MapFixture.With(MapFixture.ArtifactsFile,
-            "| results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs |",
-            "| results | fanout/<instance>/<run>/results/ | frozen | | The agents' outputs |\n| refereerun | docs/x.md | frozen | | Collides with referee-run |");
+            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |",
+            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |\n| refereerun | docs/x.md | frozen | | Collides with referee-run |");
         Assert.Throws<MapFormatException>(() => MermaidRenderer.CheckNodeIds(f.Doc));
     }
 

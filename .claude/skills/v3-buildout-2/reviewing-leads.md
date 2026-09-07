@@ -17,7 +17,7 @@ session in which Brian asks a question about a corpus.
 
 The session opens the leads artifact and, if the exploration had arms, the arm key, and
 presents the bins with their counts now labelled by condition. Brian says which bins to
-drill; for each, the session lays the disagreeing records side by side and he adjudicates;
+drill; for each, the session lays the disagreeing leads side by side and he adjudicates;
 the adjudicated result is appended to `## Bins`.
 
 Brian challenges leads. For each, the session verifies against the corpus itself at the
@@ -28,7 +28,7 @@ lead itself is not edited.
 Brian raises questions: from the artifact's `## Proposed questions`, from the drills, from
 his own recall, which enters only as a question with its provenance ("Brian's recall,
 <date>: does the v1 archive show X?"). The session writes each into the corpus's question
-list in his words, `asked-by: review of <instance>`, with the hypotheses it concerns and a
+list in his words, `asked-by: review of <study>`, with the hypotheses it concerns and a
 predicate where one suggests itself. A lead that shows a different hypothesis is needed is
 handed to minting-a-hypothesis in the same session. One commit.
 

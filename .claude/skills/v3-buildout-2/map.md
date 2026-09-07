@@ -198,7 +198,7 @@ flowchart LR
   refereerun["referee-run<br/>session"]:::session
   refereejudge(["referee-judge<br/>agent"]):::agent
   refereeappend["referee-append<br/>session"]:::session
-  calibrationrecord[/"calibration-record"/]:::artifact
+  calibration[/"calibration"/]:::artifact
   candidates[/"candidates"/]:::artifact
   codebook[/"codebook"/]:::artifact
   generator[/"generator"/]:::artifact
@@ -210,7 +210,7 @@ flowchart LR
   jobs[/"jobs"/]:::artifact
   ledger[/"ledger"/]:::artifact
   results[/"results"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
+  runpage[/"run-page"/]:::artifact
   tallier[/"tallier"/]:::artifact
   tallyoutput[/"tally-output"/]:::artifact
 
@@ -225,13 +225,13 @@ flowchart LR
   refereematerialise --> jobs
   jobs --> refereerun
   codebook --> refereerun
-  calibrationrecord --> refereerun
+  calibration --> refereerun
   items --> refereerun
   results --> refereerun
   tallier -.-> refereerun
   refereerun --> ledger
   refereerun --> tallyoutput
-  refereerun --> runrecord
+  refereerun --> runpage
   codebook --> refereejudge
   items --> refereejudge
   refereejudge --> results
@@ -245,8 +245,8 @@ flowchart LR
 
 Derived from the tables, never authored:
 
-- **inputs**: calibration-record codebook generator hypothesis-statement itemizer tallier
-- **outputs**: candidates items items-manifest iteration-candidates jobs ledger results run-record tally-output
+- **inputs**: calibration codebook generator hypothesis-statement itemizer tallier
+- **outputs**: candidates items items-manifest iteration-candidates jobs ledger results run-page tally-output
 - **instruments**: generator itemizer runner tallier
 - **enabled by**: iterating-a-statement writing-candidates-from-verification preparing-to-verify-a-corpus
 - **enables**: promoting-checked-candidates
@@ -296,48 +296,48 @@ flowchart LR
   roundrun["round-run<br/>session"]:::session
   roundjudge(["round-judge<br/>agent"]):::agent
   roundwrite["round-write<br/>session"]:::session
-  calibrationrecord[/"calibration-record"/]:::artifact
+  calibration[/"calibration"/]:::artifact
   codebook[/"codebook"/]:::artifact
   generator[/"generator"/]:::artifact
-  instances[/"instances"/]:::artifact
   items[/"items"/]:::artifact
   itemsmanifest[/"items-manifest"/]:::artifact
   jobs[/"jobs"/]:::artifact
   ledger[/"ledger"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
+  runpage[/"run-page"/]:::artifact
+  studies[/"studies"/]:::artifact
   tallier[/"tallier"/]:::artifact
   tallyoutput[/"tally-output"/]:::artifact
   verificationartifact[/"verification-artifact"/]:::artifact
 
-  instances --> roundrun
+  studies --> roundrun
   items --> roundrun
   itemsmanifest --> roundrun
   codebook --> roundrun
-  calibrationrecord --> roundrun
+  calibration --> roundrun
   results --> roundrun
   generator -.-> roundrun
   tallier -.-> roundrun
   roundrun --> jobs
   roundrun --> ledger
   roundrun --> tallyoutput
-  roundrun --> runrecord
+  roundrun --> runpage
   codebook --> roundjudge
   items --> roundjudge
   roundjudge --> results
   results --> roundwrite
   tallyoutput --> roundwrite
   ledger --> roundwrite
-  runrecord --> roundwrite
+  runpage --> roundwrite
   questionlist --> roundwrite
   roundwrite --> verificationartifact
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: calibration-record codebook generator instances items items-manifest question-list tallier
-- **outputs**: jobs ledger results run-record tally-output verification-artifact
+- **inputs**: calibration codebook generator items items-manifest question-list studies tallier
+- **outputs**: jobs ledger results run-page tally-output verification-artifact
 - **instruments**: generator runner tallier
 - **enabled by**: preparing-to-verify-a-corpus
 - **enables**: writing-candidates-from-verification
@@ -358,12 +358,11 @@ flowchart LR
   calibraterun["calibrate-run<br/>session"]:::session
   calibratejudge(["calibrate-judge<br/>agent"]):::agent
   calibrate{{"calibrate<br/>hitl"}}:::hitl
-  calibrationrecord[/"calibration-record"/]:::artifact
+  calibration[/"calibration"/]:::artifact
   codebook[/"codebook"/]:::artifact
   corpus[/"corpus"/]:::artifact
   corpusstatus[/"corpus-status"/]:::artifact
   generator[/"generator"/]:::artifact
-  instances[/"instances"/]:::artifact
   itemizer[/"itemizer"/]:::artifact
   items[/"items"/]:::artifact
   itemsmanifest[/"items-manifest"/]:::artifact
@@ -371,9 +370,10 @@ flowchart LR
   ledger[/"ledger"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
+  runpage[/"run-page"/]:::artifact
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
+  studies[/"studies"/]:::artifact
   tallier[/"tallier"/]:::artifact
   toolsource[/"tool-source"/]:::artifact
 
@@ -382,7 +382,7 @@ flowchart LR
   corpus --> verifyplan
   state --> verifyplan
   skill --> verifyplan
-  verifyplan --> instances
+  verifyplan --> studies
   verifyplan --> questionlist
   corpus --> itemize
   itemizer --> itemize
@@ -402,21 +402,21 @@ flowchart LR
   generator -.-> calibraterun
   calibraterun --> jobs
   calibraterun --> ledger
-  calibraterun --> runrecord
+  calibraterun --> runpage
   codebook --> calibratejudge
   items --> calibratejudge
   calibratejudge --> results
   items --> calibrate
   results --> calibrate
   codebook --> calibrate
-  calibrate --> calibrationrecord
+  calibrate --> calibration
   calibrate --> codebook
 ```
 
 Derived from the tables, never authored:
 
 - **inputs**: corpus corpus-status skill state
-- **outputs**: calibration-record codebook generator instances itemizer items items-manifest jobs ledger question-list results run-record tallier tool-source
+- **outputs**: calibration codebook generator itemizer items items-manifest jobs ledger question-list results run-page studies tallier tool-source
 - **instruments**: dotnet generator itemizer runner
 - **enabled by**: reviewing-leads building-a-tool revising-the-method
 - **enables**: conducting-a-verification-round refereeing-a-candidate
@@ -476,7 +476,6 @@ flowchart LR
   joinandbin["join-and-bin<br/>session"]:::session
   corpus[/"corpus"/]:::artifact
   generator[/"generator"/]:::artifact
-  instances[/"instances"/]:::artifact
   items[/"items"/]:::artifact
   itemsmanifest[/"items-manifest"/]:::artifact
   jobs[/"jobs"/]:::artifact
@@ -485,32 +484,33 @@ flowchart LR
   questionlist[/"question-list"/]:::artifact
   readingprotocol[/"reading-protocol"/]:::artifact
   results[/"results"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
+  runpage[/"run-page"/]:::artifact
+  studies[/"studies"/]:::artifact
 
   corpus --> pathfind
   questionlist --> pathfind
   pathfind --> leadsartifact
-  instances --> slicerun
+  studies --> slicerun
   items --> slicerun
   itemsmanifest --> slicerun
   readingprotocol --> slicerun
   generator -.-> slicerun
   slicerun --> jobs
   slicerun --> ledger
-  slicerun --> runrecord
+  slicerun --> runpage
   readingprotocol --> sliceread
   items --> sliceread
   sliceread --> results
   results --> joinandbin
-  runrecord --> joinandbin
+  runpage --> joinandbin
   questionlist --> joinandbin
   joinandbin --> leadsartifact
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus generator instances items items-manifest question-list reading-protocol
-- **outputs**: jobs leads-artifact ledger results run-record
+- **inputs**: corpus generator items items-manifest question-list reading-protocol studies
+- **outputs**: jobs leads-artifact ledger results run-page
 - **instruments**: generator runner
 - **enabled by**: preparing-to-explore-a-corpus
 - **enables**: reviewing-leads
@@ -534,7 +534,6 @@ flowchart LR
   corpus[/"corpus"/]:::artifact
   corpusstatus[/"corpus-status"/]:::artifact
   generator[/"generator"/]:::artifact
-  instances[/"instances"/]:::artifact
   itemizer[/"itemizer"/]:::artifact
   items[/"items"/]:::artifact
   itemsmanifest[/"items-manifest"/]:::artifact
@@ -543,16 +542,17 @@ flowchart LR
   questionlist[/"question-list"/]:::artifact
   readingprotocol[/"reading-protocol"/]:::artifact
   results[/"results"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
+  runpage[/"run-page"/]:::artifact
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
+  studies[/"studies"/]:::artifact
 
   questionlist --> exploreplan
   corpusstatus --> exploreplan
   corpus --> exploreplan
   state --> exploreplan
   skill --> exploreplan
-  exploreplan --> instances
+  exploreplan --> studies
   exploreplan --> armkey
   exploreplan --> questionlist
   corpus --> slice
@@ -570,7 +570,7 @@ flowchart LR
   generator -.-> pilotrun
   pilotrun --> jobs
   pilotrun --> ledger
-  pilotrun --> runrecord
+  pilotrun --> runpage
   readingprotocol --> pilotread
   items --> pilotread
   pilotread --> results
@@ -579,7 +579,7 @@ flowchart LR
 Derived from the tables, never authored:
 
 - **inputs**: corpus corpus-status itemizer skill state
-- **outputs**: arm-key generator instances items items-manifest jobs ledger question-list reading-protocol results run-record
+- **outputs**: arm-key generator items items-manifest jobs ledger question-list reading-protocol results run-page studies
 - **instruments**: generator itemizer runner
 - **enabled by**: building-a-tool revising-the-method
 - **enables**: exploring-a-corpus
@@ -640,7 +640,7 @@ flowchart LR
   map[/"map"/]:::artifact
   results[/"results"/]:::artifact
   revisionnote[/"revision-note"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
+  runpage[/"run-page"/]:::artifact
   runnerskill[/"runner-skill"/]:::artifact
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
@@ -668,7 +668,7 @@ flowchart LR
   auditrun --> itemsmanifest
   auditrun --> jobs
   auditrun --> ledger
-  auditrun --> runrecord
+  auditrun --> runpage
   auditrun --> tallyoutput
   auditprotocol --> auditjudge
   items --> auditjudge
@@ -679,7 +679,7 @@ flowchart LR
 Derived from the tables, never authored:
 
 - **inputs**: audit-protocol generator state tallier
-- **outputs**: decisions items items-manifest jobs ledger map results revision-note run-record runner-skill skill tally-output
+- **outputs**: decisions items items-manifest jobs ledger map results revision-note run-page runner-skill skill tally-output
 - **instruments**: DocIntegrity generator git runner tallier
 - **enabled by**: —
 - **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
@@ -758,7 +758,7 @@ flowchart TD
   hypothesisstatus[/"hypothesis-status"/]:::artifact
   hypothesisindex[/"hypothesis-index"/]:::artifact
   questionlist[/"question-list"/]:::artifact
-  instances[/"instances"/]:::artifact
+  studies[/"studies"/]:::artifact
   state[/"state"/]:::artifact
   revisionnote[/"revision-note"/]:::artifact
   decisions[/"decisions"/]:::artifact
@@ -770,7 +770,7 @@ flowchart TD
   corpusstatus[/"corpus-status"/]:::artifact
   codebook[/"codebook"/]:::artifact
   readingprotocol[/"reading-protocol"/]:::artifact
-  calibrationrecord[/"calibration-record"/]:::artifact
+  calibration[/"calibration"/]:::artifact
   itemizer[/"itemizer"/]:::artifact
   generator[/"generator"/]:::artifact
   tallier[/"tallier"/]:::artifact
@@ -780,7 +780,7 @@ flowchart TD
   ledger[/"ledger"/]:::artifact
   results[/"results"/]:::artifact
   tallyoutput[/"tally-output"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
+  runpage[/"run-page"/]:::artifact
   skill[/"skill"/]:::artifact
   runnerskill[/"runner-skill"/]:::artifact
   map[/"map"/]:::artifact
@@ -828,13 +828,13 @@ flowchart TD
   refereematerialise --> jobs
   jobs --> refereerun
   codebook --> refereerun
-  calibrationrecord --> refereerun
+  calibration --> refereerun
   items --> refereerun
   results --> refereerun
   tallier -.-> refereerun
   refereerun --> ledger
   refereerun --> tallyoutput
-  refereerun --> runrecord
+  refereerun --> runpage
   codebook --> refereejudge
   items --> refereejudge
   refereejudge --> results
@@ -849,25 +849,25 @@ flowchart TD
   verificationartifact --> writecandidates
   questionlist --> writecandidates
   writecandidates --> candidates
-  instances --> roundrun
+  studies --> roundrun
   items --> roundrun
   itemsmanifest --> roundrun
   codebook --> roundrun
-  calibrationrecord --> roundrun
+  calibration --> roundrun
   results --> roundrun
   generator -.-> roundrun
   tallier -.-> roundrun
   roundrun --> jobs
   roundrun --> ledger
   roundrun --> tallyoutput
-  roundrun --> runrecord
+  roundrun --> runpage
   codebook --> roundjudge
   items --> roundjudge
   roundjudge --> results
   results --> roundwrite
   tallyoutput --> roundwrite
   ledger --> roundwrite
-  runrecord --> roundwrite
+  runpage --> roundwrite
   questionlist --> roundwrite
   roundwrite --> verificationartifact
   questionlist --> verifyplan
@@ -875,7 +875,7 @@ flowchart TD
   corpus --> verifyplan
   state --> verifyplan
   skill --> verifyplan
-  verifyplan --> instances
+  verifyplan --> studies
   verifyplan --> questionlist
   corpus --> itemize
   itemizer --> itemize
@@ -895,14 +895,14 @@ flowchart TD
   generator -.-> calibraterun
   calibraterun --> jobs
   calibraterun --> ledger
-  calibraterun --> runrecord
+  calibraterun --> runpage
   codebook --> calibratejudge
   items --> calibratejudge
   calibratejudge --> results
   items --> calibrate
   results --> calibrate
   codebook --> calibrate
-  calibrate --> calibrationrecord
+  calibrate --> calibration
   calibrate --> codebook
   leadsartifact --> reviewleads
   armkey --> reviewleads
@@ -917,19 +917,19 @@ flowchart TD
   corpus --> pathfind
   questionlist --> pathfind
   pathfind --> leadsartifact
-  instances --> slicerun
+  studies --> slicerun
   items --> slicerun
   itemsmanifest --> slicerun
   readingprotocol --> slicerun
   generator -.-> slicerun
   slicerun --> jobs
   slicerun --> ledger
-  slicerun --> runrecord
+  slicerun --> runpage
   readingprotocol --> sliceread
   items --> sliceread
   sliceread --> results
   results --> joinandbin
-  runrecord --> joinandbin
+  runpage --> joinandbin
   questionlist --> joinandbin
   joinandbin --> leadsartifact
   questionlist --> exploreplan
@@ -937,7 +937,7 @@ flowchart TD
   corpus --> exploreplan
   state --> exploreplan
   skill --> exploreplan
-  exploreplan --> instances
+  exploreplan --> studies
   exploreplan --> armkey
   exploreplan --> questionlist
   corpus --> slice
@@ -955,7 +955,7 @@ flowchart TD
   generator -.-> pilotrun
   pilotrun --> jobs
   pilotrun --> ledger
-  pilotrun --> runrecord
+  pilotrun --> runpage
   readingprotocol --> pilotread
   items --> pilotread
   pilotread --> results
@@ -987,7 +987,7 @@ flowchart TD
   auditrun --> itemsmanifest
   auditrun --> jobs
   auditrun --> ledger
-  auditrun --> runrecord
+  auditrun --> runpage
   auditrun --> tallyoutput
   auditprotocol --> auditjudge
   items --> auditjudge
@@ -1004,7 +1004,7 @@ flowchart TD
 | hypothesis-status | baseline promote iterate mint | baseline | — |
 | hypothesis-index | mint | mint ask | — |
 | question-list | baseline promote verify-plan review-leads ask explore-plan | write-candidates round-write verify-plan author-codebook ask pathfind join-and-bin explore-plan author-protocol | — |
-| instances | verify-plan explore-plan | round-run slice-run | — |
+| studies | verify-plan explore-plan | round-run slice-run | — |
 | state | — | verify-plan explore-plan revise | — |
 | revision-note | revise | revise | — |
 | decisions | revise | revise | — |
@@ -1016,7 +1016,7 @@ flowchart TD
 | corpus-status | build | verify-plan explore-plan build | — |
 | codebook | author-codebook calibrate | referee-materialise referee-run referee-judge round-run round-judge author-codebook calibrate-run calibrate-judge calibrate | — |
 | reading-protocol | author-protocol | slice-run slice-read author-protocol pilot-run pilot-read | — |
-| calibration-record | calibrate | referee-run round-run | — |
+| calibration | calibrate | referee-run round-run | — |
 | itemizer | itemize | itemize | referee-materialise itemize slice |
 | generator | author-codebook author-protocol | — | referee-materialise round-run calibrate-run slice-run pilot-run audit-run |
 | tallier | author-codebook | — | referee-run round-run audit-run |
@@ -1026,7 +1026,7 @@ flowchart TD
 | ledger | referee-run round-run calibrate-run slice-run pilot-run audit-run | round-write | — |
 | results | referee-judge round-judge calibrate-judge slice-read pilot-read audit-judge | referee-run referee-append write-candidates round-run round-write calibrate join-and-bin pilot-run revise | — |
 | tally-output | referee-run round-run audit-run | referee-append write-candidates round-write revise | — |
-| run-record | referee-run round-run calibrate-run slice-run pilot-run audit-run | round-write join-and-bin | — |
+| run-page | referee-run round-run calibrate-run slice-run pilot-run audit-run | round-write join-and-bin | — |
 | skill | revise | verify-plan explore-plan revise audit-run audit-judge | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |

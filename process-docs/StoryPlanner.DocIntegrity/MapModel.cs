@@ -5,7 +5,7 @@ namespace StoryPlanner.DocIntegrity;
 /// <summary>
 /// The rows of the three tables the skill obeys (SKILL.md § Schema): Activities in the
 /// router, Processes at the head of each activity file, Artifacts in <c>artifacts.md</c>. The
-/// columns are the schema, the rows are in flux. Every record carries its file and line so a
+/// columns are the schema, the rows are in flux. Every row carries its file and line so a
 /// finding can name where it came from.
 /// </summary>
 public sealed record ActivityRow(
@@ -115,9 +115,9 @@ public static class WellKnown
 {
     public const string Candidates = "candidates";
     public const string QuestionList = "question-list";
-    public const string Instances = "instances";
+    public const string Studies = "studies";
     public const string Codebook = "codebook";
-    public const string CalibrationRecord = "calibration-record";
+    public const string Calibration = "calibration";
     public const string VerificationArtifact = "verification-artifact";
     public const string HypothesisStatus = "hypothesis-status";
     public const string HypothesisIndex = "hypothesis-index";
