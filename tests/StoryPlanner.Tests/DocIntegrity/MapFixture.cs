@@ -132,7 +132,7 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-01T10:00: why it exists
-            - evidence | 2026-09-14T15:20 | (round-of-analysis-corpus-1 C-001; codebook-1@abc) [supporting]:
+            - evidence | 2026-09-14T15:20 | (round-of-analysis-corpus-1 C-001; codebook-1@abc123) [supporting]:
               the finding
               Falsifier: the falsifier
 
@@ -153,7 +153,7 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-02T10:00: why
-            - evidence | 2026-09-15T10:00 | (round-of-analysis-corpus-1 C-003; codebook-1@abc) [supporting]:
+            - evidence | 2026-09-15T10:00 | (round-of-analysis-corpus-1 C-003; codebook-1@abc123) [supporting]:
               a finding
               Falsifier: f
 

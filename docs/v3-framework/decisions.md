@@ -798,3 +798,51 @@ Decided by a session, approved 2026-09-06. The table is one table by schema; the
 beside it because the table's `format` column names them; each format's example block is
 the fixture its checker is tested against, so a format edited without its checker fails a
 test. It becomes something else only if a format is ever rendered from code.
+
+### The six iteration entries stay through the re-founding
+
+- date: 2026-09-06
+
+Brian chose "Keep them". They record that the statement changed on those dates; removing
+them would make each `created` entry read as a description of the current wording, which it
+is not. Nothing above an iteration entry counts toward status, and the checker holds them
+to shape only, `- iteration | <timestamp>:`. Not taken: removal on the ground that the
+rewordings were made on leads, which revision 2 forbids going forward.
+
+### Corpus ids are the question-list filenames, tabled at the top of CORPUS-STATUS
+
+- date: 2026-09-06
+- supersedes: d-2026-09-06-4 (in part)
+
+Brian: "filenames as ids, and keep is too ambiguous. Use google-keep. I also don't think
+analysis-corpus is good. It should be fimfiction related." Of the possibilities offered,
+`fimfiction-stories`: "since not all are strictly my favorites." The eight:
+`fimfiction-stories`, `own-fiction`, `v1-archive`, `working-plan`, `lineage`,
+`conversations`, `code-sessions`, `google-keep`. Placement is unit-176's alternative (c), a
+table at the top of CORPUS-STATUS.md, because four of the eight are the MCP server's corpora
+with no section of their own, so "beside each section" could not name them. Resolves
+unit-176. Instance names follow: the retroactive instances are
+`exploration-of-fimfiction-stories`, `exploration-of-own-fiction` and
+`exploration-of-google-keep`, superseding the names in the retroactive-instances decision;
+the question list for the 112 stories is `questions/fimfiction-stories.md` when the pools
+move.
+
+### CORPUS-STATUS.md becomes CORPORA.md, a fact file with no state in it
+
+- date: 2026-09-06
+
+Brian asked whether the file should be "a factual reflection of the current state, with no
+transient parts like readiness or progress", and chose "Yes, as described". One entry per
+corpus: its id, what it is, where it lives, how it is read, its caveats. Progress lines
+("Analyzed (WU1.3)", "Assessed (WU1.2)", "Current") leave: they are the retroactive
+instances' registry rows, and state.md derives progress from the registry and the artifacts
+on disk. Readiness is restated as a fact about how a corpus is read, "read by: nothing; the
+Takeout export at <path>" included, with no date and no "pending"; the dates go to this
+record. Deferrals and judgments ("Defer unless Brian prioritizes", "to be confirmed by
+Brian") leave. Counts in prose leave in favour of naming the source of truth, per the
+repo's doc rule. The entry's fixed shape is a format, `artifacts.md` § Corpora, and the
+file joins the governed set with a checker at its first write under the format, which is
+this rewrite. Artifact id `corpora`; `build` keeps writing it, since making a corpus
+readable changes a fact in it. Done in the re-founding increment, in the same commit as
+the registry rows that take the progress lines over. Not taken: keeping the readiness
+dates as a compromise.

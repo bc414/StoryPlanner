@@ -40,6 +40,16 @@ public static class GovernedSkill
     public const string SkillsFolder = "skills";
     public const string ClaudeFolder = ".claude";
 
+    /// <summary>Every governed skill folder under a repository root, by the same shape rule.</summary>
+    public static IEnumerable<string> All(string repoRoot)
+    {
+        var skills = Path.Combine(repoRoot, ClaudeFolder, SkillsFolder);
+        if (!Directory.Exists(skills)) yield break;
+        foreach (var dir in Directory.GetDirectories(skills).OrderBy(d => d, StringComparer.Ordinal))
+            if (File.Exists(Path.Combine(dir, "SKILL.md")) && File.Exists(Path.Combine(dir, "artifacts.md")))
+                yield return dir;
+    }
+
     /// <summary>The governed skill folder containing <paramref name="filePath"/>, or null.</summary>
     public static string? Locate(string filePath)
     {
@@ -113,22 +123,26 @@ public static class WriteHook
         if (payload.FilePath is null) return HookOutcome.Nothing;
 
         var folder = GovernedSkill.Locate(payload.FilePath);
-        if (folder is null) return HookOutcome.Nothing;
+        if (folder is null) return CheckRecord(payload.FilePath, []);
 
         var report = (validate ?? Validator.Validate)(folder);
         if (report.Passed)
         {
-            if (!regenerate) return HookOutcome.Nothing;
-            try
+            var regenerated = new List<string>();
+            if (regenerate)
             {
-                var regenerated = Render.Write(folder, SkillReader.Read(folder), report, forced: false);
-                return new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated);
+                try
+                {
+                    regenerated.AddRange(Render.Write(folder, SkillReader.Read(folder), report, forced: false));
+                }
+                catch (MapFormatException ex)
+                {
+                    return new HookOutcome(HookOutcomeKind.Failed, Feedback,
+                        $"DocIntegrity: the tables validate but render refuses ({ex.RuleId}): {ex.Message}", []);
+                }
             }
-            catch (MapFormatException ex)
-            {
-                return new HookOutcome(HookOutcomeKind.Failed, Feedback,
-                    $"DocIntegrity: the tables validate but render refuses ({ex.RuleId}): {ex.Message}", []);
-            }
+            // A file in the skill folder may also be a record with a format of its own (the corpora file).
+            return CheckRecord(payload.FilePath, regenerated);
         }
 
         var folderName = Path.GetFileName(folder.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar));
@@ -142,6 +156,35 @@ public static class WriteHook
             "Do not work around this check by writing through the shell; every write to this folder goes " +
             "through Edit or Write so the check sees it.";
         return new HookOutcome(HookOutcomeKind.Failed, Feedback, message, []);
+    }
+
+    /// <summary>
+    /// The record half of the hook: the written path resolved against the artifacts table; a
+    /// class with a checker is checked and its failures are the feedback. No row, or a row with
+    /// no checker, is silence.
+    /// </summary>
+    static HookOutcome CheckRecord(string filePath, IReadOnlyList<string> regenerated)
+    {
+        var scoped = ArtifactScope.Locate(filePath);
+        if (scoped is null) return new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated);
+
+        IReadOnlyList<Finding> findings;
+        try { findings = scoped.Checker(scoped.Context, filePath); }
+        catch (MapFormatException ex) { findings = [Finding.Fail(ex.RuleId, Path.GetFileName(filePath), ex.Message)]; }
+
+        var report = new ValidationReport(findings);
+        if (report.Passed) return new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated);
+
+        var rel = Path.GetRelativePath(scoped.RepoRoot, Path.GetFullPath(filePath)).Replace('\\', '/');
+        var message =
+            $"DocIntegrity: after the write to {Path.GetFileName(filePath)}, it fails the format of `{scoped.Row.Id}` " +
+            $"({report.Failures} failure(s)):\n" +
+            ReportText.FormatFailures(report) +
+            $"The format is artifacts.md, section \"{scoped.Row.Format}\". Fix the file, then re-run the check until it passes:\n" +
+            $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check {rel}\n" +
+            "Do not work around this check by writing through the shell; every write to a governed record goes " +
+            "through Edit or Write so the check sees it.";
+        return new HookOutcome(HookOutcomeKind.Failed, Feedback, message, regenerated);
     }
 
     /// <summary>The failing folder as the session would type it: repo-relative inside a repository, absolute otherwise.</summary>

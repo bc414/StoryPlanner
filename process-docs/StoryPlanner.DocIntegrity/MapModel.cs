@@ -120,6 +120,9 @@ public static class WellKnown
     public const string CalibrationRecord = "calibration-record";
     public const string VerificationArtifact = "verification-artifact";
     public const string HypothesisStatus = "hypothesis-status";
+    public const string HypothesisIndex = "hypothesis-index";
+    public const string LeadsArtifact = "leads-artifact";
+    public const string Corpora = "corpora";
 
     /// <summary>The three artifacts one hypothesis file holds; a write to any is a hypothesis write.</summary>
     public static readonly string[] HypothesisArtifacts =
@@ -127,5 +130,5 @@ public static class WellKnown
 
     /// <summary>Files in the skill folder that are not activity files (SKILL.md § Companions).</summary>
     public static readonly string[] NonActivityFiles =
-        ["SKILL.md", "artifacts.md", "map.md", "state.md", "CORPUS-STATUS.md"];
+        ["SKILL.md", "artifacts.md", "map.md", "state.md", "CORPUS-STATUS.md", "CORPORA.md"];
 }

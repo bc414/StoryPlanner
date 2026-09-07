@@ -310,7 +310,7 @@ public static class Validator
     {
         foreach (var name in doc.OrphanActivityFiles)
             findings.Add(Finding.Fail("file.orphan-activity", name,
-                "not SKILL.md, artifacts.md, map.md, state.md or CORPUS-STATUS.md, and no router row names " +
+                "not SKILL.md, artifacts.md, map.md, state.md, CORPUS-STATUS.md or CORPORA.md, and no router row names " +
                 "an activity of this name; an activity not in the table is ungoverned"));
 
         foreach (var a in doc.Activities)

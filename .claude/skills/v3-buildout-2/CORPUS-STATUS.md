@@ -2,8 +2,24 @@
 
 Updated as analyses complete and new material is added. A fact file, not a rule: read by
 the preparing activities when an instance needs specific inputs, and by building-a-tool
-when a corpus becomes readable or changes state. The corpus ids the question lists and
-the instance registry use are to be added beside each section (omissions draft, unit-176).
+when a corpus becomes readable or changes state.
+
+## Corpus ids
+
+The ids the question lists, the instance registry and every instance folder are named
+by. Four corpora are the MCP server's and are described in CLAUDE.md rather than in a
+section here.
+
+| id | corpus | where described |
+|---|---|---|
+| fimfiction-stories | the 112 analyzed Fimfiction stories and their analyses | § 112-story analysis corpus |
+| own-fiction | Brian's six published stories and the naive TLTT chapters | § Brian's own fiction |
+| google-keep | Brian's Google Keep notes, in the Takeout export | § Google Keep notes |
+| lineage | the founding-era material in `lineage.db` | § Lineage corpus |
+| v1-archive | the v1 planner's archive `.storyplan` | CLAUDE.md; readiness in § Instruments and readiness |
+| working-plan | the v2 working plan | CLAUDE.md |
+| conversations | the imported Claude conversations | CLAUDE.md |
+| code-sessions | `codesessions.db`, the sealed Claude Code transcript archive | CLAUDE.md |
 
 ## 112-story analysis corpus
 

@@ -59,6 +59,8 @@ try
         "state" => RunState(),
         "nodes" => RunNodes(),
         "hook" => RunHook(),
+        "check" => RunCheck(),
+        "records" => RunRecords(),
         _ => Usage($"Unknown verb '{verb}'."),
     };
 }
@@ -125,6 +127,69 @@ ValidationReport? Gate(string verb, string skillFolder)
     return report;
 }
 
+int RunCheck()
+{
+    if (positional.Count != 1) return Usage("check takes one argument: a file.");
+    var path = Path.GetFullPath(positional[0]);
+    if (!File.Exists(path)) { Console.Error.WriteLine($"No such file: {path}"); return 2; }
+
+    var scoped = ArtifactScope.Locate(path);
+    if (scoped is null)
+    {
+        Console.WriteLine("check: not a governed record; no artifact row with a checker matches this path.");
+        return 0;
+    }
+    var report = new ValidationReport(scoped.Checker(scoped.Context, path));
+    Console.WriteLine($"check: {scoped.Row.Id} (artifacts.md § {scoped.Row.Format})");
+    Console.Write(ReportText.Format(report));
+    return report.Passed ? 0 : 1;
+}
+
+/// <summary>Every instance of every artifact class with a checker, over the whole repository; the pre-commit gate's verb.</summary>
+int RunRecords()
+{
+    if (positional.Count != 1) return Usage("records takes one argument: the skill folder.");
+    var (repoRoot, skillFolder) = Resolve(positional[0]);
+    var doc = SkillReader.Read(skillFolder);
+    var ctx = RecordContext.From(repoRoot, skillFolder);
+    var findings = new List<Finding>();
+    var seenFiles = new HashSet<string>(StringComparer.Ordinal);
+
+    foreach (var id in RecordCheckers.CheckedIds)
+    {
+        var row = doc.Artifact(id);
+        var checker = RecordCheckers.For(id);
+        if (row is null || checker is null || !ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.OutsideRepo)
+        {
+            findings.Add(Finding.Info("records.no-row", id, "no artifact row with a parseable path; nothing checked"));
+            continue;
+        }
+        var pattern = ap.Pattern.StartsWith(".claude/skills/", StringComparison.Ordinal)
+            ? Path.GetRelativePath(repoRoot, skillFolder).Replace('\\', '/') + ap.Pattern[ap.Pattern.IndexOf('/', ".claude/skills/".Length)..]
+            : ap.Pattern;
+        var files = StateBuilder.Matches(repoRoot, ap with { Pattern = pattern }, null, null);
+        if (files.Count == 0)
+        {
+            findings.Add(Finding.Info("records.no-instance", id, $"no file matches {pattern}; nothing to check"));
+            continue;
+        }
+        var counted = 0;
+        foreach (var file in files)
+        {
+            if (!seenFiles.Add(file)) continue;
+            counted++;
+            var rel = Path.GetRelativePath(repoRoot, file).Replace('\\', '/');
+            foreach (var f in checker(ctx, file))
+                findings.Add(f with { RowId = rel });
+        }
+        Console.Error.WriteLine($"{id}: {counted} file(s) checked.");
+    }
+
+    var report = new ValidationReport(findings);
+    PrintReport(report);
+    return report.Passed ? 0 : 1;
+}
+
 int RunHook()
 {
     var outcome = WriteHook.Run(Console.In.ReadToEnd());
@@ -184,6 +249,8 @@ int Usage(string? message = null)
           DocIntegrity state    <skill-folder> [--force] [--repo <path>]
           DocIntegrity nodes    <file.md>
           DocIntegrity hook     (reads a Claude Code PostToolUse event from stdin)
+          DocIntegrity check    <file>            one record against its artifact class's format
+          DocIntegrity records  <skill-folder>    every instance of every class with a checker
         """);
     return 2;
 }

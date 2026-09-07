@@ -65,7 +65,7 @@ artifacts, each with its own mutation:
 ---
 id: 17
 status: evidenced
-baselined: false
+baselined: 2026-09-20
 created: 2026-09-01
 ---
 
@@ -75,7 +75,14 @@ created: 2026-09-01
 
 ## Record
 
-[Dated entries, oldest first, newest appended, never edited.]
+- created | 2026-09-01T10:00: <why the hypothesis exists: the observation, Brian's
+  assertion, the motivation; in Claude's voice with Brian's assertions as the content>
+- iteration | 2026-09-10T09:15: Reworded from "…" to "…" because <reason>. Entries above
+  this line are bound to the prior wording.
+- evidence | 2026-09-14T15:20 | (round-of-fimfiction-stories-1 C-014; codebook-3@3f9a1c) [supporting]:
+  <the finding, verbatim from the candidate>
+  Falsifier: <verbatim from the referee's line>
+- baselined | 2026-09-20T16:00: <Brian's rationale, in his words>
 ```
 
 **Frontmatter** (`hypothesis-status`, in-place): `id`; `status` ∈ `untested | evidenced |
@@ -89,19 +96,9 @@ that. Founding reasoning belongs in the `created` entry; provenance, implication
 method and confirm/refute conditions belong nowhere in this file.
 
 **Record** (`hypothesis-record`, append): the evidence relationship. Four entry kinds, each
-one citable unit, full ISO timestamps, grep-able by `^- created`, `^- evidence`,
-`^- iteration`, `^- baselined`.
-
-```
-- created | 2026-09-01T10:00: <why the hypothesis exists: the observation, Brian's
-  assertion, the motivation; in Claude's voice with Brian's assertions as the content>
-- evidence | 2026-09-14T15:20 | (round-of-analysis-corpus-1 C-014; codebook dt-classes-3@3f9a1c) [supporting]:
-  <the finding, verbatim from the candidate>
-  Falsifier: <verbatim from the referee's line>
-- iteration | 2026-09-16T09:15: Reworded from "…" to "…" because <reason>. Entries above
-  this line are bound to the prior wording.
-- baselined | 2026-09-20T16:00: <Brian's rationale, in his words>
-```
+one citable unit, `- <kind> | YYYY-MM-DDTHH:MM` with continuation lines indented two spaces,
+the first entry always `created`, grep-able by `^- created`, `^- evidence`, `^- iteration`,
+`^- baselined`.
 
 An `evidence` entry is written only by a promotion session from a referee-checked candidate
 and carries the instance and candidate id, the codebook version and hash, the alignment
@@ -129,7 +126,7 @@ instance produces is named by its id.
 | id | type | corpus | go |
 |---|---|---|---|
 | exploration-of-v1-archive | exploratory | v1-archive | 2026-09-12 |
-| round-of-analysis-corpus-1 | verification | analysis-corpus | 2026-09-20 |
+| round-of-fimfiction-stories-1 | verification | fimfiction-stories | 2026-09-20 |
 ```
 
 `id` is `exploration-of-<corpus>[-<n>]`, `round-of-<corpus>-<n>`, or `referee-<n>`; a
@@ -152,9 +149,17 @@ and a tool an instance needs is built as its first task.
 ## Hypothesis index
 
 `docs/v3-framework/hypotheses/INDEX.md` — a routing table, two columns (id, slug as link),
-in id order so a top-to-bottom scan is comprehension order. It changes only when a file is
-minted or superseded. It carries no status or baselined column; status is read from the
-files (`grep -h '^status:' docs/v3-framework/hypotheses/0*.md | sort | uniq -c`).
+in id order so a top-to-bottom scan is comprehension order, every file in the folder listed
+and every link resolving. It changes only when a file is minted or superseded. It carries no
+status or baselined column; status is read from the files
+(`grep -h '^status:' docs/v3-framework/hypotheses/0*.md | sort | uniq -c`).
+
+```markdown
+| ID | Slug |
+|----|------|
+| 001 | [planner-purpose-trajectories](001-planner-purpose-trajectories.md) |
+| 002 | [epistemic-method-provenance](002-epistemic-method-provenance.md) |
+```
 
 ## Question entry
 
@@ -260,14 +265,14 @@ results are not copied here: they live in the run's `results/` and `tally.md`, c
 folder and ledger row.
 
 ```markdown
-# round-of-analysis-corpus-1
+# round-of-fimfiction-stories-1
 
 ## Method
 <the codebook id and hash and its calibration record; the itemizer and item count; the
 generator; models; harness version; the run folders and ledgers; what was not measured>
 
 ## Questions answered
-<the entries of questions/analysis-corpus.md this round's items and predicates cover, by
+<the entries of questions/fimfiction-stories.md this round's items and predicates cover, by
 title; this list is what the tool derives a question's answered state from>
 
 ## Counts
@@ -457,3 +462,24 @@ verdicts go into an entry's prose, a handoff or `run.md`, never a bare paragraph
 revision's section is read whole by `revise`; older sections by heading. A decision that
 changes an earlier revision's text reaches it through the supersession audit's unit ids, in
 prose.
+
+## Corpora
+
+`CORPORA.md` in the skill folder — the inventory of corpora, a fact file with no state in
+it: one section per corpus, its id as the heading, then what it is, where it lives and how
+it is read, then caveats. No progress (derived into `state.md` from the registry), no
+readiness dates (they are decisions), no deferrals, no counts in prose (name the source of
+truth). Its section headings are the corpus ids the question lists and the registry use.
+Written by `build` when a corpus appears or a reader for it is built.
+
+```markdown
+## fimfiction-stories
+
+- what: the Fimfiction stories analyzed under the v4 brief, and their analyses; the population is `.claude/skills/analyze-story/populations.md`
+- where: `Documents/Fimfiction Favorites/markdowns/` and `markdowns1/` for the texts, outside the repo; `source_material_references/Reading Archive Analyses/` for the analyses
+- read by: files; a runner job takes a story as an input file
+
+Four stories in the favorites are outside the corpus: unread, abandoned, or dropped, named
+in `populations.md`. The analyses are the map to loci; a round's items are cut from the
+texts, never from an analysis alone.
+```

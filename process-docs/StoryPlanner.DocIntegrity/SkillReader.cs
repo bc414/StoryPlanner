@@ -61,6 +61,17 @@ public static class SkillReader
         return new SkillDocument(skillFolder, activities, processes, artifacts, orphans);
     }
 
+    /// <summary>The Artifacts table alone, for scope resolution that needs no activity file.</summary>
+    public static IReadOnlyList<ArtifactRow> ReadArtifacts(string skillFolder)
+    {
+        var artifactsPath = Path.Combine(skillFolder, "artifacts.md");
+        if (!File.Exists(artifactsPath))
+            throw new MapFormatException($"no artifacts.md in {skillFolder}", "artifacts.missing");
+        return Only(artifactsPath, ArtifactCols, "Artifacts").Rows
+            .Select(r => new ArtifactRow(r.Cells[0], r.Cells[1], r.Cells[2], r.Cells[3], r.Cells[4], "artifacts.md", r.Line))
+            .ToList();
+    }
+
     /// <summary>The one table a file may hold. Any other signature, or a second copy, is a refusal.</summary>
     static MarkdownTable Only(string path, string[] cols, string name)
     {
