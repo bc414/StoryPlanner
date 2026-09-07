@@ -20,8 +20,8 @@ public sealed record CheckedClass(string RepoRoot, string SkillFolder, ArtifactR
 /// The artifacts table is the scope. A path is matched against every row's pattern in every
 /// governed skill folder of its repository, placeholders as wildcards; the first row with a
 /// checker wins; no match, or a match with no checker, is silence. The tool carries no path
-/// list of its own: adding a row and a format to artifacts.md is what puts a file under the
-/// hook and under <c>check</c>.
+/// list of its own: adding a row to the Artifacts table and a format file is what puts a file
+/// under the hook and under <c>check</c>.
 ///
 /// A row whose pattern lies under <c>.claude/skills/&lt;name&gt;/</c> names the skill folder by
 /// its post-swap name; it is matched against the governing folder's actual name, so the

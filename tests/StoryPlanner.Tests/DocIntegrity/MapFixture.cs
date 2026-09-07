@@ -9,10 +9,10 @@ namespace StoryPlanner.Tests;
 /// <summary>
 /// A tiny repository on disk holding a skill folder that validates clean: a three-row router
 /// (a terminus, an hitl activity that writes hypothesis artifacts from candidates, a session
-/// activity that writes candidates), two activity files and an Artifacts table. Every failing
-/// test starts from this and breaks exactly one thing, so a finding can only come from the
-/// mutation. <see cref="WithStateTree"/> adds the docs and fanout files the <c>state</c> verb
-/// reads.
+/// activity that writes candidates), the Artifacts table beside it in SKILL.md, two activity
+/// files and one format file per format the table names. Every failing test starts from this
+/// and breaks exactly one thing, so a finding can only come from the mutation.
+/// <see cref="WithStateTree"/> adds the docs and fanout files the state derivation reads.
 ///
 /// Small and inline on purpose: the real skill folder is never a fixture (see the testing
 /// skill), because a test that reads it would fail whenever the method changes. The activity
@@ -21,11 +21,12 @@ namespace StoryPlanner.Tests;
 public sealed class MapFixture : IDisposable
 {
     public const string SkillFile = "SKILL.md";
-    public const string ArtifactsFile = "artifacts.md";
     public const string RefereeingFile = "refereeing-a-candidate.md";
     public const string PromotingFile = "promoting-checked-candidates.md";
     public const string Study = "round-of-analysis-corpus-1";
     public const string OpenQuestion = "Does the DT class split?";
+
+    public static readonly string[] FormatIds = ["hypothesis-file", "question-entry", "study-registry", "candidate", "codebook"];
 
     public string RepoRoot { get; }
     public string SkillFolder { get; }
@@ -39,7 +40,6 @@ public sealed class MapFixture : IDisposable
         var files = new Dictionary<string, string?>(StringComparer.Ordinal)
         {
             [SkillFile] = Skill,
-            [ArtifactsFile] = Artifacts,
             [RefereeingFile] = Refereeing,
             [PromotingFile] = Promoting,
         };
@@ -48,6 +48,8 @@ public sealed class MapFixture : IDisposable
 
         foreach (var (name, content) in files)
             if (content is not null) File.WriteAllText(Path.Combine(SkillFolder, name), content);
+
+        foreach (var id in FormatIds) WriteFormat(id, $"# {id}\n\nThe shape.\n");
     }
 
     /// <summary>One file with one substring replaced — the shape of every failing case.</summary>
@@ -68,7 +70,6 @@ public sealed class MapFixture : IDisposable
     public static string Default(string file) => file switch
     {
         SkillFile => Skill,
-        ArtifactsFile => Artifacts,
         RefereeingFile => Refereeing,
         PromotingFile => Promoting,
         _ => throw new InvalidOperationException($"no default fixture file '{file}'"),
@@ -76,11 +77,19 @@ public sealed class MapFixture : IDisposable
 
     public string Read(string file) => File.ReadAllText(Path.Combine(SkillFolder, file));
 
+    /// <summary>Writes (or overwrites) one format file under formats/.</summary>
+    public void WriteFormat(string id, string content)
+    {
+        var formats = Path.Combine(SkillFolder, SkillReader.FormatsFolder);
+        Directory.CreateDirectory(formats);
+        File.WriteAllText(Path.Combine(formats, id + ".md"), content);
+    }
+
     public SkillDocument Doc => SkillReader.Read(SkillFolder);
 
     public ValidationReport Report => Validator.Validate(SkillFolder);
 
-    /// <summary>The docs and fanout files <c>state</c> reads: one verification study, one question list, two hypotheses.</summary>
+    /// <summary>The docs and fanout files the state derivation reads: one verification study, one question list, two hypotheses.</summary>
     public MapFixture WithStateTree()
     {
         var docs = Path.Combine(RepoRoot, "docs", "v3-framework");
@@ -235,6 +244,25 @@ public sealed class MapFixture : IDisposable
         catch (IOException) { /* a temp dir the OS still holds is not a test failure */ }
     }
 
+    /// <summary>The Artifacts table as it sits in SKILL.md; a test removes it to make the folder ungoverned.</summary>
+    public const string ArtifactsSection = """
+        ## Artifacts
+
+        | id | path | mutation | format | description |
+        |---|---|---|---|---|
+        | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | hypothesis-file | The evidence relationship |
+        | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | hypothesis-file | Status and baselined |
+        | question-list | docs/v3-framework/questions/<corpus>.md | append | question-entry | Brian's open questions |
+        | studies | docs/v3-framework/studies.md | append | study-registry | One row per study |
+        | candidates | fanout/<study>/candidates.md | append | candidate | One round's findings |
+        | codebook | fanout/<study>/codebook-N.md | succeeded | codebook | The frozen instrument |
+        | calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
+        | verification-artifact | docs/v3-framework/<study>/round.md | append | | One round's method and counts |
+        | items | fanout/<study>/<run>/items/ | frozen | | The units one run judges |
+        | results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |
+
+        """;
+
     public const string Skill = """
         ---
         name: example
@@ -251,9 +279,10 @@ public sealed class MapFixture : IDisposable
         | promoting-checked-candidates | changing-the-planner-for-v3 | Brian decides the referee-checked candidates |
         | refereeing-a-candidate | promoting-checked-candidates | A blind agent classifies each candidate |
 
+        """ + ArtifactsSection + """
         ## Companions
 
-        artifacts.md holds the Artifacts table; map.md and state.md are generated only.
+        formats/ holds one file per format the Artifacts table names; map.md and state.md are generated only.
         """;
 
     public const string Refereeing = """
@@ -308,42 +337,5 @@ public sealed class MapFixture : IDisposable
         ## Never
 
         Promotes what Brian did not decide.
-        """;
-
-    public const string Artifacts = """
-        # Artifacts
-
-        | id | path | mutation | format | description |
-        |---|---|---|---|---|
-        | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | Hypothesis file | The evidence relationship |
-        | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | Hypothesis file | Status and baselined |
-        | question-list | docs/v3-framework/questions/<corpus>.md | append | Question entry | Brian's open questions |
-        | studies | docs/v3-framework/studies.md | append | Study registry | One row per study |
-        | candidates | fanout/<study>/candidates.md | append | Candidate | One round's findings |
-        | codebook | fanout/<study>/codebook-N.md | succeeded | Codebook | The frozen instrument |
-        | calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
-        | verification-artifact | docs/v3-framework/<study>/round.md | append | | One round's method and counts |
-        | items | fanout/<study>/<run>/items/ | frozen | | The units one run judges |
-        | results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |
-
-        ## Hypothesis file
-
-        The shape.
-
-        ## Question entry
-
-        The shape.
-
-        ## Study registry
-
-        The shape.
-
-        ## Candidate
-
-        The shape.
-
-        ## Codebook
-
-        The shape.
         """;
 }

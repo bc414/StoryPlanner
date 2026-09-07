@@ -920,3 +920,25 @@ stays green while the hypotheses fail until the re-founding. Not taken: renaming
 leaving two verbs for checking shape and two for deriving files; folding the hook into
 `check` as a flag, which would hide a side effect in a check. Executed next session with
 the vocabulary rename.
+
+### The Artifacts table lives in SKILL.md; each format is its own file; artifacts.md retires
+
+- date: 2026-09-07
+- supersedes: d-2026-09-06-29
+
+Prompted by the first real use of the leads format, three files free wherever the schema
+should have read them; by every format gaining an entry grammar and its query patterns;
+and by Anthropic's skill guidance, "keep references one level deep from SKILL.md", which
+SKILL.md → artifacts.md → a format section broke and a split into files would have kept
+broken. Brian: "Each activity file within the skill needs to interact with different
+artifact classes and shouldn't pollute their context with irrelevant ones"; "Go with A and
+slug." The Artifacts table and its placeholder preamble move into SKILL.md beside the
+Activities table; each format is a file `formats/<id>.md` whose title is its id; the
+`format` column holds that id, a lowercase slug like every other id, and SKILL.md's
+companions section says the file it names; a format file carries its class's schema, its
+example block as the checker's fixture, and how the class is read, with a contents list
+when it runs past a hundred lines; artifacts.md is deleted. A governed skill folder is now
+a SKILL.md that holds an Artifacts table. What stands: one table by schema; the example
+blocks are fixtures. Not taken: artifacts.md kept with SKILL.md also linking every format
+file, a second copy of the format column; the split alone, two levels deep against the
+guidance.

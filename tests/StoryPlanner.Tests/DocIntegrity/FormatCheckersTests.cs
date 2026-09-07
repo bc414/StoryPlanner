@@ -9,7 +9,7 @@ namespace StoryPlanner.Tests;
 
 /// <summary>
 /// The format checkers, pure tier. Each class's passing case is the example block of its
-/// format in the real artifacts.md (<see cref="FormatExamples"/>), written into a temp tree at
+/// format file in the real skill folder (<see cref="FormatExamples"/>), written into a temp tree at
 /// the path its artifact row names; each failing case is that example with one thing broken.
 /// Assertions are on rule ids, never on message prose.
 /// </summary>
@@ -50,7 +50,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_hypothesis_example_passes()
     {
-        var path = Write(HypothesisPath, FormatExamples.Block("Hypothesis file"));
+        var path = Write(HypothesisPath, FormatExamples.Block("hypothesis-file"));
         Assert.Empty(Rules(HypothesisFile.Check(Ctx(), path)));
     }
 
@@ -64,7 +64,7 @@ public class FormatCheckersTests : IDisposable
     [InlineData("- evidence | 2026-09-14T15:20 |", "- evidence | 2026-09-14 |", "hypothesis.entry")]
     public void A_hypothesis_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
     {
-        var text = FormatExamples.Block("Hypothesis file");
+        var text = FormatExamples.Block("hypothesis-file");
         Assert.Contains(find, text);
         var path = Write(HypothesisPath, text.Replace(find, replace));
         Assert.Contains(rule, Rules(HypothesisFile.Check(Ctx(), path)));
@@ -73,7 +73,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void A_created_entry_that_is_not_first_fails()
     {
-        var text = FormatExamples.Block("Hypothesis file");
+        var text = FormatExamples.Block("hypothesis-file");
         var created = "- created | 2026-09-01T10:00: <why the hypothesis exists: the observation, Brian's\n  assertion, the motivation; in Claude's voice with Brian's assertions as the content>\n";
         Assert.Contains(created, text);
         var moved = text.Replace(created, "") .Replace("## Record\n\n", "## Record\n\n- iteration | 2026-09-02T09:00: first.\n" + created);
@@ -84,7 +84,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void A_stray_line_in_the_record_that_is_neither_entry_nor_continuation_fails()
     {
-        var text = FormatExamples.Block("Hypothesis file").Replace("## Record\n\n", "## Record\n\nSome prose here.\n\n");
+        var text = FormatExamples.Block("hypothesis-file").Replace("## Record\n\n", "## Record\n\nSome prose here.\n\n");
         var path = Write(HypothesisPath, text);
         Assert.Contains("hypothesis.entry", Rules(HypothesisFile.Check(Ctx(), path)));
     }
@@ -92,7 +92,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_id_must_match_the_file_name()
     {
-        var path = Write("docs/v3-framework/hypotheses/018-example.md", FormatExamples.Block("Hypothesis file"));
+        var path = Write("docs/v3-framework/hypotheses/018-example.md", FormatExamples.Block("hypothesis-file"));
         Assert.Contains("hypothesis.frontmatter", Rules(HypothesisFile.Check(Ctx(), path)));
     }
 
@@ -103,7 +103,7 @@ public class FormatCheckersTests : IDisposable
     {
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/002-epistemic-method-provenance.md", "# stub\n");
-        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("Hypothesis index"));
+        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("hypothesis-index"));
         Assert.Empty(Rules(HypothesisIndex.Check(Ctx(), path)));
     }
 
@@ -111,7 +111,7 @@ public class FormatCheckersTests : IDisposable
     public void A_row_whose_file_is_absent_fails_the_link()
     {
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
-        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("Hypothesis index"));
+        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("hypothesis-index"));
         Assert.Contains("index.link", Rules(HypothesisIndex.Check(Ctx(), path)));
     }
 
@@ -121,7 +121,7 @@ public class FormatCheckersTests : IDisposable
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/002-epistemic-method-provenance.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/003-unlisted.md", "# stub\n");
-        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("Hypothesis index"));
+        var path = Write("docs/v3-framework/hypotheses/INDEX.md", FormatExamples.Block("hypothesis-index"));
         Assert.Contains("index.missing", Rules(HypothesisIndex.Check(Ctx(), path)));
     }
 
@@ -130,7 +130,7 @@ public class FormatCheckersTests : IDisposable
     {
         Write("docs/v3-framework/hypotheses/001-planner-purpose-trajectories.md", "# stub\n");
         Write("docs/v3-framework/hypotheses/002-epistemic-method-provenance.md", "# stub\n");
-        var lines = FormatExamples.Block("Hypothesis index").TrimEnd('\n').Split('\n');
+        var lines = FormatExamples.Block("hypothesis-index").TrimEnd('\n').Split('\n');
         var swapped = string.Join('\n', [lines[0], lines[1], lines[3], lines[2]]) + "\n";
         var path = Write("docs/v3-framework/hypotheses/INDEX.md", swapped);
         Assert.Contains("index.order", Rules(HypothesisIndex.Check(Ctx(), path)));
@@ -143,7 +143,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_registry_example_passes_against_the_corpora_it_names()
     {
-        var path = Write(RegistryPath, FormatExamples.Block("Study registry"));
+        var path = Write(RegistryPath, FormatExamples.Block("study-registry"));
         Assert.Empty(Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path)));
     }
 
@@ -159,7 +159,7 @@ public class FormatCheckersTests : IDisposable
     [InlineData("| something-else | exploratory | v1-archive | 2026-09-21 |", new[] { "registry.id" })]
     public void A_registry_row_is_held_to_its_form(string row, string[] expected)
     {
-        var path = Write(RegistryPath, FormatExamples.Block("Study registry") + row + "\n");
+        var path = Write(RegistryPath, FormatExamples.Block("study-registry") + row + "\n");
         var rules = Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path));
         if (expected.Length == 0) Assert.Empty(rules);
         else foreach (var r in expected) Assert.Contains(r, rules);
@@ -168,7 +168,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void With_no_corpus_ids_available_the_corpus_column_is_reported_not_failed()
     {
-        var path = Write(RegistryPath, FormatExamples.Block("Study registry"));
+        var path = Write(RegistryPath, FormatExamples.Block("study-registry"));
         var findings = Registry.Check(Ctx(), path);
         Assert.Empty(Rules(findings));
         Assert.Contains("registry.corpora-unavailable", findings.Select(f => f.RuleId));
@@ -179,21 +179,21 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_leads_example_passes_at_its_study_folder()
     {
-        var path = Write("docs/v3-framework/exploration-of-v1-archive/leads.md", FormatExamples.Block("Leads artifact"));
+        var path = Write("docs/v3-framework/exploration-of-v1-archive/leads.md", FormatExamples.Block("leads-artifact"));
         Assert.Empty(Rules(Leads.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_leads_artifact_in_the_wrong_folder_fails_its_title()
     {
-        var path = Write("docs/v3-framework/exploration-of-lineage/leads.md", FormatExamples.Block("Leads artifact"));
+        var path = Write("docs/v3-framework/exploration-of-lineage/leads.md", FormatExamples.Block("leads-artifact"));
         Assert.Contains("leads.title", Rules(Leads.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_leads_artifact_missing_a_section_fails()
     {
-        var text = FormatExamples.Block("Leads artifact").Replace("## Bins\n", "");
+        var text = FormatExamples.Block("leads-artifact").Replace("## Bins\n", "");
         var path = Write("docs/v3-framework/exploration-of-v1-archive/leads.md", text);
         Assert.Contains("leads.sections", Rules(Leads.Check(Ctx(), path)));
     }
@@ -203,14 +203,14 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void The_corpora_example_passes()
     {
-        var path = Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("Corpora"));
+        var path = Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("corpora"));
         Assert.Empty(Rules(Corpora.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_corpus_without_its_three_lines_fails()
     {
-        var text = FormatExamples.Block("Corpora").Replace("- read by:", "- readers:");
+        var text = FormatExamples.Block("corpora").Replace("- read by:", "- readers:");
         var path = Write(".claude/skills/example/CORPORA.md", text);
         Assert.Contains("corpora.fields", Rules(Corpora.Check(Ctx(), path)));
     }
@@ -218,7 +218,7 @@ public class FormatCheckersTests : IDisposable
     [Fact]
     public void A_duplicate_corpus_id_fails()
     {
-        var text = FormatExamples.Block("Corpora");
+        var text = FormatExamples.Block("corpora");
         var path = Write(".claude/skills/example/CORPORA.md", text + "\n" + text);
         Assert.Contains("corpora.duplicate", Rules(Corpora.Check(Ctx(), path)));
     }
@@ -227,7 +227,7 @@ public class FormatCheckersTests : IDisposable
     public void Corpus_ids_are_the_section_headings_of_CORPORA_md()
     {
         Assert.Empty(Corpora.Ids(_skill));
-        Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("Corpora") + "\n## lineage\n\n- what: x\n- where: y\n- read by: z\n");
+        Write(".claude/skills/example/CORPORA.md", FormatExamples.Block("corpora") + "\n## lineage\n\n- what: x\n- where: y\n- read by: z\n");
         Assert.Equal(["fimfiction-stories", "lineage"], Corpora.Ids(_skill).OrderBy(x => x).ToArray());
     }
 

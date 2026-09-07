@@ -43,7 +43,7 @@ public static class FormatCheckers
 }
 
 /// <summary>
-/// artifacts.md § Hypothesis file. Shape from the fifty real files (four frontmatter keys, two
+/// formats/hypothesis-file.md. Shape from the fifty real files (four frontmatter keys, two
 /// sections, four entry kinds, minute-precision timestamps); rules from decisions: an evidence
 /// entry is written only by a promotion from a referee-checked candidate and carries its
 /// citation and falsifier (decisions d-2026-09-05-3, d-2026-09-06-2), an iteration entry is a
@@ -223,7 +223,7 @@ public static class HypothesisFile
     }
 }
 
-/// <summary>artifacts.md § Hypothesis index: two columns, id order, every file listed, every link resolving.</summary>
+/// <summary>formats/hypothesis-index.md: two columns, id order, every file listed, every link resolving.</summary>
 public static class HypothesisIndex
 {
     static readonly Regex Link = new(@"^\[(?<slug>[a-z0-9-]+)\]\((?<file>\d{3}-[a-z0-9-]+\.md)\)$", RegexOptions.Compiled);
@@ -274,7 +274,7 @@ public static class HypothesisIndex
 }
 
 /// <summary>
-/// artifacts.md § Study registry: id · type · corpus · go, appended at Brian's go; ids of
+/// formats/study-registry.md: id · type · corpus · go, appended at Brian's go; ids of
 /// three forms; the corpus a name from the corpora file, verified-artifacts, or candidates.
 /// </summary>
 public static class Registry
@@ -354,7 +354,7 @@ public static class Registry
     }
 }
 
-/// <summary>artifacts.md § Leads artifact: titled by its study, six sections in order.</summary>
+/// <summary>formats/leads-artifact.md: titled by its study, six sections in order.</summary>
 public static class Leads
 {
     public static readonly string[] Sections = ["Method", "Questions in view", "Leads", "Bins", "Proposed questions", "Corrections"];
@@ -381,7 +381,7 @@ public static class Leads
 }
 
 /// <summary>
-/// artifacts.md § Corpora: one section per corpus, its id as the heading, then what, where and
+/// formats/corpora.md: one section per corpus, its id as the heading, then what, where and
 /// read-by lines, then caveats. Also the source of corpus ids for the registry: the section
 /// headings of CORPORA.md.
 /// </summary>

@@ -119,11 +119,12 @@ the same session in the same activity are one process.
 - `state` ∈ `built · specified`: executed at least once under the current text, or only
   written down. Development state of the process type; never the state of a run.
 
-**Artifacts** — the table in `artifacts.md`. `id · path · mutation · format · description`.
-An artifact is a class; the files matching its pattern are its files. `path` is one
-repo-relative pattern, placeholders in angle brackets, or `outside the repo`; never prose.
-`mutation` ∈ `in-place · succeeded · append · frozen` (rule 9). `format` is the heading in
-`artifacts.md` that specifies the artifact's shape, or blank where none is authored.
+**Artifacts** — the table under § Artifacts below. `id · path · mutation · format ·
+description`. An artifact is a class; the files matching its pattern are its files. `path`
+is one repo-relative pattern, placeholders in angle brackets, or `outside the repo`; never
+prose. `mutation` ∈ `in-place · succeeded · append · frozen` (rule 9). `format` is the id
+of the file `formats/<id>.md` that specifies the artifact's shape, a lowercase slug whose
+file's title is that id, or blank where none is authored.
 
 **An activity file** has one shape and carries procedure only: the title (the activity
 id); one line naming what it enables; the Processes table;
@@ -136,7 +137,7 @@ decision lands; it cannot script the middle. An `agent` section names the instru
 what the generator materialises for it; the agent never sees the file. A runner section
 names the run's reads and writes and defers to the `agent-runner` skill. Nothing in the
 prose restates the table, an artifact's mutation, a rule, or a word defined in this file
-or `artifacts.md`. Files are types: no corpus or study appears in one.
+or a format file. Files are types: no corpus or study appears in one.
 
 **Derived, never authored:** order and data flow (a process reads what another wrote),
 consumers of each artifact, each activity's inputs, outputs and instruments, and the check
@@ -181,14 +182,71 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, the runner, talliers, renders, the validator; CORPORA.md updated when a corpus becomes readable |
 | revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, two lints passing (the validator; for a rewrite, the supersession audit of the prior text), a write-once revision note recording what changed and why |
 
+## Artifacts — the classes
+
+Every artifact a process in this skill reads or writes. An artifact is a class; the files
+matching its pattern are its files. Consumers are never written here; the validator
+derives them. A format is the file `formats/<id>.md` the `format` column names: its
+example block is the fixture its checker in `process-docs/StoryPlanner.DocIntegrity` is
+tested against, the block and the grammar sentences around it are what the machine reads,
+the guidance sentences are for the author, and a format edited without its checker fails
+a test.
+
+Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPORA.md`;
+`<study>` a study's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
+or `round-of-<corpus>-<n>`), except that every `referee-<n>` shares the folder `referee`
+and the method's own supersession audit, a work outside the buildout's studies, runs
+under `skill-audits`; `<run>` a runner run folder, `<date>[-<slug>]`, one per batch
+execution; `<date>` an ISO date; `<Name>` a tool project's name; `NNN` a hypothesis id;
+`N` a version number. A study's authored artifacts live in one directory named by it
+under `docs/v3-framework/`; its runner input and output, including the referee runs that
+serve it, live under `fanout/<study>/`. `fanout/referee/` holds only the referee's
+shared instrument and the iteration candidates.
+
+| id | path | mutation | format | description |
+|---|---|---|---|---|
+| hypothesis-statement | docs/v3-framework/hypotheses/NNN-slug.md § Hypothesis | in-place | hypothesis-file | The current wording of one hypothesis |
+| hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | hypothesis-file | The evidence relationship: dated entries, never edited |
+| hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | hypothesis-file | Status and baselined, computed from the record |
+| hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | hypothesis-index | Id and slug per hypothesis, id order |
+| question-list | docs/v3-framework/questions/<corpus>.md | append | question-entry | Brian's open questions about one corpus |
+| studies | docs/v3-framework/studies.md | append | study-registry | One row per study of a chain, declared at Brian's go; the ids every artifact path is named by |
+| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study where it is; per corpus, open questions and whether a calibrated codebook covers them; per hypothesis, status and whether any open question names it |
+| revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
+| decisions | docs/v3-framework/decisions.md | append | decisions | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
+| leads-artifact | docs/v3-framework/<study>/leads.md | append | leads-artifact | What one exploration observed, organised by locus |
+| verification-artifact | docs/v3-framework/<study>/round.md | append | verification-artifact | One round's method, questions answered, counts and promotion summary |
+| arm-key | docs/v3-framework/<study>/arm-key.md | frozen | arm-key | The blinding key: arm label to condition and model; opened only after binning |
+| candidates | fanout/<study>/candidates.md | append | candidate | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
+| iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | candidate | Prior findings re-queued after a rewording of hypothesis NNN |
+| corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | corpora | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
+| codebook | fanout/<study>/codebook-N.md | succeeded | codebook | The frozen instrument a round or the referee runs under |
+| reading-protocol | fanout/<study>/protocol-N.md | succeeded | reading-protocol | The instruction slice readers run under; piloted, not calibrated |
+| calibration | fanout/<study>/calibration-<date>.md | frozen | calibration | One codebook version's agreement with Brian's blind verdicts, and the rulings |
+| itemizer | fanout/<study>/itemize.* | in-place | | A script that produces a corpus's items; an itemizer that is a tool project is tool-source |
+| generator | fanout/<study>/make-jobs.* | in-place | | Code that writes jobs from the manifest |
+| tallier | fanout/<study>/tally.* | in-place | | Code that reduces results to counts and flagged rows |
+| items | fanout/<study>/<run>/items/ | frozen | | The units one run judges, one file each; a referee run's sit under fanout/<study>/referee/<run>/ |
+| items-manifest | fanout/<study>/<run>/items/manifest.md | frozen | | The index of a run's items |
+| jobs | fanout/<study>/<run>/jobs.json | frozen | | One run's job file; an edit is a new run |
+| ledger | fanout/<study>/<run>/ledger.jsonl | append | | One row per attempt, with hashes |
+| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs, one per job |
+| tally-output | fanout/<study>/<run>/tally.md | frozen | | The tallier's counts and flagged rows for one run |
+| run-page | fanout/<study>/<run>/run.md | append | run-page | The authored front page of one run |
+| skill | .claude/skills/v3-buildout/ | in-place | | The method's instructions: the router with its two tables, the activity files and the format files |
+| runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
+| map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
+| audit-protocol | fanout/skill-audits/protocol.md | in-place | | The supersession audit's instrument: three questions about one unit of a prior method text, judged against the new folder |
+| tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, the runner; the validator lives under process-docs/ and is a free-name instrument, not an artifact |
+| corpus | outside the repo | in-place | | The corpora named in CORPORA.md, read through the MCP server, files or sqlite3 |
+
 ## Companions that are not activities
 
-`artifacts.md` — the Artifacts table and every authored format (hypothesis file, index,
-question entry, study registry, candidate, leads and verification artifacts, arm key,
-reading protocol, codebook, calibration, run.md, decisions, corpora). `CORPORA.md` — the
-corpora: what each is, where it lives, how it is read; a fact file, not a rule. `map.md`
-and `state.md` — generated only. The `agent-runner` skill governs the runner as an instrument and is read in
-full by any process that invokes it.
+`formats/<id>.md` — one file per format the Artifacts table names in its `format` column:
+the class's schema, its example block as the checker's fixture, and how the class is read.
+`CORPORA.md` — the corpora: what each is, where it lives, how it is read; a fact file, not
+a rule. `map.md` and `state.md` — generated only. The `agent-runner` skill governs the
+runner as an instrument and is read in full by any process that invokes it.
 
 ## Vocabulary
 

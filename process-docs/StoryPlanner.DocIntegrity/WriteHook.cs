@@ -30,10 +30,10 @@ public sealed record HookPayload(string HookEventName, string ToolName, string? 
 
 /// <summary>
 /// Which folders the write hook governs, decided by shape and never by name: a folder at
-/// <c>.claude/skills/&lt;name&gt;/</c> that holds both <c>SKILL.md</c> and <c>artifacts.md</c>
-/// is a revision-2 method skill and its tables are what <c>check</c> holds to the schema. The
-/// live revision-1 skill has no artifacts table and is therefore not governed, which is right:
-/// it is not edited before the swap, and the hook has nothing to check it against.
+/// <c>.claude/skills/&lt;name&gt;/</c> whose <c>SKILL.md</c> holds an Artifacts table is a
+/// revision-2 method skill and its tables are what <c>check</c> holds to the schema. The live
+/// revision-1 skill has no such table and is therefore not governed, which is right: it is
+/// not edited before the swap, and the hook has nothing to check it against.
 /// </summary>
 public static class GovernedSkill
 {
@@ -74,8 +74,7 @@ public static class GovernedSkill
         return parent is not null && grand is not null
                && string.Equals(parent.Name, SkillsFolder, StringComparison.OrdinalIgnoreCase)
                && string.Equals(grand.Name, ClaudeFolder, StringComparison.OrdinalIgnoreCase)
-               && File.Exists(Path.Combine(dir.FullName, "SKILL.md"))
-               && File.Exists(Path.Combine(dir.FullName, "artifacts.md"));
+               && SkillReader.HasArtifactsTable(Path.Combine(dir.FullName, "SKILL.md"));
     }
 }
 
@@ -213,7 +212,7 @@ public static class WriteHook
             $"DocIntegrity: after the write to {Path.GetFileName(filePath)}, it fails the format of `{governed.Row.Id}` " +
             $"({report.Failures} failure(s)):\n" +
             ReportText.FormatFailures(report) +
-            $"The format is artifacts.md, section \"{governed.Row.Format}\". Fix the file, then re-run check until it passes:\n" +
+            $"The format is {SkillReader.FormatsFolder}/{governed.Row.Format}.md. Fix the file, then re-run check until it passes:\n" +
             $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check {rel}\n" +
             "Do not work around this check by writing through the shell; every write to a governed file goes " +
             "through Edit or Write so the check sees it.";

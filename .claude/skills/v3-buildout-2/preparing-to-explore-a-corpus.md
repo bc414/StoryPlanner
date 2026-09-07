@@ -36,7 +36,7 @@ units, otherwise a script with tests. The cut is mechanical and recorded in the 
 
 ## author-protocol
 
-Written against the real slices in the format `artifacts.md` § Reading protocol, with the
+Written against the real slices in the format `formats/reading-protocol.md`, with the
 questions in view verbatim and the lead-set form the joiner expects. A new numbered
 file.
 

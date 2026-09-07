@@ -3,10 +3,10 @@ using System.Text.RegularExpressions;
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
-/// The rows of the three tables the skill obeys (SKILL.md § Schema): Activities in the
-/// router, Processes at the head of each activity file, Artifacts in <c>artifacts.md</c>. The
-/// columns are the schema, the rows are in flux. Every row carries its file and line so a
-/// finding can name where it came from.
+/// The rows of the three tables the skill obeys (SKILL.md § Schema): Activities and Artifacts
+/// in the router, Processes at the head of each activity file. The columns are the schema,
+/// the rows are in flux. Every row carries its file and line so a finding can name where it
+/// came from.
 /// </summary>
 public sealed record ActivityRow(
     string Id,
@@ -46,11 +46,18 @@ public sealed record SkillDocument(
     IReadOnlyList<ActivityRow> Activities,
     IReadOnlyList<ProcessRow> Processes,
     IReadOnlyList<ArtifactRow> Artifacts,
-    IReadOnlyList<string> OrphanActivityFiles)
+    IReadOnlyList<string> OrphanActivityFiles,
+    IReadOnlyList<string> OrphanFormatFiles)
 {
     public string SkillPath => System.IO.Path.Combine(SkillFolder, "SKILL.md");
-    public string ArtifactsPath => System.IO.Path.Combine(SkillFolder, "artifacts.md");
+    public string FormatsFolder => System.IO.Path.Combine(SkillFolder, SkillReader.FormatsFolder);
+    public string FormatPath(string formatId) => System.IO.Path.Combine(FormatsFolder, formatId + ".md");
     public string ActivityPath(string activityId) => System.IO.Path.Combine(SkillFolder, activityId + ".md");
+
+    /// <summary>Every format file a row names and that exists.</summary>
+    public IEnumerable<string> FormatPaths()
+        => Artifacts.Select(a => a.Format).Where(f => f.Length > 0).Distinct(StringComparer.Ordinal)
+            .Select(FormatPath).Where(File.Exists);
 
     public IEnumerable<ProcessRow> ProcessesOf(string activityId)
         => Processes.Where(p => p.Activity == activityId);
@@ -130,5 +137,5 @@ public static class WellKnown
 
     /// <summary>Files in the skill folder that are not activity files (SKILL.md § Companions).</summary>
     public static readonly string[] NonActivityFiles =
-        ["SKILL.md", "artifacts.md", "map.md", "state.md", "CORPORA.md"];
+        ["SKILL.md", "map.md", "state.md", "CORPORA.md"];
 }

@@ -1,3 +1,4 @@
+using System.IO;
 using System.Linq;
 using StoryPlanner.DocIntegrity;
 using Xunit;
@@ -11,7 +12,7 @@ namespace StoryPlanner.Tests;
 public class ValidatorTests
 {
     const string Skill = MapFixture.SkillFile;
-    const string Artifacts = MapFixture.ArtifactsFile;
+    const string Artifacts = MapFixture.SkillFile;
     const string Refereeing = MapFixture.RefereeingFile;
     const string Promoting = MapFixture.PromotingFile;
 
@@ -78,8 +79,28 @@ public class ValidatorTests
         => Fails("ref.writes", MapFixture.With(Refereeing, "| codebook items | results | specified |", "| codebook items | nope | specified |"));
 
     [Fact]
-    public void A_format_naming_no_heading_in_artifacts_md_does_not_resolve()
-        => Fails("ref.format", MapFixture.With(Artifacts, "| Candidate |", "| Candidates |"));
+    public void A_format_naming_no_file_under_formats_does_not_resolve()
+        => Fails("ref.format", MapFixture.With(Artifacts, "| candidate |", "| candidates |"));
+
+    [Fact]
+    public void A_format_that_is_not_a_slug_does_not_resolve()
+        => Fails("ref.format", MapFixture.With(Artifacts, "| candidate |", "| Candidate |"));
+
+    [Fact]
+    public void A_format_file_whose_title_is_not_its_id_fails_the_shape()
+    {
+        using var f = new MapFixture();
+        f.WriteFormat("candidate", "# Candidate\n\nThe shape.\n");
+        Assert.Contains("format.shape", Rules(f));
+    }
+
+    [Fact]
+    public void A_format_file_no_row_names_is_an_orphan()
+    {
+        using var f = new MapFixture();
+        f.WriteFormat("stray", "# stray\n");
+        Assert.Contains("file.orphan-format", Rules(f));
+    }
 
     [Fact]
     public void An_activity_that_is_not_the_terminus_needs_its_file()
@@ -259,9 +280,17 @@ public class ValidatorTests
     [Fact]
     public void A_decision_id_inside_a_fenced_example_is_schema_not_a_citation()
     {
-        using var f = MapFixture.With(Artifacts, "## Codebook",
-            "## Decisions\n\n```markdown\n- supersedes: d-2026-09-04-16 (in part)\n```\n\n## Codebook");
+        using var f = new MapFixture();
+        f.WriteFormat("candidate", "# candidate\n\n```markdown\n- supersedes: d-2026-09-04-16 (in part)\n```\n");
         Assert.DoesNotContain("decision.id-outside-revising", Rules(f));
+    }
+
+    [Fact]
+    public void A_decision_id_in_a_format_file_outside_a_fence_is_a_failure()
+    {
+        using var f = new MapFixture();
+        f.WriteFormat("candidate", "# candidate\n\nPer d-2026-09-05-3.\n");
+        Assert.Contains("decision.id-outside-revising", Rules(f));
     }
 
     [Fact]
@@ -289,7 +318,11 @@ public class ValidatorTests
 
     [Fact]
     public void A_companion_not_named_by_the_router_is_unreachable()
-        => Fails("skill.companion-unlinked", MapFixture.With(Skill, "artifacts.md holds the Artifacts table; ", ""));
+    {
+        using var f = MapFixture.With(Skill, "map.md and state.md are generated only", "generated files exist");
+        File.WriteAllText(Path.Combine(f.SkillFolder, "map.md"), "# map\n");
+        Assert.Contains("skill.companion-unlinked", Rules(f));
+    }
 
     [Fact]
     public void An_activity_file_is_linked_by_its_router_row()

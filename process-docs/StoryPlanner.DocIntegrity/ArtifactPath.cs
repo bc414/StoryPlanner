@@ -13,7 +13,7 @@ namespace StoryPlanner.DocIntegrity;
 /// ", or", or a pattern "and its tests", is a syntax error, because a tool that must
 /// enumerate files cannot be asked to guess which half it means.
 ///
-/// The placeholders are the ones <c>artifacts.md</c> defines: <c>&lt;study&gt;</c>,
+/// The placeholders are the ones SKILL.md § Artifacts defines: <c>&lt;study&gt;</c>,
 /// <c>&lt;corpus&gt;</c>, <c>&lt;run&gt;</c>, <c>&lt;date&gt;</c>, <c>NNN</c>, <c>N</c>,
 /// <c>slug</c>, and <c>.*</c> for any extension.
 /// </summary>

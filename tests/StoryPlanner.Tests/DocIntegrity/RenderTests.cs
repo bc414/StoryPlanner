@@ -108,7 +108,7 @@ public class RenderTests
     [Fact]
     public void Ids_that_merge_once_hyphens_are_dropped_are_refused_before_drawing()
     {
-        using var f = MapFixture.With(MapFixture.ArtifactsFile,
+        using var f = MapFixture.With(MapFixture.SkillFile,
             "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |",
             "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |\n| refereerun | docs/x.md | frozen | | Collides with referee-run |");
         Assert.Throws<MapFormatException>(() => MermaidRenderer.CheckNodeIds(f.Doc));

@@ -77,4 +77,28 @@ public class SkillReaderTests
         var ex = Assert.Throws<MapFormatException>(() => f.Doc);
         Assert.Equal("skill.missing", ex.RuleId);
     }
+
+    [Fact]
+    public void A_SKILL_md_without_an_artifacts_table_is_refused_by_its_own_rule_id()
+    {
+        using var f = MapFixture.With(MapFixture.SkillFile, MapFixture.ArtifactsSection, "");
+        var ex = Assert.Throws<MapFormatException>(() => f.Doc);
+        Assert.Equal("artifacts.missing", ex.RuleId);
+    }
+
+    [Fact]
+    public void A_second_artifacts_table_in_SKILL_md_is_refused()
+    {
+        using var f = MapFixture.With(MapFixture.SkillFile, "## Companions", MapFixture.ArtifactsSection + "## Companions");
+        var ex = Assert.Throws<MapFormatException>(() => f.Doc);
+        Assert.Equal(SkillReader.UnknownSignature, ex.RuleId);
+    }
+
+    [Fact]
+    public void A_format_file_no_row_names_is_listed_as_an_orphan()
+    {
+        using var f = new MapFixture();
+        f.WriteFormat("stray", "# stray\n");
+        Assert.Equal(["stray.md"], f.Doc.OrphanFormatFiles);
+    }
 }

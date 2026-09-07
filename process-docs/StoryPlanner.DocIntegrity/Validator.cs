@@ -101,14 +101,28 @@ public static class Validator
                     $"{At(p.File, p.Line)}: writes '{w}', which is not an artifact id"));
         }
 
-        var outline = new MarkdownOutline(File.ReadAllText(doc.ArtifactsPath));
+        // A format is the file formats/<id>.md, named by the row; the file's title is its id.
         foreach (var a in doc.Artifacts.Where(a => a.Format.Length > 0))
         {
-            var matches = outline.Find(a.Format);
-            if (matches.Count != 1)
+            if (!ClosedSets.IdPattern.IsMatch(a.Format))
                 findings.Add(Finding.Fail("ref.format", a.Id,
-                    $"{At(a.File, a.Line)}: format '{a.Format}' matches {matches.Count} heading(s) in " +
-                    "artifacts.md; a format names exactly one"));
+                    $"{At(a.File, a.Line)}: format '{a.Format}' is not an id; a format is the id of " +
+                    $"{SkillReader.FormatsFolder}/<id>.md, a lowercase slug"));
+            else if (!File.Exists(doc.FormatPath(a.Format)))
+                findings.Add(Finding.Fail("ref.format", a.Id,
+                    $"{At(a.File, a.Line)}: format '{a.Format}' names no file " +
+                    $"{SkillReader.FormatsFolder}/{a.Format}.md; a format is a file"));
+        }
+
+        foreach (var format in doc.Artifacts.Select(a => a.Format).Where(f => f.Length > 0).Distinct(StringComparer.Ordinal))
+        {
+            var path = doc.FormatPath(format);
+            if (!File.Exists(path)) continue;
+            var title = new MarkdownOutline(File.ReadAllText(path)).Headings.FirstOrDefault();
+            if (title is null || title.Level != 1 || title.Text != format)
+                findings.Add(Finding.Fail("format.shape", format,
+                    $"{SkillReader.FormatsFolder}/{format}.md: the title is '# {format}'; found " +
+                    (title is null ? "no heading" : $"'{new string('#', title.Level)} {title.Text}' at line {title.Line}")));
         }
     }
 
@@ -310,8 +324,12 @@ public static class Validator
     {
         foreach (var name in doc.OrphanActivityFiles)
             findings.Add(Finding.Fail("file.orphan-activity", name,
-                "not SKILL.md, artifacts.md, map.md, state.md, CORPUS-STATUS.md or CORPORA.md, and no router row names " +
-                "an activity of this name; an activity not in the table is ungoverned"));
+                "not SKILL.md, map.md, state.md or CORPORA.md, and no router row names an activity of " +
+                "this name; an activity not in the table is ungoverned"));
+
+        foreach (var name in doc.OrphanFormatFiles)
+            findings.Add(Finding.Fail("file.orphan-format", $"{SkillReader.FormatsFolder}/{name}",
+                "no artifact row's format names it; a format file nothing routes to is unreachable"));
 
         foreach (var a in doc.Activities)
         {
@@ -343,20 +361,22 @@ public static class Validator
     public const string RevisingFile = "revising-the-method.md";
 
     /// <summary>
-    /// Decision ids (<c>d-YYYY-MM-DD-n</c>, artifacts.md § Decisions) are provenance, read
-    /// and written in revising-the-method only. A standard-operating activity file is the
+    /// Decision ids (<c>d-YYYY-MM-DD-n</c>, formats/decisions.md) are provenance, read and
+    /// written in revising-the-method only. A standard-operating activity file is the
     /// decisions already applied and never cites one, so the id pattern anywhere else in
-    /// the folder is a failure.
+    /// the folder, the format files included, is a failure.
     /// </summary>
     static readonly Regex DecisionId = new(@"\bd-\d{4}-\d{2}-\d{2}-\d+\b", RegexOptions.Compiled);
 
     static void CheckNoDecisionIdsOutsideRevising(SkillDocument doc, List<Finding> findings)
     {
-        var files = new List<string> { doc.SkillPath, doc.ArtifactsPath };
+        var files = new List<string> { doc.SkillPath };
         files.AddRange(doc.Activities.Select(a => doc.ActivityPath(a.Id)).Where(File.Exists));
+        files.AddRange(doc.FormatPaths());
         foreach (var path in files)
         {
             if (string.Equals(Path.GetFileName(path), RevisingFile, StringComparison.Ordinal)) continue;
+            var label = Path.GetRelativePath(doc.SkillFolder, path).Replace('\\', '/');
             var lines = File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');
             var inFence = false;
             for (var i = 0; i < lines.Length; i++)
@@ -366,7 +386,7 @@ public static class Validator
                 if (inFence) continue;
                 var m = DecisionId.Match(lines[i]);
                 if (!m.Success) continue;
-                findings.Add(Finding.Fail("decision.id-outside-revising", Path.GetFileName(path),
+                findings.Add(Finding.Fail("decision.id-outside-revising", label,
                     $"line {i + 1} cites decision {m.Value}; decisions are cited only in {RevisingFile}"));
                 break;
             }

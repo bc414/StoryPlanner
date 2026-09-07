@@ -15,10 +15,10 @@ public class CheckTests
     [Fact]
     public void A_file_in_a_skill_folder_checks_the_folder_s_shape()
     {
-        using var f = MapFixture.With(MapFixture.ArtifactsFile,
+        using var f = MapFixture.With(MapFixture.SkillFile,
             "| candidates | fanout/<study>/candidates.md |",
             "| items | fanout/<study>/candidates.md |");
-        var result = Check.Run(f.RepoRoot, Path.Combine(f.SkillFolder, MapFixture.ArtifactsFile));
+        var result = Check.Run(f.RepoRoot, Path.Combine(f.SkillFolder, MapFixture.SkillFile));
         Assert.False(result.Report.Passed);
         Assert.Contains("id.duplicate", result.Report.Findings.Select(x => x.RuleId));
         Assert.Equal([Path.GetFullPath(f.SkillFolder)], result.SkillFolders);
