@@ -9,10 +9,10 @@ public sealed record ValidationReport(IReadOnlyList<Finding> Findings)
 }
 
 /// <summary>
-/// Every check SKILL.md § Schema and § Derived list, plus the rulings of 2026-09-05 recorded
-/// in <c>docs/v3-framework/methodology-revision-2-rulings.md</c>. The validator reads the
-/// skill's tables and nothing else: it says what the method as written has, never what any
-/// file on disk did.
+/// Every check the skill's schema lists (schemas/skill-schema.md § Checks), plus the rulings
+/// of 2026-09-05 recorded in the closed decisions record. The validator reads the skill's
+/// tables and nothing else: it says what the method as written has, never what any file on
+/// disk did.
 ///
 /// Findings carry a rule id so a test asserts on the id, never on the prose.
 /// </summary>

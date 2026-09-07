@@ -6,12 +6,12 @@ public sealed record ArtifactTraffic(
     IReadOnlyList<string> Readers,
     IReadOnlyList<string> InstrumentOf)
 {
-    /// <summary>Read by a process, or named as one's instrument (§ Schema: that counts as read).</summary>
+    /// <summary>Read by a process, or named as one's instrument (skill-schema § Shape: that counts as read).</summary>
     public bool IsRead => Readers.Count > 0 || InstrumentOf.Count > 0;
 }
 
 /// <summary>
-/// Everything the tables derive rather than state (SKILL.md § Derived): consumers of each
+/// Everything the tables derive rather than state (skill-schema § Shape, "Derived, never authored"): consumers of each
 /// artifact, data-flow edges between processes, the <c>enables</c> graph's shape, whether an
 /// <c>enables</c> edge is backed by data flow, and the hitl gate as a reachability question.
 /// There is no edges table; every edge here is computed from reads and writes.

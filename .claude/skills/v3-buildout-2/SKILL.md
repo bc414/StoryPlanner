@@ -1,14 +1,16 @@
 ---
 name: v3-buildout-2
-description: Methodology for the v3 narrative design framework buildout, revision 2 (in construction from 2026-09-04) — thirteen activities from baselining a hypothesis down to building a tool, each with its own companion file carrying its processes table and procedure; the strong-form evidence pipeline (candidates → referee → promotion) as activities; the split of verification into preparing (itemize, author, calibrate with Brian) and rounds (autonomous); the constitutional rules including the artifact-mutation rule. Load before any framework buildout work. Not yet the live skill: the live one is v3-buildout until the router swap.
+description: "Methodology for the v3 narrative design framework buildout, revision 2 (in construction from 2026-09-04) — thirteen activities from baselining a hypothesis down to building a tool, each with its own companion file carrying its processes table and procedure; the strong-form evidence pipeline (candidates → referee → promotion) as activities; the split of verification into preparing (itemize, author, calibrate with Brian) and rounds (autonomous); the constitutional rules including the artifact-mutation rule. Load before any framework buildout work. Not yet the live skill: the live one is v3-buildout until the router swap."
 ---
 
 # V3 framework buildout — revision 2 (in construction)
 
-This file is a **router** and a **schema**. It carries what every buildout session must never
-miss — the epistemic framework, the constitutional rules — and the table of activities, each
-sent to the companion file that holds its processes and its procedure. **Read the file named
-for your activity, in full, before acting.** Nothing here is a summary of a companion.
+This file is a **router**. It carries what every buildout session must never miss — the
+epistemic framework, the constitutional rules, how to read the tables — and the table of
+activities, each sent to the companion file that holds its processes and its procedure.
+**Read the file named for your activity, in full, before acting.** Nothing here is a
+summary of a companion. The folder's own schema, for a session that changes it, is
+`schemas/skill-schema.md`.
 
 ## Epistemic framework (applied)
 
@@ -90,59 +92,32 @@ These hold in every session type. A companion file elaborates; none overrides.
    names each section's mutation. Whatever can be derived from an artifact is never
    authored beside it.
 
-## Schema — the skill folder's own: the tables every file in it obeys
+## Reading the tables
 
-Three tables, fixed columns, parsed by `process-docs/StoryPlanner.DocIntegrity`: header and separator
-are structure, every body row is one unit, cells never contain `|`, ids are lowercase
-`[a-z0-9-]+` and unique across all tables, lists are space-separated ids.
+Three tables, parsed by `process-docs/StoryPlanner.DocIntegrity` and held to the folder's
+own schema, `schemas/skill-schema.md`: the grammar a session changing this folder follows
+is there, with the validator's rule ids and a conforming example. A session running an
+activity needs only what follows.
 
-**Activities** — the router table below. `id · enables · description`. An activity is
-something Brian does, named as a gerund with its object. `enables` lists the activities it
-enables; the graph is acyclic; exactly one activity enables nothing and owns no processes
-(the terminus). The activity's companion file is `<id>.md` in this folder.
+**The Router**, below, is one row per activity and what it enables. The companion file
+`<id>.md` is the whole instruction for the activity, and that read is the instruction for
+every `session` and `hitl` process in it; an `agent` process is instructed by the
+instrument it reads, and a process that invokes the runner is governed by the
+`agent-runner` skill.
 
-**Processes** — the first table in each activity file. `id · mode · instruments · reads ·
-writes · state · description`. A process is one run of one mode, reading some artifacts and
-writing others; the activity is the file it sits in, and that file is its instruction
-source. Two exceptions are derivable: an `agent` process is instructed by the instrument it
-reads, and a process that invokes the runner is governed by the `agent-runner` skill.
-**A process splits only at a change of mode or when it invokes the runner**; steps done by
-the same session in the same activity are one process.
-- `mode` ∈ `hitl · session · agent`, **by decision**: `hitl` if a decision that is Brian's
-  is made during the process; `session` if he only starts it and reads what it produced;
-  `agent` if it runs under an inlined instrument with no repo context (rule 5).
-- `instruments` are the programs the process invokes: the artifact id where the program is
-  code in the Artifacts table (an itemizer, a generator, a tallier), otherwise its name
-  (the runner, dotnet, git), or empty. An artifact named as an instrument counts as read.
-- `reads` and `writes` are artifact ids, at least one each. Every `hitl` process writes the
-  artifact that records the decision made in it.
-- `state` ∈ `built · specified`: executed at least once under the current text, or only
-  written down. Development state of the process type; never the state of a run.
+**The Processes table**, the first table in each activity file, is one row per run. `mode`
+says whose run it is: `hitl`, a decision that is Brian's is made during it; `session`, he
+starts it and reads what it produced; `agent`, it runs under an inlined instrument with no
+repo context (rule 5). `reads` and `writes` are the artifact ids the run takes and leaves,
+and an `hitl` process writes the artifact that records the decision made in it;
+`instruments` are the programs it invokes; `state` says whether the process type has run
+under the current text (`built`) or is only written down (`specified`), never the state of
+a run.
 
-**Artifacts** — the table under § Artifacts below. `id · path · mutation · schema ·
-description`. An artifact is a class; the files matching its pattern are its files. `path`
-is one repo-relative pattern, placeholders in angle brackets, or `outside the repo`; never
-prose. `mutation` ∈ `in-place · succeeded · append · frozen` (rule 9). `schema` is a link
-`[<name>-schema](schemas/<name>-schema.md)` to the file that specifies the class's shape,
-its text the file's id, a lowercase slug ending in `-schema` that is also the file's title
-and never a class id, or blank where none is authored.
-
-**An activity file** has one shape and carries procedure only: the title (the activity
-id); one line naming what it enables; the Processes table;
-`## Preconditions`, the state each input must be in, never a list of inputs; one
-`## <process id>` section per process in execution order; `## Never`, activity-specific
-only. A session reads the file whole at the start of the activity, and that read is the
-instruction for every `session` and `hitl` process in it. An `hitl` section says what the
-session prepares and presents, how it batches Brian's questions, and what it writes as each
-decision lands; it cannot script the middle. An `agent` section names the instrument and
-what the generator materialises for it; the agent never sees the file. A runner section
-names the run's reads and writes and defers to the `agent-runner` skill. Nothing in the
-prose restates the table, an artifact's mutation, a rule, or a word defined in this file
-or a schema file. Files are types: no corpus or study appears in one.
-
-**Derived, never authored:** order and data flow (a process reads what another wrote),
-consumers of each artifact, each activity's inputs, outputs and instruments, and the check
-that every `enables` has a supporting data flow. There is no edges table.
+**The Artifacts table**, under § Artifacts, is one row per class of files. `path` says
+where the files are, with the placeholders § Artifacts lists; `mutation` says how a file
+may change (rule 9); `schema` links the file that says what to write and how the class is
+read.
 
 **Generated text is files only, and the files are functions of the tables.** `map.md`
 holds the activities and their edges, one section per activity with its diagram and what
@@ -236,7 +211,7 @@ shared instrument and the iteration candidates.
 | results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs, one per job |
 | tally-output | fanout/<study>/<run>/tally.md | frozen | | The tallier's counts and flagged rows for one run |
 | run-page | fanout/<study>/<run>/run.md | append | [run-page-schema](schemas/run-page-schema.md) | The authored front page of one run |
-| skill | .claude/skills/v3-buildout/ | in-place | | The method's instructions: the router with its two tables, the activity files and the schema files |
+| skill | .claude/skills/v3-buildout/ | in-place | [skill-schema](schemas/skill-schema.md) | The method's instructions: the router with its two tables, the activity files and the schema files |
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
 | audit-protocol | fanout/skill-audits/protocol.md | in-place | | The supersession audit's instrument: three questions about one unit of a prior method text, judged against the new folder |
@@ -258,7 +233,7 @@ runner as an instrument and is read in full by any process that invokes it.
 
 - **study**: one run of one activity chain over one corpus, declared in the registry.
 - **schema**: the shape of one artifact class's files, in `schemas/<name>-schema.md`;
-  § Schema above is the skill folder's own.
+  `schemas/skill-schema.md` is this folder's own.
 - **governed file**: a file of an artifact class that has a schema; what a checker holds
   to that schema.
 - **round**: one execution of a calibrated codebook over a corpus's items; repeats.

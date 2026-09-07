@@ -22,8 +22,8 @@ Brian decides; each decision is written to `decisions.md` as it lands. The sessi
 applies each decision as a row edit and a prose edit together,
 in the activity file, a schema file or this router, never one without the other; a
 ruling about how agent jobs are run lands in the `agent-runner` skill the same way; a
-schema change (a column, a closed set, a validator rule) is a change to `SKILL.md` § Schema
-and to the tool with its fixtures, and is rare.
+schema change (a column, a closed set, a validator rule) is a change to
+`schemas/skill-schema.md` and to the tool with its fixtures, and is rare.
 
 Two lints gate a revision. The first is structure: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and

@@ -174,3 +174,48 @@ rules names the old id in prose.
   format"; the folder renamed without the suffix, which returns the basename collision;
   disambiguating by path alone, which leaves two files called decisions.md in a tab, a
   grep and a sentence.
+
+### A schema file no row links to is a failure
+
+- id: d-2026-09-07-7
+- date: 2026-09-07
+- prompted by: the review of the validator rules written on 2026-09-07 without an entry:
+  `file.orphan-schema` was the analogue of the activity-file orphan rule and no decision
+  backed it. Brian: "What do I need to see regarding the validator rules?"
+- decision: A file under `schemas/` that no Artifacts row's `schema` cell links to fails
+  `file.orphan-schema`. The table is the one place a schema is named, and the guidance the
+  link ruling was made for, every reference file linked directly from SKILL.md, holds for
+  the folder; the rule is the file-side mirror of `ref.schema`, so a rename or a
+  retirement is reported from both ends. A schema file is written with its row, never
+  before it. This is structure stated once, following from the link ruling, not a check
+  earned by a failure: the rule has fired only in transient states and never on a real
+  orphan.
+- not taken: dropping the rule, which leaves the file side of the guidance unheld and an
+  unreachable schema for a human to notice; reporting an orphan as information, which
+  leaves a folder green while it breaks the guidance.
+
+### The skill folder's schema is schemas/skill-schema.md; SKILL.md keeps what a running session reads
+
+- id: d-2026-09-07-8
+- date: 2026-09-07
+- prompted by: Brian, on the special case entry 6 left open: "So the purpose of this
+  decision is to move details about how to change the skill file into a different file,
+  since only sessions who need to change it need to see the schema, not all of them? Or
+  should standard operating procedure sessions still need to see the schema so that they
+  can follow it? Like query patterns or how to find the files, meaning it's better
+  inline?" Then: "Yes, make the changes to skill.md and create the skill-schema.md."
+- decision: § Schema is split by consumer. What a session needs to act on a row it reads
+  stays in SKILL.md, under "Reading the tables": what the columns mean when the session is
+  the one running the process, where the generated files are, and what the hook does at a
+  write. What only a session changing the folder needs becomes `schemas/skill-schema.md`
+  in the four-section shape, linked from the `skill` row: the tables' grammar and closed
+  sets, the activity file's shape, what is derived and never authored, an Example that is
+  a conforming folder, a writer's Queries, and Checks listing the validator's rule ids,
+  which no file in the skill listed before. The query patterns a running session needs
+  are per class, in that class's schema, reached from its row, as before. The validator's
+  tests keep building their fixture in code; whether they read the Example instead is not
+  decided here.
+- not taken: moving § Schema whole, which takes the operating instructions away from
+  every session that loads SKILL.md; keeping it whole, which keeps the one class whose
+  schema is inline and leaves the rule ids unlisted; deciding now and executing as unit
+  4, since a decision is applied as it lands.

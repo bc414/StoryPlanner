@@ -187,6 +187,7 @@ public static class WriteHook
             $"DocIntegrity: after the write to {written}, the skill folder {folderName} fails check " +
             $"({report.Failures} failure(s)):\n" +
             ReportText.FormatFailures(report) +
+            $"The rules are in {SkillReader.SchemasFolder}/skill-schema.md § Checks. " +
             "Fix the row and its prose together, then re-run check until it passes:\n" +
             $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check {DisplayPath(folder)}\n" +
             "Do not work around this check by writing through the shell; every write to this folder goes " +

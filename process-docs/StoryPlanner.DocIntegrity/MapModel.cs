@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
-/// The rows of the three tables the skill obeys (SKILL.md § Schema): Activities and Artifacts
+/// The rows of the three tables the skill obeys (schemas/skill-schema.md): Activities and Artifacts
 /// in the router, Processes at the head of each activity file. The columns are the schema,
 /// the rows are in flux. Every row carries its file and line so a finding can name where it
 /// came from.
@@ -27,7 +27,7 @@ public sealed record ProcessRow(
     string File,
     int Line)
 {
-    /// <summary>An artifact named as an instrument counts as read (§ Schema).</summary>
+    /// <summary>An artifact named as an instrument counts as read (skill-schema § Shape).</summary>
     public bool ReadsOrInstruments(string artifactId)
         => Reads.Contains(artifactId) || Instruments.Contains(artifactId);
 }
@@ -104,7 +104,7 @@ public sealed record Finding(
         => new(ruleId, "—", message, FindingLevel.Vacuous);
 }
 
-/// <summary>The closed sets of SKILL.md § Schema.</summary>
+/// <summary>The closed sets of the skill's schema (schemas/skill-schema.md).</summary>
 public static class ClosedSets
 {
     public static readonly string[] Modes = ["hitl", "session", "agent"];
@@ -119,7 +119,7 @@ public static class ClosedSets
 }
 
 /// <summary>
-/// The artifact ids the checks in SKILL.md § Schema name by id, and the files in a skill
+/// The artifact ids the checks in schemas/skill-schema.md name by id, and the files in a skill
 /// folder that are companions without being activities. These are ids in the Artifacts
 /// table, not code: a rule whose id is absent from the table is reported vacuous, never
 /// passing.

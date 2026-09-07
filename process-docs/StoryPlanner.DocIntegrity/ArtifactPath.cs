@@ -4,7 +4,7 @@ using System.Text.RegularExpressions;
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
-/// An artifact's <c>path</c> cell (SKILL.md § Schema): one repo-relative pattern with
+/// An artifact's <c>path</c> cell (schemas/skill-schema.md): one repo-relative pattern with
 /// placeholders in angle brackets, or <c>outside the repo</c>; never prose. Three artifacts
 /// may share a file and differ by section, so a pattern may carry <c>§ heading</c> or the word
 /// <c>frontmatter</c> after it.

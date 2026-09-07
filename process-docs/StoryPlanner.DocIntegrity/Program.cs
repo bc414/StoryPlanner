@@ -4,7 +4,7 @@
 // that hold the shape of the buildout's process documents.
 //
 // The skill is a Type Object for the buildout method: three tables with fixed columns
-// (SKILL.md § Schema) — Activities and Artifacts in the router, Processes at the head of each
+// (schemas/skill-schema.md) — Activities and Artifacts in the router, Processes at the head of each
 // activity file — plus this tool are the schema; the rows are in flux. Iterating
 // the method is editing rows and re-running the check, never rewriting a document. A file of
 // an artifact class that has a schema is a governed file, and its checker is that schema.
