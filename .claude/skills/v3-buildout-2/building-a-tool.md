@@ -10,7 +10,8 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 Something needs a tool that does not exist: a corpus to make readable, a change to the
 runner or the validator, a render. The need is named by the instance or the revision that
-has it; an itemizer is preparing-to-verify-a-corpus's own.
+has it; an itemizer is preparing-to-verify-a-corpus's own. A check is added for a failure a
+run or an instance has shown, never for one a session can imagine.
 
 ## build
 
@@ -24,7 +25,10 @@ runner gains or changes a verb, the `agent-runner` skill is updated in the same 
 signs off the checklist; a tool he sends back is rebuilt in the same activity. This is the
 first task inside the instance that needs the tool, never an instance of its own. A tool
 never authors prose that is Brian's: no display questions, no definitions, no codebook,
-no question.
+no question. A checker over records is not armed until its first run over the real
+instances has been predicted in writing, from the decisions and the format, and the run
+compared with the prediction; a discrepancy is a wrong derivation or a decision not yet
+made, and goes to Brian first.
 
 ## Never
 

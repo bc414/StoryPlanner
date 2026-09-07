@@ -220,7 +220,8 @@ plan: what to do next is read from the generated `state.md`, and the pick is Bri
 Provenance informs and never prescribes.
 
 **What survives a session.** When a session ends, or when Brian asks what must survive it,
-the session drafts what it believes must and presents it. A decision about how the buildout
+the session drafts what it believes must and presents it, as options with their trade-offs
+where a choice remains, one decision at a time. A decision about how the buildout
 is run enters `decisions.md` only after his approval, as a titled entry in its format; an
 instance's own conclusions enter that instance's artifacts by its activity's rows; nothing
 lands anywhere autonomously, and nothing survives in a handoff.

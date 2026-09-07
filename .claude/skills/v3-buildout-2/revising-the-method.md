@@ -16,8 +16,10 @@ wrong-shaped. A revision is never triggered by a hypothesis's content.
 
 ## revise
 
-The session names the finding and the rows or prose it touches. Brian decides; each
-decision is written to `decisions.md` as it lands, in the § Decisions format. The session
+The session names the finding and the rows or prose it touches, and presents the options
+with what each costs and buys, one decision at a time, never one protocol for sign-off.
+Brian decides; each decision is written to `decisions.md` as it lands, in the § Decisions
+format. The session
 applies each decision as a row edit and a prose edit together,
 in the activity file or `artifacts.md` or this router, never one without the other; a
 ruling about how agent jobs are run lands in the `agent-runner` skill the same way; a

@@ -846,3 +846,77 @@ this rewrite. Artifact id `corpora`; `build` keeps writing it, since making a co
 readable changes a fact in it. Done in the re-founding increment, in the same commit as
 the registry rows that take the progress lines over. Not taken: keeping the readiness
 dates as a compromise.
+
+### A checker's first run over real records is predicted before it runs
+
+- date: 2026-09-06
+
+Approved by selection. Before a new record checker is armed, the session writes the
+expected verdict over the real instances from the decisions and the format: which files
+fail, on which rules, and why that is right. The checker runs once and the two are
+compared; a discrepancy is either a wrong derivation of the shape or a decision not yet
+made, and goes to Brian before anything is enforced. First applied to the hypothesis-file
+checker on 2026-09-06: twenty files predicted to fail on citation form and missing
+falsifier, no status mismatch, thirty to pass; found exactly that. The rule is in
+building-a-tool § build.
+
+### A check is earned by an observed failure
+
+- date: 2026-09-06
+
+Approved by selection. The tool grows by the failures the runs and the instances show,
+never by the failures a session can imagine. On 2026-09-06 a derived database, a separate
+hooks program, a migration tool and a pre-write mutation check were each proposed before
+any run had shown the failure they prevent, and each was refused; the post-write check on
+the skill folder was built because a shell write past the hook had been observed that
+night. The rule is in building-a-tool § Preconditions.
+
+### Decisions are made one at a time, from options with their trade-offs
+
+- date: 2026-09-06
+
+Approved by selection. Brian's instruction: "Instead of attempting to sign off on the first
+protocol you went with, reason through the possible options, their pros and cons, and
+present the options for me to decide." And: "One decision at a time." A session presents a
+set of options with what each costs and buys, and never one protocol for sign-off; a
+recommendation is marked as the session's and listed first. The rule is in
+revising-the-method § revise and in SKILL.md's paragraph on what survives a session.
+
+### Study replaces instance; governed file replaces the file sense; record keeps one sense
+
+- date: 2026-09-06
+- supersedes: d-2026-09-04-15 (in part) d-2026-09-05-16 (in part)
+
+Brian: "I'm starting to think instance is also too ambiguous." Ordinary English makes an
+instance a member of a class, which is the file sense, while the skill had reserved the
+word for one run of one activity chain over one corpus; the two senses collided the night
+files got checkers. Now: a chain run is a **study**, the registry is `studies.md` (artifact
+`studies`, placeholder `<study>`, `fanout/<study>/`), the concrete ids `exploration-of-…`
+and `round-of-…` unchanged; a file of an artifact class with a format is a **governed
+file**, which is what a checker checks; "instance" and "instances" leave the method
+entirely, and "record" leaves as a general word, keeping its one ruled sense, the
+hypothesis file's `## Record` section. What stands of the superseded entries: an artifact
+is a class and the files matching its pattern are its files; the registry replaces the
+forward plan. Of the alternatives, inquiry, experiment, and keeping instance with the file
+sense renamed, "study" was chosen as plain and used nowhere else. The rename lands in the
+skill, the agent-runner skill, the tool and its tests next session, under the hook, before
+the re-founding writes the registry.
+
+### The tool has three verbs: check, render, hook
+
+- date: 2026-09-06
+
+Approved by selection of "A: check / render / hook". `check <path>` checks the governed
+files at the path, following the artifacts table: a skill folder gets the thirteen checks of
+the method's shape, one file gets its class's format, a folder gets every governed file
+under it, so `check .` is the repository and the pre-commit gate's call. `render
+<skill-folder>` writes every generated file, `map.md` and `state.md`, so the hook's
+regeneration on a pass covers both and state follows record writes. `hook` is the harness
+entry, reading the event and doing what the write implies: check, and on a pass render.
+`nodes` retires, its purpose voided with the draft-1 comparison; `validate`, `records` and
+`state` fold into the three. The four reasons `validate` and the whole-set check stayed
+apart survive as scoping: a folder argument bounds what is checked, so the skill folder
+stays green while the hypotheses fail until the re-founding. Not taken: renaming only,
+leaving two verbs for checking shape and two for deriving files; folding the hook into
+`check` as a flag, which would hide a side effect in a check. Executed next session with
+the vocabulary rename.
