@@ -81,7 +81,7 @@ public static class Check
         var rel = Path.GetRelativePath(repoRoot, file).Replace('\\', '/');
         IReadOnlyList<Finding> findings;
         try { findings = checker(ctx, file); }
-        catch (MapFormatException ex) { findings = [Finding.Fail(ex.RuleId, rel, ex.Message)]; }
+        catch (MapFormatException ex) { findings = [Finding.Fail(ex.CheckId, rel, ex.Message)]; }
         return findings.Select(f => f with { RowId = rel });
     }
 

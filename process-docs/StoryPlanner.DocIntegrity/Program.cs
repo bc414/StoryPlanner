@@ -67,7 +67,7 @@ try
 }
 catch (MapFormatException ex)
 {
-    Console.Error.WriteLine($"Refusing to guess ({ex.RuleId}): {ex.Message}");
+    Console.Error.WriteLine($"Refusing to guess ({ex.CheckId}): {ex.Message}");
     return 1;
 }
 
@@ -94,7 +94,7 @@ int RunRender()
     var report = Validator.Validate(skillFolder);
     if (!report.Passed)
     {
-        if (!force || report.Findings.Any(f => f.RuleId.StartsWith("table.") || f.RuleId.EndsWith(".missing")))
+        if (!force || report.Findings.Any(f => f.CheckId.StartsWith("table.") || f.CheckId.EndsWith(".missing")))
         {
             Console.Error.WriteLine(
                 $"render refuses: check reports {report.Failures} failure(s). " +

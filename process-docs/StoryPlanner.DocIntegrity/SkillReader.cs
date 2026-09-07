@@ -177,7 +177,7 @@ public static class SkillReader
         }
         catch (MapFormatException ex)
         {
-            throw new MapFormatException($"{Path.GetFileName(path)}: {ex.Message}", ex.RuleId);
+            throw new MapFormatException($"{Path.GetFileName(path)}: {ex.Message}", ex.CheckId);
         }
     }
 

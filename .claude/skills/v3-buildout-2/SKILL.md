@@ -96,7 +96,7 @@ These hold in every session type. A companion file elaborates; none overrides.
 
 Three tables, parsed by `process-docs/StoryPlanner.DocIntegrity` and held to the folder's
 own schema, `schemas/skill-schema.md`: the grammar a session changing this folder follows
-is there, with the validator's rule ids and a conforming example. A session running an
+is there, with the validator's check ids and a conforming example. A session running an
 activity needs only what follows.
 
 **The Router**, below, is one row per activity and what it enables. The companion file
@@ -168,7 +168,7 @@ the hook holds, saying which lines are machine-read and exact and which are free
 a conforming file with placeholders whose first fenced block is the fixture its checker in
 `process-docs/StoryPlanner.DocIntegrity` is tested against, so a schema edited without its
 checker fails a test; Queries, one grep per question a reader asks of the class; Checks,
-the rule ids the hook reports and when each fails.
+the check ids the hook reports and when each fails.
 
 Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPORA.md`;
 `<study>` a study's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
@@ -226,12 +226,17 @@ schema file not yet in that shape is rewritten to it when it is reviewed, one at
 The suffix keeps a schema's file name apart from the file of a singleton class, which
 carries the class's own name.
 `CORPORA.md` — the corpora: what each is, where it lives, how it is read; a fact file, not
-a rule. `map.md` and `state.md` — generated only. The `agent-runner` skill governs the
+an instruction. `map.md` and `state.md` — generated only. The `agent-runner` skill governs the
 runner as an instrument and is read in full by any process that invokes it.
 
 ## Vocabulary
 
 - **study**: one run of one activity chain over one corpus, declared in the registry.
+- **rule**: one of the nine constitutional rules above, cited by number.
+- **check**: one thing the tool holds, named by its id in a schema's Checks section; the
+  verb `check` runs every check that applies to a path.
+- **criterion**: a codebook's statement that admits an item to a class or keeps it out;
+  what a classifier applies, what an anchor sits under, what a calibration ruling changes.
 - **schema**: the shape of one artifact class's files, in `schemas/<name>-schema.md`;
   `schemas/skill-schema.md` is this folder's own.
 - **governed file**: a file of an artifact class that has a schema; what a checker holds

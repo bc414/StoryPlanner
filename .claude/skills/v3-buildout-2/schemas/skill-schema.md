@@ -3,7 +3,7 @@
 `.claude/skills/v3-buildout/` (`v3-buildout-2` until the router swap), the class `skill`:
 the router with its two tables, the activity files and the schema files. The shape below is
 what the validator holds and what a session changing this folder follows; the example is a
-conforming folder; the queries are a writer's; the checks are the validator's rule ids. A
+conforming folder; the queries are a writer's; the checks are the validator's check ids. A
 session running an activity reads SKILL.md § Reading the tables instead.
 
 ## Shape
@@ -159,7 +159,7 @@ Gives the referee a source.
 
 ## Checks
 
-| rule | fails when |
+| check | fails when |
 |---|---|
 | `skill.missing`, `artifacts.missing` | SKILL.md is absent, or holds no Artifacts table |
 | `table.unknown-signature` | a table in SKILL.md or an activity file has a signature that is none of the three, or is a second copy of one |

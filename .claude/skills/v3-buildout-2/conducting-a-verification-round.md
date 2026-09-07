@@ -40,7 +40,7 @@ folders and ledgers, what was not measured); the questions answered, by title, b
 those whose predicates the codebook froze and whose items the run covered; the counts
 from `tally.md`, each table citing its tallier and run. Per-item results are cited, not
 copied. Where the tally shows the codebook wanting — a class the items keep falling
-outside, a rule the results split on — the session records it in `round.md`
+outside, a criterion the results split on — the session records it in `round.md`
 § Corrections as a fact about the round; the question it raises is Brian's, in the
 promotion session.
 

@@ -140,10 +140,10 @@ public static class MermaidRenderer
         sb.Append(report.Passed
             ? $"Last run: **passed** ({report.Findings.Count} note(s)).\n\n"
             : $"Last run: **{report.Failures} failure(s)**.\n\n");
-        sb.Append("| level | rule | row | message |\n|---|---|---|---|\n");
+        sb.Append("| level | check | row | message |\n|---|---|---|---|\n");
         foreach (var f in report.Findings)
             sb.Append("| ").Append(f.Level.ToString().ToLowerInvariant())
-              .Append(" | ").Append(f.RuleId)
+              .Append(" | ").Append(f.CheckId)
               .Append(" | ").Append(f.RowId)
               .Append(" | ").Append(f.Message.Replace("|", "\\|"))
               .Append(" |\n");

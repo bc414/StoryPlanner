@@ -134,7 +134,7 @@ public class RenderTests
     public void Write_removes_a_generated_block_the_earlier_convention_left_in_an_authored_file()
     {
         using var f = MapFixture.With(MapFixture.SkillFile, "## Companions", LeftoverBlock);
-        Assert.Contains("info.generated.inline-block", f.Report.Findings.Select(x => x.RuleId));
+        Assert.Contains("info.generated.inline-block", f.Report.Findings.Select(x => x.CheckId));
         Assert.True(f.Report.Passed);
 
         var written = Render.Write(f.RepoRoot, f.SkillFolder, f.Doc, f.Report, forced: false);
@@ -145,7 +145,7 @@ public class RenderTests
         Assert.DoesNotContain("old diagram", skill);
         Assert.Contains("| changing-the-planner-for-v3 | | The terminus", skill);
         Assert.Contains("## Companions", skill);
-        Assert.DoesNotContain("info.generated.inline-block", f.Report.Findings.Select(x => x.RuleId));
+        Assert.DoesNotContain("info.generated.inline-block", f.Report.Findings.Select(x => x.CheckId));
 
         var again = Render.Write(f.RepoRoot, f.SkillFolder, f.Doc, f.Report, forced: false);
         Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile), Path.Combine(f.SkillFolder, Render.StateFile)], again);

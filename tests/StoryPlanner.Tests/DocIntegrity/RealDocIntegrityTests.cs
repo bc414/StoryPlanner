@@ -27,7 +27,7 @@ public class RealDocIntegrityTests
         var report = Validator.Validate(RealSkillFolder());
         Assert.True(report.Passed, string.Join("\n", report.Findings
             .Where(f => f.Level == FindingLevel.Failure)
-            .Select(f => $"{f.RuleId} {f.RowId} {f.Message}")));
+            .Select(f => $"{f.CheckId} {f.RowId} {f.Message}")));
     }
 
     /// <summary>

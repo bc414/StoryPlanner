@@ -32,12 +32,12 @@ for the referee, whose question is the pipeline's own>
 ## Classes
 <the closed set of labels, each defined by what the item shows, not by what it means>
 
-## Decision rules
+## Criteria
 <numbered; the boundary cases, each resolved one way; tuned to over-flag where a false
 negative costs the record and a false positive costs one adjudication>
 
 ## Anchors
-<under the rule each anchors: an item from a calibration disagreement, its ruled label,
+<under the criterion each anchors: an item from a calibration disagreement, its ruled label,
 and the calibration it came from; none until a calibration has produced one>
 ```
 

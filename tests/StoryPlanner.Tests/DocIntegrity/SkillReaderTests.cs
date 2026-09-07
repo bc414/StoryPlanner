@@ -56,7 +56,7 @@ public class SkillReaderTests
             "Promotes what Brian did not decide.",
             "Promotes what Brian did not decide.\n\n| surprise | column |\n|---|---|\n| one | two |\n");
         var ex = Assert.Throws<MapFormatException>(() => f.Doc);
-        Assert.Equal(SkillReader.UnknownSignature, ex.RuleId);
+        Assert.Equal(SkillReader.UnknownSignature, ex.CheckId);
     }
 
     [Fact]
@@ -66,7 +66,7 @@ public class SkillReaderTests
             "| Brian decides each candidate |",
             "| Brian decides each candidate | extra |");
         var ex = Assert.Throws<MapFormatException>(() => f.Doc);
-        Assert.Equal(MapFormatException.Unparseable, ex.RuleId);
+        Assert.Equal(MapFormatException.Unparseable, ex.CheckId);
         Assert.Contains(MapFixture.PromotingFile, ex.Message);
     }
 
@@ -75,7 +75,7 @@ public class SkillReaderTests
     {
         using var f = MapFixture.Without(MapFixture.SkillFile);
         var ex = Assert.Throws<MapFormatException>(() => f.Doc);
-        Assert.Equal("skill.missing", ex.RuleId);
+        Assert.Equal("skill.missing", ex.CheckId);
     }
 
     [Fact]
@@ -83,7 +83,7 @@ public class SkillReaderTests
     {
         using var f = MapFixture.With(MapFixture.SkillFile, MapFixture.ArtifactsSection, "");
         var ex = Assert.Throws<MapFormatException>(() => f.Doc);
-        Assert.Equal("artifacts.missing", ex.RuleId);
+        Assert.Equal("artifacts.missing", ex.CheckId);
     }
 
     [Fact]
@@ -91,7 +91,7 @@ public class SkillReaderTests
     {
         using var f = MapFixture.With(MapFixture.SkillFile, "## Companions", MapFixture.ArtifactsSection + "## Companions");
         var ex = Assert.Throws<MapFormatException>(() => f.Doc);
-        Assert.Equal(SkillReader.UnknownSignature, ex.RuleId);
+        Assert.Equal(SkillReader.UnknownSignature, ex.CheckId);
     }
 
     [Fact]

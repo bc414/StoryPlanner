@@ -219,3 +219,62 @@ rules names the old id in prose.
   every session that loads SKILL.md; keeping it whole, which keeps the one class whose
   schema is inline and leaves the rule ids unlisted; deciding now and executing as unit
   4, since a decision is applied as it lands.
+
+### Rule is a constitutional rule; check is what the tool holds
+
+- id: d-2026-09-07-9
+- date: 2026-09-07
+- prompted by: Brian, before the decision on backing the tool's checks: "Is 'rule' clearly
+  defined anywhere in the skill folder?" It was not: the folder used the word for the nine
+  constitutional rules, for what the tool holds, for a codebook's boundary statements and
+  for his rulings. Brian: "Rule stays for constitutional rule, and 'check' for the tool."
+- decision: A rule is one of the nine constitutional rules in SKILL.md, cited by number. A
+  check is one thing the tool holds, named by its id in a schema's Checks section; the
+  verb `check` runs every check that applies to a path. Both enter § Vocabulary. Brian's
+  rulings keep their word, and the codebook's sense is decided in the next entry. The
+  Checks tables' first column, every sentence that said rule id or validator rule, and
+  the tool's own names follow the word, as the schema rename did; decisions already
+  landed keep their words.
+- not taken: defining rule as the tool's sense and qualifying the constitutional rules by
+  name, which leaves the plain word overloaded in prose; leaving the word undefined while
+  the next decision uses it.
+
+### A codebook's boundary statement is a criterion
+
+- id: d-2026-09-07-10
+- date: 2026-09-07
+- prompted by: Brian, once rule and check were split: "What should be the term for the
+  third distinct thing related to codebooks? Need to sort this out now." The codebook had
+  called it a decision rule, two words the vocabulary now reserves.
+- decision: A criterion is a codebook's statement that admits an item to a class or keeps
+  it out: what a classifier applies, what an anchor sits under, what a calibration ruling
+  changes. The codebook schema's section is `## Criteria`, the sentences in
+  preparing-to-verify-a-corpus and conducting-a-verification-round say criterion, and
+  § Vocabulary carries it. A question's predicate stays the test a codebook freezes for
+  one question; a criterion is one class boundary within it.
+- not taken: predicate, already the question-level test, which would muddle the levels;
+  boundary, which says where a criterion applies and not what it is; keeping decision
+  rule, two reserved words.
+
+### Every check the tool holds is backed by a decision that names its id
+
+- id: d-2026-09-07-11
+- date: 2026-09-07
+- prompted by: Brian, reviewing the validator's checks: "What do I need to see regarding
+  the validator rules?", which found `file.orphan-schema` enforced with no decision behind
+  it; then, on the machinery proposed to hold this, "So now there's even more machinery I
+  wasn't aware of? What does it buy us and what failure modes does it prevent?" and "A
+  standard operating procedure session which writes to a governed file and gets an error
+  code shouldn't need to look at the rationale for revising the method."
+- decision: A decision that adds or changes a check names the check's id, so the question
+  of what backs a check is a grep of decisions.md by id, asked in revising-the-method and
+  nowhere else. Before a check is added or changed, the session greps for its id; a check
+  that no decision names and the closed founding record does not describe is unbacked,
+  and gets a decision or is dropped. Telling a founding check from an unbacked one is a
+  reading of the closed record, done at each schema's review. A session that fails a
+  check reads its meaning in the schema's Checks section and never its rationale.
+- not taken: an `entry` column in the Checks tables naming each check's decision, which
+  puts decision ids in files every session reads and fails the folder under
+  `decision.id-outside-revising`; a check that every check id in the code appears in a
+  Checks table, unearned until a check is found missing from one; a grep of decisions.md
+  held by the tool, which cannot tell a founding check from an unbacked one.

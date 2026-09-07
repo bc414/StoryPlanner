@@ -3,15 +3,15 @@ using System.Text;
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
-/// Raised when the markdown cannot be parsed. The rule is flag, never guess. Carries the rule
+/// Raised when the markdown cannot be parsed. The rule is flag, never guess. Carries the check
 /// id the validator reports it under, so a structural refusal and a schema refusal stay
 /// distinguishable in the report.
 /// </summary>
-public sealed class MapFormatException(string message, string ruleId = MapFormatException.Unparseable)
+public sealed class MapFormatException(string message, string checkId = MapFormatException.Unparseable)
     : Exception(message)
 {
     public const string Unparseable = "table.unparseable";
-    public string RuleId { get; } = ruleId;
+    public string CheckId { get; } = checkId;
 }
 
 public sealed record MarkdownTable(

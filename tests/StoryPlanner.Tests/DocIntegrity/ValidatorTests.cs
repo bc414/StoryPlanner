@@ -17,7 +17,7 @@ public class ValidatorTests
     const string Promoting = MapFixture.PromotingFile;
 
     static string[] Rules(MapFixture f)
-        => f.Report.Findings.Where(x => x.Level == FindingLevel.Failure).Select(x => x.RuleId).ToArray();
+        => f.Report.Findings.Where(x => x.Level == FindingLevel.Failure).Select(x => x.CheckId).ToArray();
 
     static void Fails(string rule, MapFixture fixture)
     {
@@ -31,7 +31,7 @@ public class ValidatorTests
         var report = f.Report;
         Assert.True(report.Passed, string.Join("\n", report.Findings
             .Where(x => x.Level == FindingLevel.Failure)
-            .Select(x => $"{x.RuleId} {x.RowId} {x.Message}")));
+            .Select(x => $"{x.CheckId} {x.RowId} {x.Message}")));
     }
 
     // ---- structure ----
@@ -187,7 +187,7 @@ public class ValidatorTests
     {
         using var f = new MapFixture();
         var report = f.Report;
-        Assert.Contains(report.Findings, x => x.RuleId == "info.artifact.never-written" && x.RowId == "codebook" && x.Level == FindingLevel.Info);
+        Assert.Contains(report.Findings, x => x.CheckId == "info.artifact.never-written" && x.RowId == "codebook" && x.Level == FindingLevel.Info);
         Assert.True(report.Passed);
     }
 
@@ -217,7 +217,7 @@ public class ValidatorTests
         using var f = new MapFixture();
         var report = f.Report;
         Assert.DoesNotContain("enables.unbacked", Rules(f));
-        Assert.Contains(report.Findings, x => x.RuleId == "enables.vacuous" && x.Level == FindingLevel.Vacuous);
+        Assert.Contains(report.Findings, x => x.CheckId == "enables.vacuous" && x.Level == FindingLevel.Vacuous);
     }
 
     // ---- the hitl gate ----
@@ -231,7 +231,7 @@ public class ValidatorTests
     {
         using var f = new MapFixture();
         Assert.DoesNotContain("gate.ungated", Rules(f));
-        Assert.DoesNotContain(f.Report.Findings, x => x.RuleId == "gate.vacuous");
+        Assert.DoesNotContain(f.Report.Findings, x => x.CheckId == "gate.vacuous");
     }
 
     [Fact]
@@ -241,7 +241,7 @@ public class ValidatorTests
             "| hypothesis-record hypothesis-status candidates question-list verification-artifact | specified |",
             "| candidates question-list verification-artifact | specified |");
         var report = f.Report;
-        Assert.Contains(report.Findings, x => x.RuleId == "gate.vacuous" && x.Level == FindingLevel.Vacuous);
+        Assert.Contains(report.Findings, x => x.CheckId == "gate.vacuous" && x.Level == FindingLevel.Vacuous);
         Assert.True(report.Passed);
     }
 
@@ -371,7 +371,7 @@ public class ValidatorTests
     public void Free_named_instruments_are_listed_once_without_failing()
     {
         using var f = new MapFixture();
-        var info = Assert.Single(f.Report.Findings, x => x.RuleId == "info.instrument.free-name");
+        var info = Assert.Single(f.Report.Findings, x => x.CheckId == "info.instrument.free-name");
         Assert.Equal(FindingLevel.Info, info.Level);
         Assert.Contains("git", info.Message);
         Assert.Contains("runner", info.Message);
@@ -382,7 +382,7 @@ public class ValidatorTests
     {
         using var f = new MapFixture();
         var report = f.Report;
-        Assert.Contains(report.Findings, x => x.RuleId == "info.unused-enum-value" && x.Level == FindingLevel.Info);
+        Assert.Contains(report.Findings, x => x.CheckId == "info.unused-enum-value" && x.Level == FindingLevel.Info);
         Assert.True(report.Passed);
     }
 }

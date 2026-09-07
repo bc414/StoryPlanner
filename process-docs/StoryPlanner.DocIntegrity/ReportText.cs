@@ -17,7 +17,7 @@ public static class ReportText
             sb.AppendLine();
             sb.AppendLine($"== {group.Key.ToString().ToUpperInvariant()} ({group.Count()}) ==");
             foreach (var f in group)
-                sb.AppendLine($"{f.RuleId,-32} {f.RowId,-36} {f.Message}");
+                sb.AppendLine($"{f.CheckId,-32} {f.RowId,-36} {f.Message}");
         }
         sb.AppendLine();
         sb.AppendLine(report.Passed
@@ -31,7 +31,7 @@ public static class ReportText
     {
         var sb = new StringBuilder();
         foreach (var f in report.Findings.Where(f => f.Level == FindingLevel.Failure))
-            sb.AppendLine($"  {f.RuleId}  {f.RowId}  {f.Message}");
+            sb.AppendLine($"  {f.CheckId}  {f.RowId}  {f.Message}");
         return sb.ToString();
     }
 }

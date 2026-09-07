@@ -174,7 +174,7 @@ public static class WriteHook
         catch (MapFormatException ex)
         {
             refused = new HookOutcome(HookOutcomeKind.Failed, Feedback,
-                $"DocIntegrity: the tables check clean but render refuses ({ex.RuleId}): {ex.Message}", []);
+                $"DocIntegrity: the tables check clean but render refuses ({ex.CheckId}): {ex.Message}", []);
             return [];
         }
     }
@@ -187,7 +187,7 @@ public static class WriteHook
             $"DocIntegrity: after the write to {written}, the skill folder {folderName} fails check " +
             $"({report.Failures} failure(s)):\n" +
             ReportText.FormatFailures(report) +
-            $"The rules are in {SkillReader.SchemasFolder}/skill-schema.md § Checks. " +
+            $"The checks are in {SkillReader.SchemasFolder}/skill-schema.md § Checks. " +
             "Fix the row and its prose together, then re-run check until it passes:\n" +
             $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check {DisplayPath(folder)}\n" +
             "Do not work around this check by writing through the shell; every write to this folder goes " +
@@ -203,7 +203,7 @@ public static class WriteHook
     {
         IReadOnlyList<Finding> findings;
         try { findings = governed.Checker(governed.Context, filePath); }
-        catch (MapFormatException ex) { findings = [Finding.Fail(ex.RuleId, Path.GetFileName(filePath), ex.Message)]; }
+        catch (MapFormatException ex) { findings = [Finding.Fail(ex.CheckId, Path.GetFileName(filePath), ex.Message)]; }
 
         var report = new ValidationReport(findings);
         if (report.Passed) return new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated);

@@ -47,7 +47,7 @@ public static class SchemaCheckers
 
 /// <summary>
 /// schemas/hypothesis-file-schema.md. Shape from the fifty real files (four frontmatter keys, two
-/// sections, four entry kinds, minute-precision timestamps); rules from decisions: an evidence
+/// sections, four entry kinds, minute-precision timestamps); checks from decisions: an evidence
 /// entry is written only by a promotion from a referee-checked candidate and carries its
 /// citation and falsifier (decisions d-2026-09-05-3, d-2026-09-06-2), an iteration entry is a
 /// wording boundary and status is computed from the entries after the last one
@@ -459,7 +459,7 @@ public static class Decisions
     static readonly Regex Keyed = new(@"^- (?<key>[a-z][a-z ]*): (?<value>.*)$", RegexOptions.Compiled);
     public static readonly Regex Id = new(@"^d-(?<date>\d{4}-\d{2}-\d{2})-(?<n>[1-9]\d*)$", RegexOptions.Compiled);
 
-    /// <summary>One entry with the id the rule expects for it; only entries whose date line is exact get one.</summary>
+    /// <summary>One entry with the id the shape expects for it; only entries whose date line is exact get one.</summary>
     public sealed record Entry(string Id, string Title, int Line, string Date, IReadOnlyList<string> Supersedes);
 
     sealed record Field(string Key, string Value, int Line, List<string> Continuation);

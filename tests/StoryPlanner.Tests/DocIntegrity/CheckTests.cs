@@ -20,7 +20,7 @@ public class CheckTests
             "| items | fanout/<study>/candidates.md |");
         var result = Check.Run(f.RepoRoot, Path.Combine(f.SkillFolder, MapFixture.SkillFile));
         Assert.False(result.Report.Passed);
-        Assert.Contains("id.duplicate", result.Report.Findings.Select(x => x.RuleId));
+        Assert.Contains("id.duplicate", result.Report.Findings.Select(x => x.CheckId));
         Assert.Equal([Path.GetFullPath(f.SkillFolder)], result.SkillFolders);
         Assert.Empty(result.GovernedFiles);
     }
@@ -31,7 +31,7 @@ public class CheckTests
         using var f = new MapFixture().WithStateTree();
         var path = f.TreePath("docs", "v3-framework", "hypotheses", "032-other.md");
         var result = Check.Run(f.RepoRoot, path);
-        var mismatch = Assert.Single(result.Report.Findings, x => x.RuleId == "hypothesis.status.mismatch");
+        var mismatch = Assert.Single(result.Report.Findings, x => x.CheckId == "hypothesis.status.mismatch");
         Assert.Equal("docs/v3-framework/hypotheses/032-other.md", mismatch.RowId);
         Assert.Empty(result.SkillFolders);
         Assert.Equal([path], result.GovernedFiles);
@@ -62,7 +62,7 @@ public class CheckTests
         Assert.Contains("docs/v3-framework/studies.md", files);
         Assert.Equal(files.Count, files.Distinct().Count());
         Assert.False(result.Report.Passed);
-        Assert.Contains("hypothesis.status.mismatch", result.Report.Findings.Select(x => x.RuleId));
+        Assert.Contains("hypothesis.status.mismatch", result.Report.Findings.Select(x => x.CheckId));
     }
 
     [Fact]
@@ -87,7 +87,7 @@ public class CheckTests
         using var f = new MapFixture();
         var result = Check.Run(f.RepoRoot, f.SkillFolder);
         Assert.True(result.Report.Passed);
-        var noRow = result.Report.Findings.Where(x => x.RuleId == "check.no-row").ToList();
+        var noRow = result.Report.Findings.Where(x => x.CheckId == "check.no-row").ToList();
         Assert.All(noRow, x => Assert.Equal(FindingLevel.Info, x.Level));
         Assert.Contains(noRow, x => x.RowId == WellKnown.HypothesisIndex);
         Assert.Contains(noRow, x => x.RowId == WellKnown.LeadsArtifact);

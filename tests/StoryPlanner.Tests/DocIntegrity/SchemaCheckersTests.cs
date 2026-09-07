@@ -41,7 +41,7 @@ public class SchemaCheckersTests : IDisposable
     }
 
     static string[] Rules(IReadOnlyList<Finding> findings)
-        => findings.Where(f => f.Level == FindingLevel.Failure).Select(f => f.RuleId).Distinct().ToArray();
+        => findings.Where(f => f.Level == FindingLevel.Failure).Select(f => f.CheckId).Distinct().ToArray();
 
     // ---- hypothesis file ----
 
@@ -171,7 +171,7 @@ public class SchemaCheckersTests : IDisposable
         var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema"));
         var findings = Registry.Check(Ctx(), path);
         Assert.Empty(Rules(findings));
-        Assert.Contains("registry.corpora-unavailable", findings.Select(f => f.RuleId));
+        Assert.Contains("registry.corpora-unavailable", findings.Select(f => f.CheckId));
     }
 
     // ---- leads ----
@@ -310,7 +310,7 @@ public class SchemaCheckersTests : IDisposable
     {
         var path = Write(DecisionsPath, SchemaExamples.Block("decisions-schema") + ThirdEntry.Replace("2026-09-09", "2026-09-08"));
         var findings = Decisions.Check(Ctx(), path);
-        var wrong = Assert.Single(findings, f => f.RuleId == "decisions.entry.id");
+        var wrong = Assert.Single(findings, f => f.CheckId == "decisions.entry.id");
         Assert.Contains("d-2026-09-08-2", wrong.Message);
     }
 

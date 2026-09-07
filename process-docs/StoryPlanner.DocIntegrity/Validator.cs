@@ -14,7 +14,7 @@ public sealed record ValidationReport(IReadOnlyList<Finding> Findings)
 /// tables and nothing else: it says what the method as written has, never what any file on
 /// disk did.
 ///
-/// Findings carry a rule id so a test asserts on the id, never on the prose.
+/// Findings carry a check id so a test asserts on the id, never on the prose.
 /// </summary>
 public static class Validator
 {
@@ -30,7 +30,7 @@ public static class Validator
         }
         catch (MapFormatException ex)
         {
-            return new ValidationReport([Finding.Fail(ex.RuleId, "—", ex.Message)]);
+            return new ValidationReport([Finding.Fail(ex.CheckId, "—", ex.Message)]);
         }
 
         var findings = new List<Finding>();
@@ -277,13 +277,13 @@ public static class Validator
         if (!doc.Processes.Any(p => p.ReadsOrInstruments(source)))
         {
             findings.Add(Finding.Vacuous("gate.vacuous",
-                $"{label}: no process reads '{source}', so the rule has no subject today — reported as vacuous, not as passing"));
+                $"{label}: no process reads '{source}', so the check has no subject today — reported as vacuous, not as passing"));
             return;
         }
         if (!doc.Processes.Any(p => p.Writes.Any(targets.Contains)))
         {
             findings.Add(Finding.Vacuous("gate.vacuous",
-                $"{label}: no process writes a hypothesis artifact, so the rule has no subject today"));
+                $"{label}: no process writes a hypothesis artifact, so the check has no subject today"));
             return;
         }
 
@@ -296,7 +296,7 @@ public static class Validator
         foreach (var path in shortest)
             findings.Add(Finding.Fail("gate.ungated", path.Nodes[^1],
                 $"{path} writes a hypothesis artifact with no hitl process on the path from {source}. " +
-                "The path ends at the write: a review after it is detection, and the rule is preventive"));
+                "The path ends at the write: a review after it is detection, and the check is preventive"));
     }
 
     // ---- questions are Brian's ----

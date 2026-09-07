@@ -10,8 +10,8 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 ## Preconditions
 
-A finding about the method itself: the validator reports a gap, a run shows a rule does not
-hold, an activity file is found wanting in use, or Brian's judgment that the method is
+A finding about the method itself: the validator reports a gap, a run shows the method's
+text does not hold, an activity file is found wanting in use, or Brian's judgment that the method is
 wrong-shaped. A revision is never triggered by a hypothesis's content.
 
 ## revise
@@ -22,8 +22,11 @@ Brian decides; each decision is written to `decisions.md` as it lands. The sessi
 applies each decision as a row edit and a prose edit together,
 in the activity file, a schema file or this router, never one without the other; a
 ruling about how agent jobs are run lands in the `agent-runner` skill the same way; a
-schema change (a column, a closed set, a validator rule) is a change to
-`schemas/skill-schema.md` and to the tool with its fixtures, and is rare.
+schema change (a column, a closed set, a check) is a change to
+`schemas/skill-schema.md` and to the tool with its fixtures, and is rare. A decision that
+adds or changes a check names the check's id; before a check is added or changed, the
+session greps `decisions.md` for the id, and a check that no decision names and the closed
+founding record does not describe is unbacked: it gets a decision or is dropped.
 
 Two lints gate a revision. The first is structure: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and
@@ -49,7 +52,7 @@ run; a revision that changes rows is made in place.
 ## audit-run
 
 Per the `agent-runner` skill, under `fanout/skill-audits/`. The prior text — the whole old
-skill folder, and any rule-bearing page the revision retires outside it — is concatenated
+skill folder, and any page of method text the revision retires outside it — is concatenated
 in a stated order into one document, split by the runner's `split` verb into units with a
 manifest, and the generator writes one job per section: the section's units as its items,
 every file of the new folder and of the skills it delegates to as set B, the unit ids as
@@ -59,7 +62,7 @@ Reads: the prior text and the protocol. Writes: the items and their manifest, th
 the ledger, the tally and `run.md`, which names the files in the document and the unit
 range each occupies. `decisions.md` is never in set B: intent is applied at adjudication,
 never given to the auditor. Set B holds no instrument the revision retires, since a retired
-file in B lets its own rules pass as preserved.
+file in B lets its own text pass as preserved.
 
 ## audit-judge
 
@@ -70,6 +73,6 @@ questions per unit and writes one block per unit under the unit's id.
 ## Never
 
 Keeps two copies of a table; changes a row without its
-prose or prose without its row; rewrites a rule while moving it; treats any row as settled;
+prose or prose without its row; rewords text while moving it; treats any row as settled;
 swaps a rewritten skill in before both lints have run; gives the auditor `decisions.md` or
 a retired instrument; cites a decision from any other activity file.

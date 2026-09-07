@@ -158,7 +158,7 @@ public class WriteHookTests
         var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.SkillFile)));
         Assert.Equal(HookOutcomeKind.Failed, outcome.Kind);
         Assert.Equal(WriteHook.Feedback, outcome.ExitCode);
-        var failing = f.Report.Findings.First(x => x.Level == FindingLevel.Failure).RuleId;
+        var failing = f.Report.Findings.First(x => x.Level == FindingLevel.Failure).CheckId;
         Assert.Contains(failing, outcome.Message);
         Assert.Contains("example", outcome.Message);
     }
@@ -214,8 +214,8 @@ public class WriteHookTests
         var failures = ReportText.FormatFailures(report);
         foreach (var x in report.Findings.Where(x => x.Level == FindingLevel.Failure))
         {
-            Assert.Contains(x.RuleId, full);
-            Assert.Contains(x.RuleId, failures);
+            Assert.Contains(x.CheckId, full);
+            Assert.Contains(x.CheckId, failures);
         }
         Assert.Contains($"check: {report.Failures} failure(s).", full);
     }

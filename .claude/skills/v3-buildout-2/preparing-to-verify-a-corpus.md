@@ -6,7 +6,7 @@ Enables conducting-a-verification-round and refereeing-a-candidate.
 |---|---|---|---|---|---|---|
 | verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix what one item is and which questions the codebook will freeze; the plan approved is his go, and the study is registered; for a repeat round under an unchanged instrument this is the whole activity |
 | itemize | session | itemizer dotnet | corpus itemizer | itemizer tool-source items items-manifest | specified | Build or pick the itemizer with tests, run it once; the items and their manifest |
-| author-codebook | hitl | | question-list items codebook | codebook generator tallier | specified | Write the codebook against real items: item definition, classes, decision rules; the generator and tallier that encode its output contract; a new numbered version each time |
+| author-codebook | hitl | | question-list items codebook | codebook generator tallier | specified | Write the codebook against real items: item definition, classes, criteria; the generator and tallier that encode its output contract; a new numbered version each time |
 | calibrate-run | session | generator runner | codebook items | jobs ledger run-page | specified | The sample, one job per item under the draft version's hash; the host's batch; this is the codebook's pilot |
 | calibrate-judge | agent | | codebook items | results | specified | A classifier applies the draft codebook to one sample item; the only writer of the sample's results |
 | calibrate | hitl | | items results codebook | calibration codebook | specified | Brian scores the sample blind; the two scorings are compared; he rules each disagreement; rulings edit the codebook into a new version; the calibration is written |
@@ -48,8 +48,8 @@ narrowing it may do, and the query is recorded in the manifest.
 ## author-codebook
 
 Written against the real items: what one item is,
-the inputs by reference to the agent row, the output contract, the classes, the decision
-rules at the boundaries, tuned to over-flag. A new numbered file; the previous version, if
+the inputs by reference to the agent row, the output contract, the classes, the criteria
+at the boundaries, tuned to over-flag. A new numbered file; the previous version, if
 any, stays on disk. With it, the generator that writes one job per item with the output
 contract's markers, and the tallier that reduces results by its classes.
 
@@ -70,9 +70,9 @@ the output contract's form.
 Brian scores each sample item blind, in whatever order the session presents them, and the
 session writes his verdicts as given. Then the two scorings are laid side by side: per
 class agreement on the ruled items and on the held-out items separately. For each
-disagreement Brian rules; a ruling that changes a rule edits the codebook into a new
-version, and the ruled item becomes an anchor under that rule. The session writes the
-calibration. If any ruling changed the rules, calibrate-run repeats on the sample
+disagreement Brian rules; a ruling that changes a criterion edits the codebook into a new
+version, and the ruled item becomes an anchor under it. The session writes the
+calibration. If any ruling changed the criteria, calibrate-run repeats on the sample
 under the new version; when Brian accepts the agreement, the calibration's verdict says so. The
 corpus is then instrumented at that hash; nothing in the codebook records it, since any
 line in the file is part of the hash.

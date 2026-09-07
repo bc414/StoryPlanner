@@ -2,7 +2,7 @@
 
 `docs/v3-framework/decisions.md`. The shape below is the schema the hook holds; the example
 after it is a conforming file a writer fills in, and the block the checker's tests read as
-their fixture; then how the file is queried, and the rule ids the hook reports.
+their fixture; then how the file is queried, and the check ids the hook reports.
 
 ## Shape
 
@@ -29,7 +29,7 @@ The file is a `# Decisions` title, a head, and sections.
   starting with two spaces continues the value above it; a blank line followed by such a
   line continues it too, so a free-text value may hold paragraphs or sub-bullets.
 - Nothing derives an id and the tool never writes one; a written id can only disagree
-  with the rule by failing, and the failure names the expected id.
+  with the shape by failing, and the failure names the expected id.
 
 What enters an entry:
 
@@ -38,11 +38,11 @@ What enters an entry:
   The session's words are unquoted and are never quoted as his.
 - Nothing that happens after approval: no execution status, no owed work. A ruling that
   defers a question says it does not decide it. What the decision resolved, an audit
-  unit, a gap, a rule of the tool, is a sentence in `decision`.
+  unit, a gap, a check of the tool, is a sentence in `decision`.
 - Supersession whole. An entry supersedes an older one entirely or not at all; the older
   entry's not-taken list stays as history; a superseded entry is never superseded again.
-  An entry that changes a rule of the closed founding record names the old id in prose
-  and supersedes nothing.
+  An entry that changes what the closed founding record decided names the old id in
+  prose and supersedes nothing.
 
 Appended after Brian's approval and never edited; written in `revise` and read there and
 nowhere else.
@@ -86,12 +86,12 @@ nowhere else.
 | the next id for today | `grep -n '^- id: d-2026-09-07' decisions.md \| tail -1`, then one more; none means 1 |
 | was this option already declined, and why | `grep -n -A6 '^- not taken:'`, or grep the option's own word |
 | what is superseded | `grep -n '^- supersedes:'`; an id in no such line stands |
-| what resolved an audit unit, a gap, a rule of the tool | grep its id; the answer is a sentence in a `decision` |
+| what resolved an audit unit, a gap, a check of the tool | grep its id; the answer is a sentence in a `decision` |
 | what a revision decided | its section, read whole by `revise`, which writes the revision note from it |
 
 ## Checks
 
-| rule | fails when |
+| check | fails when |
 |---|---|
 | `decisions.shape` | the title, a section heading or the head is off shape; a section holds a second paragraph or a non-entry line |
 | `decisions.entry.fields` | a key is missing, unknown or out of order; a line in an entry is neither keyed nor continuation |

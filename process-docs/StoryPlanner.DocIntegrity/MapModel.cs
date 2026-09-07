@@ -89,19 +89,19 @@ public enum FindingLevel
 }
 
 public sealed record Finding(
-    string RuleId,
+    string CheckId,
     string RowId,
     string Message,
     FindingLevel Level)
 {
-    public static Finding Fail(string ruleId, string rowId, string message)
-        => new(ruleId, rowId, message, FindingLevel.Failure);
+    public static Finding Fail(string checkId, string rowId, string message)
+        => new(checkId, rowId, message, FindingLevel.Failure);
 
-    public static Finding Info(string ruleId, string rowId, string message)
-        => new(ruleId, rowId, message, FindingLevel.Info);
+    public static Finding Info(string checkId, string rowId, string message)
+        => new(checkId, rowId, message, FindingLevel.Info);
 
-    public static Finding Vacuous(string ruleId, string message)
-        => new(ruleId, "—", message, FindingLevel.Vacuous);
+    public static Finding Vacuous(string checkId, string message)
+        => new(checkId, "—", message, FindingLevel.Vacuous);
 }
 
 /// <summary>The closed sets of the skill's schema (schemas/skill-schema.md).</summary>
@@ -121,7 +121,7 @@ public static class ClosedSets
 /// <summary>
 /// The artifact ids the checks in schemas/skill-schema.md name by id, and the files in a skill
 /// folder that are companions without being activities. These are ids in the Artifacts
-/// table, not code: a rule whose id is absent from the table is reported vacuous, never
+/// table, not code: a check whose id is absent from the table is reported vacuous, never
 /// passing.
 /// </summary>
 public static class WellKnown
