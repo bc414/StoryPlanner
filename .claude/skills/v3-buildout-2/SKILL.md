@@ -92,7 +92,7 @@ These hold in every session type. A companion file elaborates; none overrides.
 
 ## Schema — the tables every file in this skill obeys
 
-Three tables, fixed columns, parsed by `tools/StoryPlanner.ProcessMap`: header and separator
+Three tables, fixed columns, parsed by `process-docs/StoryPlanner.DocIntegrity`: header and separator
 are structure, every body row is one unit, cells never contain `|`, ids are lowercase
 `[a-z0-9-]+` and unique across all tables, lists are space-separated ids.
 

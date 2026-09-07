@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// The rows of the three tables the skill obeys (SKILL.md § Schema): Activities in the

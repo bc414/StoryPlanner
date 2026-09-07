@@ -1,6 +1,6 @@
 using System.IO;
 using System.Linq;
-using StoryPlanner.ProcessMap;
+using StoryPlanner.DocIntegrity;
 using Xunit;
 
 namespace StoryPlanner.Tests;
@@ -11,7 +11,7 @@ namespace StoryPlanner.Tests;
 /// a row edited into an unreachable artifact, an ungated hypothesis write, or a cycle in
 /// <c>enables</c> fails the build.
 /// </summary>
-public class RealProcessMapTests
+public class RealDocIntegrityTests
 {
     /// <summary>
     /// Revision 2 is built beside the live skill and swapped in one commit; until then this is

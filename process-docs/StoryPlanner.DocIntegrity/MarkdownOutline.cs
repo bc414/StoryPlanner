@@ -1,4 +1,4 @@
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// The headings of one markdown file, for resolving a <c>format</c> cell to exactly one

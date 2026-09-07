@@ -1,4 +1,4 @@
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 public sealed record ArtifactTraffic(
     string ArtifactId,

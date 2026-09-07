@@ -1,6 +1,6 @@
 using System.IO;
 using System.Linq;
-using StoryPlanner.ProcessMap;
+using StoryPlanner.DocIntegrity;
 using Xunit;
 
 namespace StoryPlanner.Tests;

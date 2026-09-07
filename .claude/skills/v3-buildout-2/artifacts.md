@@ -49,7 +49,7 @@ shared instrument and the iteration candidates.
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
 | audit-protocol | fanout/skill-audits/protocol.md | in-place | | The supersession audit's instrument: three questions about one unit of a prior method text, judged against the new folder |
-| tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, the runner, the validator |
+| tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, the runner; the validator lives under process-docs/ and is a free-name instrument, not an artifact |
 | corpus | outside the repo | in-place | | The corpora named in CORPUS-STATUS.md, read through the MCP server, files or sqlite3 |
 
 ## Hypothesis file

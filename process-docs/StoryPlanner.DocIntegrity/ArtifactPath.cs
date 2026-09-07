@@ -1,7 +1,7 @@
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// An artifact's <c>path</c> cell (SKILL.md § Schema): one repo-relative pattern with

@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// Raised when the markdown cannot be parsed. The rule is flag, never guess. Carries the rule

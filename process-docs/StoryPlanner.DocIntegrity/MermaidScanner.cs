@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
 
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 public sealed record ScannedDiagrams(
     IReadOnlyList<string> Nodes,

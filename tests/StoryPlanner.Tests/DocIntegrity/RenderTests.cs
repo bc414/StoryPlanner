@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using StoryPlanner.ProcessMap;
+using StoryPlanner.DocIntegrity;
 using Xunit;
 
 namespace StoryPlanner.Tests;

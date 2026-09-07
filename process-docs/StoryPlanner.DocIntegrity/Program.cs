@@ -1,14 +1,16 @@
-// StoryPlanner.ProcessMap — the validator, renderer and state reader for the v3-buildout skill.
+// StoryPlanner.DocIntegrity — the validator, renderer and state reader for the v3-buildout skill.
+// Named StoryPlanner.ProcessMap under tools/ until 2026-09-06, when it moved to process-docs/ as
+// the first of the binaries that hold the shape of the buildout's process documents.
 //
 // The skill is a Type Object for the buildout method: three tables with fixed columns
 // (SKILL.md § Schema) — Activities in the router, Processes at the head of each activity file,
 // Artifacts in artifacts.md — plus this tool are the schema; the rows are in flux. Iterating
 // the method is editing rows and re-running validation, never rewriting a document.
 //
-//   dotnet run --project tools/StoryPlanner.ProcessMap -- validate .claude/skills/v3-buildout
-//   dotnet run --project tools/StoryPlanner.ProcessMap -- render   .claude/skills/v3-buildout [--force]
-//   dotnet run --project tools/StoryPlanner.ProcessMap -- state    .claude/skills/v3-buildout [--force] [--repo <path>]
-//   dotnet run --project tools/StoryPlanner.ProcessMap -- nodes    <file.md>
+//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- validate .claude/skills/v3-buildout
+//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- render   .claude/skills/v3-buildout [--force]
+//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- state    .claude/skills/v3-buildout [--force] [--repo <path>]
+//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- nodes    <file.md>
 //
 // render writes the level-1 section of SKILL.md, the activity section of every activity file,
 // and map.md whole; state writes state.md whole from the instance registry, the question lists,
@@ -28,7 +30,7 @@
 // a plain console tool. MapTables.cs carries the same unit rule — header and separator are
 // structure, every body row is a unit — pinned by its own tests.
 
-using StoryPlanner.ProcessMap;
+using StoryPlanner.DocIntegrity;
 
 if (args.Length == 0) return Usage();
 
@@ -198,10 +200,10 @@ int Usage(string? message = null)
     if (message is not null) Console.Error.WriteLine(message);
     Console.Error.WriteLine("""
         Usage:
-          ProcessMap validate <skill-folder> [--repo <path>]
-          ProcessMap render   <skill-folder> [--force] [--repo <path>]
-          ProcessMap state    <skill-folder> [--force] [--repo <path>]
-          ProcessMap nodes    <file.md>
+          DocIntegrity validate <skill-folder> [--repo <path>]
+          DocIntegrity render   <skill-folder> [--force] [--repo <path>]
+          DocIntegrity state    <skill-folder> [--force] [--repo <path>]
+          DocIntegrity nodes    <file.md>
         """);
     return 2;
 }

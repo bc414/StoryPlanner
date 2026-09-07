@@ -1,4 +1,4 @@
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// Turns a skill folder's tables into typed rows: the Activities table in <c>SKILL.md</c>, the

@@ -4,7 +4,7 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| revise | hitl | ProcessMap git | skill runner-skill map state revision-note rulings-log results tally-output | skill runner-skill rulings-log revision-note map | built | Brian rules, the session edits the skill's tables and prose in place, the validator passes, the rulings are logged as made, the audit's tally is adjudicated with him, and the note is written once at the end |
+| revise | hitl | DocIntegrity git | skill runner-skill map state revision-note rulings-log results tally-output | skill runner-skill rulings-log revision-note map | built | Brian rules, the session edits the skill's tables and prose in place, the validator passes, the rulings are logged as made, the audit's tally is adjudicated with him, and the note is written once at the end |
 | audit-run | session | runner generator tallier | skill audit-protocol | items items-manifest jobs ledger run-record tally-output | built | The second lint, after the validator, for a rewrite: the prior text split into units by the runner, one job per section against the new folder, the results tallied |
 | audit-judge | agent | | audit-protocol items skill | results | built | One section's units against the new folder under the protocol's three questions; the only writer of results |
 
@@ -70,7 +70,7 @@ Derived from the tables, never authored:
 
 - **inputs**: audit-protocol generator state tallier
 - **outputs**: items items-manifest jobs ledger map results revision-note rulings-log run-record runner-skill skill tally-output
-- **instruments**: ProcessMap generator git runner tallier
+- **instruments**: DocIntegrity generator git runner tallier
 - **enabled by**: —
 - **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
 <!-- /generated -->
@@ -92,7 +92,7 @@ schema change (a column, a closed set, a validator rule) is a change to `SKILL.m
 and to the tool with its fixtures, and is rare.
 
 Two lints gate a revision. The first is structure: after every step `validate`
-(`tools/StoryPlanner.ProcessMap`) runs over the skill folder and must pass before the
+(`process-docs/StoryPlanner.DocIntegrity`) runs over the skill folder and must pass before the
 next, and `render` regenerates the marked sections and `map.md`. The second is content, and
 it runs only for a revision that rewrites the skill wholesale: every unit of the prior text
 is judged against the new folder by `audit-run` and `audit-judge`, and the session

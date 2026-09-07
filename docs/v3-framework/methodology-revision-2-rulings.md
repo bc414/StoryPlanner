@@ -382,3 +382,39 @@ disposition per gap G1–G24, drafted in the omissions draft for Brian's confirm
 the HITL-context arm). Handoff 2 was rewritten current to 2026-09-06 with a section
 separating what waits on Brian from what is mechanical, so a fresh session can decide
 what comes next from it and the draft.
+
+## 2026-09-06 (evening) — adjudication of the omissions draft begins, one decision at a time
+
+- **unit-096: the pre-referee record entries are leads, and none of them stands.** Brian, in
+  his words: "The stuff from the early run of v3 buildout which treated things as evidence
+  must not stand. Whatever information is there MUST be completely transformed into the
+  rules, premises, and paradigms of the new methodology; no shortcuts or workarounds are
+  allowed to stand by the end of this transitory period. Given the prior work on
+  analysis-corpus has been determined as exploratory work in scope, its insights should
+  become findings." Asked whether he meant leads in revision 2's vocabulary, since a finding
+  sits only on a candidate written from a round: "Yes, they are leads, not findings." None of
+  the draft's three alternatives is taken: (a) and (b) leave unrefereed `evidence` lines in
+  the records under a rule that discounts them, which is the workaround he refused; (c)
+  leaves the frontmatter computed from them. The forty entries (WU1.1 23, WU1.3 14, WU1.2 3,
+  in twenty files; ten above an iteration line) were pathfinder observations that skipped
+  the pipeline, and they leave the records. The state verb needs no skip: after the
+  transformation "an entry without a falsifier is malformed" is true of every record.
+  Consequence for the sequence: there is nothing for a retroactive referee pass to judge, so
+  referee-1's calibration sample comes from the first round's candidates, not from the
+  records. The shape of the transformation (where the leads go, what the records keep) is
+  the next ruling.
+- **The transformation's shape: three retroactive exploration instances.** Brian chose the
+  label "(A) Retroactive instances" and typed: "Agreed that the hypothesis files do not end
+  up empty, they keep their created entries. all 40 'evidence' lines leave. I agree with
+  havin three retroactive instances, and this resolves the earlier question about what will
+  be the first instances that will exercise the usefulness of the tool's verb." So:
+  `exploration-of-analysis-corpus` (WU1.1, 23 entries), `exploration-of-own-fiction`
+  (WU1.3, 14), and a Keep instance whose corpus id is assigned in CORPUS-STATUS when its row
+  is written (WU1.2, 3) are appended to the registry with their real dates as the go; each
+  gets `docs/v3-framework/<instance>/leads.md` in the artifacts format, authored from its
+  synthesis document and the entries' text, the document stamped as the source; every
+  `evidence` line leaves the fifty records, the `created` entries stay, status is recomputed
+  to `untested` throughout. Not taken: the synthesis documents standing as leads by
+  document with no instance (state.md blind to them); removal with no re-homing. Open from
+  this ruling: whether the six `iteration` entries stay; the Keep corpus id (with unit-176);
+  the rewrite of handoff 2's step 7, since WU2.15's retroactive pass has nothing to judge.

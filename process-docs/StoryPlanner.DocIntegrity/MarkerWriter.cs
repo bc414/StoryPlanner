@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace StoryPlanner.ProcessMap;
+namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// Replaces only what lies between <c>&lt;!-- generated:name --&gt;</c> and

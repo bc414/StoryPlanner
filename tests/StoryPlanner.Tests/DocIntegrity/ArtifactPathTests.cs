@@ -1,4 +1,4 @@
-using StoryPlanner.ProcessMap;
+using StoryPlanner.DocIntegrity;
 using Xunit;
 
 namespace StoryPlanner.Tests;
