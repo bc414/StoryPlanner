@@ -6,39 +6,6 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 |---|---|---|---|---|---|---|
 | build | hitl | dotnet git | corpus-status tool-source corpus | tool-source runner-skill corpus-status corpus | built | Brian fixes what is built and its acceptance; the session builds it with tests under the testing skill; he signs off the verification checklist; an ingest writes what it ingests and the corpus's state is recorded; a runner change updates its skill |
 
-<!-- generated:activity -->
-```mermaid
-flowchart LR
-  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
-  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
-  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
-  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
-  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
-  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  build{{"build<br/>hitl"}}:::hitl
-  corpus[/"corpus"/]:::artifact
-  corpusstatus[/"corpus-status"/]:::artifact
-  runnerskill[/"runner-skill"/]:::artifact
-  toolsource[/"tool-source"/]:::artifact
-
-  corpusstatus --> build
-  toolsource --> build
-  corpus --> build
-  build --> toolsource
-  build --> runnerskill
-  build --> corpusstatus
-  build --> corpus
-```
-
-Derived from the tables, never authored:
-
-- **inputs**: —
-- **outputs**: corpus corpus-status runner-skill tool-source
-- **instruments**: dotnet git
-- **enabled by**: —
-- **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
-<!-- /generated -->
-
 ## Preconditions
 
 Something needs a tool that does not exist: a corpus to make readable, a change to the

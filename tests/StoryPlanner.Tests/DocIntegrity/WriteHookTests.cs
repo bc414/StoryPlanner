@@ -84,13 +84,40 @@ public class WriteHookTests
     // ---- outcome ----
 
     [Fact]
-    public void A_governed_write_that_validates_is_silent()
+    public void A_governed_write_that_validates_is_silent_and_regenerates_the_map()
     {
         using var f = new MapFixture();
+        var mapPath = Path.Combine(f.SkillFolder, Render.MapFile);
+        Assert.False(File.Exists(mapPath));
+
         var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.ArtifactsFile)));
         Assert.Equal(HookOutcomeKind.Silent, outcome.Kind);
         Assert.Equal(WriteHook.Silent, outcome.ExitCode);
         Assert.Equal("", outcome.Message);
+        Assert.Equal([mapPath], outcome.Regenerated);
+        Assert.True(File.Exists(mapPath));
+    }
+
+    [Fact]
+    public void Regeneration_can_be_withheld_and_then_nothing_is_written()
+    {
+        using var f = new MapFixture();
+        var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.ArtifactsFile)), regenerate: false);
+        Assert.Equal(HookOutcomeKind.Silent, outcome.Kind);
+        Assert.Empty(outcome.Regenerated);
+        Assert.False(File.Exists(Path.Combine(f.SkillFolder, Render.MapFile)));
+    }
+
+    [Fact]
+    public void A_failing_write_regenerates_nothing()
+    {
+        using var f = MapFixture.With(MapFixture.ArtifactsFile,
+            "| candidates | fanout/<instance>/candidates.md |",
+            "| items | fanout/<instance>/candidates.md |");
+        var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.ArtifactsFile)));
+        Assert.Equal(HookOutcomeKind.Failed, outcome.Kind);
+        Assert.Empty(outcome.Regenerated);
+        Assert.False(File.Exists(Path.Combine(f.SkillFolder, Render.MapFile)));
     }
 
     [Fact]

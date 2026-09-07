@@ -335,6 +335,23 @@ public static class Validator
                     $"{file}: the sections are Preconditions, one per process id in table order, Never — " +
                     $"expected [{string.Join(", ", expected)}], found [{string.Join(", ", found)}]"));
         }
+
+        CheckNoInlineGenerated(doc, findings);
+    }
+
+    /// <summary>
+    /// Generated text is files only since 2026-09-06. A marker-delimited block still sitting in
+    /// an authored file is the earlier convention, not an error in the rows: informational,
+    /// because <c>render</c> removes it and is gated on validate passing.
+    /// </summary>
+    static void CheckNoInlineGenerated(SkillDocument doc, List<Finding> findings)
+    {
+        foreach (var path in Render.AuthoredFiles(doc))
+        {
+            if (!Render.HasGeneratedBlock(File.ReadAllText(path))) continue;
+            findings.Add(Finding.Info("info.generated.inline-block", Path.GetFileName(path),
+                "holds a generated block; generated text is files only (map.md, state.md) and render removes the block"));
+        }
     }
 
     // ---- SKILL.md's published limits and the one-level-deep rule ----

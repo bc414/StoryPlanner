@@ -71,7 +71,10 @@ public enum HookOutcomeKind
     PayloadError,
 }
 
-public sealed record HookOutcome(HookOutcomeKind Kind, int ExitCode, string Message);
+public sealed record HookOutcome(HookOutcomeKind Kind, int ExitCode, string Message, IReadOnlyList<string> Regenerated)
+{
+    public static readonly HookOutcome Nothing = new(HookOutcomeKind.Silent, WriteHook.Silent, "", []);
+}
 
 /// <summary>
 /// The PostToolUse hook on Edit and Write: after a session writes a file, if the file lies in a
@@ -82,14 +85,15 @@ public sealed record HookOutcome(HookOutcomeKind Kind, int ExitCode, string Mess
 /// This is enforcement at the boundary where the model's text becomes a file. It sees Edit and
 /// Write and nothing else: a write through the shell never reaches it, which is why CLAUDE.md
 /// routes file content through the file tools. The check is the same one the CLI runs; the hook
-/// only decides when it runs.
+/// only decides when it runs. On a pass it also renders, so map.md is a function of the tables
+/// at every moment and a session, which is denied that file by path, never has to remember it.
 /// </summary>
 public static class WriteHook
 {
     public const int Silent = 0;
     public const int Feedback = 2;
 
-    public static HookOutcome Run(string payloadJson, Func<string, ValidationReport>? validate = null)
+    public static HookOutcome Run(string payloadJson, Func<string, ValidationReport>? validate = null, bool regenerate = true)
     {
         HookPayload payload;
         try
@@ -99,23 +103,33 @@ public static class WriteHook
         catch (JsonException ex)
         {
             return new HookOutcome(HookOutcomeKind.PayloadError, Feedback,
-                $"DocIntegrity hook: could not read the event payload ({ex.Message}). The write was not checked.");
+                $"DocIntegrity hook: could not read the event payload ({ex.Message}). The write was not checked.", []);
         }
-        return Run(payload, validate);
+        return Run(payload, validate, regenerate);
     }
 
-    public static HookOutcome Run(HookPayload payload, Func<string, ValidationReport>? validate = null)
+    public static HookOutcome Run(HookPayload payload, Func<string, ValidationReport>? validate = null, bool regenerate = true)
     {
-        if (payload.FilePath is null)
-            return new HookOutcome(HookOutcomeKind.Silent, Silent, "");
+        if (payload.FilePath is null) return HookOutcome.Nothing;
 
         var folder = GovernedSkill.Locate(payload.FilePath);
-        if (folder is null)
-            return new HookOutcome(HookOutcomeKind.Silent, Silent, "");
+        if (folder is null) return HookOutcome.Nothing;
 
         var report = (validate ?? Validator.Validate)(folder);
         if (report.Passed)
-            return new HookOutcome(HookOutcomeKind.Silent, Silent, "");
+        {
+            if (!regenerate) return HookOutcome.Nothing;
+            try
+            {
+                var regenerated = Render.Write(folder, SkillReader.Read(folder), report, forced: false);
+                return new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated);
+            }
+            catch (MapFormatException ex)
+            {
+                return new HookOutcome(HookOutcomeKind.Failed, Feedback,
+                    $"DocIntegrity: the tables validate but render refuses ({ex.RuleId}): {ex.Message}", []);
+            }
+        }
 
         var folderName = Path.GetFileName(folder.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar));
         var written = Path.GetFileName(payload.FilePath);
@@ -127,7 +141,7 @@ public static class WriteHook
             $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- validate {DisplayPath(folder)}\n" +
             "Do not work around this check by writing through the shell; every write to this folder goes " +
             "through Edit or Write so the check sees it.";
-        return new HookOutcome(HookOutcomeKind.Failed, Feedback, message);
+        return new HookOutcome(HookOutcomeKind.Failed, Feedback, message, []);
     }
 
     /// <summary>The failing folder as the session would type it: repo-relative inside a repository, absolute otherwise.</summary>

@@ -126,7 +126,7 @@ succeeded · append · frozen` (rule 9). `format` is the heading in `artifacts.m
 specifies the artifact's shape, or blank where none is authored.
 
 **An activity file** has one shape and carries procedure only: the title (the activity
-id); one line naming what it enables; the Processes table; the generated section;
+id); one line naming what it enables; the Processes table;
 `## Preconditions`, the state each input must be in, never a list of inputs; one
 `## <process id>` section per process in execution order; `## Never`, activity-specific
 only. A session reads the file whole at the start of the activity, and that read is the
@@ -142,17 +142,20 @@ or `artifacts.md`. Files are types: no corpus or instance appears in one.
 consumers of each artifact, each activity's inputs, outputs and instruments, and the check
 that every `enables` has a supporting data flow. There is no edges table.
 
-**Generated sections** sit between `<!-- generated:<name> -->` and `<!-- /generated -->`
-and are never hand-edited: `level-1` in this file, `activity` in each activity file, the
-whole graph, the consumers table and the validation report in `map.md`, and the buildout's
-current state in `state.md` (per corpus and per hypothesis, from the artifacts on disk).
-Neither generated file holds anything authored.
+**Generated text is files only, and the files are functions of the tables.** `map.md`
+holds the activities and their edges, one section per activity with its diagram and what
+the tables derive for it (inputs, outputs, instruments, enabled by, enables), the whole
+graph, the consumers table and the validation report; `state.md` holds the buildout's
+current state (per corpus and per hypothesis, from the artifacts on disk). Both are written
+whole by the tool, denied to sessions by path in the project settings, and rewritten by the
+write hook after every passing validate, so neither can be hand-edited or stale. Nothing
+generated sits inside an authored file.
 
 **The tables are checked at the write.** A PostToolUse hook, registered in the project
-settings, runs `validate` over this folder after every Edit or Write inside it and returns
-the failures to the session in the same turn. A failure is fixed, row and prose together,
-before any other write; it is never worked around, and a write to this folder never goes
-through the shell, which the hook cannot see.
+settings, runs `validate` over this folder after every Edit or Write inside it, returns
+the failures to the session in the same turn, and on a pass rewrites `map.md`. A failure
+is fixed, row and prose together, before any other write; it is never worked around, and
+a write to this folder never goes through the shell, which the hook cannot see.
 
 ## Router — the activities
 
@@ -175,49 +178,6 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the card's question and the corpus's question list, the scale, the reading protocol and read-manifest if slices, the plan approved, the protocol piloted |
 | building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, the runner, talliers, renders, the validator; CORPUS-STATUS updated when a corpus becomes readable |
 | revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, two lints passing (the validator; for a rewrite, the supersession audit of the prior text), a write-once revision note recording what changed and why |
-
-<!-- generated:level-1 -->
-```mermaid
-flowchart TD
-  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
-  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
-  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
-  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
-  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
-  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  changingtheplannerforv3[["changing-the-planner-for-v3"]]:::terminus
-  baseliningahypothesis["baselining-a-hypothesis"]:::activity
-  promotingcheckedcandidates["promoting-checked-candidates"]:::activity
-  iteratingastatement["iterating-a-statement"]:::activity
-  mintingahypothesis["minting-a-hypothesis"]:::activity
-  refereeingacandidate["refereeing-a-candidate"]:::activity
-  writingcandidatesfromverification["writing-candidates-from-verification"]:::activity
-  conductingaverificationround["conducting-a-verification-round"]:::activity
-  preparingtoverifyacorpus["preparing-to-verify-a-corpus"]:::activity
-  reviewingleads["reviewing-leads"]:::activity
-  exploringacorpus["exploring-a-corpus"]:::activity
-  preparingtoexploreacorpus["preparing-to-explore-a-corpus"]:::activity
-  buildingatool["building-a-tool"]:::activity
-  revisingthemethod["revising-the-method"]:::activity
-
-  baseliningahypothesis --> changingtheplannerforv3
-  promotingcheckedcandidates --> baseliningahypothesis
-  iteratingastatement --> refereeingacandidate
-  mintingahypothesis --> reviewingleads
-  refereeingacandidate --> promotingcheckedcandidates
-  writingcandidatesfromverification --> refereeingacandidate
-  conductingaverificationround --> writingcandidatesfromverification
-  preparingtoverifyacorpus --> conductingaverificationround
-  preparingtoverifyacorpus --> refereeingacandidate
-  reviewingleads --> preparingtoverifyacorpus
-  exploringacorpus --> reviewingleads
-  preparingtoexploreacorpus --> exploringacorpus
-  buildingatool --> preparingtoexploreacorpus
-  buildingatool --> preparingtoverifyacorpus
-  revisingthemethod --> preparingtoexploreacorpus
-  revisingthemethod --> preparingtoverifyacorpus
-```
-<!-- /generated -->
 
 ## Companions that are not activities
 

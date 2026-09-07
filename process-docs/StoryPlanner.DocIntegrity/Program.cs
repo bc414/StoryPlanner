@@ -15,13 +15,14 @@
 //
 // hook is the write boundary: registered in .claude/settings.json on Edit|Write, it reads the
 // event, and when the written file lies in a governed skill folder (see GovernedSkill) it runs
-// validate there and returns the failures to the session on exit code 2. It is called from the
-// published exe, never bin/Debug, so a build never breaks a live hook.
+// validate there, returns the failures to the session on exit code 2, and on a pass rewrites
+// map.md so the generated file is never stale. It is called from the published exe, never
+// bin/Debug, so a build never breaks a live hook.
 //
-// render writes the level-1 section of SKILL.md, the activity section of every activity file,
-// and map.md whole; state writes state.md whole from the instance registry, the question lists,
-// the hypothesis files and the instance folders under the repo root. Both refuse unless
-// validate passes. --force writes anyway and stamps every generated section UNVALIDATED; it
+// render writes map.md whole (and removes any generated block still inside an authored file,
+// the convention retired on 2026-09-06); state writes state.md whole from the instance
+// registry, the question lists, the hypothesis files and the instance folders under the repo
+// root. Both refuse unless validate passes. --force writes anyway and stamps the file UNVALIDATED; it
 // exists for reviewing diagrams on a scratchpad COPY, never for the real folder. A copy outside
 // the repo has no repository root above it, so pass --repo <path> to name the real one; only
 // state reads anything under it.
@@ -84,28 +85,8 @@ int RunRender()
     if (report is null) return 1;
 
     var doc = SkillReader.Read(skillFolder);
-    MermaidRenderer.CheckNodeIds(doc);
-    var forced = !report.Passed;
-
-    var written = 0;
-    File.WriteAllText(doc.SkillPath, MarkerWriter.Write(File.ReadAllText(doc.SkillPath),
-        new Dictionary<string, string> { [MermaidRenderer.Level1Section] = MermaidRenderer.Level1(doc, forced) }));
-    written++;
-
-    foreach (var a in doc.Activities)
-    {
-        var path = doc.ActivityPath(a.Id);
-        if (!File.Exists(path)) continue;
-        File.WriteAllText(path, MarkerWriter.Write(File.ReadAllText(path),
-            new Dictionary<string, string> { [MermaidRenderer.ActivitySection] = MermaidRenderer.Activity(doc, a.Id, forced) }));
-        written++;
-    }
-
-    var mapPath = Path.Combine(skillFolder, "map.md");
-    File.WriteAllText(mapPath, MermaidRenderer.Map(doc, report, forced));
-    written++;
-
-    Console.WriteLine($"Wrote {written} file(s) under {skillFolder}.");
+    var written = Render.Write(skillFolder, doc, report, forced: !report.Passed);
+    foreach (var path in written) Console.WriteLine($"Wrote {path}");
     return 0;
 }
 

@@ -8,65 +8,6 @@ Enables writing-candidates-from-verification.
 | round-judge | agent | | codebook items | results | specified | A classifier or auditor applies the codebook's frozen predicate to one item and emits its label in the output contract's form; the only writer of results |
 | round-write | session | | results tally-output ledger run-record question-list | verification-artifact | specified | Writes round.md: method, the questions the round's items and predicates cover, counts from the tally, and any way the codebook was found wanting, for promotion to raise |
 
-<!-- generated:activity -->
-```mermaid
-flowchart LR
-  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
-  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
-  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
-  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
-  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
-  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  roundrun["round-run<br/>session"]:::session
-  roundjudge(["round-judge<br/>agent"]):::agent
-  roundwrite["round-write<br/>session"]:::session
-  calibrationrecord[/"calibration-record"/]:::artifact
-  codebook[/"codebook"/]:::artifact
-  generator[/"generator"/]:::artifact
-  instances[/"instances"/]:::artifact
-  items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  ledger[/"ledger"/]:::artifact
-  questionlist[/"question-list"/]:::artifact
-  results[/"results"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
-  tallier[/"tallier"/]:::artifact
-  tallyoutput[/"tally-output"/]:::artifact
-  verificationartifact[/"verification-artifact"/]:::artifact
-
-  instances --> roundrun
-  items --> roundrun
-  itemsmanifest --> roundrun
-  codebook --> roundrun
-  calibrationrecord --> roundrun
-  results --> roundrun
-  generator -.-> roundrun
-  tallier -.-> roundrun
-  roundrun --> jobs
-  roundrun --> ledger
-  roundrun --> tallyoutput
-  roundrun --> runrecord
-  codebook --> roundjudge
-  items --> roundjudge
-  roundjudge --> results
-  results --> roundwrite
-  tallyoutput --> roundwrite
-  ledger --> roundwrite
-  runrecord --> roundwrite
-  questionlist --> roundwrite
-  roundwrite --> verificationartifact
-```
-
-Derived from the tables, never authored:
-
-- **inputs**: calibration-record codebook generator instances items items-manifest question-list tallier
-- **outputs**: jobs ledger results run-record tally-output verification-artifact
-- **instruments**: generator runner tallier
-- **enabled by**: preparing-to-verify-a-corpus
-- **enables**: writing-candidates-from-verification
-<!-- /generated -->
-
 ## Preconditions
 
 The instance is in the registry with Brian's go. The corpus's codebook at its current

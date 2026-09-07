@@ -9,61 +9,6 @@ Enables reviewing-leads.
 | slice-read | agent | | reading-protocol items | results | specified | A slice reader reads one slice under the protocol and writes its record set; the only writer of results |
 | join-and-bin | session | | results run-record question-list | leads-artifact | specified | Joins record sets on locus, sorts disagreements between arms into the named bins with the arm key closed, and writes the leads artifact |
 
-<!-- generated:activity -->
-```mermaid
-flowchart LR
-  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
-  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
-  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
-  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
-  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
-  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  pathfind["pathfind<br/>session"]:::session
-  slicerun["slice-run<br/>session"]:::session
-  sliceread(["slice-read<br/>agent"]):::agent
-  joinandbin["join-and-bin<br/>session"]:::session
-  corpus[/"corpus"/]:::artifact
-  generator[/"generator"/]:::artifact
-  instances[/"instances"/]:::artifact
-  items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  leadsartifact[/"leads-artifact"/]:::artifact
-  ledger[/"ledger"/]:::artifact
-  questionlist[/"question-list"/]:::artifact
-  readingprotocol[/"reading-protocol"/]:::artifact
-  results[/"results"/]:::artifact
-  runrecord[/"run-record"/]:::artifact
-
-  corpus --> pathfind
-  questionlist --> pathfind
-  pathfind --> leadsartifact
-  instances --> slicerun
-  items --> slicerun
-  itemsmanifest --> slicerun
-  readingprotocol --> slicerun
-  generator -.-> slicerun
-  slicerun --> jobs
-  slicerun --> ledger
-  slicerun --> runrecord
-  readingprotocol --> sliceread
-  items --> sliceread
-  sliceread --> results
-  results --> joinandbin
-  runrecord --> joinandbin
-  questionlist --> joinandbin
-  joinandbin --> leadsartifact
-```
-
-Derived from the tables, never authored:
-
-- **inputs**: corpus generator instances items items-manifest question-list reading-protocol
-- **outputs**: jobs leads-artifact ledger results run-record
-- **instruments**: generator runner
-- **enabled by**: preparing-to-explore-a-corpus
-- **enables**: reviewing-leads
-<!-- /generated -->
-
 ## Preconditions
 
 The instance is registered with Brian's go and its plan is approved. For slices: the

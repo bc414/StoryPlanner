@@ -251,9 +251,6 @@ public sealed class MapFixture : IDisposable
         | promoting-checked-candidates | changing-the-planner-for-v3 | Brian decides the referee-checked candidates |
         | refereeing-a-candidate | promoting-checked-candidates | A blind agent classifies each candidate |
 
-        <!-- generated:level-1 -->
-        <!-- /generated -->
-
         ## Companions
 
         artifacts.md holds the Artifacts table; map.md and state.md are generated only.
@@ -269,9 +266,6 @@ public sealed class MapFixture : IDisposable
         | referee-run | session | runner | instances calibration-record codebook candidates | items | specified | The batch under the host |
         | referee-judge | agent | | codebook items | results | specified | Writes the falsifier blind |
         | referee-append | session | | results candidates | candidates | specified | Copies each verdict under its candidate |
-
-        <!-- generated:activity -->
-        <!-- /generated -->
 
         ## Preconditions
 
@@ -302,9 +296,6 @@ public sealed class MapFixture : IDisposable
         | id | mode | instruments | reads | writes | state | description |
         |---|---|---|---|---|---|---|
         | promote | hitl | git | candidates hypothesis-record hypothesis-status question-list verification-artifact | hypothesis-record hypothesis-status candidates question-list verification-artifact | specified | Brian decides each candidate |
-
-        <!-- generated:activity -->
-        <!-- /generated -->
 
         ## Preconditions
 

@@ -11,7 +11,12 @@
       "Edit(.claude/**)",
       "mcp__storyplanner"
     ],
-    "deny": []
+    "deny": [
+      "Edit(.claude/skills/*/map.md)",
+      "Write(.claude/skills/*/map.md)",
+      "Edit(.claude/skills/*/state.md)",
+      "Write(.claude/skills/*/state.md)"
+    ]
   },
   "hooks": {
     "PreToolUse": [

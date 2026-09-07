@@ -418,3 +418,59 @@ what comes next from it and the draft.
   document with no instance (state.md blind to them); removal with no re-homing. Open from
   this ruling: whether the six `iteration` entries stay; the Keep corpus id (with unit-176);
   the rewrite of handoff 2's step 7, since WU2.15's retroactive pass has nothing to judge.
+
+## 2026-09-06 (night) — the adjudication deferred; document integrity as a binary at the write boundary
+
+Made in dialogue after the two rulings above showed that a plan held in prose does not
+survive a ruling of that size. Brian's words are quoted; where he selected a Claude-authored
+label the log says so.
+
+- **What is being fought, in his words:** "The reason I think tool use hooks is a
+  structural change instead of another escalation of abstractions is: we identified in past
+  sessions that Claude Code CLI is not an instrument. It is the environment. […] The tool use
+  hooks are constraints on the previously unconstrained environment of everything, and they
+  are C# binaries, not the model checking its own outputs." The two axes he defined for the
+  design: readability, "a human can plausibly read and review it efficiently in order to make
+  rulings/judgements", and schema enforcement, "enforced by system instructions versus enforced
+  by a binary. There is no unenforced". And the medium: "in markdown, text is everything. It's
+  the model's input and output and what is on disk and read by me. sqlite and json have other
+  stuff going on." The cell being built: markdown as the one medium, a deterministic binary
+  enforcing the shape at the tool boundary.
+- **Open items tracked by a C# tool, not a script.** "Seems like a script (not fragile
+  powershell, but a C# tool) is the best option for preventing drift and providing facts about
+  what is still open […] Making C# code is extremely cheap with claude code. Drifted decisions
+  is extremely expensive with claude code." Stateless verbs, no database: "should we just have
+  verbs that allow precise queries, keeping the C# program stateless with one input (verbs and
+  parameters) and one output?" — adopted. A post-write hook on the governed files: "PostToolUse
+  hook for writing rulings sounds good."
+- **Naming and homes.** "Schema is too generic; can be confused with a sqlite schema." "I like
+  DocIntegrity." The folder, by selection: `process-docs/`. "I think itemizers should become
+  its own top level folder." "I don't think a new Hooks program belongs here either. Perhaps it
+  can stay a powershell script." "AgentRunner seems unique, unrelated." No migration tool: the
+  transformations are Edit-sized and `validate` is their acceptance; pre-convention rulings-log
+  entries get derived ids, never a retrofit (the code-sessions ExtractVersion precedent).
+- **The adjudication is deferred.** "I think this should be deferred because I want a working
+  example of the paradigm of the post tool use hook first, and use artifacts.md as that. Then
+  we will come back to the rulings and omissions data." First pass: "a first pass
+  StoryPlanner.DocIntegrity which hooks into post tool use on write and edit for certain file
+  patterns which will enshrine the equivalent of artifacts.md into code for the process docs
+  surrounding the v3 buildout apparatus. Note that whatever is there in that file right now is
+  naive, written without knowledge of the doc integrity paradigm." Landed the same night: the
+  tool renamed and moved from `tools/StoryPlanner.ProcessMap`, a `hook` verb, the published exe
+  named by a PostToolUse `Edit|Write` entry in the project settings, scope decided by shape (a
+  `.claude/skills/<x>/` folder holding SKILL.md and artifacts.md), verified live on a deliberate
+  duplicate id in the real folder.
+- **Generated text is files only.** "I agree with the generated files change." Reverses the
+  2026-09-04 choice of inline diagrams: the `level-1` and `activity` sections leave the authored
+  files, `map.md` gains one section per activity, the marker writer is deleted, `map.md` and
+  `state.md` are denied to sessions by path, and the hook rewrites `map.md` after every passing
+  validate (measured: a tenth of a second). What is lost: the diagram beside the table in an
+  editor, and the derived summary inline for a session reading an activity file whole.
+- **Owed from this session, not ruled:** the record checkers one class at a time, the
+  hypothesis file first; the mutation rule as a pre-write check; state regeneration on record
+  writes; keeping `hook_blocking_error` attachments in the code-sessions archive, since the
+  ingest drops them and a refusal is the counterevidence channel for a wrong schema.
+- **Not in CLAUDE.md.** The session had listed a CLAUDE.md line about the hook as owed;
+  Brian: "I don't think the hook should go in claude.md since it is v3 buildout specific."
+  The hook's message and the skill's § Schema paragraph are its two homes; CLAUDE.md's
+  file-tools rule is the repo-wide half and stands as written.

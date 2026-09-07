@@ -1,13 +1,15 @@
-using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using StoryPlanner.DocIntegrity;
 using Xunit;
 
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// Rendering and the marker contract. The generated sections are never hand-edited, so the
-/// things worth pinning are that a re-render changes nothing, that each section carries what
-/// the tables derive, and that everything outside a marker pair is copied through untouched.
+/// Rendering. Generated text is files only, so the things worth pinning are that map.md
+/// carries what the tables derive, that the same rows render byte-identical text, that
+/// <see cref="Render.Write"/> touches an authored file only to remove a generated block the
+/// earlier convention left there, and that stripping such a block preserves everything else.
 /// </summary>
 public class RenderTests
 {
@@ -15,7 +17,7 @@ public class RenderTests
     public void Level_one_draws_every_activity_and_its_enables_edges()
     {
         using var f = new MapFixture();
-        var level1 = MermaidRenderer.Level1(f.Doc, forced: false);
+        var level1 = MermaidRenderer.Level1(f.Doc);
         Assert.Contains("changingtheplannerforv3[[\"changing-the-planner-for-v3\"]]:::terminus", level1);
         Assert.Contains("refereeingacandidate[\"refereeing-a-candidate\"]:::activity", level1);
         Assert.Contains("refereeingacandidate --> promotingcheckedcandidates", level1);
@@ -26,7 +28,7 @@ public class RenderTests
     public void An_activity_section_draws_its_processes_by_mode_and_the_artifacts_they_touch()
     {
         using var f = new MapFixture();
-        var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate", forced: false);
+        var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate");
         Assert.Contains("refereerun[\"referee-run<br/>session\"]:::session", section);
         Assert.Contains("refereejudge([\"referee-judge<br/>agent\"]):::agent", section);
         Assert.Contains("candidates[/\"candidates\"/]:::artifact", section);
@@ -39,7 +41,7 @@ public class RenderTests
     public void An_hitl_process_is_a_hexagon()
     {
         using var f = new MapFixture();
-        Assert.Contains("promote{{\"promote<br/>hitl\"}}:::hitl", MermaidRenderer.Activity(f.Doc, "promoting-checked-candidates", forced: false));
+        Assert.Contains("promote{{\"promote<br/>hitl\"}}:::hitl", MermaidRenderer.Activity(f.Doc, "promoting-checked-candidates"));
     }
 
     [Fact]
@@ -47,35 +49,37 @@ public class RenderTests
     {
         using var f = MapFixture.With(MapFixture.RefereeingFile,
             "| referee-judge | agent | | codebook items |", "| referee-judge | agent | items | codebook |");
-        Assert.Contains("items -.-> refereejudge", MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate", forced: false));
+        Assert.Contains("items -.-> refereejudge", MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate"));
     }
 
     [Fact]
     public void An_activity_section_carries_what_the_tables_derive_for_it()
     {
         using var f = new MapFixture();
-        var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate", forced: false);
+        var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate");
         Assert.Contains("- **inputs**: calibration-record codebook instances", section);
         Assert.Contains("- **outputs**: candidates items results", section);
         Assert.Contains("- **instruments**: runner", section);
         Assert.Contains("- **enabled by**: —", section);
         Assert.Contains("- **enables**: promoting-checked-candidates", section);
         Assert.Contains("- **enabled by**: refereeing-a-candidate",
-            MermaidRenderer.Activity(f.Doc, "promoting-checked-candidates", forced: false));
+            MermaidRenderer.Activity(f.Doc, "promoting-checked-candidates"));
     }
 
     [Fact]
-    public void The_map_holds_the_whole_graph_the_consumers_and_the_verdict()
+    public void The_map_holds_the_activities_each_activity_the_whole_graph_the_consumers_and_the_verdict()
     {
         using var f = new MapFixture();
         var map = MermaidRenderer.Map(f.Doc, f.Report, forced: false);
+        Assert.Contains("## The activities", map);
+        Assert.Contains("### refereeing-a-candidate", map);
+        Assert.Contains("### promoting-checked-candidates", map);
+        Assert.DoesNotContain("### changing-the-planner-for-v3", map);
+        Assert.Contains("- **enables**: promoting-checked-candidates", map);
         Assert.Contains("subgraph refereeingacandidate[\"refereeing-a-candidate\"]", map);
-        Assert.DoesNotContain("subgraph changingtheplannerforv3", map);
         Assert.Contains("| candidates | promote referee-append | promote referee-run referee-append | — |", map);
         Assert.Contains("Last run: **passed**", map);
-        Assert.Contains("<!-- generated:graph -->", map);
-        Assert.Contains("<!-- generated:consumers -->", map);
-        Assert.Contains("<!-- generated:validation -->", map);
+        Assert.DoesNotContain(MapTables.GeneratedOpenPrefix, map);
     }
 
     [Fact]
@@ -83,20 +87,18 @@ public class RenderTests
     {
         using var f = new MapFixture();
         var doc = f.Doc;
-        Assert.Equal(MermaidRenderer.Level1(doc, false), MermaidRenderer.Level1(doc, false));
-        Assert.Equal(MermaidRenderer.Activity(doc, "promoting-checked-candidates", false),
-            MermaidRenderer.Activity(doc, "promoting-checked-candidates", false));
+        Assert.Equal(MermaidRenderer.Level1(doc), MermaidRenderer.Level1(doc));
+        Assert.Equal(MermaidRenderer.Activity(doc, "promoting-checked-candidates"),
+            MermaidRenderer.Activity(doc, "promoting-checked-candidates"));
         Assert.Equal(MermaidRenderer.Map(doc, f.Report, false), MermaidRenderer.Map(doc, f.Report, false));
     }
 
     [Fact]
-    public void Forcing_stamps_every_section_unvalidated()
+    public void Forcing_stamps_the_map_unvalidated()
     {
         using var f = new MapFixture();
-        var doc = f.Doc;
-        Assert.Contains("UNVALIDATED", MermaidRenderer.Level1(doc, forced: true));
-        Assert.Contains("UNVALIDATED", MermaidRenderer.Activity(doc, "refereeing-a-candidate", forced: true));
-        Assert.Contains("UNVALIDATED", MermaidRenderer.Map(doc, f.Report, forced: true));
+        Assert.Contains("UNVALIDATED", MermaidRenderer.Map(f.Doc, f.Report, forced: true));
+        Assert.DoesNotContain("UNVALIDATED", MermaidRenderer.Map(f.Doc, f.Report, forced: false));
     }
 
     [Fact]
@@ -112,38 +114,63 @@ public class RenderTests
         Assert.Throws<MapFormatException>(() => MermaidRenderer.CheckNodeIds(f.Doc));
     }
 
-    // ---- the marker contract ----
-
-    static readonly Dictionary<string, string> Level1Body = new() { [MermaidRenderer.Level1Section] = "body of level-1\n" };
+    // ---- writing: files only ----
 
     [Fact]
-    public void Writing_replaces_only_what_lies_between_the_markers()
+    public void Write_produces_map_md_and_touches_no_authored_file_that_is_clean()
     {
-        var updated = MarkerWriter.Write(MapFixture.Skill, Level1Body);
-        Assert.Contains("body of level-1", updated);
-        Assert.Contains("| changing-the-planner-for-v3 | | The terminus", updated);
-        Assert.Equal(
-            MapFixture.Skill.Split("<!-- generated:level-1 -->")[0],
-            updated.Split("<!-- generated:level-1 -->")[0]);
-        Assert.Equal(
-            MapFixture.Skill.Split("<!-- /generated -->")[1],
-            updated.Split("<!-- /generated -->")[1]);
+        using var f = new MapFixture();
+        var before = f.Read(MapFixture.RefereeingFile);
+        var written = Render.Write(f.SkillFolder, f.Doc, f.Report, forced: false);
+        Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile)], written);
+        Assert.Contains("## Each activity", File.ReadAllText(Path.Combine(f.SkillFolder, Render.MapFile)));
+        Assert.Equal(before, f.Read(MapFixture.RefereeingFile));
+    }
+
+    const string LeftoverBlock = "<!-- generated:level-1 -->\n```mermaid\nold diagram\n```\n<!-- /generated -->\n\n## Companions";
+
+    [Fact]
+    public void Write_removes_a_generated_block_the_earlier_convention_left_in_an_authored_file()
+    {
+        using var f = MapFixture.With(MapFixture.SkillFile, "## Companions", LeftoverBlock);
+        Assert.Contains("info.generated.inline-block", f.Report.Findings.Select(x => x.RuleId));
+        Assert.True(f.Report.Passed);
+
+        var written = Render.Write(f.SkillFolder, f.Doc, f.Report, forced: false);
+        Assert.Contains(f.Doc.SkillPath, written);
+
+        var skill = f.Read(MapFixture.SkillFile);
+        Assert.DoesNotContain(MapTables.GeneratedOpenPrefix, skill);
+        Assert.DoesNotContain("old diagram", skill);
+        Assert.Contains("| changing-the-planner-for-v3 | | The terminus", skill);
+        Assert.Contains("## Companions", skill);
+        Assert.DoesNotContain("info.generated.inline-block", f.Report.Findings.Select(x => x.RuleId));
+
+        var again = Render.Write(f.SkillFolder, f.Doc, f.Report, forced: false);
+        Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile)], again);
+    }
+
+    // ---- stripping ----
+
+    [Fact]
+    public void Stripping_removes_the_block_and_leaves_one_blank_line_where_it_stood()
+    {
+        const string text = "# t\n\n| a |\n|---|\n| 1 |\n\n<!-- generated:x -->\nbody\n<!-- /generated -->\n\n## Next\n";
+        Assert.Equal("# t\n\n| a |\n|---|\n| 1 |\n\n## Next\n", Render.StripGenerated(text));
     }
 
     [Fact]
-    public void A_second_write_over_the_first_is_idempotent()
+    public void Stripping_keeps_the_file_s_own_newline_style()
     {
-        var once = MarkerWriter.Write(MapFixture.Skill, Level1Body);
-        Assert.Equal(once, MarkerWriter.Write(once, Level1Body));
+        const string text = "# t\r\n\r\n<!-- generated:x -->\r\nbody\r\n<!-- /generated -->\r\n\r\n## Next\r\n";
+        Assert.Equal("# t\r\n\r\n## Next\r\n", Render.StripGenerated(text));
     }
 
     [Fact]
-    public void A_section_with_no_marker_pair_is_refused_rather_than_appended()
-        => Assert.Throws<MapFormatException>(() =>
-            MarkerWriter.Write(MapFixture.Skill, new Dictionary<string, string> { ["nowhere"] = "x" }));
+    public void Stripping_a_file_with_no_block_changes_nothing()
+        => Assert.Equal("# t\n\nprose\n", Render.StripGenerated("# t\n\nprose\n"));
 
     [Fact]
-    public void An_unclosed_marker_is_refused()
-        => Assert.Throws<MapFormatException>(() => MarkerWriter.Write(
-            "<!-- generated:level-1 -->\n", Level1Body));
+    public void An_unclosed_block_is_refused_rather_than_stripped_to_the_end()
+        => Assert.Throws<MapFormatException>(() => Render.StripGenerated("# t\n<!-- generated:x -->\nbody\n"));
 }
