@@ -11,6 +11,12 @@
 //   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- render   .claude/skills/v3-buildout [--force]
 //   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- state    .claude/skills/v3-buildout [--force] [--repo <path>]
 //   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- nodes    <file.md>
+//   <publish>/StoryPlanner.DocIntegrity.exe hook        (a Claude Code PostToolUse event on stdin)
+//
+// hook is the write boundary: registered in .claude/settings.json on Edit|Write, it reads the
+// event, and when the written file lies in a governed skill folder (see GovernedSkill) it runs
+// validate there and returns the failures to the session on exit code 2. It is called from the
+// published exe, never bin/Debug, so a build never breaks a live hook.
 //
 // render writes the level-1 section of SKILL.md, the activity section of every activity file,
 // and map.md whole; state writes state.md whole from the instance registry, the question lists,
@@ -51,6 +57,7 @@ try
         "render" => RunRender(),
         "state" => RunState(),
         "nodes" => RunNodes(),
+        "hook" => RunHook(),
         _ => Usage($"Unknown verb '{verb}'."),
     };
 }
@@ -137,6 +144,13 @@ ValidationReport? Gate(string verb, string skillFolder)
     return report;
 }
 
+int RunHook()
+{
+    var outcome = WriteHook.Run(Console.In.ReadToEnd());
+    if (outcome.Message.Length > 0) Console.Error.WriteLine(outcome.Message);
+    return outcome.ExitCode;
+}
+
 int RunNodes()
 {
     if (positional.Count != 1) return Usage("nodes takes one argument: a markdown file.");
@@ -156,20 +170,7 @@ int RunNodes()
     return 0;
 }
 
-void PrintReport(ValidationReport report)
-{
-    foreach (var group in report.Findings.GroupBy(f => f.Level).OrderBy(g => (int)g.Key))
-    {
-        Console.WriteLine();
-        Console.WriteLine($"== {group.Key.ToString().ToUpperInvariant()} ({group.Count()}) ==");
-        foreach (var f in group)
-            Console.WriteLine($"{f.RuleId,-32} {f.RowId,-36} {f.Message}");
-    }
-    Console.WriteLine();
-    Console.WriteLine(report.Passed
-        ? $"validate: passed, {report.Findings.Count} note(s)."
-        : $"validate: {report.Failures} failure(s).");
-}
+void PrintReport(ValidationReport report) => Console.Write(ReportText.Format(report));
 
 (string RepoRoot, string SkillFolder) Resolve(string skillFolderArg)
 {
@@ -185,14 +186,11 @@ void PrintReport(ValidationReport report)
         return (explicitRoot, skillFolder);
     }
 
-    var dir = new DirectoryInfo(skillFolder);
-    while (dir is not null && !Directory.Exists(Path.Combine(dir.FullName, ".git")))
-        dir = dir.Parent;
-    if (dir is null)
-        throw new MapFormatException(
+    var root = RepoLocator.FindRoot(skillFolder)
+        ?? throw new MapFormatException(
             $"no repository root above {skillFolder}. Artifact paths are repo-relative; pass --repo <path>.",
             "folder.missing");
-    return (dir.FullName, skillFolder);
+    return (root, skillFolder);
 }
 
 int Usage(string? message = null)
@@ -204,6 +202,7 @@ int Usage(string? message = null)
           DocIntegrity render   <skill-folder> [--force] [--repo <path>]
           DocIntegrity state    <skill-folder> [--force] [--repo <path>]
           DocIntegrity nodes    <file.md>
+          DocIntegrity hook     (reads a Claude Code PostToolUse event from stdin)
         """);
     return 2;
 }

@@ -25,6 +25,18 @@
           }
         ]
       }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "process-docs/StoryPlanner.DocIntegrity/publish/StoryPlanner.DocIntegrity.exe",
+            "args": ["hook"]
+          }
+        ]
+      }
     ]
   }
 }

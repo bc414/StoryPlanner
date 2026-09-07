@@ -148,6 +148,12 @@ whole graph, the consumers table and the validation report in `map.md`, and the 
 current state in `state.md` (per corpus and per hypothesis, from the artifacts on disk).
 Neither generated file holds anything authored.
 
+**The tables are checked at the write.** A PostToolUse hook, registered in the project
+settings, runs `validate` over this folder after every Edit or Write inside it and returns
+the failures to the session in the same turn. A failure is fixed, row and prose together,
+before any other write; it is never worked around, and a write to this folder never goes
+through the shell, which the hook cannot see.
+
 ## Router — the activities
 
 Read the companion named for your activity in full before acting. An activity not in the
