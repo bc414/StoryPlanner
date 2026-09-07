@@ -84,18 +84,21 @@ public class WriteHookTests
     // ---- outcome ----
 
     [Fact]
-    public void A_governed_write_that_validates_is_silent_and_regenerates_the_map()
+    public void A_governed_write_that_checks_clean_is_silent_and_regenerates_both_generated_files()
     {
         using var f = new MapFixture();
         var mapPath = Path.Combine(f.SkillFolder, Render.MapFile);
+        var statePath = Path.Combine(f.SkillFolder, Render.StateFile);
         Assert.False(File.Exists(mapPath));
+        Assert.False(File.Exists(statePath));
 
         var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.ArtifactsFile)));
         Assert.Equal(HookOutcomeKind.Silent, outcome.Kind);
         Assert.Equal(WriteHook.Silent, outcome.ExitCode);
         Assert.Equal("", outcome.Message);
-        Assert.Equal([mapPath], outcome.Regenerated);
+        Assert.Equal([mapPath, statePath], outcome.Regenerated);
         Assert.True(File.Exists(mapPath));
+        Assert.Contains("## Studies", File.ReadAllText(statePath));
     }
 
     [Fact]
@@ -106,6 +109,7 @@ public class WriteHookTests
         Assert.Equal(HookOutcomeKind.Silent, outcome.Kind);
         Assert.Empty(outcome.Regenerated);
         Assert.False(File.Exists(Path.Combine(f.SkillFolder, Render.MapFile)));
+        Assert.False(File.Exists(Path.Combine(f.SkillFolder, Render.StateFile)));
     }
 
     [Fact]
@@ -118,6 +122,31 @@ public class WriteHookTests
         Assert.Equal(HookOutcomeKind.Failed, outcome.Kind);
         Assert.Empty(outcome.Regenerated);
         Assert.False(File.Exists(Path.Combine(f.SkillFolder, Render.MapFile)));
+        Assert.False(File.Exists(Path.Combine(f.SkillFolder, Render.StateFile)));
+    }
+
+    [Fact]
+    public void A_governed_file_write_that_passes_regenerates_the_governing_folder_s_files()
+    {
+        using var f = new MapFixture().WithStateTree();
+        Directory.CreateDirectory(Path.Combine(f.RepoRoot, ".git"));
+        var statePath = Path.Combine(f.SkillFolder, Render.StateFile);
+
+        var outcome = WriteHook.Run(EditPayload(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md")));
+        Assert.Equal(HookOutcomeKind.Silent, outcome.Kind);
+        Assert.Contains(statePath, outcome.Regenerated);
+        Assert.Contains($"### {MapFixture.Study}", File.ReadAllText(statePath));
+    }
+
+    [Fact]
+    public void A_governed_file_write_that_fails_regenerates_nothing()
+    {
+        using var f = new MapFixture().WithStateTree();
+        Directory.CreateDirectory(Path.Combine(f.RepoRoot, ".git"));
+        var outcome = WriteHook.Run(EditPayload(f.TreePath("docs", "v3-framework", "hypotheses", "032-other.md")));
+        Assert.Equal(HookOutcomeKind.Failed, outcome.Kind);
+        Assert.Empty(outcome.Regenerated);
+        Assert.False(File.Exists(Path.Combine(f.SkillFolder, Render.StateFile)));
     }
 
     [Fact]
@@ -188,6 +217,6 @@ public class WriteHookTests
             Assert.Contains(x.RuleId, full);
             Assert.Contains(x.RuleId, failures);
         }
-        Assert.Contains($"validate: {report.Failures} failure(s).", full);
+        Assert.Contains($"check: {report.Failures} failure(s).", full);
     }
 }

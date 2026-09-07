@@ -117,13 +117,14 @@ public class RenderTests
     // ---- writing: files only ----
 
     [Fact]
-    public void Write_produces_map_md_and_touches_no_authored_file_that_is_clean()
+    public void Write_produces_both_generated_files_and_touches_no_authored_file_that_is_clean()
     {
         using var f = new MapFixture();
         var before = f.Read(MapFixture.RefereeingFile);
-        var written = Render.Write(f.SkillFolder, f.Doc, f.Report, forced: false);
-        Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile)], written);
+        var written = Render.Write(f.RepoRoot, f.SkillFolder, f.Doc, f.Report, forced: false);
+        Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile), Path.Combine(f.SkillFolder, Render.StateFile)], written);
         Assert.Contains("## Each activity", File.ReadAllText(Path.Combine(f.SkillFolder, Render.MapFile)));
+        Assert.Contains("## Studies", File.ReadAllText(Path.Combine(f.SkillFolder, Render.StateFile)));
         Assert.Equal(before, f.Read(MapFixture.RefereeingFile));
     }
 
@@ -136,7 +137,7 @@ public class RenderTests
         Assert.Contains("info.generated.inline-block", f.Report.Findings.Select(x => x.RuleId));
         Assert.True(f.Report.Passed);
 
-        var written = Render.Write(f.SkillFolder, f.Doc, f.Report, forced: false);
+        var written = Render.Write(f.RepoRoot, f.SkillFolder, f.Doc, f.Report, forced: false);
         Assert.Contains(f.Doc.SkillPath, written);
 
         var skill = f.Read(MapFixture.SkillFile);
@@ -146,8 +147,8 @@ public class RenderTests
         Assert.Contains("## Companions", skill);
         Assert.DoesNotContain("info.generated.inline-block", f.Report.Findings.Select(x => x.RuleId));
 
-        var again = Render.Write(f.SkillFolder, f.Doc, f.Report, forced: false);
-        Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile)], again);
+        var again = Render.Write(f.RepoRoot, f.SkillFolder, f.Doc, f.Report, forced: false);
+        Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile), Path.Combine(f.SkillFolder, Render.StateFile)], again);
     }
 
     // ---- stripping ----

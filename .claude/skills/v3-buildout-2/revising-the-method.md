@@ -26,10 +26,11 @@ ruling about how agent jobs are run lands in the `agent-runner` skill the same w
 schema change (a column, a closed set, a validator rule) is a change to `SKILL.md` § Schema
 and to the tool with its fixtures, and is rare.
 
-Two lints gate a revision. The first is structure: the write hook runs `validate`
+Two lints gate a revision. The first is structure: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and
-regenerates `map.md` on a pass; a failure is fixed before the next edit. The second is content, and
-it runs only for a revision that rewrites the skill wholesale: every unit of the prior text
+regenerates `map.md` and `state.md` on a pass; a failure is fixed before the next edit. The
+second is content, and it runs only for a revision that rewrites the skill wholesale: every
+unit of the prior text
 is judged against the new folder by `audit-run` and `audit-judge`, and the session
 adjudicates the tally with Brian. Each unit the audit reports narrowed, reversed or absent
 gets one line in the revision note's omissions list with his decision — restored to the new

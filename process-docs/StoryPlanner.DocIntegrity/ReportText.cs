@@ -21,8 +21,8 @@ public static class ReportText
         }
         sb.AppendLine();
         sb.AppendLine(report.Passed
-            ? $"validate: passed, {report.Findings.Count} note(s)."
-            : $"validate: {report.Failures} failure(s).");
+            ? $"check: passed, {report.Findings.Count} note(s)."
+            : $"check: {report.Failures} failure(s).");
         return sb.ToString();
     }
 

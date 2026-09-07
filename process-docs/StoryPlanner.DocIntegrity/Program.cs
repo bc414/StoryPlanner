@@ -1,41 +1,46 @@
-// StoryPlanner.DocIntegrity — the validator, renderer and state reader for the v3-buildout skill.
-// Named StoryPlanner.ProcessMap under tools/ until 2026-09-06, when it moved to process-docs/ as
-// the first of the binaries that hold the shape of the buildout's process documents.
+// StoryPlanner.DocIntegrity — holds the shape of the buildout's process documents: the skill's
+// three tables and every governed file, checked at the write. Named StoryPlanner.ProcessMap
+// under tools/ until 2026-09-06, when it moved to process-docs/ as the first of the binaries
+// that hold the shape of the buildout's process documents.
 //
 // The skill is a Type Object for the buildout method: three tables with fixed columns
 // (SKILL.md § Schema) — Activities in the router, Processes at the head of each activity file,
 // Artifacts in artifacts.md — plus this tool are the schema; the rows are in flux. Iterating
-// the method is editing rows and re-running validation, never rewriting a document.
+// the method is editing rows and re-running the check, never rewriting a document. A file of
+// an artifact class that has a format is a governed file, and its checker is that format.
 //
-//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- validate .claude/skills/v3-buildout
-//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- render   .claude/skills/v3-buildout [--force]
-//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- state    .claude/skills/v3-buildout [--force] [--repo <path>]
-//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- nodes    <file.md>
+//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check  <path>         [--repo <path>]
+//   dotnet run --project process-docs/StoryPlanner.DocIntegrity -- render <skill-folder> [--force] [--repo <path>]
 //   <publish>/StoryPlanner.DocIntegrity.exe hook        (a Claude Code PostToolUse event on stdin)
 //
-// hook is the write boundary: registered in .claude/settings.json on Edit|Write, it reads the
-// event, and when the written file lies in a governed skill folder (see GovernedSkill) it runs
-// validate there, returns the failures to the session on exit code 2, and on a pass rewrites
-// map.md so the generated file is never stale. It is called from the published exe, never
-// bin/Debug, so a build never breaks a live hook.
+// Three verbs since 2026-09-07 (decisions.md, "The tool has three verbs"); validate, records
+// and state folded into them and nodes retired with the draft-1 comparison it served.
 //
-// render writes map.md whole (and removes any generated block still inside an authored file,
-// the convention retired on 2026-09-06); state writes state.md whole from the study
-// registry, the question lists, the hypothesis files and the study folders under the repo
-// root. Both refuse unless validate passes. --force writes anyway and stamps the file UNVALIDATED; it
-// exists for reviewing diagrams on a scratchpad COPY, never for the real folder. A copy outside
-// the repo has no repository root above it, so pass --repo <path> to name the real one; only
-// state reads anything under it.
+// check takes one path and checks everything governed at or under it, following the
+// artifacts tables: a skill folder gets the checks of the method's shape (Validator), a
+// governed file gets its class's format (FormatCheckers), a folder gets every skill folder and
+// every governed file under it, so `check .` is the repository and the pre-commit gate's call,
+// and a narrower folder bounds the check. Exit 1 on any failure.
+//
+// render writes every generated file of a skill folder whole — map.md from the tables,
+// state.md from the study registry, the question lists, the hypothesis files and the study
+// folders under the repository root — and removes any generated block still inside an authored
+// file (the convention retired on 2026-09-06). It refuses unless the folder checks clean;
+// --force writes anyway and stamps the files UNVALIDATED, for reviewing a scratchpad COPY,
+// never the real folder. A copy outside a repository has no root above it, so pass
+// --repo <path> to name the real one; artifact paths are repo-relative.
+//
+// hook is the write boundary: registered in .claude/settings.json on Edit|Write, it reads the
+// event and does what the write implies — check, and on a pass render — returning the failures
+// to the session on exit code 2. It is called from the published exe, never bin/Debug, so a
+// build never breaks a live hook.
 //
 // Exit codes follow the other tools: 0 ok, 1 failure, 2 usage.
 //
-// Reworked in place on 2026-09-05 (methodology revision 2, handoff 2 step 1) from the tool of
-// 2026-09-04 that validated the previous schema; the rulings are in
-// docs/v3-framework/methodology-revision-2-rulings.md. Why no ProjectReference to
-// StoryPlanner.AgentRunner for its UnitSplitter: AgentRunner is a Microsoft.NET.Sdk.Web project
-// with Markdig and OutputType=Exe, so referencing it drags the ASP.NET framework reference into
-// a plain console tool. MapTables.cs carries the same unit rule — header and separator are
-// structure, every body row is a unit — pinned by its own tests.
+// Why no ProjectReference to StoryPlanner.AgentRunner for its UnitSplitter: AgentRunner is a
+// Microsoft.NET.Sdk.Web project with Markdig and OutputType=Exe, so referencing it drags the
+// ASP.NET framework reference into a plain console tool. MapTables.cs carries the same unit
+// rule — header and separator are structure, every body row is a unit — pinned by its own tests.
 
 using StoryPlanner.DocIntegrity;
 
@@ -54,13 +59,9 @@ try
 {
     return verb switch
     {
-        "validate" => RunValidate(),
-        "render" => RunRender(),
-        "state" => RunState(),
-        "nodes" => RunNodes(),
-        "hook" => RunHook(),
         "check" => RunCheck(),
-        "records" => RunRecords(),
+        "render" => RunRender(),
+        "hook" => RunHook(),
         _ => Usage($"Unknown verb '{verb}'."),
     };
 }
@@ -70,124 +71,45 @@ catch (MapFormatException ex)
     return 1;
 }
 
-int RunValidate()
+int RunCheck()
 {
-    if (positional.Count != 1) return Usage("validate takes one argument: the skill folder.");
-    var (_, skillFolder) = Resolve(positional[0]);
-    var report = Validator.Validate(skillFolder);
-    PrintReport(report);
-    return report.Passed ? 0 : 1;
+    if (positional.Count != 1) return Usage("check takes one argument: a governed file, a skill folder, or a folder.");
+    var path = Path.GetFullPath(positional[0]);
+    if (!File.Exists(path) && !Directory.Exists(path)) { Console.Error.WriteLine($"No such file or folder: {path}"); return 2; }
+
+    var result = Check.Run(RepoRootFor(path), path);
+    Console.Error.WriteLine($"check: {result.SkillFolders.Count} skill folder(s), {result.GovernedFiles.Count} governed file(s).");
+    Console.Write(ReportText.Format(result.Report));
+    return result.Report.Passed ? 0 : 1;
 }
 
 int RunRender()
 {
     if (positional.Count != 1) return Usage("render takes one argument: the skill folder.");
-    var (_, skillFolder) = Resolve(positional[0]);
-    var report = Gate("render", skillFolder);
-    if (report is null) return 1;
+    var skillFolder = Path.GetFullPath(positional[0]);
+    if (!Directory.Exists(skillFolder))
+        throw new MapFormatException($"no such folder: {skillFolder}", "folder.missing");
+    var repoRoot = RepoRootFor(skillFolder);
+
+    var report = Validator.Validate(skillFolder);
+    if (!report.Passed)
+    {
+        if (!force || report.Findings.Any(f => f.RuleId.StartsWith("table.") || f.RuleId.EndsWith(".missing")))
+        {
+            Console.Error.WriteLine(
+                $"render refuses: check reports {report.Failures} failure(s). " +
+                (force ? "The tables do not parse, so --force cannot help." :
+                    "Fix the rows, or run on a scratchpad copy with --force to review the output."));
+            Console.Write(ReportText.Format(report));
+            return 1;
+        }
+        Console.Error.WriteLine($"--force: render over {report.Failures} failure(s); the output is stamped UNVALIDATED.");
+    }
 
     var doc = SkillReader.Read(skillFolder);
-    var written = Render.Write(skillFolder, doc, report, forced: !report.Passed);
+    var written = Render.Write(repoRoot, skillFolder, doc, report, forced: !report.Passed);
     foreach (var path in written) Console.WriteLine($"Wrote {path}");
     return 0;
-}
-
-int RunState()
-{
-    if (positional.Count != 1) return Usage("state takes one argument: the skill folder.");
-    var (repoRoot, skillFolder) = Resolve(positional[0]);
-    var report = Gate("state", skillFolder);
-    if (report is null) return 1;
-
-    var doc = SkillReader.Read(skillFolder);
-    var text = StateBuilder.Build(repoRoot, doc, forced: !report.Passed);
-
-    var statePath = Path.Combine(skillFolder, "state.md");
-    File.WriteAllText(statePath, text);
-    Console.WriteLine($"Wrote {statePath}.");
-    return 0;
-}
-
-/// <summary>validate first; null means refused (already printed). A failing report with --force is allowed through.</summary>
-ValidationReport? Gate(string verb, string skillFolder)
-{
-    var report = Validator.Validate(skillFolder);
-    if (report.Passed) return report;
-    if (!force || report.Findings.Any(f => f.RuleId.StartsWith("table.") || f.RuleId.EndsWith(".missing")))
-    {
-        Console.Error.WriteLine(
-            $"{verb} refuses: validate reports {report.Failures} failure(s). " +
-            (force ? "The tables do not parse, so --force cannot help." :
-                "Fix the rows, or run on a scratchpad copy with --force to review the output."));
-        PrintReport(report);
-        return null;
-    }
-    Console.Error.WriteLine(
-        $"--force: {verb} over {report.Failures} failure(s); the output is stamped UNVALIDATED.");
-    return report;
-}
-
-int RunCheck()
-{
-    if (positional.Count != 1) return Usage("check takes one argument: a file.");
-    var path = Path.GetFullPath(positional[0]);
-    if (!File.Exists(path)) { Console.Error.WriteLine($"No such file: {path}"); return 2; }
-
-    var scoped = ArtifactScope.Locate(path);
-    if (scoped is null)
-    {
-        Console.WriteLine("check: not a governed file; no artifact row with a checker matches this path.");
-        return 0;
-    }
-    var report = new ValidationReport(scoped.Checker(scoped.Context, path));
-    Console.WriteLine($"check: {scoped.Row.Id} (artifacts.md § {scoped.Row.Format})");
-    Console.Write(ReportText.Format(report));
-    return report.Passed ? 0 : 1;
-}
-
-/// <summary>Every file of every artifact class with a checker, over the whole repository; the pre-commit gate's verb.</summary>
-int RunRecords()
-{
-    if (positional.Count != 1) return Usage("records takes one argument: the skill folder.");
-    var (repoRoot, skillFolder) = Resolve(positional[0]);
-    var doc = SkillReader.Read(skillFolder);
-    var ctx = CheckContext.From(repoRoot, skillFolder);
-    var findings = new List<Finding>();
-    var seenFiles = new HashSet<string>(StringComparer.Ordinal);
-
-    foreach (var id in FormatCheckers.CheckedIds)
-    {
-        var row = doc.Artifact(id);
-        var checker = FormatCheckers.For(id);
-        if (row is null || checker is null || !ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.OutsideRepo)
-        {
-            findings.Add(Finding.Info("records.no-row", id, "no artifact row with a parseable path; nothing checked"));
-            continue;
-        }
-        var pattern = ap.Pattern.StartsWith(".claude/skills/", StringComparison.Ordinal)
-            ? Path.GetRelativePath(repoRoot, skillFolder).Replace('\\', '/') + ap.Pattern[ap.Pattern.IndexOf('/', ".claude/skills/".Length)..]
-            : ap.Pattern;
-        var files = StateBuilder.Matches(repoRoot, ap with { Pattern = pattern }, null, null);
-        if (files.Count == 0)
-        {
-            findings.Add(Finding.Info("records.no-file", id, $"no file matches {pattern}; nothing to check"));
-            continue;
-        }
-        var counted = 0;
-        foreach (var file in files)
-        {
-            if (!seenFiles.Add(file)) continue;
-            counted++;
-            var rel = Path.GetRelativePath(repoRoot, file).Replace('\\', '/');
-            foreach (var f in checker(ctx, file))
-                findings.Add(f with { RowId = rel });
-        }
-        Console.Error.WriteLine($"{id}: {counted} file(s) checked.");
-    }
-
-    var report = new ValidationReport(findings);
-    PrintReport(report);
-    return report.Passed ? 0 : 1;
 }
 
 int RunHook()
@@ -197,46 +119,30 @@ int RunHook()
     return outcome.ExitCode;
 }
 
-int RunNodes()
+/// <summary>
+/// --repo when given; else the repository root above the path; else the root the shape of a
+/// governed skill folder implies (three levels up), which is what a scratchpad copy at
+/// <c>.claude/skills/&lt;name&gt;/</c> has; else a refusal, since artifact paths are repo-relative.
+/// </summary>
+string RepoRootFor(string path)
 {
-    if (positional.Count != 1) return Usage("nodes takes one argument: a markdown file.");
-    var path = Path.GetFullPath(positional[0]);
-    if (!File.Exists(path)) { Console.Error.WriteLine($"No such file: {path}"); return 2; }
-
-    var scan = MermaidScanner.Scan(File.ReadAllText(path));
-    foreach (var n in scan.Nodes) Console.WriteLine($"node {n}");
-    foreach (var e in scan.Edges) Console.WriteLine($"edge {e}");
-
-    var collisions = scan.Normalisation.GroupBy(kv => kv.Value).Where(g => g.Count() > 1).ToList();
-    Console.Error.WriteLine($"{scan.Nodes.Count} node(s), {scan.Edges.Count} edge(s).");
-    foreach (var kv in scan.Normalisation)
-        if (kv.Key != kv.Value) Console.Error.WriteLine($"  {kv.Key} → {kv.Value}");
-    foreach (var g in collisions)
-        Console.Error.WriteLine($"  COLLISION on '{g.Key}': {string.Join(", ", g.Select(x => x.Key))}");
-    return 0;
-}
-
-void PrintReport(ValidationReport report) => Console.Write(ReportText.Format(report));
-
-(string RepoRoot, string SkillFolder) Resolve(string skillFolderArg)
-{
-    var skillFolder = Path.GetFullPath(skillFolderArg);
-    if (!Directory.Exists(skillFolder))
-        throw new MapFormatException($"no such folder: {skillFolder}", "folder.missing");
-
     if (repoOverride is not null)
     {
         var explicitRoot = Path.GetFullPath(repoOverride);
         if (!Directory.Exists(explicitRoot))
             throw new MapFormatException($"--repo: no such folder: {explicitRoot}", "folder.missing");
-        return (explicitRoot, skillFolder);
+        return explicitRoot;
     }
 
-    var root = RepoLocator.FindRoot(skillFolder)
-        ?? throw new MapFormatException(
-            $"no repository root above {skillFolder}. Artifact paths are repo-relative; pass --repo <path>.",
-            "folder.missing");
-    return (root, skillFolder);
+    var root = RepoLocator.FindRoot(path);
+    if (root is not null) return root;
+
+    var folder = GovernedSkill.Locate(path);
+    if (folder is not null) return GovernedSkill.RepoRootOf(folder);
+
+    throw new MapFormatException(
+        $"no repository root above {path}. Artifact paths are repo-relative; pass --repo <path>.",
+        "folder.missing");
 }
 
 int Usage(string? message = null)
@@ -244,13 +150,11 @@ int Usage(string? message = null)
     if (message is not null) Console.Error.WriteLine(message);
     Console.Error.WriteLine("""
         Usage:
-          DocIntegrity validate <skill-folder> [--repo <path>]
-          DocIntegrity render   <skill-folder> [--force] [--repo <path>]
-          DocIntegrity state    <skill-folder> [--force] [--repo <path>]
-          DocIntegrity nodes    <file.md>
-          DocIntegrity hook     (reads a Claude Code PostToolUse event from stdin)
-          DocIntegrity check    <file>            one governed file against its class's format
-          DocIntegrity records  <skill-folder>    every file of every class with a checker
+          DocIntegrity check  <path>         [--repo <path>]            everything governed at or under the path:
+                                                                        a skill folder's shape, a governed file's format,
+                                                                        a folder's whole set; `check .` is the repository
+          DocIntegrity render <skill-folder> [--force] [--repo <path>]  map.md and state.md, whole
+          DocIntegrity hook                                             (reads a Claude Code PostToolUse event from stdin)
         """);
     return 2;
 }

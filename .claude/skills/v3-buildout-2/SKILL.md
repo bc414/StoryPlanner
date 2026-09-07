@@ -148,15 +148,16 @@ the tables derive for it (inputs, outputs, instruments, enabled by, enables), th
 graph, the consumers table and the validation report; `state.md` holds the buildout's
 current state (per corpus and per hypothesis, from the artifacts on disk). Both are written
 whole by the tool, denied to sessions by path in the project settings, and rewritten by the
-write hook after every passing validate, so neither can be hand-edited or stale. Nothing
+write hook after every passing check, so neither can be hand-edited or stale. Nothing
 generated sits inside an authored file.
 
 **The tables are checked at the write.** A PostToolUse hook, registered in the project
-settings, runs `validate` over this folder after every Edit or Write inside it, and a
-governed file's format checker after every Edit or Write to one, returns the failures to
-the session in the same turn, and on a pass rewrites `map.md`. A failure is fixed, row and
-prose together, before any other write; it is never worked around, and a write to this
-folder or to a governed file never goes through the shell, which the hook cannot see.
+settings, runs `check` on every file an Edit or Write touches: this folder's shape for a
+file inside it, a governed file's format wherever it lies. It returns the failures to the
+session in the same turn and on a pass rewrites `map.md` and `state.md`. A failure is
+fixed, row and prose together, before any other write; it is never worked around, and a
+write to this folder or to a governed file never goes through the shell, which the hook
+cannot see.
 
 ## Router — the activities
 
