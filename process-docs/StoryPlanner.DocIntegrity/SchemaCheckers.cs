@@ -64,7 +64,7 @@ public static class HypothesisFile
         @"^- (?<kind>[a-z]+) \| (?<ts>\d{4}-\d{2}-\d{2}T\d{2}:\d{2})(?<rest>.*)$", RegexOptions.Compiled);
 
     static readonly Regex Citation = new(
-        @"^ \| \((?<study>[a-z0-9-]+) (?<candidate>C-\d+); (?<codebook>[^@\s]+)@(?<hash>[0-9a-f]{6,64})\) \[(?<tag>supporting|challenging)\]:",
+        @"^ \| \((?<study>[a-z0-9-]+)/(?<candidate>[a-z0-9-]+); (?<codebook>[^@\s]+)@(?<hash>[0-9a-f]{6,64})\) \[(?<tag>supporting|challenging)\]:",
         RegexOptions.Compiled);
 
     static readonly Regex FileName = new(@"^(?<id>\d{3})-[a-z0-9-]+\.md$", RegexOptions.Compiled);
@@ -665,7 +665,8 @@ public static class Decisions
 
 /// <summary>
 /// schemas/question-entry-schema.md: "# &lt;corpus&gt; — questions" with the file's own name,
-/// then entries only. An entry is "### &lt;slug&gt;", a slug unique in the list, then date
+/// then entries only. An entry is "### &lt;corpus&gt;/&lt;slug&gt;", the file's own corpus and a slug
+/// unique in the list (the heading is the citation token, d-2026-09-07-31), then date
 /// (exact, never earlier than the entry before), hypotheses (ids NNN, each a hypothesis file
 /// the artifacts table locates, present only when there are any), raised by, question and
 /// suggested test (free), and beneath them at most one appended "- withdrawn: YYYY-MM-DD
@@ -796,13 +797,19 @@ public static class Questions
             if (raw.StartsWith("### ", StringComparison.Ordinal))
             {
                 Flush();
-                slug = raw[4..].Trim();
+                var heading = raw[4..].Trim();
+                var slash = heading.IndexOf('/');
+                var prefix = slash < 0 ? "" : heading[..slash];
+                slug = slash < 0 ? heading : heading[(slash + 1)..];
                 slugLine = i + 1;
                 fields = [];
                 stray = [];
                 withdrawn = 0;
                 afterWithdrawn = false;
-                if (!ClosedSets.IdPattern.IsMatch(slug))
+                if (prefix != corpus)
+                    findings.Add(Finding.Fail("question.slug", file,
+                        $"line {i + 1}: the heading is '{corpus}/<slug>', the file's own corpus then the slug; found '{heading}'"));
+                else if (!ClosedSets.IdPattern.IsMatch(slug))
                     findings.Add(Finding.Fail("question.slug", file, $"line {i + 1}: '{slug}' is not a lowercase slug"));
                 else if (!slugs.Add(slug))
                     findings.Add(Finding.Fail("question.slug", file, $"line {i + 1}: '{slug}' repeats a slug in this list"));

@@ -102,7 +102,7 @@ public class ValidatorTests
 
     [Fact]
     public void A_schema_id_that_is_an_artifact_id_fails()
-        => Fails("ref.schema", MapFixture.With(Artifacts, "| candidates | fanout/<study>/candidates.md |", "| candidate-schema | fanout/<study>/candidates.md |"));
+        => Fails("ref.schema", MapFixture.With(Artifacts, "| candidates | docs/v3-framework/<study>/candidates.md |", "| candidate-schema | docs/v3-framework/<study>/candidates.md |"));
 
     [Fact]
     public void A_schema_file_whose_title_is_not_its_id_fails_the_shape()

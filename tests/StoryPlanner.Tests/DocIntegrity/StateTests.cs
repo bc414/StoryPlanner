@@ -40,7 +40,7 @@ public class StateTests
     public void A_missing_artifact_moves_the_furthest_process_back()
     {
         using var f = new MapFixture().WithStateTree();
-        File.Delete(f.TreePath("fanout", MapFixture.Study, "candidates.md"));
+        File.Delete(f.TreePath("docs", "v3-framework", MapFixture.Study, "candidates.md"));
         Assert.Contains("furthest process whose study-scoped writes all exist: referee-judge (refereeing-a-candidate)", Build(f));
     }
 
@@ -116,7 +116,7 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         File.AppendAllText(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md"),
-            "- evidence | 2026-09-17T10:00 | (verification-of-analysis-corpus-1 C-007; codebook-1@abc) [challenging]:\n  a counter\n  Falsifier: f\n");
+            "- evidence | 2026-09-17T10:00 | (verification-of-analysis-corpus-1/a-counter-finding; codebook-1@abc) [challenging]:\n  a counter\n  Falsifier: f\n");
         Assert.Contains("| 031 | dt-classes | evidenced | false | challenged — MISMATCH |", Build(f));
     }
 
@@ -133,7 +133,7 @@ public class StateTests
     [Fact]
     public void Question_entries_parse_their_withdrawal_and_hypotheses()
     {
-        var qs = StateBuilder.ParseQuestions("c", "### one\n- date: 2026-09-01\n- hypotheses: 031 050\n- raised by: x\n- question: y\n\n### two\n- date: 2026-09-02\n- hypotheses: 007\n- raised by: x\n- question: z\n- withdrawn: 2026-09-03 why\n");
+        var qs = StateBuilder.ParseQuestions("c", "### c/one\n- date: 2026-09-01\n- hypotheses: 031 050\n- raised by: x\n- question: y\n\n### c/two\n- date: 2026-09-02\n- hypotheses: 007\n- raised by: x\n- question: z\n- withdrawn: 2026-09-03 why\n");
         Assert.Equal(2, qs.Count);
         Assert.True(qs[0].IsOpen);
         Assert.Equal("c/one", qs[0].Cite);

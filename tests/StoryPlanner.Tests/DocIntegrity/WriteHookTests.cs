@@ -116,8 +116,8 @@ public class WriteHookTests
     public void A_failing_write_regenerates_nothing()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| candidates | fanout/<study>/candidates.md |",
-            "| items | fanout/<study>/candidates.md |");
+            "| candidates | docs/v3-framework/<study>/candidates.md |",
+            "| items | docs/v3-framework/<study>/candidates.md |");
         var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.SkillFile)));
         Assert.Equal(HookOutcomeKind.Failed, outcome.Kind);
         Assert.Empty(outcome.Regenerated);
@@ -153,8 +153,8 @@ public class WriteHookTests
     public void A_governed_write_that_breaks_the_tables_is_feedback_naming_the_rule()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| candidates | fanout/<study>/candidates.md |",
-            "| items | fanout/<study>/candidates.md |");
+            "| candidates | docs/v3-framework/<study>/candidates.md |",
+            "| items | docs/v3-framework/<study>/candidates.md |");
         var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.SkillFile)));
         Assert.Equal(HookOutcomeKind.Failed, outcome.Kind);
         Assert.Equal(WriteHook.Feedback, outcome.ExitCode);
@@ -167,8 +167,8 @@ public class WriteHookTests
     public void The_fix_instruction_names_the_folder_that_failed_not_a_folder_by_that_name()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| candidates | fanout/<study>/candidates.md |",
-            "| items | fanout/<study>/candidates.md |");
+            "| candidates | docs/v3-framework/<study>/candidates.md |",
+            "| items | docs/v3-framework/<study>/candidates.md |");
         var outcome = WriteHook.Run(EditPayload(Path.Combine(f.SkillFolder, MapFixture.SkillFile)));
         // The fixture root has no .git, so the folder is named absolutely; a real one is repo-relative.
         Assert.Contains(WriteHook.DisplayPath(f.SkillFolder), outcome.Message);
@@ -207,8 +207,8 @@ public class WriteHookTests
     public void Report_text_is_the_same_for_the_cli_and_the_hook()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| candidates | fanout/<study>/candidates.md |",
-            "| items | fanout/<study>/candidates.md |");
+            "| candidates | docs/v3-framework/<study>/candidates.md |",
+            "| items | docs/v3-framework/<study>/candidates.md |");
         var report = f.Report;
         var full = ReportText.Format(report);
         var failures = ReportText.FormatFailures(report);

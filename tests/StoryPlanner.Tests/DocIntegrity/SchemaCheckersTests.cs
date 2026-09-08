@@ -56,7 +56,8 @@ public class SchemaCheckersTests : IDisposable
 
     [Theory]
     [InlineData("  Falsifier: <verbatim from the referee's line>\n", "", "hypothesis.evidence.no-falsifier")]
-    [InlineData("(verification-of-fimfiction-stories-1 C-014; codebook-3@3f9a1c) [supporting]", "(WU1.1) [supporting]", "hypothesis.evidence.citation")]
+    [InlineData("(verification-of-fimfiction-stories-1/fid-primary-in-one-of-seven; codebook-3@3f9a1c) [supporting]", "(WU1.1) [supporting]", "hypothesis.evidence.citation")]
+    [InlineData("(verification-of-fimfiction-stories-1/fid-primary-in-one-of-seven; codebook-3@3f9a1c) [supporting]", "(verification-of-fimfiction-stories-1 C-014; codebook-3@3f9a1c) [supporting]", "hypothesis.evidence.citation")]
     [InlineData("status: evidenced", "status: untested", "hypothesis.status.mismatch")]
     [InlineData("created: 2026-09-01\n", "created: 2026-09-01\nnote: x\n", "hypothesis.frontmatter")]
     [InlineData("## Record", "## Records", "hypothesis.sections")]
@@ -347,8 +348,10 @@ public class SchemaCheckersTests : IDisposable
 
     [Theory]
     [InlineData("# own-fiction — questions\n", "# own-fiction\n", "question.title")]
-    [InlineData("### heavy-dt-two-classes\n", "### Heavy-DT\n", "question.slug")]
-    [InlineData("### narrator-register-outside-giyc\n", "### heavy-dt-two-classes\n", "question.slug")]
+    [InlineData("### own-fiction/heavy-dt-two-classes\n", "### own-fiction/Heavy-DT\n", "question.slug")]
+    [InlineData("### own-fiction/narrator-register-outside-giyc\n", "### own-fiction/heavy-dt-two-classes\n", "question.slug")]
+    [InlineData("### own-fiction/heavy-dt-two-classes\n", "### heavy-dt-two-classes\n", "question.slug")]
+    [InlineData("### own-fiction/heavy-dt-two-classes\n", "### analysis-corpus/heavy-dt-two-classes\n", "question.slug")]
     [InlineData("- question: <the question, in Brian's words>\n- suggested test", "- suggested test", "question.entry.fields")]
     [InlineData("- raised by: recall", "- asked-by: recall", "question.entry.fields")]
     [InlineData("- date: 2026-09-07\n- hypotheses: 031 032\n", "- hypotheses: 031 032\n- date: 2026-09-07\n", "question.entry.fields")]

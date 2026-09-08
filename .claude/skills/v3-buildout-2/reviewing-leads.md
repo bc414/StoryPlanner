@@ -20,8 +20,9 @@ presents the bins with their counts now labelled by condition. Brian says which 
 drill; for each, the session lays the disagreeing leads side by side and he adjudicates;
 the adjudicated result is appended to `## Bins`.
 
-Brian challenges leads. For each, the session verifies against the corpus itself at the
-lead's locus, never against the artifact, and reports what the source shows; a lead that
+Brian challenges leads. For each, the session verifies against the corpus itself, where
+the lead says it was seen, never against the artifact, and reports what the corpus shows;
+a lead that
 does not hold is recorded in `## Corrections`, dated, with what the source showed. The
 lead itself is not edited.
 

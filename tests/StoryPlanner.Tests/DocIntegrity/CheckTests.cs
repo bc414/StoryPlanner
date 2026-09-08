@@ -16,8 +16,8 @@ public class CheckTests
     public void A_file_in_a_skill_folder_checks_the_folder_s_shape()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| candidates | fanout/<study>/candidates.md |",
-            "| items | fanout/<study>/candidates.md |");
+            "| candidates | docs/v3-framework/<study>/candidates.md |",
+            "| items | docs/v3-framework/<study>/candidates.md |");
         var result = Check.Run(f.RepoRoot, Path.Combine(f.SkillFolder, MapFixture.SkillFile));
         Assert.False(result.Report.Passed);
         Assert.Contains("id.duplicate", result.Report.Findings.Select(x => x.CheckId));

@@ -13,12 +13,12 @@ and a new hash, and a slice read under the old hash is cited as such.
 <one slice of the corpus, its extent; the questions in view, verbatim>
 
 ## What you produce
-<a lead set: one entry per lead, locus first, then what was observed there, in the
-form the joiner expects; the output contract's markers>
+<a lead set: one entry per lead, what was seen and what it was seen in, in the form
+the joiner expects; the output contract's markers>
 
 ## How to read
-<discovery-first: report what is there, organised by locus; never a claim about a
-hypothesis; never an opinion about story content>
+<discovery-first: report what is there, organised by what was seen; never a claim about
+a hypothesis; never an opinion about story content>
 
 ## Never
 <search outside the slice; consult anything not inlined; propose what should be done>

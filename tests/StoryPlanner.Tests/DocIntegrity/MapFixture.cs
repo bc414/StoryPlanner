@@ -111,7 +111,7 @@ public sealed class MapFixture : IDisposable
         File.WriteAllText(Path.Combine(docs, "questions", "analysis-corpus.md"), $"""
             # analysis-corpus — questions
 
-            ### an-old-one
+            ### analysis-corpus/an-old-one
 
             - date: 2026-09-01
             - hypotheses: 032
@@ -119,7 +119,7 @@ public sealed class MapFixture : IDisposable
             - question: Old?
             - withdrawn: 2026-09-05 superseded
 
-            ### {OpenQuestion}
+            ### analysis-corpus/{OpenQuestion}
 
             - date: 2026-09-10
             - hypotheses: 031
@@ -144,7 +144,7 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-01T10:00: why it exists
-            - evidence | 2026-09-14T15:20 | (verification-of-analysis-corpus-1 C-001; codebook-1@abc123) [supporting]:
+            - evidence | 2026-09-14T15:20 | (verification-of-analysis-corpus-1/the-first-finding; codebook-1@abc123) [supporting]:
               the finding
               Falsifier: the falsifier
 
@@ -165,7 +165,7 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-02T10:00: why
-            - evidence | 2026-09-15T10:00 | (verification-of-analysis-corpus-1 C-003; codebook-1@abc123) [supporting]:
+            - evidence | 2026-09-15T10:00 | (verification-of-analysis-corpus-1/a-third-finding; codebook-1@abc123) [supporting]:
               a finding
               Falsifier: f
 
@@ -211,10 +211,10 @@ public sealed class MapFixture : IDisposable
 
             """);
 
-        File.WriteAllText(Path.Combine(fanout, "candidates.md"), """
-            # candidates
+        File.WriteAllText(Path.Combine(docs, Study, "candidates.md"), """
+            # verification-of-analysis-corpus-1 — candidates
 
-            ## C-001
+            ### verification-of-analysis-corpus-1/the-first-finding
             - target: 031
             - finding: the finding
             - source: the source
@@ -223,7 +223,7 @@ public sealed class MapFixture : IDisposable
             - referee: job-9 / sonnet / 2026-09-20T13:00 / referee-1@def / diagnostic supporting — reason
             - outcome: promoted 2026-09-21T10:00 as evidence entry 2026-09-14T15:20
 
-            ## C-002
+            ### verification-of-analysis-corpus-1/another-finding
             - target: 031
             - finding: another
             - source: the source
@@ -257,7 +257,7 @@ public sealed class MapFixture : IDisposable
         | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Status and baselined |
         | question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions |
         | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study |
-        | candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
+        | candidates | docs/v3-framework/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
         | codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument |
         | calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
         | verification-artifact | docs/v3-framework/<study>/verification.md | append | | One verification's method and counts |

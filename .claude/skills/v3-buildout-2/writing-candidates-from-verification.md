@@ -16,7 +16,8 @@ at its hash.
 
 The session reads the verification's results through the tally, never the raw batch
 alone, and the questions the verification answered. For each result whose label bears on a hypothesis named
-by one of those questions, it writes one candidate into `fanout/<study>/candidates.md`:
+by one of those questions, it writes one candidate into
+`docs/v3-framework/<study>/candidates.md`, beside `verification.md`:
 `target` the hypothesis id, `finding` one citable unit (what was observed, with the ids,
 counts or passages the result carries), `source` the locator the item came from, and
 `proposed-by` the job id, model, time, codebook id and hash, and harness version. A result

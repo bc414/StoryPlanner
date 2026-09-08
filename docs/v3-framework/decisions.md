@@ -647,3 +647,109 @@ rules names the old id in prose.
   The frozen record keeps the old word.
 - not taken: renaming only the study id and the file, which leaves `round-run`; renaming
   without defining run, which leaves the second word of the collision where it was.
+
+### Leads, proposals and candidates are identified by slugs, on a first pass
+
+- id: d-2026-09-07-30
+- date: 2026-09-07
+- raised by: Brian, on the candidate schema's first decision: "I'm not really liking
+  C-NNN, L-NNN, etc. But I haven't seen real data yet. What are the pros and cons of
+  using slugs?", then "Have the first pass use slugs". Questions already carry slugs by
+  d-2026-09-07-22; the retroactive leads artifacts open every lead with a bold title; no
+  candidate exists.
+- decision: An entry of a leads artifact, a lead or a proposal, and an entry of a
+  candidates or iteration-candidates file is headed by a slug, lowercase `[a-z0-9-]+`,
+  unique within its file across both entry kinds, authored with the entry and never
+  changed. The slug names what was observed, never what it means for a hypothesis; a
+  finding that is per item carries the item in its slug. It is cited joined to the
+  file's own id, `<study>/<slug>`. The first leads file and the first candidates file
+  written under their schemas are the reviews at which the form is reconsidered against
+  real slugs.
+- not taken: numbered ids `L-NNN`, `P-NNN`, `C-NNN`, opaque everywhere they are cited
+  and needing a sequence check; a number with a slug appended, two ids for one entry.
+
+### An entry with a local id is headed by its citation token
+
+- id: d-2026-09-07-31
+- date: 2026-09-07
+- supersedes: d-2026-09-07-22
+- raised by: Brian: "Should citation tokens differ from what is within the file?" and
+  "Which rule serves the consumers better, once documented in queries?" A question was
+  headed `### <slug>` and cited `<corpus>/<slug>`, so one grep could not find the
+  definition and the uses together, and a copy of an entry carried its token only if the
+  copying session joined the prefix on.
+- decision: An entry whose id is unique only within its file is headed by the token every
+  other file cites: the file's own id, then a slash, then the entry's slug. Questions:
+  `### <corpus>/<slug>`. Leads, proposals and candidates: `### <study>/<slug>`. The
+  checker holds that the prefix is the file's own id, so the redundancy with the path
+  cannot drift. What stands of d-2026-09-07-22: the slug's charset, uniqueness within the
+  list, that it is authored once and never changed, and the one-token citation form.
+- not taken: a short heading with the prefix joined at citation, which serves the writer
+  and not the reader; ids unique across the repo, which needs a counter no file holds.
+
+### A candidates file is its title, then entries and nothing else
+
+- id: d-2026-09-07-32
+- date: 2026-09-07
+- raised by: the candidate schema review's first decision: the schema showed a fragment
+  from `## C-014` on, with no title line, no rule for what else the file may hold and no
+  rule for ids. Brian: "The title line mirror is fine", after d-2026-09-07-30 and
+  d-2026-09-07-31 had settled the entry heading.
+- decision: A file of the `candidates` or `iteration-candidates` class is
+  `# <study> — candidates`, the study the file's own, then entries and nothing else: no
+  head prose, no sections. An entry is `### <study>/<slug>` under d-2026-09-07-30 and
+  d-2026-09-07-31, its keyed lines beneath it, the referee's and the outcome lines
+  appended beneath those. What the entry carries, what the iteration file's prefix is
+  and what the checker holds are the unit's later decisions.
+- not taken: the fragment as it stood, with no whole-file shape for a writer to fill or
+  a checker to hold; a file per target hypothesis, which would scatter one
+  verification's findings across files.
+
+### A verification's candidates file is an authored file, under docs beside verification.md
+
+- id: d-2026-09-07-33
+- date: 2026-09-07
+- raised by: Brian: "Why is it under fanout? Where does other stuff live about the
+  study?" then "Option 1 makes more sense". The file sat at `fanout/<study>/candidates.md`
+  because the referee consumes it, never by a ruling; it is session-written, carries
+  Brian's outcome lines and is read by him in promotion, the profile of an authored file.
+- decision: The `candidates` class is `docs/v3-framework/<study>/candidates.md`, beside
+  `verification.md`: the authored tree holds a study's two human-written records, the
+  account and the findings with their outcomes, and `fanout/<study>/` holds only what the
+  runner inlined or produced. The referee's itemizer reads the file there and the append
+  step writes the referee's lines back there. Where a rewording's candidates live is
+  decided with the rewording, after the verification case is settled.
+- not taken: leaving it under fanout, the one authored document in the runner's tree,
+  placed by the same reasoning that put the iterations folder under `referee/`.
+
+### A lead carries no address; the word locus leaves the method
+
+- id: d-2026-09-08-1
+- date: 2026-09-08
+- raised by: Brian, on the run-family unit's first dependency, a place grammar per corpus:
+  "I never liked locus. I don't think I made it. Where did it come from?" and "A lead
+  comes out of an exploration study. Why would it even cite any specific locations?" The
+  word entered on 2026-09-02 in a session's design of the v1-archive reading pass, one
+  word for a place that could be a plot point, a link, a chapter or a subject, and spread
+  through forward-plan-2 into the skill. The frame read the leads' consumers from the
+  skill and the record: the questions raised in review; the hypotheses minted from a
+  lead under rule 6; what to itemize in preparing-to-verify; the bins, with arms, as a
+  finding about the readers; corrections to a reading protocol; coverage and debt under
+  rule 3; Brian's own reading of a corpus; questions across corpora. None resolves a
+  lead to a passage; two need what the lead read, coarse; the join across arms needs a
+  key, and the slice is one. The three retroactive artifacts point at stories and report
+  sections, never at a passage.
+- decision: A lead is what was seen and what it was seen in, in words, organised by what
+  was seen; it is never joined on, checked at or organised by an address. Precision
+  lives on one row only, the items manifest's, where an itemizer, code carrying no
+  judgment, records the position it cut each item from in the form its corpus's reader
+  gives; that form is declared with the manifest and reviewed at the first itemizer. The
+  word locus leaves § Vocabulary, the leads-artifact row and schema, the reading-protocol
+  schema, exploring-a-corpus, reviewing-leads and the corpora file. How the arms' lead
+  sets are joined and binned is the leads review's decision; until then join-and-bin
+  says only that it joins them. Two consumers the tables do not carry, minting reading
+  the leads artifact and preparing-to-verify reading it, go on the leads review's list.
+- not taken: an address grammar per corpus declared ahead of the manifest, which stalls
+  the run family on a leaf only the itemizer needs; keeping the word for the manifest
+  row alone, one word for one field; grounding the decision on what exploratory readers
+  can cite, a claim about agents the method treats as a hypothesis.

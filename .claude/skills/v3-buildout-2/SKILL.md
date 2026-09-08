@@ -195,10 +195,10 @@ shared instrument and the iteration candidates.
 | state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study where it is; per corpus, open questions and whether a calibrated codebook covers them; per hypothesis, status and whether any open question names it |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
 | decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
-| leads-artifact | docs/v3-framework/<study>/leads.md | append | [leads-artifact-schema](schemas/leads-artifact-schema.md) | What one exploration observed, organised by locus |
+| leads-artifact | docs/v3-framework/<study>/leads.md | append | [leads-artifact-schema](schemas/leads-artifact-schema.md) | What one exploration observed, organised by what was seen |
 | verification-artifact | docs/v3-framework/<study>/verification.md | append | [verification-artifact-schema](schemas/verification-artifact-schema.md) | One verification's method, questions answered, counts and promotion summary |
 | arm-key | docs/v3-framework/<study>/arm-key.md | frozen | [arm-key-schema](schemas/arm-key-schema.md) | The blinding key: arm label to condition and model; opened only after binning |
-| candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings claimed to bear on a hypothesis, with referee lines and outcomes |
+| candidates | docs/v3-framework/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings claimed to bear on a hypothesis, with referee lines and outcomes |
 | iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | Prior findings re-queued after a rewording of hypothesis NNN |
 | corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | [corpora-schema](schemas/corpora-schema.md) | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
 | codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument a verification or the referee runs under |
@@ -251,7 +251,9 @@ runner as an instrument and is read in full by any process that invokes it.
 - **item**: the unit one agent job judges, produced by an itemizer; a **slice** is the
   exploration's item, a partition of a corpus.
 - **arm**: one condition in an exploration that runs the same slices under several.
-- **lead**: a locus and what was observed there; the output of exploration; never a claim.
+- **lead**: what was seen and what it was seen in, in words; the output of exploration;
+  an idea for a question and for what to itemize; never a claim, never checked at an
+  address.
 - **question**: Brian's testable question about one corpus, in its question list.
 - **predicate**: the test a codebook freezes for one question and a classifier applies
   to every item; never written in a question entry, whose `suggested test` is a note.

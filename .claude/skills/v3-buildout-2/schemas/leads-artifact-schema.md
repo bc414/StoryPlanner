@@ -16,8 +16,9 @@ one arm means no disagreement count>
 <the questions this exploration read with, one per line, each cited as <corpus>/<slug>>
 
 ## Leads
-<organised by what was observed — by locus, subject, pattern — never by hypothesis id. Each
-lead: the locus, what was seen there, and nothing about what it means for any hypothesis>
+<organised by what was observed — by subject, pattern, story — never by hypothesis id. Each
+lead: what was seen and what it was seen in, in words, and nothing about what it means
+for any hypothesis>
 
 ## Bins
 <slices with arms only: disagreements between arms sorted into named bins before any was

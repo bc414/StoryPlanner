@@ -178,7 +178,7 @@ public static class StateBuilder
     static string CandidateCounts(string file)
     {
         var lines = File.ReadAllText(file).Replace("\r\n", "\n").Split('\n').Select(l => l.TrimEnd()).ToList();
-        var candidates = lines.Count(l => l.StartsWith("## C-", StringComparison.Ordinal));
+        var candidates = lines.Count(l => l.StartsWith("### ", StringComparison.Ordinal));
         var referee = lines.Count(l => l.TrimStart().StartsWith("- referee:", StringComparison.Ordinal));
         var outcome = lines.Count(l => l.TrimStart().StartsWith("- outcome:", StringComparison.Ordinal));
         return $"{candidates} candidate(s), {referee} referee line(s), {outcome} outcome line(s)";
@@ -252,7 +252,13 @@ public static class StateBuilder
         foreach (var raw in text.Replace("\r\n", "\n").Split('\n'))
         {
             var line = raw.Trim();
-            if (line.StartsWith("### ", StringComparison.Ordinal)) { Flush(); slug = line[4..].Trim(); continue; }
+            if (line.StartsWith("### ", StringComparison.Ordinal))
+            {
+                Flush();
+                var heading = line[4..].Trim(); // "<corpus>/<slug>", the citation token (d-2026-09-07-31)
+                slug = heading[(heading.IndexOf('/') + 1)..];
+                continue;
+            }
             if (line.StartsWith("## ", StringComparison.Ordinal) || line.StartsWith("# ", StringComparison.Ordinal)) { Flush(); continue; }
             if (slug is null) continue;
             if (line.StartsWith("- withdrawn:", StringComparison.Ordinal)) withdrawn = true;
