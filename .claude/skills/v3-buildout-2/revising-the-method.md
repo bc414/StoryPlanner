@@ -48,6 +48,14 @@ file written under a new or changed schema, and the first run of a new or change
 procedure, is presented to Brian against its declaration before a second is made; a
 discrepancy is a decision not yet made, never a fix to the instance.
 
+A schema review is a unit of revision: it opens with its decision list and each decision
+is framed as above. The schema is written to the shape of schema files in
+`schemas/skill-schema.md`; its checker is built or amended under building-a-tool, its
+first run over the real files predicted before it runs; its Checks section lists what the
+checker holds, and the review's decisions name those check ids; the class's files already
+on disk are brought to the schema or the class starts again, decided in the review; and
+the first file written under the schema is reviewed before a second.
+
 Two lints gate a revision. The first is structure: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and
 regenerates `map.md` and `state.md` on a pass; a failure is fixed before the next edit. The

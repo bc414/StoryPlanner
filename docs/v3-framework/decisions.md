@@ -402,3 +402,50 @@ rules names the old id in prose.
   checks; a ban on fixing an instance without its class, which forbids correcting a wrong
   file; the rigor line as a Never, a value rather than an act; three frame lines where
   one covers them.
+
+### A class's files are documents: fields and entries under one grammar, with references the checker resolves
+
+- id: d-2026-09-07-18
+- date: 2026-09-07
+- prompted by: Brian, the afternoon the leads schema was found to hold only headings: "Is
+  the document model is what I needed all along, implemented in markdown with a check verb
+  program instead of json and whatever json validation MongoDB uses?" The model had driven
+  every schema since and was stated nowhere in the skill.
+- decision: An artifact class is a collection and each of its files a document: fixed
+  fields and arrays of entries under one line grammar, with references the checker
+  resolves. The class's schema is the document's shape, its mutation the collection's
+  write discipline, a grep on the line grammar a query, and the generated files its views.
+  Stated once for the reader, in SKILL.md § Artifacts beside the sentence that a class is
+  its files; the writer meets it as the list of what a Shape declares, decided next, in
+  skill-schema; the checkers embody it in code.
+- not taken: a second prose copy as the lead of skill-schema's Shape, the stale-mirror
+  shape; the entry alone with no skill prose, leaving the pattern to be inferred from
+  fourteen schemas.
+
+### A Shape declares five things, and a schema review runs as one procedure from revise
+
+- id: d-2026-09-07-19
+- date: 2026-09-07
+- prompted by: entry 3's open clause, "what a Shape must declare beyond machine-read or
+  prose", with the leads schema about to be the first written under the answer. Brian:
+  "Who are the consumers? Where does this go?", "What about the revising the method
+  file?", "Seems like revising-the-method should be the primary entry point, so it should
+  be firmer or more elaborate or not?"
+- decision: A Shape declares the sections that partition the class's file, in order; the
+  fixed fields, their order, and for each machine-read one its exact grammar; each entry
+  array's line form and its continuation; each reference a line may carry, its form, what
+  it resolves to and which checker resolves it; or, for a class with no machine-read
+  line, that the class is prose. It declares and never restates its row's path or
+  mutation. The rule lives in skill-schema's Shape as the writer's schema of schema files;
+  SKILL.md § Artifacts keeps its one reader's sentence. revising-the-method § revise
+  carries the schema review as one procedure of pointers: a unit of revision with its
+  decision list and frames; the schema written to skill-schema's shape; the checker built
+  under building-a-tool with its first run predicted; the Checks section listing what
+  the checker holds and the review's decisions naming the ids; the class's files on disk
+  brought to the schema or the class started again, decided in the review; the first
+  file under the schema reviewed before a second.
+- not taken: the five things in SKILL.md § Artifacts, a writer's rule in front of every
+  session; the current sentence alone, from which the two Shapes written so far showed no
+  checker can be written; a formal Shape grammar the tool parses, a language and a
+  generator ahead of any failure; one pointer sentence in § revise, too thin for the file
+  a schema review opens.

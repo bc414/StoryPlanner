@@ -63,6 +63,17 @@ writes as each decision lands, and cannot script the middle; an `agent` section 
 instrument and what the generator materialises, and the agent never sees the file; a
 runner section names the run's reads and writes and defers to the `agent-runner` skill.
 
+**A schema file** is its title `# <name>-schema`, one sentence saying what follows, then
+Shape, Example, Queries and Checks in that order. Its Shape declares five things: the
+sections that partition the class's file, in order; the fixed fields, their order, and for
+each machine-read one its exact grammar; each entry array's line form and its
+continuation; each reference a line may carry, its form, what it resolves to and which
+checker resolves it; or, for a class with no machine-read line, that the class is prose. A
+Shape declares and never restates its row's path or mutation. The Example is a conforming
+file with placeholders whose first fenced block is the checker's fixture; Queries is one
+grep per question a reader asks of the class; Checks lists each check id and when it
+fails.
+
 **Derived, never authored:** order and data flow, consumers of each artifact, each
 activity's inputs, outputs and instruments, and the backing of every `enables` edge. There
 is no edges table. `map.md` and `state.md` are written whole by the tool and never by

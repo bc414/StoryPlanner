@@ -161,7 +161,10 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 ## Artifacts — the classes
 
 Every artifact a process in this skill reads or writes. An artifact is a class; the files
-matching its pattern are its files. Consumers are never written here; the validator
+matching its pattern are its files. A file is a document: fixed fields and arrays of
+entries under one line grammar, with references the checker resolves; its class's schema
+is its shape, its mutation its write discipline, a grep on its line grammar a query, and
+the generated files its views. Consumers are never written here; the validator
 derives them. A schema is the file `schemas/<name>-schema.md` the `schema` column links
 to, in four sections each named by its consumer: Shape, the grammar a writer follows and
 the hook holds, saying which lines are machine-read and exact and which are free; Example,
