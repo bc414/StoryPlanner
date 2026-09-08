@@ -278,3 +278,127 @@ rules names the old id in prose.
   `decision.id-outside-revising`; a check that every check id in the code appears in a
   Checks table, unearned until a check is found missing from one; a grep of decisions.md
   held by the tool, which cannot tell a founding check from an unbacked one.
+
+### A decision is framed before its options are presented
+
+- id: d-2026-09-07-12
+- date: 2026-09-07
+- prompted by: Brian, when a session put several decisions in front of him at once:
+  "There's too many different things here, and not enough detail to make a judgement. Go
+  one at a time, in order of most wide reaching to least, with full context of what the
+  judgement is about." The observed failure on 2026-09-07 was an option, an `entry` column
+  in the Checks tables, presented without a precedent check when an enforced check already
+  forbade it.
+- decision: Before any option, the session states the frame: the finding; what exists
+  under the change, in files, rows, code, tests and decisions; the precedent, by a grep of
+  decisions.md and a reading of the closed founding record and § Vocabulary; and the
+  audit units touched, if the revision has a tally. Then the options, each with what it
+  costs and buys, the session's recommendation marked as its own and listed first. The
+  frame is prose in revising-the-method § revise; nothing in the tool holds it.
+- not taken: "with full context" added to § revise, which names no parts, so an omission
+  does not show; a proposal artifact with a schema and a checker, machinery ahead of any
+  failure that needs it.
+
+### A unit of revision opens with its decision list, ordered widest-first by the session
+
+- id: d-2026-09-07-13
+- date: 2026-09-07
+- prompted by: Brian, after a schema decision was taken ahead of the fresh-start decision
+  that dissolved it: "Go one at a time, in order of most wide reaching to least, with full
+  context of what the judgement is about"; and on the list for this unit: "The list should
+  appear, but already ordered by widest-first/most impactful."
+- decision: At the start of a unit of revision the session lists the decisions it
+  proposes, one line each, already ordered by the session with the widest-reaching or
+  most impactful first and each dependency on an earlier one named; Brian reorders,
+  removes or adds, and the first decision is taken only after he has seen the list. The
+  list is a message, not an artifact.
+- not taken: taking decisions as they arise, widest-first by the session's judgment
+  alone, which is how a schema entry came to supersede a bundle the next decision
+  dissolved; the list as a governed artifact with a schema, machinery ahead of any
+  failure that needs it.
+
+### A check is minted in one of two ways, by declaration or by an observed failure
+
+- id: d-2026-09-07-14
+- date: 2026-09-07
+- prompted by: the same evening arguing one proposed check as structure and withdrawing it
+  as unearned, with entry 7 the first to say which side a check is on. Brian, on the
+  wording: "So in order to state it more clearly, the prose should say there are two
+  ways a check is minted: declaring the structure, and then from observed failures?"
+- decision: A check comes to exist in one of two ways. Declared, it holds what a schema's
+  Shape says about one class's files and is held from the schema's first write. Earned,
+  it prevents a failure that has been observed, which is the only way a check that spans
+  files, or the code and the tables, or a run comes to exist. The decision that mints a
+  check says which way. The sentence lives in building-a-tool § Preconditions beside the
+  one it refines.
+- not taken: earned by failure only, which leaves a declared shape unheld until someone
+  violates it; declared only, which builds every check a session can state, ahead of any
+  failure.
+
+### The frame checks the words a decision will use against § Vocabulary and their ordinary sense
+
+- id: d-2026-09-07-15
+- date: 2026-09-07
+- supersedes: d-2026-09-07-12
+- prompted by: Brian, on a vocabulary check proposed as a step after the frame: "Isn't it
+  earlier than a decision? The frame of the decision already has to do a vocab check for
+  non collisions first." Four collisions had been caught the same evening after use:
+  "map" for the decision list, "rule" in four senses, "decision rule" of two reserved
+  words, "entry" where "decision" was the word.
+- decision: Before any option, the session states the frame: the finding; what exists
+  under the change, in files, rows, code, tests and decisions; the precedent, by a grep
+  of decisions.md and a reading of the closed founding record; the words the finding and
+  the options will use, checked against § Vocabulary and against their ordinary sense,
+  with a word that collides split by its own decision before this one; and the audit
+  units touched, if the revision has a tally. Then the options, each with what it costs
+  and buys, the session's recommendation marked as its own and listed first. The frame
+  is prose in revising-the-method § revise, as a list; nothing in the tool holds it.
+- not taken: the vocabulary check as a step after the frame, too late by the evidence of
+  the evening; a tool check over § Vocabulary, since a sense is not something a tool can
+  read; "with full context" added to § revise and a proposal artifact with a schema, both
+  declined in the entry this supersedes.
+
+### The first instance under a new or changed declaration is a review
+
+- id: d-2026-09-07-16
+- date: 2026-09-07
+- prompted by: the leads schema, declared with headings only and used for three
+  artifacts before its first was held against it, which is what opened this revision when
+  Brian saw real data; the founding decisions file, eighty-two entries transcribed with no
+  first entry reviewed, which is where the bundles came from. Brian, on the option: "The
+  first option makes sense."
+- decision: The first file written under a new or changed schema, and the first run of a
+  new or changed procedure, is presented to Brian against its declaration before a second
+  is made. A discrepancy is a decision not yet made, never a fix to the instance. This
+  generalises the predicted first run of a checker, which stays in building-a-tool; the
+  sentence lives in revising-the-method § revise.
+- not taken: the checker's first-run rule alone, which reviews the checker while the
+  schema it follows goes unreviewed; a first-instance sentence in each schema file,
+  thirteen copies of a procedure in files that hold shapes.
+
+### revising-the-method's Never lines carry this unit's decisions, and § revise says what the procedure serves
+
+- id: d-2026-09-07-17
+- date: 2026-09-07
+- prompted by: Brian, on eight candidate lines: "How many generalize versus are overfit and
+  could overconstrain?", then "All of these need to be made more specific with their
+  nuances." Three of the eight contradicted a standing decision or forbade a legitimate
+  act as first written.
+- decision: § Never gains five lines, each an act with its nuance: presenting an option
+  before the frame is complete, or two options as the only two when the frame has not
+  shown the space they sit in; taking a decision the unit's decision list did not carry
+  when Brian saw it, an addition being placed in the list before it is taken; minting a
+  check as declared when no schema's Shape states what it holds, or as earned when the
+  failure it prevents has not been observed and cited; arming a check, which is publishing
+  the exe with it, before the decision that names its id has landed, unless the closed
+  founding record describes it; exempting one file from its class's check by name, path
+  or date instead of fixing the file or changing the class by a decision, a fix to a file
+  that is wrong under a right class being always allowed. § Never becomes a list, its
+  seven earlier lines kept as written. § revise opens with what the procedure serves, in
+  Brian's words: "I want rigor instead of less friction now and more churn later."
+- not taken: the eight lines as first drafted, three of them overfit: a ban on minting any
+  check without an observed failure, which contradicts the declared way; a ban on
+  enforcing a check no decision names by id, which would prohibit the forty founding
+  checks; a ban on fixing an instance without its class, which forbids correcting a wrong
+  file; the rigor line as a Never, a value rather than an act; three frame lines where
+  one covers them.

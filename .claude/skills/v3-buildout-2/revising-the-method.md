@@ -16,8 +16,25 @@ wrong-shaped. A revision is never triggered by a hypothesis's content.
 
 ## revise
 
-The session names the finding and the rows or prose it touches, and presents the options
-with what each costs and buys, one decision at a time, never one protocol for sign-off.
+The procedure serves what Brian asked for: "I want rigor instead of less friction now and
+more churn later."
+
+A unit of revision opens with its decision list: the decisions the session proposes, one
+line each, ordered by the session widest-reaching first with each dependency on an earlier
+one named; Brian reorders, removes or adds, and the first decision is taken only after he
+has seen the list.
+For each decision the session states the frame before any option:
+
+- the finding;
+- what exists under the change, in files, rows, code, tests and decisions;
+- the precedent, by a grep of `decisions.md` and a reading of the closed founding record;
+- the words the finding and the options will use, checked against SKILL.md § Vocabulary
+  and against their ordinary sense; a word that collides is split by its own decision
+  before this one;
+- the audit units touched, if the revision has a tally.
+
+Then the options, each with what it costs and buys, the session's recommendation marked
+as its own and listed first; one decision at a time, never one protocol for sign-off.
 Brian decides; each decision is written to `decisions.md` as it lands. The session
 applies each decision as a row edit and a prose edit together,
 in the activity file, a schema file or this router, never one without the other; a
@@ -26,7 +43,10 @@ schema change (a column, a closed set, a check) is a change to
 `schemas/skill-schema.md` and to the tool with its fixtures, and is rare. A decision that
 adds or changes a check names the check's id; before a check is added or changed, the
 session greps `decisions.md` for the id, and a check that no decision names and the closed
-founding record does not describe is unbacked: it gets a decision or is dropped.
+founding record does not describe is unbacked: it gets a decision or is dropped. The first
+file written under a new or changed schema, and the first run of a new or changed
+procedure, is presented to Brian against its declaration before a second is made; a
+discrepancy is a decision not yet made, never a fix to the instance.
 
 Two lints gate a revision. The first is structure: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and
@@ -72,7 +92,23 @@ questions per unit and writes one block per unit under the unit's id.
 
 ## Never
 
-Keeps two copies of a table; changes a row without its
-prose or prose without its row; rewords text while moving it; treats any row as settled;
-swaps a rewritten skill in before both lints have run; gives the auditor `decisions.md` or
-a retired instrument; cites a decision from any other activity file.
+- Keeps two copies of a table.
+- Changes a row without its prose or prose without its row.
+- Rewords text while moving it.
+- Treats any row as settled.
+- Swaps a rewritten skill in before both lints have run.
+- Gives the auditor `decisions.md` or a retired instrument.
+- Cites a decision from any other activity file.
+- Presents an option before the frame above is complete, or offers two options as the
+  only two when the frame has not shown the space they sit in; a question Brian asks
+  inside a pair is answered by re-examining the pair, not by picking one.
+- Takes a decision the unit's decision list did not carry when Brian saw it; a decision
+  that arises mid-unit is added to the list and placed in it before it is taken.
+- Mints a check as declared when no schema's Shape states what it holds, or as earned
+  when the failure it prevents has not been observed and cited; a check across files,
+  between the code and the tables, or over how a run went is earned only.
+- Arms a check, which is publishing the exe with it, before the decision that names its
+  id has landed, unless the closed founding record describes it in words.
+- Exempts one file from its class's check by its name, path or date instead of fixing the
+  file to the class or changing the class by a decision; a fix to a file that is wrong
+  under a right class is always allowed.

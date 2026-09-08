@@ -11,7 +11,11 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 Something needs a tool that does not exist: a corpus to make readable, a change to the
 runner or the validator, a render. The need is named by the study or the revision that
 has it; an itemizer is preparing-to-verify-a-corpus's own. A check is added for a failure a
-run or a study has shown, never for one a session can imagine.
+run or a study has shown, never for one a session can imagine. A check is minted in one
+of two ways: declared, it holds what a schema's Shape says about one class's files and is
+held from the schema's first write; earned, it prevents a failure that has been observed,
+the only way a check that spans files, or the code and the tables, or a run comes to
+exist. The decision that mints a check says which.
 
 ## build
 
