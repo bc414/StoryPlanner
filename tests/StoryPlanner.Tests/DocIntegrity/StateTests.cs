@@ -72,7 +72,7 @@ public class StateTests
         Assert.Contains("| 031 |", row);
         Assert.Contains($"| fanout/{MapFixture.Study}/codebook-1@", row);
         Assert.Contains($"| {MapFixture.Study} |", row);
-        Assert.DoesNotContain("An old one", state);
+        Assert.DoesNotContain("| an-old-one |", state);
     }
 
     [Fact]
@@ -98,7 +98,7 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
-        Assert.Contains($"| 031 | dt-classes | evidenced | false | evidenced | analysis-corpus: {MapFixture.OpenQuestion} |", state);
+        Assert.Contains($"| 031 | dt-classes | evidenced | false | evidenced | analysis-corpus/{MapFixture.OpenQuestion} |", state);
         Assert.Contains("| 032 | other | untested | false | evidenced — MISMATCH | — |", state);
     }
 
@@ -131,11 +131,12 @@ public class StateTests
     }
 
     [Fact]
-    public void Question_entries_parse_their_status_and_hypotheses()
+    public void Question_entries_parse_their_withdrawal_and_hypotheses()
     {
-        var qs = StateBuilder.ParseQuestions("c", "### One\n- hypotheses: 031, 050\n- status: open\n\n### Two\n- hypotheses: 007\n- status: withdrawn (why)\n");
+        var qs = StateBuilder.ParseQuestions("c", "### one\n- date: 2026-09-01\n- hypotheses: 031 050\n- raised by: x\n- question: y\n\n### two\n- date: 2026-09-02\n- hypotheses: 007\n- raised by: x\n- question: z\n- withdrawn: 2026-09-03 why\n");
         Assert.Equal(2, qs.Count);
         Assert.True(qs[0].IsOpen);
+        Assert.Equal("c/one", qs[0].Cite);
         Assert.Equal([31, 50], qs[0].Hypotheses);
         Assert.False(qs[1].IsOpen);
     }

@@ -13,7 +13,7 @@ labels if any; models; harness version; the run folder; what was deliberately no
 one arm means no disagreement count>
 
 ## Questions in view
-<the entries of questions/v1-archive.md this exploration read with, by title>
+<the questions this exploration read with, one per line, each cited as <corpus>/<slug>>
 
 ## Leads
 <organised by what was observed — by locus, subject, pattern — never by hypothesis id. Each

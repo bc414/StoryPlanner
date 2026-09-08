@@ -24,7 +24,7 @@ public sealed class MapFixture : IDisposable
     public const string RefereeingFile = "refereeing-a-candidate.md";
     public const string PromotingFile = "promoting-checked-candidates.md";
     public const string Study = "round-of-analysis-corpus-1";
-    public const string OpenQuestion = "Does the DT class split?";
+    public const string OpenQuestion = "does-the-dt-class-split";
 
     public static readonly string[] SchemaIds =
         ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "candidate-schema", "codebook-schema"];
@@ -109,21 +109,23 @@ public sealed class MapFixture : IDisposable
             """);
 
         File.WriteAllText(Path.Combine(docs, "questions", "analysis-corpus.md"), $"""
-            # Questions — analysis-corpus
+            # analysis-corpus — questions
+
+            ### an-old-one
+
+            - date: 2026-09-01
+            - hypotheses: 032
+            - raised by: recall, ad hoc
+            - question: Old?
+            - withdrawn: 2026-09-05 superseded
 
             ### {OpenQuestion}
-            - asked-by: ad hoc (2026-09-10)
-            - hypotheses: 031
-            - question: Does it?
-            - predicate: per item, the class
-            - status: open
 
-            ### An old one
-            - asked-by: ad hoc (2026-09-01)
-            - hypotheses: 032
-            - question: Old?
-            - predicate:
-            - status: withdrawn (superseded)
+            - date: 2026-09-10
+            - hypotheses: 031
+            - raised by: recall, ad hoc
+            - question: Does it?
+            - suggested test: per item, the class
 
             """);
 
@@ -176,7 +178,7 @@ public sealed class MapFixture : IDisposable
             the method
 
             ## Questions answered
-            - {OpenQuestion}
+            - analysis-corpus/{OpenQuestion}
 
             ## Counts
             the counts
@@ -191,7 +193,7 @@ public sealed class MapFixture : IDisposable
             one item
 
             ## Questions
-            - {OpenQuestion}
+            - analysis-corpus/{OpenQuestion}
 
             ## Classes
             a, b

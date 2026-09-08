@@ -21,7 +21,7 @@ The file is a `# Decisions` title, a head, and sections.
 | `id` | always | exactly `d-<date>-<n>`, one line, written with the entry and never changed: `<date>` the entry's own date, `<n>` 1 for the first entry of that date and one more than the previous entry's for each after |
 | `date` | always | exactly `YYYY-MM-DD`, one line: the day Brian decided or approved; never earlier than the entry before it |
 | `supersedes` | only when superseding | exactly one or more ids `d-YYYY-MM-DD-n` separated by single spaces, one line, nothing else; each an entry earlier in decisions.md that no other entry supersedes |
-| `prompted by` | always | what raised the decision |
+| `raised by` | always | what raised the decision, and in whose words |
 | `decision` | always | what was ruled; what it leaves undecided where a reader might infer otherwise; when superseding, every clause of the older entry that still holds |
 | `not taken` | always | the options declined and why |
 
@@ -62,7 +62,7 @@ nowhere else.
 
 - id: d-2026-09-07-1
 - date: 2026-09-07
-- prompted by: <what raised it; Brian's typing in quotation marks: "…">
+- raised by: <what raised it; Brian's typing in quotation marks: "…">
 - decision: <what was ruled>
 
   <a second paragraph of the same value, or sub-bullets indented the same way>
@@ -73,7 +73,7 @@ nowhere else.
 - id: d-2026-09-08-1
 - date: 2026-09-08
 - supersedes: d-2026-09-07-1
-- prompted by: <what raised it>
+- raised by: <what raised it>
 - decision: <what was ruled, restating every clause of the older entry that still holds>
 - not taken: <the options declined and why>
 ```

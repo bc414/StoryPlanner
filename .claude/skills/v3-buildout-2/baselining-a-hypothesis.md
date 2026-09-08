@@ -21,8 +21,8 @@ words "verified support, no open challenge — review for baselining" and waits.
 
 Brian decides. If he baselines, the session appends the `baselined` entry in his words and
 sets `baselined` to the date. If he does not, nothing is written to the hypothesis; a reason
-he gives that is a question about a corpus is written into that corpus's question list
-with `asked-by: ad hoc`.
+he gives that is a question about a corpus is written into that corpus's question list,
+with the hypothesis that raised it.
 
 ## Never
 

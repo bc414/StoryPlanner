@@ -41,9 +41,11 @@ public static class StateBuilder
 
     public sealed record Study(string Id, string Type, string Corpus, string Go);
 
-    public sealed record Question(string Corpus, string Title, string Status, IReadOnlyList<int> Hypotheses)
+    /// <summary>One question entry: its slug, whether a withdrawn line sits beneath it, the hypothesis ids it names. Cited as corpus/slug.</summary>
+    public sealed record Question(string Corpus, string Slug, bool Withdrawn, IReadOnlyList<int> Hypotheses)
     {
-        public bool IsOpen => Status.StartsWith("open", StringComparison.OrdinalIgnoreCase);
+        public bool IsOpen => !Withdrawn;
+        public string Cite => $"{Corpus}/{Slug}";
     }
 
     public sealed record CodebookVersion(string RelativePath, string Hash, IReadOnlyList<string> Questions, bool Calibrated)
@@ -237,23 +239,23 @@ public static class StateBuilder
     public static IReadOnlyList<Question> ParseQuestions(string corpus, string text)
     {
         var result = new List<Question>();
-        string? title = null;
-        var status = "";
+        string? slug = null;
+        var withdrawn = false;
         var hypotheses = new List<int>();
 
         void Flush()
         {
-            if (title is not null) result.Add(new Question(corpus, title, status, hypotheses));
-            title = null; status = ""; hypotheses = [];
+            if (slug is not null) result.Add(new Question(corpus, slug, withdrawn, hypotheses));
+            slug = null; withdrawn = false; hypotheses = [];
         }
 
         foreach (var raw in text.Replace("\r\n", "\n").Split('\n'))
         {
             var line = raw.Trim();
-            if (line.StartsWith("### ", StringComparison.Ordinal)) { Flush(); title = line[4..].Trim(); continue; }
+            if (line.StartsWith("### ", StringComparison.Ordinal)) { Flush(); slug = line[4..].Trim(); continue; }
             if (line.StartsWith("## ", StringComparison.Ordinal) || line.StartsWith("# ", StringComparison.Ordinal)) { Flush(); continue; }
-            if (title is null) continue;
-            if (line.StartsWith("- status:", StringComparison.Ordinal)) status = line["- status:".Length..].Trim();
+            if (slug is null) continue;
+            if (line.StartsWith("- withdrawn:", StringComparison.Ordinal)) withdrawn = true;
             var m = HypothesesLine.Match(line);
             if (m.Success)
                 foreach (var tok in m.Groups["ids"].Value.Split([',', ' '], StringSplitOptions.RemoveEmptyEntries))
@@ -281,9 +283,9 @@ public static class StateBuilder
             sb.Append("| question | hypotheses | covered by (calibrated codebook) | answered by (round) |\n|---|---|---|---|\n");
             foreach (var q in open)
             {
-                var covering = codebooks.Where(c => c.Calibrated && c.Questions.Contains(q.Title, StringComparer.Ordinal)).Select(c => c.Cite).ToList();
-                var answering = rounds.Where(r => r.Questions.Contains(q.Title, StringComparer.Ordinal)).Select(r => r.Study).ToList();
-                sb.Append("| ").Append(q.Title.Replace("|", "\\|"))
+                var covering = codebooks.Where(c => c.Calibrated && c.Questions.Contains(q.Cite, StringComparer.Ordinal)).Select(c => c.Cite).ToList();
+                var answering = rounds.Where(r => r.Questions.Contains(q.Cite, StringComparer.Ordinal)).Select(r => r.Study).ToList();
+                sb.Append("| ").Append(q.Slug)
                   .Append(" | ").Append(q.Hypotheses.Count == 0 ? "—" : string.Join(" ", q.Hypotheses.Select(h => h.ToString("000"))))
                   .Append(" | ").Append(covering.Count == 0 ? "nothing" : string.Join(" ", covering))
                   .Append(" | ").Append(answering.Count == 0 ? "nothing" : string.Join(" ", answering))
@@ -396,7 +398,7 @@ public static class StateBuilder
             var h = ParseHypothesis(file);
             if (h is null) continue;
             var naming = questions.Where(q => q.IsOpen && q.Hypotheses.Contains(h.Id))
-                .Select(q => $"{q.Corpus}: {q.Title}").ToList();
+                .Select(q => q.Cite).ToList();
             sb.Append("| ").Append(h.Id.ToString("000"))
               .Append(" | ").Append(h.Slug)
               .Append(" | ").Append(h.Status)

@@ -33,12 +33,13 @@ public static class SchemaCheckers
         WellKnown.LeadsArtifact => Leads.Check,
         WellKnown.Corpora => Corpora.Check,
         WellKnown.Decisions => Decisions.Check,
+        WellKnown.QuestionList => Questions.Check,
         _ => null,
     };
 
     /// <summary>The artifact ids that dispatch to a checker, one per class (the three hypothesis rows count once).</summary>
     public static readonly string[] CheckedIds =
-        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.LeadsArtifact, WellKnown.Corpora, WellKnown.Decisions];
+        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.LeadsArtifact, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList];
 
     internal static string[] Lines(string path) => File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');
 
@@ -442,7 +443,7 @@ public static class Corpora
 /// <summary>
 /// schemas/decisions-schema.md: a "# Decisions" title, a free head, sections "## Revision N" that
 /// ascend and open with at most one paragraph, then entries: a "### " title stating the ruling
-/// and keyed "- key: value" lines in the order id, date, supersedes, prompted by, decision,
+/// and keyed "- key: value" lines in the order id, date, supersedes, raised by, decision,
 /// not taken, a value continued by two-space indent. The three machine-read values are exact:
 /// the id is d-&lt;date&gt;-&lt;n&gt;, written with the entry, its date the entry's own and its
 /// n one more than the previous entry of that date or 1, and a wrong id fails naming the
@@ -453,8 +454,8 @@ public static class Corpora
 public static class Decisions
 {
     public const string Title = "Decisions";
-    public static readonly string[] Keys = ["id", "date", "supersedes", "prompted by", "decision", "not taken"];
-    static readonly string[] Required = ["id", "date", "prompted by", "decision", "not taken"];
+    public static readonly string[] Keys = ["id", "date", "supersedes", "raised by", "decision", "not taken"];
+    static readonly string[] Required = ["id", "date", "raised by", "decision", "not taken"];
     static readonly Regex SectionHeading = new(@"^Revision (?<n>[1-9]\d*)$", RegexOptions.Compiled);
     static readonly Regex Keyed = new(@"^- (?<key>[a-z][a-z ]*): (?<value>.*)$", RegexOptions.Compiled);
     public static readonly Regex Id = new(@"^d-(?<date>\d{4}-\d{2}-\d{2})-(?<n>[1-9]\d*)$", RegexOptions.Compiled);
@@ -659,5 +660,203 @@ public static class Decisions
         }
         Flush();
         return (entries, findings);
+    }
+}
+
+/// <summary>
+/// schemas/question-entry-schema.md: "# &lt;corpus&gt; — questions" with the file's own name,
+/// then entries only. An entry is "### &lt;slug&gt;", a slug unique in the list, then date
+/// (exact, never earlier than the entry before), hypotheses (ids NNN, each a hypothesis file
+/// the artifacts table locates, present only when there are any), raised by, question and
+/// suggested test (free), and beneath them at most one appended "- withdrawn: YYYY-MM-DD
+/// &lt;reason&gt;". An entry is cited as &lt;corpus&gt;/&lt;slug&gt;; open, frozen and answered
+/// are derived, never written. Every writer is hitl and the class is append.
+/// </summary>
+public static class Questions
+{
+    public static readonly string[] Keys = ["date", "hypotheses", "raised by", "question", "suggested test"];
+    static readonly string[] Required = ["date", "raised by", "question"];
+    static readonly Regex Keyed = new(@"^- (?<key>[a-z][a-z ]*): (?<value>.*)$", RegexOptions.Compiled);
+    static readonly Regex WithdrawnLine = new(@"^- withdrawn: (?<date>\d{4}-\d{2}-\d{2}) (?<reason>\S.*)$", RegexOptions.Compiled);
+    static readonly Regex HypothesisId = new(@"^\d{3}$", RegexOptions.Compiled);
+
+    /// <summary>One entry as read; Date is empty when the date line was not exact.</summary>
+    public sealed record Entry(string Slug, int Line, string Date, IReadOnlyList<string> Hypotheses, bool Withdrawn);
+
+    sealed record Field(string Key, string Value, int Line, List<string> Continuation);
+
+    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path) => Read(ctx, path).Findings;
+
+    /// <summary>The entries of one list in order, and every finding against the schema.</summary>
+    public static (IReadOnlyList<Entry> Entries, IReadOnlyList<Finding> Findings) Read(CheckContext ctx, string path)
+    {
+        var file = Path.GetFileName(path);
+        var corpus = Path.GetFileNameWithoutExtension(path);
+        var lines = SchemaCheckers.Lines(path);
+        var findings = new List<Finding>();
+        var entries = new List<Entry>();
+
+        var first = Array.FindIndex(lines, l => l.Trim().Length > 0);
+        var title = $"# {corpus} — questions";
+        if (first < 0 || lines[first] != title)
+            findings.Add(Finding.Fail("question.title", file, $"the title is '{title}', the file's own name"));
+        if (ctx.CorporaIds.Count == 0)
+            findings.Add(Finding.Info("question.corpora-unavailable", file,
+                "no corpus ids could be read from the skill folder; the corpus is not checked"));
+        else if (!ctx.CorporaIds.Contains(corpus))
+            findings.Add(Finding.Fail("question.title", file, $"'{corpus}' is not a corpus id in CORPORA.md"));
+
+        var hypothesisIds = HypothesisIds(ctx);
+        if (hypothesisIds is null)
+            findings.Add(Finding.Info("question.hypotheses-unavailable", file,
+                "no hypothesis class could be located from the artifacts table; hypothesis ids are not checked"));
+
+        string? slug = null;
+        var slugLine = 0;
+        var fields = new List<Field>();
+        var stray = new List<int>();
+        var withdrawn = 0;
+        var afterWithdrawn = false;
+        string? lastDate = null;
+        var slugs = new HashSet<string>(StringComparer.Ordinal);
+
+        void Flush()
+        {
+            if (slug is null) return;
+            var keys = fields.Select(f => f.Key).ToList();
+            foreach (var f in fields.Where(f => !Keys.Contains(f.Key)))
+                findings.Add(Finding.Fail("question.entry.fields", file,
+                    $"line {f.Line}: '{f.Key}' is not a key; the keys are {string.Join(", ", Keys)}"));
+            foreach (var dup in keys.GroupBy(k => k).Where(g => g.Count() > 1))
+                findings.Add(Finding.Fail("question.entry.fields", file, $"line {slugLine}: '{dup.Key}' appears twice"));
+            var missing = Required.Where(k => !keys.Contains(k)).ToList();
+            if (missing.Count > 0)
+                findings.Add(Finding.Fail("question.entry.fields", file, $"line {slugLine}: missing {string.Join(", ", missing)}"));
+            var order = keys.Where(Keys.Contains).Select(k => Array.IndexOf(Keys, k)).ToList();
+            if (order.Zip(order.Skip(1)).Any(p => p.Second <= p.First))
+                findings.Add(Finding.Fail("question.entry.fields", file,
+                    $"line {slugLine}: the keys are in the order {string.Join(", ", Keys)}"));
+            foreach (var f in fields.Where(f => f.Value.Trim().Length == 0))
+                findings.Add(Finding.Fail("question.entry.fields", file, $"line {f.Line}: '{f.Key}' has no value on its line"));
+            if (stray.Count > 0)
+                findings.Add(Finding.Fail("question.entry.fields", file,
+                    $"line {slugLine}: {stray.Count} line(s) neither keyed nor a two-space continuation, first at line {stray[0]}"));
+
+            var dateValue = "";
+            var date = fields.FirstOrDefault(f => f.Key == "date");
+            if (date is not null)
+            {
+                var exact = SchemaCheckers.IsoDate.IsMatch(date.Value)
+                            && DateOnly.TryParseExact(date.Value, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out _);
+                if (date.Continuation.Count > 0)
+                    findings.Add(Finding.Fail("question.entry.date", file, $"line {date.Line}: the date is one line"));
+                if (!exact)
+                    findings.Add(Finding.Fail("question.entry.date", file, $"line {date.Line}: the date is exactly YYYY-MM-DD; found '{date.Value}'"));
+                else
+                {
+                    if (lastDate is not null && string.CompareOrdinal(date.Value, lastDate) < 0)
+                        findings.Add(Finding.Fail("question.entry.date", file,
+                            $"line {date.Line}: {date.Value} is earlier than the entry before it, {lastDate}"));
+                    lastDate = date.Value;
+                    dateValue = date.Value;
+                }
+            }
+
+            var ids = new List<string>();
+            var hyp = fields.FirstOrDefault(f => f.Key == "hypotheses");
+            if (hyp is not null)
+            {
+                if (hyp.Continuation.Count > 0)
+                    findings.Add(Finding.Fail("question.hypotheses", file, $"line {hyp.Line}: hypotheses is one line"));
+                var tokens = hyp.Value.Split(' ');
+                if (tokens.Any(t => !HypothesisId.IsMatch(t)))
+                    findings.Add(Finding.Fail("question.hypotheses", file,
+                        $"line {hyp.Line}: ids NNN separated by single spaces and nothing else; found '{hyp.Value}'"));
+                else
+                    foreach (var t in tokens)
+                    {
+                        ids.Add(t);
+                        if (hypothesisIds is not null && !hypothesisIds.Contains(t))
+                            findings.Add(Finding.Fail("question.hypotheses", file, $"line {hyp.Line}: {t} names no hypothesis file"));
+                    }
+            }
+
+            if (withdrawn > 1)
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {slugLine}: withdrawn appears twice; a question is withdrawn once"));
+
+            entries.Add(new Entry(slug, slugLine, dateValue, ids, withdrawn > 0));
+            slug = null;
+        }
+
+        for (var i = first + 1; i < lines.Length; i++)
+        {
+            var raw = lines[i];
+            var blank = raw.Trim().Length == 0;
+
+            if (raw.StartsWith("### ", StringComparison.Ordinal))
+            {
+                Flush();
+                slug = raw[4..].Trim();
+                slugLine = i + 1;
+                fields = [];
+                stray = [];
+                withdrawn = 0;
+                afterWithdrawn = false;
+                if (!ClosedSets.IdPattern.IsMatch(slug))
+                    findings.Add(Finding.Fail("question.slug", file, $"line {i + 1}: '{slug}' is not a lowercase slug"));
+                else if (!slugs.Add(slug))
+                    findings.Add(Finding.Fail("question.slug", file, $"line {i + 1}: '{slug}' repeats a slug in this list"));
+                continue;
+            }
+            if (slug is null)
+            {
+                if (!blank)
+                    findings.Add(Finding.Fail("question.entry.fields", file,
+                        $"line {i + 1}: a line outside every entry; the file is its title, then entries"));
+                continue;
+            }
+            if (blank) continue;
+
+            if (raw.StartsWith("- withdrawn:", StringComparison.Ordinal))
+            {
+                if (!WithdrawnLine.IsMatch(raw))
+                    findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a withdrawn line is '- withdrawn: YYYY-MM-DD <reason>'"));
+                else if (fields.Count == 0)
+                    findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: withdrawn sits beneath the fields, never before them"));
+                withdrawn++;
+                afterWithdrawn = true;
+                continue;
+            }
+            if (raw.StartsWith("  ", StringComparison.Ordinal))
+            {
+                if (afterWithdrawn) continue; // the reason's continuation
+                if (fields.Count == 0) stray.Add(i + 1);
+                else fields[^1].Continuation.Add(raw);
+                continue;
+            }
+            var km = Keyed.Match(raw);
+            if (km.Success)
+            {
+                if (afterWithdrawn)
+                    findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a keyed line after withdrawn; withdrawn is the last line of an entry"));
+                fields.Add(new Field(km.Groups["key"].Value, km.Groups["value"].Value, i + 1, []));
+                continue;
+            }
+            stray.Add(i + 1);
+        }
+        Flush();
+        return (entries, findings);
+    }
+
+    /// <summary>The NNN of every hypothesis file the artifacts table locates, or null when no hypothesis class can be found.</summary>
+    static HashSet<string>? HypothesisIds(CheckContext ctx)
+    {
+        var cls = ArtifactScope.CheckedClasses(ctx.RepoRoot).FirstOrDefault(c => c.Row.Id == WellKnown.HypothesisStatus);
+        if (cls is null) return null;
+        return cls.Files()
+            .Select(Path.GetFileName)
+            .Where(n => n is not null && n.Length >= 3)
+            .Select(n => n![..3])
+            .ToHashSet(StringComparer.Ordinal);
     }
 }

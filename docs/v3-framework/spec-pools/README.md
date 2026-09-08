@@ -1,5 +1,9 @@
 # Spec pools
 
+Closed 2026-09-07 as the founding record of questions: never written again. The question
+lists are `docs/v3-framework/questions/<corpus>.md`, under `schemas/question-entry-schema.md`,
+filled by a triage of these pools with Brian, one corpus at a time.
+
 One file per corpus (`<corpus>.md`). The seven corpora of the buildout as of 2026-09-03,
 each with a pool file here: `analysis-corpus.md` (the 112 analyzed stories),
 `own-fiction.md`, `v1-archive.md`, `working-plan.md` (v2), `lineage.md`,

@@ -14,7 +14,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-1
 - date: 2026-09-07
-- prompted by: Brian, after a schema entry superseding the founding bundle ran to sixty
+- raised by: Brian, after a schema entry superseding the founding bundle ran to sixty
   lines: "Since the schema and enforcement is brand new, should it start with these
   entries, not bother with supersession, and we only move forward from here? The old
   decisions.md is left as historical record, and whatever is in the skill file right now
@@ -41,7 +41,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-2
 - date: 2026-09-07
-- prompted by: Brian, reading the entry that moved the Artifacts table: "why is the entry
+- raised by: Brian, reading the entry that moved the Artifacts table: "why is the entry
   into decisions.md so dense? Does it need a better schema?", then "It should be prompted
   by, followed by the decision, then not taken? Is anything else needed?", "One form of
   supersession is good. New entries absorbe the surviving clauses.", "We cannot have
@@ -75,7 +75,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-3
 - date: 2026-09-07
-- prompted by: Brian, on the rewrite of `schemas/decisions-schema.md`: "Don't match the
+- raised by: Brian, on the rewrite of `schemas/decisions-schema.md`: "Don't match the
   exsting format sturcture since those have no shape and have to be reviewed. You have to
   think about how this will be consumed", and "Should this be the format of schema files
   going forward?"
@@ -101,7 +101,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-4
 - date: 2026-09-07
-- prompted by: Anthropic's skill guidance, "keep references one level deep from SKILL.md;
+- raised by: Anthropic's skill guidance, "keep references one level deep from SKILL.md;
   all reference files should link directly from SKILL.md", against a bare slug that names
   the file without linking it. Brian: "Go with The cell is a link since that is the rigor
   that satisfies the anthropic doc recommendations."
@@ -122,7 +122,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-5
 - date: 2026-09-07
-- prompted by: Brian, reading the new file: "Seems like decisions.md entries are missing
+- raised by: Brian, reading the new file: "Seems like decisions.md entries are missing
   ids?", "Who decided that ids are not written? That seems like room for error or
   misattribution.", and "Should there be any concept of derived ids anymore? Is there any
   downside to writting an id when writing the decision and it stays?" The derived-only id
@@ -148,7 +148,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-6
 - date: 2026-09-07
-- prompted by: Brian, on the file named after its class: "What can be done about the file
+- raised by: Brian, on the file named after its class: "What can be done about the file
   name colisions?", "are there any issues with changing all the files under format/ to
   have a -schema.md at the end?", "How about we change the folder from format/ to
   schemas/ as well?", and, on the suffix beside the folder: "The redundancy in the folder
@@ -179,7 +179,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-7
 - date: 2026-09-07
-- prompted by: the review of the validator rules written on 2026-09-07 without an entry:
+- raised by: the review of the validator rules written on 2026-09-07 without an entry:
   `file.orphan-schema` was the analogue of the activity-file orphan rule and no decision
   backed it. Brian: "What do I need to see regarding the validator rules?"
 - decision: A file under `schemas/` that no Artifacts row's `schema` cell links to fails
@@ -198,7 +198,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-8
 - date: 2026-09-07
-- prompted by: Brian, on the special case entry 6 left open: "So the purpose of this
+- raised by: Brian, on the special case entry 6 left open: "So the purpose of this
   decision is to move details about how to change the skill file into a different file,
   since only sessions who need to change it need to see the schema, not all of them? Or
   should standard operating procedure sessions still need to see the schema so that they
@@ -224,7 +224,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-9
 - date: 2026-09-07
-- prompted by: Brian, before the decision on backing the tool's checks: "Is 'rule' clearly
+- raised by: Brian, before the decision on backing the tool's checks: "Is 'rule' clearly
   defined anywhere in the skill folder?" It was not: the folder used the word for the nine
   constitutional rules, for what the tool holds, for a codebook's boundary statements and
   for his rulings. Brian: "Rule stays for constitutional rule, and 'check' for the tool."
@@ -243,7 +243,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-10
 - date: 2026-09-07
-- prompted by: Brian, once rule and check were split: "What should be the term for the
+- raised by: Brian, once rule and check were split: "What should be the term for the
   third distinct thing related to codebooks? Need to sort this out now." The codebook had
   called it a decision rule, two words the vocabulary now reserves.
 - decision: A criterion is a codebook's statement that admits an item to a class or keeps
@@ -260,7 +260,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-11
 - date: 2026-09-07
-- prompted by: Brian, reviewing the validator's checks: "What do I need to see regarding
+- raised by: Brian, reviewing the validator's checks: "What do I need to see regarding
   the validator rules?", which found `file.orphan-schema` enforced with no decision behind
   it; then, on the machinery proposed to hold this, "So now there's even more machinery I
   wasn't aware of? What does it buy us and what failure modes does it prevent?" and "A
@@ -283,7 +283,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-12
 - date: 2026-09-07
-- prompted by: Brian, when a session put several decisions in front of him at once:
+- raised by: Brian, when a session put several decisions in front of him at once:
   "There's too many different things here, and not enough detail to make a judgement. Go
   one at a time, in order of most wide reaching to least, with full context of what the
   judgement is about." The observed failure on 2026-09-07 was an option, an `entry` column
@@ -303,7 +303,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-13
 - date: 2026-09-07
-- prompted by: Brian, after a schema decision was taken ahead of the fresh-start decision
+- raised by: Brian, after a schema decision was taken ahead of the fresh-start decision
   that dissolved it: "Go one at a time, in order of most wide reaching to least, with full
   context of what the judgement is about"; and on the list for this unit: "The list should
   appear, but already ordered by widest-first/most impactful."
@@ -321,7 +321,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-14
 - date: 2026-09-07
-- prompted by: the same evening arguing one proposed check as structure and withdrawing it
+- raised by: the same evening arguing one proposed check as structure and withdrawing it
   as unearned, with entry 7 the first to say which side a check is on. Brian, on the
   wording: "So in order to state it more clearly, the prose should say there are two
   ways a check is minted: declaring the structure, and then from observed failures?"
@@ -340,7 +340,7 @@ rules names the old id in prose.
 - id: d-2026-09-07-15
 - date: 2026-09-07
 - supersedes: d-2026-09-07-12
-- prompted by: Brian, on a vocabulary check proposed as a step after the frame: "Isn't it
+- raised by: Brian, on a vocabulary check proposed as a step after the frame: "Isn't it
   earlier than a decision? The frame of the decision already has to do a vocab check for
   non collisions first." Four collisions had been caught the same evening after use:
   "map" for the decision list, "rule" in four senses, "decision rule" of two reserved
@@ -362,7 +362,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-16
 - date: 2026-09-07
-- prompted by: the leads schema, declared with headings only and used for three
+- raised by: the leads schema, declared with headings only and used for three
   artifacts before its first was held against it, which is what opened this revision when
   Brian saw real data; the founding decisions file, eighty-two entries transcribed with no
   first entry reviewed, which is where the bundles came from. Brian, on the option: "The
@@ -380,7 +380,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-17
 - date: 2026-09-07
-- prompted by: Brian, on eight candidate lines: "How many generalize versus are overfit and
+- raised by: Brian, on eight candidate lines: "How many generalize versus are overfit and
   could overconstrain?", then "All of these need to be made more specific with their
   nuances." Three of the eight contradicted a standing decision or forbade a legitimate
   act as first written.
@@ -407,7 +407,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-18
 - date: 2026-09-07
-- prompted by: Brian, the afternoon the leads schema was found to hold only headings: "Is
+- raised by: Brian, the afternoon the leads schema was found to hold only headings: "Is
   the document model is what I needed all along, implemented in markdown with a check verb
   program instead of json and whatever json validation MongoDB uses?" The model had driven
   every schema since and was stated nowhere in the skill.
@@ -426,7 +426,7 @@ rules names the old id in prose.
 
 - id: d-2026-09-07-19
 - date: 2026-09-07
-- prompted by: entry 3's open clause, "what a Shape must declare beyond machine-read or
+- raised by: entry 3's open clause, "what a Shape must declare beyond machine-read or
   prose", with the leads schema about to be the first written under the answer. Brian:
   "Who are the consumers? Where does this go?", "What about the revising the method
   file?", "Seems like revising-the-method should be the primary entry point, so it should
@@ -449,3 +449,158 @@ rules names the old id in prose.
   checker can be written; a formal Shape grammar the tool parses, a language and a
   generator ahead of any failure; one pointer sentence in § revise, too thin for the file
   a schema review opens.
+
+### The field for what raised an entry is raised by, in decisions and in questions alike
+
+- id: d-2026-09-07-20
+- date: 2026-09-07
+- raised by: the question-entry review, where the same field was being named. Brian:
+  "Prompted is ambiguous with a 'prompt' as in the human turns of a claude code session."
+  Then: "I wanted to change prompted by back then in the decisions schema but too much was
+  happening. It should be done now."
+- decision: The field that holds what raised an entry, and in whose words, is `raised by`,
+  in decisions-schema and in question-entry-schema alike: the method's own verb, "a
+  question is what a lead raised". The nineteen decisions already landed have their key
+  line renamed in the same write, a rename of a key and not of a word of content; the
+  checker's field set, the schema's Shape, Example and Queries, and the activity files'
+  "what prompted it" follow. Brian's quoted words keep the old word where he used it.
+- not taken: two words for one concept, `prompted by` kept in decisions for the cost of
+  the rename; `origin`, which names where and not what; `provenance`, the word for the
+  decisions file itself; `occasion`, which names the session and not the lead.
+
+### The spec pools close as the founding record of questions; the lists are filled by triage
+
+- id: d-2026-09-07-21
+- date: 2026-09-07
+- raised by: Brian: "The content of spec-pools right now are not all leads. There are some
+  open questions that haven't been investigated yet", then "A triage will be needed of
+  the deprecated spec pools to backfill the new schema." The closed record's rulings that
+  a question is Brian's and that question lists replace spec pools; the pools hold three
+  kinds of entry, re-housed pre-revision entries, plan-1 specs, and open questions never
+  investigated, only the first of which is the leads material.
+- decision: `docs/v3-framework/spec-pools/` is closed as the founding record of
+  questions, never written again, one pointer line in its README. `questions/<corpus>.md`
+  starts empty and is filled by a triage per corpus in `ask`: Brian goes through the
+  pool's entries, keeping those that are his questions, each written under the schema in
+  his words with `raised by` saying it was carried from the founding pool; the rest stay
+  in the closed pool as history. The triage is the schema's first-instance review.
+- not taken: migrating all ninety entries mechanically, which writes questions Brian did
+  not ask into lists whose first rule is that a question is his; closing the pools with
+  no triage, which drops the open questions he did ask; a triage before the schema, which
+  has nothing to write into.
+
+### A question's id is its slug, cited as <corpus>/<slug>
+
+- id: d-2026-09-07-22
+- date: 2026-09-07
+- raised by: Brian: "Should the id just include the corpus in it? Or we should just go
+  with a slug so that it's self descriptive instead of needing an id lookup?", "Should it
+  be a single slug like own-fiction-heavy-dt-two-classes?", "The slash works." The title
+  had been the key, cited verbatim by four schemas and matched by state.md.
+- decision: An entry's heading is its slug, lowercase `[a-z0-9-]+`, unique within its
+  list, authored once and never changed; a reworded question is a new entry and the old
+  one withdrawn. It is cited everywhere as `<corpus>/<slug>`, one token that splits on
+  its one slash, since every corpus id contains hyphens. No separate title, no number;
+  order is the file's. No length cap: the charset rule, the readable-ids ruling and the
+  hitl write bound it, and a cap is earned by a failure. The checker holds the slug as
+  `question.slug`. The schemas that cited titles cite the id at their reviews; the
+  coverage derivation matches ids.
+- not taken: the title as the key held exact, which makes a title unrewordable and a
+  citation a full line; `Q-NNN` with the corpus prefixed, which needs a lookup; a
+  hyphen-joined `<corpus>-<slug>`, unsplittable without the corpus set; a two-token
+  `<corpus> <slug>`, which breaks space-separated lists; a length cap with no failure.
+
+### A question entry is date, hypotheses, raised by, question, suggested test
+
+- id: d-2026-09-07-23
+- date: 2026-09-07
+- raised by: Brian, on the pool's fields: "asked-by doesn't seem to make sense? I'm the
+  only one asking", then "I'm not liking how we have many polymorphic fields. Do we need
+  more fields with less values? Or do we not need all of this? What does the consumer
+  need? Who are the consumers?" Listed, the consumers showed that only the reader tracing
+  provenance wanted the occasion and the citation, and nothing derives from them.
+- decision: The file is `questions/<corpus>.md`, titled `# <corpus> — questions`,
+  entries only, no head prose. An entry is `### <slug>`, then `date`, exact and never
+  earlier than the entry before; `hypotheses`, exact ids the checker resolves against
+  the hypothesis files, present only when there are any; `raised by`, free, the occasion
+  and what raised it with the citation as a token; `question`, free, Brian's words;
+  `suggested test`, free, present only when one suggests itself. Two exact lines, and no
+  field with a closed set of forms. The checker holds `question.title`,
+  `question.entry.fields`, `question.entry.date` and `question.hypotheses`.
+- not taken: an exact `asked-by` with seven origin forms and an exact `from` with four
+  kinds, polymorphic fields serving no machine; the pool's shape, the date inside the
+  provenance sentence; the question first and the provenance after.
+
+### A question list is append, and a withdrawal is an appended line
+
+- id: d-2026-09-07-24
+- date: 2026-09-07
+- raised by: Brian: "Should the whole thing be in-place or append?" The schema had let a
+  status line change to withdrawn, an edit inside an append row.
+- decision: The class is `append` for every line. A withdrawal is `- withdrawn: <date>
+  <reason>` appended beneath the entry by the hitl process that withdraws it, at most
+  once; open is an entry with no such line, derived; frozen and answered are derived from
+  a codebook's and a round's citations of the id. There is no status line. The precedent
+  is the candidate, never edited, its outcome appended beneath. The checker holds the
+  line as `question.withdrawn`.
+- not taken: `in-place` for one field, which needs a second row for the class or gives up
+  never-edited for the file; a status line written by hand.
+
+### A predicate is the test a codebook freezes; a question carries only a suggested test
+
+- id: d-2026-09-07-25
+- date: 2026-09-07
+- raised by: Brian: "Where did the predicate field come from?", then "This is free text
+  and a suggestion about predicates, so the field name shouldn't read as 'predicate' as
+  if authoritative and structured, right?", and "Suggested test is fine, along with
+  instructions for preparing to verify being firm that these are naive suggestions as a
+  starting point." The field came from revision 1's spec pools as `candidate-predicate`,
+  a session's guess at the test written when the question was raised.
+- decision: `predicate` enters § Vocabulary as the test a codebook freezes for one
+  question and a classifier applies to every item; it is never written in a question
+  entry. The entry's optional line is `suggested test`, free and unquoted, a naive note on
+  how the question might be tested. preparing-to-verify-a-corpus says, in author-codebook,
+  that a suggested test is a starting point and never a criterion: the criteria are
+  authored against the real items with Brian, and a suggested test is never carried into
+  a codebook unexamined.
+- not taken: a field named `predicate`, which reads as the frozen test before any codebook
+  exists; dropping the line, since the codebook author can use a starting point.
+
+### A schema review brings every reader's and writer's instructions current
+
+- id: d-2026-09-07-26
+- date: 2026-09-07
+- raised by: Brian, after the question-entry review had left three schemas citing a
+  question by title and three activity files naming a retired field: "do the other
+  consumers and writers have updated instructions? Do they need anything?" Then: "Put
+  this instruction to make reader/writer instructions clear in the relevant part of
+  revising-the-method."
+- decision: A schema review ends by walking the class's consumers as map.md lists them,
+  every process that reads or writes the class and every schema that cites its entries,
+  and bringing each one's instructions current with the schema in the same write: an
+  activity file says what an entry carries in words and names no field, and a schema that
+  cites the class cites it in the form the reviewed schema fixes, ahead of its own
+  review. A grep of the folder for the old names and citation forms closes the step. It
+  is the last step of the schema-review procedure in revising-the-method § revise.
+- not taken: leaving each consumer to its own review, which leaves the tool's derivation
+  and a schema disagreeing in the meantime, as they did for an evening; a check that a
+  citation form is used consistently across schemas, unearned until a mismatch is found by
+  something other than a grep.
+
+### A one-time instruction never enters an activity file or a schema
+
+- id: d-2026-09-07-27
+- date: 2026-09-07
+- raised by: a session writing "the triage of a closed founding pool runs here" into
+  reviewing-leads § ask, a bootstrap instruction in a standard-operating file. Brian:
+  "Isn't the triage a one time activity, not SOP?" Then: "Also do that decision about one
+  time instructions not going into activity files." The closed record already holds the
+  ground: bootstrap is a fact about the work, never about activities, and the skill
+  carries no one-time instruction by design.
+- decision: A triage, a migration, a re-founding or any other bootstrap is executed from
+  the decision that names it, through the process the decision names, and the activity
+  file says only what that process always does. Nothing one-time enters an activity file
+  or a schema. revising-the-method § Never carries the line.
+- not taken: a one-time sentence in the activity file with a date, which is the special
+  case by date the method refuses elsewhere; a bootstrap activity of its own, which the
+  closed record retired with the roots table.

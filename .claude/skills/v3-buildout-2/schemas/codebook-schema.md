@@ -20,8 +20,8 @@ derives a question's coverage from that section and a calibration at the hash.
 <what one item is, as the itemizer produces it; the frozen predicate's unit>
 
 ## Questions
-<the titles, verbatim, of the entries in questions/<corpus>.md this version freezes; none
-for the referee, whose question is the pipeline's own>
+<the questions this version freezes, one per line, each cited as <corpus>/<slug>; none for
+the referee, whose question is the pipeline's own>
 
 ## Inputs
 <by reference: the agent process row in <activity>.md; the item file's headings>

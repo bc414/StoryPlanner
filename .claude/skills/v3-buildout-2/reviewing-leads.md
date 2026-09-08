@@ -28,15 +28,15 @@ lead itself is not edited.
 Brian raises questions: from the artifact's `## Proposed questions`, from the drills, from
 his own recall, which enters only as a question with its provenance ("Brian's recall,
 <date>: does the v1 archive show X?"). The session writes each into the corpus's question
-list in his words, `asked-by: review of <study>`, with the hypotheses it concerns and a
-predicate where one suggests itself. A lead that shows a different hypothesis is needed is
+list in his words, with what raised it, the hypotheses it concerns and a suggested test
+where one suggests itself. A lead that shows a different hypothesis is needed is
 handed to minting-a-hypothesis in the same session. One commit.
 
 ## ask
 
-Brian asks; the session writes the entry into the named corpus's list with
-`asked-by: ad hoc`, his words, the hypotheses it concerns, a predicate if one suggests
-itself. One commit.
+Brian asks; the session writes the entry into the named corpus's list in his words, with
+what raised it, the hypotheses it concerns, and a suggested test if one suggests itself.
+One commit.
 
 ## Never
 

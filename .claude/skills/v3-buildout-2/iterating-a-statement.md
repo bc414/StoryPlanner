@@ -8,7 +8,7 @@ Enables refereeing-a-candidate.
 
 ## Preconditions
 
-Brian has decided to reword, in a promotion session because evidence prompted a rethink, or
+Brian has decided to reword, in a promotion session because evidence called for a rethink, or
 in any hitl session because a merge or split requires it; that decision is the whole
 trigger, and no activity enables this one. A lead never prompts an iteration;
 a lead that shows a different hypothesis is needed goes to minting-a-hypothesis.

@@ -250,6 +250,8 @@ runner as an instrument and is read in full by any process that invokes it.
 - **arm**: one condition in an exploration that runs the same slices under several.
 - **lead**: a locus and what was observed there; the output of exploration; never a claim.
 - **question**: Brian's testable question about one corpus, in its question list.
+- **predicate**: the test a codebook freezes for one question and a classifier applies
+  to every item; never written in a question entry, whose `suggested test` is a note.
 - **result**: an agent's output for one item under an instrument.
 - **finding**: what a round observed that a session claims bears on a hypothesis; on a
   candidate.

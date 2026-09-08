@@ -38,7 +38,7 @@ same session under its own file; nothing here rewords.
 
 When he stops: the session recomputes each touched hypothesis's status from its
 current-wording entries and resets `baselined` where a challenging entry landed; writes
-any question he raised into its corpus's list with `asked-by: promotion of <scope>`; makes
+any question he raised into its corpus's list, with the candidate that raised it; makes
 one commit naming the scope and the candidate ids; and appends to each affected round's
 `round.md` § Promotion what this session decided from that round (promoted by tag,
 declined with reasons, referee disagreements and rulings, anything noticed about the

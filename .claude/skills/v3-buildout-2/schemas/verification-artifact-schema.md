@@ -13,8 +13,8 @@ folder and ledger row.
 generator; models; harness version; the run folders and ledgers; what was not measured>
 
 ## Questions answered
-<the entries of questions/fimfiction-stories.md this round's items and predicates cover, by
-title; this list is what the tool derives a question's answered state from>
+<the questions this round's items and predicates cover, one per line, each cited as
+<corpus>/<slug>; this list is what the tool derives a question's answered state from>
 
 ## Counts
 <from tally.md: labels per class, flagged rows, malformed outputs; each table cites the

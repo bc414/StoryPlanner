@@ -53,8 +53,13 @@ is framed as above. The schema is written to the shape of schema files in
 `schemas/skill-schema.md`; its checker is built or amended under building-a-tool, its
 first run over the real files predicted before it runs; its Checks section lists what the
 checker holds, and the review's decisions name those check ids; the class's files already
-on disk are brought to the schema or the class starts again, decided in the review; and
-the first file written under the schema is reviewed before a second.
+on disk are brought to the schema or the class starts again, decided in the review; the
+first file written under the schema is reviewed before a second; and the class's readers
+and writers, every process and schema `map.md` lists as its consumers, have their
+instructions brought current in the same write: an activity file says what an entry
+carries in words and names no field, a schema that cites the class cites it in the form
+fixed here ahead of its own review, and a grep of the folder for the old names and
+citation forms closes the step.
 
 Two lints gate a revision. The first is structure: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and
@@ -70,7 +75,7 @@ done is every flagged unit named. A revision that only changes rows runs the fir
 alone.
 
 When the revision is done, the session writes the write-once revision note from the
-revision's section of `decisions.md`: what prompted it, the decisions, the activities and
+revision's section of `decisions.md`: what raised it, the decisions, the activities and
 processes changed by id from the tables' diff, the omissions list, what was deliberately
 not adopted, what is owed. One commit per landed
 step; the note lands with the last. A revision that replaces the skill wholesale, as
@@ -120,3 +125,6 @@ questions per unit and writes one block per unit under the unit's id.
 - Exempts one file from its class's check by its name, path or date instead of fixing the
   file to the class or changing the class by a decision; a fix to a file that is wrong
   under a right class is always allowed.
+- Writes a one-time instruction into an activity file or a schema; a triage, a migration
+  or any other bootstrap is executed from the decision that names it, through the process
+  the decision names, and the activity file says only what that process always does.

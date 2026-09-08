@@ -254,7 +254,7 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("- id: d-2026-09-08-1\n", "", "decisions.entry.fields")]
     [InlineData("- id: d-2026-09-08-1\n- date: 2026-09-08\n", "- date: 2026-09-08\n- id: d-2026-09-08-1\n", "decisions.entry.fields")]
     [InlineData("- not taken: <the options declined and why>\n", "", "decisions.entry.fields")]
-    [InlineData("- prompted by: <what raised it>\n", "- prompted-by: <what raised it>\n", "decisions.entry.fields")]
+    [InlineData("- raised by: <what raised it>\n", "- raised-by: <what raised it>\n", "decisions.entry.fields")]
     [InlineData("- date: 2026-09-08\n- supersedes: d-2026-09-07-1\n", "- supersedes: d-2026-09-07-1\n- date: 2026-09-08\n", "decisions.entry.fields")]
     [InlineData("\n  <a second paragraph", "\n<a second paragraph", "decisions.entry.fields")]
     [InlineData("- decision: <what was ruled>\n", "- decision: \n", "decisions.entry.fields")]
@@ -278,7 +278,7 @@ public class SchemaCheckersTests : IDisposable
         Assert.Contains(rule, Rules(Decisions.Check(Ctx(), path)));
     }
 
-    const string ThirdEntry = "\n### <a third ruling>\n\n- id: d-2026-09-09-1\n- date: 2026-09-09\n- prompted by: x\n- decision: y\n- not taken: z\n";
+    const string ThirdEntry = "\n### <a third ruling>\n\n- id: d-2026-09-09-1\n- date: 2026-09-09\n- raised by: x\n- decision: y\n- not taken: z\n";
 
     [Fact]
     public void An_entry_already_superseded_is_never_superseded_again()
@@ -312,6 +312,71 @@ public class SchemaCheckersTests : IDisposable
         var findings = Decisions.Check(Ctx(), path);
         var wrong = Assert.Single(findings, f => f.CheckId == "decisions.entry.id");
         Assert.Contains("d-2026-09-08-2", wrong.Message);
+    }
+
+    // ---- questions ----
+
+    /// <summary>A repo with the artifacts table and two hypothesis files, so hypothesis ids resolve; the list at its class's path.</summary>
+    static (MapFixture Fixture, CheckContext Ctx, string Path) QuestionList(string text)
+    {
+        var f = new MapFixture().WithStateTree();
+        Directory.CreateDirectory(Path.Combine(f.RepoRoot, ".git"));
+        var path = f.TreePath("docs", "v3-framework", "questions", "own-fiction.md");
+        File.WriteAllText(path, text);
+        var ctx = new CheckContext(f.RepoRoot, f.SkillFolder, new HashSet<string>(StringComparer.Ordinal) { "own-fiction", "analysis-corpus" });
+        return (f, ctx, path);
+    }
+
+    [Fact]
+    public void The_question_example_passes_and_reads_its_entries()
+    {
+        var (f, ctx, path) = QuestionList(SchemaExamples.Block("question-entry-schema"));
+        using (f)
+        {
+            var (entries, findings) = Questions.Read(ctx, path);
+            Assert.Empty(Rules(findings));
+            Assert.Equal(["heavy-dt-two-classes", "narrator-register-outside-giyc"], entries.Select(e => e.Slug).ToArray());
+            Assert.Equal(["031", "032"], entries[0].Hypotheses.ToArray());
+            Assert.False(entries[0].Withdrawn);
+            Assert.True(entries[1].Withdrawn);
+            Assert.NotNull(SchemaCheckers.For(WellKnown.QuestionList));
+            Assert.Contains(WellKnown.QuestionList, SchemaCheckers.CheckedIds);
+        }
+    }
+
+    [Theory]
+    [InlineData("# own-fiction — questions\n", "# own-fiction\n", "question.title")]
+    [InlineData("### heavy-dt-two-classes\n", "### Heavy-DT\n", "question.slug")]
+    [InlineData("### narrator-register-outside-giyc\n", "### heavy-dt-two-classes\n", "question.slug")]
+    [InlineData("- question: <the question, in Brian's words>\n- suggested test", "- suggested test", "question.entry.fields")]
+    [InlineData("- raised by: recall", "- asked-by: recall", "question.entry.fields")]
+    [InlineData("- date: 2026-09-07\n- hypotheses: 031 032\n", "- hypotheses: 031 032\n- date: 2026-09-07\n", "question.entry.fields")]
+    [InlineData("- suggested test: <a naive note on how it might be tested>\n", "- suggested test: <a naive note on how it might be tested>\nA bare line.\n", "question.entry.fields")]
+    [InlineData("# own-fiction — questions\n", "# own-fiction — questions\n\nA head paragraph.\n", "question.entry.fields")]
+    [InlineData("- date: 2026-09-08\n", "- date: 2026-9-8\n", "question.entry.date")]
+    [InlineData("- date: 2026-09-08\n", "- date: 2026-09-06\n", "question.entry.date")]
+    [InlineData("- hypotheses: 031 032\n", "- hypotheses: 031, 032\n", "question.hypotheses")]
+    [InlineData("- hypotheses: 031 032\n", "- hypotheses: 031 099\n", "question.hypotheses")]
+    [InlineData("- withdrawn: 2026-09-09 <why>\n", "- withdrawn: <why>\n", "question.withdrawn")]
+    [InlineData("- withdrawn: 2026-09-09 <why>\n", "- withdrawn: 2026-09-09 <why>\n- withdrawn: 2026-09-10 <again>\n", "question.withdrawn")]
+    [InlineData("- date: 2026-09-08\n", "- withdrawn: 2026-09-09 <early>\n- date: 2026-09-08\n", "question.withdrawn")]
+    public void A_question_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
+    {
+        var text = SchemaExamples.Block("question-entry-schema");
+        Assert.Contains(find, text);
+        var (f, ctx, path) = QuestionList(text.Replace(find, replace));
+        using (f) Assert.Contains(rule, Rules(Questions.Check(ctx, path)));
+    }
+
+    [Fact]
+    public void A_list_whose_corpus_is_not_in_CORPORA_fails_its_title()
+    {
+        var (f, ctx, path) = QuestionList(SchemaExamples.Block("question-entry-schema"));
+        using (f)
+        {
+            var strict = new CheckContext(f.RepoRoot, f.SkillFolder, new HashSet<string>(StringComparer.Ordinal) { "lineage" });
+            Assert.Contains("question.title", Rules(Questions.Check(strict, path)));
+        }
     }
 
     // ---- scope ----

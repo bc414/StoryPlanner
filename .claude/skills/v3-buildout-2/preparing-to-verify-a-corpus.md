@@ -49,7 +49,9 @@ narrowing it may do, and the query is recorded in the manifest.
 
 Written against the real items: what one item is,
 the inputs by reference to the agent row, the output contract, the classes, the criteria
-at the boundaries, tuned to over-flag. A new numbered file; the previous version, if
+at the boundaries, tuned to over-flag. A question's suggested test is a naive starting
+point and never a criterion: the criteria are authored against the items in front of
+Brian, and a suggested test is never carried into the codebook unexamined. A new numbered file; the previous version, if
 any, stays on disk. With it, the generator that writes one job per item with the output
 contract's markers, and the tallier that reduces results by its classes.
 

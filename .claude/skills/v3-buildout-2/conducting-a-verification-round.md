@@ -36,7 +36,7 @@ the class the codebook reserves for that, never left blank.
 
 The session writes `docs/v3-framework/<study>/round.md`: the method (codebook id and
 hash, calibration, itemizer and item count, generator, models, harness, run
-folders and ledgers, what was not measured); the questions answered, by title, being
+folders and ledgers, what was not measured); the questions answered, each cited by id, being
 those whose predicates the codebook froze and whose items the run covered; the counts
 from `tally.md`, each table citing its tallier and run. Per-item results are cited, not
 copied. Where the tally shows the codebook wanting — a class the items keep falling
