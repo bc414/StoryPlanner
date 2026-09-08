@@ -1,10 +1,10 @@
 # preparing-to-verify-a-corpus
 
-Enables conducting-a-verification-round and refereeing-a-candidate.
+Enables verifying-a-corpus and refereeing-a-candidate.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix what one item is and which questions the codebook will freeze; the plan approved is his go, and the study is registered; for a repeat round under an unchanged instrument this is the whole activity |
+| verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix what one item is and which questions the codebook will freeze; the plan approved is his go, and the study is registered; for a repeat verification under an unchanged instrument this is the whole activity |
 | itemize | session | itemizer dotnet | corpus itemizer | itemizer tool-source items items-manifest | specified | Build or pick the itemizer with tests, run it once; the items and their manifest |
 | author-codebook | hitl | | question-list items codebook | codebook generator tallier | specified | Write the codebook against real items: item definition, classes, criteria; the generator and tallier that encode its output contract; a new numbered version each time |
 | calibrate-run | session | generator runner | codebook items | jobs ledger run-page | specified | The sample, one job per item under the draft version's hash; the host's batch; this is the codebook's pilot |
@@ -17,23 +17,23 @@ The corpus is readable and CORPORA.md says how. Its question list holds open que
 whose answers a frozen predicate could give. For the referee, the study is `referee-<n>`,
 the corpus is `candidates`, the itemizer is the materialise step that refereeing-a-candidate
 reuses per run, the question is the pipeline's own (does this finding discriminate for this
-statement?), and the activity stops after `calibrate`: there is no round of its own.
+statement?), and the activity stops after `calibrate`: there is no verification of its own.
 
 ## verify-plan
 
 The session presents the open questions and the corpus's shape as CORPORA.md gives
 it, and asks Brian, batched four per call, what one item is for this corpus, which
 questions this codebook will freeze, and what the calibration sample should span. It
-writes the plan naming those, the itemizer to build or reuse, and what the round will not
+writes the plan naming those, the itemizer to build or reuse, and what the verification will not
 do; the plan is written against the chain's activity files, from
-conducting-a-verification-round to promoting-checked-candidates, read whole here rather
+verifying-a-corpus to promoting-checked-candidates, read whole here rather
 than each at its own start, since it names what each of them will do for this study.
 Brian approves. The session appends the study to `studies.md` with the date as
 his go, and writes any question he raised here into the list.
 
-For a repeat round under an unchanged instrument — the codebook's current version has a
-calibration and covers every question the round is to answer, and the items are
-current — this is the whole activity: the go is registered and conducting-a-verification-round
+For a repeat verification under an unchanged instrument — the codebook's current version
+has a calibration and covers every question the verification is to answer, and the items
+are current — this is the whole activity: the go is registered and verifying-a-corpus
 follows. Anything the instrument does not cover runs the rest.
 
 ## itemize

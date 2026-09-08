@@ -28,7 +28,7 @@ most once: `- withdrawn: YYYY-MM-DD <reason>`, the date exact and the reason fre
 
 An entry is cited everywhere as `<corpus>/<slug>`, one token. Open is an entry with no
 withdrawn line; frozen and answered are derived by the tool from a codebook's and a
-round's citations of the id; none of the three is written. Every writer is an hitl
+verification's citations of the id; none of the three is written. Every writer is an hitl
 process, since a question is Brian's, and the class is append: no line is ever edited.
 
 ## Example
@@ -47,7 +47,7 @@ process, since a question is Brian's, and the class is append: no line is ever e
 ### narrator-register-outside-giyc
 
 - date: 2026-09-08
-- raised by: recall, in the verify-plan for round-of-own-fiction-1
+- raised by: recall, in the verify-plan for verification-of-own-fiction-1
 - question: <the question, in Brian's words>
 - withdrawn: 2026-09-09 <why>
 ```

@@ -23,7 +23,7 @@ public sealed class MapFixture : IDisposable
     public const string SkillFile = "SKILL.md";
     public const string RefereeingFile = "refereeing-a-candidate.md";
     public const string PromotingFile = "promoting-checked-candidates.md";
-    public const string Study = "round-of-analysis-corpus-1";
+    public const string Study = "verification-of-analysis-corpus-1";
     public const string OpenQuestion = "does-the-dt-class-split";
 
     public static readonly string[] SchemaIds =
@@ -144,7 +144,7 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-01T10:00: why it exists
-            - evidence | 2026-09-14T15:20 | (round-of-analysis-corpus-1 C-001; codebook-1@abc123) [supporting]:
+            - evidence | 2026-09-14T15:20 | (verification-of-analysis-corpus-1 C-001; codebook-1@abc123) [supporting]:
               the finding
               Falsifier: the falsifier
 
@@ -165,13 +165,13 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-02T10:00: why
-            - evidence | 2026-09-15T10:00 | (round-of-analysis-corpus-1 C-003; codebook-1@abc123) [supporting]:
+            - evidence | 2026-09-15T10:00 | (verification-of-analysis-corpus-1 C-003; codebook-1@abc123) [supporting]:
               a finding
               Falsifier: f
 
             """);
 
-        File.WriteAllText(Path.Combine(docs, Study, "round.md"), $"""
+        File.WriteAllText(Path.Combine(docs, Study, "verification.md"), $"""
             # {Study}
 
             ## Method
@@ -257,10 +257,10 @@ public sealed class MapFixture : IDisposable
         | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Status and baselined |
         | question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions |
         | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study |
-        | candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One round's findings |
+        | candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
         | codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument |
         | calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
-        | verification-artifact | docs/v3-framework/<study>/round.md | append | | One round's method and counts |
+        | verification-artifact | docs/v3-framework/<study>/verification.md | append | | One verification's method and counts |
         | items | fanout/<study>/<run>/items/ | frozen | | The units one run judges |
         | results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |
 

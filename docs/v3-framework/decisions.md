@@ -604,3 +604,46 @@ rules names the old id in prose.
 - not taken: a one-time sentence in the activity file with a date, which is the special
   case by date the method refuses elsewhere; a bootstrap activity of its own, which the
   closed record retired with the roots table.
+
+### The question lists start empty; the founding pools are not triaged
+
+- id: d-2026-09-07-28
+- date: 2026-09-07
+- supersedes: d-2026-09-07-21
+- raised by: Brian, on the first pool entry of the triage, traced to a session's provenance
+  narrative that a later session had turned into a point-check: "Is the data too
+  corrupted? Once I set up the schema, should I just start over with a proper
+  exploration-of-fimfiction-stories using the new methodology, and not bother with any
+  triage?" The pools are session-authored specs from plans that mostly never ran; nothing
+  in them is on record as a question he asked.
+- decision: `docs/v3-framework/spec-pools/` stays closed as the founding record, never
+  written again. `questions/<corpus>.md` starts empty and is filled only by the standing
+  processes that write it. A pool question enters a list when Brian asks it, through
+  `ask`, with `carried from the founding pool` as its provenance. The first list a
+  process writes is the schema's first-instance review. The README's closing paragraph
+  says the lists are filled by the standing processes.
+- not taken: a triage of the recall entries only, which keeps the archaeology for the
+  entries the pool marks least reliably; keeping the triage as a deferred instruction,
+  which ages while the method moves.
+
+### A verification study is a verification, never a round; a run is one batch
+
+- id: d-2026-09-07-29
+- date: 2026-09-07
+- raised by: Brian, on the candidate schema's decision list: "Round is really ambiguous.
+  What is this referring to?", "So the equivalent is exploration-of?", "It should be
+  verification. This needs to be fixed first, and then come back to the candidates
+  question with the vocab sorted out so it doesn't leak any further." Round named the
+  study while run named one batch under the runner, and the process id `round-run` put
+  the two side by side; the exploratory chain has no such pair.
+- decision: The word round leaves the method. A study of the verification type is a
+  verification, id `verification-of-<corpus>-<n>`, the mirror of
+  `exploration-of-<corpus>`; its activity is `verifying-a-corpus`, the mirror of
+  exploring-a-corpus, with processes `verification-run`, `verification-judge` and
+  `verification-write`; its artifact is `docs/v3-framework/<study>/verification.md`, the
+  mirror of `leads.md`. A run is one batch under the runner, `fanout/<study>/<run>/`, on
+  either chain, and a study may have several. § Vocabulary defines verification and run
+  and no longer defines round. The registry checker's `registry.id` holds the new form.
+  The frozen record keeps the old word.
+- not taken: renaming only the study id and the file, which leaves `round-run`; renaming
+  without defining run, which leaves the second word of the collision where it was.

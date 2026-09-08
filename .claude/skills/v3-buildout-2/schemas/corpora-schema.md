@@ -15,6 +15,6 @@ Written by `build` when a corpus appears or a reader for it is built.
 - read by: files; a runner job takes a story as an input file
 
 Four stories in the favorites are outside the corpus: unread, abandoned, or dropped, named
-in `populations.md`. The analyses are the map to loci; a round's items are cut from the
+in `populations.md`. The analyses are the map to loci; a verification's items are cut from the
 texts, never from an analysis alone.
 ```

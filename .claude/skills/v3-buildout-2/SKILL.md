@@ -1,6 +1,6 @@
 ---
 name: v3-buildout-2
-description: "Methodology for the v3 narrative design framework buildout, revision 2 (in construction from 2026-09-04) — thirteen activities from baselining a hypothesis down to building a tool, each with its own companion file carrying its processes table and procedure; the strong-form evidence pipeline (candidates → referee → promotion) as activities; the split of verification into preparing (itemize, author, calibrate with Brian) and rounds (autonomous); the constitutional rules including the artifact-mutation rule. Load before any framework buildout work. Not yet the live skill: the live one is v3-buildout until the router swap."
+description: "Methodology for the v3 narrative design framework buildout, revision 2 (in construction from 2026-09-04) — thirteen activities from baselining a hypothesis down to building a tool, each with its own companion file carrying its processes table and procedure; the strong-form evidence pipeline (candidates → referee → promotion) as activities; the split of verification into preparing (itemize, author, calibrate with Brian) and verifications (autonomous); the constitutional rules including the artifact-mutation rule. Load before any framework buildout work. Not yet the live skill: the live one is v3-buildout until the router swap."
 ---
 
 # V3 framework buildout — revision 2 (in construction)
@@ -60,17 +60,17 @@ These hold in every session type. A companion file elaborates; none overrides.
    interesting, whether a flagged note is resolved, what is written to a `.storyplan`, and
    anything else CLAUDE.md reserves to him — that list is not exhaustive either.
 2. **Strong form: only verification produces evidence.** Exploration produces leads.
-   Evidence enters a hypothesis record only as a candidate written from a verification
-   round, checked by a fresh-context referee, and promoted in a session with Brian in the
+   Evidence enters a hypothesis record only as a candidate written from a verification,
+   checked by a fresh-context referee, and promoted in a session with Brian in the
    loop deciding each one. Nothing else writes to `docs/v3-framework/hypotheses/`.
-3. **Verification debt.** A corpus whose exploration has run but whose verification round
+3. **Verification debt.** A corpus whose exploration has run but whose verification
    has not is *unverified*: nothing cites its leads as evidence, and an exploration over the
    buildout's own outputs reads verified artifacts only. Questions flow freely between
    corpora; leads wait.
 4. **A codebook is an instrument.** Authored in a session with Brian, against real items,
    calibrated against his blind verdicts before its first batch, versioned by number and
    hash; every result cites the hash; a revision is a new version and a re-run, never a
-   re-label. A round that finds its codebook wanting stops and records it; the question
+   re-label. A verification that finds its codebook wanting stops and records it; the question
    is Brian's to raise, in the promotion session.
 5. **Explicit context for autonomous agents.** Any agent job — a slice reader, a
    classifier, an auditor, the referee, the calibration sample — runs from
@@ -105,8 +105,8 @@ every `session` and `hitl` process in it; an `agent` process is instructed by th
 instrument it reads, and a process that invokes the runner is governed by the
 `agent-runner` skill.
 
-**The Processes table**, the first table in each activity file, is one row per run. `mode`
-says whose run it is: `hitl`, a decision that is Brian's is made during it; `session`, he
+**The Processes table**, the first table in each activity file, is one row per process.
+`mode` says whose execution it is: `hitl`, a decision that is Brian's is made during it; `session`, he
 starts it and reads what it produced; `agent`, it runs under an inlined instrument with no
 repo context (rule 5). `reads` and `writes` are the artifact ids the run takes and leaves,
 and an `hitl` process writes the artifact that records the decision made in it;
@@ -145,13 +145,13 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 |---|---|---|
 | changing-the-planner-for-v3 | | Making the code changes for version 3 of the story planner from baselined hypotheses. The terminus: out of this skill's scope, owns no processes |
 | baselining-a-hypothesis | changing-the-planner-for-v3 | Brian's dated judgment, in his words in the record, that a hypothesis's evidence picture is sufficient to act on |
-| promoting-checked-candidates | baselining-a-hypothesis | Brian deciding the pending referee-diagnostic candidates he chooses, by hypothesis or by round, each after its cited source is read: promote verbatim or decline; one outcome line per candidate; one commit |
+| promoting-checked-candidates | baselining-a-hypothesis | Brian deciding the pending referee-diagnostic candidates he chooses, by hypothesis or by verification, each after its cited source is read: promote verbatim or decline; one outcome line per candidate; one commit |
 | iterating-a-statement | refereeing-a-candidate | Brian's rewording of a hypothesis on evidence: the statement edited, an iteration entry as the wording boundary, status recomputed, prior findings queued as iteration candidates |
 | minting-a-hypothesis | reviewing-leads | Creating a hypothesis file on novelty, testability and independence against the current set, in any hitl session, Brian rewriting or approving the statement, provenance in the created entry |
 | refereeing-a-candidate | promoting-checked-candidates | A blind agent given only the current statement and the candidate's finding writes a falsifier and classifies it diagnostic supporting, diagnostic challenging, or non-diagnostic |
-| writing-candidates-from-verification | refereeing-a-candidate | A session writes one candidate per finding a round claims bears on a hypothesis: target, finding, source locator, proposer with hash; append-only, no falsifier |
-| conducting-a-verification-round | writing-candidates-from-verification | One execution of a calibrated instrument over a corpus's items, on Brian's go: fan out through the runner, tally, write the artifact with per-item results and hashes |
-| preparing-to-verify-a-corpus | conducting-a-verification-round refereeing-a-candidate | Building the measuring instrument with Brian: itemize the corpus, author the codebook against real items, calibrate it on a sample he scores blind, hash it |
+| writing-candidates-from-verification | refereeing-a-candidate | A session writes one candidate per finding a verification claims bears on a hypothesis: target, finding, source locator, proposer with hash; append-only, no falsifier |
+| verifying-a-corpus | writing-candidates-from-verification | One execution of a calibrated instrument over a corpus's items, on Brian's go: fan out through the runner, tally, write the artifact with per-item results and hashes |
+| preparing-to-verify-a-corpus | verifying-a-corpus refereeing-a-candidate | Building the measuring instrument with Brian: itemize the corpus, author the codebook against real items, calibrate it on a sample he scores blind, hash it |
 | reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact: drill the bins, challenge leads against the source, and write the questions Brian raises into the corpus's question list |
 | exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: a pathfinder in one session, or slice readers through the runner, joined and binned; output a leads artifact |
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the card's question and the corpus's question list, the scale, the reading protocol and read-manifest if slices, the plan approved, the protocol piloted |
@@ -175,7 +175,7 @@ the check ids the hook reports and when each fails.
 
 Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPORA.md`;
 `<study>` a study's folder, which is its registry id (`exploration-of-<corpus>[-<n>]`
-or `round-of-<corpus>-<n>`), except that every `referee-<n>` shares the folder `referee`
+or `verification-of-<corpus>-<n>`), except that every `referee-<n>` shares the folder `referee`
 and the method's own supersession audit, a work outside the buildout's studies, runs
 under `skill-audits`; `<run>` a runner run folder, `<date>[-<slug>]`, one per batch
 execution; `<date>` an ISO date; `<Name>` a tool project's name; `NNN` a hypothesis id;
@@ -196,12 +196,12 @@ shared instrument and the iteration candidates.
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
 | decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
 | leads-artifact | docs/v3-framework/<study>/leads.md | append | [leads-artifact-schema](schemas/leads-artifact-schema.md) | What one exploration observed, organised by locus |
-| verification-artifact | docs/v3-framework/<study>/round.md | append | [verification-artifact-schema](schemas/verification-artifact-schema.md) | One round's method, questions answered, counts and promotion summary |
+| verification-artifact | docs/v3-framework/<study>/verification.md | append | [verification-artifact-schema](schemas/verification-artifact-schema.md) | One verification's method, questions answered, counts and promotion summary |
 | arm-key | docs/v3-framework/<study>/arm-key.md | frozen | [arm-key-schema](schemas/arm-key-schema.md) | The blinding key: arm label to condition and model; opened only after binning |
-| candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One round's findings claimed to bear on a hypothesis, with referee lines and outcomes |
+| candidates | fanout/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings claimed to bear on a hypothesis, with referee lines and outcomes |
 | iteration-candidates | fanout/referee/iterations/NNN-<date>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | Prior findings re-queued after a rewording of hypothesis NNN |
 | corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | [corpora-schema](schemas/corpora-schema.md) | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
-| codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument a round or the referee runs under |
+| codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument a verification or the referee runs under |
 | reading-protocol | fanout/<study>/protocol-N.md | succeeded | [reading-protocol-schema](schemas/reading-protocol-schema.md) | The instruction slice readers run under; piloted, not calibrated |
 | calibration | fanout/<study>/calibration-<date>.md | frozen | [calibration-schema](schemas/calibration-schema.md) | One codebook version's agreement with Brian's blind verdicts, and the rulings |
 | itemizer | fanout/<study>/itemize.* | in-place | | A script that produces a corpus's items; an itemizer that is a tool project is tool-source |
@@ -244,7 +244,10 @@ runner as an instrument and is read in full by any process that invokes it.
   `schemas/skill-schema.md` is this folder's own.
 - **governed file**: a file of an artifact class that has a schema; what a checker holds
   to that schema.
-- **round**: one execution of a calibrated codebook over a corpus's items; repeats.
+- **verification**: a study of the verification type, one execution of a calibrated
+  codebook over a corpus's items; a repeat under the same instrument is a new study.
+- **run**: one batch under the runner, `fanout/<study>/<run>/`, on either chain; a study
+  may have several, and a result is cited by its run's ledger row.
 - **item**: the unit one agent job judges, produced by an itemizer; a **slice** is the
   exploration's item, a partition of a corpus.
 - **arm**: one condition in an exploration that runs the same slices under several.
@@ -253,8 +256,8 @@ runner as an instrument and is read in full by any process that invokes it.
 - **predicate**: the test a codebook freezes for one question and a classifier applies
   to every item; never written in a question entry, whose `suggested test` is a note.
 - **result**: an agent's output for one item under an instrument.
-- **finding**: what a round observed that a session claims bears on a hypothesis; on a
-  candidate.
+- **finding**: what a verification observed that a session claims bears on a hypothesis;
+  on a candidate.
 - **falsifier**: what the finding would have been if the statement were false, written
   blind by the referee.
 - **evidence**: a promoted finding, in a hypothesis record.
@@ -267,7 +270,7 @@ activity. `docs/v3-framework/decisions.md` holds the method's decisions, written
 read only in revising-the-method; `docs/v3-framework/methodology-revision-N.md` is each
 revision's write-once note. `docs/v3-framework/` also holds what the buildout produces:
 `hypotheses/`, `questions/`, the leads and verification artifacts named
-`exploration-of-<corpus>` and `round-of-<corpus>-<n>`, the retired forward plans of
+`exploration-of-<corpus>` and `verification-of-<corpus>-<n>`, the retired forward plans of
 revision 1 (reference only), and `implementation-candidates.md` (codebase changes gated on
 baselined hypotheses — they enter the ordinary feature process, never this skill).
 `fanout/` holds what the runner takes in and puts out, one folder per work. There is no

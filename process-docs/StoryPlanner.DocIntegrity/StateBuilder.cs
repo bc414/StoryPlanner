@@ -12,7 +12,7 @@ namespace StoryPlanner.DocIntegrity;
 ///   placeholders as wildcards) and the furthest process in chain order whose study-scoped
 ///   writes all exist;
 /// - per corpus, the open questions, each with the calibrated codebook versions whose
-///   <c>## Questions</c> section names it and the rounds whose <c>round.md</c> answered it;
+///   <c>## Questions</c> section names it and the verifications whose <c>verification.md</c> answered it;
 /// - per hypothesis, the frontmatter status as authored, the status its entries after the last
 ///   <c>iteration</c> line imply, and the open questions naming it.
 ///
@@ -30,7 +30,7 @@ public static class StateBuilder
         ["preparing-to-explore-a-corpus", "exploring-a-corpus", "reviewing-leads"];
 
     static readonly string[] VerificationChain =
-        ["preparing-to-verify-a-corpus", "conducting-a-verification-round", "writing-candidates-from-verification",
+        ["preparing-to-verify-a-corpus", "verifying-a-corpus", "writing-candidates-from-verification",
          "refereeing-a-candidate", "promoting-checked-candidates"];
 
     static readonly string[] RefereeChain = ["preparing-to-verify-a-corpus"];
@@ -271,7 +271,7 @@ public static class StateBuilder
         if (note is not null) { sb.Append(note).Append("\n\n"); if (questions.Count == 0) return; }
 
         var codebooks = ReadCodebooks(repoRoot, doc);
-        var rounds = ReadRounds(repoRoot, doc);
+        var verifications = ReadVerifications(repoRoot, doc);
 
         foreach (var corpus in questions.Select(q => q.Corpus).Distinct(StringComparer.Ordinal).OrderBy(c => c, StringComparer.Ordinal))
         {
@@ -280,11 +280,11 @@ public static class StateBuilder
             sb.Append($"### {corpus}\n\n");
             sb.Append($"{open.Count} open, {mine.Count - open.Count} withdrawn.\n\n");
             if (open.Count == 0) continue;
-            sb.Append("| question | hypotheses | covered by (calibrated codebook) | answered by (round) |\n|---|---|---|---|\n");
+            sb.Append("| question | hypotheses | covered by (calibrated codebook) | answered by (verification) |\n|---|---|---|---|\n");
             foreach (var q in open)
             {
                 var covering = codebooks.Where(c => c.Calibrated && c.Questions.Contains(q.Cite, StringComparer.Ordinal)).Select(c => c.Cite).ToList();
-                var answering = rounds.Where(r => r.Questions.Contains(q.Cite, StringComparer.Ordinal)).Select(r => r.Study).ToList();
+                var answering = verifications.Where(v => v.Questions.Contains(q.Cite, StringComparer.Ordinal)).Select(v => v.Study).ToList();
                 sb.Append("| ").Append(q.Slug)
                   .Append(" | ").Append(q.Hypotheses.Count == 0 ? "—" : string.Join(" ", q.Hypotheses.Select(h => h.ToString("000"))))
                   .Append(" | ").Append(covering.Count == 0 ? "nothing" : string.Join(" ", covering))
@@ -328,13 +328,13 @@ public static class StateBuilder
         return result;
     }
 
-    sealed record Round(string Study, IReadOnlyList<string> Questions);
+    sealed record Verification(string Study, IReadOnlyList<string> Questions);
 
-    static IReadOnlyList<Round> ReadRounds(string repoRoot, SkillDocument doc)
+    static IReadOnlyList<Verification> ReadVerifications(string repoRoot, SkillDocument doc)
     {
         var row = doc.Artifact(WellKnown.VerificationArtifact);
         if (row is null || !ArtifactPath.TryParse(row.Path, out var path, out _)) return [];
-        var result = new List<Round>();
+        var result = new List<Verification>();
         foreach (var file in Matches(repoRoot, path!, null, null))
         {
             var questions = Section(File.ReadAllText(file), "Questions answered")
@@ -343,7 +343,7 @@ public static class StateBuilder
                 .Where(l => l.Length > 0)
                 .ToList();
             var study = Path.GetFileName(Path.GetDirectoryName(file)!)!;
-            result.Add(new Round(study, questions));
+            result.Add(new Verification(study, questions));
         }
         return result;
     }

@@ -102,7 +102,7 @@ fanout/
       ledger.jsonl                  one row per attempt — the row an artifact cites
       results/                      the agents' outputs, one per job
       attempts/<job>/attempt-N/     prompt.md and stream.jsonl — local only
-    referee/<run>/                  a referee run, under the round it serves
+    referee/<run>/                  a referee run, under the verification it serves
   referee/                          the referee's shared instrument only: codebook-N.md,
                                     calibration-<date>.md, its itemizer, and iterations/
   skill-audits/                     protocol.md, make-jobs.ps1, tally.ps1, one run per audit
@@ -111,10 +111,11 @@ fanout/
 
 No shared `codebooks/` or `protocols/` folder: an instrument lives with the study that
 authors and calibrates it, versioned by number, so a superseded version stays on disk and a
-result under its hash stays citable. The referee is the one instrument every round shares —
+result under its hash stays citable. The referee is the one instrument every verification shares —
 each candidate goes through the same codebook under the same hash — so `fanout/referee/`
-holds that instrument and nothing else, and each referee run sits under the round it serves.
-What a person writes afterwards (a round's `round.md`, an exploration's leads, an audit's
+holds that instrument and nothing else, and each referee run sits under the verification it
+serves. What a person writes afterwards (a verification's `verification.md`, an
+exploration's leads, an audit's
 adjudication) is a document in `docs/` that cites the run by ledger row.
 
 Every run carries `run.md`: small, authored, committed, rendered at the top of the run's

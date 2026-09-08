@@ -18,7 +18,7 @@ refinement, which would be an iteration).
 Brian's explicit statements always get the offer. A session's own reading may surface a
 proposal only when the three criteria hold, and the proposal cites the specific lead,
 entry or statement that raised it, never a synthesis. During an exploration's or a
-round's autonomous part the proposal is held for the review or the promotion session.
+verification's autonomous part the proposal is held for the review or the promotion session.
 
 Brian reviews the statement: rewrites it in his words, or approves. The session mints the
 file with the next unused id, `status: untested`, `baselined: false`, `created` today, and

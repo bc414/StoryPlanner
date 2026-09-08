@@ -18,7 +18,7 @@ the candidate belongs in an iteration candidates file, not here.
 
 ## referee-materialise
 
-One item per candidate in scope, from the round's candidates file and any iteration
+One item per candidate in scope, from the verification's candidates file and any iteration
 candidates for its targets. The item holds exactly two things: the target's current
 statement, copied from `## Hypothesis` with no frontmatter, no record and no other
 candidate; and the candidate's `finding` line. It holds no `source` line, no other

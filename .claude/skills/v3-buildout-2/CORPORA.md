@@ -12,7 +12,7 @@ sources answer. The corpora the MCP server reads carry their semantics in CLAUDE
 - read by: files; a runner job takes a story as an input file or an `addDirs` entry
 
 Four stories in the favorites are outside the corpus, unread, abandoned or dropped, named
-in `populations.md`. The analyses are the map to loci; a round's items are cut from the
+in `populations.md`. The analyses are the map to loci; a verification's items are cut from the
 texts, never from an analysis alone. The `analyze-story` skill's resolution order says
 `.txt`; the files are `.md`. Two analytical pipelines produced the analyses, cloud and 1M,
 and report 4.3 catalogues their calibration differences. Reader and author material on the

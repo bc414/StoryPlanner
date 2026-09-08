@@ -56,7 +56,7 @@ public class SchemaCheckersTests : IDisposable
 
     [Theory]
     [InlineData("  Falsifier: <verbatim from the referee's line>\n", "", "hypothesis.evidence.no-falsifier")]
-    [InlineData("(round-of-fimfiction-stories-1 C-014; codebook-3@3f9a1c) [supporting]", "(WU1.1) [supporting]", "hypothesis.evidence.citation")]
+    [InlineData("(verification-of-fimfiction-stories-1 C-014; codebook-3@3f9a1c) [supporting]", "(WU1.1) [supporting]", "hypothesis.evidence.citation")]
     [InlineData("status: evidenced", "status: untested", "hypothesis.status.mismatch")]
     [InlineData("created: 2026-09-01\n", "created: 2026-09-01\nnote: x\n", "hypothesis.frontmatter")]
     [InlineData("## Record", "## Records", "hypothesis.sections")]
@@ -152,7 +152,8 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("| exploration-of-v1-archive-2 | exploratory | v1-archive | 2026-09-21 |", new string[0])]
     [InlineData("| exploration-of-verified-artifacts | exploratory | verified-artifacts | 2026-09-21 |", new string[0])]
     [InlineData("| exploration-of-nowhere | exploratory | nowhere | 2026-09-21 |", new[] { "registry.corpus" })]
-    [InlineData("| round-of-v1-archive | verification | v1-archive | 2026-09-21 |", new[] { "registry.corpus" })]
+    [InlineData("| verification-of-v1-archive | verification | v1-archive | 2026-09-21 |", new[] { "registry.corpus" })]
+    [InlineData("| round-of-v1-archive-1 | verification | v1-archive | 2026-09-21 |", new[] { "registry.id" })]
     [InlineData("| exploration-of-v1-archive | verification | v1-archive | 2026-09-21 |", new[] { "registry.type" })]
     [InlineData("| exploration-of-v1-archive | exploratory | v1-archive | soon |", new[] { "registry.go" })]
     [InlineData("| exploration-of-v1-archive | exploratory | v1-archive | 2026-09-12 |", new[] { "registry.duplicate" })]

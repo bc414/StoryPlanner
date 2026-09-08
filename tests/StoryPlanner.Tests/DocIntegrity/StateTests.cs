@@ -8,7 +8,7 @@ namespace StoryPlanner.Tests;
 /// <summary>
 /// The <c>state</c> verb's three derivations, ruled 2026-09-05: where a study stands
 /// (artifacts present, furthest process whose study-scoped writes all exist), which open
-/// questions a calibrated codebook covers and a round answered, and each hypothesis's
+/// questions a calibrated codebook covers and a verification answered, and each hypothesis's
 /// authored status beside the one its entries imply. Absent inputs are said to be absent.
 /// </summary>
 public class StateTests
@@ -58,7 +58,7 @@ public class StateTests
     {
         Assert.Equal("referee", StateBuilder.StudyFolder("referee-1"));
         Assert.Equal("referee", StateBuilder.StudyFolder("referee-12"));
-        Assert.Equal("round-of-x-1", StateBuilder.StudyFolder("round-of-x-1"));
+        Assert.Equal("verification-of-x-1", StateBuilder.StudyFolder("verification-of-x-1"));
     }
 
     [Fact]
@@ -116,7 +116,7 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         File.AppendAllText(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md"),
-            "- evidence | 2026-09-17T10:00 | (round-of-analysis-corpus-1 C-007; codebook-1@abc) [challenging]:\n  a counter\n  Falsifier: f\n");
+            "- evidence | 2026-09-17T10:00 | (verification-of-analysis-corpus-1 C-007; codebook-1@abc) [challenging]:\n  a counter\n  Falsifier: f\n");
         Assert.Contains("| 031 | dt-classes | evidenced | false | challenged — MISMATCH |", Build(f));
     }
 

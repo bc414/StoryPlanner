@@ -19,7 +19,7 @@ flowchart TD
   mintingahypothesis["minting-a-hypothesis"]:::activity
   refereeingacandidate["refereeing-a-candidate"]:::activity
   writingcandidatesfromverification["writing-candidates-from-verification"]:::activity
-  conductingaverificationround["conducting-a-verification-round"]:::activity
+  verifyingacorpus["verifying-a-corpus"]:::activity
   preparingtoverifyacorpus["preparing-to-verify-a-corpus"]:::activity
   reviewingleads["reviewing-leads"]:::activity
   exploringacorpus["exploring-a-corpus"]:::activity
@@ -33,8 +33,8 @@ flowchart TD
   mintingahypothesis --> reviewingleads
   refereeingacandidate --> promotingcheckedcandidates
   writingcandidatesfromverification --> refereeingacandidate
-  conductingaverificationround --> writingcandidatesfromverification
-  preparingtoverifyacorpus --> conductingaverificationround
+  verifyingacorpus --> writingcandidatesfromverification
+  preparingtoverifyacorpus --> verifyingacorpus
   preparingtoverifyacorpus --> refereeingacandidate
   reviewingleads --> preparingtoverifyacorpus
   exploringacorpus --> reviewingleads
@@ -280,10 +280,10 @@ Derived from the tables, never authored:
 - **inputs**: question-list results tally-output verification-artifact
 - **outputs**: candidates
 - **instruments**: —
-- **enabled by**: conducting-a-verification-round
+- **enabled by**: verifying-a-corpus
 - **enables**: refereeing-a-candidate
 
-### conducting-a-verification-round
+### verifying-a-corpus
 
 ```mermaid
 flowchart LR
@@ -293,9 +293,9 @@ flowchart LR
   classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  roundrun["round-run<br/>session"]:::session
-  roundjudge(["round-judge<br/>agent"]):::agent
-  roundwrite["round-write<br/>session"]:::session
+  verificationrun["verification-run<br/>session"]:::session
+  verificationjudge(["verification-judge<br/>agent"]):::agent
+  verificationwrite["verification-write<br/>session"]:::session
   calibration[/"calibration"/]:::artifact
   codebook[/"codebook"/]:::artifact
   generator[/"generator"/]:::artifact
@@ -311,27 +311,27 @@ flowchart LR
   tallyoutput[/"tally-output"/]:::artifact
   verificationartifact[/"verification-artifact"/]:::artifact
 
-  studies --> roundrun
-  items --> roundrun
-  itemsmanifest --> roundrun
-  codebook --> roundrun
-  calibration --> roundrun
-  results --> roundrun
-  generator -.-> roundrun
-  tallier -.-> roundrun
-  roundrun --> jobs
-  roundrun --> ledger
-  roundrun --> tallyoutput
-  roundrun --> runpage
-  codebook --> roundjudge
-  items --> roundjudge
-  roundjudge --> results
-  results --> roundwrite
-  tallyoutput --> roundwrite
-  ledger --> roundwrite
-  runpage --> roundwrite
-  questionlist --> roundwrite
-  roundwrite --> verificationartifact
+  studies --> verificationrun
+  items --> verificationrun
+  itemsmanifest --> verificationrun
+  codebook --> verificationrun
+  calibration --> verificationrun
+  results --> verificationrun
+  generator -.-> verificationrun
+  tallier -.-> verificationrun
+  verificationrun --> jobs
+  verificationrun --> ledger
+  verificationrun --> tallyoutput
+  verificationrun --> runpage
+  codebook --> verificationjudge
+  items --> verificationjudge
+  verificationjudge --> results
+  results --> verificationwrite
+  tallyoutput --> verificationwrite
+  ledger --> verificationwrite
+  runpage --> verificationwrite
+  questionlist --> verificationwrite
+  verificationwrite --> verificationartifact
 ```
 
 Derived from the tables, never authored:
@@ -419,7 +419,7 @@ Derived from the tables, never authored:
 - **outputs**: calibration codebook generator itemizer items items-manifest jobs ledger question-list results run-page studies tallier tool-source
 - **instruments**: dotnet generator itemizer runner
 - **enabled by**: reviewing-leads building-a-tool revising-the-method
-- **enables**: conducting-a-verification-round refereeing-a-candidate
+- **enables**: verifying-a-corpus refereeing-a-candidate
 
 ### reviewing-leads
 
@@ -715,10 +715,10 @@ flowchart TD
   subgraph writingcandidatesfromverification["writing-candidates-from-verification"]
     writecandidates["write-candidates<br/>session"]:::session
   end
-  subgraph conductingaverificationround["conducting-a-verification-round"]
-    roundrun["round-run<br/>session"]:::session
-    roundjudge(["round-judge<br/>agent"]):::agent
-    roundwrite["round-write<br/>session"]:::session
+  subgraph verifyingacorpus["verifying-a-corpus"]
+    verificationrun["verification-run<br/>session"]:::session
+    verificationjudge(["verification-judge<br/>agent"]):::agent
+    verificationwrite["verification-write<br/>session"]:::session
   end
   subgraph preparingtoverifyacorpus["preparing-to-verify-a-corpus"]
     verifyplan{{"verify-plan<br/>hitl"}}:::hitl
@@ -849,27 +849,27 @@ flowchart TD
   verificationartifact --> writecandidates
   questionlist --> writecandidates
   writecandidates --> candidates
-  studies --> roundrun
-  items --> roundrun
-  itemsmanifest --> roundrun
-  codebook --> roundrun
-  calibration --> roundrun
-  results --> roundrun
-  generator -.-> roundrun
-  tallier -.-> roundrun
-  roundrun --> jobs
-  roundrun --> ledger
-  roundrun --> tallyoutput
-  roundrun --> runpage
-  codebook --> roundjudge
-  items --> roundjudge
-  roundjudge --> results
-  results --> roundwrite
-  tallyoutput --> roundwrite
-  ledger --> roundwrite
-  runpage --> roundwrite
-  questionlist --> roundwrite
-  roundwrite --> verificationartifact
+  studies --> verificationrun
+  items --> verificationrun
+  itemsmanifest --> verificationrun
+  codebook --> verificationrun
+  calibration --> verificationrun
+  results --> verificationrun
+  generator -.-> verificationrun
+  tallier -.-> verificationrun
+  verificationrun --> jobs
+  verificationrun --> ledger
+  verificationrun --> tallyoutput
+  verificationrun --> runpage
+  codebook --> verificationjudge
+  items --> verificationjudge
+  verificationjudge --> results
+  results --> verificationwrite
+  tallyoutput --> verificationwrite
+  ledger --> verificationwrite
+  runpage --> verificationwrite
+  questionlist --> verificationwrite
+  verificationwrite --> verificationartifact
   questionlist --> verifyplan
   corpora --> verifyplan
   corpus --> verifyplan
@@ -1003,30 +1003,30 @@ flowchart TD
 | hypothesis-record | baseline promote iterate mint | baseline promote iterate | — |
 | hypothesis-status | baseline promote iterate mint | baseline | — |
 | hypothesis-index | mint | mint ask | — |
-| question-list | baseline promote verify-plan review-leads ask explore-plan | write-candidates round-write verify-plan author-codebook ask pathfind join-and-bin explore-plan author-protocol | — |
-| studies | verify-plan explore-plan | round-run slice-run | — |
+| question-list | baseline promote verify-plan review-leads ask explore-plan | write-candidates verification-write verify-plan author-codebook ask pathfind join-and-bin explore-plan author-protocol | — |
+| studies | verify-plan explore-plan | verification-run slice-run | — |
 | state | — | verify-plan explore-plan revise | — |
 | revision-note | revise | revise | — |
 | decisions | revise | revise | — |
 | leads-artifact | review-leads pathfind join-and-bin | review-leads | — |
-| verification-artifact | promote round-write | write-candidates | — |
+| verification-artifact | promote verification-write | write-candidates | — |
 | arm-key | explore-plan | review-leads | — |
 | candidates | promote referee-append write-candidates | promote referee-materialise referee-append | — |
 | iteration-candidates | promote iterate referee-append | promote referee-materialise referee-append | — |
 | corpora | build | verify-plan explore-plan build | — |
-| codebook | author-codebook calibrate | referee-materialise referee-run referee-judge round-run round-judge author-codebook calibrate-run calibrate-judge calibrate | — |
+| codebook | author-codebook calibrate | referee-materialise referee-run referee-judge verification-run verification-judge author-codebook calibrate-run calibrate-judge calibrate | — |
 | reading-protocol | author-protocol | slice-run slice-read author-protocol pilot-run pilot-read | — |
-| calibration | calibrate | referee-run round-run | — |
+| calibration | calibrate | referee-run verification-run | — |
 | itemizer | itemize | itemize | referee-materialise itemize slice |
-| generator | author-codebook author-protocol | — | referee-materialise round-run calibrate-run slice-run pilot-run audit-run |
-| tallier | author-codebook | — | referee-run round-run audit-run |
-| items | referee-materialise itemize slice audit-run | referee-run referee-judge round-run round-judge author-codebook calibrate-run calibrate-judge calibrate slice-run slice-read author-protocol pilot-run pilot-read audit-judge | — |
-| items-manifest | referee-materialise itemize slice audit-run | round-run slice-run | — |
-| jobs | referee-materialise round-run calibrate-run slice-run pilot-run audit-run | referee-run | — |
-| ledger | referee-run round-run calibrate-run slice-run pilot-run audit-run | round-write | — |
-| results | referee-judge round-judge calibrate-judge slice-read pilot-read audit-judge | referee-run referee-append write-candidates round-run round-write calibrate join-and-bin pilot-run revise | — |
-| tally-output | referee-run round-run audit-run | referee-append write-candidates round-write revise | — |
-| run-page | referee-run round-run calibrate-run slice-run pilot-run audit-run | round-write join-and-bin | — |
+| generator | author-codebook author-protocol | — | referee-materialise verification-run calibrate-run slice-run pilot-run audit-run |
+| tallier | author-codebook | — | referee-run verification-run audit-run |
+| items | referee-materialise itemize slice audit-run | referee-run referee-judge verification-run verification-judge author-codebook calibrate-run calibrate-judge calibrate slice-run slice-read author-protocol pilot-run pilot-read audit-judge | — |
+| items-manifest | referee-materialise itemize slice audit-run | verification-run slice-run | — |
+| jobs | referee-materialise verification-run calibrate-run slice-run pilot-run audit-run | referee-run | — |
+| ledger | referee-run verification-run calibrate-run slice-run pilot-run audit-run | verification-write | — |
+| results | referee-judge verification-judge calibrate-judge slice-read pilot-read audit-judge | referee-run referee-append write-candidates verification-run verification-write calibrate join-and-bin pilot-run revise | — |
+| tally-output | referee-run verification-run audit-run | referee-append write-candidates verification-write revise | — |
+| run-page | referee-run verification-run calibrate-run slice-run pilot-run audit-run | verification-write join-and-bin | — |
 | skill | revise | verify-plan explore-plan revise audit-run audit-judge | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |

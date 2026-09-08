@@ -34,4 +34,4 @@ the source showed>
 ```
 
 A leads artifact carries no candidates, no findings and no evidence, and is cited as leads
-only, by any later session, until a round on its corpus has run.
+only, by any later session, until a verification of its corpus has run.

@@ -4,17 +4,18 @@ Enables refereeing-a-candidate.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| write-candidates | session | | results tally-output verification-artifact question-list | candidates | specified | One candidate per finding the round claims bears on a hypothesis: target, finding as one citable unit, source locator, proposer with hash |
+| write-candidates | session | | results tally-output verification-artifact question-list | candidates | specified | One candidate per finding the verification claims bears on a hypothesis: target, finding as one citable unit, source locator, proposer with hash |
 
 ## Preconditions
 
-The round's `round.md` exists with its method and counts, and its `tally.md` names the
-flagged rows. The round's codebook version has a calibration at its hash.
+The verification's `verification.md` exists with its method and counts, and each run's
+`tally.md` names the flagged rows. The verification's codebook version has a calibration
+at its hash.
 
 ## write-candidates
 
-The session reads the round's results through the tally, never the raw batch alone, and
-the questions the round answered. For each result whose label bears on a hypothesis named
+The session reads the verification's results through the tally, never the raw batch
+alone, and the questions the verification answered. For each result whose label bears on a hypothesis named
 by one of those questions, it writes one candidate into `fanout/<study>/candidates.md`:
 `target` the hypothesis id, `finding` one citable unit (what was observed, with the ids,
 counts or passages the result carries), `source` the locator the item came from, and
@@ -23,7 +24,7 @@ bearing on two hypotheses is two candidates. A finding is stated as observed, no
 it means for the hypothesis; the referee decides that.
 
 Flagged rows are not candidates. A result the tally flagged as malformed or outside the
-codebook's classes is left out and named in `round.md` § Corrections.
+codebook's classes is left out and named in `verification.md` § Corrections.
 
 ## Never
 

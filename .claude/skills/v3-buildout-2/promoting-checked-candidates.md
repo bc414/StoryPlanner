@@ -4,7 +4,7 @@ Enables baselining-a-hypothesis.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| promote | hitl | git | candidates iteration-candidates corpus hypothesis-statement hypothesis-record | hypothesis-record hypothesis-status candidates iteration-candidates question-list verification-artifact | specified | Brian decides the pending diagnostic candidates he chooses, by hypothesis or by round, each after its source is read; entries and outcomes written; status recomputed; one commit |
+| promote | hitl | git | candidates iteration-candidates corpus hypothesis-statement hypothesis-record | hypothesis-record hypothesis-status candidates iteration-candidates question-list verification-artifact | specified | Brian decides the pending diagnostic candidates he chooses, by hypothesis or by verification, each after its source is read; entries and outcomes written; status recomputed; one commit |
 
 ## Preconditions
 
@@ -13,8 +13,9 @@ codebook hash that has a calibration, and no `outcome` line.
 
 ## promote
 
-Brian names the scope: a hypothesis, or a round. The session gathers every diagnostic
-candidate in that scope with no outcome line, from the rounds' candidates files and the
+Brian names the scope: a hypothesis, or a verification. The session gathers every
+diagnostic candidate in that scope with no outcome line, from the verifications'
+candidates files and the
 iteration candidates, and opens each target's statement and record. It lists them by
 target with their verdicts and falsifiers, and shows the non-diagnostic ones beside them
 for context; those get no further line.
@@ -39,8 +40,8 @@ same session under its own file; nothing here rewords.
 When he stops: the session recomputes each touched hypothesis's status from its
 current-wording entries and resets `baselined` where a challenging entry landed; writes
 any question he raised into its corpus's list, with the candidate that raised it; makes
-one commit naming the scope and the candidate ids; and appends to each affected round's
-`round.md` § Promotion what this session decided from that round (promoted by tag,
+one commit naming the scope and the candidate ids; and appends to each affected verification's
+`verification.md` § Promotion what this session decided from it (promoted by tag,
 declined with reasons, referee disagreements and rulings, anything noticed about the
 pipeline's own behaviour).
 

@@ -24,7 +24,7 @@ wording; recomputes `status` from the entries bound to the new wording, which is
 each prior `evidence` entry's finding and source into
 `fanout/referee/iterations/NNN-<date>/candidates.md` as a candidate against the new
 wording, `proposed-by` citing the original study and candidate. Those are refereed and
-promoted in the next round that touches the hypothesis; nothing is re-refereed now.
+promoted in the next verification that touches the hypothesis; nothing is re-refereed now.
 
 For a merge or split, the same steps run in each affected file: the surviving or new
 files are minted (minting-a-hypothesis), each old file gets its iteration entry naming

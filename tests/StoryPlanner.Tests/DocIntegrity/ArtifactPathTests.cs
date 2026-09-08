@@ -103,9 +103,9 @@ public class ArtifactPathTests
     [Fact]
     public void The_regex_binds_the_study_and_leaves_the_rest_as_wildcards()
     {
-        var r = Parse("fanout/<study>/codebook-N.md").ToRegex("round-of-x-1");
-        Assert.Matches(r, "fanout/round-of-x-1/codebook-2.md");
-        Assert.DoesNotMatch(r, "fanout/round-of-x-1/codebook-a.md");
+        var r = Parse("fanout/<study>/codebook-N.md").ToRegex("verification-of-x-1");
+        Assert.Matches(r, "fanout/verification-of-x-1/codebook-2.md");
+        Assert.DoesNotMatch(r, "fanout/verification-of-x-1/codebook-a.md");
         Assert.DoesNotMatch(r, "fanout/other/codebook-1.md");
     }
 
@@ -134,7 +134,7 @@ public class ArtifactPathTests
     public void The_fixed_prefix_is_the_directory_to_enumerate()
     {
         var p = Parse("fanout/<study>/<run>/items/");
-        Assert.Equal("fanout/round-of-x-1", p.FixedPrefix("round-of-x-1"));
+        Assert.Equal("fanout/verification-of-x-1", p.FixedPrefix("verification-of-x-1"));
         Assert.Equal("fanout", p.FixedPrefix());
         Assert.Equal("docs/v3-framework", Parse("docs/v3-framework/studies.md").FixedPrefix());
     }

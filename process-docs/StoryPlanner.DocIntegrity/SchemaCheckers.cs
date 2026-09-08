@@ -318,15 +318,15 @@ public static class Registry
                 expectedType = "exploratory";
                 idCorpus = CorpusOf(id["exploration-of-".Length..], known, ordinalRequired: false);
             }
-            else if (id.StartsWith("round-of-", StringComparison.Ordinal))
+            else if (id.StartsWith("verification-of-", StringComparison.Ordinal))
             {
                 expectedType = "verification";
-                idCorpus = CorpusOf(id["round-of-".Length..], known, ordinalRequired: true);
+                idCorpus = CorpusOf(id["verification-of-".Length..], known, ordinalRequired: true);
             }
             else
             {
                 findings.Add(Finding.Fail("registry.id", file,
-                    $"line {row.Line}: '{id}' is exploration-of-<corpus>[-n], round-of-<corpus>-n or referee-n"));
+                    $"line {row.Line}: '{id}' is exploration-of-<corpus>[-n], verification-of-<corpus>-n or referee-n"));
                 continue;
             }
 
