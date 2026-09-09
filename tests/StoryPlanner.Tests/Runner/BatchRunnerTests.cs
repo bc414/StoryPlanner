@@ -48,6 +48,7 @@ public class BatchRunnerTests
         Assert.Contains("--system-prompt-file", req.Args);
         Assert.Contains("--json-schema", req.Args);
         Assert.Contains("--no-session-persistence", req.Args);
+        Assert.Contains("--include-partial-messages", req.Args);     // the answer is never written in silence (idle limit)
         Assert.Contains("--restricted", req.Args);
         Assert.Equal("", req.Args[req.Args.ToList().IndexOf("--tools") + 1]);
         Assert.Equal("high", req.Args[req.Args.ToList().IndexOf("--effort") + 1]);

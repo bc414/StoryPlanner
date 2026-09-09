@@ -95,6 +95,11 @@ public sealed class Batch
             "--no-session-persistence",
             "--output-format", "stream-json",
             "--verbose",
+            // Without this the answer itself is written in silence: the thinking_tokens lines
+            // stop when thinking ends and the finished message is the next line, minutes later
+            // (probe of 2026-09-09: 112 s of nothing for a 9,800-token answer). With it the
+            // harness writes a delta line every few tokens, so the idle limit measures silence.
+            "--include-partial-messages",
             "--permission-mode", "auto",
             "--restricted",
             "--disable-slash-commands",

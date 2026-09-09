@@ -68,8 +68,9 @@ One execution of the CLI in print mode, with exactly these inputs:
 - **no tools** (`--tools ""`) unless the definition's `tools` line names some, then exactly
   those and `--allowed-tools` the same; `--restricted`, `--disable-slash-commands`,
   `--strict-mcp-config` always; `--mcp-config` only when the definition's `mcp` line names a
-  config; `--no-session-persistence`; `--output-format stream-json --verbose` so the host can
-  tee each event as it happens.
+  config; `--no-session-persistence`; `--output-format stream-json --verbose
+  --include-partial-messages` so the host can tee each event as it happens, the answer's own
+  deltas included (see the idle limit below).
 
 Whatever a study needs the agent to hold beyond the item — a whole skill folder for an
 audit, an excerpt for a reader — is in the directions body or in the item, put there by the
@@ -176,7 +177,12 @@ idle, it waits for the reset and the page says so. The utilization figure is wha
 last cached in `~/.claude.json` — not a live query — and the page shows how old it is.
 `idleMinutes` is the one limit on a call: a child whose stream has been silent that long is
 killed, whole process tree, and its call recorded `idle`. There is no absolute time limit — a
-long read that keeps streaming is long, not stuck.
+long read that keeps streaming is long, not stuck. Silence means silence because the call
+asks for partial messages: without them the `thinking_tokens` lines stop when thinking ends
+and the whole answer arrives as one line minutes later (a 2026-09-09 probe measured 112
+seconds of nothing for a 9,800-token answer, so a long enough answer under a slow enough
+model would have been killed mid-write); with them the harness writes a delta every few
+tokens for as long as the model writes.
 
 **Harness control, never experiment control.** The page and its routes offer: pause and
 resume launching, stop after in-flight, cancel one running call (recorded `cancelled`, exit
@@ -227,9 +233,11 @@ with a raw toggle, refreshed twice a second while the call runs; the same reader
 finished call. Observation only — print mode takes no input after the message, so a call
 that goes wrong is cancelled and called again by the next execution, never steered. Extended
 thinking's text is not in the stream; since harness 2.1.258 its token count is, one
-`system/thinking_tokens` event per step, which the page collapses to one running line. A
-`rate_limit_event` is the harness's own reading of the two usage windows at that moment — the
-one live figure the usage bar cannot get.
+`system/thinking_tokens` event per step, which the page collapses to one running line. The
+partial-message deltas (`stream_event`, one per few tokens of thinking, text or the answer's
+JSON) collapse the same way, to one `writing` line naming what was written and the delta
+count. A `rate_limit_event` is the harness's own reading of the two usage windows at that
+moment — the one live figure the usage bar cannot get.
 
 ## Invariants the runner enforces (and why)
 

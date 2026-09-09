@@ -104,6 +104,37 @@ public class StreamEventsTests
         finally { File.Delete(path); }
     }
 
+    /// <summary>
+    /// The 2026-09-09 probe: without <c>--include-partial-messages</c> the answer to a call was
+    /// written in 112 seconds of silence, since the thinking_tokens lines stop when thinking
+    /// ends. With it the harness writes a delta line every few tokens (1,011 for one answer),
+    /// which is what keeps the idle limit a measure of silence. The page shows the run as one line.
+    /// </summary>
+    [Fact]
+    public void Partial_message_deltas_are_writing_events_and_a_run_of_them_collapses_to_one_line()
+    {
+        var thinking = StreamEvents.Parse("""{"type":"stream_event","event":{"type":"content_block_delta","index":0,"delta":{"type":"thinking_delta","thinking":"Let me"}},"session_id":"s"}""");
+        Assert.Equal("writing", thinking.Kind);
+        Assert.Equal("thinking", thinking.Text);
+        var json = StreamEvents.Parse("""{"type":"stream_event","event":{"type":"content_block_delta","index":1,"delta":{"type":"input_json_delta","partial_json":"{\"text\":\"The"}},"session_id":"s"}""");
+        Assert.Equal("the answer", json.Text);
+        var start = StreamEvents.Parse("""{"type":"stream_event","event":{"type":"message_start","message":{"model":"claude-sonnet-5"}},"session_id":"s"}""");
+        Assert.Equal("writing", start.Kind);
+        Assert.Equal("", start.Text);
+
+        var collapsed = StreamEvents.Collapse(
+        [
+            StreamEvents.Parse(Init258),
+            start, thinking, thinking, thinking,
+            StreamEvents.Parse(Thinking258),
+            json, json,
+            StreamEvents.Parse("""{"type":"assistant","message":{"content":[{"type":"text","text":"done"}]}}"""),
+        ]);
+        Assert.Equal(["init", "writing", "thinking", "writing", "text"], collapsed.Select(e => e.Kind));
+        Assert.Equal("thinking — 4 delta(s)", collapsed[1].Text);
+        Assert.Equal("the answer — 2 delta(s)", collapsed[3].Text);
+    }
+
     [Fact]
     public void The_result_event_yields_the_totals_and_the_structured_answer_in_every_shape_the_child_has_had()
     {
