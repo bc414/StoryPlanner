@@ -1,29 +1,26 @@
 # leads-artifact-schema
 
-`docs/v3-framework/<study>/leads.md`, beside the arm key and any renders the exploration
-produced. Written once by exploring-a-corpus; reviewing-leads appends dated correction
-sections and never edits a lead in place. Later sessions cite it and never edit it.
+`docs/v3-framework/studies/<study>/leads.md`, at the top of the study beside its
+directions. Written once by exploring-a-corpus from the batch's results; reviewing-leads
+appends dated correction sections and never edits a lead in place. Later sessions cite it
+and never edit it.
 
 ```markdown
 # exploration-of-v1-archive — leads
 
 ## Method
-<scale: pathfinder or slices; the reading protocol id and hash; arms and their neutral
-labels if any; models; harness version; the run folder; what was deliberately not measured —
-one arm means no disagreement count>
+<the directions version and body hash; the itemizer and what one item was, the corpus
+whole or a slice; the model and effort; the harness version; the batch; what was
+deliberately not measured>
 
 ## Questions in view
-<the questions this exploration read with, one per line, each cited as <corpus>/<slug>>
+<the questions this exploration read with, one per line, each cited as <corpus>/<slug>,
+from the directions' frontmatter>
 
 ## Leads
 <organised by what was observed — by subject, pattern, story — never by hypothesis id. Each
 lead: what was seen and what it was seen in, in words, and nothing about what it means
 for any hypothesis>
-
-## Bins
-<slices with arms only: disagreements between arms sorted into named bins before any was
-investigated; the count per bin is the finding; which bins were drilled and the adjudicated
-result of each, after the arm key was opened>
 
 ## Proposed questions
 <what the leads raise, as proposals; none is a question until Brian writes it into the

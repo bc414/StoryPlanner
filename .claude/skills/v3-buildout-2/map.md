@@ -95,27 +95,26 @@ flowchart LR
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   hypothesisstatus[/"hypothesis-status"/]:::artifact
-  iterationcandidates[/"iteration-candidates"/]:::artifact
+  index[/"index"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   verificationartifact[/"verification-artifact"/]:::artifact
 
   candidates --> promote
-  iterationcandidates --> promote
+  index --> promote
   corpus --> promote
   hypothesisstatement --> promote
   hypothesisrecord --> promote
   promote --> hypothesisrecord
   promote --> hypothesisstatus
   promote --> candidates
-  promote --> iterationcandidates
   promote --> questionlist
   promote --> verificationartifact
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus hypothesis-statement
-- **outputs**: candidates hypothesis-record hypothesis-status iteration-candidates question-list verification-artifact
+- **inputs**: corpus hypothesis-statement index
+- **outputs**: candidates hypothesis-record hypothesis-status question-list verification-artifact
 - **instruments**: git
 - **enabled by**: refereeing-a-candidate
 - **enables**: baselining-a-hypothesis
@@ -131,23 +130,23 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   iterate{{"iterate<br/>hitl"}}:::hitl
+  candidates[/"candidates"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   hypothesisstatus[/"hypothesis-status"/]:::artifact
-  iterationcandidates[/"iteration-candidates"/]:::artifact
 
   hypothesisstatement --> iterate
   hypothesisrecord --> iterate
   iterate --> hypothesisstatement
   iterate --> hypothesisrecord
   iterate --> hypothesisstatus
-  iterate --> iterationcandidates
+  iterate --> candidates
 ```
 
 Derived from the tables, never authored:
 
 - **inputs**: —
-- **outputs**: hypothesis-record hypothesis-statement hypothesis-status iteration-candidates
+- **outputs**: candidates hypothesis-record hypothesis-statement hypothesis-status
 - **instruments**: git
 - **enabled by**: —
 - **enables**: refereeing-a-candidate
@@ -199,55 +198,43 @@ flowchart LR
   refereejudge(["referee-judge<br/>agent"]):::agent
   refereeappend["referee-append<br/>session"]:::session
   calibration[/"calibration"/]:::artifact
+  calls[/"calls"/]:::artifact
   candidates[/"candidates"/]:::artifact
-  codebook[/"codebook"/]:::artifact
-  generator[/"generator"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
-  itemizer[/"itemizer"/]:::artifact
+  index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  iterationcandidates[/"iteration-candidates"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  ledger[/"ledger"/]:::artifact
   results[/"results"/]:::artifact
-  runpage[/"run-page"/]:::artifact
-  tallier[/"tallier"/]:::artifact
-  tallyoutput[/"tally-output"/]:::artifact
+  tally[/"tally"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
 
   hypothesisstatement --> refereematerialise
   candidates --> refereematerialise
-  iterationcandidates --> refereematerialise
-  codebook --> refereematerialise
-  itemizer -.-> refereematerialise
-  generator -.-> refereematerialise
+  directions --> refereematerialise
+  calibration --> refereematerialise
+  toolsource -.-> refereematerialise
+  refereematerialise --> definition
+  refereematerialise --> index
   refereematerialise --> items
-  refereematerialise --> itemsmanifest
-  refereematerialise --> jobs
-  jobs --> refereerun
-  codebook --> refereerun
-  calibration --> refereerun
-  items --> refereerun
+  definition --> refereerun
   results --> refereerun
-  tallier -.-> refereerun
-  refereerun --> ledger
-  refereerun --> tallyoutput
-  refereerun --> runpage
-  codebook --> refereejudge
+  refereerun --> calls
+  refereerun --> tally
+  directions --> refereejudge
   items --> refereejudge
   refereejudge --> results
   results --> refereeappend
-  tallyoutput --> refereeappend
+  tally --> refereeappend
   candidates --> refereeappend
-  iterationcandidates --> refereeappend
   refereeappend --> candidates
-  refereeappend --> iterationcandidates
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: calibration codebook generator hypothesis-statement itemizer tallier
-- **outputs**: candidates items items-manifest iteration-candidates jobs ledger results run-page tally-output
-- **instruments**: generator itemizer runner tallier
+- **inputs**: calibration directions hypothesis-statement tool-source
+- **outputs**: calls candidates definition index items results tally
+- **instruments**: runner tool-source
 - **enabled by**: iterating-a-statement writing-candidates-from-verification preparing-to-verify-a-corpus
 - **enables**: promoting-checked-candidates
 
@@ -263,13 +250,15 @@ flowchart LR
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   writecandidates["write-candidates<br/>session"]:::session
   candidates[/"candidates"/]:::artifact
+  index[/"index"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
-  tallyoutput[/"tally-output"/]:::artifact
+  tally[/"tally"/]:::artifact
   verificationartifact[/"verification-artifact"/]:::artifact
 
+  index --> writecandidates
   results --> writecandidates
-  tallyoutput --> writecandidates
+  tally --> writecandidates
   verificationartifact --> writecandidates
   questionlist --> writecandidates
   writecandidates --> candidates
@@ -277,7 +266,7 @@ flowchart LR
 
 Derived from the tables, never authored:
 
-- **inputs**: question-list results tally-output verification-artifact
+- **inputs**: index question-list results tally verification-artifact
 - **outputs**: candidates
 - **instruments**: —
 - **enabled by**: verifying-a-corpus
@@ -297,48 +286,45 @@ flowchart LR
   verificationjudge(["verification-judge<br/>agent"]):::agent
   verificationwrite["verification-write<br/>session"]:::session
   calibration[/"calibration"/]:::artifact
-  codebook[/"codebook"/]:::artifact
-  generator[/"generator"/]:::artifact
+  calls[/"calls"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
+  index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  ledger[/"ledger"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
-  runpage[/"run-page"/]:::artifact
   studies[/"studies"/]:::artifact
-  tallier[/"tallier"/]:::artifact
-  tallyoutput[/"tally-output"/]:::artifact
+  tally[/"tally"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
   verificationartifact[/"verification-artifact"/]:::artifact
 
   studies --> verificationrun
-  items --> verificationrun
-  itemsmanifest --> verificationrun
-  codebook --> verificationrun
+  directions --> verificationrun
   calibration --> verificationrun
   results --> verificationrun
-  generator -.-> verificationrun
-  tallier -.-> verificationrun
-  verificationrun --> jobs
-  verificationrun --> ledger
-  verificationrun --> tallyoutput
-  verificationrun --> runpage
-  codebook --> verificationjudge
+  toolsource -.-> verificationrun
+  verificationrun --> definition
+  verificationrun --> index
+  verificationrun --> items
+  verificationrun --> calls
+  verificationrun --> tally
+  directions --> verificationjudge
   items --> verificationjudge
   verificationjudge --> results
+  definition --> verificationwrite
+  index --> verificationwrite
+  calls --> verificationwrite
   results --> verificationwrite
-  tallyoutput --> verificationwrite
-  ledger --> verificationwrite
-  runpage --> verificationwrite
+  tally --> verificationwrite
   questionlist --> verificationwrite
   verificationwrite --> verificationartifact
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: calibration codebook generator items items-manifest question-list studies tallier
-- **outputs**: jobs ledger results run-page tally-output verification-artifact
-- **instruments**: generator runner tallier
+- **inputs**: calibration directions question-list studies tool-source
+- **outputs**: calls definition index items results tally verification-artifact
+- **instruments**: runner tool-source
 - **enabled by**: preparing-to-verify-a-corpus
 - **enables**: writing-candidates-from-verification
 
@@ -354,27 +340,23 @@ flowchart LR
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   verifyplan{{"verify-plan<br/>hitl"}}:::hitl
   itemize["itemize<br/>session"]:::session
-  authorcodebook{{"author-codebook<br/>hitl"}}:::hitl
+  authordirections{{"author-directions<br/>hitl"}}:::hitl
   calibraterun["calibrate-run<br/>session"]:::session
   calibratejudge(["calibrate-judge<br/>agent"]):::agent
   calibrate{{"calibrate<br/>hitl"}}:::hitl
   calibration[/"calibration"/]:::artifact
-  codebook[/"codebook"/]:::artifact
+  calls[/"calls"/]:::artifact
   corpora[/"corpora"/]:::artifact
   corpus[/"corpus"/]:::artifact
-  generator[/"generator"/]:::artifact
-  itemizer[/"itemizer"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
+  index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  ledger[/"ledger"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
-  runpage[/"run-page"/]:::artifact
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
   studies[/"studies"/]:::artifact
-  tallier[/"tallier"/]:::artifact
   toolsource[/"tool-source"/]:::artifact
 
   questionlist --> verifyplan
@@ -385,39 +367,33 @@ flowchart LR
   verifyplan --> studies
   verifyplan --> questionlist
   corpus --> itemize
-  itemizer --> itemize
-  itemizer -.-> itemize
-  itemize --> itemizer
-  itemize --> toolsource
+  toolsource -.-> itemize
+  itemize --> index
   itemize --> items
-  itemize --> itemsmanifest
-  questionlist --> authorcodebook
-  items --> authorcodebook
-  codebook --> authorcodebook
-  authorcodebook --> codebook
-  authorcodebook --> generator
-  authorcodebook --> tallier
-  codebook --> calibraterun
-  items --> calibraterun
-  generator -.-> calibraterun
-  calibraterun --> jobs
-  calibraterun --> ledger
-  calibraterun --> runpage
-  codebook --> calibratejudge
+  questionlist --> authordirections
+  items --> authordirections
+  directions --> authordirections
+  authordirections --> directions
+  directions --> calibraterun
+  index --> calibraterun
+  calibraterun --> definition
+  calibraterun --> calls
+  directions --> calibratejudge
   items --> calibratejudge
   calibratejudge --> results
+  index --> calibrate
   items --> calibrate
   results --> calibrate
-  codebook --> calibrate
+  directions --> calibrate
   calibrate --> calibration
-  calibrate --> codebook
+  calibrate --> directions
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpora corpus skill state
-- **outputs**: calibration codebook generator itemizer items items-manifest jobs ledger question-list results run-page studies tallier tool-source
-- **instruments**: dotnet generator itemizer runner
+- **inputs**: corpora corpus skill state tool-source
+- **outputs**: calibration calls definition directions index items question-list results studies
+- **instruments**: dotnet runner tool-source
 - **enabled by**: reviewing-leads building-a-tool revising-the-method
 - **enables**: verifying-a-corpus refereeing-a-candidate
 
@@ -433,7 +409,6 @@ flowchart LR
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   reviewleads{{"review-leads<br/>hitl"}}:::hitl
   ask{{"ask<br/>hitl"}}:::hitl
-  armkey[/"arm-key"/]:::artifact
   corpus[/"corpus"/]:::artifact
   hypothesisindex[/"hypothesis-index"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
@@ -441,7 +416,6 @@ flowchart LR
   questionlist[/"question-list"/]:::artifact
 
   leadsartifact --> reviewleads
-  armkey --> reviewleads
   corpus --> reviewleads
   hypothesisstatement --> reviewleads
   reviewleads --> leadsartifact
@@ -454,7 +428,7 @@ flowchart LR
 
 Derived from the tables, never authored:
 
-- **inputs**: arm-key corpus hypothesis-index hypothesis-statement
+- **inputs**: corpus hypothesis-index hypothesis-statement
 - **outputs**: leads-artifact question-list
 - **instruments**: git
 - **enabled by**: minting-a-hypothesis exploring-a-corpus
@@ -470,48 +444,41 @@ flowchart LR
   classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  pathfind["pathfind<br/>session"]:::session
-  slicerun["slice-run<br/>session"]:::session
-  sliceread(["slice-read<br/>agent"]):::agent
-  joinandbin["join-and-bin<br/>session"]:::session
-  corpus[/"corpus"/]:::artifact
-  generator[/"generator"/]:::artifact
+  explorerun["explore-run<br/>session"]:::session
+  exploreread(["explore-read<br/>agent"]):::agent
+  join["join<br/>session"]:::session
+  calls[/"calls"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
+  index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
   leadsartifact[/"leads-artifact"/]:::artifact
-  ledger[/"ledger"/]:::artifact
   questionlist[/"question-list"/]:::artifact
-  readingprotocol[/"reading-protocol"/]:::artifact
   results[/"results"/]:::artifact
-  runpage[/"run-page"/]:::artifact
   studies[/"studies"/]:::artifact
+  tally[/"tally"/]:::artifact
 
-  corpus --> pathfind
-  questionlist --> pathfind
-  pathfind --> leadsartifact
-  studies --> slicerun
-  items --> slicerun
-  itemsmanifest --> slicerun
-  readingprotocol --> slicerun
-  generator -.-> slicerun
-  slicerun --> jobs
-  slicerun --> ledger
-  slicerun --> runpage
-  readingprotocol --> sliceread
-  items --> sliceread
-  sliceread --> results
-  results --> joinandbin
-  runpage --> joinandbin
-  questionlist --> joinandbin
-  joinandbin --> leadsartifact
+  studies --> explorerun
+  definition --> explorerun
+  results --> explorerun
+  explorerun --> calls
+  explorerun --> tally
+  directions --> exploreread
+  items --> exploreread
+  exploreread --> results
+  definition --> join
+  index --> join
+  results --> join
+  tally --> join
+  questionlist --> join
+  join --> leadsartifact
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus generator items items-manifest question-list reading-protocol studies
-- **outputs**: jobs leads-artifact ledger results run-page
-- **instruments**: generator runner
+- **inputs**: definition directions index items question-list studies
+- **outputs**: calls leads-artifact results tally
+- **instruments**: runner
 - **enabled by**: preparing-to-explore-a-corpus
 - **enables**: reviewing-leads
 
@@ -526,26 +493,22 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   exploreplan{{"explore-plan<br/>hitl"}}:::hitl
-  slice["slice<br/>session"]:::session
-  authorprotocol{{"author-protocol<br/>hitl"}}:::hitl
-  pilotrun{{"pilot-run<br/>hitl"}}:::hitl
+  authorexplorationdirections{{"author-exploration-directions<br/>hitl"}}:::hitl
+  pilotrun["pilot-run<br/>session"]:::session
   pilotread(["pilot-read<br/>agent"]):::agent
-  armkey[/"arm-key"/]:::artifact
+  calls[/"calls"/]:::artifact
   corpora[/"corpora"/]:::artifact
   corpus[/"corpus"/]:::artifact
-  generator[/"generator"/]:::artifact
-  itemizer[/"itemizer"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
+  index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  ledger[/"ledger"/]:::artifact
   questionlist[/"question-list"/]:::artifact
-  readingprotocol[/"reading-protocol"/]:::artifact
   results[/"results"/]:::artifact
-  runpage[/"run-page"/]:::artifact
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
   studies[/"studies"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
 
   questionlist --> exploreplan
   corpora --> exploreplan
@@ -553,34 +516,28 @@ flowchart LR
   state --> exploreplan
   skill --> exploreplan
   exploreplan --> studies
-  exploreplan --> armkey
   exploreplan --> questionlist
-  corpus --> slice
-  itemizer -.-> slice
-  slice --> items
-  slice --> itemsmanifest
-  questionlist --> authorprotocol
-  items --> authorprotocol
-  readingprotocol --> authorprotocol
-  authorprotocol --> readingprotocol
-  authorprotocol --> generator
-  readingprotocol --> pilotrun
-  items --> pilotrun
-  results --> pilotrun
-  generator -.-> pilotrun
-  pilotrun --> jobs
-  pilotrun --> ledger
-  pilotrun --> runpage
-  readingprotocol --> pilotread
+  questionlist --> authorexplorationdirections
+  corpus --> authorexplorationdirections
+  directions --> authorexplorationdirections
+  authorexplorationdirections --> directions
+  directions --> pilotrun
+  corpus --> pilotrun
+  toolsource -.-> pilotrun
+  pilotrun --> definition
+  pilotrun --> index
+  pilotrun --> items
+  pilotrun --> calls
+  directions --> pilotread
   items --> pilotread
   pilotread --> results
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpora corpus itemizer skill state
-- **outputs**: arm-key generator items items-manifest jobs ledger question-list reading-protocol results run-page studies
-- **instruments**: generator itemizer runner
+- **inputs**: corpora corpus skill state tool-source
+- **outputs**: calls definition directions index items question-list results studies
+- **instruments**: runner tool-source
 - **enabled by**: building-a-tool revising-the-method
 - **enables**: exploring-a-corpus
 
@@ -630,22 +587,21 @@ flowchart LR
   revise{{"revise<br/>hitl"}}:::hitl
   auditrun["audit-run<br/>session"]:::session
   auditjudge(["audit-judge<br/>agent"]):::agent
-  auditprotocol[/"audit-protocol"/]:::artifact
+  calls[/"calls"/]:::artifact
   decisions[/"decisions"/]:::artifact
-  generator[/"generator"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
+  index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  ledger[/"ledger"/]:::artifact
   map[/"map"/]:::artifact
   results[/"results"/]:::artifact
   revisionnote[/"revision-note"/]:::artifact
-  runpage[/"run-page"/]:::artifact
   runnerskill[/"runner-skill"/]:::artifact
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
-  tallier[/"tallier"/]:::artifact
-  tallyoutput[/"tally-output"/]:::artifact
+  studies[/"studies"/]:::artifact
+  tally[/"tally"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
 
   skill --> revise
   runnerskill --> revise
@@ -654,33 +610,33 @@ flowchart LR
   revisionnote --> revise
   decisions --> revise
   results --> revise
-  tallyoutput --> revise
+  tally --> revise
   revise --> skill
   revise --> runnerskill
   revise --> decisions
   revise --> revisionnote
   revise --> map
+  revise --> studies
+  revise --> directions
   skill --> auditrun
-  auditprotocol --> auditrun
-  generator -.-> auditrun
-  tallier -.-> auditrun
+  directions --> auditrun
+  results --> auditrun
+  toolsource -.-> auditrun
+  auditrun --> definition
+  auditrun --> index
   auditrun --> items
-  auditrun --> itemsmanifest
-  auditrun --> jobs
-  auditrun --> ledger
-  auditrun --> runpage
-  auditrun --> tallyoutput
-  auditprotocol --> auditjudge
+  auditrun --> calls
+  auditrun --> tally
+  directions --> auditjudge
   items --> auditjudge
-  skill --> auditjudge
   auditjudge --> results
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: audit-protocol generator state tallier
-- **outputs**: decisions items items-manifest jobs ledger map results revision-note run-page runner-skill skill tally-output
-- **instruments**: DocIntegrity generator git runner tallier
+- **inputs**: state tool-source
+- **outputs**: calls decisions definition directions index items map results revision-note runner-skill skill studies tally
+- **instruments**: DocIntegrity git runner tool-source
 - **enabled by**: —
 - **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
 
@@ -723,7 +679,7 @@ flowchart TD
   subgraph preparingtoverifyacorpus["preparing-to-verify-a-corpus"]
     verifyplan{{"verify-plan<br/>hitl"}}:::hitl
     itemize["itemize<br/>session"]:::session
-    authorcodebook{{"author-codebook<br/>hitl"}}:::hitl
+    authordirections{{"author-directions<br/>hitl"}}:::hitl
     calibraterun["calibrate-run<br/>session"]:::session
     calibratejudge(["calibrate-judge<br/>agent"]):::agent
     calibrate{{"calibrate<br/>hitl"}}:::hitl
@@ -733,16 +689,14 @@ flowchart TD
     ask{{"ask<br/>hitl"}}:::hitl
   end
   subgraph exploringacorpus["exploring-a-corpus"]
-    pathfind["pathfind<br/>session"]:::session
-    slicerun["slice-run<br/>session"]:::session
-    sliceread(["slice-read<br/>agent"]):::agent
-    joinandbin["join-and-bin<br/>session"]:::session
+    explorerun["explore-run<br/>session"]:::session
+    exploreread(["explore-read<br/>agent"]):::agent
+    join["join<br/>session"]:::session
   end
   subgraph preparingtoexploreacorpus["preparing-to-explore-a-corpus"]
     exploreplan{{"explore-plan<br/>hitl"}}:::hitl
-    slice["slice<br/>session"]:::session
-    authorprotocol{{"author-protocol<br/>hitl"}}:::hitl
-    pilotrun{{"pilot-run<br/>hitl"}}:::hitl
+    authorexplorationdirections{{"author-exploration-directions<br/>hitl"}}:::hitl
+    pilotrun["pilot-run<br/>session"]:::session
     pilotread(["pilot-read<br/>agent"]):::agent
   end
   subgraph buildingatool["building-a-tool"]
@@ -764,27 +718,19 @@ flowchart TD
   decisions[/"decisions"/]:::artifact
   leadsartifact[/"leads-artifact"/]:::artifact
   verificationartifact[/"verification-artifact"/]:::artifact
-  armkey[/"arm-key"/]:::artifact
   candidates[/"candidates"/]:::artifact
-  iterationcandidates[/"iteration-candidates"/]:::artifact
   corpora[/"corpora"/]:::artifact
-  codebook[/"codebook"/]:::artifact
-  readingprotocol[/"reading-protocol"/]:::artifact
+  directions[/"directions"/]:::artifact
   calibration[/"calibration"/]:::artifact
-  itemizer[/"itemizer"/]:::artifact
-  generator[/"generator"/]:::artifact
-  tallier[/"tallier"/]:::artifact
+  definition[/"definition"/]:::artifact
+  index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  itemsmanifest[/"items-manifest"/]:::artifact
-  jobs[/"jobs"/]:::artifact
-  ledger[/"ledger"/]:::artifact
+  calls[/"calls"/]:::artifact
   results[/"results"/]:::artifact
-  tallyoutput[/"tally-output"/]:::artifact
-  runpage[/"run-page"/]:::artifact
+  tally[/"tally"/]:::artifact
   skill[/"skill"/]:::artifact
   runnerskill[/"runner-skill"/]:::artifact
   map[/"map"/]:::artifact
-  auditprotocol[/"audit-protocol"/]:::artifact
   toolsource[/"tool-source"/]:::artifact
   corpus[/"corpus"/]:::artifact
 
@@ -795,14 +741,13 @@ flowchart TD
   baseline --> hypothesisstatus
   baseline --> questionlist
   candidates --> promote
-  iterationcandidates --> promote
+  index --> promote
   corpus --> promote
   hypothesisstatement --> promote
   hypothesisrecord --> promote
   promote --> hypothesisrecord
   promote --> hypothesisstatus
   promote --> candidates
-  promote --> iterationcandidates
   promote --> questionlist
   promote --> verificationartifact
   hypothesisstatement --> iterate
@@ -810,7 +755,7 @@ flowchart TD
   iterate --> hypothesisstatement
   iterate --> hypothesisrecord
   iterate --> hypothesisstatus
-  iterate --> iterationcandidates
+  iterate --> candidates
   hypothesisindex --> mint
   hypothesisstatement --> mint
   mint --> hypothesisstatement
@@ -819,55 +764,47 @@ flowchart TD
   mint --> hypothesisindex
   hypothesisstatement --> refereematerialise
   candidates --> refereematerialise
-  iterationcandidates --> refereematerialise
-  codebook --> refereematerialise
-  itemizer -.-> refereematerialise
-  generator -.-> refereematerialise
+  directions --> refereematerialise
+  calibration --> refereematerialise
+  toolsource -.-> refereematerialise
+  refereematerialise --> definition
+  refereematerialise --> index
   refereematerialise --> items
-  refereematerialise --> itemsmanifest
-  refereematerialise --> jobs
-  jobs --> refereerun
-  codebook --> refereerun
-  calibration --> refereerun
-  items --> refereerun
+  definition --> refereerun
   results --> refereerun
-  tallier -.-> refereerun
-  refereerun --> ledger
-  refereerun --> tallyoutput
-  refereerun --> runpage
-  codebook --> refereejudge
+  refereerun --> calls
+  refereerun --> tally
+  directions --> refereejudge
   items --> refereejudge
   refereejudge --> results
   results --> refereeappend
-  tallyoutput --> refereeappend
+  tally --> refereeappend
   candidates --> refereeappend
-  iterationcandidates --> refereeappend
   refereeappend --> candidates
-  refereeappend --> iterationcandidates
+  index --> writecandidates
   results --> writecandidates
-  tallyoutput --> writecandidates
+  tally --> writecandidates
   verificationartifact --> writecandidates
   questionlist --> writecandidates
   writecandidates --> candidates
   studies --> verificationrun
-  items --> verificationrun
-  itemsmanifest --> verificationrun
-  codebook --> verificationrun
+  directions --> verificationrun
   calibration --> verificationrun
   results --> verificationrun
-  generator -.-> verificationrun
-  tallier -.-> verificationrun
-  verificationrun --> jobs
-  verificationrun --> ledger
-  verificationrun --> tallyoutput
-  verificationrun --> runpage
-  codebook --> verificationjudge
+  toolsource -.-> verificationrun
+  verificationrun --> definition
+  verificationrun --> index
+  verificationrun --> items
+  verificationrun --> calls
+  verificationrun --> tally
+  directions --> verificationjudge
   items --> verificationjudge
   verificationjudge --> results
+  definition --> verificationwrite
+  index --> verificationwrite
+  calls --> verificationwrite
   results --> verificationwrite
-  tallyoutput --> verificationwrite
-  ledger --> verificationwrite
-  runpage --> verificationwrite
+  tally --> verificationwrite
   questionlist --> verificationwrite
   verificationwrite --> verificationartifact
   questionlist --> verifyplan
@@ -878,34 +815,27 @@ flowchart TD
   verifyplan --> studies
   verifyplan --> questionlist
   corpus --> itemize
-  itemizer --> itemize
-  itemizer -.-> itemize
-  itemize --> itemizer
-  itemize --> toolsource
+  toolsource -.-> itemize
+  itemize --> index
   itemize --> items
-  itemize --> itemsmanifest
-  questionlist --> authorcodebook
-  items --> authorcodebook
-  codebook --> authorcodebook
-  authorcodebook --> codebook
-  authorcodebook --> generator
-  authorcodebook --> tallier
-  codebook --> calibraterun
-  items --> calibraterun
-  generator -.-> calibraterun
-  calibraterun --> jobs
-  calibraterun --> ledger
-  calibraterun --> runpage
-  codebook --> calibratejudge
+  questionlist --> authordirections
+  items --> authordirections
+  directions --> authordirections
+  authordirections --> directions
+  directions --> calibraterun
+  index --> calibraterun
+  calibraterun --> definition
+  calibraterun --> calls
+  directions --> calibratejudge
   items --> calibratejudge
   calibratejudge --> results
+  index --> calibrate
   items --> calibrate
   results --> calibrate
-  codebook --> calibrate
+  directions --> calibrate
   calibrate --> calibration
-  calibrate --> codebook
+  calibrate --> directions
   leadsartifact --> reviewleads
-  armkey --> reviewleads
   corpus --> reviewleads
   hypothesisstatement --> reviewleads
   reviewleads --> leadsartifact
@@ -914,49 +844,39 @@ flowchart TD
   hypothesisstatement --> ask
   questionlist --> ask
   ask --> questionlist
-  corpus --> pathfind
-  questionlist --> pathfind
-  pathfind --> leadsartifact
-  studies --> slicerun
-  items --> slicerun
-  itemsmanifest --> slicerun
-  readingprotocol --> slicerun
-  generator -.-> slicerun
-  slicerun --> jobs
-  slicerun --> ledger
-  slicerun --> runpage
-  readingprotocol --> sliceread
-  items --> sliceread
-  sliceread --> results
-  results --> joinandbin
-  runpage --> joinandbin
-  questionlist --> joinandbin
-  joinandbin --> leadsartifact
+  studies --> explorerun
+  definition --> explorerun
+  results --> explorerun
+  explorerun --> calls
+  explorerun --> tally
+  directions --> exploreread
+  items --> exploreread
+  exploreread --> results
+  definition --> join
+  index --> join
+  results --> join
+  tally --> join
+  questionlist --> join
+  join --> leadsartifact
   questionlist --> exploreplan
   corpora --> exploreplan
   corpus --> exploreplan
   state --> exploreplan
   skill --> exploreplan
   exploreplan --> studies
-  exploreplan --> armkey
   exploreplan --> questionlist
-  corpus --> slice
-  itemizer -.-> slice
-  slice --> items
-  slice --> itemsmanifest
-  questionlist --> authorprotocol
-  items --> authorprotocol
-  readingprotocol --> authorprotocol
-  authorprotocol --> readingprotocol
-  authorprotocol --> generator
-  readingprotocol --> pilotrun
-  items --> pilotrun
-  results --> pilotrun
-  generator -.-> pilotrun
-  pilotrun --> jobs
-  pilotrun --> ledger
-  pilotrun --> runpage
-  readingprotocol --> pilotread
+  questionlist --> authorexplorationdirections
+  corpus --> authorexplorationdirections
+  directions --> authorexplorationdirections
+  authorexplorationdirections --> directions
+  directions --> pilotrun
+  corpus --> pilotrun
+  toolsource -.-> pilotrun
+  pilotrun --> definition
+  pilotrun --> index
+  pilotrun --> items
+  pilotrun --> calls
+  directions --> pilotread
   items --> pilotread
   pilotread --> results
   corpora --> build
@@ -973,25 +893,25 @@ flowchart TD
   revisionnote --> revise
   decisions --> revise
   results --> revise
-  tallyoutput --> revise
+  tally --> revise
   revise --> skill
   revise --> runnerskill
   revise --> decisions
   revise --> revisionnote
   revise --> map
+  revise --> studies
+  revise --> directions
   skill --> auditrun
-  auditprotocol --> auditrun
-  generator -.-> auditrun
-  tallier -.-> auditrun
+  directions --> auditrun
+  results --> auditrun
+  toolsource -.-> auditrun
+  auditrun --> definition
+  auditrun --> index
   auditrun --> items
-  auditrun --> itemsmanifest
-  auditrun --> jobs
-  auditrun --> ledger
-  auditrun --> runpage
-  auditrun --> tallyoutput
-  auditprotocol --> auditjudge
+  auditrun --> calls
+  auditrun --> tally
+  directions --> auditjudge
   items --> auditjudge
-  skill --> auditjudge
   auditjudge --> results
 ```
 
@@ -1003,44 +923,35 @@ flowchart TD
 | hypothesis-record | baseline promote iterate mint | baseline promote iterate | — |
 | hypothesis-status | baseline promote iterate mint | baseline | — |
 | hypothesis-index | mint | mint ask | — |
-| question-list | baseline promote verify-plan review-leads ask explore-plan | write-candidates verification-write verify-plan author-codebook ask pathfind join-and-bin explore-plan author-protocol | — |
-| studies | verify-plan explore-plan | verification-run slice-run | — |
+| question-list | baseline promote verify-plan review-leads ask explore-plan | write-candidates verification-write verify-plan author-directions ask join explore-plan author-exploration-directions | — |
+| studies | verify-plan explore-plan revise | verification-run explore-run | — |
 | state | — | verify-plan explore-plan revise | — |
 | revision-note | revise | revise | — |
 | decisions | revise | revise | — |
-| leads-artifact | review-leads pathfind join-and-bin | review-leads | — |
+| leads-artifact | review-leads join | review-leads | — |
 | verification-artifact | promote verification-write | write-candidates | — |
-| arm-key | explore-plan | review-leads | — |
-| candidates | promote referee-append write-candidates | promote referee-materialise referee-append | — |
-| iteration-candidates | promote iterate referee-append | promote referee-materialise referee-append | — |
+| candidates | promote iterate referee-append write-candidates | promote referee-materialise referee-append | — |
 | corpora | build | verify-plan explore-plan build | — |
-| codebook | author-codebook calibrate | referee-materialise referee-run referee-judge verification-run verification-judge author-codebook calibrate-run calibrate-judge calibrate | — |
-| reading-protocol | author-protocol | slice-run slice-read author-protocol pilot-run pilot-read | — |
-| calibration | calibrate | referee-run verification-run | — |
-| itemizer | itemize | itemize | referee-materialise itemize slice |
-| generator | author-codebook author-protocol | — | referee-materialise verification-run calibrate-run slice-run pilot-run audit-run |
-| tallier | author-codebook | — | referee-run verification-run audit-run |
-| items | referee-materialise itemize slice audit-run | referee-run referee-judge verification-run verification-judge author-codebook calibrate-run calibrate-judge calibrate slice-run slice-read author-protocol pilot-run pilot-read audit-judge | — |
-| items-manifest | referee-materialise itemize slice audit-run | verification-run slice-run | — |
-| jobs | referee-materialise verification-run calibrate-run slice-run pilot-run audit-run | referee-run | — |
-| ledger | referee-run verification-run calibrate-run slice-run pilot-run audit-run | verification-write | — |
-| results | referee-judge verification-judge calibrate-judge slice-read pilot-read audit-judge | referee-run referee-append write-candidates verification-run verification-write calibrate join-and-bin pilot-run revise | — |
-| tally-output | referee-run verification-run audit-run | referee-append write-candidates verification-write revise | — |
-| run-page | referee-run verification-run calibrate-run slice-run pilot-run audit-run | verification-write join-and-bin | — |
-| skill | revise | verify-plan explore-plan revise audit-run audit-judge | — |
+| directions | author-directions calibrate author-exploration-directions revise | referee-materialise referee-judge verification-run verification-judge author-directions calibrate-run calibrate-judge calibrate explore-read author-exploration-directions pilot-run pilot-read audit-run audit-judge | — |
+| calibration | calibrate | referee-materialise verification-run | — |
+| definition | referee-materialise verification-run calibrate-run pilot-run audit-run | referee-run verification-write explore-run join | — |
+| index | referee-materialise verification-run itemize pilot-run audit-run | promote write-candidates verification-write calibrate-run calibrate join | — |
+| items | referee-materialise verification-run itemize pilot-run audit-run | referee-judge verification-judge author-directions calibrate-judge calibrate explore-read pilot-read audit-judge | — |
+| calls | referee-run verification-run calibrate-run explore-run pilot-run audit-run | verification-write | — |
+| results | referee-judge verification-judge calibrate-judge explore-read pilot-read audit-judge | referee-run referee-append write-candidates verification-run verification-write calibrate explore-run join revise audit-run | — |
+| tally | referee-run verification-run explore-run audit-run | referee-append write-candidates verification-write join revise | — |
+| skill | revise | verify-plan explore-plan revise audit-run | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |
-| audit-protocol | — | audit-run audit-judge | — |
-| tool-source | itemize build | build | — |
-| corpus | build | promote verify-plan itemize review-leads pathfind explore-plan slice build | — |
+| tool-source | build | build | referee-materialise verification-run itemize pilot-run audit-run |
+| corpus | build | promote verify-plan itemize review-leads explore-plan author-exploration-directions pilot-run build | — |
 
 ## Validation
 
-Last run: **passed** (4 note(s)).
+Last run: **passed** (3 note(s)).
 
 | level | check | row | message |
 |---|---|---|---|
 | vacuous | enables.vacuous | — | edges into the terminus are not checked for data flow, since it owns no processes: baselining-a-hypothesis → changing-the-planner-for-v3 |
 | info | info.artifact.never-written | state | read by verify-plan, explore-plan, revise and written by no process; informational (generated by a tool, or authored outside the method) |
-| info | info.artifact.never-written | audit-protocol | read by audit-run, audit-judge and written by no process; informational (generated by a tool, or authored outside the method) |
 | info | info.instrument.free-name | instruments | instrument names that are not artifact ids: DocIntegrity, dotnet, git, runner. A program whose code is an artifact is named by its id; check none of these should have been |

@@ -4,34 +4,34 @@ Enables baselining-a-hypothesis.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| promote | hitl | git | candidates iteration-candidates corpus hypothesis-statement hypothesis-record | hypothesis-record hypothesis-status candidates iteration-candidates question-list verification-artifact | specified | Brian decides the pending diagnostic candidates he chooses, by hypothesis or by verification, each after its source is read; entries and outcomes written; status recomputed; one commit |
+| promote | hitl | git | candidates index corpus hypothesis-statement hypothesis-record | hypothesis-record hypothesis-status candidates question-list verification-artifact | specified | Brian decides the pending diagnostic candidates he chooses, by hypothesis or by verification, each after its item is read; entries and outcomes written; status recomputed; one commit |
 
 ## Preconditions
 
 Every candidate in scope carries the referee's `falsifier` and `referee` lines under a
-codebook hash that has a calibration, and no `outcome` line.
+directions hash that has an accepting calibration, and no `outcome` line.
 
 ## promote
 
 Brian names the scope: a hypothesis, or a verification. The session gathers every
 diagnostic candidate in that scope with no outcome line, from the verifications'
-candidates files and the
-iteration candidates, and opens each target's statement and record. It lists them by
-target with their verdicts and falsifiers, and shows the non-diagnostic ones beside them
-for context; those get no further line.
+candidates files, the re-queued candidates included, and opens each target's statement and
+record. It lists them by target with their verdicts and falsifiers, and shows the
+non-diagnostic ones beside them for context; those get no further line.
 
 For each diagnostic candidate, in whatever order Brian takes them:
 
-1. The session reads the source at the candidate's `source` locator and reports whether
-   the finding is there as stated, quoting what it found. This read precedes any decision
-   to promote; it is skipped only when Brian declines without it.
+1. The session reads the item the candidate cites, `<study>/<batch>/<item>`, at the
+   locator its batch's index gives, through the reader CORPORA.md names, and reports
+   whether the finding is there as stated, quoting what it found. This read precedes any
+   decision to promote; it is skipped only when Brian declines without it.
 2. Brian decides, after whatever analysis he asks for. The session writes the decision as
    it lands: promote — an `evidence` entry appended to the target's record with the
-   finding and falsifier verbatim, tagged by the verdict, citing study, candidate id
-   and codebook hash, then `outcome: promoted …` on the candidate; decline —
-   `outcome: declined — <his reason>` on the candidate. A candidate he leaves undecided
-   keeps the referee line as its last line.
-3. A disagreement with the referee is his to rule; the session records the ruling in the
+   finding and falsifier verbatim, tagged by the verdict, citing the candidate's token and
+   the directions version and hash it was judged under, then `outcome: promoted …` on the
+   candidate; decline — `outcome: declined — <his reason>` on the candidate. A candidate
+   he leaves undecided keeps the referee line as its last line.
+3. A disagreement with the referee is his to rule; the session writes the ruling in the
    outcome's reason.
 
 A rethink of a statement that the evidence prompts is iterating-a-statement, done in the
@@ -40,13 +40,13 @@ same session under its own file; nothing here rewords.
 When he stops: the session recomputes each touched hypothesis's status from its
 current-wording entries and resets `baselined` where a challenging entry landed; writes
 any question he raised into its corpus's list, with the candidate that raised it; makes
-one commit naming the scope and the candidate ids; and appends to each affected verification's
-`verification.md` § Promotion what this session decided from it (promoted by tag,
-declined with reasons, referee disagreements and rulings, anything noticed about the
-pipeline's own behaviour).
+one commit naming the scope and the candidate tokens; and appends to each affected
+verification's `verification.md` § Promotion what this session decided from it (promoted
+by tag, declined with reasons, referee disagreements and rulings, anything noticed about
+the pipeline's own behaviour).
 
 ## Never
 
 Writes a candidate; changes a finding, a falsifier or a verdict; edits a statement;
-promotes a candidate that lacks a referee line or whose source was not read; promotes
+promotes a candidate that lacks a referee line or whose item was not read; promotes
 anything Brian did not decide.

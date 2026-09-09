@@ -1,30 +1,29 @@
 # study-registry-schema
 
-`docs/v3-framework/studies.md` — one row per study of a chain, appended by the
-preparing activity at the moment Brian approves its plan, which is his go. Never edited: a
-study abandoned is a fact the artifacts show, not a row removed. Every artifact path a
-study produces is named by its id.
+`docs/v3-framework/studies.md` — one row per study, appended by the preparing activity at
+the moment Brian approves its plan, which is his go, and by revising-the-method for an
+audit. Never edited: a study abandoned is a fact the artifacts show, not a row removed.
+Every study's folder under `docs/v3-framework/studies/` is named by its id.
 
 ```markdown
 | id | type | corpus | go |
 |---|---|---|---|
-| exploration-of-v1-archive | exploratory | v1-archive | 2026-09-12 |
-| verification-of-fimfiction-stories-1 | verification | fimfiction-stories | 2026-09-20 |
+| exploration-of-v1-archive | exploration | v1-archive | 2026-09-12 |
+| verification-of-fimfiction-stories-fid-primary | verification | fimfiction-stories | 2026-09-20 |
+| audit-of-revision-3 | audit | skill | 2026-10-02 |
 ```
 
-`id` is `exploration-of-<corpus>[-<n>]`, `verification-of-<corpus>-<n>`, or `referee-<n>`;
-a verification always carries its ordinal, an exploration only when the corpus is explored again,
-and the referee's each time its codebook is prepared anew. `type` ∈ `exploratory |
-verification` names the chain: exploratory runs preparing-to-explore-a-corpus,
-exploring-a-corpus and reviewing-leads; verification runs preparing-to-verify-a-corpus,
-verifying-a-corpus, writing-candidates-from-verification,
-refereeing-a-candidate and promoting-checked-candidates. `referee-<n>` is a verification
-study that stops after preparing: its corpus is `candidates`, its folder is
-`fanout/referee/`, and what it produces — the codebook, its calibration, the
-materialise itemizer — is what every referee run under every verification then uses. It is
-prepared once and again only when a ruling changes the codebook; that is the whole of
-what "bootstrap" means here, and it is a fact about studies, never about activities.
-`corpus` is a name from `CORPORA.md`, `verified-artifacts` for an exploration over
-the buildout's own outputs, or `candidates` for the referee. Nothing else is authored
-here: where a study stands is derived by the tool from its artifacts into `state.md`,
-and a tool a study needs is built as its first task.
+`id` is `<type>-of-<corpus>-<slug>`, the slug lowercase `[a-z0-9-]+` naming what the
+study's directions do, unique across the registry, authored at the go and never changed:
+`verification-of-<corpus>-<slug>` always carries its slug; `exploration-of-<corpus>`
+carries one only when the corpus is explored again under a different reading; an audit is
+`audit-of-<slug>`, its corpus the skill. No ordinal. `type` ∈ `verification | exploration
+| audit` is the one the id's prefix names, and names the chain: exploration runs
+preparing-to-explore-a-corpus, exploring-a-corpus and reviewing-leads; verification runs
+preparing-to-verify-a-corpus, verifying-a-corpus, writing-candidates-from-verification,
+refereeing-a-candidate and promoting-checked-candidates; audit runs revising-the-method.
+`corpus` is a name from `CORPORA.md`, `verified-artifacts` for a study over the buildout's
+own outputs, or `skill` for an audit. The referee is no study: its directions and
+calibrations sit in `docs/v3-framework/referee/` and its batches under the verifications
+they judge. Nothing else is authored here: where a study stands is derived by the tool
+from its artifacts into `state.md`, and a tool a study needs is built as its first task.

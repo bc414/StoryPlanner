@@ -4,7 +4,7 @@ Enables refereeing-a-candidate.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| iterate | hitl | git | hypothesis-statement hypothesis-record | hypothesis-statement hypothesis-record hypothesis-status iteration-candidates | specified | Brian rewords a hypothesis on evidence; the statement is edited, an iteration entry marks the boundary, status is recomputed, prior findings are queued as iteration candidates |
+| iterate | hitl | git | hypothesis-statement hypothesis-record | hypothesis-statement hypothesis-record hypothesis-status candidates | specified | Brian rewords a hypothesis on evidence; the statement is edited, an iteration entry marks the boundary, status is recomputed, prior findings are appended as candidates to the studies that produced them |
 
 ## Preconditions
 
@@ -20,11 +20,12 @@ wording, or approves the session's draft of it in his words. The session then, i
 commit: edits `## Hypothesis` in place; appends an `iteration` entry quoting old and new
 wording and his reason, with the sentence that entries above it are bound to the prior
 wording; recomputes `status` from the entries bound to the new wording, which is
-`untested` when none has been re-verified, and resets `baselined` to `false`; and writes
-each prior `evidence` entry's finding and source into
-`fanout/referee/iterations/NNN-<date>/candidates.md` as a candidate against the new
-wording, `proposed-by` citing the original study and candidate. Those are refereed and
-promoted in the next verification that touches the hypothesis; nothing is re-refereed now.
+`untested` when none has been re-verified, and resets `baselined` to `false`; and appends,
+to the candidates file of each study a prior `evidence` entry cites, one new candidate:
+the finding verbatim, the target, and provenance citing the original candidate's token and
+the rewording's date. Each such study then runs a referee batch over its new candidates,
+on Brian's go, and promotion reads them where it reads all candidates; nothing is
+re-refereed now.
 
 For a merge or split, the same steps run in each affected file: the surviving or new
 files are minted (minting-a-hypothesis), each old file gets its iteration entry naming

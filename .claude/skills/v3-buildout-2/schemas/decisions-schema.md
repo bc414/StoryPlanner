@@ -11,7 +11,7 @@ A singleton class: the title is `# Decisions`.
 | section | present | holds |
 |---|---|---|
 | the head, between the title and the first section | required | prose: what the file is and where the closed founding record is; no entry |
-| `## Revision N`, N increasing through the file | required, one or more | prose, at most one paragraph, then entries, and nothing else |
+| `## Revision N`, N increasing through the file | required, one or more | entries, after at most one paragraph of prose, and nothing else |
 
 An entry's heading is `### <ruling>`, type line, the ruling in one line; then keyed
 lines in this order and no other line:

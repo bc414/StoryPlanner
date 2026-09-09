@@ -8,14 +8,16 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 ## Preconditions
 
-Something needs a tool that does not exist: a corpus to make readable, a change to the
-runner or the validator, a render. The need is named by the study or the revision that
-has it; an itemizer is preparing-to-verify-a-corpus's own. A check is added for a failure a
-run or a study has shown, never for one a session can imagine. A check is minted in one
-of two ways: declared, it holds what a schema's Shape says about one class's files and is
-held from the schema's first write; earned, it prevents a failure that has been observed,
-the only way a check that spans files, or the code and the tables, or a run comes to
-exist. The decision that mints a check says which.
+Something needs a tool that does not exist: a corpus to make readable, an itemizer for a
+study, a change to the runner or the validator, a render. The need is named by the study
+or the revision that has it; an itemizer is built in the preparing activity of the study
+that needs it, and a second study cutting the same corpus the same way runs the same
+tool. A check is added for a failure a batch or a study has shown, never for one a
+session can imagine. A check is minted in one of two ways: declared, it holds what a
+schema's Shape says about one class's files and is held from the schema's first write;
+earned, it prevents a failure that has been observed, the only way a check that spans
+files, or the code and the tables, or a batch comes to exist. The decision that mints a
+check says which.
 
 ## build
 
@@ -28,7 +30,7 @@ becomes readable, or how it is read changes, CORPORA.md is updated in the same c
 runner gains or changes a verb, the `agent-runner` skill is updated in the same commit. Brian
 signs off the checklist; a tool he sends back is rebuilt in the same activity. This is the
 first task inside the study that needs the tool, never a study of its own. A tool
-never authors prose that is Brian's: no display questions, no definitions, no codebook,
+never authors prose that is Brian's: no display questions, no definitions, no directions,
 no question. A checker over governed files is not armed until its first run over the real
 files has been predicted in writing, from the decisions and the schema, and the run
 compared with the prediction; a discrepancy is a wrong derivation or a decision not yet
@@ -36,5 +38,5 @@ made, and goes to Brian first.
 
 ## Never
 
-Writes a codebook or a protocol; writes a candidate, a lead or a question; changes a
+Writes directions; writes a candidate, a lead or a question; changes a
 `.storyplan`; ships without tests.

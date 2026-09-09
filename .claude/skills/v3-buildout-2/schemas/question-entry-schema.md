@@ -33,8 +33,8 @@ An appended line, `- withdrawn: <date> <reason>`, a date then a line, at most on
 entry, written beneath the fields by the hitl process that withdraws the question.
 
 An entry is cited everywhere as `<corpus>/<slug>`, one token, its heading. Open is an entry with no
-withdrawn line; frozen and answered are derived by the tool from a codebook's and a
-verification's citations of the id; none of the three is written. Every writer is an hitl
+withdrawn line; frozen and answered are derived by the tool from a directions version's and
+a verification's citations of the id; none of the three is written. Every writer is an hitl
 process, since a question is Brian's, and the class is append: no line is ever edited.
 
 ## Example
@@ -53,7 +53,7 @@ process, since a question is Brian's, and the class is append: no line is ever e
 ### own-fiction/narrator-register-outside-giyc
 
 - date: 2026-09-08
-- raised by: recall, in the verify-plan for verification-of-own-fiction-1
+- raised by: recall, in the verify-plan for verification-of-own-fiction-narrator-register
 - question: <the question, in Brian's words>
 - withdrawn: 2026-09-09 <why>
 ```
@@ -65,9 +65,9 @@ process, since a question is Brian's, and the class is append: no line is ever e
 | every question of a corpus, in order | `grep -n '^### ' questions/<corpus>.md` |
 | the open questions | the entries with no `- withdrawn:` line beneath them, or state.md per corpus |
 | the questions bearing on hypothesis NNN | `grep -n '^- hypotheses:.*\bNNN\b' questions/*.md` |
-| one question's definition and every use, in one list | `grep -rn '<corpus>/<slug>' docs/v3-framework fanout .claude/skills`; the `### ` hit is the entry, the rest are where it is in view, frozen or answered |
+| one question's definition and every use, in one list | `grep -rn '<corpus>/<slug>' docs/v3-framework .claude/skills`; the `### ` hit is the entry, the rest are where it is in view, frozen or answered |
 | what raised a question | its `raised by` line; the token in it is the lead, proposal or candidate |
-| whether a calibrated codebook covers a question | state.md, derived from the codebook's `## Questions` |
+| whether calibrated directions cover a question | state.md, derived from the directions' frontmatter |
 
 ## Checks
 

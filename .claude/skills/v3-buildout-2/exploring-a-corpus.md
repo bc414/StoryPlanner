@@ -4,50 +4,43 @@ Enables reviewing-leads.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| pathfind | session | | corpus question-list | leads-artifact | built | One session reads the whole corpus in one context, questions in view, and writes the leads artifact |
-| slice-run | session | generator runner | studies items items-manifest reading-protocol | jobs ledger run-page | specified | On Brian's registered go: one job per slice, or per slice and arm, under the piloted protocol; the batch under the host; no pilot here, preparing did it |
-| slice-read | agent | | reading-protocol items | results | specified | A slice reader reads one slice under the protocol and writes its lead set; the only writer of results |
-| join-and-bin | session | | results run-page question-list | leads-artifact | specified | Joins the arms' lead sets, sorts disagreements between arms into the named bins with the arm key closed, and writes the leads artifact |
+| explore-run | session | runner | studies definition results | calls tally | specified | On Brian's go, once any pilot's result has been read: execute-batch over every item without a result, under the host; tally-batch; a one-item batch is the corpus whole and needs no pilot |
+| explore-read | agent | | directions items | results | specified | A call reads one item, the corpus whole or one slice, under the directions and answers with its leads, what was seen and what it was seen in, as the declared entries; the only writer of results |
+| join | session | | definition index results tally question-list | leads-artifact | specified | Writes the leads artifact from the results: method, questions in view, leads organised by what was seen, proposed questions |
 
 ## Preconditions
 
-The study is registered with Brian's go and its plan is approved. For slices: the
-items exist, the reading protocol at its current version has been piloted, and the arm key
-is written and closed. For a pathfinder: the corpus fits one context.
+The study is registered with Brian's go and its batch is defined, itemized and dry-run by
+preparing-to-explore-a-corpus. For slices: the pilot's result has been read by Brian and
+the directions stand. For a one-item batch: the corpus fits one item, whole or as what to
+read and how.
 
-## pathfind
+## explore-run
 
-One session, Fable by default, reads the corpus whole with the questions in view named on
-the study's plan. It writes `docs/v3-framework/<study>/leads.md`: the method, the
-questions in view, and the leads organised by what was observed, each what was seen and
-what it was seen in. Leads only: ideas for questions and for what to itemize, never a
-finding, never a claim about a hypothesis. Proposed questions go in their own section, as proposals.
+Per the `agent-runner` skill: execute-batch on the batch preparing defined, which calls
+every item that has no result yet, the pilot's item excluded since it has one; tally-batch
+when every item has a result. A one-item batch's one call is the whole exploration, watched
+through the host's stream. A repeat under another model is a second study, compared at the
+review.
 
-## slice-run
+## explore-read
 
-One run folder under `fanout/<study>/<run>/`. The generator writes one job per slice,
-or one per slice per arm when the exploration has arms, each under the protocol at its
-piloted hash with the arm's neutral label; the batch runs under the host per the
-`agent-runner` skill. No pilot job: preparing-to-explore-a-corpus piloted the protocol.
+Instructed by the directions body as its system prompt and nothing else; one item as its
+message; the study's model and effort; the MCP server only when the definition opts in,
+which a one-item batch over a corpus read through the server does. One item in, one lead
+set out in the declared entries: per lead what was seen and what it was seen in. Nothing
+about what a lead means for any hypothesis.
 
-## slice-read
+## join
 
-Instructed by the reading protocol and nothing else; Opus by default; tools Read and
-Write; no MCP. One slice in, one lead set out in the protocol's form: one entry per lead,
-what was seen and what it was seen in. Nothing about what a lead means for any hypothesis.
-
-## join-and-bin
-
-The session joins the arms' lead sets; the key it joins on is the plan's. With arms, it
-sorts every disagreement between arms into the named bins, expected-structural,
-missed-by-one, unsupported-by-source and whatever the plan added, before any is
-investigated, and the count per bin is a finding of the exploration; the arm key stays
-closed, so the session does not know which condition produced which lead. With one arm
-there are no bins and the artifact says no disagreement was measured. It writes
-`leads.md`: method, questions in view, leads by what was seen, bins with counts, proposed
-questions.
+The session reads the results through the tally and the index and writes `leads.md` under
+the study: the method (the directions version and hash, the itemizer, the model and effort,
+the batch, what was deliberately not measured), the questions in view from the directions'
+frontmatter, the leads organised by what was observed — by subject, pattern, story, never
+by hypothesis — each what was seen and what it was seen in, in words, and the proposed
+questions as proposals. From one result the artifact is that result's leads as rendered.
 
 ## Never
 
-Opens the arm key; drills a bin; writes a question into a list; writes a candidate or
-evidence; makes a claim about a hypothesis; investigates a disagreement before binning.
+Writes a question into a list; writes a candidate or evidence; makes a claim about a
+hypothesis; cites a lead at an address; runs an exploration in the repo.

@@ -60,8 +60,9 @@ rule, or a word SKILL.md or a schema file defines; files are types, and no corpu
 appears in one. A session reads it whole at the start of the activity; an `hitl` section
 says what the session prepares and presents, how it batches Brian's questions, and what it
 writes as each decision lands, and cannot script the middle; an `agent` section names the
-instrument and what the generator materialises, and the agent never sees the file; a
-runner section names the run's reads and writes and defers to the `agent-runner` skill.
+directions the call runs under and what the item holds, and the agent never sees the
+file; a section whose process invokes the runner names the batch's reads and writes and
+defers to the `agent-runner` skill.
 
 **A schema file** is its title `# <name>-schema`, one sentence saying what follows, then
 Shape, Example, Queries and Checks in that order. A Shape declares and never restates its
@@ -70,13 +71,18 @@ the artifacts: the grammar is held by the engine's tests, and no document govern
 title is a class's own to declare and hold; the grammar says nothing of titles.
 
 The grammar. A sections table, columns section, present and holds, partitions the file in
-order, holds being `fields`, `entries`, `table`, `prose` or `fenced`. A field table has
-the columns key, present, type and value; a table class's column table the same with
-column for key; an entry array is declared by its heading's type and its field table; an
-appended line by its form, its multiplicity and the process that writes it; a file whose
-sections carry different mutations names each. Present is `required` or `optional`; any
-rule about when an optional field must or must not appear is the class's own, named in
-its Checks. Checks has the columns check and fails when, ids
+order, holds being `fields`, `entries`, `table`, `prose` or `fenced`; a section is named
+by its `## heading` in a code span, or as the frontmatter, the head after the title, the
+table after the head, or the whole file after the title. A field table has the columns
+key, present, type and value; a table class's column table the same with column for key.
+The field tables follow the sections table and are claimed in order, first by the
+sections that hold fields, then by those that hold entries; an entries section with no
+table holds one-line entries, each `- ` or numbered line one entry. An entry array is
+declared by its heading's type and its field table; an appended line by its form, its
+multiplicity and the process that writes it; a file whose sections carry different
+mutations names each. A key in angle brackets, `<field>`, is any slug, one or more. Present
+is `required` or `optional`; any rule about when an optional field must or must not appear
+is the class's own, named in its Checks. Checks has the columns check and fails when, ids
 `<class>.<name>` unique in the file; Queries has question and how; the Example's first
 fenced block is the fixture. A new type, present or holds value is a decision adding a
 word, never a new level.
@@ -147,12 +153,13 @@ description: An example skill for the process map tests.
 | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Status and baselined |
 | question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions |
 | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study |
-| candidates | docs/v3-framework/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
-| codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument |
-| calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
-| verification-artifact | docs/v3-framework/<study>/verification.md | append | | One verification's method and counts |
-| items | fanout/<study>/<run>/items/ | frozen | | The units one run judges |
-| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |
+| candidates | docs/v3-framework/studies/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
+| directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls |
+| calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | | One version's agreement |
+| verification-artifact | docs/v3-framework/studies/<study>/verification.md | append | | One verification's method and counts |
+| definition | docs/v3-framework/studies/<study>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under |
+| items | docs/v3-framework/studies/<study>/batches/<batch>/items/ | frozen | | The item bodies |
+| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |
 
 ## Companions
 
@@ -166,13 +173,13 @@ Enables promoting-checked-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| referee-run | session | runner | studies calibration codebook candidates | items | specified | The batch under the host |
-| referee-judge | agent | | codebook items | results | specified | Writes the falsifier blind |
+| referee-run | session | runner | studies calibration directions candidates | definition items | specified | The batch under the host |
+| referee-judge | agent | | directions items | results | specified | Writes the falsifier blind |
 | referee-append | session | | results candidates | candidates | specified | Copies each verdict under its candidate |
 
 ## Preconditions
 
-The codebook is calibrated.
+The referee's directions are calibrated.
 
 ## referee-run
 
@@ -214,6 +221,7 @@ Gives the referee a source.
 | `ref.companion` | an activity but the terminus has no `<id>.md` |
 | `ref.schema` | a schema cell is not a link, its text is not a slug ending in `-schema`, is an artifact id, points at a file other than the one its text names, or names no file |
 | `schema.shape` | a schema file's title is not `# <its id>` |
+| `schema.fields` | a schema file in the four-section shape has a Shape outside the grammar: no sections table with the columns section, present, holds; a field or column table without the columns key or column, present, type, value; a present value other than required or optional; a holds value outside the five; a type outside the vocabulary, or a reference type naming a class no row declares |
 | `row.mode-count`, `enum.mode`, `enum.state`, `enum.mutation` | a mode cell holds other than one value, or a mode, state or mutation is outside its set |
 | `row.reads-empty`, `row.writes-empty` | a process reads nothing (instruments that are artifacts count) or writes nothing |
 | `row.hitl-writes-nothing` | an hitl process writes nothing |
@@ -232,4 +240,4 @@ Gives the referee a source.
 | `skill.line-budget`, `skill.description-missing`, `skill.description-length` | SKILL.md is over 500 lines, or its description is missing or over 1024 characters |
 | `skill.companion-unlinked` | a file in the folder root is not named by SKILL.md |
 | `enables.vacuous`, `gate.vacuous`, `question-list.vacuous` | reported, never failed: a check whose subject set is empty, such as an edge into the terminus |
-| `info.artifact.never-written`, `info.instrument.free-name`, `info.unused-enum-value`, `info.generated.inline-block` | reported, never failed: an artifact no process writes, an instrument that is a free name, a declared value no row uses, a generated block still inside an authored file |
+| `info.artifact.never-written`, `info.instrument.free-name`, `info.unused-enum-value`, `info.generated.inline-block`, `check.no-row` | reported, never failed: an artifact no process writes, an instrument that is a free name, a declared value no row uses, a generated block still inside an authored file, a class with a checker whose row gives no in-repo file pattern |
