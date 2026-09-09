@@ -19,18 +19,39 @@ wrong-shaped. A revision is never triggered by a hypothesis's content.
 The procedure serves what Brian asked for: "I want rigor instead of less friction now and
 more churn later."
 
-A unit of revision opens with its decision list: the decisions the session proposes, one
-line each, ordered by the session widest-reaching first with each dependency on an earlier
-one named; Brian reorders, removes or adds, and the first decision is taken only after he
-has seen the list.
+A unit of revision opens with a queue of starting points: the decisions the session
+proposes, one line each, ordered widest-reaching first; Brian reorders, removes or adds,
+and none is taken until he has seen the queue. Taking a starting point opens a stack with
+it at the bottom: deliberating any decision on the stack pushes the decisions it surfaces
+on top; nothing is written until it is popped, and the pop is from the top, so the
+starting point is written last and may name the entries written above it. A stack is
+worked to empty before the next starting point is taken, and the queue is then presented
+again, re-ordered and re-formed; it is never presented as settled, and no remaining item
+is described as if it would land as written.
 For each decision the session states the frame before any option:
 
 - the finding;
-- what exists under the change, in files, rows, code, tests and decisions;
-- the precedent, by a grep of `decisions.md` and a reading of the closed founding record;
+- what exists under the change, in files, rows, code, tests and decisions, and per part
+  when it entered, whose requirement it answered, and whether it was built for one
+  instance and then generalised; a part built for one instance is presumed that
+  instance's until a second consumer is shown;
+- the precedent, by a grep of `decisions.md`, a reading of the closed founding record,
+  and the code-sessions archive: for a word, who first used it and when, and whether
+  Brian typed it, selected it or never used it; for a design, when each part entered and
+  in answer to what; a recall of Brian's about the method is checked there before a
+  decision rests on it, and the entry says what the archive showed;
+- the consumers of anything the decision would name: who reads it, who writes it, what
+  each does with it, and whether it needs a name at all; a thing no consumer reaches for
+  by name is not named, and a thing whose consumers are all another's is folded into it;
 - the words the finding and the options will use, checked against SKILL.md § Vocabulary
   and against their ordinary sense; a word that collides is split by its own decision
-  before this one;
+  before this one; a session's word Brian never used is presumed replaceable, his typed
+  word presumed kept, until a consumer says otherwise;
+- the invariants the finding touches; a proposal that carries an exception, a second
+  path for one class, a placeholder, a row with a special corpus or folder, a rule with a
+  named exemption, is not an option until the two invariants whose collision produced it
+  are named and the cost of each yielding shown; the decision says which yields and
+  why, or records the exception as the deliberate cost of keeping both;
 - the audit units touched, if the revision has a tally.
 
 Then the options, each with what it costs and buys, the session's recommendation marked
@@ -59,7 +80,20 @@ and writers, every process and schema `map.md` lists as its consumers, have thei
 instructions brought current in the same write: an activity file says what an entry
 carries in words and names no field, a schema that cites the class cites it in the form
 fixed here ahead of its own review, and a grep of the folder for the old names and
-citation forms closes the step.
+citation forms closes the step. The first real files of a class are evidence of what the
+class must hold, never a template for how its files look.
+
+Before a run of autonomous work, the session enumerates every choice the run would
+otherwise make on its own, walking everything the run will write and asking of each
+thing what an entry has fixed and what it has not; schemas, rows, paths, checks, verbs
+and files are where such choices have hidden so far, and the walk is not confined to
+them. Each choice found is decided before the run, as an entry, or the run does not
+start. A run has no planned stop: it ends at the first act the method reserves to Brian,
+among them an entry to approve, a check to arm without its decision, a first file to
+review, a commit. A run that meets a choice it did not enumerate ends there, pushes the
+choice, and takes nothing; what it has done to that point stands as far as it is
+consistent with what was decided. Brian's skepticism that everything is decided is
+answered by the enumeration being shown, never by a sentence that nothing remains.
 
 Two lints gate a revision. The first is structure: the write hook runs `check`
 (`process-docs/StoryPlanner.DocIntegrity`) over the skill folder at every write and
@@ -115,8 +149,11 @@ questions per unit and writes one block per unit under the unit's id.
 - Presents an option before the frame above is complete, or offers two options as the
   only two when the frame has not shown the space they sit in; a question Brian asks
   inside a pair is answered by re-examining the pair, not by picking one.
-- Takes a decision the unit's decision list did not carry when Brian saw it; a decision
-  that arises mid-unit is added to the list and placed in it before it is taken.
+- Takes a decision that was not on the stack when Brian saw it; a decision that arises
+  mid-unit is pushed, and taken only when it is popped.
+- Presents the remaining queue as settled, or plans a stop inside an autonomous run.
+- Names a concept, or keeps a session's word, before its consumers are listed.
+- Offers a special case as an option before the invariants that produced it are named.
 - Mints a check as declared when no schema's Shape states what it holds, or as earned
   when the failure it prevents has not been observed and cited; a check across files,
   between the code and the tables, or over how a run went is earned only.

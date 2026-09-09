@@ -753,3 +753,1106 @@ rules names the old id in prose.
   the run family on a leaf only the itemizer needs; keeping the word for the manifest
   row alone, one word for one field; grounding the decision on what exploratory readers
   can cite, a claim about agents the method treats as a hypothesis.
+
+### A study id names what its directions do, never a count
+
+- id: d-2026-09-08-2
+- date: 2026-09-08
+- raised by: Brian, on the study folder: "This means the study slugs have to be more
+  specific than just verification of v1 archive. It's not all verifications. That was
+  what confused me earlier, until you reminded me that one study is one execution and
+  repeat under the same instrument is a new study." The registry id form was
+  `verification-of-<corpus>-<n>`, a corpus and an ordinal, which says nothing about
+  what the study's directions do; § Vocabulary already makes a verification one
+  execution of one set of directions over a corpus's items, a repeat being a new study.
+- decision: A study id is `<type>-of-<corpus>-<slug>`, the slug lowercase `[a-z0-9-]+`
+  naming what the directions do, unique across the registry, authored at the go and
+  never changed: `verification-of-v1-archive-scene-notes`; `exploration-of-own-fiction`
+  carries a slug only when the corpus is explored again under a different reading. No
+  ordinal. The three registered explorations keep their ids, each being its corpus's
+  only reading. The registry schema's id line and the tool's `registry.id` check change
+  to this form.
+- not taken: keeping the ordinal beside a slug, two ids for one study; an id naming the
+  directions version, which changes as they are calibrated.
+
+### A study is one set of directions over one itemizer's items; itemizers are tools
+
+- id: d-2026-09-08-3
+- date: 2026-09-08
+- raised by: Brian, on the study folder: "Should a study even have multiple itemizers?
+  What about an itemizer used in two different ways, via two different directions.md
+  (formely a codebook) that have their own calibrations?" and, on calibrating with a
+  subset, "This seems to point to there being a set of work and folders that sits
+  between study and batch." § Vocabulary makes a verification one execution of one set
+  of directions, a repeat a new study; preparing-to-verify itemizes once, authors the
+  directions against real items, calibrates on a sample and only then runs the batch.
+- decision: A study is the life of one set of directions over the items of one
+  itemizer: the directions' versions and their calibrations, the calibration batches
+  over a sample, the main batches, and for a verification its referee batches. Two
+  itemizers, or one itemizer under two sets of directions, are two studies; no folder
+  level sits between a study and its batches. An itemizer is code with tests under
+  `tools/`, outside the record, run once per batch, writing the batch's index and its
+  item bodies into the batch folder; a study holds no itemizer, and a second study
+  cutting the same corpus the same way runs the same tool into its own folders. Item
+  bodies are regenerable and uncommitted; the index is committed and names the itemizer
+  and the corpus it read; each call hashes the item it received.
+- not taken: a study holding several itemizers, which makes "one execution of one set
+  of directions" false and needs a third folder level; an itemizer script per study,
+  copied between studies that cut a corpus the same way; committed item bodies,
+  regenerable data authored beside its source.
+
+### A definition names its directions by path; the runner takes a definition and knows no root
+
+- id: d-2026-09-08-4
+- date: 2026-09-08
+- raised by: Brian: "I thought there will be no concept of a 'root setting' in the
+  runner. Every verb is parameterized by a file name for a batch's definition.md. The
+  runner uses that to know what file paths for everything else relative to the passed in
+  path of definition.md. It is the job of the skill's instruction text and the
+  DocIntegrity checker to instruct and enforce that a claude code sessions follows the
+  studies/<study>/batches/<batch>/definition.md rule." And: "what I need is the ability
+  for a definition.md to define its directions file somewhere other than a fixed
+  relative path?" The runner had refused a launch outside `fanout/` and scanned it for
+  runs, a guard and a shape it owned; the referee's batches run under directions that
+  belong to no study.
+- decision: Every batch verb, dry-run, launch and tally, takes the path of a batch's
+  `definition.md` and resolves the batch's other files relative to it; the host verbs
+  take nothing. The runner holds no root, no folder rule and no notion of a study, and
+  does not re-check a definition: where it sits and what it says are the Artifacts
+  row's pattern and the definition's schema, held by the checker at the write. The
+  definition's `directions` line is a relative path, resolved by the checker to a file
+  that exists and passes its schema, and by the runner to the bytes it hashes and
+  passes as the system prompt; the hash is the identity, and the line may point into
+  any folder. The host's page lists the batches whose definitions it finds beneath its
+  working directory, which is wherever it was started.
+- not taken: a root setting that also fixed `<root>/<study>/<batch>`, which makes the
+  runner know what a study is and leaves the referee's batches nowhere; a directions
+  line confined to the batch's own study, the invariant that yielded to one referee for
+  the method; a copy of shared directions into each study, same hash, drift on the
+  first edit; the runner running the checker before a launch, which couples the two
+  tools for a case the hook already covers.
+
+### One referee for the method, never a study
+
+- id: d-2026-09-08-5
+- date: 2026-09-08
+- raised by: Brian, on the referee's batches: "But that makes the referee a special case,
+  which I'm trying to avoid. What is the conceptual contradiction happening, between what
+  two proposed invariants?", then "What referee study? Is that a thing? Did I make it or
+  not?", "But it is not a study. It is one step in verification.", and "What is the
+  invariant that says referee is shared and reused? That feels stronger." The founding
+  record's entry of 2026-09-05, the referee's preparation is an instance, made the
+  referee a study of preparing-to-verify with `candidates` as its corpus, a session's
+  construction under Brian's question whether it was bootstrapping; the registry schema
+  carried it as `referee-<n>` with two exceptions. Rule 2, the runner skill and the
+  two-inputs ruling each state the sharing without naming it as the invariant.
+- decision: Every candidate of every verification is judged under the same directions
+  at the same hash; the referee is one instrument of the method, and a verification
+  runs it and never authors it. That sentence enters the constitutional rules. The
+  referee's directions and their calibrations live in `docs/v3-framework/referee/`,
+  belonging to no study; they are authored and calibrated by preparing-to-verify's
+  author and calibrate processes once, and again only when a ruling in promotion
+  changes them, with a sample spanning several hypotheses and verifications. Refereeing
+  is a step of each verification: its batches, calibration batches included, are that
+  verification's, under its folder, their definitions naming the referee's directions
+  by path; a calibration file cites the batch it came from. The referee's itemizer is a
+  tool under `tools/` reading a verification's candidates file and its targets'
+  statements. The `referee-<n>` rows, the registry's exceptions for them and state.md's
+  referee chain leave.
+- not taken: a study type `referee`, regular in form but a study that is one step of
+  every other; a standing folder that also holds batches, a second home for the
+  definition class; a directions line confined to the batch's study, which the sharing
+  overrides.
+
+### A study's directions sit at its top, versioned by number, each calibration beside its version
+
+- id: d-2026-09-08-6
+- date: 2026-09-08
+- raised by: Brian, on the study folder: "Directions are nested under batches, right?"
+  then, on the two placements, "What is the difference between directions.md and
+  calibration.md?", "How would a batch point to directions-N.md?", and "would a
+  plausible setup in a real study folder be: a few different direction iterations, a few
+  different calibration batches with the slugs to self describe, and then finally the
+  full corpus batch that runs with a settled directions.md, whichever the final
+  calibration I chose is?" The referee's folder took this shape under d-2026-09-08-5.
+- decision: A study's directions are `directions-N.md` at the study's top, succeeded by
+  number, each version a new file and never edited; a calibration is
+  `calibration-<date>.md` beside them, frozen, titled with the body hash of the version
+  it judged, citing the calibration batch it came from by token, and carrying the
+  labels beside Brian's blind verdicts, the agreement per class, each disagreement with
+  his ruling, and whether the version is accepted at that hash. A version is calibrated
+  when an accepting calibration exists at its hash. A batch names its version by one
+  relative path in its definition, `- directions: ../../directions-N.md`, and its calls
+  record the hash; neither a number nor a hash is written in the definition. Nothing
+  says which version is current: the accepted calibration and the full batch's
+  definition say it.
+- not taken: directions inside each batch folder, self-contained but two placements
+  for one class once the referee's are outside every batch, and no citable version but
+  a batch; a `current` pointer, derived text authored beside its source.
+
+### A study is one folder, its batches inside it
+
+- id: d-2026-09-08-7
+- date: 2026-09-08
+- raised by: Brian, on the run family: "I'm thinking a flat structure of batches/ at the
+  repo level is incoherent. Why was that made and what are the alternatives?" A study's
+  files sat in two trees whose only relation was a shared folder name, authored under
+  `docs/v3-framework/<study>/` and the runner's under `fanout/<study>/`; the split fell
+  out of the launch folder's name on 2026-09-03 and was never chosen; `fanout/` also
+  held two things that were not studies, the skill audits and the smoke test, under a
+  word, work, coined to cover the union. The contents were settled first, by
+  d-2026-09-08-2 to d-2026-09-08-6.
+- decision: A study is one directory, `docs/v3-framework/studies/<study>/`, named by its
+  registry id. At its top: its authored artifacts; its `directions-N.md` versions and
+  their `calibration-<date>.md` files; nothing else. Under `batches/<batch>/`, one
+  folder per batch holding what that execution took in and produced, its files a later
+  decision. No itemizer, which is a tool under `tools/`. The registry `studies.md` sits
+  beside `studies/`. The audit is a study type, `audit-of-<slug>`, its corpus the skill,
+  so the skill audits are study folders like any other. The smoke test is the runner's
+  own check and leaves the record for the runner's tests. `fanout/` and the word work
+  leave; the launch folder outside the repo is unchanged.
+- not taken: a top-level `studies/`, which parts a study's folder from the hypotheses it
+  cites; two trees rooted at `studies/`, the seam under better names.
+
+### A call is the directions as system prompt, one item as the message, and JSON back
+
+- id: d-2026-09-08-8
+- date: 2026-09-08
+- raised by: Brian, on the runner: "What is going into the input of a single claude code
+  call, precisely, and delineated?", "I don't the model even needs to know the id of the
+  item. The C# code can hold that in memory.", "I like replacing the coding agent
+  prompt from claude code with a system prompt.", "It seems like it would be better if
+  agent runner C# binary takes the claude code cli response text and does the writing
+  instead.", "The call only has directions and the item?", and "The effort level is
+  also a knob alongside model". The runner had composed one user message of a job
+  header, an item line, boilerplate instructions, an output path, markers, the protocol
+  and every input under hashed headings, and had the agent write its result with the
+  Write tool; Claude Code's print mode validates output against a JSON Schema and the
+  docs confirm no such thing for YAML.
+- decision: A call is one execution of the Claude Code CLI in print mode with exactly
+  these inputs: the body of the batch's directions, passed as the system prompt in
+  place of Claude Code's own and hashed as the version every result cites; the item's
+  text alone as the user message; and the batch's model and effort, both settings of
+  the definition and recorded on every call. No tools unless the definition opts one
+  in; no MCP; no transcript persisted; the launch folder outside the repo as before.
+  Whatever a study needs the agent to hold beyond the item is in the directions body
+  or in the item, by the itemizer; a call has no third input. The answer is JSON,
+  enforced by the CLI against the JSON Schema the directions declare; the runner lifts
+  it from the result event, renders it as the Markdown result file named by the item's
+  id, and keeps the event stream. The model writes no file and is told no id, no path
+  and no marker.
+- not taken: the Write tool with a path in the prompt, an opaque string nobody
+  validated; YAML, which nothing enforces; standing context as a third input of the
+  call, a second thing to hash; keeping the model's JSON on disk beside the Markdown,
+  two results for one item; model or effort per item, which makes two calls of one
+  batch incomparable.
+
+### The item is the unit; executing a batch is one call per item still without a result
+
+- id: d-2026-09-08-9
+- date: 2026-09-08
+- raised by: Brian: "I don't like job as one launch of one child. Isn't a job usually
+  the term for a batch execution..."; on the unit, "The item is the unit sounds good,
+  but please check against potential ways this could bite"; on retries, "I don't want
+  a failed out item to be have to go again in a new batch. There should be retries",
+  then "Agreed on retry being a mode that launches only the items in a batch that don't
+  have an entry yet. Then there is no retry logic within one batch."; on timeouts, "I
+  don't think there should be absolute timeouts. Only a timeout if nothing is received
+  from the streamed output."; on the verb, "Can you make it execute-batch?" The
+  runner's rule one, one job one item, stood beside a convention that put several
+  items in one job for shared context, which the two audit batches used; a job was
+  retried automatically up to a ceiling, then failed and never launched again except
+  under a new id; a twenty-minute wall clock applied to every job.
+- decision: A call judges one item and never more; a batch is one call per item; and
+  the item's id is the key of the index, the calls, the results and every citation,
+  `<study>/<batch>/<item>`. What an item is, its grain, is decided at itemization and
+  nowhere else. The verb is `execute-batch`: given a definition, the host makes exactly
+  one call for every item that has no successful call yet, so the first execution
+  calls everything, a later one calls what failed, and an execution naming one item is
+  the pilot. The runner never retries on its own, and a call's number is the execution
+  it belongs to. No call has an absolute time limit; a call is killed and recorded
+  failed only when its stream has been silent for the definition's idle limit. A later
+  execution changes nothing about the batch; anything else is a new batch.
+- not taken: task or assignment as a noun for the unit, needed only while a call could
+  take several items; automatic retries up to a ceiling, the guard against the runaway
+  of 2026-08-27 in the one form that still decides on its own; a new id to run an item
+  again; a wall-clock limit, which cuts off a long slice read for being long; launch,
+  enqueue and submit as the verb, the first two the runner's own words for starting a
+  process and for its queue.
+
+### Directions are one class for every batch: frontmatter as record, body as the system prompt
+
+- id: d-2026-09-08-10
+- date: 2026-09-08
+- raised by: Brian: "There should not be different terms for the system instruction
+  equivalent. There should be one term, regardless of whether its contents are a
+  directive to explore or a frozen an calibrated predicate and classes."; "Codebook is
+  too unfamiliar to me as well."; "I think directions should just absorb what was
+  formerly codebook, and applies to both verification and exploration. Each activity's
+  instructions specify what the directions should be."; on the sections, "are these
+  all going into the call's input? Do they all ought to be? Or is there too much
+  content?" and "some fields need to be optional, because exploration has less rules
+  than verification?"; on the output, "just as we're making schemas for the governed
+  files, a directions.md also has to make a schema for that batch's outputs?" The
+  codebook, from content analysis, and the reading protocol, from forward-plan-1, were
+  two sessions' names for one kind of file, and the codebook's shape mixed what the
+  agent needs with record-keeping under one hash.
+- decision: One class, `directions`, for every batch of every study type and for the
+  referee, in place of codebook and reading protocol; the word instrument names a
+  text nowhere. A directions file has two parts. Frontmatter is record, never in the
+  call: the questions the version freezes or reads with, cited `<corpus>/<slug>`,
+  always for a verification and an exploration and never for the referee; other
+  record fields as the schema declares. The body is the system prompt, verbatim, and
+  its hash alone is the version every call cites, so a change to the frontmatter is a
+  new file with the same hash and the same calibration. The body's sections are: what
+  the agent is given, always; how to read, for an exploration and never otherwise;
+  classes, criteria and, once a calibration has produced one, anchors, for a
+  verification and the referee and never for an exploration; what to produce, always,
+  as a JSON Schema whose fields are of four kinds, a label from the classes, one line,
+  a block, or entries in a stated form; never, when there is one. The schema declares
+  which sections each study type has and which are optional; the activity that
+  authors a study's directions says what goes in them and how they are tested,
+  calibration or a pilot. Rule 4 is reworded from codebook to directions. A pathfinder
+  reads under Brian's prompt and has directions only when the same read is repeated
+  under another model, and then one file both cite. The schema written under this
+  entry is reviewed closely by Brian at its first file, and its refinement by later
+  entries is expected.
+- not taken: two classes under two names, when the study type already says which
+  kind; the whole file as the system prompt, which made a citation edit a new
+  calibration; a machine copy of the output declaration in the frontmatter beside
+  prose for the agent, two declarations that can disagree; brief, procedure, rubric,
+  guide and charge as the umbrella word, each colliding or covering one kind only.
+
+### A batch folder is its definition, index, items, calls, results and tally, named by number and slug
+
+- id: d-2026-09-08-11
+- date: 2026-09-08
+- raised by: Brian: "Fanout also seems awkward as a folder name"; "I don't really like
+  manifest either?"; "Ledger reads like a financial tracking system"; "Not sure if
+  journal is right anymore, and it was your word. Also not sure if jsonl is correct or
+  if it should be markdown."; "batch.md semantically collides with index.md"; "Why is
+  batch.json a json instead of markdown like the rest?"; "I don't think definition.md
+  should be created by a define verb anymore. Should it be defined in a -schema... thus
+  needing a DocIntegrity check?"; on the name, "Doesn't it need more than just date and
+  model, since it has to describe what it's doing" and "Where did date come from? I'm
+  going to be running batches on the same day. Seems like a number is needed." A run
+  folder had held `run.md`, `jobs.json`, `items/manifest.md`, `ledger.jsonl`,
+  `results/`, `tally.md` and `attempts/`, in three notations, two of them generated by
+  scripts per study, under a name of `<date>[-<slug>]` from 2026-09-04.
+- decision: A batch is `batches/<nn>-<slug>/`: the number sequential within the study
+  from 01, assigned when the batch is defined and held by the checker; the slug
+  lowercase `[a-z0-9-]+`, unique in the study, authored with the batch and never
+  changed, naming what the batch does and, when two batches differ in one thing, that
+  thing. Its files: `definition.md`, authored by a session, governed by its schema and
+  held by the checker, naming the directions by path, the index, the model, the
+  effort, the idle limit and any opted-in tool, never edited after its first
+  execution; `index.md`, written by the itemizer, governed by its schema; `items/`,
+  the bodies, uncommitted; `calls.md`, written by the runner, one entry per call in
+  the record's keyed-line grammar; `results/<item id>.md`, written by the runner from
+  the model's JSON, one per item; `tally.md`, written once by the runner;
+  `attempts/`, the runner's prompts and streams, uncommitted. Nothing authored beyond
+  the definition sits in a batch; the run page is cut and what it carried in words
+  goes to the study's artifact. Everything is Markdown; nothing is JSON on disk.
+- not taken: `run.md`, whose facts were derivable and whose words belong to the
+  study; `jobs.json` and a generator, since the index is the item list; a `define`
+  verb, since the checker holds the definition at the write; JSONL for the calls, one
+  file in another notation; a date in the name, derived from the calls and useless on
+  a day with three batches; batch, job, manifest, ledger and journal as names; a name
+  that encodes the model or the directions version, derived text authored beside the
+  definition.
+
+### The runner's verbs are dry-run-batch, execute-batch, tally-batch, start and stop
+
+- id: d-2026-09-08-12
+- date: 2026-09-08
+- raised by: Brian: "The tallier needs to become C# code instead of a powershell
+  script"; "make-jobs.ps1 should become a verb of the agent runner console application,
+  just like tally. Then generator is gone from the vocabulary."; "So split is from what
+  was essentially one particular batch's itemizer? Not to be part of standard operating
+  procedure generally? Should this be moved to its own C# program?"; "Is there nothing
+  for a define verb anymore?"; "I do like the sibling verbs"; and "So the tally verb
+  is going to be code that parses the markdown that comes out of the json to markdown
+  converter that is made?" The runner had verbs for enqueue, a pilot, a dry run, split
+  and stop, and each study was to bring a generator and a tallier as scripts beside
+  its codebook; the one tallier that existed hardcoded the audit protocol's labels.
+- decision: Three batch verbs, each taking a definition's path: `dry-run-batch`
+  composes every call's prompt, hashes it and makes no call; `execute-batch` as
+  d-2026-09-08-9; `tally-batch` writes `tally.md` once, reading the definition, the
+  directions' what-to-produce and classes, the index, the calls and the result files
+  as rendered, by the same parser that holds them to the declaration, the render and
+  the parse being each other's inverse under one test and the model's JSON never read
+  back; it gives counts per label field, the items whose label is in a set named on
+  the command line, the malformed and the missing, free-text fields listed and never
+  counted, and a grouping by any column of the index. Two host verbs, `start` and
+  `stop`. The tally is C# with tests; the audit's `tally.ps1` retires with the verb's
+  first run. No generator, no `define`, no `split`: the Markdown itemizer that was the
+  split verb becomes a tool project of its own under `tools/`, the audit's itemizer.
+  The runner reads no calibration and refuses nothing on that ground; that a batch
+  runs under a calibrated version is rule 4's, held by the activity text and shown by
+  state.md. Harness control on the page as before; nothing that changes what a call
+  is.
+- not taken: a tallier per study, a reading of the directions coded by hand each
+  time; a generator, since the index is the item list; `define`, since the checker
+  holds the definition; `split` inside the runner, an itemizer for one format that
+  only the audit uses; the runner refusing an uncalibrated execution, which couples it
+  to a file it has no other reason to read; the JSON kept beside the Markdown or its
+  labels copied onto the call, two results for one item or derived text beside its
+  source.
+
+### Pathfinding is a batch of one item, the whole corpus, through the runner
+
+- id: d-2026-09-08-13
+- date: 2026-09-08
+- raised by: Brian: "Pathfinding is full corpus one and done."; then, on where it runs,
+  "There really should be a middle ground: outside the repo so there is no claude.md
+  (which is about the story planner engineering and other stuff), no memories (which
+  could be different on repeat runs), no skills loaded. MCP server optional. And the
+  system prompt for claude code which is about being an agentic coding harness should
+  be overridden with the directions I want"; and "Okay, make pathfinding a one-item
+  batch. This is fine because we have the stream so I can see what it's doing without
+  the interactive session." Every property asked for is a property of a runner call
+  under d-2026-09-08-8, and the two a repo session lacks, the directions hash and the
+  calls record, are what a repeat under another model needs. The pathfind row was a
+  session in the repo; the 2026-09-04 factorial had pathfinder jobs under a 1M context
+  as an exception to one job one item.
+- decision: A pathfinder is an `agent` process: one batch whose index has one item, the
+  corpus whole, written by an itemizer that concatenates a file corpus's texts or, for
+  a corpus read through the MCP server, writes the item as what to read and how, with
+  the definition opting the MCP server in. Its directions are the study's, how to read
+  and what to produce as entries; its result is the leads as rendered; `leads.md` is
+  written from that result by the session that joins or reviews, as from slice
+  results. No pilot, since the one item is the batch. A repeat under another model is
+  a second one-item batch, and the two are a comparison like any other. The
+  exploration's scales are one item or many, under one activity. No exploration runs
+  in the repo, and the 2026-09-04 pathfinder jobs are superseded in prose by this
+  regular form.
+- not taken: a session in the repo, which inherits CLAUDE.md, the skills and memory
+  and records neither hash nor call; a bare CLI session started by hand outside the
+  repo with a system-prompt flag, the runner with its guarantees removed, its write
+  into the repo unhooked and its transcript archived nowhere.
+
+### A study is one model too; a comparison is between studies, by the tally or by a study over them
+
+- id: d-2026-09-08-14
+- date: 2026-09-08
+- raised by: Brian: "I don't like arm either."; "Do we need to name this concept or have
+  to care about this concept, really?"; "I never deliberated this. What is the goal,
+  what are the options from first principles?"; "Should a comparison between studies
+  be a study of its own, whose corpus is the two studies? It's a higher order study.";
+  "So should I allow two full batches within the same study (alongside the calibration
+  batches) using different models? Or is a different model a different study, perhaps
+  with the same instructions?" then "Go with the first". Arms, bins and the blinding
+  key came in with the 2026-09-03 audit generator and the WU2.5 factorial, for
+  explorations only; verification comparisons existed only as hypotheses 011, 047 and
+  050. A calibration measures a model under the directions against Brian's verdicts,
+  so a second model under the same directions is uncalibrated until it has its own.
+- decision: A study is one set of directions, one itemizer, one model and effort; every
+  definition in a study names the study's model, and the checker holds that they
+  agree. A different model over the same directions is a different study, the
+  directions the same file named by path, the calibration its own, the id's slug
+  carrying the model when that is what differs. A comparison is therefore always
+  between studies. Where the two share their directions, the tally compares them
+  item by item and the agreement per class is a finding of a verification, a
+  candidate like any other; for two explorations, the review reads both leads
+  artifacts and their differences are leads about the readers, never counted. Where
+  the comparison needs judgment, two sets of directions over one corpus or two
+  explorations' lead sets matched, it is a study of its own whose corpus is the
+  artifacts compared, itemized, under calibrated directions; rule 3's guard on
+  reading the buildout's own outputs guards claims about a corpus, not claims about
+  the method. No arm, no bin, no reason assigned at a join, no key, no blinding: the
+  runner knows nothing of a comparison, and a blind sort, if ever wanted, is one call
+  under explicit context. The arm-key row and schema, the leads schema's Bins section
+  and the Never lines about opening the key leave; § Vocabulary gains comparison and
+  nothing else.
+- not taken: the model as a setting of the batch with a calibration per model inside
+  one study, which makes calibrated a two-key question and a study two things;
+  condition, trial, variant, setup, reader and pass as names for the varying thing,
+  none needed once each model is its own study; a reason list applied at the join,
+  two of whose three reasons could only be known by checking; counts of disagreements
+  between free-text lead sets, a session's matching presented as a number.
+
+### Pathfinding is a batch of one item, the whole corpus, through the runner
+
+- id: d-2026-09-08-15
+- date: 2026-09-08
+- supersedes: d-2026-09-08-13
+- raised by: d-2026-09-08-14, which made the model a property of the study; the
+  superseded entry had said a repeat under another model is a second one-item batch of
+  the same study. Brian's words that founded it stand: "Pathfinding is full corpus one
+  and done."; "There really should be a middle ground: outside the repo so there is no
+  claude.md ... no memories ... no skills loaded. MCP server optional. And the system
+  prompt for claude code which is about being an agentic coding harness should be
+  overridden with the directions I want"; "Okay, make pathfinding a one-item batch.
+  This is fine because we have the stream so I can see what it's doing without the
+  interactive session."
+- decision: A pathfinder is an `agent` process: one batch whose index has one item, the
+  corpus whole, written by an itemizer that concatenates a file corpus's texts or, for
+  a corpus read through the MCP server, writes the item as what to read and how, with
+  the definition opting the MCP server in. Its directions are the study's, how to read
+  and what to produce as entries; its result is the leads as rendered; `leads.md` is
+  written from that result by the session that joins or reviews, as from slice
+  results. No pilot, since the one item is the batch. A repeat under another model is
+  a second study, and the two are compared at the review as d-2026-09-08-14 says. The
+  exploration's scales are one item or many, under one activity. No exploration runs
+  in the repo, and the 2026-09-04 pathfinder jobs are superseded in prose by this
+  regular form.
+- not taken: a session in the repo, which inherits CLAUDE.md, the skills and memory
+  and records neither hash nor call; a bare CLI session started by hand outside the
+  repo with a system-prompt flag, the runner with its guarantees removed, its write
+  into the repo unhooked and its transcript archived nowhere; a second model as a
+  second batch of the same study, uncalibrated by that study's calibration.
+
+### The runner's words: batch, item, call, directions, definition, index, calls, result, tally, itemizer
+
+- id: d-2026-09-08-16
+- date: 2026-09-08
+- raised by: Brian: "What are all the jargon in the system as of today and what they
+  mean? I want to replace all the vocabulary with my own. I need to know where each one
+  came from." The review found four words his, fan-out, head, harness and itemizer,
+  and the rest sessions' from the evenings of 2026-09-03 and 09-04; the renames were
+  settled one by one in d-2026-09-08-8 to d-2026-09-08-15, and this entry records the
+  set so that the sweep runs once.
+- decision: The words of the runner and its artifacts, each defined in § Vocabulary or
+  by its schema, are these and no others.
+  The words in use: batch, one execution of a set of items under one definition; item,
+  the one thing a call judges; call, one execution of the CLI for one item;
+  directions, the file whose body is a batch's system prompt; definition, the batch's
+  authored settings; index, the batch's list of items; calls, the runner's file of
+  calls; result, the model's answer for one item as rendered; tally, the counts over a
+  batch's results; itemizer, code that cuts a corpus into items; comparison, two
+  studies over the same items; pilot, an execution naming one item; dry run, the
+  checks an execution would make, in memory, with nothing written; host, page and
+  ceilings as before; fan-out, head and harness in prose only.
+  The words abolished, each removed from the skill folder, the agent-runner skill,
+  CLAUDE.md and the tool's code wherever it appears: run, job, attempt, ledger,
+  journal, manifest, protocol as the name of a file, instrument as the name of a
+  text, instructions as the name of a field, generator, enumerator, arm, bin,
+  condition, work, fanout, locus, codebook, reading protocol, split, define, launch,
+  enqueue, markers, run page, and cell. The registry's `<run>` placeholder becomes
+  `<batch>`. The frozen founding record and the retired plans keep their words.
+- not taken: renaming only what collided and keeping the rest, which leaves a
+  session's coinages beside Brian's; a glossary file, when § Vocabulary is the one
+  place words are defined.
+
+### Historical material moves to docs/v3-framework-historical/; paths to it are edited in place
+
+- id: d-2026-09-08-17
+- date: 2026-09-08
+- raised by: Brian: "I don't want to pollute v3-framework with more historical record.
+  What if all historical record goes to a new docs/v3-framework-historical?" and
+  "attribution.csv is an itemizer which will be used. The rest should be moved out to
+  historical, and paths referencing them should be edited in place." The two audit
+  batches under `fanout/skill-audits/` are the runner's only executions, their results
+  written by agents as Markdown blocks with no JSON to render from; beside them under
+  `docs/v3-framework/` sat the closed founding record and spec pools, the retired
+  plans, and the handoffs and drafts of revisions 1 and 2.
+- decision: `docs/v3-framework-historical/` holds every closed thing: the founding
+  record and the spec pools; forward-plan-1, forward-plan-2 and its handoff; the
+  revision-2 handoffs, omissions draft and rulings; the retroactive referee handoff;
+  the 2026-09-05 engineering handoff; process-map draft 1; VERSION-HISTORY draft 1;
+  the WU1.4 execution plan and the WU2.15 plan; and `fanout/skill-audits/` whole, its
+  protocol, scripts and two batches, unchanged. Closed: never written again, governed
+  by no checker, one README saying what the folder is. `docs/v3-framework/` holds only
+  live artifacts, and `WU1.4-v1-scene-instincts/` stays, its `attribution.csv` being
+  the output of an itemizer a study will use. Every path that names a moved file is
+  edited in place to the new location, in decisions.md's entries included, a path
+  change being no change to a ruling; the rule that entries are never edited stands
+  for their text. `fanout/referee/codebook.md` and `fanout/smoke-test/` are deleted,
+  both in git. No batch is converted; the audit type starts with the next audit.
+- not taken: converting the two batches, fabricating definitions and results for
+  executions under other rules; leaving history under `docs/v3-framework/` beside the
+  live artifacts; leaving stale paths in frozen text and a pointer beside them.
+
+### A rewording re-queues findings into the studies that produced them; no rewording study
+
+- id: d-2026-09-08-18
+- date: 2026-09-08
+- raised by: d-2026-09-08-16 abolished `fanout/`, where the iteration-candidates
+  artifact sat; Brian asked whether parking the row was "a contradiction between
+  invariants happening that is leading to a special case", and then "So it rewording
+  ought to be a study?" It is not: a study is one set of directions over one
+  itemizer's items under one model, and a rewording authors, cuts and calibrates
+  nothing; it puts findings back in front of the referee. Every prior evidence entry
+  cites the candidate it came from, `<study>/<slug>`, in a study whose candidates
+  file is append-only.
+- decision: When Brian rewords hypothesis NNN, iterate appends, to the candidates file
+  of each study a prior evidence entry cites, one new candidate: the finding verbatim,
+  the target NNN, provenance citing the original candidate's token and the rewording's
+  date. Each such study then runs a referee batch over its new candidates, on Brian's
+  go, and promotion reads them where it reads all candidates. The
+  `iteration-candidates` row leaves; iterate writes `candidates`; referee-materialise,
+  referee-append and promote read `candidates` alone. No rewording study and no
+  fourth type.
+- not taken: a study type `rewording`, the referee-as-study construction under another
+  name; parking the row with a placeholder path, a second path for one class; folding
+  the re-queue into whichever verification comes next, which ties a hypothesis's
+  status to an unrelated study's timing.
+
+### The leads checker holds five sections; the retroactive artifacts drop their empty Bins
+
+- id: d-2026-09-08-19
+- date: 2026-09-08
+- raised by: d-2026-09-08-14 removed the leads schema's Bins section without naming the
+  check that holds the section list, which d-2026-09-07-11 requires; `leads.sections`
+  holds six sections in order, and the three retroactive artifacts each carry a Bins
+  section whose whole content is "One arm: no disagreement was measured."
+- decision: `leads.sections` holds Method, Questions in view, Leads, Proposed
+  questions, Corrections, in that order, and `leads.title` is unchanged. The three
+  retroactive leads artifacts have their Bins section removed, a fix to a file that is
+  wrong under a right class, since the section records nothing; their Method
+  sentence about one arm goes with it. The schema's Method placeholder no longer
+  names arms or labels. Whether the retroactive artifacts are brought to the rest of
+  the schema or the class starts again stays the leads review's decision.
+- not taken: an optional Bins section, a section the class no longer has kept for
+  three files that never used it; leaving the section and failing the three files at
+  every check until their review.
+
+### A unit's decisions are a queue of starting points, each the bottom of a stack
+
+- id: d-2026-09-08-20
+- date: 2026-09-08
+- supersedes: d-2026-09-07-13
+- raised by: Brian, on a unit whose first starting point became seven entries before it
+  was written: "The 1 starting decision turned into 3 decisions, and now it's more. But
+  please present these 3+ ones, one at at time... Treat it like a stack, where
+  decisions that come out of deliberation are pushed on incrementally, and when we
+  finally write something, it's popping from the stack."; on a list of eleven shown as
+  a plan, "You cannot prescribe a list because deliberation before a decision can
+  change the order or answers or frame."; and "Should it be a queue of widest first,
+  where each is the bottom of a potential stack?" The superseded entry had the unit
+  open with a list ordered widest-first and seen by Brian before the first decision,
+  which stands, and a mid-unit decision "added to the list and placed in it", which
+  the stack replaces.
+- decision: A unit opens with a queue of starting points, one line each, ordered
+  widest-first by the session and seen by Brian before any is taken; he reorders,
+  removes or adds. Taking a starting point opens a stack with it at the bottom;
+  deliberating any decision on the stack pushes the decisions it surfaces on top;
+  nothing is written until it is popped, and the pop is from the top, so the starting
+  point is written last and may name the entries written above it. A stack is worked
+  to empty before the next starting point is taken. After each stack empties the
+  queue is presented again, re-ordered and re-formed, since what was just decided
+  changes what remains; the queue is never presented as settled, and the session
+  never describes a remaining item as if it would land as written.
+- not taken: no queue, the widest alone named each time, which hides the unit's scope
+  from Brian for nothing since the session must know the rest to name the widest; a
+  flat list a mid-unit decision is inserted into, which loses the order in which
+  decisions depend on one another.
+
+### A special case names the invariants in conflict, and one yields by decision
+
+- id: d-2026-09-08-21
+- date: 2026-09-08
+- raised by: Brian, twice in one unit: on the referee's batches, "But that makes the
+  referee a special case, which I'm trying to avoid. What is the conceptual
+  contradiction happening, between what two proposed invariants? One of them has to
+  yield."; on a parked row, "Is there a contradiction between invariants happening
+  that is leading to a special case?" Both special cases dissolved once the two
+  invariants were named: the referee's, between a batch belonging to the study whose
+  directions it runs and everything about a verification's candidates sitting in its
+  folder, and the row's, between one class one path and a batch belonging to the
+  study it is a step of.
+- decision: A proposal that carries an exception, a second path for one class, a
+  placeholder, a row with a special corpus or folder, a rule with a named exemption,
+  is not presented as an option until the session has named the two invariants whose
+  collision produced it and shown the space of what each would cost to yield. The
+  decision then says which invariant yields and why, and the exception is gone, or
+  the entry records the exception as the deliberate cost of keeping both. The frame's
+  vocabulary line gains this beside the word check: what invariants the finding
+  touches.
+- not taken: an exception recorded in a schema's prose, the founding record's habit
+  with the referee, which carried two exceptions for four days; treating a special
+  case as a naming problem, which today produced three names for one collision.
+
+### A word's or a design's origin is read from the archive before it is kept; a recall about the method is checked the same way
+
+- id: d-2026-09-08-22
+- date: 2026-09-08
+- raised by: Brian: "What are all the jargon in the system as of today and what they
+  mean? I want to replace all the vocabulary with my own. I need to know where each one
+  came from."; "Which files were provisioned by me versus thrown together ad hoc to
+  meet my requirements/demands?"; "I also need to know when each thing entered the
+  picture. Was it uniform or layers on layers?"; and, on a recall of his own, "please
+  check code sessions for whether exploration studies are supposed to use agent
+  runner. The previous method was my recall, which is insufficient." The archive
+  showed four runner words his and the rest sessions', nine layers over five days,
+  and an exploration design he had selected against a recall that said otherwise.
+- decision: The frame's precedent step reads the code-sessions archive as well as
+  decisions.md and the closed record: for a word, who first used it and when, and
+  whether Brian typed it, selected it, or never used it; for a design, when each part
+  entered, whose requirement it answered, and whether it was built for one instance
+  and then generalised. A recall of Brian's about the method is a hypothesis under
+  rule 8 like any other and is checked against the archive before a decision rests on
+  it; the entry says what the archive showed. A session's word that Brian never used
+  is presumed replaceable, and his typed word is presumed kept, until a consumer says
+  otherwise.
+- not taken: provenance from decisions.md and the closed record alone, which hold
+  rulings and not coinages; asking Brian whether a word was his, which is the recall
+  the step exists to check.
+
+### A concept is named only after its consumers are listed; a part is placed only after its origin is known
+
+- id: d-2026-09-08-23
+- date: 2026-09-08
+- raised by: Brian: "Do we need to name this concept or have to care about this
+  concept, really?"; "Who will be reading these and cross referencing?"; "What is the
+  generator for?"; "What is 'tallier' as of today?"; "Is this only about exploration
+  or is there also comparison between verification?" Under those questions arm,
+  condition, generator, define, run, work and the pre-sorted disagreement dissolved,
+  each having been named before anyone asked who used it; and the runner's files
+  turned out to be one audit's conveniences generalised into the layout.
+- decision: Before a word is chosen for a thing, the session lists the thing's
+  consumers, who reads it, who writes it, what each does with it, and asks whether
+  the thing needs a name at all; a thing no consumer reaches for by name is not
+  named, and a thing whose consumers are all one other thing's is folded into it.
+  The frame's "what exists under the change" gains, per part, when it entered, whose
+  requirement it answered, and whether it was built for one instance and then
+  generalised; a part built for one instance is presumed that instance's until a
+  second consumer is shown. The first real files of a class are evidence of what the
+  class must hold and never a template for how its files look.
+- not taken: naming for readability alone, which is how a session's metaphor becomes
+  a term; treating the audit's two runs as the model of a batch, which would have
+  designed for the skill audit again.
+
+### Everything decidable is decided before an autonomous run; the run ends at the first act reserved to Brian
+
+- id: d-2026-09-08-24
+- date: 2026-09-08
+- raised by: Brian: "What will be the next run of autonomous work, what causes it to
+  stop, and what has to be decided before that can start?"; "And what else is still
+  open before the autonomous work? Consider carefully. I am skeptical that this is
+  everything that blocks the autonomous work."; and, on a run with stops planned
+  inside it, "I don't want planned stops. By definition it's autonomous. The planned
+  stop is when auto ends. The methodology should try to get as much as possible
+  decided so that things aren't made on the fly." The second enumeration had found
+  four choices the first missed, among them the check ids of three schemas, which
+  d-2026-09-07-11 requires a decision to name before a checker is armed; the
+  session had proposed stopping inside the run for them.
+- decision: Before a run of autonomous work, the session enumerates every choice the
+  run would otherwise make on its own, walking everything the run will write and
+  asking of each thing what an entry has fixed and what it has not; schemas, rows,
+  paths, checks, verbs and files are where such choices have hidden so far, and the
+  walk is not confined to them. Each choice found is decided before the run, as an
+  entry, or the run does not start. A run has no planned stop. It ends at the first
+  act the method reserves to Brian, among them an entry to approve, a check to arm
+  without its decision, a first file to review, a commit. A run that meets a choice
+  it did not enumerate ends there, pushes the choice, and takes nothing; what it has
+  done to that point stands as far as it is consistent with what was decided.
+  Brian's skepticism is answered by the enumeration being shown, never by a sentence
+  that nothing remains.
+- not taken: stops planned inside a run for decisions the session foresaw, which
+  makes the run a schedule of Brian's decisions instead of autonomous work; starting
+  the run and returning with what it decided, the founding pattern this method was
+  rewritten to end; a run that decides small things and reports them, since which
+  things are small is the choice.
+
+### A file is governed by its path or by reference; the checker follows the reference both ways
+
+- id: d-2026-09-08-25
+- date: 2026-09-08
+- raised by: Brian, on the referee's directions, which no study's row could match: "I
+  thought directions became a relative path that definition.md writes, and the
+  consumers must follow the trail" and "It should be governed by reference only, with
+  C# Code that follows the reference? Otherwise there is a special case which should
+  not happen." A second row for the referee's file had been proposed; d-2026-09-08-4
+  had already made the directions line a path resolved wherever it points.
+- decision: A file is governed in one of two ways. By path, when an Artifacts row's
+  pattern matches it, as before. By reference, when a governed file's declared
+  reference resolves to it: the checker holds the target to the schema the reference
+  declares. The checker follows the trail both ways: checking a referencing file
+  checks its targets, and on a write to a file no row matches, the hook searches the
+  referencing classes for a reference that resolves to it and checks it as that
+  target; `check .` walks every reference. Where a file sits is never a ground for
+  governing it. The referee's directions and calibrations are governed this way and
+  by nothing else; no row names them.
+- not taken: a second class for the referee's files, one row per home for one shape;
+  a file left unchecked at its own write until a definition names it; a file governed
+  because it sits beside a governed one, a location made into a rule.
+
+### A definition names the calibration that licenses its batch; the checker holds the three agree
+
+- id: d-2026-09-08-26
+- date: 2026-09-08
+- raised by: Brian, on a sentence in the draft directions schema: "'The schema declares
+  a calibration sits besides the version it judges' - what is doing this and where did
+  it come from? Is this just something that wasn't deliberated or tightened?" It was
+  not: d-2026-09-08-6 placed a calibration beside its version as a location, the
+  session had turned the location into a ground for governing the referee's
+  calibration, and nothing in the record referenced a calibration at all, since a
+  calibration references its version by the hash in its title and no file references
+  it. d-2026-09-08-12 had left "a batch runs under a calibrated version" to the
+  activity text and state.md.
+- decision: A definition whose batch runs under calibrated directions carries one
+  line, `- calibration: <relative path>`, naming the accepting calibration of the
+  version its `directions` line names; absent for an exploration's batch and for a
+  calibration batch. The checker holds the three together at the definition's write:
+  the directions resolve, the calibration resolves, the calibration's title hash
+  equals the directions' body hash, and its verdict is accepted. Rule 4's gate is
+  thereby held at the write, and the referee's calibrations are governed by reference
+  through the referee batches' definitions. Beside is where a calibration sits and
+  nothing more.
+- not taken: a calibration governed by sitting beside a referenced file, a location
+  made into a rule; the gate left to prose and state.md, which lets an uncalibrated
+  batch be defined and noticed later; the runner reading calibrations, which
+  d-2026-09-08-12 refused and this does not need.
+
+### Directions are one class for every batch: frontmatter as record, body as the system prompt; classes and criteria, no anchors; fields declared, the schema derived
+
+- id: d-2026-09-09-1
+- date: 2026-09-09
+- supersedes: d-2026-09-08-10
+- raised by: Brian, reviewing the draft directions schema: "where did Criteria come from?
+  What about boundary statement? What about anchors? What do these do and why do they
+  exist?", "Are anchors going to lead to overfitting?", "If classes and criteria are
+  givens, do we even need custom json schema or is it always going to be the same? Or,
+  we still need to specify free text fields, telling the model what to put in there.
+  Where would that go?" The archive shows the triad of definition, decision rule and
+  anchor example entering on 2026-09-04 from a session's reanalysis of the referee's
+  codebook, the content-analysis coding-scheme shape; Brian selected criteria as the
+  name for decision rule on 2026-09-07 and typed none of the three. Anchors drawn
+  from calibration disagreements overfit the model to those items and leak them into
+  the next calibration's sample; a hand-written JSON Schema repeats the classes as an
+  enum and is derivable from a declaration of the fields. The superseded entry's
+  founding words and the rest of its ruling stand.
+- decision: One class, `directions`, for every batch of every study type and for the
+  referee, in place of codebook and reading protocol; the word instrument names a
+  text nowhere. A directions file has two parts. Frontmatter is record, never in the
+  call: the questions the version freezes or reads with, cited `<corpus>/<slug>`,
+  always for a verification and an exploration and never for the referee or an
+  audit. The body is the system prompt, verbatim, and its hash alone is the version
+  every call cites, so a change to the frontmatter is a new file with the same hash
+  and the same calibration. The body's sections: what the agent is given, always;
+  how to read, for an exploration and never otherwise; classes, each a label and
+  what an item shows, one reserved for an item the criteria cannot place, and
+  criteria, the rules that decide an item between classes, both for a verification,
+  the referee and an audit and never for an exploration; what to produce, always, as
+  keyed lines, one per field, each naming the field's kind, a label from the classes,
+  one line, a block, or entries in a stated form, and for a free field what the
+  model is to put in it; never, when there is one. No anchors: a calibration ruling
+  becomes a criterion stated generally, and the item it came from stays in the
+  calibration file. The JSON Schema the CLI enforces is derived by the runner from
+  the what-to-produce lines and the classes, and is written nowhere. The schema
+  declares which sections each study type has and which are optional; the activity
+  that authors a study's directions says what goes in them and how they are tested.
+  Rule 4 is reworded from codebook to directions. A pathfinder's directions exist
+  only when the same read is repeated under another model. The schema written under
+  this entry is reviewed closely by Brian at its first file, and its refinement by
+  later entries is expected.
+- not taken: anchors under criteria, examples harvested from disagreements, which
+  overfit and leak; a hand-written JSON Schema in the body, an enum repeating the
+  classes and a form a tool derives; classes and anchors with no criteria, rules by
+  example only; two classes under two names; the whole file as the system prompt;
+  brief, procedure, rubric, guide and charge as the umbrella word.
+
+### The directions schema is written; its six checks and its row are named
+
+- id: d-2026-09-09-2
+- date: 2026-09-09
+- raised by: d-2026-09-09-1 fixed the class; the schema file was drafted from it and
+  reviewed by Brian: "Good enough for a first draft, to be tested later." Under
+  d-2026-09-07-11 a check is armed only after a decision names its id.
+- decision: `schemas/directions-schema.md` is the schema of the class `directions`,
+  in the four sections, its Example the checker's fixture. The Artifacts row is
+  `directions` at `docs/v3-framework/studies/<study>/directions-N.md`, mutation
+  succeeded; the referee's directions are the same class governed by reference under
+  d-2026-09-08-25, with no row. The checks, held by DocIntegrity from the run that
+  builds them: `directions.frontmatter`, `directions.sections`, `directions.classes`,
+  `directions.criteria`, `directions.output`, `directions.version`, each failing as
+  the schema's Checks section says. The codebook and reading-protocol rows and their
+  schema files leave. The first directions file written under the schema is
+  presented to Brian before a second, and the schema is expected to be refined by
+  later entries.
+- not taken: arming the checks from the draft without this entry; keeping
+  codebook-schema and reading-protocol-schema beside the new file until their
+  classes' next review, two schemas for classes that no longer exist.
+
+### A Shape types every field from one vocabulary; a checker holds the types through one engine
+
+- id: d-2026-09-09-3
+- date: 2026-09-09
+- raised by: Brian, reviewing the draft index schema: "There's no column defining types
+  of the columns/keys? Wouldn't sqlite require that? Would a document model require
+  it?", and on the enum, "Is label a document model established word or not?" then
+  "Yes, use enum." The Shape tables of the landed schemas said each field's type in
+  prose, and each checker re-implemented the prose by hand; the results grammar
+  already had four kinds, one of them called label, a classifier's word and no schema
+  language's. Entry d-2026-09-07-3 refused converting unreviewed schemas in one pass.
+- decision: The skill schema declares a type vocabulary for the record's fields: slug,
+  a lowercase `[a-z0-9-]+` unique in its file; token, `<file's id>/<slug>`, resolving
+  to an entry of the class named; id, `NNN`, resolving to a hypothesis file; path, a
+  relative path resolving to a file of the class named; date, `YYYY-MM-DD`; timestamp,
+  `YYYY-MM-DDTHH:MM`; hash, SHA-256 hex; enum, one of a closed set the schema names,
+  or for a result field the directions' Classes; line, free text without a newline;
+  block, free text with continuation lines; list, space-separated values of one of
+  the above. A Shape table has a `type` column from now, each field one type with any
+  further constraint stated beside it; the two landed schemas, decisions and
+  questions, gain the column at once from their prose; a directions declaration says
+  `enum` where it said label, and label is a prose word only. DocIntegrity holds a
+  Shape's types through one engine that reads them; the directions, index and
+  definition checkers are built on it, and the decisions and questions checkers are
+  migrated onto it in the same run with a predicted first run of zero failures. A
+  checker whose schema has no typed Shape stays as it is and migrates at its class's
+  review, when its Shape is written.
+- not taken: types in prose, eleven parsers for one grammar; label as a type, which no
+  schema language has; writing typed Shapes now for the four unreviewed classes so
+  their checkers could migrate, the mechanical pass d-2026-09-07-3 refused.
+
+### The index schema is written; its five checks and its row are named; the field is locator
+
+- id: d-2026-09-09-4
+- date: 2026-09-09
+- raised by: d-2026-09-08-3 and d-2026-09-08-9 fixed the class; the schema file was
+  drafted and reviewed by Brian, who ruled the field's name on the way: "Isn't origin
+  (the owner) and 'position' different concepts? ... It needs to be corpus agnostic.
+  v1 archive is a single sqlite db while fimfiction stories are different markdown
+  files for each story.", "Locator is best", and for the head line "locator notation
+  makes the most sense"; then "Good for first pass, proceed to next step". Position
+  had been the session's word in d-2026-09-08-1 and locus before it.
+- decision: `schemas/index-schema.md` is the schema of the class `index`, in the four
+  sections, its Example the checker's fixture. The Artifacts row is `index` at
+  `docs/v3-framework/studies/<study>/batches/<batch>/index.md`, mutation frozen. An
+  item's field for retrieval is its `locator`: whatever retrieves the item from the
+  corpus through the reader CORPORA.md names, one part or several as the corpus needs,
+  in the form the index head's `locator notation` line states, which is the
+  itemizer's and is reviewed at that itemizer's first index. The word position leaves
+  with the rest. The checks: `index.title`, `index.head`, `index.table`, `index.item`,
+  `index.locator`, each failing as the schema's Checks section says. The first index
+  written under the schema is presented to Brian before a second.
+- not taken: origin, which named the owner and not the place; position, which named
+  the place and not the owner; a grammar per corpus fixed in the schema ahead of any
+  itemizer, which d-2026-09-08-1 refused; arming the checks without this entry.
+
+### A Shape is written in one grammar; the engine derives a JSON Schema from it, validates by the standard, and resolves references itself
+
+- id: d-2026-09-09-5
+- date: 2026-09-09
+- supersedes: d-2026-09-07-19
+- raised by: Brian, on the definition schema: "Are the values for the present column ad
+  hoc or governed?", "Shouldn't this be tightened in skill-schema?", "What else is
+  lacking? This seems like an obvious miss", "Is this the end of the escalation of
+  governance rules?", "Will this simplify the code?" and "Is this the right way to do
+  it from first principles?" then "Let's go with that". The superseded entry had a
+  Shape declare five things in prose, which each schema then declared in its own
+  prose and each checker parsed by hand; the walk found references naming their
+  class only in the value column, sections declared three different ways, entry
+  headings and appended lines as sentences, table columns with no present rule, six
+  title forms, and Checks, Queries and Example held by nothing. A home-made walk of a
+  file against a table would have been the validator the results decision refused
+  in favour of a derived JSON Schema. The superseded entry's schema-review procedure
+  stands as written in revising-the-method.
+- decision: A Shape is written in one grammar, declared once in the skill schema, and
+  it is the last level: what holds it is the engine's tests, and no document governs
+  it. The grammar: a title of the form `# <own id> — <class word>` for every class,
+  the own id being the file's, the folder's or the study's as the schema says; a
+  sections table with the columns section, present and holds, holds one of fields,
+  entries, table, prose, fenced; a field table with the columns key, present, type and
+  value; a type from the vocabulary of d-2026-09-09-3, a reference type naming its
+  target class, `path to <class>`, `token of <class>`, `id of <class>`, and `list of`
+  any type; present one of `required`, `optional`, or `conditional: <condition in
+  words>`, every conditional field named in a Checks row that holds its condition; an
+  entry array declared by its heading's type and its field table; an appended line
+  declared by its form, its multiplicity and the process that writes it; a table
+  class declared by a column table with present and type; a file whose sections
+  carry different mutations naming each; Checks with the columns check and fails
+  when, ids `<class>.<name>` unique in the file; Queries with the columns question
+  and how; an Example whose first fenced block is the fixture. The engine holds a
+  Shape thus: under the document model a governed file is one object, keyed lines its
+  properties, `###` entries an array of objects, a table an array of rows,
+  frontmatter an object, prose a string, by one fixed mapping that the runner uses
+  in the other direction to render a result; the engine parses the file to its
+  object, derives a JSON Schema from the Shape as the runner derives one from
+  What to produce, validates the object by a standard validator, resolves every
+  typed reference itself, and applies the class's own rules, the ones no schema
+  language expresses. The skill schema's "A schema file" paragraph states the
+  grammar, and `schema.fields` holds it for every schema in the four-section shape;
+  `schema.shape` holds the title alone until the last converts. The five Shape
+  tables that exist are brought to the grammar now. A new type, present value or
+  holds value is an entry adding a word, never a new level.
+- not taken: declarations in each schema's own prose, one parser per schema; a
+  home-made validator walking files against tables, when a standard does that part;
+  a condition grammar the engine evaluates, a language for a handful of cells; a
+  document above the skill schema, which would govern nothing the engine's tests do
+  not; waiting for the last schema to convert before holding the five that have.
+
+### A Shape is one grammar, defined in the skill schema, compiled to JSON Schema and held by the standard
+
+- id: d-2026-09-09-6
+- date: 2026-09-09
+- supersedes: d-2026-09-09-5
+- raised by: Brian: "Are the values for the present column ad hoc or governed?",
+  "Shouldn't this be tightened in skill-schema?", "Is this the end of the escalation
+  of governance rules?", "Is this the right way to do it from first principles?", on
+  the title clause "What is this all for?", and on the whole "keep things as simple
+  as possible while keeping the rigor such that this is the last escalation". The
+  superseded entry carried the grammar's definition and a title rule of the
+  session's that had two exceptions before it was written.
+- decision: Every Shape is written in one grammar, defined in `schemas/skill-schema.md`
+  § A schema file and nowhere else: sections, fields and entries as tables with the
+  columns key, present, type and value; present one of required, optional,
+  conditional; types from d-2026-09-09-3, each defined there by its JSON Schema
+  fragment, references naming their target class. The engine compiles a Shape to a
+  JSON Schema by substituting those fragments, parses a governed file to one object
+  by the mapping the runner also renders results with, validates by a standard
+  validator, resolves references itself, and applies the class's own rules named in
+  its Checks. `schema.fields` holds every converted schema to the grammar. This is
+  the last level: the grammar is held by the engine's tests, and a new word in a
+  vocabulary is an entry, never a new level. A title is a class's own to declare and
+  hold; the grammar says nothing of titles.
+- not taken: the grammar restated in the entry, the definition beside its record; a
+  title rule in the grammar; a home-made validator; Shapes written as raw JSON Schema,
+  which loses the writer's table for nothing the fragments do not keep.
+
+### The item is the unit; executing a batch is one call per item still without a result; the idle limit is the host's
+
+- id: d-2026-09-09-7
+- date: 2026-09-09
+- supersedes: d-2026-09-08-9
+- raised by: Brian, reviewing the draft definition schema: "idle limit should be a
+  property of the long lived agent runner program, adjustable via the head". The
+  superseded entry had made it a field of the definition; its founding words stand.
+- decision: A call judges one item and never more; a batch is one call per item; the
+  item's id is the key of the index, the calls, the results and every citation,
+  `<study>/<batch>/<item>`; what an item is, its grain, is decided at itemization
+  and nowhere else. `execute-batch`, given a definition, makes one call for every
+  item with no successful call yet: the first execution calls everything, a later
+  one what failed, and one naming an item is the pilot. The runner never retries on
+  its own; a call's number is its execution's. No call has an absolute time limit; a
+  call is killed and recorded failed only when its stream has been silent for the
+  host's idle limit, a host setting beside its parallel ceiling and usage cap, in its
+  configuration and adjustable on its page, never a batch's. A later execution
+  changes nothing about the batch; anything else is a new batch.
+- not taken: an idle limit per batch, a harness setting in the record; task or
+  assignment as the unit's noun; automatic retries; a new id to run an item again; a
+  wall-clock limit; launch, enqueue and submit as the verb.
+
+### A Shape is one grammar, defined in the skill schema, compiled to JSON Schema and held by the standard; present is required or optional
+
+- id: d-2026-09-09-8
+- date: 2026-09-09
+- supersedes: d-2026-09-09-6
+- raised by: Brian: "Should conditional be a thing at all? That just seems to make the
+  checker's job harder and the grammar more complex. Where did it come from?" It was
+  the session's word from the morning's sorting of the present column; a condition
+  in words is held by a hand-written check in every case, so the word promised what
+  the engine does not do. The rest of the superseded entry stands, with its founding
+  words.
+- decision: Every Shape is written in one grammar, defined in `schemas/skill-schema.md`
+  § A schema file and nowhere else: sections, fields and entries as tables with the
+  columns key, present, type and value; present `required` or `optional`, any rule
+  about when an optional field appears being a class's own, named in its Checks;
+  types from d-2026-09-09-3, each defined there by its JSON Schema fragment,
+  references naming their target class. The engine compiles a Shape to a JSON Schema
+  by substituting those fragments, parses a governed file to one object by the
+  mapping the runner also renders results with, validates by a standard validator,
+  resolves references itself, and applies the class's own rules. `schema.fields`
+  holds every converted schema to the grammar. This is the last level. A title is a
+  class's own to declare and hold.
+- not taken: `conditional: <words>` as a present value, a promise the engine could not
+  keep; conditions in a grammar the engine evaluates, a language for a handful of
+  cells.
+
+### The definition schema is written; its seven checks and its row are named; a batch declares its kind
+
+- id: d-2026-09-09-9
+- date: 2026-09-09
+- raised by: d-2026-09-08-4, -8, -11, -14 and -26 fixed the class; the schema file was
+  drafted and reviewed by Brian, whose idle-limit ruling became d-2026-09-09-7 and
+  who asked of the calibration line "How would the conditional calibration present
+  be checked by the checker? Is it incoherent to let that stand?" It was: whether a
+  batch is a calibration sample is known only to the session defining it, and the
+  draft had the checker read it from the line's own absence or from a slug. The draft
+  also left out an `index` line, the index being always `index.md` beside the
+  definition.
+- decision: `schemas/definition-schema.md` is the schema of the class `definition`,
+  in the four sections, its Example the checker's fixture. The Artifacts row is
+  `definition` at `docs/v3-framework/studies/<study>/batches/<batch>/definition.md`,
+  mutation frozen. Its fields are `directions`, `kind`, `calibration`, `model`,
+  `effort`, `tools` and `mcp`: `kind`, present exactly when the directions have
+  Classes, is `sample`, the batch a calibration is scored on under a version not yet
+  accepted, or `full`, a batch under an accepted version; `calibration` is present
+  exactly when `kind` is `full`. No `index` line. The checks: `definition.batch`,
+  `definition.title`, `definition.fields`, `definition.directions`,
+  `definition.calibration`, `definition.model`, `definition.frozen`, each failing as
+  the schema's Checks section says; `definition.frozen` reads the hash the calls file
+  records at the first execution. The first definition written under the schema is
+  presented to Brian before a second.
+- not taken: a calibration batch told apart by its missing line or its slug; an
+  `index` line always holding `index.md`; arming the checks without this entry.
+
+### Historical material moves to docs/v3-framework-historical/; the retroactive explorations go with it
+
+- id: d-2026-09-09-10
+- date: 2026-09-09
+- supersedes: d-2026-09-08-17
+- raised by: the run's enumeration found eight files under `docs/v3-framework/` on no
+  list, and Brian ruled: "Those 8 files are historical. Also the leads are historical
+  retroactive or not?" The three retroactive explorations were in-repo sessions of
+  2026-08-31 and 09-01 under the full stack, re-housed with registry rows on 09-06;
+  under d-2026-09-08-15 an exploration is a batch through the runner with directions
+  and a calls file, and none can be brought to that without running again. The
+  superseded entry's founding words and ruling stand, extended.
+- decision: `docs/v3-framework-historical/` holds every closed thing: the founding
+  record and the spec pools; forward-plan-1, its ordering audit, forward-plan-2 and
+  its handoff; the revision-2 handoffs, omissions draft and rulings; the retroactive
+  referee handoff; the 2026-09-05 engineering handoff; process-map draft 1;
+  VERSION-HISTORY draft 1; the WU1.1, WU1.2 and WU1.3 syntheses; the WU1.4 execution
+  plan and the WU2.15 plan; the consolidation plan and consolidation 1; the raw
+  pipeline hypotheses; the 2026-09-06 code-session audit; the three retroactive
+  explorations, `exploration-of-fimfiction-stories`, `-google-keep` and
+  `-own-fiction`, whose registry rows leave, so that the registry is empty until the
+  first study under the method; and `fanout/skill-audits/` whole. Closed: never
+  written again, governed by no checker, one README. `docs/v3-framework/` holds only
+  live artifacts: decisions.md, studies.md, the hypotheses, the questions, the
+  studies, `methodology-revision-1.md`, `implementation-candidates.md`, and
+  `WU1.4-v1-scene-instincts/`, an itemizer's output a study will use. Every path
+  naming a moved file is edited in place, decisions.md's entries included, a path
+  change being no change to a ruling. `fanout/referee/codebook.md` and
+  `fanout/smoke-test/` are deleted, both in git. No batch and no exploration is
+  converted; what a retroactive artifact proposed enters a question list when Brian
+  asks it.
+- not taken: the three explorations brought to the leads schema, sessions with no
+  hash and no calls dressed as batches; their rows kept in the registry, three studies
+  the method cannot account for; converting the audit batches; leaving history beside
+  the live artifacts.
+
+### Results are the runner's: no schema file; the mapping is code; the tally and the checker both hold them
+
+- id: d-2026-09-09-11
+- date: 2026-09-09
+- raised by: the run's enumeration asked where the sentence "a result's keys are its
+  directions' declaration" lives; the session offered a results-schema file, and
+  Brian: "I thought this is defined in C# code", "are query patterns needed in a skill
+  somewhere?", and on who confirms a result matches its directions, "Have both". The
+  mapping from the model's JSON to the file is the runner's, and the tally parses it
+  back by the same code.
+- decision: The `results` row links no schema, like `calls` and `tally`. A result is
+  `results/<item>.md`, one per item of the index, its keys the directions' What to
+  produce in that order, an enum or line as `- key: value`, a block with continuation
+  lines, a list of line as bullets; the runner skill states this where it documents
+  the mapping, and carries one Queries table for results, calls and tally, one grep
+  per question a reader asks of them; the row's description says what a result is in
+  a few words. Two tools hold a result: the tally reports any that do not match the
+  declaration as malformed when it is written, and DocIntegrity's `check .` follows
+  a batch's definition to its directions, compiles the declaration as it compiles a
+  Shape, and validates every result file, so a bad or edited result is caught at any
+  check; the check id is `results.declared`.
+- not taken: a results-schema file, the mapping restated in words beside the code
+  that is the mapping; the tally alone, which reads results once and never again;
+  queries nowhere, which leaves the most-read file without its greps.
+
+### Three existing checks change what they hold: registry.type, registry.corpus, hypothesis.evidence.citation
+
+- id: d-2026-09-09-12
+- date: 2026-09-09
+- raised by: the run's enumeration, under d-2026-09-07-11, which requires a decision to
+  name a check it changes. d-2026-09-08-2, -5, -7 and -16 changed what three checks
+  hold without naming them.
+- decision: `registry.type` holds that a study's type is the one its id's prefix
+  names, `verification-of-` verification, `exploration-of-` exploration, `audit-of-`
+  audit, with no referee case. `registry.corpus` holds that the corpus cell is an id
+  in CORPORA.md, `verified-artifacts` for a study over the buildout's own outputs, or
+  `skill` for an audit, with `candidates` no longer a value. `hypothesis.evidence.citation`
+  holds the evidence entry's citation as `(<study>/<slug>; directions-N@<hash>)`, the
+  candidate's token and the directions version and body hash it was judged under, in
+  place of a codebook. Each fails as before otherwise.
+- not taken: arming the changed checks from the entries that changed the classes,
+  which did not name them.

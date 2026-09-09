@@ -6,24 +6,24 @@ their fixture; then how the file is queried, and the check ids the hook reports.
 
 ## Shape
 
-The file is a `# Decisions` title, a head, and sections.
+A singleton class: the title is `# Decisions`.
 
-- The head is free prose between the title and the first section: what the file is and
-  where the closed founding record is. It holds no entry.
-- A section is `## Revision N`, N increasing through the file. It opens with at most one
-  paragraph, then entries, and nothing else.
-- An entry is a `### ` title stating the ruling in one line, then keyed lines in this
-  order and no other line. The first three values are machine-read and exact; the other
-  three are free text.
-
-| key | present | value |
+| section | present | holds |
 |---|---|---|
-| `id` | always | exactly `d-<date>-<n>`, one line, written with the entry and never changed: `<date>` the entry's own date, `<n>` 1 for the first entry of that date and one more than the previous entry's for each after |
-| `date` | always | exactly `YYYY-MM-DD`, one line: the day Brian decided or approved; never earlier than the entry before it |
-| `supersedes` | only when superseding | exactly one or more ids `d-YYYY-MM-DD-n` separated by single spaces, one line, nothing else; each an entry earlier in decisions.md that no other entry supersedes |
-| `raised by` | always | what raised the decision, and in whose words |
-| `decision` | always | what was ruled; what it leaves undecided where a reader might infer otherwise; when superseding, every clause of the older entry that still holds |
-| `not taken` | always | the options declined and why |
+| the head, between the title and the first section | required | prose: what the file is and where the closed founding record is; no entry |
+| `## Revision N`, N increasing through the file | required, one or more | prose, at most one paragraph, then entries, and nothing else |
+
+An entry's heading is `### <ruling>`, type line, the ruling in one line; then keyed
+lines in this order and no other line:
+
+| key | present | type | value |
+|---|---|---|---|
+| `id` | required | slug | exactly `d-<date>-<n>`, written with the entry and never changed: `<date>` the entry's own date, `<n>` 1 for the first entry of that date and one more than the previous entry's for each after |
+| `date` | required | date | the day Brian decided or approved; never earlier than the entry before it |
+| `supersedes` | optional | list of slug | present only when the entry supersedes: ids `d-YYYY-MM-DD-n`, each an entry earlier in decisions.md that no other entry supersedes |
+| `raised by` | required | block | what raised the decision, and in whose words |
+| `decision` | required | block | what was ruled; what it leaves undecided where a reader might infer otherwise; when superseding, every clause of the older entry that still holds |
+| `not taken` | required | block | the options declined and why |
 
 - A keyed line is `- key: value` at the left margin, one space after the colon. A line
   starting with two spaces continues the value above it; a blank line followed by such a

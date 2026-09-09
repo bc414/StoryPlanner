@@ -7,26 +7,30 @@ the check ids the hook reports.
 
 ## Shape
 
-The file is `# <corpus> — questions`, `<corpus>` the file's own name and an id in
-CORPORA.md, then entries and nothing else: no head prose, no sections.
+The title is `# <corpus> — questions`, `<corpus>` the file's own name and an id in
+CORPORA.md.
 
-An entry is `### <corpus>/<slug>`, the corpus the file's own name and the slug lowercase
-`[a-z0-9-]+`, unique in its list, authored with the entry and never changed; a reworded
-question is a new entry and the old one withdrawn. The heading is the token every other
-file cites, so one grep finds the definition and the uses together. Then keyed lines in
-this order and no other line, the first two values exact and the rest free, a value
-continuing on lines indented two spaces:
-
-| key | present | value |
+| section | present | holds |
 |---|---|---|
-| `date` | always | exactly `YYYY-MM-DD`, one line: the day Brian asked; never earlier than the entry before it |
-| `hypotheses` | when there are any | ids `NNN` separated by single spaces, one line, each a hypothesis file; the one authored edge from a corpus's questions to the hypotheses its answers bear on |
-| `raised by` | always | free: the occasion and what raised it, the citation as one token, `<study>/<slug>` for a lead, a proposal or a candidate, `recall`, or `carried from the founding pool` |
-| `question` | always | free: the question, in Brian's words |
-| `suggested test` | when one suggests itself | free: a naive note on how the question might be tested, for the codebook author to take or leave; never a criterion |
+| the whole file after the title | required | entries; no head prose, no sections |
 
-Beneath the fields, appended later by the hitl process that withdraws the question, at
-most once: `- withdrawn: YYYY-MM-DD <reason>`, the date exact and the reason free.
+An entry's heading is `### <corpus>/<slug>`, type token of question-list, the corpus the
+file's own name and the slug unique in its list, authored with the entry and never
+changed; a reworded question is a new entry and the old one withdrawn. The heading is
+the token every other file cites, so one grep finds the definition and the uses
+together. Then keyed lines in this order and no other line, a value continuing on lines
+indented two spaces:
+
+| key | present | type | value |
+|---|---|---|---|
+| `date` | required | date | the day Brian asked; never earlier than the entry before it |
+| `hypotheses` | optional | list of id of hypothesis-file | the hypotheses the question's answers bear on; the one authored edge from a corpus's questions to them |
+| `raised by` | required | block | the occasion and what raised it, the citation as one token, `<study>/<slug>` for a lead, a proposal or a candidate, `recall`, or `carried from the founding pool` |
+| `question` | required | block | the question, in Brian's words |
+| `suggested test` | optional | block | a naive note on how the question might be tested, for the author of the directions to take or leave; never a criterion |
+
+An appended line, `- withdrawn: <date> <reason>`, a date then a line, at most once per
+entry, written beneath the fields by the hitl process that withdraws the question.
 
 An entry is cited everywhere as `<corpus>/<slug>`, one token, its heading. Open is an entry with no
 withdrawn line; frozen and answered are derived by the tool from a codebook's and a
