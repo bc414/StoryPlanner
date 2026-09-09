@@ -19,14 +19,14 @@ public class GraphRulesTests
         // Processes are in router order, then table order: promoting's rows precede refereeing's.
         Assert.Equal(["promote", "referee-append"], traffic["candidates"].Writers);
         Assert.Equal(["promote", "referee-run", "referee-append"], traffic["candidates"].Readers);
-        Assert.Empty(traffic["codebook"].Writers);
+        Assert.Empty(traffic["directions"].Writers);
     }
 
     [Fact]
     public void An_artifact_named_as_an_instrument_counts_as_read()
     {
         using var f = MapFixture.With(MapFixture.RefereeingFile,
-            "| referee-judge | agent | | codebook items |", "| referee-judge | agent | items | codebook |");
+            "| referee-judge | agent | | directions items |", "| referee-judge | agent | items | directions |");
         var items = GraphRules.Traffic(f.Doc).Single(t => t.ArtifactId == "items");
         Assert.Equal(["referee-judge"], items.InstrumentOf);
         Assert.True(items.IsRead);

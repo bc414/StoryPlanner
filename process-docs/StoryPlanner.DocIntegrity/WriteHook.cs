@@ -150,10 +150,17 @@ public static class WriteHook
                 : CheckGoverned(inside, payload.FilePath, regenerated);
         }
 
-        // Outside every skill folder: the file's schema, and on a pass the governing folder's
-        // generated files, so state.md follows a governed write the moment it checks clean.
+        // Outside every skill folder: the file's schema, by its path or by a reference that
+        // resolves to it, and on a pass the governing folder's generated files, so state.md
+        // follows a governed write the moment it checks clean.
         var governed = ArtifactScope.Locate(payload.FilePath);
-        if (governed is null) return HookOutcome.Nothing;
+        if (governed is null)
+        {
+            var root = RepoLocator.FindRoot(Path.GetFullPath(payload.FilePath));
+            if (root is null) return HookOutcome.Nothing;
+            governed = ReferenceScope.Locate(root, payload.FilePath) ?? ReferenceScope.LocateResult(root, payload.FilePath);
+            if (governed is null) return HookOutcome.Nothing;
+        }
 
         var outcome = CheckGoverned(governed, payload.FilePath, []);
         if (outcome.Kind != HookOutcomeKind.Silent || !regenerate) return outcome;
@@ -209,11 +216,14 @@ public static class WriteHook
         if (report.Passed) return new HookOutcome(HookOutcomeKind.Silent, Silent, "", regenerated);
 
         var rel = Path.GetRelativePath(governed.RepoRoot, Path.GetFullPath(filePath)).Replace('\\', '/');
+        var where = governed.Row.Schema.Length > 0
+            ? $"The schema is {SkillReader.SchemasFolder}/{governed.Row.Schema}.md."
+            : "What a result holds is the batch's directions, § What to produce, as the agent-runner skill states.";
         var message =
             $"DocIntegrity: after the write to {Path.GetFileName(filePath)}, it fails the schema of `{governed.Row.Id}` " +
             $"({report.Failures} failure(s)):\n" +
             ReportText.FormatFailures(report) +
-            $"The schema is {SkillReader.SchemasFolder}/{governed.Row.Schema}.md. Fix the file, then re-run check until it passes:\n" +
+            $"{where} Fix the file, then re-run check until it passes:\n" +
             $"  dotnet run --project process-docs/StoryPlanner.DocIntegrity -- check {rel}\n" +
             "Do not work around this check by writing through the shell; every write to a governed file goes " +
             "through Edit or Write so the check sees it.";

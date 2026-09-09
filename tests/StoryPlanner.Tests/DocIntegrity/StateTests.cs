@@ -6,17 +6,18 @@ using Xunit;
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// The <c>state</c> verb's three derivations, ruled 2026-09-05: where a study stands
-/// (artifacts present, furthest process whose study-scoped writes all exist), which open
-/// questions a calibrated codebook covers and a verification answered, and each hypothesis's
-/// authored status beside the one its entries imply. Absent inputs are said to be absent.
+/// The <c>state</c> derivations, ruled 2026-09-05 and brought to the study folders on
+/// 2026-09-09: where a study stands (artifacts present, its batches, furthest process whose
+/// study-scoped writes all exist), which open questions calibrated directions cover and a
+/// verification answered, and each hypothesis's authored status beside the one its entries
+/// imply. Absent inputs are said to be absent.
 /// </summary>
 public class StateTests
 {
     static string Build(MapFixture f) => StateBuilder.Build(f.RepoRoot, f.Doc);
 
     [Fact]
-    public void A_study_lists_the_study_scoped_artifacts_present()
+    public void A_study_lists_the_study_scoped_artifacts_present_and_its_batches()
     {
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
@@ -25,8 +26,21 @@ public class StateTests
         var line = state.Split('\n').Single(l => l.StartsWith("- artifacts present:"));
         Assert.Contains(" items", line);
         Assert.Contains(" results", line);
+        Assert.Contains(" definition", line);
         Assert.Contains(" candidates [2 candidate(s), 2 referee line(s), 1 outcome line(s)]", line);
         Assert.Contains(" verification-artifact", line);
+        Assert.Contains($"- batches: {MapFixture.Batch} [full, directions-1, itemized]", state);
+    }
+
+    [Fact]
+    public void A_batch_with_calls_and_a_tally_shows_its_stage()
+    {
+        using var f = new MapFixture().WithStateTree();
+        File.WriteAllText(Path.Combine(f.BatchDir, "calls.md"),
+            "# 01-full — calls\n\n- definition: abc\n\n### item-001 — call 1\n\n- model: sonnet\n- harness: 2\n- directions hash: d\n- item hash: i\n- prompt hash: p\n- started: t\n- ended: t\n- exit: 0\n- check: ok\n- pilot: no\n");
+        Assert.Contains($"{MapFixture.Batch} [full, directions-1, executed]", Build(f));
+        File.WriteAllText(Path.Combine(f.BatchDir, "tally.md"), "# tally\n");
+        Assert.Contains($"{MapFixture.Batch} [full, directions-1, tallied]", Build(f));
     }
 
     [Fact]
@@ -40,7 +54,7 @@ public class StateTests
     public void A_missing_artifact_moves_the_furthest_process_back()
     {
         using var f = new MapFixture().WithStateTree();
-        File.Delete(f.TreePath("docs", "v3-framework", MapFixture.Study, "candidates.md"));
+        File.Delete(Path.Combine(f.StudyDir, "candidates.md"));
         Assert.Contains("furthest process whose study-scoped writes all exist: referee-judge (refereeing-a-candidate)", Build(f));
     }
 
@@ -48,21 +62,13 @@ public class StateTests
     public void An_empty_directory_does_not_count_as_present()
     {
         using var f = new MapFixture().WithStateTree();
-        File.Delete(f.TreePath("fanout", MapFixture.Study, "2026-09-20", "results", "item-001.md"));
+        File.Delete(Path.Combine(f.BatchDir, "results", "item-001.md"));
         var line = Build(f).Split('\n').Single(l => l.StartsWith("- artifacts present:"));
         Assert.DoesNotContain(" results", line);
     }
 
     [Fact]
-    public void The_referee_studies_share_one_folder()
-    {
-        Assert.Equal("referee", StateBuilder.StudyFolder("referee-1"));
-        Assert.Equal("referee", StateBuilder.StudyFolder("referee-12"));
-        Assert.Equal("verification-of-x-1", StateBuilder.StudyFolder("verification-of-x-1"));
-    }
-
-    [Fact]
-    public void An_open_question_is_covered_by_a_calibrated_codebook_naming_it_and_answered_by_a_round_listing_it()
+    public void An_open_question_is_covered_by_calibrated_directions_naming_it_and_answered_by_a_verification_listing_it()
     {
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
@@ -70,25 +76,25 @@ public class StateTests
         Assert.Contains("1 open, 1 withdrawn.", state);
         var row = state.Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
         Assert.Contains("| 031 |", row);
-        Assert.Contains($"| fanout/{MapFixture.Study}/codebook-1@", row);
+        Assert.Contains($"| docs/v3-framework/studies/{MapFixture.Study}/directions-1@", row);
         Assert.Contains($"| {MapFixture.Study} |", row);
         Assert.DoesNotContain("| an-old-one |", state);
     }
 
     [Fact]
-    public void A_codebook_with_no_accepting_calibration_at_its_hash_covers_nothing()
+    public void Directions_with_no_accepting_calibration_at_their_hash_cover_nothing()
     {
         using var f = new MapFixture().WithStateTree();
-        File.Delete(f.TreePath("fanout", MapFixture.Study, "calibration-2026-09-19.md"));
+        File.Delete(Path.Combine(f.StudyDir, "calibration-2026-09-19.md"));
         var row = Build(f).Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
         Assert.Contains("| nothing |", row);
     }
 
     [Fact]
-    public void An_edited_codebook_is_no_longer_calibrated_because_its_hash_moved()
+    public void Edited_directions_are_no_longer_calibrated_because_their_body_hash_moved()
     {
         using var f = new MapFixture().WithStateTree();
-        File.AppendAllText(f.TreePath("fanout", MapFixture.Study, "codebook-1.md"), "an edit\n");
+        File.AppendAllText(Path.Combine(f.StudyDir, "directions-1.md"), "\nAn edit.\n");
         var row = Build(f).Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
         Assert.Contains("| nothing |", row);
     }
@@ -116,7 +122,7 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         File.AppendAllText(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md"),
-            "- evidence | 2026-09-17T10:00 | (verification-of-analysis-corpus-1/a-counter-finding; codebook-1@abc) [challenging]:\n  a counter\n  Falsifier: f\n");
+            $"- evidence | 2026-09-17T10:00 | ({MapFixture.Study}/a-counter-finding; directions-1@abc) [challenging]:\n  a counter\n  Falsifier: f\n");
         Assert.Contains("| 031 | dt-classes | evidenced | false | challenged — MISMATCH |", Build(f));
     }
 

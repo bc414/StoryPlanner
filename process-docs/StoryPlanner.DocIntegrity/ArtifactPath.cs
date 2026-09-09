@@ -14,8 +14,8 @@ namespace StoryPlanner.DocIntegrity;
 /// enumerate files cannot be asked to guess which half it means.
 ///
 /// The placeholders are the ones SKILL.md § Artifacts defines: <c>&lt;study&gt;</c>,
-/// <c>&lt;corpus&gt;</c>, <c>&lt;run&gt;</c>, <c>&lt;date&gt;</c>, <c>NNN</c>, <c>N</c>,
-/// <c>slug</c>, and <c>.*</c> for any extension.
+/// <c>&lt;corpus&gt;</c>, <c>&lt;batch&gt;</c> (<c>nn-slug</c>), <c>&lt;date&gt;</c>,
+/// <c>NNN</c>, <c>N</c>, <c>slug</c>, and <c>.*</c> for any extension.
 /// </summary>
 public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmatter, bool OutsideRepo)
 {
@@ -31,14 +31,14 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
 
     /// <summary>Named by a study: its files live under the study's folder.</summary>
     public bool IsStudyScoped
-        => !OutsideRepo && (Pattern.Contains("<study>") || Pattern.Contains("<run>"));
+        => !OutsideRepo && (Pattern.Contains("<study>") || Pattern.Contains("<batch>"));
 
     /// <summary>
     /// A numbered or dated series: the pattern carries <c>N</c> or <c>&lt;date&gt;</c>, so each
     /// new file is written beside the prior ones (a revision note, a calibration).
     /// Ruled 2026-09-05 (handoff 2, step 2): a process that reads one member to write the next
     /// is not editing, so a frozen series is exempt from the read-and-write check the way a
-    /// succeeded artifact is. <c>&lt;run&gt;</c> is not a series marker: a run-scoped frozen
+    /// succeeded artifact is. <c>&lt;batch&gt;</c> is not a series marker: a batch-scoped frozen
     /// artifact read and written by one process is still edit-shaped.
     /// </summary>
     public bool IsSeries => !OutsideRepo && SeriesPlaceholder.IsMatch(Pattern);
@@ -167,7 +167,8 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
         "NNN" => "[0-9]{3}",
         "N" => "[0-9]+",
         ".*" => @"\.[^/]+",
-        _ => "[^/]+",   // <study>, <corpus>, <run>, <date>, <Name>, slug
+        "<batch>" => "[0-9]{2}-[a-z0-9-]+",
+        _ => "[^/]+",   // <study>, <corpus>, <date>, <Name>, slug
     };
 
     public string Display()

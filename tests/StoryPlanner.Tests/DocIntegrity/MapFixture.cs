@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Security.Cryptography;
+using StoryPlanner.BatchFiles;
 using StoryPlanner.DocIntegrity;
 
 namespace StoryPlanner.Tests;
@@ -10,24 +10,27 @@ namespace StoryPlanner.Tests;
 /// A tiny repository on disk holding a skill folder that validates clean: a three-row router
 /// (a terminus, an hitl activity that writes hypothesis artifacts from candidates, a session
 /// activity that writes candidates), the Artifacts table beside it in SKILL.md, two activity
-/// files and one schema file per schema the table names. Every failing test starts from this
-/// and breaks exactly one thing, so a finding can only come from the mutation.
-/// <see cref="WithStateTree"/> adds the docs and fanout files the state derivation reads.
+/// files and one schema file per schema the table names, copied from the real skill folder so
+/// the engine reads the real Shapes. Every failing test starts from this and breaks exactly
+/// one thing, so a finding can only come from the mutation.
+/// <see cref="WithStateTree"/> adds the docs and study files the state derivation reads.
 ///
-/// Small and inline on purpose: the real skill folder is never a fixture (see the testing
-/// skill), because a test that reads it would fail whenever the method changes. The activity
-/// ids are the real ones, since the state builder's chain membership is keyed on them.
+/// Small and inline on purpose: the real skill folder is never a fixture for a verdict (see
+/// the testing skill), because a test that reads it would fail whenever the method changes.
+/// The activity ids are the real ones, since the state builder's chain membership is keyed on
+/// them.
 /// </summary>
 public sealed class MapFixture : IDisposable
 {
     public const string SkillFile = "SKILL.md";
     public const string RefereeingFile = "refereeing-a-candidate.md";
     public const string PromotingFile = "promoting-checked-candidates.md";
-    public const string Study = "verification-of-analysis-corpus-1";
+    public const string Study = "verification-of-analysis-corpus-dt-classes";
+    public const string Batch = "01-full";
     public const string OpenQuestion = "does-the-dt-class-split";
 
     public static readonly string[] SchemaIds =
-        ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "candidate-schema", "codebook-schema"];
+        ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "candidate-schema", "directions-schema", "definition-schema", "index-schema"];
 
     public string RepoRoot { get; }
     public string SkillFolder { get; }
@@ -50,7 +53,7 @@ public sealed class MapFixture : IDisposable
         foreach (var (name, content) in files)
             if (content is not null) File.WriteAllText(Path.Combine(SkillFolder, name), content);
 
-        foreach (var id in SchemaIds) WriteSchema(id, $"# {id}\n\nThe shape.\n");
+        SchemaExamples.CopyInto(SkillFolder, SchemaIds);
     }
 
     /// <summary>One file with one substring replaced — the shape of every failing case.</summary>
@@ -90,16 +93,43 @@ public sealed class MapFixture : IDisposable
 
     public ValidationReport Report => Validator.Validate(SkillFolder);
 
-    /// <summary>The docs and fanout files the state derivation reads: one verification study, one question list, two hypotheses.</summary>
+    public string StudyDir => Path.Combine(RepoRoot, "docs", "v3-framework", "studies", Study);
+    public string BatchDir => Path.Combine(StudyDir, "batches", Batch);
+
+    public const string DirectionsText = """
+        ---
+        questions: analysis-corpus/does-the-dt-class-split
+        ---
+
+        ## What you are given
+
+        One note of the archive, whole.
+
+        ## Classes
+
+        - a: the note shows a
+        - b: the note shows b
+        - cannot-place: the criteria do not decide it
+
+        ## Criteria
+
+        1. A rule that decides between a and b.
+
+        ## What to produce
+
+        - class: enum
+        - why: line, the number of the criterion that decided it
+
+        """;
+
+    /// <summary>The docs and study files the state derivation reads: one verification study with one full batch, one question list, two hypotheses.</summary>
     public MapFixture WithStateTree()
     {
         var docs = Path.Combine(RepoRoot, "docs", "v3-framework");
-        var fanout = Path.Combine(RepoRoot, "fanout", Study);
         Directory.CreateDirectory(Path.Combine(docs, "questions"));
         Directory.CreateDirectory(Path.Combine(docs, "hypotheses"));
-        Directory.CreateDirectory(Path.Combine(docs, Study));
-        Directory.CreateDirectory(Path.Combine(fanout, "2026-09-20", "items"));
-        Directory.CreateDirectory(Path.Combine(fanout, "2026-09-20", "results"));
+        Directory.CreateDirectory(Path.Combine(BatchDir, "items"));
+        Directory.CreateDirectory(Path.Combine(BatchDir, "results"));
 
         File.WriteAllText(Path.Combine(docs, "studies.md"), $"""
             | id | type | corpus | go |
@@ -129,7 +159,7 @@ public sealed class MapFixture : IDisposable
 
             """);
 
-        File.WriteAllText(Path.Combine(docs, "hypotheses", "031-dt-classes.md"), """
+        File.WriteAllText(Path.Combine(docs, "hypotheses", "031-dt-classes.md"), $"""
             ---
             id: 31
             status: evidenced
@@ -144,13 +174,13 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-01T10:00: why it exists
-            - evidence | 2026-09-14T15:20 | (verification-of-analysis-corpus-1/the-first-finding; codebook-1@abc123) [supporting]:
+            - evidence | 2026-09-14T15:20 | ({Study}/the-first-finding; directions-1@abc123) [supporting]:
               the finding
               Falsifier: the falsifier
 
             """);
 
-        File.WriteAllText(Path.Combine(docs, "hypotheses", "032-other.md"), """
+        File.WriteAllText(Path.Combine(docs, "hypotheses", "032-other.md"), $"""
             ---
             id: 32
             status: untested
@@ -165,13 +195,13 @@ public sealed class MapFixture : IDisposable
             ## Record
 
             - created | 2026-09-02T10:00: why
-            - evidence | 2026-09-15T10:00 | (verification-of-analysis-corpus-1/a-third-finding; codebook-1@abc123) [supporting]:
+            - evidence | 2026-09-15T10:00 | ({Study}/a-third-finding; directions-1@abc123) [supporting]:
               a finding
               Falsifier: f
 
             """);
 
-        File.WriteAllText(Path.Combine(docs, Study, "verification.md"), $"""
+        File.WriteAllText(Path.Combine(StudyDir, "verification.md"), $"""
             # {Study}
 
             ## Method
@@ -185,23 +215,11 @@ public sealed class MapFixture : IDisposable
 
             """);
 
-        var codebook = Path.Combine(fanout, "codebook-1.md");
-        File.WriteAllText(codebook, $"""
-            # Codebook — dt-classes (version 1)
-
-            ## Item
-            one item
-
-            ## Questions
-            - analysis-corpus/{OpenQuestion}
-
-            ## Classes
-            a, b
-
-            """);
-        var hash = Convert.ToHexString(SHA256.HashData(File.ReadAllBytes(codebook))).ToLowerInvariant();
-        File.WriteAllText(Path.Combine(fanout, "calibration-2026-09-19.md"), $"""
-            # Calibration — codebook-1@{hash[..8]} — 2026-09-19
+        var directions = Path.Combine(StudyDir, "directions-1.md");
+        File.WriteAllText(directions, DirectionsText);
+        var hash = DirectionsFile.Read(directions).BodyHash;
+        File.WriteAllText(Path.Combine(StudyDir, "calibration-2026-09-19.md"), $"""
+            # Calibration — directions-1@{hash[..8]} — 2026-09-19
 
             ## Sample
             six items
@@ -211,30 +229,51 @@ public sealed class MapFixture : IDisposable
 
             """);
 
-        File.WriteAllText(Path.Combine(docs, Study, "candidates.md"), """
-            # verification-of-analysis-corpus-1 — candidates
+        File.WriteAllText(Path.Combine(StudyDir, "candidates.md"), $"""
+            # {Study} — candidates
 
-            ### verification-of-analysis-corpus-1/the-first-finding
+            ### {Study}/the-first-finding
             - target: 031
             - finding: the finding
-            - source: the source
-            - proposed-by: job-1 / sonnet / 2026-09-20T12:00 / codebook-1@abc / harness 1
+            - source: {Study}/{Batch}/item-001, note-1
+            - proposed-by: {Study}/{Batch}/item-001 call 1 / sonnet / 2026-09-20T12:00 / directions-1@abc / harness 1
             - falsifier: what it would have been
-            - referee: job-9 / sonnet / 2026-09-20T13:00 / referee-1@def / diagnostic supporting — reason
+            - referee: {Study}/02-referee/the-first-finding call 1 / sonnet / 2026-09-20T13:00 / directions-1@def / diagnostic supporting — reason
             - outcome: promoted 2026-09-21T10:00 as evidence entry 2026-09-14T15:20
 
-            ### verification-of-analysis-corpus-1/another-finding
+            ### {Study}/another-finding
             - target: 031
             - finding: another
-            - source: the source
-            - proposed-by: job-2 / sonnet / 2026-09-20T12:00 / codebook-1@abc / harness 1
+            - source: {Study}/{Batch}/item-002, note-2
+            - proposed-by: {Study}/{Batch}/item-002 call 1 / sonnet / 2026-09-20T12:00 / directions-1@abc / harness 1
             - falsifier: y
-            - referee: job-10 / sonnet / 2026-09-20T13:00 / referee-1@def / non-diagnostic — reason
+            - referee: {Study}/02-referee/another-finding call 1 / sonnet / 2026-09-20T13:00 / directions-1@def / non-diagnostic — reason
 
             """);
 
-        File.WriteAllText(Path.Combine(fanout, "2026-09-20", "items", "item-001.md"), "# item\n");
-        File.WriteAllText(Path.Combine(fanout, "2026-09-20", "results", "item-001.md"), "# result\n");
+        File.WriteAllText(Path.Combine(BatchDir, "definition.md"), $"""
+            # {Batch} — definition
+
+            - directions: ../../directions-1.md
+            - kind: full
+            - calibration: ../../calibration-2026-09-19.md
+            - model: sonnet
+
+            """);
+        File.WriteAllText(Path.Combine(BatchDir, "index.md"), $"""
+            # {Batch} — index
+
+            - itemizer: tools/StoryPlanner.TestItemizer, 1
+            - corpus: analysis-corpus
+            - locator notation: a note id, `note-<id>`
+
+            | item | locator | description |
+            |---|---|---|
+            | item-001 | note-1 | the first note |
+
+            """);
+        File.WriteAllText(Path.Combine(BatchDir, "items", "item-001.md"), "# item\n");
+        File.WriteAllText(Path.Combine(BatchDir, "results", "item-001.md"), "- class: a\n- why: 1\n");
         return this;
     }
 
@@ -257,12 +296,14 @@ public sealed class MapFixture : IDisposable
         | hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Status and baselined |
         | question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions |
         | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study |
-        | candidates | docs/v3-framework/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
-        | codebook | fanout/<study>/codebook-N.md | succeeded | [codebook-schema](schemas/codebook-schema.md) | The frozen instrument |
-        | calibration | fanout/<study>/calibration-<date>.md | frozen | | One version's agreement |
-        | verification-artifact | docs/v3-framework/<study>/verification.md | append | | One verification's method and counts |
-        | items | fanout/<study>/<run>/items/ | frozen | | The units one run judges |
-        | results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |
+        | candidates | docs/v3-framework/studies/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
+        | directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls |
+        | calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | | One version's agreement |
+        | verification-artifact | docs/v3-framework/studies/<study>/verification.md | append | | One verification's method and counts |
+        | definition | docs/v3-framework/studies/<study>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under |
+        | index | docs/v3-framework/studies/<study>/batches/<batch>/index.md | frozen | [index-schema](schemas/index-schema.md) | The items a batch judges |
+        | items | docs/v3-framework/studies/<study>/batches/<batch>/items/ | frozen | | The item bodies |
+        | results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |
 
         """;
 
@@ -295,13 +336,13 @@ public sealed class MapFixture : IDisposable
 
         | id | mode | instruments | reads | writes | state | description |
         |---|---|---|---|---|---|---|
-        | referee-run | session | runner | studies calibration codebook candidates | items | specified | The batch under the host |
-        | referee-judge | agent | | codebook items | results | specified | Writes the falsifier blind |
-        | referee-append | session | | results candidates | candidates | specified | Copies each verdict under its candidate |
+        | referee-run | session | runner | studies calibration directions candidates | definition index items | specified | The batch under the host |
+        | referee-judge | agent | | directions items | results | specified | Writes the falsifier blind |
+        | referee-append | session | | definition index results candidates | candidates | specified | Copies each verdict under its candidate |
 
         ## Preconditions
 
-        The codebook is calibrated.
+        The referee's directions are calibrated.
 
         ## referee-run
 

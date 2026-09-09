@@ -18,13 +18,13 @@ public class SkillReaderTests
 
         Assert.Equal(3, doc.Activities.Count);
         Assert.Equal(4, doc.Processes.Count);
-        Assert.Equal(10, doc.Artifacts.Count);
+        Assert.Equal(12, doc.Artifacts.Count);
 
         var judge = doc.Processes.Single(p => p.Id == "referee-judge");
         Assert.Equal("refereeing-a-candidate", judge.Activity);
         Assert.Equal("agent", judge.Mode);
         Assert.Empty(judge.Instruments);
-        Assert.Equal(["codebook", "items"], judge.Reads);
+        Assert.Equal(["directions", "items"], judge.Reads);
         Assert.Equal(["results"], judge.Writes);
         Assert.Equal(MapFixture.RefereeingFile, judge.File);
 

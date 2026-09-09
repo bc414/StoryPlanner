@@ -34,7 +34,9 @@ public static class Check
             folders.Add(folder);
         }
 
-        var governed = ArtifactScope.Locate(repoRoot, full);
+        var governed = ArtifactScope.Locate(repoRoot, full)
+                       ?? ReferenceScope.Locate(repoRoot, full)
+                       ?? ReferenceScope.LocateResult(repoRoot, full);
         if (governed is not null)
         {
             findings.AddRange(CheckOne(governed.Checker, governed.Context, repoRoot, full));
@@ -65,6 +67,17 @@ public static class Check
             }
         }
 
+        // Governance by reference: every file a definition reaches (its directions, wherever
+        // they sit) and every batch's results, held to the declaration its directions make.
+        foreach (var (skillFolder, ctx) in contexts)
+            foreach (var (target, checker) in ReferenceScope.Targets(ctx))
+            {
+                if (!IsUnder(target, full)) continue;
+                if (checker == (SchemaChecker)Directions.Check && files.Contains(target, StringComparer.OrdinalIgnoreCase)) continue;
+                if (!files.Contains(target, StringComparer.OrdinalIgnoreCase)) files.Add(target);
+                findings.AddRange(CheckOne(checker, ctx, repoRoot, target));
+            }
+
         // A class with a checker that a checked skill folder's table gives no in-repo file
         // pattern for is reported, never failed: nothing can be checked for it.
         foreach (var folder in folders)
@@ -73,7 +86,7 @@ public static class Check
                     findings.Add(Finding.Info("check.no-row", id,
                         $"{Path.GetFileName(folder)}: no artifact row with a parseable in-repo path; nothing checked for this class"));
 
-        return new Result(new ValidationReport(findings), folders, files);
+        return new Result(new ValidationReport(findings.DistinctBy(f => (f.CheckId, f.RowId, f.Message)).ToList()), folders, files);
     }
 
     static IEnumerable<Finding> CheckOne(SchemaChecker checker, CheckContext ctx, string repoRoot, string file)

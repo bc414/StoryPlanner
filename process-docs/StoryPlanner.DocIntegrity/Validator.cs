@@ -139,11 +139,27 @@ public static class Validator
         {
             var path = doc.SchemaPath(schema);
             if (!File.Exists(path)) continue;
-            var title = new MarkdownOutline(File.ReadAllText(path)).Headings.FirstOrDefault();
+            var text = File.ReadAllText(path);
+            var title = new MarkdownOutline(text).Headings.FirstOrDefault();
             if (title is null || title.Level != 1 || title.Text != schema)
                 findings.Add(Finding.Fail("schema.shape", schema,
                     $"{folder}/{schema}.md: the title is '# {schema}'; found " +
                     (title is null ? "no heading" : $"'{new string('#', title.Level)} {title.Text}' at line {title.Line}")));
+
+            // A schema in the four-section shape whose Shape declares a sections table is held
+            // to the one grammar (schema.fields); a Shape that is prose, or a schema not yet
+            // converted, is held at its review. A reference type names a class by its artifact
+            // id or by the schema its rows link to.
+            var shapeText = StateBuilder.Section(text, "Shape");
+            if (!ShapeReader.HasSectionsTable(shapeText)) continue;
+            var shape = ShapeReader.Parse(shapeText);
+            foreach (var problem in shape.Problems)
+                findings.Add(Finding.Fail("schema.fields", schema, $"{folder}/{schema}.md: {problem}"));
+            var schemaIds = doc.Artifacts.Select(a => a.Schema).Where(s => s.Length > 0).ToHashSet(StringComparer.Ordinal);
+            foreach (var (_, field, type) in shape.References())
+                if (type.TargetClass is { } target && !artifactIds.Contains(target) && !schemaIds.Contains(target + SkillReader.SchemaSuffix))
+                    findings.Add(Finding.Fail("schema.fields", schema,
+                        $"{folder}/{schema}.md: line {field.Line}: '{field.Key}' references the class '{target}', which no Artifacts row declares by id or by schema"));
         }
     }
 

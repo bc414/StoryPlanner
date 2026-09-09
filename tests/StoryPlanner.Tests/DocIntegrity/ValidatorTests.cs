@@ -60,7 +60,7 @@ public class ValidatorTests
 
     [Fact]
     public void An_id_used_in_two_tables_is_a_duplicate()
-        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | fanout/<study>/<run>/items/", "| promote | fanout/<study>/<run>/items/"));
+        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | docs/v3-framework/studies/<study>/batches/<batch>/items/", "| promote | docs/v3-framework/studies/<study>/batches/<batch>/items/"));
 
     [Fact]
     public void An_id_outside_the_lowercase_slug_charset_fails()
@@ -72,11 +72,11 @@ public class ValidatorTests
 
     [Fact]
     public void A_read_naming_no_artifact_does_not_resolve()
-        => Fails("ref.reads", MapFixture.With(Refereeing, "| codebook items | results |", "| codebook nope | results |"));
+        => Fails("ref.reads", MapFixture.With(Refereeing, "| directions items | results |", "| directions nope | results |"));
 
     [Fact]
     public void A_write_naming_no_artifact_does_not_resolve()
-        => Fails("ref.writes", MapFixture.With(Refereeing, "| codebook items | results | specified |", "| codebook items | nope | specified |"));
+        => Fails("ref.writes", MapFixture.With(Refereeing, "| directions items | results | specified |", "| directions items | nope | specified |"));
 
     const string CandidateCell = "| [candidate-schema](schemas/candidate-schema.md) |";
 
@@ -94,7 +94,7 @@ public class ValidatorTests
 
     [Fact]
     public void A_schema_link_whose_target_is_not_the_file_its_text_names_fails()
-        => Fails("ref.schema", MapFixture.With(Artifacts, CandidateCell, "| [candidate-schema](schemas/codebook-schema.md) |"));
+        => Fails("ref.schema", MapFixture.With(Artifacts, CandidateCell, "| [candidate-schema](schemas/directions-schema.md) |"));
 
     [Fact]
     public void A_schema_id_without_the_suffix_fails()
@@ -102,7 +102,7 @@ public class ValidatorTests
 
     [Fact]
     public void A_schema_id_that_is_an_artifact_id_fails()
-        => Fails("ref.schema", MapFixture.With(Artifacts, "| candidates | docs/v3-framework/<study>/candidates.md |", "| candidate-schema | docs/v3-framework/<study>/candidates.md |"));
+        => Fails("ref.schema", MapFixture.With(Artifacts, "| candidates | docs/v3-framework/studies/<study>/candidates.md |", "| candidate-schema | docs/v3-framework/studies/<study>/candidates.md |"));
 
     [Fact]
     public void A_schema_file_whose_title_is_not_its_id_fails_the_shape()
@@ -153,11 +153,11 @@ public class ValidatorTests
 
     [Fact]
     public void A_process_reading_nothing_fails_because_it_is_deriving_from_recall()
-        => Fails("row.reads-empty", MapFixture.With(Refereeing, "| referee-judge | agent | | codebook items |", "| referee-judge | agent | |  |"));
+        => Fails("row.reads-empty", MapFixture.With(Refereeing, "| referee-judge | agent | | directions items |", "| referee-judge | agent | |  |"));
 
     [Fact]
     public void A_process_writing_nothing_fails_because_it_is_indistinguishable_from_not_running()
-        => Fails("row.writes-empty", MapFixture.With(Refereeing, "| codebook items | results | specified |", "| codebook items |  | specified |"));
+        => Fails("row.writes-empty", MapFixture.With(Refereeing, "| directions items | results | specified |", "| directions items |  | specified |"));
 
     [Fact]
     public void An_hitl_process_writing_nothing_fails_under_its_own_rule_too()
@@ -174,20 +174,20 @@ public class ValidatorTests
     [Fact]
     public void A_path_cell_naming_two_patterns_fails_the_syntax_rule()
         => Fails("artifact.path-syntax", MapFixture.With(Artifacts,
-            "| fanout/<study>/codebook-N.md |", "| fanout/<study>/codebook-N.md, or fanout/referee/codebook-N.md |"));
+            "| docs/v3-framework/studies/<study>/directions-N.md |", "| docs/v3-framework/studies/<study>/directions-N.md, or docs/v3-framework/referee/directions-N.md |"));
 
     [Fact]
     public void An_artifact_no_process_reads_fails()
         => Fails("artifact.never-read", MapFixture.With(Artifacts,
-            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |",
-            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
+            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
+            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
 
     [Fact]
     public void An_artifact_no_process_writes_is_information_not_a_verdict()
     {
         using var f = new MapFixture();
         var report = f.Report;
-        Assert.Contains(report.Findings, x => x.CheckId == "info.artifact.never-written" && x.RowId == "codebook" && x.Level == FindingLevel.Info);
+        Assert.Contains(report.Findings, x => x.CheckId == "info.artifact.never-written" && x.RowId == "directions" && x.Level == FindingLevel.Info);
         Assert.True(report.Passed);
     }
 
@@ -249,29 +249,29 @@ public class ValidatorTests
 
     [Fact]
     public void A_non_hitl_writer_of_the_question_list_fails()
-        => Fails("question-list.writer-not-hitl", MapFixture.With(Refereeing, "| results candidates | candidates |", "| results candidates | candidates question-list |"));
+        => Fails("question-list.writer-not-hitl", MapFixture.With(Refereeing, "| definition index results candidates | candidates |", "| definition index results candidates | candidates question-list |"));
 
     // ---- the mutation rule, frozen only, series exempt ----
 
     [Fact]
     public void A_process_reading_and_writing_a_frozen_artifact_fails()
-        => Fails("mutation.read-and-write", MapFixture.With(Refereeing, "| codebook items | results |", "| codebook items | results items |"));
+        => Fails("mutation.read-and-write", MapFixture.With(Refereeing, "| directions items | results |", "| directions items | results items |"));
 
     [Fact]
     public void A_process_reading_and_writing_a_frozen_series_is_not_reported_because_it_writes_the_next_member()
     {
         // referee-run reads calibration (frozen, dated); make it write one too.
         using var f = MapFixture.With(Refereeing,
-            "| studies calibration codebook candidates | items |",
-            "| studies calibration codebook candidates | items calibration |");
+            "| studies calibration directions candidates | definition index items |",
+            "| studies calibration directions candidates | definition index items calibration |");
         Assert.DoesNotContain("mutation.read-and-write", Rules(f));
     }
 
     [Fact]
     public void A_process_reading_and_writing_a_succeeded_or_append_artifact_is_not_reported()
     {
-        // promote reads and writes candidates (append); make referee-judge read and write codebook (succeeded).
-        using var f = MapFixture.With(Refereeing, "| codebook items | results |", "| codebook items | results codebook |");
+        // promote reads and writes candidates (append); make referee-judge read and write directions (succeeded).
+        using var f = MapFixture.With(Refereeing, "| directions items | results |", "| directions items | results directions |");
         Assert.DoesNotContain("mutation.read-and-write", Rules(f));
     }
 

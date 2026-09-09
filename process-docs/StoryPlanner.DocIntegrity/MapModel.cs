@@ -129,8 +129,13 @@ public static class WellKnown
     public const string Candidates = "candidates";
     public const string QuestionList = "question-list";
     public const string Studies = "studies";
-    public const string Codebook = "codebook";
+    public const string Directions = "directions";
+    public const string Definition = "definition";
+    public const string Index = "index";
     public const string Calibration = "calibration";
+    public const string Calls = "calls";
+    public const string Results = "results";
+    public const string Tally = "tally";
     public const string VerificationArtifact = "verification-artifact";
     public const string HypothesisStatus = "hypothesis-status";
     public const string HypothesisIndex = "hypothesis-index";

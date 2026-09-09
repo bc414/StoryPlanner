@@ -8,4 +8,12 @@
         <RootNamespace>StoryPlanner.DocIntegrity</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="JsonSchema.Net" Version="9.4.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\tools\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+    </ItemGroup>
+
 </Project>

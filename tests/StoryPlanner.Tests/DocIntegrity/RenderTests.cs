@@ -32,7 +32,7 @@ public class RenderTests
         Assert.Contains("refereerun[\"referee-run<br/>session\"]:::session", section);
         Assert.Contains("refereejudge([\"referee-judge<br/>agent\"]):::agent", section);
         Assert.Contains("candidates[/\"candidates\"/]:::artifact", section);
-        Assert.Contains("codebook --> refereerun", section);
+        Assert.Contains("directions --> refereerun", section);
         Assert.Contains("refereeappend --> candidates", section);
         Assert.DoesNotContain("promote", section);
     }
@@ -48,7 +48,7 @@ public class RenderTests
     public void An_instrument_read_is_a_dashed_edge()
     {
         using var f = MapFixture.With(MapFixture.RefereeingFile,
-            "| referee-judge | agent | | codebook items |", "| referee-judge | agent | items | codebook |");
+            "| referee-judge | agent | | directions items |", "| referee-judge | agent | items | directions |");
         Assert.Contains("items -.-> refereejudge", MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate"));
     }
 
@@ -57,8 +57,8 @@ public class RenderTests
     {
         using var f = new MapFixture();
         var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate");
-        Assert.Contains("- **inputs**: calibration codebook studies", section);
-        Assert.Contains("- **outputs**: candidates items results", section);
+        Assert.Contains("- **inputs**: calibration directions studies", section);
+        Assert.Contains("- **outputs**: candidates definition index items results", section);
         Assert.Contains("- **instruments**: runner", section);
         Assert.Contains("- **enabled by**: —", section);
         Assert.Contains("- **enables**: promoting-checked-candidates", section);
@@ -109,8 +109,8 @@ public class RenderTests
     public void Ids_that_merge_once_hyphens_are_dropped_are_refused_before_drawing()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |",
-            "| results | fanout/<study>/<run>/results/ | frozen | | The agents' outputs |\n| refereerun | docs/x.md | frozen | | Collides with referee-run |");
+            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
+            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| refereerun | docs/x.md | frozen | | Collides with referee-run |");
         Assert.Throws<MapFormatException>(() => MermaidRenderer.CheckNodeIds(f.Doc));
     }
 

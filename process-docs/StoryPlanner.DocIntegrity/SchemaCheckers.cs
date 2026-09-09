@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Text.Json.Nodes;
 using System.Text.RegularExpressions;
 
 namespace StoryPlanner.DocIntegrity;
@@ -18,10 +19,9 @@ public sealed record CheckContext(string RepoRoot, string SkillFolder, IReadOnly
 public delegate IReadOnlyList<Finding> SchemaChecker(CheckContext ctx, string path);
 
 /// <summary>
-/// The checkers that exist, by artifact id. A class gets its checker when its first file is
-/// written (decisions.md, 2026-09-06): five are what the re-founding of the hypothesis
-/// files writes, and the decisions file's came with its schema (2026-09-07). An id with no
-/// checker is silence, never a failure.
+/// The checkers that exist, by artifact id. A class gets its checker when its schema is
+/// written (decisions.md, 2026-09-06 and 2026-09-07); the batch classes got theirs with the
+/// runner's rebuild of 2026-09-09. An id with no checker is silence, never a failure.
 /// </summary>
 public static class SchemaCheckers
 {
@@ -34,16 +34,23 @@ public static class SchemaCheckers
         WellKnown.Corpora => Corpora.Check,
         WellKnown.Decisions => Decisions.Check,
         WellKnown.QuestionList => Questions.Check,
+        WellKnown.Directions => Directions.Check,
+        WellKnown.Index => BatchIndex.Check,
+        WellKnown.Definition => Definition.Check,
         _ => null,
     };
 
     /// <summary>The artifact ids that dispatch to a checker, one per class (the three hypothesis rows count once).</summary>
     public static readonly string[] CheckedIds =
-        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.LeadsArtifact, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList];
+        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.LeadsArtifact, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList,
+         WellKnown.Directions, WellKnown.Index, WellKnown.Definition];
 
     internal static string[] Lines(string path) => File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');
 
     internal static readonly Regex IsoDate = new(@"^\d{4}-\d{2}-\d{2}$", RegexOptions.Compiled);
+
+    internal static bool ExactDate(string value)
+        => IsoDate.IsMatch(value) && DateOnly.TryParseExact(value, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out _);
 }
 
 /// <summary>
@@ -53,7 +60,8 @@ public static class SchemaCheckers
 /// citation and falsifier (decisions d-2026-09-05-3, d-2026-09-06-2), an iteration entry is a
 /// wording boundary and status is computed from the entries after the last one
 /// (d-2026-09-05-4), baselining is Brian's dated entry and resets on a challenge
-/// (d-2026-09-05-1). One file, three artifacts, one checker.
+/// (d-2026-09-05-1). The citation cites the candidate's token and the directions version and
+/// body hash it was judged under (d-2026-09-09-12). One file, three artifacts, one checker.
 /// </summary>
 public static class HypothesisFile
 {
@@ -64,7 +72,7 @@ public static class HypothesisFile
         @"^- (?<kind>[a-z]+) \| (?<ts>\d{4}-\d{2}-\d{2}T\d{2}:\d{2})(?<rest>.*)$", RegexOptions.Compiled);
 
     static readonly Regex Citation = new(
-        @"^ \| \((?<study>[a-z0-9-]+)/(?<candidate>[a-z0-9-]+); (?<codebook>[^@\s]+)@(?<hash>[0-9a-f]{6,64})\) \[(?<tag>supporting|challenging)\]:",
+        @"^ \| \((?<study>[a-z0-9-]+)/(?<candidate>[a-z0-9-]+); directions-(?<n>\d+)@(?<hash>[0-9a-f]{6,64})\) \[(?<tag>supporting|challenging)\]:",
         RegexOptions.Compiled);
 
     static readonly Regex FileName = new(@"^(?<id>\d{3})-[a-z0-9-]+\.md$", RegexOptions.Compiled);
@@ -144,7 +152,7 @@ public static class HypothesisFile
             {
                 if (!Citation.IsMatch(e.Rest))
                     findings.Add(Finding.Fail("hypothesis.evidence.citation", file,
-                        $"line {e.Line}: an evidence entry cites (<study> <C-id>; <codebook>@<hash>) [supporting|challenging]; " +
+                        $"line {e.Line}: an evidence entry cites (<study>/<slug>; directions-N@<hash>) [supporting|challenging]; " +
                         "an entry without that citation was not produced by the pipeline"));
                 if (!e.Continuation.Any(c => c.TrimStart().StartsWith("Falsifier:", StringComparison.Ordinal)))
                     findings.Add(Finding.Fail("hypothesis.evidence.no-falsifier", file,
@@ -240,10 +248,10 @@ public static class HypothesisIndex
 
         IReadOnlyList<MarkdownTable> tables;
         try { tables = MapTables.ReadAll(File.ReadAllText(path)); }
-        catch (MapFormatException ex) { return [Finding.Fail("index.table", file, ex.Message)]; }
+        catch (MapFormatException ex) { return [Finding.Fail("hypothesis-index.table", file, ex.Message)]; }
 
         var table = tables.FirstOrDefault(t => t.Headers.Select(h => h.ToLowerInvariant()).SequenceEqual(["id", "slug"]));
-        if (table is null) return [Finding.Fail("index.table", file, "no table with columns ID | Slug")];
+        if (table is null) return [Finding.Fail("hypothesis-index.table", file, "no table with columns ID | Slug")];
 
         var listed = new HashSet<string>(StringComparer.Ordinal);
         var lastId = -1;
@@ -251,41 +259,43 @@ public static class HypothesisIndex
         {
             if (!int.TryParse(row.Cells[0], out var id) || row.Cells[0].Length != 3)
             {
-                findings.Add(Finding.Fail("index.link", file, $"line {row.Line}: the id is NNN; found '{row.Cells[0]}'"));
+                findings.Add(Finding.Fail("hypothesis-index.link", file, $"line {row.Line}: the id is NNN; found '{row.Cells[0]}'"));
                 continue;
             }
             if (id <= lastId)
-                findings.Add(Finding.Fail("index.order", file, $"line {row.Line}: ids ascend; {row.Cells[0]} follows {lastId:000}"));
+                findings.Add(Finding.Fail("hypothesis-index.order", file, $"line {row.Line}: ids ascend; {row.Cells[0]} follows {lastId:000}"));
             lastId = id;
 
             var m = Link.Match(row.Cells[1]);
             if (!m.Success || m.Groups["file"].Value != $"{row.Cells[0]}-{m.Groups["slug"].Value}.md")
             {
-                findings.Add(Finding.Fail("index.link", file, $"line {row.Line}: the slug cell is [slug](NNN-slug.md) with the same NNN"));
+                findings.Add(Finding.Fail("hypothesis-index.link", file, $"line {row.Line}: the slug cell is [slug](NNN-slug.md) with the same NNN"));
                 continue;
             }
             listed.Add(m.Groups["file"].Value);
             if (!File.Exists(Path.Combine(dir, m.Groups["file"].Value)))
-                findings.Add(Finding.Fail("index.link", file, $"line {row.Line}: {m.Groups["file"].Value} does not exist"));
+                findings.Add(Finding.Fail("hypothesis-index.link", file, $"line {row.Line}: {m.Groups["file"].Value} does not exist"));
         }
 
         foreach (var f in Directory.GetFiles(dir, "*.md").Select(Path.GetFileName).OrderBy(n => n, StringComparer.Ordinal))
             if (f is not null && Regex.IsMatch(f, @"^\d{3}-") && !listed.Contains(f))
-                findings.Add(Finding.Fail("index.missing", file, $"{f} has no row"));
+                findings.Add(Finding.Fail("hypothesis-index.missing", file, $"{f} has no row"));
 
         return findings;
     }
 }
 
 /// <summary>
-/// schemas/study-registry-schema.md: id · type · corpus · go, appended at Brian's go; ids of
-/// three forms; the corpus a name from the corpora file, verified-artifacts, or candidates.
+/// schemas/study-registry-schema.md: id · type · corpus · go, appended at Brian's go; the id
+/// <c>&lt;type&gt;-of-&lt;corpus&gt;-&lt;slug&gt;</c>, its type the one the prefix names
+/// (verification, exploration, audit), its corpus a name from the corpora file,
+/// verified-artifacts, or skill for an audit (d-2026-09-08-2, d-2026-09-09-12).
 /// </summary>
 public static class Registry
 {
     public const string VerifiedArtifacts = "verified-artifacts";
-    public const string Candidates = "candidates";
-    static readonly Regex Referee = new(@"^referee-(\d+)$", RegexOptions.Compiled);
+    public const string Skill = "skill";
+    public static readonly string[] Types = ["verification", "exploration", "audit"];
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
@@ -310,23 +320,33 @@ public static class Registry
             var (id, type, corpus, go) = (row.Cells[0], row.Cells[1], row.Cells[2], row.Cells[3]);
             if (!seen.Add(id)) findings.Add(Finding.Fail("registry.duplicate", file, $"line {row.Line}: {id} appears twice"));
             if (!SchemaCheckers.IsoDate.IsMatch(go)) findings.Add(Finding.Fail("registry.go", file, $"line {row.Line}: go is an ISO date; found '{go}'"));
+            if (!ClosedSets.IdPattern.IsMatch(id))
+            {
+                findings.Add(Finding.Fail("registry.id", file, $"line {row.Line}: '{id}' is not a lowercase slug"));
+                continue;
+            }
 
             string? expectedType = null, idCorpus = null;
-            if (Referee.IsMatch(id)) { expectedType = "verification"; idCorpus = Candidates; }
+            if (id.StartsWith("audit-of-", StringComparison.Ordinal))
+            {
+                expectedType = "audit";
+                idCorpus = Skill;
+                if (id.Length == "audit-of-".Length) findings.Add(Finding.Fail("registry.id", file, $"line {row.Line}: '{id}' is audit-of-<slug>"));
+            }
             else if (id.StartsWith("exploration-of-", StringComparison.Ordinal))
             {
-                expectedType = "exploratory";
-                idCorpus = CorpusOf(id["exploration-of-".Length..], known, ordinalRequired: false);
+                expectedType = "exploration";
+                idCorpus = CorpusOf(id["exploration-of-".Length..], known, slugRequired: false);
             }
             else if (id.StartsWith("verification-of-", StringComparison.Ordinal))
             {
                 expectedType = "verification";
-                idCorpus = CorpusOf(id["verification-of-".Length..], known, ordinalRequired: true);
+                idCorpus = CorpusOf(id["verification-of-".Length..], known, slugRequired: true);
             }
             else
             {
                 findings.Add(Finding.Fail("registry.id", file,
-                    $"line {row.Line}: '{id}' is exploration-of-<corpus>[-n], verification-of-<corpus>-n or referee-n"));
+                    $"line {row.Line}: '{id}' is verification-of-<corpus>-<slug>, exploration-of-<corpus>[-<slug>] or audit-of-<slug>"));
                 continue;
             }
 
@@ -337,7 +357,7 @@ public static class Registry
             {
                 if (ctx.CorporaIds.Count > 0)
                     findings.Add(Finding.Fail("registry.corpus", file,
-                        $"line {row.Line}: '{id}' names no known corpus; the ids are [{string.Join(" ", known.OrderBy(k => k))}]"));
+                        $"line {row.Line}: '{id}' names no known corpus followed by a slug; the ids are [{string.Join(" ", known.OrderBy(k => k))}]"));
             }
             else if (corpus != idCorpus)
                 findings.Add(Finding.Fail("registry.corpus", file, $"line {row.Line}: the corpus cell is '{idCorpus}' for {id}; found '{corpus}'"));
@@ -345,23 +365,23 @@ public static class Registry
         return findings;
     }
 
-    /// <summary>The corpus an id's remainder names: the longest known id, with an ordinal after it where required.</summary>
-    static string? CorpusOf(string remainder, HashSet<string> known, bool ordinalRequired)
+    /// <summary>The corpus an id's remainder names: the longest known id, with a slug after it where required.</summary>
+    static string? CorpusOf(string remainder, HashSet<string> known, bool slugRequired)
     {
-        var m = Regex.Match(remainder, @"^(?<c>.+?)(?:-(?<n>\d+))?$");
-        var c = m.Groups["c"].Value;
-        var hasOrdinal = m.Groups["n"].Success;
         if (known.Count == 0) return remainder; // unchecked: reported as information elsewhere
-        if (hasOrdinal && known.Contains(c)) return c;
-        if (!ordinalRequired && known.Contains(remainder)) return remainder;
-        return null;
+        var candidates = known.Where(c => remainder == c || remainder.StartsWith(c + "-", StringComparison.Ordinal)).OrderByDescending(c => c.Length).ToList();
+        if (candidates.Count == 0) return null;
+        var corpus = candidates[0];
+        var hasSlug = remainder.Length > corpus.Length + 1;
+        if (slugRequired && !hasSlug) return null;
+        return corpus;
     }
 }
 
-/// <summary>schemas/leads-artifact-schema.md: titled by its study, six sections in order.</summary>
+/// <summary>schemas/leads-artifact-schema.md: titled by its study, five sections in order (d-2026-09-08-19).</summary>
 public static class Leads
 {
-    public static readonly string[] Sections = ["Method", "Questions in view", "Leads", "Bins", "Proposed questions", "Corrections"];
+    public static readonly string[] Sections = ["Method", "Questions in view", "Leads", "Proposed questions", "Corrections"];
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
@@ -441,250 +461,160 @@ public static class Corpora
 }
 
 /// <summary>
-/// schemas/decisions-schema.md: a "# Decisions" title, a free head, sections "## Revision N" that
-/// ascend and open with at most one paragraph, then entries: a "### " title stating the ruling
-/// and keyed "- key: value" lines in the order id, date, supersedes, raised by, decision,
-/// not taken, a value continued by two-space indent. The three machine-read values are exact:
-/// the id is d-&lt;date&gt;-&lt;n&gt;, written with the entry, its date the entry's own and its
-/// n one more than the previous entry of that date or 1, and a wrong id fails naming the
-/// expected one; the date is YYYY-MM-DD and never earlier than the entry before; supersedes
-/// is ids separated by single spaces, each an earlier entry of the same file that no other
-/// entry supersedes. Nothing derives an id and the tool never writes one.
+/// schemas/decisions-schema.md on the engine: the Shape's head, sections "## Revision N" and the
+/// entries' typed fields are the engine's; the class's own rules are the title, sections that
+/// ascend and open with at most one paragraph, the id d-&lt;date&gt;-&lt;n&gt; written with the
+/// entry and held to its date's sequence, dates that never go backwards, and supersession that
+/// is whole and never chains. Nothing derives an id and the tool never writes one.
 /// </summary>
 public static class Decisions
 {
+    public const string SchemaId = "decisions-schema";
     public const string Title = "Decisions";
+    public const string SectionName = "Revision N";
     public static readonly string[] Keys = ["id", "date", "supersedes", "raised by", "decision", "not taken"];
-    static readonly string[] Required = ["id", "date", "raised by", "decision", "not taken"];
     static readonly Regex SectionHeading = new(@"^Revision (?<n>[1-9]\d*)$", RegexOptions.Compiled);
-    static readonly Regex Keyed = new(@"^- (?<key>[a-z][a-z ]*): (?<value>.*)$", RegexOptions.Compiled);
     public static readonly Regex Id = new(@"^d-(?<date>\d{4}-\d{2}-\d{2})-(?<n>[1-9]\d*)$", RegexOptions.Compiled);
 
     /// <summary>One entry with the id the shape expects for it; only entries whose date line is exact get one.</summary>
     public sealed record Entry(string Id, string Title, int Line, string Date, IReadOnlyList<string> Supersedes);
 
-    sealed record Field(string Key, string Value, int Line, List<string> Continuation);
-
-    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path) => Read(path).Findings;
+    public static IReadOnlyList<Finding> Check(CheckContext ctx, string path) => Read(ctx, path).Findings;
 
     /// <summary>The entries of a decisions file in order, and every finding against the schema.</summary>
-    public static (IReadOnlyList<Entry> Entries, IReadOnlyList<Finding> Findings) Read(string path)
+    public static (IReadOnlyList<Entry> Entries, IReadOnlyList<Finding> Findings) Read(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
-        var lines = SchemaCheckers.Lines(path);
         var findings = new List<Finding>();
         var entries = new List<Entry>();
 
-        var first = Array.FindIndex(lines, l => l.Trim().Length > 0);
-        if (first < 0 || lines[first] != "# " + Title)
+        var engine = EngineCheck.Run(SchemaId, ctx, path);
+        if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return (entries, findings); }
+        foreach (var p in engine.Problems)
+        {
+            var id = p.Section != SectionName ? "decisions.shape"
+                : p.Key == "id" && p.Kind is ProblemKind.Form or ProblemKind.Type ? "decisions.entry.id"
+                : p.Key == "date" && p.Kind is ProblemKind.Form or ProblemKind.Type ? "decisions.entry.date"
+                : p.Key == "supersedes" && p.Kind is ProblemKind.Form or ProblemKind.Type ? "decisions.supersedes"
+                : "decisions.entry.fields";
+            findings.Add(Finding.Fail(id, file, p.Message));
+        }
+        var doc = engine.Document;
+        if (doc.Title != Title)
             findings.Add(Finding.Fail("decisions.shape", file, $"the first line is '# {Title}'"));
+        if (doc.Root["head"] is JsonValue headNode && headNode.GetValue<string>().Split('\n').Any(l => l.StartsWith("### ", StringComparison.Ordinal)))
+            findings.Add(Finding.Fail("decisions.shape", file, "an entry outside a section; the head holds none"));
 
+        var sections = doc.Root[SectionName] as JsonArray ?? [];
         var sectionN = 0;
-        var inSection = false;
-        var leadParagraphs = 0;
-        var inParagraph = false;
-
-        string? title = null;
-        var titleLine = 0;
-        var fields = new List<Field>();
-        var stray = new List<int>();
-
-        var ids = new HashSet<string>(StringComparer.Ordinal);
         var perDate = new Dictionary<string, int>(StringComparer.Ordinal);
+        var ids = new HashSet<string>(StringComparer.Ordinal);
         var superseded = new Dictionary<string, int>(StringComparer.Ordinal);
         string? lastDate = null;
+        var positions = doc.Entries.Where(e => e.Section == SectionName).ToList();
+        var entryIndex = 0;
 
-        void Flush()
+        foreach (var sectionNode in sections)
         {
-            if (title is null) return;
-            var keys = fields.Select(f => f.Key).ToList();
-
-            foreach (var f in fields.Where(f => !Keys.Contains(f.Key)))
-                findings.Add(Finding.Fail("decisions.entry.fields", file,
-                    $"line {f.Line}: '{f.Key}' is not a key; the keys are {string.Join(", ", Keys)}"));
-            foreach (var dup in keys.GroupBy(k => k).Where(g => g.Count() > 1))
-                findings.Add(Finding.Fail("decisions.entry.fields", file, $"line {titleLine}: '{dup.Key}' appears twice"));
-            var missing = Required.Where(k => !keys.Contains(k)).ToList();
-            if (missing.Count > 0)
-                findings.Add(Finding.Fail("decisions.entry.fields", file,
-                    $"line {titleLine}: missing {string.Join(", ", missing)}"));
-            var order = keys.Where(Keys.Contains).Select(k => Array.IndexOf(Keys, k)).ToList();
-            if (order.Zip(order.Skip(1)).Any(p => p.Second <= p.First))
-                findings.Add(Finding.Fail("decisions.entry.fields", file,
-                    $"line {titleLine}: the keys are in the order {string.Join(", ", Keys)}"));
-            foreach (var f in fields.Where(f => f.Value.Trim().Length == 0))
-                findings.Add(Finding.Fail("decisions.entry.fields", file, $"line {f.Line}: '{f.Key}' has no value on its line"));
-            if (stray.Count > 0)
-                findings.Add(Finding.Fail("decisions.entry.fields", file,
-                    $"line {titleLine}: {stray.Count} line(s) neither keyed nor a two-space continuation, first at line {stray[0]}"));
-
-            string? id = null;
-            var date = fields.FirstOrDefault(f => f.Key == "date");
-            if (date is not null)
+            var heading = sectionNode![DocumentReader.HeadingProperty]!.GetValue<string>();
+            var m = SectionHeading.Match(heading);
+            if (!m.Success) findings.Add(Finding.Fail("decisions.shape", file, $"a section is '## Revision N'; found '{heading}'"));
+            else
             {
-                var exact = SchemaCheckers.IsoDate.IsMatch(date.Value)
-                            && DateOnly.TryParseExact(date.Value, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out _);
-                if (date.Continuation.Count > 0)
-                    findings.Add(Finding.Fail("decisions.entry.date", file, $"line {date.Line}: the date is one line"));
-                if (!exact)
-                    findings.Add(Finding.Fail("decisions.entry.date", file, $"line {date.Line}: the date is exactly YYYY-MM-DD; found '{date.Value}'"));
-                else
+                var n = int.Parse(m.Groups["n"].Value);
+                if (n <= sectionN) findings.Add(Finding.Fail("decisions.shape", file, $"sections ascend; Revision {n} follows Revision {sectionN}"));
+                sectionN = n;
+            }
+            var arr = sectionNode[SectionName] as JsonArray ?? [];
+            foreach (var entryNode in arr)
+            {
+                var obj = (JsonObject)entryNode!;
+                var pos = entryIndex < positions.Count ? positions[entryIndex] : null;
+                entryIndex++;
+                var titleText = obj[DocumentReader.HeadingProperty]?.GetValue<string>() ?? "";
+                var titleLine = pos?.Line ?? 0;
+                if (titleText.Length == 0)
+                    findings.Add(Finding.Fail("decisions.shape", file, $"line {titleLine}: an entry's title states the ruling in one line"));
+
+                string? id = null;
+                var date = obj["date"]?.GetValue<string>();
+                if (date is not null && SchemaCheckers.IsoDate.IsMatch(date))
                 {
-                    if (lastDate is not null && string.CompareOrdinal(date.Value, lastDate) < 0)
-                        findings.Add(Finding.Fail("decisions.entry.date", file,
-                            $"line {date.Line}: {date.Value} is earlier than the entry before it, {lastDate}"));
-                    lastDate = date.Value;
-                    perDate[date.Value] = perDate.GetValueOrDefault(date.Value) + 1;
-                    id = $"d-{date.Value}-{perDate[date.Value]}";
-                }
-            }
-
-            var written = fields.FirstOrDefault(f => f.Key == "id");
-            if (written is not null && id is not null)
-            {
-                if (written.Continuation.Count > 0)
-                    findings.Add(Finding.Fail("decisions.entry.id", file, $"line {written.Line}: the id is one line"));
-                if (written.Value != id)
-                    findings.Add(Finding.Fail("decisions.entry.id", file,
-                        $"line {written.Line}: the id is {id}, the entry's date and the next number of that date; found '{written.Value}'"));
-            }
-
-            var targets = new List<string>();
-            var sup = fields.FirstOrDefault(f => f.Key == "supersedes");
-            if (sup is not null)
-            {
-                if (sup.Continuation.Count > 0)
-                    findings.Add(Finding.Fail("decisions.supersedes", file, $"line {sup.Line}: supersedes is one line"));
-                var tokens = sup.Value.Split(' ');
-                if (tokens.Any(t => !Id.IsMatch(t)))
-                    findings.Add(Finding.Fail("decisions.supersedes", file,
-                        $"line {sup.Line}: ids d-YYYY-MM-DD-n separated by single spaces and nothing else; found '{sup.Value}'"));
-                else
-                    foreach (var t in tokens)
+                    var dateLine = pos?.FieldLines.GetValueOrDefault("date", titleLine) ?? titleLine;
+                    if (!SchemaCheckers.ExactDate(date))
+                        findings.Add(Finding.Fail("decisions.entry.date", file, $"line {dateLine}: the date is exactly YYYY-MM-DD; found '{date}'"));
+                    else
                     {
-                        if (targets.Contains(t))
-                            findings.Add(Finding.Fail("decisions.supersedes", file, $"line {sup.Line}: {t} is named twice"));
-                        else if (!ids.Contains(t))
-                            findings.Add(Finding.Fail("decisions.supersedes", file,
-                                $"line {sup.Line}: {t} is not an entry earlier in this file"));
-                        else if (superseded.TryGetValue(t, out var by))
-                            findings.Add(Finding.Fail("decisions.supersedes", file,
-                                $"line {sup.Line}: {t} is already superseded by the entry at line {by}; supersession is whole and never chains"));
-                        else
-                        {
-                            targets.Add(t);
-                            superseded[t] = titleLine;
-                        }
+                        if (lastDate is not null && string.CompareOrdinal(date, lastDate) < 0)
+                            findings.Add(Finding.Fail("decisions.entry.date", file, $"line {dateLine}: {date} is earlier than the entry before it, {lastDate}"));
+                        lastDate = date;
+                        perDate[date] = perDate.GetValueOrDefault(date) + 1;
+                        id = $"d-{date}-{perDate[date]}";
                     }
-            }
+                }
 
-            if (id is not null)
-            {
-                ids.Add(id);
-                entries.Add(new Entry(id, title, titleLine, date!.Value, targets));
+                var written = obj["id"]?.GetValue<string>();
+                if (written is not null && id is not null && written != id)
+                    findings.Add(Finding.Fail("decisions.entry.id", file,
+                        $"line {pos?.FieldLines.GetValueOrDefault("id", titleLine) ?? titleLine}: the id is {id}, the entry's date and the next number of that date; found '{written}'"));
+
+                var targets = new List<string>();
+                if (obj["supersedes"] is JsonArray sup)
+                {
+                    var supLine = pos?.FieldLines.GetValueOrDefault("supersedes", titleLine) ?? titleLine;
+                    foreach (var tNode in sup)
+                    {
+                        var t = tNode!.GetValue<string>();
+                        if (!Id.IsMatch(t)) continue; // the engine reported the form
+                        if (targets.Contains(t))
+                            findings.Add(Finding.Fail("decisions.supersedes", file, $"line {supLine}: {t} is named twice"));
+                        else if (!ids.Contains(t))
+                            findings.Add(Finding.Fail("decisions.supersedes", file, $"line {supLine}: {t} is not an entry earlier in this file"));
+                        else if (superseded.TryGetValue(t, out var by))
+                            findings.Add(Finding.Fail("decisions.supersedes", file, $"line {supLine}: {t} is already superseded by the entry at line {by}; supersession is whole and never chains"));
+                        else { targets.Add(t); superseded[t] = titleLine; }
+                    }
+                }
+
+                if (id is not null)
+                {
+                    ids.Add(id);
+                    entries.Add(new Entry(id, titleText, titleLine, date!, targets));
+                }
             }
-            title = null;
         }
 
-        for (var i = first + 1; i < lines.Length; i++)
+        // A section opens with at most one paragraph before its entries.
+        foreach (var (section, lead) in doc.LeadProse)
         {
-            var raw = lines[i];
-            var blank = raw.Trim().Length == 0;
-
-            if (raw.StartsWith("# ", StringComparison.Ordinal))
+            var paragraphs = 0;
+            var inParagraph = false;
+            foreach (var l in lead)
             {
-                Flush();
-                findings.Add(Finding.Fail("decisions.shape", file, $"line {i + 1}: one title, '# {Title}', at the top"));
-                continue;
+                if (l.Trim().Length == 0) { inParagraph = false; continue; }
+                if (!inParagraph) { paragraphs++; inParagraph = true; }
             }
-            if (raw.StartsWith("## ", StringComparison.Ordinal))
-            {
-                Flush();
-                var m = SectionHeading.Match(raw[3..]);
-                if (!m.Success)
-                    findings.Add(Finding.Fail("decisions.shape", file, $"line {i + 1}: a section is '## Revision N'; found '{raw[3..]}'"));
-                else
-                {
-                    var n = int.Parse(m.Groups["n"].Value);
-                    if (n <= sectionN)
-                        findings.Add(Finding.Fail("decisions.shape", file, $"line {i + 1}: sections ascend; Revision {n} follows Revision {sectionN}"));
-                    sectionN = n;
-                }
-                inSection = true;
-                leadParagraphs = 0;
-                inParagraph = false;
-                continue;
-            }
-            if (raw.StartsWith("### ", StringComparison.Ordinal))
-            {
-                Flush();
-                if (!inSection)
-                    findings.Add(Finding.Fail("decisions.shape", file, $"line {i + 1}: an entry outside a section; the head holds none"));
-                title = raw[4..].Trim();
-                titleLine = i + 1;
-                fields = [];
-                stray = [];
-                if (title.Length == 0)
-                    findings.Add(Finding.Fail("decisions.shape", file, $"line {i + 1}: an entry's title states the ruling in one line"));
-                continue;
-            }
-
-            if (title is not null)
-            {
-                if (blank) continue;
-                if (raw.StartsWith("  ", StringComparison.Ordinal))
-                {
-                    if (fields.Count == 0) stray.Add(i + 1);
-                    else fields[^1].Continuation.Add(raw);
-                    continue;
-                }
-                var km = Keyed.Match(raw);
-                if (km.Success) fields.Add(new Field(km.Groups["key"].Value, km.Groups["value"].Value, i + 1, []));
-                else stray.Add(i + 1);
-                continue;
-            }
-
-            if (inSection)
-            {
-                if (blank) { inParagraph = false; continue; }
-                if (!inParagraph)
-                {
-                    leadParagraphs++;
-                    inParagraph = true;
-                    if (leadParagraphs == 2)
-                        findings.Add(Finding.Fail("decisions.shape", file,
-                            $"line {i + 1}: a section opens with at most one paragraph, then entries"));
-                }
-            }
-            // Before the first section: the head, free prose.
+            if (paragraphs > 1)
+                findings.Add(Finding.Fail("decisions.shape", file, $"a section opens with at most one paragraph, then entries; a {section} section opens with {paragraphs}"));
         }
-        Flush();
-        return (entries, findings);
+        return (entries, findings.DistinctBy(f => (f.CheckId, f.Message)).ToList());
     }
 }
 
 /// <summary>
-/// schemas/question-entry-schema.md: "# &lt;corpus&gt; — questions" with the file's own name,
-/// then entries only. An entry is "### &lt;corpus&gt;/&lt;slug&gt;", the file's own corpus and a slug
-/// unique in the list (the heading is the citation token, d-2026-09-07-31), then date
-/// (exact, never earlier than the entry before), hypotheses (ids NNN, each a hypothesis file
-/// the artifacts table locates, present only when there are any), raised by, question and
-/// suggested test (free), and beneath them at most one appended "- withdrawn: YYYY-MM-DD
-/// &lt;reason&gt;". An entry is cited as &lt;corpus&gt;/&lt;slug&gt;; open, frozen and answered
-/// are derived, never written. Every writer is hitl and the class is append.
+/// schemas/question-entry-schema.md on the engine: the entries and their typed fields, the
+/// hypotheses ids resolved by the engine; the class's own rules are the title with the file's
+/// own corpus, the heading as the citation token with a slug unique in the list, dates that
+/// never go backwards, and the appended withdrawn line, at most once, beneath the fields.
 /// </summary>
 public static class Questions
 {
+    public const string SchemaId = "question-entry-schema";
     public static readonly string[] Keys = ["date", "hypotheses", "raised by", "question", "suggested test"];
-    static readonly string[] Required = ["date", "raised by", "question"];
-    static readonly Regex Keyed = new(@"^- (?<key>[a-z][a-z ]*): (?<value>.*)$", RegexOptions.Compiled);
     static readonly Regex WithdrawnLine = new(@"^- withdrawn: (?<date>\d{4}-\d{2}-\d{2}) (?<reason>\S.*)$", RegexOptions.Compiled);
-    static readonly Regex HypothesisId = new(@"^\d{3}$", RegexOptions.Compiled);
 
     /// <summary>One entry as read; Date is empty when the date line was not exact.</summary>
     public sealed record Entry(string Slug, int Line, string Date, IReadOnlyList<string> Hypotheses, bool Withdrawn);
-
-    sealed record Field(string Key, string Value, int Line, List<string> Continuation);
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path) => Read(ctx, path).Findings;
 
@@ -693,177 +623,91 @@ public static class Questions
     {
         var file = Path.GetFileName(path);
         var corpus = Path.GetFileNameWithoutExtension(path);
-        var lines = SchemaCheckers.Lines(path);
         var findings = new List<Finding>();
         var entries = new List<Entry>();
 
-        var first = Array.FindIndex(lines, l => l.Trim().Length > 0);
-        var title = $"# {corpus} — questions";
-        if (first < 0 || lines[first] != title)
-            findings.Add(Finding.Fail("question.title", file, $"the title is '{title}', the file's own name"));
+        var engine = EngineCheck.Run(SchemaId, ctx, path);
+        if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return (entries, findings); }
+        foreach (var p in engine.Problems)
+        {
+            if (p.Key == "withdrawn") continue; // the appended line, held below
+            var id = p.Key == "date" && p.Kind is ProblemKind.Form or ProblemKind.Type ? "question.entry.date"
+                : p.Key == "hypotheses" && p.Kind is ProblemKind.Form or ProblemKind.Type or ProblemKind.Reference ? "question.hypotheses"
+                : "question.entry.fields";
+            findings.Add(Finding.Fail(id, file, p.Message));
+        }
+        var doc = engine.Document;
+        var title = $"{corpus} — questions";
+        if (doc.Title != title)
+            findings.Add(Finding.Fail("question.title", file, $"the title is '# {title}', the file's own name"));
         if (ctx.CorporaIds.Count == 0)
-            findings.Add(Finding.Info("question.corpora-unavailable", file,
-                "no corpus ids could be read from the skill folder; the corpus is not checked"));
+            findings.Add(Finding.Info("question.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is not checked"));
         else if (!ctx.CorporaIds.Contains(corpus))
             findings.Add(Finding.Fail("question.title", file, $"'{corpus}' is not a corpus id in CORPORA.md"));
+        if (References.FilesOf(WellKnown.HypothesisStatus, ctx) is null)
+            findings.Add(Finding.Info("question.hypotheses-unavailable", file, "no hypothesis class could be located from the artifacts table; hypothesis ids are not checked"));
 
-        var hypothesisIds = HypothesisIds(ctx);
-        if (hypothesisIds is null)
-            findings.Add(Finding.Info("question.hypotheses-unavailable", file,
-                "no hypothesis class could be located from the artifacts table; hypothesis ids are not checked"));
-
-        string? slug = null;
-        var slugLine = 0;
-        var fields = new List<Field>();
-        var stray = new List<int>();
-        var withdrawn = 0;
-        var afterWithdrawn = false;
-        string? lastDate = null;
-        var slugs = new HashSet<string>(StringComparer.Ordinal);
-
-        void Flush()
+        // ---- the withdrawn lines, by position in the file ----
+        var lines = SchemaCheckers.Lines(path);
+        var withdrawnOf = new Dictionary<int, int>(); // entry heading line → count
+        var positions = doc.Entries.Where(e => e.Section == "body").ToList();
+        for (var i = 0; i < lines.Length; i++)
         {
-            if (slug is null) return;
-            var keys = fields.Select(f => f.Key).ToList();
-            foreach (var f in fields.Where(f => !Keys.Contains(f.Key)))
-                findings.Add(Finding.Fail("question.entry.fields", file,
-                    $"line {f.Line}: '{f.Key}' is not a key; the keys are {string.Join(", ", Keys)}"));
-            foreach (var dup in keys.GroupBy(k => k).Where(g => g.Count() > 1))
-                findings.Add(Finding.Fail("question.entry.fields", file, $"line {slugLine}: '{dup.Key}' appears twice"));
-            var missing = Required.Where(k => !keys.Contains(k)).ToList();
-            if (missing.Count > 0)
-                findings.Add(Finding.Fail("question.entry.fields", file, $"line {slugLine}: missing {string.Join(", ", missing)}"));
-            var order = keys.Where(Keys.Contains).Select(k => Array.IndexOf(Keys, k)).ToList();
-            if (order.Zip(order.Skip(1)).Any(p => p.Second <= p.First))
-                findings.Add(Finding.Fail("question.entry.fields", file,
-                    $"line {slugLine}: the keys are in the order {string.Join(", ", Keys)}"));
-            foreach (var f in fields.Where(f => f.Value.Trim().Length == 0))
-                findings.Add(Finding.Fail("question.entry.fields", file, $"line {f.Line}: '{f.Key}' has no value on its line"));
-            if (stray.Count > 0)
-                findings.Add(Finding.Fail("question.entry.fields", file,
-                    $"line {slugLine}: {stray.Count} line(s) neither keyed nor a two-space continuation, first at line {stray[0]}"));
+            if (!lines[i].StartsWith("- withdrawn:", StringComparison.Ordinal)) continue;
+            var owner = positions.LastOrDefault(e => e.Line < i + 1);
+            if (!WithdrawnLine.IsMatch(lines[i]))
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a withdrawn line is '- withdrawn: YYYY-MM-DD <reason>'"));
+            if (owner is null) continue;
+            var fieldsAfter = lines.Skip(i + 1).TakeWhile(l => !l.StartsWith("### ", StringComparison.Ordinal))
+                .Any(l => StoryPlanner.BatchFiles.KeyedLines.IsKeyedLine(l) && !l.StartsWith("- withdrawn:", StringComparison.Ordinal));
+            var fieldsBefore = owner.FieldLines.Values.Any(l => l < i + 1);
+            if (!fieldsBefore)
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: withdrawn sits beneath the fields, never before them"));
+            else if (fieldsAfter)
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a keyed line after withdrawn; withdrawn is the last line of an entry"));
+            withdrawnOf[owner.Line] = withdrawnOf.GetValueOrDefault(owner.Line) + 1;
+        }
+        foreach (var (line, count) in withdrawnOf.Where(kv => kv.Value > 1))
+            findings.Add(Finding.Fail("question.withdrawn", file, $"line {line}: withdrawn appears twice; a question is withdrawn once"));
+
+        // ---- headings and dates ----
+        var slugs = new HashSet<string>(StringComparer.Ordinal);
+        string? lastDate = null;
+        var arr = doc.Root["body"] as JsonArray ?? [];
+        for (var i = 0; i < arr.Count; i++)
+        {
+            var obj = (JsonObject)arr[i]!;
+            var pos = i < positions.Count ? positions[i] : null;
+            var heading = obj[DocumentReader.HeadingProperty]?.GetValue<string>() ?? "";
+            var line = pos?.Line ?? 0;
+            var slash = heading.IndexOf('/');
+            var prefix = slash < 0 ? "" : heading[..slash];
+            var slug = slash < 0 ? heading : heading[(slash + 1)..];
+            if (prefix != corpus)
+                findings.Add(Finding.Fail("question.slug", file, $"line {line}: the heading is '{corpus}/<slug>', the file's own corpus then the slug; found '{heading}'"));
+            else if (!ClosedSets.IdPattern.IsMatch(slug))
+                findings.Add(Finding.Fail("question.slug", file, $"line {line}: '{slug}' is not a lowercase slug"));
+            else if (!slugs.Add(slug))
+                findings.Add(Finding.Fail("question.slug", file, $"line {line}: '{slug}' repeats a slug in this list"));
 
             var dateValue = "";
-            var date = fields.FirstOrDefault(f => f.Key == "date");
-            if (date is not null)
+            var date = obj["date"]?.GetValue<string>();
+            if (date is not null && SchemaCheckers.IsoDate.IsMatch(date))
             {
-                var exact = SchemaCheckers.IsoDate.IsMatch(date.Value)
-                            && DateOnly.TryParseExact(date.Value, "yyyy-MM-dd", CultureInfo.InvariantCulture, DateTimeStyles.None, out _);
-                if (date.Continuation.Count > 0)
-                    findings.Add(Finding.Fail("question.entry.date", file, $"line {date.Line}: the date is one line"));
-                if (!exact)
-                    findings.Add(Finding.Fail("question.entry.date", file, $"line {date.Line}: the date is exactly YYYY-MM-DD; found '{date.Value}'"));
+                var dateLine = pos?.FieldLines.GetValueOrDefault("date", line) ?? line;
+                if (!SchemaCheckers.ExactDate(date))
+                    findings.Add(Finding.Fail("question.entry.date", file, $"line {dateLine}: the date is exactly YYYY-MM-DD; found '{date}'"));
                 else
                 {
-                    if (lastDate is not null && string.CompareOrdinal(date.Value, lastDate) < 0)
-                        findings.Add(Finding.Fail("question.entry.date", file,
-                            $"line {date.Line}: {date.Value} is earlier than the entry before it, {lastDate}"));
-                    lastDate = date.Value;
-                    dateValue = date.Value;
+                    if (lastDate is not null && string.CompareOrdinal(date, lastDate) < 0)
+                        findings.Add(Finding.Fail("question.entry.date", file, $"line {dateLine}: {date} is earlier than the entry before it, {lastDate}"));
+                    lastDate = date;
+                    dateValue = date;
                 }
             }
-
-            var ids = new List<string>();
-            var hyp = fields.FirstOrDefault(f => f.Key == "hypotheses");
-            if (hyp is not null)
-            {
-                if (hyp.Continuation.Count > 0)
-                    findings.Add(Finding.Fail("question.hypotheses", file, $"line {hyp.Line}: hypotheses is one line"));
-                var tokens = hyp.Value.Split(' ');
-                if (tokens.Any(t => !HypothesisId.IsMatch(t)))
-                    findings.Add(Finding.Fail("question.hypotheses", file,
-                        $"line {hyp.Line}: ids NNN separated by single spaces and nothing else; found '{hyp.Value}'"));
-                else
-                    foreach (var t in tokens)
-                    {
-                        ids.Add(t);
-                        if (hypothesisIds is not null && !hypothesisIds.Contains(t))
-                            findings.Add(Finding.Fail("question.hypotheses", file, $"line {hyp.Line}: {t} names no hypothesis file"));
-                    }
-            }
-
-            if (withdrawn > 1)
-                findings.Add(Finding.Fail("question.withdrawn", file, $"line {slugLine}: withdrawn appears twice; a question is withdrawn once"));
-
-            entries.Add(new Entry(slug, slugLine, dateValue, ids, withdrawn > 0));
-            slug = null;
+            var ids = obj["hypotheses"] is JsonArray h ? h.Select(x => x!.GetValue<string>()).ToList() : [];
+            entries.Add(new Entry(slug, line, dateValue, ids, withdrawnOf.ContainsKey(line)));
         }
-
-        for (var i = first + 1; i < lines.Length; i++)
-        {
-            var raw = lines[i];
-            var blank = raw.Trim().Length == 0;
-
-            if (raw.StartsWith("### ", StringComparison.Ordinal))
-            {
-                Flush();
-                var heading = raw[4..].Trim();
-                var slash = heading.IndexOf('/');
-                var prefix = slash < 0 ? "" : heading[..slash];
-                slug = slash < 0 ? heading : heading[(slash + 1)..];
-                slugLine = i + 1;
-                fields = [];
-                stray = [];
-                withdrawn = 0;
-                afterWithdrawn = false;
-                if (prefix != corpus)
-                    findings.Add(Finding.Fail("question.slug", file,
-                        $"line {i + 1}: the heading is '{corpus}/<slug>', the file's own corpus then the slug; found '{heading}'"));
-                else if (!ClosedSets.IdPattern.IsMatch(slug))
-                    findings.Add(Finding.Fail("question.slug", file, $"line {i + 1}: '{slug}' is not a lowercase slug"));
-                else if (!slugs.Add(slug))
-                    findings.Add(Finding.Fail("question.slug", file, $"line {i + 1}: '{slug}' repeats a slug in this list"));
-                continue;
-            }
-            if (slug is null)
-            {
-                if (!blank)
-                    findings.Add(Finding.Fail("question.entry.fields", file,
-                        $"line {i + 1}: a line outside every entry; the file is its title, then entries"));
-                continue;
-            }
-            if (blank) continue;
-
-            if (raw.StartsWith("- withdrawn:", StringComparison.Ordinal))
-            {
-                if (!WithdrawnLine.IsMatch(raw))
-                    findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a withdrawn line is '- withdrawn: YYYY-MM-DD <reason>'"));
-                else if (fields.Count == 0)
-                    findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: withdrawn sits beneath the fields, never before them"));
-                withdrawn++;
-                afterWithdrawn = true;
-                continue;
-            }
-            if (raw.StartsWith("  ", StringComparison.Ordinal))
-            {
-                if (afterWithdrawn) continue; // the reason's continuation
-                if (fields.Count == 0) stray.Add(i + 1);
-                else fields[^1].Continuation.Add(raw);
-                continue;
-            }
-            var km = Keyed.Match(raw);
-            if (km.Success)
-            {
-                if (afterWithdrawn)
-                    findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a keyed line after withdrawn; withdrawn is the last line of an entry"));
-                fields.Add(new Field(km.Groups["key"].Value, km.Groups["value"].Value, i + 1, []));
-                continue;
-            }
-            stray.Add(i + 1);
-        }
-        Flush();
-        return (entries, findings);
-    }
-
-    /// <summary>The NNN of every hypothesis file the artifacts table locates, or null when no hypothesis class can be found.</summary>
-    static HashSet<string>? HypothesisIds(CheckContext ctx)
-    {
-        var cls = ArtifactScope.CheckedClasses(ctx.RepoRoot).FirstOrDefault(c => c.Row.Id == WellKnown.HypothesisStatus);
-        if (cls is null) return null;
-        return cls.Files()
-            .Select(Path.GetFileName)
-            .Where(n => n is not null && n.Length >= 3)
-            .Select(n => n![..3])
-            .ToHashSet(StringComparer.Ordinal);
+        return (entries, findings.DistinctBy(f => (f.CheckId, f.Message)).ToList());
     }
 }
