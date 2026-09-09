@@ -1,0 +1,34 @@
+@* Leaf: every batch, live first. *@
+<table>
+    <thead><tr><th>batch</th><th>study</th><th>kind</th><th>model</th><th>directions</th><th>state</th><th>items</th><th>in flight</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>last activity</th></tr></thead>
+    <tbody>
+    @foreach (var b in Batches)
+    {
+        <tr>
+            <td><a href="/batches/@b.Id">@b.Name</a>@(b.Error is null ? "" : " ⚠")</td>
+            <td class="muted">@b.Study</td>
+            <td>@(b.Kind ?? "")</td>
+            <td>@(b.Model ?? "")</td>
+            <td class="muted">@(b.Directions ?? "")</td>
+            <td>
+                @if (b.Scheduled) { <span class="state Pending">scheduled @Local(b.NotBeforeUtc)</span> }
+                else if (b.Live) { <span class="state Running">@(b.Paused ? "paused" : b.StopRequested ? "stopping" : "executing")</span> }
+                else if (b.Stages.Tallied) { <span class="state Succeeded">tallied</span> }
+                else if (b.Completed) { <span class="state Succeeded">executed</span> }
+                else if (b.Failed > 0) { <span class="state Failed">@b.Failed failed</span> }
+                else { <span class="state Pending">@b.Pending pending</span> }
+            </td>
+            <td>@b.Succeeded / @b.Items.Count</td>
+            <td>@(b.Live ? b.InFlight.ToString() : "")</td>
+            <td>$@b.CostUsd.ToString("F2")</td>
+            <td class="muted">@Local(b.LastActivityUtc)</td>
+        </tr>
+    }
+    </tbody>
+</table>
+@if (Batches.Count == 0) { <p class="muted">No batches beneath the working directory yet.</p> }
+
+@code {
+    [Parameter] public IReadOnlyList<BatchSnapshot> Batches { get; set; } = [];
+    private static string Local(string? iso) => DateTimeOffset.TryParse(iso, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : "";
+}

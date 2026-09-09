@@ -1,30 +1,28 @@
-@* Leaf: harness control for one live run — how it runs, never what a job is. *@
+@* Leaf: harness control for one live execution — how it runs, never what a call is. *@
 <div class="controls">
-    @if (Run.Scheduled)
+    @if (Batch.Scheduled)
     {
-        <span>scheduled for @(DateTimeOffset.TryParse(Run.NotBeforeUtc, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : Run.NotBeforeUtc)</span>
+        <span>scheduled for @(DateTimeOffset.TryParse(Batch.NotBeforeUtc, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : Batch.NotBeforeUtc)</span>
         <button class="danger" @onclick='() => OnAction.InvokeAsync("unschedule")'>unschedule</button>
     }
-    else if (!Run.Live)
+    else if (!Batch.Live)
     {
-        <span class="muted">@(Run.Completed ? "finished" : "not live") — enqueue from the CLI to run it</span>
+        <span class="muted">@(Batch.Completed ? "executed" : "not executing") — execute-batch from the CLI to call what is pending</span>
     }
     else
     {
-        @if (Run.Paused) { <button @onclick='() => OnAction.InvokeAsync("resume")'>resume</button> }
-        else { <button @onclick='() => OnAction.InvokeAsync("pause")' disabled="@Run.StopRequested">pause</button> }
-        <button @onclick='() => OnAction.InvokeAsync("stop")' disabled="@Run.StopRequested">stop after in-flight</button>
+        @if (Batch.Paused) { <button @onclick='() => OnAction.InvokeAsync("resume")'>resume</button> }
+        else { <button @onclick='() => OnAction.InvokeAsync("pause")' disabled="@Batch.StopRequested">pause</button> }
+        <button @onclick='() => OnAction.InvokeAsync("stop")' disabled="@Batch.StopRequested">stop after in-flight</button>
         <button class="danger" @onclick='() => OnAction.InvokeAsync("cancel")' disabled="@(!CanCancel)">cancel selected</button>
-        <label>run ceiling <input type="number" min="1" max="32" value="@(Run.MaxParallel ?? 1)" @onchange="e => OnMaxParallel.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : (Run.MaxParallel ?? 1))" /></label>
-        <span>@Run.InFlight in flight, @Run.Pending pending</span>
-        @if (Run.HoldReason is { } h) { <span class="hold">held: @h</span> }
+        <span>@Batch.InFlight in flight, @Batch.Pending pending</span>
+        @if (Batch.HoldReason is { } h) { <span class="hold">held: @h</span> }
     }
 </div>
 
 @code {
-    [Parameter, EditorRequired] public RunSnapshot Run { get; set; } = default!;
-    [Parameter] public string? SelectedJobId { get; set; }
+    [Parameter, EditorRequired] public BatchSnapshot Batch { get; set; } = default!;
+    [Parameter] public string? SelectedItem { get; set; }
     [Parameter] public EventCallback<string> OnAction { get; set; }
-    [Parameter] public EventCallback<int> OnMaxParallel { get; set; }
-    private bool CanCancel => SelectedJobId is not null && Run.Jobs.Any(j => j.Id == SelectedJobId && j.State == "Running");
+    private bool CanCancel => SelectedItem is not null && Batch.Items.Any(i => i.Item == SelectedItem && i.State == "Running");
 }

@@ -12,8 +12,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <!-- Same version StoryPlanner.Core carries; renders the v3-buildout skill's map.md and a run's run.md. -->
+        <!-- Same version StoryPlanner.Core carries; renders the v3-buildout skill's map.md on the host's page. -->
         <PackageReference Include="Markdig" Version="1.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
     </ItemGroup>
 
 </Project>

@@ -5,13 +5,13 @@
 <div class="shell">
     <nav class="topnav">
         <a href="/" class="brand">agent runner</a>
-        <a href="/">runs</a>
-        <a href="/protocol">process map</a>
+        <a href="/">batches</a>
+        <a href="/map">process map</a>
     </nav>
-    @* The host bar is on every page: the usage cache and the ceilings are what you look at before and during any batch. *@
-    <HostBar InFlight="Host.InFlight" MaxParallel="Host.MaxParallel" UtilizationCap="Host.UtilizationCap"
+    @* The host bar is on every page: the usage cache, the ceilings and the idle limit are what you look at before and during any batch. *@
+    <HostBar InFlight="Host.InFlight" MaxParallel="Host.MaxParallel" UtilizationCap="Host.UtilizationCap" IdleMinutes="Host.IdleMinutes"
              Utilization="Host.ReadUtilization()" ShuttingDown="Host.ShuttingDown"
-             OnMaxParallel="n => Host.SetMaxParallel(n)" OnUtilizationCap="n => Host.SetUtilizationCap(n)" />
+             OnMaxParallel="n => Host.SetMaxParallel(n)" OnUtilizationCap="n => Host.SetUtilizationCap(n)" OnIdleMinutes="n => Host.SetIdleMinutes(n)" />
     <main>@Body</main>
 </div>
 

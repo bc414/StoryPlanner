@@ -24,7 +24,7 @@ public class MarkdownViewTests
         Assert.Contains("<table>", html);
         Assert.Contains("<h2 id=\"consumers\">Consumers</h2>", html);
 
-        // The plain renderer (run.md) leaves the fence as the diagram extension wrote it.
+        // The plain renderer leaves the fence as the diagram extension wrote it.
         Assert.Contains("<pre class=\"mermaid\">", MarkdownView.Render(Map).Value);
         Assert.Equal("", MarkdownView.RenderWithFoldedDiagrams("  ").Value);
     }

@@ -1,9 +1,10 @@
-@* Leaf: the host's ceilings and everything the usage cache says. On every page, from the layout. Parameters and callbacks only. *@
+@* Leaf: the host's ceilings, the idle limit and everything the usage cache says. On every page, from the layout. Parameters and callbacks only. *@
 <div class="hostbar">
     <div class="hostrow">
         <span><strong>@InFlight</strong> in flight</span>
         <label>host ceiling <input type="number" min="1" max="32" value="@MaxParallel" @onchange="e => OnMaxParallel.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : MaxParallel)" /></label>
         <label>cap % <input type="number" min="1" max="100" value="@UtilizationCap" @onchange="e => OnUtilizationCap.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : UtilizationCap)" /></label>
+        <label>idle min <input type="number" min="1" max="240" value="@IdleMinutes" @onchange="e => OnIdleMinutes.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : IdleMinutes)" /></label>
         @if (ShuttingDown) { <span class="hold">shutting down</span> }
     </div>
     @if (Utilization is { } u)
@@ -40,10 +41,12 @@
     [Parameter] public int InFlight { get; set; }
     [Parameter] public int MaxParallel { get; set; }
     [Parameter] public int UtilizationCap { get; set; }
+    [Parameter] public int IdleMinutes { get; set; }
     [Parameter] public Utilization? Utilization { get; set; }
     [Parameter] public bool ShuttingDown { get; set; }
     [Parameter] public EventCallback<int> OnMaxParallel { get; set; }
     [Parameter] public EventCallback<int> OnUtilizationCap { get; set; }
+    [Parameter] public EventCallback<int> OnIdleMinutes { get; set; }
 
     private static string Local(DateTimeOffset t)
     {

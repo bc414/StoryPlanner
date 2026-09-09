@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Components;
 
 namespace StoryPlanner.AgentRunner;
 
-/// <summary>Markdown to markup for the process-map page and a run's <c>run.md</c>. Same Markdig the Core project renders with.</summary>
+/// <summary>Markdown to markup for the process-map page. Same Markdig the Core project renders with.</summary>
 public static class MarkdownView
 {
     private static readonly MarkdownPipeline Pipeline = new MarkdownPipelineBuilder().UseAdvancedExtensions().Build();

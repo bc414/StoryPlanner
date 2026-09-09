@@ -1,0 +1,25 @@
+@* Leaf: the items of one batch with their latest call; a row click selects an item for the stream pane. *@
+<table>
+    <thead><tr><th>item</th><th>state</th><th>calls</th><th>exit</th><th>check</th><th>time</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>locator</th></tr></thead>
+    <tbody>
+    @foreach (var i in Items)
+    {
+        <tr class="selectable @(i.Item == SelectedItem ? "selected" : "")" @onclick="() => OnSelect.InvokeAsync(i.Item)">
+            <td>@i.Item</td>
+            <td><span class="state @i.State">@i.State</span></td>
+            <td>@i.Calls</td>
+            <td>@(i.LastExit?.ToString() ?? "")</td>
+            <td>@(i.LastCheck ?? "")</td>
+            <td>@(i.LastSeconds is { } s ? $"{s:F0}s" : "")</td>
+            <td>@(i.CostUsd > 0 ? $"${i.CostUsd:F3}" : "")</td>
+            <td class="muted">@i.Locator</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@code {
+    [Parameter] public IReadOnlyList<ItemSnapshot> Items { get; set; } = [];
+    [Parameter] public string? SelectedItem { get; set; }
+    [Parameter] public EventCallback<string> OnSelect { get; set; }
+}

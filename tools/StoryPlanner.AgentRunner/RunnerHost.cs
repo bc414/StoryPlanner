@@ -3,18 +3,20 @@ using System.Text.Json;
 namespace StoryPlanner.AgentRunner;
 
 /// <summary>
-/// The host's settings: the port and bind address of the page, the global ceilings, where
-/// the fanout tree is, and optionally where the process map is. Read from
-/// <c>configs/host.json</c> when present; every field has a default. <c>token</c> and
-/// <c>bind</c> exist for the LAN follow-up and are inert on localhost.
+/// The host's settings: the port and bind address of the page, the launch folder outside the
+/// repo, the global ceilings, the idle limit after which a silent call is killed, and
+/// optionally where the process map is. Read from <c>configs/host.json</c> when present;
+/// every field has a default. <c>token</c> and <c>bind</c> exist for the LAN follow-up and are
+/// inert on localhost. Nothing here is a batch's: a batch's settings are its definition.
 /// </summary>
 public sealed record HostConfig(
     int Port = 5190,
     string Bind = "127.0.0.1",
     string? Token = null,
-    string? FanoutRoot = null,
+    string? LaunchDir = null,
     int MaxParallel = 4,
     int UtilizationCap = 80,
+    int IdleMinutes = 10,
     string? MapPath = null)
 {
     public string Url => $"http://{Bind}:{Port}";
@@ -25,12 +27,12 @@ public sealed record HostConfig(
 
     /// <summary>
     /// Where the process map is: <c>mapPath</c> from host.json (absolute, or relative to the
-    /// repo root), else the first of <see cref="MapCandidates"/> that exists under the repo
-    /// root, which is the folder above the fanout root. Null when none exists.
+    /// repo root), else the first of <see cref="MapCandidates"/> that exists under the repo root
+    /// above the working directory. Null when none exists.
     /// </summary>
-    public static string? ResolveMapPath(string? mapPath, string fanoutRoot)
+    public static string? ResolveMapPath(string? mapPath, string workingDir)
     {
-        var repoRoot = Path.GetDirectoryName(Path.TrimEndingDirectorySeparator(Path.GetFullPath(fanoutRoot))) ?? fanoutRoot;
+        var repoRoot = Batch.FindRepoRoot(Path.Combine(workingDir, "x")) ?? workingDir;
         if (!string.IsNullOrWhiteSpace(mapPath))
         {
             var explicitPath = Path.IsPathRooted(mapPath) ? mapPath : Path.Combine(repoRoot, mapPath);
@@ -51,22 +53,15 @@ public sealed record HostConfig(
         var cfg = path is not null && File.Exists(path)
             ? JsonSerializer.Deserialize<HostConfig>(File.ReadAllText(path), Json) ?? new HostConfig()
             : new HostConfig();
-        return cfg with { FanoutRoot = cfg.FanoutRoot ?? FindFanoutRoot() };
+        return cfg with { LaunchDir = cfg.LaunchDir ?? DefaultLaunchDir() };
     }
 
-    /// <summary>The repo's <c>fanout/</c>, found by walking up from the exe (publish/ or bin/) to the folder holding <c>.git</c>, then from the cwd.</summary>
-    public static string FindFanoutRoot()
+    /// <summary>The sibling folder <c>StoryPlanner-fanout</c> beside the repository the exe sits in, when none is configured.</summary>
+    public static string DefaultLaunchDir()
     {
-        foreach (var start in new[] { AppContext.BaseDirectory, Directory.GetCurrentDirectory() })
-        {
-            var d = new DirectoryInfo(start);
-            while (d != null)
-            {
-                if (Directory.Exists(Path.Combine(d.FullName, ".git"))) return Path.Combine(d.FullName, "fanout");
-                d = d.Parent;
-            }
-        }
-        return Path.Combine(Directory.GetCurrentDirectory(), "fanout");
+        var repo = Batch.FindRepoRoot(Path.Combine(AppContext.BaseDirectory, "x")) ?? Batch.FindRepoRoot(Path.Combine(Directory.GetCurrentDirectory(), "x"));
+        var parent = repo is null ? Directory.GetCurrentDirectory() : Path.GetDirectoryName(repo) ?? repo;
+        return Path.Combine(parent, "StoryPlanner-fanout");
     }
 }
 
@@ -90,7 +85,7 @@ public sealed record Utilization(
     public TimeSpan UntilReset => ResetsAt - DateTimeOffset.UtcNow;
 }
 
-public sealed record EnqueueResult(bool Ok, string? RunId, string Message);
+public sealed record ExecuteResult(bool Ok, string? BatchId, string Message);
 
 /// <summary>The <c>--at</c> forms: <c>HH:mm</c> (the next such clock time), an ISO instant, or <c>reset</c> (the cached window reset plus a minute).</summary>
 public static class Schedule
@@ -101,7 +96,7 @@ public static class Schedule
         if (spec.Equals("reset", StringComparison.OrdinalIgnoreCase))
         {
             if (cached is null) return (null, "--at reset: no cached utilization in ~/.claude.json — run a Claude Code session so the cache exists, or give a clock time");
-            if (cached.ResetsAt <= now) return (null, $"--at reset: the cached reset ({cached.ResetsAt.ToLocalTime():HH:mm}) is already past — the window has reset; enqueue without --at");
+            if (cached.ResetsAt <= now) return (null, $"--at reset: the cached reset ({cached.ResetsAt.ToLocalTime():HH:mm}) is already past — the window has reset; execute without --at");
             return (cached.ResetsAt.AddMinutes(1), null);
         }
         if (TimeOnly.TryParseExact(spec, "HH:mm", out var clock))
@@ -122,14 +117,15 @@ public static class Schedule
 
 /// <summary>
 /// The persistent host: owns the page's port, runs any number of batches at once under one
-/// global parallel ceiling and one utilization cap (the launch gate every batch acquires
-/// through), keeps the live batches, reads the history from disk, and writes the host log.
-/// Harness control only: nothing here can change what a job is.
+/// global parallel ceiling, one utilization cap and one idle limit (the launch gate every
+/// batch acquires through), keeps the live executions, reads every batch beneath its working
+/// directory from disk, and writes its log beside the exe. Harness control only: nothing here
+/// can change what a call is.
 /// </summary>
 public sealed class RunnerHost : ILaunchGate, IDisposable
 {
     private readonly object _lock = new();
-    private readonly Dictionary<string, BatchRunner> _live = new(StringComparer.Ordinal);
+    private readonly Dictionary<string, BatchRunner> _live = new(StringComparer.OrdinalIgnoreCase);
     private readonly IChildLauncher _launcher;
     private readonly string _harnessVersion;
     private readonly CancellationTokenSource _cts = new();
@@ -140,9 +136,13 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     private int _inFlight;
 
     public HostConfig Config { get; }
-    public string FanoutRoot { get; }
+    /// <summary>Wherever the host was started: the page lists the batches whose definitions it finds beneath it.</summary>
+    public string WorkingDir { get; }
+    public string LaunchDir { get; }
     public int MaxParallel { get; private set; }
     public int UtilizationCap { get; private set; }
+    public int IdleMinutes { get; private set; }
+    public TimeSpan IdleLimit => TimeSpan.FromMinutes(Math.Max(1, IdleMinutes));
     public int InFlight => _inFlight;
     public DateTimeOffset StartedUtc { get; } = DateTimeOffset.UtcNow;
     public bool ShuttingDown { get; private set; }
@@ -153,25 +153,25 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     /// <param name="utilization">
     /// Where the cap reads the usage figure; the cache in <c>~/.claude.json</c> by default. Tests
     /// pass their own so the launch gate never depends on the developer's live subscription
-    /// window — on 2026-09-05 the pure-tier API tests timed out because the real cache stood
-    /// at 81% against the default cap of 80.
+    /// window.
     /// </param>
-    public RunnerHost(HostConfig config, IChildLauncher launcher, string harnessVersion, Action<string>? echo = null, Func<Utilization?>? utilization = null)
+    public RunnerHost(HostConfig config, IChildLauncher launcher, string harnessVersion, string? workingDir = null, Action<string>? echo = null, Func<Utilization?>? utilization = null, string? logPath = null)
     {
         Config = config;
-        FanoutRoot = Path.GetFullPath(config.FanoutRoot ?? HostConfig.FindFanoutRoot());
+        WorkingDir = Path.GetFullPath(workingDir ?? Directory.GetCurrentDirectory());
+        LaunchDir = Path.GetFullPath(config.LaunchDir ?? HostConfig.DefaultLaunchDir());
         MaxParallel = Math.Max(1, config.MaxParallel);
         UtilizationCap = Math.Clamp(config.UtilizationCap, 1, 100);
+        IdleMinutes = Math.Max(1, config.IdleMinutes);
         _launcher = launcher;
         _harnessVersion = harnessVersion;
         _echo = echo;
         _utilization = utilization ?? ReadCachedUtilization;
-        Directory.CreateDirectory(FanoutRoot);
-        _logPath = Path.Combine(FanoutRoot, "host-log.txt");
+        _logPath = logPath ?? Path.Combine(AppContext.BaseDirectory, "host-log.txt");
         _scheduler = new Timer(_ => StartDue(), null, TimeSpan.FromSeconds(1), TimeSpan.FromSeconds(1));
     }
 
-    // --- log: the provenance of how batches were driven (lifecycle, enqueues, knob changes) ---
+    // --- log: how batches were driven (lifecycle, executions, knob changes); the tool's own, no artifact reads it ---
 
     public void Log(string message)
     {
@@ -180,90 +180,80 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         _echo?.Invoke(line);
     }
 
-    // --- runs: live layered over disk ---
+    // --- batches: live layered over disk ---
 
-    public IReadOnlyList<RunSnapshot> Runs()
+    public IReadOnlyList<BatchSnapshot> Batches()
     {
         Dictionary<string, BatchRunner> live;
-        lock (_lock) live = new(_live);
-        var byId = new Dictionary<string, RunSnapshot>(StringComparer.Ordinal);
-        foreach (var dir in RunCatalog.RunDirs(FanoutRoot))
+        lock (_lock) live = new(_live, StringComparer.OrdinalIgnoreCase);
+        var byId = new Dictionary<string, BatchSnapshot>(StringComparer.OrdinalIgnoreCase);
+        foreach (var definition in BatchCatalog.Definitions(WorkingDir))
         {
-            var id = RunCatalog.RunIdFor(dir, FanoutRoot);
-            byId[id] = RunCatalog.Build(dir, FanoutRoot, live.GetValueOrDefault(id));
+            var key = Path.GetFullPath(definition);
+            byId[key] = BatchCatalog.Build(definition, WorkingDir, live.GetValueOrDefault(key));
         }
-        foreach (var (id, runner) in live)
-            if (!byId.ContainsKey(id)) byId[id] = RunCatalog.Build(runner.RunDir, FanoutRoot, runner);
+        foreach (var (key, runner) in live)
+            if (!byId.ContainsKey(key)) byId[key] = BatchCatalog.Build(key, WorkingDir, runner);
         return byId.Values
-            .OrderByDescending(r => r.Live)
-            .ThenByDescending(r => r.LastActivityUtc ?? "")
+            .OrderByDescending(b => b.Live)
+            .ThenByDescending(b => b.LastActivityUtc ?? "")
+            .ThenBy(b => b.Id, StringComparer.Ordinal)
             .ToList();
     }
 
-    public RunSnapshot? Run(string runId)
+    /// <summary>The definition path a batch id names: relative to the working directory, or absolute.</summary>
+    public string DefinitionPathOf(string batchId)
     {
-        BatchRunner? live;
-        lock (_lock) _live.TryGetValue(runId, out live);
-        var dir = live?.RunDir ?? Path.Combine(FanoutRoot, runId.Replace('/', Path.DirectorySeparatorChar));
-        if (live is null && !File.Exists(Path.Combine(dir, "ledger.jsonl")) && !File.Exists(Path.Combine(dir, "jobs.json"))) return null;
-        return RunCatalog.Build(dir, FanoutRoot, live);
+        var dir = Path.IsPathRooted(batchId) ? batchId : Path.Combine(WorkingDir, batchId.Replace('/', Path.DirectorySeparatorChar));
+        return Path.GetFullPath(Path.Combine(dir, "definition.md"));
     }
 
-    public BatchRunner? Live(string runId) { lock (_lock) return _live.GetValueOrDefault(runId); }
-
-    // --- enqueue ---
-
-    public EnqueueResult Enqueue(string jobFilePath, string? jobFilter, DateTimeOffset? notBefore = null)
+    public BatchSnapshot? Batch(string batchId)
     {
-        if (ShuttingDown) return new EnqueueResult(false, null, "host is shutting down");
-        jobFilePath = Path.GetFullPath(jobFilePath);
-        var runDir = Path.GetDirectoryName(jobFilePath)!;
-        if (!BatchRunner.IsSameOrUnder(runDir, FanoutRoot))
-            return new EnqueueResult(false, null, $"run folder must be under {FanoutRoot} (the fanout tree is the record)");
-        var runId = RunCatalog.RunIdFor(runDir, FanoutRoot);
+        var definition = DefinitionPathOf(batchId);
+        BatchRunner? live;
+        lock (_lock) _live.TryGetValue(definition, out live);
+        if (live is null && !File.Exists(definition)) return null;
+        return BatchCatalog.Build(definition, WorkingDir, live);
+    }
+
+    public BatchRunner? Live(string batchId) { lock (_lock) return _live.GetValueOrDefault(DefinitionPathOf(batchId)); }
+
+    // --- execute ---
+
+    public ExecuteResult Execute(string definitionPath, string? item, DateTimeOffset? notBefore = null)
+    {
+        if (ShuttingDown) return new ExecuteResult(false, null, "host is shutting down");
+        definitionPath = Path.GetFullPath(definitionPath);
+        var id = AgentRunner.Batch.IdFor(Path.GetDirectoryName(definitionPath)!, WorkingDir);
 
         lock (_lock)
         {
-            if (_live.TryGetValue(runId, out var existing) && !existing.Completed)
-                return new EnqueueResult(false, runId, existing.Started
-                    ? $"{runId} is already running (enqueue again when it completes)"
-                    : $"{runId} is already scheduled for {existing.NotBefore!.Value.ToLocalTime():yyyy-MM-dd HH:mm} (unschedule it first)");
+            if (_live.TryGetValue(definitionPath, out var existing) && !existing.Completed)
+                return new ExecuteResult(false, id, existing.Started
+                    ? $"{id} is already executing (execute again when it completes)"
+                    : $"{id} is already scheduled for {existing.NotBefore!.Value.ToLocalTime():yyyy-MM-dd HH:mm} (unschedule it first)");
         }
 
-        var (runner, error) = BatchRunner.Create(jobFilePath, runId, jobFilter, _launcher, this, Log, _harnessVersion);
-        if (runner is null) return new EnqueueResult(false, runId, error!);
+        var (runner, error) = BatchRunner.Create(definitionPath, WorkingDir, item, LaunchDir, _launcher, this, Log, _harnessVersion);
+        if (runner is null) return new ExecuteResult(false, id, error!);
 
         runner.Changed += () => Changed?.Invoke();
-        runner.StreamAdvanced += (job, attempt) => StreamAdvanced?.Invoke(runId, job, attempt);
-        var pilot = jobFilter is null ? "" : $" (pilot: --job {jobFilter})";
-        var tally = EnqueueTally(runner);
+        runner.StreamAdvanced += (i, call) => StreamAdvanced?.Invoke(id, i, call);
+        var summary = runner.Summary();
         if (notBefore is { } at && at > DateTimeOffset.UtcNow)
         {
             runner.NotBefore = at;
-            lock (_lock) _live[runId] = runner;
-            Log($"[{runId}] scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}{pilot}: {tally}, run ceiling {runner.MaxParallel}");
+            lock (_lock) _live[definitionPath] = runner;
+            Log($"[{id}] scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}: {summary}");
             Changed?.Invoke();
-            return new EnqueueResult(true, runId, $"{runId}: {tally}; scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}");
+            return new ExecuteResult(true, id, $"{id}: {summary}; scheduled for {at.ToLocalTime():yyyy-MM-dd HH:mm}");
         }
 
-        lock (_lock) _live[runId] = runner;
-        Log($"[{runId}] enqueued{pilot}: {tally}, run ceiling {runner.MaxParallel}");
+        lock (_lock) _live[definitionPath] = runner;
+        Log($"[{id}] execution {runner.Execution}: {summary}");
         Start(runner);
-        return new EnqueueResult(true, runId, $"{runId}: {tally}");
-    }
-
-    /// <summary>
-    /// What an enqueue will actually do, from the ledger: the jobs it will launch, the ones it
-    /// skips as already succeeded, and the ones already failed at maxAttempts, which never
-    /// relaunch. "46 job(s) enqueued" once meant 45 launches and one skip (2026-09-05).
-    /// </summary>
-    public static string EnqueueTally(BatchRunner runner)
-    {
-        var states = runner.Jobs.Select(runner.StateOf).ToList();
-        var pending = states.Count(s => s == JobState.Pending);
-        var succeeded = states.Count(s => s == JobState.Succeeded);
-        var failed = states.Count(s => s == JobState.Failed);
-        return $"{runner.Jobs.Count} job(s) enqueued — {pending} to launch, {succeeded} skipped as succeeded, {failed} already failed and not relaunched";
+        return new ExecuteResult(true, id, $"{id}: execution {runner.Execution}, {summary}");
     }
 
     private void Start(BatchRunner runner)
@@ -271,13 +261,13 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         _ = Task.Run(async () =>
         {
             try { await runner.RunAsync(_cts.Token); }
-            catch (Exception ex) { Log($"[{runner.RunId}] batch faulted: {ex}"); }
+            catch (Exception ex) { Log($"[{runner.Id}] execution faulted: {ex}"); }
             Changed?.Invoke();
         });
         Changed?.Invoke();
     }
 
-    /// <summary>The scheduler's tick: start every scheduled batch whose time has come.</summary>
+    /// <summary>The scheduler's tick: start every scheduled execution whose time has come.</summary>
     public void StartDue()
     {
         if (ShuttingDown) return;
@@ -285,20 +275,21 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         lock (_lock) due = _live.Values.Where(r => r is { Started: false, NotBefore: not null } && r.NotBefore <= DateTimeOffset.UtcNow).ToList();
         foreach (var r in due)
         {
-            Log($"[{r.RunId}] scheduled time reached — starting");
+            Log($"[{r.Id}] scheduled time reached — starting");
             Start(r);
         }
     }
 
-    /// <summary>Removes a scheduled batch that has not started. No ledger row; the run folder is untouched.</summary>
-    public bool Unschedule(string runId)
+    /// <summary>Removes a scheduled execution that has not started. No call, no entry; the batch folder is untouched.</summary>
+    public bool Unschedule(string batchId)
     {
+        var key = DefinitionPathOf(batchId);
         lock (_lock)
         {
-            if (!_live.TryGetValue(runId, out var r) || r.Started || r.NotBefore is null) return false;
-            _live.Remove(runId);
+            if (!_live.TryGetValue(key, out var r) || r.Started || r.NotBefore is null) return false;
+            _live.Remove(key);
         }
-        Log($"[{runId}] unscheduled");
+        Log($"[{batchId}] unscheduled");
         Changed?.Invoke();
         return true;
     }
@@ -308,13 +299,12 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     public bool Pause(string id) => With(id, r => r.Pause());
     public bool Resume(string id) => With(id, r => r.Resume());
     public bool Stop(string id) => With(id, r => r.StopAfterInFlight());
-    public bool SetRunMaxParallel(string id, int n) => With(id, r => r.SetMaxParallel(n));
-    public bool Cancel(string id, string jobId) { var r = Live(id); return r is not null && r.Cancel(jobId); }
+    public bool Cancel(string id, string item) { var r = Live(id); return r is not null && r.Cancel(item); }
 
     private bool With(string id, Action<BatchRunner> act)
     {
         var r = Live(id);
-        if (r is null || r.Completed || !r.Started) return false;   // a scheduled batch has only "unschedule"
+        if (r is null || r.Completed || !r.Started) return false;   // a scheduled execution has only "unschedule"
         act(r);
         return true;
     }
@@ -333,11 +323,18 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         Changed?.Invoke();
     }
 
-    /// <summary>Stop: every live batch finishes its in-flight jobs and launches nothing further; now: their children are killed. Then the host exits.</summary>
+    public void SetIdleMinutes(int minutes)
+    {
+        lock (_lock) IdleMinutes = Math.Max(1, minutes);
+        Log($"host idleMinutes → {IdleMinutes}");
+        Changed?.Invoke();
+    }
+
+    /// <summary>Stop: every live execution finishes its in-flight calls and launches nothing further; now: their children are killed. Then the host exits.</summary>
     public async Task ShutdownAsync(bool now)
     {
         ShuttingDown = true;
-        Log(now ? "shutdown NOW requested — killing children" : "shutdown requested — finishing in-flight jobs");
+        Log(now ? "shutdown NOW requested — killing children" : "shutdown requested — finishing in-flight calls");
         List<BatchRunner> live;
         lock (_lock)
         {
@@ -353,7 +350,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
 
     // --- the launch gate: global ceiling and cap, across every batch ---
 
-    public bool TryAcquire(BatchRunner run)
+    public bool TryAcquire(BatchRunner batch)
     {
         lock (_lock)
         {
@@ -365,13 +362,12 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         }
     }
 
-    public void Release(BatchRunner run) { lock (_lock) _inFlight = Math.Max(0, _inFlight - 1); }
+    public void Release(BatchRunner batch) { lock (_lock) _inFlight = Math.Max(0, _inFlight - 1); }
 
-    public string? HoldReason(BatchRunner run)
+    public string? HoldReason(BatchRunner batch)
     {
-        if (run.Paused) return "paused";
-        if (run.StopRequested) return "stopping after in-flight";
-        if (run.InFlight >= run.MaxParallel) return $"at the run's ceiling ({run.MaxParallel})";
+        if (batch.Paused) return "paused";
+        if (batch.StopRequested) return "stopping after in-flight";
         lock (_lock)
         {
             if (ShuttingDown) return "host shutting down";

@@ -1,9 +1,16 @@
 using System.Text.Json;
+using System.Text.Json.Nodes;
 
 namespace StoryPlanner.AgentRunner;
 
 /// <summary>One line of <c>stream.jsonl</c> as the page shows it: what kind of event, a one-line reading, and the raw line.</summary>
 public sealed record StreamEvent(string Kind, string Text, string Raw);
+
+/// <summary>What the result event of a call carries: the totals, the session, the reply text, and the structured answer the CLI validated against the batch's JSON Schema.</summary>
+public sealed record ResultSummary(double? CostUsd, int? Turns, string? SessionId, string? ResultText, JsonObject? StructuredOutput, bool IsError)
+{
+    public static readonly ResultSummary Empty = new(null, null, null, null, null, false);
+}
 
 /// <summary>
 /// Reads the child's <c>stream-json</c> events into something a person can follow: the
@@ -184,6 +191,63 @@ public static class StreamEvents
         Flush();
         return result;
     }
+
+    /// <summary>
+    /// Cost, turn count, session id, the reply and the structured answer from the child's
+    /// output: a <c>stream-json</c> file (one event per line — the live form), a <c>json</c>
+    /// array of events, or a single result object. The <c>result</c> event carries the totals
+    /// and, under <c>--json-schema</c>, the answer as <c>structured_output</c>; when it is
+    /// absent but the reply text parses as a JSON object, that object is taken. Nulls when
+    /// anything is missing — never throws.
+    /// </summary>
+    public static ResultSummary ParseResult(string text)
+    {
+        JsonElement? result = null;
+        try
+        {
+            using var doc = JsonDocument.Parse(text);
+            if (doc.RootElement.ValueKind == JsonValueKind.Array)
+            {
+                foreach (var el in doc.RootElement.EnumerateArray())
+                    if (IsResultEvent(el)) result = el.Clone();
+            }
+            else if (doc.RootElement.ValueKind == JsonValueKind.Object)
+            {
+                result = doc.RootElement.Clone();
+            }
+        }
+        catch (JsonException)
+        {
+            foreach (var line in text.Split('\n'))
+            {
+                if (string.IsNullOrWhiteSpace(line)) continue;
+                try
+                {
+                    using var doc = JsonDocument.Parse(line);
+                    if (IsResultEvent(doc.RootElement)) result = doc.RootElement.Clone();
+                }
+                catch (JsonException) { /* a partial or non-JSON line — skip it */ }
+            }
+        }
+        if (result is null) return ResultSummary.Empty;
+        var r = result.Value;
+        double? cost = r.TryGetProperty("total_cost_usd", out var c) && c.ValueKind == JsonValueKind.Number ? c.GetDouble() : null;
+        int? turns = r.TryGetProperty("num_turns", out var n) && n.ValueKind == JsonValueKind.Number ? n.GetInt32() : null;
+        string? session = r.TryGetProperty("session_id", out var s) && s.ValueKind == JsonValueKind.String ? s.GetString() : null;
+        string? reply = r.TryGetProperty("result", out var rt) && rt.ValueKind == JsonValueKind.String ? rt.GetString() : null;
+        var isError = r.TryGetProperty("is_error", out var ie) && ie.ValueKind == JsonValueKind.True;
+        JsonObject? structured = null;
+        if (r.TryGetProperty("structured_output", out var so) && so.ValueKind == JsonValueKind.Object)
+            structured = JsonNode.Parse(so.GetRawText()) as JsonObject;
+        else if (reply is not null)
+        {
+            try { structured = JsonNode.Parse(reply) as JsonObject; } catch (JsonException) { }
+        }
+        return new ResultSummary(cost, turns, session, reply, structured, isError);
+    }
+
+    private static bool IsResultEvent(JsonElement el) =>
+        el.ValueKind == JsonValueKind.Object && el.TryGetProperty("type", out var t) && t.GetString() == "result";
 
     private static string SummarizeInput(JsonElement input)
     {

@@ -16,13 +16,15 @@ every document describing it.
 | Governed by | This file + skills | The MCP server's own instructions |
 
 **A third role exists since 2026-09-03 and is governed by neither column: autonomous agents**
-— classifiers, investigators, auditors, referees and the like, of the v3 buildout — launched by
-`tools/StoryPlanner.AgentRunner` from `RiderProjects\StoryPlanner-fanout`, a folder outside
-this repo. They receive a protocol file and an item, an exact toolset, and nothing else: no
-CLAUDE.md, no skills, no memory, no MCP unless the job opts in, no transcript persisted.
-Their inputs and outputs live under `fanout/` in this repo, one folder per piece of work.
-Their rules are the `v3-buildout` skill's (when a cell calls for one) and the
-`agent-runner` skill's (how to run one); this file does not reach them, by design.
+— classifiers, auditors, referees, readers of one item, of the v3 buildout — each one call
+of the CLI made by `tools/StoryPlanner.AgentRunner` from `RiderProjects\StoryPlanner-fanout`,
+a folder outside this repo. A call receives a batch's directions as its system prompt and
+one item as its message, an exact toolset, and nothing else: no CLAUDE.md, no skills, no
+memory, no MCP unless the batch's definition opts in, no transcript persisted; its answer is
+JSON the CLI validates, which the runner writes as the result. A batch's files live under
+its study, `docs/v3-framework/studies/<study>/batches/<batch>/`. The rules are the
+`v3-buildout` skill's (which process is a call) and the `agent-runner` skill's (how a call
+is made); this file does not reach them, by design.
 
 Claude Code **reads story content to understand how to build features** — you cannot correctly
 implement a flagged-note wall without reading flagged notes. That reading is instrumental. What
@@ -433,15 +435,19 @@ tools made none of those mistakes.
   keeps running the server code from its last connect. If the publish step itself fails on a
   locked file, some session still holds the *publish* folder open mid-reconnect — wait for it to
   finish or ask that session to retry `/mcp`.
-- **The agent runner runs from a published copy too, as a persistent host (2026-09-03).**
+- **The agent runner runs from a published copy too, as a persistent host (2026-09-03;
+  rebuilt around the batch files 2026-09-09).**
   `tools/StoryPlanner.AgentRunner/publish/StoryPlanner.AgentRunner.exe` is a host that serves
   its page on `http://127.0.0.1:5190` and runs every batch; it holds the exe loaded for as long
   as it lives, so `bin/Debug` stays free for `dotnet build`/`dotnet test`, and a republish needs
   `AgentRunner.exe stop` first:
   `dotnet publish tools/StoryPlanner.AgentRunner -c Release -o tools/StoryPlanner.AgentRunner/publish`.
-  Its inputs and outputs live under `fanout/` (one folder per work; the order of a run is
-  derived into the v3-buildout skill's `map.md`, and `fanout/PROTOCOL.md` retired on
-  2026-09-05); rules in the `agent-runner` skill.
+  Every batch verb takes a batch's `definition.md`; a batch's files sit in its study folder
+  under `docs/v3-framework/studies/`, the order of a batch in its study is derived into the
+  v3-buildout skill's `map.md`, and the host's log is `host-log.txt` beside the exe; rules in
+  the `agent-runner` skill. `tools/StoryPlanner.BatchFiles` is the one reader and writer of
+  a batch's files, shared with DocIntegrity so the two never disagree on a hash or a result's
+  shape; `tools/StoryPlanner.MarkdownItemizer` cuts a Markdown document into items.
 - **The pocket reader is a fourth consumer of Core, and it runs in a phone's browser (2026-09-02).**
   `tools/StoryPlanner.PocketReader` is a Blazor WebAssembly PWA (needs the `wasm-tools` workload;
   `WasmBuildNative=true` links SQLitePCLRaw's `e_sqlite3` into the runtime) that opens `.storyplan`

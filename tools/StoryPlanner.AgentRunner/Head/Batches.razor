@@ -1,0 +1,14 @@
+@page "/"
+@implements IDisposable
+@inject RunnerHost Host
+
+<h1>Batches</h1>
+<BatchList Batches="batches" />
+<p class="muted">Every batch whose <code>definition.md</code> sits beneath <code>@Host.WorkingDir</code>. Execute from a terminal: <code>AgentRunner.exe execute-batch &lt;definition.md&gt; [--item ID]</code>. The order of a batch in its study is the <a href="/map">process map</a>; the rules of the runner are the agent-runner skill.</p>
+
+@code {
+    private IReadOnlyList<BatchSnapshot> batches = [];
+    protected override void OnInitialized() { batches = Host.Batches(); Host.Changed += OnChanged; }
+    private void OnChanged() => _ = InvokeAsync(() => { batches = Host.Batches(); StateHasChanged(); });
+    public void Dispose() => Host.Changed -= OnChanged;
+}

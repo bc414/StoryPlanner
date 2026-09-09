@@ -2,18 +2,20 @@
   "_comment": [
     "The persistent host's settings (agent-runner skill). Every field has a default; the file may be",
     "absent. port/bind: where the page listens — 127.0.0.1 only until the LAN follow-up (bind 0.0.0.0",
-    "plus a token). fanoutRoot: null = derived from the exe's location (the repo's fanout/).",
-    "maxParallel / utilizationCap: the HOST's ceilings across every batch; a job file's values are",
-    "the run's own ceilings, effective = min. Both are adjustable live on the page; changes go to",
-    "fanout/host-log.txt and are not written back here — a different default is an edit to this file.",
-    "mapPath: the process map the /protocol route renders, absolute or relative to the repo root;",
+    "plus a token). launchDir: the folder outside the repo every call runs from; null = the sibling",
+    "StoryPlanner-fanout beside the repository. maxParallel / utilizationCap: the host's ceilings across",
+    "every batch. idleMinutes: a call whose stream has been silent this long is killed and recorded",
+    "failed; there is no absolute time limit. All three are adjustable live on the page; changes go to",
+    "host-log.txt beside the exe and are not written back here — a different default is an edit to this",
+    "file. mapPath: the process map the /map route renders, absolute or relative to the repo root;",
     "null = .claude/skills/v3-buildout/map.md, falling back to v3-buildout-2/map.md until the swap."
   ],
   "port": 5190,
   "bind": "127.0.0.1",
   "token": null,
-  "fanoutRoot": null,
+  "launchDir": null,
   "maxParallel": 4,
   "utilizationCap": 80,
+  "idleMinutes": 10,
   "mapPath": null
 }

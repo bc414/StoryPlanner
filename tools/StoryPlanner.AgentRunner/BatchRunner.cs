@@ -1,3 +1,6 @@
+using System.Text;
+using StoryPlanner.BatchFiles;
+
 namespace StoryPlanner.AgentRunner;
 
 /// <summary>
@@ -7,58 +10,56 @@ namespace StoryPlanner.AgentRunner;
 /// </summary>
 public interface ILaunchGate
 {
-    bool TryAcquire(BatchRunner run);
-    void Release(BatchRunner run);
+    bool TryAcquire(BatchRunner batch);
+    void Release(BatchRunner batch);
     /// <summary>Why a launch is being held, for the page; null when nothing holds it.</summary>
-    string? HoldReason(BatchRunner run);
+    string? HoldReason(BatchRunner batch);
+    /// <summary>The idle limit every call runs under, the host's setting.</summary>
+    TimeSpan IdleLimit { get; }
 }
 
-/// <summary>No global constraint — the batch's own ceiling is the only one. The CLI's serverless paths and tests use it.</summary>
+/// <summary>No global constraint and a long idle limit. The CLI's serverless paths and tests use it.</summary>
 public sealed class OpenGate : ILaunchGate
 {
-    public bool TryAcquire(BatchRunner run) => true;
-    public void Release(BatchRunner run) { }
-    public string? HoldReason(BatchRunner run) => null;
+    public bool TryAcquire(BatchRunner batch) => true;
+    public void Release(BatchRunner batch) { }
+    public string? HoldReason(BatchRunner batch) => null;
+    public TimeSpan IdleLimit { get; init; } = TimeSpan.FromMinutes(10);
 }
 
-public sealed record RunningAttempt(string JobId, int Attempt, DateTimeOffset StartUtc, string StreamPath, IChildHandle? Handle);
+public sealed record RunningCall(string Item, int Call, DateTimeOffset StartUtc, string StreamPath, IChildHandle? Handle);
 
 /// <summary>
-/// One batch: one run folder, its jobs, its ledger. The loop that used to be Program.cs,
-/// now hostable — it raises events instead of printing, takes its launcher and its launch
-/// gate from outside, and accepts harness commands (pause, resume, stop after in-flight,
-/// cancel a job) while running. It never changes what a job is: model, protocol, inputs and
-/// instructions come from the job file and nothing here can alter them.
-/// The ledger is the queue and this class is its only writer for the run.
+/// One execution of a batch (decisions.md, "executing a batch is one call per item still
+/// without a result"): one call for every item of the index that has no successful call yet,
+/// or the one item named, which is the pilot. The call's number is the execution's. Nothing
+/// here changes what a call is; the loop takes its launcher and its gate from outside and
+/// accepts harness commands (pause, resume, stop after in-flight, cancel an item) while it
+/// runs. The calls file is the batch's state and this class is its only writer.
 /// </summary>
 public sealed class BatchRunner
 {
     private readonly object _lock = new();
-    private readonly List<LedgerRow> _ledger;
-    private readonly Dictionary<string, RunningAttempt> _running = new();
+    private readonly List<CallEntry> _calls;
+    private readonly Dictionary<string, RunningCall> _running = new(StringComparer.Ordinal);
     private readonly HashSet<string> _cancelled = new(StringComparer.Ordinal);
     private readonly IChildLauncher _launcher;
     private readonly ILaunchGate _gate;
     private readonly Action<string> _log;
-    private readonly string? _mcpConfigPath;
     private readonly string _harnessVersion;
+    private readonly string _launchDir;
     private int _launched;
 
-    public string RunId { get; }
-    public string RunDir { get; }
-    public string LedgerPath { get; }
-    public JobFile JobFile { get; }
-    public IReadOnlyList<ResolvedJob> Jobs { get; }
-    /// <summary>The <c>--job</c> filter this batch was enqueued with; a filtered enqueue is a pilot.</summary>
-    public string? JobFilter { get; }
+    public Batch Batch { get; }
+    public string Id => Batch.Id;
+    /// <summary>The item this execution was asked for alone; an execution naming one item is the pilot.</summary>
+    public string? ItemFilter { get; }
+    /// <summary>The number every call of this execution carries: one more than the last execution's.</summary>
+    public int Execution { get; }
     public bool Paused { get; private set; }
     public bool StopRequested { get; private set; }
-    /// <summary>The run's own ceiling (from the job file, adjustable live); the host's is the other one.</summary>
-    public int MaxParallel { get; private set; }
     public bool Completed { get; private set; }
-    /// <summary>Set by the host for a scheduled enqueue: the loop is not started before this instant.</summary>
     public DateTimeOffset? NotBefore { get; set; }
-    /// <summary>True once <see cref="RunAsync"/> has been entered; a scheduled batch is live but not started.</summary>
     public bool Started { get; private set; }
     public int InFlight { get { lock (_lock) return _running.Count; } }
     public int Launched => _launched;
@@ -66,119 +67,54 @@ public sealed class BatchRunner
     public event Action? Changed;
     public event Action<string, int>? StreamAdvanced;
 
-    public BatchRunner(string runId, string runDir, JobFile jobFile, IReadOnlyList<ResolvedJob> jobs, string? jobFilter,
-        IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string? mcpConfigPath)
+    public BatchRunner(Batch batch, string? itemFilter, IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string launchDir)
     {
-        RunId = runId;
-        RunDir = runDir;
-        JobFile = jobFile;
-        Jobs = jobs;
-        JobFilter = jobFilter;
-        MaxParallel = jobFile.MaxParallel;
+        Batch = batch;
+        ItemFilter = itemFilter;
         _launcher = launcher;
         _gate = gate;
         _log = log;
         _harnessVersion = harnessVersion;
-        _mcpConfigPath = mcpConfigPath;
-        LedgerPath = Path.Combine(runDir, "ledger.jsonl");
-        _ledger = new List<LedgerRow>(File.Exists(LedgerPath) ? RunnerPlan.ParseLedger(File.ReadLines(LedgerPath)) : []);
+        _launchDir = launchDir;
+        var calls = CallsFile.Read(batch.Definition.CallsPath);
+        _calls = new List<CallEntry>(calls.Entries);
+        Execution = calls.Executions + 1;
     }
 
     /// <summary>
-    /// Everything the loop needs that is not the loop: parse, resolve, the launch-folder
-    /// invariants, the MCP config. Returns the error text instead of a runner when the job
-    /// file is unusable, so the CLI and the host report the same message.
+    /// Everything the loop needs that is not the loop: the batch, its items on disk, the
+    /// launch folder's invariants, the filter. Returns the error text instead of a runner when
+    /// the batch is unusable, so the CLI and the host report the same message.
     /// </summary>
-    public static (BatchRunner? runner, string? error) Create(string jobFilePath, string runId, string? jobFilter,
+    public static (BatchRunner? Runner, string? Error) Create(string definitionPath, string workingDir, string? itemFilter, string launchDir,
         IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion)
     {
-        jobFilePath = Path.GetFullPath(jobFilePath);
-        if (!File.Exists(jobFilePath)) return (null, $"Job file not found: {jobFilePath}");
-        var runDir = Path.GetDirectoryName(jobFilePath)!;
-
-        JobFile jobFile;
-        IReadOnlyList<ResolvedJob> jobs;
-        try
-        {
-            jobFile = RunnerPlan.ParseJobFile(File.ReadAllText(jobFilePath));
-            jobs = RunnerPlan.Resolve(jobFile, runDir);
-        }
-        catch (Exception ex) when (ex is System.Text.Json.JsonException or InvalidOperationException)
-        {
-            return (null, $"Job file unusable: {ex.Message}");
-        }
-
-        var launchError = CheckLaunchDir(jobFile.LaunchDir, jobFilePath);
+        var (batch, error) = Batch.Load(definitionPath, workingDir);
+        if (batch is null) return (null, error);
+        var missing = batch.MissingItems();
+        if (missing.Count > 0) return (null, $"{missing.Count} item(s) have no body under items/ (first: {missing[0]}); the itemizer regenerates them");
+        var launchError = Batch.CheckLaunchDir(launchDir, definitionPath);
         if (launchError is not null) return (null, launchError);
-
-        string? mcpConfigPath = null;
-        if (!string.IsNullOrWhiteSpace(jobFile.McpConfig))
-        {
-            mcpConfigPath = Path.GetFullPath(jobFile.McpConfig, runDir);
-            if (!File.Exists(mcpConfigPath)) return (null, $"mcpConfig not found: {mcpConfigPath}");
-        }
-
-        if (jobFilter is not null)
-        {
-            jobs = jobs.Where(j => j.Id == jobFilter).ToList();
-            if (jobs.Count == 0) return (null, $"--job \"{jobFilter}\" is not in the job file.");
-        }
-
-        return (new BatchRunner(runId, runDir, jobFile, jobs, jobFilter, launcher, gate, log, harnessVersion, mcpConfigPath), null);
+        if (itemFilter is not null && !batch.Items.Contains(itemFilter))
+            return (null, $"--item \"{itemFilter}\" is not in the index.");
+        return (new BatchRunner(batch, itemFilter, launcher, gate, log, harnessVersion, Path.GetFullPath(launchDir)), null);
     }
 
-    /// <summary>The launch-folder invariants: outside the repo, and carrying no instruction stack of its own.</summary>
-    public static string? CheckLaunchDir(string launchDir, string jobFilePath)
+    // --- harness commands: how the batch runs, never what a call is ---
+
+    public void Pause() { lock (_lock) Paused = true; _log($"[{Id}] paused"); Changed?.Invoke(); }
+    public void Resume() { lock (_lock) Paused = false; _log($"[{Id}] resumed"); Changed?.Invoke(); }
+    public void StopAfterInFlight() { lock (_lock) StopRequested = true; _log($"[{Id}] stop requested — finishing in-flight calls"); Changed?.Invoke(); }
+
+    public bool Cancel(string item)
     {
-        if (string.IsNullOrWhiteSpace(launchDir) || !Directory.Exists(launchDir))
-            return $"launchDir does not exist: {launchDir}";
-        launchDir = Path.GetFullPath(launchDir);
-        var repoRoot = FindRepoRoot(jobFilePath);
-        if (repoRoot is not null && IsSameOrUnder(launchDir, repoRoot))
-            return $"launchDir must be OUTSIDE the repo ({repoRoot}) — that is the whole point.";
-        foreach (var forbidden in new[] { "CLAUDE.md", ".claude", ".mcp.json" })
-            if (File.Exists(Path.Combine(launchDir, forbidden)) || Directory.Exists(Path.Combine(launchDir, forbidden)))
-                return $"launchDir contains {forbidden}; it must carry no instruction stack of its own.";
-        return null;
-    }
-
-    public static string? FindRepoRoot(string fromPath)
-    {
-        var d = new DirectoryInfo(Path.GetDirectoryName(fromPath)!);
-        while (d != null)
-        {
-            if (Directory.Exists(Path.Combine(d.FullName, ".git"))) return d.FullName;
-            d = d.Parent;
-        }
-        return null;
-    }
-
-    // Segment-aware: "…\StoryPlanner-fanout" is NOT under "…\StoryPlanner", though it starts with it.
-    public static bool IsSameOrUnder(string path, string root)
-    {
-        var p = Path.TrimEndingDirectorySeparator(Path.GetFullPath(path));
-        var r = Path.TrimEndingDirectorySeparator(Path.GetFullPath(root));
-        return p.Equals(r, StringComparison.OrdinalIgnoreCase)
-            || p.StartsWith(r + Path.DirectorySeparatorChar, StringComparison.OrdinalIgnoreCase)
-            || p.StartsWith(r + Path.AltDirectorySeparatorChar, StringComparison.OrdinalIgnoreCase);
-    }
-
-    // --- harness commands: how the batch runs, never what a job is ---
-
-    public void Pause() { lock (_lock) Paused = true; _log($"[{RunId}] paused"); Changed?.Invoke(); }
-    public void Resume() { lock (_lock) Paused = false; _log($"[{RunId}] resumed"); Changed?.Invoke(); }
-    public void StopAfterInFlight() { lock (_lock) StopRequested = true; _log($"[{RunId}] stop requested — finishing in-flight jobs"); Changed?.Invoke(); }
-    public void SetMaxParallel(int n) { lock (_lock) MaxParallel = Math.Max(1, n); _log($"[{RunId}] maxParallel → {MaxParallel}"); Changed?.Invoke(); }
-
-    public bool Cancel(string jobId)
-    {
-        RunningAttempt? r;
+        RunningCall? r;
         lock (_lock)
         {
-            if (!_running.TryGetValue(jobId, out r)) return false;
-            _cancelled.Add(jobId);
+            if (!_running.TryGetValue(item, out r)) return false;
+            _cancelled.Add(item);
         }
-        _log($"[{RunId}] cancelling {jobId}" + (r.Handle is { } h ? $" (PID {h.Pid})" : ""));
+        _log($"[{Id}] cancelling {item}" + (r.Handle is { } h ? $" (PID {h.Pid})" : ""));
         r.Handle?.Kill();
         Changed?.Invoke();
         return true;
@@ -186,10 +122,25 @@ public sealed class BatchRunner
 
     // --- state for snapshots ---
 
-    public IReadOnlyList<LedgerRow> LedgerSnapshot() { lock (_lock) return _ledger.ToList(); }
-    public IReadOnlyList<RunningAttempt> RunningSnapshot() { lock (_lock) return _running.Values.ToList(); }
-    public JobState StateOf(ResolvedJob job) { lock (_lock) return RunnerPlan.StateOf(job, _ledger, JobFile.MaxAttempts); }
+    public IReadOnlyList<CallEntry> CallsSnapshot() { lock (_lock) return _calls.ToList(); }
+    public IReadOnlyList<RunningCall> RunningSnapshot() { lock (_lock) return _running.Values.ToList(); }
+    public bool HasSucceeded(string item) { lock (_lock) return _calls.Any(c => c.Item == item && c.Succeeded); }
     public string? HoldReason() => _gate.HoldReason(this);
+
+    /// <summary>The items this execution will call: those in the filter, if any, without a successful call.</summary>
+    public IReadOnlyList<string> Pending()
+    {
+        lock (_lock)
+            return Batch.Items.Where(i => (ItemFilter is null || i == ItemFilter) && !_calls.Any(c => c.Item == i && c.Succeeded)).ToList();
+    }
+
+    /// <summary>What an execution will do, from the calls file: the items it will call and the ones it skips as answered.</summary>
+    public string Summary()
+    {
+        var scope = ItemFilter is null ? Batch.Items : [ItemFilter];
+        var pending = Pending().Count;
+        return $"{scope.Count} item(s) — {pending} to call, {scope.Count - pending} skipped as answered" + (ItemFilter is null ? "" : " (pilot)");
+    }
 
     // --- the loop ---
 
@@ -201,22 +152,18 @@ public sealed class BatchRunner
         {
             while (!ct.IsCancellationRequested)
             {
-                ResolvedJob? job = null;
+                string? item = null;
                 bool anyPending;
                 lock (_lock)
                 {
-                    var available = Jobs.Where(j => !_running.ContainsKey(j.Id)).ToList();
-                    var next = RunnerPlan.NextPending(available, _ledger, JobFile.MaxAttempts);
+                    var next = Batch.Items.FirstOrDefault(i => (ItemFilter is null || i == ItemFilter) && !_running.ContainsKey(i) && !_calls.Any(c => c.Item == i && c.Succeeded) && !_calls.Any(c => c.Item == i && c.Call == Execution));
                     anyPending = next is not null;
-                    if (next is not null && !Paused && !StopRequested && _running.Count < MaxParallel) job = next;
+                    if (next is not null && !Paused && !StopRequested) item = next;
                 }
 
-                if (job is null)
+                if (item is null)
                 {
-                    var running = InFlight;
-                    if (running == 0 && (!anyPending || StopRequested)) break;   // done, or stopped with nothing in flight
-                    // Paused, stop-requested with children running, at the run's own ceiling, or
-                    // everything pending is in flight: wait for a child or a tick, then look again.
+                    if (InFlight == 0 && (!anyPending || StopRequested)) break;
                     try { await Task.WhenAny(tasks.Count > 0 ? Task.WhenAny(tasks) : Task.Delay(-1, ct), Task.Delay(500, ct)); }
                     catch (OperationCanceledException) { break; }
                     tasks.RemoveAll(t => t.IsCompleted);
@@ -229,17 +176,17 @@ public sealed class BatchRunner
                     continue;
                 }
 
-                var attempt = AttemptsOf(job) + 1;
-                var theJob = job;
-                lock (_lock) _running[theJob.Id] = new RunningAttempt(theJob.Id, attempt, DateTimeOffset.UtcNow, Path.Combine(RunDir, "attempts", theJob.Id, $"attempt-{attempt}", "stream.jsonl"), null);
+                var theItem = item;
+                var streamPath = Path.Combine(Batch.Definition.AttemptsDir, theItem, $"call-{Execution}", "stream.jsonl");
+                lock (_lock) _running[theItem] = new RunningCall(theItem, Execution, DateTimeOffset.UtcNow, streamPath, null);
                 Interlocked.Increment(ref _launched);
                 Changed?.Invoke();
                 tasks.Add(Task.Run(async () =>
                 {
-                    try { await RunOne(theJob, attempt, ct); }
+                    try { await RunOne(theItem, ct); }
                     finally
                     {
-                        lock (_lock) { _running.Remove(theJob.Id); _cancelled.Remove(theJob.Id); }
+                        lock (_lock) { _running.Remove(theItem); _cancelled.Remove(theItem); }
                         _gate.Release(this);
                         Changed?.Invoke();
                     }
@@ -250,85 +197,77 @@ public sealed class BatchRunner
         finally
         {
             Completed = true;
-            _log($"[{RunId}] {(ct.IsCancellationRequested ? "stopped" : StopRequested ? "stopped after in-flight" : "complete")} — launched {_launched} this run");
+            _log($"[{Id}] {(ct.IsCancellationRequested ? "stopped" : StopRequested ? "stopped after in-flight" : "complete")} — {_launched} call(s) this execution");
             Changed?.Invoke();
         }
     }
 
     public void KillAll()
     {
-        List<RunningAttempt> running;
-        lock (_lock) { running = _running.Values.ToList(); foreach (var r in running) _cancelled.Add(r.JobId); }
+        List<RunningCall> running;
+        lock (_lock) { running = _running.Values.ToList(); foreach (var r in running) _cancelled.Add(r.Item); }
         foreach (var r in running) r.Handle?.Kill();
     }
 
-    private int AttemptsOf(ResolvedJob job) { lock (_lock) return RunnerPlan.AttemptsOf(job, _ledger); }
-
-    private async Task RunOne(ResolvedJob job, int attempt, CancellationToken ct)
+    private async Task RunOne(string item, CancellationToken ct)
     {
-        var attemptDir = Path.Combine(RunDir, "attempts", job.Id, $"attempt-{attempt}");
-        Directory.CreateDirectory(attemptDir);
-        var streamPath = Path.Combine(attemptDir, "stream.jsonl");
-        var mode = JobFilter is null ? null : "pilot";
+        var callDir = Path.Combine(Batch.Definition.AttemptsDir, item, $"call-{Execution}");
+        Directory.CreateDirectory(callDir);
+        var streamPath = Path.Combine(callDir, "stream.jsonl");
+        var systemPromptPath = Path.Combine(callDir, "system-prompt.md");
 
-        ComposedPrompt prompt;
-        try
-        {
-            prompt = RunnerPlan.ComposePrompt(job, File.ReadAllText);
-        }
-        catch (IOException ex)
-        {
-            _log($"[{RunId}] {job.Id}: cannot compose prompt — {ex.Message}");
-            Record(new LedgerRow(job.Id, attempt, job.Model, _harnessVersion, "", [], [],
-                DateTimeOffset.UtcNow.ToString("o"), DateTimeOffset.UtcNow.ToString("o"), -1, "", false, null, null, null, "cannot compose prompt", mode));
-            return;
-        }
-        await File.WriteAllTextAsync(Path.Combine(attemptDir, "prompt.md"), prompt.Text, ct);
+        var plan = Batch.Compose(item);
+        await File.WriteAllTextAsync(systemPromptPath, plan.SystemPrompt, new UTF8Encoding(false), ct);
+        await File.WriteAllTextAsync(Path.Combine(callDir, "item.md"), plan.ItemText, new UTF8Encoding(false), ct);
 
-        // --restricted confines file tools to the working directories, and --add-dir of a path
-        // that does not exist yet is silently dropped — so the output directory must exist first.
-        var outputDir = Path.GetDirectoryName(job.OutputPath);
-        if (!string.IsNullOrEmpty(outputDir)) Directory.CreateDirectory(outputDir);
-
-        _log($"[{RunId}] {job.Id}: attempt {attempt}/{JobFile.MaxAttempts}, model {job.Model}, prompt {prompt.Text.Length:N0} chars (sha256 {prompt.Sha256[..12]}…), timeout {job.TimeoutMinutes} min");
+        _log($"[{Id}] {item}: call {Execution}, model {Batch.Model}{(Batch.Effort is null ? "" : " effort " + Batch.Effort)}, {plan.Characters:N0} chars (prompt {plan.PromptHash[..12]}…)");
 
         var start = DateTimeOffset.UtcNow;
-        var request = new ChildRequest(job, prompt.Text, streamPath, Path.GetFullPath(JobFile.LaunchDir), _mcpConfigPath, TimeSpan.FromMinutes(job.TimeoutMinutes));
+        var request = new ChildRequest(item, Batch.BuildArgs(systemPromptPath), plan.ItemText, streamPath, _launchDir, _gate.IdleLimit);
         var exitCode = await _launcher.LaunchAsync(request,
-            handle => { lock (_lock) if (_running.TryGetValue(job.Id, out var r)) _running[job.Id] = r with { Handle = handle }; Changed?.Invoke(); },
-            () => StreamAdvanced?.Invoke(job.Id, attempt),
+            handle => { lock (_lock) if (_running.TryGetValue(item, out var r)) _running[item] = r with { Handle = handle }; Changed?.Invoke(); },
+            () => StreamAdvanced?.Invoke(item, Execution),
             ct);
         var end = DateTimeOffset.UtcNow;
 
         bool cancelled;
-        lock (_lock) cancelled = _cancelled.Contains(job.Id);
+        lock (_lock) cancelled = _cancelled.Contains(item);
         if (cancelled && exitCode != 0) exitCode = -4;
 
-        var outputExists = File.Exists(job.OutputPath);
-        var outputCheck = exitCode == -3 ? "timed out"
-            : exitCode == -4 ? "cancelled"
-            : outputExists ? RunnerPlan.CheckOutput(await File.ReadAllTextAsync(job.OutputPath, ct), job.RequireOnce)
-            : "no output file";
         var summary = File.Exists(streamPath)
-            ? RunnerPlan.ParseResultSummary(await File.ReadAllTextAsync(streamPath, ct))
-            : new ResultSummary(null, null, null, null);
+            ? StreamEvents.ParseResult(await File.ReadAllTextAsync(streamPath, ct))
+            : ResultSummary.Empty;
 
-        var row = new LedgerRow(job.Id, attempt, job.Model, _harnessVersion, prompt.Sha256, prompt.ProtocolShas, prompt.InputShas,
-            start.ToString("o"), end.ToString("o"), exitCode, streamPath, outputExists, summary.CostUsd, summary.Turns, summary.SessionId, outputCheck, mode);
-        var state = Record(row);
-        _log($"[{RunId}] {job.Id}: exit {exitCode}, output {(outputExists ? "present" : "MISSING")}, check: {outputCheck}, {(end - start).TotalSeconds:F0}s" +
-             (summary.CostUsd is { } cost ? $", ${cost:F3}" : "") + (summary.Turns is { } turns ? $", {turns} turn(s)" : "") +
-             $" → {state}" + (state == JobState.Failed ? " — not retried" : ""));
+        string check;
+        if (exitCode == -3) check = "idle";
+        else if (exitCode == -4) check = "cancelled";
+        else if (exitCode != 0) check = $"exit {exitCode}";
+        else if (summary.StructuredOutput is null) check = "no structured output";
+        else
+        {
+            Directory.CreateDirectory(Batch.Definition.ResultsDir);
+            var rendered = Batch.Render(summary.StructuredOutput);
+            await File.WriteAllTextAsync(Batch.ResultPath(item), rendered, new UTF8Encoding(false), ct);
+            var (_, problems) = ResultFile.Parse(Batch.Directions, rendered);
+            check = problems.Count == 0 ? CallEntry.Ok : "malformed: " + problems[0];
+        }
+
+        var entry = new CallEntry(item, Execution, Batch.Model, Batch.Effort, _harnessVersion, plan.DirectionsHash, plan.ItemHash, plan.PromptHash,
+            start.ToString("o"), end.ToString("o"), exitCode, check, summary.CostUsd, summary.Turns, summary.SessionId, ItemFilter is not null);
+        Record(entry);
+        _log($"[{Id}] {item}: exit {exitCode}, check: {check}, {(end - start).TotalSeconds:F0}s" +
+             (summary.CostUsd is { } cost ? $", ${cost:F3}" : "") + (summary.Turns is { } turns ? $", {turns} turn(s)" : ""));
     }
 
-    private JobState Record(LedgerRow row)
+    private void Record(CallEntry entry)
     {
         lock (_lock)
         {
-            File.AppendAllText(LedgerPath, RunnerPlan.SerializeLedgerRow(row) + "\n");
-            _ledger.Add(row);
-            var job = Jobs.First(j => j.Id == row.JobId);
-            return RunnerPlan.StateOf(job, _ledger, JobFile.MaxAttempts);
+            var path = Batch.Definition.CallsPath;
+            if (!File.Exists(path))
+                File.WriteAllText(path, CallsFile.RenderHead(Batch.Name, Batch.Definition.Hash), new UTF8Encoding(false));
+            File.AppendAllText(path, CallsFile.RenderEntry(entry), new UTF8Encoding(false));
+            _calls.Add(entry);
         }
     }
 }

@@ -11,7 +11,7 @@ namespace StoryPlanner.Tests;
 /// </summary>
 public class StreamEventsTests
 {
-    // Verbatim from fanout/skill-audits/2026-09-05-v3-buildout-2/attempts/arm-A-22-the-referee/attempt-1/stream.jsonl (harness 2.1.258).
+    // Verbatim from the 2026-09-05 audit's stream, now under docs/v3-framework-historical/skill-audits/2026-09-05-v3-buildout-2/ (harness 2.1.258).
     const string Init258 = """{"type":"system","subtype":"init","cwd":"C:\\Users\\Brian\\RiderProjects\\StoryPlanner-fanout","session_id":"9fccd71b-e207-49f4-9af7-9b5ab29b65b4","tools":["Write"],"mcp_servers":[],"model":"claude-sonnet-5","permissionMode":"auto","slash_commands":[],"apiKeySource":"none","claude_code_version":"2.1.258","output_style":"default","agents":["claude","claude-code-guide","Explore","general-purpose","Plan","statusline-setup"],"skills":[],"plugins":[],"capabilities":["interrupt_receipt_v1","interrupt_cancel_queued_v1","msg_lifecycle_v1"],"analytics_disabled":false,"product_feedback_disabled":false,"uuid":"94a45f7c-c5a1-4649-9385-e50ed27854d0","messaging_socket_path":"\\\\.\\pipe\\LOCAL\\cc-msg-79dafe59e3442789c258925512ede091","fast_mode_state":"off","fast_mode_disabled_reason":"extra_usage_disabled","powershell_path":"C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"}""";
     const string Thinking258 = """{"type":"system","subtype":"thinking_tokens","estimated_tokens":50,"estimated_tokens_delta":50,"session_id":"9fccd71b-e207-49f4-9af7-9b5ab29b65b4","uuid":"aa6a6f1c-3e09-456f-8b2c-bffb711bd1d6"}""";
     const string RateLimit258 = """{"type":"rate_limit_event","rate_limit_info":{"status":"allowed","resetsAt":1788624000,"rateLimitType":"five_hour","overageStatus":"rejected","overageDisabledReason":"org_level_disabled","isUsingOverage":false,"unifiedWindows":{"five_hour":{"utilization":0.49,"resetsAt":1788624000},"seven_day":{"utilization":0.18,"resetsAt":1788789600}}},"uuid":"6b8bc7ac-c456-4663-a8ff-a23c170743d4","session_id":"9fccd71b-e207-49f4-9af7-9b5ab29b65b4"}""";
@@ -102,6 +102,39 @@ public class StreamEventsTests
             Assert.Equal(["thinking", "done"], StreamEvents.ReadTail(path, 2).Select(e => e.Kind));
         }
         finally { File.Delete(path); }
+    }
+
+    [Fact]
+    public void The_result_event_yields_the_totals_and_the_structured_answer_in_every_shape_the_child_has_had()
+    {
+        const string stream = """
+            [
+              {"type":"system","subtype":"init","cwd":"X:/launch","tools":[],"mcp_servers":[]},
+              {"type":"assistant","message":{"role":"assistant","content":[{"type":"text","text":"working"}]}},
+              {"type":"result","subtype":"success","total_cost_usd":0.0674,"num_turns":2,"session_id":"55f2","result":"{\"class\":\"a\"}","structured_output":{"class":"a","why":"1"}}
+            ]
+            """;
+        var s = StreamEvents.ParseResult(stream);
+        Assert.Equal(0.0674, s.CostUsd);
+        Assert.Equal(2, s.Turns);
+        Assert.Equal("55f2", s.SessionId);
+        Assert.Equal("a", s.StructuredOutput!["class"]!.ToString());
+
+        // stream-json lines, the result object's type key late, no structured_output: the reply text that parses as JSON is taken.
+        const string lines = "{\"type\":\"system\",\"subtype\":\"init\"}\n"
+            + "{\"duration_api_ms\":79047,\"session_id\":\"ab\",\"total_cost_usd\":0.21,\"num_turns\":2,\"subtype\":\"success\",\"result\":\"{\\\"class\\\":\\\"b\\\",\\\"why\\\":\\\"2\\\"}\",\"type\":\"result\",\"is_error\":false}\n";
+        var streamed = StreamEvents.ParseResult(lines);
+        Assert.Equal(0.21, streamed.CostUsd);
+        Assert.Equal("b", streamed.StructuredOutput!["class"]!.ToString());
+        Assert.False(streamed.IsError);
+
+        var prose = StreamEvents.ParseResult("""{"type":"result","total_cost_usd":1.5,"num_turns":1,"session_id":"s","result":"Wrote the file."}""");
+        Assert.Equal(1.5, prose.CostUsd);
+        Assert.Null(prose.StructuredOutput);
+
+        var none = StreamEvents.ParseResult("not json at all");
+        Assert.Null(none.CostUsd);
+        Assert.Null(none.StructuredOutput);
     }
 
     [Fact]

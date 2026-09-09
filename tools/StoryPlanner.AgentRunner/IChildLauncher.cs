@@ -10,19 +10,20 @@ public interface IChildHandle
     void Kill();
 }
 
+/// <summary>One call to make: the arguments, the item text for stdin, where the stream goes, where to launch from, and how long a silent stream is tolerated.</summary>
 public sealed record ChildRequest(
-    ResolvedJob Job,
-    string PromptText,
+    string Item,
+    IReadOnlyList<string> Args,
+    string Stdin,
     string StreamPath,
     string LaunchDir,
-    string? McpConfigPath,
-    TimeSpan Timeout);
+    TimeSpan IdleLimit);
 
 /// <summary>
 /// Launches one <c>claude -p</c> child and returns its exit code. Behind an interface so the
 /// batch loop's queue, ceilings, pause and cancel semantics are testable with a fake that
 /// never starts a process. Exit codes the launcher itself assigns: -1 could not start,
-/// -2 cancelled by the token, -3 timed out.
+/// -2 cancelled by the token, -3 killed for an idle stream.
 /// </summary>
 public interface IChildLauncher
 {
@@ -31,9 +32,10 @@ public interface IChildLauncher
 
 /// <summary>
 /// The real launcher: the child's working directory is the launch folder outside the repo,
-/// the prompt is its whole stdin, its stdout (one JSON event per line) is teed to
-/// <c>stream.jsonl</c> as it arrives, its stderr goes to the log, and a child past the
-/// timeout has its whole process tree killed.
+/// the item's text is its whole stdin, its stdout (one JSON event per line) is teed to
+/// <c>stream.jsonl</c> as it arrives, its stderr goes to the log, and a child whose stream
+/// has been silent for the idle limit has its whole process tree killed. There is no
+/// absolute time limit (decisions.md, "the idle limit is the host's").
 /// </summary>
 public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
 {
@@ -45,7 +47,6 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
 
     public async Task<int> LaunchAsync(ChildRequest request, Action<IChildHandle> track, Action onStreamAdvanced, CancellationToken ct)
     {
-        var job = request.Job;
         var psi = new ProcessStartInfo
         {
             FileName = "claude",
@@ -57,7 +58,7 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
             StandardInputEncoding = new UTF8Encoding(false),
             StandardOutputEncoding = Encoding.UTF8,
         };
-        foreach (var a in RunnerPlan.BuildArgs(job, request.McpConfigPath)) psi.ArgumentList.Add(a);
+        foreach (var a in request.Args) psi.ArgumentList.Add(a);
 
         Process? process = null;
         try
@@ -66,11 +67,10 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
             if (process is null) return -1;
             track(new Handle(process));
 
-            // The prompt is the whole stdin — no positional prompt, so the hashed document is
-            // exactly what the agent received (and Windows argument-length limits never apply).
-            await process.StandardInput.WriteAsync(request.PromptText);
+            await process.StandardInput.WriteAsync(request.Stdin);
             process.StandardInput.Close();
 
+            var lastLine = DateTimeOffset.UtcNow;
             var stdoutTask = Task.Run(async () =>
             {
                 await using var stream = new FileStream(request.StreamPath, FileMode.Create, FileAccess.Write, FileShare.Read);
@@ -79,28 +79,30 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
                 {
                     await writer.WriteLineAsync(line);
                     await writer.FlushAsync();
+                    lastLine = DateTimeOffset.UtcNow;
                     onStreamAdvanced();
                 }
             });
             var stderrTask = Task.Run(async () =>
             {
                 while (await process.StandardError.ReadLineAsync() is { } line)
-                    log($"! [{job.Id}] {line}");
+                    log($"! [{request.Item}] {line}");
             });
 
-            using var timeoutCts = new CancellationTokenSource(request.Timeout);
-            using var linked = CancellationTokenSource.CreateLinkedTokenSource(ct, timeoutCts.Token);
-            try
+            var idle = false;
+            while (!process.HasExited)
             {
-                await process.WaitForExitAsync(linked.Token);
+                try { await Task.Delay(1000, ct); }
+                catch (OperationCanceledException) { break; }
+                if (DateTimeOffset.UtcNow - lastLine > request.IdleLimit) { idle = true; break; }
             }
-            catch (OperationCanceledException)
+            if (!process.HasExited)
             {
                 try { process.Kill(entireProcessTree: true); } catch { }
                 try { await stdoutTask; } catch { }
-                if (timeoutCts.IsCancellationRequested && !ct.IsCancellationRequested)
+                if (idle)
                 {
-                    log($"{job.Id}: timed out after {request.Timeout.TotalMinutes:F0} min — process tree killed");
+                    log($"{request.Item}: no output for {request.IdleLimit.TotalMinutes:F0} min — process tree killed");
                     return -3;
                 }
                 return -2;
@@ -111,7 +113,7 @@ public sealed class ProcessChildLauncher(Action<string> log) : IChildLauncher
         }
         catch (Exception ex) when (ex is not OperationCanceledException)
         {
-            log($"Failed to start claude for {job.Id}: {ex.Message}");
+            log($"Failed to start claude for {request.Item}: {ex.Message}");
             return -1;
         }
         finally

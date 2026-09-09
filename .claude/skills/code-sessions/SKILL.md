@@ -216,10 +216,10 @@ dotnet run --project tools/StoryPlanner.CodeSessions -- tools/StoryPlanner.CodeS
   array-content user records, not human messages, and are skipped when finding the first one.
 - **Prevention, not curation.** The archive holds human-rooted interactive session trees only
   (a subagent of an interactive session is part of the tree). Autonomous agents — classifiers,
-  investigators, auditors, referees launched by `tools/StoryPlanner.AgentRunner` — run from a
-  folder **outside** the repo with `--no-session-persistence`, so their transcripts never reach
-  an included project dir; the runner's ledger is their record. A batch that must be excluded
-  by rule is a batch that was launched wrong.
+  auditors, referees, readers of one item, each a call made by `tools/StoryPlanner.AgentRunner`
+  — run from a folder **outside** the repo with `--no-session-persistence`, so their
+  transcripts never reach an included project dir; a batch's `calls.md` is their account. A
+  batch that must be excluded by rule is a batch that was made wrong.
 - Dry run first; it prints per-project new/changed/unchanged/absent-but-retained/excluded
   tallies and the per-rule match counts. `--list-excluded` prints the excluded transcript
   paths (kind + path, one per line) and exits — the one sanctioned way to act on the

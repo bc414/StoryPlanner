@@ -1,77 +1,106 @@
 using System.Diagnostics;
 using System.Net.Http.Json;
-using System.Text;
 using StoryPlanner.AgentRunner;
 
-// The agent runner: `claude -p` children with explicit context, no transcript, run from a
-// folder OUTSIDE the repo, recorded per attempt in a ledger. Since 2026-09-03 (late) it is a
-// persistent HOST: one process owns the page's port and runs any number of batches under one
-// global parallel ceiling and one utilization cap; the CLI enqueues to it and returns.
+// The agent runner: `claude -p` calls with explicit context, no transcript, run from a folder
+// OUTSIDE the repo, one call per item of a batch, recorded per call in the batch's calls file.
+// A persistent HOST owns the page's port and runs any number of batches under one global
+// parallel ceiling, one utilization cap and one idle limit; the CLI hands it a batch and returns.
 //
-//   AgentRunner.exe                           start the host if none answers, open the page
-//   AgentRunner.exe <run>/jobs.json           enqueue the run (starts the host if needed)
-//   AgentRunner.exe <run>/jobs.json --job ID  enqueue one job — the pilot
-//   AgentRunner.exe <run>/jobs.json --at X    schedule: X = HH:mm (next such time), an ISO date-time, or reset
-//   AgentRunner.exe <run>/jobs.json --dry-run compose every prompt, launch nothing (serverless)
-//   AgentRunner.exe split <doc.md> <items>    cut a Markdown document into unit items (serverless)
-//   AgentRunner.exe stop [--now]              stop the host after in-flight jobs (--now: kill them)
-//   AgentRunner.exe host                      run the host in this process (what the CLI spawns)
+//   AgentRunner.exe start                                     start the host if none answers, open the page
+//   AgentRunner.exe stop [--now]                              stop the host after in-flight calls (--now: kill them)
+//   AgentRunner.exe dry-run-batch <definition.md> [--item X]  compose every call in memory, write nothing (serverless)
+//   AgentRunner.exe execute-batch <definition.md> [--item X] [--at HH:mm|ISO|reset]
+//                                                             one call per item without a result; --item names the pilot
+//   AgentRunner.exe tally-batch <definition.md> [--flag field=value]... [--group-by column]
+//                                                             write tally.md once (serverless)
+//   AgentRunner.exe host                                      run the host in this process (what start spawns)
 //
-// The run folder is the job file's folder; the host writes ledger.jsonl and attempts/ there.
-// Harness control (pause, stop, cancel, ceilings) is the page and its JSON routes; nothing
-// anywhere changes what a job is. Replaces AnalysisRunner (deleted 2026-09-03).
+// Every batch verb takes the path of a batch's definition and resolves the rest beside it; the
+// runner holds no root and knows no study. Harness control (pause, stop, cancel, ceilings, the
+// idle limit) is the page and its JSON routes; nothing anywhere changes what a call is.
 
-var config = HostConfig.Load(Path.Combine(AppContext.BaseDirectory, "configs", "host.json"))
-    ?? new HostConfig();
-if (!File.Exists(Path.Combine(AppContext.BaseDirectory, "configs", "host.json")))
-    config = HostConfig.Load(Path.Combine(AppContext.BaseDirectory, "..", "configs", "host.json"));
+var configPath = Path.Combine(AppContext.BaseDirectory, "configs", "host.json");
+if (!File.Exists(configPath)) configPath = Path.Combine(AppContext.BaseDirectory, "..", "configs", "host.json");
+var config = HostConfig.Load(configPath);
 
-if (args.Length > 0 && args[0] == "split") return RunSplit(args.Skip(1).ToArray());
-if (args.Length > 0 && args[0] == "host") return await RunHost(config);
-if (args.Length > 0 && args[0] == "stop") return await StopHost(config, args.Contains("--now"));
-
-var positional = args.Where(a => !a.StartsWith("--")).ToList();
-var dryRun = args.Contains("--dry-run");
-var jobArgIdx = Array.IndexOf(args, "--job");
-string? onlyJob = jobArgIdx >= 0 && jobArgIdx + 1 < args.Length ? args[jobArgIdx + 1] : null;
-if (onlyJob is not null) positional.Remove(onlyJob);
-var atArgIdx = Array.IndexOf(args, "--at");
-string? atSpec = atArgIdx >= 0 && atArgIdx + 1 < args.Length ? args[atArgIdx + 1] : null;
-if (atSpec is not null) positional.Remove(atSpec);
-DateTimeOffset? notBefore = null;
-if (atSpec is not null)
+if (args.Length == 0) return Usage();
+var verb = args[0];
+var rest = args.Skip(1).ToList();
+string? Option(string name)
 {
-    var (at, atError) = Schedule.ParseAt(atSpec, DateTimeOffset.UtcNow, RunnerHost.ReadCachedUtilization());
-    if (atError is not null) { Console.Error.WriteLine(atError); return 2; }
-    notBefore = at;
+    var i = rest.IndexOf(name);
+    if (i < 0 || i + 1 >= rest.Count) return null;
+    var value = rest[i + 1];
+    rest.RemoveRange(i, 2);
+    return value;
+}
+List<string> Options(string name)
+{
+    var values = new List<string>();
+    while (Option(name) is { } v) values.Add(v);
+    return values;
 }
 
-if (positional.Count == 0)
+switch (verb)
 {
-    var url = await EnsureHost(config);
-    if (url is null) return 1;
-    OpenBrowser(url);
-    Console.WriteLine($"host: {url}");
-    return 0;
-}
-if (positional.Count != 1)
-{
-    Console.Error.WriteLine("Usage: AgentRunner.exe [<run>/jobs.json [--dry-run] [--job ID] [--at HH:mm|ISO|reset]] | split <doc.md> <items-dir> | stop [--now] | host");
-    return 2;
-}
-
-var jobFilePath = Path.GetFullPath(positional[0]);
-if (dryRun) return DryRun(jobFilePath, onlyJob);
-
-{
-    var url = await EnsureHost(config);
-    if (url is null) return 1;
-    using var http = new HttpClient { BaseAddress = new Uri(url) };
-    var resp = await http.PostAsJsonAsync("/api/runs", new EnqueueRequest(jobFilePath, onlyJob, notBefore));
-    var result = await resp.Content.ReadFromJsonAsync<EnqueueResult>();
-    Console.WriteLine(result?.Message ?? $"host answered {(int)resp.StatusCode}");
-    if (result?.Ok == true) Console.WriteLine($"watch: {url}/runs/{result.RunId}");
-    return result?.Ok == true ? 0 : 1;
+    case "start":
+    {
+        var url = await EnsureHost(config);
+        if (url is null) return 1;
+        OpenBrowser(url);
+        Console.WriteLine($"host: {url}");
+        return 0;
+    }
+    case "stop":
+        return await StopHost(config, rest.Contains("--now"));
+    case "host":
+        return await RunHost(config);
+    case "dry-run-batch":
+    {
+        var item = Option("--item");
+        if (rest.Count != 1) return Usage("dry-run-batch takes one argument: a batch's definition.md");
+        return DryRun(Path.GetFullPath(rest[0]), item, config);
+    }
+    case "execute-batch":
+    {
+        var item = Option("--item");
+        var atSpec = Option("--at");
+        if (rest.Count != 1) return Usage("execute-batch takes one argument: a batch's definition.md");
+        DateTimeOffset? notBefore = null;
+        if (atSpec is not null)
+        {
+            var (at, atError) = Schedule.ParseAt(atSpec, DateTimeOffset.UtcNow, RunnerHost.ReadCachedUtilization());
+            if (atError is not null) { Console.Error.WriteLine(atError); return 2; }
+            notBefore = at;
+        }
+        var url = await EnsureHost(config);
+        if (url is null) return 1;
+        using var http = new HttpClient { BaseAddress = new Uri(url) };
+        var resp = await http.PostAsJsonAsync("/api/batches", new ExecuteRequest(Path.GetFullPath(rest[0]), item, notBefore));
+        var result = await resp.Content.ReadFromJsonAsync<ExecuteResult>();
+        Console.WriteLine(result?.Message ?? $"host answered {(int)resp.StatusCode}");
+        if (result?.Ok == true) Console.WriteLine($"watch: {url}/batches/{result.BatchId}");
+        return result?.Ok == true ? 0 : 1;
+    }
+    case "tally-batch":
+    {
+        var flags = Options("--flag").Select(f =>
+        {
+            var eq = f.IndexOf('=');
+            return eq <= 0 ? null : new Tally.Flag(f[..eq], f[(eq + 1)..]);
+        }).ToList();
+        if (flags.Any(f => f is null)) return Usage("--flag takes field=value");
+        var groupBy = Option("--group-by");
+        if (rest.Count != 1) return Usage("tally-batch takes one argument: a batch's definition.md");
+        var (batch, error) = Batch.Load(Path.GetFullPath(rest[0]), Directory.GetCurrentDirectory());
+        if (batch is null) { Console.Error.WriteLine(error); return 2; }
+        var (ok, message) = Tally.Write(batch, flags!, groupBy);
+        Console.WriteLine(message);
+        return ok ? 0 : 1;
+    }
+    default:
+        return Usage($"Unknown verb '{verb}'.");
 }
 
 // --- verbs ---
@@ -79,8 +108,8 @@ if (dryRun) return DryRun(jobFilePath, onlyJob);
 static async Task<int> RunHost(HostConfig config)
 {
     var harness = await ReadHarnessVersion();
-    var host = new RunnerHost(config, new ProcessChildLauncher(msg => Console.Error.WriteLine("  " + msg)), harness, Console.WriteLine);
-    host.Log($"host starting on {config.Url} (harness {harness}; fanout {host.FanoutRoot}; ceiling {host.MaxParallel}; cap {host.UtilizationCap}%)");
+    var host = new RunnerHost(config, new ProcessChildLauncher(msg => Console.Error.WriteLine("  " + msg)), harness, echo: Console.WriteLine);
+    host.Log($"host starting on {config.Url} (harness {harness}; working dir {host.WorkingDir}; launch dir {host.LaunchDir}; ceiling {host.MaxParallel}; cap {host.UtilizationCap}%; idle {host.IdleMinutes} min)");
     var app = RunnerApi.BuildApp(host, config.Url);
     Console.CancelKeyPress += (_, e) => { e.Cancel = true; _ = host.ShutdownAsync(now: true).ContinueWith(_ => app.StopAsync()); };
     try
@@ -100,7 +129,8 @@ static async Task<string?> EnsureHost(HostConfig config)
     if (await Ping(config.Url)) return config.Url;
     var exe = Environment.ProcessPath;
     if (exe is null) { Console.Error.WriteLine("cannot locate own executable to start the host"); return null; }
-    var psi = new ProcessStartInfo(exe) { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = AppContext.BaseDirectory };
+    // The host's working directory is the CLI's: the page lists the batches beneath it.
+    var psi = new ProcessStartInfo(exe) { UseShellExecute = false, CreateNoWindow = true, WorkingDirectory = Directory.GetCurrentDirectory() };
     psi.ArgumentList.Add("host");
     try { Process.Start(psi); }
     catch (Exception ex) { Console.Error.WriteLine($"cannot start host: {ex.Message}"); return null; }
@@ -109,7 +139,7 @@ static async Task<string?> EnsureHost(HostConfig config)
         await Task.Delay(250);
         if (await Ping(config.Url)) { Console.WriteLine($"host started: {config.Url}"); return config.Url; }
     }
-    Console.Error.WriteLine($"host did not answer on {config.Url} within 15 s — see fanout/host-log.txt");
+    Console.Error.WriteLine($"host did not answer on {config.Url} within 15 s — see host-log.txt beside the exe");
     return null;
 }
 
@@ -129,14 +159,14 @@ static async Task<int> StopHost(HostConfig config, bool now)
     if (!await Ping(config.Url)) { Console.WriteLine("no host is running"); return 0; }
     using var http = new HttpClient { BaseAddress = new Uri(config.Url) };
     await http.PostAsync($"/api/host/shutdown?now={(now ? "true" : "false")}", null);
-    Console.Write(now ? "stopping now" : "stopping after in-flight jobs");
+    Console.Write(now ? "stopping now" : "stopping after in-flight calls");
     for (var i = 0; i < 240; i++)
     {
         await Task.Delay(500);
         if (!await Ping(config.Url)) { Console.WriteLine(" — stopped"); return 0; }
         if (i % 10 == 9) Console.Write('.');
     }
-    Console.WriteLine(" — still running after 2 min (children in flight?); use `stop --now`");
+    Console.WriteLine(" — still running after 2 min (calls in flight?); use `stop --now`");
     return 1;
 }
 
@@ -146,68 +176,32 @@ static void OpenBrowser(string url)
     catch (Exception ex) { Console.Error.WriteLine($"open {url} yourself — {ex.Message}"); }
 }
 
-/// <summary>Serverless: parse, resolve, check the launch folder, compose every pending prompt, print, launch nothing.</summary>
-static int DryRun(string jobFilePath, string? onlyJob)
+/// <summary>Serverless: read the batch, check the launch folder, compose every pending call in memory, print, write nothing.</summary>
+static int DryRun(string definitionPath, string? item, HostConfig config)
 {
-    var runDir = Path.GetDirectoryName(jobFilePath)!;
-    var (runner, error) = BatchRunner.Create(jobFilePath, RunCatalog.RunIdFor(runDir, HostConfig.FindFanoutRoot()), onlyJob,
+    var launchDir = Path.GetFullPath(config.LaunchDir ?? HostConfig.DefaultLaunchDir());
+    var (runner, error) = BatchRunner.Create(definitionPath, Directory.GetCurrentDirectory(), item, launchDir,
         new NoLauncher(), new OpenGate(), Console.WriteLine, "dry-run");
     if (runner is null) { Console.Error.WriteLine(error); return 2; }
+    var batch = runner.Batch;
 
     Console.WriteLine("agent runner (DRY RUN)");
-    Console.WriteLine($"  run       : {runner.RunDir}");
-    Console.WriteLine($"  launchDir : {Path.GetFullPath(runner.JobFile.LaunchDir)}");
-    Console.WriteLine($"  ledger    : {runner.LedgerPath} ({runner.LedgerSnapshot().Count} attempt(s) recorded)");
-    Console.WriteLine($"  run ceilings: maxAttempts {runner.JobFile.MaxAttempts}; timeout {runner.JobFile.TimeoutMinutes} min; maxParallel {runner.MaxParallel}; utilizationCap {runner.JobFile.UtilizationCap}%");
+    Console.WriteLine($"  batch      : {batch.Id}");
+    Console.WriteLine($"  definition : {batch.Definition.Path} ({batch.Definition.Hash[..12]}…)");
+    Console.WriteLine($"  directions : {batch.Definition.DirectionsPath} ({batch.Directions.BodyHash[..12]}…), {batch.Directions.Body.Length:N0} chars");
+    Console.WriteLine($"  model      : {batch.Model}{(batch.Effort is null ? "" : ", effort " + batch.Effort)}; tools [{string.Join(", ", batch.Definition.Tools)}]; mcp {(batch.Definition.McpPath is null ? "no" : batch.Definition.McpPath)}");
+    Console.WriteLine($"  launchDir  : {launchDir}");
+    Console.WriteLine($"  schema     : {batch.SchemaJson}");
+    Console.WriteLine($"  execution  : {runner.Execution} — {runner.Summary()}");
     Console.WriteLine();
-    foreach (var j in runner.Jobs)
-        Console.WriteLine($"  [{runner.StateOf(j),-9}] {j.Id}  model={j.Model} mcp={(j.Mcp ? "yes" : "no")}  item: {j.Item}");
+    foreach (var i in batch.Items)
+    {
+        var state = runner.HasSucceeded(i) ? "answered" : "pending";
+        var plan = batch.Compose(i);
+        Console.WriteLine($"  [{state,-8}] {i}: item {plan.ItemText.Length:N0} chars ({plan.ItemHash[..12]}…), prompt {plan.PromptHash[..12]}…");
+    }
     Console.WriteLine();
-    foreach (var j in runner.Jobs.Where(j => runner.StateOf(j) == JobState.Pending))
-    {
-        try
-        {
-            var p = RunnerPlan.ComposePrompt(j, File.ReadAllText);
-            Console.WriteLine($"  {j.Id}: prompt {p.Text.Length:N0} chars, {p.ProtocolShas.Count} protocol(s), {p.InputShas.Count} input(s), {j.RequireOnce.Count} required marker(s)");
-        }
-        catch (IOException ex)
-        {
-            Console.WriteLine($"  {j.Id}: CANNOT COMPOSE — {ex.Message}");
-        }
-    }
-    Console.WriteLine("DRY RUN — nothing launched.");
-    return 0;
-}
-
-static int RunSplit(string[] a)
-{
-    if (a.Length != 2)
-    {
-        Console.Error.WriteLine("Usage: split <document.md> <items-dir>");
-        return 2;
-    }
-    var doc = Path.GetFullPath(a[0]);
-    var outDir = Path.GetFullPath(a[1]);
-    if (!File.Exists(doc))
-    {
-        Console.Error.WriteLine($"Document not found: {doc}");
-        return 2;
-    }
-    if (Directory.Exists(outDir) && Directory.EnumerateFileSystemEntries(outDir).Any())
-    {
-        Console.Error.WriteLine($"Items directory is not empty: {outDir} — a split is done once per run; start a new run folder to split again.");
-        return 2;
-    }
-    Directory.CreateDirectory(outDir);
-    var text = File.ReadAllText(doc);
-    var units = UnitSplitter.Split(text);
-    foreach (var u in units)
-        File.WriteAllText(Path.Combine(outDir, u.Id + ".md"), UnitSplitter.RenderItem(u), new UTF8Encoding(false));
-    var manifest = UnitSplitter.RenderManifest(Path.GetFileName(doc), RunnerPlan.Sha256Hex(text), units);
-    File.WriteAllText(Path.Combine(outDir, "manifest.md"), manifest, new UTF8Encoding(false));
-    Console.WriteLine($"{units.Count} units from {doc} → {outDir} (manifest.md beside them)");
-    foreach (var g in units.GroupBy(u => u.Section))
-        Console.WriteLine($"  {g.Count(),3}  {g.Key}");
+    Console.WriteLine("DRY RUN — nothing called, nothing written.");
     return 0;
 }
 
@@ -227,6 +221,20 @@ static async Task<string> ReadHarnessVersion()
     {
         return "unknown";
     }
+}
+
+static int Usage(string? message = null)
+{
+    if (message is not null) Console.Error.WriteLine(message);
+    Console.Error.WriteLine("""
+        Usage:
+          AgentRunner.exe start
+          AgentRunner.exe stop [--now]
+          AgentRunner.exe dry-run-batch <definition.md> [--item ID]
+          AgentRunner.exe execute-batch <definition.md> [--item ID] [--at HH:mm|ISO|reset]
+          AgentRunner.exe tally-batch   <definition.md> [--flag field=value]... [--group-by item|locator|description]
+        """);
+    return 2;
 }
 
 /// <summary>For the serverless dry run: a launcher that must never be called.</summary>
