@@ -160,11 +160,11 @@ followed, all Brian's:
   `fanout/referee/codebook.md` and the two skills. The external launch folder holds only
   its README. Documents people write (artifacts, adjudications) stay in `docs/`.
 - The comparison itself is rebuilt as one job per section per arm over the 174 units
-  (`fanout/skill-audits/2026-09-03-v3-buildout/`), piloted on one section before the batch.
+  (`docs/v3-framework-historical/skill-audits/2026-09-03-v3-buildout/`), piloted on one section before the batch.
 
 ### The audit's outcome (2026-09-03, late evening)
 
-Run: `fanout/skill-audits/2026-09-03-v3-buildout/` — 18 jobs (one per section of the old
+Run: `docs/v3-framework-historical/skill-audits/2026-09-03-v3-buildout/` — 18 jobs (one per section of the old
 skill, arm A only; arm B dropped for compute), Sonnet, protocol `protocol.md@f30011c4ba9a`,
 harness 2.1.258, all 174 units answered, every output check passed, total cost $4.74.
 Relations: 73 restated, 50 narrowed, 19 broadened, 16 non-instructional, 14 reversed,

@@ -478,7 +478,7 @@ rules names the old id in prose.
   a question is Brian's and that question lists replace spec pools; the pools hold three
   kinds of entry, re-housed pre-revision entries, plan-1 specs, and open questions never
   investigated, only the first of which is the leads material.
-- decision: `docs/v3-framework/spec-pools/` is closed as the founding record of
+- decision: `docs/v3-framework-historical/spec-pools/` is closed as the founding record of
   questions, never written again, one pointer line in its README. `questions/<corpus>.md`
   starts empty and is filled by a triage per corpus in `ask`: Brian goes through the
   pool's entries, keeping those that are his questions, each written under the schema in
@@ -616,7 +616,7 @@ rules names the old id in prose.
   exploration-of-fimfiction-stories using the new methodology, and not bother with any
   triage?" The pools are session-authored specs from plans that mostly never ran; nothing
   in them is on record as a question he asked.
-- decision: `docs/v3-framework/spec-pools/` stays closed as the founding record, never
+- decision: `docs/v3-framework-historical/spec-pools/` stays closed as the founding record, never
   written again. `questions/<corpus>.md` starts empty and is filled only by the standing
   processes that write it. A pool question enters a list when Brian asks it, through
   `ask`, with `carried from the founding pool` as its provenance. The first list a
@@ -1242,7 +1242,7 @@ rules names the old id in prose.
   What if all historical record goes to a new docs/v3-framework-historical?" and
   "attribution.csv is an itemizer which will be used. The rest should be moved out to
   historical, and paths referencing them should be edited in place." The two audit
-  batches under `fanout/skill-audits/` are the runner's only executions, their results
+  batches under `docs/v3-framework-historical/skill-audits/` are the runner's only executions, their results
   written by agents as Markdown blocks with no JSON to render from; beside them under
   `docs/v3-framework/` sat the closed founding record and spec pools, the retired
   plans, and the handoffs and drafts of revisions 1 and 2.
@@ -1250,7 +1250,7 @@ rules names the old id in prose.
   record and the spec pools; forward-plan-1, forward-plan-2 and its handoff; the
   revision-2 handoffs, omissions draft and rulings; the retroactive referee handoff;
   the 2026-09-05 engineering handoff; process-map draft 1; VERSION-HISTORY draft 1;
-  the WU1.4 execution plan and the WU2.15 plan; and `fanout/skill-audits/` whole, its
+  the WU1.4 execution plan and the WU2.15 plan; and `docs/v3-framework-historical/skill-audits/` whole, its
   protocol, scripts and two batches, unchanged. Closed: never written again, governed
   by no checker, one README saying what the folder is. `docs/v3-framework/` holds only
   live artifacts, and `WU1.4-v1-scene-instincts/` stays, its `attribution.csv` being
@@ -1799,7 +1799,7 @@ rules names the old id in prose.
   pipeline hypotheses; the 2026-09-06 code-session audit; the three retroactive
   explorations, `exploration-of-fimfiction-stories`, `-google-keep` and
   `-own-fiction`, whose registry rows leave, so that the registry is empty until the
-  first study under the method; and `fanout/skill-audits/` whole. Closed: never
+  first study under the method; and `docs/v3-framework-historical/skill-audits/` whole. Closed: never
   written again, governed by no checker, one README. `docs/v3-framework/` holds only
   live artifacts: decisions.md, studies.md, the hypotheses, the questions, the
   studies, `methodology-revision-1.md`, `implementation-candidates.md`, and

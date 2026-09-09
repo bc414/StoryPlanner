@@ -52,12 +52,14 @@ riderModule.iml
 /The Princess and the Kaiser*.txt
 /Pax Chrysalia*.txt
 
-# agent runner (fanout/), one convention for every run (agent-runner skill):
-# attempts/ is the runner's — prompt.md is ~85 KB per attempt and reconstructible from the
-# ledger's input hashes plus the committed inputs, stream.jsonl is for watching a live run;
-# items/ holds regenerable inputs, of which only the manifest is committed. Jobs, results,
-# ledger, protocols, codebooks, generators and talliers are committed.
-fanout/**/attempts/
-fanout/**/items/*
-!fanout/**/items/manifest.md
-fanout/host-log.txt
+# agent runner (agent-runner skill), one convention for every batch: attempts/ is the
+# runner's (the prompt and the stream of each call, reconstructible from the calls file's
+# hashes and the committed inputs); items/ holds the item bodies, regenerable by the batch's
+# itemizer from the committed index. The definition, index, calls, results and tally are
+# committed. The host's log sits in the runner's publish folder, already ignored above.
+# The two audit batches of 2026-09 under docs/v3-framework-historical/ keep the same
+# convention they were committed under.
+docs/v3-framework/studies/**/items/*
+docs/v3-framework-historical/skill-audits/**/items/*
+!docs/v3-framework-historical/skill-audits/**/items/manifest.md
+**/attempts/

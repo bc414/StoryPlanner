@@ -46,7 +46,7 @@ FicEpubReader (`dotnet run --project tools/StoryPlanner.SourceTexts -- --to-mark
 Status: **Analyzed (WU1.3, 2026-09-01).** Seven self-diagnostic v4 analyses in
 `Reading Archive Analyses/` (`thlb`, `wish`, `teats`, `ntl`, `giyc`,
 `falldale`, `naive-tltt`, each `-1m.txt`); correction notes prepended to four
-after source verification. Synthesis: `docs/v3-framework/WU1.3-own-voice-synthesis.md`.
+after source verification. Synthesis: `docs/v3-framework-historical/WU1.3-own-voice-synthesis.md`.
 Brief additions used: `docs/analysis-briefs/v4-self-diagnostic-additions.txt`.
 
 ## Supplementary material

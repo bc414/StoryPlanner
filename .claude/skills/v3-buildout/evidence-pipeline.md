@@ -22,7 +22,7 @@ episode that prompted it is in `docs/v3-framework/methodology-revision-1.md`).
 | What | Who writes it | Where |
 |---|---|---|
 | A finding of an exploratory pass | the pass | the WU artifact |
-| A question raised about a corpus | any pass, any post-review | `docs/v3-framework/spec-pools/<corpus>.md` |
+| A question raised about a corpus | any pass, any post-review | `docs/v3-framework-historical/spec-pools/<corpus>.md` |
 | A candidate (a finding that a verification pass claims bears on a hypothesis) | the verification pass | `fanout/WU<n>.<m>-…/candidates.md` |
 | The referee's verdict on a candidate | the referee (autonomous, fresh context) | appended to the same candidate |
 | A promoted evidence entry | a promotion session, Brian reviewing the commit | `docs/v3-framework/hypotheses/NNN-slug.md` |

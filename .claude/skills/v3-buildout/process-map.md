@@ -1,7 +1,7 @@
 # Process map — the skill's spine (rows; UNVALIDATED draft of 2026-09-04)
 
 > Status: **authored 2026-09-04, not yet validated** (methodology revision 2,
-> `docs/v3-framework/methodology-revision-2-handoff.md`). The validator
+> `docs/v3-framework-historical/methodology-revision-2-handoff.md`). The validator
 > (`tools/StoryPlanner.ProcessMap`) does not exist yet; the generated sections are empty. Until
 > the revision lands, `SKILL.md`'s routing table is still the router and this file is a
 > companion under construction. Nothing here is settled: the columns are the schema, the rows
@@ -48,7 +48,7 @@ codebook examples declare the rules they exercise; bootstrap rows listed with th
 retires them.
 
 Four points of the schema were ruled on 2026-09-04 while the tool was built; the reasons are in
-`docs/v3-framework/methodology-revision-2-handoff.md` § Rulings so far, items 7–13.
+`docs/v3-framework-historical/methodology-revision-2-handoff.md` § Rulings so far, items 7–13.
 
 - **`governed-by` is one repo-relative file path, and a `§` in it is a syntax error.** The cell
   is a reading assignment ("read this in full before acting") and the precedence declaration
@@ -114,7 +114,7 @@ Tests are `tests/StoryPlanner.Tests/ProcessMap/`, pure tier, on inline fixtures.
 | I5 | incident | A corpus-scale single job with nine inlined documents ran 39 minutes with no output, 2026-09-03 | methodology-revision-1.md § Addendum; agent-runner SKILL.md § A well-formed job |
 | I6 | incident | Hand-kept mirrors stale on the day written: the index status column and plan 2's coverage table, 2026-09-04 | hypothesis-records.md § Files and the index; forward-plans.md § Structure |
 | I7 | incident | Plan 1's hand-asserted ordering and enrichment chain reversed under blind evaluation the same day, 2026-08-31 | methodology-revision-1.md § What changed (ordering) |
-| I8 | incident | The referee's third input and rules R2/R5/R6 entered by accretion across five turns of 2026-09-03, never by ruling | docs/v3-framework/WU2.15-plan.md § The ruling |
+| I8 | incident | The referee's third input and rules R2/R5/R6 entered by accretion across five turns of 2026-09-03, never by ruling | docs/v3-framework-historical/WU2.15-plan.md § The ruling |
 | H013 | hypothesis | Instruction-stack effects on autonomous readers (label agreement between explicit-context and HITL-context arms) | hypotheses/013; hypotheses/049 |
 | H047 | hypothesis | Pathfinder and slice-reader record sets are substantially disjoint | hypotheses/047 |
 | H048 | hypothesis | Self-administered clauses pass non-diagnostic findings at a materially higher rate than a blind referee | hypotheses/048 |
@@ -129,7 +129,7 @@ Tests are `tests/StoryPlanner.Tests/ProcessMap/`, pure tier, on inline fixtures.
 | f.cons | docs/v3-framework/consolidation-N.md (write-once) | committed | consolidation.md § What it produces |
 | f.rev | docs/v3-framework/methodology-revision-N.md (write-once) | committed | SKILL.md § Provenance |
 | f.skill | .claude/skills/v3-buildout/*.md and .claude/skills/agent-runner/SKILL.md | committed | SKILL.md § Session routing |
-| f.pool | docs/v3-framework/spec-pools/<corpus>.md (append-only entries; status line only changes) | committed | spec-pools/README.md |
+| f.pool | docs/v3-framework-historical/spec-pools/<corpus>.md (append-only entries; status line only changes) | committed | spec-pools/README.md |
 | f.hyp | docs/v3-framework/hypotheses/NNN-slug.md | committed | hypothesis-records.md § Files and the index |
 | f.index | docs/v3-framework/hypotheses/INDEX.md (id and slug only; no status) | committed | hypothesis-records.md § Files and the index |
 | f.art | docs/v3-framework/WU<n>.<m>-<slug>.md or directory (write-once; corrections appended) | committed | wu-execution.md § WU artifacts |
@@ -140,7 +140,7 @@ Tests are `tests/StoryPlanner.Tests/ProcessMap/`, pure tier, on inline fixtures.
 | f.proto | fanout/<work>/protocol.md (reading protocol; piloted, not calibrated) | committed | forward-plan-2.md § Codebooks this plan names |
 | f.cb | fanout/<work>/codebook.md (hashed by the runner) | committed | agent-runner SKILL.md § Layout |
 | f.cal | fanout/<work>/calibration-<date>.md | committed | fanout/referee/codebook.md § Calibration |
-| f.sheet | fanout/<work>/<run>/calibration-sheet.md (Brian's blind verdicts) | committed | docs/v3-framework/WU2.15-plan.md § Step 3 |
+| f.sheet | fanout/<work>/<run>/calibration-sheet.md (Brian's blind verdicts) | committed | docs/v3-framework-historical/WU2.15-plan.md § Step 3 |
 | f.man | read-manifest.md (arm label → condition, model; closed until binning) | committed | wu-execution.md § Design rules |
 | f.items | fanout/<work>/<run>/items/*.md (regenerable bodies) | gitignored | agent-runner SKILL.md § What a run commits |
 | f.manifest | fanout/<work>/<run>/items/manifest.md | committed | agent-runner SKILL.md § What a run commits |
@@ -189,7 +189,7 @@ Tests are `tests/StoryPlanner.Tests/ProcessMap/`, pure tier, on inline fixtures.
 | V.9 | V | sop | Tally results into counts and flagged rows; adjudication reads this, never the raw batch | script | f.res | f.art | I5 | fanout/PROTOCOL.md § The steps 10 | exists |
 | V.10 | V | sop | Write the verification artifact: method, counts, not-measured, pool questions answered | hitl:fable | f.res f.led f.art | f.art | G1 C3 | wu-execution.md § WU artifacts | specified |
 | V.11 | V | sop | Write candidates: finding, source, proposed-by, one citable unit each; append-only | hitl:fable | f.res f.art | f.cand | G1 G2 C2 I1 | evidence-pipeline.md § The candidates file | specified |
-| V.13 | V | sop | Copy each referee verdict from the referee run's results into the candidate | hitl:fable | f.res f.cand | f.cand | G2 I8 | docs/v3-framework/retroactive-referee-pass-handoff.md § Sequence 3 | contradictory |
+| V.13 | V | sop | Copy each referee verdict from the referee run's results into the candidate | hitl:fable | f.res f.cand | f.cand | G2 I8 | docs/v3-framework-historical/retroactive-referee-pass-handoff.md § Sequence 3 | contradictory |
 | V.15 | V | sop | Report counts per target and class, promotions, declines, disagreements, pipeline behaviour | hitl:fable | f.cand f.hyp | f.art | G4 | evidence-pipeline.md § Promotion | specified |
 | V.16 | V | sop | Wrap-up sweep over the full index; more candidates through the same referee only | hitl:fable | f.index f.art | f.cand | C2 C6 | wu-execution.md § 3. Execution | specified |
 | S.1 | S | sop | Scope reconciliation: the debt status of every named corpus; unverified wants become questions and leave scope | hitl:fable | f.plan f.pool f.cand f.hyp | f.plan f.pool | C3 | wu-execution.md § 1. Scope reconciliation | exists |
@@ -212,7 +212,7 @@ Tests are `tests/StoryPlanner.Tests/ProcessMap/`, pure tier, on inline fixtures.
 | R.9 | R | sop | Write run.md; commit per the convention | hitl:fable | f.led f.res | f.runmd | I4 | fanout/PROTOCOL.md § run.md | exists |
 | F.1 | F | sop | Materialise the referee's inputs: the current statement and the candidate's finding and source lines, no clause | script | f.hyp f.cand | f.items | G3 I8 | evidence-pipeline.md § The referee | contradictory |
 | F.4 | F | sop | Referee job: attempt the clause blind; verdict diagnostic supporting, diagnostic challenging, or non-diagnostic; two lines out | agent:sonnet | f.cb f.items | f.res | G2 G3 H048 I1 | fanout/referee/codebook.md § The task | specified |
-| F.6 | F | sop | Tally referee results: class counts, malformed verdicts | script | f.res | f.art | I5 | docs/v3-framework/retroactive-referee-pass-handoff.md § Sequence 3 | unbuilt |
+| F.6 | F | sop | Tally referee results: class counts, malformed verdicts | script | f.res | f.art | I5 | docs/v3-framework-historical/retroactive-referee-pass-handoff.md § Sequence 3 | unbuilt |
 | M.1 | M | sop | Promotion session opens candidates, verdicts and hypothesis files | hitl:fable | f.cand f.res f.hyp | f.cand | G4 | evidence-pipeline.md § Promotion | specified |
 | M.3 | M | sop | Read the cited source, not the finding, for each diagnostic candidate: the citation check | hitl:fable | f.cand f.src | f.cand | I2 G4 | evidence-pipeline.md § Promotion | specified |
 | M.4 | M | sop | Write the evidence entry: finding and clause verbatim, WU and candidate id, codebook hash, tag | hitl:fable | f.cand | f.hyp | G1 G2 C2 | hypothesis-records.md § Record entries | specified |
@@ -221,8 +221,8 @@ Tests are `tests/StoryPlanner.Tests/ProcessMap/`, pure tier, on inline fixtures.
 | M.8 | M | sop | Recompute each touched hypothesis's status from its entries, in frontmatter only | hitl:fable | f.hyp | f.hyp | I6 C2 | hypothesis-records.md § Files and the index | specified |
 | M.9 | M | sop | One commit naming the WU and candidate ids; the diff is the review surface | hitl:fable | f.hyp f.cand | f.hyp | G4 | evidence-pipeline.md § Promotion | specified |
 | M.10 | M | sop | Brian reviews the promotion diff | brian | f.hyp | f.hyp | C1 G4 | evidence-pipeline.md § Promotion | specified |
-| B.1 | V | bootstrap | Retroactive candidates: one per pre-revision evidence entry, finding and source verbatim, original clause withheld | hitl:fable | f.hyp | f.cand | I1 I2 H048 | docs/v3-framework/retroactive-referee-pass-handoff.md § Sequence 2 | specified |
-| B.2 | V | bootstrap | The 048 table: blind clause against original clause, five bins | hitl:fable | f.cand f.res f.hyp | f.art f.cand | H048 | docs/v3-framework/WU2.15-plan.md § Step 3 | specified |
+| B.1 | V | bootstrap | Retroactive candidates: one per pre-revision evidence entry, finding and source verbatim, original clause withheld | hitl:fable | f.hyp | f.cand | I1 I2 H048 | docs/v3-framework-historical/retroactive-referee-pass-handoff.md § Sequence 2 | specified |
+| B.2 | V | bootstrap | The 048 table: blind clause against original clause, five bins | hitl:fable | f.cand f.res f.hyp | f.art f.cand | H048 | docs/v3-framework-historical/WU2.15-plan.md § Step 3 | specified |
 
 ## Edges
 

@@ -1,6 +1,6 @@
 ---
 name: v1-archive-mining
-description: Per-session protocol for reading the v1 archive's notes with voice attribution — the evidence set (attribution.csv) and how to read it, what each label means for reading, how to produce the labelled reading view with tools/StoryPlanner.VoiceAttribution, the reading unit and discovery-first rule, the voice discipline, the exact locus-level record format, and what the reading never does. Load in any session that reads v1 archive notes (WU1.4 passes, adjudication, subject pass) and before the eventual v2 voice-lint run. Session orchestration for WU1.4 is NOT here — see docs/v3-framework/WU1.4-execution-plan.md.
+description: Per-session protocol for reading the v1 archive's notes with voice attribution — the evidence set (attribution.csv) and how to read it, what each label means for reading, how to produce the labelled reading view with tools/StoryPlanner.VoiceAttribution, the reading unit and discovery-first rule, the voice discipline, the exact locus-level record format, and what the reading never does. Load in any session that reads v1 archive notes (WU1.4 passes, adjudication, subject pass) and before the eventual v2 voice-lint run. Session orchestration for WU1.4 is NOT here — see docs/v3-framework-historical/WU1.4-execution-plan.md.
 ---
 
 # V1 archive mining — per-session protocol
@@ -8,7 +8,7 @@ description: Per-session protocol for reading the v1 archive's notes with voice 
 The instrument (voice attribution) is mechanical and validated; the reading is judgment. This
 skill keeps every session that reads archive notes on the same method. Which sessions run,
 in what order, and how their outputs combine is the WU's business:
-`docs/v3-framework/WU1.4-execution-plan.md`. Decisions here are Brian's, dated 2026-09-02.
+`docs/v3-framework-historical/WU1.4-execution-plan.md`. Decisions here are Brian's, dated 2026-09-02.
 
 ## The evidence set
 
