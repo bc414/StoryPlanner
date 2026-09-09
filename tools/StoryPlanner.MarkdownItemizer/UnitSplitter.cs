@@ -1,17 +1,16 @@
 using System.Text;
 
-namespace StoryPlanner.AgentRunner;
+namespace StoryPlanner.MarkdownItemizer;
 
 /// <summary>
-/// One unit of a Markdown document, as the supersession audit's item. The unit rule is
-/// mechanical and lives here — not in any agent's protocol — because enumerating the items
-/// is instrument work done once at design time, never judgment done at runtime by the
-/// party whose judgment the audit exists to check.
+/// One unit of a Markdown document, an item for a call. The unit rule is mechanical and lives
+/// here — not in any directions — because cutting the items is a tool's work done once per
+/// batch, never judgment done at runtime by the party whose judgment a study exists to check.
 /// </summary>
 public sealed record DocUnit(int Number, string Section, string Text)
 {
     public string Id => $"unit-{Number:000}";
-    /// <summary>The first line of the unit, trimmed of list markers, for the manifest.</summary>
+    /// <summary>The first line of the unit, trimmed of list markers, for the index's description.</summary>
     public string FirstLine
     {
         get
@@ -143,22 +142,14 @@ public static class UnitSplitter
         return units;
     }
 
-    /// <summary>The item file the agent receives for one unit: locus, id, then the text verbatim.</summary>
+    /// <summary>The item body a call receives for one unit: the section it sits in, then the text verbatim. No id: the runner holds that.</summary>
     public static string RenderItem(DocUnit u) =>
-        $"Unit: {u.Id}\nSection: {u.Section}\n\n{u.Text}\n";
+        $"Section: {u.Section}\n\n{u.Text}\n";
 
-    /// <summary>A manifest table, one row per unit, for the human and for job generation.</summary>
-    public static string RenderManifest(string sourceName, string sourceSha, IReadOnlyList<DocUnit> units)
-    {
-        var sb = new StringBuilder();
-        sb.Append("# Units of ").Append(sourceName).Append("\n\n");
-        sb.Append("Source sha256 ").Append(sourceSha).Append("; ").Append(units.Count).Append(" units.\n\n");
-        sb.Append("| Unit | Section | First line |\n|---|---|---|\n");
-        foreach (var u in units)
-            sb.Append("| ").Append(u.Id).Append(" | ").Append(u.Section.Replace("|", "\\|")).Append(" | ")
-              .Append(Truncate(u.FirstLine.Replace("|", "\\|"), 90)).Append(" |\n");
-        return sb.ToString();
-    }
+    /// <summary>The locator of a unit in the document: its ordinal and its section.</summary>
+    public static string Locator(DocUnit u) => $"{u.Number} in {u.Section}";
 
     private static string Truncate(string s, int max) => s.Length <= max ? s : s[..max] + "…";
+
+    public static string Description(DocUnit u) => Truncate(u.FirstLine, 90);
 }

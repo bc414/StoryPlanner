@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StoryPlanner.MarkdownItemizer</RootNamespace>
+        <!-- The itemizer for a Markdown document (the audit's corpus, the skill's own text): the
+             unit rule that was the runner's split verb until 2026-09-09, now a tool of its own under
+             tools/ like every itemizer (decisions.md, "The runner's verbs"). It writes a batch's
+             index in the index schema's shape and the item bodies under items/. -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+    </ItemGroup>
+
+</Project>

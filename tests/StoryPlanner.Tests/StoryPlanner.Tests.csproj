@@ -37,6 +37,8 @@
              v3-buildout skill's tables. Pure tier throughout: its fixtures are inline markdown in a
              temp folder, never the real skill; one test reads the real folder. -->
         <ProjectReference Include="..\..\process-docs\StoryPlanner.DocIntegrity\StoryPlanner.DocIntegrity.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.MarkdownItemizer\StoryPlanner.MarkdownItemizer.csproj" />
     </ItemGroup>
 
 </Project>

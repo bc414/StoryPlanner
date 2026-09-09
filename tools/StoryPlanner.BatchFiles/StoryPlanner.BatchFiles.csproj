@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StoryPlanner.BatchFiles</RootNamespace>
+        <!-- The files of a batch (agent-runner skill): the directions, the definition, the index,
+             the calls file, the results — read by the runner to make calls and by DocIntegrity to
+             check them, through one library so the two never disagree on a hash, a field or the
+             mapping between the model's JSON and a result file. A plain class library on purpose:
+             AgentRunner is a Web SDK exe and DocIntegrity a console tool, and neither can
+             reference the other. -->
+    </PropertyGroup>
+
+</Project>

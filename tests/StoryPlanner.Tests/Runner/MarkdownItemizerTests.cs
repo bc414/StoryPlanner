@@ -1,15 +1,16 @@
-using StoryPlanner.AgentRunner;
+using StoryPlanner.BatchFiles;
+using StoryPlanner.MarkdownItemizer;
 using Xunit;
 
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// The unit rule is an instrument: the same document must split into the same numbered
-/// units every time, and the rule's edge cases (frontmatter, nested lists, fenced blocks,
-/// tables, headings) are pinned here so a change to the splitter is visible as a changed
-/// count, never as silently different items.
+/// The unit rule is a tool: the same document must split into the same numbered units every
+/// time, and the rule's edge cases (frontmatter, nested lists, fenced blocks, tables,
+/// headings) are pinned here so a change to the splitter is visible as a changed count,
+/// never as silently different items. The item body carries the section and the text, no id.
 /// </summary>
-public class UnitSplitterTests
+public class MarkdownItemizerTests
 {
     private const string Doc = """
         ---
@@ -79,18 +80,24 @@ public class UnitSplitterTests
     }
 
     [Fact]
-    public void Same_document_splits_identically_and_items_carry_locus_and_text_verbatim()
+    public void Same_document_splits_identically_and_items_carry_the_section_and_text_verbatim_with_no_id()
     {
         var a = UnitSplitter.Split(Doc);
         var b = UnitSplitter.Split(Doc);
         Assert.Equal(a.Select(u => u.Text), b.Select(u => u.Text));
 
         var item = UnitSplitter.RenderItem(a[3]);
-        Assert.Equal("Unit: unit-004\nSection: ## Section one\n\n- first item\n", item);
+        Assert.Equal("Section: ## Section one\n\n- first item\n", item);
+        Assert.DoesNotContain("unit-004", item);
         Assert.Equal("first item", a[3].FirstLine);
+        Assert.Equal("4 in ## Section one", UnitSplitter.Locator(a[3]));
 
-        var manifest = UnitSplitter.RenderManifest("sample.md", "abc", a);
-        Assert.Contains("| unit-004 | ## Section one | first item |", manifest);
-        Assert.Contains("11 units", manifest);
+        var index = IndexFile.Parse(IndexFile.Render("01-audit", "tools/StoryPlanner.MarkdownItemizer, 1, sample.md", "skill", "n in heading",
+            Hashing.Sha256Hex(Doc), a.Select(u => (u.Id, UnitSplitter.Locator(u), UnitSplitter.Description(u)))));
+        Assert.Empty(index.Problems);
+        Assert.Equal(11, index.Rows.Count);
+        Assert.Equal("skill", index.Corpus);
+        Assert.Equal("4 in ## Section one", index.Rows[3].Locator);
+        Assert.Equal(64, index.SourceHash!.Length);
     }
 }
