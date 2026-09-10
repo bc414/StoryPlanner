@@ -113,6 +113,39 @@ public class EngineTests
         Assert.Empty(ShapeReader.Parse("no tables here").Sections);
     }
 
+    /// <summary>
+    /// The two silences found at the 2026-09-09 review of the run: a field table no section
+    /// claims passed and was never used, and an entries section whose table was forgotten
+    /// silently became one-line entries. Both are now the schema's problem, and a `###` entry
+    /// under a one-line section is the file's.
+    /// </summary>
+    [Fact]
+    public void An_unclaimed_table_and_a_fixture_with_headed_entries_under_a_tableless_section_are_problems()
+    {
+        // One extra table is claimed by the Classes entries section (the grammar working); two leave one over.
+        var extra = ShapeReader.Parse(TwoTables + "\n\n" + """
+            | key | present | type | value |
+            |---|---|---|---|
+            | `label` | required | line | a table Classes claims |
+
+            | key | present | type | value |
+            |---|---|---|---|
+            | `orphan` | required | line | a table for no section |
+            """);
+        Assert.Single(extra.Problems);
+        Assert.Contains("no section claims", extra.Problems[0]);
+        Assert.Contains("line ", extra.Problems[0]);
+
+        var shape = ShapeReader.Parse(TwoTables);
+        Assert.Empty(ShapeReader.FixtureProblems(shape, "# t\n\n## Classes\n\n- a: one\n- b: two\n"));
+        var problems = ShapeReader.FixtureProblems(shape, "# t\n\n## Classes\n\n### a\n\n- x: 1\n");
+        Assert.Single(problems);
+        Assert.Contains("'Classes'", problems[0]);
+
+        var doc = DocumentReader.Read(shape, "---\nquestions: q/a\n---\n\n## Given\n\ntext\n\n## Classes\n\n### a\n\n- x: 1\n\n## Produce\n\n- f: line, the kind\n");
+        Assert.Contains(doc.Problems, p => p.Kind == ProblemKind.Form && p.Section == "Classes" && p.Message.Contains("one-line entries"));
+    }
+
     [Fact]
     public void A_document_maps_to_one_object_by_the_shape_and_the_standard_validator_names_what_fails()
     {

@@ -215,6 +215,26 @@ their own. On 2026-09-05 three pure-tier tests timed out because the real cache 
 81% against the default cap of 80 — a test whose outcome depends on the developer's
 subscription window that hour is not a pure test, however green it usually runs.
 
+## One billed test, gated: the runner's smoke test (2026-09-09)
+
+`Runner/SmokeTest.cs` is in neither tier. It builds a one-item batch in a temporary folder
+and runs it through the real Claude Code CLI, which spends a call, needs the CLI logged in,
+and depends on a program outside the repo whose output shape changes every few weeks. It
+runs only when `STORYPLAN_RUNNER_SMOKE` is set; otherwise it returns at once and writes
+"not run" to the test output (this xunit has no skip-at-runtime). Its purpose is the one
+thing the fake launcher cannot prove: that the harness still accepts the call's flags, still
+enforces `--json-schema`, and still puts the answer in `structured_output`.
+
+- A session that changes the call (`Batch.cs`), the stream reader or the result capture runs
+  it once, `STORYPLAN_RUNNER_SMOKE=1 dotnet test tests/StoryPlanner.Tests`, and reports the
+  result to Brian, who does not run tests himself. An ordinary `dotnet test` never bills.
+- Once studies exist, the method's pilot (the first `execute-batch --item` of a real batch)
+  is the better proof, since its result gets read; the smoke test is for a change between
+  studies, when no batch exists to pilot and a scratch batch outside `studies/` is not
+  allowed.
+- Never add a second test that bills or reaches outside the repo without the same gate and
+  the same "not run" line, and never make the gate default on.
+
 ## Running
 
 ```
@@ -239,4 +259,5 @@ listener on a free port (`RunnerHostApiTests`) with no extra package.
 No assertion library beyond xUnit's — the suite is small and `Assert` is adequate; adding
 FluentAssertions later is fine but don't mix styles within a file.
 
-Folders mirror the tiers: `Fixtures/`, `Core/`, `Mcp/`, `Runner/` (pure + RazorComponents).
+Folders mirror the tiers: `Fixtures/`, `Core/`, `Mcp/`, `Runner/` (pure + RazorComponents,
+plus the one gated smoke test above).

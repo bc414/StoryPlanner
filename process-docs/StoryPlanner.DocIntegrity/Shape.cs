@@ -189,6 +189,10 @@ public static class ShapeReader
         foreach (var i in Enumerable.Range(0, rows.Count).Where(i => rows[i].Holds == Holds.Table))
             if (Claim(true) is { } ft) claimed[i] = ft;
             else problems.Add($"line {rows[i].Row.Line}: a section that holds a table has no column table");
+        // A table no section claimed is a section's fields that will never be checked: a sections
+        // row forgotten, or one table too many. Silent before 2026-09-09.
+        foreach (var t in fieldTables.Where(t => !claimed.ContainsValue(t)))
+            problems.Add($"line {t.Line}: a {(t.IsColumns ? "column" : "field")} table no section claims; the sections that hold {(t.IsColumns ? "a table" : "fields or entries")} are all served");
 
         var sections = new List<ShapeSection>();
         for (var i = 0; i < rows.Count; i++)
@@ -264,6 +268,32 @@ public static class ShapeReader
                 problems.Add($"line {line}: present '{cell}' is not required or optional");
                 return (true, multiple);
         }
+    }
+
+    /// <summary>
+    /// What the schema's own fixture says against its Shape: an entries section with no field
+    /// table holds one-line entries, so a fixture that shows <c>###</c> entries there means the
+    /// table was forgotten, and the class's entries would never have their keys checked.
+    /// </summary>
+    public static IReadOnlyList<string> FixtureProblems(Shape shape, string fixture)
+    {
+        var problems = new List<string>();
+        var lines = fixture.Replace("\r\n", "\n").Split('\n');
+        foreach (var s in shape.Sections.Where(s => s.Holds == Holds.Entries && s.Fields is null))
+        {
+            // The section's lines up to the next `##` (a `###` is an entry, not a section end).
+            IEnumerable<string> slice = lines;
+            if (s.Kind == SectionKind.Heading)
+            {
+                var open = Array.FindIndex(lines, l => l.StartsWith("## ", StringComparison.Ordinal) && s.Matches(l[3..].Trim()));
+                if (open < 0) continue;
+                var close = Array.FindIndex(lines, open + 1, l => l.StartsWith("## ", StringComparison.Ordinal) || l.StartsWith("# ", StringComparison.Ordinal));
+                slice = lines.Skip(open + 1).Take((close < 0 ? lines.Length : close) - open - 1);
+            }
+            if (slice.Any(l => l.StartsWith("### ", StringComparison.Ordinal)))
+                problems.Add($"line {s.Line}: '{s.Name}' holds entries with no field table, so one-line entries, but the Example's fixture shows `###` entries there");
+        }
+        return problems;
     }
 
     static FieldTable ReadFields(MarkdownTable t, bool columns, List<string> problems)

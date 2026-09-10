@@ -155,12 +155,24 @@ public static class Validator
             var shape = ShapeReader.Parse(shapeText);
             foreach (var problem in shape.Problems)
                 findings.Add(Finding.Fail("schema.fields", schema, $"{folder}/{schema}.md: {problem}"));
+            foreach (var problem in ShapeReader.FixtureProblems(shape, FirstFenced(StateBuilder.Section(text, "Example"))))
+                findings.Add(Finding.Fail("schema.fields", schema, $"{folder}/{schema}.md: {problem}"));
             var schemaIds = doc.Artifacts.Select(a => a.Schema).Where(s => s.Length > 0).ToHashSet(StringComparer.Ordinal);
             foreach (var (_, field, type) in shape.References())
                 if (type.TargetClass is { } target && !artifactIds.Contains(target) && !schemaIds.Contains(target + SkillReader.SchemaSuffix))
                     findings.Add(Finding.Fail("schema.fields", schema,
                         $"{folder}/{schema}.md: line {field.Line}: '{field.Key}' references the class '{target}', which no Artifacts row declares by id or by schema"));
         }
+    }
+
+    /// <summary>The Example's first fenced block, the fixture; empty when there is none.</summary>
+    static string FirstFenced(string text)
+    {
+        var lines = text.Replace("\r\n", "\n").Split('\n');
+        var open = Array.FindIndex(lines, l => l.TrimStart().StartsWith("```", StringComparison.Ordinal));
+        if (open < 0) return "";
+        var close = Array.FindIndex(lines, open + 1, l => l.TrimStart().StartsWith("```", StringComparison.Ordinal));
+        return string.Join('\n', lines.Skip(open + 1).Take((close < 0 ? lines.Length : close) - open - 1));
     }
 
     // ---- closed sets ----

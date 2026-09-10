@@ -221,7 +221,7 @@ Gives the referee a source.
 | `ref.companion` | an activity but the terminus has no `<id>.md` |
 | `ref.schema` | a schema cell is not a link, its text is not a slug ending in `-schema`, is an artifact id, points at a file other than the one its text names, or names no file |
 | `schema.shape` | a schema file's title is not `# <its id>` |
-| `schema.fields` | a schema file in the four-section shape has a Shape outside the grammar: no sections table with the columns section, present, holds; a field or column table without the columns key or column, present, type, value; a present value other than required or optional; a holds value outside the five; a type outside the vocabulary, or a reference type naming a class no row declares |
+| `schema.fields` | a schema file in the four-section shape has a Shape outside the grammar: no sections table with the columns section, present, holds; a field or column table without the columns key or column, present, type, value; a present value other than required or optional; a holds value outside the five; a type outside the vocabulary; a reference type naming a class no row declares; a field or column table no section claims; or an entries section with no field table whose Example fixture shows `###` entries |
 | `row.mode-count`, `enum.mode`, `enum.state`, `enum.mutation` | a mode cell holds other than one value, or a mode, state or mutation is outside its set |
 | `row.reads-empty`, `row.writes-empty` | a process reads nothing (instruments that are artifacts count) or writes nothing |
 | `row.hitl-writes-nothing` | an hitl process writes nothing |

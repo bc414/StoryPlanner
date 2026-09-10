@@ -318,6 +318,13 @@ public static class DocumentReader
             var m = LineEntry.Match(l);
             if (m.Success) { if (current is not null) arr.Add(current); current = m.Groups["t"].Value.Trim(); continue; }
             if (l.StartsWith("  ", StringComparison.Ordinal) && current is not null) { current += "\n" + l.Trim(); continue; }
+            if (l.StartsWith("### ", StringComparison.Ordinal))
+            {
+                // The schema declares one-line entries here (an entries section with no field
+                // table); a `###` entry means the schema and the file disagree about the form.
+                problems.Add(new EngineProblem(section, null, ProblemKind.Form, $"line {firstLine + i}: a `###` entry in a section whose schema holds one-line entries (an entries section with no field table)", firstLine + i));
+                continue;
+            }
             problems.Add(new EngineProblem(section, null, ProblemKind.Stray, $"line {firstLine + i}: not an entry line", firstLine + i));
         }
         if (current is not null) arr.Add(current);
