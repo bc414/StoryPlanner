@@ -2166,3 +2166,31 @@ rules names the old id in prose.
   d-2026-09-07-34 keeps the old id as a record.
 - not taken: leaving the asymmetry; `findings-artifact` for the mirror, a suffix the
   vocabulary has emptied.
+
+### reviewing-findings enables only refereeing-candidates; an enables edge is a forward handoff, not a re-entry
+
+- id: d-2026-09-10-1
+- date: 2026-09-10
+- supersedes: d-2026-09-09-17
+- raised by: Brian, on the run's writes: "I agree that there shouldn't be a loop in the
+  DAG. Why was it suggested to add that dependency? What do the edges in the DAG really
+  mean?" d-2026-09-09-17 gave reviewing-findings two enabled activities,
+  refereeing-candidates and preparing-to-verify-a-corpus; the second closes a cycle,
+  preparing-to-verify → verifying-a-corpus → reviewing-findings → preparing-to-verify,
+  which the checker's DAG rule refused, so the edge never shipped and the entry alone
+  carried it.
+- decision: An enables edge X → Y means a process of X writes an artifact a process of Y
+  reads to carry one line of work a step further toward the terminus; enables.unbacked
+  guards the floor, an edge with no data flow is an error, and the acyclic-DAG rule the
+  ceiling, the pipeline produces forward toward one terminus. A data flow that would
+  close a cycle is a re-entry, the same corpus going round again as a new study, carried
+  by the standing, append question list and described in prose, never an edge; otherwise
+  every question-writing activity, ask, promote and the plan rows, would enable
+  preparing, and none does. reviewing-findings enables refereeing-candidates alone. What
+  stands of d-2026-09-09-17: the activity, its row review-findings, its reads, its writes
+  and its procedure; only the preparing edge is dropped, its work now the prose that a
+  shortcoming sends the study back through preparing, the loop the exploration side
+  already runs without an edge.
+- not taken: the DAG rule yielding for re-entry edges, which makes the pipeline topology
+  unreadable and every shared-artifact write a candidate edge; leaving -17's clause
+  standing against a skill that never had the edge.
