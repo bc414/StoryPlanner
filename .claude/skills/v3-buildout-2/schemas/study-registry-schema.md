@@ -20,8 +20,8 @@ carries one only when the corpus is explored again under a different reading; an
 `audit-of-<slug>`, its corpus the skill. No ordinal. `type` ∈ `verification | exploration
 | audit` is the one the id's prefix names, and names the chain: exploration runs
 preparing-to-explore-a-corpus, exploring-a-corpus and reviewing-leads; verification runs
-preparing-to-verify-a-corpus, verifying-a-corpus, writing-candidates-from-verification,
-refereeing-a-candidate and promoting-checked-candidates; audit runs revising-the-method.
+preparing-to-verify-a-corpus, verifying-a-corpus, reviewing-findings,
+refereeing-candidates and promoting-refereed-candidates; audit runs revising-the-method.
 `corpus` is a name from `CORPORA.md`, `verified-artifacts` for a study over the buildout's
 own outputs, or `skill` for an audit. The referee is no study: its directions and
 calibrations sit in `docs/v3-framework/referee/` and its batches under the verifications

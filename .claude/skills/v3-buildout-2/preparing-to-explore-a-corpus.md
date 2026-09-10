@@ -6,8 +6,8 @@ Enables exploring-a-corpus.
 |---|---|---|---|---|---|---|
 | explore-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the scale, one item or slices, the questions in view, the model and effort; the plan approved is his go and the study is registered; his opening question written into the list if the corpus has none |
 | author-exploration-directions | hitl | | question-list corpus directions | directions | specified | The directions written with Brian against the corpus: what one item is, how to read with the questions in view, what to produce as entries; a new numbered version each time |
-| pilot-run | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer; dry-run-batch; for slices, execute-batch naming one item, whose result Brian reads before the rest run |
-| pilot-read | agent | | directions items | results | specified | The pilot's call, one slice under the directions; the only writer of its result |
+| assemble-exploration-batch | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer; dry-run-batch; for slices, execute-batch naming one item, the pilot, whose result Brian reads before the rest run |
+| explore-pilot-item | agent | | directions items | results | specified | The pilot's call, one slice read discovery-first under the directions; the only writer of its result |
 
 ## Preconditions
 
@@ -33,7 +33,7 @@ frontmatter cites by token, what to produce as entries, and what never to do. A 
 numbered file under the study; a one-item exploration has directions all the same, so that
 a repeat under another model cites the same file.
 
-## pilot-run
+## assemble-exploration-batch
 
 The batch folder under the study, `batches/<nn>-<slug>/`, its definition naming the
 directions by path, the study's model and effort, and the MCP server when the item is what
@@ -46,10 +46,10 @@ sends back are a new version and a new batch, since a definition is never edited
 one-item batch needs no pilot: its one call is the exploration, and exploring-a-corpus
 runs it.
 
-## pilot-read
+## explore-pilot-item
 
 Instructed by the directions body as its system prompt and nothing else; one slice in,
-one lead set out in the declared entries.
+read discovery-first with the questions in view; one lead set out in the declared entries.
 
 ## Never
 

@@ -1,15 +1,15 @@
 # preparing-to-verify-a-corpus
 
-Enables verifying-a-corpus and refereeing-a-candidate.
+Enables verifying-a-corpus and refereeing-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
 | verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix what one item is, which questions the directions will freeze, the model and effort, and what the calibration sample spans; the plan approved is his go and the study is registered; a repeat under unchanged directions is the whole activity |
 | itemize | session | dotnet tool-source | corpus | index items | specified | Build or pick the itemizer tool with tests and run it once into the calibration batch: the index and the item bodies |
 | author-directions | hitl | | question-list items directions | directions | specified | The directions written against real items with Brian: what the call is given, the classes, the criteria, what to produce; a new numbered version each time |
-| calibrate-run | session | runner | directions index | definition calls | specified | The calibration batch, kind sample: its definition written under the draft version; dry-run-batch, execute-batch under the host; this is the directions' pilot, and its results are withheld from Brian until he has scored |
-| calibrate-judge | agent | | directions items | results | specified | A call applies the draft directions to one sample item; the only writer of the sample's results |
-| calibrate | hitl | | index items results directions | calibration directions | specified | Brian scores the sample blind; the two scorings are compared; he rules each disagreement; a ruling that changes a criterion is a new version; the calibration is written, accepting or not |
+| assemble-sample-batch | session | runner | directions index | definition calls tally | specified | The calibration batch, kind sample: its definition written under the draft version; dry-run-batch; execute-batch as the hand-off, after which the host calls every sample item and writes the tally; this is the directions' pilot, and its results are withheld from Brian until he has scored |
+| assess-sample-items | agent | | directions items | results | specified | One call per sample item under the draft directions, the answer in the declared fields; the only writer of the sample's results |
+| calibrate | hitl | | index items results tally directions | calibration directions | specified | Brian scores the sample blind; the two scorings are compared against the tally; he rules each disagreement; a ruling that changes a criterion is a new version; the calibration is written, accepting or not |
 
 ## Preconditions
 
@@ -29,7 +29,7 @@ it, and asks Brian, batched four per call, what one item is for this corpus, whi
 questions the directions will freeze, the model and effort, and what the calibration
 sample should span. It writes the plan naming those, the itemizer to build or reuse, and
 what the verification will not do; the plan is written against the chain's activity files,
-from verifying-a-corpus to promoting-checked-candidates, read whole here rather than each
+from verifying-a-corpus to promoting-refereed-candidates, read whole here rather than each
 at its own start, since it names what each of them will do for this study. Brian approves.
 The session appends the study to `studies.md` with the date as his go, and writes any
 question he raised here into the list.
@@ -61,16 +61,16 @@ of Brian, and a suggested test is never carried into the directions unexamined. 
 numbered file under the study, or in the referee folder; the previous version, if any,
 stays on disk.
 
-## calibrate-run
+## assemble-sample-batch
 
 The sample of the items, drawn as the plan said, stratified by expected class, with a
 held-out split named in advance, is the calibration batch's index, cut by the itemizer.
 Its definition is of kind sample, naming the draft version by path and no calibration. Per
-the `agent-runner` skill: dry-run-batch, then execute-batch under the host, one call per
-sample item. This is the directions' pilot. The results are withheld from Brian until he
-has scored.
+the `agent-runner` skill: dry-run-batch, then execute-batch, the hand-off; the host calls
+every sample item and writes the tally when the last has a result. This is the directions'
+pilot. The results are withheld from Brian until he has scored.
 
-## calibrate-judge
+## assess-sample-items
 
 Instructed by the draft directions body as its system prompt and nothing else; one sample
 item in, one answer out in the declared fields.
@@ -84,7 +84,7 @@ disagreement Brian rules; a ruling that changes a criterion edits the directions
 new version, the ruling stated generally as a criterion, the item it came from staying in
 the calibration file. The session writes the calibration beside the version it judged,
 titled with that version's body hash and citing the batch by token. If any ruling changed
-the criteria, calibrate-run repeats on the sample under the new version, a new batch; when
+the criteria, assemble-sample-batch repeats on the sample under the new version, a new batch; when
 Brian accepts the agreement, the calibration's verdict says so, and the version is
 calibrated at that hash. Nothing in the directions says so, since any line of the body is
 part of the hash.

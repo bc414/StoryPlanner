@@ -5,8 +5,8 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
 | revise | hitl | DocIntegrity git | skill runner-skill map state revision-note decisions results tally | skill runner-skill decisions revision-note map studies directions | built | Brian decides, the session edits the skill's tables and prose in place under the hook, each decision is written as it lands; for a rewrite the audit study is registered and its directions authored here, its tally adjudicated with him; the note is written once at the end |
-| audit-run | session | runner tool-source | skill directions results | definition index items calls tally | specified | The second lint, after the validator, for a rewrite: the prior text cut into units by the Markdown itemizer into a batch of the audit study, one call per unit against the new folder; dry-run-batch, execute-batch, tally-batch |
-| audit-judge | agent | | directions items | results | specified | One unit against the new folder under the directions' three questions; the only writer of results |
+| assemble-audit-batch | session | runner tool-source | skill directions results | definition index items calls tally | specified | The second lint, after the validator, for a rewrite: the prior text cut into units by the Markdown itemizer into a batch of the audit study, its definition written; dry-run-batch; execute-batch as the hand-off, one call per unit against the new folder, the tally written by the host at completion |
+| assess-audit-items | agent | | directions items | results | specified | One unit against the new folder under the directions' three questions, the answer in the declared fields; the only writer of results |
 
 ## Preconditions
 
@@ -100,7 +100,7 @@ Two lints gate a revision. The first is structure: the write hook runs `check`
 regenerates `map.md` and `state.md` on a pass; a failure is fixed before the next edit. The
 second is content, and it runs only for a revision that rewrites the skill wholesale: every
 unit of the prior text
-is judged against the new folder by `audit-run` and `audit-judge` under an audit study,
+is judged against the new folder by `assemble-audit-batch` and `assess-audit-items` under an audit study,
 `audit-of-<slug>`, whose corpus is the skill, registered here at Brian's go with its
 directions authored here, and the session
 adjudicates the tally with Brian. Each unit the audit reports narrowed, reversed or absent
@@ -118,7 +118,7 @@ step; the note lands with the last. A revision that replaces the skill wholesale
 revision 2 did, is built in a sibling folder and swapped in one commit when both lints have
 run; a revision that changes rows is made in place.
 
-## audit-run
+## assemble-audit-batch
 
 Per the `agent-runner` skill, under the audit study `revise` registered. The prior text —
 the whole old skill folder, and any page of method text the revision retires outside it —
@@ -129,12 +129,13 @@ authored in `revise`, carry the three questions and every file of the new folder
 the skills it delegates to as the text the units are judged against, since a call has
 only the directions and its item; the batch's definition names them by path. Dry-run-batch;
 execute-batch naming one unit of the section the revision changed most, its result read
-by Brian; execute-batch; tally-batch, which counts verdicts per class and flags malformed
-results. `decisions.md` never enters the directions: intent is applied at adjudication,
+by Brian; execute-batch, after which the host calls every unit and writes the tally, verdicts
+per class and the malformed named, when the last has a result. `decisions.md` never enters
+the directions: intent is applied at adjudication,
 never given to the auditor. The directions hold no text the revision retires, since a
 retired file among them lets its own text pass as preserved.
 
-## audit-judge
+## assess-audit-items
 
 Instructed by the audit's directions body as its system prompt and nothing else; Sonnet
 by default; no tools; no MCP. Given one unit, it answers the three questions in the

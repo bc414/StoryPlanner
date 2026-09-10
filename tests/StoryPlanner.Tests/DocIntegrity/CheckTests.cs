@@ -90,7 +90,7 @@ public class CheckTests
         var noRow = result.Report.Findings.Where(x => x.CheckId == "check.no-row").ToList();
         Assert.All(noRow, x => Assert.Equal(FindingLevel.Info, x.Level));
         Assert.Contains(noRow, x => x.RowId == WellKnown.HypothesisIndex);
-        Assert.Contains(noRow, x => x.RowId == WellKnown.LeadsArtifact);
+        Assert.Contains(noRow, x => x.RowId == WellKnown.Leads);
         Assert.DoesNotContain(noRow, x => x.RowId == WellKnown.Studies);
     }
 

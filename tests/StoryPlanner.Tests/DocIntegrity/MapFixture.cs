@@ -23,14 +23,14 @@ namespace StoryPlanner.Tests;
 public sealed class MapFixture : IDisposable
 {
     public const string SkillFile = "SKILL.md";
-    public const string RefereeingFile = "refereeing-a-candidate.md";
-    public const string PromotingFile = "promoting-checked-candidates.md";
+    public const string RefereeingFile = "refereeing-candidates.md";
+    public const string PromotingFile = "promoting-refereed-candidates.md";
     public const string Study = "verification-of-analysis-corpus-dt-classes";
     public const string Batch = "01-full";
     public const string OpenQuestion = "does-the-dt-class-split";
 
     public static readonly string[] SchemaIds =
-        ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "candidate-schema", "directions-schema", "definition-schema", "index-schema"];
+        ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "candidate-schema", "directions-schema", "definition-schema", "index-schema", "findings-schema"];
 
     public string RepoRoot { get; }
     public string SkillFolder { get; }
@@ -201,17 +201,28 @@ public sealed class MapFixture : IDisposable
 
             """);
 
-        File.WriteAllText(Path.Combine(StudyDir, "verification.md"), $"""
-            # {Study}
+        File.WriteAllText(Path.Combine(StudyDir, "findings.md"), $"""
+            # {Study} — findings
 
             ## Method
-            the method
 
-            ## Questions answered
-            - analysis-corpus/{OpenQuestion}
+            Nothing about links was measured.
 
-            ## Counts
-            the counts
+            ## Findings
+
+            ### {Study}/the-first-finding
+            - question: analysis-corpus/{OpenQuestion}
+            - finding: Of the notes, most are class a.
+            - cites:
+              - {Study}/{Batch} § class
+              - {Study}/{Batch}/item-001
+
+            ### {Study}/a-withdrawn-one
+            - question: analysis-corpus/an-old-one
+            - finding: Something that did not hold.
+            - cites:
+              - {Study}/{Batch}/item-001
+            - withdrawn: 2026-09-22 the item shows otherwise
 
             """);
 
@@ -299,7 +310,7 @@ public sealed class MapFixture : IDisposable
         | candidates | docs/v3-framework/studies/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
         | directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls |
         | calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | | One version's agreement |
-        | verification-artifact | docs/v3-framework/studies/<study>/verification.md | append | | One verification's method and counts |
+        | findings | docs/v3-framework/studies/<study>/findings.md | append | [findings-schema](schemas/findings-schema.md) | One verification's findings |
         | definition | docs/v3-framework/studies/<study>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under |
         | index | docs/v3-framework/studies/<study>/batches/<batch>/index.md | frozen | [index-schema](schemas/index-schema.md) | The items a batch judges |
         | items | docs/v3-framework/studies/<study>/batches/<batch>/items/ | frozen | | The item bodies |
@@ -320,8 +331,8 @@ public sealed class MapFixture : IDisposable
         | id | enables | description |
         |---|---|---|
         | changing-the-planner-for-v3 | | The terminus: out of scope, owns no processes |
-        | promoting-checked-candidates | changing-the-planner-for-v3 | Brian decides the referee-checked candidates |
-        | refereeing-a-candidate | promoting-checked-candidates | A blind agent classifies each candidate |
+        | promoting-refereed-candidates | changing-the-planner-for-v3 | Brian decides the refereed candidates |
+        | refereeing-candidates | promoting-refereed-candidates | A blind agent classifies each candidate |
 
         """ + ArtifactsSection + """
         ## Companions
@@ -330,29 +341,29 @@ public sealed class MapFixture : IDisposable
         """;
 
     public const string Refereeing = """
-        # refereeing-a-candidate
+        # refereeing-candidates
 
-        Enables promoting-checked-candidates.
+        Enables promoting-refereed-candidates.
 
         | id | mode | instruments | reads | writes | state | description |
         |---|---|---|---|---|---|---|
-        | referee-run | session | runner | studies calibration directions candidates | definition index items | specified | The batch under the host |
-        | referee-judge | agent | | directions items | results | specified | Writes the falsifier blind |
-        | referee-append | session | | definition index results candidates | candidates | specified | Copies each verdict under its candidate |
+        | assemble-referee-batch | session | runner | studies calibration directions candidates | definition index items | specified | The batch assembled and handed off |
+        | assess-referee-items | agent | | directions items | results | specified | Writes the falsifier blind |
+        | append-verdicts | session | | definition index results candidates | candidates | specified | Copies each verdict under its candidate |
 
         ## Preconditions
 
         The referee's directions are calibrated.
 
-        ## referee-run
+        ## assemble-referee-batch
 
-        Runs the batch.
+        Assembles the batch.
 
-        ## referee-judge
+        ## assess-referee-items
 
-        Judges one item.
+        Assesses one item.
 
-        ## referee-append
+        ## append-verdicts
 
         Appends the lines.
 
@@ -362,13 +373,13 @@ public sealed class MapFixture : IDisposable
         """;
 
     public const string Promoting = """
-        # promoting-checked-candidates
+        # promoting-refereed-candidates
 
         Enables changing-the-planner-for-v3.
 
         | id | mode | instruments | reads | writes | state | description |
         |---|---|---|---|---|---|---|
-        | promote | hitl | git | candidates hypothesis-record hypothesis-status question-list verification-artifact | hypothesis-record hypothesis-status candidates question-list verification-artifact | specified | Brian decides each candidate |
+        | promote | hitl | git | candidates findings hypothesis-record hypothesis-status question-list | hypothesis-record hypothesis-status candidates question-list | specified | Brian decides each candidate |
 
         ## Preconditions
 

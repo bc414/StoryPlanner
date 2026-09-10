@@ -20,15 +20,15 @@ public class SkillReaderTests
         Assert.Equal(4, doc.Processes.Count);
         Assert.Equal(12, doc.Artifacts.Count);
 
-        var judge = doc.Processes.Single(p => p.Id == "referee-judge");
-        Assert.Equal("refereeing-a-candidate", judge.Activity);
+        var judge = doc.Processes.Single(p => p.Id == "assess-referee-items");
+        Assert.Equal("refereeing-candidates", judge.Activity);
         Assert.Equal("agent", judge.Mode);
         Assert.Empty(judge.Instruments);
         Assert.Equal(["directions", "items"], judge.Reads);
         Assert.Equal(["results"], judge.Writes);
         Assert.Equal(MapFixture.RefereeingFile, judge.File);
 
-        var promoting = doc.Activities.Single(a => a.Id == "promoting-checked-candidates");
+        var promoting = doc.Activities.Single(a => a.Id == "promoting-refereed-candidates");
         Assert.Equal(["changing-the-planner-for-v3"], promoting.Enables);
         Assert.Empty(doc.Activities.Single(a => a.Id == "changing-the-planner-for-v3").Enables);
     }
@@ -39,7 +39,7 @@ public class SkillReaderTests
         using var f = MapFixture.Without(MapFixture.PromotingFile);
         var doc = f.Doc;
         Assert.Equal(3, doc.Activities.Count);
-        Assert.Empty(doc.ProcessesOf("promoting-checked-candidates"));
+        Assert.Empty(doc.ProcessesOf("promoting-refereed-candidates"));
     }
 
     [Fact]

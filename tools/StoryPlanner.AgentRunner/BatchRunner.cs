@@ -198,7 +198,29 @@ public sealed class BatchRunner
         {
             Completed = true;
             _log($"[{Id}] {(ct.IsCancellationRequested ? "stopped" : StopRequested ? "stopped after in-flight" : "complete")} — {_launched} call(s) this execution");
+            WriteTallyIfComplete();
             Changed?.Invoke();
+        }
+    }
+
+    /// <summary>
+    /// The host writes the tally when the last item has a successful call and never again
+    /// (decisions.md, "the host writes the tally at completion"): no session step to forget,
+    /// and every batch's tally has the same shape. A pilot, or an execution that left items
+    /// unanswered, writes none.
+    /// </summary>
+    private void WriteTallyIfComplete()
+    {
+        try
+        {
+            if (File.Exists(Batch.Definition.TallyPath)) return;
+            if (!Batch.Items.All(HasSucceeded)) return;
+            var (ok, message) = Tally.Write(Batch);
+            _log($"[{Id}] {(ok ? "tally written — " + message : message)}");
+        }
+        catch (Exception ex) when (ex is IOException or UnauthorizedAccessException or FormatException)
+        {
+            _log($"[{Id}] tally not written: {ex.Message}; run tally-batch on the definition");
         }
     }
 

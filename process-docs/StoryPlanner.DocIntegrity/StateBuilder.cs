@@ -13,7 +13,7 @@ namespace StoryPlanner.DocIntegrity;
 ///   placeholders as wildcards), its batches with their kind and whether executed and
 ///   tallied, and the furthest process in chain order whose study-scoped writes all exist;
 /// - per corpus, the open questions, each with the calibrated directions versions whose
-///   frontmatter names it and the verifications whose <c>verification.md</c> answered it;
+///   frontmatter names it and the verifications whose standing findings name it;
 /// - per hypothesis, the frontmatter status as authored, the status its entries after the last
 ///   <c>iteration</c> line imply, and the open questions naming it.
 ///
@@ -31,8 +31,8 @@ public static class StateBuilder
         ["preparing-to-explore-a-corpus", "exploring-a-corpus", "reviewing-leads"];
 
     static readonly string[] VerificationChain =
-        ["preparing-to-verify-a-corpus", "verifying-a-corpus", "writing-candidates-from-verification",
-         "refereeing-a-candidate", "promoting-checked-candidates"];
+        ["preparing-to-verify-a-corpus", "verifying-a-corpus", "reviewing-findings",
+         "refereeing-candidates", "promoting-refereed-candidates"];
 
     static readonly string[] AuditChain = ["revising-the-method"];
 
@@ -368,18 +368,15 @@ public static class StateBuilder
 
     sealed record Verification(string Study, IReadOnlyList<string> Questions);
 
+    /// <summary>A question is answered when a standing finding names it (d-2026-09-09-16): read from every findings file the table locates.</summary>
     static IReadOnlyList<Verification> ReadVerifications(string repoRoot, SkillDocument doc)
     {
-        var row = doc.Artifact(WellKnown.VerificationArtifact);
+        var row = doc.Artifact(WellKnown.Findings);
         if (row is null || !ArtifactPath.TryParse(row.Path, out var path, out _)) return [];
         var result = new List<Verification>();
         foreach (var file in Matches(repoRoot, path!, null, null))
         {
-            var questions = Section(File.ReadAllText(file), "Questions answered")
-                .Replace("\r\n", "\n").Split('\n')
-                .Select(l => l.Trim().TrimStart('-', '*').Trim())
-                .Where(l => l.Length > 0)
-                .ToList();
+            var questions = FindingsChecker.AnsweredQuestions(File.ReadAllText(file));
             var study = Path.GetFileName(Path.GetDirectoryName(file)!)!;
             result.Add(new Verification(study, questions));
         }

@@ -25,8 +25,9 @@ AgentRunner.exe stop [--now]                              stop the host after in
 AgentRunner.exe dry-run-batch <definition.md> [--item ID] compose every call in memory, write nothing (serverless)
 AgentRunner.exe execute-batch <definition.md> [--item ID] [--at HH:mm|ISO|reset]
                                                           one call per item without a result; --item names the pilot
-AgentRunner.exe tally-batch   <definition.md> [--flag field=value]... [--group-by item|locator|description]
-                                                          write tally.md once (serverless)
+AgentRunner.exe tally-batch   <definition.md> [--group-by item|locator|description]
+                                                          print tally.md, writing it first if the host never did
+                                                          (serverless); --group-by prints a cross-tab view, writes nothing
 ```
 
 `AgentRunner.exe` is `tools/StoryPlanner.AgentRunner/publish/StoryPlanner.AgentRunner.exe`.
@@ -105,7 +106,8 @@ batches/03-scene-notes/
   calls.md           written by the runner: the definition's hash at its head, then one entry
                      per call (below), appended and never edited
   results/<item>.md  the model's answer as the runner rendered it, one file per item, frozen
-  tally.md           written once by tally-batch
+  tally.md           written once by the host when the last item has a successful call; by
+                     tally-batch only when the host never did
   attempts/<item>/call-<n>/   system-prompt.md, item.md, stream.jsonl — local only
 ```
 
@@ -141,7 +143,8 @@ execution. The head's `- definition: <hash>` is what `definition.frozen` holds t
 | an item's result | `results/<item>.md`, cited as `<study>/<batch>/<item>` |
 | which call produced a result | the item's last entry in `calls.md` with `check: ok`; its `directions hash` is the version the result was judged under |
 | the directions version a batch ran under | the definition's `directions` line; the body hash in any entry of `calls.md` |
-| every result of one class | `grep -l '^- <field>: <value>' results/*.md`, or `tally.md`'s counts and `--flag` table |
+| every result of one class | `grep -l '^- <field>: <value>' results/*.md`; the count is in `tally.md` § `<field>` |
+| the classes per story, section or subject | `tally-batch <definition.md> --group-by locator` (or `description`, `item`): a printed cross-tab, never written |
 | the malformed and the missing | `tally.md` § Malformed and § Missing; `check .` for `results.declared` |
 | what was watched inside a call | `attempts/<item>/call-<n>/stream.jsonl`, the events the page shows |
 | the cost of a batch | `tally.md`'s `cost` line, or the page |
@@ -163,7 +166,12 @@ is logged, never written back, so a different default is an edit to `host.json`.
 the union of the index and the calls file: pending is an item with no successful call, the
 batch is executed when every item has one, and a pilot (`--item`) leaves the rest pending.
 An execute answers with what it will do — items to call, skipped as answered — never a bare
-count. Running `tally-batch` on a batch again is refused: a written `tally.md` is frozen.
+count. The host writes `tally.md` the moment the last item has a successful call, its
+sections fixed by the directions: counts per enum field, the malformed, the missing, the
+fields not counted. A written `tally.md` is frozen; `tally-batch` prints it, and writes it
+only when the host never did (a host that died first, a batch executed serverless). A pilot
+writes none, since items remain. `--group-by` is a view for the analysis and the review:
+printed as often as wanted, written nowhere.
 
 **The stage strip** on a batch's page is detected from the folder alone: defined (the
 definition reads), itemized (an index with rows and every body present), piloted (a call

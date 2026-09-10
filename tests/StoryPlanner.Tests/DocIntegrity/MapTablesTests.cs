@@ -89,7 +89,7 @@ public class MapTablesTests
     public void An_empty_id_list_is_an_empty_list_and_not_a_one_element_one()
     {
         using var f = MapFixture.With(MapFixture.RefereeingFile,
-            "| referee-judge | agent | | directions items |", "| referee-judge | agent | |  |");
-        Assert.Empty(f.Doc.Processes.Single(p => p.Id == "referee-judge").Reads);
+            "| assess-referee-items | agent | | directions items |", "| assess-referee-items | agent | |  |");
+        Assert.Empty(f.Doc.Processes.Single(p => p.Id == "assess-referee-items").Reads);
     }
 }

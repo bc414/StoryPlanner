@@ -1,4 +1,4 @@
-# leads-artifact-schema
+# leads-schema
 
 `docs/v3-framework/studies/<study>/leads.md`, at the top of the study beside its
 directions. Written once by exploring-a-corpus from the batch's results; reviewing-leads

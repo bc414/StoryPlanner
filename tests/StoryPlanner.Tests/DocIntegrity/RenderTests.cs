@@ -19,21 +19,21 @@ public class RenderTests
         using var f = new MapFixture();
         var level1 = MermaidRenderer.Level1(f.Doc);
         Assert.Contains("changingtheplannerforv3[[\"changing-the-planner-for-v3\"]]:::terminus", level1);
-        Assert.Contains("refereeingacandidate[\"refereeing-a-candidate\"]:::activity", level1);
-        Assert.Contains("refereeingacandidate --> promotingcheckedcandidates", level1);
-        Assert.Contains("promotingcheckedcandidates --> changingtheplannerforv3", level1);
+        Assert.Contains("refereeingcandidates[\"refereeing-candidates\"]:::activity", level1);
+        Assert.Contains("refereeingcandidates --> promotingrefereedcandidates", level1);
+        Assert.Contains("promotingrefereedcandidates --> changingtheplannerforv3", level1);
     }
 
     [Fact]
     public void An_activity_section_draws_its_processes_by_mode_and_the_artifacts_they_touch()
     {
         using var f = new MapFixture();
-        var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate");
-        Assert.Contains("refereerun[\"referee-run<br/>session\"]:::session", section);
-        Assert.Contains("refereejudge([\"referee-judge<br/>agent\"]):::agent", section);
+        var section = MermaidRenderer.Activity(f.Doc, "refereeing-candidates");
+        Assert.Contains("assemblerefereebatch[\"assemble-referee-batch<br/>session\"]:::session", section);
+        Assert.Contains("assessrefereeitems([\"assess-referee-items<br/>agent\"]):::agent", section);
         Assert.Contains("candidates[/\"candidates\"/]:::artifact", section);
-        Assert.Contains("directions --> refereerun", section);
-        Assert.Contains("refereeappend --> candidates", section);
+        Assert.Contains("directions --> assemblerefereebatch", section);
+        Assert.Contains("appendverdicts --> candidates", section);
         Assert.DoesNotContain("promote", section);
     }
 
@@ -41,29 +41,29 @@ public class RenderTests
     public void An_hitl_process_is_a_hexagon()
     {
         using var f = new MapFixture();
-        Assert.Contains("promote{{\"promote<br/>hitl\"}}:::hitl", MermaidRenderer.Activity(f.Doc, "promoting-checked-candidates"));
+        Assert.Contains("promote{{\"promote<br/>hitl\"}}:::hitl", MermaidRenderer.Activity(f.Doc, "promoting-refereed-candidates"));
     }
 
     [Fact]
     public void An_instrument_read_is_a_dashed_edge()
     {
         using var f = MapFixture.With(MapFixture.RefereeingFile,
-            "| referee-judge | agent | | directions items |", "| referee-judge | agent | items | directions |");
-        Assert.Contains("items -.-> refereejudge", MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate"));
+            "| assess-referee-items | agent | | directions items |", "| assess-referee-items | agent | items | directions |");
+        Assert.Contains("items -.-> assessrefereeitems", MermaidRenderer.Activity(f.Doc, "refereeing-candidates"));
     }
 
     [Fact]
     public void An_activity_section_carries_what_the_tables_derive_for_it()
     {
         using var f = new MapFixture();
-        var section = MermaidRenderer.Activity(f.Doc, "refereeing-a-candidate");
+        var section = MermaidRenderer.Activity(f.Doc, "refereeing-candidates");
         Assert.Contains("- **inputs**: calibration directions studies", section);
         Assert.Contains("- **outputs**: candidates definition index items results", section);
         Assert.Contains("- **instruments**: runner", section);
         Assert.Contains("- **enabled by**: —", section);
-        Assert.Contains("- **enables**: promoting-checked-candidates", section);
-        Assert.Contains("- **enabled by**: refereeing-a-candidate",
-            MermaidRenderer.Activity(f.Doc, "promoting-checked-candidates"));
+        Assert.Contains("- **enables**: promoting-refereed-candidates", section);
+        Assert.Contains("- **enabled by**: refereeing-candidates",
+            MermaidRenderer.Activity(f.Doc, "promoting-refereed-candidates"));
     }
 
     [Fact]
@@ -72,12 +72,12 @@ public class RenderTests
         using var f = new MapFixture();
         var map = MermaidRenderer.Map(f.Doc, f.Report, forced: false);
         Assert.Contains("## The activities", map);
-        Assert.Contains("### refereeing-a-candidate", map);
-        Assert.Contains("### promoting-checked-candidates", map);
+        Assert.Contains("### refereeing-candidates", map);
+        Assert.Contains("### promoting-refereed-candidates", map);
         Assert.DoesNotContain("### changing-the-planner-for-v3", map);
-        Assert.Contains("- **enables**: promoting-checked-candidates", map);
-        Assert.Contains("subgraph refereeingacandidate[\"refereeing-a-candidate\"]", map);
-        Assert.Contains("| candidates | promote referee-append | promote referee-run referee-append | — |", map);
+        Assert.Contains("- **enables**: promoting-refereed-candidates", map);
+        Assert.Contains("subgraph refereeingcandidates[\"refereeing-candidates\"]", map);
+        Assert.Contains("| candidates | promote append-verdicts | promote assemble-referee-batch append-verdicts | — |", map);
         Assert.Contains("Last run: **passed**", map);
         Assert.DoesNotContain(MapTables.GeneratedOpenPrefix, map);
     }
@@ -88,8 +88,8 @@ public class RenderTests
         using var f = new MapFixture();
         var doc = f.Doc;
         Assert.Equal(MermaidRenderer.Level1(doc), MermaidRenderer.Level1(doc));
-        Assert.Equal(MermaidRenderer.Activity(doc, "promoting-checked-candidates"),
-            MermaidRenderer.Activity(doc, "promoting-checked-candidates"));
+        Assert.Equal(MermaidRenderer.Activity(doc, "promoting-refereed-candidates"),
+            MermaidRenderer.Activity(doc, "promoting-refereed-candidates"));
         Assert.Equal(MermaidRenderer.Map(doc, f.Report, false), MermaidRenderer.Map(doc, f.Report, false));
     }
 
@@ -103,14 +103,14 @@ public class RenderTests
 
     [Fact]
     public void Mermaid_node_ids_drop_the_hyphens_the_row_ids_carry()
-        => Assert.Equal("refereerun", MermaidRenderer.NodeId("referee-run"));
+        => Assert.Equal("assemblerefereebatch", MermaidRenderer.NodeId("assemble-referee-batch"));
 
     [Fact]
     public void Ids_that_merge_once_hyphens_are_dropped_are_refused_before_drawing()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
             "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
-            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| refereerun | docs/x.md | frozen | | Collides with referee-run |");
+            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| assemblerefereebatch | docs/x.md | frozen | | Collides with assemble-referee-batch |");
         Assert.Throws<MapFormatException>(() => MermaidRenderer.CheckNodeIds(f.Doc));
     }
 

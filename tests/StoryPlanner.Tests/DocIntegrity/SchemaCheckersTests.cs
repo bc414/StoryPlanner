@@ -25,7 +25,7 @@ public class SchemaCheckersTests : IDisposable
         _skill = Path.Combine(_root, ".claude", "skills", "example");
         Directory.CreateDirectory(_skill);
         Directory.CreateDirectory(Path.Combine(_root, ".git"));
-        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema");
+        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema");
     }
 
     public void Dispose()
@@ -190,25 +190,25 @@ public class SchemaCheckersTests : IDisposable
     [Fact]
     public void The_leads_example_passes_at_its_study_folder()
     {
-        var path = Write("docs/v3-framework/studies/exploration-of-v1-archive/leads.md", SchemaExamples.Block("leads-artifact-schema"));
+        var path = Write("docs/v3-framework/studies/exploration-of-v1-archive/leads.md", SchemaExamples.Block("leads-schema"));
         Assert.Empty(Rules(Leads.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_leads_artifact_in_the_wrong_folder_fails_its_title()
     {
-        var path = Write("docs/v3-framework/studies/exploration-of-lineage/leads.md", SchemaExamples.Block("leads-artifact-schema"));
+        var path = Write("docs/v3-framework/studies/exploration-of-lineage/leads.md", SchemaExamples.Block("leads-schema"));
         Assert.Contains("leads.title", Rules(Leads.Check(Ctx(), path)));
     }
 
     [Fact]
     public void A_leads_artifact_missing_a_section_or_carrying_bins_fails()
     {
-        var text = SchemaExamples.Block("leads-artifact-schema").Replace("## Proposed questions\n", "");
+        var text = SchemaExamples.Block("leads-schema").Replace("## Proposed questions\n", "");
         var path = Write("docs/v3-framework/studies/exploration-of-v1-archive/leads.md", text);
         Assert.Contains("leads.sections", Rules(Leads.Check(Ctx(), path)));
 
-        var bins = SchemaExamples.Block("leads-artifact-schema").Replace("## Proposed questions\n", "## Bins\n<none>\n\n## Proposed questions\n");
+        var bins = SchemaExamples.Block("leads-schema").Replace("## Proposed questions\n", "## Bins\n<none>\n\n## Proposed questions\n");
         path = Write("docs/v3-framework/studies/exploration-of-v1-archive/leads.md", bins);
         Assert.Contains("leads.sections", Rules(Leads.Check(Ctx(), path)));
     }
@@ -516,6 +516,56 @@ public class SchemaCheckersTests : IDisposable
         Assert.Empty(Rules(BatchIndex.Check(Ctx("v1-archive"), path)));
         var another = Write(BatchDir + "/index.md", text.Replace("candidates", "skill"));
         Assert.Empty(Rules(BatchIndex.Check(Ctx("v1-archive"), another)));
+    }
+
+    // ---- findings ----
+
+    const string FindingsStudy = "docs/v3-framework/studies/verification-of-v1-archive-scene-stasis";
+
+    /// <summary>The tree the findings example cites: the directions that froze its question, a full batch with its definition and index, and the corpus's question list.</summary>
+    string WriteFindings(string text)
+    {
+        WriteDirections(SchemaExamples.Block("directions-schema"), FindingsStudy);
+        Write("docs/v3-framework/questions/v1-archive.md", "# v1-archive — questions\n\n### v1-archive/scene-notes-carry-designed-stasis\n\n- date: 2026-09-01\n- raised by: recall\n- question: q\n\n### v1-archive/links-name-the-gap\n\n- date: 2026-09-02\n- raised by: recall\n- question: q\n\n### v1-archive/unfrozen-one\n\n- date: 2026-09-03\n- raised by: recall\n- question: q\n");
+        Write($"{FindingsStudy}/batches/01-full/definition.md", "# 01-full — definition\n\n- directions: ../../directions-1.md\n- kind: full\n- model: sonnet\n");
+        Write($"{FindingsStudy}/batches/01-full/index.md", "# 01-full — index\n\n- itemizer: tools/StoryPlanner.ArchiveItemizer, 1\n- corpus: v1-archive\n- locator notation: a note id\n\n| item | locator | description |\n|---|---|---|\n| note-1630 | note-1630 | a |\n| note-2044 | note-2044 | b |\n| note-2051 | note-2051 | c |\n");
+        return Write($"{FindingsStudy}/findings.md", text);
+    }
+
+    [Fact]
+    public void The_findings_example_passes_with_its_batch_and_questions_resolving_and_only_standing_findings_answer()
+    {
+        var path = WriteFindings(SchemaExamples.Block("findings-schema"));
+        var findings = FindingsChecker.Check(FullCtx("v1-archive"), path);
+        Assert.Empty(Rules(findings));
+        Assert.NotNull(SchemaCheckers.For(WellKnown.Findings));
+        // The withdrawn finding and its successor name no question; the one standing finding with a question answers it.
+        Assert.Equal(["v1-archive/scene-notes-carry-designed-stasis"], FindingsChecker.AnsweredQuestions(File.ReadAllText(path)));
+        var entries = FindingsChecker.ReadEntries(File.ReadAllText(path));
+        Assert.Equal(4, entries.Count);
+        Assert.True(entries[3].Withdrawn);
+        Assert.Equal("verification-of-v1-archive-scene-stasis/unplaced-notes-are-paratext", entries[2].Supersedes);
+    }
+
+    [Theory]
+    [InlineData("# verification-of-v1-archive-scene-stasis — findings\n", "# findings\n", "findings.title")]
+    [InlineData("## Method\n", "## Methods\n", "findings.shape")]
+    [InlineData("### verification-of-v1-archive-scene-stasis/stasis-in-one-of-nine-scene-notes\n", "### elsewhere/stasis-in-one-of-nine-scene-notes\n", "findings.entry")]
+    [InlineData("- question: v1-archive/scene-notes-carry-designed-stasis\n", "- question: v1-archive/nowhere\n", "findings.question")]
+    [InlineData("- question: v1-archive/scene-notes-carry-designed-stasis\n", "- question: v1-archive/unfrozen-one\n", "findings.question")]
+    [InlineData("  - verification-of-v1-archive-scene-stasis/01-full/note-2051\n", "  - verification-of-v1-archive-scene-stasis/01-full/note-9999\n", "findings.cites")]
+    [InlineData("  - verification-of-v1-archive-scene-stasis/01-full § class\n", "  - verification-of-v1-archive-scene-stasis/01-full § colour\n", "findings.cites")]
+    [InlineData("  - verification-of-v1-archive-scene-stasis/01-full § class\n", "  - verification-of-v1-archive-scene-stasis/09-none § class\n", "findings.cites")]
+    [InlineData("- supersedes: verification-of-v1-archive-scene-stasis/unplaced-notes-are-paratext\n", "- supersedes: verification-of-v1-archive-scene-stasis/nothing-here\n", "findings.supersedes")]
+    [InlineData("- withdrawn: 2026-09-20 the locators put 402 of 803 event notes after chapter three\n", "- withdrawn: yesterday x\n", "findings.withdrawn")]
+    [InlineData("### verification-of-v1-archive-scene-stasis/event-notes-cluster-early\n", "### verification-of-v1-archive-scene-stasis/event-notes-cluster-early\n- supersedes: verification-of-v1-archive-scene-stasis/unplaced-notes-are-paratext\n", "findings.supersedes")]
+    [InlineData("- directions: the reserved class `unplaced` took 189 of 1,116 notes;", "- model: the reserved class `unplaced` took 189 of 1,116 notes;", "findings.shortcoming")]
+    public void A_findings_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
+    {
+        var text = SchemaExamples.Block("findings-schema");
+        Assert.Contains(find, text);
+        var path = WriteFindings(text.Replace(find, replace));
+        Assert.Contains(rule, Rules(FindingsChecker.Check(FullCtx("v1-archive"), path)));
     }
 
     // ---- definition ----

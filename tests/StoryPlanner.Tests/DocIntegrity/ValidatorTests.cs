@@ -64,11 +64,11 @@ public class ValidatorTests
 
     [Fact]
     public void An_id_outside_the_lowercase_slug_charset_fails()
-        => Fails("id.charset", MapFixture.With(Refereeing, "referee-judge", "Referee-Judge"));
+        => Fails("id.charset", MapFixture.With(Refereeing, "assess-referee-items", "Assess-Referee-Items"));
 
     [Fact]
     public void An_enables_cell_naming_no_activity_does_not_resolve()
-        => Fails("ref.enables", MapFixture.With(Skill, "| refereeing-a-candidate | promoting-checked-candidates |", "| refereeing-a-candidate | nowhere |"));
+        => Fails("ref.enables", MapFixture.With(Skill, "| refereeing-candidates | promoting-refereed-candidates |", "| refereeing-candidates | nowhere |"));
 
     [Fact]
     public void A_read_naming_no_artifact_does_not_resolve()
@@ -135,11 +135,11 @@ public class ValidatorTests
 
     [Fact]
     public void A_mode_outside_the_closed_set_fails()
-        => Fails("enum.mode", MapFixture.With(Refereeing, "| referee-judge | agent |", "| referee-judge | robot |"));
+        => Fails("enum.mode", MapFixture.With(Refereeing, "| assess-referee-items | agent |", "| assess-referee-items | robot |"));
 
     [Fact]
     public void Two_modes_on_one_row_fail_because_a_process_is_one_run_of_one_mode()
-        => Fails("row.mode-count", MapFixture.With(Refereeing, "| referee-judge | agent |", "| referee-judge | agent session |"));
+        => Fails("row.mode-count", MapFixture.With(Refereeing, "| assess-referee-items | agent |", "| assess-referee-items | agent session |"));
 
     [Fact]
     public void A_state_outside_the_closed_set_fails()
@@ -153,7 +153,7 @@ public class ValidatorTests
 
     [Fact]
     public void A_process_reading_nothing_fails_because_it_is_deriving_from_recall()
-        => Fails("row.reads-empty", MapFixture.With(Refereeing, "| referee-judge | agent | | directions items |", "| referee-judge | agent | |  |"));
+        => Fails("row.reads-empty", MapFixture.With(Refereeing, "| assess-referee-items | agent | | directions items |", "| assess-referee-items | agent | |  |"));
 
     [Fact]
     public void A_process_writing_nothing_fails_because_it_is_indistinguishable_from_not_running()
@@ -162,7 +162,7 @@ public class ValidatorTests
     [Fact]
     public void An_hitl_process_writing_nothing_fails_under_its_own_rule_too()
         => Fails("row.hitl-writes-nothing", MapFixture.With(Promoting,
-            "| hypothesis-record hypothesis-status candidates question-list verification-artifact | specified |",
+            "| hypothesis-record hypothesis-status candidates question-list | specified |",
             "|  | specified |"));
 
     [Fact]
@@ -195,21 +195,21 @@ public class ValidatorTests
 
     [Fact]
     public void A_cycle_in_enables_fails()
-        => Fails("enables.cycle", MapFixture.With(Skill, "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | refereeing-a-candidate |"));
+        => Fails("enables.cycle", MapFixture.With(Skill, "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | refereeing-candidates |"));
 
     [Fact]
     public void Two_activities_enabling_nothing_fail_the_one_terminus_rule()
-        => Fails("enables.terminus-count", MapFixture.With(Skill, "| promoting-checked-candidates | changing-the-planner-for-v3 |", "| promoting-checked-candidates |  |"));
+        => Fails("enables.terminus-count", MapFixture.With(Skill, "| promoting-refereed-candidates | changing-the-planner-for-v3 |", "| promoting-refereed-candidates |  |"));
 
     [Fact]
     public void A_terminus_that_owns_processes_fails()
-        => Fails("enables.terminus-owns-processes", MapFixture.With(Skill, "| promoting-checked-candidates | changing-the-planner-for-v3 |", "| promoting-checked-candidates |  |"));
+        => Fails("enables.terminus-owns-processes", MapFixture.With(Skill, "| promoting-refereed-candidates | changing-the-planner-for-v3 |", "| promoting-refereed-candidates |  |"));
 
     [Fact]
     public void An_enables_edge_nothing_flows_along_fails()
         => Fails("enables.unbacked", MapFixture.With(Promoting,
-            "| git | candidates hypothesis-record hypothesis-status question-list verification-artifact |",
-            "| git | hypothesis-record hypothesis-status question-list verification-artifact |"));
+            "| git | candidates findings hypothesis-record hypothesis-status question-list |",
+            "| git | findings hypothesis-record hypothesis-status question-list |"));
 
     [Fact]
     public void An_edge_into_the_terminus_is_exempt_and_said_so()
@@ -238,8 +238,8 @@ public class ValidatorTests
     public void A_gate_with_no_hypothesis_writer_is_reported_as_vacuous_rather_than_passing()
     {
         using var f = MapFixture.With(Promoting,
-            "| hypothesis-record hypothesis-status candidates question-list verification-artifact | specified |",
-            "| candidates question-list verification-artifact | specified |");
+            "| hypothesis-record hypothesis-status candidates question-list | specified |",
+            "| candidates question-list | specified |");
         var report = f.Report;
         Assert.Contains(report.Findings, x => x.CheckId == "gate.vacuous" && x.Level == FindingLevel.Vacuous);
         Assert.True(report.Passed);
@@ -260,7 +260,7 @@ public class ValidatorTests
     [Fact]
     public void A_process_reading_and_writing_a_frozen_series_is_not_reported_because_it_writes_the_next_member()
     {
-        // referee-run reads calibration (frozen, dated); make it write one too.
+        // assemble-referee-batch reads calibration (frozen, dated); make it write one too.
         using var f = MapFixture.With(Refereeing,
             "| studies calibration directions candidates | definition index items |",
             "| studies calibration directions candidates | definition index items calibration |");
@@ -270,7 +270,7 @@ public class ValidatorTests
     [Fact]
     public void A_process_reading_and_writing_a_succeeded_or_append_artifact_is_not_reported()
     {
-        // promote reads and writes candidates (append); make referee-judge read and write directions (succeeded).
+        // promote reads and writes candidates (append); make assess-referee-items read and write directions (succeeded).
         using var f = MapFixture.With(Refereeing, "| directions items | results |", "| directions items | results directions |");
         Assert.DoesNotContain("mutation.read-and-write", Rules(f));
     }
@@ -279,11 +279,11 @@ public class ValidatorTests
 
     [Fact]
     public void A_section_that_is_not_a_process_id_fails_the_shape()
-        => Fails("file.shape", MapFixture.With(Refereeing, "## referee-judge", "## referee-judging"));
+        => Fails("file.shape", MapFixture.With(Refereeing, "## assess-referee-items", "## assessing-referee-items"));
 
     [Fact]
     public void A_title_that_is_not_the_activity_id_fails_the_shape()
-        => Fails("file.shape", MapFixture.With(Refereeing, "# refereeing-a-candidate", "# Refereeing"));
+        => Fails("file.shape", MapFixture.With(Refereeing, "# refereeing-candidates", "# Refereeing"));
 
     // ---- decisions are cited only in revising-the-method ----
 

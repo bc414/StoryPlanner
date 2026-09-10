@@ -14,11 +14,11 @@ flowchart TD
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   changingtheplannerforv3[["changing-the-planner-for-v3"]]:::terminus
   baseliningahypothesis["baselining-a-hypothesis"]:::activity
-  promotingcheckedcandidates["promoting-checked-candidates"]:::activity
+  promotingrefereedcandidates["promoting-refereed-candidates"]:::activity
   iteratingastatement["iterating-a-statement"]:::activity
   mintingahypothesis["minting-a-hypothesis"]:::activity
-  refereeingacandidate["refereeing-a-candidate"]:::activity
-  writingcandidatesfromverification["writing-candidates-from-verification"]:::activity
+  refereeingcandidates["refereeing-candidates"]:::activity
+  reviewingfindings["reviewing-findings"]:::activity
   verifyingacorpus["verifying-a-corpus"]:::activity
   preparingtoverifyacorpus["preparing-to-verify-a-corpus"]:::activity
   reviewingleads["reviewing-leads"]:::activity
@@ -28,14 +28,15 @@ flowchart TD
   revisingthemethod["revising-the-method"]:::activity
 
   baseliningahypothesis --> changingtheplannerforv3
-  promotingcheckedcandidates --> baseliningahypothesis
-  iteratingastatement --> refereeingacandidate
+  promotingrefereedcandidates --> baseliningahypothesis
+  iteratingastatement --> refereeingcandidates
   mintingahypothesis --> reviewingleads
-  refereeingacandidate --> promotingcheckedcandidates
-  writingcandidatesfromverification --> refereeingacandidate
-  verifyingacorpus --> writingcandidatesfromverification
+  mintingahypothesis --> reviewingfindings
+  refereeingcandidates --> promotingrefereedcandidates
+  reviewingfindings --> refereeingcandidates
+  verifyingacorpus --> reviewingfindings
   preparingtoverifyacorpus --> verifyingacorpus
-  preparingtoverifyacorpus --> refereeingacandidate
+  preparingtoverifyacorpus --> refereeingcandidates
   reviewingleads --> preparingtoverifyacorpus
   exploringacorpus --> reviewingleads
   preparingtoexploreacorpus --> exploringacorpus
@@ -76,10 +77,10 @@ Derived from the tables, never authored:
 - **inputs**: hypothesis-statement
 - **outputs**: hypothesis-record hypothesis-status question-list
 - **instruments**: git
-- **enabled by**: promoting-checked-candidates
+- **enabled by**: promoting-refereed-candidates
 - **enables**: changing-the-planner-for-v3
 
-### promoting-checked-candidates
+### promoting-refereed-candidates
 
 ```mermaid
 flowchart LR
@@ -92,14 +93,15 @@ flowchart LR
   promote{{"promote<br/>hitl"}}:::hitl
   candidates[/"candidates"/]:::artifact
   corpus[/"corpus"/]:::artifact
+  findings[/"findings"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   hypothesisstatus[/"hypothesis-status"/]:::artifact
   index[/"index"/]:::artifact
   questionlist[/"question-list"/]:::artifact
-  verificationartifact[/"verification-artifact"/]:::artifact
 
   candidates --> promote
+  findings --> promote
   index --> promote
   corpus --> promote
   hypothesisstatement --> promote
@@ -108,15 +110,14 @@ flowchart LR
   promote --> hypothesisstatus
   promote --> candidates
   promote --> questionlist
-  promote --> verificationartifact
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus hypothesis-statement index
-- **outputs**: candidates hypothesis-record hypothesis-status question-list verification-artifact
+- **inputs**: corpus findings hypothesis-statement index
+- **outputs**: candidates hypothesis-record hypothesis-status question-list
 - **instruments**: git
-- **enabled by**: refereeing-a-candidate
+- **enabled by**: refereeing-candidates
 - **enables**: baselining-a-hypothesis
 
 ### iterating-a-statement
@@ -149,7 +150,7 @@ Derived from the tables, never authored:
 - **outputs**: candidates hypothesis-record hypothesis-statement hypothesis-status
 - **instruments**: git
 - **enabled by**: —
-- **enables**: refereeing-a-candidate
+- **enables**: refereeing-candidates
 
 ### minting-a-hypothesis
 
@@ -181,64 +182,9 @@ Derived from the tables, never authored:
 - **outputs**: hypothesis-index hypothesis-record hypothesis-statement hypothesis-status
 - **instruments**: git
 - **enabled by**: —
-- **enables**: reviewing-leads
+- **enables**: reviewing-leads reviewing-findings
 
-### refereeing-a-candidate
-
-```mermaid
-flowchart LR
-  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
-  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
-  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
-  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
-  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
-  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  refereematerialise["referee-materialise<br/>session"]:::session
-  refereerun["referee-run<br/>session"]:::session
-  refereejudge(["referee-judge<br/>agent"]):::agent
-  refereeappend["referee-append<br/>session"]:::session
-  calibration[/"calibration"/]:::artifact
-  calls[/"calls"/]:::artifact
-  candidates[/"candidates"/]:::artifact
-  definition[/"definition"/]:::artifact
-  directions[/"directions"/]:::artifact
-  hypothesisstatement[/"hypothesis-statement"/]:::artifact
-  index[/"index"/]:::artifact
-  items[/"items"/]:::artifact
-  results[/"results"/]:::artifact
-  tally[/"tally"/]:::artifact
-  toolsource[/"tool-source"/]:::artifact
-
-  hypothesisstatement --> refereematerialise
-  candidates --> refereematerialise
-  directions --> refereematerialise
-  calibration --> refereematerialise
-  toolsource -.-> refereematerialise
-  refereematerialise --> definition
-  refereematerialise --> index
-  refereematerialise --> items
-  definition --> refereerun
-  results --> refereerun
-  refereerun --> calls
-  refereerun --> tally
-  directions --> refereejudge
-  items --> refereejudge
-  refereejudge --> results
-  results --> refereeappend
-  tally --> refereeappend
-  candidates --> refereeappend
-  refereeappend --> candidates
-```
-
-Derived from the tables, never authored:
-
-- **inputs**: calibration directions hypothesis-statement tool-source
-- **outputs**: calls candidates definition index items results tally
-- **instruments**: runner tool-source
-- **enabled by**: iterating-a-statement writing-candidates-from-verification preparing-to-verify-a-corpus
-- **enables**: promoting-checked-candidates
-
-### writing-candidates-from-verification
+### refereeing-candidates
 
 ```mermaid
 flowchart LR
@@ -249,28 +195,93 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   writecandidates["write-candidates<br/>session"]:::session
+  assemblerefereebatch["assemble-referee-batch<br/>session"]:::session
+  assessrefereeitems(["assess-referee-items<br/>agent"]):::agent
+  appendverdicts["append-verdicts<br/>session"]:::session
+  calibration[/"calibration"/]:::artifact
+  calls[/"calls"/]:::artifact
   candidates[/"candidates"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
+  findings[/"findings"/]:::artifact
+  hypothesisindex[/"hypothesis-index"/]:::artifact
+  hypothesisstatement[/"hypothesis-statement"/]:::artifact
   index[/"index"/]:::artifact
+  items[/"items"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
   tally[/"tally"/]:::artifact
-  verificationartifact[/"verification-artifact"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
 
-  index --> writecandidates
-  results --> writecandidates
-  tally --> writecandidates
-  verificationartifact --> writecandidates
+  findings --> writecandidates
   questionlist --> writecandidates
+  hypothesisstatement --> writecandidates
+  hypothesisindex --> writecandidates
   writecandidates --> candidates
+  candidates --> assemblerefereebatch
+  findings --> assemblerefereebatch
+  hypothesisstatement --> assemblerefereebatch
+  directions --> assemblerefereebatch
+  calibration --> assemblerefereebatch
+  toolsource -.-> assemblerefereebatch
+  assemblerefereebatch --> definition
+  assemblerefereebatch --> index
+  assemblerefereebatch --> items
+  assemblerefereebatch --> calls
+  assemblerefereebatch --> tally
+  directions --> assessrefereeitems
+  items --> assessrefereeitems
+  assessrefereeitems --> results
+  tally --> appendverdicts
+  results --> appendverdicts
+  candidates --> appendverdicts
+  appendverdicts --> candidates
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: index question-list results tally verification-artifact
-- **outputs**: candidates
-- **instruments**: —
-- **enabled by**: verifying-a-corpus
-- **enables**: refereeing-a-candidate
+- **inputs**: calibration directions findings hypothesis-index hypothesis-statement question-list tool-source
+- **outputs**: calls candidates definition index items results tally
+- **instruments**: runner tool-source
+- **enabled by**: iterating-a-statement reviewing-findings preparing-to-verify-a-corpus
+- **enables**: promoting-refereed-candidates
+
+### reviewing-findings
+
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  reviewfindings{{"review-findings<br/>hitl"}}:::hitl
+  corpus[/"corpus"/]:::artifact
+  findings[/"findings"/]:::artifact
+  hypothesisstatement[/"hypothesis-statement"/]:::artifact
+  index[/"index"/]:::artifact
+  questionlist[/"question-list"/]:::artifact
+  results[/"results"/]:::artifact
+  tally[/"tally"/]:::artifact
+
+  findings --> reviewfindings
+  tally --> reviewfindings
+  results --> reviewfindings
+  index --> reviewfindings
+  corpus --> reviewfindings
+  hypothesisstatement --> reviewfindings
+  reviewfindings --> findings
+  reviewfindings --> questionlist
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: corpus hypothesis-statement index results tally
+- **outputs**: findings question-list
+- **instruments**: git
+- **enabled by**: minting-a-hypothesis verifying-a-corpus
+- **enables**: refereeing-candidates
 
 ### verifying-a-corpus
 
@@ -282,13 +293,15 @@ flowchart LR
   classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  verificationrun["verification-run<br/>session"]:::session
-  verificationjudge(["verification-judge<br/>agent"]):::agent
-  verificationwrite["verification-write<br/>session"]:::session
+  assemblefullbatch["assemble-full-batch<br/>session"]:::session
+  assessitems(["assess-items<br/>agent"]):::agent
+  writefindings["write-findings<br/>session"]:::session
   calibration[/"calibration"/]:::artifact
   calls[/"calls"/]:::artifact
+  corpus[/"corpus"/]:::artifact
   definition[/"definition"/]:::artifact
   directions[/"directions"/]:::artifact
+  findings[/"findings"/]:::artifact
   index[/"index"/]:::artifact
   items[/"items"/]:::artifact
   questionlist[/"question-list"/]:::artifact
@@ -296,37 +309,36 @@ flowchart LR
   studies[/"studies"/]:::artifact
   tally[/"tally"/]:::artifact
   toolsource[/"tool-source"/]:::artifact
-  verificationartifact[/"verification-artifact"/]:::artifact
 
-  studies --> verificationrun
-  directions --> verificationrun
-  calibration --> verificationrun
-  results --> verificationrun
-  toolsource -.-> verificationrun
-  verificationrun --> definition
-  verificationrun --> index
-  verificationrun --> items
-  verificationrun --> calls
-  verificationrun --> tally
-  directions --> verificationjudge
-  items --> verificationjudge
-  verificationjudge --> results
-  definition --> verificationwrite
-  index --> verificationwrite
-  calls --> verificationwrite
-  results --> verificationwrite
-  tally --> verificationwrite
-  questionlist --> verificationwrite
-  verificationwrite --> verificationartifact
+  studies --> assemblefullbatch
+  directions --> assemblefullbatch
+  calibration --> assemblefullbatch
+  corpus --> assemblefullbatch
+  toolsource -.-> assemblefullbatch
+  assemblefullbatch --> definition
+  assemblefullbatch --> index
+  assemblefullbatch --> items
+  assemblefullbatch --> calls
+  assemblefullbatch --> tally
+  directions --> assessitems
+  items --> assessitems
+  assessitems --> results
+  definition --> writefindings
+  index --> writefindings
+  calls --> writefindings
+  results --> writefindings
+  tally --> writefindings
+  questionlist --> writefindings
+  writefindings --> findings
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: calibration directions question-list studies tool-source
-- **outputs**: calls definition index items results tally verification-artifact
+- **inputs**: calibration corpus directions question-list studies tool-source
+- **outputs**: calls definition findings index items results tally
 - **instruments**: runner tool-source
 - **enabled by**: preparing-to-verify-a-corpus
-- **enables**: writing-candidates-from-verification
+- **enables**: reviewing-findings
 
 ### preparing-to-verify-a-corpus
 
@@ -341,8 +353,8 @@ flowchart LR
   verifyplan{{"verify-plan<br/>hitl"}}:::hitl
   itemize["itemize<br/>session"]:::session
   authordirections{{"author-directions<br/>hitl"}}:::hitl
-  calibraterun["calibrate-run<br/>session"]:::session
-  calibratejudge(["calibrate-judge<br/>agent"]):::agent
+  assemblesamplebatch["assemble-sample-batch<br/>session"]:::session
+  assesssampleitems(["assess-sample-items<br/>agent"]):::agent
   calibrate{{"calibrate<br/>hitl"}}:::hitl
   calibration[/"calibration"/]:::artifact
   calls[/"calls"/]:::artifact
@@ -357,6 +369,7 @@ flowchart LR
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
   studies[/"studies"/]:::artifact
+  tally[/"tally"/]:::artifact
   toolsource[/"tool-source"/]:::artifact
 
   questionlist --> verifyplan
@@ -374,16 +387,18 @@ flowchart LR
   items --> authordirections
   directions --> authordirections
   authordirections --> directions
-  directions --> calibraterun
-  index --> calibraterun
-  calibraterun --> definition
-  calibraterun --> calls
-  directions --> calibratejudge
-  items --> calibratejudge
-  calibratejudge --> results
+  directions --> assemblesamplebatch
+  index --> assemblesamplebatch
+  assemblesamplebatch --> definition
+  assemblesamplebatch --> calls
+  assemblesamplebatch --> tally
+  directions --> assesssampleitems
+  items --> assesssampleitems
+  assesssampleitems --> results
   index --> calibrate
   items --> calibrate
   results --> calibrate
+  tally --> calibrate
   directions --> calibrate
   calibrate --> calibration
   calibrate --> directions
@@ -392,10 +407,10 @@ flowchart LR
 Derived from the tables, never authored:
 
 - **inputs**: corpora corpus skill state tool-source
-- **outputs**: calibration calls definition directions index items question-list results studies
+- **outputs**: calibration calls definition directions index items question-list results studies tally
 - **instruments**: dotnet runner tool-source
 - **enabled by**: reviewing-leads building-a-tool revising-the-method
-- **enables**: verifying-a-corpus refereeing-a-candidate
+- **enables**: verifying-a-corpus refereeing-candidates
 
 ### reviewing-leads
 
@@ -412,13 +427,13 @@ flowchart LR
   corpus[/"corpus"/]:::artifact
   hypothesisindex[/"hypothesis-index"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
-  leadsartifact[/"leads-artifact"/]:::artifact
+  leads[/"leads"/]:::artifact
   questionlist[/"question-list"/]:::artifact
 
-  leadsartifact --> reviewleads
+  leads --> reviewleads
   corpus --> reviewleads
   hypothesisstatement --> reviewleads
-  reviewleads --> leadsartifact
+  reviewleads --> leads
   reviewleads --> questionlist
   hypothesisindex --> ask
   hypothesisstatement --> ask
@@ -429,7 +444,7 @@ flowchart LR
 Derived from the tables, never authored:
 
 - **inputs**: corpus hypothesis-index hypothesis-statement
-- **outputs**: leads-artifact question-list
+- **outputs**: leads question-list
 - **instruments**: git
 - **enabled by**: minting-a-hypothesis exploring-a-corpus
 - **enables**: preparing-to-verify-a-corpus
@@ -444,40 +459,40 @@ flowchart LR
   classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  explorerun["explore-run<br/>session"]:::session
-  exploreread(["explore-read<br/>agent"]):::agent
-  join["join<br/>session"]:::session
+  continueexplorationbatch["continue-exploration-batch<br/>session"]:::session
+  exploreitems(["explore-items<br/>agent"]):::agent
+  writeleads["write-leads<br/>session"]:::session
   calls[/"calls"/]:::artifact
   definition[/"definition"/]:::artifact
   directions[/"directions"/]:::artifact
   index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  leadsartifact[/"leads-artifact"/]:::artifact
+  leads[/"leads"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
   studies[/"studies"/]:::artifact
   tally[/"tally"/]:::artifact
 
-  studies --> explorerun
-  definition --> explorerun
-  results --> explorerun
-  explorerun --> calls
-  explorerun --> tally
-  directions --> exploreread
-  items --> exploreread
-  exploreread --> results
-  definition --> join
-  index --> join
-  results --> join
-  tally --> join
-  questionlist --> join
-  join --> leadsartifact
+  studies --> continueexplorationbatch
+  definition --> continueexplorationbatch
+  results --> continueexplorationbatch
+  continueexplorationbatch --> calls
+  continueexplorationbatch --> tally
+  directions --> exploreitems
+  items --> exploreitems
+  exploreitems --> results
+  definition --> writeleads
+  index --> writeleads
+  results --> writeleads
+  tally --> writeleads
+  questionlist --> writeleads
+  writeleads --> leads
 ```
 
 Derived from the tables, never authored:
 
 - **inputs**: definition directions index items question-list studies
-- **outputs**: calls leads-artifact results tally
+- **outputs**: calls leads results tally
 - **instruments**: runner
 - **enabled by**: preparing-to-explore-a-corpus
 - **enables**: reviewing-leads
@@ -494,8 +509,8 @@ flowchart LR
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   exploreplan{{"explore-plan<br/>hitl"}}:::hitl
   authorexplorationdirections{{"author-exploration-directions<br/>hitl"}}:::hitl
-  pilotrun["pilot-run<br/>session"]:::session
-  pilotread(["pilot-read<br/>agent"]):::agent
+  assembleexplorationbatch["assemble-exploration-batch<br/>session"]:::session
+  explorepilotitem(["explore-pilot-item<br/>agent"]):::agent
   calls[/"calls"/]:::artifact
   corpora[/"corpora"/]:::artifact
   corpus[/"corpus"/]:::artifact
@@ -521,16 +536,16 @@ flowchart LR
   corpus --> authorexplorationdirections
   directions --> authorexplorationdirections
   authorexplorationdirections --> directions
-  directions --> pilotrun
-  corpus --> pilotrun
-  toolsource -.-> pilotrun
-  pilotrun --> definition
-  pilotrun --> index
-  pilotrun --> items
-  pilotrun --> calls
-  directions --> pilotread
-  items --> pilotread
-  pilotread --> results
+  directions --> assembleexplorationbatch
+  corpus --> assembleexplorationbatch
+  toolsource -.-> assembleexplorationbatch
+  assembleexplorationbatch --> definition
+  assembleexplorationbatch --> index
+  assembleexplorationbatch --> items
+  assembleexplorationbatch --> calls
+  directions --> explorepilotitem
+  items --> explorepilotitem
+  explorepilotitem --> results
 ```
 
 Derived from the tables, never authored:
@@ -585,8 +600,8 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   revise{{"revise<br/>hitl"}}:::hitl
-  auditrun["audit-run<br/>session"]:::session
-  auditjudge(["audit-judge<br/>agent"]):::agent
+  assembleauditbatch["assemble-audit-batch<br/>session"]:::session
+  assessaudititems(["assess-audit-items<br/>agent"]):::agent
   calls[/"calls"/]:::artifact
   decisions[/"decisions"/]:::artifact
   definition[/"definition"/]:::artifact
@@ -618,18 +633,18 @@ flowchart LR
   revise --> map
   revise --> studies
   revise --> directions
-  skill --> auditrun
-  directions --> auditrun
-  results --> auditrun
-  toolsource -.-> auditrun
-  auditrun --> definition
-  auditrun --> index
-  auditrun --> items
-  auditrun --> calls
-  auditrun --> tally
-  directions --> auditjudge
-  items --> auditjudge
-  auditjudge --> results
+  skill --> assembleauditbatch
+  directions --> assembleauditbatch
+  results --> assembleauditbatch
+  toolsource -.-> assembleauditbatch
+  assembleauditbatch --> definition
+  assembleauditbatch --> index
+  assembleauditbatch --> items
+  assembleauditbatch --> calls
+  assembleauditbatch --> tally
+  directions --> assessaudititems
+  items --> assessaudititems
+  assessaudititems --> results
 ```
 
 Derived from the tables, never authored:
@@ -653,7 +668,7 @@ flowchart TD
   subgraph baseliningahypothesis["baselining-a-hypothesis"]
     baseline{{"baseline<br/>hitl"}}:::hitl
   end
-  subgraph promotingcheckedcandidates["promoting-checked-candidates"]
+  subgraph promotingrefereedcandidates["promoting-refereed-candidates"]
     promote{{"promote<br/>hitl"}}:::hitl
   end
   subgraph iteratingastatement["iterating-a-statement"]
@@ -662,26 +677,26 @@ flowchart TD
   subgraph mintingahypothesis["minting-a-hypothesis"]
     mint{{"mint<br/>hitl"}}:::hitl
   end
-  subgraph refereeingacandidate["refereeing-a-candidate"]
-    refereematerialise["referee-materialise<br/>session"]:::session
-    refereerun["referee-run<br/>session"]:::session
-    refereejudge(["referee-judge<br/>agent"]):::agent
-    refereeappend["referee-append<br/>session"]:::session
-  end
-  subgraph writingcandidatesfromverification["writing-candidates-from-verification"]
+  subgraph refereeingcandidates["refereeing-candidates"]
     writecandidates["write-candidates<br/>session"]:::session
+    assemblerefereebatch["assemble-referee-batch<br/>session"]:::session
+    assessrefereeitems(["assess-referee-items<br/>agent"]):::agent
+    appendverdicts["append-verdicts<br/>session"]:::session
+  end
+  subgraph reviewingfindings["reviewing-findings"]
+    reviewfindings{{"review-findings<br/>hitl"}}:::hitl
   end
   subgraph verifyingacorpus["verifying-a-corpus"]
-    verificationrun["verification-run<br/>session"]:::session
-    verificationjudge(["verification-judge<br/>agent"]):::agent
-    verificationwrite["verification-write<br/>session"]:::session
+    assemblefullbatch["assemble-full-batch<br/>session"]:::session
+    assessitems(["assess-items<br/>agent"]):::agent
+    writefindings["write-findings<br/>session"]:::session
   end
   subgraph preparingtoverifyacorpus["preparing-to-verify-a-corpus"]
     verifyplan{{"verify-plan<br/>hitl"}}:::hitl
     itemize["itemize<br/>session"]:::session
     authordirections{{"author-directions<br/>hitl"}}:::hitl
-    calibraterun["calibrate-run<br/>session"]:::session
-    calibratejudge(["calibrate-judge<br/>agent"]):::agent
+    assemblesamplebatch["assemble-sample-batch<br/>session"]:::session
+    assesssampleitems(["assess-sample-items<br/>agent"]):::agent
     calibrate{{"calibrate<br/>hitl"}}:::hitl
   end
   subgraph reviewingleads["reviewing-leads"]
@@ -689,23 +704,23 @@ flowchart TD
     ask{{"ask<br/>hitl"}}:::hitl
   end
   subgraph exploringacorpus["exploring-a-corpus"]
-    explorerun["explore-run<br/>session"]:::session
-    exploreread(["explore-read<br/>agent"]):::agent
-    join["join<br/>session"]:::session
+    continueexplorationbatch["continue-exploration-batch<br/>session"]:::session
+    exploreitems(["explore-items<br/>agent"]):::agent
+    writeleads["write-leads<br/>session"]:::session
   end
   subgraph preparingtoexploreacorpus["preparing-to-explore-a-corpus"]
     exploreplan{{"explore-plan<br/>hitl"}}:::hitl
     authorexplorationdirections{{"author-exploration-directions<br/>hitl"}}:::hitl
-    pilotrun["pilot-run<br/>session"]:::session
-    pilotread(["pilot-read<br/>agent"]):::agent
+    assembleexplorationbatch["assemble-exploration-batch<br/>session"]:::session
+    explorepilotitem(["explore-pilot-item<br/>agent"]):::agent
   end
   subgraph buildingatool["building-a-tool"]
     build{{"build<br/>hitl"}}:::hitl
   end
   subgraph revisingthemethod["revising-the-method"]
     revise{{"revise<br/>hitl"}}:::hitl
-    auditrun["audit-run<br/>session"]:::session
-    auditjudge(["audit-judge<br/>agent"]):::agent
+    assembleauditbatch["assemble-audit-batch<br/>session"]:::session
+    assessaudititems(["assess-audit-items<br/>agent"]):::agent
   end
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
@@ -716,8 +731,8 @@ flowchart TD
   state[/"state"/]:::artifact
   revisionnote[/"revision-note"/]:::artifact
   decisions[/"decisions"/]:::artifact
-  leadsartifact[/"leads-artifact"/]:::artifact
-  verificationartifact[/"verification-artifact"/]:::artifact
+  leads[/"leads"/]:::artifact
+  findings[/"findings"/]:::artifact
   candidates[/"candidates"/]:::artifact
   corpora[/"corpora"/]:::artifact
   directions[/"directions"/]:::artifact
@@ -741,6 +756,7 @@ flowchart TD
   baseline --> hypothesisstatus
   baseline --> questionlist
   candidates --> promote
+  findings --> promote
   index --> promote
   corpus --> promote
   hypothesisstatement --> promote
@@ -749,7 +765,6 @@ flowchart TD
   promote --> hypothesisstatus
   promote --> candidates
   promote --> questionlist
-  promote --> verificationartifact
   hypothesisstatement --> iterate
   hypothesisrecord --> iterate
   iterate --> hypothesisstatement
@@ -762,51 +777,57 @@ flowchart TD
   mint --> hypothesisrecord
   mint --> hypothesisstatus
   mint --> hypothesisindex
-  hypothesisstatement --> refereematerialise
-  candidates --> refereematerialise
-  directions --> refereematerialise
-  calibration --> refereematerialise
-  toolsource -.-> refereematerialise
-  refereematerialise --> definition
-  refereematerialise --> index
-  refereematerialise --> items
-  definition --> refereerun
-  results --> refereerun
-  refereerun --> calls
-  refereerun --> tally
-  directions --> refereejudge
-  items --> refereejudge
-  refereejudge --> results
-  results --> refereeappend
-  tally --> refereeappend
-  candidates --> refereeappend
-  refereeappend --> candidates
-  index --> writecandidates
-  results --> writecandidates
-  tally --> writecandidates
-  verificationartifact --> writecandidates
+  findings --> writecandidates
   questionlist --> writecandidates
+  hypothesisstatement --> writecandidates
+  hypothesisindex --> writecandidates
   writecandidates --> candidates
-  studies --> verificationrun
-  directions --> verificationrun
-  calibration --> verificationrun
-  results --> verificationrun
-  toolsource -.-> verificationrun
-  verificationrun --> definition
-  verificationrun --> index
-  verificationrun --> items
-  verificationrun --> calls
-  verificationrun --> tally
-  directions --> verificationjudge
-  items --> verificationjudge
-  verificationjudge --> results
-  definition --> verificationwrite
-  index --> verificationwrite
-  calls --> verificationwrite
-  results --> verificationwrite
-  tally --> verificationwrite
-  questionlist --> verificationwrite
-  verificationwrite --> verificationartifact
+  candidates --> assemblerefereebatch
+  findings --> assemblerefereebatch
+  hypothesisstatement --> assemblerefereebatch
+  directions --> assemblerefereebatch
+  calibration --> assemblerefereebatch
+  toolsource -.-> assemblerefereebatch
+  assemblerefereebatch --> definition
+  assemblerefereebatch --> index
+  assemblerefereebatch --> items
+  assemblerefereebatch --> calls
+  assemblerefereebatch --> tally
+  directions --> assessrefereeitems
+  items --> assessrefereeitems
+  assessrefereeitems --> results
+  tally --> appendverdicts
+  results --> appendverdicts
+  candidates --> appendverdicts
+  appendverdicts --> candidates
+  findings --> reviewfindings
+  tally --> reviewfindings
+  results --> reviewfindings
+  index --> reviewfindings
+  corpus --> reviewfindings
+  hypothesisstatement --> reviewfindings
+  reviewfindings --> findings
+  reviewfindings --> questionlist
+  studies --> assemblefullbatch
+  directions --> assemblefullbatch
+  calibration --> assemblefullbatch
+  corpus --> assemblefullbatch
+  toolsource -.-> assemblefullbatch
+  assemblefullbatch --> definition
+  assemblefullbatch --> index
+  assemblefullbatch --> items
+  assemblefullbatch --> calls
+  assemblefullbatch --> tally
+  directions --> assessitems
+  items --> assessitems
+  assessitems --> results
+  definition --> writefindings
+  index --> writefindings
+  calls --> writefindings
+  results --> writefindings
+  tally --> writefindings
+  questionlist --> writefindings
+  writefindings --> findings
   questionlist --> verifyplan
   corpora --> verifyplan
   corpus --> verifyplan
@@ -822,42 +843,44 @@ flowchart TD
   items --> authordirections
   directions --> authordirections
   authordirections --> directions
-  directions --> calibraterun
-  index --> calibraterun
-  calibraterun --> definition
-  calibraterun --> calls
-  directions --> calibratejudge
-  items --> calibratejudge
-  calibratejudge --> results
+  directions --> assemblesamplebatch
+  index --> assemblesamplebatch
+  assemblesamplebatch --> definition
+  assemblesamplebatch --> calls
+  assemblesamplebatch --> tally
+  directions --> assesssampleitems
+  items --> assesssampleitems
+  assesssampleitems --> results
   index --> calibrate
   items --> calibrate
   results --> calibrate
+  tally --> calibrate
   directions --> calibrate
   calibrate --> calibration
   calibrate --> directions
-  leadsartifact --> reviewleads
+  leads --> reviewleads
   corpus --> reviewleads
   hypothesisstatement --> reviewleads
-  reviewleads --> leadsartifact
+  reviewleads --> leads
   reviewleads --> questionlist
   hypothesisindex --> ask
   hypothesisstatement --> ask
   questionlist --> ask
   ask --> questionlist
-  studies --> explorerun
-  definition --> explorerun
-  results --> explorerun
-  explorerun --> calls
-  explorerun --> tally
-  directions --> exploreread
-  items --> exploreread
-  exploreread --> results
-  definition --> join
-  index --> join
-  results --> join
-  tally --> join
-  questionlist --> join
-  join --> leadsartifact
+  studies --> continueexplorationbatch
+  definition --> continueexplorationbatch
+  results --> continueexplorationbatch
+  continueexplorationbatch --> calls
+  continueexplorationbatch --> tally
+  directions --> exploreitems
+  items --> exploreitems
+  exploreitems --> results
+  definition --> writeleads
+  index --> writeleads
+  results --> writeleads
+  tally --> writeleads
+  questionlist --> writeleads
+  writeleads --> leads
   questionlist --> exploreplan
   corpora --> exploreplan
   corpus --> exploreplan
@@ -869,16 +892,16 @@ flowchart TD
   corpus --> authorexplorationdirections
   directions --> authorexplorationdirections
   authorexplorationdirections --> directions
-  directions --> pilotrun
-  corpus --> pilotrun
-  toolsource -.-> pilotrun
-  pilotrun --> definition
-  pilotrun --> index
-  pilotrun --> items
-  pilotrun --> calls
-  directions --> pilotread
-  items --> pilotread
-  pilotread --> results
+  directions --> assembleexplorationbatch
+  corpus --> assembleexplorationbatch
+  toolsource -.-> assembleexplorationbatch
+  assembleexplorationbatch --> definition
+  assembleexplorationbatch --> index
+  assembleexplorationbatch --> items
+  assembleexplorationbatch --> calls
+  directions --> explorepilotitem
+  items --> explorepilotitem
+  explorepilotitem --> results
   corpora --> build
   toolsource --> build
   corpus --> build
@@ -901,50 +924,50 @@ flowchart TD
   revise --> map
   revise --> studies
   revise --> directions
-  skill --> auditrun
-  directions --> auditrun
-  results --> auditrun
-  toolsource -.-> auditrun
-  auditrun --> definition
-  auditrun --> index
-  auditrun --> items
-  auditrun --> calls
-  auditrun --> tally
-  directions --> auditjudge
-  items --> auditjudge
-  auditjudge --> results
+  skill --> assembleauditbatch
+  directions --> assembleauditbatch
+  results --> assembleauditbatch
+  toolsource -.-> assembleauditbatch
+  assembleauditbatch --> definition
+  assembleauditbatch --> index
+  assembleauditbatch --> items
+  assembleauditbatch --> calls
+  assembleauditbatch --> tally
+  directions --> assessaudititems
+  items --> assessaudititems
+  assessaudititems --> results
 ```
 
 ## Consumers
 
 | artifact | written by | read by | instrument of |
 |---|---|---|---|
-| hypothesis-statement | iterate mint | baseline promote iterate mint referee-materialise review-leads ask | — |
+| hypothesis-statement | iterate mint | baseline promote iterate mint write-candidates assemble-referee-batch review-findings review-leads ask | — |
 | hypothesis-record | baseline promote iterate mint | baseline promote iterate | — |
 | hypothesis-status | baseline promote iterate mint | baseline | — |
-| hypothesis-index | mint | mint ask | — |
-| question-list | baseline promote verify-plan review-leads ask explore-plan | write-candidates verification-write verify-plan author-directions ask join explore-plan author-exploration-directions | — |
-| studies | verify-plan explore-plan revise | verification-run explore-run | — |
+| hypothesis-index | mint | mint write-candidates ask | — |
+| question-list | baseline promote review-findings verify-plan review-leads ask explore-plan | write-candidates write-findings verify-plan author-directions ask write-leads explore-plan author-exploration-directions | — |
+| studies | verify-plan explore-plan revise | assemble-full-batch continue-exploration-batch | — |
 | state | — | verify-plan explore-plan revise | — |
 | revision-note | revise | revise | — |
 | decisions | revise | revise | — |
-| leads-artifact | review-leads join | review-leads | — |
-| verification-artifact | promote verification-write | write-candidates | — |
-| candidates | promote iterate referee-append write-candidates | promote referee-materialise referee-append | — |
+| leads | review-leads write-leads | review-leads | — |
+| findings | review-findings write-findings | promote write-candidates assemble-referee-batch review-findings | — |
+| candidates | promote iterate write-candidates append-verdicts | promote assemble-referee-batch append-verdicts | — |
 | corpora | build | verify-plan explore-plan build | — |
-| directions | author-directions calibrate author-exploration-directions revise | referee-materialise referee-judge verification-run verification-judge author-directions calibrate-run calibrate-judge calibrate explore-read author-exploration-directions pilot-run pilot-read audit-run audit-judge | — |
-| calibration | calibrate | referee-materialise verification-run | — |
-| definition | referee-materialise verification-run calibrate-run pilot-run audit-run | referee-run verification-write explore-run join | — |
-| index | referee-materialise verification-run itemize pilot-run audit-run | promote write-candidates verification-write calibrate-run calibrate join | — |
-| items | referee-materialise verification-run itemize pilot-run audit-run | referee-judge verification-judge author-directions calibrate-judge calibrate explore-read pilot-read audit-judge | — |
-| calls | referee-run verification-run calibrate-run explore-run pilot-run audit-run | verification-write | — |
-| results | referee-judge verification-judge calibrate-judge explore-read pilot-read audit-judge | referee-run referee-append write-candidates verification-run verification-write calibrate explore-run join revise audit-run | — |
-| tally | referee-run verification-run explore-run audit-run | referee-append write-candidates verification-write join revise | — |
-| skill | revise | verify-plan explore-plan revise audit-run | — |
+| directions | author-directions calibrate author-exploration-directions revise | assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate explore-items author-exploration-directions assemble-exploration-batch explore-pilot-item assemble-audit-batch assess-audit-items | — |
+| calibration | calibrate | assemble-referee-batch assemble-full-batch | — |
+| definition | assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-exploration-batch assemble-audit-batch | write-findings continue-exploration-batch write-leads | — |
+| index | assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | promote review-findings write-findings assemble-sample-batch calibrate write-leads | — |
+| items | assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | assess-referee-items assess-items author-directions assess-sample-items calibrate explore-items explore-pilot-item assess-audit-items | — |
+| calls | assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-exploration-batch assemble-audit-batch | write-findings | — |
+| results | assess-referee-items assess-items assess-sample-items explore-items explore-pilot-item assess-audit-items | append-verdicts review-findings write-findings calibrate continue-exploration-batch write-leads revise assemble-audit-batch | — |
+| tally | assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-audit-batch | append-verdicts review-findings write-findings calibrate write-leads revise | — |
+| skill | revise | verify-plan explore-plan revise assemble-audit-batch | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |
-| tool-source | build | build | referee-materialise verification-run itemize pilot-run audit-run |
-| corpus | build | promote verify-plan itemize review-leads explore-plan author-exploration-directions pilot-run build | — |
+| tool-source | build | build | assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch |
+| corpus | build | promote review-findings assemble-full-batch verify-plan itemize review-leads explore-plan author-exploration-directions assemble-exploration-batch build | — |
 
 ## Validation
 

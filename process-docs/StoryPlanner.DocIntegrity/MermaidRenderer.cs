@@ -184,7 +184,7 @@ public static class MermaidRenderer
     }
 
     /// <summary>
-    /// Mermaid node ids take no hyphens, so <c>referee-run</c> is drawn as <c>refereerun</c>.
+    /// Mermaid node ids take no hyphens, so <c>append-verdicts</c> is drawn as <c>appendverdicts</c>.
     /// Two ids that differ only by hyphens would collide; <see cref="CheckNodeIds"/> refuses.
     /// </summary>
     public static string NodeId(string id) => id.Replace("-", "").Replace(".", "");

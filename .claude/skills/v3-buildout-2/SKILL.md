@@ -76,8 +76,9 @@ These hold in every session type. A companion file elaborates; none overrides.
    his blind verdicts before their first full batch, versioned by number and by the hash
    of the body every call cites; a revision is a new version and a new batch, never a
    re-label. An exploration's directions are piloted on one item before the rest run. A
-   verification that finds its directions wanting stops and records it in its artifact;
-   the question is Brian's to raise, in the promotion session.
+   verification whose results show its directions wanting records it as a shortcoming in
+   its findings; the question is Brian's to raise, in reviewing-findings, and the fix is a
+   new version through preparing.
 5. **Explicit context for autonomous agents.** Any `agent` process — a reader of one item,
    a classifier, an auditor, the referee, the calibration sample — is a call through the
    runner from the launch folder outside the repo: the directions body as its system
@@ -151,15 +152,15 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 |---|---|---|
 | changing-the-planner-for-v3 | | Making the code changes for version 3 of the story planner from baselined hypotheses. The terminus: out of this skill's scope, owns no processes |
 | baselining-a-hypothesis | changing-the-planner-for-v3 | Brian's dated judgment, in his words in the record, that a hypothesis's evidence picture is sufficient to act on |
-| promoting-checked-candidates | baselining-a-hypothesis | Brian deciding the pending referee-diagnostic candidates he chooses, by hypothesis or by verification, each after its cited item is read: promote verbatim or decline; one outcome line per candidate; one commit |
-| iterating-a-statement | refereeing-a-candidate | Brian's rewording of a hypothesis on evidence: the statement edited, an iteration entry as the wording boundary, status recomputed, prior findings re-queued as candidates into the studies that produced them |
-| minting-a-hypothesis | reviewing-leads | Creating a hypothesis file on novelty, testability and independence against the current set, in any hitl session, Brian rewriting or approving the statement, provenance in the created entry |
-| refereeing-a-candidate | promoting-checked-candidates | A blind call given only the current statement and the candidate's finding writes a falsifier and classifies it diagnostic supporting, diagnostic challenging, or non-diagnostic, under the one referee directions for the method |
-| writing-candidates-from-verification | refereeing-a-candidate | A session writes one candidate per finding a verification claims bears on a hypothesis: target, finding, the item cited, the call it came from with its hashes; append-only, no falsifier |
-| verifying-a-corpus | writing-candidates-from-verification | One execution of calibrated directions over a corpus's items, on Brian's go: the full batch through the runner, its tally, the artifact with the questions answered and the counts |
-| preparing-to-verify-a-corpus | verifying-a-corpus refereeing-a-candidate | Building the measure with Brian: itemize the corpus by a tool, author the directions against real items, calibrate them on a sample batch he scores blind |
+| promoting-refereed-candidates | baselining-a-hypothesis | Brian deciding the pending diagnostic candidates he chooses, by hypothesis or by verification, each after its finding's items are read: promote verbatim or decline; one outcome line per candidate; one commit |
+| iterating-a-statement | refereeing-candidates | Brian's rewording of a hypothesis on evidence: the statement edited, an iteration entry as the wording boundary, status recomputed, prior findings re-queued as candidates into the studies that produced them |
+| minting-a-hypothesis | reviewing-leads reviewing-findings | Creating a hypothesis file on novelty, testability and independence against the current set, in any hitl session, Brian rewriting or approving the statement, provenance in the created entry |
+| refereeing-candidates | promoting-refereed-candidates | The autonomous stretch from standing findings to refereed candidates: a session claims each finding against the hypothesis set, wide; the referee's batch is assembled under the verification; one blind call per candidate writes a falsifier and classifies it diagnostic supporting, diagnostic challenging, or non-diagnostic; the verdicts are appended |
+| reviewing-findings | refereeing-candidates | Brian and a session over a verification's findings, or two verifications by their tallies: a finding he doubts checked against the results and the items and withdrawn or superseded, a result he doubts checked at the item and written as a shortcoming, what he raises checked before it is written as a finding, and the questions he raises written into the corpus's question list |
+| verifying-a-corpus | reviewing-findings | One execution of calibrated directions over a corpus's items, on Brian's go: the full batch assembled and handed to the host, one call per item, the tally written at completion, and the analysis written as findings |
+| preparing-to-verify-a-corpus | verifying-a-corpus refereeing-candidates | Building the measure with Brian: itemize the corpus by a tool, author the directions against real items, calibrate them on a sample batch he scores blind |
 | reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact, or two of one corpus: challenge leads against the source, read the differences between explorations as leads about the readers, and write the questions Brian raises into the corpus's question list |
-| exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: one item that is the corpus whole, or one per slice, each a call through the runner under the study's directions; the results joined into a leads artifact |
+| exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: one item that is the corpus whole, or one per slice, each a call through the runner under the study's directions; the results written as leads |
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the questions in view, the scale, the directions written and, for slices, piloted on one item |
 | building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, itemizers, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
 | revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, two lints passing (the validator; for a rewrite, the supersession audit of the prior text as an audit study), a write-once revision note recording what changed and why |
@@ -205,9 +206,9 @@ by path, and the checker follows the path. Everything closed sits in
 | state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches and where it is; per corpus, open questions and whether calibrated directions cover them; per hypothesis, status and whether any open question names it |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
 | decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
-| leads-artifact | docs/v3-framework/studies/<study>/leads.md | append | [leads-artifact-schema](schemas/leads-artifact-schema.md) | What one exploration observed, organised by what was seen |
-| verification-artifact | docs/v3-framework/studies/<study>/verification.md | append | [verification-artifact-schema](schemas/verification-artifact-schema.md) | One verification's method, questions answered, counts and promotion summary |
-| candidates | docs/v3-framework/studies/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings claimed to bear on a hypothesis, with referee lines and outcomes; a rewording appends its re-queued findings here |
+| leads | docs/v3-framework/studies/<study>/leads.md | append | [leads-schema](schemas/leads-schema.md) | What one exploration observed, organised by what was seen |
+| findings | docs/v3-framework/studies/<study>/findings.md | append | [findings-schema](schemas/findings-schema.md) | What one verification's analysis drew from its results and tally: findings citing the tally sections and items they rest on, each naming the frozen question it answers if one did; what the data raised as proposed questions; what the results showed wrong with the study's own instrument as shortcomings; entries never edited, only withdrawn or superseded at the review |
+| candidates | docs/v3-framework/studies/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's standing findings claimed against hypotheses, each candidate citing its finding by token, with referee lines and outcomes; a rewording appends its re-queued findings here |
 | corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | [corpora-schema](schemas/corpora-schema.md) | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
 | directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls, hashed as the version, with the questions it freezes or reads with; the referee's, in the referee folder, reached by reference |
 | calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | [calibration-schema](schemas/calibration-schema.md) | One directions version's agreement with Brian's blind verdicts, the rulings, and whether it is accepted at its hash; the referee's reached by reference |
@@ -216,7 +217,7 @@ by path, and the checker follows the path. Everything closed sits in
 | items | docs/v3-framework/studies/<study>/batches/<batch>/items/ | frozen | | The item bodies, one file per item, written by the itemizer; uncommitted and regenerable |
 | calls | docs/v3-framework/studies/<study>/batches/<batch>/calls.md | append | | The runner's file of calls: the definition's hash at its head, then one entry per call with its hashes, times, exit and check |
 | results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answer for one item as the runner rendered it: the directions' declared fields as keyed lines, one file per item |
-| tally | docs/v3-framework/studies/<study>/batches/<batch>/tally.md | frozen | | The runner's counts over a batch's results: per enum field, the flagged, the malformed, the missing; written once |
+| tally | docs/v3-framework/studies/<study>/batches/<batch>/tally.md | frozen | | The runner's counts over a batch's results: per enum field, the malformed, the missing, the fields not counted; written by the host when the last item has a successful call, once |
 | skill | .claude/skills/v3-buildout/ | in-place | [skill-schema](schemas/skill-schema.md) | The method's instructions: the router with its two tables, the activity files and the schema files |
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
@@ -281,8 +282,10 @@ the runner and is read in full by any process that invokes it.
 - **question**: Brian's testable question about one corpus, in its question list.
 - **predicate**: the test a directions version freezes for one question and a classifier
   applies to every item; never written in a question entry, whose `suggested test` is a note.
-- **finding**: what a verification observed that a session claims bears on a hypothesis;
-  on a candidate.
+- **finding**: a conclusion a session drew over a verification's results and tally, the
+  verified layer, with the questions in view: a count, a pattern, a contrast, a null
+  answer; in the verification's findings file, cited by token, checked at the review,
+  never edited, withdrawn or superseded; the only input of a candidate.
 - **falsifier**: what the finding would have been if the statement were false, written
   blind by the referee.
 - **evidence**: a promoted finding, in a hypothesis record.

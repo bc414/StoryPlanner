@@ -142,8 +142,8 @@ description: An example skill for the process map tests.
 | id | enables | description |
 |---|---|---|
 | changing-the-planner-for-v3 | | The terminus: out of scope, owns no processes |
-| promoting-checked-candidates | changing-the-planner-for-v3 | Brian decides the referee-checked candidates |
-| refereeing-a-candidate | promoting-checked-candidates | A blind agent classifies each candidate |
+| promoting-refereed-candidates | changing-the-planner-for-v3 | Brian decides the refereed candidates |
+| refereeing-candidates | promoting-refereed-candidates | A blind agent classifies each candidate |
 
 ## Artifacts
 
@@ -156,7 +156,7 @@ description: An example skill for the process map tests.
 | candidates | docs/v3-framework/studies/<study>/candidates.md | append | [candidate-schema](schemas/candidate-schema.md) | One verification's findings |
 | directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls |
 | calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | | One version's agreement |
-| verification-artifact | docs/v3-framework/studies/<study>/verification.md | append | | One verification's method and counts |
+| findings | docs/v3-framework/studies/<study>/findings.md | append | | One verification's findings |
 | definition | docs/v3-framework/studies/<study>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under |
 | items | docs/v3-framework/studies/<study>/batches/<batch>/items/ | frozen | | The item bodies |
 | results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |
@@ -167,29 +167,29 @@ schemas/ holds one file per schema the Artifacts table links to; map.md and stat
 ```
 
 ```markdown
-# refereeing-a-candidate
+# refereeing-candidates
 
-Enables promoting-checked-candidates.
+Enables promoting-refereed-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| referee-run | session | runner | studies calibration directions candidates | definition items | specified | The batch under the host |
-| referee-judge | agent | | directions items | results | specified | Writes the falsifier blind |
-| referee-append | session | | results candidates | candidates | specified | Copies each verdict under its candidate |
+| assemble-referee-batch | session | runner | studies calibration directions candidates | definition items | specified | The batch assembled and handed off |
+| assess-referee-items | agent | | directions items | results | specified | Writes the falsifier blind |
+| append-verdicts | session | | results candidates | candidates | specified | Copies each verdict under its candidate |
 
 ## Preconditions
 
 The referee's directions are calibrated.
 
-## referee-run
+## assemble-referee-batch
 
-Runs the batch.
+Assembles the batch.
 
-## referee-judge
+## assess-referee-items
 
-Judges one item.
+Assesses one item.
 
-## referee-append
+## append-verdicts
 
 Appends the lines.
 

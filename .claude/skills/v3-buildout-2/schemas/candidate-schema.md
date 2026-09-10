@@ -1,13 +1,16 @@
 # candidate-schema
 
 `docs/v3-framework/studies/<study>/candidates.md`, one per verification, beside
-`verification.md`; the findings a rewording of a hypothesis re-queues are appended here
-too, to the study each came from. Append-only: a candidate is never edited after it is
+`findings.md`; the findings a rewording of a hypothesis re-queues are appended here
+too, to the study each came from. A candidate now carries the finding's token and never
+its text, and the referee's item is materialised from `findings.md`; the fields below
+predate that ruling and are rewritten at the unit that reviews them. Append-only: a candidate is never edited after it is
 written; the referee's lines and the outcome are appended beneath it. A finding bearing on
 two hypotheses is two candidates. Status is read from the last line present: a diagnostic
 candidate with no outcome line is awaiting Brian's decision. The file is
-`# <study> — candidates`, the study the file's own, then entries and nothing else; an
-entry is headed by its citation token, `### <study>/<slug>`, the slug lowercase
+`# <study> — candidates`, where `<study>` is the id of the study whose folder holds the
+file, then entries and nothing else; an entry is headed by its citation token,
+`### <study>/<slug>`, `<study>` repeating that id and the slug lowercase
 `[a-z0-9-]+`, unique in the file, naming what was observed and never what it means, a
 per-item finding carrying the item in its slug. The fields below are not yet reviewed.
 

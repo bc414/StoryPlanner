@@ -12,8 +12,8 @@ using StoryPlanner.AgentRunner;
 //   AgentRunner.exe dry-run-batch <definition.md> [--item X]  compose every call in memory, write nothing (serverless)
 //   AgentRunner.exe execute-batch <definition.md> [--item X] [--at HH:mm|ISO|reset]
 //                                                             one call per item without a result; --item names the pilot
-//   AgentRunner.exe tally-batch <definition.md> [--flag field=value]... [--group-by column]
-//                                                             write tally.md once (serverless)
+//   AgentRunner.exe tally-batch <definition.md> [--group-by column]
+//                                                             print tally.md, writing it first if absent; --group-by prints a view
 //   AgentRunner.exe host                                      run the host in this process (what start spawns)
 //
 // Every batch verb takes the path of a batch's definition and resolves the rest beside it; the
@@ -85,17 +85,16 @@ switch (verb)
     }
     case "tally-batch":
     {
-        var flags = Options("--flag").Select(f =>
-        {
-            var eq = f.IndexOf('=');
-            return eq <= 0 ? null : new Tally.Flag(f[..eq], f[(eq + 1)..]);
-        }).ToList();
-        if (flags.Any(f => f is null)) return Usage("--flag takes field=value");
+        // The host writes tally.md when the last item has a successful call. This verb writes
+        // it only when it is absent (a host that died first, a batch executed serverless) and
+        // otherwise prints it; --group-by prints a cross-tab view and never writes.
         var groupBy = Option("--group-by");
         if (rest.Count != 1) return Usage("tally-batch takes one argument: a batch's definition.md");
         var (batch, error) = Batch.Load(Path.GetFullPath(rest[0]), Directory.GetCurrentDirectory());
         if (batch is null) { Console.Error.WriteLine(error); return 2; }
-        var (ok, message) = Tally.Write(batch, flags!, groupBy);
+        if (groupBy is not null) { Console.Write(Tally.GroupBy(batch, groupBy)); return 0; }
+        if (File.Exists(batch.Definition.TallyPath)) { Console.Write(File.ReadAllText(batch.Definition.TallyPath)); return 0; }
+        var (ok, message) = Tally.Write(batch);
         Console.WriteLine(message);
         return ok ? 0 : 1;
     }
@@ -232,7 +231,7 @@ static int Usage(string? message = null)
           AgentRunner.exe stop [--now]
           AgentRunner.exe dry-run-batch <definition.md> [--item ID]
           AgentRunner.exe execute-batch <definition.md> [--item ID] [--at HH:mm|ISO|reset]
-          AgentRunner.exe tally-batch   <definition.md> [--flag field=value]... [--group-by item|locator|description]
+          AgentRunner.exe tally-batch   <definition.md> [--group-by item|locator|description]
         """);
     return 2;
 }

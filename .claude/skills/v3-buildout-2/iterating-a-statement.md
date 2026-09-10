@@ -1,6 +1,6 @@
 # iterating-a-statement
 
-Enables refereeing-a-candidate.
+Enables refereeing-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
@@ -22,10 +22,10 @@ wording and his reason, with the sentence that entries above it are bound to the
 wording; recomputes `status` from the entries bound to the new wording, which is
 `untested` when none has been re-verified, and resets `baselined` to `false`; and appends,
 to the candidates file of each study a prior `evidence` entry cites, one new candidate:
-the finding verbatim, the target, and provenance citing the original candidate's token and
-the rewording's date. Each such study then runs a referee batch over its new candidates,
-on Brian's go, and promotion reads them where it reads all candidates; nothing is
-re-refereed now.
+the finding's token, the target, and what it was re-queued from, the original candidate's
+token and the rewording's date. Each such study then runs refereeing-candidates over its
+new candidates, on Brian's go, and promotion reads them where it reads all candidates;
+nothing is re-refereed now.
 
 For a merge or split, the same steps run in each affected file: the surviving or new
 files are minted (minting-a-hypothesis), each old file gets its iteration entry naming

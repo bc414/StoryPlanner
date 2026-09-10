@@ -17,8 +17,8 @@ public class GraphRulesTests
         using var f = new MapFixture();
         var traffic = GraphRules.Traffic(f.Doc).ToDictionary(t => t.ArtifactId);
         // Processes are in router order, then table order: promoting's rows precede refereeing's.
-        Assert.Equal(["promote", "referee-append"], traffic["candidates"].Writers);
-        Assert.Equal(["promote", "referee-run", "referee-append"], traffic["candidates"].Readers);
+        Assert.Equal(["promote", "append-verdicts"], traffic["candidates"].Writers);
+        Assert.Equal(["promote", "assemble-referee-batch", "append-verdicts"], traffic["candidates"].Readers);
         Assert.Empty(traffic["directions"].Writers);
     }
 
@@ -26,11 +26,11 @@ public class GraphRulesTests
     public void An_artifact_named_as_an_instrument_counts_as_read()
     {
         using var f = MapFixture.With(MapFixture.RefereeingFile,
-            "| referee-judge | agent | | directions items |", "| referee-judge | agent | items | directions |");
+            "| assess-referee-items | agent | | directions items |", "| assess-referee-items | agent | items | directions |");
         var items = GraphRules.Traffic(f.Doc).Single(t => t.ArtifactId == "items");
-        Assert.Equal(["referee-judge"], items.InstrumentOf);
+        Assert.Equal(["assess-referee-items"], items.InstrumentOf);
         Assert.True(items.IsRead);
-        Assert.Contains(("referee-run", "referee-judge", "items"), GraphRules.DataEdges(f.Doc));
+        Assert.Contains(("assemble-referee-batch", "assess-referee-items", "items"), GraphRules.DataEdges(f.Doc));
     }
 
     [Fact]
@@ -38,8 +38,8 @@ public class GraphRulesTests
     {
         using var f = new MapFixture();
         var edges = GraphRules.DataEdges(f.Doc);
-        Assert.Contains(("referee-run", "referee-judge", "items"), edges);
-        Assert.Contains(("referee-append", "promote", "candidates"), edges);
+        Assert.Contains(("assemble-referee-batch", "assess-referee-items", "items"), edges);
+        Assert.Contains(("append-verdicts", "promote", "candidates"), edges);
         Assert.DoesNotContain(edges, e => e.From == e.To);
     }
 
@@ -54,8 +54,8 @@ public class GraphRulesTests
     public void Enabled_by_is_the_reverse_of_the_router_column()
     {
         using var f = new MapFixture();
-        Assert.Equal(["refereeing-a-candidate"], GraphRules.EnabledBy(f.Doc, "promoting-checked-candidates"));
-        Assert.Empty(GraphRules.EnabledBy(f.Doc, "refereeing-a-candidate"));
+        Assert.Equal(["refereeing-candidates"], GraphRules.EnabledBy(f.Doc, "promoting-refereed-candidates"));
+        Assert.Empty(GraphRules.EnabledBy(f.Doc, "refereeing-candidates"));
     }
 
     [Fact]
@@ -69,18 +69,18 @@ public class GraphRulesTests
     public void A_cycle_is_reported_once_with_its_members()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | refereeing-a-candidate |");
+            "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | refereeing-candidates |");
         var cycle = Assert.Single(GraphRules.EnablesCycles(f.Doc));
         Assert.Equal(3, cycle.Count);
-        Assert.Contains("promoting-checked-candidates", cycle);
+        Assert.Contains("promoting-refereed-candidates", cycle);
     }
 
     [Fact]
     public void An_enables_edge_is_backed_by_the_artifacts_that_flow_along_it()
     {
         using var f = new MapFixture();
-        Assert.Equal(["candidates"], GraphRules.Backing(f.Doc, "refereeing-a-candidate", "promoting-checked-candidates"));
-        Assert.Empty(GraphRules.Backing(f.Doc, "refereeing-a-candidate", "changing-the-planner-for-v3"));
+        Assert.Equal(["candidates"], GraphRules.Backing(f.Doc, "refereeing-candidates", "promoting-refereed-candidates"));
+        Assert.Empty(GraphRules.Backing(f.Doc, "refereeing-candidates", "changing-the-planner-for-v3"));
     }
 
     [Fact]
@@ -106,8 +106,8 @@ public class GraphRulesTests
     {
         // A review that reads what promote wrote is detection, not prevention.
         using var f = MapFixture.With(MapFixture.PromotingFile,
-            "| promote | hitl | git | candidates hypothesis-record hypothesis-status question-list verification-artifact | hypothesis-record hypothesis-status candidates question-list verification-artifact | specified | Brian decides each candidate |",
-            "| promote | session | git | candidates hypothesis-record hypothesis-status question-list verification-artifact | hypothesis-record hypothesis-status candidates question-list verification-artifact | specified | The session decides |\n" +
+            "| promote | hitl | git | candidates findings hypothesis-record hypothesis-status question-list | hypothesis-record hypothesis-status candidates question-list | specified | Brian decides each candidate |",
+            "| promote | session | git | candidates findings hypothesis-record hypothesis-status question-list | hypothesis-record hypothesis-status candidates question-list | specified | The session decides |\n" +
             "| review | hitl | git | hypothesis-record | question-list | specified | Brian reviews the diff afterwards |");
         Assert.NotEmpty(GraphRules.UngatedPaths(f.Doc, "candidates", WellKnown.HypothesisArtifacts));
     }
@@ -115,7 +115,7 @@ public class GraphRulesTests
     [Fact]
     public void A_cycle_in_the_data_graph_does_not_hang_the_search()
     {
-        // referee-append writes candidates, which referee-run reads: a cycle by construction.
+        // append-verdicts writes candidates, which assemble-referee-batch reads: a cycle by construction.
         using var f = MapFixture.With(MapFixture.PromotingFile, "| promote | hitl |", "| promote | agent |");
         Assert.NotEmpty(GraphRules.UngatedPaths(f.Doc, "candidates", WellKnown.HypothesisArtifacts));
     }

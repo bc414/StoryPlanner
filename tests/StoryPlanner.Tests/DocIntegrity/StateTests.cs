@@ -28,7 +28,8 @@ public class StateTests
         Assert.Contains(" results", line);
         Assert.Contains(" definition", line);
         Assert.Contains(" candidates [2 candidate(s), 2 referee line(s), 1 outcome line(s)]", line);
-        Assert.Contains(" verification-artifact", line);
+        // findings is read, never written, by the fixture's two activities, so it is not among the study-scoped writes listed here.
+        Assert.DoesNotContain(" findings", line);
         Assert.Contains($"- batches: {MapFixture.Batch} [full, directions-1, itemized]", state);
     }
 
@@ -47,7 +48,7 @@ public class StateTests
     public void The_furthest_process_is_the_last_in_chain_order_whose_scoped_writes_all_exist()
     {
         using var f = new MapFixture().WithStateTree();
-        Assert.Contains("furthest process whose study-scoped writes all exist: promote (promoting-checked-candidates)", Build(f));
+        Assert.Contains("furthest process whose study-scoped writes all exist: promote (promoting-refereed-candidates)", Build(f));
     }
 
     [Fact]
@@ -55,7 +56,7 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         File.Delete(Path.Combine(f.StudyDir, "candidates.md"));
-        Assert.Contains("furthest process whose study-scoped writes all exist: referee-judge (refereeing-a-candidate)", Build(f));
+        Assert.Contains("furthest process whose study-scoped writes all exist: assess-referee-items (refereeing-candidates)", Build(f));
     }
 
     [Fact]

@@ -1856,3 +1856,313 @@ rules names the old id in prose.
   place of a codebook. Each fails as before otherwise.
 - not taken: arming the changed checks from the entries that changed the classes,
   which did not name them.
+
+### The findings artifact replaces the verification artifact
+
+- id: d-2026-09-09-13
+- date: 2026-09-09
+- supersedes: d-2026-09-07-29
+- raised by: Brian, reading the candidate unit's frame: "a call is only answering one
+  instruction about one item. That is not a finding. Someone is aggregating all of
+  those results/<item>.md and analyzing that data and the counts in order to get
+  meaning out of it"; then "Agreed that findings.md is what holds analysis, and
+  verification.md is dropped", and on the frame, "Yes, replacing with findings". No
+  process in revision 2 wrote the analysis of a verification: revision 1 held it
+  inside the one session between "write the artifact" and "write the candidates
+  file", unnamed; the 2026-09-05 rewrite made the artifact a shell of tool output,
+  four sections now derivable from the batch files and one a copy of tally.md, and
+  made write-candidates a per-result mapping; state derived a question's answered
+  state from a list of questions with no answer behind it.
+- decision: The class `findings`, `docs/v3-framework/studies/<study>/findings.md`,
+  schema `findings-schema.md`, replaces `verification-artifact`. It holds Method, only
+  what no batch file says: what was deliberately not measured and any caveat of the
+  execution; Findings, entries headed `### <study>/<slug>`, each naming the question
+  it answers, the finding in words, and its citations to the tally sections and the
+  items it rests on; Corrections, appended and dated; Promotion, appended by the
+  promotion session. Counts leave, cited from the batch's tally; the derivable method
+  leaves, the definition, index and calls being the method; Questions answered leaves,
+  a question being answered when a finding names it, derived. A finding reaches a
+  record only through a candidate. What stands of the superseded entry: the study
+  type, its id and its activity; only the artifact's name and content change.
+- not taken: a Findings section added to verification.md, which keeps the mirror of
+  the tally and a name that says nothing about findings; two files, the shell beside
+  the findings; a findings class apart from the study's account, whose readers are
+  exactly this file's; findings born on candidates, which puts the analysis in the
+  party that claims.
+
+### The findings file is Method, Findings, Proposed questions and Shortcomings; an entry is never edited
+
+- id: d-2026-09-09-14
+- date: 2026-09-09
+- supersedes: d-2026-09-09-13
+- raised by: Brian, iterating the findings schema's first draft: on Corrections, "correction
+  is caused by me reading the finding and my instinct/recall disagree, so I want to
+  investigate, human in the loop style, by having claude code check the items"; on
+  Promotion, "This should be dropped then, because promotion is about candidate ->
+  evidence, not finding -> candidate"; and on the shortcomings of the itemizer and the
+  rest of preparing, "What about analysis of shortcomings of the itemizer or other parts
+  of the prep stage?" The superseded entry had Corrections as a section and Promotion
+  appended by the promotion session, the latter the persisted form of revision 1's
+  end-of-promotion report, every part of which is now derivable from candidates.md or
+  sits on an outcome line.
+- decision: `studies/<study>/findings.md` holds Method, only what no batch file says;
+  Findings, entries `### <study>/<slug>`; Proposed questions, one line each, what the
+  data raised that no question asked and no finding claims, none a question until Brian
+  writes it into the list; and Shortcomings, one line each, what the results showed
+  wrong with the study's own instrument, the line's first word naming the part, `item`,
+  `itemizer`, `directions`, `calibration`, `execution` or `corpus`. No Corrections
+  section and no Promotion section. A finding entry is never edited: one checked and
+  found not to hold takes an appended `withdrawn` line with the date and what the
+  results or items showed; one that holds amended is a new entry naming the old in
+  `supersedes`; a standing finding is one neither withdrawn nor superseded. What stands
+  of the superseded entry: the class, its path and schema, that counts and the
+  derivable method leave, and that a finding reaches a record only through a candidate.
+- not taken: a Corrections section of dated lines, which amends a finding from outside
+  its entry and leaves the sweep reading text the review did not confirm; a Promotion
+  section, whose authored remainder, remarks about the pipeline, has no reader in any
+  row; a `checked` line on findings the review confirmed, when the review's own
+  instruction is that nothing enters as a finding unchecked.
+
+### A finding is a conclusion over the verified layer, and the review writes findings too
+
+- id: d-2026-09-09-15
+- date: 2026-09-09
+- raised by: Brian: "findings are subjective conclusions. The only thing treated as
+  ground truth is the items and the calls that did some analysis on the items and gave
+  structured output. So findings can still be part of candidates once checked against
+  the structured output or items?"; then "Prose is not allowed to enter the findings.md
+  file in the first place until already checked. I'm not writing to the file by hand,
+  it's all emergent from a HITL session. The instructions for that HITL activity have to
+  say that anything that comes up in it must be checked before entering the file at all
+  as a finding." The session had drawn the line at pre-registration, treating an
+  observation the data raised as post-hoc; pre-registration is a property of the
+  measurement, which is frozen under every finding alike.
+- decision: The verified layer is the items and the results, never edited; a result found
+  wrong for its item is a shortcoming of the directions and a new version, never a
+  correction. A finding is a conclusion drawn over that layer by a session, usable when it
+  has been drawn from or checked against the results and the items. Two processes write
+  findings: the analysis in verifying-a-corpus, from the tally and the results, and
+  reviewing-findings, which writes a finding only after the session has checked it
+  against the results and the items in that sitting, whether it is a superseding entry
+  for one that held amended or a new one for what Brian raised; Brian's recall enters as
+  the check, never as the finding. Nothing else writes a finding. The sweep's input is
+  every standing finding, whoever wrote it; nothing else in the file feeds a candidate.
+- not taken: the sweep skipping any finding with a correction, which treats a checked
+  amendment as a disqualification; a new calibration after a check, when nothing was
+  re-measured; findings born only in the analysis, which leaves what Brian sees at the
+  review with no way in except a later study.
+
+### A finding answers at most one frozen question; everything else becomes a question
+
+- id: d-2026-09-09-16
+- date: 2026-09-09
+- raised by: Brian: "The findings-schema has a finding tied to a question. I don't think
+  the relationship or cardinality was ever deliberated. What are the options and their
+  consequences?"; then "So we should have finding as one to one with question, and then
+  other free text fields to cover other things, and these are not findings? ... All other
+  data can be used as input for making new questions, feeding subsequent studies?" A
+  directions version names in its frontmatter the questions it freezes; the first draft
+  required one question per finding by habit.
+- decision: A finding names at most one question, and only one the study's directions
+  version froze, in its frontmatter; a question is answered when a standing finding names
+  it, derived, and stays frozen and unanswered otherwise; a finding may name none, being
+  one the data raised, and is a candidate's input all the same once it stands. A finding
+  bearing on two frozen questions is two findings. Proposed questions, shortcomings and
+  withdrawn findings feed the corpus's question list through reviewing-findings and the
+  next study, never a candidate.
+- not taken: exactly one question per finding, which leaves an observation the data
+  raised with no home but a later batch; one or more, which reads one entry as two
+  answers; findings grouped under question headings, which the Shape grammar does not
+  nest and every grep would slice.
+
+### reviewing-findings is an activity, between verifying a corpus and the sweep
+
+- id: d-2026-09-09-17
+- date: 2026-09-09
+- raised by: Brian: "Just like how there is reviewing-leads, does there need to be a
+  reviewing-findings activity?", then on the chain, "HITL reviewing-findings where I
+  challenge things and it checks evidence, and also can add questions for future
+  studies", and on the frame, "Yes, this is good". The founding ruling "Post-WU review
+  is not uniform" made promotion the verification's review when the artifact held
+  counts; promotion reads candidates, ad hoc per hypothesis, after the sweep and the
+  referee, so a null finding, a finding answering a question with no hypotheses, or a
+  wrong finding was never read by Brian; the 2026-09-05 self-check's "the question it
+  raises is Brian's, in the promotion session" was never wired into promote's reads;
+  and d-2026-09-08-14's comparison of verifications by the tally had no row.
+- decision: `reviewing-findings` is an hitl activity, enabled by verifying-a-corpus and
+  enabling the sweep and preparing-to-verify-a-corpus, with one row, `review-findings`,
+  reading findings, tally, results, index, corpus and the hypothesis statements and
+  writing findings and the question list. Brian reads the findings; a finding he doubts
+  is checked by the session against the results and the items and withdrawn or
+  superseded per d-2026-09-09-14; a result he doubts is checked at the item and, if
+  wrong for it, written as a shortcoming, never corrected; what he raises is checked
+  the same way before it is written as a finding, per d-2026-09-09-15; two
+  verifications sharing directions are read against each other by their tallies; the
+  questions he raises go into the corpus's list in his words with the finding's token
+  as what raised them; a finding that shows a hypothesis is missing is handed to
+  minting-a-hypothesis in the same session; one commit. The founding ruling stands
+  refined: exploration's review is reviewing-leads, verification's is reviewing-findings
+  for its findings and promotion for its candidates.
+- not taken: one reviewing activity over either artifact, whose two procedures differ
+  where it matters, the source being the corpus for a lead and the batch files for a
+  finding, and a leads comparison never counted; promotion grown to read the findings,
+  which reaches a finding only after it is a candidate and only when a hypothesis
+  prompts a session; nothing, the current state, in which a null finding is never read;
+  a targets line appended at the review, which Brian ruled out, the sweep being the
+  session's.
+
+### verifying-a-corpus is assemble, assess and write-findings; the host writes the tally at completion
+
+- id: d-2026-09-09-18
+- date: 2026-09-09
+- raised by: Brian: "Then I'm not seeing what verification-run is. Scrap the current
+  verifying-a-corpus.md and start over with how many processes should be here and what
+  they should be called"; "These processes are meant to be instructions to claude code
+  on how to do this activity. What will the claude code auto session actually be
+  calling? ... the cmd line that launches the batch is part of the agent process - it's
+  what the session does to start it. Also, doesn't it do the tally as part of the C#
+  code at the end?"; "Run and Judge do not seem like good terms"; "Execute is too
+  generic for whatever work comes before the calls. Also can it be plural items?";
+  "Good. I like the assemble and then assess prefixes." On the tally's options: "Do
+  --flag and --group-by become tools that the later process putting together findings
+  uses? Or are they overfit from wherever the tallier came from and should just be
+  deleted?" d-2026-09-08-10, whose ruling stands under d-2026-09-09-1 and cannot be
+  superseded again, made `tally-batch` a verb the session runs after the calls, with a
+  flag list and a grouping written into the frozen file, both carried from the audit's
+  script of 2026-09-03; `execute-batch` posts to the host and returns, and nothing in
+  the host wrote the tally. This entry changes what that verb does and leaves the rest.
+- decision: verifying-a-corpus has three processes. `assemble-full-batch`, session, the
+  itemizer and the runner as its instruments: the definition written with kind full, the
+  itemizer run into the batch, dry-run-batch, then execute-batch as the hand-off; it
+  writes definition, index and items, and, by the runner it invoked, calls and tally.
+  `assess-items`, agent: one call per item, the directions as its system prompt, the item
+  as its message, the answer in the declared fields. `write-findings`, session: the
+  analysis into findings.md. The host writes tally.md, the fixed sections only, counts
+  per enum field, malformed, missing and not counted, when the last item has a
+  successful call, and never again; `tally-batch` writes it only when it is absent and
+  otherwise prints; `--group-by <column>` prints a cross-tab of classes by an index
+  column and writes nothing, the analysis's and the review's tool; `--flag` is deleted,
+  being a grep the runner skill's Queries table already gives. What stands of
+  d-2026-09-08-10: the verbs dry-run-batch, execute-batch, tally-batch, start and stop,
+  each batch verb taking a definition's path; the tally's parser as the reader's
+  inverse; no generator, no define, no split; the Markdown itemizer as its own tool;
+  that the runner reads no calibration. Preparing-to-verify's rows mirror these as
+  `assemble-sample-batch` and `assess-sample-items`, its calibration comparing Brian's
+  blind scoring against a tally that now exists without a step.
+- not taken: four processes with the tally its own row, an act the session can forget
+  and whose sections vary by what was typed; the host tallying with flags from a line
+  in the definition, a reading choice in a frozen authored file; the hand-off folded
+  into the agent row, which makes an agent row write calls and tally; `--flag` kept as
+  a view, when it is one grep; the `verification-` prefix, `run` and `judge`, the first
+  redundant where the kind and the act already locate the row, the others a session's
+  words, `run` abolished by d-2026-09-08-16 and left in six ids by its sweep.
+
+### refereeing-candidates is one activity: the sweep, the referee's batch and the verdicts
+
+- id: d-2026-09-09-19
+- date: 2026-09-09
+- raised by: Brian: "I intended for candidates to be a massive flood of salience
+  judgements that goes wide. It is a lot of findings and a lot of hypotheses, like an
+  N x M. I made corrections for the findings, but I'm not going to connect hypotheses
+  one by one. I'll be back for the judgements on the candidates that pass rigor,
+  because then the whole context is there, like the 'would differ if false' data. So
+  should writing-candidates-from-findings and refereeing-a-candidate be one activity?";
+  on the name, "Refereeing-findings undersells what is actually happening"; on the
+  rows, "Looks good". The founding record split writing-candidates-from-verification
+  from refereeing-a-candidate on 2026-09-05, when the referee was prepared as its own
+  instance; since d-2026-09-08-5 the referee is one set of directions for the method
+  and its batches sit under the verifications they judge, so no decision of Brian's
+  sits on the seam, and the stretch from the review to promotion is one autonomous
+  run of session and call rows.
+- decision: `refereeing-candidates` is one activity, enabled by reviewing-findings and
+  by iterating-a-statement, enabling promoting, with four processes.
+  `write-candidates`, session, reads findings, the question list, the hypothesis
+  statements and index and writes candidates: one candidate per standing finding and
+  per hypothesis the session claims it bears on, wide, the finding cited by its token,
+  no falsifier and no verdict. `assemble-referee-batch`, session, the runner as its
+  instrument: for each candidate with no referee line, one item holding the target's
+  current statement and the finding's text materialised from findings.md and nothing
+  else, into a batch under the verification whose definition names the referee's
+  directions and calibration; dry-run-batch; execute-batch as the hand-off; it writes
+  definition, index and items and, by the runner, calls and tally.
+  `assess-referee-items`, agent: one blind call per item writing a falsifier and
+  classifying diagnostic supporting, diagnostic challenging or non-diagnostic.
+  `append-verdicts`, session: each well-formed result's two lines copied under its
+  candidate, a malformed one left for a later execution. A session entering from
+  iterating-a-statement finds no standing finding without candidates and runs the
+  last three over the re-queued ones. The candidate carries the finding's token and
+  never its text. writing-candidates-from-verification and refereeing-a-candidate
+  retire.
+- not taken: two activities as they stood, the sweep renamed
+  writing-candidates-from-findings, a seam no decision sits on; the sweep folded into
+  reviewing-findings, which Brian ruled out; the sweep as a batch of calls claiming
+  hypotheses, salience in a blind call with the hypothesis set as its item, judged
+  twice; `refereeing-findings` as the name, which undersells the sweep; the finding's
+  text copied onto the candidate, a second home for one text.
+
+### Process ids name the act and the batch's kind: assemble, assess, explore, write
+
+- id: d-2026-09-09-20
+- date: 2026-09-09
+- raised by: Brian, on the ids left by d-2026-09-08-16's sweep and by the founding
+  rewrite: "Run and Judge do not seem like good terms"; "where did 'judge' come from?
+  What are the alternatives?"; "I don't think there needs to be a 'verification' prefix";
+  "I just want it to be more representative of what that step actually does"; on the
+  sweep, "The only one that looks weak is read-items. The rest are good", then on
+  `explore-items`, "Looks good". `run` was abolished by d-2026-09-08-16 and its sweep
+  left it in six process ids; `judge` entered on 2026-09-05 from a session's
+  LLM-as-judge framing, questioned by Brian and never endorsed; `join` named the
+  retired arms. Ids are unique across the folder, and the new names are unique because
+  the act or the batch's kind differs per row.
+- decision: A row that invokes the runner is `assemble-<kind>-batch`: the definition
+  written, the items cut or built, dry-run-batch, and execute-batch as the hand-off; a
+  call row is `<act>-<kind>-items`, the act `assess` where the call applies frozen
+  criteria to an item and `explore` where it reads an item for leads; an analysis row
+  is `write-<artifact>`. So: in preparing-to-verify-a-corpus `assemble-sample-batch`
+  and `assess-sample-items`; in verifying-a-corpus `assemble-full-batch`, `assess-items`
+  and `write-findings`; in preparing-to-explore-a-corpus `assemble-exploration-batch`,
+  whose hand-off names the pilot's one item, and `explore-pilot-item`; in
+  exploring-a-corpus `continue-exploration-batch`, whose whole act is execute-batch over
+  the items the pilot left once Brian has read the pilot's result, `explore-items` and
+  `write-leads`; in revising-the-method `assemble-audit-batch` and `assess-audit-items`;
+  in refereeing-candidates the rows of d-2026-09-09-19. `run`, `judge` and `join`
+  leave the folder's ids; the founding record keeps them.
+- not taken: renaming only the `-run` ids, which removes the abolished word and keeps
+  the session's; leaving the ids until something cites them, which the first study's
+  state render would; `read-items`, which dropped the kind and named an act the call
+  does not do plainly; `read-exploration-items`, the pattern without the act; `assess`
+  for an exploring call, which applies no criteria; `execute` in a row id, the runner's
+  verb kept for the runner.
+
+### promoting-checked-candidates is promoting-refereed-candidates
+
+- id: d-2026-09-09-21
+- date: 2026-09-09
+- raised by: Brian: "Maybe 'checked' is colliding with the checker program, so it should
+  become promoting-refereed-candidates?", then "Yes, this rename is good,
+  promoting-refereed-candidates". The id was a session's of 2026-09-03, when checked
+  meant refereed; since d-2026-09-07-9 `check` is the tool's word, one thing the tool
+  holds, and a checked candidate reads as one the hook passed.
+- decision: The activity is `promoting-refereed-candidates`: the file, the Router row
+  and its description, baselining-a-hypothesis's enables line. Refereed is the state
+  its precondition names, a candidate carrying a referee line. `check` and `checked`
+  belong to the tool. The founding entry keeps the old id.
+- not taken: keeping the id and rewording the description, which leaves the collision
+  where every session reads first; `promoting-candidates`, which drops the precondition
+  from the name.
+
+### The exploration's artifact is the class leads
+
+- id: d-2026-09-09-22
+- date: 2026-09-09
+- raised by: the findings class of d-2026-09-09-13 beside `leads-artifact`, its mirror
+  under d-2026-09-07-29, one carrying a suffix the other does not; Brian: "Yes, this
+  rename is fine". The suffix was a session's of 2026-09-05, when artifact named a
+  work unit's output document; since 2026-09-07 the artifacts are the governed files
+  as a whole, and the class's checks were already `leads.title` and `leads.sections`.
+- decision: The class is `leads`, its schema `schemas/leads-schema.md`, its path
+  `studies/<study>/leads.md` and its checks unchanged. The rows that name it, the
+  map's constant and the tests follow in the same pass as d-2026-09-09-20's sweep.
+  d-2026-09-07-34 keeps the old id as a record.
+- not taken: leaving the asymmetry; `findings-artifact` for the mirror, a suffix the
+  vocabulary has emptied.

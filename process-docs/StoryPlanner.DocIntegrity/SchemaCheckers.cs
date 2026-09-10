@@ -30,7 +30,8 @@ public static class SchemaCheckers
         _ when WellKnown.HypothesisArtifacts.Contains(artifactId) => HypothesisFile.Check,
         WellKnown.HypothesisIndex => HypothesisIndex.Check,
         WellKnown.Studies => Registry.Check,
-        WellKnown.LeadsArtifact => Leads.Check,
+        WellKnown.Leads => Leads.Check,
+        WellKnown.Findings => FindingsChecker.Check,
         WellKnown.Corpora => Corpora.Check,
         WellKnown.Decisions => Decisions.Check,
         WellKnown.QuestionList => Questions.Check,
@@ -42,7 +43,7 @@ public static class SchemaCheckers
 
     /// <summary>The artifact ids that dispatch to a checker, one per class (the three hypothesis rows count once).</summary>
     public static readonly string[] CheckedIds =
-        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.LeadsArtifact, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList,
+        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.Leads, WellKnown.Findings, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList,
          WellKnown.Directions, WellKnown.Index, WellKnown.Definition];
 
     internal static string[] Lines(string path) => File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');
@@ -378,7 +379,7 @@ public static class Registry
     }
 }
 
-/// <summary>schemas/leads-artifact-schema.md: titled by its study, five sections in order (d-2026-09-08-19).</summary>
+/// <summary>schemas/leads-schema.md: titled by its study, five sections in order (d-2026-09-08-19); the class is `leads` since d-2026-09-09-22.</summary>
 public static class Leads
 {
     public static readonly string[] Sections = ["Method", "Questions in view", "Leads", "Proposed questions", "Corrections"];

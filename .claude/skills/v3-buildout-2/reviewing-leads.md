@@ -4,7 +4,7 @@ Enables preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| review-leads | hitl | git | leads-artifact corpus hypothesis-statement | leads-artifact question-list | specified | Brian and the session over a leads artifact, or two of one corpus: leads challenged at the source and corrected, the differences between explorations read as leads about the readers, and the questions Brian raises written into the corpus's list |
+| review-leads | hitl | git | leads corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads artifact, or two of one corpus: leads challenged at the source and corrected, the differences between explorations read as leads about the readers, and the questions Brian raises written into the corpus's list |
 | ask | hitl | git | hypothesis-index hypothesis-statement question-list | question-list | built | Ad hoc: a question Brian raises in conversation about the framework, written into a corpus's list |
 
 ## Preconditions

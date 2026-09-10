@@ -7,16 +7,17 @@ the check ids the hook reports.
 
 ## Shape
 
-The title is `# <corpus> — questions`, `<corpus>` the file's own name and an id in
-CORPORA.md.
+The title is `# <corpus> — questions`, where `<corpus>` is the file's name without its
+extension and an id in CORPORA.md: the list is the corpus's, and the file is named for it.
 
 | section | present | holds |
 |---|---|---|
 | the whole file after the title | required | entries; no head prose, no sections |
 
-An entry's heading is `### <corpus>/<slug>`, type token of question-list, the corpus the
-file's own name and the slug unique in its list, authored with the entry and never
-changed; a reworded question is a new entry and the old one withdrawn. The heading is
+An entry's heading is `### <corpus>/<slug>`, type token of question-list, where
+`<corpus>` repeats the corpus the file is named for and `<slug>` is unique in the list,
+authored with the entry and never changed; a reworded question is a new entry and the
+old one withdrawn. The heading is
 the token every other file cites, so one grep finds the definition and the uses
 together. Then keyed lines in this order and no other line, a value continuing on lines
 indented two spaces:
@@ -73,8 +74,8 @@ process, since a question is Brian's, and the class is append: no line is ever e
 
 | check | fails when |
 |---|---|
-| `question.title` | the title is not `# <corpus> — questions` with the file's own name, or the corpus is not an id in CORPORA.md |
-| `question.slug` | a heading is not `<corpus>/<slug>` with the file's own corpus and a lowercase slug, or repeats a slug in the list |
+| `question.title` | the title is not `# <corpus> — questions` with the corpus the file is named for, or that corpus is not an id in CORPORA.md |
+| `question.slug` | a heading is not `<corpus>/<slug>` with the corpus the file is named for and a lowercase slug, or repeats a slug in the list |
 | `question.entry.fields` | a key is missing, unknown or out of order; a line in an entry is neither keyed nor continuation; a line sits outside every entry |
 | `question.entry.date` | a date is not `YYYY-MM-DD`, or is earlier than the entry before it |
 | `question.hypotheses` | an id is not `NNN`, or names no hypothesis file |

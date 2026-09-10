@@ -136,10 +136,10 @@ public static class WellKnown
     public const string Calls = "calls";
     public const string Results = "results";
     public const string Tally = "tally";
-    public const string VerificationArtifact = "verification-artifact";
+    public const string Findings = "findings";
     public const string HypothesisStatus = "hypothesis-status";
     public const string HypothesisIndex = "hypothesis-index";
-    public const string LeadsArtifact = "leads-artifact";
+    public const string Leads = "leads";
     public const string Corpora = "corpora";
     public const string Decisions = "decisions";
 
