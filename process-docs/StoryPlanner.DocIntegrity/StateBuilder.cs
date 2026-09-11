@@ -30,14 +30,9 @@ public static class StateBuilder
     static readonly string[] ExplorationChain =
         ["preparing-to-explore-a-corpus", "exploring-a-corpus", "reviewing-leads"];
 
-    // refereeing-candidates was renamed to surfacing-candidates in the skill router (2026-09-11);
-    // this chain still names the old id and must be updated to "surfacing-candidates" at the first
-    // verification study. Deferred until then because the chain is only read to render state.md
-    // for a verification study, of which none exist yet — the same dormant-render deferral as the
-    // iterations/ scan. An activity a chain names that the tables do not carry is skipped and said so.
     static readonly string[] VerificationChain =
         ["preparing-to-verify-a-corpus", "verifying-a-corpus", "reviewing-findings",
-         "refereeing-candidates", "promoting-refereed-candidates"];
+         "surfacing-candidates", "promoting-refereed-candidates"];
 
     static readonly string[] AuditChain = ["revising-the-method"];
 
@@ -73,6 +68,7 @@ public static class StateBuilder
 
         var questions = ReadQuestions(repoRoot, doc, out var questionsNote);
         Studies(sb, repoRoot, doc);
+        Iterations(sb, repoRoot, doc);
         Corpora(sb, repoRoot, doc, questions, questionsNote);
         Hypotheses(sb, repoRoot, doc, questions);
         return sb.ToString();
@@ -157,6 +153,48 @@ public static class StateBuilder
         }
     }
 
+    // ---- iterations ----
+
+    /// <summary>
+    /// Per iteration folder (d-2026-09-11-4): an iteration's re-verification is no study, but its
+    /// folder mirrors a study's under <c>docs/v3-framework/iterations/</c>, so the render scans
+    /// that sibling of <c>studies/</c> for <c>iteration-of-*</c> folders and shows each one's
+    /// batches, the same way a study's are shown. An iteration is not in the registry; its
+    /// existence and ordinal are read from the folder name.
+    /// </summary>
+    static void Iterations(StringBuilder sb, string repoRoot, SkillDocument doc)
+    {
+        sb.Append("## Iterations\n\n");
+        var dir = Path.Combine(repoRoot, "docs", "v3-framework", "iterations");
+        if (!Directory.Exists(dir)) { sb.Append("None: `docs/v3-framework/iterations/` does not exist.\n\n"); return; }
+        var folders = Directory.GetDirectories(dir)
+            .Select(Path.GetFileName)
+            .Where(n => n is not null && n.StartsWith(IterationPrefix, StringComparison.Ordinal))
+            .OrderBy(n => n, StringComparer.Ordinal)
+            .ToList();
+        if (folders.Count == 0) { sb.Append("None.\n\n"); return; }
+        foreach (var slug in folders)
+        {
+            sb.Append($"### {slug}\n\n");
+            var (hypothesis, ordinal) = IterationParts(slug!);
+            sb.Append($"- of hypothesis: {hypothesis ?? "?"} · iteration: {(ordinal?.ToString() ?? "?")}\n");
+            Batches(sb, repoRoot, doc, slug!);
+            sb.Append('\n');
+        }
+    }
+
+    const string IterationPrefix = "iteration-of-";
+
+    /// <summary>The hypothesis file name and ordinal an <c>iteration-of-&lt;hypothesis-file-name&gt;-&lt;N&gt;</c> folder names.</summary>
+    public static (string? Hypothesis, int? Ordinal) IterationParts(string slug)
+    {
+        if (!slug.StartsWith(IterationPrefix, StringComparison.Ordinal)) return (null, null);
+        var rest = slug[IterationPrefix.Length..];
+        var dash = rest.LastIndexOf('-');
+        if (dash < 0 || !int.TryParse(rest[(dash + 1)..], out var n)) return (rest.Length == 0 ? null : rest, null);
+        return (rest[..dash], n);
+    }
+
     /// <summary>The study's batches from their definitions: kind, directions version, executed (a calls file), tallied.</summary>
     static void Batches(StringBuilder sb, string repoRoot, SkillDocument doc, string folder)
     {
@@ -200,13 +238,23 @@ public static class StateBuilder
     /// <summary>A study's folder is its registry id (SKILL.md § Artifacts); the referee has none.</summary>
     public static string StudyFolder(string studyId) => studyId;
 
+    /// <summary>
+    /// The promoted, declined and pending counts over a generated candidates.md (d-2026-09-10-9),
+    /// read from the status the view materialises per diagnostic candidate — promoted where a
+    /// hypothesis record cites it, declined from declined-candidates.md, else pending
+    /// (d-2026-09-10-7). Non-diagnostic claims carry no status and are not counted.
+    /// </summary>
     static string CandidateCounts(string file)
     {
-        var lines = File.ReadAllText(file).Replace("\r\n", "\n").Split('\n').Select(l => l.TrimEnd()).ToList();
-        var candidates = lines.Count(l => l.StartsWith("### ", StringComparison.Ordinal));
-        var referee = lines.Count(l => l.TrimStart().StartsWith("- referee:", StringComparison.Ordinal));
-        var outcome = lines.Count(l => l.TrimStart().StartsWith("- outcome:", StringComparison.Ordinal));
-        return $"{candidates} candidate(s), {referee} referee line(s), {outcome} outcome line(s)";
+        int promoted = 0, declined = 0, pending = 0;
+        foreach (var raw in File.ReadAllText(file).Replace("\r\n", "\n").Split('\n'))
+        {
+            var l = raw.Trim();
+            if (l == "- status: promoted") promoted++;
+            else if (l == "- status: declined") declined++;
+            else if (l == "- status: pending") pending++;
+        }
+        return $"{promoted} promoted, {declined} declined, {pending} pending";
     }
 
     // ---- files on disk matching an artifact's pattern ----

@@ -6,6 +6,10 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 
 Registry `docs/v3-framework/studies.md` holds no rows.
 
+## Iterations
+
+None: `docs/v3-framework/iterations/` does not exist.
+
 ## Corpora
 
 Question lists absent: `docs/v3-framework/questions/` does not exist.

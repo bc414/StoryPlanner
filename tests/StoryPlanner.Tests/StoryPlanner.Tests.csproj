@@ -39,6 +39,7 @@
         <ProjectReference Include="..\..\process-docs\StoryPlanner.DocIntegrity\StoryPlanner.DocIntegrity.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.MarkdownItemizer\StoryPlanner.MarkdownItemizer.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.SurfacingItemizer\StoryPlanner.SurfacingItemizer.csproj" />
     </ItemGroup>
 
 </Project>

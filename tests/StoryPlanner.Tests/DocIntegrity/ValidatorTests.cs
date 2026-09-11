@@ -13,7 +13,7 @@ public class ValidatorTests
 {
     const string Skill = MapFixture.SkillFile;
     const string Artifacts = MapFixture.SkillFile;
-    const string Refereeing = MapFixture.RefereeingFile;
+    const string Surfacing = MapFixture.SurfacingFile;
     const string Promoting = MapFixture.PromotingFile;
 
     static string[] Rules(MapFixture f)
@@ -60,25 +60,25 @@ public class ValidatorTests
 
     [Fact]
     public void An_id_used_in_two_tables_is_a_duplicate()
-        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | docs/v3-framework/studies/<study>/batches/<batch>/items/", "| promote | docs/v3-framework/studies/<study>/batches/<batch>/items/"));
+        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | docs/v3-framework/<container>/<study>/batches/<batch>/items/", "| promote | docs/v3-framework/<container>/<study>/batches/<batch>/items/"));
 
     [Fact]
     public void An_id_outside_the_lowercase_slug_charset_fails()
-        => Fails("id.charset", MapFixture.With(Refereeing, "assess-referee-items", "Assess-Referee-Items"));
+        => Fails("id.charset", MapFixture.With(Surfacing, "assess-referee-items", "Assess-Referee-Items"));
 
     [Fact]
     public void An_enables_cell_naming_no_activity_does_not_resolve()
-        => Fails("ref.enables", MapFixture.With(Skill, "| refereeing-candidates | promoting-refereed-candidates |", "| refereeing-candidates | nowhere |"));
+        => Fails("ref.enables", MapFixture.With(Skill, "| surfacing-candidates | promoting-refereed-candidates |", "| surfacing-candidates | nowhere |"));
 
     [Fact]
     public void A_read_naming_no_artifact_does_not_resolve()
-        => Fails("ref.reads", MapFixture.With(Refereeing, "| directions items | results |", "| directions nope | results |"));
+        => Fails("ref.reads", MapFixture.With(Surfacing, "| directions items | results |", "| directions nope | results |"));
 
     [Fact]
     public void A_write_naming_no_artifact_does_not_resolve()
-        => Fails("ref.writes", MapFixture.With(Refereeing, "| directions items | results | specified |", "| directions items | nope | specified |"));
+        => Fails("ref.writes", MapFixture.With(Surfacing, "| directions items | results | specified |", "| directions items | nope | specified |"));
 
-    const string CandidateCell = "| [candidate-schema](schemas/candidate-schema.md) |";
+    const string CandidateCell = "| [findings-schema](schemas/findings-schema.md) |";
 
     [Fact]
     public void A_schema_naming_no_file_under_schemas_does_not_resolve()
@@ -102,13 +102,13 @@ public class ValidatorTests
 
     [Fact]
     public void A_schema_id_that_is_an_artifact_id_fails()
-        => Fails("ref.schema", MapFixture.With(Artifacts, "| candidates | docs/v3-framework/studies/<study>/candidates.md |", "| candidate-schema | docs/v3-framework/studies/<study>/candidates.md |"));
+        => Fails("ref.schema", MapFixture.With(Artifacts, "| findings | docs/v3-framework/studies/<study>/findings.md |", "| findings-schema | docs/v3-framework/studies/<study>/findings.md |"));
 
     [Fact]
     public void A_schema_file_whose_title_is_not_its_id_fails_the_shape()
     {
         using var f = new MapFixture();
-        f.WriteSchema("candidate-schema", "# Candidate-schema\n\nThe shape.\n");
+        f.WriteSchema("findings-schema", "# Findings-schema\n\nThe shape.\n");
         Assert.Contains("schema.shape", Rules(f));
     }
 
@@ -135,15 +135,15 @@ public class ValidatorTests
 
     [Fact]
     public void A_mode_outside_the_closed_set_fails()
-        => Fails("enum.mode", MapFixture.With(Refereeing, "| assess-referee-items | agent |", "| assess-referee-items | robot |"));
+        => Fails("enum.mode", MapFixture.With(Surfacing, "| assess-referee-items | agent |", "| assess-referee-items | robot |"));
 
     [Fact]
     public void Two_modes_on_one_row_fail_because_a_process_is_one_run_of_one_mode()
-        => Fails("row.mode-count", MapFixture.With(Refereeing, "| assess-referee-items | agent |", "| assess-referee-items | agent session |"));
+        => Fails("row.mode-count", MapFixture.With(Surfacing, "| assess-referee-items | agent |", "| assess-referee-items | agent session |"));
 
     [Fact]
     public void A_state_outside_the_closed_set_fails()
-        => Fails("enum.state", MapFixture.With(Refereeing, "| results | specified | Writes the falsifier blind |", "| results | maybe | Writes the falsifier blind |"));
+        => Fails("enum.state", MapFixture.With(Surfacing, "| results | specified | Writes the falsifier blind |", "| results | maybe | Writes the falsifier blind |"));
 
     [Fact]
     public void A_mutation_outside_the_closed_set_fails()
@@ -153,21 +153,21 @@ public class ValidatorTests
 
     [Fact]
     public void A_process_reading_nothing_fails_because_it_is_deriving_from_recall()
-        => Fails("row.reads-empty", MapFixture.With(Refereeing, "| assess-referee-items | agent | | directions items |", "| assess-referee-items | agent | |  |"));
+        => Fails("row.reads-empty", MapFixture.With(Surfacing, "| assess-referee-items | agent | | directions items |", "| assess-referee-items | agent | |  |"));
 
     [Fact]
     public void A_process_writing_nothing_fails_because_it_is_indistinguishable_from_not_running()
-        => Fails("row.writes-empty", MapFixture.With(Refereeing, "| directions items | results | specified |", "| directions items |  | specified |"));
+        => Fails("row.writes-empty", MapFixture.With(Surfacing, "| directions items | results | specified |", "| directions items |  | specified |"));
 
     [Fact]
     public void An_hitl_process_writing_nothing_fails_under_its_own_rule_too()
         => Fails("row.hitl-writes-nothing", MapFixture.With(Promoting,
-            "| hypothesis-record hypothesis-status candidates question-list | specified |",
+            "| hypothesis-record hypothesis-status question-list | specified |",
             "|  | specified |"));
 
     [Fact]
     public void A_process_with_no_description_fails()
-        => Fails("row.description-empty", MapFixture.With(Refereeing, "| specified | Writes the falsifier blind |", "| specified |  |"));
+        => Fails("row.description-empty", MapFixture.With(Surfacing, "| specified | Writes the falsifier blind |", "| specified |  |"));
 
     // ---- artifacts ----
 
@@ -179,8 +179,8 @@ public class ValidatorTests
     [Fact]
     public void An_artifact_no_process_reads_fails()
         => Fails("artifact.never-read", MapFixture.With(Artifacts,
-            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
-            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
+            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
+            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
 
     [Fact]
     public void An_artifact_no_process_writes_is_information_not_a_verdict()
@@ -195,7 +195,7 @@ public class ValidatorTests
 
     [Fact]
     public void A_cycle_in_enables_fails()
-        => Fails("enables.cycle", MapFixture.With(Skill, "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | refereeing-candidates |"));
+        => Fails("enables.cycle", MapFixture.With(Skill, "| changing-the-planner-for-v3 | |", "| changing-the-planner-for-v3 | surfacing-candidates |"));
 
     [Fact]
     public void Two_activities_enabling_nothing_fail_the_one_terminus_rule()
@@ -238,8 +238,8 @@ public class ValidatorTests
     public void A_gate_with_no_hypothesis_writer_is_reported_as_vacuous_rather_than_passing()
     {
         using var f = MapFixture.With(Promoting,
-            "| hypothesis-record hypothesis-status candidates question-list | specified |",
-            "| candidates question-list | specified |");
+            "| hypothesis-record hypothesis-status question-list | specified |",
+            "| question-list | specified |");
         var report = f.Report;
         Assert.Contains(report.Findings, x => x.CheckId == "gate.vacuous" && x.Level == FindingLevel.Vacuous);
         Assert.True(report.Passed);
@@ -249,21 +249,21 @@ public class ValidatorTests
 
     [Fact]
     public void A_non_hitl_writer_of_the_question_list_fails()
-        => Fails("question-list.writer-not-hitl", MapFixture.With(Refereeing, "| definition index results candidates | candidates |", "| definition index results candidates | candidates question-list |"));
+        => Fails("question-list.writer-not-hitl", MapFixture.With(Surfacing, "| definition index results | candidates |", "| definition index results | candidates question-list |"));
 
     // ---- the mutation rule, frozen only, series exempt ----
 
     [Fact]
     public void A_process_reading_and_writing_a_frozen_artifact_fails()
-        => Fails("mutation.read-and-write", MapFixture.With(Refereeing, "| directions items | results |", "| directions items | results items |"));
+        => Fails("mutation.read-and-write", MapFixture.With(Surfacing, "| directions items | results |", "| directions items | results items |"));
 
     [Fact]
     public void A_process_reading_and_writing_a_frozen_series_is_not_reported_because_it_writes_the_next_member()
     {
         // assemble-referee-batch reads calibration (frozen, dated); make it write one too.
-        using var f = MapFixture.With(Refereeing,
-            "| studies calibration directions candidates | definition index items |",
-            "| studies calibration directions candidates | definition index items calibration |");
+        using var f = MapFixture.With(Surfacing,
+            "| studies calibration directions | definition index items |",
+            "| studies calibration directions | definition index items calibration |");
         Assert.DoesNotContain("mutation.read-and-write", Rules(f));
     }
 
@@ -271,7 +271,7 @@ public class ValidatorTests
     public void A_process_reading_and_writing_a_succeeded_or_append_artifact_is_not_reported()
     {
         // promote reads and writes candidates (append); make assess-referee-items read and write directions (succeeded).
-        using var f = MapFixture.With(Refereeing, "| directions items | results |", "| directions items | results directions |");
+        using var f = MapFixture.With(Surfacing, "| directions items | results |", "| directions items | results directions |");
         Assert.DoesNotContain("mutation.read-and-write", Rules(f));
     }
 
@@ -279,11 +279,11 @@ public class ValidatorTests
 
     [Fact]
     public void A_section_that_is_not_a_process_id_fails_the_shape()
-        => Fails("file.shape", MapFixture.With(Refereeing, "## assess-referee-items", "## assessing-referee-items"));
+        => Fails("file.shape", MapFixture.With(Surfacing, "## assess-referee-items", "## assessing-referee-items"));
 
     [Fact]
     public void A_title_that_is_not_the_activity_id_fails_the_shape()
-        => Fails("file.shape", MapFixture.With(Refereeing, "# refereeing-candidates", "# Refereeing"));
+        => Fails("file.shape", MapFixture.With(Surfacing, "# surfacing-candidates", "# Surfacing"));
 
     // ---- decisions are cited only in revising-the-method ----
 
@@ -299,7 +299,7 @@ public class ValidatorTests
     public void A_decision_id_inside_a_fenced_example_is_the_shape_not_a_citation()
     {
         using var f = new MapFixture();
-        f.WriteSchema("candidate-schema", "# candidate-schema\n\n```markdown\n- supersedes: d-2026-09-04-16\n```\n");
+        f.WriteSchema("findings-schema", "# findings-schema\n\n```markdown\n- supersedes: d-2026-09-04-16\n```\n");
         Assert.DoesNotContain("decision.id-outside-revising", Rules(f));
     }
 
@@ -307,7 +307,7 @@ public class ValidatorTests
     public void A_decision_id_in_a_schema_file_outside_a_fence_is_a_failure()
     {
         using var f = new MapFixture();
-        f.WriteSchema("candidate-schema", "# candidate-schema\n\nPer d-2026-09-05-3.\n");
+        f.WriteSchema("findings-schema", "# findings-schema\n\nPer d-2026-09-05-3.\n");
         Assert.Contains("decision.id-outside-revising", Rules(f));
     }
 

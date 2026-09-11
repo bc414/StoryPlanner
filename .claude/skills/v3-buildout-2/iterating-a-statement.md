@@ -28,9 +28,11 @@ hypothesis file, never resolved through the studies. It holds no falsifier, no c
 entry. The batch folder is under
 `docs/v3-framework/iterations/iteration-of-<hypothesis-file-name>-<N>/`, `<N>` the ordinal of
 this hypothesis's iterations, the same folder structure as a study so the consumers' lookup
-patterns generalise; the itemizer writes the index with the corpus `candidates` and the items;
-the definition, of kind full, names the referee's directions and their accepting calibration by
-relative path into the referee folder, and the referee's model and effort. Then, per the
+patterns generalise; the reverify itemizer — `tools/StoryPlanner.SurfacingItemizer`, its
+`reverify` subcommand over the hypothesis file and the proposed wording into this batch — writes
+the index (corpus `candidates`, each item's locator the entry's finding token) and the item
+bodies; the definition, of kind full, names the referee's directions and their accepting
+calibration by relative path into the referee folder, and the referee's model and effort. Then, per the
 `agent-runner` skill, dry-run-batch and execute-batch, the hand-off; the host calls every item
 and writes the tally when the last has a result. No pilot: the referee's calibration was it.
 

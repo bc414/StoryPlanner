@@ -23,8 +23,11 @@ promoting-refereed-candidates to reflect outcomes.
 The session reads every standing finding of the verification, neither withdrawn nor superseded,
 and assembles a claiming batch under the study whose directions carry the whole hypothesis set —
 each statement — as their stable prefix, so the set is the cached prefix across the calls, and
-each finding is one item. The batch names the study's model, which is a parameter, never fixed
-here; mind the model's cache floor so the hypothesis prefix caches. Per the `agent-runner` skill:
+each finding is one item. The claiming itemizer — `tools/StoryPlanner.SurfacingItemizer`, its
+`claim` subcommand over the study's `findings.md` into the batch folder — cuts the standing
+findings into the item bodies and writes the index with the corpus `candidates`. The batch names
+the study's model, which is a parameter, never fixed here; mind the model's cache floor so the
+hypothesis prefix caches. Per the `agent-runner` skill:
 dry-run-batch, execute-batch, the hand-off; the host calls every finding and writes the tally at
 completion. The results are the claims on disk — no separate authored artifact.
 
@@ -41,9 +44,12 @@ One referee item per claim — per (finding, target) pair the claiming results n
 holds exactly two things: the target's current statement, copied from `## Hypothesis` with no
 frontmatter, no record; and the finding's text, materialised from `findings.md` through the
 finding's token. It holds no citation, no locator, no other candidate, and nothing anyone wrote
-as a falsifier. The batch folder is under the verification; the itemizer writes the index with
-the corpus `candidates` and the items; the definition, of kind full, names the referee's
-directions and their accepting calibration by relative path into the referee folder.
+as a falsifier. The batch folder is under the verification; the referee itemizer — the same
+tool's `referee` subcommand over the claiming batch, this batch and `docs/v3-framework/hypotheses/`
+— reads the claiming results and writes the index (corpus `candidates`, each item's locator its
+candidate identity `<finding-slug> → <target>`, which compose reads back) and the item bodies; the
+definition, of kind full, names the referee's directions and their accepting calibration by
+relative path into the referee folder.
 dry-run-batch; execute-batch; the host calls every item and writes the tally. No pilot: the
 referee's calibration was it.
 
@@ -58,8 +64,8 @@ a false diagnostic costs a hypothesis's record.
 
 ## compose-candidates
 
-Not a session's judgment: a mechanical join the session invokes through DocIntegrity. It reads
-the claiming results (the (finding, target) claims), findings.md (the finding text), the referee
+Not a session's judgment: a mechanical join the session runs as `DocIntegrity compose <study>`. It
+reads the claiming results (the (finding, target) claims), findings.md (the finding text), the referee
 results (verdict and falsifier per candidate), declined-candidates.md (declined, with reasons)
 and the hypothesis records (promoted, by their citations), and writes candidates.md whole: the
 diagnostic candidates in one section that opens the document, each materialising its identity

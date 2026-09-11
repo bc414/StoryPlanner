@@ -61,6 +61,7 @@ try
     {
         "check" => RunCheck(),
         "render" => RunRender(),
+        "compose" => RunCompose(),
         "hook" => RunHook(),
         _ => Usage($"Unknown verb '{verb}'."),
     };
@@ -112,6 +113,23 @@ int RunRender()
     return 0;
 }
 
+int RunCompose()
+{
+    if (positional.Count != 1) return Usage("compose takes one argument: a verification study's folder.");
+    var studyDir = Path.GetFullPath(positional[0]);
+    if (!Directory.Exists(studyDir)) { Console.Error.WriteLine($"No such folder: {studyDir}"); return 2; }
+    var repoRoot = RepoRootFor(studyDir);
+    var skillFolder = GovernedSkill.All(repoRoot).FirstOrDefault();
+    if (skillFolder is null)
+    {
+        Console.Error.WriteLine("compose: no governed skill folder under the repository root; the hypothesis records cannot be located.");
+        return 1;
+    }
+    var path = Compose.Write(CheckContext.From(repoRoot, skillFolder), studyDir);
+    Console.WriteLine($"Wrote {path}");
+    return 0;
+}
+
 int RunHook()
 {
     var outcome = WriteHook.Run(Console.In.ReadToEnd());
@@ -154,6 +172,7 @@ int Usage(string? message = null)
                                                                         a skill folder's shape, a governed file's schema,
                                                                         a folder's whole set; `check .` is the repository
           DocIntegrity render <skill-folder> [--force] [--repo <path>]  map.md and state.md, whole
+          DocIntegrity compose <study-folder> [--repo <path>]           candidates.md for a verification, from its referee results
           DocIntegrity hook                                             (reads a Claude Code PostToolUse event from stdin)
         """);
     return 2;

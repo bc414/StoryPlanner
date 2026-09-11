@@ -410,7 +410,7 @@ public class SchemaCheckersTests : IDisposable
     CheckContext FullCtx(params string[] corpora)
     {
         File.WriteAllText(Path.Combine(_skill, "SKILL.md"), MapFixture.Skill);
-        File.WriteAllText(Path.Combine(_skill, MapFixture.RefereeingFile), MapFixture.Refereeing);
+        File.WriteAllText(Path.Combine(_skill, MapFixture.SurfacingFile), MapFixture.Surfacing);
         File.WriteAllText(Path.Combine(_skill, MapFixture.PromotingFile), MapFixture.Promoting);
         return Ctx(corpora);
     }

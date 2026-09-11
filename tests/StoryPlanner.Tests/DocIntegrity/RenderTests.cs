@@ -19,8 +19,8 @@ public class RenderTests
         using var f = new MapFixture();
         var level1 = MermaidRenderer.Level1(f.Doc);
         Assert.Contains("changingtheplannerforv3[[\"changing-the-planner-for-v3\"]]:::terminus", level1);
-        Assert.Contains("refereeingcandidates[\"refereeing-candidates\"]:::activity", level1);
-        Assert.Contains("refereeingcandidates --> promotingrefereedcandidates", level1);
+        Assert.Contains("surfacingcandidates[\"surfacing-candidates\"]:::activity", level1);
+        Assert.Contains("surfacingcandidates --> promotingrefereedcandidates", level1);
         Assert.Contains("promotingrefereedcandidates --> changingtheplannerforv3", level1);
     }
 
@@ -28,12 +28,12 @@ public class RenderTests
     public void An_activity_section_draws_its_processes_by_mode_and_the_artifacts_they_touch()
     {
         using var f = new MapFixture();
-        var section = MermaidRenderer.Activity(f.Doc, "refereeing-candidates");
+        var section = MermaidRenderer.Activity(f.Doc, "surfacing-candidates");
         Assert.Contains("assemblerefereebatch[\"assemble-referee-batch<br/>session\"]:::session", section);
         Assert.Contains("assessrefereeitems([\"assess-referee-items<br/>agent\"]):::agent", section);
         Assert.Contains("candidates[/\"candidates\"/]:::artifact", section);
         Assert.Contains("directions --> assemblerefereebatch", section);
-        Assert.Contains("appendverdicts --> candidates", section);
+        Assert.Contains("composecandidates --> candidates", section);
         Assert.DoesNotContain("promote", section);
     }
 
@@ -47,22 +47,22 @@ public class RenderTests
     [Fact]
     public void An_instrument_read_is_a_dashed_edge()
     {
-        using var f = MapFixture.With(MapFixture.RefereeingFile,
+        using var f = MapFixture.With(MapFixture.SurfacingFile,
             "| assess-referee-items | agent | | directions items |", "| assess-referee-items | agent | items | directions |");
-        Assert.Contains("items -.-> assessrefereeitems", MermaidRenderer.Activity(f.Doc, "refereeing-candidates"));
+        Assert.Contains("items -.-> assessrefereeitems", MermaidRenderer.Activity(f.Doc, "surfacing-candidates"));
     }
 
     [Fact]
     public void An_activity_section_carries_what_the_tables_derive_for_it()
     {
         using var f = new MapFixture();
-        var section = MermaidRenderer.Activity(f.Doc, "refereeing-candidates");
+        var section = MermaidRenderer.Activity(f.Doc, "surfacing-candidates");
         Assert.Contains("- **inputs**: calibration directions studies", section);
         Assert.Contains("- **outputs**: candidates definition index items results", section);
         Assert.Contains("- **instruments**: runner", section);
         Assert.Contains("- **enabled by**: —", section);
         Assert.Contains("- **enables**: promoting-refereed-candidates", section);
-        Assert.Contains("- **enabled by**: refereeing-candidates",
+        Assert.Contains("- **enabled by**: surfacing-candidates",
             MermaidRenderer.Activity(f.Doc, "promoting-refereed-candidates"));
     }
 
@@ -72,12 +72,12 @@ public class RenderTests
         using var f = new MapFixture();
         var map = MermaidRenderer.Map(f.Doc, f.Report, forced: false);
         Assert.Contains("## The activities", map);
-        Assert.Contains("### refereeing-candidates", map);
+        Assert.Contains("### surfacing-candidates", map);
         Assert.Contains("### promoting-refereed-candidates", map);
         Assert.DoesNotContain("### changing-the-planner-for-v3", map);
         Assert.Contains("- **enables**: promoting-refereed-candidates", map);
-        Assert.Contains("subgraph refereeingcandidates[\"refereeing-candidates\"]", map);
-        Assert.Contains("| candidates | promote append-verdicts | promote assemble-referee-batch append-verdicts | — |", map);
+        Assert.Contains("subgraph surfacingcandidates[\"surfacing-candidates\"]", map);
+        Assert.Contains("| candidates | compose-candidates | promote | — |", map);
         Assert.Contains("Last run: **passed**", map);
         Assert.DoesNotContain(MapTables.GeneratedOpenPrefix, map);
     }
@@ -109,8 +109,8 @@ public class RenderTests
     public void Ids_that_merge_once_hyphens_are_dropped_are_refused_before_drawing()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
-            "| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| assemblerefereebatch | docs/x.md | frozen | | Collides with assemble-referee-batch |");
+            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
+            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| assemblerefereebatch | docs/x.md | frozen | | Collides with assemble-referee-batch |");
         Assert.Throws<MapFormatException>(() => MermaidRenderer.CheckNodeIds(f.Doc));
     }
 
@@ -120,12 +120,12 @@ public class RenderTests
     public void Write_produces_both_generated_files_and_touches_no_authored_file_that_is_clean()
     {
         using var f = new MapFixture();
-        var before = f.Read(MapFixture.RefereeingFile);
+        var before = f.Read(MapFixture.SurfacingFile);
         var written = Render.Write(f.RepoRoot, f.SkillFolder, f.Doc, f.Report, forced: false);
         Assert.Equal([Path.Combine(f.SkillFolder, Render.MapFile), Path.Combine(f.SkillFolder, Render.StateFile)], written);
         Assert.Contains("## Each activity", File.ReadAllText(Path.Combine(f.SkillFolder, Render.MapFile)));
         Assert.Contains("## Studies", File.ReadAllText(Path.Combine(f.SkillFolder, Render.StateFile)));
-        Assert.Equal(before, f.Read(MapFixture.RefereeingFile));
+        Assert.Equal(before, f.Read(MapFixture.SurfacingFile));
     }
 
     const string LeftoverBlock = "<!-- generated:level-1 -->\n```mermaid\nold diagram\n```\n<!-- /generated -->\n\n## Companions";

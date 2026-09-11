@@ -78,7 +78,7 @@ public class WriteHookTests
     public void A_skill_folder_whose_SKILL_md_holds_no_artifacts_table_is_not_governed()
     {
         using var f = MapFixture.With(MapFixture.SkillFile, MapFixture.ArtifactsSection, "");
-        Assert.Null(GovernedSkill.Locate(Path.Combine(f.SkillFolder, MapFixture.RefereeingFile)));
+        Assert.Null(GovernedSkill.Locate(Path.Combine(f.SkillFolder, MapFixture.SurfacingFile)));
     }
 
     // ---- outcome ----

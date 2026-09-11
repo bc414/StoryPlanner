@@ -21,12 +21,12 @@ public class SkillReaderTests
         Assert.Equal(12, doc.Artifacts.Count);
 
         var judge = doc.Processes.Single(p => p.Id == "assess-referee-items");
-        Assert.Equal("refereeing-candidates", judge.Activity);
+        Assert.Equal("surfacing-candidates", judge.Activity);
         Assert.Equal("agent", judge.Mode);
         Assert.Empty(judge.Instruments);
         Assert.Equal(["directions", "items"], judge.Reads);
         Assert.Equal(["results"], judge.Writes);
-        Assert.Equal(MapFixture.RefereeingFile, judge.File);
+        Assert.Equal(MapFixture.SurfacingFile, judge.File);
 
         var promoting = doc.Activities.Single(a => a.Id == "promoting-refereed-candidates");
         Assert.Equal(["changing-the-planner-for-v3"], promoting.Enables);

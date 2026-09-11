@@ -27,8 +27,8 @@ public class StateTests
         Assert.Contains(" items", line);
         Assert.Contains(" results", line);
         Assert.Contains(" definition", line);
-        Assert.Contains(" candidates [2 candidate(s), 2 referee line(s), 1 outcome line(s)]", line);
-        // findings is read, never written, by the fixture's two activities, so it is not among the study-scoped writes listed here.
+        Assert.Contains(" candidates [1 promoted, 0 declined, 1 pending]", line);
+        // findings is read, never written, by the fixture's activities, so it is not among the study-scoped writes listed here.
         Assert.DoesNotContain(" findings", line);
         Assert.Contains($"- batches: {MapFixture.Batch} [full, directions-1, itemized]", state);
     }
@@ -45,10 +45,32 @@ public class StateTests
     }
 
     [Fact]
+    public void An_iteration_folder_is_scanned_as_a_sibling_of_studies_and_its_batches_shown()
+    {
+        using var f = new MapFixture().WithStateTree();
+        var batch = f.TreePath("docs", "v3-framework", "iterations", "iteration-of-031-dt-classes-1", "batches", "01-referee");
+        Directory.CreateDirectory(batch);
+        File.WriteAllText(Path.Combine(batch, "definition.md"),
+            "# 01-referee — definition\n\n- directions: ../../../../referee/directions-1.md\n- kind: full\n- model: sonnet\n");
+        var state = Build(f);
+        Assert.Contains("## Iterations", state);
+        Assert.Contains("### iteration-of-031-dt-classes-1", state);
+        Assert.Contains("- of hypothesis: 031-dt-classes · iteration: 1", state);
+        Assert.Contains("- batches: 01-referee [full, directions-1, defined]", state);
+    }
+
+    [Fact]
+    public void Absent_iterations_are_reported_as_none()
+    {
+        using var f = new MapFixture().WithStateTree();
+        Assert.Contains("None: `docs/v3-framework/iterations/` does not exist.", Build(f));
+    }
+
+    [Fact]
     public void The_furthest_process_is_the_last_in_chain_order_whose_scoped_writes_all_exist()
     {
         using var f = new MapFixture().WithStateTree();
-        Assert.Contains("furthest process whose study-scoped writes all exist: promote (promoting-refereed-candidates)", Build(f));
+        Assert.Contains("furthest process whose study-scoped writes all exist: compose-candidates (surfacing-candidates)", Build(f));
     }
 
     [Fact]
@@ -56,7 +78,7 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         File.Delete(Path.Combine(f.StudyDir, "candidates.md"));
-        Assert.Contains("furthest process whose study-scoped writes all exist: assess-referee-items (refereeing-candidates)", Build(f));
+        Assert.Contains("furthest process whose study-scoped writes all exist: assess-referee-items (surfacing-candidates)", Build(f));
     }
 
     [Fact]
