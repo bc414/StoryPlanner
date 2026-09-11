@@ -30,7 +30,15 @@ public sealed class MapFixture : IDisposable
     public const string OpenQuestion = "does-the-dt-class-split";
 
     public static readonly string[] SchemaIds =
-        ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "candidate-schema", "directions-schema", "definition-schema", "index-schema", "findings-schema"];
+        ["hypothesis-file-schema", "question-entry-schema", "study-registry-schema", "directions-schema", "definition-schema", "index-schema", "findings-schema"];
+
+    /// <summary>
+    /// The fixture's synthetic candidates row still names candidate-schema, but the real class
+    /// became a generated view and its schema file was deleted (2026-09-11), so the fixture
+    /// authors its own minimal one rather than copying a file that no longer exists. It only
+    /// needs a title and no sections table — the candidates row has no checker.
+    /// </summary>
+    const string CandidateSchemaStub = "# candidate-schema\n\nSynthetic fixture schema for the candidates row.\n";
 
     public string RepoRoot { get; }
     public string SkillFolder { get; }
@@ -54,6 +62,7 @@ public sealed class MapFixture : IDisposable
             if (content is not null) File.WriteAllText(Path.Combine(SkillFolder, name), content);
 
         SchemaExamples.CopyInto(SkillFolder, SchemaIds);
+        WriteSchema("candidate-schema", CandidateSchemaStub);
     }
 
     /// <summary>One file with one substring replaced — the shape of every failing case.</summary>

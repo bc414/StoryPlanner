@@ -1,6 +1,6 @@
 # preparing-to-verify-a-corpus
 
-Enables verifying-a-corpus and refereeing-candidates.
+Enables verifying-a-corpus and surfacing-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|

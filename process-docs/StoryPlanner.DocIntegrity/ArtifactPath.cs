@@ -14,8 +14,11 @@ namespace StoryPlanner.DocIntegrity;
 /// enumerate files cannot be asked to guess which half it means.
 ///
 /// The placeholders are the ones SKILL.md § Artifacts defines: <c>&lt;study&gt;</c>,
-/// <c>&lt;corpus&gt;</c>, <c>&lt;batch&gt;</c> (<c>nn-slug</c>), <c>&lt;date&gt;</c>,
-/// <c>NNN</c>, <c>N</c>, <c>slug</c>, and <c>.*</c> for any extension.
+/// <c>&lt;corpus&gt;</c>, <c>&lt;container&gt;</c> (<c>studies</c> or <c>iterations</c>, the
+/// kind of folder a batch sits under), <c>&lt;batch&gt;</c> (<c>nn-slug</c>), <c>&lt;date&gt;</c>,
+/// <c>NNN</c>, <c>N</c>, <c>slug</c>, and <c>.*</c> for any extension. An unrecognised
+/// placeholder compiles to <c>[^/]+</c> like the named non-numeric ones, so a new one such as
+/// <c>&lt;container&gt;</c> matches a single path segment with no code change.
 /// </summary>
 public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmatter, bool OutsideRepo)
 {

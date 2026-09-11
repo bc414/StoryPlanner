@@ -127,6 +127,7 @@ public static class ClosedSets
 public static class WellKnown
 {
     public const string Candidates = "candidates";
+    public const string DeclinedCandidates = "declined-candidates";
     public const string QuestionList = "question-list";
     public const string Studies = "studies";
     public const string Directions = "directions";

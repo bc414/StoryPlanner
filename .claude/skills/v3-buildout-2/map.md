@@ -17,7 +17,7 @@ flowchart TD
   promotingrefereedcandidates["promoting-refereed-candidates"]:::activity
   iteratingastatement["iterating-a-statement"]:::activity
   mintingahypothesis["minting-a-hypothesis"]:::activity
-  refereeingcandidates["refereeing-candidates"]:::activity
+  surfacingcandidates["surfacing-candidates"]:::activity
   reviewingfindings["reviewing-findings"]:::activity
   verifyingacorpus["verifying-a-corpus"]:::activity
   preparingtoverifyacorpus["preparing-to-verify-a-corpus"]:::activity
@@ -29,14 +29,14 @@ flowchart TD
 
   baseliningahypothesis --> changingtheplannerforv3
   promotingrefereedcandidates --> baseliningahypothesis
-  iteratingastatement --> refereeingcandidates
+  iteratingastatement --> baseliningahypothesis
   mintingahypothesis --> reviewingleads
   mintingahypothesis --> reviewingfindings
-  refereeingcandidates --> promotingrefereedcandidates
-  reviewingfindings --> refereeingcandidates
+  surfacingcandidates --> promotingrefereedcandidates
+  reviewingfindings --> surfacingcandidates
   verifyingacorpus --> reviewingfindings
   preparingtoverifyacorpus --> verifyingacorpus
-  preparingtoverifyacorpus --> refereeingcandidates
+  preparingtoverifyacorpus --> surfacingcandidates
   reviewingleads --> preparingtoverifyacorpus
   exploringacorpus --> reviewingleads
   preparingtoexploreacorpus --> exploringacorpus
@@ -77,7 +77,7 @@ Derived from the tables, never authored:
 - **inputs**: hypothesis-statement
 - **outputs**: hypothesis-record hypothesis-status question-list
 - **instruments**: git
-- **enabled by**: promoting-refereed-candidates
+- **enabled by**: promoting-refereed-candidates iterating-a-statement
 - **enables**: changing-the-planner-for-v3
 
 ### promoting-refereed-candidates
@@ -93,6 +93,7 @@ flowchart LR
   promote{{"promote<br/>hitl"}}:::hitl
   candidates[/"candidates"/]:::artifact
   corpus[/"corpus"/]:::artifact
+  declinedcandidates[/"declined-candidates"/]:::artifact
   findings[/"findings"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
@@ -108,16 +109,16 @@ flowchart LR
   hypothesisrecord --> promote
   promote --> hypothesisrecord
   promote --> hypothesisstatus
-  promote --> candidates
+  promote --> declinedcandidates
   promote --> questionlist
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus findings hypothesis-statement index
-- **outputs**: candidates hypothesis-record hypothesis-status question-list
-- **instruments**: git
-- **enabled by**: refereeing-candidates
+- **inputs**: candidates corpus findings hypothesis-statement index
+- **outputs**: declined-candidates hypothesis-record hypothesis-status question-list
+- **instruments**: DocIntegrity git
+- **enabled by**: surfacing-candidates
 - **enables**: baselining-a-hypothesis
 
 ### iterating-a-statement
@@ -130,27 +131,50 @@ flowchart LR
   classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  iterate{{"iterate<br/>hitl"}}:::hitl
-  candidates[/"candidates"/]:::artifact
+  assemblereverifybatch["assemble-reverify-batch<br/>session"]:::session
+  assessreverifyitems(["assess-reverify-items<br/>agent"]):::agent
+  gateandcommit{{"gate-and-commit<br/>hitl"}}:::hitl
+  calibration[/"calibration"/]:::artifact
+  calls[/"calls"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   hypothesisstatus[/"hypothesis-status"/]:::artifact
+  index[/"index"/]:::artifact
+  items[/"items"/]:::artifact
+  results[/"results"/]:::artifact
+  tally[/"tally"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
 
-  hypothesisstatement --> iterate
-  hypothesisrecord --> iterate
-  iterate --> hypothesisstatement
-  iterate --> hypothesisrecord
-  iterate --> hypothesisstatus
-  iterate --> candidates
+  hypothesisrecord --> assemblereverifybatch
+  directions --> assemblereverifybatch
+  calibration --> assemblereverifybatch
+  toolsource -.-> assemblereverifybatch
+  assemblereverifybatch --> definition
+  assemblereverifybatch --> index
+  assemblereverifybatch --> items
+  assemblereverifybatch --> calls
+  assemblereverifybatch --> tally
+  directions --> assessreverifyitems
+  items --> assessreverifyitems
+  assessreverifyitems --> results
+  results --> gateandcommit
+  tally --> gateandcommit
+  hypothesisstatement --> gateandcommit
+  hypothesisrecord --> gateandcommit
+  gateandcommit --> hypothesisstatement
+  gateandcommit --> hypothesisrecord
+  gateandcommit --> hypothesisstatus
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: —
-- **outputs**: candidates hypothesis-record hypothesis-statement hypothesis-status
-- **instruments**: git
+- **inputs**: calibration directions tool-source
+- **outputs**: calls definition hypothesis-record hypothesis-statement hypothesis-status index items results tally
+- **instruments**: git runner tool-source
 - **enabled by**: —
-- **enables**: refereeing-candidates
+- **enables**: baselining-a-hypothesis
 
 ### minting-a-hypothesis
 
@@ -184,7 +208,7 @@ Derived from the tables, never authored:
 - **enabled by**: —
 - **enables**: reviewing-leads reviewing-findings
 
-### refereeing-candidates
+### surfacing-candidates
 
 ```mermaid
 flowchart LR
@@ -194,31 +218,42 @@ flowchart LR
   classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
-  writecandidates["write-candidates<br/>session"]:::session
+  assembleclaimbatch["assemble-claim-batch<br/>session"]:::session
+  assessclaimitems(["assess-claim-items<br/>agent"]):::agent
   assemblerefereebatch["assemble-referee-batch<br/>session"]:::session
   assessrefereeitems(["assess-referee-items<br/>agent"]):::agent
-  appendverdicts["append-verdicts<br/>session"]:::session
+  composecandidates["compose-candidates<br/>session"]:::session
   calibration[/"calibration"/]:::artifact
   calls[/"calls"/]:::artifact
   candidates[/"candidates"/]:::artifact
+  declinedcandidates[/"declined-candidates"/]:::artifact
   definition[/"definition"/]:::artifact
   directions[/"directions"/]:::artifact
   findings[/"findings"/]:::artifact
   hypothesisindex[/"hypothesis-index"/]:::artifact
+  hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   index[/"index"/]:::artifact
   items[/"items"/]:::artifact
-  questionlist[/"question-list"/]:::artifact
   results[/"results"/]:::artifact
   tally[/"tally"/]:::artifact
   toolsource[/"tool-source"/]:::artifact
 
-  findings --> writecandidates
-  questionlist --> writecandidates
-  hypothesisstatement --> writecandidates
-  hypothesisindex --> writecandidates
-  writecandidates --> candidates
-  candidates --> assemblerefereebatch
+  findings --> assembleclaimbatch
+  hypothesisstatement --> assembleclaimbatch
+  hypothesisindex --> assembleclaimbatch
+  directions --> assembleclaimbatch
+  calibration --> assembleclaimbatch
+  toolsource -.-> assembleclaimbatch
+  assembleclaimbatch --> definition
+  assembleclaimbatch --> index
+  assembleclaimbatch --> items
+  assembleclaimbatch --> calls
+  assembleclaimbatch --> tally
+  directions --> assessclaimitems
+  items --> assessclaimitems
+  assessclaimitems --> results
+  results --> assemblerefereebatch
   findings --> assemblerefereebatch
   hypothesisstatement --> assemblerefereebatch
   directions --> assemblerefereebatch
@@ -232,18 +267,20 @@ flowchart LR
   directions --> assessrefereeitems
   items --> assessrefereeitems
   assessrefereeitems --> results
-  tally --> appendverdicts
-  results --> appendverdicts
-  candidates --> appendverdicts
-  appendverdicts --> candidates
+  results --> composecandidates
+  tally --> composecandidates
+  findings --> composecandidates
+  declinedcandidates --> composecandidates
+  hypothesisrecord --> composecandidates
+  composecandidates --> candidates
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: calibration directions findings hypothesis-index hypothesis-statement question-list tool-source
+- **inputs**: calibration declined-candidates directions findings hypothesis-index hypothesis-record hypothesis-statement tool-source
 - **outputs**: calls candidates definition index items results tally
-- **instruments**: runner tool-source
-- **enabled by**: iterating-a-statement reviewing-findings preparing-to-verify-a-corpus
+- **instruments**: DocIntegrity runner tool-source
+- **enabled by**: reviewing-findings preparing-to-verify-a-corpus
 - **enables**: promoting-refereed-candidates
 
 ### reviewing-findings
@@ -281,7 +318,7 @@ Derived from the tables, never authored:
 - **outputs**: findings question-list
 - **instruments**: git
 - **enabled by**: minting-a-hypothesis verifying-a-corpus
-- **enables**: refereeing-candidates
+- **enables**: surfacing-candidates
 
 ### verifying-a-corpus
 
@@ -410,7 +447,7 @@ Derived from the tables, never authored:
 - **outputs**: calibration calls definition directions index items question-list results studies tally
 - **instruments**: dotnet runner tool-source
 - **enabled by**: reviewing-leads building-a-tool revising-the-method
-- **enables**: verifying-a-corpus refereeing-candidates
+- **enables**: verifying-a-corpus surfacing-candidates
 
 ### reviewing-leads
 
@@ -672,16 +709,19 @@ flowchart TD
     promote{{"promote<br/>hitl"}}:::hitl
   end
   subgraph iteratingastatement["iterating-a-statement"]
-    iterate{{"iterate<br/>hitl"}}:::hitl
+    assemblereverifybatch["assemble-reverify-batch<br/>session"]:::session
+    assessreverifyitems(["assess-reverify-items<br/>agent"]):::agent
+    gateandcommit{{"gate-and-commit<br/>hitl"}}:::hitl
   end
   subgraph mintingahypothesis["minting-a-hypothesis"]
     mint{{"mint<br/>hitl"}}:::hitl
   end
-  subgraph refereeingcandidates["refereeing-candidates"]
-    writecandidates["write-candidates<br/>session"]:::session
+  subgraph surfacingcandidates["surfacing-candidates"]
+    assembleclaimbatch["assemble-claim-batch<br/>session"]:::session
+    assessclaimitems(["assess-claim-items<br/>agent"]):::agent
     assemblerefereebatch["assemble-referee-batch<br/>session"]:::session
     assessrefereeitems(["assess-referee-items<br/>agent"]):::agent
-    appendverdicts["append-verdicts<br/>session"]:::session
+    composecandidates["compose-candidates<br/>session"]:::session
   end
   subgraph reviewingfindings["reviewing-findings"]
     reviewfindings{{"review-findings<br/>hitl"}}:::hitl
@@ -734,6 +774,7 @@ flowchart TD
   leads[/"leads"/]:::artifact
   findings[/"findings"/]:::artifact
   candidates[/"candidates"/]:::artifact
+  declinedcandidates[/"declined-candidates"/]:::artifact
   corpora[/"corpora"/]:::artifact
   directions[/"directions"/]:::artifact
   calibration[/"calibration"/]:::artifact
@@ -763,26 +804,48 @@ flowchart TD
   hypothesisrecord --> promote
   promote --> hypothesisrecord
   promote --> hypothesisstatus
-  promote --> candidates
+  promote --> declinedcandidates
   promote --> questionlist
-  hypothesisstatement --> iterate
-  hypothesisrecord --> iterate
-  iterate --> hypothesisstatement
-  iterate --> hypothesisrecord
-  iterate --> hypothesisstatus
-  iterate --> candidates
+  hypothesisrecord --> assemblereverifybatch
+  directions --> assemblereverifybatch
+  calibration --> assemblereverifybatch
+  toolsource -.-> assemblereverifybatch
+  assemblereverifybatch --> definition
+  assemblereverifybatch --> index
+  assemblereverifybatch --> items
+  assemblereverifybatch --> calls
+  assemblereverifybatch --> tally
+  directions --> assessreverifyitems
+  items --> assessreverifyitems
+  assessreverifyitems --> results
+  results --> gateandcommit
+  tally --> gateandcommit
+  hypothesisstatement --> gateandcommit
+  hypothesisrecord --> gateandcommit
+  gateandcommit --> hypothesisstatement
+  gateandcommit --> hypothesisrecord
+  gateandcommit --> hypothesisstatus
   hypothesisindex --> mint
   hypothesisstatement --> mint
   mint --> hypothesisstatement
   mint --> hypothesisrecord
   mint --> hypothesisstatus
   mint --> hypothesisindex
-  findings --> writecandidates
-  questionlist --> writecandidates
-  hypothesisstatement --> writecandidates
-  hypothesisindex --> writecandidates
-  writecandidates --> candidates
-  candidates --> assemblerefereebatch
+  findings --> assembleclaimbatch
+  hypothesisstatement --> assembleclaimbatch
+  hypothesisindex --> assembleclaimbatch
+  directions --> assembleclaimbatch
+  calibration --> assembleclaimbatch
+  toolsource -.-> assembleclaimbatch
+  assembleclaimbatch --> definition
+  assembleclaimbatch --> index
+  assembleclaimbatch --> items
+  assembleclaimbatch --> calls
+  assembleclaimbatch --> tally
+  directions --> assessclaimitems
+  items --> assessclaimitems
+  assessclaimitems --> results
+  results --> assemblerefereebatch
   findings --> assemblerefereebatch
   hypothesisstatement --> assemblerefereebatch
   directions --> assemblerefereebatch
@@ -796,10 +859,12 @@ flowchart TD
   directions --> assessrefereeitems
   items --> assessrefereeitems
   assessrefereeitems --> results
-  tally --> appendverdicts
-  results --> appendverdicts
-  candidates --> appendverdicts
-  appendverdicts --> candidates
+  results --> composecandidates
+  tally --> composecandidates
+  findings --> composecandidates
+  declinedcandidates --> composecandidates
+  hypothesisrecord --> composecandidates
+  composecandidates --> candidates
   findings --> reviewfindings
   tally --> reviewfindings
   results --> reviewfindings
@@ -942,31 +1007,32 @@ flowchart TD
 
 | artifact | written by | read by | instrument of |
 |---|---|---|---|
-| hypothesis-statement | iterate mint | baseline promote iterate mint write-candidates assemble-referee-batch review-findings review-leads ask | — |
-| hypothesis-record | baseline promote iterate mint | baseline promote iterate | — |
-| hypothesis-status | baseline promote iterate mint | baseline | — |
-| hypothesis-index | mint | mint write-candidates ask | — |
-| question-list | baseline promote review-findings verify-plan review-leads ask explore-plan | write-candidates write-findings verify-plan author-directions ask write-leads explore-plan author-exploration-directions | — |
+| hypothesis-statement | gate-and-commit mint | baseline promote gate-and-commit mint assemble-claim-batch assemble-referee-batch review-findings review-leads ask | — |
+| hypothesis-record | baseline promote gate-and-commit mint | baseline promote assemble-reverify-batch gate-and-commit compose-candidates | — |
+| hypothesis-status | baseline promote gate-and-commit mint | baseline | — |
+| hypothesis-index | mint | mint assemble-claim-batch ask | — |
+| question-list | baseline promote review-findings verify-plan review-leads ask explore-plan | write-findings verify-plan author-directions ask write-leads explore-plan author-exploration-directions | — |
 | studies | verify-plan explore-plan revise | assemble-full-batch continue-exploration-batch | — |
 | state | — | verify-plan explore-plan revise | — |
 | revision-note | revise | revise | — |
 | decisions | revise | revise | — |
 | leads | review-leads write-leads | review-leads | — |
-| findings | review-findings write-findings | promote write-candidates assemble-referee-batch review-findings | — |
-| candidates | promote iterate write-candidates append-verdicts | promote assemble-referee-batch append-verdicts | — |
+| findings | review-findings write-findings | promote assemble-claim-batch assemble-referee-batch compose-candidates review-findings | — |
+| candidates | compose-candidates | promote | — |
+| declined-candidates | promote | compose-candidates | — |
 | corpora | build | verify-plan explore-plan build | — |
-| directions | author-directions calibrate author-exploration-directions revise | assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate explore-items author-exploration-directions assemble-exploration-batch explore-pilot-item assemble-audit-batch assess-audit-items | — |
-| calibration | calibrate | assemble-referee-batch assemble-full-batch | — |
-| definition | assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-exploration-batch assemble-audit-batch | write-findings continue-exploration-batch write-leads | — |
-| index | assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | promote review-findings write-findings assemble-sample-batch calibrate write-leads | — |
-| items | assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | assess-referee-items assess-items author-directions assess-sample-items calibrate explore-items explore-pilot-item assess-audit-items | — |
-| calls | assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-exploration-batch assemble-audit-batch | write-findings | — |
-| results | assess-referee-items assess-items assess-sample-items explore-items explore-pilot-item assess-audit-items | append-verdicts review-findings write-findings calibrate continue-exploration-batch write-leads revise assemble-audit-batch | — |
-| tally | assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-audit-batch | append-verdicts review-findings write-findings calibrate write-leads revise | — |
+| directions | author-directions calibrate author-exploration-directions revise | assemble-reverify-batch assess-reverify-items assemble-claim-batch assess-claim-items assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate explore-items author-exploration-directions assemble-exploration-batch explore-pilot-item assemble-audit-batch assess-audit-items | — |
+| calibration | calibrate | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch | — |
+| definition | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-exploration-batch assemble-audit-batch | write-findings continue-exploration-batch write-leads | — |
+| index | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | promote review-findings write-findings assemble-sample-batch calibrate write-leads | — |
+| items | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | assess-reverify-items assess-claim-items assess-referee-items assess-items author-directions assess-sample-items calibrate explore-items explore-pilot-item assess-audit-items | — |
+| calls | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-exploration-batch assemble-audit-batch | write-findings | — |
+| results | assess-reverify-items assess-claim-items assess-referee-items assess-items assess-sample-items explore-items explore-pilot-item assess-audit-items | gate-and-commit assemble-referee-batch compose-candidates review-findings write-findings calibrate continue-exploration-batch write-leads revise assemble-audit-batch | — |
+| tally | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-audit-batch | gate-and-commit compose-candidates review-findings write-findings calibrate write-leads revise | — |
 | skill | revise | verify-plan explore-plan revise assemble-audit-batch | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |
-| tool-source | build | build | assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch |
+| tool-source | build | build | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch |
 | corpus | build | promote review-findings assemble-full-batch verify-plan itemize review-leads explore-plan author-exploration-directions assemble-exploration-batch build | — |
 
 ## Validation

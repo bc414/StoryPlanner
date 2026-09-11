@@ -1,6 +1,6 @@
 # reviewing-findings
 
-Enables refereeing-candidates.
+Enables surfacing-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|

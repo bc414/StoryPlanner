@@ -25,7 +25,7 @@ public class SchemaCheckersTests : IDisposable
         _skill = Path.Combine(_root, ".claude", "skills", "example");
         Directory.CreateDirectory(_skill);
         Directory.CreateDirectory(Path.Combine(_root, ".git"));
-        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema");
+        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema", "declined-candidates-schema");
     }
 
     public void Dispose()
@@ -566,6 +566,46 @@ public class SchemaCheckersTests : IDisposable
         Assert.Contains(find, text);
         var path = WriteFindings(text.Replace(find, replace));
         Assert.Contains(rule, Rules(FindingsChecker.Check(FullCtx("v1-archive"), path)));
+    }
+
+    // ---- declined candidates ----
+
+    const string DeclinedStudy = "docs/v3-framework/studies/verification-of-v1-archive-scene-stasis";
+
+    /// <summary>The tree the declined-candidates example references: this study's findings.md with the two standing findings its headings name, and the two hypothesis files its targets name.</summary>
+    string WriteDeclined(string text)
+    {
+        Write($"{DeclinedStudy}/findings.md",
+            "# verification-of-v1-archive-scene-stasis — findings\n\n## Findings\n\n"
+            + "### verification-of-v1-archive-scene-stasis/unplaced-notes-are-paratext\n- finding: x\n\n"
+            + "### verification-of-v1-archive-scene-stasis/event-notes-cluster-early\n- finding: y\n");
+        Write("docs/v3-framework/hypotheses/031-dt-knowledge-asymmetry.md", "# stub\n");
+        Write("docs/v3-framework/hypotheses/029-perception-gap-delivery.md", "# stub\n");
+        return Write($"{DeclinedStudy}/declined-candidates.md", text);
+    }
+
+    [Fact]
+    public void The_declined_candidates_example_passes_with_its_findings_and_hypotheses_resolving()
+    {
+        var path = WriteDeclined(SchemaExamples.Block("declined-candidates-schema"));
+        Assert.Empty(Rules(DeclinedCandidates.Check(FullCtx("v1-archive"), path)));
+        Assert.NotNull(SchemaCheckers.For(WellKnown.DeclinedCandidates));
+        Assert.Contains(WellKnown.DeclinedCandidates, SchemaCheckers.CheckedIds);
+    }
+
+    [Theory]
+    [InlineData("# verification-of-v1-archive-scene-stasis — declined candidates\n", "# elsewhere — declined candidates\n", "declined-candidates.title")]
+    [InlineData("### unplaced-notes-are-paratext → 031-dt-knowledge-asymmetry\n", "### unplaced-notes-are-paratext 031-dt-knowledge-asymmetry\n", "declined-candidates.entry")]
+    [InlineData("- reason: <Brian's reason for declining, in his words>\n", "- reason:\n", "declined-candidates.entry")]
+    [InlineData("- date: 2026-09-22\n- reason: <Brian's reason for declining, in his words>\n", "- reason: <Brian's reason for declining, in his words>\n", "declined-candidates.entry")]
+    [InlineData("### unplaced-notes-are-paratext → 031-dt-knowledge-asymmetry\n", "### no-such-finding → 031-dt-knowledge-asymmetry\n", "declined-candidates.references")]
+    [InlineData("### event-notes-cluster-early → 029-perception-gap-delivery\n", "### event-notes-cluster-early → 099-nonexistent\n", "declined-candidates.references")]
+    public void A_declined_candidates_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
+    {
+        var text = SchemaExamples.Block("declined-candidates-schema");
+        Assert.Contains(find, text);
+        var path = WriteDeclined(text.Replace(find, replace));
+        Assert.Contains(rule, Rules(DeclinedCandidates.Check(FullCtx("v1-archive"), path)));
     }
 
     // ---- definition ----

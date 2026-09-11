@@ -32,6 +32,7 @@ public static class SchemaCheckers
         WellKnown.Studies => Registry.Check,
         WellKnown.Leads => Leads.Check,
         WellKnown.Findings => FindingsChecker.Check,
+        WellKnown.DeclinedCandidates => DeclinedCandidates.Check,
         WellKnown.Corpora => Corpora.Check,
         WellKnown.Decisions => Decisions.Check,
         WellKnown.QuestionList => Questions.Check,
@@ -43,7 +44,7 @@ public static class SchemaCheckers
 
     /// <summary>The artifact ids that dispatch to a checker, one per class (the three hypothesis rows count once).</summary>
     public static readonly string[] CheckedIds =
-        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.Leads, WellKnown.Findings, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList,
+        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.Leads, WellKnown.Findings, WellKnown.DeclinedCandidates, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList,
          WellKnown.Directions, WellKnown.Index, WellKnown.Definition];
 
     internal static string[] Lines(string path) => File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');

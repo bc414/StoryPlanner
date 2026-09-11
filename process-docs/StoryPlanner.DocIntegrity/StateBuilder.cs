@@ -30,6 +30,11 @@ public static class StateBuilder
     static readonly string[] ExplorationChain =
         ["preparing-to-explore-a-corpus", "exploring-a-corpus", "reviewing-leads"];
 
+    // refereeing-candidates was renamed to surfacing-candidates in the skill router (2026-09-11);
+    // this chain still names the old id and must be updated to "surfacing-candidates" at the first
+    // verification study. Deferred until then because the chain is only read to render state.md
+    // for a verification study, of which none exist yet — the same dormant-render deferral as the
+    // iterations/ scan. An activity a chain names that the tables do not carry is skipped and said so.
     static readonly string[] VerificationChain =
         ["preparing-to-verify-a-corpus", "verifying-a-corpus", "reviewing-findings",
          "refereeing-candidates", "promoting-refereed-candidates"];

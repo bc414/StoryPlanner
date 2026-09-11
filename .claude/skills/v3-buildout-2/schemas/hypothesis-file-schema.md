@@ -49,8 +49,10 @@ it was judged under as `directions-N@<hash>`, the alignment tag (`supporting` or
 `challenging`, no third tag), the finding and the falsifier verbatim.
 An entry without a falsifier is malformed. An `iteration` entry is a wording boundary:
 nothing above it is invalidated or re-tagged, and nothing above it counts toward the
-status until re-verified against the new wording; the prior entries' findings are
-re-queued as candidates into the studies that produced them. A `baselined` entry is written only by Brian or
+status until re-verified against the new wording; iterating re-verifies the prior findings
+against the proposed wording and, only if all come out diagnostic-supporting, writes them anew
+as `evidence` entries below the boundary with fresh falsifiers, leaving the prior entries above
+it as history. A `baselined` entry is written only by Brian or
 at his explicit direction in his words. Entries are never edited; there is no superseded
 marker, because binding to a wording is read from position relative to iteration entries.
 
