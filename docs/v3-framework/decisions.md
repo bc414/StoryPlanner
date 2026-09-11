@@ -2455,3 +2455,133 @@ rules names the old id in prose.
   deferring the declined-candidates schema to the first promotion, when its fields are
   already decided (d-2026-09-10-8) and a first pass reviewed at first use is the pattern
   candidate-schema.md itself set.
+
+### Iteration is challenge-triggered and is how a challenge is resolved; it never sharpens a supported hypothesis
+
+- id: d-2026-09-11-1
+- date: 2026-09-11
+- raised by: Brian: "Iteration is only going to happen after evidence comes in that
+  challenges it. So the hypothesis is already no longer supported at that point";
+  "Confirmed not about sharpening an evidenced unchallenged hypothesis"; and, on its
+  purpose, "I had a hypothesis that had supporting evidence. Then new evidence came in
+  that challenges it. Now I have to change the content of the hypothesis so that both old
+  and new are in support. By virtue of challenging, the hypothesis has to CHANGE MEANING …
+  my adherence to rigor says I am not allowed to baseline a hypothesis that has
+  challenging evidence."
+- decision: iterating-a-statement is triggered only by a challenge, or by a merge or
+  split; it never rewords a hypothesis that is evidenced and unchallenged — a sharper
+  claim on supporting evidence is a new hypothesis (minting-a-hypothesis) or nothing,
+  never an iteration. Because a challenging entry lands before the reword, the hypothesis
+  is already `challenged`, not `evidenced`, when iteration begins: the reword loses no
+  supported state. Iteration is the mechanism by which a `challenged` hypothesis returns
+  to `evidenced` — the meaning is changed so the challenging evidence and the prior
+  supporting evidence all support the new wording, then re-verified against it; there is
+  no other way to resolve a challenging entry, and how a challenge is cleared, left open
+  until now, is answered here. A challenge Brian judges spurious is declined at promotion
+  and never becomes an entry, so every challenging entry is one he accepted, and only a
+  reword clears it.
+- not taken: iteration as a general reword for precision, which would drop an evidenced
+  hypothesis to untested for a claim that is either independent (mint) or already
+  supported (leave it); a separate resolve-a-challenge marker or entry kind, when the
+  reword is the resolution; treating the transient untested state after a reword as a
+  regression, when the challenge had already unsettled the hypothesis.
+
+### iterating-a-statement is a gated re-verification of the hypothesis's own evidence against a proposed wording
+
+- id: d-2026-09-11-2
+- date: 2026-09-11
+- supersedes: d-2026-09-08-18
+- raised by: Brian: "I want the surfacing candidates workflow when iterating a hypothesis.
+  But the input set of claims is not from the studies. It is the set of evidence that is
+  already on the hypothesis file at the time of the proposed rework"; and "The processes
+  you listed are fine."
+- decision: iterating-a-statement runs the referee machinery over the hypothesis's own
+  evidence, gated. Its rows: `propose-wording`, hitl, Brian gives the new wording and
+  nothing is written to the file; `assemble-reverify-batch`, session, the runner as its
+  instrument, one referee item per current-wording evidence entry holding the proposed
+  wording and that entry's finding text — the frozen snapshot d-2026-09-10-4 keeps on the
+  entry, so the evidence is read off the hypothesis file, never resolved through the
+  studies; `assess-reverify-items`, agent, one blind call per item under the method's
+  referee directions writing the falsifier and classifying diagnostic supporting,
+  diagnostic challenging or non-diagnostic; `gate-and-commit`, hitl, the gate of
+  d-2026-09-11-3 and, on a pass, the write. The referee is the method's one referee
+  (d-2026-09-08-5), judging the proposed statement it is handed rather than one read from
+  a file. What stands of d-2026-09-08-18: a rewording is triggered by evidence and
+  concerns the hypothesis's prior evidence, and the re-verification is no study; what is
+  overturned — nothing is re-queued to any study's candidates file, iterate writes no
+  candidate, and re-verification is the referee over the file's own evidence against the
+  proposed wording, its batch under `iterations/` (d-2026-09-11-4). d-2026-09-10-4
+  deferred this to the first study; it is decided here instead.
+- not taken: re-queuing findings as candidates into the studies that produced them
+  (d-2026-09-08-18), which the generated candidates.md (d-2026-09-10-7) no longer allows;
+  refereeing against the committed statement, which would require writing the reword
+  before it is verified; a fresh claim sweep over the studies' standing findings, when the
+  input is exactly the evidence already on the file and no more.
+
+### The reword is written only if every prior evidence finding comes out diagnostic-supporting of the new wording; on a pass all evidence is re-entered with new falsifiers
+
+- id: d-2026-09-11-3
+- date: 2026-09-11
+- raised by: Brian: "Every piece of old evidence has to come out diagnostic and
+  supporting of the new hypothesis in order to write that hypothesis into the file";
+  "even the previously challenging finding must become actively supporting. I'm not doing
+  this to self affirm my hypotheses; I'm doing this to be a better writer"; and "If the
+  new wording passes, all the evidence gets rewritten as new entries with their new
+  falsifiers. The old falsifiers are left as historical record, because the evolution of a
+  hypothesis against the evidence is part of the epistemic data that can be analyzed. On
+  failure, nothing is written."
+- decision: The gate is that every current-wording evidence finding, the once-challenging
+  one included, comes out diagnostic AND supporting of the proposed wording; a finding that
+  comes out challenging or non-diagnostic fails it. All pass: the new wording is written to
+  `## Hypothesis`, an iteration entry marks the boundary, and each finding is re-entered as
+  a fresh evidence entry against the new wording carrying the new falsifier the re-referee
+  wrote and citing the iteration's referee batch; status recomputes to evidenced and
+  baselined resets. The prior evidence entries, with their old falsifiers, stay above the
+  boundary as history, since the evolution of a hypothesis against its evidence is itself
+  data a later study may analyse. Any finding fails: nothing is written — not the wording,
+  not an entry — and the failing findings are reported; Brian proposes another wording or
+  concludes the hypothesis must be split or abandoned. A non-diagnostic result fails
+  because a wording that sheds a piece of the evidence is not the honest reconciliation of
+  all of it: the bar is that the new meaning is supported by every finding, not merely
+  un-contradicted.
+- not taken: accepting a finding that turns non-diagnostic under the new wording, which
+  lets a reword quietly drop evidence and self-affirm; re-binding the old entries to the
+  new wording in place, which the record's positional binding to iteration boundaries does
+  not allow and which would erase the falsifier history; writing the reword first and
+  re-verifying after, the rubber-stamp the rigor forbids.
+
+### The iteration batch mirrors a study's under iterations/, matched by a container placeholder and cited by the iteration slug
+
+- id: d-2026-09-11-4
+- date: 2026-09-11
+- raised by: Brian: "Make these go under a folder called iterations which is a sibling to
+  studies under v3-framework, and name the folders iteration-of-<hypothesis file
+  name>-<number, the Nth iteration>"; then, on the structure, "it should be
+  iterations/<slug>/… where slug would be something like iteration-of-<hypothesis>-1 …
+  this should then be the same folder structure as studies so the consumers' lookup
+  patterns are generalizable"; approving "option a with the container placeholder"; and
+  "iterating allows baselining."
+- decision: An iteration's re-verification is no study, but its folder mirrors a study's
+  exactly: `docs/v3-framework/iterations/<slug>/`, a sibling of `studies/`, `<slug>` the
+  folder name `iteration-of-<hypothesis-file-name>-<N>` with `<N>` the ordinal of that
+  hypothesis's iterations, holding `batches/<batch>/` with the referee batch's definition
+  (naming the method's referee directions and calibration by reference), index, items,
+  calls, results and tally, as a verification's referee batch does. The batch-artifact path
+  patterns gain a `<container>` placeholder — `docs/v3-framework/<container>/<study>/batches/<batch>/…` —
+  matching a study folder or an iteration folder alike: an unknown placeholder is a
+  one-segment wildcard in the engine, so the same checkers govern both with no code change,
+  and only `studies/` and `iterations/` ever hold `…/batches/`. An iteration-sourced
+  evidence entry cites the iteration slug in the study position,
+  `(iteration-of-<hyp>-<N>/<finding-slug>; directions-N@<hash>)`, which the existing
+  citation regex accepts unchanged, the position being the owner — study or iteration — the
+  candidate's referee batch sat under. An iteration is not registered in `studies.md`; its
+  existence and ordinal are read from the folder, which the state render scans.
+  iterating-a-statement enables baselining-a-hypothesis — it writes the evidence directly on
+  a gate pass — and no longer enables the sweep.
+- not taken: a study type for the rewording, which d-2026-09-08-18 declined and this keeps
+  declined; iterations under `studies/`, which the existing `<study>` pattern would match
+  with no change but which conflates the trees and puts an unregistered folder among the
+  studies; a precise `(studies|iterations)` owner matcher, tighter than `<container>` but a
+  code change for a distinction only these two folders make; a new citation form for an
+  iteration-sourced evidence entry, when the iteration slug fits the study position the
+  existing regex already reads.
