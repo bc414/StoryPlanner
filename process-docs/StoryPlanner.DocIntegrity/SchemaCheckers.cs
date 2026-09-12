@@ -44,7 +44,7 @@ public static class SchemaCheckers
 
     /// <summary>The artifact ids that dispatch to a checker, one per class (the three hypothesis rows count once).</summary>
     public static readonly string[] CheckedIds =
-        [WellKnown.HypothesisStatus, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.Leads, WellKnown.Findings, WellKnown.DeclinedCandidates, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList,
+        [WellKnown.HypothesisRecord, WellKnown.HypothesisIndex, WellKnown.Studies, WellKnown.Leads, WellKnown.Findings, WellKnown.DeclinedCandidates, WellKnown.Corpora, WellKnown.Decisions, WellKnown.QuestionList,
          WellKnown.Directions, WellKnown.Index, WellKnown.Definition];
 
     internal static string[] Lines(string path) => File.ReadAllText(path).Replace("\r\n", "\n").Split('\n');
@@ -56,185 +56,93 @@ public static class SchemaCheckers
 }
 
 /// <summary>
-/// schemas/hypothesis-file-schema.md. Shape from the fifty real files (four frontmatter keys, two
-/// sections, four entry kinds, minute-precision timestamps); checks from decisions: an evidence
-/// entry is written only by a promotion from a referee-checked candidate and carries its
-/// citation and falsifier (decisions d-2026-09-05-3, d-2026-09-06-2), an iteration entry is a
-/// wording boundary and status is computed from the entries after the last one
-/// (d-2026-09-05-4), baselining is Brian's dated entry and resets on a challenge
-/// (d-2026-09-05-1). The citation cites the candidate's token and the directions version and
-/// body hash it was judged under (d-2026-09-09-12). One file, three artifacts, one checker.
+/// schemas/hypothesis-file-schema.md. One file, three artifacts under three mutations
+/// (d-2026-09-11-9): § Hypothesis edited in place, § Origin frozen, § Record appended. The
+/// engine holds the sections, the fields and their types, the kind enum and the candidate
+/// reference, reported under `hypothesis.shape` and `hypothesis.entry`; five class rules hold
+/// what no schema language expresses (d-2026-09-11-23). The frontmatter and its status mirror
+/// left with d-2026-09-11-12, the created entry became § Origin with d-2026-09-11-8, and the
+/// citation decomposed into fields with d-2026-09-11-15 and -18.
 /// </summary>
 public static class HypothesisFile
 {
-    static readonly string[] Keys = ["id", "status", "baselined", "created"];
-    static readonly string[] Statuses = ["untested", "evidenced", "challenged"];
+    public const string SchemaId = "hypothesis-file-schema";
 
-    static readonly Regex Entry = new(
-        @"^- (?<kind>[a-z]+) \| (?<ts>\d{4}-\d{2}-\d{2}T\d{2}:\d{2})(?<rest>.*)$", RegexOptions.Compiled);
+    /// <summary>Per kind, the fields it must carry; a field of another kind on it is also a failure.</summary>
+    static readonly Dictionary<string, string[]> Required = new(StringComparer.Ordinal)
+    {
+        ["evidence"] = ["candidate", "tag", "finding", "falsifier"],
+        ["iteration"] = ["from", "reason"],
+        ["baselined"] = ["rationale"],
+    };
 
-    static readonly Regex Citation = new(
-        @"^ \| \((?<study>[a-z0-9-]+)/(?<candidate>[a-z0-9-]+); directions-(?<n>\d+)@(?<hash>[0-9a-f]{6,64})\) \[(?<tag>supporting|challenging)\]:",
-        RegexOptions.Compiled);
+    static readonly string[] KindFields =
+        ["candidate", "tag", "finding", "falsifier", "from", "reason", "rationale"];
 
     static readonly Regex FileName = new(@"^(?<id>\d{3})-[a-z0-9-]+\.md$", RegexOptions.Compiled);
-
-    public sealed record RecordEntry(string Kind, string Timestamp, string Rest, int Line, IReadOnlyList<string> Continuation);
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var findings = new List<Finding>();
-        var lines = SchemaCheckers.Lines(path);
 
-        // ---- frontmatter ----
-        var fm = new Dictionary<string, string>(StringComparer.Ordinal);
-        var close = -1;
-        if (lines.Length > 0 && lines[0].Trim() == "---")
-            for (var i = 1; i < lines.Length; i++)
+        if (!FileName.IsMatch(file))
+            findings.Add(Finding.Fail("hypothesis.shape", file, "the file is NNN-slug.md"));
+
+        var engine = EngineCheck.Run(SchemaId, ctx, path);
+        if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return findings; }
+        foreach (var p in engine.Problems)
+            findings.Add(Finding.Fail(p.Section == "Record" ? "hypothesis.entry" : "hypothesis.shape", file, p.Message));
+
+        var doc = engine.Document;
+        var positions = doc.Entries.Where(e => e.Section == "Record").ToList();
+        var arr = doc.Root["Record"] as JsonArray ?? [];
+
+        string? lastDate = null;
+        var challengeStands = false;
+
+        for (var i = 0; i < arr.Count; i++)
+        {
+            var obj = (JsonObject)arr[i]!;
+            var pos = i < positions.Count ? positions[i] : null;
+            var line = pos?.Line ?? 0;
+            var kind = obj[DocumentReader.HeadingProperty]?.GetValue<string>() ?? "";
+
+            // An iteration entry is a wording boundary: nothing above it binds to the wording below.
+            if (kind == "iteration") challengeStands = false;
+
+            if (!Required.ContainsKey(kind))
+                findings.Add(Finding.Fail("hypothesis.entry", file,
+                    $"line {line}: '{kind}' is not an entry kind; the heading is one of {string.Join(", ", Required.Keys)}"));
+
+            if (Required.TryGetValue(kind, out var required))
             {
-                if (lines[i].Trim() == "---") { close = i; break; }
-                var colon = lines[i].IndexOf(':');
-                if (colon > 0) fm[lines[i][..colon].Trim()] = lines[i][(colon + 1)..].Trim();
+                var id = $"hypothesis.{kind}.fields";
+                foreach (var key in required.Where(k => obj[k] is null))
+                    findings.Add(Finding.Fail(id, file, $"line {line}: a {kind} entry carries '{key}'"));
+                foreach (var key in KindFields.Where(k => !required.Contains(k) && obj[k] is not null))
+                    findings.Add(Finding.Fail(id, file, $"line {line}: '{key}' is not a field of a {kind} entry"));
             }
-        if (close < 0)
-        {
-            findings.Add(Finding.Fail("hypothesis.frontmatter", file, "no frontmatter between --- lines at the top"));
-            return findings;
-        }
-        var keys = fm.Keys.OrderBy(k => k, StringComparer.Ordinal).ToArray();
-        if (!keys.SequenceEqual(Keys.OrderBy(k => k, StringComparer.Ordinal)))
-            findings.Add(Finding.Fail("hypothesis.frontmatter", file,
-                $"frontmatter keys are exactly id, status, baselined, created; found [{string.Join(", ", keys)}]"));
 
-        var status = fm.GetValueOrDefault("status", "");
-        if (!Statuses.Contains(status))
-            findings.Add(Finding.Fail("hypothesis.frontmatter", file, $"status '{status}' is not untested, evidenced or challenged"));
+            if (kind == "baselined" && challengeStands)
+                findings.Add(Finding.Fail("hypothesis.baselined.challenged", file,
+                    $"line {line}: a challenging entry stands unresolved under the current wording; only a reword clears it"));
+            if (kind == "evidence" && obj["tag"]?.GetValue<string>() == "challenging") challengeStands = true;
 
-        var baselined = fm.GetValueOrDefault("baselined", "");
-        if (baselined != "false" && !SchemaCheckers.IsoDate.IsMatch(baselined))
-            findings.Add(Finding.Fail("hypothesis.frontmatter", file, $"baselined is false or an ISO date; found '{baselined}'"));
-
-        var created = fm.GetValueOrDefault("created", "");
-        if (!SchemaCheckers.IsoDate.IsMatch(created))
-            findings.Add(Finding.Fail("hypothesis.frontmatter", file, $"created is an ISO date; found '{created}'"));
-
-        var name = FileName.Match(file);
-        if (!name.Success)
-            findings.Add(Finding.Fail("hypothesis.frontmatter", file, "the file is NNN-slug.md"));
-        else if (!int.TryParse(fm.GetValueOrDefault("id", ""), out var id) || id != int.Parse(name.Groups["id"].Value))
-            findings.Add(Finding.Fail("hypothesis.frontmatter", file,
-                $"id '{fm.GetValueOrDefault("id", "")}' is not the NNN of the file name"));
-
-        // ---- sections ----
-        var text = string.Join('\n', lines);
-        var outline = new MarkdownOutline(text);
-        var h2 = outline.Headings.Where(h => h.Level == 2).Select(h => h.Text).ToList();
-        if (!h2.SequenceEqual(["Hypothesis", "Record"], StringComparer.Ordinal))
-            findings.Add(Finding.Fail("hypothesis.sections", file,
-                $"the sections are ## Hypothesis then ## Record; found [{string.Join(", ", h2)}]"));
-        else if (StateBuilder.Section(text, "Hypothesis").Trim().Length == 0)
-            findings.Add(Finding.Fail("hypothesis.sections", file, "## Hypothesis is empty"));
-
-        // ---- entries ----
-        var entries = ParseEntries(text, lines, findings, file);
-        if (entries.Count == 0)
-            findings.Add(Finding.Fail("hypothesis.created-first", file, "the record holds no entries; the first is created"));
-        else
-        {
-            if (entries[0].Kind != "created")
-                findings.Add(Finding.Fail("hypothesis.created-first", file, $"the first entry is created; found {entries[0].Kind} at line {entries[0].Line}"));
-            if (entries.Count(e => e.Kind == "created") > 1)
-                findings.Add(Finding.Fail("hypothesis.created-first", file, "more than one created entry"));
-        }
-
-        foreach (var e in entries)
-        {
-            if (e.Kind == "evidence")
+            var date = obj["date"]?.GetValue<string>();
+            if (date is not null && SchemaCheckers.ExactDate(date))
             {
-                if (!Citation.IsMatch(e.Rest))
-                    findings.Add(Finding.Fail("hypothesis.evidence.citation", file,
-                        $"line {e.Line}: an evidence entry cites (<study>/<slug>; directions-N@<hash>) [supporting|challenging]; " +
-                        "an entry without that citation was not produced by the pipeline"));
-                if (!e.Continuation.Any(c => c.TrimStart().StartsWith("Falsifier:", StringComparison.Ordinal)))
-                    findings.Add(Finding.Fail("hypothesis.evidence.no-falsifier", file,
-                        $"line {e.Line}: an evidence entry carries a 'Falsifier:' line; an entry without one is malformed"));
+                var dLine = pos?.FieldLines.GetValueOrDefault("date", line) ?? line;
+                if (lastDate is not null && string.CompareOrdinal(date, lastDate) < 0)
+                    findings.Add(Finding.Fail("hypothesis.entry.date", file,
+                        $"line {dLine}: {date} is earlier than the entry before it, {lastDate}"));
+                lastDate = date;
             }
-            else if (!e.Rest.StartsWith(':'))
-                findings.Add(Finding.Fail("hypothesis.entry", file, $"line {e.Line}: '- {e.Kind} | <timestamp>:' then the text"));
         }
 
-        // ---- status and baselined, from the entries bound to the current wording ----
-        var lastIteration = -1;
-        for (var i = 0; i < entries.Count; i++) if (entries[i].Kind == "iteration") lastIteration = i;
-        var current = entries.Skip(lastIteration + 1).ToList();
-        var evidence = current.Where(e => e.Kind == "evidence").ToList();
-        var implied = evidence.Any(e => e.Rest.Contains("[challenging]", StringComparison.Ordinal)) ? "challenged"
-            : evidence.Count > 0 ? "evidenced"
-            : "untested";
-        if (Statuses.Contains(status) && status != implied)
-            findings.Add(Finding.Fail("hypothesis.status.mismatch", file,
-                $"status is '{status}' but the entries after the last iteration imply '{implied}'"));
-
-        if (baselined != "false" && SchemaCheckers.IsoDate.IsMatch(baselined))
-        {
-            if (!current.Any(e => e.Kind == "baselined"))
-                findings.Add(Finding.Fail("hypothesis.baselined", file,
-                    "baselined carries a date but no baselined entry is bound to the current wording"));
-            if (implied != "evidenced")
-                findings.Add(Finding.Fail("hypothesis.baselined", file,
-                    $"baselined carries a date but the current-wording entries imply '{implied}'; a challenge or a rewording resets it"));
-        }
-
-        return findings;
+        return findings.DistinctBy(f => (f.CheckId, f.Message)).ToList();
     }
 
-    /// <summary>Top-level entries with their continuation lines; anything else in the record is a finding.</summary>
-    static List<RecordEntry> ParseEntries(string text, string[] lines, List<Finding> findings, string file)
-    {
-        var entries = new List<RecordEntry>();
-        var start = Array.FindIndex(lines, l => l.Trim() == "## Record");
-        if (start < 0) return entries;
-
-        string? kind = null, ts = null, rest = null;
-        var line = 0;
-        var cont = new List<string>();
-        void Flush()
-        {
-            if (kind is not null) entries.Add(new RecordEntry(kind, ts!, rest!, line, cont));
-            kind = null; cont = [];
-        }
-
-        for (var i = start + 1; i < lines.Length; i++)
-        {
-            var raw = lines[i];
-            if (raw.TrimStart().StartsWith('#')) break;
-            if (raw.Trim().Length == 0) continue;
-            if (raw.StartsWith("- ", StringComparison.Ordinal))
-            {
-                Flush();
-                var m = Entry.Match(raw);
-                if (!m.Success)
-                {
-                    findings.Add(Finding.Fail("hypothesis.entry", file,
-                        $"line {i + 1}: an entry is '- <kind> | YYYY-MM-DDTHH:MM' with kind created, evidence, iteration or baselined"));
-                    continue;
-                }
-                kind = m.Groups["kind"].Value; ts = m.Groups["ts"].Value; rest = m.Groups["rest"].Value; line = i + 1;
-                if (kind is not ("created" or "evidence" or "iteration" or "baselined"))
-                {
-                    findings.Add(Finding.Fail("hypothesis.entry", file, $"line {i + 1}: '{kind}' is not an entry kind"));
-                    kind = null;
-                }
-                continue;
-            }
-            if (raw.StartsWith("  ", StringComparison.Ordinal) && kind is not null) { cont.Add(raw); continue; }
-            findings.Add(Finding.Fail("hypothesis.entry", file,
-                $"line {i + 1}: neither an entry nor a two-space continuation of one"));
-        }
-        Flush();
-        return entries;
-    }
 }
 
 /// <summary>schemas/hypothesis-index-schema.md: two columns, id order, every file listed, every link resolving.</summary>
@@ -646,7 +554,7 @@ public static class Questions
             findings.Add(Finding.Info("question.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is not checked"));
         else if (!ctx.CorporaIds.Contains(corpus))
             findings.Add(Finding.Fail("question.title", file, $"'{corpus}' is not a corpus id in CORPORA.md"));
-        if (References.FilesOf(WellKnown.HypothesisStatus, ctx) is null)
+        if (References.FilesOf(WellKnown.HypothesisRecord, ctx) is null)
             findings.Add(Finding.Info("question.hypotheses-unavailable", file, "no hypothesis class could be located from the artifacts table; hypothesis ids are not checked"));
 
         // ---- the withdrawn lines, by position in the file ----

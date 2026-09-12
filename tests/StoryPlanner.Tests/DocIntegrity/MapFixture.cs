@@ -160,44 +160,44 @@ public sealed class MapFixture : IDisposable
             """);
 
         File.WriteAllText(Path.Combine(docs, "hypotheses", "031-dt-classes.md"), $"""
-            ---
-            id: 31
-            status: evidenced
-            baselined: false
-            created: 2026-09-01
-            ---
-
             ## Hypothesis
 
             DT has two classes.
 
+            ## Origin
+
+            - date: 2026-09-01
+            - reasoning: why it exists
+
             ## Record
 
-            - created | 2026-09-01T10:00: why it exists
-            - evidence | 2026-09-14T15:20 | ({Study}/the-first-finding; directions-1@abc123) [supporting]:
-              the finding
-              Falsifier: the falsifier
+            ### evidence
+            - date: 2026-09-14
+            - candidate: {Study}/the-first-finding
+            - tag: supporting
+            - finding: the finding
+            - falsifier: the falsifier
 
             """);
 
+        // 032 holds an evidence entry with no falsifier: hypothesis.evidence.fields.
         File.WriteAllText(Path.Combine(docs, "hypotheses", "032-other.md"), $"""
-            ---
-            id: 32
-            status: untested
-            baselined: false
-            created: 2026-09-02
-            ---
-
             ## Hypothesis
 
             Something else.
 
+            ## Origin
+
+            - date: 2026-09-02
+            - reasoning: why
+
             ## Record
 
-            - created | 2026-09-02T10:00: why
-            - evidence | 2026-09-15T10:00 | ({Study}/a-third-finding; directions-1@abc123) [supporting]:
-              a finding
-              Falsifier: f
+            ### evidence
+            - date: 2026-09-15
+            - candidate: {Study}/the-first-finding
+            - tag: supporting
+            - finding: a finding
 
             """);
 

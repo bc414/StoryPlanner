@@ -74,7 +74,7 @@ public static class References
     static string ClassRow(string target) => target switch
     {
         "question-list" => WellKnown.QuestionList,
-        "hypothesis-file" => WellKnown.HypothesisStatus,
+        "hypothesis-file" => WellKnown.HypothesisRecord,
         _ => target,
     };
 

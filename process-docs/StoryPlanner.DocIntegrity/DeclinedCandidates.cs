@@ -45,7 +45,7 @@ public static class DeclinedCandidates
 
         // ---- the references: standing findings of this study, and the hypothesis files ----
         var standing = StandingFindings(studyDir);
-        var hypothesisFiles = References.FilesOf(WellKnown.HypothesisStatus, ctx);
+        var hypothesisFiles = References.FilesOf(WellKnown.HypothesisRecord, ctx);
 
         // ---- entries: heading `<finding-slug> → <target>`, unique, dates ascending ----
         var seen = new HashSet<string>(StringComparer.Ordinal);

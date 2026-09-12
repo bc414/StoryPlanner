@@ -81,37 +81,49 @@ public class SurfacingItemizerTests
     [Fact]
     public void The_hypothesis_statement_is_the_section_text()
     {
-        const string text = "---\nid: 31\n---\n\n## Hypothesis\n\nDT has two classes.\n\n## Record\n\n- created | 2026-09-01T10:00: why\n";
+        const string text = "## Hypothesis\n\nDT has two classes.\n\n## Origin\n\n- date: 2026-09-01\n- reasoning: why\n\n## Record\n";
         Assert.Equal("DT has two classes.", Itemizers.HypothesisStatement(text));
     }
 
     // ---- reverify (iterating-a-statement) ----
 
     const string Hypothesis = """
-        ---
-        id: 31
-        status: challenged
-        baselined: false
-        created: 2026-09-01
-        ---
-
         ## Hypothesis
 
         DT has two classes.
 
+        ## Origin
+
+        - date: 2026-09-01
+        - reasoning: why it exists
+
         ## Record
 
-        - created | 2026-09-01T10:00: why it exists
-        - evidence | 2026-09-02T10:00 | (study-a/before-iter; directions-1@abc123) [supporting]:
-          This is bound to the prior wording, above the boundary.
-          Falsifier: f0
-        - iteration | 2026-09-10T09:00: reworded. Entries above are bound to the prior wording.
-        - evidence | 2026-09-11T10:00 | (study-a/supporting-one; directions-1@abc123) [supporting]:
-          Supporting finding text.
-          Falsifier: f1
-        - evidence | 2026-09-12T10:00 | (study-a/the-challenge; directions-1@def456) [challenging]:
-          The challenging finding text.
-          Falsifier: f2
+        ### evidence
+        - date: 2026-09-02
+        - candidate: study-a/before-iter
+        - tag: supporting
+        - finding: This is bound to the prior wording, above the boundary.
+        - falsifier: f0
+
+        ### iteration
+        - date: 2026-09-10
+        - from: the prior wording
+        - reason: reworded
+
+        ### evidence
+        - date: 2026-09-11
+        - candidate: study-a/supporting-one
+        - tag: supporting
+        - finding: Supporting finding text.
+        - falsifier: f1
+
+        ### evidence
+        - date: 2026-09-12
+        - candidate: study-a/the-challenge
+        - tag: challenging
+        - finding: The challenging finding text.
+        - falsifier: f2
         """;
 
     [Fact]

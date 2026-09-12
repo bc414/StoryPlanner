@@ -16,58 +16,58 @@ Question lists absent: `docs/v3-framework/questions/` does not exist.
 
 ## Hypotheses
 
-Status as authored in the frontmatter; "entries imply" recomputed from the entries after the last iteration line (a challenging entry → challenged, else an evidence entry → evidenced, else untested); whether a challenge is resolved is not derived.
+Nothing here is authored: status and baselined are read from the entries below the last `### iteration`, which is the wording boundary — a challenging entry → challenged, else an evidence entry → evidenced, else untested; whether a challenge is resolved is not derived (d-2026-09-11-12).
 
-| id | slug | status | baselined | entries imply | open questions naming it |
-|---|---|---|---|---|---|
-| 001 | planner-purpose-trajectories | untested | false | untested | — |
-| 002 | epistemic-method-provenance | untested | false | untested | — |
-| 003 | epistemic-vocabulary-for-content | untested | false | untested | — |
-| 004 | working-cadence-sweeps | untested | false | untested | — |
-| 005 | recall-vs-evidence | untested | false | untested | — |
-| 006 | four-factor-decomposition | untested | false | untested | — |
-| 007 | version-labels-as-bookmarks | untested | false | untested | — |
-| 008 | framework-vs-pipeline-separable | untested | false | untested | — |
-| 009 | v3-tooling-decouples-factors | untested | false | untested | — |
-| 010 | model-intrinsic-properties | untested | false | untested | — |
-| 011 | model-comparison-convergence | untested | false | untested | — |
-| 012 | constitutional-ai-constraint | untested | false | untested | — |
-| 013 | fable-role | untested | false | untested | — |
-| 014 | evidence-based-instruction-design | untested | false | untested | — |
-| 015 | acceptance-signals | untested | false | untested | — |
-| 016 | data-source-unification | untested | false | untested | — |
-| 017 | desktop-vs-code-split | untested | false | untested | — |
-| 018 | target-usage-loop | untested | false | untested | — |
-| 019 | ai-context-contradiction | untested | false | untested | — |
-| 020 | voice-separation-prerequisite | untested | false | untested | — |
-| 021 | five-voice-registers | untested | false | untested | — |
-| 022 | voice-treatment-protocol | untested | false | untested | — |
-| 023 | three-concern-separation | untested | false | untested | — |
-| 024 | dimensional-vs-hierarchical | untested | false | untested | — |
-| 025 | mechanism-hierarchy-is-complexity | untested | false | untested | — |
-| 026 | three-axis-independence | untested | false | untested | — |
-| 027 | cognitive-mode-principle | untested | false | untested | — |
-| 028 | variable-focalization-master | untested | false | untested | — |
-| 029 | perception-gap-delivery | untested | false | untested | — |
-| 030 | narrator-character-blend | untested | false | untested | — |
-| 031 | dt-knowledge-asymmetry | untested | false | untested | — |
-| 032 | first-person-m4-effects | untested | false | untested | — |
-| 033 | non-thematic-goal-categories | untested | false | untested | — |
-| 034 | prose-craft-boundary | untested | false | untested | — |
-| 035 | embedded-text-category | untested | false | untested | — |
-| 036 | wi-terminal-ratio | untested | false | untested | — |
-| 037 | multi-story-focalization-profiles | untested | false | untested | — |
-| 038 | instinctive-mechanism-practice | untested | false | untested | — |
-| 039 | fim-reading-effect | untested | false | untested | — |
-| 040 | fabula-dialogue-replacement | untested | false | untested | — |
-| 041 | sufficient-stability-iterative | untested | false | untested | — |
-| 042 | editor-modes-evaluation | untested | false | untested | — |
-| 043 | note-design-relationships | untested | false | untested | — |
-| 044 | bespokeness-tension | untested | false | untested | — |
-| 045 | keep-notes-provenance | untested | false | untested | — |
-| 046 | dt-two-classes | untested | false | untested | — |
-| 047 | uncorrelated-failure-modes | untested | false | untested | — |
-| 048 | self-administered-discrimination-bias | untested | false | untested | — |
-| 049 | instruction-stack-contamination | untested | false | untested | — |
-| 050 | context-penalty-model-interaction | untested | false | untested | — |
+| id | slug | status | baselined | open questions naming it |
+|---|---|---|---|---|
+| 001 | planner-purpose-trajectories | untested | false | — |
+| 002 | epistemic-method-provenance | untested | false | — |
+| 003 | epistemic-vocabulary-for-content | untested | false | — |
+| 004 | working-cadence-sweeps | untested | false | — |
+| 005 | recall-vs-evidence | untested | false | — |
+| 006 | four-factor-decomposition | untested | false | — |
+| 007 | version-labels-as-bookmarks | untested | false | — |
+| 008 | framework-vs-pipeline-separable | untested | false | — |
+| 009 | v3-tooling-decouples-factors | untested | false | — |
+| 010 | model-intrinsic-properties | untested | false | — |
+| 011 | model-comparison-convergence | untested | false | — |
+| 012 | constitutional-ai-constraint | untested | false | — |
+| 013 | fable-role | untested | false | — |
+| 014 | evidence-based-instruction-design | untested | false | — |
+| 015 | acceptance-signals | untested | false | — |
+| 016 | data-source-unification | untested | false | — |
+| 017 | desktop-vs-code-split | untested | false | — |
+| 018 | target-usage-loop | untested | false | — |
+| 019 | ai-context-contradiction | untested | false | — |
+| 020 | voice-separation-prerequisite | untested | false | — |
+| 021 | five-voice-registers | untested | false | — |
+| 022 | voice-treatment-protocol | untested | false | — |
+| 023 | three-concern-separation | untested | false | — |
+| 024 | dimensional-vs-hierarchical | untested | false | — |
+| 025 | mechanism-hierarchy-is-complexity | untested | false | — |
+| 026 | three-axis-independence | untested | false | — |
+| 027 | cognitive-mode-principle | untested | false | — |
+| 028 | variable-focalization-master | untested | false | — |
+| 029 | perception-gap-delivery | untested | false | — |
+| 030 | narrator-character-blend | untested | false | — |
+| 031 | dt-knowledge-asymmetry | untested | false | — |
+| 032 | first-person-m4-effects | untested | false | — |
+| 033 | non-thematic-goal-categories | untested | false | — |
+| 034 | prose-craft-boundary | untested | false | — |
+| 035 | embedded-text-category | untested | false | — |
+| 036 | wi-terminal-ratio | untested | false | — |
+| 037 | multi-story-focalization-profiles | untested | false | — |
+| 038 | instinctive-mechanism-practice | untested | false | — |
+| 039 | fim-reading-effect | untested | false | — |
+| 040 | fabula-dialogue-replacement | untested | false | — |
+| 041 | sufficient-stability-iterative | untested | false | — |
+| 042 | editor-modes-evaluation | untested | false | — |
+| 043 | note-design-relationships | untested | false | — |
+| 044 | bespokeness-tension | untested | false | — |
+| 045 | keep-notes-provenance | untested | false | — |
+| 046 | dt-two-classes | untested | false | — |
+| 047 | uncorrelated-failure-modes | untested | false | — |
+| 048 | self-administered-discrimination-bias | untested | false | — |
+| 049 | instruction-stack-contamination | untested | false | — |
+| 050 | context-penalty-model-interaction | untested | false | — |
 

@@ -222,15 +222,17 @@ public static class Compose
         return reasons;
     }
 
+    // The evidence entry's citation is a field since d-2026-09-11-15; the owner is the study
+    // whose findings.md holds the finding, for an iteration-sourced entry too (d-2026-09-11-18).
     static readonly Regex Citation = new(
-        @"\((?<study>[a-z0-9-]+)/(?<slug>[a-z0-9-]+); directions-\d+@[0-9a-f]{6,64}\) \[(?:supporting|challenging)\]", RegexOptions.Compiled);
+        @"(?m)^- candidate: (?<study>[a-z0-9-]+)/(?<slug>[a-z0-9-]+)\s*$", RegexOptions.Compiled);
     static readonly Regex HypothesisName = new(@"^(?<name>\d{3}-[a-z0-9-]+)\.md$", RegexOptions.Compiled);
 
     /// <summary>The (finding-slug, target) candidates promoted for this study: read from the evidence citations across the hypothesis records.</summary>
     static IReadOnlySet<(string, string)> PromotedCandidates(string study, CheckContext ctx)
     {
         var promoted = new HashSet<(string, string)>();
-        var files = References.FilesOf(WellKnown.HypothesisStatus, ctx);
+        var files = References.FilesOf(WellKnown.HypothesisRecord, ctx);
         if (files is null) return promoted;
         foreach (var file in files)
         {

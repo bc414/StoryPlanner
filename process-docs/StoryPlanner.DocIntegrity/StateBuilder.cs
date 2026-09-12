@@ -463,7 +463,7 @@ public static class StateBuilder
     static void Hypotheses(StringBuilder sb, string repoRoot, SkillDocument doc, IReadOnlyList<Question> questions)
     {
         sb.Append("## Hypotheses\n\n");
-        var row = doc.Artifact(WellKnown.HypothesisStatus) ?? doc.Artifacts.FirstOrDefault(a => WellKnown.HypothesisArtifacts.Contains(a.Id));
+        var row = doc.Artifact(WellKnown.HypothesisRecord) ?? doc.Artifacts.FirstOrDefault(a => WellKnown.HypothesisArtifacts.Contains(a.Id));
         if (row is null || !ArtifactPath.TryParse(row.Path, out var path, out _))
         {
             sb.Append("No hypothesis artifact row with a parseable path; the files cannot be located.\n\n");
@@ -479,10 +479,11 @@ public static class StateBuilder
         var files = Matches(repoRoot, path, null, null);
         if (files.Count == 0) { sb.Append($"No hypothesis files under `{prefix}/`.\n\n"); return; }
 
-        sb.Append("Status as authored in the frontmatter; \"entries imply\" recomputed from the entries after the " +
-                  "last iteration line (a challenging entry → challenged, else an evidence entry → evidenced, else " +
-                  "untested); whether a challenge is resolved is not derived.\n\n");
-        sb.Append("| id | slug | status | baselined | entries imply | open questions naming it |\n|---|---|---|---|---|---|\n");
+        sb.Append("Nothing here is authored: status and baselined are read from the entries below the last " +
+                  "`### iteration`, which is the wording boundary — a challenging entry → challenged, else an " +
+                  "evidence entry → evidenced, else untested; whether a challenge is resolved is not derived " +
+                  "(d-2026-09-11-12).\n\n");
+        sb.Append("| id | slug | status | baselined | open questions naming it |\n|---|---|---|---|---|\n");
         foreach (var file in files)
         {
             var h = ParseHypothesis(file);
@@ -493,45 +494,76 @@ public static class StateBuilder
               .Append(" | ").Append(h.Slug)
               .Append(" | ").Append(h.Status)
               .Append(" | ").Append(h.Baselined)
-              .Append(" | ").Append(h.Implied == h.Status ? h.Implied : $"{h.Implied} — MISMATCH")
               .Append(" | ").Append(naming.Count == 0 ? "—" : string.Join("; ", naming).Replace("|", "\\|"))
               .Append(" |\n");
         }
         sb.Append('\n');
     }
 
+    /// <summary>
+    /// One hypothesis as state.md shows it. Since d-2026-09-11-12 the file authors nothing
+    /// derivable: the id is its file name, and status and baselined are read from the entries
+    /// below the last iteration boundary.
+    /// </summary>
     public static Hypothesis? ParseHypothesis(string file)
     {
-        var text = File.ReadAllText(file).Replace("\r\n", "\n");
-        var lines = text.Split('\n');
-        if (lines.Length == 0 || lines[0].Trim() != "---") return null;
-
-        var fm = new Dictionary<string, string>(StringComparer.Ordinal);
-        var i = 1;
-        for (; i < lines.Length && lines[i].Trim() != "---"; i++)
-        {
-            var colon = lines[i].IndexOf(':');
-            if (colon > 0) fm[lines[i][..colon].Trim()] = lines[i][(colon + 1)..].Trim();
-        }
-        if (!fm.TryGetValue("id", out var idText) || !int.TryParse(idText, out var id)) return null;
-
-        var record = Section(text, "Record");
-        var afterIteration = new List<string>();
-        foreach (var line in record.Split('\n'))
-        {
-            var t = line.Trim();
-            if (!t.StartsWith("- ", StringComparison.Ordinal)) continue;
-            if (t.StartsWith("- iteration", StringComparison.Ordinal)) { afterIteration.Clear(); continue; }
-            afterIteration.Add(t);
-        }
-        var evidence = afterIteration.Where(l => l.StartsWith("- evidence", StringComparison.Ordinal)).ToList();
-        var implied = evidence.Any(l => l.Contains("[challenging]", StringComparison.Ordinal)) ? "challenged"
-            : evidence.Count > 0 ? "evidenced"
-            : "untested";
-
         var name = Path.GetFileNameWithoutExtension(file);
         var dash = name.IndexOf('-');
-        var slug = dash >= 0 ? name[(dash + 1)..] : name;
-        return new Hypothesis(id, slug, fm.GetValueOrDefault("status", ""), fm.GetValueOrDefault("baselined", ""), implied);
+        if (dash < 3 || !int.TryParse(name[..dash], out var id)) return null;
+        var slug = name[(dash + 1)..];
+
+        var text = File.ReadAllText(file).Replace("\r\n", "\n");
+        var entries = new List<(string Kind, string Body)>();
+        string? kind = null;
+        var body = new List<string>();
+        foreach (var line in RecordSection(text))
+        {
+            if (line.StartsWith("### ", StringComparison.Ordinal))
+            {
+                if (kind is not null) entries.Add((kind, string.Join('\n', body)));
+                kind = line[4..].Trim();
+                body = [];
+                continue;
+            }
+            if (kind is not null) body.Add(line);
+        }
+        if (kind is not null) entries.Add((kind, string.Join('\n', body)));
+
+        var lastIteration = entries.FindLastIndex(e => e.Kind == "iteration");
+        var current = entries.Skip(lastIteration + 1).ToList();
+        var evidence = current.Where(e => e.Kind == "evidence").ToList();
+        var status = evidence.Any(e => e.Body.Contains("- tag: challenging", StringComparison.Ordinal)) ? "challenged"
+            : evidence.Count > 0 ? "evidenced"
+            : "untested";
+        var baselined = current.LastOrDefault(e => e.Kind == "baselined").Body is { } b
+            ? Keyed(b, "date") ?? "yes"
+            : "false";
+
+        return new Hypothesis(id, slug, status, baselined, status);
     }
+
+    /// <summary>
+    /// The lines of § Record. Not <see cref="Section"/>: that stops at the next line beginning
+    /// `##`, and the record's entries are `### <kind>` headings, which begin that way too.
+    /// </summary>
+    static IEnumerable<string> RecordSection(string text)
+    {
+        var inside = false;
+        foreach (var line in text.Split('\n'))
+        {
+            if (line.StartsWith("## ", StringComparison.Ordinal))
+            {
+                if (inside) yield break;
+                inside = line.Trim() == "## Record";
+                continue;
+            }
+            if (inside) yield return line;
+        }
+    }
+
+    /// <summary>The value of one `- key: value` line of an entry body, or null.</summary>
+    static string? Keyed(string body, string key)
+        => body.Split('\n')
+            .Select(l => l.TrimEnd())
+            .FirstOrDefault(l => l.StartsWith($"- {key}: ", StringComparison.Ordinal))?[(key.Length + 4)..];
 }

@@ -123,12 +123,12 @@ public class StateTests
     }
 
     [Fact]
-    public void A_hypothesis_shows_its_authored_status_and_the_one_its_entries_imply()
+    public void A_hypothesis_shows_the_status_its_entries_imply()
     {
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
-        Assert.Contains($"| 031 | dt-classes | evidenced | false | evidenced | analysis-corpus/{MapFixture.OpenQuestion} |", state);
-        Assert.Contains("| 032 | other | untested | false | evidenced — MISMATCH | — |", state);
+        Assert.Contains($"| 031 | dt-classes | evidenced | false | analysis-corpus/{MapFixture.OpenQuestion} |", state);
+        Assert.Contains("| 032 | other | evidenced | false | — |", state);
     }
 
     [Fact]
@@ -136,17 +136,21 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         File.AppendAllText(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md"),
-            "- iteration | 2026-09-16T09:15: Reworded because. Entries above this line are bound to the prior wording.\n");
-        Assert.Contains("| 031 | dt-classes | evidenced | false | untested — MISMATCH |", Build(f));
+            "### iteration\n- date: 2026-09-16\n- from: the prior wording\n- reason: because\n");
+        Assert.Contains("| 031 | dt-classes | untested | false |", Build(f));
     }
 
     [Fact]
-    public void A_challenging_entry_implies_challenged()
+    public void A_challenging_entry_implies_challenged_and_a_baselined_entry_is_its_date()
     {
         using var f = new MapFixture().WithStateTree();
         File.AppendAllText(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md"),
-            $"- evidence | 2026-09-17T10:00 | ({MapFixture.Study}/a-counter-finding; directions-1@abc) [challenging]:\n  a counter\n  Falsifier: f\n");
-        Assert.Contains("| 031 | dt-classes | evidenced | false | challenged — MISMATCH |", Build(f));
+            $"### evidence\n- date: 2026-09-17\n- candidate: {MapFixture.Study}/a-counter-finding\n- tag: challenging\n- finding: a counter\n- falsifier: f\n");
+        Assert.Contains("| 031 | dt-classes | challenged | false |", Build(f));
+
+        File.AppendAllText(f.TreePath("docs", "v3-framework", "hypotheses", "032-other.md"),
+            "### baselined\n- date: 2026-09-20\n- rationale: enough\n");
+        Assert.Contains("| 032 | other | evidenced | 2026-09-20 |", Build(f));
     }
 
     [Fact]

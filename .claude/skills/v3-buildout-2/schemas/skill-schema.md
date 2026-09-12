@@ -45,7 +45,9 @@ never empty.
 repo-relative pattern with placeholders in angle brackets, or `outside the repo`; never
 prose, never an alternative. `mutation` is one of `in-place · succeeded · append · frozen`;
 a `frozen` artifact that is not a series (`N` or `<date>` in its path) is never both read
-and written by one process. `schema` is empty or a link
+and written by one process. A section of a file carrying its own mutation is its own row,
+which is how rule 9's requirement that a multi-section file name each mutation is met; a
+Shape therefore never names one. `schema` is empty or a link
 `[<name>-schema](schemas/<name>-schema.md)` whose text is a slug ending in `-schema` that
 is not an artifact id, whose target is the file the text names, which exists and is titled
 `# <name>-schema`. Every artifact is read by some process; one written and read by nothing
@@ -79,8 +81,8 @@ The field tables follow the sections table and are claimed in order, first by th
 sections that hold fields, then by those that hold entries; an entries section with no
 table holds one-line entries, each `- ` or numbered line one entry. An entry array is
 declared by its heading's type and its field table; an appended line by its form, its
-multiplicity and the process that writes it; a file whose sections carry different
-mutations names each. A key in angle brackets, `<field>`, is any slug, one or more. Present
+multiplicity and the process that writes it. A key in angle brackets, `<field>`, is any
+slug, one or more. Present
 is `required` or `optional`; any rule about when an optional field must or must not appear
 is the class's own, named in its Checks. Checks has the columns check and fails when, ids
 `<class>.<name>` unique in the file; Queries has question and how; the Example's first

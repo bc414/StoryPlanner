@@ -4,7 +4,7 @@ Enables surfacing-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| review-findings | hitl | git | findings tally results index corpus hypothesis-statement | findings question-list | specified | Brian and the session over a verification's findings, or two verifications sharing directions by their tallies: a finding he doubts checked against the results and the items and withdrawn or superseded; a result he doubts checked at the item and written as a shortcoming; what he raises checked the same way before it is written as a finding; the questions he raises written into the corpus's list; a missing hypothesis handed to minting |
+| review-findings | hitl | git | findings tally results index corpus hypothesis-statement | findings question-list | specified | Brian and the session over a verification's findings, or two verifications sharing directions by their tallies: a finding he disputes checked against the results and the items and withdrawn or superseded; a result he disputes checked at the item and written as a shortcoming; what he raises checked the same way before it is written as a finding; the questions he raises written into the corpus's list; a missing hypothesis handed to minting |
 
 ## Preconditions
 
@@ -20,14 +20,14 @@ same directions exists, its tally beside the first's: the two are compared by th
 class by class, and what differs is laid out for Brian as a fact about the models, never
 counted as a finding of either.
 
-Brian reads the findings and challenges what his recall or his reading of the tally
-disagrees with. For each challenge the session says which of two things it is checking,
-because the same reading of the same item ends in different places. When the doubt is
+Brian reads the findings and disputes what his recall or his reading of the tally
+disagrees with. For each dispute the session says which of two things it is checking,
+because the same reading of the same item ends in different places. When the dispute is
 about a finding, the session checks it against the results and the tally, and against the
 items the finding cites, and reports what the data shows; a finding that does not hold
 takes a `withdrawn` line with the date and what the data showed, and a finding that holds
 amended is written as a new entry naming the old in `supersedes`; the old entry is never
-edited. When the doubt is about a result, the session reads the item at its locator and
+edited. When the dispute is about a result, the session reads the item at its locator and
 reports whether the class fits it; a result wrong for its item is a shortcoming of the
 directions, written under Shortcomings with its part, never a correction, since the
 result is never edited and the fix is a new version.

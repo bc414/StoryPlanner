@@ -6,7 +6,7 @@ Enables baselining-a-hypothesis.
 |---|---|---|---|---|---|---|
 | assemble-reverify-batch | session | runner tool-source | hypothesis-record directions calibration | definition index items calls tally | specified | On the wording Brian proposes: one referee item per current-wording evidence entry, holding the proposed wording and that entry's frozen finding text, into a batch under iterations/; dry-run-batch; execute-batch as the hand-off |
 | assess-reverify-items | agent | | directions items | results | specified | One blind call per item under the method's referee directions: the falsifier, and diagnostic supporting, diagnostic challenging or non-diagnostic; the only writer of results |
-| gate-and-commit | hitl | git | results tally hypothesis-statement hypothesis-record | hypothesis-statement hypothesis-record hypothesis-status | specified | The gate: every prior finding diagnostic-supporting of the proposed wording. All pass — the wording, the iteration boundary and fresh evidence entries are written, status recomputed, baselined reset. Any fail — nothing is written and the failing findings are reported |
+| gate-and-commit | hitl | git | results tally hypothesis-statement hypothesis-record | hypothesis-statement hypothesis-record | specified | The gate: every prior finding diagnostic-supporting of the proposed wording. All pass — the wording, the iteration boundary and fresh evidence entries are written. Any fail — nothing is written and the failing findings are reported |
 
 ## Preconditions
 
@@ -55,8 +55,9 @@ All pass, in one commit: the session edits `## Hypothesis` in place to the propo
 appends an `iteration` entry quoting old and new wording and Brian's reason, with the sentence
 that entries above it are bound to the prior wording; appends, for each finding, a fresh
 `evidence` entry against the new wording carrying the new falsifier the re-referee wrote and
-citing the iteration's referee batch; recomputes `status` (evidenced, all supporting and no open
-challenge) and resets `baselined` to `false`. The prior evidence entries, with their old
+citing the iteration's referee batch. The hypothesis then reads as evidenced, every finding
+supporting and no challenge open, and no baselining is bound to the new wording; neither is
+written, both following from the entries below the boundary. The prior evidence entries, with their old
 falsifiers, stay above the boundary as history — the evolution of a hypothesis against its
 evidence is itself data a later study may analyse. Iterating is what lets a challenged hypothesis
 be baselined again: a wording all the evidence supports.

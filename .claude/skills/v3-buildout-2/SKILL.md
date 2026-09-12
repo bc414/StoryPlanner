@@ -159,7 +159,7 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | reviewing-findings | surfacing-candidates | Brian and a session over a verification's findings, or two verifications by their tallies: a finding he doubts checked against the results and the items and withdrawn or superseded, a result he doubts checked at the item and written as a shortcoming, what he raises checked before it is written as a finding, and the questions he raises written into the corpus's question list |
 | verifying-a-corpus | reviewing-findings | One execution of calibrated directions over a corpus's items, on Brian's go: the full batch assembled and handed to the host, one call per item, the tally written at completion, and the analysis written as findings |
 | preparing-to-verify-a-corpus | verifying-a-corpus surfacing-candidates | Building the measure with Brian: itemize the corpus by a tool, author the directions against real items, calibrate them on a sample batch he scores blind |
-| reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact, or two of one corpus: challenge leads against the source, read the differences between explorations as leads about the readers, and write the questions Brian raises into the corpus's question list |
+| reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact, or two of one corpus: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the corpus's question list |
 | exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: one item that is the corpus whole, or one per slice, each a call through the runner under the study's directions; the results written as leads |
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the questions in view, the scale, the directions written and, for slices, piloted on one item |
 | building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, itemizers, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
@@ -202,8 +202,8 @@ by path, and the checker follows the path. Everything closed sits in
 | id | path | mutation | schema | description |
 |---|---|---|---|---|
 | hypothesis-statement | docs/v3-framework/hypotheses/NNN-slug.md § Hypothesis | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The current wording of one hypothesis |
+| hypothesis-origin | docs/v3-framework/hypotheses/NNN-slug.md § Origin | frozen | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Why one hypothesis exists: its founding reasoning, written at its mint |
 | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The evidence relationship: dated entries, never edited |
-| hypothesis-status | docs/v3-framework/hypotheses/NNN-slug.md frontmatter | in-place | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Status and baselined, computed from the record |
 | hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | [hypothesis-index-schema](schemas/hypothesis-index-schema.md) | Id and slug per hypothesis, id order |
 | question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions about one corpus |
 | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study, declared at Brian's go; the ids every study folder is named by |
@@ -294,6 +294,13 @@ the runner and is read in full by any process that invokes it.
 - **falsifier**: what the finding would have been if the statement were false, written
   blind by the referee.
 - **evidence**: a promoted finding, in a hypothesis record.
+- **challenge**: verified evidence, bound to the current wording, that disagrees with the
+  statement; it is carried by an evidence entry tagged `challenging`, it puts the hypothesis
+  in `challenged`, and only a reword clears it.
+- **dispute**: what Brian raises in a review against a claim in an artifact, and the session's
+  return to the source to report what it shows: a finding, checked against the results, the
+  tally and the items it cites; a result, checked at its item's locator; or a lead, checked
+  against the corpus. It is never evidence and never reaches a hypothesis.
 - **outcome**: what Brian did with a diagnostic candidate: promoted or declined.
 
 ## Provenance

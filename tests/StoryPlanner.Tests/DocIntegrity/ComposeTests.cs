@@ -68,9 +68,9 @@ public class ComposeTests : IDisposable
             + "### a-few-are-b → 031-dt-classes\n\n- date: 2026-09-22\n- reason: not compelling on reflection\n");
 
         Write("docs/v3-framework/hypotheses/031-dt-classes.md",
-            "---\nid: 31\nstatus: evidenced\nbaselined: false\ncreated: 2026-09-01\n---\n\n## Hypothesis\n\nDT has two classes.\n\n## Record\n\n"
-            + "- created | 2026-09-01T10:00: why\n"
-            + $"- evidence | 2026-09-14T15:20 | ({StudyId}/most-are-a; directions-1@abc123) [supporting]:\n  Most notes are class a.\n  Falsifier: they would have been evenly split\n");
+            "## Hypothesis\n\nDT has two classes.\n\n## Origin\n\n- date: 2026-09-01\n- reasoning: why\n\n## Record\n\n"
+            + $"### evidence\n- date: 2026-09-14\n- candidate: {StudyId}/most-are-a\n- tag: supporting\n"
+            + "- finding: Most notes are class a.\n- falsifier: they would have been evenly split\n");
 
         Write($"{s}/batches/02-referee/definition.md",
             "# 02-referee — definition\n\n- directions: ../../../../referee/directions-1.md\n- kind: full\n- model: sonnet\n");

@@ -59,23 +59,22 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   baseline{{"baseline<br/>hitl"}}:::hitl
+  hypothesisorigin[/"hypothesis-origin"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
-  hypothesisstatus[/"hypothesis-status"/]:::artifact
   questionlist[/"question-list"/]:::artifact
 
   hypothesisstatement --> baseline
+  hypothesisorigin --> baseline
   hypothesisrecord --> baseline
-  hypothesisstatus --> baseline
   baseline --> hypothesisrecord
-  baseline --> hypothesisstatus
   baseline --> questionlist
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: hypothesis-statement
-- **outputs**: hypothesis-record hypothesis-status question-list
+- **inputs**: hypothesis-origin hypothesis-statement
+- **outputs**: hypothesis-record question-list
 - **instruments**: git
 - **enabled by**: promoting-refereed-candidates iterating-a-statement
 - **enables**: changing-the-planner-for-v3
@@ -97,7 +96,6 @@ flowchart LR
   findings[/"findings"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
-  hypothesisstatus[/"hypothesis-status"/]:::artifact
   index[/"index"/]:::artifact
   questionlist[/"question-list"/]:::artifact
 
@@ -108,7 +106,6 @@ flowchart LR
   hypothesisstatement --> promote
   hypothesisrecord --> promote
   promote --> hypothesisrecord
-  promote --> hypothesisstatus
   promote --> declinedcandidates
   promote --> questionlist
 ```
@@ -116,7 +113,7 @@ flowchart LR
 Derived from the tables, never authored:
 
 - **inputs**: candidates corpus findings hypothesis-statement index
-- **outputs**: declined-candidates hypothesis-record hypothesis-status question-list
+- **outputs**: declined-candidates hypothesis-record question-list
 - **instruments**: DocIntegrity git
 - **enabled by**: surfacing-candidates
 - **enables**: baselining-a-hypothesis
@@ -140,7 +137,6 @@ flowchart LR
   directions[/"directions"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
-  hypothesisstatus[/"hypothesis-status"/]:::artifact
   index[/"index"/]:::artifact
   items[/"items"/]:::artifact
   results[/"results"/]:::artifact
@@ -165,13 +161,12 @@ flowchart LR
   hypothesisrecord --> gateandcommit
   gateandcommit --> hypothesisstatement
   gateandcommit --> hypothesisrecord
-  gateandcommit --> hypothesisstatus
 ```
 
 Derived from the tables, never authored:
 
 - **inputs**: calibration directions tool-source
-- **outputs**: calls definition hypothesis-record hypothesis-statement hypothesis-status index items results tally
+- **outputs**: calls definition hypothesis-record hypothesis-statement index items results tally
 - **instruments**: git runner tool-source
 - **enabled by**: —
 - **enables**: baselining-a-hypothesis
@@ -188,22 +183,20 @@ flowchart LR
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   mint{{"mint<br/>hitl"}}:::hitl
   hypothesisindex[/"hypothesis-index"/]:::artifact
-  hypothesisrecord[/"hypothesis-record"/]:::artifact
+  hypothesisorigin[/"hypothesis-origin"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
-  hypothesisstatus[/"hypothesis-status"/]:::artifact
 
   hypothesisindex --> mint
   hypothesisstatement --> mint
   mint --> hypothesisstatement
-  mint --> hypothesisrecord
-  mint --> hypothesisstatus
+  mint --> hypothesisorigin
   mint --> hypothesisindex
 ```
 
 Derived from the tables, never authored:
 
 - **inputs**: —
-- **outputs**: hypothesis-index hypothesis-record hypothesis-statement hypothesis-status
+- **outputs**: hypothesis-index hypothesis-origin hypothesis-statement
 - **instruments**: git
 - **enabled by**: —
 - **enables**: reviewing-leads reviewing-findings
@@ -763,8 +756,8 @@ flowchart TD
     assessaudititems(["assess-audit-items<br/>agent"]):::agent
   end
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
+  hypothesisorigin[/"hypothesis-origin"/]:::artifact
   hypothesisrecord[/"hypothesis-record"/]:::artifact
-  hypothesisstatus[/"hypothesis-status"/]:::artifact
   hypothesisindex[/"hypothesis-index"/]:::artifact
   questionlist[/"question-list"/]:::artifact
   studies[/"studies"/]:::artifact
@@ -791,10 +784,9 @@ flowchart TD
   corpus[/"corpus"/]:::artifact
 
   hypothesisstatement --> baseline
+  hypothesisorigin --> baseline
   hypothesisrecord --> baseline
-  hypothesisstatus --> baseline
   baseline --> hypothesisrecord
-  baseline --> hypothesisstatus
   baseline --> questionlist
   candidates --> promote
   findings --> promote
@@ -803,7 +795,6 @@ flowchart TD
   hypothesisstatement --> promote
   hypothesisrecord --> promote
   promote --> hypothesisrecord
-  promote --> hypothesisstatus
   promote --> declinedcandidates
   promote --> questionlist
   hypothesisrecord --> assemblereverifybatch
@@ -824,12 +815,10 @@ flowchart TD
   hypothesisrecord --> gateandcommit
   gateandcommit --> hypothesisstatement
   gateandcommit --> hypothesisrecord
-  gateandcommit --> hypothesisstatus
   hypothesisindex --> mint
   hypothesisstatement --> mint
   mint --> hypothesisstatement
-  mint --> hypothesisrecord
-  mint --> hypothesisstatus
+  mint --> hypothesisorigin
   mint --> hypothesisindex
   findings --> assembleclaimbatch
   hypothesisstatement --> assembleclaimbatch
@@ -1008,8 +997,8 @@ flowchart TD
 | artifact | written by | read by | instrument of |
 |---|---|---|---|
 | hypothesis-statement | gate-and-commit mint | baseline promote gate-and-commit mint assemble-claim-batch assemble-referee-batch review-findings review-leads ask | — |
-| hypothesis-record | baseline promote gate-and-commit mint | baseline promote assemble-reverify-batch gate-and-commit compose-candidates | — |
-| hypothesis-status | baseline promote gate-and-commit mint | baseline | — |
+| hypothesis-origin | mint | baseline | — |
+| hypothesis-record | baseline promote gate-and-commit | baseline promote assemble-reverify-batch gate-and-commit compose-candidates | — |
 | hypothesis-index | mint | mint assemble-claim-batch ask | — |
 | question-list | baseline promote review-findings verify-plan review-leads ask explore-plan | write-findings verify-plan author-directions ask write-leads explore-plan author-exploration-directions | — |
 | studies | verify-plan explore-plan revise | assemble-full-batch continue-exploration-batch | — |

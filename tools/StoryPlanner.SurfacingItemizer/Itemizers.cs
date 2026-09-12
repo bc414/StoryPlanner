@@ -78,44 +78,52 @@ public static class Itemizers
         return items;
     }
 
-    static readonly Regex Entry = new(@"^- (?<kind>[a-z]+) \| ", RegexOptions.Compiled);
-    static readonly Regex EvidenceCitation = new(@"^- evidence \| \S+ \| \((?<token>[a-z0-9-]+/[a-z0-9-]+);", RegexOptions.Compiled);
-
     /// <summary>
-    /// The evidence entries bound to the current wording of a hypothesis file — those after the
-    /// last <c>iteration</c> boundary in the record (as HypothesisFile computes) — with each
-    /// entry's frozen finding text, its continuation lines up to the <c>Falsifier:</c> line.
+    /// The evidence entries bound to the current wording of a hypothesis file — those below the
+    /// last <c>### iteration</c> boundary of § Record — with each entry's candidate token and its
+    /// frozen finding text. The record's entries are `### &lt;kind&gt;` headings over keyed fields
+    /// since d-2026-09-11-7; a `finding` is a block, so its continuations are indented two spaces.
     /// </summary>
     public static IReadOnlyList<Evidence> CurrentWordingEvidence(string fileText)
     {
         var lines = fileText.Replace("\r\n", "\n").Split('\n');
         var start = Array.FindIndex(lines, l => l.Trim() == "## Record");
         if (start < 0) return [];
-        var entries = new List<(string Kind, string? Token, List<string> Cont)>();
+
+        var entries = new List<(string Kind, string? Token, List<string> Finding)>();
+        var inFinding = false;
         for (var i = start + 1; i < lines.Length; i++)
         {
             var l = lines[i];
-            if (l.StartsWith("#", StringComparison.Ordinal)) break;
-            if (l.StartsWith("- ", StringComparison.Ordinal))
+            if (l.StartsWith("## ", StringComparison.Ordinal)) break;
+            if (l.StartsWith("### ", StringComparison.Ordinal))
             {
-                var kind = Entry.Match(l) is { Success: true } m ? m.Groups["kind"].Value : "";
-                var token = EvidenceCitation.Match(l) is { Success: true } c ? c.Groups["token"].Value : null;
-                entries.Add((kind, token, []));
+                entries.Add((l[4..].Trim(), null, []));
+                inFinding = false;
+                continue;
             }
-            else if (l.StartsWith("  ", StringComparison.Ordinal) && entries.Count > 0)
-                entries[^1].Cont.Add(l.Trim());
+            if (entries.Count == 0) continue;
+            if (l.StartsWith("- candidate: ", StringComparison.Ordinal))
+            {
+                entries[^1] = (entries[^1].Kind, l["- candidate: ".Length..].Trim(), entries[^1].Finding);
+                inFinding = false;
+            }
+            else if (l.StartsWith("- finding: ", StringComparison.Ordinal))
+            {
+                entries[^1].Finding.Add(l["- finding: ".Length..].Trim());
+                inFinding = true;
+            }
+            else if (inFinding && l.StartsWith("  ", StringComparison.Ordinal))
+                entries[^1].Finding.Add(l.Trim());
+            else if (l.StartsWith("- ", StringComparison.Ordinal))
+                inFinding = false;
         }
-        var lastIteration = -1;
-        for (var i = 0; i < entries.Count; i++) if (entries[i].Kind == "iteration") lastIteration = i;
-        var result = new List<Evidence>();
-        for (var i = lastIteration + 1; i < entries.Count; i++)
-        {
-            var e = entries[i];
-            if (e.Kind != "evidence" || e.Token is null) continue;
-            var finding = e.Cont.TakeWhile(c => !c.StartsWith("Falsifier:", StringComparison.Ordinal)).ToList();
-            result.Add(new Evidence(e.Token, string.Join('\n', finding).Trim()));
-        }
-        return result;
+
+        var lastIteration = entries.FindLastIndex(e => e.Kind == "iteration");
+        return entries.Skip(lastIteration + 1)
+            .Where(e => e.Kind == "evidence" && e.Token is not null)
+            .Select(e => new Evidence(e.Token!, string.Join('\n', e.Finding).Trim()))
+            .ToList();
     }
 
     // ---- parsing ----

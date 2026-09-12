@@ -4,27 +4,29 @@ Enables changing-the-planner-for-v3.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| baseline | hitl | git | hypothesis-statement hypothesis-record hypothesis-status | hypothesis-record hypothesis-status question-list | built | Brian judges the evidence picture sufficient to act on; the session writes his entry and sets the flag |
+| baseline | hitl | git | hypothesis-statement hypothesis-origin hypothesis-record | hypothesis-record question-list | built | Brian judges the evidence picture sufficient to act on; the session writes his entry in his words |
 
 ## Preconditions
 
 The hypothesis's record holds at least one `evidence` entry bound to the current wording
-and no unresolved challenging entry bound to it. Its `baselined` field is `false`.
+and no unresolved challenging entry bound to it, and no `baselined` entry bound to it.
 
 ## baseline
 
-The session presents the statement and the current-wording entries, supporting and
-challenging, with their falsifiers, and nothing else: no summary of what the evidence
-means, no recommendation. If Brian raised the hypothesis for baselining himself, that is
-the whole preparation; if the session is naming it as a candidate, it says so in the
-words "verified support, no open challenge — review for baselining" and waits.
+The session presents the file: the statement, the founding reasoning, and the
+current-wording entries, supporting and challenging, with their falsifiers. Nothing else —
+no summary of what the evidence means, no recommendation. If Brian raised the hypothesis
+for baselining himself, that is the whole preparation; if the session is naming it as a
+candidate, it says so in the words "verified support, no open challenge — review for
+baselining" and waits.
 
-Brian decides. If he baselines, the session appends the `baselined` entry in his words and
-sets `baselined` to the date. If he does not, nothing is written to the hypothesis; a reason
+Brian decides. If he baselines, the session appends the `baselined` entry with his
+rationale in his words; the status the file reads from is recomputed by nothing, being
+derived from the entries. If he does not, nothing is written to the hypothesis; a reason
 he gives that is a question about a corpus is written into that corpus's question list,
 with the hypothesis that raised it.
 
 ## Never
 
-Sets the flag without Brian's explicit direction; baselines against an empty
+Writes the entry without Brian's explicit direction; baselines against an empty
 current-wording record or an open challenge; paraphrases his rationale.

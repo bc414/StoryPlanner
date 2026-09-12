@@ -3030,3 +3030,35 @@ rules names the old id in prose.
   `verify` and `flag`, each colliding with a word the method or the planner has already reserved;
   leaving the word undefined, which is the state that let two senses run under one word through
   two revisions.
+
+### The class's checks are seven: the engine's failures report under hypothesis.shape and hypothesis.entry
+
+- id: d-2026-09-11-23
+- date: 2026-09-11
+- supersedes: d-2026-09-11-19
+- raised by: building the checker, which showed the superseded entry wrong in one respect: it
+  retired `hypothesis.sections` and `hypothesis.entry` into the engine, but the engine holds a
+  shape and does not report under one — every other engine-held class carries its problems under
+  ids of its own, as `declined-candidates.shape` and `declined-candidates.entry` do. Retiring the
+  two would leave a section out of order or a key of the wrong type failing under no id at all.
+  Brian, on the granularity: "I don't really care about the granular details of the code. As long
+  as it fits the requirements."
+- decision: The class has seven checks. Five are its own rules, as the superseded entry named
+  them: `hypothesis.evidence.fields`, `hypothesis.iteration.fields`,
+  `hypothesis.baselined.fields`, `hypothesis.baselined.challenged` and `hypothesis.entry.date`,
+  each failing as the schema's Checks section says. Two carry what the engine finds, surviving
+  with changed content rather than retiring: `hypothesis.shape`, failing when a section is
+  missing, out of order, or holds other than the sections table says; and `hypothesis.entry`,
+  failing when an entry's key is unknown, out of order or of the wrong type, when a line is
+  neither keyed nor a two-space continuation, when a heading is outside the kind enum, or when a
+  `candidate` resolves to no finding. Both are declared checks under d-2026-09-07-14, holding
+  what the Shape asserts and armed with it. What stands of the superseded entry: the five rules
+  and their content; that the engine holds the sections and their order, field presence and type,
+  the heading enum, `candidate` resolving, `tag` closed and the two-space continuation; that the
+  one-finding-per-entry rule is prose and not a check, nothing being able to count findings in
+  prose; and that all five rules are dormant until the first promotion, so the predicted first
+  run of zero failures is a statement about coverage and not a pass.
+- not taken: attributing the engine's failures to the five rule ids, none of which covers a
+  section out of order or an unresolvable reference; one id for both, which loses the split
+  between a file shaped wrongly and an entry filled wrongly that every other class keeps;
+  leaving them unnamed and armed, which is the unbacked state d-2026-09-07-11 exists to prevent.

@@ -25,7 +25,7 @@ public class SchemaCheckersTests : IDisposable
         _skill = Path.Combine(_root, ".claude", "skills", "example");
         Directory.CreateDirectory(_skill);
         Directory.CreateDirectory(Path.Combine(_root, ".git"));
-        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema", "declined-candidates-schema");
+        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema", "declined-candidates-schema", "hypothesis-file-schema");
     }
 
     public void Dispose()
@@ -58,15 +58,16 @@ public class SchemaCheckersTests : IDisposable
     }
 
     [Theory]
-    [InlineData("  Falsifier: <verbatim from the referee's line>\n", "", "hypothesis.evidence.no-falsifier")]
-    [InlineData("(verification-of-fimfiction-stories-fid-primary/fid-primary-in-one-of-seven; directions-3@3f9a1c) [supporting]", "(WU1.1) [supporting]", "hypothesis.evidence.citation")]
-    [InlineData("(verification-of-fimfiction-stories-fid-primary/fid-primary-in-one-of-seven; directions-3@3f9a1c) [supporting]", "(verification-of-fimfiction-stories-fid-primary/fid-primary-in-one-of-seven; codebook-3@3f9a1c) [supporting]", "hypothesis.evidence.citation")]
-    [InlineData("(verification-of-fimfiction-stories-fid-primary/fid-primary-in-one-of-seven; directions-3@3f9a1c) [supporting]", "(verification-of-fimfiction-stories-fid-primary C-014; directions-3@3f9a1c) [supporting]", "hypothesis.evidence.citation")]
-    [InlineData("status: evidenced", "status: untested", "hypothesis.status.mismatch")]
-    [InlineData("created: 2026-09-01\n", "created: 2026-09-01\nnote: x\n", "hypothesis.frontmatter")]
-    [InlineData("## Record", "## Records", "hypothesis.sections")]
-    [InlineData("- baselined | 2026-09-20T16:00: <Brian's rationale, in his words>\n", "", "hypothesis.baselined")]
-    [InlineData("- evidence | 2026-09-14T15:20 |", "- evidence | 2026-09-14 |", "hypothesis.entry")]
+    // the engine's two ids: a section wrong, a heading outside the kind enum, an unknown key
+    [InlineData("## Record", "## Records", "hypothesis.shape")]
+    [InlineData("### baselined", "### baselining", "hypothesis.entry")]
+    [InlineData("- tag: supporting\n- finding: Of 180", "- tag: supporting\n- note: x\n- finding: Of 180", "hypothesis.entry")]
+    // the five class rules
+    [InlineData("- falsifier: If the opening move did not bear on where cues fall, the two classes would have\n  carried first-paragraph cues at about the same rate.\n", "", "hypothesis.evidence.fields")]
+    [InlineData("- reason: The short tableau openings behave like the in-motion ones, so the claim I actually\n  hold is about long openings, where the prose has room to defer. Narrowing it to those.\n", "", "hypothesis.iteration.fields")]
+    [InlineData("- rationale: Two readings and 180 openings, and the narrowed wording holds on both. I am\n  comfortable planning against it. The short-opening case is its own question and I have\n  written it into the list.\n", "", "hypothesis.baselined.fields")]
+    [InlineData("- tag: supporting", "- tag: challenging", "hypothesis.baselined.challenged")]
+    [InlineData("- date: 2026-10-06", "- date: 2026-09-01", "hypothesis.entry.date")]
     public void A_hypothesis_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
     {
         var text = SchemaExamples.Block("hypothesis-file-schema");
@@ -76,29 +77,37 @@ public class SchemaCheckersTests : IDisposable
     }
 
     [Fact]
-    public void A_created_entry_that_is_not_first_fails()
+    public void A_field_of_another_kind_on_an_entry_fails_that_kind_s_rule()
     {
-        var text = SchemaExamples.Block("hypothesis-file-schema");
-        var created = "- created | 2026-09-01T10:00: <why the hypothesis exists: the observation, Brian's\n  assertion, the motivation; in Claude's voice with Brian's assertions as the content>\n";
-        Assert.Contains(created, text);
-        var moved = text.Replace(created, "") .Replace("## Record\n\n", "## Record\n\n- iteration | 2026-09-02T09:00: first.\n" + created);
-        var path = Write(HypothesisPath, moved);
-        Assert.Contains("hypothesis.created-first", Rules(HypothesisFile.Check(Ctx(), path)));
+        var text = SchemaExamples.Block("hypothesis-file-schema")
+            .Replace("- rationale: Two readings", "- tag: supporting\n- rationale: Two readings");
+        var path = Write(HypothesisPath, text);
+        Assert.Contains("hypothesis.baselined.fields", Rules(HypothesisFile.Check(Ctx(), path)));
     }
 
     [Fact]
-    public void A_stray_line_in_the_record_that_is_neither_entry_nor_continuation_fails()
+    public void A_stray_line_in_an_entry_that_is_neither_keyed_nor_continuation_fails()
     {
-        var text = SchemaExamples.Block("hypothesis-file-schema").Replace("## Record\n\n", "## Record\n\nSome prose here.\n\n");
+        var text = SchemaExamples.Block("hypothesis-file-schema")
+            .Replace("### evidence\n- date: 2026-09-20", "### evidence\nSome prose here.\n- date: 2026-09-20");
         var path = Write(HypothesisPath, text);
         Assert.Contains("hypothesis.entry", Rules(HypothesisFile.Check(Ctx(), path)));
     }
 
     [Fact]
-    public void The_id_must_match_the_file_name()
+    public void An_empty_record_is_the_normal_state_of_an_untested_hypothesis()
     {
-        var path = Write("docs/v3-framework/hypotheses/018-example.md", SchemaExamples.Block("hypothesis-file-schema"));
-        Assert.Contains("hypothesis.frontmatter", Rules(HypothesisFile.Check(Ctx(), path)));
+        var text = SchemaExamples.Block("hypothesis-file-schema");
+        var record = text[text.IndexOf("## Record", StringComparison.Ordinal)..];
+        var path = Write(HypothesisPath, text.Replace(record, "## Record\n"));
+        Assert.Empty(Rules(HypothesisFile.Check(Ctx(), path)));
+    }
+
+    [Fact]
+    public void A_file_not_named_NNN_slug_fails()
+    {
+        var path = Write("docs/v3-framework/hypotheses/example.md", SchemaExamples.Block("hypothesis-file-schema"));
+        Assert.Contains("hypothesis.shape", Rules(HypothesisFile.Check(Ctx(), path)));
     }
 
     // ---- hypothesis index ----
@@ -769,10 +778,10 @@ public class SchemaCheckersTests : IDisposable
             """;
         var good = WriteHook.Run(Payload(f.TreePath("docs", "v3-framework", "hypotheses", "031-dt-classes.md")));
         Assert.Equal(HookOutcomeKind.Silent, good.Kind);
-        // 032 says untested while holding an evidence entry bound to its current wording.
+        // 032 holds an evidence entry with no falsifier.
         var bad = WriteHook.Run(Payload(f.TreePath("docs", "v3-framework", "hypotheses", "032-other.md")));
         Assert.Equal(HookOutcomeKind.Failed, bad.Kind);
-        Assert.Contains("hypothesis.status.mismatch", bad.Message);
+        Assert.Contains("hypothesis.evidence.fields", bad.Message);
 
         // A result written into a batch is held to its directions through the definition.
         var result = Path.Combine(f.BatchDir, "results", "item-001.md");

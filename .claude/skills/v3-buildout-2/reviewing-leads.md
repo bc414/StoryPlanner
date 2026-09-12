@@ -4,7 +4,7 @@ Enables preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| review-leads | hitl | git | leads corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads artifact, or two of one corpus: leads challenged at the source and corrected, the differences between explorations read as leads about the readers, and the questions Brian raises written into the corpus's list |
+| review-leads | hitl | git | leads corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads artifact, or two of one corpus: leads disputed at the source and corrected, the differences between explorations read as leads about the readers, and the questions Brian raises written into the corpus's list |
 | ask | hitl | git | hypothesis-index hypothesis-statement question-list | question-list | built | Ad hoc: a question Brian raises in conversation about the framework, written into a corpus's list |
 
 ## Preconditions
@@ -20,7 +20,7 @@ The session opens the leads artifact and, where a second exploration of the corp
 exists, the second beside it: their differences are read as leads about the readers, never
 counted, and what each saw that the other did not is laid out for Brian.
 
-Brian challenges leads. For each, the session verifies against the corpus itself, where
+Brian disputes leads. For each, the session verifies against the corpus itself, where
 the lead says it was seen, never against the artifact, and reports what the corpus shows;
 a lead that does not hold is written in `## Corrections`, dated, with what the source
 showed. The lead itself is not edited.

@@ -138,15 +138,20 @@ public static class WellKnown
     public const string Results = "results";
     public const string Tally = "tally";
     public const string Findings = "findings";
-    public const string HypothesisStatus = "hypothesis-status";
+    public const string HypothesisStatement = "hypothesis-statement";
+    public const string HypothesisOrigin = "hypothesis-origin";
+    public const string HypothesisRecord = "hypothesis-record";
     public const string HypothesisIndex = "hypothesis-index";
     public const string Leads = "leads";
     public const string Corpora = "corpora";
     public const string Decisions = "decisions";
 
-    /// <summary>The three artifacts one hypothesis file holds; a write to any is a hypothesis write.</summary>
+    /// <summary>
+    /// The three artifacts one hypothesis file holds, under three mutations (d-2026-09-11-9);
+    /// a write to any is a hypothesis write.
+    /// </summary>
     public static readonly string[] HypothesisArtifacts =
-        ["hypothesis-statement", "hypothesis-record", "hypothesis-status"];
+        [HypothesisStatement, HypothesisOrigin, HypothesisRecord];
 
     /// <summary>Files in the skill folder that are not activity files (SKILL.md § Companions).</summary>
     public static readonly string[] NonActivityFiles =

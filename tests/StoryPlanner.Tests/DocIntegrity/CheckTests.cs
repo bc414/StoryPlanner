@@ -31,7 +31,7 @@ public class CheckTests
         using var f = new MapFixture().WithStateTree();
         var path = f.TreePath("docs", "v3-framework", "hypotheses", "032-other.md");
         var result = Check.Run(f.RepoRoot, path);
-        var mismatch = Assert.Single(result.Report.Findings, x => x.CheckId == "hypothesis.status.mismatch");
+        var mismatch = Assert.Single(result.Report.Findings, x => x.CheckId == "hypothesis.evidence.fields");
         Assert.Equal("docs/v3-framework/hypotheses/032-other.md", mismatch.RowId);
         Assert.Empty(result.SkillFolders);
         Assert.Equal([path], result.GovernedFiles);
@@ -62,7 +62,7 @@ public class CheckTests
         Assert.Contains("docs/v3-framework/studies.md", files);
         Assert.Equal(files.Count, files.Distinct().Count());
         Assert.False(result.Report.Passed);
-        Assert.Contains("hypothesis.status.mismatch", result.Report.Findings.Select(x => x.CheckId));
+        Assert.Contains("hypothesis.evidence.fields", result.Report.Findings.Select(x => x.CheckId));
     }
 
     [Fact]

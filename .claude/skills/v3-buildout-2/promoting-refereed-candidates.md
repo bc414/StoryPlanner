@@ -4,7 +4,7 @@ Enables baselining-a-hypothesis.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| promote | hitl | DocIntegrity git | candidates findings index corpus hypothesis-statement hypothesis-record | hypothesis-record hypothesis-status declined-candidates question-list | specified | Brian decides the pending diagnostic candidates he chooses, by hypothesis or by verification, each after the items its finding cites are read: promote — a verbatim evidence entry to the hypothesis record; decline — an entry to declined-candidates.md; status recomputed; candidates.md regenerated; one commit |
+| promote | hitl | DocIntegrity git | candidates findings index corpus hypothesis-statement hypothesis-record | hypothesis-record declined-candidates question-list | specified | Brian decides the pending diagnostic candidates he chooses, by hypothesis or by verification, each after the items its finding cites are read: promote — a verbatim evidence entry to the hypothesis record; decline — an entry to declined-candidates.md; candidates.md regenerated; one commit |
 
 ## Preconditions
 
@@ -38,8 +38,7 @@ For each pending diagnostic candidate, in whatever order Brian takes them:
 A rethink of a statement that the evidence prompts is iterating-a-statement, done in its own
 session under its own file; nothing here rewords.
 
-When he stops, in one commit: the session recomputes each touched hypothesis's status from its
-current-wording entries and resets `baselined` where a challenging entry landed; regenerates
+When he stops, in one commit: the session regenerates
 candidates.md through DocIntegrity so each candidate shows its outcome (promoted, declined or
 pending); writes any question he raised into its corpus's list; and names the scope and the
 candidate tokens in the commit. Promotions are read from the hypothesis records, declines from
