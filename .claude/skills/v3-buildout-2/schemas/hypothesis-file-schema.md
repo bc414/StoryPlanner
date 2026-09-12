@@ -36,7 +36,10 @@ otherwise; `state.md` renders it for every hypothesis.
 
 **Hypothesis** is what the hypothesis predicts, in one to three sentences readable in
 isolation. Founding reasoning belongs in § Origin; provenance, implications, testing method and
-confirm-or-refute conditions belong nowhere in this file.
+confirm-or-refute conditions belong nowhere in this file. It carries the prediction and nothing
+beside it: no reference to another hypothesis by id or slug; no evidence claimed for it, which
+is the record's to hold; and no open question, which is not a prediction — a statement that ends
+in one is two things, and the question belongs in the corpus's question list.
 
 **Origin**:
 
@@ -44,6 +47,16 @@ confirm-or-refute conditions belong nowhere in this file.
 |---|---|---|---|
 | `date` | required | date | the day the hypothesis was captured |
 | `reasoning` | required | block | why the hypothesis exists: the observation, Brian's assertion, the motivation, and what raised it; in Claude's voice with Brian's assertions as the content |
+
+**What `reasoning` may not hold.** It explains why the hypothesis exists and never extends what
+it asserts, so: no claim the statement does not carry; no corpus reading stated as established
+fact, that being evidence, which enters only as an entry below; no prospective testing method,
+naming which study will test it; no asserted relationship to another live hypothesis, merge and
+split provenance excepted, which names the files this one came from; no confirm-or-refute
+condition; no assessment of the hypothesis's own testability or thinness, which the record
+answers by what it holds; no synthesis named as what raised it (`minting-a-hypothesis`); and
+nothing derivable. Each of these is a thing the field can be written to say and a thing that
+stops being true when a statement is reworded or the set changes around it.
 
 **Record**: an entry's heading is `### <kind>`, type enum of `evidence`, `iteration`,
 `baselined`. A heading repeats — a hypothesis with eight evidence entries has eight

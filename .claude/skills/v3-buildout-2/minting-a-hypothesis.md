@@ -10,8 +10,18 @@ Enables reviewing-leads.
 
 Something raised it: Brian's own statement, a lead, evidence in a record, or a merge or
 split. Three criteria hold, all required: novelty (it is not evidence for an existing
-hypothesis), testability (evidence could confirm or refute it), independence (it is not a
-refinement, which would be an iteration).
+hypothesis), testability (a referee handed the statement and one finding could write its
+falsifier — what the finding would have been were the statement false), independence (it is
+not a refinement, which would be an iteration).
+
+**Testability is the criterion with no second chance**, which is why it is stated as the
+referee's own test rather than as whether evidence could bear on the claim. A statement no
+falsifier can discriminate — a prescription about what the instrument ought to do is the
+common shape, and reads as "should be recognised", "may not be optimal", "may be needed" —
+can never acquire evidence, so it can never be `challenged`, so `iterating-a-statement`'s
+precondition is never met and the wording can only ever change through a merge or split. And
+nothing retires a hypothesis: one that is disproven stands as disproven, and one that was
+never a prediction stands unfalsifiable. Mint is the only gate it passes through.
 
 ## mint
 
@@ -39,4 +49,5 @@ it purports to measure.
 ## Never
 
 Mints without Brian's rewrite or approval; reuses an id; writes a statement that carries
-provenance, implications or testing method; mints a refinement.
+provenance, implications or testing method; mints a statement no falsifier can discriminate;
+mints a refinement.

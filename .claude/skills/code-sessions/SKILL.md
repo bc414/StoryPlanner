@@ -63,9 +63,25 @@ tool-name switch.
   pipeline anyway"). Treat it exactly as you would treat a message he sent unprompted.
 - **`Chose:` is a Claude-authored option label that Brian selected.** It records his
   *decision* faithfully, but not his *phrasing*. **Never quote a `Chose:` label as Brian's
-  words** — the wording is the machine's.
+  words** — the wording is the machine's — and **never infer from one what he meant or
+  believed**. It supports exactly one claim: that he picked it. Where his meaning matters
+  and only a label records it, find the same position in something he typed, or ask him.
+- **The `Q:` line is Claude's prose too, and it is not a record of Brian's framing.** A
+  question states a session's understanding of the alternatives at that moment, often
+  wrongly, and the alternative he did **not** take is a machine's guess that he declined —
+  never a paraphrase of his position. Citing a question's wording as evidence of what he
+  thought is the most available error in this corpus, because the exchange reads like a
+  tidy summary of a view and is not one.
 - Selection is exact-match only. A free-text answer that happens to open with a label
   ("Keep it prose only. The whole point is…") is `Typed:`, because it is.
+
+*Worked failure, 2026-09-12.* A session dated the origin of the hypothesis practice to
+2026-08-18 and concluded the word then meant "a change deferred until after review" —
+built from two `Chose:` lines and the wording of the questions above them, including an
+offered option, "held as a hypothesis and deployed only after post-vacation review", that
+**Brian had rejected** in favour of "Deploy now". His own typed words in the same session
+said the opposite. He corrected it. The rule that would have prevented it: a question and
+its unchosen options are Claude's prose, and a selection is a decision, not a view.
 
 **Plans are the standing trap at its worst.** ExitPlanMode text is stored in full, so
 plans now dominate keyword search — and a plan is the most persuasive possible argument

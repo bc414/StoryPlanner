@@ -52,8 +52,10 @@ evidence finding, the once-challenging one included, must come out diagnostic AN
 the proposed wording. A finding that comes out challenging or non-diagnostic fails it.
 
 All pass, in one commit: the session edits `## Hypothesis` in place to the proposed wording;
-appends an `iteration` entry quoting old and new wording and Brian's reason, with the sentence
-that entries above it are bound to the prior wording; appends, for each finding, a fresh
+appends an `iteration` entry carrying the wording that stood before it and Brian's reason — the
+new wording is not carried, being the statement itself until a later iteration makes it that
+entry's `from` — with the sentence that entries above it are bound to the prior wording; appends,
+for each finding, a fresh
 `evidence` entry against the new wording carrying the new falsifier the re-referee wrote and
 citing the iteration's referee batch. The hypothesis then reads as evidenced, every finding
 supporting and no challenge open, and no baselining is bound to the new wording; neither is

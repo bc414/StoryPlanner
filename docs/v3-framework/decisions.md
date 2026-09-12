@@ -3062,3 +3062,164 @@ rules names the old id in prose.
   section out of order or an unresolvable reference; one id for both, which loses the split
   between a file shaped wrongly and an entry filled wrongly that every other class keeps;
   leaving them unnamed and armed, which is the unbacked state d-2026-09-07-11 exists to prevent.
+
+### Nothing retires a hypothesis; one that cannot recover stands as disproven
+
+- id: d-2026-09-12-1
+- date: 2026-09-12
+- raised by: a trace of the fifty files against their sources, which found statements that are
+  not predictions and asked what becomes of one. The class has no retirement: no activity
+  removes a hypothesis, and its three rows are in-place, frozen and append, while
+  `hypothesis-index-schema` said the index changes "when a file is minted or superseded",
+  presuming a path nothing provides. Brian, given a supersession mechanism, a decision-executed
+  retirement and neither: "For SOP, no supersession. If a hypothesis is challenged and can't
+  recover from that it just stays as a disproven hypothesis."
+- decision: A hypothesis, once minted, stays in the set. A challenge that is never resolved
+  leaves it `challenged`, which is the honest reading of its evidence and is where it rests; the
+  set is a record of what was claimed and how it fared, not a list of surviving claims. There is
+  no `superseded` entry kind, no retirement activity, and no decision-executed removal under
+  standard operating procedure. `hypothesis-index-schema`'s "or superseded" is struck, the index
+  changing only when a file is minted. This does not decide what the migration of the founding
+  fifty may leave unwritten, which d-2026-09-12-6 rules separately, a file never created being a
+  different act from one removed.
+- not taken: a `superseded` entry kind with a status semantic and a checker rule, which builds
+  machinery for what should be rare and lets a claim leave the record that the record exists to
+  hold; retirement as a one-time decision per hypothesis, which is the same exit at a higher
+  ceremony and would make each disproven hypothesis a question of whether to keep it.
+
+### Testability is the referee's own test, and mint is the only gate it passes
+
+- id: d-2026-09-12-2
+- date: 2026-09-12
+- raised by: the same trace, which found six statements that prescribe what the instrument ought
+  to do — "should be recognised separately by the planner", "may not be optimal and should be
+  evaluated against evidence", "may be needed" — and no finding can discriminate one. All six
+  passed `minting-a-hypothesis`'s testability criterion as it read, "evidence could confirm or
+  refute it". Under d-2026-09-12-1 nothing downstream can repair such a statement: it never
+  acquires evidence, so it is never `challenged`, so `iterating-a-statement`'s precondition is
+  never met. Brian, asked whether testability was a new field or an existing one, then: "Yes do
+  the reword."
+- decision: The criterion is stated as the test the method already owns: a referee handed the
+  statement and one finding could write its falsifier, what the finding would have been were the
+  statement false. A statement admitting no falsifier is not a hypothesis and is not minted;
+  `minting-a-hypothesis` § Never names it. The activity file carries why the criterion is
+  phrased as an act rather than a possibility — that mint is the only gate, the wording of an
+  unfalsifiable statement changing thereafter only through a merge or split. No check holds
+  this and none can: whether a falsifier could be written is a judgment, like the
+  one-finding-per-entry rule of d-2026-09-11-23.
+- not taken: leaving the criterion as written and catching the shape at promotion, where the
+  referee returns non-diagnostic for every candidate and the hypothesis is already in the set
+  with entries pointing at it; a check on the statement's grammar, which would refuse "should"
+  and "may" in statements that legitimately hedge a prediction; a fourth criterion beside the
+  three, when the third already names the property and only its test was weak.
+
+### A statement carries the prediction alone
+
+- id: d-2026-09-12-3
+- date: 2026-09-12
+- raised by: the trace finding three classes in the fifty statements that the schema's sentence
+  — provenance, implications, testing method and confirm-or-refute conditions belong nowhere —
+  does not reach: a cross-reference to another hypothesis by id; an assertion of the evidence
+  the statement rests on, where the record holds evidence; and a trailing open question absorbed
+  from an upstream entry that had stated a prediction and then asked one. Brian: "Fix the A
+  defects, add the deny instructions."
+- decision: § Hypothesis carries the prediction and nothing beside it. No reference to another
+  hypothesis by id or slug, a relation between two statements being unheld by anything when
+  either is reworded. No evidence claimed for the statement, which is the record's to hold and
+  which, asserted here, is recall standing in for a finding. No open question: a question is not
+  a prediction, a statement ending in one is two things, and the question belongs in the corpus's
+  question list where `ask` writes it. The rule is in `hypothesis-file-schema`, beside the
+  sentence it extends, and governs every mint.
+- not taken: a check over the statement's prose, which cannot tell a cross-reference from a
+  shared noun, nor a question from a sentence ending in a question mark inside a quotation;
+  allowing a cross-reference where it names a merge or split, which § Origin already carries as
+  provenance and which does not belong in the prediction.
+
+### What § Origin's reasoning may not hold
+
+- id: d-2026-09-12-4
+- date: 2026-09-12
+- raised by: Brian, on what the migration and every later mint may write: "what should be
+  determined now is: what are the exact source materials to use and what is allowed or not
+  allowed in the new hypothesis file's origin reason". The field's description says what it
+  holds and has never said what it must not; the trace found seven classes present in the
+  founding entries, each of which a future mint can write as easily.
+- decision: `reasoning` explains why the hypothesis exists and never extends what it asserts.
+  It may not hold: a claim the statement does not carry; a corpus reading stated as established
+  fact, that being evidence, which enters only as an entry in the record; a prospective testing
+  method naming which study will test it; an asserted relationship to another live hypothesis,
+  merge and split provenance excepted, which names the files this one came from; a
+  confirm-or-refute condition; an assessment of the hypothesis's own testability or thinness,
+  which the record answers by what it holds; a synthesis named as what raised it, which
+  `minting-a-hypothesis` already refuses; and anything derivable. The list is in
+  `hypothesis-file-schema` beneath the field table, with what unites them: each is a thing the
+  field can be written to say that stops being true when a statement is reworded or the set
+  changes around it. No check holds it, prose being what it governs.
+- not taken: leaving the field to its positive description, which is how all seven entered the
+  founding set; naming the classes in `minting-a-hypothesis` instead, where a migration session
+  and a future reader of the class would not look; a check on the words themselves, which would
+  refuse a legitimate motivation that happens to mention a study.
+
+### The migration is run by one session per hypothesis, briefed and composing rather than transcribing
+
+- id: d-2026-09-12-5
+- date: 2026-09-12
+- supersedes: d-2026-09-11-21
+- raised by: a trace of the founding fifty against their sources, which found the chains uneven
+  — some beginning in Brian's typed notes, some in a session's reading of a corpus — and one
+  layer, the reorganisation of 2026-08-30, lossy enough to have inverted a claim. Brian, on
+  verbatim carriage: "This cannot be straight up verbatim copy; some logical sanitation is
+  warranted"; on which rules bind: "this is a migration of old, ungoverned data, so many
+  restrictions for SOP may not apply"; on the chain: "The key is that the reasoning chain has to
+  begin at words that I typed"; and on the form of the preparation: "I don't need citations now.
+  I need the historical data and methodology so that one session per hypothesis can search for
+  the citations themselves."
+- decision: One session handles one hypothesis. It is briefed by
+  `docs/v3-framework-historical/hypothesis-migration-briefing.md`, which names the primary
+  sources and whose words each holds, the chronology, the trajectory each hypothesis sits on and
+  the search path for it, the failure modes the trace established, and the procedure; it carries
+  no citations, a citation table written once and read fifty times being the compression that
+  produced the defect it exists to catch. The session walks its trajectory to the head, reads
+  Brian's own words there, and composes the file whole against them. Composition is permitted
+  and transcription is not required, the SOP rules of mint and iteration not binding a bootstrap
+  under d-2026-09-07-27; the one constraint is that no claim enters that is not already in the
+  file or in its sources. What stands of d-2026-09-11-21: the migration runs after the schema,
+  the tables and the checker have landed and the exe is published, so every file is checked at
+  its write; the fifty existing files are copied to the scratchpad first; each new file is
+  composed whole and written to its own path, never edited into shape, because a surgical edit
+  over fifty prose bodies can leave a file half-converted and a file that is its own source loses
+  its prose to an interruption; and the six statements of d-2026-09-11-6 are recovered from git.
+  Each session commits its own file, one commit per hypothesis, the single commit of the
+  superseded entry having assumed a single session.
+- not taken: one session over all fifty, which is what the superseded entry assumed and which
+  cannot walk fifty chains into three corpora within one context; a citation table assembled by
+  one session for the rest to read, which repeats at the briefing layer exactly the compression
+  the trace found at the 2026-08-30 layer; deletion-only sanitation, proposed to keep a session's
+  authorship off Brian's record and declined because it imports rule 6, which governs `mint` and
+  not a bootstrap, and because it cannot repair the defect that most needs repairing; re-deriving
+  each reasoning from the upstream sources wholesale, which authors fifty new texts and enlarges
+  rather than reduces what Brian must read.
+
+### In the migration, a non-diagnosable hypothesis may be dropped or salvaged
+
+- id: d-2026-09-12-6
+- date: 2026-09-12
+- raised by: the eight statements of d-2026-09-12-2's finding, which under d-2026-09-12-1 would
+  enter the new set unfalsifiable and stay there. Brian: "Hypotheses that ought not to be
+  hypotheses can be ignored, though any proper hypothesis that can come out can be brought to my
+  attention"; then, on scope: "For the migration specifically, non diagnosable hypotheses can be
+  dropped (or salvaged based on the chain if logical)."
+- decision: A migration session applies d-2026-09-12-2's test to its statement. Failing it, the
+  session either salvages a prediction its chain carries — the clearest case being a statement
+  that absorbed a trailing question from its upstream entry, where separating them leaves a
+  prediction and the question goes to the corpus's question list — or drops the hypothesis, which
+  means the file is not written. A dropped id is not reused and does not become an empty file,
+  and the session reports the drop with what the chain showed. A proper hypothesis found inside
+  a discarded one is brought to Brian and minted, never written in passing. This licence is the
+  migration's alone and does not reach standard operating procedure, where d-2026-09-12-1 holds
+  and a hypothesis that should not have been minted is prevented at the gate rather than removed
+  after.
+- not taken: carrying the eight in as they stand, which fills the new set with statements that
+  can never acquire evidence nor ever be reworded; holding all eight for Brian before any file is
+  written, which blocks the whole migration on eight judgments; rewording them into predictions
+  in session, which authors the claim the hypothesis makes and is his under rule 1.
