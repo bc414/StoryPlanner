@@ -1,37 +1,28 @@
----
-id: 11
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-The gap between models — Opus 4.6's voice and conversational warmth versus
-Opus 5's agentic initiative, Sonnet 4.6's historical out-of-box preference —
-may narrow as instructional scaffolding matures, with whether AI voice enters
-the .storyplan determining how much real-time session voice matters for model
-choice.
+Skills can patch the gap in tool use and how much grounding a model needs — but they
+can't patch voice; the voice gap will persist even once skills close the rest.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised by merging threads Brian typed in sequence into the Google Keep
+  dump, before the 2026-08-30 reorganization split them into separate entries. His
+  observation: Opus 4.6 has "baseline conversational warmth (better voice)," while
+  Opus 5 comes "with baseline capability to question and be rigorous" and tool use
+  "trained and RLHF'd in," marketed as "agentic" — though he judged Opus 5's own
+  prose outright weak ("its language is not good"). His question was whether to
+  close each model's weak side with instructions: "Do I patch 4.6 with tool use?
+  Skills close gap and it follows instructions? Or do I patch opus 5 with voice
+  instructions?" Separately, he recalled Sonnet 4.6 as "still my preferred" model
+  for narrative analysis "because it worked better without a system prompt and its
+  voice is helpful and accommodating," though he "still had to ask for grounding"
+  by hand. His assertion: now that grounding lives in skills rather than something
+  he supplies in conversation, the Sonnet preference may turn out to have been for
+  its instructable default behavior — needing less explicit grounding — rather than
+  an intrinsic advantage, while voice is harder to patch with instructions and may
+  not close the same way. The motivation was to settle whether these differences
+  are patchable with skills or persist as intrinsic model properties, before
+  choosing a model going forward.
 
 ## Record
-
-- created | 2026-08-31T20:00: Merges four related observations from the
-  pipeline hypothesis dump into one convergence question. Brian noted the
-  Opus 4.6 vs Opus 5 split: 4.6 has better literary voice, 5 has better
-  agentic tool use and initiative. Skills may close 4.6's tool-use gap; voice
-  instructions may close 5's register gap. The question is which gap is
-  cheaper to close with instructions, and whether the answer changes as the
-  apparatus matures — once everything is well-defined, 5's initiative advantage
-  may matter less (the instructions say what to do) while 4.6's voice
-  advantage may persist (harder to instruct into existence). Separately, Brian
-  had historically preferred Sonnet 4.6 for narrative analysis because it
-  worked better without a system prompt and its voice was "helpful and
-  accommodating" — but with grounding now in skills, that preference may have
-  been for Sonnet's default behavior rather than an intrinsic advantage, and a
-  properly instructed Opus might match or exceed it. Crosscutting both: if AI
-  voice is sidecar-siloed and never enters the .storyplan, real-time session
-  voice matters for the interaction experience but not the data product — so
-  whether voice enters the plan determines how much model voice matters for
-  model choice at all. All four threads point at one question: does model
-  choice converge or diverge as the apparatus matures? Currently thin — no
-  controlled comparison exists.

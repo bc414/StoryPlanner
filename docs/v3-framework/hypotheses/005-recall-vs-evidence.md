@@ -1,26 +1,22 @@
----
-id: 5
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-No document or recall (FEATURE-AUDIT, memory files, design transcripts) carries
-intrinsic authority — all are hypotheses about what was true at their writing
-time, testable against current evidence.
+FEATURE-AUDIT no longer functions as settled authority: its recorded rejections
+and resolutions are hypotheses about what was true when they were written,
+testable against the project's historical evidence rather than accepted as
+fact.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised as one of the emergent hypotheses from the 2026-08-31
+  design conversation that produced the v3-buildout skill, not captured in
+  either the H-series or D-series source documents. Brian's assertion, typed
+  as a single standalone note while he assembled the prompt for the first
+  hypothesis-consolidation session: FEATURE-AUDIT is no longer authoritative,
+  and its assertions are hypotheses to be tested against the project's
+  historical evidence. The motivation was to keep the framework's own
+  instrument-level documents — the ones the buildout itself relies on — from
+  becoming the kind of authority trap the epistemic framework exists to
+  dissolve elsewhere.
 
 ## Record
-
-- created | 2026-08-31T19:30: The epistemic framework principle that everything
-  is a hypothesis extends to the project's own documents. FEATURE-AUDIT was
-  previously treated as authoritative for what features were rejected or
-  resolved. Memory files carry point-in-time state claims that read as standing
-  facts. Design transcripts contain complete, persuasive arguments for features
-  that were later abandoned. All three create authority traps if treated as
-  settled rather than as hypotheses about what was true when they were written.
-  The skill's "Recall is atmosphere, evidence is grounding" principle is the
-  operational expression: before acting on any recalled claim, query the evidence
-  source, compare, and proceed with the grounded version. This applies uniformly
-  — Brian's recall, a prior session's notes, a document's assertions.

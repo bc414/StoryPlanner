@@ -1,34 +1,31 @@
----
-id: 26
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-The three-axis model (mechanism x inference stage x rendering mode) is
+The three-axis model — mechanism, inference stage, and rendering mode — is
 structurally independent (each axis can vary without the others) but
-semantically coupled (specific combinations produce distinct effects), and this
-independence should be preserved in the framework architecture.
+semantically coupled (specific combinations produce distinct reader effects).
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised from the original eight corpus-level findings surfaced by
+  the 42-story meta-analysis (2026-08-17), one of which named the framework's
+  mechanism, inference-stage and rendering-mode structure as structurally
+  independent but semantically coupled. In deliberation the next day, Brian
+  did not take that finding at face value; he typed: "I need to disambiguate
+  across three different axes: there are the levels of enacted, latent,
+  development, and perception gap. Then there is the Page, Inference, and
+  Theme... Finally there's Direct Thought, Free Indirect Discourse as 'prose
+  techniques'? render mode? What is this? And what are the other values? If
+  this is a three dimension matrix, what are the 2d slices and the 1d values
+  when a value of all 3 are fixed? Are they orthogonal or independent with
+  correlation? I realized these are not the same in the recent development of
+  political axes of the fabula." His assertion is that these are two
+  different relationships — a distinction he had already drawn while refining
+  the story's political axes — and that the three-axis question could not be
+  answered without first deciding which relationship actually held. The
+  motivation was to keep the track architecture (one WorldInference and one
+  ThematicEvidence track per mechanism, per subject type) honest about which
+  of its dimensions can vary freely and which cannot, rather than assuming
+  without checking that all three axes behave the way the political axes do.
 
 ## Record
-
-- created | 2026-08-31T20:00: From the original 8 hypotheses derived from 42
-  stories. The three axes were identified as orthogonal descriptors of a single
-  reader-experience-moment: mechanism (M1-M4, the degree of inference required),
-  inference stage (where in the perception → world-inference → thematic-evidence
-  pipeline the moment operates), and rendering mode (the prose technique used to
-  deliver it — FID, behavioral description, direct narration, etc.). Structural
-  independence means you can vary one axis without forcing changes on the
-  others: an M3 moment can appear at any inference stage and be rendered in any
-  mode. Semantic coupling means the combination matters: M4 rendered via FID
-  produces a different reader experience than M4 rendered via direct narration,
-  even though both are M4. The framework should preserve the independence
-  (three separate descriptors, not a single combined taxonomy) while
-  acknowledging the coupling (some combinations are more natural or more
-  powerful than others). This has a direct relationship with hypothesis 024
-  (dimensional vs hierarchical) — if the three concerns (goal/mechanism/
-  technique) are dimensional, then the three axes within the mechanism concern
-  should also be dimensional. Whether the two sets of three are the same three
-  or overlapping-but-distinct is part of the open territory.

@@ -1,34 +1,26 @@
----
-id: 18
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-The target workflow pattern for using model + harness + data has been
-implicitly whatever the current tooling afforded (never explicitly defined),
-and the ideal steady state combines v1's low-friction high-throughput capture
-with v3's epistemic rigor and v2's author-goal support.
+The target workflow pattern for using model + harness + data has been implicitly whatever
+the current tooling afforded, never explicitly defined, and the ideal steady state combines
+v1's low-friction, high-throughput capture with v3's epistemic rigor and v2's author-goal
+support.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: No era of the planner ever named the workflow it was actually running — v1's
+  full-plan-paste sessions, v2's structured editor modes, and v3's still-forming epistemic
+  apparatus were each just whatever that day's tooling made possible. The 2026-08-30
+  reorganization of Brian's Keep notes turned this into an open question: what the actual
+  loop of using the model and harness with the story plan data ought to be, found by
+  identifying the historical patterns and decoupling them from each era's particular
+  technology. In the 2026-08-31 consolidation-prompt session, Brian answered it in his own
+  terms: the "ideal" steady state he described was v1's loop of taking a flagged note,
+  getting analysis, and writing it back into the plan in his own voice — a loop he called
+  frictionless, low-friction and high-throughput, but one that also produced the cognitive
+  voice-mixing he does not want repeated. He wants that throughput back, carried inside v3's
+  epistemic regime (the untested/evidenced/challenged vocabulary he was defining in the same
+  session) and with the author-goal support v2 had diagnosed a need for and attempted, but
+  had not itself delivered.
 
 ## Record
-
-- created | 2026-08-31T20:00: No era explicitly defined the target usage
-  loop — the workflow was always implicitly shaped by whatever the current
-  tooling afforded. V1's pattern was low-friction, high-throughput capture:
-  paste the full plan into Gemini, get a large analytical response, copy
-  useful fragments back. V2's pattern was structured author-goal support:
-  EditorModes, cognitive-mode separation, the Conversation Reader for
-  processing AI output with states. V3's pattern adds epistemic rigor:
-  hypothesize-gather-iterate, MCP-grounded evidence, challengeable claims.
-  Each era's workflow had strengths the others lacked — v1's throughput came
-  at the cost of voice contamination; v2's structure came at the cost of
-  stalled scene-level work; v3's rigor is unproven at scale. The ideal
-  steady state should combine v1's low friction (the session should feel
-  productive and fast), v3's epistemic discipline (claims are grounded
-  and challengeable), and v2's author-goal orientation (the workflow
-  serves Brian's authorial intent, not the framework's categories). The
-  historical patterns should be identified across eras and decoupled from
-  their era's technology to find the era-invariant core of the workflow
-  Brian actually wants.

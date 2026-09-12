@@ -1,38 +1,29 @@
----
-id: 43
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-Note-to-note design relationships (setup-to-payoff, parallel, contradicts,
-revelation chain) may be needed for structurally managing serialized
-publication trajectories, distinct from the rejected supersession links
-(FEATURE-AUDIT C1) and currently invisible in the data.
+The v1 archive contains note-to-note design relationships — setup-to-payoff,
+parallel, contradicts, revelation chain — that are currently invisible in the
+data: held only in Brian's memory or written as prose within a note, with no
+structural link connecting the notes involved.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised on 2026-08-29, mid-session, while tracing how Note already
+  attaches non-hierarchical data (world date, theme, source material). Brian's
+  own observation: "v1 had typed edges - plot point links were specific to the
+  entity type, like plotpointtheme, plotpointcharacter and they had enums
+  attached besides the free textbox. I eliminated typed edges for polymorphic
+  notes and track types for code simplification." His assertion followed: "I
+  resisted note <-> note relationships in v1 and v2. Maybe it has to come
+  back? v3 tooling makes the codebase complexity achievable." The motivation
+  is distinguishing this from the already-rejected note supersession link
+  (FEATURE-AUDIT C1): supersession says "this note replaces that note" and
+  was resolved by the Reader Prior Belief Update and Garden Notes tracks; a
+  design relationship instead says a note is designed to prepare the reader
+  for another note's payoff — a semantic never previously proposed. What
+  raised it to a hypothesis rather than a settled design call: the same
+  exchange noted that once a chapter is published its setups cannot be
+  rewritten, so if such connections matter, they need to be explicit and
+  checkable before publication rather than held only in Brian's memory.
 
 ## Record
-
-- created | 2026-08-31T20:00: The planner exists to manage trajectories for
-  serialized publication where published chapters cannot be rewritten. A
-  prior-belief-setup note in chapter 3 and its payoff-clash note in chapter 15
-  are currently connected only in Brian's head or as prose in the note content.
-  For serialized publication, these connections may need to be explicit and
-  validatable before publication — if the setup is revised, every note that
-  depends on it must be findable. The distinction from supersession is
-  critical. Supersession (FEATURE-AUDIT C1) was "this replaces that" — a note
-  making another note obsolete. That was resolved by the existing Reader Prior
-  Belief Update and Garden Notes tracks, which capture revision history within
-  the plan. Design relationships are "this is designed to prepare the reader
-  for that" — a different semantic entirely. A setup note does not replace its
-  payoff; it creates the conditions under which the payoff will land. These
-  relationships have never been proposed before in the project's history. The
-  codebase already has patterns that could support them without new
-  architecture: SubjectRelation provides the typed-edge model between entities,
-  and NarrativePropertyValue provides single-select closed-vocabulary
-  annotation. Whether the need is real (do enough cross-chapter design
-  dependencies exist to justify explicit tracking?) and whether existing
-  subject-level arc plans already cover the need sufficiently are both open
-  questions that evidence from v1 archive mining and framework evaluation
-  should inform.

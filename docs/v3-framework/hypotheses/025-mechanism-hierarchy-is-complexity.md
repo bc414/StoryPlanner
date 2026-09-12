@@ -1,30 +1,23 @@
----
-id: 25
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
 The mechanism hierarchy (M1-M4+) represents structural complexity — the degree
-of reader inference required — not narrative quality; higher mechanism does not
-mean better story.
+of reader inference required — not narrative quality; higher mechanism does
+not mean better story.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised during the 2026-08-17 corpus meta-analysis of 51 pipeline
+  outputs (42 unique stories, the source of "the original 8" hypotheses) —
+  one of the findings behind that session's proposed Analysis Brief v4
+  revision. The session flagged that numbering the framework's inference-work
+  categories as "Levels" read as a quality ranking, implying a Level 4 scene
+  is simply better than a Level 1 scene, and proposed retiring the numbering
+  for named "Mechanisms" with a clarifying note that they describe structural
+  complexity, not quality. Brian approved the revision and picked the
+  replacement vocabulary himself, typing "Use Mechanism 1: Enacted, Mechanism
+  4: Perception Gap etc" in place of the numbered levels. What carried
+  forward into the hypothesis: the mechanism hierarchy tracks how much reader
+  inference a moment asks for, not how good the scene is.
 
 ## Record
-
-- created | 2026-08-31T20:00: The mechanism levels emerged from early corpus
-  analysis: M1 (explicit statement), M2 (simple inference from juxtaposition),
-  M3 (pattern recognition across scenes), M4 (dramatic irony / reader-character
-  knowledge gap). The hierarchy is intuitive — M4 requires more reader work
-  than M1 — but intuition risks becoming prescription: "aim for M4" as if
-  complexity were quality. Early corpus work suggested this is well-supported,
-  though no formal evidence has been deposited in this record yet. The
-  prediction: a well-told scene at M1 (a character states something and the
-  reader takes it at face value) is not inferior to an M4 scene; it serves a
-  different goal. Scenes that aim for M4 when M1 would serve the goal create
-  unnecessary opacity, not sophistication. The hierarchy is a structural
-  descriptor for framework purposes (categorizing what kind of inference a
-  moment asks the reader to perform), never a quality score. This parallels the
-  standing rule in the planner: cells are occupancy, never a ranking — and
-  mechanism levels are occupancy on the complexity axis.

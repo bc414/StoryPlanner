@@ -1,29 +1,22 @@
----
-id: 10
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-After subtracting instructional scaffolding and data connectivity, models
-retain intrinsic properties — voice register, reasoning quality, tool-use
-affinity, capability ceiling — that are not fully reducible to instruction
-engineering.
+After subtracting instructional scaffolding and data connectivity, models retain intrinsic
+properties — voice register, reasoning quality, tool-use affinity, capability ceiling — that
+are not fully reducible to instruction engineering.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised in the Google Keep hypothesis dump, in the passage where Brian decomposes
+  "my experience with each model/era" into three independent factors — the model itself, the
+  data stream, and the instructions — the same decomposition the v3 architecture later encodes
+  structurally, instructions moving into skills and data into an MCP server. His own question
+  there: "what is actually the difference between the models, independent of the date stream
+  and instructions, decoupled from the default instructions on a vacuum?" He named what he
+  expected to remain — "Tool affinity and instruction affinity? Voice? ... supported tool and
+  capability ceiling" — and treated capability ceiling as concrete enough to already act on,
+  not purely speculative: in the same note, "I won't be using haiku because of a capability
+  ceiling." The motivation: if nothing survives that decoupling, model choice stops mattering
+  once skills and MCP are mature, and this hypothesis is the check on that premise.
 
 ## Record
-
-- created | 2026-08-31T20:00: From the pipeline hypothesis dump's model tier.
-  Brian's observation: once you decouple the instructions (now in skills) and
-  the data stream (now in MCP), something remains that is model-intrinsic.
-  Hypothesized properties include tool-use affinity (how readily a model
-  discovers and chains tools), instruction-following fidelity (how reliably it
-  adheres to skill constraints), baseline analytical rigor (depth of
-  unprompted analysis), voice warmth and register (prose character), and
-  capability ceiling (what it cannot do regardless of instruction quality).
-  This is a direct tension with the full-decoupling claim — if instructions
-  could close every gap, model choice would be irrelevant, but Brian's
-  experience suggests it is not. The hypothesis is thin and the property list
-  is speculative; no controlled comparison has isolated any of these
-  properties from their instructional context.

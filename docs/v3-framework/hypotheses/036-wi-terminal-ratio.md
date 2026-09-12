@@ -1,33 +1,31 @@
----
-id: 36
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-WI-terminal links — World Inference serving structural purposes without reaching
-Thematic Evidence — are legitimate and expected to be common. P->WI->T is a
-special case of the more general P->WI->[T or structural purpose] pipeline, and
-the natural corpus-wide ratio of WI-terminal to T-terminal chains is an open
-empirical question.
+WI-terminal links — World Inference serving structural purposes without
+reaching Thematic Evidence — are legitimate and expected to be common.
+P→WI→T is a special case of the more general P→WI→[T or structural purpose]
+pipeline.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: One of the original eight corpus-level findings from the
+  2026-08-17 meta-analysis of 51 pipeline outputs (42 unique stories) held
+  that the Analysis Brief kept surfacing scenes in other authors' finished
+  stories whose reader-inference work never resolved into a named thematic
+  proposition. In deliberation the next day, Brian pressed the finding
+  rather than taking it as already settled, typing: "Now I'm questioning
+  whether 'every link exists because there is thematic work'. The brief has
+  clearly shown otherwise, right? One thing is setting up world inferences
+  for later prior belief updates, but what else is there, where a world
+  inference would exist without 'thematic work' attached?" His assertion is
+  that the corpus had already produced cases of legitimate inferential work
+  beyond prior-belief setup that never deposits thematic evidence, and that
+  a rule built for the planner's own links — where a link's existence is
+  itself the assertion that thematic work is happening — does not hold for
+  a text the author does not control, where the reader's inference can serve
+  the story's argument without being evidence for it. The motivation was to
+  correct the Analysis Brief's inherited assumption that every inferential
+  chain must terminate at Theme, so the remaining corpus would stop being
+  read against a rule the corpus itself was disproving.
 
 ## Record
-
-- created | 2026-08-31T20:00: The v2 framework's P->WI->T chain implied that
-  every World Inference should ultimately serve a thematic argument — that WI is
-  a waypoint on the road to T. The corpus evidence challenged this: many
-  scene-level designs ask the reader to perform world inference (deduce political
-  relationships from behavioral evidence, infer a character's hidden motive from
-  what they do not say) for purposes that are structural rather than thematic.
-  The reader's inference builds understanding of the world that makes later scenes
-  comprehensible, creates suspense about unresolved questions, or establishes
-  prior beliefs that a later scene will overturn — all without the inference
-  serving as evidence for a thematic claim. World Inference is a superset of
-  Thematic Evidence: every T-terminal chain passes through WI, but not every WI
-  chain reaches T. The v2 rule from conv 47 block 1520 that every link must have
-  a T entry may have been overfit to the assumption that WI is instrumentally
-  subordinate to T. The corpus can answer what the natural ratio is — how many
-  WI chains terminate at structural purpose vs how many reach thematic argument —
-  and whether that ratio varies by story length, genre, or paradigm.

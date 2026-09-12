@@ -1,32 +1,33 @@
----
-id: 9
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-V3 tooling — MCP for data/instruction decoupling, skills for
-instruction/model decoupling, open protocol for harness/model decoupling —
-makes the four-factor independence (hypothesis 006) testable for the first
-time and enables retrospective review of prior AI-plan interactions that were
-previously inaccessible.
+V3 tooling — MCP sidecar queries for data/instruction decoupling, skills for
+instruction/model decoupling, and MCP's open-protocol design for
+harness/model decoupling — makes the pipeline's four factors independently
+testable for the first time. Because the MCP server can query the
+conversation, lineage and code-session archives instead of relying on a
+single whole-plan paste, retrospective review of prior AI-plan interactions
+— previously impossible — is now possible.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised while organizing the Google Keep dump into the pipeline
+  hypotheses (2026-08-30), merging two of Brian's observations there. First,
+  decomposing his experience of each model/era into independent factors
+  (model, data stream, instructions, harness) led him to notice that v3's own
+  tooling supplies a mechanism for each pairing: MCP's sidecar queries
+  replace the whole-plan paste that used to carry data and instructions
+  together, skills carry grounding independent of which model executes them,
+  and MCP's open-protocol design means the model itself is theoretically
+  swappable behind a stable harness. His assertion: whether this independence
+  is real rather than aspirational only becomes checkable now, because every
+  prior era changed several of these factors at once and none isolated one
+  from the rest. Second, and separately, he had already observed that before
+  the MCP server existed only the most recent whole-plan paste was in
+  context, with no way to compare what an earlier session had seen or
+  produced; the MCP server's queryable history of conversations, lineage and
+  code sessions is what makes that after-the-fact review possible for the
+  first time. The two observations were merged into one entry at
+  consolidation as two consequences of the same MCP/skills architecture.
 
 ## Record
-
-- created | 2026-08-31T20:00: Merges two related claims from the pipeline
-  hypothesis dump. First: MCP sidecar queries replace whole-plan pastes,
-  decoupling data from instructions; skills enforce analytical rigor regardless
-  of which model runs them, decoupling instructions from model; MCP as open
-  protocol theoretically decouples harness from model. Whether this
-  independence is real or aspirational is testable by varying one factor while
-  holding others constant — but the testing methodology is itself unresolved
-  (who verifies, what constitutes a positive signal). Second: the MCP server
-  is the first architecture that lets the AI look backward at its own prior
-  interactions with the plan data — before MCP, only the most recent paste
-  existed, so retrospective review of what an earlier session saw and produced
-  was impossible. This backward-looking capability is what makes evidence-based
-  instruction design feasible. Both claims are thin — asserting capability
-  without evidence that the decoupling holds in practice or that the
-  retrospective review produces actionable findings.

@@ -1,31 +1,24 @@
----
-id: 41
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-The "sufficient stability" principle — scene design can proceed per scene as
-relevant subject-level content stabilizes — is correct but was never practiced
-in v2, and v3 should enable iterative subject-to-scene work rather than
-sequential subject-then-scene gating.
+The "sufficient stability" principle — that a scene's design can proceed once the
+subject-level content that scene specifically depends on has stabilized, without
+waiting for all subject-level content to reach completion — is correct.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised during the 2026-08-28/29 corpus-analysis deliberation, when
+  Brian weighed how v2 actually worked against a stage/layer model a much
+  earlier design conversation had proposed for this exact question — that
+  scene-level design should begin once the specific structural content a scene
+  draws on is stable, not once the whole structural record is finished. Brian's
+  own comparison: "v2 is designed for a fabula/syuzhet setup that is sequential
+  and an architectural gardening before prose split... while v2 has almost no
+  scene level notes yet, v1 archive has a lot of instinctual, raw capture, scene
+  level notes." In practice, subject-level work under v2 never reached the
+  completion the sequential workflow gated scene design on — subject-level work
+  has no natural finish line — and scene-level design never got underway for the
+  whole of v2's lifetime. The motivation is finding out whether the stability
+  principle, left unpracticed, is itself sound.
 
 ## Record
-
-- created | 2026-08-31T20:00: v2's prescribed workflow (Stage 0 through Stage
-  3, five EditorModes) imposed a sequential ordering: accumulate subjects, then
-  establish truth, then design the reader's experience, then write. The
-  sequential model gated scene-level work on subject-level completion, but
-  subject-level work is unbounded — there is no natural finish line for
-  Expansion or Linking before Scene Design becomes available. The principle that
-  a scene can be designed once the subjects it touches are stable enough was
-  articulated in the synthesis conversation but was never practiced during v2's
-  lifetime. Scene-level work stalled entirely. The v3 framework should make
-  iterative subject-and-scene work the expected pattern: work a subject's
-  content until it is stable enough to support scene design for scenes that
-  touch it, design those scenes, then return to subject-level work when new
-  scenes reveal gaps. This is the gardening cadence applied across scope levels
-  rather than within one. Whether "stable enough" can be defined precisely or
-  remains a judgment call per scene is part of what this hypothesis tests.

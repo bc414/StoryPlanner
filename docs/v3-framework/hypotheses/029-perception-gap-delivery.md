@@ -1,47 +1,29 @@
----
-id: 29
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-Character-reader perception gap is one of several cross-scene design targets for
-experience design — alongside prior-belief management, reader investment
-accumulation, revelation sequencing, and reader stance trajectory — with FID as
-one of several delivery mechanisms (not the privileged one) and conversation 21's
-technique-agnostic gap taxonomy (ironic/tragic/closing/aligned) as the starting
-hypothesis for gap types.
+Character-reader perception gap is the correct WorldInference target for
+experience design, with FID as one of several delivery mechanisms (not the
+privileged one) and conversation 21's technique-agnostic gap taxonomy
+(ironic/tragic/closing/aligned) as the starting hypothesis for gap types.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: While comparing his favorite stories and GRRM's technique against
+  Track 99's Free Indirect Discourse specification, Brian asked why he had
+  fixated on FID so heavily, given that neither GRRM nor his own favorites lean
+  on it for perception gap. Working through it, he pointed out that the other
+  prose techniques already have a target in the framework — WorldInference —
+  and that FID is a prose technique too: the Character-Reader Perception Gap
+  track on the POV character specifies an inference target, not a way of
+  writing. His assertion: perception gap is the correct WorldInference target,
+  but FID is not the only way to reach it, and the planner should never
+  specify prose technique — only the effect wanted — so the prose stays his
+  voice. Conversation 21, the foundational conversation that led to v2, had
+  originally framed the gap as technique-agnostic, with a taxonomy of ironic,
+  tragic, closing, and aligned gaps; Track 99's usage directive later narrowed
+  delivery to FID specifically, which Brian's own later account attributed to
+  FID being the one technique he hadn't yet learned when the track was
+  written, while the others he already used instinctively. Raised in the
+  2026-08-27–29 corpus-analysis conversation, ahead of the grand synthesis.
 
 ## Record
-
-- created | 2026-08-31T20:00: The perception gap — the delta between what the
-  reader knows or believes and what the focalizing character knows or believes
-  — was identified early as the core of designed reader experience. Conversation
-  21 developed a gap taxonomy that was originally technique-agnostic: ironic
-  (reader knows more than the character), tragic (reader sees the character's
-  blind spot and its consequences), closing (a gap narrows as the character
-  learns), aligned (reader and character share the same understanding, creating
-  solidarity). This taxonomy describes the reader's cognitive and emotional
-  position regardless of how it was created. The FID fixation happened
-  afterward: the NotebookLM analysis found FID prominent in effective FiM
-  episodes, early Claude conversations adopted this as the primary technique,
-  and Track 99's usage directive narrowed the gap layer to FID delivery. But
-  FID is only one delivery mechanism. Behavioral evidence (showing what a
-  character does without interiority) can create an ironic gap. Dialogue
-  subtext (what characters say around but not about a topic) can create a
-  closing gap. Direct narration with withheld information can create a tragic
-  gap. The hypothesis recovers the original technique-agnostic framing: the
-  planner should specify what gap to create (using the taxonomy) and which
-  mechanism delivers it (using the mechanism vocabulary), not assume FID is
-  the default delivery. Track 99's usage directive should describe the
-  inference target (the gap), not prescribe the prose technique.
-- iteration | 2026-09-01T03:30: Rewritten from "the correct WorldInference
-  target" to "one of several cross-scene design targets." Post-WU discussion
-  identified peers at the same architectural level: prior-belief management,
-  reader investment accumulation, revelation sequencing, and reader stance
-  trajectory. Perception gap was elevated to a pinnacle position in v2 (top
-  of P→WI→T, its own track, FID prescribed); the corpus evidence shows it as
-  one designed reader effect among several. WU1.5 should trace how it came to
-  be elevated and whether its peers were considered.

@@ -1,30 +1,23 @@
----
-id: 2
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
 The v3 framework's deepest contribution is epistemological — the
 hypothesize-gather-iterate cycle applied uniformly to narrative design — rather
-than any specific new track, scope level, or vocabulary. This cycle may already
-have been v1's natural workflow before v2's prescriptive staging displaced it.
+than any specific new track or scope level. This cycle may already have been
+v1's natural workflow, before v2's prescriptive staging displaced it.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised as one of the emergent hypotheses from the 2026-08-31
+  design conversation that produced the v3-buildout skill, not captured in
+  either the H-series or D-series source documents. Brian's assertion: the
+  framework's deepest contribution may be epistemological rather than
+  structural, and v1's natural workflow may already have been closer to the
+  hypothesize-gather-iterate cycle than v2's prescriptive staging was. He held
+  the epistemic framework itself as warranting testing among the very first
+  hypotheses, asking whether v2 moved away from that cycle and, if so, what
+  guided the move — speculating the cause was "probably something I said and
+  mixed with Claude's baseline way of working," a question the statement does
+  not carry and leaves to evidence.
 
 ## Record
-
-- created | 2026-08-31T18:00: Three observations converge. First, the v3
-  epistemic vocabulary (untested/evidenced/challenged, baselining, no terminal
-  states) is itself a methodology — if the deepest contribution is this cycle,
-  then the framework's value is in HOW it works, not WHAT it tracks; the track
-  architecture is a product of the method. Second, Brian's intellectual method
-  across all eras shows the same pattern: hypothesize, test, correct. In v1
-  Gemini conversations he corrects Gemini's axis definitions against his plan
-  knowledge; in v3 MCP conversations he demands Claude verify against specific
-  notes. The tooling changed (plan-as-atmosphere vs plan-as-queryable-evidence),
-  not the stance. Third, v2's prescriptive staging (Stage 0→1→2→3, five
-  sequential EditorModes) replaced this iterative pattern with a sequential
-  workflow. Whether v2 displaced an existing practice or named something not yet
-  practiced is testable against the lineage evidence — the answer determines
-  whether v3 restores a natural workflow or introduces one.

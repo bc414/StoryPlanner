@@ -1,43 +1,30 @@
----
-id: 34
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-The boundary between plannable goals and prose-craft falls on cross-scene
-architecture: effects depending on cross-scene structure (prior-belief
-construction, revelation sequencing, behavioral proxy accumulation, comedy
-placement for tonal management) are plannable; effects within a single moment
-of prose (joke execution, word choice, atmospheric description, narrative voice
-register) are prose-craft, chosen at writing time.
+Comedy, atmosphere, and narrative voice are prose-craft — chosen at writing
+time, not planned in the planner — rather than framework-level categories.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised in the 2026-08-17 meta-analysis of 51 pipeline outputs
+  across 42 stories, where roughly fifteen analyses flagged comedy as a blind
+  spot the mechanism × inference-stage matrix could not capture — the matrix
+  records what a reader concludes, not what they feel or find funny. Brian,
+  replying to the meta-analysis on 2026-08-18, drew the boundary himself: the
+  framework is "NOT intended to be EVERYTHING that comes to writing," only
+  the technical parts he "didn't have the vocab for before." Comedy he held
+  with full confidence: "Comedy comes from writing the prose. I know how to
+  do that in my own way, and even if I didn't it ought not to be something
+  defined analytically in a sqlite database of the fabula and syuzhet. That
+  is prose craft, and AI assistance should not go anywhere near." Atmosphere
+  and narrative voice he raised more tentatively than comedy, as open
+  questions rather than as settled alongside it: whether the "Atmospheric/
+  affective immersion aspect" belongs to the same category he called "a
+  critical question to address," and whether narrative voice "belong[s] in
+  the fabula/syuzhet database... or if [it] should be quarantined to the
+  'writing techniques' subjects" was, in his words, something that "needs to
+  be analyzed." The motivation is the framework's own declared scope — it is
+  constrained to the fabula and syuzhet, not to everything that goes into
+  writing — and these three are the candidates for what sits outside it.
 
 ## Record
-
-- created | 2026-08-31T20:00: The original observation from the 42-story corpus
-  analysis was that comedy, atmosphere, and narrative voice appeared in the
-  corpus as effects that resisted scene-level planning: a joke's timing is a
-  sentence-level decision, atmosphere emerges from accumulated word choice, and
-  narrative voice is the writer's register rather than a designed reader
-  operation. Brian's own hypothesis is that he can already produce these effects
-  instinctively — they do not need the planner's support. But the boundary is not
-  self-evident. Structural setup (planting information for a later payoff) feels
-  plannable; a comic beat that depends on setup also feels plannable; pure
-  one-liner wit does not. The distinction may be about whether the effect depends
-  on cross-scene architecture (plannable) or exists entirely within a single
-  moment of prose (prose-craft). Evidence from the corpus, Brian's own fiction
-  (WU2a), and the v1 archive (WU2b) can test where particular effects fall, but
-  the boundary itself is a judgment Brian makes about what his planner should
-  track. This hypothesis is the complement of hypothesis 033
-  (non-thematic-goal-categories): 033 asks what the goal categories are, this one
-  asks which of them belong in the framework and which are left to the writing.
-- iteration | 2026-09-01T03:30: Rewritten from "the boundary needs evidence-
-  based definition" to "the boundary falls on cross-scene architecture." The
-  corpus evidence consistently separates plannable cross-scene effects (prior-
-  belief construction, revelation sequencing, accumulation placement, comedy
-  placement) from prose-craft single-moment effects (joke execution, word
-  choice, atmosphere). Brian's recall that cross-scene architecture is why he
-  built v1 (to be verified by WU1.5) would be the strongest confirmation — the
-  planner exists because cross-scene design can't be done in prose alone.

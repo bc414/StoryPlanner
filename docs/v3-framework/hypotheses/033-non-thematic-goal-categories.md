@@ -1,45 +1,27 @@
----
-id: 33
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-Theme is one goal category among peers — tonal management, structural setup,
-emotional investment, prior-belief establishment, characterization, reader
-attachment, and potentially others — with P->WI->T as the thematic pathway and
-other goals following different pathways that bypass inference (P->accumulation
-->attachment for emotional investment, P->information_plant for structural setup).
-Comedy is a delivery register for these goals (especially tonal management and
-characterization), not a goal category itself. Which non-thematic goals are
-plannable vs prose-craft is an open empirical question.
+Theme is one goal category among peers — humor, structural setup, emotional
+investment, prior-belief establishment, and potentially others — with P->WI->T as
+the thematic pathway and other goals potentially following different pathways that
+bypass inference entirely (P->emotional resonance, P->humor).
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised on 2026-08-28, mid-session, while Brian was working out the
+  levels of abstraction underlying the still-forming v2.5 framework — prose
+  technique, then mechanism, then the thing a mechanism serves, which he termed a
+  "goal" for lack of a better word yet — right after reviewing the story planner's
+  founding purpose across earlier conversations. V2's mechanism tracks pair a
+  theme track to every mechanism track, on the working assumption that every
+  mechanism serves a theme; a hypothesis was already open in the same thread that
+  not every inference does. Brian's assertion: "I'm also hypothesizing that theme
+  is not the only goal category. Humor, establishing prior beliefs to be shattered
+  later, emotional warmth/feel good sensations, and potentially others form the
+  highest order 'goals' of the book. This is a hypothesis to be tested against the
+  analyses." The motivation was the 112-story corpus itself, which read as
+  reaching some of these goals — humor, emotional warmth — without passing through
+  the inference chain that produces thematic evidence at all, unlike theme's own
+  P->WI->T pathway.
 
 ## Record
-
-- created | 2026-08-31T20:00: The v2 framework treated theme as the terminal goal
-  of the P->WI->T inference chain, which made every scene-level design question
-  ultimately about thematic argument. The 112-story corpus showed stories
-  achieving scene-level effects through goals that never pass through inference at
-  all: humor that works through timing and incongruity rather than reader
-  inference, emotional investment built through accumulation of behavioral detail
-  rather than through world-inference chains, structural setup that plants
-  information the reader needs later without asking the reader to infer anything
-  about it yet. These are not lesser goals or subgoals of theme — they are peer
-  categories with their own pathways from presentation to effect. The P->WI->T
-  chain remains the pathway for thematic goals specifically; the question is what
-  the full set of goal categories is and which pathways each follows. The open
-  edge of this hypothesis — which non-thematic goals are plannable (belong in the
-  planner's track architecture) vs which are prose-craft (chosen at writing time,
-  not designed in advance) — is the same territory as hypothesis 034
-  (prose-craft-boundary). The two hypotheses are companions: this one asks what
-  the goal categories are, that one asks where the boundary falls.
-- iteration | 2026-09-01T03:30: Rewritten to replace "humor" with the actual
-  goal categories the corpus evidence supports (tonal management, structural
-  setup, emotional investment, characterization, reader attachment). Comedy is
-  reclassified from a goal to a delivery register — it serves tonal management,
-  characterization, and reader attachment but is not itself a designed goal.
-  Added specific pathways (P→accumulation→attachment, P→information_plant).
-  Per-story verification of five corpus stories confirmed comedy is almost never
-  a primary genre.

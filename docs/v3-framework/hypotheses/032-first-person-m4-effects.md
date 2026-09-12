@@ -1,38 +1,30 @@
----
-id: 32
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-First-person narration produces M4-adjacent effects (narrator unreliability,
-gaps between what is reported and what the reader infers) through a different
-mechanism than FID, broadening the perception-gap delivery toolkit beyond
-third-person techniques.
+First-person narration produces Mechanism-4-adjacent effects: retrospective
+unreliability, dual-POV replay structure, and first-person enacted irony
+create reader-character knowledge asymmetry through mechanisms other than
+FID.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised during the 2026-08-17 meta-analysis of 51 pipeline
+  outputs across 42 read stories — the source of "the original 8"
+  corpus-level findings. The session flagged that the corpus's first-person
+  stories kept producing a reader-narrator knowledge asymmetry — through
+  retrospective unreliability, dual-POV replay, or first-person enacted
+  irony — that functioned like the Perception Gap mechanism (M4) even though
+  the framework's M4 definition requires FID, which first-person narration
+  cannot supply. In the deliberation that followed, Brian confirmed the
+  boundary this sits against without endorsing the underlying mechanism
+  claim: "I'm not going for first person for writing... I'm committed to
+  third person limited now," while asking that the corpus's first-person
+  stories keep being read the way they were ("It's still ok to proceed with
+  the analysis of first person stories the way it is going about it"). The
+  motivation was naming what those stories were doing rather than
+  prescribing a technique for TLTT: the mechanism vocabulary needed to
+  account for an effect the corpus kept producing, distinct from the
+  FID-based Perception Gap the framework already named, even though the
+  effect would never enter Brian's own prose.
 
 ## Record
-
-- created | 2026-08-31T20:00: From the original 8 hypotheses derived from 42
-  stories. First-person narration creates perception gaps through a mechanism
-  unavailable to third-person: the narrator is a character, and the reader can
-  distrust the narration itself. When a first-person narrator says "I wasn't
-  bothered," the reader may infer from context that the narrator was deeply
-  bothered — an M4-adjacent effect (the reader knows something the character-
-  narrator denies or fails to recognize) produced without FID, without
-  focalization shifts, without any of the third-person toolkit. The mechanism
-  is narrator unreliability: the reader performs inference on the gap between
-  what the narrator reports and what the narrative evidence supports. This
-  matters for the framework because TLTT is a multi-story project with
-  different stories potentially using different narration modes — Kitty's
-  bildungsroman could use first-person while Chrysalis's Greek tragedy uses
-  third-person variable focalization. The perception-gap design vocabulary
-  needs to accommodate both. It also matters because first-person unreliability
-  is not merely "M4 delivered differently" — the reader's relationship to the
-  narrator is fundamentally different when the narrator is a character
-  (the reader evaluates the narrator's credibility) versus when the narrator is
-  external (the reader takes the narration as given and evaluates characters
-  within it). Whether this difference requires separate mechanism categories or
-  is adequately captured by the existing M4 definition with a rendering-mode
-  qualifier is the testable question.

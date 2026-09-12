@@ -1,41 +1,33 @@
----
-id: 22
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-Each AI voice in the corpora requires defined treatment rules rather than uniform
-handling: Gemini's RLHF-tuned finality in lineage carries hypothesis-level not
-fact-level authority, Claude's formulations in conversations carry different
-authority from Brian's turns, and v1 text copy-pasted from Gemini needs epistemic
-recognition as unfinished proposals despite their air of settled certainty.
+Each AI voice in the corpora requires defined treatment rules rather than
+uniform handling: Gemini's RLHF-tuned finality in lineage carries
+hypothesis-level, not fact-level, authority; Claude's formulations in
+conversations carry a different authority from Brian's own turns there; and
+v1 text copy-pasted from Gemini needs epistemic recognition as unfinished
+proposals despite its air of settled certainty.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Raised in the same 2026-08-31 consolidation-prompt session as
+  002-005, among the emergent hypotheses not captured in the H-series or
+  D-series source documents. Brian's observation: Gemini's voice is
+  pervasive in the lineage corpus, and Claude's is pervasive in the
+  conversations corpus — both AI voices sitting alongside his own in the
+  record. His assertion, given in overlapping terms across two of the
+  session's items: only his own voice is settled, and only at the time he
+  wrote it; the AI voices are hypotheses, not fact or settled material, and
+  arbitrating between them needs to be careful and deliberate, voice by
+  voice, rather than one blanket rule. He grounded this in the v1 archive
+  specifically — a lot of v1 text was copy-pasted in from Gemini, and reads
+  as hyperbolic, capitalized, and delivered with an air of finality, which
+  he attributed to an RLHF tuning aimed at finality and user satisfaction
+  rather than reasoned confidence. He pasted that text in for its content as
+  insight, not because he endorsed its framing, and holds it as unfinished —
+  proposals, not settled fact. His stated motivation for the general rule:
+  he needs to define, model by model, how each AI voice in the corpora
+  should be treated, because the failure mode differs by voice and by
+  corpus.
 
 ## Record
-
-- created | 2026-08-31T20:00: The v1 notes contain Gemini-voice text that was
-  pasted into the .storyplan so it could be used as working material — insights,
-  framings, analytical observations. Brian pasted these because the content was
-  useful, not because he endorsed the framing. The problem is that Gemini's RLHF
-  tuning produces text with hyperbolic conviction: capitalized emphasis, an air of
-  finality, declarative framing that reads as settled conclusion rather than
-  working hypothesis. "This is THE fundamental tension" reads as a closed judgment
-  when it was an unfinished proposal from a model whose reinforcement learning was
-  tuned for user satisfaction and perceived certainty. The treatment rule: Gemini
-  lineage text is hypothesis-level, never fact-level, regardless of how final it
-  sounds. Claude's formulations in the conversations corpus carry a different
-  authority profile — Claude's analytical turns are responses to Brian's questions
-  and operate under explicit system instructions that shape their framing, so
-  their authority traces through the instruction chain rather than being
-  self-contained. Brian's own turns in those same conversations are his analytical
-  voice (register 4 from H021), not AI voice at all, and carry a different
-  citation status. The practical consequence: any mining or linting pass over v1
-  notes must recognize Gemini-pasted text as a distinct voice category with its
-  own epistemic standing, not conflate it with Brian's fabula or analytical voice
-  just because it lives in the same note. The same applies to any future corpus
-  where AI-generated text is preserved — the treatment protocol is per-model and
-  per-context, not a blanket "AI voice = lower authority" rule, because the
-  specific failure modes differ (Gemini's false finality vs Claude's instruction-
-  shaped framing vs NotebookLM's synthesis artifacts).

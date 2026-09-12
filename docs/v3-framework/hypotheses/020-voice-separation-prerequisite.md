@@ -1,35 +1,24 @@
----
-id: 20
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
-Clean voice separation (Brian's voices in the .storyplan, AI voice in sidecars)
-is a structural prerequisite for the v3 framework — track architecture built on
-mixed-voice data inherits the confusion, so separation must precede or run
-alongside framework evolution, not follow it.
+A v3 track architecture designed against .storyplan data that still mixes Brian's voice
+with AI analytical voice inherits that mixture's confusion, rather than resolving it.
+
+## Origin
+
+- date: 2026-08-31
+- reasoning: Split from 019 (ai-context-contradiction), the forward-looking half of the
+  same origin. While tracing that historical diagnosis, Brian asked whether all Gemini and
+  Claude analytical voice should be exorcised from the .storyplan, or only from confirmed
+  notes, or scoped by track — observing that the MCP server's sidecar corpora (lineage,
+  conversations) now make AI voice greppable and separable from the plan for the first
+  time, unlike v1 and v2, where his voice and AI framing sat in the same notes in the same
+  database. The same concern extends to v1 archive mining, which he had already flagged as
+  needing to tell his own analytical observations apart from AI framing rather than discard
+  them as contamination. What raised it to its own hypothesis rather than folding it into
+  019: 019 is a claim about what already happened — the feedback loop, and whether the MCP
+  sidecar architecture resolves it. This one is a forward claim about sequencing: that
+  voice separation needs to happen before or alongside building the v3 track architecture,
+  not as cleanup after, because architecture designed on data that is still mixed would
+  carry the same confusion forward.
 
 ## Record
-
-- created | 2026-08-31T20:00: This is the forward prediction split from 019's
-  historical diagnosis. The reasoning: if the .storyplan still contains AI voice
-  when v3 track definitions are designed against that data, the definitions will
-  encode the confusion rather than resolving it. A track definition that asks
-  "what is the fabula truth here?" gets a different answer depending on whether
-  the notes it covers are Brian's fabula voice or Gemini's analytical framing of
-  the fabula — and the definition cannot distinguish them because both are stored
-  identically as note text. The same applies to mining: v1 archive mining must
-  identify which notes are Brian's analytical observations and which are AI
-  output, because treating Brian's own analytical voice as contamination discards
-  real signal. The five-voice register model (hypothesis 021) provides the taxonomy for
-  this separation; this hypothesis predicts that the separation is prerequisite,
-  not optional cleanup. Separable from 019: the historical diagnosis of the
-  feedback loop could be confirmed while this prerequisite prediction could turn
-  out to be unnecessary — perhaps mixed-voice data is workable if the framework
-  is robust enough, or perhaps voice separation only matters for certain track
-  types and not others. The v3 MCP architecture makes the separation technically
-  feasible (AI voice is greppable in lineage and conversations), but whether it
-  is structurally necessary for the framework to function is the testable claim.

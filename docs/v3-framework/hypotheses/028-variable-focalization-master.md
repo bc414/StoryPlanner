@@ -1,10 +1,3 @@
----
-id: 28
-status: untested
-baselined: false
-created: 2026-08-31
----
-
 ## Hypothesis
 
 Variable focalization (strategic shifts in narrative distance and perspective
@@ -12,25 +5,24 @@ restriction) is the master perspective principle — FID is one mode in the
 toolkit, and the power comes from variation across the focalization spectrum,
 not from staying deep.
 
-## Record
+## Origin
 
-- created | 2026-08-31T20:00: The v2 framework centered FID (free indirect
-  discourse) as the primary perspective technique, a position that traces back
-  through a specific chain: the NotebookLM analysis identified FID as a
-  hallmark of effective MLP:FiM episodes, the early Claude conversations
-  adopted this finding and elevated it, and Track 99's usage directive narrowed
-  the perception-gap layer to FID as the delivery mechanism. The 112-story
-  corpus and the synthesis conversation challenged this by showing that the
-  power in the strongest stories comes not from sustained deep FID but from
-  variation — strategic shifts between external narration, close third, FID,
-  and psychonarration. A scene that stays in deep FID throughout is less
-  effective than one that pulls back to external narration to establish context,
-  moves into close third for character response, drops into FID for the
-  character's unfiltered assessment, then pulls back again. The variation
-  creates emphasis — FID hits harder when it arrives after external narration
-  because the shift itself signals "now you are inside this character's head."
-  This reframes FID from the primary technique to one valuable mode in a
-  variable-focalization toolkit, and reframes the planner's job from "ensure
-  FID is present" to "design the focalization trajectory for each scene." The
-  prediction is testable: stories rated highest in the corpus should show more
-  focalization variation, not more sustained FID.
+- date: 2026-08-31
+- reasoning: Raised on 2026-08-28, mid-session, when Brian wrote: "The
+  perspective question is fully in question. I also want to understand
+  variable focalization. The hypothesis is that the early assertions of full
+  deep third may not be correct." His observation was that v2 had come to
+  center FID as the perspective technique through a chain traced earlier in
+  the same session: NLM's Perspective Analysis notebook first distinguished
+  FID from deep third and itself prescribed deep third for TLTT; the Claude
+  conversation that designed the perception-gap taxonomy (conv 21) was built
+  technique-agnostic but was later narrowed to FID by Track 99's usage
+  directive; a subsequent conversation's italics epiphany then cemented FID as
+  the goal. Brian's assertion was that this narrowing went too far — that
+  variable focalization, not sustained FID, is the master principle, with FID
+  as one mode among several. What raised it past a single-story correction:
+  in the same message he noted the project's scope had widened past TLTT to
+  the other v2 stories, so a single prescribed technique might not fit all of
+  them.
+
+## Record
