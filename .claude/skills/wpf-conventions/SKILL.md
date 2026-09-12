@@ -10,16 +10,18 @@ interfaces, **two shallow inheritance families**. The conventions below are alre
 across the codebase — they just weren't written down, which is the condition under which a
 session invents a second way of doing the same thing.
 
+> **Read `code-conventions` first.** It carries the repo-wide rules this layer sits on — one flat
+> namespace per project, feature-first folders, and the architecture these conventions follow
+> from (no navigation properties, no foreign keys, no indexes; polymorphic ownership with
+> application code as the integrity system; Type Object). This file is the WPF layer on top.
+
 ## File and folder organization (adopted 2026-07-30 — see `.editorconfig`)
 
-**One flat namespace per project.** Everything in this project is `namespace WindowedStoryPlanner`,
-everything in Core is `StoryPlanner.Core`, regardless of folder (sole exception:
-`StoryPlanner.Core.Migrations`, which dotnet-ef generates into). Folders are feature
-organization; namespaces are assembly identity; the two are decoupled so files move freely
-without touching a using directive or a XAML reference. The `.editorconfig` suppresses the
-analyzers that fight this — do not "fix" a namespace to match its folder. In XAML there are
-exactly two prefixes for our own code: `local:` (this assembly) and `core:` (StoryPlanner.Core).
-Never introduce `vm:`/`v:`-style prefixes again.
+The namespace and folder rules are repo-wide and live in `code-conventions`. This project's
+application of them:
+
+**In XAML there are exactly two prefixes for our own code:** `local:` (this assembly) and
+`core:` (StoryPlanner.Core). Never introduce `vm:`/`v:`-style prefixes again.
 
 **Feature-first folders, no Views/ or ViewModels/ parents.** A feature's views, view models, and
 controls live together in one folder — the folder is the working set, the grep scope, and the

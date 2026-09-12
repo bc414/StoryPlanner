@@ -229,6 +229,11 @@ labels as citations.
    claim the session could not resolve against a source.
 7. **Escalate rather than decide** where §6 says so.
 
+A session touches its own file and nothing else. **`INDEX.md` is not edited by a migration
+session** — forty sessions editing one shared file would collide, and the index is derivable
+from the folder in any case. It is regenerated once, after the set is complete, along with
+`state.md`; a hypothesis dropped under §6 loses its row then.
+
 ### Reading Brian's turns in a transcript
 
 Step 3 sends the session into the archive, where his words and a machine's sit in the same
@@ -296,8 +301,9 @@ Eight are known, from two causes that resolve differently:
 
 - **A trailing question absorbed from the upstream entry** — 033 and 036. The `H`-entry states a
   prediction and then asks an open question, and the statement carried both in. This is the
-  salvage case: separating them leaves a diagnosable prediction, and the question goes to the
-  corpus's question list.
+  salvage case: cutting the question leaves a diagnosable prediction behind. The question itself
+  goes nowhere — the migration collects no questions, and a question list is written only when
+  Brian asks one through `ask`.
 - **An instrument-scoped design prescription** — 004, 023, 027, 042, 043, and reverted 034.
   "Should be recognized by the planner", "may not be optimal", "may be needed" are claims about
   what the instrument ought to do, and no finding can discriminate one. Salvage only if the

@@ -1,11 +1,14 @@
 ---
 name: storyplan-data
 description: >
-  Inspect Brian's real StoryPlanner data (.storyplan files = SQLite databases) read-only to see
-  how the app's features are ACTUALLY used in practice. Use when auditing features, planning a
-  refactor/migration, checking whether a model/table/track is populated or orphaned, or answering
-  "how is X used in my data" — instead of guessing from the C# models alone. Pairs with
-  FEATURE-AUDIT.md, which mines design transcripts; this skill mines the live data.
+  The semantics of .storyplan data and how to inspect it — what every value MEANS before you read
+  or write it: Confirmed inverting between v1 and v2, the flagged-note wall, structured world
+  dates, POV, narrative properties, subject relations, source-material coverage, boards. Read
+  before writing ANY code that reads, renders, exports or migrates plan data, not only when
+  querying: most of these are silent traps that produce plausible, wrong results. Also the
+  read-only inspection procedure for auditing features, planning a refactor, or checking whether
+  a model/table/track is populated. Pairs with FEATURE-AUDIT.md, which mines design transcripts;
+  this skill mines the live data.
 ---
 
 # StoryPlanner data inspection
@@ -56,7 +59,7 @@ those columns are used in v2. Practically:
   `SubjectDefinitions` (the triage labels above). v2's side of any comparison GROWS — get the
   live numbers from `get_stats`, never from this file. v2's `SubjectDefinitions` are the six
   documented types plus an empty "Uncategorized" row (a definition-table placeholder, not a
-  seventh type — the MCP server and CLAUDE.md rightly say six).
+  seventh type — the MCP server's instructions rightly say six).
 
 Because of this, treat v1-archive query results as describing *a different workflow era*, not a
 smaller/older version of the same one. If you want a structural (not semantic) diff between the
@@ -150,6 +153,165 @@ coincidence for the reader, not a correspondence, consistent with "v1 and v2 nev
 (`Models/SubjectCluster.cs`) has no `DbSet<>` in `AppDbContext.cs`, so EF never created a table
 for it. If a question hinges on subject clusters, the honest answer is "not implemented in the
 data model yet" — see `FEATURE-AUDIT.md` item E2.
+
+## Semantics — the traps
+
+Moved here from CLAUDE.md on 2026-09-12. **Every one of these is silent**: read the data without
+them and you get a plausible, wrong answer, and nothing complains. They govern code as much as
+queries — an exporter, a renderer, a migration and an MCP tool all have to honour them.
+
+- **`Confirmed` inverts across files.** v2: stable, safe for downstream work. v1 archive: *review
+  closed — migrated to v2 **or** deliberately superseded, disposition not recorded.* Never render
+  an archive note as "confirmed"; never read it as current truth.
+- **0 `Confirmed` notes in v2 is not a defect.** Audit is the only mode that can promote to
+  Confirmed, and no audit pass has run. Surprising ≠ broken. The v3 epistemic framework reframes
+  Confirmed as "baselined" — Brian has reviewed and is comfortable acting on the content, but it
+  remains challengeable. The `NoteState.Confirmed` enum value and Audit mode's promotion
+  mechanism are unchanged in code; the semantic shift is framework-level, not schema-level. The
+  v1 archive's `Confirmed` keeps its own distinct meaning.
+- **Flagged notes are walled wherever an LLM consumes data** — the app's export
+  (`NoteExportRenderer.cs`) and the MCP server's ordinary tools both exclude them. Counts are
+  disclosed; content requires the flagged tool family. `FlagReason` is itself a corpus Brian
+  drafts into. The pocket reader is the deliberate exception: it shows flagged notes in full,
+  marked, because the wall is for LLM consumers and that is the author reading his own data.
+- **v1 and v2 never join.** Different organizing principles on purpose; no id correspondence,
+  ~40% name overlap, and no join is wanted.
+- **The scene graph is in v1** (1,125 links); v2 holds the taxonomy. Migrating it is Brian's
+  future authorial work — matching v1 links to v2 subjects/plot points is categorization, not a
+  mechanical operation, and no tool should propose the mapping. **The track definitions are final
+  in shape** — the Type Object schema is stable, tracks being data rows rather than code classes
+  — while the definitions themselves are under active review in the v3 buildout, and the data is
+  in flux.
+- **World dates are structured** (2026-07-30): `Start(Y,M?,D?)` + optional `End` columns on
+  `Note`, event-only `Fabula*` on `PlotPoint`. Year is the precision floor; nulls mean "to be
+  determined", never "approximately". Whether a date is an event or a condition is the TRACK
+  (`SupportsWorldDateEnd`), never a field on the value — and plot points are always events (a
+  plot point wanting a span is holding more than one scene). Notation: `1007`, `1007-03-15`,
+  `854..914`, `1007..`; negative = BLB, `0` = the banishment. The legacy free-text `WorldDate`
+  string column survives only until the `convert-world-dates` DataOps op has run per file
+  (unconvertible strings stay in it, surfaced by the Timeline tab's triage panel); all read paths
+  prefer structured and legacy-convert mechanically — flag, never guess. That read is
+  `Note.EffectiveWorldDate()` in `WorldDateModel.cs`, and **range intersection is
+  `WorldDateRange`** (`StoryPlanner.Core`), shared by the MCP server and the app so the two can
+  never disagree. Both of its rules are subtle: an inclusive end year means an *exclusive* edge at
+  `year + 1.0`, and both overlap comparisons are strict — writing `latest >= Lo` admits a note
+  dated 914 into the range `915..`, a real off-by-one in `get_notes_in_date_range` fixed
+  2026-07-31.
+- **Timeline x-axis**: `Subject.TheaterId` / `PlotPoint.TheaterId` (sentinel `0` = "(Unplaced)",
+  same pattern as `Chapter.StoryId`). Theater assignment is authorial — never derive it from
+  names. `Pivot` rows are authored years; eras are DERIVED as the gaps between pivots, never
+  stored.
+- **POV is `PlotPoint.FocalCharacterId`** (`int?`, 2026-07-31). Null = undesignated, a legal
+  long-lived state — most scenes have none, and unlike `TheaterId`/`StoryId` there is no sentinel
+  row to fall back to. Assignment is authorial, never derived from links, note counts, or names.
+  Candidates are gated by `Subject.IsPovCharacter` (an unfiltered picker over every Character
+  subject is unusable). It also drives which `PlotPointSubjectLink` note tracks display:
+  `NoteTrackDefinition.IsFocalCharacterOnly` hides a track everywhere except the link whose
+  `SubjectId` equals the plot point's `FocalCharacterId` — the gap for an *observed* character
+  lives in the POV character's own link, never the observed one's (rationale:
+  `docs/design-conversations/053_…json` blocks 262-263, `019_…json` blocks 36-37). A link that
+  already holds notes on a focal-only track keeps showing it regardless, so existing content is
+  never hidden by a later POV change.
+- **Source material is a coverage tracker, not a tag** (2026-07-31). Two-tier: `SourceMaterial`
+  (a Work — MLP:FiM, Equestria at War, another fanfic) → `SourceMaterialPart` (one unit of a
+  mining pass — an episode, a playable country, a chapter; empty `PartNoun` = no Parts, cite the
+  Work itself). `NoteSourceReference` is the join, and **many rows per note are normal**: a note
+  may cite several Parts for one claim (one Wonderbolts note citing four episodes) — splitting
+  such a note into one-per-citation was considered and rejected. Only tracks with
+  `SupportsSourceMaterial=1` can carry a citation (the six `TrackType.Canon` tracks, by decision
+  — not every track that happens to mention canon in prose). A Part's `ReviewState` is
+  **orthogonal to citation count**: Reviewed-with-zero-citations means "checked, nothing there,"
+  not the same as never-looked-at. "Untouched" (the negative-space/rewatch-queue signal) requires
+  **both** NotReviewed and zero citations. The Work/Part set is pre-seeded
+  (`seed-source-material` DataOps op) rather than accreted from citations — an uncited Part is
+  only meaningful negative space if the set is known complete, so **never** rank Parts by likely
+  yield or suggest what to look for; list them flat. The coverage grid colours all four quadrants
+  (2026-07-31): untouched = plain white (the baseline), cited-but-not-reviewed = warm blue,
+  reviewed-and-cited = green, reviewed-with-zero-citations = beige. Four labels, no ranking — no
+  quadrant is a score or a queue position.
+- **Narrative properties are closed-vocabulary fields, and they are authorial** (2026-07-31,
+  first real use after a year dormant). `NarrativePropertyDefinition` is a Type Object row scoped
+  by `(SubjectDefinitionId, OwnerType)` exactly like `NoteTrackDefinition`;
+  `NarrativePropertyValueDefinition` rows are its allowed answers, `NarrativePropertyValue` the
+  assignment. **Single-select**: at most one value per (owner, property), an invariant the schema
+  cannot express (no FKs, no unique constraints, no unit of work) so `PlanIntegrity` enforces it
+  as `narrativevalue.duplicate_for_property`. **Absence of a row is "unset"** — a legal,
+  long-lived state, never missing data, and there is deliberately no `(none)` value row because
+  its id would be stored and read back as a real answer. `NarrativePropertyValue` has **no
+  `OwnerType` column**: resolve ownership by tracing `ValueDefinitionId →
+  NarrativePropertyDefinitionId → OwnerType`, or subject 7 and chapter 7 collide silently.
+  Assignment is Brian's — **never derive a value** from note text, names, links, or real-world
+  analogues. First use is the four orthogonal political axes on Civilizational System subjects
+  (Human Capital / Governance / Boundary / Social Contract, two poles each); a system that moves
+  along an axis over time is modelled as *separate era subjects*, so do not add date-scoped or
+  multi-value assignments. `WorkPhase` rows are the ordered stages of the planning work — **not
+  `EditorMode`**, whose values overlap by name only — and a property may name the phase at which
+  an unset value is reported as a gap. That gate **reports and never blocks**;
+  `CanPromoteToConfirmed` does not consult it.
+- **Narrative properties now serve two purposes, and the second is the larger one (2026-08-04).**
+  They were built as project-management bookkeeping (a gating `WorkPhase`, the Property Gaps
+  report). They are now also **the densest structured story data in the working plan** — every
+  Civilizational System sits somewhere on the five political axes, while most carry no scene link
+  and no note is Confirmed. Both faces stay: Property Gaps is the bookkeeping view, the Boards tab
+  is the content view. `NarrativePropertyValueDefinition.ColorHex` exists so a value reads as a
+  colour wherever it is shown; it is authored, empty is a legal unfinished state, and nothing
+  auto-assigns one from a palette.
+- **Subject relations are authored edges between subjects, and are never inferred (2026-08-04).**
+  `SubjectRelationDefinition` is a Type Object row scoped by `(SubjectDefinitionId,
+  TargetSubjectDefinitionId)`; `SubjectRelation` is the assignment. **Subject→Subject only and
+  deliberately not polymorphic** — both endpoints are Subjects and `RelationDefinitionId` resolves
+  both types, so there is no `OwnerType` to omit and none may be added. `IsSingle` is the
+  single-select invariant (`PlanIntegrity`: `subjectrelation.duplicate_for_single`);
+  `FormsHierarchy` means acyclic-and-walkable and **requires the same subject type at both ends**,
+  because a chain that changes type is not a chain — a single same-type relation can otherwise be
+  legitimately cyclic (a symmetric "Rival of"), which is why the flag is explicit rather than
+  derived. Absence of a row is unset, a legal permanent state; there is no sentinel target.
+  **Edges carry no notes** — no fifth `OwnerType` — because why a succession happened belongs on
+  the successor's Causality of Creation / History track, where that content already lives.
+  Assignment is Brian's: the one succession recorded in the file (`Griffonian Republic` ← `Grover
+  III's Enlightenment`, note 1630) skips three intervening regimes and shares no name token with
+  its target, so **never propose an edge** from names, dates, or shared vocabulary. Nothing is
+  seeded — the relation row is authored in the Definitions tab, like its prose.
+- **A `PropertyBoard` is an authored set of properties under comparison (2026-08-04)** — the scope
+  for the Boards tab's three independent views: C(n,2) pairwise grids, exact-match groups, and a
+  generic subject tree. Membership is opt-in (`NarrativePropertyDefinition.PropertyBoardId`, null
+  = on no board), which is what keeps a future bookkeeping property out of the political-axes
+  board; a board must never acquire a property just because the scope matches.
+  `IncludeUnsetBand` is **per board and changes the population, not just the layout**: off, a
+  subject unset on either axis of a grid is absent from that grid entirely, so grid totals
+  legitimately differ from each other and from the subject count — that is the configuration
+  working, never missing data. The views share the board and the card control and **nothing
+  else**: there is no ancestry overlay on the grids, no cross-highlighting, and the card renders
+  identically in all three because it does not know where it is. Cells are occupancy, never a
+  ranking, a score, or a coverage figure, and an empty cell is a fact about the world.
+- **The Matches view groups subjects identical on EVERY board property (2026-08-04)** — the
+  full-tuple collisions a pairwise grid structurally cannot show, since a grid crosses two
+  properties and its cells mix subjects that agree on those two and differ elsewhere. Two rules,
+  both deliberate: a subject unset on **any** board property is **not grouped at all** and is
+  listed separately with its unset count (you cannot say two systems agree on all five when three
+  are unknown), and singletons are shown in a trailing "alone on their coordinates" section
+  rather than hidden — a system unique in the world is a fact, and hiding it is how you fail to
+  notice one that should have had company. Ordering is largest-group-first, tie-broken by
+  authored value order; that is counting and sorting authored data, and **not** a score. Exact
+  predicate only: no similarity measure, no near-miss ("differs on one axis"), no explanation of
+  why a group exists, and never a proposal that something ought to join one. Grouping lives in
+  `NarrativePropertyMatchGroups` (Core, Pure-tested).
+- **A block `Summary` is Brian's own navigation note (2026-08-11)**, typed into the Conversation
+  Reader's middle column, two-way bound and committed on focus-leave — his words, not a
+  machine's, which is a different citation status from `RawContent` when one turns up in a
+  search. The AI-written summaries that used to fill this column were wiped by the
+  `wipe-block-summaries` DataOps op ("not helpful"). Empty is ordinary and permanent — most
+  blocks will never carry a note — and **never substitute an excerpt for an absent one**.
+  `Conversation.ArcSummary` is the frozen remainder: still displayed read-only, never written by
+  anything again.
+- **Conversation import writes no authored field (2026-07-31, AI pass cut 2026-08-11).** One live
+  route: *Scan Claude Export… → Import Checked Directly* puts raw blocks straight in the reader.
+  *Import from Folder (legacy)…* survives for `_content.json` folders already on disk — nothing
+  produces one any more. A `_meta.json` is parsed and **entirely inert**: its `ArcSummary`,
+  per-block `Summary` and `subjectsCovered` write nothing, and tests assert it. A re-import
+  refreshes the transcript and nothing else.
+- **`.storyplan` is raw SQLite in WAL mode.** Reads never block the running app. The main file's
+  **mtime does not advance on write** — change detection uses `PRAGMA data_version`.
 
 ## Schema reference — tables, key columns, and what integers mean
 

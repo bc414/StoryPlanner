@@ -3,7 +3,8 @@
 The corpora of the buildout, one section per corpus id: what it is, where it lives, how it
 is read, then its caveats. A fact file: no progress and no readiness, which `state.md`
 derives from the study registry and the artifacts on disk; no counts, which the named
-sources answer. The corpora the MCP server reads carry their semantics in CLAUDE.md.
+sources answer. The corpora the MCP server reads carry their semantics in the `corpora` and
+`storyplan-data` skills.
 
 ## fimfiction-stories
 
