@@ -2585,3 +2585,448 @@ rules names the old id in prose.
   code change for a distinction only these two folders make; a new citation form for an
   iteration-sourced evidence entry, when the iteration slug fits the study position the
   existing regex already reads.
+
+### A unit's entries are written as one batch at its end and scanned, not drafted one at a time for approval
+
+- id: d-2026-09-11-5
+- date: 2026-09-11
+- supersedes: d-2026-09-08-20
+- raised by: the hypothesis-file schema review, which produced a dozen rulings in one
+  session and would, under the superseded entry, have put each drafted entry in front of
+  Brian before the next could be taken. Brian: "I don't really care how many entries and
+  where the lines fall. It is too tedious to review everything. The initial strictness did
+  not anticipate the scale of the task. When the time comes, write all the decisions into
+  the file and I'll scan it afterward."
+- decision: A unit opens with a queue of starting points, one line each, ordered
+  widest-first by the session and seen by Brian before any is taken; he reorders, removes
+  or adds. Taking a starting point opens a stack with it at the bottom; deliberating any
+  decision on the stack pushes the decisions it surfaces on top, and the pop is from the
+  top, so the starting point is settled last and may name the decisions settled above it.
+  A stack is worked to empty before the next starting point is taken, and after each stack
+  empties the queue is presented again, re-ordered and re-formed; it is never presented as
+  settled, and no remaining item is described as if it would land as written. What changes
+  is when the text is written and what Brian reviews. A decision is ruled in session as
+  before; its entry is drafted at the end of the unit, with every entry of that unit, in
+  the order the decisions were settled, and Brian scans the file. He approves the ruling,
+  never the drafted sentence. How many entries a unit's rulings become, and where the lines
+  between them fall, is the session's judgment under the one-decision rule the schema
+  states. An entry he corrects on the scan is corrected before the commit, which is the
+  only moment an entry may be edited; from the commit the file's never-edited rule stands
+  unchanged.
+- not taken: writing each entry as it lands, the superseded rule, which a review of this
+  scale made tedious without adding rigor, the ruling already being made by the time the
+  text is drafted; batching the writes with no review at all, which leaves the record
+  unchecked by the one person who can tell a ruling from a lapse; a summary of the unit in
+  chat in place of the entries, which puts his review on a rendering instead of on the
+  record; treating the relaxation as a one-off for this unit, which would leave a later
+  session reading a dozen entries landed at once with no rule behind them.
+
+### The record as it stands is the starting point; the six iteration entries are not migrated and their statements revert
+
+- id: d-2026-09-11-6
+- date: 2026-09-11
+- raised by: Brian, on being shown that a migration of the fifty files was implied by the
+  schema review: "In order to not have to migrate, forget the iteration entries as they
+  are. Treat whatever the hypotheses are right now as the starting point. This is because
+  that 'iteration' was done with what is retrospectively lead-tier insight, NOT
+  evidence-tier insight." Then: "I do not want to migrate the iteration entries. Those can
+  be lost to the void… The hypothesis statements are the only thing to migrate; there
+  should be no other data"; "I do want the created entries"; and "the 6 hypotheses that
+  were iterated on should enter the new shape with their *original* statements, since
+  whatever iteration was on leads, not evidence, back then. They should not have changed
+  their wording in the first place." The closed founding record had kept the six entries on
+  the reasoning that removing them would leave each `created` entry describing a wording it
+  did not describe; reverting the statements answers that reason rather than overriding it.
+- decision: The fifty files enter the new shape carrying their statement, their founding
+  reasoning and its date, and nothing else. The six iteration entries of 2026-09-01 and
+  2026-09-03 are not carried, and the six statements they reworded revert to the wording
+  that stood before them, recovered from git: 013, 029, 030, 033, 034 and 038. Five were
+  reworded on corpus readings the founding record has since classed as leads; 013 was
+  reworded on a design conversation whose construct, the work matrix, has itself retired,
+  and its current wording uses two words the method has abolished. Neither leads nor a
+  design conversation is evidence, and under d-2026-09-11-1 an iteration is challenge-
+  triggered and gated, which none of the six was. The created entries are unchanged from
+  before those rewordings, so each reverted statement is again the one its reasoning
+  describes. 038's iteration also added a second claim; it is not carried, and if it is
+  wanted it is a new hypothesis through minting.
+- not taken: carrying the six entries into the new shape, which would migrate as history
+  six rewordings the method would now refuse to make; keeping the reworded statements and
+  dropping the entries, which leaves six founding reasonings describing wordings that no
+  longer stand — the failure the founding record named; rewriting the six created entries
+  to match the reworded statements, which edits Brian's record to fit a machine's tidiness.
+
+### The record's entries are `###` entries, held by the engine
+
+- id: d-2026-09-11-7
+- date: 2026-09-11
+- raised by: the conversion of `hypothesis-file-schema.md` to the four-section shape, which
+  found the class's entry form expressible in neither of the grammar's two forms: a record
+  entry is a `- ` bullet carrying a kind, a timestamp, a citation, a tag and continuations,
+  while the grammar has `###` entries with a field table and untabled one-line entries and
+  nothing between. The form was a session's of 2026-08-31, never ruled, and by 2026-09-11
+  four programs parsed it by hand — the checker, the state render, the candidates compose
+  and the surfacing itemizer — three of them written in the preceding two days, each
+  re-deriving the form from the files because no declaration existed to read. Brian, given
+  the options: "Go with option 1 then."
+- decision: The Record holds `###` entries with a field table, the form the engine already
+  parses, types and resolves; the class is held by its Shape and no longer by hand. One
+  field table serves every kind, with a discriminator heading and the kind-specific fields
+  optional, since the grammar admits one field table per entries section; which kind
+  requires which field is the class's own rule, named in its Checks. The migration
+  authorised by d-2026-09-11-6 is what makes the form a free choice, the fifty files being
+  rewritten in any case.
+- not taken: a new grammar word for a keyed-bullet entry array, which would extend the
+  grammar for a single instance with no second consumer shown; a re-founded bullet form
+  declared as untabled one-line entries, which leaves the class's whole internal grammar in
+  four hand-written parsers and says nothing in the Shape — and which would also be untrue,
+  the entries carrying continuations.
+
+### The founding reasoning leaves the record: the file holds Hypothesis, Origin and Record
+
+- id: d-2026-09-11-8
+- date: 2026-09-11
+- raised by: the record's four kinds proving to be one structured kind and three carrying a
+  date and a prose blob, which asked whether they belong in one array. The founding record
+  of 2026-09-05 answers it, in reasoning Brian raised — "I don't think the history of
+  hypothesis file and the history of the other things have the same meaning and/or purpose"
+  — and then asked be preserved: "This reasoning should carry on somewhere so that it is
+  not lost in the future." That reasoning distinguishes provenance from evidence in as many
+  words: remove the record and the file is not a hypothesis with less provenance, it is a
+  hypothesis with no evidence. Brian, on the split: "Origin is fine."
+- decision: The file is three sections. `## Hypothesis`, the statement. `## Origin`, the
+  founding reasoning, written once at mint and never edited. `## Record`, the evidence
+  relationship: evidence, iteration and baselined entries, in one ordered array. The
+  founding reasoning is provenance, which the 2026-09-05 reasoning defines the record
+  against; it stays inside the file, which is all the 2026-08-30 requirement asks, and
+  `hypothesis.created-first` retires, singleton-ness becoming structural. Baselining stays
+  in the Record: the same reasoning names the baseline as part of the relationship, and its
+  binding to a wording is positional, which a separate section would break. The schema's
+  opening carries the 2026-09-05 reasoning and the third clause of the 2026-08-30
+  requirement, when to use the record and why it exists, neither of which any text has ever
+  carried.
+- not taken: all four kinds in one Record, which keeps a check whose whole job is to
+  simulate a section and mixes provenance, evidence and judgment under a table whose only
+  shared fields are a date and a prose blob; baselining moved to its own array, the purest
+  reading of "the record is the evidence relationship", which breaks the positional binding
+  the status and the iteration boundary depend on; splitting the sections into separate
+  files, which the 2026-08-30 requirement refuses.
+
+### The Artifacts rows become statement, origin and record; hypothesis-status leaves
+
+- id: d-2026-09-11-9
+- date: 2026-09-11
+- raised by: d-2026-09-11-8's split and d-2026-09-11-12's cuts together changing the row
+  set of the one file that has ever carried more than one. Brian, on the new id: "Row id
+  hypothesis-origin is fine"; and, on who reads it, "I would be reading the whole hypothesis
+  file before baselining."
+- decision: The file's rows are `hypothesis-statement` at `§ Hypothesis`, in-place;
+  `hypothesis-origin` at `§ Origin`, frozen; and `hypothesis-record` at `§ Record`, append.
+  All three link `hypothesis-file-schema`, as the three rows did before. `hypothesis-status`
+  is removed, nothing authoring status or baselined any longer. `mint` writes the origin and
+  `baseline` reads it, which is the fact rather than a contrivance and keeps a frozen
+  artifact from being read and written by one process; `baselining-a-hypothesis` says so in
+  its procedure, the presentation becoming the file while the clause forbidding summary and
+  recommendation stands. Every cell naming `hypothesis-status` — in `baseline`, `promote`,
+  `gate-and-commit` and `mint` — is edited in the same write as the rows.
+- not taken: keeping a `hypothesis-status` row for a value nothing authors, which the never-
+  read and never-written checks would report from both ends; naming `mint` the reader, which
+  would have one process read and write a frozen artifact; leaving the origin unread, which
+  fails `artifact.never-read` and would be the validator reporting that the split is
+  bookkeeping rather than structure.
+
+### A section carrying its own mutation is its own Artifacts row; a Shape never names a mutation
+
+- id: d-2026-09-11-10
+- date: 2026-09-11
+- raised by: two sentences in `schemas/skill-schema.md` that meet only in this file — "A
+  Shape declares and never restates its row's path or mutation" and, in the grammar, "a file
+  whose sections carry different mutations names each" — written two days apart and both
+  before any multi-mutation file had a Shape. Rule 9 already settles it in the constitution:
+  an artifact's mutation is what "its table row says". Brian: "Go with A."
+- decision: A section carrying its own mutation is its own Artifacts row, which is what the
+  three-rows-for-one-file pattern of 2026-09-04 already did; rule 9's requirement that a
+  multi-section file name each mutation is then satisfied by the rows in every case, and the
+  Shape stays silent as the other clause requires. The grammar's "names each" clause is
+  deleted from `skill-schema.md` as a duplicate that was never exercised. Nothing in the
+  engine reads a per-section mutation, and no checker can detect an edit to a frozen section,
+  having no history to compare against.
+- not taken: a `mutation` column on the sections table, which restates the row's mutation in
+  a second place that nothing holds equal, and changes both the grammar and `schema.fields`
+  for a fact no engine reads; a prose sentence in the schema file naming which section is
+  which, the same second home with no checker over it.
+
+### An entry is headed by its kind, and a kind's heading repeats
+
+- id: d-2026-09-11-11
+- date: 2026-09-11
+- raised by: the `###` form needing a heading type, and the choice between the kind as an
+  enum with the date as a field and the date as the heading with the kind as a field. A
+  promotion session writes several evidence entries in one sitting, so a date heading would
+  repeat identically across entries that differ. Brian: "the repeated headings are fine. I
+  don't need the margin to corry dates."
+- decision: An entry's heading is `### <kind>`, typed as an enum over the kinds the Record
+  holds. Headings repeat — a hypothesis with eight evidence entries has eight `### evidence`
+  headings — which the engine permits, uniqueness being a property of the slug type and not
+  of entry headings, and which nothing needs to disambiguate, no artifact citing an
+  individual record entry. The kind is what the left margin carries and the date is a field.
+- not taken: the date as the heading with the kind as a field, which puts dates in the margin
+  but produces identical headings for entries written in one sitting; a heading carrying both,
+  which must be typed as a free line and so has the engine validating neither the kind nor the
+  date — giving up what the `###` form was chosen for.
+
+### The file authors nothing derivable: no frontmatter, no title
+
+- id: d-2026-09-11-12
+- date: 2026-09-11
+- raised by: the conversion finding all four frontmatter keys derivable — `id` from the file
+  name, `created` from the founding reasoning's date, `baselined` from its entry, and
+  `status` from the record, which the checker already recomputed and compared, `hypothesis.
+  status.mismatch` existing only to police the copy. Rule 9's last sentence forbids authoring
+  beside a source. Brian's own 2026-08-30 reasoning for the frontmatter was a grep across
+  files, which `state.md` has since answered for the whole set on every write.
+- decision: The file carries no frontmatter and no title. `id`, `created`, `baselined` and
+  `status` are read where they are: the file name, the Origin date, the baselined entry, and
+  the entries below the last iteration boundary. `state.md` renders all four for every
+  hypothesis on every passing write, which is where the corpus-level question is answered.
+  `hypothesis.frontmatter`, `hypothesis.status.mismatch` and the baselined coupling of
+  `hypothesis.baselined` retire with the fields; the baselined rule returns in changed form
+  under d-2026-09-11-19.
+- not taken: keeping the frontmatter as a checked mirror, which is the hand-kept mirror
+  pattern that took status and baselined off `INDEX.md` on 2026-09-04, differing only in
+  being policed; keeping `id` alone, a second home for the file name with no query behind it;
+  a title, which would restate the file name.
+
+### An entry carries a date at day precision, not a timestamp
+
+- id: d-2026-09-11-13
+- date: 2026-09-11
+- raised by: Brian, on the field's name: "'at' is the wrong word. It should be more clear,
+  like date." The value was a minute-precision timestamp, and nothing consumes the minutes:
+  order is positional, the status computation is positional, and entries written in one
+  sitting share a minute in any case. The existing stamps are synthetic — thirty-eight of
+  the fifty created entries read `T20:00`.
+- decision: Every entry, and the Origin section, carries `date`, typed `date`, at day
+  precision. This is the form `decisions`, `question-list` and `declined-candidates` already
+  use, so the record joins the rest of the method rather than keeping a precision of its own.
+  The migration writes the day and drops the invented minutes.
+- not taken: keeping minute precision under a clearer name, which preserves a precision no
+  consumer reads and which the existing data never honestly carried; a full ISO timestamp,
+  which the prose claimed and no file has ever written.
+
+### The Origin section carries date and reasoning, and no provenance field
+
+- id: d-2026-09-11-14
+- date: 2026-09-11
+- raised by: Brian, applying the consumer test — "Every field should serve a consumer. Cut
+  anything that is dead weight or drift potential" — and then, on the field that would record
+  whether a hypothesis was his or Claude's: "Not sure if this field is necessary. Everything
+  comes from my thoughts and opinions." The 2026-08-31 investigation of exactly that question
+  had reached the same answer, retracting its own framing: the material was a dump of his
+  notes and a synthesis of his analysis, and what the consolidation contributed was ordering
+  and wording.
+- decision: `## Origin` carries `date` and `reasoning`, both required, and nothing else. There
+  is no provenance field. Rule 6 makes Brian the author or approver of every statement, so the
+  bit such a field would record is a constant; `reasoning` already carries what raised a
+  hypothesis in the files as they stand; nothing downstream weights a hypothesis by origin; and
+  a self-reported flag would be written by the party whose influence it purports to measure,
+  where the code-sessions archive answers the question by what a session read rather than by
+  what it claimed. `minting-a-hypothesis` states the provenance in words instead of a form, and
+  says that the trap it names is guarded by rule 6 and the archive, so a later session does not
+  restore the field as a missing safeguard.
+- not taken: a free prose provenance, which leaves the one bit it exists for unrecorded
+  whenever a session writes vaguely; a declared line in minting's two forms, which no migrated
+  file fits; an enum of `brian` and `claude` beside a free line, which makes the bit greppable
+  but records a constant and asks the interested party to report on itself.
+
+### An evidence entry carries date, candidate, tag, finding and falsifier
+
+- id: d-2026-09-11-15
+- date: 2026-09-11
+- raised by: decomposing the composite citation `(<study>/<slug>; directions-N@<hash>)
+  [tag]` into fields, which forced two questions the single string had hidden: what the
+  directions version referred to, which d-2026-09-09-12 answered two incompatible ways, and
+  how long the hash is, which `StateBuilder` rendered at six characters while the checker
+  accepted six to sixty-four and the type vocabulary defined as sixty-four. Brian: "I don't
+  think a referee's directions are relevant for the hypothesis file."
+- decision: An evidence entry carries `date`, `candidate`, `tag`, `finding` and `falsifier`,
+  and nothing else. The directions version and its hash are cut: the referee batch that judged
+  a candidate is found from the `<finding-slug> → <target>` locator its index records, and rule
+  2 makes the referee's version identical across every entry until a promotion ruling revises
+  it, so the field would carry a constant that is also derivable. Cutting it closes
+  d-2026-09-09-12's ambiguity by deletion rather than by ruling, and retires the hash-length
+  question with it. `tag` stays because promotion may overrule the referee's verdict and
+  because the status computation reads it in the file; `finding` and `falsifier` stay as the
+  frozen verbatim snapshots of d-2026-09-10-4, the one deliberate denormalization here.
+  `hypothesis.evidence.citation` and `hypothesis.evidence.no-falsifier` retire into the
+  engine and into the class rule of d-2026-09-11-19.
+- not taken: the directions as a path with the hash cut, which still authors a derivable
+  constant; the hash alone, self-verifying but unreadable and equally derivable; keeping the
+  composite citation as one line, which is what hid both questions for two days.
+
+### An iteration entry carries date, from and reason
+
+- id: d-2026-09-11-16
+- date: 2026-09-11
+- raised by: the same consumer test over the iteration entry, whose draft carried the old
+  wording, the new wording and the reason. The 2026-09-05 reasoning makes the entry a wording
+  boundary rather than an edit log, and the deliberation that produced it noted that an
+  iteration entry quotes old and new wording "next to the evidence they invalidated, which is
+  the referee's re-run trigger".
+- decision: An iteration entry carries `date`, `from` — the wording that stood before it — and
+  `reason`, Brian's reason for the reword. The new wording is not carried: it is the `from` of
+  the next iteration, or the current statement when there is no next, so authoring it is both
+  derivable and drift potential, two fields that can disagree with nothing holding them equal.
+  The prior wording is not derivable at all, git being excluded by the 2026-08-30 requirement
+  that the file hold its own history, so it is carried.
+- not taken: carrying both wordings, readable in isolation but a second home for a value the
+  chain already fixes; carrying neither and leaving the reword to git, which the 2026-08-30
+  requirement refuses.
+
+### A baselined entry carries date and rationale
+
+- id: d-2026-09-11-17
+- date: 2026-09-11
+- raised by: the same pass over the last kind. The field began on 2026-08-30 as `approved:
+  false`, a boolean whose stated shortcoming was that it recorded no date.
+- decision: A baselined entry carries `date` and `rationale`, Brian's words, written only by
+  him or at his explicit direction. Nothing else: the date the frontmatter used to carry is
+  this entry's own, and the judgment adds no weight to the evidence, so there is nothing
+  further to record.
+- not taken: a rationale-free flag, which loses the words the class exists to hold; the date in
+  the frontmatter beside the entry, cut by d-2026-09-11-12 as derivable.
+
+### A candidate token names the finding's home study, and is a token of findings
+
+- id: d-2026-09-11-18
+- date: 2026-09-11
+- supersedes: d-2026-09-11-4
+- raised by: typing the `candidate` field, where the superseded entry's owner position —
+  "the owner, study or iteration, the candidate's referee batch sat under" — would give one
+  field two owner kinds, only one of which resolves to a findings file, an iteration folder
+  holding none. Brian: "Go with B." The superseded entry's own not-taken list declines a
+  precise `(studies|iterations)` matcher as a code change for a distinction only two folders
+  make, which argues the same way here.
+- decision: An evidence entry's `candidate` is `<study>/<finding-slug>`, typed `token of
+  findings`, naming the study whose `findings.md` holds the finding, for an iteration-sourced
+  entry as for any other; the engine resolves every citation. What the owner position carried
+  is doubly derivable: the referee batch is found from the `<finding-slug> → <target>` locator
+  its index records, and the iteration is given by position, d-2026-09-11-3 re-entering every
+  finding below the boundary. What stands of d-2026-09-11-4: an iteration's re-verification is
+  no study; its folder mirrors a study's under `docs/v3-framework/iterations/<slug>/`; the
+  batch-artifact paths carry the `<container>` placeholder and the same checkers govern both
+  trees; an iteration is not registered in `studies.md` and its existence and ordinal are read
+  from the folder. What is overturned: the citation's owner position names where the finding
+  lives, not where the referee batch sat.
+- not taken: the field typed as a free line with resolution as a hand-written class rule,
+  which puts the file's one remaining reference beyond the engine; a two-owner reference type,
+  an engine change for the distinction the superseded entry declined to make in code.
+
+### The class's five checks are named
+
+- id: d-2026-09-11-19
+- date: 2026-09-11
+- raised by: the conversion moving most of what the hand-written checker held into the engine,
+  and d-2026-09-07-11 requiring a decision to name every check an entry adds or changes. Brian,
+  on the granularity: "Do five ids if it means sharper failure attribution."
+- decision: The class's checks are `hypothesis.evidence.fields`, failing when an evidence entry
+  lacks `candidate`, `tag`, `finding` or `falsifier`; `hypothesis.iteration.fields`, failing
+  when an iteration entry lacks `from` or `reason`; `hypothesis.baselined.fields`, failing when
+  a baselined entry lacks `rationale`; `hypothesis.baselined.challenged`, failing when a
+  baselined entry follows an unresolved challenging evidence entry within the current wording;
+  and `hypothesis.entry.date`, failing when an entry's date is earlier than the entry before it,
+  the rule `decisions`, `question-list` and `declined-candidates` already hold. Everything else
+  the engine holds: the sections and their order, field presence and type, the heading enum,
+  `candidate` resolving, `tag` closed, and the two-space continuation, which the engine's parser
+  enforces and the retired hand-written parser ignored. The cardinality rule that a two-finding
+  entry is two entries is stated in the Shape as prose and is not a check, no machine being able
+  to count findings in prose. All five rules are dormant until the first promotion, the fifty
+  migrated files having empty records, so the checker's predicted first run is zero failures and
+  that is a statement about coverage rather than a pass.
+- not taken: one id covering the kind-to-field rule across three kinds, which is what
+  `definition.fields` and `question.entry.fields` do but which Brian declined for attribution;
+  leaving the baselining rule and the date order to be earned, which drops a rule he has stated
+  in his own words before any file exists to violate it.
+
+### A graph check over the skill's own tables is declared by structure
+
+- id: d-2026-09-11-20
+- date: 2026-09-11
+- raised by: `artifact.never-read` being found enforced in the validator with no entry naming
+  it and no description in the closed founding record, which d-2026-09-07-11 makes an unbacked
+  check, while d-2026-09-07-14 admits a check spanning files only as earned from an observed
+  failure. Brian: "A graph check is part of getting some reasonable starting point"; and, on
+  its scope, "The principle graph-check decision can list all of the relevant ones."
+- decision: A check over the skill's own three tables is declared by structure: it holds what
+  the tables' shape asserts and is armed with the tables, not earned from a failure. This
+  refines d-2026-09-07-14, whose earned-only clause continues to cover checks across a class's
+  files, between the code and the tables, and over how a batch went. The checks it backs are
+  `artifact.never-read`, `artifact.path-syntax`, `enables.cycle`, `enables.terminus-count`,
+  `enables.terminus-owns-processes`, `enables.unbacked`, `gate.ungated`,
+  `question-list.writer-not-hitl`, `mutation.read-and-write`, `id.charset`, `id.duplicate`,
+  `ref.enables`, `ref.reads`, `ref.writes`, `ref.companion`, `ref.schema`, `file.orphan-activity`
+  and `file.orphan-schema`.
+- not taken: backing `artifact.never-read` alone, which leaves the same question open for every
+  other check of its kind; dropping it as unbacked, which removes the check that reports an
+  artifact nothing reads — the artifact-level form of the consumer test Brian applied to every
+  field of this class; citing today's deliberation as the observed failure, which would make a
+  check earned by having been consulted rather than by a failure in the tree.
+
+### The migration is run by a session, prose verbatim, under the armed checker
+
+- id: d-2026-09-11-21
+- date: 2026-09-11
+- raised by: d-2026-09-07-27 requiring the decision that names a one-time migration to name the
+  process that runs it. Brian: "A session should do the migration, taking the prose from the old
+  data and writing it into the new files according to the new guidelines for what the reason
+  field ought to be"; "Migration can be verbatim"; and, on the checker, "The checker should be
+  armed during that backfill so that the files don't get malformed"; and "The existing files
+  should be copied to scratchpad. Then write the new files that conform to the schema from
+  scratch, not editing in place."
+- decision: A session runs the migration, one file at a time, after the schema, the tables and
+  the checker have landed and the exe is published, so that every file is checked against the new
+  shape at its write. The fifty existing files are copied to the scratchpad first, and each new
+  file is then composed whole and written to its own path: never edited into shape, because a
+  surgical edit over fifty different prose bodies can leave a file half-converted, and a file
+  that is its own source loses its prose to an interruption between the read and the write.
+  Composition from a frozen source is what makes each file idempotent to re-run; the path it is
+  written to is not what carries the risk. The statement and the founding reasoning are carried
+  verbatim — the words, the line breaks re-wrapping where a block field's continuations are
+  indented — and the six statements of d-2026-09-11-6 are recovered from git. The whole migration
+  is one commit.
+- not taken: a one-off tool, which would author prose that is Brian's; editing the carried prose
+  to fit the new field's description, when the description was widened to hold what the entries
+  already say; migrating before the checker is armed, which is the state the arming exists to
+  prevent; surgical edits to the existing files, which can leave one half-converted and makes
+  every file a read-then-overwrite pair; staging the new files at another path and moving them
+  when the set is complete, which buys a green whole-repository check during the migration that
+  nothing consults, the hook checking only the file written and `check .` being a manual verb.
+
+### Challenge is the epistemic sense only; a dispute is what Brian raises against a finding, a result or a lead
+
+- id: d-2026-09-11-22
+- date: 2026-09-11
+- raised by: the vocabulary step of the hypothesis-file schema review, which found `challenge`
+  carrying two senses in live text: nineteen uses of `challenging` and fourteen of `challenged`
+  for verified evidence disagreeing with a statement, and three sites using it as a verb and a
+  noun for Brian disputing a claim in a review — the router row for reviewing-leads,
+  `reviewing-leads.md`, and `reviewing-findings.md`, whose "for each challenge" is the second
+  sense as a noun. The same shape as d-2026-09-07-9, which split rule from check when one word
+  carried four senses. Brian: "keep challenge in just the sense of epistemically relative to
+  hypothesis"; then, on the other sense, "Go with dispute."
+- decision: A **challenge** is verified evidence, bound to the current wording, that disagrees
+  with the statement: it is carried by an evidence entry tagged `challenging`, it puts the
+  hypothesis in `challenged`, and only a reword clears it (d-2026-09-11-1). A **dispute** is what
+  Brian raises in a review against a claim in an artifact, and the session's going back to the
+  source to report what it shows. It has three targets and its outcomes are already named: a
+  finding, checked against the results, the tally and the items it cites, which is withdrawn or
+  superseded; a result, checked at its item's locator, which becomes a shortcoming of the
+  directions and never a correction; and a lead, checked against the corpus where the lead says
+  it was seen, which is written into Corrections. A dispute is never evidence, never reaches a
+  hypothesis, and is resolved by reading the source rather than by a reword. Both words enter
+  § Vocabulary, and the three sites that use `challenge` in the second sense are swept in the
+  same write.
+- not taken: `doubt`, which `reviewing-findings.md` already uses twice as the operative noun and
+  which would have cost no new word, declined for reading poorly as a verb; `query`, `check`,
+  `verify` and `flag`, each colliding with a word the method or the planner has already reserved;
+  leaving the word undefined, which is the state that let two senses run under one word through
+  two revisions.
