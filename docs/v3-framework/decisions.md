@@ -3223,3 +3223,728 @@ rules names the old id in prose.
   can never acquire evidence nor ever be reworded; holding all eight for Brian before any file is
   written, which blocks the whole migration on eight judgments; rewording them into predictions
   in session, which authors the claim the hypothesis makes and is his under rule 1.
+
+### An enables edge is a forward handoff; what bars a question-writer's edge is the cycle, not the questions
+
+- id: d-2026-09-12-7
+- date: 2026-09-12
+- supersedes: d-2026-09-10-1
+- raised by: the deliberation that made asking a question its own activity, which needs an
+  outgoing edge, since `Termini` is every activity whose `enables` is empty and a second
+  terminus fails `enables.terminus-count` and `enables.terminus-owns-processes`. The only
+  backed targets are the preparing activities, and the superseded entry says in as many words
+  that no question-writing activity has such an edge. That clause was an inventory of the
+  activity set of 2026-09-10, when every question-writer sat downstream of preparing; read as a
+  rule it forbids an edge the cycle guard permits. Brian chose whole supersession over naming
+  the clause in prose.
+- decision: An enables edge X → Y means a process of X writes an artifact a process of Y reads
+  to carry one line of work a step further toward the terminus; `enables.unbacked` guards the
+  floor, an edge with no data flow being an error, and the acyclic-DAG rule the ceiling, the
+  pipeline producing forward toward one terminus. A data flow that would close a cycle is a
+  re-entry — the same corpus going round again as a new study — carried by the standing, append
+  question list and described in prose, never an edge. What bars an edge is therefore the cycle
+  and nothing else: `promote` and the plan rows sit downstream of preparing, so an edge from
+  them would close one and is a re-entry; an activity nothing enables closes no cycle, and its
+  handoff to preparing is an ordinary backed edge. reviewing-findings enables
+  surfacing-candidates alone, the name d-2026-09-10-5 gave it. What stands of the superseded
+  entry: the meaning of an edge, the floor and the ceiling, the re-entry rule, and what it kept
+  of d-2026-09-09-17 — reviewing-findings as an activity, its row `review-findings`, its reads,
+  its writes and its procedure, with the preparing edge dropped and its work carried as the
+  prose that a shortcoming sends the study back through preparing, the loop the exploration
+  side already runs without an edge.
+- not taken: naming the stale clause in prose beside a standing entry, which leaves a false
+  sentence inside the record's own account of what an edge means, in the entry a later revision
+  reads first; re-deriving the edge semantics from scratch, when only the illustration was
+  wrong.
+
+### Asking a question is its own activity, enabling both preparing activities
+
+- id: d-2026-09-12-8
+- date: 2026-09-12
+- raised by: Brian, reviewing the migrated hypothesis files and finding among the statements
+  material that is a directive for a question or a study rather than a prediction, then on the
+  row that would park it: "So is ask even valid anymore or it the 'ad hoc question raised in
+  conversation' in the description just part of the HITL review-leads, as well as all the other
+  HITL processes that can add questions?"; then "So if all these processes can write questions
+  into question-lists that are relevant to their domain, that would make ask as a standalone
+  unit incoherent."; then "Yes, it seems like asking a question would be its own activity."
+
+  The archive says where the row came from. In session `9bd56b73`, 2026-09-05, he typed at seq
+  293 "I don't think asking questions about a corpus can ever be non hitl", which ruled the
+  mode and merged nothing; at seq 295 he selected a merge of `asking-questions-about-a-corpus`
+  into `reviewing-findings-with-brian`, an activity the question's own wording described as
+  holding "post-WU review and ad hoc conversation as its two processes". He dissolved that host
+  two turns later, typing "We have to go over reviewing a wu. I'm not sure WU even applies
+  anymore. Isn't it reviewing an exploratory pass's synthesis?" and then "'WU review' is no
+  longer a valid uniform thing. Verification and Exploration are different shapes that were
+  conflated before." The merge into `reviewing-leads` was never put to him: the row landed there
+  because that is what exploration's review became once the approved host ceased to exist, and
+  the founding record's entry compresses the two steps into one. The folder's own splitting
+  rule, written later, forbids the shape that resulted — a process splits only at a change of
+  mode or when it invokes the runner, and `ask` and `review-leads` share a mode and invoke
+  nothing — and `ask`'s whole procedure had become a restatement of `review-leads`'s question
+  paragraph.
+- decision: `asking-a-question` is an activity of the Router, its file `asking-a-question.md`,
+  with one hitl process, `ask`, moved whole out of reviewing-leads: it reads
+  `hypothesis-index`, `hypothesis-statement` and `question-list` and writes `question-list`. It
+  enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus, both edges backed by
+  the plans' reads of the list and neither closing a cycle, nothing enabling it (d-2026-09-12-7).
+  It is the route for a question that arises where no activity's own processes cover the
+  asking; a question raised inside an activity that writes questions stays that activity's, and
+  reviewing-leads keeps `review-leads` and its question paragraph unchanged. The founding
+  record's entry of 2026-09-05, *Questions are written only by hitl processes*, is history as to
+  the merge; its ruling that every writer of a question list is hitl stands, and is what
+  `question-list.writer-not-hitl` holds. The id is Brian's, chosen from three forms. In the same
+  write three `state` cells reading `built` are corrected to `specified` — `ask`, `baseline` and
+  `mint` — none having run under revision 2's text: no question list has ever existed, no
+  `baselined` entry exists in any hypothesis file, and the fifty files were composed under
+  d-2026-09-12-5's bootstrap licence rather than minted. No check is added or changed.
+- not taken: keeping `ask` inside reviewing-leads, which the splitting rule forbids and which
+  leaves a process whose procedure restates another's paragraph; folding `ask` into
+  `review-leads`, which the splitting rule would otherwise require and which leaves a question
+  raised outside every activity with no process to write it; dissolving the row and carrying the
+  permission as a sentence in SKILL.md, which leaves that occasion with no writer at all;
+  `asking-questions-about-a-corpus`, the 2026-09-05 name, and `asking-a-question-about-a-corpus`,
+  its singular, both longer in every citation and explicit about a corpus the class already
+  binds; an edge to preparing-to-explore-a-corpus alone, which leaves verification's plan reading
+  the list with no edge behind it; edges to exploring-a-corpus and verifying-a-corpus as well,
+  whose `write-leads` and `write-findings` read the list as the questions in view, four edges
+  where two carry the handoff.
+
+### A question entry carries no hypotheses; a question reaches a hypothesis only through a finding, at claiming
+
+- id: d-2026-09-12-9
+- date: 2026-09-12
+- supersedes: d-2026-09-07-23
+- raised by: the first run of `ask`. Brian: "The scope of a study is reconciled at the start of
+  it, right? That's when questions get hypotheses attached to them, not when they are written?";
+  then "Then we don't need to read hypotheses at all to ask questions"; then "Since no one uses
+  hypotheses attached to a question, and hypotheses are connected with findings independently in
+  its own process of surfacing candidates, the hypotheses field should be dropped from question
+  entries. That is my lean. Before accepting it, check codesessions and decisions to figure out
+  why that hypotheses field is on the question list in the first place and whether the rework
+  that led to surfacing candidates properly and logically supersedes the intial assignment of
+  the field or not."
+
+  The trace. Revision 1's spec pools carried `bears-on`, and verification's scope reconciliation
+  recomputed a card's hypothesis list from it: the reconciliation his recall described is a
+  revision 1 step with no revision 2 counterpart. On 2026-09-05 he rejected the name, "I don't
+  like bears-on", and typed no purpose for the field. At the question-entry review in session
+  `a8e72688`, 2026-09-08, the session kept it for one consumer, write-candidates, as the one
+  authored edge from a corpus's questions to the hypotheses a round's candidates target. On
+  2026-09-10 he ruled the sweep wide, "I intended for candidates to be a massive flood of
+  salience judgements that goes wide. It is a lot of findings and a lot of hypotheses, like an N
+  x M." and "I'm not going to connect hypotheses one by one.", and d-2026-09-10-6 gave claiming
+  the whole hypothesis set per finding, its reads no longer including the question list, with no
+  entry retiring the field. What still read it only displayed it: `question.hypotheses`, and
+  state.md's hypotheses column per question and open-questions column per hypothesis, the second
+  backed by no decision. Asked what that view would earn him, the session found nothing the
+  method uses, and found the edge descended from hypotheses read as study requests, the `Tested
+  by` lines of the synthesis plan's entries, revision 1's cards and `bears-on`: the prospective
+  testing method hypothesis-file-schema bars from an Origin. Brian: "I agree with this
+  assessment."
+- decision: A question entry has no `hypotheses` field. The file is `questions/<corpus>.md`,
+  titled `# <corpus> — questions`, entries only, no head prose. An entry is its heading, then
+  `date`, exact and never earlier than the entry before; `raised by`, free, the occasion and what
+  raised it with the citation as a token; `question`, free, the question Brian raised;
+  `suggested test`, free, present only when one suggests itself. One exact line, and no field
+  with a closed set of forms. The checker holds `question.title`, `question.entry.fields` and
+  `question.entry.date`; `question.hypotheses` is retired, and a `hypotheses` line fails as an
+  unknown key under `question.entry.fields`. A question reaches a hypothesis only through a
+  finding, at claiming, blind and against the current set. No writer of a question list reads a
+  hypothesis to fill an entry; state.md shows no hypotheses per question and no open questions
+  per hypothesis. The hypothesis statements `review-leads` and `review-findings` read for their
+  handoff to minting are untouched.
+- not taken: the field written with the question, an edge authored before any finding exists,
+  on an append line no later mint or reword can update, whose only readers display it; the edge
+  moved to where a study is scoped, which claiming's sweep over every hypothesis would leave a
+  display as well; state.md's per-hypothesis view kept, which shows a guess as coverage and is
+  wrong in both directions.
+
+### A process mandates a commit only where the commit carries something the method needs
+
+- id: d-2026-09-12-10
+- date: 2026-09-12
+- raised by: the first run of `ask`, whose procedure closed on one commit. Brian: "I don't think
+  a commit is necessary, so that can be taken out of the asking-a-question.md."; then "Nothing
+  should mandate commits in the whole skill."; then, over the session's walk of every commit in
+  the folder, "For the ones where commit has meaning, keep it. For the ones where it deletes
+  cleanly delete it, including asking-a-question. Keep 'a commit' as an act reserved for me.";
+  and "Delete the promote commit message references. I agree with the keep and delete rulings."
+- decision: A commit stays where it carries something: `gate-and-commit`, whose id and single
+  commit hold the new wording, the iteration entry and the fresh evidence entries as one write or
+  none; building-a-tool, where CORPORA.md and the `agent-runner` skill change in the same commit
+  as the code they describe; revise, one commit per landed step with the note in the last, and a
+  wholesale rewrite swapped in one commit; and the commit among the acts reserved to Brian at
+  which a run ends. Where a commit carried nothing it goes, and `git` leaves the process's
+  instruments with it: the process of asking-a-question, `mint`, `review-leads` and
+  `review-findings`; `baseline`, whose `git` named no commit in its procedure; and `promote`,
+  which loses its single commit, the scope and candidate tokens named in the commit, and the
+  commit in its router row. Nothing reads a commit message: promotions are read from the
+  hypothesis records and declines from declined-candidates.md.
+- not taken: no commit anywhere, which drops the single write of `gate-and-commit`, the co-change
+  building-a-tool holds and the atomic swap revise makes; one commit per hitl process as before,
+  which mandates a commit where it carries nothing; promote's commit message kept, which nothing
+  reads.
+
+### Rule 10: every field that records Brian's words is composed from the deliberation, his words in quotation marks
+
+- id: d-2026-09-12-11
+- date: 2026-09-12
+- raised by: the first run of `ask`, where the session read the procedure as transcribing one
+  typed question and listed its shortcomings. Brian: "It shouldn't be that strict. We had a HITL
+  deliberation. You should be taking my words from that deliberation and putting it as a
+  question for the question list. That's what the activity is about."; "This setup needs to
+  apply uniformly. And since we shouldn't be writing duplicates that can drift, where should it
+  go? In SKILL.md, with the processes referring to it?"; "Put in skill.md and it should be every
+  field that records my words. Put my words in quotation marks. Make it a constitutional rule.";
+  "Decisions.md does not have to be retrofit but future entries should conform to the new
+  quoting rules."; "Really, all text from now on ought to follow this new principle of, the
+  instruction is to put together a conform entry (whatever it is) from the deliberation session,
+  and my words are quoted. This should supersede any other ad hoc instructions. Does this apply
+  uniformly or not?"; and, on the session's answer, "Classifier system prompt does not need
+  quotes or my wording. It ought to be the wording that works best for claude, which claude is
+  better at writing. Agreed on quotation marks recording that they are my words, not to be used
+  for words written by claude that I approved. Agreed on the nothing to act on cases."
+- decision: SKILL.md gains a tenth constitutional rule. Every field an hitl process writes that
+  records Brian's words is composed by the session from the deliberation that raised it, his
+  typed words verbatim inside quotation marks and the session's own words, in Claude's voice,
+  outside them. Quotation marks hold only what he typed: his words that themselves hold
+  quotation marks take single ones inside, and a label he selected, a question put to him and
+  session text he approved are never quoted, approval being his decision and never his words.
+  A hypothesis statement he types is quoted; one the session drafted and he approved is not.
+  The rule has nothing to act on where no deliberation exists, in `session` and `agent`
+  processes, nor in verbatim copies, an evidence entry's finding and falsifier and an
+  iteration's `from`, which carry their source's text under their own rule. A directions body
+  is written in the wording that works best for the model, which Claude writes, with neither
+  quotation marks nor his wording; his calibration rulings are quoted in the calibration file.
+  The rule supersedes every manner instruction the folder carried for his words: `in his words`
+  and `in Brian's words` in the question-entry, declined-candidates and hypothesis-file schemas,
+  in `baseline`, `mint`, iterating's precondition, `review-leads`, `review-findings`, `ask` and
+  two router rows; `with his assertions as the content` in hypothesis-file-schema and `mint`;
+  decisions-schema's quoting bullet; findings-schema's `in the session's or Brian's words`; and
+  baseline's Never against paraphrase. Each field keeps what it holds, and the rule says how his
+  words enter it. Vocabulary's rule entry counts ten. The rule binds what is written from the
+  day it lands: decisions.md and the hypothesis files are not retrofitted.
+- not taken: transcribing one typed question, which the procedure read as and Brian ruled too
+  strict; a manner instruction per field or per process, the copies that drift; his wording or
+  quotation marks in a directions body; retrofitting decisions.md and the hypothesis files.
+
+### Showing an entry in the chat before writing it is a process's own instruction, decided at its first run
+
+- id: d-2026-09-12-12
+- date: 2026-09-12
+- raised by: the first run of `ask`, where the session showed its drafted entry before writing
+  though the procedure did not ask it to. Brian: "Draft should be shown in the chat before
+  written."; then "Show the draft first only for question entries right now. Each other to be
+  decided when moving from specified to built. For decisions, I said to not put it in the
+  session first because it got too tedious with the scope."; then "Show the draft first can be a
+  per process instruction. Does this work?"; and "Yes, only ask right now." The record bore out
+  his recall about decisions: d-2026-09-11-5 writes a unit's entries together at its end for him
+  to scan, and revise's text still wrote each as it landed.
+- decision: Showing an entry to Brian in the chat before it is written is an instruction of the
+  process that writes it, never a rule of a class or of the folder. The process of
+  asking-a-question carries it for its question entry. Every other process that writes a field
+  recording Brian's words has it decided at its first run, where revise presents the first run
+  against its declaration and the process moves from `specified` to `built`; revise's text says
+  so. Decision entries stay under d-2026-09-11-5, and revise's text, which still wrote each
+  decision as it lands, is brought to that entry in the same write.
+- not taken: a rule in question-entry-schema, which binds the four other writers of a question
+  list before any has run; showing every entry of every process now, decision entries included,
+  the tedium d-2026-09-11-5 removed; leaving the other processes' choice to be remembered at
+  their first run with nothing in the text to raise it.
+
+### Asking a question's process is write-question, reading the corpora and then that corpus's list
+
+- id: d-2026-09-12-13
+- date: 2026-09-12
+- supersedes: d-2026-09-12-8
+- raised by: the first run of `ask`, which did not match its declaration: it read the
+  deliberation, CORPORA.md for the corpus id the title check requires, and state.md in place of
+  an INDEX.md gone stale, and read hypotheses only for the field d-2026-09-12-9 drops. Brian: "It
+  should read the corpora and then the question-list for that corpora."; "Ask can go to built.";
+  "But 'ask' is ambiguous and that should be made unambiguous as a process name as well."; and
+  "write-question works." The archive showed `ask` coined by a session, first in d-2026-09-07-21,
+  with no typing of Brian's behind it, and the folder's own text using asking for Brian asking,
+  for the session asking him, and for a process that asks nothing.
+- decision: `asking-a-question` is an activity of the Router, its file `asking-a-question.md`,
+  with one hitl process, `write-question`: it reads `corpora`, then the `question-list` of the
+  corpus the question is about; it writes `question-list`; it invokes no instrument; its state is
+  `built`. It composes the entry from the deliberation under rule 10 and shows it to Brian before
+  writing it (d-2026-09-12-12). It enables preparing-to-explore-a-corpus and
+  preparing-to-verify-a-corpus, both edges backed by the plans' reads of the list and neither
+  closing a cycle, nothing enabling it (d-2026-09-12-7). It is the route for a question that
+  arises where no activity's own processes cover the asking; a question raised inside an activity
+  that writes questions stays that activity's, and reviewing-leads keeps `review-leads` and its
+  question paragraph. The founding record's entry of 2026-09-05, *Questions are written only by
+  hitl processes*, is history as to the merge; its ruling that every writer of a question list
+  is hitl stands, and is what `question-list.writer-not-hitl` holds. The id `asking-a-question`
+  is Brian's, chosen from three forms. `baseline` and `mint` stay `specified`, neither having
+  run under revision 2's text. No check is added or changed.
+- not taken: `ask`, which reads as either party asking; `compose-question`, whose verb
+  `compose-candidates` uses for a generated view; `write-question-entry`, longer and in the
+  schema's word; `record-question` and `file-question`, colliding with a hypothesis file's
+  § Record and with file as a noun; reading the hypotheses, which nothing the entry holds needs.
+
+### Rule 7 steers a discussion that turns to story content; it never writes a question
+
+- id: d-2026-09-12-14
+- date: 2026-09-12
+- raised by: walking rule 10 against the question writers, where rule 7's closing clause,
+  redirect to the framework-relevant question or say it is out of scope, read as an
+  instruction to author a question entry. Brian: "So are Rule 7 and Rule 10 in tension? That
+  would apply to all HITL about questions, not just this freestanding asking-a-question
+  activity."; then "What does 'redirect' mean here, precisely?"; and "A sounds good". The
+  trace: the clause entered on 2026-08-31 in session `6e5d2e65` (commit `1b6e705`), a session's
+  proposal approved by Brian's "Please make the appropriate changes to the skill", written for
+  the one discussion at seq 809–818 where he named "story content comparison" and answered the
+  session's trimmed framework question with "Trim it back". It read: when the discussion drifts
+  into content territory, redirect to the framework-relevant question ("do the tracks support
+  this?") or acknowledge it's outside scope. Revision 1's constitutional rule 7 of 2026-09-03
+  dropped the trigger, the object and the example; revision 2 carried it verbatim, after
+  question became a defined word.
+- decision: Rule 7's clause says what is steered and toward what: when a discussion turns to
+  story content, the session steers it to what that content asks of the framework, such as
+  whether the planner's tracks support it, or says it is out of scope. The word question leaves
+  the rule, which no longer collides with § Vocabulary's question. A steer writes nothing;
+  whether a framework question that arises is written is the question writers' own rule. The
+  rest of rule 7 is unchanged.
+- not taken: replacing the collided word alone, which drops the example that made the clause
+  concrete; a Vocabulary note that rule 7 uses question in its ordinary sense, two senses of a
+  defined word in one folder.
+
+### Rule 10 applies to fields that record deliberation and reasoning, never to facts or neutral assertions
+
+- id: d-2026-09-12-15
+- date: 2026-09-12
+- supersedes: d-2026-09-12-11
+- raised by: walking rule 10 against every writer and every copy of Brian's words, which
+  found a hypothesis statement quoted by rule 10 and copied into claiming directions that rule
+  10 kept unquoted. Brian: "Once rule 7's wording is cleaned up, are ther no special cases to
+  rule 10?"; then "Yes, A. The hypothesis statement is not quoted. It's just a statement. The
+  quoting rules have to apply only to fields that are capturing my words from an HITL session
+  and distinguishing them from claude's words or framing of my words. This makes sense for the
+  reasoning: field on hypothesis and for the raised by, decision, and not taken fields in
+  decisions.md (note that quoting isn't a hard requirement). Remains to be seen what other
+  fields it applies to. Quote everywhere seems like an incorrect initial instinct."; "Note that
+  not all free form fields are the same. I had a typo omission."; "I think this quoting
+  discipline doesn't apply to facts. It applies to deliberation and reasoning bookkeeping.";
+  and "This rule 10 wording is good." d-2026-09-11-14's refusal of a provenance field, and its
+  reason that a self-reported flag is written by the party whose influence it purports to
+  measure, bore on the statement.
+- decision: SKILL.md's tenth constitutional rule quotes Brian where the method keeps its
+  reasoning. A field that records deliberation or reasoning, what raised something, why it
+  exists, what was ruled or declined, a judgment or a suggestion, is composed by the session
+  from the deliberation; where it uses what Brian typed, that text is verbatim inside quotation
+  marks, his own quotation marks becoming single ones, and the session's words and framing sit
+  outside them. Quoting is not a requirement to use his words, only the form they take when
+  used. A label he selected, a question put to him and session text he approved are never
+  quoted. A field that states a fact or a neutral assertion, a finding, a hypothesis statement,
+  a question, is not written this way, however much of it came from him; a statement is the
+  claim, and his wording of it, where it matters, is quoted in an Origin or an iteration
+  `reason`. Each schema's field description says which kind a field is, `under rule 10` marking
+  the reasoning fields: an Origin's `reasoning`, an iteration's `reason`, a baselined
+  `rationale`, a decline's `reason`, a calibration's rulings, a decision's `raised by`,
+  `decision` and `not taken`, a question's `raised by` and `suggested test`. What stands of the
+  superseded entry: the rule is constitutional; it replaced every manner instruction the folder
+  carried for his words, each field keeping what it holds; § Vocabulary counts ten rules; and
+  it governs what is written from its landing, decisions.md and the hypothesis files not
+  retrofitted. Its clauses on directions bodies, on processes with no deliberation and on
+  verbatim copies leave, those being fields that record no reasoning; a directions body stays
+  in the wording that works best for the model.
+- not taken: quoting every field that records his words, the superseded rule, which quotes a
+  statement into claiming directions and referee items and restores as punctuation the
+  provenance marker d-2026-09-11-14 refused; quoting in the file and stripping quotation marks
+  on the way to an agent, which no machine can tell from quotation marks that mention a term,
+  as statements 001, 027, 030 and 048 use them; quoting everywhere with the directions clause
+  yielding, which reverses Brian's directions ruling on the text a blind call judges.
+
+### Rule 9: an entry a session wrote is corrected until something that cannot be corrected relies on it
+
+- id: d-2026-09-12-16
+- date: 2026-09-12
+- raised by: the first question entry, `v1-archive/scene-detail-scrap-rate`, written that day
+  under the rule 10 then standing and wrong under d-2026-09-12-15, in an append class with no
+  process that withdraws. Brian: "Yes, we should fix the v1-archive/scene-detail-scrap-rate
+  entry to be inline with the new guideline."; "Rule 9 should not apply if we haven't even
+  settled the framework yet."; "If we are in revising-the-method then rule 9 should be
+  loosened, right?"; then, on the session's commit boundary, "It should not have to do with git
+  commit status. That is irregular and ungoverned."; "Reliance makes sense."; and "Conforming an
+  entry to its class without changing what it records - this is fine. The chain for riliance
+  works." The session had shown that loosening for revising-the-method or until the framework
+  settles has no end, revise being continuous and the epistemic framework having no settled
+  state, and that hypothesis records and decisions are already relied on.
+- decision: Rule 9 keeps appended and frozen artifacts unedited, save that an entry a session
+  wrote may be corrected until it is relied on: conformed to its class without changing what it
+  records. An entry is relied on once something that cannot be corrected relies on it, directly
+  or through a chain, by a citation the checker resolves or by an entry placed after it in a
+  record; what cannot be corrected is a succeeded version, a file the runner or an agent wrote,
+  or an entry itself relied on. Until then it is corrected together with whatever relies on it,
+  in one write. A change to what an entry records is never a correction: a finding that does
+  not hold is withdrawn or superseded, a disputed lead is a line under Corrections, a reworded
+  question is a new entry. revising-the-method's § Never reads that a fix to a file wrong under
+  a right class is allowed within rule 9. The boundary is reliance and never the state of git.
+- not taken: loosening rule 9 while revising the method, which never ends and does not reach
+  the question list; suspending it until the swap, which strips protection from records and
+  decisions already relied on; the commit as the boundary, irregular and governed by nothing;
+  any citation as the boundary, under which a unit's cross-cited decision entries could never
+  be corrected on its scan; the session that wrote the entry, not a governed artifact either;
+  Brian's review of it, which question entries pass before they are written.
+
+### A unit's entries are written together at its end and scanned, and corrected within rule 9
+
+- id: d-2026-09-12-17
+- date: 2026-09-12
+- supersedes: d-2026-09-11-5
+- raised by: d-2026-09-12-16, which replaced the commit as the moment a written entry stops
+  being correctable; the superseded entry made the commit that moment for decision entries.
+  Brian: "It should not have to do with git commit status. That is irregular and ungoverned."
+  revising-the-method § revise still wrote each decision as it landed, the superseded entry
+  never having reached its text, and the text was brought to it on 2026-09-12.
+- decision: A unit opens with a queue of starting points, one line each, ordered widest-first
+  by the session and seen by Brian before any is taken; he reorders, removes or adds. Taking a
+  starting point opens a stack with it at the bottom; deliberating any decision on the stack
+  pushes the decisions it surfaces on top, and the pop is from the top, so the starting point
+  is settled last and may name the decisions settled above it. A stack is worked to empty
+  before the next starting point is taken, and after each stack empties the queue is presented
+  again, re-ordered and re-formed; it is never presented as settled. A decision is ruled in
+  session; its entry is drafted at the end of the unit, with every entry of that unit, in the
+  order the decisions were settled, and Brian scans the file. He approves the ruling, never the
+  drafted sentence. How many entries a unit's rulings become, and where the lines between them
+  fall, is the session's judgment under the one-decision rule. An entry he corrects on the scan
+  is corrected within rule 9: while nothing that cannot be corrected relies on it, with the
+  entries relying on it corrected in the same write.
+- not taken: the commit as the last moment of correction, the superseded rule, which ties the
+  record's discipline to an act nothing governs; writing each entry as it lands, which a review
+  at scale made tedious without adding rigor; batching with no review at all.
+
+### A question writer never writes a question Brian did not raise
+
+- id: d-2026-09-12-18
+- date: 2026-09-12
+- raised by: d-2026-09-12-15 making a question's text a neutral assertion in the session's
+  wording, after which the Never line "writes a question Brian did not ask" could not mean did
+  not type. Brian: "A works".
+- decision: The Never lines of `write-question`, `review-leads` and `review-findings` read
+  writes a question Brian did not raise, the verb the activity files already use for his act:
+  he raises a question by typing it or by taking up a session's wording, a proposed question or
+  a steer's framework question among them. `write-question`'s line also closes on writes more of
+  a test than a naive suggestion, a suggested test coming from either Brian or the session
+  (d-2026-09-12-19).
+- not taken: did not decide to enter, explicit but a new phrase in three files where the
+  method has a verb; deleting the line, which removes the only guard in the two reviews that
+  show no draft.
+
+### A question entry: no hypotheses; a neutral question; a reasoned raised by; a procedural suggested test
+
+- id: d-2026-09-12-19
+- date: 2026-09-12
+- supersedes: d-2026-09-12-9
+- raised by: the first question entry and the questions its writing surfaced. Brian: "Suggested
+  test can be either one. The quotes determine where the suggestion came from."; "Question
+  should be a neutral assertion, fact-like. It's not a fact, but it's a non-opinionated thing.
+  Raised by and suggested tests have opinions."; "What should be the line between raised by and
+  suggested test?", then "This makes sense."; and, on whether `raised by` holds a closed set of
+  tokens, "Cite a thing by its own token where it has one. This is a guideline, not a hard rule.
+  The things will be in context. It's to leave a trail for future HITL sessions to follow when
+  asked for." The session found the listed token forms stale both ways: a proposal and a
+  candidate have no token of their own, and a finding and a hypothesis, which writers cite,
+  were missing.
+- decision: A question entry has no `hypotheses` field. The file is `questions/<corpus>.md`,
+  titled `# <corpus> — questions`, entries only, no head prose. An entry is its heading, then
+  `date`, exact and never earlier than the entry before; `raised by`, why the question exists,
+  the occasion and what raised it and Brian's beliefs, recollections and motivation behind it,
+  what raised it cited by its own token where it has one, as a trail a later session can follow
+  when asked, and `recall` or `carried from the founding pool` where those raised it, under rule
+  10; `question`, a neutral assertion of what is asked; `suggested test`, present only when one
+  suggests itself, a naive note of procedure that holds whatever the answer and never a belief
+  about it, from Brian or the session, rule 10's quotation marks showing which, never a
+  criterion. The line between the last two: a sentence that would be wrong if the study came out
+  a certain way is a belief and belongs in `raised by`. One exact line, and no field with a
+  closed set of forms. The checker holds `question.title`, `question.entry.fields` and
+  `question.entry.date`; `question.hypotheses` is retired, and a `hypotheses` line fails as an
+  unknown key under `question.entry.fields`. A question reaches a hypothesis only through a
+  finding, at claiming, blind and against the current set; no writer of a question list reads a
+  hypothesis to fill an entry, and state.md shows no hypotheses per question and no open
+  questions per hypothesis. The hypothesis statements `review-leads` and `review-findings` read
+  for their handoff to minting are untouched.
+- not taken: a `raised by` list of token forms repaired, a second copy of each class's citation
+  form that goes stale when a class changes; a checked `cites` line beside a free `raised by`,
+  the exact provenance line d-2026-09-07-23 refused, with nothing deriving from it; Brian's
+  opinions in `question`, which makes the neutral part of the entry his framing; beliefs in
+  `suggested test`, which can enter directions as a criterion and decide part of the answer
+  first; a suggested test from Brian only.
+
+### Rule 10's quoted words come from wherever Brian's typing is recorded as his
+
+- id: d-2026-09-12-20
+- date: 2026-09-12
+- raised by: rule 10's composed from the deliberation, set against the writers that quote his
+  typing from elsewhere: d-2026-09-12-9 quoting session `9bd56b73` of 2026-09-05 and session
+  `a8e72688` of 2026-09-10, the migrated Origins quoting archived sessions, and the migration
+  briefing naming the Keep dump as Brian, typed. Brian: "Yes, option A"; and "Not just
+  'archived session'; be more specific that it's about reading transcripts from the codesessions
+  db".
+- decision: A reasoning field is composed from the deliberation and the records of Brian's
+  typing it draws on. What he typed is his own prose wherever it is recorded as his: the
+  deliberation at hand, a user turn or `Typed:` line in a Claude Code transcript read from
+  `codesessions.db` (the `code-sessions` corpus), a Keep note, his navigation note on a
+  conversation block. Used, it is verbatim inside quotation marks and cited to its source when
+  it is not the deliberation at hand. Never quoted as his: a label he selected, a question put to
+  him, session text he approved, and text whose voice is not established as his, such as v1
+  archive and plan notes, which are corpus content cited by locator. Rule 8 is unchanged: quoting
+  past typing makes it no evidence.
+- not taken: quoting only the present deliberation and paraphrasing the past with a citation,
+  the compression the migration trace found and d-2026-09-12-9 already did not practise;
+  quoting AI-session transcripts but not Keep notes or planning documents, a special case with
+  no reason, the Keep dump being the most direct record of his words.
+
+### A disagreement with the referee's verdict is a decline; a promoted tag is always the verdict
+
+- id: d-2026-09-12-21
+- date: 2026-09-12
+- supersedes: d-2026-09-11-15
+- raised by: promote's step 3, promoting against the verdict with the ruling in the evidence
+  entry, an entry with no field for it. Brian: "There were a lot of discussions on the evidence
+  entries in codesessions and decisions. Check those again"; "Wasn't there a new artifact made
+  to hold those decisions?"; "I am getting lost in what the case is that this is about, and how
+  it differs from the happy path"; "I don't see how 'The referee says supporting; you think it
+  challenges' is different than 'The referee says challenging; you think that's spurious' - the
+  polarity is reversed, but what is different?"; and "Yes, option D works". The record:
+  revision 1's promotion let Brian decline a diagnostic candidate or promote nothing; the
+  2026-09-05 walkthrough had him decline, hold or promote nothing when he disagreed, and his
+  typing there was "Thus the source is only used by me if I disagree with the referee in
+  promoting-a-candidate?"; d-2026-09-10-8 kept declines only in `declined-candidates.md` and
+  reasons off the record; d-2026-09-11-1 declines a spurious challenge. The override path stood
+  only in step 3's text of commit `3eb5515` and in the superseded entry's reason for `tag`.
+- decision: An evidence entry carries `date`, `candidate`, `tag`, `finding` and `falsifier`, and
+  nothing else. `tag` is the referee's verdict and stays because the status computation reads it
+  in the file; promotion never records a tag other than the verdict. A disagreement with the
+  verdict, whether Brian judges the finding to bear on nothing or to bear the other way, is a
+  decline, his ruling its `reason` in `declined-candidates.md`; a ruling that shows the referee
+  wrong in general is what sends its directions back through preparing-to-verify-a-corpus.
+  What stands of the superseded entry: the directions version and its hash are cut, the referee
+  batch that judged a candidate being found from the `<finding-slug> → <target>` locator its
+  index records; `finding` and `falsifier` are the frozen verbatim snapshots of d-2026-09-10-4;
+  `hypothesis.evidence.citation` and `hypothesis.evidence.no-falsifier` retire into the engine
+  and the class rule of d-2026-09-11-19. promote's step 2 cites the candidate's token alone, its
+  § Never gains promotes with a tag other than the verdict, and `tag`'s description reads as the
+  referee's verdict classified it.
+- not taken: a `ruling` field on the evidence entry, which puts a reason on the record
+  d-2026-09-10-8 keeps reasons off and lets a tag stop being the blind referee's; widening
+  `declined-candidates.md` into an outcomes file, against "Declines only in this file"; allowing
+  only the flip to challenging, a special case by polarity whose ruling has no home; keeping the
+  override with no reason, which loses what a referee revision needs.
+
+### The verified findings are a corpus, explored only; the registry keeps no special corpus
+
+- id: d-2026-09-12-22
+- date: 2026-09-12
+- supersedes: d-2026-09-09-12
+- raised by: where a question comparing corpora would live, `verified-artifacts` having no
+  question list. Brian: "A cross corpus comparison question does not seem valid for the way I am
+  using question for corpora which requires rigor. So is this a different kind of question?";
+  "Questions for a corpus no longer associate with a hypothesis, right?"; "It would be reading
+  and comparing verified artifacts, which is a subjective thing, not going over itemized units.
+  Should verified-artifacts be a corpus? What would it have, concretely? Is it over findings?";
+  "The items are the finding entries."; "Exploration only makes sense."; "verified-findings is
+  good."; "Put exploration only in corpora.md."; and "4 sounds good". The trace: revision 1's
+  Synthesis type read verified artifacts across corpora for comparison, retrospective,
+  adjudication, evaluation and connection; the founding record's ruling that an exploration
+  over verified artifacts is an exploration retired it; `verified-artifacts` then survived only
+  as a registry value and a precondition clause. Of synthesis's aims, adjudication is the
+  evidence pipeline and baselining, evaluation is the planner's terminus, connection is story
+  content, and the wide reading across verifications had no home.
+- decision: A question is about one corpus's items; a comparison across corpora is a hypothesis
+  whose evidence arrives from each corpus through claiming, never a question. The standing
+  findings of every verification are a corpus, `verified-findings`, in CORPORA.md: each finding
+  entry one item, located by its `<study>/<slug>` heading in its study's `findings.md`, standing
+  as of the itemizer's run. It is explored only, never verified, CORPORA.md's caveat giving the
+  reason: a finding about findings could be promoted beside the finding it is about, counting
+  one piece of evidence twice. Findings of different verifications rest on different items under
+  different directions, so a pattern across them is a lead, never a joined claim, and a finding
+  withdrawn after the run is caught at the lead review. preparing-to-explore-a-corpus loses its
+  clause for the verified artifacts of promoted verifications. The itemizer across studies is
+  the first task of the first study that needs it. What stands of the superseded entry:
+  `registry.type` holds that a study's type is the one its id's prefix names, with no referee
+  case; `registry.corpus` holds that the corpus cell is an id in CORPORA.md, or `skill` for an
+  audit, and now has no `verified-artifacts` value, the registry checker dropping its constant.
+  Its clause on `hypothesis.evidence.citation` was retired by d-2026-09-11-15.
+- not taken: a question list for cross-corpus questions, whose questions no frozen predicate
+  over one corpus's items could answer; verifying the findings corpus, which double-counts;
+  retiring the reading altogether, which leaves synthesis's one homeless aim with none;
+  `findings` as the id, which is the Artifacts table's id for the class; `verified-artifacts`
+  kept, which names more than the items are.
+
+### An Artifacts path is one pattern or `no single pattern`
+
+- id: d-2026-09-12-23
+- date: 2026-09-12
+- raised by: the corpus row's path, `outside the repo`, beside corpora that live in the repo and
+  now one made of the repo's own findings. Brian: "It should say where CORPORA.md says. There
+  are other corpora in the repo so this is already wrong."; and "A works". No decision had named
+  the literal; skill-schema's grammar allowed exactly one non-pattern value.
+- decision: `artifact.path-syntax` holds that a path cell is one repo-relative pattern with
+  placeholders in angle brackets, or `no single pattern`, the one non-path value, meaning there
+  is no pattern the tool can list files from, in the repo or out of it. The `corpus` row's path
+  is `no single pattern`, and its description says the corpora are where CORPORA.md says.
+  skill-schema and `ArtifactPath` change with their tests.
+- not taken: `where CORPORA.md says` as the literal, a grammar value named after one file that
+  the next patternless artifact would need changed again; `outside the repo` kept, false of
+  several corpora.
+
+### A slug is a machine identifier the session creates, never changed
+
+- id: d-2026-09-12-24
+- date: 2026-09-12
+- raised by: the first question entry's slug, and each schema saying when a slug is made but not
+  who makes it, with no stability stated for a hypothesis's. Brian: "Slug can be created by the
+  session. It's a machine identifier that is stable, not something that has to be chosen by
+  me."; and "Hypothesis slugs are stable. Migration is an exception because the earlier one
+  wasn't legitimate and had an inverted meaning. Vocab entry for slug that says created by the
+  session works".
+- decision: § Vocabulary defines slug: a machine identifier that reads in a sentence, lowercase
+  `[a-z0-9-]+`, created by the session with what it names and never changed, each class's schema
+  saying where it is unique. A hypothesis file's slug is a slug, so it is never changed; a
+  declined candidate's heading and a claiming result cite it. The migration of the founding
+  hypothesis files under d-2026-09-12-5 is the one exception, a bootstrap: its sessions may
+  rename a founding file's slug where the file's claim was never legitimate or its meaning was
+  inverted, as 041's was on 2026-09-12. The exception is carried here and in no activity file or
+  schema (d-2026-09-07-27).
+- not taken: a slug fixed only once something cites it, which leaves hypothesis slugs renamable
+  outside the bootstrap; the slug's author stated in question-entry-schema only, which leaves the
+  other classes silent.
+
+### A question is withdrawn and reinstated by appended lines; adding one reads the list first
+
+- id: d-2026-09-12-25
+- date: 2026-09-12
+- supersedes: d-2026-09-07-24
+- raised by: the schema naming a withdrawing process no activity described. Brian: "Is
+  withdrawal even necessary? And why is questions append only so strictly? What led to that?";
+  "Actually option A seems good because it prevents 'malformed questions' from reentering a week
+  later? What would make me want to withdraw something anyway?"; "How about if withdrawn can be
+  added, but if I decide I do want the question after all a week later, the withdrawn can be
+  removed and the question stands? But asking a different iteration of the question has to be a
+  new one."; "Reinstated works. Code can adapt to the new requirements."; and "Yes, the skill
+  should be updated to give instructions to hitl sessions that attempting to add a question
+  should compel the session to read what is already there first and point out any withdrawn
+  ones along with reasoning that matter." The archive showed append chosen on 2026-09-08 in
+  session `a8e72688` on the session's recommendation, from a candidate precedent since retired
+  and the reading that a reworded question is a new question, Brian moving on without a typed
+  reason; what still justifies it is reliance, a cited question's wording standing under what
+  froze or answered it.
+- decision: The class is append for every line. A question is withdrawn by `- withdrawn: <date>
+  <reason>` and reinstated by `- reinstated: <date> <reason>`, lines appended beneath the fields,
+  alternating and starting with withdrawn, each reason under rule 10, written by the hitl
+  process in which Brian withdraws or reinstates it, `write-question` outside every other
+  activity. A question he wants back is reinstated under its own slug; a different iteration of
+  it is a new entry. Open is derived: an entry with no withdrawn line, or whose last withdrawn
+  line is followed by a reinstated line; frozen and answered are derived from a directions
+  version's and a verification's citations; no status line is written. Before any entry is
+  added, the session reads the list and puts in front of Brian every withdrawn entry that bears
+  on the question, with its reasons, so that he reinstates it, writes a new entry, or lets it
+  rest; the rule is question-entry-schema's, binding every writer. `write-question` shows a
+  withdrawal or a reinstatement before writing it, and its § Never gains withdraws or reinstates
+  a question he did not. `question.withdrawn` holds that each appended line is a date then a
+  reason, sits beneath the fields and before no keyed line, and that the two alternate starting
+  with withdrawn; state.md reads a reinstated question as open.
+- not taken: removing the withdrawn line, an edit to one line of an append class and the loss of
+  the reason a question was dropped; re-entering a wanted question under a new slug, which leaves
+  the old one withdrawn beneath what cites it; rewording or deleting an uncited question in place,
+  which leaves no trail against a malformed question returning; no withdrawal, which keeps every
+  question ever raised open in every plan; an activity of its own for appending one line.
+
+### Rule 10 requires no rewrite of what is already written, and permits one Brian asks for
+
+- id: d-2026-09-12-26
+- date: 2026-09-12
+- supersedes: d-2026-09-12-15
+- raised by: the tightening of the migrated hypothesis files, which rewrites Origins written
+  before rule 10 while the superseded entry said nothing already written is rewritten to meet
+  it. Brian: "Rule 10 should be 'nothing already written must be rewritten'. It can be if I want
+  to, in order to meet compliance."
+- decision: SKILL.md's tenth constitutional rule quotes Brian where the method keeps its
+  reasoning. A field that records deliberation or reasoning, what raised something, why it
+  exists, what was ruled or declined, a judgment or a suggestion, is composed by the session
+  from the deliberation; where it uses what Brian typed, that text is verbatim inside quotation
+  marks, his own quotation marks becoming single ones, and the session's words and framing sit
+  outside them. Quoting is not a requirement to use his words, only the form they take when
+  used. A label he selected, a question put to him and session text he approved are never
+  quoted. A field that states a fact or a neutral assertion, a finding, a hypothesis statement,
+  a question, is not written this way, however much of it came from him; a statement is the
+  claim, and his wording of it, where it matters, is quoted in an Origin or an iteration
+  `reason`. Each schema's field description says which kind a field is, `under rule 10` marking
+  the reasoning fields: an Origin's `reasoning`, an iteration's `reason`, a baselined
+  `rationale`, a decline's `reason`, a calibration's rulings, a decision's `raised by`,
+  `decision` and `not taken`, a question's `raised by` and `suggested test`. The rule is
+  constitutional and replaced every manner instruction the folder carried for his words, each
+  field keeping what it holds; § Vocabulary counts ten rules. Nothing already written must be
+  rewritten to meet it, and Brian may have anything already written rewritten to comply;
+  decisions.md is not rewritten.
+- not taken: nothing already written is rewritten, the superseded clause, which forbids the
+  compliance Brian wants for the migrated hypothesis files; a retrofit of every file, which he
+  ruled against on the day the rule landed.
+
+### Rule 10's quoted words include Brian's user blocks in the conversations corpus
+
+- id: d-2026-09-12-27
+- date: 2026-09-12
+- supersedes: d-2026-09-12-20
+- raised by: 041's trace, whose provenance runs through conversation 21, where block 641 is
+  Brian's own plan and block 642 the assistant's answer, while the superseded entry named only
+  his navigation note on a conversation block. Brian: "The 'my typing' should extend to
+  conversations corpus, since those convos were about framework decisions."
+- decision: A reasoning field is composed from the deliberation and the records of Brian's
+  typing it draws on. What he typed is his own prose wherever it is recorded as his: the
+  deliberation at hand, a user turn or `Typed:` line in a Claude Code transcript read from
+  `codesessions.db` (the `code-sessions` corpus), a Keep note, a user block of a conversation in
+  the `conversations` corpus, and his navigation note on a block. Used, it is verbatim inside
+  quotation marks and cited to its source when it is not the deliberation at hand: session and
+  seq, Keep line, conversation and block. Never quoted as his: a label he selected, a question
+  put to him, an assistant turn or block, session text he approved, and text whose voice is not
+  established as his, such as v1 archive and plan notes, which are corpus content cited by
+  locator. Rule 8 is unchanged: quoting past typing makes it no evidence.
+- not taken: his navigation notes alone from the conversations corpus, which leaves out the
+  typing in the conversations where the framework's decisions were made; quoting only the
+  present deliberation, the compression the migration trace found.
+
+### The migrated hypothesis files are tightened by resuming each migration session under a resume file
+
+- id: d-2026-09-12-28
+- date: 2026-09-12
+- raised by: the migration's result and the rulings of 2026-09-12 that post-date it. Brian: "I
+  will have to go through all the hypotheses and tighten them, following the escalation register
+  from hypothesis-migration-result.md. This session is only the 2nd of 50."; "I need to do the
+  hypothesis rewrites now that we've tightened several things. It ran with migrate-hypothesis
+  skill and the results came out in @docs/v3-framework-historical/hypothesis-migration-result.md .
+  What are the possible paths forward and why?"; "What about continuing the sessions that already
+  ran, since they have the full trace already?"; "MCP should be allowed."; "Please make a file
+  that contains the instructions for resuming. I'll have the session read it before resuming.";
+  "Let's run it on 041 which is what this conversation was originally about"; and, on 041's
+  rewritten file, "This works".
+- decision: The tightening pass continues the bootstrap of d-2026-09-12-5. Brian resumes each
+  migration session with `claude --resume <session-id>`, and it reads
+  `docs/v3-framework-historical/hypothesis-migration-resume.md` whole before anything else; where
+  that file and the session's earlier instructions disagree, the file governs. The session is
+  human-in-the-loop: every line of the migration result's escalation register naming its id is
+  put to Brian and waited on. What binds it: rule 10 as d-2026-09-12-26 and -27 have it, the
+  Origin's `reasoning` quoting his typing with its sources and the statement never quoted; rule
+  9's reliance, nothing yet relying on a hypothesis file; slugs never changed, save the
+  bootstrap's rename of d-2026-09-12-24 with Brian's approval; the question rules of
+  d-2026-09-12-19 and -25, a question written only when he raises one; and no mint. The MCP
+  server may be used for provenance, the conversations corpus and lineage above all, lifting the
+  migration's ban. The session loads the `code-sessions` skill, rechecks every attribution at its
+  source, composes the Origin under rule 10, checks the statement, the six grown statements
+  diffed clause by clause and retired vocabulary removed, shows the whole file before writing it,
+  and reports. It writes nothing in a record, touches no other hypothesis file, `INDEX.md` or
+  `state.md`, deletes neither dropped file, and applies no gate of minting or iterating. The
+  first run was 041's, in session `f858ef43`, approved by Brian. The resume file sits with the
+  migration's briefing and result in the historical folder, and nothing of the pass enters an
+  activity file or a schema (d-2026-09-07-27).
+- not taken: a second unattended batch under a rewritten briefing, which puts the rewriting of
+  attributions where Brian is absent, when fewer than half the first batch loaded the citation
+  rule; fresh sessions per hypothesis, which walk again the traces the migration sessions hold;
+  triaging the register first and touching only files with a ruling, which leaves paraphrasing
+  Origins standing; re-minting every hypothesis from its head, which discards the verified work;
+  the MCP ban kept, which would have left 041's provenance in conversation 21 unread.

@@ -66,7 +66,7 @@ public static class References
         try { rows = SkillReader.ReadArtifacts(ctx.SkillFolder); }
         catch (MapFormatException) { return null; }
         var row = rows.FirstOrDefault(r => r.Id == artifactClass) ?? rows.FirstOrDefault(r => r.Id.StartsWith(artifactClass, StringComparison.Ordinal));
-        if (row is null || !ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.OutsideRepo) return null;
+        if (row is null || !ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.NoSinglePattern) return null;
         return StateBuilder.Matches(ctx.RepoRoot, ap, null, null);
     }
 

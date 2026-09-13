@@ -45,7 +45,7 @@ once per entry, written beneath the fields by reviewing-findings when a finding 
 and did not hold. An entry is never edited; a finding that holds amended is a new entry
 naming the old in `supersedes`. A standing finding is one neither withdrawn nor superseded.
 
-**Proposed questions**: `- <what the data raised, in the session's or Brian's words>`, one
+**Proposed questions**: `- <what the data raised>`, one
 per line; none is a question until Brian writes it into the corpus's list, and none is a
 claim.
 

@@ -24,6 +24,7 @@ flowchart TD
   reviewingleads["reviewing-leads"]:::activity
   exploringacorpus["exploring-a-corpus"]:::activity
   preparingtoexploreacorpus["preparing-to-explore-a-corpus"]:::activity
+  askingaquestion["asking-a-question"]:::activity
   buildingatool["building-a-tool"]:::activity
   revisingthemethod["revising-the-method"]:::activity
 
@@ -40,6 +41,8 @@ flowchart TD
   reviewingleads --> preparingtoverifyacorpus
   exploringacorpus --> reviewingleads
   preparingtoexploreacorpus --> exploringacorpus
+  askingaquestion --> preparingtoexploreacorpus
+  askingaquestion --> preparingtoverifyacorpus
   buildingatool --> preparingtoexploreacorpus
   buildingatool --> preparingtoverifyacorpus
   revisingthemethod --> preparingtoexploreacorpus
@@ -75,7 +78,7 @@ Derived from the tables, never authored:
 
 - **inputs**: hypothesis-origin hypothesis-statement
 - **outputs**: hypothesis-record question-list
-- **instruments**: git
+- **instruments**: —
 - **enabled by**: promoting-refereed-candidates iterating-a-statement
 - **enables**: changing-the-planner-for-v3
 
@@ -114,7 +117,7 @@ Derived from the tables, never authored:
 
 - **inputs**: candidates corpus findings hypothesis-statement index
 - **outputs**: declined-candidates hypothesis-record question-list
-- **instruments**: DocIntegrity git
+- **instruments**: DocIntegrity
 - **enabled by**: surfacing-candidates
 - **enables**: baselining-a-hypothesis
 
@@ -197,7 +200,7 @@ Derived from the tables, never authored:
 
 - **inputs**: —
 - **outputs**: hypothesis-index hypothesis-origin hypothesis-statement
-- **instruments**: git
+- **instruments**: —
 - **enabled by**: —
 - **enables**: reviewing-leads reviewing-findings
 
@@ -309,7 +312,7 @@ Derived from the tables, never authored:
 
 - **inputs**: corpus hypothesis-statement index results tally
 - **outputs**: findings question-list
-- **instruments**: git
+- **instruments**: —
 - **enabled by**: minting-a-hypothesis verifying-a-corpus
 - **enables**: surfacing-candidates
 
@@ -439,7 +442,7 @@ Derived from the tables, never authored:
 - **inputs**: corpora corpus skill state tool-source
 - **outputs**: calibration calls definition directions index items question-list results studies tally
 - **instruments**: dotnet runner tool-source
-- **enabled by**: reviewing-leads building-a-tool revising-the-method
+- **enabled by**: reviewing-leads asking-a-question building-a-tool revising-the-method
 - **enables**: verifying-a-corpus surfacing-candidates
 
 ### reviewing-leads
@@ -453,9 +456,7 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   reviewleads{{"review-leads<br/>hitl"}}:::hitl
-  ask{{"ask<br/>hitl"}}:::hitl
   corpus[/"corpus"/]:::artifact
-  hypothesisindex[/"hypothesis-index"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   leads[/"leads"/]:::artifact
   questionlist[/"question-list"/]:::artifact
@@ -465,17 +466,13 @@ flowchart LR
   hypothesisstatement --> reviewleads
   reviewleads --> leads
   reviewleads --> questionlist
-  hypothesisindex --> ask
-  hypothesisstatement --> ask
-  questionlist --> ask
-  ask --> questionlist
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus hypothesis-index hypothesis-statement
+- **inputs**: corpus hypothesis-statement
 - **outputs**: leads question-list
-- **instruments**: git
+- **instruments**: —
 - **enabled by**: minting-a-hypothesis exploring-a-corpus
 - **enables**: preparing-to-verify-a-corpus
 
@@ -583,8 +580,35 @@ Derived from the tables, never authored:
 - **inputs**: corpora corpus skill state tool-source
 - **outputs**: calls definition directions index items question-list results studies
 - **instruments**: runner tool-source
-- **enabled by**: building-a-tool revising-the-method
+- **enabled by**: asking-a-question building-a-tool revising-the-method
 - **enables**: exploring-a-corpus
+
+### asking-a-question
+
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  writequestion{{"write-question<br/>hitl"}}:::hitl
+  corpora[/"corpora"/]:::artifact
+  questionlist[/"question-list"/]:::artifact
+
+  corpora --> writequestion
+  questionlist --> writequestion
+  writequestion --> questionlist
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: corpora
+- **outputs**: question-list
+- **instruments**: —
+- **enabled by**: —
+- **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
 
 ### building-a-tool
 
@@ -734,7 +758,6 @@ flowchart TD
   end
   subgraph reviewingleads["reviewing-leads"]
     reviewleads{{"review-leads<br/>hitl"}}:::hitl
-    ask{{"ask<br/>hitl"}}:::hitl
   end
   subgraph exploringacorpus["exploring-a-corpus"]
     continueexplorationbatch["continue-exploration-batch<br/>session"]:::session
@@ -746,6 +769,9 @@ flowchart TD
     authorexplorationdirections{{"author-exploration-directions<br/>hitl"}}:::hitl
     assembleexplorationbatch["assemble-exploration-batch<br/>session"]:::session
     explorepilotitem(["explore-pilot-item<br/>agent"]):::agent
+  end
+  subgraph askingaquestion["asking-a-question"]
+    writequestion{{"write-question<br/>hitl"}}:::hitl
   end
   subgraph buildingatool["building-a-tool"]
     build{{"build<br/>hitl"}}:::hitl
@@ -917,10 +943,6 @@ flowchart TD
   hypothesisstatement --> reviewleads
   reviewleads --> leads
   reviewleads --> questionlist
-  hypothesisindex --> ask
-  hypothesisstatement --> ask
-  questionlist --> ask
-  ask --> questionlist
   studies --> continueexplorationbatch
   definition --> continueexplorationbatch
   results --> continueexplorationbatch
@@ -956,6 +978,9 @@ flowchart TD
   directions --> explorepilotitem
   items --> explorepilotitem
   explorepilotitem --> results
+  corpora --> writequestion
+  questionlist --> writequestion
+  writequestion --> questionlist
   corpora --> build
   toolsource --> build
   corpus --> build
@@ -996,11 +1021,11 @@ flowchart TD
 
 | artifact | written by | read by | instrument of |
 |---|---|---|---|
-| hypothesis-statement | gate-and-commit mint | baseline promote gate-and-commit mint assemble-claim-batch assemble-referee-batch review-findings review-leads ask | — |
+| hypothesis-statement | gate-and-commit mint | baseline promote gate-and-commit mint assemble-claim-batch assemble-referee-batch review-findings review-leads | — |
 | hypothesis-origin | mint | baseline | — |
 | hypothesis-record | baseline promote gate-and-commit | baseline promote assemble-reverify-batch gate-and-commit compose-candidates | — |
-| hypothesis-index | mint | mint assemble-claim-batch ask | — |
-| question-list | baseline promote review-findings verify-plan review-leads ask explore-plan | write-findings verify-plan author-directions ask write-leads explore-plan author-exploration-directions | — |
+| hypothesis-index | mint | mint assemble-claim-batch | — |
+| question-list | baseline promote review-findings verify-plan review-leads explore-plan write-question | write-findings verify-plan author-directions write-leads explore-plan author-exploration-directions write-question | — |
 | studies | verify-plan explore-plan revise | assemble-full-batch continue-exploration-batch | — |
 | state | — | verify-plan explore-plan revise | — |
 | revision-note | revise | revise | — |
@@ -1009,7 +1034,7 @@ flowchart TD
 | findings | review-findings write-findings | promote assemble-claim-batch assemble-referee-batch compose-candidates review-findings | — |
 | candidates | compose-candidates | promote | — |
 | declined-candidates | promote | compose-candidates | — |
-| corpora | build | verify-plan explore-plan build | — |
+| corpora | build | verify-plan explore-plan write-question build | — |
 | directions | author-directions calibrate author-exploration-directions revise | assemble-reverify-batch assess-reverify-items assemble-claim-batch assess-claim-items assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate explore-items author-exploration-directions assemble-exploration-batch explore-pilot-item assemble-audit-batch assess-audit-items | — |
 | calibration | calibrate | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch | — |
 | definition | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-exploration-batch assemble-audit-batch | write-findings continue-exploration-batch write-leads | — |

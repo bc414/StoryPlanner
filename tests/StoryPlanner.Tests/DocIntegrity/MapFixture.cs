@@ -144,7 +144,6 @@ public sealed class MapFixture : IDisposable
             ### analysis-corpus/an-old-one
 
             - date: 2026-09-01
-            - hypotheses: 032
             - raised by: recall, ad hoc
             - question: Old?
             - withdrawn: 2026-09-05 superseded
@@ -152,7 +151,6 @@ public sealed class MapFixture : IDisposable
             ### analysis-corpus/{OpenQuestion}
 
             - date: 2026-09-10
-            - hypotheses: 031
             - raised by: recall, ad hoc
             - question: Does it?
             - suggested test: per item, the class

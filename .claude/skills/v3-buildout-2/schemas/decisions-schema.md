@@ -34,8 +34,7 @@ lines in this order and no other line:
 What enters an entry:
 
 - One decision. An entry that a later entry could supersede by halves is two entries.
-- Brian's typing, verbatim, in quotation marks. A label he selected is written unquoted.
-  The session's words are unquoted and are never quoted as his.
+- `raised by`, `decision` and `not taken` under rule 10.
 - Nothing that happens after approval: no execution status, no owed work. A ruling that
   defers a question says it does not decide it. What the decision resolved, an audit
   unit, a gap, a check of the tool, is a sentence in `decision`.
@@ -62,7 +61,7 @@ nowhere else.
 
 - id: d-2026-09-07-1
 - date: 2026-09-07
-- raised by: <what raised it; Brian's typing in quotation marks: "…">
+- raised by: <what raised it>
 - decision: <what was ruled>
 
   <a second paragraph of the same value, or sub-bullets indented the same way>

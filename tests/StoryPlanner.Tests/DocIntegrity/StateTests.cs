@@ -98,7 +98,6 @@ public class StateTests
         Assert.Contains("### analysis-corpus", state);
         Assert.Contains("1 open, 1 withdrawn.", state);
         var row = state.Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
-        Assert.Contains("| 031 |", row);
         Assert.Contains($"| docs/v3-framework/studies/{MapFixture.Study}/directions-1@", row);
         Assert.Contains($"| {MapFixture.Study} |", row);
         Assert.DoesNotContain("| an-old-one |", state);
@@ -127,8 +126,8 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
-        Assert.Contains($"| 031 | dt-classes | evidenced | false | analysis-corpus/{MapFixture.OpenQuestion} |", state);
-        Assert.Contains("| 032 | other | evidenced | false | — |", state);
+        Assert.Contains("| 031 | dt-classes | evidenced | false |\n", state);
+        Assert.Contains("| 032 | other | evidenced | false |\n", state);
     }
 
     [Fact]
@@ -164,13 +163,13 @@ public class StateTests
     }
 
     [Fact]
-    public void Question_entries_parse_their_withdrawal_and_hypotheses()
+    public void Question_entries_parse_their_withdrawal_and_reinstatement()
     {
-        var qs = StateBuilder.ParseQuestions("c", "### c/one\n- date: 2026-09-01\n- hypotheses: 031 050\n- raised by: x\n- question: y\n\n### c/two\n- date: 2026-09-02\n- hypotheses: 007\n- raised by: x\n- question: z\n- withdrawn: 2026-09-03 why\n");
-        Assert.Equal(2, qs.Count);
+        var qs = StateBuilder.ParseQuestions("c", "### c/one\n- date: 2026-09-01\n- raised by: x\n- question: y\n\n### c/two\n- date: 2026-09-02\n- raised by: x\n- question: z\n- withdrawn: 2026-09-03 why\n\n### c/three\n- date: 2026-09-04\n- raised by: x\n- question: w\n- withdrawn: 2026-09-05 why\n- reinstated: 2026-09-06 back\n");
+        Assert.Equal(3, qs.Count);
         Assert.True(qs[0].IsOpen);
         Assert.Equal("c/one", qs[0].Cite);
-        Assert.Equal([31, 50], qs[0].Hypotheses);
         Assert.False(qs[1].IsOpen);
+        Assert.True(qs[2].IsOpen);
     }
 }

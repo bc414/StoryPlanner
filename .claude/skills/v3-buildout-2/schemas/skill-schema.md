@@ -42,7 +42,7 @@ the development state of the process type, never the state of a run. `descriptio
 never empty.
 
 **Artifacts**, in SKILL.md: `id · path · mutation · schema · description`. `path` is one
-repo-relative pattern with placeholders in angle brackets, or `outside the repo`; never
+repo-relative pattern with placeholders in angle brackets, or `no single pattern`; never
 prose, never an alternative. `mutation` is one of `in-place · succeeded · append · frozen`;
 a `frozen` artifact that is not a series (`N` or `<date>` in its path) is never both read
 and written by one process. A section of a file carrying its own mutation is its own row,

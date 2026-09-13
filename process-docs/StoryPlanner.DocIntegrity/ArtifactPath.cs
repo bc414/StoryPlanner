@@ -5,7 +5,7 @@ namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// An artifact's <c>path</c> cell (schemas/skill-schema.md): one repo-relative pattern with
-/// placeholders in angle brackets, or <c>outside the repo</c>; never prose. Three artifacts
+/// placeholders in angle brackets, or <c>no single pattern</c>; never prose. Three artifacts
 /// may share a file and differ by section, so a pattern may carry <c>§ heading</c> or the word
 /// <c>frontmatter</c> after it.
 ///
@@ -20,9 +20,9 @@ namespace StoryPlanner.DocIntegrity;
 /// placeholder compiles to <c>[^/]+</c> like the named non-numeric ones, so a new one such as
 /// <c>&lt;container&gt;</c> matches a single path segment with no code change.
 /// </summary>
-public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmatter, bool OutsideRepo)
+public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmatter, bool NoSinglePattern)
 {
-    public const string OutsideRepoText = "outside the repo";
+    public const string NoSinglePatternText = "no single pattern";
     public const char SectionSign = '§';
     const string FrontmatterSuffix = " frontmatter";
 
@@ -34,7 +34,7 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
 
     /// <summary>Named by a study: its files live under the study's folder.</summary>
     public bool IsStudyScoped
-        => !OutsideRepo && (Pattern.Contains("<study>") || Pattern.Contains("<batch>"));
+        => !NoSinglePattern && (Pattern.Contains("<study>") || Pattern.Contains("<batch>"));
 
     /// <summary>
     /// A numbered or dated series: the pattern carries <c>N</c> or <c>&lt;date&gt;</c>, so each
@@ -44,10 +44,10 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     /// succeeded artifact is. <c>&lt;batch&gt;</c> is not a series marker: a batch-scoped frozen
     /// artifact read and written by one process is still edit-shaped.
     /// </summary>
-    public bool IsSeries => !OutsideRepo && SeriesPlaceholder.IsMatch(Pattern);
+    public bool IsSeries => !NoSinglePattern && SeriesPlaceholder.IsMatch(Pattern);
 
     /// <summary>A trailing slash names a directory; presence means it exists and holds a file.</summary>
-    public bool IsDirectory => !OutsideRepo && Pattern.EndsWith('/');
+    public bool IsDirectory => !NoSinglePattern && Pattern.EndsWith('/');
 
     public static bool TryParse(string cell, out ArtifactPath? path, out string? error)
     {
@@ -55,7 +55,7 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
         error = null;
         var text = cell.Trim();
         if (text.Length == 0) { error = "empty path"; return false; }
-        if (text == OutsideRepoText) { path = new ArtifactPath("", null, false, true); return true; }
+        if (text == NoSinglePatternText) { path = new ArtifactPath("", null, false, true); return true; }
 
         var pattern = text;
         string? heading = null;
@@ -86,7 +86,7 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
         if (pattern.Contains(' '))
         {
             error = $"'{pattern}' is not one pattern: it contains a space. A path cell states one " +
-                    $"repo-relative pattern, or '{OutsideRepoText}'";
+                    $"repo-relative pattern, or '{NoSinglePatternText}'";
             return false;
         }
         if (pattern.Contains('(') || pattern.Contains(')'))
@@ -176,7 +176,7 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
 
     public string Display()
     {
-        if (OutsideRepo) return OutsideRepoText;
+        if (NoSinglePattern) return NoSinglePatternText;
         var s = Pattern;
         if (Heading is not null) s += $" {SectionSign} {Heading}";
         if (Frontmatter) s += FrontmatterSuffix;

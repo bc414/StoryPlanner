@@ -4,7 +4,7 @@ Enables reviewing-leads.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| mint | hitl | git | hypothesis-index hypothesis-statement | hypothesis-statement hypothesis-origin hypothesis-index | built | A new hypothesis file on novelty, testability and independence against the current set; Brian words or approves the statement; the origin records why it exists and what raised it |
+| mint | hitl | | hypothesis-index hypothesis-statement | hypothesis-statement hypothesis-origin hypothesis-index | specified | A new hypothesis file on novelty, testability and independence against the current set; Brian words or approves the statement; the origin records why it exists and what raised it |
 
 ## Preconditions
 
@@ -32,12 +32,12 @@ verification's autonomous part the proposal is held for the review or the promot
 Independence is read against the current set's statements, which is all mint reads of the
 existing files: a proposal that refines one of them is an iteration and not a mint.
 
-Brian reviews the statement: rewrites it in his words, or approves. The session writes the
+Brian reviews the statement: rewrites it, or approves. The session writes the
 file with the next unused id: the statement alone under § Hypothesis, and under § Origin
 today's date and the reasoning — why the hypothesis exists, the observation, his assertion,
-the motivation, and what raised it, in Claude's voice with his assertions as the content.
+the motivation, and what raised it, in Claude's voice.
 The record is created empty, which is the state of an untested hypothesis. The index gains
-its row; one commit. For a merge or split, the reasoning names the files it came from.
+its row. For a merge or split, the reasoning names the files it came from.
 
 The trap this guards: a proposal in Claude's framing, nodded through, on which later
 sessions build. What guards it is rule 6, which puts Brian's wording or approval on every

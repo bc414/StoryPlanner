@@ -1,6 +1,6 @@
 ---
 name: v3-buildout-2
-description: "Methodology for the v3 narrative design framework buildout, revision 2 (in construction from 2026-09-04) — thirteen activities from baselining a hypothesis down to building a tool, each with its own companion file carrying its processes table and procedure; the strong-form evidence pipeline (candidates → referee → promotion) as activities; studies as folders of batches run through the agent runner under directions; the split of verification into preparing (itemize, author, calibrate with Brian) and verifications (autonomous); the constitutional rules including the artifact-mutation rule. Load before any framework buildout work. Not yet the live skill: the live one is v3-buildout until the router swap."
+description: "Methodology for the v3 narrative design framework buildout, revision 2 (in construction from 2026-09-04) — fourteen activities from baselining a hypothesis down to building a tool, each with its own companion file carrying its processes table and procedure; the strong-form evidence pipeline (candidates → referee → promotion) as activities; studies as folders of batches run through the agent runner under directions; the split of verification into preparing (itemize, author, calibrate with Brian) and verifications (autonomous); the constitutional rules including the artifact-mutation rule. Load before any framework buildout work. Not yet the live skill: the live one is v3-buildout until the router swap."
 ---
 
 # V3 framework buildout — revision 2 (in construction)
@@ -89,15 +89,36 @@ These hold in every session type. A companion file elaborates; none overrides.
    lead or evidence, Brian rewrites or approves the statement, provenance is recorded.
 7. **The story-content boundary.** The framework studies technique, architecture and
    methodology. Thematic content comparisons and what a subject "needs next" are two
-   examples of what lies outside it, not the whole list; redirect to the framework-relevant
-   question or say it is out of scope.
+   examples of what lies outside it, not the whole list. When a discussion turns to story
+   content, the session steers it to what that content asks of the framework, such as whether
+   the planner's tracks support it, or says it is out of scope.
 8. **Never derive from recall.** Brian's recall about his own practice is the hypothesis
    under test, not evidence for it; it goes to a question list as a question.
 9. **Every artifact declares its mutation, and honours it.** An artifact is edited in
    place, succeeded by a numbered replacement, appended to, or frozen, and its table row
-   says which. Appended and frozen artifacts are never edited. A file whose sections differ
-   names each section's mutation. Whatever can be derived from an artifact is never
+   says which. Appended and frozen artifacts are never edited, save that an entry a session
+   wrote may be corrected until it is relied on: conformed to its class without changing what
+   it records. An entry is relied on once something that cannot be corrected relies on it,
+   directly or through a chain, by a citation the checker resolves or by an entry placed after
+   it in a record: a succeeded version, a file the runner or an agent wrote, or an entry itself
+   relied on. Until then it is corrected together with whatever relies on it, in one write. A
+   file whose sections differ names each section's mutation. Whatever can be derived from an artifact is never
    authored beside it.
+10. **Brian's words are quoted where the method keeps its reasoning.** A field that records
+   deliberation or reasoning, meaning what raised something, why it exists, what was ruled or
+   declined, a judgment, or a suggestion, is composed by the session from the deliberation and
+   the records of Brian's typing it draws on. What he typed is his own prose wherever it is
+   recorded as his: the deliberation at hand, a user turn or `Typed:` line in a Claude Code
+   transcript read from `codesessions.db` (the `code-sessions` corpus), a Keep note, a user
+   block of a conversation in the `conversations` corpus or his navigation note on a block. Where the field uses it,
+   it is verbatim inside quotation marks, with his own quotation marks becoming single ones,
+   and cited to its source when it is not the deliberation at hand; the session's words and
+   framing sit outside them. A label he selected, a question put to him, session text he
+   approved, and text whose voice is not established as his, such as v1 archive and plan
+   notes, are never quoted as his. A field that states a fact or a neutral assertion, such as a finding, a hypothesis statement
+   or a question, is not written this way. Each schema's field description says which kind a
+   field is. Nothing already written must be rewritten to meet it; Brian may have it rewritten
+   to comply.
 
 ## Reading the tables
 
@@ -151,8 +172,8 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | id | enables | description |
 |---|---|---|
 | changing-the-planner-for-v3 | | Making the code changes for version 3 of the story planner from baselined hypotheses. The terminus: out of this skill's scope, owns no processes |
-| baselining-a-hypothesis | changing-the-planner-for-v3 | Brian's dated judgment, in his words in the record, that a hypothesis's evidence picture is sufficient to act on |
-| promoting-refereed-candidates | baselining-a-hypothesis | Brian deciding the pending diagnostic candidates he chooses, by hypothesis or by verification, each after its finding's items are read: promote a verbatim evidence entry to the record, or decline to declined-candidates.md; status recomputed; the candidates view regenerated; one commit |
+| baselining-a-hypothesis | changing-the-planner-for-v3 | Brian's dated judgment, in the record, that a hypothesis's evidence picture is sufficient to act on |
+| promoting-refereed-candidates | baselining-a-hypothesis | Brian deciding the pending diagnostic candidates he chooses, by hypothesis or by verification, each after its finding's items are read: promote a verbatim evidence entry to the record, or decline to declined-candidates.md; status recomputed; the candidates view regenerated |
 | iterating-a-statement | baselining-a-hypothesis | Brian's rewording of a challenged hypothesis on evidence: the proposed wording re-verified against every current-wording finding, and only if all come out diagnostic-supporting is the statement edited, an iteration entry written as the wording boundary, fresh evidence entries written, and status recomputed |
 | minting-a-hypothesis | reviewing-leads reviewing-findings | Creating a hypothesis file on novelty, testability and independence against the current set, in any hitl session, Brian rewriting or approving the statement, provenance in the created entry |
 | surfacing-candidates | promoting-refereed-candidates | The autonomous stretch from standing findings to refereed candidates: a claiming batch names, per finding, the hypotheses it bears on; a referee batch judges each claim blind, writing a falsifier and classifying it diagnostic supporting, diagnostic challenging or non-diagnostic; candidates.md is composed from the results as a generated view |
@@ -162,6 +183,7 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact, or two of one corpus: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the corpus's question list |
 | exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: one item that is the corpus whole, or one per slice, each a call through the runner under the study's directions; the results written as leads |
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the questions in view, the scale, the directions written and, for slices, piloted on one item |
+| asking-a-question | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | A question Brian raises about a corpus in a session no other activity's processes cover, written into that corpus's question list with what raised it; the one route for a question that arises outside the activities that write their own |
 | building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, itemizers, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
 | revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, two lints passing (the validator; for a rewrite, the supersession audit of the prior text as an audit study), a write-once revision note recording what changed and why |
 
@@ -207,7 +229,7 @@ by path, and the checker follows the path. Everything closed sits in
 | hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | [hypothesis-index-schema](schemas/hypothesis-index-schema.md) | Id and slug per hypothesis, id order |
 | question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions about one corpus |
 | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study, declared at Brian's go; the ids every study folder is named by |
-| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches and where it is; per corpus, open questions and whether calibrated directions cover them; per hypothesis, status and whether any open question names it |
+| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches and where it is; per corpus, open questions and whether calibrated directions cover them; per hypothesis, its status |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
 | decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
 | leads | docs/v3-framework/studies/<study>/leads.md | append | [leads-schema](schemas/leads-schema.md) | What one exploration observed, organised by what was seen |
@@ -227,7 +249,7 @@ by path, and the checker follows the path. Everything closed sits in
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
 | tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, itemizers, the runner; the validator lives under process-docs/ and is a free-name instrument, not an artifact |
-| corpus | outside the repo | in-place | | The corpora named in CORPORA.md, read through the MCP server, files or sqlite3 |
+| corpus | no single pattern | in-place | | The corpora named in CORPORA.md, where CORPORA.md says, read through the MCP server, files or sqlite3 |
 
 ## Companions that are not activities
 
@@ -272,7 +294,7 @@ the runner and is read in full by any process that invokes it.
 - **pilot**: an execution of a batch naming one item, whose result a person reads before
   the rest run; a one-item batch needs none.
 - **dry run**: the checks an execution would make, in memory, with nothing written.
-- **rule**: one of the nine constitutional rules above, cited by number.
+- **rule**: one of the ten constitutional rules above, cited by number.
 - **check**: one thing the tool holds, named by its id in a schema's Checks section; the
   verb `check` runs every check that applies to a path.
 - **criterion**: a rule in a directions body that decides an item between classes; what a
@@ -281,6 +303,9 @@ the runner and is read in full by any process that invokes it.
   `schemas/skill-schema.md` is this folder's own.
 - **governed file**: a file of an artifact class that has a schema, matched by its path or
   reached by a declared reference; what a checker holds to that schema.
+- **slug**: a machine identifier that reads in a sentence, lowercase `[a-z0-9-]+`, created by
+  the session with what it names and never changed; each class's schema says where it is
+  unique.
 - **lead**: what was seen and what it was seen in, in words; the output of exploration;
   an idea for a question and for what to itemize; never a claim, never checked at an
   address.

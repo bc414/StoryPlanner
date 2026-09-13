@@ -11,8 +11,7 @@ Enables exploring-a-corpus.
 
 ## Preconditions
 
-The corpus is readable and CORPORA.md says how, or the corpus is the verified artifacts
-of verifications already promoted. If its question list is empty, Brian's opening question
+The corpus is readable and CORPORA.md says how. If its question list is empty, Brian's opening question
 is asked for and written first.
 
 ## explore-plan

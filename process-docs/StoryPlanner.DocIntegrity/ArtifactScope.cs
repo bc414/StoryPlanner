@@ -50,7 +50,7 @@ public static class ArtifactScope
 
     /// <summary>
     /// Every class with a checker that every governed skill folder under the root declares, in
-    /// folder then table order. A row whose path is outside the repo, a directory, or
+    /// folder then table order. A row whose path is no single pattern, a directory, or
     /// unparseable declares nothing here.
     /// </summary>
     public static IEnumerable<CheckedClass> CheckedClasses(string repoRoot)
@@ -66,7 +66,7 @@ public static class ArtifactScope
             {
                 var checker = SchemaCheckers.For(row.Id);
                 if (checker is null) continue;
-                if (!ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.OutsideRepo || ap.IsDirectory) continue;
+                if (!ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.NoSinglePattern || ap.IsDirectory) continue;
 
                 var pattern = ap.Pattern;
                 if (pattern.StartsWith(SkillsPrefix, StringComparison.Ordinal))

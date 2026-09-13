@@ -25,17 +25,23 @@ indented two spaces:
 | key | present | type | value |
 |---|---|---|---|
 | `date` | required | date | the day Brian asked; never earlier than the entry before it |
-| `hypotheses` | optional | list of id of hypothesis-file | the hypotheses the question's answers bear on; the one authored edge from a corpus's questions to them |
-| `raised by` | required | block | the occasion and what raised it, the citation as one token, `<study>/<slug>` for a lead, a proposal or a candidate, `recall`, or `carried from the founding pool` |
-| `question` | required | block | the question, in Brian's words |
-| `suggested test` | optional | block | a naive note on how the question might be tested, for the author of the directions to take or leave; never a criterion |
+| `raised by` | required | block | why the question exists: the occasion and what raised it, and Brian's beliefs, recollections and motivation behind it; what raised it cited by its own token where it has one, as a trail a later session can follow when asked, `recall` where his recall raised it, `carried from the founding pool` for a pool question; under rule 10 |
+| `question` | required | block | a neutral assertion of what is asked |
+| `suggested test` | optional | block | a naive note on how the question might be tested, procedure that holds whatever the answer and never a belief about it, for the author of the directions to take or leave; never a criterion; under rule 10 |
 
-An appended line, `- withdrawn: <date> <reason>`, a date then a line, at most once per
-entry, written beneath the fields by the hitl process that withdraws the question.
+Appended lines, `- withdrawn: <date> <reason>` and `- reinstated: <date> <reason>`, each a
+date then a reason under rule 10, beneath the fields, alternating and starting with
+withdrawn: a withdrawn question Brian wants back is reinstated under its own slug, and a
+different iteration of it is a new entry. They are written by the hitl process in which
+Brian withdraws or reinstates the question.
 
-An entry is cited everywhere as `<corpus>/<slug>`, one token, its heading. Open is an entry with no
-withdrawn line; frozen and answered are derived by the tool from a directions version's and
-a verification's citations of the id; none of the three is written. Every writer is an hitl
+Before any entry is added, the session reads the list and puts in front of Brian every
+withdrawn entry that bears on the question, with its reasons, so that he reinstates it,
+writes a new entry, or lets it rest.
+
+An entry is cited everywhere as `<corpus>/<slug>`, one token, its heading. Open is an entry
+with no withdrawn line, or whose last withdrawn line is followed by a reinstated line; frozen
+and answered are derived by the tool from a directions version's and a verification's citations of the id; none of the three is written. Every writer is an hitl
 process, since a question is Brian's, and the class is append: no line is ever edited.
 
 ## Example
@@ -46,17 +52,24 @@ process, since a question is Brian's, and the class is append: no line is ever e
 ### own-fiction/heavy-dt-two-classes
 
 - date: 2026-09-07
-- hypotheses: 031 032
 - raised by: review of exploration-of-own-fiction, from exploration-of-own-fiction/dt-carries-concealment
-- question: <the question, in Brian's words>
+- question: <the question>
 - suggested test: <a naive note on how it might be tested>
 
 ### own-fiction/narrator-register-outside-giyc
 
 - date: 2026-09-08
 - raised by: recall, in the verify-plan for verification-of-own-fiction-narrator-register
-- question: <the question, in Brian's words>
+- question: <the question>
 - withdrawn: 2026-09-09 <why>
+
+### own-fiction/letters-mark-subplot-transitions
+
+- date: 2026-09-10
+- raised by: recall, at the review of exploration-of-own-fiction
+- question: <the question>
+- withdrawn: 2026-09-11 <why>
+- reinstated: 2026-09-18 <why>
 ```
 
 ## Queries
@@ -64,10 +77,10 @@ process, since a question is Brian's, and the class is append: no line is ever e
 | question | how |
 |---|---|
 | every question of a corpus, in order | `grep -n '^### ' questions/<corpus>.md` |
-| the open questions | the entries with no `- withdrawn:` line beneath them, or state.md per corpus |
-| the questions bearing on hypothesis NNN | `grep -n '^- hypotheses:.*\bNNN\b' questions/*.md` |
+| the open questions | the entries with no `- withdrawn:` line, or whose last withdrawn line is followed by `- reinstated:`; or state.md per corpus |
+| the withdrawn questions and why | `grep -n -B6 '^- withdrawn:' questions/<corpus>.md` |
 | one question's definition and every use, in one list | `grep -rn '<corpus>/<slug>' docs/v3-framework .claude/skills`; the `### ` hit is the entry, the rest are where it is in view, frozen or answered |
-| what raised a question | its `raised by` line; the token in it is the lead, proposal or candidate |
+| what raised a question | its `raised by` line, and any token cited in it |
 | whether calibrated directions cover a question | state.md, derived from the directions' frontmatter |
 
 ## Checks
@@ -78,5 +91,4 @@ process, since a question is Brian's, and the class is append: no line is ever e
 | `question.slug` | a heading is not `<corpus>/<slug>` with the corpus the file is named for and a lowercase slug, or repeats a slug in the list |
 | `question.entry.fields` | a key is missing, unknown or out of order; a line in an entry is neither keyed nor continuation; a line sits outside every entry |
 | `question.entry.date` | a date is not `YYYY-MM-DD`, or is earlier than the entry before it |
-| `question.hypotheses` | an id is not `NNN`, or names no hypothesis file |
-| `question.withdrawn` | a withdrawn line is not a date then text, sits before the fields, or appears twice |
+| `question.withdrawn` | a withdrawn or reinstated line is not a date then text, sits before the fields or before a keyed line, or the two do not alternate starting with withdrawn |

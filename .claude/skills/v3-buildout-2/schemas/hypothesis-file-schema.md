@@ -1,7 +1,7 @@
 # hypothesis-file-schema
 
 `docs/v3-framework/hypotheses/NNN-slug.md` — `NNN` a zero-padded three-digit id, stable,
-unique across the set, never reused; `slug` descriptive kebab-case. One file holds three
+unique across the set, never reused; `slug` a descriptive slug. One file holds three
 artifacts under three write disciplines, which is why the Artifacts table carries three rows
 over it. The shape below is what the hook holds; the example is a conforming file whose first
 fenced block the checker's tests read as their fixture; then how a hypothesis is queried, and
@@ -46,7 +46,7 @@ in one is two things, and the question belongs in the corpus's question list.
 | key | present | type | value |
 |---|---|---|---|
 | `date` | required | date | the day the hypothesis was captured |
-| `reasoning` | required | block | why the hypothesis exists: the observation, Brian's assertion, the motivation, and what raised it; in Claude's voice with Brian's assertions as the content |
+| `reasoning` | required | block | why the hypothesis exists: the observation, Brian's assertion, the motivation, and what raised it; in Claude's voice; under rule 10 |
 
 **What `reasoning` may not hold.** It explains why the hypothesis exists and never extends what
 it asserts, so: no claim the statement does not carry; no corpus reading stated as established
@@ -68,12 +68,12 @@ is the record's own: an iteration entry is a boundary read by position, and noth
 |---|---|---|---|
 | `date` | required | date | the day the entry was written |
 | `candidate` | optional | token of findings | evidence only: the promoted candidate, `<study>/<finding-slug>`, naming the study whose findings file holds the finding, for an iteration-sourced entry as for any other |
-| `tag` | optional | enum: `supporting`, `challenging` | evidence only: which side of the falsifier the finding fell on, as promotion recorded it; there is no third tag |
+| `tag` | optional | enum: `supporting`, `challenging` | evidence only: which side of the falsifier the finding fell on, as the referee's verdict classified it; there is no third tag |
 | `finding` | optional | block | evidence only: the finding, verbatim and frozen at promotion, so a later supersession of it cannot alter what was promoted |
 | `falsifier` | optional | block | evidence only: what the finding would have been were the statement false, verbatim from the referee |
 | `from` | optional | block | iteration only: the wording that stood before this entry; the wording after it is the next iteration's `from`, or the statement |
-| `reason` | optional | block | iteration only: Brian's reason for the reword |
-| `rationale` | optional | block | baselined only: Brian's judgment, in his words |
+| `reason` | optional | block | iteration only: Brian's reason for the reword; under rule 10 |
+| `rationale` | optional | block | baselined only: Brian's judgment; under rule 10 |
 
 Which kind requires which of the optional fields is the class's own rule, in Checks, the
 grammar admitting one field table per entries section and only `required` or `optional`.

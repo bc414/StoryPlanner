@@ -4,7 +4,7 @@ Enables changing-the-planner-for-v3.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| baseline | hitl | git | hypothesis-statement hypothesis-origin hypothesis-record | hypothesis-record question-list | built | Brian judges the evidence picture sufficient to act on; the session writes his entry in his words |
+| baseline | hitl | | hypothesis-statement hypothesis-origin hypothesis-record | hypothesis-record question-list | specified | Brian judges the evidence picture sufficient to act on; the session writes his entry |
 
 ## Preconditions
 
@@ -21,7 +21,7 @@ candidate, it says so in the words "verified support, no open challenge — revi
 baselining" and waits.
 
 Brian decides. If he baselines, the session appends the `baselined` entry with his
-rationale in his words; the status the file reads from is recomputed by nothing, being
+rationale; the status the file reads from is recomputed by nothing, being
 derived from the entries. If he does not, nothing is written to the hypothesis; a reason
 he gives that is a question about a corpus is written into that corpus's question list,
 with the hypothesis that raised it.
@@ -29,4 +29,4 @@ with the hypothesis that raised it.
 ## Never
 
 Writes the entry without Brian's explicit direction; baselines against an empty
-current-wording record or an open challenge; paraphrases his rationale.
+current-wording record or an open challenge.

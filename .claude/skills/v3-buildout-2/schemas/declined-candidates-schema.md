@@ -24,7 +24,7 @@ value continuing on lines indented two spaces:
 | key | present | type | value |
 |---|---|---|---|
 | `date` | required | date | the day Brian declined; never earlier than the entry before it |
-| `reason` | required | block | Brian's reason for declining, in his words |
+| `reason` | required | block | Brian's reason for declining; under rule 10 |
 
 A declined candidate is terminal: there is no withdrawal or supersession here. A candidate is
 promoted (its evidence in the hypothesis record), declined (here), or still pending (in
@@ -39,7 +39,7 @@ generated `candidates.md` reads this file for a candidate's declined status and 
 ### unplaced-notes-are-paratext → 031-dt-knowledge-asymmetry
 
 - date: 2026-09-22
-- reason: <Brian's reason for declining, in his words>
+- reason: <Brian's reason for declining>
 
 ### event-notes-cluster-early → 029-perception-gap-delivery
 

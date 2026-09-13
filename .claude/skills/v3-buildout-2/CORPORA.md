@@ -88,6 +88,19 @@ and the `storyplan-data` skill.
 A block summary is Brian's own navigation note, never a machine's; conversations 020 and
 039 are not in the database (CLAUDE.md).
 
+## verified-findings
+
+- what: the standing findings of every verification, each finding entry one item, standing as of the itemizer's run
+- where: `docs/v3-framework/studies/<study>/findings.md`, each finding located by its `<study>/<slug>` heading
+- read by: files; the claim command of `tools/StoryPlanner.SurfacingItemizer` cuts one study's `findings.md` into one item per standing finding
+
+Explored only, never verified: a verification of it would write findings about findings,
+and claiming could promote one beside the finding it is about, counting the same evidence
+twice; an exploration writes leads, which never become evidence. Findings of different
+verifications rest on different items under different directions, so a pattern read across
+them is a lead and never a joined claim. A finding withdrawn after the itemizer's run is
+caught at the lead review, against its source, like any lead.
+
 ## code-sessions
 
 - what: the sealed archive of Claude Code transcripts from the projects on the ingest's include-list

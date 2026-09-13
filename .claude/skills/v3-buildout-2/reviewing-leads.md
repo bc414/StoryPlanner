@@ -4,15 +4,13 @@ Enables preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| review-leads | hitl | git | leads corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads artifact, or two of one corpus: leads disputed at the source and corrected, the differences between explorations read as leads about the readers, and the questions Brian raises written into the corpus's list |
-| ask | hitl | git | hypothesis-index hypothesis-statement question-list | question-list | built | Ad hoc: a question Brian raises in conversation about the framework, written into a corpus's list |
+| review-leads | hitl | | leads corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads artifact, or two of one corpus: leads disputed at the source and corrected, the differences between explorations read as leads about the readers, and the questions Brian raises written into the corpus's list |
 
 ## Preconditions
 
-For `review-leads`: a leads artifact whose `## Corrections` section is empty and whose
-proposed questions have not been written to any list; where the corpus was explored again
-under another model or another reading, both artifacts. For `ask`: nothing; it is any hitl
-session in which Brian asks a question about a corpus.
+A leads artifact whose `## Corrections` section is empty and whose proposed questions have
+not been written to any list; where the corpus was explored again under another model or
+another reading, both artifacts.
 
 ## review-leads
 
@@ -28,18 +26,11 @@ showed. The lead itself is not edited.
 Brian raises questions: from the artifact's `## Proposed questions`, from the differences,
 from his own recall, which enters only as a question with its provenance ("Brian's recall,
 <date>: does the v1 archive show X?"). The session writes each into the corpus's question
-list in his words, with what raised it, the hypotheses it concerns and a suggested test
-where one suggests itself. A lead that shows a different hypothesis is needed is
-handed to minting-a-hypothesis in the same session. One commit.
-
-## ask
-
-Brian asks; the session writes the entry into the named corpus's list in his words, with
-what raised it, the hypotheses it concerns, and a suggested test if one suggests itself.
-One commit.
+list with what raised it and a suggested test where one suggests itself. A lead that shows a
+different hypothesis is needed is handed to minting-a-hypothesis in the same session.
 
 ## Never
 
 Edits a lead; writes a candidate or evidence; rewords a hypothesis; writes a question Brian
-did not ask; enters recall as anything but a question; counts disagreements between lead
+did not raise; enters recall as anything but a question; counts disagreements between lead
 sets.

@@ -14,7 +14,7 @@ The hypothesis is `challenged` — a challenging evidence entry bound to the cur
 unresolved — or a merge or split requires the reword. Iteration never rewords a hypothesis that
 is evidenced and unchallenged; a sharper claim on supporting evidence is a new hypothesis
 (minting-a-hypothesis). Brian proposes the new wording in session, or approves the session's
-draft of it in his words; the wording is a proposal, held for the reverify batch and written
+draft of it; the wording is a proposal, held for the reverify batch and written
 nowhere until the gate passes, because the meaning is changing to reconcile the challenge and
 only a re-verification against all the evidence licenses it. For the batch: the method's referee
 directions, in the referee folder, have an accepting calibration at their hash.

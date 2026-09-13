@@ -26,7 +26,7 @@ until his were complete; the agent's from the batch's results>
 <per class, on the ruled items and on the held-out items separately; the model that scored>
 
 ## Rulings
-<one per disagreement: the item, both verdicts, Brian's ruling, and the criterion it
+<one per disagreement: the item, both verdicts, Brian's ruling under rule 10, and the criterion it
 produced or changed, if any — each such edit is what makes the next version>
 
 ## Verdict

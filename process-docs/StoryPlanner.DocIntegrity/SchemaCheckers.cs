@@ -198,12 +198,11 @@ public static class HypothesisIndex
 /// <summary>
 /// schemas/study-registry-schema.md: id · type · corpus · go, appended at Brian's go; the id
 /// <c>&lt;type&gt;-of-&lt;corpus&gt;-&lt;slug&gt;</c>, its type the one the prefix names
-/// (verification, exploration, audit), its corpus a name from the corpora file,
-/// verified-artifacts, or skill for an audit (d-2026-09-08-2, d-2026-09-09-12).
+/// (verification, exploration, audit), its corpus a name from the corpora file, or skill for
+/// an audit (d-2026-09-08-2, d-2026-09-09-12).
 /// </summary>
 public static class Registry
 {
-    public const string VerifiedArtifacts = "verified-artifacts";
     public const string Skill = "skill";
     public static readonly string[] Types = ["verification", "exploration", "audit"];
 
@@ -219,7 +218,7 @@ public static class Registry
         var table = tables.FirstOrDefault(t => t.Headers.Select(h => h.ToLowerInvariant()).SequenceEqual(["id", "type", "corpus", "go"]));
         if (table is null) return [Finding.Fail("registry.table", file, "no table with columns id | type | corpus | go")];
 
-        var known = new HashSet<string>(ctx.CorporaIds, StringComparer.Ordinal) { VerifiedArtifacts };
+        var known = new HashSet<string>(ctx.CorporaIds, StringComparer.Ordinal);
         if (ctx.CorporaIds.Count == 0)
             findings.Add(Finding.Info("registry.corpora-unavailable", file,
                 "no corpus ids could be read from the skill folder; corpus names are not checked"));
@@ -278,7 +277,7 @@ public static class Registry
     /// <summary>The corpus an id's remainder names: the longest known id, with a slug after it where required.</summary>
     static string? CorpusOf(string remainder, HashSet<string> known, bool slugRequired)
     {
-        if (known.Count == 0) return remainder; // unchecked: reported as information elsewhere
+        if (known.Count == 0) return null; // unchecked: reported as information elsewhere
         var candidates = known.Where(c => remainder == c || remainder.StartsWith(c + "-", StringComparison.Ordinal)).OrderByDescending(c => c.Length).ToList();
         if (candidates.Count == 0) return null;
         var corpus = candidates[0];
@@ -512,19 +511,23 @@ public static class Decisions
 }
 
 /// <summary>
-/// schemas/question-entry-schema.md on the engine: the entries and their typed fields, the
-/// hypotheses ids resolved by the engine; the class's own rules are the title with the file's
-/// own corpus, the heading as the citation token with a slug unique in the list, dates that
-/// never go backwards, and the appended withdrawn line, at most once, beneath the fields.
+/// schemas/question-entry-schema.md on the engine: the entries and their typed fields; the
+/// class's own rules are the title with the file's own corpus, the heading as the citation
+/// token with a slug unique in the list, dates that never go backwards, and the appended
+/// withdrawn and reinstated lines beneath the fields, alternating and starting with withdrawn.
 /// </summary>
 public static class Questions
 {
     public const string SchemaId = "question-entry-schema";
-    public static readonly string[] Keys = ["date", "hypotheses", "raised by", "question", "suggested test"];
-    static readonly Regex WithdrawnLine = new(@"^- withdrawn: (?<date>\d{4}-\d{2}-\d{2}) (?<reason>\S.*)$", RegexOptions.Compiled);
+    public static readonly string[] Keys = ["date", "raised by", "question", "suggested test"];
+    static readonly string[] AppendedKinds = ["withdrawn", "reinstated"];
+    static readonly Regex AppendedLine = new(@"^- (?<kind>withdrawn|reinstated): (?<date>\d{4}-\d{2}-\d{2}) (?<reason>\S.*)$", RegexOptions.Compiled);
 
-    /// <summary>One entry as read; Date is empty when the date line was not exact.</summary>
-    public sealed record Entry(string Slug, int Line, string Date, IReadOnlyList<string> Hypotheses, bool Withdrawn);
+    /// <summary>One entry as read; Date is empty when the date line was not exact; Withdrawn when its last appended line is a withdrawal.</summary>
+    public sealed record Entry(string Slug, int Line, string Date, bool Withdrawn);
+
+    static string? AppendedKindOf(string line)
+        => AppendedKinds.FirstOrDefault(k => line.StartsWith($"- {k}:", StringComparison.Ordinal));
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path) => Read(ctx, path).Findings;
 
@@ -540,9 +543,8 @@ public static class Questions
         if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return (entries, findings); }
         foreach (var p in engine.Problems)
         {
-            if (p.Key == "withdrawn") continue; // the appended line, held below
+            if (p.Key is "withdrawn" or "reinstated") continue; // the appended lines, held below
             var id = p.Key == "date" && p.Kind is ProblemKind.Form or ProblemKind.Type ? "question.entry.date"
-                : p.Key == "hypotheses" && p.Kind is ProblemKind.Form or ProblemKind.Type or ProblemKind.Reference ? "question.hypotheses"
                 : "question.entry.fields";
             findings.Add(Finding.Fail(id, file, p.Message));
         }
@@ -554,31 +556,32 @@ public static class Questions
             findings.Add(Finding.Info("question.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is not checked"));
         else if (!ctx.CorporaIds.Contains(corpus))
             findings.Add(Finding.Fail("question.title", file, $"'{corpus}' is not a corpus id in CORPORA.md"));
-        if (References.FilesOf(WellKnown.HypothesisRecord, ctx) is null)
-            findings.Add(Finding.Info("question.hypotheses-unavailable", file, "no hypothesis class could be located from the artifacts table; hypothesis ids are not checked"));
 
-        // ---- the withdrawn lines, by position in the file ----
+        // ---- the withdrawn and reinstated lines, by position in the file ----
         var lines = SchemaCheckers.Lines(path);
-        var withdrawnOf = new Dictionary<int, int>(); // entry heading line → count
+        var lastKindOf = new Dictionary<int, string>(); // entry heading line → its last appended kind
         var positions = doc.Entries.Where(e => e.Section == "body").ToList();
         for (var i = 0; i < lines.Length; i++)
         {
-            if (!lines[i].StartsWith("- withdrawn:", StringComparison.Ordinal)) continue;
+            var kind = AppendedKindOf(lines[i]);
+            if (kind is null) continue;
             var owner = positions.LastOrDefault(e => e.Line < i + 1);
-            if (!WithdrawnLine.IsMatch(lines[i]))
-                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a withdrawn line is '- withdrawn: YYYY-MM-DD <reason>'"));
+            if (!AppendedLine.IsMatch(lines[i]))
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a {kind} line is '- {kind}: YYYY-MM-DD <reason>'"));
             if (owner is null) continue;
             var fieldsAfter = lines.Skip(i + 1).TakeWhile(l => !l.StartsWith("### ", StringComparison.Ordinal))
-                .Any(l => StoryPlanner.BatchFiles.KeyedLines.IsKeyedLine(l) && !l.StartsWith("- withdrawn:", StringComparison.Ordinal));
+                .Any(l => StoryPlanner.BatchFiles.KeyedLines.IsKeyedLine(l) && AppendedKindOf(l) is null);
             var fieldsBefore = owner.FieldLines.Values.Any(l => l < i + 1);
             if (!fieldsBefore)
-                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: withdrawn sits beneath the fields, never before them"));
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: {kind} sits beneath the fields, never before them"));
             else if (fieldsAfter)
-                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a keyed line after withdrawn; withdrawn is the last line of an entry"));
-            withdrawnOf[owner.Line] = withdrawnOf.GetValueOrDefault(owner.Line) + 1;
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: a keyed line after {kind}; the appended lines close an entry"));
+            var previous = lastKindOf.GetValueOrDefault(owner.Line);
+            var expected = previous == "withdrawn" ? "reinstated" : "withdrawn";
+            if (kind != expected)
+                findings.Add(Finding.Fail("question.withdrawn", file, $"line {i + 1}: {kind} follows {previous ?? "the fields"}; withdrawn and reinstated alternate, starting with withdrawn"));
+            lastKindOf[owner.Line] = kind;
         }
-        foreach (var (line, count) in withdrawnOf.Where(kv => kv.Value > 1))
-            findings.Add(Finding.Fail("question.withdrawn", file, $"line {line}: withdrawn appears twice; a question is withdrawn once"));
 
         // ---- headings and dates ----
         var slugs = new HashSet<string>(StringComparer.Ordinal);
@@ -615,8 +618,7 @@ public static class Questions
                     dateValue = date;
                 }
             }
-            var ids = obj["hypotheses"] is JsonArray h ? h.Select(x => x!.GetValue<string>()).ToList() : [];
-            entries.Add(new Entry(slug, line, dateValue, ids, withdrawnOf.ContainsKey(line)));
+            entries.Add(new Entry(slug, line, dateValue, lastKindOf.GetValueOrDefault(line) == "withdrawn"));
         }
         return (entries, findings.DistinctBy(f => (f.CheckId, f.Message)).ToList());
     }

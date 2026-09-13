@@ -22,8 +22,7 @@ carries one only when the corpus is explored again under a different reading; an
 preparing-to-explore-a-corpus, exploring-a-corpus and reviewing-leads; verification runs
 preparing-to-verify-a-corpus, verifying-a-corpus, reviewing-findings,
 surfacing-candidates and promoting-refereed-candidates; audit runs revising-the-method.
-`corpus` is a name from `CORPORA.md`, `verified-artifacts` for a study over the buildout's
-own outputs, or `skill` for an audit. The referee is no study: its directions and
+`corpus` is a name from `CORPORA.md`, or `skill` for an audit. The referee is no study: its directions and
 calibrations sit in `docs/v3-framework/referee/` and its batches under the verifications
 they judge. Nothing else is authored here: where a study stands is derived by the tool
 from its artifacts into `state.md`, and a tool a study needs is built as its first task.

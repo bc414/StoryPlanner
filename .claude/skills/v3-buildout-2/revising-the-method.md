@@ -4,7 +4,7 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| revise | hitl | DocIntegrity git | skill runner-skill map state revision-note decisions results tally | skill runner-skill decisions revision-note map studies directions | built | Brian decides, the session edits the skill's tables and prose in place under the hook, each decision is written as it lands; for a rewrite the audit study is registered and its directions authored here, its tally adjudicated with him; the note is written once at the end |
+| revise | hitl | DocIntegrity git | skill runner-skill map state revision-note decisions results tally | skill runner-skill decisions revision-note map studies directions | built | Brian decides, the session edits the skill's tables and prose in place under the hook, and the unit's decision entries are written together at its end for him to scan; for a rewrite the audit study is registered and its directions authored here, its tally adjudicated with him; the note is written once at the end |
 | assemble-audit-batch | session | runner tool-source | skill directions results | definition index items calls tally | specified | The second lint, after the validator, for a rewrite: the prior text cut into units by the Markdown itemizer into a batch of the audit study, its definition written; dry-run-batch; execute-batch as the hand-off, one call per unit against the new folder, the tally written by the host at completion |
 | assess-audit-items | agent | | directions items | results | specified | One unit against the new folder under the directions' three questions, the answer in the declared fields; the only writer of results |
 
@@ -56,8 +56,9 @@ For each decision the session states the frame before any option:
 
 Then the options, each with what it costs and buys, the session's recommendation marked
 as its own and listed first; one decision at a time, never one bundle for sign-off.
-Brian decides; each decision is written to `decisions.md` as it lands. The session
-applies each decision as a row edit and a prose edit together,
+Brian decides. The unit's decision entries are drafted together at its end, in the order the
+decisions were settled, and written to `decisions.md` for him to scan: he approves the
+ruling, never the drafted sentence. The session applies each decision as a row edit and a prose edit together,
 in the activity file, a schema file or this router, never one without the other; a
 ruling about how calls are run lands in the `agent-runner` skill the same way; a
 schema change (a column, a closed set, a check) is a change to
@@ -67,7 +68,10 @@ session greps `decisions.md` for the id, and a check that no decision names and 
 founding record does not describe is unbacked: it gets a decision or is dropped. The first
 file written under a new or changed schema, and the first run of a new or changed
 procedure, is presented to Brian against its declaration before a second is made; a
-discrepancy is a decision not yet made, never a fix to the instance.
+discrepancy is a decision not yet made, never a fix to the instance. At that first run, where
+a process moves from `specified` to `built`, a process that writes a field recording Brian's
+words has it decided whether its entry is shown to him in the chat before it is written, and
+its procedure carries the instruction when it is.
 
 A schema review is a unit of revision: it opens with its decision list and each decision
 is framed as above. The schema is written to the shape of schema files in
@@ -165,7 +169,7 @@ declared fields, which the runner renders as the unit's result.
   id has landed, unless the closed founding record describes it in words.
 - Exempts one file from its class's check by its name, path or date instead of fixing the
   file to the class or changing the class by a decision; a fix to a file that is wrong
-  under a right class is always allowed.
+  under a right class is allowed within rule 9.
 - Writes a one-time instruction into an activity file or a schema; a triage, a migration
   or any other bootstrap is executed from the decision that names it, through the process
   the decision names, and the activity file says only what that process always does.

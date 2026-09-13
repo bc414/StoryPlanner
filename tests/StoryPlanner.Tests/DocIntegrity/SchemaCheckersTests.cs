@@ -163,7 +163,7 @@ public class SchemaCheckersTests : IDisposable
 
     [Theory]
     [InlineData("| exploration-of-v1-archive-second-reading | exploration | v1-archive | 2026-09-21 |", new string[0])]
-    [InlineData("| exploration-of-verified-artifacts | exploration | verified-artifacts | 2026-09-21 |", new string[0])]
+    [InlineData("| exploration-of-verified-artifacts | exploration | verified-artifacts | 2026-09-21 |", new[] { "registry.corpus" })]
     [InlineData("| verification-of-v1-archive-links | verification | v1-archive | 2026-09-21 |", new string[0])]
     [InlineData("| audit-of-revision-4 | audit | skill | 2026-09-21 |", new string[0])]
     [InlineData("| exploration-of-nowhere | exploration | nowhere | 2026-09-21 |", new[] { "registry.corpus" })]
@@ -340,7 +340,7 @@ public class SchemaCheckersTests : IDisposable
 
     // ---- questions ----
 
-    /// <summary>A repo with the artifacts table and two hypothesis files, so hypothesis ids resolve; the list at its class's path.</summary>
+    /// <summary>A repo with the artifacts table; the list at its class's path.</summary>
     static (MapFixture Fixture, CheckContext Ctx, string Path) QuestionList(string text)
     {
         var f = new MapFixture().WithStateTree();
@@ -359,10 +359,10 @@ public class SchemaCheckersTests : IDisposable
         {
             var (entries, findings) = Questions.Read(ctx, path);
             Assert.Empty(Rules(findings));
-            Assert.Equal(["heavy-dt-two-classes", "narrator-register-outside-giyc"], entries.Select(e => e.Slug).ToArray());
-            Assert.Equal(["031", "032"], entries[0].Hypotheses.ToArray());
+            Assert.Equal(["heavy-dt-two-classes", "narrator-register-outside-giyc", "letters-mark-subplot-transitions"], entries.Select(e => e.Slug).ToArray());
             Assert.False(entries[0].Withdrawn);
             Assert.True(entries[1].Withdrawn);
+            Assert.False(entries[2].Withdrawn);
             Assert.NotNull(SchemaCheckers.For(WellKnown.QuestionList));
             Assert.Contains(WellKnown.QuestionList, SchemaCheckers.CheckedIds);
         }
@@ -374,18 +374,21 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("### own-fiction/narrator-register-outside-giyc\n", "### own-fiction/heavy-dt-two-classes\n", "question.slug")]
     [InlineData("### own-fiction/heavy-dt-two-classes\n", "### heavy-dt-two-classes\n", "question.slug")]
     [InlineData("### own-fiction/heavy-dt-two-classes\n", "### analysis-corpus/heavy-dt-two-classes\n", "question.slug")]
-    [InlineData("- question: <the question, in Brian's words>\n- suggested test", "- suggested test", "question.entry.fields")]
+    [InlineData("- question: <the question>\n- suggested test", "- suggested test", "question.entry.fields")]
     [InlineData("- raised by: recall", "- asked-by: recall", "question.entry.fields")]
-    [InlineData("- date: 2026-09-07\n- hypotheses: 031 032\n", "- hypotheses: 031 032\n- date: 2026-09-07\n", "question.entry.fields")]
+    [InlineData("- date: 2026-09-08\n- raised by: recall, in the verify-plan for verification-of-own-fiction-narrator-register\n", "- raised by: recall, in the verify-plan for verification-of-own-fiction-narrator-register\n- date: 2026-09-08\n", "question.entry.fields")]
+    [InlineData("- date: 2026-09-07\n", "- date: 2026-09-07\n- hypotheses: 031 032\n", "question.entry.fields")]
     [InlineData("- suggested test: <a naive note on how it might be tested>\n", "- suggested test: <a naive note on how it might be tested>\nA bare line.\n", "question.entry.fields")]
     [InlineData("# own-fiction — questions\n", "# own-fiction — questions\n\nA head paragraph.\n", "question.entry.fields")]
     [InlineData("- date: 2026-09-08\n", "- date: 2026-9-8\n", "question.entry.date")]
     [InlineData("- date: 2026-09-08\n", "- date: 2026-09-06\n", "question.entry.date")]
-    [InlineData("- hypotheses: 031 032\n", "- hypotheses: 031, 032\n", "question.hypotheses")]
-    [InlineData("- hypotheses: 031 032\n", "- hypotheses: 031 099\n", "question.hypotheses")]
     [InlineData("- withdrawn: 2026-09-09 <why>\n", "- withdrawn: <why>\n", "question.withdrawn")]
     [InlineData("- withdrawn: 2026-09-09 <why>\n", "- withdrawn: 2026-09-09 <why>\n- withdrawn: 2026-09-10 <again>\n", "question.withdrawn")]
     [InlineData("- date: 2026-09-08\n", "- withdrawn: 2026-09-09 <early>\n- date: 2026-09-08\n", "question.withdrawn")]
+    [InlineData("- withdrawn: 2026-09-11 <why>\n- reinstated: 2026-09-18 <why>\n", "- reinstated: 2026-09-18 <why>\n", "question.withdrawn")]
+    [InlineData("- reinstated: 2026-09-18 <why>\n", "- reinstated: <why>\n", "question.withdrawn")]
+    [InlineData("- reinstated: 2026-09-18 <why>\n", "- reinstated: 2026-09-18 <why>\n- reinstated: 2026-09-19 <again>\n", "question.withdrawn")]
+    [InlineData("- reinstated: 2026-09-18 <why>\n", "- reinstated: 2026-09-18 <why>\n- suggested test: late\n", "question.withdrawn")]
     public void A_question_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
     {
         var text = SchemaExamples.Block("question-entry-schema");
@@ -605,8 +608,8 @@ public class SchemaCheckersTests : IDisposable
     [Theory]
     [InlineData("# verification-of-v1-archive-scene-stasis — declined candidates\n", "# elsewhere — declined candidates\n", "declined-candidates.title")]
     [InlineData("### unplaced-notes-are-paratext → 031-dt-knowledge-asymmetry\n", "### unplaced-notes-are-paratext 031-dt-knowledge-asymmetry\n", "declined-candidates.entry")]
-    [InlineData("- reason: <Brian's reason for declining, in his words>\n", "- reason:\n", "declined-candidates.entry")]
-    [InlineData("- date: 2026-09-22\n- reason: <Brian's reason for declining, in his words>\n", "- reason: <Brian's reason for declining, in his words>\n", "declined-candidates.entry")]
+    [InlineData("- reason: <Brian's reason for declining>\n", "- reason:\n", "declined-candidates.entry")]
+    [InlineData("- date: 2026-09-22\n- reason: <Brian's reason for declining>\n", "- reason: <Brian's reason for declining>\n", "declined-candidates.entry")]
     [InlineData("### unplaced-notes-are-paratext → 031-dt-knowledge-asymmetry\n", "### no-such-finding → 031-dt-knowledge-asymmetry\n", "declined-candidates.references")]
     [InlineData("### event-notes-cluster-early → 029-perception-gap-delivery\n", "### event-notes-cluster-early → 099-nonexistent\n", "declined-candidates.references")]
     public void A_declined_candidates_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)

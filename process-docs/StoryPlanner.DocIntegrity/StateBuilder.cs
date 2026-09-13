@@ -14,8 +14,8 @@ namespace StoryPlanner.DocIntegrity;
 ///   tallied, and the furthest process in chain order whose study-scoped writes all exist;
 /// - per corpus, the open questions, each with the calibrated directions versions whose
 ///   frontmatter names it and the verifications whose standing findings name it;
-/// - per hypothesis, the frontmatter status as authored, the status its entries after the last
-///   <c>iteration</c> line imply, and the open questions naming it.
+/// - per hypothesis, the status and baselined its entries after the last <c>iteration</c> line
+///   imply.
 ///
 /// Where the files a section needs are absent, the section says absent, never empty. Whether a
 /// challenging entry is resolved is not derived: the record has no entry kind for it.
@@ -36,12 +36,10 @@ public static class StateBuilder
 
     static readonly string[] AuditChain = ["revising-the-method"];
 
-    static readonly Regex HypothesesLine = new(@"^-\s*hypotheses:\s*(?<ids>.*)$", RegexOptions.Compiled);
-
     public sealed record Study(string Id, string Type, string Corpus, string Go);
 
-    /// <summary>One question entry: its slug, whether a withdrawn line sits beneath it, the hypothesis ids it names. Cited as corpus/slug.</summary>
-    public sealed record Question(string Corpus, string Slug, bool Withdrawn, IReadOnlyList<int> Hypotheses)
+    /// <summary>One question entry: its slug and whether a withdrawn line sits beneath it. Cited as corpus/slug.</summary>
+    public sealed record Question(string Corpus, string Slug, bool Withdrawn)
     {
         public bool IsOpen => !Withdrawn;
         public string Cite => $"{Corpus}/{Slug}";
@@ -70,7 +68,7 @@ public static class StateBuilder
         Studies(sb, repoRoot, doc);
         Iterations(sb, repoRoot, doc);
         Corpora(sb, repoRoot, doc, questions, questionsNote);
-        Hypotheses(sb, repoRoot, doc, questions);
+        Hypotheses(sb, repoRoot, doc);
         return sb.ToString();
     }
 
@@ -261,7 +259,7 @@ public static class StateBuilder
 
     public static IReadOnlyList<string> Matches(string repoRoot, ArtifactPath path, string? studyFolder, string? corpus)
     {
-        if (path.OutsideRepo) return [];
+        if (path.NoSinglePattern) return [];
         var prefix = path.FixedPrefix(studyFolder, corpus);
         var dir = prefix.Length == 0 ? repoRoot : Path.Combine(repoRoot, prefix.Replace('/', Path.DirectorySeparatorChar));
         if (!Directory.Exists(dir)) return [];
@@ -314,12 +312,11 @@ public static class StateBuilder
         var result = new List<Question>();
         string? slug = null;
         var withdrawn = false;
-        var hypotheses = new List<int>();
 
         void Flush()
         {
-            if (slug is not null) result.Add(new Question(corpus, slug, withdrawn, hypotheses));
-            slug = null; withdrawn = false; hypotheses = [];
+            if (slug is not null) result.Add(new Question(corpus, slug, withdrawn));
+            slug = null; withdrawn = false;
         }
 
         foreach (var raw in text.Replace("\r\n", "\n").Split('\n'))
@@ -335,10 +332,7 @@ public static class StateBuilder
             if (line.StartsWith("## ", StringComparison.Ordinal) || line.StartsWith("# ", StringComparison.Ordinal)) { Flush(); continue; }
             if (slug is null) continue;
             if (line.StartsWith("- withdrawn:", StringComparison.Ordinal)) withdrawn = true;
-            var m = HypothesesLine.Match(line);
-            if (m.Success)
-                foreach (var tok in m.Groups["ids"].Value.Split([',', ' '], StringSplitOptions.RemoveEmptyEntries))
-                    if (int.TryParse(tok, out var id)) hypotheses.Add(id);
+            else if (line.StartsWith("- reinstated:", StringComparison.Ordinal)) withdrawn = false;
         }
         Flush();
         return result;
@@ -359,13 +353,12 @@ public static class StateBuilder
             sb.Append($"### {corpus}\n\n");
             sb.Append($"{open.Count} open, {mine.Count - open.Count} withdrawn.\n\n");
             if (open.Count == 0) continue;
-            sb.Append("| question | hypotheses | covered by (calibrated directions) | answered by (verification) |\n|---|---|---|---|\n");
+            sb.Append("| question | covered by (calibrated directions) | answered by (verification) |\n|---|---|---|\n");
             foreach (var q in open)
             {
                 var covering = versions.Where(c => c.Calibrated && c.Questions.Contains(q.Cite, StringComparer.Ordinal)).Select(c => c.Cite).ToList();
                 var answering = verifications.Where(v => v.Questions.Contains(q.Cite, StringComparer.Ordinal)).Select(v => v.Study).ToList();
                 sb.Append("| ").Append(q.Slug)
-                  .Append(" | ").Append(q.Hypotheses.Count == 0 ? "—" : string.Join(" ", q.Hypotheses.Select(h => h.ToString("000"))))
                   .Append(" | ").Append(covering.Count == 0 ? "nothing" : string.Join(" ", covering))
                   .Append(" | ").Append(answering.Count == 0 ? "nothing" : string.Join(" ", answering))
                   .Append(" |\n");
@@ -460,7 +453,7 @@ public static class StateBuilder
 
     // ---- hypotheses ----
 
-    static void Hypotheses(StringBuilder sb, string repoRoot, SkillDocument doc, IReadOnlyList<Question> questions)
+    static void Hypotheses(StringBuilder sb, string repoRoot, SkillDocument doc)
     {
         sb.Append("## Hypotheses\n\n");
         var row = doc.Artifact(WellKnown.HypothesisRecord) ?? doc.Artifacts.FirstOrDefault(a => WellKnown.HypothesisArtifacts.Contains(a.Id));
@@ -483,18 +476,15 @@ public static class StateBuilder
                   "`### iteration`, which is the wording boundary — a challenging entry → challenged, else an " +
                   "evidence entry → evidenced, else untested; whether a challenge is resolved is not derived " +
                   "(d-2026-09-11-12).\n\n");
-        sb.Append("| id | slug | status | baselined | open questions naming it |\n|---|---|---|---|---|\n");
+        sb.Append("| id | slug | status | baselined |\n|---|---|---|---|\n");
         foreach (var file in files)
         {
             var h = ParseHypothesis(file);
             if (h is null) continue;
-            var naming = questions.Where(q => q.IsOpen && q.Hypotheses.Contains(h.Id))
-                .Select(q => q.Cite).ToList();
             sb.Append("| ").Append(h.Id.ToString("000"))
               .Append(" | ").Append(h.Slug)
               .Append(" | ").Append(h.Status)
               .Append(" | ").Append(h.Baselined)
-              .Append(" | ").Append(naming.Count == 0 ? "—" : string.Join("; ", naming).Replace("|", "\\|"))
               .Append(" |\n");
         }
         sb.Append('\n');

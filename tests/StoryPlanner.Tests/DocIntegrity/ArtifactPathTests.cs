@@ -31,7 +31,7 @@ public class ArtifactPathTests
         Assert.Equal($"{Studies}/<study>/candidates.md", p.Pattern);
         Assert.Null(p.Heading);
         Assert.False(p.Frontmatter);
-        Assert.False(p.OutsideRepo);
+        Assert.False(p.NoSinglePattern);
     }
 
     [Fact]
@@ -51,8 +51,8 @@ public class ArtifactPathTests
     }
 
     [Fact]
-    public void Outside_the_repo_is_the_one_non_path_value()
-        => Assert.True(Parse("outside the repo").OutsideRepo);
+    public void No_single_pattern_is_the_one_non_path_value()
+        => Assert.True(Parse("no single pattern").NoSinglePattern);
 
     [Fact]
     public void Two_patterns_joined_by_or_are_a_syntax_error()
@@ -88,7 +88,7 @@ public class ArtifactPathTests
         Assert.True(Parse($"{Studies}/<study>/candidates.md").IsStudyScoped);
         Assert.True(Parse($"{Studies}/<study>/batches/<batch>/items/").IsStudyScoped);
         Assert.False(Parse("docs/v3-framework/questions/<corpus>.md").IsStudyScoped);
-        Assert.False(Parse("outside the repo").IsStudyScoped);
+        Assert.False(Parse("no single pattern").IsStudyScoped);
     }
 
     [Fact]
@@ -101,7 +101,7 @@ public class ArtifactPathTests
         Assert.False(Parse($"{Studies}/<study>/batches/<batch>/definition.md").IsSeries);
         Assert.False(Parse("docs/v3-framework/hypotheses/NNN-slug.md").IsSeries);
         Assert.False(Parse("tools/StoryPlanner.<Name>/").IsSeries);
-        Assert.False(Parse("outside the repo").IsSeries);
+        Assert.False(Parse("no single pattern").IsSeries);
     }
 
     [Fact]
