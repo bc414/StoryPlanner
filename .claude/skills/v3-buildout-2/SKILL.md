@@ -109,13 +109,14 @@ These hold in every session type. A companion file elaborates; none overrides.
    declined, a judgment, or a suggestion, is composed by the session from the deliberation and
    the records of Brian's typing it draws on. What he typed is his own prose wherever it is
    recorded as his: the deliberation at hand, a user turn or `Typed:` line in a Claude Code
-   transcript read from `codesessions.db` (the `code-sessions` corpus), a Keep note, a user
-   block of a conversation in the `conversations` corpus or his navigation note on a block. Where the field uses it,
-   it is verbatim inside quotation marks, with his own quotation marks becoming single ones,
-   and cited to its source when it is not the deliberation at hand; the session's words and
-   framing sit outside them. A label he selected, a question put to him, session text he
-   approved, and text whose voice is not established as his, such as v1 archive and plan
-   notes, are never quoted as his. A field that states a fact or a neutral assertion, such as a finding, a hypothesis statement
+   transcript read from `codesessions.db` (the `code-sessions` corpus), the notes he pasted
+   into `source_material_references/hypotheses-google-keep-dump.md` (not the `google-keep`
+   corpus), a user block of a conversation in the `conversations` corpus or his navigation note
+   on a block. Where the field uses it, it is verbatim inside quotation marks, as typed, with his
+   own quotation marks becoming single ones, and needs no pointer to its source; the session's
+   words and framing sit outside them. A label he selected, a question put to him, an assistant
+   turn or block, session text he approved, and text whose voice is not established as his,
+   such as v1 archive and plan notes, are never quoted as his. A field that states a fact or a neutral assertion, such as a finding, a hypothesis statement
    or a question, is not written this way. Each schema's field description says which kind a
    field is. Nothing already written must be rewritten to meet it; Brian may have it rewritten
    to comply.

@@ -3948,3 +3948,241 @@ rules names the old id in prose.
   triaging the register first and touching only files with a ruling, which leaves paraphrasing
   Origins standing; re-minting every hypothesis from its head, which discards the verified work;
   the MCP ban kept, which would have left 041's provenance in conversation 21 unread.
+
+### The resume pass is Brian's extraction of a hypothesis from malformed data, bound by the constitutional rules and the hypothesis-file schema alone
+
+- id: d-2026-09-12-29
+- date: 2026-09-12
+- supersedes: d-2026-09-12-28
+- raised by: a framing of how far a resumed session may rewrite a sound but loosely worded
+  statement. Three texts answered three ways: d-2026-09-12-5 let no claim enter beyond the file
+  and its sources; the migration briefing's § 6, written by the session that drafted it and not
+  ruled, left such a statement "alone" under "Open — do not decide in a migration session"; and
+  the resume file checked a statement against its sources and said nothing of rewording. Brian:
+  "I think the reality is that these are all human in the loop sessions outside of standard
+  operating procedure, with the full source chain brought up, so whatever I decide can be written
+  with no restrictions except the constitutional rules in the skill.md". The archive then showed
+  what the resumed sessions of 011, 034, 035 and 041 had done: in three of them the statement was
+  not tightened but rebuilt, with Brian stating the claim after the chain was taken apart. Brian:
+  "The point is, I dissected, iteratively what was in the file and chain. The hypothesis that
+  came out is much simpler: Dreams and letters are distict from normal third-person narration.
+  This is much more direct and decouples other stuff. So this activity is about
+  extracting/transforming out of malformed data that ought not be there." He selected keeping the
+  schema's content rules binding, minting in the pass under his approval, the day rebuilt as a
+  rebuilt statement's Origin date, and an end when every id but the two drops has reported, with
+  001's fresh session walking its chain first.
+- decision: The pass continues the bootstrap of d-2026-09-12-5 as Brian's human-in-the-loop
+  extraction: a resumed session takes its hypothesis file and the file's chain apart with him,
+  removes what ought not be there, and writes the hypothesis he states or a draft he approves.
+  Brian resumes each migration session with `claude --resume <session-id>`, and it reads
+  `docs/v3-framework-historical/hypothesis-migration-resume.md` whole before anything else; where
+  that file and the session's earlier instructions disagree, the file governs.
+
+  What binds the session is the constitutional rules of SKILL.md and `hypothesis-file-schema`:
+  its shape, which the hook holds, and its content rules, that a statement is a prediction and
+  nothing beside it, testable by the referee's test of d-2026-09-12-2, with no reference to
+  another hypothesis, no evidence claimed and no open question, and the list of what an Origin's
+  `reasoning` may not hold. Nothing else binds it: not d-2026-09-12-5's limit on claims beyond
+  the file and its sources, not the briefing's line leaving a loosely worded statement alone, and
+  neither the gates of `minting-a-hypothesis` nor those of `iterating-a-statement`. The record
+  stays empty. A new hypothesis found in the session may be minted there when Brian words or
+  approves its statement. A statement rebuilt in the pass takes the day it was rebuilt as its
+  Origin's `date`; an unchanged statement keeps its date. The MCP server may be used for
+  provenance. Every line of the migration result's escalation register naming the session's id
+  is put to Brian and waited on. A question is written only when he raises one, under
+  d-2026-09-12-19 and -25. The session loads the `code-sessions` skill, rechecks every attribution
+  at its source, composes the Origin under rule 10, shows the whole file before writing it, and
+  reports; it touches no other hypothesis file or `state.md` and deletes neither dropped file.
+
+  The pass ends when every id in the resume file's table but 017 and 027 has reported. 001, which
+  has no migration session to resume, is taken by a fresh session that reads the migration
+  briefing's procedure and 001's trajectory row, walks the chain to Brian's typed words, and then
+  follows the resume file. 017 and 027 are resumed only if he chooses to revisit a drop, before
+  the end. From the end, standard procedure governs the hypothesis files. The resume file sits
+  with the briefing and the result in the historical folder, and nothing of the pass enters an
+  activity file or a schema (d-2026-09-07-27).
+- not taken: the resume file's limits as written, d-2026-09-12-5's limit on claims, the
+  briefing's line leaving a loose statement alone and the ban on minting, which the rebuilt
+  statements of 011, 035 and 041 had already gone past with Brian; lifting the schema's content
+  rules as well, which Brian declined, since a statement the referee and the claiming calls read
+  must still be a lone testable prediction; tightening against cutting as the frame, which named
+  a narrower activity than the sessions performed; an end when the last session in the table
+  reports, which the two drops and 001's missing session leave without an end; 001 left as
+  migrated in the schema session; the original capture day as a rebuilt statement's date.
+
+### A slug is a machine identifier the session creates, never changed; the resume pass may rename one to fit its statement
+
+- id: d-2026-09-12-30
+- date: 2026-09-12
+- supersedes: d-2026-09-12-24
+- raised by: 035's resumed session, which rebuilt its statement to "Dreams and letters are
+  distinct from normal third-person narration" while its slug stayed `embedded-text-category`,
+  and d-2026-09-12-24's exception, which covers only a claim never legitimate or a meaning
+  inverted. Brian's words that founded the superseded entry stand: "Slug can be created by the
+  session. It's a machine identifier that is stable, not something that has to be chosen by
+  me."; and "Hypothesis slugs are stable. Migration is an exception because the earlier one
+  wasn't legitimate and had an inverted meaning." Given the rebuilt statements of the pass, he
+  selected renaming with his approval.
+- decision: § Vocabulary defines slug: a machine identifier that reads in a sentence, lowercase
+  `[a-z0-9-]+`, created by the session with what it names and never changed, each class's schema
+  saying where it is unique. A hypothesis file's slug is a slug, so it is never changed; a
+  declined candidate's heading and a claiming result cite it. The migration of the founding
+  hypothesis files, with its resume pass (d-2026-09-12-29), is the one exception, a bootstrap:
+  with Brian's approval, a session may rename a founding file's slug where the file's claim was
+  never legitimate, where its meaning was inverted, as 041's was on 2026-09-12, or where its
+  statement was rebuilt in the pass and the slug no longer names it. The exception ends with the
+  pass and is carried here and in no activity file or schema (d-2026-09-07-27).
+- not taken: d-2026-09-12-24's exception as written, which leaves a rebuilt statement under a
+  slug naming the claim it replaced; renaming after the pass, when a declined candidate or a
+  claiming result may cite the slug; a slug fixed only once something cites it, which leaves
+  hypothesis slugs renamable outside the bootstrap.
+
+### A unit deliberates until nothing gating remains, then writes every entry, then makes the edits
+
+- id: d-2026-09-12-31
+- date: 2026-09-12
+- supersedes: d-2026-09-12-17
+- raised by: this unit, where the session offered to draft the resume file and the skill edits
+  with the entries to follow at the unit's end. Brian: "The decision entries should be written
+  first, and then acted on. Where did this get reversed?" The trace: until 2026-09-11, revise read
+  "each decision is written to `decisions.md` as it lands. The session applies each decision as a
+  row edit and a prose edit together", and the session that ruled d-2026-09-11-5 wrote its
+  entries before the schema edits (session `991a8481`, entries at seq 343 to 369, edits from
+  376). On 2026-09-12 session `9730601e` applied edits at Brian's direction and wrote
+  d-2026-09-12-1 to -6 after them; in session `f858ef43`, d-2026-09-12-12 rewrote revise to "The
+  unit's decision entries are drafted together at its end", after which each ruling was applied
+  as it landed and d-2026-09-12-14 to -28 were written after the edits. Brian: "So to be clear,
+  what I want is pure framing, making decisions, and deliberation of emergent new things until
+  there is nothing to deliberate, and then write all the decisions into decisions.md, and then
+  do the file edits/code changes."; and "Not everything in the queue has to be deliberated. Only
+  the first thing and anything stacked on top, plus any dependencies that gate work."
+- decision: A unit opens with a queue of starting points, one line each, ordered widest-first by
+  the session and seen by Brian before any is taken; he reorders, removes or adds. Taking a
+  starting point opens a stack with it at the bottom; deliberating any decision on the stack
+  pushes the decisions it surfaces on top, and the pop is from the top, so the starting point is
+  settled last and may name the decisions settled above it. A unit deliberates only the starting
+  point it takes, what is stacked on it, and the dependencies that gate the work it serves; the
+  rest of the queue waits for a later unit, and after each stack empties the queue is presented
+  again, re-ordered and re-formed, never as settled.
+
+  A unit runs in three phases, in this order. First, deliberation: framing, Brian's rulings and
+  the new items they surface, until nothing on the stack remains. Second, every entry of the
+  unit is written to `decisions.md` at once, in the order the decisions were settled, and Brian
+  scans the file; he approves the ruling, never the drafted sentence, and how many entries the
+  rulings become and where the lines between them fall is the session's judgment under the
+  one-decision rule. Third, and only then, the file edits and code changes that apply them. An
+  entry he corrects on the scan is corrected within rule 9, while nothing that cannot be
+  corrected relies on it, with the entries relying on it corrected in the same write. revise's
+  row and § revise say so.
+- not taken: applying each ruling as it lands and writing the entries afterwards, the practice
+  of 2026-09-12, which put every edit ahead of the record that authorises it; writing entries at
+  the end of each stack, which records rulings a later stack of the same unit may still overturn;
+  deliberating the whole queue before anything is written, which holds work nothing on the queue
+  gates.
+
+### Rule 10's records of Brian's typing include the hypotheses dump, quoted with no pointer; no source citation is required
+
+- id: d-2026-09-12-32
+- date: 2026-09-12
+- supersedes: d-2026-09-12-27
+- raised by: the framing of a citation convention per corpus, which found d-2026-09-12-27's parts
+  weak: subagent session prefixes collide in `codesessions.db`, a seq is recomputed at every
+  ingest of a session, and "block 641" reads as a position within conversation 21 when it is the
+  block's id. The citation clause itself was a session's wording, the tail of option A in session
+  `f858ef43` at seq 616, which Brian selected ("Yes, option A", seq 617). Brian asked: "Should
+  citations to code sessions be a skill wide convention? Are they always followable?" Then: "The
+  'keep dump' has nothing to do with the Google Keep Corpus. keep dump is just a bunch of text
+  dumped in a file. Not historical google keep notes."; "Keep dump can just be quoted as me
+  without any pointers"; "To be clear, I wrote the notes in Google Keep on the side, then pasted
+  them into a file. Then in one of the sessions making hypotheses I asked it to consolidate all
+  the dumped text into hypotheses, and the conclusion recently is that it did a poor job, which
+  is why the new instructions say to look at that file, which is in source material references
+  as kypotheses-google-keep-dump.md. Those are my words and quotable. Google Keep as a corpus is
+  distinct."; "I'm now thinking the citations are overkill and not needed."; and "governed
+  artifact citations are good. Any further than that is not necessary."
+- decision: A reasoning field is composed from the deliberation and the records of Brian's typing
+  it draws on. What he typed is his own prose wherever it is recorded as his: the deliberation at
+  hand; a user turn or `Typed:` line in a Claude Code transcript read from `codesessions.db` (the
+  `code-sessions` corpus); `source_material_references/hypotheses-google-keep-dump.md`, the notes
+  he wrote in Google Keep and pasted into one file, which is not the `google-keep` corpus; a user
+  block of a conversation in the `conversations` corpus; and his navigation note on a block. Used,
+  it is verbatim inside quotation marks, as typed, his own quotation marks becoming single ones.
+  No pointer to its source is required, a verbatim quote being found in its record by searching
+  for it; a session may name the occasion in its own words where that helps a reader. A reference
+  to a governed artifact by its own token stays, under d-2026-09-12-19. Never quoted as his: a
+  label he selected, a question put to him, an assistant turn or block, session text he approved,
+  and text whose voice is not established as his, such as v1 archive and plan notes. The
+  `google-keep` corpus is not named among the records of his typing. Rule 8 is unchanged: quoting
+  past typing makes it no evidence. SKILL.md's rule 10 names the dump in place of a Keep note,
+  gains the assistant turn or block, and loses its citation clause; citations already written
+  stay, nothing already written having to be rewritten.
+- not taken: a `cited as` line per corpus in CORPORA.md, which Brian selected and then withdrew
+  before it was written, pointers being overkill once a quote can be searched for; the parts of
+  d-2026-09-12-27 as written, weak in the three ways found; corpus content cited by locator, a
+  pointer beyond a governed artifact's token; the `google-keep` corpus named beside the dump,
+  which no session has needed to quote.
+
+### The resumed sessions carry guards against the slips the first four runs made
+
+- id: d-2026-09-12-33
+- date: 2026-09-12
+- raised by: the archive's record of the resumed runs of 011 (`aaa868a8`), 034 (`f32f0c91`), 035
+  (`31b0a2ac`) and 041 (`f858ef43`), read at Brian's request: "Check code sessions for what the
+  sessions so far have actually been doing, especially 31b0a2ac. Before continuing down this
+  adjudication list". 011's session wrote its own recommended statement before Brian saw it (seq
+  45), cut the Origin's coding-asset and non-coding-friction content that the briefing reserved to
+  him under an instruction to "sanitize the origin of irrelevant parts" (seq 59 to 64), and later
+  described as his own a wording it had drafted at seq 54 and he had restated at seq 55. 034's
+  session edited its Origin before showing it (seq 98), quoted "atomsphere" as "atmosphere", and
+  told him that keeping the statement bundled "costs nothing" because narrowing later would be
+  "an ordinary iteration entry". 035's session read other hypothesis files as settled vocabulary
+  and wrote into the Origin its own generalisation over five story analyses as what the analyses
+  said. None of the four stated the referee test's result. Brian selected all four groups of
+  guards.
+- decision: The resume file gives every resumed session these instructions, beside the steps it
+  already carries. The whole file is shown before any write, and an Edit is a write. A ruling
+  that is Brian's is put to him before any edit would settle it, including an edit made under a
+  general instruction such as cleaning up an Origin. A wording the session drafts in the
+  deliberation and Brian then repeats is recorded as the session's wording he took up, as step 3
+  already requires for an idea that began with an assistant. A generalisation over sources is
+  labelled as the session's own and never given as what the sources said. Verbatim means as
+  typed, misspellings included. The referee test is run on the statement and its result stated.
+  Another hypothesis file is never used as settled vocabulary or as authority, every hypothesis in
+  the set being untested. Any cost the session states for an option is checked against the method
+  as written before Brian rules on it. `INDEX.md` stays untouched until after the pass, and a
+  session that mints confirms the next unused id with Brian and names it in its report.
+- not taken: the resume file's steps as they stood, under which each of these slips happened; a
+  check over the Origins, which cannot tell a session's generalisation from a source's claim.
+
+### The Origin's exclusions bar the session's own framing, never Brian's quoted words
+
+- id: d-2026-09-12-34
+- date: 2026-09-12
+- supersedes: d-2026-09-12-4
+- raised by: two resumed sessions reading the list of what `reasoning` may not hold two ways.
+  041's Origin quotes Brian on a corpus reading, "v2 has almost no scene level notes yet, v1
+  archive has a lot of instinctual, raw capture, scene level notes.", and on a test, "That now has
+  to be *tested* from v1 historical data before carried forward"; 035's session dropped his typed
+  "There are notes about dreams and letters (embedded texts) in v1 archive", his plan to verify
+  against the fimfiction stories and then study the v1 archive, and his motivation for the planner,
+  as barred. Brian asked "What is the origin exclusions you are talking about?", and with the list
+  in front of him selected that the clause holds everywhere, having selected earlier that the list
+  bars the session's framing only. The superseded entry's founding words stand: "what should be
+  determined now is: what are the exact source materials to use and what is allowed or not allowed
+  in the new hypothesis file's origin reason".
+- decision: `reasoning` explains why the hypothesis exists and never extends what it asserts. It
+  may not hold: a claim the statement does not carry; a corpus reading stated as established fact,
+  that being evidence, which enters only as an entry in the record; a prospective testing method
+  naming which study will test it; an asserted relationship to another live hypothesis, merge and
+  split provenance excepted, which names the files this one came from; a confirm-or-refute
+  condition; an assessment of the hypothesis's own testability or thinness, which the record
+  answers by what it holds; a synthesis named as what raised it; and anything derivable. Each is a
+  thing the field can be written to say that stops being true when a statement is reworded or the
+  set changes around it. The list bars what the session writes in its own words and framing; it
+  never bars Brian's typed words quoted under rule 10, a dated quote of what he typed staying true
+  when the statement is reworded or the set changes. The clause holds for every writer of an
+  Origin, `mint` and the resume pass alike, and sits in `hypothesis-file-schema` beneath the list.
+  No check holds it, prose being what it governs.
+- not taken: the list applied to Brian's quotes as well, the reading 035's session took, which
+  removes his own observation, plan and motivation from the record of why a hypothesis exists;
+  the clause for the resume pass only, which leaves a later mint reading the list the other way.

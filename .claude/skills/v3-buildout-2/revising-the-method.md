@@ -4,7 +4,7 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| revise | hitl | DocIntegrity git | skill runner-skill map state revision-note decisions results tally | skill runner-skill decisions revision-note map studies directions | built | Brian decides, the session edits the skill's tables and prose in place under the hook, and the unit's decision entries are written together at its end for him to scan; for a rewrite the audit study is registered and its directions authored here, its tally adjudicated with him; the note is written once at the end |
+| revise | hitl | DocIntegrity git | skill runner-skill map state revision-note decisions results tally | skill runner-skill decisions revision-note map studies directions | built | Brian decides; once nothing gating is left to deliberate, the unit's decision entries are written together for him to scan, and only then does the session edit the skill's tables and prose in place under the hook; for a rewrite the audit study is registered and its directions authored here, its tally adjudicated with him; the note is written once at the end |
 | assemble-audit-batch | session | runner tool-source | skill directions results | definition index items calls tally | specified | The second lint, after the validator, for a rewrite: the prior text cut into units by the Markdown itemizer into a batch of the audit study, its definition written; dry-run-batch; execute-batch as the hand-off, one call per unit against the new folder, the tally written by the host at completion |
 | assess-audit-items | agent | | directions items | results | specified | One unit against the new folder under the directions' three questions, the answer in the declared fields; the only writer of results |
 
@@ -23,11 +23,12 @@ A unit of revision opens with a queue of starting points: the decisions the sess
 proposes, one line each, ordered widest-reaching first; Brian reorders, removes or adds,
 and none is taken until he has seen the queue. Taking a starting point opens a stack with
 it at the bottom: deliberating any decision on the stack pushes the decisions it surfaces
-on top; nothing is written until it is popped, and the pop is from the top, so the
-starting point is written last and may name the entries written above it. A stack is
-worked to empty before the next starting point is taken, and the queue is then presented
-again, re-ordered and re-formed; it is never presented as settled, and no remaining item
-is described as if it would land as written.
+on top; the pop is from the top, so the starting point is settled last and may name the
+decisions settled above it. A stack is worked to empty before the next starting point is
+taken, and the queue is then presented again, re-ordered and re-formed; it is never
+presented as settled, and no remaining item is described as if it would land as written.
+A unit deliberates only the starting point it takes, what is stacked on it, and the
+dependencies that gate the work it serves; the rest of the queue waits for a later unit.
 For each decision the session states the frame before any option:
 
 - the finding;
@@ -56,9 +57,10 @@ For each decision the session states the frame before any option:
 
 Then the options, each with what it costs and buys, the session's recommendation marked
 as its own and listed first; one decision at a time, never one bundle for sign-off.
-Brian decides. The unit's decision entries are drafted together at its end, in the order the
-decisions were settled, and written to `decisions.md` for him to scan: he approves the
-ruling, never the drafted sentence. The session applies each decision as a row edit and a prose edit together,
+Brian decides. A unit runs in three phases, in this order: deliberation, until nothing on the
+stack remains; then every entry of the unit, written to `decisions.md` at once in the order
+the decisions were settled, for him to scan, he approving the ruling and never the drafted
+sentence; then, and only then, the edits. The session applies each decision as a row edit and a prose edit together,
 in the activity file, a schema file or this router, never one without the other; a
 ruling about how calls are run lands in the `agent-runner` skill the same way; a
 schema change (a column, a closed set, a check) is a change to
@@ -159,6 +161,7 @@ declared fields, which the runner renders as the unit's result.
   inside a pair is answered by re-examining the pair, not by picking one.
 - Takes a decision that was not on the stack when Brian saw it; a decision that arises
   mid-unit is pushed, and taken only when it is popped.
+- Edits a file to apply a ruling before every entry of its unit is written.
 - Presents the remaining queue as settled, or plans a stop inside an autonomous run.
 - Names a concept, or keeps a session's word, before its consumers are listed.
 - Offers a special case as an option before the invariants that produced it are named.

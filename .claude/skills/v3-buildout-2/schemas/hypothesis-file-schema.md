@@ -56,7 +56,9 @@ split provenance excepted, which names the files this one came from; no confirm-
 condition; no assessment of the hypothesis's own testability or thinness, which the record
 answers by what it holds; no synthesis named as what raised it (`minting-a-hypothesis`); and
 nothing derivable. Each of these is a thing the field can be written to say and a thing that
-stops being true when a statement is reworded or the set changes around it.
+stops being true when a statement is reworded or the set changes around it. The list bars what
+the session writes in its own words and framing, never Brian's typed words quoted under rule 10:
+a dated quote of what he typed stays true when the statement is reworded or the set changes.
 
 **Record**: an entry's heading is `### <kind>`, type enum of `evidence`, `iteration`,
 `baselined`. A heading repeats — a hypothesis with eight evidence entries has eight
