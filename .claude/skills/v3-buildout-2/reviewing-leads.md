@@ -24,13 +24,13 @@ a lead that does not hold is written in `## Corrections`, dated, with what the s
 showed. The lead itself is not edited.
 
 Brian raises questions: from the artifact's `## Proposed questions`, from the differences,
-from his own recall, which enters only as a question with its provenance ("Brian's recall,
-<date>: does the v1 archive show X?"). The session writes each into the corpus's question
+from his own recall, which enters as a question with its provenance ("Brian's recall,
+<date>: does the v1 archive show X?"), or goes to minting when he states a prediction. The session writes each into the corpus's question
 list with what raised it and a suggested test where one suggests itself. A lead that shows a
 different hypothesis is needed is handed to minting-a-hypothesis in the same session.
 
 ## Never
 
 Edits a lead; writes a candidate or evidence; rewords a hypothesis; writes a question Brian
-did not raise; enters recall as anything but a question; counts disagreements between lead
+did not raise; enters recall as a lead, a finding or evidence; counts disagreements between lead
 sets.

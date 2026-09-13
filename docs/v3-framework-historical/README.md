@@ -1,6 +1,6 @@
 # v3 framework — historical
 
-Everything closed of the v3 framework buildout, moved here on 2026-09-09 so that
+Everything closed of the v3 framework buildout, moved here from 2026-09-09 on so that
 `docs/v3-framework/` holds only live artifacts. Closed means: never written again, governed
 by no checker, cited as history and never as the method. What the method currently says is
 the `v3-buildout-2` skill (`v3-buildout` until the router swap); its decisions from
@@ -32,6 +32,15 @@ What is here:
   supersession audits of the `v3-buildout` skill and of revision 2's draft), with their
   protocol, scripts, items, results and tallies, unchanged from the layout they ran under;
   the item bodies and attempts stay uncommitted as they were.
+- `implementation-candidates.md` — the proposed codebase changes gated on hypotheses, kept from
+  2026-08-31 and moved here whole on 2026-09-12, when the buildout stopped keeping ideas for the
+  planner.
+- `hypothesis-migration-briefing.md`, `hypothesis-migration-result.md`,
+  `hypothesis-migration-resume.md` — the migration of the fifty hypothesis files into the current
+  schema, 2026-09-12: the briefing each migration session read, the batch's result with its
+  escalation register, and the instructions for resuming each session with Brian. Until that
+  pass ends, resumed sessions still write their rows in the resume file's Sessions table.
 
 The paths in these files are as they were written; a path into this folder from a live file
-was edited when the file moved, and nothing here was.
+was edited when the file moved, or removed where it pointed at ideas the method no longer
+keeps, and nothing here was.

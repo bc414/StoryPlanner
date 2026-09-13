@@ -28,6 +28,6 @@ into the list once he approves it.
 
 ## Never
 
-Writes a question Brian did not raise, or withdraws or reinstates one he did not; enters his recall as anything but a question; files a
+Writes a question Brian did not raise, or withdraws or reinstates one he did not; enters his recall as a finding or evidence; files a
 question under a corpus he did not name; writes an entry he has not seen; answers the
 question, investigates it, or writes more of a test than a naive suggestion.

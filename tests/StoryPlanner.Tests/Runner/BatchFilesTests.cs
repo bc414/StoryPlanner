@@ -159,6 +159,24 @@ public class BatchFilesTests
     }
 
     [Fact]
+    public void An_index_renders_and_reads_what_its_itemizer_utilized_and_its_narrowing()
+    {
+        var text = IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "v1-archive", "a note id", null, [("note-1", "note-1", "first")],
+            utilizesCorpora: ["lineage"], utilizesOutputs: ["docs/a.csv", "docs/b.csv"], narrowing: "the pasted notes");
+        var index = IndexFile.Parse(text);
+        Assert.Empty(index.Problems);
+        Assert.Equal(["lineage"], index.UtilizesCorpora);
+        Assert.Equal(["docs/a.csv", "docs/b.csv"], index.UtilizesOutputs);
+        Assert.Equal("the pasted notes", index.Narrowing);
+
+        var plain = IndexFile.Parse(IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "v1-archive", "a note id", null, [("note-1", "note-1", "first")]));
+        Assert.Empty(plain.UtilizesCorpora);
+        Assert.Empty(plain.UtilizesOutputs);
+        Assert.Null(plain.Narrowing);
+        Assert.Contains(IndexFile.Parse(text.Replace("  - docs/a.csv\n  - docs/b.csv\n", "")).Problems, p => p.Part == "head");
+    }
+
+    [Fact]
     public void A_definition_reads_its_fields_and_resolves_its_paths_against_its_folder()
     {
         var root = Path.Combine(Path.GetTempPath(), "sp-def-" + Guid.NewGuid().ToString("N"));

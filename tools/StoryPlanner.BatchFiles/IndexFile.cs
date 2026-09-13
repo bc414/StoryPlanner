@@ -14,7 +14,8 @@ public sealed record IndexProblem(string Part, string Message, int Line);
 /// </summary>
 public sealed class IndexFile
 {
-    public static readonly string[] HeadKeys = ["itemizer", "corpus", "locator notation", "source hash"];
+    public static readonly string[] HeadKeys = ["itemizer", "corpus", "utilizes corpora", "utilizes outputs", "narrowing", "locator notation", "source hash"];
+    static readonly string[] RequiredHeadKeys = ["itemizer", "corpus", "locator notation"];
     public static readonly string[] Columns = ["item", "locator", "description"];
     static readonly Regex Slug = new(@"^[a-z0-9-]+$", RegexOptions.Compiled);
     static readonly Regex Sha = new(@"^[0-9a-f]{64}$", RegexOptions.Compiled);
@@ -28,6 +29,9 @@ public sealed class IndexFile
     public string? Corpus => Head.Value("corpus");
     public string? LocatorNotation => Head.Value("locator notation");
     public string? SourceHash => Head.Value("source hash");
+    public IReadOnlyList<string> UtilizesCorpora => Head.Value("utilizes corpora")?.Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? [];
+    public IReadOnlyList<string> UtilizesOutputs => Head.Field("utilizes outputs")?.ListItems ?? [];
+    public string? Narrowing => Head.Value("narrowing");
 
     IndexFile(string? title, KeyedBlock head, IReadOnlyList<IndexRow> rows, IReadOnlyList<IndexProblem> problems)
     { Title = title; Head = head; Rows = rows; Problems = problems; }
@@ -50,10 +54,11 @@ public sealed class IndexFile
         foreach (var s in head.Stray) problems.Add(new IndexProblem("head", $"line {s.Line}: a line outside the head's keyed lines and the table", s.Line));
         var keys = head.Fields.Select(f => f.Key).ToList();
         foreach (var k in keys.Where(k => !HeadKeys.Contains(k))) problems.Add(new IndexProblem("head", $"head key '{k}' is unknown", head.Field(k)!.Line));
-        foreach (var k in HeadKeys.Take(3).Where(k => !keys.Contains(k))) problems.Add(new IndexProblem("head", $"head key '{k}' is missing", headStart + 1));
+        foreach (var k in RequiredHeadKeys.Where(k => !keys.Contains(k))) problems.Add(new IndexProblem("head", $"head key '{k}' is missing", headStart + 1));
         var order = keys.Where(HeadKeys.Contains).Select(k => Array.IndexOf(HeadKeys, k)).ToList();
         if (order.Zip(order.Skip(1)).Any(p => p.Second <= p.First)) problems.Add(new IndexProblem("head", "the head keys are in the order " + string.Join(", ", HeadKeys), headStart + 1));
-        foreach (var f in head.Fields.Where(f => f.Value.Length == 0)) problems.Add(new IndexProblem("head", $"line {f.Line}: '{f.Key}' has no value", f.Line));
+        foreach (var f in head.Fields.Where(f => f.Key != "utilizes outputs" && f.Value.Length == 0)) problems.Add(new IndexProblem("head", $"line {f.Line}: '{f.Key}' has no value", f.Line));
+        if (head.Field("utilizes outputs") is { } uo && uo.ListItems.Count == 0) problems.Add(new IndexProblem("head", $"line {uo.Line}: 'utilizes outputs' names no output", uo.Line));
         if (head.Value("source hash") is { } sh && !Sha.IsMatch(sh)) problems.Add(new IndexProblem("head", "source hash is not a SHA-256", head.Field("source hash")!.Line));
 
         var rows = new List<IndexRow>();
@@ -110,13 +115,19 @@ public sealed class IndexFile
 
     static string Cell(string s) => s.Replace("\r", "").Replace("\n", " ").Replace("|", "\\|");
 
-    /// <summary>The index an itemizer writes: title, head, table; <paramref name="sourceHash"/> only when the corpus is one document.</summary>
-    public static string Render(string batch, string itemizer, string corpus, string locatorNotation, string? sourceHash, IEnumerable<(string Item, string Locator, string Description)> rows)
+    /// <summary>The index an itemizer writes: title, head, table; <paramref name="sourceHash"/> only when the corpus is one document; the utilized corpora and outputs only when the itemizer read any; <paramref name="narrowing"/> only when it does not cut every item.</summary>
+    public static string Render(string batch, string itemizer, string corpus, string locatorNotation, string? sourceHash, IEnumerable<(string Item, string Locator, string Description)> rows,
+        IEnumerable<string>? utilizesCorpora = null, IEnumerable<string>? utilizesOutputs = null, string? narrowing = null)
     {
         var sb = new StringBuilder();
         sb.Append("# ").Append(batch).Append(" — index\n\n");
         sb.Append(KeyedLines.RenderLine("itemizer", itemizer)).Append('\n');
         sb.Append(KeyedLines.RenderLine("corpus", corpus)).Append('\n');
+        var corpora = utilizesCorpora?.ToList() ?? [];
+        if (corpora.Count > 0) sb.Append(KeyedLines.RenderLine("utilizes corpora", string.Join(' ', corpora))).Append('\n');
+        var outputs = utilizesOutputs?.ToList() ?? [];
+        if (outputs.Count > 0) sb.Append(KeyedLines.RenderList("utilizes outputs", outputs)).Append('\n');
+        if (narrowing is not null) sb.Append(KeyedLines.RenderLine("narrowing", narrowing)).Append('\n');
         sb.Append(KeyedLines.RenderLine("locator notation", locatorNotation)).Append('\n');
         if (sourceHash is not null) sb.Append(KeyedLines.RenderLine("source hash", sourceHash)).Append('\n');
         sb.Append("\n| item | locator | description |\n|---|---|---|\n");

@@ -95,10 +95,10 @@ A block summary is Brian's own navigation note, never a machine's; conversations
 - read by: files; the claim command of `tools/StoryPlanner.SurfacingItemizer` cuts one study's `findings.md` into one item per standing finding
 
 Explored only, never verified: a verification of it would write findings about findings,
-and claiming could promote one beside the finding it is about, counting the same evidence
+and one could be promoted beside the finding it is about, counting the same evidence
 twice; an exploration writes leads, which never become evidence. Findings of different
 verifications rest on different items under different directions, so a pattern read across
-them is a lead and never a joined claim. A finding withdrawn after the itemizer's run is
+them is a lead and never a finding. A finding withdrawn after the itemizer's run is
 caught at the lead review, against its source, like any lead.
 
 ## code-sessions

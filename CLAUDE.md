@@ -102,9 +102,12 @@ Live counts: `mcp__storyplanner get_stats`. **Never hardcode counts in a documen
 
 ## The corpora
 
-Six, and they are **never joined**: the working plan (v2), the v1 archive, conversations, source
-texts (`sources.db`), lineage (`lineage.db`), and code sessions (`codesessions.db`). Each answers
-a different question; a claim from one is never silently supported by another. What each holds,
+Six: the working plan (v2), the v1 archive, conversations, source texts (`sources.db`), lineage
+(`lineage.db`), and code sessions (`codesessions.db`). Each answers a different question. They are
+**never joined through the MCP server** — its tools serve each corpus through its own calls, and no
+identity mapping is kept between corpora's rows by id or name. That is a rule for using the
+corpora, not for studying them: a framework itemizer may read one corpus with another's data. A
+claim from one corpus is never supported by another without saying so. What each holds,
 which tool reads it, and how each is ingested: the `corpora` skill. Code sessions have their own,
 `code-sessions`, and are deliberately **not** in the MCP server.
 

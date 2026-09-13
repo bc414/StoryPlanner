@@ -64,7 +64,7 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("- tag: supporting\n- finding: Of 180", "- tag: supporting\n- note: x\n- finding: Of 180", "hypothesis.entry")]
     // the five class rules
     [InlineData("- falsifier: If the opening move did not bear on where cues fall, the two classes would have\n  carried first-paragraph cues at about the same rate.\n", "", "hypothesis.evidence.fields")]
-    [InlineData("- reason: The short tableau openings behave like the in-motion ones, so the claim I actually\n  hold is about long openings, where the prose has room to defer. Narrowing it to those.\n", "", "hypothesis.iteration.fields")]
+    [InlineData("- reason: The short tableau openings behave like the in-motion ones, so what I actually\n  hold is about long openings, where the prose has room to defer. Narrowing it to those.\n", "", "hypothesis.iteration.fields")]
     [InlineData("- rationale: Two readings and 180 openings, and the narrowed wording holds on both. I am\n  comfortable planning against it. The short-opening case is its own question and I have\n  written it into the list.\n", "", "hypothesis.baselined.fields")]
     [InlineData("- tag: supporting", "- tag: challenging", "hypothesis.baselined.challenged")]
     [InlineData("- date: 2026-10-06", "- date: 2026-09-01", "hypothesis.entry.date")]
@@ -492,11 +492,18 @@ public class SchemaCheckersTests : IDisposable
 
     const string BatchDir = StudyDir + "/batches/03-scene-notes";
 
+    /// <summary>The corpora and the output the index example utilizes, so that the example resolves.</summary>
+    CheckContext IndexCtx()
+    {
+        Write("docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv", "Id,Label\n");
+        return Ctx("v1-archive", "lineage");
+    }
+
     [Fact]
     public void The_index_example_passes_at_its_batch_folder()
     {
         var path = Write(BatchDir + "/index.md", SchemaExamples.Block("index-schema"));
-        Assert.Empty(Rules(BatchIndex.Check(Ctx("v1-archive"), path)));
+        Assert.Empty(Rules(BatchIndex.Check(IndexCtx(), path)));
         Assert.NotNull(SchemaCheckers.For(WellKnown.Index));
     }
 
@@ -506,6 +513,12 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("- corpus: v1-archive\n", "", "index.head")]
     [InlineData("- itemizer: tools/StoryPlanner.ArchiveItemizer, 2026-09-19 a1b2c3d\n- corpus: v1-archive\n", "- corpus: v1-archive\n- itemizer: tools/StoryPlanner.ArchiveItemizer, 2026-09-19 a1b2c3d\n", "index.head")]
     [InlineData("- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n", "- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n- source hash: abc\n", "index.head")]
+    [InlineData("- utilizes corpora: lineage\n", "- utilizes corpora: nowhere\n", "index.head")]
+    [InlineData("- utilizes corpora: lineage\n", "- utilizes corpora: v1-archive\n", "index.head")]
+    [InlineData("  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "  - docs/missing.csv\n", "index.head")]
+    [InlineData("- utilizes outputs:\n  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "- utilizes outputs:\n", "index.head")]
+    [InlineData("- utilizes outputs:\n  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "- utilizes outputs: docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "index.head")]
+    [InlineData("- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n", "- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n", "index.head")]
     [InlineData("| item | locator | description |\n", "| id | locator | description |\n", "index.table")]
     [InlineData("| note-1630 | note-1630 | Griffonian Republic, History track, 2026-03 |\n| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\n", "", "index.table")]
     [InlineData("| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\n", "| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\nA stray line.\n", "index.table")]
@@ -517,7 +530,7 @@ public class SchemaCheckersTests : IDisposable
         var text = SchemaExamples.Block("index-schema");
         Assert.Contains(find, text);
         var path = Write(BatchDir + "/index.md", text.Replace(find, replace));
-        Assert.Contains(rule, Rules(BatchIndex.Check(Ctx("v1-archive"), path)));
+        Assert.Contains(rule, Rules(BatchIndex.Check(IndexCtx(), path)));
     }
 
     [Fact]
@@ -525,9 +538,19 @@ public class SchemaCheckersTests : IDisposable
     {
         var text = SchemaExamples.Block("index-schema").Replace("- corpus: v1-archive\n", "- corpus: candidates\n");
         var path = Write(BatchDir + "/index.md", text);
-        Assert.Empty(Rules(BatchIndex.Check(Ctx("v1-archive"), path)));
+        Assert.Empty(Rules(BatchIndex.Check(IndexCtx(), path)));
         var another = Write(BatchDir + "/index.md", text.Replace("candidates", "skill"));
-        Assert.Empty(Rules(BatchIndex.Check(Ctx("v1-archive"), another)));
+        Assert.Empty(Rules(BatchIndex.Check(IndexCtx(), another)));
+    }
+
+    [Fact]
+    public void An_index_whose_itemizer_utilized_nothing_and_cut_every_item_omits_the_three_keys()
+    {
+        var text = SchemaExamples.Block("index-schema");
+        var start = text.IndexOf("- utilizes corpora:", StringComparison.Ordinal);
+        var end = text.IndexOf("- locator notation:", StringComparison.Ordinal);
+        var path = Write(BatchDir + "/index.md", text.Remove(start, end - start));
+        Assert.Empty(Rules(BatchIndex.Check(Ctx("v1-archive"), path)));
     }
 
     // ---- findings ----

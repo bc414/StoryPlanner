@@ -102,11 +102,11 @@ public static class BatchIndex
         var batch = Path.GetFileName(Path.GetDirectoryName(Path.GetFullPath(path))!);
         var findings = new List<Finding>();
         var corpora = ctx.CorporaIds.Concat(ExtraCorpora).ToList();
-        var engine = EngineCheck.Run(SchemaId, ctx, path, new Dictionary<string, IReadOnlyCollection<string>> { ["corpus"] = corpora });
+        var engine = EngineCheck.Run(SchemaId, ctx, path, new Dictionary<string, IReadOnlyCollection<string>> { ["corpus"] = corpora, ["utilizes corpora"] = ctx.CorporaIds.ToList() });
         if (engine.ShapeUnavailable) findings.Add(EngineCheck.Unavailable(SchemaId, file));
         foreach (var p in engine.Problems)
         {
-            if (ctx.CorporaIds.Count == 0 && p.Key == "corpus" && p.Kind == ProblemKind.Type) continue; // no corpus ids to hold it to
+            if (ctx.CorporaIds.Count == 0 && p.Key is "corpus" or "utilizes corpora" && p.Kind == ProblemKind.Type) continue; // no corpus ids to hold it to
             var id = p.Section == "head" ? "index.head"
                 : p.Key == "item" ? "index.item"
                 : p.Key == "locator" ? "index.locator"
@@ -120,6 +120,12 @@ public static class BatchIndex
 
         foreach (var p in index.Problems.Where(p => p.Part is "item" or "locator"))
             findings.Add(Finding.Fail("index." + p.Part, file, p.Message));
+        if (index.Corpus is { } corpus && index.UtilizesCorpora.Contains(corpus))
+            findings.Add(Finding.Fail("index.head", file, $"'utilizes corpora' repeats the corpus '{corpus}' the items were cut from"));
+        if (index.Head.Field("utilizes outputs") is { } outputs && outputs.ListItems.Count == 0)
+            findings.Add(Finding.Fail("index.head", file, $"line {outputs.Line}: 'utilizes outputs' names no output"));
+        foreach (var output in index.UtilizesOutputs.Where(o => !File.Exists(Path.Combine(ctx.RepoRoot, o.Replace('/', Path.DirectorySeparatorChar)))))
+            findings.Add(Finding.Fail("index.head", file, $"the utilized output '{output}' does not exist under the repository root"));
         if (ctx.CorporaIds.Count == 0)
             findings.Add(Finding.Info("index.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is held to candidates and skill only"));
         return findings.DistinctBy(f => (f.CheckId, f.Message)).ToList();

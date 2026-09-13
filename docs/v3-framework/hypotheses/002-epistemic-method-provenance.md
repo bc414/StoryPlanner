@@ -1,23 +1,28 @@
 ## Hypothesis
 
-The v3 framework's deepest contribution is epistemological — the
-hypothesize-gather-iterate cycle applied uniformly to narrative design — rather
-than any specific new track or scope level. This cycle may already have been
-v1's natural workflow, before v2's prescriptive staging displaced it.
+v1's natural workflow was already the hypothesize-gather-iterate cycle,
+practiced without the tracks, staging, or vocabulary that later formalized
+it.
 
 ## Origin
 
-- date: 2026-08-31
-- reasoning: Raised as one of the emergent hypotheses from the 2026-08-31
-  design conversation that produced the v3-buildout skill, not captured in
-  either the H-series or D-series source documents. Brian's assertion: the
-  framework's deepest contribution may be epistemological rather than
-  structural, and v1's natural workflow may already have been closer to the
-  hypothesize-gather-iterate cycle than v2's prescriptive staging was. He held
-  the epistemic framework itself as warranting testing among the very first
-  hypotheses, asking whether v2 moved away from that cycle and, if so, what
-  guided the move — speculating the cause was "probably something I said and
-  mixed with Claude's baseline way of working," a question the statement does
-  not carry and leaves to evidence.
+- date: 2026-09-12
+- reasoning: Raised in the prompt that opened the first hypothesis
+  consolidation on 2026-08-31, among emergent ideas from the design
+  conversation that neither the H-series nor the D-series source documents
+  had captured. He wrote there: "v1's natural workflow may have been closer
+  to hypothesize-gather-iterate than v2's prescriptive staging — needs
+  checking against lineage evidence," and, of testing it: "the epistemic
+  framework itself needs to be one of the very first hypotheses to be tested
+  - whether that is in v1 story planner's workflow, partly, or not, and
+  whether v2 dropped it or moved away, and if so, what was the guiding
+  principle of v2 and why? It was probably something I said and mixed with
+  Claude's baseline way of working?" That 2026-08-31 bullet paired the
+  v1-workflow claim with a broader claim about the framework's deepest
+  contribution being epistemological rather than structural. Narrowing the
+  statement to the testable half on 2026-09-12, he said: "You can cut the
+  prescriptive part about the deepest contribution. The real testable
+  statement that I'm interested in getting evidence for is whether this was
+  v1's natural workflow, but without structure."
 
 ## Record

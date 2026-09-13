@@ -1,8 +1,7 @@
 # Resuming a hypothesis migration session
 
-Written 2026-09-12 for the pass that resumes each migration session, and revised the same day
-under `d-2026-09-12-29` to `-34`. A resumed session reads this file whole before it does
-anything else.
+Written 2026-09-12 for the pass that resumes each migration session. A resumed session reads
+this file whole before it does anything else.
 
 ## Why you are resumed
 
@@ -78,8 +77,11 @@ Rule 10, in short; read it whole in SKILL.md.
    `asking-a-question` applies: read CORPORA.md and that corpus's question list first, put every
    withdrawn entry that bears on it in front of him with its reasons, and show the entry before
    writing it. A `question` is a neutral assertion; `raised by` holds why it exists and quotes
-   him; `suggested test` holds procedure only. A comparison across corpora is a hypothesis, never
-   a question.
+   him; `suggested test` holds procedure only.
+7. **Ideas for the planner.** A design idea for the planner found in your chain, a proposed
+   codebase change or feature, is let go: the buildout keeps no record of such ideas, and
+   `implementation-candidates.md` is closed. A factual premise the idea rests on may be minted
+   under item 5.
 
 ## What to do
 
@@ -120,6 +122,9 @@ Rule 10, in short; read it whole in SKILL.md.
    in the schema.
 8. **Report**, short, in this order: what changed and why; attributions corrected; register lines
    and how Brian ruled; anything unresolved; a hypothesis minted, or found and not minted.
+9. **Update your own row** in this file's Sessions table with a short note: what happened
+   (rewritten, kept, or dropped), whether it is done or still owes Brian a register line or a
+   report, and the date. Your row only — every other session's stands untouched.
 
 ## What not to do
 
@@ -145,10 +150,10 @@ Resumed with `claude --resume <session-id>` from the repository root.
 | id | session | note |
 |---|---|---|
 | 001 | — | migrated in the schema session; a fresh session walks its chain first (§ When the pass ends) |
-| 002 | `8e8b6325-e634-4f0e-ae97-789ce34e1893` | |
-| 003 | `1f93533a-55d1-46ea-9730-aa4deace132c` | |
-| 004 | `30e877a6-0fb4-4bd4-ba00-a2a9a190a9e4` | |
-| 005 | `a78d46df-4b45-4d92-95c9-99e204dbf487` | |
+| 002 | `8e8b6325-e634-4f0e-ae97-789ce34e1893` | rewritten with Brian on 2026-09-12: statement narrowed to the testable half only (v1's natural workflow was hypothesize-gather-iterate without structure), the "deepest contribution" claim cut per his direction; done |
+| 003 | `1f93533a-55d1-46ea-9730-aa4deace132c` | rewritten with Brian on 2026-09-12: statement rebuilt as the world-law negotiation claim (canon compliance against materialist historicism, exclusive), the codebase aspiration and layer/syuzhet content separated out, slug renamed; § 6.2 syuzhet reading undone (reading B); file done. The aspiration was let go when the session turned to revising the method (d-2026-09-12-35 to -40, implementation-candidates.md closed); still owes two dispositions: the later-layers constraint, the reader-prior-belief evidence question |
+| 004 | `30e877a6-0fb4-4bd4-ba00-a2a9a190a9e4` | dropped with Brian on 2026-09-13 as "useless": the cadence claim was an assistant's answer (365ef91d seq 49) to his question about his decisions not matching its leans (seq 48), carried into E6 by a prompt the assistant drafted (seq 253), never asserted by him; E18 is his own Audit-mode note (seq 42), a design idea let go; the 2026-09-12 Origin had misattributed the assistant's claim to him; file deleted (text in git at `2edf2a5`), id retired; his seq 48 question written as `code-sessions/decisions-against-assistant-leans`, the new code-sessions list; § 6.3 Audit-mode line let go; done |
+| 005 | `a78d46df-4b45-4d92-95c9-99e204dbf487` | dropped with Brian on 2026-09-13: the head is his 2026-08-31 doubt about FEATURE-AUDIT, raised by an assistant's proposal to gate hypothesis creation on it; the statement assigned a status rather than predicting, and a salvaged prediction about the ⚪ rejections' reasons was judged not worth keeping; file deleted (text in git at `2edf2a5`), id retired; the "recall" and "memory files, design transcripts" content traced to assistant turns; § 6.3 memory-files line let go; done |
 | 006 | `f9c38447-8480-467c-b4db-15e234e680dd` | |
 | 007 | `f8726321-7ddc-4730-8a71-f433ad11aabb` | |
 | 008 | `d04946cc-00ac-4d04-9d5d-59a829dd176b` | |
@@ -156,16 +161,16 @@ Resumed with `claude --resume <session-id>` from the repository root.
 | 010 | `b829da5e-18ac-4869-8e85-e8b3af5fe015` | |
 | 011 | `aaa868a8-d3e7-4432-bd7f-4dde64ca9ad4` | resumed 2026-09-12 under the earlier file and waiting on two register lines: re-read this file and continue. Its Origin's coding-asset and non-coding-friction content, which the briefing reserved to Brian, was cut before he ruled on it |
 | 012 | `e519de75-a88a-402e-8e18-ed638097ab02` | |
-| 013 | `7b406f0e-e76b-49a2-8055-6287bdbfad8e` | |
-| 014 | `92ff8b89-68c4-4bbc-af00-8adbfe03e560` | |
-| 015 | `a406a82c-f9b3-4db4-a2d0-e085772c6fd7` | |
-| 016 | `ddc8d32e-cb38-457b-acb4-c1574fea411d` | |
+| 013 | `7b406f0e-e76b-49a2-8055-6287bdbfad8e` | dropped with Brian on 2026-09-12: the head is questions, not an assertion, and a hypothesis about one model does not hold across releases; file deleted (text in git at `2edf2a5`), id retired; § 6.2 line moot; the 2026-09-02 role-split words, the unminted 2026-09-03 cell-indexed draft and the Keep questions let go; done |
+| 014 | `92ff8b89-68c4-4bbc-af00-8adbfe03e560` | rewritten with Brian on 2026-09-12: statement rebuilt as the no-system-prompt checking gap, slug renamed to `unprompted-claude-skips-checking`, the implementation-candidates gate updated to match; ServerInfo content already homed in that candidate; the instruction-dimensions passage let go; done |
+| 015 | `a406a82c-f9b3-4db4-a2d0-e085772c6fd7` | dropped with Brian on 2026-09-13 as "an exploratory study design", "not really a hypothesis": his head is a Keep note taking copy-pasted output as a sign the prompt was good; "quality" and the RLHF analogy were D13's (365ef91d seq 14), the analogy made from his question, and the 2026-09-12 Origin had called it his assertion; file deleted (text in git at `2edf2a5`), id retired; written as `lineage/prompts-behind-copied-responses`, the voice-attribution tool supplying the label; § 6.3 D13↔H27 line, an assistant's, let go; done |
+| 016 | `ddc8d32e-cb38-457b-acb4-c1574fea411d` | dropped with Brian on 2026-09-13: the head is a Keep note proposing to unify the corpora under the conversations API standard, a design idea for the planner let go under item 7, no premise minted; the "Conversations API" name was an assistant's 2026-08-29 answer he took up, the corpus list and "different constraints" D16's, the comparative statement wording the 2026-09-12 migration's; file deleted (text in git at `2edf2a5`), id retired; § 6.3 conversational-shape line, the consolidation plan's addition, let go; done |
 | 017 | `cb0ac398-2dfc-403c-9bd4-f412c762ad29` | dropped; resume only to revisit the drop |
-| 018 | `2a78a79e-2348-438a-b5da-0d658fdf9340` | |
+| 018 | `2a78a79e-2348-438a-b5da-0d658fdf9340` | dropped with Brian on 2026-09-13: the head is a Keep question and a statement of what he wants (v1's workflow back, more organized), which he ruled subjective; "implicitly whatever the tooling afforded" was the 2026-08-30 reorganization's inference and "v3's epistemic rigor" the consolidation plan's addition; file deleted (text in git at `2edf2a5`), id retired; § 6.2 line moot; the three loop-history proposals (shape, entry point, processing bottleneck) not minted; his steady-state passage let go; questions written on 2026-09-13: `v1-archive/own-voice-registers-mixed`, and the Keep question per corpus as `lineage/analysis-loop-pattern` and `conversations/analysis-loop-pattern` (the AI-voice mixing, volume, informing-writing and v2-diagnosis lines ruled not questions); done |
 | 019 | `30c0ff33-bd2d-4185-a3d0-3195850cfca7` | |
 | 020 | `05f138b7-0503-4d96-ac31-3309546f4456` | |
 | 021 | `2942fe15-525f-4772-8a8e-e21ee6fb7f9f` | |
-| 022 | `17c2da1d-2d8c-453a-b752-c3da1a9ff4e8` | |
+| 022 | `17c2da1d-2d8c-453a-b752-c3da1a9ff4e8` | dropped with Brian on 2026-09-13: the statement was a treatment ruling, not a prediction, and rule 10 now carries it; file deleted (text in git at `2edf2a5`), id retired; the copy-paste claim already answered by the voice attribution tool, the style-effect question let go, E10's content-block aside is that tool, built; the cross-corpus line of `d-2026-09-12-22`, found incomplete, revised in the same session as `d-2026-09-13-1` to `-8`; done |
 | 023 | `f2738a83-0a07-4bcb-89d7-e8c0e181c966` | |
 | 024 | `d71a4cad-69a3-43bd-b1fe-4e9f9b8d8b5b` | |
 | 025 | `d6357533-e23b-4119-9fe8-4ee6e916fd5c` | |
@@ -173,10 +178,10 @@ Resumed with `claude --resume <session-id>` from the repository root.
 | 027 | `bb903ca8-b4aa-4623-baf8-16b8c2c496c8` | dropped; resume only to revisit the drop |
 | 028 | `63af134b-4464-4a7b-bb99-6bb5698864f7` | |
 | 029 | `9bb1556f-d434-4ea6-8377-c0a1ee413848` | |
-| 030 | `c2b26e13-da76-4293-8a64-9742316993df` | |
+| 030 | `c2b26e13-da76-4293-8a64-9742316993df` | dropped with Brian on 2026-09-13: his head is a question (seq 1106); the blend's name, definition and distinct-technique claim were the assistant's answer (1109), the spectrum wording one he took up (6e5d2e65 373–374), and ZF/ND sort planning content, not voicing, so no design claim; file deleted (text in git at `2edf2a5`), id retired; written as `own-fiction/narrator-register-or-focalizer-voice`, the new own-fiction question list; § 6.3 mode/modifier/cross-cutting content let go; done |
 | 031 | `3cb322be-0044-4958-9284-19e35c8754d3` | |
 | 032 | `504c0b29-e189-4d4a-a2b0-552fb4894ef5` | |
-| 033 | `b67843b0-04ed-4d4b-bd27-8189a4fe93bc` | |
+| 033 | `b67843b0-04ed-4d4b-bd27-8189a4fe93bc` | rewritten with Brian on 2026-09-13: statement cut to its first clause (theme one goal category among peers), the "potentially following different pathways" clause failing the referee test; Origin rebuilt on his seq 989 words, structural setup, emotional investment and the "among peers" wording attributed to the assistant; slug kept; § 6.3 034-pairing line: technique policy covered, which-goals-get-tracks let go, factual part written as `v1-archive/humor-warmth-prior-belief-setups`; § 6.3 023 goal-category examples let go, already in the statement; § 6.2 027 drop confirmed, "absorbed by 033" not holding, its chain written as `working-plan/notes-mix-cognitive-modes` and `working-plan/goals-no-track-type-names` (the "hypothesis or fact" half answered by the method); done |
 | 034 | `f32f0c91-54da-42d2-9cd4-74e8be145d0b` | resumed 2026-09-12 and reported; the statement was kept bundled after a cost stated wrongly, so revisit only if Brian chooses |
 | 035 | `31b0a2ac-c18d-4dc0-82cf-6f02f950d716` | resumed 2026-09-12, statement rebuilt and file written; report owed. Its Origin dropped Brian's quoted observation, testing plan and motivation under a reading of the exclusions that `d-2026-09-12-34` does not hold |
 | 036 | `1e5372c3-d782-47ec-807d-857e522f6a7d` | |
@@ -186,11 +191,11 @@ Resumed with `claude --resume <session-id>` from the repository root.
 | 040 | `3646b0db-b439-47c3-a169-c383635a3bbf` | |
 | 041 | `f858ef43-a580-48d5-8f13-ced302ab2666` | rewritten with Brian on 2026-09-12, slug renamed; done |
 | 042 | `7b85904e-2326-47a9-bb02-a43aab7c4fea` | |
-| 043 | `107272b5-4861-4729-9a47-88b2d18bf91f` | |
-| 044 | `9b1c6330-d150-4dc3-af00-4689a9ffd15a` | |
+| 043 | `107272b5-4861-4729-9a47-88b2d18bf91f` | dropped with Brian on 2026-09-13: his head is a design idea put as a question (seq 1475, "Maybe it has to come back?"), let go under item 7; the claim that designed connections live only in prose, the relationship types, the supersession distinction and the serialized-publication argument were the assistant's (1479, 1481), approved at 1480/1482; the 2026-09-12 migrated statement had turned H28's WU2b testing line into the claim; file deleted (text in git at `2edf2a5`), id retired; the factual part written as `v1-archive/note-relationships-in-prose` and `working-plan/note-relationships-in-prose`, the working-plan list new; § 6.3 feasibility note let go; done |
+| 044 | `9b1c6330-d150-4dc3-af00-4689a9ffd15a` | rewritten with Brian on 2026-09-12: statement rebuilt as a codebase claim (v1 bespoke/tech-debt vs. v2 clean/thin from weaker tooling vs. v3, already existing, returning toward v1-level bespokeness without v1-level tech debt); hallmark-wall content confirmed out; done |
 | 045 | `c9bb0705-4941-455d-95a9-37215452a2af` | |
 | 046 | `a9cf8ee5-0cd0-4cb0-be3a-d663fd0fc14e` | |
 | 047 | `99111878-1c98-4e47-b727-3e72e7658c26` | |
 | 048 | `4460831a-9ef9-4ee4-a579-b4c4b2378cd0` | |
-| 049 | `7df239c3-9238-4dba-9ad6-51b21b4bd88c` | |
+| 049 | `7df239c3-9238-4dba-9ad6-51b21b4bd88c` | dropped with Brian on 2026-09-12: the prediction and its reasoning were the assistant's (seq 80, drafted seq 388), minted on "Mint these 5 hypotheses", never asserted by him; the explicit-context rule stands on his own reasons and no finding would change it, and the with-stack arm has no mechanism under rule 5 (G19); file deleted (text in git at `2edf2a5`), id retired; § 6.2 FID line moot; done |
 | 050 | `9e53a4f2-8182-429e-9f69-0a9ffa559457` | |

@@ -1,27 +1,26 @@
 ## Hypothesis
 
-Theme is one goal category among peers — humor, structural setup, emotional
-investment, prior-belief establishment, and potentially others — with P->WI->T as
-the thematic pathway and other goals potentially following different pathways that
-bypass inference entirely (P->emotional resonance, P->humor).
+Theme is one goal category among peers — humor, structural setup, emotional investment,
+prior-belief establishment, and potentially others.
 
 ## Origin
 
-- date: 2026-08-31
-- reasoning: Raised on 2026-08-28, mid-session, while Brian was working out the
-  levels of abstraction underlying the still-forming v2.5 framework — prose
-  technique, then mechanism, then the thing a mechanism serves, which he termed a
-  "goal" for lack of a better word yet — right after reviewing the story planner's
-  founding purpose across earlier conversations. V2's mechanism tracks pair a
-  theme track to every mechanism track, on the working assumption that every
-  mechanism serves a theme; a hypothesis was already open in the same thread that
-  not every inference does. Brian's assertion: "I'm also hypothesizing that theme
-  is not the only goal category. Humor, establishing prior beliefs to be shattered
-  later, emotional warmth/feel good sensations, and potentially others form the
-  highest order 'goals' of the book. This is a hypothesis to be tested against the
-  analyses." The motivation was the 112-story corpus itself, which read as
-  reaching some of these goals — humor, emotional warmth — without passing through
-  the inference chain that produces thematic evidence at all, unlike theme's own
-  P->WI->T pathway.
+- date: 2026-09-13
+- reasoning: Raised on 2026-08-28, in the session where Brian deliberated over the
+  long-corpus analyses, while he was laying out levels of abstraction for a broadened
+  framework: prose technique at the bottom, mechanism above it. Of the level above that he
+  wrote: "The mechanisms serve something like a 'meaning' or an 'effect', perhaps I'll call
+  it a 'goal' for now until a better term emerges. Evidence for a thematic proposition is
+  one goal." What prompted it was the planner's own shape: "My current tracks are extensive
+  on this, with theme tracks for each mechanism track, and the current posture in v2 is
+  that every mechanism serves a theme." The motivation was the analyses he had commissioned:
+  "I instructed the analyses to identify other 'goals' that the inferences/mechanisms
+  achieve." His assertion: "I'm also hypothesizing that theme is not the only goal
+  category. Humor, establishing prior beliefs to be shattered later, emotional warmth/feel
+  good sensations, and potentially others form the highest order 'goals' of the book. This
+  is a hypothesis to be tested against the analyses." Two of the statement's examples are
+  not his. Structural setup and emotional investment were the assistant's terms in its
+  replies, and "one goal category among peers" was its wording when it merged two
+  hypotheses into one, a merge he approved.
 
 ## Record

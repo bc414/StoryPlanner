@@ -12,7 +12,7 @@ Enables baselining-a-hypothesis.
 
 The hypothesis is `challenged` — a challenging evidence entry bound to the current wording is
 unresolved — or a merge or split requires the reword. Iteration never rewords a hypothesis that
-is evidenced and unchallenged; a sharper claim on supporting evidence is a new hypothesis
+is evidenced and unchallenged; a sharper statement on supporting evidence is a new hypothesis
 (minting-a-hypothesis). Brian proposes the new wording in session, or approves the session's
 draft of it; the wording is a proposal, held for the reverify batch and written
 nowhere until the gate passes, because the meaning is changing to reconcile the challenge and
@@ -40,7 +40,7 @@ and writes the tally when the last has a result. No pilot: the referee's calibra
 
 Instructed by the referee's directions body as its system prompt and nothing else; no tools, no
 MCP. Given the proposed statement and the finding, it writes the falsifier — what the finding
-would have been if the statement were false — and classifies the candidate diagnostic supporting,
+would have been if the statement were false — and classifies the entry's finding against the proposed wording, diagnostic supporting,
 diagnostic challenging or non-diagnostic. The declared fields out, which the runner renders as the
 result. It is the method's one referee, judging the proposed statement it is handed rather than
 one read from a file.

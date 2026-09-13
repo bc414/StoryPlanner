@@ -46,13 +46,18 @@ picked here. It runs once into the calibration batch's folder, `batches/<nn>-<sl
 writing the index in its schema's shape, with the corpus and the locator notation in its
 head, and the item bodies under `items/`. What one item is, its grain, is decided here and
 nowhere else, and the directions' first section states it, so the two are written
-together. An itemizer never selects by judgment; an authored query in Brian's vocabulary
-is the only narrowing it may do, and the query is stated in the index's head.
+together. An itemizer that cuts a corpus in CORPORA.md reads corpus data only: the corpus
+it cuts, and it may read other corpora and deterministic outputs over corpus data to cut the
+items, label them and fill their bodies, a passage from another corpus included, which the
+index head names under `utilizes corpora` and `utilizes outputs`. The items and the study
+stay the cut corpus's. The referee's materialising tool reads what its activity gives it.
+Narrowing, which of the corpus's items the batch holds, is a condition in the itemizer's
+code, stated in words in the head's `narrowing` line.
 
 ## author-directions
 
 Written against the real items with Brian: what the call is given and where the item
-stops; the classes, each a label and what an item shows, one reserved for an item the
+stops, with what any utilized data in the item shows and what it cannot; the classes, each a label and what an item shows, one reserved for an item the
 criteria cannot place; the criteria at the boundaries, stated generally and tuned to
 over-flag; what to produce, one keyed line per field; what never to do. The frontmatter
 cites by token the questions the version freezes. A question's suggested test is a naive
@@ -92,6 +97,7 @@ part of the hash.
 ## Never
 
 Executes a full batch under a version with no accepting calibration; shows Brian the
-agent's answers before his own are written; lets the itemizer narrow by judgment; authors
+agent's answers before his own are written; lets an itemizer of a CORPORA.md corpus read
+what is not corpus data, or any itemizer narrow by a condition its index does not state; authors
 directions without items in front of it; writes a candidate; carries a calibration ruling
 into the directions as the item it came from.

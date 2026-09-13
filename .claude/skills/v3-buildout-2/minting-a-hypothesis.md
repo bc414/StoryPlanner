@@ -15,7 +15,7 @@ falsifier — what the finding would have been were the statement false), indepe
 not a refinement, which would be an iteration).
 
 **Testability is the criterion with no second chance**, which is why it is stated as the
-referee's own test rather than as whether evidence could bear on the claim. A statement no
+referee's own test rather than as whether evidence could bear on the statement. A statement no
 falsifier can discriminate — a prescription about what the instrument ought to do is the
 common shape, and reads as "should be recognised", "may not be optimal", "may be needed" —
 can never acquire evidence, so it can never be `challenged`, so `iterating-a-statement`'s

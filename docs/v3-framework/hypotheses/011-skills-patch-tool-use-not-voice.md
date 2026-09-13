@@ -5,24 +5,29 @@ can't patch voice; the voice gap will persist even once skills close the rest.
 
 ## Origin
 
-- date: 2026-08-31
-- reasoning: Raised by merging threads Brian typed in sequence into the Google Keep
-  dump, before the 2026-08-30 reorganization split them into separate entries. His
-  observation: Opus 4.6 has "baseline conversational warmth (better voice)," while
-  Opus 5 comes "with baseline capability to question and be rigorous" and tool use
-  "trained and RLHF'd in," marketed as "agentic" — though he judged Opus 5's own
-  prose outright weak ("its language is not good"). His question was whether to
-  close each model's weak side with instructions: "Do I patch 4.6 with tool use?
-  Skills close gap and it follows instructions? Or do I patch opus 5 with voice
-  instructions?" Separately, he recalled Sonnet 4.6 as "still my preferred" model
-  for narrative analysis "because it worked better without a system prompt and its
-  voice is helpful and accommodating," though he "still had to ask for grounding"
-  by hand. His assertion: now that grounding lives in skills rather than something
-  he supplies in conversation, the Sonnet preference may turn out to have been for
-  its instructable default behavior — needing less explicit grounding — rather than
-  an intrinsic advantage, while voice is harder to patch with instructions and may
-  not close the same way. The motivation was to settle whether these differences
-  are patchable with skills or persist as intrinsic model properties, before
-  choosing a model going forward.
+- date: 2026-09-12
+- reasoning: Raised in the resume pass on 2026-09-12, when the founding file of
+  2026-08-31, which had merged four entries of the 2026-08-30 reorganization into one
+  claim about models converging, was taken apart against the Google Keep notes behind
+  it. The question Brian was working was "Tool use and adherence to skills. 4.6 or 5?"
+  His observations: "Opus 5 comes with baseline capability to question and be rigorous.
+  But opus 4.6 has baseline conversational warmth (better voice)."; "Hypothesis is that
+  Opus 5 has tool use and grounding trained and RLHF'd in. Based on Anthropic marketing
+  on being more 'agentic'. Great for coding work. Makes friction on non coding. Also
+  friction for iteration."; of Opus 5, "its language is not good"; and of Sonnet 4.6,
+  "Recall that I liked Sonnet 4.6 for narrative analysis (still my preferred) because
+  it worked better without a system prompt and its voice is helpful and accommodating.
+  But I still had to ask for grounding. I'm already committing to making skills for
+  grounding. So what part of model choice is independent?" He put both sides of the
+  patch as questions: "Do I patch 4.6 with tool use? Skills close gap and it follows
+  instructions? Or do I patch opus 5 with voice instructions?", and of 4.6, "4.6
+  doesn't do as good at Claude code stuff. But this gap could be filled by
+  instructions?" That voice is the side that does not patch is not in his notes. The
+  2026-08-30 reorganizing session added that 4.6's voice advantage may persist, being
+  harder to instruct into existence. This pass's session restated that as behavioral
+  and procedural gaps closing with instruction while voice and register gaps do not,
+  and Brian took that wording up. He then asked for the statement to be rebuilt: "Put
+  together something from ground up using my words, ignoring what the current words
+  are there." The session drafted it, and he approved it with "Put that in".
 
 ## Record

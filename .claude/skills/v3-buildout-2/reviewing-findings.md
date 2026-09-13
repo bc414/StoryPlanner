@@ -35,8 +35,8 @@ result is never edited and the fix is a new version.
 What Brian raises over the tally is checked the same way before anything is written: the
 session checks it against the results and the items in this sitting, and only what holds
 is written, as a finding entry with its citations. His recall enters as the check and never
-as the finding; a recall the data does not bear out becomes a question if it is worth
-asking of a later version, and otherwise nothing.
+as the finding; a recall the data does not bear out becomes a question, or a hypothesis
+through minting, if it is worth pursuing, and otherwise nothing.
 
 Brian raises questions: from the findings, from the Proposed questions, from the
 Shortcomings, from the differences between two verifications, from his own recall. The

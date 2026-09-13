@@ -22,7 +22,7 @@ referee's and an audit's directions are the verification kind.
 | section | present | holds |
 |---|---|---|
 | frontmatter, between `---` lines | required | fields |
-| `## What you are given` | required | prose: what one item is and where it stops, as the itemizer cut it |
+| `## What you are given` | required | prose: what one item is and where it stops, as the itemizer cut it; where the item carries data from a corpus or an output the itemizer utilized, what that data shows and what it cannot, the call reading nothing else that could tell it |
 | `## How to read` | optional: an exploration's always, never otherwise | prose: how to read the item with the questions in view |
 | `## Classes` | optional: the verification kind's always, never an exploration's | entries, one line per class |
 | `## Criteria` | optional: the verification kind's always, never an exploration's | entries, numbered from 1, each a rule that decides an item between classes, stated generally; a calibration ruling enters here as a rule, and the item it came from stays in the calibration file |

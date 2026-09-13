@@ -37,7 +37,7 @@ otherwise; `state.md` renders it for every hypothesis.
 **Hypothesis** is what the hypothesis predicts, in one to three sentences readable in
 isolation. Founding reasoning belongs in § Origin; provenance, implications, testing method and
 confirm-or-refute conditions belong nowhere in this file. It carries the prediction and nothing
-beside it: no reference to another hypothesis by id or slug; no evidence claimed for it, which
+beside it: no reference to another hypothesis by id or slug; no evidence for it, which
 is the record's to hold; and no open question, which is not a prediction — a statement that ends
 in one is two things, and the question belongs in the corpus's question list.
 
@@ -49,7 +49,7 @@ in one is two things, and the question belongs in the corpus's question list.
 | `reasoning` | required | block | why the hypothesis exists: the observation, Brian's assertion, the motivation, and what raised it; in Claude's voice; under rule 10 |
 
 **What `reasoning` may not hold.** It explains why the hypothesis exists and never extends what
-it asserts, so: no claim the statement does not carry; no corpus reading stated as established
+it asserts, so: nothing asserted that the statement does not carry; no corpus reading stated as established
 fact, that being evidence, which enters only as an entry below; no prospective testing method,
 naming which study will test it; no asserted relationship to another live hypothesis, merge and
 split provenance excepted, which names the files this one came from; no confirm-or-refute
@@ -135,7 +135,7 @@ second or third.
 - from: Scenes that open on a character already in motion carry their orientation cues in the
   first paragraph more often than scenes that open on a static tableau, which defer them to
   the second or third.
-- reason: The short tableau openings behave like the in-motion ones, so the claim I actually
+- reason: The short tableau openings behave like the in-motion ones, so what I actually
   hold is about long openings, where the prose has room to defer. Narrowing it to those.
 
 ### evidence

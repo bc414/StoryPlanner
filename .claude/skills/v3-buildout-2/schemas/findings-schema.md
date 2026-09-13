@@ -9,7 +9,7 @@ downstream of the review writes here. A finding is a conclusion drawn over the v
 layer, the items and the results, with the questions in view: a count over the corpus, a
 pattern across items, a contrast between classes, an answer that is null. It cites what it
 rests on and names the frozen question it answers, if one asked for it; it never names a
-hypothesis, which is the candidate's claim. Per-item results and counts live in the batch
+hypothesis, which claiming does. Per-item results and counts live in the batch
 and are cited, never copied. Nothing enters this file as a finding unless it was drawn
 from or checked against the results and the items; a finding reaches a record only through
 a candidate, and only a standing finding, neither withdrawn nor superseded, is the sweep's
@@ -24,7 +24,7 @@ holds the file, a verification's id in the registry.
 |---|---|---|
 | `## Method` | required | prose: only what no batch file says |
 | `## Findings` | required | entries |
-| `## Proposed questions` | optional | entries, one line each; what the data raised that no question asked and no finding claims |
+| `## Proposed questions` | optional | entries, one line each; what the data raised that no question asked and no finding states |
 | `## Shortcomings` | optional | entries, one line each; what the results show wrong with the study's own instrument |
 
 **Findings**: an entry is `### <study>/<slug>`, where `<study>` repeats the id of the
@@ -47,7 +47,7 @@ naming the old in `supersedes`. A standing finding is one neither withdrawn nor 
 
 **Proposed questions**: `- <what the data raised>`, one
 per line; none is a question until Brian writes it into the corpus's list, and none is a
-claim.
+finding.
 
 **Shortcomings**: `- <part>: <what the results showed>`, `<part>` one of `item`,
 `itemizer`, `directions`, `calibration`, `execution`, `corpus`: the item definition that

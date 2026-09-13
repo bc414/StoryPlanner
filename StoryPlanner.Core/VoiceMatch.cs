@@ -8,9 +8,7 @@ namespace StoryPlanner.Core;
 /// or adoption. The unit of comparison is a k-word shingle (a sliding window of k consecutive
 /// words after <see cref="VoiceText.Tokenize"/> normalisation); a note's coverage is the share
 /// of its shingles found anywhere in the index, and its origin is the single earliest-dated
-/// source explaining the most of them. Built for WU1.4 (v1 archive vs lineage); the same
-/// engine is what a future copy-paste-detection DataOp (implementation-candidates D19) would
-/// wrap with a write path.
+/// source explaining the most of them. Built for WU1.4 (v1 archive vs lineage).
 /// </summary>
 public static class VoiceText
 {

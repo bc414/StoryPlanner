@@ -4186,3 +4186,534 @@ rules names the old id in prose.
 - not taken: the list applied to Brian's quotes as well, the reading 035's session took, which
   removes his own observation, plan and motivation from the record of why a hypothesis exists;
   the clause for the resume pass only, which leaves a later mint reading the list the other way.
+
+### implementation-candidates.md moves whole to docs/v3-framework-historical/
+
+- id: d-2026-09-12-35
+- date: 2026-09-12
+- supersedes: d-2026-09-09-10
+- raised by: the resumed migration session of 003 (`1f93533a`), whose rebuilt statement left two
+  entries of `implementation-candidates.md` gated on a claim it no longer makes, as 014's rebuild
+  had before it. Brian asked "Is @docs/v3-framework/implementation-candidates.md  a governed file?
+  Is it planned to be or not?"; it was not, and no decision planned it. Then: "Where did that file
+  come from? Should I make it governed, and then put the items in there? Or at least have
+  instructions to check if the implementation candidate is already there". The archive showed it
+  created on 2026-08-31 in answer to his "I need a home for proposed codebase changes. More may
+  come up beyond what I stated now.", its name, its entry shape and its first contents an
+  assistant's. Once he had ruled "No prior anchoring to the design. No home needed for past
+  unfounded ideas that don't have evidence to back them.", he ruled on the file "It can go to
+  historical" and "MOve the whole file", and selected superseding this entry whole over editing
+  its list. On the folder's README, which no longer listed all it held: "Edit the readme to make
+  it up to date for all files." The superseded entry's ruling stands, extended by this file.
+- decision: `docs/v3-framework-historical/` holds every closed thing: the founding record and the
+  spec pools; forward-plan-1, its ordering audit, forward-plan-2 and its handoff; the revision-2
+  handoffs, omissions draft and rulings; the retroactive referee handoff; the 2026-09-05
+  engineering handoff; process-map draft 1; VERSION-HISTORY draft 1; the WU1.1, WU1.2 and WU1.3
+  syntheses; the WU1.4 execution plan and the WU2.15 plan; the consolidation plan and
+  consolidation 1; the raw pipeline hypotheses; the 2026-09-06 code-session audit; the three
+  retroactive explorations, `exploration-of-fimfiction-stories`, `-google-keep` and
+  `-own-fiction`, whose registry rows leave, so that the registry is empty until the first study
+  under the method; `docs/v3-framework-historical/skill-audits/` whole; and
+  `implementation-candidates.md`, moved whole, its Tasks section and its Keep sidecar ingest entry
+  with it and nothing carved out. Closed: never written again, governed by no checker, one README,
+  which lists everything the folder holds.
+  `docs/v3-framework/` holds only live artifacts: decisions.md, studies.md, the hypotheses, the
+  questions, the studies, `methodology-revision-1.md`, and `WU1.4-v1-scene-instincts/`, an
+  itemizer's output a study will use. Every path naming a moved file is edited in place,
+  decisions.md's entries included, a path change being no change to a ruling, save the paths to
+  `implementation-candidates.md`, which are removed rather than repointed, a repointed path still
+  pointing at the prior Brian ruled out. `fanout/referee/codebook.md` and `fanout/smoke-test/` are
+  deleted, both in git. No batch and no exploration is converted; what a retroactive artifact
+  proposed enters a question list when Brian asks it.
+- not taken: deleting the file with git holding it, which leaves the retired plans' mentions
+  naming no file on disk; the Keep sidecar ingest's design carved into CORPORA.md, a tool design no
+  study needs in a live fact file whose standing facts about `google-keep` are already there; the
+  Tasks carved into a live file, a home the ruling removes; a new entry beside d-2026-09-09-10
+  superseding nothing, two standing entries disagreeing about where the file is; d-2026-09-09-10
+  edited in place under its path clause, a change of ruling presented as a path change.
+
+### SKILL.md loses its pointer to implementation-candidates.md; revision 1's waits for the swap
+
+- id: d-2026-09-12-36
+- date: 2026-09-12
+- raised by: the move of d-2026-09-12-35, after which § Provenance of the revision-2 SKILL.md still
+  named the file among what the buildout produces, "(codebase changes gated on baselined
+  hypotheses — they enter the ordinary feature process, never this skill)", and revision 1's
+  `SKILL.md` and `process-map.md` named it as live. Brian selected removing the clause and leaving
+  revision 1 for the swap.
+- decision: The clause naming `implementation-candidates.md` leaves § Provenance of
+  `.claude/skills/v3-buildout-2/SKILL.md`, its parenthetical with it; § What this skill does not
+  govern and the terminus row already hold that planner changes are outside the skill. Whether a
+  sentence takes its place is not decided here.
+
+  Revision 1's `.claude/skills/v3-buildout/SKILL.md` and `process-map.md` stand as they are until
+  the swap retires the folder. Two invariants collide there: that a pointer to a moved file does
+  not stay behind, and the hook, which holds any edit under that folder's path to `skill-schema`, a
+  shape revision 1 does not meet. The first yields, as it did for `spec-pools/` under
+  d-2026-09-09-10, at the cost that a session loading `v3-buildout` before the swap still finds the
+  file named as live.
+- not taken: repointing the clause to the historical path, which lists a closed file among what
+  the buildout produces and keeps the pointer; writing its replacement here, which decides the
+  router's standing text inside a pointer; editing revision 1 now, which the hook holds to a schema
+  the folder does not meet.
+
+### VoiceMatch.cs's summary loses its sentence about a future DataOp
+
+- id: d-2026-09-12-37
+- date: 2026-09-12
+- raised by: the move of d-2026-09-12-35, after which the summary comment in
+  `StoryPlanner.Core/VoiceMatch.cs` still read "the same engine is what a future
+  copy-paste-detection DataOp (implementation-candidates D19) would wrap with a write path", a
+  pointer to the closed file and a design idea kept in code. Brian selected cutting the clause.
+- decision: The summary of `VoiceText` keeps what the engine is and what it was built for; the
+  clause about a future DataOp goes, and nothing names the historical path in its place. The change
+  is to the comment only.
+- not taken: repointing the parenthetical to the historical path, which keeps the prior in code;
+  leaving the comment, a dangling pointer and a prior both.
+
+### The router says the buildout keeps no ideas for the planner
+
+- id: d-2026-09-12-38
+- date: 2026-09-12
+- raised by: with `implementation-candidates.md` closed, nothing in the skill says what becomes of
+  an idea for the planner when one comes up. Sessions had written such ideas to that file at
+  Brian's request, "Put a note about this in implementation candidates", and into hypothesis
+  statements, the six prescriptions of d-2026-09-12-2; and decisions.md is read only in
+  revising-the-method, so a ruling with no text in the skill reaches no session running an
+  activity. Brian selected one sentence in the router.
+- decision: § What this skill does not govern in the revision-2 SKILL.md carries one sentence: the
+  buildout keeps no record of ideas for the planner, Brian's or a session's; the code changes of the
+  terminus are reasoned from baselined hypotheses alone; and a factual premise an idea rests on may
+  be offered for minting, whose prescription criterion already refuses the idea itself. The ruling
+  fixes what the sentence says, not its wording.
+- not taken: no new text, leaving the ruling where no activity reads it and a session free to
+  invent a home for an idea; a sentence in `minting-a-hypothesis.md` only, which reaches only the
+  sessions that mint while ideas come up in any.
+
+### The resumed migration sessions let a planner design idea in a chain go
+
+- id: d-2026-09-12-39
+- date: 2026-09-12
+- raised by: the same closing. The resume file's disposition for content written nowhere, a
+  question about a corpus, a hypothesis to mint, or let go, never named `implementation-candidates.md`,
+  yet 014's resumed session had used it as a home; the result's register still holds design ideas
+  for the planner, 043's feasibility note on `SubjectRelation` and `NarrativePropertyValue` and
+  004's question of Audit mode's cadence; and a resumed session reads SKILL.md's constitutional
+  rules, not the router's sentence. Brian selected one line in the resume file's § What else holds.
+- decision: `docs/v3-framework-historical/hypothesis-migration-resume.md` § What else holds carries
+  one item: a design idea for the planner found in a hypothesis's chain is let go, no file carrying
+  it, and a factual premise under it may be minted under the item on minting. The sessions already
+  reported stand as they are, 014's gate moving with the file. The file's head loses its clause
+  naming the day it was revised and the decisions it was revised under, Brian: "Just take out the
+  part about revision day and decision."; the file is otherwise unchanged.
+- not taken: nothing, since the three dispositions already leave the file out, which has Brian
+  ruling again wherever a session proposes the file, as 014's did; the router's section added to
+  the resumed sessions' reads, a wider read than one sentence needs.
+
+### The buildout keeps no ideas for the planner before baselining
+
+- id: d-2026-09-12-40
+- date: 2026-09-12
+- raised by: the question of whether and how to govern `implementation-candidates.md`, which
+  Brian took into this unit: "This session is now revising the method for governing that file.";
+  "First off, candidate collides, so we need a new term."; "Also, how should this even be tracked?
+  None of these choices are settled because I haven't studied them. That's why they were thrown
+  into hypotheses. But they are not the same as testable statements. What is actually the
+  relationship between a hypothesis and an implementation?"; and "Or, should I not be thinking
+  about the new story planner at all? Once hypotheses are baselined, then we reason about changes,
+  with no prior pointing towards past code ideas?". The session's answer: a hypothesis claims what
+  is, and a finding can come out against it; an implementation is a choice of what to build,
+  resting on factual premises, which may be hypotheses, and on his goals, which no study settles; a
+  gate names a hypothesis where the choice needed a premise, and goes quietly false when the
+  statement is reworded, as 003's rebuild showed. The archive showed where the two had been joined:
+  on 2026-08-31 an assistant argued that a feature proposal was a prediction of the same structure
+  as a hypothesis, the route by which prescriptions entered the set. Against it stood his own
+  requirement of that day, "I need a home for proposed codebase changes. More may come up beyond
+  what I stated now." He ruled: "No prior anchoring to the design. No home needed for past unfounded
+  ideas that don't have evidence to back them."
+- decision: The buildout keeps no ideas for the planner, proposed codebase changes among them,
+  before hypotheses are baselined, and changing the planner for v3 reasons from the baselined
+  hypotheses and from no list of past code ideas. The requirement of 2026-08-31, a home for
+  proposed codebase changes, yields. A factual premise an idea rests on is a hypothesis to mint and
+  never a gate beside the idea. The terminus keeps owning no processes, as the founding record
+  ruled. The entries above apply it: the file closes to the historical folder whole
+  (d-2026-09-12-35), its pointers go (-36, -37), the router says so (-38), and the resumed migration
+  sessions let such ideas go (-39). The new term for what the file held dissolves, no concept
+  remaining to name; and 003's open disposition on its note-state aspiration is settled, let go
+  with the file.
+- not taken: an ungoverned stash of his ideas outside the method, which acts as a prior whatever
+  its label and drifts, as this file did; the file governed inside the method, each entry naming
+  its premises by id and a checker resolving its gates, an epistemic method tracking choices it
+  cannot evidence against wordings that change, and a class across the terminus; an instruction to
+  look for an existing entry before adding one, which keeps the home; a new term for the file's
+  entries, which needs a concept to name.
+
+### An itemizer may utilize other corpora to cut, label and fill a target corpus's items; the study stays that corpus's
+
+- id: d-2026-09-13-1
+- date: 2026-09-13
+- raised by: hypothesis 022's resumed migration, where the session applied the resume file's line
+  that a comparison across corpora is a hypothesis, never a question, to v1 archive text Brian
+  recalled as copy-pasted from Gemini. Brian: "The cross-corpus = hypothesis rule seems wrong or
+  incomplete. I already built the voice attribution tool, and it uses lineage and v1 archive. But
+  it's a tool."; then "Investigate where the 'a comparison across corpora is a hypothesis, never a
+  question' came from, and how does it clash with the fact that I built a deterministic tool that
+  uses two corpora as inputs? It's an itemizer. Perhaps that itemizer can be used for questions in
+  both files? I'm wondering if whatever came upstream of that rule neglected to account for what
+  the voice attribution tool already did." The archive showed the line entering d-2026-09-12-22
+  from an assistant's answer about comparing two verifications' results, in a deliberation that
+  never mentioned the tool; d-2026-09-13-7 carries the trace. `tools/StoryPlanner.VoiceAttribution`,
+  built 2026-09-02, reads the v1 archive, lineage and the dated v1 snapshots and writes one row per
+  v1 note; on 2026-09-08 Brian had typed "attribution.csv is an itemizer which will be used." He
+  ruled: "So this means itemizers can use other corpora to cut a target corpus's data into items.
+  That still makes the study about the target corpus. This needs to supersede any decisions that
+  contradict."; and, asked whether an item may carry a passage another corpus supplies, "Allowed".
+- decision: An itemizer may read corpora besides the one it cuts and use what it reads to cut the
+  target corpus's items, to label them, and to fill their bodies, a passage selected from another
+  corpus included. The items stay the target corpus's, cut through its reader and located by its
+  locators; the study, its question list and its findings are that corpus's, and a finding
+  describes the target corpus's items. A question stays about one corpus's items, whatever else its
+  itemizer read. What such an itemizer may read is d-2026-09-13-2, how its index records it -5, and
+  where its limits are said -6. SKILL.md § Vocabulary's itemizer, preparing-to-verify-a-corpus
+  § itemize and preparing-to-explore-a-corpus § assemble-exploration-batch carry the permission.
+- not taken: the other corpus used only to cut and label, its text never reaching a call, which
+  makes a call that needs the matched passage a study of the other corpus; a study of two corpora,
+  with no one corpus for its id, its question list or its findings to name.
+
+### An itemizer that cuts a CORPORA.md corpus reads corpus data only; a deterministic output over corpus data is corpus data
+
+- id: d-2026-09-13-2
+- date: 2026-09-13
+- raised by: what an itemizer may read under d-2026-09-13-1. Brian: "The inputs to itemizers can
+  only be corpus data." Then, on whether an itemizer may read `attribution.csv`, a committed output
+  of VoiceAttribution, or must recompute from the corpora in its own run, which the session
+  recommended since nothing ties a stored output to the corpus state it was computed from:
+  "Deterministic output counts as corpus data". Drafting this entry, the session found three
+  itemizers reading what is not corpus data, each writing an index whose `corpus` the index schema
+  already carves out: the claiming itemizer over `findings.md` and the referee's over claiming
+  results, findings and hypothesis statements, both `candidates`, and the audit's over the skill's
+  prior text, `skill`. Offered the rule scoped to itemizers that cut a CORPORA.md corpus, Brian:
+  "Go with A".
+- decision: An itemizer whose index names a corpus in CORPORA.md reads corpus data and nothing
+  else: a corpus in CORPORA.md, or the output of a deterministic tool over corpus data, such as
+  `docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv`. A study's leads, results, tallies
+  and findings are never its input, save as the items of `verified-findings`, which is a corpus.
+  The itemizers of `candidates` and `skill` keep the inputs their activities give them. An output
+  is read as it stands, and no state of it or of any corpus is recorded by hash.
+- not taken: recomputing an output inside the itemizer's run, which keeps stored outputs out of the
+  inputs at the cost of rerunning the tool per batch; `candidates` and `skill` counted as corpus
+  data, which puts model results inside the term and undoes the line drawn at deterministic output;
+  the rule general and the referee's item materialised by something other than an itemizer, which
+  reworks surfacing-candidates and its tool to keep one sentence unscoped; a hash of each input,
+  which Brian declined.
+
+### "Never joined" bars MCP tools that merge corpora and identity mappings between them, never a study reading one corpus with another's data
+
+- id: d-2026-09-13-3
+- date: 2026-09-13
+- raised by: d-2026-09-13-1 against CLAUDE.md § The corpora, "Six, and they are **never joined**",
+  and the corpora skill, "never joined — not by the MCP tools, not by the app, not in analysis" and
+  "No tool crosses them". Brian first scoped CLAUDE.md's v1/v2 line: "claude.md's statement is about
+  the ids not matching. It is for using the mcp server, not for the study of the corpora."; then
+  "Never joined is clearly wrong given the itemizer. Perhaps it means literal sqlite joins? Where did
+  that statement come from?" The archive showed the phrase first in an assistant's turn of the MCP
+  server's design, session `4a3d3d61`, after Brian typed "Treat Conversation Reader's contents and
+  the 'story planner proper' as two bifurcated sources of data. Each should have their own tool calls
+  that each invoke independently based on the prompt?" and "maybe tools should reflect that by
+  having different tools for archive versus working?"; and again as "never joined by the tool" after
+  he typed "V1 and V2 do not match each other on purpose. They have different organization
+  principles entirely." and "Is there any other genuine use case for the mapping?" CLAUDE.md recorded
+  it on 2026-07-28 among the MCP design rulings. "not in analysis", "No tool crosses them" and "never
+  silently supported by another" entered on 2026-09-12, written by the session that cut CLAUDE.md into
+  skills after he typed "corpora skill is fine." and "The newly proposed skills are good. Make a copy
+  of the current claude.md for historical purposes and then make the changes directly"; the lines
+  were not shown to him before they were written. CLAUDE.md had already sanctioned a join of source
+  texts to the plan by name and part code. Offered the scope restored, Brian: "Yes".
+- decision: That the corpora are never joined means two things and no more: the MCP server's tools
+  serve each corpus through its own calls and never merge corpora in one result, and no identity
+  mapping is kept between corpora's rows by id or by name, v1 and v2 above all. It is a rule for
+  using the corpora through the MCP server and does not bar a study from reading one corpus with
+  another's data, which d-2026-09-13-1 permits. A claim sourced from one corpus is never supported by
+  another without saying so. CLAUDE.md § The corpora and the corpora skill's opening and its standing
+  rule are brought back to that scope; CLAUDE.md's "v1 and v2 never join" and its MCP design ruling
+  "corpora never joined" stand as written.
+- not taken: the wording of 2026-09-12 kept, which the attribution tool of 2026-09-02 already
+  contradicted; an exception for itemizers beside the unscoped rule, a named exemption where the
+  rule was never meant to reach.
+
+### Narrowing is a condition in the itemizer's code, stated in the index head
+
+- id: d-2026-09-13-4
+- date: 2026-09-13
+- raised by: whether an itemizer may narrow a batch by a label another tool computed, against
+  preparing-to-verify-a-corpus § itemize: "An itemizer never selects by judgment; an authored query
+  in Brian's vocabulary is the only narrowing it may do". The line came from the closed founding
+  record's ruling of 2026-09-05, "The work matrix retires, and with it the investigator and
+  focused-reader cells", where itemizing is "always mechanical, a script or an authored query in
+  Brian's vocabulary"; the vocabulary clause was the session's wording there. Brian: "What does
+  narrowing mean?", then "Narrowing is going to be deterministic, not subjective. It's done by C#
+  code. I don't see how judgement is relevant."
+- decision: Narrowing, the choice of which of a corpus's items a batch holds, is a condition in the
+  itemizer's code, deterministic as every tool is, and the index head states it. The itemize step's
+  clauses on judgment and on Brian's vocabulary leave; that an itemizer carries no judgment stays
+  where building-a-tool's row says it of every tool. This changes the founding record's ruling of
+  2026-09-05 named above only in its words on queries, and supersedes no entry.
+- not taken: a narrowing condition written in Brian's words, a tool's label names usable only once he
+  adopts them, a vocabulary rule over a condition no judgment enters; "never selects by judgment"
+  kept at the step, a guard building-a-tool already holds.
+
+### The index head records what an itemizer utilized, in utilizes corpora and utilizes outputs, unhashed
+
+- id: d-2026-09-13-5
+- date: 2026-09-13
+- raised by: what an index records under d-2026-09-13-1 and -2, its head naming one `corpus` and a
+  `source hash` only when the corpus is one document. The session proposed a repeated line naming
+  each input with a hash. Brian: "The corpora are frozen now."; then "Maybe they aren't totally
+  frozen but I don't really care about hashing. reads can be added. Can it have multiple values?
+  Also reads seems ambiguous, is there a better term?" `reads` is every Processes table's column, and
+  `inputs`, `sources` and `uses` are taken in the skill too. Brian: "I was thinking 'utilizes'. Use
+  two fields"; then "What would it be with one field?", and shown it, "Go with two".
+- decision: The index head gains two optional keys after `corpus`. `utilizes corpora`, a list of
+  enum of the ids in CORPORA.md, names the other corpora the itemizer read to cut, label or fill the
+  items, and never repeats `corpus`. `utilizes outputs`, a list of line, names the deterministic
+  outputs over corpus data it read, one repo-relative path per line. Neither carries a hash, and
+  `source hash` stays as it is. `index.head` also fails when a `utilizes corpora` value is not an id
+  in CORPORA.md or repeats `corpus`, and when a `utilizes outputs` path does not exist at the check.
+  The schema's Example shows both keys. d-2026-09-09-4 still backs the check and is not superseded.
+- not taken: one `utilizes` field of lines the checker sorts into id or path, whose corpus query is a
+  continuation-line match; `reads`, `inputs`, `sources`, `uses`, `cut with` and `drawn from` as the
+  name; a hash per input, or a state marker per corpus declared in CORPORA.md; a freeze of the
+  corpora recorded in CORPORA.md, which Brian did not take up.
+
+### The known limits of what an itemizer utilized are said where each reader looks
+
+- id: d-2026-09-13-6
+- date: 2026-09-13
+- raised by: where the limits of a utilized corpus or output are disclosed, the index holding
+  nothing written by hand. Brian: "What is a limit?" The session's answer: what the utilized data
+  cannot show, known before a batch runs from how a corpus was captured or how a tool works, such as
+  VoiceAttribution's six-word matching, which cannot see paraphrase, and lineage's capture gaps; a
+  shortcoming being what the results reveal afterwards. The readers: the call, given only the
+  directions and the item; the referee, given only a statement and a finding's text; the review and
+  claiming, given the findings file. Brian: "Go with A".
+- decision: A known limit of a utilized corpus or output is said where the reader it bears on looks.
+  The directions' § What you are given tells the call what the utilized data in an item shows and
+  what it does not. A finding states in its own words a limit that bounds it, its text being all the
+  referee receives. A limit the results reveal that was not known is a shortcoming, `corpus` or
+  `itemizer`. The standing caveats stay in CORPORA.md and in the tool's own documentation. No field or
+  section is added; the directions schema's § What you are given and verifying-a-corpus's writing of
+  a finding carry it.
+- not taken: findings' § Method listing each utilized input's limits, which reaches neither the call
+  nor the referee and restates CORPORA.md; an entry in CORPORA.md per deterministic output with its
+  caveats, a schema change where v1-archive's read-by line already names the output and its tool.
+
+### The verified findings are a corpus, explored only; a comparison of what two corpora's results show is not a question
+
+- id: d-2026-09-13-7
+- date: 2026-09-13
+- supersedes: d-2026-09-12-22
+- raised by: d-2026-09-13-1, which found d-2026-09-12-22's "a comparison across corpora is a
+  hypothesis whose evidence arrives from each corpus through claiming, never a question" too wide.
+  The archive traced it to session `f858ef43` on 2026-09-12. Brian typed "A cross corpus comparison
+  question does not seem valid for the way I am using question for corpora which requires rigor. So
+  is this a different kind of question?"; the assistant answered that such a comparison's answer is a
+  relation between two verifications' results and offered, as its option 1, a hypothesis predicting
+  the relation; he turned to what the verified artifacts were, and his rulings that followed were on
+  the findings corpus alone. The entry carried option 1 in its decision; it was written on his "Yes
+  write them" and shown to him afterwards as its title in a table. Offered his own typed position as
+  the replacement, Brian: "Go wit hA".
+- decision: A question is about one corpus's items; a comparison of what two corpora's results show
+  is not a question, and this entry does not decide what it is. The standing findings of every
+  verification are a corpus, `verified-findings`, in CORPORA.md: each finding entry one item,
+  located by its `<study>/<slug>` heading in its study's `findings.md`, standing as of the
+  itemizer's run. It is explored only, never verified, CORPORA.md's caveat giving the reason: a
+  finding about findings could be promoted beside the finding it is about, counting one piece of
+  evidence twice. Findings of different verifications rest on different items under different
+  directions, so a pattern across them is a lead, never a joined claim, and a finding withdrawn after
+  the run is caught at the lead review. preparing-to-explore-a-corpus has no clause for the verified
+  artifacts of promoted verifications. The itemizer across studies is the first task of the first
+  study that needs it. `registry.type` holds that a study's type is the one its id's prefix names,
+  with no referee case; `registry.corpus` holds that the corpus cell is an id in CORPORA.md, or
+  `skill` for an audit, with no `verified-artifacts` value. The clause of d-2026-09-09-12 on
+  `hypothesis.evidence.citation` stays retired by d-2026-09-11-15.
+- not taken: the old line bounded to results, "a hypothesis whose evidence arrives from each corpus
+  through claiming", which keeps an assistant's option as a rule; the sentence dropped, leaving the
+  comparison unmentioned beside a question defined by one corpus's items.
+
+### The index head states narrowing in an optional narrowing line
+
+- id: d-2026-09-13-8
+- date: 2026-09-13
+- raised by: applying d-2026-09-13-4 and -5, the session found no head key where narrowing could be
+  stated: preparing-to-verify-a-corpus had said "the query is stated in the index's head" since
+  2026-09-05, and d-2026-09-09-4's head never carried one. The two itemizers built so far narrow
+  without stating it, each appending its invocation to the `itemizer` line. Offered a new key, the
+  `itemizer` line, or no statement in the index with -4 corrected, Brian: "Go with A".
+- decision: The index head gains an optional key, `narrowing`, a line, after `utilizes outputs` and
+  before `locator notation`: in words, the condition in the itemizer's code that chooses which of
+  the corpus's items the batch holds; absent when the itemizer cuts every item of its corpus.
+  `index.head` holds its place in the key order, and d-2026-09-09-4 still backs the check.
+- not taken: the condition in the `itemizer` line with the invocation, readable only as far as the
+  arguments are; no statement in the index, the itemizer's commit standing for the condition, which
+  corrects -4's "stated in the index head".
+
+### Where claim meant an assertion, the skill folder uses the more specific word
+
+- id: d-2026-09-13-9
+- date: 2026-09-13
+- raised by: a session's reports using the word two ways. Brian: "You're using 'claim' a lot. But
+  this isn't in the Vocabulary section of the skill file. Are you using it to refer to multiple
+  different things? Is there text that refers to the word claim?"; then "There are two things to
+  sort out: which of the sense 2 usages can be replaced with an existing word that is more
+  specific, and then, once that is done, whether the remaining usages should stay as ordinary and
+  sense 1 gets a proper vocab defined, or if claim stays as the sense 1 and goes in as vocab."; and,
+  on the rewords proposed, "I agree with all the rewords in Groups A and B." The trace: sense 1, the
+  claiming batch's unverified (finding, hypothesis) pair, is Brian's typed word of 2026-09-10
+  (d-2026-09-10-3); every use of `claim` as an ordinary assertion in the skill folder was a
+  session's, the oldest from the epistemic section of 2026-08-31; neither sense is in § Vocabulary.
+- decision: Where the skill folder uses `claim` for an assertion and an existing word names the
+  thing, that word replaces it: § Vocabulary's *dispute* is raised against a finding, a result or a
+  lead; *lead* is never a finding; rule 3's study is one whose leads or findings are about a corpus,
+  or about the method; minting-a-hypothesis asks whether evidence could bear on the statement;
+  iterating-a-statement's Preconditions speak of a sharper statement; exploring-a-corpus § Never
+  reads says what a lead means for a hypothesis, the file's own wording in its procedure;
+  findings-schema's Proposed questions are none of them a finding; verifying-a-corpus's
+  write-findings puts under Proposed questions what the data raised that is not a finding; and
+  CORPORA.md's `verified-findings` reads a pattern across findings as a lead and never a finding.
+
+  Where no word names it, the noun goes: hypothesis-file-schema § Hypothesis carries no evidence for
+  the statement; its list for § Origin bars nothing asserted that the statement does not carry;
+  findings-schema's sections table has Proposed questions hold what no finding states; and the
+  schema's Example has its iteration reason read what I actually hold. SKILL.md's opening sentence
+  of the epistemic framework is d-2026-09-13-10's. decisions.md, CLAUDE.md and the skills outside
+  this folder keep their uses, § Vocabulary governing the folder alone.
+- not taken: the ordinary sense kept beside sense 1 in one folder, the shape d-2026-09-12-14
+  declined as two senses of a defined word; `assertion` as the replacement noun, the word rule 10
+  uses for a question, which would read every question as a hypothesis; rewording decisions.md,
+  relied on under rule 9.
+
+### The epistemic framework opens by saying recall and unverified output are not evidence
+
+- id: d-2026-09-13-10
+- date: 2026-09-13
+- raised by: SKILL.md's opening `Every claim is a hypothesis with an evidence relationship`, the one
+  ordinary use of `claim` no existing word replaced under d-2026-09-13-9. Brian: "Then the skill's
+  use of claim at line 25 should be replaced with something related to recall and unverified
+  leads. That's what the spirit is about. Past failure modes is treating my recall or an LLM's
+  results as fact. The new epistemic framework makes a distinction."; and, shown a draft, "THe
+  draft works". The distinction already stood in four places, none of them the opening: the bold
+  sentence that only verified evidence moves a hypothesis, rule 2, rule 8 and the recall paragraph.
+- decision: The first paragraph of SKILL.md § Epistemic framework (applied), after its Scope
+  paragraph, reads:
+
+  **Recall and unverified output are not evidence.** What Brian remembers, what a session or a
+  model concluded without verification, and what an exploration saw as leads may raise a question
+  or a hypothesis, and never move one: only verified evidence does. A hypothesis file holds a
+  statement and its evidence relationship together: the statement, current and edited in place;
+  the record, dated entries never edited, which *is* the evidence relationship rather than a
+  history of it; and a status computed from the record.
+
+  The bold sentence `Only verified evidence moves a hypothesis.` later in the section is deleted,
+  the opening now saying it; the rest of its paragraph stands. The sentence draws its line by
+  verification and not by who produced the text: the results of calls under calibrated directions
+  are the verified layer (d-2026-09-09-15), so a model's output is not unverified as such.
+  CLAUDE.md's matching line is unchanged.
+- not taken: a neutral opening about the hypothesis file with the distinction left where it
+  already stood, which leaves the spirit Brian named unstated at the head of the section; the recall
+  paragraph moved up in place of the sentence, which puts the grounding procedure ahead of the
+  statuses it is read against; the later bold sentence kept, a second statement of the opening's
+  rule; `results` as the word for what a model produced, a word § Vocabulary gives to the verified
+  layer.
+
+### A statement about the data that has not been checked is unverified, not a hypothesis
+
+- id: d-2026-09-13-11
+- date: 2026-09-13
+- raised by: the framing of d-2026-09-13-10, after which two sentences use the name of an artifact in
+  its ordinary sense: the recall paragraph's `is a hypothesis about what the data says` and rule
+  8's `is the hypothesis under test`. Brian typed neither: rule 8's phrase entered revision 1 on
+  2026-09-03 in a session's wording and was carried verbatim, and the recall paragraph's came with
+  the epistemic section of 2026-08-31. His own typing on the point: "If it's my recall, it's
+  logically not evidence." (2026-08-31) and "my recall is only atmosphere, not grounding"
+  (2026-09-06). Brian: "Option 1 works".
+- decision: The recall paragraph of SKILL.md reads that a statement about the data from anyone,
+  Brian from memory, a prior session, a memory file, this skill or any document, is unverified until
+  it is checked at its source; the procedure after it is unchanged. `Unverified` is the word the
+  opening of d-2026-09-13-10 and rule 3 already use. Rule 8's wording is d-2026-09-13-12's.
+  d-2026-09-08-22's phrase `a hypothesis under rule 8` keeps its words, and its ruling, that a
+  recall about the method is checked against the archive before a decision rests on it, stands.
+- not taken: the ordinary use of `hypothesis` left beside the artifact of that name, the collision
+  d-2026-09-13-9 removed for `claim`.
+
+### Brian's recall is never evidence, and may raise a question or a hypothesis through minting
+
+- id: d-2026-09-13-12
+- date: 2026-09-13
+- raised by: the opening of d-2026-09-13-10, under which recall may raise a question or a
+  hypothesis, set against rule 8 and three activity files that route recall to a question alone.
+  minting-a-hypothesis already admits Brian's own statement as what raises a hypothesis, and the
+  resume pass rebuilt 041 from his recall with him, on "I'm leaning towards mostly scrap,
+  actually."; on 2026-09-13 he typed of another chain "does this require a lean to be written as a
+  hypothesis? Is there a lean in the chain?" Brian: "Option 1 works".
+- decision: Rule 8 reads: **Never derive from recall.** Brian's recall is never evidence: it may
+  raise a question, or a hypothesis through minting, and a study tests it. Minting's testability
+  criterion is what keeps a recall that makes no prediction out of the set; no rule names a lean.
+  Brought current in the same write: reviewing-leads' procedure, where his recall enters as a
+  question with its provenance, or goes to minting when he states a prediction, and its § Never,
+  which reads enters recall as a lead, a finding or evidence; reviewing-findings, where a recall the
+  data does not bear out becomes a question, or a hypothesis through minting, if it is worth
+  pursuing, and otherwise nothing, recall still entering as the check and never as the finding; and
+  asking-a-question's § Never, which reads enters his recall as a finding or evidence.
+- not taken: recall routed to a question alone, with d-2026-09-13-10's opening narrowed to match,
+  which would send a hypothesis grounded in Brian's memory through a study's leads before it could
+  be minted, against minting's own precondition and the rebuilt 041; a lean named in the rule, when
+  the referee's test already refuses a recall that predicts nothing.
+
+### Claim and candidate enter § Vocabulary as the funnel's words, and the sites misusing them follow
+
+- id: d-2026-09-13-13
+- date: 2026-09-13
+- raised by: d-2026-09-10-3, which named the funnel's steps in Brian's words, "I like the idea of the
+  NxM judgement creating 'claims' (means unverified), and only after the referee they become
+  'candidates' (eligible to become evidence)", and entered neither word in § Vocabulary. With
+  d-2026-09-13-9 and -10 applied, the folder uses `claim` in that sense alone. Three sites still used
+  `candidate` for the unrefereed pair, which d-2026-09-10-3's not-taken list refused; two wrote
+  claiming as the funnel does not work; and § Vocabulary's *finding* ends on a step named before
+  claiming existed. Brian: "Yes, option 1 makes sense".
+- decision: § Vocabulary gains two entries after *finding* and before *falsifier*:
+
+  - **claim**: a (finding, hypothesis) pair a claiming call named, asserting only that the finding
+    bears on the hypothesis, never in which direction; unverified; a claiming batch's results are
+    its claims, and the referee judges each.
+  - **candidate**: a claim the referee judged diagnostic, supporting or challenging, and so eligible
+    for promotion; a claim judged non-diagnostic is refereed and is not a candidate.
+
+  *finding* ends the only input of claiming. Brought to the definitions in the same write: rule 2,
+  under which evidence enters a hypothesis record only from a verification's finding, claimed,
+  judged a candidate by a fresh-context referee, and promoted in a session with Brian deciding each
+  one; surfacing-candidates' assess-referee-items, which classifies the claim; iterating-a-statement's
+  assess-reverify-items, which classifies the entry's finding against the proposed wording, its
+  items being evidence entries re-judged and neither claims nor candidates; findings-schema's head,
+  where a finding never names a hypothesis, which claiming does; and CORPORA.md's
+  `verified-findings`, where a finding about findings could be promoted beside the finding it is
+  about, as d-2026-09-13-7 words it. Nothing in the tool reads § Vocabulary, and no check is added
+  or changed.
+- not taken: sense 1 renamed, a reason that left with the last ordinary use, and a rename of
+  `assemble-claim-batch`, `assess-claim-items`, the SurfacingItemizer's `claim` subcommand and the
+  composed view's section against Brian's typed word; `claim` alone in § Vocabulary, leaving
+  undefined the word that still carried the refused sense.
+
+### Rule 3's guard on the buildout's own outputs names verified-findings
+
+- id: d-2026-09-13-14
+- date: 2026-09-13
+- raised by: rule 3's `reads verified artifacts only`, a value d-2026-09-12-22 retired, its standing
+  successor d-2026-09-13-7 making the standing findings of every verification a corpus,
+  `verified-findings`, explored only; found while framing d-2026-09-13-9's reword of the same
+  sentence. Brian: "Yes, option 1 makes sense".
+- decision: Rule 3's second sentence reads: A study over the buildout's own outputs whose leads or
+  findings are about a corpus reads `verified-findings` only; one whose leads or findings are about
+  the method is not so guarded. d-2026-09-13-2, that an itemizer cutting a CORPORA.md corpus reads
+  corpus data only, is unchanged and holds the same line at the itemizer.
+- not taken: the retired value left in a constitutional rule, naming a corpus CORPORA.md does not
+  carry.

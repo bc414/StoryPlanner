@@ -6,7 +6,7 @@ Enables reviewing-findings.
 |---|---|---|---|---|---|---|
 | assemble-full-batch | session | runner tool-source | studies directions calibration corpus | definition index items calls tally | specified | On Brian's go: the batch made and handed off. The definition written naming the accepted version and its calibration; the itemizer run once into the batch; dry-run-batch; execute-batch, after which the host calls every item and writes the tally when the last has a result |
 | assess-items | agent | | directions items | results | specified | One call per item: the directions as its system prompt, the item as its message, the answer in the declared fields; an item the criteria cannot place goes to the class reserved for it; the only writer of results |
-| write-findings | session | | definition index calls results tally question-list | findings | specified | The analysis: every result read through the tally and the index with the questions in view, and what the data shows written as findings, null results included, each citing the tally sections and items it rests on; what the data raised as proposed questions; what the results showed wrong with the instrument as shortcomings; never what a finding means for a hypothesis |
+| write-findings | session | | definition index calls results tally question-list | findings | specified | The analysis: every result read through the tally and the index with the questions in view, and what the data shows written as findings, null results included, each citing the tally sections and items it rests on and stating any known limit of utilized data that bounds it; what the data raised as proposed questions; what the results showed wrong with the instrument as shortcomings; never what a finding means for a hypothesis |
 
 ## Preconditions
 
@@ -49,8 +49,11 @@ contrast between classes, an answer that is null stated as plainly as one that i
 finding that answers a frozen question names it; one the data raised names none; one
 bearing on two questions is two findings. Each cites what it rests on, the tally section as
 `<study>/<batch> § <field>` and the items as `<study>/<batch>/<item>`, whose locators the
-index gives. Per-item results and counts are cited, never copied. What the data raised
-that is not yet a claim goes under Proposed questions. Where the results show the study's
+index gives. Where the items carried data from a corpus or an output the itemizer utilized,
+a finding that rests on it states in its own words the known limit that bounds it, since
+its text is all the referee receives: a count of notes with no matched source is not a
+count of notes no model wrote. Per-item results and counts are cited, never copied. What the data raised
+that is not a finding goes under Proposed questions. Where the results show the study's
 own instrument wanting, the reserved class filling, a criterion the results split on, a
 frozen question the fields cannot answer, an item cut wrong, a sample that never held a
 case the batch did, the session writes it under Shortcomings, naming the part, as a fact

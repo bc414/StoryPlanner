@@ -57,7 +57,7 @@ referee's calibration was it.
 
 Instructed by the referee's directions body as its system prompt and nothing else; no tools, no
 MCP. Given the statement and the finding, it writes the falsifier — what the finding would have
-been if the statement were false — and classifies the candidate by which side of that observable
+been if the statement were false — and classifies the claim by which side of that observable
 the finding shows, or non-diagnostic if no such observable can be named or the finding is
 consistent with both. Tuned to over-flag: a false non-diagnostic costs one decision of Brian's;
 a false diagnostic costs a hypothesis's record.

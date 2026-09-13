@@ -22,9 +22,11 @@ architecture* (how it is represented). Framework hypotheses come first; codebase
 implications follow. Nothing in the current framework vocabulary is settled by appearing
 authoritatively in CLAUDE.md or a track definition — the buildout may revise any of it.
 
-**Every claim is a hypothesis with an evidence relationship.** A hypothesis file holds the
-claim and that relationship together: the statement, current and edited in place; the
-record, dated entries never edited, which *is* the evidence relationship rather than a
+**Recall and unverified output are not evidence.** What Brian remembers, what a session or a
+model concluded without verification, and what an exploration saw as leads may raise a question
+or a hypothesis, and never move one: only verified evidence does. A hypothesis file holds a
+statement and its evidence relationship together: the statement, current and edited in place;
+the record, dated entries never edited, which *is* the evidence relationship rather than a
 history of it; and a status computed from the record. Three statuses:
 
 - `untested` — no verified evidence bound to the current wording.
@@ -37,7 +39,7 @@ An entry is bound to the wording it was verified against. An iteration entry is 
 boundary: nothing above it is invalidated, and nothing above it counts toward the status
 until re-verified against the new wording. A reworded hypothesis with no re-verified
 entries is `untested`, honestly, with its whole prior record still in the file.
-**Only verified evidence moves a hypothesis.** Baselining is a separate field: Brian's dated
+Baselining is a separate field: Brian's dated
 judgment that the evidence picture is sufficient to act on. It is progress tracking, not
 epistemology — it adds no weight, removes no challengeability, is not endorsement of truth,
 is itself bound to a wording, and resets to `false` when a challenging entry lands or the
@@ -45,8 +47,8 @@ wording changes. Only Brian baselines; a session may name candidates ("verified 
 open challenge — review for baselining") and never sets the field.
 
 **Recall is atmosphere; evidence is grounding.** A statement about the data from anyone —
-Brian from memory, a prior session, a memory file, this skill, any document — is a
-hypothesis about what the data says. Before acting on it: query the source, compare, present
+Brian from memory, a prior session, a memory file, this skill, any document — is
+unverified until it is checked at its source. Before acting on it: query the source, compare, present
 the discrepancy to Brian, proceed on the grounded version once he has seen it. Nothing is
 exempt, including this file. Grounding connectors include the MCP server, the local corpora
 named in `CORPORA.md`, `codesessions.db` by sqlite3, and web search; CLAUDE.md carries
@@ -60,17 +62,17 @@ These hold in every session type. A companion file elaborates; none overrides.
    interesting, whether a flagged note is resolved, what is written to a `.storyplan`, and
    anything else CLAUDE.md reserves to him — that list is not exhaustive either.
 2. **Strong form: only verification produces evidence.** Exploration produces leads.
-   Evidence enters a hypothesis record only as a candidate written from a verification,
-   checked by a fresh-context referee, and promoted in a session with Brian in the
+   Evidence enters a hypothesis record only from a verification's finding, claimed, judged a
+   candidate by a fresh-context referee, and promoted in a session with Brian in the
    loop deciding each one. Nothing else writes to `docs/v3-framework/hypotheses/`. Every
    candidate of every verification is judged under the same referee directions at the
    same hash: the referee is one part of the method, and a verification runs it and never
    authors it.
 3. **Verification debt.** A corpus whose exploration has run but whose verification
    has not is *unverified*: nothing cites its leads as evidence. A study over the
-   buildout's own outputs that makes a claim about a corpus reads verified artifacts only;
-   a claim about the method is not so guarded. Questions flow freely between corpora;
-   leads wait.
+   buildout's own outputs whose leads or findings are about a corpus reads
+   `verified-findings` only; one whose leads or findings are about the method is not so
+   guarded. Questions flow freely between corpora; leads wait.
 4. **Directions are calibrated or piloted before their first batch.** A verification's
    directions are authored in a session with Brian, against real items, calibrated against
    his blind verdicts before their first full batch, versioned by number and by the hash
@@ -92,8 +94,8 @@ These hold in every session type. A companion file elaborates; none overrides.
    examples of what lies outside it, not the whole list. When a discussion turns to story
    content, the session steers it to what that content asks of the framework, such as whether
    the planner's tracks support it, or says it is out of scope.
-8. **Never derive from recall.** Brian's recall about his own practice is the hypothesis
-   under test, not evidence for it; it goes to a question list as a question.
+8. **Never derive from recall.** Brian's recall is never evidence: it may raise a question,
+   or a hypothesis through minting, and a study tests it.
 9. **Every artifact declares its mutation, and honours it.** An artifact is edited in
    place, succeeded by a numbered replacement, appended to, or frozen, and its table row
    says which. Appended and frozen artifacts are never edited, save that an entry a session
@@ -288,7 +290,8 @@ the runner and is read in full by any process that invokes it.
   declared fields.
 - **tally**: the runner's counts over a batch's results.
 - **itemizer**: code with tests under `tools/` that cuts a corpus into items, run once per
-  batch into the batch's folder.
+  batch into the batch's folder; it may read other corpora and deterministic outputs over
+  corpus data to cut, label and fill the items, which stay the cut corpus's.
 - **comparison**: two studies over the same items read against each other: by the tally
   where they share their directions, at the review for two explorations, or by a study of
   its own where judgment is needed.
@@ -308,7 +311,7 @@ the runner and is read in full by any process that invokes it.
   the session with what it names and never changed; each class's schema says where it is
   unique.
 - **lead**: what was seen and what it was seen in, in words; the output of exploration;
-  an idea for a question and for what to itemize; never a claim, never checked at an
+  an idea for a question and for what to itemize; never a finding, never checked at an
   address.
 - **question**: Brian's testable question about one corpus, in its question list.
 - **predicate**: the test a directions version freezes for one question and a classifier
@@ -316,14 +319,19 @@ the runner and is read in full by any process that invokes it.
 - **finding**: a conclusion a session drew over a verification's results and tally, the
   verified layer, with the questions in view: a count, a pattern, a contrast, a null
   answer; in the verification's findings file, cited by token, checked at the review,
-  never edited, withdrawn or superseded; the only input of a candidate.
+  never edited, withdrawn or superseded; the only input of claiming.
+- **claim**: a (finding, hypothesis) pair a claiming call named, asserting only that the
+  finding bears on the hypothesis, never in which direction; unverified; a claiming batch's
+  results are its claims, and the referee judges each.
+- **candidate**: a claim the referee judged diagnostic, supporting or challenging, and so
+  eligible for promotion; a claim judged non-diagnostic is refereed and is not a candidate.
 - **falsifier**: what the finding would have been if the statement were false, written
   blind by the referee.
 - **evidence**: a promoted finding, in a hypothesis record.
 - **challenge**: verified evidence, bound to the current wording, that disagrees with the
   statement; it is carried by an evidence entry tagged `challenging`, it puts the hypothesis
   in `challenged`, and only a reword clears it.
-- **dispute**: what Brian raises in a review against a claim in an artifact, and the session's
+- **dispute**: what Brian raises in a review against a finding, a result or a lead, and the session's
   return to the source to report what it shows: a finding, checked against the results, the
   tally and the items it cites; a result, checked at its item's locator; or a lead, checked
   against the corpus. It is never evidence and never reaches a hypothesis.
@@ -335,9 +343,8 @@ This skill is the instruction; its provenance lives outside it and is read in on
 activity. `docs/v3-framework/decisions.md` holds the method's decisions, written and
 read only in revising-the-method; `docs/v3-framework/methodology-revision-N.md` is each
 revision's write-once note. `docs/v3-framework/` also holds what the buildout produces:
-`hypotheses/`, `questions/`, `studies.md` and the study folders under `studies/`, the
-referee's folder, and `implementation-candidates.md` (codebase changes gated on baselined
-hypotheses — they enter the ordinary feature process, never this skill).
+`hypotheses/`, `questions/`, `studies.md` and the study folders under `studies/`, and the
+referee's folder.
 `docs/v3-framework-historical/` holds everything closed: the founding record of decisions
 and of questions, the retired plans and handoffs, the retroactive explorations and the two
 audit batches of 2026-09, cited as history and never as the method. There is no plan: what
@@ -355,4 +362,7 @@ lands anywhere autonomously, and nothing survives in a handoff.
 
 Story content decisions; prose technique; planner features (a hypothesis supplies evidence,
 CLAUDE.md, `wpf-conventions` and FEATURE-AUDIT supply governance); declaring conclusions.
-Every finding is a hypothesis until Brian baselines it, and baselining is his.
+Every finding is a hypothesis until Brian baselines it, and baselining is his. The buildout
+keeps no record of ideas for the planner, Brian's or a session's: changing the planner for v3
+reasons from baselined hypotheses alone, and a factual premise an idea rests on may be offered
+for minting, where the idea itself is refused as a prescription.

@@ -12,13 +12,59 @@ None: `docs/v3-framework/iterations/` does not exist.
 
 ## Corpora
 
-### v1-archive
+### code-sessions
 
 1 open, 0 withdrawn.
 
 | question | covered by (calibrated directions) | answered by (verification) |
 |---|---|---|
+| decisions-against-assistant-leans | nothing | nothing |
+
+### conversations
+
+1 open, 0 withdrawn.
+
+| question | covered by (calibrated directions) | answered by (verification) |
+|---|---|---|
+| analysis-loop-pattern | nothing | nothing |
+
+### lineage
+
+2 open, 0 withdrawn.
+
+| question | covered by (calibrated directions) | answered by (verification) |
+|---|---|---|
+| analysis-loop-pattern | nothing | nothing |
+| prompts-behind-copied-responses | nothing | nothing |
+
+### own-fiction
+
+1 open, 0 withdrawn.
+
+| question | covered by (calibrated directions) | answered by (verification) |
+|---|---|---|
+| narrator-register-or-focalizer-voice | nothing | nothing |
+
+### v1-archive
+
+4 open, 0 withdrawn.
+
+| question | covered by (calibrated directions) | answered by (verification) |
+|---|---|---|
 | scene-detail-scrap-rate | nothing | nothing |
+| own-voice-registers-mixed | nothing | nothing |
+| note-relationships-in-prose | nothing | nothing |
+| humor-warmth-prior-belief-setups | nothing | nothing |
+
+### working-plan
+
+3 open, 0 withdrawn.
+
+| question | covered by (calibrated directions) | answered by (verification) |
+|---|---|---|
+| note-relationships-in-prose | nothing | nothing |
+| notes-mix-cognitive-modes | nothing | nothing |
+| goals-no-track-type-names | nothing | nothing |
 
 ## Hypotheses
 
@@ -28,34 +74,26 @@ Nothing here is authored: status and baselined are read from the entries below t
 |---|---|---|---|
 | 001 | planner-purpose-trajectories | untested | false |
 | 002 | epistemic-method-provenance | untested | false |
-| 003 | epistemic-vocabulary-for-content | untested | false |
-| 004 | working-cadence-sweeps | untested | false |
-| 005 | recall-vs-evidence | untested | false |
+| 003 | world-law-canon-historicism-negotiation | untested | false |
 | 006 | four-factor-decomposition | untested | false |
 | 007 | version-labels-as-bookmarks | untested | false |
 | 008 | framework-vs-pipeline-separable | untested | false |
 | 009 | v3-tooling-decouples-factors | untested | false |
 | 010 | model-intrinsic-properties | untested | false |
-| 011 | model-comparison-convergence | untested | false |
+| 011 | skills-patch-tool-use-not-voice | untested | false |
 | 012 | constitutional-ai-constraint | untested | false |
-| 013 | fable-role | untested | false |
-| 014 | evidence-based-instruction-design | untested | false |
-| 015 | acceptance-signals | untested | false |
-| 016 | data-source-unification | untested | false |
+| 014 | unprompted-claude-skips-checking | untested | false |
 | 017 | desktop-vs-code-split | untested | false |
-| 018 | target-usage-loop | untested | false |
 | 019 | ai-context-contradiction | untested | false |
 | 020 | voice-separation-prerequisite | untested | false |
-| 021 | five-voice-registers | untested | false |
-| 022 | voice-treatment-protocol | untested | false |
-| 023 | three-concern-separation | untested | false |
+| 021 | four-voice-registers | untested | false |
+| 023 | technique-mechanism-goal | untested | false |
 | 024 | dimensional-vs-hierarchical | untested | false |
 | 025 | mechanism-hierarchy-is-complexity | untested | false |
 | 026 | three-axis-independence | untested | false |
 | 027 | cognitive-mode-principle | untested | false |
 | 028 | variable-focalization-master | untested | false |
 | 029 | perception-gap-delivery | untested | false |
-| 030 | narrator-character-blend | untested | false |
 | 031 | dt-knowledge-asymmetry | untested | false |
 | 032 | first-person-m4-effects | untested | false |
 | 033 | non-thematic-goal-categories | untested | false |
@@ -68,12 +106,10 @@ Nothing here is authored: status and baselined are read from the entries below t
 | 040 | fabula-dialogue-replacement | untested | false |
 | 041 | scene-detail-scrap-rate | untested | false |
 | 042 | editor-modes-evaluation | untested | false |
-| 043 | note-design-relationships | untested | false |
 | 044 | bespokeness-tension | untested | false |
 | 045 | keep-notes-provenance | untested | false |
 | 046 | dt-two-classes | untested | false |
 | 047 | uncorrelated-failure-modes | untested | false |
 | 048 | self-administered-discrimination-bias | untested | false |
-| 049 | instruction-stack-contamination | untested | false |
 | 050 | context-penalty-model-interaction | untested | false |
 

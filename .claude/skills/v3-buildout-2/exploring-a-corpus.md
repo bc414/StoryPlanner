@@ -42,5 +42,5 @@ questions as proposals. From one result the file is that result's leads as rende
 
 ## Never
 
-Writes a question into a list; writes a candidate or evidence; makes a claim about a
+Writes a question into a list; writes a candidate or evidence; says what a lead means for a
 hypothesis; cites a lead at an address; runs an exploration in the repo.

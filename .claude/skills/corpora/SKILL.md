@@ -5,9 +5,10 @@ description: The six corpora around the planner — the working plan, the v1 arc
 
 # The corpora
 
-Six bodies of text sit around the planner. They are **never joined** — not by the MCP tools, not
-by the app, not in analysis. Each answers a different question, and a claim sourced from one is
-never silently supported by another.
+Six bodies of text sit around the planner. Each answers a different question. They are **never
+joined through the MCP server**: its tools serve each corpus through its own calls and never merge
+corpora in one result, and no identity mapping is kept between corpora's rows by id or by name. A
+claim sourced from one is never supported by another without saying so.
 
 | # | corpus | holds | read by |
 |---|---|---|---|
@@ -137,9 +138,12 @@ governs what may be quoted as Brian's words and what may be inferred from a sele
 
 ## The standing rules
 
-- **Corpora are never joined.** No tool crosses them, and a claim from one is never supported by
+- **Corpora are never joined through the MCP server.** No MCP tool merges corpora in one result,
+  no identity mapping is kept between their rows, and a claim from one is never supported by
   another without saying so. v1 and v2 in particular share no ids, overlap ~40% by name, and no
-  join is wanted.
+  join is wanted. This governs using the corpora, not studying them: a v3 buildout itemizer may
+  read one corpus with another's data (the `v3-buildout-2` skill, preparing-to-verify-a-corpus
+  § itemize), as VoiceAttribution reads the v1 archive against lineage.
 - **Retrieval, not suggestion.** A tool over a corpus answers *"what is here"*, never *"what
   should you do"* or *"what's interesting"*. Never rank parts by likely yield, propose what to
   write from a passage, or propose a citation.

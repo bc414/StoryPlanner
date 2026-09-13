@@ -38,7 +38,10 @@ The batch folder under the study, `batches/<nn>-<slug>/`, its definition naming 
 directions by path, the study's model and effort, and the MCP server when the item is what
 to read through it. The itemizer runs once into the folder: for slices a tool with tests
 that cuts the corpus into one item each; for one item, a tool that concatenates a file
-corpus's texts or writes the item as what to read and how. Then, per the `agent-runner`
+corpus's texts or writes the item as what to read and how. It reads corpus data only, and
+may read other corpora and deterministic outputs over corpus data to cut, label and fill
+the items, as preparing-to-verify-a-corpus § itemize says, naming them and any narrowing in
+the index head; the exploration stays the cut corpus's. Then, per the `agent-runner`
 skill, dry-run-batch, and for slices execute-batch naming one item. Brian reads that
 result and says whether the directions produce leads of the shape wanted; directions he
 sends back are a new version and a new batch, since a definition is never edited. A

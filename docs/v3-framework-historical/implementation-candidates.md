@@ -73,7 +73,7 @@ Source: synthesis plan downstream section (2026-08-29)
 
 ### Instructional text audit
 
-**Gated on:** 014 (evidence-based-instruction-design)
+**Gated on:** 014 (unprompted-claude-skips-checking)
 
 Iterative review of the full instructional text stack against v3 framework
 findings. Two consumers:
