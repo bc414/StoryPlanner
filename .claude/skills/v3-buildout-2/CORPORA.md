@@ -63,8 +63,8 @@ CLAUDE.md.
 - where: the archive file the MCP configs name
 - read by: the MCP server (`*_archive` tools); `tools/StoryPlanner.VoiceAttribution` with the `v1-archive-mining` skill for attribution, its evidence set `docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv`
 
-`Confirmed` in the archive means review closed with the disposition not recorded; v1 and
-v2 never join (CLAUDE.md). Dated snapshots of the v1 database,
+`Confirmed` in the archive means review closed with the disposition not recorded (CLAUDE.md);
+v1 and v2 rows never correspond by id or by name (the `storyplan-data` skill). Dated snapshots of the v1 database,
 `TheLionessOfTallTale yyyy-MM-dd.db` in `source_material_references/v1 sqlite/`,
 downloaded from Google Drive, are read raw and immutable by VoiceAttribution, every TEXT
 column of every table except `GeminiEntries`, to date each archive note's first

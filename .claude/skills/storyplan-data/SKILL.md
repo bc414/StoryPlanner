@@ -147,7 +147,7 @@ and a real `Stories` table (`Id`, `Title`, `Abbreviation`, `ColorHex`, `OrderInd
 meaning "(Unassigned)" (see `UnassignedStory` in `Story.cs`) — not a missing reference, and not
 evidence a backfill is incomplete. **v1 and v2 have independent Stories tables, never joined or
 id-shared** — a story of the same name in both files (e.g. "The Lioness of Tall Tale") is a
-coincidence for the reader, not a correspondence, consistent with "v1 and v2 never join" above.
+coincidence for the reader, not a correspondence, consistent with "v1 and v2 rows never correspond" below.
 
 **Still a known orphan model** (confirmed absent from `.tables`): `SubjectCluster`
 (`Models/SubjectCluster.cs`) has no `DbSet<>` in `AppDbContext.cs`, so EF never created a table
@@ -174,8 +174,9 @@ queries — an exporter, a renderer, a migration and an MCP tool all have to hon
   disclosed; content requires the flagged tool family. `FlagReason` is itself a corpus Brian
   drafts into. The pocket reader is the deliberate exception: it shows flagged notes in full,
   marked, because the wall is for LLM consumers and that is the author reading his own data.
-- **v1 and v2 never join.** Different organizing principles on purpose; no id correspondence,
-  ~40% name overlap, and no join is wanted.
+- **v1 and v2 rows never correspond.** Different organizing principles on purpose: no id
+  correspondence, and a name that appears in both files does not make a v1 row and a v2 row the
+  same subject, story or note. That no MCP tool joins them is the `corpora` skill's rule.
 - **The scene graph is in v1** (1,125 links); v2 holds the taxonomy. Migrating it is Brian's
   future authorial work — matching v1 links to v2 subjects/plot points is categorization, not a
   mechanical operation, and no tool should propose the mapping. **The track definitions are final

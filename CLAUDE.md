@@ -91,7 +91,6 @@ migrates plan data.**
 - **0 `Confirmed` notes in v2 is not a defect.** No audit pass has run. Surprising ≠ broken.
 - **Flagged notes are walled wherever an LLM consumes data.** Counts are disclosed; content
   requires the flagged tool family.
-- **v1 and v2 never join.** No id correspondence, ~40% name overlap, and no join is wanted.
 - **World dates are structured**, and range intersection is `WorldDateRange` — shared by the app
   and the MCP server so the two can never disagree. Both its comparisons are strict.
 - **POV, theater, narrative-property values and subject relations are authorial.** Never derive
