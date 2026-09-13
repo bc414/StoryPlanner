@@ -25,10 +25,9 @@ The title is `# <batch> — definition`, `<batch>` the folder's own name.
 | `calibration` | optional: present exactly when `kind` is `full` | path to calibration | the accepting calibration of the version named; its title hash equals the directions' body hash and its verdict is accepted |
 | `model` | required | line | the model every call runs under, as the CLI names it; every definition in a study names the same |
 | `effort` | optional | enum: `low`, `medium`, `high`, `max` | the CLI's effort level; absent means the CLI's default |
-| `tools` | optional | list of line | the tools opted in for the agent, as the CLI names them; absent means none |
-| `mcp` | optional | path | the MCP config whose servers are attached to every call; absent means none |
 
-A definition names no items and no output: the items are the batch's index, `index.md`
+A definition names no tools and no MCP server: a call has neither. It names no items and no
+output: the items are the batch's index, `index.md`
 beside it, and the results are written by the runner under `results/`. It names no
 directions hash, no version number and no study, all of which it resolves to or sits in,
 and no ceiling or limit: the parallel ceiling, the usage cap and the idle limit after
@@ -59,7 +58,6 @@ unchanged against the hash the calls file recorded at the first execution.
 | a study's model | any of its definitions' `model` line, which the checker holds equal |
 | batches defined and not yet executed | a definition with no `calls.md` beside it; state.md per study |
 | a study's calibration samples and full batches | `grep -rn '^- kind:' studies/<study>/batches/*/definition.md` |
-| batches that opted into MCP or a tool | `grep -rln '^- mcp:\|^- tools:' studies/*/batches/*/definition.md` |
 
 ## Checks
 

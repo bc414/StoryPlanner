@@ -33,8 +33,8 @@ does nothing else until every item is answered.
 ## assess-items
 
 Instructed by the directions body as its system prompt and nothing else; the item's text
-as its message; the study's model and effort; no tools and no MCP unless the definition
-opts in, since the itemizer put into the item everything the call needs. One item in, one
+as its message; the study's model and effort; no tools and no MCP, since the itemizer put
+into the item everything the call needs. One item in, one
 answer out in the declared fields, which the runner renders as the result. An item the
 criteria cannot place is put in the class the directions reserve for that, never left
 blank.

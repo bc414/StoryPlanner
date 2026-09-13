@@ -185,7 +185,7 @@ public class BatchFilesTests
         try
         {
             var path = Path.Combine(batch, "definition.md");
-            File.WriteAllText(path, DefinitionFile.Render("02-full", "../../directions-1.md", "full", "../../calibration-2026-09-01.md", "sonnet", "high", ["Read", "Write"], "../../../../mcp.json"));
+            File.WriteAllText(path, DefinitionFile.Render("02-full", "../../directions-1.md", "full", "../../calibration-2026-09-01.md", "sonnet", "high"));
             var d = DefinitionFile.Read(path);
             Assert.Empty(d.Problems);
             Assert.Equal("02-full", d.Batch);
@@ -195,11 +195,9 @@ public class BatchFilesTests
             Assert.Equal("full", d.Kind);
             Assert.Equal("sonnet", d.Model);
             Assert.Equal("high", d.Effort);
-            Assert.Equal(["Read", "Write"], d.Tools);
-            Assert.EndsWith("mcp.json", d.McpPath);
             Assert.Equal(64, d.Hash.Length);
 
-            File.WriteAllText(path, "# 02-full — definition\n\n- model: sonnet\n- directions: ../../directions-1.md\n- kind: pilot\n- effort: max\n- timeout: 3\n");
+            File.WriteAllText(path, "# 02-full — definition\n\n- model: sonnet\n- directions: ../../directions-1.md\n- kind: pilot\n- effort: max\n- timeout: 3\n- mcp: ../../mcp.json\n");
             var bad = DefinitionFile.Read(path);
             Assert.Contains(bad.Problems, p => p.Message.Contains("order"));
             Assert.Contains(bad.Problems, p => p.Message.Contains("kind"));

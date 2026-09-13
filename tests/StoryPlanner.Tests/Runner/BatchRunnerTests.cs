@@ -221,7 +221,7 @@ public class BatchRunnerTests
     public void A_batch_composes_each_call_from_the_directions_body_and_the_item_text()
     {
         using var t = new TempBatch();
-        t.WriteItems(1, kind: "full", extra: "- tools:\n  - Read\n");
+        t.WriteItems(1, kind: "full");
         var (batch, error) = Batch.Load(t.DefinitionPath, t.WorkingDir);
         Assert.Null(error);
         var plan = batch!.Compose("item-01");
@@ -235,8 +235,8 @@ public class BatchRunnerTests
         var args = batch.BuildArgs("C:/x/system-prompt.md");
         var list = args.ToList();
         Assert.Equal("sonnet", list[list.IndexOf("--model") + 1]);
-        Assert.Equal("Read", list[list.IndexOf("--tools") + 1]);
-        Assert.Contains("--allowed-tools", list);
+        Assert.Equal("", list[list.IndexOf("--tools") + 1]);
+        Assert.DoesNotContain("--allowed-tools", list);
         Assert.DoesNotContain("--mcp-config", list);
         Assert.DoesNotContain("--add-dir", list);
         Assert.Contains("--strict-mcp-config", list);

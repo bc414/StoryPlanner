@@ -53,7 +53,7 @@ the corpus it cut; no state of an input is recorded.
 - utilizes outputs:
   - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv
 - narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role
-- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it
+- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id
 
 | item | locator | description |
 |---|---|---|

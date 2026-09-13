@@ -8,9 +8,8 @@ paths: "tools/StoryPlanner.AgentRunner/**, tools/StoryPlanner.BatchFiles/**, too
 
 `tools/StoryPlanner.AgentRunner` makes `claude -p` calls from a folder **outside the
 repo**, one call per item of a batch, each with exactly two inputs — the batch's directions
-as its system prompt and one item as its message, both hashed — an exact toolset, no skills,
-no CLAUDE.md, no memory, no MCP unless the batch's definition opts in, and no transcript
-persisted. The answer comes back as JSON the CLI validates against a schema derived from the
+as its system prompt and one item as its message, both hashed — no tools, no skills, no
+CLAUDE.md, no memory, no MCP, and no transcript persisted. The answer comes back as JSON the CLI validates against a schema derived from the
 directions, and the runner writes it as the result; the model writes no file and is told no
 id. It is a **persistent host**: one process owns the page's port and runs any number of
 batches, up to a global parallel ceiling, under one utilization cap and one idle limit; the
@@ -66,10 +65,9 @@ One execution of the CLI in print mode, with exactly these inputs:
   field closed over the class labels, a `line` a string without newline, a `block` a string,
   a `list of line` an array of such strings; every field required, no other allowed. It is
   written nowhere.
-- **no tools** (`--tools ""`) unless the definition's `tools` line names some, then exactly
-  those and `--allowed-tools` the same; `--restricted`, `--disable-slash-commands`,
-  `--strict-mcp-config` always; `--mcp-config` only when the definition's `mcp` line names a
-  config; `--no-session-persistence`; `--output-format stream-json --verbose
+- **no tools** (`--tools ""`) and **no MCP server** (`--strict-mcp-config` with no
+  `--mcp-config`) on every call; `--restricted`, `--disable-slash-commands`,
+  `--no-session-persistence`; `--output-format stream-json --verbose
   --include-partial-messages` so the host can tee each event as it happens, the answer's own
   deltas included (see the idle limit below).
 
@@ -98,7 +96,7 @@ path into `docs/v3-framework/referee/`. Every batch verb resolves these beside t
 batches/03-scene-notes/
   definition.md      authored by a session before any execution, never edited after the first
                      (schemas/definition-schema.md): directions by path, kind, calibration, model,
-                     effort, tools, mcp
+                     effort
   index.md           written by the itemizer, one row per item with its locator
                      (schemas/index-schema.md); the runner calls the items in its order
   items/<item>.md    the item bodies, uncommitted and regenerable by the itemizer; each call

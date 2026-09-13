@@ -12,7 +12,8 @@ public sealed record DefinitionProblem(string Message, int Line);
 /// </summary>
 public sealed class DefinitionFile
 {
-    public static readonly string[] Keys = ["directions", "kind", "calibration", "model", "effort", "tools", "mcp"];
+    /// <summary>The definition's keys; a call has no tools and no MCP server (d-2026-09-13-16, -18), so neither is a key.</summary>
+    public static readonly string[] Keys = ["directions", "kind", "calibration", "model", "effort"];
     public static readonly string[] Kinds = ["sample", "full"];
     public static readonly string[] Efforts = ["low", "medium", "high", "max"];
     static readonly Regex BatchName = new(@"^(?<n>[0-9]{2})-(?<slug>[a-z0-9-]+)$", RegexOptions.Compiled);
@@ -30,8 +31,6 @@ public sealed class DefinitionFile
     public string? CalibrationPath { get; }
     public string? Model { get; }
     public string? Effort { get; }
-    public IReadOnlyList<string> Tools { get; }
-    public string? McpPath { get; }
 
     /// <summary>The batch folder's number and slug, or null when the folder is not <c>nn-slug</c>.</summary>
     public (int Number, string Slug)? BatchParts
@@ -72,8 +71,8 @@ public sealed class DefinitionFile
         foreach (var k in new[] { "directions", "model" }.Where(k => !keys.Contains(k))) problems.Add(new DefinitionProblem($"missing {k}", i + 1));
         var order = keys.Where(Keys.Contains).Select(k => Array.IndexOf(Keys, k)).ToList();
         if (order.Zip(order.Skip(1)).Any(p => p.Second <= p.First)) problems.Add(new DefinitionProblem("the keys are in the order " + string.Join(", ", Keys), i + 1));
-        foreach (var f in Fields.Fields.Where(f => f.Key != "tools" && f.Value.Length == 0)) problems.Add(new DefinitionProblem($"line {f.Line}: '{f.Key}' has no value on its line", f.Line));
-        foreach (var f in Fields.Fields.Where(f => f.Key != "tools" && f.HasContinuation)) problems.Add(new DefinitionProblem($"line {f.Line}: '{f.Key}' is one line", f.Line));
+        foreach (var f in Fields.Fields.Where(f => f.Value.Length == 0)) problems.Add(new DefinitionProblem($"line {f.Line}: '{f.Key}' has no value on its line", f.Line));
+        foreach (var f in Fields.Fields.Where(f => f.HasContinuation)) problems.Add(new DefinitionProblem($"line {f.Line}: '{f.Key}' is one line", f.Line));
 
         DirectionsPath = Resolve(Fields.Value("directions"));
         Kind = Fields.Value("kind");
@@ -82,9 +81,6 @@ public sealed class DefinitionFile
         Model = Fields.Value("model");
         Effort = Fields.Value("effort");
         if (Effort is not null && !Efforts.Contains(Effort)) problems.Add(new DefinitionProblem($"effort '{Effort}' is not low, medium, high or max", Fields.Field("effort")!.Line));
-        var tools = Fields.Field("tools");
-        Tools = tools is null ? [] : tools.ListItems.Count > 0 ? tools.ListItems : tools.Value.Split(' ', StringSplitOptions.RemoveEmptyEntries);
-        McpPath = Resolve(Fields.Value("mcp"));
         Problems = problems;
     }
 
@@ -93,7 +89,7 @@ public sealed class DefinitionFile
     public static DefinitionFile Read(string path) => new(path, File.ReadAllText(path));
 
     /// <summary>The text a session writes; the runner never writes one.</summary>
-    public static string Render(string batch, string directions, string? kind, string? calibration, string model, string? effort, IEnumerable<string>? tools, string? mcp)
+    public static string Render(string batch, string directions, string? kind, string? calibration, string model, string? effort)
     {
         var sb = new System.Text.StringBuilder();
         sb.Append("# ").Append(batch).Append(" — definition\n\n");
@@ -102,9 +98,6 @@ public sealed class DefinitionFile
         if (calibration is not null) sb.Append(KeyedLines.RenderLine("calibration", calibration)).Append('\n');
         sb.Append(KeyedLines.RenderLine("model", model)).Append('\n');
         if (effort is not null) sb.Append(KeyedLines.RenderLine("effort", effort)).Append('\n');
-        var toolList = tools?.ToList() ?? [];
-        if (toolList.Count > 0) sb.Append(KeyedLines.RenderList("tools", toolList)).Append('\n');
-        if (mcp is not null) sb.Append(KeyedLines.RenderLine("mcp", mcp)).Append('\n');
         return sb.ToString();
     }
 }

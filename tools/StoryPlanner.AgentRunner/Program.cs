@@ -188,7 +188,7 @@ static int DryRun(string definitionPath, string? item, HostConfig config)
     Console.WriteLine($"  batch      : {batch.Id}");
     Console.WriteLine($"  definition : {batch.Definition.Path} ({batch.Definition.Hash[..12]}…)");
     Console.WriteLine($"  directions : {batch.Definition.DirectionsPath} ({batch.Directions.BodyHash[..12]}…), {batch.Directions.Body.Length:N0} chars");
-    Console.WriteLine($"  model      : {batch.Model}{(batch.Effort is null ? "" : ", effort " + batch.Effort)}; tools [{string.Join(", ", batch.Definition.Tools)}]; mcp {(batch.Definition.McpPath is null ? "no" : batch.Definition.McpPath)}");
+    Console.WriteLine($"  model      : {batch.Model}{(batch.Effort is null ? "" : ", effort " + batch.Effort)}; no tools, no MCP");
     Console.WriteLine($"  launchDir  : {launchDir}");
     Console.WriteLine($"  schema     : {batch.SchemaJson}");
     Console.WriteLine($"  execution  : {runner.Execution} — {runner.Summary()}");

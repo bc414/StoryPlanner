@@ -4717,3 +4717,437 @@ rules names the old id in prose.
   corpus data only, is unchanged and holds the same line at the itemizer.
 - not taken: the retired value left in a constitutional rule, naming a corpus CORPORA.md does not
   carry.
+
+### The three corpora entries of 2026-09-13 are premature, and each is superseded when the question it went ahead of is ruled
+
+- id: d-2026-09-13-15
+- date: 2026-09-13
+- raised by: the corpora-schema review, opened with the brief that what an itemizer may take from
+  another study is ruled only after the five conversions, and with the grounding that the entries
+  of the day about corpora had been ruled ahead of what a corpus is. Brian: "Treat the 3 decisions
+  on 09-13 about the corpora (2, 7, 10) as premature." Later entries lean on them: d-2026-09-13-1,
+  -5, -6, -9, -11, -12, -13 and -14, SKILL.md's epistemic opening and rule 3; d-2026-09-12-22,
+  superseded by -7, cannot be superseded again.
+- decision: d-2026-09-13-2, -7 and -10 are premature: no deliberation rests on them. Each is
+  superseded by the entry that rules the question it went ahead of, and not before: what CORPORA.md's
+  `read by` names and what a corpus is, in the unit that takes corpora-schema, and what an itemizer
+  may take from another study, after the five schema conversions. That entry restates what then
+  stands and brings the dependents' text current in the same write. Until then the applied text
+  stays as it is.
+- not taken: superseding all three now, restating only what does not depend on the open questions,
+  which sorts clauses ahead of the deliberation that decides them and gives each entry two
+  successors; reverting their applied text and superseding them as void, which cannot revive
+  d-2026-09-12-22 and reopens the collisions d-2026-09-13-9, -11, -12 and -13 closed.
+
+### A call receives its directions and its item and nothing else: no MCP server, no tools
+
+- id: d-2026-09-13-16
+- date: 2026-09-13
+- supersedes: d-2026-09-08-8
+- raised by: the frame of what a call may receive while it runs, which found d-2026-09-08-8's "no
+  MCP … a call has no third input" standing beside d-2026-09-08-15's MCP opt-in, and the runner
+  skill claiming a call's stream is reconstructible from its hashes. The archive showed the call
+  ruled while pathfinding was a session outside the runner, and MCP opt-in built on 2026-09-03 for
+  the investigator cell, retired on 2026-09-05. Brian: "I believe all of those call rows should not
+  have MCP except for the two explore ones"; then "since exploration may need searches and targeted
+  sampling I think the MCP is valid"; then "Comparing two explorations is only valid if no MCP
+  server is involved, then."; then, weighing a session outside the repo, "Losing the hook is
+  unacceptable because that governs all.", and "It seems like search and sample is potentially not
+  what I want anyway. That's how story planning goes, not studying historical corpus data."; and
+  "No call through the runner reads through the MCP server." The `tools` line had been built on
+  2026-09-03 for the Write tool, whose use ended when the runner began writing results. The
+  superseded entry's founding words stand: "What is going into the input of a single claude code
+  call, precisely, and delineated?", "The call only has directions and the item?" and "The effort
+  level is also a knob alongside model".
+- decision: A call is one execution of the Claude Code CLI in print mode with exactly these inputs:
+  the body of the batch's directions, passed as the system prompt in place of Claude Code's own and
+  hashed as the version every result cites; the item's text alone as the user message; and the
+  batch's model and effort, both settings of the definition and recorded on every call. No call
+  reads through the MCP server, and no call has tools: the runner passes `--tools ""` and
+  `--strict-mcp-config` on every call and no `--mcp-config`. No transcript is persisted, and the
+  launch folder is outside the repo. Whatever a study needs the agent to hold beyond the item is in
+  the directions body or in the item, by the itemizer; a call has no third input. The answer is
+  JSON, enforced by the CLI against the JSON Schema the directions declare; the runner lifts it from
+  the result event, renders it as the Markdown result file named by the item's id, and keeps the
+  event stream. The model writes no file and is told no id, no path and no marker. Rule 5 reads no
+  tools and no MCP where it read an exact toolset and MCP unless opted in; the agent-runner skill's
+  § The call and invariants lose their MCP and tools opt-ins, its `allowedTools` trap stays as
+  history; `configs/storyplanner-mcp.json` is deleted; verifying-a-corpus' assess-items loses its
+  "unless the definition opts in"; index-schema's Example notation reads as the archive database's
+  note id. Comparing two explorations, valid only where no MCP server is involved, is valid for
+  every exploration.
+- not taken: MCP for exploration calls alone, which admits an unhashed input no committed file
+  records, a second instruction text in the server's instructions, and reads beyond the study's
+  corpus; exploration through the MCP server in a HITL session outside the repo, which loses the
+  write hook on the governed files it writes and the codesessions archive; keeping the `tools` line,
+  an unused channel for a third input; restricting it to tools that read nothing, a list of harness
+  tool names kept for no consumer.
+
+### An exploration runs only through the runner, its scale set by its questions: the whole corpus where it fits one call, or slices
+
+- id: d-2026-09-13-17
+- date: 2026-09-13
+- supersedes: d-2026-09-08-15
+- raised by: d-2026-09-13-16, which removed the MCP route the superseded entry gave a corpus read
+  through the server, and the question whether a whole corpus preprocessed into one item could
+  replace it; measured, working-plan, v1-archive and own-fiction fit one 1M call and conversations,
+  lineage and fimfiction-stories do not. Brian: "Not confining exploration to slices."; then "There
+  is no exploration outside the runner."; and "An exploration's scale is dependent on what the
+  questions are. Whole corpus if it fits is one valid configuration, as a peer to slices." The
+  superseded entry's founding words stand: "Pathfinding is full corpus one and done."; "There
+  really should be a middle ground: outside the repo so there is no claude.md ... no memories ... no
+  skills loaded. MCP server optional. And the system prompt for claude code which is about being an
+  agentic coding harness should be overridden with the directions I want"; "Okay, make pathfinding a
+  one-item batch. This is fine because we have the stream so I can see what it's doing without the
+  interactive session."
+- decision: There is no exploration outside the runner. An exploration's scale is set by its
+  questions at the plan: one item that is the corpus whole, where the corpus or a stated narrowing of
+  it fits one call, as a peer to slices. A whole-corpus item is written by an itemizer that renders
+  or concatenates the corpus, never as what to read and how. Its directions are the study's; its
+  result is leads as rendered, consolidated by `write-leads` as slice results are. No pilot, since
+  the one item is the batch. A repeat under another model is a second study. No exploration runs in
+  the repo. preparing-to-explore-a-corpus and exploring-a-corpus lose their MCP clauses.
+- not taken: a HITL exploration with MCP outside the repo, which loses the hook; slices only, which
+  drops the whole read where it fits; a whole-corpus item for every corpus, which three corpora
+  exceed.
+
+### A batch's definition carries no tools line and no mcp line
+
+- id: d-2026-09-13-18
+- date: 2026-09-13
+- supersedes: d-2026-09-09-9
+- raised by: d-2026-09-13-16, under which no call has tools or reads through the MCP server, and the
+  superseded entry's field list carrying both. Brian, on the `tools` line: "Go with option 1". The
+  superseded entry's founding words stand, Brian asking of the calibration line "How would the
+  conditional calibration present be checked by the checker? Is it incoherent to let that stand?"
+- decision: `schemas/definition-schema.md` is the schema of the class `definition`, in the four
+  sections, its Example the checker's fixture. The Artifacts row is `definition` at
+  `docs/v3-framework/<container>/<study>/batches/<batch>/definition.md`, mutation frozen. Its fields
+  are `directions`, `kind`, `calibration`, `model` and `effort`: `kind`, present exactly when the
+  directions have Classes, is `sample` or `full`; `calibration` is present exactly when `kind` is
+  `full`. No `index` line, no `tools` line and no `mcp` line; a definition carrying either of the
+  last two fails `definition.fields` as an unknown key. The checks: `definition.batch`,
+  `definition.title`, `definition.fields`, `definition.directions`, `definition.calibration`,
+  `definition.model`, `definition.frozen`. `DefinitionFile` and `Batch.BuildArgs` lose the two
+  fields, with their tests.
+- not taken: keeping either line as optional and unused; a calibration batch told apart by its
+  missing line or its slug; an `index` line always holding `index.md`.
+
+### write-leads consolidates results for Brian's attention; the review reads any result or the corpus on request
+
+- id: d-2026-09-13-19
+- date: 2026-09-13
+- raised by: the review's reach into the slices, after d-2026-09-13-17. Brian: "Reviewing leads will
+  take into account all slices."; then "The consolidated leads.md is so that my attention is drained
+  from reading all the individual results, which are already lossy; they are not verified data. They
+  are leads. Semantics about the corpus that was studied, which provide some more info about
+  questions, but cannot verify any answer, which is verification's job. That's why write-leads exist.
+  In the HITL review-leads activity I should be able to ask it to read the individual results and
+  also reread the corpus itself."
+- decision: `write-leads` stays: a session consolidates every result into `leads.md`, so that Brian
+  reads leads and not every result. In `review-leads` the session reads any individual result, or
+  the corpus itself, when Brian asks; reading a result traces what a slice reader wrote and checks
+  nothing, the corpus being where a lead is checked. `review-leads` reads `results` and `index`
+  beside what it read.
+- not taken: consolidating in the review, reading every result there, which spends the attention
+  the consolidation exists to save; no `leads.md`, the results being the leads, which leaves no
+  citable lead and nowhere for the review's lines; `write-leads` consolidating and the review
+  checking every result against it.
+
+### A lead cites the slices it came from and names no position inside a slice
+
+- id: d-2026-09-13-20
+- date: 2026-09-13
+- supersedes: d-2026-09-08-1
+- raised by: tracing a consolidated lead back to its results under d-2026-09-13-19, which without a
+  link is a search across every result. The superseded entry was ruled when an address meant a place
+  a reader agent wrote inside what it read, before rendered per-slice results existed and before
+  the arms retired. Brian: "So adding 'cites' would only refer to the results of each slice"; and
+  "Ok, so in the case of exploration, the citation would be whole slice? No individual items. So
+  this doesn't clash with the earlier intent … 'specific things' in that 9/8 exchange referred to an
+  item like a single note or paragraph. Here, the 'cites' of leads.md refers to an item that is the
+  whole slice of a corpus." The superseded entry's founding words stand: "I never liked locus. I
+  don't think I made it. Where did it come from?" and "A lead comes out of an exploration study. Why
+  would it even cite any specific locations?"
+- decision: A lead is what was seen and, coarsely and in words, whatever it was seen in, at the
+  grain the reader had, for instance a story, a subject or a stretch of the corpus. It never names a
+  position inside a slice. Each consolidated lead carries `cites`, the item token
+  `<study>/<batch>/<item>` of every slice whose result it came from, written by `write-leads` and
+  resolved by the checker; a whole-corpus lead cites the corpus item. The words are kept beside the
+  tokens: a slice's description says what the slice is, not where in it or across which slices the
+  thing was seen. Precision lives on one row only, the index's, whose locator an itemizer, code
+  carrying no judgment, records in the form its corpus's reader gives. A dispute over a lead traces
+  through `cites` to the results, the item bodies and the corpus at the locators. The word locus
+  stays out of the method. § Vocabulary's lead reads never names a position inside a slice where it
+  read never checked at an address.
+- not taken: no link, every trace a search; `cites` only for a batch of more than one item, two
+  shapes of a lead; slices named in words, resolving to nothing; dropping the words, which leaves a
+  whole-corpus lead no where; words only for one-item explorations.
+
+### leads.md gains Shortcomings, written only by the review and routed as findings' are
+
+- id: d-2026-09-13-21
+- date: 2026-09-13
+- raised by: a trace under d-2026-09-13-20 showing which layer of the instrument failed, with no home
+  for it and no route to whoever fixes it. Brian: "Yes, we need a shortcomings section."; "Only the
+  review writes them."; and, on the route, "Option 1 is good. I don't see the costs as costs because
+  I don't want exploding scope here; only the things I raised should be acted on."
+- decision: `leads.md` holds an optional `## Shortcomings` section, last in the file, appended only by
+  `review-leads` when a reading at the review shows the study's own instrument at fault. `write-leads`
+  writes none. The review says which activity a shortcoming sends the study back through and does
+  not start it; what is carried to a later study travels only as a question Brian raises into the
+  corpus's list. `explore-plan` gains no read of prior leads.
+- not taken: `write-leads` also writing shortcomings visible in the results, a judgment beyond
+  consolidating; the part named on a Correction line; no record of the failed layer;
+  `explore-plan` and the directions author reading prior leads, a second carrier for re-entry beside
+  the question list.
+
+### A leads shortcoming opens with one of six parts, mirroring findings' meanings
+
+- id: d-2026-09-13-22
+- date: 2026-09-13
+- raised by: the part words, and the two splits a draft of the schema left blurred. Brian: "Go with
+  option 2."; "Yes, mirror findings"; "Mirror findings"; and "Go with 1".
+- decision: A Shortcomings line is `- <part>: <what the review found>`, naming no token, `<part>` one
+  of `slice`, `itemizer`, `directions`, `consolidation`, `execution`, `corpus`, held by
+  `leads.shortcoming`. `slice` is the choice made at the plan of what one slice is, not suiting the
+  reading, a whole corpus read as one item included, fixed by a new plan and a new exploration;
+  `itemizer` is the tool not cutting what its stated grain, narrowing or locators say, fixed in its
+  code; `directions` is the text wanting, where a reader following it faithfully still went wrong,
+  fixed by a new version; `consolidation` is the consolidation not saying what the cited results
+  say; `execution` is a reader not doing what clear directions asked, fixed by a second study under
+  another model or effort; `corpus` is the corpus not being what CORPORA.md says. The schema's
+  descriptions give examples that lead and do not exhaust. A question raised from a shortcoming names
+  the lead that showed it by the lead's token.
+- not taken: `item` for `slice`, findings' word exactly; `write-leads` for `consolidation`, a
+  process id as a part; findings' six with `calibration`, which never applies; parts split by symptom,
+  which stops naming where the fix lands; every reader fault under `directions`; the line ending with
+  lead tokens, a second shape.
+
+### A lead the review checked at the source takes a reread line per check; the Corrections section leaves
+
+- id: d-2026-09-13-23
+- date: 2026-09-13
+- raised by: the Corrections section, a first pass from revision 1's "a correction is an appended
+  dated section", naming no lead, sitting outside the entry, using rule 9's word, and standing in
+  for a review marker. Brian: "The use of 'correction' in rule 9 is more general, so I think 'a lead
+  that didn't hold' needs a new thing. So getting rid of Corrections section and replacing it with a
+  withdrawn line for the leads is good"; "The withdrawn line has the new nuance. Perhaps withdrawn
+  needs a better term, though?"; "I thought findings and leads are not doing the same thing?"; "Any
+  lead the review checked at the source. These are only unverified leads anyway"; "It should be per
+  check, so that means there can be multiple entries?"; and "Use reread".
+- decision: A lead the review checked at the source takes `- reread: <date> <what the source
+  showed>`, one line per check, zero or more per lead, in date order, after every field and followed
+  by no keyed field line, written by `review-leads` and held by `leads.reread`. What the source showed
+  includes whatever part of the lead holds; there is no other form for a lead that holds in part, and
+  a lead is never edited. The `## Corrections` section leaves `leads.md`. Findings' and questions'
+  `withdrawn` lines are untouched.
+- not taken: `withdrawn`, which names the author retracting and hides the check; `not borne out`,
+  said only of a failure; `updated`, the skill's word for an in-place edit; `reexplored`, which names
+  a review's reading as an exploration against d-2026-09-13-17; a superseding lead written by the
+  review, which authors a lead from the session's reading outside the runner; a renamed section
+  naming each lead, which a reader citing a lead must scan.
+
+### Challenge is the epistemic sense only; a dispute over a lead ends in a reread line
+
+- id: d-2026-09-13-24
+- date: 2026-09-13
+- supersedes: d-2026-09-11-22
+- raised by: d-2026-09-13-23, which replaced the Corrections section the superseded entry named as a
+  disputed lead's outcome. The superseded entry's founding words stand: "keep challenge in just the
+  sense of epistemically relative to hypothesis" and "Go with dispute."
+- decision: A **challenge** is verified evidence, bound to the current wording, that disagrees with
+  the statement: it is carried by an evidence entry tagged `challenging`, it puts the hypothesis in
+  `challenged`, and only a reword clears it (d-2026-09-11-1). A **dispute** is what Brian raises in a
+  review against a finding, a result or a lead, and the session's going back to the source to report
+  what it shows. It has three targets: a finding, checked against the results, the tally and the
+  items it cites, which is withdrawn or superseded; a result, checked at its item's locator, which
+  becomes a shortcoming of the directions and never a correction; and a lead, checked against the
+  corpus through its cited slices and where it says it was seen, which takes a reread line. A dispute
+  is never evidence, never reaches a hypothesis, and is resolved by reading the source rather than by
+  a reword. Both words are in § Vocabulary.
+- not taken: `doubt`, `query`, `check`, `verify` and `flag`, declined in the superseded entry;
+  leaving the lead's outcome at Corrections, a section that has left.
+
+### Rule 9: an entry is corrected until relied on; a lead the review checks takes a reread line
+
+- id: d-2026-09-13-25
+- date: 2026-09-13
+- supersedes: d-2026-09-12-16
+- raised by: d-2026-09-13-23, the superseded entry naming "a disputed lead is a line under
+  Corrections" among the changes that are never a correction. The superseded entry's founding words
+  stand: "Rule 9 should not apply if we haven't even settled the framework yet."; "It should not have
+  to do with git commit status. That is irregular and ungoverned."; "Reliance makes sense."; and
+  "Conforming an entry to its class without changing what it records - this is fine. The chain for
+  riliance works."
+- decision: Rule 9 keeps appended and frozen artifacts unedited, save that an entry a session wrote
+  may be corrected until it is relied on: conformed to its class without changing what it records.
+  An entry is relied on once something that cannot be corrected relies on it, directly or through a
+  chain, by a citation the checker resolves or by an entry placed after it in a record; what cannot
+  be corrected is a succeeded version, a file the runner or an agent wrote, or an entry itself relied
+  on. Until then it is corrected together with whatever relies on it, in one write. A change to what
+  an entry records is never a correction: a finding that does not hold is withdrawn or superseded, a
+  lead the review checks at the source takes a reread line, a reworded question is a new entry.
+  revising-the-method's § Never reads that a fix to a file wrong under a right class is allowed
+  within rule 9. The boundary is reliance and never the state of git.
+- not taken: loosening rule 9 while revising the method; suspending it until the swap; the commit as
+  the boundary; any citation as the boundary; the writing session; Brian's review of the entry.
+
+### review-leads requires only that leads.md exists
+
+- id: d-2026-09-13-26
+- date: 2026-09-13
+- raised by: review-leads' precondition, "a leads artifact whose `## Corrections` section is empty",
+  testing a section d-2026-09-13-23 removed, and a repeatable review under d-2026-09-13-19 and -23.
+  Brian: "Yes, the precondition is simply that leads.md exists."
+- decision: The precondition of `review-leads` is that the study's `leads.md` exists. The review runs
+  any number of times, each sitting leaving its reread lines, shortcomings and questions. Nothing
+  records whether a leads file has been reviewed. The same gap on the findings side is not decided
+  here.
+- not taken: a reviewed state derived from reread lines, shortcomings or citing questions, which
+  reads an empty sitting as none; an authored `reviewed` line, for a state no process reads.
+
+### Leads are flat entries, organised by the order write-leads writes them in
+
+- id: d-2026-09-13-27
+- date: 2026-09-13
+- raised by: leads-schema's "organised by what was observed — by subject, pattern, story" against a
+  grammar whose sections hold flat entries and no level above them. Brian: "Go with option 1".
+- decision: The Leads section holds flat `###` entries. `write-leads` writes leads about one subject,
+  pattern or story next to one another; the instruction is in its procedure and not in the schema's
+  Shape, and no check holds an order.
+- not taken: a keyed field naming what a lead is about, free words that split a group on wording;
+  no organising instruction, which leaves a consolidation in slice order.
+
+### leads.md holds no Questions in view; the review brings them up from the directions
+
+- id: d-2026-09-13-28
+- date: 2026-09-13
+- raised by: the Questions in view section, which since directions gained `questions` frontmatter
+  copies it. Brian: "Option 1 is good, and have the reviewing-leads instructions say to bring these
+  up".
+- decision: `leads.md` has no Questions in view section. The questions an exploration read with are
+  the frontmatter of the directions its batch ran under. `review-leads` brings them up at the review,
+  reading `directions`; `write-leads` reads them there for its proposed questions.
+- not taken: the section kept as a copy checked equal to the frontmatter, the policed mirror
+  d-2026-09-11-12 declined; the section kept unchecked.
+
+### leads.md holds no Method; the review brings up what oriented Brian from where it lives
+
+- id: d-2026-09-13-29
+- date: 2026-09-13
+- raised by: the Method section, carried from revision 1's method section, whose content is the
+  definition's, the index's and the calls', and whose "what was deliberately not measured" had no
+  source, `explore-plan` recording the plan nowhere. Brian: "Method leaves entirely, but the
+  review-leads instructions tell the session to bring what use to be here up in the session (since
+  it's derived). Its purpose was to orient me. It doesn't have to live in the file. It lives in the
+  session's instructions, so that session gets the info from the places where it does live on disk."
+- decision: `leads.md` has no Method section. At the review the session brings up what oriented
+  Brian from where each fact lives: the directions version with its frontmatter, § What you are given
+  and § Never; the model and effort from the definition; the hash and the harness from `calls.md`;
+  the itemizer and any narrowing from the index head; the malformed and missing results from the
+  tally. `review-leads` reads `definition`, `calls` and `tally` beside what it reads.
+- not taken: Method mirroring findings, holding what no batch file says, whose plan exclusions have no
+  writer; each exclusion placed where it acts, with a caveat-only Method; a record field in the
+  directions' frontmatter.
+
+### A leads file's proposed questions mirror findings'
+
+- id: d-2026-09-13-30
+- date: 2026-09-13
+- raised by: leads-schema's Proposed questions, a placeholder with no line form. Brian: "Mirror
+  findings".
+- decision: `## Proposed questions` is optional and holds one-line entries, `- <what the leads raise
+  that no question asks>`, written by `write-leads`; none is a question until Brian raises it into the
+  corpus's list, and none is a lead. A question raised from one names in its `raised by` the leads it
+  came from by their tokens.
+- not taken: each proposal naming its lead tokens on its line, a form apart from findings.
+
+### write-leads runs the same way for one result or many
+
+- id: d-2026-09-13-31
+- date: 2026-09-13
+- raised by: `write-leads`' "From one result the file is that result's leads as rendered", a
+  transcription d-2026-09-10-2 gives a program, set against what the rulings of the unit give the
+  step even for one result: order, slugs, cites, the coarse words and proposed questions. Brian:
+  "Option 1".
+- decision: `write-leads` runs the same procedure for a whole-corpus result and for many slices: it
+  orders the leads, creates their slugs, writes each lead's words and `cites`, and writes the proposed
+  questions. The sentence about one result leaves its procedure.
+- not taken: a program rendering `leads.md` from one result, which can create no slug, order nothing,
+  and makes a file the review appends to a generated one; no `leads.md` for one item.
+
+### write-leads reads the definition, the directions, the index, the results and the question list
+
+- id: d-2026-09-13-32
+- date: 2026-09-13
+- raised by: `write-leads`' row, set by the run of 2026-09-09 in one write, reading `tally` its
+  procedure never used and missing `directions` it reads. Brian: "Go with option 1".
+- decision: `write-leads` reads `definition directions index results question-list` and writes
+  `leads`; its procedure is rewritten to the unit's rulings in the same write. `write-findings`' row
+  is not decided here.
+- not taken: keeping `tally`, whose malformed and missing sections are empty by construction when the
+  step runs.
+
+### A lead entry is lead, seen in and cites, then its reread lines
+
+- id: d-2026-09-13-33
+- date: 2026-09-13
+- raised by: the keyed lines holding what d-2026-09-13-20 and -23 ruled a lead carries. Brian:
+  "Option 1 is good"; and, on the draft, "seen in's value needs to be more open-ended instead of
+  reading like a closed set."
+- decision: A lead entry is headed `### <study>/<slug>`, the form of d-2026-09-07-30 and -31, to be
+  reconsidered at the first real leads file. Its keyed lines, in order: `lead`, required, a block,
+  what was seen; `seen in`, required, a line, coarsely and in words whatever it was seen in, its
+  description giving examples and no closed set; `cites`, required, a list of line, the item tokens.
+  Then its reread lines.
+- not taken: one `lead` block carrying both what was seen and where, which holds the coarse where
+  nowhere.
+
+### leads.md is Leads, then optional Proposed questions, then optional Shortcomings
+
+- id: d-2026-09-13-34
+- date: 2026-09-13
+- raised by: the sections left after d-2026-09-13-23, -28 and -29. Brian: "Option 1 is good".
+- decision: The file is its title `# <study> — leads`, no head prose, then `## Leads`, required,
+  entries, which may hold none; `## Proposed questions`, optional, one-line entries; and
+  `## Shortcomings`, optional, one-line entries, last, its heading added with the first shortcoming.
+- not taken: all three required with empty headings; Shortcomings before Proposed questions, which
+  inserts a section mid-file.
+
+### The leads class has six checks; leads.sections retires
+
+- id: d-2026-09-13-35
+- date: 2026-09-13
+- supersedes: d-2026-09-08-19
+- raised by: the leads Shape of d-2026-09-13-20 to -34, which the checker's two checks do not hold,
+  and d-2026-09-07-11 requiring a decision to name every check added or changed. Brian: "Option 1
+  works". The superseded entry's finding was the Bins section d-2026-09-08-14 removed.
+- decision: The leads checker moves onto the engine and holds six declared checks: `leads.title`, the
+  title is `# <study> — leads` with the folder's study, an exploration in the registry;
+  `leads.shape`, the sections present, in order and holding what the table says; `leads.entry`, the
+  heading `### <study>/<slug>` with the folder's study, a unique slug, and fields present, known, in
+  order and typed, every line keyed or continuation; `leads.cites`, every token an item in the index
+  of a batch under the study, the list not empty; `leads.reread`, each reread line a date then text,
+  after every field, followed by no keyed field line and in date order; `leads.shortcoming`, a
+  Shortcomings line's first word one of the six parts. `leads.sections` retires. No leads file
+  exists, so the checker's predicted first run is zero failures, a statement about coverage.
+- not taken: three checks with the cites, reread and shortcoming rules reported under two; the title
+  without the registry clause.
+
+### This unit closes on the leads first pass; its remaining stack opens the next unit
+
+- id: d-2026-09-13-36
+- date: 2026-09-13
+- raised by: the unit taken to convert corpora-schema, whose stack grew through the runner and
+  exploration into the leads schema, with three items left beneath: what CORPORA.md's `read by`
+  names, what a corpus is, and corpora-schema itself; none bears on a ruling above. Brian: "There was
+  a lot settled, and context is getting tight. Can we record decisions, act on them, and then return
+  to the queue now, or is something critical blocking?", then "Yes, close the unit on leads.md
+  deliberation first pass here."
+- decision: For this unit only, its entries are written and its edits made before its stack is
+  empty, at the close of the leads first pass. The three remaining items open the next unit, where
+  they sit, with corpora-schema its starting point. d-2026-09-12-31 is unchanged.
+- not taken: working the stack to empty first, which holds the rulings above behind items that
+  cannot overturn them; writing this unit's entries at the end of each stack, the practice
+  d-2026-09-12-31 declined, as a standing rule.

@@ -17,9 +17,10 @@ is asked for and written first.
 ## explore-plan
 
 The session presents the corpus's shape from CORPORA.md and its open questions, and asks
-Brian, batched four per call: the scale (one item that is the corpus whole, or slices, and
-the itemizer that cuts them), the questions in view, the model and effort, and what the
-exploration does not do. The plan is written against the chain's activity files,
+Brian, batched four per call: the questions in view; the scale they call for, one item that
+is the corpus whole, where the corpus or a stated narrowing of it fits one call, or slices,
+as peers, and the itemizer that cuts them; the model and effort; and what the exploration
+does not do. The plan is written against the chain's activity files,
 exploring-a-corpus and reviewing-leads, read whole here rather than each at its own start,
 since it names what each of them will do for this study. Brian approves; the session
 appends the study to `studies.md` with the date as his go.
@@ -35,10 +36,10 @@ a repeat under another model cites the same file.
 ## assemble-exploration-batch
 
 The batch folder under the study, `batches/<nn>-<slug>/`, its definition naming the
-directions by path, the study's model and effort, and the MCP server when the item is what
-to read through it. The itemizer runs once into the folder: for slices a tool with tests
-that cuts the corpus into one item each; for one item, a tool that concatenates a file
-corpus's texts or writes the item as what to read and how. It reads corpus data only, and
+directions by path and the study's model and effort. The itemizer runs once into the folder:
+for slices a tool with tests that cuts the corpus into one item each; for one item, a tool
+that renders or concatenates the corpus whole into the item, never instructions for reading
+it elsewhere. It reads corpus data only, and
 may read other corpora and deterministic outputs over corpus data to cut, label and fill
 the items, as preparing-to-verify-a-corpus § itemize says, naming them and any narrowing in
 the index head; the exploration stays the cut corpus's. Then, per the `agent-runner`

@@ -25,7 +25,7 @@ public class SchemaCheckersTests : IDisposable
         _skill = Path.Combine(_root, ".claude", "skills", "example");
         Directory.CreateDirectory(_skill);
         Directory.CreateDirectory(Path.Combine(_root, ".git"));
-        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema", "declined-candidates-schema", "hypothesis-file-schema");
+        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema", "declined-candidates-schema", "hypothesis-file-schema", "leads-schema");
     }
 
     public void Dispose()
@@ -196,30 +196,44 @@ public class SchemaCheckersTests : IDisposable
 
     // ---- leads ----
 
-    [Fact]
-    public void The_leads_example_passes_at_its_study_folder()
+    const string LeadsStudy = "docs/v3-framework/studies/exploration-of-v1-archive";
+
+    /// <summary>The batch the leads example cites, with the two slices in its index.</summary>
+    string WriteLeadsTree(string text)
     {
-        var path = Write("docs/v3-framework/studies/exploration-of-v1-archive/leads.md", SchemaExamples.Block("leads-schema"));
+        Write($"{LeadsStudy}/batches/01-scene-slices/index.md", "# 01-scene-slices — index\n\n- itemizer: tools/StoryPlanner.ArchiveItemizer, 1\n- corpus: v1-archive\n- locator notation: a chapter range\n\n| item | locator | description |\n|---|---|---|\n| slice-01 | ch1-3 | a |\n| slice-02 | ch4-6 | b |\n");
+        return Write($"{LeadsStudy}/leads.md", text);
+    }
+
+    [Fact]
+    public void The_leads_example_passes_with_its_cited_slices_resolving()
+    {
+        var path = WriteLeadsTree(SchemaExamples.Block("leads-schema"));
         Assert.Empty(Rules(Leads.Check(Ctx(), path)));
     }
 
     [Fact]
-    public void A_leads_artifact_in_the_wrong_folder_fails_its_title()
+    public void A_leads_file_in_a_folder_that_is_not_an_exploration_fails_its_title()
     {
-        var path = Write("docs/v3-framework/studies/exploration-of-lineage/leads.md", SchemaExamples.Block("leads-schema"));
+        var path = Write("docs/v3-framework/studies/verification-of-v1-archive-x/leads.md", SchemaExamples.Block("leads-schema"));
         Assert.Contains("leads.title", Rules(Leads.Check(Ctx(), path)));
     }
 
-    [Fact]
-    public void A_leads_artifact_missing_a_section_or_carrying_bins_fails()
+    [Theory]
+    [InlineData("## Leads\n", "## Findings\n", "leads.shape")]
+    [InlineData("- seen in: <whatever it was seen in, in words>\n- cites:\n  - exploration-of-v1-archive/01-scene-slices/slice-02\n\n", "- cites:\n  - exploration-of-v1-archive/01-scene-slices/slice-02\n\n", "leads.entry")]
+    [InlineData("### exploration-of-v1-archive/second-seen-thing", "### exploration-of-lineage/second-seen-thing", "leads.entry")]
+    [InlineData("01-scene-slices/slice-02\n\n## Proposed", "01-scene-slices/slice-09\n\n## Proposed", "leads.cites")]
+    [InlineData("- reread: 2026-09-22 <what the source showed>", "- reread: soon <what the source showed>", "leads.reread")]
+    [InlineData("- reread: 2026-09-22 <what the source showed>", "- reread: 2026-09-22 <what the source showed>\n- seen in: <again>", "leads.reread")]
+    [InlineData("- reread: 2026-09-22 <what the source showed>", "- reread: 2026-09-22 <what the source showed>\n- reread: 2026-09-01 <earlier>", "leads.reread")]
+    [InlineData("- consolidation: <what the review found>", "- calibration: <what the review found>", "leads.shortcoming")]
+    public void A_leads_example_with_one_thing_broken_fails_on_that_check(string find, string replace, string check)
     {
-        var text = SchemaExamples.Block("leads-schema").Replace("## Proposed questions\n", "");
-        var path = Write("docs/v3-framework/studies/exploration-of-v1-archive/leads.md", text);
-        Assert.Contains("leads.sections", Rules(Leads.Check(Ctx(), path)));
-
-        var bins = SchemaExamples.Block("leads-schema").Replace("## Proposed questions\n", "## Bins\n<none>\n\n## Proposed questions\n");
-        path = Write("docs/v3-framework/studies/exploration-of-v1-archive/leads.md", bins);
-        Assert.Contains("leads.sections", Rules(Leads.Check(Ctx(), path)));
+        var text = SchemaExamples.Block("leads-schema");
+        Assert.Contains(find, text);
+        var path = WriteLeadsTree(text.Replace(find, replace));
+        Assert.Contains(check, Rules(Leads.Check(Ctx(), path)));
     }
 
     // ---- corpora ----
@@ -512,13 +526,13 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("- corpus: v1-archive\n", "- corpus: nowhere\n", "index.head")]
     [InlineData("- corpus: v1-archive\n", "", "index.head")]
     [InlineData("- itemizer: tools/StoryPlanner.ArchiveItemizer, 2026-09-19 a1b2c3d\n- corpus: v1-archive\n", "- corpus: v1-archive\n- itemizer: tools/StoryPlanner.ArchiveItemizer, 2026-09-19 a1b2c3d\n", "index.head")]
-    [InlineData("- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n", "- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n- source hash: abc\n", "index.head")]
+    [InlineData("- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n", "- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n- source hash: abc\n", "index.head")]
     [InlineData("- utilizes corpora: lineage\n", "- utilizes corpora: nowhere\n", "index.head")]
     [InlineData("- utilizes corpora: lineage\n", "- utilizes corpora: v1-archive\n", "index.head")]
     [InlineData("  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "  - docs/missing.csv\n", "index.head")]
     [InlineData("- utilizes outputs:\n  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "- utilizes outputs:\n", "index.head")]
     [InlineData("- utilizes outputs:\n  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "- utilizes outputs: docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "index.head")]
-    [InlineData("- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n", "- locator notation: a v1-archive note id, `note-<id>`, as the MCP archive tools take it\n- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n", "index.head")]
+    [InlineData("- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n", "- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n", "index.head")]
     [InlineData("| item | locator | description |\n", "| id | locator | description |\n", "index.table")]
     [InlineData("| note-1630 | note-1630 | Griffonian Republic, History track, 2026-03 |\n| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\n", "", "index.table")]
     [InlineData("| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\n", "| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\nA stray line.\n", "index.table")]

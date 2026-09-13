@@ -62,7 +62,6 @@ public sealed class Batch
         var index = IndexFile.Read(definition.IndexPath);
         if (index.Problems.Count > 0) return (null, $"{definition.IndexPath}: {index.Problems[0].Message}");
         if (index.Rows.Count == 0) return (null, $"{definition.IndexPath}: the index lists no item");
-        if (definition.McpPath is not null && !File.Exists(definition.McpPath)) return (null, $"{definitionPath}: mcp resolves to no file ({definition.McpPath})");
         return (new Batch(definition, directions, index, IdFor(definition.BatchDir, workingDir)), null);
     }
 
@@ -83,8 +82,9 @@ public sealed class Batch
     /// The <c>claude</c> argument list for one call: print mode, the batch's model and effort,
     /// no transcript, JSON events per line, restricted, the directions as the system prompt
     /// from a file (a body can be longer than a command line allows), the answer's JSON Schema,
-    /// the exact toolset (<c>--tools ""</c> disables all), strict MCP with the definition's
-    /// config only when it opts in. The model writes no file, so no directory is granted.
+    /// no tools (<c>--tools ""</c>) and no MCP server (strict MCP, no config): a call receives
+    /// its directions and its item and nothing else (d-2026-09-13-16). The model writes no file,
+    /// so no directory is granted.
     /// </summary>
     public IReadOnlyList<string> BuildArgs(string systemPromptFile)
     {
@@ -106,13 +106,9 @@ public sealed class Batch
             "--strict-mcp-config",
             "--system-prompt-file", systemPromptFile,
             "--json-schema", SchemaJson,
-            "--tools",
+            "--tools", "",
         };
-        if (Definition.Tools.Count == 0) args.Add("");
-        else args.AddRange(Definition.Tools);
         if (Effort is not null) { args.Add("--effort"); args.Add(Effort); }
-        if (Definition.McpPath is not null) { args.Add("--mcp-config"); args.Add(Definition.McpPath); }
-        if (Definition.Tools.Count > 0) { args.Add("--allowed-tools"); args.AddRange(Definition.Tools); }
         return args;
     }
 

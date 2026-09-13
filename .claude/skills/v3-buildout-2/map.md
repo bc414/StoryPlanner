@@ -456,12 +456,24 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   reviewleads{{"review-leads<br/>hitl"}}:::hitl
+  calls[/"calls"/]:::artifact
   corpus[/"corpus"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
+  index[/"index"/]:::artifact
   leads[/"leads"/]:::artifact
   questionlist[/"question-list"/]:::artifact
+  results[/"results"/]:::artifact
+  tally[/"tally"/]:::artifact
 
   leads --> reviewleads
+  results --> reviewleads
+  index --> reviewleads
+  directions --> reviewleads
+  definition --> reviewleads
+  calls --> reviewleads
+  tally --> reviewleads
   corpus --> reviewleads
   hypothesisstatement --> reviewleads
   reviewleads --> leads
@@ -470,7 +482,7 @@ flowchart LR
 
 Derived from the tables, never authored:
 
-- **inputs**: corpus hypothesis-statement
+- **inputs**: calls corpus definition directions hypothesis-statement index results tally
 - **outputs**: leads question-list
 - **instruments**: —
 - **enabled by**: minting-a-hypothesis exploring-a-corpus
@@ -509,9 +521,9 @@ flowchart LR
   items --> exploreitems
   exploreitems --> results
   definition --> writeleads
+  directions --> writeleads
   index --> writeleads
   results --> writeleads
-  tally --> writeleads
   questionlist --> writeleads
   writeleads --> leads
 ```
@@ -939,6 +951,12 @@ flowchart TD
   calibrate --> calibration
   calibrate --> directions
   leads --> reviewleads
+  results --> reviewleads
+  index --> reviewleads
+  directions --> reviewleads
+  definition --> reviewleads
+  calls --> reviewleads
+  tally --> reviewleads
   corpus --> reviewleads
   hypothesisstatement --> reviewleads
   reviewleads --> leads
@@ -952,9 +970,9 @@ flowchart TD
   items --> exploreitems
   exploreitems --> results
   definition --> writeleads
+  directions --> writeleads
   index --> writeleads
   results --> writeleads
-  tally --> writeleads
   questionlist --> writeleads
   writeleads --> leads
   questionlist --> exploreplan
@@ -1035,14 +1053,14 @@ flowchart TD
 | candidates | compose-candidates | promote | — |
 | declined-candidates | promote | compose-candidates | — |
 | corpora | build | verify-plan explore-plan write-question build | — |
-| directions | author-directions calibrate author-exploration-directions revise | assemble-reverify-batch assess-reverify-items assemble-claim-batch assess-claim-items assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate explore-items author-exploration-directions assemble-exploration-batch explore-pilot-item assemble-audit-batch assess-audit-items | — |
+| directions | author-directions calibrate author-exploration-directions revise | assemble-reverify-batch assess-reverify-items assemble-claim-batch assess-claim-items assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate review-leads explore-items write-leads author-exploration-directions assemble-exploration-batch explore-pilot-item assemble-audit-batch assess-audit-items | — |
 | calibration | calibrate | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch | — |
-| definition | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-exploration-batch assemble-audit-batch | write-findings continue-exploration-batch write-leads | — |
-| index | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | promote review-findings write-findings assemble-sample-batch calibrate write-leads | — |
+| definition | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-exploration-batch assemble-audit-batch | write-findings review-leads continue-exploration-batch write-leads | — |
+| index | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | promote review-findings write-findings assemble-sample-batch calibrate review-leads write-leads | — |
 | items | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | assess-reverify-items assess-claim-items assess-referee-items assess-items author-directions assess-sample-items calibrate explore-items explore-pilot-item assess-audit-items | — |
-| calls | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-exploration-batch assemble-audit-batch | write-findings | — |
-| results | assess-reverify-items assess-claim-items assess-referee-items assess-items assess-sample-items explore-items explore-pilot-item assess-audit-items | gate-and-commit assemble-referee-batch compose-candidates review-findings write-findings calibrate continue-exploration-batch write-leads revise assemble-audit-batch | — |
-| tally | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-audit-batch | gate-and-commit compose-candidates review-findings write-findings calibrate write-leads revise | — |
+| calls | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-exploration-batch assemble-audit-batch | write-findings review-leads | — |
+| results | assess-reverify-items assess-claim-items assess-referee-items assess-items assess-sample-items explore-items explore-pilot-item assess-audit-items | gate-and-commit assemble-referee-batch compose-candidates review-findings write-findings calibrate review-leads continue-exploration-batch write-leads revise assemble-audit-batch | — |
+| tally | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-audit-batch | gate-and-commit compose-candidates review-findings write-findings calibrate review-leads revise | — |
 | skill | revise | verify-plan explore-plan revise assemble-audit-batch | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |

@@ -84,9 +84,8 @@ These hold in every session type. A companion file elaborates; none overrides.
 5. **Explicit context for autonomous agents.** Any `agent` process — a reader of one item,
    a classifier, an auditor, the referee, the calibration sample — is a call through the
    runner from the launch folder outside the repo: the directions body as its system
-   prompt and one item as its message, both hashed; an exact toolset; no CLAUDE.md, no
-   skills, no memory, no MCP unless the batch's definition opts in; no transcript
-   persisted. Never through the Agent tool of a repo session, never from a repo cwd.
+   prompt and one item as its message, both hashed; no tools; no CLAUDE.md, no skills, no
+   memory, no MCP; no transcript persisted. Never through the Agent tool of a repo session, never from a repo cwd.
 6. **Claude never creates a hypothesis file autonomously.** Proposals cite the specific
    lead or evidence, Brian rewrites or approves the statement, provenance is recorded.
 7. **The story-content boundary.** The framework studies technique, architecture and
@@ -310,9 +309,9 @@ the runner and is read in full by any process that invokes it.
 - **slug**: a machine identifier that reads in a sentence, lowercase `[a-z0-9-]+`, created by
   the session with what it names and never changed; each class's schema says where it is
   unique.
-- **lead**: what was seen and what it was seen in, in words; the output of exploration;
-  an idea for a question and for what to itemize; never a finding, never checked at an
-  address.
+- **lead**: what was seen and what it was seen in, in words; the output of exploration,
+  consolidated from its results and citing the slices it came from; an idea for a question
+  and for what to itemize; never a finding, never names a position inside a slice.
 - **question**: Brian's testable question about one corpus, in its question list.
 - **predicate**: the test a directions version freezes for one question and a classifier
   applies to every item; never written in a question entry, whose `suggested test` is a note.
@@ -334,7 +333,8 @@ the runner and is read in full by any process that invokes it.
 - **dispute**: what Brian raises in a review against a finding, a result or a lead, and the session's
   return to the source to report what it shows: a finding, checked against the results, the
   tally and the items it cites; a result, checked at its item's locator; or a lead, checked
-  against the corpus. It is never evidence and never reaches a hypothesis.
+  against the corpus through its cited slices, which takes a reread line. It is never
+  evidence and never reaches a hypothesis.
 - **outcome**: what Brian did with a diagnostic candidate: promoted or declined.
 
 ## Provenance

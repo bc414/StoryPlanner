@@ -287,29 +287,133 @@ public static class Registry
     }
 }
 
-/// <summary>schemas/leads-schema.md: titled by its study, five sections in order (d-2026-09-08-19); the class is `leads` since d-2026-09-09-22.</summary>
+/// <summary>
+/// schemas/leads-schema.md on the engine (d-2026-09-13-19 to -35): an exploration's consolidated
+/// leads. The engine holds the sections and each lead's typed fields, reported under
+/// `leads.shape` and `leads.entry`; the class's own rules are the title with the folder's
+/// exploration, the heading as the citation token with a unique slug, every cited item token in
+/// the index of a batch under the study, the appended reread lines, and the shortcoming parts.
+/// </summary>
 public static class Leads
 {
-    public static readonly string[] Sections = ["Method", "Questions in view", "Leads", "Proposed questions", "Corrections"];
+    public const string SchemaId = "leads-schema";
+    public const string ExplorationPrefix = "exploration-of-";
+    public static readonly string[] Parts = ["slice", "itemizer", "directions", "consolidation", "execution", "corpus"];
+    static readonly Regex RereadLine = new(@"^- reread: (?<date>\d{4}-\d{2}-\d{2}) (?<what>\S.*)$", RegexOptions.Compiled);
+    static readonly Regex ItemCite = new(@"^(?<study>[a-z0-9-]+)/(?<batch>[0-9]{2}-[a-z0-9-]+)/(?<item>[a-z0-9-]+)$", RegexOptions.Compiled);
+    static readonly Regex ShortcomingLine = new(@"^(?<part>[a-z]+):\s*\S", RegexOptions.Compiled);
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
-        var study = Path.GetFileName(Path.GetDirectoryName(path)!)!;
+        var studyDir = Path.GetDirectoryName(Path.GetFullPath(path))!;
+        var study = Path.GetFileName(studyDir)!;
         var findings = new List<Finding>();
-        var outline = new MarkdownOutline(File.ReadAllText(path));
 
-        var title = outline.Headings.FirstOrDefault();
-        var expected = $"{study} — leads";
-        if (title is null || title.Level != 1 || title.Text != expected)
-            findings.Add(Finding.Fail("leads.title", file,
-                $"the title is '# {expected}'; found " + (title is null ? "no heading" : $"'{title.Text}'")));
+        var engine = EngineCheck.Run(SchemaId, ctx, path);
+        if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return findings; }
+        foreach (var p in engine.Problems)
+        {
+            if (p.Key == "reread") continue; // the appended line, held below
+            var id = p.Section == "Leads" && p.Kind is ProblemKind.Missing or ProblemKind.Unknown or ProblemKind.Order or ProblemKind.Type or ProblemKind.Form or ProblemKind.Duplicate
+                ? "leads.entry" : "leads.shape";
+            findings.Add(Finding.Fail(id, file, p.Message));
+        }
+        var doc = engine.Document;
 
-        var h2 = outline.Headings.Where(h => h.Level == 2).Select(h => h.Text).ToList();
-        if (!h2.SequenceEqual(Sections, StringComparer.Ordinal))
-            findings.Add(Finding.Fail("leads.sections", file,
-                $"the sections are [{string.Join(", ", Sections)}]; found [{string.Join(", ", h2)}]"));
-        return findings;
+        // ---- title and study ----
+        var title = $"{study} — leads";
+        if (doc.Title != title)
+            findings.Add(Finding.Fail("leads.title", file, $"the title is '# {title}', the id of the study whose folder holds the file"));
+        if (!study.StartsWith(ExplorationPrefix, StringComparison.Ordinal))
+            findings.Add(Finding.Fail("leads.title", file, $"'{study}' is not an exploration's id; leads belong to an exploration"));
+
+        // ---- the items of the batches under the study, for citations ----
+        var batches = new Dictionary<string, IReadOnlyList<string>>(StringComparer.Ordinal);
+        var batchesDir = Path.Combine(studyDir, "batches");
+        if (Directory.Exists(batchesDir))
+            foreach (var dir in Directory.GetDirectories(batchesDir))
+            {
+                var indexPath = Path.Combine(dir, "index.md");
+                batches[Path.GetFileName(dir)] = File.Exists(indexPath)
+                    ? StoryPlanner.BatchFiles.IndexFile.Parse(File.ReadAllText(indexPath)).Rows.Select(r => r.Item).ToList()
+                    : [];
+            }
+
+        // ---- the reread lines, by position ----
+        var lines = SchemaCheckers.Lines(path);
+        var positions = doc.Entries.Where(e => e.Section == "Leads").ToList();
+        var lastDate = new Dictionary<int, string>();
+        for (var i = 0; i < lines.Length; i++)
+        {
+            if (!lines[i].StartsWith("- reread:", StringComparison.Ordinal)) continue;
+            var m = RereadLine.Match(lines[i]);
+            if (!m.Success)
+                findings.Add(Finding.Fail("leads.reread", file, $"line {i + 1}: a reread line is '- reread: YYYY-MM-DD <what the source showed>'"));
+            var owner = positions.LastOrDefault(e => e.Line < i + 1);
+            if (owner is null || !owner.FieldLines.Values.Any(l => l < i + 1))
+            { findings.Add(Finding.Fail("leads.reread", file, $"line {i + 1}: a reread line sits beneath a lead's fields")); continue; }
+            var fieldAfter = lines.Skip(i + 1).TakeWhile(l => !l.StartsWith("### ", StringComparison.Ordinal) && !l.StartsWith("## ", StringComparison.Ordinal))
+                .Any(l => StoryPlanner.BatchFiles.KeyedLines.IsKeyedLine(l) && !l.StartsWith("- reread:", StringComparison.Ordinal));
+            if (fieldAfter)
+                findings.Add(Finding.Fail("leads.reread", file, $"line {i + 1}: a keyed field line follows a reread line; reread lines close a lead"));
+            if (m.Success && SchemaCheckers.ExactDate(m.Groups["date"].Value))
+            {
+                var date = m.Groups["date"].Value;
+                if (lastDate.TryGetValue(owner.Line, out var before) && string.CompareOrdinal(date, before) < 0)
+                    findings.Add(Finding.Fail("leads.reread", file, $"line {i + 1}: {date} is earlier than the reread line before it, {before}"));
+                lastDate[owner.Line] = date;
+            }
+        }
+
+        // ---- the entries ----
+        var slugs = new HashSet<string>(StringComparer.Ordinal);
+        var arr = doc.Root["Leads"] as JsonArray ?? [];
+        for (var i = 0; i < arr.Count; i++)
+        {
+            var obj = (JsonObject)arr[i]!;
+            var pos = i < positions.Count ? positions[i] : null;
+            var line = pos?.Line ?? 0;
+            var heading = obj[DocumentReader.HeadingProperty]?.GetValue<string>() ?? "";
+            var slash = heading.IndexOf('/');
+            var prefix = slash < 0 ? "" : heading[..slash];
+            var slug = slash < 0 ? heading : heading[(slash + 1)..];
+            if (prefix != study)
+                findings.Add(Finding.Fail("leads.entry", file, $"line {line}: the heading is '{study}/<slug>', the id of the study whose folder holds the file then the slug; found '{heading}'"));
+            else if (!ClosedSets.IdPattern.IsMatch(slug))
+                findings.Add(Finding.Fail("leads.entry", file, $"line {line}: '{slug}' is not a lowercase slug"));
+            else if (!slugs.Add(slug))
+                findings.Add(Finding.Fail("leads.entry", file, $"line {line}: '{slug}' repeats a slug in this file"));
+
+            var cites = obj["cites"] is JsonArray c ? c.Select(x => x?.ToString() ?? "").ToList() : [];
+            var cLine = pos?.FieldLines.GetValueOrDefault("cites", line) ?? line;
+            if (obj["cites"] is not null && cites.Count == 0)
+                findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: cites holds at least one item token"));
+            foreach (var cite in cites)
+            {
+                var it = ItemCite.Match(cite);
+                if (!it.Success)
+                { findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: '{cite}' is not '<study>/<batch>/<item>'")); continue; }
+                if (it.Groups["study"].Value != study)
+                { findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: '{cite}' cites a batch outside this study")); continue; }
+                if (!batches.TryGetValue(it.Groups["batch"].Value, out var items))
+                { findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: '{cite}' cites no batch under this study")); continue; }
+                if (!items.Contains(it.Groups["item"].Value, StringComparer.Ordinal))
+                    findings.Add(Finding.Fail("leads.cites", file, $"line {cLine}: '{it.Groups["item"].Value}' is not an item of that batch's index"));
+            }
+        }
+
+        // ---- shortcomings ----
+        if (doc.Root["Shortcomings"] is JsonArray shortcomings)
+            foreach (var s in shortcomings)
+            {
+                var text = s?.ToString() ?? "";
+                var m = ShortcomingLine.Match(text);
+                if (!m.Success || !Parts.Contains(m.Groups["part"].Value, StringComparer.Ordinal))
+                    findings.Add(Finding.Fail("leads.shortcoming", file, $"a Shortcomings line is '<part>: <what the review found>', the part one of {string.Join(", ", Parts)}; found '{(text.Length <= 60 ? text : text[..60] + "…")}'"));
+            }
+
+        return findings.DistinctBy(f => (f.CheckId, f.Message)).ToList();
     }
 }
 
