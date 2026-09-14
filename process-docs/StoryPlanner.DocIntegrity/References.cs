@@ -67,7 +67,7 @@ public static class References
         catch (MapFormatException) { return null; }
         var row = rows.FirstOrDefault(r => r.Id == artifactClass) ?? rows.FirstOrDefault(r => r.Id.StartsWith(artifactClass, StringComparison.Ordinal));
         if (row is null || !ArtifactPath.TryParse(row.Path, out var ap, out _) || ap!.NoSinglePattern) return null;
-        return StateBuilder.Matches(ctx.RepoRoot, ap, null, null);
+        return StateBuilder.Matches(ctx.RepoRoot, ap, null);
     }
 
     /// <summary>The class a token type's target names, as the Artifacts table calls it: a schema-ish name maps to the row it describes.</summary>

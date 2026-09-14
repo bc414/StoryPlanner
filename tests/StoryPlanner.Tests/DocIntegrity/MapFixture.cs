@@ -131,9 +131,9 @@ public sealed class MapFixture : IDisposable
         Directory.CreateDirectory(Path.Combine(BatchDir, "results"));
 
         File.WriteAllText(Path.Combine(docs, "studies.md"), $"""
-            | id | type | corpus | go |
-            |---|---|---|---|
-            | {Study} | verification | analysis-corpus | 2026-09-20 |
+            # Studies
+
+            - {Study}
 
             """);
 

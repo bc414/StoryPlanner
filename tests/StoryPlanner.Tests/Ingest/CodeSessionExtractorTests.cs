@@ -51,6 +51,112 @@ public class CodeSessionExtractorTests
         Assert.DoesNotContain(payloadEnvelope, rec.Body);
     }
 
+    // ---- roles by authorship (extract version 3, 2026-09-14) ----
+
+    /// <summary>A user record with extra top-level flags, as the harness writes them.</summary>
+    private static string UserFlagged(string uuid, string content, string flags, string ts = "2026-08-01T10:00:00Z") =>
+        $$"""{"type":"user","uuid":"{{uuid}}","parentUuid":null,{{flags}},"timestamp":"{{ts}}","sessionId":"s1","message":{"role":"user","content":{{content}} } }""";
+
+    [Fact]
+    public void A_compaction_summary_is_never_stored_and_a_harness_marker_stands_in_its_place()
+    {
+        const string summary = "This session is being continued from a previous conversation that ran out of context. The summary below covers SECRET-EARLIER-TURNS.";
+        var session = CodeSessionExtractor.Extract([UserFlagged("u1", $"\"{summary}\"", "\"isCompactSummary\":true")]);
+
+        var rec = Assert.Single(session.Records);
+        Assert.Equal(CodeSessionExtractor.HarnessRole, rec.Role);
+        Assert.StartsWith("[compaction summary dropped —", rec.Body);
+        Assert.Contains("chars]", rec.Body);
+        Assert.DoesNotContain("SECRET-EARLIER-TURNS", rec.Body);
+        Assert.Equal(1, session.CompactionsDropped);
+    }
+
+    [Fact]
+    public void A_compaction_summary_is_told_by_its_opening_when_the_flag_is_absent()
+    {
+        var session = CodeSessionExtractor.Extract([User("u1", "\"This session is being continued from a previous conversation that ran out of context. Summary: SECRET.\"")]);
+
+        var rec = Assert.Single(session.Records);
+        Assert.Equal(CodeSessionExtractor.HarnessRole, rec.Role);
+        Assert.DoesNotContain("SECRET", rec.Body);
+    }
+
+    [Theory]
+    [InlineData("\"isMeta\":true", "Base directory for this skill: c:\\\\x\\n\\n# Skill text")]
+    [InlineData("\"isSidechain\":false", "<task-notification>\\n<task-id>abc</task-id>\\n</task-notification>")]
+    [InlineData("\"isSidechain\":false", "<local-command-stdout>Set model to opus</local-command-stdout>")]
+    [InlineData("\"isSidechain\":false", "<ide_opened_file>The user opened the file x.cs</ide_opened_file>")]
+    [InlineData("\"isSidechain\":false", "[SYSTEM NOTIFICATION - NOT USER INPUT] something")]
+    public void What_the_harness_injects_in_the_user_role_is_kept_verbatim_under_the_harness_role(string flags, string text)
+    {
+        var session = CodeSessionExtractor.Extract([UserFlagged("u1", $"\"{text}\"", flags)]);
+
+        var rec = Assert.Single(session.Records);
+        Assert.Equal(CodeSessionExtractor.HarnessRole, rec.Role);
+        Assert.Equal(System.Text.Json.JsonSerializer.Deserialize<string>($"\"{text}\""), rec.Body);
+        Assert.Equal(1, session.HarnessRecords);
+    }
+
+    [Theory]
+    [InlineData("<ide_opened_file>The user opened the file x.cs in the IDE.</ide_opened_file>\\n\\nFix the color picker please")]
+    [InlineData("<ide_selection>The user selected lines 3-4</ide_selection>\\n\\nWhy does this fail?")]
+    [InlineData("<task-notification>x</task-notification>\\n\\nNow do the next one")]
+    [InlineData("<ide_opened_file>a block with no closer")]
+    public void A_tagged_injection_followed_by_the_authors_prompt_is_the_authors_record(string text)
+    {
+        var session = CodeSessionExtractor.Extract([User("u1", $"\"{text}\"")]);
+
+        var rec = Assert.Single(session.Records);
+        Assert.Equal("user", rec.Role);
+        Assert.Equal(System.Text.Json.JsonSerializer.Deserialize<string>($"\"{text}\""), rec.Body);
+    }
+
+    [Theory]
+    [InlineData("[Request interrupted by user]")]
+    [InlineData("<command-message>migrate-hypothesis</command-message>\\n<command-name>/migrate-hypothesis</command-name>")]
+    public void The_authors_own_actions_in_fixed_harness_text_stay_in_the_user_role(string text)
+    {
+        var session = CodeSessionExtractor.Extract([User("u1", $"\"{text}\"")]);
+
+        Assert.Equal("user", Assert.Single(session.Records).Role);
+    }
+
+    [Fact]
+    public void In_a_subagent_transcript_a_plain_text_user_turn_is_the_parents_assistant()
+    {
+        var session = CodeSessionExtractor.Extract([
+            UserFlagged("u1", "\"Read these two files and report how they work.\"", "\"isSidechain\":true"),
+            UserFlagged("u2", "\"Base directory for this skill: x\"", "\"isSidechain\":true,\"isMeta\":true", ts: "2026-08-01T10:00:01Z"),
+            UserFlagged("u3", "\"[Request interrupted by user]\"", "\"isSidechain\":true", ts: "2026-08-01T10:00:02Z"),
+            UserFlagged("u4", "[{\"type\":\"tool_result\",\"tool_use_id\":\"t1\",\"content\":\"file bytes\"}]", "\"isSidechain\":true", ts: "2026-08-01T10:00:03Z"),
+        ]);
+
+        Assert.Equal(["assistant", CodeSessionExtractor.HarnessRole, "user", "user"], session.Records.Select(r => r.Role).ToArray());
+        Assert.Equal("Read these two files and report how they work.", session.Records[0].Body);
+        Assert.Equal(1, session.ParentPrompts);
+    }
+
+    [Fact]
+    public void A_giant_harness_injection_is_stubbed_like_a_paste_and_keeps_the_harness_role()
+    {
+        var giant = "Base directory for this skill: x " + string.Join(" ", Enumerable.Repeat("w", 20_001));
+        var session = CodeSessionExtractor.Extract([UserFlagged("u1", $"\"{giant}\"", "\"isMeta\":true")]);
+
+        var rec = Assert.Single(session.Records);
+        Assert.Equal(CodeSessionExtractor.HarnessRole, rec.Role);
+        Assert.StartsWith("[Large paste —", rec.Body);
+        Assert.Equal(1, session.LargePasteStubs);
+    }
+
+    [Fact]
+    public void In_a_main_transcript_a_plain_text_user_turn_stays_the_authors()
+    {
+        var session = CodeSessionExtractor.Extract([UserFlagged("u1", "\"Fix the color picker please\"", "\"isSidechain\":false")]);
+
+        Assert.Equal("user", Assert.Single(session.Records).Role);
+        Assert.Equal(0, session.ParentPrompts);
+    }
+
     [Fact]
     public void Thinking_parts_are_dropped_without_a_marker()
     {

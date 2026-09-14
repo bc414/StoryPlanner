@@ -196,87 +196,73 @@ public static class HypothesisIndex
 }
 
 /// <summary>
-/// schemas/study-registry-schema.md: id · type · corpus · go, appended at Brian's go; the id
-/// <c>&lt;type&gt;-of-&lt;corpus&gt;-&lt;slug&gt;</c>, its type the one the prefix names
-/// (verification or exploration), its corpus a name from the corpora file (d-2026-09-08-2,
-/// d-2026-09-13-50; the audit retired by d-2026-09-13-40).
+/// schemas/study-registry-schema.md on the engine (d-2026-09-14-7 and -9 to -12): the title,
+/// then one-line entries, each a study id <c>&lt;type&gt;-of-&lt;question&gt;[-&lt;slug&gt;]</c>,
+/// its type verification or exploration, its question the longest slug heading an entry in the
+/// question list; nothing else is authored. The engine holds the shape, reported under
+/// <c>registry.shape</c>; the class holds the title, the id form with its question resolved, and
+/// uniqueness.
 /// </summary>
 public static class Registry
 {
+    public const string SchemaId = "study-registry-schema";
+    public const string Title = "Studies";
     public static readonly string[] Types = ["verification", "exploration"];
+    const string Of = "-of-";
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var findings = new List<Finding>();
 
-        IReadOnlyList<MarkdownTable> tables;
-        try { tables = MapTables.ReadAll(File.ReadAllText(path)); }
-        catch (MapFormatException ex) { return [Finding.Fail("registry.table", file, ex.Message)]; }
+        var engine = EngineCheck.Run(SchemaId, ctx, path);
+        if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return findings; }
+        foreach (var p in engine.Problems)
+            findings.Add(Finding.Fail("registry.shape", file, p.Message));
+        var doc = engine.Document;
+        if (doc.Title != Title)
+            findings.Add(Finding.Fail("registry.title", file, $"the title is '# {Title}'"));
 
-        var table = tables.FirstOrDefault(t => t.Headers.Select(h => h.ToLowerInvariant()).SequenceEqual(["id", "type", "corpus", "go"]));
-        if (table is null) return [Finding.Fail("registry.table", file, "no table with columns id | type | corpus | go")];
-
-        var known = new HashSet<string>(ctx.CorporaIds, StringComparer.Ordinal);
-        if (ctx.CorporaIds.Count == 0)
-            findings.Add(Finding.Info("registry.corpora-unavailable", file,
-                "no corpus ids could be read from the skill folder; corpus names are not checked"));
+        var questions = Questions.SlugsOf(ctx);
+        if (questions is null)
+            findings.Add(Finding.Info("registry.questions-unavailable", file,
+                "the question list could not be read; the question segment of each id is not checked"));
 
         var seen = new HashSet<string>(StringComparer.Ordinal);
-        foreach (var row in table.Rows)
+        foreach (var id in Ids(doc))
         {
-            var (id, type, corpus, go) = (row.Cells[0], row.Cells[1], row.Cells[2], row.Cells[3]);
-            if (!seen.Add(id)) findings.Add(Finding.Fail("registry.duplicate", file, $"line {row.Line}: {id} appears twice"));
-            if (!SchemaCheckers.IsoDate.IsMatch(go)) findings.Add(Finding.Fail("registry.go", file, $"line {row.Line}: go is an ISO date; found '{go}'"));
-            if (!ClosedSets.IdPattern.IsMatch(id))
-            {
-                findings.Add(Finding.Fail("registry.id", file, $"line {row.Line}: '{id}' is not a lowercase slug"));
-                continue;
-            }
-
-            string? expectedType = null, idCorpus = null;
-            if (id.StartsWith("exploration-of-", StringComparison.Ordinal))
-            {
-                expectedType = "exploration";
-                idCorpus = CorpusOf(id["exploration-of-".Length..], known, slugRequired: false);
-            }
-            else if (id.StartsWith("verification-of-", StringComparison.Ordinal))
-            {
-                expectedType = "verification";
-                idCorpus = CorpusOf(id["verification-of-".Length..], known, slugRequired: true);
-            }
-            else
-            {
-                findings.Add(Finding.Fail("registry.id", file,
-                    $"line {row.Line}: '{id}' is verification-of-<corpus>-<slug> or exploration-of-<corpus>[-<slug>]"));
-                continue;
-            }
-
-            if (type != expectedType)
-                findings.Add(Finding.Fail("registry.type", file, $"line {row.Line}: {id} is {expectedType}; found '{type}'"));
-
-            if (idCorpus is null)
-            {
-                if (ctx.CorporaIds.Count > 0)
-                    findings.Add(Finding.Fail("registry.corpus", file,
-                        $"line {row.Line}: '{id}' names no known corpus followed by a slug; the ids are [{string.Join(" ", known.OrderBy(k => k))}]"));
-            }
-            else if (corpus != idCorpus)
-                findings.Add(Finding.Fail("registry.corpus", file, $"line {row.Line}: the corpus cell is '{idCorpus}' for {id}; found '{corpus}'"));
+            if (!seen.Add(id)) findings.Add(Finding.Fail("registry.duplicate", file, $"{id} appears twice"));
+            var problem = IdProblem(id, questions);
+            if (problem is not null) findings.Add(Finding.Fail("registry.id", file, $"'{id}': {problem}"));
         }
         return findings;
     }
 
-    /// <summary>The corpus an id's remainder names: the longest known id, with a slug after it where required.</summary>
-    static string? CorpusOf(string remainder, HashSet<string> known, bool slugRequired)
+    /// <summary>The ids a parsed registry lists, in order.</summary>
+    public static IReadOnlyList<string> Ids(ParsedDocument doc)
+        => (doc.Root["body"] as JsonArray ?? []).Select(n => n?.ToString() ?? "").ToList();
+
+    /// <summary>The type an id's prefix names, or null when the id carries no type prefix.</summary>
+    public static string? TypeOf(string id)
+        => Types.FirstOrDefault(t => id.StartsWith(t + Of, StringComparison.Ordinal));
+
+    /// <summary>
+    /// Why an id is outside its form, or null: a lowercase slug; a type prefix; then the longest
+    /// slug heading an entry in the question list; then nothing or a slug. With no list the
+    /// question goes unchecked, which Check reports as information.
+    /// </summary>
+    static string? IdProblem(string id, IReadOnlySet<string>? questions)
     {
-        if (known.Count == 0) return null; // unchecked: reported as information elsewhere
-        var candidates = known.Where(c => remainder == c || remainder.StartsWith(c + "-", StringComparison.Ordinal)).OrderByDescending(c => c.Length).ToList();
-        if (candidates.Count == 0) return null;
-        var corpus = candidates[0];
-        var hasSlug = remainder.Length > corpus.Length + 1;
-        if (slugRequired && !hasSlug) return null;
-        return corpus;
+        if (!ClosedSets.IdPattern.IsMatch(id)) return "not a lowercase slug";
+        var type = TypeOf(id);
+        if (type is null) return "an id is verification-of-<question>[-<slug>] or exploration-of-<question>[-<slug>]";
+        var rest = id[(type.Length + Of.Length)..];
+        if (rest.Length == 0) return "no question after the type";
+        if (questions is null) return null;
+        var question = questions
+            .Where(q => rest == q || rest.StartsWith(q + "-", StringComparison.Ordinal))
+            .OrderByDescending(q => q.Length).FirstOrDefault();
+        return question is null ? $"'{rest}' begins with no slug heading an entry in the question list" : null;
     }
 }
 
@@ -411,57 +397,56 @@ public static class Leads
 }
 
 /// <summary>
-/// schemas/corpora-schema.md: one section per corpus, its id as the heading, then what, where and
-/// read-by lines, then caveats. Also the source of corpus ids for the registry: the section
+/// schemas/corpora-schema.md on the engine (d-2026-09-14-13 and -17 to -19): the title, a head
+/// paragraph, then one <c>###</c> entry per corpus with what, where, read through and optional
+/// caveats. The engine holds the fields, reported under <c>corpora.entry</c>, and stray lines,
+/// under <c>corpora.shape</c>; the class holds the title, the head paragraph, and the heading as
+/// a slug unique in the file. Also the source of corpus ids for the index head: the entry
 /// headings of CORPORA.md.
 /// </summary>
 public static class Corpora
 {
+    public const string SchemaId = "corpora-schema";
     public const string FileName = "CORPORA.md";
-    static readonly string[] Fields = ["- what:", "- where:", "- read by:"];
+    public const string Title = "Corpora";
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var findings = new List<Finding>();
-        var text = File.ReadAllText(path);
-        var outline = new MarkdownOutline(text);
-        var seen = new HashSet<string>(StringComparer.Ordinal);
 
-        foreach (var h in outline.Headings.Where(h => h.Level == 2))
+        var engine = EngineCheck.Run(SchemaId, ctx, path);
+        if (engine.ShapeUnavailable) { findings.Add(EngineCheck.Unavailable(SchemaId, file)); return findings; }
+        foreach (var p in engine.Problems)
         {
-            if (!ClosedSets.IdPattern.IsMatch(h.Text))
-            {
-                findings.Add(Finding.Fail("corpora.section", file, $"line {h.Line}: a section heading is a corpus id, a lowercase slug; found '{h.Text}'"));
-                continue;
-            }
-            if (!seen.Add(h.Text))
-                findings.Add(Finding.Fail("corpora.duplicate", file, $"line {h.Line}: {h.Text} appears twice"));
-
-            var body = StateBuilder.Section(text, h.Text).Split('\n').Where(l => l.Trim().Length > 0).Take(3).ToList();
-            for (var i = 0; i < Fields.Length; i++)
-            {
-                var ok = i < body.Count && body[i].StartsWith(Fields[i], StringComparison.Ordinal)
-                         && body[i][Fields[i].Length..].Trim().Length > 0;
-                if (!ok)
-                {
-                    findings.Add(Finding.Fail("corpora.fields", file,
-                        $"{h.Text}: the first three lines are '- what:', '- where:', '- read by:', each with a value"));
-                    break;
-                }
-            }
+            var id = p.Kind is ProblemKind.Missing or ProblemKind.Unknown or ProblemKind.Order or ProblemKind.Type or ProblemKind.Form or ProblemKind.Duplicate
+                ? "corpora.entry" : "corpora.shape";
+            findings.Add(Finding.Fail(id, file, p.Message));
         }
-        if (seen.Count == 0) findings.Add(Finding.Fail("corpora.section", file, "no corpus sections"));
+        var doc = engine.Document;
+        if (doc.Title != Title)
+            findings.Add(Finding.Fail("corpora.title", file, $"the title is '# {Title}'"));
+        if (!doc.LeadProse.TryGetValue("body", out var lead) || lead.All(l => l.Trim().Length == 0))
+            findings.Add(Finding.Fail("corpora.shape", file, "the head paragraph between the title and the first entry is missing"));
+
+        var seen = new HashSet<string>(StringComparer.Ordinal);
+        foreach (var e in doc.Entries.Where(e => e.Section == "body"))
+        {
+            if (!ClosedSets.IdPattern.IsMatch(e.Heading))
+                findings.Add(Finding.Fail("corpora.entry", file, $"line {e.Line}: an entry heading is a corpus id, a lowercase slug; found '{e.Heading}'"));
+            else if (!seen.Add(e.Heading))
+                findings.Add(Finding.Fail("corpora.entry", file, $"line {e.Line}: {e.Heading} appears twice"));
+        }
         return findings;
     }
 
-    /// <summary>The corpus ids the skill folder declares, or an empty set when the file is absent.</summary>
+    /// <summary>The corpus ids the skill folder declares, the entry headings of its corpora file, or an empty set when the file is absent.</summary>
     public static IReadOnlySet<string> Ids(string skillFolder)
     {
         var corpora = Path.Combine(skillFolder, FileName);
         if (!File.Exists(corpora)) return new HashSet<string>(StringComparer.Ordinal);
         return new MarkdownOutline(File.ReadAllText(corpora)).Headings
-            .Where(h => h.Level == 2 && ClosedSets.IdPattern.IsMatch(h.Text))
+            .Where(h => h.Level == 3 && ClosedSets.IdPattern.IsMatch(h.Text))
             .Select(h => h.Text).ToHashSet(StringComparer.Ordinal);
     }
 }
@@ -631,6 +616,28 @@ public static class Questions
         => AppendedKinds.FirstOrDefault(k => line.StartsWith($"- {k}:", StringComparison.Ordinal));
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path) => Read(ctx, path).Findings;
+
+    /// <summary>
+    /// The slugs heading the list's entries, for a checker that resolves a question outside a
+    /// token type (the registry's id segment, d-2026-09-14-12): the list through the Artifacts
+    /// table of the governing skill folder, or, where that folder has no table, at the
+    /// singleton's declared path under the repo root. Null when no list can be read.
+    /// </summary>
+    public static IReadOnlySet<string>? SlugsOf(CheckContext ctx)
+    {
+        var path = References.FilesOf(WellKnown.QuestionList, ctx)?.FirstOrDefault()
+                   ?? Path.Combine(ctx.RepoRoot, "docs", "v3-framework", "questions.md");
+        if (!File.Exists(path)) return null;
+        var marker = $"### {Prefix}/";
+        var slugs = new HashSet<string>(StringComparer.Ordinal);
+        foreach (var line in File.ReadAllLines(path))
+        {
+            if (!line.StartsWith(marker, StringComparison.Ordinal)) continue;
+            var slug = line[marker.Length..].Trim();
+            if (ClosedSets.IdPattern.IsMatch(slug)) slugs.Add(slug);
+        }
+        return slugs;
+    }
 
     /// <summary>The entries of one list in order, and every finding against the schema.</summary>
     public static (IReadOnlyList<Entry> Entries, IReadOnlyList<Finding> Findings) Read(CheckContext ctx, string path)

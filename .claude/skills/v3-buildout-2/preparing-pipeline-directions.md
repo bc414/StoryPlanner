@@ -14,7 +14,7 @@ Enables surfacing-candidates and iterating-a-statement.
 ## Preconditions
 
 What started it names one set, the referee's or claiming's: the set's first preparation, at
-Brian's go; for the referee, his ruling at promotion that the referee is wrong in general;
+Brian's approval; for the referee, his ruling at promotion that the referee is wrong in general;
 for claiming, his ruling at promotion or at baselining that claiming misses pairs in general;
 for either, a change of model. A hypothesis added to the set starts nothing. What the sample
 draws from exists: for claiming, standing findings across several verifications; for the
@@ -32,8 +32,8 @@ is scored; and, for a revision, which rulings the new version must answer, a pai
 missed among them. Nothing is fixed by default. Each answer is recorded in the file it governs
 as that file is written: the model and effort in the sample batch's definition, the span,
 strata and split in the calibration's Sample, a ruling in the new version's criteria and in
-the calibration's Rulings with his reason. His approval of the plan is the go, and nothing
-else records it.
+the calibration's Rulings with his reason. His approval of the plan starts the preparation,
+and nothing else records it.
 
 ## collate-pipeline-sample
 

@@ -6063,3 +6063,435 @@ rules names the old id in prose.
   into underscores at the API and back when it reads the answer, which leaves the call reading one
   name in its directions and another in its schema; `claims` for the claiming fixture, of which
   Brian said "claims is not allowed".
+
+### A study is of one itemizer's items, and the itemizer is built inside the study
+
+- id: d-2026-09-14-4
+- date: 2026-09-14
+- supersedes: d-2026-09-13-1
+- raised by: the study-registry conversion, taken as this unit's first starting point after Brian
+  typed "Treat the previous session's queue and stack as only advisory. My goal is to get the
+  corpora schema and study registry schema complete in this unit. Reorder the queue and stack
+  according to the method's criteria of widest first, present it and the first decision's
+  framing." The frame found two definitions of a study in force at once: § Vocabulary's, since
+  d-2026-09-08-3 and restated by d-2026-09-13-41 and -56, the life of one set of directions over
+  the items of one itemizer, naming no corpus; and the registry's id form, its `corpus` cell, the
+  four `-a-corpus` activity ids, the two plan preconditions and d-2026-09-13-1, all making a study
+  one corpus's. The archive showed the corpus in the id entering on 2026-09-05 as a session's form
+  carried from revision 1's verification round per corpus, never deliberated on its own, and
+  Brian's typed positions of 2026-09-13 in order: at 04:59, "That still makes the study about the
+  target corpus."; at 21:12, "I'm now thinking corpora and batch inputs are no longer tied, and
+  batches can come from itemizers which combine multiple corpora."; at 23:30, "explore plan and
+  verify plan are to no longer be restricted to one corpus, but rather one itemizer". The `corpus`
+  cell's only code reader was a placeholder substitution no path has used since batch paths took
+  `<container>` and `<study>`. Brian: "I think a study is of one itemizer's items, and making the
+  itemizer if it doesn't already exist is part of the study too. It begins with putting together
+  an itemizer."
+- decision: A study is of one itemizer's items. Building the itemizer where it does not exist is
+  part of the study, as building-a-tool already says: the first task inside the study that needs
+  it, never a study of its own; the plan names the itemizer to build or reuse, and the itemize
+  step builds or picks it once the plan is approved. No corpus names a study: what the study's
+  itemizer cut and utilized is recorded per batch in the index head, and nowhere else.
+
+  What stands of d-2026-09-13-1: an itemizer may read corpora besides the ones it cuts and use
+  what it reads to cut its items, to label them and to fill their bodies, a passage from another
+  corpus included; the study and its findings are about the itemizer's items, and a finding
+  describes those items. What leaves: "the target corpus" as the owner of the study, its
+  questions and its findings; "cut through its reader and located by its locators", an item being
+  located by the notation its index head declares; and "A question stays about one corpus's
+  items", which d-2026-09-14-6 rules. What d-2026-09-13-1 sent to -2, -5 and -6 reads through
+  d-2026-09-13-50 and -49 as before. The index head's single `corpus` key under an itemizer that
+  cuts several corpora with no one target is not decided here.
+- not taken: a study of its target corpus with other corpora utilized, d-2026-09-13-1 as it stood,
+  which keeps a special case, the target, that no artifact records, gives an itemizer combining
+  corpora equally no id, and overrides Brian's later typed position with his earlier one; a study
+  of every corpus its itemizer reads, the id naming them all, which authors in the registry what
+  each index head already records.
+
+### A study has exactly one question, and a question has any number of studies
+
+- id: d-2026-09-14-5
+- date: 2026-09-14
+- raised by: Brian, on the first ruling: "Should this be one question or can it be multiple?",
+  then "One question-list entry or multiple can be addressed?" The text held several: a
+  directions version cites the questions it freezes, both plan processes ask which questions, and
+  each finding names at most one. Shown that, Brian: "I think a question can be about anything,
+  and it's one study per question. Itemizer is made to answer the question. What do I lose by
+  getting rid of many questions to a study?" The session named the losses, the item sent once per
+  question instead of once per study, contrasts between two predicates on the same items becoming
+  a comparison across studies, explorations reading once with several questions in view, and
+  per-study overhead, and the gains, the registry named by the question, item and predicate and
+  question decided together, the derivations one-to-one. Brian: "A study can have at most one
+  question. A question can have multiple studies, such as different models or a different
+  approach."; "Per study overhead is less of an issue because I intend to really cull the
+  questions and keep them what I want to investigate and not suggested questions over lossy
+  summaries of past deliberation."; and, asked whether "at most" admits a study with none, "I
+  meant study has exactly one question."
+- decision: A study has exactly one question, and a question has any number of studies: a repeat
+  under another model, a different itemizer or different directions, an exploration and a
+  verification of the same question, each a study of its own under d-2026-09-13-41. § Vocabulary's
+  study, verification and exploration lines, d-2026-09-13-56's, gain the question: a study is the
+  life of one set of its own directions over the items of one itemizer under one model and
+  effort, for one question. A directions version freezes one predicate, for its study's question.
+  A question a study's items and predicate cannot answer is another study's. The findings
+  `question` field and the directions frontmatter's `questions` list, each now derivable from the
+  study, are left to their own schemas' reviews under rule 9. Culling the list is Brian's, by
+  withdrawn lines under the question list's append discipline, and no schema changes for it.
+- not taken: several questions per study, the text as it stood, which forces one item definition
+  and one sample stratification to serve every question a study takes; one study per question in
+  the literal sense, which bars the repeats d-2026-09-13-41 makes separate studies; a study with
+  no question, which "at most one" admitted and Brian corrected.
+
+### A question is about anything a study can be made to answer, and names no data set
+
+- id: d-2026-09-14-6
+- date: 2026-09-14
+- raised by: d-2026-09-13-38 and -50, which each left what a question is about undecided once the
+  question list dropped its data-set field, and d-2026-09-13-7's "A question is about one
+  corpus's items", retired as the list's scope. Brian: "I think a question can be about anything,
+  and it's one study per question. Itemizer is made to answer the question."
+- decision: A question is about anything a study can be made to answer: it names no corpus, no
+  data set and no itemizer, and its entry carries no field for one, as d-2026-09-13-38 already
+  holds. The study's itemizer is made for the question, and the corpora it reads are recorded in
+  its index heads. This closes what d-2026-09-13-38 and -50 left open; d-2026-09-13-7's clause on
+  one corpus's items does not return.
+- not taken: a question tied to one corpus's items, d-2026-09-13-7's ruling, which
+  d-2026-09-13-50 already declined as the list's scope; a question tied to an itemizer, built or
+  not, which d-2026-09-13-38 declined as fixing the item before the plan does.
+
+### The study id is the type, then the question's slug, then a slug only for a further study
+
+- id: d-2026-09-14-7
+- date: 2026-09-14
+- supersedes: d-2026-09-08-2
+- raised by: d-2026-09-14-4, after which the id `<type>-of-<corpus>-<slug>` embedded a corpus the
+  study is not of. The frame: the id is the folder name, the `<study>` segment of every batch
+  path, the prefix of every citation and item token, the title of three files and the study half
+  of an evidence citation; the directions schema reads a version's kind from the prefix; three
+  checkers hard-code the prefixes; no live artifact carries any study id and no hypothesis record
+  holds an entry, so the form migrates nothing. Offered the type prefix with the question's slug
+  and a distinguishing slug only for a further study of the same question and type, the
+  question's slug with the type in a cell, or a free slug with a `question` cell, Brian: "Option 1
+  is good".
+- decision: A study id is `<type>-of-<question>` or `<type>-of-<question>-<slug>`. `<type>` is
+  `verification` or `exploration`. `<question>` is the slug of an entry in the question list, the
+  one question the study is of; since question slugs may contain hyphens and one may be a prefix
+  of another, the question is the longest slug heading an entry in the list that the id carries
+  after `<type>-of-`. `<slug>` is present only for a further study of the same question and type,
+  a lowercase slug naming what sets the study apart, the model where the model differs, the
+  itemizer or the directions otherwise; the first study of a question and type carries none and
+  is never renamed when a second arrives. The id is authored at approval and never changed. The
+  `<corpus>` placeholder leaves § Artifacts' placeholders, no path using it, and the `<study>`
+  gloss reads the new form. The directions kind derivation, the three title checks and the
+  citation forms stand unchanged.
+
+  What stands of d-2026-09-08-2: no ordinal; a slug is lowercase `[a-z0-9-]+`, authored at
+  approval and never changed; an id is unique across the registry. What leaves: the corpus
+  segment, and a slug that "names what the directions do", the question now saying that.
+- not taken: the question's slug then a slug, with the type in a registry cell, which changes the
+  kind derivation and three checkers and leaves a token silent on whether it cites an exploration
+  or a verification; a free slug after the type with a `question` cell, which puts the question
+  in no token, so that finding a question's studies means reading the registry.
+
+### The four corpus activities are named by study type, and their preconditions name the question and every corpus
+
+- id: d-2026-09-14-8
+- date: 2026-09-14
+- raised by: d-2026-09-14-4, against the ids preparing-to-explore-a-corpus, exploring-a-corpus,
+  preparing-to-verify-a-corpus and verifying-a-corpus, and the preconditions "The corpus is
+  readable and CORPORA.md says how." The archive showed the ids an assistant's at 2026-09-04
+  23:46, reshaped on 2026-09-05 where Brian selected a label, and typed by him since only as file
+  names; the object entered with revision 1's verification round per corpus. Their consumers: four
+  Router rows and seven `enables` cells, four file names, rule 4's sentence, twelve
+  cross-references in six activity files, one prose line in each of three schemas, and the state
+  builder's two chain arrays; no path and no token. Brian's typed verbs are "explore" and
+  "verify", his nouns "exploration", "verification" and "study"; "conducting" appears in the
+  archive only in a label he selected. Offered the object as the study type, the object as the
+  question, or `-a-corpus` kept, Brian: "Option 1 is good".
+- decision: The four activities are `preparing-an-exploration`, `conducting-an-exploration`,
+  `preparing-a-verification` and `conducting-a-verification`, their files renamed with them,
+  every `enables` cell, cross-reference, schema line and chain array following; their process ids
+  are unchanged. Their preconditions name the one question and every corpus: for a verification,
+  the question is open in the list and its answer is one a frozen predicate could give, and every
+  corpus the study's itemizer will read is readable and CORPORA.md says how; for an exploration,
+  the question is open or is asked for and written first, then the same corpus clause. The two
+  plan rows' "the corpus's shape as CORPORA.md gives it" reads the corpora the itemizer will read.
+  The sentences are composed at the edit; this entry rules what they name.
+- not taken: the question as the object, `verifying-a-question`, which is not ordinary English
+  though it keeps Brian's verbs; `-a-corpus` kept and read as the corpora the itemizer reads,
+  which leaves the word colliding with § Vocabulary's corpus; `running-` and `executing-` as the
+  verb, the first colliding with the method's run of autonomous work, the second with the
+  runner's verb and naming only the batch.
+
+### The registry's type and corpus cells leave as derivable
+
+- id: d-2026-09-14-9
+- date: 2026-09-14
+- raised by: d-2026-09-14-7, after which `type` is the id's prefix and the question its second
+  segment, and `corpus` names nothing a study is of. Rule 9: "Whatever can be derived from an
+  artifact is never authored beside it." The frame: `type` picks the chain in the state builder
+  and is checked equal to the prefix; `corpus` is checked equal to the id's corpus and has no
+  reader but the render and an unused placeholder; the founding's readability axis is met by the
+  prefix reading as the type in the id itself. Offered the id with the date only, `type` kept as
+  checked redundancy, or the question as a cell, Brian did not rule the cells apart: his ruling
+  on the date, "Let's cut the go/approved field.", left the registry its ids only, and he approved
+  the set of entries so drafted, "Looks good, proceed".
+- decision: The registry authors no `type` and no `corpus` cell. The type is read from the id's
+  prefix, by the state builder for the chain and by the title checks of leads, findings and
+  declined candidates; the corpora a study reads are read from its index heads. `registry.type`
+  and `registry.corpus` retire (d-2026-09-14-12).
+- not taken: `type` kept as checked redundancy, an exception to rule 9 with no invariant on its
+  side, the prefix already reading as the type; the question as a cell in place of the id's
+  segment, which contradicts d-2026-09-14-7.
+
+### The approval date leaves, and the act is called approval, not go
+
+- id: d-2026-09-14-10
+- date: 2026-09-14
+- raised by: Brian, on the last authored cell: "What is 'go' about?", then "So should it be
+  'approved' instead? 'go' doesn't read right". The archive showed no user turn using "go" in
+  this sense; it entered with the founding registry design as a session's word, and the plan rows
+  gloss it as "the plan approved is his go". The date's only reader was the state render. Brian:
+  "So this only matters if I start a study but don't carry it out? I thought the plan writes the
+  entry into the registry file, which wouldn't happen until the plan is approved?"; then "Let's
+  cut the go/approved field."
+- decision: The registry records no date. The entry's existence is the approval: the plan process
+  appends it at the moment Brian approves the plan and never before, so a registered study is an
+  approved one, and when it was approved is read from nothing. The act is called approval
+  wherever the method names it: § Vocabulary's study, the `studies` Artifacts row, the two plan
+  sections, the two conducting preconditions and preparing-pipeline-directions' plan read
+  approval in place of go. `registry.go` retires (d-2026-09-14-12).
+- not taken: the date kept under `approved`, whose only use was a registered study with no batch,
+  the case Brian named, and a render line nothing reads; an ordering check over the date, a check
+  on a value no process consumes.
+
+### The registry is a title and one-line entries, with no table
+
+- id: d-2026-09-14-11
+- date: 2026-09-14
+- raised by: d-2026-09-14-9 and -10, after which the registry's one column was the id. Brian: "And
+  make the registry an entries section with no table", the grammar holding that an entries
+  section with no field table holds one-line entries, each `- ` line one entry.
+- decision: `docs/v3-framework/studies.md` is the title `# Studies` followed by one entry per
+  study, `- <id>`, in the order the studies were approved, with no head prose, no sections and no
+  table; it may hold none. The class stays append: an entry is never edited, and a study
+  abandoned is a fact its folder shows, not an entry removed. The `studies` Artifacts row's
+  description reads one entry per study. Nothing else is authored there.
+- not taken: a one-column table, a list wearing a table's clothes; head prose, which the question
+  list also declines.
+
+### The registry has four checks, the question segment resolved as declared
+
+- id: d-2026-09-14-12
+- date: 2026-09-14
+- raised by: the checks after d-2026-09-14-7 to -11: six ids and one info existed,
+  `registry.table`, `registry.duplicate`, `registry.go`, `registry.id`, `registry.type`,
+  `registry.corpus` and `registry.corpora-unavailable`, four of them without a subject.
+  `registry.id` was changed by d-2026-09-08-2, `registry.type` and `registry.corpus` named by
+  d-2026-09-09-12 and re-held by d-2026-09-13-50, the rest described in words by the founding
+  record's entry of 2026-09-06. The question segment resolves against another file, and the
+  method holds a check across files earned only while resolving a reference type is declared:
+  `findings.question` resolves to the list, `leads.cites` to an index, and `registry.corpus`
+  resolved a segment to the corpora file from its first write. Offered four checks with the
+  resolution declared, or the same without it, Brian: "Go with option 1".
+- decision: The registry's checks are: `registry.title`, the title is not `# Studies`;
+  `registry.shape`, the engine's, a line after the title is other than a `- ` entry or blank;
+  `registry.id`, an entry is not `verification-of-<question>[-<slug>]` or
+  `exploration-of-<question>[-<slug>]` where `<question>` is the longest slug heading an entry in
+  the question list and `<slug>`, when present, is lowercase `[a-z0-9-]+`; `registry.duplicate`,
+  an id appears twice. Resolving the question segment is a declared check, a reference resolved
+  as `registry.corpus` was, existence only, since a check cannot know whether the question was
+  open at approval. `registry.table`, `registry.go`, `registry.type` and `registry.corpus`
+  retire; the info is `registry.questions-unavailable`, reported and never failed, when the list
+  cannot be read. d-2026-09-09-12's clauses on the two retired checks are history. A
+  folder-to-registry consistency check is not minted: it is a check across files, earned only,
+  and no failure has been observed.
+- not taken: `registry.id` holding the prefix and the charset only, under which a study of a
+  misspelt or unwritten question registers cleanly and is caught only at a directions frontmatter
+  or a finding.
+
+### The corpora file's read through line names the code path an itemizer takes
+
+- id: d-2026-09-14-13
+- date: 2026-09-14
+- raised by: the corpora conversion, this unit's second starting point, with what CORPORA.md's
+  `read by` names at the top of its stack as d-2026-09-13-51 and -36 left it. The archive showed
+  the line entering in an assistant turn at 2026-09-07 03:20 restating readiness "as a fact about
+  how the corpus is read", Brian selecting a label two minutes later and never typing the phrase;
+  its values mixed a session's reader such as MCP tools or sqlite3, a repo tool, "files",
+  "nothing", and a runner mechanism the runner skill no longer has. The consumers: the plan
+  processes, `build`'s entry "that must be true afterwards", the index schema's locator "through
+  the reader CORPORA.md names", and the `corpus` row's "read through the MCP server, files or
+  sqlite3". An itemizer is code under `tools/` reading the file or database at `where` directly,
+  so four of eight entries named a reader no itemizer can use. Offered the session's reader, two
+  keys, or the code's reader, Brian: "Is this for how an itemizer would get the data as input?",
+  and, shown that sense, "Use read through and go with this".
+- decision: The line is `read through`: for each corpus, the code path an itemizer takes from
+  `where` to items, the format, the reader or library in the repo, and where its schema or
+  reading rules are documented, a converter where one runs first. Readable, in the plan
+  preconditions and in building-a-tool's "a corpus to make readable", means an itemizer can be
+  built over it. What a session or the MCP server reads a corpus through is not in the file: the
+  planner's `corpora`, `storyplan-data` and `code-sessions` skills carry it for the corpora they
+  cover, and the rest are files. The index schema's locator is resolved by the parts the index
+  head's notation declares, its clause naming CORPORA.md leaving; the `corpus` row's description
+  follows. An itemizer is named per batch in its index head, never in an entry; the runner
+  mechanism leaves the fimfiction entry under rule 5; "nothing" leaves, every corpus at `where`
+  being readable by code. The founding record's entry of 2026-09-06, readiness restated as how a
+  corpus is read, is history as to the line's sense.
+- not taken: the session's reader for a locator, one value per corpus, which names for four
+  corpora a reader an itemizer cannot use and what the planner's skills already document; two
+  keys, the session's and the code's, the second restating what `where` and the repo's
+  conventions fix.
+
+### Compaction summaries are not corpus data, and the ingest drops them
+
+- id: d-2026-09-14-14
+- date: 2026-09-14
+- raised by: d-2026-09-13-51's deferral. The archive stores a compaction summary as a user-role
+  record whose body opens "This session is being continued from a previous conversation that ran
+  out of context.", twenty-five of them in six sessions; rule 10 says a user turn in a
+  code-sessions transcript is Brian's own prose, and d-2026-09-13-51's definition says a corpus
+  is "never a lossy summary or report made afterwards from other text". The ingest examines no
+  compaction flag, though it already drops a hook's feedback and elides tool results. Brian:
+  "Compaction summaries are not corpus data, and this seems like a bug that should be fixed in
+  the ingest and code sessions skill. All the transcripts are still on disk." Checked at the
+  source: by date no session has aged off, and the six sessions holding a compaction record were
+  seen on disk on 2026-09-14; the code-sessions skill's archive-health recipe compares exact
+  timestamps and so flags every session but the last one touched in a run. The conversations
+  corpus holds no compaction block, the parser marking them and `get_blocks` labelling them.
+- decision: A compaction summary is not corpus data. The ingest drops it at extraction, as it
+  drops a hook's feedback; whether a bare marker stands in its place is fixed in `build`. The
+  archive is re-extracted whole. The code-sessions skill says so, its archive-health recipe is
+  fixed to compare by run date, and the code-sessions entry's caveats say it, all in the same
+  commit as the ingest. The build runs under building-a-tool after this unit's edits, together
+  with d-2026-09-14-16. Rule 10 is unchanged: no such record then exists in a user turn.
+- not taken: a reading rule only, in the skill and the caveats, each itemizer narrowing them out,
+  which leaves rule 10's letter wrong and repeats the exclusion per itemizer; a mark rather than a
+  drop, which the no-delete design does not require of records, the raw transcripts holding full
+  fidelity; compaction summaries as corpus data, against the definition.
+
+### Subagent transcripts are corpus data, and a subagent's opening prompt is the parent assistant's
+
+- id: d-2026-09-14-15
+- date: 2026-09-14
+- raised by: d-2026-09-13-51's other deferral. A subagent session opens with a user-role record
+  that is the prompt the parent's assistant wrote and closes with the assistant's report, which
+  the parent holds only as an elided tool result; 262 of the archive's 431 sessions are
+  subagents. d-2026-09-13-51's definition includes "an AI's reply in the exchange it answered"
+  and excludes a report "made afterwards from other text"; Brian's typed formulation behind it
+  was "my words, or an AI's direct response to my words. Not an AI lossy summary." The ingest
+  keeps subagents as part of the tree on Brian's design. Offered corpus data as part of the tree,
+  not corpus data with the rows kept as provenance, or the exchange in and the report out, Brian:
+  "I agree that it is corpus data, and it is assistant role, not my words, instead of being
+  lumped as my words based on user role metadata".
+- decision: A subagent's transcript is corpus data: an exchange as written, an AI's prompt and an
+  AI's reply, its report's lossiness being that of any assistant turn that reads and answers. A
+  subagent's opening prompt is the parent assistant's text and is recorded as assistant role by
+  the ingest (d-2026-09-14-16), never as Brian's. An itemizer that wants Brian's decisions
+  narrows to main sessions and says so in its index head. The code-sessions entry's `what` is
+  unchanged, and its caveats say what a subagent's first record is.
+- not taken: subagent rows outside the corpus while kept in the archive, a corpus narrower than
+  its database for the first time, and a report a main session acted on unreadable by any
+  itemizer; the exchange in and the closing report out, which nothing marks apart.
+
+### The ingest records who authored a record, not the transcript's role
+
+- id: d-2026-09-14-16
+- date: 2026-09-14
+- raised by: d-2026-09-14-14 and -15, which the frame found to be two cases of one bug: the
+  ingest inherits the transcript's user role for everything the harness injects. Counted in main
+  sessions' user-role records: skill loads, "Base directory for this skill", 180; interruption
+  markers, 177; task notifications, 162; rejected-tool markers, 101; local command caveats and
+  output, command invocations and IDE events, 408; compaction summaries, 25; subagent sessions
+  adding their 262 opening prompts and a few dozen of the same classes. The ingest already sorts
+  tool results, hook feedback and question dialogs at the boundary. Brian's words: "lumped as my
+  words based on user role metadata".
+- decision: The ingest records who authored each record, not the role the transcript gives it:
+  Brian's typed turns and his `Typed:` lines as his; a subagent's opening prompt as the parent
+  assistant's; the harness's injections, the classes above, recorded as the harness's or dropped;
+  compaction summaries dropped. The treatment of each class is fixed in `build` with Brian, and
+  the archive is re-extracted whole. Rule 10's "a user turn or `Typed:` line in a Claude Code
+  transcript" is then true by its letter and is not edited. The code-sessions skill's reading
+  rules say which records are his and which are the harness's, in the same commit.
+- not taken: rule 10 qualified in words while the archive stays as it is, which leaves over a
+  thousand machine records in user role for any reader to misread; a fix confined to compaction
+  summaries and subagent prompts, which leaves the other classes.
+
+### A corpus entry's heading is at the third level
+
+- id: d-2026-09-14-17
+- date: 2026-09-14
+- raised by: the corpora conversion against the grammar: the engine parses an entry at `###`
+  only, the folder's schema says a new level is never added, and the file's eight entries were
+  `##`. The checker read level-2 headings as the corpus ids, whose only consumer after this
+  unit's registry rulings is the index head's `corpus` and `utilizes corpora` enums. Offered the
+  entries at `###` or the grammar gaining a level, Brian: "Go with option 1".
+- decision: A corpus entry's heading is `### <id>`, a slug unique in the file, the head paragraph
+  prose before the first entry; the id source reads level 3, and the index checker's enums
+  follow. The grammar is unchanged.
+- not taken: the grammar gaining `##` entries, a new level the folder's schema bars and nothing
+  argued for.
+
+### The caveat prose is one optional block field, caveats
+
+- id: d-2026-09-14-18
+- date: 2026-09-14
+- raised by: the grammar holding no prose inside an entry, against eight caveat blocks of five
+  kinds: what is excluded from the corpus, what sits beside it that is not corpus data, reading
+  semantics, format quirks and provenance limits; d-2026-09-13-50's standing clause that "the
+  standing caveats stay in CORPORA.md". Brian had typed "caveat" in use on 2026-09-03, not for
+  this file. Offered one field, two fields with the not-corpus-data exclusions apart, or no field,
+  Brian: "Go with one field".
+- decision: An entry's fourth field is `caveats`, type block, optional: what a reader must know
+  that `what`, `where` and `read through` do not say, the five kinds above among it, present when
+  there is something to say and absent otherwise, so that no entry invents one. The exclusions
+  d-2026-09-13-51 named as not corpus data sit in it.
+- not taken: a second field for what is not corpus data, a name and a sorting for a query only an
+  itemizer's author asks; the prose dropped to the planner's skills, which three corpora do not
+  have.
+
+### The corpora class's fields, types, title and three checks
+
+- id: d-2026-09-14-19
+- date: 2026-09-14
+- raised by: the conversion's remaining shape after d-2026-09-14-13, -17 and -18: the types and
+  presence of the three keyed lines, each already a sentence or two long and one naming three
+  locations; the title `# Corpora` and the head paragraph; and the three existing checks,
+  `corpora.section`, `corpora.duplicate` and `corpora.fields`, described in words by the founding
+  record's entry of 2026-09-06 and holding a shape that no longer exists. Shown the shape, Brian:
+  "This is fine". On the draft's sentence that a corpus enters only when a study needs it: "No,
+  we'll be putting in the corpora as part of the work unit. They don't need studies first."
+- decision: The class `corpora` is: the title `# Corpora`; the head between the title and the
+  first entry, required, prose; the whole file after the head, required, entries, which may be
+  none. An entry is `### <id>`, then in order `what`, required block, what the corpus is as
+  primary-source data, whose text and of what kind, its population naming the file that lists it
+  where one does; `where`, required block, the file or database by its path or the config entry
+  that names it; `read through`, required block, per d-2026-09-14-13; `caveats`, optional block,
+  per d-2026-09-14-18. No progress, readiness, deferral, judgment or count is written. The checks
+  are `corpora.title`, the title is not `# Corpora`; `corpora.shape`, the engine's, the head
+  missing, a line outside the head and the entries, or a heading other than an entry's;
+  `corpora.entry`, the engine's, a heading not a slug or repeated, a field missing, unknown, out
+  of order or of the wrong type, a line neither keyed nor continuation. `corpora.section`,
+  `corpora.duplicate` and `corpora.fields` retire; the founding entry of 2026-09-06 is history as
+  to them. No minimum count of entries and no cross-file check. The `corpora` Artifacts row's
+  description reads how an itemizer reads each corpus. The eight corpora are brought to the
+  schema in this unit, no study needed first; the rewritten file is the first under the schema
+  and is shown to Brian against it before any other edit relies on it.
+- not taken: line types for the three required fields, forcing the longest values onto one line
+  for no reader; a minimum of one entry, which the index checker's info already covers; an entry
+  written only when a study needs the corpus, which Brian declined.
+
+### The build row loses "the corpus's state is recorded"
+
+- id: d-2026-09-14-20
+- date: 2026-09-14
+- raised by: building-a-tool's `build` row, whose description ends "an ingest writes what it
+  ingests and the corpus's state is recorded", against the corpora schema's "a fact file with no
+  state in it", d-2026-09-13-50's standing clause that no state of a corpus is recorded, and
+  `state` as the name of a generated artifact. The clause dates from the revision-2 draft, when
+  the file still carried progress and readiness; the founding record's entry of 2026-09-06
+  removed them from the file and the row was not brought with it. The row's section already says
+  the entry is updated in the same commit. Brian: "Yes, ditch this clause."
+- decision: The clause leaves. The `build` row reads that an ingest writes what it ingests and
+  brings the corpus's entry true, which is what its section says.
+- not taken: the words kept in a loose sense, a class name in a row meaning something else.

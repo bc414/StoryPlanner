@@ -80,7 +80,7 @@ These hold in every session type. A companion file elaborates; none overrides.
    exploration's directions are piloted on one item before the rest run. A verification
    whose results show its directions wanting records it as a shortcoming in its findings;
    the question is Brian's to raise, in reviewing-findings, and the fix is a new version
-   through preparing-to-verify-a-corpus. Pipeline directions are revised only through
+   through preparing-a-verification. Pipeline directions are revised only through
    preparing-pipeline-directions, on Brian's ruling at promotion or baselining that they are
    wrong in general, or on a change of model.
 5. **Explicit context for autonomous agents.** Any `agent` process — a reader of one item,
@@ -183,15 +183,15 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | minting-a-hypothesis | reviewing-leads reviewing-findings | Creating a hypothesis file on novelty, testability and independence against the current set, in any hitl session, Brian rewriting or approving the statement, provenance in the created entry |
 | surfacing-candidates | promoting-refereed-candidates | The autonomous stretch from standing findings to refereed candidates: a claiming batch names, per finding, the hypotheses it bears on; a referee batch judges each claim blind, writing a falsifier and classifying it diagnostic supporting, diagnostic challenging or non-diagnostic; candidates.md is composed from the results as a generated view |
 | reviewing-findings | surfacing-candidates | Brian and a session over a verification's findings, or two verifications by their tallies: a finding he doubts checked against the results and the items and withdrawn or superseded, a result he doubts checked at the item and written as a shortcoming, what he raises checked before it is written as a finding, and the questions he raises written into the question list |
-| verifying-a-corpus | reviewing-findings | One execution of calibrated directions over its itemizer's items, on Brian's go: the full batch assembled and handed to the host, one call per item, the tally written at completion, and the analysis written as findings |
-| preparing-to-verify-a-corpus | verifying-a-corpus | Building the measure with Brian: itemize the corpus by a tool, author the directions against real items, calibrate them on a sample batch he scores blind |
+| conducting-a-verification | reviewing-findings | One execution of calibrated directions over its itemizer's items for its question, on Brian's approval: the full batch assembled and handed to the host, one call per item, the tally written at completion, and the analysis written as findings |
+| preparing-a-verification | conducting-a-verification | Building the measure with Brian for one question: the itemizer built or picked and run, the directions authored against real items, calibrated on a sample batch he scores blind |
 | preparing-pipeline-directions | surfacing-candidates iterating-a-statement | Preparing the method's pipeline directions, the referee's or claiming's, with Brian: the plan fixing the model, effort and sample, the sample collated, the directions authored against it and calibrated on a sample batch he scores blind; started by the set's first preparation, his general ruling at promotion or baselining, or a change of model |
-| reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact, or two of one corpus: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the question list |
-| exploring-a-corpus | reviewing-leads | Reading its itemizer's items discovery-first with a question in view and no hypothesis targeted: one item that is the corpus whole, or one per slice, each a call through the runner under the study's directions; the results written as leads |
-| preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the questions in view, the scale, the directions written and, for slices, piloted on one item |
-| asking-a-question | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | A question Brian raises in a session no other activity's processes cover, written into the question list with what raised it; the one route for a question that arises outside the activities that write their own |
-| building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, itemizers, collators, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
-| revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, the validator passing, a write-once revision note recording what changed and why |
+| reviewing-leads | preparing-a-verification | Brian and a session over a leads artifact, or two of one question: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the question list |
+| conducting-an-exploration | reviewing-leads | Reading its itemizer's items discovery-first with its question in view and no hypothesis targeted: one item that is the whole of what the itemizer cuts, or one per slice, each a call through the runner under the study's directions; the results written as leads |
+| preparing-an-exploration | conducting-an-exploration | Scoping an exploration with Brian: its question, the scale, the directions written and, for slices, piloted on one item |
+| asking-a-question | preparing-an-exploration preparing-a-verification | A question Brian raises in a session no other activity's processes cover, written into the question list with what raised it; the one route for a question that arises outside the activities that write their own |
+| building-a-tool | preparing-an-exploration preparing-a-verification | Code with tests that carries no judgment: ingests, readers, itemizers, collators, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
+| revising-the-method | preparing-an-exploration preparing-a-verification | Changing how the buildout is run: the skill's files and tables rewritten, the validator passing, a write-once revision note recording what changed and why |
 
 ## Artifacts — the classes
 
@@ -209,9 +209,9 @@ tested against, so a schema edited without its checker fails a test; Queries, on
 question a reader asks of the class; Checks, the check ids the hook reports and when each
 fails.
 
-Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPORA.md`;
-`<study>` a study's folder, which is its registry id, `<type>-of-<corpus>-<slug>` for a
-verification, `exploration-of-<corpus>` with a slug only when the corpus is explored again;
+Placeholders in paths, the same everywhere: `<study>` a study's folder, which is its
+registry id, `<type>-of-<question>` with a slug after it only for a further study of the same
+question and type;
 `<container>` the folder a batch's home sits under, `studies`, `iterations` or `pipeline`;
 `<home>` the folder under it a batch belongs to, a study's id, an iteration's folder,
 `referee` or `claiming`; `<batch>` a batch's folder, `<nn>-<slug>`, numbered from 01 within
@@ -236,7 +236,7 @@ path. Everything closed sits in `docs/v3-framework-historical/`, governed by not
 | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The evidence relationship: dated entries, never edited |
 | hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | [hypothesis-index-schema](schemas/hypothesis-index-schema.md) | Id and slug per hypothesis, id order |
 | question-list | docs/v3-framework/questions.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions, the buildout's one list |
-| studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study, declared at Brian's go; the ids every study folder is named by |
+| studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One entry per study, declared at Brian's approval of its plan; the ids every study folder is named by |
 | state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches and where it is; per set of pipeline directions, its versions, the accepted one and its calibration batches; the open questions and whether calibrated directions cover them; per hypothesis, its status |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
 | decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
@@ -244,7 +244,7 @@ path. Everything closed sits in `docs/v3-framework-historical/`, governed by not
 | findings | docs/v3-framework/studies/<study>/findings.md | append | [findings-schema](schemas/findings-schema.md) | What one verification's analysis drew from its results and tally: findings citing the tally sections and items they rest on, each naming the frozen question it answers if one did; what the data raised as proposed questions; what the results showed wrong with the study's own instrument as shortcomings; entries never edited, only withdrawn or superseded at the review |
 | candidates | docs/v3-framework/studies/<study>/candidates.md | in-place | | Generated by compose-candidates through DocIntegrity: the verification's diagnostic candidates, each materialising its finding, verdict, falsifier and outcome, and the non-diagnostic claims at the foot; a view of the claiming and referee results and the outcomes, never hand-edited |
 | declined-candidates | docs/v3-framework/studies/<study>/declined-candidates.md | append | [declined-candidates-schema](schemas/declined-candidates-schema.md) | One entry per diagnostic candidate Brian declined, its (finding, target) heading, the date and his reason; a decline is terminal and never edited |
-| corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | [corpora-schema](schemas/corpora-schema.md) | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
+| corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | [corpora-schema](schemas/corpora-schema.md) | The inventory of corpora: per id, what it is, where it lives, how an itemizer reads it, its caveats |
 | directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls, hashed as the version, with the questions it freezes or reads with; the pipeline directions', in their folders under docs/v3-framework/pipeline/, reached by reference |
 | calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | [calibration-schema](schemas/calibration-schema.md) | One directions version's agreement with Brian's blind verdicts, the rulings, and whether it is accepted at its hash; the pipeline directions', in their folders under docs/v3-framework/pipeline/, reached by reference |
 | definition | docs/v3-framework/<container>/<home>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under: its directions by path, its kind, its calibration, model and effort; authored by a session, never edited after the first execution |
@@ -257,7 +257,7 @@ path. Everything closed sits in `docs/v3-framework-historical/`, governed by not
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
 | tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, itemizers, collators, the runner; the validator lives under process-docs/ and is a free-name instrument, not an artifact |
-| corpus | no single pattern | in-place | | The corpora named in CORPORA.md, primary-source data and never a lossy summary made from it, where CORPORA.md says, read through the MCP server, files or sqlite3 |
+| corpus | no single pattern | in-place | | The corpora named in CORPORA.md, primary-source data and never a lossy summary made from it, where CORPORA.md says, read by an itemizer as its entry's read through says |
 
 ## Companions that are not activities
 
@@ -266,21 +266,23 @@ path. Everything closed sits in `docs/v3-framework-historical/`, governed by not
 schema file not yet in that shape is rewritten to it when it is reviewed, one at a time.
 The suffix keeps a schema's file name apart from the file of a singleton class, which
 carries the class's own name.
-`CORPORA.md` — the corpora: what each is, where it lives, how it is read; a fact file, not
-an instruction. `map.md` and `state.md` — generated only. The `agent-runner` skill governs
+`CORPORA.md` — the corpora: what each is, where it lives, how an itemizer reads it; a fact
+file, not an instruction. `map.md` and `state.md` — generated only. The `agent-runner` skill governs
 the runner and is read in full by any process that invokes it.
 
 ## Vocabulary
 
 - **study**: the life of one set of its own directions over the items of one itemizer under
-  one model and effort, registered at Brian's go, one folder holding its batches, a
-  verification's holding also the claiming and referee batches its chain runs under the
-  pipeline directions; a different model, itemizer or set of its own directions is a
-  different study.
+  one model and effort, for one question, registered at Brian's approval of its plan, one
+  folder holding its batches, a verification's holding also the claiming and referee batches
+  its chain runs under the pipeline directions; a different model, itemizer or set of its
+  own directions is a different study, and a question has any number of studies.
 - **verification**: a study of the verification type, one execution of calibrated
-  directions over its itemizer's items, its findings the only source of candidates.
+  directions over its itemizer's items for its question, its findings the only source of
+  candidates.
 - **exploration**: a study of the exploration type, a discovery-first reading of its
-  itemizer's items under piloted directions; its output is a leads artifact.
+  itemizer's items with its question in view under piloted directions; its output is a
+  leads artifact.
 - **batch**: one execution of a set of items under one definition; a study's batches are
   its calibration samples, its full batches and, for a verification, its claiming and
   referee batches; the pipeline directions' calibration samples sit in their own folders,
@@ -300,7 +302,7 @@ the runner and is read in full by any process that invokes it.
 - **tally**: the runner's counts over a batch's results.
 - **itemizer**: code with tests under `tools/` that cuts corpora into items, run once per
   batch into the batch's folder; it reads corpora and nothing else, and may read several to
-  cut, label and fill the items, which stay the cut corpus's.
+  cut, label and fill the items.
 - **collator**: code with tests under `tools/` that collates a pipeline batch's items from
   the method's own files its activity names (findings, claiming results, statements,
   evidence entries), run once per batch into the batch's folder.

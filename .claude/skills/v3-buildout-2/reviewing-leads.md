@@ -1,14 +1,14 @@
 # reviewing-leads
 
-Enables preparing-to-verify-a-corpus.
+Enables preparing-a-verification.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| review-leads | hitl | | leads results index directions definition calls tally corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads file, or two of one corpus: how the exploration ran brought up from the batch's files, any result or the corpus read on his request, a lead checked at the source given a reread line, a fault of the instrument written as a shortcoming, the differences between explorations read as leads about the readers, and the questions Brian raises written into the question list |
+| review-leads | hitl | | leads results index directions definition calls tally corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads file, or two of one question: how the exploration ran brought up from the batch's files, any result or the corpus read on his request, a lead checked at the source given a reread line, a fault of the instrument written as a shortcoming, the differences between explorations read as leads about the readers, and the questions Brian raises written into the question list |
 
 ## Preconditions
 
-The study's `leads.md` exists; where the corpus was explored again with the same slices,
+The study's `leads.md` exists; where the question was explored again with the same slices,
 both studies' leads files exist.
 
 ## review-leads
@@ -18,7 +18,7 @@ directions the batch ran under, their version, the questions in view their front
 what the call was given and what it was never to do; the model and effort from the definition;
 the body hash and the harness from the calls file; the itemizer and any narrowing from the
 index head; the malformed and missing results from the tally. Where a second exploration of
-the corpus exists, its leads file is opened beside the first: their differences are read as
+the question exists, its leads file is opened beside the first: their differences are read as
 leads about the readers, never counted, and what each saw that the other did not is laid out
 for Brian.
 
@@ -35,7 +35,7 @@ itemizer's cut, directions a faithful reader still went wrong under, the consoli
 saying what the cited results say, a reader not doing what clear directions asked, the corpus
 not being what CORPORA.md says — the session writes it under Shortcomings with its part, and
 says which activity it sends the study back through: a new plan and exploration through
-preparing-to-explore-a-corpus, the tool through building-a-tool, `write-leads` through
+preparing-an-exploration, the tool through building-a-tool, `write-leads` through
 revising-the-method, a second study under another model. It does not start it here.
 
 Brian raises questions: from the Proposed questions, from the leads, from the shortcomings, from

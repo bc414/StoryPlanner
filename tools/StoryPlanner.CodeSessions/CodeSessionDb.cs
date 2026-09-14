@@ -89,11 +89,14 @@ public static class CodeSessionDb
 
     /// <summary>
     /// The extraction policy a session's rows were produced under. 1 = pre-2026-09-04, when
-    /// every tool result was elided; 2 = human-authored results kept. A row can only be raised
-    /// by re-extracting its transcript, so sessions that have aged off disk stay at 1 forever —
-    /// the archive disclosing the limits of its own coverage, the same posture as LastSeenUtc.
+    /// every tool result was elided; 2 = human-authored results kept; 3 = roles by authorship
+    /// (2026-09-14): compaction summaries dropped to a marker, what the harness injected under
+    /// the role "harness", a subagent's parent-written turns under "assistant". A row can only
+    /// be raised by re-extracting its transcript, so sessions that have aged off disk stay at
+    /// their version forever — the archive disclosing the limits of its own coverage, the same
+    /// posture as LastSeenUtc.
     /// </summary>
-    public const int CurrentExtractVersion = 2;
+    public const int CurrentExtractVersion = 3;
 
     /// <summary>
     /// OpenWrite is CREATE TABLE IF NOT EXISTS, so an existing database is never reshaped by it.

@@ -13,7 +13,7 @@ public sealed record GovernedFile(string RepoRoot, string SkillFolder, ArtifactR
 public sealed record CheckedClass(string RepoRoot, string SkillFolder, ArtifactRow Row, ArtifactPath Path, SchemaChecker Checker)
 {
     /// <summary>Every file on disk the class governs, repo-wide.</summary>
-    public IReadOnlyList<string> Files() => StateBuilder.Matches(RepoRoot, Path, null, null);
+    public IReadOnlyList<string> Files() => StateBuilder.Matches(RepoRoot, Path, null);
 }
 
 /// <summary>

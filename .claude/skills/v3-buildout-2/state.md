@@ -4,7 +4,7 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 
 ## Studies
 
-Registry `docs/v3-framework/studies.md` holds no rows.
+Registry `docs/v3-framework/studies.md` holds no entries.
 
 ## Iterations
 

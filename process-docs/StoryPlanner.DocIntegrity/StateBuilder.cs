@@ -33,17 +33,21 @@ public static class StateBuilder
     /// tables do not carry is skipped and said so.
     /// </summary>
     static readonly string[] ExplorationChain =
-        ["preparing-to-explore-a-corpus", "exploring-a-corpus", "reviewing-leads"];
+        ["preparing-an-exploration", "conducting-an-exploration", "reviewing-leads"];
 
     static readonly string[] VerificationChain =
-        ["preparing-to-verify-a-corpus", "verifying-a-corpus", "reviewing-findings",
+        ["preparing-a-verification", "conducting-a-verification", "reviewing-findings",
          "surfacing-candidates", "promoting-refereed-candidates"];
 
     /// <summary>The container of the pipeline directions' folders, and the sets it holds (d-2026-09-13-55).</summary>
     const string PipelineContainer = "pipeline";
     static readonly string[] PipelineSets = [StudyKinds.RefereeFolder, StudyKinds.ClaimingFolder];
 
-    public sealed record Study(string Id, string Type, string Corpus, string Go);
+    /// <summary>One registry entry: the id, which is all the registry authors (d-2026-09-14-9 to -11); the type is its prefix.</summary>
+    public sealed record Study(string Id)
+    {
+        public string? Type => Registry.TypeOf(Id);
+    }
 
     /// <summary>One question entry: its slug and whether a withdrawn line sits beneath it. Cited as questions/slug.</summary>
     public sealed record Question(string Slug, bool Withdrawn)
@@ -101,19 +105,19 @@ public static class StateBuilder
         var studies = ReadRegistry(registry);
         if (studies.Count == 0)
         {
-            sb.Append($"Registry `{registryPath.Pattern}` holds no rows.\n\n");
+            sb.Append($"Registry `{registryPath.Pattern}` holds no entries.\n\n");
             return;
         }
 
         foreach (var study in studies)
         {
             sb.Append($"### {study.Id}\n\n");
-            sb.Append($"- type: {study.Type} · corpus: {study.Corpus} · go: {study.Go}\n");
+            sb.Append($"- type: {study.Type ?? "?"}\n");
 
             var chain = ChainFor(study);
             if (chain is null)
             {
-                sb.Append($"- chain: unknown type '{study.Type}'; nothing derived\n\n");
+                sb.Append($"- chain: no type prefix on '{study.Id}'; nothing derived\n\n");
                 continue;
             }
             var missing = chain.Where(a => !doc.Activities.Any(x => x.Id == a)).ToList();
@@ -131,14 +135,14 @@ public static class StateBuilder
             foreach (var a in scoped)
             {
                 ArtifactPath.TryParse(a.Path, out var ap, out _);
-                var count = CountMatches(repoRoot, ap!, folder, study.Corpus);
+                var count = CountMatches(repoRoot, ap!, folder);
                 present[a.Id] = count;
                 if (count == 0) continue;
                 any = true;
                 sb.Append($" {a.Id}");
                 if (count > 1) sb.Append($" ({count})");
                 if (a.Id == WellKnown.Candidates)
-                    foreach (var file in Matches(repoRoot, ap!, folder, study.Corpus))
+                    foreach (var file in Matches(repoRoot, ap!, folder))
                         sb.Append($" [{CandidateCounts(file)}]");
             }
             sb.Append(any ? "\n" : " none\n");
@@ -264,7 +268,7 @@ public static class StateBuilder
     {
         var row = doc.Artifact(WellKnown.Definition);
         if (row is null || !ArtifactPath.TryParse(row.Path, out var ap, out _)) return;
-        var definitions = Matches(repoRoot, ap!, folder, null);
+        var definitions = Matches(repoRoot, ap!, folder);
         if (definitions.Count == 0) { sb.Append("- batches: none\n"); return; }
         sb.Append("- batches:");
         foreach (var path in definitions)
@@ -281,15 +285,13 @@ public static class StateBuilder
         sb.Append('\n');
     }
 
+    /// <summary>The registry's entries in order: each <c>- &lt;id&gt;</c> line after the title (d-2026-09-14-11); anything else is the checker's to report.</summary>
     static IReadOnlyList<Study> ReadRegistry(string path)
-    {
-        var tables = MapTables.ReadAll(File.ReadAllText(path));
-        var table = tables.FirstOrDefault(t =>
-            t.Headers.Select(h => h.ToLowerInvariant()).SequenceEqual(["id", "type", "corpus", "go"]));
-        if (table is null)
-            throw new MapFormatException($"{Path.GetFileName(path)}: no table with columns id | type | corpus | go.");
-        return table.Rows.Select(r => new Study(r.Cells[0], r.Cells[1], r.Cells[2], r.Cells[3])).ToList();
-    }
+        => File.ReadAllLines(path)
+            .Where(l => l.StartsWith("- ", StringComparison.Ordinal))
+            .Select(l => new Study(l[2..].Trim()))
+            .Where(s => s.Id.Length > 0)
+            .ToList();
 
     static string[]? ChainFor(Study study) => study.Type switch
     {
@@ -322,14 +324,14 @@ public static class StateBuilder
 
     // ---- files on disk matching an artifact's pattern ----
 
-    public static IReadOnlyList<string> Matches(string repoRoot, ArtifactPath path, string? studyFolder, string? corpus)
+    public static IReadOnlyList<string> Matches(string repoRoot, ArtifactPath path, string? studyFolder)
     {
         if (path.NoSinglePattern) return [];
-        var prefix = path.FixedPrefix(studyFolder, corpus);
+        var prefix = path.FixedPrefix(studyFolder);
         var dir = prefix.Length == 0 ? repoRoot : Path.Combine(repoRoot, prefix.Replace('/', Path.DirectorySeparatorChar));
         if (!Directory.Exists(dir)) return [];
 
-        var regex = path.ToRegex(studyFolder, corpus);
+        var regex = path.ToRegex(studyFolder);
         var entries = path.IsDirectory
             ? Directory.GetDirectories(dir, "*", SearchOption.AllDirectories)
                 .Where(d => Directory.EnumerateFiles(d, "*", SearchOption.AllDirectories).Any())
@@ -341,8 +343,8 @@ public static class StateBuilder
             .ToList();
     }
 
-    static int CountMatches(string repoRoot, ArtifactPath path, string? studyFolder, string? corpus)
-        => Matches(repoRoot, path, studyFolder, corpus).Count;
+    static int CountMatches(string repoRoot, ArtifactPath path, string? studyFolder)
+        => Matches(repoRoot, path, studyFolder).Count;
 
     // ---- questions ----
 
@@ -355,7 +357,7 @@ public static class StateBuilder
             note = $"No `{WellKnown.QuestionList}` artifact row with a parseable path; the list cannot be located.";
             return [];
         }
-        var files = Matches(repoRoot, path!, null, null);
+        var files = Matches(repoRoot, path!, null);
         if (files.Count == 0)
         {
             note = $"Question list absent: nothing matches `{path!.Pattern}`.";
@@ -437,14 +439,14 @@ public static class StateBuilder
 
         var accepted = new HashSet<string>(StringComparer.Ordinal); // hashes (possibly prefixes) with an accepting calibration
         if (calRow is not null && ArtifactPath.TryParse(calRow.Path, out var calPath, out _))
-            foreach (var file in Matches(repoRoot, calPath!, null, null))
+            foreach (var file in Matches(repoRoot, calPath!, null))
             {
                 var cal = CalibrationFile.Read(file);
                 if (cal.TitleParsed && cal.Accepted) accepted.Add(cal.Hash!);
             }
         // The pipeline directions' calibrations, reached only by reference from definitions.
         if (doc.Artifact(WellKnown.Definition) is { } defRow && ArtifactPath.TryParse(defRow.Path, out var defPath, out _))
-            foreach (var file in Matches(repoRoot, defPath!, null, null))
+            foreach (var file in Matches(repoRoot, defPath!, null))
             {
                 DefinitionFile d;
                 try { d = DefinitionFile.Read(file); } catch (IOException) { continue; }
@@ -455,7 +457,7 @@ public static class StateBuilder
                 }
             }
 
-        var files = Matches(repoRoot, path!, null, null).ToList();
+        var files = Matches(repoRoot, path!, null).ToList();
         foreach (var set in PipelineSets)
         {
             var dir = Path.Combine(repoRoot, "docs", "v3-framework", PipelineContainer, set);
@@ -480,7 +482,7 @@ public static class StateBuilder
         var row = doc.Artifact(WellKnown.Findings);
         if (row is null || !ArtifactPath.TryParse(row.Path, out var path, out _)) return [];
         var result = new List<Verification>();
-        foreach (var file in Matches(repoRoot, path!, null, null))
+        foreach (var file in Matches(repoRoot, path!, null))
         {
             var questions = FindingsChecker.AnsweredQuestions(File.ReadAllText(file));
             var study = Path.GetFileName(Path.GetDirectoryName(file)!)!;
@@ -529,7 +531,7 @@ public static class StateBuilder
             return;
         }
 
-        var files = Matches(repoRoot, path, null, null);
+        var files = Matches(repoRoot, path, null);
         if (files.Count == 0) { sb.Append($"No hypothesis files under `{prefix}/`.\n\n"); return; }
 
         sb.Append("Nothing here is authored: status and baselined are read from the entries below the last " +

@@ -9,13 +9,13 @@ Enables surfacing-candidates.
 ## Preconditions
 
 A verification's `findings.md` exists and its findings have not been reviewed; where the
-corpus was verified again under another model with the same directions, both studies'
+question was verified again under another model with the same directions, both studies'
 tallies. Nothing has been written to the findings file since the analysis except by this
 activity.
 
 ## review-findings
 
-The session opens the findings and, where a second verification of the corpus under the
+The session opens the findings and, where a second verification of the question under the
 same directions exists, its tally beside the first's: the two are compared by the tally,
 class by class, and what differs is laid out for Brian as a fact about the models, never
 counted as a finding of either.
@@ -43,7 +43,7 @@ Shortcomings, from the differences between two verifications, from his own recal
 session writes each into the question list, with the finding's token as what
 raised it where a finding did, and a suggested test where one suggests itself. A finding that shows a different hypothesis is needed is handed
 to minting-a-hypothesis in the same session. A shortcoming that needs a new version or a
-new tool sends the study back through preparing-to-verify-a-corpus or building-a-tool;
+new tool sends the study back through preparing-a-verification or building-a-tool;
 the session says which and does not start it here.
 
 ## Never

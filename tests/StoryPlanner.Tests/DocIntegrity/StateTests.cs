@@ -22,7 +22,7 @@ public class StateTests
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
         Assert.Contains($"### {MapFixture.Study}", state);
-        Assert.Contains("- type: verification · corpus: analysis-corpus · go: 2026-09-20", state);
+        Assert.Contains("- type: verification", state);
         var line = state.Split('\n').Single(l => l.StartsWith("- artifacts present:"));
         Assert.Contains(" items", line);
         Assert.Contains(" results", line);

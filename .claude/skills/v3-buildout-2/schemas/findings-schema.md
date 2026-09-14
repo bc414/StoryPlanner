@@ -1,7 +1,7 @@
 # findings-schema
 
 `docs/v3-framework/studies/<study>/findings.md`, at the top of a verification study, the
-class `findings`. Written by verifying-a-corpus from the batch's results and tally;
+class `findings`. Written by conducting-a-verification from the batch's results and tally;
 reviewing-findings appends what its checks produce: a withdrawn line under a finding that
 did not hold, a superseding entry for one that holds amended, a new entry for what Brian
 raised and the session checked against the results and the items before writing. Nothing

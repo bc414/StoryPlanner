@@ -22,7 +22,10 @@ docs, briefs).
   arguments for features that were later cut. Establish what is LIVE from FEATURE-AUDIT and the
   code first; only then read the transcript for the why.
 - Session `Title` values are the platform's machine-generated labels (last `ai-title` wins) —
-  labels for navigation, never the author's words. Brian's words are the `user`-role bodies.
+  labels for navigation, never the author's words. Brian's words are the `user`-role bodies:
+  from extract version 3 (2026-09-14) a record's role is who authored it, and a session
+  still at version 2 carries the harness's injections in the user role, listed under the
+  citation rule below.
 
 ## What was kept and what the stubs mean (extraction policy, 2026-08-17)
 
@@ -31,7 +34,10 @@ Communication kept, computation dropped:
 | In a transcript | In the db |
 |---|---|
 | user / assistant text | **verbatim** |
-| subagent transcripts (`subagents/agent-*.jsonl`) | own Sessions rows (`Kind='subagent'`, `ParentSessionId` = containing session) |
+| subagent transcripts (`subagents/agent-*.jsonl`) | own Sessions rows (`Kind='subagent'`, `ParentSessionId` = containing session); the parent-written turns, the opening prompt first, are role `assistant` (v3) |
+| what the harness put in front of the model in the user role: a skill load, a task or system notification, local command output or caveat | **verbatim**, role `harness` (v3, 2026-09-14); a giant one is stubbed like a paste |
+| a compaction summary | `[compaction summary dropped — N chars]`, role `harness` — the text is **never stored** (v3) |
+| an IDE prefix (`<ide_opened_file>`, `<ide_selection>`) on Brian's own prompt | the whole record stays his, role `user`; a tagged injection is the harness's only when nothing follows its closing tag |
 | tool call | `[tool_use: Edit — WorldDateModel.cs]` — mechanical name + main argument |
 | tool result | `[tool result elided — 12,345 chars]` — **never stored, not withheld** |
 | thinking | dropped, no marker |
@@ -74,6 +80,19 @@ tool-name switch.
   tidy summary of a view and is not one.
 - Selection is exact-match only. A free-text answer that happens to open with a label
   ("Keep it prose only. The whole point is…") is `Typed:`, because it is.
+- **The role is who authored the record, from extract version 3 (2026-09-14).** The
+  transcript gives the user role to everything the harness injects, and until version 3 the
+  archive inherited that. Now `user` is Brian, `assistant` the model (a subagent's
+  parent-written turns included, since the parent's assistant wrote them), `harness` what the
+  harness put in front of the model; a compaction summary, a machine's lossy summary of
+  earlier turns, is never stored. `[Rejected by user]`, `[Request interrupted by user]` and a
+  slash-command invocation stay `user`: an action of his in fixed text, like a selected
+  label. **A session still at version 2** (`Sessions.ExtractVersion`) carries all of it in the
+  user role; there, not his words: a record opening "This session is being continued from a
+  previous conversation" (a compaction summary), a subagent session's opening record, "Base
+  directory for this skill" (a skill load), task and system notifications, local command
+  output and caveats. Quote none of these as his, and exclude them by their openings when
+  itemizing a version-2 session.
 
 *Worked failure, 2026-09-12.* A session dated the origin of the hypothesis practice to
 2026-08-18 and concluded the word then meant "a change deferred until after review" —
@@ -104,14 +123,15 @@ payloads) exists only in the raw JSONL: the live `~/.claude/projects/` (retentio
 Sessions(Id, SessionId /*file stem; UNIQUE*/, ProjectDir, Kind /*main|subagent*/,
          ParentSessionId, Title, Slug, FirstTimestamp, LastTimestamp, RecordCount,
          TotalChars, SubagentCount, MalformedLines, SourceBytes, SourceMtimeUtc,
-         FirstIngestedUtc, LastSeenUtc, ExtractVersion /*1 = pre-2026-09-04*/)
+         FirstIngestedUtc, LastSeenUtc, ExtractVersion /*1 = pre-2026-09-04, 2, 3 = roles by authorship*/)
 Records(Id, SessionId, Uuid, ParentUuid, Seq /*timestamp order*/, Timestamp,
-        Role /*user|assistant*/, Body, BodyChars)   -- UNIQUE(SessionId, Uuid)
+        Role /*user|assistant|harness*/, Body, BodyChars)   -- UNIQUE(SessionId, Uuid)
 ```
 
 `ExtractVersion` is the extraction policy a session's rows were produced under: `1` elided
-every tool result, `2` keeps the human-authored ones. Only re-extracting a transcript can
-raise it, so **a session that aged off disk stays at `1` forever** — that is the archive
+every tool result, `2` keeps the human-authored ones, `3` (2026-09-14) records the role by
+authorship and drops compaction summaries. Only re-extracting a transcript can raise it, so
+**a session that aged off disk stays at its version forever** — that is the archive
 disclosing the limits of its own coverage, not a backlog to clear.
 
 `LastSeenUtc` is proof the source file still existed on that ingest run; a session whose
@@ -202,11 +222,13 @@ SELECT s.SessionId, s.Slug, s.RecordCount,
 FROM Sessions s WHERE s.ParentSessionId='<full-session-id>';
 ```
 
-**Archive health — what has aged off disk and survives only here:**
+**Archive health — what has aged off disk and survives only here** (by run date: within one
+run every session's `LastSeenUtc` differs by seconds, so an exact comparison flags every
+session but the last one touched, which is how the recipe misreported on 2026-09-14):
 ```sql
 SELECT substr(SessionId,1,8), ProjectDir, substr(LastSeenUtc,1,10) AS last_seen, Title
 FROM Sessions
-WHERE LastSeenUtc < (SELECT MAX(LastSeenUtc) FROM Sessions)
+WHERE substr(LastSeenUtc,1,10) < (SELECT MAX(substr(LastSeenUtc,1,10)) FROM Sessions)
 ORDER BY LastSeenUtc;
 ```
 

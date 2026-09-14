@@ -1,10 +1,10 @@
-# preparing-to-verify-a-corpus
+# preparing-a-verification
 
-Enables verifying-a-corpus.
+Enables conducting-a-verification.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix what one item is, which questions the directions will freeze, the model and effort, and what the calibration sample spans; the plan approved is his go and the study is registered; a repeat under unchanged directions is the whole activity |
+| verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the question, what one item is, the itemizer to build or reuse, the model and effort, and what the calibration sample spans; the plan approved registers the study; a repeat under unchanged directions is the whole activity |
 | itemize | session | dotnet tool-source | corpus | index items | specified | Build or pick the itemizer tool with tests and run it once into the calibration batch: the index and the item bodies |
 | author-directions | hitl | | question-list items directions | directions | specified | The directions written against real items with Brian: what the call is given, the classes, the criteria, what to produce; a new numbered version each time |
 | assemble-sample-batch | session | runner | directions index | definition calls tally | specified | The calibration batch, kind sample: its definition written under the draft version; dry-run-batch; execute-batch as the hand-off, after which the host calls every sample item and writes the tally; its results are withheld from Brian until he has scored |
@@ -13,25 +13,25 @@ Enables verifying-a-corpus.
 
 ## Preconditions
 
-The corpus is readable and CORPORA.md says how. The question list holds open questions
-whose answers a frozen predicate could give.
+The question is open in the list and its answer is one a frozen predicate could give. Every
+corpus the study's itemizer will read is readable and CORPORA.md says how.
 
 ## verify-plan
 
-The session presents the open questions and the corpus's shape as CORPORA.md gives
-it, and asks Brian, batched four per call, what one item is for this corpus, which
-questions the directions will freeze, the model and effort, and what the calibration
-sample should span. It writes the plan naming those, the itemizer to build or reuse, and
-what the verification will not do; the plan is written against the chain's activity files,
-from verifying-a-corpus to promoting-refereed-candidates, read whole here rather than each
-at its own start, since it names what each of them will do for this study. Brian approves.
-The session appends the study to `studies.md` with the date as his go, and writes any
-question he raised here into the list.
+The session presents the question the study is of and the shape of every corpus the
+itemizer will read, as CORPORA.md gives it, and asks Brian, batched four per call, what one
+item is, the itemizer to build or reuse, the model and effort, and what the calibration
+sample should span. It writes the plan naming those and what the verification will not do;
+the plan is written against the chain's activity files, from conducting-a-verification to
+promoting-refereed-candidates, read whole here rather than each at its own start, since it
+names what each of them will do for this study. Brian approves. The session appends the
+study's id to `studies.md`, which is its registration, and writes any question he raised
+here into the list.
 
 For a repeat verification under unchanged directions — the current version has an
-accepting calibration at its hash and names every question the verification is to answer,
-and the corpus is current — this is the whole activity: the go is registered and
-verifying-a-corpus follows. Anything the directions do not cover runs the rest.
+accepting calibration at its hash and names the question, and the corpora are current —
+this is the whole activity: the study is registered and conducting-a-verification follows.
+Anything the directions do not cover runs the rest.
 
 ## itemize
 
@@ -42,9 +42,9 @@ head, and the item bodies under `items/`. What one item is is decided here and n
 else, and the directions' first section states it, so the two are written together. An
 itemizer reads corpora and nothing else: the corpus it cuts, and it may read other corpora
 to cut the items, label them and fill their bodies, a passage from another corpus included,
-which the index head names under `utilizes corpora`. The items and the study stay the cut
-corpus's. Narrowing, which of the corpus's items the batch holds, is a condition in the itemizer's
-code, stated in words in the head's `narrowing` line.
+which the index head names under `utilizes corpora`. Narrowing, which of the items the
+batch holds, is a condition in the itemizer's code, stated in words in the head's
+`narrowing` line.
 
 ## author-directions
 
@@ -52,7 +52,7 @@ Written against the real items with Brian: what the call is given and where the 
 stops, with what any utilized data in the item shows and what it cannot; the classes, each a label and what an item shows, one reserved for an item the
 criteria cannot place; the criteria at the boundaries, stated generally and tuned to
 over-flag; what to produce, one keyed line per field; what never to do. The frontmatter
-cites by token the questions the version freezes. A question's suggested test is a naive
+cites by token the question the version freezes. A question's suggested test is a naive
 starting point and never a criterion: the criteria are authored against the items in front
 of Brian, and a suggested test is never carried into the directions unexamined. A new
 numbered file under the study; the previous version, if any, stays on disk.

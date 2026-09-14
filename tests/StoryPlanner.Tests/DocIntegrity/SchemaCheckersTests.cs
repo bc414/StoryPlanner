@@ -25,7 +25,7 @@ public class SchemaCheckersTests : IDisposable
         _skill = Path.Combine(_root, ".claude", "skills", "example");
         Directory.CreateDirectory(_skill);
         Directory.CreateDirectory(Path.Combine(_root, ".git"));
-        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema", "declined-candidates-schema", "hypothesis-file-schema", "leads-schema");
+        SchemaExamples.CopyInto(_skill, "decisions-schema", "question-entry-schema", "directions-schema", "index-schema", "definition-schema", "findings-schema", "declined-candidates-schema", "hypothesis-file-schema", "leads-schema", "study-registry-schema", "corpora-schema");
     }
 
     public void Dispose()
@@ -153,46 +153,70 @@ public class SchemaCheckersTests : IDisposable
     // ---- registry ----
 
     const string RegistryPath = "docs/v3-framework/studies.md";
+    const string QuestionsPath = "docs/v3-framework/questions.md";
+
+    /// <summary>A question list whose slugs the registry's ids resolve against (d-2026-09-14-12).</summary>
+    void WriteQuestions(params string[] slugs)
+        => Write(QuestionsPath, "# Questions\n\n" + string.Concat(slugs.Select(s =>
+            $"### questions/{s}\n\n- date: 2026-09-01\n- raised by: recall\n- question: ?\n\n")));
 
     [Fact]
-    public void The_registry_example_passes_against_the_corpora_it_names()
+    public void The_registry_example_passes_against_the_question_it_names()
     {
+        WriteQuestions("scene-detail-scrap-rate");
         var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema"));
-        Assert.Empty(Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path)));
+        Assert.Empty(Rules(Registry.Check(Ctx(), path)));
     }
 
     [Theory]
-    [InlineData("| exploration-of-v1-archive-second-reading | exploration | v1-archive | 2026-09-21 |", new string[0])]
-    [InlineData("| exploration-of-verified-artifacts | exploration | verified-artifacts | 2026-09-21 |", new[] { "registry.corpus" })]
-    [InlineData("| verification-of-v1-archive-links | verification | v1-archive | 2026-09-21 |", new string[0])]
-    // the audit retired (d-2026-09-13-40): its id, type and corpus value are no longer a study's
-    [InlineData("| audit-of-revision-4 | audit | skill | 2026-09-21 |", new[] { "registry.id" })]
-    [InlineData("| exploration-of-nowhere | exploration | nowhere | 2026-09-21 |", new[] { "registry.corpus" })]
-    [InlineData("| verification-of-v1-archive | verification | v1-archive | 2026-09-21 |", new[] { "registry.corpus" })]
-    [InlineData("| verification-of-v1-archive-1 | verification | fimfiction-stories | 2026-09-21 |", new[] { "registry.corpus" })]
-    [InlineData("| verification-of-v1-archive-skill | verification | skill | 2026-09-21 |", new[] { "registry.corpus" })]
-    [InlineData("| round-of-v1-archive-1 | verification | v1-archive | 2026-09-21 |", new[] { "registry.id" })]
-    [InlineData("| referee-1 | verification | candidates | 2026-09-21 |", new[] { "registry.id" })]
-    [InlineData("| exploration-of-v1-archive-again | verification | v1-archive | 2026-09-21 |", new[] { "registry.type" })]
-    [InlineData("| exploration-of-v1-archive-again | exploratory | v1-archive | 2026-09-21 |", new[] { "registry.type" })]
-    [InlineData("| exploration-of-v1-archive-again | exploration | v1-archive | soon |", new[] { "registry.go" })]
-    [InlineData("| exploration-of-v1-archive | exploration | v1-archive | 2026-09-12 |", new[] { "registry.duplicate" })]
-    [InlineData("| something-else | exploration | v1-archive | 2026-09-21 |", new[] { "registry.id" })]
-    public void A_registry_row_is_held_to_its_form(string row, string[] expected)
+    [InlineData("- verification-of-scene-detail-scrap-rate-sonnet", new string[0])]
+    [InlineData("- exploration-of-scene-detail-scrap-rate-second-reading", new string[0])]
+    // a prefix of a question's slug is not the slug
+    [InlineData("- verification-of-scene-detail", new[] { "registry.id" })]
+    [InlineData("- verification-of-nowhere", new[] { "registry.id" })]
+    [InlineData("- verification-of-", new[] { "registry.id" })]
+    // the audit and the founding forms are no study's (d-2026-09-13-40, d-2026-09-14-7)
+    [InlineData("- audit-of-revision-4", new[] { "registry.id" })]
+    [InlineData("- round-of-v1-archive-1", new[] { "registry.id" })]
+    [InlineData("- referee-1", new[] { "registry.id" })]
+    [InlineData("- Verification-of-scene-detail-scrap-rate", new[] { "registry.id" })]
+    [InlineData("- exploration-of-scene-detail-scrap-rate", new[] { "registry.duplicate" })]
+    // the table form retired (d-2026-09-14-11): a table, a ### entry or prose is no entry line
+    [InlineData("| id | type |\n|---|---|\n| x | y |", new[] { "registry.shape" })]
+    [InlineData("### verification-of-scene-detail-scrap-rate-opus", new[] { "registry.shape" })]
+    [InlineData("a line that is no entry", new[] { "registry.shape" })]
+    public void A_registry_entry_is_held_to_its_form(string line, string[] expected)
     {
-        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema") + row + "\n");
-        var rules = Rules(Registry.Check(Ctx("v1-archive", "fimfiction-stories"), path));
+        WriteQuestions("scene-detail-scrap-rate");
+        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema") + line + "\n");
+        var rules = Rules(Registry.Check(Ctx(), path));
         if (expected.Length == 0) Assert.Empty(rules);
         else foreach (var r in expected) Assert.Contains(r, rules);
     }
 
     [Fact]
-    public void With_no_corpus_ids_available_the_corpus_column_is_reported_not_failed()
+    public void The_question_is_the_longest_slug_the_id_carries()
     {
-        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema"));
+        WriteQuestions("a-b", "a-b-c");
+        var path = Write(RegistryPath, "# Studies\n\n- verification-of-a-b-c\n- verification-of-a-b-c-opus\n- verification-of-a-b\n- verification-of-a-b-d\n");
+        Assert.Empty(Rules(Registry.Check(Ctx(), path)));
+    }
+
+    [Fact]
+    public void A_registry_with_another_title_fails()
+    {
+        WriteQuestions("scene-detail-scrap-rate");
+        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema").Replace("# Studies", "# Registry"));
+        Assert.Contains("registry.title", Rules(Registry.Check(Ctx(), path)));
+    }
+
+    [Fact]
+    public void With_no_question_list_the_question_segment_is_reported_not_failed()
+    {
+        var path = Write(RegistryPath, SchemaExamples.Block("study-registry-schema") + "- verification-of-nowhere\n");
         var findings = Registry.Check(Ctx(), path);
         Assert.Empty(Rules(findings));
-        Assert.Contains("registry.corpora-unavailable", findings.Select(f => f.CheckId));
+        Assert.Contains("registry.questions-unavailable", findings.Select(f => f.CheckId));
     }
 
     // ---- leads ----
@@ -239,35 +263,51 @@ public class SchemaCheckersTests : IDisposable
 
     // ---- corpora ----
 
+    const string CorporaPath = ".claude/skills/example/CORPORA.md";
+
     [Fact]
     public void The_corpora_example_passes()
     {
-        var path = Write(".claude/skills/example/CORPORA.md", SchemaExamples.Block("corpora-schema"));
+        var path = Write(CorporaPath, SchemaExamples.Block("corpora-schema"));
         Assert.Empty(Rules(Corpora.Check(Ctx(), path)));
     }
 
-    [Fact]
-    public void A_corpus_without_its_three_lines_fails()
+    [Theory]
+    // a key the shape does not declare, and read through missing (d-2026-09-14-13)
+    [InlineData("- read through:", "- read by:", "corpora.entry")]
+    // where missing and the keys out of order
+    [InlineData("- where:", "- caveats:", "corpora.entry")]
+    // a repeated id, and a heading that is no slug (d-2026-09-14-17)
+    [InlineData("### code-sessions", "### fimfiction-stories", "corpora.entry")]
+    [InlineData("### code-sessions", "### Code Sessions", "corpora.entry")]
+    [InlineData("# Corpora", "# Corpus inventory", "corpora.title")]
+    public void A_corpora_file_is_held_to_its_form(string find, string replace, string check)
     {
-        var text = SchemaExamples.Block("corpora-schema").Replace("- read by:", "- readers:");
-        var path = Write(".claude/skills/example/CORPORA.md", text);
-        Assert.Contains("corpora.fields", Rules(Corpora.Check(Ctx(), path)));
+        var path = Write(CorporaPath, SchemaExamples.Block("corpora-schema").Replace(find, replace));
+        Assert.Contains(check, Rules(Corpora.Check(Ctx(), path)));
     }
 
     [Fact]
-    public void A_duplicate_corpus_id_fails()
+    public void A_section_heading_or_a_line_outside_the_entries_fails_the_shape()
     {
-        var text = SchemaExamples.Block("corpora-schema");
-        var path = Write(".claude/skills/example/CORPORA.md", text + "\n" + text);
-        Assert.Contains("corpora.duplicate", Rules(Corpora.Check(Ctx(), path)));
+        var path = Write(CorporaPath, SchemaExamples.Block("corpora-schema") + "\n## lineage\n\nprose under a section\n");
+        Assert.Contains("corpora.shape", Rules(Corpora.Check(Ctx(), path)));
     }
 
     [Fact]
-    public void Corpus_ids_are_the_section_headings_of_CORPORA_md()
+    public void A_missing_head_paragraph_fails_the_shape()
+    {
+        var lines = SchemaExamples.Block("corpora-schema").Split('\n');
+        var path = Write(CorporaPath, string.Join('\n', lines.Where(l => !l.StartsWith("<what the file is", StringComparison.Ordinal))));
+        Assert.Contains("corpora.shape", Rules(Corpora.Check(Ctx(), path)));
+    }
+
+    [Fact]
+    public void Corpus_ids_are_the_entry_headings_of_CORPORA_md()
     {
         Assert.Empty(Corpora.Ids(_skill));
-        Write(".claude/skills/example/CORPORA.md", SchemaExamples.Block("corpora-schema") + "\n## lineage\n\n- what: x\n- where: y\n- read by: z\n");
-        Assert.Equal(["fimfiction-stories", "lineage"], Corpora.Ids(_skill).OrderBy(x => x).ToArray());
+        Write(CorporaPath, SchemaExamples.Block("corpora-schema") + "\n### lineage\n\n- what: x\n- where: y\n- read through: z\n");
+        Assert.Equal(["code-sessions", "fimfiction-stories", "lineage"], Corpora.Ids(_skill).OrderBy(x => x).ToArray());
     }
 
     // ---- decisions ----

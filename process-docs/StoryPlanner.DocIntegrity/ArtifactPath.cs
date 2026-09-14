@@ -14,7 +14,7 @@ namespace StoryPlanner.DocIntegrity;
 /// enumerate files cannot be asked to guess which half it means.
 ///
 /// The placeholders are the ones SKILL.md § Artifacts defines: <c>&lt;study&gt;</c>,
-/// <c>&lt;corpus&gt;</c>, <c>&lt;container&gt;</c> (<c>studies</c>, <c>iterations</c> or
+/// <c>&lt;container&gt;</c> (<c>studies</c>, <c>iterations</c> or
 /// <c>pipeline</c>, the kind of folder a batch sits under), <c>&lt;home&gt;</c> (the folder under
 /// the container a batch belongs to: a study's id, an iteration's folder, <c>referee</c> or
 /// <c>claiming</c>, d-2026-09-13-55), <c>&lt;batch&gt;</c> (<c>nn-slug</c>), <c>&lt;date&gt;</c>,
@@ -116,16 +116,14 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     }
 
     /// <summary>
-    /// The pattern with the study folder and corpus substituted, the rest of the
-    /// placeholders left for <see cref="ToRegex"/>. The folder fills both <c>&lt;study&gt;</c> and
-    /// <c>&lt;home&gt;</c>: a batch's home is the study, iteration or pipeline directions folder
-    /// it belongs to.
+    /// The pattern with the study folder substituted, the rest of the placeholders left for
+    /// <see cref="ToRegex"/>. The folder fills both <c>&lt;study&gt;</c> and <c>&lt;home&gt;</c>: a
+    /// batch's home is the study, iteration or pipeline directions folder it belongs to.
     /// </summary>
-    public string Substitute(string? studyFolder, string? corpus)
+    public string Substitute(string? studyFolder)
     {
         var p = Pattern;
         if (studyFolder is not null) p = p.Replace("<study>", studyFolder).Replace("<home>", studyFolder);
-        if (corpus is not null) p = p.Replace("<corpus>", corpus);
         return p;
     }
 
@@ -133,9 +131,9 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     /// The directory to enumerate: the substituted pattern up to the last slash before its
     /// first remaining placeholder. Empty means the repo root.
     /// </summary>
-    public string FixedPrefix(string? studyFolder = null, string? corpus = null)
+    public string FixedPrefix(string? studyFolder = null)
     {
-        var p = Substitute(studyFolder, corpus);
+        var p = Substitute(studyFolder);
         var first = Placeholder.Match(p);
         var cut = first.Success ? first.Index : p.Length;
         if (cut == 0) return "";
@@ -147,9 +145,9 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     /// A regex over a repo-relative forward-slash path. Directory patterns match the directory
     /// path without its trailing slash.
     /// </summary>
-    public Regex ToRegex(string? studyFolder = null, string? corpus = null)
+    public Regex ToRegex(string? studyFolder = null)
     {
-        var p = Substitute(studyFolder, corpus);
+        var p = Substitute(studyFolder);
         if (IsDirectory) p = p.TrimEnd('/');
         var sb = new StringBuilder("^");
         var i = 0;
@@ -175,7 +173,7 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
         "N" => "[0-9]+",
         ".*" => @"\.[^/]+",
         "<batch>" => "[0-9]{2}-[a-z0-9-]+",
-        _ => "[^/]+",   // <study>, <corpus>, <date>, <Name>, slug
+        _ => "[^/]+",   // <study>, <home>, <container>, <date>, <Name>, slug
     };
 
     public string Display()

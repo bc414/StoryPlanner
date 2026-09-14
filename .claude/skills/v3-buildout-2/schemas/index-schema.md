@@ -32,7 +32,7 @@ The title is `# <batch> — index`, `<batch>` the folder's own name.
 | column | present | type | value |
 |---|---|---|---|
 | `item` | required | slug | the item's id; the key of the item's body `items/<item>.md`, of its call entries, of its result file and of every citation `<home>/<batch>/<item>` |
-| `locator` | required | line | what retrieves the item from its source, in the head's locator notation: for an itemizer's batch through the reader CORPORA.md names; one part or several as the source needs, a note id, a file and a range, a layer id and a turn, a finding's token |
+| `locator` | required | line | what retrieves the item from its source, in the head's locator notation, by the parts it declares: one part or several as the source needs, a note id, a file and a range, a layer id and a turn, a finding's token |
 | `description` | required | line | what the item is, for a reader of the table |
 
 The bodies under `items/` are uncommitted and regenerable by the tool; the index is the
@@ -64,7 +64,7 @@ No state of an input is recorded.
 | question | how |
 |---|---|
 | the items of a batch, in order | `grep -n '^| ' <container>/<home>/batches/<batch>/index.md` |
-| how to retrieve an item from its source | its row's `locator`, read under the head's `locator notation` line; for an itemizer's batch through the reader CORPORA.md names |
+| how to retrieve an item from its source | its row's `locator`, read under the head's `locator notation` line, with whatever reads the corpus |
 | which tool wrote a batch, and from which corpus | the head's first lines: `itemizer` and `corpus`, or `collator` |
 | every batch that cut a corpus | `grep -rln '^- corpus: <corpus>' studies/*/batches/*/index.md` |
 | every batch whose itemizer utilized a corpus | `grep -rlnE '^- utilizes corpora: (.* )?<corpus>( |$)' studies/*/batches/*/index.md` |

@@ -1,7 +1,7 @@
 # leads-schema
 
 `docs/v3-framework/studies/<study>/leads.md`, at the top of an exploration study, the class
-`leads`. Written by exploring-a-corpus's `write-leads`, which consolidates the batch's results
+`leads`. Written by conducting-an-exploration's `write-leads`, which consolidates the batch's results
 so that Brian reads leads rather than every result; reviewing-leads appends what its readings
 of the source produce: a reread line beneath a lead it checked, and a shortcoming where a
 reading showed the study's own instrument at fault. Nothing else writes here. A lead is an

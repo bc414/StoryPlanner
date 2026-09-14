@@ -1,6 +1,6 @@
 # asking-a-question
 
-Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
+Enables preparing-an-exploration and preparing-a-verification.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|

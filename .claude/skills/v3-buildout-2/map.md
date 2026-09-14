@@ -19,12 +19,12 @@ flowchart TD
   mintingahypothesis["minting-a-hypothesis"]:::activity
   surfacingcandidates["surfacing-candidates"]:::activity
   reviewingfindings["reviewing-findings"]:::activity
-  verifyingacorpus["verifying-a-corpus"]:::activity
-  preparingtoverifyacorpus["preparing-to-verify-a-corpus"]:::activity
+  conductingaverification["conducting-a-verification"]:::activity
+  preparingaverification["preparing-a-verification"]:::activity
   preparingpipelinedirections["preparing-pipeline-directions"]:::activity
   reviewingleads["reviewing-leads"]:::activity
-  exploringacorpus["exploring-a-corpus"]:::activity
-  preparingtoexploreacorpus["preparing-to-explore-a-corpus"]:::activity
+  conductinganexploration["conducting-an-exploration"]:::activity
+  preparinganexploration["preparing-an-exploration"]:::activity
   askingaquestion["asking-a-question"]:::activity
   buildingatool["building-a-tool"]:::activity
   revisingthemethod["revising-the-method"]:::activity
@@ -36,19 +36,19 @@ flowchart TD
   mintingahypothesis --> reviewingfindings
   surfacingcandidates --> promotingrefereedcandidates
   reviewingfindings --> surfacingcandidates
-  verifyingacorpus --> reviewingfindings
-  preparingtoverifyacorpus --> verifyingacorpus
+  conductingaverification --> reviewingfindings
+  preparingaverification --> conductingaverification
   preparingpipelinedirections --> surfacingcandidates
   preparingpipelinedirections --> iteratingastatement
-  reviewingleads --> preparingtoverifyacorpus
-  exploringacorpus --> reviewingleads
-  preparingtoexploreacorpus --> exploringacorpus
-  askingaquestion --> preparingtoexploreacorpus
-  askingaquestion --> preparingtoverifyacorpus
-  buildingatool --> preparingtoexploreacorpus
-  buildingatool --> preparingtoverifyacorpus
-  revisingthemethod --> preparingtoexploreacorpus
-  revisingthemethod --> preparingtoverifyacorpus
+  reviewingleads --> preparingaverification
+  conductinganexploration --> reviewingleads
+  preparinganexploration --> conductinganexploration
+  askingaquestion --> preparinganexploration
+  askingaquestion --> preparingaverification
+  buildingatool --> preparinganexploration
+  buildingatool --> preparingaverification
+  revisingthemethod --> preparinganexploration
+  revisingthemethod --> preparingaverification
 ```
 
 ## Each activity
@@ -315,10 +315,10 @@ Derived from the tables, never authored:
 - **inputs**: corpus hypothesis-statement index results tally
 - **outputs**: findings question-list
 - **instruments**: —
-- **enabled by**: minting-a-hypothesis verifying-a-corpus
+- **enabled by**: minting-a-hypothesis conducting-a-verification
 - **enables**: surfacing-candidates
 
-### verifying-a-corpus
+### conducting-a-verification
 
 ```mermaid
 flowchart LR
@@ -372,10 +372,10 @@ Derived from the tables, never authored:
 - **inputs**: calibration corpus directions question-list studies tool-source
 - **outputs**: calls definition findings index items results tally
 - **instruments**: runner tool-source
-- **enabled by**: preparing-to-verify-a-corpus
+- **enabled by**: preparing-a-verification
 - **enables**: reviewing-findings
 
-### preparing-to-verify-a-corpus
+### preparing-a-verification
 
 ```mermaid
 flowchart LR
@@ -445,7 +445,7 @@ Derived from the tables, never authored:
 - **outputs**: calibration calls definition directions index items question-list results studies tally
 - **instruments**: dotnet runner tool-source
 - **enabled by**: reviewing-leads asking-a-question building-a-tool revising-the-method
-- **enables**: verifying-a-corpus
+- **enables**: conducting-a-verification
 
 ### preparing-pipeline-directions
 
@@ -562,10 +562,10 @@ Derived from the tables, never authored:
 - **inputs**: calls corpus definition directions hypothesis-statement index results tally
 - **outputs**: leads question-list
 - **instruments**: —
-- **enabled by**: minting-a-hypothesis exploring-a-corpus
-- **enables**: preparing-to-verify-a-corpus
+- **enabled by**: minting-a-hypothesis conducting-an-exploration
+- **enables**: preparing-a-verification
 
-### exploring-a-corpus
+### conducting-an-exploration
 
 ```mermaid
 flowchart LR
@@ -610,10 +610,10 @@ Derived from the tables, never authored:
 - **inputs**: definition directions index items question-list studies
 - **outputs**: calls leads results tally
 - **instruments**: runner
-- **enabled by**: preparing-to-explore-a-corpus
+- **enabled by**: preparing-an-exploration
 - **enables**: reviewing-leads
 
-### preparing-to-explore-a-corpus
+### preparing-an-exploration
 
 ```mermaid
 flowchart LR
@@ -670,7 +670,7 @@ Derived from the tables, never authored:
 - **outputs**: calls definition directions index items question-list results studies
 - **instruments**: runner tool-source
 - **enabled by**: asking-a-question building-a-tool revising-the-method
-- **enables**: exploring-a-corpus
+- **enables**: conducting-an-exploration
 
 ### asking-a-question
 
@@ -695,7 +695,7 @@ Derived from the tables, never authored:
 - **outputs**: question-list
 - **instruments**: —
 - **enabled by**: —
-- **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
+- **enables**: preparing-an-exploration preparing-a-verification
 
 ### building-a-tool
 
@@ -728,7 +728,7 @@ Derived from the tables, never authored:
 - **outputs**: corpora corpus runner-skill tool-source
 - **instruments**: dotnet git
 - **enabled by**: —
-- **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
+- **enables**: preparing-an-exploration preparing-a-verification
 
 ### revising-the-method
 
@@ -767,7 +767,7 @@ Derived from the tables, never authored:
 - **outputs**: decisions map revision-note runner-skill skill
 - **instruments**: DocIntegrity git
 - **enabled by**: —
-- **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
+- **enables**: preparing-an-exploration preparing-a-verification
 
 ## The whole graph
 
@@ -803,12 +803,12 @@ flowchart TD
   subgraph reviewingfindings["reviewing-findings"]
     reviewfindings{{"review-findings<br/>hitl"}}:::hitl
   end
-  subgraph verifyingacorpus["verifying-a-corpus"]
+  subgraph conductingaverification["conducting-a-verification"]
     assemblefullbatch["assemble-full-batch<br/>session"]:::session
     assessitems(["assess-items<br/>agent"]):::agent
     writefindings["write-findings<br/>session"]:::session
   end
-  subgraph preparingtoverifyacorpus["preparing-to-verify-a-corpus"]
+  subgraph preparingaverification["preparing-a-verification"]
     verifyplan{{"verify-plan<br/>hitl"}}:::hitl
     itemize["itemize<br/>session"]:::session
     authordirections{{"author-directions<br/>hitl"}}:::hitl
@@ -827,12 +827,12 @@ flowchart TD
   subgraph reviewingleads["reviewing-leads"]
     reviewleads{{"review-leads<br/>hitl"}}:::hitl
   end
-  subgraph exploringacorpus["exploring-a-corpus"]
+  subgraph conductinganexploration["conducting-an-exploration"]
     continueexplorationbatch["continue-exploration-batch<br/>session"]:::session
     exploreitems(["explore-items<br/>agent"]):::agent
     writeleads["write-leads<br/>session"]:::session
   end
-  subgraph preparingtoexploreacorpus["preparing-to-explore-a-corpus"]
+  subgraph preparinganexploration["preparing-an-exploration"]
     exploreplan{{"explore-plan<br/>hitl"}}:::hitl
     authorexplorationdirections{{"author-exploration-directions<br/>hitl"}}:::hitl
     assembleexplorationbatch["assemble-exploration-batch<br/>session"]:::session

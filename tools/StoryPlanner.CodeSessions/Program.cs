@@ -256,6 +256,9 @@ var skipped = 0;
 var humanResults = 0;
 var planSnapshots = 0;
 var planDrift = 0;
+var compactionsDropped = 0;
+var harnessRecords = 0;
+var parentPrompts = 0;
 foreach (var (f, change) in work)
 {
     if (change == IngestPlan.Change.Unchanged)
@@ -295,11 +298,17 @@ foreach (var (f, change) in work)
     humanResults += extracted.HumanResults;
     planSnapshots += extracted.PlanSnapshots;
     planDrift += extracted.PlanDrift;
+    compactionsDropped += extracted.CompactionsDropped;
+    harnessRecords += extracted.HarnessRecords;
+    parentPrompts += extracted.ParentPrompts;
     Console.WriteLine($"  {f.ProjectDir}/{Shorten(f.SessionId)} — {records.Count} records, " +
                       $"{session.TotalChars:N0} chars" +
                       (extracted.HumanResults > 0 ? $", {extracted.HumanResults} human result(s)" : "") +
                       (extracted.PlanSnapshots > 0 ? $", {extracted.PlanSnapshots} plan(s)" : "") +
                       (extracted.LargePasteStubs > 0 ? $", {extracted.LargePasteStubs} large-paste stub(s)" : "") +
+                      (extracted.CompactionsDropped > 0 ? $", {extracted.CompactionsDropped} compaction summary(ies) dropped" : "") +
+                      (extracted.HarnessRecords > 0 ? $", {extracted.HarnessRecords} harness record(s)" : "") +
+                      (extracted.ParentPrompts > 0 ? $", {extracted.ParentPrompts} parent-written turn(s)" : "") +
                       (extracted.MalformedLines > 0 ? $", {extracted.MalformedLines} malformed line(s)" : ""));
 }
 
@@ -308,6 +317,9 @@ Console.WriteLine($"Wrote {written} session(s); {skipped} skipped (< {MinAssista
                   $"{absent.Count} absent-but-retained; database " +
                   $"{new FileInfo(config.Output).Length / (1024.0 * 1024.0):F1} MB");
 Console.WriteLine($"Kept {humanResults:N0} human-authored tool result(s) and {planSnapshots:N0} plan snapshot(s).");
+Console.WriteLine($"Roles by authorship (policy v{CodeSessionDb.CurrentExtractVersion}): {compactionsDropped:N0} compaction summary(ies) dropped to markers, " +
+                  $"{harnessRecords:N0} harness record(s) under role {CodeSessionExtractor.HarnessRole}, " +
+                  $"{parentPrompts:N0} parent-written turn(s) in subagent sessions under role assistant.");
 if (planDrift > 0)
     Console.WriteLine($"  of those, {planDrift} plan(s) were revised between the call and the approval; " +
                       "both texts are stored on the proposing record.");

@@ -15,7 +15,10 @@ public sealed record ExtractedSession(
     int LargePasteStubs,
     int HumanResults = 0,
     int PlanSnapshots = 0,
-    int PlanDrift = 0)
+    int PlanDrift = 0,
+    int CompactionsDropped = 0,
+    int HarnessRecords = 0,
+    int ParentPrompts = 0)
 {
     /// <summary>Total chars of assistant content — the signal for minimum-content filtering.</summary>
     public long AssistantChars => Records.Where(r => r.Role == "assistant").Sum(r => (long)r.Body.Length);
@@ -48,11 +51,50 @@ public sealed record ExtractedSession(
 /// order — the DAG is never linearized into one reconstructed thread. The record-type filter
 /// is an ALLOW-list (user, assistant, ai-title), not a deny-list: the transcript format grows
 /// new metadata record types over time and none of them are dialogue.
+///
+/// A record's role is who AUTHORED it, not the role the transcript gives it (2026-09-14,
+/// extract version 3). The transcript puts everything the harness injects in the user role,
+/// and until version 3 the archive inherited that, so a reader taking user-role text as the
+/// author's words was reading skill files, notifications and compaction summaries as his.
+/// Now: a compaction summary — a machine's lossy summary of earlier turns — is never stored,
+/// a harness-role marker standing where it was; what the harness put in front of the model
+/// (a skill load, a task or system notification, local command output, an IDE event) is kept
+/// verbatim under the role "harness"; in a subagent's transcript, a plain-text user turn is the
+/// parent session's assistant talking to its subagent and is recorded as "assistant". The
+/// author's own actions that arrive as fixed harness text — an interruption, a rejection, a
+/// slash command — stay "user", as a selected label does: his action, in the machine's words.
 /// </summary>
 public static class CodeSessionExtractor
 {
     /// <summary>Same threshold as the gemini layer's plan-paste stub.</summary>
     private const int LargePasteWordThreshold = 20_000;
+
+    /// <summary>The role of what the harness put in front of the model: neither the author's nor the assistant's.</summary>
+    public const string HarnessRole = "harness";
+
+    /// <summary>The fixed opening of a compaction summary, the detector when the transcript carries no isCompactSummary flag.</summary>
+    private const string CompactionOpening = "This session is being continued from a previous conversation";
+
+    /// <summary>What the harness injects in the user role, told by its opening when the record carries no isMeta flag.</summary>
+    private static readonly string[] HarnessOpenings =
+    [
+        "Base directory for this skill:",
+        "<task-notification>",
+        "<local-command-stdout>",
+        "<local-command-caveat>",
+        "<ide_opened_file>",
+        "<system-reminder>",
+        "[SYSTEM NOTIFICATION",
+    ];
+
+    /// <summary>The author's own actions arriving as fixed harness text; his, like a selected label, so never reattributed.</summary>
+    private static readonly string[] AuthorActionOpenings =
+    [
+        "[Request interrupted by user",
+        "[Rejected by user]",
+        "<command-message>",
+        "<command-name>",
+    ];
 
     public static ExtractedSession Extract(IEnumerable<string> lines)
     {
@@ -113,15 +155,44 @@ public static class CodeSessionExtractor
                 var parentUuid = GetString(root, "parentUuid");
 
                 ctx.PlanIdsInCurrentRecord.Clear(); // never carry ids across a dropped record
-                var body = root.TryGetProperty("message", out var message) &&
-                           message.ValueKind == JsonValueKind.Object &&
-                           message.TryGetProperty("content", out var content)
-                    ? MapContent(content, root, ctx)
-                    : "";
+                JsonElement content = default;
+                var hasContent = root.TryGetProperty("message", out var message) &&
+                                 message.ValueKind == JsonValueKind.Object &&
+                                 message.TryGetProperty("content", out content);
+                var body = hasContent ? MapContent(content, root, ctx) : "";
 
                 if (body.Length == 0) { empty++; continue; }
 
-                if (type == "user" && WordCount(body) > LargePasteWordThreshold)
+                // Who authored the record, not the role the transcript gives it.
+                var role = type;
+                if (type == "user")
+                {
+                    var plainText = hasContent && content.ValueKind == JsonValueKind.String;
+                    if (GetBool(root, "isCompactSummary") || body.StartsWith(CompactionOpening, StringComparison.Ordinal))
+                    {
+                        // Never stored: the marker says where the session lost its context and
+                        // how much was summarised, and nothing of what the summary said.
+                        body = $"[compaction summary dropped — {body.Length:N0} chars]";
+                        role = HarnessRole;
+                        ctx.CompactionsDropped++;
+                    }
+                    else if (GetBool(root, "isMeta") || IsHarnessText(body))
+                    {
+                        role = HarnessRole;
+                        ctx.HarnessRecords++;
+                    }
+                    else if (GetBool(root, "isSidechain") && plainText && !IsAuthorAction(body))
+                    {
+                        // A subagent's transcript: the plain-text user turns are the parent
+                        // session's assistant, its prompt and any message it sent after.
+                        role = "assistant";
+                        ctx.ParentPrompts++;
+                    }
+                }
+
+                // The paste stub covers what the harness injected too: a plugin skill of several
+                // hundred thousand characters is a paste by size whoever pasted it.
+                if (role != "assistant" && WordCount(body) > LargePasteWordThreshold)
                 {
                     body = $"[Large paste — {WordCount(body):N0} words, {body.Length:N0} chars]";
                     largePastes++;
@@ -131,7 +202,7 @@ public static class CodeSessionExtractor
                     uuid,
                     parentUuid.Length > 0 ? parentUuid : null,
                     timestamp,
-                    type,
+                    role,
                     body));
 
                 foreach (var planId in ctx.PlanIdsInCurrentRecord)
@@ -160,8 +231,29 @@ public static class CodeSessionExtractor
 
         return new ExtractedSession(
             title, slug, ordered, duplicates, malformed, empty, largePastes,
-            ctx.HumanResults, ctx.PlanSnapshots, ctx.PlanDrift);
+            ctx.HumanResults, ctx.PlanSnapshots, ctx.PlanDrift,
+            ctx.CompactionsDropped, ctx.HarnessRecords, ctx.ParentPrompts);
     }
+
+    /// <summary>
+    /// True when the record is nothing but what the harness injected. A tagged injection is
+    /// the harness's only up to its closing tag: the IDE prefixes an opened-file or selection
+    /// block to the author's own prompt in the same record, so text after the closer makes the
+    /// record his, and a block with no closer is left as his too — the safe direction is never
+    /// to reattribute the author's words.
+    /// </summary>
+    private static bool IsHarnessText(string body)
+    {
+        var opening = HarnessOpenings.FirstOrDefault(o => body.StartsWith(o, StringComparison.Ordinal));
+        if (opening is null) return false;
+        if (!opening.StartsWith('<')) return true;
+        var closer = "</" + opening[1..];
+        var at = body.IndexOf(closer, StringComparison.Ordinal);
+        return at >= 0 && body[(at + closer.Length)..].Trim().Length == 0;
+    }
+
+    private static bool IsAuthorAction(string body) =>
+        AuthorActionOpenings.Any(o => body.StartsWith(o, StringComparison.Ordinal));
 
     /// <summary>
     /// Per-session mutable state. PlanByToolUseId lets the plan the assistant PROPOSED
@@ -181,6 +273,9 @@ public static class CodeSessionExtractor
         public int HumanResults;
         public int PlanSnapshots;
         public int PlanDrift;
+        public int CompactionsDropped;
+        public int HarnessRecords;
+        public int ParentPrompts;
     }
 
     /// <summary>message.content is either a plain string (user turns) or an array of typed parts.</summary>
@@ -434,6 +529,9 @@ public static class CodeSessionExtractor
         element.TryGetProperty(property, out var prop) && prop.ValueKind == JsonValueKind.String
             ? prop.GetString() ?? ""
             : "";
+
+    private static bool GetBool(JsonElement element, string property) =>
+        element.TryGetProperty(property, out var prop) && prop.ValueKind == JsonValueKind.True;
 }
 
 /// <summary>
