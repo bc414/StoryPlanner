@@ -11,13 +11,13 @@ public sealed record IndexProblem(string Part, string Message, int Line);
 /// A batch's index (index-schema): the title, a head of keyed lines, and one table row per
 /// item in the order the tool produced them. The head names exactly one of the itemizer that cut
 /// corpora into the items or the collator that collated them from the method's own files
-/// (d-2026-09-13-49); a corpus goes only with an itemizer. Read by the runner for the items to
+/// (d-2026-09-13-49), and no corpus (d-2026-09-14-21). Read by the runner for the items to
 /// call and their order, and written by every itemizer through <see cref="Render"/> and every
 /// collator through <see cref="RenderCollated"/>.
 /// </summary>
 public sealed class IndexFile
 {
-    public static readonly string[] HeadKeys = ["itemizer", "collator", "corpus", "utilizes corpora", "narrowing", "locator notation", "source hash"];
+    public static readonly string[] HeadKeys = ["itemizer", "collator", "narrowing", "locator notation", "source hash"];
     static readonly string[] RequiredHeadKeys = ["locator notation"];
     public static readonly string[] Columns = ["item", "locator", "description"];
     static readonly Regex Slug = new(@"^[a-z0-9-]+$", RegexOptions.Compiled);
@@ -30,10 +30,8 @@ public sealed class IndexFile
 
     public string? Itemizer => Head.Value("itemizer");
     public string? Collator => Head.Value("collator");
-    public string? Corpus => Head.Value("corpus");
     public string? LocatorNotation => Head.Value("locator notation");
     public string? SourceHash => Head.Value("source hash");
-    public IReadOnlyList<string> UtilizesCorpora => Head.Value("utilizes corpora")?.Split(' ', StringSplitOptions.RemoveEmptyEntries) ?? [];
     public string? Narrowing => Head.Value("narrowing");
 
     IndexFile(string? title, KeyedBlock head, IReadOnlyList<IndexRow> rows, IReadOnlyList<IndexProblem> problems)
@@ -65,10 +63,6 @@ public sealed class IndexFile
         var hasCollator = keys.Contains("collator");
         if (hasItemizer == hasCollator)
             problems.Add(new IndexProblem("head", hasItemizer ? "the head names both an itemizer and a collator; exactly one wrote the index" : "the head names the tool that wrote the index: an itemizer or a collator", headStart + 1));
-        if (keys.Contains("corpus") != hasItemizer)
-            problems.Add(new IndexProblem("head", hasItemizer ? "an itemizer's head names the corpus the items were cut from" : "a collator's head names no corpus", headStart + 1));
-        if (keys.Contains("utilizes corpora") && !hasItemizer)
-            problems.Add(new IndexProblem("head", "'utilizes corpora' goes only with an itemizer", head.Field("utilizes corpora")!.Line));
         if (head.Value("source hash") is { } sh && !Sha.IsMatch(sh)) problems.Add(new IndexProblem("head", "source hash is not a SHA-256", head.Field("source hash")!.Line));
 
         var rows = new List<IndexRow>();
@@ -125,20 +119,16 @@ public sealed class IndexFile
 
     static string Cell(string s) => s.Replace("\r", "").Replace("\n", " ").Replace("|", "\\|");
 
-    /// <summary>The index an itemizer writes: title, head, table; <paramref name="sourceHash"/> only when the source is one document; the utilized corpora only when the itemizer read any; <paramref name="narrowing"/> only when it does not take every item.</summary>
-    public static string Render(string batch, string itemizer, string corpus, string locatorNotation, string? sourceHash, IEnumerable<(string Item, string Locator, string Description)> rows,
-        IEnumerable<string>? utilizesCorpora = null, string? narrowing = null)
+    /// <summary>The index an itemizer writes: title, head, table; <paramref name="sourceHash"/> only when the source is one document; <paramref name="narrowing"/> only when it does not take every item. The head names no corpus (d-2026-09-14-21).</summary>
+    public static string Render(string batch, string itemizer, string locatorNotation, string? sourceHash, IEnumerable<(string Item, string Locator, string Description)> rows, string? narrowing = null)
     {
         var sb = new StringBuilder();
         sb.Append("# ").Append(batch).Append(" — index\n\n");
         sb.Append(KeyedLines.RenderLine("itemizer", itemizer)).Append('\n');
-        sb.Append(KeyedLines.RenderLine("corpus", corpus)).Append('\n');
-        var corpora = utilizesCorpora?.ToList() ?? [];
-        if (corpora.Count > 0) sb.Append(KeyedLines.RenderLine("utilizes corpora", string.Join(' ', corpora))).Append('\n');
         return Tail(sb, locatorNotation, sourceHash, rows, narrowing);
     }
 
-    /// <summary>The index a collator writes: title, a head naming the collator and no corpus, table; <paramref name="narrowing"/> only when it does not take every item.</summary>
+    /// <summary>The index a collator writes: title, a head naming the collator, table; <paramref name="narrowing"/> only when it does not take every item.</summary>
     public static string RenderCollated(string batch, string collator, string locatorNotation, IEnumerable<(string Item, string Locator, string Description)> rows, string? narrowing = null)
     {
         var sb = new StringBuilder();

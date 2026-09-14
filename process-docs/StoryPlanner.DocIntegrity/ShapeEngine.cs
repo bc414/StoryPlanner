@@ -35,7 +35,7 @@ public static class ShapeEngine
 
     /// <summary>
     /// The JSON Schema of a whole document under a Shape. <paramref name="openEnums"/> supplies,
-    /// per field key, the values an open enum takes from outside the schema (the corpus ids).
+    /// per field key, the values an open enum takes from outside the schema, when a checker supplies them.
     /// </summary>
     public static JsonObject Compile(Shape shape, IReadOnlyDictionary<string, IReadOnlyCollection<string>>? openEnums = null)
     {

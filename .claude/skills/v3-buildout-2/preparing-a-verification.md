@@ -37,14 +37,14 @@ Anything the directions do not cover runs the rest.
 
 The itemizer is a tool under `tools/`, code with tests under the `testing` skill, built or
 picked here. It runs once into the calibration batch's folder, `batches/<nn>-<slug>/`,
-writing the index in its schema's shape, with the corpus and the locator notation in its
-head, and the item bodies under `items/`. What one item is is decided here and nowhere
-else, and the directions' first section states it, so the two are written together. An
-itemizer reads corpora and nothing else: the corpus it cuts, and it may read other corpora
-to cut the items, label them and fill their bodies, a passage from another corpus included,
-which the index head names under `utilizes corpora`. Narrowing, which of the items the
-batch holds, is a condition in the itemizer's code, stated in words in the head's
-`narrowing` line.
+writing the index in its schema's shape, with the locator notation in its head, and the
+item bodies under `items/`. What one item is is decided here and nowhere else, and the
+directions' first section states it, so the two are written together. An itemizer reads
+corpora and nothing else, one or several: it may read one corpus to cut another's items,
+label them and fill their bodies, a passage from another corpus included; which corpora it
+reads is in its code, at the version its head line names, and the head names no corpus.
+Narrowing, which of the items the batch holds, is a condition in the itemizer's code,
+stated in words in the head's `narrowing` line.
 
 ## author-directions
 

@@ -97,8 +97,8 @@ public static class Directions
 
 /// <summary>
 /// schemas/index-schema.md on the engine: the title, the head, the table; the class's rules
-/// through the shared reader — exactly one of an itemizer or a collator, a corpus and utilized
-/// corpora only with an itemizer (d-2026-09-13-49).
+/// through the shared reader — exactly one of an itemizer or a collator (d-2026-09-13-49), and
+/// no corpus in the head (d-2026-09-14-21).
 /// </summary>
 public static class BatchIndex
 {
@@ -109,11 +109,10 @@ public static class BatchIndex
         var file = Path.GetFileName(path);
         var batch = Path.GetFileName(Path.GetDirectoryName(Path.GetFullPath(path))!);
         var findings = new List<Finding>();
-        var engine = EngineCheck.Run(SchemaId, ctx, path, new Dictionary<string, IReadOnlyCollection<string>> { ["corpus"] = ctx.CorporaIds.ToList(), ["utilizes corpora"] = ctx.CorporaIds.ToList() });
+        var engine = EngineCheck.Run(SchemaId, ctx, path);
         if (engine.ShapeUnavailable) findings.Add(EngineCheck.Unavailable(SchemaId, file));
         foreach (var p in engine.Problems)
         {
-            if (ctx.CorporaIds.Count == 0 && p.Key is "corpus" or "utilizes corpora" && p.Kind == ProblemKind.Type) continue; // no corpus ids to hold it to
             var id = p.Section == "head" ? "index.head"
                 : p.Key == "item" ? "index.item"
                 : p.Key == "locator" ? "index.locator"
@@ -129,10 +128,6 @@ public static class BatchIndex
             findings.Add(Finding.Fail("index." + p.Part, file, p.Message));
         foreach (var p in index.Problems.Where(p => p.Part == "head" && (p.Message.Contains("itemizer", StringComparison.Ordinal) || p.Message.Contains("collator", StringComparison.Ordinal))))
             findings.Add(Finding.Fail("index.head", file, p.Message));
-        if (index.Corpus is { } corpus && index.UtilizesCorpora.Contains(corpus))
-            findings.Add(Finding.Fail("index.head", file, $"'utilizes corpora' repeats the corpus '{corpus}' the items were cut from"));
-        if (ctx.CorporaIds.Count == 0)
-            findings.Add(Finding.Info("index.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is not checked"));
         return findings.DistinctBy(f => (f.CheckId, f.Message)).ToList();
     }
 }

@@ -123,7 +123,7 @@ public sealed class TempBatch : IDisposable
         var def = $"# {Path.GetFileName(BatchDir)} — definition\n\n- directions: ../../directions-1.md\n" + (kind is null ? "" : $"- kind: {kind}\n") + $"- model: {model}\n" + (effort is null ? "" : $"- effort: {effort}\n") + (extra ?? "");
         File.WriteAllText(DefinitionPath, def);
         File.WriteAllText(Path.Combine(BatchDir, "index.md"),
-            IndexFile.Render(Path.GetFileName(BatchDir), "tools/StoryPlanner.TestItemizer, 1", "v1-archive", "a note id",
+            IndexFile.Render(Path.GetFileName(BatchDir), "tools/StoryPlanner.TestItemizer, 1", "a note id",
                 null, Enumerable.Range(1, count).Select(i => ($"item-{i:00}", $"note-{i}", $"note {i}"))));
         foreach (var i in Enumerable.Range(1, count))
             File.WriteAllText(Path.Combine(BatchDir, "items", $"item-{i:00}.md"), $"The note {i}.\n");

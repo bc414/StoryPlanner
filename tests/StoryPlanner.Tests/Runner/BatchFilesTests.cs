@@ -144,35 +144,34 @@ public class BatchFilesTests
     [Fact]
     public void An_index_renders_and_reads_with_its_head_and_rows()
     {
-        var text = IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "v1-archive", "a note id", null, [("note-1", "note-1", "first | note"), ("note-2", "note-2", "second")]);
+        var text = IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "a note id", null, [("note-1", "note-1", "first | note"), ("note-2", "note-2", "second")]);
         var index = IndexFile.Parse(text);
         Assert.Empty(index.Problems);
         Assert.Equal("01-full — index", index.Title);
-        Assert.Equal("v1-archive", index.Corpus);
+        Assert.Equal("tools/StoryPlanner.X, 1", index.Itemizer);
         Assert.Equal(["note-1", "note-2"], index.Rows.Select(r => r.Item));
         Assert.Equal("first | note", index.Rows[0].Description);
 
         var bad = IndexFile.Parse(text.Replace("| note-2 | note-2 |", "| Note 2 |  |"));
         Assert.Contains(bad.Problems, p => p.Part == "item");
         Assert.Contains(bad.Problems, p => p.Part == "locator");
-        Assert.Contains(IndexFile.Parse(text.Replace("- corpus: v1-archive\n", "")).Problems, p => p.Part == "head");
+        // the head names no corpus (d-2026-09-14-21): the key is unknown.
+        Assert.Contains(IndexFile.Parse(text.Replace("- locator notation:", "- corpus: v1-archive\n- locator notation:")).Problems, p => p.Part == "head");
     }
 
     [Fact]
-    public void An_index_renders_and_reads_what_its_itemizer_utilized_and_its_narrowing()
+    public void An_index_renders_and_reads_its_narrowing()
     {
-        var text = IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "v1-archive", "a note id", null, [("note-1", "note-1", "first")],
-            utilizesCorpora: ["lineage"], narrowing: "the pasted notes");
+        var text = IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "a note id", null, [("note-1", "note-1", "first")], narrowing: "the pasted notes");
         var index = IndexFile.Parse(text);
         Assert.Empty(index.Problems);
-        Assert.Equal(["lineage"], index.UtilizesCorpora);
         Assert.Equal("the pasted notes", index.Narrowing);
 
-        var plain = IndexFile.Parse(IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "v1-archive", "a note id", null, [("note-1", "note-1", "first")]));
-        Assert.Empty(plain.UtilizesCorpora);
+        var plain = IndexFile.Parse(IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "a note id", null, [("note-1", "note-1", "first")]));
         Assert.Null(plain.Narrowing);
-        // utilizes outputs left the head (d-2026-09-13-50): the key is unknown.
+        // utilizes outputs (d-2026-09-13-50) and utilizes corpora (d-2026-09-14-21) left the head: the keys are unknown.
         Assert.Contains(IndexFile.Parse(text.Replace("- narrowing:", "- utilizes outputs:\n  - docs/a.csv\n- narrowing:")).Problems, p => p.Part == "head");
+        Assert.Contains(IndexFile.Parse(text.Replace("- narrowing:", "- utilizes corpora: lineage\n- narrowing:")).Problems, p => p.Part == "head");
     }
 
     [Fact]
@@ -183,7 +182,6 @@ public class BatchFilesTests
         Assert.Empty(index.Problems);
         Assert.Equal("tools/StoryPlanner.PipelineCollator, 1, claim", index.Collator);
         Assert.Null(index.Itemizer);
-        Assert.Null(index.Corpus);
 
         // Exactly one tool, and a corpus only with an itemizer (d-2026-09-13-49).
         Assert.Contains(IndexFile.Parse(text.Replace("- collator:", "- itemizer: tools/StoryPlanner.X, 1\n- collator:")).Problems, p => p.Part == "head");

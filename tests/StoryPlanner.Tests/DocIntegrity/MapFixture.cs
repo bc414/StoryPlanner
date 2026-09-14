@@ -279,7 +279,6 @@ public sealed class MapFixture : IDisposable
             # {Batch} — index
 
             - itemizer: tools/StoryPlanner.TestItemizer, 1
-            - corpus: analysis-corpus
             - locator notation: a note id, `note-<id>`
 
             | item | locator | description |

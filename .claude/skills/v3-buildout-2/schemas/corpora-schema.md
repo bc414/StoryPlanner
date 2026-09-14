@@ -5,8 +5,8 @@ buildout studies, one entry per corpus, a fact file with no state in it. Written
 building-a-tool's `build` when a corpus becomes readable or how an itemizer reads it changes;
 read by the plan processes for whether every corpus a study's itemizer will read is readable
 and how, by an itemizer's author, and by a review writing a `corpus` shortcoming. Its entry
-ids are the values an index head's `corpus` and `utilizes corpora` take. The shape below is
-what the hook holds; the example is a conforming file with placeholders and the block the
+ids are the names a locator notation, a deliberation and a `corpus` shortcoming use for a
+corpus, held by no machine check. The shape below is what the hook holds; the example is a conforming file with placeholders and the block the
 checker's tests read as their fixture; then how the file is queried, and the check ids the
 hook reports.
 
@@ -20,8 +20,8 @@ The title is `# Corpora`.
 
 The head paragraph between the title and the first entry is required; the entries may be
 none. An entry's heading is `### <id>`, type slug, unique in the file, authored when the
-corpus enters and never changed: the name every index head, question and deliberation uses
-for the corpus. Then keyed lines in this order and no other line, a value continuing on lines
+corpus enters and never changed: the name a locator notation, a deliberation and a `corpus`
+shortcoming use for the corpus. Then keyed lines in this order and no other line, a value continuing on lines
 indented two spaces, a blank line followed by such a line continuing it too:
 
 | key | present | type | value |
@@ -67,7 +67,7 @@ itemizer is named per batch in its index head, never here.
 | one corpus's entry | `grep -n -A8 '^### <id>' CORPORA.md` |
 | how an itemizer reads a corpus | its `- read through:` line and continuation |
 | what a corpus excludes, and what beside it is not corpus data | its `- caveats:` block |
-| every batch that cut or utilized a corpus | the index schema's queries over `^- corpus:` and `^- utilizes corpora:` |
+| every batch whose itemizer read a corpus | `grep -rn '^- itemizer:' */*/batches/*/index.md`, then each tool's code at the version named, for the corpora it reads |
 | how a session or the MCP server reads a corpus | not here: the planner's `corpora`, `storyplan-data` and `code-sessions` skills |
 
 ## Checks

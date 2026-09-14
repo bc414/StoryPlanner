@@ -5,14 +5,12 @@ using System.Text.RegularExpressions;
 namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
-/// What a schema checker sees besides the file: the repository root, the governing skill
-/// folder, and the corpus ids a registry row may name. Built once per check by
-/// <see cref="ArtifactScope"/>; tests build it directly.
+/// What a schema checker sees besides the file: the repository root and the governing skill
+/// folder. Built once per check by <see cref="ArtifactScope"/>; tests build it directly.
 /// </summary>
-public sealed record CheckContext(string RepoRoot, string SkillFolder, IReadOnlySet<string> CorporaIds)
+public sealed record CheckContext(string RepoRoot, string SkillFolder)
 {
-    public static CheckContext From(string repoRoot, string skillFolder)
-        => new(repoRoot, skillFolder, Corpora.Ids(skillFolder));
+    public static CheckContext From(string repoRoot, string skillFolder) => new(repoRoot, skillFolder);
 }
 
 /// <summary>One artifact class's schema, applied to one governed file. Findings name the file as their row.</summary>
@@ -401,8 +399,8 @@ public static class Leads
 /// paragraph, then one <c>###</c> entry per corpus with what, where, read through and optional
 /// caveats. The engine holds the fields, reported under <c>corpora.entry</c>, and stray lines,
 /// under <c>corpora.shape</c>; the class holds the title, the head paragraph, and the heading as
-/// a slug unique in the file. Also the source of corpus ids for the index head: the entry
-/// headings of CORPORA.md.
+/// a slug unique in the file. No checker reads the entry ids: the index head names no corpus
+/// (d-2026-09-14-21).
 /// </summary>
 public static class Corpora
 {
@@ -438,16 +436,6 @@ public static class Corpora
                 findings.Add(Finding.Fail("corpora.entry", file, $"line {e.Line}: {e.Heading} appears twice"));
         }
         return findings;
-    }
-
-    /// <summary>The corpus ids the skill folder declares, the entry headings of its corpora file, or an empty set when the file is absent.</summary>
-    public static IReadOnlySet<string> Ids(string skillFolder)
-    {
-        var corpora = Path.Combine(skillFolder, FileName);
-        if (!File.Exists(corpora)) return new HashSet<string>(StringComparer.Ordinal);
-        return new MarkdownOutline(File.ReadAllText(corpora)).Headings
-            .Where(h => h.Level == 3 && ClosedSets.IdPattern.IsMatch(h.Text))
-            .Select(h => h.Text).ToHashSet(StringComparer.Ordinal);
     }
 }
 

@@ -41,8 +41,8 @@ directions by path and the study's model and effort. The itemizer runs once into
 for slices a tool with tests that cuts the corpora into one item each; for one item, a tool
 that renders or concatenates the whole of what it cuts into the item, never instructions
 for reading it elsewhere. It reads corpora and nothing else, and may read other corpora to
-cut, label and fill the items, as preparing-a-verification § itemize says, naming them and
-any narrowing in the index head. Then, per the `agent-runner` skill, dry-run-batch, and for
+cut, label and fill the items, as preparing-a-verification § itemize says, stating any
+narrowing in the index head. Then, per the `agent-runner` skill, dry-run-batch, and for
 slices execute-batch naming one item. Brian reads that result and says whether the
 directions produce leads of the shape wanted; directions he sends back are a new version
 and a new batch, since a definition is never edited. A one-item batch needs no pilot: its

@@ -6495,3 +6495,63 @@ rules names the old id in prose.
 - decision: The clause leaves. The `build` row reads that an ingest writes what it ingests and
   brings the corpus's entry true, which is what its section says.
 - not taken: the words kept in a loose sense, a class name in a row meaning something else.
+
+### The index head names no corpus: the corpus and utilizes corpora keys leave
+
+- id: d-2026-09-14-21
+- date: 2026-09-14
+- supersedes: d-2026-09-13-49
+- raised by: Brian, after the session's account of what stands before a first exploration: "Can
+  the index head's corpus-related keys be cut? What is the file for, who writes it, and who
+  reads it?" The frame: the index is the committed list of a batch's items with a locator each,
+  written once by the itemizer or the collator and never by hand; its table is read by the
+  runner for the items and their order, by the checker resolving `leads.cites` and findings
+  citations, by `tally-batch --group-by`, by write-leads, write-findings and the reviews; of its
+  head, the reviews read `itemizer` and `narrowing` and every reader of a locator reads
+  `locator notation`, while `corpus` and `utilizes corpora` were read by the checker alone, to
+  hold them to CORPORA.md's ids and refuse a repeat, the runner reading no head key
+  (d-2026-09-13-49) and the state builder counting rows. `corpus` entered with the index schema,
+  d-2026-09-09-4, in the session's draft, carrying the per-corpus study form d-2026-09-14-4
+  traced to 2026-09-05; Brian's typed rulings there were on `locator` and `locator notation`.
+  `utilizes corpora` is d-2026-09-13-5's, under d-2026-09-13-1's "That still makes the study
+  about the target corpus."; its name is his, "I was thinking 'utilizes'. Use two fields", the
+  two being `utilizes corpora` and `utilizes outputs`, and the second left the same day under
+  d-2026-09-13-50. d-2026-09-14-4 retired the target corpus at the study level on "I think a
+  study is of one itemizer's items", left the split standing in the head as the record of what
+  the itemizer "cut and utilized", and did not decide the single `corpus` key under an itemizer
+  that cuts several corpora with no one target. § Vocabulary takes no side: an itemizer "reads
+  corpora, one or several". The index schema's queries "every batch that cut a corpus" and
+  "every batch whose itemizer utilized a corpus" were the keys' only prose consumers, and no
+  activity file reads either; the corpora an itemizer read are in its code at the version the
+  `itemizer` line names, and a locator notation names its source in words. Shown that, with one
+  `corpora` list as the alternative, Brian: "Proceed with the cut".
+- decision: The index head names no corpus. `corpus` and `utilizes corpora` leave the head; the
+  key order is `itemizer` or `collator`, `narrowing`, `locator notation`, `source hash`. Which
+  corpora an itemizer read is read from its code at the version its head line names, and what
+  a locator addresses from the `locator notation` line; the index schema's queries say so, and
+  the corpora file's entry ids are the names a locator notation, a deliberation and a `corpus`
+  shortcoming use, with no machine consumer. `index.head` fails when a key is missing, unknown
+  or out of order, when both or neither of `itemizer` and `collator` are present, or when
+  `source hash` is present and not a SHA-256; its clauses on the two keys retire, the info
+  `index.corpora-unavailable` retires, and the checker no longer reads CORPORA.md for an index.
+  `IndexFile.Render` takes no corpus. The clause of d-2026-09-14-4 that what the itemizer cut
+  and utilized is "recorded per batch in the index head, and nowhere else" is history; what it
+  left undecided, the single key under a multi-corpus itemizer, no longer arises. Not decided
+  here: whether a locator covers every corpus an item draws from, whether an item tells the
+  call which corpus it came from, and a tally split by corpus.
+
+  What stands of d-2026-09-13-49: an index head carries exactly one of `itemizer` or
+  `collator`, a line naming the tool that wrote the index as `tools/StoryPlanner.<Name>` or a
+  script's path, with its version or commit; `narrowing`, optional for either tool, a line,
+  states in words the condition in the tool's code that chooses which items the batch holds,
+  absent when every item is taken; `locator notation` is required; `source hash` stays
+  optional, when the source is one document; the runner's messages say the itemizer or
+  collator regenerates missing bodies; d-2026-09-09-4 still backs `index.head` and is not
+  superseded. What leaves: `corpus` present exactly when `itemizer` is, `utilizes corpora`
+  beside `itemizer` only, and their checks.
+- not taken: one `corpora` key listing every corpus read, with no split, which keeps a
+  per-batch machine record and the enum check for a grep no activity asks and a typo check on
+  a value code writes, against building-a-tool's rule that a check is added for a failure a
+  batch has shown; the keys kept as they stand, which keeps the target corpus at the batch
+  level after d-2026-09-14-4 retired it at the study level and leaves the multi-corpus
+  itemizer's single key undecided.
