@@ -40,7 +40,7 @@ words what it was seen in, and cites by item token every slice whose result it c
 leads the readers repeated across slices become one lead citing them all. Leads about one
 subject, pattern or story are written next to one another, never grouped by hypothesis. Each
 lead's slug is created here, naming what was seen. What the leads raise that no question in
-view or in the corpus's list asks is written under Proposed questions. The procedure is the
+view or in the question list asks is written under Proposed questions. The procedure is the
 same for one whole-corpus result as for many slices. It writes no shortcoming, and nothing of
 how the exploration ran, which the batch's own files hold.
 

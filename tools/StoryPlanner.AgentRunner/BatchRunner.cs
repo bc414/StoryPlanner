@@ -92,7 +92,7 @@ public sealed class BatchRunner
         var (batch, error) = Batch.Load(definitionPath, workingDir);
         if (batch is null) return (null, error);
         var missing = batch.MissingItems();
-        if (missing.Count > 0) return (null, $"{missing.Count} item(s) have no body under items/ (first: {missing[0]}); the itemizer regenerates them");
+        if (missing.Count > 0) return (null, $"{missing.Count} item(s) have no body under items/ (first: {missing[0]}); the itemizer or collator regenerates them");
         var launchError = Batch.CheckLaunchDir(launchDir, definitionPath);
         if (launchError is not null) return (null, launchError);
         if (itemFilter is not null && !batch.Items.Contains(itemFilter))

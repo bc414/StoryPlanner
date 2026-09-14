@@ -38,8 +38,7 @@
              temp folder, never the real skill; one test reads the real folder. -->
         <ProjectReference Include="..\..\process-docs\StoryPlanner.DocIntegrity\StoryPlanner.DocIntegrity.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
-        <ProjectReference Include="..\..\tools\StoryPlanner.MarkdownItemizer\StoryPlanner.MarkdownItemizer.csproj" />
-        <ProjectReference Include="..\..\tools\StoryPlanner.SurfacingItemizer\StoryPlanner.SurfacingItemizer.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.PipelineCollator\StoryPlanner.PipelineCollator.csproj" />
     </ItemGroup>
 
 </Project>

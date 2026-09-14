@@ -1,18 +1,19 @@
 using System.Collections.Generic;
 using System.Linq;
 using StoryPlanner.DocIntegrity;
-using StoryPlanner.SurfacingItemizer;
+using StoryPlanner.PipelineCollator;
 using Xunit;
 
 namespace StoryPlanner.Tests;
 
 /// <summary>
-/// The surfacing itemizers' item computation (decisions d-2026-09-10-5, -6): claiming cuts a
-/// verification's standing findings into one item per finding; refereeing cuts the claims into
-/// one item per (finding, target), each the target's statement and the finding, blind. The
-/// referee item's locator is the identity compose-candidates reads back.
+/// The pipeline collator's item computation (decisions d-2026-09-10-5, d-2026-09-13-42, -47):
+/// claiming collates a verification's standing findings into one item per finding, each holding
+/// the current hypothesis set then the finding; refereeing collates the claims into one item per
+/// (finding, target), each the target's statement and the finding, blind. The referee item's
+/// locator is the identity compose-candidates reads back.
 /// </summary>
-public class SurfacingItemizerTests
+public class PipelineCollatorTests
 {
     const string Findings = """
         # verification-of-x-y — findings
@@ -45,18 +46,29 @@ public class SurfacingItemizerTests
     [Fact]
     public void Standing_findings_exclude_withdrawn_and_superseded()
     {
-        var standing = Itemizers.StandingFindings(Findings);
+        var standing = Collators.StandingFindings(Findings);
         Assert.Equal(["most-are-a", "new"], standing.Select(f => f.Slug).ToArray());
         Assert.Equal("Most notes are class a.", standing[0].Text);
     }
 
+    static readonly Collators.HypothesisStatementOf[] Set =
+    [
+        new("031-dt-classes", "DT has two classes."),
+        new("046-dt-two-classes", "Heavy DT splits in two."),
+    ];
+
     [Fact]
-    public void Claim_items_are_one_per_standing_finding_with_the_finding_as_the_body()
+    public void Claim_items_are_one_per_standing_finding_holding_the_hypothesis_set_then_the_finding()
     {
-        var items = Itemizers.ClaimItems(Findings);
+        var items = Collators.ClaimItems(Findings, Set);
         Assert.Equal(["most-are-a", "new"], items.Select(i => i.Id).ToArray());
         Assert.Equal("verification-of-x-y/most-are-a", items[0].Locator);
-        Assert.Contains("Most notes are class a.", items[0].Body);
+        var body = items[0].Body;
+        Assert.Contains("031-dt-classes", body);
+        Assert.Contains("Heavy DT splits in two.", body);
+        // The set opens the message and the finding closes it, so every call of the batch shares the opening.
+        Assert.True(body.IndexOf("DT has two classes.", System.StringComparison.Ordinal) < body.IndexOf("Most notes are class a.", System.StringComparison.Ordinal));
+        Assert.Equal(body[..body.IndexOf("## Finding", System.StringComparison.Ordinal)], items[1].Body[..items[1].Body.IndexOf("## Finding", System.StringComparison.Ordinal)]);
     }
 
     [Fact]
@@ -65,9 +77,9 @@ public class SurfacingItemizerTests
         var claims = new List<(string, string)> { ("most-are-a", "031-dt-classes") };
         var findings = new Dictionary<string, string>(System.StringComparer.Ordinal) { ["most-are-a"] = "Most notes are class a." };
         var statements = new Dictionary<string, string>(System.StringComparer.Ordinal) { ["031-dt-classes"] = "DT has two classes." };
-        var it = Assert.Single(Itemizers.RefereeItems(claims, findings, statements));
+        var it = Assert.Single(Collators.RefereeItems(claims, findings, statements));
         Assert.Equal("most-are-a-031", it.Id);
-        Assert.Equal($"most-are-a {Itemizers.Arrow} 031-dt-classes", it.Locator);
+        Assert.Equal($"most-are-a {Collators.Arrow} 031-dt-classes", it.Locator);
         Assert.Contains("DT has two classes.", it.Body);
         Assert.Contains("Most notes are class a.", it.Body);
         // The referee is blind: the target's file name is not in the body it reads.
@@ -76,13 +88,13 @@ public class SurfacingItemizerTests
 
     [Fact]
     public void The_referee_locator_uses_the_same_identity_separator_compose_parses()
-        => Assert.Equal(Compose.Arrow, Itemizers.Arrow);
+        => Assert.Equal(Compose.Arrow, Collators.Arrow);
 
     [Fact]
     public void The_hypothesis_statement_is_the_section_text()
     {
         const string text = "## Hypothesis\n\nDT has two classes.\n\n## Origin\n\n- date: 2026-09-01\n- reasoning: why\n\n## Record\n";
-        Assert.Equal("DT has two classes.", Itemizers.HypothesisStatement(text));
+        Assert.Equal("DT has two classes.", Collators.HypothesisStatement(text));
     }
 
     // ---- reverify (iterating-a-statement) ----
@@ -129,7 +141,7 @@ public class SurfacingItemizerTests
     [Fact]
     public void Current_wording_evidence_is_the_entries_after_the_last_iteration_boundary()
     {
-        var ev = Itemizers.CurrentWordingEvidence(Hypothesis);
+        var ev = Collators.CurrentWordingEvidence(Hypothesis);
         Assert.Equal(["study-a/supporting-one", "study-a/the-challenge"], ev.Select(e => e.Token).ToArray());
         Assert.Equal("Supporting finding text.", ev[0].FindingText);
     }
@@ -137,8 +149,8 @@ public class SurfacingItemizerTests
     [Fact]
     public void Reverify_items_pair_the_proposed_wording_with_each_frozen_finding_blind()
     {
-        var ev = Itemizers.CurrentWordingEvidence(Hypothesis);
-        var items = Itemizers.ReverifyItems("DT has three classes.", ev);
+        var ev = Collators.CurrentWordingEvidence(Hypothesis);
+        var items = Collators.ReverifyItems("DT has three classes.", ev);
         Assert.Equal(["supporting-one", "the-challenge"], items.Select(i => i.Id).ToArray());
         Assert.Equal("study-a/the-challenge", items[1].Locator);
         Assert.Contains("DT has three classes.", items[0].Body);

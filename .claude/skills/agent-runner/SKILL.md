@@ -1,7 +1,7 @@
 ---
 name: agent-runner
-description: How to run autonomous agents through tools/StoryPlanner.AgentRunner — classifiers, auditors, referees, readers of one item, calibration samples, any call that must run with explicit context and no transcript. The persistent host and its page (http://127.0.0.1:5190), the call (the directions body as the system prompt, one item on stdin, the answer as JSON the CLI enforces), the batch folder and its files (definition, index, items, calls, results, tally), the five verbs (dry-run-batch, execute-batch, tally-batch, start, stop), the launch-folder invariants, what a batch commits, the JSON routes, harness control versus what a call is, how a result and a call are cited, and the traps found in use. Load before writing a definition, executing a batch, or citing a result. Governs the runner; the v3-buildout skill's process tables say which rows run here.
-paths: "tools/StoryPlanner.AgentRunner/**, tools/StoryPlanner.BatchFiles/**, tools/StoryPlanner.MarkdownItemizer/**, docs/v3-framework/studies/**/batches/**"
+description: How to run autonomous agents through tools/StoryPlanner.AgentRunner — classifiers, claiming calls, referees, readers of one item, calibration samples, any call that must run with explicit context and no transcript. The persistent host and its page (http://127.0.0.1:5190), the call (the directions body as the system prompt, one item on stdin, the answer as JSON the CLI enforces), the batch folder and its files (definition, index, items, calls, results, tally), the five verbs (dry-run-batch, execute-batch, tally-batch, start, stop), the launch-folder invariants, what a batch commits, the JSON routes, harness control versus what a call is, how a result and a call are cited, and the traps found in use. Load before writing a definition, executing a batch, or citing a result. Governs the runner; the v3-buildout skill's process tables say which rows run here.
+paths: "tools/StoryPlanner.AgentRunner/**, tools/StoryPlanner.BatchFiles/**, tools/StoryPlanner.PipelineCollator/**, docs/v3-framework/studies/**/batches/**, docs/v3-framework/iterations/**/batches/**, docs/v3-framework/pipeline/**/batches/**"
 ---
 
 # Agent runner
@@ -71,9 +71,9 @@ One execution of the CLI in print mode, with exactly these inputs:
   --include-partial-messages` so the host can tee each event as it happens, the answer's own
   deltas included (see the idle limit below).
 
-Whatever a study needs the agent to hold beyond the item — a whole skill folder for an
-audit, an excerpt for a reader — is in the directions body or in the item, put there by the
-itemizer; a call has no third input. The prompt hash is the SHA-256 of the body, a line of
+Whatever a call needs the agent to hold beyond the item — an excerpt for a reader, the
+hypothesis set for a claiming call — is in the directions body or in the item, put there by
+the itemizer or the collator; a call has no third input. The prompt hash is the SHA-256 of the body, a line of
 three hyphens, and the item text: deterministic for identical inputs, so a repeat under the
 same version is comparable.
 
@@ -87,19 +87,22 @@ never on its own; a failed item is called again by the next `execute-batch`.
 
 ## The batch folder
 
-`docs/v3-framework/studies/<study>/batches/<nn>-<slug>/`, where `<nn>` is sequential within
-the study from 01 and the slug names what the batch does. The referee's batches sit under
-the verification they judge, their definitions naming the referee's directions by relative
-path into `docs/v3-framework/referee/`. Every batch verb resolves these beside the definition:
+`docs/v3-framework/<container>/<home>/batches/<nn>-<slug>/`, where `<nn>` is sequential within
+the home from 01 and the slug names what the batch does. A study's batches sit under
+`studies/<study>/`, a verification's claiming and referee batches among them; an iteration's
+re-verify batches under `iterations/`; the pipeline directions' calibration samples under
+`pipeline/referee/` and `pipeline/claiming/`. A claiming or referee batch's definition names
+the pipeline directions by relative path into their folder under `docs/v3-framework/pipeline/`.
+Every batch verb resolves these beside the definition:
 
 ```
 batches/03-scene-notes/
   definition.md      authored by a session before any execution, never edited after the first
                      (schemas/definition-schema.md): directions by path, kind, calibration, model,
                      effort
-  index.md           written by the itemizer, one row per item with its locator
+  index.md           written by the itemizer or collator, one row per item with its locator
                      (schemas/index-schema.md); the runner calls the items in its order
-  items/<item>.md    the item bodies, uncommitted and regenerable by the itemizer; each call
+  items/<item>.md    the item bodies, uncommitted and regenerable by that tool; each call
                      hashes the body it received
   calls.md           written by the runner: the definition's hash at its head, then one entry
                      per call (below), appended and never edited
@@ -110,10 +113,11 @@ batches/03-scene-notes/
 ```
 
 **What a batch commits**: `definition.md`, `index.md`, `calls.md`, `results/`, `tally.md`.
-`items/` is regenerable from the committed index and the itemizer, and `attempts/` is the
+`items/` is regenerable from the committed index and the tool that wrote it, and `attempts/` is the
 runner's — the stream is for watching a live call and reconstructible in what it proves from
 the hashes in `calls.md`; both are ignored by one pattern in `.gitignore`. An input that is
-not regenerable does not exist: the itemizer puts everything the call needs into the item.
+not regenerable does not exist: the itemizer or collator puts everything the call needs into
+the item.
 
 **A result** is `results/<item>.md`: the directions' What to produce fields in that order and
 nothing else, an enum or line as `- key: value`, a block as `- key: first line` with the rest
@@ -138,7 +142,7 @@ execution. The head's `- definition: <hash>` is what `definition.frozen` holds t
 | question | how |
 |---|---|
 | which items have answered | `grep -n '^- check: ok' calls.md` and the `### ` line above each; or the batch's page |
-| an item's result | `results/<item>.md`, cited as `<study>/<batch>/<item>` |
+| an item's result | `results/<item>.md`, cited as `<home>/<batch>/<item>` |
 | which call produced a result | the item's last entry in `calls.md` with `check: ok`; its `directions hash` is the version the result was judged under |
 | the directions version a batch ran under | the definition's `directions` line; the body hash in any entry of `calls.md` |
 | every result of one class | `grep -l '^- <field>: <value>' results/*.md`; the count is in `tally.md` § `<field>` |
@@ -227,7 +231,7 @@ POST /api/host/shutdown?now=false
 
 A batch id is its folder relative to the host's working directory, forward slashes. Routes
 serve live state. **Citing a result stays file-based**: an artifact cites
-`<study>/<batch>/<item>` and the call's directions hash, never a URL.
+`<home>/<batch>/<item>` and the call's directions hash, never a URL.
 
 ## Seeing inside a running call
 
@@ -272,8 +276,8 @@ item body is present, checks the launch folder, composes every call in memory �
 prompt, the item, the schema, the three hashes — and prints what an execution would call and
 skip, then writes nothing. A mis-sized item or a wrong directions path is seen before it
 costs anything. Then, for directions nobody has piloted, `execute-batch --item <id>` calls
-one item, whose result a person reads before the rest run; a calibration batch is a
-verification's pilot, and a one-item batch is its own.
+one item, whose result a person reads before the rest run; directions already calibrated
+need no pilot, and neither does a one-item batch.
 
 ## Cost figures are API-equivalent estimates
 
@@ -297,8 +301,8 @@ read as a bill.
   WebSearch and Agent among its tools while "allowed" only Write. Restriction is `--tools` +
   `--restricted`; a batch with no `tools` line passes `--tools ""` and the agent has none.
 - **A system prompt on the command line is capped** by Windows at about 32,000 characters; the
-  body goes by `--system-prompt-file`, and an audit's directions carrying a whole skill folder
-  fit.
+  body goes by `--system-prompt-file`, which has carried a body the size of a whole skill
+  folder.
 - **The child's output has had four shapes** — a `json` array of events, a single result
   object, `stream-json` lines, and (harness 2.1.258) `stream-json` lines whose `system`
   events carry subtypes beyond `init`, with `rate_limit_event` lines after init and the
@@ -318,7 +322,7 @@ Agent SDK was dropped as API-billed and outside the toolchain):
 
 | Mechanism | Runs where | Inherits | Transcript | Serves |
 |---|---|---|---|---|
-| **The runner** (this skill) | Outside the repo, `claude -p` per item, under the host | Nothing but the directions and the item | None | Every `agent` process of the `v3-buildout` skill — a classifier or auditor, the referee, a reader of one item under exploration directions, a calibration sample — every batch, anything whose result must be cited by hash |
+| **The runner** (this skill) | Outside the repo, `claude -p` per item, under the host | Nothing but the directions and the item | None | Every `agent` process of the `v3-buildout` skill — a classifier, a claiming call, the referee, a reader of one item under exploration directions, a calibration sample — every batch, anything whose result must be cited by hash |
 | **The Agent tool** | **Only inside a HITL session**, spawned by the person-facing session itself | The full instruction stack, MCP servers, memory | Written as a subagent of the interactive session — and kept by the codesessions archive as part of it | Salience-discretion help to the session in ones and twos, where inheriting the stack is acceptable and the transcript *belongs* in the archive: an Explore search, a fresh-eyes read of something under discussion |
 
 Two of Brian's rulings drew the line: explicit context (a classifier or referee must see the
@@ -342,10 +346,10 @@ that has answered is never called again, and a different answer wants a new batc
 
 ## Verifying a change to the runner
 
-`dotnet test tests/StoryPlanner.Tests --filter "FullyQualifiedName~Batch|FullyQualifiedName~Runner|FullyQualifiedName~Tally|FullyQualifiedName~Itemizer|FullyQualifiedName~Stream|FullyQualifiedName~Head"`
+`dotnet test tests/StoryPlanner.Tests --filter "FullyQualifiedName~Batch|FullyQualifiedName~Runner|FullyQualifiedName~Tally|FullyQualifiedName~Collator|FullyQualifiedName~Stream|FullyQualifiedName~Head"`
 covers the batch files, the loop under a fake launcher (one call per item, the render, the
 calls file, the pilot, a later execution, the gate, pause, stop, cancel), the catalog and
-stages, the tally, the itemizer's unit rule, the stream reader, the JSON routes over a
+stages, the tally, the collator's items, the stream reader, the JSON routes over a
 loopback listener, and the leaf components under bUnit. The round trip through the real CLI
 is `SmokeTest`, one item in a temporary folder, run with `STORYPLAN_RUNNER_SMOKE=1` set; it
 spends a call and proves the system prompt, the stdin item, the enforced schema and the

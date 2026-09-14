@@ -6,7 +6,7 @@ so that Brian reads leads rather than every result; reviewing-leads appends what
 of the source produce: a reread line beneath a lead it checked, and a shortcoming where a
 reading showed the study's own instrument at fault. Nothing else writes here. A lead is an
 idea for a question and for what to itemize, never a finding and never evidence; it is cited
-as a lead only, by any later session, until a verification of its corpus has run. How the
+as a lead only, by any later session. How the
 exploration ran, which questions it read with and what it did not read are not in this file:
 the definition, the directions, the index head, the calls and the tally hold them, and the
 review brings them up from there.
@@ -30,7 +30,7 @@ in this order:
 | key | present | type | value |
 |---|---|---|---|
 | `lead` | required | block | what was seen, in words, as a neutral statement; nothing about what it means for any hypothesis |
-| `seen in` | required | line | coarsely and in words, whatever the lead was seen in, at the grain the reader had, for instance a story, a subject or a stretch of the corpus; never a position inside a slice |
+| `seen in` | required | line | coarsely and in words, whatever the lead was seen in, within the item the reader had, for instance a story, a subject or a stretch of the corpus; never a position inside a slice |
 | `cites` | required | list of line | the item token `<study>/<batch>/<item>` of each slice whose result the lead came from, one per line, at least one; for an exploration of the whole corpus, its one item |
 
 An appended line, `- reread: <date> <what the source showed>`, written beneath the fields by
@@ -42,13 +42,13 @@ form for a lead that holds in part.
 No order of leads is held by a check.
 
 **Proposed questions**: `- <what the leads raise that no question asks>`, one per line; none
-is a question until Brian raises it into the corpus's list, and none is a lead.
+is a question until Brian raises it into the question list, and none is a lead.
 
 **Shortcomings**: `- <part>: <what the review found>`, `<part>` one of `slice`, `itemizer`,
 `directions`, `consolidation`, `execution`, `corpus`. `slice` is the choice made at the plan
 of what one slice is, not suiting the reading, such as a slice that joined two things the
 reader needed apart, or a whole corpus read as one item where the questions wanted it cut;
-`itemizer` is the tool not cutting what its stated grain, narrowing or locators say, such as
+`itemizer` is the tool not cutting the item it states, or what its narrowing or locators say, such as
 a dropped, repeated or truncated stretch; `directions` is the text wanting, where a reader
 that followed it faithfully still went wrong, such as a reading the directions were silent
 on; `consolidation` is the consolidation not saying what the cited results say; `execution`

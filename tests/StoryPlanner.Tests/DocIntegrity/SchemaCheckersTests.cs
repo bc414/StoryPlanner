@@ -165,11 +165,12 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("| exploration-of-v1-archive-second-reading | exploration | v1-archive | 2026-09-21 |", new string[0])]
     [InlineData("| exploration-of-verified-artifacts | exploration | verified-artifacts | 2026-09-21 |", new[] { "registry.corpus" })]
     [InlineData("| verification-of-v1-archive-links | verification | v1-archive | 2026-09-21 |", new string[0])]
-    [InlineData("| audit-of-revision-4 | audit | skill | 2026-09-21 |", new string[0])]
+    // the audit retired (d-2026-09-13-40): its id, type and corpus value are no longer a study's
+    [InlineData("| audit-of-revision-4 | audit | skill | 2026-09-21 |", new[] { "registry.id" })]
     [InlineData("| exploration-of-nowhere | exploration | nowhere | 2026-09-21 |", new[] { "registry.corpus" })]
     [InlineData("| verification-of-v1-archive | verification | v1-archive | 2026-09-21 |", new[] { "registry.corpus" })]
     [InlineData("| verification-of-v1-archive-1 | verification | fimfiction-stories | 2026-09-21 |", new[] { "registry.corpus" })]
-    [InlineData("| audit-of-revision-4 | audit | v1-archive | 2026-09-21 |", new[] { "registry.corpus" })]
+    [InlineData("| verification-of-v1-archive-skill | verification | skill | 2026-09-21 |", new[] { "registry.corpus" })]
     [InlineData("| round-of-v1-archive-1 | verification | v1-archive | 2026-09-21 |", new[] { "registry.id" })]
     [InlineData("| referee-1 | verification | candidates | 2026-09-21 |", new[] { "registry.id" })]
     [InlineData("| exploration-of-v1-archive-again | verification | v1-archive | 2026-09-21 |", new[] { "registry.type" })]
@@ -354,12 +355,12 @@ public class SchemaCheckersTests : IDisposable
 
     // ---- questions ----
 
-    /// <summary>A repo with the artifacts table; the list at its class's path.</summary>
+    /// <summary>A repo with the artifacts table; the one list at its class's path.</summary>
     static (MapFixture Fixture, CheckContext Ctx, string Path) QuestionList(string text)
     {
         var f = new MapFixture().WithStateTree();
         Directory.CreateDirectory(Path.Combine(f.RepoRoot, ".git"));
-        var path = f.TreePath("docs", "v3-framework", "questions", "own-fiction.md");
+        var path = f.TreePath("docs", "v3-framework", "questions.md");
         File.WriteAllText(path, text);
         var ctx = new CheckContext(f.RepoRoot, f.SkillFolder, new HashSet<string>(StringComparer.Ordinal) { "own-fiction", "analysis-corpus" });
         return (f, ctx, path);
@@ -383,17 +384,18 @@ public class SchemaCheckersTests : IDisposable
     }
 
     [Theory]
-    [InlineData("# own-fiction — questions\n", "# own-fiction\n", "question.title")]
-    [InlineData("### own-fiction/heavy-dt-two-classes\n", "### own-fiction/Heavy-DT\n", "question.slug")]
-    [InlineData("### own-fiction/narrator-register-outside-giyc\n", "### own-fiction/heavy-dt-two-classes\n", "question.slug")]
-    [InlineData("### own-fiction/heavy-dt-two-classes\n", "### heavy-dt-two-classes\n", "question.slug")]
-    [InlineData("### own-fiction/heavy-dt-two-classes\n", "### analysis-corpus/heavy-dt-two-classes\n", "question.slug")]
+    [InlineData("# Questions\n", "# own-fiction — questions\n", "question.title")]
+    [InlineData("### questions/heavy-dt-two-classes\n", "### questions/Heavy-DT\n", "question.slug")]
+    [InlineData("### questions/narrator-register-outside-giyc\n", "### questions/heavy-dt-two-classes\n", "question.slug")]
+    [InlineData("### questions/heavy-dt-two-classes\n", "### heavy-dt-two-classes\n", "question.slug")]
+    // a per-corpus heading is no longer the token (d-2026-09-13-38)
+    [InlineData("### questions/heavy-dt-two-classes\n", "### own-fiction/heavy-dt-two-classes\n", "question.slug")]
     [InlineData("- question: <the question>\n- suggested test", "- suggested test", "question.entry.fields")]
     [InlineData("- raised by: recall", "- asked-by: recall", "question.entry.fields")]
     [InlineData("- date: 2026-09-08\n- raised by: recall, in the verify-plan for verification-of-own-fiction-narrator-register\n", "- raised by: recall, in the verify-plan for verification-of-own-fiction-narrator-register\n- date: 2026-09-08\n", "question.entry.fields")]
     [InlineData("- date: 2026-09-07\n", "- date: 2026-09-07\n- hypotheses: 031 032\n", "question.entry.fields")]
     [InlineData("- suggested test: <a naive note on how it might be tested>\n", "- suggested test: <a naive note on how it might be tested>\nA bare line.\n", "question.entry.fields")]
-    [InlineData("# own-fiction — questions\n", "# own-fiction — questions\n\nA head paragraph.\n", "question.entry.fields")]
+    [InlineData("# Questions\n", "# Questions\n\nA head paragraph.\n", "question.entry.fields")]
     [InlineData("- date: 2026-09-08\n", "- date: 2026-9-8\n", "question.entry.date")]
     [InlineData("- date: 2026-09-08\n", "- date: 2026-09-06\n", "question.entry.date")]
     [InlineData("- withdrawn: 2026-09-09 <why>\n", "- withdrawn: <why>\n", "question.withdrawn")]
@@ -412,23 +414,25 @@ public class SchemaCheckersTests : IDisposable
     }
 
     [Fact]
-    public void A_list_whose_corpus_is_not_in_CORPORA_fails_its_title()
+    public void The_list_names_no_data_set_and_is_checked_whatever_corpora_are_known()
     {
-        var (f, ctx, path) = QuestionList(SchemaExamples.Block("question-entry-schema"));
+        var (f, _, path) = QuestionList(SchemaExamples.Block("question-entry-schema"));
         using (f)
         {
-            var strict = new CheckContext(f.RepoRoot, f.SkillFolder, new HashSet<string>(StringComparer.Ordinal) { "lineage" });
-            Assert.Contains("question.title", Rules(Questions.Check(strict, path)));
+            var none = new CheckContext(f.RepoRoot, f.SkillFolder, new HashSet<string>(StringComparer.Ordinal));
+            Assert.Empty(Rules(Questions.Check(none, path)));
         }
     }
 
     // ---- directions ----
 
     const string StudyDir = "docs/v3-framework/studies/verification-of-v1-archive-stasis";
+    const string QuestionsText = "# Questions\n\n### questions/scene-notes-carry-designed-stasis\n\n- date: 2026-09-01\n- raised by: recall\n- question: q\n\n### questions/links-name-the-gap\n\n- date: 2026-09-02\n- raised by: recall\n- question: q\n";
+    const string ExampleQuestions = "questions: questions/scene-notes-carry-designed-stasis questions/links-name-the-gap\n";
 
     string WriteDirections(string text, string folder = StudyDir, string name = "directions-1.md")
     {
-        Write("docs/v3-framework/questions/v1-archive.md", "# v1-archive — questions\n\n### v1-archive/scene-notes-carry-designed-stasis\n\n- date: 2026-09-01\n- raised by: recall\n- question: q\n\n### v1-archive/links-name-the-gap\n\n- date: 2026-09-02\n- raised by: recall\n- question: q\n");
+        Write("docs/v3-framework/questions.md", QuestionsText);
         return Write($"{folder}/{name}", text);
     }
 
@@ -451,9 +455,10 @@ public class SchemaCheckersTests : IDisposable
     }
 
     [Theory]
-    [InlineData("questions: v1-archive/scene-notes-carry-designed-stasis v1-archive/links-name-the-gap\n", "questions: v1-archive/nowhere\n", "directions.frontmatter")]
-    [InlineData("questions: v1-archive/scene-notes-carry-designed-stasis v1-archive/links-name-the-gap\n", "questions: scene-notes\n", "directions.frontmatter")]
-    [InlineData("questions: v1-archive/scene-notes-carry-designed-stasis v1-archive/links-name-the-gap\n", "", "directions.frontmatter")]
+    [InlineData(ExampleQuestions, "questions: questions/nowhere\n", "directions.frontmatter")]
+    [InlineData(ExampleQuestions, "questions: scene-notes\n", "directions.frontmatter")]
+    [InlineData(ExampleQuestions, "questions: v1-archive/scene-notes-carry-designed-stasis\n", "directions.frontmatter")]
+    [InlineData(ExampleQuestions, "", "directions.frontmatter")]
     [InlineData("## Criteria\n", "## Rules\n", "directions.sections")]
     [InlineData("## Classes\n", "## What to produce\n\n- x: line, y\n\n## Classes\n", "directions.sections")]
     [InlineData("- cannot-place: the criteria do not decide it\n", "", "directions.classes")]
@@ -461,8 +466,11 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("- no-stasis: <what an item shows>\n", "- No Stasis: <what an item shows>\n", "directions.classes")]
     [InlineData("2. <another>\n", "3. <another>\n", "directions.criteria")]
     [InlineData("- class: enum\n", "- class: label\n", "directions.output")]
-    [InlineData("- decided by: line, the number of the criterion that decided it, or \"definition\" if none was needed\n", "- decided by: line\n", "directions.output")]
-    [InlineData("- decided by: line, the number of the criterion that decided it, or \"definition\" if none was needed\n", "- class: line, again\n", "directions.output")]
+    [InlineData("- class: enum\n", "- Class: enum\n", "directions.output")]
+    [InlineData("- basis: line,", "- decided by: line,", "directions.output")]
+    [InlineData("- basis: line,", "- decided-by: line,", "directions.output")]
+    [InlineData("- basis: line, the number of the criterion that decided it, or \"definition\" if none was needed\n", "- basis: line\n", "directions.output")]
+    [InlineData("- basis: line, the number of the criterion that decided it, or \"definition\" if none was needed\n", "- class: line, again\n", "directions.output")]
     public void A_directions_example_with_one_thing_broken_fails_on_that_rule(string find, string replace, string rule)
     {
         var text = SchemaExamples.Block("directions-schema");
@@ -474,17 +482,47 @@ public class SchemaCheckersTests : IDisposable
     [Fact]
     public void An_explorations_directions_have_how_to_read_and_no_classes_and_a_referees_no_questions()
     {
-        const string exploration = "---\nquestions: v1-archive/links-name-the-gap\n---\n\n## What you are given\n\nA slice.\n\n## How to read\n\nWith the questions in view.\n\n## What to produce\n\n- leads: list of line, what was seen and where\n";
+        const string exploration = "---\nquestions: questions/links-name-the-gap\n---\n\n## What you are given\n\nA slice.\n\n## How to read\n\nWith the questions in view.\n\n## What to produce\n\n- leads: list of line, what was seen and where\n";
         var path = WriteDirections(exploration, "docs/v3-framework/studies/exploration-of-v1-archive");
         Assert.Empty(Rules(Directions.Check(FullCtx(), path)));
 
         var wrongKind = WriteDirections(exploration, StudyDir);
         Assert.Contains("directions.sections", Rules(Directions.Check(FullCtx(), wrongKind)));
 
-        var referee = WriteDirections(SchemaExamples.Block("directions-schema").Replace("questions: v1-archive/scene-notes-carry-designed-stasis v1-archive/links-name-the-gap\n", ""), "docs/v3-framework/referee");
+        var referee = WriteDirections(SchemaExamples.Block("directions-schema").Replace(ExampleQuestions, ""), "docs/v3-framework/pipeline/referee");
         Assert.Empty(Rules(Directions.Check(FullCtx(), referee)));
-        var refereeWithQuestions = WriteDirections(SchemaExamples.Block("directions-schema"), "docs/v3-framework/referee");
+        var refereeWithQuestions = WriteDirections(SchemaExamples.Block("directions-schema"), "docs/v3-framework/pipeline/referee");
         Assert.Contains("directions.frontmatter", Rules(Directions.Check(FullCtx(), refereeWithQuestions)));
+    }
+
+    const string ClaimingFolder = "docs/v3-framework/pipeline/claiming";
+    const string ClaimingText = "---\n---\n\n## What you are given\n\nThe hypothesis set, then one finding.\n\n## Criteria\n\n1. A rule that decides whether the finding bears on a hypothesis.\n2. Another.\n\n## What to produce\n\n- relevant: list of line, one hypothesis file name per line\n\n## Never\n\nNames a direction.\n";
+
+    [Fact]
+    public void Claimings_directions_decide_by_numbered_criteria_with_no_classes_and_carry_no_questions()
+    {
+        Assert.Empty(Rules(Directions.Check(FullCtx(), WriteDirections(ClaimingText, ClaimingFolder))));
+
+        var withClasses = WriteDirections(ClaimingText.Replace("## Criteria\n", "## Classes\n\n- bears: it bears\n- cannot-place: undecided\n\n## Criteria\n"), ClaimingFolder);
+        Assert.Contains("directions.sections", Rules(Directions.Check(FullCtx(), withClasses)));
+        var withQuestions = WriteDirections(ClaimingText.Replace("---\n---\n", "---\n" + ExampleQuestions + "---\n"), ClaimingFolder);
+        Assert.Contains("directions.frontmatter", Rules(Directions.Check(FullCtx(), withQuestions)));
+        var misnumbered = WriteDirections(ClaimingText.Replace("2. Another.", "3. Another."), ClaimingFolder);
+        Assert.Contains("directions.criteria", Rules(Directions.Check(FullCtx(), misnumbered)));
+        var noCriteria = WriteDirections(ClaimingText.Replace("## Criteria\n\n1. A rule that decides whether the finding bears on a hypothesis.\n2. Another.\n\n", ""), ClaimingFolder);
+        Assert.Contains("directions.sections", Rules(Directions.Check(FullCtx(), noCriteria)));
+    }
+
+    [Theory]
+    [InlineData("- relevant: line, one hypothesis file name\n")]
+    [InlineData("- relevant: list of line, one hypothesis file name per line\n- why: line, the reason\n")]
+    public void Claimings_what_to_produce_is_exactly_one_list_of_line_field(string output)
+    {
+        var text = ClaimingText.Replace("- relevant: list of line, one hypothesis file name per line\n", output);
+        Assert.Contains("directions.output", Rules(Directions.Check(FullCtx(), WriteDirections(text, ClaimingFolder))));
+
+        // A verification's directions may declare several fields; the rule is claiming's alone.
+        Assert.DoesNotContain("directions.output", Rules(Directions.Check(FullCtx(), WriteDirections(SchemaExamples.Block("directions-schema")))));
     }
 
     [Fact]
@@ -497,7 +535,7 @@ public class SchemaCheckersTests : IDisposable
         Assert.DoesNotContain("directions.version", Rules(Directions.Check(FullCtx(), second)));
 
         var a = DirectionsFile.Parse(SchemaExamples.Block("directions-schema"));
-        var b = DirectionsFile.Parse(SchemaExamples.Block("directions-schema").Replace("v1-archive/links-name-the-gap", "v1-archive/other"));
+        var b = DirectionsFile.Parse(SchemaExamples.Block("directions-schema").Replace("questions/links-name-the-gap", "questions/other"));
         Assert.Equal(a.BodyHash, b.BodyHash);
         Assert.NotEqual(a.BodyHash, DirectionsFile.Parse(SchemaExamples.Block("directions-schema") + "\nMore.\n").BodyHash);
     }
@@ -506,12 +544,8 @@ public class SchemaCheckersTests : IDisposable
 
     const string BatchDir = StudyDir + "/batches/03-scene-notes";
 
-    /// <summary>The corpora and the output the index example utilizes, so that the example resolves.</summary>
-    CheckContext IndexCtx()
-    {
-        Write("docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv", "Id,Label\n");
-        return Ctx("v1-archive", "lineage");
-    }
+    /// <summary>The corpora the index example cuts and utilizes, so that the example resolves.</summary>
+    CheckContext IndexCtx() => Ctx("v1-archive", "lineage");
 
     [Fact]
     public void The_index_example_passes_at_its_batch_folder()
@@ -529,10 +563,14 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n", "- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n- source hash: abc\n", "index.head")]
     [InlineData("- utilizes corpora: lineage\n", "- utilizes corpora: nowhere\n", "index.head")]
     [InlineData("- utilizes corpora: lineage\n", "- utilizes corpora: v1-archive\n", "index.head")]
-    [InlineData("  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "  - docs/missing.csv\n", "index.head")]
-    [InlineData("- utilizes outputs:\n  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "- utilizes outputs:\n", "index.head")]
-    [InlineData("- utilizes outputs:\n  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "- utilizes outputs: docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "index.head")]
-    [InlineData("- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n", "- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n- narrowing: the notes the attribution output labels verbatim, edited-paste or framed-paste in the model role\n", "index.head")]
+    // utilizes outputs left the head (d-2026-09-13-50)
+    [InlineData("- utilizes corpora: lineage\n", "- utilizes corpora: lineage\n- utilizes outputs:\n  - docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv\n", "index.head")]
+    // exactly one of itemizer or collator, and a corpus only with an itemizer (d-2026-09-13-49)
+    [InlineData("- corpus: v1-archive\n", "- collator: tools/StoryPlanner.PipelineCollator, 1, claim\n- corpus: v1-archive\n", "index.head")]
+    [InlineData("- itemizer: tools/StoryPlanner.ArchiveItemizer, 2026-09-19 a1b2c3d\n", "", "index.head")]
+    [InlineData("- corpus: v1-archive\n", "- corpus: candidates\n", "index.head")]
+    [InlineData("- corpus: v1-archive\n", "- corpus: skill\n", "index.head")]
+    [InlineData("- narrowing: the notes whose text a lineage response contains verbatim or as an edited or framed paste, in the model role\n- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n", "- locator notation: a v1-archive note id, `note-<id>`, the archive database's note id\n- narrowing: the notes whose text a lineage response contains verbatim or as an edited or framed paste, in the model role\n", "index.head")]
     [InlineData("| item | locator | description |\n", "| id | locator | description |\n", "index.table")]
     [InlineData("| note-1630 | note-1630 | Griffonian Republic, History track, 2026-03 |\n| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\n", "", "index.table")]
     [InlineData("| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\n", "| note-1702 | note-1702 | Grover III's Enlightenment, Causality of Creation |\nA stray line.\n", "index.table")]
@@ -548,17 +586,19 @@ public class SchemaCheckersTests : IDisposable
     }
 
     [Fact]
-    public void An_index_over_the_candidates_or_the_skill_names_a_corpus_no_file_declares()
+    public void A_collators_index_names_its_collator_and_no_corpus()
     {
-        var text = SchemaExamples.Block("index-schema").Replace("- corpus: v1-archive\n", "- corpus: candidates\n");
-        var path = Write(BatchDir + "/index.md", text);
+        var text = IndexFile.RenderCollated("02-claim", "tools/StoryPlanner.PipelineCollator, 1, claim", "a finding's token",
+            [("stasis-in-one-of-nine", "verification-of-v1-archive-stasis/stasis-in-one-of-nine", "Of 1,116 scene notes")]);
+        var path = Write(StudyDir + "/batches/02-claim/index.md", text);
         Assert.Empty(Rules(BatchIndex.Check(IndexCtx(), path)));
-        var another = Write(BatchDir + "/index.md", text.Replace("candidates", "skill"));
-        Assert.Empty(Rules(BatchIndex.Check(IndexCtx(), another)));
+
+        var withCorpora = Write(StudyDir + "/batches/02-claim/index.md", text.Replace("- locator notation:", "- utilizes corpora: lineage\n- locator notation:"));
+        Assert.Contains("index.head", Rules(BatchIndex.Check(IndexCtx(), withCorpora)));
     }
 
     [Fact]
-    public void An_index_whose_itemizer_utilized_nothing_and_cut_every_item_omits_the_three_keys()
+    public void An_index_whose_itemizer_utilized_nothing_and_cut_every_item_omits_the_two_keys()
     {
         var text = SchemaExamples.Block("index-schema");
         var start = text.IndexOf("- utilizes corpora:", StringComparison.Ordinal);
@@ -575,7 +615,7 @@ public class SchemaCheckersTests : IDisposable
     string WriteFindings(string text)
     {
         WriteDirections(SchemaExamples.Block("directions-schema"), FindingsStudy);
-        Write("docs/v3-framework/questions/v1-archive.md", "# v1-archive — questions\n\n### v1-archive/scene-notes-carry-designed-stasis\n\n- date: 2026-09-01\n- raised by: recall\n- question: q\n\n### v1-archive/links-name-the-gap\n\n- date: 2026-09-02\n- raised by: recall\n- question: q\n\n### v1-archive/unfrozen-one\n\n- date: 2026-09-03\n- raised by: recall\n- question: q\n");
+        Write("docs/v3-framework/questions.md", QuestionsText + "\n### questions/unfrozen-one\n\n- date: 2026-09-03\n- raised by: recall\n- question: q\n");
         Write($"{FindingsStudy}/batches/01-full/definition.md", "# 01-full — definition\n\n- directions: ../../directions-1.md\n- kind: full\n- model: sonnet\n");
         Write($"{FindingsStudy}/batches/01-full/index.md", "# 01-full — index\n\n- itemizer: tools/StoryPlanner.ArchiveItemizer, 1\n- corpus: v1-archive\n- locator notation: a note id\n\n| item | locator | description |\n|---|---|---|\n| note-1630 | note-1630 | a |\n| note-2044 | note-2044 | b |\n| note-2051 | note-2051 | c |\n");
         return Write($"{FindingsStudy}/findings.md", text);
@@ -589,7 +629,7 @@ public class SchemaCheckersTests : IDisposable
         Assert.Empty(Rules(findings));
         Assert.NotNull(SchemaCheckers.For(WellKnown.Findings));
         // The withdrawn finding and its successor name no question; the one standing finding with a question answers it.
-        Assert.Equal(["v1-archive/scene-notes-carry-designed-stasis"], FindingsChecker.AnsweredQuestions(File.ReadAllText(path)));
+        Assert.Equal(["questions/scene-notes-carry-designed-stasis"], FindingsChecker.AnsweredQuestions(File.ReadAllText(path)));
         var entries = FindingsChecker.ReadEntries(File.ReadAllText(path));
         Assert.Equal(4, entries.Count);
         Assert.True(entries[3].Withdrawn);
@@ -600,8 +640,9 @@ public class SchemaCheckersTests : IDisposable
     [InlineData("# verification-of-v1-archive-scene-stasis — findings\n", "# findings\n", "findings.title")]
     [InlineData("## Method\n", "## Methods\n", "findings.shape")]
     [InlineData("### verification-of-v1-archive-scene-stasis/stasis-in-one-of-nine-scene-notes\n", "### elsewhere/stasis-in-one-of-nine-scene-notes\n", "findings.entry")]
-    [InlineData("- question: v1-archive/scene-notes-carry-designed-stasis\n", "- question: v1-archive/nowhere\n", "findings.question")]
-    [InlineData("- question: v1-archive/scene-notes-carry-designed-stasis\n", "- question: v1-archive/unfrozen-one\n", "findings.question")]
+    [InlineData("- question: questions/scene-notes-carry-designed-stasis\n", "- question: questions/nowhere\n", "findings.question")]
+    [InlineData("- question: questions/scene-notes-carry-designed-stasis\n", "- question: questions/unfrozen-one\n", "findings.question")]
+    [InlineData("- question: questions/scene-notes-carry-designed-stasis\n", "- question: v1-archive/scene-notes-carry-designed-stasis\n", "findings.question")]
     [InlineData("  - verification-of-v1-archive-scene-stasis/01-full/note-2051\n", "  - verification-of-v1-archive-scene-stasis/01-full/note-9999\n", "findings.cites")]
     [InlineData("  - verification-of-v1-archive-scene-stasis/01-full § class\n", "  - verification-of-v1-archive-scene-stasis/01-full § colour\n", "findings.cites")]
     [InlineData("  - verification-of-v1-archive-scene-stasis/01-full § class\n", "  - verification-of-v1-archive-scene-stasis/09-none § class\n", "findings.cites")]
@@ -720,7 +761,7 @@ public class SchemaCheckersTests : IDisposable
     }
 
     [Fact]
-    public void The_batch_folder_is_numbered_in_sequence_and_a_study_has_one_model()
+    public void The_batch_folder_is_numbered_in_sequence_and_one_directions_version_runs_one_model()
     {
         var (first, _) = WriteBatch(SchemaExamples.Block("definition-schema"), batch: "01-sample");
         Assert.Empty(Rules(Definition.Check(FullCtx(), first)));
@@ -732,6 +773,29 @@ public class SchemaCheckersTests : IDisposable
         Assert.Contains("definition.batch", Rules(Definition.Check(FullCtx(), dup)));
         var (bad, _) = WriteBatch(SchemaExamples.Block("definition-schema"), batch: "2-full");
         Assert.Contains("definition.batch", Rules(Definition.Check(FullCtx(), bad)));
+    }
+
+    [Fact]
+    public void A_batch_under_other_directions_in_the_same_study_may_run_another_model()
+    {
+        WriteBatch(SchemaExamples.Block("definition-schema"), batch: "01-full");
+        // A claiming batch in the verification's folder runs the model its own calibration measured (d-2026-09-13-41).
+        var claiming = WriteDirections(ClaimingText, ClaimingFolder);
+        var hash = DirectionsFile.Read(claiming).BodyHash;
+        Write($"{ClaimingFolder}/calibration-2026-09-25.md", $"# Calibration — directions-1@{hash[..10]} — 2026-09-25\n\n## Verdict\nBrian: accepted at this hash.\n");
+        var path = Write($"{StudyDir}/batches/02-claim/definition.md",
+            "# 02-claim — definition\n\n- directions: ../../../../pipeline/claiming/directions-1.md\n- kind: full\n- calibration: ../../../../pipeline/claiming/calibration-2026-09-25.md\n- model: sonnet\n");
+        Assert.Empty(Rules(Definition.Check(FullCtx(), path)));
+    }
+
+    [Fact]
+    public void A_claiming_batch_carries_a_kind_though_its_directions_have_no_classes()
+    {
+        WriteDirections(ClaimingText, ClaimingFolder);
+        var path = Write($"{ClaimingFolder}/batches/01-sample/definition.md", "# 01-sample — definition\n\n- directions: ../../directions-1.md\n- model: sonnet\n");
+        Assert.Contains("definition.fields", Rules(Definition.Check(FullCtx(), path)));
+        Write($"{ClaimingFolder}/batches/01-sample/definition.md", "# 01-sample — definition\n\n- directions: ../../directions-1.md\n- kind: sample\n- model: sonnet\n");
+        Assert.Empty(Rules(Definition.Check(FullCtx(), path)));
     }
 
     [Fact]
@@ -752,17 +816,17 @@ public class SchemaCheckersTests : IDisposable
     {
         var (path, _) = WriteBatch(SchemaExamples.Block("definition-schema"));
         Write($"{StudyDir}/batches/01-full/index.md", SchemaExamples.Block("index-schema").Replace("03-scene-notes", "01-full"));
-        Write($"{StudyDir}/batches/01-full/results/note-1630.md", "- class: designed-stasis\n- decided by: 1\n");
+        Write($"{StudyDir}/batches/01-full/results/note-1630.md", "- class: designed-stasis\n- basis: 1\n");
         Assert.Empty(Rules(Results.CheckBatch(FullCtx(), path)));
 
-        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- class: stasis\n- decided by: 1\n");
+        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- class: stasis\n- basis: 1\n");
         Assert.Contains(Results.CheckId, Rules(Results.CheckBatch(FullCtx(), path)));
-        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- decided by: 1\n- class: designed-stasis\n");
+        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- basis: 1\n- class: designed-stasis\n");
         Assert.Contains(Results.CheckId, Rules(Results.CheckBatch(FullCtx(), path)));
-        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- class: designed-stasis\n- decided by: 1\n- extra: x\n");
+        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- class: designed-stasis\n- basis: 1\n- extra: x\n");
         Assert.Contains(Results.CheckId, Rules(Results.CheckBatch(FullCtx(), path)));
-        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- class: designed-stasis\n- decided by: 1\n");
-        Write($"{StudyDir}/batches/01-full/results/note-9999.md", "- class: designed-stasis\n- decided by: 1\n");
+        Write($"{StudyDir}/batches/01-full/results/note-1702.md", "- class: designed-stasis\n- basis: 1\n");
+        Write($"{StudyDir}/batches/01-full/results/note-9999.md", "- class: designed-stasis\n- basis: 1\n");
         Assert.Contains(Results.CheckId, Rules(Results.CheckBatch(FullCtx(), path)));
     }
 
@@ -788,15 +852,15 @@ public class SchemaCheckersTests : IDisposable
     {
         using var f = new MapFixture().WithStateTree();
         Directory.CreateDirectory(Path.Combine(f.RepoRoot, ".git"));
-        var referee = f.TreePath("docs", "v3-framework", "referee", "directions-1.md");
+        var referee = f.TreePath("docs", "v3-framework", "pipeline", "referee", "directions-1.md");
         Directory.CreateDirectory(Path.GetDirectoryName(referee)!);
-        File.WriteAllText(referee, MapFixture.DirectionsText.Replace("questions: analysis-corpus/does-the-dt-class-split\n", ""));
+        File.WriteAllText(referee, MapFixture.DirectionsText.Replace("questions: questions/does-the-dt-class-split\n", ""));
         Assert.Null(ArtifactScope.Locate(referee));
         Assert.Null(ReferenceScope.Locate(f.RepoRoot, referee));
 
         var batch = Path.Combine(f.StudyDir, "batches", "02-referee");
         Directory.CreateDirectory(batch);
-        File.WriteAllText(Path.Combine(batch, "definition.md"), "# 02-referee — definition\n\n- directions: ../../../../referee/directions-1.md\n- kind: sample\n- model: sonnet\n");
+        File.WriteAllText(Path.Combine(batch, "definition.md"), "# 02-referee — definition\n\n- directions: ../../../../pipeline/referee/directions-1.md\n- kind: sample\n- model: sonnet\n");
         var governed = ReferenceScope.Locate(f.RepoRoot, referee);
         Assert.NotNull(governed);
         Assert.Equal(WellKnown.Directions, governed!.Row.Id);

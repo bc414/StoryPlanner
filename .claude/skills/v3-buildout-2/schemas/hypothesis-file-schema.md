@@ -39,7 +39,7 @@ isolation. Founding reasoning belongs in § Origin; provenance, implications, te
 confirm-or-refute conditions belong nowhere in this file. It carries the prediction and nothing
 beside it: no reference to another hypothesis by id or slug; no evidence for it, which
 is the record's to hold; and no open question, which is not a prediction — a statement that ends
-in one is two things, and the question belongs in the corpus's question list.
+in one is two things, and the question belongs in the question list.
 
 **Origin**:
 
@@ -89,7 +89,7 @@ the new statement; `baseline` writes a baselined entry. Nothing else writes here
 enters the same way any evidence does** — as a finding of a verification, claimed, refereed and
 promoted — and there is no channel for one authored by hand: what Brian raises in a review is
 checked against that verification's results and items before it is a finding, and anything
-unmeasured is a question in the corpus's list. The absence of a hand-authored route is the
+unmeasured is a question in the question list. The absence of a hand-authored route is the
 strong form, not a gap.
 
 ## Example

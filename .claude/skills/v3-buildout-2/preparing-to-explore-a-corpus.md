@@ -4,15 +4,15 @@ Enables exploring-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| explore-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the scale, one item or slices, the questions in view, the model and effort; the plan approved is his go and the study is registered; his opening question written into the list if the corpus has none |
+| explore-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the scale, one item or slices, the questions in view, the model and effort; the plan approved is his go and the study is registered; his opening question written into the list if no open question is in view for the plan |
 | author-exploration-directions | hitl | | question-list corpus directions | directions | specified | The directions written with Brian against the corpus: what one item is, how to read with the questions in view, what to produce as entries; a new numbered version each time |
 | assemble-exploration-batch | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer; dry-run-batch; for slices, execute-batch naming one item, the pilot, whose result Brian reads before the rest run |
 | explore-pilot-item | agent | | directions items | results | specified | The pilot's call, one slice read discovery-first under the directions; the only writer of its result |
 
 ## Preconditions
 
-The corpus is readable and CORPORA.md says how. If its question list is empty, Brian's opening question
-is asked for and written first.
+The corpus is readable and CORPORA.md says how. If no open question is in view for the
+plan, Brian's opening question is asked for and written first.
 
 ## explore-plan
 
@@ -39,9 +39,9 @@ The batch folder under the study, `batches/<nn>-<slug>/`, its definition naming 
 directions by path and the study's model and effort. The itemizer runs once into the folder:
 for slices a tool with tests that cuts the corpus into one item each; for one item, a tool
 that renders or concatenates the corpus whole into the item, never instructions for reading
-it elsewhere. It reads corpus data only, and
-may read other corpora and deterministic outputs over corpus data to cut, label and fill
-the items, as preparing-to-verify-a-corpus § itemize says, naming them and any narrowing in
+it elsewhere. It reads corpora and nothing else, and
+may read other corpora to cut, label and fill the items, as preparing-to-verify-a-corpus
+§ itemize says, naming them and any narrowing in
 the index head; the exploration stays the cut corpus's. Then, per the `agent-runner`
 skill, dry-run-batch, and for slices execute-batch naming one item. Brian reads that
 result and says whether the directions produce leads of the shape wanted; directions he

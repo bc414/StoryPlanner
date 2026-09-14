@@ -4,7 +4,7 @@ Enables surfacing-candidates.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| review-findings | hitl | | findings tally results index corpus hypothesis-statement | findings question-list | specified | Brian and the session over a verification's findings, or two verifications sharing directions by their tallies: a finding he disputes checked against the results and the items and withdrawn or superseded; a result he disputes checked at the item and written as a shortcoming; what he raises checked the same way before it is written as a finding; the questions he raises written into the corpus's list; a missing hypothesis handed to minting |
+| review-findings | hitl | | findings tally results index corpus hypothesis-statement | findings question-list | specified | Brian and the session over a verification's findings, or two verifications sharing directions by their tallies: a finding he disputes checked against the results and the items and withdrawn or superseded; a result he disputes checked at the item and written as a shortcoming; what he raises checked the same way before it is written as a finding; the questions he raises written into the question list; a missing hypothesis handed to minting |
 
 ## Preconditions
 
@@ -40,7 +40,7 @@ through minting, if it is worth pursuing, and otherwise nothing.
 
 Brian raises questions: from the findings, from the Proposed questions, from the
 Shortcomings, from the differences between two verifications, from his own recall. The
-session writes each into the corpus's question list, with the finding's token as what
+session writes each into the question list, with the finding's token as what
 raised it where a finding did, and a suggested test where one suggests itself. A finding that shows a different hypothesis is needed is handed
 to minting-a-hypothesis in the same session. A shortcoming that needs a new version or a
 new tool sends the study back through preparing-to-verify-a-corpus or building-a-tool;

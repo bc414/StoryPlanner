@@ -51,7 +51,7 @@ public class StateTests
         var batch = f.TreePath("docs", "v3-framework", "iterations", "iteration-of-031-dt-classes-1", "batches", "01-referee");
         Directory.CreateDirectory(batch);
         File.WriteAllText(Path.Combine(batch, "definition.md"),
-            "# 01-referee — definition\n\n- directions: ../../../../referee/directions-1.md\n- kind: full\n- model: sonnet\n");
+            "# 01-referee — definition\n\n- directions: ../../../../pipeline/referee/directions-1.md\n- kind: full\n- model: sonnet\n");
         var state = Build(f);
         Assert.Contains("## Iterations", state);
         Assert.Contains("### iteration-of-031-dt-classes-1", state);
@@ -64,6 +64,43 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         Assert.Contains("None: `docs/v3-framework/iterations/` does not exist.", Build(f));
+    }
+
+    [Fact]
+    public void Absent_pipeline_directions_folders_are_reported_per_set()
+    {
+        using var f = new MapFixture().WithStateTree();
+        var state = Build(f);
+        Assert.Contains("## Pipeline directions", state);
+        Assert.Contains("Absent: `docs/v3-framework/pipeline/referee/` does not exist.", state);
+        Assert.Contains("Absent: `docs/v3-framework/pipeline/claiming/` does not exist.", state);
+    }
+
+    [Fact]
+    public void A_pipeline_directions_set_shows_its_versions_the_accepted_one_with_its_model_and_its_calibration_batches()
+    {
+        using var f = new MapFixture().WithStateTree();
+        var folder = f.TreePath("docs", "v3-framework", "pipeline", "claiming");
+        Directory.CreateDirectory(folder);
+        const string claiming = "## What you are given\n\nThe hypothesis set, then one finding.\n\n## Criteria\n\n1. A rule.\n\n## What to produce\n\n- relevant: list of line, one hypothesis file name per line\n";
+        File.WriteAllText(Path.Combine(folder, "directions-1.md"), "---\n---\n\n" + claiming);
+        File.WriteAllText(Path.Combine(folder, "directions-2.md"), "---\n---\n\n" + claiming + "\n## Never\n\nNames a direction.\n");
+        var first = StoryPlanner.BatchFiles.DirectionsFile.Read(Path.Combine(folder, "directions-1.md")).BodyHash;
+        var second = StoryPlanner.BatchFiles.DirectionsFile.Read(Path.Combine(folder, "directions-2.md")).BodyHash;
+        File.WriteAllText(Path.Combine(folder, "calibration-2026-09-25.md"), $"# Calibration — directions-1@{first[..8]} — 2026-09-25\n\n## Verdict\nBrian: accepted at this hash.\n");
+        var batch = Path.Combine(folder, "batches", "01-sample");
+        Directory.CreateDirectory(batch);
+        File.WriteAllText(Path.Combine(batch, "definition.md"), "# 01-sample — definition\n\n- directions: ../../directions-1.md\n- kind: sample\n- model: sonnet\n");
+
+        var state = Build(f);
+        var section = state[state.IndexOf("### claiming", System.StringComparison.Ordinal)..];
+        section = section[..section.IndexOf("\n## ", System.StringComparison.Ordinal)];
+        Assert.Contains($"directions-1@{first[..6]} (accepted)", section);
+        // A later version with no accepting calibration is listed and not accepted.
+        Assert.Contains($"directions-2@{second[..6]}", section);
+        Assert.DoesNotContain($"directions-2@{second[..6]} (accepted)", section);
+        Assert.Contains("- accepted: directions-1 · model: sonnet", section);
+        Assert.Contains("- batches: 01-sample [sample, directions-1, defined]", section);
     }
 
     [Fact]
@@ -95,7 +132,7 @@ public class StateTests
     {
         using var f = new MapFixture().WithStateTree();
         var state = Build(f);
-        Assert.Contains("### analysis-corpus", state);
+        Assert.Contains("## Questions", state);
         Assert.Contains("1 open, 1 withdrawn.", state);
         var row = state.Split('\n').Single(l => l.StartsWith($"| {MapFixture.OpenQuestion} |"));
         Assert.Contains($"| docs/v3-framework/studies/{MapFixture.Study}/directions-1@", row);
@@ -158,17 +195,17 @@ public class StateTests
         using var f = new MapFixture();
         var state = Build(f);
         Assert.Contains("Registry absent", state);
-        Assert.Contains("Question lists absent", state);
+        Assert.Contains("Question list absent", state);
         Assert.Contains("Hypothesis files absent", state);
     }
 
     [Fact]
     public void Question_entries_parse_their_withdrawal_and_reinstatement()
     {
-        var qs = StateBuilder.ParseQuestions("c", "### c/one\n- date: 2026-09-01\n- raised by: x\n- question: y\n\n### c/two\n- date: 2026-09-02\n- raised by: x\n- question: z\n- withdrawn: 2026-09-03 why\n\n### c/three\n- date: 2026-09-04\n- raised by: x\n- question: w\n- withdrawn: 2026-09-05 why\n- reinstated: 2026-09-06 back\n");
+        var qs = StateBuilder.ParseQuestions("### questions/one\n- date: 2026-09-01\n- raised by: x\n- question: y\n\n### questions/two\n- date: 2026-09-02\n- raised by: x\n- question: z\n- withdrawn: 2026-09-03 why\n\n### questions/three\n- date: 2026-09-04\n- raised by: x\n- question: w\n- withdrawn: 2026-09-05 why\n- reinstated: 2026-09-06 back\n");
         Assert.Equal(3, qs.Count);
         Assert.True(qs[0].IsOpen);
-        Assert.Equal("c/one", qs[0].Cite);
+        Assert.Equal("questions/one", qs[0].Cite);
         Assert.False(qs[1].IsOpen);
         Assert.True(qs[2].IsOpen);
     }

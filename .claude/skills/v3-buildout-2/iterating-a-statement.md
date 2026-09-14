@@ -17,7 +17,7 @@ is evidenced and unchallenged; a sharper statement on supporting evidence is a n
 draft of it; the wording is a proposal, held for the reverify batch and written
 nowhere until the gate passes, because the meaning is changing to reconcile the challenge and
 only a re-verification against all the evidence licenses it. For the batch: the method's referee
-directions, in the referee folder, have an accepting calibration at their hash.
+directions, in `docs/v3-framework/pipeline/referee/`, have an accepting calibration at their hash.
 
 ## assemble-reverify-batch
 
@@ -28,13 +28,14 @@ hypothesis file, never resolved through the studies. It holds no falsifier, no c
 entry. The batch folder is under
 `docs/v3-framework/iterations/iteration-of-<hypothesis-file-name>-<N>/`, `<N>` the ordinal of
 this hypothesis's iterations, the same folder structure as a study so the consumers' lookup
-patterns generalise; the reverify itemizer — `tools/StoryPlanner.SurfacingItemizer`, its
+patterns generalise; the collator — `tools/StoryPlanner.PipelineCollator`, its
 `reverify` subcommand over the hypothesis file and the proposed wording into this batch — writes
-the index (corpus `candidates`, each item's locator the entry's finding token) and the item
+the index (naming the collator, each item's locator the entry's finding token) and the item
 bodies; the definition, of kind full, names the referee's directions and their accepting
-calibration by relative path into the referee folder, and the referee's model and effort. Then, per the
+calibration by relative path into the referee folder, and the model and effort that calibration
+measured. Then, per the
 `agent-runner` skill, dry-run-batch and execute-batch, the hand-off; the host calls every item
-and writes the tally when the last has a result. No pilot: the referee's calibration was it.
+and writes the tally when the last has a result. No pilot: the referee's directions are calibrated.
 
 ## assess-reverify-items
 

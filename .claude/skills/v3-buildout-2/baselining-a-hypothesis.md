@@ -23,8 +23,13 @@ baselining" and waits.
 Brian decides. If he baselines, the session appends the `baselined` entry with his
 rationale; the status the file reads from is recomputed by nothing, being
 derived from the entries. If he does not, nothing is written to the hypothesis; a reason
-he gives that is a question about a corpus is written into that corpus's question list,
-with the hypothesis that raised it.
+he gives that is a question is written into the question list, with the hypothesis that
+raised it.
+
+A record that lacks a finding Brian knows bears on the hypothesis is a pair claiming
+missed. It is written as no candidate and no entry: his ruling that claiming misses pairs in
+general sends the claiming directions back through preparing-pipeline-directions, where the
+missed pair enters the next calibration's sample with his reason.
 
 ## Never
 

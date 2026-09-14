@@ -25,7 +25,7 @@ writing the index and the item bodies. Then, per the `agent-runner` skill: dry-r
 which checks the definition, the directions, the index and every item in memory and writes
 nothing; then execute-batch, the hand-off. From there the host calls every item that has
 no result, under its ceilings, appends each call to the calls file as it ends, and writes
-the tally when the last item has a successful call. No pilot: the calibration was it. An
+the tally when the last item has a successful call. No pilot: the directions are calibrated. An
 item still without a result after the host is done is called again by typing execute-batch
 again; nothing about the batch changes. The session watches the page or the calls file and
 does nothing else until every item is answered.
@@ -49,7 +49,7 @@ contrast between classes, an answer that is null stated as plainly as one that i
 finding that answers a frozen question names it; one the data raised names none; one
 bearing on two questions is two findings. Each cites what it rests on, the tally section as
 `<study>/<batch> § <field>` and the items as `<study>/<batch>/<item>`, whose locators the
-index gives. Where the items carried data from a corpus or an output the itemizer utilized,
+index gives. Where the items carried data from a corpus the itemizer utilized,
 a finding that rests on it states in its own words the known limit that bounds it, since
 its text is all the referee receives: a count of notes with no matched source is not a
 count of notes no model wrote. Per-item results and counts are cited, never copied. What the data raised

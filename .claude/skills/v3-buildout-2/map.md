@@ -21,6 +21,7 @@ flowchart TD
   reviewingfindings["reviewing-findings"]:::activity
   verifyingacorpus["verifying-a-corpus"]:::activity
   preparingtoverifyacorpus["preparing-to-verify-a-corpus"]:::activity
+  preparingpipelinedirections["preparing-pipeline-directions"]:::activity
   reviewingleads["reviewing-leads"]:::activity
   exploringacorpus["exploring-a-corpus"]:::activity
   preparingtoexploreacorpus["preparing-to-explore-a-corpus"]:::activity
@@ -37,7 +38,8 @@ flowchart TD
   reviewingfindings --> surfacingcandidates
   verifyingacorpus --> reviewingfindings
   preparingtoverifyacorpus --> verifyingacorpus
-  preparingtoverifyacorpus --> surfacingcandidates
+  preparingpipelinedirections --> surfacingcandidates
+  preparingpipelinedirections --> iteratingastatement
   reviewingleads --> preparingtoverifyacorpus
   exploringacorpus --> reviewingleads
   preparingtoexploreacorpus --> exploringacorpus
@@ -171,7 +173,7 @@ Derived from the tables, never authored:
 - **inputs**: calibration directions tool-source
 - **outputs**: calls definition hypothesis-record hypothesis-statement index items results tally
 - **instruments**: git runner tool-source
-- **enabled by**: —
+- **enabled by**: preparing-pipeline-directions
 - **enables**: baselining-a-hypothesis
 
 ### minting-a-hypothesis
@@ -276,7 +278,7 @@ Derived from the tables, never authored:
 - **inputs**: calibration declined-candidates directions findings hypothesis-index hypothesis-record hypothesis-statement tool-source
 - **outputs**: calls candidates definition index items results tally
 - **instruments**: DocIntegrity runner tool-source
-- **enabled by**: reviewing-findings preparing-to-verify-a-corpus
+- **enabled by**: reviewing-findings preparing-pipeline-directions
 - **enables**: promoting-refereed-candidates
 
 ### reviewing-findings
@@ -443,7 +445,82 @@ Derived from the tables, never authored:
 - **outputs**: calibration calls definition directions index items question-list results studies tally
 - **instruments**: dotnet runner tool-source
 - **enabled by**: reviewing-leads asking-a-question building-a-tool revising-the-method
-- **enables**: verifying-a-corpus surfacing-candidates
+- **enables**: verifying-a-corpus
+
+### preparing-pipeline-directions
+
+```mermaid
+flowchart LR
+  classDef hitl fill:#e9d8e4,stroke:#7a3e6d,color:#2b1a27
+  classDef session fill:#dce6f0,stroke:#3b5b7c,color:#14202c
+  classDef agent fill:#f5e6c8,stroke:#b7791f,color:#3a2a08
+  classDef artifact fill:#f6f6f4,stroke:#8a94a0,color:#2a2f36
+  classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
+  classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
+  planpipelinedirections{{"plan-pipeline-directions<br/>hitl"}}:::hitl
+  collatepipelinesample["collate-pipeline-sample<br/>session"]:::session
+  authorpipelinedirections{{"author-pipeline-directions<br/>hitl"}}:::hitl
+  assemblepipelinesamplebatch["assemble-pipeline-sample-batch<br/>session"]:::session
+  assesspipelinesampleitems(["assess-pipeline-sample-items<br/>agent"]):::agent
+  calibratepipelinedirections{{"calibrate-pipeline-directions<br/>hitl"}}:::hitl
+  calibration[/"calibration"/]:::artifact
+  calls[/"calls"/]:::artifact
+  declinedcandidates[/"declined-candidates"/]:::artifact
+  definition[/"definition"/]:::artifact
+  directions[/"directions"/]:::artifact
+  findings[/"findings"/]:::artifact
+  hypothesisstatement[/"hypothesis-statement"/]:::artifact
+  index[/"index"/]:::artifact
+  items[/"items"/]:::artifact
+  results[/"results"/]:::artifact
+  state[/"state"/]:::artifact
+  tally[/"tally"/]:::artifact
+  toolsource[/"tool-source"/]:::artifact
+
+  state --> planpipelinedirections
+  directions --> planpipelinedirections
+  calibration --> planpipelinedirections
+  declinedcandidates --> planpipelinedirections
+  findings --> planpipelinedirections
+  results --> planpipelinedirections
+  hypothesisstatement --> planpipelinedirections
+  planpipelinedirections --> definition
+  planpipelinedirections --> calibration
+  planpipelinedirections --> directions
+  findings --> collatepipelinesample
+  results --> collatepipelinesample
+  hypothesisstatement --> collatepipelinesample
+  toolsource -.-> collatepipelinesample
+  collatepipelinesample --> index
+  collatepipelinesample --> items
+  items --> authorpipelinedirections
+  directions --> authorpipelinedirections
+  calibration --> authorpipelinedirections
+  authorpipelinedirections --> directions
+  directions --> assemblepipelinesamplebatch
+  index --> assemblepipelinesamplebatch
+  assemblepipelinesamplebatch --> definition
+  assemblepipelinesamplebatch --> calls
+  assemblepipelinesamplebatch --> tally
+  directions --> assesspipelinesampleitems
+  items --> assesspipelinesampleitems
+  assesspipelinesampleitems --> results
+  index --> calibratepipelinedirections
+  items --> calibratepipelinedirections
+  results --> calibratepipelinedirections
+  tally --> calibratepipelinedirections
+  directions --> calibratepipelinedirections
+  calibratepipelinedirections --> calibration
+  calibratepipelinedirections --> directions
+```
+
+Derived from the tables, never authored:
+
+- **inputs**: declined-candidates findings hypothesis-statement state tool-source
+- **outputs**: calibration calls definition directions index items results tally
+- **instruments**: dotnet runner tool-source
+- **enabled by**: —
+- **enables**: surfacing-candidates iterating-a-statement
 
 ### reviewing-leads
 
@@ -606,17 +683,15 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   writequestion{{"write-question<br/>hitl"}}:::hitl
-  corpora[/"corpora"/]:::artifact
   questionlist[/"question-list"/]:::artifact
 
-  corpora --> writequestion
   questionlist --> writequestion
   writequestion --> questionlist
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: corpora
+- **inputs**: —
 - **outputs**: question-list
 - **instruments**: —
 - **enabled by**: —
@@ -666,23 +741,12 @@ flowchart LR
   classDef activity fill:#dcebdd,stroke:#4b7f52,color:#122816
   classDef terminus fill:#e4e4ea,stroke:#5b5b7a,color:#1c1c2c
   revise{{"revise<br/>hitl"}}:::hitl
-  assembleauditbatch["assemble-audit-batch<br/>session"]:::session
-  assessaudititems(["assess-audit-items<br/>agent"]):::agent
-  calls[/"calls"/]:::artifact
   decisions[/"decisions"/]:::artifact
-  definition[/"definition"/]:::artifact
-  directions[/"directions"/]:::artifact
-  index[/"index"/]:::artifact
-  items[/"items"/]:::artifact
   map[/"map"/]:::artifact
-  results[/"results"/]:::artifact
   revisionnote[/"revision-note"/]:::artifact
   runnerskill[/"runner-skill"/]:::artifact
   skill[/"skill"/]:::artifact
   state[/"state"/]:::artifact
-  studies[/"studies"/]:::artifact
-  tally[/"tally"/]:::artifact
-  toolsource[/"tool-source"/]:::artifact
 
   skill --> revise
   runnerskill --> revise
@@ -690,34 +754,18 @@ flowchart LR
   state --> revise
   revisionnote --> revise
   decisions --> revise
-  results --> revise
-  tally --> revise
   revise --> skill
   revise --> runnerskill
   revise --> decisions
   revise --> revisionnote
   revise --> map
-  revise --> studies
-  revise --> directions
-  skill --> assembleauditbatch
-  directions --> assembleauditbatch
-  results --> assembleauditbatch
-  toolsource -.-> assembleauditbatch
-  assembleauditbatch --> definition
-  assembleauditbatch --> index
-  assembleauditbatch --> items
-  assembleauditbatch --> calls
-  assembleauditbatch --> tally
-  directions --> assessaudititems
-  items --> assessaudititems
-  assessaudititems --> results
 ```
 
 Derived from the tables, never authored:
 
-- **inputs**: state tool-source
-- **outputs**: calls decisions definition directions index items map results revision-note runner-skill skill studies tally
-- **instruments**: DocIntegrity git runner tool-source
+- **inputs**: state
+- **outputs**: decisions map revision-note runner-skill skill
+- **instruments**: DocIntegrity git
 - **enabled by**: —
 - **enables**: preparing-to-explore-a-corpus preparing-to-verify-a-corpus
 
@@ -768,6 +816,14 @@ flowchart TD
     assesssampleitems(["assess-sample-items<br/>agent"]):::agent
     calibrate{{"calibrate<br/>hitl"}}:::hitl
   end
+  subgraph preparingpipelinedirections["preparing-pipeline-directions"]
+    planpipelinedirections{{"plan-pipeline-directions<br/>hitl"}}:::hitl
+    collatepipelinesample["collate-pipeline-sample<br/>session"]:::session
+    authorpipelinedirections{{"author-pipeline-directions<br/>hitl"}}:::hitl
+    assemblepipelinesamplebatch["assemble-pipeline-sample-batch<br/>session"]:::session
+    assesspipelinesampleitems(["assess-pipeline-sample-items<br/>agent"]):::agent
+    calibratepipelinedirections{{"calibrate-pipeline-directions<br/>hitl"}}:::hitl
+  end
   subgraph reviewingleads["reviewing-leads"]
     reviewleads{{"review-leads<br/>hitl"}}:::hitl
   end
@@ -790,8 +846,6 @@ flowchart TD
   end
   subgraph revisingthemethod["revising-the-method"]
     revise{{"revise<br/>hitl"}}:::hitl
-    assembleauditbatch["assemble-audit-batch<br/>session"]:::session
-    assessaudititems(["assess-audit-items<br/>agent"]):::agent
   end
   hypothesisstatement[/"hypothesis-statement"/]:::artifact
   hypothesisorigin[/"hypothesis-origin"/]:::artifact
@@ -950,6 +1004,41 @@ flowchart TD
   directions --> calibrate
   calibrate --> calibration
   calibrate --> directions
+  state --> planpipelinedirections
+  directions --> planpipelinedirections
+  calibration --> planpipelinedirections
+  declinedcandidates --> planpipelinedirections
+  findings --> planpipelinedirections
+  results --> planpipelinedirections
+  hypothesisstatement --> planpipelinedirections
+  planpipelinedirections --> definition
+  planpipelinedirections --> calibration
+  planpipelinedirections --> directions
+  findings --> collatepipelinesample
+  results --> collatepipelinesample
+  hypothesisstatement --> collatepipelinesample
+  toolsource -.-> collatepipelinesample
+  collatepipelinesample --> index
+  collatepipelinesample --> items
+  items --> authorpipelinedirections
+  directions --> authorpipelinedirections
+  calibration --> authorpipelinedirections
+  authorpipelinedirections --> directions
+  directions --> assemblepipelinesamplebatch
+  index --> assemblepipelinesamplebatch
+  assemblepipelinesamplebatch --> definition
+  assemblepipelinesamplebatch --> calls
+  assemblepipelinesamplebatch --> tally
+  directions --> assesspipelinesampleitems
+  items --> assesspipelinesampleitems
+  assesspipelinesampleitems --> results
+  index --> calibratepipelinedirections
+  items --> calibratepipelinedirections
+  results --> calibratepipelinedirections
+  tally --> calibratepipelinedirections
+  directions --> calibratepipelinedirections
+  calibratepipelinedirections --> calibration
+  calibratepipelinedirections --> directions
   leads --> reviewleads
   results --> reviewleads
   index --> reviewleads
@@ -996,7 +1085,6 @@ flowchart TD
   directions --> explorepilotitem
   items --> explorepilotitem
   explorepilotitem --> results
-  corpora --> writequestion
   questionlist --> writequestion
   writequestion --> questionlist
   corpora --> build
@@ -1012,59 +1100,43 @@ flowchart TD
   state --> revise
   revisionnote --> revise
   decisions --> revise
-  results --> revise
-  tally --> revise
   revise --> skill
   revise --> runnerskill
   revise --> decisions
   revise --> revisionnote
   revise --> map
-  revise --> studies
-  revise --> directions
-  skill --> assembleauditbatch
-  directions --> assembleauditbatch
-  results --> assembleauditbatch
-  toolsource -.-> assembleauditbatch
-  assembleauditbatch --> definition
-  assembleauditbatch --> index
-  assembleauditbatch --> items
-  assembleauditbatch --> calls
-  assembleauditbatch --> tally
-  directions --> assessaudititems
-  items --> assessaudititems
-  assessaudititems --> results
 ```
 
 ## Consumers
 
 | artifact | written by | read by | instrument of |
 |---|---|---|---|
-| hypothesis-statement | gate-and-commit mint | baseline promote gate-and-commit mint assemble-claim-batch assemble-referee-batch review-findings review-leads | — |
+| hypothesis-statement | gate-and-commit mint | baseline promote gate-and-commit mint assemble-claim-batch assemble-referee-batch review-findings plan-pipeline-directions collate-pipeline-sample review-leads | — |
 | hypothesis-origin | mint | baseline | — |
 | hypothesis-record | baseline promote gate-and-commit | baseline promote assemble-reverify-batch gate-and-commit compose-candidates | — |
 | hypothesis-index | mint | mint assemble-claim-batch | — |
 | question-list | baseline promote review-findings verify-plan review-leads explore-plan write-question | write-findings verify-plan author-directions write-leads explore-plan author-exploration-directions write-question | — |
-| studies | verify-plan explore-plan revise | assemble-full-batch continue-exploration-batch | — |
-| state | — | verify-plan explore-plan revise | — |
+| studies | verify-plan explore-plan | assemble-full-batch continue-exploration-batch | — |
+| state | — | verify-plan plan-pipeline-directions explore-plan revise | — |
 | revision-note | revise | revise | — |
 | decisions | revise | revise | — |
 | leads | review-leads write-leads | review-leads | — |
-| findings | review-findings write-findings | promote assemble-claim-batch assemble-referee-batch compose-candidates review-findings | — |
+| findings | review-findings write-findings | promote assemble-claim-batch assemble-referee-batch compose-candidates review-findings plan-pipeline-directions collate-pipeline-sample | — |
 | candidates | compose-candidates | promote | — |
-| declined-candidates | promote | compose-candidates | — |
-| corpora | build | verify-plan explore-plan write-question build | — |
-| directions | author-directions calibrate author-exploration-directions revise | assemble-reverify-batch assess-reverify-items assemble-claim-batch assess-claim-items assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate review-leads explore-items write-leads author-exploration-directions assemble-exploration-batch explore-pilot-item assemble-audit-batch assess-audit-items | — |
-| calibration | calibrate | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch | — |
-| definition | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-exploration-batch assemble-audit-batch | write-findings review-leads continue-exploration-batch write-leads | — |
-| index | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | promote review-findings write-findings assemble-sample-batch calibrate review-leads write-leads | — |
-| items | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch | assess-reverify-items assess-claim-items assess-referee-items assess-items author-directions assess-sample-items calibrate explore-items explore-pilot-item assess-audit-items | — |
-| calls | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-exploration-batch assemble-audit-batch | write-findings review-leads | — |
-| results | assess-reverify-items assess-claim-items assess-referee-items assess-items assess-sample-items explore-items explore-pilot-item assess-audit-items | gate-and-commit assemble-referee-batch compose-candidates review-findings write-findings calibrate review-leads continue-exploration-batch write-leads revise assemble-audit-batch | — |
-| tally | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch continue-exploration-batch assemble-audit-batch | gate-and-commit compose-candidates review-findings write-findings calibrate review-leads revise | — |
-| skill | revise | verify-plan explore-plan revise assemble-audit-batch | — |
+| declined-candidates | promote | compose-candidates plan-pipeline-directions | — |
+| corpora | build | verify-plan explore-plan build | — |
+| directions | author-directions calibrate plan-pipeline-directions author-pipeline-directions calibrate-pipeline-directions author-exploration-directions | assemble-reverify-batch assess-reverify-items assemble-claim-batch assess-claim-items assemble-referee-batch assess-referee-items assemble-full-batch assess-items author-directions assemble-sample-batch assess-sample-items calibrate plan-pipeline-directions author-pipeline-directions assemble-pipeline-sample-batch assess-pipeline-sample-items calibrate-pipeline-directions review-leads explore-items write-leads author-exploration-directions assemble-exploration-batch explore-pilot-item | — |
+| calibration | calibrate plan-pipeline-directions calibrate-pipeline-directions | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch plan-pipeline-directions author-pipeline-directions | — |
+| definition | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch plan-pipeline-directions assemble-pipeline-sample-batch assemble-exploration-batch | write-findings review-leads continue-exploration-batch write-leads | — |
+| index | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize collate-pipeline-sample assemble-exploration-batch | promote review-findings write-findings assemble-sample-batch calibrate assemble-pipeline-sample-batch calibrate-pipeline-directions review-leads write-leads | — |
+| items | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize collate-pipeline-sample assemble-exploration-batch | assess-reverify-items assess-claim-items assess-referee-items assess-items author-directions assess-sample-items calibrate author-pipeline-directions assess-pipeline-sample-items calibrate-pipeline-directions explore-items explore-pilot-item | — |
+| calls | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-pipeline-sample-batch continue-exploration-batch assemble-exploration-batch | write-findings review-leads | — |
+| results | assess-reverify-items assess-claim-items assess-referee-items assess-items assess-sample-items assess-pipeline-sample-items explore-items explore-pilot-item | gate-and-commit assemble-referee-batch compose-candidates review-findings write-findings calibrate plan-pipeline-directions collate-pipeline-sample calibrate-pipeline-directions review-leads continue-exploration-batch write-leads | — |
+| tally | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch assemble-sample-batch assemble-pipeline-sample-batch continue-exploration-batch | gate-and-commit compose-candidates review-findings write-findings calibrate calibrate-pipeline-directions review-leads | — |
+| skill | revise | verify-plan explore-plan revise | — |
 | runner-skill | build revise | revise | — |
 | map | revise | revise | — |
-| tool-source | build | build | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize assemble-exploration-batch assemble-audit-batch |
+| tool-source | build | build | assemble-reverify-batch assemble-claim-batch assemble-referee-batch assemble-full-batch itemize collate-pipeline-sample assemble-exploration-batch |
 | corpus | build | promote review-findings assemble-full-batch verify-plan itemize review-leads explore-plan author-exploration-directions assemble-exploration-batch build | — |
 
 ## Validation
@@ -1074,5 +1146,5 @@ Last run: **passed** (3 note(s)).
 | level | check | row | message |
 |---|---|---|---|
 | vacuous | enables.vacuous | — | edges into the terminus are not checked for data flow, since it owns no processes: baselining-a-hypothesis → changing-the-planner-for-v3 |
-| info | info.artifact.never-written | state | read by verify-plan, explore-plan, revise and written by no process; informational (generated by a tool, or authored outside the method) |
+| info | info.artifact.never-written | state | read by verify-plan, plan-pipeline-directions, explore-plan, revise and written by no process; informational (generated by a tool, or authored outside the method) |
 | info | info.instrument.free-name | instruments | instrument names that are not artifact ids: DocIntegrity, dotnet, git, runner. A program whose code is an artifact is named by its id; check none of these should have been |

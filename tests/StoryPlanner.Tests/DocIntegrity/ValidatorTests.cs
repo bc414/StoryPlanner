@@ -60,7 +60,7 @@ public class ValidatorTests
 
     [Fact]
     public void An_id_used_in_two_tables_is_a_duplicate()
-        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | docs/v3-framework/<container>/<study>/batches/<batch>/items/", "| promote | docs/v3-framework/<container>/<study>/batches/<batch>/items/"));
+        => Fails("id.duplicate", MapFixture.With(Artifacts, "| items | docs/v3-framework/<container>/<home>/batches/<batch>/items/", "| promote | docs/v3-framework/<container>/<home>/batches/<batch>/items/"));
 
     [Fact]
     public void An_id_outside_the_lowercase_slug_charset_fails()
@@ -174,13 +174,13 @@ public class ValidatorTests
     [Fact]
     public void A_path_cell_naming_two_patterns_fails_the_syntax_rule()
         => Fails("artifact.path-syntax", MapFixture.With(Artifacts,
-            "| docs/v3-framework/studies/<study>/directions-N.md |", "| docs/v3-framework/studies/<study>/directions-N.md, or docs/v3-framework/referee/directions-N.md |"));
+            "| docs/v3-framework/studies/<study>/directions-N.md |", "| docs/v3-framework/studies/<study>/directions-N.md, or docs/v3-framework/pipeline/referee/directions-N.md |"));
 
     [Fact]
     public void An_artifact_no_process_reads_fails()
         => Fails("artifact.never-read", MapFixture.With(Artifacts,
-            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
-            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
+            "| results | docs/v3-framework/<container>/<home>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
+            "| results | docs/v3-framework/<container>/<home>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| orphan | docs/orphan.md | frozen | | Nothing reads it |"));
 
     [Fact]
     public void An_artifact_no_process_writes_is_information_not_a_verdict()

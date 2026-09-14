@@ -4,7 +4,7 @@
 it: one section per corpus, its id as the heading, then what it is, where it lives and how
 it is read, then caveats. No progress (derived into `state.md` from the registry), no
 readiness dates (they are decisions), no deferrals, no counts in prose (name the source of
-truth). Its section headings are the corpus ids the question lists and the registry use.
+truth). Its section headings are the corpus ids the registry uses.
 Written by `build` when a corpus appears or a reader for it is built.
 
 ```markdown

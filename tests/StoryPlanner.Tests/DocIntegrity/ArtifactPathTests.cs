@@ -56,7 +56,7 @@ public class ArtifactPathTests
 
     [Fact]
     public void Two_patterns_joined_by_or_are_a_syntax_error()
-        => Assert.Contains("one pattern", Error($"{Studies}/<study>/directions-N.md, or docs/v3-framework/referee/directions-N.md"));
+        => Assert.Contains("one pattern", Error($"{Studies}/<study>/directions-N.md, or docs/v3-framework/pipeline/referee/directions-N.md"));
 
     [Fact]
     public void A_pattern_and_its_tests_is_a_syntax_error()
@@ -83,11 +83,12 @@ public class ArtifactPathTests
         => Assert.Contains("no heading", Error("docs/x.md §"));
 
     [Fact]
-    public void Study_scope_is_carried_by_the_study_or_batch_placeholder()
+    public void Study_scope_is_carried_by_the_study_home_or_batch_placeholder()
     {
         Assert.True(Parse($"{Studies}/<study>/candidates.md").IsStudyScoped);
         Assert.True(Parse($"{Studies}/<study>/batches/<batch>/items/").IsStudyScoped);
-        Assert.False(Parse("docs/v3-framework/questions/<corpus>.md").IsStudyScoped);
+        Assert.True(Parse("docs/v3-framework/<container>/<home>/batches/<batch>/items/").IsStudyScoped);
+        Assert.False(Parse("docs/v3-framework/questions.md").IsStudyScoped);
         Assert.False(Parse("no single pattern").IsStudyScoped);
     }
 

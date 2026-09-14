@@ -14,11 +14,13 @@ namespace StoryPlanner.DocIntegrity;
 /// enumerate files cannot be asked to guess which half it means.
 ///
 /// The placeholders are the ones SKILL.md § Artifacts defines: <c>&lt;study&gt;</c>,
-/// <c>&lt;corpus&gt;</c>, <c>&lt;container&gt;</c> (<c>studies</c> or <c>iterations</c>, the
-/// kind of folder a batch sits under), <c>&lt;batch&gt;</c> (<c>nn-slug</c>), <c>&lt;date&gt;</c>,
+/// <c>&lt;corpus&gt;</c>, <c>&lt;container&gt;</c> (<c>studies</c>, <c>iterations</c> or
+/// <c>pipeline</c>, the kind of folder a batch sits under), <c>&lt;home&gt;</c> (the folder under
+/// the container a batch belongs to: a study's id, an iteration's folder, <c>referee</c> or
+/// <c>claiming</c>, d-2026-09-13-55), <c>&lt;batch&gt;</c> (<c>nn-slug</c>), <c>&lt;date&gt;</c>,
 /// <c>NNN</c>, <c>N</c>, <c>slug</c>, and <c>.*</c> for any extension. An unrecognised
-/// placeholder compiles to <c>[^/]+</c> like the named non-numeric ones, so a new one such as
-/// <c>&lt;container&gt;</c> matches a single path segment with no code change.
+/// placeholder compiles to <c>[^/]+</c> like the named non-numeric ones, so a new one matches a
+/// single path segment with no code change.
 /// </summary>
 public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmatter, bool NoSinglePattern)
 {
@@ -32,9 +34,9 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
     static readonly Regex SeriesPlaceholder = new(
         @"(?<![A-Za-z])N(?![A-Za-z])|<date>", RegexOptions.Compiled);
 
-    /// <summary>Named by a study: its files live under the study's folder.</summary>
+    /// <summary>Named by a study: its files live under the study's folder, or under a batch's home.</summary>
     public bool IsStudyScoped
-        => !NoSinglePattern && (Pattern.Contains("<study>") || Pattern.Contains("<batch>"));
+        => !NoSinglePattern && (Pattern.Contains("<study>") || Pattern.Contains("<home>") || Pattern.Contains("<batch>"));
 
     /// <summary>
     /// A numbered or dated series: the pattern carries <c>N</c> or <c>&lt;date&gt;</c>, so each
@@ -115,12 +117,14 @@ public sealed record ArtifactPath(string Pattern, string? Heading, bool Frontmat
 
     /// <summary>
     /// The pattern with the study folder and corpus substituted, the rest of the
-    /// placeholders left for <see cref="ToRegex"/>.
+    /// placeholders left for <see cref="ToRegex"/>. The folder fills both <c>&lt;study&gt;</c> and
+    /// <c>&lt;home&gt;</c>: a batch's home is the study, iteration or pipeline directions folder
+    /// it belongs to.
     /// </summary>
     public string Substitute(string? studyFolder, string? corpus)
     {
         var p = Pattern;
-        if (studyFolder is not null) p = p.Replace("<study>", studyFolder);
+        if (studyFolder is not null) p = p.Replace("<study>", studyFolder).Replace("<home>", studyFolder);
         if (corpus is not null) p = p.Replace("<corpus>", corpus);
         return p;
     }

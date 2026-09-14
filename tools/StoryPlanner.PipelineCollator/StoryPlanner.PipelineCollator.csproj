@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StoryPlanner.PipelineCollator</RootNamespace>
+        <!-- The collator of the evidence pipeline's batches (d-2026-09-13-47, -48): it collates a
+             pipeline batch's items from the method's own files. Surfacing (d-2026-09-10-5,
+             d-2026-09-13-42): claim collates one item per standing finding, the current hypothesis
+             set then the finding; referee collates one item per (finding, target) claim, the
+             target's current statement and the finding, blind. Iterating (d-2026-09-11-2, -3):
+             reverify collates one item per current-wording evidence entry, the proposed wording and
+             that entry's frozen finding, blind. Each writes a batch's index with a collator line and
+             the item bodies under items/. -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+    </ItemGroup>
+
+</Project>

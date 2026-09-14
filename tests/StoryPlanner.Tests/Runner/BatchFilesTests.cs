@@ -162,18 +162,33 @@ public class BatchFilesTests
     public void An_index_renders_and_reads_what_its_itemizer_utilized_and_its_narrowing()
     {
         var text = IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "v1-archive", "a note id", null, [("note-1", "note-1", "first")],
-            utilizesCorpora: ["lineage"], utilizesOutputs: ["docs/a.csv", "docs/b.csv"], narrowing: "the pasted notes");
+            utilizesCorpora: ["lineage"], narrowing: "the pasted notes");
         var index = IndexFile.Parse(text);
         Assert.Empty(index.Problems);
         Assert.Equal(["lineage"], index.UtilizesCorpora);
-        Assert.Equal(["docs/a.csv", "docs/b.csv"], index.UtilizesOutputs);
         Assert.Equal("the pasted notes", index.Narrowing);
 
         var plain = IndexFile.Parse(IndexFile.Render("01-full", "tools/StoryPlanner.X, 1", "v1-archive", "a note id", null, [("note-1", "note-1", "first")]));
         Assert.Empty(plain.UtilizesCorpora);
-        Assert.Empty(plain.UtilizesOutputs);
         Assert.Null(plain.Narrowing);
-        Assert.Contains(IndexFile.Parse(text.Replace("  - docs/a.csv\n  - docs/b.csv\n", "")).Problems, p => p.Part == "head");
+        // utilizes outputs left the head (d-2026-09-13-50): the key is unknown.
+        Assert.Contains(IndexFile.Parse(text.Replace("- narrowing:", "- utilizes outputs:\n  - docs/a.csv\n- narrowing:")).Problems, p => p.Part == "head");
+    }
+
+    [Fact]
+    public void A_collated_index_names_its_collator_and_no_corpus()
+    {
+        var text = IndexFile.RenderCollated("01-claim", "tools/StoryPlanner.PipelineCollator, 1, claim", "the finding's token", [("most-are-a", "verification-of-x-y/most-are-a", "first")]);
+        var index = IndexFile.Parse(text);
+        Assert.Empty(index.Problems);
+        Assert.Equal("tools/StoryPlanner.PipelineCollator, 1, claim", index.Collator);
+        Assert.Null(index.Itemizer);
+        Assert.Null(index.Corpus);
+
+        // Exactly one tool, and a corpus only with an itemizer (d-2026-09-13-49).
+        Assert.Contains(IndexFile.Parse(text.Replace("- collator:", "- itemizer: tools/StoryPlanner.X, 1\n- collator:")).Problems, p => p.Part == "head");
+        Assert.Contains(IndexFile.Parse(text.Replace("- locator notation:", "- corpus: v1-archive\n- locator notation:")).Problems, p => p.Part == "head");
+        Assert.Contains(IndexFile.Parse(text.Replace("- collator: tools/StoryPlanner.PipelineCollator, 1, claim\n", "")).Problems, p => p.Part == "head");
     }
 
     [Fact]

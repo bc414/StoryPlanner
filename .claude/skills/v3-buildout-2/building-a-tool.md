@@ -9,10 +9,12 @@ Enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus.
 ## Preconditions
 
 Something needs a tool that does not exist: a corpus to make readable, an itemizer for a
-study, a change to the runner or the validator, a render. The need is named by the study
-or the revision that has it; an itemizer is built in the preparing activity of the study
-that needs it, and a second study cutting the same corpus the same way runs the same
-tool. A check is added for a failure a batch or a study has shown, never for one a
+study, a collator for a pipeline batch, a change to the runner or the validator, a render.
+The need is named by the study, the preparation or the revision that has it; an itemizer is
+built in the preparing activity of the study that needs it, and a second study cutting the
+same corpus the same way runs the same tool; a collator's sample subcommand is built in the
+execution of preparing-pipeline-directions that needs it, once its plan has fixed the
+sample. A check is added for a failure a batch or a study has shown, never for one a
 session can imagine. A check is minted in one of two ways: declared, it holds what a
 schema's Shape says about one class's files and is held from the schema's first write;
 earned, it prevents a failure that has been observed, the only way a check that spans

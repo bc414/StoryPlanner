@@ -65,24 +65,26 @@ These hold in every session type. A companion file elaborates; none overrides.
    Evidence enters a hypothesis record only from a verification's finding, claimed, judged a
    candidate by a fresh-context referee, and promoted in a session with Brian in the
    loop deciding each one. Nothing else writes to `docs/v3-framework/hypotheses/`. Every
-   candidate of every verification is judged under the same referee directions at the
-   same hash: the referee is one part of the method, and a verification runs it and never
-   authors it.
-3. **Verification debt.** A corpus whose exploration has run but whose verification
-   has not is *unverified*: nothing cites its leads as evidence. A study over the
-   buildout's own outputs whose leads or findings are about a corpus reads
-   `verified-findings` only; one whose leads or findings are about the method is not so
-   guarded. Questions flow freely between corpora; leads wait.
+   finding of every verification is claimed under the same claiming directions, and every
+   claim is judged under the same referee directions, each at the same hash: both are parts
+   of the method, and a verification runs them and never authors them.
+3. **Itemizers read corpora; collators read the method's own files.** An itemizer reads
+   corpora, one or several, and derives what it needs from them in its own run; nothing else
+   is its input, though anything may inform how its code is written. A collator reads only
+   the method's own files its activity names.
 4. **Directions are calibrated or piloted before their first batch.** A verification's
-   directions are authored in a session with Brian, against real items, calibrated against
-   his blind verdicts before their first full batch, versioned by number and by the hash
-   of the body every call cites; a revision is a new version and a new batch, never a
-   re-label. An exploration's directions are piloted on one item before the rest run. A
-   verification whose results show its directions wanting records it as a shortcoming in
-   its findings; the question is Brian's to raise, in reviewing-findings, and the fix is a
-   new version through preparing.
+   directions, and the method's pipeline directions for claiming and the referee, are
+   authored in a session with Brian, against real items, calibrated against his blind
+   verdicts before their first full batch, versioned by number and by the hash of the body
+   every call cites; a revision is a new version and a new batch, never a re-label. An
+   exploration's directions are piloted on one item before the rest run. A verification
+   whose results show its directions wanting records it as a shortcoming in its findings;
+   the question is Brian's to raise, in reviewing-findings, and the fix is a new version
+   through preparing-to-verify-a-corpus. Pipeline directions are revised only through
+   preparing-pipeline-directions, on Brian's ruling at promotion or baselining that they are
+   wrong in general, or on a change of model.
 5. **Explicit context for autonomous agents.** Any `agent` process — a reader of one item,
-   a classifier, an auditor, the referee, the calibration sample — is a call through the
+   a classifier, a claiming call, the referee, the calibration sample — is a call through the
    runner from the launch folder outside the repo: the directions body as its system
    prompt and one item as its message, both hashed; no tools; no CLAUDE.md, no skills, no
    memory, no MCP; no transcript persisted. Never through the Agent tool of a repo session, never from a repo cwd.
@@ -153,7 +155,8 @@ read.
 holds the activities and their edges, one section per activity with its diagram and what
 the tables derive for it (inputs, outputs, instruments, enabled by, enables), the whole
 graph, the consumers table and the validation report; `state.md` holds the buildout's
-current state (per study, per corpus and per hypothesis, from the artifacts on disk). Both
+current state (per study, per set of pipeline directions, per question and per hypothesis,
+from the artifacts on disk). Both
 are written whole by the tool, denied to sessions by path in the project settings, and
 rewritten by the write hook after every passing check, so neither can be hand-edited or
 stale. Nothing generated sits inside an authored file.
@@ -179,15 +182,16 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | iterating-a-statement | baselining-a-hypothesis | Brian's rewording of a challenged hypothesis on evidence: the proposed wording re-verified against every current-wording finding, and only if all come out diagnostic-supporting is the statement edited, an iteration entry written as the wording boundary, fresh evidence entries written, and status recomputed |
 | minting-a-hypothesis | reviewing-leads reviewing-findings | Creating a hypothesis file on novelty, testability and independence against the current set, in any hitl session, Brian rewriting or approving the statement, provenance in the created entry |
 | surfacing-candidates | promoting-refereed-candidates | The autonomous stretch from standing findings to refereed candidates: a claiming batch names, per finding, the hypotheses it bears on; a referee batch judges each claim blind, writing a falsifier and classifying it diagnostic supporting, diagnostic challenging or non-diagnostic; candidates.md is composed from the results as a generated view |
-| reviewing-findings | surfacing-candidates | Brian and a session over a verification's findings, or two verifications by their tallies: a finding he doubts checked against the results and the items and withdrawn or superseded, a result he doubts checked at the item and written as a shortcoming, what he raises checked before it is written as a finding, and the questions he raises written into the corpus's question list |
-| verifying-a-corpus | reviewing-findings | One execution of calibrated directions over a corpus's items, on Brian's go: the full batch assembled and handed to the host, one call per item, the tally written at completion, and the analysis written as findings |
-| preparing-to-verify-a-corpus | verifying-a-corpus surfacing-candidates | Building the measure with Brian: itemize the corpus by a tool, author the directions against real items, calibrate them on a sample batch he scores blind |
-| reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact, or two of one corpus: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the corpus's question list |
-| exploring-a-corpus | reviewing-leads | Reading a corpus discovery-first with a question in view and no hypothesis targeted: one item that is the corpus whole, or one per slice, each a call through the runner under the study's directions; the results written as leads |
+| reviewing-findings | surfacing-candidates | Brian and a session over a verification's findings, or two verifications by their tallies: a finding he doubts checked against the results and the items and withdrawn or superseded, a result he doubts checked at the item and written as a shortcoming, what he raises checked before it is written as a finding, and the questions he raises written into the question list |
+| verifying-a-corpus | reviewing-findings | One execution of calibrated directions over its itemizer's items, on Brian's go: the full batch assembled and handed to the host, one call per item, the tally written at completion, and the analysis written as findings |
+| preparing-to-verify-a-corpus | verifying-a-corpus | Building the measure with Brian: itemize the corpus by a tool, author the directions against real items, calibrate them on a sample batch he scores blind |
+| preparing-pipeline-directions | surfacing-candidates iterating-a-statement | Preparing the method's pipeline directions, the referee's or claiming's, with Brian: the plan fixing the model, effort and sample, the sample collated, the directions authored against it and calibrated on a sample batch he scores blind; started by the set's first preparation, his general ruling at promotion or baselining, or a change of model |
+| reviewing-leads | preparing-to-verify-a-corpus | Brian and a session over a leads artifact, or two of one corpus: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the question list |
+| exploring-a-corpus | reviewing-leads | Reading its itemizer's items discovery-first with a question in view and no hypothesis targeted: one item that is the corpus whole, or one per slice, each a call through the runner under the study's directions; the results written as leads |
 | preparing-to-explore-a-corpus | exploring-a-corpus | Scoping an exploration with Brian: the questions in view, the scale, the directions written and, for slices, piloted on one item |
-| asking-a-question | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | A question Brian raises about a corpus in a session no other activity's processes cover, written into that corpus's question list with what raised it; the one route for a question that arises outside the activities that write their own |
-| building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, itemizers, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
-| revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, two lints passing (the validator; for a rewrite, the supersession audit of the prior text as an audit study), a write-once revision note recording what changed and why |
+| asking-a-question | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | A question Brian raises in a session no other activity's processes cover, written into the question list with what raised it; the one route for a question that arises outside the activities that write their own |
+| building-a-tool | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Code with tests that carries no judgment: ingests, readers, itemizers, collators, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
+| revising-the-method | preparing-to-explore-a-corpus preparing-to-verify-a-corpus | Changing how the buildout is run: the skill's files and tables rewritten, the validator passing, a write-once revision note recording what changed and why |
 
 ## Artifacts — the classes
 
@@ -207,21 +211,23 @@ fails.
 
 Placeholders in paths, the same everywhere: `<corpus>` a name from `CORPORA.md`;
 `<study>` a study's folder, which is its registry id, `<type>-of-<corpus>-<slug>` for a
-verification, `exploration-of-<corpus>` with a slug only when the corpus is explored again,
-`audit-of-<slug>` for an audit of the skill; `<batch>` a batch's folder, `<nn>-<slug>`,
-numbered from 01 within its study; `<container>` the folder a batch's directory sits under,
-`studies` for a study or `iterations` for an iteration's re-verification; `<date>` an ISO
-date; `<Name>` a tool project's name; `NNN` a hypothesis id; `N` a version number. A study is
-one directory, `docs/v3-framework/studies/<study>/`: at its top its authored artifacts, its
-`directions-N.md` versions and their `calibration-<date>.md` files, and nothing else; under
-`batches/<batch>/`, one folder per batch holding what that execution took in and produced. An
+verification, `exploration-of-<corpus>` with a slug only when the corpus is explored again;
+`<container>` the folder a batch's home sits under, `studies`, `iterations` or `pipeline`;
+`<home>` the folder under it a batch belongs to, a study's id, an iteration's folder,
+`referee` or `claiming`; `<batch>` a batch's folder, `<nn>-<slug>`, numbered from 01 within
+its home; `<date>` an ISO date; `<Name>` a tool project's name; `NNN` a hypothesis id; `N` a
+version number. A study is one directory, `docs/v3-framework/studies/<study>/`: at its top its
+authored artifacts, its `directions-N.md` versions and their `calibration-<date>.md` files,
+and nothing else; under `batches/<batch>/`, one folder per batch holding what that execution
+took in and produced, a verification's claiming and referee batches among them. An
 iteration's re-verification batches sit the same way under
 `docs/v3-framework/iterations/iteration-of-<hypothesis-file-name>-<N>/batches/<batch>/`, which
-is why the batch classes' paths carry `<container>` rather than naming `studies` outright.
-The referee's directions and calibrations, belonging to no study, sit in
-`docs/v3-framework/referee/` and are governed by reference: a batch's definition names them
-by path, and the checker follows the path. Everything closed sits in
-`docs/v3-framework-historical/`, governed by nothing.
+is why the batch classes' paths carry `<container>/<home>` rather than naming `studies`
+outright. The pipeline directions, the referee's and claiming's, belonging to no study, sit in
+`docs/v3-framework/pipeline/referee/` and `docs/v3-framework/pipeline/claiming/`, each laid
+out as a study's, its `batches/` holding its calibration samples and nothing else; they are
+governed by reference: a batch's definition names them by path, and the checker follows the
+path. Everything closed sits in `docs/v3-framework-historical/`, governed by nothing.
 
 | id | path | mutation | schema | description |
 |---|---|---|---|---|
@@ -229,9 +235,9 @@ by path, and the checker follows the path. Everything closed sits in
 | hypothesis-origin | docs/v3-framework/hypotheses/NNN-slug.md § Origin | frozen | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Why one hypothesis exists: its founding reasoning, written at its mint |
 | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The evidence relationship: dated entries, never edited |
 | hypothesis-index | docs/v3-framework/hypotheses/INDEX.md | in-place | [hypothesis-index-schema](schemas/hypothesis-index-schema.md) | Id and slug per hypothesis, id order |
-| question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions about one corpus |
+| question-list | docs/v3-framework/questions.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions, the buildout's one list |
 | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study, declared at Brian's go; the ids every study folder is named by |
-| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches and where it is; per corpus, open questions and whether calibrated directions cover them; per hypothesis, its status |
+| state | .claude/skills/v3-buildout/state.md | in-place | | Generated from the registry and the artifacts: per study its batches and where it is; per set of pipeline directions, its versions, the accepted one and its calibration batches; the open questions and whether calibrated directions cover them; per hypothesis, its status |
 | revision-note | docs/v3-framework/methodology-revision-N.md | frozen | | What one methodology revision changed and why |
 | decisions | docs/v3-framework/decisions.md | append | [decisions-schema](schemas/decisions-schema.md) | The method's decisions: one titled entry per decision, written by a session during revising-the-method as it lands, read only there |
 | leads | docs/v3-framework/studies/<study>/leads.md | append | [leads-schema](schemas/leads-schema.md) | What one exploration observed, organised by what was seen |
@@ -239,19 +245,19 @@ by path, and the checker follows the path. Everything closed sits in
 | candidates | docs/v3-framework/studies/<study>/candidates.md | in-place | | Generated by compose-candidates through DocIntegrity: the verification's diagnostic candidates, each materialising its finding, verdict, falsifier and outcome, and the non-diagnostic claims at the foot; a view of the claiming and referee results and the outcomes, never hand-edited |
 | declined-candidates | docs/v3-framework/studies/<study>/declined-candidates.md | append | [declined-candidates-schema](schemas/declined-candidates-schema.md) | One entry per diagnostic candidate Brian declined, its (finding, target) heading, the date and his reason; a decline is terminal and never edited |
 | corpora | .claude/skills/v3-buildout/CORPORA.md | in-place | [corpora-schema](schemas/corpora-schema.md) | The inventory of corpora: per id, what it is, where it lives, how it is read, its caveats |
-| directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls, hashed as the version, with the questions it freezes or reads with; the referee's, in the referee folder, reached by reference |
-| calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | [calibration-schema](schemas/calibration-schema.md) | One directions version's agreement with Brian's blind verdicts, the rulings, and whether it is accepted at its hash; the referee's reached by reference |
-| definition | docs/v3-framework/<container>/<study>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under: its directions by path, its kind, its calibration, model, effort, tools and MCP; authored by a session, never edited after the first execution |
-| index | docs/v3-framework/<container>/<study>/batches/<batch>/index.md | frozen | [index-schema](schemas/index-schema.md) | The items a batch judges, one row each, with what retrieves each from the corpus; written by the itemizer |
-| items | docs/v3-framework/<container>/<study>/batches/<batch>/items/ | frozen | | The item bodies, one file per item, written by the itemizer; uncommitted and regenerable |
-| calls | docs/v3-framework/<container>/<study>/batches/<batch>/calls.md | append | | The runner's file of calls: the definition's hash at its head, then one entry per call with its hashes, times, exit and check |
-| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answer for one item as the runner rendered it: the directions' declared fields as keyed lines, one file per item |
-| tally | docs/v3-framework/<container>/<study>/batches/<batch>/tally.md | frozen | | The runner's counts over a batch's results: per enum field, the malformed, the missing, the fields not counted; written by the host when the last item has a successful call, once |
+| directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls, hashed as the version, with the questions it freezes or reads with; the pipeline directions', in their folders under docs/v3-framework/pipeline/, reached by reference |
+| calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | [calibration-schema](schemas/calibration-schema.md) | One directions version's agreement with Brian's blind verdicts, the rulings, and whether it is accepted at its hash; the pipeline directions', in their folders under docs/v3-framework/pipeline/, reached by reference |
+| definition | docs/v3-framework/<container>/<home>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under: its directions by path, its kind, its calibration, model and effort; authored by a session, never edited after the first execution |
+| index | docs/v3-framework/<container>/<home>/batches/<batch>/index.md | frozen | [index-schema](schemas/index-schema.md) | The items a batch judges, one row each, with what retrieves each from its source; written by the itemizer or the collator |
+| items | docs/v3-framework/<container>/<home>/batches/<batch>/items/ | frozen | | The item bodies, one file per item, written by the itemizer or the collator; uncommitted and regenerable |
+| calls | docs/v3-framework/<container>/<home>/batches/<batch>/calls.md | append | | The runner's file of calls: the definition's hash at its head, then one entry per call with its hashes, times, exit and check |
+| results | docs/v3-framework/<container>/<home>/batches/<batch>/results/ | frozen | | The model's answer for one item as the runner rendered it: the directions' declared fields as keyed lines, one file per item |
+| tally | docs/v3-framework/<container>/<home>/batches/<batch>/tally.md | frozen | | The runner's counts over a batch's results: per enum field, the malformed, the missing, the fields not counted; written by the host when the last item has a successful call, once |
 | skill | .claude/skills/v3-buildout/ | in-place | [skill-schema](schemas/skill-schema.md) | The method's instructions: the router with its two tables, the activity files and the schema files |
 | runner-skill | .claude/skills/agent-runner/SKILL.md | in-place | | The runner's instructions, which govern every process that invokes it |
 | map | .claude/skills/v3-buildout/map.md | in-place | | Generated: the whole graph, consumers, validation report |
-| tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, itemizers, the runner; the validator lives under process-docs/ and is a free-name instrument, not an artifact |
-| corpus | no single pattern | in-place | | The corpora named in CORPORA.md, where CORPORA.md says, read through the MCP server, files or sqlite3 |
+| tool-source | tools/StoryPlanner.<Name>/ | in-place | | Code with its tests: ingests, readers, itemizers, collators, the runner; the validator lives under process-docs/ and is a free-name instrument, not an artifact |
+| corpus | no single pattern | in-place | | The corpora named in CORPORA.md, primary-source data and never a lossy summary made from it, where CORPORA.md says, read through the MCP server, files or sqlite3 |
 
 ## Companions that are not activities
 
@@ -266,34 +272,45 @@ the runner and is read in full by any process that invokes it.
 
 ## Vocabulary
 
-- **study**: the life of one set of directions over the items of one itemizer under one
-  model and effort, registered at Brian's go, one folder holding its batches; a different
-  model, itemizer or set of directions is a different study.
+- **study**: the life of one set of its own directions over the items of one itemizer under
+  one model and effort, registered at Brian's go, one folder holding its batches, a
+  verification's holding also the claiming and referee batches its chain runs under the
+  pipeline directions; a different model, itemizer or set of its own directions is a
+  different study.
 - **verification**: a study of the verification type, one execution of calibrated
-  directions over a corpus's items, its findings the only source of candidates.
-- **exploration**: a study of the exploration type, a reading of a corpus discovery-first
-  under piloted directions; its output is a leads artifact.
-- **audit**: a study of the audit type, whose corpus is the skill's own text, run by
-  revising-the-method as the second lint of a rewrite.
+  directions over its itemizer's items, its findings the only source of candidates.
+- **exploration**: a study of the exploration type, a discovery-first reading of its
+  itemizer's items under piloted directions; its output is a leads artifact.
 - **batch**: one execution of a set of items under one definition; a study's batches are
-  its calibration samples, its full batches and, for a verification, its referee batches.
-- **item**: the one thing a call judges, cut from the corpus by an itemizer; a slice is an
-  exploration's item, a partition of the corpus; one item may be the corpus whole.
+  its calibration samples, its full batches and, for a verification, its claiming and
+  referee batches; the pipeline directions' calibration samples sit in their own folders,
+  and an iteration's re-verify batches under `iterations/`.
+- **item**: the one thing a call judges, cut from corpora by an itemizer or collated from
+  the method's own files by a collator; a slice is an exploration's item, a partition of a
+  corpus; one item may be a corpus whole.
 - **call**: one execution of the CLI for one item under a batch's definition; the batch's
   `calls.md` holds one entry per call, and a call is cited by its item and its number.
 - **directions**: the file whose body is the system prompt of a batch's calls, versioned by
   number and cited by the hash of its body.
 - **definition**: a batch's authored settings, the one authored file in a batch folder.
-- **index**: a batch's list of items, written by its itemizer, with a locator per item.
+- **index**: a batch's list of items, written by its itemizer or collator, with a locator
+  per item.
 - **result**: the model's answer for one item, rendered by the runner as the directions'
   declared fields.
 - **tally**: the runner's counts over a batch's results.
-- **itemizer**: code with tests under `tools/` that cuts a corpus into items, run once per
-  batch into the batch's folder; it may read other corpora and deterministic outputs over
-  corpus data to cut, label and fill the items, which stay the cut corpus's.
+- **itemizer**: code with tests under `tools/` that cuts corpora into items, run once per
+  batch into the batch's folder; it reads corpora and nothing else, and may read several to
+  cut, label and fill the items, which stay the cut corpus's.
+- **collator**: code with tests under `tools/` that collates a pipeline batch's items from
+  the method's own files its activity names (findings, claiming results, statements,
+  evidence entries), run once per batch into the batch's folder.
+- **corpus**: a set of primary-source data the buildout studies, text as it was written
+  where it was written: Brian's own, another author's, or an AI's reply in the exchange it
+  answered; listed by id in CORPORA.md with where it lives and how it is read; the only
+  input of an itemizer. Never a lossy summary or report made afterwards from other text,
+  and never a file of the method's other artifact classes.
 - **comparison**: two studies over the same items read against each other: by the tally
-  where they share their directions, at the review for two explorations, or by a study of
-  its own where judgment is needed.
+  where they share their directions, or at the review for two explorations.
 - **pilot**: an execution of a batch naming one item, whose result a person reads before
   the rest run; a one-item batch needs none.
 - **dry run**: the checks an execution would make, in memory, with nothing written.
@@ -312,7 +329,7 @@ the runner and is read in full by any process that invokes it.
 - **lead**: what was seen and what it was seen in, in words; the output of exploration,
   consolidated from its results and citing the slices it came from; an idea for a question
   and for what to itemize; never a finding, never names a position inside a slice.
-- **question**: Brian's testable question about one corpus, in its question list.
+- **question**: Brian's testable question, in the question list.
 - **predicate**: the test a directions version freezes for one question and a classifier
   applies to every item; never written in a question entry, whose `suggested test` is a note.
 - **finding**: a conclusion a session drew over a verification's results and tally, the
@@ -343,8 +360,8 @@ This skill is the instruction; its provenance lives outside it and is read in on
 activity. `docs/v3-framework/decisions.md` holds the method's decisions, written and
 read only in revising-the-method; `docs/v3-framework/methodology-revision-N.md` is each
 revision's write-once note. `docs/v3-framework/` also holds what the buildout produces:
-`hypotheses/`, `questions/`, `studies.md` and the study folders under `studies/`, and the
-referee's folder.
+`hypotheses/`, `questions.md`, `studies.md` and the study folders under `studies/`, and the
+pipeline directions' folders under `pipeline/`.
 `docs/v3-framework-historical/` holds everything closed: the founding record of decisions
 and of questions, the retired plans and handoffs, the retroactive explorations and the two
 audit batches of 2026-09, cited as history and never as the method. There is no plan: what

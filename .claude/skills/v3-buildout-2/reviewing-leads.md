@@ -4,7 +4,7 @@ Enables preparing-to-verify-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| review-leads | hitl | | leads results index directions definition calls tally corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads file, or two of one corpus: how the exploration ran brought up from the batch's files, any result or the corpus read on his request, a lead checked at the source given a reread line, a fault of the instrument written as a shortcoming, the differences between explorations read as leads about the readers, and the questions Brian raises written into the corpus's list |
+| review-leads | hitl | | leads results index directions definition calls tally corpus hypothesis-statement | leads question-list | specified | Brian and the session over a leads file, or two of one corpus: how the exploration ran brought up from the batch's files, any result or the corpus read on his request, a lead checked at the source given a reread line, a fault of the instrument written as a shortcoming, the differences between explorations read as leads about the readers, and the questions Brian raises written into the question list |
 
 ## Preconditions
 
@@ -41,7 +41,7 @@ revising-the-method, a second study under another model. It does not start it he
 Brian raises questions: from the Proposed questions, from the leads, from the shortcomings, from
 the differences, from his own recall, which enters as a question with its provenance ("Brian's
 recall, <date>: does the v1 archive show X?"), or goes to minting when he states a prediction.
-The session writes each into the corpus's question list with what raised it, naming the leads
+The session writes each into the question list with what raised it, naming the leads
 it came from by their tokens, and a suggested test where one suggests itself. A lead that shows
 a different hypothesis is needed is handed to minting-a-hypothesis in the same session.
 

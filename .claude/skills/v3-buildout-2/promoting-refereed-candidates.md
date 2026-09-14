@@ -34,14 +34,17 @@ For each pending diagnostic candidate, in whatever order Brian takes them:
 3. A disagreement with the referee is his to rule, and it is a decline, whether he judges the
    finding to bear on nothing or to bear the other way: the session writes his ruling as the
    decline's reason. A ruling that shows the referee wrong in general is what sends its
-   directions back through preparing-to-verify-a-corpus.
+   directions back through preparing-pipeline-directions. A finding that plainly bears on a
+   hypothesis it was not claimed for is a pair claiming missed, written as no candidate: his
+   ruling that claiming misses pairs in general sends the claiming directions back the same
+   way, and the missed pair enters the next claiming calibration's sample with his reason.
 
 A rethink of a statement that the evidence prompts is iterating-a-statement, done in its own
 session under its own file; nothing here rewords.
 
 When he stops, the session regenerates candidates.md through DocIntegrity so each candidate
-shows its outcome (promoted, declined or pending), and writes any question he raised into its
-corpus's list. Promotions are read from the hypothesis records, declines from
+shows its outcome (promoted, declined or pending), and writes any question he raised into the
+question list. Promotions are read from the hypothesis records, declines from
 declined-candidates.md; nothing is summarised on candidates.md by hand.
 
 ## Never

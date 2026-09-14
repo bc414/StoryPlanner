@@ -17,10 +17,10 @@ namespace StoryPlanner.DocIntegrity;
 /// program emits it from validated inputs (d-2026-09-10-2), so it carries no checker.
 ///
 /// First-pass conventions this reads, decided here and refined against the first real candidates
-/// (d-2026-09-10-7), matched by the referee directions and itemizer when they are authored:
+/// (d-2026-09-10-7), matched by the referee directions and collator when they are authored:
 ///   - the referee batch is the study batch whose definition's directions resolve under
-///     <c>docs/v3-framework/referee/</c> (d-2026-09-10-5: the referee batch names the referee's
-///     directions by path into the referee folder);
+///     <c>docs/v3-framework/pipeline/referee/</c> (d-2026-09-10-5, d-2026-09-13-55: the referee
+///     batch names the referee's directions by path into the referee's folder);
 ///   - the referee batch's index gives each item a locator <c>&lt;finding-slug&gt; → &lt;target&gt;</c>,
 ///     the candidate's identity, which this parses;
 ///   - the referee directions declare one block field (the falsifier) and one enum field (the
@@ -31,7 +31,7 @@ public static class Compose
 {
     public const char Arrow = '→';
     public const string FileName = "candidates.md";
-    public const string RefereeFolder = "referee";
+    public const string RefereeFolder = StoryPlanner.BatchFiles.StudyKinds.RefereeFolder;
 
     public enum Verdict { DiagnosticSupporting, DiagnosticChallenging, NonDiagnostic }
     public enum Status { Promoted, Declined, Pending }

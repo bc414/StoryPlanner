@@ -1,29 +1,41 @@
 using System.Text.RegularExpressions;
 
-namespace StoryPlanner.SurfacingItemizer;
+namespace StoryPlanner.PipelineCollator;
 
 /// <summary>
-/// The item computation of the two surfacing itemizers, kept out of the CLI so it is tested
-/// directly. Claiming (d-2026-09-10-6): one item per standing finding, the finding as the
-/// call's message. Referee (d-2026-09-10-5): one item per (finding, target) claim, the target's
-/// current statement and the finding, blind — nothing else. The referee item's locator is the
-/// candidate's identity <c>&lt;finding-slug&gt; → &lt;target&gt;</c>, which compose-candidates
-/// reads back; the id is a unique slug.
+/// The item computation of the pipeline collator (d-2026-09-13-47), kept out of the CLI so it is
+/// tested directly. Claiming (d-2026-09-13-42): one item per standing finding, holding the current
+/// hypothesis set, each statement under its file name, then the finding. Referee (d-2026-09-10-5):
+/// one item per (finding, target) claim, the target's current statement and the finding, blind —
+/// nothing else. The referee item's locator is the candidate's identity
+/// <c>&lt;finding-slug&gt; → &lt;target&gt;</c>, which compose-candidates reads back; the id is a
+/// unique slug.
 /// </summary>
-public static class Itemizers
+public static class Collators
 {
     public const char Arrow = '→';
 
     public sealed record Item(string Id, string Body, string Locator, string Description);
     public sealed record Finding(string Study, string Slug, string Text);
+    public sealed record HypothesisStatementOf(string FileName, string Statement);
 
     // ---- claiming ----
 
-    /// <summary>One item per standing finding; the finding text is the call's message.</summary>
-    public static IReadOnlyList<Item> ClaimItems(string findingsText)
-        => StandingFindings(findingsText)
-            .Select(f => new Item(f.Slug, f.Text + "\n", $"{f.Study}/{f.Slug}", Truncate(f.Text)))
+    /// <summary>
+    /// One item per standing finding: the current hypothesis set, each statement under its file
+    /// name (the name a claim answers with), then the finding. The set comes first so the calls
+    /// of a batch share it as the opening of their message.
+    /// </summary>
+    public static IReadOnlyList<Item> ClaimItems(string findingsText, IReadOnlyList<HypothesisStatementOf> hypotheses)
+    {
+        var set = new System.Text.StringBuilder("## Hypotheses\n\n");
+        foreach (var h in hypotheses)
+            set.Append("### ").Append(h.FileName).Append("\n\n").Append(h.Statement.Trim()).Append("\n\n");
+        var prefix = set.ToString();
+        return StandingFindings(findingsText)
+            .Select(f => new Item(f.Slug, $"{prefix}## Finding\n\n{f.Text}\n", $"{f.Study}/{f.Slug}", Truncate(f.Text)))
             .ToList();
+    }
 
     // ---- referee ----
 

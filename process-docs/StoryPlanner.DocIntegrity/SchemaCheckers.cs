@@ -198,13 +198,12 @@ public static class HypothesisIndex
 /// <summary>
 /// schemas/study-registry-schema.md: id · type · corpus · go, appended at Brian's go; the id
 /// <c>&lt;type&gt;-of-&lt;corpus&gt;-&lt;slug&gt;</c>, its type the one the prefix names
-/// (verification, exploration, audit), its corpus a name from the corpora file, or skill for
-/// an audit (d-2026-09-08-2, d-2026-09-09-12).
+/// (verification or exploration), its corpus a name from the corpora file (d-2026-09-08-2,
+/// d-2026-09-13-50; the audit retired by d-2026-09-13-40).
 /// </summary>
 public static class Registry
 {
-    public const string Skill = "skill";
-    public static readonly string[] Types = ["verification", "exploration", "audit"];
+    public static readonly string[] Types = ["verification", "exploration"];
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
@@ -236,13 +235,7 @@ public static class Registry
             }
 
             string? expectedType = null, idCorpus = null;
-            if (id.StartsWith("audit-of-", StringComparison.Ordinal))
-            {
-                expectedType = "audit";
-                idCorpus = Skill;
-                if (id.Length == "audit-of-".Length) findings.Add(Finding.Fail("registry.id", file, $"line {row.Line}: '{id}' is audit-of-<slug>"));
-            }
-            else if (id.StartsWith("exploration-of-", StringComparison.Ordinal))
+            if (id.StartsWith("exploration-of-", StringComparison.Ordinal))
             {
                 expectedType = "exploration";
                 idCorpus = CorpusOf(id["exploration-of-".Length..], known, slugRequired: false);
@@ -255,7 +248,7 @@ public static class Registry
             else
             {
                 findings.Add(Finding.Fail("registry.id", file,
-                    $"line {row.Line}: '{id}' is verification-of-<corpus>-<slug>, exploration-of-<corpus>[-<slug>] or audit-of-<slug>"));
+                    $"line {row.Line}: '{id}' is verification-of-<corpus>-<slug> or exploration-of-<corpus>[-<slug>]"));
                 continue;
             }
 
@@ -616,13 +609,17 @@ public static class Decisions
 
 /// <summary>
 /// schemas/question-entry-schema.md on the engine: the entries and their typed fields; the
-/// class's own rules are the title with the file's own corpus, the heading as the citation
-/// token with a slug unique in the list, dates that never go backwards, and the appended
-/// withdrawn and reinstated lines beneath the fields, alternating and starting with withdrawn.
+/// class's own rules are the title, the heading as the citation token <c>questions/&lt;slug&gt;</c>
+/// with a slug unique in the list, dates that never go backwards, and the appended withdrawn and
+/// reinstated lines beneath the fields, alternating and starting with withdrawn. The buildout
+/// keeps one list, <c>questions.md</c> (d-2026-09-13-38).
 /// </summary>
 public static class Questions
 {
     public const string SchemaId = "question-entry-schema";
+    public const string Title = "Questions";
+    /// <summary>The token prefix every entry heading carries: the list's own file name.</summary>
+    public const string Prefix = "questions";
     public static readonly string[] Keys = ["date", "raised by", "question", "suggested test"];
     static readonly string[] AppendedKinds = ["withdrawn", "reinstated"];
     static readonly Regex AppendedLine = new(@"^- (?<kind>withdrawn|reinstated): (?<date>\d{4}-\d{2}-\d{2}) (?<reason>\S.*)$", RegexOptions.Compiled);
@@ -639,7 +636,6 @@ public static class Questions
     public static (IReadOnlyList<Entry> Entries, IReadOnlyList<Finding> Findings) Read(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
-        var corpus = Path.GetFileNameWithoutExtension(path);
         var findings = new List<Finding>();
         var entries = new List<Entry>();
 
@@ -653,13 +649,8 @@ public static class Questions
             findings.Add(Finding.Fail(id, file, p.Message));
         }
         var doc = engine.Document;
-        var title = $"{corpus} — questions";
-        if (doc.Title != title)
-            findings.Add(Finding.Fail("question.title", file, $"the title is '# {title}', the file's own name"));
-        if (ctx.CorporaIds.Count == 0)
-            findings.Add(Finding.Info("question.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is not checked"));
-        else if (!ctx.CorporaIds.Contains(corpus))
-            findings.Add(Finding.Fail("question.title", file, $"'{corpus}' is not a corpus id in CORPORA.md"));
+        if (doc.Title != Title)
+            findings.Add(Finding.Fail("question.title", file, $"the title is '# {Title}'"));
 
         // ---- the withdrawn and reinstated lines, by position in the file ----
         var lines = SchemaCheckers.Lines(path);
@@ -700,8 +691,8 @@ public static class Questions
             var slash = heading.IndexOf('/');
             var prefix = slash < 0 ? "" : heading[..slash];
             var slug = slash < 0 ? heading : heading[(slash + 1)..];
-            if (prefix != corpus)
-                findings.Add(Finding.Fail("question.slug", file, $"line {line}: the heading is '{corpus}/<slug>', the file's own corpus then the slug; found '{heading}'"));
+            if (prefix != Prefix)
+                findings.Add(Finding.Fail("question.slug", file, $"line {line}: the heading is '{Prefix}/<slug>'; found '{heading}'"));
             else if (!ClosedSets.IdPattern.IsMatch(slug))
                 findings.Add(Finding.Fail("question.slug", file, $"line {line}: '{slug}' is not a lowercase slug"));
             else if (!slugs.Add(slug))

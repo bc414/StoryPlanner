@@ -7,7 +7,7 @@ namespace StoryPlanner.DocIntegrity;
 /// <summary>
 /// schemas/findings-schema.md (d-2026-09-09-13 to -16): a verification's analysis. The engine
 /// holds the shape; this class holds the rules the schema's Checks name: the title and the
-/// study, the entry headings, the question token against the study's corpus and its
+/// study, the entry headings, the question token against the question list and the study's
 /// directions' frontmatter, the citations against the batch's directions and index, the
 /// supersedes chain, the withdrawn lines, and the shortcoming parts. It also reads a file
 /// for the state render: which questions its standing findings answer.
@@ -55,7 +55,6 @@ public static class FindingsChecker
             findings.Add(Finding.Fail("findings.title", file, $"the title is '# {title}', the id of the study whose folder holds the file"));
         if (!study.StartsWith(VerificationPrefix, StringComparison.Ordinal))
             findings.Add(Finding.Fail("findings.title", file, $"'{study}' is not a verification's id; findings belong to a verification"));
-        var corpus = CorpusOf(study, ctx.CorporaIds);
 
         // ---- the batches under the study, for citations and the frozen questions ----
         var batches = new Dictionary<string, (DirectionsFile? Directions, IReadOnlyList<string> Items)>(StringComparer.Ordinal);
@@ -123,10 +122,8 @@ public static class FindingsChecker
             if (question is not null)
             {
                 var qLine = pos?.FieldLines.GetValueOrDefault("question", line) ?? line;
-                var qSlash = question.IndexOf('/');
-                var qCorpus = qSlash < 0 ? question : question[..qSlash];
-                if (corpus is not null && qCorpus != corpus)
-                    findings.Add(Finding.Fail("findings.question", file, $"line {qLine}: '{question}' is not a question of the study's corpus '{corpus}'"));
+                if (!question.StartsWith(Questions.Prefix + "/", StringComparison.Ordinal))
+                    findings.Add(Finding.Fail("findings.question", file, $"line {qLine}: '{question}' is not '{Questions.Prefix}/<slug>', a question list entry's token"));
                 if (batches.Count > 0 && !frozen.Contains(question))
                     findings.Add(Finding.Fail("findings.question", file, $"line {qLine}: '{question}' is not in the frontmatter of the directions the study's batches name; a finding answers a frozen question or names none"));
             }
@@ -233,14 +230,6 @@ public static class FindingsChecker
         }
         Flush();
         return entries;
-    }
-
-    /// <summary>The corpus a verification's id names, the longest corpus id its remainder starts with; null when none is known.</summary>
-    static string? CorpusOf(string study, IReadOnlySet<string> corpora)
-    {
-        if (!study.StartsWith(VerificationPrefix, StringComparison.Ordinal)) return null;
-        var rest = study[VerificationPrefix.Length..];
-        return corpora.Where(c => rest == c || rest.StartsWith(c + "-", StringComparison.Ordinal)).OrderByDescending(c => c.Length).FirstOrDefault();
     }
 
     static string Truncate(string s) => s.Length <= 60 ? s : s[..60] + "…";

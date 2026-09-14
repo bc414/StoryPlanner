@@ -109,8 +109,8 @@ public class RenderTests
     public void Ids_that_merge_once_hyphens_are_dropped_are_refused_before_drawing()
     {
         using var f = MapFixture.With(MapFixture.SkillFile,
-            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
-            "| results | docs/v3-framework/<container>/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| assemblerefereebatch | docs/x.md | frozen | | Collides with assemble-referee-batch |");
+            "| results | docs/v3-framework/<container>/<home>/batches/<batch>/results/ | frozen | | The model's answers as rendered |",
+            "| results | docs/v3-framework/<container>/<home>/batches/<batch>/results/ | frozen | | The model's answers as rendered |\n| assemblerefereebatch | docs/x.md | frozen | | Collides with assemble-referee-batch |");
         Assert.Throws<MapFormatException>(() => MermaidRenderer.CheckNodeIds(f.Doc));
     }
 

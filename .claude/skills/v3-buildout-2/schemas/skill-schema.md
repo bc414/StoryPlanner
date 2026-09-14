@@ -153,15 +153,15 @@ description: An example skill for the process map tests.
 |---|---|---|---|---|
 | hypothesis-record | docs/v3-framework/hypotheses/NNN-slug.md § Record | append | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | The evidence relationship |
 | hypothesis-origin | docs/v3-framework/hypotheses/NNN-slug.md § Origin | frozen | [hypothesis-file-schema](schemas/hypothesis-file-schema.md) | Why one hypothesis exists |
-| question-list | docs/v3-framework/questions/<corpus>.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions |
+| question-list | docs/v3-framework/questions.md | append | [question-entry-schema](schemas/question-entry-schema.md) | Brian's open questions |
 | studies | docs/v3-framework/studies.md | append | [study-registry-schema](schemas/study-registry-schema.md) | One row per study |
 | candidates | docs/v3-framework/studies/<study>/candidates.md | in-place | | A generated view, never hand-edited |
 | directions | docs/v3-framework/studies/<study>/directions-N.md | succeeded | [directions-schema](schemas/directions-schema.md) | The system prompt of a batch's calls |
 | calibration | docs/v3-framework/studies/<study>/calibration-<date>.md | frozen | | One version's agreement |
 | findings | docs/v3-framework/studies/<study>/findings.md | append | | One verification's findings |
-| definition | docs/v3-framework/studies/<study>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under |
-| items | docs/v3-framework/studies/<study>/batches/<batch>/items/ | frozen | | The item bodies |
-| results | docs/v3-framework/studies/<study>/batches/<batch>/results/ | frozen | | The model's answers as rendered |
+| definition | docs/v3-framework/<container>/<home>/batches/<batch>/definition.md | frozen | [definition-schema](schemas/definition-schema.md) | What a batch runs under |
+| items | docs/v3-framework/<container>/<home>/batches/<batch>/items/ | frozen | | The item bodies |
+| results | docs/v3-framework/<container>/<home>/batches/<batch>/results/ | frozen | | The model's answers as rendered |
 
 ## Companions
 

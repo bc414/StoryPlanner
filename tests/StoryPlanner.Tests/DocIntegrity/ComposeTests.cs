@@ -55,7 +55,7 @@ public class ComposeTests : IDisposable
     void BuildTree()
     {
         const string s = "docs/v3-framework/studies/" + StudyId;
-        Write("docs/v3-framework/referee/directions-1.md", RefereeDirections);
+        Write("docs/v3-framework/pipeline/referee/directions-1.md", RefereeDirections);
 
         Write($"{s}/findings.md",
             $"# {StudyId} — findings\n\n## Findings\n\n"
@@ -73,9 +73,9 @@ public class ComposeTests : IDisposable
             + "- finding: Most notes are class a.\n- falsifier: they would have been evenly split\n");
 
         Write($"{s}/batches/02-referee/definition.md",
-            "# 02-referee — definition\n\n- directions: ../../../../referee/directions-1.md\n- kind: full\n- model: sonnet\n");
+            "# 02-referee — definition\n\n- directions: ../../../../pipeline/referee/directions-1.md\n- kind: full\n- model: sonnet\n");
         Write($"{s}/batches/02-referee/index.md",
-            "# 02-referee — index\n\n- itemizer: tools/StoryPlanner.RefereeItemizer, 1\n- corpus: candidates\n- locator notation: <finding-slug> → <target>\n\n"
+            "# 02-referee — index\n\n- collator: tools/StoryPlanner.PipelineCollator, 1, referee\n- locator notation: <finding-slug> → <target>\n\n"
             + "| item | locator | description |\n|---|---|---|\n"
             + "| most-are-a-031 | most-are-a → 031-dt-classes | most-are-a against 031 |\n"
             + "| a-few-are-b-031 | a-few-are-b → 031-dt-classes | a-few-are-b against 031 |\n"

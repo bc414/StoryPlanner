@@ -5151,3 +5151,915 @@ rules names the old id in prose.
 - not taken: working the stack to empty first, which holds the rulings above behind items that
   cannot overturn them; writing this unit's entries at the end of each stack, the practice
   d-2026-09-12-31 declined, as a standing rule.
+
+### Item names what one item is, and grain leaves the skill folder
+
+- id: d-2026-09-13-37
+- date: 2026-09-13
+- raised by: the frame of what a study may take in, where the session used grain for two things:
+  what one item is, and whether one set of criteria can judge items from different corpora.
+  Brian: "First off, what do you mean by grain, exactly? Are there other already established
+  terms or do I have to make one?" The archive showed the word a session's, first in
+  d-2026-09-08-9's "What an item is, its grain, is decided at itemization", never typed by
+  Brian in that sense. Brian: "Let's not use grain and stick to item for sense 1."
+- decision: What one item is is named by item, and the word grain leaves the skill folder:
+  preparing-to-verify-a-corpus § itemize, leads-schema's `seen in` and its `itemizer`
+  shortcoming say what one item is where they said grain. Whether one set of criteria can judge
+  items from different corpora gets no name here; it waits with the shape of a study over
+  several corpora. decisions.md keeps its uses.
+- not taken: grain kept as a defined synonym, a second word for one thing; a borrowed term,
+  unit of analysis or recording unit, where item already names it; one word for both senses,
+  the conflation that raised the entry.
+
+### The buildout keeps one question list, questions.md, its entries headed questions/<slug>, naming no data set
+
+- id: d-2026-09-13-38
+- date: 2026-09-13
+- supersedes: d-2026-09-07-31 d-2026-09-12-13 d-2026-09-12-19
+- raised by: the tie of a question to one corpus, which the archive traced to a spec pool per
+  corpus on 2026-09-03, the assistant's proposal Brian selected, scoping revision 1's
+  per-corpus verification rounds; renamed question lists on 2026-09-05; carried into
+  d-2026-09-07-23 undeliberated; and defended on 2026-09-08 only against a list per study.
+  Brian had opened: "I'm now thinking corpora and batch inputs are no longer tied, and batches
+  can come from itemizers which combine multiple corpora." Then: "If corpora no longer act as
+  the scope key for studies, what are the options for how questions are tracked, and anything
+  else?"; "One question list for the buildout does sound good. Please check against the history
+  to see if this was ever rejected or became unwieldy.", the archive showing it never offered
+  and never rejected; "Single list for questions works."; "questions/slug sounds good. Since
+  explore plan and verify plan are to no longer be restricted to one corpus, but rather one
+  itemizer (which may be built as part of the plan), I don't think any question entry has to
+  name its data set as a checked field."; and "studies.md with the questions header is good.
+  ... Checks changes are fine. state.md one questions section works. The first 3 wording
+  changes are fine."
+- decision: The buildout's questions are one list, `docs/v3-framework/questions.md` beside
+  `studies.md`, the class `question-list`, append for every line, titled `# Questions`, entries
+  only and no head prose. No field names the data sets a question concerns; what a question is
+  about, one corpus's items or several, is not decided here.
+
+  What stands of d-2026-09-07-31: an entry whose id is unique only within its file is headed by
+  the token every other file cites, the file's own id, a slash, then the entry's slug; questions
+  are now `### questions/<slug>`, and leads, proposals and candidates stay `### <study>/<slug>`;
+  the checker holds that the prefix is the file's own id. Of d-2026-09-07-22 through it: the
+  slug is lowercase `[a-z0-9-]+`, unique within the list, authored once and never changed, and
+  cited as one token.
+
+  What stands of d-2026-09-12-19, the file aside: a question entry has no `hypotheses` field. An
+  entry is its heading, then `date`, exact and never earlier than the entry before; `raised by`,
+  why the question exists, the occasion and what raised it and Brian's beliefs, recollections
+  and motivation behind it, what raised it cited by its own token where it has one, as a trail a
+  later session can follow when asked, and `recall` or `carried from the founding pool` where
+  those raised it, under rule 10; `question`, a neutral assertion of what is asked; `suggested
+  test`, present only when one suggests itself, a naive note of procedure that holds whatever
+  the answer and never a belief about it, from Brian or the session, rule 10's quotation marks
+  showing which, never a criterion. A sentence that would be wrong if the study came out a
+  certain way is a belief and belongs in `raised by`. One exact line, and no field with a closed
+  set of forms. `question.hypotheses` stays retired, a `hypotheses` line failing as an unknown key
+  under `question.entry.fields`. A question reaches a hypothesis only through a finding, at
+  claiming, blind and against the current set; no writer of the list reads a hypothesis to fill
+  an entry, and state.md shows no hypotheses per question and no open questions per hypothesis.
+  The hypothesis statements `review-leads` and `review-findings` read for their handoff to
+  minting are untouched.
+
+  What stands of d-2026-09-12-13: `asking-a-question` is an activity of the Router, its file
+  `asking-a-question.md`, with one hitl process, `write-question`, which now reads and writes
+  `question-list` and no longer reads `corpora`; it invokes no instrument; its state is `built`.
+  It composes the entry from the deliberation under rule 10 and shows it to Brian before writing
+  it. It enables preparing-to-explore-a-corpus and preparing-to-verify-a-corpus, nothing enabling
+  it. It is the route for a question that arises where no activity's own processes cover the
+  asking; a question raised inside an activity that writes questions stays that activity's, and
+  reviewing-leads keeps `review-leads` and its question paragraph. The founding record's entry of
+  2026-09-05, *Questions are written only by hitl processes*, is history as to the merge; its
+  ruling that every writer of a question list is hitl stands, and is what
+  `question-list.writer-not-hitl` holds. The id `asking-a-question` is Brian's. Its procedure
+  loses reading CORPORA.md for the corpus Brian names and "Which corpus the question is about is
+  his", and its § Never loses filing a question under a corpus he did not name.
+
+  Checks: `question.title` fails when the title is not `# Questions`; `question.slug` when a
+  heading is not `questions/<slug>` with a lowercase slug, or repeats a slug in the list;
+  `findings.question` when a question token is not `questions/<slug>` naming an entry in the
+  list, or is not in the frontmatter of the directions version the study's batches name, its
+  clause on the study's corpus leaving; `directions.frontmatter` holds the new token form.
+  `question.entry.fields`, `question.entry.date` and `question.withdrawn` stand. state.md's
+  per-corpus tables become one `## Questions` section. explore-plan's precondition and row read
+  that if no open question is in view for the plan, Brian's opening question is asked for and
+  written first. Every other "the corpus's question list" in the activity files and schemas
+  reads the question list. corpora-schema's line reads the corpus ids the registry uses.
+  § Vocabulary's question is d-2026-09-13-56's, and rule 3's clause on questions leaves with its
+  rewrite (d-2026-09-13-50).
+- not taken: scoping questions by itemizer, unbuilt ones included, which fixes the item and the
+  itemizer when a question is asked, before verify-plan fixes them, and leaves a question with no
+  suitable itemizer homeless; per-corpus lists with a question on several filed in each, the
+  duplication that raised the entry; a list per combination of corpora, which fixes the sets at
+  asking time; a field naming a question's data sets, which no plan needs once plans take one
+  itemizer; a bare slug as the token, which a grep cannot tell from same-named slugs elsewhere.
+
+### The six per-corpus question lists become questions.md: ten entries carried, the two loop entries replaced by two questions of two corpora each, the old files deleted
+
+- id: d-2026-09-13-39
+- date: 2026-09-13
+- raised by: d-2026-09-13-38, whose one list the twelve entries on disk had to enter, two pairs of
+  them sharing a slug. The session read each pair as one question filed twice. Brian: "Merge the
+  pairs and preserve the rest."; then, on the merged drafts, "Actually, these don't need to be
+  merged. Here is what happened, and the questions require something more complex. First, one
+  analysis-loop-pattern wanted to study the v1 loop, which requires data from v1-archive and
+  lineage. Second analysis-loop-pattern wanted to study the v2 loop, which requires data from v2
+  and conversations. So the merge was wrong. It's not that there was one question that had two
+  corpora and was written twice. It's that there were two questions that needed 4 corpora, both
+  questions were written but only with 1 of 2 corpora taken into account. For
+  note-relationships-in-prose this is also two separate questions, one in v1-archive and one in
+  v2."; then "The reworded question clause does not apply here because we are upending the shape.
+  The two reworded questions and slugs are fine. ... Entry order is fine. The six old files can
+  be deleted. The one citation can be modified. Leave decisions.md's historical wording."; and,
+  shown the two new entries, "The two entries stand."
+- decision: Executed once, from this entry. `questions.md` holds the entries in date order and,
+  within a date, in the order of the old files' names and of each file's own entries:
+  - the ten entries other than the two pairs, each carried verbatim under `questions/<slug>` with
+    its old slug;
+  - `v1-archive/note-relationships-in-prose` and `working-plan/note-relationships-in-prose`, two
+    questions, carried verbatim as `questions/v1-archive-note-relationships-in-prose` and
+    `questions/working-plan-note-relationships-in-prose`;
+  - in the places of `conversations/analysis-loop-pattern` and `lineage/analysis-loop-pattern`,
+    two new entries dated 2026-09-13 with their raised by as shown to Brian:
+    `questions/v2-analysis-loop-pattern`, what the v2 loop of using the model and harness with
+    the story plan data was, as the conversations corpus and the working plan record it; and
+    `questions/v1-analysis-loop-pattern`, what the v1 loop was, as lineage and the v1 archive
+    record it.
+
+  The two old loop entries are neither carried nor withdrawn: the class changes shape, and no
+  question is reworded within it. The one citation inside a carried entry, "Asked beside
+  v1-archive/humor-warmth-prior-belief-setups." in `goals-no-track-type-names`, is conformed to
+  `questions/humor-warmth-prior-belief-setups`, which changes nothing it records. The six files
+  under `docs/v3-framework/questions/` are deleted, git holding them. decisions.md's citations of
+  `v1-archive/scene-detail-scrap-rate` keep their words.
+- not taken: merging each pair into one entry naming two corpora, drafted from a misreading of
+  what the pairs asked; withdrawing the two loop entries beside their replacements, the rule for
+  a reworded question applied to a class being replaced; prefixing every carried slug with its
+  old corpus, which renames eight entries no collision touches; a historical copy of the six
+  files, a second copy of entries carried verbatim.
+
+### The audit retires entirely
+
+- id: d-2026-09-13-40
+- date: 2026-09-13
+- supersedes: d-2026-09-08-7
+- raised by: the frame of what a study may take in, which listed the skill's own text as an
+  audit's input. Brian: "The skill's text as input for an audit should just be retired as a use
+  case. No need for that complexity. the old skill is so outdated compared to the new setup that
+  it would be noise."; "Frame Audit retirement first. check for consequences. Killing it should
+  make the rest of the decisions easier by lowering scope."; and "Retire the audit entirely." The
+  archive showed the audit built for one instance: on 2026-09-03 Brian typed "Then at the end, we
+  have to compare the new from scratch skill with the old one (a separate agent, perhaps? the
+  adversarial insight kicking in)", and on 2026-09-05 "Consider the agent runner for skill audit
+  the 2nd level of linting after the validator tool."; its one downstream use, the omissions
+  adjudication, was closed by d-2026-09-09-10.
+- decision: The audit leaves the method. revising-the-method loses `assemble-audit-batch` and
+  `assess-audit-items` with their sections, the second lint, the frame's item on audit units, the
+  revision note's omissions list, and its § Never lines on swapping a rewrite in before both
+  lints and on what the auditor is given; `revise` no longer reads `results` and `tally` or
+  writes `studies` and `directions`. The validator alone gates a revision, a wholesale one
+  included, and a rewrite built in a sibling folder is swapped in when it passes. SKILL.md's
+  router description of revising-the-method, the `audit-of-<slug>` placeholder and § Vocabulary's
+  audit leave; rule 5's list is d-2026-09-13-54's. study-registry-schema loses the `audit` type,
+  the `audit-of-<slug>` id, the corpus value `skill`, its Example row and revising-the-method as a
+  writer, `registry.type`, `registry.id` and `registry.corpus` changing with it. index-schema's
+  `corpus` loses `skill` (d-2026-09-13-49), and directions-schema its audit clauses, with
+  `directions.frontmatter` and `directions.sections`. In DocIntegrity, `audit` leaves
+  SchemaCheckers' types and id handling, `skill` leaves `ExtraCorpora`, and StateBuilder's audit
+  chain goes, with their tests. `tools/StoryPlanner.MarkdownItemizer`, used by nothing but the
+  audit, is deleted with its solution entry, the test project's reference and
+  `MarkdownItemizerTests`. The agent-runner skill loses its audit examples. The founding record's
+  entry of 2026-09-05, *The supersession audit is the method's second lint*, is history, and
+  `docs/v3-framework-historical/skill-audits/` stays closed.
+
+  What stands of d-2026-09-08-7: a study is one directory, `docs/v3-framework/studies/<study>/`,
+  named by its registry id; at its top its authored artifacts, its `directions-N.md` versions and
+  their `calibration-<date>.md` files, and nothing else; under `batches/<batch>/` one folder per
+  batch holding what that execution took in and produced. No itemizer sits in it, an itemizer
+  being a tool under `tools/`. The registry `studies.md` sits beside `studies/`. The smoke test is
+  the runner's own check; `fanout/` and the word work are gone; the launch folder outside the repo
+  is unchanged. Which batches a study's folder holds is d-2026-09-13-41's.
+- not taken: the audit retired and wholesale rewrites also forbidden once the swap lands, which
+  rules out a future from-scratch revision; the audit skipped for this swap and its machinery
+  kept for a rewrite no one has proposed.
+
+### A study is not one set of directions over one itemizer: its folder holds its whole chain, and each batch sits under what it serves
+
+- id: d-2026-09-13-41
+- date: 2026-09-13
+- supersedes: d-2026-09-08-3 d-2026-09-08-14
+- raised by: telling apart the runner's two uses, which found § Vocabulary's study, one set of
+  directions over one itemizer's items under one model, beside claiming and referee batches that
+  sit in a verification's folder under other directions and another tool, and `definition.model`
+  requiring one model across a study while a referee batch runs the model the referee's
+  calibration measured. The session proposed a home for pipeline batches outside study folders.
+  Brian: "To clarify, pipeline steps are one use case of the runner. The current discussion is
+  about corpus data or derived corpus data itemizers going into the runner. Completely separate
+  uses of agent runner which need to be distinguished."; "'Study batches' cannot work, because
+  think about what a study has. One example is that it runs a few verification calibration
+  samples, then it runs the full batch. Then that same study has to do a claiming batch, and then
+  a referee batch."; and "To clarify, I do think the kinds of inputs allowed is birfurcated along
+  the separation you listed, but that doesn't mean locations should vary. And yes, a study is not
+  one set of directions and one itemizer. Re-verify batches are under iterations/."
+- decision: A study is the life of one set of its own directions over the items of one itemizer
+  under one model and effort, registered at Brian's go, one folder holding its batches; a
+  verification's folder also holds the claiming and referee batches its chain runs under the
+  pipeline directions. A different model, itemizer or set of its own directions is a different
+  study, the directions the same file named by path, the calibration its own, the id's slug
+  carrying the model when that is what differs. A batch sits under what it serves: a study's
+  calibration samples, full batches, and claiming and referee batches under
+  `studies/<study>/batches/`; an iteration's re-verify batches under `iterations/`; the pipeline
+  directions' calibration samples in their own folders (d-2026-09-13-43). What a batch may take
+  in follows its use (d-2026-09-13-50); where it sits does not. Which use a batch serves is read
+  from the directions its definition names, and nothing records it. `definition.model` fails when
+  another definition naming the same directions version names a different model. § Vocabulary's
+  study and batch are d-2026-09-13-56's.
+
+  What stands of d-2026-09-08-3: no folder level sits between a study and its batches; an itemizer
+  is code with tests under `tools/`, outside the record, run once per batch, writing the batch's
+  index and item bodies into the batch folder; a study holds no itemizer, and a second study
+  cutting the same corpus the same way runs the same tool into its own folders; item bodies are
+  regenerable and uncommitted; the index is committed and names the tool that wrote it
+  (d-2026-09-13-49); each call hashes the item it received.
+
+  What stands of d-2026-09-08-14: a comparison is always between studies; where two share their
+  directions, the tally compares them item by item and the agreement per class is a finding of a
+  verification, a candidate like any other; for two explorations, the review reads both leads
+  artifacts and their differences are leads about the readers, never counted; no arm, no bin, no
+  reason assigned at a join, no key, no blinding, the runner knowing nothing of a comparison; the
+  arm-key row and schema, the leads schema's Bins section and the Never lines about opening the
+  key stay gone, and § Vocabulary keeps comparison. Its third branch, a study of its own over the
+  artifacts compared, and its sentence on rule 3's guard, are retired by d-2026-09-13-50.
+- not taken: a home for pipeline batches outside study folders, which splits one verification
+  across two folders against the registry's chain and Brian's "It is one step in verification.";
+  pipeline batches left in the study folder with a line marking their use and a condition in
+  every check that assumes a study batch; the uses told apart in words only, which leaves
+  `definition.model` failing the first referee batch in a study that runs another model.
+
+### The claiming directions follow the referee's: one version for the method, the hypothesis set carried in each item
+
+- id: d-2026-09-13-42
+- date: 2026-09-13
+- supersedes: d-2026-09-10-6
+- raised by: telling apart the runner's two uses, which found the claiming directions with no
+  home. Brian: "The claiming directions should follow whatever is established for referee
+  directions. What is that?" The referee's: one set for the method at one hash, rule 2 and
+  d-2026-09-08-5; in a folder of its own belonging to no study; governed by reference
+  (d-2026-09-08-25); reached by the path a definition names (d-2026-09-08-4); authored and
+  calibrated once and revised only on a ruling; no questions in its frontmatter. d-2026-09-10-6 had
+  carried the hypothesis set in the claiming directions' body, so that every mint or reword would
+  be a new version. Offered the set moved into each item, Brian: "Go with option A".
+- decision: The claiming directions are one set for the method, as the referee's are: versioned in
+  their own folder (d-2026-09-13-55), belonging to no study, governed by reference, reached by the
+  path a claiming batch's definition names, authored and calibrated in preparing-pipeline-directions
+  (d-2026-09-13-46) and revised only as d-2026-09-13-45 says, their frontmatter carrying no
+  questions. A claiming item holds the current hypothesis set, each statement, then one standing
+  finding's text; the directions hold the criteria and what to produce, and a change to the
+  hypothesis set changes no directions. Whether the CLI caches the set as a repeated opening of the
+  message across calls is not established here.
+
+  What stands of d-2026-09-10-6: `assess-claim-items` is a per-finding runner batch, one call per
+  standing finding; a claiming call asserts only relevance, which hypotheses the finding bears on,
+  never a direction, supporting or challenging being the referee's alone; claims are the claiming
+  batch's own results on disk, not a separate authored artifact, and a candidate is a
+  (finding-token, target) drawn from them; a claiming call's output is a bare list of the hypothesis
+  file names the finding bears on, each a real hypothesis, the list possibly empty, with no reason.
+  The model a claiming batch runs is the one its directions version's calibration measured, and the
+  calibration is d-2026-09-13-44's, where that entry left the model a free parameter and the
+  calibration to the first study.
+- not taken: the hypothesis set kept in the directions with a new version at every change of the
+  set, which departs from the referee's one version and yields a stream of uncalibrated versions;
+  directions composed per batch from fixed criteria and the current set, a composed body whose hash
+  `definition.calibration` would have to exempt; claiming directions per verification at the
+  study's top, a second set of directions in one study.
+
+### The referee's and claiming's folders hold their own calibration batches, laid out as a study's
+
+- id: d-2026-09-13-43
+- date: 2026-09-13
+- supersedes: d-2026-09-08-5
+- raised by: the list of every kind of batch, which found the referee's calibration sample spanning
+  several hypotheses and verifications while d-2026-09-08-5 put its calibration batches under one
+  verification's folder, and a calibration citing its batch as `<study>/<batch>`. d-2026-09-08-5 had
+  declined "a standing folder that also holds batches, a second home for the definition class", and
+  `iterations/` later became such a home through `<container>`. Brian: "Go with A".
+- decision: The referee's directions and calibrations, and claiming's, each sit in a folder of their
+  own laid out as a study's: the directions versions, their calibrations beside them, and `batches/`
+  holding their calibration samples and nothing else. A calibration there cites its batch as
+  `referee/<batch>` or `claiming/<batch>`. Their full batches sit under what they serve
+  (d-2026-09-13-41). The folders' paths are d-2026-09-13-55's.
+
+  What stands of d-2026-09-08-5: every candidate of every verification is judged under the same
+  referee directions at the same hash, the referee being one part of the method that a verification
+  runs and never authors, a sentence of the constitutional rules whose wording is now
+  d-2026-09-13-52's; the referee's directions and calibrations belong to no study; they are authored
+  and calibrated once, with a sample spanning several hypotheses and verifications, and again only
+  when a ruling changes them, now in preparing-pipeline-directions (d-2026-09-13-46); refereeing is a
+  step of each verification, its full batches under the verification's folder, their definitions
+  naming the referee's directions by path; a calibration file cites the batch it came from; the
+  referee's items are cut by a tool reading the claiming results, the findings and the targets'
+  statements, a collator (d-2026-09-13-47); the `referee-<n>` rows, the registry's exceptions for
+  them and state.md's referee chain stay gone.
+- not taken: the calibration sample under one verification's folder with items drawn from others,
+  a part of the method owned by an arbitrary study; a sample drawn from one verification alone,
+  narrower than d-2026-09-08-5 asked and each recalibration owned by whichever verification prompted
+  it.
+
+### Claiming is calibrated per (finding, hypothesis) pair, recall deciding acceptance
+
+- id: d-2026-09-13-44
+- date: 2026-09-13
+- raised by: d-2026-09-13-42, under which claiming's directions follow the referee's, which are
+  calibrated, while claiming's answer is a bare list with no classes and d-2026-09-13-18 gave a
+  definition `kind` and `calibration` only when the directions have Classes; rule 4 covered
+  verifications and explorations and not claiming. A missed pair never reaches the referee or
+  Brian; an extra pair costs one referee call. d-2026-09-10-6's "Calibration stays the first
+  study's" was a session's sentence. Brian: "Option 1".
+- decision: Claiming's directions are calibrated before their first batch. The calibration sample
+  is drawn from standing findings across several verifications; Brian marks, blind, which
+  hypotheses each sampled finding bears on; agreement is read per (finding, hypothesis) pair, recall
+  and precision separately, recall deciding acceptance, the criteria tuned to over-include. A
+  claiming directions version is calibrated for the model its calibration measured, and its batches
+  run that model. calibration-schema says that claiming's agreement is read per pair. When a
+  definition carries `kind` and `calibration` is d-2026-09-13-57's, and rule 4's wording
+  d-2026-09-13-53's.
+- not taken: claiming piloted as an exploration is, recall never measured and a missed pair
+  invisible; claiming run with no gate, rule 4 leaving a set of directions it does not cover.
+
+### A general ruling at promotion or baselining, or a change of model, sends the pipeline directions back for revision
+
+- id: d-2026-09-13-45
+- date: 2026-09-13
+- raised by: d-2026-09-13-44, calibrating claiming with nothing that sends its directions back; only
+  the referee had a route, promote's step 3, "A ruling that shows the referee wrong in general is
+  what sends its directions back". Brian asked "Is this only about the bootstrapping of setting up
+  the referee and claiming instructions for SOP?", the session showing the preparation recurring on
+  each such ruling and on a change of model. A missed claim has no candidate to decline and no side
+  door into the pipeline. Brian: "Go with A".
+- decision: The referee's directions go back for revision on Brian's ruling at promotion that the
+  referee is wrong in general, as promote's step 3 has it; claiming's on his ruling, at promotion or
+  at baselining, that claiming misses pairs in general. A missed pair is written as no candidate: it
+  enters the next claiming calibration's sample, and that calibration's Rulings record it with his
+  reason. A change of model sends either set back for a new calibration. A hypothesis added to the
+  set sends neither back. The route is preparing-pipeline-directions (d-2026-09-13-46), named in
+  promote's step 3 and in baselining in prose and by no enables edge, the graph being acyclic.
+- not taken: recalibrating claiming whenever the hypothesis set gains a hypothesis, a heavy blind
+  task after every mint that blocks refereeing until it ends; a missed pair Brian notices written
+  as a claim by hand, a side door into the evidence pipeline.
+
+### The pipeline directions are prepared in their own activity, preparing-pipeline-directions, which opens with a plan
+
+- id: d-2026-09-13-46
+- date: 2026-09-13
+- raised by: preparing-to-verify-a-corpus's preconditions carrying the referee's preparation as a
+  clause, "the corpus is the candidates of every verification, the itemizer is the referee's
+  materialising tool, the question is the pipeline's own …, and the activity stops after
+  `calibrate`", a variant the founding record's referee-as-study of 2026-09-05 left behind when
+  d-2026-09-08-5 ruled the referee no study; claiming now needing the same. Brian asked "You're
+  saying copies of the authoring and calibration procedure can drift apart. But are there already
+  different copies, or ought to be? Are they actually different or the same?"; the session found
+  authoring and sampling different in substance, assessing and calibration's mechanics the same,
+  and what must not drift already held by the schemas. Brian: "Go with option 1"; on the missing
+  counterpart of `verify-plan`, "Go with A"; and on the rows and the id, "This is good. Go with
+  preparing-pipeline-directions".
+- decision: `preparing-pipeline-directions` is an activity of the Router that prepares the referee's
+  and claiming's directions, one of the two per execution, as what started it names. Its processes,
+  in order:
+  - `plan-pipeline-directions`, hitl: the session presents what started it, the current version
+    and its calibration; Brian fixes the model and effort, what the sample draws from with its
+    strata and held-out split, and for a revision the rulings the new version must answer; each is
+    recorded in the file it governs, and his approval is the go;
+  - `collate-pipeline-sample`, session: the collator cuts the sample into the folder's `batches/`;
+  - `author-pipeline-directions`, hitl: a new version written against the collated items;
+  - `assemble-pipeline-sample-batch`, session: the definition under the draft version with the
+    plan's model and effort, dry-run-batch, and execute-batch as the hand-off;
+  - `assess-pipeline-sample-items`, agent: one call per sample item under the draft;
+  - `calibrate-pipeline-directions`, hitl: Brian scores blind; agreement is read per class for the
+    referee and per pair for claiming; a ruling that changes a criterion makes a new version; the
+    calibration is accepted at a hash or not.
+
+  It enables surfacing-candidates and iterating-a-statement. preparing-to-verify-a-corpus loses the
+  referee clause and its enables edge to surfacing-candidates, which reviewing-findings still
+  enables. Its first execution for each set is the bootstrap, begun at Brian's go; later ones are
+  started as d-2026-09-13-45 says.
+- not taken: the referee's clause kept in preparing-to-verify-a-corpus, reworded for both sets and
+  named the deliberate exception, a case with no corpus, study, question or itemizer inside an
+  activity named for a corpus; authoring and calibrating split into one activity both paths share,
+  reshaping every study's frequent preparation for the rare one; planning folded into authoring, the
+  sample's span fixed after its items are cut; the model and span fixed as defaults in the activity's
+  text, against Brian's "just don't specify a model, let that be parameterizable for this process";
+  `preparing-to-surface-candidates`, which names one of the two activities it enables;
+  `preparing-the-referee-and-claiming`, stale if a third set appears.
+
+### An itemizer cuts corpora; a collator collates a pipeline batch's items from the method's own files
+
+- id: d-2026-09-13-47
+- date: 2026-09-13
+- raised by: § Vocabulary's itemizer, "code with tests under `tools/` that cuts a corpus into
+  items", beside surfacing-candidates' "The claiming itemizer" and iterating-a-statement's "the
+  reverify itemizer", one word for two tools whose inputs Brian had ruled apart. On 2026-09-09 he had
+  typed "referee has to get an itemizer built, and its corpus is the governed files set that are
+  relevant (candidates.md for a study, hypothesis files). An SOP itemizer has a corpus like
+  v1-archive or fimfiction-stories." Offered one word with the split carried by the input rule,
+  Brian: "Go with option 2, having the vocabulary reinforce the split"; and, of the words checked
+  against the skill, assembler, composer, materializer, builder, binder and joiner each colliding,
+  "Go with collator".
+- decision: An itemizer is a tool that cuts corpora into items. A collator is a tool that collates a
+  pipeline batch's items from the method's own files its activity names: a claiming item from the
+  hypothesis set and a finding, a referee item from a statement and a finding, a re-verify item from
+  a proposed wording and a frozen finding, and the calibration samples of these. Both are code with
+  tests under `tools/`, run once per batch, writing the batch's index and item bodies, and both are
+  built under building-a-tool, whose preconditions name a collator beside an itemizer. The two kinds
+  of batch get no names of their own. surfacing-candidates, iterating-a-statement and
+  preparing-pipeline-directions name the tool a collator, and the new activity's row is
+  `collate-pipeline-sample`. § Vocabulary's entries are d-2026-09-13-56's, the project's name
+  d-2026-09-13-48's, the index head d-2026-09-13-49's.
+- not taken: one word for both tools with the split stated only in rule 3, which Brian declined for a
+  vocabulary that shows it; names for the two kinds of batch, derivable from the directions a
+  definition names; assembler, beside four `assemble-*-batch` processes; composer and materializer,
+  beside `compose-candidates` and its materialised view; builder, beside building-a-tool; binder,
+  beside an entry bound to a wording; joiner, beside the retired join and corpora never joined; a
+  compound on item, which carries one of those collisions.
+
+### The SurfacingItemizer project becomes StoryPlanner.PipelineCollator
+
+- id: d-2026-09-13-48
+- date: 2026-09-13
+- raised by: d-2026-09-13-47, under which `tools/StoryPlanner.SurfacingItemizer` is a collator, its
+  name also too narrow, its `reverify` subcommand serving iterating-a-statement and the tool now
+  cutting preparing-pipeline-directions' samples. Brian: "PipelineCollator works".
+- decision: The project is `tools/StoryPlanner.PipelineCollator`: its folder, project file, namespace
+  and `Itemizers.cs` take collator names; the solution entry and the test project's reference
+  follow; `SurfacingItemizerTests` becomes the collator's test file; the tool line of the indexes it
+  writes names the new project. decisions.md's mention keeps its words.
+- not taken: `StoryPlanner.Collator`, no longer unique if a second collator is built; keeping
+  `SurfacingItemizer`, a name the vocabulary now contradicts.
+
+### An index head names exactly one of itemizer or collator; corpus and utilizes corpora go only with itemizer
+
+- id: d-2026-09-13-49
+- date: 2026-09-13
+- supersedes: d-2026-09-13-5 d-2026-09-13-8
+- raised by: d-2026-09-13-47, under which the head's required `itemizer` would name a collator for
+  every claiming, referee and re-verify batch, and its `corpus` would hold `candidates`, a value
+  naming neither a corpus nor what the collator read, while a collator batch's locators already say
+  what each item came from. The runner reads no head key. Brian: "Go with A".
+- decision: An index head carries exactly one of `itemizer` or `collator`, a line naming the tool
+  that wrote the index as `tools/StoryPlanner.<Name>` or a script's path, with its version or
+  commit. `corpus`, an id in CORPORA.md, is present exactly when `itemizer` is; `candidates` and
+  `skill` leave its values. `utilizes corpora`, optional and only beside `itemizer`, a list of ids in
+  CORPORA.md, names the other corpora the itemizer read to cut, label or fill the items, never
+  repeats `corpus`, and carries no hash. `narrowing`, optional for either tool, a line, states in
+  words the condition in the tool's code that chooses which items the batch holds, absent when every
+  item is taken. `locator notation` is required; `source hash` stays optional, when the source is one
+  document. The key order is `itemizer` or `collator`, `corpus`, `utilizes corpora`, `narrowing`,
+  `locator notation`, `source hash`; `utilizes outputs` leaves (d-2026-09-13-50). `index.head` fails
+  when a key is missing, unknown or out of order; when both or neither of `itemizer` and `collator`
+  are present; when `corpus` is present without `itemizer` or absent with it; when `corpus` or a
+  `utilizes corpora` value is not an id in CORPORA.md, or `utilizes corpora` repeats `corpus`; and
+  when `source hash` is present and not a SHA-256. index-schema's prose, its Example and the `index`
+  Artifacts row say what retrieves an item from its source, the Example showing an itemizer head
+  with no `utilizes outputs`. The runner's messages say the itemizer or collator regenerates missing
+  bodies. d-2026-09-09-4 still backs `index.head` and is not superseded.
+
+  What stands of d-2026-09-13-5 and d-2026-09-13-8 is restated above: `utilizes corpora` as the
+  first had it, beside `itemizer` only, and `narrowing` as the second had it, for either tool.
+- not taken: one neutral key naming either tool, a file that no longer shows the split Brian chose;
+  two index classes at one path, which the path cannot tell apart, governance moving to the
+  definition's reference.
+
+### Rule 3 is the input rule: itemizers read corpora, collators read the method's own files
+
+- id: d-2026-09-13-50
+- date: 2026-09-13
+- supersedes: d-2026-09-13-2 d-2026-09-13-6 d-2026-09-13-7 d-2026-09-13-14
+- raised by: rule 3's clauses, whose revision-1 grounds, a verification pass per corpus and
+  synthesis as their consumer, had gone. Brian: "Rule 3 seems like it is no longer reflective of the
+  new setup. The clauses that back 'verification debt' need to be rewritten at some point in this
+  deliberation, not patched."; on rewriting it as the input rule, "Option 1 works"; on the input
+  rule's split, "Go with option 1"; and of the premature entries, "the premature decisions about the
+  corpora were about these points, but they didn't get the proper deliberation since it was in the
+  middle of (prematurely) looking at hypotheses." The archive showed exploration over findings the
+  assistant's proposal of 2026-09-12 for synthesis's comparison across corpora, after Brian had typed
+  "It would be reading and comparing verified artifacts, which is a subjective thing, not going over
+  itemized units." Brian: "VoiceAttribution's development is incomplete. Once the skill is done, it
+  ought to become a proper itemizer"; "Let's keep verification results as not valid for now."; "What
+  if standing findings cannot be used as input to an itemizer, but their analytical content is used
+  to inform the plan of what code to write for a new itemizer, which uses the corpora for input?";
+  "Results and Two studies' outputs, compared - these seem like variations of standing findings, all
+  pointing to the same potential actual use case of using these things to build a new itemizer.";
+  "Deterministic outputs over corpus data like attribution.csv is not necessary. Remember that
+  VoiceAttribution still has work to do to become a proper itemizer; no need to carve out a special
+  case for where things stand now."; "Yes, but with the minor correction that findings, results,
+  leads and analyses may inform the itemizer's logic too."; "What I meant by 'analyses' is the leads
+  and findings which can inform itemizer design. Don't include that term because it's imprecise.";
+  "Anything can inform an itemizer's code; it is not limited to just leads and findings or other
+  outputs like evidence or results."; and, shown the draft, "That definition and new draft work."
+- decision: Rule 3 reads:
+
+  3. **Itemizers read corpora; collators read the method's own files.** An itemizer reads corpora,
+     one or several, and derives what it needs from them in its own run; nothing else is its input,
+     though anything may inform how its code is written. A collator reads only the method's own
+     files its activity names.
+
+  The clauses on verification debt, on the buildout's own outputs with their exemption for studies
+  of the method, and "Questions flow freely between corpora; leads wait." leave; rule 2 already
+  holds that exploration produces leads and never evidence. leads-schema loses "until a verification
+  of its corpus has run". Retired with the old text: `verified-findings` as a corpus, and exploration
+  over findings, its CORPORA.md section leaving; d-2026-09-08-14's third branch, a study of its own
+  over compared outputs; and `utilizes outputs`, with the reading of a deterministic tool's stored
+  output, `docs/v3-framework/WU1.4-v1-scene-instincts/attribution.csv` among them, CORPORA.md's
+  v1-archive `read by` line dropping it. A study's results, tallies, leads and findings are never an
+  itemizer's input. preparing-to-verify-a-corpus § itemize and § Never, preparing-to-explore-a-corpus's
+  batch step, directions-schema's What you are given and verifying-a-corpus's writing of a finding
+  lose their words on outputs. What d-2026-09-13-15 deferred, what an itemizer may take from another
+  study, is nothing.
+
+  What stands of d-2026-09-13-2: no state of a corpus is recorded by hash; the pipeline's tools read
+  what their activities give them, now rule 3's collators.
+
+  What stands of d-2026-09-13-6: a known limit of a utilized corpus is said where the reader it bears
+  on looks; the directions' What you are given tells the call what the utilized data in an item shows
+  and what it does not; a finding states in its own words a limit that bounds it, its text being all
+  the referee receives; a limit the results reveal that was not known is a shortcoming, `corpus` or
+  `itemizer`; the standing caveats stay in CORPORA.md and in the tool's own documentation; no field or
+  section is added.
+
+  What stands of d-2026-09-13-7: `registry.type` holds that a study's type is the one its id's prefix
+  names, with no referee case; `registry.corpus` holds that the corpus cell is an id in CORPORA.md,
+  `skill` leaving by d-2026-09-13-40; preparing-to-explore-a-corpus carries no clause for the verified
+  artifacts of promoted verifications; the clause of d-2026-09-09-12 on `hypothesis.evidence.citation`
+  stays retired by d-2026-09-11-15. Its ruling that a question is about one corpus's items does not
+  stand as the list's scope (d-2026-09-13-38), and what a question is about is not decided here. What
+  a comparison of what two corpora's results show is, it left undecided, and so does this entry
+  (d-2026-09-13-61).
+
+  Of d-2026-09-13-14 nothing stands beyond rule 3's text. d-2026-09-13-1 stands; its references to
+  -2, -5 and -6 read through their successors. Of the other entries d-2026-09-13-15 named,
+  d-2026-09-13-9, -11, -12 and -13 and SKILL.md's epistemic opening need no change;
+  d-2026-09-13-10 is d-2026-09-13-59's.
+- not taken: d-2026-09-13-2 restated as it stood, a named exemption predating the single list and
+  the ruling on results; everything an itemizer reads counted a corpus, `candidates`, `skill` and
+  `verified-findings` each an entry with a caveat on who may read it, which puts the buildout's own
+  outputs back under the word; exploration over findings kept, explored only; results as an
+  itemizer's input, which Brian declined for now; verification debt counted per question, which
+  nothing reads, state.md already deriving what covers and answers each question; rule 3 retired
+  and its number left vacant, the guard below the constitutional rules; "analyses" in the rule,
+  which Brian called imprecise; a list of what may inform an itemizer, which Brian ruled
+  unrestricted.
+
+### A corpus is primary-source data; a lossy summary built on it is not corpus data
+
+- id: d-2026-09-13-51
+- date: 2026-09-13
+- raised by: the word corpus, which § Vocabulary never defined and the skill folder used in several
+  roles. Asked whether to retire it, the session found it first a session's word, on 2026-07-01, and
+  typed by Brian since 2026-07-16. Brian: "I'm thinking C, with corpus defined as a set of data
+  available for itemizers. Then all the other usages can be made more precise. But is this the way
+  it is used in the majority of usages today?"; counted, 135 of the folder's 310 uses named data an
+  itemizer reads and 124 used a corpus as the owner or namespace of questions and studies, the rest
+  file names and incidental. On the definition, "A works". Tested against CORPORA.md's entries,
+  Brian: "The historical analyses of fimfiction data are not corpus data."; "own-fiction's analyses
+  are not corpus data. They can not be used for itemizers because they are lossy summaries,
+  equivalent to leads but without the rigor. The same applies to Lineage's weekly summaries. Only
+  lineage's actual conversational text is corpus data, not the lossy summaries built on top of
+  them."; and "You can add the principle to an updated definition of corpora. I'm thinking the
+  distinction is primary source or not, but not sure if that fully overlaps with the principle.
+  Google Doc revision history is in. arc summaries are out. block summaries can be excluded; they
+  are currently not populated at all. Fimfiction's supplementary material is a primary source from
+  me. Perhaps it comes out to: my words, or an AI's direct response to my words. Not an AI lossy
+  summary." The session found that formulation leaving out the fimfiction stories, other authors'
+  fiction, and primary source holding. Brian: "That definition and new draft work."
+- decision: The word corpus stays in the skill folder, defined in § Vocabulary:
+
+  - **corpus**: a set of primary-source data the buildout studies, text as it was written where it
+    was written: Brian's own, another author's, or an AI's reply in the exchange it answered; listed
+    by id in CORPORA.md with where it lives and how it is read; the only input of an itemizer. Never
+    a lossy summary or report made afterwards from other text, and never a file of the method's
+    other artifact classes.
+
+  A lossless view computed from a corpus, such as the Google Doc layer's line diffs beside its
+  snapshots, is how a corpus is read and is not a lossy summary. CORPORA.md is brought to the
+  definition: fimfiction-stories names the stories and Brian's supplementary material, the v4
+  per-story analyses and the meta-analysis reports leaving; own-fiction's self-diagnostic analyses
+  leave; lineage's Gemini weekly reports leave and its Google Doc revision history stays;
+  conversations' arc summaries and block summaries are named as not corpus data; google-keep's Claude
+  Code analysis artifacts are named as not corpus data. The `corpus` Artifacts row's description
+  follows. Uses of corpus as the owner or namespace of questions and studies are reworded where
+  their own decisions land; the planner-wide sense in CLAUDE.md and the `corpora` skill is untouched.
+  Whether code-sessions' compaction summaries and subagent reports are corpus data, and what
+  `read by` names, are not decided here; they sit with the corpora-schema conversion.
+- not taken: the word retired in the skill and the set of data named anew, which rewrites the 178
+  uses that already say what Brian means; his words as typed, "a set of data available for
+  itemizers", availability unanchored so that any readable result or finding satisfies them; a
+  corpus defined as an entry of CORPORA.md, circular; "my words, or an AI's direct response to my
+  words", which leaves out the fimfiction stories.
+
+### Rule 2 names claiming beside the referee
+
+- id: d-2026-09-13-52
+- date: 2026-09-13
+- raised by: d-2026-09-13-42, claiming's directions following the referee's, against rule 2's last
+  sentence naming the referee alone. Shown the draft, Brian: "Looks good, next item".
+- decision: Rule 2's last sentence reads: Every finding of every verification is claimed under the
+  same claiming directions, and every claim is judged under the same referee directions, each at the
+  same hash: both are parts of the method, and a verification runs them and never authors them. The
+  rest of rule 2 is unchanged.
+- not taken: the sentence left naming the referee alone, claiming's one set held only in activity
+  text.
+
+### Rule 4 covers the pipeline directions and says what revises them
+
+- id: d-2026-09-13-53
+- date: 2026-09-13
+- raised by: d-2026-09-13-44 and -45, claiming calibrated and both sets of pipeline directions revised
+  on a ruling or a change of model, against rule 4 covering verifications and explorations, its "the
+  fix is a new version through preparing" naming one preparing activity where there are now two.
+  Shown the draft, Brian: "Looks good, next item".
+- decision: Rule 4 reads: **Directions are calibrated or piloted before their first batch.** A
+  verification's directions, and the method's pipeline directions for claiming and the referee, are
+  authored in a session with Brian, against real items, calibrated against his blind verdicts before
+  their first full batch, versioned by number and by the hash of the body every call cites; a revision
+  is a new version and a new batch, never a re-label. An exploration's directions are piloted on one
+  item before the rest run. A verification whose results show its directions wanting records it as a
+  shortcoming in its findings; the question is Brian's to raise, in reviewing-findings, and the fix is
+  a new version through preparing-to-verify-a-corpus. Pipeline directions are revised only through
+  preparing-pipeline-directions, on Brian's ruling at promotion or baselining that they are wrong in
+  general, or on a change of model.
+- not taken: the pipeline directions' calibration and revision left to activity text beside a rule
+  naming only verifications and explorations.
+
+### Rule 5 lists a claiming call where it listed an auditor
+
+- id: d-2026-09-13-54
+- date: 2026-09-13
+- raised by: d-2026-09-13-40 retiring the audit and d-2026-09-13-42 making claiming a set of pipeline
+  directions, against rule 5's list of `agent` processes. Shown the draft, Brian: "Looks good, next
+  item".
+- decision: Rule 5's list reads a reader of one item, a classifier, a claiming call, the referee, the
+  calibration sample; the rest of rule 5 is unchanged.
+- not taken: the list left naming an auditor the method no longer has.
+
+### The pipeline directions live under docs/v3-framework/pipeline/, and a batch path's second slot is home
+
+- id: d-2026-09-13-55
+- date: 2026-09-13
+- raised by: d-2026-09-13-43, the referee's and claiming's folders holding calibration batches, against
+  the batch classes' path `docs/v3-framework/<container>/<study>/batches/<batch>/`, one level deeper
+  than `referee/batches/`; the referee folder, empty, named in four texts and at three sites in the
+  code, BatchFiles' `DirectionsFile` reading the referee kind from the folder's name. Brian: "Go with
+  A".
+- decision: The referee's directions, calibrations and calibration batches live in
+  `docs/v3-framework/pipeline/referee/`, claiming's in `docs/v3-framework/pipeline/claiming/`.
+  `<container>` is `studies`, `iterations` or `pipeline`, and the slot after it in the six batch
+  classes' paths is `<home>`: a study's id, an iteration's folder, `referee` or `claiming`; `<study>`
+  stays wherever it means a study. `definition.batch` numbers a batch within its home. SKILL.md,
+  directions-schema, calibration-schema and study-registry-schema name the new folders, and the
+  `directions` and `calibration` Artifacts rows the pipeline folders; `Compose.RefereeFolder`,
+  StateBuilder's referee path and `DirectionsFile`'s kind detection follow, the last also reading the
+  claiming kind; surfacing-candidates' and iterating-a-statement's preconditions name the referee's
+  new folder.
+- not taken: `referee/` and `claiming/` as siblings under `docs/v3-framework/`, one level shallower
+  than every other batch and a second path pattern per class; claiming nested in the referee's
+  folder, one peer under the other; `<owner>` for the slot, the planner's word for polymorphic
+  ownership.
+
+### § Vocabulary is brought to this unit's rulings
+
+- id: d-2026-09-13-56
+- date: 2026-09-13
+- raised by: the unit's rulings on questions, studies, the pipeline directions, the input rule, the
+  audit and corpus, each leaving an entry of § Vocabulary wrong or missing. Shown ten drafts, and two
+  options for verification and exploration, whose "over a corpus's items" and "a reading of a corpus"
+  rule 3 now contradicts, Brian: "The ten drafts are good, and go with 1".
+- decision: § Vocabulary reads:
+  - **study**: the life of one set of its own directions over the items of one itemizer under one
+    model and effort, registered at Brian's go, one folder holding its batches, a verification's
+    holding also the claiming and referee batches its chain runs under the pipeline directions; a
+    different model, itemizer or set of its own directions is a different study.
+  - **verification**: a study of the verification type, one execution of calibrated directions over
+    its itemizer's items, its findings the only source of candidates.
+  - **exploration**: a study of the exploration type, a discovery-first reading of its itemizer's
+    items under piloted directions; its output is a leads artifact.
+  - **batch**: one execution of a set of items under one definition; a study's batches are its
+    calibration samples, its full batches and, for a verification, its claiming and referee
+    batches; the pipeline directions' calibration samples sit in their own folders, and an
+    iteration's re-verify batches under `iterations/`.
+  - **item**: the one thing a call judges, cut from corpora by an itemizer or collated from the
+    method's own files by a collator; a slice is an exploration's item, a partition of a corpus; one
+    item may be a corpus whole.
+  - **index**: a batch's list of items, written by its itemizer or collator, with a locator per item.
+  - **itemizer**: code with tests under `tools/` that cuts corpora into items, run once per batch into
+    the batch's folder; it reads corpora and nothing else, and may read several to cut, label and
+    fill the items, which stay the cut corpus's.
+  - **collator**: code with tests under `tools/` that collates a pipeline batch's items from the
+    method's own files its activity names (findings, claiming results, statements, evidence entries),
+    run once per batch into the batch's folder.
+  - **corpus**: as d-2026-09-13-51 defines it.
+  - **comparison**: two studies over the same items read against each other: by the tally where they
+    share their directions, or at the review for two explorations.
+  - **question**: Brian's testable question, in the question list.
+
+  **audit** leaves. itemizer keeps d-2026-09-13-1's "which stay the cut corpus's": what a study and a
+  question are about, and the split of comparison into its senses, are not decided here.
+- not taken: verification and exploration left naming a corpus until what a study is about is
+  decided, the vocabulary contradicting rule 3 meanwhile.
+
+### A definition carries kind exactly when its directions are not an exploration's, and claiming's directions have their own sections
+
+- id: d-2026-09-13-57
+- date: 2026-09-13
+- supersedes: d-2026-09-13-18
+- raised by: d-2026-09-13-44, claiming calibrated with no Classes, against d-2026-09-13-18's `kind`,
+  present exactly when the directions have Classes, under which a claiming batch would carry no
+  calibration and run uncalibrated; directions-schema reading a kind from a study id's prefix or the
+  referee folder, and claiming's directions having no section shape. The session found a list judged
+  per member declared nowhere a checker can read. Brian: "Go with A".
+- decision: directions-schema's kinds are verification, exploration, referee and claiming, read from
+  the study id's prefix or from `pipeline/referee/` or `pipeline/claiming/`. A claiming version's
+  sections are What you are given; Criteria, each entry a rule that decides whether the item's finding
+  bears on a hypothesis, stated generally and numbered from 1; What to produce, a `list of line`
+  field; and Never; with no Classes, no How to read, and no `questions` in its frontmatter.
+  `directions.sections` holds each kind's sections, `directions.criteria` the numbering of every
+  kind's Criteria, and `directions.frontmatter` that `questions` is never the referee's or claiming's.
+
+  What stands of d-2026-09-13-18, `kind` changed: `schemas/definition-schema.md` is the schema of the
+  class `definition`, in the four sections, its Example the checker's fixture; the Artifacts row is
+  `definition` at `docs/v3-framework/<container>/<home>/batches/<batch>/definition.md`, mutation
+  frozen; its fields are `directions`, `kind`, `calibration`, `model` and `effort`; `kind`, `sample`
+  or `full`, is present exactly when the directions are not an exploration's; `calibration` is present
+  exactly when `kind` is `full`; no `index` line, no `tools` line and no `mcp` line, a definition
+  carrying either of the last two failing `definition.fields` as an unknown key; the checks are
+  `definition.batch`, `definition.title`, `definition.fields`, `definition.directions`,
+  `definition.calibration`, `definition.model` as d-2026-09-13-41 has it, and `definition.frozen`;
+  `DefinitionFile` and `Batch.BuildArgs` carry no tools or MCP field.
+- not taken: the condition on a declared output, classes or a list judged per member, which nothing
+  declares; Classes for claiming as one enum field per hypothesis, against Brian's "Yes, bare list"
+  and an output shaped by the size of the set.
+
+### state.md gains a Pipeline directions section
+
+- id: d-2026-09-13-58
+- date: 2026-09-13
+- raised by: the gates on the pipeline directions' calibration, surfacing-candidates' and
+  iterating-a-statement's, shown nowhere in state.md, StateBuilder reading the referee's directions
+  only for question coverage, to which they add nothing, and the pipeline folders' calibration batches
+  under no study. Brian: "Go with A".
+- decision: state.md gains `## Pipeline directions`, derived like its other sections: for the referee
+  and for claiming, each directions version in order with its body hash; which version, if any, is
+  accepted, and the model its calibration batch ran under; and each calibration batch and where it
+  stands, defined, executed or tallied, as `## Studies` shows a study's batches. Nothing in it is
+  authored.
+- not taken: no section, the preconditions reading the folders directly and the gate every
+  verification's surfacing waits on invisible where Brian picks the next step.
+
+### The epistemic framework's opening stands as d-2026-09-13-10 ruled it, the question it went ahead of settled
+
+- id: d-2026-09-13-59
+- date: 2026-09-13
+- supersedes: d-2026-09-13-10
+- raised by: d-2026-09-13-15, which marked d-2026-09-13-10 premature for its clause that a model's
+  output is not unverified as such, and promised it superseded by the entry ruling the question it
+  went ahead of, whether model output may feed another study; d-2026-09-13-50 ruled that no study's
+  results are an itemizer's input, which leaves their verification status as it was. Brian: "Go
+  with 1".
+- decision: Restated whole and unchanged. The first paragraph of SKILL.md § Epistemic framework
+  (applied), after its Scope paragraph, reads:
+
+  **Recall and unverified output are not evidence.** What Brian remembers, what a session or a
+  model concluded without verification, and what an exploration saw as leads may raise a question
+  or a hypothesis, and never move one: only verified evidence does. A hypothesis file holds a
+  statement and its evidence relationship together: the statement, current and edited in place;
+  the record, dated entries never edited, which *is* the evidence relationship rather than a
+  history of it; and a status computed from the record.
+
+  The bold sentence `Only verified evidence moves a hypothesis.` later in the section stays deleted,
+  the opening saying it. The sentence draws its line by verification and not by who produced the
+  text: the results of calls under calibrated directions are the verified layer (d-2026-09-09-15), so
+  a model's output is not unverified as such; that no study's results are an itemizer's input is
+  d-2026-09-13-50's. CLAUDE.md's matching line is unchanged.
+- not taken: d-2026-09-13-10 left premature and unsuperseded, d-2026-09-13-15's promise open with no
+  question left to settle it; the clause "so a model's output is not unverified as such" dropped,
+  which nothing in this unit argued against.
+
+### This unit changes only the collator's existing code; its sample subcommands are built for preparing-pipeline-directions' first execution
+
+- id: d-2026-09-13-60
+- date: 2026-09-13
+- raised by: `collate-pipeline-sample`, whose sample subcommands do not exist, beside the existing
+  subcommands the unit's rulings change, with no finding or claim yet on disk to build a sample
+  against, and the registry schema's "a tool a study needs is built as its first task". Brian: "This
+  unit only for existing code."
+- decision: The unit's changes to the collator are its rename (d-2026-09-13-48); claiming items that
+  carry the hypothesis set and a finding, the `claim` subcommand reading the hypothesis files
+  (d-2026-09-13-42); and the `collator` line in the indexes it writes (d-2026-09-13-49). The
+  subcommands that collate the referee's and claiming's calibration samples are built under
+  building-a-tool as the first task of preparing-pipeline-directions' first execution for each set,
+  after its plan fixes the sample's span, strata and held-out split.
+- not taken: the sample subcommands built now, with stratification and split as parameters guessed
+  before any real finding or claim exists, the plan then fitted to the code.
+
+### What a comparison of two studies' findings is stays undecided, and the question entries that imply one are carried as they stand
+
+- id: d-2026-09-13-61
+- date: 2026-09-13
+- raised by: Brian, of the note-relationship questions: "There is a separate implication about
+  whether v1's and v2's are to different degrees. This is a question that actually spans cross corpus
+  content comparison, but it's comparing findings. Not comparing notes(v1) and notes(v2) data sets.";
+  then "What about the other 2 plus the 3rd? Are the tensions that blocked them settled now or not? If
+  they are not settled then defer." The session found the two questions settled by
+  d-2026-09-13-39's slugs, and the comparison not: a comparison of two studies' findings is no frozen
+  predicate over one itemizer's items; whether one set of criteria can judge v1 notes and v2 notes,
+  which are different items, is open; no findings file holds a finding spanning two studies; and
+  exploration over findings is retired (d-2026-09-13-50), the referee judging one finding at a time.
+- decision: What a comparison of what two studies' findings show is, whether a question and where its
+  answer would live, is not decided; it waits on the split of comparison into its senses and the
+  shape of a study over several corpora. No question entry is written for the comparison of degree
+  between v1's and v2's note relationships. `questions/v1-archive-note-relationships-in-prose` and
+  `questions/working-plan-note-relationships-in-prose` stand as two questions, each of one corpus.
+  `questions/notes-mix-cognitive-modes` and `questions/goals-no-track-type-names`, the latter asked
+  beside `questions/humor-warmth-prior-belief-setups`, are carried as they stand, each of one corpus,
+  the comparisons they imply undecided with the rest. Reading two verifications' tallies side by side
+  in reviewing-findings is unchanged.
+- not taken: the comparison of degree written as a question now, with no study shape able to answer
+  it.
+
+### A pilot is only an execution naming one item, and a calibration batch is not called one
+
+- id: d-2026-09-14-1
+- date: 2026-09-14
+- raised by: a review of the working tree against d-2026-09-13-37 to -61, which found
+  preparing-pipeline-directions' "This is the directions' pilot." calling a calibration batch a
+  pilot, against § Vocabulary's pilot, "an execution of a batch naming one item, whose result a
+  person reads before the rest run; a one-item batch needs none". The sentence was carried from
+  preparing-to-verify-a-corpus's `assemble-sample-batch` row and section; the agent-runner skill
+  had "a calibration batch is a verification's pilot, and a one-item batch is its own", and four
+  lines read "No pilot: the calibration was it." or its claiming and referee forms. A calibration
+  batch's results are withheld from Brian until he has scored, the opposite of a pilot's. The
+  archive showed the wider sense a session's: revision 1's runner skill called calibration the
+  pilot for a codebook, and on 2026-09-05 Brian selected an option that called calibration the
+  codebook's pilot and one job he read the protocol's; the one-item sense is § Vocabulary's and
+  the runner's `pilot` mark on a call. Brian: "Ok, then just fix the wording clash (item 5) right
+  now. What are the options?"; and, of keeping the one-item sense, "Go ahead with option 1".
+- decision: pilot keeps § Vocabulary's one sense, and a calibration batch is not called a pilot.
+  preparing-to-verify-a-corpus's `assemble-sample-batch` row and § assemble-sample-batch, and
+  preparing-pipeline-directions' § assemble-pipeline-sample-batch, lose the sentence calling the
+  batch the directions' pilot. The agent-runner skill says directions already calibrated need no
+  pilot, and neither does a one-item batch. verifying-a-corpus, surfacing-candidates at both of its
+  batches, and iterating-a-statement say there is no pilot because the directions are calibrated,
+  naming the claiming or the referee's directions where they did. § Vocabulary and rule 4's
+  "calibrated or piloted", two alternatives, are unchanged.
+- not taken: § Vocabulary's pilot widened to take in a calibration batch, whose results are
+  withheld rather than read before the rest run, which makes rule 4's "calibrated or piloted"
+  redundant and parts the skill from the runner's `pilot` mark; deleting only the sentences that
+  call a calibration batch a pilot, which leaves four lines saying a calibration was one.
+
+### directions.output holds claiming's What to produce to one list of line field
+
+- id: d-2026-09-14-2
+- date: 2026-09-14
+- raised by: the same review, which found directions-schema's Shape giving claiming "one `list of
+  line` field" in What to produce (d-2026-09-13-57) while `directions.output` held no such rule and
+  the checker held only claiming's section headings. The collator's `referee` subcommand reads the
+  list items of the first field of each claiming result, so a claiming version declaring any other
+  shape would pass every check and its referee batch would collate no items. Brian: "Go ahead with
+  option 1, plus the easy fixes of items 1 (state.md is out of date) and item 4 (claiming's output
+  shape isn't enforced)".
+- decision: `directions.output` also fails when claiming's directions declare in What to produce
+  other than exactly one field, or a field that is not `list of line`. It is a declared check, the
+  Shape stating what it holds; directions-schema's Checks row names the clause, and the checker and
+  its tests hold it.
+- not taken: no alternative was put to Brian; the check holds what d-2026-09-13-57's Shape already
+  states.
+
+### A What to produce field's name is one lowercase word
+
+- id: d-2026-09-14-3
+- date: 2026-09-14
+- raised by: a probe of 2026-09-14 of prompt caching for claiming calls, run through the Claude Code
+  CLI with the runner's flags, whose six calls each failed before any tokens were billed:
+  "API Error: 400 tools.0.custom.input_schema.properties: Property keys should match pattern
+  '^[a-zA-Z0-9_.-]{1,64}$'". The CLI sends `--json-schema` as a tool's input schema, the runner
+  passes each What to produce field's name through as a property key, and the probe's field was
+  named `bears on`. directions-schema's Example declared `decided by`, and the checker's claiming
+  fixtures `bears on`, so directions written from either passed every check and would fail every
+  call. Brian first ruled lowercase slugs: "Go with the requirement of lowercase slug names for
+  directions.output". Applying it found the method's keyed-line grammar, which reads a key only as
+  `[a-z][a-z0-9 ]*` in every governed file and in a finding's `§ <field>` citation, reading no
+  hyphen, so a slug of two words is no field at all; the names both accept are one lowercase word.
+  Brian: "Go with option A, but claims is not allowed. Present the context and options for what
+  the fields are about". Shown that the two names are an illustration in directions-schema's
+  Example and a string in the checker's tests, and that real directions name their fields when
+  authored with him, Brian: "Go ahead".
+- decision: A What to produce field's name is one lowercase word, `[a-z][a-z0-9]*`, at most 64
+  characters: a name the API accepts as a property key and the keyed-line grammar reads as a key.
+  The shared directions reader reports any other name, so `directions.output` fails it at the write
+  and the runner's dry run refuses the batch before a call is made. directions-schema's Shape and
+  its `directions.output` row say so. The Example's `decided by` becomes `basis`, and the claiming
+  fixtures' `bears on` becomes `relevant`; both are fixtures, and neither names a field of real
+  directions, which `author-directions` and `author-pipeline-directions` name with Brian. A result
+  file's keys, a tally's sections and a finding's `§ <field>` citations carry the name as declared.
+- not taken: lowercase slugs with the keyed-line grammar widened to read hyphens, which changes how
+  every governed file and every `§` citation is parsed; names with spaces that the runner turns
+  into underscores at the API and back when it reads the answer, which leaves the call reading one
+  name in its directions and another in its schema; `claims` for the claiming fixture, of which
+  Brian said "claims is not allowed".

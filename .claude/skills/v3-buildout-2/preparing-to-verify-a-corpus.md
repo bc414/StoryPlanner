@@ -1,26 +1,20 @@
 # preparing-to-verify-a-corpus
 
-Enables verifying-a-corpus and surfacing-candidates.
+Enables verifying-a-corpus.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
 | verify-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix what one item is, which questions the directions will freeze, the model and effort, and what the calibration sample spans; the plan approved is his go and the study is registered; a repeat under unchanged directions is the whole activity |
 | itemize | session | dotnet tool-source | corpus | index items | specified | Build or pick the itemizer tool with tests and run it once into the calibration batch: the index and the item bodies |
 | author-directions | hitl | | question-list items directions | directions | specified | The directions written against real items with Brian: what the call is given, the classes, the criteria, what to produce; a new numbered version each time |
-| assemble-sample-batch | session | runner | directions index | definition calls tally | specified | The calibration batch, kind sample: its definition written under the draft version; dry-run-batch; execute-batch as the hand-off, after which the host calls every sample item and writes the tally; this is the directions' pilot, and its results are withheld from Brian until he has scored |
+| assemble-sample-batch | session | runner | directions index | definition calls tally | specified | The calibration batch, kind sample: its definition written under the draft version; dry-run-batch; execute-batch as the hand-off, after which the host calls every sample item and writes the tally; its results are withheld from Brian until he has scored |
 | assess-sample-items | agent | | directions items | results | specified | One call per sample item under the draft directions, the answer in the declared fields; the only writer of the sample's results |
 | calibrate | hitl | | index items results tally directions | calibration directions | specified | Brian scores the sample blind; the two scorings are compared against the tally; he rules each disagreement; a ruling that changes a criterion is a new version; the calibration is written, accepting or not |
 
 ## Preconditions
 
-The corpus is readable and CORPORA.md says how. Its question list holds open questions
-whose answers a frozen predicate could give. For the referee: the directions and
-calibrations are the method's one set, in the referee folder, prepared here once and again
-only when a ruling in promotion changes them; the corpus is the candidates of every
-verification, the itemizer is the referee's materialising tool, the question is the
-pipeline's own (does this finding discriminate for this statement?), the sample spans
-several hypotheses and verifications, and the activity stops after `calibrate`: there is
-no verification of its own.
+The corpus is readable and CORPORA.md says how. The question list holds open questions
+whose answers a frozen predicate could give.
 
 ## verify-plan
 
@@ -44,14 +38,12 @@ verifying-a-corpus follows. Anything the directions do not cover runs the rest.
 The itemizer is a tool under `tools/`, code with tests under the `testing` skill, built or
 picked here. It runs once into the calibration batch's folder, `batches/<nn>-<slug>/`,
 writing the index in its schema's shape, with the corpus and the locator notation in its
-head, and the item bodies under `items/`. What one item is, its grain, is decided here and
-nowhere else, and the directions' first section states it, so the two are written
-together. An itemizer that cuts a corpus in CORPORA.md reads corpus data only: the corpus
-it cuts, and it may read other corpora and deterministic outputs over corpus data to cut the
-items, label them and fill their bodies, a passage from another corpus included, which the
-index head names under `utilizes corpora` and `utilizes outputs`. The items and the study
-stay the cut corpus's. The referee's materialising tool reads what its activity gives it.
-Narrowing, which of the corpus's items the batch holds, is a condition in the itemizer's
+head, and the item bodies under `items/`. What one item is is decided here and nowhere
+else, and the directions' first section states it, so the two are written together. An
+itemizer reads corpora and nothing else: the corpus it cuts, and it may read other corpora
+to cut the items, label them and fill their bodies, a passage from another corpus included,
+which the index head names under `utilizes corpora`. The items and the study stay the cut
+corpus's. Narrowing, which of the corpus's items the batch holds, is a condition in the itemizer's
 code, stated in words in the head's `narrowing` line.
 
 ## author-directions
@@ -63,8 +55,7 @@ over-flag; what to produce, one keyed line per field; what never to do. The fron
 cites by token the questions the version freezes. A question's suggested test is a naive
 starting point and never a criterion: the criteria are authored against the items in front
 of Brian, and a suggested test is never carried into the directions unexamined. A new
-numbered file under the study, or in the referee folder; the previous version, if any,
-stays on disk.
+numbered file under the study; the previous version, if any, stays on disk.
 
 ## assemble-sample-batch
 
@@ -72,8 +63,8 @@ The sample of the items, drawn as the plan said, stratified by expected class, w
 held-out split named in advance, is the calibration batch's index, cut by the itemizer.
 Its definition is of kind sample, naming the draft version by path and no calibration. Per
 the `agent-runner` skill: dry-run-batch, then execute-batch, the hand-off; the host calls
-every sample item and writes the tally when the last has a result. This is the directions'
-pilot. The results are withheld from Brian until he has scored.
+every sample item and writes the tally when the last has a result. The results are withheld
+from Brian until he has scored.
 
 ## assess-sample-items
 
@@ -97,7 +88,7 @@ part of the hash.
 ## Never
 
 Executes a full batch under a version with no accepting calibration; shows Brian the
-agent's answers before his own are written; lets an itemizer of a CORPORA.md corpus read
-what is not corpus data, or any itemizer narrow by a condition its index does not state; authors
+agent's answers before his own are written; lets an itemizer read what is not corpus
+data, or narrow by a condition its index does not state; authors
 directions without items in front of it; writes a candidate; carries a calibration ruling
 into the directions as the item it came from.

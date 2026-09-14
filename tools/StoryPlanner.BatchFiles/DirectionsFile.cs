@@ -31,6 +31,7 @@ public sealed class DirectionsFile
     static readonly Regex ClassLine = new(@"^- (?<label>[^:]+): (?<text>.+)$", RegexOptions.Compiled);
     static readonly Regex CriterionLine = new(@"^(?<n>\d+)\. (?<text>.+)$", RegexOptions.Compiled);
     static readonly Regex Slug = new(@"^[a-z0-9-]+$", RegexOptions.Compiled);
+    static readonly Regex FieldName = new(@"^[a-z][a-z0-9]*$", RegexOptions.Compiled);
     static readonly Regex FileName = new(@"^directions-(?<n>\d+)\.md$", RegexOptions.Compiled);
 
     public IReadOnlyDictionary<string, string> Frontmatter { get; }
@@ -184,6 +185,10 @@ public sealed class DirectionsFile
                     _ => (OutputKind?)null,
                 };
                 if (kind is null) { problems.Add(new DirectionsProblem("output", $"line {f.Line}: '{kindText}' is not enum, line, block or list of line", f.Line)); continue; }
+                // The name is a JSON Schema property key, which the API holds to [a-zA-Z0-9_.-]{1,64},
+                // and a keyed-line key, which reads no hyphen: one lowercase word fits both (d-2026-09-14-3).
+                if (!FieldName.IsMatch(f.Key) || f.Key.Length > 64)
+                    problems.Add(new DirectionsProblem("output", $"line {f.Line}: field '{f.Key}' is not one lowercase word of at most 64 characters", f.Line));
                 if (output.Any(o => o.Key == f.Key)) problems.Add(new DirectionsProblem("output", $"line {f.Line}: field '{f.Key}' repeats", f.Line));
                 if (kind != OutputKind.Enum && rest.Length == 0)
                     problems.Add(new DirectionsProblem("output", $"line {f.Line}: a {kindText} field says what the model is to put there" + (kind == OutputKind.ListOfLine ? ", the form of one line" : ""), f.Line));
@@ -196,29 +201,44 @@ public sealed class DirectionsFile
         return new DirectionsFile(fm, questions, body, sections, classes, criteria, output, problems, hasFrontmatter, hasTitle);
     }
 
-    /// <summary>The sections a study type's directions have, in order, optional ones marked; the referee's and an audit's are the verification kind.</summary>
+    /// <summary>
+    /// The sections a kind's directions have, in order, optional ones marked (directions-schema,
+    /// d-2026-09-13-57): an exploration's read and produce; claiming's decide by criteria with no
+    /// classes, its answer a list; a verification's and the referee's classify.
+    /// </summary>
     public static IReadOnlyList<(string Heading, bool Optional)> SectionsFor(StudyKind kind) => kind switch
     {
         StudyKind.Exploration => [(Given, false), (HowToRead, false), (WhatToProduce, false), (Never, true)],
+        StudyKind.Claiming => [(Given, false), (CriteriaSection, false), (WhatToProduce, false), (Never, true)],
         _ => [(Given, false), (ClassesSection, false), (CriteriaSection, false), (WhatToProduce, false), (Never, true)],
     };
 }
 
-/// <summary>The kinds of study a directions file can belong to; the referee's and an audit's directions are the verification kind.</summary>
-public enum StudyKind { Verification, Exploration, Audit, Referee }
+/// <summary>
+/// The kinds a directions file can be: a study's, verification or exploration, read from its
+/// folder's id prefix; or the pipeline directions, the referee's or claiming's, read from their
+/// folders under <c>docs/v3-framework/pipeline/</c> (d-2026-09-13-55, -57).
+/// </summary>
+public enum StudyKind { Verification, Exploration, Referee, Claiming }
 
 public static class StudyKinds
 {
-    /// <summary>The kind a study folder's name implies, or the referee folder's; null for a folder that is neither.</summary>
+    public const string RefereeFolder = "referee";
+    public const string ClaimingFolder = "claiming";
+
+    /// <summary>The kind a folder's name implies: a study's by its id prefix, or a pipeline directions folder's; null for a folder that is neither.</summary>
     public static StudyKind? OfFolder(string folderName)
     {
-        if (folderName == "referee") return StudyKind.Referee;
+        if (folderName == RefereeFolder) return StudyKind.Referee;
+        if (folderName == ClaimingFolder) return StudyKind.Claiming;
         if (folderName.StartsWith("verification-of-", StringComparison.Ordinal)) return StudyKind.Verification;
         if (folderName.StartsWith("exploration-of-", StringComparison.Ordinal)) return StudyKind.Exploration;
-        if (folderName.StartsWith("audit-of-", StringComparison.Ordinal)) return StudyKind.Audit;
         return null;
     }
 
-    /// <summary>Whether the kind's directions carry a questions line: a verification's and an exploration's always, never the referee's or an audit's.</summary>
+    /// <summary>Whether the kind's directions carry a questions line: a verification's and an exploration's always, never the pipeline directions'.</summary>
     public static bool HasQuestions(StudyKind kind) => kind is StudyKind.Verification or StudyKind.Exploration;
+
+    /// <summary>Whether the kind's directions are calibrated before their first full batch (rule 4): every kind but an exploration's, which is piloted.</summary>
+    public static bool IsCalibrated(StudyKind kind) => kind != StudyKind.Exploration;
 }

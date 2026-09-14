@@ -67,7 +67,7 @@ public sealed class Batch
 
     public string ItemPath(string item) => Path.Combine(Definition.ItemsDir, item + ".md");
 
-    /// <summary>The items whose bodies are missing under items/; the itemizer regenerates them.</summary>
+    /// <summary>The items whose bodies are missing under items/; the itemizer or collator regenerates them.</summary>
     public IReadOnlyList<string> MissingItems() => Items.Where(i => !File.Exists(ItemPath(i))).ToList();
 
     public CallPlan Compose(string item)

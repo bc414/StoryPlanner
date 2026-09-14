@@ -5,9 +5,10 @@ namespace StoryPlanner.DocIntegrity;
 
 /// <summary>
 /// schemas/directions-schema.md on the engine: the frontmatter and its questions tokens, the
-/// body's sections per study type, then the class's own rules through the shared reader — the
+/// body's sections per kind, then the class's own rules through the shared reader — the
 /// classes, the criteria's numbering, the What to produce lines, and the version number. The
-/// study type is read from the folder the file sits in, or the referee folder.
+/// kind is read from the folder the file sits in: a study's id prefix, or the referee's or
+/// claiming's folder under docs/v3-framework/pipeline/ (d-2026-09-13-55, -57).
 /// </summary>
 public static class Directions
 {
@@ -52,7 +53,7 @@ public static class Directions
         if (!d.HasFrontmatter) findings.Add(Finding.Fail("directions.frontmatter", file, "no frontmatter between --- lines at the top"));
 
         if (kind is null)
-            findings.Add(Finding.Info("directions.folder", file, $"'{folder}' is neither a study folder nor the referee folder; the study type is unknown and the sections are not held"));
+            findings.Add(Finding.Info("directions.folder", file, $"'{folder}' is neither a study folder nor a pipeline directions folder; the kind is unknown and the sections are not held"));
         else
         {
             var wantsQuestions = StudyKinds.HasQuestions(kind.Value);
@@ -76,6 +77,10 @@ public static class Directions
             findings.Add(Finding.Fail("directions.classes", file, "no class is reserved for an item the criteria cannot place"));
         if (d.Output.Count == 0 && !d.Problems.Any(p => p.Section == "output"))
             findings.Add(Finding.Fail("directions.output", file, "What to produce declares at least one field"));
+        // The collator's referee subcommand reads a claiming result's one list (d-2026-09-14-2).
+        else if (kind == StudyKind.Claiming && (d.Output.Count != 1 || d.Output[0].Kind != OutputKind.ListOfLine))
+            findings.Add(Finding.Fail("directions.output", file,
+                $"claiming's What to produce is exactly one list of line field; found [{string.Join(", ", d.Output.Select(o => o.Kind))}]"));
 
         var n = DirectionsFile.VersionOf(file);
         if (n is null) findings.Add(Finding.Fail("directions.version", file, "the file is directions-N.md"));
@@ -90,19 +95,21 @@ public static class Directions
     }
 }
 
-/// <summary>schemas/index-schema.md on the engine: the title, the head, the table; the class's rules through the shared reader.</summary>
+/// <summary>
+/// schemas/index-schema.md on the engine: the title, the head, the table; the class's rules
+/// through the shared reader — exactly one of an itemizer or a collator, a corpus and utilized
+/// corpora only with an itemizer (d-2026-09-13-49).
+/// </summary>
 public static class BatchIndex
 {
     public const string SchemaId = "index-schema";
-    public static readonly string[] ExtraCorpora = ["candidates", "skill"];
 
     public static IReadOnlyList<Finding> Check(CheckContext ctx, string path)
     {
         var file = Path.GetFileName(path);
         var batch = Path.GetFileName(Path.GetDirectoryName(Path.GetFullPath(path))!);
         var findings = new List<Finding>();
-        var corpora = ctx.CorporaIds.Concat(ExtraCorpora).ToList();
-        var engine = EngineCheck.Run(SchemaId, ctx, path, new Dictionary<string, IReadOnlyCollection<string>> { ["corpus"] = corpora, ["utilizes corpora"] = ctx.CorporaIds.ToList() });
+        var engine = EngineCheck.Run(SchemaId, ctx, path, new Dictionary<string, IReadOnlyCollection<string>> { ["corpus"] = ctx.CorporaIds.ToList(), ["utilizes corpora"] = ctx.CorporaIds.ToList() });
         if (engine.ShapeUnavailable) findings.Add(EngineCheck.Unavailable(SchemaId, file));
         foreach (var p in engine.Problems)
         {
@@ -120,24 +127,24 @@ public static class BatchIndex
 
         foreach (var p in index.Problems.Where(p => p.Part is "item" or "locator"))
             findings.Add(Finding.Fail("index." + p.Part, file, p.Message));
+        foreach (var p in index.Problems.Where(p => p.Part == "head" && (p.Message.Contains("itemizer", StringComparison.Ordinal) || p.Message.Contains("collator", StringComparison.Ordinal))))
+            findings.Add(Finding.Fail("index.head", file, p.Message));
         if (index.Corpus is { } corpus && index.UtilizesCorpora.Contains(corpus))
             findings.Add(Finding.Fail("index.head", file, $"'utilizes corpora' repeats the corpus '{corpus}' the items were cut from"));
-        if (index.Head.Field("utilizes outputs") is { } outputs && outputs.ListItems.Count == 0)
-            findings.Add(Finding.Fail("index.head", file, $"line {outputs.Line}: 'utilizes outputs' names no output"));
-        foreach (var output in index.UtilizesOutputs.Where(o => !File.Exists(Path.Combine(ctx.RepoRoot, o.Replace('/', Path.DirectorySeparatorChar)))))
-            findings.Add(Finding.Fail("index.head", file, $"the utilized output '{output}' does not exist under the repository root"));
         if (ctx.CorporaIds.Count == 0)
-            findings.Add(Finding.Info("index.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is held to candidates and skill only"));
+            findings.Add(Finding.Info("index.corpora-unavailable", file, "no corpus ids could be read from the skill folder; the corpus is not checked"));
         return findings.DistinctBy(f => (f.CheckId, f.Message)).ToList();
     }
 }
 
 /// <summary>
 /// schemas/definition-schema.md on the engine, then the class's rules: the batch folder's
-/// form and number, the title, the directions resolving and passing their schema, kind and
-/// calibration agreeing with the directions, the study's one model, and the file unchanged
-/// since the calls file recorded its hash. Checking a definition checks its targets: this is
-/// where a referee's directions and calibrations are governed, by reference.
+/// form and number within its home, the title, the directions resolving and passing their
+/// schema, kind present exactly when the directions are not an exploration's and calibration
+/// agreeing with it (d-2026-09-13-57), one model per directions version (d-2026-09-13-41), and
+/// the file unchanged since the calls file recorded its hash. Checking a definition checks its
+/// targets: this is where the pipeline directions and their calibrations are governed, by
+/// reference.
 /// </summary>
 public static class Definition
 {
@@ -175,9 +182,9 @@ public static class Definition
             var siblings = Directory.GetDirectories(batchesDir).Select(Path.GetFileName).Select(x => BatchName.Match(x!)).Where(x => x.Success).ToList();
             var numbers = siblings.Select(x => int.Parse(x.Groups["n"].Value)).OrderBy(x => x).ToList();
             var expected = numbers.Where(x => x < n).DefaultIfEmpty(0).Max() + 1;
-            if (n != expected) findings.Add(Finding.Fail("definition.batch", file, $"the next batch number in this study is {expected:00}; found {n:00}"));
+            if (n != expected) findings.Add(Finding.Fail("definition.batch", file, $"the next batch number in this home is {expected:00}; found {n:00}"));
             if (siblings.Count(x => x.Groups["slug"].Value == m.Groups["slug"].Value) > 1)
-                findings.Add(Finding.Fail("definition.batch", file, $"the slug '{m.Groups["slug"].Value}' repeats in this study"));
+                findings.Add(Finding.Fail("definition.batch", file, $"the slug '{m.Groups["slug"].Value}' repeats in this home"));
         }
         var expectedTitle = $"{d.Batch} — definition";
         if (d.Title != expectedTitle)
@@ -197,10 +204,13 @@ public static class Definition
         // ---- kind and calibration ----
         if (directions is not null)
         {
-            if (directions.HasClasses && d.Kind is null)
-                findings.Add(Finding.Fail("definition.fields", file, "kind is present when the directions have Classes: sample or full"));
-            if (!directions.HasClasses && d.Kind is not null)
-                findings.Add(Finding.Fail("definition.fields", file, "kind is absent when the directions have no Classes"));
+            // The kind the directions' folder names decides it; a folder of no known kind falls back to whether they classify.
+            var directionsKind = StudyKinds.OfFolder(Path.GetFileName(Path.GetDirectoryName(Path.GetFullPath(d.DirectionsPath!))!));
+            var calibrated = directionsKind is { } k ? StudyKinds.IsCalibrated(k) : directions.HasClasses;
+            if (calibrated && d.Kind is null)
+                findings.Add(Finding.Fail("definition.fields", file, "kind is present when the directions are calibrated, every kind's but an exploration's: sample or full"));
+            if (!calibrated && d.Kind is not null)
+                findings.Add(Finding.Fail("definition.fields", file, "kind is absent when the directions are an exploration's"));
         }
         var calibrationLine = d.Fields.Field("calibration");
         if (d.Kind == "full" && calibrationLine is null)
@@ -219,14 +229,23 @@ public static class Definition
                 findings.Add(Finding.Fail("definition.calibration", file, $"{rel}: the verdict does not accept the version"));
         }
 
-        // ---- the study's one model ----
-        if (d.Model is not null && Directory.Exists(batchesDir))
-            foreach (var other in Directory.GetDirectories(batchesDir).Select(dir => Path.Combine(dir, "definition.md")).Where(p => File.Exists(p) && Path.GetFullPath(p) != d.Path))
+        // ---- one model per directions version ----
+        if (d.Model is not null && d.DirectionsPath is not null)
+        {
+            var mine = Path.GetFullPath(d.DirectionsPath);
+            IEnumerable<string> siblings = Directory.Exists(batchesDir)
+                ? Directory.GetDirectories(batchesDir).Select(dir => Path.Combine(dir, "definition.md")).Where(File.Exists)
+                : [];
+            foreach (var other in siblings.Concat(All(ctx)).Select(Path.GetFullPath).Distinct(StringComparer.OrdinalIgnoreCase).Where(p => p != d.Path))
             {
-                var o = DefinitionFile.Read(other);
-                if (o.Model is not null && o.Model != d.Model)
-                    findings.Add(Finding.Fail("definition.model", file, $"{Path.GetFileName(Path.GetDirectoryName(other))} names model '{o.Model}'; a study has one model"));
+                DefinitionFile o;
+                try { o = DefinitionFile.Read(other); } catch (IOException) { continue; }
+                if (o.Model is null || o.DirectionsPath is null || Path.GetFullPath(o.DirectionsPath) != mine) continue;
+                if (o.Model != d.Model)
+                    findings.Add(Finding.Fail("definition.model", file,
+                        $"{Path.GetRelativePath(ctx.RepoRoot, Path.GetDirectoryName(other)!).Replace('\\', '/')} names model '{o.Model}' under the same directions version; one version runs one model"));
             }
+        }
 
         // ---- frozen ----
         if (File.Exists(d.CallsPath))
