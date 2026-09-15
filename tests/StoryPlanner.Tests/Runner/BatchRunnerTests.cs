@@ -7,15 +7,15 @@ namespace StoryPlanner.Tests;
 /// <summary>
 /// Pure-tier tests for the batch loop with a launcher that starts no process: one call per
 /// item without a result, the result rendered from the structured answer, the calls file
-/// appended with its head, the pilot, a later execution calling only what failed, the launch
-/// gate, pause/resume, stop-after-in-flight, cancel, and the launch folder's invariants.
-/// Tier: pure (temp folders).
+/// appended with its head, a later execution calling only what failed, random order, the
+/// launch gate, pause/resume, stop-after-in-flight, cancel, the queue jump, and the launch
+/// folder's invariants. Tier: pure (temp folders).
 /// </summary>
 public class BatchRunnerTests
 {
-    private static BatchRunner Make(TempBatch t, FakeLauncher launcher, ILaunchGate? gate = null, string? item = null, bool random = false)
+    private static BatchRunner Make(TempBatch t, FakeLauncher launcher, ILaunchGate? gate = null, bool random = false)
     {
-        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, item, t.LaunchDir, launcher, gate ?? new OpenGate(), _ => { }, "test", random);
+        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, launcher, gate ?? new OpenGate(), _ => { }, "test", random);
         Assert.Null(error);
         return runner!;
     }
@@ -37,7 +37,7 @@ public class BatchRunnerTests
         var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
         Assert.Equal(DefinitionFile.Read(t.DefinitionPath).Hash, calls.DefinitionHash);
         Assert.Equal(3, calls.Entries.Count);
-        Assert.All(calls.Entries, c => { Assert.True(c.Succeeded); Assert.Equal(1, c.Call); Assert.Equal("high", c.Effort); Assert.False(c.Pilot); Assert.Equal(0.01, c.Cost); Assert.Equal(64, c.DirectionsHash.Length); });
+        Assert.All(calls.Entries, c => { Assert.True(c.Succeeded); Assert.Equal(1, c.Call); Assert.Equal("high", c.Effort); Assert.Equal(0.01, c.Cost); Assert.Equal(64, c.DirectionsHash.Length); });
         Assert.Equal("- class: a\n- why: 1\n", File.ReadAllText(Path.Combine(t.BatchDir, "results", "item-02.md")));
         Assert.True(File.Exists(Path.Combine(t.BatchDir, "attempts", "item-01", "call-1", "system-prompt.md")));
         Assert.Equal(runner.Batch.Directions.Body, File.ReadAllText(Path.Combine(t.BatchDir, "attempts", "item-01", "call-1", "system-prompt.md")));
@@ -98,21 +98,6 @@ public class BatchRunnerTests
     }
 
     [Fact]
-    public async Task Naming_an_item_calls_it_alone_and_marks_the_call_as_the_pilot()
-    {
-        using var t = new TempBatch();
-        t.WriteItems(3);
-        var launcher = new FakeLauncher();
-        var runner = Make(t, launcher, item: "item-02");
-        Assert.Equal("1 item(s) — 1 to call, 0 skipped as answered (pilot)", runner.Summary());
-        await runner.RunAsync(CancellationToken.None);
-        var call = Assert.Single(CallsFile.Read(Path.Combine(t.BatchDir, "calls.md")).Entries);
-        Assert.Equal("item-02", call.Item);
-        Assert.True(call.Pilot);
-        Assert.Equal(1, launcher.Launched);
-    }
-
-    [Fact]
     public async Task Random_order_walks_one_shuffle_of_the_index_and_still_calls_every_item_once()
     {
         using var t = new TempBatch();
@@ -131,11 +116,8 @@ public class BatchRunnerTests
         Assert.Equal(20, calls.Entries.Count);
         Assert.All(calls.Entries, c => Assert.True(c.Succeeded));
 
-        // Without the flag the sequence is the index's; with it a pilot is refused, since one item has no order.
+        // Without the flag the sequence is the index's.
         Assert.Equal(runner.Batch.Items, Make(t, new FakeLauncher()).Order);
-        var (pilot, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, "item-01", t.LaunchDir, new FakeLauncher(), new OpenGate(), _ => { }, "test", randomOrder: true);
-        Assert.Null(pilot);
-        Assert.Contains("--random", error);
     }
 
     [Fact]
@@ -179,7 +161,7 @@ public class BatchRunnerTests
         Assert.Equal(4, launcher.Launched);
         var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
         Assert.Equal(4, calls.Entries.Count);
-        Assert.All(calls.Entries, c => { Assert.Equal(1, c.Call); Assert.False(c.Pilot); });
+        Assert.All(calls.Entries, c => Assert.Equal(1, c.Call));
         Assert.Equal("ok", calls.Entries.Single(c => c.Item == "item-03").Check);
         Assert.Equal(["item-01"], runner.Pending());
         Assert.Equal("not executing", runner.CallNow("item-01"));               // completed
@@ -294,21 +276,18 @@ public class BatchRunnerTests
         using var t = new TempBatch();
         t.WriteItems(2);
         File.WriteAllText(Path.Combine(t.LaunchDir, "CLAUDE.md"), "x");
-        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, null, t.LaunchDir, new FakeLauncher(), new OpenGate(), _ => { }, "test");
+        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, new FakeLauncher(), new OpenGate(), _ => { }, "test");
         Assert.Null(runner);
         Assert.Contains("CLAUDE.md", error);
         File.Delete(Path.Combine(t.LaunchDir, "CLAUDE.md"));
 
         var inside = Path.Combine(t.WorkingDir, "launch-inside");
         Directory.CreateDirectory(inside);
-        var (_, insideError) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, null, inside, new FakeLauncher(), new OpenGate(), _ => { }, "test");
+        var (_, insideError) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, inside, new FakeLauncher(), new OpenGate(), _ => { }, "test");
         Assert.Contains("OUTSIDE", insideError);
 
-        var (_, unknown) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, "item-09", t.LaunchDir, new FakeLauncher(), new OpenGate(), _ => { }, "test");
-        Assert.Contains("item-09", unknown);
-
         File.Delete(Path.Combine(t.BatchDir, "items", "item-02.md"));
-        var (_, missing) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, null, t.LaunchDir, new FakeLauncher(), new OpenGate(), _ => { }, "test");
+        var (_, missing) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, new FakeLauncher(), new OpenGate(), _ => { }, "test");
         Assert.Contains("item-02", missing);
     }
 

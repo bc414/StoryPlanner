@@ -1,0 +1,12 @@
+@* The snapshot guard: a query string carries the answered count it was run over; when the batch
+   now has another count the note says so, since every count in the view may differ from what a
+   lead recorded. Parameter-driven, no services. *@
+@if (Expected != Actual)
+{
+    <p class="note">This query was run over @Expected answered results; the batch now has @Actual. The counts below are over the batch as it is now.</p>
+}
+
+@code {
+    [Parameter] public int Expected { get; set; }
+    [Parameter] public int Actual { get; set; }
+}

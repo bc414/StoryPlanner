@@ -20,7 +20,7 @@ public class HeadComponentTests : BunitContext
         new("docs/x/batches/01-full", "C:/x", "verification-of-x-y", "01-full", "full", "sonnet", null, "directions-1", live, !live, paused, false,
             items.Count(i => i.State == "Running"), null, items,
             items.Count(i => i.State == "Pending"), items.Count(i => i.State == "Succeeded"), items.Count(i => i.State == "Failed"),
-            items.Sum(i => i.CostUsd), null, new BatchStages(true, true, false, !live, false), null);
+            items.Sum(i => i.CostUsd), null, new BatchStages(true, true, !live, false), null);
 
     [Fact]
     public async Task CallTable_shows_state_check_and_cost_and_reports_the_selected_row()
@@ -42,6 +42,51 @@ public class HeadComponentTests : BunitContext
 
         await rows[2].ClickAsync(new MouseEventArgs());
         Assert.Equal("item-03", selected);
+    }
+
+    [Fact]
+    public async Task BatchList_offers_execute_only_where_something_is_pending_and_nothing_is_running_or_scheduled()
+    {
+        BatchSnapshot? executed = null;
+        var pending = Batch(live: false, items: [Item("item-01", "Succeeded"), Item("item-02", "Pending", 0)]);
+        var failed = Batch(live: false, items: [Item("item-01", "Succeeded"), Item("item-02", "Failed")]);   // reattempted, so executable
+        var done = Batch(live: false, items: Item("item-01", "Succeeded"));
+        var running = Batch(live: true, items: [Item("item-01", "Running"), Item("item-02", "Pending", 0)]);
+        var scheduled = Batch(live: true, items: Item("item-01", "Pending", 0)) with { Scheduled = true, NotBeforeUtc = "2026-09-16T04:00:00Z" };
+        var broken = pending with { Error = "definition: no model" };
+        var cut = Render<BatchList>(p => p
+            .Add(c => c.Batches, [pending, failed, done, running, scheduled, broken])
+            .Add(c => c.OnExecute, b => executed = b));
+
+        var rows = cut.FindAll("tbody tr");
+        Assert.Equal(6, rows.Count);
+        var button = Assert.Single(rows[0].QuerySelectorAll("button"));
+        Assert.Equal("execute", button.TextContent);
+        Assert.Single(rows[1].QuerySelectorAll("button"));
+        foreach (var r in rows.Skip(2)) Assert.Empty(r.QuerySelectorAll("button"));
+
+        await button.ClickAsync(new MouseEventArgs());
+        Assert.Same(pending, executed);
+    }
+
+    [Fact]
+    public async Task CallTable_gives_each_callable_row_its_own_queue_jump_without_selecting_it()
+    {
+        string? selected = null, called = null;
+        var cut = Render<CallTable>(p => p
+            .Add(c => c.Items, [Item("item-01", "Succeeded"), Item("item-02", "Pending", 0, callable: true), Item("item-03", "Pending", 0)])
+            .Add(c => c.OnSelect, id => selected = id)
+            .Add(c => c.OnCall, id => called = id));
+
+        var rows = cut.FindAll("tbody tr");
+        Assert.Empty(rows[0].QuerySelectorAll("button"));     // answered: nothing to call
+        Assert.Empty(rows[2].QuerySelectorAll("button"));     // pending but not callable (e.g. not live)
+        var button = Assert.Single(rows[1].QuerySelectorAll("button"));
+        Assert.Equal("call now", button.TextContent);
+
+        await button.ClickAsync(new MouseEventArgs());
+        Assert.Equal("item-02", called);
+        Assert.Null(selected);                                // the button's click stops at the button
     }
 
     [Fact]
@@ -117,9 +162,10 @@ public class HeadComponentTests : BunitContext
     [Fact]
     public void StageStrip_lights_detected_stages()
     {
-        var cut = Render<StageStrip>(p => p.Add(c => c.S, new BatchStages(true, true, true, false, false)));
+        var cut = Render<StageStrip>(p => p.Add(c => c.S, new BatchStages(true, true, false, false)));
         var on = cut.FindAll(".stage.on").Select(e => e.TextContent).ToList();
-        Assert.Equal(["defined", "itemized", "piloted"], on);
+        Assert.Equal(["defined", "itemized"], on);
+        Assert.Equal(4, cut.FindAll(".stage").Count);
     }
 
     [Fact]

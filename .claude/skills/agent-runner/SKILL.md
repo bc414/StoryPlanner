@@ -21,11 +21,11 @@ tool's infinite retry of one failing call left 9,245 transcripts in the project 
 ```
 AgentRunner.exe start                                     start the host if none answers; open http://127.0.0.1:5190
 AgentRunner.exe stop [--now]                              stop the host after in-flight calls (--now: kill them)
-AgentRunner.exe dry-run-batch <definition.md> [--item ID] [--random]
+AgentRunner.exe dry-run-batch <definition.md> [--random]
                                                           compose every call in memory, write nothing (serverless)
-AgentRunner.exe execute-batch <definition.md> [--item ID] [--at HH:mm|ISO|reset] [--random]
+AgentRunner.exe execute-batch <definition.md> [--at HH:mm|ISO|reset] [--random]
                                                           one call per item without a result, in index order or, under
-                                                          --random, in one shuffle of it; --item names the pilot
+                                                          --random, in one shuffle of it
 AgentRunner.exe tally-batch   <definition.md> [--group-by item|locator|description]
                                                           print tally.md, writing it first if the host never did
                                                           (serverless); --group-by prints a cross-tab view, writes nothing
@@ -136,9 +136,11 @@ write into `results/`.
 **A call's entry** in `calls.md` is `### <item> — call <n>`, `<n>` the execution's number,
 then keyed lines: `model`, `effort`, `harness` (the CLI's version), `directions hash`, `item
 hash`, `prompt hash`, `started`, `ended`, `exit`, `check` (`ok` or the failure), `cost`,
-`turns`, `session`, `pilot` (`yes` for an execution naming one item). An item with an entry
-whose exit is 0 and check is `ok` has answered; every other item is called by the next
-execution. The head's `- definition: <hash>` is what `definition.frozen` holds the file to.
+`turns`, `session`. An item with an entry whose exit is 0 and check is `ok` has answered;
+every other item is called by the next execution. The head's `- definition: <hash>` is what
+`definition.frozen` holds the file to. Entries written before 2026-09-15 also carry a `pilot`
+line; the parser reads the keys it knows and ignores the rest, and a calls file is never
+edited, so those lines stay.
 
 **Queries** a reader asks of the runner's files:
 
@@ -169,19 +171,19 @@ is logged, never written back, so a different default is an edit to `host.json`.
 
 **A batch is its index, not an execution.** The batch's page and `/api/batches/<id>` describe
 the union of the index and the calls file: pending is an item with no successful call, the
-batch is executed when every item has one, and a pilot (`--item`) leaves the rest pending.
-An execute answers with what it will do — items to call, skipped as answered — never a bare
-count. The host writes `tally.md` the moment the last item has a successful call, its
-sections fixed by the directions: counts per enum field, the malformed, the missing, the
-fields not counted. A written `tally.md` is frozen; `tally-batch` prints it, and writes it
-only when the host never did (a host that died first, a batch executed serverless). A pilot
-writes none, since items remain. `--group-by` is a view for the analysis and the review:
-printed as often as wanted, written nowhere.
+batch is executed when every item has one, and an execution paused, stopped or interrupted
+leaves the rest pending. An execute answers with what it will do — items to call, skipped as
+answered — never a bare count. The host writes `tally.md` the moment the last item has a
+successful call, its sections fixed by the directions: counts per enum field, the malformed,
+the missing, the fields not counted. A written `tally.md` is frozen; `tally-batch` prints it,
+and writes it only when the host never did (a host that died first, a batch executed
+serverless). An execution that leaves items unanswered writes none. `--group-by` is a view
+for the analysis and the review: printed as often as wanted, written nowhere.
 
 **The stage strip** on a batch's page is detected from the folder alone: defined (the
-definition reads), itemized (an index with rows and every body present), piloted (a call
-marked pilot), executed (every item answered), tallied (`tally.md` present). Nothing is
-judged; a missing stage is a fact about the folder.
+definition reads), itemized (an index with rows and every body present), executed (every
+item answered), tallied (`tally.md` present). Nothing is judged; a missing stage is a fact
+about the folder.
 
 **Ceilings and the idle limit.** `maxParallel` and `utilizationCap` apply across every batch;
 a batch has no ceiling of its own. The cap gates every launch, so two batches cannot jointly
@@ -203,18 +205,17 @@ resume launching, stop after in-flight, cancel one running call (recorded `cance
 or items, and nothing calls an item that has answered — those are a new batch, since a
 definition is never edited. Knob changes go to the log with timestamps. The order the pending
 items are called in is harness control too: the index's by default, or one shuffle of it
-drawn when the execution is created under `--random` — an execution's setting like `--item`,
-refused together with it since a pilot has no order — and no call is different for it; the
-execute's answer, the log and the page say "random order" when it is in effect.
+drawn when the execution is created under `--random` — an execution's setting, and no call
+is different for it; the execute's answer, the log and the page say "random order" when it
+is in effect.
 
 **The queue jump** (2026-09-15) is the one control that launches: an item pending in the
 live execution, called now, past the ceiling and the cap, taking a slot the gate counts from
 then on — so with a ceiling of 4 there are 5 children, and the loop launches nothing more
 until two finish. It is the page's "call selected now" and the route's `call` action, and it
 exists for a batch executed in full and then held by the cap. It is a call of that execution,
-under its number, composed, recorded and checked like any other and never marked pilot: the
-pilot stays an execution naming one item. An item already called by this execution is
-refused, since a second call under one number has nowhere to go, so a failed item still
+under its number, composed, recorded and checked like any other. An item already called by
+this execution is refused, since a second call under one number has nowhere to go, so a failed item still
 waits for the next execute-batch; so is an item running or answered. Refused once stop is
 requested; allowed under pause, which holds the loop and not the hand. The jump goes to the
 log and never to the calls file, like the order of calls.
@@ -242,7 +243,7 @@ GET  /api/host                              ceilings, idle limit, in flight, uti
 GET  /api/batches                           every batch's summary
 GET  /api/batches/<id>                      one batch: items with state/calls/exit/check/cost/callable, stages
 GET  /api/stream?batch=<id>&item=<item>&tail=N   the last N events of the item's latest call
-POST /api/batches         {"path": "<abs definition.md>", "item": "<id>"?, "notBefore": "<ISO>"?, "random": true?}   execute (or schedule)
+POST /api/batches         {"path": "<abs definition.md>", "notBefore": "<ISO>"?, "random": true?}   execute (or schedule)
 POST /api/batch-control   {"batch": "<id>", "action": "pause|resume|stop|cancel|unschedule|call", "item"?}
                                             call is the queue jump; a refusal answers 400 with why
 PUT  /api/host/settings   {"maxParallel"?, "utilizationCap"?, "idleMinutes"?}
@@ -285,8 +286,8 @@ moment — the one live figure the usage bar cannot get.
 - **A call is killed only for silence.** The idle limit is the host's; no call has an absolute
   time limit.
 - **Every call is recorded**, with the directions hash, the item hash, the prompt hash, model,
-  effort, harness version, cost, turns, session id, the check and the pilot mark. If a result
-  cannot be cited by these, it was not produced by the runner.
+  effort, harness version, cost, turns, session id and the check. If a result cannot be cited
+  by these, it was not produced by the runner.
 - **Nothing is written to the definition or the index**, ever; the calls file is appended;
   the results are written by the render and by nothing else.
 
@@ -296,9 +297,13 @@ moment — the one live figure the usage bar cannot get.
 item body is present, checks the launch folder, composes every call in memory — the system
 prompt, the item, the schema, the three hashes — and prints what an execution would call and
 skip, then writes nothing. A mis-sized item or a wrong directions path is seen before it
-costs anything. Then, for directions nobody has piloted, `execute-batch --item <id>` calls
-one item, whose result a person reads before the rest run; directions already calibrated
-need no pilot, and neither does a one-item batch.
+costs anything. Then, for directions nobody has piloted, execute-batch and **pause** the
+execution on the page as soon as it starts: the calls that launched before the pause — as
+many as the host's ceiling — are the pilot, whose results a person reads before resuming
+(Brian, 2026-09-15: "A pilot's count of items is whatever the concurrent ceiling is"). The
+runner knows no pilot: no flag names one, no call is marked, and the pilot's calls are
+ordinary calls of the execution under its number. Directions already calibrated need no
+pilot, and neither does a one-item batch.
 
 ## Cost figures are API-equivalent estimates
 
@@ -334,6 +339,11 @@ read as a bill.
   the idle limit and one-call-per-execution are the guards.
 - **The launch folder gets an empty `~/.claude/projects/<launch>/memory/` directory** on
   first launch. No transcript is written; the directory is inert.
+- **The pilot was a runner feature and is not** (2026-09-15, d-2026-09-15-1). `--item` scoped
+  an execution to one item, marked its call `pilot: yes` and lit a `piloted` stage. Once the
+  page could pause, call one item now and execute a row, the flag encoded a practice the
+  controls already served, so it left with its mark, its stage and its refusal of `--random`.
+  Calls files from before that date keep their `pilot` lines; the parser ignores them.
 
 ## Two mechanisms, one line between them
 
@@ -369,7 +379,7 @@ that has answered is never called again, and a different answer wants a new batc
 
 `dotnet test tests/StoryPlanner.Tests --filter "FullyQualifiedName~Batch|FullyQualifiedName~Runner|FullyQualifiedName~Tally|FullyQualifiedName~Collator|FullyQualifiedName~Stream|FullyQualifiedName~Head"`
 covers the batch files, the loop under a fake launcher (one call per item, the render, the
-calls file, the pilot, a later execution, random order, the gate, pause, stop, cancel, the queue jump), the catalog and
+calls file, a later execution, random order, the gate, pause, stop, cancel, the queue jump), the catalog and
 stages, the tally, the collator's items, the stream reader, the JSON routes over a
 loopback listener, and the leaf components under bUnit. The round trip through the real CLI
 is `SmokeTest`, one item in a temporary folder, run with `STORYPLAN_RUNNER_SMOKE=1` set; it

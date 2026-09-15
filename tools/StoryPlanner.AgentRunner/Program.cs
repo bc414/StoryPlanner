@@ -9,11 +9,11 @@ using StoryPlanner.AgentRunner;
 //
 //   AgentRunner.exe start                                     start the host if none answers, open the page
 //   AgentRunner.exe stop [--now]                              stop the host after in-flight calls (--now: kill them)
-//   AgentRunner.exe dry-run-batch <definition.md> [--item X] [--random]
+//   AgentRunner.exe dry-run-batch <definition.md> [--random]
 //                                                             compose every call in memory, write nothing (serverless)
-//   AgentRunner.exe execute-batch <definition.md> [--item X] [--at HH:mm|ISO|reset] [--random]
+//   AgentRunner.exe execute-batch <definition.md> [--at HH:mm|ISO|reset] [--random]
 //                                                             one call per item without a result, in index order or, under
-//                                                             --random, in one shuffle of it; --item names the pilot
+//                                                             --random, in one shuffle of it
 //   AgentRunner.exe tally-batch <definition.md> [--group-by column]
 //                                                             print tally.md, writing it first if absent; --group-by prints a view
 //   AgentRunner.exe host                                      run the host in this process (what start spawns)
@@ -60,14 +60,12 @@ switch (verb)
         return await RunHost(config);
     case "dry-run-batch":
     {
-        var item = Option("--item");
         var random = rest.Remove("--random");
         if (rest.Count != 1) return Usage("dry-run-batch takes one argument: a batch's definition.md");
-        return DryRun(Path.GetFullPath(rest[0]), item, random, config);
+        return DryRun(Path.GetFullPath(rest[0]), random, config);
     }
     case "execute-batch":
     {
-        var item = Option("--item");
         var atSpec = Option("--at");
         var random = rest.Remove("--random");
         if (rest.Count != 1) return Usage("execute-batch takes one argument: a batch's definition.md");
@@ -81,7 +79,7 @@ switch (verb)
         var url = await EnsureHost(config);
         if (url is null) return 1;
         using var http = new HttpClient { BaseAddress = new Uri(url) };
-        var resp = await http.PostAsJsonAsync("/api/batches", new ExecuteRequest(Path.GetFullPath(rest[0]), item, notBefore, random));
+        var resp = await http.PostAsJsonAsync("/api/batches", new ExecuteRequest(Path.GetFullPath(rest[0]), notBefore, random));
         var result = await resp.Content.ReadFromJsonAsync<ExecuteResult>();
         Console.WriteLine(result?.Message ?? $"host answered {(int)resp.StatusCode}");
         if (result?.Ok == true) Console.WriteLine($"watch: {url}/batches/{result.BatchId}");
@@ -180,10 +178,10 @@ static void OpenBrowser(string url)
 }
 
 /// <summary>Serverless: read the batch, check the launch folder, compose every pending call in memory, print, write nothing.</summary>
-static int DryRun(string definitionPath, string? item, bool random, HostConfig config)
+static int DryRun(string definitionPath, bool random, HostConfig config)
 {
     var launchDir = Path.GetFullPath(config.LaunchDir ?? HostConfig.DefaultLaunchDir());
-    var (runner, error) = BatchRunner.Create(definitionPath, Directory.GetCurrentDirectory(), item, launchDir,
+    var (runner, error) = BatchRunner.Create(definitionPath, Directory.GetCurrentDirectory(), launchDir,
         new NoLauncher(), new OpenGate(), Console.WriteLine, "dry-run", random);
     if (runner is null) { Console.Error.WriteLine(error); return 2; }
     var batch = runner.Batch;
@@ -233,8 +231,8 @@ static int Usage(string? message = null)
         Usage:
           AgentRunner.exe start
           AgentRunner.exe stop [--now]
-          AgentRunner.exe dry-run-batch <definition.md> [--item ID] [--random]
-          AgentRunner.exe execute-batch <definition.md> [--item ID] [--at HH:mm|ISO|reset] [--random]
+          AgentRunner.exe dry-run-batch <definition.md> [--random]
+          AgentRunner.exe execute-batch <definition.md> [--at HH:mm|ISO|reset] [--random]
           AgentRunner.exe tally-batch   <definition.md> [--group-by item|locator|description]
         """);
     return 2;

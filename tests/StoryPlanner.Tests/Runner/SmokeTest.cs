@@ -28,7 +28,7 @@ public class SmokeTest(Xunit.Abstractions.ITestOutputHelper output)
         File.WriteAllText(Path.Combine(t.BatchDir, "items", "item-01.md"), "The sky was blue and the note said so. It shows a.\n");
 
         var log = new List<string>();
-        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, "item-01", t.LaunchDir,
+        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir,
             new ProcessChildLauncher(log.Add), new OpenGate { IdleLimit = TimeSpan.FromMinutes(5) }, log.Add, "smoke");
         Assert.Null(error);
         await runner!.RunAsync(CancellationToken.None);
@@ -36,7 +36,6 @@ public class SmokeTest(Xunit.Abstractions.ITestOutputHelper output)
         var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
         var call = Assert.Single(calls.Entries);
         Assert.True(call.Succeeded, string.Join("\n", log) + "\n" + call.Check);
-        Assert.True(call.Pilot);
         var result = File.ReadAllText(Path.Combine(t.BatchDir, "results", "item-01.md"));
         var (answer, problems) = ResultFile.Parse(runner.Batch.Directions, result);
         Assert.Empty(problems);

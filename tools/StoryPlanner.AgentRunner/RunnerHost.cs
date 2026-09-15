@@ -221,7 +221,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
 
     // --- execute ---
 
-    public ExecuteResult Execute(string definitionPath, string? item, DateTimeOffset? notBefore = null, bool randomOrder = false)
+    public ExecuteResult Execute(string definitionPath, DateTimeOffset? notBefore = null, bool randomOrder = false)
     {
         if (ShuttingDown) return new ExecuteResult(false, null, "host is shutting down");
         definitionPath = Path.GetFullPath(definitionPath);
@@ -235,7 +235,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
                     : $"{id} is already scheduled for {existing.NotBefore!.Value.ToLocalTime():yyyy-MM-dd HH:mm} (unschedule it first)");
         }
 
-        var (runner, error) = BatchRunner.Create(definitionPath, WorkingDir, item, LaunchDir, _launcher, this, Log, _harnessVersion, randomOrder);
+        var (runner, error) = BatchRunner.Create(definitionPath, WorkingDir, LaunchDir, _launcher, this, Log, _harnessVersion, randomOrder);
         if (runner is null) return new ExecuteResult(false, id, error!);
 
         runner.Changed += () => Changed?.Invoke();

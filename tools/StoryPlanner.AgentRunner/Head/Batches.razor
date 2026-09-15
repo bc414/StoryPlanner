@@ -3,11 +3,20 @@
 @inject RunnerHost Host
 
 <h1>Batches</h1>
-<BatchList Batches="batches" />
-<p class="muted">Every batch whose <code>definition.md</code> sits beneath <code>@Host.WorkingDir</code>. Execute from a terminal: <code>AgentRunner.exe execute-batch &lt;definition.md&gt; [--item ID]</code>. The order of a batch in its study is the <a href="/map">process map</a>; the rules of the runner are the agent-runner skill.</p>
+@if (note is { } n) { <p class="err">@n</p> }
+<BatchList Batches="batches" OnExecute="Execute" />
+<p class="muted">Every batch whose <code>definition.md</code> sits beneath <code>@Host.WorkingDir</code>. A row's <em>execute</em> calls every item without a successful call — pending or failed — now, in index order; for a start time or random order use the terminal: <code>AgentRunner.exe execute-batch &lt;definition.md&gt; [--at HH:mm] [--random]</code>. The order of a batch in its study is the <a href="/map">process map</a>; the rules of the runner are the agent-runner skill.</p>
 
 @code {
     private IReadOnlyList<BatchSnapshot> batches = [];
+    private string? note;   // why the last execute was refused
+
+    private void Execute(BatchSnapshot b)
+    {
+        var r = Host.Execute(Path.Combine(b.Dir, "definition.md"));
+        note = r.Ok ? null : r.Message;
+    }
+
     protected override void OnInitialized() { batches = Host.Batches(); Host.Changed += OnChanged; }
     private void OnChanged() => _ = InvokeAsync(() => { batches = Host.Batches(); StateHasChanged(); });
     public void Dispose() => Host.Changed -= OnChanged;

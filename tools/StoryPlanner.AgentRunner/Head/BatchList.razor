@@ -1,11 +1,19 @@
-@* Leaf: every batch, live first. *@
+@* Leaf: every batch, live first. Each row that has something pending carries an execute button —
+   the plain form of the CLI's execute-batch (now, index order); --at and --random stay on the CLI. *@
 <table>
-    <thead><tr><th>batch</th><th>study</th><th>kind</th><th>model</th><th>directions</th><th>state</th><th>items</th><th>in flight</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>last activity</th></tr></thead>
+    <thead><tr><th>batch</th><th></th><th>study</th><th>kind</th><th>model</th><th>directions</th><th>state</th><th>items</th><th>in flight</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>last activity</th></tr></thead>
     <tbody>
     @foreach (var b in Batches)
     {
         <tr>
             <td><a href="/batches/@b.Id">@b.Name</a>@(b.Error is null ? "" : " ⚠")</td>
+            <td>
+                @if (CanExecute(b))
+                {
+                    <button class="row-call" title="execute-batch: one call per item without a successful call (pending or failed), now, in index order"
+                            @onclick="() => OnExecute.InvokeAsync(b)">execute</button>
+                }
+            </td>
             <td class="muted">@b.Study</td>
             <td>@(b.Kind ?? "")</td>
             <td>@(b.Model ?? "")</td>
@@ -30,5 +38,8 @@
 
 @code {
     [Parameter] public IReadOnlyList<BatchSnapshot> Batches { get; set; } = [];
+    [Parameter] public EventCallback<BatchSnapshot> OnExecute { get; set; }
+    /// <summary>Not live, not scheduled, readable, and with an item still to call — pending or failed, since an execution reattempts every item without a successful call.</summary>
+    private static bool CanExecute(BatchSnapshot b) => !b.Live && !b.Scheduled && b.Error is null && b.Pending + b.Failed > 0;
     private static string Local(string? iso) => DateTimeOffset.TryParse(iso, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : "";
 }

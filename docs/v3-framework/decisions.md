@@ -6555,3 +6555,38 @@ rules names the old id in prose.
   batch has shown; the keys kept as they stand, which keeps the target corpus at the batch
   level after d-2026-09-14-4 retired it at the study level and leaves the multi-corpus
   itemizer's single key undecided.
+
+### The runner loses the pilot: no --item, no pilot mark, no piloted stage
+
+- id: d-2026-09-15-1
+- date: 2026-09-15
+- raised by: Brian, after the runner's page gained a per-row queue jump ("call now") and a
+  per-row execute on the same day, beside the pause, stop, cancel and random-order controls of
+  2026-09-15 and before: "Now that execute supports random and per item execution, can we
+  eliminate the pilot flag since its intent is a subset of normal operation and get rid of that
+  special casing?" The frame: `--item <id>` was the runner's one special execution shape — a
+  filter threaded through the loop's next pick, `Pending()`, `Summary()` and the queue jump's
+  refusals; a `pilot: yes` keyed line on the call in `calls.md`; a `piloted` stage on the page
+  and in `/api/batches/<id>`; and a refusal of `--random` beside it. The method's pilot (§
+  Vocabulary, rule 4, `explore-pilot-item`) is a practice — some calls read before the rest run
+  — and never depended on the mark. Three shapes were put to Brian: `--item` kept as a plain
+  filter with the mark, stage and refusal gone; `--item` removed and a held start added, so an
+  execution begins paused and the jump calls the pilot; `--item` removed with no replacement.
+  Brian: "Remove item with no replacement. A pilot's count of items is whatever the concurrent
+  ceiling is." On the method's wording, reword only, no row retired.
+- decision: The runner knows no pilot. `--item` leaves `dry-run-batch` and `execute-batch`,
+  `item` leaves the execute route's body, `pilot` leaves the calls file's keyed lines and
+  `CallEntry`, `piloted` leaves the stage strip and `BatchStages`, and `--random` is refused
+  for nothing. A pilot is now the first calls of an ordinary execution — as many as the host's
+  ceiling — the execution paused on the page as soon as it starts and those results read
+  before it resumes; a one-item batch still needs none. The four `calls.md` files carrying
+  `pilot:` lines from before this date are read as they are: the parser reads named keys and
+  ignores the rest, and a calls file is appended, never edited. The v3-buildout-2 skill's rule
+  4, § Vocabulary's pilot, the `preparing-an-exploration` activity row, and the rows and prose
+  of `assemble-exploration-batch`, `explore-pilot-item` and `continue-exploration-batch` are
+  reworded to the new mechanics; no activity, process or vocabulary entry is added or retired.
+- not taken: `--item` kept as a generic scope without the mark, which keeps the filter in the
+  loop, the jump and the summary for one practice the pause already serves; a held start
+  (execute paused) as a new harness knob, which adds a control to reach a state pause reaches
+  a moment later; folding `explore-pilot-item` into `explore-items`, a method change Brian did
+  not take today.

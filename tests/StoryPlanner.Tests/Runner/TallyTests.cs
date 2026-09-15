@@ -27,7 +27,7 @@ public class TallyTests
                 _ => null,
             },
         };
-        var (runner, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, null, t.LaunchDir, launcher, new OpenGate(), _ => { }, "test");
+        var (runner, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, launcher, new OpenGate(), _ => { }, "test");
         await runner!.RunAsync(CancellationToken.None);
         // item-04 never answered, so the host wrote no tally.
         Assert.False(File.Exists(Path.Combine(t.BatchDir, "tally.md")));
@@ -64,18 +64,20 @@ public class TallyTests
 
     /// <summary>d-2026-09-09-18: the host writes the tally when the last item has a successful call, so no session step is left to forget.</summary>
     [Fact]
-    public async Task The_host_writes_the_tally_when_the_last_item_is_answered_and_a_pilot_does_not()
+    public async Task The_host_writes_the_tally_when_the_last_item_is_answered_and_an_execution_that_leaves_items_unanswered_does_not()
     {
         using var t = new TempBatch();
         t.WriteItems(2);
         var launcher = new FakeLauncher { AnswerFor = _ => """{"class":"a","why":"1"}""" };
         var log = new List<string>();
 
-        var (pilot, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, "item-01", t.LaunchDir, launcher, new OpenGate(), log.Add, "test");
-        await pilot!.RunAsync(CancellationToken.None);
+        // The first execution answers item-01 and fails item-02, so an item remains.
+        var partial = new FakeLauncher { AnswerFor = r => r.Item == "item-02" ? null : """{"class":"a","why":"1"}""" };
+        var (first, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, partial, new OpenGate(), log.Add, "test");
+        await first!.RunAsync(CancellationToken.None);
         Assert.False(File.Exists(Path.Combine(t.BatchDir, "tally.md")));
 
-        var (rest, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, null, t.LaunchDir, launcher, new OpenGate(), log.Add, "test");
+        var (rest, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, launcher, new OpenGate(), log.Add, "test");
         await rest!.RunAsync(CancellationToken.None);
         var tally = Path.Combine(t.BatchDir, "tally.md");
         Assert.True(File.Exists(tally));
@@ -84,7 +86,7 @@ public class TallyTests
 
         // A later execution with nothing to call leaves the written tally alone.
         var written = File.ReadAllText(tally);
-        var (third, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, null, t.LaunchDir, launcher, new OpenGate(), log.Add, "test");
+        var (third, _) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, launcher, new OpenGate(), log.Add, "test");
         await third!.RunAsync(CancellationToken.None);
         Assert.Equal(written, File.ReadAllText(tally));
     }

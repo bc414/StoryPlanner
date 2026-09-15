@@ -1,0 +1,26 @@
+@* One view's table: the caption, the column heads, the rows as the view produced them. The
+   list view's rows carry every part of a line; a count view's carry a term and its counts.
+   Parameter-driven, no services. *@
+<p class="caption">@Caption</p>
+@if (Rows.Count == 0)
+{
+    <p class="muted">nothing</p>
+}
+else
+{
+    <table class="view">
+        <thead><tr>@foreach (var c in Columns) { <th>@c</th> }</tr></thead>
+        <tbody>
+        @foreach (var r in Rows)
+        {
+            <tr>@foreach (var cell in r) { <td>@cell</td> }</tr>
+        }
+        </tbody>
+    </table>
+}
+
+@code {
+    [Parameter] public string Caption { get; set; } = "";
+    [Parameter] public IReadOnlyList<string> Columns { get; set; } = [];
+    [Parameter] public IReadOnlyList<IReadOnlyList<string>> Rows { get; set; } = [];
+}

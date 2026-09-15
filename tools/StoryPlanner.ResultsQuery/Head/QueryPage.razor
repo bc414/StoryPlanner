@@ -1,0 +1,135 @@
+@page "/"
+@inject BatchSource Source
+@inject NavigationManager Nav
+
+@* The one page: a query string in, or the controls that build one, the canonical string shown
+   back and put in the URL as ?q=, the snapshot note, and the view's table. The batch is re-read
+   on every run. Nothing here groups, ranks or suggests. *@
+<div class="shell">
+    <h1>Results query <span class="muted">@batchId</span></h1>
+    <p class="muted">@Source.DefinitionPath</p>
+
+    <div class="panel">
+        <label class="wide">query string
+            <textarea @bind="queryText" rows="3" spellcheck="false"></textarea>
+        </label>
+        <div class="controls">
+            <button @onclick="RunText">run string</button>
+            <span class="muted">or build one:</span>
+        </div>
+        <div class="controls">
+            <label>field
+                <select @bind="fieldKey">
+                    @foreach (var f in fields) { <option value="@f.Key">@f.Key</option> }
+                </select>
+            </label>
+            <label>view
+                <select @bind="view">
+                    @foreach (var v in Query.Views) { <option value="@v">@v</option> }
+                </select>
+            </label>
+            <label>col
+                <select @bind="col">
+                    <option value="">(none)</option>
+                    @foreach (var c in CurrentColumns) { <option value="@c.Id">@c.Id (@c.Position)</option> }
+                </select>
+            </label>
+            <label>n <input type="number" min="1" max="3" @bind="n" /></label>
+            <label>position <input type="number" min="1" @bind="position" /></label>
+            <label>exclude <input @bind="exclude" /></label>
+            <label>top <input type="number" min="1" @bind="top" /></label>
+        </div>
+        <div class="controls">
+            <label>story <input @bind="story" /></label>
+            <label>item <input @bind="item" /></label>
+            <label>sample <input type="number" min="1" @bind="sample" /></label>
+            <label>seed <input type="number" @bind="seed" /></label>
+        </div>
+        <div class="controls filters">
+            @foreach (var c in CurrentColumns)
+            {
+                <label>@c.Id <span class="muted">(@c.Position)</span>
+                    <input @bind="filters[c.Id]" placeholder="regex" />
+                </label>
+            }
+        </div>
+        <div class="controls">
+            <button @onclick="RunControls">run</button>
+        </div>
+        @if (error is not null) { <p class="err">@error</p> }
+    </div>
+
+    @if (result is not null)
+    {
+        <div class="panel">
+            <p class="canon"><code>@result.Query.Print()</code></p>
+            <SnapshotNote Expected="result.Query.Answered" Actual="answered" />
+            <ViewTable Caption="@result.Caption" Columns="result.Columns" Rows="result.Rows" />
+        </div>
+    }
+</div>
+
+@code {
+    private string batchId = "";
+    private int answered;
+    private IReadOnlyList<PartField> fields = [];
+    private string queryText = "";
+    private string fieldKey = "";
+    private string view = "list";
+    private string col = "";
+    private int? n, position, top, sample, seed;
+    private string exclude = "", story = "", item = "";
+    private readonly Dictionary<string, string> filters = new(StringComparer.Ordinal);
+    private ViewResult? result;
+    private string? error;
+
+    private IReadOnlyList<Column> CurrentColumns => fields.FirstOrDefault(f => f.Key == fieldKey)?.Columns ?? [];
+
+    protected override void OnInitialized()
+    {
+        var batch = Source.Load();
+        batchId = batch.BatchId;
+        answered = batch.Answered;
+        fields = batch.Fields;
+        fieldKey = fields.FirstOrDefault()?.Key ?? "";
+        foreach (var f in fields) foreach (var c in f.Columns) filters.TryAdd(c.Id, "");
+        var uri = Nav.ToAbsoluteUri(Nav.Uri);
+        var q = System.Web.HttpUtility.ParseQueryString(uri.Query)["q"];
+        if (!string.IsNullOrWhiteSpace(q)) { queryText = q; RunText(); }
+    }
+
+    private void RunText()
+    {
+        error = null;
+        var (q, e) = Query.Parse(queryText);
+        if (q is null) { error = e; return; }
+        Run(q, q.Group);
+    }
+
+    private void RunControls()
+    {
+        error = null;
+        var fs = CurrentColumns.Where(c => !string.IsNullOrWhiteSpace(filters.GetValueOrDefault(c.Id))).Select(c => new Filter(c.Id, filters[c.Id])).ToList();
+        var q = new Query(batchId, answered, fieldKey, fs, Blank(story), Blank(item), sample, sample is null ? null : seed, view,
+            Blank(col), n, position, Blank(exclude), top, null);
+        Run(q, null);
+    }
+
+    private void Run(Query q, string? group)
+    {
+        var batch = Source.Load(group);
+        answered = batch.Answered;
+        fields = batch.Fields;
+        var (r, e) = Views.Run(batch, q);
+        if (r is null) { error = e; result = null; return; }
+        result = r;
+        queryText = r.Query.Print();
+        // Put the canonical string in the URL so the page can be linked, but only when it is
+        // not there already: a load from such a link runs this during prerender, where a
+        // navigation is a redirect, and rewriting an equal URL would redirect forever.
+        var current = System.Web.HttpUtility.ParseQueryString(Nav.ToAbsoluteUri(Nav.Uri).Query)["q"];
+        if (current != queryText) Nav.NavigateTo("/?q=" + Uri.EscapeDataString(queryText), forceLoad: false, replace: true);
+    }
+
+    private static string? Blank(string s) => string.IsNullOrWhiteSpace(s) ? null : s.Trim();
+}

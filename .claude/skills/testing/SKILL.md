@@ -228,8 +228,8 @@ enforces `--json-schema`, and still puts the answer in `structured_output`.
 - A session that changes the call (`Batch.cs`), the stream reader or the result capture runs
   it once, `STORYPLAN_RUNNER_SMOKE=1 dotnet test tests/StoryPlanner.Tests`, and reports the
   result to Brian, who does not run tests himself. An ordinary `dotnet test` never bills.
-- Once studies exist, the method's pilot (the first `execute-batch --item` of a real batch)
-  is the better proof, since its result gets read; the smoke test is for a change between
+- Once studies exist, the method's pilot (the first calls of a real batch's execution, paused
+  and read) is the better proof, since its results get read; the smoke test is for a change between
   studies, when no batch exists to pilot and a scratch batch outside `studies/` is not
   allowed.
 - Never add a second test that bills or reaches outside the repo without the same gate and

@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 namespace StoryPlanner.AgentRunner;
 
 public sealed record ControlRequest(string Batch, string Action, string? Item = null);
-public sealed record ExecuteRequest(string Path, string? Item = null, DateTimeOffset? NotBefore = null, bool Random = false);
+public sealed record ExecuteRequest(string Path, DateTimeOffset? NotBefore = null, bool Random = false);
 public sealed record HostSettingsRequest(int? MaxParallel = null, int? UtilizationCap = null, int? IdleMinutes = null);
 
 /// <summary>
@@ -51,7 +51,7 @@ public static class RunnerApi
 
         app.MapPost("/api/batches", (ExecuteRequest req) =>
         {
-            var r = host.Execute(req.Path, req.Item, req.NotBefore, req.Random);
+            var r = host.Execute(req.Path, req.NotBefore, req.Random);
             return r.Ok ? Results.Ok(r) : Results.BadRequest(r);
         });
 

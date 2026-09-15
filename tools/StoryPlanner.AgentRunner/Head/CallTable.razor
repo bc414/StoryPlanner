@@ -1,11 +1,19 @@
-@* Leaf: the items of one batch with their latest call; a row click selects an item for the stream pane. *@
+@* Leaf: the items of one batch with their latest call; a row click selects an item for the stream pane,
+   and a callable row carries its own queue jump so an item can be called now without selecting it first. *@
 <table>
-    <thead><tr><th>item</th><th>state</th><th>calls</th><th>exit</th><th>check</th><th>time</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>locator</th></tr></thead>
+    <thead><tr><th>item</th><th></th><th>state</th><th>calls</th><th>exit</th><th>check</th><th>time</th><th title="API-equivalent estimate from token counts at list prices — not billed on a subscription">api-equiv $</th><th>locator</th></tr></thead>
     <tbody>
     @foreach (var i in Items)
     {
         <tr class="selectable @(i.Item == SelectedItem ? "selected" : "")" @onclick="() => OnSelect.InvokeAsync(i.Item)">
             <td>@i.Item</td>
+            <td>
+                @if (i.Callable)
+                {
+                    <button class="row-call" title="the queue jump: call it now, past the ceiling and the cap"
+                            @onclick="() => OnCall.InvokeAsync(i.Item)" @onclick:stopPropagation="true">call now</button>
+                }
+            </td>
             <td><span class="state @i.State">@i.State</span></td>
             <td>@i.Calls</td>
             <td>@(i.LastExit?.ToString() ?? "")</td>
@@ -22,4 +30,5 @@
     [Parameter] public IReadOnlyList<ItemSnapshot> Items { get; set; } = [];
     [Parameter] public string? SelectedItem { get; set; }
     [Parameter] public EventCallback<string> OnSelect { get; set; }
+    [Parameter] public EventCallback<string> OnCall { get; set; }
 }

@@ -107,25 +107,6 @@ public class RunnerHostApiTests : IAsyncLifetime
     }
 
     [Fact]
-    public async Task A_pilot_calls_one_item_and_the_batch_route_reports_the_rest_pending()
-    {
-        _t.WriteItems(3);
-        _launcher.Hold = null;
-        var exec = await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath, Item: "item-02"));
-        Assert.Equal(HttpStatusCode.OK, exec.StatusCode);
-        Assert.Contains("1 to call", (await exec.Content.ReadFromJsonAsync<ExecuteResult>())!.Message);
-
-        await Wait.Until(() => _host.Batch(_t.Id)!.Succeeded == 1 && !_host.Batch(_t.Id)!.Live, what: "pilot done");
-        var batch = await _http.GetFromJsonAsync<JsonElement>("/api/batches/" + _t.Id);
-        Assert.Equal(3, batch.GetProperty("items").GetArrayLength());
-        Assert.Equal(2, batch.GetProperty("pending").GetInt32());
-        Assert.False(batch.GetProperty("completed").GetBoolean());
-        Assert.True(batch.GetProperty("stages").GetProperty("piloted").GetBoolean());
-        Assert.False(batch.GetProperty("stages").GetProperty("executed").GetBoolean());
-        Assert.Equal(1, _launcher.Launched);
-    }
-
-    [Fact]
     public async Task Execute_under_random_order_says_so_and_the_batch_route_shows_it()
     {
         _t.WriteItems(3);
@@ -140,9 +121,6 @@ public class RunnerHostApiTests : IAsyncLifetime
         _launcher.Hold!.Release(); _launcher.Hold.Release(); _launcher.Hold.Release();
         await Wait.Until(() => _host.Batch(_t.Id)!.Completed, what: "batch complete");
         Assert.Equal(3, _launcher.Launched);
-
-        var pilot = await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath, Item: "item-01", Random: true));
-        Assert.Equal(HttpStatusCode.BadRequest, pilot.StatusCode);          // a pilot has no order
     }
 
     [Fact]
@@ -240,7 +218,7 @@ public class RunnerHostApiTests : IAsyncLifetime
             utilization: () => figure, logPath: Path.Combine(_t.Root, "host-log-2.txt"));
         _t.WriteItems(1);
         _launcher.Hold = null;
-        var exec = capped.Execute(_t.DefinitionPath, null);
+        var exec = capped.Execute(_t.DefinitionPath);
         Assert.True(exec.Ok, exec.Message);
         await Task.Delay(700);
         Assert.Equal(0, _launcher.Launched);

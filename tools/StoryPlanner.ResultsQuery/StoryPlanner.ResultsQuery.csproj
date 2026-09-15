@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StoryPlanner.ResultsQuery</RootNamespace>
+        <!-- A query engine over an exploration batch's results (built 2026-09-15 inside
+             exploration-of-technique-mechanism-goal-co-occurrence, under building-a-tool). It
+             reads a batch's own files and nothing else, groups nothing, ranks nothing, writes
+             nothing: each verb answers one query over the bar-separated parts of the
+             `list of line` fields the directions declare, and prints the query's canonical
+             string first so a lead can carry it and the page can re-run it. A console tool
+             with verbs that also serves its own head (Blazor Server on localhost), the Web
+             SDK bringing Kestrel and Razor components, as the agent runner does. One flat
+             namespace; the Razor files set it in Head/_Imports.razor. -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+    </ItemGroup>
+
+</Project>

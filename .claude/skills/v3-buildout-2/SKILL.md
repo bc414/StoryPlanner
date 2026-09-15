@@ -77,7 +77,9 @@ These hold in every session type. A companion file elaborates; none overrides.
    authored in a session with Brian, against real items, calibrated against his blind
    verdicts before their first full batch, versioned by number and by the hash of the body
    every call cites; a revision is a new version and a new batch, never a re-label. An
-   exploration's directions are piloted on one item before the rest run. A verification
+   exploration's directions are piloted on the first calls of the batch's execution — as
+   many as the host's ceiling, the execution paused after they launch — before the rest
+   run. A verification
    whose results show its directions wanting records it as a shortcoming in its findings;
    the question is Brian's to raise, in reviewing-findings, and the fix is a new version
    through preparing-a-verification. Pipeline directions are revised only through
@@ -188,7 +190,7 @@ table is not thereby ungoverned: read the closest row's file and say which row w
 | preparing-pipeline-directions | surfacing-candidates iterating-a-statement | Preparing the method's pipeline directions, the referee's or claiming's, with Brian: the plan fixing the model, effort and sample, the sample collated, the directions authored against it and calibrated on a sample batch he scores blind; started by the set's first preparation, his general ruling at promotion or baselining, or a change of model |
 | reviewing-leads | preparing-a-verification | Brian and a session over a leads artifact, or two of one question: leads disputed against the source, the differences between explorations read as leads about the readers, and write the questions Brian raises into the question list |
 | conducting-an-exploration | reviewing-leads | Reading its itemizer's items discovery-first with its question in view and no hypothesis targeted: one item that is the whole of what the itemizer cuts, or one per slice, each a call through the runner under the study's directions; the results written as leads |
-| preparing-an-exploration | conducting-an-exploration | Scoping an exploration with Brian: its question, the scale, the directions written and, for slices, piloted on one item |
+| preparing-an-exploration | conducting-an-exploration | Scoping an exploration with Brian: its question, the scale, the directions written and, for slices, piloted on the batch's first calls |
 | asking-a-question | preparing-an-exploration preparing-a-verification | A question Brian raises in a session no other activity's processes cover, written into the question list with what raised it; the one route for a question that arises outside the activities that write their own |
 | building-a-tool | preparing-an-exploration preparing-a-verification | Code with tests that carries no judgment: ingests, readers, itemizers, collators, the runner, the validator; CORPORA.md updated when a corpus becomes readable |
 | revising-the-method | preparing-an-exploration preparing-a-verification | Changing how the buildout is run: the skill's files and tables rewritten, the validator passing, a write-once revision note recording what changed and why |
@@ -313,8 +315,10 @@ the runner and is read in full by any process that invokes it.
   and never a file of the method's other artifact classes.
 - **comparison**: two studies over the same items read against each other: by the tally
   where they share their directions, or at the review for two explorations.
-- **pilot**: an execution of a batch naming one item, whose result a person reads before
-  the rest run; a one-item batch needs none.
+- **pilot**: the first calls of a batch's execution, as many as the host's ceiling, the
+  execution paused after they launch and their results read by a person before it resumes;
+  a one-item batch needs none. The runner knows no pilot: no flag names one and no call is
+  marked.
 - **dry run**: the checks an execution would make, in memory, with nothing written.
 - **rule**: one of the ten constitutional rules above, cited by number.
 - **check**: one thing the tool holds, named by its id in a schema's Checks section; the

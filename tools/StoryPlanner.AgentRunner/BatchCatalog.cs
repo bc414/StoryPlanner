@@ -24,7 +24,6 @@ public sealed record ItemSnapshot(
 public sealed record BatchStages(
     bool Defined,          // definition.md reads
     bool Itemized,         // index.md with rows, every body present
-    bool Piloted,          // a call marked pilot
     bool Executed,         // every item has a successful call
     bool Tallied);         // tally.md
 
@@ -60,8 +59,8 @@ public sealed record BatchSnapshot(
 /// Reads batches from disk: every <c>definition.md</c> under a <c>batches/</c> folder beneath
 /// the host's working directory is a batch, its id the folder's path relative to that
 /// directory. Builds the same <see cref="BatchSnapshot"/> the host builds for a live
-/// execution, so history and live are one view. The items of a batch are the index's, never
-/// the live execution's filter: a pilot leaves the rest pending.
+/// execution, so history and live are one view. The items of a batch are the index's: an
+/// execution paused, stopped or interrupted leaves the rest pending.
 /// </summary>
 public static class BatchCatalog
 {
@@ -139,7 +138,6 @@ public static class BatchCatalog
         var stages = new BatchStages(
             Defined: definition is not null && error is null,
             Itemized: itemized,
-            Piloted: calls.Any(c => c.Pilot),
             Executed: executed,
             Tallied: File.Exists(Path.Combine(dir, "tally.md")));
 

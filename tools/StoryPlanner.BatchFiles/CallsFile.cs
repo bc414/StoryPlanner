@@ -20,8 +20,7 @@ public sealed record CallEntry(
     string Check,
     double? Cost,
     int? Turns,
-    string? SessionId,
-    bool Pilot)
+    string? SessionId)
 {
     public const string Ok = "ok";
     public bool Succeeded => Exit == 0 && Check == Ok;
@@ -31,12 +30,14 @@ public sealed record CallEntry(
 /// The batch's <c>calls.md</c>: a title, a head line recording the definition's hash at the
 /// first execution, then one entry per call in the keyed-line grammar, appended by the runner
 /// and never edited. The batch's state is read from it: an item with a successful call has
-/// its result; every other item is called by the next execution.
+/// its result; every other item is called by the next execution. The parser reads the keys
+/// it knows and ignores the rest, so an entry written under an older key set (the `pilot`
+/// line of calls files from before 2026-09-15) reads as any other.
 /// </summary>
 public sealed class CallsFile
 {
     static readonly Regex Heading = new(@"^### (?<item>[a-z0-9-]+) — call (?<n>\d+)$", RegexOptions.Compiled);
-    public static readonly string[] Keys = ["model", "effort", "harness", "directions hash", "item hash", "prompt hash", "started", "ended", "exit", "check", "cost", "turns", "session", "pilot"];
+    public static readonly string[] Keys = ["model", "effort", "harness", "directions hash", "item hash", "prompt hash", "started", "ended", "exit", "check", "cost", "turns", "session"];
 
     public string? Title { get; }
     public string? DefinitionHash { get; }
@@ -83,7 +84,7 @@ public sealed class CallsFile
             entries.Add(new CallEntry(item, call, V("model"), block.Value("effort"), V("harness"), V("directions hash"), V("item hash"), V("prompt hash"),
                 V("started"), V("ended"), int.TryParse(V("exit"), out var exit) ? exit : -1, V("check"),
                 double.TryParse(V("cost"), NumberStyles.Float, CultureInfo.InvariantCulture, out var cost) ? cost : null,
-                int.TryParse(V("turns"), out var turns) ? turns : null, block.Value("session"), V("pilot") == "yes"));
+                int.TryParse(V("turns"), out var turns) ? turns : null, block.Value("session")));
             item = null;
             body = [];
         }
@@ -126,7 +127,6 @@ public sealed class CallsFile
         if (e.Cost is { } c) sb.Append(KeyedLines.RenderLine("cost", c.ToString("F4", CultureInfo.InvariantCulture))).Append('\n');
         if (e.Turns is { } t) sb.Append(KeyedLines.RenderLine("turns", t.ToString(CultureInfo.InvariantCulture))).Append('\n');
         if (e.SessionId is not null) sb.Append(KeyedLines.RenderLine("session", e.SessionId)).Append('\n');
-        sb.Append(KeyedLines.RenderLine("pilot", e.Pilot ? "yes" : "no")).Append('\n');
         return sb.ToString();
     }
 }

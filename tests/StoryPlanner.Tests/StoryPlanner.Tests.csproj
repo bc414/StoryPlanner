@@ -40,6 +40,7 @@
         <ProjectReference Include="..\..\tools\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.PipelineCollator\StoryPlanner.PipelineCollator.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.ChapterItemizer\StoryPlanner.ChapterItemizer.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.ResultsQuery\StoryPlanner.ResultsQuery.csproj" />
     </ItemGroup>
 
 </Project>

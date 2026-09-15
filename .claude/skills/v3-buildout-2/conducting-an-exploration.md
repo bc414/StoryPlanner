@@ -4,23 +4,24 @@ Enables reviewing-leads.
 
 | id | mode | instruments | reads | writes | state | description |
 |---|---|---|---|---|---|---|
-| continue-exploration-batch | session | runner | studies definition results | calls tally | specified | On Brian's approval, once the pilot's result has been read: execute-batch over every item without a result, the hand-off, after which the host calls them and writes the tally when the last has a result; a one-item batch is the whole of what the itemizer cuts and needs no pilot |
+| continue-exploration-batch | session | runner | studies definition results | calls tally | specified | On Brian's approval, once the pilot's results have been read: the paused execution resumed, the hand-off, after which the host calls every item without a result and writes the tally when the last has one; a later execute-batch calls whatever the execution left; a one-item batch is the whole of what the itemizer cuts and needs no pilot |
 | explore-items | agent | | directions items | results | specified | A call reads one item, the whole or one slice, discovery-first under the directions and answers with its leads, what was seen and what it was seen in, as the declared entries; the only writer of results |
 | write-leads | session | | definition directions index results question-list | leads | specified | Consolidates every result into the leads file, so that Brian reads leads rather than every result: each lead what was seen, coarsely where, and the slices it cites, leads about one thing written together, and the questions the leads raise that no question asks |
 
 ## Preconditions
 
 The study is registered and its batch is assembled, itemized and dry-run by
-preparing-an-exploration. For slices: the pilot's result has been read by Brian and the
+preparing-an-exploration. For slices: the pilot's results have been read by Brian and the
 directions stand. For a one-item batch: the whole of what the itemizer cuts, or a stated
 narrowing of it, fits one call.
 
 ## continue-exploration-batch
 
-Per the `agent-runner` skill: execute-batch on the batch preparing assembled, which calls
-every item that has no result yet, the pilot's item excluded since it has one; the host
-writes the tally when the last item has a result. A one-item batch's one call is the whole
-exploration, watched through the host's stream. A repeat under another model is a second
+Per the `agent-runner` skill: resume the execution preparing paused, which goes on to call
+every item that has no result yet, the pilot's items excluded since they have theirs; the
+host writes the tally when the last item has a result. If that execution is gone — the host
+restarted, or stop was requested — execute-batch on the batch calls whatever it left. A
+one-item batch's one call is the whole exploration, watched through the host's stream. A repeat under another model is a second
 study, compared at the review.
 
 ## explore-items

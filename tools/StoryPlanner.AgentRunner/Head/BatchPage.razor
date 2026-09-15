@@ -19,7 +19,7 @@ else
     <p class="muted">@batch.Succeeded answered, @batch.Failed failed, @batch.Pending pending — api-equiv $@batch.CostUsd.ToString("F2")</p>
 
     <div class="split">
-        <div><CallTable Items="batch.Items" SelectedItem="@selected" OnSelect="Select" /></div>
+        <div><CallTable Items="batch.Items" SelectedItem="@selected" OnSelect="Select" OnCall="CallItem" /></div>
         <div><StreamPane Events="events" Title="@streamTitle" /></div>
     </div>
 }
@@ -52,6 +52,9 @@ else
     private void OnStream(string batchId, string item, int call) { if (batchId == BatchId && item == selected) streamDirty = true; }
 
     private void Select(string item) { selected = item; note = null; ReloadStream(); }
+
+    // The row's own queue jump: same verb as "call selected now", aimed at the row rather than the selection.
+    private void CallItem(string item) { if (batch is not null) note = Host.Call(batch.Id, item); }
 
     private void ReloadStream()
     {

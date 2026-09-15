@@ -34,9 +34,10 @@ public sealed record RunningCall(string Item, int Call, DateTimeOffset StartUtc,
 
 /// <summary>
 /// One execution of a batch (decisions.md, "executing a batch is one call per item still
-/// without a result"): one call for every item of the index that has no successful call yet,
-/// or the one item named, which is the pilot. The call's number is the execution's. Nothing
-/// here changes what a call is; the loop takes its launcher and its gate from outside,
+/// without a result"): one call for every item of the index that has no successful call yet.
+/// The call's number is the execution's. Nothing here changes what a call is, and no
+/// execution is a special shape: the method's pilot is an execution paused after its first
+/// launches. The loop takes its launcher and its gate from outside,
 /// walks the index in its order or, under random order, in one shuffle of it drawn at
 /// construction, and accepts harness commands (pause, resume, stop after in-flight, cancel
 /// an item, the queue jump) while it runs. The calls file is the batch's state and this
@@ -59,11 +60,9 @@ public sealed class BatchRunner
 
     public Batch Batch { get; }
     public string Id => Batch.Id;
-    /// <summary>The item this execution was asked for alone; an execution naming one item is the pilot.</summary>
-    public string? ItemFilter { get; }
     /// <summary>The number every call of this execution carries: one more than the last execution's.</summary>
     public int Execution { get; }
-    /// <summary>Whether this execution walks the index in a shuffle rather than its order — an execution's setting, like the filter; no call is different for it.</summary>
+    /// <summary>Whether this execution walks the index in a shuffle rather than its order — an execution's setting; no call is different for it.</summary>
     public bool RandomOrder { get; }
     /// <summary>The sequence the next item is picked from: the index's order, or one shuffle of it drawn at construction under <see cref="RandomOrder"/>.</summary>
     public IReadOnlyList<string> Order { get; }
@@ -78,10 +77,9 @@ public sealed class BatchRunner
     public event Action? Changed;
     public event Action<string, int>? StreamAdvanced;
 
-    public BatchRunner(Batch batch, string? itemFilter, IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string launchDir, bool randomOrder = false)
+    public BatchRunner(Batch batch, IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string launchDir, bool randomOrder = false)
     {
         Batch = batch;
-        ItemFilter = itemFilter;
         _launcher = launcher;
         _gate = gate;
         _log = log;
@@ -98,10 +96,10 @@ public sealed class BatchRunner
 
     /// <summary>
     /// Everything the loop needs that is not the loop: the batch, its items on disk, the
-    /// launch folder's invariants, the filter. Returns the error text instead of a runner when
-    /// the batch is unusable, so the CLI and the host report the same message.
+    /// launch folder's invariants. Returns the error text instead of a runner when the batch
+    /// is unusable, so the CLI and the host report the same message.
     /// </summary>
-    public static (BatchRunner? Runner, string? Error) Create(string definitionPath, string workingDir, string? itemFilter, string launchDir,
+    public static (BatchRunner? Runner, string? Error) Create(string definitionPath, string workingDir, string launchDir,
         IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, bool randomOrder = false)
     {
         var (batch, error) = Batch.Load(definitionPath, workingDir);
@@ -110,11 +108,7 @@ public sealed class BatchRunner
         if (missing.Count > 0) return (null, $"{missing.Count} item(s) have no body under items/ (first: {missing[0]}); the itemizer or collator regenerates them");
         var launchError = Batch.CheckLaunchDir(launchDir, definitionPath);
         if (launchError is not null) return (null, launchError);
-        if (itemFilter is not null && !batch.Items.Contains(itemFilter))
-            return (null, $"--item \"{itemFilter}\" is not in the index.");
-        if (itemFilter is not null && randomOrder)
-            return (null, "--random with --item: a pilot calls one item and has no order.");
-        return (new BatchRunner(batch, itemFilter, launcher, gate, log, harnessVersion, Path.GetFullPath(launchDir), randomOrder), null);
+        return (new BatchRunner(batch, launcher, gate, log, harnessVersion, Path.GetFullPath(launchDir), randomOrder), null);
     }
 
     // --- harness commands: how the batch runs, never what a call is ---
@@ -145,7 +139,6 @@ public sealed class BatchRunner
         if (!Started || Completed) return "not executing";
         if (StopRequested) return "stop requested — nothing more is launched";
         if (!Batch.Items.Contains(item)) return $"{item} is not in the index";
-        if (ItemFilter is not null && item != ItemFilter) return $"{item} is not in this execution, the pilot of {ItemFilter}";
         if (_running.ContainsKey(item)) return $"{item} is already running";
         if (_calls.Any(c => c.Item == item && c.Succeeded)) return $"{item} has answered";
         if (_calls.Any(c => c.Item == item && c.Call == Execution)) return $"{item} was already called in execution {Execution}; the next execute-batch calls it again";
@@ -159,9 +152,9 @@ public sealed class BatchRunner
     /// The queue jump (Brian, 2026-09-15: "It's just a queue jump", "It should go past the
     /// gate"): one item pending in this execution, called now, past the host's ceiling and
     /// cap, taking a slot the gate counts from then on. Harness control: the call is composed,
-    /// recorded and checked exactly as the loop's would be, under this execution's number and
-    /// never marked pilot; an item already called by this execution is refused, so one call
-    /// per item per execution holds. Refused once stop is requested; allowed under pause,
+    /// recorded and checked exactly as the loop's would be, under this execution's number;
+    /// an item already called by this execution is refused, so one call per item per
+    /// execution holds. Refused once stop is requested; allowed under pause,
     /// which holds the loop and not the hand. The jump goes to the log and never to the calls
     /// file, like the order of calls. Returns why it was refused, or null.
     /// </summary>
@@ -190,19 +183,18 @@ public sealed class BatchRunner
     public bool HasSucceeded(string item) { lock (_lock) return _calls.Any(c => c.Item == item && c.Succeeded); }
     public string? HoldReason() => _gate.HoldReason(this);
 
-    /// <summary>The items this execution will call: those in the filter, if any, without a successful call.</summary>
+    /// <summary>The items this execution will call: those of the index without a successful call.</summary>
     public IReadOnlyList<string> Pending()
     {
         lock (_lock)
-            return Batch.Items.Where(i => (ItemFilter is null || i == ItemFilter) && !_calls.Any(c => c.Item == i && c.Succeeded)).ToList();
+            return Batch.Items.Where(i => !_calls.Any(c => c.Item == i && c.Succeeded)).ToList();
     }
 
     /// <summary>What an execution will do, from the calls file: the items it will call and the ones it skips as answered.</summary>
     public string Summary()
     {
-        var scope = ItemFilter is null ? Batch.Items : [ItemFilter];
         var pending = Pending().Count;
-        return $"{scope.Count} item(s) — {pending} to call, {scope.Count - pending} skipped as answered" + (RandomOrder ? ", random order" : "") + (ItemFilter is null ? "" : " (pilot)");
+        return $"{Batch.Items.Count} item(s) — {pending} to call, {Batch.Items.Count - pending} skipped as answered" + (RandomOrder ? ", random order" : "");
     }
 
     // --- the loop ---
@@ -220,7 +212,7 @@ public sealed class BatchRunner
                 bool anyPending;
                 lock (_lock)
                 {
-                    var next = Order.FirstOrDefault(i => (ItemFilter is null || i == ItemFilter) && !_running.ContainsKey(i) && !_calls.Any(c => c.Item == i && c.Succeeded) && !_calls.Any(c => c.Item == i && c.Call == Execution));
+                    var next = Order.FirstOrDefault(i => !_running.ContainsKey(i) && !_calls.Any(c => c.Item == i && c.Succeeded) && !_calls.Any(c => c.Item == i && c.Call == Execution));
                     anyPending = next is not null;
                     if (next is not null && !Paused && !StopRequested) item = next;
                 }
@@ -285,8 +277,8 @@ public sealed class BatchRunner
     /// <summary>
     /// The host writes the tally when the last item has a successful call and never again
     /// (decisions.md, "the host writes the tally at completion"): no session step to forget,
-    /// and every batch's tally has the same shape. A pilot, or an execution that left items
-    /// unanswered, writes none.
+    /// and every batch's tally has the same shape. An execution that left items unanswered
+    /// writes none.
     /// </summary>
     private void WriteTallyIfComplete()
     {
@@ -354,7 +346,7 @@ public sealed class BatchRunner
         }
 
         var entry = new CallEntry(item, Execution, Batch.Model, Batch.Effort, _harnessVersion, plan.DirectionsHash, plan.ItemHash, plan.PromptHash,
-            start.ToString("o"), end.ToString("o"), exitCode, check, summary.CostUsd, summary.Turns, summary.SessionId, ItemFilter is not null);
+            start.ToString("o"), end.ToString("o"), exitCode, check, summary.CostUsd, summary.Turns, summary.SessionId);
         Record(entry);
         _log($"[{Id}] {item}: exit {exitCode}, check: {check}, {(end - start).TotalSeconds:F0}s" +
              (summary.CostUsd is { } cost ? $", ${cost:F3}" : "") + (summary.Turns is { } turns ? $", {turns} turn(s)" : ""));

@@ -223,8 +223,8 @@ public class BatchFilesTests
     public void The_calls_file_appends_entries_and_reads_the_batchs_state_back()
     {
         var head = CallsFile.RenderHead("01-full", "abc");
-        var e1 = new CallEntry("note-1", 1, "sonnet", "high", "2.1.258", "d".PadLeft(64, 'd'), "i", "p", "2026-09-09T10:00:00Z", "2026-09-09T10:01:00Z", 0, CallEntry.Ok, 0.0123, 1, "sess", false);
-        var e2 = e1 with { Item = "note-2", Exit = 1, Check = "no structured output", Cost = null, Turns = null, SessionId = null, Pilot = true };
+        var e1 = new CallEntry("note-1", 1, "sonnet", "high", "2.1.258", "d".PadLeft(64, 'd'), "i", "p", "2026-09-09T10:00:00Z", "2026-09-09T10:01:00Z", 0, CallEntry.Ok, 0.0123, 1, "sess");
+        var e2 = e1 with { Item = "note-2", Exit = 1, Check = "no structured output", Cost = null, Turns = null, SessionId = null };
         var text = head + CallsFile.RenderEntry(e1) + CallsFile.RenderEntry(e2);
         var calls = CallsFile.Parse(text);
         Assert.Empty(calls.Problems);
@@ -234,9 +234,15 @@ public class BatchFilesTests
         Assert.True(calls.HasSucceeded("note-1"));
         Assert.False(calls.HasSucceeded("note-2"));
         Assert.Equal(0.0123, calls.Entries[0].Cost);
-        Assert.True(calls.Entries[1].Pilot);
         Assert.Null(calls.Entries[1].Cost);
         Assert.Equal(1, calls.Executions);
+        Assert.DoesNotContain("pilot", text);
+
+        // Calls files written before 2026-09-15 carry a `pilot` line; it is a keyed line the parser does not read, never a problem.
+        var legacy = CallsFile.Parse(text.Replace("- check: ok\n", "- check: ok\n- pilot: yes\n"));
+        Assert.Empty(legacy.Problems);
+        Assert.Equal(2, legacy.Entries.Count);
+        Assert.True(legacy.HasSucceeded("note-1"));
     }
 
     [Fact]

@@ -6,8 +6,8 @@ Enables conducting-an-exploration.
 |---|---|---|---|---|---|---|
 | explore-plan | hitl | | question-list corpora corpus state skill | studies question-list | specified | Brian and the session fix the question, the scale, one item or slices, the itemizer, the model and effort; the plan approved registers the study; his question written into the list first where it is not there |
 | author-exploration-directions | hitl | | question-list corpus directions | directions | specified | The directions written with Brian against the corpora: what one item is, how to read with the question in view, what to produce as entries; a new numbered version each time |
-| assemble-exploration-batch | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer; dry-run-batch; for slices, execute-batch naming one item, the pilot, whose result Brian reads before the rest run |
-| explore-pilot-item | agent | | directions items | results | specified | The pilot's call, one slice read discovery-first under the directions; the only writer of its result |
+| assemble-exploration-batch | session | runner tool-source | directions corpus | definition index items calls | specified | The batch's definition written and its items cut by the itemizer; dry-run-batch; for slices, execute-batch paused as soon as it starts, its first calls the pilot, whose results Brian reads before the rest run |
+| explore-pilot-item | agent | | directions items | results | specified | A pilot call, one slice read discovery-first under the directions; the only writer of its result |
 
 ## Preconditions
 
@@ -43,10 +43,12 @@ that renders or concatenates the whole of what it cuts into the item, never inst
 for reading it elsewhere. It reads corpora and nothing else, and may read other corpora to
 cut, label and fill the items, as preparing-a-verification § itemize says, stating any
 narrowing in the index head. Then, per the `agent-runner` skill, dry-run-batch, and for
-slices execute-batch naming one item. Brian reads that result and says whether the
-directions produce leads of the shape wanted; directions he sends back are a new version
-and a new batch, since a definition is never edited. A one-item batch needs no pilot: its
-one call is the exploration, and conducting-an-exploration runs it.
+slices execute-batch, paused on the page as soon as it starts; the calls that launched
+before the pause, as many as the host's ceiling, are the pilot. Brian reads those results
+and says whether the directions produce leads of the shape wanted; directions he sends
+back are a new version and a new batch, since a definition is never edited. A one-item
+batch needs no pilot: its one call is the exploration, and conducting-an-exploration runs
+it.
 
 ## explore-pilot-item
 
@@ -56,4 +58,4 @@ read discovery-first with the questions in view; one lead set out in the declare
 ## Never
 
 Reads a corpus for content beyond sizing it; names a hypothesis as a target; executes
-the rest of a sliced batch before Brian has read the pilot's result; edits a definition.
+the rest of a sliced batch before Brian has read the pilot's results; edits a definition.

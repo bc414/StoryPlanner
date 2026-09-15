@@ -14,8 +14,8 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 ### exploration-of-technique-mechanism-goal-co-occurrence
 
 - type: exploration
-- artifacts present: directions (2) definition (2) index (2) items (2) calls results
-- batches: 01-chapters [-, directions-1, executing (21/1116)] 02-chapters-directions-2 [-, directions-2, itemized]
+- artifacts present: directions (2) definition (2) index (2) items (2) calls (2) results (2)
+- batches: 01-chapters [-, directions-1, executing (24/1116)] 02-chapters-directions-2 [-, directions-2, executing (602/1116)]
 - furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
 
 ## Iterations
