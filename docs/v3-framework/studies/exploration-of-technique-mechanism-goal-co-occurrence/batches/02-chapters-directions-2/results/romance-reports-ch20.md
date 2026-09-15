@@ -1,0 +1,4 @@
+- moments:
+  - Embedded document / nested narrative | a first-person memoir being read by someone else, not events unfolding live | double remove: reader feels like a reader-over-the-shoulder of a reader | establishes that the bulk of the chapter is a text existing inside the story world, being consumed by Twilight | recurring 'I remember' phrasing and unmarked present-tense interruptions | throughout, especially at the three points the narration breaks to show Twilight | none | none
+- unplaced:
+  - placeholder

@@ -239,3 +239,34 @@
   ended meaning I don't specify any leans. Still focused per dimension"; the reader names each
   technique it sees, what marked it, and coarsely where; the leads are consolidated by
   technique.
+
+### questions/technique-mechanism-goal-co-occurrence
+
+- date: 2026-09-14
+- raised by: the two pilots of exploration-of-prose-techniques-used, both on the item
+  twilights-list-ch05, read in the session that had prepared that study. Under its
+  directions-1 and directions-2 the reader named techniques welded to what they do and what
+  they are for: Brian, "It seems to be giving nouns/subjects alongside the technique?", and of
+  the lines it produced, whether any overlap with free indirect discourse, direct thought,
+  sensory detail and dialogue. The session read the welding as the moment presenting all three
+  dimensions at once, and Brian asked: "What if it's better to go with the 3 way split of
+  technique/mechanism/goal after all?" The three dimensions and their working definitions are
+  his. Technique: "I put letters and dreams in prose technique because they are different
+  forms the reader interprets the words, like direct thought, free indirect discourse, dialogue
+  and sensory detail." Mechanism, locked as a design definition in the same session: "Or should
+  I just lock in 'an operation on what the reader knows or believes' as a dimension
+  irrespective of how exhaustive it is because that is what its leads will actually point me
+  towards a deliverable?", its object widened by him to the fabula: "It's the world laws,
+  civilizational systems, history, characters' psychology, bonds. It's the fabula." Goal, his
+  of 2026-08-28: "The mechanisms serve something like a 'meaning' or an 'effect', perhaps I'll
+  call it a 'goal' for now until a better term emerges." The co-occurrence was in his opening
+  ask of 2026-09-14, "to see whether prose techniques, mechanisms and goals are an independent
+  3x3 matrix and what the possible values are for each dimension", and deferred by him, "The
+  coccurance comes after.", until the pilots showed the reader producing it unasked.
+- question: In the Fimfiction stories, at the moments where the words are taken in a distinct
+  way, what prose technique, what operation on what the reader knows or believes about the
+  fabula, and what experience occur, and which of the three occur together or are absent?
+- suggested test: One item per chapter; one line per moment carrying the technique, the kind of
+  words the reader takes them to be, the operation on the reader's model of the fabula with
+  whether that state was built by the text or brought to it, the experience produced, what
+  marks it and where; any part may be empty; the same chapter piloted first.

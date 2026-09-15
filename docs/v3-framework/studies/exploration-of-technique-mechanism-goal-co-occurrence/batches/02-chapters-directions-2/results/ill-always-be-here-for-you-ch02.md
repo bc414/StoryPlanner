@@ -1,0 +1,36 @@
+- moments:
+  - close third-person/free indirect narration|sensory, tactile descriptive prose|cozy, intimate domestic warmth|none|cocoon of blankets, warm pillow|opening waking-up scene
+  - delayed-identity reveal|a descriptive noun withheld then corrected|tender surprise|confirms Scootaloo stayed the night, establishes their closeness|"not a pillow, but Scootaloo"|just after Rainbow lifts the blanket with a wing
+  - italicized interior monologue|direct unspoken thought|gentle, rueful humor|none|*Darn, I woke her up…*|right after Scootaloo stirs awake
+  - physical-description recap|list of recognizable features|reassurance and comfort|reinforces Scootaloo's idolization of Rainbow Dash|"cyan coat, magenta eyes, brilliant rainbow mane"|when Scootaloo whips around startled at the voice
+  - affectionate-nickname address|diminutive terms of endearment|warmth, intimacy|establishes the surrogate-guardian/mentor dynamic between them|"squirt," "Scoots"|throughout dialogue, especially bedroom and porch scenes
+  - dialogue with embedded physical detail|teasing banter masking pain|warmth undercut by concern|keeps the previous night's injury present beneath a playful surface|bruise inspection, "S–see?"|bedroom exchange about her head
+  - slapstick action narration|fast physical-comedy description|levity, playful energy|none|"cyan blur rocketed past her"|hallway and staircase race
+  - descriptive sensory narration|environmental scent and flight-mechanic detail|immersive calm|none|cinnamon and sugar scents, gliding on drafts|flight to Sugarcube Corner
+  - exaggerated character-voice dialogue|rapid, self-interrupting speech with verbal tics|humor, comic relief|none|"Ow-ow-ow," the rhyme joke, "Oh my gosh"|Pinkie Pie's greeting at the bakery
+  - situational-comedy beat|embarrassed realization|light humor|none|reaching for a "nonexistent saddlebag"|ordering muffins at the counter
+  - mood-pivot marked by behavioral cue|avoidance body-language description|building unease|signals hidden distress, primes reader for a revelation|staring at the floor, playing with her hooves|after Scootaloo devours the first muffin
+  - escalating confessional dialogue|halting admissions|shock, dawning anger|establishes as literal fact that Scootaloo's parents fail to feed her, deepening the known neglect|"They, um… no, not really"|table conversation at Sugarcube Corner
+  - fragmented italicized interior monologue|interrupted, self-censored thought|mounting horror|introduces the causal theory linking the mother's drinking to Scootaloo's inability to fly|*What if she can't fly because… NO!*|immediately after the neglect admission
+  - narrator exposition breaking close POV|factual, informational prose|clinical explanatory shift|adds invented biological lore about prenatal alcohol effects, recasting Scootaloo's flightlessness as caused by her mother|"It was common knowledge..."|paragraph following Rainbow's realization
+  - narrator resolve-statement|declarative summary of intention|determination|propels the plot toward the confrontation|"she had to do something about this"|end of the bakery scene
+  - descriptive squalor imagery|decay and disgust sensory detail|dread, pity, disgust|visually confirms the family's poverty and neglect|cracked windows, litter, rotten apples|approach to Scootaloo's house
+  - italicized interior monologue|incredulous exclamation|shock|none|*Scootaloo lives here!? There's no way…*|arriving at the house
+  - self-admonishing interior monologue|cautionary self-instruction|anticipatory tension|sets an expectation of restraint that creates dramatic irony against the later near-violence|*Remember, Dash, don't judge them...*|just before entering the house
+  - offstage voice introduction with dialect spelling|vulgar, phonetically rendered speech|alarm, foreboding|characterizes the mother as harsh before she is even seen|"yer in big heaps o' trouble"|entering the house, before rounding the corner
+  - descriptive characterization|unflattering physical detail|disgust|visually confirms the father's alcoholism and self-neglect|unkempt mane, gut, liquor bottle|living-room introduction of the father
+  - dramatized domestic-argument dialogue|mutual-blame exchange|discomfort witnessing dysfunction|reveals the parents' dynamic of mutual resentment and shirked responsibility|thrown book, "you useless piece of trash"|living room, before Rainbow speaks up
+  - italicized interior monologue|wry, dry-humored aside|brief relief amid tension|none|*Uh, I'm pretty sure I already said...*|mother asking Rainbow's name a second time
+  - embedded backstory exposition via dialogue|recounted narrative|clarifying understanding|fills in the precipitating event of the drink-pouring incident, apportioning ambiguous blame|mother's account of "glass smashing"|mother explaining the previous night's events
+  - irony beat via self-directed dialogue|rhetorical self-question|uncomfortable irony, dark humor|reveals the mother's own awareness of her drinking without any change in behavior|"why do I even drink this trash?"|mother explaining the previous night
+  - callous dialogue|contemptuous characterization of the child|anger, sympathy for Scootaloo|confirms the mother's emotional neglect and prejudice about Scootaloo's inability to fly|"worthless, no good, flightless filly"|mother's outburst about Scootaloo
+  - sudden physical-action beat|interrupting physical description|shock, tension spike|shows Rainbow nearing the edge of her restraint, raising stakes|"Rainbow shoved her"|mid-argument with the mother
+  - dialogue callback|pleading reminder|pathos, de-escalation|reactivates the earlier promise not to hurt the parents, reasserting a constraint on Rainbow's behavior|"You promised me you wouldn't hurt them"|right after the shove
+  - dialogue reversal/twist|quiet refusal|heartbreak, unexpected reversal of the expected rescue|recasts the rescue premise, revealing Scootaloo's fear of retaliation and learned self-protective resignation|"Things would just get worse for me if I went with you"|after Rainbow announces Scootaloo will live with her
+  - physical humiliation/ejection beat|description of forced removal|frustration, helplessness|none|"roughly shoved out onto the front porch"|end of the confrontation
+  - escalating dialogue threats|menacing declarations|unresolved tension|foreshadows further conflict over custody and safety|"I'll have you thrown in jail" / "I'll beat you"|doorway parting exchange
+  - forward-looking italicized interior monologue|intention statement|determination, transitional momentum|sets up the next narrative step of seeking Twilight's help|*I gotta tell Twilight about this*|final flight away from the house
+  - momentary omniscient narrator aside|reported event outside the protagonist's awareness|bittersweet poignancy|reveals Scootaloo's hidden affection/gratitude unknown to Rainbow, closing on dramatic irony|"She didn't see Scootaloo wave goodbye"|final line of the chapter
+- unplaced:
+  - chapter title as paratextual framing device|"The Confrontation" heading|precedes the chapter text, not part of the prose itself
+  - recurring dialect spelling for both parents ('yer', 'mah', 'fo–')|phonetic contractions in their dialogue|throughout the confrontation scene
