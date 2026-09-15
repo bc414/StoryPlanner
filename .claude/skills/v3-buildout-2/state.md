@@ -4,7 +4,12 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 
 ## Studies
 
-Registry `docs/v3-framework/studies.md` holds no entries.
+### exploration-of-prose-techniques-used
+
+- type: exploration
+- artifacts present: directions
+- batches: none
+- furthest process whose study-scoped writes all exist: author-exploration-directions (preparing-an-exploration)
 
 ## Iterations
 
@@ -22,7 +27,7 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 
 ## Questions
 
-12 open, 0 withdrawn.
+13 open, 0 withdrawn.
 
 | question | covered by (calibrated directions) | answered by (verification) |
 |---|---|---|
@@ -38,6 +43,7 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 | working-plan-note-relationships-in-prose | nothing | nothing |
 | notes-mix-cognitive-modes | nothing | nothing |
 | goals-no-track-type-names | nothing | nothing |
+| prose-techniques-used | nothing | nothing |
 
 ## Hypotheses
 

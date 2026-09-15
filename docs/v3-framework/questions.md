@@ -209,3 +209,33 @@
   part under it, and Brian took up its wording: "Do v2 notes carry goals no track type names?"
   Asked beside questions/humor-warmth-prior-belief-setups.
 - question: Do the working plan's notes carry goals that no track type names?
+
+### questions/prose-techniques-used
+
+- date: 2026-09-14
+- raised by: recall, in a session preparing an exploration of the Fimfiction stories. The opening
+  ask: "I want to do an exploration study on fimfiction-stories to see whether prose techniques,
+  mechanisms and goals are an independent 3x3 matrix and what the possible values are for each
+  dimension.", corrected in the same deliberation: "3x3 was a conceptual typo. I don't know how
+  many values are in each dimension, and 3x3 is only 2D." The per-dimension sequence is his: "I
+  was thinking one study per dimension first just to get reasonable values for each dimension.
+  The coccurance comes after." and "What if I do prose techniques and goals first (goals is open
+  ended) and then use those preliminary value sets to look for mechanisms?" The dimension's
+  criterion is his: "I put letters and dreams in prose technique because they are different
+  forms the reader interprets the words, like direct thought, free indirect discourse, dialogue
+  and sensory detail." His leans, held out of the directions at his choice: "Prose techniques:
+  dialogue, sensory details, direct thought, free indirect discourse, letters, dreams, narrator
+  omniscient reporting, paralipsis." and "There could be more to discover."; of paralipsis he
+  asked "Maybe paralipsis goes in that category instead?", the middle dimension, and the
+  session's reading, not yet ruled, is that his criterion places it there. The earliest form of
+  the question is his of 2026-08-18: "Finally there's Direct Thought, Free Indirect Discourse as
+  'prose techniques'? render mode? What is this? And what are the other values?" The consumer
+  is his of 2026-08-28: "the prose techniques have to be done on the fly while writing without
+  AI assistance for it to be my voice. But I can catalog the different ones in the Writing
+  Techniques section of the story planner as a reference."
+- question: What prose techniques are used in the Fimfiction stories?
+- suggested test: One item per chapter, cut at the chapter heading every story file shares; the
+  directions carry his criterion for the dimension and no example values, as he asked: "Open
+  ended meaning I don't specify any leans. Still focused per dimension"; the reader names each
+  technique it sees, what marked it, and coarsely where; the leads are consolidated by
+  technique.

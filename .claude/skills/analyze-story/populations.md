@@ -43,7 +43,7 @@ Have existing cloud analysis AND get a 1M re-run. The pair is the 4.3 population
 - [x] controlling-your-desires
 - [x] not-unless-you-mean-it
 - [x] the-twilight-hours
-- [x] maidens-day-1
+- [x] maidens-day
 - [x] kindnesss-reward
 - [x] the-appledash-project
 - [x] promises
@@ -75,7 +75,7 @@ Were in Large Queue on Drive. 1M analysis only (no cloud version to compare).
 - [x] i-love-to-see-you-smile
 - [x] carrot-top-season
 - [x] fixing-up-miss-smartypants
-- [x] twilights-list-1
+- [x] twilights-list
 - [x] feels-like-the-first-time
 - [x] bechdels-law
 - [x] the-best-night-ever
@@ -97,18 +97,18 @@ Were in Large Queue on Drive. 1M analysis only (no cloud version to compare).
 
 Too large for Drive upload. 1M analysis only (no cloud version).
 
-- [x] a-delicate-balance (1,594 KB, markdowns1)
-- [x] pax-chrysalia (1,935 KB, markdowns — converted from epub 2026-08-26)
-- [x] the-moons-apprentice (2,349 KB, markdowns1)
+- [x] a-delicate-balance (1,594 KB)
+- [x] pax-chrysalia (1,935 KB — reconverted from its epub 2026-09-14)
+- [x] the-moons-apprentice (2,349 KB)
 
 ## Tier 3: Manual — split or special handling (4 stories)
 
 Too large for 1M single session, or requires targeted re-analysis.
 
-- [ ] green (2,656 KB, markdowns — borderline, attempt single first)
-- [ ] fallout-equestria (3,509 KB, markdowns1)
-- [ ] your-human-and-you (3,834 KB, markdowns1)
-- [ ] romance-reports (1,049 KB, markdowns1 — 1M analysis has shallow late-chapter coverage;
+- [ ] green (2,656 KB — borderline, attempt single first)
+- [ ] fallout-equestria (3,509 KB)
+- [ ] your-human-and-you (3,834 KB)
+- [ ] romance-reports (1,049 KB — 1M analysis has shallow late-chapter coverage;
       needs full re-run with output-conciseness instruction, not a continuation split)
 
 ## Truncated 1M analyses — continuation + merge needed
@@ -177,9 +177,13 @@ Known systematic divergences (from 4.3, 2026-08-27):
 - [x] 4.3 — Compaction vs 1M comparison (2026-08-27, 10 of 25 sampled)
 - [ ] 4.4 — Grand synthesis + hypothesis testing (after 4.1a + 4.2 + 4.3)
 
-## Local story file directories
+## Local story file directory
 
-Under `C:\Users\Brian\Documents\Fimfiction Favorites\`:
-- `markdowns/*.md` — top favorites (1st batch download)
-- `markdowns1/*.txt` — other favorites + unfinished/disliked
-- Skill searches both, preferring markdowns/ when both have a match
+`source_material_references/fimfiction-favorites/`, repo-relative and gitignored: one
+`<slug>.md` per story, converted on 2026-09-14 from the epubs in
+`C:\Users\Brian\Documents\Fimfiction Favorites\epubs\` and `epubs1\` by
+`tools/StoryPlanner.SourceTexts --to-markdown`. The skill resolves `<name>.md` there.
+Three names lost a `-1` suffix at that conversion: maidens-day, nightly-rendezvous,
+twilights-list. The folder also holds `the-princess-and-the-kaiser.md`, added 2026-09-14 from
+its epub; it is not in the v4 population above. The older `markdowns/` and `markdowns1/`
+folders under `Fimfiction Favorites` are superseded.

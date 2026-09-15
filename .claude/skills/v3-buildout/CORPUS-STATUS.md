@@ -11,11 +11,9 @@ analysis reports (4.1a, 4.2a-e, 4.3). All in
 
 Ground truth for populations: `.claude/skills/analyze-story/populations.md`.
 
-**Story texts** (what a verification pass reads — never the analysis alone): local
-markdown conversions, one `<name>.md` per story, in
-`C:\Users\Brian\Documents\Fimfiction Favorites\markdowns\` and `…\markdowns1\` (the
-`analyze-story` skill's resolution order; it says `.txt`, the files are `.md`). Outside the repo, so a
-runner job that reads one gets it as an input file or an `addDirs` entry.
+**Story texts** (what a verification pass reads — never the analysis alone): one
+`<slug>.md` per story in `source_material_references/fimfiction-favorites/` (repo-relative,
+gitignored), converted from the epubs on 2026-09-14; the `analyze-story` skill resolves there.
 
 **Unanalyzed stories (4 Tier 3):**
 - green (Steel Resolve, 2,656 KB) — Brian read it; was in NLM Perspective Analysis;

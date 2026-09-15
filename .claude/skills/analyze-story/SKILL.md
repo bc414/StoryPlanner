@@ -48,13 +48,12 @@ output is an intermediate (split parts that will be merged). Combinable with `--
 
 ### 1. Resolve the local file
 
-Search for the story in order:
-1. `C:\Users\Brian\Documents\Fimfiction Favorites\markdowns\<name>.md`
-2. `C:\Users\Brian\Documents\Fimfiction Favorites\markdowns\<name>.txt`
-3. `C:\Users\Brian\Documents\Fimfiction Favorites\markdowns1\<name>.txt`
-4. `C:\Users\Brian\Documents\Fimfiction Favorites\markdowns1\<name>.md`
+The story is `source_material_references/fimfiction-favorites/<name>.md`, repo-relative
+(the folder is gitignored; one `.md` per story, converted from the epubs on 2026-09-14).
+Three names lost a `-1` suffix at that conversion: maidens-day, nightly-rendezvous,
+twilights-list; an older analysis file may still carry the suffix.
 
-If not found in any location, stop and tell the user.
+If not found, stop and tell the user.
 
 ### 2. Determine mode
 
