@@ -11,6 +11,8 @@ namespace StoryPlanner.AgentRunner;
 public interface ILaunchGate
 {
     bool TryAcquire(BatchRunner batch);
+    /// <summary>Take a slot past the ceiling and the cap, for the queue jump; released like any other, and counted from then on. False only when the host is shutting down.</summary>
+    bool TryForce(BatchRunner batch);
     void Release(BatchRunner batch);
     /// <summary>Why a launch is being held, for the page; null when nothing holds it.</summary>
     string? HoldReason(BatchRunner batch);
@@ -22,6 +24,7 @@ public interface ILaunchGate
 public sealed class OpenGate : ILaunchGate
 {
     public bool TryAcquire(BatchRunner batch) => true;
+    public bool TryForce(BatchRunner batch) => true;
     public void Release(BatchRunner batch) { }
     public string? HoldReason(BatchRunner batch) => null;
     public TimeSpan IdleLimit { get; init; } = TimeSpan.FromMinutes(10);
@@ -33,9 +36,11 @@ public sealed record RunningCall(string Item, int Call, DateTimeOffset StartUtc,
 /// One execution of a batch (decisions.md, "executing a batch is one call per item still
 /// without a result"): one call for every item of the index that has no successful call yet,
 /// or the one item named, which is the pilot. The call's number is the execution's. Nothing
-/// here changes what a call is; the loop takes its launcher and its gate from outside and
-/// accepts harness commands (pause, resume, stop after in-flight, cancel an item) while it
-/// runs. The calls file is the batch's state and this class is its only writer.
+/// here changes what a call is; the loop takes its launcher and its gate from outside,
+/// walks the index in its order or, under random order, in one shuffle of it drawn at
+/// construction, and accepts harness commands (pause, resume, stop after in-flight, cancel
+/// an item, the queue jump) while it runs. The calls file is the batch's state and this
+/// class is its only writer.
 /// </summary>
 public sealed class BatchRunner
 {
@@ -43,6 +48,8 @@ public sealed class BatchRunner
     private readonly List<CallEntry> _calls;
     private readonly Dictionary<string, RunningCall> _running = new(StringComparer.Ordinal);
     private readonly HashSet<string> _cancelled = new(StringComparer.Ordinal);
+    private readonly List<Task> _forced = new();
+    private CancellationToken _ct;
     private readonly IChildLauncher _launcher;
     private readonly ILaunchGate _gate;
     private readonly Action<string> _log;
@@ -56,6 +63,10 @@ public sealed class BatchRunner
     public string? ItemFilter { get; }
     /// <summary>The number every call of this execution carries: one more than the last execution's.</summary>
     public int Execution { get; }
+    /// <summary>Whether this execution walks the index in a shuffle rather than its order — an execution's setting, like the filter; no call is different for it.</summary>
+    public bool RandomOrder { get; }
+    /// <summary>The sequence the next item is picked from: the index's order, or one shuffle of it drawn at construction under <see cref="RandomOrder"/>.</summary>
+    public IReadOnlyList<string> Order { get; }
     public bool Paused { get; private set; }
     public bool StopRequested { get; private set; }
     public bool Completed { get; private set; }
@@ -67,7 +78,7 @@ public sealed class BatchRunner
     public event Action? Changed;
     public event Action<string, int>? StreamAdvanced;
 
-    public BatchRunner(Batch batch, string? itemFilter, IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string launchDir)
+    public BatchRunner(Batch batch, string? itemFilter, IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, string launchDir, bool randomOrder = false)
     {
         Batch = batch;
         ItemFilter = itemFilter;
@@ -76,6 +87,10 @@ public sealed class BatchRunner
         _log = log;
         _harnessVersion = harnessVersion;
         _launchDir = launchDir;
+        RandomOrder = randomOrder;
+        var order = batch.Items.ToArray();
+        if (randomOrder) Random.Shared.Shuffle(order);
+        Order = order;
         var calls = CallsFile.Read(batch.Definition.CallsPath);
         _calls = new List<CallEntry>(calls.Entries);
         Execution = calls.Executions + 1;
@@ -87,7 +102,7 @@ public sealed class BatchRunner
     /// the batch is unusable, so the CLI and the host report the same message.
     /// </summary>
     public static (BatchRunner? Runner, string? Error) Create(string definitionPath, string workingDir, string? itemFilter, string launchDir,
-        IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion)
+        IChildLauncher launcher, ILaunchGate gate, Action<string> log, string harnessVersion, bool randomOrder = false)
     {
         var (batch, error) = Batch.Load(definitionPath, workingDir);
         if (batch is null) return (null, error);
@@ -97,7 +112,9 @@ public sealed class BatchRunner
         if (launchError is not null) return (null, launchError);
         if (itemFilter is not null && !batch.Items.Contains(itemFilter))
             return (null, $"--item \"{itemFilter}\" is not in the index.");
-        return (new BatchRunner(batch, itemFilter, launcher, gate, log, harnessVersion, Path.GetFullPath(launchDir)), null);
+        if (itemFilter is not null && randomOrder)
+            return (null, "--random with --item: a pilot calls one item and has no order.");
+        return (new BatchRunner(batch, itemFilter, launcher, gate, log, harnessVersion, Path.GetFullPath(launchDir), randomOrder), null);
     }
 
     // --- harness commands: how the batch runs, never what a call is ---
@@ -120,6 +137,52 @@ public sealed class BatchRunner
         return true;
     }
 
+    // --- the queue jump ---
+
+    /// <summary>Why <see cref="CallNow"/> would refuse the item; null when it is callable now. Called under the lock.</summary>
+    private string? WhyNotCallable(string item)
+    {
+        if (!Started || Completed) return "not executing";
+        if (StopRequested) return "stop requested — nothing more is launched";
+        if (!Batch.Items.Contains(item)) return $"{item} is not in the index";
+        if (ItemFilter is not null && item != ItemFilter) return $"{item} is not in this execution, the pilot of {ItemFilter}";
+        if (_running.ContainsKey(item)) return $"{item} is already running";
+        if (_calls.Any(c => c.Item == item && c.Succeeded)) return $"{item} has answered";
+        if (_calls.Any(c => c.Item == item && c.Call == Execution)) return $"{item} was already called in execution {Execution}; the next execute-batch calls it again";
+        return null;
+    }
+
+    /// <summary>Whether the queue jump would take the item right now: pending in this execution and not yet called by it.</summary>
+    public bool CanCallNow(string item) { lock (_lock) return WhyNotCallable(item) is null; }
+
+    /// <summary>
+    /// The queue jump (Brian, 2026-09-15: "It's just a queue jump", "It should go past the
+    /// gate"): one item pending in this execution, called now, past the host's ceiling and
+    /// cap, taking a slot the gate counts from then on. Harness control: the call is composed,
+    /// recorded and checked exactly as the loop's would be, under this execution's number and
+    /// never marked pilot; an item already called by this execution is refused, so one call
+    /// per item per execution holds. Refused once stop is requested; allowed under pause,
+    /// which holds the loop and not the hand. The jump goes to the log and never to the calls
+    /// file, like the order of calls. Returns why it was refused, or null.
+    /// </summary>
+    public string? CallNow(string item)
+    {
+        lock (_lock)
+        {
+            if (WhyNotCallable(item) is { } why) return why;
+            _running[item] = Starting(item);
+        }
+        if (!_gate.TryForce(this))
+        {
+            lock (_lock) _running.Remove(item);
+            return "the host is shutting down";
+        }
+        _log($"[{Id}] {item}: called now, past the gate");
+        var task = Launch(item, _ct);
+        lock (_lock) _forced.Add(task);
+        return null;
+    }
+
     // --- state for snapshots ---
 
     public IReadOnlyList<CallEntry> CallsSnapshot() { lock (_lock) return _calls.ToList(); }
@@ -139,7 +202,7 @@ public sealed class BatchRunner
     {
         var scope = ItemFilter is null ? Batch.Items : [ItemFilter];
         var pending = Pending().Count;
-        return $"{scope.Count} item(s) — {pending} to call, {scope.Count - pending} skipped as answered" + (ItemFilter is null ? "" : " (pilot)");
+        return $"{scope.Count} item(s) — {pending} to call, {scope.Count - pending} skipped as answered" + (RandomOrder ? ", random order" : "") + (ItemFilter is null ? "" : " (pilot)");
     }
 
     // --- the loop ---
@@ -147,6 +210,7 @@ public sealed class BatchRunner
     public async Task RunAsync(CancellationToken ct)
     {
         Started = true;
+        _ct = ct;
         var tasks = new List<Task>();
         try
         {
@@ -156,7 +220,7 @@ public sealed class BatchRunner
                 bool anyPending;
                 lock (_lock)
                 {
-                    var next = Batch.Items.FirstOrDefault(i => (ItemFilter is null || i == ItemFilter) && !_running.ContainsKey(i) && !_calls.Any(c => c.Item == i && c.Succeeded) && !_calls.Any(c => c.Item == i && c.Call == Execution));
+                    var next = Order.FirstOrDefault(i => (ItemFilter is null || i == ItemFilter) && !_running.ContainsKey(i) && !_calls.Any(c => c.Item == i && c.Succeeded) && !_calls.Any(c => c.Item == i && c.Call == Execution));
                     anyPending = next is not null;
                     if (next is not null && !Paused && !StopRequested) item = next;
                 }
@@ -177,22 +241,17 @@ public sealed class BatchRunner
                 }
 
                 var theItem = item;
-                var streamPath = Path.Combine(Batch.Definition.AttemptsDir, theItem, $"call-{Execution}", "stream.jsonl");
-                lock (_lock) _running[theItem] = new RunningCall(theItem, Execution, DateTimeOffset.UtcNow, streamPath, null);
-                Interlocked.Increment(ref _launched);
-                Changed?.Invoke();
-                tasks.Add(Task.Run(async () =>
+                lock (_lock)
                 {
-                    try { await RunOne(theItem, ct); }
-                    finally
-                    {
-                        lock (_lock) { _running.Remove(theItem); _cancelled.Remove(theItem); }
-                        _gate.Release(this);
-                        Changed?.Invoke();
-                    }
-                }, CancellationToken.None));
+                    // A queue jump may have taken this item between the pick and here.
+                    if (_running.ContainsKey(theItem) || _calls.Any(c => c.Item == theItem && c.Call == Execution)) { _gate.Release(this); continue; }
+                    _running[theItem] = Starting(theItem);
+                }
+                tasks.Add(Launch(theItem, ct));
             }
-            await Task.WhenAll(tasks.Select(t => t.ContinueWith(_ => { })));
+            List<Task> forced;
+            lock (_lock) forced = _forced.ToList();
+            await Task.WhenAll(tasks.Concat(forced).Select(t => t.ContinueWith(_ => { })));
         }
         finally
         {
@@ -201,6 +260,26 @@ public sealed class BatchRunner
             WriteTallyIfComplete();
             Changed?.Invoke();
         }
+    }
+
+    private RunningCall Starting(string item) =>
+        new(item, Execution, DateTimeOffset.UtcNow, Path.Combine(Batch.Definition.AttemptsDir, item, $"call-{Execution}", "stream.jsonl"), null);
+
+    /// <summary>One child on its own task: the item's call, then its running entry dropped and its slot released. The caller has put the item in the running set under the lock.</summary>
+    private Task Launch(string item, CancellationToken ct)
+    {
+        Interlocked.Increment(ref _launched);
+        Changed?.Invoke();
+        return Task.Run(async () =>
+        {
+            try { await RunOne(item, ct); }
+            finally
+            {
+                lock (_lock) { _running.Remove(item); _cancelled.Remove(item); }
+                _gate.Release(this);
+                Changed?.Invoke();
+            }
+        }, CancellationToken.None);
     }
 
     /// <summary>

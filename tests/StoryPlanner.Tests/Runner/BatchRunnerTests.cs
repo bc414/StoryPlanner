@@ -13,9 +13,9 @@ namespace StoryPlanner.Tests;
 /// </summary>
 public class BatchRunnerTests
 {
-    private static BatchRunner Make(TempBatch t, FakeLauncher launcher, ILaunchGate? gate = null, string? item = null)
+    private static BatchRunner Make(TempBatch t, FakeLauncher launcher, ILaunchGate? gate = null, string? item = null, bool random = false)
     {
-        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, item, t.LaunchDir, launcher, gate ?? new OpenGate(), _ => { }, "test");
+        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, item, t.LaunchDir, launcher, gate ?? new OpenGate(), _ => { }, "test", random);
         Assert.Null(error);
         return runner!;
     }
@@ -110,6 +110,101 @@ public class BatchRunnerTests
         Assert.Equal("item-02", call.Item);
         Assert.True(call.Pilot);
         Assert.Equal(1, launcher.Launched);
+    }
+
+    [Fact]
+    public async Task Random_order_walks_one_shuffle_of_the_index_and_still_calls_every_item_once()
+    {
+        using var t = new TempBatch();
+        t.WriteItems(20);
+        var launcher = new FakeLauncher { Delay = TimeSpan.FromMilliseconds(5) };
+        var runner = Make(t, launcher, random: true);
+        Assert.True(runner.RandomOrder);
+        Assert.Equal("20 item(s) — 20 to call, 0 skipped as answered, random order", runner.Summary());
+        Assert.Equal(runner.Batch.Items.Order(), runner.Order.Order());   // a permutation of the index …
+        Assert.NotEqual(runner.Batch.Items, runner.Order);                 // … and not its order (20! to 1 against)
+
+        await runner.RunAsync(CancellationToken.None);
+        Assert.Equal(20, launcher.Launched);
+        Assert.Equal(20, launcher.Order.Distinct().Count());
+        var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
+        Assert.Equal(20, calls.Entries.Count);
+        Assert.All(calls.Entries, c => Assert.True(c.Succeeded));
+
+        // Without the flag the sequence is the index's; with it a pilot is refused, since one item has no order.
+        Assert.Equal(runner.Batch.Items, Make(t, new FakeLauncher()).Order);
+        var (pilot, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, "item-01", t.LaunchDir, new FakeLauncher(), new OpenGate(), _ => { }, "test", randomOrder: true);
+        Assert.Null(pilot);
+        Assert.Contains("--random", error);
+    }
+
+    [Fact]
+    public async Task Under_a_ceiling_of_one_the_calls_follow_the_execution_order()
+    {
+        using var t = new TempBatch();
+        t.WriteItems(3);
+        var launcher = new FakeLauncher { Delay = TimeSpan.FromMilliseconds(10) };
+        var runner = Make(t, launcher, new CeilingGate(1), random: true);
+        await runner.RunAsync(CancellationToken.None);
+        Assert.Equal(runner.Order, launcher.Order.ToList());
+    }
+
+    [Fact]
+    public async Task A_queue_jump_calls_a_pending_item_now_past_the_gate_and_refuses_what_is_not_pending()
+    {
+        using var t = new TempBatch();
+        t.WriteItems(4);
+        var launcher = new FakeLauncher { Hold = new SemaphoreSlim(0), AnswerFor = r => r.Item == "item-01" ? null : """{"class":"a","why":"1"}""" };
+        var gate = new CeilingGate(1);
+        var runner = Make(t, launcher, gate);
+        Assert.Equal("not executing", runner.CallNow("item-03"));               // the loop has not started
+        var run = runner.RunAsync(CancellationToken.None);
+        await Wait.Until(() => runner.InFlight == 1, what: "item-01 holds the one slot");
+
+        Assert.True(runner.CanCallNow("item-03"));
+        Assert.Null(runner.CallNow("item-03"));                                  // past the ceiling of one
+        await Wait.Until(() => launcher.Launched == 2, what: "the jump launched");
+        Assert.Equal(2, runner.InFlight);
+        Assert.Equal(2, gate.InFlight);                                          // the slot is counted from then on
+        Assert.Contains("already running", runner.CallNow("item-03"));
+        Assert.Contains("not in the index", runner.CallNow("item-09"));
+
+        launcher.Hold.Release(); launcher.Hold.Release();                        // item-01 fails, item-03 answers
+        await Wait.Until(() => runner.HasSucceeded("item-03") && runner.CallsSnapshot().Any(c => c.Item == "item-01"), what: "both recorded");
+        Assert.Contains("has answered", runner.CallNow("item-03"));
+        Assert.Contains("already called in execution 1", runner.CallNow("item-01"));
+
+        launcher.Hold.Release(); launcher.Hold.Release();                        // the loop finishes item-02 and item-04
+        await run;
+        Assert.Equal(4, launcher.Launched);
+        var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
+        Assert.Equal(4, calls.Entries.Count);
+        Assert.All(calls.Entries, c => { Assert.Equal(1, c.Call); Assert.False(c.Pilot); });
+        Assert.Equal("ok", calls.Entries.Single(c => c.Item == "item-03").Check);
+        Assert.Equal(["item-01"], runner.Pending());
+        Assert.Equal("not executing", runner.CallNow("item-01"));               // completed
+    }
+
+    [Fact]
+    public async Task A_queue_jump_is_allowed_while_paused_and_refused_once_stop_is_requested()
+    {
+        using var t = new TempBatch();
+        t.WriteItems(3);
+        var launcher = new FakeLauncher { Hold = new SemaphoreSlim(0) };
+        var runner = Make(t, launcher, new CeilingGate(1));
+        var run = runner.RunAsync(CancellationToken.None);
+        await Wait.Until(() => runner.InFlight == 1);
+
+        runner.Pause();
+        Assert.Null(runner.CallNow("item-02"));                                  // pause holds the loop, not the hand
+        await Wait.Until(() => launcher.Launched == 2, what: "the jump under pause");
+        runner.StopAfterInFlight();
+        Assert.Contains("stop requested", runner.CallNow("item-03"));
+
+        launcher.Hold.Release(); launcher.Hold.Release();
+        await run;
+        Assert.Equal(2, launcher.Launched);
+        Assert.Equal(["item-03"], runner.Pending());
     }
 
     [Fact]
@@ -259,11 +354,13 @@ public class BatchRunnerTests
     {
         public volatile bool Open = true;
         private int _inFlight;
+        public int InFlight { get { lock (this) return _inFlight; } }
         public bool TryAcquire(BatchRunner batch)
         {
             if (!Open) return false;
             lock (this) { if (_inFlight >= ceiling) return false; _inFlight++; return true; }
         }
+        public bool TryForce(BatchRunner batch) { lock (this) { _inFlight++; return true; } }
         public void Release(BatchRunner batch) { lock (this) _inFlight--; }
         public string? HoldReason(BatchRunner batch) => Open ? null : "closed";
         public TimeSpan IdleLimit => TimeSpan.FromMinutes(1);

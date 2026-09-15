@@ -15,6 +15,7 @@ else
     <StageStrip S="batch.Stages" />
 
     <HarnessControls Batch="batch" SelectedItem="@selected" OnAction="Act" />
+    @if (note is { } n) { <p class="err">@n</p> }
     <p class="muted">@batch.Succeeded answered, @batch.Failed failed, @batch.Pending pending — api-equiv $@batch.CostUsd.ToString("F2")</p>
 
     <div class="split">
@@ -27,6 +28,7 @@ else
     [Parameter] public string? BatchId { get; set; }
     private BatchSnapshot? batch;
     private string? selected;
+    private string? note;   // why the last control was refused, for the queue jump
     private IReadOnlyList<StreamEvent> events = [];
     private string? streamTitle;
     private bool streamDirty;
@@ -49,7 +51,7 @@ else
     private void OnChanged() => _ = InvokeAsync(() => { if (BatchId is not null) batch = Host.Batch(BatchId); StateHasChanged(); });
     private void OnStream(string batchId, string item, int call) { if (batchId == BatchId && item == selected) streamDirty = true; }
 
-    private void Select(string item) { selected = item; ReloadStream(); }
+    private void Select(string item) { selected = item; note = null; ReloadStream(); }
 
     private void ReloadStream()
     {
@@ -62,12 +64,14 @@ else
     private void Act(string action)
     {
         if (batch is null) return;
+        note = null;
         switch (action)
         {
             case "pause": Host.Pause(batch.Id); break;
             case "resume": Host.Resume(batch.Id); break;
             case "stop": Host.Stop(batch.Id); break;
             case "cancel": if (selected is not null) Host.Cancel(batch.Id, selected); break;
+            case "call": if (selected is not null) note = Host.Call(batch.Id, selected); break;
             case "unschedule": Host.Unschedule(batch.Id); break;
         }
     }

@@ -14,7 +14,8 @@ public sealed record ItemSnapshot(
     string? LastStartUtc,
     string? LastEndUtc,
     double? LastSeconds,
-    string? StreamPath);
+    string? StreamPath,
+    bool Callable = false); // the queue jump would take it now: live, pending in this execution, not yet called by it
 
 /// <summary>
 /// The stages a batch folder shows evidence of (agent-runner skill § The host and its page),
@@ -52,7 +53,8 @@ public sealed record BatchSnapshot(
     BatchStages Stages,
     string? LastActivityUtc,
     string? NotBeforeUtc = null,
-    bool Scheduled = false);
+    bool Scheduled = false,
+    bool RandomOrder = false);
 
 /// <summary>
 /// Reads batches from disk: every <c>definition.md</c> under a <c>batches/</c> folder beneath
@@ -128,7 +130,8 @@ public static class BatchCatalog
             else if (last is not null && DateTimeOffset.TryParse(last.Started, out var s) && DateTimeOffset.TryParse(last.Ended, out var e))
                 seconds = (e - s).TotalSeconds;
             items.Add(new ItemSnapshot(item, index?.Rows.FirstOrDefault(r => r.Item == item)?.Locator ?? "", state,
-                rows.Count, last?.Exit, last?.Check, rows.Sum(r => r.Cost ?? 0), startUtc, endUtc, seconds, streamPath));
+                rows.Count, last?.Exit, last?.Check, rows.Sum(r => r.Cost ?? 0), startUtc, endUtc, seconds, streamPath,
+                live?.CanCallNow(item) ?? false));
         }
 
         var itemized = index is { Rows.Count: > 0 } && index.Rows.All(r => File.Exists(Path.Combine(dir, "items", r.Item + ".md")));
@@ -161,6 +164,7 @@ public static class BatchCatalog
             Stages: stages,
             LastActivityUtc: lastActivity,
             NotBeforeUtc: live?.NotBefore?.ToString("o"),
-            Scheduled: live is { Started: false, NotBefore: not null });
+            Scheduled: live is { Started: false, NotBefore: not null },
+            RandomOrder: live?.RandomOrder ?? false);
     }
 }

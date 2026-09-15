@@ -21,9 +21,11 @@ tool's infinite retry of one failing call left 9,245 transcripts in the project 
 ```
 AgentRunner.exe start                                     start the host if none answers; open http://127.0.0.1:5190
 AgentRunner.exe stop [--now]                              stop the host after in-flight calls (--now: kill them)
-AgentRunner.exe dry-run-batch <definition.md> [--item ID] compose every call in memory, write nothing (serverless)
-AgentRunner.exe execute-batch <definition.md> [--item ID] [--at HH:mm|ISO|reset]
-                                                          one call per item without a result; --item names the pilot
+AgentRunner.exe dry-run-batch <definition.md> [--item ID] [--random]
+                                                          compose every call in memory, write nothing (serverless)
+AgentRunner.exe execute-batch <definition.md> [--item ID] [--at HH:mm|ISO|reset] [--random]
+                                                          one call per item without a result, in index order or, under
+                                                          --random, in one shuffle of it; --item names the pilot
 AgentRunner.exe tally-batch   <definition.md> [--group-by item|locator|description]
                                                           print tally.md, writing it first if the host never did
                                                           (serverless); --group-by prints a cross-tab view, writes nothing
@@ -101,7 +103,8 @@ batches/03-scene-notes/
                      (schemas/definition-schema.md): directions by path, kind, calibration, model,
                      effort
   index.md           written by the itemizer or collator, one row per item with its locator
-                     (schemas/index-schema.md); the runner calls the items in its order
+                     (schemas/index-schema.md); the runner calls the items in its order, or
+                     in one shuffle of it under --random
   items/<item>.md    the item bodies, uncommitted and regenerable by that tool; each call
                      hashes the body it received
   calls.md           written by the runner: the definition's hash at its head, then one entry
@@ -198,7 +201,23 @@ tokens for as long as the model writes.
 resume launching, stop after in-flight, cancel one running call (recorded `cancelled`, exit
 -4), the host's ceiling, the cap, the idle limit. Nothing changes a batch's model, directions
 or items, and nothing calls an item that has answered — those are a new batch, since a
-definition is never edited. Knob changes go to the log with timestamps.
+definition is never edited. Knob changes go to the log with timestamps. The order the pending
+items are called in is harness control too: the index's by default, or one shuffle of it
+drawn when the execution is created under `--random` — an execution's setting like `--item`,
+refused together with it since a pilot has no order — and no call is different for it; the
+execute's answer, the log and the page say "random order" when it is in effect.
+
+**The queue jump** (2026-09-15) is the one control that launches: an item pending in the
+live execution, called now, past the ceiling and the cap, taking a slot the gate counts from
+then on — so with a ceiling of 4 there are 5 children, and the loop launches nothing more
+until two finish. It is the page's "call selected now" and the route's `call` action, and it
+exists for a batch executed in full and then held by the cap. It is a call of that execution,
+under its number, composed, recorded and checked like any other and never marked pilot: the
+pilot stays an execution naming one item. An item already called by this execution is
+refused, since a second call under one number has nowhere to go, so a failed item still
+waits for the next execute-batch; so is an item running or answered. Refused once stop is
+requested; allowed under pause, which holds the loop and not the hand. The jump goes to the
+log and never to the calls file, like the order of calls.
 
 **Scheduling.** `--at` holds an execution until a time: `--at 04:00` (the next such clock
 time), an ISO date-time, or `--at reset` (the cached five-hour reset plus a minute; refused
@@ -221,10 +240,11 @@ slashes, so batch-addressed routes take the id as a catch-all or a query value:
 GET  /api/ping                              is a host up; its working and launch directories
 GET  /api/host                              ceilings, idle limit, in flight, utilization (+ staleness), every batch's summary
 GET  /api/batches                           every batch's summary
-GET  /api/batches/<id>                      one batch: items with state/calls/exit/check/cost, stages
+GET  /api/batches/<id>                      one batch: items with state/calls/exit/check/cost/callable, stages
 GET  /api/stream?batch=<id>&item=<item>&tail=N   the last N events of the item's latest call
-POST /api/batches         {"path": "<abs definition.md>", "item": "<id>"?, "notBefore": "<ISO>"?}   execute (or schedule)
-POST /api/batch-control   {"batch": "<id>", "action": "pause|resume|stop|cancel|unschedule", "item"?}
+POST /api/batches         {"path": "<abs definition.md>", "item": "<id>"?, "notBefore": "<ISO>"?, "random": true?}   execute (or schedule)
+POST /api/batch-control   {"batch": "<id>", "action": "pause|resume|stop|cancel|unschedule|call", "item"?}
+                                            call is the queue jump; a refusal answers 400 with why
 PUT  /api/host/settings   {"maxParallel"?, "utilizationCap"?, "idleMinutes"?}
 POST /api/host/shutdown?now=false
 ```
@@ -260,7 +280,8 @@ moment — the one live figure the usage bar cannot get.
 - **One call per item per execution, never a retry on its own.** The calls file is the
   batch's state: an item is answered by an entry with exit 0 and check `ok`, and every other
   item is called by the next execution, once. Nothing the runner does relaunches an item by
-  itself, which is the guard against the runaway of 2026-08-27 in its one remaining form.
+  itself, which is the guard against the runaway of 2026-08-27 in its one remaining form;
+  the queue jump keeps it, refusing any item this execution has called.
 - **A call is killed only for silence.** The idle limit is the host's; no call has an absolute
   time limit.
 - **Every call is recorded**, with the directions hash, the item hash, the prompt hash, model,
@@ -348,7 +369,7 @@ that has answered is never called again, and a different answer wants a new batc
 
 `dotnet test tests/StoryPlanner.Tests --filter "FullyQualifiedName~Batch|FullyQualifiedName~Runner|FullyQualifiedName~Tally|FullyQualifiedName~Collator|FullyQualifiedName~Stream|FullyQualifiedName~Head"`
 covers the batch files, the loop under a fake launcher (one call per item, the render, the
-calls file, the pilot, a later execution, the gate, pause, stop, cancel), the catalog and
+calls file, the pilot, a later execution, random order, the gate, pause, stop, cancel, the queue jump), the catalog and
 stages, the tally, the collator's items, the stream reader, the JSON routes over a
 loopback listener, and the leaf components under bUnit. The round trip through the real CLI
 is `SmokeTest`, one item in a temporary folder, run with `STORYPLAN_RUNNER_SMOKE=1` set; it

@@ -9,7 +9,7 @@ using Microsoft.Extensions.Logging;
 namespace StoryPlanner.AgentRunner;
 
 public sealed record ControlRequest(string Batch, string Action, string? Item = null);
-public sealed record ExecuteRequest(string Path, string? Item = null, DateTimeOffset? NotBefore = null);
+public sealed record ExecuteRequest(string Path, string? Item = null, DateTimeOffset? NotBefore = null, bool Random = false);
 public sealed record HostSettingsRequest(int? MaxParallel = null, int? UtilizationCap = null, int? IdleMinutes = null);
 
 /// <summary>
@@ -51,23 +51,25 @@ public static class RunnerApi
 
         app.MapPost("/api/batches", (ExecuteRequest req) =>
         {
-            var r = host.Execute(req.Path, req.Item, req.NotBefore);
+            var r = host.Execute(req.Path, req.Item, req.NotBefore, req.Random);
             return r.Ok ? Results.Ok(r) : Results.BadRequest(r);
         });
 
         app.MapPost("/api/batch-control", (ControlRequest req) =>
         {
-            var ok = req.Action switch
+            var notApplied = $"{req.Action} not applied to {req.Batch} — not live, unknown action, or missing item";
+            var error = req.Action switch
             {
-                "unschedule" => host.Unschedule(req.Batch),
-                "pause" => host.Pause(req.Batch),
-                "resume" => host.Resume(req.Batch),
-                "stop" => host.Stop(req.Batch),
-                "cancel" => req.Item is not null && host.Cancel(req.Batch, req.Item),
-                _ => false,
+                "unschedule" => host.Unschedule(req.Batch) ? null : notApplied,
+                "pause" => host.Pause(req.Batch) ? null : notApplied,
+                "resume" => host.Resume(req.Batch) ? null : notApplied,
+                "stop" => host.Stop(req.Batch) ? null : notApplied,
+                "cancel" => req.Item is not null && host.Cancel(req.Batch, req.Item) ? null : notApplied,
+                "call" => req.Item is null ? notApplied : host.Call(req.Batch, req.Item),   // the queue jump: says why when refused
+                _ => notApplied,
             };
-            return ok ? Results.Ok(new { ok = true, req.Batch, req.Action })
-                      : Results.BadRequest(new { ok = false, error = $"{req.Action} not applied to {req.Batch} — not live, unknown action, or missing item" });
+            return error is null ? Results.Ok(new { ok = true, req.Batch, req.Action })
+                                 : Results.BadRequest(new { ok = false, error });
         });
 
         app.MapPut("/api/host/settings", (HostSettingsRequest req) =>

@@ -126,6 +126,55 @@ public class RunnerHostApiTests : IAsyncLifetime
     }
 
     [Fact]
+    public async Task Execute_under_random_order_says_so_and_the_batch_route_shows_it()
+    {
+        _t.WriteItems(3);
+        var exec = await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath, Random: true));
+        Assert.Equal(HttpStatusCode.OK, exec.StatusCode);
+        Assert.Contains("random order", (await exec.Content.ReadFromJsonAsync<ExecuteResult>())!.Message);
+
+        await Wait.Until(() => _host.InFlight == 1, what: "first child");
+        var batch = await _http.GetFromJsonAsync<JsonElement>("/api/batches/" + _t.Id);
+        Assert.True(batch.GetProperty("randomOrder").GetBoolean());
+
+        _launcher.Hold!.Release(); _launcher.Hold.Release(); _launcher.Hold.Release();
+        await Wait.Until(() => _host.Batch(_t.Id)!.Completed, what: "batch complete");
+        Assert.Equal(3, _launcher.Launched);
+
+        var pilot = await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath, Item: "item-01", Random: true));
+        Assert.Equal(HttpStatusCode.BadRequest, pilot.StatusCode);          // a pilot has no order
+    }
+
+    [Fact]
+    public async Task A_queue_jump_from_the_control_route_launches_past_the_ceiling_and_is_refused_with_a_reason()
+    {
+        _t.WriteItems(3);
+        await _http.PostAsJsonAsync("/api/batches", new ExecuteRequest(_t.DefinitionPath));
+        await Wait.Until(() => _host.InFlight == 1, what: "first child");
+        var before = await _http.GetFromJsonAsync<JsonElement>("/api/batches/" + _t.Id);
+        Assert.False(before.GetProperty("items")[0].GetProperty("callable").GetBoolean());   // running
+        Assert.True(before.GetProperty("items")[2].GetProperty("callable").GetBoolean());    // pending, not yet called
+
+        var jump = await _http.PostAsJsonAsync("/api/batch-control", new ControlRequest(_t.Id, "call", "item-03"));
+        Assert.Equal(HttpStatusCode.OK, jump.StatusCode);
+        await Wait.Until(() => _launcher.MaxConcurrent == 2, what: "the jump past the ceiling of 1");
+        Assert.Equal(2, _host.InFlight);                                        // the forced slot is counted
+
+        var again = await _http.PostAsJsonAsync("/api/batch-control", new ControlRequest(_t.Id, "call", "item-03"));
+        Assert.Equal(HttpStatusCode.BadRequest, again.StatusCode);
+        Assert.Contains("already running", await again.Content.ReadAsStringAsync());
+        var noItem = await _http.PostAsJsonAsync("/api/batch-control", new ControlRequest(_t.Id, "call"));
+        Assert.Equal(HttpStatusCode.BadRequest, noItem.StatusCode);
+
+        _launcher.Hold!.Release(); _launcher.Hold.Release(); _launcher.Hold.Release();
+        await Wait.Until(() => _host.Batch(_t.Id)!.Completed, what: "batch complete");
+        Assert.Equal(3, _launcher.Launched);
+        Assert.Contains("past the gate", File.ReadAllText(Path.Combine(_t.Root, "host-log.txt")));
+        var notLive = await _http.PostAsJsonAsync("/api/batch-control", new ControlRequest(_t.Id, "call", "item-01"));
+        Assert.Equal(HttpStatusCode.BadRequest, notLive.StatusCode);
+    }
+
+    [Fact]
     public async Task A_scheduled_execution_waits_for_its_time_shows_as_scheduled_and_can_be_unscheduled()
     {
         _t.WriteItems(1);

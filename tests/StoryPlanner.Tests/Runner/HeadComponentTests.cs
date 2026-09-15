@@ -13,8 +13,8 @@ namespace StoryPlanner.Tests;
 /// </summary>
 public class HeadComponentTests : BunitContext
 {
-    private static ItemSnapshot Item(string id, string state, double cost = 0.2) =>
-        new(id, "note-" + id, state, state == "Pending" ? 0 : 1, state == "Failed" ? 1 : 0, state == "Failed" ? "no structured output" : "ok", cost, null, null, 42, null);
+    private static ItemSnapshot Item(string id, string state, double cost = 0.2, bool callable = false) =>
+        new(id, "note-" + id, state, state == "Pending" ? 0 : 1, state == "Failed" ? 1 : 0, state == "Failed" ? "no structured output" : "ok", cost, null, null, 42, null, callable);
 
     private static BatchSnapshot Batch(bool live, bool paused = false, params ItemSnapshot[] items) =>
         new("docs/x/batches/01-full", "C:/x", "verification-of-x-y", "01-full", "full", "sonnet", null, "directions-1", live, !live, paused, false,
@@ -45,7 +45,7 @@ public class HeadComponentTests : BunitContext
     }
 
     [Fact]
-    public async Task HarnessControls_offer_pause_stop_and_cancel_only_for_a_live_batch_and_cancel_only_for_a_running_selection()
+    public async Task HarnessControls_offer_pause_stop_cancel_and_the_queue_jump_only_for_a_live_batch_each_for_the_selection_it_applies_to()
     {
         var finished = Render<HarnessControls>(p => p.Add(c => c.Batch, Batch(live: false, items: Item("item-01", "Succeeded"))));
         Assert.Empty(finished.FindAll("button"));
@@ -53,18 +53,21 @@ public class HeadComponentTests : BunitContext
 
         var actions = new List<string>();
         var live = Render<HarnessControls>(p => p
-            .Add(c => c.Batch, Batch(live: true, items: [Item("item-01", "Running"), Item("item-02", "Pending", 0)]))
+            .Add(c => c.Batch, Batch(live: true, items: [Item("item-01", "Running"), Item("item-02", "Pending", 0, callable: true)]))
             .Add(c => c.SelectedItem, "item-02")
             .Add(c => c.OnAction, a => actions.Add(a)));
         var buttons = live.FindAll("button");
-        Assert.Equal(["pause", "stop after in-flight", "cancel selected"], buttons.Select(b => b.TextContent));
-        Assert.True(buttons[2].HasAttribute("disabled"));      // the selected item is pending, not running
+        Assert.Equal(["pause", "stop after in-flight", "cancel selected", "call selected now"], buttons.Select(b => b.TextContent));
+        Assert.True(buttons[2].HasAttribute("disabled"));      // the selected item is pending, not running …
+        Assert.False(buttons[3].HasAttribute("disabled"));     // … and callable now
         await buttons[0].ClickAsync(new MouseEventArgs());
-        Assert.Equal(["pause"], actions);
+        await live.FindAll("button")[3].ClickAsync(new MouseEventArgs());
+        Assert.Equal(["pause", "call"], actions);
 
         var paused = Render<HarnessControls>(p => p.Add(c => c.Batch, Batch(live: true, paused: true, items: Item("item-01", "Running"))).Add(c => c.SelectedItem, "item-01"));
         Assert.Equal("resume", paused.FindAll("button")[0].TextContent);
         Assert.False(paused.FindAll("button")[2].HasAttribute("disabled"));
+        Assert.True(paused.FindAll("button")[3].HasAttribute("disabled"));      // running: nothing to jump
     }
 
     [Fact]

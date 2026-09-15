@@ -221,7 +221,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
 
     // --- execute ---
 
-    public ExecuteResult Execute(string definitionPath, string? item, DateTimeOffset? notBefore = null)
+    public ExecuteResult Execute(string definitionPath, string? item, DateTimeOffset? notBefore = null, bool randomOrder = false)
     {
         if (ShuttingDown) return new ExecuteResult(false, null, "host is shutting down");
         definitionPath = Path.GetFullPath(definitionPath);
@@ -235,7 +235,7 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
                     : $"{id} is already scheduled for {existing.NotBefore!.Value.ToLocalTime():yyyy-MM-dd HH:mm} (unschedule it first)");
         }
 
-        var (runner, error) = BatchRunner.Create(definitionPath, WorkingDir, item, LaunchDir, _launcher, this, Log, _harnessVersion);
+        var (runner, error) = BatchRunner.Create(definitionPath, WorkingDir, item, LaunchDir, _launcher, this, Log, _harnessVersion, randomOrder);
         if (runner is null) return new ExecuteResult(false, id, error!);
 
         runner.Changed += () => Changed?.Invoke();
@@ -301,6 +301,13 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     public bool Stop(string id) => With(id, r => r.StopAfterInFlight());
     public bool Cancel(string id, string item) { var r = Live(id); return r is not null && r.Cancel(item); }
 
+    /// <summary>The queue jump: one item pending in a live execution, called now, past the ceiling and the cap. Returns why it was refused, or null.</summary>
+    public string? Call(string id, string item)
+    {
+        var r = Live(id);
+        return r is null ? $"{id} is not live" : r.CallNow(item);
+    }
+
     private bool With(string id, Action<BatchRunner> act)
     {
         var r = Live(id);
@@ -357,6 +364,17 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
             if (ShuttingDown) return false;
             if (_inFlight >= MaxParallel) return false;
             if (CapExceeded()) return false;
+            _inFlight++;
+            return true;
+        }
+    }
+
+    /// <summary>The queue jump's slot: taken past the ceiling and the cap, counted like any other from then on, so the loop launches nothing more until in-flight is under the ceiling again.</summary>
+    public bool TryForce(BatchRunner batch)
+    {
+        lock (_lock)
+        {
+            if (ShuttingDown) return false;
             _inFlight++;
             return true;
         }

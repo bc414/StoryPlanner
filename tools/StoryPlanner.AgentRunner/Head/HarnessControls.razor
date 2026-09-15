@@ -2,7 +2,7 @@
 <div class="controls">
     @if (Batch.Scheduled)
     {
-        <span>scheduled for @(DateTimeOffset.TryParse(Batch.NotBeforeUtc, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : Batch.NotBeforeUtc)</span>
+        <span>scheduled for @(DateTimeOffset.TryParse(Batch.NotBeforeUtc, out var t) ? t.ToLocalTime().ToString("yyyy-MM-dd HH:mm") : Batch.NotBeforeUtc)@(Batch.RandomOrder ? ", random order" : "")</span>
         <button class="danger" @onclick='() => OnAction.InvokeAsync("unschedule")'>unschedule</button>
     }
     else if (!Batch.Live)
@@ -15,7 +15,8 @@
         else { <button @onclick='() => OnAction.InvokeAsync("pause")' disabled="@Batch.StopRequested">pause</button> }
         <button @onclick='() => OnAction.InvokeAsync("stop")' disabled="@Batch.StopRequested">stop after in-flight</button>
         <button class="danger" @onclick='() => OnAction.InvokeAsync("cancel")' disabled="@(!CanCancel)">cancel selected</button>
-        <span>@Batch.InFlight in flight, @Batch.Pending pending</span>
+        <button @onclick='() => OnAction.InvokeAsync("call")' disabled="@(!CanCall)" title="the queue jump: call it now, past the ceiling and the cap">call selected now</button>
+        <span>@Batch.InFlight in flight, @Batch.Pending pending@(Batch.RandomOrder ? ", random order" : "")</span>
         @if (Batch.HoldReason is { } h) { <span class="hold">held: @h</span> }
     }
 </div>
@@ -25,4 +26,5 @@
     [Parameter] public string? SelectedItem { get; set; }
     [Parameter] public EventCallback<string> OnAction { get; set; }
     private bool CanCancel => SelectedItem is not null && Batch.Items.Any(i => i.Item == SelectedItem && i.State == "Running");
+    private bool CanCall => SelectedItem is not null && Batch.Items.Any(i => i.Item == SelectedItem && i.Callable);
 }
