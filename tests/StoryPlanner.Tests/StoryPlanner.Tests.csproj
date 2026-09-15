@@ -39,6 +39,7 @@
         <ProjectReference Include="..\..\process-docs\StoryPlanner.DocIntegrity\StoryPlanner.DocIntegrity.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
         <ProjectReference Include="..\..\tools\StoryPlanner.PipelineCollator\StoryPlanner.PipelineCollator.csproj" />
+        <ProjectReference Include="..\..\tools\StoryPlanner.ChapterItemizer\StoryPlanner.ChapterItemizer.csproj" />
     </ItemGroup>
 
 </Project>

@@ -12,10 +12,11 @@ for the corpora they cover, and the rest are files.
 
 - what: the Fimfiction stories analyzed under the v4 brief, whose population is `.claude/skills/analyze-story/populations.md`, plus The Princess and the Kaiser, added on 2026-09-14; and Brian's supplementary material on them
 - where: the texts as one markdown file per story, `<slug>.md`, in `source_material_references/fimfiction-favorites/`, gitignored with the rest of that folder, converted on 2026-09-14 by the converter in `tools/StoryPlanner.SourceTexts` (`--to-markdown`) from the epubs in `C:\Users\Brian\Documents\Fimfiction Favorites\epubs\` and `…\epubs1\`, and for pax-chrysalia and the-princess-and-the-kaiser from epubs Brian placed in the folder and deleted after conversion; the supplementary material in `source_material_references/`
-- read through: the story files as text, one file per story, each chapter under a `## Chapter N — <title>` heading; the supplementary material as markdown, plain-text and CSV files; no reader in the repo
-- caveats: Two stories in the folder are outside the corpus, fallout-equestria and
-  your-human-and-you, which Brian has not read (his ruling of 2026-09-14); green and
-  romance-reports are in. the-princess-and-the-kaiser is not in the v4 population of
+- read through: the story files as text, one file per story, each chapter under a `## Chapter N — <title>` heading, cut into one item per chapter by `tools/StoryPlanner.ChapterItemizer` under its config `configs/fimfiction-favorites.json`, which names the folder and the excluded stories; the supplementary material as markdown, plain-text and CSV files, with no reader in the repo
+- caveats: The two stories Brian has not read, fallout-equestria and your-human-and-you, are
+  not in the folder (his ruling of 2026-09-14); their text exports sit at the top of
+  `C:\Users\Brian\Documents\Fimfiction Favorites\`. green and romance-reports are in.
+  the-princess-and-the-kaiser is not in the v4 population of
   `populations.md`. Three stories lost a `-1` suffix at the 2026-09-14 conversion:
   maidens-day, nightly-rendezvous, twilights-list. The supplementary material on the stories in
   `source_material_references/`:

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StoryPlanner.ChapterItemizer</RootNamespace>
+        <!-- The chapter itemizer (d-2026-09-14-4: built inside the study that needs it): cuts a
+             folder of converter-format story files (`# slug`, then `## Chapter N — title`
+             headings, as tools/StoryPlanner.SourceTexts writes them) into one item per chapter and
+             writes a batch's index.md with an itemizer line and the item bodies under items/. An
+             authored config names the source folder and the stories excluded, which the index head
+             records as the narrowing. First built for exploration-of-prose-techniques-used. -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+    </ItemGroup>
+
+</Project>
