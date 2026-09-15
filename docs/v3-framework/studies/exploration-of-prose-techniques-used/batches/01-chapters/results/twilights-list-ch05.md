@@ -1,0 +1,19 @@
+- techniques:
+  - Free indirect discourse | unattributed interior thoughts and rationalizations folded into third-person narration without quotation marks or tags | throughout the whole chapter
+  - Idiolect-colored narration | narrator repeatedly uses Dash's own slang ('awesome,' 'egghead,' 'Ms. Magicpants') rather than neutral description | throughout, especially theatre entrance and closing bakery scene
+  - Rationalization/self-deception refrain | recurring hedging phrases like 'It must have been because,' 'Never mind that,' 'That, and she really was pretty hungry' undercutting a stated feeling | theatre-entrance scene, post-kiss moment near flight's end, closing bakery scene
+  - Italicized word-stress emphasis | single words or short phrases set in italics within otherwise plain sentences | scattered through dialogue and narration across the whole chapter
+  - Sentence-fragment punctuation | short standalone fragments ('A Date.' 'Or ten.') set off from surrounding full sentences | opening theatre-approach passage and mid-chapter dinner-plans passage
+  - Somatic emotion-cueing | physical tics described in place of named emotion (drooping ears, twitching eye, taut neck muscles holding a fake smile) | Twilight's fake-smile confession scene and scattered elsewhere
+  - Suspense-then-mundane-reveal via limited POV | escalating alarmed language and imagined threats ('ninjas, or ghosts') followed by an ordinary explanation | stage-blackout/floodlight scene and the closed-cafe streetside scene
+  - Simile/metaphor imagery | explicit 'like' comparisons and figurative description (halo, crescent-moon silhouette) | donut-shop silhouette passage and a few other descriptive moments
+  - Triadic/anaphoric repetition | repeated parallel grammatical structures ('and they had spirit, and they had spunk'; 'Trick after trick after trick'; 'nor was she Applejack') | play-watching passage, flight-trick passage, closing self-assessment passage
+  - Clipped-sentence action pacing | short, verb-driven sentences strung together during the flight maneuvers | extended night-flight sequence
+  - Ellipsis-marked trailing or interrupted speech | sentences or dialogue lines cut off with '...' | Dash's rain question, Twilight's stammered 'But... I... you...'
+  - Scene-break divider | a horizontal rule ('---') separating narrative blocks | between the play-watching scene and the post-curtain-call scene
+  - Offstage callback reference | mentions of prior unnarrated events (the alley, the flower, 'last week') without restating them | opening flower/alley reference and closing 'they hadn't been there last week' line
+  - Genre-convention yardstick | explicit comparison of the real events to conventions of specific book genres (romance novel, fables, fantasies) to frame interpretation | passage recalling Rarity's, Applejack's, and Fluttershy's books near the end
+  - Rhetorical self-questioning | questions posed and left to be answered by the following narration ('Had it really been this bright...?') | after the floodlights come on and upon entering the bakery
+  - Slapstick physical comedy description | exaggerated, mechanically detailed description of a minor physical mishap (the usher and the door) | opening theatre-door scene
+  - Punning wordplay on character's name | phrase pairing 'daring and dash' evoking both the fictional heroine and Dash's own name/trait | early recollection of the flower-grabbing chase
+- unplaced:

@@ -1,0 +1,17 @@
+- techniques:
+  - Scene-break dividers | horizontal rule marks | separates the parallel plotlines throughout the chapter (Spike/AJ, Fluttershy/Dash/Angel, ring-removal, Rarity/Blueblood, Twilight/Dash, Celestia's office)
+  - Personified object speech via bolded caps | words appear in bold all-caps as if engraved/spoken by the ring | during the ring-removal scene between Twilight and Applejack
+  - Epistolary insert | italicized letter text with salutation and signature | Celestia's letter read aloud by Spike after the ring scene
+  - Italicized interior dread-chant | repeated italicized phrase | opening beat of the Rarity/Blueblood waking scene
+  - Free indirect realization | narration shifts into a character's dawning thought without quotation | Twilight's realization about her closeness to Applejack during the talk with Rainbow Dash
+  - Foreshadowing narratorial aside | flat declarative statement about a future outcome | end of the Fluttershy/Angel scene
+  - Object-linked scene transition | a requested item (the book) reappears to bridge scenes | between the Fluttershy/Angel scene and the Twilight/Rainbow Dash scene
+  - Comic repetition of dialogue for elapsed time/emphasis | repeated identical exclamation lines | opening of the Twilight/Rainbow Dash scene (laughter) and mid-scene ('Silence.'/'The laughter.')
+  - Isolated short-sentence paragraphs as pacing beats | one-line or fragment paragraphs standing alone | Rarity's waking scene and the aftermath of the pinning incident with Twilight/Applejack/Rainbow Dash
+  - Trailing ellipses for hesitation or interruption | dialogue lines cut off with '...' | throughout, especially Applejack's and Rarity's speech
+  - Action-beat dialogue attribution | physical gesture substituted for or added to a speech tag | throughout, e.g. Spike's cooking, Rainbow Dash rubbing her head, Blueblood levitating a robe
+  - Pseudo-precise statistical humor | invented percentage figures stated as fact | Twilight's explanation of magic risk during the ring scene
+  - Dramatic irony via withheld/private plan | reader given a character's private decision that other characters don't hear | Angel Bunny's scheme at the end of the Fluttershy scene
+  - Synchronized unison/monotone dialogue tag | 'they both replied in monotone' style attribution | Celestia's office scene with Rarity and Blueblood
+  - Recurring physical tell as running motif | repeated blushing described as reaction | throughout, especially the Spike/Applejack scene and the pinning scene
+- unplaced:

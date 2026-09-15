@@ -1,0 +1,17 @@
+- techniques:
+  - Epigraph quotation | bolded/italicized poem excerpt with attributed author and title matching chapter title | precedes the chapter's opening scene
+  - Italicized frame monologue | unattributed italic first-person thought block, no dialogue tags | very start of the chapter, before the poem and before narrative proper
+  - Free indirect discourse | narration drifts into a character's private phrasing/speculation without quotation marks or 'she thought' framing | recurs throughout, especially Applejack's beachball musing, Twilight's post-goodbye reasoning, Spike's bathtub planning, Apple Bloom's walk home
+  - Multi-character roving viewpoint | handoff sentences ('Twilight was thinking nearly the same thing,' scene resuming on a new character mid-location) shift interior access between figures without a scene break | across the whole chapter as focus passes Applejack→Twilight→Spike→Apple Bloom
+  - Extended comparison/simile | sustained image (beachball through a keyhole) elaborated over several sentences to stand for an abstract worry | early in the chapter, Applejack's opening interior passage
+  - Dialect spelling in speech | apostrophe-elided verb endings and regional contractions in quoted dialogue for certain characters | throughout dialogue lines given to Applejack and Apple Bloom
+  - Comic deadpan narration | matter-of-fact authorial phrasing applied to exaggerated or absurd events/plans | sugar-explosion scene, Spike's five-hour bath habit, Apple Bloom's catapult history
+  - Dialogue-carried exposition | plot and backstory conveyed almost entirely through back-and-forth speech with light narrative connective tissue | conversations with Spike, with Twilight in the library, with Apple Bloom outside
+  - Rhetorical self-questioning in narration | a character's interior narration posed as a string of questions addressed to itself | opening passage and Applejack's later reflection on family/Twilight compatibility
+  - Interrupted/cut-off dialogue | a line of speech broken by a dash or by another event before completion | Applejack's aside about 'rememberin'', Spike's near-slip about the joke, Twilight's shower-door exchange
+  - Typographic emphasis via italics mid-sentence | single words or short phrases italicized inside otherwise plain dialogue or narration to mark stress | scattered through dialogue and narration (e.g. emphasized adjectives, pronouns)
+  - Invented in-world artifact naming | fabricated book/document titles presented straight-faced as real objects | the scene where Spike lists the Mayor's borrowed books
+  - Comparative reflection structure | narration walking through a explicit point-by-point comparison between two settings/relationships | Applejack's comparison of library vs. farmhouse/barn, and later of Twilight vs. her family
+  - Bookending motif repetition | a short thematic word/phrase from the opening returns as a closing beat to frame the chapter | 'marriage' recurring in the final paragraph echoing the opening interior passage
+  - Dramatic irony via parallel private thoughts | reader given each character's separate unspoken reasoning about the same upcoming event, unknown to the others | Applejack's dinner-plan reasoning, Twilight's parallel reasoning, Spike's tangential reasoning, occurring in sequence
+- unplaced:

@@ -1,0 +1,19 @@
+- techniques:
+  - Dialect orthography for Applejack | contractions/apostrophes like ain't, gunna, th', 'consarn it' | throughout all Applejack-Twilight bedroom scenes
+  - Archaic dialect for Luna | thee/thou/doth phrasing | Luna's lines in the Celestia-Luna tape-watching scenes
+  - Section breaks marking crosscut plot threads | horizontal rule dividers | used repeatedly to jump between the Twilight/AJ bedroom, the Celestia/Luna room, and the Rarity/Blueblood carriage-then-chambers thread
+  - Repetition/refrain of a fixed line | the tape's line repeated verbatim three times with 'The tape rewound' tag between repeats | Celestia's-room scene when she finds Luna replaying the recording
+  - Rule-of-three comic escalation | the magic rings 'lighting up' three successive times with increasing physical mishaps (jerked onto Twilight, rolled into her forelegs, flipped to face her) | across the bed-arrangement scenes
+  - Recurring punchline tag as comic beat | short standalone sentence 'Spike laughed'/'Spike laughed again' closing successive mishaps | the bed-rearranging sequence before Spike is sent away
+  - Free indirect discourse | narration adopts Twilight's evaluative phrasing without quotation marks, e.g. noting freckles and eyes as 'pretty' while staying third-person | the passage where Twilight studies Applejack's face after being forced to lie close
+  - Italicized interior monologue | italic first/second-person self-talk block distinct from surrounding past-tense narration | Twilight's spiraling worry and self-calming passage late in the bedroom scene
+  - Italicized quoted playback audio | italics marking the recorded tape's spoken line each time it plays, separate from live speech | Celestia's-room scene and later the Rarity/Blueblood summons scene
+  - Single-word stress italics | mid-sentence italicized word for emphasis in spoken dialogue (e.g. 'know') | Blueblood's line to Rarity in the carriage/aftermath scene
+  - Trailing ellipsis for hesitation/interruption | dialogue cut short with '...' | recurring in Applejack's evasive lines and in Rarity's drunken speech
+  - Epithet substitution for names | referring to characters by category ('the cowpony', 'the unicorn') instead of proper names | scattered through narration in the bedroom scenes
+  - Hyperbolic aside in narration | exaggerated comic generalization about a character folded into descriptive prose (dentist-appointment toast line) | introduction of the carriage-ride scene with Rarity and Blueblood
+  - Compressed narrative summary/time-skip transition | a single sentence glossing over elapsed action and consequence to bridge into a new scene | opening line of the final Rarity/Blueblood/Celestia scene
+  - Brief unelaborated allusion to a past event | short reference to a prior incident used for self-comparison without explanation | Twilight's calming-down beat referencing 'the Equestria Games inspector'
+  - Paratextual author's note | direct out-of-story address appended after the narrative ends | closing note beneath the chapter text
+  - Suspense pacing via short flat sentences and counted time | brief clipped sentences marking a wait, and later a stepwise count of minutes | the 'ten tense seconds' beat and the clock-watching passage late in the bedroom scene
+- unplaced:

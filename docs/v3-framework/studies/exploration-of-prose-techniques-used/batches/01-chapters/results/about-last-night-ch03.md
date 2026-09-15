@@ -1,0 +1,19 @@
+- techniques:
+  - Dialogue-forward narration with minimal exposition | marked by long unbroken exchanges with light or no tagging | recurs across all four scenes of the chapter
+  - Section-break scene switching | marked by a horizontal '---' divider | used between the Blueblood/Rarity, faux-Rarity/Pinkie, Mayor Mare, and library scenes
+  - Embedded flashback rendered as block italics | marked by a shift to full italic type for an extended passage | during the video-tape playback in the Blueblood/Rarity scene
+  - Italicized single-word emphasis inside quoted speech | marked by italics on isolated words within otherwise roman dialogue | scattered through Rarity's outbursts early in the chapter and within the taped fight scene
+  - Phonetic accent spelling to mark a disguised voice | marked by broken French-inflected words like 'Oui,' 'grazi,' 'Hombre' | throughout the faux-Rarity/Pinkie Pie scene
+  - Regional dialect spelling for characterization | marked by eye-dialect forms like 'mah,' 'th'','ya,' 'inta' | in Applejack's dialogue in the Mayor Mare and library scenes
+  - Manner-adverb dialogue tags signaling tone | marked by adverbs such as 'smugly,' 'defensively,' 'incredulously' | especially dense in the opening Blueblood/Rarity exchange, recurring elsewhere
+  - Minimal action beats standing in for narration | marked by short present-tense action clauses attached to a speech line | in the Blueblood/Rarity scene and the library scene
+  - Explicit naming of silence as a narrative beat | marked by lines like 'There was a silence' or 'another awkward silence' | in the Mayor Mare interrogation and the Twilight/Applejack library conversation
+  - Deadpan repetitive question-answer rhythm for comic effect | marked by clipped one-word repeated answers | in the chocolate-coin interrogation of the Mayor
+  - Physical tell used as emotional indicator | marked by described blushing, gulping, stuttering | throughout the Twilight/Applejack library scene
+  - Ellipsis-marked hesitation in speech | marked by '...' preceding or breaking a line of dialogue | pervasive, most concentrated in the Mayor Mare and library scenes
+  - Comic-to-serious tonal pivot within a single scene | marked by shift from slapstick fight/seduction material to blackmail threat language | in the Blueblood/Rarity scene
+  - Small narrated object noticed mid-dialogue as a planted clue | marked by brief interruption of narration describing an object (hoof-written notes, a falling sack) | in the faux-Rarity/Pinkie scene and the Mayor Mare scene
+  - Deadpan technical/precise phrasing for comic incongruity | marked by clinical word choice inserted into casual dialogue (legal terminology, questions about insulation) | in the Blueblood/Rarity scene and the Mayor Mare scene
+  - Parallel/mirrored question exchange structure | marked by one character's question being echoed back verbatim by the other | in the 'am I pretty' exchange of the library scene
+  - Authorial paratextual commentary set apart from the narrative | marked by a headed 'Author's Notes' block after the story text | at the end of the chapter
+- unplaced:

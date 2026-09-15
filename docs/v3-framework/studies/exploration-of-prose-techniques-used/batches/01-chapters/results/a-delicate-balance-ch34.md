@@ -1,0 +1,18 @@
+- techniques:
+  - Verse epigraph | bolded, attributed stanza set off from prose | chapter opening, before the first scene
+  - Unattributed italicized interior-monologue insert | italic paragraph with no dialogue tag or speaker marker | opens the chapter before the epigraph, and recurs as the final line after the last section break
+  - Section-break dividers | horizontal rule marks | between each of the five scene blocks (boutique, kitchen, farmhouse kitchen, dinner table, orchard)
+  - Dialect spelling in speech | dropped g's, contractions, 'ain't', 'y'know' confined to one character's lines | throughout all of Applejack's dialogue in every scene
+  - Italic emphasis on individual words | words rendered in italics mid-sentence in both dialogue and narration | scattered across nearly every scene
+  - Free indirect discourse | a character's rambling thought stream folded into third-person narration without quotation marks | Twilight's dinner-table muttering passage; Applejack's orchard reflection before Fluttershy arrives
+  - Embedded anecdote/digression | a short retrospective story set apart from the main scene action | Spike's memory of the quill/pigeon/fire incident; Applejack's reference to the Dodge Junction cherry-farm attempt
+  - Deadpan narratorial aside | flat, undercutting statement appended right after a dramatic or absurd image | line following the pigeon-and-fire anecdote
+  - Physical action mirroring emotional state | bodily action described as displacement for an unstated inner feeling | Applejack kicking and bucking the apple tree at the start of the orchard scene
+  - List-as-recurring-object motif | repeated references to a physical checklist/clipboard with checkmarks | Spike's clipboard scenes and Twilight's spoken/mental task enumerations
+  - Rotating scene-by-scene focalization | narration's attention shifts to a different character's perspective per section break | moves from Twilight (boutique/kitchen) to Applejack (farmhouse), to Spike (dinner), to Applejack again (orchard)
+  - Rhetorical self-questioning | a character poses an unanswered question to themselves, set apart as its own sentence | Applejack's 'Was this how Twilight felt all the time?'; Twilight's repeated 'why' questions during her rant
+  - Simile-marked comparison | explicit 'like'/'as if' construction comparing a feeling to an object or process | 'legs felt like jelly,' 'as if she were a spring... being wound,' 'like her old record player'
+  - Dash-set interruption or self-correction | em dash breaking a sentence to substitute or qualify a word | Twilight's aside about wanting to say 'stubborn' but reconsidering; similar narrator interjections elsewhere
+  - Trailing ellipsis for hesitation | ellipsis marking faltering or unfinished speech | Fluttershy's hedging dialogue in the orchard scene; Applejack's 'Actually...' pause about moving in
+  - Paratextual author's note | out-of-fiction address appended after the story text ends | at the very end of the chapter, after the final scene
+- unplaced:

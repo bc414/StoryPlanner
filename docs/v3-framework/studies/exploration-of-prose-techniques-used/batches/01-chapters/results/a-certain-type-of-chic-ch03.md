@@ -1,0 +1,16 @@
+- techniques:
+  - Free indirect discourse | narration slides into a character's speculative voice, marked by hedges like 'Perhaps', 'Maybe', and unattributed rhetorical questions | recurs through Twilight's anger after the shop scene, her search for Rarity, and her reflections at the hotel
+  - Italicized interior monologue | direct first-person-style thought set off by asterisks | Twilight's search question in the fashion district and her self-check on the bridge
+  - Narratorial intrusion/commentary | narrator directly editorializes about a character rather than reporting action or thought | remark about Spike's heart being in the right place, and about Chic's obliviousness/callousness as the door closes
+  - Accent-marked dialogue | interspersed French words/phrases and clipped syntax in one character's speech | all of Chic Mode's dialogue in the shop scene
+  - Scene-break divider | row of asterisks separating sections | between the garden scene and the closing hotel scene, and after Twilight leaves the hotel to search
+  - Enumerative recap passage | list-like clauses each opening with 'The way she...' tying separate remembered incidents to character traits | Twilight's mental review of the shopping trip at the hotel
+  - Extended uninterrupted monologue | one character's dialogue runs across several paragraphs without interruption | Twilight's comforting speech to Rarity on the bridge
+  - Triadic rhetorical repetition | three parallel questions in a row within dialogue for emphasis | Chic's 'Where is the flare? Where is the emotion? Where is the spark?'
+  - Physical detail standing in for emotional state | description of disheveled face, running mascara, silent convulsing | the bridge scene when Rarity is found crying
+  - Setting description mirroring mood | animate verbs applied to landscape elements (whispering stream, hiding birds) | the garden approach before the bridge is reached
+  - Continuity callback | reference to a specific unnarrated moment from outside this chapter, assumed known to the reader | Twilight likening her feeling to 'dinner the previous evening'
+  - Epistolary closing device | a formal letter reproduced in full with salutation and sign-off, functioning as a distinct textual unit from the surrounding narration | Rarity's dictated letter to Princess Celestia at the chapter's end
+  - Paratextual author's note | commentary appended after the story text, addressing craft/production choices directly to the reader | the author's note following the chapter
+  - Sensory cataloguing for scene-setting | dense, unbroken listing of visual details establishing a location | the description of the interior of Chic's shop
+- unplaced:

@@ -1,0 +1,20 @@
+- techniques:
+  - Free indirect discourse | unquoted internal thought merged into third-person narration, rhetorical self-questioning without quotation marks | recurs through the dance-floor jealousy passage, the diary temptation passage, and the cleaning-up reflection before the confession
+  - Anaphoric repetition | short declarative clause repeated verbatim across consecutive lines/paragraphs ("She hadn't stopped loving Rarity", "Love isn't like that") | in the internal monologue while Twilight watches Rarity from her chair
+  - Italicized stress emphasis | single words or short phrases set in italics within dialogue and narration | scattered through dialogue exchanges, notably Rarity's protests and the diary description of removed pages
+  - Manner-adverb dialogue tags | verbs of speaking modified by adverbs or manner verbs ("asked loudly", "replied nonchalantly", "intoned", "shrieked theatrically") | throughout all dialogue-heavy scenes, especially the Rainbow Dash exchange and the backstage scene
+  - Catalogued sensory description | sequential enumeration of visual/material details (colors, gems, cut) for each of several objects in turn | the description of the three exhibited gowns near the chapter's end
+  - Object-focused foreshadowing device | extended physical description of a single found object (worn cover, loose pages) singled out from an otherwise orderly room | the bedroom scene where Twilight discovers the diary
+  - Somatic listing for emotional state | successive short sentences naming bodily reactions (legs, heart, head) in place of naming the emotion | the moment after Rarity agrees to reconcile
+  - Quoted self-address | direct speech in quotation marks aimed at the speaker's own reflection rather than another character | the bathroom mirror moment
+  - Trailing ellipsis interruption | sentences or thoughts cut off with an ellipsis rather than completed | the diary-page description, Twilight's unfinished plan ("then... then..."), Rarity's unfinished confession ("It's just...")
+  - Rhetorical question-and-rebuttal internal debate | a question posed in narration immediately followed by the narrator arguing against or qualifying it | the entitlement/love reasoning during the dance scene and the rationalization before opening the diary
+  - Section-divider marks | a row of asterisks separating passages | used four times to break the chapter into distinct movements
+  - Patterned sequential departure | repeated syntactic pattern naming each guest leaving in turn together with a clause noting it matched prior expectation | the sequence of Applejack, Fluttershy, and Rainbow Dash leaving the party
+  - Narrative time-compression versus dramatized scene | a summarizing clause spanning a stretch of time ("time seemed to fly past in a haze") set against surrounding scenes rendered moment-by-moment | the transition after Rarity and Twilight's hug into the farewell sequence
+  - Consistent in-world diction substitution | replacement of human-referring words with coined equivalents ("nopony", "everypony", "somepony") used without comment | uniformly across the entire chapter
+  - Paratextual authorial address | a signed note set off from the story text, speaking as the author to the reader | appended after the chapter's final scene
+  - In medias res dialogue opening | the chapter beginning directly with quoted speech before any scene-setting narration | the opening lines of the chapter
+  - Silent-glance communication | described exchanged looks between characters carrying unstated meaning, without accompanying dialogue | Rainbow Dash's glances toward Twilight and the door during the farewell sequence
+  - Cumulative possessive listing | repeated "her X, her Y, her Z" phrase structure stacking abstract qualities or memories | Twilight's reflection while watching Rarity sweep, recalling their history together
+- unplaced:

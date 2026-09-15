@@ -1,0 +1,21 @@
+- techniques:
+  - Cold-open interior monologue | italicized, unattributed first-person present-tense thought, no dialogue tags | at the very start, before the poem epigraph and before the chapter proper begins
+  - Epigraph quotation | centered, bolded/italicized verse lines followed by title and author credit set off from prose | immediately after the opening monologue, before the narrative begins
+  - Cross-cut parallel plotlines | horizontal rule scene breaks (---) alternating settings | recurs throughout the whole chapter, alternating Ponyville/farm scenes with Canterlot/train scenes
+  - Alternating close third-person focalization | narration and interior access shift to whichever character anchors that scene | consistent through every scene, switching at each scene break
+  - Embedded italicized direct thought | short italic first-person sentences inserted mid-paragraph of third-person narration | scattered across both Applejack's and Twilight's scenes throughout the chapter
+  - Phonetic dialect spelling | apostrophe-dropped g's, contractions, and lisp-spelling ('treeth', 'fatht') | in all dialogue by Applejack, Apple Bloom, Big Macintosh, and Twist throughout
+  - Minimal-speech characterization | one-word or single-line answers ('Eeyup', short sentences) set against other characters' long speeches | whenever Big Macintosh speaks, in the farm/lesson scenes
+  - Embedded formal document | full block of archaic, inconsistently-capitalized epistolary prose distinct from surrounding narration | the library scene where Applejack reads Princess Luna's letter aloud
+  - Comic anticlimax reveal | a buildup or pause before a deflating punchline, marked by trailed-off dialogue or a beat before the payoff | the cheese-wheel letter reading in the library, and the reveal that the forest trip is Diamond Tiara's punishment
+  - Slapstick action beat | abrupt, short, physically violent action sentences | the opening scene where Rainbow Dash crashes through the window
+  - Recurring verbal refrain | a short exchange ('Good luck.' / 'I'll need it.') repeated nearly verbatim in separate scenes | once with Rainbow Dash early on, again with Spike later
+  - Framing bookend | mirrored farewell lines and parallel emotional beats placed at the chapter's opening and its close | the unattributed opening monologue and the final 'Goodnight, Twi'/'Goodnight, Twilight' exchanges
+  - Compressed reported speech with elision | a long recited schedule cut off mid-sentence by an ellipsis, skipping ahead in time within the same scene | Twilight's itinerary announcement on the train, and again near the observatory scene
+  - Register shift into lecture/textbook exposition | dense technical, encyclopedic phrasing distinct from surrounding conversational prose | Twilight's Star Swirl Wing speech and her classroom transmutation lecture
+  - Emphatic italics on dialogue words | single words within spoken lines set in italics rather than whole-sentence thought-italics | scattered through dialogue across most scenes
+  - Sensory-focused lyrical passage | shorter, rhythmic sentences tracking physical/magical sensation in sequence | Applejack's tree-growing demonstration in the orchard
+  - Interrupted-speech punctuation | dashes, repeated stammered syllables, and trailing ellipses marking cut-off or flustered dialogue | Twilight's and Applejack's embarrassed exchanges, e.g. discussing their relationship or being teased
+  - Choric unattributed group dialogue | a cluster of short exclamations from the class listed in quick succession without individual attribution | the train scene and the library/zoo scenes with the schoolchildren
+  - Paratextual author's note | short first-person address set off after the story's end, outside the narrative voice | the note following the final scene
+- unplaced:

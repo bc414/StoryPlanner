@@ -1,0 +1,22 @@
+- techniques:
+  - Multi-strand parallel narration | sections separated by "---" dividers, no transitional prose | throughout the whole chapter, cycling through Applejack, Twilight, Fluttershy, Pinkie, the Crusaders, Rainbow Dash, Rarity and back
+  - Verse epigraph | italicized/bolded quoted stanza with named author under the section title "Community" | at the head of the chapter, before the prose begins
+  - Unattributed italic teaser passage | italicized paragraph with no speech tag or quotation marks, later revealed to be Twilight's thought | opening lines of the chapter, before the epigraph
+  - Free indirect discourse | narration slides into a character's own diction and rhetorical habits without quotation marks | recurring in Applejack's morning scene, Pinkie's musings, Fluttershy's pacing, Scootaloo's classroom scene
+  - Regional dialect spelling in dialogue | apostrophes and contractions such as "y'all," "gonna," "ain't," dropped g's | Apple-family dialogue scenes (breakfast table, Applejack leaving for her date)
+  - Catchphrase standing in for dialogue | single repeated word "Eeyup" used as a full conversational reply | every scene featuring Big Macintosh
+  - One-sided address to a mute animal | a character speaks her deliberations aloud to a pet who answers only by gesture, narrated as if a real exchange | both Fluttershy/Angel sections
+  - Mental space rendered as literal scene | a character's private thought process depicted as a visited location with its own persona, set off by italics and quotation marks | Pinkie's sections (the imaginary office/rolodex/secretary)
+  - Nested vocal impression inside dialogue | one speaker performs another character's remembered words in an altered voice, marked by description of the performance and inset quotation | the library scene where Spike imitates Rainbow Dash imitating Applejack and Twilight
+  - Comic anticlimax after an emotional beat | a weighty exchange is immediately cut short by a mundane or crude interruption | after the Twilight/Fluttershy confession exchange (Spike's belch); after Rainbow Dash's flight sequence (tree collision)
+  - Deadpan understatement for physical comedy | a short flat sentence reports a mishap without embellishment | Rainbow Dash's crash into the tree; Pinkie bursting through Rarity's door
+  - Cascading rhetorical questions | a run of unanswered questions rendering anxious or excited thought | Fluttershy's pacing monologue; the Crusaders speculating about marriage and foals; Twilight's dress dilemma
+  - Mid-line typographic emphasis | italicized or bolded single words inside spoken or thought sentences marking stress | scattered through dialogue and internal monologue throughout the chapter
+  - Self-serving embellished retelling | a character narrates a past event to another in a flattering, exaggerated version of her own role, left uncorrected by the narration | Rarity's account to Sweetie Belle of her part in getting Twilight and Applejack together
+  - Mirrored parallel sentence construction | the same sentence pattern repeated with the two speakers' roles swapped | the Rarity/Pinkie exchange about sounding like a parent and a scolded child
+  - Ironic closing button lines | each narrative strand ends on a short punchline or ironic remark | ends of the breakfast scene, the Scootaloo scene, the Rarity/Pinkie scene
+  - Dramatic irony through withheld information | a character (and the reader) is kept from a detail already available elsewhere in the scene, played for humor | Granny Smith's confusion at the end of breakfast; Rarity's refusal to learn about Pinkie's "artillery" question
+  - Explicit narrated quantification of pauses | the narrator numbers or measures its own silences for comic effect | the Twilight/Fluttershy sandwich conversation ("a third moment of silence, longer than the first two combined")
+  - Clipped interior countdown during action | italicized fragmentary phrases marking real-time internal commentary during a fast physical sequence | Rainbow Dash's obstacle-course flight run
+- unplaced:
+  - Mid-scene tense shift from past to present ("Rainbow Dash rolls her eyes") amid otherwise past-tense narration | Rainbow Dash and Apple Bloom's tree-side conversation

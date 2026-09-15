@@ -1,0 +1,16 @@
+- techniques:
+  - Italicized interior monologue | marked by *italics* rendering direct first-person-flavored thoughts | recurs throughout, especially in Cherry's reflective moments (opening ledger scene, mid-flight worries, the confrontation and reconciliation)
+  - Free indirect discourse | un-italicized third-person narration that adopts the character's own diction and judgments without quotation marks | throughout, e.g. Cherry's assessment of the filly on arrival and her running commentary on ponies and work
+  - Italicized emphasis for technical or thematic terms | words like *acropolis*, *agora*, *steerage*, *big sky* set off in italics | in the ballooning-explanation passages and the Cloudsdale tour
+  - Disembodied remembered dialogue in italics | unattributed remembered taunts presented as free-floating italicized lines | during the ascent through the pegasus cloud layer
+  - Bookending refrain | an opening sentence about flying weather is echoed and varied in the closing lines | first paragraph and the chapter's final paragraphs
+  - Scene-break segmentation | horizontal rule dividers separating episodes | used repeatedly to divide the chapter into takeoff, big-sky flight, Canterlot, the cloud chase/confession, Cloudsdale, the return home, and the epilogue
+  - Figurative comparison for flight and cityscape | similes/metaphors such as a balloon likened to a waking dragon, clouds to whales, pegasus traffic to blood in a body | scattered through descriptive passages of ascent, the big sky, and the Cloudsdale flyover
+  - Planted detail resolved later | an early, easily-missed physical detail and odd behavior are given without explanation and only accounted for later | from the filly's introduction through the mountain-cloud scene where it is explained
+  - Rhetorical self-questioning | questions posed within the narration or italicized thought rather than answered directly | scattered throughout, especially during introspective stretches
+  - Varied referential epithets | repeated substitution of descriptive nouns for a character's name ("the filly," "her passenger," "her young protégé") | throughout, most noticeably before names are exchanged and in narratorial asides later
+  - Time-of-day atmospheric progression | recurring sky/light description used to mark advancing story-time | opening paragraphs, transitions between sections, and the closing descent into evening
+  - Interrupted dialogue via dash | a speaker's line cut off mid-sentence by another's interjection, marked with a trailing dash | during the confrontation on the mountaintop after the cloud incident
+  - Explicit spoken analogy as instruction | a simile delivered in-dialogue to explain a process | the wind/sailing explanation during the ascent conversation
+  - Tone-marking dialogue tags | attributive verbs other than "said" (lied, snapped, teased, grumbled) signaling subtext | throughout the dialogue-heavy scenes
+- unplaced:

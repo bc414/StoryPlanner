@@ -1,0 +1,18 @@
+- techniques:
+  - Dialect spelling for character voice | apostrophe contractions and phonetic spellings such as "ya'", "'bout", "gonna", "reckon" | throughout Applejack's dialogue across the whole chapter
+  - Free indirect discourse | narration slides into a character's unmarked questions and reasoning without quotation marks | throughout narrative passages, especially Twilight's walk to the farm and her analysis of her friends
+  - Comic self-interruption and correction in dialogue | a speaker restates, corrects, and qualifies her own sentence mid-utterance | the doorstep scene after the proposal, and the closing exchange about grammar and the word "fact"
+  - Rapid alternating dialogue with minimal narration | short back-and-forth lines with little or no descriptive framing between them | the opening doorstep conversation and the banter with Rainbow Dash
+  - Comic internal cataloguing | narration describes a character mentally enumerating or compiling possibilities | the moment of the proposal and later while she sorts through her feelings about Applejack
+  - Italicized emphasis marking stress or interior focus | italicized single words or short phrases set within ordinary sentences | scattered through dialogue and narration from the opening scene to the ending exchange
+  - Extended lyrical description set against plain conversational prose | heightened, image-dense description of light and setting inserted into an otherwise plain-spoken scene | the fireflies-and-sunset passage near the end
+  - Planted vague detail resolved later | an unnamed, unfinished feeling is mentioned early and only named through a later exchange | during the walk-to-the-farm musing and resolved in the closing dialogue about "fact"
+  - Thematic wordplay bookending the piece | punning on a key term that ties the opening title to the closing lines of dialogue | the chapter title and the final exchange between the two characters
+  - Distinct idiolects for secondary characters | each side character's dialogue is given a separate diction and rhythm marking her personality | the visits to Rainbow Dash and to Rarity
+  - Catalog-style survey of secondary characters | a sequential listing treatment moving through each friend's trait one after another | Twilight's musing before leaving and the extended conversation during the walk
+  - Action beats interleaved within dialogue | short physical-gesture descriptions placed between lines of spoken dialogue | dialogue-heavy scenes throughout the chapter
+  - Scene-break marker | a row of asterisks used to signal a jump forward in time or place | between the end of the evening study session and the next day's search
+  - Comic hyperbole | an overstated comparison or exaggerated claim used for humorous effect | the aside about Pinkie Pie and the aside about the Roanman Empire during the library research section
+  - Punning renamed proper nouns | invented in-world names that echo real-world historical terms | the library research passage on the history of romance
+  - Ellipsis marking trailing or hesitant speech and thought | sentences cut short with trailing dots | scattered throughout dialogue and interior narration, especially Applejack's and Twilight's hesitant lines
+- unplaced:

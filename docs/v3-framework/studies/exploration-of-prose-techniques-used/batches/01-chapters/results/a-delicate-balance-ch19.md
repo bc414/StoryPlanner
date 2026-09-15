@@ -1,0 +1,17 @@
+- techniques:
+  - Epigraph | italicized/bolded quoted poem set off by a horizontal rule, with named author credit beneath it | at the very start of the chapter, before the first scene
+  - Diary-like interior monologue frame | unattributed italicized first-person passage with no speaker tag or quotation marks | opens the chapter, before the epigraph
+  - Vignette/mosaic structure | horizontal-rule breaks dividing the chapter into self-contained scenes | throughout, separating each character-centered episode
+  - Shifting close third-person narration | narration's word-choice and attention track whichever character anchors the scene | in each section in turn (Rarity's, Scootaloo's, Apple Bloom's, Fluttershy's, Pinkie's, Cheerilee's, Bon Bon's, Celestia's)
+  - Emphatic italics in dialogue | single words or short phrases italicized inside spoken lines | scattered through nearly every dialogue exchange across the chapter
+  - Terse deadpan speech as characterization | one- or two-word lines set against fuller narrator description of the reaction around them | in the Cheerilee/Big Macintosh conference scene
+  - Evasive/trailing dialogue signaling withheld information | broken-off sentences, stammered denials, ellipses in a character's lines | in the Rainbow Dash/Scootaloo exchange about Rumble and in Spike's reaction to marriage talk
+  - Mock-serious narratorial aside | a deadpan explanatory comment breaking from plain description for comic effect | opening of the Rarity/Sweetie Belle scene
+  - Cross-scene motif repetition | the same complaint about reduced attention due to the anniversary recurs with variation | across the Sweetie Belle/Rarity, Scootaloo/Rainbow Dash, and Apple Bloom scenes
+  - Physical detail standing in for stated emotion | small described gestures (welling tears, tongue out in concentration, slumping posture) given without naming the feeling | in the Fluttershy/Apple Bloom scene and the opening of the Bon Bon/Lyra scene
+  - Capitalized interjection as scene punctuation | a standalone all-caps exclamation used as its own beat | in the Fluttershy scene and the Rarity scene
+  - Scene-closing comic reversal | a final exchange or line that undercuts the preceding tone for a punchline | closing the Celestia/Luna scene and the Rainbow Dash/Scootaloo scene
+  - Title-epigraph echo | the chapter heading reproduces the epigraph poem's title | at the chapter heading and the epigraph's credit line
+  - Author's Note paratext | direct authorial commentary set apart after the story text, outside the narrative voice | appended at the very end of the chapter
+  - Action-beat substitution for speech tags | a physical action clause placed adjacent to a quotation in place of a 'said' tag | recurring throughout nearly all dialogue-heavy scenes
+- unplaced:

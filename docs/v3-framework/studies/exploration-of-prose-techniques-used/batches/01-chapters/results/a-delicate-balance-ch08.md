@@ -1,0 +1,16 @@
+- techniques:
+  - Epigraph | quoted poem with named attribution set off before the prose begins | at the very start of the chapter, before the narrative opens
+  - Italicized frame-address | opening line set in italics as a distinct address to a character | the single italicized paragraph that opens the chapter
+  - Free indirect discourse | narration and imagined dialogue run together without quotation marks or clear punctuation breaks | the early passages where Twilight imagines Applejack's possible responses
+  - Extended anxiety metaphor | figurative language of snakes, butterflies, and metamorphosis for a bodily feeling | the opening paragraphs describing Twilight's nervous walk
+  - Emphasis italics on single words | italicized words embedded inside ordinary dialogue and narration | scattered through the conversation on the hill and later exchanges
+  - Dialect-marked speech | apostrophes and dropped g's rendering one character's contractions | all of Applejack's dialogue throughout the chapter
+  - Somatic stand-ins for stated emotion | described blushing, glowing face, trembling, hoof-stomping instead of named feelings | recurring through the dialogue scenes between the two ponies
+  - Escalating rhetorical questioning | repeated short questions attributed to a character's rising emotion | Applejack's 'why me/why us' questioning and Twilight's outburst in the middle of the conversation
+  - Catalog and counterfactual listing | enumerated shared memories followed by an imagined alternate-meeting scenario | the reminiscence exchange in the middle of the chapter
+  - Nature imagery paralleling mood | described sunset and rising moon interspersed between dialogue turns | narrative description bracketing the conversation throughout the chapter
+  - Gesture in place of or alongside speech | described physical actions like hat-giving, a silencing touch, a nose-bump | the resolution and kiss sequence near the end
+  - Circular opening/closing imagery | matched descriptions of walking together at start and end | the opening gravel-crunching walk and the closing walk down the hill
+  - Repeated phrase echo between speakers | the same short line said back and forth by both characters | the closing dialogue exchange
+  - Isolated short-sentence paragraph for tonal pivot | a one-line paragraph set apart from surrounding longer prose | occurs once early (on the walk) and once during the kiss description
+- unplaced:

@@ -1,0 +1,18 @@
+- techniques:
+  - Italicized stream-of-consciousness monologue | marked by italics, run-on clauses, self-address ('Get some words out, Twilight!') | at the very opening, rendering the dream itself
+  - Short italicized waking-fragment | marked by italics, broken syntax, repeated 'no' | immediately after the dream passage, before the epigraph
+  - Quoted verse epigraph with attribution | marked by indentation, bold/italic formatting, author-title credit line | between the opening dream material and the start of the main narrative
+  - Shift to standard third-person past-tense narration | marked by return to plain roman type and 'Rarity' as subject | from the epigraph onward, governing the rest of the chapter
+  - Free indirect discourse | marked by unquoted access to a character's private reasoning ('The rational part of her brain knew...', 'Spike had been tempted to...') | in the Rarity kitchen scene and the Spike library scene
+  - Horizontal-rule scene breaks | marked by the '---' divider | between each of the five/six scenes across the chapter
+  - Dialogue-driven scene construction | marked by extended quoted exchanges carrying the bulk of information | in the kitchen, horseshoe-pit, restaurant, library, and bedroom scenes
+  - Interspersed action beats as stage direction | marked by short declarative physical-action sentences set among dialogue lines | throughout all dialogue scenes
+  - Comic bathos / tonal deflation after tension | marked by an abrupt mundane or joke line following a serious beat | at the epigraph's placement after the dream, at the end of the restaurant scene, and at the start of the Spike scene
+  - Gradual reveal through interrogation | marked by a questioner extracting a withheld detail piece by piece ('Then what?' / 'And what?') | in the Rarity kitchen scene's dream recounting
+  - Extended explanatory analogy | marked by explicit 'It's like...' comparison structure | Pinkie's chocolate-box speech and Rainbow Dash's flying-trick speech
+  - Character-specific metaphor vocabulary | marked by one character's dialogue consistently drawing on their signature domain (flight, crashes, tricks) to frame advice | Rainbow Dash's bedroom-scene dialogue
+  - World-flavor lexical substitution | marked by species-adapted idioms ('horseapples', 'everypony', 'colfriend') | scattered throughout the chapter's dialogue and narration
+  - Surprise reveal via sound before sight | marked by description of an unexpected gasp identified only after a beat of hesitation | end of the restaurant scene
+  - Accumulating incidental detail to imply pattern/duration | marked by a counted repetition ('the fourth book spill this week') | in the library scene with Spike
+  - Comic hyperbole/exaggerated comparison | marked by exaggerated simile used for humor ('enough cups of coffee to make Pinkie Pie nervous') | in Rarity's background-establishing passage near the chapter's start
+- unplaced:

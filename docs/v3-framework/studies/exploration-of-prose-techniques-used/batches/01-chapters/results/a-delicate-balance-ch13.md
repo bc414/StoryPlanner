@@ -1,0 +1,19 @@
+- techniques:
+  - Diary-voice frame passage | set off in italics, first-person, tonally at odds with what follows | opens the chapter, before the poem epigraph
+  - Literary epigraph | italicized verse block with author attribution | at the very start of the chapter, before the narrative begins
+  - Horizontal-rule scene breaks | the '---' divider | used repeatedly throughout to cut between simultaneous story-threads
+  - Per-section shifting focalization | narration tracks one character's perceptions/thoughts within each divided section | recurs section by section across the whole chapter
+  - Italicized interior thought within third-person narration | unquoted italicized clauses standing in for a character's exact thought | Rainbow Dash's aerial search section, Twilight's realization at the chocolate-shop/Fluttershy scenes, Bon Bon's mental-note aside
+  - Hyperbolic physical reaction as comic marker | exaggerated bodily description tied to emotion | Rarity's opening outburst and later scenes with the fillies
+  - Dialect spelling for regional character voice | dropped g's, contractions, 'Eeyup' | all Applejack and Big Macintosh dialogue throughout
+  - Chain-of-hearsay interrogation pattern | repeated 'how did you hear/where did they hear' exchanges | Rarity-and-Rainbow-Dash scene near the start, echoed again in the Rarity-and-crusaders scene later
+  - Action-beat dialogue attribution | a physical action clause substituting for a 'said' tag | used pervasively across nearly every dialogue exchange in the chapter
+  - Running gag via recurring reference | repeated callback to one earlier incident | the smashed boutique window, referenced in several later scenes
+  - Comic wordplay/literalized misunderstanding | a phrase taken or misused literally for humor | the flower-eating exchange, the 'Sunday' mishearing
+  - Ellipsis-marked trailing or interrupted speech | '...' cutting a line short | used throughout, especially in Fluttershy's and the fillies' dialogue
+  - Capitalized/exclamatory emphasis for shouted lines | all-caps words with exclamation marks | the chapter's opening line and scattered high-emotion exchanges
+  - Figurative comparison for internal sensation | a metaphor inserted into narration to render a feeling | Twilight's 'trapdoor... brain fallen into her stomach' moment
+  - Title-epigraph intertextual echo | chapter heading matching the quoted poem's title | the chapter heading paired with the Donne excerpt
+  - Paratextual closing note | an author's-note block set apart from the story text | end of the chapter, after the narrative concludes
+  - Structural parallelism across subplots | repeated pattern of a couple negotiating how to treat their partner, restaged with different pairs | recurs across the Twilight/Applejack, Fluttershy/Twilight, and Big Macintosh/Cheerilee sections
+- unplaced:

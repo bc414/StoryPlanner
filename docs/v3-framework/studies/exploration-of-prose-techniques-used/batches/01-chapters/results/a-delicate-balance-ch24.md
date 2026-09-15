@@ -1,0 +1,19 @@
+- techniques:
+  - Italicized interior monologue opening | present-tense first-person italics before the epigraph | very start of chapter, before the poem quote
+  - Epigraph / literary quotation | indented italicized verse block with named author attribution | immediately after the opening monologue, before the first scene
+  - Section-break scene division | row of dashes (---) separating blocks of text | used repeatedly throughout to divide the chapter into distinct scenes/POV settings
+  - Phonetic dialect spelling | dropped g's and contractions in speech ("lookin'", "gonna", "ain't") | consistently in Applejack's and Apple Bloom's dialogue across the whole chapter
+  - Italicized emphasis within speech | single words set in italics inside quoted dialogue | scattered through nearly every dialogue exchange (Celestia, Rarity, Twilight, Applejack)
+  - Free indirect thought/narration | third-person narration drifting into a character's unspoken reasoning without quotation marks | e.g. during Twilight's lunch, Applejack's photo-album browsing, Twilight's cafe wait
+  - Withheld-information tease | a character declines to explain something, redirecting to a future reveal | Celestia's remark about Luna's gift near end of first scene
+  - Deflating comic aside | narrator inserts a flat factual correction undercutting a character's boast | Spike's overdue-books statistic in the final scene
+  - Slapstick physical-action beat | abrupt destructive action described in short blunt sentences | watermelon through the window scene; Luna's forceful entrance and back-pat
+  - Character-marking speech tic | recurring distinctive verbal pattern tied to one character (royal plural, theatrical flourish phrasing) | Luna's dialogue throughout her appearance; Rarity's dialogue throughout her scenes
+  - Establishing sensory description | brief scene-setting detail of environment/light/weather at a scene's start | opening of the Celestia lunch scene; Applejack under the tree; light through leaves passage
+  - Temporal ellipsis marked explicitly | narration flags that a stretch of time/action has been skipped over | the train-platform reunion moment before the embrace
+  - Comic inventory/list | a character mentally cataloguing a series of examples for comic effect | Applejack listing unremarkable family members in the photo-album scene
+  - Dialogue-dominant scene construction | extended passages of back-and-forth quoted speech with minimal narrative interruption | the tea-and-catch-up scene between Twilight and Applejack; the Rarity dress-fitting scene
+  - Trailing-off/hesitation punctuation | dashes and ellipses marking interrupted or faltering speech | Applejack's halting explanation about her parents; Twilight's stammering lines
+  - Paratextual author's note | direct authorial commentary appended after the story text, outside the narrative frame | the note following the chapter's end
+  - Parallel-anticipation framing | mirrored expressions of longing placed in separate scenes to bracket the reunion | opening italicized monologue paired with Applejack's pre-nap thoughts before the reunion scene
+- unplaced:

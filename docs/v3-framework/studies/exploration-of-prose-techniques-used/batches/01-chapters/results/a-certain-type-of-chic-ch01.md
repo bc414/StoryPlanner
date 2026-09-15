@@ -1,0 +1,15 @@
+- techniques:
+  - Free indirect discourse | narration drifts into a character's unmarked reflection (e.g. musing on friendship, on the meaning of an embrace) | occurs after the friends' reunion scene and again near the chapter's end after Rarity's farewell hug
+  - Hedged/ambiguous phrasing around an emotional beat | qualifiers like 'perhaps', 'seemed', 'maybe', 'Whatever it had meant' cluster around one moment | during Twilight's walk home after the visit to Rarity's boutique
+  - Italicised words marking spoken emphasis or surfacing thought | italic single words/phrases set apart from surrounding prose | during the reunion scene ('spying') and during Rarity's outburst ('thank you')
+  - Parenthetical narratorial aside | a bracketed clause interrupts a reported sentence to supply a character's private reaction | within the summary of the CMC's antics early in the reunion scene
+  - Summarized/compressed narration in place of dramatized scene | a run of events reported as a list or in reported speech rather than played out | the catalogue of friends' weekly news, and the recap of Twilight's Canterlot trip
+  - Scene-setting descriptive opening with personification | natural imagery (birds, breeze, dawn) treated as animate/expressive | opening paragraphs of the chapter
+  - Row-of-symbols section break | typographic divider standing in for an elided stretch of time | between the reunion scene and the evening visit to Rarity's boutique a week later
+  - Action/gesture beats attached to dialogue | clauses describing physical business (pouring tea, picking up a sketch, prancing) accompanying or replacing 'said' tags | throughout the boutique conversation between Twilight and Rarity
+  - Figurative comparison (simile) | explicit 'as if' / 'like' constructions | opening description of Twilight waking, and Rarity's reaction to the news
+  - Escalating repetition for emphasis | a word repeated in quick succession with the final instance set off (italics) | Rarity's exclamation of gratitude after hearing about Chic Mode
+  - Referential epithets replacing proper names | recurring descriptive substitutes ('the lavender unicorn', 'the little dragon', 'the other mare') | scattered through the narration across both scenes
+  - Unexplained planted detail | an action described but its significance withheld, marked by a word like 'surreptitiously' | during Twilight's look through Rarity's sketchbook
+  - Chapter close on quiet image rather than statement | final paragraph ends in a small physical action (extinguishing a candle) after a generalized mood remark | closing lines of the chapter
+- unplaced:

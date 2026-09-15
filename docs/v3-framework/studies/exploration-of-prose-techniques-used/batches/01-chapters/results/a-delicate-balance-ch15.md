@@ -1,0 +1,21 @@
+- techniques:
+  - Diary-entry frame | bolded/italicized first-person journal passage set off before the chapter proper | opening of the chapter, before the epigraph
+  - Epigraph with attribution | block-quoted, bolded/italicized verse followed by title and author on separate lines | between the diary entry and the start of the narrative
+  - Section breaks via horizontal rule | repeated '---' dividers | throughout, separating each scene/POV shift
+  - Multiple-POV close third person | narration shifts to follow whichever character is present, filtering thought through that character's diction (e.g. Celestia's, Applejack's, Twilight's, Spike's, Pinkie's sections) | across the whole chapter, scene by scene
+  - Cross-cutting/parallel simultaneity | scenes of the date and scenes at the library are interleaved rather than told consecutively, with time markers (hourglass, clock checks) tying them together | middle-to-late chapter, alternating Applejack/Twilight and Spike/Pinkie sections
+  - Italicized interior monologue | italic unattributed first/second-person thought passages inserted into narration | Applejack's bedroom scene
+  - Eye dialect/phonetic speech rendering | dropped g's, apostrophes, respellings ('goin'', 'ain't', 'mrt's mgo') for certain characters' dialogue | Applejack's and other rural characters' dialogue throughout; Twilight's blindfolded mumble
+  - Reported/paraphrased letter content | Twilight's letter is summarized and reacted to rather than quoted directly | Celestia and Luna's balcony scene
+  - Recap-through-dialogue | plot information already known to the reader is re-delivered as one character explains it to another | Twilight explaining Spike's promotion to Applejack; Applejack recounting barn history
+  - Catalog/list recitation | a character enumerates a series of items or events in sequence within dialogue or narration | Twilight's mental checklist for Spike; Applejack's list of destroyed barns
+  - Repetition as comic/structural device | a phrase or greeting is repeated verbatim across appearances | 'Welcome to the Ponyville Chocolate Shoppe,' 'double check the list of overdue books'
+  - Extended personification/conceit as comic monologue | a character elaborates a fanciful allegorical framework (factions, conspiracies) around a mundane object | Pinkie's cookie-conspiracy speech
+  - Mock-scholarly allusion/naming joke | invented term modeled on a real reference used for comic effect | Pinkie's 'Haflinger's Cookie'
+  - Dramatic irony via withheld/delayed information | reader is shown a fact (mixed cookie plates, Pinkie's spying) that a character does not yet know, before that character encounters it | Spike hiding evidence of Pinkie's visit; Twilight's raisin-cookie moment at the very end
+  - Chekhov's-gun payoff / mirrored detail | an earlier established detail (mixed cookies, mattress spring, barn count) is returned to and resolved later in the same or a callback moment | oatmeal-raisin/chocolate-chip cookies from Pinkie's scene recurring in Twilight's closing bite
+  - Trailing ellipsis for hesitation | dialogue or narration cut off with an ellipsis to mark a character trailing off or reconsidering | multiple characters' dialogue throughout, e.g. Applejack broaching the discount/kiss topic
+  - Interrupted dialogue via em dash | a character's speech is cut off or overlapped, marked with an em dash | several conversations, e.g. Lyra's interruptions, Applejack's asides
+  - Paratextual author's note | commentary appended after the story text, outside the narrative frame, addressing the reader directly | end of chapter, after the final scene
+  - Physical-action beats as comic punctuation | short declarative action clauses inserted into dialogue exchanges to mark reaction | Pinkie's rearing/flailing/bouncing, Spike's freezing mid-step
+- unplaced:

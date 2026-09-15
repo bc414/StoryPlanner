@@ -1,0 +1,15 @@
+- techniques:
+  - Italicized interior monologue | text set off in *italics* representing a character's direct unspoken thoughts | occurs during Twilight's research at the chapter's start and in Rainbow Dash's closing line
+  - Free indirect discourse | narrator states a character's private feeling or realization as plain narrated fact, no quotes or italics | occurs in the description of Spike's relief, Rarity's opening reflection, and Twilight's mental aside about Blueblood
+  - Section-break dividers | a horizontal rule (---) separating the chapter into vignettes | marks the shifts between the Twilight/Applejack/Spike scene, the Rarity/Blueblood scene, and the Fluttershy/Rainbow Dash scene
+  - Whimsical narrator intrusion | narrator steps outside the scene to comment directly, e.g. on 'the powers that be' or on the effort behind a character's smile | occurs in the transition into the Rarity/Blueblood scene and near the end of the Fluttershy/Dash scene
+  - Ellipsis-marked hesitant speech | trailing dots inserted mid-sentence in dialogue to show faltering delivery | recurs throughout all three scenes, especially in Twilight's marriage confession and Rarity's exchanges with Blueblood
+  - Rapid volley dialogue with minimal tags | short alternating quoted lines with little or no narration between them | occurs in the 'Beautiful'/'Sexy' back-and-forth between Rarity and Blueblood
+  - Explicit statement of confounded expectation | narrator directly names that a character's reaction defied what was anticipated | occurs at Spike's reaction to the marriage news
+  - Gesture-based characterization in place of dialogue | detailed description of a nonverbal character's pantomimed actions conveying speech-like meaning | occurs with Angel Bunny in the closing scene
+  - Chapter-opening time compression | a summarizing sentence that skips over a stretch of offscreen activity | occurs in the first lines of the chapter describing the thirty minutes of research and cooking
+  - Full formal proper-noun naming for comic specificity | an invented event given an elaborate exact title | occurs when the fashion showoff flyer is introduced
+  - Escalation-then-interruption pacing | sensory description of building physical action cut short by a single exclaimed word | occurs at the start of the Fluttershy/Rainbow Dash scene
+  - Physical tell as emotion marker | described bodily reactions (blushing, eye twitch, flinching) standing in for stated emotion | recurs across all three scenes
+  - Paratextual author's note | direct authorial address outside the story proper, set off after the narrative ends | occurs at the very end of the chapter
+- unplaced:

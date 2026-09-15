@@ -1,0 +1,15 @@
+- techniques:
+  - Free indirect discourse | narration merges with a character's unspoken reasoning, no quotation marks, rhetorical asides like 'Why now?' | recurs through the study scene and the sleepless-morning scene
+  - Italicized standalone thought-insertions | single short phrase set off in italics apart from surrounding prose | occurs when the kiss is first admitted, and again at Rarity's door
+  - Embedded document reproduction | full italicized text with date, salutation and signature, set apart from narration | the letter and successive diary-entry readings in the middle of the chapter
+  - Anaphoric repetition | repeated sentence openings ('She didn't want to remember...'; 'she who had...') | the opening reflection on the kiss, and the self-blame passage after reading the diary
+  - Personification of setting and sensation | silence, nerves, and adrenaline given active verbs as if agents | the opening description of the library, and the approach to Rarity's door
+  - Cascading rhetorical questions | successive short unanswered questions rendering doubt | while puzzling over the letter's meaning, and again waiting at the door
+  - Cross-reference analogy to prior events | a past incident named and used as a measuring stick for present stakes | the restless-night reflection on consequences
+  - Scene-break marker | row of asterisks separating the two halves of the chapter | between the night scene and the following morning
+  - Physical detail implying unstated emotion | close description of an object (repaired dress, ink blotches) left to imply feeling without stating it | the saddlebag discovery and the reading of the letter
+  - Ominous connotative diction | neutral objects and journeys described with dread-laden words ('ominously', 'last journey', 'certainty') | the walk from the library to the Boutique
+  - Embedded spoken self-address | a single line of dialogue spoken aloud to a mirror, with no listener | end of the night scene
+  - Dialogue-cliffhanger close | chapter ends on one spoken word with no response given | final line of the chapter
+  - Paratextual author commentary | out-of-story remarks on formatting and typing appended after the narrative, set off as a note | after the chapter's end
+- unplaced:

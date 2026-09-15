@@ -1,0 +1,15 @@
+- techniques:
+  - Epigraph | italicized poem excerpt with author/title attribution set off before the prose begins | chapter opening, before the library scene starts
+  - Interrupted epistolary drafts | repeated 'Dear Princess Celestia' salutations each cut short and followed by italicized self-critique | opening section before the narrated scene begins
+  - Italicized interior monologue | unquoted italic passages rendering a character's unspoken thought | opening letter-drafting section and the closing paragraph
+  - Free indirect discourse | narration that slides into a character's evaluative reasoning without 'she thought' framing or quotation marks | Rarity's weighing whether to stay/leave and her assessment of Twilight's lying, and Twilight's reflections woven into narration throughout
+  - Physical-tell motif | recurring notice of mane-curling, jitteriness, bags under eyes as legible signs of inner state | tracked intermittently from Rarity's entrance through the confrontation scene
+  - Comic stage-direction interruption | slapstick action description (drawer popping open, papers flying) breaking into dialogue | early scene when Twilight tries to hide her drafts
+  - Callback references to past events | in-dialogue allusions to earlier incidents cited as evidence or comparison | scattered through the Rarity-Twilight conversation (mane-curling incident, Best Young Fliers, Spike's crush, brother's wedding)
+  - Object-as-evidence device | a physical prop (the color-coded schedule book) walked through page by page as the mechanism of realization | middle section where Rarity is shown the schedules
+  - Emphatic italics within dialogue | single words set in italics to mark spoken stress or correction | scattered through the dialogue, especially Rarity's clarifications about love vs. crush
+  - Trailing/interrupted dialogue | dashes and ellipses marking cut-off, hesitant, or overlapping speech | throughout the back-and-forth dialogue, especially Twilight's spiraling lines
+  - Rhetorical self-questioning | a character voicing a string of questions to herself within spoken dialogue | Twilight's distressed outbursts mid-scene
+  - Bookend/frame structure | opening and closing passages both center on the schedule and the orange time-block | very start and very end of the chapter
+  - Comic hyperbole | exaggerated descriptions of mundane obsessiveness or personality quirks used for humor | scattered through scene (scheduling binders, fainting couch remark)
+- unplaced:

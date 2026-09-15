@@ -1,0 +1,16 @@
+- techniques:
+  - Epigraph | italicized poem excerpt with attribution set before the narrative begins | opening, before the scene starts
+  - Unmarked opening interior monologue | italicized self-address ('Okay, here we go... Don't choke, Twilight') with no dialogue tag | very start of the chapter
+  - Free indirect discourse | narration folding into a character's private opinions and diction without quotation marks, e.g. musing on Applejack's looks or Twilight's mental checklist | throughout the restaurant and hill scenes
+  - Recurring italicized thought-interjections | short italic clauses breaking into normal narration to flag a private thought ('Almost there', 'she knew') | scattered through restaurant and hilltop scenes
+  - Section-break scene division | horizontal rule dividers marking jumps in time/place (ordering food, dessert, walk to hill, proposal aftermath) | across the whole chapter
+  - Embedded secondary-character viewpoint | a discrete block narrated from Lyra's perspective and memory rather than Twilight's | middle section at the restaurant, between ordering and dessert
+  - Regional dialect rendering | apostrophe-dropped consonants and colloquial contractions in one character's dialogue only ('gonna', 'ain't', 'nothin'') contrasted with the other's fuller diction | all of Applejack's dialogue throughout
+  - Physical-tell subtext | narrated small gestures (holding a glass oddly, a lying face, scratching an ear) explicitly read by another character as revealing hidden feeling | several points during dinner and on the hill
+  - Planted-object payoff | early mention of a hidden pocket/necklace recalled and produced again later | setup at the very start, payoff near the end after the proposal
+  - Misdirective dialogue structure | a speech built through hedging, false starts, and a doubt-laden preamble that initially reads as one kind of announcement before resolving as another | Applejack's extended hilltop speech leading into the proposal
+  - Escalating repetition | a single word repeated and lengthened across several short sentences/exclamation points to mark rising intensity | Twilight's 'Yes' response after the proposal
+  - Bathos/comic undercutting | a lighthearted, mundane remark placed immediately after an emotionally heightened moment to close a scene or the chapter | the ice-cream suggestion after the engagement, and the final line about the dresses
+  - Dialogue interruption marks | em dashes and trailing ellipses within a character's own speech to show self-correction or faltering mid-sentence | Applejack's proposal buildup and Twilight's flustered responses
+  - Parenthetical stage-direction dialogue tags | short bracketed or em-dash-set action clauses inserted mid-quote to attach a gesture to a line of speech | scattered through dialogue exchanges, e.g. 'Applejack looked down at her hooves, which were empty'
+- unplaced:

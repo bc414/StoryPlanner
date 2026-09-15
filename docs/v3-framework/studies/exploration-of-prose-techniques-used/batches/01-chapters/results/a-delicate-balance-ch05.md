@@ -1,0 +1,19 @@
+- techniques:
+  - Epigraph | italicized pep-talk in second person addressing "Twilight" as "you" | opening lines of the chapter, before the poem and scene begin
+  - Verse epigraph with attribution | bolded quoted stanza followed by bolded author/poem name | between the opening address and the start of the Applejack scene
+  - Bookend interior monologue | italicized unquoted thought passages | at the very start and again in the final paragraph of the chapter
+  - Free indirect discourse | narration voiced through a character's hedged guesses ("maybe," "if she had to guess," "probably") without quotation marks | continuously within each character's point-of-view section (Applejack, Fluttershy, Rarity segments)
+  - Scene sectioning by horizontal rule | "---" dividers | between each change of location or point-of-view character throughout the chapter
+  - Dialect marking through elision | dropped g's and contractions ("thinkin'", "goin'", "ain't") | in all of Applejack's spoken dialogue
+  - Comic hyperbole and exaggerated simile | absurd numeric or physical comparisons ("twenty-seven hours a day," "eyes the size of dinner plates," "like a string of firecrackers") | scattered through narration, concentrated in the library and bee scenes
+  - Escalating action sequence in short clipped sentences | stepwise description of mounting physical strain | the passage of Applejack carrying the giant book to the shelf
+  - Dramatic irony through withheld motive | gap between Twilight's stated excuses and other characters' bafflement at her behavior | Applejack's, Fluttershy's, and Rarity's scenes with Twilight
+  - Recap exposition delivered as dialogue | one character summarizing offstage events to another in spoken lines | Applejack's report to Rainbow Dash after the library scene and to Fluttershy after the outburst
+  - Interrupted or trailing dialogue | dashes cutting a character's sentence short | recurring throughout conversational scenes
+  - Silent confidant device | one-sided address to a non-responding pet | Fluttershy's opening monologue to Angel
+  - In-world title-dropping | italicized book/series names cited as objects or references | mentions of the dictionary tome, the Nightmare Moon novel, and the Perdita Drake series
+  - Planted forward reference | mention of a numbered future plan or upcoming date without elaboration | Twilight's "plan B through N" remark and Rarity's closing mention of Hearts and Hooves Day
+  - Comic mishearing/wordplay | near-homophone misunderstanding in spoken exchange | Pinkie's "Brewing?" response to Rarity's "Brooding"
+  - Figurative rendering of emotional state | physical or natural-world metaphor standing in for feeling ("wilted like a flower," "seething mass") | Twilight's reaction after Applejack's outburst and Fluttershy's frustration by the tree
+  - Parenthetical narratorial aside | dash-set-off editorial comment inserted mid-narration | Rainbow Dash's flight-school aside and Applejack's musing on the dragon villain book
+- unplaced:

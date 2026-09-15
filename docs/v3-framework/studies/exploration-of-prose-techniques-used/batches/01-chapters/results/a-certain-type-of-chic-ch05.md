@@ -1,0 +1,17 @@
+- techniques:
+  - Free indirect discourse | thought rendered without quotation marks or tags, e.g. clipped fragments like 'Go to the park. With her friends.' | occurs through Twilight's internal moments: at the library door, watching Rarity in the park, and after the argument
+  - Reification of the mind as an independent actor | the thinking mind referred to as 'it' with its own 'favourite destination' | opening section describing Twilight's study routine
+  - Anaphoric listing of unmet desires | repeated 'She had wanted Rarity to...' clauses stacked in sequence | Twilight's reflection after collapsing on the grass following the argument
+  - Phonetic dialect rendering | apostrophe-marked contractions and regionalisms ('ain't', 'y'all', 'reckon', 'whacha') | Applejack's dialogue throughout the park and walk-home scenes
+  - Stammering/self-interrupting speech pattern | filler words and mid-sentence corrections ('I, that is to say we, I mean the girls and I') | Fluttershy's dialogue at the library door
+  - Pathetic fallacy / environmental mirroring | description of the park's ambient sound abruptly ceasing | immediately following Twilight's accusatory outburst at Rarity
+  - Somatic markers standing in for stated emotion | physical description substituting for named feeling ('Her heart fell', 'Twilight froze', legs giving out and collapsing) | on first sighting Rarity in the park, and again just after Rarity flees
+  - Trailing ellipsis marking suppressed or interrupted thought | sentences cut off with '...' | Twilight watching the Applejack/Rarity dog dispute, and elsewhere in her internal monologue
+  - Enumerative catalogue of simultaneous background action | a single sweeping sentence listing multiple ponies and pets and their actions at once | the moment Twilight steps out and sees the whole group at the library door
+  - Scene-break marker | row of asterisks between sections | dividing the walk-to-the-park passage from the park scene
+  - Summary compression of elapsed time | narrated routine standing in for several days at once ('So it had been for five whole days') | opening section of the chapter
+  - Ironic undercutting of a stated emotion | a declared feeling immediately reversed in the following sentence | right after Twilight's sense of triumph as Rarity runs off
+  - Verbal echo of a character's phrase in the narration | Applejack's spoken words repeated as a standalone narrative line shortly after | just after Applejack's 'heap troubled' dialogue line
+  - Touch as an unmarked scene-transition device | a hoof placed on shoulder or flank introducing a new speaker or topic without narrative transition | Applejack comforting Twilight on the ground, and Rainbow stopping her outside the library
+  - Static sensory imagery as an establishing shot | detailed description of dust motes and light with no plot action | very opening of the chapter
+- unplaced:

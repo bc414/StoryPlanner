@@ -1,0 +1,18 @@
+- techniques:
+  - Free indirect discourse | narration slides into a character's evaluative phrasing without quotation marks or attribution | recurring throughout, especially in reflective passages about Canterlot's nobles and about Rarity's excitement
+  - Italicized interior monologue | thoughts set off by italics as direct first-person-style statements | appears near the start (train platform, luggage), on the train (about Rarity's love of luxury), and in the extended reverie at the café dinner
+  - Isolated rhetorical self-questioning | short one-line paragraphs posing a question with no answer given | clustered in the café/dinner scene as Twilight grows agitated
+  - Ironic authorial understatement | a short blunt sentence following a build-up, breaking the flow | once, right after the description of Rarity gazing into shop windows
+  - Scene-break markers | a row of asterisks separating sections | used four times to divide the chapter into travel, shopping day, evening, and morning
+  - Detailed cataloguing description | long enumerations of visual/material detail about a setting or object | at the station's approach, the hotel lobby, the green cape, and the final dress-up scene
+  - Manner-marked dialogue tags | speech verbs and adverbs describing tone or emotion attached to quotations | throughout all dialogue exchanges
+  - Hyperbolic comic exaggeration | an implausible claim stated as fact for comic effect | during the fashion-district shop-window scene
+  - Somatic stand-ins for named emotion | physical reactions (heart, eyes, blushing) given instead of naming the feeling | recurring from the station scene onward, intensifying through the dinner and following morning
+  - Parallel-structured self-comparison | mirrored sentence construction contrasting two characters' public images | within the italicized café reverie
+  - Foreshadowing via a secondary character's parallel reaction | one character's unremarked behavior toward Rarity set up early, echoed later by the protagonist's own reactions | Spike's reaction at the station platform, echoed later in Twilight's own responses
+  - Trailing/interrupted dialogue | ellipses breaking off a character's spoken sentence | in Twilight's reaction to the hotel lobby and in Rarity's speech about the business opportunity
+  - Idiomatic figurative phrasing | stock metaphors applied to the narration | scattered through descriptive commentary (shopping trip, Twilight's view of Canterlot)
+  - Time-compression summary narration | a stretch of activity condensed into a brief summarizing sentence rather than scened out | at the transition from train journey to arrival, and again summarizing the afternoon of shopping
+  - Paratextual author's note | a separate block of commentary outside the narrative voice | appended after the story's end
+  - External allusion requiring outside reference | a named impression of another character used as a comparison | in the café dinner scene
+- unplaced:

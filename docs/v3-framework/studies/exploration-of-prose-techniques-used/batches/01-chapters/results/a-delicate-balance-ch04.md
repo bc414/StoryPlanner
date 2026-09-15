@@ -1,0 +1,20 @@
+- techniques:
+  - First-person italicized frame narration | opening diary-style passage in italics with 'I' voice, distinct from the third-person body | at the very start of the chapter, before the epigraph and main narrative begin
+  - Verse epigraph with attribution | quoted stanza followed by title and author line | between the italicized opening and the start of the Fluttershy scene
+  - Scene breaks marking POV shifts | horizontal rule dividers separating episodes | throughout, separating the Fluttershy/box scene, the Twilight/Fluttershy scene, the Rarity/Pinkie street scene, the Fluttershy-alone scene, and the Applejack scene
+  - Close third-person narration with internal access | narration reports a character's private embarrassment, calculation, or relief without dialogue tags | in Twilight's scenes explaining her plan and in Applejack's scene assessing Rainbow Dash's evasions
+  - Italicized direct interior monologue | a block of a character's unspoken first/second-person-toned thought set off in italics within third-person prose | in Fluttershy's rumination on the sofa and in Applejack's opening thought before she heads to the library
+  - Embedded document quotation | quoted book titles, a quoted note pinned to a door, and quoted dialogue-like text presented as an artifact | in the box-opening scene with the stallion-advice book titles and in the library-door note Applejack reads
+  - Nonverbal character communication through described gesture | narration renders a mute animal's meaning via pantomime and expression rather than speech | in the scenes with Angel the rabbit at Fluttershy's cottage
+  - Comic run-on rambling dialogue | a single character's unbroken, tangent-filled speech turn interrupted mid-thought | in Pinkie Pie's dialogue during the walk with Rarity
+  - Repeated guess-and-correction dialogue pattern | a sequence of wrong-guess/correction exchanges building toward a reveal | in the Twilight-Fluttershy scene where Fluttershy guesses who Twilight likes
+  - Dramatic irony via withheld information | other characters' evasive or deflecting dialogue lines contrasted with one character's persistent questioning | in Applejack's scene with Spike and Rainbow Dash outside the library
+  - Topic-deflection comic device | a character's dialogue veers to an unrelated enthusiasm whenever pressed on the real subject | in Rainbow Dash's exchanges with Applejack about the slingshot and Daring Do
+  - Regional dialect rendering | dropped g's and contracted phrasing in a character's dialogue spelling | throughout Applejack's spoken lines
+  - Sentence fragments for comic timing | short standalone fragments breaking normal sentence flow | in the box-opening description of the books and in brief reaction lines throughout
+  - Dash and ellipsis interruption marking hesitant or cut-off speech | dialogue lines trailing off with a dash or ellipsis | scattered through the Twilight-Fluttershy conversation and the Rarity-Pinkie conversation
+  - Physical tic motif signaling anxiety | recurring described gestures like lip-biting, forehead-rubbing, or crossed eyes tied to one character's nervousness | recurring across Twilight's two appearances
+  - Mixed dialect/register footnote-like aside | narrator briefly stepping in to gloss or undercut a character's remark right after it's spoken | in Rarity's corrections of Pinkie's claims during their walk
+- unplaced:
+  - A shift where the narrator momentarily addresses the described object's oddity in a rhetorical question without a clear speaker | in the box-opening passage describing the collection of books
+  - An unexplained present-tense-feeling aside embedded in past-tense narration during a character's private calculation | in Twilight's opening scene worrying about her timeline

@@ -1,0 +1,17 @@
+- techniques:
+  - Epigraph | bolded/italicized verse block with attributed author and title set off before the narrative begins | opening of the chapter, before the first scene
+  - Interior monologue set in italics | first-person unspoken thought marked by italic type, often trailing into an em dash | Twilight's opening scene, Fluttershy's cart scene, closing line of Fluttershy's section
+  - Emphasis italics in speech and narration | single words or short phrases italicized to mark stress | scattered through nearly every dialogue-heavy scene (Lyra/Twilight, Pinkie/Fluttershy, Rainbow Dash/Fluttershy, farm reconciliation)
+  - Free indirect discourse | anxious rhetorical questions and self-address folded into third-person narration without italics or quotation marks | Applejack's dish-washing scene, Fluttershy's cart-pulling scene
+  - Embedded document | full reproduction of a letter with salutation, indentation/block quote marking, and signature | Twilight's morning scene at the library
+  - Dialect spelling | apostrophes and dropped consonants rendering a character's speech (thinkin', doin', reckon) | all of Applejack's dialogue throughout the chapter
+  - Section breaks separating parallel threads | horizontal rule dividers switching setting and point-of-view character | throughout, cycling among Twilight, Applejack, Fluttershy, Lyra, Spike, Rainbow Dash, Rarity
+  - Silent physical pantomime as dialogue substitute | described gestures (pocketwatch, tapping foot, pointed stomach) standing in for a non-speaking character's lines | Angel's appearances in the Fluttershy scenes
+  - Escalating comic dialogue exchange | rapid-fire guessing questions building to a punchline | Pinkie's interrogation of Fluttershy on the bridge
+  - Rhetorical-question cascades | strings of short unanswered questions rendered as thought or near-thought to convey rumination | Twilight's opening passage, Applejack's opening passage
+  - Dash- and ellipsis-marked interrupted speech or thought | trailing off mid-sentence or being cut off by another speaker, marked with em dash or ellipsis | Twilight's opening italicized thought, Twilight's apology speech to Applejack, several dialogue exchanges
+  - Physical action beats between dialogue lines | short bodily gestures reported without commentary to punctuate an exchange | reconciliation scene at the farm, Lyra/Twilight conversation, Rarity/Opal scene
+  - Reader-only continuity aside | a narrated detail a character withholds or reacts to privately that references matters outside the current conversation | Applejack noticing the Smarty Pants doll on Big Macintosh's shelf and deciding not to mention it
+  - Recurring word motif | a distinctive word introduced by one character and echoed by others later | "droopy"/"languid" passed between Pinkie, Fluttershy, and Rainbow Dash
+  - Paratextual author's note | direct authorial commentary appended after the story's end, outside the fiction | notes following the final scene
+- unplaced:

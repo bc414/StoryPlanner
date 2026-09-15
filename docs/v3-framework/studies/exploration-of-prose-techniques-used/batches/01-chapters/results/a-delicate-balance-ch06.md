@@ -1,0 +1,18 @@
+- techniques:
+  - Epigraph | attributed poem set off by rule dividers before the narrative proper | very start of the chapter, before the first scene begins
+  - Italicized frame statement | a free-standing italicized sentence of resolve, not tagged to a speaker | the very first line of the chapter, ahead of the epigraph and the opening scene
+  - Italicized interior monologue / self-address | italics marking a character's own thoughts breaking into the narration, sometimes addressed to herself by name | recurs through Twilight's scenes, most densely in the opening square scene and while walking home after the chocolate shop
+  - Hypothetical/fantasy digression | an imagined exchange narrated as if occurring, then undercut by a return to the real scene | in the opening paragraphs before the concert crowd disperses
+  - Personified mental-division conceit | Twilight's competing impulses labeled and treated as separate arguing entities | during the walk back from the chocolate shop
+  - Horizontal-rule scene breaks | a repeated typographic divider marking jumps in place and time | separates the square, the chocolate shop, the library, and the farmhouse scenes
+  - Dialect spelling for character voice | dropped g's, contractions, and regional word choice rendered phonetically in dialogue | throughout Applejack's and Apple Bloom's speech in every scene they appear
+  - Bathos via interrupting arrival | a tense or earnest exchange cut off by the sudden entrance of another character with mundane business | Apple Bloom's chore list in the square, Granny Smith's shout at the end of the farmhouse scene
+  - Somatic notation for emotion | trembling limbs, dry throat, twitching eye, or flushed face standing in for a named feeling | recurs across the square, chocolate-shop, Battlecloud, and confession scenes
+  - Italic emphasis within speech/narration | single italicized words marking vocal or conceptual stress inside a sentence | scattered through dialogue in the chocolate shop and the confession scene
+  - Rhetorical question cascade | successive short unanswered questions rendered one after another | Twilight's opening internal deliberation and again while anticipating Applejack's answer
+  - Parallel/mirrored subplot | a secondary couple's own small scene with its own arc, echoing the protagonist's situation | the Lyra and Bon Bon portion of the chocolate-shop scene, including its coda after Twilight departs
+  - Recurring verbal motif callback | a repeated stock phrase describing a physical tic reused verbatim in separate scenes | appears once in the town-square scene and again in the Battlecloud scene
+  - Setting-as-mood mirror | description of the farmhouse and sunset phrased to echo the character's apprehension | at the approach to Sweet Apple Acres before the confession
+  - Trailing/cut-off dialogue punctuation | dashes and ellipses marking speech or narration broken off mid-thought | recurs throughout dialogue in every scene, most heavily in the confession scene
+  - Comic escalation list | a character's single speaking turn piling up items or exaggerations without a break | Apple Bloom's list of farm mishaps in the square scene, Pinkie's chocolate-probability speech
+- unplaced:

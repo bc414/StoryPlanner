@@ -1,0 +1,14 @@
+- techniques:
+  - Repetitive stammering opener | string of repeated 'no' fragments standing in for a full sentence | very first lines of the chapter
+  - Italicized embedded footage | switch to italics for lines spoken on the recovered wedding tape, non-italic for the present-day room | the video-watching scene occupying the middle of the chapter
+  - Phonetic/eye-dialect rendering | words respelled to show a garbled, mouth-obstructed voice | the moment Twilight's ring is caught in Applejack's teeth, early in the chapter
+  - Slapstick reduced to sound effects | 'thump'/'thud' notations standing in for described action | each time Rainbow Dash or Pinkie fall over laughing, recurring through the middle scenes
+  - Deadpan narratorial aside | a flat explanatory clause added after an action, undercutting the moment | Granny Smith's silent withdrawal; the aside about lungs needing air for laughter
+  - Scene-break cutaway | a horizontal '---' divider jumping to another location without transition | cut to the Sweet Apple Acres/Big Mac scene, and again to the Carousel Boutique/Rarity scene
+  - Interruption via trailing ellipsis/dash | a speaker's sentence left unfinished, cut off by action or another character | Twilight's half-finished lines about teleportation and about 'at least we didn't...'
+  - Deferred-thread payoff | a loose question raised in dialogue partway through, left unanswered until the very end | Rarity's whereabouts asked about mid-chapter, resolved in the closing lines
+  - Chapter-ending cliffhanger | the text stops on an unresolved outcry with no narrator follow-up | the final scream that closes the chapter
+  - Comic enumeration | a rapid list of items delivered without pause, played for humor | Pinkie's listing of party types she intends to throw
+  - Expressive dialogue-tag shorthand | tone conveyed through a single unusual attributive verb/adverb rather than describing behavior | tags like 'chirped,' 'cooed,' 'grinned sinisterly' scattered through the dialogue-heavy scenes
+  - Suppressed/withheld reaction | narration states that no sound or response came, standing in for describing the character's state | Rainbow Dash and Pinkie's silent laughter after the 'ride' line
+- unplaced:

@@ -1,0 +1,14 @@
+- techniques:
+  - Bold-caps unquoted speech for non-vocal dialogue | bold, all-capital text with no quotation marks | in the ring's exchanges with Applejack, opening and closing of the fence-mending scene
+  - Horizontal-rule scene breaks | the '---' divider | between each of the five character threads (Applejack/Dash, Pinkie, Twilight/Spike, Rarity/Blueblood, Big Mac/Pinkie)
+  - Unattributed rapid-fire dialogue relying on alternation | consecutive quoted lines with no 'she said' tags | Applejack-Rainbow Dash argument, and the Pinkie-Big Mac exchange
+  - Italicized single words marking vocal emphasis or outburst | isolated italicized word inside a sentence | Rainbow Dash's 'What?' and Big Mac's 'Ah!'
+  - Ellipsis-marked trailing or hesitant speech | strings of periods ending or breaking a line of dialogue | throughout, heaviest in Applejack's and Blueblood's lines
+  - Standalone one-line narrative beat marking a pause | short sentence set off as its own paragraph, e.g. 'There was silence' | after Applejack's confession and again after Rainbow Dash's questioning
+  - Phonetic dialect spelling marking regional accent | contracted/respelled words like 'ta', 'mah', 'th'', ''cause' | all dialogue spoken by Applejack and Big Mac
+  - Free indirect narration blending narrator and character viewpoint | narration voiced with a character's idiom/opinion but no 'she thought' tag | opening of the Pinkie newspaper passage; Blueblood's recollection about Twilight's family
+  - Reported/summarized dialogue compressing a scene | narration stating that a conversation occurred rather than quoting it | the opening paragraph on the Apples' reaction; the note that Rainbow Dash 'reported hearing nothing'
+  - Physical action beats interspersed with or replacing dialogue | short clauses of gesture/movement set beside or instead of a spoken line | throughout, e.g. folding forelegs, kissing a cheek, ducking behind a barrel
+  - Restated/fragmentary line marking emotional escalation | a short declarative sentence repeated with an added clause | Applejack's 'I'm in love' followed immediately by 'I'm in love with Twilight'
+  - Parenthetical narrator aside adding incidental detail | text set off in parentheses within a narration sentence | the note about Apple Bloom's laughter in the opening paragraph
+- unplaced:

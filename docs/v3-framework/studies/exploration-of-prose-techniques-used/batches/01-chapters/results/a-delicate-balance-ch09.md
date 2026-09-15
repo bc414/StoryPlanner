@@ -1,0 +1,17 @@
+- techniques:
+  - Diary-style first-person opening | italicized present-tense reflective 'I' voice distinct from surrounding narration | at the very start of the chapter, before the epigraph
+  - Epigraph | italicized quoted verse with named title and author line | placed between the opening monologue and the start of the narrative proper
+  - Embedded song lyrics | italicized rhymed verse set off from prose, sung by an object | when the surprise party's gramophone plays, mid-chapter
+  - Scene-break dividers | horizontal rule marks | used repeatedly to separate location/perspective shifts across the whole chapter
+  - Free indirect / italicized internal thought | italic clauses without quotation marks inserted into third-person narration | in Twilight's toothbrush scene, Applejack's final bedroom scene, and briefly during the surprise-party dodge
+  - Distinct dialectal speech markers per character | spelling and word-choice patterns (dropped g's and 'y'all', elevated diction, run-on exclamations, hedging qualifiers, casual slang) | throughout all dialogue exchanges among the six friends
+  - Slapstick physical-comedy narration | described sudden pratfalls and exaggerated motion | in the library balcony scene and the surprise-party ambush
+  - Hyperbolic comic list or tangent | absurd escalating enumeration | in the opening dream-imagery list and in Pinkie's stash/pie-compartment digression
+  - Simile and metaphor figuration | explicit comparative phrasing ('as if,' 'came close to simulating,' 'careened past her') | scattered through the narrated passages
+  - Telescope/observer framing device | narration routed through what onlookers can see rather than direct access to the scene | in the early balcony-watching sequence
+  - Mirrored parallel closing scenes | two sequential bedroom passages with matching structural beats (private reassurance, treasured object, closing eyes) | near the end of the chapter, one for Twilight and one for Applejack
+  - Typographic emphasis for vocal intensity | extended letter repetition and full capitalization | at several exclamatory outbursts across the chapter
+  - Mock-analytical deadpan narration | formal reasoning vocabulary applied to a trivial comic realization | during Applejack's dodge of the surprise-party ambush
+  - Rhetorical self-questioning in internal monologue | direct questions posed within a character's private thoughts | in Twilight's fear-of-dreaming passage and Applejack's closing self-doubt passage
+  - Recurring symbolic object motif | repeated narrative attention to a physical item (the hat) alongside other keepsakes | introduced mid-chapter when exchanged, revisited in the trunk scene near the end
+- unplaced:

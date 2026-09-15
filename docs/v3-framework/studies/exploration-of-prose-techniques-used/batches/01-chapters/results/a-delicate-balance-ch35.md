@@ -1,0 +1,17 @@
+- techniques:
+  - Epigraph quotation | attributed verse set off before prose begins | opens the chapter, before the narrative text
+  - Unattributed italicized cold-open monologue | italic block with no speaker tag, anxious repeated self-talk | very start of chapter, before the epigraph's scene resolves
+  - Scene-break dividers | horizontal rule marks | used repeatedly to jump between separate days/locations throughout the chapter
+  - Retrospective pluperfect recap | 'had said'/'had answered' verb forms summarizing prior action | opening of the cafe scene, before dialogue resumes in present scene-time
+  - Free indirect interior narration | unquoted sentences reporting a character's private feeling or hope, no dialogue tag | scattered through the cafe scene and the kitchen scene near the end
+  - Action/gesture beats interleaved with speech | short physical actions (scratching head, biting lip, nibbling pickle) set between lines of dialogue | throughout, heaviest in the cafe scene and the Twilight/Spike scenes
+  - Italicized emphasis within speech | single words set in italics inside quoted dialogue | recurs in nearly every dialogue exchange across the chapter
+  - Extended first-person reminiscence embedded in dialogue | one character's uninterrupted multi-paragraph spoken recollection | Applejack's Manehattan/cutie-mark story in the middle of the cafe scene
+  - Figurative comparison | simile/metaphor phrasing (puzzle piece, switch flipped, splinter, cart) | scattered across the cafe scene, the Mare-of-Honor worrying passages, and the house-hunting scene
+  - Ensemble comic interruption | rapid short interjecting lines from multiple named side characters breaking a speaker's statement | the chocolate-shop announcement scene
+  - Callback cross-reference | dialogue naming a specific earlier event ('the fight about the flowers and dinners') to align current feeling with it | mid-cafe scene
+  - Mid-quote narrator interjection | em-dash-bracketed action clause inserted inside a character's spoken sentence | during Twilight's 'like you don't trust me' line and during Lyra's speech on weddings
+  - Rapid rhetorical-question run | short successive questions with exclamation/question marks representing panicked thought | Twilight's outburst in the kitchen scene near the end
+  - Cross-scene thread continuity | a single named concern ('Mare of Honor') reintroduced and advanced at the start or end of several successive scene-break sections | recurs across the middle scenes of the chapter
+  - Author's end-note paratext | out-of-story note addressed to the reader, separated by a marker, after the narrative ends | very end of chapter, after the final scene
+- unplaced:

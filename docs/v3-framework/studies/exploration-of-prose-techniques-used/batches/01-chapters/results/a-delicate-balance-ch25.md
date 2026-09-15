@@ -1,0 +1,19 @@
+- techniques:
+  - Frame-opening interior monologue | italicized first-person passage | opens the chapter, before the epigraph and first scene
+  - Verse epigraph | bolded quoted lines with author attribution | placed after the opening monologue, before the first scene begins
+  - Section-break scene division | horizontal '---' dividers | used repeatedly to separate locations and threads across the whole chapter
+  - Crosscut alternating storylines | repeated return to the same two threads in successive sections | runs through the middle and later portions of the chapter
+  - Mirrored side conversation | a secondary pair's dialogue echoing the topics/language of the main table scene | occurs in the Sugarcube Corner sections alongside the cafe and hill scenes
+  - Dialogue-carried exposition | question-and-answer exchanges delivering background information | occurs in the opening walk and at the cafe table
+  - Comic feint-and-reveal | stern unbroken interrogation dialogue followed by a sudden laugh/stage direction | occurs at the start of the cafe table scene
+  - Running gag via repeated gesture and phrase | recurring winks and wedding/'invitation' remarks | recurs across the cafe, hill, and library scenes
+  - Double-entendre emphasis via italics | an italicized phrase paired with a wink | occurs at the cafe table scene
+  - Catalog/list aside for comic effect | a rapid asyndetic list of past events | occurs at the cafe table scene
+  - Small gesture as unstated reaction | brief physical-action beats attached to dialogue lines | occurs throughout all dialogue scenes
+  - Narrated interior feeling without italics | third-person clauses reporting a character's private sensation mid-scene | occurs intermittently in the cafe scene and the closing scene
+  - Background activity woven through dialogue | interspersed game terminology alongside conversation | occurs in the Sugarcube Corner sections
+  - Echoed closing exchange | the same phrase repeated by both speakers in succession | occurs at the end of the hill scene
+  - Bookend interior-monologue closing | an italicized reflective line mirroring the opening | occurs at the very end of the chapter
+  - Dramatic-irony slip | a character's flustered self-correcting dialogue after an unintended admission | occurs in the spying scene at Sugarcube Corner
+  - Understated clipped reaction | very short one- or two-word dialogue/narration beats undercutting tension | occurs throughout, notably in the cafe and hill scenes
+- unplaced:

@@ -1,0 +1,17 @@
+- techniques:
+  - Prefatory interior monologue | italicized unquoted first-person thought stream, no dialogue tag | opens the chapter before the poem and first scene
+  - Epigraph | block-quoted verse with author/work attribution set off from prose | placed between the opening monologue and the start of the Twilight/Spike scene
+  - Interlaced multi-thread scenes | horizontal rule breaks jumping between separate simultaneous locations/casts | recurs throughout, alternating library, farmhouse kitchen, dinner table, Rarity's visit, CMC visit, game, aftermath
+  - Dialect orthography | dropped g's, contractions, rural phrasing in speech tags | all Apple family and Granny Smith dialogue throughout
+  - Running verbal-tic catchphrase | single repeated one-word affirmations attributed to one character | Big Macintosh's lines across the dinner, game, and cleanup scenes
+  - Emphasis italics in dialogue | mid-sentence italicized words within quoted speech | scattered through nearly every dialogue exchange
+  - Free indirect narration | third-person narration adopting a character's phrasing and questions without quotation marks | Applejack's seating musings, Spike's guesses about Twilight's delay, the closing sofa passage
+  - Cross-thread dramatic irony | secret (the proposal plan) known to some characters/scenes and withheld from others, tracked across separate scenes | Rarity/Spike scene, Cheerilee's teasing at dinner, final reveal to Big Mac and Granny
+  - Homophone/malapropism comic misunderstanding | a mispronounced or misheard word played straight then corrected | 'vepo' for veto during dinner talk, 'bridle' for bridal in the library scene
+  - Planted-object payoff | an item or note introduced with description then referenced again later as significant | bridal magazines and jewelry-catalogue note found by Rarity, paid off when Twilight returns having gotten approval
+  - Hesitant-speech punctuation | ellipses and dashes breaking up a line of dialogue to mark faltering delivery | Applejack's and Twilight's lines near the end of the dinner and game scenes
+  - Mirrored bracketing monologues | opening and closing passages both consist of a character's private doubt-laden reasoning about the same relationship question | the italicized opening and the unitalicized closing sofa passage
+  - Slapstick stage-direction beats | physical comedy described as brief action clauses attached to dialogue | Apple Bloom's tail-pinning, door-slamming, and head-banging bits through the dinner and setup scenes
+  - Comic hyperbole | exaggerated sensory description of an ordinary object for absurd effect | Granny Smith's smoking pepper bottle in the kitchen-prep scene
+  - Withheld-resolution close | final passage ends on an unresolved internal question rather than an answered one | the last paragraph of the chapter
+- unplaced:

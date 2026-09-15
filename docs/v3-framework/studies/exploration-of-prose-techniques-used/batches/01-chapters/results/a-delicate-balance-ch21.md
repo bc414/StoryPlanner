@@ -1,0 +1,17 @@
+- techniques:
+  - Untagged italicized interior monologue | opens in italics with no speaker named, strung-together rhetorical questions | at the very start, before the epigraph block
+  - External poem epigraph with attribution | bolded verse lines credited to a named poet | between the opening monologue and the first scene
+  - Cross-cutting between vignettes | dashed horizontal-rule dividers separating scenes | recurs throughout, marking every transition between the six scenes
+  - Free indirect discourse | narration slides into a character's own reasoning/word-choice without quotation marks | in Pinkie's musing about hijinks, Fluttershy's reasoning about the overdue book, Rarity's asides about Pinkie's logic
+  - Literalized imagination sequence | italicized dialogue set inside a described mental 'office' with an imagined secretary | in the middle of the Pinkie/Rarity section
+  - Phonetic rendering of impeded speech | a garbled spelled-out word in quotation marks | in the Mrs. Cake/Twilight cookie exchange
+  - Sustained figurative conceit | spark/fire/ember imagery elaborated across several consecutive lines of dialogue | in the Mrs. Cake/Twilight kitchen scene
+  - Comic speech-rhythm characterization | clustered exclamation points, repeated 'Duh!', short rapid-fire lines | Pinkie's dialogue across the Rarity scene and the earlier kitchen scene
+  - Slapstick rendered in clipped action beats | short declarative sentences describing collision/motion | Pinkie in the kitchen and at Rarity's window
+  - Recurring imperative refrain for pacing | the repeated line telling Twilight to eat a cookie | across the Mrs. Cake/Twilight scene
+  - Planted unexplained detail | a glimpsed object deflected with a promise to discuss it later | in the Fluttershy/Twilight doorway exchange
+  - Unglossed closing juxtaposition | two named objects placed together at the very end without commentary | in the final short scene
+  - Paratextual authorial address | a labeled notes section speaking directly to the reader outside the narrative | after the chapter's end
+  - Title-epigraph echo | the chapter's title and the quoted poem's title printed together, sharing wording | in the chapter heading/epigraph block
+  - Regional-dialect spelling for one character | dropped g's and folksy phrasing rendered orthographically | in Applejack's lines during the orchard scene
+- unplaced:

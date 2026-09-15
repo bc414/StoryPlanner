@@ -1,0 +1,19 @@
+- techniques:
+  - Epigraph quotation | verse set off in bold/attributed lines from an external poem | at the very start, before the first scene begins
+  - Italicized interior monologue | present-tense first-person italic passage and short later intrusions in italics | opens the chapter before the epigraph, and recurs briefly during the cart-lowering scene
+  - Mid-word/phrase emphasis italics | single words or short phrases italicized within ordinary dialogue and narration | scattered through nearly every scene of dialogue
+  - Scene-break dividers | a horizontal rule marking a jump in place or point of view with no transitional prose | used repeatedly to separate the library, Rarity's workroom, the farmhouse, the chocolate shop, the street, and the orchard scenes
+  - Free indirect discourse | narration adopting a character's own reasoning and vocabulary without quotation marks | Twilight's study-ratio calculations at the opening, Rarity's solo rant in her workroom, Spike's shrug at the end of the first scene, Rarity's walk back to the boutique, Twilight's safety-lecture reasoning at the zipline
+  - Rapid unattributed dialogue exchange | short back-to-back lines with little or no narration between them | the Twilight-Rarity argument in the library, and the crusaders' bickering while carrying the ladder
+  - Deadpan/dry commentary | flat, literal statements undercutting an absurd or heated moment | Spike's remarks on Twilight's schedule and on the flying pushcart, Twilight's clinical description of the zipline contraption
+  - Comic numeric exaggeration | invented precise figures or hyperbolic quantities offered as if factual | Twilight's cram-ratio calculation at the start, Pinkie's 'bazillion' remark
+  - Simile for emotional intensity | explicit comparison marking a character's anger, shock, or coldness | during the Twilight-Rarity confrontation and Rarity's reaction to Lyra's proposal story
+  - Withheld-object suspense marker | a physical item whose contents are alluded to or glimpsed but not stated on the page | the paper bag in the Applejack street encounter and the ladder-carrying scene
+  - Silent animal reaction as commentary | a pet's wordless gestures interspersed within a character's one-sided speech | Opal's yawning, glaring, and eye-rolling during Rarity's workroom monologue
+  - Dialect spelling for voice differentiation | dropped g's, contractions, and regional phrasing rendered in dialogue | all speech given to Applejack and the Cutie Mark Crusaders throughout the chapter
+  - Structural repetition across parallel scenes | the same topic re-raised with a new interlocutor in successive, separate scenes | Twilight's proposal-advice discussions with Pinkie, then with Lyra and Bon Bon, then Rarity's with Lyra
+  - Represented nonverbal sound | spelled-out interjections or described noises standing in for a character's reaction | Twilight's outburst after Rarity leaves, and the tongue-click/hoof-smack stand-in during the zipline danger explanation
+  - Self-reflective replay of one's own words | a character narratively re-hearing and reassessing dialogue just given | Rarity's turn in her workroom monologue and her later walk back toward the boutique
+  - Physical/slapstick action sequencing | comedic action rendered as quick literal blow-by-blow movement | the book-avalanche and trip at Spike's desk, the ladder collision with Applejack, and the cart drop hoisting the fillies into the air
+  - Running pet-name/gesture gag | exaggerated affectionate terms paired with a stage-wink marking a teasing register | the barn scene between Twilight and Applejack in front of the crusaders
+- unplaced:

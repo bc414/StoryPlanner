@@ -1,0 +1,18 @@
+- techniques:
+  - Epigraph | a quoted poem with author attribution set off from the narrative | placed at the very start of the chapter, before the first scene begins
+  - Unmarked interior monologue | italicized sentence with no quotation marks or dialogue tag | opens the chapter as the very first line
+  - Section breaks | horizontal rule dividing text | used repeatedly throughout to separate scenes and time/location shifts
+  - Dialect orthography | apostrophe-elided word endings and phonetic spelling ('y'know', 'gonna', 'plannin'') | consistent in Applejack's and Apple Bloom's speech across all their scenes
+  - Register contrast for character voice | shifts between formal/elevated diction, anxious precise phrasing, farm dialect, and teen slang | distinguishes Rarity, Twilight, Applejack, and Spike throughout every dialogue scene
+  - Run-on unmarked interior monologue | single long italicized sentence with no internal punctuation | appears near the end, before the Rarity/Spike trunk scene
+  - Italics for spoken emphasis | individual words set in italics within dialogue lines | used pervasively across nearly every conversation in the chapter
+  - Dash-interruption of dialogue | a line broken off by an em dash and resumed or cut short by another speaker or event | occurs in the dinner scene (Spike's crunch) and near the end of the chocolate-shop scene (door bell)
+  - Comic undercutting beat | a food- or mundane-object interjection dropped into an emotionally serious exchange | recurs in the dinner-apology scene and again in the trunk/ring scene
+  - Stage-direction style action tags | short present-action clauses attached to or standing in for dialogue tags describing physical business | used throughout all scenes with dialogue
+  - Ellipsis for hesitant or trailing speech | trailing dots ending a line of dialogue | recurs across most of the dialogue-heavy scenes
+  - Summarized/withheld speech | a private exchange rendered as narrated summary rather than quoted dialogue | occurs in the Fluttershy library scene
+  - Object description without direct naming | a physical item described visually and reacted to before being identified | occurs in the trunk scene with the ruby
+  - Capitalized text for shouted emphasis | words rendered in full capitals within dialogue or exclamation | appears in Twilight's outburst near the end and elsewhere
+  - Unison dialogue attribution | a single line of dialogue attributed jointly to two speakers | occurs at the close of the dinner scene
+  - Paratextual author's note | an off-narrative comment appended after the story text | at the very end of the chapter, after the closing scene
+- unplaced:

@@ -1,0 +1,15 @@
+- techniques:
+  - Epigraph quotation | italicized/bold verse block set off with attribution before the narrative begins | very start of chapter, before the first scene
+  - Prefatory interior-monologue fragment | italicized first-person present-tense thought, unattributed | opening lines, before the epigraph and first scene
+  - Scene-break crosscutting | horizontal rule dividers separating short sections that jump between different characters/locations | used repeatedly throughout the whole chapter
+  - Free indirect discourse | narration adopts a character's phrasing/reasoning without quotation marks or 'she thought' tags | Twilight's job-listing review, Applejack's reflection after Twilight leaves, Apple Bloom's musing outside the clubhouse
+  - Italicized embedded thought | a character's exact thought rendered in italics inside ordinary narration | end of Twilight/Spike scene, Rainbow Dash noticing Scootaloo's mood, Scootaloo's closing puzzlement
+  - Deadpan narratorial aside on physical comedy | dry, matter-of-fact description of an absurd or failed action | Spike turning the budget binder upside-down, Twilight tangling her legs off the bench, the 'indistinct but obviously shocked sound'
+  - Dialogue-driven exposition | background situation delivered through extended back-and-forth conversation rather than narration | Twilight and Spike's budget discussion, Twilight and Lyra's conversation about jobs and relationship history
+  - Delayed-reveal dialogue | a character explicitly postpones telling information until a stated condition or listener arrives | Apple Bloom refusing to tell Scootaloo the secret until Sweetie Belle shows up
+  - Repeated-line echo across sections | the same exclamation recurring near-verbatim in separate scenes to link them | the 'crush on Twilight' line appearing partway through and again at the chapter's end
+  - Serial relay structure | a single piece of information passed from character to character across successive scene breaks | the Fluttershy/Twilight secret moving from Apple Bloom to the Crusaders to Rainbow Dash
+  - Rhetorical question in narration | an unattributed question voicing a character's unspoken puzzlement | Twilight wondering what she'd done to deserve Bon Bon's glare, Applejack's unspoken resolution about Twilight's visits
+  - Interrupted/trailing dialogue | speech cut off with a dash or stammered fragments to mark hesitation | Fluttershy's unfinished sentences, Sweetie Belle's 'escu—, exlu—'
+  - Excuse-covering-reaction comedy | an exaggerated reaction is narrated and then given an implausible in-scene cover story | Rainbow Dash's 'bug flew up my nose' after hearing about Fluttershy's crush
+- unplaced:

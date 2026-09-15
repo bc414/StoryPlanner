@@ -1,0 +1,15 @@
+- techniques:
+  - Epigraph | quoted poem stanza with author/title attribution set off from prose | precedes the start of the chapter's narrative
+  - Italicized unmarked interior monologue | passage set in italics with self-interrupting exclamations and false starts, no quotation marks | opening block before the epigraph/scene proper begins
+  - Rotating-focus section breaks | horizontal rule dividing the chapter, each following segment opening on a different character's situation | recurs between the Sweet Apple Acres, Rarity's cafe, and Pinkie's bakery scenes
+  - Free indirect discourse | character's thoughts folded into third-person narration without quotation marks or 'she thought' framing | present throughout, in Twilight's, Rarity's, and Pinkie's sections alike
+  - Numbered list embedded in narrative prose | two consecutive sentences broken out as '1.' and '2.' inside a flowing scene | during the door-opening/barrel-collision moment early in the Sweet Apple Acres scene
+  - Em-dash interrupted speech/thought | a sentence cut off mid-word or mid-clause by a dash, sometimes finished by another speaker's reaction | recurs across the Rarity–Twilight dialogue and the Pinkie–Twilight dialogue
+  - Word-level italic emphasis | single words or short phrases italicized inside otherwise normal dialogue or narration | scattered through the Sweet Apple Acres, cafe, and bakery scenes
+  - Ellipsis for trailing thought or hesitant speech | sentences left unfinished with '...' | recurs in Twilight's internal reactions and in several dialogue exchanges
+  - Stretched-out spelling for vocalized emphasis | a word repeated with extra letters ('Reeeeeaaaaallllly', 'sooooo') | in Pinkie's dialogue during the bakery scene
+  - Run-on comma-spliced monologue | long sentences strung together with repeated 'and'/'but' connectors and no internal full stops | Pinkie's speeches in the bakery scene
+  - Escalating catastrophizing spiral | a chain of increasingly extreme hypothetical outcomes building on each other before being cut off or resolved | in the opening italic block, in the Rarity/cafe scene, and in the closing library section
+  - Recurring physiological self-analysis motif | narration noting a bodily symptom (heart rate, warmth, wobbling telekinesis) followed by a strained rational explanation for it | throughout the Sweet Apple Acres scene
+  - Anaphoric/parallel listing | a run of short parallel clauses enumerating a series of items or outcomes | in Rarity's opening 'everything fell into place' paragraph and in Twilight's dread-filled closing paragraph about friendship consequences
+- unplaced:

@@ -1,0 +1,17 @@
+- techniques:
+  - Multi-thread scene juxtaposition | marked by horizontal-rule dividers separating otherwise unconnected scenes | between each of the chapter's seven sections
+  - Shifting third-person limited focalization | narration centers alternately on one character's perceptions and judgments at a time | across the Twilight, Angel, Applejack, and Rarity sections
+  - Free indirect discourse | narrator's sentences carry a character's own judgmental diction without quotation marks, e.g. 'sickening mating ritual,' 'It made sense, because...' | Angel's section and the opening of Twilight's research section
+  - Phonetic dialect spelling | apostrophe-dropped, contracted spelling rendering rural speech ('mah,' 'th',' 'ya'll,' 'gonna') | all Apple-family dialogue in the farmhouse scenes
+  - Italicized flashback dialogue insert | a remembered line of prior dialogue set off in italics mid-paragraph | Twilight's research section, recalling the previous night
+  - Italicized emphasis on exclamations | italics applied to short shouted dialogue | the kitchen scene when Pinkie reveals the marriage
+  - Epithet substitution for proper names | recurring descriptive tags used in place of a character's name ('the cowpony,' 'the rainbowed one,' 'the matriarch') | scattered through Angel's section and elsewhere in the narration
+  - Comic escalation via listing | successive short clauses stacking minor events into an accelerating sequence | the tantrum passage in Angel's section
+  - Deflating twist / false alarm | a moment built up as alarming or shocking is undercut a beat later by a mundane explanation | Granny Smith's 'city slammer' story and the teleportation-alarm exchange in the kitchen scene
+  - Ranked catalogue list | items presented as an explicit ordered list | Twilight's list of suspects
+  - Rhetorical accumulation | an asyndetic string of qualities piling up within a character's internal assessment | Twilight's mental review of Applejack's traits
+  - Interrupted or trailing dialogue | speech cut short by ellipsis or by narration noting another speaker cutting in | recurring throughout nearly all dialogue scenes
+  - Tonal contrast between adjacent scenes | a lighter comic register placed directly against a starker register with no transitional framing | the shift from the Big Mac bathing scene into the closing Rarity/Blueblood scene
+  - Scene-closing button line | a short, tonally pointed final line closing a section | end of Angel's section and end of the Rarity section
+  - Exposition delivered through character dialogue rather than narrator summary | events recounted strictly via characters explaining to one another instead of narrated directly | Applejack recounting the marriage to her family
+- unplaced:

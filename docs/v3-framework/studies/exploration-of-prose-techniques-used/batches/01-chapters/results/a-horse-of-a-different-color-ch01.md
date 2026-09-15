@@ -1,0 +1,20 @@
+- techniques:
+  - Parenthetical authorial aside | interrupts narration in parentheses to clarify a pun | in the narration introducing Applejack at the market stall
+  - Italicized internal monologue | thought reported with 'she thought' set in italics | when Twilight first reaches Applejack's stall
+  - Scare-quoted word for insincerity | quotation marks placed around a word to flag it as not literal | during Rarity's tense exchange with Applejack over 'pedantic'/color terms
+  - Anaphoric one-word exchange montage | successive short exclamations given with no connecting narration | at the peak of the color argument and again in its aftermath
+  - Section-break vignettes | a row of hyphens dividing the text into separate scenes | recurring through the escalating-argument middle portion of the chapter
+  - Summary-elision of dialogue | narrator reports a duration or skip instead of reproducing the speech | during Pinkie's rock-farm/Neighmann Hypothesis monologue
+  - Self-aware compression joke | a character's own speech acknowledges jumping ahead in its retelling | during Pinkie's recap of the overheard argument
+  - Cut-off line via scene break | a line of dialogue breaks off mid-word into a dash and the scene changes | end of the crayon-chart confrontation, and again near the closing scene's 'Season On-'
+  - Phonetic stutter spelling | hyphenated broken syllables rendering a character's shaken speech | the bee-covered-pony scene with Fluttershy and Lilac Links
+  - Strikethrough self-correction | a struck-through word replaced inline by another | description of Rainbow Dash's borrowed/stolen easel
+  - Descriptive dialogue-tag verbs | reporting verbs standing in for 'said' to convey tone | used throughout the dialogue-heavy scenes
+  - Malapropism | a character visibly misuses a word for comic effect | Applejack's attempted use of 'pedantic' during the naming dispute
+  - Physical-comedy action beats | brief clauses of slapstick action attached to or replacing dialogue | Rainbow's face-plant chasing Pinkie, the kicked-over easel, the near head-butt
+  - Onomatopoeic exclamation interjections | capitalized sound-words standing alone as reactions | Rarity's squeal and the group's startled cries when Pinkie appears
+  - Escalation-summary montage | a short compressed paragraph narrating an extended conflict rather than dramatizing it | the passage summarizing the hours-long debate before its resolution
+  - Circular/mirrored structure | the closing dispute repeats the shape of the opening dispute with a new subject | the argument over Rarity's coat color at the chapter's end mirroring the opening argument over Twilight's
+  - Ellipsis trailing-off | a sentence or exchange cut short with an ellipsis | Pinkie's '...pink?', the narrator's '...or not.', and the final unfinished line before the author's note
+  - Sequential moral-recap listing | each character given a short turn stating a lesson, prompted by a single question | the scene after the fire where Twilight asks 'And what did we learn?'
+- unplaced:

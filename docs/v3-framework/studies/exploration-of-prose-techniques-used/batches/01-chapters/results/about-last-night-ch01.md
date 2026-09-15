@@ -1,0 +1,15 @@
+- techniques:
+  - Elegant variation / epithet substitution | narration refers to characters by descriptive tags rather than name, e.g. 'the cyan pegasus,' 'the lavender unicorn,' 'the earth pony,' 'the white unicorn' | scattered throughout dialogue-tag narration across the whole chapter
+  - Italicized vocal emphasis | single words or short phrases set in italics mid-sentence, e.g. Cider, unprincely, did not, What, couldn't | recurs throughout dialogue exchanges from the reveal of the cider onward
+  - Italicized interior monologue | a character's unspoken thought rendered directly in italics without a 'she thought' tag | appears once during Twilight's first drink, and briefly again near the chapter's end
+  - Italicized embedded/invented scene | a fully dramatized dialogue exchange set off in italics and presented as a hypothetical or fabricated retelling within a character's speech | occurs during the Twilight–Applejack conversation about the friends indulging her
+  - Italicized flashback scene | a childhood memory rendered as a self-contained italicized vignette, set apart from the surrounding scene | occurs just before the final waking scene
+  - Quoted document insert | official/legal text reproduced in italics as an object read by the characters | occurs at the very end of the chapter
+  - Braided/interleaved scene structure | horizontal rule dividers mark cuts between simultaneous, separately-threaded conversations among different pairs of characters | recurs throughout the middle portion of the chapter as the party progresses
+  - Escalating numbered repetition | a near-identical sentence template repeated with rising numerals to mark passage of time comically | occurs across the recurring Rainbow Dash/Fluttershy drinking-contest interludes
+  - Phonetic dialect spelling | contracted, apostrophe-heavy spelling used to render one character's (and her brother's) speech distinctly from standard-spelled dialogue | present in all of Applejack's and Big Macintosh's lines throughout
+  - Deadpan minimal-word dialogue | extremely short, flat responses placed against much longer surrounding speech for contrast | scattered wherever Big Macintosh speaks
+  - Ellipsis-marked halting speech | trailing ellipses within a character's own dialogue standing in for broken-off or stammered delivery | recurs in several characters' lines, especially Rarity's and Twilight's, and intensifies in the closing exchange
+  - Unmarked time-skip via section break | a scene division that jumps forward across an unnarrated gap, leaving the intervening events to be inferred from context on the far side | occurs at the transition into the final waking scene
+  - Sentence-fragment chapter close | the chapter ends on two isolated one-word/short lines rather than a full sentence | final lines of the chapter
+- unplaced:

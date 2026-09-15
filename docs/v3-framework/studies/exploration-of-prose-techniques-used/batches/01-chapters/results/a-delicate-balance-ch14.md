@@ -1,0 +1,19 @@
+- techniques:
+  - Epigraph quotation | bold italic verse block with named author credit set off before the narrative | at the very start of the chapter, before any prose
+  - Opening frame monologue | unattributed first-person present-tense italicized reflection, no dialogue tag | single paragraph at the chapter's opening, before the epigraph
+  - Intertextual title echo | chapter title repeats a phrase from the poem used as epigraph | chapter heading only
+  - Multi-thread structure via section dividers | horizontal rule breaks separating self-contained vignettes with different pony pairs | recurs roughly a dozen times across the whole chapter
+  - Free indirect discourse | narration adopts a character's rhetorical questions/diction without quotation marks or tags | Applejack's arrival at the library door, Bon Bon's kitchen musing about Lyra, Lyra's entrance into the shop
+  - Inline italicized thought insertions | short italicized clause attributed to a character mid-scene, distinct from the opening frame | Applejack at the cart ('Nah...'), Applejack in the barn ('Gettin' married...'), Lyra sniffing the air about Bon Bon's recipe
+  - Embedded document read aloud | quoted letter text delivered as dialogue, broken up by the addressee's interjections | the Spike/Twilight scene where Spike reads Twilight's letter to Celestia
+  - Elliptical/trailing dialogue for hesitation | sentences cut short with ellipsis marking embarrassment or uncertainty | scattered through nearly every scene, especially Spike's and Applejack's lines
+  - Unglossed animal speech with inferential reply | single hoot-syllables given as dialogue, meaning supplied only through the other character's response | the Spike and Owlowiscious conversation
+  - Comic overtalk/self-correcting monologue | a character's speech runs on, contradicts itself, and is interrupted by dashes and restarts | Rainbow Dash's rambling denial in the Fluttershy/Rarity scene
+  - Itemized rule-listing monologue | ordinal markers ('The first rule...the second rule...') structuring one character's extended speech | Bon Bon's orientation of Twilight in the chocolate shop
+  - Rapid-fire Q&A dialogue rhythm | stacked short question/one-word-answer exchanges with no narration between them | Bon Bon's inspection of Twilight's cleaning work
+  - Narrated suppression of unspoken dialogue | narrator notes a question or reply a character withholds, without giving its content | Bon Bon's kitchen-staff explanation ('the obvious question hung in the air') and Twilight resisting saying 'yes ma'am'
+  - Symbolic spatial framing | a line about a room's felt size mirroring a character's state, echoed at two separated points | opens and closes Spike's library subplot across the chapter
+  - Hyperbolic comic simile/exaggeration | exaggerated comparison attached to a reaction for comic effect | Fluttershy/Rainbow Dash scene, Pinkie's gasp at Sugarcube Corner, Spike's 'sprouted wings' line
+  - Manner-verb dialogue tags | tags such as 'grumbled,' 'chuckled,' 'sniffed,' 'cleared her throat' replacing neutral 'said' to color delivery | used continuously across all dialogue scenes
+  - Deflection/topic-change as withheld backstory | a character trails off or changes subject to avoid finishing an explanation | Lyra's account of the kitchen incident and the 'fourth pony' in the Bon Bon shop scene
+- unplaced:

@@ -1,0 +1,15 @@
+- techniques:
+  - Epigraph | italicized verse quotation with attributed author/title set off before the narrative begins | opening of chapter, before first scene
+  - Framing interior monologue | italicized first-person passage set apart from the third-person narrative | very start of chapter, before the epigraph's scene material begins
+  - Section breaks / juxtaposed scenes | horizontal rule dividers separating short scenes with different pairs of characters | recurring throughout, separating each of the many two-character conversations
+  - Parallel scene structure | repeated pattern of a character being needled about marriage by a different companion in successive scenes | runs across the Spike/Twilight, Apple Bloom/Applejack, Lyra/Twilight, Pinkie/Twilight, Bon Bon/Twilight, Granny/Applejack scenes
+  - Regional dialect spelling | contractions and dropped letters ("gonna," "y'all," "doin'") rendering rural speech | all Applejack, Apple Bloom, and Granny Smith dialogue throughout
+  - Free indirect discourse | narration adopting a character's own phrasing and evaluative tone without quotation marks | Twilight's private musings on the fridge, symmetry, and Applejack's habits; Applejack's reflection while cleaning the kitchen
+  - Bookending italicized thought | a closing italicized internal passage mirroring the opening italicized passage | near the end, in Applejack's kitchen-cleaning scene
+  - Comic hyperbole and escalation | exaggerated claims and rapid-fire listing used for humor | Pinkie Pie's wedding-planning outburst; Spike's reactions to news; Lyra's description of Bon Bon's father
+  - Recurring object/motif callback | the same detail (poker bluff, cookie box, table symmetry) reintroduced at separated points | Daring Do poker reference at start and end; table-symmetry detail reappearing in Twilight's dinner scene
+  - Extended personal anecdote as argument | a character narrating a private past episode at length to make a point | Bon Bon's chocolate-shop backstory told to Twilight
+  - Sensory/atmospheric detail establishing character | description of a setting used to characterize its owner | the cake-scented air fresheners in Pinkie's room; the disaster described in the Apple kitchen
+  - Trailing/interrupted dialogue | dashes and ellipses cutting off a character's spoken line | scattered through hesitant exchanges, e.g. Applejack with Apple Bloom, Twilight with Bon Bon
+  - Author's note paratext | direct authorial address appended outside the story text with an external reference | very end of chapter, after the narrative concludes
+- unplaced:

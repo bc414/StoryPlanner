@@ -1,0 +1,21 @@
+- techniques:
+  - Epistolary framing | italicized letter with salutation, asides in bold-italic, postscripts | opening of the chapter, before the poem
+  - Embedded verse quotation | bolded stanza with author/title credit set off from prose | between the letter and the start of the narrative
+  - Italicized interior thought | short italicized clauses breaking into third-person narration to render a character's exact thought | scattered through Twilight's and Applejack's waking/morning scenes
+  - Section-break scene/POV alternation | horizontal rule (---) dividing the text into blocks that jump between Twilight's and Applejack's locations and later among the wedding party | throughout the whole chapter
+  - Retrospective recap of prior events | past-perfect-tense summary of the previous night's/day's action folded into a present scene | in Twilight's morning-after section and Applejack's morning section
+  - Dialect-marked speech | dropped g's, contractions, and regional phrasing distinguishing one character's dialogue | every scene with Applejack, Apple Bloom, Big Macintosh
+  - Emphasis italics within dialogue | single words or short phrases italicized inside spoken lines to mark stress | pervasive throughout all dialogue-heavy scenes
+  - Simile comparison | explicit 'like a/an ...' construction describing a character's action | Twilight's waking/entangled-in-sheets moment
+  - Free indirect discourse | narration that adopts a character's evaluative voice without quotation marks or tags | Twilight's and Applejack's private-thought passages during waiting scenes
+  - Exposition delivered through rapid dialogue | one character listing off logistics/status of other characters in spoken lines rather than narration | Lyra's rundown of who is doing what before breakfast
+  - Callback reference to earlier story events | characters allude to a past incident (the changeling wedding, 'that conversation in the library') without restating it | Shining Armor/Cadance exchange at Town Hall, and Rarity's closing remark
+  - Time-pressure motif via clock references | repeated mentions of the clock, countdown, or bells marking passage of time | recurs across the morning-preparation scenes and just before the processional
+  - Compressed/summarized narration of an extended event | a passage that glosses over a stretch of action in generalized terms rather than scene-by-scene | the description of the ceremony's middle portion ('the rest of it flew by')
+  - Parallel structuring of mirrored scenes | two consecutive blocks depicting the same type of event (waking, breakfast, dressing) for each of the two brides in turn | the sequence of Twilight's morning scene followed by Applejack's morning scene
+  - Repeated ritual phrasing | identical or near-identical scripted lines delivered twice to different addressees | Celestia's vow question repeated for each bride during the ceremony
+  - Ensemble multi-voice dialogue without heavy narration | fast exchanges among several named characters identified mainly by dialogue tags | the carriage-decorating scene and the farewell scene outside the gate
+  - Catalog/list description of visual detail | narration itemizing objects strewn in a space to convey its state | the description of the messy library floor after the party
+  - Onomatopoeic/phonetic rendering of sound | non-word exclamations spelled out to represent noise | Twilight's waking shout and Spike's groggy mumble
+  - Thematic closing statement | a character's final line generalizing the story's motif in reflective terms | Rarity's remark about 'normal' at the very end
+- unplaced:

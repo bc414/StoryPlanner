@@ -1,0 +1,15 @@
+- techniques:
+  - Free indirect discourse | narration blends into a character's unattributed inner thought without quotation | recurring throughout, especially in the confrontation scene and at the chapter's close
+  - Silence marked by isolated one-line paragraphs | terse fragments like 'Nothing.' and 'More silence.' set apart from surrounding prose | opening doorway confrontation between Twilight and Rarity
+  - Anaphoric repetition for rising emotional pressure | repeated clause openings ('It would be the end of...', 'I've waited and I've waited and I've waited') | Twilight's panic before the door and Rarity's angry outburst
+  - Nonverbal gesture used as emotional index | eyebrow raises, eye-rolling, a tear, a hoof placed on a shoulder, hoof over hoof | throughout the doorstep scene and its resolution
+  - Narratorial generalizing aside within past-tense scene | a shift to describing a type ('a simpering smile of the kind that just oozes disbelief') | during Rarity's tirade at the door
+  - Explicit intertextual echo of another scene's words | narrator flags that a line repeats phrasing from Rarity's earlier letter | midpoint of the reconciliation dialogue
+  - Summary narration replacing dramatized dialogue | a prior conversation over tea is recapped in reported/indirect form rather than quoted | Twilight's flashback in the second section
+  - Section-break time transition | a row of asterisks separating scenes | between the doorstep reconciliation and the 'few weeks later' section
+  - Embedded story-within-story used as a mirroring device | a full synopsis of the novel 'Amethyst Sky' presented as Twilight's reading | opening of the second section
+  - Narratorial contradiction of a character's stated judgment | direct rebuttal of Rarity's word 'perfect' ('It wasn't perfect at all.') | Rarity's arrival at Fluttershy's cottage
+  - Dramatized suspense through a character's deliberate withholding | narration notes Rarity relishing the silence before revealing her news | the fashion-show announcement scene
+  - Battle/conflict metaphor for internal emotional state | phrase describing the apology as a lost battle with one push remaining | end of the doorstep scene
+  - Dialogue delivery cued by manner-adverbs and action beats rather than content alone | tags such as 'said cheerily,' 'asked, feeling awkward,' 'shrieked derisively' | throughout the opening confrontation
+- unplaced:

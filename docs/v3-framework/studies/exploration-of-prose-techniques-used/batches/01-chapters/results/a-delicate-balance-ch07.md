@@ -1,0 +1,18 @@
+- techniques:
+  - Cold-open interior monologue | unattributed italicized first-person fragment, no dialogue tag | very start of chapter, before epigraph
+  - Epigraph quotation | quoted verse with author/title credit set off by dashes | between opening monologue and first scene
+  - Horizontal-rule section breaks | bare rule marks dividing text | used repeatedly to jump between locations and POVs across whole chapter
+  - Free indirect discourse | narration slides into a character's own rhetorical questions/phrasing without quote marks | Twilight's confused-thoughts passage and Applejack's worrying passages, scattered through
+  - Action-beat dialogue tags | physical business (magic snatching props, bonking foreheads, dragging ponies) stands in for or supplements 'said' tags | throughout all dialogue scenes
+  - Comedic hyperbole in reaction description | exaggerated bodily reactions to shock ('eyes nearly exploding,' 'inhaled so sharply she almost fell over') | group scenes at the library and the orchard
+  - Rendered regional dialect | dropped g's, contractions, 'ain't,' clipped answers | all Applejack, Apple Bloom, and Big Macintosh dialogue throughout
+  - Mid-sentence italicized emphasis | single words italicized within dialogue lines to mark vocal stress | scattered through dialogue exchanges across the chapter
+  - Fragmented italicized memory-replay | disjointed italicized quotation of earlier dialogue representing recollection | Applejack's sleepless-night scene
+  - Recurring object/phrase callback | the chocolate box and card, and the written phrase repeated verbatim | reappears in the applejack-at-home scene and the following sleepless-night scene
+  - Bathos anticlimax gag | a built-up dramatic device (musical fanfare) undercut by mundane failure | Pinkie's cupcake-delivery scene
+  - Misdirection-then-punchline dialogue | a line played straight to suggest one meaning before a reveal recasts it as a joke | Rainbow Dash's mock-confession exchange in the orchard
+  - Narratorial parenthetical aside | dry explanatory intrusion breaking the sentence to comment on background detail | tree-numbering references during orchard scenes
+  - Ellipsis-marked halting speech | trailing ellipses within dialogue indicating hesitation or trailing off | dispersed through Applejack, Fluttershy, and Twilight's spoken lines
+  - Catalog-list narration of routine | a sequence of habitual tasks recited in list-like rhythm | Applejack's evening-chores passage
+  - Closing declarative resolve beat | short, firm, unembellished sentences marking a decision at scene's end | final paragraph of the chapter
+- unplaced:

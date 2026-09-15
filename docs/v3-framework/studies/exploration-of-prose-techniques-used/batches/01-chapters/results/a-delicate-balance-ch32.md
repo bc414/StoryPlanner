@@ -1,0 +1,16 @@
+- techniques:
+  - Interior-monologue frame | italicized first-person present-tense reflection, unattached to any scene | opening lines before the epigraph
+  - Epigraph | block-quoted verse with author/title credit set off from prose | between the opening reflection and the start of the narrative
+  - Scene-break dividers | horizontal rule marks | used repeatedly to jump between the party, the desk-writing, the walk to the farm, the CMC clubhouse, Spike's talk, the chocolate shop, and the closing walk
+  - Eye-dialect character voice | dropped g's, contractions like 'gonna,' 'goin',' 'sech' assigned mainly to Applejack, Apple Bloom, Big Macintosh, Granny Smith | throughout all dialogue scenes
+  - Dialogue cut off and completed by another speaker | em-dash trailing line finished or corrected by a second character's line | party retelling scene (tackle-hug correction), Applejack's talk with Apple Bloom, Spike's conversation
+  - Free indirect access to a character's unspoken reasoning | narration slides into a character's private guesses/thoughts without quotation marks | Apple Bloom's suspicion before being told, Spike's thoughts during his nap and lunch, Spike's thoughts before saying he'll be fine
+  - Mishearing-based wordplay joke | a character deliberately mishears a word for comic effect ('dolphins' for 'on purpose') | party scene with Granny Smith
+  - Idiom taken literally for humor | a figure of speech ('third wheel') met with a literal-minded response | Spike's conversation about moving out
+  - Recurring smell/food motif | repeated references to Spike's bizarre cooking and its odor, with goggles/handkerchief imagery | party leftovers scene, Spike's lunch scene, closing walk-home scene
+  - Mirrored closing lines | near-identical sentiment ('best days of my life') echoed between the two leads to close the chapter | final scene
+  - Correspondence rendered as spoken dictation | letter content given through dialogue tags and a single opening line rather than full letter text | desk scene where Twilight writes to her parents and the princesses
+  - Comic escalation by enumeration | a growing list of titles/relations piled up for humorous effect | party scene discussing the princesses and Shining Armor
+  - Tonally loaded description of an ordinary object | a mundane action described with ominous or charged language ('bubbled ominously') | Spike's lunch-making scene
+  - Hesitation marked by trailing ellipses/self-interruption | speech that breaks off mid-thought before being restarted or abandoned | Applejack's talk with Apple Bloom, Spike's explanation about moving out
+- unplaced:

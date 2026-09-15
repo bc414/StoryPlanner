@@ -1,0 +1,17 @@
+- techniques:
+  - Epigraph | quoted poem lines with author name set off before the narrative begins | at the very start of the chapter, before the first scene
+  - Italicized unattributed thought as chapter opener | italics on a short unquoted line before any scene-setting | the very first line of the chapter
+  - Section-break juxtaposition | horizontal rule dividers separating unconnected character threads | used repeatedly to jump between the Celestia/Luna, Spike, Velvet/Night Light, CMC, Cadance/Shining, Hayburger, library, and dinner scenes
+  - Action beats interleaved with dialogue | narrated physical movement (dodging carts, rolling cake, sidestepping barrels) folded into speech tags | the Celestia-and-Luna corridor-chase scene
+  - Section-bound focalization | narration confined to what one character sees, knows, or feels, resetting at each new section | consistently across every scene division in the chapter
+  - Free indirect discourse | narration adopting a character's own phrasing and rhetorical questions without quotation marks | Spike's morning rumination, Night Light reading the letter, Cadance's asides
+  - Italicized internal monologue | italics marking a character's directly rendered private thought mid-scene | recurs in Spike's sections, Cadance's aside about the burned invitation, Night Light's reflection
+  - Embedded document formatting | indented, differently punctuated block reproducing a written note as an object on the page | Twilight's kitchen note to Spike
+  - Recurring object/gag as structural callback | an item or bit introduced early and reintroduced with variation later, paying off at the close | Luna's cheese-wheel plan set up early, resolved in the final scene; Spike's scroll-belching bit recurring across several sections
+  - Enumerated checklist listing | clipped fragment-plus-'check' sentence rhythm standing in for summarized action | Spike's paragraph of library chores
+  - Dialect marking in speech | apostrophized contractions and regional word order distinguishing certain characters' quoted dialogue | Applejack's and Apple Bloom's lines throughout
+  - Simile comparison | explicit 'like' comparisons placed in descriptive sentences | Spike's stomach description, Shining Armor's bouncing, similar scattered lines
+  - Tonal-shift insertion | a brief reflective or sentimental paragraph set against an otherwise comic scene | Night Light's closing reflection on his daughter, Spike's solitude rumination in the empty library
+  - Chapter-closing punchline | a final short exchange that delivers a comic button tied to earlier material | the very last lines of the chapter
+  - Paratextual author's note | direct out-of-story authorial remark set apart from the narrative text | appended after the chapter's end
+- unplaced:

@@ -1,0 +1,19 @@
+- techniques:
+  - Epigraph with attribution | italicized/bolded verse quotation followed by author and poem name in bold, set off before prose begins | opens the chapter, before the first scene
+  - Bracketing interior monologue in italics | unbroken run-on italicized questions with minimal punctuation | opens the chapter (Applejack's dress worry) and echoed in shorter italicized bursts closing several later scenes (restaurant reflections, final walk home)
+  - Phonetic/eye-dialect speech marking | dropped g's, contractions, regionalisms ("goin'", "ain't", "highfalutin'") | throughout all of Applejack's dialogue and thought passages
+  - Section breaks via horizontal rule | '---' dividers | separates the chapter into alternating plot threads throughout
+  - Cross-cut parallel plotting | scene breaks alternate between the date at the restaurant and the library/Fluttershy's home | recurs across the whole chapter
+  - Per-scene shift of close third-person focalization | narration tracks a different character's perception in each block (Applejack, then Spike, then Fluttershy/Spike, then Bon Bon) | at each section break
+  - One-sided animal 'dialogue' requiring inference | Owlowiscious's single-word hoots and Peewee's/Angel's gestures answered only by the human-perceived character's replies | Spike/Owlowiscious scene and Fluttershy/Angel exchange
+  - Repeated punchline phrase as structural callback | the exclamation 'Oh my' used to close one scene and reopen a later one | end of the Cheerilee-at-the-library scene and again during the kiss scene
+  - Cliffhanger scene-ending before resolution | a scene is cut off on a reaction beat and the payoff is withheld until a later section | end of the Spike/Cheerilee scene, resolved several scenes later
+  - In medias res scene opening | a section begins mid-conversation with no establishing tag | opening line of the Applejack/Twilight dessert-adjacent dialogue scene ('So Fluttershy is on the stage...')
+  - Embedded oral backstory within dialogue | a lengthy first-person anecdote delivered as uninterrupted spoken narration inside quotation marks | Applejack's cutie-mark story told to Twilight mid-chapter
+  - Rural/folk simile and metaphor for internal states | comparisons like stepping on a nail, sticking out like a sore hoof | scattered through Applejack's narrated reactions early and mid-chapter
+  - Mid-sentence parenthetical stage direction | dash-set aside interrupting a dialogue tag to insert simultaneous action | Peewee's hiccup-flame moment during Spike and Fluttershy's talk
+  - Typographic emphasis for vocal stress | italicized or bolded single words within dialogue | recurs across nearly every dialogue-heavy scene
+  - Comic hyperbolic personification of service staff | waiter described as materializing/appearing instantly | both restaurant scenes
+  - Malapropism marked by quotation marks around a misremembered term | Applejack's rendering of an unfamiliar phrase in scare quotes | restaurant scene near the dessert order
+  - Paratextual author's note breaking the fictional frame | prose signed off and addressed directly to readers after the story text, set apart from the narrative | end matter following the final scene
+- unplaced:

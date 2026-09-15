@@ -1,0 +1,17 @@
+- techniques:
+  - Epigraph quotation | poem excerpt with attributed author set off before the narrative begins | opening of the chapter, before the first scene
+  - Italicized direct thought | words rendered in italics without quotation marks | opening line, and recurring in Twilight's and Applejack's interior moments through the chapter
+  - Scene-break dividers | horizontal rule marks used to jump location or focal character | between each of the several scenes across the chapter
+  - Dialogue-forward exposition | long unbroken exchanges of speech carrying the plot with minimal narrative comment | throughout, especially the cafe scene and the barn scene
+  - Comic anticlimax / bathos | a buildup of tension resolved by a mundane or trivial detail | cafe ordering mishap, Applejack's 'Wuh?' reaction, ending lines of several scenes
+  - Explicit simile | 'like' comparisons used for emphasis | cafe scene reaction to the word 'engagement'; chicken's squawk compared to a rusty hinge
+  - Recurring object motif | a physical item (catalog, photograph) reappears and is noticed by different characters across scenes | jewelry catalog introduced in the cafe scene and referenced again near the chapter's end; honeymoon photo shown in the shop scene and recalled in Applejack's nighttime scene
+  - Slapstick action sequence | rapid short sentences and exclamation marking physical collision and chaos | the chicken-chase scene in Bon Bon's shop
+  - Running gag / callback | earlier joke or reference reused later for continuity of humor | Bobunk holiday and Trixie's chocolate statue mentioned in more than one scene
+  - Rhetorical question cascade | strings of unanswered questions marking anxious deliberation | Twilight's dialogue in the cafe scene; Applejack's interior monologue in the nighttime scene
+  - Dialect spelling | dropped letters and phonetic contractions in speech | Applejack's dialogue throughout the chapter
+  - Mirrored framing device | identical spoken setup ('Can you keep a secret?') reused to open a confidence | cafe scene with Fluttershy and Twilight; bush scene with Fluttershy and Pinkie
+  - Ironic closing tag line | a short deflating or wry final line ending a scene | end of the cafe scene, end of the shop scene, end of the bush scene
+  - Dramatic irony through flawed reasoning | a character's stated chain of logic that the reader can recognize as unsound, contrasted against a knowledgeable listener's counter-questions | Pinkie's deduction scene in the bush with Fluttershy
+  - Author's paratextual note | commentary appended outside the story text, addressed to the reader in the author's own voice | end of the chapter, after the narrative concludes
+- unplaced:

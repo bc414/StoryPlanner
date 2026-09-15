@@ -1,0 +1,17 @@
+- techniques:
+  - Section-break cross-cutting | dashed '---' dividers splitting the chapter into separate simultaneous threads | recurs throughout, separating the Apple family dinner, the Rarity/Blueblood carriage and restaurant scenes, the Fluttershy/Rainbow Dash scene, Celestia's reading of the letter, and the two bedroom scenes
+  - Shifting third-person limited viewpoint | narration confined to one character's perceptions and knowledge at a time, changing with each break | moves from Applejack, to Rarity, to Fluttershy/Rainbow Dash, to Celestia, to Twilight, to Applejack again
+  - Embedded epistolary document | italicized full-letter text set off from the surrounding prose, with formal salutation and signature | the 'Dear Princess Celestia' section before Celestia's reaction
+  - Free indirect discourse | interior reasoning rendered as flowing narration without quotation marks or dialogue tags | Applejack's musing on Twilight and the future at the dinner table; Twilight's review of suspects before bed
+  - Backstory exposition through dialogue | one character narrates past shared history to another across an extended conversational exchange | Blueblood recounting childhood outings with Twilight during the carriage ride and restaurant dinner
+  - Word-by-word fragmented punctuation | a spoken sentence broken into single-word clauses each closed with a period | Rarity's clipped line to Blueblood at dinner
+  - Elongated all-caps interjection | a scream or exclamation stretched across repeated capital letters | Applejack's cry while flying through Twilight's window
+  - Phonetic rendering of broken speech | dialogue spelled to mimic laughter or gasping interrupting words | the tickling exchange between Rainbow Dash and Fluttershy
+  - Mirrored parallel scene structure | near-identical sequence of events (glowing ring, beam of light, window forced open) narrated in turn for two different characters | Applejack's bedroom scene followed immediately by Twilight's bedroom scene
+  - Comic anticlimax | an earnest or tense passage capped by an incongruously light reaction | Celestia's response after reading the letter and watching the tape
+  - Physical gesture as emotional shorthand | brief bodily action substituted for a stated feeling | scattered through the Rarity/Blueblood dinner exchange (hoof to head, gritted teeth, gaping)
+  - Dialogue-cue re-orientation | a character's name spoken aloud followed by a startled reply, snapping narration out of internal reflection | Applejack's return to the table conversation at Sweet Apple Acres
+  - Compressed summary narration | short statements that pass over elapsed time or offscreen action without scene detail | transitions like the start of the restaurant dinner, the end of the videotape, and Twilight's evening routine before bed
+  - Epithet variation for reference | characters referred to by descriptive phrase rather than name in narration | 'the little filly,' 'the cyan pegasus,' 'the mare' used across several sections
+  - Authorial paratext | a note addressed outside the story's fictional frame following the chapter's end | the Author's Notes block
+- unplaced:

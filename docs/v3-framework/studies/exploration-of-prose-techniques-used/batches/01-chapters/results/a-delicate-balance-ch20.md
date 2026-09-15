@@ -1,0 +1,20 @@
+- techniques:
+  - Epigraph | quoted poem lines with author/title attribution set off by italics and horizontal rules | at the very opening of the chapter, before the first scene begins
+  - Disconnected proleptic teaser line | a single italicized sentence isolated above the epigraph, unattached to the scene that follows | opening of the chapter, before the poem epigraph
+  - One-sided/implied dialogue | a speaker's lines reduced to sound-words ("Hoo", "Hoo hoo") with content inferable only from the other character's replies | Spike-and-Owlowiscious scenes, mainly the library opening
+  - Multi-thread braided scene structure | horizontal rules dividing the chapter into short scenes that jump between different character pairs and locations across a day or two | throughout the whole chapter
+  - Free indirect discourse | narration adopting a character's diction and evaluative tone without quotation marks | Spike's early tired musings, Twilight's anxious interior passages, Applejack's kitchen reflections, scattered through several scenes
+  - Dream-as-real-narration then reveal | a paragraph narrated straightforwardly as ongoing action, only afterward marked as sleep/waking | Apple Bloom's opening farm/cutie-mark paragraph, and briefly Spike's waking-dream mention later
+  - Embedded typeset document | a note's text set off by indentation/blockquote formatting distinct from surrounding prose | Twilight's note to Spike, and Rarity's door notice
+  - Dialect and vernacular spelling | dropped g's, contractions like "ain't"/"gonna"/"cause" marking regional speech | Applejack, Apple Bloom, and Big Macintosh's dialogue throughout
+  - Catchphrase verbal tic as characterization | recurring minimal-word affirmations ("Eeyup") standing in for fuller speech | Big Macintosh's dialogue across multiple scenes
+  - Withheld referent / vague pronoun placeholder | repeated use of "something"/"it" in place of stated content, prompting other characters (and reader) to ask what is meant | Applejack's favor request, Twilight's conversations with Lyra and Applejack
+  - Body-as-feeling description | physical sensations (limbs, temperature, pulse) narrated in place of naming the emotion directly | the barn kiss scene and its aftermath for both Twilight and Applejack
+  - Simile and metaphor for comic or heightened effect | comparisons like eyes propped with toothpicks, books falling like an avalanche, eyes lighting up like lightbulbs, feelings described as a gelatinous substance | scattered across several scenes, especially Spike's library scenes and the barn scene
+  - Comic hyperbole in description | exaggerated scale used for humorous emphasis (impossibly productive morning, towering stack of books, absurd number of baskets) | Apple Bloom's opening dream paragraph and Spike's library-return scene
+  - Exposition delivered through dialogue exchange | backstory and world detail conveyed as characters converse rather than through narration | the picnic conversation about the museum donation and Iron Pony story, and the Poison Joke/Roseluck explanation
+  - Scene-closing button line | a short wry or deflating line placed at the very end of a scene to cap it | end lines such as Big Mac's morning-pony remark, Applejack's post-kiss line, Spike's cold-eggs remark
+  - Elliptical/interrupted speech | dashes and trailing ellipses marking hesitation or unfinished thought within dialogue | recurring in Twilight's and Applejack's conversations about the kiss and the unnamed favor
+  - Recited list embedded in dialogue | a character speaking a verbatim catalogue of prices/items as dialogue rather than narrated summary | Twilight's memorized price list at the chocolate shop
+- unplaced:
+  - Direct authorial aside referencing an earlier chapter, set apart from the narrative text | in the author's note block following the story's end

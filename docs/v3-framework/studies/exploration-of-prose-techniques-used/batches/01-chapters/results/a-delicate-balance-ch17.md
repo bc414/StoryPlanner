@@ -1,0 +1,22 @@
+- techniques:
+  - Epigraph quotation | italicized verse lines with attributed author and poem title set off by dashes | opens the chapter, before the first scene
+  - Proleptic unattributed thought-fragment | italicized first-person interior lines with no speaker tag or context | very start of chapter, only explained by the closing scene
+  - Free indirect discourse | narration slides into a character's own phrasing and rhetorical questions without quotation marks | throughout the Applejack and Twilight internal-monologue passages
+  - Eye dialect / phonetic speech spelling | dropped g's and contractions like 'gettin'', 'buckin'', 'reckon' | all of Applejack's and Apple Bloom's dialogue
+  - Horizontal-rule section breaks | the '---' marker | separates each scene/POV shift across the chapter
+  - Alternating close-third POV by scene | narrator attaches to one pony's perceptions per section, switching at breaks | alternates between Applejack scenes and Twilight scenes
+  - Comic malapropism | garbled invented words like 'epi-pone,' 'epipepifany' | Pinkie's dialogue in the library scene
+  - Body-language notation standing in for stated emotion | phrases like 'ears drooped,' 'bit her lip,' 'hung her head' | recurs across all dialogue scenes
+  - Simile tagged with 'as if' | comparisons such as 'as if it hurt to force the words out' and 'as if she had just been kicked in the face' | during the kitchen argument
+  - Interrupted-speech punctuation | trailing ellipses and em-dash cutoffs in dialogue | dense in the argument scene and in Twilight's and Applejack's hesitant confessions
+  - Escalation via short exclamatory lines and rising exclamation points | clipped sentences and hoof-stomping stage directions | the argument's climax before Apple Bloom's entrance
+  - Comic interruption breaking scene tension | slapstick pratfall (Apple Bloom's stair tumble) inserted mid-argument | ends the kitchen confrontation scene
+  - Parallel confidant scenes | mirrored structure of one character questioning another (Pinkie/Twilight, Fluttershy/Applejack) using a Socratic question-and-answer pattern | the library scene and the orchard scene
+  - Extended analogy/parable | Pinkie's cake-baking anecdote used as a stand-in reframing of the main conflict | mid library scene
+  - Verbal callback echo | the phrase 'waste of time' recurs from Applejack's outburst in Pinkie's later needling of Twilight | argument scene and later library scene
+  - Cataloguing/inventory description | listing of shelf space, jam jars, flowers, vases as itemized detail | opening paragraph and later during Applejack's kitchen complaint
+  - Recurring object motif tracked to a private counterpart | the visible stack of cards versus one particular card kept in a drawer | opening paragraph and the closing bedroom scene
+  - Precise numeric/time detail | exact clock reading given for a sleepless moment | closing scene
+  - Expressive dialogue tags | tags carrying tone/manner like 'said defensively,' 'said flatly,' 'chuckled weakly' | scattered through all dialogue scenes
+  - Authorial paratext | out-of-story author's note appended after the narrative | end of chapter, after the story text
+- unplaced:
