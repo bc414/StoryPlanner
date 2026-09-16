@@ -329,11 +329,60 @@ public class BatchRunnerTests
         Assert.Contains("directions line resolves to no file", Batch.Load(t.DefinitionPath, t.WorkingDir).Error);
     }
 
+    /// <summary>
+    /// d-2026-09-15-4: a launch the API refuses at the subscription limit is not a call. Nothing
+    /// is recorded, the gate is told and holds, and the item is called again by the same
+    /// execution once the gate reopens — the overnight run rides through the wall on its own.
+    /// The 2026-09-15 failure this replaces: 1,665 refused launches recorded as failed calls.
+    /// </summary>
+    [Fact]
+    public async Task A_launch_refused_at_the_limit_is_not_recorded_the_gate_holds_and_the_same_execution_calls_the_item_again()
+    {
+        using var t = new TempBatch();
+        t.WriteItems(3);
+        var refusals = 0;
+        var launcher = new FakeLauncher { Delay = TimeSpan.FromMilliseconds(10), FiveHour = 0.48, RefuseFor = r => r.Item == "item-01" && Interlocked.Increment(ref refusals) == 1 };
+        var gate = new CeilingGate(1);
+        gate.OnObserve = reading => { if (reading.Rejected) gate.Open = false; };
+        var log = new List<string>();
+        var (runner, error) = BatchRunner.Create(t.DefinitionPath, t.WorkingDir, t.LaunchDir, launcher, gate, log.Add, "test");
+        Assert.Null(error);
+        var run = runner!.RunAsync(CancellationToken.None);
+
+        await Wait.Until(() => !gate.Open, what: "the gate told of the refusal");
+        await Task.Delay(300);
+        Assert.False(runner.Completed);
+        Assert.Equal(1, runner.Refused);
+        Assert.Equal(1, launcher.Launched);                                      // held: nothing more launched
+        Assert.False(File.Exists(Path.Combine(t.BatchDir, "calls.md")));        // the refusal is not a call
+        Assert.Equal(["item-01", "item-02", "item-03"], runner.Pending());
+        Assert.Contains(log, l => l.Contains("refused") && l.Contains("nothing recorded"));
+        Assert.True(gate.Readings.Last().Rejected);
+
+        gate.Open = true;                                                        // the reset passed
+        await run;
+        Assert.Equal(4, launcher.Launched);
+        Assert.Equal(["item-01", "item-01", "item-02", "item-03"], launcher.Order);
+        var calls = CallsFile.Read(Path.Combine(t.BatchDir, "calls.md"));
+        Assert.Equal(3, calls.Entries.Count);
+        Assert.All(calls.Entries, c => { Assert.True(c.Succeeded); Assert.Equal(1, c.Call); });
+        Assert.True(runner.Completed);
+        Assert.Contains(log, l => l.Contains("3 call(s) this execution, 1 launch(es) refused"));
+
+        // Every ordinary call reported the five-hour figure to the gate as well.
+        Assert.Equal(48, gate.Readings.Last().FiveHourPercent);
+        Assert.False(gate.Readings.Last().Rejected);
+        Assert.Equal(4, gate.Readings.Count);
+    }
+
     private sealed class CeilingGate(int ceiling) : ILaunchGate
     {
         public volatile bool Open = true;
+        public Action<RateLimitReading>? OnObserve;
+        public readonly List<RateLimitReading> Readings = [];
         private int _inFlight;
         public int InFlight { get { lock (this) return _inFlight; } }
+        public void Observe(RateLimitReading reading, string batchId, string item) { lock (Readings) Readings.Add(reading); OnObserve?.Invoke(reading); }
         public bool TryAcquire(BatchRunner batch)
         {
             if (!Open) return false;

@@ -30,8 +30,8 @@ public static class RunnerApi
             var u = host.ReadUtilization();
             return Results.Ok(new
             {
-                host.MaxParallel, host.UtilizationCap, host.IdleMinutes, host.InFlight, host.ShuttingDown, host.WorkingDir, host.LaunchDir,
-                utilization = u is null ? null : new { u.Percent, u.ResetsAt, u.ReadAtUtc, u.Stale },
+                host.MaxParallel, host.UtilizationCap, host.IdleMinutes, host.InFlight, host.ShuttingDown, host.WorkingDir, host.LaunchDir, host.HoldUntil,
+                utilization = u is null ? null : new { u.Percent, u.ResetsAt, u.ReadAtUtc, u.Stale, u.Source },
                 batches = host.Batches().Select(Summary),
             });
         });

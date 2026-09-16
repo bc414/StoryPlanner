@@ -66,9 +66,12 @@ public sealed record HostConfig(
 }
 
 /// <summary>
-/// What Claude Code last cached about the subscription's usage: the five-hour window (the
-/// one the cap gates on), the seven-day window, when the cache was fetched, and a lock
-/// reason if the account is locked. All of it is the cache's word, not a live query.
+/// The subscription's usage as the host knows it: the five-hour window (the one the cap
+/// gates on), the seven-day window, when the figure was read, and a lock reason if the
+/// account is locked. Two sources, told apart by <see cref="Source"/>: <c>call</c>, the
+/// harness's own reading in a finished call's stream, fresh with every launch; and
+/// <c>cache</c>, what Claude Code last wrote to <c>~/.claude.json</c>, which only an
+/// interactive session refreshes. The host serves whichever was read last.
 /// </summary>
 public sealed record Utilization(
     int Percent,
@@ -76,9 +79,10 @@ public sealed record Utilization(
     DateTimeOffset ReadAtUtc,
     int? SevenDayPercent = null,
     DateTimeOffset? SevenDayResetsAt = null,
-    string? LockedReason = null)
+    string? LockedReason = null,
+    string Source = "cache")
 {
-    /// <summary>Older than an hour is not to be trusted either way — a session must have run for the cache to refresh.</summary>
+    /// <summary>Older than an hour is not to be trusted either way — a call or a session must have run for the figure to refresh.</summary>
     public bool Stale => DateTimeOffset.UtcNow - ReadAtUtc > TimeSpan.FromHours(1);
     public TimeSpan Age => DateTimeOffset.UtcNow - ReadAtUtc;
     public bool ResetPassed => ResetsAt <= DateTimeOffset.UtcNow;
@@ -134,6 +138,8 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     private readonly Func<Utilization?> _utilization;
     private readonly Timer _scheduler;
     private int _inFlight;
+    private Utilization? _observed;          // the last call's reading of the windows
+    private DateTimeOffset _holdUntil;       // set when a launch was refused at the limit: nothing launches before this
 
     public HostConfig Config { get; }
     /// <summary>Wherever the host was started: the page lists the batches whose definitions it finds beneath it.</summary>
@@ -146,6 +152,8 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
     public int InFlight => _inFlight;
     public DateTimeOffset StartedUtc { get; } = DateTimeOffset.UtcNow;
     public bool ShuttingDown { get; private set; }
+    /// <summary>While a launch refused at the subscription limit holds the gate: the window's reset plus a minute; null when nothing holds.</summary>
+    public DateTimeOffset? HoldUntil { get { lock (_lock) return _holdUntil > DateTimeOffset.UtcNow ? _holdUntil : null; } }
 
     public event Action? Changed;
     public event Action<string, string, int>? StreamAdvanced;
@@ -390,11 +398,40 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
         {
             if (ShuttingDown) return "host shutting down";
             if (_inFlight >= MaxParallel) return $"at the host ceiling ({MaxParallel} in flight)";
+            if (_holdUntil > DateTimeOffset.UtcNow)
+                return $"a launch was refused at the subscription limit — holding until {_holdUntil.ToLocalTime():HH:mm} (the reset plus a minute)";
             var u = ReadUtilization();
             if (u is not null && u.Percent >= UtilizationCap && u.ResetsAt > DateTimeOffset.UtcNow)
                 return $"{(u.Stale ? "stale " : "")}utilization {u.Percent}% ≥ cap {UtilizationCap}% — waiting for the reset at {u.ResetsAt.ToLocalTime():HH:mm}";
         }
         return null;
+    }
+
+    /// <summary>
+    /// A finished call's rate-limit reading (d-2026-09-15-4). The figures become the host's
+    /// utilization, fresher than the cache with every launch. A refusal — the harness turned
+    /// away at the limit before any work — holds every launch until that window's reset plus a
+    /// minute; the refused item was not recorded and its loop calls it again after. The first
+    /// refusal of a hold is logged; the ones behind it in the same ceiling's worth are not.
+    /// </summary>
+    public void Observe(RateLimitReading reading, string batchId, string item)
+    {
+        var now = DateTimeOffset.UtcNow;
+        string? log = null;
+        lock (_lock)
+        {
+            _observed = new Utilization(reading.FiveHourPercent, reading.FiveHourResetsAt, now, reading.SevenDayPercent, reading.SevenDayResetsAt, Source: "call");
+            if (reading.Rejected)
+            {
+                var until = (reading.RejectedResetsAt ?? reading.FiveHourResetsAt).AddMinutes(1);
+                if (until > _holdUntil)
+                {
+                    _holdUntil = until;
+                    log = $"[{batchId}] {item}: launch refused at the {reading.RejectedWindow ?? "subscription"} limit — holding every launch until {until.ToLocalTime():yyyy-MM-dd HH:mm}";
+                }
+            }
+        }
+        if (log is not null) { Log(log); Changed?.Invoke(); }
     }
 
     public void Dispose()
@@ -405,12 +442,21 @@ public sealed class RunnerHost : ILaunchGate, IDisposable
 
     private bool CapExceeded()
     {
+        if (_holdUntil > DateTimeOffset.UtcNow) return true;
         var u = ReadUtilization();
         return u is not null && u.Percent >= UtilizationCap && u.ResetsAt > DateTimeOffset.UtcNow;
     }
 
-    /// <summary>What Claude Code last cached in <c>~/.claude.json</c> — not a live query; the file's mtime says how stale.</summary>
-    public Utilization? ReadUtilization() => _utilization();
+    /// <summary>The figure read last: the last call's own reading, or the cache in <c>~/.claude.json</c> when that is newer or no call has reported yet.</summary>
+    public Utilization? ReadUtilization()
+    {
+        Utilization? observed;
+        lock (_lock) observed = _observed;
+        var cached = _utilization();
+        if (observed is null) return cached;
+        if (cached is null) return observed;
+        return observed.ReadAtUtc >= cached.ReadAtUtc ? observed : cached;
+    }
 
     public static Utilization? ReadCachedUtilization()
     {

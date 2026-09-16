@@ -1,4 +1,4 @@
-@* Leaf: the host's ceilings, the idle limit and everything the usage cache says. On every page, from the layout. Parameters and callbacks only. *@
+@* Leaf: the host's ceilings, the idle limit and the usage figure — the last call's own reading, or the cache. On every page, from the layout. Parameters and callbacks only. *@
 <div class="hostbar">
     <div class="hostrow">
         <span><strong>@InFlight</strong> in flight</span>
@@ -6,10 +6,11 @@
         <label>cap % <input type="number" min="1" max="100" value="@UtilizationCap" @onchange="e => OnUtilizationCap.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : UtilizationCap)" /></label>
         <label>idle min <input type="number" min="1" max="240" value="@IdleMinutes" @onchange="e => OnIdleMinutes.InvokeAsync(int.TryParse(e.Value?.ToString(), out var n) ? n : IdleMinutes)" /></label>
         @if (ShuttingDown) { <span class="hold">shutting down</span> }
+        @if (HoldUntil is { } h) { <span class="hold">refused at the limit — holding until @Local(h)</span> }
     </div>
     @if (Utilization is { } u)
     {
-        <div class="usage @(u.Stale ? "stale" : "")" title="what Claude Code last cached in ~/.claude.json — not a live query; a session must run for it to refresh">
+        <div class="usage @(u.Stale ? "stale" : "")" title="@(u.Source == "call" ? "the harness's own reading in the last call's stream — refreshed with every launch" : "what Claude Code last cached in ~/.claude.json — not a live query; a call or a session must run for it to refresh")">
             <div class="meter" aria-label="five-hour window">
                 <span class="label">5-hour</span>
                 <span class="bar"><span class="fill @(u.Percent >= UtilizationCap ? "over" : "")" style="width:@(Math.Clamp(u.Percent, 0, 100))%"></span><span class="capmark" style="left:@(Math.Clamp(UtilizationCap, 0, 100))%"></span></span>
@@ -26,7 +27,7 @@
                 </div>
             }
             <div class="cachemeta">
-                cached @Local(u.ReadAtUtc) (@Span(u.Age) ago)@(u.Stale ? " — stale: no session has refreshed it in over an hour" : "")
+                @(u.Source == "call" ? "from the last call" : "cached") @Local(u.ReadAtUtc) (@Span(u.Age) ago)@(u.Stale ? " — stale: no call or session has refreshed it in over an hour" : "")
                 @if (u.LockedReason is { } reason) { <span class="err"> — locked: @reason</span> }
             </div>
         </div>
@@ -44,6 +45,7 @@
     [Parameter] public int IdleMinutes { get; set; }
     [Parameter] public Utilization? Utilization { get; set; }
     [Parameter] public bool ShuttingDown { get; set; }
+    [Parameter] public DateTimeOffset? HoldUntil { get; set; }
     [Parameter] public EventCallback<int> OnMaxParallel { get; set; }
     [Parameter] public EventCallback<int> OnUtilizationCap { get; set; }
     [Parameter] public EventCallback<int> OnIdleMinutes { get; set; }

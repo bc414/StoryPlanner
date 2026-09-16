@@ -6667,3 +6667,38 @@ rules names the old id in prose.
 - not taken: a regex on the form, which passes a filter that fails only when re-run;
   DocIntegrity referencing the tool's project, which builds a web server's project to check a
   markdown file; a check that runs the query, which reads results from a checker.
+
+### The host reads the usage figure from every call, and a refused launch is not a call
+
+- id: d-2026-09-15-4
+- date: 2026-09-15
+- raised by: Brian: "How can agent runner more reliably get the utilization of the 5 hour
+  window so that it can stop, instead of the current failure mode where hitting the limit
+  causes all the executions to go to a failed state instead of pending?" The frame, from the
+  streams: the cap gated on the cache in `~/.claude.json`, which only an interactive session
+  refreshes, so an unattended batch ran on a stale figure; each child that met the wall got a
+  `rate_limit_event` with status `rejected`, a synthetic error result, exit 1 and no cost in
+  about ten seconds, was recorded as a failed call, and the loop launched the next item into
+  the same wall — 1,665 such entries in three bursts of six minutes on 2026-09-15. Every call's
+  stream carries the five-hour and seven-day figures in `unifiedWindows` (2,349 of 2,349 on
+  disk), on `allowed` as on `allowed_warning`, at the start of the call. Three sources were put
+  to Brian: the child's own event, the undocumented `GET /api/oauth/usage` with the OAuth token
+  (rate-limited hard enough that Max users report persistent 429s), and the cache. Brian: "The
+  limits of the approach are fine. I set the concurrency such that it won't exceed the gap
+  between the threshold and 100%. No need to use the OAuth endpoint." For the refused launch,
+  three shapes: not a call, nothing recorded, the item relaunched by the same execution after
+  the reset; a call with its own check, held to the next execute-batch; a call with its own
+  check that the one-per-execution guard lets be redone. Brian: "Go with the first."
+- decision: The host's utilization is the last call's own reading whenever that is newer than
+  the cache: every finished call reports its stream's rate-limit reading to the launch gate,
+  the cap gates on it, and the page and `/api/host` say which source the figure came from. A
+  launch the harness refused at the subscription limit before any work is not a call: nothing
+  is written to the calls file, the host holds every launch until that window's reset plus a
+  minute, the page shows the hold, and the item stays pending in the same execution, which
+  calls it again once the hold lifts. Stopping short of the wall is the cap set where Brian
+  wants it; the cap's margin is his ceiling's worth of calls. The invariant "one call per item
+  per execution" stands, since a refused launch is not a call.
+- not taken: the OAuth usage endpoint, which would add a reading while idle at the cost of an
+  undocumented, hard-rate-limited request and token refresh; a `rate-limited` check recorded
+  on the call, which keeps a trace in the calls file but stops the overnight run at the wall,
+  or needs the one-per-execution guard to make an exception.

@@ -188,9 +188,15 @@ about the folder.
 **Ceilings and the idle limit.** `maxParallel` and `utilizationCap` apply across every batch;
 a batch has no ceiling of its own. The cap gates every launch, so two batches cannot jointly
 exceed it; over the cap with children running, the host waits for them; over the cap while
-idle, it waits for the reset and the page says so. The utilization figure is what Claude Code
-last cached in `~/.claude.json` — not a live query — and the page shows how old it is.
-`idleMinutes` is the one limit on a call: a child whose stream has been silent that long is
+idle, it waits for the reset and the page says so. The utilization figure is the harness's own
+reading in the last call's stream (d-2026-09-15-4): every call reports the five-hour and
+seven-day windows in a `rate_limit_event` at its start, the host takes the figure from each
+finished call, and the page says "from the last call" and how old it is. Between calls the
+figure ages, and only upward from use elsewhere; the cache in `~/.claude.json`, which only an
+interactive session refreshes, is the figure when no call has reported since, and the page
+says "cached". Stopping short of the wall is the cap: a launch is gated on the figure as it
+stood when the last call started, not on what the calls in flight will add, so the margin
+between the cap and 100 is the ceiling's worth of calls. `idleMinutes` is the one limit on a call: a child whose stream has been silent that long is
 killed, whole process tree, and its call recorded `idle`. There is no absolute time limit — a
 long read that keeps streaming is long, not stuck. Silence means silence because the call
 asks for partial messages: without them the `thinking_tokens` lines stop when thinking ends
@@ -220,6 +226,16 @@ waits for the next execute-batch; so is an item running or answered. Refused onc
 requested; allowed under pause, which holds the loop and not the hand. The jump goes to the
 log and never to the calls file, like the order of calls.
 
+**A refused launch is not a call** (d-2026-09-15-4). When the subscription limit is reached
+the harness turns a launch away before any work: a `rate_limit_event` with status `rejected`,
+a synthetic error result, exit 1, nothing spent, in seconds. The runner records nothing for
+it — no entry in the calls file, no result — tells the host, and the host holds every launch
+until that window's reset plus a minute; the page's host row shows the hold and a batch's
+hold reason names it. The item stays pending in the same execution and the loop calls it
+again once the hold lifts, so an overnight run rides through the wall on its own: set the
+cap, execute, read the page in the morning. The execution's closing log line counts the
+refused launches apart from its calls. The same is true of the seven-day window.
+
 **Scheduling.** `--at` holds an execution until a time: `--at 04:00` (the next such clock
 time), an ISO date-time, or `--at reset` (the cached five-hour reset plus a minute; refused
 if there is no cache or the reset has passed). A scheduled execution shows on the page as
@@ -230,16 +246,16 @@ overnight recipe:** set the cap, execute with `--at reset`, check the page in th
 The machine must not sleep; that is a Windows power setting, not the runner's.
 
 **The usage bar** sits on every page, from the layout: the five-hour window as a meter with
-the cap marked, the seven-day window, each reset as a clock time and a countdown, when the
-cache was fetched and how old it is, "stale" after an hour, and a lock reason if the
-account is locked. All of it is `~/.claude.json`'s word.
+the cap marked, the seven-day window, each reset as a clock time and a countdown, where the
+figure came from (the last call, or the cache) and how old it is, "stale" after an hour, a
+hold after a refused launch, and a lock reason if the account is locked.
 
 **The same state as JSON** — for a terminal or a Claude Code session; batch ids contain
 slashes, so batch-addressed routes take the id as a catch-all or a query value:
 
 ```
 GET  /api/ping                              is a host up; its working and launch directories
-GET  /api/host                              ceilings, idle limit, in flight, utilization (+ staleness), every batch's summary
+GET  /api/host                              ceilings, idle limit, in flight, holdUntil, utilization (+ source, staleness), every batch's summary
 GET  /api/batches                           every batch's summary
 GET  /api/batches/<id>                      one batch: items with state/calls/exit/check/cost/callable, stages
 GET  /api/stream?batch=<id>&item=<item>&tail=N   the last N events of the item's latest call
@@ -282,7 +298,9 @@ moment — the one live figure the usage bar cannot get.
   batch's state: an item is answered by an entry with exit 0 and check `ok`, and every other
   item is called by the next execution, once. Nothing the runner does relaunches an item by
   itself, which is the guard against the runaway of 2026-08-27 in its one remaining form;
-  the queue jump keeps it, refusing any item this execution has called.
+  the queue jump keeps it, refusing any item this execution has called. A launch the harness
+  refused at the subscription limit is not a call and is not counted: it spent nothing and
+  produced nothing, and the loop calls the item once the host's hold lifts.
 - **A call is killed only for silence.** The idle limit is the host's; no call has an absolute
   time limit.
 - **Every call is recorded**, with the directions hash, the item hash, the prompt hash, model,
@@ -335,8 +353,13 @@ read as a bill.
   result object's `type` key late rather than first. `StreamEvents.ParseResult` reads all
   four and takes the answer from `structured_output`, or from the reply text when it parses
   as a JSON object; anything else reading a stream must too.
-- **The utilization figure is a cache**, and can be stale either way. The cap is a courtesy;
-  the idle limit and one-call-per-execution are the guards.
+- **The cache gated an unattended batch onto the wall** (2026-09-15). The cap read
+  `~/.claude.json`, which no session had refreshed, so the gate stayed open at 100%; each
+  child was refused in ten seconds, recorded as a failed call, and the loop launched the next
+  — 1,665 refused launches in three six-minute bursts, every item shown failed. Now the
+  figure comes from every call's own stream, a refusal holds the host until the reset, and a
+  refused launch is not a call (d-2026-09-15-4). The cap is still a courtesy read at launch
+  time; the idle limit and one-call-per-execution are the guards.
 - **The launch folder gets an empty `~/.claude/projects/<launch>/memory/` directory** on
   first launch. No transcript is written; the directory is inert.
 - **The pilot was a runner feature and is not** (2026-09-15, d-2026-09-15-1). `--item` scoped

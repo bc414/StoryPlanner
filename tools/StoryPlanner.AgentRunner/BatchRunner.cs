@@ -18,6 +18,8 @@ public interface ILaunchGate
     string? HoldReason(BatchRunner batch);
     /// <summary>The idle limit every call runs under, the host's setting.</summary>
     TimeSpan IdleLimit { get; }
+    /// <summary>What a finished call's stream said about the subscription windows: the live figure the cap gates on, and a refusal the gate holds on.</summary>
+    void Observe(RateLimitReading reading, string batchId, string item);
 }
 
 /// <summary>No global constraint and a long idle limit. The CLI's serverless paths and tests use it.</summary>
@@ -28,6 +30,7 @@ public sealed class OpenGate : ILaunchGate
     public void Release(BatchRunner batch) { }
     public string? HoldReason(BatchRunner batch) => null;
     public TimeSpan IdleLimit { get; init; } = TimeSpan.FromMinutes(10);
+    public void Observe(RateLimitReading reading, string batchId, string item) { }
 }
 
 public sealed record RunningCall(string Item, int Call, DateTimeOffset StartUtc, string StreamPath, IChildHandle? Handle);
@@ -41,7 +44,10 @@ public sealed record RunningCall(string Item, int Call, DateTimeOffset StartUtc,
 /// walks the index in its order or, under random order, in one shuffle of it drawn at
 /// construction, and accepts harness commands (pause, resume, stop after in-flight, cancel
 /// an item, the queue jump) while it runs. The calls file is the batch's state and this
-/// class is its only writer.
+/// class is its only writer. A launch the API refused at the subscription limit before any
+/// work (d-2026-09-15-4) is not a call: nothing is recorded, the gate is told and holds
+/// every launch until the window resets, and the item stays pending in this execution, so
+/// the loop calls it again once the hold lifts.
 /// </summary>
 public sealed class BatchRunner
 {
@@ -57,6 +63,7 @@ public sealed class BatchRunner
     private readonly string _harnessVersion;
     private readonly string _launchDir;
     private int _launched;
+    private int _refused;
 
     public Batch Batch { get; }
     public string Id => Batch.Id;
@@ -73,6 +80,8 @@ public sealed class BatchRunner
     public bool Started { get; private set; }
     public int InFlight { get { lock (_lock) return _running.Count; } }
     public int Launched => _launched;
+    /// <summary>Launches the API refused at the subscription limit before any work — turned away, not calls, not recorded.</summary>
+    public int Refused => _refused;
 
     public event Action? Changed;
     public event Action<string, int>? StreamAdvanced;
@@ -248,7 +257,7 @@ public sealed class BatchRunner
         finally
         {
             Completed = true;
-            _log($"[{Id}] {(ct.IsCancellationRequested ? "stopped" : StopRequested ? "stopped after in-flight" : "complete")} — {_launched} call(s) this execution");
+            _log($"[{Id}] {(ct.IsCancellationRequested ? "stopped" : StopRequested ? "stopped after in-flight" : "complete")} — {_launched - _refused} call(s) this execution" + (_refused > 0 ? $", {_refused} launch(es) refused at the limit and not recorded" : ""));
             WriteTallyIfComplete();
             Changed?.Invoke();
         }
@@ -327,9 +336,21 @@ public sealed class BatchRunner
         lock (_lock) cancelled = _cancelled.Contains(item);
         if (cancelled && exitCode != 0) exitCode = -4;
 
-        var summary = File.Exists(streamPath)
-            ? StreamEvents.ParseResult(await File.ReadAllTextAsync(streamPath, ct))
-            : ResultSummary.Empty;
+        var streamText = File.Exists(streamPath) ? await File.ReadAllTextAsync(streamPath, ct) : null;
+        var summary = streamText is null ? ResultSummary.Empty : StreamEvents.ParseResult(streamText);
+
+        // The harness reports the subscription windows on every call; the host reads the live
+        // figure from it. A launch refused at the limit before any work is not a call: the gate
+        // holds until the reset, nothing is recorded, and the loop calls the item again after.
+        var rateLimit = streamText is null ? null : StreamEvents.ReadRateLimit(streamText);
+        if (rateLimit is not null) _gate.Observe(rateLimit, Id, item);
+        if (rateLimit is { Rejected: true } && summary.StructuredOutput is null && !cancelled)
+        {
+            Interlocked.Increment(ref _refused);
+            var until = rateLimit.RejectedResetsAt ?? rateLimit.FiveHourResetsAt;
+            _log($"[{Id}] {item}: launch refused at the {rateLimit.RejectedWindow ?? "subscription"} limit — not a call, nothing recorded; the host holds until {until.ToLocalTime():HH:mm}, then the loop calls it again");
+            return;
+        }
 
         string check;
         if (exitCode == -3) check = "idle";

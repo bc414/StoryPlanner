@@ -13,6 +13,23 @@ public sealed record ResultSummary(double? CostUsd, int? Turns, string? SessionI
 }
 
 /// <summary>
+/// What a call's <c>rate_limit_event</c> lines say about the subscription windows: the
+/// five-hour figure and its reset (the one the cap gates on), the seven-day figure, and
+/// whether the harness was refused — <c>status: rejected</c>, the launch turned away before
+/// any work, with the window that refused it and when that window resets. Every call carries
+/// the figures (2,349 of 2,349 on disk, 2026-09-15), so a live reading arrives with every
+/// launch; the refusal is what the host holds on.
+/// </summary>
+public sealed record RateLimitReading(
+    int FiveHourPercent,
+    DateTimeOffset FiveHourResetsAt,
+    int? SevenDayPercent,
+    DateTimeOffset? SevenDayResetsAt,
+    bool Rejected,
+    string? RejectedWindow,
+    DateTimeOffset? RejectedResetsAt);
+
+/// <summary>
 /// Reads the child's <c>stream-json</c> events into something a person can follow: the
 /// agent's text, each tool call with a short account of its input, each tool result's size,
 /// the init event's tool list, the thinking-token counter, the harness's rate-limit reading,
@@ -303,6 +320,51 @@ public static class StreamEvents
 
     private static bool IsResultEvent(JsonElement el) =>
         el.ValueKind == JsonValueKind.Object && el.TryGetProperty("type", out var t) && t.GetString() == "result";
+
+    /// <summary>
+    /// The rate-limit reading of one call's stream: the figures from the last
+    /// <c>rate_limit_event</c> that carries <c>unifiedWindows.five_hour</c>, and the refusal from
+    /// any event whose status is <c>rejected</c>. Null when no event carries the five-hour
+    /// figure. Never throws; a partial or foreign line is skipped.
+    /// </summary>
+    public static RateLimitReading? ReadRateLimit(string text)
+    {
+        int? five = null; DateTimeOffset fiveResets = default;
+        int? seven = null; DateTimeOffset? sevenResets = null;
+        var rejected = false; string? rejectedWindow = null; DateTimeOffset? rejectedResets = null;
+        foreach (var line in text.Split('\n'))
+        {
+            if (!line.Contains("\"rate_limit_event\"", StringComparison.Ordinal)) continue;
+            try
+            {
+                using var doc = JsonDocument.Parse(line.TrimEnd('\r'));
+                var root = doc.RootElement;
+                if (!root.TryGetProperty("type", out var t) || t.GetString() != "rate_limit_event") continue;
+                if (!root.TryGetProperty("rate_limit_info", out var info) || info.ValueKind != JsonValueKind.Object) continue;
+                if (info.TryGetProperty("unifiedWindows", out var windows) && windows.ValueKind == JsonValueKind.Object)
+                {
+                    if (Percent(windows, "five_hour") is { } f && ResetsAt(windows, "five_hour") is { } fr) { five = f; fiveResets = fr; }
+                    if (Percent(windows, "seven_day") is { } s) { seven = s; sevenResets = ResetsAt(windows, "seven_day"); }
+                }
+                var status = info.TryGetProperty("status", out var st) && st.ValueKind == JsonValueKind.String ? st.GetString() : null;
+                if (status == "rejected")
+                {
+                    rejected = true;
+                    rejectedWindow = info.TryGetProperty("rateLimitType", out var rt) && rt.ValueKind == JsonValueKind.String ? rt.GetString() : null;
+                    rejectedResets = info.TryGetProperty("resetsAt", out var ra) && ra.ValueKind == JsonValueKind.Number ? DateTimeOffset.FromUnixTimeSeconds(ra.GetInt64()) : null;
+                }
+            }
+            catch (JsonException) { /* a partial or foreign line */ }
+        }
+        return five is null ? null : new RateLimitReading(five.Value, fiveResets, seven, sevenResets, rejected, rejectedWindow, rejectedResets);
+    }
+
+    private static DateTimeOffset? ResetsAt(JsonElement windows, string name)
+    {
+        if (!windows.TryGetProperty(name, out var w) || w.ValueKind != JsonValueKind.Object) return null;
+        if (!w.TryGetProperty("resetsAt", out var r) || r.ValueKind != JsonValueKind.Number) return null;
+        return DateTimeOffset.FromUnixTimeSeconds(r.GetInt64());
+    }
 
     private static string SummarizeInput(JsonElement input)
     {

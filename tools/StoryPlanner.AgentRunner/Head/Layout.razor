@@ -8,9 +8,9 @@
         <a href="/">batches</a>
         <a href="/map">process map</a>
     </nav>
-    @* The host bar is on every page: the usage cache, the ceilings and the idle limit are what you look at before and during any batch. *@
+    @* The host bar is on every page: the usage figure, the ceilings and the idle limit are what you look at before and during any batch. *@
     <HostBar InFlight="Host.InFlight" MaxParallel="Host.MaxParallel" UtilizationCap="Host.UtilizationCap" IdleMinutes="Host.IdleMinutes"
-             Utilization="Host.ReadUtilization()" ShuttingDown="Host.ShuttingDown"
+             Utilization="Host.ReadUtilization()" ShuttingDown="Host.ShuttingDown" HoldUntil="Host.HoldUntil"
              OnMaxParallel="n => Host.SetMaxParallel(n)" OnUtilizationCap="n => Host.SetUtilizationCap(n)" OnIdleMinutes="n => Host.SetIdleMinutes(n)" />
     <main>@Body</main>
 </div>

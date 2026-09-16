@@ -30,6 +30,21 @@ public sealed class FakeLauncher : IChildLauncher
     public Func<ChildRequest, int> ExitFor = _ => 0;
     /// <summary>The structured answer the fake result event carries; null for no structured output.</summary>
     public Func<ChildRequest, string?> AnswerFor = _ => """{"class":"a","why":"1"}""";
+    /// <summary>When true for a request, the launch is refused at the five-hour limit the way the harness does it (2026-09-15 streams): a rejected rate_limit_event, a synthetic error result, exit 1, no work.</summary>
+    public Func<ChildRequest, bool> RefuseFor = _ => false;
+    /// <summary>The five-hour figure every fake call reports in its rate_limit_event, as a fraction; the reset is an hour out.</summary>
+    public double FiveHour = 0.12;
+
+    private string RateLimitLine(bool rejected)
+    {
+        var resets = DateTimeOffset.UtcNow.AddHours(1).ToUnixTimeSeconds();
+        var status = rejected ? "rejected" : "allowed";
+        var five = rejected ? 1 : FiveHour;
+        var fiveText = five.ToString(System.Globalization.CultureInfo.InvariantCulture);
+        return "{\"type\":\"rate_limit_event\",\"rate_limit_info\":{\"status\":\"" + status + "\",\"resetsAt\":" + resets
+            + ",\"rateLimitType\":\"five_hour\",\"overageStatus\":\"rejected\",\"isUsingOverage\":false,\"unifiedWindows\":{\"five_hour\":{\"utilization\":" + fiveText
+            + ",\"resetsAt\":" + resets + "},\"seven_day\":{\"utilization\":0.3,\"resetsAt\":" + (resets + 86400) + "}}}}";
+    }
 
     public async Task<int> LaunchAsync(ChildRequest request, Action<IChildHandle> track, Action onStreamAdvanced, CancellationToken ct)
     {
@@ -46,6 +61,15 @@ public sealed class FakeLauncher : IChildLauncher
             await File.WriteAllTextAsync(request.StreamPath,
                 """{"type":"system","subtype":"init","tools":[],"mcp_servers":[],"model":"fake"}""" + "\n", ct);
             onStreamAdvanced();
+
+            if (RefuseFor(request))
+            {
+                await File.AppendAllTextAsync(request.StreamPath, RateLimitLine(rejected: true) + "\n"
+                    + """{"type":"result","subtype":"success","is_error":true,"total_cost_usd":0,"num_turns":1,"session_id":"s","result":"You've hit your session limit"}""" + "\n", ct);
+                onStreamAdvanced();
+                return 1;
+            }
+            await File.AppendAllTextAsync(request.StreamPath, RateLimitLine(rejected: false) + "\n", ct);
 
             var wait = Hold is not null ? Hold.WaitAsync(ct) : Task.Delay(Delay, ct);
             var done = await Task.WhenAny(wait, killed.Task);

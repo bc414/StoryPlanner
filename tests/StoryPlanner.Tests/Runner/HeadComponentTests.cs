@@ -157,6 +157,13 @@ public class HeadComponentTests : BunitContext
 
         var none = Render<HostBar>(p => p.Add(c => c.Utilization, (Utilization?)null));
         Assert.Contains("utilization unknown", none.Markup);
+
+        // A figure read from the last call's stream says so, and a hold after a refused launch shows in the host row.
+        var fromCall = new Utilization(48, now.AddHours(1), now.AddSeconds(-30), Source: "call");
+        var cut3 = Render<HostBar>(p => p.Add(c => c.UtilizationCap, 80).Add(c => c.Utilization, fromCall).Add(c => c.HoldUntil, now.AddMinutes(31)));
+        Assert.Contains("from the last call", cut3.Find(".cachemeta").TextContent);
+        Assert.DoesNotContain("cached", cut3.Find(".cachemeta").TextContent);
+        Assert.Contains("refused at the limit — holding until", cut3.Find(".hostrow .hold").TextContent);
     }
 
     [Fact]

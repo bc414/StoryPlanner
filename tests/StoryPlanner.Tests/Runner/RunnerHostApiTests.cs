@@ -229,6 +229,47 @@ public class RunnerHostApiTests : IAsyncLifetime
         Assert.Equal(1, _launcher.Launched);
     }
 
+    /// <summary>d-2026-09-15-4: the last call's reading outranks an older cache, and a refusal holds every launch until the reset plus a minute.</summary>
+    [Fact]
+    public async Task A_calls_rate_limit_reading_becomes_the_hosts_figure_and_a_refusal_holds_the_gate_until_the_reset()
+    {
+        var now = DateTimeOffset.UtcNow;
+        var cached = new Utilization(20, now.AddHours(2), now.AddHours(-2));
+        using var host = new RunnerHost(new HostConfig(LaunchDir: _t.LaunchDir, MaxParallel: 1, UtilizationCap: 80), _launcher, "test", workingDir: _t.WorkingDir,
+            utilization: () => cached, logPath: Path.Combine(_t.Root, "host-log-3.txt"));
+        Assert.Equal("cache", host.ReadUtilization()!.Source);
+
+        host.Observe(new RateLimitReading(48, now.AddHours(1), 38, now.AddDays(3), Rejected: false, null, null), "b", "item-01");
+        var u = host.ReadUtilization()!;
+        Assert.Equal(48, u.Percent);
+        Assert.Equal("call", u.Source);
+        Assert.Equal(38, u.SevenDayPercent);
+        Assert.Null(host.HoldUntil);
+
+        // A fresher cache wins back.
+        cached = cached with { Percent = 30, ReadAtUtc = DateTimeOffset.UtcNow.AddMinutes(1) };
+        Assert.Equal(30, host.ReadUtilization()!.Percent);
+
+        // A refusal: the figure is 100, the hold is the window's reset plus a minute, and the page says so.
+        var resets = now.AddMinutes(30);
+        host.Observe(new RateLimitReading(100, resets, 38, null, Rejected: true, "five_hour", resets), "b", "item-02");
+        Assert.Equal(resets.AddMinutes(1), host.HoldUntil);
+        _t.WriteItems(1);
+        _launcher.Hold = null;
+        var exec = host.Execute(_t.DefinitionPath);
+        Assert.True(exec.Ok, exec.Message);
+        await Task.Delay(500);
+        Assert.Equal(0, _launcher.Launched);
+        Assert.Contains("refused at the subscription limit — holding until", host.Batch(_t.Id)!.HoldReason);
+        Assert.Contains("holding every launch until", File.ReadAllText(Path.Combine(_t.Root, "host-log-3.txt")));
+
+        // A refusal whose reset has already passed holds nothing.
+        using var host2 = new RunnerHost(new HostConfig(LaunchDir: _t.LaunchDir), _launcher, "test", workingDir: _t.WorkingDir, utilization: () => null, logPath: Path.Combine(_t.Root, "host-log-4.txt"));
+        host2.Observe(new RateLimitReading(100, now.AddMinutes(-5), null, null, Rejected: true, "five_hour", now.AddMinutes(-5)), "b", "item-03");
+        Assert.Null(host2.HoldUntil);
+        Assert.True(host2.TryAcquire(null!));
+    }
+
     [Fact]
     public async Task Host_settings_change_live_and_an_unknown_control_or_batch_is_refused()
     {

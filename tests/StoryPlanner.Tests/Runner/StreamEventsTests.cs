@@ -168,6 +168,37 @@ public class StreamEventsTests
         Assert.Null(none.StructuredOutput);
     }
 
+    // Verbatim from a 2026-09-15 stream (harness 2.1.270) of a launch the five-hour limit refused, and the allowed_warning shape of the call after the reset.
+    const string Rejected270 = """{"type":"rate_limit_event","rate_limit_info":{"status":"rejected","resetsAt":1789456200,"rateLimitType":"five_hour","overageStatus":"rejected","overageDisabledReason":"org_level_disabled","isUsingOverage":false,"unifiedWindows":{"five_hour":{"utilization":1,"resetsAt":1789456200},"seven_day":{"utilization":0.32,"resetsAt":1789999200}}},"uuid":"6901bdae-d05c-40bf-ad31-8b0989caba3e","session_id":"569cd15a-7385-4720-a9ad-19c9e74b842b"}""";
+    const string Warning270 = """{"type":"rate_limit_event","rate_limit_info":{"status":"allowed_warning","resetsAt":1789999200,"rateLimitType":"seven_day","utilization":0.38,"isUsingOverage":false,"unifiedWindows":{"five_hour":{"utilization":0.48,"resetsAt":1789488600},"seven_day":{"utilization":0.38,"resetsAt":1789999200}}},"uuid":"f69a12eb-e2c8-41fb-8264-2e1852b9bb91","session_id":"67053d84-f2cf-4c04-a906-ada8c081ca08"}""";
+
+    /// <summary>d-2026-09-15-4: the harness reports the windows on every call; the host reads the figure from the stream and holds on a refusal.</summary>
+    [Fact]
+    public void The_rate_limit_reading_of_a_stream_carries_the_five_hour_figure_and_whether_the_launch_was_refused()
+    {
+        var refused = StreamEvents.ReadRateLimit(Init258 + "\n" + Rejected270 + "\n" + """{"type":"result","subtype":"success","is_error":true,"result":"You've hit your session limit"}""" + "\n")!;
+        Assert.True(refused.Rejected);
+        Assert.Equal("five_hour", refused.RejectedWindow);
+        Assert.Equal(DateTimeOffset.FromUnixTimeSeconds(1789456200), refused.RejectedResetsAt);
+        Assert.Equal(100, refused.FiveHourPercent);
+        Assert.Equal(DateTimeOffset.FromUnixTimeSeconds(1789456200), refused.FiveHourResetsAt);
+        Assert.Equal(32, refused.SevenDayPercent);
+
+        var allowed = StreamEvents.ReadRateLimit(Init258 + "\n" + Warning270 + "\n" + Thinking258 + "\n")!;
+        Assert.False(allowed.Rejected);
+        Assert.Null(allowed.RejectedWindow);
+        Assert.Equal(48, allowed.FiveHourPercent);
+        Assert.Equal(DateTimeOffset.FromUnixTimeSeconds(1789488600), allowed.FiveHourResetsAt);
+        Assert.Equal(38, allowed.SevenDayPercent);
+        Assert.Equal(DateTimeOffset.FromUnixTimeSeconds(1789999200), allowed.SevenDayResetsAt);
+
+        // The last event with the windows wins; a partial line is skipped; a stream without the figure has no reading.
+        var last = StreamEvents.ReadRateLimit(Warning270 + "\n" + RateLimit258 + "\n" + """{"type":"rate_limit_event","rate_limit_info":{"status":"al""")!;
+        Assert.Equal(49, last.FiveHourPercent);
+        Assert.Null(StreamEvents.ReadRateLimit(Init258 + "\n" + Thinking258 + "\n"));
+        Assert.Null(StreamEvents.ReadRateLimit("not json"));
+    }
+
     [Fact]
     public void A_partial_or_foreign_line_comes_back_raw_and_the_tail_reads_the_last_n()
     {
