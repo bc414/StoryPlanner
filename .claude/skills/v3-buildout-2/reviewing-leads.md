@@ -25,8 +25,11 @@ for Brian.
 Brian reads the leads, and asks for whatever he wants beside them: any individual result, or
 the corpus itself. A result is read to trace what a slice reader wrote, never to check a lead,
 since a result is as unverified as the lead. When Brian disputes a lead, or asks for one to be
-checked, the session follows its `cites` to the results, the item bodies and the corpus at the
-items' locators, reads the corpus where the lead says it was seen, and reports what the source
+checked, the session follows what the lead points back at: its queries, re-run through the
+tool that printed them, by its `run` verb or pasted into its page, to read the table the
+session read, the tool saying when the batch has moved on from the answered count the query
+carries; and its cited items to the results, the item bodies and the corpus at the items'
+locators. It reads the corpus where the lead says it was seen, and reports what the source
 shows. Each check appends a reread line beneath the lead, dated, with what the source showed,
 including whatever part of the lead holds. The lead itself is not edited.
 

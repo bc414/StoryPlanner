@@ -6,7 +6,7 @@ Enables reviewing-leads.
 |---|---|---|---|---|---|---|
 | continue-exploration-batch | session | runner | studies definition results | calls tally | specified | On Brian's approval, once the pilot's results have been read: the paused execution resumed, the hand-off, after which the host calls every item without a result and writes the tally when the last has one; a later execute-batch calls whatever the execution left; a one-item batch is the whole of what the itemizer cuts and needs no pilot |
 | explore-items | agent | | directions items | results | specified | A call reads one item, the whole or one slice, discovery-first under the directions and answers with its leads, what was seen and what it was seen in, as the declared entries; the only writer of results |
-| write-leads | session | | definition directions index results question-list | leads | specified | Consolidates every result into the leads file, so that Brian reads leads rather than every result: each lead what was seen, coarsely where, and the slices it cites, leads about one thing written together, and the questions the leads raise that no question asks |
+| write-leads | session | | definition directions index results question-list | leads | specified | Draws the leads from the batch's results into the leads file, so that Brian reads leads rather than every result: each lead what was seen, coarsely where, and what it was drawn from, the queries put to the results where a tool answers them and the slices it came from, leads about one thing written together, and the questions the leads raise that no question asks |
 
 ## Preconditions
 
@@ -33,12 +33,18 @@ a lead means for any hypothesis.
 
 ## write-leads
 
-The session consolidates every result of the batch into `leads.md` under the study, in its
+The session draws the leads from the batch's results into `leads.md` under the study, in its
 schema's shape, so that Brian reads leads rather than every result. It reads the results
 with the index, and the question in view from the frontmatter of the directions the
-definition names. Each lead says what was seen, as a neutral statement, and coarsely and in
-words what it was seen in, and cites by item token every slice whose result it came from;
-leads the readers repeated across slices become one lead citing them all. Leads about one
+definition names. Where the results are structured and a tool with tests answers queries
+over them, printing each query's one canonical string, the session reads through the tool
+and draws its leads from what the queries show; it consolidates no values first, and the
+tool groups, merges and ranks nothing. Each lead says what was seen, as a neutral
+statement, and coarsely and in words what it was seen in, and points back at what it was
+drawn from: the query strings, as the tool printed them, of the queries it rests on, and the
+item tokens of the slices whose results it came from, both where both apply and always at
+least one; leads the readers repeated across slices become one lead. A study need have no
+query tool; its leads then carry the item tokens alone. Leads about one
 subject, pattern or story are written next to one another, never grouped by hypothesis. Each
 lead's slug is created here, naming what was seen. What the leads raise that no question in
 view or in the question list asks is written under Proposed questions. The procedure is the

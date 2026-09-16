@@ -6590,3 +6590,80 @@ rules names the old id in prose.
   (execute paused) as a new harness knob, which adds a control to reach a state pause reaches
   a moment later; folding `explore-pilot-item` into `explore-items`, a method change Brian did
   not take today.
+
+### A lead carries a query, a cites list, both or neither; a query points at the analytical result of items
+
+- id: d-2026-09-15-2
+- date: 2026-09-15
+- supersedes: d-2026-09-13-33
+- raised by: the first exploration batch large enough that write-leads cannot read every
+  result: 602 answered chapters of exploration-of-technique-mechanism-goal-co-occurrence, 11,070
+  six-part lines, about a million tokens. Brian, on consolidating them into value sets first:
+  "I don't think the leads report needs to consolidate anything. It should just use the tool
+  to draw conclusions." The tool is `tools/StoryPlanner.ResultsQuery`, built the same day under
+  building-a-tool: it reads a batch's own files, splits every `list of line` field whose
+  directions text declares bar-separated parts into columns, and answers one query — filters
+  by regex per column, a scope, a seeded sample, a view — printing the query's one canonical
+  string first. Brian: "In order to make citations, how about the tool emits some sort of
+  query string, and that can be written into the leads report and pasted into the web page to
+  view the data that the agent was reasoning about, that it drew its conclusion from?" The
+  frame: `cites` entered by d-2026-09-13-20 for one consumer, the trace from a lead to its
+  slices, and is derivable from a query by the tool's `cites` view, which rule 9 bars authoring
+  beside its source; against that, `leads.cites` is the one check that resolves a lead to the
+  index without running anything. Three options were put: both lines with the exception
+  recorded, `query` replacing `cites`, or `query` optional beside a required `cites`. Brian:
+  "Query and cites should both be optional. Not every study is going to have a query over
+  structured data. Cites is directly pointing to an item. Query is pointing to the analytical
+  result of an item. Both can be used in conjunction for a lead entry." Then, asked whether a
+  lead needs at least one of the two: "Make that correction", the entry corrected before it
+  was relied on.
+- decision: A lead entry's keyed lines, in order: `lead`, required, a block, what was seen;
+  `seen in`, required, a line, coarsely and in words whatever it was seen in; `query`,
+  optional, a list of line, each line one canonical query string as the results tool prints
+  it, naming the batch, the answered count it was run over, the field, the filters, the scope
+  and the view, so that the review re-runs it and reads the table the session read; `cites`,
+  optional, a list of line, the item tokens `<study>/<batch>/<item>`. Then its reread lines.
+  Either list, when present, holds at least one line; a lead carries at least one of the two,
+  both when both apply, and the two point at different things: a token at an item, a query at
+  the analytical result of items. A lead with neither would be what d-2026-09-13-20 declined,
+  no link and every trace a search, and no lead write-leads produces lacks an item to cite. A query's answered count is the snapshot it was true of; the tool notes a run over
+  a batch that has moved on. § Vocabulary gains query: the canonical string the results tool
+  prints for one question put to a batch's results, a lead's pointer to what it was drawn from.
+  write-leads and reviewing-leads say a lead carries the queries it was drawn from and the
+  items it came from, as each applies, and name no field. The exception to rule 9 stands
+  recorded here as the cost of keeping both: a cites list a checker resolves statically beside
+  a query it would have to run to resolve.
+- not taken: `query` replacing `cites`, which leaves the checker holding a form and no item,
+  and a lead written at one answered count resolving to another set later; `query` optional
+  beside a required `cites`, which requires an item token even of a lead drawn from a query
+  over hundreds of items and rests on cites as the one required link; a query line as prose
+  inside `lead`, findable by grep and held by nothing. Not implied: that a study has a query
+  tool; a study without one writes leads with `cites` alone.
+
+### Query moves to BatchFiles; leads.query holds the form and the batch, leads.cites holds a present list
+
+- id: d-2026-09-15-3
+- date: 2026-09-15
+- supersedes: d-2026-09-13-35
+- raised by: d-2026-09-15-2's `query` line, which a check can hold only by parsing it. The parser,
+  `Query.Parse` and `Print` in `tools/StoryPlanner.ResultsQuery`, depends on strings alone;
+  only `Resolve` needs a loaded batch. DocIntegrity references `StoryPlanner.BatchFiles`, where
+  every other reader of a batch's files lives, and nothing under `tools/` that serves a page.
+  Three options: the parser moved into BatchFiles and the check parsing each line; a regex on
+  the form with no shared parser; DocIntegrity referencing the tool's project. Brian: "Go
+  with A".
+- decision: `Query`, its `Parse`, `Print`, `Tokenize` and `Quote`, moves to
+  `tools/StoryPlanner.BatchFiles` as the batch's query form, beside the readers of the
+  definition, index, calls and results; `Resolve` and the views stay in the tool. The leads
+  checker holds seven declared checks: `leads.title`, `leads.shape`, `leads.entry` as
+  d-2026-09-13-35 states them, the entry's fields now `lead`, `seen in`, `query`, `cites` in
+  that order with the last two optional and at least one of them present; `leads.query`, every line parses as a query and its
+  batch token names a batch under this study, the list not empty when present; `leads.cites`,
+  every token an item in the index of a batch under the study, the list not empty when present;
+  `leads.reread` and `leads.shortcoming` unchanged. The checker never resolves a query against
+  results: it reads governed files and nothing a batch produced. No leads file exists, so the
+  predicted first run is zero failures, a statement about coverage; the first leads file
+  written under this shape is presented to Brian against the schema before a second.
+- not taken: a regex on the form, which passes a filter that fails only when re-run;
+  DocIntegrity referencing the tool's project, which builds a web server's project to check a
+  markdown file; a check that runs the query, which reads results from a checker.

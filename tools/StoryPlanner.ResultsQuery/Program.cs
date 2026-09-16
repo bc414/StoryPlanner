@@ -1,3 +1,4 @@
+using StoryPlanner.BatchFiles;
 using StoryPlanner.ResultsQuery;
 
 // A query engine over an exploration batch's results (2026-09-15, built inside

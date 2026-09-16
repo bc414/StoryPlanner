@@ -333,8 +333,13 @@ the runner and is read in full by any process that invokes it.
   the session with what it names and never changed; each class's schema says where it is
   unique.
 - **lead**: what was seen and what it was seen in, in words; the output of exploration,
-  consolidated from its results and citing the slices it came from; an idea for a question
-  and for what to itemize; never a finding, never names a position inside a slice.
+  drawn from its results and pointing back at them by the queries it rests on, the slices
+  it came from, or both; an idea for a question and for what to itemize; never a finding,
+  never names a position inside a slice.
+- **query**: the canonical string a results tool prints for one question put to a batch's
+  results, naming the batch, the answered count it was run over, the field, the filters,
+  the scope and the view; a lead's pointer to the analytical result of items, re-run at the
+  review; a study need have no tool that answers one.
 - **question**: Brian's testable question, in the question list.
 - **predicate**: the test a directions version freezes for one question and a classifier
   applies to every item; never written in a question entry, whose `suggested test` is a note.
@@ -356,7 +361,8 @@ the runner and is read in full by any process that invokes it.
 - **dispute**: what Brian raises in a review against a finding, a result or a lead, and the session's
   return to the source to report what it shows: a finding, checked against the results, the
   tally and the items it cites; a result, checked at its item's locator; or a lead, checked
-  against the corpus through its cited slices, which takes a reread line. It is never
+  through its queries re-run and its cited slices against the corpus, which takes a reread
+  line. It is never
   evidence and never reaches a hypothesis.
 - **outcome**: what Brian did with a diagnostic candidate: promoted or declined.
 

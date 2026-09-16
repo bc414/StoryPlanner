@@ -265,11 +265,14 @@ public static class Registry
 }
 
 /// <summary>
-/// schemas/leads-schema.md on the engine (d-2026-09-13-19 to -35): an exploration's consolidated
-/// leads. The engine holds the sections and each lead's typed fields, reported under
-/// `leads.shape` and `leads.entry`; the class's own rules are the title with the folder's
-/// exploration, the heading as the citation token with a unique slug, every cited item token in
-/// the index of a batch under the study, the appended reread lines, and the shortcoming parts.
+/// schemas/leads-schema.md on the engine (d-2026-09-13-19 to -35; d-2026-09-15-2 and -3): an
+/// exploration's leads. The engine holds the sections and each lead's typed fields, reported
+/// under `leads.shape` and `leads.entry`; the class's own rules are the title with the folder's
+/// exploration, the heading as the citation token with a unique slug, at least one of `query`
+/// and `cites` on each lead, every query line parsing as the batch's query form and naming a
+/// batch under the study, every cited item token in the index of a batch under the study, the
+/// appended reread lines, and the shortcoming parts. No query is run: the checker reads
+/// governed files and nothing a batch produced.
 /// </summary>
 public static class Leads
 {
@@ -361,6 +364,27 @@ public static class Leads
                 findings.Add(Finding.Fail("leads.entry", file, $"line {line}: '{slug}' is not a lowercase slug"));
             else if (!slugs.Add(slug))
                 findings.Add(Finding.Fail("leads.entry", file, $"line {line}: '{slug}' repeats a slug in this file"));
+
+            if (obj["query"] is null && obj["cites"] is null)
+                findings.Add(Finding.Fail("leads.entry", file, $"line {line}: a lead carries at least one of query and cites"));
+
+            var queries = obj["query"] is JsonArray qa ? qa.Select(x => x?.ToString() ?? "").ToList() : [];
+            var qLine = pos?.FieldLines.GetValueOrDefault("query", line) ?? line;
+            if (obj["query"] is not null && queries.Count == 0)
+                findings.Add(Finding.Fail("leads.query", file, $"line {qLine}: query holds at least one query string"));
+            foreach (var q in queries)
+            {
+                var (parsed, error) = StoryPlanner.BatchFiles.Query.Parse(q);
+                if (parsed is null)
+                { findings.Add(Finding.Fail("leads.query", file, $"line {qLine}: '{(q.Length <= 60 ? q : q[..60] + "…")}' is not a query string: {error}")); continue; }
+                var qSlash = parsed.Batch.IndexOf('/');
+                var qStudy = qSlash < 0 ? "" : parsed.Batch[..qSlash];
+                var qBatch = qSlash < 0 ? parsed.Batch : parsed.Batch[(qSlash + 1)..];
+                if (qStudy != study)
+                    findings.Add(Finding.Fail("leads.query", file, $"line {qLine}: batch '{parsed.Batch}' is outside this study"));
+                else if (!batches.ContainsKey(qBatch))
+                    findings.Add(Finding.Fail("leads.query", file, $"line {qLine}: batch '{parsed.Batch}' is no batch under this study"));
+            }
 
             var cites = obj["cites"] is JsonArray c ? c.Select(x => x?.ToString() ?? "").ToList() : [];
             var cLine = pos?.FieldLines.GetValueOrDefault("cites", line) ?? line;
