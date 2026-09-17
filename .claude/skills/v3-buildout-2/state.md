@@ -14,9 +14,9 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 ### exploration-of-technique-mechanism-goal-co-occurrence
 
 - type: exploration
-- artifacts present: directions (2) definition (2) index (2) items (2) calls (2) results (2) leads
+- artifacts present: directions (2) definition (2) index (2) items (2) calls (2) results (2)
 - batches: 01-chapters [-, directions-1, executing (24/1116)] 02-chapters-directions-2 [-, directions-2, executing (602/1116)]
-- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+- furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
 
 ## Iterations
 
@@ -34,7 +34,7 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 
 ## Questions
 
-14 open, 0 withdrawn.
+19 open, 0 withdrawn.
 
 | question | covered by (calibrated directions) | answered by (verification) |
 |---|---|---|
@@ -52,6 +52,11 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 | goals-no-track-type-names | nothing | nothing |
 | prose-techniques-used | nothing | nothing |
 | technique-mechanism-goal-co-occurrence | nothing | nothing |
+| v1-theme-commentaries-content | nothing | nothing |
+| working-plan-theme-notes-content | nothing | nothing |
+| plot-point-reversals-what-moved-first | nothing | nothing |
+| focalization-mode-and-withheld-fabula | nothing | nothing |
+| v1-scenes-designed-from-non-mane-6-focalizer | nothing | nothing |
 
 ## Hypotheses
 
