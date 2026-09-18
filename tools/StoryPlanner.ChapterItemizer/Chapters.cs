@@ -23,9 +23,48 @@ public static class Chapters
     public const string LocatorNotation =
         "`<slug>#<N>`: the story's file `<slug>.md` in the source folder, and N the ordinal of the chapter's `## Chapter` heading in it";
 
+    /// <summary>The chapter cut's notation for story files of the given extension, <see cref="LocatorNotation"/> for .md.</summary>
+    public static string LocatorNotationFor(string extension) => LocatorNotation.Replace("<slug>.md", $"<slug>{extension}");
+
+    /// <summary>What a locator addresses in the whole-story cut, for story files of the given extension.</summary>
+    public static string StoryLocatorNotationFor(string extension) =>
+        $"`<slug>`: the story's file `<slug>{extension}` in the source folder, whole";
+
     /// <summary>The narrowing line for the index head: the excluded stories by name, or none when the config excludes nothing.</summary>
     public static string? Narrowing(IReadOnlyCollection<string> excluded)
         => excluded.Count == 0 ? null : $"every story file in the source folder except {string.Join(", ", excluded)}, the config's exclude list";
+
+    /// <summary>The narrowing line of the whole-story cut: the excluded stories, and the stories left out for running past the config's word limit, each by name.</summary>
+    public static string? Narrowing(IReadOnlyCollection<string> excluded, IReadOnlyCollection<string> overLimit, int? maxWords)
+    {
+        var parts = new List<string>();
+        if (excluded.Count > 0) parts.Add($"except {string.Join(", ", excluded)}, the config's exclude list");
+        if (overLimit.Count > 0) parts.Add($"except the stories over {maxWords} words, the config's maxWords: {string.Join(", ", overLimit)}");
+        return parts.Count == 0 ? null : "every story file in the source folder " + string.Join("; and ", parts);
+    }
+
+    /// <summary>Whitespace-separated words, the measure the word limit is stated in.</summary>
+    public static int Words(string text) => text.Split((char[]?)null, StringSplitOptions.RemoveEmptyEntries).Length;
+
+    /// <summary>One story whole as one item: the file's text verbatim, the id and locator its slug.</summary>
+    public static Item Whole(Story story)
+    {
+        var text = story.Text.Replace("\r\n", "\n").Replace('\r', '\n').Trim('\n');
+        var chapters = text.Split('\n').Count(l => Heading.IsMatch(l));
+        return new Item(story.Slug, text + "\n", story.Slug, $"{story.Slug}, whole: {chapters} chapters, {Words(text)} words");
+    }
+
+    /// <summary>Every story not excluded, whole, in ordinal order of slug; a story over <paramref name="maxWords"/> is left out and named in <paramref name="overLimit"/>.</summary>
+    public static IReadOnlyList<Item> WholeAll(IEnumerable<Story> stories, IReadOnlySet<string> exclude, int? maxWords, List<string> overLimit)
+    {
+        var items = new List<Item>();
+        foreach (var s in stories.Where(s => !exclude.Contains(s.Slug)).OrderBy(s => s.Slug, StringComparer.Ordinal))
+        {
+            if (maxWords is int max && Words(s.Text) > max) { overLimit.Add(s.Slug); continue; }
+            items.Add(Whole(s));
+        }
+        return items;
+    }
 
     /// <summary>Every story not excluded, in ordinal order of slug, cut into its chapters.</summary>
     public static IReadOnlyList<Item> CutAll(IEnumerable<Story> stories, IReadOnlySet<string> exclude)

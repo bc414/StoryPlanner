@@ -1,0 +1,6 @@
+{
+  "unit": "user-turns",
+  "layers": ["gemini", "aistudio", "conversations"],
+  "lineage": "C:/Users/Brian/Desktop/TLTT Lineage.db",
+  "plan": "C:/Users/Brian/Desktop/TLTT v2.storyplan"
+}

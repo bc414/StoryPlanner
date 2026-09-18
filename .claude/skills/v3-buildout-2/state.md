@@ -34,7 +34,7 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 
 ## Questions
 
-19 open, 0 withdrawn.
+32 open, 0 withdrawn.
 
 | question | covered by (calibrated directions) | answered by (verification) |
 |---|---|---|
@@ -57,6 +57,19 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 | plot-point-reversals-what-moved-first | nothing | nothing |
 | focalization-mode-and-withheld-fabula | nothing | nothing |
 | v1-scenes-designed-from-non-mane-6-focalizer | nothing | nothing |
+| characterization-notes-invariant-or-state | nothing | nothing |
+| v1-scene-notes-content-kinds | nothing | nothing |
+| belief-and-truth-paired-in-v1-notes | nothing | nothing |
+| fabula-carried-in-speech-in-v1-notes | nothing | nothing |
+| v1-pasted-text-by-content-kind | nothing | nothing |
+| v1-seed-and-withholding-directives | nothing | nothing |
+| follow-up-correction-kinds | nothing | nothing |
+| data-strata-named-in-prompts | nothing | nothing |
+| closing-questions-taken-up | nothing | nothing |
+| closing-report-items-in-plan | nothing | nothing |
+| v1-subject-notes-as-scene-sequences | nothing | nothing |
+| plot-point-bodies-left-in-v1 | nothing | nothing |
+| fields-the-first-chapters-consume | nothing | nothing |
 
 ## Hypotheses
 

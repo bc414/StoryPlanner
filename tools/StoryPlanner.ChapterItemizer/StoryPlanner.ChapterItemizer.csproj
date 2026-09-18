@@ -11,7 +11,9 @@
              headings, as tools/StoryPlanner.SourceTexts writes them) into one item per chapter and
              writes a batch's index.md with an itemizer line and the item bodies under items/. An
              authored config names the source folder and the stories excluded, which the index head
-             records as the narrowing. First built for exploration-of-prose-techniques-used. -->
+             records as the narrowing. First built for exploration-of-prose-techniques-used.
+             2026-09-17: a file pattern (own-fiction's files are .txt) and a story unit, one item
+             per story whole, with an optional word limit named in the narrowing. -->
     </PropertyGroup>
 
     <ItemGroup>

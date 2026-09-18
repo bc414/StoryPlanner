@@ -81,6 +81,37 @@ public class ChapterItemizerTests
     }
 
     [Fact]
+    public void The_story_unit_takes_each_file_whole_and_leaves_out_what_runs_past_the_word_limit()
+    {
+        var stories = new[]
+        {
+            new Chapters.Story("short", "# short\n\n## Chapter 1 — A\n\none two three\n\n## Chapter 2 — B\n\nfour\n"),
+            new Chapters.Story("long", "# long\n\n## Chapter 1 — L\n\n" + string.Join(' ', Enumerable.Repeat("word", 50)) + "\n"),
+            new Chapters.Story("skipped", "# skipped\n\n## Chapter 1 — S\n\nx\n"),
+        };
+        var overLimit = new List<string>();
+        var items = Chapters.WholeAll(stories, new HashSet<string>(StringComparer.Ordinal) { "skipped" }, 40, overLimit);
+
+        var only = Assert.Single(items);
+        Assert.Equal("short", only.Id);
+        Assert.Equal("short", only.Locator);
+        Assert.Equal(stories[0].Text.TrimEnd('\n') + "\n", only.Body);
+        Assert.Contains("2 chapters", only.Description);
+        Assert.Equal(["long"], overLimit);
+        Assert.Equal("every story file in the source folder except skipped, the config's exclude list; and except the stories over 40 words, the config's maxWords: long",
+            Chapters.Narrowing(["skipped"], overLimit, 40));
+        Assert.Null(Chapters.Narrowing([], [], null));
+    }
+
+    [Fact]
+    public void The_locator_notation_names_the_files_extension_and_is_unchanged_for_markdown()
+    {
+        Assert.Equal(Chapters.LocatorNotation, Chapters.LocatorNotationFor(".md"));
+        Assert.Contains("`<slug>.txt`", Chapters.LocatorNotationFor(".txt"));
+        Assert.Contains("`<slug>.txt`", Chapters.StoryLocatorNotationFor(".txt"));
+    }
+
+    [Fact]
     public void The_rendered_index_parses_back_clean_with_the_itemizer_head_and_escaped_titles()
     {
         var items = Chapters.Cut(new Chapters.Story("about-last-night", Story));

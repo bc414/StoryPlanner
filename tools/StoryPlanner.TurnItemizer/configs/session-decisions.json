@@ -1,0 +1,5 @@
+{
+  "unit": "session-decisions",
+  "codeSessions": "C:/Users/Brian/Desktop/TLTT CodeSessions.db",
+  "kinds": ["answers", "verdicts", "prompts"]
+}

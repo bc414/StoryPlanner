@@ -1,0 +1,8 @@
+{
+  "plan": "C:/Users/Brian/Desktop/TLTT v2.storyplan",
+  "unit": "note",
+  "select": "tracks",
+  "tracks": ["Characterization"],
+  "context": "owner-tracks",
+  "contextTracks": ["Backstory", "Life Phases"]
+}

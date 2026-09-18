@@ -1,0 +1,5 @@
+{
+  "source": "source_material_references/own_stories_md",
+  "pattern": "*.txt",
+  "exclude": []
+}

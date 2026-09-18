@@ -470,3 +470,121 @@
 - suggested test: One item per plot point; the reader quotes each line that instructs
   planting or withholding, names the fabula it points at, and reads the voice-attribution
   label beside it.
+
+### questions/follow-up-correction-kinds
+
+- date: 2026-09-17
+- raised by: recall, asking how the lineage and conversations corpora differ in how he treats
+  text: "I'm curious if I historically had to redirect in follow up prompts to say to
+  interpret the data in a different way than what the first response that I was responding
+  to assumed. After having the mcp server that could query conversations I may have had to
+  tell the AI in follow ups that it was taking something as ground truth that was only
+  suggestion." A session's regex pass over every user turn in chat found three shapes:
+  "reread my actual story plans" in the Gemini web layer (gemini:1482, gemini:2366), "To
+  clarify," fact corrections as the second most common opener there, and after 2026-07-28
+  corrections naming a stratum ("Some notes you were operating on were old notes", block:1173;
+  "probably outdated and from Gemini era", block:3115; "refer to conversations for missing
+  insights instead of assuming", block:3013), with almost none in the literal form of a
+  suggestion taken as truth. A regex pass is not a sort. Distinct from
+  questions/v1-analysis-loop-pattern and questions/v2-analysis-loop-pattern, which ask the
+  loop at a high level.
+- question: When a user turn corrects the model turn before it, what is being corrected, and
+  how does the mix of correction kinds change across the Gemini web, AI Studio and Claude
+  conversations eras?
+- suggested test: One item per user turn that follows a model turn; the reader records
+  whether it corrects the prior turn and, if so, whether the correction is to a fact of the
+  fabula, to the model's reading of the plan, to which stratum or era the model drew on, to
+  register or format, or to the model's reading of Brian's own prompt.
+
+### questions/data-strata-named-in-prompts
+
+- date: 2026-09-17
+- raised by: recall, in the same deliberation: "What do I tell the AI to interpret my data
+  as, in what different ways?" The session found the instruction written into system
+  instructions in the AI Studio era ("Treat these as physics", gemini:2251; "Compatible
+  Expansion" and "treat the Fabula as a living document", aistudio-system:67) and stated in
+  ordinary prompts in the Claude era as an order of sources: the story plan (block:3176), the
+  conversations holding what has not reached the plan (block:3013, block:3278), the Gemini era
+  as an outdated stratum (block:3285, block:3339), and wikis and training data as not
+  evidence (block:181, block:3221). Whether that order is stable, and when each label first
+  appears, was not measured.
+- question: Which sources does Brian name in prompts when telling the model how to weigh
+  data, what weight does he assign each, and when does each label first appear?
+- suggested test: One item per user turn that names a source of data, such as the plan, a
+  corpus, an era, a wiki, the show or training data; the reader records the source named and
+  the instruction attached to it.
+
+### questions/closing-questions-taken-up
+
+- date: 2026-09-17
+- raised by: the same deliberation, from the AI Studio system instruction's "At the end of
+  your analysis, provide 1 or 2 targeted Socratic questions" (aistudio-system:29) and the
+  session's observation that Gemini and AI Studio responses ended in questions his next turn
+  answered, which it read as the push half of a stack without a pop, against his rule that a
+  surfaced decision is taken only when popped. Whether the answers reached the plan was not
+  checked.
+- question: When a model turn ends with questions to the author, how often does the next
+  user turn answer them, and how often does the answer appear afterwards in the plan?
+- suggested test: One item per model turn ending in one or more questions; the reader
+  records whether the next user turn answers any, and searches the working plan and the v1
+  archive for the answer's content.
+
+### questions/closing-report-items-in-plan
+
+- date: 2026-09-17
+- raised by: the same deliberation, from the session's count that 13 of 56 Claude
+  conversations end with a request of the form "Give a comprehensive report on all insights
+  made during this entire conversation ... and all superseded insights", and the Gemini
+  method appendix's rule that "a model response quoted in these reports is canon only if the
+  report says it was adopted" (report:32), with no adoption record anywhere in the
+  conversations corpus. Distinct from questions/prompts-behind-copied-responses, which
+  labels lineage responses by v1 archive pastes.
+- question: Of the items listed in the closing reports of Claude conversations, which appear
+  in the working plan afterwards, in whose voice, and which do not?
+- suggested test: One item per closing report; each listed insight checked by search against
+  the working plan, with the voice-attribution labels read where a match is found.
+
+### questions/v1-subject-notes-as-scene-sequences
+
+- date: 2026-09-17
+- raised by: recall: "Minette's super dense v1 notes are basically scene blueprints that
+  didn't have a home in v1's plot points. Check them and Réni's. Same as Blueblood's dense v1
+  notes." The session read the three subjects' notes with the attribution set beside them:
+  year-stamped beats, two to four per note, from 963 to 1006 for Minette, that the working
+  plan's Kitty of Westkeep and Lord of the Hedge plot points condense title for title;
+  Minette's and Réni's mostly in his voice, Blueblood's eight of ten framed pastes from
+  aistudio:62. Distinct from questions/v1-scene-notes-content-kinds, which asks plot-point
+  and link notes, not subject notes.
+- question: How many of the v1 archive's subject notes are dated scene sequences rather
+  than statements about the subject, on which subjects, and under which v1 triage labels?
+- suggested test: One item per v1 subject; each note's lines sorted as a scene beat with a
+  world year, a scene beat without one, or a subject statement; the voice-attribution label
+  beside each.
+
+### questions/plot-point-bodies-left-in-v1
+
+- date: 2026-09-17
+- raised by: the same reading, where each opening plot point of The Kitty of Westkeep
+  matched one v1 note by title ("Getting head pats as a filly" to note 4911, "Coltbert shames
+  Gisele" to 4913) and carried no body, and the thirteen plot points of The Lord of the Hedge
+  matched the framed pastes of aistudio:62 beat for beat. His framing of the trial that
+  raised it: "The migration exercises that methodology."
+- question: For the working plan's plot points outside TLTT, which v1 archive notes hold the
+  beats their titles name, and what share of those notes is Brian's voice?
+- suggested test: One item per working-plan plot point outside TLTT; the reader names the v1
+  note or notes holding the beat, or none, and reads the attribution label of each.
+
+### questions/fields-the-first-chapters-consume
+
+- date: 2026-09-17
+- raised by: recall, framing a minimal end-to-end trial: "I need to run the full pipeline
+  end to end, which means actually writing something to see what I need to inform writing,
+  and whether themes can be omitted and just the fabula and delivery blueprint are needed";
+  "The writing exercises the data scheme." A question for the trial run rather than a corpus
+  study; written here because the list is the one place open questions live and the trial
+  would be its test.
+- question: When the first chapters of a prequel are written from the planner, which fields
+  and tracks are read during the writing, which are never opened, and what is looked for
+  that no field holds?
+- suggested test: A log kept during the writing of every field opened and every lookup that
+  failed, read afterwards against the track definitions.

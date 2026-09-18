@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>StoryPlanner.V1Itemizer</RootNamespace>
+        <!-- The v1 itemizer (2026-09-17): cuts the v1-archive corpus into items for a batch. Three
+             units. `plot-points` and `theme-commentaries` read a native-schema v1 snapshot (the
+             dated backups in source_material_references/v1 sqlite/, opened immutable), where the
+             text sits in the fields Brian typed it into — a plot point's synopsis, outcome and
+             stakes, and each link's payload under its own link kind — rather than in the
+             paragraphs the 2026-05 conversion split it into. `subjects` reads the archive
+             .storyplan, whose subject types are the review's triage labels, which exist nowhere
+             else. Read-only throughout; an authored config per cut, as ChapterItemizer's. -->
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.Data.Sqlite" Version="10.0.7" />
+        <!-- The pin Core carries: 10.0.7 resolves SQLitePCLRaw 2.1.11, whose bundled SQLite has an advisory. -->
+        <PackageReference Include="SQLitePCLRaw.bundle_e_sqlite3" Version="2.1.12" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\StoryPlanner.BatchFiles\StoryPlanner.BatchFiles.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -12,7 +12,7 @@ for the corpora they cover, and the rest are files.
 
 - what: the Fimfiction stories analyzed under the v4 brief, whose population is `.claude/skills/analyze-story/populations.md`, plus The Princess and the Kaiser, added on 2026-09-14; and Brian's supplementary material on them
 - where: the texts as one markdown file per story, `<slug>.md`, in `source_material_references/fimfiction-favorites/`, gitignored with the rest of that folder, converted on 2026-09-14 by the converter in `tools/StoryPlanner.SourceTexts` (`--to-markdown`) from the epubs in `C:\Users\Brian\Documents\Fimfiction Favorites\epubs\` and `…\epubs1\`, and for pax-chrysalia and the-princess-and-the-kaiser from epubs Brian placed in the folder and deleted after conversion; the supplementary material in `source_material_references/`
-- read through: the story files as text, one file per story, each chapter under a `## Chapter N — <title>` heading, cut into one item per chapter by `tools/StoryPlanner.ChapterItemizer` under its config `configs/fimfiction-favorites.json`, which names the folder and the excluded stories; the supplementary material as markdown, plain-text and CSV files, with no reader in the repo
+- read through: the story files as text, one file per story, each chapter under a `## Chapter N — <title>` heading, cut into one item per chapter by `tools/StoryPlanner.ChapterItemizer` under its config `configs/fimfiction-favorites.json`, which names the folder and the excluded stories, or into one item per story whole under `configs/fimfiction-favorites-stories.json`; the supplementary material as markdown, plain-text and CSV files, with no reader in the repo
 - caveats: The two stories Brian has not read, fallout-equestria and your-human-and-you, are
   not in the folder (his ruling of 2026-09-14); their text exports sit at the top of
   `C:\Users\Brian\Documents\Fimfiction Favorites\`. green and romance-reports are in.
@@ -30,7 +30,7 @@ for the corpora they cover, and the rest are files.
 
 - what: Brian's six published stories (THLB, Wish, TEatS, NTL, GIYC, Falldale) and the naive TLTT chapters 1–2
 - where: plain-text files, italics as `*...*`, in `source_material_references/own_stories_md/`; the naive chapters as markdown in `source_material_references/`; the source epubs in `source_material_references/own_stories_epub/`
-- read through: the plain-text and markdown files as text; the epubs converted first by FicEpubReader in `tools/StoryPlanner.SourceTexts` (`dotnet run --project tools/StoryPlanner.SourceTexts -- --to-markdown`)
+- read through: the plain-text and markdown files as text; the six stories' `.txt` files are in the converter's format, each chapter under a `## Chapter N — <title>` heading, and `tools/StoryPlanner.ChapterItemizer` cuts them under its config `configs/own-fiction.json`, which leaves the naive chapters out; the epubs converted first by FicEpubReader in `tools/StoryPlanner.SourceTexts` (`dotnet run --project tools/StoryPlanner.SourceTexts -- --to-markdown`)
 - caveats: The planning-document revision histories of KU/NTL, GIYC and Falldale are raw exports in
   `Planning_Document_Revision_History/`, a mix of `.txt` from appscript and plain-text copies
   from Drive, with no reader in the repo; TLTT's own revision history is in `lineage`. The
@@ -54,22 +54,29 @@ for the corpora they cover, and the rest are files.
 - where: `lineage.db`, the file `STORYPLAN_LINEAGE` names in the MCP configs
 - read through: a SQLite database, opened with a SQLite client; its layers, tables and source-prefixed ids are documented in the `corpora` skill; written by the ingest `tools/StoryPlanner.Lineage`, the Google Doc layer by `tools/StoryPlanner.GDocHistory`
 - caveats: Provenance, never ground truth; the per-layer caveats and the capture procedure are in
-  CLAUDE.md. The Gemini weekly reports the database also holds are not corpus data. The Google
+  CLAUDE.md. The Gemini weekly reports the database also holds are not corpus data. A Gemini
+  entry is one prompt and its response; its thread and position come from the Gemini corpus
+  index, whose grouping method the repo does not document; `activity` entries are Canvas
+  records with no prompt, not dialogue. An AI Studio user turn that is a placeholder stands for
+  an attached Drive document that was never captured. The Google
   Doc layer's line diffs, computed beside its snapshots, are a lossless view and how the layer
   is read.
 
 ### v1-archive
 
 - what: the v1 planner's archive `.storyplan`, the capture-era dataset that holds the scene graph
-- where: the archive file the MCP configs name, `STORYPLAN_ARCHIVE`
-- read through: a SQLite database in the planner's schema, opened through `AppDbContext` in `StoryPlanner.Core` or a SQLite client; the semantics of its values are in the `storyplan-data` skill and in the `v1-archive-mining` skill for attribution
+- where: the archive file the MCP configs name, `STORYPLAN_ARCHIVE`; the dated snapshots of the v1 database, `TheLionessOfTallTale yyyy-MM-dd.db` in `source_material_references/v1 sqlite/`, downloaded from Google Drive
+- read through: the archive as a SQLite database in the planner's schema, opened through `AppDbContext` in `StoryPlanner.Core` or a SQLite client; the semantics of its values are in the `storyplan-data` skill and in the `v1-archive-mining` skill for attribution. A snapshot as a SQLite database in the v1 planner's own schema, opened read-only and immutable: `Chapters`, `PlotPoints` (synopsis, outcome, stakes), the entities `Characters`, `CodexEntries`, `Themes`, `Threads` and `Locations`, and four link tables, `PlotPointCharacters`, `PlotPointThemes`, `PlotPointThreads` and `PlotPointCodexEntries`, each link with its own payload text; the reader is `NativeV1` in `tools/StoryPlanner.V1Itemizer`, whose summary gives the columns and the v1 enums' names
 - caveats: `Confirmed` in the archive means review closed with the disposition not recorded (CLAUDE.md);
-  v1 and v2 rows never correspond by id or by name (the `storyplan-data` skill). Dated
-  snapshots of the v1 database, `TheLionessOfTallTale yyyy-MM-dd.db` in
-  `source_material_references/v1 sqlite/`, downloaded from Google Drive, are read raw and
-  immutable by `tools/StoryPlanner.VoiceAttribution`, every TEXT column of every table except
-  `GeminiEntries`, to date each archive note's first appearance; the 2025-12-23 backup is not
-  among them.
+  v1 and v2 rows never correspond by id or by name (the `storyplan-data` skill). The archive is
+  the 2026-04-18 snapshot converted in 2026-05 into the planner's schema and then reviewed: the
+  conversion split text fields into notes at their blank lines, as a plot point's synopsis
+  shows, merged the four link kinds into untyped links, held the entity kinds only as subjects,
+  and dropped the links' enum values; the subject types, which are the review's triage labels,
+  and the note states have no column in the native schema. A native note carries no plot point
+  id: it hangs off a chapter, an entity or a source material. `tools/StoryPlanner.VoiceAttribution`
+  reads the snapshots raw, every TEXT column of every table except `GeminiEntries`, to date each
+  archive note's first appearance; the 2025-12-23 backup is not among them.
 
 ### working-plan
 
