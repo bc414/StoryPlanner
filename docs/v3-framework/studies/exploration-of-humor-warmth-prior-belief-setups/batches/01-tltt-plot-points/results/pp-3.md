@@ -1,0 +1,5 @@
+- effects:
+  - warmth | reader feels Henri's care in going out of his way to fetch rations and an old translator so Fluttershy can treat the changeling POWs humanely | implied | Henri fetches all the captured love rations, gives her an old translator | Synopsis
+  - prior belief | reader is led to see the translator as a neutral, handy gadget ('wow, what a useful invention'), which is immediately overturned when Henri reveals it as a soulless artifact of Herzlander cultural erasure with disturbing translation quirks | stated | Fluttershy's praise followed by Henri's remark it was soulless | Synopsis
+  - horror/unease | reader is meant to be unsettled by the translator rendering Equestrian names as literal objects, an effect the item itself flags as horror | stated | 'the horror of the translator translating Equestrian names as objects' | Synopsis
+  - foreboding/tension | reader is made anxious about the danger of the POW situation when Henri warns that plain honesty ('Hi, I'm Fluttershy') could mark her as a coward or prey to the changelings | implied | Henri flinches and warns her not to say that | Synopsis

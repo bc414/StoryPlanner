@@ -588,3 +588,15 @@
   that no field holds?
 - suggested test: A log kept during the writing of every field opened and every lookup that
   failed, read afterwards against the track definitions.
+
+### questions/goals-peer-to-humor-warmth-prior-belief
+
+- date: 2026-09-17
+- raised by: preparing the exploration of questions/humor-warmth-prior-belief-setups, whose
+  three goals come from his list of 2026-08-28, "Humor, establishing prior beliefs to be
+  shattered later, emotional warmth/feel good sensations, and potentially others". Asking for
+  the exploration: "It should also ask for what else that is peer to those goals". Theme was
+  set beside the three as already known rather than sought, since the v1 archive's theme links
+  and their commentaries record it by name.
+- question: Besides humor, warmth, prior-belief setups and theme, what other goals of the same
+  order do the v1 archive's notes record?

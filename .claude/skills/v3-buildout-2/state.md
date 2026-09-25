@@ -18,6 +18,13 @@ Never hand-edited: `render` rewrites this file whole from the study registry, th
 - batches: 01-chapters [-, directions-1, executing (24/1116)] 02-chapters-directions-2 [-, directions-2, executing (602/1116)]
 - furthest process whose study-scoped writes all exist: explore-items (conducting-an-exploration)
 
+### exploration-of-humor-warmth-prior-belief-setups
+
+- type: exploration
+- artifacts present: directions (3) definition (3) index (3) items (3) calls (3) results (3) tally leads
+- batches: 01-tltt-plot-points [-, directions-1, executing (54/379)] 02-tltt-plot-points-directions-2 [-, directions-2, executing (20/379)] 03-tltt-plot-points-directions-3 [-, directions-3, tallied]
+- furthest process whose study-scoped writes all exist: review-leads (reviewing-leads)
+
 ## Iterations
 
 None: `docs/v3-framework/iterations/` does not exist.
@@ -34,7 +41,7 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 
 ## Questions
 
-32 open, 0 withdrawn.
+33 open, 0 withdrawn.
 
 | question | covered by (calibrated directions) | answered by (verification) |
 |---|---|---|
@@ -70,6 +77,7 @@ Absent: `docs/v3-framework/pipeline/claiming/` does not exist.
 | v1-subject-notes-as-scene-sequences | nothing | nothing |
 | plot-point-bodies-left-in-v1 | nothing | nothing |
 | fields-the-first-chapters-consume | nothing | nothing |
+| goals-peer-to-humor-warmth-prior-belief | nothing | nothing |
 
 ## Hypotheses
 

@@ -1,0 +1,5 @@
+- effects:
+  - humor | Celestia, exhausted, tries to fob the sex talk off onto Luna as 'more her area' as Princess of the Night, then the scene lurches from an awkward chat into a full tirade about serfdom and industrialization | absurd deflection, disproportionate escalation, exhausted princess wanting things over with | synopsis
+  - prior belief | Luna states outright that she is fine with everything Celestia has suppressed | AJ immediately answers 'I don't believe it,' casting doubt on Luna's own claim within the same exchange | synopsis
+  - warmth | Rarity steps in to shield Celestia, telling AJ that's enough because 'it's not fair on the poor dear' | a friend defending an exhausted, cornered Celestia | synopsis
+  - unease | Celestia's rant links suppressing sex to serfdom, sexual abuse, and industrialization as 'industrialized serfdom,' framing her policy as born from real horror rather than mere prudishness | angry, specific invocation of serfdom and sexual abuse as the reason ambition and sex were shut down | synopsis
